@@ -1,0 +1,25 @@
+{
+  "status": "APPROVED",
+  "artifact": "top-end-bike-journey-v1.procedure.json",
+  "sha256": "f9207a0cd26f1412979f3100584a362bcc6653119dde5bae3c43660fb7f4a6a3",
+  "steps": 169,
+  "dependencies": [
+    {
+      "artifact": "docs/research/workshop-pass12/yamaha-2022-frame/engine-removal-refit-v1.procedure.json",
+      "sha256": "cbf8d699bd55eea9bd8d5ba98c459829dc8aa94110736340679fc3b4f5f2244a",
+      "kind": "approved_source_operation"
+    },
+    {
+      "artifact": "docs/research/workshop-pass12/yamaha-2022-engine/top-end-bench-v1.procedure.json",
+      "sha256": "b8ef616901d5dc9a45dc7fce825602238014c879d224234d92d0893d8c2ed1b7",
+      "kind": "approved_source_operation"
+    },
+    {
+      "artifact": "docs/research/workshop-pass12/yamaha-2022-commissioning/post-rebuild-commissioning-v1.procedure.json",
+      "sha256": "8a32d6216ba22e82295a4c51966c0d0a82717d530e6177d2b56cad9086183bd8",
+      "kind": "approved_source_operation"
+    }
+  ],
+  "next": "Compose approved corrected lower engine, then independent major-route review.",
+  "database_writes": false
+}

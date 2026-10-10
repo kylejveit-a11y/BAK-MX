@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "target": {
+    "manufacturer": "Husqvarna",
+    "model": "FC 450",
+    "model_year": 2025,
+    "variant": "standard",
+    "region": "US"
+  },
+  "scope_status": "RETAIL_CATALOG_EXACT_MODEL_YEAR_MARKET_REVIEW_PENDING",
+  "sources": [
+    {
+      "id": "hq-frame",
+      "url": "https://www.motosport.com/oem-parts/husqvarna/2025/fc-450/frame",
+      "locator": "Exact model/year heading and parts rows",
+      "access": "PAGE_READ"
+    },
+    {
+      "id": "hq-cylinder",
+      "url": "https://www.motosport.com/dirtbike/oem-parts/husqvarna/2025/fc-450/cylinder",
+      "locator": "Exact model/year heading and four parts rows",
+      "access": "PAGE_READ"
+    }
+  ],
+  "assemblies": [
+    {
+      "id": "frame",
+      "name": "Frame",
+      "source_id": "hq-frame",
+      "complete": false
+    },
+    {
+      "id": "cylinder",
+      "name": "Cylinder",
+      "source_id": "hq-cylinder",
+      "complete": false
+    }
+  ],
+  "parts": [
+    {
+      "assembly_id": "frame",
+      "callout": "1",
+      "part_number": "A46003001200HF",
+      "description": "Frame",
+      "quantity": null,
+      "source_id": "hq-frame",
+      "specifications": []
+    },
+    {
+      "assembly_id": "frame",
+      "callout": "2",
+      "part_number": "A36003002000",
+      "description": "Subframe",
+      "quantity": null,
+      "source_id": "hq-frame",
+      "specifications": []
+    },
+    {
+      "assembly_id": "frame",
+      "callout": "4",
+      "part_number": "09000008016U0",
+      "description": "Self-locking M8x16 screw",
+      "quantity": null,
+      "source_id": "hq-frame",
+      "specifications": []
+    },
+    {
+      "assembly_id": "frame",
+      "callout": "5",
+      "part_number": "79003003000",
+      "description": "M8x18 screw",
+      "quantity": null,
+      "source_id": "hq-frame",
+      "specifications": []
+    },
+    {
+      "assembly_id": "frame",
+      "callout": "6",
+      "part_number": "A4600301310001",
+      "description": "Left engine brace",
+      "quantity": null,
+      "source_id": "hq-frame",
+      "specifications": []
+    },
+    {
+      "assembly_id": "frame",
+      "callout": "7",
+      "part_number": "A4600301410001",
+      "description": "Right engine brace",
+      "quantity": null,
+      "source_id": "hq-frame",
+      "specifications": []
+    },
+    {
+      "assembly_id": "frame",
+      "callout": "8",
+      "part_number": "0035080206S",
+      "description": "M8x20 screw",
+      "quantity": null,
+      "source_id": "hq-frame",
+      "specifications": []
+    },
+    {
+      "assembly_id": "frame",
+      "callout": "15",
+      "part_number": "59003013000",
+      "description": "Engine brace screw M10x123",
+      "quantity": null,
+      "source_id": "hq-frame",
+      "specifications": []
+    },
+    {
+      "assembly_id": "cylinder",
+      "callout": "1",
+      "part_number": "A48030038000",
+      "description": "Cylinder and piston",
+      "quantity": null,
+      "source_id": "hq-cylinder",
+      "specifications": []
+    },
+    {
+      "assembly_id": "cylinder",
+      "callout": "2",
+      "part_number": "0402050980",
+      "description": "Needle roller 5x9.8",
+      "quantity": null,
+      "source_id": "hq-cylinder",
+      "specifications": []
+    },
+    {
+      "assembly_id": "cylinder",
+      "callout": "3",
+      "part_number": "79430035000",
+      "description": "Cylinder base gasket",
+      "quantity": null,
+      "source_id": "hq-cylinder",
+      "specifications": []
+    },
+    {
+      "assembly_id": "cylinder",
+      "callout": "4",
+      "part_number": "58530014100",
+      "description": "Dowel sleeve 10.2x12.5x10",
+      "quantity": null,
+      "source_id": "hq-cylinder",
+      "specifications": []
+    }
+  ],
+  "full_coverage": false,
+  "notes": [
+    "Retail catalog model/year confirmed; US market fitment awaits OEM corroboration.",
+    "Suggested cart quantity is not installed quantity.",
+    "No torque inherited from KTM or thread size.",
+    "Cylinder table captured, diagram visual enumeration still unreviewed."
+  ]
+}

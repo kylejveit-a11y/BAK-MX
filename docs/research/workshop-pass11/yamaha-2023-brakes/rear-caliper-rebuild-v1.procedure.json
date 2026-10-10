@@ -1,0 +1,497 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2023-yz450f-us-rear-caliper-rebuild-v1",
+  "component": "brakes",
+  "affected_components": [
+    "rear_brake",
+    "brakes",
+    "rear_wheel",
+    "wheels",
+    "swingarm",
+    "chain"
+  ],
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2023,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Rebuild the stock rear brake caliper",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete rear-caliper seal/piston service with rear-wheel access, chain adjustment, bleeding and refit. Serviceable master cylinder, hose, disc and wheel required.",
+  "entry_state": [
+    "Assembled exact US2023 stock YZ450F with serviceable rear master cylinder, hose, disc and wheel.",
+    "Correct rear caliper seals and any needed piston/pad assemblies available."
+  ],
+  "exit_state": [
+    "Rear caliper rebuilt; wheel, chain, pad hardware and hose restored.",
+    "Rear circuit bled and closed; leak, pedal and brake-effect checks passed."
+  ],
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf",
+    "document_sha256": "9a8605e26301ba1d0d1d21e93d23cca721bdcdbece6188775626a8819332aa9f",
+    "document_revision": "BHR-2819U-10 / LIT-11626-36-32; first edition July2022",
+    "pdf_pages": [
+      8,
+      84,
+      102,
+      103,
+      104,
+      105,
+      106,
+      124,
+      127,
+      129,
+      130,
+      131,
+      143,
+      144,
+      146,
+      149,
+      150,
+      151
+    ],
+    "printed_pages": [
+      "Symbols (unnumbered)",
+      "84: 3-6",
+      "102: 3-24",
+      "103: 3-25",
+      "104: 3-26",
+      "105: 3-27",
+      "106: 3-28",
+      "124: 4-8",
+      "127: 4-11",
+      "129: 4-13",
+      "130: 4-14",
+      "131: 4-15",
+      "143: 4-27",
+      "144: 4-28",
+      "146: 4-30",
+      "149: 4-33",
+      "150: 4-34",
+      "151: 4-35"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Exact2023 source and all instruction/verification content independently reviewed by root; author diagram/text audit complete. Source mechanics unchanged after independent review."
+  },
+  "applicability": {
+    "included": "Stock rear brake on exact US2023 YZ450F",
+    "excluded": [
+      "Other model years",
+      "Replacement aftermarket brake system",
+      "Damaged master cylinder/hose/disc requiring separate replacement"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "required_tools": [
+    {
+      "name": "Stable support, suitable hand tools and precision torque tools",
+      "size": "1.5–135 Nm; include rear axle tooling"
+    },
+    {
+      "name": "Compressed-air supply, protective rag and eye protection",
+      "size": "For controlled piston extraction and clearing passages"
+    },
+    {
+      "name": "Clear bleed hose, waste container and clean fluid-safe trays",
+      "size": "Fit bleed screw securely"
+    },
+    {
+      "name": "Pad-thickness measuring tool",
+      "size": "1.0 mm limit"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "Fresh DOT4 brake fluid",
+      "purpose": "Cleaning, lubrication and complete rear-circuit refill"
+    },
+    {
+      "name": "One piston seal and one dust seal",
+      "purpose": "Mandatory rear caliper renewals"
+    },
+    {
+      "name": "Two new copper union washers",
+      "purpose": "Rear caliper hose connection"
+    },
+    {
+      "name": "Silicone grease",
+      "purpose": "Only diagram-marked seals and sliding pins"
+    },
+    {
+      "name": "Replacement piston and paired rear pad assemblies if required",
+      "purpose": "Match exact stock rear caliper"
+    },
+    {
+      "name": "Lithium-soap-based grease",
+      "purpose": "Rear wheel seal lips and axle as illustrated"
+    }
+  ],
+  "preflight": [
+    "Match exploded-view rear pad assemblies, springs and seal grooves.",
+    "Contain piston ejection; protect surfaces and eyes from fluid."
+  ],
+  "critical_stop_conditions": [
+    "Damaged bore/body/bracket or unserviceable replacement components.",
+    "Fluid leaks, persistent air, spongy lever or failed brake-effect check."
+  ],
+  "steps": [
+    {
+      "id": "prepare",
+      "title": "Prepare rear circuit",
+      "instruction": "Secure bike upright with rear wheel raised; select neutral. Keep rear reservoir top horizontal. Remove reservoir cap, diaphragm plate and diaphragm; protect surfaces from fluid.",
+      "source_pdf_pages": [
+        102,
+        104,
+        127,
+        146
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=102",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=104",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=127",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=146"
+      ],
+      "depends_on": [],
+      "verification": "Bike stable; only rear circuit opened.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    },
+    {
+      "id": "drain",
+      "title": "Drain the rear brake",
+      "instruction": "Remove caliper protector and hose union bolt with both copper washers. Place hose end in a catch container and pump out fluid before disassembling caliper. Discard old fluid and washers.",
+      "source_pdf_pages": [
+        143,
+        150
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=143",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=150"
+      ],
+      "depends_on": [
+        "prepare"
+      ],
+      "verification": "Circuit drained; do not operate pedal once wheel/pads are out.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    },
+    {
+      "id": "wheel-remove",
+      "title": "Remove rear wheel",
+      "instruction": "Remove the axle nut. Loosen both adjuster locknuts and turn the adjusting bolts inward to let the wheel move forward. Support the wheel, withdraw the axle and retain both pullers and collars by side. Push the wheel forward, lift the chain from the sprocket and remove the wheel.",
+      "source_pdf_pages": [
+        127,
+        129
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=127",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=129"
+      ],
+      "depends_on": [
+        "drain"
+      ],
+      "verification": "Wheel and disc protected; collars/pullers retained by side.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    },
+    {
+      "id": "strip",
+      "title": "Strip caliper and pads",
+      "instruction": "Remove plug, pin and both pad assemblies. Separate caliper/bracket and retain both pad springs in diagram 143 positions. Contain piston with a rag and expel using air through hose port; never pry. Remove old seals and bleeder.",
+      "source_pdf_pages": [
+        143,
+        144,
+        150
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=143",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=144",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=150"
+      ],
+      "depends_on": [
+        "wheel-remove"
+      ],
+      "verification": "Piston contained; body/bore undamaged.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    },
+    {
+      "id": "inspect",
+      "title": "Inspect components",
+      "instruction": "Replace rusted/scratched/worn piston; replace scratched/worn cylinder or cracked/damaged caliper body. Replace damaged bracket. Clear blocked passages with air. Inspect wheel, axle, collars and bearings before refitting.",
+      "source_pdf_pages": [
+        124,
+        129,
+        150
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=124",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=129",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=150"
+      ],
+      "depends_on": [
+        "strip"
+      ],
+      "verification": "Record defects; proceed only with serviceable or correctly replaced parts.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    },
+    {
+      "id": "seals",
+      "title": "Renew seals and piston",
+      "instruction": "Clean internals with fresh DOT 4, never solvent. Fit new piston and dust seals in diagram 144 grooves using silicone grease at S marks. Lubricate piston with DOT 4 and insert; install bleeder 5 Nm.",
+      "source_pdf_pages": [
+        8,
+        144,
+        150,
+        151
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=8",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=144",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=150",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=151"
+      ],
+      "depends_on": [
+        "inspect"
+      ],
+      "verification": "Piston seal inward of dust seal; both seated without damage.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    },
+    {
+      "id": "pads",
+      "title": "Restore bracket and pads",
+      "instruction": "Apply silicone grease to diagram 143 sliding-pin locations. Reunite bracket/caliper. Restore both springs and complete pad assemblies as illustrated; replace pads as a set at 1.0 mm lining limit. Engage pad projections in recesses and insert pin temporarily.",
+      "source_pdf_pages": [
+        8,
+        143,
+        149
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=8",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=143",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=149"
+      ],
+      "depends_on": [
+        "seals"
+      ],
+      "verification": "Record pad assessment; spring/backing-part positions match diagram.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    },
+    {
+      "id": "wheel-refit",
+      "title": "Refit rear wheel",
+      "instruction": "Grease the oil-seal lips with lithium-soap-based grease and refit the collars. Place the disc between the brake pads and locate the caliper bracket correctly in its swingarm guide. Push the wheel forward and put the chain onto the sprocket. Fit the left puller and insert the greased axle from the left.",
+      "source_pdf_pages": [
+        127,
+        130,
+        131
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=127",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=130",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=131"
+      ],
+      "depends_on": [
+        "pads"
+      ],
+      "verification": "Bracket correctly engaged in swingarm guide; disc between pads.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    },
+    {
+      "id": "wheel-hardware",
+      "title": "Install axle hardware",
+      "instruction": "Fit the right chain puller, washer and axle nut. Leave the nut temporarily snug until chain adjustment is complete.",
+      "source_pdf_pages": [
+        131
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=131"
+      ],
+      "depends_on": [
+        "wheel-refit"
+      ],
+      "verification": "Both pullers and collars in correct positions.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    },
+    {
+      "id": "chain",
+      "title": "Adjust drive chain",
+      "instruction": "With the rear wheel raised and gearbox in neutral, pull the chain upward above the chain-guide mounting bolt with about 50 N. Measure between the drive-chain guide and the bottom of the chain at the exact diagram location. Adjust both sides equally to 50–60 mm. Push the wheel forward so each puller/end plate is seated against the swingarm end.",
+      "source_pdf_pages": [
+        105,
+        131
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=105",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=131"
+      ],
+      "depends_on": [
+        "wheel-hardware"
+      ],
+      "verification": "Record slack and even alignment at source measurement location.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    },
+    {
+      "id": "axle",
+      "title": "Secure rear axle",
+      "instruction": "Tighten the rear axle nut to 135 N·m and both chain-adjuster locknuts to 21 N·m. Recheck the chain slack after tightening.",
+      "source_pdf_pages": [
+        106,
+        131
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=106",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=131"
+      ],
+      "depends_on": [
+        "chain"
+      ],
+      "verification": "Record135 Nm axle and21 Nm locknuts; slack rechecked.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    },
+    {
+      "id": "hose",
+      "title": "Connect brake hose",
+      "instruction": "Fit two new copper washers and hose; match diagram 151 pipe-bend orientation and contact with caliper projection. Tighten union bolt 30 Nm. Tighten pad pin 17 Nm, plug 2.5 Nm and protector bolts 7 Nm.",
+      "source_pdf_pages": [
+        143,
+        149,
+        151
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=143",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=149",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=151"
+      ],
+      "depends_on": [
+        "axle"
+      ],
+      "verification": "Record new washers, hose orientation and torques.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    },
+    {
+      "id": "fill",
+      "title": "Fill for bleeding",
+      "instruction": "Fill horizontal reservoir above the minimum mark shown on PDF 103 with fresh DOT 4 and fit diaphragm. Secure clear hose to bleeder and lead to catch container. Prevent water entry, overflow and reservoir running dry.",
+      "source_pdf_pages": [
+        102,
+        103,
+        104,
+        151
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=102",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=103",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=104",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=151"
+      ],
+      "depends_on": [
+        "hose"
+      ],
+      "verification": "Correct fluid; sufficient supply throughout bleeding.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    },
+    {
+      "id": "bleed",
+      "title": "Bleed rear circuit",
+      "instruction": "Slowly pump pedal several times, then press fully and hold. Open bleeder; close before releasing pedal. Repeat until hose fluid is bubble-free, replenishing reservoir. If tiny bubbles persist, let fluid settle a few hours and repeat.",
+      "source_pdf_pages": [
+        104,
+        105
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=104",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=105"
+      ],
+      "depends_on": [
+        "fill"
+      ],
+      "verification": "Record bubble-free fluid and firm pedal.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    },
+    {
+      "id": "close",
+      "title": "Close reservoir",
+      "instruction": "Tighten bleeder 5 Nm and refit cap. Restore fluid above the minimum mark shown on PDF 103 with bike upright and reservoir horizontal. Refit diaphragm, plate and cap in diagram 146 order; cap screws 1.5 Nm. Clean all spills.",
+      "source_pdf_pages": [
+        102,
+        103,
+        105,
+        144,
+        146
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=102",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=103",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=105",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=144",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=146"
+      ],
+      "depends_on": [
+        "bleed"
+      ],
+      "verification": "Record final fluid level and closure torques.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    },
+    {
+      "id": "verify",
+      "title": "Check wheel and brake",
+      "instruction": "Turn rear wheel; check chain tracking and correct disc position. Apply rear brake repeatedly; inspect hose/connections for leaks. A soft pedal needs further bleeding. After stationary checks pass, check brake effect on a dry test surface.",
+      "source_pdf_pages": [
+        84,
+        104,
+        131,
+        151
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=84",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=104",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=131",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=151"
+      ],
+      "depends_on": [
+        "close"
+      ],
+      "verification": "Record no leaks, firm pedal and proper brake effect; lower supported bike before riding.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    }
+  ],
+  "publication_status": "APPROVED",
+  "authoring_template": {
+    "path": "docs/research/workshop-pass10/yamaha-2024-brakes/rear-caliper-rebuild-v1.procedure.json",
+    "sha256": "0b24a3de223cf1bb5d72ba80eec727fc4f8701e1f8ff7c288daa901e9d9d8e2c",
+    "scope": "Sequence structure only; source identity does not transfer across years."
+  },
+  "operation_dependencies": []
+}

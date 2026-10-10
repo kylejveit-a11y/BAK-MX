@@ -1,0 +1,142 @@
+[
+  {
+    "code": "DP3-2819U-10",
+    "model": "YZ250FX",
+    "year": 2026,
+    "start": 116,
+    "sag": 400,
+    "fr": 7,
+    "fc": 7,
+    "sr": 10,
+    "hs": "1+5/8",
+    "ls": 10,
+    "preload": 9,
+    "source_id": "yamaha-us-2026-yz250fx-oem",
+    "sha256": "9d463606f677836ffb448b86cb06524412d24551b2edfbbf2b89f16d22277130",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/DP3-2819U-10_02.pdf",
+    "identity_pages": [
+      1,
+      3
+    ],
+    "author_text_pages": [
+      115,
+      116,
+      117,
+      118,
+      119,
+      400,
+      401
+    ],
+    "author_rendered_pages": [
+      116,
+      119,
+      400
+    ],
+    "scope": "Stock damping reset and measured original-spring preload only; no internal rebuild or year inheritance."
+  },
+  {
+    "code": "DP1-2819U-10",
+    "model": "YZ450FX",
+    "year": 2026,
+    "start": 112,
+    "sag": 392,
+    "fr": 8,
+    "fc": 12,
+    "sr": 8,
+    "hs": "1",
+    "ls": 10,
+    "preload": 11,
+    "source_id": "yamaha-us-2026-yz450fx-oem",
+    "sha256": "60edb22833ba4f26f52e4254fb9e5ff66492038061a34f978e260809b151d7e6",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/DP1-2819U-10_02.pdf",
+    "identity_pages": [
+      1,
+      3
+    ],
+    "author_text_pages": [
+      111,
+      112,
+      113,
+      114,
+      115,
+      392,
+      393
+    ],
+    "author_rendered_pages": [
+      112,
+      115,
+      392
+    ],
+    "scope": "Stock damping reset and measured original-spring preload only; no internal rebuild or year inheritance."
+  },
+  {
+    "code": "BXA-2819U-10",
+    "model": "YZ250FX",
+    "year": 2025,
+    "start": 114,
+    "sag": 398,
+    "fr": 7,
+    "fc": 7,
+    "sr": 10,
+    "hs": "1+5/8",
+    "ls": 10,
+    "preload": 9,
+    "source_id": "yamaha-us-2025-yz250fx-oem",
+    "sha256": "e9b3961ba75f0b13e024fd0b60abff1041d166b27e57c1e3c1783c72c12ee67b",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BXA-2819U-10_02.pdf",
+    "identity_pages": [
+      1,
+      3
+    ],
+    "author_text_pages": [
+      113,
+      114,
+      115,
+      116,
+      117,
+      398,
+      399
+    ],
+    "author_rendered_pages": [
+      114,
+      117,
+      398
+    ],
+    "scope": "Stock damping reset and measured original-spring preload only; no internal rebuild or year inheritance."
+  },
+  {
+    "code": "BNK-2819U-11",
+    "model": "WR450F",
+    "year": 2025,
+    "start": 124,
+    "sag": 416,
+    "fr": 7,
+    "fc": 13,
+    "sr": 10,
+    "hs": "1+1/2",
+    "ls": 10,
+    "preload": 13,
+    "source_id": "yamaha-us-2025-wr450f-oem",
+    "sha256": "8b93e87387eaf46b4eff34575b2e2aa4262ec268475225176f43537483ebad29",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BNK-2819U-11_02.pdf",
+    "identity_pages": [
+      1,
+      3
+    ],
+    "author_text_pages": [
+      123,
+      124,
+      125,
+      126,
+      127,
+      416,
+      417
+    ],
+    "author_rendered_pages": [
+      124,
+      127,
+      416
+    ],
+    "scope": "Stock damping reset and measured original-spring preload only; no internal rebuild or year inheritance."
+  }
+]

@@ -1,0 +1,435 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2026-yz450f-crankcase-bench-v2",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Open, inspect and close the crankcases",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete bounded bench operation from the declared entry state to the declared exit state. Whole-bike access and downstream engine closure are separate dependencies.",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      7,
+      56,
+      57,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      292
+    ],
+    "review_status": "APPROVED",
+    "review_note": "All cited operation pages visually reviewed. General symbols and conditional torque rules retained.",
+    "printed_pages": [
+      "Symbols (unnumbered)",
+      "2-9",
+      "2-10",
+      "5-73",
+      "5-74",
+      "5-75",
+      "5-76",
+      "5-77",
+      "5-78",
+      "5-79",
+      "5-80",
+      "5-81",
+      "5-82",
+      "5-89"
+    ]
+  },
+  "applicability": {
+    "included": "Exact US2026 YZ450F standard stock components only",
+    "excluded": [
+      "Automatic certification of dependent crank/transmission work",
+      "Engine access/closure outside case boundary"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "affected_components": [
+    "engine",
+    "crankcase",
+    "transmission"
+  ],
+  "required_tools": [
+    {
+      "name": "Soft hammer, appropriate case support, circlip tools"
+    },
+    {
+      "name": "Bearing press and parallel drivers contacting specified races"
+    },
+    {
+      "name": "Low-range torque tools accurate at0.5/10/12/30Nm"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "New case oil seal, oil-strainer O-ring and small oil-passage gasket"
+    },
+    {
+      "name": "New exact bearings as required; never reuse a pressed-out bearing"
+    },
+    {
+      "name": "Engine oil, lithium-soap grease, LOCTITE"
+    },
+    {
+      "name": "YamahaBond1215/ThreeBond1215"
+    }
+  ],
+  "preflight": [
+    "Removed/drained engine with top end and named external assemblies removed.",
+    "Transmission/crankshaft removal and installation modules available."
+  ],
+  "entry_state": [
+    "Removed/drained engine with top end and named external assemblies removed.",
+    "Transmission/crankshaft removal and installation modules available."
+  ],
+  "exit_state": [
+    "Cases closed around inspected crank/transmission; lower chain/guide restored and secured; external assemblies/top end remain off."
+  ],
+  "critical_stop_conditions": [
+    "Any required measurement unresolved or replacement criteria not satisfied.",
+    "Unidentified diagram orientation, missing parts, damage or abnormal binding."
+  ],
+  "material_policy": {
+    "LT": "Locking agent (LOCTITE) per PDF7. Grade unspecified by this manual; no grade inferred.",
+    "lubrication": "Follow each explicit E/M/LS/S application; general dry torque does not override a lubricated joint."
+  },
+  "steps": [
+    {
+      "id": "entry",
+      "title": "Confirm complete case-opening access",
+      "instruction": "Engine is out and drained. Piston/cylinder, oil pump, shift segment, generator/stator, clutch-release unit/pushrod2 and external crank/balancer gear stacks must already be removed. Record that each access operation is actually complete before opening cases.",
+      "source_pdf_pages": [
+        276,
+        277,
+        283
+      ],
+      "verification": [
+        "All named opening prerequisites confirmed."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=276",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=277",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=283"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": []
+    },
+    {
+      "id": "chain",
+      "title": "Remove lower timing-chain parts",
+      "instruction": "Remove exhaust-side chain guide and stopper plate, then lift away the timing chain. Retain each part by location and keep the crankcase opening clean.",
+      "source_pdf_pages": [
+        276
+      ],
+      "verification": [
+        "Guide, plate and chain retained."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=276"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "entry"
+      ]
+    },
+    {
+      "id": "bolts",
+      "title": "Release the case fasteners",
+      "instruction": "Map all nine case bolts to the source drawing: three45mm, three60mm and three75mm bolts. Loosen every bolt one quarter-turn at a time in successive passes until loose, then remove them.",
+      "source_pdf_pages": [
+        276,
+        280
+      ],
+      "verification": [
+        "Nine bolts removed; lengths and positions logged."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=276",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=280"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "chain"
+      ]
+    },
+    {
+      "id": "split",
+      "title": "Separate the right case horizontally",
+      "instruction": "Support the engine with the left crankcase down. Separate the right case horizontally so crankshaft and transmission remain in the left half. Insert only the screwdriver tip at the illustrated splitting slit; light soft-hammer taps may be made only on the indicated slit/mount bosses. Do not strike mating faces or force a case still held by a bolt or fitting.",
+      "source_pdf_pages": [
+        280
+      ],
+      "verification": [
+        "Right case separated with mating faces undamaged."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=280"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "bolts"
+      ]
+    },
+    {
+      "id": "internals-out",
+      "title": "Complete the internal removal operations",
+      "instruction": "Retain the two case dowels and O-ring. Complete the transmission removal and crankshaft/balancer removal operations before case bearing work. Preserve the oil-strainer and oil-nozzle positions in the two case halves.",
+      "source_pdf_pages": [
+        277,
+        280,
+        283,
+        284
+      ],
+      "verification": [
+        "Cases empty of shafts; dowels/O-ring and oil components accounted for."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=277",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=280",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=283",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=284"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "split"
+      ]
+    },
+    {
+      "id": "clean",
+      "title": "Clean and inspect the case halves",
+      "instruction": "Remove residual gasket material without damaging the sealing faces; clean the cases with mild solvent. Clear oil passages with compressed air. Replace cracked/damaged cases. Inspect the timing chain for stiffness and guides for wear; chain faults require the specified chain and sprocket set replacement, not an isolated reused damaged sprocket.",
+      "source_pdf_pages": [
+        280
+      ],
+      "verification": [
+        "Case faces, oil passages, chain and guide assessment recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=280"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "internals-out"
+      ]
+    },
+    {
+      "id": "strainer",
+      "title": "Inspect the strainer and nozzles",
+      "instruction": "Inspect the oil strainer for damage and replace if damaged; wash contamination away with solvent. Keep the two different oil nozzles identified by their respective left/right locations. Account for the small oil-passage gasket so it cannot be omitted at closure.",
+      "source_pdf_pages": [
+        277,
+        281
+      ],
+      "verification": [
+        "Strainer clean/intact; nozzle and gasket positions recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=277",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=281"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "clean"
+      ]
+    },
+    {
+      "id": "bearings",
+      "title": "Replace required case bearings correctly",
+      "instruction": "For a bearing requiring replacement, remove its retainer and press out against the inner race; the removed bearing is discarded. Press the new bearing parallel by its outer race only, fully to the0mm seated positions in the left/right exploded diagrams. Oil the new bearings. Match each original bearing to its exact bore and retainer.",
+      "source_pdf_pages": [
+        278,
+        279,
+        280
+      ],
+      "verification": [
+        "Replaced bearing locations and fully seated positions saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=278",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=279",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=280"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "strainer"
+      ]
+    },
+    {
+      "id": "retainers",
+      "title": "Install case retainers and new seal",
+      "instruction": "Refit bearing retainers with LOCTITE: ordinary retainer bolts12Nm, crankshaft-bearing retainer bolts30Nm, exactly at the diagram locations. Fit a new left-case oil seal parallel at0\u20130.5mm illustrated depth and grease its lip with lithium-soap grease.",
+      "source_pdf_pages": [
+        278,
+        279,
+        281
+      ],
+      "verification": [
+        "Every retainer classified and torqued; new seal depth saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=278",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=279",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=281"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "bearings"
+      ]
+    },
+    {
+      "id": "internals-in",
+      "title": "Install and verify the internal assemblies",
+      "instruction": "Complete crankshaft/balancer installation and transmission installation into the left case. Record their measured inspection results and smooth transmission operation before closing the case. Keep the connecting rod atTDC for case assembly.",
+      "source_pdf_pages": [
+        281,
+        283,
+        285,
+        292
+      ],
+      "verification": [
+        "Crank and transmission operations complete; rod atTDC."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=281",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=283",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=285",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=292"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "retainers"
+      ]
+    },
+    {
+      "id": "oil-parts",
+      "title": "Restore the case oil components",
+      "instruction": "Install oil nozzle1 in the right case with its bolt10Nm and LOCTITE. Install oil nozzle2 in the left case at0.5Nm. Refit the strainer, its new O-ring with lithium-soap grease, both dowels and the new illustrated small gasket. Use the exact left/right exploded views. Tighten both oil-strainer bolts10Nm with LOCTITE; this is separate from the nozzle1 bolt.",
+      "source_pdf_pages": [
+        277,
+        281,
+        57,
+        276
+      ],
+      "verification": [
+        "Nozzles10Nm/0.5Nm; strainer O-ring, dowels and small gasket verified.",
+        "Both oil-strainer bolts10Nm with locking agent recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=277",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=281",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=57",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=276"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "internals-in"
+      ]
+    },
+    {
+      "id": "seal",
+      "title": "Seal and join the halves",
+      "instruction": "Apply YamahaBond1215/ThreeBond1215 to the mating-face path shown in the source diagram. Keep passages unobstructed. With the rod held atTDC, lower the right case onto the left case horizontally, matching shafts and dowels without force.",
+      "source_pdf_pages": [
+        281,
+        282
+      ],
+      "verification": [
+        "Specified sealant and path; rodTDC; cases seated."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=281",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=282"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "oil-parts"
+      ]
+    },
+    {
+      "id": "case-torque",
+      "title": "Tighten the matched case bolts",
+      "instruction": "Install all nine bolts at their documented length positions. Tighten in a crisscross pattern in two stages, advancing bolts by one quarter-turn per pass, to12Nm. Check shaft rotation and transmission movement before proceeding to peripheral reassembly; binding must be corrected, not pulled through with bolt torque.",
+      "source_pdf_pages": [
+        282,
+        292
+      ],
+      "verification": [
+        "Nine positions and12Nm recorded; free movement verified."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=282",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=292"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "seal"
+      ]
+    },
+    {
+      "id": "lower-chain",
+      "title": "Restore the lower timing-chain components",
+      "instruction": "Fit the timing chain onto the crank sprocket, restore the exhaust-side guide and its stopper plate in the illustrated arrangement, and tighten the stopper-plate bolt10Nm with LOCTITE. Secure the chain above the case for later cylinder/head installation. Do not leave this closure implicit after case assembly.",
+      "source_pdf_pages": [
+        57,
+        276
+      ],
+      "verification": [
+        "Chain engaged/secured; guide and stopper installed;10Nm recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=57",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=276"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "case-torque"
+      ]
+    }
+  ],
+  "reviewed_at": "2026-09-13",
+  "runtime_integration_requirement": "Enforce entry state and record_required. Completion certifies this bounded operation only; no automatic completion of upstream/downstream work.",
+  "revision_note": "v2 explicitly closes oil-strainer fastener torque and lower-chain/stopper restoration; v1 retained unchanged."
+}

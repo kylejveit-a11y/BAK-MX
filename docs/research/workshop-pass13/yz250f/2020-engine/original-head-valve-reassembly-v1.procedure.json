@@ -1,0 +1,333 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2020-yz250f-original-head-valve-reassembly-v1",
+  "title": "Reassemble an accepted original cylinder head",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ250F",
+    "model_year": 2020,
+    "variant": "standard",
+    "region": "US"
+  },
+  "scope_confirmed": true,
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "publication_status": "APPROVED",
+  "component": "engine",
+  "affected_components": [
+    "engine",
+    "cams",
+    "piston"
+  ],
+  "applicability": {
+    "included": "Exact US2020 standard YZ250F original stock head and original accepted valve-train components.",
+    "excluded": [
+      "New valves or guides, lapping, seat machining, head replacement",
+      "Head-to-cylinder mounting, cam timing, valve adjustment and startup",
+      "Other model years or modified components"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "entry_state": [
+    "Detached original cylinder head and individually identified original valves/guides/springs/lifters/pads, all actual inspections passed; new stem seals available."
+  ],
+  "exit_state": [
+    "Original valve assemblies and new stem seals installed in the detached head; sealing, cotter capture and lifter movement checked."
+  ],
+  "preflight": [
+    "Actual head/valve/guide/seat/spring/lifter inspections must be accepted before assembly.",
+    "Every original component must remain traceable to its original position.",
+    "No valve used for lapping may be returned to service. New running valves require their separate guide/seat repair route.",
+    "The head-bolt lubricant conflict affects later head mounting; this bench operation does not install those bolts."
+  ],
+  "critical_stop_conditions": [
+    "Unidentified or rejected original part",
+    "Valve-seat leakage, cotters not seated or lifter binding",
+    "Any proposed lapping, guide renewal or new-valve substitution within this original-part scope"
+  ],
+  "required_tools": [
+    {
+      "name": "Clean bench and labeled parts tray"
+    },
+    {
+      "name": "Valve spring compressor90890-04019 / YM-04019"
+    },
+    {
+      "name": "22 mm compressor attachment90890-04108 / YM-04108"
+    },
+    {
+      "name": "Soft-face hammer"
+    },
+    {
+      "name": "Clean solvent and suitable collection tray"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "Four new correct stock valve stem seals"
+    },
+    {
+      "name": "Molybdenum disulfide oil for valve stems/seals"
+    },
+    {
+      "name": "Engine oil for pads/lifters"
+    }
+  ],
+  "operation_dependencies": [],
+  "completeness": "Complete bounded reassembly and sealing verification of accepted original valve assemblies in a detached head. Head mounting and engine return to service remain outside scope.",
+  "steps": [
+    {
+      "id": "accept",
+      "title": "Confirm original-part eligibility",
+      "instruction": "Use the original stock detached head, guides and four original titanium valves only after their measured inspections have passed. Record accepted head/seat/guide/stem/runout/lifter/spring results and original positions. Any replacement valve requires guide renewal, and a valve used for lapping cannot be reused for running. Do not use this original-part route after valve lapping, guide replacement, seat machining or head replacement.",
+      "depends_on": [],
+      "source_pdf_pages": [
+        48,
+        208,
+        213,
+        214,
+        215,
+        216,
+        217
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=48",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=208",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=213",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=214",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=215",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=216",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=217"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record the actual acceptance results."
+      ]
+    },
+    {
+      "id": "clean",
+      "title": "Clean the prepared head",
+      "instruction": "Clean valve stem ends and remove all inspection solvent, carbon debris and layout fluid. Check that the head and identified parts are clean, dry and undamaged. Keep each valve, spring, retainer, seat, pad and lifter assigned to its original position.",
+      "depends_on": [
+        "accept"
+      ],
+      "source_pdf_pages": [
+        212,
+        214,
+        215,
+        216,
+        217
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=212",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=214",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=215",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=216",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=217"
+      ],
+      "diagram_reference_required": true,
+      "record_required": false,
+      "verification": [
+        "Confirm assembly and component accounting."
+      ]
+    },
+    {
+      "id": "seals",
+      "title": "Fit new seals and original valves",
+      "instruction": "Lubricate each valve stem and new stem seal with molybdenum disulfide oil. Install the spring seat, new stem seal and original valve in its original location using the illustrated order. All four removed valves receive new stem seals.",
+      "depends_on": [
+        "clean"
+      ],
+      "source_pdf_pages": [
+        211,
+        214,
+        216,
+        217
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=211",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=214",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=216",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=217"
+      ],
+      "diagram_reference_required": true,
+      "record_required": false,
+      "verification": [
+        "Confirm assembly and component accounting."
+      ]
+    },
+    {
+      "id": "springs",
+      "title": "Install springs and retainers",
+      "instruction": "Install each accepted original spring with its larger-pitch coils facing upward and smaller-pitch coils downward. Fit the original retainer to the corresponding valve. Compare all four assemblies with the diagram before compressing.",
+      "depends_on": [
+        "seals"
+      ],
+      "source_pdf_pages": [
+        216,
+        217
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=216",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=217"
+      ],
+      "diagram_reference_required": true,
+      "record_required": false,
+      "verification": [
+        "Confirm assembly and component accounting."
+      ]
+    },
+    {
+      "id": "cotters",
+      "title": "Fit both cotters per valve",
+      "instruction": "Compress each spring with compressor90890-04019 / YM-04019 and attachment90890-04108 / YM-04108 (22 mm). Install the two valve cotters in their stem grooves, then release the compressor carefully. Account for all eight cotters and verify both halves are seated at every valve.",
+      "depends_on": [
+        "springs"
+      ],
+      "source_pdf_pages": [
+        211,
+        216,
+        217
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=211",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=216",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=217"
+      ],
+      "diagram_reference_required": true,
+      "record_required": false,
+      "verification": [
+        "Confirm assembly and component accounting."
+      ]
+    },
+    {
+      "id": "seat-cotters",
+      "title": "Set the cotters",
+      "instruction": "Lightly tap each valve tip with a soft-face hammer to seat the cotters as illustrated. Avoid excessive force, which can damage the valve. Recheck cotter seating and retainer capture.",
+      "depends_on": [
+        "cotters"
+      ],
+      "source_pdf_pages": [
+        217
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=217"
+      ],
+      "diagram_reference_required": true,
+      "record_required": false,
+      "verification": [
+        "Confirm assembly and component accounting."
+      ]
+    },
+    {
+      "id": "sealing",
+      "title": "Confirm sealing after assembly",
+      "instruction": "Before fitting lifters, repeat the illustrated clean-solvent port check with the spring-held valves closed. Record the sealing result at all four seats. A leak requires further face/seat/contact-width investigation; do not accept the head for installation. Drain and dry all test solvent afterward.",
+      "depends_on": [
+        "seat-cotters"
+      ],
+      "source_pdf_pages": [
+        212
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=212"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record the actual acceptance results."
+      ]
+    },
+    {
+      "id": "pads",
+      "title": "Install original pads and lifters",
+      "instruction": "Apply engine oil to the adjusting pads and valve lifters. Protect the chain cavity from a dropped pad, then return each pad and lifter to its original identified position. Confirm each lifter rotates smoothly with a finger. Account for and remove the protective cloth.",
+      "depends_on": [
+        "sealing"
+      ],
+      "source_pdf_pages": [
+        212,
+        217
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=212",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=217"
+      ],
+      "diagram_reference_required": true,
+      "record_required": false,
+      "verification": [
+        "Confirm assembly and component accounting."
+      ]
+    },
+    {
+      "id": "finish",
+      "title": "Record the assembled head",
+      "instruction": "Record four accepted sealing results, eight retained cotters, four new seals, correct spring orientation and smooth lifters. Keep the assembled head clean and protected. It remains detached from the engine; cam timing, actual cold valve-clearance checks, head mounting and startup are separate operations. Resolve the head-bolt lubricant conflict before head installation.",
+      "depends_on": [
+        "pads"
+      ],
+      "source_pdf_pages": [
+        57,
+        82,
+        209,
+        216,
+        217
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=57",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=82",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=209",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=216",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=217"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record the actual acceptance results."
+      ]
+    }
+  ],
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf",
+    "document_sha256": "0a680d50262a0cab7323e3b97bf0565d358a726852610ee41ed48d747a4cd054",
+    "document_revision": "B7B-28199-11 / LIT-11626-33-11",
+    "pdf_pages": [
+      1,
+      4,
+      48,
+      57,
+      82,
+      208,
+      209,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217
+    ],
+    "printed_pages": [
+      "1: front matter",
+      "4: front matter",
+      "48: 2-3",
+      "57: 2-12",
+      "82: 3-6",
+      "208: 5-24",
+      "209: 5-25",
+      "211: 5-27",
+      "212: 5-28",
+      "213: 5-29",
+      "214: 5-30",
+      "215: 5-31",
+      "216: 5-32",
+      "217: 5-33"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Independently source-reviewed bounded engine operation; physical validation remains outstanding."
+  },
+  "authored_adaptation": {
+    "structural_reference_sha256": "d881faccfead72197a8d8372cdad0b7d036bb6ad01b76d984259c8d13fd37423",
+    "method": "Exact2020 section review with explicit page map and independent numeric differences; no inferred whole-bike compatibility."
+  }
+}

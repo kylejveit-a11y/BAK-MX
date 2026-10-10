@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "reviewer": "year_groups_research",
+  "decision": "APPROVED_EXACT_2025_AFTER_CORRECTIONS",
+  "source_sha256": "5005e7d8492c9482dfe44c6d752609a9a70a836f5b1dc94be3149d5d493de8ac",
+  "text_pages": [
+    106,
+    107,
+    108,
+    109,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    163,
+    164
+  ],
+  "visual_pages": [
+    7,
+    107,
+    108,
+    137,
+    138,
+    145,
+    147,
+    148,
+    150,
+    156,
+    157,
+    164
+  ],
+  "reviewed_procedures": [
+    {
+      "path": "front-caliper-rebuild-v1.procedure.json",
+      "sha256": "d19ce9350d0a271b3703833c033b1ba0211ec8ecaaf9f69d8e44caf0cf7c84ab"
+    },
+    {
+      "path": "rear-caliper-rebuild-v1.procedure.json",
+      "sha256": "2471b69ebe8822d670210261475ced42f99df052187752548034a6375d8bebb5"
+    },
+    {
+      "path": "front-master-rebuild-v1.procedure.json",
+      "sha256": "de395c39fe3433432645fc2f2c6b980b1d2066b5b8001e5c74f0c1cba79f2de9"
+    },
+    {
+      "path": "rear-master-rebuild-v1.procedure.json",
+      "sha256": "4ad97a37087557ed28355e03fd01ffb43e3f9b7494a0244cba1ea44f4d280f69"
+    }
+  ],
+  "findings_corrected": [
+    "Numeric target and manifest year2026 changed to2025.",
+    "Inline diagram references corrected to exact2025, including cups/master retainers and rear spring locations.",
+    "Symbol legend footer corrected.",
+    "Rear circuit label and UTF8 damaged dash/torque units corrected."
+  ],
+  "mechanical_findings": [
+    "Front two pistons and four mandatory seals; rear one piston/two seals. S grease and BF locations confirmed independently.",
+    "Both rear pad springs retained under2025callout9 quantity2.",
+    "Master cups and spring orientation linked to exact145/156 diagrams; distinct newparts lists preserved.",
+    "DOT4 reservoir minimum and horizontalcondition, diaphragm/float/plate distinctions, bleed close-before-release and5Nm closure supported.",
+    "MasterUP/topfirst and starterlead middle supported163\u2013164; mechanicaltorques matchexactyear pages.",
+    "Rear master hose-stop text typo remains insource; guide points to correctmasterdiagram157."
+  ],
+  "physical_execution": false,
+  "database_writes": false
+}

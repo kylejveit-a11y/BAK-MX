@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "purpose": "Research candidates only; NOT the runtime ingestion schema",
+  "counts": {
+    "records": 10,
+    "manufacturer_page_bounded_in_scope": 8,
+    "index_only": 1,
+    "excluded": 1,
+    "promoted": 0
+  },
+  "records": [
+    {
+      "status": "DISCOVERED",
+      "runtime_eligible": false,
+      "source_access": "manufacturer HTML inspected",
+      "source_sha256": null,
+      "review_status": "NOT_PROMOTED",
+      "rights": "Commercial ingestion and redistribution not established; link and short factual paraphrase only.",
+      "reviewed_on": "2026-09-12",
+      "variant": "standard only; special editions not established",
+      "firmware": null,
+      "installation_values": null,
+      "id": "am-yosh-225860s520",
+      "manufacturer": "Yoshimura",
+      "domain": "exhaust",
+      "part_number": "225860S520",
+      "product": "RS-12 stainless full exhaust",
+      "make": "Honda",
+      "model": "CRF450R",
+      "years": [
+        2025,
+        2026
+      ],
+      "region": "US",
+      "url": "https://www.yoshimura-rd.com/products/crf450r-rs-12-stainless-full-exhaust-w-stainless-muffler-225860s520",
+      "locator": "SKU; Sound Insert/Spark Arrester Options; Vehicle Fitment",
+      "claim": "Manufacturer lists this full system for US CRF450R 2025 and 2026.",
+      "limitations": [
+        "Designed around factory-standard equipment; other accessories may interfere.",
+        "INS-32-K sound insert included; SA-21-K spark arrester optional, not included.",
+        "Do not transfer exhaust hardware instructions or calibration to another RS-12 SKU."
+      ]
+    },
+    {
+      "status": "DISCOVERED",
+      "runtime_eligible": false,
+      "source_access": "manufacturer HTML inspected",
+      "source_sha256": null,
+      "review_status": "NOT_PROMOTED",
+      "rights": "Commercial ingestion and redistribution not established; link and short factual paraphrase only.",
+      "reviewed_on": "2026-09-12",
+      "variant": "standard only; special editions not established",
+      "firmware": null,
+      "installation_values": null,
+      "id": "am-yosh-225861s720",
+      "manufacturer": "Yoshimura",
+      "domain": "exhaust",
+      "part_number": "225861S720",
+      "product": "RS-12 titanium full exhaust",
+      "make": "Honda",
+      "model": "CRF450R",
+      "years": [
+        2025,
+        2026
+      ],
+      "region": "US",
+      "url": "https://www.yoshimura-rd.com/products/crf450r-rx-rs-12-titanium-full-exhaust-w-titanium-muffler-225861s720",
+      "locator": "SKU; Sound Insert/Spark Arrester Options; Vehicle Fitment",
+      "claim": "Manufacturer lists this titanium system for US CRF450R 2025 and 2026.",
+      "limitations": [
+        "Factory-standard vehicle basis; accessories and other markets need separate confirmation.",
+        "INS-32-K included; optional insert is INS-34-K, distinct from stainless system's INS-33-K.",
+        "No ECU map value or guaranteed power gain captured."
+      ]
+    },
+    {
+      "status": "DISCOVERED",
+      "runtime_eligible": false,
+      "source_access": "manufacturer HTML inspected",
+      "source_sha256": null,
+      "review_status": "NOT_PROMOTED",
+      "rights": "Commercial ingestion and redistribution not established; link and short factual paraphrase only.",
+      "reviewed_on": "2026-09-12",
+      "variant": "standard only; special editions not established",
+      "firmware": null,
+      "installation_values": null,
+      "id": "am-yosh-244730s521",
+      "manufacturer": "Yoshimura",
+      "domain": "exhaust",
+      "part_number": "244730S521",
+      "product": "RS-12 stainless full exhaust",
+      "make": "Kawasaki",
+      "model": "KX450",
+      "source_model_label": "KX450F",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "region": "US",
+      "url": "https://www.yoshimura-rd.com/products/kx450-x-rs-12-stainless-full-exhaust-w-stainless-muffler-244730s521",
+      "locator": "SKU; compatibility disclaimer; Vehicle Fitment",
+      "claim": "Manufacturer fitment table lists KX450F model years 2024–2026.",
+      "limitations": [
+        "KX450F-to-KX450 catalog alias must be reviewed before importing.",
+        "Factory-standard US-market configuration basis.",
+        "SA-21-K spark arrester is optional; no diagnostic repair inference from performance advertising."
+      ]
+    },
+    {
+      "status": "DISCOVERED",
+      "runtime_eligible": false,
+      "source_access": "manufacturer HTML inspected",
+      "source_sha256": null,
+      "review_status": "NOT_PROMOTED",
+      "rights": "Commercial ingestion and redistribution not established; link and short factual paraphrase only.",
+      "reviewed_on": "2026-09-12",
+      "variant": "standard only; special editions not established",
+      "firmware": null,
+      "installation_values": null,
+      "id": "am-ohlins-dmx1222-yz450f2025",
+      "manufacturer": "Öhlins",
+      "domain": "suspension",
+      "part_number": "DMX 1222",
+      "product": "MEX '26 TTX Flow DV rear shock",
+      "make": "Yamaha",
+      "model": "YZ450F",
+      "years": [
+        2025
+      ],
+      "region": null,
+      "url": "https://www.ohlins.com/motorcycle-suspension/mx-enduro/yamaha-yz-450f_?v=yamaha-yz-450f-2025",
+      "locator": "Product heading; Part no; Manuals",
+      "claim": "Manufacturer selected-vehicle page identifies DMX 1222 for the 2025 YZ450F.",
+      "limitations": [
+        "MEX '26 is component revision branding, not permission to add 2026 bike applicability.",
+        "Mounting instruction MI_DMX 1222_0.pdf linked but not captured or reviewed.",
+        "Spring selection, torque and baseline settings remain unknown."
+      ]
+    },
+    {
+      "status": "DISCOVERED",
+      "runtime_eligible": false,
+      "source_access": "manufacturer HTML inspected",
+      "source_sha256": null,
+      "review_status": "NOT_PROMOTED",
+      "rights": "Commercial ingestion and redistribution not established; link and short factual paraphrase only.",
+      "reviewed_on": "2026-09-12",
+      "variant": "standard only; special editions not established",
+      "firmware": null,
+      "installation_values": null,
+      "id": "am-ohlins-dmx0214-ktm2502025",
+      "manufacturer": "Öhlins",
+      "domain": "suspension",
+      "part_number": "DMX 0214",
+      "product": "TTX Flow rear shock",
+      "make": "KTM",
+      "model": "250 SX-F",
+      "years": [
+        2025
+      ],
+      "region": "US catalog",
+      "url": "https://www.ohlins.com/en-us/motorcycle-suspension/mx-enduro/ktm-250-350-sx-f-husqvarna-fc-250-350?v=ktm-250-sx-f-2025",
+      "locator": "Selected vehicle heading; spring note; Description",
+      "claim": "Selected-vehicle page identifies DMX 0214 for KTM 250 SX-F 2025.",
+      "limitations": [
+        "Spring sold separately; preload adjuster 15000-02 sold separately.",
+        "Description says 2023 onward but open-ended range was not expanded into future years.",
+        "No clicker, spring-rate or installation torque recommendation captured."
+      ]
+    },
+    {
+      "status": "DISCOVERED",
+      "runtime_eligible": false,
+      "source_access": "manufacturer HTML inspected",
+      "source_sha256": null,
+      "review_status": "NOT_PROMOTED",
+      "rights": "Commercial ingestion and redistribution not established; link and short factual paraphrase only.",
+      "reviewed_on": "2026-09-12",
+      "variant": "standard only; special editions not established",
+      "firmware": null,
+      "installation_values": null,
+      "id": "am-ohlins-dmx0214-fc2502025",
+      "manufacturer": "Öhlins",
+      "domain": "suspension",
+      "part_number": "DMX 0214",
+      "product": "TTX Flow rear shock",
+      "make": "Husqvarna",
+      "model": "FC 250",
+      "years": [
+        2025
+      ],
+      "region": "US catalog",
+      "url": "https://www.ohlins.com/en-us/motorcycle-suspension/mx-enduro/ktm-250-350-sx-f-husqvarna-fc-250-350?v=husqvarna-fc-250-2025",
+      "locator": "Selected vehicle heading; spring note",
+      "claim": "Selected-vehicle page identifies DMX 0214 for Husqvarna FC 250 2025.",
+      "limitations": [
+        "Spring and optional preload adjuster sold separately.",
+        "Shared SKU does not establish shared OEM sag, ride height or valving.",
+        "Mounting manual not reviewed."
+      ]
+    },
+    {
+      "status": "DISCOVERED",
+      "runtime_eligible": false,
+      "source_access": "manufacturer HTML inspected",
+      "source_sha256": null,
+      "review_status": "NOT_PROMOTED",
+      "rights": "Commercial ingestion and redistribution not established; link and short factual paraphrase only.",
+      "reviewed_on": "2026-09-12",
+      "variant": "standard only; special editions not established",
+      "firmware": null,
+      "installation_values": null,
+      "id": "am-ohlins-dmx0214-mc250f2025",
+      "manufacturer": "Öhlins",
+      "domain": "suspension",
+      "part_number": "DMX 0214",
+      "product": "TTX Flow rear shock",
+      "make": "GasGas",
+      "model": "MC 250F",
+      "years": [
+        2025
+      ],
+      "region": "US catalog",
+      "url": "https://www.ohlins.com/en-us/motorcycle-suspension/mx-enduro/ktm-250-350-sx-f-husqvarna-fc-250-350?v=gasgas-mc-250f-2025",
+      "locator": "Selected vehicle heading; spring note",
+      "claim": "Selected-vehicle page identifies DMX 0214 for GasGas MC 250F 2025.",
+      "limitations": [
+        "Spring sold separately.",
+        "Manufacturer open-ended 2024 onward description is not a verified full 2024–2026 range here.",
+        "Special editions and altered linkage remain unverified."
+      ]
+    },
+    {
+      "status": "DISCOVERED",
+      "runtime_eligible": false,
+      "source_access": "manufacturer HTML inspected",
+      "source_sha256": null,
+      "review_status": "NOT_PROMOTED",
+      "rights": "Commercial ingestion and redistribution not established; link and short factual paraphrase only.",
+      "reviewed_on": "2026-09-12",
+      "variant": "standard only; special editions not established",
+      "firmware": null,
+      "installation_values": null,
+      "id": "am-ohlins-fcx2205-fc2502025",
+      "manufacturer": "Öhlins",
+      "domain": "suspension",
+      "part_number": "FCX 2205",
+      "product": "MEX '26 TTX 22 cartridge kit",
+      "make": "Husqvarna",
+      "model": "FC 250",
+      "years": [
+        2025
+      ],
+      "region": "US catalog",
+      "url": "https://www.ohlins.com/en-us/motorcycle-suspension/mx-enduro/husqvarna-tc-fc_?v=husqvarna-fc-250-2025",
+      "locator": "Product heading; replacement note; Manuals",
+      "claim": "Selected-vehicle page identifies FCX 2205 for FC 250 2025 and says it replaces FCX 1205.",
+      "limitations": [
+        "Do not conflate 2026 component revision with 2026 motorcycle fitment.",
+        "OE-fork application; modified fork internals require separate confirmation.",
+        "MI_FCX 2205_0.pdf linked but unreviewed; retrofit marketing is not a complete retrofit procedure."
+      ]
+    },
+    {
+      "status": "DISCOVERED",
+      "runtime_eligible": false,
+      "source_access": "INDEX_ONLY; direct Athena retrieval error; Athena USA renders loading shell",
+      "source_sha256": null,
+      "review_status": "NOT_PROMOTED",
+      "rights": "Commercial ingestion and redistribution not established; link and short factual paraphrase only.",
+      "reviewed_on": "2026-09-12",
+      "variant": "standard only; special editions not established",
+      "firmware": null,
+      "installation_values": null,
+      "id": "am-get-sx1pro4t0010-discovery",
+      "manufacturer": "GET / Athena",
+      "domain": "ecu",
+      "part_number": "GK-SX1PRO4T-0010",
+      "product": "SX1 PRO 4T",
+      "make": null,
+      "model": null,
+      "years": [],
+      "region": null,
+      "url": "https://www.athena.eu/en-us/ecus-motorbike-C180S7.htm",
+      "locator": "Search-index product listing only",
+      "claim": "Official search index identifies this SKU; direct page retrieval failed.",
+      "limitations": [
+        "Indexed Athena USA listing suggests KTM/Husqvarna/GasGas 250 2024, but direct fitment was not verified and not assigned.",
+        "No map, firmware, TPS reset, harness, emissions or install procedure approved.",
+        "Use official GET instruction-manual directory and manufacturer fitment lookup in next acquisition pass."
+      ]
+    },
+    {
+      "status": "EXCLUDED_OUT_OF_SCOPE",
+      "runtime_eligible": false,
+      "source_access": "manufacturer HTML inspected",
+      "source_sha256": null,
+      "review_status": "NOT_PROMOTED",
+      "rights": "Commercial ingestion and redistribution not established; link and short factual paraphrase only.",
+      "reviewed_on": "2026-09-12",
+      "variant": "standard only; special editions not established",
+      "firmware": null,
+      "installation_values": null,
+      "id": "am-rekluse-rms8301010-excluded",
+      "manufacturer": "Rekluse",
+      "domain": "clutch",
+      "part_number": "RMS-8301010",
+      "product": "RadiusX 4.0",
+      "make": "Honda",
+      "model": "CRF450R",
+      "years": [
+        2013,
+        2014,
+        2015,
+        2016
+      ],
+      "region": null,
+      "url": "https://www.rekluse.com/product/auto-clutches/radiusx/radiusx-clutches/radiusx-4-0-hon-crf450r/",
+      "locator": "SKU; Years; Models",
+      "claim": "Official fitment is 2013–2016, outside initial BAK MX scope.",
+      "limitations": [
+        "Do not mistake this search result for a 2022–2026 CRF450R kit.",
+        "Current RMS-8301102 appears at retailers, but official exact-year evidence remains outstanding."
+      ]
+    }
+  ]
+}
+

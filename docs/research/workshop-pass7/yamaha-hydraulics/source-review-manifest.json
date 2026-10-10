@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-hydraulics-pass7",
+  "reviewed_at": "2026-09-13",
+  "database_writes": false,
+  "sources": [
+    {
+      "id": "yamaha2026",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+      "sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+      "local_pdf_path": "C:/Users/kylej/AppData/Local/Temp/D03-2819U-10_02.pdf"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "front-caliper-rebuild-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "94acd4de77e64affe855334141b55853cee6afa33610fa748a1cff02ebc8d0d3",
+      "source_id": "yamaha2026",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "validate_review.py",
+      "kind": "validator",
+      "sha256": "a59febb836b2443bdd92533215dcb839ce43c6bb2345f2a15cc4716025215b7e"
+    },
+    {
+      "path": "rear-caliper-rebuild-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "ea257897941e4a240d2652d4c83590a1c4ce1c579cd88b405cdd1dd3f354273d",
+      "source_id": "yamaha2026",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "front-master-rebuild-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "62858edba813fa05419e010a059f1d387f91374c824b96fb1190c275b4c21fb5",
+      "source_id": "yamaha2026",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "rear-master-rebuild-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "6cec53d227dc80c66409cbbe7bc78d9f8436bf83d4b184584f4a576b4c57f3a7",
+      "source_id": "yamaha2026",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "clutch-hydraulic-service-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "96d2c475816ce03b96b25d4bdd16190bb8d746579409d9f927c3c344f70a029a",
+      "source_id": "yamaha2026",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "REVIEW.md",
+      "kind": "review",
+      "sha256": "49ee4d84a01e4ce1d09edea2f6c22dd7b65ea268672d0edb1c562f3e072fa449"
+    }
+  ],
+  "inherited_artifacts": [
+    {
+      "path": "docs/research/frame-pass3/rear-wheel-remove-refit-v1.procedure.json",
+      "sha256": "2a91e8d0b6d866b08ffb3662ff5bebbf0cc439b940c1c41453c0cb0feff1514c"
+    },
+    {
+      "path": "docs/research/frame-pass3/clutch-release-remove-refit-v1.procedure.json",
+      "sha256": "4e28e84a4e5362f78db88a8b7f26f723ed1e5047c15b1c27ea4ebb7ee23c7fec"
+    }
+  ]
+}

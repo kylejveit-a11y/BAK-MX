@@ -1,0 +1,57 @@
+{
+  "status": "APPROVED",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2023,
+    "region": "US",
+    "variant": "standard"
+  },
+  "source_sha256": "9a8605e26301ba1d0d1d21e93d23cca721bdcdbece6188775626a8819332aa9f",
+  "reviewers": {
+    "engine70": "/root/yamaha_workshop_evidence",
+    "frame151": "/root"
+  },
+  "approved_candidate_hashes": {
+    "engine-removal-refit-v1.procedure.json": "0406fa822770946e6c5dbf5bc75f41bee88d7bbb418c93af61545e8cc88d6daf",
+    "frame-bearing-renewal-reassembly-v1.procedure.json": "ff184583a59ef24ed243bc1d9789f5e904a7442f4877836b1ecf47b1efa949d8"
+  },
+  "artifacts": [
+    {
+      "path": "engine-removal-refit-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "7c9b11a914a0ef0ef2dbb33b24a7ef7c50e41d3f082bf4c5b2739e5be09b0e67",
+      "source_id": "yamaha-2023-bhr",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 70
+    },
+    {
+      "path": "frame-bearing-renewal-reassembly-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "7079c8378e79d4525d909e06c3f5fc4c1dbbe62b870bf4321bcd4b697f7721e3",
+      "source_id": "yamaha-2023-bhr",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 151
+    }
+  ],
+  "review_scope": "All ordered instructions and verification; source-specific changes and original diagrams independently checked. Whole-bike support/pivot, bearing stacks/depths, new parts, lubrication and closure reviewed within retained stock assembly scope.",
+  "resolved_findings": [
+    "PDF84 actual printedfooter3-6 restored via geometricfooter parsing.",
+    "Rear-brake paintmarkUP qualifier removed because exact2023routing does not specify it; actual routing and metalstop checks retained.",
+    "Rectifier/regulator mounting citation57 added."
+  ],
+  "physical_validation": false,
+  "permission": "Final status/review-note metadata freeze only; mechanical text remained as independently reviewed."
+}

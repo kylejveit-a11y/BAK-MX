@@ -1,0 +1,696 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED",
+  "sources": [
+    {
+      "source_id": "D69-2819U-11_02",
+      "id": "D69-2819U-11_02",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D69-2819U-11_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\D69-2819U-11_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\D69-2819U-11_02.pdf",
+      "sha256": "454ed477eebbdaea52986a21be86225f74e7895e905138881cc21a16bdabf2d2"
+    },
+    {
+      "source_id": "D69-2819U-10_02",
+      "id": "D69-2819U-10_02",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D69-2819U-10_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\D69-2819U-10_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\D69-2819U-10_02.pdf",
+      "sha256": "30918eb3f0c0ad42f33814baedc946c9ade6c31403f03a25257d05b0a9267050"
+    },
+    {
+      "source_id": "D68-2819U-11_02",
+      "id": "D68-2819U-11_02",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D68-2819U-11_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\D68-2819U-11_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\D68-2819U-11_02.pdf",
+      "sha256": "c85b65bb31135f6e11a7b358dabbc96559a93a35e1fd690e224e6b66292c918f"
+    },
+    {
+      "source_id": "BF1-2819U-10_02",
+      "id": "BF1-2819U-10_02",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BF1-2819U-10_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\BF1-2819U-10_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\BF1-2819U-10_02.pdf",
+      "sha256": "2cd32cdb7b01212b35ca3ddab57c60cf47873ad6ef19f18ad57b98e779e41ab7"
+    },
+    {
+      "source_id": "B0V-28199-11_02",
+      "id": "B0V-28199-11_02",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B0V-28199-11_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\B0V-28199-11_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\B0V-28199-11_02.pdf",
+      "sha256": "6101b0090bca1208bb27b1e0b55ce2f473c50e01cbdb740cfa5c07355554d8cc"
+    },
+    {
+      "source_id": "D68-2819U-10_02",
+      "id": "D68-2819U-10_02",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D68-2819U-10_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\D68-2819U-10_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\D68-2819U-10_02.pdf",
+      "sha256": "2d37d6143ff076d54bb34582de4c3eaec296a0ba88d216a1e8eb0d5e71be4804"
+    },
+    {
+      "source_id": "DF3-2819U-10_02",
+      "id": "DF3-2819U-10_02",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/DF3-2819U-10_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\DF3-2819U-10_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\DF3-2819U-10_02.pdf",
+      "sha256": "33157ba03d6e7a016a4ec02d17547eb632c2e34e9520e6692accccff0a82d4c3"
+    },
+    {
+      "source_id": "DF3-2819U-11_02",
+      "id": "DF3-2819U-11_02",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/DF3-2819U-11_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\DF3-2819U-11_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\DF3-2819U-11_02.pdf",
+      "sha256": "9ba639ac857fdf4b80a898550333948c103ca86472a6d9554cd21d177c8bb2c3"
+    },
+    {
+      "source_id": "DF4-2819U-10_02",
+      "id": "DF4-2819U-10_02",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/DF4-2819U-10_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\DF4-2819U-10_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\DF4-2819U-10_02.pdf",
+      "sha256": "4c878b94cd77fd5feed7b578094b3f734fdf20168422f5ad56fa8f0b7f45d925"
+    },
+    {
+      "source_id": "DF4-2819U-11_02",
+      "id": "DF4-2819U-11_02",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/DF4-2819U-11_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\DF4-2819U-11_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\DF4-2819U-11_02.pdf",
+      "sha256": "3ed020bc37697d7b26a03cd48aee67c5f960cf869996c409e8c61cbf6a47a263"
+    },
+    {
+      "source_id": "B4X-2819U-10_02",
+      "id": "B4X-2819U-10_02",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4X-2819U-10_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\B4X-2819U-10_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\B4X-2819U-10_02.pdf",
+      "sha256": "2b1aa583a58bc51422c80074a60684ad047c2488a11604ec93c6963a0ae99da4"
+    },
+    {
+      "source_id": "B4X-2819U-11_02",
+      "id": "B4X-2819U-11_02",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4X-2819U-11_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\B4X-2819U-11_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\B4X-2819U-11_02.pdf",
+      "sha256": "8497bf094905bf572efdd114a61366758ce7f40bbea40ec02b6dfdd683942f7e"
+    },
+    {
+      "source_id": "B4X-2819U-12_02",
+      "id": "B4X-2819U-12_02",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4X-2819U-12_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\B4X-2819U-12_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\B4X-2819U-12_02.pdf",
+      "sha256": "22354854cddb4bb6983e5f3b6238de3dde3f25febb2c1cfe239c6a3cc5918cf3"
+    },
+    {
+      "source_id": "BCR-2819U-10_02",
+      "id": "BCR-2819U-10_02",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BCR-2819U-10_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\BCR-2819U-10_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\BCR-2819U-10_02.pdf",
+      "sha256": "7e35f5a2255910883c8d285ab17b4c8df93b6bd5f5bce169f961739f7eac772b"
+    },
+    {
+      "source_id": "BCR-2819U-11_02",
+      "id": "BCR-2819U-11_02",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BCR-2819U-11_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\BCR-2819U-11_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\BCR-2819U-11_02.pdf",
+      "sha256": "5987b96f081f7c33d155d566ee0cdf7a9a7082e05a4270320d06847e43483659"
+    },
+    {
+      "source_id": "BCR-2819U-12_02",
+      "id": "BCR-2819U-12_02",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BCR-2819U-12_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\BCR-2819U-12_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\BCR-2819U-12_02.pdf",
+      "sha256": "766bc3ef6c02e72741f31cc31f8433568b0502dcc0638c685ab1ce37d71e497a"
+    },
+    {
+      "source_id": "B0V-2819U-10_02",
+      "id": "B0V-2819U-10_02",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B0V-2819U-10_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\B0V-2819U-10_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\B0V-2819U-10_02.pdf",
+      "sha256": "6a4fd9842745dfc42eaa9b78faf7325195f43f82255ce72d1786e73f22234148"
+    },
+    {
+      "source_id": "BRX-2819U-10_02",
+      "id": "BRX-2819U-10_02",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BRX-2819U-10_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\BRX-2819U-10_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\BRX-2819U-10_02.pdf",
+      "sha256": "36c461c9bbe6933aa62a48c30c93e34e040ba33c04ebaeb6bf208a87a91de069"
+    },
+    {
+      "source_id": "BRX-2819U-11_02",
+      "id": "BRX-2819U-11_02",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BRX-2819U-11_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\BRX-2819U-11_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\BRX-2819U-11_02.pdf",
+      "sha256": "3aa3eaccc3de4e28f356db375a7ce00403eb7a9cad543be27b875c5ca0741815"
+    },
+    {
+      "source_id": "BRY-2819U-10_02",
+      "id": "BRY-2819U-10_02",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BRY-2819U-10_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\BRY-2819U-10_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\BRY-2819U-10_02.pdf",
+      "sha256": "57046da49115944c1bcb8fdc787017fe944416f23abd37c7b683ba3ce39556fe"
+    },
+    {
+      "source_id": "BRY-2819U-11_02",
+      "id": "BRY-2819U-11_02",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BRY-2819U-11_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\BRY-2819U-11_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\BRY-2819U-11_02.pdf",
+      "sha256": "1311dc9b28272d24aac3e4752bdc66f76f03fd3f53a1309633482a718f99b6ee"
+    },
+    {
+      "source_id": "B1B-2819U-10_02",
+      "id": "B1B-2819U-10_02",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B1B-2819U-10_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\B1B-2819U-10_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\B1B-2819U-10_02.pdf",
+      "sha256": "874daef9493e760343bfeda5e7612171312e99d2b207c6a969900b72b52a217a"
+    },
+    {
+      "source_id": "B1B-2819U-11_02",
+      "id": "B1B-2819U-11_02",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B1B-2819U-11_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\B1B-2819U-11_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\B1B-2819U-11_02.pdf",
+      "sha256": "04cf83eba6c9ea3759a44f2f56021047bc0fd57835045ae1088a424a07512638"
+    },
+    {
+      "source_id": "BF1-2819U-11_02",
+      "id": "BF1-2819U-11_02",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BF1-2819U-11_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\BF1-2819U-11_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\BF1-2819U-11_02.pdf",
+      "sha256": "d861639a6063fcac902ad80ab88e7987e6c43ed020301aebcef31821f660182f"
+    },
+    {
+      "source_id": "B9U-28199-11_02",
+      "id": "B9U-28199-11_02",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\B9U-28199-11_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\B9U-28199-11_02.pdf",
+      "sha256": "112713a7256a234953896fb34d9ddfd308a897c1c623fe29f95a344080a4ce2e"
+    },
+    {
+      "source_id": "D68-2819U-12_02",
+      "id": "D68-2819U-12_02",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D68-2819U-12_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\D68-2819U-12_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\D68-2819U-12_02.pdf",
+      "sha256": "8bdda7cdfc0c173ddebd3876141215445a2e68bbf3fb9af5d19df7d2003b167c"
+    },
+    {
+      "source_id": "D69-2819U-12_02",
+      "id": "D69-2819U-12_02",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D69-2819U-12_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\D69-2819U-12_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\D69-2819U-12_02.pdf",
+      "sha256": "79dc2b20faec6f0040fea0606a193af63b1e15e6f5f8e57cc4dad1905dec13d5"
+    },
+    {
+      "source_id": "DF3-2819U-12_02",
+      "id": "DF3-2819U-12_02",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/DF3-2819U-12_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\DF3-2819U-12_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\DF3-2819U-12_02.pdf",
+      "sha256": "b82501f09127f98e83dcef83300433d6cf95c81f4120613d6583af0af55b4ce8"
+    },
+    {
+      "source_id": "DF4-2819U-12_02",
+      "id": "DF4-2819U-12_02",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/DF4-2819U-12_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\DF4-2819U-12_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\DF4-2819U-12_02.pdf",
+      "sha256": "28177d3e357552779d24f161ccaf78c2a3da658132e67e37a5f44329a52b163f"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2026-yz250-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "7ded3cef2db6872d5b179b5f1bc3a9eaf756ad1aedd23602b96f1bcb76b4039a",
+      "source_id": "D69-2819U-11_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2025-yz250-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "5f1e01cb3cccab864198912ed1fba2f5de4007c60c5e93adbe8626d58a646675",
+      "source_id": "D69-2819U-10_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2026-yz125-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "2013c0554e188877d6cab0faf6ba2e8e6efede36da797c21c888f02604b16d6e",
+      "source_id": "D68-2819U-11_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2021-yz250-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "835a7381492665822ef73dcc9a781d02e1e9683484f655cdd6ed6843c8256ffa",
+      "source_id": "BF1-2819U-10_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2021-yz250x-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "72b41cce0e2d4c91fb8c293c82c7867d0c5ab80034f951775cf765eeb961b6bb",
+      "source_id": "BF1-2819U-10_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250X",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2020-yz125-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "c9edf3de83515414fc5a4613e361a29d5b3a7da05907821ca0e7fecc4aabc654",
+      "source_id": "B0V-28199-11_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2020-yz125x-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "c929f9c834aff64d536b0f8181817f849ab2b8f68b3acb5d2255a9a0969c29e7",
+      "source_id": "B0V-28199-11_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125X",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2025-yz125-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "a0ccf89d8a8ca69aacfe047a8aebd8ce16bb26f80dd7d493b5a2a713e372372f",
+      "source_id": "D68-2819U-10_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2025-yz125x-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "5f64792312f07af7567c737942c77118ec8446f4227417c93059c166df0d2f50",
+      "source_id": "DF3-2819U-10_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125X",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2026-yz125x-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "416f4be60b62088535aee5751ac58cf07bdbbf154473a48f957533ece0a009e6",
+      "source_id": "DF3-2819U-11_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125X",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2025-yz250x-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "9fc0069d57fc2c24698fb6fce1f4fd18b2c8cfab57aa156fb8e03cea525ff25b",
+      "source_id": "DF4-2819U-10_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250X",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2026-yz250x-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "6b10d8005593a9b879429da11aadbcf11ee68d2d781ab4dcee1ee779e71835ee",
+      "source_id": "DF4-2819U-11_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250X",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2022-yz125-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "beb6d304c7a206b17ec31649683fd5a86352e5e1e1ef14f57691afdeb01a509b",
+      "source_id": "B4X-2819U-10_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2023-yz125-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "02e8bc32d6ed4f1323762df3ef381a3a9ca20143873ed117beb742debad4c589",
+      "source_id": "B4X-2819U-11_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2024-yz125-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "87f0165b21764ab680940a61b7b5ef145658dc579857ab4e339dc2e41377d522",
+      "source_id": "B4X-2819U-12_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2022-yz250-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "190134f276daf275d8158793f6fc95871cb1bb8b5d6d8452d7518e741128c446",
+      "source_id": "BCR-2819U-10_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2023-yz250-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "72f83e76cf6d4431a4ba8d3d39a1583b1691e6afa727dc519460b3cbb148d600",
+      "source_id": "BCR-2819U-11_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2024-yz250-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "13d492d2c687af949ee466a80aa1245cc0af0d598414f8034affff6143bc7575",
+      "source_id": "BCR-2819U-12_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2021-yz125-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "351507038b4cf8e972eec784e761a60a34b3c3a4fd6ebf11d0921714965ee4df",
+      "source_id": "B0V-2819U-10_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2023-yz125x-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "c55aab3e9af4bf1429fe6d2d26f3fd28eda17800a2b671d9670b79cd479ccef4",
+      "source_id": "BRX-2819U-10_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125X",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2024-yz125x-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "b76310015ea1b44070a002f92b055c162d38eb289d599ed3d9288f9d5baa6065",
+      "source_id": "BRX-2819U-11_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125X",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2023-yz250x-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "47d85746def0c53262eece3bc995cbd99b47a60e3b1cf99966b5857f49ac6810",
+      "source_id": "BRY-2819U-10_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250X",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2024-yz250x-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "29c16d94d073675686d5f74587e191d17e4ca282e2547546aacaaf4be7935258",
+      "source_id": "BRY-2819U-11_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250X",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2021-yz125x-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "7b345ff58cf32b086e77cfeb8995b362af9f7840428f3b548d4d5879f07becdb",
+      "source_id": "B1B-2819U-10_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125X",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2022-yz125x-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "240cb5e2a3d511bbf678922a71e3843420c4e94685db901097ab263178cc4690",
+      "source_id": "B1B-2819U-11_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125X",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2022-yz250x-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "6e32607f8aef86544807a08feb76c0b956702a537a9dd672048575c36133f28c",
+      "source_id": "BF1-2819U-11_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250X",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2020-yz250-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "4f6afd288d6ebdf070ae924e4671343cc990ceaf88f1a57f74fc9af1cab47b81",
+      "source_id": "B9U-28199-11_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2020-yz250x-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "80abce5980560b3e3c801229729d92b72d6bf329134c53dbcd7147425ac73336",
+      "source_id": "B9U-28199-11_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250X",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2027-yz125-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "5fc65882870c3c0586d0545a4058de0fb808d5419613da33b49f9731e525219c",
+      "source_id": "D68-2819U-12_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125",
+        "model_year": 2027,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2027-yz250-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "73f953140e58ded0c866e3504fe07cb983adeef52a8a2e5622c73355df1ebeaf",
+      "source_id": "D69-2819U-12_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2027,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2027-yz125x-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "f7a68408b36399dcc6e55255dc58cbd4e887616e98993522ab260a0020632975",
+      "source_id": "DF3-2819U-12_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125X",
+        "model_year": 2027,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2027-yz250x-damping-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "6bf0e9bf3324b5efea36cde08752dc1562cc9d871d86ecf3499ebedd47cde13b",
+      "source_id": "DF4-2819U-12_02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250X",
+        "model_year": 2027,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    }
+  ],
+  "independent_review": {
+    "path": "docs/research/workshop-pass13/yz250f/two-stroke-independent-review-v1.json",
+    "sha256": "cbc11d7e7db7503592fbfd7833fab12bf5f021383568a55c4f1980100c4b9a13"
+  },
+  "freeze_record": {
+    "path": "docs/research/workshop-pass13/yamaha-two-stroke/setup-freeze-record.json",
+    "sha256": "a36094d570b0002d4e3b4895e362ea81b539e814ef9a7cddd7df133966ff5744"
+  }
+}

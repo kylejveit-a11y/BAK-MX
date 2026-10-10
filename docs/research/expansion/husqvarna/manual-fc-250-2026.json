@@ -1,0 +1,42 @@
+{
+  "target": {
+    "manufacturer": "Husqvarna",
+    "model": "FC 250",
+    "model_year": 2026,
+    "variant": "standard",
+    "region": "US"
+  },
+  "selector_url": "https://www.husqvarna-motorcycles.com/en-us/service/user-manuals.html",
+  "query_url": "https://www.husqvarna-motorcycles.com/en-us/service/user-manuals/_jcr_content/root/responsivegrid_1_col/bikemanuals.manuals.json?modelName=FC+250+2026",
+  "english_results": [
+    {
+      "modelName": "FC 250 2026",
+      "title": "FC 250 2026 EU (en) - 2026",
+      "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3402884_en_BA.pdf"
+    }
+  ],
+  "selected": {
+    "modelName": "FC 250 2026",
+    "title": "FC 250 2026 EU (en) - 2026",
+    "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3402884_en_BA.pdf"
+  },
+  "scope_confirmed_by_selector": false,
+  "review_status": "PENDING",
+  "document_sha256": "cd1a4d22fb50c6861b3f5f25868503a7ab4a6794c94154d21dfa5341cd6f0451",
+  "bytes": 7286731,
+  "temporary_pdf": "/tmp/hq-manuals/fc-250-2026.pdf",
+  "temporary_text": "/tmp/hq-manuals/fc-250-2026.txt",
+  "scope_page": 3,
+  "scope_excerpt": "This document is valid for:\nFC 250 EU (F2101Z1)\nFC 250 FACTORY EDITION US (F2175Z6)\n*3402884en*\n3402884en\n16/12/2025",
+  "document_revision": "16/12/2025",
+  "document_article": "3402884en",
+  "torque_table_pdf_pages": [
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172
+  ]
+}

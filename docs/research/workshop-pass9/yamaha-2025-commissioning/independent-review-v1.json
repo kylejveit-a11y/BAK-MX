@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "reviewer": "yamaha_workshop_evidence (independent of author year_groups_research)",
+  "status": "APPROVED",
+  "artifact": "post-rebuild-commissioning-v1.procedure.json",
+  "artifact_sha256": "e992baef16dcb9b875c14b407606aaf1b03b20945f0a9f94ebadf1f058664f1a",
+  "approval_scope": "Bounded post-top-end commissioning and maintenance companion with genuine external tank-cleaning, inaccessible fit assessment and all-joint inspection records; not standalone execution of those external operations.",
+  "source_hashes": [
+    "5005e7d8492c9482dfe44c6d752609a9a70a836f5b1dc94be3149d5d493de8ac",
+    "508a744728dc28c37911bdc206f3e8ec6fe5eb8f11febe74a385bbf1299493cf"
+  ],
+  "review_method": "Read all 32 ordered steps, source conditions and scope. Independently read OEM39–41,95–100,115–117,237,239,288–289,298 and Mityvac8–9; visually inspected Mityvac8–9, OEM289,97,237 and previously inspected exact OEM246/239. Other chassis source locators are consistent with the separately reviewed author source evidence and the bounded actual-inspection requirements.",
+  "findings_resolved": [
+    "New filter-cover and filler-cap O-rings explicitly use lithium-soap grease with source246 binding.",
+    "Shift pedal remains12Nm without incorrectly assigning the neighboring position-sensor LOCTITE arrow; source237 visually rechecked.",
+    "Removed internal scope-claim language from rider final step; exclusions remain metadata."
+  ],
+  "pressure_bridge_review": "Cold adapter attachment and engine-on gauge monitoring are supported by Mityvac8; OEM289 supplies the three-minute post-head-gasket warm-up,137.3kPa ceiling and5–10s hold. Full cooling before relief/disconnection preserves Mityvac9 caution. Actual adapter fit is required, not a claimed part-number equivalence. First-start lubrication acceptance remains a prerequisite.",
+  "break_in_review": "OEM40 supports approximately30min at≤halfthrottle for valve/piston/rings/cam changes and approximately1h for cylinder replacement. Combined route preserves first30min≤halfthrottle as declared conservative composition. This artifact excludes crank/gear commissioning rather than silently applying top-end-only scope.",
+  "open_blocking_findings": [],
+  "freeze_permission": "Author may change publication_status/source.review_status to APPROVED and update this artifact_sha256 plus manifest hash binding for those approval-only changes. Mechanical text changes require renewed review.",
+  "approved_candidate_sha256": "0e4d8958140999a73960dea8f24bd069499c3dae67601cdb13219813ca152083",
+  "freeze_changes": "Publication/source status and review note only; mechanical text unchanged after approval.",
+  "prior_frozen_sha256": "10b1ceec5ece36a2338c5b763272365a687a8837806ee75247c3594aa2445a03",
+  "parent_requested_copy_correction": "Replaced generic linked-source placeholders with named pre-ride, fastener, fit and diagram checks; placed already-reviewed O-ring lubrication before installation; normalized spacing. Mechanical values, sources and scope unchanged."
+}

@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "id": "2026-yz450f-fork-internal-pass2",
+  "checked_at": "2026-09-13",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "variant": "standard",
+    "region": "US"
+  },
+  "runtime_eligible": false,
+  "complete_procedures_added": 0,
+  "previous_coverage": "../expansion/yamaha/workshop-2026/fork-internal-coverage-v1.json",
+  "sources": [
+    {
+      "id": "yamaha26",
+      "kind": "OEM_SERVICE_MANUAL",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+      "sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+      "locators": [
+        "PDF168 / printed4-46 exploded renewals",
+        "PDF172 / printed4-50 bleed/seat",
+        "PDF177 / printed4-55 adjuster"
+      ],
+      "visual_review_this_pass": [
+        168,
+        172
+      ],
+      "summary": "Exact stock US target; existing service values retained. Initial stroke paragraph and adjacent restriction must be interpreted together."
+    },
+    {
+      "id": "racetech",
+      "kind": "TUNER_AUTHORED_INSTRUCTIONS",
+      "url": "https://racetech.com/ip-fk-rebuild-twin-chamber/",
+      "attribution": "Race Tech; technician Alan AJ Peck",
+      "locators": [
+        "CA5–CA14",
+        "FA20–FA21"
+      ],
+      "summary": "Slow compression discourages cavitation. Compression assembly insertion loads the pressure spring; final compression expels excess oil through vents. Incomplete self-extension can indicate low oil, bending or assembly error. Generic filling guidance uses about 100 mm and USF-05. Adjuster-bolt threadlocker has no grade stated; torque is deferred to manufacturer.",
+      "applicability": "Technique context for spring-loaded twin-chamber architecture only; no exact 2026 Yamaha fitment stated. No fluid, oil level, torque or revalving inheritance."
+    },
+    {
+      "id": "beta-aos",
+      "kind": "OEM_COMPONENT_SERVICE_MANUAL",
+      "url": "https://betausa.com/content/Suspension%20KYB%20AOS%20manual%20final.pdf",
+      "index_url": "https://betausa.com/suspension-support/",
+      "locators": [
+        "PDF12–13 cartridge fill/purge",
+        "PDF17–18 assembly/technical data"
+      ],
+      "summary": "June2025 Beta KYB AOS instructions give 215 cc cartridge fill, approximately1.5 mm adjuster/jam-nut gap and 50 N·m greased adjuster threads. External oil fill text and model-specific table differ. These are Beta-specific values; they do not resolve Yamaha threadlocker requirements.",
+      "applicability": "Beta component source only; exact model-year matrix and cap torque would need review before a separate complete Beta guide. Not Yamaha service evidence."
+    },
+    {
+      "id": "us-parts",
+      "kind": "OEM_PARTS_CATALOG_REPUBLICATION",
+      "attribution": "Yamaha catalog displayed by Rocky Mountain ATV/MC",
+      "url": "https://www.rockymountainatvmc.com/oem-parts/yamaha/2026-yamaha-yz450f/front-fork?submodel=yz450f-yz450ftl-2026",
+      "locators": [
+        "FRONT FORK refs5–24 /31–50 /61"
+      ],
+      "summary": "US YZ450FTL fiche supplies renewal candidates and distinguishes individual sealing items from the listed seal kit. Retail descriptions alone do not establish all kit contents.",
+      "applicability": "Exact named US standard submodel; quantities and seal positions still require diagram mapping."
+    }
+  ],
+  "gap_dispositions": [
+    {
+      "id": "bleed-stroke-wording",
+      "status": "OPERATIONAL_INTERPRETATION_PROPOSED",
+      "source_ids": [
+        "yamaha26",
+        "racetech"
+      ],
+      "proposed_instruction": "Pump slowly several times, keeping each stroke below 200 mm; do not use a full stroke during this initial bleed. If air is drawn in, repeat filling and initial bleeding before setting the level.",
+      "decision": "Uses the explicit Yamaha below-200 restriction rather than encoding about200 as an exact target. Race Tech supports slow compression but provides no Yamaha-specific stroke. Needs second reviewer acceptance before replacing previous blocker."
+    },
+    {
+      "id": "rod-pressure-technique",
+      "status": "PARTIALLY_CLARIFIED_NOT_EXACTLY_RESOLVED",
+      "source_ids": [
+        "yamaha26",
+        "racetech"
+      ],
+      "decision": "Pressure is mechanical loading of a spring-loaded cartridge; no external nitrogen/psi charge belongs here. Generic tuner text explains seating resistance but does not establish the exact rod hand motion specified ambiguously by Yamaha. Retain OEM diagram dependency and unresolved exact demonstration."
+    },
+    {
+      "id": "locking-agent-specificity",
+      "status": "OPEN",
+      "source_ids": [
+        "yamaha26",
+        "racetech",
+        "beta-aos"
+      ],
+      "decision": "Both applicable OEM and generic tuner call for threadlocker without a grade. Beta grease instruction is a different application, not a replacement. Do not supply243/271 or a cure time. Need exact Yamaha/KYB service clarification or component-specific approved threadlocker instruction."
+    },
+    {
+      "id": "service-kit-map",
+      "status": "PARTIALLY_MAPPED",
+      "source_ids": [
+        "yamaha26",
+        "us-parts"
+      ],
+      "decision": "Named renewal candidates now mapped in renewal-map.json. O-ring location/count and included seal-kit contents are not fully diagram-verified; do not label a kit complete or purchase-ready."
+    }
+  ],
+  "release_decision": "NO_COMPLETE_INTERNAL_PROCEDURE_RELEASED",
+  "remaining_acceptance": [
+    "Second review of initial-stroke paraphrase",
+    "Exact rod-motion explanation or demonstration",
+    "Threadlocker application/product clarification",
+    "Complete new-seal location/count and kit inclusion verification"
+  ],
+  "excluded_inheritance": [
+    "No Beta AOS values transferred to Yamaha",
+    "No generic Race Tech oil level or USF-05 substituted for Yamaha S1",
+    "No shim stack modifications",
+    "No shock nitrogen pressure"
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "publication_status": "LOCAL_REVIEWED_NOT_IMPORTED",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      90,
+      113,
+      129,
+      131,
+      132,
+      133
+    ],
+    "printed_pages": [
+      "See exact PDF page links at each step"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Text and assembly diagrams visually checked for this bounded operation; no generalization to other years or modified parts."
+  },
+  "id": "yamaha-2026-yz450f-front-wheel-remove-refit-v1",
+  "title": "Remove and refit the stock front wheel",
+  "completeness": "Complete wheel removal, intact-assembly inspection, collar/axle refit, seating and torque closure. Brake hydraulic joints, disc and bearings remain assembled.",
+  "applicability": {
+    "included": "Exact stock 2026 US standard YZ450F; original serviceable assemblies unless explicitly replaced below",
+    "excluded": [
+      "Other years/models and non-stock assemblies",
+      "Frame repair/welding/straightening",
+      "Brake hydraulic service",
+      "Wheel bearing/disc/tire replacement"
+    ]
+  },
+  "prerequisites": [
+    "Match the exact bike and installed stock parts. Have the complete cited diagrams available.",
+    "Stable maintenance stand and support suitable for changing weight distribution; clean labeled parts storage."
+  ],
+  "required_tools": [
+    {
+      "name": "Maintenance stand and stable lowering support",
+      "spec": null
+    },
+    {
+      "name": "Appropriate axle tools and calibrated torque wrench covering21–115 N·m",
+      "spec": null
+    },
+    {
+      "name": "Lithium-soap-based grease and clean cloths",
+      "spec": null
+    }
+  ],
+  "required_parts": [],
+  "critical_stop_conditions": [
+    "Unstable support, bent/cracked parts, damaged fasteners or unknown assembly order.",
+    "Binding, leaks, missing hardware or abnormal brake/control function remains an unresolved fault."
+  ],
+  "steps": [
+    {
+      "id": "prepare",
+      "title": "Support the front of the bike",
+      "instruction": "Secure the bike on a maintenance stand with the front wheel clear of the ground. Keep the complete brake system closed. Prevent the front brake lever being operated while the disc is absent.",
+      "source_pdf_pages": [
+        129,
+        131
+      ],
+      "verification": [
+        "Stable support and brake control protected."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": []
+    },
+    {
+      "id": "remove",
+      "title": "Remove the wheel and retain both collars",
+      "instruction": "Loosen all four front axle pinch bolts. Support the wheel, remove its axle nut and withdraw the axle, then lower the wheel clear of the caliper. Label the left and right collars separately and keep dirt off the seals and disc.",
+      "source_pdf_pages": [
+        129
+      ],
+      "verification": [
+        "Axle, nut and side-specific collars accounted for; brake hose untouched."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=129"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "prepare"
+      ]
+    },
+    {
+      "id": "inspect",
+      "title": "Inspect the removed wheel",
+      "instruction": "Check the axle for bending by rolling it on a flat surface; replace a bent axle rather than straightening it. Inspect the wheel, tire, collars and seals for damage and the bearings for roughness or looseness. Record defects; bearing, tire or disc repair is a separate operation.",
+      "source_pdf_pages": [
+        131
+      ],
+      "verification": [
+        "Axle straight; wheel/collars/seals serviceable; bearings smooth without looseness."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "remove"
+      ]
+    },
+    {
+      "id": "refit",
+      "title": "Fit collars, wheel and axle",
+      "instruction": "Apply lithium-soap-based grease to the axle and oil-seal lips. Replace the collars on their original sides. Lift the wheel with its disc correctly between the pads and insert the axle. Thread on the axle nut without final tightening.",
+      "source_pdf_pages": [
+        129,
+        132
+      ],
+      "verification": [
+        "Collars seated; disc between pads; greased axle inserted."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=129",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=132"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "inspect"
+      ]
+    },
+    {
+      "id": "seat",
+      "title": "Seat the fork before tightening",
+      "instruction": "With the bike securely supported on its wheels, push down on the handlebars several times and check smooth fork rebound before tightening the front axle nut. This is a stationary seating operation; do not ride with loose axle hardware.",
+      "source_pdf_pages": [
+        133
+      ],
+      "verification": [
+        "Fork compressed and rebounds smoothly before final torque."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "refit"
+      ]
+    },
+    {
+      "id": "torque",
+      "title": "Secure the axle hardware",
+      "instruction": "Tighten the front axle nut to 115 N·m, then tighten all four axle pinch bolts to 21 N·m.",
+      "source_pdf_pages": [
+        133
+      ],
+      "verification": [
+        "Axle nut 115 N·m; four pinch bolts 21 N·m."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "seat"
+      ]
+    },
+    {
+      "id": "close",
+      "title": "Verify the wheel and brake",
+      "instruction": "Check wheel rotation, normal firm front-brake operation and smooth fork movement. Confirm the collars and all axle hardware are secure. Record completion or unresolved faults; this is wheel removal/refit, not brake or bearing service.",
+      "source_pdf_pages": [
+        90,
+        113,
+        129,
+        133
+      ],
+      "verification": [
+        "Wheel retained correctly; firm normal brake; smooth fork; findings recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "torque"
+      ]
+    }
+  ],
+  "operation_dependencies": [],
+  "affected_components": [
+    "fork",
+    "suspension",
+    "front_wheel",
+    "wheels",
+    "front_brake",
+    "brakes"
+  ]
+}

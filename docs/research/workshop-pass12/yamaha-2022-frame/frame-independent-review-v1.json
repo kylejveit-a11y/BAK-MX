@@ -1,0 +1,30 @@
+{
+  "status": "APPROVED",
+  "document_sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608",
+  "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2022,
+    "region": "US",
+    "variant": "standard"
+  },
+  "artifacts": [
+    {
+      "path": "frame-bearing-renewal-reassembly-v1.procedure.json",
+      "sha256": "80aaf24e8f9ee4abff65dfd53d56f09f88ce107114bf50703eab0a1c2d51fecd",
+      "reviewed_candidate_sha256": "795b8bb16d2ac68b6c5b19711f805c55b2f9f88d3a25fa80fa2c4524076fa40a"
+    }
+  ],
+  "peer_review": {
+    "path": "docs/research/workshop-pass12/yamaha-2022-frame/frame-peer-review-v1.json",
+    "sha256": "4c482d5c8d0835692d9203d84e1938fe77a5eb2a06482cb6ac750010273b6fdc"
+  },
+  "root_review": "Root independently reviewed exact2022 source changes, all amended lower-holder access/refit and chain-deferral instructions, engine initial/bench/in adaptations and prerequisites. Confirmed178 bearing1 depth4.25,177 bearing0,180 inner6.5/seals0–0.5,121leftfirst/125rightfirst, lowerholder40; accepted complete peer review153. Approved metadata-only freeze of795b8bb... candidate.",
+  "freeze_changes": "Approval/status/review metadata only. Mechanical instructions/verification/source locators unchanged from approved candidate.",
+  "limits": [
+    "Exact wheel-seal endpoints and oil-level check-bolt closure remain external prerequisite and recorded completion dependencies.",
+    "No structural repair, complete engine internals or suspension internal completion implied.",
+    "No physical bike validation."
+  ]
+}

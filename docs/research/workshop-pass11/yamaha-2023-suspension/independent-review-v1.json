@@ -1,0 +1,65 @@
+{
+  "status": "APPROVED",
+  "reviewer": "root independent exact2023 source review",
+  "artifacts": [
+    {
+      "path": "docs/research/workshop-pass11/yamaha-2023-suspension/fork-baseline-v1.procedure.json",
+      "reviewed_candidate_sha256": "7114378ad18714080bd924897653448851639e2d438c43d023f507183c297dd9",
+      "sha256": "5d954b69df96e680e8bc1c5912212e83baf8b2f2ef58d37e7378232a5cf7e409"
+    },
+    {
+      "path": "docs/research/workshop-pass11/yamaha-2023-suspension/fork-oil-seals-bushings-v1.procedure.json",
+      "reviewed_candidate_sha256": "696a984354eb9d9a395e23c94b2c44f5aa3961d31507590e2437e9238322fe9f",
+      "sha256": "30483874e1654a6584269fe96eb08d7a9ced059c8d2e09a76ee8fa0adbe933f6"
+    },
+    {
+      "path": "docs/research/workshop-pass11/yamaha-2023-suspension/rider-sag-preload-v1.procedure.json",
+      "reviewed_candidate_sha256": "aae5f9b76045dc1b47fda184e719d5def73409cd2b645a825664099ffe58e03a",
+      "sha256": "4b9d85edd8f9e9ab18e888606971a15dcffe6707a69cfc43ecb96eb8b78fb37b"
+    },
+    {
+      "path": "docs/research/workshop-pass11/yamaha-2023-suspension/shock-baseline-v1.procedure.json",
+      "reviewed_candidate_sha256": "505e95bb6548ce99245385e13921127d567d59faddd1ab04b3cdef4ed46574b2",
+      "sha256": "1f02d4e28b88c9264060727b8c061771226d856e6ff279f49910d7b808a563ce"
+    }
+  ],
+  "source_sha256": "9a8605e26301ba1d0d1d21e93d23cca721bdcdbece6188775626a8819332aa9f",
+  "scope": "All126 instruction/verification rows across eightguides compared with exact2023 source and sourcebound structure. Exact2023 diagrams reviewed independently; no year inheritance.",
+  "rendered_pages": [
+    162,
+    166,
+    167,
+    168,
+    170,
+    171,
+    172,
+    173,
+    133,
+    139,
+    141,
+    143,
+    146,
+    147,
+    152,
+    153
+  ],
+  "text_pages": [
+    108,
+    109,
+    110,
+    111,
+    376,
+    377
+  ],
+  "findings": [
+    "No mechanical changes required after author review. Frontmaster washer/boot are not marked NEW; preserve distinct front/rear renewal requirements.",
+    "General22/23pages not cited by these8; exactcomponent diagrams/symbol8 supplyrenewals.",
+    "Fork dynamic bleeding warning >=200 preserved as <200 companion restriction, maximum seating load retained without guessed numericforce."
+  ],
+  "freeze_changes": "Status and review note only; mechanical instructions unchanged.",
+  "limits": [
+    "No stockshock internal rebuild",
+    "No fork damper-rod seal rebuild",
+    "No physicalbike validation"
+  ]
+}

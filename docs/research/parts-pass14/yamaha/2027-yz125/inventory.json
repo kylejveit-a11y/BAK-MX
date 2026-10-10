@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "target": {
+    "manufacturer": "Yamaha",
+    "year": 2027,
+    "model": "YZ125",
+    "region": "US",
+    "variant": "standard"
+  },
+  "source": "MotoSport public OEM catalog",
+  "index_url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125",
+  "index_sha256": "dbea2e4477de29542d08ca324c838a29237927a7bdc5476cb17f3030a70ef8b4",
+  "scope": "Retail catalog occurrence inventory; not mechanical instructions or whole-bike BOM quantities.",
+  "status": "PARTIAL",
+  "counts": {
+    "indexed_assemblies": 41,
+    "captured_assemblies": 0,
+    "occurrences": 0,
+    "unique_part_numbers": 0,
+    "explicit_catalog_quantities": 0,
+    "supersession_rows": 0
+  },
+  "missing": [
+    {
+      "name": "1 TITLE PAGE",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/1-title-page"
+    },
+    {
+      "name": "2 SCHEDULED SERVICE PARTS",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/2-scheduled-service-parts"
+    },
+    {
+      "name": "3 MAINTENANCE PARTS KIT",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/3-maintenance-parts-kit"
+    },
+    {
+      "name": "4 PISTON REBUILT KIT",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/4-piston-rebuilt-kit"
+    },
+    {
+      "name": "ALTERNATE FOR CHASSIS",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/alternate-for-chassis"
+    },
+    {
+      "name": "CARBURETOR",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/carburetor"
+    },
+    {
+      "name": "CLUTCH",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/clutch"
+    },
+    {
+      "name": "CRANKCASE",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/crankcase"
+    },
+    {
+      "name": "CRANKCASE COVER 1",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/crankcase-cover-1"
+    },
+    {
+      "name": "CRANKSHAFT & PISTON",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/crankshaft-%26-piston"
+    },
+    {
+      "name": "CYLINDER HEAD",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/cylinder-head"
+    },
+    {
+      "name": "ELECTRICAL 1",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/electrical-1"
+    },
+    {
+      "name": "EXHAUST",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/exhaust"
+    },
+    {
+      "name": "FENDER",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/fender"
+    },
+    {
+      "name": "FRAME",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/frame"
+    },
+    {
+      "name": "FRONT BRAKE CALIPER",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/front-brake-caliper"
+    },
+    {
+      "name": "FRONT FORK",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/front-fork"
+    },
+    {
+      "name": "FRONT MASTER CYLINDER",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/front-master-cylinder"
+    },
+    {
+      "name": "FRONT WHEEL",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/front-wheel"
+    },
+    {
+      "name": "FUEL TANK",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/fuel-tank"
+    },
+    {
+      "name": "GENERATOR",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/generator"
+    },
+    {
+      "name": "GOVERNOR",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/governor"
+    },
+    {
+      "name": "HANDLE SWITCH & LEVER",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/handle-switch-%26-lever"
+    },
+    {
+      "name": "INTAKE",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/intake"
+    },
+    {
+      "name": "OPTIONAL PARTS 1",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/optional-parts-1"
+    },
+    {
+      "name": "RADIATOR & HOSE",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/radiator-%26-hose"
+    },
+    {
+      "name": "REAR ARM",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/rear-arm"
+    },
+    {
+      "name": "REAR BRAKE CALIPER",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/rear-brake-caliper"
+    },
+    {
+      "name": "REAR MASTER CYLINDER",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/rear-master-cylinder"
+    },
+    {
+      "name": "REAR SUSPENSION",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/rear-suspension"
+    },
+    {
+      "name": "REAR WHEEL",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/rear-wheel"
+    },
+    {
+      "name": "SEAT",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/seat"
+    },
+    {
+      "name": "SHIFT CAM & FORK",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/shift-cam-%26-fork"
+    },
+    {
+      "name": "SHIFT SHAFT",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/shift-shaft"
+    },
+    {
+      "name": "SIDE COVER",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/side-cover"
+    },
+    {
+      "name": "STAND & FOOTREST",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/stand-%26-footrest"
+    },
+    {
+      "name": "STARTER",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/starter"
+    },
+    {
+      "name": "STEERING",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/steering"
+    },
+    {
+      "name": "STEERING HANDLE & CABLE",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/steering-handle-%26-cable"
+    },
+    {
+      "name": "TRANSMISSION",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/transmission"
+    },
+    {
+      "name": "WATER PUMP",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125/water-pump"
+    }
+  ],
+  "errors": [],
+  "assemblies": []
+}

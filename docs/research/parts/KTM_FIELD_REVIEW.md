@@ -1,0 +1,15 @@
+# KTM field review — 2025 450 SX-F US F8475Y5
+
+The complete published catalog labels were reacquired across all42 assemblies and matched to all1167 unique occurrence keys. This improves identity detail without changing the roster or summing catalog alternatives into installed piece counts. I/II piston grades remain separate identities.
+
+Catalog data is bounded factual extraction from the exact OEM model-specific rendered tables. Each retained source capture has a SHA-256 used in its field claims. The hash identifies the retained reviewed capture, not an OEM PDF revision. Source URLs, assembly/callout/part number and capture file remain attached. No manufacturing tolerances, units omitted from the source, installation locations or materials are inferred from a part-number pattern.
+
+Dimensional and material designations are PARTIAL coverage of those broad requirements. A verified nominal dimension does not establish every needed measurement. Additional owner-manual fields have individual field keys; a brake-disc diameter cannot overwrite its wear limit, and a component identity cannot overwrite a fluid capacity. UNKNOWN and PARTIAL requirements remain open in the completion gate.
+
+Individual non-threaded seals, shims, washers and retaining rings have explicit engineering reviews for torque NOT_APPLICABLE. This is a component-applicability conclusion grounded in OEM identity, not a claim that the manufacturer publishes an N/A torque table. Retaining bolts, threaded seal holders, nuts, and containing assemblies never inherit that classification. Every N/A field must now retain an approved claim and source just like a numeric specification.
+
+Owner data: KTM3240045en,2025-01-22, exactF8475Y5 scope.103 non-torque facts were visually reviewed. Preserve fork outer oil240+10/-50mL (PDF text extraction reverses tolerances); exactUS fork settings; clockwise stop versus last perceptible click distinction; oil-level procedure and fluid qualifications; valve clearance temperature; chain measurement geometry/loading; original-versus-modified component applicability. OEM service schedule fields retain revision and severity conditions. These facts are not a complete overhaul guide.
+
+Correction: old ignition catalog callout12,79539090000, is a spark-plug connector. Its abbreviated label led to an invalid plug-torque assignment. That part mapping is removed. Actual plug callout13,77839093000, retains torque evidence. The torque claim itself was never a connector fact. All retained torque mappings are rechecked against full labels, and the integration gate now rejects missing or stale full-label bindings.
+
+Remaining genuine source requirements: factory repair procedures and tolerances; internal WP service values; mixed-function catalog occurrences; actual conflicting screw lengths; unspecified dimensions for WP50180029/50180014; unpublished material/manufacturing specifications. Official digital repair manual is a paid, account-bound source; see ktm-repair-purchase-readiness.md. This public-source pass does not approve the paid manual's license or guarantee it contains every missing manufacturing value.

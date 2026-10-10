@@ -1,0 +1,94 @@
+{
+  "status": "APPROVED_FOR_BOUNDED_RUNTIME",
+  "reviewer": "year_groups_research independent of yamaha_workshop_evidence author",
+  "artifacts": [
+    {
+      "path": "docs/research/workshop-pass13/yz250f/2020-engine/top-end-teardown-inspection-v1.procedure.json",
+      "reviewed_candidate_sha256": "c86fa4230c85da35593fb02bd4f947e8f0b562a29c9666eba5f3d94cb59bf253",
+      "step_count": 24,
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2020,
+        "variant": "standard",
+        "region": "US"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yz250f/2020-engine/original-head-valve-reassembly-v1.procedure.json",
+      "reviewed_candidate_sha256": "4776d2c5412d47a80f90cbcf561476a490e39d7d26206accecc64a7b1a8054ee",
+      "step_count": 9,
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2020,
+        "variant": "standard",
+        "region": "US"
+      }
+    }
+  ],
+  "source_bindings": [
+    {
+      "id": "yamaha-us-2020-yz250f-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf",
+      "sha256": "0a680d50262a0cab7323e3b97bf0565d358a726852610ee41ed48d747a4cd054",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\B7B-28199-11_02.pdf"
+    }
+  ],
+  "reviewed_steps": 33,
+  "text_pages": [
+    48,
+    57,
+    82,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    208,
+    209,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    219,
+    220,
+    221
+  ],
+  "rendered_pages": [
+    48,
+    198,
+    199,
+    200,
+    201,
+    206,
+    208,
+    211,
+    212,
+    213,
+    216,
+    217,
+    218,
+    219,
+    220
+  ],
+  "findings": [],
+  "accepted_checks": [
+    "All24 teardown/inspection and9 original-head assembly instructions read against exact2020 source.",
+    "Actual2020 camrunout0.030/exhaustlobe33.750/valvestemrunout0.010/topring0.15–0.25 and0.50limit preserved.",
+    "Cam measurement10Nm withEpreparation, head removal order/lengths, sixborevalues/maximum and4mmpistondatum supported.",
+    "Titanium valves used forlapping must be discarded; original-head route excludes valve/guide/head substitution and all machining.",
+    "Newstemseals withMoil; originalpositionparts, largerpitchup, eightcotters, lightsofttip seating andEpad/lifter withsmoothrotation supported.",
+    "Repeat solventsealing afterassembly is transparent inspectionadaptation; rejects leaks before headacceptance."
+  ],
+  "scope_limits": [
+    "Prepared-engine access remains external; teardown ends disassembled.",
+    "Original accepted-head assembly ends detached; head mounting, cams/timing, valveclearance, repair branches andcommissioning not completed.",
+    "Headbolt PDF57oil versus209grease disagreement remains explicitly unresolved before installation.",
+    "No physicalworkshop validation or fullbike qualification."
+  ],
+  "freeze_permission": "Approval/status/review-note-only metadata revision and final hash rebinding permitted; mechanical changes require review."
+}

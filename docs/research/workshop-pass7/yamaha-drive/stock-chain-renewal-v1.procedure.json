@@ -1,0 +1,302 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2026-yz450f-stock-chain-renewal-v1",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "publication_status": "APPROVED",
+  "title": "Replace the stock drive chain",
+  "completeness": "Complete stock non-sealed clip-type chain renewal on serviceable stock sprockets, with axle/slack/brake closure. Sprocket replacement and rivet/sealed-chain conversions are outside this guide.",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      54,
+      90,
+      111,
+      112,
+      134,
+      136,
+      138,
+      196,
+      197,
+      198,
+      199,
+      394
+    ],
+    "printed_pages": [
+      "2-10",
+      "3-6",
+      "3-27",
+      "3-28",
+      "4-12",
+      "4-14",
+      "4-16",
+      "4-74",
+      "4-75",
+      "4-76",
+      "4-77",
+      "10-1"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Root visually reviewed PDF54/196/197/198; axle and chain-setting closure previously independently reviewed in pass6. Independent full-candidate review pending. Independently reviewed and approved; scope remains a bounded operation."
+  },
+  "affected_components": [
+    "chain",
+    "sprockets",
+    "swingarm",
+    "rear_wheel",
+    "wheels",
+    "rear_brake",
+    "brakes"
+  ],
+  "applicability": {
+    "included": "Exact stock standard US2026 YZ450F drivetrain with serviceable original gearing and clip-type non-sealed chain.",
+    "excluded": [
+      "Other years/models/markets",
+      "Different gearing or sealed/rivet chain conversion",
+      "Sprocket, hub or swingarm replacement"
+    ]
+  },
+  "required_tools": [
+    {
+      "name": "Stable maintenance stand and axle/adjuster tools"
+    },
+    {
+      "name": "Torque tools covering 7, 21 and 135 Nm"
+    },
+    {
+      "name": "Caliper/ruler for 15-link length, slack ruler and means to apply about 50 N"
+    },
+    {
+      "name": "Suitable clip-link fitting/removal tool and chain lubricant"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "Matching non-sealed 520 chain, 114 links",
+      "purpose": "OEM stock size/type/count; correct matching joining link, plate and new clip supplied"
+    }
+  ],
+  "prerequisites": [
+    "Serviceable stock sprockets and guide, correct replacement chain and matching clip link available."
+  ],
+  "critical_stop_conditions": [
+    "Worn/bent sprockets, damaged joining parts or chain binding require correction."
+  ],
+  "entry_state": [
+    "Assembled stock bike requiring chain replacement; sprockets remain serviceable."
+  ],
+  "exit_state": [
+    "New chain joined and lubricated; axle secured; slack and rolling/brake checks recorded."
+  ],
+  "steps": [
+    {
+      "id": "prepare",
+      "title": "Confirm the chain and sprockets",
+      "instruction": "Secure the bike on a maintenance stand with rear wheel raised, engine off and transmission in neutral. This route replaces the stock non-sealed 520 chain with 114 links and its matching clip-type joining link. Confirm the stock 13/51 sprockets are serviceable: more than one-quarter tooth wear or bent teeth require front and rear sprocket replacement as a set before a new chain is installed. Do not use a rivet or sealed-chain joining method from this guide. Remove the front sprocket cover for inspection, leaving its sprocket nut and lock washer untouched.",
+      "source_pdf_pages": [
+        54,
+        111,
+        197,
+        198,
+        394,
+        196
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=54",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=111",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=197",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=198",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=394",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=196"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record or confirm the stated checks and actual measurements."
+      ],
+      "depends_on": [],
+      "origin": "Original OEM factual summary; stock-matched joining parts and engine-off hand rotation are explicit workflow controls."
+    },
+    {
+      "id": "measure",
+      "title": "Record wear and the replacement",
+      "instruction": "With the old chain taut, measure the inner-pin and outer-pin spans of the 15-link section shown in the diagram. Average those two lengths. Repeat at two or three different chain locations and record the results against the 242.9 mm limit. Record stiff links and roller/side-plate damage as well as the identity and 114-link count of the matching new chain.",
+      "source_pdf_pages": [
+        54,
+        197
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=54",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=197"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record or confirm the stated checks and actual measurements."
+      ],
+      "depends_on": [
+        "prepare"
+      ],
+      "origin": "Original OEM factual summary; stock-matched joining parts and engine-off hand rotation are explicit workflow controls."
+    },
+    {
+      "id": "release",
+      "title": "Release chain tension",
+      "instruction": "Loosen the rear axle nut and both chain-adjuster locknuts. Turn both adjusting bolts inward evenly so the wheel can move forward; keep axle, wheel, collars and caliper bracket installed. Maintain stable support and record the original adjuster positions.",
+      "source_pdf_pages": [
+        111,
+        134,
+        136
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=111",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=134",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=136"
+      ],
+      "diagram_reference_required": true,
+      "record_required": false,
+      "verification": [
+        "Record or confirm the stated checks and actual measurements."
+      ],
+      "depends_on": [
+        "measure"
+      ],
+      "origin": "Original OEM factual summary; stock-matched joining parts and engine-off hand rotation are explicit workflow controls."
+    },
+    {
+      "id": "remove",
+      "title": "Remove the old chain",
+      "instruction": "Remove the master-link clip, outer plate and joining link as illustrated, then lift off the old chain. Keep hands clear of pinch points while turning the wheel by hand; do not run the engine to move the chain. Preserve original chain routing around the sprockets, slider and guide.",
+      "source_pdf_pages": [
+        197,
+        198
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=197",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=198"
+      ],
+      "diagram_reference_required": true,
+      "record_required": false,
+      "verification": [
+        "Record or confirm the stated checks and actual measurements."
+      ],
+      "depends_on": [
+        "release"
+      ],
+      "origin": "Original OEM factual summary; stock-matched joining parts and engine-off hand rotation are explicit workflow controls."
+    },
+    {
+      "id": "install",
+      "title": "Fit and join the new chain",
+      "instruction": "Route the exact matching new 114-link chain along the original path. Fit its matching joining link and plate, then a NEW matching clip in the direction shown in the OEM diagram. The closed end of the clip leads in the chain travel direction. Confirm the clip is fully seated in both pin grooves and the joint moves freely; do not mix joining-link components from different chain models. Lubricate the non-sealed chain with suitable chain lubricant without contaminating tire or brake.",
+      "source_pdf_pages": [
+        54,
+        198
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=54",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=198"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record or confirm the stated checks and actual measurements."
+      ],
+      "depends_on": [
+        "remove"
+      ],
+      "origin": "Original OEM factual summary; stock-matched joining parts and engine-off hand rotation are explicit workflow controls."
+    },
+    {
+      "id": "slack",
+      "title": "Set the stock chain slack",
+      "instruction": "Keep the rear wheel raised and transmission neutral. Pull the chain upward with about 50 N at the chain-guide mounting-bolt location shown. Measure from the chain guide to the chain bottom at that exact location. Adjust both sides evenly to 50-60 mm, with pullers/end plates seated against the swingarm ends.",
+      "source_pdf_pages": [
+        111,
+        112,
+        138,
+        199
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=111",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=112",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=138",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=199"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record or confirm the stated checks and actual measurements."
+      ],
+      "depends_on": [
+        "install"
+      ],
+      "origin": "Original OEM factual summary; stock-matched joining parts and engine-off hand rotation are explicit workflow controls."
+    },
+    {
+      "id": "secure",
+      "title": "Secure the rear axle",
+      "instruction": "Tighten the rear axle nut to 135 Nm and both chain-adjuster locknuts to 21 Nm. Recheck slack after tightening and turn the wheel by hand to check the chain follows the sprockets and guide without binding.",
+      "source_pdf_pages": [
+        112,
+        138,
+        199
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=112",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=138",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=199"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record or confirm the stated checks and actual measurements."
+      ],
+      "depends_on": [
+        "slack"
+      ],
+      "origin": "Original OEM factual summary; stock-matched joining parts and engine-off hand rotation are explicit workflow controls."
+    },
+    {
+      "id": "finish",
+      "title": "Record the final drive check",
+      "instruction": "Confirm master-link clip direction and engagement, free joining-link motion, final slack, wheel alignment and normal rear-brake function. Record the replacement chain and joining-link identity and final checks. A new chain does not repair worn sprockets; resolve abnormal engagement or binding before use. Refit the sprocket cover and tighten its bolts to 7 Nm.",
+      "source_pdf_pages": [
+        90,
+        111,
+        112,
+        138,
+        198,
+        199,
+        196
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=90",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=111",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=112",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=138",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=198",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=199",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=196"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record or confirm the stated checks and actual measurements."
+      ],
+      "depends_on": [
+        "secure"
+      ],
+      "origin": "Original OEM factual summary; stock-matched joining parts and engine-off hand rotation are explicit workflow controls."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope": "One stock bike; other manufacturers paused for this pass.",
+  "status": "COMPLETION_AUDIT_NOT_FULL_BIKE_APPROVAL",
+  "references": [
+    {
+      "path": "docs/research/engine-pass3/FINAL_REVIEW.md",
+      "sha256": "37c85b3216cb8c8cc2d9e085809fad9622dc59846be27082863dfd9fba696977"
+    },
+    {
+      "path": "docs/research/engine-pass3/source-review-manifest.json",
+      "sha256": "12873a0ae3804e177b04d9a91ca90255b19d391b6c1cd6aa7f9b0abdcd6a6ca4"
+    },
+    {
+      "path": "docs/research/engine-pass3/engine-chain-index-v1.json",
+      "sha256": "9c52fcb918dc8c2219248bfd187d88d8d08346621b1c074486e58128cd19782b"
+    },
+    {
+      "path": "docs/research/engine-pass3/continuation/source-review-manifest.json",
+      "sha256": "b499036ddfb68e6dd445bec8f23c1124176d121afcd1634e9b80ada168d36045"
+    },
+    {
+      "path": "docs/research/engine-pass3/continuation/top-end-stock-reuse-v1.procedure.json",
+      "sha256": "67e79fb759118435f2150c3f18fab128638b2752160a4ccbf5c25e4a2fc0e21e"
+    },
+    {
+      "path": "docs/research/frame-pass3/source-review-manifest.json",
+      "sha256": "faa447b8dc0d257582d9ddbd341277684286d16390ee1eaf424c03aa0725c521"
+    },
+    {
+      "path": "docs/research/frame-pass3/continuation/source-review-manifest.json",
+      "sha256": "716fbcb896e80f557f3aeec2dcba8f5f9557a729efbda54321a1d5f4163fe9eb"
+    },
+    {
+      "path": "docs/research/frame-pass3/continuation/frame-strip-reassemble-v1.procedure.json",
+      "sha256": "515099c701602c179763c20a973365044ad65f3488c8edad9d0185cbccfdc282"
+    },
+    {
+      "path": "docs/research/suspension-pass3/source-review-manifest.json",
+      "sha256": "5d952a9d0aa3c016655b955e748921af56a94e8388d9bc658150b96ea24e94e8"
+    },
+    {
+      "path": "docs/research/suspension-pass3/fork-oil-seals-bushings-v1.procedure.json",
+      "sha256": "a56e694f6a86961b4dfb1cadc2701df96506d6af9fcceae89ed39eb948fffff2"
+    },
+    {
+      "path": "docs/research/suspension-pass4/yamaha-internal-shock-review.json",
+      "sha256": "ac5adfc3b0056ea6189744e568200d0b2568b612ffaed9a5325f99550c2f197f"
+    }
+  ],
+  "new_operation": "front-wheel-bearing-renewal-v1.procedure.json",
+  "matrix": "COMPLETION_MATRIX.md",
+  "matrix_sha256": "12eeca09fe91ea291dc9bd016b03e8b64835c8ed1e5ef315202c1f946f8f3dd8",
+  "physical_validation": false,
+  "database_writes": false,
+  "priority_source_blockers": [
+    "Clutch boss nut preparation conflict blocks full bottom-end route",
+    "Exact redesigned stock shock internal procedure"
+  ],
+  "priority_available_oem_expansion": [
+    "Pressed steering bearing/race replacement",
+    "Swingarm/linkage bearing and seal renewal",
+    "Rear hub bearing/circlip/seal renewal",
+    "Brake and clutch hydraulic overhaul branches"
+  ],
+  "not_interchangeable": [
+    "Serviceable-original-part route",
+    "Complete-assembly replacement",
+    "Internal component rebuild"
+  ],
+  "next_completion_test": "A failed inspected part has a source-supported repair or exact replacement path, a valid rejoin state, and verified assembled-bike closure; guide counts do not satisfy this test."
+}

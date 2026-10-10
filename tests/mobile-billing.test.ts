@@ -1,0 +1,6 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';
+import {mobileSnapshot,handleMobileBilling} from '../server/mobile-billing.ts';
+const now=1000000;function record(overrides={}){return {request_date_ms:now,subscriber:{entitlements:{bakmx_pro:{expires_date:new Date(now+60000).toISOString(),product_identifier:'mx_monthly'}},subscriptions:{mx_monthly:{is_sandbox:false,store:'app_store',...overrides}}}};}
+test('store validation rejects wrong products, expired and refunded subscriptions',()=>{assert.equal(mobileSnapshot(record(),['mx_monthly'],false,now).status,'active');assert.equal(mobileSnapshot(record(),['emoto_monthly'],false,now).status,'none');assert.equal(mobileSnapshot(record(),['mx_monthly'],false,now+60000).status,'none');assert.equal(mobileSnapshot(record({refunded_at:new Date(now).toISOString()}),['mx_monthly'],false,now).status,'none');});
+test('sandbox purchase is never a production entitlement',()=>{assert.equal(mobileSnapshot(record({is_sandbox:true}),['mx_monthly'],false,now).status,'none');assert.equal(mobileSnapshot(record({is_sandbox:true}),['mx_monthly'],true,now).status,'active');});
+test('native sync cannot be called anonymously',async()=>assert.equal((await handleMobileBilling(new Request('https://test/api/mobile/sync-entitlement',{method:'POST'}),null))?.status,401));

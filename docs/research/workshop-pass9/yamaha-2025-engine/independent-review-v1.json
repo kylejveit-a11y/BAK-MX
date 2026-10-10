@@ -1,0 +1,70 @@
+{
+  "status": "APPROVED",
+  "reviewer": "independent agent year_groups_research",
+  "artifact": "top-end-bench-v1.procedure.json",
+  "artifact_sha256": "168f728aa9c092015bac846833b06502964ed223fa58dc58295219240ccf8eb6",
+  "source_sha256": "5005e7d8492c9482dfe44c6d752609a9a70a836f5b1dc94be3149d5d493de8ac",
+  "text_pages_reviewed": [
+    7,
+    50,
+    89,
+    90,
+    91,
+    92,
+    93,
+    95,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    218,
+    219,
+    220,
+    221,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234
+  ],
+  "rendered_pages_reviewed": [
+    92,
+    93,
+    211,
+    215,
+    219,
+    220,
+    225,
+    227,
+    228,
+    230,
+    234
+  ],
+  "checks": [
+    "Exact 2025 dimensions and measured part-pair acceptance; no 2026 numerical inheritance.",
+    "Distinct head removal and installation diagrams; 36 Nm then individual 18 Nm plus 90 degrees followed by final 60 degrees, small bolts 12 Nm with source unspecified Loctite.",
+    "Valve guides, titanium sacrificial-lapping versus distinct new running valves, actual outsourced seat refacing and final sealing.",
+    "Ring orientation, spring orientation, renewed seals, cam-cap sequence, tensioner release, repeated cold timing and clearance acceptance.",
+    "Retained-valve and no-adjustment forward branches preserve required measurements; bench scope excludes engine installation and commissioning."
+  ],
+  "resolved_findings": [
+    "Clarified YM-01122 is remover only, not remover/installer set.",
+    "Added explicit protective-cloth accounting/removal at cylinder and cam closure, including the adjustment loop.",
+    "Added final port-test solvent drainage/drying before head assembly."
+  ],
+  "remaining_scope": [
+    "Illustrated bench companion for a sound retained head/caps/lifters and lower engine.",
+    "Seat refacing is an actual specialist dependency; cutter angles and machining allowance are not supplied.",
+    "Engine removal/refit and running commissioning remain separate; no physical repair or whole-bike completion asserted."
+  ],
+  "open_blocking_findings": []
+}

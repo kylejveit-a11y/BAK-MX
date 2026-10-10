@@ -1,0 +1,19 @@
+# YZ250F exact-year setup checkpoint
+
+Seven public OEM US owner service manuals recovered for standard 2020â€“2026 YZ250F. Five previously captured hashes match unchanged. 2020 and 2021 cover identities independently read; all setup controls, ranges, spring limits and measurement diagrams visually reviewed. No YZ450F specification inherited.
+
+21 guides / 131 original-worded steps passed independent root review and are frozen: fork baseline, shock baseline, rider sag for each year. 2020 sag is measurement/assessment only: its preload service explicitly requires rear-frame removal, which this bounded guide does not claim. 2021â€“2026 sag companions include stock preload adjustment and locknut closure exactly as specified; no numerical locknut torque invented where the manual only says tighten.
+
+Exact settings and reviewed pages are in setup-value-review.json. Every candidate binds its own OEM source hash. Raw manuals, extracted text and rendered pages remain in Temp; only original summaries and source locators are distributed. Run `python docs/research/workshop-pass13/yz250f/validate_review.py` for a read-only consistency check. This does not substitute for independent source or physical validation.
+
+2027 source discovery is resolved: root recovered exact US D05-2819U-10_02, SHA ee02280139498348008b90fa4fed317228500c47caf76eb1712d1669e19d1578. Three setup guides in `2027/` passed independent root review and are frozen APPROVED. The total is now 24 setup guides / 150 steps across eight exact years. The failed DR8 lead is superseded. The redesigned 2027 engine and hydraulic clutch still require independent mechanical-service review.
+
+These setup guides are not full bike coverage. Exact 2020–2026 prepared-engine teardown/inspection (24 steps) and detached accepted-original-head valve reassembly (9 steps) have independently approved frozen artifacts in their respective engine folders. Exact 2020â€“2023 pairs are source-bound candidates pending independent peer review at this checkpoint; their manifests are the authoritative approval state. They do not close assembled-bike access, head installation, cam timing or commissioning. Chassis repair, fork oil/seals/cartridge service, shock internals, and physical workshop validation remain outstanding. No database records were changed.
+
+Head-bolt lubricant conflicts remain held: summary oil versus dedicated grease at 2020 PDF57/209, 2021â€“2022 PDF57/211, 2023 PDF55/208, 2024 PDF59/223 and 2025â€“2026 PDF61/229. The bounded engine guides select neither preparation and do not include head installation. This prevents a false claim of a continuous rebuild. Original-valve reassembly excludes guide renewal, seat machining and any valve used for lapping.
+
+The year comparison preserves actual differences, including 2020 exhaust cam minimum 33.750 mm and valve stem runout 0.010 mm, rather than later 33.460/0.020 values. 2020 cam runout is explicitly inspected. The 2020â€“2021 compressor part number and all-piston-ring disposition differ from later manuals. Each year has its own source-page mapping, author comparison, source hash and read-only validator; no blanket year inheritance was used.
+
+Independent peer review of the separate32 two-stroke damping guides is saved in `two-stroke-independent-review-v1.json`, binding each candidate hash and stating actual visual sampling versus exact-year text review. The author owns approval freezing and integration.
+
+Final integration checkpoint: 38 YZ250F guides / 381 steps (24 setup plus 14 bounded engine), all independently approved. The shared library generator reports 294 reviewed procedures overall. This count describes reviewed routes, not a percentage of complete bike coverage or launch readiness. Exact-source validators passed, including approval/hash bindings for every engine year. Real-bike validation remains outstanding.

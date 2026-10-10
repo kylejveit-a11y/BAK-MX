@@ -1,0 +1,41 @@
+{
+  "schema_version": "research-candidates-v1",
+  "researched_on": "2026-09-12",
+  "status": "RESEARCH_ONLY",
+  "runtime_eligible": false,
+  "notice": "Source facts checked against readable OEM publication content; not production verification or promotion. No full manual copied. Evidence hash, rights approval, independent review and conflict checks remain required.",
+  "sources": {
+    "honda-2026-450-om": {
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626omen.pdf",
+      "title": "2026 CRF450R/RX/RWE Owner's Manual",
+      "publication_id": "31MKE6910_enu",
+      "authority": "OEM_OWNER_MANUAL",
+      "region": "US",
+      "access": "Readable OEM PDF; 83 PDF pages; cover confirms 2026 combined models.",
+      "rights": "Copyright 2025 Honda; page 2 of PDF prohibits reproduction without written permission. No redistribution or commercial corpus permission established.",
+      "sha256": null
+    },
+    "yamaha-2026-lineup": {
+      "url": "https://yamahamotorsports.com/Blogs.php?action=blogArticle&blog_id=yamaha-announces-2026-yz-off-road-lineup",
+      "title": "Yamaha Announces 2026 YZ Off-Road Lineup",
+      "published_on": "2025-06-18",
+      "authority": "OEM_TECHNICAL_ANNOUNCEMENT",
+      "region": "US",
+      "access": "Readable official US Yamaha article; current generic product navigation contains 2027 models and must not override article's explicit 2026 scope.",
+      "rights": "Short original factual paraphrases only; no article redistribution; commercial corpus permission not established.",
+      "sha256": null
+    }
+  },
+  "candidates": [
+    {"id":"honda-crf450r-2026-intake-clearance","make":"Honda","model":"CRF450R","year":2026,"variant":"standard","region":"US","component_revision":null,"source_id":"honda-2026-450-om","locator":"Printed page 73; PDF page 79 (zero-based 78), Specifications / Engine / Valve clearance (cold)","statement":"Cold intake valve clearance: 0.13 ± 0.03 mm.","value":0.13,"tolerance":0.03,"unit":"mm","conditions":["Engine cold","OEM configuration"],"source_fact_checked":true,"runtime_eligible":false},
+    {"id":"honda-crf450r-2026-exhaust-clearance","make":"Honda","model":"CRF450R","year":2026,"variant":"standard","region":"US","component_revision":null,"source_id":"honda-2026-450-om","locator":"Printed page 73; PDF page 79 (zero-based 78), Specifications / Engine / Valve clearance (cold)","statement":"Cold exhaust valve clearance: 0.28 ± 0.03 mm.","value":0.28,"tolerance":0.03,"unit":"mm","conditions":["Engine cold","OEM configuration"],"source_fact_checked":true,"runtime_eligible":false},
+    {"id":"honda-crf450r-2026-oil-drain","make":"Honda","model":"CRF450R","year":2026,"variant":"standard","region":"US","component_revision":null,"source_id":"honda-2026-450-om","locator":"Printed page 73; PDF page 79 (zero-based 78), Specifications / Engine oil capacity / After draining","statement":"Oil capacity following draining alone: 1.00 L.","value":1.0,"unit":"L","conditions":["After draining only; not filter replacement or engine disassembly","Follow OEM fill and level-check procedure"],"source_fact_checked":true,"runtime_eligible":false},
+    {"id":"honda-crf450r-2026-oil-filter-change","make":"Honda","model":"CRF450R","year":2026,"variant":"standard","region":"US","component_revision":null,"source_id":"honda-2026-450-om","locator":"Printed page 73; PDF page 79 (zero-based 78), Specifications / Engine oil capacity / After draining and oil filter change","statement":"Oil capacity following draining and filter replacement: 1.04 L.","value":1.04,"unit":"L","conditions":["Oil filter also changed; not engine disassembly","Follow OEM fill and level-check procedure"],"source_fact_checked":true,"runtime_eligible":false},
+    {"id":"honda-crf450r-2026-idle","make":"Honda","model":"CRF450R","year":2026,"variant":"standard","region":"US","component_revision":null,"source_id":"honda-2026-450-om","locator":"Printed page 73; PDF page 79 (zero-based 78), Specifications / Engine / Idle speed","statement":"Specified idle speed: 2000 ± 100 rpm.","value":2000,"tolerance":100,"unit":"rpm","conditions":["Use OEM idle-check procedure; not advice to adjust around a fault"],"source_fact_checked":true,"runtime_eligible":false},
+    {"id":"honda-crf450r-2026-final-reduction","make":"Honda","model":"CRF450R","year":2026,"variant":"standard","region":"US","component_revision":null,"source_id":"honda-2026-450-om","locator":"Printed page 73; PDF page 79 (zero-based 78), Specifications / Drive train / Final reduction / CRF450R/RWE row","statement":"Stock final reduction: 3.769.","value":3.769,"unit":"ratio","conditions":["Stock gearing only","CRF450RX row differs; no cross-model inheritance"],"source_fact_checked":true,"runtime_eligible":false},
+    {"id":"honda-crf450r-2026-plug","make":"Honda","model":"CRF450R","year":2026,"variant":"standard","region":"US","component_revision":null,"source_id":"honda-2026-450-om","locator":"Printed page 74; PDF page 80 (zero-based 79), Specifications / Electrical / Spark plug","statement":"Specified spark plug: NGK SILMAR9A-9S.","value":"NGK SILMAR9A-9S","unit":null,"conditions":["OEM engine configuration"],"source_fact_checked":true,"runtime_eligible":false},
+    {"id":"honda-crf450r-2026-plug-gap","make":"Honda","model":"CRF450R","year":2026,"variant":"standard","region":"US","component_revision":null,"source_id":"honda-2026-450-om","locator":"Printed page 74; PDF page 80 (zero-based 79), Specifications / Electrical / Spark plug gap","statement":"Specified spark-plug gap range: 0.80–0.90 mm.","minimum":0.8,"maximum":0.9,"unit":"mm","conditions":["Specified OEM plug; no gap-adjustment procedure inferred"],"source_fact_checked":true,"runtime_eligible":false},
+    {"id":"yamaha-yz250f-2026-ecu-lock","make":"Yamaha","model":"YZ250F","year":2026,"variant":"standard Team Yamaha Blue","region":"US","component_revision":null,"ecu_firmware":null,"source_id":"yamaha-2026-lineup","locator":"Welcome to the VictorYZone section; paragraph beginning In addition to the extensively updated 2026 YZ450F","statement":"Yamaha lists a password-based Power Tuner ECU lock that prevents unauthorized engine starting.","conditions":["OEM ECU and compatible Power Tuner app","Firmware/app version and operation procedure not established by this article"],"source_fact_checked":true,"runtime_eligible":false},
+    {"id":"yamaha-yz450f-2026-ecu-lock","make":"Yamaha","model":"YZ450F","year":2026,"variant":"standard Team Yamaha Blue","region":"US","component_revision":null,"ecu_firmware":null,"source_id":"yamaha-2026-lineup","locator":"Welcome to the VictorYZone section; paragraph beginning In addition to the extensively updated 2026 YZ450F","statement":"Yamaha lists a password-based Power Tuner ECU lock that prevents unauthorized engine starting.","conditions":["OEM ECU and compatible Power Tuner app","Firmware/app version and operation procedure not established by this article"],"source_fact_checked":true,"runtime_eligible":false}
+  ]
+}

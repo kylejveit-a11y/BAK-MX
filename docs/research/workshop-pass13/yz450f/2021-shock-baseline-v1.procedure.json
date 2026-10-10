@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2021-yz450f-shock-baseline-v1",
+  "title": "Restore the stock shock damping baseline",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2021,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "publication_status": "APPROVED",
+  "component": "shock",
+  "affected_components": [
+    "shock",
+    "suspension"
+  ],
+  "applicability": {
+    "included": "Exact standard US 2021 Yamaha YZ450F with original stock suspension.",
+    "excluded": [
+      "Other model-years, markets or variants",
+      "Changed springs, revalving or replacement suspension",
+      "Internal suspension rebuilding"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "entry_state": [
+    "Assembled bike with identified, serviceable stock suspension."
+  ],
+  "exit_state": [
+    "Stock baseline or measured rider sag recorded; no internal overhaul performed."
+  ],
+  "preflight": [
+    "Identify the exact bike and stock components. Save starting settings."
+  ],
+  "critical_stop_conditions": [
+    "Leaks, binding or damage",
+    "Unidentified adjuster or inability to reach a setting without force"
+  ],
+  "required_tools": [
+    {
+      "name": "Secure maintenance stand"
+    },
+    {
+      "name": "Suitable damping adjuster tools"
+    }
+  ],
+  "required_parts": [],
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-11_02.pdf",
+    "document_sha256": "d322a59a3df2dd9431047d5416f18f73bee530a0ce6a86b60f8b3ae2c1f5eca9",
+    "document_revision": "B2W-2819U-11",
+    "pdf_pages": [
+      1,
+      4,
+      106,
+      107,
+      108
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Root author/source review and independent year_groups_research review accepted bounded setup. 2020 copyright locator corrected to4; no mechanical changes after review.",
+    "printed_pages": [
+      "PDF 1: front matter",
+      "PDF 4: front matter",
+      "PDF 106: 3-30",
+      "PDF 107: 3-31",
+      "PDF 108: 3-32"
+    ]
+  },
+  "steps": [
+    {
+      "id": "inspect",
+      "title": "Inspect the rear suspension",
+      "instruction": "Support the bike upright. Check the shock for leaks and damage. Load and unload the rear suspension several times; the shock and linkage must move smoothly. Correct faults before adjusting.",
+      "depends_on": [],
+      "source_pdf_pages": [
+        106
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-11_02.pdf#page=106"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record the actual setting or measurement and confirm this step is complete."
+      ],
+      "record_required": true
+    },
+    {
+      "id": "record",
+      "title": "Save the starting settings",
+      "instruction": "Raise the rear wheel on a stable maintenance stand. Identify the bottom rebound control and the separate high-speed and low-speed compression controls from the linked diagrams. Gently count each setting toward hard and record it; never force the stops.",
+      "depends_on": [
+        "inspect"
+      ],
+      "source_pdf_pages": [
+        106,
+        107,
+        107,
+        108
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-11_02.pdf#page=106",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-11_02.pdf#page=107",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-11_02.pdf#page=107",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-11_02.pdf#page=108"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record the actual setting or measurement and confirm this step is complete."
+      ],
+      "record_required": true
+    },
+    {
+      "id": "rebound",
+      "title": "Set rebound",
+      "instruction": "From gently seated full hard, open the rebound adjuster 11 clicks toward soft. Record the actual setting.",
+      "depends_on": [
+        "record"
+      ],
+      "source_pdf_pages": [
+        107
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-11_02.pdf#page=107"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record the actual setting or measurement and confirm this step is complete."
+      ],
+      "record_required": true
+    },
+    {
+      "id": "high",
+      "title": "Set high-speed compression",
+      "instruction": "From gently seated full hard, open the high-speed compression control 1 turns toward soft. This control is measured in turns, not clicks.",
+      "depends_on": [
+        "rebound"
+      ],
+      "source_pdf_pages": [
+        107
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-11_02.pdf#page=107"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record the actual setting or measurement and confirm this step is complete."
+      ],
+      "record_required": true
+    },
+    {
+      "id": "low",
+      "title": "Set low-speed compression",
+      "instruction": "From gently seated full hard, open the low-speed compression control 9 clicks toward soft. Keep it distinct from the high-speed control.",
+      "depends_on": [
+        "high"
+      ],
+      "source_pdf_pages": [
+        108
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-11_02.pdf#page=108"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record the actual setting or measurement and confirm this step is complete."
+      ],
+      "record_required": true
+    },
+    {
+      "id": "verify",
+      "title": "Check and record",
+      "instruction": "Lower the bike securely. Confirm smooth shock and linkage movement without leaks. Save all three settings before a controlled evaluation ride. These factory settings are a baseline, not a personalized tune.",
+      "depends_on": [
+        "low"
+      ],
+      "source_pdf_pages": [
+        106,
+        107,
+        107,
+        108
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-11_02.pdf#page=106",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-11_02.pdf#page=107",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-11_02.pdf#page=107",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-11_02.pdf#page=108"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record the actual setting or measurement and confirm this step is complete."
+      ],
+      "record_required": true
+    }
+  ],
+  "completeness": "Assembled-bike stock damping baseline."
+}

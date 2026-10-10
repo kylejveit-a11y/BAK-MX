@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-frame-renewal-pass7",
+  "database_writes": false,
+  "sources": [
+    {
+      "id": "yamaha-yz450f-2026-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+      "local_pdf_path": "C:/Users/kylej/AppData/Local/Temp/D03-2819U-10_02.pdf",
+      "sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd"
+    },
+    {
+      "id": "motionpro-stem-2025",
+      "url": "https://www.motionpro.com/download/i08-0544-instructions-v001-2025",
+      "sha256": "de9b7f4f53f59cd3c8393c621425342371dac5bdbeb55ca1068f1260c70b5b6d",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\chassis7\\stem.pdf",
+      "locators": [
+        "page1, installation steps6-10 and photographs6,8,9,10"
+      ],
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\chassis7\\stem.pdf",
+      "attribution": "Motion Pro, Inc., official tool instructions",
+      "scope": "Standard tool operation only; exact Yamaha geometry, stack, grease exceptions, depths and closure control. Actual adapter fit must be checked; no model compatibility assertion."
+    },
+    {
+      "id": "motionpro-race-2022",
+      "url": "https://www.motionpro.com/download/instruction-08-0669-steering-bearing-installer",
+      "sha256": "7ccc1ed5e429e3c2be782f877a1269e9a62fd5dbbd1aaa50002964d6c0eb723f",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\chassis7\\race.pdf",
+      "locators": [
+        "page1, steps1-9 and photographs"
+      ],
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\chassis7\\race.pdf",
+      "attribution": "Motion Pro, Inc., official tool instructions",
+      "scope": "Standard tool operation only; exact Yamaha geometry, stack, grease exceptions, depths and closure control. Actual adapter fit must be checked; no model compatibility assertion."
+    },
+    {
+      "id": "motionpro-linkage-2017",
+      "url": "https://www.motionpro.com/download/instructions-08-0294-deluxe-suspension-bearing-service-tool",
+      "local_pdf_path": "C:/Users/kylej/AppData/Local/Temp/chassis7/linkage.pdf",
+      "sha256": "2da71911f69e368f9a458d436bbab475f208c826d1b1141e453e6f74966a1eb4",
+      "locators": [
+        "pages1-3;figures1-10;tool technique only,2006CRF450R example"
+      ],
+      "local_path": "C:/Users/kylej/AppData/Local/Temp/chassis7/linkage.pdf",
+      "attribution": "Motion Pro, Inc., official tool instructions",
+      "scope": "Standard tool operation only; exact Yamaha geometry, stack, grease exceptions, depths and closure control. Actual adapter fit must be checked; no model compatibility assertion."
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "frame-bearing-renewal-reassembly-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "8ddab32875211d5cbb147a32f5ac7ac4c52506ba80f8e04f59f95806efbd105f",
+      "source_id": "yamaha-yz450f-2026-oem",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 150
+    }
+  ]
+}

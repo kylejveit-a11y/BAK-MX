@@ -1,0 +1,585 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-09-13",
+  "scope": "Honda/Yamaha/Kawasaki 2022–2026 discovery; this pass closes two Honda document gaps only.",
+  "sources": [
+    {
+      "id": "honda-us-crf250r-2022-31k95640",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_owner_s_manual.pdf",
+      "title": "Honda 2022 CRF250R/RX Owner's Manual",
+      "access": "PDF_READ_AND_SPEC_TABLES_VISUALLY_CHECKED",
+      "publication": "31K95640 / 00X31-K95-6400",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "sha256": "ab0762953d612936b8f29b870affc89dfba3afa8291f3de5cbaf7d6cb3dc1cf0",
+      "local_inspection_copy": "/tmp/bakmx-honda22.pdf",
+      "archive_status": "TEMPORARY_INSPECTION_COPY_ONLY",
+      "visual_pages": [
+        76,
+        77
+      ],
+      "rights_review": "PENDING",
+      "source_notes": "Cover identifies 2022; US/Canada content. Standard CRF250R scoped separately from RX. Copyright notice restricts reproduction; publication not distributed."
+    },
+    {
+      "id": "honda-us-crf250r-2024-31k95660",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952424omen.pdf",
+      "title": "Honda 2024 CRF250R/RX Owner's Manual",
+      "access": "PDF_READ_AND_SPEC_TABLES_VISUALLY_CHECKED",
+      "publication": "31K95660 / 00X31-K95-6600",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "sha256": "d34faa40c2a48aff578a5407285558ce216b9cb051aaee55dc72dd2075514b97",
+      "local_inspection_copy": "/tmp/bakmx-honda24.pdf",
+      "archive_status": "TEMPORARY_INSPECTION_COPY_ONLY",
+      "visual_pages": [
+        76,
+        77
+      ],
+      "rights_review": "PENDING",
+      "source_notes": "Cover identifies 2024; US/Canada content. Standard CRF250R scoped separately from RX. Copyright notice restricts reproduction; publication not distributed."
+    },
+    {
+      "id": "kawasaki-us-kx250-2023-manual-index",
+      "url": "https://www.kawasaki.com/en-us/owner-center/service-manuals/2023/KX252CPFNN",
+      "title": "Kawasaki US 2023 KX250 Owner's and Service Manuals",
+      "access": "SEARCH_DISCOVERY_ONLY_DIRECT_REDIRECT_LOOP",
+      "applicability": {
+        "make": "Kawasaki",
+        "model": "KX250",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "sha256": null,
+      "source_notes": "Indexed listing identifies Owner's Manual KX252C/D (2023), item 99803-0306. Manual body was not read; no service/spec candidates extracted."
+    },
+    {
+      "id": "yamaha-yz250f-bmf-manual-unresolved",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "title": "Yamaha YZ250F manual BMF-2819U-10_02",
+      "access": "SEARCH_DISCOVERY_ONLY_DIRECT_FETCH_ERROR",
+      "applicability": null,
+      "sha256": null,
+      "source_notes": "Model-year and US applicability are unresolved. Do not assign to 2022 or 2023 merely because discovered during those searches."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "honda-us-crf250r-2022-valve-intake",
+      "source_id": "honda-us-crf250r-2022-31k95640",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 70; PDF page 76 (one-based), Specifications table",
+      "statement": "Cold intake-valve clearance: 0.10 ± 0.03 mm.",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard motorcycle only. A specification is not a full service procedure; verify procedure and installed component before service."
+    },
+    {
+      "id": "honda-us-crf250r-2022-valve-exhaust",
+      "source_id": "honda-us-crf250r-2022-31k95640",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 70; PDF page 76 (one-based), Specifications table",
+      "statement": "Cold exhaust-valve clearance: 0.20 ± 0.03 mm.",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard motorcycle only. A specification is not a full service procedure; verify procedure and installed component before service."
+    },
+    {
+      "id": "honda-us-crf250r-2022-oil-drain",
+      "source_id": "honda-us-crf250r-2022-31k95640",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 70; PDF page 76 (one-based), Specifications table",
+      "statement": "Engine-oil fill after draining: 1.05 L.",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard motorcycle only. A specification is not a full service procedure; verify procedure and installed component before service."
+    },
+    {
+      "id": "honda-us-crf250r-2022-oil-filter",
+      "source_id": "honda-us-crf250r-2022-31k95640",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 70; PDF page 76 (one-based), Specifications table",
+      "statement": "Engine-oil fill after draining and filter replacement: 1.08 L.",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard motorcycle only. A specification is not a full service procedure; verify procedure and installed component before service."
+    },
+    {
+      "id": "honda-us-crf250r-2022-coolant-drain",
+      "source_id": "honda-us-crf250r-2022-31k95640",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 70; PDF page 76 (one-based), Specifications table",
+      "statement": "Cooling-system capacity after draining: 1.04 L.",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard motorcycle only. A specification is not a full service procedure; verify procedure and installed component before service."
+    },
+    {
+      "id": "honda-us-crf250r-2022-coolant-disassembly",
+      "source_id": "honda-us-crf250r-2022-31k95640",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 70; PDF page 76 (one-based), Specifications table",
+      "statement": "Cooling-system capacity after disassembly: 1.15 L.",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard motorcycle only. A specification is not a full service procedure; verify procedure and installed component before service."
+    },
+    {
+      "id": "honda-us-crf250r-2022-idle",
+      "source_id": "honda-us-crf250r-2022-31k95640",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 70; PDF page 76 (one-based), Specifications table",
+      "statement": "Specified idle speed: 2,000 ± 100 rpm.",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard motorcycle only. A specification is not a full service procedure; verify procedure and installed component before service."
+    },
+    {
+      "id": "honda-us-crf250r-2022-oil-grade",
+      "source_id": "honda-us-crf250r-2022-31k95640",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 70; PDF page 76 (one-based), Specifications table",
+      "statement": "Oil recommendation: SAE 10W-30, JASO T903 MA, API SG or later; exclude energy/resource-conserving oils. Honda GN4 or equivalent motorcycle oil.",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard motorcycle only. A specification is not a full service procedure; verify procedure and installed component before service."
+    },
+    {
+      "id": "honda-us-crf250r-2022-battery",
+      "source_id": "honda-us-crf250r-2022-31k95640",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 71; PDF page 77 (one-based), Specifications table",
+      "statement": "Specified battery: HY85S lithium-ion, 12 V, 2 Ah at 20-hour rating.",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard motorcycle only. A specification is not a full service procedure; verify procedure and installed component before service."
+    },
+    {
+      "id": "honda-us-crf250r-2022-spark-plug",
+      "source_id": "honda-us-crf250r-2022-31k95640",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 71; PDF page 77 (one-based), Specifications table",
+      "statement": "Specified spark plug: NGK SILMAR9A9S.",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard motorcycle only. A specification is not a full service procedure; verify procedure and installed component before service."
+    },
+    {
+      "id": "honda-us-crf250r-2022-spark-gap",
+      "source_id": "honda-us-crf250r-2022-31k95640",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 71; PDF page 77 (one-based), Specifications table",
+      "statement": "Specified spark-plug gap: 0.8–0.9 mm.",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard motorcycle only. A specification is not a full service procedure; verify procedure and installed component before service."
+    },
+    {
+      "id": "honda-us-crf250r-2022-main-fuse",
+      "source_id": "honda-us-crf250r-2022-31k95640",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 71; PDF page 77 (one-based), Specifications table",
+      "statement": "Specified main-fuse rating: 10 A.",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard motorcycle only. A specification is not a full service procedure; verify procedure and installed component before service."
+    },
+    {
+      "id": "honda-us-crf250r-2024-valve-intake",
+      "source_id": "honda-us-crf250r-2024-31k95660",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 70; PDF page 76 (one-based), Specifications table",
+      "statement": "Cold intake-valve clearance: 0.10 ± 0.03 mm.",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard motorcycle only. A specification is not a full service procedure; verify procedure and installed component before service."
+    },
+    {
+      "id": "honda-us-crf250r-2024-valve-exhaust",
+      "source_id": "honda-us-crf250r-2024-31k95660",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 70; PDF page 76 (one-based), Specifications table",
+      "statement": "Cold exhaust-valve clearance: 0.20 ± 0.03 mm.",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard motorcycle only. A specification is not a full service procedure; verify procedure and installed component before service."
+    },
+    {
+      "id": "honda-us-crf250r-2024-oil-drain",
+      "source_id": "honda-us-crf250r-2024-31k95660",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 70; PDF page 76 (one-based), Specifications table",
+      "statement": "Engine-oil fill after draining: 1.05 L.",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard motorcycle only. A specification is not a full service procedure; verify procedure and installed component before service."
+    },
+    {
+      "id": "honda-us-crf250r-2024-oil-filter",
+      "source_id": "honda-us-crf250r-2024-31k95660",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 70; PDF page 76 (one-based), Specifications table",
+      "statement": "Engine-oil fill after draining and filter replacement: 1.08 L.",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard motorcycle only. A specification is not a full service procedure; verify procedure and installed component before service."
+    },
+    {
+      "id": "honda-us-crf250r-2024-coolant-drain",
+      "source_id": "honda-us-crf250r-2024-31k95660",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 70; PDF page 76 (one-based), Specifications table",
+      "statement": "Cooling-system capacity after draining: 1.04 L.",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard motorcycle only. A specification is not a full service procedure; verify procedure and installed component before service."
+    },
+    {
+      "id": "honda-us-crf250r-2024-coolant-disassembly",
+      "source_id": "honda-us-crf250r-2024-31k95660",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 70; PDF page 76 (one-based), Specifications table",
+      "statement": "Cooling-system capacity after disassembly: 1.15 L.",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard motorcycle only. A specification is not a full service procedure; verify procedure and installed component before service."
+    },
+    {
+      "id": "honda-us-crf250r-2024-idle",
+      "source_id": "honda-us-crf250r-2024-31k95660",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 70; PDF page 76 (one-based), Specifications table",
+      "statement": "Specified idle speed: 2,000 ± 100 rpm.",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard motorcycle only. A specification is not a full service procedure; verify procedure and installed component before service."
+    },
+    {
+      "id": "honda-us-crf250r-2024-oil-grade",
+      "source_id": "honda-us-crf250r-2024-31k95660",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 70; PDF page 76 (one-based), Specifications table",
+      "statement": "Oil recommendation: SAE 10W-30, JASO T903 MA, API SJ or later; exclude energy/resource-conserving oils. Honda GN4 or equivalent motorcycle oil.",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard motorcycle only. A specification is not a full service procedure; verify procedure and installed component before service."
+    },
+    {
+      "id": "honda-us-crf250r-2024-battery",
+      "source_id": "honda-us-crf250r-2024-31k95660",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 71; PDF page 77 (one-based), Specifications table",
+      "statement": "Specified battery: HJ12L lithium-ion, 12 V, 2.3 Ah at 20-hour rating.",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard motorcycle only. A specification is not a full service procedure; verify procedure and installed component before service."
+    },
+    {
+      "id": "honda-us-crf250r-2024-spark-plug",
+      "source_id": "honda-us-crf250r-2024-31k95660",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 71; PDF page 77 (one-based), Specifications table",
+      "statement": "Specified spark plug: NGK SILMAR9A9S.",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard motorcycle only. A specification is not a full service procedure; verify procedure and installed component before service."
+    },
+    {
+      "id": "honda-us-crf250r-2024-spark-gap",
+      "source_id": "honda-us-crf250r-2024-31k95660",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 71; PDF page 77 (one-based), Specifications table",
+      "statement": "Specified spark-plug gap: 0.8–0.9 mm.",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard motorcycle only. A specification is not a full service procedure; verify procedure and installed component before service."
+    },
+    {
+      "id": "honda-us-crf250r-2024-main-fuse",
+      "source_id": "honda-us-crf250r-2024-31k95660",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 71; PDF page 77 (one-based), Specifications table",
+      "statement": "Specified main-fuse rating: 10 A.",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard motorcycle only. A specification is not a full service procedure; verify procedure and installed component before service."
+    }
+  ],
+  "documents": [
+    {
+      "source_id": "honda-us-crf250r-2022-31k95640",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "status": "READ"
+    },
+    {
+      "source_id": "honda-us-crf250r-2024-31k95660",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "status": "READ"
+    },
+    {
+      "source_id": "kawasaki-us-kx250-2023-manual-index",
+      "applicability": {
+        "make": "Kawasaki",
+        "model": "KX250",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "status": "DISCOVERED_NOT_READ"
+    },
+    {
+      "source_id": "yamaha-yz250f-bmf-manual-unresolved",
+      "applicability": null,
+      "status": "DISCOVERED_NOT_READ"
+    }
+  ],
+  "cross_year_observations": [
+    {
+      "source_ids": [
+        "honda-us-crf250r-2022-31k95640",
+        "honda-us-crf250r-2024-31k95660"
+      ],
+      "note": "Oil API recommendation and listed battery differ between these publications. Preserve exact-year records; no inherited 2023 claim and no battery interchange claim."
+    }
+  ],
+  "runtime_promotions": 0
+}

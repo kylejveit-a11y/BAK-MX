@@ -1,0 +1,26 @@
+{
+  "status": "APPROVED",
+  "approved_candidate_sha256": "1d0f898a0e1938c925d10b88e2385a2076afb08ed48b99dda4f92915f9636865",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2023,
+    "region": "US",
+    "variant": "standard"
+  },
+  "reviewer": "root independent composition review",
+  "metadata_only_freeze_authorized": true,
+  "scope": "Eight adapted handoff steps reviewed: cloth accounting, matched crank/chain/cam disposition, combined bench closure, initial1.20L versus later0.96L and exact2023PDF37 breakin.",
+  "limits": [
+    "Actual external maintenance remains required.",
+    "Excluded internal systems and physical bike validation remain outside approval."
+  ],
+  "source_reviewed_candidate_sha256": "1d0f898a0e1938c925d10b88e2385a2076afb08ed48b99dda4f92915f9636865",
+  "artifacts": [
+    {
+      "path": "major-engine-bike-journey-v1.procedure.json",
+      "sha256": "1de5e57e87484e4b8c8ad01498e9a41bec539a42d2259bd2e00ff5bc41422f42"
+    }
+  ],
+  "freeze_changes": "Approval and review metadata only; instructions unchanged."
+}

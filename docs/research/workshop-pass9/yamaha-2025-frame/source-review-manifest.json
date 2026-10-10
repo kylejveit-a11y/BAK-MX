@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2025-frame-pass9",
+  "database_writes": false,
+  "sources": [
+    {
+      "id": "yamaha-2025-d02",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf",
+      "local_pdf_path": "C:/Users/kylej/AppData/Local/Temp/D02-2819U-10_02.pdf",
+      "sha256": "5005e7d8492c9482dfe44c6d752609a9a70a836f5b1dc94be3149d5d493de8ac"
+    },
+    {
+      "id": "nick-dole-gearing",
+      "url": "https://www.teknikmotorsport.com/assets/brochures/Transmoto-Gearing.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\drive8\\Transmoto-Gearing.pdf",
+      "sha256": "84e1c2a35ba1c44b2917d889f3ecb5765b383cf65e69ffaada2808f2b1ba3cf0"
+    },
+    {
+      "id": "motionpro-stem-2025",
+      "url": "https://www.motionpro.com/download/i08-0544-instructions-v001-2025",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\chassis7\\stem.pdf",
+      "sha256": "de9b7f4f53f59cd3c8393c621425342371dac5bdbeb55ca1068f1260c70b5b6d"
+    },
+    {
+      "id": "motionpro-race-2022",
+      "url": "https://www.motionpro.com/download/instruction-08-0669-steering-bearing-installer",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\chassis7\\race.pdf",
+      "sha256": "7ccc1ed5e429e3c2be782f877a1269e9a62fd5dbbd1aaa50002964d6c0eb723f"
+    },
+    {
+      "id": "motionpro-linkage-2017",
+      "url": "https://www.motionpro.com/download/instructions-08-0294-deluxe-suspension-bearing-service-tool",
+      "local_pdf_path": "C:/Users/kylej/AppData/Local/Temp/chassis7/linkage.pdf",
+      "sha256": "2da71911f69e368f9a458d436bbab475f208c826d1b1141e453e6f74966a1eb4"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "engine-removal-refit-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "ac4ff7e9f086bd069a4c1008c8e09076a64c93afdbef204501ecbc048975157d",
+      "source_id": "yamaha-2025-d02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 70,
+      "review_status": "APPROVED"
+    },
+    {
+      "path": "frame-bearing-renewal-reassembly-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "41e9d90bfe0017e793dd22f662076528d5e980f70bde6b6d56e57dc5eaeec8c5",
+      "source_id": "yamaha-2025-d02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 151,
+      "review_status": "APPROVED"
+    }
+  ],
+  "independent_review": {
+    "path": "independent-review-v1.json",
+    "sha256": "8a4bc0869760c2dd86eb83f580346cc1da8cd966a27b760da0cd9ad81dc30624"
+  },
+  "status": "APPROVED"
+}

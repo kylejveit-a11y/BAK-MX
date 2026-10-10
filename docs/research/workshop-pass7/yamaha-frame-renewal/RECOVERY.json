@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "active_target": "Exact US2026 stock Yamaha YZ450F",
+  "status": "ROOT_SOURCE_AND_CLOSURE_REVIEW_APPROVED",
+  "steps": 150,
+  "approved_dependencies": 7,
+  "database_writes": false,
+  "physical_validation": false,
+  "next": "Root integration using frozen manifest; preserve prior frozen frame route.",
+  "sha256": "8ddab32875211d5cbb147a32f5ac7ac4c52506ba80f8e04f59f95806efbd105f"
+}

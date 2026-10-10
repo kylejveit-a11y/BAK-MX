@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED",
+  "sources": [
+    {
+      "id": "yamaha-us-2025-yz250-oem",
+      "source_id": "yamaha-us-2025-yz250-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D69-2819U-10_02.pdf",
+      "sha256": "30918eb3f0c0ad42f33814baedc946c9ade6c31403f03a25257d05b0a9267050",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\D69-2819U-10_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\D69-2819U-10_02.pdf"
+    },
+    {
+      "id": "yamaha-us-2026-yz250-oem",
+      "source_id": "yamaha-us-2026-yz250-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D69-2819U-11_02.pdf",
+      "sha256": "454ed477eebbdaea52986a21be86225f74e7895e905138881cc21a16bdabf2d2",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\D69-2819U-11_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\D69-2819U-11_02.pdf"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2025-yz250-top-end-power-valve-bench-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "f8cd12825f2bd13fc4048f06cb66b31555764e103842030154f90b41bcf4c7ac",
+      "source_id": "yamaha-us-2025-yz250-oem",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 28
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2026-yz250-top-end-power-valve-bench-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "4416b65d0a8159fe189d41c3feaac902ce43f450439e2e67ee2215f926982e83",
+      "source_id": "yamaha-us-2026-yz250-oem",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 28
+    }
+  ],
+  "template": {
+    "path": "docs/research/workshop-pass13/yamaha-two-stroke/2027-yz250-top-end-power-valve-bench-v1.procedure.json",
+    "sha256": "0c3d1de84dd5067ecd7ca8df57415bf5484457ec2473c2a21976a010016d280b"
+  },
+  "limitations": [
+    "Prepared-engine scope only; access/refit and commissioning remain separate.",
+    "Exact manual comparison does not establish part interchangeability."
+  ],
+  "comparison": {
+    "path": "docs/research/workshop-pass13/yamaha-two-stroke/engine-comparison-2025-2026.json",
+    "sha256": "151a8641e0298f1ef36fbdbddd4dff8289ffe944d3f37c58a1d07aca6705ea0b"
+  },
+  "independent_review": {
+    "path": "docs/research/workshop-pass13/yamaha-two-stroke/engine-years-independent-review-2025-2026.json",
+    "sha256": "07d4008704c5c8eb60c5046894be3db7d1221c2c8d157247a6a2dfec5b588331"
+  }
+}

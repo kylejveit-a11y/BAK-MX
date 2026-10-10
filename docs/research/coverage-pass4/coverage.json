@@ -1,0 +1,2184 @@
+{
+  "schema_version": 1,
+  "as_of_commit": "c484e7171e8a54fd039c997921aeb535a0addf2b",
+  "database_writes": false,
+  "live_database_queried": false,
+  "purpose": "Checkpoint coverage reconciliation, not new source research or release certification",
+  "definitions": {
+    "executable": "Present in locally generated procedure library at this commit; deployment/physical validation not implied",
+    "complete_rebuild": "Combined complete frame, full engine and internal suspension routes qualified; no target meets this",
+    "step_entries": "Includes overlapping standalone/composed steps; not unique mechanical operations",
+    "catalog_complete": "Exact market/model/year service-parts enumeration only, not installed piece totals or specification/procedure completeness"
+  },
+  "summary": {
+    "non_ktm_targets": 50,
+    "additional_scopes": 2,
+    "registry_guides": 37,
+    "registry_step_entries": 718,
+    "targets_with_executable_guides": 2,
+    "complete_full_rebuild_targets": 0,
+    "complete_non_ktm_catalogs": 13,
+    "historical_expansion_publications": 13023,
+    "currently_verified_expansion_records": 13022,
+    "global_documented_verified_records": 14450,
+    "global_documented_conflicted_records": 1,
+    "component_research_groups": 15,
+    "catalog_comparison": {
+      "compared_assembly_pairs": 582,
+      "identical_orderable_pairs": 220,
+      "complete_pairs": 582,
+      "partial_pairs": 0
+    }
+  },
+  "superseded_report_cautions": [
+    "Yamaha initial REVIEW says the 2026 YZ450F manual is missing; later exact-year workshop evidence and registry supersede that statement.",
+    "Historical Beta source approval is overridden by publication-hold.json.",
+    "Expansion COVERAGE counts historical publications; one YZ450F claim is now quarantined.",
+    "Husqvarna 2026 manufacturer coverage shows captured EU rows excluded from exact-US inventory.",
+    "Candidate coverage-ledger is discovery history, not runtime support truth."
+  ],
+  "targets": [
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 163,
+      "currently_verified_expansion_records": 163,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 162,
+      "parts_occurrences": 0,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "CATALOG_NOT_CAPTURED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [
+        "Head-bolt treatment conflict in exact-year source: molybdenum grease versus molybdenum oil; no cross-year correction."
+      ],
+      "component_research_group_ids": [
+        "wc-yamaha-older-pegs"
+      ],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 162,
+      "currently_verified_expansion_records": 162,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 161,
+      "parts_occurrences": 0,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "CATALOG_NOT_CAPTURED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [
+        "Head-bolt treatment conflict in exact-year source: molybdenum grease versus molybdenum oil; no cross-year correction."
+      ],
+      "component_research_group_ids": [
+        "wc-yamaha-older-pegs",
+        "wc-yamaha-newer-pegs"
+      ],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 331,
+      "currently_verified_expansion_records": 331,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 163,
+      "parts_occurrences": 93,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "PARTIAL_PARTS_CAPTURE",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [
+        "Head-bolt treatment conflict in exact-year source: molybdenum grease versus molybdenum oil; no cross-year correction."
+      ],
+      "component_research_group_ids": [
+        "wc-yamaha-newer-pegs"
+      ],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 164,
+      "currently_verified_expansion_records": 164,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 163,
+      "parts_occurrences": 0,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "CATALOG_NOT_CAPTURED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [
+        "Head-bolt treatment conflict in exact-year source: molybdenum grease versus molybdenum oil; no cross-year correction."
+      ],
+      "component_research_group_ids": [
+        "yamaha-yz250f-25-boundary",
+        "yamaha-yz250f-25-26-candidate",
+        "wc-yamaha-newer-pegs"
+      ],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 163,
+      "currently_verified_expansion_records": 163,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 162,
+      "parts_occurrences": 0,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "CATALOG_NOT_CAPTURED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [
+        "Head-bolt treatment conflict in exact-year source: molybdenum grease versus molybdenum oil; no cross-year correction."
+      ],
+      "component_research_group_ids": [
+        "yamaha-yz250f-25-26-candidate"
+      ],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 162,
+      "currently_verified_expansion_records": 162,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 160,
+      "parts_occurrences": 0,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "CATALOG_NOT_CAPTURED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [],
+      "component_research_group_ids": [
+        "wc-yamaha-older-pegs"
+      ],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 341,
+      "currently_verified_expansion_records": 341,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 160,
+      "parts_occurrences": 0,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "CATALOG_NOT_CAPTURED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [],
+      "component_research_group_ids": [
+        "wc-yamaha-older-pegs",
+        "wc-yamaha-newer-pegs"
+      ],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 163,
+      "currently_verified_expansion_records": 163,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 161,
+      "parts_occurrences": 0,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "CATALOG_NOT_CAPTURED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [],
+      "component_research_group_ids": [
+        "wc-yamaha-newer-pegs"
+      ],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 163,
+      "currently_verified_expansion_records": 163,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 161,
+      "parts_occurrences": 0,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "CATALOG_NOT_CAPTURED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [],
+      "component_research_group_ids": [
+        "wc-yamaha-newer-pegs"
+      ],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "DEEP_BOUNDED_WORKSHOP_COVERAGE",
+      "historical_expansion_published_records": 343,
+      "currently_verified_expansion_records": 342,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 161,
+      "parts_occurrences": 0,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "CATALOG_NOT_CAPTURED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 35,
+      "executable_step_entries": 706,
+      "executable_guides": [
+        {
+          "id": "yamaha-2026-yz450f-stock-fork-clicker-baseline-v1",
+          "title": "Reset stock fork clickers to the Yamaha baseline",
+          "steps": 8
+        },
+        {
+          "id": "yamaha-2026-yz450f-stock-shock-damping-baseline-v1",
+          "title": "Reset stock shock damping to the Yamaha baseline",
+          "steps": 7
+        },
+        {
+          "id": "yamaha-2026-yz450f-valve-clearance-inspection-v1",
+          "title": "Inspect cold valve clearances",
+          "steps": 16
+        },
+        {
+          "id": "yamaha-2026-yz450f-fork-remove-refit-v1",
+          "title": "Remove and refit the stock forks at standard height",
+          "steps": 14
+        },
+        {
+          "id": "yamaha-2026-yz450f-valve-adjustment-v3",
+          "title": "Adjust cold valve clearances",
+          "steps": 29
+        },
+        {
+          "id": "yamaha-2026-yz450f-stock-tensioner-service-v1",
+          "title": "Check or replace the stock timing-chain tensioner",
+          "steps": 22
+        },
+        {
+          "id": "yamaha-2026-yz450f-exhaust-remove-refit-v1",
+          "title": "Remove and refit the stock exhaust",
+          "steps": 9
+        },
+        {
+          "id": "yamaha-2026-yz450f-coolant-change-v1",
+          "title": "Change the coolant",
+          "steps": 9
+        },
+        {
+          "id": "yamaha-2026-yz450f-airbox-remove-refit-v1",
+          "title": "Remove and refit the stock airbox",
+          "steps": 13
+        },
+        {
+          "id": "yamaha-2026-yz450f-shock-remove-refit-v1",
+          "title": "Remove and refit the sealed stock shock",
+          "steps": 15
+        },
+        {
+          "id": "yamaha-2026-yz450f-fork-oil-seals-bushings-v1",
+          "title": "Service both fork oil chambers, seals and bushings",
+          "steps": 53
+        },
+        {
+          "id": "yamaha-2026-yz450f-frame-strip-reassemble-v1",
+          "title": "Strip and reassemble the stock chassis",
+          "steps": 106
+        },
+        {
+          "id": "yamaha-2026-yz450f-top-end-stock-reuse-v1",
+          "title": "Rebuild the stock top end",
+          "steps": 132
+        },
+        {
+          "id": "yamaha-2026-yz450f-front-wheel-remove-refit-v1",
+          "title": "Remove and refit the stock front wheel",
+          "steps": 7
+        },
+        {
+          "id": "yamaha-2026-yz450f-rear-wheel-remove-refit-v1",
+          "title": "Remove and refit the stock rear wheel",
+          "steps": 8
+        },
+        {
+          "id": "yamaha-2026-yz450f-steering-bearing-inspection-v1",
+          "title": "Inspect and grease the stock steering bearings",
+          "steps": 22
+        },
+        {
+          "id": "yamaha-2026-yz450f-swingarm-linkage-remove-refit-v1",
+          "title": "Remove and refit the stock swingarm and linkage",
+          "steps": 19
+        },
+        {
+          "id": "yamaha-2026-yz450f-clutch-release-remove-refit-v1",
+          "title": "Remove and refit the intact clutch release cylinder",
+          "steps": 8
+        },
+        {
+          "id": "yamaha-2026-yz450f-engine-remove-refit-v1",
+          "title": "Remove and refit the stock engine assembly",
+          "steps": 56
+        },
+        {
+          "id": "yamaha-2026-yz450f-transmission-bench-v1",
+          "title": "Rebuild the stock transmission on the bench",
+          "steps": 13
+        },
+        {
+          "id": "yamaha-2026-yz450f-oil-pump-bench-v1",
+          "title": "Inspect and rebuild the stock oil pump",
+          "steps": 7
+        },
+        {
+          "id": "yamaha-2026-yz450f-primary-balancer-bench-v1",
+          "title": "Service the primary drive and starter clutch",
+          "steps": 11
+        },
+        {
+          "id": "yamaha-2026-yz450f-generator-bench-v1",
+          "title": "Remove and refit the engine generator",
+          "steps": 8
+        },
+        {
+          "id": "yamaha-2026-yz450f-crankcase-bench-v2",
+          "title": "Open, inspect and close the crankcases",
+          "steps": 14
+        },
+        {
+          "id": "yamaha-2026-yz450f-crankshaft-assembly-bench-v1",
+          "title": "Inspect and replace the crankshaft assembly",
+          "steps": 7
+        },
+        {
+          "id": "yamaha-2026-yz450f-head-remove-refit-bench-v1",
+          "title": "Remove and refit the cylinder head",
+          "steps": 12
+        },
+        {
+          "id": "yamaha-2026-yz450f-cylinder-piston-bench-v1",
+          "title": "Inspect and rebuild the cylinder and piston",
+          "steps": 13
+        },
+        {
+          "id": "yamaha-2026-yz450f-head-valve-inspect-reseal-bench-v1",
+          "title": "Inspect valves and renew stem seals",
+          "steps": 12
+        },
+        {
+          "id": "yamaha-2026-yz450f-cams-remove-bench-v1",
+          "title": "Remove cams for engine overhaul",
+          "steps": 9
+        },
+        {
+          "id": "yamaha-2026-yz450f-camshaft-inspection-bench-v2",
+          "title": "Measure camshafts and journal clearance",
+          "steps": 6
+        },
+        {
+          "id": "yamaha-2026-yz450f-cams-install-bench-v1",
+          "title": "Time and close the rebuilt top end",
+          "steps": 10
+        },
+        {
+          "id": "yamaha-2026-yz450f-shift-mechanism-bench-v1",
+          "title": "Rebuild the shift mechanism",
+          "steps": 7
+        },
+        {
+          "id": "yamaha-2026-yz450f-clutch-pack-bench-v1",
+          "title": "Inspect and renew the clutch plate stack",
+          "steps": 10
+        },
+        {
+          "id": "yamaha-2026-yz450f-right-cover-bench-v1",
+          "title": "Remove and reseal the right engine cover",
+          "steps": 6
+        },
+        {
+          "id": "yamaha-2026-yz450f-water-pump-bench-v1",
+          "title": "Renew water-pump bearings and seals",
+          "steps": 8
+        }
+      ],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Full bottom-end route held before teardown by clutch boss nut engine-oil versus LT conflict",
+        "Complete internal rear-shock service and recharge route",
+        "Head machining, valve-guide/seat work, crank pressing/truing and fork cartridge rod-seal work",
+        "Complete engineering specifications and exact parts catalog",
+        "Physical workshop validation and signed-device/live release qualification"
+      ],
+      "source_conflicts_and_scope_limits": [
+        "One previously published expansion claim is now CONFLICTED; retain quarantine on recovery replay."
+      ],
+      "component_research_group_ids": [
+        "yamaha-yz450f-26-boundary"
+      ],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF250R",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 98,
+      "currently_verified_expansion_records": 98,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 61,
+      "parts_occurrences": 0,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "CATALOG_NOT_CAPTURED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [],
+      "component_research_group_ids": [
+        "honda-crf250r-22-24"
+      ],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF250R",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 98,
+      "currently_verified_expansion_records": 98,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 61,
+      "parts_occurrences": 0,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "CATALOG_NOT_CAPTURED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [],
+      "component_research_group_ids": [
+        "honda-crf250r-22-24"
+      ],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF250R",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 98,
+      "currently_verified_expansion_records": 98,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 61,
+      "parts_occurrences": 0,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "CATALOG_NOT_CAPTURED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [],
+      "component_research_group_ids": [
+        "honda-crf250r-22-24"
+      ],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF250R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 100,
+      "currently_verified_expansion_records": 100,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 63,
+      "parts_occurrences": 61,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "PARTIAL_PARTS_CAPTURE",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [
+        "VIN-specific handlebar-clamp recall exception requires exact-bike remedy status; ordinary torque is not remedy verification."
+      ],
+      "component_research_group_ids": [
+        "honda-crf250r-25-boundary"
+      ],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF250R",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 100,
+      "currently_verified_expansion_records": 100,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 63,
+      "parts_occurrences": 0,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "CATALOG_NOT_CAPTURED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [
+        "VIN-specific handlebar-clamp recall exception requires exact-bike remedy status; ordinary torque is not remedy verification."
+      ],
+      "component_research_group_ids": [],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF450R",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 94,
+      "currently_verified_expansion_records": 94,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 58,
+      "parts_occurrences": 0,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "CATALOG_NOT_CAPTURED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [],
+      "component_research_group_ids": [],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF450R",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 94,
+      "currently_verified_expansion_records": 94,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 58,
+      "parts_occurrences": 0,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "CATALOG_NOT_CAPTURED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [],
+      "component_research_group_ids": [],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF450R",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 94,
+      "currently_verified_expansion_records": 94,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 58,
+      "parts_occurrences": 0,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "CATALOG_NOT_CAPTURED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [],
+      "component_research_group_ids": [],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF450R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 94,
+      "currently_verified_expansion_records": 94,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 58,
+      "parts_occurrences": 0,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "CATALOG_NOT_CAPTURED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [
+        "VIN-specific handlebar-clamp recall exception requires exact-bike remedy status; ordinary torque is not remedy verification."
+      ],
+      "component_research_group_ids": [
+        "honda-crf450r-25-boundary"
+      ],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF450R",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 94,
+      "currently_verified_expansion_records": 94,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 58,
+      "parts_occurrences": 0,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "CATALOG_NOT_CAPTURED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [
+        "VIN-specific handlebar-clamp recall exception requires exact-bike remedy status; ordinary torque is not remedy verification."
+      ],
+      "component_research_group_ids": [],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX250",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "NO_CONFIRMED_EXPANSION_COVERAGE",
+      "historical_expansion_published_records": 0,
+      "currently_verified_expansion_records": 0,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 0,
+      "parts_occurrences": 0,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "CATALOG_NOT_CAPTURED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [
+        "Existing review acquired no usable owner-manual body; catalog dimensions do not authorize torque or service operations."
+      ],
+      "component_research_group_ids": [],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX250",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "NO_CONFIRMED_EXPANSION_COVERAGE",
+      "historical_expansion_published_records": 0,
+      "currently_verified_expansion_records": 0,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 0,
+      "parts_occurrences": 0,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "CATALOG_NOT_CAPTURED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [
+        "Existing review acquired no usable owner-manual body; catalog dimensions do not authorize torque or service operations."
+      ],
+      "component_research_group_ids": [],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX250",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "NO_CONFIRMED_EXPANSION_COVERAGE",
+      "historical_expansion_published_records": 0,
+      "currently_verified_expansion_records": 0,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 0,
+      "parts_occurrences": 0,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "CATALOG_NOT_CAPTURED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [
+        "Existing review acquired no usable owner-manual body; catalog dimensions do not authorize torque or service operations."
+      ],
+      "component_research_group_ids": [],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX250",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "NO_CONFIRMED_EXPANSION_COVERAGE",
+      "historical_expansion_published_records": 0,
+      "currently_verified_expansion_records": 0,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 0,
+      "parts_occurrences": 0,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "CATALOG_NOT_CAPTURED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [
+        "Existing review acquired no usable owner-manual body; catalog dimensions do not authorize torque or service operations."
+      ],
+      "component_research_group_ids": [
+        "kawasaki-kx250-25-boundary"
+      ],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX250",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "NO_CONFIRMED_EXPANSION_COVERAGE",
+      "historical_expansion_published_records": 0,
+      "currently_verified_expansion_records": 0,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 0,
+      "parts_occurrences": 0,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "CATALOG_NOT_CAPTURED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [
+        "Existing review acquired no usable owner-manual body; catalog dimensions do not authorize torque or service operations."
+      ],
+      "component_research_group_ids": [],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX450",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "NO_CONFIRMED_EXPANSION_COVERAGE",
+      "historical_expansion_published_records": 0,
+      "currently_verified_expansion_records": 0,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 0,
+      "parts_occurrences": 0,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "CATALOG_NOT_CAPTURED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [
+        "Existing review acquired no usable owner-manual body; catalog dimensions do not authorize torque or service operations."
+      ],
+      "component_research_group_ids": [],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX450",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "NO_CONFIRMED_EXPANSION_COVERAGE",
+      "historical_expansion_published_records": 0,
+      "currently_verified_expansion_records": 0,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 0,
+      "parts_occurrences": 0,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "CATALOG_NOT_CAPTURED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [
+        "Existing review acquired no usable owner-manual body; catalog dimensions do not authorize torque or service operations."
+      ],
+      "component_research_group_ids": [],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX450",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "NO_CONFIRMED_EXPANSION_COVERAGE",
+      "historical_expansion_published_records": 0,
+      "currently_verified_expansion_records": 0,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 0,
+      "parts_occurrences": 0,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "CATALOG_NOT_CAPTURED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [
+        "Existing review acquired no usable owner-manual body; catalog dimensions do not authorize torque or service operations."
+      ],
+      "component_research_group_ids": [
+        "kawasaki-kx450-24-boundary",
+        "pc-kx450-piston-24-26"
+      ],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX450",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 271,
+      "currently_verified_expansion_records": 271,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 0,
+      "parts_occurrences": 867,
+      "catalog_complete_exact_scope": true,
+      "catalog_status": "OEM_CATALOG_ENUMERATED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [
+        "Existing review acquired no usable owner-manual body; catalog dimensions do not authorize torque or service operations."
+      ],
+      "component_research_group_ids": [
+        "pc-kx450-piston-24-26"
+      ],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX450",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "NO_CONFIRMED_EXPANSION_COVERAGE",
+      "historical_expansion_published_records": 0,
+      "currently_verified_expansion_records": 0,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 0,
+      "parts_occurrences": 0,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "CATALOG_NOT_CAPTURED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [
+        "Existing review acquired no usable owner-manual body; catalog dimensions do not authorize torque or service operations."
+      ],
+      "component_research_group_ids": [
+        "pc-kx450-piston-24-26"
+      ],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FC 250",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 856,
+      "currently_verified_expansion_records": 856,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 114,
+      "parts_occurrences": 1189,
+      "catalog_complete_exact_scope": true,
+      "catalog_status": "OEM_CATALOG_ENUMERATED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [],
+      "component_research_group_ids": [],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FC 250",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 870,
+      "currently_verified_expansion_records": 870,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 130,
+      "parts_occurrences": 1185,
+      "catalog_complete_exact_scope": true,
+      "catalog_status": "OEM_CATALOG_ENUMERATED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [],
+      "component_research_group_ids": [
+        "husqvarna-fc-23-boundary"
+      ],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FC 250",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 870,
+      "currently_verified_expansion_records": 870,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 132,
+      "parts_occurrences": 1188,
+      "catalog_complete_exact_scope": true,
+      "catalog_status": "OEM_CATALOG_ENUMERATED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [],
+      "component_research_group_ids": [],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FC 250",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 871,
+      "currently_verified_expansion_records": 871,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 126,
+      "parts_occurrences": 1181,
+      "catalog_complete_exact_scope": true,
+      "catalog_status": "OEM_CATALOG_ENUMERATED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [],
+      "component_research_group_ids": [
+        "husqvarna-fc-25-boundary"
+      ],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FC 250",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "NO_CONFIRMED_EXPANSION_COVERAGE",
+      "historical_expansion_published_records": 0,
+      "currently_verified_expansion_records": 0,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 0,
+      "parts_occurrences": 0,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "CATALOG_NOT_CAPTURED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [
+        "Captured EU standard/US Factory Edition source does not establish US standard applicability; excluded EU rows are not absence of research."
+      ],
+      "component_research_group_ids": [],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FC 450",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 836,
+      "currently_verified_expansion_records": 836,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 105,
+      "parts_occurrences": 1181,
+      "catalog_complete_exact_scope": true,
+      "catalog_status": "OEM_CATALOG_ENUMERATED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [],
+      "component_research_group_ids": [],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FC 450",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 850,
+      "currently_verified_expansion_records": 850,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 118,
+      "parts_occurrences": 1178,
+      "catalog_complete_exact_scope": true,
+      "catalog_status": "OEM_CATALOG_ENUMERATED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [],
+      "component_research_group_ids": [
+        "husqvarna-fc-23-boundary"
+      ],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FC 450",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 853,
+      "currently_verified_expansion_records": 853,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 123,
+      "parts_occurrences": 1185,
+      "catalog_complete_exact_scope": true,
+      "catalog_status": "OEM_CATALOG_ENUMERATED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [],
+      "component_research_group_ids": [],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FC 450",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "BOUNDED_SETUP_ONLY",
+      "historical_expansion_published_records": 855,
+      "currently_verified_expansion_records": 855,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 120,
+      "parts_occurrences": 1176,
+      "catalog_complete_exact_scope": true,
+      "catalog_status": "OEM_CATALOG_ENUMERATED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 2,
+      "executable_step_entries": 12,
+      "executable_guides": [
+        {
+          "id": "husqvarna-2025-fc450-shock-damping-baseline-v1",
+          "title": "Set the stock shock damping baseline",
+          "steps": 5
+        },
+        {
+          "id": "husqvarna-2025-fc450-shock-sag-inspection-v1",
+          "title": "Measure stock rear sag",
+          "steps": 7
+        }
+      ],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [
+        "Two executable guides cover shock damping baseline and sag inspection only, not rebuild operations."
+      ],
+      "component_research_group_ids": [
+        "husqvarna-fc-25-boundary"
+      ],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FC 450",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "NO_CONFIRMED_EXPANSION_COVERAGE",
+      "historical_expansion_published_records": 0,
+      "currently_verified_expansion_records": 0,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 0,
+      "parts_occurrences": 0,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "CATALOG_NOT_CAPTURED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [
+        "Captured EU standard/US Factory Edition source does not establish US standard applicability; excluded EU rows are not absence of research."
+      ],
+      "component_research_group_ids": [],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "MC 250F",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 0,
+      "currently_verified_expansion_records": 0,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 0,
+      "parts_occurrences": 1177,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "PARTIAL_PARTS_CAPTURE",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [
+        "Captured older source/catalog rows remain unconfirmed for exact US standard scope."
+      ],
+      "component_research_group_ids": [],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "MC 250F",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 0,
+      "currently_verified_expansion_records": 0,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 0,
+      "parts_occurrences": 1184,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "PARTIAL_PARTS_CAPTURE",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [
+        "Captured older source/catalog rows remain unconfirmed for exact US standard scope."
+      ],
+      "component_research_group_ids": [],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "MC 250F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 797,
+      "currently_verified_expansion_records": 797,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 130,
+      "parts_occurrences": 1168,
+      "catalog_complete_exact_scope": true,
+      "catalog_status": "OEM_CATALOG_ENUMERATED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [],
+      "component_research_group_ids": [
+        "gasgas-mc-24-boundary"
+      ],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "MC 250F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 866,
+      "currently_verified_expansion_records": 866,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 122,
+      "parts_occurrences": 1171,
+      "catalog_complete_exact_scope": true,
+      "catalog_status": "OEM_CATALOG_ENUMERATED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [],
+      "component_research_group_ids": [],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "MC 250F",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 127,
+      "currently_verified_expansion_records": 127,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 125,
+      "parts_occurrences": 1171,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "PARTIAL_PARTS_CAPTURE",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [
+        "F0201Z5 standard in manual versus AR selector label remains unresolved for catalog completeness."
+      ],
+      "component_research_group_ids": [],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "MC 450F",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 0,
+      "currently_verified_expansion_records": 0,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 0,
+      "parts_occurrences": 1169,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "PARTIAL_PARTS_CAPTURE",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [
+        "Captured older source/catalog rows remain unconfirmed for exact US standard scope."
+      ],
+      "component_research_group_ids": [],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "MC 450F",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 0,
+      "currently_verified_expansion_records": 0,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 0,
+      "parts_occurrences": 1172,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "PARTIAL_PARTS_CAPTURE",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [
+        "Captured older source/catalog rows remain unconfirmed for exact US standard scope."
+      ],
+      "component_research_group_ids": [],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "MC 450F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 0,
+      "currently_verified_expansion_records": 0,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 0,
+      "parts_occurrences": 1166,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "PARTIAL_PARTS_CAPTURE",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete exact-US standard catalog enumeration/applicability",
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [
+        "US standard source reconciliation remains pending despite captured parts."
+      ],
+      "component_research_group_ids": [
+        "gasgas-mc-24-boundary"
+      ],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "MC 450F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 858,
+      "currently_verified_expansion_records": 858,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 123,
+      "parts_occurrences": 1164,
+      "catalog_complete_exact_scope": true,
+      "catalog_status": "OEM_CATALOG_ENUMERATED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [],
+      "component_research_group_ids": [
+        "gasgas-mc450f-25-boundary"
+      ],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "50_NON_KTM_TARGETS",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "MC 450F",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "FACTS_OR_CATALOG_ONLY",
+      "historical_expansion_published_records": 124,
+      "currently_verified_expansion_records": 124,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Expansion-bundle records only; zero is not proof that every legacy database claim is absent. No live database query in this audit.",
+      "named_torque_records_in_expansion_snapshot": 124,
+      "parts_occurrences": 1164,
+      "catalog_complete_exact_scope": true,
+      "catalog_status": "OEM_CATALOG_ENUMERATED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Complete executable engine rebuild route",
+        "Complete executable chassis teardown/reassembly route",
+        "Internal fork and rear-shock service routes with installation closure",
+        "Exact installation sequences, wear limits, replacement criteria and joint-to-part mappings; engineering coverage incomplete"
+      ],
+      "source_conflicts_and_scope_limits": [],
+      "component_research_group_ids": [],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "KTM_BENCHMARK_ONLY",
+      "target": {
+        "manufacturer": "KTM",
+        "model": "450 SX-F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "coverage_class": "CATALOG_AND_SPECIFICATION_BENCHMARK_NOT_REBUILD",
+      "historical_expansion_published_records": null,
+      "currently_verified_expansion_records": null,
+      "total_current_claim_records": null,
+      "last_documented_benchmark_claim_records": 1298,
+      "claim_count_scope": "1298 is the historical KTM readback retained in project-state, not newly queried current per-target truth.",
+      "named_torque_records_in_review": 128,
+      "parts_occurrences": 1167,
+      "catalog_complete_exact_scope": true,
+      "catalog_status": "OEM_CATALOG_ENUMERATED",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Source-reviewed executable chassis, full engine and internal suspension walkthroughs",
+        "Remaining joint-to-occurrence mappings, sequences, replacement rules, wear limits and dimensions",
+        "Paid KTM repair-manual purchase remains ON HOLD; continue available approved source channels"
+      ],
+      "source_conflicts_and_scope_limits": [
+        "Benchmark applies only to 2025 US standard 450 SX-F, not other KTM years/models."
+      ],
+      "component_research_group_ids": [],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    },
+    {
+      "scope_group": "BETA_SEPARATE_EXACT_SCOPE",
+      "target": {
+        "manufacturer": "Beta",
+        "model": "300 RR",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "Race Edition"
+      },
+      "coverage_class": "HELD_BENCH_RESEARCH_NOT_EXECUTABLE",
+      "historical_expansion_published_records": null,
+      "currently_verified_expansion_records": null,
+      "total_current_claim_records": null,
+      "claim_count_scope": "Outside the 50-target expansion and KTM benchmark inventory. No Beta database fact total established by these artifacts.",
+      "parts_occurrences": null,
+      "catalog_complete_exact_scope": false,
+      "catalog_status": "NOT_ESTABLISHED_BY_AUDITED_INVENTORY",
+      "engineering_specification_complete": false,
+      "executable_guide_count": 0,
+      "executable_step_entries": 0,
+      "executable_guides": [],
+      "held_guide_ids": [
+        "beta-2023-300-rr-race-kyb-c46-bench-rebuild-v1"
+      ],
+      "historically_reviewed_held_step_entries": 30,
+      "complete_full_rebuild_qualified": false,
+      "missing": [
+        "Resolve exact-year OEM shock oil-product and final charging-pressure conflict",
+        "Exact shock extraction/refit clearance sequence and bike-installation closure",
+        "Frame, engine and remaining suspension procedures/catalog coverage"
+      ],
+      "source_conflicts_and_scope_limits": [
+        "Publication hold overrides historical source approval.",
+        "Only US 2023 300 RR Race Edition stock KYB C46 was researched; standard RR/other years/replacement shocks excluded."
+      ],
+      "component_research_group_ids": [],
+      "cross_year_procedure_inheritance_authorized": false,
+      "research_group_match_notice": "Group IDs are indexing leads only; models/years arrays are not a Cartesian applicability grant. Read group exceptions."
+    }
+  ],
+  "evidence_sha256": {
+    "docs/research/expansion/coverage.json": "476ee2b326fdfee1b3234cc00e4124f83e12f009be25e9354f2a2153a29d6934",
+    "docs/research/parts/inventory.json": "35b9437b6ecd41cd5ef9c9ca6abb8c5f7d9e390c566597607dbabecff3de8b92",
+    "docs/project-state.json": "342430ea6a11871c5cfe9525d30233139d1b28ade13dea24f0c54107e536eb38",
+    "docs/research/generations/component-year-groups.json": "52e7e3bbb2f4ad7b7f7aa543f5bf85e79b3a5edf125d6b5538a2ed90a9c2f7f4",
+    "docs/research/generations/catalog-comparisons.json": "e8243d9f5ee285d5a8c35564cd692b57502a1ae2bcd98c4ae721283d24ae91d3",
+    "docs/research/suspension-pass3/publication-hold.json": "610e47cca03160ef712ed81689eb252c1a688e3694d72b2e11c63e6964699665",
+    "docs/research/suspension-pass3/beta-2023-c46-bench-rebuild-v1.procedure.json": "c78129b46dd47858453a2b056c975677da47c57cfefc5d4a1d161269b50ce911",
+    "shared/procedure-library.ts": "8f468d427ee8a21f470c677b44e32e560e7f8eca48e673e3c193cbc5643df5a6",
+    "docs/research/expansion/RECOVERY_STATE.json": "0cf4339f8a8b3ac34372e4d5178a91ca05107b872837efdc5f4d2c62f9309dfe",
+    "docs/research/expansion/COVERAGE.md": "74395785a81aa35e8efbde872516bf0be681b5395e92626e135bf3df17fcaab5",
+    "docs/research/parts/COVERAGE.md": "848db95884d6686adfa7c64d3e0b3d41638451520aed28e440e9541b69b6b778",
+    "docs/research/parts/KTM_TORQUE_REVIEW.md": "463c54785bdea322db960b4229d5bd2bfd4949461e399e297b107d20cb2f6c4e",
+    "docs/research/parts/KTM_FIELD_REVIEW.md": "60633ffac13a933e9d3622a7ebf560222d4841cc94e675522db57606ff8bda1d",
+    "docs/research/parts/KTM_SUSPENSION_DATA_REVIEW.md": "34e5da6efd099a12b38c3a8a7972df5b3c3efd7066c5b7ece230b9069ab40fd8",
+    "docs/research/generations/REVIEW.md": "5f0288c363d56d693f889854b51a2fb647b0c46d7bf2f3accb6210c21e468198",
+    "docs/research/generations/CATALOG_COMPARISON_REVIEW.md": "7a2633d7535589b444ea59a752f563d6c374bc50aabd5e44507fbc67fd8a06fd",
+    "docs/research/suspension-pass3/BETA-REVIEW.md": "9bad934639323a5bef51e5a299388be76167dd8e8ed841d6a0967b05f3e9980e",
+    "docs/WORKSHOP_PASS3_20260913.md": "5135032ca1840f1163a03b93c04ab21c79a98d5d2727ea95a953e49e66305585",
+    "docs/research/expansion/yamaha/REVIEW.md": "81d7f85fd18980c0fd23dfa2031272dd0495178f1f03bae3e9192905f15ecab9",
+    "docs/research/expansion/honda/REVIEW.md": "1e8fdf76a97c64a37c68e8454d85a20a2fcadd680791687a9474faa5d969794e",
+    "docs/research/expansion/kawasaki/REVIEW.md": "8e0bce4a3ea83e3f5dcf5a79c4ef2018fa2996100b54530f27dfc0f7d215270d",
+    "docs/research/expansion/husqvarna/REVIEW.md": "fc136874a11a68fe3dfcce1f5a6671220186ec325c8095f6a32ca7d9bb4d681f",
+    "docs/research/expansion/gasgas/REVIEW.md": "793f452e0109229c440a738c62b5980ca0645513c8e293208ec200ced6d58f85",
+    "docs/research/expansion/husqvarna/COVERAGE.md": "95efa840050c78d7aad6906aae18edf3b8593275c045aac7dc13bfccb5b3a6f4",
+    "docs/research/expansion/honda/SPEC_REVIEW.md": "9c37c6e01901232fea7423981709776e040e8b87750324063d9b0828c315f77b",
+    "docs/research/expansion/gasgas/coverage-summary.json": "d8478b7872fb629337bc1fdcda6343bf1c3b5ef042d031cce78abba993895e18"
+  }
+}

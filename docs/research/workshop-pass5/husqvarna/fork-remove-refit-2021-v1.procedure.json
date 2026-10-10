@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "id": "husqvarna-2021-fc450-us-fork-remove-refit-v1",
+  "component": "fork",
+  "affected_components": [
+    "fork",
+    "suspension",
+    "clamps",
+    "triple_clamps",
+    "front_wheel",
+    "wheels",
+    "front_brake",
+    "brakes"
+  ],
+  "target": {
+    "manufacturer": "Husqvarna",
+    "model": "FC 450",
+    "model_year": 2021,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Remove and refit the stock fork legs",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete removal/refit of intact stock fork legs, including wheel, caliper and alignment closure. No fork opening, damping adjustment or bearing replacement.",
+  "entry_state": [
+    "Assembled standard US 2021 FC450 F2475U2 with stock fork, clamps, wheel and front brake.",
+    "Fork assemblies intact and serviceable; hydraulic circuit remains closed."
+  ],
+  "exit_state": [
+    "Both fork legs and front wheel refitted at stock height; caliper/line secured and fork aligned.",
+    "Brake contact restored; parking stand removed before riding."
+  ],
+  "source": {
+    "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402445_en_OM.pdf",
+    "document_sha256": "ddb2933ed8a6e8f0a863cee58d15b4b614b9e376cdcb199e43f98d5e3981cf46",
+    "document_revision": "3402445en,11/2020",
+    "pdf_pages": [
+      3,
+      55,
+      59,
+      60,
+      111,
+      112,
+      113
+    ],
+    "printed_pages": [
+      "1",
+      "53",
+      "57",
+      "58",
+      "109",
+      "110",
+      "111"
+    ],
+    "review_status": "PENDING_INDEPENDENT_REVIEW",
+    "review_note": "Independently read exact2021 OEM title and operations; visually checked PDF3,55,59,60,111,112,113. Standard model spacer route, not Rockstar disc-guard route. No later-year inheritance."
+  },
+  "applicability": {
+    "included": "Stock US2021 FC450 F2475U2",
+    "excluded": [
+      "Other years",
+      "FC450 EU",
+      "Rockstar Edition",
+      "FX450",
+      "Modified fork/clamps/wheel/front brake",
+      "Disassembled or defective fork"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "required_tools": [
+    {
+      "name": "Stable motorcycle lift and plug-in parking stand",
+      "size": "81329955100; 79029094000"
+    },
+    {
+      "name": "Suitable hand tools and torque wrench",
+      "size": "12\u201335 Nm; match original fasteners"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "Loctite 243",
+      "purpose": "Front caliper M8 mounting bolts"
+    },
+    {
+      "name": "Long-life grease",
+      "purpose": "Wheel seals, spacer contact faces and spindle"
+    },
+    {
+      "name": "Brake cleaner",
+      "purpose": "Remove disc contamination if necessary"
+    }
+  ],
+  "preflight": [
+    "Open the linked diagrams to identify axle and clamp screws.",
+    "Do not sit on the elevated bike or operate the brake lever with the wheel removed."
+  ],
+  "critical_stop_conditions": [
+    "Unstable support or damaged fork/clamp/brake hardware.",
+    "Worn or damaged wheel bearings require a separate replacement operation.",
+    "Brake contact does not return, line is strained, or alignment cannot be completed."
+  ],
+  "steps": [
+    {
+      "id": "lift",
+      "title": "Support the bike",
+      "instruction": "Remove the parking stand; lift under the frame on firm, level ground. Secure against tipping with both wheels clear.",
+      "depends_on": [],
+      "source_pdf_pages": [
+        55
+      ],
+      "verification": "Bike stable; nobody on the supported bike.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402445_en_OM.pdf#page=55"
+      ],
+      "origin": "OEM owner manual; original factual companion"
+    },
+    {
+      "id": "wheel-out",
+      "title": "Remove the front wheel",
+      "instruction": "Push the caliper toward the disc, avoiding spokes. Back axle screw out several turns; loosen axle clamps. Push screw to release spindle, then remove screw. Support wheel, withdraw spindle and remove wheel/spacers.",
+      "depends_on": [
+        "lift"
+      ],
+      "source_pdf_pages": [
+        111,
+        112
+      ],
+      "verification": "Protect the disc. Do not operate the brake lever while the wheel is out.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402445_en_OM.pdf#page=111",
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402445_en_OM.pdf#page=112"
+      ],
+      "origin": "OEM owner manual; original factual companion"
+    },
+    {
+      "id": "forks-out",
+      "title": "Remove both legs",
+      "instruction": "Remove brake-line clamp and caliper bolts. Keep the connected caliper/line loosely aside. Support each leg while loosening its upper/lower clamps; withdraw both legs.",
+      "depends_on": [
+        "wheel-out"
+      ],
+      "source_pdf_pages": [
+        59
+      ],
+      "verification": "Hydraulic circuit remains closed and line unstressed; note left/right positions.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402445_en_OM.pdf#page=59"
+      ],
+      "origin": "OEM owner manual; original factual companion"
+    },
+    {
+      "id": "position",
+      "title": "Restore stock fork position",
+      "instruction": "Install left air leg and right damping leg. Left air valve and right bleeder face forward. Align the second groove from the top with the upper clamp top edge.",
+      "depends_on": [
+        "forks-out"
+      ],
+      "source_pdf_pages": [
+        60
+      ],
+      "verification": "Record both second-groove positions and forward-facing controls.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402445_en_OM.pdf#page=60"
+      ],
+      "origin": "OEM owner manual; original factual companion"
+    },
+    {
+      "id": "clamps",
+      "title": "Secure fork clamps",
+      "instruction": "Tighten upper M8 clamp bolts to 17 Nm, then lower M8 bolts to 12 Nm.",
+      "depends_on": [
+        "position"
+      ],
+      "source_pdf_pages": [
+        60
+      ],
+      "verification": "Record upper and lower torques; stock position retained.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402445_en_OM.pdf#page=60"
+      ],
+      "origin": "OEM owner manual; original factual companion"
+    },
+    {
+      "id": "caliper",
+      "title": "Refit front brake hardware",
+      "instruction": "Fit caliper: M8 bolts 25 Nm with Loctite 243. Restore brake line and its clamp; tighten clamp screws.",
+      "depends_on": [
+        "clamps"
+      ],
+      "source_pdf_pages": [
+        60
+      ],
+      "verification": "Record caliper torque/threadlocker; line retained without strain.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402445_en_OM.pdf#page=60"
+      ],
+      "origin": "OEM owner manual; original factual companion"
+    },
+    {
+      "id": "wheel-prep",
+      "title": "Inspect and prepare wheel",
+      "instruction": "Inspect bearings for wear/damage; replace faulty bearings before continuing. Clean and grease shaft seals, spacer contact faces and spindle with long-life grease. Refit spacers.",
+      "depends_on": [
+        "caliper"
+      ],
+      "source_pdf_pages": [
+        112
+      ],
+      "verification": "Keep grease off disc; clean contamination with brake cleaner.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402445_en_OM.pdf#page=112"
+      ],
+      "origin": "OEM owner manual; original factual companion"
+    },
+    {
+      "id": "wheel-in",
+      "title": "Install wheel and axle",
+      "instruction": "Position wheel with pads correctly around disc. Insert spindle; tighten M20\u00d71.5 axle screw to 35 Nm.",
+      "depends_on": [
+        "wheel-prep"
+      ],
+      "source_pdf_pages": [
+        112,
+        113
+      ],
+      "verification": "Record axle torque. Shoe clamps remain loose for alignment.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402445_en_OM.pdf#page=112",
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402445_en_OM.pdf#page=113"
+      ],
+      "origin": "OEM owner manual; original factual companion"
+    },
+    {
+      "id": "align",
+      "title": "Restore brake contact and align",
+      "instruction": "Pump lever until pads contact disc. Lower bike. Hold front brake and firmly compress forks several times; then tighten M8 shoe clamps to 15 Nm.",
+      "depends_on": [
+        "wheel-in"
+      ],
+      "source_pdf_pages": [
+        113,
+        55
+      ],
+      "verification": "Record alignment before shoe-clamp torque. Brake operates normally.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402445_en_OM.pdf#page=113",
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402445_en_OM.pdf#page=55"
+      ],
+      "origin": "OEM owner manual; original factual companion"
+    },
+    {
+      "id": "finish",
+      "title": "Check closure",
+      "instruction": "Check the refitted fork and brake-line positions against the source diagrams. Park using the plug-in stand; remove it before riding.",
+      "depends_on": [
+        "align"
+      ],
+      "source_pdf_pages": [
+        60,
+        55,
+        113
+      ],
+      "verification": "Both wheels fitted; all removed fasteners secured, brake contact restored and alignment completed.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402445_en_OM.pdf#page=60",
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402445_en_OM.pdf#page=55",
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402445_en_OM.pdf#page=113"
+      ],
+      "origin": "OEM owner manual; original factual companion"
+    }
+  ],
+  "publication_status": "LOCAL_REVIEW_ONLY_NOT_IMPORTED",
+  "reviewed_at": "2026-09-13"
+}

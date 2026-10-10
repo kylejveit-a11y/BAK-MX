@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "status": "FINAL_APPROVED_AFTER_INDEPENDENT_REVIEW",
+  "artifacts": [
+    {
+      "path": "build_oil.py",
+      "sha256": "b8cbd5b2cbefc2011d83af5383f8e72fdbced45e922f38ba1d21bdc5a30385ae"
+    },
+    {
+      "path": "engine-oil-filter-v1.procedure.json",
+      "sha256": "d8ece6187dc62e48e88e3154cb7197c1a524a66a6ee9df4b774c0e8a5c074e5b"
+    },
+    {
+      "path": "independent-review-v1.json",
+      "sha256": "d9b3924b55615c2b7bec263de0903efd52c92310ddf302854904010ddc33408f"
+    },
+    {
+      "path": "REVIEW.md",
+      "sha256": "1587d74c3d9c997274487994ae2a006071af41f5f14ffdd78947e73d69462c92"
+    },
+    {
+      "path": "source-review-manifest.json",
+      "sha256": "50b95270ca6609e1bbd03fecb17a3855e04779b13c4b95346683b3879d140eb5"
+    },
+    {
+      "path": "validate_review.py",
+      "sha256": "065e9293bd97927cdb4f785d40ed358759109d0bec772195d8d43cc84fd4b1aa"
+    }
+  ]
+}

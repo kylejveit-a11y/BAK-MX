@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "status": "RESEARCH_LEADS_ONLY",
+  "reviewed_at": "2026-09-13",
+  "facts_promoted": 0,
+  "guides_added": 0,
+  "user_scope": "2020 through present; this file addresses the newly added2020/2021 source gap only",
+  "sources": [
+    {
+      "id": "yz450f21au",
+      "url": "https://www.yamaha-motor.com.au/ownership/support/yz450f_owners_service_manual",
+      "pdf_url": "https://www.yamaha-motor.com.au/-/media/files/customer-notifications-files/yz450f-2021---owners-service-manual.ashx?la=en",
+      "publisher": "Yamaha Motor Australia",
+      "observed": "OEM page explicitly identifies2021YZ450F and links its owner service manual. Existing yamaha-service-pass.json had excluded it solely because2021 was outside prior2022\u201326 task scope.",
+      "source_limit": "AU publication; exact US variant/revision equivalence and procedure content must be reviewed before use."
+    },
+    {
+      "id": "oilkit",
+      "url": "https://www.yamaha-motor.com.au/-/media/files/oil-change-manuals/2025/instructions_ylu-s1040-20-01.ashx?la=en",
+      "publisher": "Yamaha Motor Australia",
+      "observed": "OEM multi-year oil/filter kit instruction index includes YZ250F2020/2021 and YZ450F2020/2021.",
+      "source_limit": "Discovery lead for maintenance only; broad kit fitment/index does not establish rebuild equivalence or US service specifications."
+    }
+  ],
+  "targets": [
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250F",
+      "model_year": 2020,
+      "region": "US",
+      "variant": "standard",
+      "status": "EXACT_US_MANUAL_AND_PROCEDURE_REVIEW_REQUIRED",
+      "lead_source_ids": [
+        "oilkit"
+      ],
+      "executable_guides_added_by_this_pass": 0,
+      "complete_rebuild": false
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250F",
+      "model_year": 2021,
+      "region": "US",
+      "variant": "standard",
+      "status": "EXACT_US_MANUAL_AND_PROCEDURE_REVIEW_REQUIRED",
+      "lead_source_ids": [
+        "oilkit"
+      ],
+      "executable_guides_added_by_this_pass": 0,
+      "complete_rebuild": false
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ450F",
+      "model_year": 2020,
+      "region": "US",
+      "variant": "standard",
+      "status": "EXACT_US_MANUAL_AND_PROCEDURE_REVIEW_REQUIRED",
+      "lead_source_ids": [
+        "oilkit"
+      ],
+      "executable_guides_added_by_this_pass": 0,
+      "complete_rebuild": false
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ450F",
+      "model_year": 2021,
+      "region": "US",
+      "variant": "standard",
+      "status": "EXACT_US_MANUAL_AND_PROCEDURE_REVIEW_REQUIRED",
+      "lead_source_ids": [
+        "yz450f21au",
+        "oilkit"
+      ],
+      "executable_guides_added_by_this_pass": 0,
+      "complete_rebuild": false
+    }
+  ],
+  "next": "Reconcile exact US manual cover/code and obtain/hash source; compare each intended procedure independently. Do not repurpose2025 or2026 numbers or donor guide applicability."
+}

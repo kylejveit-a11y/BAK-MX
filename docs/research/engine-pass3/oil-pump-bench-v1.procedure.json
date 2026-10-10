@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2026-yz450f-oil-pump-bench-v1",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Inspect and rebuild the stock oil pump",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete bounded bench operation from the declared entry state to the declared exit state. Whole-bike access and downstream engine closure are separate dependencies.",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      7,
+      56,
+      269,
+      274,
+      275
+    ],
+    "review_status": "APPROVED",
+    "review_note": "All cited operation pages visually reviewed. General symbols and conditional torque rules retained.",
+    "printed_pages": [
+      "Symbols (unnumbered)",
+      "2-9",
+      "5-66",
+      "5-71",
+      "5-72"
+    ]
+  },
+  "applicability": {
+    "included": "Exact US2026 YZ450F standard stock components only",
+    "excluded": [
+      "Relief-valve disassembly",
+      "Engine access and cover closure",
+      "Unspecified rotor-clearance limits"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "affected_components": [
+    "engine",
+    "oil_pump"
+  ],
+  "required_tools": [
+    {
+      "name": "Calibrated low-range torque wrench accurate at5 and6Nm"
+    },
+    {
+      "name": "Circlip tools and clean labeled trays"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "Engine oil"
+    },
+    {
+      "name": "LOCTITE locking agent; OEM grade unspecified"
+    },
+    {
+      "name": "Exact complete replacement pump if required"
+    }
+  ],
+  "preflight": [
+    "Right cover, clutch idle gear and oil-pump drive gear removed.",
+    "Relief-valve spring/ball/seat left installed in case."
+  ],
+  "entry_state": [
+    "Right cover, clutch idle gear and oil-pump drive gear removed.",
+    "Relief-valve spring/ball/seat left installed in case."
+  ],
+  "exit_state": [
+    "Pump assembled, mounted and rotating smoothly; drive gear and covers remain to be installed."
+  ],
+  "critical_stop_conditions": [
+    "Any required measurement unresolved or replacement criteria not satisfied.",
+    "Unidentified diagram orientation, missing parts, damage or abnormal binding."
+  ],
+  "material_policy": {
+    "LT": "Locking agent (LOCTITE) per PDF7. Grade unspecified by this manual; no grade inferred.",
+    "lubrication": "Follow each explicit E/M/LS/S application; general dry torque does not override a lubricated joint."
+  },
+  "steps": [
+    {
+      "id": "entry",
+      "title": "Confirm pump access",
+      "instruction": "Start with the right crankcase cover, clutch idle gear and oil-pump drive gear already removed. Preserve the relief-valve parts behind the pump in their installed condition; this operation does not remove that valve.",
+      "source_pdf_pages": [
+        269,
+        274
+      ],
+      "verification": [
+        "Pump access confirmed; relief-valve assembly left installed."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=269",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=274"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": []
+    },
+    {
+      "id": "remove",
+      "title": "Remove and open the pump",
+      "instruction": "Remove the two mounting bolts and lift the pump away. Remove the outer circlip, outer rotor1, inner rotor1, its dowel and washer. Remove the pump-cover bolt and cover, then outer rotor2, inner rotor2, dowel and drive shaft. Keep the two rotor sets and pins identified.",
+      "source_pdf_pages": [
+        274,
+        275
+      ],
+      "verification": [
+        "Two rotor sets, washer, circlip, two pins, shaft, housing and cover accounted for."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=274",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=275"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "entry"
+      ]
+    },
+    {
+      "id": "inspect",
+      "title": "Inspect the pump assembly",
+      "instruction": "Inspect the cover, drive shaft and housing for cracks, damage or wear. Replace the complete pump assembly if defective. Check turning movement; repeat inspection or replace the assembly if it is rough. No numerical rotor clearance is invented here.",
+      "source_pdf_pages": [
+        275
+      ],
+      "verification": [
+        "Condition and replacement/retain decision recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=275"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "remove"
+      ]
+    },
+    {
+      "id": "inner",
+      "title": "Assemble the inner rotor set",
+      "instruction": "Oil the shaft, inner rotor2 and outer rotor2. Fit the shaft, dowel and rotors into the housing, seating the dowel in the inner rotor2 slit. Follow the diagram for the rotor set sides.",
+      "source_pdf_pages": [
+        274,
+        275
+      ],
+      "verification": [
+        "Inner rotor2 dowel engaged; surfaces oiled."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=274",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=275"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "inspect"
+      ]
+    },
+    {
+      "id": "cover",
+      "title": "Secure the cover",
+      "instruction": "Install the pump cover and tighten its bolt to6Nm with LOCTITE locking agent. The manual does not name a grade.",
+      "source_pdf_pages": [
+        275
+      ],
+      "verification": [
+        "Cover seated;6Nm and locking-agent application recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=275"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "inner"
+      ]
+    },
+    {
+      "id": "outer",
+      "title": "Assemble the outer rotor set",
+      "instruction": "Fit the washer, dowel, inner rotor1, outer rotor1 and circlip. Oil both rotors and engage the dowel in the inner rotor1 groove. Confirm the circlip is fully seated.",
+      "source_pdf_pages": [
+        274,
+        275
+      ],
+      "verification": [
+        "Outer rotor1 dowel engaged; washer and clip present."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=274",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=275"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "cover"
+      ]
+    },
+    {
+      "id": "mount",
+      "title": "Refit and verify the pump",
+      "instruction": "Mount the pump with its two bolts at5Nm using LOCTITE locking agent. Turn the pump by hand after tightening; it must move smoothly. Correct binding or replace the assembly before proceeding to the drive-gear installation.",
+      "source_pdf_pages": [
+        275
+      ],
+      "verification": [
+        "5Nm mounting and smooth post-tightening rotation saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=275"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "outer"
+      ]
+    }
+  ],
+  "reviewed_at": "2026-09-13",
+  "runtime_integration_requirement": "Enforce entry state and record_required. Completion certifies this bounded operation only; no automatic completion of upstream/downstream work."
+}

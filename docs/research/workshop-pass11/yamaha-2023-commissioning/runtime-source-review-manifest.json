@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED",
+  "author_review_manifest": {
+    "path": "docs/research/workshop-pass11/yamaha-2023-commissioning/source-review-manifest.json",
+    "sha256": "2fcc19a2ceac5b62f9dae4339622801569bd17ebc8847766a157bcb5377113e7"
+  },
+  "sources": [
+    {
+      "id": "yamaha-us-2023-yz450f-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf",
+      "sha256": "9a8605e26301ba1d0d1d21e93d23cca721bdcdbece6188775626a8819332aa9f",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\BHR-2819U-10_02.pdf"
+    },
+    {
+      "id": "mityvac-mv4560-method",
+      "url": "https://cdn.skfmediahub.skf.com/api/public/0901d1968096854e/pdf_preview_medium/0901d1968096854e_pdf_preview_medium.pdf",
+      "sha256": "508a744728dc28c37911bdc206f3e8ec6fe5eb8f11febe74a385bbf1299493cf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\mityvac-MV4560-801625.pdf"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "post-rebuild-commissioning-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2023-yz450f-oem",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "sha256": "62748a58bdc8f370e080a391d8b205acbb14f3504374e29b6a9d6c8769bb8bd9",
+      "step_count": 32
+    }
+  ]
+}

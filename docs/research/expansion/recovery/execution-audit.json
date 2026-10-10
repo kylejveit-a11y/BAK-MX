@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-09-13T18:37:54.114Z",
+  "project_ref": "yzvrujffiktfserrgkcb",
+  "checks": {
+    "root_check": "PASS: typecheck, 67 tests, production build",
+    "mobile_check": "PASS: typecheck, 3 tests",
+    "expo_public_config": "PASS from apps/mobile",
+    "native_export": "PASS iOS 952 modules / Android 948 modules",
+    "mobile_dependency_audit": "17 moderate findings; no forced dependency changes"
+  },
+  "unverified": [
+    "live authenticated AI quality",
+    "signed native builds",
+    "device visual parity",
+    "store purchases and restore",
+    "runtime configuration"
+  ]
+}

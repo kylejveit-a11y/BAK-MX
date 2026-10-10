@@ -1,0 +1,410 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2026-yz450f-fork-remove-refit-v1",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Remove and refit the stock forks at standard height",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete external removal/refit sequence with front-wheel seating, caliper and hose closure. Existing fork internals remain assembled; no oil change, seal replacement, cartridge bleeding or repair is performed. Final installation uses OEM standard 2 mm projection.",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      63,
+      114,
+      115,
+      126,
+      129,
+      132,
+      133,
+      143,
+      144,
+      146,
+      167,
+      169,
+      170,
+      171,
+      177,
+      178
+    ],
+    "printed_pages": [
+      "4-4",
+      "4-7",
+      "4-10",
+      "4-11",
+      "4-21",
+      "4-22",
+      "4-24",
+      "4-45",
+      "4-47",
+      "4-55",
+      "4-56",
+      "2-16",
+      "4-48",
+      "4-49",
+      "3-29",
+      "3-30"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "All listed pages visually reviewed. Caliper is supported with its hydraulic circuit closed; this is a bounded workflow adaptation supported by OEM instructions to avoid unnecessary brake disassembly and to remove the caliper without disconnecting the hose (PDF143). Wheel/caliper/pad internals remain untouched."
+  },
+  "applicability": {
+    "included": "US 2026 YZ450F/YZ450FT exact stock forks, clamps, front wheel and brake mount",
+    "excluded": [
+      "Aftermarket fork/clamp/wheel conversions",
+      "Other years/models",
+      "Fork internal service",
+      "Hydraulic brake repair"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "required_tools": [
+    {
+      "name": "Stable maintenance stand and secure support",
+      "purpose": "Front wheel suspended; fork legs separately supported during clamp release"
+    },
+    {
+      "name": "Cap bolt ring wrench",
+      "part_numbers": [
+        "90890-01501",
+        "YM-01501"
+      ]
+    },
+    {
+      "name": "Suitable torque wrenches and sockets",
+      "range_required": "Accurate at applicable values from 7 to 115 N\u00b7m; account for effective lever length when using an offset adapter rather than guessing a wrench setting"
+    },
+    {
+      "name": "Metric depth/height measuring tool",
+      "purpose": "2 mm fork projection referenced to source diagram"
+    },
+    {
+      "name": "Caliper sling/support and pad separator",
+      "purpose": "Support closed hydraulic assembly; prevent accidental pad closure while disc is absent"
+    },
+    {
+      "name": "Clean parts tray and setup log",
+      "purpose": "Preserve side-specific collars and original settings"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Lithium-soap-based grease",
+      "purpose": "Front axle and wheel oil-seal lips per PDF132"
+    }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+    "Undamaged stock fork assemblies ready to reinstall; if an internal service has been started, it must be completed and separately verified first.",
+    "Ability to identify the 2 mm projection reference shown in PDF167/178.",
+    "Working front brake and sound fasteners before beginning."
+  ],
+  "critical_stop_conditions": [
+    "Bike/fork/caliper cannot be supported securely.",
+    "Fork leaks, binds or was opened internally without its service being completed.",
+    "Brake pressure/operation abnormal, hose pinched, axle/collars do not seat, or fasteners damaged."
+  ],
+  "settings": {
+    "fork_projection_mm": 2,
+    "projection_reference": "Distance a shown from upper-bracket top surface to outer-tube top edge in PDF167/178; do not include the cap/knob.",
+    "restore_damping": "Recorded pre-removal settings; do not substitute a new tuning recommendation."
+  },
+  "steps": [
+    {
+      "id": "setup",
+      "title": "Record and support",
+      "instruction": "Record left/right rebound and compression settings and the existing fork height. This procedure returns the forks to the OEM standard 2 mm projection. Put the bike securely on its maintenance stand with the front wheel off the ground.",
+      "depends_on": [],
+      "source_pdf_pages": [
+        167,
+        169
+      ],
+      "verification": [
+        "Bike stable; original setup recorded; standard-height target understood."
+      ],
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original source-based bounded summary; support/logging actions are workflow adaptations."
+    },
+    {
+      "id": "plate",
+      "title": "Free the hose guides",
+      "instruction": "Remove the number-plate bolt, release the brake hose from its upper/lower guides, then pull the plate projection free of the front fender. Keep the hose routed and unstressed.",
+      "depends_on": [
+        "setup"
+      ],
+      "source_pdf_pages": [
+        126
+      ],
+      "verification": [
+        "Plate removed; guide routing recorded."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=126"
+      ],
+      "origin": "Original source-based bounded summary; support/logging actions are workflow adaptations."
+    },
+    {
+      "id": "wheel-remove",
+      "title": "Remove the front wheel",
+      "instruction": "Loosen all four axle pinch bolts. Support the wheel; remove the axle nut and axle, then lower the wheel clear. Label and retain its left and right collars. Prevent the brake lever being operated with the disc absent.",
+      "depends_on": [
+        "plate"
+      ],
+      "source_pdf_pages": [
+        129
+      ],
+      "verification": [
+        "Wheel/axle/collars retained with correct sides; pads not forced closed."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=129"
+      ],
+      "origin": "Original source-based bounded summary; support/logging actions are workflow adaptations."
+    },
+    {
+      "id": "caliper",
+      "title": "Support the brake assembly",
+      "instruction": "Remove the two caliper mounting bolts and support the complete caliper so its weight cannot pull on the hose. Keep the hose union, bleed screw, pad pin and pads undisturbed. Release the brake-hose holder from the fork protector, preserving its orientation and paint-mark position.",
+      "depends_on": [
+        "wheel-remove"
+      ],
+      "source_pdf_pages": [
+        143,
+        144,
+        146,
+        167
+      ],
+      "verification": [
+        "Caliper supported; closed hydraulic circuit; hose not loaded."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=143",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=144",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=146",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=167"
+      ],
+      "origin": "Original source-based bounded summary; support/logging actions are workflow adaptations."
+    },
+    {
+      "id": "protectors",
+      "title": "Remove the protectors",
+      "instruction": "Remove the three protector bolts on each fork leg and lift the protectors away. Keep the hardware grouped by side.",
+      "depends_on": [
+        "caliper"
+      ],
+      "source_pdf_pages": [
+        167
+      ],
+      "verification": [
+        "Both protectors removed; hardware accounted for."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=167"
+      ],
+      "origin": "Original source-based bounded summary; support/logging actions are workflow adaptations."
+    },
+    {
+      "id": "legs-remove",
+      "title": "Release each fork leg",
+      "instruction": "Support one fork leg. Loosen its upper-clamp pinch bolts, then use the specified ring wrench to loosen\u2014but not remove\u2014the damper assembly at the top while the lower clamp still holds the leg. Loosen the lower-clamp pinch bolts and slide the supported leg down and out. Repeat on the other side; keep assemblies upright and intact.",
+      "depends_on": [
+        "protectors"
+      ],
+      "source_pdf_pages": [
+        167,
+        169
+      ],
+      "verification": [
+        "Both legs supported and removed; caps only loosened; no oil drained or internal components removed."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=167",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=169"
+      ],
+      "origin": "Original source-based bounded summary; support/logging actions are workflow adaptations."
+    },
+    {
+      "id": "bench-check",
+      "title": "Check before refitting",
+      "instruction": "Keep the assemblies intact. Check for visible leakage, damage or abnormal movement. A fork that needs repair does not become serviced by completing this removal/refit task; route it to the separate repair operation.",
+      "depends_on": [
+        "legs-remove"
+      ],
+      "source_pdf_pages": [
+        170,
+        171
+      ],
+      "verification": [
+        "Assemblies suitable for refit or fault recorded; internal-service status not invented."
+      ],
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original source-based bounded summary; support/logging actions are workflow adaptations."
+    },
+    {
+      "id": "legs-refit",
+      "title": "Refit and secure the top assemblies",
+      "instruction": "Slide each leg back into its clamps. Temporarily secure it with the lower pinch bolts while leaving the upper pinch bolts loose. Tighten the damper assembly at the top to 30 N\u00b7m with the cap ring wrench.",
+      "depends_on": [
+        "bench-check"
+      ],
+      "source_pdf_pages": [
+        177,
+        178
+      ],
+      "verification": [
+        "Legs supported; top damper assemblies 30 N\u00b7m; upper clamps still loose."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=177",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=178"
+      ],
+      "origin": "Original source-based bounded summary; support/logging actions are workflow adaptations."
+    },
+    {
+      "id": "height-clamps",
+      "title": "Set height and tighten the clamps",
+      "instruction": "With each leg supported, set its outer-tube top projection to 2 mm using the exact source-diagram reference. Match both sides. Tighten upper and lower clamp pinch bolts to 21 N\u00b7m; do not overtorque the lower clamps.",
+      "depends_on": [
+        "legs-refit"
+      ],
+      "source_pdf_pages": [
+        167,
+        178
+      ],
+      "verification": [
+        "Both projections 2 mm; all upper/lower pinch bolts 21 N\u00b7m."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=167",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=178"
+      ],
+      "origin": "Original source-based bounded summary; support/logging actions are workflow adaptations."
+    },
+    {
+      "id": "guards-brake",
+      "title": "Restore protectors and brake mounts",
+      "instruction": "Refit the protectors at 7 N\u00b7m per bolt. Refit the complete caliper to the fork and tighten its two mount bolts to 28 N\u00b7m. Align the upper end of the hose holder with the hose paint mark and tighten its bolts to 9 N\u00b7m, preserving the original routing.",
+      "depends_on": [
+        "height-clamps"
+      ],
+      "source_pdf_pages": [
+        144,
+        146,
+        178
+      ],
+      "verification": [
+        "Protectors 7 / caliper 28 / hose-holder 9 N\u00b7m; hose aligned and unstressed."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=144",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=146",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=178"
+      ],
+      "origin": "Original source-based bounded summary; support/logging actions are workflow adaptations."
+    },
+    {
+      "id": "wheel-refit",
+      "title": "Install the wheel and axle",
+      "instruction": "Apply lithium-soap grease to the axle and wheel oil-seal lips. Put the side-specific collars back, lift the wheel into place with the disc correctly between the pads, and insert the axle. Thread the axle nut on by hand; leave its final tightening and the axle pinch bolts for the seating step.",
+      "depends_on": [
+        "guards-brake"
+      ],
+      "source_pdf_pages": [
+        129,
+        132
+      ],
+      "verification": [
+        "Collars correct; disc between pads; axle inserted; nut retained; final torques pending."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=129",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=132"
+      ],
+      "origin": "Original source-based bounded summary; support/logging actions are workflow adaptations."
+    },
+    {
+      "id": "seat-torque",
+      "title": "Seat the forks before final axle tightening",
+      "instruction": "With the bike securely supported on its wheels, push down on the handlebars several times and confirm smooth fork rebound before final axle-nut tightening, as Yamaha specifies. Tighten the axle nut to 115 N\u00b7m, then all four axle pinch bolts to 21 N\u00b7m. This is a stationary seating operation, not permission to ride with loose axle hardware.",
+      "depends_on": [
+        "wheel-refit"
+      ],
+      "source_pdf_pages": [
+        133
+      ],
+      "verification": [
+        "Smooth rebound before nut torque; axle nut 115 N\u00b7m; four axle pinch bolts 21 N\u00b7m."
+      ],
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original source-based bounded summary; support/logging actions are workflow adaptations."
+    },
+    {
+      "id": "plate-settings",
+      "title": "Restore guides and settings",
+      "instruction": "Engage the number-plate projection in the front fender, route the hose through both plate guides and tighten the number-plate bolt to 7 N\u00b7m. Restore the recorded rebound and compression settings using the gently seated full-hard reference; verify left/right settings match the intended setup.",
+      "depends_on": [
+        "seat-torque"
+      ],
+      "source_pdf_pages": [
+        126,
+        63,
+        178,
+        114,
+        115
+      ],
+      "verification": [
+        "Plate 7 N\u00b7m; both guides used; original damping settings logged and restored."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=126",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=63",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=178",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=114",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=115"
+      ],
+      "origin": "Original source-based bounded summary; support/logging actions are workflow adaptations."
+    },
+    {
+      "id": "verify",
+      "title": "Check the completed installation",
+      "instruction": "Check wheel rotation, smooth fork movement, hose clearance through steering travel and firm normal front-brake operation. Recheck your recorded hardware torques and matched projection. Save the removal/refit result separately from fork-service history. Any binding, leak or soft brake remains a fault requiring correction before use.",
+      "depends_on": [
+        "plate-settings"
+      ],
+      "source_pdf_pages": [
+        133,
+        144,
+        146,
+        178
+      ],
+      "verification": [
+        "Wheel/forks/brake/hose checks pass; hardware accounted for; no internal-service claim."
+      ],
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original source-based bounded summary; support/logging actions are workflow adaptations."
+    }
+  ],
+  "publication_status": "LOCAL_REVIEWED_NOT_IMPORTED",
+  "reviewed_at": "2026-09-13T19:15:18.787832+00:00"
+}

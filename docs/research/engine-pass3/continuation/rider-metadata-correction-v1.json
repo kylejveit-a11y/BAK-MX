@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "status": "RIDER_METADATA_REVIEW_CORRECTION",
+  "previous_sha256": "7b540d96cad6c6e4c7478d21dd22ddf558160c2b119d6fcadfa699567352cf06",
+  "corrected_sha256": "67e79fb759118435f2150c3f18fab128638b2752160a4ccbf5c25e4a2fc0e21e",
+  "field": "exit_state[2]",
+  "reason": "Replace internal release language with a plain description of retained engine assemblies. No mechanical change.",
+  "frozen_upstream_artifacts_unchanged": true
+}

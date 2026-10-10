@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "id": "husqvarna-2025-fc450-us-fork-air-baseline-v1",
+  "component": "fork",
+  "affected_components": [
+    "fork",
+    "suspension"
+  ],
+  "target": {
+    "manufacturer": "Husqvarna",
+    "model": "FC 450",
+    "model_year": 2025,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Set the standard fork air pressure",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete assembled-bike air-pressure baseline. Damping adjustments, internal service and spring-conversion forks are excluded.",
+  "entry_state": [
+    "Assembled standard US FC450, F2475Y2, with original air fork.",
+    "Engine stopped; consistent conditions for pressure comparisons."
+  ],
+  "exit_state": [
+    "Pressure set, pump removed and cap fitted; bike lowered.",
+    "Remove parking stand before the slow handling check."
+  ],
+  "source": {
+    "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+    "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+    "document_revision": "3402805en,23/01/2025",
+    "pdf_pages": [
+      3,
+      53,
+      54,
+      60,
+      61
+    ],
+    "printed_pages": [
+      "3",
+      "53",
+      "54",
+      "60",
+      "61"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Exact US variant and pressure row checked; pages53,54,60,61 visually reviewed. No damping direction inferred from contradictory pages55-57. Independent root review accepted air-only scope after text53/54/60/61 and visual54 check; no physical execution claimed."
+  },
+  "applicability": {
+    "included": "Stock US2025 FC450 F2475Y2 air fork",
+    "excluded": [
+      "FC450 EU",
+      "Factory Edition",
+      "FX450",
+      "Other years",
+      "Replacement or spring-converted forks"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "required_tools": [
+    {
+      "name": "Fork air pump with readable gauge and supplied operating instructions",
+      "size": "79412966100"
+    },
+    {
+      "name": "Suitable lift stand and plug-in parking stand",
+      "size": "81329955100; A46029094000"
+    }
+  ],
+  "required_parts": [],
+  "preflight": [
+    "Wait at least five minutes after stopping the engine.",
+    "Keep comparisons under the same conditions. This restores the standard pressure, not a personalized setting."
+  ],
+  "critical_stop_conditions": [
+    "Unstable support, damaged valve or unreadable pressure gauge.",
+    "Pressure cannot be set or retained.",
+    "Handling remains abnormal after the slow check."
+  ],
+  "steps": [
+    {
+      "id": "conditions",
+      "title": "Match the checking conditions",
+      "instruction": "Wait at least five minutes after engine-off. Use consistent conditions for comparison.",
+      "depends_on": [],
+      "source_pdf_pages": [
+        53
+      ],
+      "verification": "Conditions confirmed",
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=53"
+      ],
+      "origin": "suspension-pass4"
+    },
+    {
+      "id": "lift",
+      "title": "Unload the fork",
+      "instruction": "On firm level ground, remove the plug-in stand. Lift beneath the engine frame until both wheels clear; secure against tipping. Nobody sits on the raised bike.",
+      "depends_on": [
+        "conditions"
+      ],
+      "source_pdf_pages": [
+        60
+      ],
+      "verification": "Stable; wheels clear",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=60"
+      ],
+      "origin": "suspension-pass4"
+    },
+    {
+      "id": "connect",
+      "title": "Connect the fork pump",
+      "instruction": "Remove the left fork valve cap. Fully assemble the specified pump and connect following its supplied instructions. Connection air loss fills the hose.",
+      "depends_on": [
+        "lift"
+      ],
+      "source_pdf_pages": [
+        54
+      ],
+      "verification": "Correct valve and readable gauge",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=54"
+      ],
+      "origin": "suspension-pass4"
+    },
+    {
+      "id": "pressure",
+      "title": "Set the US baseline",
+      "instruction": "Set 10.5 bar (152.3 psi). Keep within 7-12 bar; any later tuning changes use 0.2-bar steps. Record the pressure.",
+      "depends_on": [
+        "connect"
+      ],
+      "source_pdf_pages": [
+        54
+      ],
+      "verification": "Final pressure",
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=54"
+      ],
+      "origin": "suspension-pass4"
+    },
+    {
+      "id": "cap",
+      "title": "Disconnect and close",
+      "instruction": "Disconnect the pump; escaping hose pressure is expected. Refit the protection cap by hand only.",
+      "depends_on": [
+        "pressure"
+      ],
+      "source_pdf_pages": [
+        54
+      ],
+      "verification": "Cap fitted by hand",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=54"
+      ],
+      "origin": "suspension-pass4"
+    },
+    {
+      "id": "lower",
+      "title": "Lower and park",
+      "instruction": "Lower the bike and remove the lift. If parking, insert the plug-in stand into the left wheel spindle.",
+      "depends_on": [
+        "cap"
+      ],
+      "source_pdf_pages": [
+        60,
+        61
+      ],
+      "verification": "Stable on ground",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=60",
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=61"
+      ],
+      "origin": "suspension-pass4"
+    },
+    {
+      "id": "check",
+      "title": "Check the response",
+      "instruction": "Remove the plug-in stand before riding. Begin slowly to assess the changed handling; record the result.",
+      "depends_on": [
+        "lower"
+      ],
+      "source_pdf_pages": [
+        53,
+        61
+      ],
+      "verification": "Handling observation",
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=53",
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=61"
+      ],
+      "origin": "suspension-pass4"
+    }
+  ],
+  "publication_status": "LOCAL_REVIEW_ONLY_NOT_IMPORTED",
+  "reviewed_at": "2026-09-13"
+}

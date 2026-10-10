@@ -1,0 +1,119 @@
+{
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025"
+  },
+  "reviewed_pdf_pages": [
+    7,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    114,
+    115,
+    116,
+    117
+  ],
+  "completed": {
+    "specification_table_facts": 180,
+    "tightening_table_facts": 163,
+    "bounded_complete_procedures": [
+      "fork-clicker-baseline.procedure.json",
+      "shock-damping-baseline.procedure.json"
+    ]
+  },
+  "not_completed": [
+    "Entire-bike frame teardown/rebuild procedure",
+    "Complete engine rebuild sequence and all measurements/methods",
+    "Fork disassembly/bleeding/reassembly procedure",
+    "Rear shock internal rebuild; OEM contents only indexes removal/check/install, requires additional component/tuner service evidence",
+    "Part-number-to-joint mapping",
+    "2026 catalog completeness",
+    "Cross-year applicability inheritance"
+  ],
+  "next_source_sections": [
+    {
+      "task": "Fork service",
+      "printed_pages": "4-45 to 4-57",
+      "pdf_pages": [
+        167,
+        179
+      ],
+      "review_status": "INDEXED_NOT_PROCEDURE_REVIEWED"
+    },
+    {
+      "task": "Shock removal/linkage inspection/install; internal rebuild not established",
+      "printed_pages": "4-63 to 4-69",
+      "pdf_pages": [
+        185,
+        191
+      ],
+      "review_status": "INDEXED_NOT_PROCEDURE_REVIEWED"
+    },
+    {
+      "task": "Engine removal/install",
+      "printed_pages": "5-3 to 5-10",
+      "pdf_pages": [
+        206,
+        213
+      ],
+      "review_status": "INDEXED_NOT_PROCEDURE_REVIEWED"
+    },
+    {
+      "task": "Camshaft/head/valves/piston",
+      "printed_pages": "5-11 to 5-36",
+      "pdf_pages": [
+        214,
+        239
+      ],
+      "review_status": "INDEXED_NOT_PROCEDURE_REVIEWED"
+    },
+    {
+      "task": "Clutch",
+      "printed_pages": "5-46 to 5-60",
+      "pdf_pages": [
+        249,
+        263
+      ],
+      "review_status": "INDEXED_NOT_PROCEDURE_REVIEWED"
+    },
+    {
+      "task": "Crankcase/crankshaft/transmission",
+      "printed_pages": "5-73 to 5-88",
+      "pdf_pages": [
+        276,
+        291
+      ],
+      "review_status": "INDEXED_NOT_PROCEDURE_REVIEWED"
+    },
+    {
+      "task": "Symptom-driven suspension tuning and spring/oil alternatives",
+      "printed_pages": "10-2 to 10-6",
+      "pdf_pages": [
+        395,
+        399
+      ],
+      "review_status": "TEXT_INDEXED_VISUAL_REVIEW_PENDING"
+    }
+  ],
+  "publication_status": "LOCAL_REVIEWED_NOT_IMPORTED",
+  "year_inheritance": "NONE: exact 2026 evidence only; compare system-specific facts before any equivalence proposal."
+}

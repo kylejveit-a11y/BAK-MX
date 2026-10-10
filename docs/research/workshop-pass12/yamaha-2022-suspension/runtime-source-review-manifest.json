@@ -1,0 +1,59 @@
+{
+  "status": "APPROVED",
+  "author_review_manifest": {
+    "path": "docs/research/workshop-pass12/yamaha-2022-suspension/source-review-manifest.json",
+    "sha256": "e0710fd0ee111f09514c6bbd4fc527446b36413b6d5868f8d5775479d6aec101"
+  },
+  "sources": [
+    {
+      "id": "yamaha-us-2022-yz450f-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf",
+      "sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\B2W-2819U-12_02.pdf"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "fork-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2022-yz450f-oem",
+      "sha256": "94fb9ad92d912cfea7a3f407439a70f5c1a7a1439b75d07964e091a342fdba3e",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 6
+    },
+    {
+      "path": "shock-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2022-yz450f-oem",
+      "sha256": "14f8c958cbdc1aaf2e5e7062f99cfe072cdcaa60bf1b874b2da14c44a71164bc",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 6
+    },
+    {
+      "path": "rider-sag-preload-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2022-yz450f-oem",
+      "sha256": "6b462dd40d03f4b765501d88531cdaa550ff3311e16de20e72ee2e3f21661a61",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 7
+    }
+  ]
+}

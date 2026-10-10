@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "status": "INCOMPLETE_COMPOSITE_NOT_RUNTIME_PROCEDURE",
+  "source_id": "yamaha26",
+  "source_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+  "full_frame_rebuild_complete": false,
+  "completed_reusable_operations": [
+    {
+      "id": "yamaha-2026-yz450f-clutch-release-remove-refit-v1",
+      "path": "clutch-release-remove-refit-v1.procedure.json",
+      "sha256": "4e28e84a4e5362f78db88a8b7f26f723ed1e5047c15b1c27ea4ebb7ee23c7fec"
+    },
+    {
+      "id": "yamaha-2026-yz450f-engine-remove-refit-v1",
+      "path": "engine-remove-refit-v1.procedure.json",
+      "sha256": "d0e2c9546d7bdd05e7b9702df20d8edab462c15a5c1a4f0438e6c928c6bd3713"
+    },
+    {
+      "id": "yamaha-2026-yz450f-front-wheel-remove-refit-v1",
+      "path": "front-wheel-remove-refit-v1.procedure.json",
+      "sha256": "75c5b6631fee6156b5d1b6dcca6e8b8511e9f829c6b1f418dc8ec2af2609173c"
+    },
+    {
+      "id": "yamaha-2026-yz450f-rear-wheel-remove-refit-v1",
+      "path": "rear-wheel-remove-refit-v1.procedure.json",
+      "sha256": "2a91e8d0b6d866b08ffb3662ff5bebbf0cc439b940c1c41453c0cb0feff1514c"
+    },
+    {
+      "id": "yamaha-2026-yz450f-steering-bearing-inspection-v1",
+      "path": "steering-bearing-inspection-v1.procedure.json",
+      "sha256": "a821af77bc9cfe69e8d9b4f36604cae2cb8128e8b3fd852ddeee7a3ca872fb65"
+    },
+    {
+      "id": "yamaha-2026-yz450f-swingarm-linkage-remove-refit-v1",
+      "path": "swingarm-linkage-remove-refit-v1.procedure.json",
+      "sha256": "78e75778e052bdc44df0e7bd265c6a6a358212223e4f69b548576cb116754f43"
+    }
+  ],
+  "ordered_stages": [
+    {
+      "stage": "record_and_deenergize",
+      "evidence_pages": [
+        90,
+        91,
+        98,
+        99,
+        123
+      ],
+      "actions": "Record bike/build, fluids and fault; oil drain as appropriate, cool; body/fuel access and negative-then-positive isolation."
+    },
+    {
+      "stage": "fuel_intake_exhaust_cooling",
+      "evidence_pages": [
+        206,
+        209,
+        296,
+        297,
+        306,
+        307,
+        308,
+        309,
+        310
+      ],
+      "actions": "Use inlined engine-interface access through supported throttle body and labeled coolant hoses. For truly bare frame, detach full throttle/control and radiator assemblies rather than retaining them attached; those additional closures remain open."
+    },
+    {
+      "stage": "engine_out",
+      "operation": "yamaha-2026-yz450f-engine-remove-refit-v1",
+      "pause_after": "engine-out",
+      "resume_at": "engine-in",
+      "actions": "Execute engine access and removal portion, pause for bench job. Engine/arm support must be coordinated before shared pivot withdraw."
+    },
+    {
+      "stage": "rear_rolling_assembly",
+      "operation": "yamaha-2026-yz450f-swingarm-linkage-remove-refit-v1",
+      "pause_after": "arm-inspect",
+      "resume_at": "grease-arm",
+      "actions": "Remove wheel/chain and free closed brake assembly, linkage, swingarm. Composite must avoid duplicate pivot withdrawal after engine removal."
+    },
+    {
+      "stage": "front_rolling_assembly",
+      "operation": "yamaha-2026-yz450f-steering-bearing-inspection-v1",
+      "pause_after": "steering-inspect",
+      "resume_at": "steering-grease",
+      "actions": "Remove wheel/fork/bar/clamps/bearing stack. Supported handlebar remains attached in standalone operation; complete controls/harness detachment is required before bare frame."
+    },
+    {
+      "stage": "frame_attachments",
+      "evidence_pages": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        123,
+        124,
+        127,
+        128,
+        296,
+        297
+      ],
+      "actions": "Remove rear-frame assembly, electrical holders/harness, radiators, footrest brackets and remaining frame attachments; photo-map every holder and tie. This stage is not yet an approved instruction sequence."
+    },
+    {
+      "stage": "frame_inspection",
+      "evidence_pages": [
+        90,
+        91,
+        182,
+        194
+      ],
+      "actions": "Record structural damage findings; no invented frame alignment tolerance or welding/straightening method. Exact frame repair acceptance remains outside current evidence."
+    },
+    {
+      "stage": "reassembly",
+      "actions": "Rebuild attachment/routing layers and coordinated engine/pivot/swingarm, then front-end, wheel/brake/chain, intake/exhaust/fuel/cooling/electrical closure. Restore from source-specific operations; do not blindly reverse a generic list."
+    },
+    {
+      "stage": "whole_bike_verification",
+      "evidence_pages": [
+        90,
+        96,
+        97,
+        98,
+        99,
+        111,
+        112,
+        113,
+        137,
+        138,
+        184,
+        190,
+        191,
+        195,
+        298,
+        299
+      ],
+      "actions": "Mounts, bearings, controls, hydraulics, wiring lock-to-lock, chain at prescribed reference, cooling leaks, oil flow/level and separately verified engine timing/internal work. No ride-ready inference from checked phase count."
+    }
+  ],
+  "remaining_review_gaps": [
+    {
+      "id": "full_controls_detachment",
+      "pages": [
+        64,
+        65,
+        70,
+        71,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166
+      ],
+      "need": "Exact cable end/housing detach/restore and control assembly sequence if no retained-cable support. Do not infer4.3Nm diagram callout without mapping."
+    },
+    {
+      "id": "rear_subframe",
+      "pages": [
+        62,
+        63,
+        66,
+        67,
+        74,
+        75,
+        123,
+        124,
+        127,
+        128
+      ],
+      "need": "Full rear-frame assembly removal/refit, four38Nm bolts, upper-chain-tensioner new pin orientation, holder/ECU/CCU/battery routing closure."
+    },
+    {
+      "id": "radiator_and_brackets",
+      "pages": [
+        57,
+        68,
+        69,
+        296,
+        297,
+        298,
+        299
+      ],
+      "need": "Exact mounting damper/collar stacks and each hose/pipe newseal decision,137.3kPa leak check if this assembly removed."
+    },
+    {
+      "id": "bareframe_harness",
+      "pages": [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77
+      ],
+      "need": "Every frame harness/holder release and ordered restoration; preserve tape/color/tie direction and connector covers."
+    },
+    {
+      "id": "footrest_and_remaining_small_parts",
+      "pages": [
+        61,
+        124,
+        127,
+        128
+      ],
+      "need": "Complete bracket/pin/spring inventory and assembly sequence, not just55Nm bracket table."
+    },
+    {
+      "id": "composite_support_and_cutpoints",
+      "need": "Source-reviewed composite sequence preventing duplicated/missing work at engine/swingarm common pivot, plus separate completion ledger for tasks omitted by intact variants."
+    }
+  ]
+}

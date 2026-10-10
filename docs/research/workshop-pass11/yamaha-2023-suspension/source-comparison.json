@@ -1,0 +1,636 @@
+{
+  "status": "AUTHOR_SOURCE_COMPARISON_NOT_APPROVAL",
+  "source_2023": {
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf",
+    "sha256": "9a8605e26301ba1d0d1d21e93d23cca721bdcdbece6188775626a8819332aa9f",
+    "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\BHR-2819U-10_02.pdf"
+  },
+  "comparison_2024_sha256": "6e784b3b15fe1e131f0e385676ca2873e74d783ee2499ce561e595bcea9ca9be",
+  "method": "Normalized word comparison detects wording/page spill, supplemented by exact numerical and diagram review; similarity alone does not approve a procedure.",
+  "page_map": [
+    {
+      "source_2024_pdf_page": 1,
+      "source_2023_pdf_page": 1,
+      "normalized_text_equal": false,
+      "delta": [
+        {
+          "2024": "11",
+          "2023": "10"
+        },
+        {
+          "2024": "37 11",
+          "2023": "36 32"
+        },
+        {
+          "2024": "FR",
+          "2023": "FP"
+        },
+        {
+          "2024": "2024",
+          "2023": "2023"
+        }
+      ],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 4,
+      "source_2023_pdf_page": 4,
+      "normalized_text_equal": false,
+      "delta": [
+        {
+          "2024": "FR",
+          "2023": "FP"
+        },
+        {
+          "2024": "2024",
+          "2023": "2023"
+        },
+        {
+          "2024": "February 2023",
+          "2023": "July 2022"
+        },
+        {
+          "2024": "37 11",
+          "2023": "36 32"
+        }
+      ],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 8,
+      "source_2023_pdf_page": 8,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 60,
+      "source_2023_pdf_page": 60,
+      "normalized_text_equal": false,
+      "delta": [
+        {
+          "2024": "7 N m 0.7 kgf m 5.2 lb ft Bolt drive chain support M 6 1",
+          "2023": ""
+        }
+      ],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 84,
+      "source_2023_pdf_page": 84,
+      "normalized_text_equal": false,
+      "delta": [
+        {
+          "2024": "25",
+          "2023": "24"
+        },
+        {
+          "2024": "28",
+          "2023": "27"
+        },
+        {
+          "2024": "12",
+          "2023": "11"
+        },
+        {
+          "2024": "5",
+          "2023": "6"
+        },
+        {
+          "2024": "6",
+          "2023": "7"
+        }
+      ],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 102,
+      "source_2023_pdf_page": 102,
+      "normalized_text_equal": false,
+      "delta": [
+        {
+          "2024": "",
+          "2023": "Add"
+        }
+      ],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 103,
+      "source_2023_pdf_page": 103,
+      "normalized_text_equal": false,
+      "delta": [
+        {
+          "2024": "Add",
+          "2023": ""
+        }
+      ],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 104,
+      "source_2023_pdf_page": 104,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 105,
+      "source_2023_pdf_page": 105,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 106,
+      "source_2023_pdf_page": 106,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 107,
+      "source_2023_pdf_page": 107,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 108,
+      "source_2023_pdf_page": 108,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 109,
+      "source_2023_pdf_page": 109,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 110,
+      "source_2023_pdf_page": 110,
+      "normalized_text_equal": false,
+      "delta": [
+        {
+          "2024": "With",
+          "2023": "ith"
+        }
+      ],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 111,
+      "source_2023_pdf_page": 111,
+      "normalized_text_equal": false,
+      "delta": [
+        {
+          "2024": "Direction",
+          "2023": "CorDirection"
+        }
+      ],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 120,
+      "source_2023_pdf_page": 120,
+      "normalized_text_equal": false,
+      "delta": [
+        {
+          "2024": "24",
+          "2023": "23"
+        }
+      ],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 122,
+      "source_2023_pdf_page": 122,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 124,
+      "source_2023_pdf_page": 124,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 125,
+      "source_2023_pdf_page": 125,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 126,
+      "source_2023_pdf_page": 126,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 127,
+      "source_2023_pdf_page": 127,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 129,
+      "source_2023_pdf_page": 129,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 130,
+      "source_2023_pdf_page": 130,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 131,
+      "source_2023_pdf_page": 131,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 132,
+      "source_2023_pdf_page": 132,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 133,
+      "source_2023_pdf_page": 133,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 134,
+      "source_2023_pdf_page": 134,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 135,
+      "source_2023_pdf_page": 135,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 136,
+      "source_2023_pdf_page": 136,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 137,
+      "source_2023_pdf_page": 137,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 138,
+      "source_2023_pdf_page": 138,
+      "normalized_text_equal": false,
+      "delta": [
+        {
+          "2024": "",
+          "2023": "internal parts Use new brake fluid for"
+        }
+      ],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 139,
+      "source_2023_pdf_page": 139,
+      "normalized_text_equal": false,
+      "delta": [
+        {
+          "2024": "internal parts Use new brake fluid for",
+          "2023": ""
+        }
+      ],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 140,
+      "source_2023_pdf_page": 140,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 141,
+      "source_2023_pdf_page": 141,
+      "normalized_text_equal": false,
+      "delta": [
+        {
+          "2024": "",
+          "2023": "Turn the handlebar toward right and left to make"
+        }
+      ],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 142,
+      "source_2023_pdf_page": 142,
+      "normalized_text_equal": false,
+      "delta": [
+        {
+          "2024": "Turn the handlebar toward right and left to make",
+          "2023": ""
+        }
+      ],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 143,
+      "source_2023_pdf_page": 143,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 144,
+      "source_2023_pdf_page": 144,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 145,
+      "source_2023_pdf_page": 145,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 146,
+      "source_2023_pdf_page": 146,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 147,
+      "source_2023_pdf_page": 147,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 149,
+      "source_2023_pdf_page": 149,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 150,
+      "source_2023_pdf_page": 150,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 151,
+      "source_2023_pdf_page": 151,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 152,
+      "source_2023_pdf_page": 152,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 153,
+      "source_2023_pdf_page": 153,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 160,
+      "source_2023_pdf_page": 160,
+      "normalized_text_equal": false,
+      "delta": [
+        {
+          "2024": "10 Install Rubber cover 1 Throttle grip 2",
+          "2023": ""
+        },
+        {
+          "2024": "64",
+          "2023": "14 Install Start switch"
+        },
+        {
+          "2024": "b c",
+          "2023": "Front brake master cylinder assembly 2 Front brake master cylinder holder"
+        },
+        {
+          "2024": "64 1 2",
+          "2023": "Front brake master cylinder holder bolt 4 Clamp 5 Install the front brake master cylinder holder with the UP mark facing up Install in order for the top of the front brake master cylinder assembly to be level First tighten the upper bolt then the low"
+        },
+        {
+          "2024": "",
+          "2023": "1 2"
+        },
+        {
+          "2024": "",
+          "2023": "Front brake master cylinder holder bolt 9 N m 0.9 kgf m 6.6 lb ft T R"
+        }
+      ],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 161,
+      "source_2023_pdf_page": 161,
+      "normalized_text_equal": false,
+      "delta": [
+        {
+          "2024": "14 Install Start switch 1 Front brake master cylinder assembly 2 Front brake master cylinder holder 3 Front brake master cylinder holder bolt 4 Clamp 5 Install the front brake master cylinder holder with the UP mark facing up Install in order for the",
+          "2023": ""
+        },
+        {
+          "2024": "Front brake master cylinder holder bolt 9 N m 0.9 kgf m 6.6 lb ft T R",
+          "2023": "Throttle grip free play 3.0 6.0 mm 0.12 0.24 in"
+        },
+        {
+          "2024": "Throttle grip free play 3.0 6.0 mm 0.12 0.24 in",
+          "2023": ""
+        }
+      ],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 162,
+      "source_2023_pdf_page": 162,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 163,
+      "source_2023_pdf_page": 163,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 164,
+      "source_2023_pdf_page": 164,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 165,
+      "source_2023_pdf_page": 165,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 166,
+      "source_2023_pdf_page": 166,
+      "normalized_text_equal": false,
+      "delta": [
+        {
+          "2024": "",
+          "2023": "case repeat the steps 1 to 3"
+        }
+      ],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 167,
+      "source_2023_pdf_page": 167,
+      "normalized_text_equal": false,
+      "delta": [
+        {
+          "2024": "case repeat the steps 1 to 3",
+          "2023": ""
+        }
+      ],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 168,
+      "source_2023_pdf_page": 168,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 169,
+      "source_2023_pdf_page": 169,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 170,
+      "source_2023_pdf_page": 170,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 171,
+      "source_2023_pdf_page": 171,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 172,
+      "source_2023_pdf_page": 172,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 173,
+      "source_2023_pdf_page": 173,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 376,
+      "source_2023_pdf_page": 376,
+      "normalized_text_equal": true,
+      "delta": [],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    },
+    {
+      "source_2024_pdf_page": 377,
+      "source_2023_pdf_page": 377,
+      "normalized_text_equal": false,
+      "delta": [
+        {
+          "2024": "",
+          "2023": "For Monster Energy Yamaha Racing Edition only"
+        },
+        {
+          "2024": "For the spring preload adjustment refer to ADJUSTING THE REAR SHOCK ABSORBER ASSEMBLY on page 3 31",
+          "2023": ""
+        },
+        {
+          "2024": "",
+          "2023": "BR 9 22212 20 Blue White"
+        },
+        {
+          "2024": "",
+          "2023": "BR 9 22212 30 Blue Silver"
+        },
+        {
+          "2024": "Spring preload adjusting positions Minimum Position in which the spring is turned in 1.5 mm 0.06 in from its free length Standard Position in which the spring is turned in 7.0 mm 0.28 in from its free length Maximum Position in which the spring is tu",
+          "2023": ""
+        }
+      ],
+      "mechanical_review": "Same operational locator; content spill across adjacent pages accounted for. Front matter and spring-part catalog differences are not operational inheritance."
+    }
+  ],
+  "author_rendered_pages": [
+    108,
+    110,
+    133,
+    141,
+    146,
+    152,
+    160,
+    161,
+    166,
+    167,
+    173,
+    376
+  ],
+  "findings": [
+    "Exact2023 scope cover1 and US copyright4 established.",
+    "Mechanical words132–153 and162–173 only change via paragraph spills138/139,141/142,166/167 after normalizing wrapping/TIP labels.",
+    "2023fork11rebound/10compression;shock13rebound/10LS/1HS;preload7mm;forkoil270/projection7 verified.",
+    "2023rear spring catalog includes Monster-specific blue alternatives; no alternative spring part fit imported.",
+    "2023preload tuning section spills to378; operating limit1.5–18 and7standard already independently cited109.",
+    "Frontmaster washer2 andboot4 remain unmarked NEW; only piston1/circlip3 indicated.",
+    "No stock shock internal rebuild or fork damper-rod seal repair claimed."
+  ]
+}

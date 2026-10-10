@@ -1,0 +1,1456 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2022-yz450f-fork-oil-seals-bushings-v1",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2022,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Service both fork oil chambers, seals and bushings",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Assembled-bike fork removal, both stock oil-chamber service, outer dust/oil seals and bushings renewal, individual disturbed external O-ring renewal, cartridge bleeding/overflow verification, and wheel/brake/fork refit. Original base-valve and damper internals remain intact; no shim-stack changes or cartridge rod-seal overhaul.",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf",
+    "document_sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608",
+    "document_revision": "B2W-2819U-12 / LIT-11626-35-03; first edition March2021",
+    "pdf_pages": [
+      1,
+      4,
+      8,
+      116,
+      117,
+      119,
+      120,
+      121,
+      122,
+      127,
+      131,
+      132,
+      134,
+      149,
+      150,
+      151,
+      152,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168
+    ],
+    "printed_pages": [
+      "1: front matter",
+      "4: front matter",
+      "Symbols (unnumbered)",
+      "116: 4-2",
+      "117: 4-3",
+      "119: 4-5",
+      "120: 4-6",
+      "121: 4-7",
+      "122: 4-8",
+      "127: 4-13",
+      "131: 4-17",
+      "132: 4-18",
+      "134: 4-20",
+      "149: 4-35",
+      "150: 4-36",
+      "151: 4-37",
+      "152: 4-38",
+      "156: 4-42",
+      "157: 4-43",
+      "158: 4-44",
+      "159: 4-45",
+      "160: 4-46",
+      "161: 4-47",
+      "162: 4-48",
+      "163: 4-49",
+      "164: 4-50",
+      "165: 4-51",
+      "166: 4-52",
+      "167: 4-53",
+      "168: 4-54"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Exact2022 fork author review; independent review pending."
+  },
+  "applicability": {
+    "included": "Exact standard US 2022 YZ450F/YZ450FN with original spring forks",
+    "excluded": [
+      "Other years/models",
+      "Aftermarket cartridge or fork conversion",
+      "Revalving or shim-stack changes",
+      "Internal damper-rod seal overhaul",
+      "Machining/straightening damaged components"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "required_tools": [
+    {
+      "name": "Stable maintenance stand and secure support",
+      "purpose": "Front wheel suspended; fork legs separately supported during clamp release"
+    },
+    {
+      "name": "Cap bolt ring wrench",
+      "part_numbers": [
+        "90890-01501",
+        "YM-01501"
+      ]
+    },
+    {
+      "name": "Suitable torque wrenches and sockets",
+      "range_required": "Accurate at touched joints from1.3 to115 N·m; account for offset-adapter lever length.",
+      "size": "Includes5Nm protectors and40Nm lower handlebar holders."
+    },
+    {
+      "name": "Metric depth/height measuring tool",
+      "purpose": "5mm fork projection using exact2022 diagram."
+    },
+    {
+      "name": "Caliper sling/support and pad separator",
+      "purpose": "Support closed hydraulic assembly; prevent accidental pad closure while disc is absent"
+    },
+    {
+      "name": "Clean parts tray and setup log",
+      "purpose": "Preserve side-specific collars and original settings"
+    },
+    {
+      "name": "Cap bolt wrench90890-01500 / YM-01500",
+      "size": null
+    },
+    {
+      "name": "Fork seal driver90890-01502 / YM-A0948",
+      "size": "48 mm"
+    },
+    {
+      "name": "Dial gauge and suitable measuring support",
+      "size": null
+    },
+    {
+      "name": "Oil-level measuring/suction tool and accurate graduated volume measure",
+      "size": null
+    },
+    {
+      "name": "Seal-entry protective vinyl film, clean drain containers, lint-free cloths",
+      "size": null
+    }
+  ],
+  "materials": [
+    {
+      "name": "Lithium-soap-based grease",
+      "purpose": "Fork seal lips and inner-tube surface during dust-seal installation, plus axle/wheel oil-seal lips. Use fork oil on the tube during the earlier oil-seal insertion stage, as each step specifies."
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "New piston metal / inner-tube bushing",
+      "purpose": "One per leg, PDF 157 item8 and PDF 163 groove."
+    },
+    {
+      "name": "New slide metal",
+      "purpose": "One per leg, PDF 157 item10 and PDF 163 driver sequence."
+    },
+    {
+      "name": "New oil seal",
+      "purpose": "One per leg, PDF 157 item12; numbered face downward."
+    },
+    {
+      "name": "New dust seal",
+      "purpose": "One per leg, PDF 157 item4; no separate scraper in this source stack."
+    },
+    {
+      "name": "New copper washer",
+      "purpose": "One per leg, PDF 166 item2 at lower adjuster."
+    },
+    {
+      "name": "New matching external damper-assembly O-ring",
+      "purpose": "One per leg at original lower cartridge groove; PDF 160 top-left."
+    },
+    {
+      "name": "New matching lower-adjuster O-ring",
+      "purpose": "One per leg at original groove; PDF 160 adjuster close-up."
+    },
+    {
+      "name": "New matching base-valve external O-rings",
+      "purpose": "Individually identify every disturbed NEW-marked position in PDF 157/160; no kit contents assumed."
+    },
+    {
+      "name": "Yamaha Suspension Oil S1",
+      "purpose": "Separate216 cm3 cartridge and295 cm3 outer fills per leg; enough for repeat bleed cycles."
+    },
+    {
+      "name": "Lithium-soap-based grease",
+      "purpose": "Seal lips, indicated tube region and wheel/axle refit."
+    },
+    {
+      "name": "LOCTITE locking agent",
+      "purpose": "Lower adjuster-to-inner-tube thread; source does not name grade/cure time. Record product and follow its instructions."
+    }
+  ],
+  "prerequisites": [
+    "Exact original 2022 stock fork configuration; no earlier unfinished internal job or unknown assembly state.",
+    "Ability to identify the 5 mm projection reference in PDF 167 and execute the illustrated cartridge seating technique.",
+    "Working front brake, serviceable original valve/damper internals and secure supports; damaged assemblies require separate replacement work."
+  ],
+  "critical_stop_conditions": [
+    "Unidentified or unmatched sealing position/replacement.",
+    "Bent/damaged tube, worn base valve or damaged damper needing separate component replacement.",
+    "Damper does not fully extend or moves roughly after the prescribed bleed/purge.",
+    "Seal ring cannot seat, tube binds, or adjuster gap is outside specification.",
+    "Final brake/wheel/fork checks fail."
+  ],
+  "settings": {
+    "fork_projection_mm": 5,
+    "projection_reference": "Dimension a on exact2022PDF167, upper-bracket top to outer-tube top, excluding cap.",
+    "restore_damping": "Recorded pre-removal settings; no new tuning target."
+  },
+  "steps": [
+    {
+      "id": "setup",
+      "title": "Record and support",
+      "instruction": "Record left/right rebound and compression settings and the existing fork height. This procedure returns the forks to the OEM standard 5 mm projection. Put the bike securely on its maintenance stand with the front wheel off the ground.",
+      "depends_on": [],
+      "source_pdf_pages": [
+        156,
+        158,
+        167,
+        168
+      ],
+      "verification": [
+        "Bike stable; original setup recorded; standard-height target understood."
+      ],
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=156",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=158",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=167",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=168"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "plate",
+      "title": "Free the hose guides",
+      "instruction": "Remove the number-plate bolt. Release its band from the projection, free the clutch cable from the plate guide, and pull the plate off the lower-bracket projection. Keep cables unstressed and preserve the band attachment.",
+      "depends_on": [
+        "setup"
+      ],
+      "source_pdf_pages": [
+        116,
+        117
+      ],
+      "verification": [
+        "Plate removed; guide routing recorded."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=116",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=117"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "wheel-remove",
+      "title": "Remove the front wheel",
+      "instruction": "Loosen all four axle pinch bolts. Support the wheel; remove the axle nut and axle, then lower the wheel clear. Label and retain its left and right collars. Prevent the brake lever being operated with the disc absent.",
+      "depends_on": [
+        "plate"
+      ],
+      "source_pdf_pages": [
+        119,
+        120
+      ],
+      "verification": [
+        "Wheel/axle/collars retained with correct sides; pads not forced closed."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=119",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=120"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "caliper",
+      "title": "Support the brake assembly",
+      "instruction": "Remove the two caliper mounting bolts and support the complete caliper so its weight cannot pull on the hose. Keep the hose union, bleed screw, pad pin and pads undisturbed. Release the brake-hose holder from the fork protector, preserving its orientation and paint-mark position.",
+      "depends_on": [
+        "wheel-remove"
+      ],
+      "source_pdf_pages": [
+        127,
+        131,
+        134,
+        156
+      ],
+      "verification": [
+        "Caliper supported; closed hydraulic circuit; hose not loaded."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=127",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=131",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=134",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=156"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "protectors",
+      "title": "Remove the protectors",
+      "instruction": "Remove the three protector bolts on each fork leg and lift the protectors away. Keep the hardware grouped by side.",
+      "depends_on": [
+        "caliper"
+      ],
+      "source_pdf_pages": [
+        156,
+        168
+      ],
+      "verification": [
+        "Both protectors removed; hardware accounted for."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=156",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=168"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "bars-support",
+      "title": "Lift and secure the intact handlebar assembly",
+      "instruction": "Record the lower-holder orientation and damper positions. Support the complete handlebar and controls, remove both lower-holder nuts, and lift the holders with the handlebar still clamped in them. Retain all four dampers and washers in their original positions. Secure the assembly so it cannot move or strain any attached cable, hose or lead. Do not loosen the upper bar clamps or disconnect controls.",
+      "depends_on": [
+        "protectors"
+      ],
+      "source_pdf_pages": [
+        149,
+        150,
+        158
+      ],
+      "verification": [
+        "Both holders and four dampers indexed; intact assembly secured without tension."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=149",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=150",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=158"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "legs-remove",
+      "title": "Release each fork leg",
+      "instruction": "Support one fork leg. Loosen its upper-clamp pinch bolts, then use the specified ring wrench to loosen—but not remove—the damper assembly at the top while the lower clamp still holds the leg. Loosen the lower-clamp pinch bolts and slide the supported leg down and out. Repeat on the other side; keep each assembly upright until its internal-service steps.",
+      "depends_on": [
+        "bars-support"
+      ],
+      "source_pdf_pages": [
+        158
+      ],
+      "verification": [
+        "Both legs supported and removed; caps only loosened; no oil drained or internal components removed."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=158"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "left-drain",
+      "title": "Left fork: open and drain the outer chamber",
+      "instruction": "Keep parts identified by side. Unscrew the already-loosened damper assembly from the outer tube and drain the outer fork oil into a suitable container. Preserve the spring, upper spring seat and adjusting rod as each is freed; use the exploded view to maintain their order.",
+      "source_pdf_pages": [
+        157,
+        158
+      ],
+      "verification": [
+        "left: Outer oil drained; left/right parts remain separate."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=157",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=158"
+      ],
+      "depends_on": [
+        "legs-remove"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "left-bottom",
+      "title": "Left fork: detach the lower adjuster",
+      "instruction": "Loosen the lower adjuster from the inner tube. Compress the inner tube and support the exposed rod locknut with the cap-bolt ring wrench positioned between tube and locknut as illustrated. Hold the locknut while unscrewing the adjuster from the rod. Retain the adjusting rod and old sealing washer for identification. Never remove the rod locknut: the rod can disappear into the cartridge.",
+      "source_pdf_pages": [
+        158,
+        165,
+        166
+      ],
+      "verification": [
+        "left: Adjuster detached with locknut retained; rod supported; old washer identified."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=158",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=165",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=166"
+      ],
+      "depends_on": [
+        "left-drain"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "left-cartridge",
+      "title": "Left fork: remove cartridge and spring",
+      "instruction": "With the lower adjuster detached, release the supported spring load under control and withdraw the damper assembly, upper spring seat and fork spring. Keep the spring seat orientation identified. Keep the damper-rod locknut installed.",
+      "source_pdf_pages": [
+        157,
+        158
+      ],
+      "verification": [
+        "left: Damper/spring/seat removed and identified; locknut remains installed."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=157",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=158"
+      ],
+      "depends_on": [
+        "left-bottom"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "left-split",
+      "title": "Left fork: separate the fork tubes",
+      "instruction": "Carefully lift the dust seal and remove the stopper ring without scratching the inner tube. Slowly push the inner tube almost to bottom, then pull it back quickly as illustrated; repeat until the tubes separate. Remove the old piston metal, slide metal, oil seal and dust seal. Retain the reusable washer, stopper ring and protector guide in order. This exact-year stack has no separate scraper.",
+      "source_pdf_pages": [
+        157,
+        159
+      ],
+      "verification": [
+        "left: Tubes separated without damage; renewal items separated from reusable hardware."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=157",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=159"
+      ],
+      "depends_on": [
+        "left-cartridge"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "left-base-remove",
+      "title": "Left fork: open the damper oil chamber",
+      "instruction": "Record the compression setting, then fully loosen that adjuster. Hold the damper with ring wrench90890-01501 and remove the intact base valve using cap wrench90890-01500/YM-01500. Drain damper oil. Leave the compression adjuster and valve internals assembled; no knob-screw or shim-stack dismantling is part of this2022 operation.",
+      "source_pdf_pages": [
+        159,
+        161
+      ],
+      "verification": [
+        "left: Compression control fully loosened; cartridge drained; valve assembly intact."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=159",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=161"
+      ],
+      "depends_on": [
+        "left-split"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "left-inspect",
+      "title": "Left fork: inspect tubes, spring and damper",
+      "instruction": "Check the inner tube, oil-lock piece, outer tube and damper for damage. Measure inner-tube bend with a dial gauge: bending is half the total reading and must not exceed 0.2 mm. The fork-spring free-length limit is 492.0 mm. Record both measurements. A bent tube, damaged oil-lock piece, worn outer tube or damaged damper needs replacement; do not straighten a bent tube.",
+      "source_pdf_pages": [
+        159,
+        160
+      ],
+      "verification": [
+        "left: Bend and spring length recorded; damaged/out-of-limit components replaced before assembly."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=159",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=160"
+      ],
+      "depends_on": [
+        "left-base-remove"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "left-renew",
+      "title": "Left fork: renew the disturbed seals",
+      "instruction": "Clean components and inspect the base valve, its spring/bushing, bleed screw, upper spring-seat contact face and adjuster. Failed valve/damper internals need separate component replacement; do not alter them within this service. Renew each disturbed NEW-marked external O-ring at its exact original groove using PDF 157 and PDF 160. Match each replacement before removing the next old seal and record each location. Keep the bleed screw, pressure spring and valve stacks assembled; no gas-charge work is included.",
+      "source_pdf_pages": [
+        8,
+        157,
+        160,
+        161
+      ],
+      "verification": [
+        "left: Each disturbed seal matched to its illustrated location and renewed; all assemblies clean and serviceable."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=8",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=157",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=160",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=161"
+      ],
+      "depends_on": [
+        "left-inspect"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "left-fill",
+      "title": "Left fork: fill the damper chamber",
+      "instruction": "Fully extend the damper assembly. Measure and add 216 cm³ of Yamaha Suspension Oil S1 to the damper chamber. This is the initial cartridge fill, not the outer fork fill.",
+      "source_pdf_pages": [
+        161
+      ],
+      "verification": [
+        "left: S1 initial damper fill216 cm³ recorded; damper fully extended."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=161"
+      ],
+      "depends_on": [
+        "left-renew"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "left-bleed",
+      "title": "Left fork: bleed slowly with short strokes",
+      "instruction": "Pump the damper slowly several times to remove air, using strokes below 200 mm. Do not use 200 mm or more or a full stroke during this initial bleed: the manual warns that this draws air in. If air enters, repeat the full-extension, fill and initial-bleed sequence before continuing.",
+      "source_pdf_pages": [
+        161
+      ],
+      "verification": [
+        "left: Slow sub-200 mm bleed completed without drawing air; repeat performed if needed."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=161"
+      ],
+      "depends_on": [
+        "left-fill"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "left-level",
+      "title": "Left fork: set cartridge oil level",
+      "instruction": "Fully extend the damper and measure oil level from its top as shown. Adjust to 145–148 mm, matching the other fork leg. Fully finger-tighten the rod locknut onto the damper assembly; do not remove it.",
+      "source_pdf_pages": [
+        161
+      ],
+      "verification": [
+        "left: Level145–148 mm recorded from illustrated top datum; rod locknut finger-tight."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=161"
+      ],
+      "depends_on": [
+        "left-bleed"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "left-base-seat",
+      "title": "Left fork: seat the base valve using the source motion",
+      "instruction": "Confirm the compression damping adjuster remains fully loosened before installation as Yamaha requires. Load the damper rod to the maximum described by Yamaha, then install the base valve while releasing rod pressure, following the page 162 diagram. This is a manual loading/release operation, not a gas charge; do not add air or nitrogen. The source specifies no numerical force or complete rod-motion direction. Verify the damper is fully extended after seating; if not, repeat full extension, fill, bleed, level and seating before fastening.",
+      "source_pdf_pages": [
+        161,
+        162
+      ],
+      "verification": [
+        "left: OEM seating motion followed; damper fully extended; no external charge."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=161",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=162"
+      ],
+      "depends_on": [
+        "left-level"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "left-base-torque",
+      "title": "Left fork: secure the base valve and knob",
+      "instruction": "Hold the damper with ring wrench90890-01501 and use cap wrench90890-01500/YM-01500 to tighten the base valve to28 N·m. The compression adjuster remains fully loosened until final setting restoration.",
+      "source_pdf_pages": [
+        162
+      ],
+      "verification": [
+        "Base valve28 N·m recorded; compression adjuster remains fully loosened."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=162"
+      ],
+      "depends_on": [
+        "left-base-seat"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "left-purge",
+      "title": "Left fork: distribute oil and purge the excess",
+      "instruction": "Slowly pump the assembled damper more than ten times. Protect the rod end with a cloth as shown and fully compress the assembly to expel excess oil at the base-valve side. Drain overflow through the illustrated hole. About 10 cm³ overflow is an observation, not a dosing amount to subtract manually. Verify smooth travel; binding or rough spots require repeating the OEM fill-to-purge sequence.",
+      "source_pdf_pages": [
+        162,
+        163
+      ],
+      "verification": [
+        "left: More-than-ten pumping cycles; full-compression purge; overflow drained; smooth damper motion verified."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=162",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=163"
+      ],
+      "depends_on": [
+        "left-base-torque"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "left-seal-stack",
+      "title": "Left fork: install the seal and bushing stack",
+      "instruction": "Oil the inner tube with fork oil and protect its sharp seal-entry area with oiled vinyl film. Apply lithium-soap-based grease to dust- and oil-seal lips. Fit the new dust seal, stopper ring, new oil seal, washer and new slide metal in the PDF 163 order. The oil seal numbered face points downward. Remove the protective film after the seal passes the sharp area.",
+      "source_pdf_pages": [
+        163
+      ],
+      "verification": [
+        "left: New seal stack ordered and oriented as shown; lips protected/greased; film removed."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=163"
+      ],
+      "depends_on": [
+        "left-purge"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "left-tubes",
+      "title": "Left fork: assemble and seat the bushings and seal",
+      "instruction": "Install new piston metal in its inner-tube groove. Slide on the outer tube. Use fork-seal driver 90890-01502 / YM-A 0948 (48) to seat the slide metal through its washer, then seat the oil seal until the stopper-ring groove is fully visible. Seat the ring completely in that groove.",
+      "source_pdf_pages": [
+        163,
+        164
+      ],
+      "verification": [
+        "left: New piston/slide metal seated; oil seal seated; stopper ring fully engaged."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=163",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=164"
+      ],
+      "depends_on": [
+        "left-seal-stack"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "left-dust",
+      "title": "Left fork: seat the scraper and dust seal",
+      "instruction": "Apply lithium-soap-based grease to the indicated inner-tube area and seat the new dust seal as illustrated. Slide the tubes to verify smooth movement. Binding or rough spots require correction and repetition of the tube/seal assembly checks; no separate scraper is installed.",
+      "source_pdf_pages": [
+        164
+      ],
+      "verification": [
+        "left: Dust seal seated; tube movement smooth."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=164"
+      ],
+      "depends_on": [
+        "left-tubes"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "left-spring",
+      "title": "Left fork: set the locknut position and spring stack",
+      "instruction": "Measure from the damper-assembly bottom to the locknut bottom exactly as shown; adjust the locknut until that distance is at least 16 mm. Install the upper spring seat with its larger-diameter end facing the spring, then the spring. Lower the damper assembly slowly into the inner tube until it contacts the bottom; do not drop it.",
+      "source_pdf_pages": [
+        164,
+        165
+      ],
+      "verification": [
+        "left: At least16 mm recorded; spring seat faces spring; cartridge lowered without impact."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=164",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=165"
+      ],
+      "depends_on": [
+        "left-dust"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "left-adjuster",
+      "title": "Left fork: fit the rod, washer and adjuster",
+      "instruction": "Record and fully loosen the rebound control. Compress the inner tube and position the ring wrench under the locknut as illustrated. Fit the damper adjusting rod, new copper washer and adjuster. Finger-tighten the adjuster fully onto the damper rod. Before torquing, measure the gap between adjuster and locknut: it must be 0.5–1.0 mm. Correct the locknut/adjuster position if outside that range.",
+      "source_pdf_pages": [
+        165,
+        166
+      ],
+      "verification": [
+        "left: Rebound fully loosened; rod/new washer fitted; gap0.5–1.0 mm recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=165",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=166"
+      ],
+      "depends_on": [
+        "left-spring"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "left-adjuster-torque",
+      "title": "Left fork: tighten both adjuster joints",
+      "instruction": "Hold the locknut and tighten the adjuster-to-damper joint to 29 N·m. Release the supporting tool under controlled spring load. Apply the specified LOCTITE locking agent to the adjuster-to-inner-tube thread shown on page 166, then tighten that joint to 55 N·m. The OEM does not identify a LOCTITE grade or cure time here; record the actual product used and follow its application instructions without treating an invented grade as an OEM value.",
+      "source_pdf_pages": [
+        166
+      ],
+      "verification": [
+        "left: Rod joint29 N·m; inner-tube joint55 N·m; locking agent recorded; supporting tool removed."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=166"
+      ],
+      "depends_on": [
+        "left-adjuster"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "left-outer-fill",
+      "title": "Left fork: fill the separate outer chamber",
+      "instruction": "Measure and add 295 cm³ of Yamaha Suspension Oil S1 to the outer fork chamber. This is separate from the earlier 216 cm³ cartridge fill. Use the same standard quantity in both legs. Temporarily thread the damper assembly into the outer tube and refit the protector guide. Final top tightening follows during bike refit.",
+      "source_pdf_pages": [
+        166
+      ],
+      "verification": [
+        "left: Outer S1 fill295 cm³ recorded; damper temporarily threaded; guide fitted."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=166"
+      ],
+      "depends_on": [
+        "left-adjuster-torque"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "right-drain",
+      "title": "Right fork: open and drain the outer chamber",
+      "instruction": "Keep parts identified by side. Unscrew the already-loosened damper assembly from the outer tube and drain the outer fork oil into a suitable container. Preserve the spring, upper spring seat and adjusting rod as each is freed; use the exploded view to maintain their order.",
+      "source_pdf_pages": [
+        157,
+        158
+      ],
+      "verification": [
+        "right: Outer oil drained; left/right parts remain separate."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=157",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=158"
+      ],
+      "depends_on": [
+        "left-outer-fill"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "right-bottom",
+      "title": "Right fork: detach the lower adjuster",
+      "instruction": "Loosen the lower adjuster from the inner tube. Compress the inner tube and support the exposed rod locknut with the cap-bolt ring wrench positioned between tube and locknut as illustrated. Hold the locknut while unscrewing the adjuster from the rod. Retain the adjusting rod and old sealing washer for identification. Never remove the rod locknut: the rod can disappear into the cartridge.",
+      "source_pdf_pages": [
+        158,
+        165,
+        166
+      ],
+      "verification": [
+        "right: Adjuster detached with locknut retained; rod supported; old washer identified."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=158",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=165",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=166"
+      ],
+      "depends_on": [
+        "right-drain"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "right-cartridge",
+      "title": "Right fork: remove cartridge and spring",
+      "instruction": "With the lower adjuster detached, release the supported spring load under control and withdraw the damper assembly, upper spring seat and fork spring. Keep the spring seat orientation identified. Keep the damper-rod locknut installed.",
+      "source_pdf_pages": [
+        157,
+        158
+      ],
+      "verification": [
+        "right: Damper/spring/seat removed and identified; locknut remains installed."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=157",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=158"
+      ],
+      "depends_on": [
+        "right-bottom"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "right-split",
+      "title": "Right fork: separate the fork tubes",
+      "instruction": "Carefully lift the dust seal and remove the stopper ring without scratching the inner tube. Slowly push the inner tube almost to bottom, then pull it back quickly as illustrated; repeat until the tubes separate. Remove the old piston metal, slide metal, oil seal and dust seal. Retain the reusable washer, stopper ring and protector guide in order. This exact-year stack has no separate scraper.",
+      "source_pdf_pages": [
+        157,
+        159
+      ],
+      "verification": [
+        "right: Tubes separated without damage; renewal items separated from reusable hardware."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=157",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=159"
+      ],
+      "depends_on": [
+        "right-cartridge"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "right-base-remove",
+      "title": "Right fork: open the damper oil chamber",
+      "instruction": "Record the compression setting, then fully loosen that adjuster. Hold the damper with ring wrench90890-01501 and remove the intact base valve using cap wrench90890-01500/YM-01500. Drain damper oil. Leave the compression adjuster and valve internals assembled; no knob-screw or shim-stack dismantling is part of this2022 operation.",
+      "source_pdf_pages": [
+        159,
+        161
+      ],
+      "verification": [
+        "right: Compression control fully loosened; cartridge drained; valve assembly intact."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=159",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=161"
+      ],
+      "depends_on": [
+        "right-split"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "right-inspect",
+      "title": "Right fork: inspect tubes, spring and damper",
+      "instruction": "Check the inner tube, oil-lock piece, outer tube and damper for damage. Measure inner-tube bend with a dial gauge: bending is half the total reading and must not exceed 0.2 mm. The fork-spring free-length limit is 492.0 mm. Record both measurements. A bent tube, damaged oil-lock piece, worn outer tube or damaged damper needs replacement; do not straighten a bent tube.",
+      "source_pdf_pages": [
+        159,
+        160
+      ],
+      "verification": [
+        "right: Bend and spring length recorded; damaged/out-of-limit components replaced before assembly."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=159",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=160"
+      ],
+      "depends_on": [
+        "right-base-remove"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "right-renew",
+      "title": "Right fork: renew the disturbed seals",
+      "instruction": "Clean components and inspect the base valve, its spring/bushing, bleed screw, upper spring-seat contact face and adjuster. Failed valve/damper internals need separate component replacement; do not alter them within this service. Renew each disturbed NEW-marked external O-ring at its exact original groove using PDF 157 and PDF 160. Match each replacement before removing the next old seal and record each location. Keep the bleed screw, pressure spring and valve stacks assembled; no gas-charge work is included.",
+      "source_pdf_pages": [
+        8,
+        157,
+        160,
+        161
+      ],
+      "verification": [
+        "right: Each disturbed seal matched to its illustrated location and renewed; all assemblies clean and serviceable."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=8",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=157",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=160",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=161"
+      ],
+      "depends_on": [
+        "right-inspect"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "right-fill",
+      "title": "Right fork: fill the damper chamber",
+      "instruction": "Fully extend the damper assembly. Measure and add 216 cm³ of Yamaha Suspension Oil S1 to the damper chamber. This is the initial cartridge fill, not the outer fork fill.",
+      "source_pdf_pages": [
+        161
+      ],
+      "verification": [
+        "right: S1 initial damper fill216 cm³ recorded; damper fully extended."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=161"
+      ],
+      "depends_on": [
+        "right-renew"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "right-bleed",
+      "title": "Right fork: bleed slowly with short strokes",
+      "instruction": "Pump the damper slowly several times to remove air, using strokes below 200 mm. Do not use 200 mm or more or a full stroke during this initial bleed: the manual warns that this draws air in. If air enters, repeat the full-extension, fill and initial-bleed sequence before continuing.",
+      "source_pdf_pages": [
+        161
+      ],
+      "verification": [
+        "right: Slow sub-200 mm bleed completed without drawing air; repeat performed if needed."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=161"
+      ],
+      "depends_on": [
+        "right-fill"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "right-level",
+      "title": "Right fork: set cartridge oil level",
+      "instruction": "Fully extend the damper and measure oil level from its top as shown. Adjust to 145–148 mm, matching the other fork leg. Fully finger-tighten the rod locknut onto the damper assembly; do not remove it.",
+      "source_pdf_pages": [
+        161
+      ],
+      "verification": [
+        "right: Level145–148 mm recorded from illustrated top datum; rod locknut finger-tight."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=161"
+      ],
+      "depends_on": [
+        "right-bleed"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "right-base-seat",
+      "title": "Right fork: seat the base valve using the source motion",
+      "instruction": "Confirm the compression damping adjuster remains fully loosened before installation as Yamaha requires. Load the damper rod to the maximum described by Yamaha, then install the base valve while releasing rod pressure, following the page 162 diagram. This is a manual loading/release operation, not a gas charge; do not add air or nitrogen. The source specifies no numerical force or complete rod-motion direction. Verify the damper is fully extended after seating; if not, repeat full extension, fill, bleed, level and seating before fastening.",
+      "source_pdf_pages": [
+        161,
+        162
+      ],
+      "verification": [
+        "right: OEM seating motion followed; damper fully extended; no external charge."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=161",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=162"
+      ],
+      "depends_on": [
+        "right-level"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "right-base-torque",
+      "title": "Right fork: secure the base valve and knob",
+      "instruction": "Hold the damper with ring wrench90890-01501 and use cap wrench90890-01500/YM-01500 to tighten the base valve to28 N·m. The compression adjuster remains fully loosened until final setting restoration.",
+      "source_pdf_pages": [
+        162
+      ],
+      "verification": [
+        "Base valve28 N·m recorded; compression adjuster remains fully loosened."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=162"
+      ],
+      "depends_on": [
+        "right-base-seat"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "right-purge",
+      "title": "Right fork: distribute oil and purge the excess",
+      "instruction": "Slowly pump the assembled damper more than ten times. Protect the rod end with a cloth as shown and fully compress the assembly to expel excess oil at the base-valve side. Drain overflow through the illustrated hole. About 10 cm³ overflow is an observation, not a dosing amount to subtract manually. Verify smooth travel; binding or rough spots require repeating the OEM fill-to-purge sequence.",
+      "source_pdf_pages": [
+        162,
+        163
+      ],
+      "verification": [
+        "right: More-than-ten pumping cycles; full-compression purge; overflow drained; smooth damper motion verified."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=162",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=163"
+      ],
+      "depends_on": [
+        "right-base-torque"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "right-seal-stack",
+      "title": "Right fork: install the seal and bushing stack",
+      "instruction": "Oil the inner tube with fork oil and protect its sharp seal-entry area with oiled vinyl film. Apply lithium-soap-based grease to dust- and oil-seal lips. Fit the new dust seal, stopper ring, new oil seal, washer and new slide metal in the PDF 163 order. The oil seal numbered face points downward. Remove the protective film after the seal passes the sharp area.",
+      "source_pdf_pages": [
+        163
+      ],
+      "verification": [
+        "right: New seal stack ordered and oriented as shown; lips protected/greased; film removed."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=163"
+      ],
+      "depends_on": [
+        "right-purge"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "right-tubes",
+      "title": "Right fork: assemble and seat the bushings and seal",
+      "instruction": "Install new piston metal in its inner-tube groove. Slide on the outer tube. Use fork-seal driver 90890-01502 / YM-A 0948 (48) to seat the slide metal through its washer, then seat the oil seal until the stopper-ring groove is fully visible. Seat the ring completely in that groove.",
+      "source_pdf_pages": [
+        163,
+        164
+      ],
+      "verification": [
+        "right: New piston/slide metal seated; oil seal seated; stopper ring fully engaged."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=163",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=164"
+      ],
+      "depends_on": [
+        "right-seal-stack"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "right-dust",
+      "title": "Right fork: seat the scraper and dust seal",
+      "instruction": "Apply lithium-soap-based grease to the indicated inner-tube area and seat the new dust seal as illustrated. Slide the tubes to verify smooth movement. Binding or rough spots require correction and repetition of the tube/seal assembly checks; no separate scraper is installed.",
+      "source_pdf_pages": [
+        164
+      ],
+      "verification": [
+        "right: Dust seal seated; tube movement smooth."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=164"
+      ],
+      "depends_on": [
+        "right-tubes"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "right-spring",
+      "title": "Right fork: set the locknut position and spring stack",
+      "instruction": "Measure from the damper-assembly bottom to the locknut bottom exactly as shown; adjust the locknut until that distance is at least 16 mm. Install the upper spring seat with its larger-diameter end facing the spring, then the spring. Lower the damper assembly slowly into the inner tube until it contacts the bottom; do not drop it.",
+      "source_pdf_pages": [
+        164,
+        165
+      ],
+      "verification": [
+        "right: At least16 mm recorded; spring seat faces spring; cartridge lowered without impact."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=164",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=165"
+      ],
+      "depends_on": [
+        "right-dust"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "right-adjuster",
+      "title": "Right fork: fit the rod, washer and adjuster",
+      "instruction": "Record and fully loosen the rebound control. Compress the inner tube and position the ring wrench under the locknut as illustrated. Fit the damper adjusting rod, new copper washer and adjuster. Finger-tighten the adjuster fully onto the damper rod. Before torquing, measure the gap between adjuster and locknut: it must be 0.5–1.0 mm. Correct the locknut/adjuster position if outside that range.",
+      "source_pdf_pages": [
+        165,
+        166
+      ],
+      "verification": [
+        "right: Rebound fully loosened; rod/new washer fitted; gap0.5–1.0 mm recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=165",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=166"
+      ],
+      "depends_on": [
+        "right-spring"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "right-adjuster-torque",
+      "title": "Right fork: tighten both adjuster joints",
+      "instruction": "Hold the locknut and tighten the adjuster-to-damper joint to 29 N·m. Release the supporting tool under controlled spring load. Apply the specified LOCTITE locking agent to the adjuster-to-inner-tube thread shown on page 166, then tighten that joint to 55 N·m. The OEM does not identify a LOCTITE grade or cure time here; record the actual product used and follow its application instructions without treating an invented grade as an OEM value.",
+      "source_pdf_pages": [
+        166
+      ],
+      "verification": [
+        "right: Rod joint29 N·m; inner-tube joint55 N·m; locking agent recorded; supporting tool removed."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=166"
+      ],
+      "depends_on": [
+        "right-adjuster"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "right-outer-fill",
+      "title": "Right fork: fill the separate outer chamber",
+      "instruction": "Measure and add 295 cm³ of Yamaha Suspension Oil S1 to the outer fork chamber. This is separate from the earlier 216 cm³ cartridge fill. Use the same standard quantity in both legs. Temporarily thread the damper assembly into the outer tube and refit the protector guide. Final top tightening follows during bike refit.",
+      "source_pdf_pages": [
+        166
+      ],
+      "verification": [
+        "right: Outer S1 fill295 cm³ recorded; damper temporarily threaded; guide fitted."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=166"
+      ],
+      "depends_on": [
+        "right-adjuster-torque"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations."
+    },
+    {
+      "id": "legs-refit",
+      "title": "Refit and secure the top assemblies",
+      "instruction": "Slide each leg back into its clamps. Temporarily secure it with the lower pinch bolts while leaving the upper pinch bolts loose. Tighten the damper assembly at the top to 30 N·m with the cap ring wrench. Set both supported fork legs to the standard5mm outer-tube projection shown before refitting the handlebar assembly.",
+      "depends_on": [
+        "right-outer-fill"
+      ],
+      "source_pdf_pages": [
+        167
+      ],
+      "verification": [
+        "Legs supported; top damper assemblies 30 N·m; upper clamps still loose."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=167"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "bars-refit",
+      "title": "Restore the handlebar holders",
+      "instruction": "After both damper caps are tightened and5mm fork projection is set, restore the four dampers and lower holders with the intact bar assembly. For this stock-position route, the longer distance from mounting-bolt center faces rearward as shown. Seat the original washers and tighten both lower-holder nuts to40 N·m. Keep the undisturbed upper clamps and bar alignment unchanged. Check full left/right steering for tank contact and cable/hose tension before proceeding.",
+      "depends_on": [
+        "legs-refit"
+      ],
+      "source_pdf_pages": [
+        150,
+        151,
+        152,
+        167
+      ],
+      "verification": [
+        "Dampers/holders correctly seated; both nuts40Nm; controls clear through steering."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=150",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=151",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=152",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=167"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "height-clamps",
+      "title": "Set height and tighten the clamps",
+      "instruction": "With each leg supported, set its outer-tube top projection to 5 mm using the exact source-diagram reference. Match both sides. Tighten upper and lower clamp pinch bolts to 21 N·m; do not overtorque the lower clamps.",
+      "depends_on": [
+        "bars-refit"
+      ],
+      "source_pdf_pages": [
+        167,
+        168
+      ],
+      "verification": [
+        "Both projections 5 mm; all upper/lower pinch bolts 21 N·m."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=167",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=168"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "guards-brake",
+      "title": "Restore protectors and brake mounts",
+      "instruction": "Refit the protectors at 5 N·m per bolt. Refit the complete caliper to the fork and tighten its two mount bolts to 28 N·m. Align the upper end of the hose holder with the hose paint mark and tighten its bolts to 9 N·m, preserving the original routing.",
+      "depends_on": [
+        "height-clamps"
+      ],
+      "source_pdf_pages": [
+        127,
+        132,
+        134,
+        168
+      ],
+      "verification": [
+        "Protectors 7 / caliper 28 / hose-holder 9 N·m; hose aligned and unstressed."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=127",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=132",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=134",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=168"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "wheel-refit",
+      "title": "Install the wheel and axle",
+      "instruction": "Apply lithium-soap grease to the axle and wheel oil-seal lips. Put the side-specific collars back, lift the wheel into place with the disc correctly between the pads, and insert the axle. Thread the axle nut on by hand; leave its final tightening and the axle pinch bolts for the seating step.",
+      "depends_on": [
+        "guards-brake"
+      ],
+      "source_pdf_pages": [
+        121
+      ],
+      "verification": [
+        "Collars correct; disc between pads; axle inserted; nut retained; final torques pending."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=121"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "seat-torque",
+      "title": "Seat the forks before final axle tightening",
+      "instruction": "With the bike securely supported on its wheels, push down on the handlebars several times and confirm smooth fork rebound before final axle-nut tightening, as Yamaha specifies. Tighten the axle nut to 115 N·m, then all four axle pinch bolts to 21 N·m. This is a stationary seating operation, not permission to ride with loose axle hardware.",
+      "depends_on": [
+        "wheel-refit"
+      ],
+      "source_pdf_pages": [
+        122
+      ],
+      "verification": [
+        "Smooth rebound before nut torque; axle nut 115 N·m; four axle pinch bolts 21 N·m."
+      ],
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=122"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "plate-settings",
+      "title": "Restore guides and settings",
+      "instruction": "Engage the lower-bracket projection in the number plate, restore the clutch cable in its guide and fit the plate projection into the upper hole of its band. Tighten the number-plate bolt to7 N·m. Restore each recorded rebound and compression setting from gently seated full hard; confirm both legs match the intended setup.",
+      "depends_on": [
+        "seat-torque"
+      ],
+      "source_pdf_pages": [
+        116,
+        117,
+        168
+      ],
+      "verification": [
+        "Plate 7 N·m; both guides used; original damping settings logged and restored."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=116",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=117",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=168"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "verify",
+      "title": "Check the completed installation",
+      "instruction": "Check wheel rotation, smooth fork movement, hose clearance through steering travel and firm normal front-brake operation. Recheck your recorded hardware torques and matched projection. Save the oil quantities, measured gaps, replaced components, locking agent, torque records and final checks for both legs. Any binding, leak or soft brake remains a fault requiring correction before use.",
+      "depends_on": [
+        "plate-settings"
+      ],
+      "source_pdf_pages": [
+        122,
+        132,
+        134,
+        168
+      ],
+      "verification": [
+        "Both serviced fork legs, wheel, brake and routing checks recorded; no leaks/binding; unresolved faults remain open."
+      ],
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=122",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=132",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=134",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=168"
+      ],
+      "origin": "Exact2022 B2W service with supported closed-caliper and intact-handlebar workflow adaptations.",
+      "record_required": true
+    }
+  ],
+  "publication_status": "APPROVED",
+  "component": "fork",
+  "preflight": [
+    "Exact stock applicability and original controls recorded.",
+    "Correct individually matched renewals available for both legs; kit contents need not be assumed.",
+    "Tools accurate for1.3–115 N·m touched joints available.",
+    "Clean service area and secure bike support; mechanical source diagrams accessible.",
+    "Operator can execute illustrated cartridge hand-pressure seating technique; no gas charging performed."
+  ],
+  "affected_components": [
+    "fork",
+    "suspension",
+    "clamps",
+    "triple_clamps",
+    "front_wheel",
+    "wheels",
+    "front_brake",
+    "brakes",
+    "handlebar",
+    "controls"
+  ],
+  "entry_state": [
+    "Assembled exact-stock bike; front brake closed and working; fork settings/height can be recorded."
+  ],
+  "exit_state": [
+    "Both fork legs serviced and refitted; matched standard oil fills and5 mm height, original damping settings restored, wheel/brake and functional checks recorded.",
+    "Damper-rod seals, valve stacks and internal pressure spring retained; replacement/machining of damaged major components outside scope."
+  ],
+  "authoring_template": {
+    "path": "docs/research/workshop-pass11/yamaha-2023-suspension/fork-oil-seals-bushings-v1.procedure.json",
+    "sha256": "30483874e1654a6584269fe96eb08d7a9ced059c8d2e09a76ee8fa0adbe933f6",
+    "scope": "Structure only; exact2022 B2W mechanics independently reviewed."
+  },
+  "operation_dependencies": []
+}

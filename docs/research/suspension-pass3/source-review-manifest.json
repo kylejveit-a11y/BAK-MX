@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "suspension-pass3-reviewed-procedures",
+  "reviewed_at": "2026-09-13",
+  "database_writes": false,
+  "sources": [
+    {
+      "id": "yamaha26",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+      "local_pdf_path": "C:/Users/kylej/AppData/Local/Temp/D03-2819U-10_02.pdf",
+      "sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd"
+    },
+    {
+      "id": "beta23",
+      "url": "https://store-peenhlhyij.mybigcommerce.com/content/Suspension%20KYB%20RCU%202023%20manual%20final.pdf",
+      "local_pdf_path": "C:/Users/kylej/AppData/Local/Temp/beta-kyb-shock-2023.pdf",
+      "sha256": "ef4732d9104a2307664b2c781b161831f9d4b8613fbeadda77a99f3cc36bfd21"
+    },
+    {
+      "id": "rt-body",
+      "url": "https://racetech.com/ip-sk-rebuild-std/",
+      "local_source_path": "C:/Users/kylej/AppData/Local/Temp/rt-body-review.html",
+      "sha256": "880293ec3b1aa20e44b97a08ae215091d6de11705f0c28432bc37a45b03d312f"
+    },
+    {
+      "id": "rt-shaft",
+      "url": "https://old.racetech.com/PAGE/TITLE/IP%20SK%20VALVING%20STD",
+      "local_source_path": "C:/Users/kylej/AppData/Local/Temp/rt-shaft-review.html",
+      "sha256": "f95bef4fc36c4f43a509379927bf744bebd0124dd3b19e64f66253b4e1e58ee2"
+    },
+    {
+      "id": "rt-sealhead",
+      "url": "https://old.racetech.com/page/title/IP%20SK%20SEAL%20HEAD%20REBUILD",
+      "local_source_path": "C:/Users/kylej/AppData/Local/Temp/rt-sealhead-review.html",
+      "sha256": "c9cf7653de475c379daaff5a418093e84d3f23e64d352b2daf477eb8d5a6a11e"
+    },
+    {
+      "id": "beta-fit-2023",
+      "url": "https://betabyob.com/content/SUPPORT_PDF%27s/2023%20RR%20Racing%20%20RX%20models%20release%20-%20Public.pdf",
+      "local_source_path": "C:/Users/kylej/AppData/Local/Temp/beta-2023-race-release.pdf",
+      "sha256": "5a73b5fe83969a23b08e17b28e9339e3f3be4f02cffafce8dd660f9654f5e192"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "fork-oil-seals-bushings-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "a56e694f6a86961b4dfb1cadc2701df96506d6af9fcceae89ed39eb948fffff2",
+      "source_id": "yamaha26",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "validate_review.py",
+      "kind": "validator",
+      "sha256": "17829596eed685f759b9d705d5a0165dc68e35f235799d303d2e48cd70b1e375"
+    },
+    {
+      "path": "beta-2023-c46-bench-rebuild-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "c78129b46dd47858453a2b056c975677da47c57cfefc5d4a1d161269b50ce911",
+      "source_id": "beta23",
+      "target": {
+        "manufacturer": "Beta",
+        "model": "300 RR",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "Race Edition"
+      }
+    }
+  ]
+}

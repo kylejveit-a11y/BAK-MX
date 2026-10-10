@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED",
+  "author_review_manifest": {
+    "path": "docs/research/workshop-pass13/yamaha-fx-wr/remaining-source-review-manifest.json",
+    "sha256": "bc4e3edde3431826bf31c64f7c859fabdb46324f5fb0cf4ac8ea21b1f54e6b90"
+  },
+  "sources": [
+    {
+      "id": "yamaha-us-2027-yz250fx-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/DP3-2819U-11_02.pdf",
+      "sha256": "42a9d1a05ec9d213d2f06bc2f5c854dd09a4ebc76bdbdd9d08d1a643e6d65362",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\bakmx-pass13\\DP3-2819U-11.pdf"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "fork-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2027-yz250fx-oem",
+      "sha256": "5fefdcea6c71ce43265d523cda306b41451143b3a7aeef7dff099660cb984997",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250FX",
+        "model_year": 2027,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 6
+    },
+    {
+      "path": "shock-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2027-yz250fx-oem",
+      "sha256": "dc0a3da11e5bd61f4e53f5a7267ddd4742517a24221de47e98448d46941eb5f2",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250FX",
+        "model_year": 2027,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 6
+    },
+    {
+      "path": "rider-sag-preload-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2027-yz250fx-oem",
+      "sha256": "e8f7c4bae33070f4f98ffdedaaf9cba0e5b12baa3b7b73964cbe7c42c71593fc",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250FX",
+        "model_year": 2027,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 7
+    }
+  ]
+}

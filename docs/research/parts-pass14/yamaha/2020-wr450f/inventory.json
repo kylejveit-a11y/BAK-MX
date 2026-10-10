@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "target": {
+    "manufacturer": "Yamaha",
+    "year": 2020,
+    "model": "WR450F",
+    "region": "US",
+    "variant": "standard"
+  },
+  "source": "MotoSport public OEM catalog",
+  "index_url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f",
+  "index_sha256": "e93fb7d442bad81a36963b285379e3e228d339d6c3e582f4485436066bc87dd4",
+  "scope": "Retail catalog occurrence inventory; not mechanical instructions or whole-bike BOM quantities.",
+  "status": "PARTIAL",
+  "counts": {
+    "indexed_assemblies": 46,
+    "captured_assemblies": 0,
+    "occurrences": 0,
+    "unique_part_numbers": 0,
+    "explicit_catalog_quantities": 0,
+    "supersession_rows": 0
+  },
+  "missing": [
+    {
+      "name": "1 TITLE PAGE",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/1-title-page"
+    },
+    {
+      "name": "AIR INDUCTION SYSTEM",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/air-induction-system"
+    },
+    {
+      "name": "ALTERNATE FOR CHASSIS",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/alternate-for-chassis"
+    },
+    {
+      "name": "CAMSHAFT CHAIN",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/camshaft-chain"
+    },
+    {
+      "name": "CLUTCH",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/clutch"
+    },
+    {
+      "name": "CRANKCASE",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/crankcase"
+    },
+    {
+      "name": "CRANKCASE COVER 1",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/crankcase-cover-1"
+    },
+    {
+      "name": "CRANKSHAFT PISTON",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/crankshaft-piston"
+    },
+    {
+      "name": "CYLINDER",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/cylinder"
+    },
+    {
+      "name": "ELECTRICAL 1",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/electrical-1"
+    },
+    {
+      "name": "ELECTRICAL 2",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/electrical-2"
+    },
+    {
+      "name": "EXHAUST",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/exhaust"
+    },
+    {
+      "name": "FENDER",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/fender"
+    },
+    {
+      "name": "FRAME",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/frame"
+    },
+    {
+      "name": "FRONT BRAKE CALIPER",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/front-brake-caliper"
+    },
+    {
+      "name": "FRONT FORK",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/front-fork"
+    },
+    {
+      "name": "FRONT MASTER CYLINDER",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/front-master-cylinder"
+    },
+    {
+      "name": "FRONT WHEEL",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/front-wheel"
+    },
+    {
+      "name": "FUEL TANK",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/fuel-tank"
+    },
+    {
+      "name": "GENERATOR",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/generator"
+    },
+    {
+      "name": "HANDLE SWITCH LEVER",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/handle-switch-lever"
+    },
+    {
+      "name": "HEADLIGHT",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/headlight"
+    },
+    {
+      "name": "INTAKE",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/intake"
+    },
+    {
+      "name": "INTAKE 2",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/intake-2"
+    },
+    {
+      "name": "METER",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/meter"
+    },
+    {
+      "name": "OIL CLEANER",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/oil-cleaner"
+    },
+    {
+      "name": "OIL PUMP",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/oil-pump"
+    },
+    {
+      "name": "RADIATOR HOSE",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/radiator-hose"
+    },
+    {
+      "name": "REAR ARM",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/rear-arm"
+    },
+    {
+      "name": "REAR BRAKE CALIPER",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/rear-brake-caliper"
+    },
+    {
+      "name": "REAR MASTER CYLINDER",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/rear-master-cylinder"
+    },
+    {
+      "name": "REAR SUSPENSION",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/rear-suspension"
+    },
+    {
+      "name": "REAR WHEEL",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/rear-wheel"
+    },
+    {
+      "name": "SEAT",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/seat"
+    },
+    {
+      "name": "SHIFT CAM FORK",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/shift-cam-fork"
+    },
+    {
+      "name": "SHIFT SHAFT",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/shift-shaft"
+    },
+    {
+      "name": "SIDE COVER",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/side-cover"
+    },
+    {
+      "name": "STAND FOOTREST",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/stand-footrest"
+    },
+    {
+      "name": "STARTER CLUTCH",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/starter-clutch"
+    },
+    {
+      "name": "STARTING MOTOR",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/starting-motor"
+    },
+    {
+      "name": "STEERING",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/steering"
+    },
+    {
+      "name": "STEERING HANDLE CABLE",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/steering-handle-cable"
+    },
+    {
+      "name": "TAILLIGHT",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/taillight"
+    },
+    {
+      "name": "TRANSMISSION",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/transmission"
+    },
+    {
+      "name": "VALVE",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/valve"
+    },
+    {
+      "name": "WATER PUMP",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2020/wr450f/water-pump"
+    }
+  ],
+  "errors": [],
+  "assemblies": []
+}

@@ -1,0 +1,475 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2026-yz450f-us-clutch-hydraulic-service-v1",
+  "component": "clutch",
+  "affected_components": [
+    "clutch",
+    "clutch_master",
+    "clutch_release",
+    "clutch_hose",
+    "handlebar"
+  ],
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Service the clutch hydraulics",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete hydraulic-circuit service using a new master-cylinder kit and a complete replacement release cylinder, with both hose ends disconnected, cleaned and refilled. Does not rebuild release-cylinder internals or service clutch plates.",
+  "entry_state": [
+    "Assembled exact US2026 stock YZ450F; engine stopped and cool.",
+    "Serviceable mechanical clutch, pushrod and engine-side oil seal; exact master kit and complete replacement release cylinder available."
+  ],
+  "exit_state": [
+    "Master kit renewed; replacement release cylinder fitted with new mounting seal; circuit cleaned and connected.",
+    "Clutch fluid at its baseline, circuit bled and closed, lever/routing/operation checked."
+  ],
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10_02",
+    "pdf_pages": [
+      7,
+      90,
+      99,
+      100,
+      101,
+      164,
+      196,
+      252,
+      253,
+      254,
+      257,
+      261,
+      262,
+      263
+    ],
+    "printed_pages": [
+      "Unnumbered symbols legend (PDF 7)",
+      "3-6",
+      "3-15",
+      "3-16",
+      "3-17",
+      "4-42",
+      "4-74",
+      "5-49",
+      "5-50",
+      "5-51",
+      "5-54",
+      "5-58",
+      "5-59",
+      "5-60"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Visual252/253/101 and prior approved release access254/257. Entire circuit disconnected/cleaned as261, complete release replacement because262–263 contains no internal rebuild. DOT4 level is clutch baseline100, not brake minimum. Kit orientation requires original253 diagram. Independent reviewer yamaha_workshop_evidence approved all 15 steps against visual PDF100/252/253/257/262/263 and text99–101/252–254/257/261–263, plus inherited release closure. Required printed-page metadata correction applied; no mechanical content changed."
+  },
+  "applicability": {
+    "included": "Stock hydraulic clutch on exact US2026 YZ450F",
+    "excluded": [
+      "Other years and aftermarket hydraulic systems",
+      "Release-cylinder internal piston/seal overhaul",
+      "Mechanical clutch plates or pushrod/oil-seal repair"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "required_tools": [
+    {
+      "name": "Stable stand, clean containers, hand and retaining-ring tools",
+      "size": "Match stock hardware"
+    },
+    {
+      "name": "Precision torque tools",
+      "size": "1.5–30 Nm"
+    },
+    {
+      "name": "Clear bleed hose and waste container",
+      "size": "Match clutch release bleeder"
+    },
+    {
+      "name": "Compressed air and eye protection",
+      "size": "Clear blocked master passages"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "Exact new clutch master-cylinder kit",
+      "purpose": "Diagram253 kit including new piston seals"
+    },
+    {
+      "name": "Complete exact stock replacement release cylinder",
+      "purpose": "Assembly replacement; no internal rebuild instructions asserted"
+    },
+    {
+      "name": "New release-cylinder mounting O-ring",
+      "purpose": "Engine interface"
+    },
+    {
+      "name": "Four new copper hose union washers",
+      "purpose": "Two at each disconnected hose end"
+    },
+    {
+      "name": "Fresh DOT4 clutch fluid",
+      "purpose": "Clean, lubricate and refill entire hydraulic circuit"
+    },
+    {
+      "name": "Silicone grease",
+      "purpose": "Source-marked master pushrod/lever and release mounting seal/contact"
+    },
+    {
+      "name": "LOCTITE locking agent",
+      "purpose": "Release mounting bolts; OEM does not specify product grade"
+    }
+  ],
+  "preflight": [
+    "Keep exact kit/union/level diagrams available.",
+    "Yamaha recommends renewing friction and clutch plates when changing clutch fluid; plate service is a separate operation.",
+    "Protect surfaces/eyes; do not operate clutch with release unit unbolted."
+  ],
+  "critical_stop_conditions": [
+    "Mechanical clutch wear/fault outside hydraulic scope.",
+    "Damaged master/hose, uncertain kit orientation or unseated retention.",
+    "Persistent leak, soft lever or abnormal clutch operation."
+  ],
+  "steps": [
+    {
+      "id": "prepare",
+      "title": "Prepare hydraulic service",
+      "instruction": "Stop/cool engine and support bike on level ground. Clean release-cylinder area and protect surfaces. Check fluid at horizontal master: above baseline requires friction-plate wear inspection, below baseline requires leak inspection before treating this as hydraulic-only work.",
+      "source_pdf_pages": [
+        100,
+        196,
+        254
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=100",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=196",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=254"
+      ],
+      "depends_on": [],
+      "verification": "Mechanical clutch serviceable; fluid history and visible defects recorded.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "drain",
+      "title": "Drain entire circuit",
+      "instruction": "Remove master cap and diaphragm. Put hose/container on release bleeder and drain fluid with clutch lever/bleeder cycle. Disconnect both hose unions and discard all four copper washers, catching residual fluid.",
+      "source_pdf_pages": [
+        100,
+        101,
+        252,
+        261,
+        262
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=100",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=101",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=252",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=261",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=262"
+      ],
+      "depends_on": [
+        "prepare"
+      ],
+      "verification": "Entire circuit drained; no old fluid reused.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "access",
+      "title": "Remove release cylinder",
+      "instruction": "Remove drive-sprocket cover and its two bolts. Unbolt and withdraw release cylinder while retaining interface washer. Leave engine pushrod and its oil seal installed; prevent lever operation with unit off.",
+      "source_pdf_pages": [
+        196,
+        254,
+        257
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=196",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=254",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=257"
+      ],
+      "depends_on": [
+        "drain"
+      ],
+      "verification": "Engine-side rod/seal untouched; mounting area protected from dirt.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "master-off",
+      "title": "Remove master",
+      "instruction": "Remove lever pivot bolt/nut, lever and bushing. Remove master holder and master, retaining paint-mark position and left-switch lead routing.",
+      "source_pdf_pages": [
+        252,
+        261,
+        164
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=252",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=261",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=164"
+      ],
+      "depends_on": [
+        "access"
+      ],
+      "verification": "Hardware identified; adjacent controls/lead undamaged.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "master-strip",
+      "title": "Remove old master kit",
+      "instruction": "Remove boot/pushrod, retaining ring and piston/spring/seals in diagram253 order, controlling spring release. Inspect body for cracks/damage and bore/kit for rust, scratches or wear; damaged master and kit must be replaced together.",
+      "source_pdf_pages": [
+        253,
+        261
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=253",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=261"
+      ],
+      "depends_on": [
+        "master-off"
+      ],
+      "verification": "Record master condition; no damaged bore reused.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "clean",
+      "title": "Clean hydraulic parts",
+      "instruction": "Clean disconnected hose and master internals with fresh DOT4, never solvents. Clear blocked master fluid passages with compressed air. Inspect hose, reservoir and diaphragm; replace damaged parts. Discard drained cleaning fluid.",
+      "source_pdf_pages": [
+        261,
+        262
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=261",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=262"
+      ],
+      "depends_on": [
+        "master-strip"
+      ],
+      "verification": "Clean passages; serviceable hose/reservoir/diaphragm.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "master-kit",
+      "title": "Install new master kit",
+      "instruction": "Lubricate internal kit parts with fresh DOT4. Fit new seals in diagram253 positions/orientations, then spring/piston, retaining ring, pushrod and boot in the illustrated order. Apply silicone grease at the marked pushrod surfaces and verify ring seating.",
+      "source_pdf_pages": [
+        7,
+        253,
+        261
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=7",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=253",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=261"
+      ],
+      "depends_on": [
+        "clean"
+      ],
+      "verification": "Record new seals and diagram-matched orientation/retention.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "master-fit",
+      "title": "Refit master and lever",
+      "instruction": "Fit holder UP upward with its end at handlebar paint mark; restore switch lead through holder. Tighten upper holder bolt first, then lower, both9 Nm. Restore bushing and lever, lubricating marked locations with silicone grease; pivot bolt6 Nm and nut6 Nm.",
+      "source_pdf_pages": [
+        164,
+        252,
+        261,
+        262
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=164",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=252",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=261",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=262"
+      ],
+      "depends_on": [
+        "master-kit"
+      ],
+      "verification": "Record holder alignment/sequence and lever torques.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "release-fit",
+      "title": "Install replacement release cylinder",
+      "instruction": "Fit new mounting O-ring with silicone grease; retain washer in diagram257 position. Grease exposed pushrod-end contact. Seat replacement cylinder without trapping seal. Apply specified LOCTITE treatment to mounting bolts and tighten10 Nm.",
+      "source_pdf_pages": [
+        7,
+        254,
+        257
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=7",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=254",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=257"
+      ],
+      "depends_on": [
+        "master-fit"
+      ],
+      "verification": "Record new O-ring, washer position and10 Nm mounting torque.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "unions",
+      "title": "Connect both hose ends",
+      "instruction": "Use two new copper washers per union. At master, white paint dot faces forward and aligns with body projection. At release, pipe touches its body stop as263. Tighten both union bolts30 Nm; steer both ways to verify hose clearance.",
+      "source_pdf_pages": [
+        262,
+        263
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=262",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=263"
+      ],
+      "depends_on": [
+        "release-fit"
+      ],
+      "verification": "Record four washers, both stop orientations and30 Nm unions.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "fill",
+      "title": "Fill to clutch baseline",
+      "instruction": "With reservoir top horizontal, fill fresh DOT4 to the exact baseline shown on100. Fit diaphragm; avoid overflow or water entry. Connect clear hose securely to release bleeder with outlet in catch container.",
+      "source_pdf_pages": [
+        100,
+        101,
+        262,
+        263
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=100",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=101",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=262",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=263"
+      ],
+      "depends_on": [
+        "unions"
+      ],
+      "verification": "Fluid at clutch baseline; do not substitute brake minimum-mark rule.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "bleed",
+      "title": "Bleed the clutch",
+      "instruction": "Slowly squeeze lever several times, then fully squeeze and hold. Open bleeder; close before releasing lever. Repeat until bubbles disappear, keeping sufficient fluid in reservoir. If tiny bubbles persist, let fluid settle a few hours and repeat.",
+      "source_pdf_pages": [
+        100,
+        101
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=100",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=101"
+      ],
+      "depends_on": [
+        "fill"
+      ],
+      "verification": "Record bubble-free fluid and firm lever response.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "close",
+      "title": "Close hydraulic circuit",
+      "instruction": "Tighten release bleeder5 Nm, refit its cap and restore clutch fluid baseline. Refit diaphragm and cap without overflow; cap screws1.5 Nm. Clean spills. Refit sprocket cover with both bolts7 Nm.",
+      "source_pdf_pages": [
+        100,
+        101,
+        252,
+        254
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=100",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=101",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=252",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=254"
+      ],
+      "depends_on": [
+        "bleed"
+      ],
+      "verification": "Record fluid baseline and closure torques.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "lever",
+      "title": "Set lever position",
+      "instruction": "Push clutch lever forward while turning its adjusting bolt to desired reach, then tighten locknut5 Nm. Check free lever movement and hose clearance at both steering limits.",
+      "source_pdf_pages": [
+        99,
+        100,
+        262
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=99",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=100",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=262"
+      ],
+      "depends_on": [
+        "close"
+      ],
+      "verification": "Record lever adjustment and routing check.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "verify",
+      "title": "Check clutch function",
+      "instruction": "Inspect all hydraulic connections and mounts for leakage/security. Verify normal clutch operation; soft or spongy lever requires further bleeding. Persistent slipping, drag or abnormal operation requires mechanical-clutch diagnosis.",
+      "source_pdf_pages": [
+        90,
+        100,
+        101,
+        262,
+        263
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=90",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=100",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=101",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=262",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=263"
+      ],
+      "depends_on": [
+        "lever"
+      ],
+      "verification": "Record no leaks and normal clutch operation; unresolved faults prevent completion.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    }
+  ],
+  "publication_status": "LOCAL_REVIEW_ONLY_NOT_IMPORTED",
+  "reviewed_at": "2026-09-13"
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "reviewer": "yamaha_workshop_evidence",
+  "decision": "CORRECTIONS_REQUIRED",
+  "reviewed_sha256": "e26877d5f524eecf9bf9a8fae98dc65cf0b012055db2b77cc8f1d7df6dbded76",
+  "visual_pdf_pages": [
+    40,
+    41,
+    98,
+    241,
+    242,
+    244
+  ],
+  "text_pdf_pages": [
+    40,
+    41,
+    42,
+    43,
+    97,
+    98,
+    99,
+    118,
+    119,
+    240,
+    241,
+    242,
+    244
+  ],
+  "findings": [
+    {
+      "id": "tank-clean",
+      "severity": "required",
+      "detail": "PDF41 fuel-tank interior cleaning omitted; add sourced operation or explicit incomplete required dependency before complete post-maintenance claim."
+    },
+    {
+      "id": "torque-order",
+      "severity": "required",
+      "detail": "Final all-joint torque-sheet acceptance precedes body-close reinstalling seat/shroud; reorder closure or split checks."
+    }
+  ],
+  "accepted": [
+    "New-valve30minute/half-throttle source; combined-parts restrictive overlap clearly workflow adaptation",
+    "Oil foreign-material path requires crankcase inspection, no automatic flush/cure",
+    "Generator inspection-only retained rotor/stator/grommet supported by exact in-frame diagrams",
+    "Filter-removal fill0.96L plus final actual level; original60C/ten-second settled check retained"
+  ],
+  "notes": [
+    "PeriodicPDF119clutchlever lithium-soap recommendation differs from assemblyPDF252silicone; keep distinct source conditions."
+  ],
+  "physical_execution": false
+}

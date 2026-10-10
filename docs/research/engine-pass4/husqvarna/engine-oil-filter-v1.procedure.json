@@ -1,0 +1,378 @@
+{
+  "schema_version": 1,
+  "id": "husqvarna-2025-fc450-engine-oil-filter-v1",
+  "component": "engine",
+  "affected_components": [
+    "engine"
+  ],
+  "target": {
+    "manufacturer": "Husqvarna",
+    "model": "FC 450",
+    "model_year": 2025,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Change engine oil and filter",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete warm-drain oil/filter/screen service on an assembled stock FC 450, including refill, leak check and conditional level correction. Entry requires an operating-temperature engine; fault repair is excluded.",
+  "source": {
+    "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+    "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+    "document_revision": "3402805en / 23 January 2025",
+    "pdf_pages": [
+      3,
+      32,
+      33,
+      36,
+      38,
+      133,
+      134,
+      135,
+      136,
+      137
+    ],
+    "printed_pages": [
+      "3",
+      "32",
+      "33",
+      "36",
+      "38",
+      "133",
+      "134",
+      "135",
+      "136",
+      "137"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Exact US F2475Y2 scope from page3. Operation illustrations visually checked133-137, start/stop32-33/36/38. Printed and PDF page numbers match. No FX skid-plate steps inherited."
+  },
+  "applicability": {
+    "included": "Stock US2025 FC450 F2475Y2 with accessible original oil-service fittings.",
+    "excluded": [
+      "Factory Edition, FX450 and other years/markets",
+      "Aftermarket guards requiring separate removal",
+      "Engine teardown or repair of damaged threads, screens, seals or lubrication faults"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "entry_state": [
+    "Assembled bike at operating temperature, engine stopped; normal running condition established before this oil service.",
+    "Exact filter, new drain seal ring, serviceable O-rings and tools ready."
+  ],
+  "exit_state": [
+    "Fresh oil/filter installed, screen cleaned and seated, plugs and cover secured.",
+    "Final temperature-dependent oil level accepted and leak check passed; engine stopped."
+  ],
+  "required_tools": [
+    {
+      "name": "Drain container and measuring container",
+      "size": null
+    },
+    {
+      "name": "Suitable sockets and calibrated torque wrench for10,15,20Nm",
+      "size": null
+    },
+    {
+      "name": "Pin wrench for long-screen positioning",
+      "size": null
+    },
+    {
+      "name": "Lock ring pliers51012011000",
+      "size": null
+    },
+    {
+      "name": "Hot-oil protective clothing and gloves",
+      "size": null
+    },
+    {
+      "name": "Secure bike support and assistance for side positioning",
+      "size": null
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "Correct stock replacement oil filter"
+    },
+    {
+      "name": "New magnetic drain-plug seal ring"
+    },
+    {
+      "name": "Fully synthetic10W/50 engine oil; service quantity1.20L"
+    },
+    {
+      "name": "Serviceable screen/cover/filler O-rings; correct replacements if needed"
+    }
+  ],
+  "preflight": [
+    "Confirm exact model and warm-engine entry state.",
+    "Identify screen plug2 and forbidden adjacent screwA in the linked diagram.",
+    "Prepare waste container and secure support before releasing hot oil."
+  ],
+  "critical_stop_conditions": [
+    "Unidentified or different oil-service fittings",
+    "Cannot distinguish screwA from plug2",
+    "Damaged parts or foreign debris requiring separate repair",
+    "Leak, abnormal noise, unreadable or unacceptable level",
+    "Six failed starting attempts"
+  ],
+  "steps": [
+    {
+      "id": "prepare",
+      "title": "Prepare the warm bike",
+      "instruction": "Begin with the assembled stock bike at operating temperature, engine stopped, on level ground. Wear gloves and clothing suitable for hot oil. Place a drain container below the engine and arrange secure support for later side positioning. Identify the drain plug, screen plugs and filter cover before opening anything.",
+      "depends_on": [],
+      "source_pdf_pages": [
+        134
+      ],
+      "verification": [
+        "Action complete with no unresolved fault."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=134"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    },
+    {
+      "id": "drain",
+      "title": "Drain the oil",
+      "instruction": "Remove magnetic drain plug 1 and its seal ring. Remove screen plug 2 and its O-ring. Leave the lower adjacent screw A in place. Remove plug 3, long screen 4 and the O-rings. Let the oil finish draining, then thoroughly clean the removed parts and their sealing surfaces.",
+      "depends_on": [
+        "prepare"
+      ],
+      "source_pdf_pages": [
+        134
+      ],
+      "verification": [
+        "Action complete with no unresolved fault."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=134"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    },
+    {
+      "id": "plug-two",
+      "title": "Refit the first screen plug",
+      "instruction": "Refit plug 2 with its O-ring and tighten the M20 x 1.5 plug to 15 Nm. The adjacent screw A stays untouched.",
+      "depends_on": [
+        "drain"
+      ],
+      "source_pdf_pages": [
+        134,
+        135
+      ],
+      "verification": [
+        "Actual result satisfies this step; unresolved faults do not pass."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=134",
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=135"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    },
+    {
+      "id": "screen",
+      "title": "Seat the long screen",
+      "instruction": "Place the long screen and its O-rings on a pin wrench. Position the pin wrench through the drill hole of the screw plug on the opposite section of the engine case as illustrated and push the screen fully into the case. Confirm seating before fitting its plug.",
+      "depends_on": [
+        "plug-two"
+      ],
+      "source_pdf_pages": [
+        135
+      ],
+      "verification": [
+        "Action complete with no unresolved fault."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=135"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    },
+    {
+      "id": "plugs",
+      "title": "Close the drain openings",
+      "instruction": "Fit screen plug 3 with its O-ring and tighten to 15 Nm. Fit the magnetic drain plug with a NEW seal ring and tighten its M12 x 1.5 thread to 20 Nm. Record both torque settings.",
+      "depends_on": [
+        "screen"
+      ],
+      "source_pdf_pages": [
+        135
+      ],
+      "verification": [
+        "Actual result satisfies this step; unresolved faults do not pass."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=135"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    },
+    {
+      "id": "filter-out",
+      "title": "Remove the used filter",
+      "instruction": "Remove the two cover screws identified by callout 5 and lift away the cover and O-ring. Use lock ring pliers 51012011000 to withdraw the filter. Let the remaining oil drain and clean the parts and sealing surfaces.",
+      "depends_on": [
+        "plugs"
+      ],
+      "source_pdf_pages": [
+        135
+      ],
+      "verification": [
+        "Action complete with no unresolved fault."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=135"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    },
+    {
+      "id": "filter-in",
+      "title": "Prime and fit the new filter",
+      "instruction": "Lay the bike on its side with the filter opening upward as shown. Fill the housing about one-third with fresh engine oil, then insert the new filter. Lubricate the cover O-ring and fit it with the cover. Tighten both M6 x 16 cover screws to 10 Nm.",
+      "depends_on": [
+        "filter-out"
+      ],
+      "source_pdf_pages": [
+        136
+      ],
+      "verification": [
+        "Actual result satisfies this step; unresolved faults do not pass."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=136"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    },
+    {
+      "id": "fill",
+      "title": "Refill the engine",
+      "instruction": "Return the bike upright. Remove the filler plug and O-ring and refill with fully synthetic 10W/50 engine oil. The specified service quantity is 1.20 L; record the oil and amount used and confirm the result with the final level check. Refit and tighten the filler plug with its O-ring.",
+      "depends_on": [
+        "filter-in"
+      ],
+      "source_pdf_pages": [
+        136
+      ],
+      "verification": [
+        "Actual result satisfies this step; unresolved faults do not pass."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=136"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    },
+    {
+      "id": "run",
+      "title": "Start and check for leaks",
+      "instruction": "With oil and all closures installed, remove the plug-in stand, support the bike and select neutral. Use a well-ventilated area or suitable exhaust extraction indoors. Below 20 C ambient, press the cold-start button fully in. Limit each starter attempt to 5 seconds; wait 15 seconds between attempts, or 30 seconds at low temperatures. Stop after six failed attempts and investigate. Warm a cold engine only at low speed. If the cold-start button was used, turn the throttle grip forward to return it. Inspect oil plugs and filter cover for leaks. Stop for leaks or abnormal noise; switch off if idling or stationary running is likely to last one minute or longer.",
+      "depends_on": [
+        "fill"
+      ],
+      "source_pdf_pages": [
+        32,
+        33,
+        36,
+        136
+      ],
+      "verification": [
+        "Action complete with no unresolved fault."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=32",
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=33",
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=36",
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=136"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    },
+    {
+      "id": "level",
+      "title": "Measure the oil level",
+      "instruction": "Stop the idling engine with the stop button. Hold the bike upright on level ground. At operating temperature, wait one minute after stopping: the level must lie between the middle and upper edge of the sight glass. For a fully cold check, the target is the middle. Record temperature condition and actual level. Below-middle needs topping up; an above-target or unreadable result needs correction or investigation before completion.",
+      "depends_on": [
+        "run"
+      ],
+      "source_pdf_pages": [
+        38,
+        133
+      ],
+      "verification": [
+        "Actual result satisfies this step; unresolved faults do not pass."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=38",
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=133"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    },
+    {
+      "id": "topup",
+      "title": "Correct a low level if needed",
+      "instruction": "If the target is already met, record no top-up needed. Otherwise stop the engine, remove the filler plug and O-ring and add the same oil used for this change, only as needed for the specified level. Do not add another 1.20 L as a top-up dose or mix oil types. Refit the plug and O-ring; repeat the preceding start/leak check, then stop and check the level for the actual temperature condition. Record any oil added and the accepted final level. An unresolved result does not complete this job.",
+      "depends_on": [
+        "level"
+      ],
+      "source_pdf_pages": [
+        133,
+        137
+      ],
+      "verification": [
+        "Actual result satisfies this step; unresolved faults do not pass."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=133",
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=137"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    },
+    {
+      "id": "finish",
+      "title": "Save the service",
+      "instruction": "Confirm the engine is stopped, the final level is accepted and no leak remains. Save oil, quantity, completed plug/cover torques and level result. Dispose of the drained oil and used filter through an appropriate waste facility.",
+      "depends_on": [
+        "topup"
+      ],
+      "source_pdf_pages": [
+        134,
+        135,
+        136,
+        137
+      ],
+      "verification": [
+        "Action complete with no unresolved fault."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=134",
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=135",
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=136",
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=137"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    }
+  ],
+  "reviewed_at": "2026-09-13"
+}

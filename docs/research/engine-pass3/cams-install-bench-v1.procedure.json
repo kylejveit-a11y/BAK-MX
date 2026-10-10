@@ -1,0 +1,344 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2026-yz450f-cams-install-bench-v1",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Time and close the rebuilt top end",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete bounded bench operation from the declared entry state to the declared exit state. Whole-bike access and downstream engine closure are separate dependencies.",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      7,
+      56,
+      58,
+      91,
+      92,
+      93,
+      97,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221
+    ],
+    "printed_pages": [
+      "Symbols (unnumbered)",
+      "2-9",
+      "2-11",
+      "3-7",
+      "3-8",
+      "3-9",
+      "3-13",
+      "5-11",
+      "5-12",
+      "5-13",
+      "5-14",
+      "5-15",
+      "5-16",
+      "5-17",
+      "5-18"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "All cited operation pages visually reviewed. General symbols and conditional torque rules retained."
+  },
+  "applicability": {
+    "included": "Exact US2026 YZ450F standard stock components only",
+    "excluded": [
+      "Unsupported pad-chart inputs",
+      "Warm-start/run commissioning and engine refit"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "affected_components": [
+    "engine",
+    "cams",
+    "cylinder_head"
+  ],
+  "required_tools": [
+    {
+      "name": "Feeler gauges, hand rotation wrench, torque wrench accurate at6/10/13Nm"
+    },
+    {
+      "name": "Thin screwdriver and chain retaining wire"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "New head-cover and plug-hole gaskets"
+    },
+    {
+      "name": "ThreeBond1541C"
+    },
+    {
+      "name": "New tensioner gaskets positions1/3/5"
+    },
+    {
+      "name": "Two new timing-access O-rings"
+    },
+    {
+      "name": "Engine oil, molybdenum-disulfide oil and lithium-soap grease"
+    }
+  ],
+  "preflight": [
+    "Head/cylinder installed; cams out; rotor/left cover present.",
+    "Inspected stock cams/tensioner and new sealing parts available."
+  ],
+  "entry_state": [
+    "Head/cylinder installed; cams out; rotor/left cover present.",
+    "Inspected stock cams/tensioner and new sealing parts available."
+  ],
+  "exit_state": [
+    "Cams/tensioner installed; timing and four cold clearances verified; head cover/plug/access plugs closed."
+  ],
+  "critical_stop_conditions": [
+    "Any required measurement unresolved or replacement criteria not satisfied.",
+    "Unidentified diagram orientation, missing parts, damage or abnormal binding."
+  ],
+  "material_policy": {
+    "LT": "Locking agent (LOCTITE) per PDF7. Grade unspecified by this manual; no grade inferred.",
+    "lubrication": "Follow each explicit E/M/LS/S application; general dry torque does not override a lubricated joint."
+  },
+  "steps": [
+    {
+      "id": "entry",
+      "title": "Confirm readiness to time the rebuilt engine",
+      "instruction": "Head, valves, original-position pads/lifters and cylinder are assembled and verified. Crankcases, rotor and left cover are installed with readable timing marks. Cams/tensioner are inspected and stock. Rotate the crankshaft counterclockwise by hand to align rotorTDC with its cover reference before cam installation.",
+      "source_pdf_pages": [
+        219,
+        220
+      ],
+      "verification": [
+        "Head ready; inspected parts; rotorTDC confirmed."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=219",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=220"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": []
+    },
+    {
+      "id": "cams-install",
+      "title": "Set the cams at the exact timing marks",
+      "instruction": "Confirm the retained rotor TDC alignment. Apply molybdenum disulfide oil to the camshaft locations shown and engine oil to the decompression system. Fit the chain onto both stock sprockets and seat the exhaust and intake cams with both match marks at the illustrated cap-surface edges. Do not turn the crankshaft during cam installation. Remove the retaining wire only after the chain is supported correctly on the sprockets.",
+      "depends_on": [
+        "entry"
+      ],
+      "source_pdf_pages": [
+        219,
+        220
+      ],
+      "verification": [
+        "TDC unchanged; both cam marks aligned; chain seated; retaining wire removed."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=219",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=220"
+      ],
+      "origin": "Original source-based summary; logging and fault-stop actions are workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "caps-install",
+      "title": "Tighten the cam caps evenly",
+      "instruction": "Restore the dowels and original cam caps. Apply engine oil to bolt threads and contact faces. Tighten all eight cap bolts evenly in two or three stages to 10 N\u00b7m, following numbered positions 1 through 8 in the PDF220 diagram. Keep the numbered diagram visible; do not invent a left/right order from memory.",
+      "depends_on": [
+        "cams-install"
+      ],
+      "source_pdf_pages": [
+        216,
+        218,
+        220
+      ],
+      "verification": [
+        "Original caps/dowels fitted; all eight bolts 10 N\u00b7m in source numbered sequence with oiled threads/contact faces."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=216",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=218",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=220"
+      ],
+      "origin": "Original source-based summary; logging and fault-stop actions are workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "tensioner-install",
+      "title": "Install the retracted tensioner",
+      "instruction": "Lightly press the rod and wind it fully clockwise again. Keep it fully retracted while installing the tensioner with its UP mark facing upward, a new body gasket at position 1 and the new mounting-bolt gasket at position 3 in the source diagram. Tighten the mounting bolts to 10 N\u00b7m. Do not release the screwdriver until the assembly is secured.",
+      "depends_on": [
+        "caps-install"
+      ],
+      "source_pdf_pages": [
+        220
+      ],
+      "verification": [
+        "UP mark upward; new gaskets correctly located; mounting bolts 10 N\u00b7m; rod held retracted until secured."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=220"
+      ],
+      "origin": "Original source-based summary; logging and fault-stop actions are workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "tensioner-release",
+      "title": "Release the tensioner",
+      "instruction": "Release the screwdriver and verify smooth rod extension. Fit the new cap-bolt gasket at position 5 and tighten the cap bolt to 6 N\u00b7m. Account for the screwdriver before rotating the engine.",
+      "depends_on": [
+        "tensioner-install"
+      ],
+      "source_pdf_pages": [
+        220,
+        221
+      ],
+      "verification": [
+        "Rod released and extended; new cap gasket fitted; cap bolt 6 N\u00b7m."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=220",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=221"
+      ],
+      "origin": "Original source-based summary; logging and fault-stop actions are workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "timing-verify",
+      "title": "Verify timing by hand",
+      "instruction": "With cam caps and tensioner fully installed, turn the crankshaft counterclockwise by hand for several complete turns. Stop at abnormal resistance. Return to the rotor TDC mark and confirm both cam-sprocket match marks align with their specified head/cap surfaces as illustrated. If any mark is wrong, do not start the engine; correct timing through the cam installation sequence before repeating this check.",
+      "depends_on": [
+        "tensioner-release"
+      ],
+      "source_pdf_pages": [
+        217,
+        220,
+        221
+      ],
+      "verification": [
+        "Smooth hand rotation; rotor TDC and both cam marks align after several turns."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=217",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=220",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=221"
+      ],
+      "origin": "Original source-based summary; logging and fault-stop actions are workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "remeasure",
+      "title": "Measure all four clearances again",
+      "instruction": "At the verified TDC position and with the engine still at room temperature, measure between each cam lobe and its lifter. Record all four results. Each intake must be 0.10\u20130.17 mm; each exhaust must be 0.15\u20130.22 mm. An unresolved boundary or out-of-range result is not a completed adjustment.",
+      "depends_on": [
+        "timing-verify"
+      ],
+      "source_pdf_pages": [
+        91,
+        92,
+        93
+      ],
+      "verification": [
+        "Four definite cold readings recorded; all within exact ranges."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=91",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=92",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=93"
+      ],
+      "origin": "Original source-based summary; logging and fault-stop actions are workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "cover-install",
+      "title": "Reseal the cylinder head",
+      "instruction": "Remove tools and loose material from the work area. Refit the top timing-chain guide, a new cover gasket and a new spark-plug-hole gasket in their original positions. Apply ThreeBond No.1541C to the cover gasket as specified in the source diagram, seat the cover without trapping the seals, and tighten its three bolts evenly to 10 N\u00b7m.",
+      "depends_on": [
+        "remeasure"
+      ],
+      "source_pdf_pages": [
+        214,
+        215,
+        221
+      ],
+      "verification": [
+        "Guide present; two new seals fitted; correct sealant used; cover bolts 10 N\u00b7m."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=214",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=215",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=221"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": true
+    },
+    {
+      "id": "plug-access-close",
+      "title": "Close the service openings",
+      "instruction": "Reconnect the breather hose. Clean the spark plug and its gasket contact surface, install the plug at 13 N\u00b7m and refit its cap. Install two new access-screw O-rings with lithium-soap-based grease, and apply engine oil to the access-screw threads as shown in the service diagram. Tighten the timing-mark screw to 6 N\u00b7m and crankshaft-end screw to 10 N\u00b7m.",
+      "depends_on": [
+        "cover-install"
+      ],
+      "source_pdf_pages": [
+        58,
+        97,
+        221,
+        216
+      ],
+      "verification": [
+        "Breather/plug cap connected; plug13/access6-and10 N\u00b7m; two new greased O-rings seated; screw threads oiled."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=216"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": true
+    },
+    {
+      "id": "handoff",
+      "title": "Record timed-engine completion",
+      "instruction": "Save all four cold clearances and timing results. If a clearance is outside intake0.10\u20130.17mm or exhaust0.15\u20130.22mm, complete the reviewed pad-adjustment operation and repeat timing/clearance verification before engine installation or starting. Do not treat an out-of-range reading as a passed installation.",
+      "source_pdf_pages": [
+        91,
+        92,
+        221
+      ],
+      "verification": [
+        "Timing and all four in-range cold readings saved; closures verified."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=91",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=92",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=221"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "plug-access-close"
+      ]
+    }
+  ],
+  "reviewed_at": "2026-09-13",
+  "runtime_integration_requirement": "Enforce entry state and record_required. Completion certifies this bounded operation only; no automatic completion of upstream/downstream work."
+}

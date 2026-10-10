@@ -1,0 +1,548 @@
+{
+  "schema_version": 1,
+  "id": "honda-2026-crf450r-valve-inspection-candidate-v1",
+  "component": "engine",
+  "affected_components": [
+    "engine",
+    "cams"
+  ],
+  "target": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Inspect cold valve clearances",
+  "status": "CANDIDATE_PENDING_CURRENT_SOURCE_HASH",
+  "completeness": "Assembled-bike inspection and closure for four in-range readings. Out-of-range adjustment is excluded and stops this route before return to service.",
+  "source": {
+    "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf",
+    "document_sha256": "676df763129d63c4bb76e28624158b1d310c71499ab736a7c544c898f69e3819",
+    "hash_provenance": "Prior frozen Honda source-map capture; current browser bytes NOT independently hashed.",
+    "document_revision": "61MKEX50_web; introduction states March 2024; official 2026 competition-handbook URL",
+    "pdf_pages": [
+      10,
+      29,
+      43,
+      44,
+      45,
+      46
+    ],
+    "printed_pages": [
+      "1-4",
+      "2-11",
+      "2-25",
+      "2-26",
+      "2-27",
+      "2-28"
+    ],
+    "review_status": "PENDING_BYTE_CONFIRMATION_AND_INDEPENDENT_REVIEW",
+    "review_note": "Current official PDF visually reviewed in Edge. Current HTTP capture returns 403; prior frozen hash is not claimed as a newly verified hash."
+  },
+  "applicability": {
+    "included": "Standard US 2026 CRF450R with stock valve train.",
+    "excluded": [
+      "CRF450RX and CRF450RWE",
+      "Other model years or markets",
+      "Aftermarket camshafts or cylinder heads",
+      "Shim adjustment or internal engine repair"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "entry_state": [
+    "Cold assembled stock bike with no unresolved running fault.",
+    "Four measurements can be taken accurately with suitable feeler gauges."
+  ],
+  "exit_state": [
+    "Four cold readings accepted and recorded; valve train has not been dismantled.",
+    "Tank, plug, cover, shrouds and seat restored; engine remains stopped."
+  ],
+  "required_tools": [
+    {
+      "name": "Stable bike support",
+      "size": null
+    },
+    {
+      "name": "Suitable sockets and torque wrenches covering 5.2, 10, 15 and 22 Nm",
+      "size": null
+    },
+    {
+      "name": "Feeler gauges covering both stated clearance ranges",
+      "size": null
+    },
+    {
+      "name": "Compressed air and eye protection",
+      "size": null
+    },
+    {
+      "name": "Hose pinch clamp and clean shop towel",
+      "size": null
+    },
+    {
+      "name": "Exact handbook diagrams for TDC, breather clamp and tank cushions",
+      "size": null
+    }
+  ],
+  "required_parts": [
+    "New crankshaft-hole-cap O-ring",
+    "Replacement cover gasket, plug-hole seal or mounting rubbers if inspection finds damage"
+  ],
+  "consumables": [
+    "Recommended engine oil for seals",
+    "Grease for crankshaft-hole-cap threads"
+  ],
+  "prerequisites": [
+    "Verify exact model and cold condition.",
+    "Have the cited handbook diagrams available before beginning."
+  ],
+  "steps": [
+    {
+      "id": "identify",
+      "title": "Confirm the bike and inspection scope",
+      "instruction": "Confirm a standard US 2026 CRF450R with its stock cylinder head and cam drive. This route measures valve clearance and closes an engine whose four readings pass. If any reading fails, keep the engine stopped and use a separately reviewed adjustment procedure before returning it to service.",
+      "depends_on": [],
+      "source_pdf_pages": [
+        43,
+        44,
+        45
+      ],
+      "verification": [
+        "Bike and stock valve train confirmed; no unresolved running fault."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf#page=43",
+        "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf#page=44",
+        "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf#page=45"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    },
+    {
+      "id": "cold",
+      "title": "Let the engine cool",
+      "instruction": "Stop the engine and let the cylinder head cool below 35 \u00b0C (95 \u00b0F). Support the bike securely upright on level ground.",
+      "depends_on": [
+        "identify"
+      ],
+      "source_pdf_pages": [
+        43
+      ],
+      "verification": [
+        "Record cold condition before measuring."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf#page=43"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    },
+    {
+      "id": "seat",
+      "title": "Remove the seat",
+      "instruction": "Remove the seat mounting bolts and slide the seat forward to release its hooks.",
+      "depends_on": [
+        "cold"
+      ],
+      "source_pdf_pages": [
+        10
+      ],
+      "verification": [
+        "Seat and fasteners retained."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf#page=10"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    },
+    {
+      "id": "shrouds",
+      "title": "Remove the radiator shrouds",
+      "instruction": "Remove each standard R shroud lower and upper bolt and release the shroud from the side-cover tab.",
+      "depends_on": [
+        "seat"
+      ],
+      "source_pdf_pages": [
+        10
+      ],
+      "verification": [
+        "Shrouds removed without breaking tabs."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf#page=10"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    },
+    {
+      "id": "tank-release",
+      "title": "Prepare the tank support",
+      "instruction": "Pinch the tank breather hose with a suitable hose clamp and release it from the steering stem. Remove the tank mounting bolt and rear band. Release the clutch hose from its guide.",
+      "depends_on": [
+        "shrouds"
+      ],
+      "source_pdf_pages": [
+        29
+      ],
+      "verification": [
+        "Breather controlled; tank attachments released."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf#page=29"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    },
+    {
+      "id": "tank-hang",
+      "title": "Support the tank beside the frame",
+      "instruction": "Protect the frame with a shop towel. Check the tank strap is intact and attached to the frame and tank stay. Lift slowly and hang the tank on the left side using this strap. Keep all load off the connected fuel-feed hose.",
+      "depends_on": [
+        "tank-release"
+      ],
+      "source_pdf_pages": [
+        29
+      ],
+      "verification": [
+        "Tank secure; fuel hose neither loaded, twisted nor kinked."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf#page=29"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    },
+    {
+      "id": "plug",
+      "title": "Open the plug and cover access",
+      "instruction": "Blow debris away from the spark-plug base with compressed air. Disconnect the plug cap and remove the plug. Disconnect the crankcase breather hose from the cover.",
+      "depends_on": [
+        "tank-hang"
+      ],
+      "source_pdf_pages": [
+        43
+      ],
+      "verification": [
+        "No debris can enter the plug hole."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf#page=43"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    },
+    {
+      "id": "cover-out",
+      "title": "Remove the cylinder-head cover",
+      "instruction": "Remove the cover bolts, mounting rubbers, cover and gasket. Retain the parts cleanly and protect the exposed head from dirt.",
+      "depends_on": [
+        "plug"
+      ],
+      "source_pdf_pages": [
+        43
+      ],
+      "verification": [
+        "Cover removed; sealing parts retained."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf#page=43"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    },
+    {
+      "id": "tdc",
+      "title": "Set compression top dead centre",
+      "instruction": "Remove the crankshaft-hole cap and O-ring. Turn the crankshaft CLOCKWISE until the primary-drive-gear T mark meets the right-cover index. Cam-sprocket index lines must meet the holder mating surfaces. Match the decompressor-weight position to the compression-TDC drawing on handbook page 2-26. If it is opposite, turn one complete clockwise revolution and align again.",
+      "depends_on": [
+        "cover-out"
+      ],
+      "source_pdf_pages": [
+        44
+      ],
+      "verification": [
+        "Record correct T mark, cam lines and decompressor position. Do not measure at the opposite stroke."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf#page=44"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    },
+    {
+      "id": "intake",
+      "title": "Measure both intake clearances",
+      "instruction": "Use a feeler gauge between each intake rocker arm and its cam lobe without damaging the rocker. Record the left and right readings in millimetres. The cold specification is 0.13 \u00b1 0.03 mm.",
+      "depends_on": [
+        "tdc"
+      ],
+      "source_pdf_pages": [
+        44
+      ],
+      "verification": [
+        "Both intake readings recorded against 0.10\u20130.16 mm."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf#page=44"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    },
+    {
+      "id": "exhaust",
+      "title": "Measure both exhaust clearances",
+      "instruction": "Measure between each exhaust rocker arm and its shim. Record the left and right readings in millimetres. The cold specification is 0.28 \u00b1 0.03 mm.",
+      "depends_on": [
+        "intake"
+      ],
+      "source_pdf_pages": [
+        45
+      ],
+      "verification": [
+        "Both exhaust readings recorded against 0.25\u20130.31 mm."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf#page=45"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    },
+    {
+      "id": "assess",
+      "title": "Accept the four readings",
+      "instruction": "Continue closure only when all four cold readings fall within their limits. An out-of-range reading needs valve-clearance adjustment before operation; this inspection route does not remove the cam or tensioner.",
+      "depends_on": [
+        "exhaust"
+      ],
+      "source_pdf_pages": [
+        44,
+        45
+      ],
+      "verification": [
+        "Record all four pass. Otherwise stop the service run here for adjustment."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf#page=44",
+        "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf#page=45"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    },
+    {
+      "id": "access-cap",
+      "title": "Close the crankshaft access",
+      "instruction": "Fit a NEW O-ring lubricated with engine oil. Grease the crankshaft-hole cap threads and tighten the cap to 15 Nm.",
+      "depends_on": [
+        "assess"
+      ],
+      "source_pdf_pages": [
+        45
+      ],
+      "verification": [
+        "New O-ring seated; cap tightened."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf#page=45"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    },
+    {
+      "id": "cover-seals",
+      "title": "Inspect and fit the cover seals",
+      "instruction": "Inspect the plug-hole seal ring and cover gasket for damage or deterioration and replace affected parts. Apply engine oil to the plug-hole seal ring. Fit the gasket into the cover.",
+      "depends_on": [
+        "access-cap"
+      ],
+      "source_pdf_pages": [
+        45
+      ],
+      "verification": [
+        "Seals serviceable and located correctly."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf#page=45"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    },
+    {
+      "id": "cover-in",
+      "title": "Install the cover",
+      "instruction": "Seat the cover without displacing the gasket or plug-hole seal. Replace damaged or scored mounting rubbers; fit them with UP marks upward. Tighten the cover bolts to 10 Nm.",
+      "depends_on": [
+        "cover-seals"
+      ],
+      "source_pdf_pages": [
+        45
+      ],
+      "verification": [
+        "Cover and rubbers seated; bolts tightened."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf#page=45"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    },
+    {
+      "id": "breather",
+      "title": "Reconnect the head breather",
+      "instruction": "Reconnect the breather with its white mark facing upward. Orient the clamp to the 45-degree position in the handbook page 2-28 diagram.",
+      "depends_on": [
+        "cover-in"
+      ],
+      "source_pdf_pages": [
+        46
+      ],
+      "verification": [
+        "Hose secure with the cited orientation."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf#page=46"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    },
+    {
+      "id": "plug-in",
+      "title": "Install the spark plug",
+      "instruction": "Start the plug by hand to avoid crossing its threads, then tighten to 22 Nm. Reconnect the plug cap securely.",
+      "depends_on": [
+        "breather"
+      ],
+      "source_pdf_pages": [
+        46
+      ],
+      "verification": [
+        "Plug correctly threaded and cap seated."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf#page=46"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    },
+    {
+      "id": "tank-in",
+      "title": "Return the tank",
+      "instruction": "Check the frame cushion rubbers are present and in the handbook page 2-11 locations, including the illustrated 181 \u00b1 2.5 mm positioning. Lower the tank without twisting or bending the fuel-feed hose. Restore the rear band and mounting bolt securely, route the clutch hose in its guide, return the breather to the steering stem and remove its temporary pinch clamp.",
+      "depends_on": [
+        "plug-in"
+      ],
+      "source_pdf_pages": [
+        29
+      ],
+      "verification": [
+        "Tank supported on its cushions; straps, hose guide and breather restored."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf#page=29"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    },
+    {
+      "id": "shrouds-in",
+      "title": "Install the shrouds",
+      "instruction": "Engage each shroud slot with the side-cover tab. Tighten lower bolts to 10 Nm and upper bolts to 5.2 Nm.",
+      "depends_on": [
+        "tank-in"
+      ],
+      "source_pdf_pages": [
+        10
+      ],
+      "verification": [
+        "Both shrouds secure with tabs engaged."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf#page=10"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    },
+    {
+      "id": "seat-in",
+      "title": "Install the seat",
+      "instruction": "Engage the seat hooks with the fuel-tank slot, rear frame and rear-fender grooves. Tighten the mounting bolts to 10 Nm.",
+      "depends_on": [
+        "shrouds-in"
+      ],
+      "source_pdf_pages": [
+        10
+      ],
+      "verification": [
+        "Seat hooks engaged and seat secure."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf#page=10"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    },
+    {
+      "id": "finish",
+      "title": "Finish the inspection",
+      "instruction": "Confirm the four accepted measurements are saved, all removed parts are restored, and no temporary clamp, towel or tool remains on the bike. Leave the engine stopped.",
+      "depends_on": [
+        "seat-in"
+      ],
+      "source_pdf_pages": [
+        10,
+        29,
+        43,
+        44,
+        45,
+        46
+      ],
+      "verification": [
+        "Inspection recorded and bike reassembled; adjustment was not required."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf#page=10",
+        "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf#page=29",
+        "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf#page=43",
+        "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf#page=44",
+        "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf#page=45",
+        "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf#page=46"
+      ],
+      "origin": "Original source-based summary; recording and failed-result handling are application workflow."
+    }
+  ],
+  "stop_conditions": [
+    "Any cold reading outside its cited range",
+    "TDC or decompressor orientation cannot be confirmed",
+    "Damaged sealing parts not replaced",
+    "Tank support strap or fuel hose damaged"
+  ],
+  "operation_dependencies": [],
+  "release_hold": [
+    "Current downloaded PDF-byte hash not independently confirmed",
+    "Independent composition review pending",
+    "No out-of-range adjustment continuation is included"
+  ]
+}

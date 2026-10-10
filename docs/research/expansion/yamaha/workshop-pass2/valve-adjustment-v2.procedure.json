@@ -1,0 +1,892 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2026-yz450f-valve-adjustment-v2",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Adjust cold valve clearances",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete assembled-bike access, four-valve measurement, cam removal, OEM chart-based pad selection, cam/tensioner installation, timing verification, remeasurement and closure for supported chart inputs. No top-end rebuild claim.",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      38,
+      58,
+      91,
+      92,
+      93,
+      94,
+      95,
+      97,
+      101,
+      123,
+      124,
+      125,
+      126,
+      127,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      306,
+      307,
+      308
+    ],
+    "printed_pages": [
+      "1-26",
+      "3-7",
+      "3-8",
+      "3-13",
+      "3-17",
+      "4-1 to 4-5",
+      "5-11",
+      "5-12",
+      "5-18",
+      "7-1 to 7-3",
+      "5-13",
+      "2-11",
+      "3-9 to 3-11",
+      "5-14 to 5-17"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Existing reviewed assembled-bike valve access/closure retained. Additional PDF92-95 and216-221 visually reviewed for shim selection, cam/tensioner removal, installation and timing recheck. Exact diagrams remain mandatory where flagged."
+  },
+  "applicability": {
+    "included": "Exact US 2026 YZ450F/YZ450FT stock engine, head, camshafts and body/tank configuration",
+    "excluded": [
+      "Other model years",
+      "YZ450FX",
+      "Aftermarket camshafts, valve train or manual tensioner",
+      "Cylinder/head/piston removal",
+      "Complete engine rebuild"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "required_tools": [
+    {
+      "name": "Metric feeler-gauge set",
+      "spec": "Yamaha 90890-03268 / YU-26900-9, or measurement-equivalent gauges covering the listed cold ranges"
+    },
+    {
+      "name": "Hand wrench for crankshaft rotation",
+      "size": "Fit the crankshaft-end service access; hex size not specified in this section"
+    },
+    {
+      "name": "Appropriate body/tank/cover tools and spark-plug socket",
+      "size": "Fit actual stock fasteners; sizes not inferred from thread diameter"
+    },
+    {
+      "name": "Calibrated torque wrench",
+      "spec": "Accurate at 4\u201313 N\u00b7m for the touched joints"
+    },
+    {
+      "name": "Fuel-safe transfer pump, approved container, absorbent cloths, included fuel-hose joint covers",
+      "spec": "For tank removal; no mouth siphoning"
+    },
+    {
+      "name": "Stable bike support, clean parts trays and measurement log",
+      "spec": null
+    },
+    {
+      "name": "Thin screwdriver",
+      "purpose": "Wind the stock automatic tensioner inward clockwise while lightly pressing its rod"
+    },
+    {
+      "name": "Clean wire and labeled parts storage",
+      "purpose": "Retain timing chain and original cam/cap positions"
+    },
+    {
+      "name": "Valve lapper, diameter 14 mm",
+      "part_numbers": [
+        "90890-04101",
+        "YM-A8998"
+      ],
+      "purpose": "Lift each valve lifter and pad without mixing positions"
+    },
+    {
+      "name": "Exact OEM intake/exhaust shim charts",
+      "purpose": "PDF94 for intake, PDF95 for exhaust; readable chart required, no formula substituted"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "New cylinder-head-cover gasket",
+      "source_pdf_page": 221
+    },
+    {
+      "name": "New spark-plug-hole gasket",
+      "source_pdf_page": 221
+    },
+    {
+      "name": "ThreeBond No.1541C",
+      "purpose": "Cylinder-head-cover gasket application",
+      "source_pdf_page": 221
+    },
+    {
+      "name": "Engine oil",
+      "purpose": "Service-access screw threads as indicated by PDF216 arrows",
+      "source_pdf_page": 58
+    },
+    {
+      "name": "Two new service-access O-rings",
+      "purpose": "Timing-mark and crankshaft-end access screws",
+      "source_pdf_page": 216
+    },
+    {
+      "name": "Lithium-soap-based grease",
+      "purpose": "Both new service-access O-rings",
+      "source_pdf_page": 216
+    },
+    {
+      "name": "New tensioner gaskets at positions 1, 3 and 5",
+      "purpose": "Body gasket, illustrated mounting-bolt gasket and cap-bolt gasket; preserve positions in PDF220-221 diagrams",
+      "source_pdf_page": 220
+    },
+    {
+      "name": "Correct stock adjusting pads selected from exact chart",
+      "purpose": "Available source range 1.20\u20132.40 mm in 0.05 mm increments; selected after original pads and cold measurements are known",
+      "source_pdf_page": 92
+    },
+    {
+      "name": "Molybdenum disulfide oil",
+      "purpose": "Camshaft lubrication and valve-stem ends as shown; do not substitute molybdenum grease by name alone",
+      "source_pdf_page": 219
+    }
+  ],
+  "preflight": [
+    "Engine stopped and cold at room temperature.",
+    "Exact stock applicability confirmed.",
+    "Tools, replacement cover seals and specified sealant available before removing the cover.",
+    "Clean exterior; stable support; no ignition sources around fuel work.",
+    "Operator can identify the illustrated TDC/cam marks and perform the referenced service operations.",
+    "New tensioner sealing gaskets and a suitable thin screwdriver available; identify the exact stock tensioner and diagram positions before opening.",
+    "Operator can read the exact intake/exhaust chart; this version provides a source-linked manual lookup rather than an automatic shim calculator."
+  ],
+  "critical_stop_conditions": [
+    "Abnormal hand-rotation resistance, ambiguous timing marks, lost chain engagement or loose material in engine.",
+    "Tensioner fails to extend smoothly or is cracked/damaged.",
+    "Any final cold clearance outside its range or unresolved measurement.",
+    "Dirt enters engine/fuel circuit, sealing location unknown or fuel connector does not latch.",
+    "Original pad number unreadable or ends in 3 or 7; OEM rounding table omits those digits.",
+    "Measurement falls between displayed chart intervals, or chosen chart intersection is blank/outside the table; do not round or extrapolate.",
+    "Damaged cams, chain or sprockets require separate repair rather than a shim-only cure."
+  ],
+  "measurement_spec": {
+    "unit": "mm",
+    "engine_condition": "cold at room temperature",
+    "intake": [
+      0.1,
+      0.17
+    ],
+    "exhaust": [
+      0.15,
+      0.22
+    ],
+    "positions": [
+      "intake_left",
+      "intake_right",
+      "exhaust_left",
+      "exhaust_right"
+    ],
+    "method": "Feeler gauge between each cam lobe and its valve lifter with rotor TDC mark and both cam sprocket marks aligned as in PDF91-92.",
+    "rotation": "Counterclockwise by hand using a wrench; do not use starter motor."
+  },
+  "steps": [
+    {
+      "id": "prepare",
+      "title": "Prepare the bike",
+      "instruction": "Let the stopped engine reach room temperature. Support the bike and clean the area before opening anything. Keep dirt out of the engine and fuel connections, and keep fuel work away from ignition sources. Do not operate the starter during this operation.",
+      "depends_on": [],
+      "source_pdf_pages": [
+        91,
+        307
+      ],
+      "verification": [
+        "Cold engine; stable bike; clean work area; parts/tools ready."
+      ],
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": false
+    },
+    {
+      "id": "subseat",
+      "title": "Open the sub-seat",
+      "instruction": "Release its quick fastener and lift the sub-seat first; it is tethered to the main seat. Open the fuel cap and transfer the tank fuel with a fuel-safe pump into a suitable container, then secure the cap.",
+      "depends_on": [
+        "prepare"
+      ],
+      "source_pdf_pages": [
+        38,
+        126,
+        307
+      ],
+      "verification": [
+        "Sub-seat tether not strained; fuel contained."
+      ],
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": false
+    },
+    {
+      "id": "body",
+      "title": "Remove access panels",
+      "instruction": "Remove the main-seat bolts and slide the seat rearward. Remove the left/right side covers, keeping their bolts and collars labeled. Slide the right cover out of its upper and lower locating slots instead of pulling the tabs apart.",
+      "depends_on": [
+        "subseat"
+      ],
+      "source_pdf_pages": [
+        123,
+        124,
+        126,
+        127
+      ],
+      "verification": [
+        "Seat and two side covers removed; hardware locations retained."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=123",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=124",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=126",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=127"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": false
+    },
+    {
+      "id": "shrouds",
+      "title": "Expose the tank",
+      "instruction": "Release the air-filter-case cover ribs by pressing the duct sides inward and lifting the rear; slide the cover rearward to release the front projection. Leave the filter installed. Remove the left/right shroud bolts and shrouds, retaining their collars.",
+      "depends_on": [
+        "body"
+      ],
+      "source_pdf_pages": [
+        101,
+        125,
+        126
+      ],
+      "verification": [
+        "Air-filter-case cover and shrouds removed; filter undisturbed."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=101",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=125",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=126"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": false
+    },
+    {
+      "id": "tank-disconnect",
+      "title": "Disconnect the tank",
+      "instruction": "Unplug the fuel-pump connector. Put cloths below and around the fuel-hose joint for residual pressure. Slide the connector cover back, press its two release buttons, and separate the joint by hand. Fit the supplied joint covers immediately to both openings.",
+      "depends_on": [
+        "shrouds"
+      ],
+      "source_pdf_pages": [
+        306,
+        307
+      ],
+      "verification": [
+        "Pump disconnected; both fuel openings capped; no forced hose tools."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=306",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=307"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": false
+    },
+    {
+      "id": "tank-remove",
+      "title": "Lift the tank clear",
+      "instruction": "Remove the tank mounting fasteners, retaining the collars/dampers in their original locations, and lift the tank away. Support it so its weight does not rest on the fuel-pump mounting surface. Leave the pump installed in the tank.",
+      "depends_on": [
+        "tank-disconnect"
+      ],
+      "source_pdf_pages": [
+        306,
+        307
+      ],
+      "verification": [
+        "Tank supported; mounts accounted for; pump untouched."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=306",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=307"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": false
+    },
+    {
+      "id": "cover-remove",
+      "title": "Expose the valve train",
+      "instruction": "Clean around the spark plug before removing its cap and plug. Disconnect the cylinder-head breather hose; remove the three cover bolts and lift off the cylinder-head cover. Keep the top chain guide and seals accounted for. Retain the top chain guide and do not remove any cam or tensioner hardware until the TDC and measurement steps are completed.",
+      "depends_on": [
+        "tank-remove"
+      ],
+      "source_pdf_pages": [
+        97,
+        214,
+        215
+      ],
+      "verification": [
+        "Head exposed without disturbing timing; plug-hole debris excluded."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=97",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=214",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=215"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": false
+    },
+    {
+      "id": "access",
+      "title": "Open timing access",
+      "instruction": "Remove the timing-mark access screw and crankshaft-end access screw from the left engine cover, retaining their O-rings cleanly. Fit the hand wrench to the crankshaft access.",
+      "depends_on": [
+        "cover-remove"
+      ],
+      "source_pdf_pages": [
+        91
+      ],
+      "verification": [
+        "Both access openings identified; O-rings retained."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=91"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": false
+    },
+    {
+      "id": "tdc",
+      "title": "Align the measurement position",
+      "instruction": "Turn the crankshaft counterclockwise by hand. Align the rotor TDC mark with the crankcase-cover mark, then verify the marks on both cam sprockets align with the cam-cap surface edges exactly as shown. Do not measure from the rotor mark alone or force abnormal resistance.",
+      "depends_on": [
+        "access"
+      ],
+      "source_pdf_pages": [
+        91
+      ],
+      "verification": [
+        "Rotor and both cam marks confirmed; engine still cold."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=91"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": true
+    },
+    {
+      "id": "measure",
+      "title": "Record all four clearances",
+      "instruction": "With that position maintained, insert the feeler gauge between each cam lobe and its lifter as illustrated. Record each intake and exhaust reading separately in millimeters. Use the gauge fit to establish the clearance without forcing it; record an unresolved range if gauge resolution cannot distinguish a boundary.",
+      "depends_on": [
+        "tdc"
+      ],
+      "source_pdf_pages": [
+        91,
+        92
+      ],
+      "verification": [
+        "Four named readings recorded; no guessed boundary values."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=91",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=92"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": true
+    },
+    {
+      "id": "adjustment-scope",
+      "title": "Confirm adjustment is required",
+      "instruction": "Compare the recorded readings with the intake and exhaust ranges. Continue into cam removal only for a definite out-of-range reading with otherwise serviceable stock valve-train components. If all four already meet specification, use the inspection procedure closure without changing pads. Uncertain measurements must be resolved before selecting a pad.",
+      "depends_on": [
+        "measure"
+      ],
+      "source_pdf_pages": [
+        91,
+        92,
+        93
+      ],
+      "verification": [
+        "At least one definite out-of-range reading; four valve positions recorded."
+      ],
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original source-based summary; logging and fault-stop actions are workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "tensioner-remove",
+      "title": "Remove the unloaded tensioner assembly",
+      "instruction": "Keep the engine at the confirmed TDC position. Remove the tensioner cap bolt and its gasket, then remove the mounting bolts and tensioner with its body and mounting-bolt gaskets. Preserve the sealing locations shown. Do not rotate the crankshaft with the tensioner removed.",
+      "depends_on": [
+        "adjustment-scope"
+      ],
+      "source_pdf_pages": [
+        216,
+        217
+      ],
+      "verification": [
+        "Tensioner removed; crank position unchanged; gasket locations retained."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=216",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=217"
+      ],
+      "origin": "Original source-based summary; logging and fault-stop actions are workflow adaptations.",
+      "record_required": false
+    },
+    {
+      "id": "cams-remove",
+      "title": "Remove the cams without mixing positions",
+      "instruction": "Loosen the cam-cap bolts evenly in a crisscross pattern from outside inward. Lift the caps and retain their dowels and exact original positions. Attach a clean wire to the chain to prevent it falling into the crankcase, then lift out the exhaust and intake cams. Leave the oil nozzle installed and retain crankshaft position.",
+      "depends_on": [
+        "tensioner-remove"
+      ],
+      "source_pdf_pages": [
+        216,
+        217
+      ],
+      "verification": [
+        "Caps/dowels/cams identified; chain secured; crank unchanged; oil nozzle undisturbed."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=216",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=217"
+      ],
+      "origin": "Original source-based summary; logging and fault-stop actions are workflow adaptations.",
+      "record_required": false
+    },
+    {
+      "id": "cams-condition",
+      "title": "Check the retained components",
+      "instruction": "Inspect cam lobes for blue discoloration, pitting or scratching; check the chain for damage or stiffness and sprockets for more than one-quarter tooth wear using the source diagram. Verify smooth decompressor-cam movement and projection of its lever pin. A failed check needs the specified separate component repair, not merely another pad.",
+      "depends_on": [
+        "cams-remove"
+      ],
+      "source_pdf_pages": [
+        218,
+        219
+      ],
+      "verification": [
+        "No visible cam/chain/sprocket/decompressor fault; dimensional overhaul inspection not claimed."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=218",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=219"
+      ],
+      "origin": "Original source-based summary; logging and fault-stop actions are workflow adaptations.",
+      "record_required": false
+    },
+    {
+      "id": "tensioner-check",
+      "title": "Check tensioner action",
+      "instruction": "Inspect the tensioner for cracks or damage. While lightly pressing the rod with a finger, turn its screw fully clockwise with a thin screwdriver to retract it. Release the screwdriver while maintaining light finger pressure and verify that the rod extends smoothly. Replace a damaged or sticking unit; do not install one that fails this check.",
+      "depends_on": [
+        "cams-condition"
+      ],
+      "source_pdf_pages": [
+        219
+      ],
+      "verification": [
+        "No cracks/damage; rod retracts and extends smoothly."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=219"
+      ],
+      "origin": "Original source-based summary; logging and fault-stop actions are workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "pads-remove",
+      "title": "Identify each original pad",
+      "instruction": "Place a clean cloth in the timing-chain space while keeping the chain secured. Use the 14 mm valve lapper to lift the lifter and pad for each affected valve. Keep every lifter and original pad labeled by valve position. Read and record the original pad number before choosing a replacement.",
+      "depends_on": [
+        "tensioner-check"
+      ],
+      "source_pdf_pages": [
+        92
+      ],
+      "verification": [
+        "Original number and exact position logged; cloth prevents dropped pads."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=92"
+      ],
+      "origin": "Original source-based summary; logging and fault-stop actions are workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "pads-select",
+      "title": "Select from the exact valve chart",
+      "instruction": "For the original pad number, convert only the last digit as Yamaha lists: 0/1/2 to 0, 4/5/6 to 5, and 8/9 to the next ten. For example, 148 becomes 150. Digits 3 and 7 are unspecified and stop selection. Use the intake chart on PDF94 or exhaust chart on PDF95: intersect the converted original pad column with the row containing the measured cold clearance. Record the selected number. A blank cell, unreadable number or reading outside/between listed intervals is unresolved; never extrapolate. The new pad must be the correct stock part with that chart number.",
+      "depends_on": [
+        "pads-remove"
+      ],
+      "source_pdf_pages": [
+        92,
+        94,
+        95
+      ],
+      "verification": [
+        "Each selected pad traced to recorded valve, measured row and original-pad column; no unsupported digit or blank cell."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=92",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=94",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=95"
+      ],
+      "origin": "Original source-based summary; logging and fault-stop actions are workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "pads-install",
+      "title": "Install the selected pads and original lifters",
+      "instruction": "Apply molybdenum disulfide oil to the valve-stem ends and engine oil to the lifters. Install the selected pads with their numbers facing upward and return each original lifter to its own position. Seat them without forced twisting and verify each lifter turns smoothly by finger. Account for and remove the protective cloth before cam installation while keeping the chain secured.",
+      "depends_on": [
+        "pads-select"
+      ],
+      "source_pdf_pages": [
+        92,
+        93
+      ],
+      "verification": [
+        "Pads number-side up; lifters in original positions and move smoothly; cloth removed."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=92",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=93"
+      ],
+      "origin": "Original source-based summary; logging and fault-stop actions are workflow adaptations.",
+      "record_required": false
+    },
+    {
+      "id": "cams-install",
+      "title": "Set the cams at the exact timing marks",
+      "instruction": "Confirm the retained rotor TDC alignment. Apply molybdenum disulfide oil to the camshaft locations shown and engine oil to the decompression system. Fit the chain onto both stock sprockets and seat the exhaust and intake cams with both match marks at the illustrated cap-surface edges. Do not turn the crankshaft during cam installation. Remove the retaining wire only after the chain is supported correctly on the sprockets.",
+      "depends_on": [
+        "pads-install"
+      ],
+      "source_pdf_pages": [
+        219,
+        220
+      ],
+      "verification": [
+        "TDC unchanged; both cam marks aligned; chain seated; retaining wire removed."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=219",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=220"
+      ],
+      "origin": "Original source-based summary; logging and fault-stop actions are workflow adaptations.",
+      "record_required": false
+    },
+    {
+      "id": "caps-install",
+      "title": "Tighten the cam caps evenly",
+      "instruction": "Restore the dowels and original cam caps. Apply engine oil to bolt threads and contact faces. Tighten all eight cap bolts evenly in two or three stages to 10 N\u00b7m, following numbered positions 1 through 8 in the PDF220 diagram. Keep the numbered diagram visible; do not invent a left/right order from memory.",
+      "depends_on": [
+        "cams-install"
+      ],
+      "source_pdf_pages": [
+        216,
+        218,
+        220
+      ],
+      "verification": [
+        "Original caps/dowels fitted; all eight bolts 10 N\u00b7m in source numbered sequence with oiled threads/contact faces."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=216",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=218",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=220"
+      ],
+      "origin": "Original source-based summary; logging and fault-stop actions are workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "tensioner-install",
+      "title": "Install the retracted tensioner",
+      "instruction": "Lightly press the rod and wind it fully clockwise again. Keep it fully retracted while installing the tensioner with its UP mark facing upward, a new body gasket at position 1 and the new mounting-bolt gasket at position 3 in the source diagram. Tighten the mounting bolts to 10 N\u00b7m. Do not release the screwdriver until the assembly is secured.",
+      "depends_on": [
+        "caps-install"
+      ],
+      "source_pdf_pages": [
+        220
+      ],
+      "verification": [
+        "UP mark upward; new gaskets correctly located; mounting bolts 10 N\u00b7m; rod held retracted until secured."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=220"
+      ],
+      "origin": "Original source-based summary; logging and fault-stop actions are workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "tensioner-release",
+      "title": "Release the tensioner",
+      "instruction": "Release the screwdriver and verify smooth rod extension. Fit the new cap-bolt gasket at position 5 and tighten the cap bolt to 6 N\u00b7m. Account for the screwdriver before rotating the engine.",
+      "depends_on": [
+        "tensioner-install"
+      ],
+      "source_pdf_pages": [
+        220,
+        221
+      ],
+      "verification": [
+        "Rod released and extended; new cap gasket fitted; cap bolt 6 N\u00b7m."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=220",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=221"
+      ],
+      "origin": "Original source-based summary; logging and fault-stop actions are workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "timing-verify",
+      "title": "Verify timing by hand",
+      "instruction": "With cam caps and tensioner fully installed, turn the crankshaft counterclockwise by hand for several complete turns. Stop at abnormal resistance. Return to the rotor TDC mark and confirm both cam-sprocket match marks align with their specified head/cap surfaces as illustrated. If any mark is wrong, do not start the engine; correct timing through the cam installation sequence before repeating this check.",
+      "depends_on": [
+        "tensioner-release"
+      ],
+      "source_pdf_pages": [
+        217,
+        220,
+        221
+      ],
+      "verification": [
+        "Smooth hand rotation; rotor TDC and both cam marks align after several turns."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=217",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=220",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=221"
+      ],
+      "origin": "Original source-based summary; logging and fault-stop actions are workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "remeasure",
+      "title": "Measure all four clearances again",
+      "instruction": "At the verified TDC position and with the engine still at room temperature, measure between each cam lobe and its lifter. Record all four results. Each intake must be 0.10\u20130.17 mm; each exhaust must be 0.15\u20130.22 mm. An unresolved boundary or out-of-range result is not a completed adjustment.",
+      "depends_on": [
+        "timing-verify"
+      ],
+      "source_pdf_pages": [
+        91,
+        92,
+        93
+      ],
+      "verification": [
+        "Four definite cold readings recorded; all within exact ranges."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=91",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=92",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=93"
+      ],
+      "origin": "Original source-based summary; logging and fault-stop actions are workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "cover-install",
+      "title": "Reseal the cylinder head",
+      "instruction": "Remove tools and loose material from the work area. Refit the top timing-chain guide, a new cover gasket and a new spark-plug-hole gasket in their original positions. Apply ThreeBond No.1541C to the cover gasket as specified in the source diagram, seat the cover without trapping the seals, and tighten its three bolts evenly to 10 N\u00b7m.",
+      "depends_on": [
+        "remeasure"
+      ],
+      "source_pdf_pages": [
+        214,
+        215,
+        221
+      ],
+      "verification": [
+        "Guide present; two new seals fitted; correct sealant used; cover bolts 10 N\u00b7m."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=214",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=215",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=221"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": false
+    },
+    {
+      "id": "plug-access-close",
+      "title": "Close the service openings",
+      "instruction": "Reconnect the breather hose. Clean the spark plug and its gasket contact surface, install the plug at 13 N\u00b7m and refit its cap. Install two new access-screw O-rings with lithium-soap-based grease, and apply engine oil to the access-screw threads as shown in the service diagram. Tighten the timing-mark screw to 6 N\u00b7m and crankshaft-end screw to 10 N\u00b7m.",
+      "depends_on": [
+        "cover-install"
+      ],
+      "source_pdf_pages": [
+        58,
+        97,
+        221,
+        216
+      ],
+      "verification": [
+        "Breather/plug cap connected; plug13/access6-and10 N\u00b7m; two new greased O-rings seated; screw threads oiled."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=216"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": false
+    },
+    {
+      "id": "tank-install",
+      "title": "Reconnect the fuel system",
+      "instruction": "Refit the tank on its retained dampers/collars. Tighten its two front mounting bolts to 8 N\u00b7m and the tank retaining screw to 4 N\u00b7m. Remove the temporary joint covers, push the fuel hose fully onto the pipe until it clicks, and slide the connector cover back into its locked position. Keep the hose holder correctly oriented, with no kink or pinch. Reconnect the pump plug.",
+      "depends_on": [
+        "plug-access-close"
+      ],
+      "source_pdf_pages": [
+        306,
+        308
+      ],
+      "verification": [
+        "Tank front bolts8 N\u00b7m/retaining screw4 N\u00b7m; hose latched/covered/routed; pump plug connected."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=306",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=308"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": false
+    },
+    {
+      "id": "body-install",
+      "title": "Refit the panels and seat",
+      "instruction": "Locate the radiator-guard projections in the shroud holes, then install the shrouds at 7 N\u00b7m. Refit the air-filter-case cover by engaging its projection and both ribs. Slide side-cover tabs into their slots; the right-cover rib sits under the rear-fender rib. Tighten ordinary left/right side-cover bolts to 7 N\u00b7m and the two seat bolts to 13 N\u00b7m. Refit the sub-seat with its tether untwisted, then press, rotate and secure its quick fastener.",
+      "depends_on": [
+        "tank-install"
+      ],
+      "source_pdf_pages": [
+        38,
+        101,
+        123,
+        124,
+        125,
+        126,
+        127
+      ],
+      "verification": [
+        "Tabs/ribs seated; shrouds/side-cover bolts7 N\u00b7m; seat bolts13 N\u00b7m; quick fastener locked."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=38",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=101",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=123",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=124",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=125",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=126",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=127"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": false
+    },
+    {
+      "id": "closeout",
+      "title": "Finish the inspection record",
+      "instruction": "Restore fuel safely and secure the tank cap. Account for tools, wire, cloths, joint covers and hardware. Check for trapped hoses/wires/seals and any fuel leak. Save before/after readings, timing verification, replaced parts and actual work performed. Mark only this bounded operation complete when all final measurements and assembly checks pass; record unresolved faults instead of claiming repair.",
+      "depends_on": [
+        "body-install"
+      ],
+      "source_pdf_pages": [
+        91,
+        308
+      ],
+      "verification": [
+        "Four readings saved; all closures checked; outstanding adjustment remains visible."
+      ],
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": true
+    }
+  ],
+  "publication_status": "LOCAL_REVIEWED_NOT_IMPORTED",
+  "reviewed_at": "2026-09-13T19:36:12.232295+00:00",
+  "exclusions_detail": [
+    "No oil-nozzle removal, cylinder-head removal, piston/ring work, valve-seat repair or cam journal repair.",
+    "Source-diagram dependencies must be visible during work, not reduced to an unlabelled text checklist.",
+    "Not physically tested on a motorcycle; completion requires recorded checks and does not establish general ride readiness."
+  ],
+  "fact_ids": [
+    "yamaha-2026-yz450f-spec-032",
+    "yamaha-2026-yz450f-spec-033"
+  ],
+  "derivation": {
+    "source_artifact": "../workshop-2026/valve-inspection-v1.procedure.json",
+    "sha256": "bd29071a272a48dc432388033793ab052041db4b3232d95021e608488acb49c8",
+    "method": "Reuses reviewed access and closure only; newly reviewed internal steps inserted. Original file unchanged."
+  },
+  "repeat_policy": {
+    "trigger": "Any remeasured clearance is outside specification",
+    "action": "Repeat cam removal, chart selection, pad installation, cam/tensioner assembly and all timing/clearance checks with the newly installed pad recorded as the original for that iteration. Never loosen caps against an installed tensioner or skip timing verification.",
+    "source_pdf_pages": [
+      92,
+      93,
+      217,
+      220,
+      221
+    ],
+    "success": "All four definite cold readings within range; full closure complete."
+  },
+  "chart_policy": {
+    "mode": "MANUAL_OEM_LOOKUP_ONLY",
+    "intake_pdf_page": 94,
+    "exhaust_pdf_page": 95,
+    "unsupported_original_pad_last_digits": [
+      3,
+      7
+    ],
+    "blank_cell": "STOP_NO_SELECTION",
+    "between_chart_intervals": "STOP_RESOLVE_MEASUREMENT",
+    "automatic_formula": null
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED",
+  "reviewer": "/root",
+  "artifact_sha256": "bffa50837ce4db3e3b8e5e312e82c5de38e2ede1bf1895ce02b9cdf3ae699a83",
+  "reviewed_candidate_sha256": "85aedbc6431c6a7815feae4147571200541460495d342e29c2f614b56f87942a",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2022,
+    "region": "US",
+    "variant": "standard"
+  },
+  "review": "Root independently reviewed all six composition adaptations and approved the explicit lower-entry continuation correction. Unadapted instructions/verifications remain identical to approved origins under the read-only validator.",
+  "reviewed_previous_candidate_sha256": "a0f4880eca056cd4ab4ce7626dcfdd5dae627afedfc1d56989a43624675c9698",
+  "resolved_findings": [
+    "Lower entry now points to the top-end/refit/commissioning steps in this journey rather than separate work."
+  ],
+  "preserved": [
+    "Piston cloth removed before case opening",
+    "Matched crank/chain/cam replacement disposition",
+    "Initial0.90L versus later filter-service0.65L",
+    "All four external oil-check/tank records",
+    "Original lower bytes and two-field correction bound"
+  ],
+  "approval_only_changes": [
+    "publication_status",
+    "source.review_status",
+    "source.review_note",
+    "integration_status",
+    "status"
+  ]
+}

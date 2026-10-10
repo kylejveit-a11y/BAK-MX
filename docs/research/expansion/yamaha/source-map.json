@@ -1,0 +1,146 @@
+[
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ250F",
+      "model_year": 2022,
+      "variant": "standard",
+      "region": "US"
+    },
+    "local_pdf_path": "/tmp/B7B-2819U-13.pdf",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-13_02.pdf",
+    "document_sha256": "17e7cc840c86a2afe05fbe38a5197778932470ad4d57e0a78b08eed3e386bc4f",
+    "document_revision": "B7B-2819U-13 / LIT-11626-35-11; First edition April 2021",
+    "expected_table_rows": 164,
+    "extracted_rows": 164,
+    "table_enumeration_checked": true
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ450F",
+      "model_year": 2022,
+      "variant": "standard",
+      "region": "US"
+    },
+    "local_pdf_path": "/tmp/B2W-2819U-12.pdf",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf",
+    "document_sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608",
+    "document_revision": "B2W-2819U-12 / LIT-11626-35-03; First edition March 2021",
+    "expected_table_rows": 162,
+    "extracted_rows": 162,
+    "table_enumeration_checked": true
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ250F",
+      "model_year": 2023,
+      "variant": "standard",
+      "region": "US"
+    },
+    "local_pdf_path": "/tmp/BSB.pdf",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BSB-2819U-10_02.pdf",
+    "document_sha256": "d0a100edf6abb20bc424fe6f0924e007993abb0a81c0893ea09088efa3689217",
+    "document_revision": "BSB-2819U-10 / LIT-11626-36-26; First edition March 2022",
+    "expected_table_rows": 163,
+    "extracted_rows": 163,
+    "table_enumeration_checked": true
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ450F",
+      "model_year": 2023,
+      "variant": "standard",
+      "region": "US"
+    },
+    "local_pdf_path": "/tmp/BHR.pdf",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf",
+    "document_sha256": "9a8605e26301ba1d0d1d21e93d23cca721bdcdbece6188775626a8819332aa9f",
+    "document_revision": "BHR-2819U-10 / LIT-11626-36-32; First edition July 2022",
+    "expected_table_rows": 162,
+    "extracted_rows": 162,
+    "table_enumeration_checked": true
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ250F",
+      "model_year": 2024,
+      "variant": "standard",
+      "region": "US"
+    },
+    "local_pdf_path": "/tmp/BMF.pdf",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+    "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+    "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+    "expected_table_rows": 165,
+    "extracted_rows": 165,
+    "table_enumeration_checked": true
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ450F",
+      "model_year": 2024,
+      "variant": "standard",
+      "region": "US"
+    },
+    "local_pdf_path": "/tmp/BHR-2819U-11.pdf",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf",
+    "document_sha256": "6e784b3b15fe1e131f0e385676ca2873e74d783ee2499ce561e595bcea9ca9be",
+    "document_revision": "BHR-2819U-11 / LIT-11626-37-11; First edition February 2023",
+    "expected_table_rows": 163,
+    "extracted_rows": 163,
+    "table_enumeration_checked": true
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ250F",
+      "model_year": 2025,
+      "variant": "standard",
+      "region": "US"
+    },
+    "local_pdf_path": "/tmp/D01-2819U-10.pdf",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D01-2819U-10_02.pdf",
+    "document_sha256": "fc8a31623daae1c746126688fac22c0b0698611a03dc98083876d2a3516a96da",
+    "document_revision": "D01-2819U-10 / LIT-11626-38-27; First edition April 2024",
+    "expected_table_rows": 165,
+    "extracted_rows": 165,
+    "table_enumeration_checked": true
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ450F",
+      "model_year": 2025,
+      "variant": "standard",
+      "region": "US"
+    },
+    "local_pdf_path": "/tmp/D02-2819U-10.pdf",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf",
+    "document_sha256": "5005e7d8492c9482dfe44c6d752609a9a70a836f5b1dc94be3149d5d493de8ac",
+    "document_revision": "D02-2819U-10 / LIT-11626-38-16; First edition March 2024",
+    "expected_table_rows": 163,
+    "extracted_rows": 163,
+    "table_enumeration_checked": true
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ250F",
+      "model_year": 2026,
+      "variant": "standard",
+      "region": "US"
+    },
+    "local_pdf_path": "/tmp/DR8-2819U-10.pdf",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/DR8-2819U-10_02.pdf",
+    "document_sha256": "1a4cbe46f057fdedfcb50bde0bc7f67180eb649725f8a18f756dd6d12588bec9",
+    "document_revision": "DR8-2819U-10 / LIT-11626-39-37; First edition May 2025",
+    "expected_table_rows": 164,
+    "extracted_rows": 164,
+    "table_enumeration_checked": true
+  }
+]

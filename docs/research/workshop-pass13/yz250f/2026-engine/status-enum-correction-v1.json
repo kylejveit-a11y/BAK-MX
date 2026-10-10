@@ -1,0 +1,16 @@
+[
+  {
+    "path": "top-end-teardown-inspection-v1.procedure.json",
+    "before_sha256": "fbda369b11a406b460cf96eacf9463ae4b63df0014e96a545daf90dec7e220c0",
+    "after_sha256": "88e9c1f18c94bff4ab345a8454882220ee8657c0155c5773356d5df3193f3805",
+    "field": "status",
+    "reason": "Root required exact runtime schema enum; no mechanical change"
+  },
+  {
+    "path": "original-head-valve-reassembly-v1.procedure.json",
+    "before_sha256": "46d56c4e482d121caa2ba1dd8a00e0bbd1ffbcca7d17b96ef93db562bc863596",
+    "after_sha256": "d881faccfead72197a8d8372cdad0b7d036bb6ad01b76d984259c8d13fd37423",
+    "field": "status",
+    "reason": "Root required exact runtime schema enum; no mechanical change"
+  }
+]

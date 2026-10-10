@@ -1,0 +1,282 @@
+{
+  "schema_version": 1,
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "publication_status": "LOCAL_REVIEWED_NOT_IMPORTED",
+  "id": "yamaha-2026-yz450f-exhaust-remove-refit-v1",
+  "title": "Remove and refit the stock exhaust",
+  "completeness": "Complete assembled-bike stock exhaust removal and installation with new joint gaskets, staged header-nut tightening and clamp locating features. Does not dismantle or repack the silencer.",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      56,
+      123,
+      124,
+      125,
+      126,
+      206,
+      211,
+      212,
+      213
+    ],
+    "printed_pages": [
+      "2-9",
+      "4-1 to 4-4",
+      "5-3",
+      "5-8 to 5-10"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "PDF206 and211-213 visually reviewed this pass; general/body pages previously reviewed. Exact gasket and clamp diagrams mandatory."
+  },
+  "applicability": {
+    "included": "Stock US 2026 YZ450F exhaust and bodywork",
+    "excluded": [
+      "Other years/models",
+      "Aftermarket exhaust",
+      "Silencer disassembly or repacking",
+      "Header protector removal"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "required_tools": [
+    {
+      "name": "Stable stand and support for exhaust components"
+    },
+    {
+      "name": "Appropriate body/exhaust sockets and calibrated torque wrench",
+      "range": "7\u201330 N\u00b7m"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "New exhaust gaskets at positions 6, 8 and 9 in PDF206",
+      "purpose": "Header-to-head and both separated pipe joints; identify the exact stock parts before starting"
+    }
+  ],
+  "preflight": [
+    "Stopped engine and exhaust fully cool; bike stable.",
+    "Exact stock hardware and three new joint gaskets available.",
+    "Undamaged fasteners; normal general clean/dry thread conditions unless a specific source instruction overrides."
+  ],
+  "critical_stop_conditions": [
+    "Joint cannot seat or clamp locating projection cannot engage correctly.",
+    "Damaged threads, gasket seat or exhaust support.",
+    "Exhaust contacts bodywork or another component after tightening."
+  ],
+  "steps": [
+    {
+      "id": "access",
+      "title": "Expose the exhaust mounts",
+      "instruction": "Release and lift the tethered sub-seat, remove the main-seat bolts and slide the seat rearward. Remove the right side-cover bolts and collars, then slide the cover out of its upper/lower locating slots. Retain all hardware by location. No fuel-system work is needed.",
+      "depends_on": [],
+      "source_pdf_pages": [
+        123,
+        124,
+        125,
+        126
+      ],
+      "verification": [
+        "Right side exposed; tabs and hardware retained."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=123",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=124",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=125",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=126"
+      ],
+      "record_required": false,
+      "origin": "Original source-based summary with support and logging workflow adaptations."
+    },
+    {
+      "id": "silencer-remove",
+      "title": "Remove the complete silencer",
+      "instruction": "Support the silencer. Loosen its joint clamp, remove its two mounting bolts and lift the complete silencer off its joint. Keep the silencer body, end cap and packing assembled.",
+      "depends_on": [
+        "access"
+      ],
+      "source_pdf_pages": [
+        206
+      ],
+      "verification": [
+        "Complete silencer supported and removed; internals untouched."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=206"
+      ],
+      "record_required": false,
+      "origin": "Original source-based summary with support and logging workflow adaptations."
+    },
+    {
+      "id": "midpipe-remove",
+      "title": "Remove the intermediate pipe",
+      "instruction": "Loosen the pipe-2 joint clamp and remove the exhaust-pipe bracket bolt while supporting the pipe. Move pipe 2 through the clearance path shown in PDF211 and remove it without forcing nearby components.",
+      "depends_on": [
+        "silencer-remove"
+      ],
+      "source_pdf_pages": [
+        206,
+        211
+      ],
+      "verification": [
+        "Pipe 2 removed; mounting hardware retained."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=206",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=211"
+      ],
+      "record_required": false,
+      "origin": "Original source-based summary with support and logging workflow adaptations."
+    },
+    {
+      "id": "header-remove",
+      "title": "Remove the header and old seals",
+      "instruction": "Remove the header nuts and header pipe. Leave the header protector attached. Remove the old head gasket and the two pipe-joint gaskets; inspect joint faces and supports for damage before refitting.",
+      "depends_on": [
+        "midpipe-remove"
+      ],
+      "source_pdf_pages": [
+        206
+      ],
+      "verification": [
+        "Header removed; all three separated joint seals identified; protector untouched."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=206"
+      ],
+      "record_required": false,
+      "origin": "Original source-based summary with support and logging workflow adaptations."
+    },
+    {
+      "id": "header-install",
+      "title": "Seat the new header gasket",
+      "instruction": "Install the new gasket at the head and refit header pipe 1. Tighten all header nuts first to 7 N\u00b7m, then retighten them to 10 N\u00b7m. Do not apply the protector-screw locking-agent note to these nuts.",
+      "depends_on": [
+        "header-remove"
+      ],
+      "source_pdf_pages": [
+        206,
+        212
+      ],
+      "verification": [
+        "New head gasket; all header nuts 7 then 10 N\u00b7m."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=206",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=212"
+      ],
+      "record_required": true,
+      "origin": "Original source-based summary with support and logging workflow adaptations."
+    },
+    {
+      "id": "midpipe-install",
+      "title": "Locate pipe 2 and its clamp",
+      "instruction": "Install the new pipe-joint gaskets in their PDF206 positions. Refit the pipe-2 clamp, pipe 2 and bracket bolt. At each joint, engage the clamp projection in the pipe/silencer slot and keep the clamp off the raised projection illustrated in PDF212. Leave final bracket and clamp tightening until the silencer is seated.",
+      "depends_on": [
+        "header-install"
+      ],
+      "source_pdf_pages": [
+        206,
+        212
+      ],
+      "verification": [
+        "Fresh joint seals seated; clamp locating features correct."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=206",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=212"
+      ],
+      "record_required": false,
+      "origin": "Original source-based summary with support and logging workflow adaptations."
+    },
+    {
+      "id": "silencer-install",
+      "title": "Refit the complete silencer",
+      "instruction": "Refit the silencer clamp and complete silencer on the seated joint. Install the retained mounting hardware and tighten both silencer mounting bolts to 30 N\u00b7m.",
+      "depends_on": [
+        "midpipe-install"
+      ],
+      "source_pdf_pages": [
+        206,
+        212,
+        213
+      ],
+      "verification": [
+        "Both silencer mounts 30 N\u00b7m; joints fully engaged."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=206",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=212",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=213"
+      ],
+      "record_required": true,
+      "origin": "Original source-based summary with support and logging workflow adaptations."
+    },
+    {
+      "id": "joints-final",
+      "title": "Tighten the bracket and both clamps",
+      "instruction": "Confirm front and rear joints remain fully inserted while tightening the exhaust-pipe bracket bolt to 20 N\u00b7m, pipe-2 clamp bolt to 16 N\u00b7m and silencer clamp bolt to 16 N\u00b7m.",
+      "depends_on": [
+        "silencer-install"
+      ],
+      "source_pdf_pages": [
+        213
+      ],
+      "verification": [
+        "Bracket 20 N\u00b7m; each joint clamp 16 N\u00b7m; projections correctly located."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=213"
+      ],
+      "record_required": true,
+      "origin": "Original source-based summary with support and logging workflow adaptations."
+    },
+    {
+      "id": "body-close",
+      "title": "Restore bodywork and check the installation",
+      "instruction": "Slide the right-cover tabs into their slots with its rib under the rear-fender rib; refit its collars/bolts at 7 N\u00b7m. Refit the main seat and its two bolts at 13 N\u00b7m. Secure the sub-seat quick fastener with its tether untwisted. Check exhaust support, gasket/joint seating and clearance from bodywork. Record the replaced seals and final torques; this completes removal/refit only, not silencer repacking.",
+      "depends_on": [
+        "joints-final"
+      ],
+      "source_pdf_pages": [
+        123,
+        124,
+        125,
+        126,
+        206,
+        213
+      ],
+      "verification": [
+        "Body secure; supported exhaust with clearances and joint seating checked; hardware accounted for."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=123",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=124",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=125",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=126",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=206",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=213"
+      ],
+      "record_required": true,
+      "origin": "Original source-based summary with support and logging workflow adaptations."
+    }
+  ],
+  "reviewed_at": "2026-09-13T19:37:46.637810+00:00"
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED",
+  "sources": [
+    {
+      "id": "yamaha-us-2024-yz450f-oem",
+      "source_id": "yamaha-us-2024-yz450f-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf",
+      "sha256": "6e784b3b15fe1e131f0e385676ca2873e74d783ee2499ce561e595bcea9ca9be",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\BHR-2819U-11_02.pdf",
+      "pdf_pages": [
+        8,
+        23,
+        47,
+        92,
+        93,
+        231,
+        233,
+        234,
+        235,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "lower-engine-bench-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "15a08ca72cf2c86a03d4458dd6ecc501b44738cc2fc4b817d560e1f3fe354d1e",
+      "source_id": "yamaha-us-2024-yz450f-oem",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "review_status": "APPROVED"
+    }
+  ],
+  "author_review": {
+    "path": "lower-author-review-v1.json",
+    "sha256": "f6a8a4760c0394441f894887b583d98a1d17ee03095f7df48e46084748502c32"
+  },
+  "independent_review": {
+    "path": "lower-independent-review-v1.json",
+    "sha256": "0d012a6e7dcd3becd570ee655bd1ca375d9eed7465b5d0010b2aac98f690019d",
+    "status": "APPROVED"
+  }
+}

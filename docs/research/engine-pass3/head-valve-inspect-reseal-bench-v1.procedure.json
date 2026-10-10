@@ -1,0 +1,365 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2026-yz450f-head-valve-inspect-reseal-bench-v1",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Inspect valves and renew stem seals",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete bounded bench operation from the declared entry state to the declared exit state. Whole-bike access and downstream engine closure are separate dependencies.",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      7,
+      56,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234
+    ],
+    "printed_pages": [
+      "Symbols (unnumbered)",
+      "2-9",
+      "5-24",
+      "5-25",
+      "5-26",
+      "5-27",
+      "5-28",
+      "5-29",
+      "5-30",
+      "5-31"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "All cited operation pages visually reviewed. General symbols and conditional torque rules retained."
+  },
+  "applicability": {
+    "included": "Exact US2026 YZ450F standard stock components only",
+    "excluded": [
+      "Guide pressing/reaming and seat machining",
+      "Lapping original titanium valves",
+      "Whole-head replacement or cam clearance adjustment"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "affected_components": [
+    "engine",
+    "cylinder_head",
+    "valves"
+  ],
+  "required_tools": [
+    {
+      "name": "14mm valve lapper90890-04101/YM-A8998"
+    },
+    {
+      "name": "Spring compressor90890-04200/YM-04019;22mm adapter90890-04108/YM-04108"
+    },
+    {
+      "name": "Guide bore gauge, stem micrometer, dial indicator/supports, contact-width measure"
+    },
+    {
+      "name": "Soft-face hammer, clean labeled trays"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "Four new stem seals"
+    },
+    {
+      "name": "Molybdenum-disulfide oil and engine oil"
+    },
+    {
+      "name": "Blue layout fluid, clean test solvent"
+    },
+    {
+      "name": "Exact replacement springs when required"
+    }
+  ],
+  "preflight": [
+    "Head removed and cams out; original valve positions identifiable.",
+    "Original-valve reuse path only; repair findings may require separate valve/guide/head service."
+  ],
+  "entry_state": [
+    "Head removed and cams out; original valve positions identifiable.",
+    "Original-valve reuse path only; repair findings may require separate valve/guide/head service."
+  ],
+  "exit_state": [
+    "Serviceable original valves installed with new seals; cams and final clearance check remain."
+  ],
+  "critical_stop_conditions": [
+    "Any required measurement unresolved or replacement criteria not satisfied.",
+    "Unidentified diagram orientation, missing parts, damage or abnormal binding."
+  ],
+  "material_policy": {
+    "LT": "Locking agent (LOCTITE) per PDF7. Grade unspecified by this manual; no grade inferred.",
+    "lubrication": "Follow each explicit E/M/LS/S application; general dry torque does not override a lubricated joint."
+  },
+  "steps": [
+    {
+      "id": "entry",
+      "title": "Identify the head and valve positions",
+      "instruction": "Start with the head removed and cams out. This route inspects and reseals the original serviceable valves; valve/guide replacement and seat machining must be separately resolved if inspection finds a fault. Keep the two intake and two exhaust sets labeled.",
+      "source_pdf_pages": [
+        227,
+        228,
+        229
+      ],
+      "verification": [
+        "Head-on-bench state and four valve locations recorded."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=227",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=228",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=229"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": []
+    },
+    {
+      "id": "lifters",
+      "title": "Remove lifters and pads",
+      "instruction": "Protect the chain opening and lift each lifter/pad with the14mm valve lapper90890-04101/YM-A8998. Store each in its original valve position, recording pad identity.",
+      "source_pdf_pages": [
+        229
+      ],
+      "verification": [
+        "Four lifters/pads labeled and retained."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=229"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "entry"
+      ]
+    },
+    {
+      "id": "sealing",
+      "title": "Check the seats before disassembly",
+      "instruction": "With the valves still retained by their springs, put clean solvent in the intake/exhaust ports as shown; OEM mentions kerosene for this check. Look for leakage past each valve seat. Record each result and remove the solvent before continuing.",
+      "source_pdf_pages": [
+        229
+      ],
+      "verification": [
+        "Four separate sealing observations saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=229"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "lifters"
+      ]
+    },
+    {
+      "id": "strip",
+      "title": "Remove the four valve assemblies",
+      "instruction": "Using compressor90890-04200/YM-04019 with22mm adapter90890-04108/YM-04108, compress each spring and remove its two cotters. Release the compressor in control, then remove retainer, spring, valve, old stem seal and spring seat. Retain original positions.",
+      "source_pdf_pages": [
+        229,
+        230
+      ],
+      "verification": [
+        "Eight cotters, four each retainers/springs/valves/seats accounted for; old seals discarded."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=229",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=230"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "sealing"
+      ]
+    },
+    {
+      "id": "guide-check",
+      "title": "Measure stem-to-guide clearance",
+      "instruction": "Measure each guideID and matching stemOD at the illustrated measurement surfaces; subtract stemOD from guideID. Intake clearance limit0.080mm, exhaust0.100mm. Record all eight dimensions and four calculations. An out-of-limit pair requires guide replacement before this head can return.",
+      "source_pdf_pages": [
+        230
+      ],
+      "verification": [
+        "Each guideID, stemOD and calculated clearance saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=230"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "strip"
+      ]
+    },
+    {
+      "id": "valve-check",
+      "title": "Inspect valves and measure runout",
+      "instruction": "Remove deposits without damaging faces/seats. Inspect face condition and stem ends; a mushroomed tip requires replacement. Measure stem runout on the illustrated supports, limit0.020mm. New valves require new guides; every removed valve requires a new stem seal. Do not grind or lap the original titanium valves on this reuse route.",
+      "source_pdf_pages": [
+        231,
+        232
+      ],
+      "verification": [
+        "Four runouts and face/stem assessments saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=231",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=232"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "guide-check"
+      ]
+    },
+    {
+      "id": "seat-check",
+      "title": "Measure contact width",
+      "instruction": "Inspect seats for pitting/wear. Apply blue layout fluid to each valve face, insert its original valve and press it onto the seat to make a clean contact impression. Measure the wiped contact band; intake/exhaust width limit1.5mm. Seat damage or excessive width requires the source-directed head repair/replacement route before assembly.",
+      "source_pdf_pages": [
+        231
+      ],
+      "verification": [
+        "Four contact widths and seat conditions recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=231"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "valve-check"
+      ]
+    },
+    {
+      "id": "spring-check",
+      "title": "Check springs and lifters",
+      "instruction": "Measure spring free lengths: intake limit36.65mm, exhaust37.34mm; replace an out-of-limit spring. Inspect lifters for damage/scratches; source requires lifters and head replacement for this damage. Record the result for every part.",
+      "source_pdf_pages": [
+        232,
+        233
+      ],
+      "verification": [
+        "Four spring lengths and lifter conditions saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=232",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=233"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "seat-check"
+      ]
+    },
+    {
+      "id": "disposition",
+      "title": "Confirm that the retained-valve route is valid",
+      "instruction": "Proceed only when original valves/guides/seats are serviceable and no lapping or guide replacement is needed; record any new stock spring used. If repair is needed, preserve the open-head state and take the reviewed repair specification to the head-service operation. A valve used for lapping must never be installed for running, and any new valve requires the documented guide work.",
+      "source_pdf_pages": [
+        230,
+        231,
+        232
+      ],
+      "verification": [
+        "Retained-valve eligibility or unresolved repair recorded; no failed part carried forward."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=230",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=231",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=232"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "spring-check"
+      ]
+    },
+    {
+      "id": "assemble",
+      "title": "Install seats, new seals and original valves",
+      "instruction": "Clean the stem ends. Lubricate stems and new stem seals with molybdenum-disulfide oil. Return each spring seat, new seal, original valve, spring and retainer to its recorded position. Spring coils with the larger pitch face upward.",
+      "source_pdf_pages": [
+        233
+      ],
+      "verification": [
+        "Four new seals and original positions/spring direction recorded."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=233"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "disposition"
+      ]
+    },
+    {
+      "id": "cotters",
+      "title": "Secure each spring",
+      "instruction": "Compress each spring with the specified compressor/adapter, seat both cotters and release the tool in control. Lightly tap the valve tip with a soft-face hammer to seat the cotters; excessive force can damage the valve. Inspect all eight cotters before continuing.",
+      "source_pdf_pages": [
+        233,
+        234
+      ],
+      "verification": [
+        "Four retained springs and eight seated cotters verified."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=233",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=234"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "assemble"
+      ]
+    },
+    {
+      "id": "lifters-install",
+      "title": "Return pads and lifters",
+      "instruction": "Oil pads and lifters with engine oil and return them to their original positions. Verify that each lifter rotates smoothly by finger. Remove the protective cloth and account for all tools. Final valve clearances are measured after cam/tensioner installation.",
+      "source_pdf_pages": [
+        234
+      ],
+      "verification": [
+        "Four lifters smooth; pads matched; tools/cloth accounted for."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=234"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "cotters"
+      ]
+    }
+  ],
+  "reviewed_at": "2026-09-13",
+  "runtime_integration_requirement": "Enforce entry state and record_required. Completion certifies this bounded operation only; no automatic completion of upstream/downstream work."
+}

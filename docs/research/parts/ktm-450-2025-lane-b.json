@@ -1,0 +1,1397 @@
+{
+  "research_date": "2026-09-13",
+  "status": "partial",
+  "assemblies": [
+    {
+      "assembly_id": "throttle-body",
+      "assembly_name": "throttle body",
+      "source_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/throttle-body?fam=engine",
+      "source_table_row_count": 24,
+      "acquired_row_count": 24,
+      "table_complete": true,
+      "diagram_verified": false,
+      "parts": [
+        {
+          "callout": "1",
+          "description": "Throttle body",
+          "part_number": "A46041001000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "2",
+          "description": "MAP SENSOR CPL.",
+          "part_number": "77741085044",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "3",
+          "description": "FUEL PIPE CPL.",
+          "part_number": "79041013044",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "4",
+          "description": "Injector cmpl.",
+          "part_number": "79041023144",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "5",
+          "description": "TPS CPL.",
+          "part_number": "79041077044",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "6",
+          "description": "DKK Cover cpl.",
+          "part_number": "79141056044",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "7",
+          "description": "STARTER VALVE CPL.",
+          "part_number": "79041070000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "8",
+          "description": "IDLING ADJUSTING SCREW CPL.",
+          "part_number": "77741060044",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "9",
+          "description": "SEAL RING",
+          "part_number": "79041023030",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "11",
+          "description": "SPECIAL SCREW",
+          "part_number": "79041056020",
+          "suggested_order_quantity": "3",
+          "supersedes": null
+        },
+        {
+          "callout": "12",
+          "description": "O-RING",
+          "part_number": "75041077110",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "13",
+          "description": "SCREW THROTTLE POS. SENSOR",
+          "part_number": "61041077020",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "14",
+          "description": "O-RING",
+          "part_number": "75041085010",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "15",
+          "description": "PLATE",
+          "part_number": "77741085020",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "16",
+          "description": "SPECIAL SCREW",
+          "part_number": "81241085030",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "17",
+          "description": "O-RING",
+          "part_number": "60341023020",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "18",
+          "description": "SEAL RING",
+          "part_number": "75041023010",
+          "suggested_order_quantity": null,
+          "supersedes": null
+        },
+        {
+          "callout": "19",
+          "description": "SPECIAL SCREW M5X20",
+          "part_number": "79041013060",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "20",
+          "description": "TPS Cover cpl.",
+          "part_number": "79141078044",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "22",
+          "description": "AMBIENT-AIR TEMPERATURE SENSOR",
+          "part_number": "61041080000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "23",
+          "description": "SCREW FOR PLASTIC K50X18 T20",
+          "part_number": "0081050181",
+          "suggested_order_quantity": "2",
+          "supersedes": "0081500181"
+        },
+        {
+          "callout": "24",
+          "description": "Roll-over sensor",
+          "part_number": "A46041088000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "27",
+          "description": "ENGINE CONTROL UNIT EFI",
+          "part_number": "79641031000",
+          "suggested_order_quantity": null,
+          "supersedes": null
+        },
+        {
+          "callout": "28",
+          "description": "ECU rubber strap",
+          "part_number": "A46041031050",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        }
+      ]
+    },
+    {
+      "assembly_id": "timing-drive",
+      "assembly_name": "timing drive",
+      "source_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/timing-drive?fam=engine",
+      "source_table_row_count": 16,
+      "acquired_row_count": 16,
+      "table_complete": true,
+      "diagram_verified": false,
+      "parts": [
+        {
+          "callout": "1",
+          "description": "Camshaft, cmpl. with decal",
+          "part_number": "A48036010044",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "2",
+          "description": "Breather centrifuge",
+          "part_number": "79536010010",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "3",
+          "description": "o-ring 10.00x1.00 NBR70",
+          "part_number": "0770010010",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "4",
+          "description": "Camshaft bracket",
+          "part_number": "79536012100",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "5",
+          "description": "rocker arm shaft bolt",
+          "part_number": "79536084000",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "10",
+          "description": "GASKET TIMING CHAIN TENSIONER",
+          "part_number": "59036003150",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "11",
+          "description": "TIMINGCHAIN TENSIONER CPL.RAC.",
+          "part_number": "59036003000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "13",
+          "description": "HH collar screw M6x16 TX30",
+          "part_number": "0025060166",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "16",
+          "description": "SHAFT SEAL RING 18X24X4",
+          "part_number": "0760182442",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "17",
+          "description": "NEEDLE BEAR.HK1812 18/24/12 05",
+          "part_number": "0618182412",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "18",
+          "description": "NEEDLE SLEEVE HK4012B40X47X12",
+          "part_number": "0618404712",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "20",
+          "description": "Timing chain",
+          "part_number": "A46036013000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "21",
+          "description": "Slide rail",
+          "part_number": "79536002100",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "22",
+          "description": "Slide bars",
+          "part_number": "79536001100",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "23",
+          "description": "BUSHING SCREW M6",
+          "part_number": "77236001160",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "25",
+          "description": "FAIL SAFE",
+          "part_number": "79436018000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        }
+      ]
+    },
+    {
+      "assembly_id": "transmission-i---main-shaft",
+      "assembly_name": "transmission i - main shaft",
+      "source_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/transmission-i-_-main-shaft?fam=engine",
+      "source_table_row_count": 17,
+      "acquired_row_count": 17,
+      "table_complete": true,
+      "diagram_verified": false,
+      "parts": [
+        {
+          "callout": "1",
+          "description": "Main shaft cmpl.",
+          "part_number": "A47033001000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "2",
+          "description": "bushing",
+          "part_number": "79133001010",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "3",
+          "description": "NEDDLE BEAR. K24X28X11,9 DIV.",
+          "part_number": "0405242812",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "4",
+          "description": "Idle gear 5 th.",
+          "part_number": "79333505000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "5",
+          "description": "Stop disk",
+          "part_number": "79333043000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "6",
+          "description": "Retaining ring 25x1,65",
+          "part_number": "77033022100",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "7",
+          "description": "Sliding gear 3 rd.",
+          "part_number": "79333503000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "8",
+          "description": "Trust washer",
+          "part_number": "79333030000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "9",
+          "description": "Idle gear 4 th",
+          "part_number": "79333504000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "10",
+          "description": "NEEDLE BEAR. K 22X26X13 TN",
+          "part_number": "0405222613",
+          "suggested_order_quantity": "1",
+          "supersedes": "56533099000"
+        },
+        {
+          "callout": "11",
+          "description": "Fixed gear 2nd g/16 teeth",
+          "part_number": "79333002000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "12",
+          "description": "DISK 20,2X32X1,3",
+          "part_number": "77233015000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "13",
+          "description": "Groove ball bearing 6205 C4 NTN",
+          "part_number": "0625062056",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "14",
+          "description": "Retaining bracket crankshaft bearing",
+          "part_number": "75030085100",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "15",
+          "description": "INT. TORX FLAT HEAD M5X12 T25",
+          "part_number": "0019050121S",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "16",
+          "description": "BALL BEARING TM 16004 C4",
+          "part_number": "0625160041",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "17",
+          "description": "SPACER SHIM 21X42X0.2",
+          "part_number": "77233088000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        }
+      ]
+    },
+    {
+      "assembly_id": "transmission-ii---countershaft",
+      "assembly_name": "transmission ii - countershaft",
+      "source_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/transmission-ii-_-countershaft?fam=engine",
+      "source_table_row_count": 25,
+      "acquired_row_count": 25,
+      "table_complete": true,
+      "diagram_verified": false,
+      "parts": [
+        {
+          "callout": "1",
+          "description": "Countershaft",
+          "part_number": "79333010000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "2",
+          "description": "NEDDLE BEAR. K24X28X11,9 DIV.",
+          "part_number": "0405242812",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "3",
+          "description": "Idler gear 2nd.",
+          "part_number": "79333512000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "4",
+          "description": "Stop disk",
+          "part_number": "79333043000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "5",
+          "description": "Retaining ring 25x1,65",
+          "part_number": "77033022100",
+          "suggested_order_quantity": "3",
+          "supersedes": null
+        },
+        {
+          "callout": "6",
+          "description": "Sliding gear 4th",
+          "part_number": "79333514000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "7",
+          "description": "STOP DISC 25,2X32X1,5",
+          "part_number": "59033030000",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "8",
+          "description": "NEEDLE BEAR. K 22X26X13 TN",
+          "part_number": "0405222613",
+          "suggested_order_quantity": "1",
+          "supersedes": "56533099000"
+        },
+        {
+          "callout": "9",
+          "description": "Idler gear 3rd",
+          "part_number": "79333513000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "10",
+          "description": "Sliding gear 5th",
+          "part_number": "79333515000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "11",
+          "description": "SHIM 20X32X1",
+          "part_number": "59033080000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "12",
+          "description": "NEEDLE BEAR. K20X24X13",
+          "part_number": "0405202413",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "13",
+          "description": "Idler gear 1 st.",
+          "part_number": "79333511000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "14",
+          "description": "STOP DISC 17,2X30X1",
+          "part_number": "56033030000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "15",
+          "description": "cylindrical roller bearing NJ205",
+          "part_number": "49030023000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "16",
+          "description": "SHAFT SEAL RING 32X45X7 BSLNBR",
+          "part_number": "0760324571",
+          "suggested_order_quantity": "1",
+          "supersedes": "0760324565"
+        },
+        {
+          "callout": "17",
+          "description": "O-RING  25,12X1,78 NBR70",
+          "part_number": "0770020220",
+          "suggested_order_quantity": "1",
+          "supersedes": "0770025020"
+        },
+        {
+          "callout": "18",
+          "description": "SPACER SLEEVE  COUNTER",
+          "part_number": "78133014000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "19",
+          "description": "Front sprocket 14áteeth",
+          "part_number": "A46033029014",
+          "suggested_order_quantity": "1",
+          "supersedes": "79233029014"
+        },
+        {
+          "callout": "19",
+          "description": "Front sprocket 13áteeth",
+          "part_number": "A46033029013",
+          "suggested_order_quantity": "0",
+          "supersedes": "79233029013"
+        },
+        {
+          "callout": "20",
+          "description": "SCREW 10.9+SPRING WASHER",
+          "part_number": "59033034044",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "21",
+          "description": "Ballbearing NTN 6203JR2CM21",
+          "part_number": "0625062038",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "22",
+          "description": "Retaining bracket crankshaft bearing",
+          "part_number": "75030085100",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "23",
+          "description": "INT. TORX FLAT HEAD M5X12 T25",
+          "part_number": "0019050121S",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "24",
+          "description": "CIRCLIP DIN 0471-17X1, 5",
+          "part_number": "0471170015",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        }
+      ]
+    },
+    {
+      "assembly_id": "valve-drive",
+      "assembly_name": "valve drive",
+      "source_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/valve-drive?fam=engine",
+      "source_table_row_count": 39,
+      "acquired_row_count": 39,
+      "table_complete": true,
+      "diagram_verified": false,
+      "parts": [
+        {
+          "callout": "1",
+          "description": "Inlet valve",
+          "part_number": "79536030000",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "2",
+          "description": "Outlet valve",
+          "part_number": "79536031000",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "4",
+          "description": "Valve spring washer",
+          "part_number": "79536036100",
+          "suggested_order_quantity": "4",
+          "supersedes": null
+        },
+        {
+          "callout": "5",
+          "description": "VALVE-STEM SEALING RACING",
+          "part_number": "59036027000",
+          "suggested_order_quantity": "4",
+          "supersedes": null
+        },
+        {
+          "callout": "7",
+          "description": "VALVE SPRING",
+          "part_number": "78936028000",
+          "suggested_order_quantity": "4",
+          "supersedes": null
+        },
+        {
+          "callout": "9",
+          "description": "Valve spring retainer",
+          "part_number": "79536032100",
+          "suggested_order_quantity": "4",
+          "supersedes": null
+        },
+        {
+          "callout": "11",
+          "description": "VALVE COLLET                07",
+          "part_number": "77336033100",
+          "suggested_order_quantity": "8",
+          "supersedes": null
+        },
+        {
+          "callout": "15",
+          "description": "Rocker arm outtake",
+          "part_number": "79536061144",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "18",
+          "description": "Rocker Arm Shaft Intake",
+          "part_number": "79536056000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "19",
+          "description": "exhaust rocker arm shaft",
+          "part_number": "79536057000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "20",
+          "description": "Rocker arm intake",
+          "part_number": "79536060100",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "23",
+          "description": "rocker arm shaft bolt",
+          "part_number": "79536085000",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "24",
+          "description": "rocker arm shaft bolt",
+          "part_number": "79536084000",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "25",
+          "description": "SHIM D=8,9/1,72",
+          "part_number": "77036035172",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        },
+        {
+          "callout": "25",
+          "description": "SHIM D=8,9/1,76",
+          "part_number": "77036035176",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        },
+        {
+          "callout": "25",
+          "description": "SHIM D=8,9/1,80",
+          "part_number": "77036035180",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        },
+        {
+          "callout": "25",
+          "description": "SHIM D=8,9/1,84",
+          "part_number": "77036035184",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        },
+        {
+          "callout": "25",
+          "description": "SHIM D=8,9/1,88",
+          "part_number": "77036035188",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        },
+        {
+          "callout": "25",
+          "description": "SHIM D=8,9/1,92",
+          "part_number": "77036035192",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        },
+        {
+          "callout": "25",
+          "description": "SHIM D=8,9/1,96",
+          "part_number": "77036035196",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        },
+        {
+          "callout": "25",
+          "description": "SHIM D=8,9/2,00",
+          "part_number": "77036035200",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        },
+        {
+          "callout": "25",
+          "description": "SHIM D=8,9/2,04",
+          "part_number": "77036035204",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        },
+        {
+          "callout": "25",
+          "description": "SHIM D=8,9/2,08",
+          "part_number": "77036035208",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        },
+        {
+          "callout": "25",
+          "description": "SHIM D=8,9/2,12",
+          "part_number": "77036035212",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        },
+        {
+          "callout": "25",
+          "description": "SHIM D=8,9/2,16",
+          "part_number": "77036035216",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        },
+        {
+          "callout": "25",
+          "description": "SHIM D=8,9/2,20",
+          "part_number": "77036035220",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        },
+        {
+          "callout": "25",
+          "description": "SHIM D=8,9/2,24",
+          "part_number": "77036035224",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        },
+        {
+          "callout": "25",
+          "description": "SHIM D=8,9/2,28",
+          "part_number": "77036035228",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        },
+        {
+          "callout": "25",
+          "description": "SHIM D=8,9/2,32",
+          "part_number": "77036035232",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        },
+        {
+          "callout": "25",
+          "description": "SHIM D=8,9/2,36",
+          "part_number": "77036035236",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        },
+        {
+          "callout": "25",
+          "description": "SHIM D=8,9/2,40",
+          "part_number": "77036035240",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        },
+        {
+          "callout": "25",
+          "description": "SHIM D=8,9/2,44",
+          "part_number": "77036035244",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        },
+        {
+          "callout": "25",
+          "description": "SHIM D=8,9/2,48",
+          "part_number": "77036035248",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        },
+        {
+          "callout": "25",
+          "description": "SHIM D=8,9/2,52",
+          "part_number": "77036035252",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        },
+        {
+          "callout": "25",
+          "description": "SHIM D=8,9/2,56",
+          "part_number": "77036035256",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        },
+        {
+          "callout": "25",
+          "description": "SHIM D=8,9/2,60",
+          "part_number": "77036035260",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        },
+        {
+          "callout": "25",
+          "description": "shim 8.9",
+          "part_number": "77036035201",
+          "suggested_order_quantity": null,
+          "supersedes": null
+        },
+        {
+          "callout": "30",
+          "description": "Valve springs kit 450",
+          "part_number": "79536029010",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        },
+        {
+          "callout": "99",
+          "description": "Valve Kit 450",
+          "part_number": "79536030010",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        }
+      ]
+    },
+    {
+      "assembly_id": "water-pump",
+      "assembly_name": "water pump",
+      "source_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/water-pump?fam=engine",
+      "source_table_row_count": 12,
+      "acquired_row_count": 12,
+      "table_complete": true,
+      "diagram_verified": false,
+      "parts": [
+        {
+          "callout": "5",
+          "description": "CAP NUT M6 STAINLESS STEEL",
+          "part_number": "61230045000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "6",
+          "description": "WATER PUMP ROTOR",
+          "part_number": "81235055020",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "7",
+          "description": "DISC WATER PUMP",
+          "part_number": "81235055110",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "8",
+          "description": "SHAFT SEAL RING 12X30X7 PTFE",
+          "part_number": "0760123073",
+          "suggested_order_quantity": "1",
+          "supersedes": "0760123072"
+        },
+        {
+          "callout": "11",
+          "description": "Gasket with carrier plate",
+          "part_number": "79435053100",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "12",
+          "description": "WATER PUMP COVER",
+          "part_number": "79435052000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "13",
+          "description": "HH collar screw M6x25 TX30",
+          "part_number": "0025060256",
+          "suggested_order_quantity": "1",
+          "supersedes": "0015060253"
+        },
+        {
+          "callout": "14",
+          "description": "HH COLLAR SCREW  M6X45    TX30",
+          "part_number": "0025060456",
+          "suggested_order_quantity": "1",
+          "supersedes": "0015060453"
+        },
+        {
+          "callout": "15",
+          "description": "HH collar screw M6x20 TX30",
+          "part_number": "0025060206",
+          "suggested_order_quantity": "1",
+          "supersedes": "0015060203"
+        },
+        {
+          "callout": "16",
+          "description": "CU-SEAL RING DIN7603-6X10X1",
+          "part_number": "0603061001",
+          "suggested_order_quantity": "1",
+          "supersedes": "8000H4591"
+        },
+        {
+          "callout": "17",
+          "description": "NEEDLE ROL.DIN5402 NRB 4X9,8",
+          "part_number": "0402040980",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "99",
+          "description": "WATER PUMP REP. KIT",
+          "part_number": "79435055015",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        }
+      ]
+    },
+    {
+      "assembly_id": "air-filter",
+      "assembly_name": "air filter",
+      "source_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/air-filter?fam=chassis",
+      "source_table_row_count": 19,
+      "acquired_row_count": 19,
+      "table_complete": true,
+      "diagram_verified": false,
+      "parts": [
+        {
+          "callout": "1",
+          "description": "Lower section of the air filter",
+          "part_number": "A46006001000EB",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "2",
+          "description": "Air filter panel",
+          "part_number": "A46006004000EB",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "3",
+          "description": "Air filter cover",
+          "part_number": "A46006003000EB",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "4",
+          "description": "Side fairing",
+          "part_number": "A46006005000EB",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "5",
+          "description": "Air filter box front part",
+          "part_number": "A46006001010EB",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "7",
+          "description": "HH collar screw M6x20 TX30",
+          "part_number": "0025060206",
+          "suggested_order_quantity": "2",
+          "supersedes": "0015060203"
+        },
+        {
+          "callout": "9",
+          "description": "SCREW F. PLASTIC K60X20AL  SW6",
+          "part_number": "0017060206",
+          "suggested_order_quantity": "5",
+          "supersedes": "0017060204"
+        },
+        {
+          "callout": "10",
+          "description": "Chain slider bushing",
+          "part_number": "77304066150",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "11",
+          "description": "exhaust spacer",
+          "part_number": "79105098000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "12",
+          "description": "HOSE CLAMP 45-65MM",
+          "part_number": "78006027000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "13",
+          "description": "Air boot",
+          "part_number": "A48006026100",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "14",
+          "description": "Air filter holding bracket",
+          "part_number": "A46006017000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "15",
+          "description": "Air filter support",
+          "part_number": "A46006016000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "16",
+          "description": "Air filter",
+          "part_number": "A46006015000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "19",
+          "description": "quick release rubber grommet",
+          "part_number": "47106003160",
+          "suggested_order_quantity": "5",
+          "supersedes": null
+        },
+        {
+          "callout": "23",
+          "description": "Splash protection",
+          "part_number": "A46004050000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "24",
+          "description": "EJOT PT screw K50x14",
+          "part_number": "0081050141",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "26",
+          "description": "SPECIAL SCREW M8X18 TORX45 SS",
+          "part_number": "79003003000",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "27",
+          "description": "special screw M6x12x3",
+          "part_number": "83008000012",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        }
+      ]
+    },
+    {
+      "assembly_id": "decal",
+      "assembly_name": "decal",
+      "source_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/decal?fam=chassis",
+      "source_table_row_count": 2,
+      "acquired_row_count": 2,
+      "table_complete": true,
+      "diagram_verified": false,
+      "parts": [
+        {
+          "callout": "1",
+          "description": "Number plate",
+          "part_number": "A46008091000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "2",
+          "description": "Displacement tabel set 450 SX-F",
+          "part_number": "A46008078026",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        }
+      ]
+    },
+    {
+      "assembly_id": "exhaust-system",
+      "assembly_name": "exhaust system",
+      "source_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/exhaust-system?fam=chassis",
+      "source_table_row_count": 16,
+      "acquired_row_count": 16,
+      "table_complete": true,
+      "diagram_verified": false,
+      "parts": [
+        {
+          "callout": "1",
+          "description": "Silencer SXF USA 350/450 preass.",
+          "part_number": "A47005079133",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "2",
+          "description": "DAMP. COMPON. BLACK",
+          "part_number": "77205068000",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "3",
+          "description": "BUSHING 7.5x12x28x8.3       11",
+          "part_number": "77205169000",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "5",
+          "description": "PAIR OF WASHERS M 6 NORDLOCK",
+          "part_number": "50233041000",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "6",
+          "description": "HH collar screw M6x30 TX30",
+          "part_number": "0025060306",
+          "suggested_order_quantity": "2",
+          "supersedes": "0015060303"
+        },
+        {
+          "callout": "7",
+          "description": "O-RING  80,00X2,00  VITON",
+          "part_number": "0770800021",
+          "suggested_order_quantity": "1",
+          "supersedes": "0770780021"
+        },
+        {
+          "callout": "8",
+          "description": "endcap cpl.",
+          "part_number": "A47005079060",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "9",
+          "description": "SCREW TORX M5X10",
+          "part_number": "78105081010",
+          "suggested_order_quantity": "5",
+          "supersedes": null
+        },
+        {
+          "callout": "10",
+          "description": "Rockwool preformed",
+          "part_number": "79305078520",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "11",
+          "description": "Rockwool preformed",
+          "part_number": "A46005078080",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "12",
+          "description": "exhaust spacer",
+          "part_number": "79105098000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "20",
+          "description": "Tension spring L=65mm",
+          "part_number": "A46005016000",
+          "suggested_order_quantity": "3",
+          "supersedes": "50305016200"
+        },
+        {
+          "callout": "40",
+          "description": "Header KTM 450 SXF",
+          "part_number": "A48005007033",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "41",
+          "description": "HH collar screw M8x25",
+          "part_number": "0025080256",
+          "suggested_order_quantity": "1",
+          "supersedes": "0015080253"
+        },
+        {
+          "callout": "42",
+          "description": "BUSHING 8.5x12x28x8.3",
+          "part_number": "77805069000",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "43",
+          "description": "Damper gray",
+          "part_number": "79105068000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        }
+      ]
+    },
+    {
+      "assembly_id": "front-brake-caliper",
+      "assembly_name": "front brake caliper",
+      "source_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/front-brake-caliper?fam=chassis",
+      "source_table_row_count": 13,
+      "acquired_row_count": 13,
+      "table_complete": true,
+      "diagram_verified": false,
+      "parts": [
+        {
+          "callout": "1",
+          "description": "CALIPER  NAT.  WITHOUT PADS",
+          "part_number": "7701301500101",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "2",
+          "description": "BRAKE CALIPER SUPPORT FRONT 09",
+          "part_number": "77013014000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "5",
+          "description": "REP. KIT SEALS 24MM",
+          "part_number": "77013021000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "6",
+          "description": "REP. KIT PISTON 24MM",
+          "part_number": "77013019000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "7",
+          "description": "BOLT CPL.                   09",
+          "part_number": "77013017000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "8",
+          "description": "RETAINING PLATE SET BREMBO",
+          "part_number": "77013018000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "9",
+          "description": "BRAKE PADS FRONT",
+          "part_number": "77713030000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "10",
+          "description": "BLEEDER SCREW WITH CAP",
+          "part_number": "61013020100",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "12",
+          "description": "CUP SET SHORT",
+          "part_number": "54613218100",
+          "suggested_order_quantity": "1",
+          "supersedes": "54613218000"
+        },
+        {
+          "callout": "15",
+          "description": "HH COLLAR SCREW M8X30     TX40",
+          "part_number": "0025080306S",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "21",
+          "description": "BRAKEHO. FRONT 1235MM     2000",
+          "part_number": "59013010000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "30",
+          "description": "sealing ring DIN 7603 10x14x1",
+          "part_number": "0603100141",
+          "suggested_order_quantity": "2",
+          "supersedes": "58038032010"
+        },
+        {
+          "callout": "35",
+          "description": "HOLLOW SCREW M10X1X19",
+          "part_number": "50213025000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        }
+      ]
+    }
+  ]
+}

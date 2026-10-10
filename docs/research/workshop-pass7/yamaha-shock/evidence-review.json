@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "decision": "INCOMPLETE_NO_NEW_EXECUTABLE_INTERNAL_SERVICE_EVIDENCE",
+  "database_writes": false,
+  "external_messages_sent": false,
+  "prior_review": "docs/research/workshop-pass6/yamaha-shock/REVIEW.md",
+  "new_sources": [
+    {
+      "id": "tt-usa-contact",
+      "url": "https://www.technicaltouchusa.com/contact",
+      "locator": "Contact Us / phone; Send us a message",
+      "fact": "Official company contact page lists 909-949-4155 and a contact form. Request addressed to its KYB motorcycle technical/service team; no named person or unverified email invented."
+    },
+    {
+      "id": "tt-usa-role",
+      "url": "https://www.technicaltouchusa.com/en/about",
+      "locator": "About us, first three paragraphs",
+      "fact": "Company describes itself as worldwide OEM distributor for KYB motorcycle suspension, with California US branch. Relevant recipient for exact stock part cross-reference and service documentation."
+    },
+    {
+      "id": "tt-usa-downloads",
+      "url": "https://www.technicaltouchusa.com/downloads",
+      "locator": "Product Catalog / Downloads",
+      "fact": "Public download area exposes 2021 KYB catalog; no exact 2026 stock-shock service sheet appeared in bounded review."
+    }
+  ],
+  "capture_note": "Sources read using web tool on 2026-09-13. Direct raw-byte capture via urllib returned HTTP403. No HTML/PDF source-byte hash is asserted; manifest binds this original research record and prior continuity only.",
+  "searches": [
+    "D03-22201 service shock",
+    "2026 YZ450F shock service manual KYB",
+    "120060007601 service instructions",
+    "2026 YZ450F shock rebuild KYB oil nitrogen",
+    "D03-22201-00 manual",
+    "site:technicaltouchusa.com 2026 manual",
+    "2026 YZ450F shock bleed",
+    "120205000601 instructions"
+  ],
+  "excluded_new_hit": {
+    "url": "https://www.motosport.com/blog/2024-yamaha-yz450f-rear-shock-service-guide",
+    "reason": "Search surfaced article explicitly titled 2024, not exact2026. No exact component-revision bridge; no values or procedure imported."
+  },
+  "remaining_questions": [
+    "Exact D03-22201-00-00 to KYB internal component cross-reference and six-port revision applicability",
+    "Depressurization interface, residual pressure confirmation and cap/clip/shaft extraction sequence",
+    "Individual seals, bladder, piston-band, retention renewals and orientations; bore/shaft rejection criteria",
+    "Shaft-end retention removal/renewal and final torque/thread preparation; compression assembly installation torque",
+    "Specified service fluid product, bleed and oil-space/shaft-position method and acceptance endpoint",
+    "Final nitrogen pressure with gauge, temperature and shaft-position conditions; final leak/full-stroke/damping checks"
+  ],
+  "release_rule": "No executable guide until these exact-applicability gaps are resolved by attributable source and independent review; specialist service availability does not itself supply procedure."
+}

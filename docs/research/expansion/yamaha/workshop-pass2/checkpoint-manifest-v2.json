@@ -1,0 +1,21 @@
+{
+  "id": "yamaha-workshop-pass2-coolant-checkpoint-v2",
+  "source_pdf_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+  "complete_bounded_procedures": [
+    "coolant-change-v1.procedure.json"
+  ],
+  "artifacts": [
+    {
+      "path": "coolant-change-v1.procedure.json",
+      "sha256": "8caf5ecacf1bc81e4b8e52c0ff4b97e6c34ac124169fcad9d7f79e45452d7368"
+    },
+    {
+      "path": "build_coolant_v1.py",
+      "sha256": "e6f96caa77c918e80b88cca761ce23e5939570ae7452f2c67c330b8999ad1c15"
+    },
+    {
+      "path": "COOLANT_REVIEW_V1.md",
+      "sha256": "2bdecffec530778ca8382f6a515e28cba3f0376730af959eebabd717030e8543"
+    }
+  ]
+}

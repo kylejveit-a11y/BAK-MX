@@ -1,0 +1,435 @@
+{
+  "schema_version": 1,
+  "status": "AUTHOR_SOURCE_REVIEWED",
+  "source_sha256": "9a8605e26301ba1d0d1d21e93d23cca721bdcdbece6188775626a8819332aa9f",
+  "template_sha256": "15a08ca72cf2c86a03d4458dd6ecc501b44738cc2fc4b817d560e1f3fe354d1e",
+  "template_usage": "Original structure and prose only; all 47 instructions and verification statements read against exact 2023 text and diagrams.",
+  "step_review": [
+    {
+      "step_id": "entry",
+      "source_pdf_pages": [
+        240,
+        242,
+        261,
+        268
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "generator-cover-out",
+      "source_pdf_pages": [
+        231,
+        233
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "rotor-out",
+      "source_pdf_pages": [
+        234
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "clutch-out",
+      "source_pdf_pages": [
+        240,
+        241,
+        244
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "boss-out",
+      "source_pdf_pages": [
+        241,
+        244
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "right-cover-out",
+      "source_pdf_pages": [
+        92,
+        93,
+        242
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "release-out",
+      "source_pdf_pages": [
+        243
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "shift-out",
+      "source_pdf_pages": [
+        250,
+        251,
+        252
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "drive-out",
+      "source_pdf_pages": [
+        255,
+        256,
+        257
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "pump-out",
+      "source_pdf_pages": [
+        259,
+        260
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "chain-out",
+      "source_pdf_pages": [
+        261,
+        265,
+        269
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "cases-open",
+      "source_pdf_pages": [
+        262,
+        265
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "transmission-out",
+      "source_pdf_pages": [
+        271,
+        272,
+        273,
+        274
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "crank-out",
+      "source_pdf_pages": [
+        268,
+        269
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "case-clean",
+      "source_pdf_pages": [
+        22,
+        262,
+        265,
+        266
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "bearings",
+      "source_pdf_pages": [
+        8,
+        22,
+        263,
+        264,
+        266
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "drive-seal",
+      "source_pdf_pages": [
+        22,
+        263,
+        266
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "crank-check",
+      "source_pdf_pages": [
+        269,
+        270
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "gearbox-check",
+      "source_pdf_pages": [
+        274,
+        275
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "gearbox-build",
+      "source_pdf_pages": [
+        8,
+        22,
+        271,
+        272,
+        273,
+        275,
+        276
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "crank-in",
+      "source_pdf_pages": [
+        263,
+        264,
+        268,
+        269,
+        270
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "transmission-in",
+      "source_pdf_pages": [
+        276,
+        277
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "shift-bars-in",
+      "source_pdf_pages": [
+        277
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "nozzles-strainer",
+      "source_pdf_pages": [
+        8,
+        261,
+        262,
+        266,
+        267
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "cases-close",
+      "source_pdf_pages": [
+        262,
+        266,
+        267
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "chain-in",
+      "source_pdf_pages": [
+        261,
+        265,
+        269
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "pump-inspect",
+      "source_pdf_pages": [
+        260
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "pump-build",
+      "source_pdf_pages": [
+        22,
+        259,
+        260
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "drives-inspect",
+      "source_pdf_pages": [
+        245,
+        257
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "balancer-in",
+      "source_pdf_pages": [
+        22,
+        255,
+        257,
+        258
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "primary-in",
+      "source_pdf_pages": [
+        8,
+        22,
+        255,
+        256,
+        258
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "shift-inspect",
+      "source_pdf_pages": [
+        252
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "shift-restore",
+      "source_pdf_pages": [
+        8,
+        250,
+        252,
+        253
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "shift-shaft",
+      "source_pdf_pages": [
+        22,
+        250,
+        253
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "release-check",
+      "source_pdf_pages": [
+        245,
+        246
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "release-in",
+      "source_pdf_pages": [
+        243,
+        246,
+        247
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "right-cover-in",
+      "source_pdf_pages": [
+        242,
+        246,
+        247
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "filter-in",
+      "source_pdf_pages": [
+        92,
+        93,
+        242
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "clutch-inspect",
+      "source_pdf_pages": [
+        244,
+        245,
+        246
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "clutch-base",
+      "source_pdf_pages": [
+        240,
+        241,
+        247
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "clutch-nut",
+      "source_pdf_pages": [
+        8,
+        240,
+        247,
+        248
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "clutch-pack",
+      "source_pdf_pages": [
+        241,
+        248
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "pressure-plate",
+      "source_pdf_pages": [
+        22,
+        248,
+        249
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "clutch-cover",
+      "source_pdf_pages": [
+        240,
+        249
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "rotor-check",
+      "source_pdf_pages": [
+        234,
+        235
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "generator-cover-in",
+      "source_pdf_pages": [
+        93,
+        231,
+        235
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "exit",
+      "source_pdf_pages": [
+        47,
+        93,
+        261,
+        267,
+        277
+      ],
+      "review": "Exact 2023 text and rendered diagrams checked."
+    }
+  ],
+  "differences": [
+    "General bearing, seal and circlip instructions are PDF22/printed1-10, not 2024 PDF23.",
+    "2023 circlip procedure spans275–276; both pages retained. Shift cam and shift drum refer to the illustrated indexed assembly; no parts interchangeability claim.",
+    "Exact2023 confirms primary120Nm engine oil, boss105Nm LOCTITE with washer/nut stack, shiftseal0–0.1mm LS, crank-only M arrow, identical depicted gearbox stacks and depths; no approval inherited from2024.",
+    "2023 PDF244 repeats pressure-plate damage inspection alongside spring check, also245. All pressure plates remain inspected."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "status": "AUTHOR_REVIEWED",
+  "cover": "2027 YZ250FV US LIT-11626-40-30",
+  "source_sha256": "ee02280139498348008b90fa4fed317228500c47caf76eb1712d1669e19d1578",
+  "text_pages": [
+    117,
+    118,
+    119,
+    120,
+    121,
+    412,
+    413
+  ],
+  "visual_pages": [
+    118,
+    119,
+    120,
+    121,
+    412,
+    413
+  ],
+  "settings": {
+    "fork_rebound": 12,
+    "fork_compression": 12,
+    "shock_rebound": 13,
+    "shock_high_turns": "1 5/8",
+    "shock_low_clicks": 8,
+    "preload_standard_mm": 7,
+    "preload_range_mm": [
+      1.5,
+      18
+    ],
+    "preload_mm_per_turn": 1.5,
+    "sag_mm": [
+      90,
+      100
+    ],
+    "bleed_torque_Nm": 1.3
+  },
+  "source_precision": "Compression diagram is119 while table118; shock new photographs120/121; sag uses molded triangular rear-fender mark412. No invented preload locknut torque."
+}

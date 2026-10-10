@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2023-yz250x-damping-baseline-v1",
+  "title": "Restore the stock fork and shock damping baseline",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ250X",
+    "model_year": 2023,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "publication_status": "APPROVED",
+  "component": "suspension",
+  "affected_components": [
+    "fork",
+    "shock",
+    "suspension"
+  ],
+  "applicability": {
+    "included": "Exact standard US 2023 YZ250X, original serviceable fork and shock with stock valving and identifiable adjusters.",
+    "excluded": [
+      "Other years or models, including the corresponding X/non-X model",
+      "Aftermarket/revalved suspension, damaged or unidentifiable adjusters",
+      "Spring preload changes, rider sag adjustment, fork bleeding and internal overhaul"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "entry_state": [
+    "Assembled bike with original serviceable suspension."
+  ],
+  "exit_state": [
+    "Original settings retained; stock damping baseline recorded and stationary movement checked."
+  ],
+  "preflight": [
+    "Confirm exact bike year/model and installed stock fork/shock.",
+    "Identify all controls using the linked exact manual diagrams."
+  ],
+  "critical_stop_conditions": [
+    "Damaged, leaking or binding suspension",
+    "Cannot identify the original adjuster or achieve its documented reference without force"
+  ],
+  "required_tools": [
+    {
+      "name": "Suitable secure bike support and correct fitting damping screw driver / high-speed adjuster tool"
+    }
+  ],
+  "required_parts": [],
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BRY-2819U-10_02.pdf",
+    "document_sha256": "57046da49115944c1bcb8fdc787017fe944416f23abd37c7b683ba3ce39556fe",
+    "document_revision": "BRY-2819U-10",
+    "pdf_pages": [
+      1,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89
+    ],
+    "printed_pages": [
+      "1: front matter",
+      "84: 3-18",
+      "85: 3-19",
+      "86: 3-20",
+      "87: 3-21",
+      "88: 3-22",
+      "89: 3-23"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Author checked exact-year tables and rendered controls; independent Yamaha engine reviewer approved all 32 bounded damping guides after checking actual source identities, values and split-page diagram references. No year inheritance or physical validation claimed."
+  },
+  "steps": [
+    {
+      "id": "inspect",
+      "title": "Check the suspension",
+      "instruction": "Secure the assembled 2023 YZ250X upright on level ground. Check fork tubes and shock for damage or leakage and the rear linkage for abnormal noise or binding. With the bike supported upright, apply the front brake and compress the fork; check smooth return. Check rear suspension movement. Resolve damage, leaks or unsmooth movement before setting damping. Leave spring rings, mounting fasteners, bleed screws and internal parts undisturbed.",
+      "depends_on": [],
+      "source_pdf_pages": [
+        84,
+        85,
+        86,
+        87,
+        88,
+        89
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BRY-2819U-10_02.pdf#page=84",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BRY-2819U-10_02.pdf#page=85",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BRY-2819U-10_02.pdf#page=86",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BRY-2819U-10_02.pdf#page=87",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BRY-2819U-10_02.pdf#page=88",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BRY-2819U-10_02.pdf#page=89"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record the actual setting or inspection result requested before continuing."
+      ],
+      "origin": "Exact-year OEM adjustment instructions; saved original/final settings are an authored workflow adaptation."
+    },
+    {
+      "id": "record",
+      "title": "Save the original settings",
+      "instruction": "Identify each control in the linked diagrams: fork rebound at each leg bottom, fork compression at each leg top, shock rebound at the lower mount, and the separate high-speed outer adjuster and low-speed center screw at the shock reservoir. One at a time, count the original clicks or turns gently inward to the fully hard reference, record them, then return that control to its original position. Save both fork sides and all three shock settings before changing the baseline. Never force a stop; stop if a control is unidentifiable or damaged. For an original marked adjuster also record its punch-mark position.",
+      "depends_on": [
+        "inspect"
+      ],
+      "source_pdf_pages": [
+        85,
+        86,
+        87,
+        88,
+        89
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BRY-2819U-10_02.pdf#page=85",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BRY-2819U-10_02.pdf#page=86",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BRY-2819U-10_02.pdf#page=87",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BRY-2819U-10_02.pdf#page=88",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BRY-2819U-10_02.pdf#page=89"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record the actual setting or inspection result requested before continuing."
+      ],
+      "origin": "Exact-year OEM adjustment instructions; saved original/final settings are an authored workflow adaptation."
+    },
+    {
+      "id": "fork-rebound",
+      "title": "Set fork rebound",
+      "instruction": "Using the illustrated rebound adjuster at the bottom of EACH fork leg, turn gently inward toward hard to its reference stop, then back outward toward soft 9 clicks. Record the actual final setting. Never force the adjuster beyond its travel. Set both legs equally. OEM notes that actual total adjuster travel may vary with production; do not force extra clicks or turns to imitate a nominal range.",
+      "depends_on": [
+        "record"
+      ],
+      "source_pdf_pages": [
+        85,
+        86
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BRY-2819U-10_02.pdf#page=85",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BRY-2819U-10_02.pdf#page=86"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record the actual setting or inspection result requested before continuing."
+      ],
+      "origin": "Exact-year OEM adjustment instructions; saved original/final settings are an authored workflow adaptation."
+    },
+    {
+      "id": "fork-compression",
+      "title": "Set fork compression",
+      "instruction": "Using the illustrated compression adjuster at the top of EACH fork leg, turn gently inward toward hard to its reference stop, then back outward toward soft 10 clicks. Record the actual final setting. Never force the adjuster beyond its travel. Set both legs equally. OEM notes that actual total adjuster travel may vary with production; do not force extra clicks or turns to imitate a nominal range.",
+      "depends_on": [
+        "fork-rebound"
+      ],
+      "source_pdf_pages": [
+        85,
+        86
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BRY-2819U-10_02.pdf#page=85",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BRY-2819U-10_02.pdf#page=86"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record the actual setting or inspection result requested before continuing."
+      ],
+      "origin": "Exact-year OEM adjustment instructions; saved original/final settings are an authored workflow adaptation."
+    },
+    {
+      "id": "shock-rebound",
+      "title": "Set shock rebound",
+      "instruction": "Using the illustrated shock rebound adjuster at the lower mount, turn gently inward toward hard to its reference stop, then back outward toward soft 9 clicks. Record the actual final setting. Never force the adjuster beyond its travel. OEM notes that actual total adjuster travel may vary with production; do not force extra clicks or turns to imitate a nominal range.",
+      "depends_on": [
+        "fork-compression"
+      ],
+      "source_pdf_pages": [
+        87
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BRY-2819U-10_02.pdf#page=87"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record the actual setting or inspection result requested before continuing."
+      ],
+      "origin": "Exact-year OEM adjustment instructions; saved original/final settings are an authored workflow adaptation."
+    },
+    {
+      "id": "shock-high-speed",
+      "title": "Set shock high-speed compression",
+      "instruction": "Using the illustrated outer high-speed compression adjuster at the shock reservoir, turn gently inward toward hard to its reference stop, then back outward toward soft 1 turns. Record the actual final setting. Never force the adjuster beyond its travel. Turn only the outer damping adjuster; leave the center low-speed screw for the next step. OEM notes that actual total adjuster travel may vary with production; do not force extra clicks or turns to imitate a nominal range.",
+      "depends_on": [
+        "shock-rebound"
+      ],
+      "source_pdf_pages": [
+        88,
+        89
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BRY-2819U-10_02.pdf#page=88",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BRY-2819U-10_02.pdf#page=89"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record the actual setting or inspection result requested before continuing."
+      ],
+      "origin": "Exact-year OEM adjustment instructions; saved original/final settings are an authored workflow adaptation."
+    },
+    {
+      "id": "shock-low-speed",
+      "title": "Set shock low-speed compression",
+      "instruction": "Using the illustrated center low-speed compression screw at the shock reservoir, turn gently inward toward hard to its reference stop, then back outward toward soft 8 clicks. Record the actual final setting. Never force the adjuster beyond its travel. Keep the outer high-speed setting unchanged and recheck both recorded compression settings afterward. OEM notes that actual total adjuster travel may vary with production; do not force extra clicks or turns to imitate a nominal range.",
+      "depends_on": [
+        "shock-high-speed"
+      ],
+      "source_pdf_pages": [
+        88
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BRY-2819U-10_02.pdf#page=88"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record the actual setting or inspection result requested before continuing."
+      ],
+      "origin": "Exact-year OEM adjustment instructions; saved original/final settings are an authored workflow adaptation."
+    },
+    {
+      "id": "close",
+      "title": "Check and save the baseline",
+      "instruction": "Confirm matching fork settings left and right and save all five damping values (including both fork sides). Repeat the smooth front/rear movement check with the bike securely supported upright. Resolve any leakage, binding or damaged adjuster before riding. This restores the stock damping reference; rider sag, spring suitability and ride-specific tuning still need their own checks.",
+      "depends_on": [
+        "shock-low-speed"
+      ],
+      "source_pdf_pages": [
+        84,
+        85,
+        86,
+        87,
+        88,
+        89
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BRY-2819U-10_02.pdf#page=84",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BRY-2819U-10_02.pdf#page=85",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BRY-2819U-10_02.pdf#page=86",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BRY-2819U-10_02.pdf#page=87",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BRY-2819U-10_02.pdf#page=88",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BRY-2819U-10_02.pdf#page=89"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record the actual setting or inspection result requested before continuing."
+      ],
+      "origin": "Exact-year OEM adjustment instructions; saved original/final settings are an authored workflow adaptation."
+    }
+  ],
+  "completeness": "External stock fork and shock damping restoration with recorded original/final settings; no spring, internal service or full-bike rebuild coverage.",
+  "remaining_gaps": [
+    "This setup guide does not provide engine, frame, fork or shock rebuild coverage.",
+    "Rider sag/preload and spring selection remain a separate unreviewed procedure task; corresponding manual evidence is available."
+  ],
+  "parameter_review": {
+    "path": "docs/research/workshop-pass13/yamaha-two-stroke/setup-parameters.json",
+    "sha256": "c4abfd8d92b108ab821f1d98b5584801a69561aa7e57ba087348a412d78230db"
+  }
+}

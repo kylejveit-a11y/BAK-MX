@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "author_review_manifest": {
+    "path": "docs/research/workshop-pass11/yamaha-2023-suspension/source-review-manifest.json",
+    "sha256": "5885b7f9edda0557c4e27d12ae086995406b400756d24d59e7df9f625e734bfc"
+  },
+  "sources": [
+    {
+      "id": "yamaha-us-2023-yz450f-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf",
+      "sha256": "9a8605e26301ba1d0d1d21e93d23cca721bdcdbece6188775626a8819332aa9f",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\BHR-2819U-10_02.pdf"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "fork-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2023-yz450f-oem",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "sha256": "5d954b69df96e680e8bc1c5912212e83baf8b2f2ef58d37e7378232a5cf7e409",
+      "step_count": 6
+    },
+    {
+      "path": "fork-oil-seals-bushings-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2023-yz450f-oem",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "sha256": "30483874e1654a6584269fe96eb08d7a9ced059c8d2e09a76ee8fa0adbe933f6",
+      "step_count": 53
+    },
+    {
+      "path": "rider-sag-preload-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2023-yz450f-oem",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "sha256": "4b9d85edd8f9e9ab18e888606971a15dcffe6707a69cfc43ecb96eb8b78fb37b",
+      "step_count": 7
+    },
+    {
+      "path": "shock-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2023-yz450f-oem",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "sha256": "1f02d4e28b88c9264060727b8c061771226d856e6ff279f49910d7b808a563ce",
+      "step_count": 6
+    }
+  ]
+}

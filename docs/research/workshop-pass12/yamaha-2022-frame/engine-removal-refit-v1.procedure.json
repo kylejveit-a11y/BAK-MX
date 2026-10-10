@@ -1,0 +1,2498 @@
+{
+  "schema_version": 1,
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2022,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "publication_status": "SOURCE_APPROVED_NOT_YET_IMPORTED",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf",
+    "document_sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608",
+    "document_revision": "B2W-2819U-12 / LIT-11626-35-03; First edition March2021",
+    "pdf_pages": [
+      22,
+      23,
+      35,
+      36,
+      47,
+      52,
+      55,
+      56,
+      62,
+      63,
+      64,
+      65,
+      68,
+      69,
+      70,
+      71,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      96,
+      97,
+      98,
+      102,
+      115,
+      116,
+      117,
+      118,
+      149,
+      151,
+      153,
+      154,
+      155,
+      173,
+      174,
+      175,
+      178,
+      182,
+      183,
+      184,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      206,
+      228,
+      232,
+      240,
+      242,
+      263,
+      264,
+      265,
+      266,
+      272,
+      273,
+      274,
+      275,
+      276,
+      278
+    ],
+    "printed_pages": [
+      "1-10",
+      "1-11",
+      "1-23",
+      "1-24",
+      "2-2",
+      "2-7",
+      "2-10",
+      "2-11",
+      "2-17",
+      "2-18",
+      "2-19",
+      "2-20",
+      "2-23",
+      "2-24",
+      "2-25",
+      "2-26",
+      "3-11",
+      "3-12",
+      "3-13",
+      "3-14",
+      "3-15",
+      "3-16",
+      "3-17",
+      "3-20",
+      "3-21",
+      "3-22",
+      "3-26",
+      "4-1",
+      "4-2",
+      "4-3",
+      "4-4",
+      "4-35",
+      "4-37",
+      "4-39",
+      "4-40",
+      "4-41",
+      "4-59",
+      "4-60",
+      "4-61",
+      "4-64",
+      "4-68",
+      "4-69",
+      "4-70",
+      "5-6",
+      "5-7",
+      "5-8",
+      "5-9",
+      "5-10",
+      "5-11",
+      "5-12",
+      "5-20",
+      "5-42",
+      "5-46",
+      "5-54",
+      "5-56",
+      "6-2",
+      "6-3",
+      "6-4",
+      "6-5",
+      "7-1",
+      "7-2",
+      "7-3",
+      "7-4",
+      "7-5",
+      "7-7"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Root and independent engine reviewer approved exact2022 source and all72 ordered instructions/verification within retained-ECU and documented external oil-check-bolt closure scope. No physical validation performed."
+  },
+  "id": "yamaha-yz450f-2022-engine-removal-refit-v1",
+  "title": "Remove the complete engine and refit it to the bike",
+  "completeness": "Exact stock assembled bike to supported intact engine on a bench and back to assembled checks. Shock lower and connecting-arm frame joints are temporarily released for exhaust clearance. Oil-level check-bolt closure requires a documented external exact-interface specification; no unsupported torque is supplied.",
+  "applicability": {
+    "included": "Exact stock US2022 YZ450F / YZ450FN, serviceable mounting interfaces, intact stock chain and functional brakes. ECU and coil remain bolted to the aircase. No automatic year inheritance.",
+    "excluded": [
+      "Other years/models or modified interfaces",
+      "Internal engine repairs unless separately source-reviewed and recorded",
+      "Wheel/frame/suspension bearing service or structural repair",
+      "Opening hydraulic brake circuits",
+      "Complete cable replacement or throttle-body sensor/calibration work",
+      "Broken chain, failed rear brake or seized sprocket nut preventing the reviewed manual holding method",
+      "ECU mounting-fastener service: source table3.8Nm conflicts with exploded8Nm; retained mounts are not disturbed.",
+      "Oil-level check-bolt torque/seal prescription: documented exact-interface closure required before work."
+    ]
+  },
+  "prerequisites": [
+    "Before beginning, obtain and record a documented exact2022 oil-level check-bolt refit torque/seal requirement from an attributed source or qualified Yamaha service provider. The manual requires opening it for final level but does not defensibly identify its closure torque; no generic cover or pressure-check bolt value is adopted.",
+    "Confirm exact stock engine, intact chain and working rear brake. Photograph all routing, shim positions and control settings.",
+    "Independent chassis, engine, swingarm and shock support is required. Lower shock and frame-side connecting-arm bolts are released for exhaust clearance; keep the remaining joints assembled.",
+    "ECU and ignition coil stay mounted on the aircase. Confirm the complete retained assembly can be lifted after disconnecting its identified couplers and plug cap without blocking the three case bolts or loading wiring. If actual clearance requires ECU removal, resolve its conflicting source torque first.",
+    "Any separate internal bench work must return sealed covers/filter/strainer and documented timing, clearances, lubrication and free rotation. No internals are serviced here.",
+    "A replaced cylinder-head gasket needs the separate OEM266 warm3-minute pressure-test method; the retained-gasket cold check here does not complete that requirement."
+  ],
+  "required_tools": [
+    {
+      "name": "Stable motorcycle stand plus independent engine, swingarm and shock supports, temporary pivot-support shaft and helper"
+    },
+    {
+      "name": "Calibrated torque tools covering 1.5-135 Nm; correct sockets and manual breaker bar"
+    },
+    {
+      "name": "Fuel-safe transfer equipment, containers, measured oil/coolant vessels and port covers"
+    },
+    {
+      "name": "Configured Yamaha diagnostic tool 90890-03269 (US USB) or 90890-03264, FI sub-lead90890-03212/YU-03212 and OBD/GST lead kit90890-03249 with supplied instructions; digital tachometer 90890-06760/YU-39951-B"
+    },
+    {
+      "name": "Radiator tester 90890-01325/YU-24460-A and adapter 90890-01352/YU-33984"
+    },
+    {
+      "name": "Ruler/free-play gauge, means of applying approximately 50 N for chain slack; source-specific molybdenum-disulfide and lithium-soap greases"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "New engine-oil drain gasket",
+      "purpose": "One20Nm drain is opened."
+    },
+    {
+      "name": "New coolant drain copper washer and specified coolant",
+      "purpose": "10Nm drain closure and1:1 mixture."
+    },
+    {
+      "name": "New exact sprocket lock washer and stock-chain joint clip",
+      "purpose": "One-use locking parts."
+    },
+    {
+      "name": "New exhaust-port gasket and two pipe-joint gaskets",
+      "purpose": "All three exhaust seals renewed."
+    },
+    {
+      "name": "Recommended engine oil",
+      "purpose": "Recorded.63/.65/.90L case selection and exact level/flow verification."
+    },
+    {
+      "name": "New two pedal-pivot O-rings",
+      "purpose": "LS grease per194."
+    },
+    {
+      "name": "Replacement original-type wiring ties",
+      "purpose": "Restore exact route and direction."
+    },
+    {
+      "name": "Molybdenum-disulfide grease and lithium-soap grease",
+      "purpose": "Pivot and released suspension bolts M; pedal O-rings/pivot and throttle contacts LS."
+    },
+    {
+      "name": "Oil-level check-bolt sealing parts required by separately documented exact-interface closure",
+      "purpose": "Do not infer a seal or torque from another fastener."
+    }
+  ],
+  "critical_stop_conditions": [
+    "Unstable support, bent/cracked parts, damaged fasteners or unknown assembly order.",
+    "Binding, leaks, missing hardware or abnormal brake/control function remains an unresolved fault."
+  ],
+  "steps": [
+    {
+      "id": "engine-initial-record",
+      "title": "Record the engine and job condition",
+      "instruction": "Record the exact stock engine identity, running condition and reason for removal. Photograph hose, electrical and bracket routing before access. Prepare an independently supported engine bench and a controlled lift with a helper; this guide removes/installs the assembly and does not repair its internals. Record initial clutch lever free play 7-12 mm and control condition before removing any cable end. Record the exact oil-level check-bolt closure document, applicable fastener/seal and torque before proceeding; this value is not established by the available manual.",
+      "source_pdf_pages": [
+        87,
+        91,
+        89,
+        194
+      ],
+      "verification": [
+        "Exact bike, bench/supports, routing, initial7-12mm clutch free play and external check-bolt closure document recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF87",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=87"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF91",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=91"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF89",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=89"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF194",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=194"
+        }
+      ],
+      "depends_on": []
+    },
+    {
+      "id": "control-renew-record",
+      "title": "Record the original cable positions",
+      "instruction": "Record pull/return cable positions at the grip against the exact handlebar diagram and actual grip free play, specified3-6mm. Preserve routing and adjustment without swapping cables.",
+      "depends_on": [
+        "engine-initial-record"
+      ],
+      "source_pdf_pages": [
+        87,
+        149,
+        153
+      ],
+      "verification": [
+        "Original cable positions and actual free play recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF87",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=87"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF149",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=149"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF153",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=153"
+        }
+      ]
+    },
+    {
+      "id": "engine-oil-drain",
+      "title": "Drain the engine oil before lifting",
+      "instruction": "For a normally running engine, warm for several minutes, stop and wait about5minutes; do not run a faulted engine solely to warm oil. Stand upright on level ground. Remove filler cap and the single drain bolt over a container. Leave filter/strainer assembled unless separately serviced. Drain completely and refit the drain with a new gasket at20Nm. Mark the engine empty.",
+      "source_pdf_pages": [
+        89,
+        90
+      ],
+      "verification": [
+        "One drain closed with new gasket20Nm; engine marked empty."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF89",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=89"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF90",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=90"
+        }
+      ],
+      "depends_on": [
+        "control-renew-record"
+      ]
+    },
+    {
+      "id": "engine-access-prepare",
+      "title": "Prepare the bike",
+      "instruction": "Stop the engine, let it cool and support the bike. Clean the intake and fuel work area. Keep dirt out of open joints and fuel work away from ignition sources.",
+      "depends_on": [
+        "engine-oil-drain"
+      ],
+      "source_pdf_pages": [
+        89,
+        97,
+        273
+      ],
+      "verification": [
+        "Cold engine; stable bike; clean work area; parts/tools ready."
+      ],
+      "diagram_reference_required": false,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF89",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=89"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF97",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=97"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF273",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=273"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "engine-access-subseat",
+      "title": "Open the sub-seat",
+      "instruction": "Lift the fuel-tank-cap cover with fingers under both sides, upward toward the rear as illustrated; retain its plastic-band attachment to the seat. Open cap, transfer fuel to an appropriate container with fuel-safe equipment, then secure cap.",
+      "depends_on": [
+        "engine-access-prepare"
+      ],
+      "source_pdf_pages": [
+        35,
+        117
+      ],
+      "verification": [
+        "Cap cover released intact; fuel safely contained and cap secured."
+      ],
+      "diagram_reference_required": false,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF35",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=35"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF117",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=117"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "engine-access-body",
+      "title": "Remove access panels",
+      "instruction": "Remove the left side-cover fasteners first, then the seat fasteners and slide the seat rearward with its attached cap cover. Remove the right side cover by releasing its illustrated projections from the slots. Label collars and fastener positions.",
+      "depends_on": [
+        "engine-access-subseat"
+      ],
+      "source_pdf_pages": [
+        115,
+        116,
+        117,
+        118
+      ],
+      "verification": [
+        "Both covers and seat removed without damaging projections or plastic band."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF115",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=115"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF116",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=116"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF117",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=117"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF118",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=118"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "engine-isolate",
+      "title": "Isolate the battery",
+      "instruction": "With the engine stopped, disconnect the negative battery lead first, then the positive lead. Insulate the loose terminals. Retain the battery and relay in place unless separate frame work requires removal; no starter action is allowed during the work.",
+      "source_pdf_pages": [
+        115,
+        23
+      ],
+      "verification": [
+        "Negative then positive disconnected and insulated."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF115",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=115"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF23",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=23"
+        }
+      ],
+      "depends_on": [
+        "engine-access-body"
+      ]
+    },
+    {
+      "id": "engine-access-shrouds",
+      "title": "Expose the tank",
+      "instruction": "Loosen the air-filter-cover quick-fastener screw. Release its two ribs from the air-scoop projections and slide the cover forward. Keep the filter installed. Remove left/right air scoops, releasing their illustrated projections, grooves and slots without prying. Retain collars.",
+      "depends_on": [
+        "engine-isolate"
+      ],
+      "source_pdf_pages": [
+        91,
+        92,
+        116
+      ],
+      "verification": [
+        "Forward cover removal and scoop locators preserved; filter remains sealed."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF91",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=91"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF92",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=92"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF116",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=116"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "engine-access-tank-disconnect",
+      "title": "Disconnect the tank",
+      "instruction": "Unplug the fuel-pump connector. Put cloths below and around the fuel-hose joint for residual pressure. Remove the connector holder, slide the cover back, press its two release buttons and separate the joint by hand. Fit the supplied joint covers to both openings immediately.",
+      "depends_on": [
+        "engine-access-shrouds"
+      ],
+      "source_pdf_pages": [
+        65,
+        272,
+        273
+      ],
+      "verification": [
+        "Pump disconnected; both fuel openings capped; no forced hose tools."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF65",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=65"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF272",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=272"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF273",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=273"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "engine-access-tank-remove",
+      "title": "Lift the tank clear",
+      "instruction": "Remove the tank mounting fasteners, retaining the collars/dampers in their original locations, and lift the tank away. Support it so its weight does not rest on the fuel-pump mounting surface. Leave the pump installed in the tank.",
+      "depends_on": [
+        "engine-access-tank-disconnect"
+      ],
+      "source_pdf_pages": [
+        272,
+        273
+      ],
+      "verification": [
+        "Tank supported; mounts accounted for; pump untouched."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF272",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=272"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF273",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=273"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "engine-access-case-release",
+      "title": "Release the intact case",
+      "instruction": "Label and unplug ECU and ignition-coil couplers, disconnect intake-temperature coupler and pull the plug cap clear without removing the spark plug. Leave ECU and coil bolted to the aircase. Release only the routing clips needed to free their leads. Loosen case joint clamp and remove its three mounting bolts with original collars/washers/dampers. Do not disturb the ECU bolts because the manual gives conflicting tightening values.",
+      "source_pdf_pages": [
+        68,
+        69,
+        193,
+        275
+      ],
+      "verification": [
+        "Retained ECU/coil assembly disconnected from harness and plug; case bolts/clamp accessible without disturbing ECU mounts."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF68",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=68"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF69",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=69"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF193",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=193"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF275",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=275"
+        }
+      ],
+      "record_required": false,
+      "depends_on": [
+        "engine-access-tank-remove"
+      ]
+    },
+    {
+      "id": "engine-access-case-remove",
+      "title": "Lift off and protect the intake",
+      "instruction": "Lift the complete aircase with retained ECU, coil and filter off the intake joint, supporting its high-tension lead and plug cap. Stop if a mount is inaccessible or the retained assembly cannot clear freely; do not force it or remove ECU mounts without resolving their torque conflict. Cover exposed intake and keep the removed assembly clean.",
+      "source_pdf_pages": [
+        68,
+        69,
+        275
+      ],
+      "verification": [
+        "Case/ECU/coil clear and supported; inlet protected; all retained mounts unchanged."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF68",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=68"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF69",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=69"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF275",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=275"
+        }
+      ],
+      "record_required": false,
+      "depends_on": [
+        "engine-access-case-release"
+      ]
+    },
+    {
+      "id": "control-renew-housing-open",
+      "title": "Open the cable housing",
+      "instruction": "Pull back the rubber cover. Remove the housing screws and separate the throttle cable housing without pulling on the cables.",
+      "depends_on": [
+        "engine-access-case-remove"
+      ],
+      "source_pdf_pages": [
+        149
+      ],
+      "verification": [
+        "Housing open; rubber cover and screws retained."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF149",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=149"
+        }
+      ]
+    },
+    {
+      "id": "control-renew-ends-release",
+      "title": "Release the two grip-end cables",
+      "instruction": "Disengage the pull and return cable ends from their original seats in the throttle tube as shown. Support the cables without kinking them and withdraw the complete grip/tube assembly from the bar. Do not peel the bonded rubber grip off its tube or disturb the cable ends at the throttle body.",
+      "depends_on": [
+        "control-renew-housing-open"
+      ],
+      "source_pdf_pages": [
+        149,
+        153
+      ],
+      "verification": [
+        "Both identified ends released; intact grip/tube retained."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF149",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=149"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF153",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=153"
+        }
+      ]
+    },
+    {
+      "id": "control-renew-inspect",
+      "title": "Check the released parts",
+      "instruction": "Inspect the tube sliding surface and cable-end seats for damage and check that the cables move without binding. Keep dirt out of the open housing. A damaged or frayed cable needs a separate full cable-renewal operation before this access job can return to service.",
+      "depends_on": [
+        "control-renew-ends-release"
+      ],
+      "source_pdf_pages": [
+        151,
+        153
+      ],
+      "verification": [
+        "Retained parts accepted; no damaged cable or binding."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF151",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=151"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF153",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=153"
+        }
+      ]
+    },
+    {
+      "id": "engine-exhaust-suspension-release",
+      "title": "Support suspension and open the exhaust clearance path",
+      "instruction": "Support chassis, swingarm/rear wheel and shock independently so neither released joint carries spring or bike load. Remove the shock lower bolt and connecting-arm frame-side bolt as the exhaust prerequisites require. Preserve collars/seals and support the arm/shock without hanging from the remaining joints. Keep upper shock and other linkage pivots assembled.",
+      "verification": [
+        "Two required access bolts removed under support; collars/seals retained; other joints untouched."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "control-renew-inspect"
+      ],
+      "source_pdf_pages": [
+        173,
+        174,
+        175,
+        178,
+        192
+      ],
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF173",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=173"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF174",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=174"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF175",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=175"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF178",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=178"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF192",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=192"
+        }
+      ]
+    },
+    {
+      "id": "engine-exhaust-silencer-remove",
+      "title": "Remove the complete silencer",
+      "instruction": "Support the silencer. Loosen its joint clamp, remove its two mounting bolts and lift the complete silencer off its joint. Keep the silencer body, end cap and packing assembled.",
+      "depends_on": [
+        "engine-exhaust-suspension-release"
+      ],
+      "source_pdf_pages": [
+        192
+      ],
+      "verification": [
+        "Complete silencer supported and removed; internals untouched."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF192",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=192"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "engine-exhaust-midpipe-remove",
+      "title": "Remove the intermediate pipe",
+      "instruction": "Loosen pipe2 joint clamp and remove its bracket bolt while supporting the pipe. With the shock lower and frame-side connecting-arm joints already released, move pipe2 through the exact illustrated clearance path and remove without forcing adjacent parts.",
+      "depends_on": [
+        "engine-exhaust-silencer-remove"
+      ],
+      "source_pdf_pages": [
+        192,
+        196
+      ],
+      "verification": [
+        "Exhaust2 clear without load on unsupported suspension or hoses."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF192",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=192"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF196",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=196"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "engine-exhaust-header-remove",
+      "title": "Remove the header and old seals",
+      "instruction": "Remove the header nuts and header pipe. Leave the header protector attached. Remove the old exhaust-port gasket at the cylinder head and the two pipe-joint gaskets; inspect joint faces and supports for damage before refitting.",
+      "depends_on": [
+        "engine-exhaust-midpipe-remove"
+      ],
+      "source_pdf_pages": [
+        192,
+        197
+      ],
+      "verification": [
+        "Header removed; all three separated joint seals identified; protector untouched."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF192",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=192"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF197",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=197"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "engine-cooling-prepare",
+      "title": "Set up for a cold drain",
+      "instruction": "Stand the cooled bike upright on a level surface. Place the collection container beneath the engine and position it close to the drain outlet, because flow can shoot sideways when the radiator cap is released.",
+      "depends_on": [
+        "engine-exhaust-header-remove"
+      ],
+      "source_pdf_pages": [
+        96,
+        97
+      ],
+      "verification": [
+        "Bike stable; engine and coolant cold; collection ready."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF96",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=96"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF97",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=97"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "engine-cooling-drain",
+      "title": "Open the drain and radiator cap",
+      "instruction": "Remove the coolant drain bolt and its copper washer. Place a thick cloth over the radiator cap and turn it slowly counterclockwise toward its detent to release residual pressure. Once hissing stops, press down and turn farther to remove the cap. Let the coolant drain into the container. Thoroughly flush the cooling system with clean tap water as Yamaha directs, then drain the flush water completely before fitting the new drain washer. Account for residual water when establishing the final coolant mixture.",
+      "depends_on": [
+        "engine-cooling-prepare"
+      ],
+      "source_pdf_pages": [
+        97
+      ],
+      "verification": [
+        "Drain complete; old washer removed; cap opened only when cold."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF97",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=97"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "engine-cooling-seal",
+      "title": "Install a new drain washer",
+      "instruction": "Install a new copper washer and the coolant drain bolt. Tighten the bolt to 10 N·m.",
+      "depends_on": [
+        "engine-cooling-drain"
+      ],
+      "source_pdf_pages": [
+        97
+      ],
+      "verification": [
+        "New washer installed; drain bolt 10 N·m."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF97",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=97"
+        }
+      ],
+      "record_required": true
+    },
+    {
+      "id": "engine-coolant-hoses",
+      "title": "Disconnect the engine coolant hoses",
+      "instruction": "Identify radiator hoses 1,3 and 4 from the source drawing. Mark each hose and clamp position, loosen its engine-side clamp and release the hoses from the engine. Keep radiators mounted and protect the open hose/engine ports from dirt. Do not remove coolant pipe joints or the temperature sensor itself.",
+      "source_pdf_pages": [
+        263,
+        264
+      ],
+      "verification": [
+        "Hoses 1/3/4 labeled and clear; pipe joints/sensor remain sealed."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF263",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=263"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF264",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=264"
+        }
+      ],
+      "depends_on": [
+        "engine-cooling-seal"
+      ]
+    },
+    {
+      "id": "engine-intake-clear",
+      "title": "Lift the intact throttle body from the engine joint",
+      "instruction": "Label/disconnect injector, intake-pressure and throttle-position sensor couplers. Keep sensors installed. Clean lower joint, loosen clamp and lift intact throttle body clear. Support its detached grip-end cables without tension; body-end seats, screws and pulley stay untouched. Cover engine inlet and body openings; never push the throttle valve.",
+      "source_pdf_pages": [
+        275,
+        276,
+        278
+      ],
+      "verification": [
+        "Three identified sensor/injector couplers disconnected; complete body/cables separately supported; calibration untouched."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF275",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=275"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF276",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=276"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF278",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=278"
+        }
+      ],
+      "depends_on": [
+        "engine-coolant-hoses"
+      ]
+    },
+    {
+      "id": "engine-electrical-left",
+      "title": "Disconnect the left engine harness interfaces",
+      "instruction": "Release only the retaining clips/ties needed to free engine leads. Disconnect the stator, crankshaft-position and gear-position connectors; keep the gear-position switch bolted to the engine so its seal is not disturbed. Match connector identity to the diagrams, using the actual labeled connectors and exact source routing. Label and protect both halves.",
+      "source_pdf_pages": [
+        62,
+        63,
+        193
+      ],
+      "verification": [
+        "Stator/crank-position/gear-position leads released; sensor seals untouched."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF62",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=62"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF63",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=63"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF193",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=193"
+        }
+      ],
+      "depends_on": [
+        "engine-intake-clear"
+      ]
+    },
+    {
+      "id": "engine-electrical-right",
+      "title": "Disconnect starter, ground and plug interfaces",
+      "instruction": "Disconnect coolant-temperature coupler and remove the head ground terminal bolt. Plug cap was released with the retained aircase group. At the starter lead pull back its rubber terminal cover and hold the motor-side nut with a spanner while undoing the lead nut. Release necessary lead clips and support harness clear. Leave motor and rigid motor covers installed; if terminal access is blocked, do not force it.",
+      "source_pdf_pages": [
+        64,
+        65,
+        206,
+        228
+      ],
+      "verification": [
+        "Ground, temperature and starter lead free; isolated battery; motor/covers retained."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF64",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=64"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF65",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=65"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF206",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=206"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF228",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=228"
+        }
+      ],
+      "depends_on": [
+        "engine-electrical-left"
+      ]
+    },
+    {
+      "id": "engine-sprocket",
+      "title": "Remove chain, sprocket and shift pedal",
+      "instruction": "With the rear wheel still secured, chain intact and rear brake still fully mounted, select neutral. Remove the sprocket cover and retained drive-chain guide, label their arrangement, and flatten the old lock-washer tabs. Have a helper hold the rear brake firmly while using a correctly fitting socket and manual breaker bar to loosen the sprocket nut, following the attributed Nick Dole technique. Do not use impact, heat or jam the chain against the case. Once loose, release the stock chain joint and remove the chain, retaining its matched link/plate and preparing a new clip. Remove the nut, old lock washer and sprocket. Mark and remove the shift pedal, preserving punch-mark alignment.",
+      "source_pdf_pages": [
+        52,
+        56,
+        194,
+        195,
+        240,
+        22,
+        182,
+        183
+      ],
+      "verification": [
+        "Chain and sprocket clear; old lock washer/clip retired; shift position recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF52",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=52"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF56",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=56"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF194",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=194"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF195",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=195"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF240",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=240"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF22",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=22"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF182",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=182"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF183",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=183"
+        },
+        {
+          "title": "Nick Dole manual rear-brake holding technique",
+          "url": "https://www.teknikmotorsport.com/assets/brochures/Transmoto-Gearing.pdf#page=5"
+        }
+      ],
+      "depends_on": [
+        "engine-electrical-right"
+      ]
+    },
+    {
+      "id": "engine-release-cylinder",
+      "title": "Disconnect and record the cable clutch",
+      "instruction": "Record clutch lever free play and the cable-end/adjuster positions. Release cable tension with the handlebar adjuster as necessary. Disconnect the engine-end cable nipple from the push lever and release the cable outer from its bracket as shown in the inset; keep the push lever, shaft and clutch cover installed. Retain the cable with its handlebar lever and support it clear of the engine lifting path. This bike has a cable clutch.",
+      "source_pdf_pages": [
+        91,
+        232
+      ],
+      "verification": [
+        "Engine-end nipple and outer detached and identified; push lever and clutch internals remain installed; cable supported."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF91",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=91"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF232",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=232"
+        }
+      ],
+      "depends_on": [
+        "engine-sprocket"
+      ]
+    },
+    {
+      "id": "engine-pedal-guard",
+      "title": "Clear pedal, guard and breather",
+      "instruction": "Remove the engine guard, brake-pedal pivot bolt and return spring. Support the pedal with its master-cylinder linkage attached. Label and release the cylinder-head breather hose from the engine and its routing holders. Keep brake hydraulics closed.",
+      "source_pdf_pages": [
+        194,
+        63,
+        65
+      ],
+      "verification": [
+        "Guard/pedal/spring retained; breather clear; brake system closed."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF194",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=194"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF63",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=63"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF65",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=65"
+        }
+      ],
+      "depends_on": [
+        "engine-release-cylinder"
+      ]
+    },
+    {
+      "id": "engine-engine-support",
+      "title": "Support engine and swingarm before undoing mounts",
+      "instruction": "Support the engine independently. Support the swingarm and prepare a same-diameter temporary support shaft from its other side if needed when the pivot is withdrawn. Confirm every electrical connector, hose, intake assembly and cable is clear before loosening the engine mounts.",
+      "source_pdf_pages": [
+        194,
+        196
+      ],
+      "verification": [
+        "Independent supports ready; all engine interfaces clear."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF194",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=194"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF196",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=196"
+        }
+      ],
+      "depends_on": [
+        "engine-pedal-guard"
+      ]
+    },
+    {
+      "id": "engine-mounts-out",
+      "title": "Release the engine mounts",
+      "instruction": "Remove both upper brackets and the two lower brackets with four identified shims and their mapped hardware. Preserve left/right shim positions. Withdraw the pivot while maintaining swingarm support with the temporary shaft. Keep the engine independently supported until every mount is free.",
+      "source_pdf_pages": [
+        194,
+        195,
+        196
+      ],
+      "verification": [
+        "Two lower brackets/four shims identified; shared pivot removed once with swingarm supported."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF194",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=194"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF195",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=195"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF196",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=196"
+        }
+      ],
+      "depends_on": [
+        "engine-engine-support"
+      ]
+    },
+    {
+      "id": "engine-engine-out",
+      "title": "Lift the engine out to the right",
+      "instruction": "Lift the engine and move its lower part toward the right side of the chassis as shown in the OEM drawing, then transfer it to the prepared support. Stop if any interface catches. Keep the inlet, exhaust and fluid ports protected from contamination.",
+      "source_pdf_pages": [
+        196
+      ],
+      "verification": [
+        "Assembly removed to right; no trapped interface; engine stable."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF196",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=196"
+        }
+      ],
+      "depends_on": [
+        "engine-mounts-out"
+      ]
+    },
+    {
+      "id": "engine-bench-record",
+      "title": "Verify the engine and rear bearing stacks",
+      "instruction": "Record the completed independent bench work, if any. Before refit confirm its timing, clearances, lubrication, free rotation and sealed cover/filter checks. This guide itself leaves engine internals intact. Keep the original swingarm and side stacks located on their temporary support and ready for the single pivot replacement.",
+      "source_pdf_pages": [
+        196
+      ],
+      "verification": [
+        "Bench condition and any separate internal repair record accepted; all covers/filter sealed; original swingarm side stacks retained and supported."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF196",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=196"
+        }
+      ],
+      "depends_on": [
+        "engine-engine-out"
+      ]
+    },
+    {
+      "id": "engine-engine-in",
+      "title": "Place the engine back in the chassis",
+      "instruction": "Bring supported engine in from the right, lower part first. Align mounts without trapping hoses or leads. Apply molybdenum-disulfide grease to the pivot shaft and insert from the right while withdrawing temporary support, preserving original swingarm side stacks. No lithium grease on pivot-nut threads is specified here.",
+      "source_pdf_pages": [
+        196,
+        197
+      ],
+      "verification": [
+        "Engine and swingarm aligned; M-greased pivot from right; no newer-year nut preparation inherited."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF196",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=196"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF197",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=197"
+        }
+      ],
+      "depends_on": [
+        "engine-bench-record"
+      ]
+    },
+    {
+      "id": "engine-mount-torque",
+      "title": "Install and secure the engine brackets",
+      "instruction": "Restore two lower brackets and four shims with shim projections toward the outside of the bike, plus both upper brackets and mapped hardware. Follow installation sequence: pivot nut85Nm; lower mount53Nm; front bracket bolts34Nm; front engine mount55Nm; upper bracket bolts34Nm; upper mounts45Nm. Keep the assembly supported/aligned throughout.",
+      "source_pdf_pages": [
+        195,
+        196,
+        197
+      ],
+      "verification": [
+        "Shim projections outward; recorded85/53/34/55/34/45Nm at exact labeled joints."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF195",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=195"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF196",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=196"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF197",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=197"
+        }
+      ],
+      "depends_on": [
+        "engine-engine-in"
+      ]
+    },
+    {
+      "id": "engine-release-refit",
+      "title": "Reconnect and adjust the cable clutch",
+      "instruction": "Restore the identified clutch cable outer to its engine bracket and nipple to the push lever as illustrated; tighten the engine-end cable locknut to 7 Nm if loosened. Verify full seating. Set lever free play to 7-12 mm using the handlebar adjuster first. If its range is insufficient, slide the cable cover, loosen the cable-side adjuster locknut, adjust and tighten that locknut to 4.3 Nm, then restore the cover. Check smooth clutch operation through both steering locks and record actual free play.",
+      "source_pdf_pages": [
+        56,
+        91,
+        232
+      ],
+      "verification": [
+        "Engine cable-end and outer fully seated; disturbed engine locknut 7 Nm; cable-side adjuster locknut 4.3 Nm if used; actual lever free play 7-12 mm recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF56",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=56"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF91",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=91"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF232",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=232"
+        }
+      ],
+      "depends_on": [
+        "engine-mount-torque"
+      ]
+    },
+    {
+      "id": "engine-pedal-refit",
+      "title": "Restore pedal, guard and breather",
+      "instruction": "Install new pedal-pivot O-rings in both illustrated positions with lithium-soap grease. Grease pivot/seal contacts as shown and restore pivot bolt26Nm and return spring; engine guard7Nm. Restore head breather at engine and original holders: between radiator hose and engine bracket, outlet down aligned with lower down tube. Keep it clear of lower/front engine bosses and route radiator breather around it as illustrated.",
+      "source_pdf_pages": [
+        194,
+        62,
+        63,
+        64,
+        65
+      ],
+      "verification": [
+        "Two new LS pedal seals;26/7Nm; head breather points down in exact route, not into aircase."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF194",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=194"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF62",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=62"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF63",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=63"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF64",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=64"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF65",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=65"
+        }
+      ],
+      "depends_on": [
+        "engine-release-refit"
+      ]
+    },
+    {
+      "id": "engine-sprocket-refit",
+      "title": "Restore the drive sprocket and chain",
+      "instruction": "Fit the original serviceable drive sprocket and new correct lock washer. Leave the nut hand-threaded temporarily; its final torque and tab locking are a later explicit step after rear-wheel, brake and chain closure. Align shift-shaft/pedal punch marks and tighten the pedal bolt to 12 Nm. With the supported rear wheel still installed, loosen the axle nut and both adjuster locknuts and back off adjusters enough to bring the wheel forward for chain installation. Fit the retained stock chain with matched link/plate and new clip, closed end leading chain travel as illustrated; lubricate the chain. Leave the sprocket cover off for the final nut check.",
+      "source_pdf_pages": [
+        52,
+        102,
+        194,
+        240,
+        242,
+        22,
+        183,
+        184
+      ],
+      "verification": [
+        "Original sprocket and new lock washer seated; nut temporary only; new chain clip correctly oriented; shift pedal 12 Nm."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF52",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=52"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF102",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=102"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF194",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=194"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF240",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=240"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF242",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=242"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF22",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=22"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF183",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=183"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF184",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=184"
+        }
+      ],
+      "depends_on": [
+        "engine-pedal-refit"
+      ]
+    },
+    {
+      "id": "engine-ground-starter",
+      "title": "Restore the engine ground and starter lead",
+      "instruction": "Restore head ground terminal at its illustrated location7Nm; exact routing permits its terminal to face either way, so retain original untensioned routing. Restore starter lead6Nm while holding motor-side nut and replace rubber terminal cover. Restore its clamps and lead path along cylinder without slack.",
+      "source_pdf_pages": [
+        65,
+        69,
+        206,
+        228
+      ],
+      "verification": [
+        "Ground7Nm/starter6Nm; terminal supported during tightening; rubber cover/lead route restored."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF65",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=65"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF69",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=69"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF206",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=206"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF228",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=228"
+        }
+      ],
+      "depends_on": [
+        "engine-sprocket-refit"
+      ]
+    },
+    {
+      "id": "engine-harness-refit",
+      "title": "Reconnect and route the engine harness",
+      "instruction": "Reconnect labeled stator, crank-position, gear-position and coolant-temperature couplers/covers. Stator passes behind radiator without tension-arm pinch; gear lead follows case inside front engine bracket without slack. Clutch cable must not sag down; protector contacts radiator hose outside stator/gear leads. Regulator leads stay inside tension arm. Restore frame clip lock forward and trim where shown; starter lead follows cylinder without slack. Reproduce the exact left/right routing and tie positions, distinguishing trimmed ties from those the source says leave uncut.",
+      "source_pdf_pages": [
+        62,
+        63,
+        64,
+        65,
+        68,
+        69
+      ],
+      "verification": [
+        "All identified engine couplers latched; cable/lead separation and exact ties restored; no inherited newer-year grommet arrangement."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF62",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=62"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF63",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=63"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF64",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=64"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF65",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=65"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF68",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=68"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF69",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=69"
+        }
+      ],
+      "depends_on": [
+        "engine-ground-starter"
+      ]
+    },
+    {
+      "id": "engine-intake-refit",
+      "title": "Reseat the throttle body",
+      "instruction": "Remove intake protection and seat the intact throttle body fully in its original engine-side joint. Restore the clamp orientation and tighten the throttle-body joint clamp to 3.0 N·m. Keep both cables routed without tension and check full smooth throttle return. Sensors and calibration screws remain untouched. Reconnect all three labeled injector/pressure/TPS couplers without moving sensors.",
+      "source_pdf_pages": [
+        55,
+        275,
+        276,
+        278
+      ],
+      "verification": [
+        "Joint fully seated 3.0 N·m; throttle returns smoothly; cables not trapped."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF55",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=55"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF275",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=275"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF276",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=276"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF278",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=278"
+        }
+      ],
+      "depends_on": [
+        "engine-harness-refit"
+      ]
+    },
+    {
+      "id": "control-renew-lubricate",
+      "title": "Lubricate the sliding and cable-end surfaces",
+      "instruction": "Apply lithium-soap-based grease to the throttle-grip sliding surface. Lightly grease the cable ends and inside of the grip as shown. Keep grease away from the exterior gripping surface and the brake.",
+      "depends_on": [
+        "engine-intake-refit"
+      ],
+      "source_pdf_pages": [
+        153
+      ],
+      "verification": [
+        "Sliding and cable-end contact surfaces lubricated."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF153",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=153"
+        }
+      ]
+    },
+    {
+      "id": "control-renew-ends-fit",
+      "title": "Reconnect pull and return cables",
+      "instruction": "Restore each identified cable end to its original seat and groove in the throttle tube. Place the rubber cover and slide the intact grip/tube onto the handlebar. Confirm both cable ends and their outer housings are seated correctly before closing the housing.",
+      "depends_on": [
+        "control-renew-lubricate"
+      ],
+      "source_pdf_pages": [
+        153
+      ],
+      "verification": [
+        "Both cable ends seated in the correct positions without crossing."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF153",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=153"
+        }
+      ]
+    },
+    {
+      "id": "control-renew-housing-close",
+      "title": "Secure the housing",
+      "instruction": "Fit the housing and tighten its screws to 3.8 Nm. Check grip movement immediately. If the housing causes binding, reposition and retighten it, then check again. Restore the housing cover and rubber cover.",
+      "depends_on": [
+        "control-renew-ends-fit"
+      ],
+      "source_pdf_pages": [
+        154
+      ],
+      "verification": [
+        "Housing torqued; grip moves smoothly and returns."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF154",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=154"
+        }
+      ]
+    },
+    {
+      "id": "control-renew-static-check",
+      "title": "Verify free play and return before starting",
+      "instruction": "With the engine stopped, check free play and smooth full return through the steering travel. The retained setup must still have 3–6 mm free play and no binding. If not, correct seating/routing before starting; do not use a running engine to diagnose a bound throttle.",
+      "depends_on": [
+        "control-renew-housing-close"
+      ],
+      "source_pdf_pages": [
+        87,
+        88,
+        155
+      ],
+      "verification": [
+        "Record 3–6 mm free play and full return at centre and both steering limits."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF87",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=87"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF88",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=88"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF155",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=155"
+        }
+      ]
+    },
+    {
+      "id": "engine-hoses-refit",
+      "title": "Reconnect the engine coolant hoses",
+      "instruction": "Remove temporary port covers. Restore radiator hoses 1,3 and 4 to their marked engine connections and original clamp positions; tighten each disturbed radiator-hose clamp screw to 1.5 N·m. Check there are no kinks or trapped hoses. Radiator pipe seals and temperature sensor were not removed.",
+      "source_pdf_pages": [
+        55,
+        263,
+        264
+      ],
+      "verification": [
+        "Hoses 1/3/4 correct; disturbed clamps 1.5 N·m."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF55",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=55"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF263",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=263"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF264",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=264"
+        }
+      ],
+      "depends_on": [
+        "control-renew-static-check"
+      ]
+    },
+    {
+      "id": "engine-exhaust-header-install",
+      "title": "Seat the new header gasket",
+      "instruction": "Install the new exhaust-port gasket at the cylinder head and refit header pipe 1. Tighten all header nuts first to 7 N·m, then retighten them to 10 N·m. Do not apply the protector-screw locking-agent note to these nuts.",
+      "depends_on": [
+        "engine-hoses-refit"
+      ],
+      "source_pdf_pages": [
+        192,
+        197
+      ],
+      "verification": [
+        "New exhaust-port gasket; all header nuts 7 then 10 Nm."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF192",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=192"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF197",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=197"
+        }
+      ],
+      "record_required": true
+    },
+    {
+      "id": "engine-exhaust-midpipe-install",
+      "title": "Locate pipe 2 and its clamp",
+      "instruction": "Install new joint gaskets in the exact exploded locations. Refit clamp, pipe2 and bracket bolt. Engage clamp projection in pipe/silencer slot and keep clamp off the raised pipe projection. Leave final clamp/bracket torque until silencer is seated.",
+      "depends_on": [
+        "engine-exhaust-header-install"
+      ],
+      "source_pdf_pages": [
+        192,
+        197
+      ],
+      "verification": [
+        "New joint seals and clamp projection/slot alignment correct."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF192",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=192"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF197",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=197"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "engine-exhaust-silencer-install",
+      "title": "Refit the complete silencer",
+      "instruction": "Refit the silencer clamp and complete silencer on the seated joint. Install the retained mounting hardware and tighten both silencer mounting bolts to 30 N·m.",
+      "depends_on": [
+        "engine-exhaust-midpipe-install"
+      ],
+      "source_pdf_pages": [
+        192,
+        197
+      ],
+      "verification": [
+        "Both silencer mounts 30 N·m; joints fully engaged."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF192",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=192"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF197",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=197"
+        }
+      ],
+      "record_required": true
+    },
+    {
+      "id": "engine-exhaust-joints-final",
+      "title": "Tighten the bracket and both clamps",
+      "instruction": "Confirm front and rear joints remain fully inserted while tightening the exhaust-pipe bracket bolt to 20 N·m, pipe-2 clamp bolt to 12 N·m and silencer clamp bolt to 12 N·m.",
+      "depends_on": [
+        "engine-exhaust-silencer-install"
+      ],
+      "source_pdf_pages": [
+        198
+      ],
+      "verification": [
+        "Bracket 20 N·m; each joint clamp 12 N·m; projections correctly located."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF198",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=198"
+        }
+      ],
+      "record_required": true
+    },
+    {
+      "id": "engine-exhaust-suspension-refit",
+      "title": "Restore the two suspension access joints",
+      "instruction": "With exhaust fully seated and torqued, align supported shock lower and connecting-arm frame joints with their retained collars/seals. Apply molybdenum-disulfide grease to the disturbed bolt circumference and threads. Insert connecting-arm frame bolt from RIGHT and shock lower bolt from LEFT. Tighten frame connecting-arm nut80Nm and shock lower nut53Nm. Inspect unobstructed movement and full seating; retain support until closure is verified.",
+      "verification": [
+        "Correct bolt directions, M grease, frame80Nm and shock lower53Nm; no trapped seal or binding."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "engine-exhaust-joints-final"
+      ],
+      "source_pdf_pages": [
+        174,
+        175,
+        178,
+        192
+      ],
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF174",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=174"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF175",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=175"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF178",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=178"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF192",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=192"
+        }
+      ]
+    },
+    {
+      "id": "engine-access-case-refit",
+      "title": "Seat the case and secure its mounts",
+      "instruction": "Remove intake protection and seat complete aircase with retained ECU, coil and filter onto its original joint. Restore collars, dampers and washers; three case bolts7Nm and joint clamp3Nm. Reconnect labeled ECU, coil and intake-temperature couplers/covers. Restore sub-lead between ECU and case and clips fully against ribs; keep harness clear of rails/intake joint. Fully seat plug cap facing right within the illustrated10-degree range. ECU/coil mounts remain untouched.",
+      "source_pdf_pages": [
+        55,
+        68,
+        69,
+        275
+      ],
+      "verification": [
+        "Three7Nm case bolts/3Nm clamp; case-mounted electronics connected and original orientation preserved; plug cap fully seated facing right."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF55",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=55"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF68",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=68"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF69",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=69"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF275",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=275"
+        }
+      ],
+      "record_required": true,
+      "depends_on": [
+        "engine-exhaust-suspension-refit"
+      ]
+    },
+    {
+      "id": "engine-access-intake-check",
+      "title": "Verify the restored intake",
+      "instruction": "Check case support, fully seated intake joints, reconnects and retained ECU/coil mounts. Verify no temporary covers remain and no wire lies pinched under case or between frame rail and joint. Filter remains correctly seated.",
+      "source_pdf_pages": [
+        68,
+        69,
+        275
+      ],
+      "verification": [
+        "Sealed supported intake and retained electronics; all protection removed."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF68",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=68"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF69",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=69"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF275",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=275"
+        }
+      ],
+      "record_required": true,
+      "depends_on": [
+        "engine-access-case-refit"
+      ]
+    },
+    {
+      "id": "engine-access-tank-install",
+      "title": "Reconnect the fuel system",
+      "instruction": "Restore tank on its original four dampers and retained collars. Tighten two front mounts7Nm and rear retaining screw9Nm. Remove joint covers, press fuel joint until click and lock cover/holder. Reconnect white2-pin pump connector. Route BOTH fuel hose and pump lead through cover guide; keep pump lead outside hose, hose ahead of battery, with no pinch/kink.",
+      "depends_on": [
+        "engine-access-intake-check"
+      ],
+      "source_pdf_pages": [
+        65,
+        272,
+        274
+      ],
+      "verification": [
+        "Tank7/9Nm at exact mounts; fuel joint clicked/locked; both hose and lead guided."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF65",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=65"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF272",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=272"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF274",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=274"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "engine-cooling-fill",
+      "title": "Refill with the specified mixture",
+      "instruction": "Use the specified aluminum-compatible ethylene-glycol antifreeze and distilled water at a final 1:1 coolant-to-water ratio. Do not mix antifreeze types. Fill to the maximum level illustrated in PDF96. The complete system nominal volume is 1.03 L including all routes; correct level and concentration govern, not forcing in that amount after an incomplete drain. Wash any spill on paint away immediately with water.",
+      "depends_on": [
+        "engine-access-tank-install"
+      ],
+      "source_pdf_pages": [
+        96,
+        97
+      ],
+      "verification": [
+        "Mixture/product and amount recorded; level at illustrated maximum."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF96",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=96"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF97",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=97"
+        }
+      ],
+      "record_required": true
+    },
+    {
+      "id": "engine-cooling-cap",
+      "title": "Secure the radiator cap",
+      "instruction": "Install and secure the radiator cap. Account for the drain hardware, collection container and tools before running the engine.",
+      "depends_on": [
+        "engine-cooling-fill"
+      ],
+      "source_pdf_pages": [
+        97,
+        98
+      ],
+      "verification": [
+        "Cap secured; drain sealed; tools clear."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF97",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=97"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF98",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=98"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "pressure-test",
+      "title": "Pressure-check the reinstalled cooling system",
+      "instruction": "With coolant at the upper level, install the specified radiator tester/adapter and apply137.3 kPa; do not exceed that pressure. It must hold5–10 seconds. Check radiator joints and hoses for leaks or bulging, correct any fault, release pressure and cover the connection with a cloth before removing the tester. Secure the radiator cap. Do not perform this check on a hot pressurized system.",
+      "source_pdf_pages": [
+        265,
+        266
+      ],
+      "verification": [
+        "Cooling system holds137.3 kPa for5–10 seconds; no leaks/bulges; cap restored."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF265",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=265"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF266",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=266"
+        }
+      ],
+      "depends_on": [
+        "engine-cooling-cap"
+      ]
+    },
+    {
+      "id": "engine-oil-fill",
+      "title": "Refill the oil for the actual engine condition",
+      "instruction": "Record applicable oil quantity:.63L unchanged filter,.65L filter removal,.90L disassembled engine. Use source-listed Yamalube/API SG-or-higher JASO MA with SAE10W40,10W50,15W40,20W40 or20W50 selected against the ambient-temperature chart. No additives. Record product and actual quantity, check filler cap/seal condition and install cap. Do not copy newer-year filler O-ring grease/replacement instructions absent here. Flow and exact final level checks remain required.",
+      "source_pdf_pages": [
+        47,
+        89,
+        90
+      ],
+      "verification": [
+        "Actual oil product and case-specific quantity recorded; cap secure; no unsupported filler torque/preparation."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF47",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=47"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF89",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=89"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF90",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=90"
+        }
+      ],
+      "depends_on": [
+        "pressure-test"
+      ]
+    },
+    {
+      "id": "engine-battery-refit",
+      "title": "Reconnect the battery and inspect routing",
+      "instruction": "Recheck interfaces, reconnect positive before negative and restore positive cover. Both battery leads pass UNDER the crossmember; source permits either relative order. Negative lead coupler sits right of starter relay; restore battery bracket clips and protect all conductors from frame contact.",
+      "source_pdf_pages": [
+        70,
+        71,
+        115,
+        23
+      ],
+      "verification": [
+        "Positive then negative; both under crossmember; covers/clips restored."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF70",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=70"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF71",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=71"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF115",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=115"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF23",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=23"
+        }
+      ],
+      "depends_on": [
+        "engine-oil-fill"
+      ]
+    },
+    {
+      "id": "engine-access-body-install",
+      "title": "Refit the panels and seat",
+      "instruction": "Fit air-scoop projections into aircase holes, grooves over ribs and remaining projections into slots; bolts7Nm. Refit aircase cover with its two rear slots engaging case edges and left/right ribs aligned with scoop projections; secure quick-fastener screw and restore fuel breather to cover as illustrated. Refit right-cover projections/slots with its rib under rear-fender rib. Slide seat forward and secure its two bolts22Nm; ordinary cover fasteners7Nm. Restore fuel-cap cover with attached plastic bands all the way under seat.",
+      "depends_on": [
+        "engine-battery-refit"
+      ],
+      "source_pdf_pages": [
+        35,
+        93,
+        115,
+        116,
+        117,
+        118
+      ],
+      "verification": [
+        "Scoop/cover locators seated;22Nm seat and7Nm ordinary covers; cap-cover bands under seat; breather restored."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF35",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=35"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF93",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=93"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF115",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=115"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF116",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=116"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF117",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=117"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF118",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=118"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "engine-slack",
+      "title": "Measure and adjust chain slack",
+      "instruction": "Loosen the rear axle nut and both adjuster locknuts first. With the rear wheel raised and gearbox in neutral, pull the chain upward above the chain-guide mounting bolt with about 50 N. Measure between the drive-chain guide and the bottom of the chain at the exact diagram location. Adjust both sides equally to 50–60 mm. Push the wheel forward so each puller/end plate is seated against the swingarm end.",
+      "source_pdf_pages": [
+        102
+      ],
+      "verification": [
+        "Measured slack 50–60 mm using OEM50 N reference; pullers equally adjusted and seated."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF102",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=102"
+        }
+      ],
+      "depends_on": [
+        "engine-access-body-install"
+      ]
+    },
+    {
+      "id": "engine-torque",
+      "title": "Secure the rear axle and adjusters",
+      "instruction": "Tighten the rear axle nut to 135 N·m and both chain-adjuster locknuts to 21 N·m. Recheck the chain slack after tightening.",
+      "source_pdf_pages": [
+        102
+      ],
+      "verification": [
+        "Axle 135 N·m; locknuts 21 N·m; final slack recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF102",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=102"
+        }
+      ],
+      "depends_on": [
+        "engine-slack"
+      ]
+    },
+    {
+      "id": "engine-sprocket-final",
+      "title": "Lock the drive sprocket after rear-wheel closure",
+      "instruction": "With rear axle and adjusters torqued, chain installed and rear brake firm, keep neutral and have a helper hold the rear brake. Tighten the hand-fitted sprocket nut90Nm with a torque wrench. The exact2022 source gives no locking-agent preparation for this nut; do not inherit it from another year. Bend the new lock-washer tabs firmly against the nut flats. Restore the retained chain guide/bracket and cover at7Nm. No impact, heat or case jamming.",
+      "source_pdf_pages": [
+        22,
+        56,
+        182,
+        184,
+        194,
+        195
+      ],
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF22",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=22"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF56",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=56"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF182",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=182"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF184",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=184"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF194",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=194"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF195",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=195"
+        },
+        {
+          "title": "Nick Dole manual rear-brake holding technique",
+          "url": "https://www.teknikmotorsport.com/assets/brochures/Transmoto-Gearing.pdf#page=5"
+        }
+      ],
+      "verification": [
+        "Nut90Nm/new washer tabs locked; original guide/bracket restored; cover7Nm; brake holding load controlled."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "engine-torque"
+      ]
+    },
+    {
+      "id": "engine-fuel-ready",
+      "title": "Restore fuel and verify readiness to start",
+      "instruction": "Lift fuel-cap cover and add clean recommended unleaded minimum91(R+M)/2 gasoline; E10 permitted. Secure cap and restore cover with bands under seat. Verify latched pump connector and fuel hose/holder and no fuel leak. Select neutral in a ventilated area before starter operation.",
+      "source_pdf_pages": [
+        35,
+        36,
+        272,
+        274
+      ],
+      "verification": [
+        "Correct fuel/cap/cover; no leaks; neutral and ventilation."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF35",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=35"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF36",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=36"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF272",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=272"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF274",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=274"
+        }
+      ],
+      "depends_on": [
+        "engine-sprocket-final"
+      ]
+    },
+    {
+      "id": "engine-oil-flow",
+      "title": "Verify oil flow immediately at idle",
+      "instruction": "Start only after fuel, intake, cooling, electrical and mounting closure is complete. Keep the engine at idle; observe the oil-check window for oil flow and decreasing level. If the level does not decrease, stop the engine immediately and investigate the lubrication system instead of revving it.",
+      "source_pdf_pages": [
+        90,
+        91
+      ],
+      "verification": [
+        "Oil flow/level decrease observed at idle; no leak or abnormal condition."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF90",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=90"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF91",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=91"
+        }
+      ],
+      "depends_on": [
+        "engine-fuel-ready"
+      ]
+    },
+    {
+      "id": "engine-cooling-warm-cool",
+      "title": "Warm for the operating checks",
+      "instruction": "After initial idle oil-flow verification and with all fuel, cooling, intake and control closure complete, warm the engine for several minutes. Leave the radiator cap secured. Proceed to the following measured operating checks before stopping and cooling completely.",
+      "depends_on": [
+        "engine-oil-flow"
+      ],
+      "source_pdf_pages": [
+        87,
+        98
+      ],
+      "verification": [
+        "Initial oil flow verified; engine warmed for the next measured operating checks; cap remains closed."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF87",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=87"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF98",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=98"
+        }
+      ],
+      "record_required": true
+    },
+    {
+      "id": "control-renew-idle-check",
+      "title": "Check the warm idle",
+      "instruction": "Use the correctly configured YDT 90890-03269 (US USB) or 90890-03264 to confirm coolant at 70–80 °C. Measure speed with tachometer 90890-06760 or YU-39951-B, connected as shown to the ignition-coil high-tension lead. With the starter knob fully returned and normal filter/compression/free play, verify 1900–2100 r/min. If necessary, adjust the idle screw; clockwise raises speed.",
+      "depends_on": [
+        "engine-cooling-warm-cool"
+      ],
+      "source_pdf_pages": [
+        87
+      ],
+      "verification": [
+        "Record temperature and accepted idle speed."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF87",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=87"
+        }
+      ]
+    },
+    {
+      "id": "control-renew-final-adjust",
+      "title": "Set the final grip free play",
+      "instruction": "Stop the engine. If final adjustment is needed after idle setting, loosen the grip adjuster locknut, turn the adjuster to obtain 3–6 mm free play, and tighten the locknut. Confirm smooth full return again.",
+      "depends_on": [
+        "control-renew-idle-check"
+      ],
+      "source_pdf_pages": [
+        88
+      ],
+      "verification": [
+        "Record final 3–6 mm free play and secure locknut."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF88",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=88"
+        }
+      ]
+    },
+    {
+      "id": "control-renew-steering-check",
+      "title": "Verify idle through steering travel",
+      "instruction": "Restart the warm engine without starter enrichment. Turn the handlebar fully left and right: idle must not change. If it changes, stop and correct cable routing/seating or adjustment before repeating this check. Hold the engine-stop switch until the engine fully stops when the check is finished.",
+      "depends_on": [
+        "control-renew-final-adjust"
+      ],
+      "source_pdf_pages": [
+        88
+      ],
+      "verification": [
+        "Record unchanged idle across steering travel; engine stopped."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF88",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=88"
+        }
+      ]
+    },
+    {
+      "id": "engine-complete-cooling",
+      "title": "Allow complete cooling",
+      "instruction": "After the operating check has stopped the engine, let it cool completely before opening the radiator cap for the next cold-level check.",
+      "depends_on": [
+        "control-renew-steering-check"
+      ],
+      "source_pdf_pages": [
+        98
+      ],
+      "verification": [
+        "Engine stopped and fully cooled before the cap is opened."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF98",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=98"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "engine-cooling-recheck",
+      "title": "Recheck the cold level",
+      "instruction": "Keep the bike upright on level ground. With the engine cooled, use the cloth and slow pressure-release method to remove the cap. Allow the coolant to settle, check against the illustrated maximum and add the correct mixture if low. Restore the cap securely. A leak or repeatedly dropping level requires repair rather than repeated top-offs.",
+      "depends_on": [
+        "engine-complete-cooling"
+      ],
+      "source_pdf_pages": [
+        96,
+        98
+      ],
+      "verification": [
+        "Final cold level and mixture recorded; cap secured; no unresolved loss."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF96",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=96"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF98",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=98"
+        }
+      ],
+      "record_required": true
+    },
+    {
+      "id": "engine-final-checks",
+      "title": "Verify the installed engine and record closure",
+      "instruction": "Follow exact oil-level method upright on level ground: warm2-3minutes, stop and wait about1minute. Verify oil above the minimum window mark. Place a container, remove the identified level-check bolt and verify oil does not run out; if it does, drain excess until last drop. If at/below minimum, add correct oil above minimum and repeat exact check. Restore check bolt/seal using the documented exact-interface closure obtained before work; record source, actual torque and seal action. Do not restart or return to use with this closure unresolved. Check leaks, clutch7-12mm, throttle3-6mm/full return, brakes firm, chain50-60mm and recorded warm steering idle. Record mount/fluid/support closure and any separate bench record.",
+      "source_pdf_pages": [
+        89,
+        91,
+        102
+      ],
+      "verification": [
+        "Actual final level and documented check-bolt closure recorded; all fluid/chain/control/support checks complete; no unresolved leak/binding."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        {
+          "title": "Yamaha2022 owner/service manual PDF89",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=89"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF91",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=91"
+        },
+        {
+          "title": "Yamaha2022 owner/service manual PDF102",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=102"
+        }
+      ],
+      "depends_on": [
+        "engine-cooling-recheck"
+      ]
+    }
+  ],
+  "affected_components": [
+    "engine_modifications",
+    "chain",
+    "brakes",
+    "rear_brake",
+    "clutch",
+    "exhaust",
+    "intake",
+    "shock",
+    "suspension"
+  ],
+  "entry_state": [
+    "Assembled exact stock bike; intact chain and working rear brake; original engine condition and routing recorded."
+  ],
+  "exit_state": [
+    "Engine refitted with mounting, electrical, intake, fuel, exhaust, cable clutch, chain, oil and cooling closure recorded; any separate internal job retains its own checks."
+  ],
+  "integration_status": "ROOT_AND_PEER_SOURCE_REVIEW_APPROVED",
+  "supplemental_sources": [
+    {
+      "id": "nick-dole-gearing",
+      "url": "https://www.teknikmotorsport.com/assets/brochures/Transmoto-Gearing.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\drive8\\Transmoto-Gearing.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\drive8\\Transmoto-Gearing.pdf",
+      "sha256": "84e1c2a35ba1c44b2917d889f3ecb5765b383cf65e69ffaada2808f2b1ba3cf0",
+      "attribution": "Nick Dole, Transmoto On The Tools: Gearing, hosted by Teknik Motorsport",
+      "scope": "Nick Dole manual rear-brake holding technique with an intact serviceable chain and secured rear wheel; universal technique only. Yamaha B2W controls all exact fasteners, thread preparation and locking. No impact/heat suggestions adopted."
+    }
+  ],
+  "editorial_template": {
+    "path": "docs/research/workshop-pass11/yamaha-2023-frame/engine-removal-refit-v1.procedure.json",
+    "sha256": "7c9b11a914a0ef0ef2dbb33b24a7ef7c50e41d3f082bf4c5b2739e5be09b0e67",
+    "scope": "Workflow scaffold only. Explicit per-step exact2022 source map and rewritten changed interfaces; no automatic applicability or numeric inheritance."
+  },
+  "remaining_gaps": [
+    "Documented external oil-level check-bolt closure required; no inferred torque.",
+    "ECU mounting8Nm diagram/3.8Nm table conflict retained; mounts remain intact.",
+    "Internal engine work and replaced-head-gasket commissioning are separate.",
+    "No physical bike validation performed."
+  ],
+  "external_operations": [
+    {
+      "step_id": "engine-initial-record",
+      "operation": "Acquire exact oil-level check-bolt closure specification before dismantling",
+      "required_before_start": true
+    },
+    {
+      "step_id": "engine-final-checks",
+      "operation": "Apply and record that documented check-bolt torque/seal closure after level check, before subsequent start or return to use"
+    }
+  ]
+}

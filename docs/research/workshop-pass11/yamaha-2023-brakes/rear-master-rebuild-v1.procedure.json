@@ -1,0 +1,384 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2023-yz450f-us-rear-master-rebuild-v1",
+  "component": "brakes",
+  "affected_components": [
+    "rear_brake",
+    "brakes",
+    "brake_pedal"
+  ],
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2023,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Rebuild the stock rear brake master cylinder",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete stock rear-master cylinder kit replacement with pedal joint, mounting and hose refit, fluid replacement and bleeding. Caliper, wheel and hose remain otherwise serviceable.",
+  "entry_state": [
+    "Assembled exact US2023 stock YZ450F with serviceable rear caliper, hose, disc and pedal.",
+    "Exact rear master-cylinder kit, new split pin and union washers available."
+  ],
+  "exit_state": [
+    "Rear master rebuilt and mounted; pedal joint retained and adjusted.",
+    "Rear circuit bled and reservoir closed; leak, pedal and brake-effect checks passed."
+  ],
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf",
+    "document_sha256": "9a8605e26301ba1d0d1d21e93d23cca721bdcdbece6188775626a8819332aa9f",
+    "document_revision": "BHR-2819U-10 / LIT-11626-36-32; first edition July2022",
+    "pdf_pages": [
+      102,
+      103,
+      104,
+      105,
+      144,
+      145,
+      146,
+      147,
+      151,
+      152,
+      153
+    ],
+    "printed_pages": [
+      "102: 3-24",
+      "103: 3-25",
+      "104: 3-26",
+      "105: 3-27",
+      "144: 4-28",
+      "145: 4-29",
+      "146: 4-30",
+      "147: 4-31",
+      "151: 4-35",
+      "152: 4-36",
+      "153: 4-37"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Exact2023 source and all instruction/verification content independently reviewed by root; author diagram/text audit complete. Source mechanics unchanged after independent review."
+  },
+  "applicability": {
+    "included": "Stock rear master cylinder on exact US2023 YZ450F",
+    "excluded": [
+      "Other model years",
+      "Aftermarket brake system",
+      "Damaged master-cylinder body or other brake components requiring replacement"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "required_tools": [
+    {
+      "name": "Stable support, suitable hand tools and precision torque tools",
+      "size": "1.5–30 Nm"
+    },
+    {
+      "name": "Retaining-ring tools and clean parts tray",
+      "size": "Match original master cylinder"
+    },
+    {
+      "name": "Bleed hose and waste container",
+      "size": "Fit rear caliper bleeder"
+    },
+    {
+      "name": "Compressed air and eye protection",
+      "size": "For clearing obstructed passages"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "Exact new rear master-cylinder kit",
+      "purpose": "Renew piston assembly, pushrod, circlip and boot marked NEW on153"
+    },
+    {
+      "name": "Two new copper union washers",
+      "purpose": "Master hose connection"
+    },
+    {
+      "name": "New split pin",
+      "purpose": "Pedal-to-master joint retention"
+    },
+    {
+      "name": "Fresh DOT4 brake fluid",
+      "purpose": "Internal cleaning/lubrication and refill"
+    },
+    {
+      "name": "Silicone grease",
+      "purpose": "Pushrod end"
+    }
+  ],
+  "preflight": [
+    "Use exact cup/retention diagrams154/159/160 and pedal reference153.",
+    "Protect eyes and painted/plastic surfaces from fluid."
+  ],
+  "critical_stop_conditions": [
+    "Damaged bore/body, incorrect kit or unseated retention.",
+    "Fluid leaks, persistent air, soft pedal, brake drag or improper braking."
+  ],
+  "steps": [
+    {
+      "id": "prepare",
+      "title": "Prepare and drain",
+      "instruction": "Secure bike upright on level ground with reservoir horizontal. Protect surfaces. Remove rear cap, diaphragm plate and diaphragm; connect caliper bleeder to catch hose/container and drain fluid with pedal/bleeder cycle.",
+      "source_pdf_pages": [
+        102,
+        104,
+        105,
+        146,
+        151
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=102",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=104",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=105",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=146",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=151"
+      ],
+      "depends_on": [],
+      "verification": "Circuit drained before master removal; discard old fluid.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    },
+    {
+      "id": "remove",
+      "title": "Remove master",
+      "instruction": "Disconnect master union and discard both copper washers; catch remaining fluid. Remove split pin, washer and joint pin. Remove master mounting bolts and master.",
+      "source_pdf_pages": [
+        145,
+        146,
+        151,
+        152
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=145",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=146",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=151",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=152"
+      ],
+      "depends_on": [
+        "prepare"
+      ],
+      "verification": "Retain reusable joint hardware; discard old split pin.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    },
+    {
+      "id": "strip",
+      "title": "Strip cylinder kit",
+      "instruction": "Remove joint and its adjustment hardware from pushrod in diagram 147 order. Remove boot and circlip while controlling spring-loaded piston; withdraw pushrod, piston and spring. Preserve body bore.",
+      "source_pdf_pages": [
+        147,
+        153
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=147",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=153"
+      ],
+      "depends_on": [
+        "remove"
+      ],
+      "verification": "Old kit removed; joint arrangement recorded.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    },
+    {
+      "id": "inspect",
+      "title": "Inspect and clean",
+      "instruction": "Replace master for body damage/scratches/wear. Inspect cap, diaphragm plate and diaphragm for cracks/damage; inspect hose for cracks/wear. Clear blocked passages with air. Clean internals using fresh DOT 4, never solvent.",
+      "source_pdf_pages": [
+        152
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=152"
+      ],
+      "depends_on": [
+        "strip"
+      ],
+      "verification": "Record findings; failed parts replaced before assembly.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    },
+    {
+      "id": "cups",
+      "title": "Build new piston",
+      "instruction": "Lubricate new primary/secondary cups with DOT 4 and fit in the distinct positions/orientations shown on 152. Fit spring with smaller inside diameter toward piston.",
+      "source_pdf_pages": [
+        152
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=152"
+      ],
+      "depends_on": [
+        "inspect"
+      ],
+      "verification": "Record both cup orientations and spring direction against diagram.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    },
+    {
+      "id": "retain",
+      "title": "Install new kit",
+      "instruction": "Apply DOT 4 to piston assembly and bore; silicone grease to pushrod end. Install new piston assembly, new pushrod, new circlip and new boot in diagram 153 order. Fully seat retaining ring and boot; restore joint hardware from 147.",
+      "source_pdf_pages": [
+        147,
+        153
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=147",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=153"
+      ],
+      "depends_on": [
+        "cups"
+      ],
+      "verification": "All NEW-marked parts renewed; piston retained and joint fitted.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    },
+    {
+      "id": "mount",
+      "title": "Mount and connect pedal",
+      "instruction": "Install master mounting bolts 10 Nm. Connect pedal joint with pin, washer and new split pin; secure pin as diagram 146. Set pedal to the 5 mm reference shown there using adjusting bolt; tighten adjustment locknut 6 Nm.",
+      "source_pdf_pages": [
+        102,
+        146
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=102",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=146"
+      ],
+      "depends_on": [
+        "retain"
+      ],
+      "verification": "Record mounting torque, pedal position and locknut torque; new split pin secured.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    },
+    {
+      "id": "hose",
+      "title": "Reconnect master hose",
+      "instruction": "Fit two new copper washers; position hose pipe against the stop shown on 153 and tighten union 30 Nm. Preserve original route without strain.",
+      "source_pdf_pages": [
+        145,
+        153
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=145",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=153"
+      ],
+      "depends_on": [
+        "mount"
+      ],
+      "verification": "Record washers, diagram stop contact and30 Nm.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    },
+    {
+      "id": "fill",
+      "title": "Fill for bleeding",
+      "instruction": "Fill horizontal reservoir above the minimum mark shown on PDF 103 with fresh DOT 4 and fit diaphragm. Secure clear hose to bleeder and lead to catch container. Prevent water entry, overflow and reservoir running dry.",
+      "source_pdf_pages": [
+        102,
+        103,
+        104,
+        151
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=102",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=103",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=104",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=151"
+      ],
+      "depends_on": [
+        "hose"
+      ],
+      "verification": "Correct fluid; sufficient supply throughout bleeding.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    },
+    {
+      "id": "bleed",
+      "title": "Bleed rear circuit",
+      "instruction": "Slowly pump pedal several times, then press fully and hold. Open bleeder; close before releasing pedal. Repeat until hose fluid is bubble-free, replenishing reservoir. If tiny bubbles persist, let fluid settle a few hours and repeat.",
+      "source_pdf_pages": [
+        104,
+        105
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=104",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=105"
+      ],
+      "depends_on": [
+        "fill"
+      ],
+      "verification": "Record bubble-free fluid and firm pedal.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    },
+    {
+      "id": "close",
+      "title": "Close reservoir",
+      "instruction": "Tighten bleeder 5 Nm and refit cap. Restore fluid above the minimum mark shown on PDF 103 with bike upright and reservoir horizontal. Refit diaphragm, plate and cap in diagram 146 order; cap screws 1.5 Nm. Clean all spills.",
+      "source_pdf_pages": [
+        102,
+        103,
+        105,
+        144,
+        146
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=102",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=103",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=105",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=144",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=146"
+      ],
+      "depends_on": [
+        "bleed"
+      ],
+      "verification": "Record final fluid level and closure torques.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    },
+    {
+      "id": "verify",
+      "title": "Check wheel and brake",
+      "instruction": "Apply rear brake repeatedly and inspect hose/connections for leaks. Confirm firm pedal, correct pedal position and no brake drag. A soft pedal requires further bleeding. After stationary checks pass, check rear brake effect on a dry test surface.",
+      "source_pdf_pages": [
+        102,
+        104,
+        153
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=102",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=104",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=153"
+      ],
+      "depends_on": [
+        "close"
+      ],
+      "verification": "Record no leaks, firm pedal, no drag and proper brake effect.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    }
+  ],
+  "publication_status": "APPROVED",
+  "authoring_template": {
+    "path": "docs/research/workshop-pass10/yamaha-2024-brakes/rear-master-rebuild-v1.procedure.json",
+    "sha256": "02bc41bd4692f7dcb1d362c27a3345b92cf51e0ff899c91f9b6bdaf783078af7",
+    "scope": "Sequence structure only; source identity does not transfer across years."
+  },
+  "operation_dependencies": []
+}

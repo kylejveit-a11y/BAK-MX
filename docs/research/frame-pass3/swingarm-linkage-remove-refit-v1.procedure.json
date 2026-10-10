@@ -1,0 +1,538 @@
+{
+  "schema_version": 1,
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "publication_status": "LOCAL_REVIEWED_NOT_IMPORTED",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      61,
+      76,
+      77,
+      90,
+      111,
+      112,
+      131,
+      134,
+      136,
+      137,
+      138,
+      150,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      194,
+      195,
+      196,
+      197,
+      198,
+      210,
+      211,
+      212
+    ],
+    "printed_pages": [
+      "See exact PDF page links at each step"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Text and assembly diagrams visually checked for this bounded operation; no generalization to other years or modified parts."
+  },
+  "id": "yamaha-2026-yz450f-swingarm-linkage-remove-refit-v1",
+  "title": "Remove and refit the stock swingarm and linkage",
+  "completeness": "Complete removal/refit of stock swingarm and intact linkage with rear wheel/chain access and closed rear-brake hydraulics. Existing pressed bearings/seals are inspected in place; shock stays sealed on its upper mount. Engine remains installed on its other mounts and independently supported.",
+  "applicability": {
+    "included": "Exact stock 2026 US standard YZ450F; original serviceable assemblies unless explicitly replaced below",
+    "excluded": [
+      "Other years/models and non-stock assemblies",
+      "Frame repair/welding/straightening",
+      "Pressed bearing/seal replacement",
+      "Shock rebuild or upper mount removal",
+      "Brake hydraulic service",
+      "Engine removal",
+      "Riveted or aftermarket chain joints"
+    ]
+  },
+  "prerequisites": [
+    "Match the exact bike and installed stock parts. Have the complete cited diagrams available.",
+    "Stable maintenance stand and support suitable for changing weight distribution; clean labeled parts storage."
+  ],
+  "required_tools": [
+    {
+      "name": "Secure stand plus independent swingarm/engine/caliper support",
+      "spec": null
+    },
+    {
+      "name": "Torque tools covering21–135 N·m; axle/pivot/linkage tools",
+      "spec": null
+    },
+    {
+      "name": "Clip-type chain joint tools and approximately50 N chain measurement tool",
+      "spec": null
+    },
+    {
+      "name": "Molybdenum-disulfide and lithium-soap greases",
+      "spec": null
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "New exact stock-chain master-link clip",
+      "purpose": "OEM marks the removed joint clip for replacement; verify chain identity first."
+    }
+  ],
+  "critical_stop_conditions": [
+    "Unstable support, bent/cracked parts, damaged fasteners or unknown assembly order.",
+    "Binding, leaks, missing hardware or abnormal brake/control function remains an unresolved fault."
+  ],
+  "steps": [
+    {
+      "id": "prepare",
+      "title": "Support the rear wheel",
+      "instruction": "Support the bike with its rear wheel off the ground. Select neutral. Protect the rear brake pedal against operation while the wheel is removed; keep the hydraulic line closed.",
+      "source_pdf_pages": [
+        134,
+        136,
+        111
+      ],
+      "verification": [
+        "Rear wheel clear, bike stable, brake pedal protected."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": []
+    },
+    {
+      "id": "remove",
+      "title": "Release the axle and chain",
+      "instruction": "Remove the axle nut. Loosen both adjuster locknuts and turn the adjusting bolts inward to let the wheel move forward. Support the wheel, withdraw the axle and retain both pullers and collars by side. Push the wheel forward, lift the chain from the sprocket and remove the wheel without disturbing the hydraulic line.",
+      "source_pdf_pages": [
+        134,
+        136
+      ],
+      "verification": [
+        "Wheel clear; left/right pullers and collars labeled."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=134",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=136"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "prepare"
+      ]
+    },
+    {
+      "id": "inspect",
+      "title": "Inspect wheel, axle and collars",
+      "instruction": "Check the axle for bending, the tire/wheel and collars for damage, and bearings for roughness or looseness. Inspect seals and sprocket teeth. Record defects; damaged components need the matching repair before refitting.",
+      "source_pdf_pages": [
+        131,
+        136
+      ],
+      "verification": [
+        "Serviceability recorded; no damaged parts silently reused."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "remove"
+      ]
+    },
+    {
+      "id": "chain-open",
+      "title": "Open the original clip-type drive chain",
+      "instruction": "Remove the master-link clip, plate and master link, then remove the chain. Keep its orientation and original matched parts identified. This operation applies to the stock clip-type joint; a riveted or replacement chain requires its maker's joint procedure.",
+      "source_pdf_pages": [
+        196,
+        197
+      ],
+      "verification": [
+        "Stock clip joint identified; chain removed; new correct clip ready."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=196",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=197"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "inspect"
+      ]
+    },
+    {
+      "id": "brake-clear",
+      "title": "Support the closed rear brake assembly",
+      "instruction": "Slide the complete rear caliper and bracket free of the swingarm guide after wheel removal. Release the hose retaining clamps shown in the routing diagram and support the assembly without twisting or stretching the hose. Do not remove hose unions, pads or sliding pins. Remove the brake-pedal pivot bolt and unhook its spring to clear pivot access; support the pedal while leaving its master-cylinder linkage attached.",
+      "source_pdf_pages": [
+        76,
+        77,
+        134,
+        150,
+        192,
+        210
+      ],
+      "verification": [
+        "Hose free of swingarm and supported; hydraulics closed; pedal/return spring retained."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=76",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=77",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=134",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=150",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=192",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=210"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "chain-open"
+      ]
+    },
+    {
+      "id": "shock-lower",
+      "title": "Unlink the shock and linkage",
+      "instruction": "Support the swingarm independently. Remove the lower shock bolt and keep the shock supported on its unchanged upper mount. Remove the connecting-arm frame bolt, connecting-arm-to-relay bolt and relay-to-swingarm bolt, keeping each fastener and collar/washer stack associated with its joint. Keep the linkage bearings and seals assembled in this inspection-only operation.",
+      "source_pdf_pages": [
+        187,
+        188,
+        190,
+        191
+      ],
+      "verification": [
+        "Swingarm cannot drop; three linkage joints and lower shock joint identified."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=187",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=188",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=190",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=191"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "brake-clear"
+      ]
+    },
+    {
+      "id": "pivot-out",
+      "title": "Withdraw the pivot and swingarm",
+      "instruction": "Support the engine and frame while leaving all other engine mounts undisturbed. Remove the pivot nut, withdraw the pivot shaft and lower the supported swingarm. Keep the collars and thrust-bearing/seal stack in their original positions. The pivot also passes through the engine rear mount; do not let engine or swingarm weight bind the shaft.",
+      "source_pdf_pages": [
+        194,
+        195,
+        210,
+        211
+      ],
+      "verification": [
+        "Engine and arm independently supported; pivot and bearing stacks labeled."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=194",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=195",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=210",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=211"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "shock-lower"
+      ]
+    },
+    {
+      "id": "arm-inspect",
+      "title": "Inspect the arm, pivot and linkage",
+      "instruction": "Inspect the swingarm for bends/cracks, roll the pivot on a flat surface to detect bending, and inspect the linkage arms, collars, seals and exposed bearing surfaces for wear, pitting or damage. Record free play, rust, binding or damage. Do not straighten a bent pivot. Damaged bearings/bushings or bearings/collars require their stated matched-set replacement, outside this intact-bearing guide.",
+      "source_pdf_pages": [
+        189,
+        194
+      ],
+      "verification": [
+        "Serviceability recorded for pivot, arm and every linkage joint."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "pivot-out"
+      ]
+    },
+    {
+      "id": "grease-arm",
+      "title": "Grease and position the swingarm",
+      "instruction": "Apply molybdenum-disulfide grease to the pivot, bearing contact surfaces, thrust bearings, bushings, collars and seals per the diagram. Return the original intact bearing stacks and arm. Insert the pivot from the right. Apply lithium-soap grease to the pivot-nut threads and contact face and tighten the pivot nut to 75 N·m.",
+      "source_pdf_pages": [
+        194,
+        195,
+        211,
+        212
+      ],
+      "verification": [
+        "Correct grease locations; original stack order; pivot from right; nut 75 N·m."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=194",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=195",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=211",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=212"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "arm-inspect"
+      ]
+    },
+    {
+      "id": "link-refit",
+      "title": "Refit the linkage in its original orientation",
+      "instruction": "Lubricate the circumferences and threads of the three linkage bolts and lower shock bolt with molybdenum-disulfide grease. Fit the connecting-arm frame bolt from the right; connecting-arm relay bolt, relay-arm swingarm bolt and lower shock bolt from the left. Restore every retained collar and washer in its original joint. Raise the arm to align the lower shock without forcing the bolts.",
+      "source_pdf_pages": [
+        187,
+        189,
+        190
+      ],
+      "verification": [
+        "Original linkage orientation and washer stacks restored; bolt directions matched."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=187",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=189",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=190"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "grease-arm"
+      ]
+    },
+    {
+      "id": "link-torque",
+      "title": "Secure the linkage and lower shock",
+      "instruction": "Tighten the connecting-arm frame nut and connecting-arm relay nut to 80 N·m each. Tighten the relay-arm swingarm nut to 70 N·m and the lower shock nut to 53 N·m. The unchanged upper shock mount is not part of this removal.",
+      "source_pdf_pages": [
+        190,
+        191
+      ],
+      "verification": [
+        "Frame 80, relay 80, swingarm 70, lower shock 53 N·m recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "link-refit"
+      ]
+    },
+    {
+      "id": "brake-refit",
+      "title": "Restore pedal and hose routing",
+      "instruction": "Refit the pedal with its original spring and grease the pivot contact/seal locations shown with lithium-soap grease. Tighten the pedal pivot bolt to 26 N·m. Route the brake hose clear of the spring and suspension without twist; its paint mark faces upward. Fully seat the hose clamps in their bases, engage each lock by at least three notches and face their openings inward. Keep the complete caliper bracket supported for wheel installation.",
+      "source_pdf_pages": [
+        61,
+        76,
+        77,
+        210
+      ],
+      "verification": [
+        "Pedal 26 N·m; spring restored; hose/retainers matched; no open hydraulics."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=61",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=76",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=77",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=210"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "link-torque"
+      ]
+    },
+    {
+      "id": "chain-refit",
+      "title": "Reconnect the stock chain",
+      "instruction": "Fit the original matched master link and plate with a new correct master-link clip. Follow the OEM diagram so the closed end of the clip leads in the chain's direction of travel. Lubricate the chain. Do not reuse the removed clip or apply this procedure to a different chain joint.",
+      "source_pdf_pages": [
+        198
+      ],
+      "verification": [
+        "New matching clip fully seated with closed end leading chain travel."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=198"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "brake-refit"
+      ]
+    },
+    {
+      "id": "refit",
+      "title": "Refit the wheel and chain",
+      "instruction": "Grease the oil-seal lips with lithium-soap-based grease and refit the collars. Place the disc between the brake pads and locate the caliper bracket correctly in its swingarm guide. Push the wheel forward and put the chain onto the sprocket. Fit the left puller and insert the greased axle from the left.",
+      "source_pdf_pages": [
+        134,
+        137,
+        138
+      ],
+      "verification": [
+        "Collars retained; bracket engaged; disc between pads; chain on sprocket; axle from left."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=134",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=137",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=138"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "chain-refit"
+      ]
+    },
+    {
+      "id": "hardware",
+      "title": "Fit the right puller and nut",
+      "instruction": "Fit the right chain puller, washer and axle nut. Leave the nut temporarily snug until chain adjustment is complete.",
+      "source_pdf_pages": [
+        138
+      ],
+      "verification": [
+        "Right puller and washer present; axle nut temporary only."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=138"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "refit"
+      ]
+    },
+    {
+      "id": "slack",
+      "title": "Measure and adjust chain slack",
+      "instruction": "With the rear wheel raised and gearbox in neutral, pull the chain upward above the chain-guide mounting bolt with about 50 N. Measure between the drive-chain guide and the bottom of the chain at the exact diagram location. Adjust both sides equally to 50–60 mm. Push the wheel forward so each puller/end plate is seated against the swingarm end.",
+      "source_pdf_pages": [
+        111,
+        138
+      ],
+      "verification": [
+        "Measured slack 50–60 mm using OEM50 N reference; pullers equally adjusted and seated."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=111",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=138"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "torque",
+      "title": "Secure the rear axle and adjusters",
+      "instruction": "Tighten the rear axle nut to 135 N·m and both chain-adjuster locknuts to 21 N·m. Recheck the chain slack after tightening.",
+      "source_pdf_pages": [
+        112,
+        138
+      ],
+      "verification": [
+        "Axle 135 N·m; locknuts 21 N·m; final slack recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "slack"
+      ]
+    },
+    {
+      "id": "close",
+      "title": "Check chain alignment and brake function",
+      "instruction": "Turn the wheel and check the chain follows the sprockets, the brake disc sits correctly and the rear brake has normal firm operation. Record wheel installation and any unresolved fault before use.",
+      "source_pdf_pages": [
+        90,
+        136,
+        137,
+        138
+      ],
+      "verification": [
+        "Alignment, wheel rotation and brake action verified."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "torque"
+      ]
+    },
+    {
+      "id": "arm-close",
+      "title": "Verify the complete rear assembly",
+      "instruction": "Check rear suspension travel for smooth movement, no side play or binding, brake hose clearance, chain alignment/slack and normal firm rear-brake action. Record all disturbed fasteners and any defect. Wheel refit alone does not verify the linkage; record this separate check.",
+      "source_pdf_pages": [
+        90,
+        111,
+        138,
+        194,
+        195
+      ],
+      "verification": [
+        "Suspension, chain and brake checks recorded; no unresolved defect hidden."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "close"
+      ]
+    }
+  ],
+  "operation_dependencies": [],
+  "affected_components": [
+    "shock",
+    "suspension",
+    "rear_brake",
+    "brakes",
+    "chain",
+    "swingarm",
+    "linkage",
+    "rear_wheel",
+    "wheels",
+    "engine_modifications"
+  ]
+}

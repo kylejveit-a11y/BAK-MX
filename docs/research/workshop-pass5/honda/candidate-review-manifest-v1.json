@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "status": "CANDIDATE_NOT_RUNTIME_APPROVED",
+  "sources": [
+    {
+      "source_id": "honda-2026-competition-handbook-prior-capture",
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf",
+      "document_sha256": "676df763129d63c4bb76e28624158b1d310c71499ab736a7c544c898f69e3819",
+      "hash_provenance": "Prior frozen Honda source-map capture; current browser bytes NOT independently hashed."
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "valve-inspection-candidate-v1.procedure.json",
+      "procedure_id": "honda-2026-crf450r-valve-inspection-candidate-v1",
+      "sha256": "32fc7a5c2c68cc9a30d4c4aab76695a672223f32df9a7f252000c40d08053528",
+      "source_id": "honda-2026-competition-handbook-prior-capture",
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF450R",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "CANDIDATE_PENDING_CURRENT_SOURCE_HASH"
+    }
+  ]
+}

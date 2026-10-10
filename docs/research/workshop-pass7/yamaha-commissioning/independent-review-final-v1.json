@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "reviewer": "yamaha_workshop_evidence",
+  "decision": "APPROVED_BOUNDED_ILLUSTRATED_COMPANION",
+  "reviewed_sha256": "e334a0cf7c34bd1fe353f22b144bd231e12a28c50cf2012e52d6739678a48184",
+  "steps_reviewed": 28,
+  "visual_pdf_pages": [
+    40,
+    41,
+    98,
+    241,
+    242,
+    244
+  ],
+  "text_pdf_pages": [
+    40,
+    41,
+    42,
+    43,
+    97,
+    98,
+    99,
+    118,
+    119,
+    240,
+    241,
+    242,
+    244,
+    306,
+    307,
+    308
+  ],
+  "resolved_findings": [
+    "Required tank-cleaning external operation now explicit, with correct source access/refit constraints and no invented cleaner.",
+    "Body closure now precedes all-joint torque-check acceptance."
+  ],
+  "scope_limit": "Companion records actual external tank cleaning, internal fit assessments and all-joint inspection. These remain required external work; approval is not a stand-alone complete maintenance/repair manual.",
+  "physical_execution": false
+}

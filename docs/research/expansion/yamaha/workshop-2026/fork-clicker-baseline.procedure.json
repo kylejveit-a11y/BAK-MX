@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2026-yz450f-stock-fork-clicker-baseline-v1",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Reset stock fork clickers to the Yamaha baseline",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete for external stock fork rebound/compression baseline reset only. Not a fork rebuild, inspection, rider-specific tune, or ride-readiness certification.",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      114,
+      115
+    ],
+    "printed_pages": [
+      "3-30",
+      "3-31"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Rendered PDF pages 114-115 reviewed, including diagrams identifying rebound below and compression above, direction arrows and production tolerance TIP. Original-worded procedure below; not a copied manual."
+  },
+  "applicability": {
+    "model_codes": [
+      "D031",
+      "D036"
+    ],
+    "included": "US 2026 YZ450F / YZ450FT stock fork adjuster configuration",
+    "excluded": [
+      "YZ450FX",
+      "Other model years",
+      "Aftermarket forks",
+      "Modified adjuster assemblies",
+      "Revalved suspension requiring a tuner baseline"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "required_tools": [
+    {
+      "name": "Stable maintenance stand",
+      "size": null
+    },
+    {
+      "name": "Adjuster-compatible tool if required by fitted control",
+      "size": "UNKNOWN; adjustment section does not specify a tool size; use a correctly fitting tool without slipping"
+    },
+    {
+      "name": "Settings notebook or app journal",
+      "size": null
+    }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+    "Confirm exact bike year/model and stock fork configuration.",
+    "External adjusters intact and accessible.",
+    "Repair binding, leakage or damaged adjusters before treating clickers as the cause."
+  ],
+  "critical_stop_conditions": [
+    "Adjuster binds or will not reach the reference without force.",
+    "Stock applicability cannot be confirmed."
+  ],
+  "baseline": {
+    "reference": "Gently seated full hard",
+    "harder_direction": "clockwise viewed facing the adjuster",
+    "softer_direction": "counterclockwise viewed facing the adjuster",
+    "rebound_clicks_out": 9,
+    "compression_clicks_out": 12,
+    "nominal_soft_end_clicks_out": 20,
+    "production_range_may_vary": true,
+    "fork_legs_must_match": true
+  },
+  "steps": [
+    {
+      "id": "support",
+      "title": "Support the bike securely",
+      "instruction": "Put the bike on a stable maintenance stand and confirm it cannot tip while you reach the fork adjusters.",
+      "depends_on": [],
+      "verification": [
+        "Bike stable; forks are the stock components covered by this procedure."
+      ],
+      "source_pdf_pages": [
+        114,
+        115
+      ],
+      "origin": "original summary; record/save are application workflow steps"
+    },
+    {
+      "id": "record",
+      "title": "Record where you are starting",
+      "instruction": "Write down the current left and right settings before changing either control. Use the same gently seated full-hard reference for each count so you can return to this setup.",
+      "depends_on": [
+        "support"
+      ],
+      "verification": [
+        "Each original left/right rebound and compression count recorded."
+      ],
+      "source_pdf_pages": [
+        114,
+        115
+      ],
+      "origin": "original summary; record/save are application workflow steps"
+    },
+    {
+      "id": "rebound-zero",
+      "title": "Find the rebound reference",
+      "instruction": "At the bottom of the first fork leg, turn the rebound adjuster clockwise toward harder damping until it reaches its stop gently. Stop at resistance; do not force it.",
+      "depends_on": [
+        "record"
+      ],
+      "verification": [
+        "Correct rebound adjuster identified; full-hard reference reached without force."
+      ],
+      "source_pdf_pages": [
+        114,
+        115
+      ],
+      "origin": "original summary; record/save are application workflow steps"
+    },
+    {
+      "id": "rebound-set",
+      "title": "Set fork rebound",
+      "instruction": "Turn the rebound adjuster counterclockwise 9 clicks. Repeat the same reference-and-count process on the other fork leg.",
+      "depends_on": [
+        "rebound-zero"
+      ],
+      "verification": [
+        "Left and right rebound each 9 clicks out from full hard."
+      ],
+      "source_pdf_pages": [
+        114,
+        115
+      ],
+      "origin": "original summary; record/save are application workflow steps"
+    },
+    {
+      "id": "compression-zero",
+      "title": "Find the compression reference",
+      "instruction": "At the top of the first fork leg, turn the compression adjuster clockwise toward harder damping until it reaches its stop gently. Stop at resistance.",
+      "depends_on": [
+        "rebound-set"
+      ],
+      "verification": [
+        "Correct compression adjuster identified; full-hard reference reached without force."
+      ],
+      "source_pdf_pages": [
+        114,
+        115
+      ],
+      "origin": "original summary; record/save are application workflow steps"
+    },
+    {
+      "id": "compression-set",
+      "title": "Set fork compression",
+      "instruction": "Turn the compression adjuster counterclockwise 12 clicks. Repeat the same reference-and-count process on the other fork leg.",
+      "depends_on": [
+        "compression-zero"
+      ],
+      "verification": [
+        "Left and right compression each 12 clicks out from full hard."
+      ],
+      "source_pdf_pages": [
+        114,
+        115
+      ],
+      "origin": "original summary; record/save are application workflow steps"
+    },
+    {
+      "id": "verify",
+      "title": "Check both legs match",
+      "instruction": "Confirm your recorded final counts: rebound 9 out on both legs; compression 12 out on both legs. The manual gives 20 clicks out as the soft end for both circuits, but actual total travel can vary between manufactured adjusters. Do not force an adjuster to produce a nominal click count.",
+      "depends_on": [
+        "compression-set"
+      ],
+      "verification": [
+        "Matching left/right counts logged; no adjuster forced; any abnormal stop or inability to reach baseline recorded."
+      ],
+      "source_pdf_pages": [
+        114,
+        115
+      ],
+      "origin": "original summary; record/save are application workflow steps"
+    },
+    {
+      "id": "save",
+      "title": "Save this baseline",
+      "instruction": "Save these settings against this bike and the date. This completes the factory-baseline reset; selecting the best settings for your weight, pace and track is a separate tuning session.",
+      "depends_on": [
+        "verify"
+      ],
+      "verification": [
+        "Baseline saved, separate from rider-specific optimum."
+      ],
+      "source_pdf_pages": [
+        114,
+        115
+      ],
+      "origin": "original summary; record/save are application workflow steps"
+    }
+  ],
+  "fact_ids": [
+    "yamaha-2026-yz450f-spec-146",
+    "yamaha-2026-yz450f-spec-147",
+    "yamaha-2026-yz450f-spec-148",
+    "yamaha-2026-yz450f-spec-151",
+    "yamaha-2026-yz450f-spec-152",
+    "yamaha-2026-yz450f-spec-153"
+  ],
+  "reviewed_at": "2026-09-13",
+  "publication_status": "LOCAL_REVIEWED_NOT_IMPORTED"
+}

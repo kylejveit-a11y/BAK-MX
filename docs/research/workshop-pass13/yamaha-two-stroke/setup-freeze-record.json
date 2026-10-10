@@ -1,0 +1,170 @@
+{
+  "status": "APPROVED",
+  "independent_review": {
+    "path": "docs/research/workshop-pass13/yz250f/two-stroke-independent-review-v1.json",
+    "sha256": "cbc11d7e7db7503592fbfd7833fab12bf5f021383568a55c4f1980100c4b9a13"
+  },
+  "transition": "Publication/source approval status and review note only; all mechanical instructions and numbers unchanged.",
+  "artifacts": [
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2026-yz250-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "0e3dbbb2cb5fdcf3b460e139823a02484a58124a539894a09441c9d78fd0687c",
+      "approved_sha256": "7ded3cef2db6872d5b179b5f1bc3a9eaf756ad1aedd23602b96f1bcb76b4039a"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2025-yz250-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "d8aca61e06423b30f91538b1f702ff9658b9286994fcd3297097be822a13b721",
+      "approved_sha256": "5f1e01cb3cccab864198912ed1fba2f5de4007c60c5e93adbe8626d58a646675"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2026-yz125-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "a2eac13bd79d036dc66ea45a127f3c24ddbb5db1d563006645bb3012a1dfe037",
+      "approved_sha256": "2013c0554e188877d6cab0faf6ba2e8e6efede36da797c21c888f02604b16d6e"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2021-yz250-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "1d2847a278ec82312ad9e6e4df53c1235a505ce364811c78abde5fa2b24bdcad",
+      "approved_sha256": "835a7381492665822ef73dcc9a781d02e1e9683484f655cdd6ed6843c8256ffa"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2021-yz250x-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "aa078e6b07128dbe90ff6a4f43a76dca41784f0d1c8234b8fc1fd423481cf4db",
+      "approved_sha256": "72b41cce0e2d4c91fb8c293c82c7867d0c5ab80034f951775cf765eeb961b6bb"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2020-yz125-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "bd36c606e8a8d8bdb66e67442d2a2401c1d6eb4a5ad50afd1df2cc87bafe22cc",
+      "approved_sha256": "c9edf3de83515414fc5a4613e361a29d5b3a7da05907821ca0e7fecc4aabc654"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2020-yz125x-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "b08ae63e0d38cc249eb1af098833cfc9ffdf5804a891077fcb563e06157520d8",
+      "approved_sha256": "c929f9c834aff64d536b0f8181817f849ab2b8f68b3acb5d2255a9a0969c29e7"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2025-yz125-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "fc36435a7a32af02791bd0a4b20626c1daedefef1d79feccdd12557148ac8a9a",
+      "approved_sha256": "a0ccf89d8a8ca69aacfe047a8aebd8ce16bb26f80dd7d493b5a2a713e372372f"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2025-yz125x-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "4529f2a99ca3cf7142c20bb3568165fd93bd8e35e60aaa361e63ecd7da2e75c3",
+      "approved_sha256": "5f64792312f07af7567c737942c77118ec8446f4227417c93059c166df0d2f50"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2026-yz125x-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "ded652f4658b8328c14fbe1893edcdec1849ed56201d2df55024778744578b00",
+      "approved_sha256": "416f4be60b62088535aee5751ac58cf07bdbbf154473a48f957533ece0a009e6"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2025-yz250x-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "7aa7f3dde09d36bd547a404ee4b307b6d851134f3045c06992c4f0f11463047b",
+      "approved_sha256": "9fc0069d57fc2c24698fb6fce1f4fd18b2c8cfab57aa156fb8e03cea525ff25b"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2026-yz250x-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "9e222fd894ac9e14e6ec25b23bf2904513406fb5c12c7744b93863114cb69082",
+      "approved_sha256": "6b10d8005593a9b879429da11aadbcf11ee68d2d781ab4dcee1ee779e71835ee"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2022-yz125-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "ff05bc57df56008452a349f031c8e581ea3bf3f5619969f790be61eebc0861a9",
+      "approved_sha256": "beb6d304c7a206b17ec31649683fd5a86352e5e1e1ef14f57691afdeb01a509b"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2023-yz125-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "0b855481093c53de4759532a86456fd18f1dd693021fbe5a3eb7c041aa7cdc33",
+      "approved_sha256": "02e8bc32d6ed4f1323762df3ef381a3a9ca20143873ed117beb742debad4c589"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2024-yz125-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "388a2a76078d316e8cb4b8156a2f7bee052681bb7fae650438cc5ad3c593743e",
+      "approved_sha256": "87f0165b21764ab680940a61b7b5ef145658dc579857ab4e339dc2e41377d522"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2022-yz250-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "e41043cd1695705c1793d4203e089238081a5343fbfad4ce88be8052dba7d7a0",
+      "approved_sha256": "190134f276daf275d8158793f6fc95871cb1bb8b5d6d8452d7518e741128c446"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2023-yz250-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "7c47339bd29b6ec17aa4ade3cda07e1f5c11360d1cbb334d3246c85d66f80e87",
+      "approved_sha256": "72f83e76cf6d4431a4ba8d3d39a1583b1691e6afa727dc519460b3cbb148d600"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2024-yz250-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "bc65457fa5c8db06717c55c792b6d3bbb7c33440999c7c66abcae12d0a7c7eab",
+      "approved_sha256": "13d492d2c687af949ee466a80aa1245cc0af0d598414f8034affff6143bc7575"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2021-yz125-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "11e425ee741ee59630e2e39898b8aea4fabf709453582ab8c72131b71e3c8f88",
+      "approved_sha256": "351507038b4cf8e972eec784e761a60a34b3c3a4fd6ebf11d0921714965ee4df"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2023-yz125x-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "bb5ffe1e90b607e0c3048cecd6be4e5b4b541e2ff57bf6467b000722b8b3796d",
+      "approved_sha256": "c55aab3e9af4bf1429fe6d2d26f3fd28eda17800a2b671d9670b79cd479ccef4"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2024-yz125x-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "c857188975adc3decdf5fde417f49072556c5ab589bf96d74ec649be10cbe5b4",
+      "approved_sha256": "b76310015ea1b44070a002f92b055c162d38eb289d599ed3d9288f9d5baa6065"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2023-yz250x-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "58a12e25c91f9c800cc7b75e0943d7a1dc509ccf2151c383d31f1cb513fd82c6",
+      "approved_sha256": "47d85746def0c53262eece3bc995cbd99b47a60e3b1cf99966b5857f49ac6810"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2024-yz250x-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "6ad1c790bcf61bbbb1ecbf50fdfef5c22eae66b22d80a413fc1b74f98fef7639",
+      "approved_sha256": "29c16d94d073675686d5f74587e191d17e4ca282e2547546aacaaf4be7935258"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2021-yz125x-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "8488b447319d38b1cb98c760318eba76cc4c292191cef861431b577c820696f3",
+      "approved_sha256": "7b345ff58cf32b086e77cfeb8995b362af9f7840428f3b548d4d5879f07becdb"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2022-yz125x-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "572a31d745a776ad4f82c46322c2cd591199bfbe0bf56f92c4f082e0a043b30e",
+      "approved_sha256": "240cb5e2a3d511bbf678922a71e3843420c4e94685db901097ab263178cc4690"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2022-yz250x-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "404212dc482b1e40a819e294635e2715f426891b27e331cb73b62d450bd0fd8e",
+      "approved_sha256": "6e32607f8aef86544807a08feb76c0b956702a537a9dd672048575c36133f28c"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2020-yz250-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "1c4b19540b562263af4bd01c0de688b54327d1cb5a72346f89153194a931741b",
+      "approved_sha256": "4f6afd288d6ebdf070ae924e4671343cc990ceaf88f1a57f74fc9af1cab47b81"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2020-yz250x-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "17a4f200cca2287095b87c6500e6d9c1cb68053a1c298a748470ef578ee8d484",
+      "approved_sha256": "80abce5980560b3e3c801229729d92b72d6bf329134c53dbcd7147425ac73336"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2027-yz125-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "61486a6fc5d991381a44e599f7d7e2790fc5ed39bd8cbd523f98e5a50da8ffb3",
+      "approved_sha256": "5fc65882870c3c0586d0545a4058de0fb808d5419613da33b49f9731e525219c"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2027-yz250-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "2d2767567e5fa84e3060eab7d2c6f7e17be35bb79236c1e3668109681f2ea88c",
+      "approved_sha256": "73f953140e58ded0c866e3504fe07cb983adeef52a8a2e5622c73355df1ebeaf"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2027-yz125x-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "39ccaaaff37dcfafe9cc16edcbba96e8960cc228294d6c7de86dc7eba9eed117",
+      "approved_sha256": "f7a68408b36399dcc6e55255dc58cbd4e887616e98993522ab260a0020632975"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2027-yz250x-damping-baseline-v1.procedure.json",
+      "candidate_sha256": "663532ecb2424db838556b5f6e20d46c9d4fc05a7d16b6f03d660b293ea4e77c",
+      "approved_sha256": "6bf0e9bf3324b5efea36cde08752dc1562cc9d871d86ecf3499ebedd47cde13b"
+    }
+  ]
+}

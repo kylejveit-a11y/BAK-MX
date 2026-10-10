@@ -1,0 +1,630 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2026-yz450f-guides-valves-renew-bench-v1",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Renew valve guides and valves with seat machining",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete declared bench renewal workflow with an explicit outsourced seat-refacing stage; not an in-app seat-cutting procedure or assembled-bike top-end route.",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      50,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234
+    ],
+    "printed_pages": [
+      "2-3",
+      "5-24",
+      "5-25",
+      "5-26",
+      "5-27",
+      "5-28",
+      "5-29",
+      "5-30",
+      "5-31"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Exact PDF50 and230\u2013234 visually reviewed in pass7; inherited bench strip229 previously approved. Specialist-refacing stage explicit, no cutter settings inferred. Independent year_groups_research visual review230\u2013234 approved after explicit stem-OD rejection and dependency-hash verification corrections."
+  },
+  "applicability": {
+    "included": "Exact US2026 YZ450F standard stock components only",
+    "excluded": [
+      "Whole-head or lifter replacement",
+      "Valve-seat cutter selection/angles/depth or welding",
+      "Other years/models/markets",
+      "Whole-bike access and engine commissioning"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "affected_components": [
+    "engine",
+    "cylinder_head",
+    "valves"
+  ],
+  "required_tools": [
+    {
+      "name": "14mm valve lapper90890-04101/YM-A8998"
+    },
+    {
+      "name": "Spring compressor90890-04200/YM-04019;22mm adapter90890-04108/YM-04108"
+    },
+    {
+      "name": "Guide bore gauge, stem micrometer, dial indicator/supports, contact-width measure"
+    },
+    {
+      "name": "Soft-face hammer, clean labeled trays"
+    },
+    {
+      "name": "Controlled oven and means to confirm 100 \u00b0C; hot-work protection/support"
+    },
+    {
+      "name": "5.5 mm guide removal/installer set 90890-04016 (YM-01122 is remover only)"
+    },
+    {
+      "name": "5.5 mm reamer 90890-01196 / YM-01196"
+    },
+    {
+      "name": "Guide projection measuring tool"
+    },
+    {
+      "name": "Arranged specialist seat-refacing equipment/service"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "Four exact stock new guides"
+    },
+    {
+      "name": "Four sacrificial new titanium lapping valves"
+    },
+    {
+      "name": "Four separate new titanium running valves"
+    },
+    {
+      "name": "Four new stem seals"
+    },
+    {
+      "name": "Exact stock springs where inspection requires"
+    }
+  ],
+  "preflight": [
+    "Original head removed and cams out; exact four positions identified.",
+    "Original head/lifters serviceable; new guide/valve parts and specialist refacing arranged."
+  ],
+  "entry_state": [
+    "Original head removed, cams out; head and lifters serviceable.",
+    "Exact new guides, separate sacrificial and running valves, seals and arranged specialist refacing available."
+  ],
+  "exit_state": [
+    "Renewed guides and separate new running valves accepted and assembled; original serviceable lifters/pads restored.",
+    "Head remains on bench; cam timing, clearance adjustment, installation and engine commissioning still required."
+  ],
+  "critical_stop_conditions": [
+    "Head, seat or lifter damage requiring head replacement",
+    "Unacceptable guide fit, projection, runout, contact or sealing",
+    "Lapping valve mixed with new running valves or abrasive contamination"
+  ],
+  "steps": [
+    {
+      "id": "entry",
+      "title": "Confirm the head repair and machining plan",
+      "instruction": "Start with the original cylinder head removed and cams out. This bench route renews all four guides and valves while retaining an undamaged original head and serviceable lifters. Arrange specialist valve-seat refacing before starting; this guide records its required result and does not teach seat cutting. Keep the two intake and two exhaust positions identified. Obtain four new guides, four sacrificial new titanium lapping valves, four separate new running valves and four new stem seals, all matched to the exact stock head.",
+      "source_pdf_pages": [
+        229,
+        230,
+        231,
+        232,
+        233
+      ],
+      "verification": [
+        "Record exact head identity, parts and arranged seat-refacing service."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=229",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=230",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=231",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=232",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=233"
+      ],
+      "depends_on": [],
+      "origin": "Original OEM summary; specialist work-order and recorded acceptance are explicit workflow adaptations."
+    },
+    {
+      "id": "lifters",
+      "title": "Remove lifters and pads",
+      "instruction": "Protect the chain opening and lift each lifter/pad with the14mm valve lapper90890-04101/YM-A8998. Store each in its original valve position, recording pad identity.",
+      "source_pdf_pages": [
+        229
+      ],
+      "verification": [
+        "Four lifters/pads labeled and retained."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=229"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "entry"
+      ]
+    },
+    {
+      "id": "sealing",
+      "title": "Check the seats before disassembly",
+      "instruction": "With the valves still retained by their springs, put clean solvent in the intake/exhaust ports as shown; OEM mentions kerosene for this check. Look for leakage past each valve seat. Record each result and remove the solvent before continuing.",
+      "source_pdf_pages": [
+        229
+      ],
+      "verification": [
+        "Four separate sealing observations saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=229"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "lifters"
+      ]
+    },
+    {
+      "id": "strip",
+      "title": "Remove the four valve assemblies",
+      "instruction": "Using compressor90890-04200/YM-04019 with22mm adapter90890-04108/YM-04108, compress each spring and remove its two cotters. Release the compressor in control, then remove retainer, spring, valve, old stem seal and spring seat. Retain original positions.",
+      "source_pdf_pages": [
+        229,
+        230
+      ],
+      "verification": [
+        "Eight cotters, four each retainers/springs/valves/seats accounted for; old seals discarded."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=229",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=230"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "sealing"
+      ]
+    },
+    {
+      "id": "guide-check",
+      "title": "Measure stem-to-guide clearance",
+      "instruction": "Measure each guideID and matching stemOD at the illustrated measurement surfaces; subtract stemOD from guideID. Intake clearance limit0.080mm, exhaust0.100mm. Record all eight dimensions and four calculations. An out-of-limit pair requires guide replacement before this head can return.",
+      "source_pdf_pages": [
+        230
+      ],
+      "verification": [
+        "Each guideID, stemOD and calculated clearance saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=230"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "strip"
+      ]
+    },
+    {
+      "id": "valve-check",
+      "title": "Inspect valves and measure runout",
+      "instruction": "Remove deposits without damaging faces/seats. Inspect face condition and stem ends; a mushroomed tip requires replacement. Measure stem runout on the illustrated supports, limit0.020mm. New valves require new guides; every removed valve requires a new stem seal. Do not grind or lap the original titanium valves during inspection.",
+      "source_pdf_pages": [
+        231,
+        232
+      ],
+      "verification": [
+        "Four runouts and face/stem assessments saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=231",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=232"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "guide-check"
+      ]
+    },
+    {
+      "id": "seat-check",
+      "title": "Measure contact width",
+      "instruction": "Inspect seats for pitting/wear. Apply blue layout fluid to each valve face, insert its original valve and press it onto the seat to make a clean contact impression. Measure the wiped contact band; intake/exhaust width limit1.5mm. Seat damage or excessive width requires the source-directed head repair/replacement route before assembly.",
+      "source_pdf_pages": [
+        231
+      ],
+      "verification": [
+        "Four contact widths and seat conditions recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=231"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "valve-check"
+      ]
+    },
+    {
+      "id": "spring-check",
+      "title": "Check springs and lifters",
+      "instruction": "Measure spring free lengths: intake limit36.65mm, exhaust37.34mm; replace an out-of-limit spring. Inspect lifters for damage/scratches; source requires lifters and head replacement for this damage. Record the result for every part.",
+      "source_pdf_pages": [
+        232,
+        233
+      ],
+      "verification": [
+        "Four spring lengths and lifter conditions saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=232",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=233"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "seat-check"
+      ]
+    },
+    {
+      "id": "eligibility",
+      "title": "Confirm this head can be retained",
+      "instruction": "Continue only with undamaged original head, serviceable lifters and seats without source-directed replacement faults. Seat pitting/wear or contact width beyond 1.5 mm requires head replacement; scratched or damaged lifters require lifters and head replacement. Those replacement-head branches are outside this route. Record each spring disposition; replace any spring below its stated limit.",
+      "source_pdf_pages": [
+        231,
+        232,
+        233
+      ],
+      "verification": [
+        "Original head, seat and lifter eligibility recorded; spring replacements identified."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=231",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=232",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=233"
+      ],
+      "depends_on": [
+        "spring-check"
+      ],
+      "origin": "Original OEM summary; specialist work-order and recorded acceptance are explicit workflow adaptations."
+    },
+    {
+      "id": "heat",
+      "title": "Heat the stripped head",
+      "instruction": "Remove solvent and prepare the stripped head for oven heating. Heat the head to 100 \u00b0C as specified to assist guide removal and installation and maintain correct fit. Use suitable heat protection and stable support.",
+      "source_pdf_pages": [
+        230
+      ],
+      "verification": [
+        "Record head heating to 100 \u00b0C; head securely supported."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=230"
+      ],
+      "depends_on": [
+        "eligibility"
+      ],
+      "origin": "Original OEM summary; specialist work-order and recorded acceptance are explicit workflow adaptations."
+    },
+    {
+      "id": "guides-out",
+      "title": "Remove the old guides",
+      "instruction": "Use the 5.5 mm valve-guide remover from set 90890-04016, or YM-01122 with the proper installer equipment, in the direction illustrated. Remove each old guide without damaging its bore in the head.",
+      "source_pdf_pages": [
+        230,
+        231
+      ],
+      "verification": [
+        "Four guides removed; head bores undamaged."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=230",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=231"
+      ],
+      "depends_on": [
+        "heat"
+      ],
+      "origin": "Original OEM summary; specialist work-order and recorded acceptance are explicit workflow adaptations."
+    },
+    {
+      "id": "guides-in",
+      "title": "Install the new guides",
+      "instruction": "Use the illustrated guide installer and remover to install each new guide in the heated head. Measure installed height from the exact illustrated head surface: intake 13.5\u201313.9 mm and exhaust 12.2\u201312.6 mm. Keep intake and exhaust positions distinct.",
+      "source_pdf_pages": [
+        230,
+        231
+      ],
+      "verification": [
+        "Record all four guide projections and accepted seating."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=230",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=231"
+      ],
+      "depends_on": [
+        "guides-out"
+      ],
+      "origin": "Original OEM summary; specialist work-order and recorded acceptance are explicit workflow adaptations."
+    },
+    {
+      "id": "ream",
+      "title": "Finish the installed guide bores",
+      "instruction": "Use 5.5 mm reamer 90890-01196 or YM-01196 after installation to obtain the proper valve-to-guide fit. Measure each finished guide bore and its matching new running-valve stem. Both intake and exhaust guide ID specification is 5.500\u20135.512 mm. Calculate ID minus stem OD; clearance limits are intake 0.080 mm and exhaust 0.100 mm. Reject a new running valve whose stem OD is below the intake 5.445 mm or exhaust 5.435 mm limit, even if calculated clearance passes. Measure new-valve stem runout against 0.020 mm. Record actual dimensions and reject an out-of-specification fit; the wear limits are not machining targets.",
+      "source_pdf_pages": [
+        50,
+        230,
+        231
+      ],
+      "verification": [
+        "Record four bore IDs, stem ODs, clearances and runouts; all dimensions accepted."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=50",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=230",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=231"
+      ],
+      "depends_on": [
+        "guides-in"
+      ],
+      "origin": "Original OEM summary; specialist work-order and recorded acceptance are explicit workflow adaptations."
+    },
+    {
+      "id": "seat-service",
+      "title": "Have the seats refaced after guide renewal",
+      "instruction": "Send the guide-finished head to the arranged head-machining specialist for the valve-seat refacing required after guide renewal. Supply the exact head identity, guide and valve measurements and the source diagrams. Record the returned head and completed work before proceeding. This is an outsourced machining stage: no cutter angle, cut depth or removal allowance is supplied by this guide.",
+      "source_pdf_pages": [
+        230,
+        231,
+        232
+      ],
+      "verification": [
+        "Record specialist, work order and completed refacing; inspect returned head for damage."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=230",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=231",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=232"
+      ],
+      "depends_on": [
+        "ream"
+      ],
+      "origin": "Original OEM summary; specialist work-order and recorded acceptance are explicit workflow adaptations."
+    },
+    {
+      "id": "lap-coarse",
+      "title": "Lap with the sacrificial new valves",
+      "instruction": "Use only the separately identified NEW sacrificial valves for lapping. Put coarse compound on the valve face, keeping compound out of the stem-to-guide gap. Lubricate the stem with molybdenum-disulfide oil, insert it and turn/tap with the valve lapper until face and seat are uniformly polished as described and shown. Do not reuse an original running titanium valve for this operation.",
+      "source_pdf_pages": [
+        232
+      ],
+      "verification": [
+        "Sacrificial valves identified; coarse contact uniform."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=232"
+      ],
+      "depends_on": [
+        "seat-service"
+      ],
+      "origin": "Original OEM summary; specialist work-order and recorded acceptance are explicit workflow adaptations."
+    },
+    {
+      "id": "lap-fine",
+      "title": "Clean and finish the lapped contact",
+      "instruction": "Remove all coarse compound. Repeat the lapping process with fine compound, then clean off all compound again. Clean the face and seat whenever changing or completing a lapping stage. Do not leave abrasive material in the head or guide.",
+      "source_pdf_pages": [
+        232
+      ],
+      "verification": [
+        "Coarse and fine compound completely removed."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=232"
+      ],
+      "depends_on": [
+        "lap-coarse"
+      ],
+      "origin": "Original OEM summary; specialist work-order and recorded acceptance are explicit workflow adaptations."
+    },
+    {
+      "id": "contact",
+      "title": "Measure the finished seat contact",
+      "instruction": "Apply blue layout fluid to the valve face, press it through the guide onto the seat and measure the clean contact impression. Record all four contact widths against the 1.5 mm intake/exhaust limit and inspect for uniform contact. If outside specification, return to the specialist refacing and lapping operation before proceeding; do not assemble a failed seat.",
+      "source_pdf_pages": [
+        231,
+        232
+      ],
+      "verification": [
+        "Record all four accepted widths and contact patterns."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=231",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=232"
+      ],
+      "depends_on": [
+        "lap-fine"
+      ],
+      "origin": "Original OEM summary; specialist work-order and recorded acceptance are explicit workflow adaptations."
+    },
+    {
+      "id": "running-valves",
+      "title": "Set aside every lapping valve",
+      "instruction": "Permanently separate the four sacrificial lapping valves from the running parts. Install only the four DIFFERENT new running valves whose identities and fit were recorded. A titanium valve used for lapping must never run in the engine. Clean all parts and confirm no lapping compound remains.",
+      "source_pdf_pages": [
+        231,
+        232
+      ],
+      "verification": [
+        "Record distinct running-valve identities; all sacrificial valves excluded from assembly."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=231",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=232"
+      ],
+      "depends_on": [
+        "contact"
+      ],
+      "origin": "Original OEM summary; specialist work-order and recorded acceptance are explicit workflow adaptations."
+    },
+    {
+      "id": "assemble",
+      "title": "Install the new seals and running valves",
+      "instruction": "Clean stem ends. Lubricate new running-valve stems and new stem seals with molybdenum-disulfide oil. Install spring seat, new seal, matching new running valve, accepted spring and retainer in each recorded position. Fit the larger-pitch spring coils upward.",
+      "source_pdf_pages": [
+        233
+      ],
+      "verification": [
+        "Four new running valves and seals fitted; springs correctly oriented."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=233"
+      ],
+      "depends_on": [
+        "running-valves"
+      ],
+      "origin": "Original OEM summary; specialist work-order and recorded acceptance are explicit workflow adaptations."
+    },
+    {
+      "id": "cotters",
+      "title": "Secure each spring",
+      "instruction": "Compress each spring with the specified compressor/adapter, seat both cotters and release the tool in control. Lightly tap the valve tip with a soft-face hammer to seat the cotters; excessive force can damage the valve. Inspect all eight cotters before continuing.",
+      "source_pdf_pages": [
+        233,
+        234
+      ],
+      "verification": [
+        "Four retained springs and eight seated cotters verified."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=233",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=234"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "assemble"
+      ]
+    },
+    {
+      "id": "seal-final",
+      "title": "Verify the assembled valves seal",
+      "instruction": "Repeat the port solvent sealing check with the new running valves now retained by their springs. Record each intake and exhaust result; any leakage requires resolution before this head leaves the bench. Remove all test solvent afterward.",
+      "source_pdf_pages": [
+        229
+      ],
+      "verification": [
+        "Four running-valve sealing results accepted; solvent removed."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=229"
+      ],
+      "depends_on": [
+        "cotters"
+      ],
+      "origin": "Original OEM summary; specialist work-order and recorded acceptance are explicit workflow adaptations."
+    },
+    {
+      "id": "lifters-install",
+      "title": "Return pads and lifters",
+      "instruction": "Oil pads and lifters with engine oil and return them to their original positions. Verify that each lifter rotates smoothly by finger. Remove the protective cloth and account for all tools. Final valve clearances are measured after cam/tensioner installation.",
+      "source_pdf_pages": [
+        234
+      ],
+      "verification": [
+        "Four lifters smooth; pads matched; tools/cloth accounted for."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=234"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "seal-final"
+      ]
+    }
+  ],
+  "reviewed_at": "2026-09-13",
+  "runtime_integration_requirement": "Enforce entry state and record_required. Completion certifies this bounded operation only; no automatic completion of upstream/downstream work.",
+  "publication_status": "APPROVED",
+  "consumables": [
+    "Molybdenum-disulfide oil",
+    "Engine oil",
+    "Coarse and fine valve-lapping compound",
+    "Blue layout fluid",
+    "Clean test solvent"
+  ],
+  "prerequisites": [
+    "Head removal and cams-out access completed under the separate approved operation.",
+    "No head/lifter replacement fault; specialist seat-refacing service arranged before guide work."
+  ],
+  "operation_dependencies": [
+    {
+      "artifact": "docs/research/engine-pass3/head-valve-inspect-reseal-bench-v1.procedure.json",
+      "sha256": "5bf0f1c569ce8e7154f725eef699c1d65b0c83a077a160996dd2782f9ce6f940",
+      "purpose": "Inherited source-reviewed bench stripping and retained lifter/cotter methods; new guide/valve branch supersedes reuse-only eligibility in this candidate."
+    }
+  ],
+  "external_operations": [
+    {
+      "id": "seat-refacing",
+      "step": "seat-service",
+      "type": "OUTSOURCED_MACHINING",
+      "reason": "OEM requires refacing after guide replacement; exact operation pages supply no cutter geometry/depth.",
+      "source_pdf_pages": [
+        230,
+        231,
+        232
+      ]
+    }
+  ]
+}

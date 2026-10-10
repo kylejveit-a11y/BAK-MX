@@ -1,0 +1,52 @@
+{
+  "target": {
+    "manufacturer": "Husqvarna",
+    "model": "FC 450",
+    "model_year": 2025,
+    "variant": "standard",
+    "region": "US"
+  },
+  "selector_url": "https://www.husqvarna-motorcycles.com/en-us/service/user-manuals.html",
+  "query_url": "https://www.husqvarna-motorcycles.com/en-us/service/user-manuals/_jcr_content/root/responsivegrid_1_col/bikemanuals.manuals.json?modelName=FC+450+2025",
+  "english_results": [
+    {
+      "modelName": "FC 450 2025",
+      "title": "FC 450 2025 EU (en) - 2025",
+      "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf"
+    },
+    {
+      "modelName": "FC 450 2025",
+      "title": "FC 450 2025 BR (en) - 2025",
+      "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf"
+    },
+    {
+      "modelName": "FC 450 2025",
+      "title": "FC 450 2025 US (en) - 2025",
+      "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf"
+    }
+  ],
+  "selected": {
+    "modelName": "FC 450 2025",
+    "title": "FC 450 2025 US (en) - 2025",
+    "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf"
+  },
+  "scope_confirmed_by_selector": true,
+  "review_status": "PENDING",
+  "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+  "bytes": 10737342,
+  "temporary_pdf": "/tmp/hq-manuals/fc-450-2025.pdf",
+  "temporary_text": "/tmp/hq-manuals/fc-450-2025.txt",
+  "scope_page": 3,
+  "scope_excerpt": "This document is valid for the following models:\nFC 450 EU (F2401Y1)\nFC 450 US (F2475Y2)\nFC 450 Factory Edition US (F2475Y1)\nFX 450 US (F2375Y4)\n*3402805en*\n3402805en\n23/01/2025",
+  "document_revision": "23/01/2025",
+  "document_article": "3402805en",
+  "torque_table_pdf_pages": [
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161
+  ]
+}

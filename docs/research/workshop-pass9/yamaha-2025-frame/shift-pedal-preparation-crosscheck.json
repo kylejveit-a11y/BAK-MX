@@ -1,0 +1,18 @@
+{
+  "status": "RESOLVED_NO_CHANGE",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2025,
+    "region": "US",
+    "variant": "standard"
+  },
+  "source_sha256": "5005e7d8492c9482dfe44c6d752609a9a70a836f5b1dc94be3149d5d493de8ac",
+  "question": "Does the shift pedal12Nm fastener require the blue LT note visible elsewhere on a common exploded page?",
+  "finding": "No LT preparation is specified for this pedal fastener in the reviewed exact source. Table59 marks pre-race/break-in torque checking, not LT. PDF255 top-left pedal inset12Nm has no LT arrow; blue arrows lower on page target other shift mechanism fasteners. PDF258 gives12Nm and259 gives punch-mark alignment. Generator-page236 LT arrow was separately enlarged by commissioning reviewer and identifies the sensor fastener, not the pedal.",
+  "independent_confirmation": [
+    "Root visually checked255/258/259 and accepted no revision.",
+    "Commissioning reviewer enlarged236 and withdrew misattributed LT."
+  ],
+  "frozen_artifacts_changed": false
+}

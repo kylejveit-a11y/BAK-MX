@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2026-yz450f-right-cover-bench-v1",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Remove and reseal the right engine cover",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete bounded bench operation from the declared entry state to the declared exit state. Whole-bike access and downstream engine closure are separate dependencies.",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      7,
+      56,
+      251,
+      257,
+      258,
+      300
+    ],
+    "printed_pages": [
+      "Symbols (unnumbered)",
+      "2-9",
+      "5-48",
+      "5-54",
+      "5-55",
+      "6-7"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "All cited operation pages visually reviewed. General symbols and conditional torque rules retained."
+  },
+  "applicability": {
+    "included": "Exact US2026 YZ450F standard stock components only",
+    "excluded": [
+      "Clutch basket installation",
+      "Water-pump rebuild is separate",
+      "Final oil fill and engine commissioning"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "affected_components": [
+    "engine",
+    "crankcase"
+  ],
+  "required_tools": [
+    {
+      "name": "Torque wrench accurate at10Nm"
+    },
+    {
+      "name": "Parallel seal driver and circlip tools"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "New right-cover gasket"
+    },
+    {
+      "name": "New filter-cover and filler-cap O-rings"
+    },
+    {
+      "name": "New internal oil seal/circlip if renewed"
+    },
+    {
+      "name": "Lithium-soap grease"
+    }
+  ],
+  "preflight": [
+    "Engine out, fluids drained, clutch cover removed, external hoses clear."
+  ],
+  "entry_state": [
+    "Engine out, fluids drained, clutch cover removed, external hoses clear."
+  ],
+  "exit_state": [
+    "Right cover/filter/filler sealed; clutch cover and fluid commissioning remain."
+  ],
+  "critical_stop_conditions": [
+    "Any required measurement unresolved or replacement criteria not satisfied.",
+    "Unidentified diagram orientation, missing parts, damage or abnormal binding."
+  ],
+  "material_policy": {
+    "LT": "Locking agent (LOCTITE) per PDF7. Grade unspecified by this manual; no grade inferred.",
+    "lubrication": "Follow each explicit E/M/LS/S application; general dry torque does not override a lubricated joint."
+  },
+  "steps": [
+    {
+      "id": "entry",
+      "title": "Confirm right-cover access",
+      "instruction": "Start with a supported removed engine, oil and coolant drained, clutch cover removed, and hoses/hardware clear of the right cover. Preserve the installed water pump until its separate bench operation is selected.",
+      "source_pdf_pages": [
+        251,
+        300
+      ],
+      "verification": [
+        "Drained engine and clutch-cover access confirmed."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=251",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=300"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": []
+    },
+    {
+      "id": "remove",
+      "title": "Remove the right cover",
+      "instruction": "Remove oil-filter-element cover and element, then filler cap. Map the right-cover bolt lengths/locations from the diagram, remove the bolts and lift away the case cover. Retain the two dowels, discard the gasket, and keep the cover sealing parts identified.",
+      "source_pdf_pages": [
+        251
+      ],
+      "verification": [
+        "Cover, element, filler and two dowels retained."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=251"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "entry"
+      ]
+    },
+    {
+      "id": "service",
+      "title": "Record any cover service needed",
+      "instruction": "Inspect the removed cover and its sealing parts. The separate water-pump operation begins with this cover on the bench. If renewing the illustrated internal oil seal, remove its circlip/old seal and retain the check-ball seat at its shown position; replace the seal and circlip.",
+      "source_pdf_pages": [
+        251,
+        257,
+        300
+      ],
+      "verification": [
+        "Cover service performed or not needed recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=251",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=257",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=300"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "remove"
+      ]
+    },
+    {
+      "id": "seal",
+      "title": "Install the cover oil seal if renewed",
+      "instruction": "For a renewed internal seal, grease its lip with lithium-soap grease and press it parallel at0mm depth with its manufacturer marks/numbers facing inward. Install the new circlip and restore the illustrated check-ball seat. If untouched, record that the original arrangement remains installed.",
+      "source_pdf_pages": [
+        251,
+        257
+      ],
+      "verification": [
+        "Seal0mm/inward marks and new clip recorded, or intact original arrangement."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=251",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=257"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "service"
+      ]
+    },
+    {
+      "id": "case-close",
+      "title": "Refit the right cover",
+      "instruction": "After required primary/oil-pump/shift work is complete, fit both dowels and a new right-cover gasket. Seat the cover and tighten its bolts progressively in a crisscross pattern to10Nm at their original locations. Do not use bolts to pull a binding pump drive into place.",
+      "source_pdf_pages": [
+        257,
+        258
+      ],
+      "verification": [
+        "Two dowels, new gasket and10Nm cover bolts verified."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=257",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=258"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "seal"
+      ]
+    },
+    {
+      "id": "filter",
+      "title": "Restore oil filter and filler",
+      "instruction": "Install the exact filter element in its original direction and its cover with a new O-ring lubricated with lithium-soap grease; tighten cover bolts10Nm. Fit filler cap with its new O-ring lubricated with lithium-soap grease. Oil filling and level checks belong to final engine commissioning.",
+      "source_pdf_pages": [
+        251
+      ],
+      "verification": [
+        "Filter direction, new O-rings and10Nm cover closure recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=251"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "case-close"
+      ]
+    }
+  ],
+  "reviewed_at": "2026-09-13",
+  "runtime_integration_requirement": "Enforce entry state and record_required. Completion certifies this bounded operation only; no automatic completion of upstream/downstream work."
+}

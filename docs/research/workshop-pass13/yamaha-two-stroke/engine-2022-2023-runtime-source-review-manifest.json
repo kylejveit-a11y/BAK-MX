@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED",
+  "sources": [
+    {
+      "id": "yamaha-us-2022-yz250-oem",
+      "source_id": "yamaha-us-2022-yz250-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BCR-2819U-10_02.pdf",
+      "sha256": "7e35f5a2255910883c8d285ab17b4c8df93b6bd5f5bce169f961739f7eac772b",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\BCR-2819U-10_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\BCR-2819U-10_02.pdf"
+    },
+    {
+      "id": "yamaha-us-2023-yz250-oem",
+      "source_id": "yamaha-us-2023-yz250-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BCR-2819U-11_02.pdf",
+      "sha256": "5987b96f081f7c33d155d566ee0cdf7a9a7082e05a4270320d06847e43483659",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\BCR-2819U-11_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\BCR-2819U-11_02.pdf"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2022-yz250-top-end-power-valve-bench-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "2412bdcdede11301bac21661af346ffe4f011870aba42ed7751a5f9589fb495e",
+      "source_id": "yamaha-us-2022-yz250-oem",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 28
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2023-yz250-top-end-power-valve-bench-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "cfb1129fd7ee6945ba03b416c16eaf7a7a232f54465b2fbb547218014146afa2",
+      "source_id": "yamaha-us-2023-yz250-oem",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 28
+    }
+  ],
+  "comparison": {
+    "path": "docs/research/workshop-pass13/yamaha-two-stroke/engine-comparison-2022-2023.json",
+    "sha256": "3271430c4b9f7dfbd2cf36a256f9f40561b2a82e286323f80ff7f364e9d9b32d"
+  },
+  "independent_review": {
+    "path": "docs/research/workshop-pass13/yamaha-two-stroke/engine-freeze-review-2022-2024.json",
+    "sha256": "a91581c02bd36282ebba5403cdc4ed32c4b9d4e519176f13ba0d709a14be728e"
+  }
+}

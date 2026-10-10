@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED_BOUNDED_COMPANION",
+  "sources": [
+    {
+      "id": "yamaha26",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\D03-2819U-10_02.pdf",
+      "sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "top-end-break-in-maintenance-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha26",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "sha256": "e334a0cf7c34bd1fe353f22b144bd231e12a28c50cf2012e52d6739678a48184"
+    },
+    {
+      "path": "REVIEW.md",
+      "kind": "review",
+      "sha256": "dbf0e1ad5f00bbc1994d0ad0244f2f16afed51aa542b4bf51c49e10c4c297d98"
+    },
+    {
+      "path": "validate_review.py",
+      "kind": "validator",
+      "sha256": "0e2e757773d13905060b9dea5006f9ee6244c01e042f5405e1f61b53ee2dd51d"
+    }
+  ]
+}

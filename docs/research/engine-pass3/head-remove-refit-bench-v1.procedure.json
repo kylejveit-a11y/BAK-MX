@@ -1,0 +1,358 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2026-yz450f-head-remove-refit-bench-v1",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Remove and refit the cylinder head",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete bounded bench operation from the declared entry state to the declared exit state. Whole-bike access and downstream engine closure are separate dependencies.",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      7,
+      56,
+      222,
+      223,
+      224,
+      225,
+      226,
+      231,
+      232
+    ],
+    "printed_pages": [
+      "Symbols (unnumbered)",
+      "2-9",
+      "5-19",
+      "5-20",
+      "5-21",
+      "5-22",
+      "5-23",
+      "5-28",
+      "5-29"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "All cited operation pages visually reviewed. General symbols and conditional torque rules retained."
+  },
+  "applicability": {
+    "included": "Exact US2026 YZ450F standard stock components only",
+    "excluded": [
+      "Cam/tensioner removal and installation",
+      "Unspecified machining allowance",
+      "Head valve repair is a separately recorded dependency"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "affected_components": [
+    "engine",
+    "cylinder_head"
+  ],
+  "required_tools": [
+    {
+      "name": "Calibrated torque wrench, angle measurement tool and marking pen"
+    },
+    {
+      "name": "Straightedge, feeler gauge, rounded scraper"
+    },
+    {
+      "name": "Clean chain-retaining wire"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "New exact head gasket"
+    },
+    {
+      "name": "Molybdenum-disulfide grease"
+    },
+    {
+      "name": "LOCTITE locking agent, grade unspecified"
+    }
+  ],
+  "preflight": [
+    "Engine-access and cam-removal states listed in the first step are already complete."
+  ],
+  "entry_state": [
+    "Engine-access and cam-removal states listed in the first step are already complete."
+  ],
+  "exit_state": [
+    "Cylinder head sealed and torqued; cam/tensioner installation and external engine closure still required."
+  ],
+  "critical_stop_conditions": [
+    "Any required measurement unresolved or replacement criteria not satisfied.",
+    "Unidentified diagram orientation, missing parts, damage or abnormal binding."
+  ],
+  "material_policy": {
+    "LT": "Locking agent (LOCTITE) per PDF7. Grade unspecified by this manual; no grade inferred.",
+    "lubrication": "Follow each explicit E/M/LS/S application; general dry torque does not override a lubricated joint."
+  },
+  "steps": [
+    {
+      "id": "entry",
+      "title": "Confirm head-removal access",
+      "instruction": "Start with the engine supported and cold, coolant drained, radiator hose and coolant-temperature coupler detached, throttle body and exhaust detached, upper engine bracket removed and cams/tensioner already removed. Secure the chain. Keep oil-passage plugs, studs and ground terminal installed for this bounded operation.",
+      "source_pdf_pages": [
+        222,
+        223
+      ],
+      "verification": [
+        "Named access completed; chain secured; plugs/studs/terminal undisturbed."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=222",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=223"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": []
+    },
+    {
+      "id": "loosen",
+      "title": "Release the head in removal order",
+      "instruction": "Use the removal-order diagram, which is different from the installation diagram. Loosen the twoM6x45 and fourM10x129 head bolts half a turn each per pass, positions1 through6, until all are loose. Then remove bolts/washers and lift the head without letting the chain fall.",
+      "source_pdf_pages": [
+        223,
+        224
+      ],
+      "verification": [
+        "Removal order and six bolts/washers accounted for."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=223",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=224"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "entry"
+      ]
+    },
+    {
+      "id": "gasket",
+      "title": "Remove head sealing parts",
+      "instruction": "Remove the intake-side chain guide and old head gasket; retain both dowels. Check the guide for damage/wear and replace if defective. Keep the cylinder and piston supported; their service is a separate operation at this point.",
+      "source_pdf_pages": [
+        223,
+        224,
+        225
+      ],
+      "verification": [
+        "Guide, gasket and dowels accounted for."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=223",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=224",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=225"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "loosen"
+      ]
+    },
+    {
+      "id": "inspect",
+      "title": "Inspect the head before choosing reuse",
+      "instruction": "Clean carbon with a rounded scraper that cannot score the chamber or plug threads. Clear coolant-passage deposits. Check for damage/scratches; a replaced head also requires new valves. Measure warpage with straightedge and feeler gauge across the illustrated directions; limit0.05mm. Record all directions and the reuse/repair decision.",
+      "source_pdf_pages": [
+        224
+      ],
+      "verification": [
+        "Head condition and warpage readings saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=224"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "gasket"
+      ]
+    },
+    {
+      "id": "repair",
+      "title": "Complete required head or cylinder work before refit",
+      "instruction": "The retained-head path requires satisfactory head/valve inspection. If head repair, valve/guide replacement or cylinder/piston service is needed, complete and document that work before proceeding. OEM describes400\u2013600-grit figure-eight resurfacing on a surface plate, rotating the head for even removal, but gives no maximum material-removal depth here; do not invent a skim allowance.",
+      "source_pdf_pages": [
+        224,
+        231,
+        232
+      ],
+      "verification": [
+        "Head service disposition recorded; required repairs complete, or explicitly not needed."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=224",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=231",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=232"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "inspect"
+      ]
+    },
+    {
+      "id": "seat",
+      "title": "Install the new head gasket and head",
+      "instruction": "Pull the chain upward while fitting the intake-side guide, both dowels, new gasket and head. Match the gasket orientation and openings to the illustration. Keep debris out of the cylinder and chain cavity.",
+      "source_pdf_pages": [
+        224,
+        225
+      ],
+      "verification": [
+        "New gasket orientation, dowels and chain guide verified."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=224",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=225"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "repair"
+      ]
+    },
+    {
+      "id": "prepare-bolts",
+      "title": "Prepare the four main head bolts",
+      "instruction": "Clean main-bolt threads/contact faces, both washer faces, head contact surfaces and crankcase threads. Apply molybdenum-disulfide grease to main-bolt threads/contact faces and both washer faces. Install main bolts/washers at positions1\u20134 in the installation diagram and seat lightly.",
+      "source_pdf_pages": [
+        225
+      ],
+      "verification": [
+        "Clean surfaces and all specified grease locations recorded."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=225"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "seat"
+      ]
+    },
+    {
+      "id": "first",
+      "title": "Perform the first tightening stage",
+      "instruction": "Follow installation positions1\u20134, tightening evenly in two or three stages until all four reach36Nm. Keep the installation order visible; do not substitute the removal numbering.",
+      "source_pdf_pages": [
+        225
+      ],
+      "verification": [
+        "Each main bolt36Nm in order recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=225"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "prepare-bolts"
+      ]
+    },
+    {
+      "id": "second-one",
+      "title": "Retighten only main bolt1",
+      "instruction": "Remove only bolt1 without loosening another bolt. Reapply molybdenum-disulfide grease to its threads/contact face and both washer faces, reinstall and tighten18Nm. Mark bolt/head as illustrated, then rotate bolt1 another90degrees. Finish this bolt before loosening bolt2.",
+      "source_pdf_pages": [
+        225,
+        226
+      ],
+      "verification": [
+        "Bolt1 removed/regreased/18Nm/+90degrees recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=225",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=226"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "first"
+      ]
+    },
+    {
+      "id": "second-rest",
+      "title": "Repeat one bolt at a time",
+      "instruction": "Perform the same remove, regrease,18Nm and90degree sequence for bolt2, then3, then4. Completely finish one before loosening the next. Record each bolt separately.",
+      "source_pdf_pages": [
+        225,
+        226
+      ],
+      "verification": [
+        "Bolts2,3,4 each18Nm/+90degrees after individual regrease recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=225",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=226"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "second-one"
+      ]
+    },
+    {
+      "id": "final-angle",
+      "title": "Apply the final angle",
+      "instruction": "In installation order1\u20134, turn each main head bolt an additional60degrees. Record each final angle separately; this is not a single36Nm-plus-angle shortcut.",
+      "source_pdf_pages": [
+        226
+      ],
+      "verification": [
+        "Final60degrees for all four bolts recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=226"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "second-rest"
+      ]
+    },
+    {
+      "id": "small",
+      "title": "Secure the two small head bolts",
+      "instruction": "Install and tighten the two small head bolts at positions5 and6 to12Nm with LOCTITE locking agent. The manual does not name a grade. Verify all six completed fasteners and leave cams/tensioner installation for its next operation.",
+      "source_pdf_pages": [
+        225,
+        226
+      ],
+      "verification": [
+        "Small bolts12Nm with locking agent; all six stages complete."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=225",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=226"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "final-angle"
+      ]
+    }
+  ],
+  "reviewed_at": "2026-09-13",
+  "runtime_integration_requirement": "Enforce entry state and record_required. Completion certifies this bounded operation only; no automatic completion of upstream/downstream work."
+}

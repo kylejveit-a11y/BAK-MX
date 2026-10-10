@@ -1,0 +1,43 @@
+{
+  "status": "APPROVED_READY_FOR_ROOT_INTEGRATION",
+  "target": "US2024 standard Yamaha YZ450F",
+  "source_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\BHR-2819U-11_02.pdf",
+  "source_sha256": "6e784b3b15fe1e131f0e385676ca2873e74d783ee2499ce561e595bcea9ca9be",
+  "known_changes": [
+    "fork projection7mm",
+    "exhaust clamps12Nm",
+    "handlebar control section layout differs"
+  ],
+  "next": "Root integration; frozen builders refuse edits. Next exact2023 scope separately after commissioning review.",
+  "database_writes": false,
+  "artifacts": [
+    {
+      "path": "engine-removal-refit-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "86fb9b99d1efeb08101a68f7f8b232cc0267ccc8e67465e41eec2750f181be96",
+      "source_id": "yamaha-2024-bhr",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 70
+    },
+    {
+      "path": "frame-bearing-renewal-reassembly-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "b6628acf8ba83422ab2eba567569599bdcf953d01d05e419aa4358a04c554604",
+      "source_id": "yamaha-2024-bhr",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 151
+    }
+  ]
+}

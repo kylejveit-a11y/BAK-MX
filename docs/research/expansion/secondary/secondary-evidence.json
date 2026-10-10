@@ -1,0 +1,1149 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-09-13",
+  "reviewer": "BAK MX secondary-evidence review",
+  "scope": "Public first-hand tuner/tester and component-manufacturer evidence",
+  "approval_semantics": "approved_for_runtime means eligible for the stated attributed-reference use only, NOT promoted into database or validated for every matching bike. Existing runtime importer must enforce component/variant/conditions and claim kind before enabling.",
+  "sources": {
+    "keefer450": {
+      "url": "https://www.keeferinctesting.com/2025-450-mx-baseline-suspension-settings/",
+      "author": "Kris Keefer",
+      "published_at": "2025-01-08",
+      "retrieved_at": "2026-09-13T14:42:11.905150+00:00",
+      "sha256": "0ab7039b986b421aa4adea9dfb0bf6fb26ae66b0d7f813f8b09791e921e3755a",
+      "bytes": 147564,
+      "rights": "Bounded factual extraction and original review only; source document redistribution not licensed."
+    },
+    "keefer250": {
+      "url": "https://www.keeferinctesting.com/2025-250-mx-baseline-suspension-settings/",
+      "author": "Kris Keefer",
+      "published_at": "2025-02-18",
+      "retrieved_at": "2026-09-13T14:42:11.810309+00:00",
+      "sha256": "397932f6b962b4a0944d4c5f549d2571d91d06efdbc573930b1966eade360c3f",
+      "bytes": 144860,
+      "rights": "Bounded factual extraction and original review only; source document redistribution not licensed."
+    },
+    "keefer-honda-torque": {
+      "url": "https://www.keeferinctesting.com/2025-honda-crf450rwe-baseline-suspension-settings-and-torque-values/",
+      "author": "Kris Keefer",
+      "published_at": "2025-05-12",
+      "retrieved_at": "2026-09-13T14:42:12.007765+00:00",
+      "sha256": "6d895b7d51b4242b1997e51932c0a67b9e7f31c1fd11fe5e0bee70ff05eb3f14",
+      "bytes": 130908,
+      "rights": "Bounded factual extraction and original review only; source document redistribution not licensed."
+    },
+    "race-tech-fscs": {
+      "url": "https://racetech.com/ip-fscs-fk-spr-conv-wp-16-aer48/",
+      "author": "Race Tech",
+      "published_at": null,
+      "retrieved_at": "2026-09-13T14:42:14.176212+00:00",
+      "sha256": "b374a8da25cc163bff1dcbfc2a1db4edf5702dd5170ab441eacfa70f6c1beaeb",
+      "bytes": 136251,
+      "rights": "Bounded factual extraction and original review only; source document redistribution not licensed."
+    },
+    "mx-tech-install": {
+      "url": "https://mx-tech.com/cartridge-installation/",
+      "author": "MX-Tech",
+      "published_at": null,
+      "retrieved_at": "2026-09-13T14:42:11.616407+00:00",
+      "sha256": "79fc4a53925b34658e7933c544a74ddb4cd314ccc533268a4dd19aa656b2b25d",
+      "bytes": 38935,
+      "rights": "Bounded factual extraction and original review only; source document redistribution not licensed."
+    },
+    "mx-tech-wp-adjuster": {
+      "url": "https://mx-tech.com/content/WP%20Compression%20Adjuster%20Guide.pdf",
+      "author": "MX-Tech",
+      "published_at": null,
+      "retrieved_at": "2026-09-13T14:42:19.203919+00:00",
+      "sha256": "6ac90317ef876086606a67014a0584b4b85495edf80166c1c092a9524bea6032",
+      "bytes": 211949,
+      "rights": "Bounded factual extraction and original review only; source document redistribution not licensed."
+    },
+    "mx-tech-showa-kyb": {
+      "url": "https://mx-tech.com/content/Tuning%20Guides/MXT%20Showa%20KYB%20Adjuster%20Tuning%20Guide.pdf",
+      "author": "MX-Tech",
+      "published_at": null,
+      "retrieved_at": "2026-09-13T14:42:19.242212+00:00",
+      "sha256": "d28cabbe7b7daef1c8aacccedca766c2a0683fdc2eda0120681b21a006583ca3",
+      "bytes": 269856,
+      "rights": "Bounded factual extraction and original review only; source document redistribution not licensed."
+    },
+    "mx-tech-raven": {
+      "url": "https://mx-tech.com/mxt-raven-cartridge-system/",
+      "author": "MX-Tech",
+      "published_at": null,
+      "retrieved_at": "2026-09-13T14:42:19.330226+00:00",
+      "sha256": "f8ccc62d4d23d7c9210bd984be55e207dbde165367c4b0d94fc3824049fe808c",
+      "bytes": 48813,
+      "rights": "Bounded factual extraction and original review only; source document redistribution not licensed."
+    },
+    "factory-connection": {
+      "url": "https://www.factoryconnection.com/Setup-gethelp",
+      "author": "Factory Connection",
+      "published_at": null,
+      "retrieved_at": "2026-09-13T14:42:19.137000+00:00",
+      "sha256": "4392beb01d4821aaa1b3c190895e515a526b6c869fb226c9b09f7f272a0bbc87",
+      "bytes": 39424,
+      "rights": "Bounded factual extraction and original review only; source document redistribution not licensed."
+    },
+    "race-tech-alignment": {
+      "url": "https://racetech.com/fork-installation/",
+      "author": "Race Tech",
+      "published_at": null,
+      "retrieved_at": "2026-09-13T14:42:22.718636+00:00",
+      "sha256": "34d67d5ebd80aeffddb1f0f2fe7d1f7bfa17be586fffc7d48a123a9bb5768929",
+      "bytes": 128696,
+      "rights": "Bounded factual extraction and original review only; source document redistribution not licensed."
+    }
+  },
+  "records": [
+    {
+      "id": "keefer-2025-yz450f",
+      "source_id": "keefer450",
+      "source_url": "https://www.keeferinctesting.com/2025-450-mx-baseline-suspension-settings/",
+      "source_locator": "YZ450F section",
+      "author_attribution": "Kris Keefer",
+      "publication_date": "2025-01-08",
+      "claim_kind": "SETUP_PREFERENCE",
+      "scope": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": null,
+        "component": "Suspension",
+        "tune_package": "Keefer published baseline; original components and stock clamps unless source explicitly changes spring"
+      },
+      "value": {
+        "fork_height_mm": 2,
+        "fork_compression_clicks_out": 12,
+        "fork_rebound_clicks_out": 9,
+        "rider_sag_mm": 105,
+        "shock_lsc_clicks_out": 11,
+        "shock_hsc_turns_out": [
+          1.25,
+          1.5
+        ],
+        "shock_rebound_clicks_out": 10
+      },
+      "conditions": [
+        "Attributed tester starting point; not OEM specification, universal recommendation, or repair procedure.",
+        "Confirm spring, valve, clamp and rider context against source before applying; no tuning while fault remains unresolved.",
+        "Regional scope and exact spring part numbers are not stated."
+      ],
+      "confidence": "HIGH_AS_ATTRIBUTED_SOURCE_STATEMENT",
+      "conflict_checks": [
+        "Spring-rate units printed inconsistently as N/m; spring values deliberately not normalized or promoted."
+      ],
+      "independent_corroboration": [],
+      "approved_for_runtime": true,
+      "approval_rationale": "Eligible solely as attributed historical setup reference, with component/rider checks required at use.",
+      "runtime_use": "ATTRIBUTED_REFERENCE_ONLY",
+      "database_promoted": false
+    },
+    {
+      "id": "keefer-2025-kx450",
+      "source_id": "keefer450",
+      "source_url": "https://www.keeferinctesting.com/2025-450-mx-baseline-suspension-settings/",
+      "source_locator": "KX450 section",
+      "author_attribution": "Kris Keefer",
+      "publication_date": "2025-01-08",
+      "claim_kind": "SETUP_PREFERENCE",
+      "scope": {
+        "manufacturer": "Kawasaki",
+        "model": "KX450",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": null,
+        "component": "Suspension",
+        "tune_package": "Keefer published baseline; original components and stock clamps unless source explicitly changes spring"
+      },
+      "value": {
+        "fork_height_mm": [
+          2,
+          3
+        ],
+        "fork_compression_clicks_out": 10,
+        "fork_rebound_clicks_out": 9,
+        "rider_sag_mm": 105,
+        "shock_lsc_clicks_out": 10,
+        "shock_hsc_turns_out": 1.25,
+        "shock_rebound_clicks_out": 12
+      },
+      "conditions": [
+        "Attributed tester starting point; not OEM specification, universal recommendation, or repair procedure.",
+        "Confirm spring, valve, clamp and rider context against source before applying; no tuning while fault remains unresolved.",
+        "Regional scope and exact spring part numbers are not stated."
+      ],
+      "confidence": "HIGH_AS_ATTRIBUTED_SOURCE_STATEMENT",
+      "conflict_checks": [
+        "Spring-rate units printed inconsistently as N/m; spring values deliberately not normalized or promoted.",
+        "Fork setting requires non-stock spring combination; source spring unit unresolved."
+      ],
+      "independent_corroboration": [],
+      "approved_for_runtime": false,
+      "approval_rationale": "Ambiguous year or altered spring configuration unresolved; retain data without directing application.",
+      "runtime_use": "RESEARCH_ONLY",
+      "database_promoted": false
+    },
+    {
+      "id": "keefer-2025-crf450r",
+      "source_id": "keefer450",
+      "source_url": "https://www.keeferinctesting.com/2025-450-mx-baseline-suspension-settings/",
+      "source_locator": "CRF450R section",
+      "author_attribution": "Kris Keefer",
+      "publication_date": "2025-01-08",
+      "claim_kind": "SETUP_PREFERENCE",
+      "scope": {
+        "manufacturer": "Honda",
+        "model": "CRF450R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": null,
+        "component": "Suspension",
+        "tune_package": "Keefer published baseline; original components and stock clamps unless source explicitly changes spring"
+      },
+      "value": {
+        "fork_height_mm": [
+          0,
+          2
+        ],
+        "fork_compression_clicks_out": 9,
+        "fork_rebound_clicks_out": 10,
+        "rider_sag_mm": 106,
+        "shock_lsc_clicks_out": 8,
+        "shock_hsc_turns_out": 1.5,
+        "shock_rebound_clicks_out": 12
+      },
+      "conditions": [
+        "Attributed tester starting point; not OEM specification, universal recommendation, or repair procedure.",
+        "Confirm spring, valve, clamp and rider context against source before applying; no tuning while fault remains unresolved.",
+        "Regional scope and exact spring part numbers are not stated.",
+        "Fork-height preference changes with terrain: flush Southern California; 2 mm softer/rutted tracks."
+      ],
+      "confidence": "HIGH_AS_ATTRIBUTED_SOURCE_STATEMENT",
+      "conflict_checks": [
+        "Spring-rate units printed inconsistently as N/m; spring values deliberately not normalized or promoted.",
+        "Fork setting requires non-stock spring combination; source spring unit unresolved."
+      ],
+      "independent_corroboration": [],
+      "approved_for_runtime": false,
+      "approval_rationale": "Ambiguous year or altered spring configuration unresolved; retain data without directing application.",
+      "runtime_use": "RESEARCH_ONLY",
+      "database_promoted": false
+    },
+    {
+      "id": "keefer-2025-fc-450",
+      "source_id": "keefer450",
+      "source_url": "https://www.keeferinctesting.com/2025-450-mx-baseline-suspension-settings/",
+      "source_locator": "FC 450 section",
+      "author_attribution": "Kris Keefer",
+      "publication_date": "2025-01-08",
+      "claim_kind": "SETUP_PREFERENCE",
+      "scope": {
+        "manufacturer": "Husqvarna",
+        "model": "FC 450",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": null,
+        "component": "Suspension",
+        "tune_package": "Keefer published baseline; original components and stock clamps unless source explicitly changes spring"
+      },
+      "value": {
+        "fork_height_mm": 3,
+        "fork_compression_clicks_out": 12,
+        "fork_rebound_clicks_out": 13,
+        "rider_sag_mm": 102,
+        "shock_lsc_clicks_out": 8,
+        "shock_hsc_turns_out": 1.25,
+        "shock_rebound_clicks_out": 9,
+        "fork_pressure_bar": 10.9
+      },
+      "conditions": [
+        "Attributed tester starting point; not OEM specification, universal recommendation, or repair procedure.",
+        "Confirm spring, valve, clamp and rider context against source before applying; no tuning while fault remains unresolved.",
+        "Regional scope and exact spring part numbers are not stated."
+      ],
+      "confidence": "HIGH_AS_ATTRIBUTED_SOURCE_STATEMENT",
+      "conflict_checks": [
+        "Spring-rate units printed inconsistently as N/m; spring values deliberately not normalized or promoted."
+      ],
+      "independent_corroboration": [],
+      "approved_for_runtime": true,
+      "approval_rationale": "Eligible solely as attributed historical setup reference, with component/rider checks required at use.",
+      "runtime_use": "ATTRIBUTED_REFERENCE_ONLY",
+      "database_promoted": false
+    },
+    {
+      "id": "keefer-2025-mc-450f",
+      "source_id": "keefer450",
+      "source_url": "https://www.keeferinctesting.com/2025-450-mx-baseline-suspension-settings/",
+      "source_locator": "MC 450F section",
+      "author_attribution": "Kris Keefer",
+      "publication_date": "2025-01-08",
+      "claim_kind": "SETUP_PREFERENCE",
+      "scope": {
+        "manufacturer": "GasGas",
+        "model": "MC 450F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": null,
+        "component": "Suspension",
+        "tune_package": "Keefer published baseline; original components and stock clamps unless source explicitly changes spring"
+      },
+      "value": {
+        "fork_height_mm": 3,
+        "fork_compression_clicks_out": 13,
+        "fork_rebound_clicks_out": 12,
+        "rider_sag_mm": 103,
+        "shock_lsc_clicks_out": 10,
+        "shock_hsc_turns_out": 1.25,
+        "shock_rebound_clicks_out": [
+          8,
+          9
+        ],
+        "fork_pressure_bar": 10.9
+      },
+      "conditions": [
+        "Attributed tester starting point; not OEM specification, universal recommendation, or repair procedure.",
+        "Confirm spring, valve, clamp and rider context against source before applying; no tuning while fault remains unresolved.",
+        "Regional scope and exact spring part numbers are not stated."
+      ],
+      "confidence": "HIGH_AS_ATTRIBUTED_SOURCE_STATEMENT",
+      "conflict_checks": [
+        "Spring-rate units printed inconsistently as N/m; spring values deliberately not normalized or promoted."
+      ],
+      "independent_corroboration": [],
+      "approved_for_runtime": true,
+      "approval_rationale": "Eligible solely as attributed historical setup reference, with component/rider checks required at use.",
+      "runtime_use": "ATTRIBUTED_REFERENCE_ONLY",
+      "database_promoted": false
+    },
+    {
+      "id": "keefer-2025-crf250r",
+      "source_id": "keefer250",
+      "source_url": "https://www.keeferinctesting.com/2025-250-mx-baseline-suspension-settings/",
+      "source_locator": "CRF250R section",
+      "author_attribution": "Kris Keefer",
+      "publication_date": "2025-02-18",
+      "claim_kind": "SETUP_PREFERENCE",
+      "scope": {
+        "manufacturer": "Honda",
+        "model": "CRF250R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": null,
+        "component": "Suspension",
+        "tune_package": "Keefer published baseline; original components and stock clamps unless source explicitly changes spring"
+      },
+      "value": {
+        "fork_height_mm": 3,
+        "fork_compression_clicks_out": 12,
+        "fork_rebound_clicks_out": 11,
+        "rider_sag_mm": 105,
+        "shock_lsc_clicks_out": 8,
+        "shock_rebound_clicks_out": 8
+      },
+      "conditions": [
+        "Attributed tester starting point; not OEM specification, universal recommendation, or repair procedure.",
+        "Confirm spring, valve, clamp and rider context against source before applying; no tuning while fault remains unresolved.",
+        "Regional scope and exact spring part numbers are not stated."
+      ],
+      "confidence": "HIGH_AS_ATTRIBUTED_SOURCE_STATEMENT",
+      "conflict_checks": [
+        "Spring-rate units printed inconsistently as N/m; spring values deliberately not normalized or promoted.",
+        "Heading says 2025; explanatory sentence says 2024. Year and omitted HSC unit need author clarification."
+      ],
+      "independent_corroboration": [],
+      "approved_for_runtime": false,
+      "approval_rationale": "Ambiguous year or altered spring configuration unresolved; retain data without directing application.",
+      "runtime_use": "RESEARCH_ONLY",
+      "database_promoted": false
+    },
+    {
+      "id": "keefer-2025-kx250",
+      "source_id": "keefer250",
+      "source_url": "https://www.keeferinctesting.com/2025-250-mx-baseline-suspension-settings/",
+      "source_locator": "KX250 section",
+      "author_attribution": "Kris Keefer",
+      "publication_date": "2025-02-18",
+      "claim_kind": "SETUP_PREFERENCE",
+      "scope": {
+        "manufacturer": "Kawasaki",
+        "model": "KX250",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": null,
+        "component": "Suspension",
+        "tune_package": "Keefer published baseline; original components and stock clamps unless source explicitly changes spring"
+      },
+      "value": {
+        "fork_height_mm": 3,
+        "fork_compression_clicks_out": 7,
+        "fork_rebound_clicks_out": 8,
+        "rider_sag_mm": 105,
+        "shock_lsc_clicks_out": 10,
+        "shock_hsc_turns_out": 2.5,
+        "shock_rebound_clicks_out": 9
+      },
+      "conditions": [
+        "Attributed tester starting point; not OEM specification, universal recommendation, or repair procedure.",
+        "Confirm spring, valve, clamp and rider context against source before applying; no tuning while fault remains unresolved.",
+        "Regional scope and exact spring part numbers are not stated."
+      ],
+      "confidence": "HIGH_AS_ATTRIBUTED_SOURCE_STATEMENT",
+      "conflict_checks": [
+        "Spring-rate units printed inconsistently as N/m; spring values deliberately not normalized or promoted."
+      ],
+      "independent_corroboration": [],
+      "approved_for_runtime": true,
+      "approval_rationale": "Eligible solely as attributed historical setup reference, with component/rider checks required at use.",
+      "runtime_use": "ATTRIBUTED_REFERENCE_ONLY",
+      "database_promoted": false
+    },
+    {
+      "id": "keefer-2025-yz250f",
+      "source_id": "keefer250",
+      "source_url": "https://www.keeferinctesting.com/2025-250-mx-baseline-suspension-settings/",
+      "source_locator": "YZ250F section",
+      "author_attribution": "Kris Keefer",
+      "publication_date": "2025-02-18",
+      "claim_kind": "SETUP_PREFERENCE",
+      "scope": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": null,
+        "component": "Suspension",
+        "tune_package": "Keefer published baseline; original components and stock clamps unless source explicitly changes spring"
+      },
+      "value": {
+        "fork_height_mm": 3,
+        "fork_compression_clicks_out": 8,
+        "fork_rebound_clicks_out": [
+          5,
+          6
+        ],
+        "rider_sag_mm": 105,
+        "shock_lsc_clicks_out": 9,
+        "shock_hsc_turns_out": 1.25,
+        "shock_rebound_clicks_out": 8
+      },
+      "conditions": [
+        "Attributed tester starting point; not OEM specification, universal recommendation, or repair procedure.",
+        "Confirm spring, valve, clamp and rider context against source before applying; no tuning while fault remains unresolved.",
+        "Regional scope and exact spring part numbers are not stated."
+      ],
+      "confidence": "HIGH_AS_ATTRIBUTED_SOURCE_STATEMENT",
+      "conflict_checks": [
+        "Spring-rate units printed inconsistently as N/m; spring values deliberately not normalized or promoted."
+      ],
+      "independent_corroboration": [],
+      "approved_for_runtime": true,
+      "approval_rationale": "Eligible solely as attributed historical setup reference, with component/rider checks required at use.",
+      "runtime_use": "ATTRIBUTED_REFERENCE_ONLY",
+      "database_promoted": false
+    },
+    {
+      "id": "keefer-2025-mc-250f",
+      "source_id": "keefer250",
+      "source_url": "https://www.keeferinctesting.com/2025-250-mx-baseline-suspension-settings/",
+      "source_locator": "MC 250F section",
+      "author_attribution": "Kris Keefer",
+      "publication_date": "2025-02-18",
+      "claim_kind": "SETUP_PREFERENCE",
+      "scope": {
+        "manufacturer": "GasGas",
+        "model": "MC 250F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": null,
+        "component": "Suspension",
+        "tune_package": "Keefer published baseline; original components and stock clamps unless source explicitly changes spring"
+      },
+      "value": {
+        "fork_height_mm": 5,
+        "fork_compression_clicks_out": 12,
+        "fork_rebound_clicks_out": 10,
+        "rider_sag_mm": [
+          102,
+          103
+        ],
+        "shock_lsc_clicks_out": 11,
+        "shock_hsc_turns_out": [
+          1.75,
+          2
+        ],
+        "shock_rebound_clicks_out": 11,
+        "fork_pressure_bar": 10.6
+      },
+      "conditions": [
+        "Attributed tester starting point; not OEM specification, universal recommendation, or repair procedure.",
+        "Confirm spring, valve, clamp and rider context against source before applying; no tuning while fault remains unresolved.",
+        "Regional scope and exact spring part numbers are not stated.",
+        "150\u2013180 lb rider range stated in shared KTM/Husqvarna/GasGas context."
+      ],
+      "confidence": "HIGH_AS_ATTRIBUTED_SOURCE_STATEMENT",
+      "conflict_checks": [
+        "Spring-rate units printed inconsistently as N/m; spring values deliberately not normalized or promoted."
+      ],
+      "independent_corroboration": [],
+      "approved_for_runtime": true,
+      "approval_rationale": "Eligible solely as attributed historical setup reference, with component/rider checks required at use.",
+      "runtime_use": "ATTRIBUTED_REFERENCE_ONLY",
+      "database_promoted": false
+    },
+    {
+      "id": "keefer-2025-fc-250",
+      "source_id": "keefer250",
+      "source_url": "https://www.keeferinctesting.com/2025-250-mx-baseline-suspension-settings/",
+      "source_locator": "FC 250 section",
+      "author_attribution": "Kris Keefer",
+      "publication_date": "2025-02-18",
+      "claim_kind": "SETUP_PREFERENCE",
+      "scope": {
+        "manufacturer": "Husqvarna",
+        "model": "FC 250",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": null,
+        "component": "Suspension",
+        "tune_package": "Keefer published baseline; original components and stock clamps unless source explicitly changes spring"
+      },
+      "value": {
+        "fork_height_mm": 5,
+        "fork_compression_clicks_out": 14,
+        "fork_rebound_clicks_out": 9,
+        "rider_sag_mm": 102,
+        "shock_lsc_clicks_out": 10,
+        "shock_rebound_clicks_out": 11,
+        "fork_pressure_bar": 10.7
+      },
+      "conditions": [
+        "Attributed tester starting point; not OEM specification, universal recommendation, or repair procedure.",
+        "Confirm spring, valve, clamp and rider context against source before applying; no tuning while fault remains unresolved.",
+        "Regional scope and exact spring part numbers are not stated.",
+        "150\u2013180 lb rider range stated in shared KTM/Husqvarna/GasGas context."
+      ],
+      "confidence": "HIGH_AS_ATTRIBUTED_SOURCE_STATEMENT",
+      "conflict_checks": [
+        "Spring-rate units printed inconsistently as N/m; spring values deliberately not normalized or promoted.",
+        "HSC numbers lack explicit unit in this block; not imported."
+      ],
+      "independent_corroboration": [],
+      "approved_for_runtime": true,
+      "approval_rationale": "Eligible solely as attributed historical setup reference, with component/rider checks required at use.",
+      "runtime_use": "ATTRIBUTED_REFERENCE_ONLY",
+      "database_promoted": false
+    },
+    {
+      "id": "racetech-fscs-preload",
+      "source_id": "race-tech-fscs",
+      "source_url": "https://racetech.com/ip-fscs-fk-spr-conv-wp-16-aer48/",
+      "source_locator": "Steps 11\u201314",
+      "author_attribution": "Race Tech",
+      "publication_date": null,
+      "claim_kind": "COMPONENT_MANUFACTURER_INSTRUCTION",
+      "scope": {
+        "component": "Race Tech FSCS standard coil conversion for WP AER48; excludes Stealth",
+        "model_year": null,
+        "bike_fitment": "Must verify exact installed kit"
+      },
+      "value": {
+        "spring_preload_mm": [
+          3,
+          5
+        ],
+        "motocross_spring_leg_oil_cc": 525,
+        "fluid": "Race Tech USF-05"
+      },
+      "conditions": [
+        "Only converted spring leg; damping leg quantity separate.",
+        "Use reference measurement difference; outer tube collapsed.",
+        "Oil and preload do not apply to stock WP air forks."
+      ],
+      "confidence": "HIGH_AS_ATTRIBUTED_SOURCE_STATEMENT",
+      "conflict_checks": [
+        "Worked-example prose says L2=53 while arithmetic uses 63; example excluded."
+      ],
+      "independent_corroboration": [],
+      "approved_for_runtime": false,
+      "approval_rationale": "Original manufacturer data captured; kit revision and bike fitment unconfirmed, so not enabled for bike-specific runtime.",
+      "runtime_use": "RESEARCH_ONLY",
+      "database_promoted": false
+    },
+    {
+      "id": "mxt-wp-adjuster-baseline",
+      "source_id": "mx-tech-wp-adjuster",
+      "source_url": "https://mx-tech.com/content/WP%20Compression%20Adjuster%20Guide.pdf",
+      "source_locator": "Page 1 paragraphs 1\u20133",
+      "author_attribution": "MX-Tech",
+      "publication_date": null,
+      "claim_kind": "COMPONENT_MANUFACTURER_INSTRUCTION",
+      "scope": {
+        "component": "MX-Tech WP Triple Adjuster",
+        "bike_fitment": "Installed aftermarket adjuster required",
+        "model_year": null
+      },
+      "value": {
+        "lsb_clicks_out": 5,
+        "msc_clicks_out": 12,
+        "lsr_clicks_out": 5
+      },
+      "conditions": [
+        "Adjust LSB, then MSC, then LSR.",
+        "LSR here is the MXT adjuster circuit, not the OEM shock clevis adjuster."
+      ],
+      "confidence": "HIGH_AS_ATTRIBUTED_SOURCE_STATEMENT",
+      "conflict_checks": [
+        "No conflicting source found within this bounded review; not an exhaustive absence-of-conflict claim."
+      ],
+      "independent_corroboration": [],
+      "approved_for_runtime": true,
+      "approval_rationale": "Manufacturer settings approved only for positive identification of this aftermarket component.",
+      "runtime_use": "ATTRIBUTED_REFERENCE_ONLY",
+      "database_promoted": false
+    },
+    {
+      "id": "mxt-showa-kyb-adjuster-baseline",
+      "source_id": "mx-tech-showa-kyb",
+      "source_url": "https://mx-tech.com/content/Tuning%20Guides/MXT%20Showa%20KYB%20Adjuster%20Tuning%20Guide.pdf",
+      "source_locator": "Page 1 paragraphs 1\u20132",
+      "author_attribution": "MX-Tech",
+      "publication_date": null,
+      "claim_kind": "COMPONENT_MANUFACTURER_INSTRUCTION",
+      "scope": {
+        "component": "MX-Tech Showa/KYB Compression Adjuster",
+        "bike_fitment": "Installed aftermarket adjuster required",
+        "model_year": null
+      },
+      "value": {
+        "lsb_clicks_out": 5,
+        "msc_clicks_out": 12
+      },
+      "conditions": [
+        "Set LSB before MSC.",
+        "Not a specification for original KYB/Showa shock adjusters."
+      ],
+      "confidence": "HIGH_AS_ATTRIBUTED_SOURCE_STATEMENT",
+      "conflict_checks": [
+        "No conflicting source found within this bounded review; not an exhaustive absence-of-conflict claim."
+      ],
+      "independent_corroboration": [],
+      "approved_for_runtime": true,
+      "approval_rationale": "Manufacturer settings approved only for positive identification of this aftermarket component.",
+      "runtime_use": "ATTRIBUTED_REFERENCE_ONLY",
+      "database_promoted": false
+    },
+    {
+      "id": "mxt-cartridge-preload-increment",
+      "source_id": "mx-tech-install",
+      "source_url": "https://mx-tech.com/cartridge-installation/",
+      "source_locator": "Step 2",
+      "author_attribution": "MX-Tech",
+      "publication_date": null,
+      "claim_kind": "COMPONENT_MANUFACTURER_INSTRUCTION",
+      "scope": {
+        "component": "MX-Tech Raven/Blackjack cartridge spring perch",
+        "bike_fitment": "Matching spring-perch design required",
+        "model_year": null
+      },
+      "value": {
+        "circlip_preload_increment_mm": 3
+      },
+      "conditions": [
+        "Example 5 mm preload is a worked example, not a universal target."
+      ],
+      "confidence": "HIGH_AS_ATTRIBUTED_SOURCE_STATEMENT",
+      "conflict_checks": [
+        "No conflicting source found within this bounded review; not an exhaustive absence-of-conflict claim."
+      ],
+      "independent_corroboration": [],
+      "approved_for_runtime": true,
+      "approval_rationale": "Component maker specifies increment; no bike compatibility or desired preload inferred.",
+      "runtime_use": "ATTRIBUTED_REFERENCE_ONLY",
+      "database_promoted": false
+    },
+    {
+      "id": "mxt-raven-wp",
+      "source_id": "mx-tech-raven",
+      "source_url": "https://mx-tech.com/mxt-raven-cartridge-system/",
+      "source_locator": "Product description / PART NUMBERS",
+      "author_attribution": "MX-Tech",
+      "publication_date": null,
+      "claim_kind": "COMPONENT_MANUFACTURER_INSTRUCTION",
+      "scope": {
+        "component": "MX-Tech Raven",
+        "part_number": "02MXTC-2002",
+        "manufacturer_listed_fitment": "WP AER 2021+",
+        "exact_bike_fitment_confirmed": false
+      },
+      "value": {
+        "part_number": "02MXTC-2002"
+      },
+      "conditions": [
+        "Confirm exact fork identity, travel and application before purchasing/installing; published dimensions describe kit configuration, not OEM dimensions."
+      ],
+      "confidence": "HIGH_AS_ATTRIBUTED_SOURCE_STATEMENT",
+      "conflict_checks": [
+        "No conflicting source found within this bounded review; not an exhaustive absence-of-conflict claim."
+      ],
+      "independent_corroboration": [],
+      "approved_for_runtime": true,
+      "approval_rationale": "Approved as maker-listed component identity/dimensions; broad catalog wording does not establish exact-bike fitment.",
+      "runtime_use": "ATTRIBUTED_REFERENCE_ONLY",
+      "database_promoted": false
+    },
+    {
+      "id": "mxt-raven-yamaha",
+      "source_id": "mx-tech-raven",
+      "source_url": "https://mx-tech.com/mxt-raven-cartridge-system/",
+      "source_locator": "Product description / PART NUMBERS",
+      "author_attribution": "MX-Tech",
+      "publication_date": null,
+      "claim_kind": "COMPONENT_MANUFACTURER_INSTRUCTION",
+      "scope": {
+        "component": "MX-Tech Raven",
+        "part_number": "02MXTC-2009",
+        "manufacturer_listed_fitment": "YZ four-stroke 2008\u20132025",
+        "exact_bike_fitment_confirmed": false
+      },
+      "value": {
+        "published_length_mm": 940,
+        "published_stroke_mm": 305
+      },
+      "conditions": [
+        "Confirm exact fork identity, travel and application before purchasing/installing; published dimensions describe kit configuration, not OEM dimensions."
+      ],
+      "confidence": "HIGH_AS_ATTRIBUTED_SOURCE_STATEMENT",
+      "conflict_checks": [
+        "No conflicting source found within this bounded review; not an exhaustive absence-of-conflict claim."
+      ],
+      "independent_corroboration": [],
+      "approved_for_runtime": true,
+      "approval_rationale": "Approved as maker-listed component identity/dimensions; broad catalog wording does not establish exact-bike fitment.",
+      "runtime_use": "ATTRIBUTED_REFERENCE_ONLY",
+      "database_promoted": false
+    },
+    {
+      "id": "mxt-raven-kawasaki",
+      "source_id": "mx-tech-raven",
+      "source_url": "https://mx-tech.com/mxt-raven-cartridge-system/",
+      "source_locator": "Product description / PART NUMBERS",
+      "author_attribution": "MX-Tech",
+      "publication_date": null,
+      "claim_kind": "COMPONENT_MANUFACTURER_INSTRUCTION",
+      "scope": {
+        "component": "MX-Tech Raven",
+        "part_number": "02MXTC-2011",
+        "manufacturer_listed_fitment": "KYB KX250F 2012\u20132023",
+        "exact_bike_fitment_confirmed": false
+      },
+      "value": {
+        "published_length_mm": 945,
+        "published_stroke_mm": 303
+      },
+      "conditions": [
+        "Confirm exact fork identity, travel and application before purchasing/installing; published dimensions describe kit configuration, not OEM dimensions."
+      ],
+      "confidence": "HIGH_AS_ATTRIBUTED_SOURCE_STATEMENT",
+      "conflict_checks": [
+        "No conflicting source found within this bounded review; not an exhaustive absence-of-conflict claim."
+      ],
+      "independent_corroboration": [],
+      "approved_for_runtime": true,
+      "approval_rationale": "Approved as maker-listed component identity/dimensions; broad catalog wording does not establish exact-bike fitment.",
+      "runtime_use": "ATTRIBUTED_REFERENCE_ONLY",
+      "database_promoted": false
+    },
+    {
+      "id": "mxt-raven-husqvarna",
+      "source_id": "mx-tech-raven",
+      "source_url": "https://mx-tech.com/mxt-raven-cartridge-system/",
+      "source_locator": "Product description / PART NUMBERS",
+      "author_attribution": "MX-Tech",
+      "publication_date": null,
+      "claim_kind": "COMPONENT_MANUFACTURER_INSTRUCTION",
+      "scope": {
+        "component": "MX-Tech Raven",
+        "part_number": "02MXTC-2013",
+        "manufacturer_listed_fitment": "FC/TC 2021+ AER; 2024 KTM/Husqvarna spring fork",
+        "exact_bike_fitment_confirmed": false
+      },
+      "value": {
+        "published_length_mm": 940,
+        "published_stroke_mm": 300
+      },
+      "conditions": [
+        "Confirm exact fork identity, travel and application before purchasing/installing; published dimensions describe kit configuration, not OEM dimensions."
+      ],
+      "confidence": "HIGH_AS_ATTRIBUTED_SOURCE_STATEMENT",
+      "conflict_checks": [
+        "No conflicting source found within this bounded review; not an exhaustive absence-of-conflict claim."
+      ],
+      "independent_corroboration": [],
+      "approved_for_runtime": true,
+      "approval_rationale": "Approved as maker-listed component identity/dimensions; broad catalog wording does not establish exact-bike fitment.",
+      "runtime_use": "ATTRIBUTED_REFERENCE_ONLY",
+      "database_promoted": false
+    },
+    {
+      "id": "fc-fork-binding",
+      "source_id": "factory-connection",
+      "source_url": "https://www.factoryconnection.com/Setup-gethelp",
+      "source_locator": "Common Maintenance Tips",
+      "author_attribution": "Factory Connection",
+      "publication_date": null,
+      "claim_kind": "TESTER_OBSERVATION",
+      "scope": {
+        "component": "Fork clamp and start-device attachment",
+        "model_year": null
+      },
+      "value": {
+        "mechanism": "Excessive clamp or start-device ring tightening can restrict fork movement."
+      },
+      "conditions": [
+        "Use exact OEM clamp torque and component-maker ring instructions.",
+        "Inspect installation before compensating with damping changes."
+      ],
+      "confidence": "HIGH_AS_ATTRIBUTED_SOURCE_STATEMENT",
+      "conflict_checks": [
+        "No conflicting source found within this bounded review; not an exhaustive absence-of-conflict claim."
+      ],
+      "independent_corroboration": [
+        {
+          "url": "https://racetech.com/fork-installation/",
+          "scope": "Independent alignment guidance directs exact OEM clamp torques, not a shared test or exact magnitude."
+        }
+      ],
+      "approved_for_runtime": true,
+      "approval_rationale": "Attributable first-hand shop observation; a diagnostic mechanism rather than a replacement torque.",
+      "runtime_use": "ATTRIBUTED_REFERENCE_ONLY",
+      "database_promoted": false
+    },
+    {
+      "id": "fc-service-identity",
+      "source_id": "factory-connection",
+      "source_url": "https://www.factoryconnection.com/Setup-gethelp",
+      "source_locator": "When you call / Tech Support Tips",
+      "author_attribution": "Factory Connection",
+      "publication_date": null,
+      "claim_kind": "COMPONENT_MANUFACTURER_INSTRUCTION",
+      "scope": {
+        "component": "Factory Connection revalved suspension",
+        "model_year": null
+      },
+      "value": {
+        "lookup_key": "Fork setting decal ID",
+        "context_fields": [
+          "fork clickers and height",
+          "shock clickers",
+          "rider/static sag",
+          "track conditions"
+        ]
+      },
+      "conditions": [],
+      "confidence": "HIGH_AS_ATTRIBUTED_SOURCE_STATEMENT",
+      "conflict_checks": [
+        "No conflicting source found within this bounded review; not an exhaustive absence-of-conflict claim."
+      ],
+      "independent_corroboration": [],
+      "approved_for_runtime": true,
+      "approval_rationale": "Original tuner identifies its service lookup key; enables future exact tune identification instead of factory-default substitution.",
+      "runtime_use": "ATTRIBUTED_REFERENCE_ONLY",
+      "database_promoted": false
+    },
+    {
+      "id": "keefer-honda-torque-rear-axle",
+      "source_id": "keefer-honda-torque",
+      "source_url": "https://www.keeferinctesting.com/2025-honda-crf450rwe-baseline-suspension-settings-and-torque-values/",
+      "source_locator": "Torque Settings / rear axle",
+      "author_attribution": "Kris Keefer",
+      "publication_date": "2025-05-12",
+      "claim_kind": "SETUP_PREFERENCE",
+      "scope": {
+        "manufacturer": "Honda",
+        "model": "CRF450R / CRF450RWE",
+        "model_year": 2025,
+        "variant": "Source discusses R and WE",
+        "component": "rear axle"
+      },
+      "value": {
+        "source_claimed_stock_Nm": 128,
+        "experimental_Nm": 120
+      },
+      "conditions": [
+        "Source asks for blue threadlocker generally; that changes installation conditions and cannot be substituted indiscriminately."
+      ],
+      "confidence": "HIGH_AS_ATTRIBUTED_SOURCE_STATEMENT",
+      "conflict_checks": [
+        "Source explicitly contrasts its experiment against stock torque; keep separate from verified OEM field."
+      ],
+      "independent_corroboration": [],
+      "approved_for_runtime": false,
+      "approval_rationale": "Safety-critical reduction is a tester experiment. No OEM clearance, retention validation or torque-condition equivalence demonstrated. Do not use to fill OEM inventory.",
+      "runtime_use": "RESEARCH_ONLY",
+      "database_promoted": false
+    },
+    {
+      "id": "keefer-honda-torque-upper-fork-clamp",
+      "source_id": "keefer-honda-torque",
+      "source_url": "https://www.keeferinctesting.com/2025-honda-crf450rwe-baseline-suspension-settings-and-torque-values/",
+      "source_locator": "Torque Settings / upper fork clamp",
+      "author_attribution": "Kris Keefer",
+      "publication_date": "2025-05-12",
+      "claim_kind": "SETUP_PREFERENCE",
+      "scope": {
+        "manufacturer": "Honda",
+        "model": "CRF450R / CRF450RWE",
+        "model_year": 2025,
+        "variant": "Source discusses R and WE",
+        "component": "upper fork clamp"
+      },
+      "value": {
+        "source_claimed_stock_Nm": 22,
+        "experimental_Nm": 19
+      },
+      "conditions": [
+        "Source asks for blue threadlocker generally; that changes installation conditions and cannot be substituted indiscriminately."
+      ],
+      "confidence": "HIGH_AS_ATTRIBUTED_SOURCE_STATEMENT",
+      "conflict_checks": [
+        "Source explicitly contrasts its experiment against stock torque; keep separate from verified OEM field."
+      ],
+      "independent_corroboration": [],
+      "approved_for_runtime": false,
+      "approval_rationale": "Safety-critical reduction is a tester experiment. No OEM clearance, retention validation or torque-condition equivalence demonstrated. Do not use to fill OEM inventory.",
+      "runtime_use": "RESEARCH_ONLY",
+      "database_promoted": false
+    },
+    {
+      "id": "keefer-honda-torque-lower-fork-clamp",
+      "source_id": "keefer-honda-torque",
+      "source_url": "https://www.keeferinctesting.com/2025-honda-crf450rwe-baseline-suspension-settings-and-torque-values/",
+      "source_locator": "Torque Settings / lower fork clamp",
+      "author_attribution": "Kris Keefer",
+      "publication_date": "2025-05-12",
+      "claim_kind": "SETUP_PREFERENCE",
+      "scope": {
+        "manufacturer": "Honda",
+        "model": "CRF450R / CRF450RWE",
+        "model_year": 2025,
+        "variant": "Source discusses R and WE",
+        "component": "lower fork clamp"
+      },
+      "value": {
+        "source_claimed_stock_Nm": 20,
+        "experimental_Nm": [
+          16,
+          17
+        ]
+      },
+      "conditions": [
+        "Source asks for blue threadlocker generally; that changes installation conditions and cannot be substituted indiscriminately."
+      ],
+      "confidence": "HIGH_AS_ATTRIBUTED_SOURCE_STATEMENT",
+      "conflict_checks": [
+        "Source explicitly contrasts its experiment against stock torque; keep separate from verified OEM field."
+      ],
+      "independent_corroboration": [],
+      "approved_for_runtime": false,
+      "approval_rationale": "Safety-critical reduction is a tester experiment. No OEM clearance, retention validation or torque-condition equivalence demonstrated. Do not use to fill OEM inventory.",
+      "runtime_use": "RESEARCH_ONLY",
+      "database_promoted": false
+    },
+    {
+      "id": "keefer-honda-torque-swingarm-pivot",
+      "source_id": "keefer-honda-torque",
+      "source_url": "https://www.keeferinctesting.com/2025-honda-crf450rwe-baseline-suspension-settings-and-torque-values/",
+      "source_locator": "Torque Settings / swingarm pivot",
+      "author_attribution": "Kris Keefer",
+      "publication_date": "2025-05-12",
+      "claim_kind": "SETUP_PREFERENCE",
+      "scope": {
+        "manufacturer": "Honda",
+        "model": "CRF450R / CRF450RWE",
+        "model_year": 2025,
+        "variant": "Source discusses R and WE",
+        "component": "swingarm pivot"
+      },
+      "value": {
+        "source_claimed_stock_Nm": 88,
+        "experimental_Nm": 81
+      },
+      "conditions": [
+        "Source asks for blue threadlocker generally; that changes installation conditions and cannot be substituted indiscriminately."
+      ],
+      "confidence": "HIGH_AS_ATTRIBUTED_SOURCE_STATEMENT",
+      "conflict_checks": [
+        "Source explicitly contrasts its experiment against stock torque; keep separate from verified OEM field."
+      ],
+      "independent_corroboration": [],
+      "approved_for_runtime": false,
+      "approval_rationale": "Safety-critical reduction is a tester experiment. No OEM clearance, retention validation or torque-condition equivalence demonstrated. Do not use to fill OEM inventory.",
+      "runtime_use": "RESEARCH_ONLY",
+      "database_promoted": false
+    },
+    {
+      "id": "keefer-honda-torque-front-engine-plate-bolts",
+      "source_id": "keefer-honda-torque",
+      "source_url": "https://www.keeferinctesting.com/2025-honda-crf450rwe-baseline-suspension-settings-and-torque-values/",
+      "source_locator": "Torque Settings / front engine plate bolts",
+      "author_attribution": "Kris Keefer",
+      "publication_date": "2025-05-12",
+      "claim_kind": "SETUP_PREFERENCE",
+      "scope": {
+        "manufacturer": "Honda",
+        "model": "CRF450R / CRF450RWE",
+        "model_year": 2025,
+        "variant": "Source discusses R and WE",
+        "component": "front engine plate bolts"
+      },
+      "value": {
+        "source_claimed_stock_Nm": 26,
+        "experimental_Nm": 24
+      },
+      "conditions": [
+        "Source asks for blue threadlocker generally; that changes installation conditions and cannot be substituted indiscriminately."
+      ],
+      "confidence": "HIGH_AS_ATTRIBUTED_SOURCE_STATEMENT",
+      "conflict_checks": [
+        "Source explicitly contrasts its experiment against stock torque; keep separate from verified OEM field."
+      ],
+      "independent_corroboration": [],
+      "approved_for_runtime": false,
+      "approval_rationale": "Safety-critical reduction is a tester experiment. No OEM clearance, retention validation or torque-condition equivalence demonstrated. Do not use to fill OEM inventory.",
+      "runtime_use": "RESEARCH_ONLY",
+      "database_promoted": false
+    },
+    {
+      "id": "keefer-honda-torque-front-engine-plate-nut",
+      "source_id": "keefer-honda-torque",
+      "source_url": "https://www.keeferinctesting.com/2025-honda-crf450rwe-baseline-suspension-settings-and-torque-values/",
+      "source_locator": "Torque Settings / front engine plate nut",
+      "author_attribution": "Kris Keefer",
+      "publication_date": "2025-05-12",
+      "claim_kind": "SETUP_PREFERENCE",
+      "scope": {
+        "manufacturer": "Honda",
+        "model": "CRF450R / CRF450RWE",
+        "model_year": 2025,
+        "variant": "Source discusses R and WE",
+        "component": "front engine plate nut"
+      },
+      "value": {
+        "source_claimed_stock_Nm": 54,
+        "experimental_Nm": 51
+      },
+      "conditions": [
+        "Source asks for blue threadlocker generally; that changes installation conditions and cannot be substituted indiscriminately."
+      ],
+      "confidence": "HIGH_AS_ATTRIBUTED_SOURCE_STATEMENT",
+      "conflict_checks": [
+        "Source explicitly contrasts its experiment against stock torque; keep separate from verified OEM field."
+      ],
+      "independent_corroboration": [],
+      "approved_for_runtime": false,
+      "approval_rationale": "Safety-critical reduction is a tester experiment. No OEM clearance, retention validation or torque-condition equivalence demonstrated. Do not use to fill OEM inventory.",
+      "runtime_use": "RESEARCH_ONLY",
+      "database_promoted": false
+    },
+    {
+      "id": "keefer-honda-torque-head-hanger-bolt",
+      "source_id": "keefer-honda-torque",
+      "source_url": "https://www.keeferinctesting.com/2025-honda-crf450rwe-baseline-suspension-settings-and-torque-values/",
+      "source_locator": "Torque Settings / head hanger bolt",
+      "author_attribution": "Kris Keefer",
+      "publication_date": "2025-05-12",
+      "claim_kind": "SETUP_PREFERENCE",
+      "scope": {
+        "manufacturer": "Honda",
+        "model": "CRF450R / CRF450RWE",
+        "model_year": 2025,
+        "variant": "Source discusses R and WE",
+        "component": "head hanger bolt"
+      },
+      "value": {
+        "source_claimed_stock_Nm": 54,
+        "experimental_Nm": 51
+      },
+      "conditions": [
+        "Source asks for blue threadlocker generally; that changes installation conditions and cannot be substituted indiscriminately."
+      ],
+      "confidence": "HIGH_AS_ATTRIBUTED_SOURCE_STATEMENT",
+      "conflict_checks": [
+        "Source explicitly contrasts its experiment against stock torque; keep separate from verified OEM field."
+      ],
+      "independent_corroboration": [],
+      "approved_for_runtime": false,
+      "approval_rationale": "Safety-critical reduction is a tester experiment. No OEM clearance, retention validation or torque-condition equivalence demonstrated. Do not use to fill OEM inventory.",
+      "runtime_use": "RESEARCH_ONLY",
+      "database_promoted": false
+    },
+    {
+      "id": "keefer-honda-torque-head-hanger-plate-bolts",
+      "source_id": "keefer-honda-torque",
+      "source_url": "https://www.keeferinctesting.com/2025-honda-crf450rwe-baseline-suspension-settings-and-torque-values/",
+      "source_locator": "Torque Settings / head hanger plate bolts",
+      "author_attribution": "Kris Keefer",
+      "publication_date": "2025-05-12",
+      "claim_kind": "SETUP_PREFERENCE",
+      "scope": {
+        "manufacturer": "Honda",
+        "model": "CRF450R / CRF450RWE",
+        "model_year": 2025,
+        "variant": "Source discusses R and WE",
+        "component": "head hanger plate bolts"
+      },
+      "value": {
+        "source_claimed_stock_Nm": 32,
+        "experimental_Nm": 29
+      },
+      "conditions": [
+        "Source asks for blue threadlocker generally; that changes installation conditions and cannot be substituted indiscriminately."
+      ],
+      "confidence": "HIGH_AS_ATTRIBUTED_SOURCE_STATEMENT",
+      "conflict_checks": [
+        "Source explicitly contrasts its experiment against stock torque; keep separate from verified OEM field."
+      ],
+      "independent_corroboration": [],
+      "approved_for_runtime": false,
+      "approval_rationale": "Safety-critical reduction is a tester experiment. No OEM clearance, retention validation or torque-condition equivalence demonstrated. Do not use to fill OEM inventory.",
+      "runtime_use": "RESEARCH_ONLY",
+      "database_promoted": false
+    },
+    {
+      "id": "keefer-honda-torque-upper-shock-mount",
+      "source_id": "keefer-honda-torque",
+      "source_url": "https://www.keeferinctesting.com/2025-honda-crf450rwe-baseline-suspension-settings-and-torque-values/",
+      "source_locator": "Torque Settings / upper shock mount",
+      "author_attribution": "Kris Keefer",
+      "publication_date": "2025-05-12",
+      "claim_kind": "SETUP_PREFERENCE",
+      "scope": {
+        "manufacturer": "Honda",
+        "model": "CRF450R / CRF450RWE",
+        "model_year": 2025,
+        "variant": "Source discusses R and WE",
+        "component": "upper shock mount"
+      },
+      "value": {
+        "source_claimed_stock_Nm": 44,
+        "experimental_Nm": 42
+      },
+      "conditions": [
+        "Source asks for blue threadlocker generally; that changes installation conditions and cannot be substituted indiscriminately."
+      ],
+      "confidence": "HIGH_AS_ATTRIBUTED_SOURCE_STATEMENT",
+      "conflict_checks": [
+        "Source explicitly contrasts its experiment against stock torque; keep separate from verified OEM field."
+      ],
+      "independent_corroboration": [],
+      "approved_for_runtime": false,
+      "approval_rationale": "Safety-critical reduction is a tester experiment. No OEM clearance, retention validation or torque-condition equivalence demonstrated. Do not use to fill OEM inventory.",
+      "runtime_use": "RESEARCH_ONLY",
+      "database_promoted": false
+    }
+  ]
+}

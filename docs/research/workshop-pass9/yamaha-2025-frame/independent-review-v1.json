@@ -1,0 +1,82 @@
+{
+  "status": "APPROVED_BOUNDED_OPERATIONS",
+  "reviewer": "root independent mechanical/source review",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2025,
+    "region": "US",
+    "variant": "standard"
+  },
+  "source_sha256": "5005e7d8492c9482dfe44c6d752609a9a70a836f5b1dc94be3149d5d493de8ac",
+  "reviewed_visual_pages": [
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    73,
+    75,
+    95,
+    125,
+    127,
+    129,
+    132,
+    158,
+    161,
+    163,
+    165,
+    175,
+    176,
+    178,
+    179,
+    180,
+    181,
+    183,
+    184,
+    186,
+    187,
+    190,
+    192,
+    195,
+    205,
+    206,
+    207,
+    208,
+    286,
+    287,
+    296,
+    298,
+    299,
+    300
+  ],
+  "review_method": "All151 frame step instructions read; shared70-step engine-only differences separately reviewed. Exact source text numeric/access/closure pages inspected, plus listed visual geometry/routing pages. Official Motion Pro tool procedures and attributed Nick Dole holding method checked. Hash validation does not substitute for physical validation.",
+  "findings_resolved": [
+    "Exhaust-port gasket distinguished from cylinder head gasket",
+    "Upper eye dust-seal M grease versus O-ring LS grease",
+    "Two new pedal pivot O-rings",
+    "Flush and completely drain cooling system before refill; mixture accounts for residual water",
+    "Throttle-body injector/sensor connectors identified before independent loom removal; restore exact routing",
+    "Confirmed OEM fork damper loosening and30Nm closure",
+    "Cableclutch7\u201312mm/4.3Nm/7Nm,5mm fork projection, separate16Nm upperroller and2025wiring differ from2026"
+  ],
+  "remaining_scope": [
+    "Retained serviceable structural assemblies; no welding or machining",
+    "Engine/fork/shock internals separate",
+    "Headgasket replacement requires its separate after-three-minute-warmup test, not this cold retainedgasket test",
+    "No physical bike or signeddevice validation"
+  ],
+  "artifacts": [
+    {
+      "path": "engine-removal-refit-v1.procedure.json",
+      "sha256": "ac4ff7e9f086bd069a4c1008c8e09076a64c93afdbef204501ecbc048975157d"
+    },
+    {
+      "path": "frame-bearing-renewal-reassembly-v1.procedure.json",
+      "sha256": "41e9d90bfe0017e793dd22f662076528d5e980f70bde6b6d56e57dc5eaeec8c5"
+    }
+  ]
+}

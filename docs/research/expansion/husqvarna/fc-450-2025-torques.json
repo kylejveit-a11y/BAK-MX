@@ -1,0 +1,3162 @@
+{
+  "target": {
+    "manufacturer": "Husqvarna",
+    "model": "FC 450",
+    "model_year": 2025,
+    "variant": "standard",
+    "region": "US"
+  },
+  "facts": [
+    {
+      "id": "fc-450-2025-torque-155-1-1",
+      "property": "torque",
+      "joint": "Screw, fixed grip",
+      "thread": "M4",
+      "domain": "chassis",
+      "value": 5.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M4",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 155, torque table row 1: Screw, fixed grip",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "5 Nm (3.7 ft\u22c5lb ) f Loctite\u00ae 243",
+      "source_row": [
+        "Screw, fixed grip\nM4",
+        "5 Nm\n(3.7 ft\u22c5lb )\nf\nLoctite\u00ae 243"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-155-2-2",
+      "property": "torque",
+      "joint": "Screw, hose clamp, throttle body",
+      "thread": "M4",
+      "domain": "chassis",
+      "value": 5.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M4"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 155, torque table row 2: Screw, hose clamp, throttle body",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "5 Nm (3.7 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, hose clamp, throttle body\nM4",
+        "5 Nm\n(3.7 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-155-3-3",
+      "property": "torque",
+      "joint": "Screw, throttle body cover",
+      "thread": "M5",
+      "domain": "chassis",
+      "value": "2\u20136",
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 155, torque table row 3: Screw, throttle body cover",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "2.6 Nm (1.92 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, throttle body cover\nM5",
+        "2.6 Nm\n(1.92 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-155-4-4",
+      "property": "torque",
+      "joint": "Remaining nuts on chassis",
+      "thread": "M5",
+      "domain": "chassis",
+      "value": 5.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M5",
+        "Applies only to remaining fasteners in the named system after excluding all specifically listed joints."
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 155, torque table row 4: Remaining nuts on chassis",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "5 Nm (3.7 ft\u22c5lb ) f",
+      "source_row": [
+        "Remaining nuts on chassis\nM5",
+        "5 Nm\n(3.7 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-155-5-5",
+      "property": "torque",
+      "joint": "Remaining screws on chassis",
+      "thread": "M5",
+      "domain": "chassis",
+      "value": 5.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M5",
+        "Applies only to remaining fasteners in the named system after excluding all specifically listed joints."
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 155, torque table row 5: Remaining screws on chassis",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "5 Nm (3.7 ft\u22c5lb ) f",
+      "source_row": [
+        "Remaining screws on chassis\nM5",
+        "5 Nm\n(3.7 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-155-6-6",
+      "property": "torque",
+      "joint": "Screw, shock absorber adjusting ring",
+      "thread": "M5",
+      "domain": "chassis",
+      "value": 5.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 155, torque table row 6: Screw, shock absorber adjusting ring",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "5 Nm (3.7 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, shock absorber adjusting ring\nM5",
+        "5 Nm\n(3.7 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-155-7-7",
+      "property": "torque",
+      "joint": "Screw, battery terminal",
+      "thread": "M5",
+      "domain": "chassis",
+      "value": "2\u20135",
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 155, torque table row 7: Screw, battery terminal",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "2.5 Nm (1.84 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, battery terminal\nM5",
+        "2.5 Nm\n(1.84 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-155-8-8",
+      "property": "torque",
+      "joint": "Screw, frame protector",
+      "thread": "M5",
+      "domain": "chassis",
+      "value": 3.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 155, torque table row 8: Screw, frame protector",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "3 Nm (2.2 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, frame protector\nM5",
+        "3 Nm\n(2.2 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-155-9-9",
+      "property": "torque",
+      "joint": "Screws on muffler",
+      "thread": "M5",
+      "domain": "chassis",
+      "value": 7.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 155, torque table row 9: Screws on muffler",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "7 Nm (5.2 ft\u22c5lb ) f",
+      "source_row": [
+        "Screws on muffler\nM5",
+        "7 Nm\n(5.2 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-155-10-10",
+      "property": "torque",
+      "joint": "Screw, brake pedal stub",
+      "thread": "M5",
+      "domain": "chassis",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M5",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 155, torque table row 10: Screw, brake pedal stub",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "6 Nm (4.4 ft\u22c5lb ) f Loctite\u00ae 243",
+      "source_row": [
+        "Screw, brake pedal stub\nM5",
+        "6 Nm\n(4.4 ft\u22c5lb )\nf\nLoctite\u00ae 243"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-155-11-11",
+      "property": "torque",
+      "joint": "Nut, throttle cable on throttle body",
+      "thread": "M6",
+      "domain": "chassis",
+      "value": 3.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 155, torque table row 11: Nut, throttle cable on throttle body",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "3 Nm (2.2 ft\u22c5lb ) f",
+      "source_row": [
+        "Nut, throttle cable on throttle body\nM6",
+        "3 Nm\n(2.2 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-155-12-12",
+      "property": "torque",
+      "joint": "Screw, fuel tank spoiler on radiator",
+      "thread": "M6",
+      "domain": "chassis",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 155, torque table row 12: Screw, fuel tank spoiler on radiator",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "6 Nm (4.4 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, fuel tank spoiler on radiator\nM6",
+        "6 Nm\n(4.4 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-155-13-13",
+      "property": "torque",
+      "joint": "Screw, battery holding bracket",
+      "thread": "M6",
+      "domain": "chassis",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 155, torque table row 13: Screw, battery holding bracket",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "6 Nm (4.4 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, battery holding bracket\nM6",
+        "6 Nm\n(4.4 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-155-14-14",
+      "property": "torque",
+      "joint": "Screw, starter cable to starter relay",
+      "thread": "M6",
+      "domain": "chassis",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 155, torque table row 14: Screw, starter cable to starter relay",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "6 Nm (4.4 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, starter cable to starter relay\nM6",
+        "6 Nm\n(4.4 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-155-15-15",
+      "property": "torque",
+      "joint": "Screw, chain guide on swingarm, rear",
+      "thread": "M6\u00d716",
+      "domain": "chassis",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6\u00d716",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 155, torque table row 15: Screw, chain guide on swingarm, rear",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "10 Nm (7.4 ft\u22c5lb ) f Loctite\u00ae 243",
+      "source_row": [
+        "Screw, chain guide on swingarm, rear\nM6\u00d716",
+        "10 Nm\n(7.4 ft\u22c5lb )\nf\nLoctite\u00ae 243"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-155-16-16",
+      "property": "torque",
+      "joint": "Screw, hand lever",
+      "thread": "M6",
+      "domain": "chassis",
+      "value": 5.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 155, torque table row 16: Screw, hand lever",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "5 Nm (3.7 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, hand lever\nM6",
+        "5 Nm\n(3.7 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-155-17-17",
+      "property": "torque",
+      "joint": "Nut, starter cable on starter motor",
+      "thread": "M6",
+      "domain": "chassis",
+      "value": 4.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 155, torque table row 17: Nut, starter cable on starter motor",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "4 Nm (3.0 ft\u22c5lb ) f",
+      "source_row": [
+        "Nut, starter cable on starter motor\nM6",
+        "4 Nm\n(3.0 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-155-18-18",
+      "property": "torque",
+      "joint": "Remaining nuts on chassis",
+      "thread": "M6",
+      "domain": "chassis",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6",
+        "Applies only to remaining fasteners in the named system after excluding all specifically listed joints."
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 155, torque table row 18: Remaining nuts on chassis",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "10 Nm (7.4 ft\u22c5lb ) f",
+      "source_row": [
+        "Remaining nuts on chassis\nM6",
+        "10 Nm\n(7.4 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-155-19-19",
+      "property": "torque",
+      "joint": "Remaining screws on chassis",
+      "thread": "M6",
+      "domain": "chassis",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6",
+        "Applies only to remaining fasteners in the named system after excluding all specifically listed joints."
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 155, torque table row 19: Remaining screws on chassis",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "10 Nm (7.4 ft\u22c5lb ) f",
+      "source_row": [
+        "Remaining screws on chassis\nM6",
+        "10 Nm\n(7.4 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-155-20-20",
+      "property": "torque",
+      "joint": "Screw, rear brake disc",
+      "thread": "M6",
+      "domain": "chassis",
+      "value": 14.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 155, torque table row 20: Screw, rear brake disc",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "14 Nm (10.3 ft\u22c5lb ) f Loctite\u00ae 243",
+      "source_row": [
+        "Screw, rear brake disc\nM6",
+        "14 Nm\n(10.3 ft\u22c5lb )\nf\nLoctite\u00ae 243"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-156-1-21",
+      "property": "torque",
+      "joint": "Screw, front brake disc",
+      "thread": "M6",
+      "domain": "chassis",
+      "value": 14.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 156, torque table row 1: Screw, front brake disc",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "14 Nm (10.3 ft\u22c5lb ) f Loctite\u00ae 243",
+      "source_row": [
+        "Screw, front brake disc\nM6",
+        "14 Nm\n(10.3 ft\u22c5lb )\nf\nLoctite\u00ae 243"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-156-2-22",
+      "property": "torque",
+      "joint": "Screw, push rod ball joint on the rear brake cylinder",
+      "thread": "M6",
+      "domain": "chassis",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 156, torque table row 2: Screw, push rod ball joint on the rear brake cylinder",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "10 Nm (7.4 ft\u22c5lb ) f Loctite\u00ae 243",
+      "source_row": [
+        "Screw, push rod ball joint on the rear brake cylinder\nM6",
+        "10 Nm\n(7.4 ft\u22c5lb )\nf\nLoctite\u00ae 243"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-156-3-23",
+      "property": "torque",
+      "joint": "Screw, throttle twist grip",
+      "thread": "M6",
+      "domain": "chassis",
+      "value": 5.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 156, torque table row 3: Screw, throttle twist grip",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "5 Nm (3.7 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, throttle twist grip\nM6",
+        "5 Nm\n(3.7 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-156-4-24",
+      "property": "torque",
+      "joint": "Screw, chain sliding guard on link fork",
+      "thread": "M6",
+      "domain": "chassis",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 156, torque table row 4: Screw, chain sliding guard on link fork",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "6 Nm (4.4 ft\u22c5lb ) f Loctite\u00ae 243",
+      "source_row": [
+        "Screw, chain sliding guard on link fork\nM6",
+        "6 Nm\n(4.4 ft\u22c5lb )\nf\nLoctite\u00ae 243"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-156-5-25",
+      "property": "torque",
+      "joint": "Screw, fuel tank spoiler on radiator",
+      "thread": "M6",
+      "domain": "chassis",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 156, torque table row 5: Screw, fuel tank spoiler on radiator",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "6 Nm (4.4 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, fuel tank spoiler on radiator\nM6",
+        "6 Nm\n(4.4 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-156-6-26",
+      "property": "torque",
+      "joint": "Screw, chain guide on swingarm, front",
+      "thread": "M6\u00d745",
+      "domain": "chassis",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6\u00d745"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 156, torque table row 6: Screw, chain guide on swingarm, front",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "10 Nm (7.4 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, chain guide on swingarm, front\nM6\u00d745",
+        "10 Nm\n(7.4 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-156-7-27",
+      "property": "torque",
+      "joint": "Screw, ground wire on frame",
+      "thread": "M6",
+      "domain": "chassis",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 156, torque table row 7: Screw, ground wire on frame",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "10 Nm (7.4 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, ground wire on frame\nM6",
+        "10 Nm\n(7.4 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-156-8-28",
+      "property": "torque",
+      "joint": "Screw, seat installation",
+      "thread": "M6",
+      "domain": "chassis",
+      "value": 8.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 156, torque table row 8: Screw, seat installation",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "8 Nm (5.9 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, seat installation\nM6",
+        "8 Nm\n(5.9 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-156-9-29",
+      "property": "torque",
+      "joint": "Brake line guide screw on swingarm",
+      "thread": "M6",
+      "domain": "chassis",
+      "value": "4\u20135",
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 156, torque table row 9: Brake line guide screw on swingarm",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "4.5 Nm (3.32 ft\u22c5lb ) f",
+      "source_row": [
+        "Brake line guide screw on swingarm\nM6",
+        "4.5 Nm\n(3.32 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-156-10-30",
+      "property": "torque",
+      "joint": "Screw, connector support incl. dashboard",
+      "thread": "M6",
+      "domain": "chassis",
+      "value": 5.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 156, torque table row 10: Screw, connector support incl. dashboard",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "5 Nm (3.7 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, connector support incl. dashboard\nM6",
+        "5 Nm\n(3.7 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-156-11-31",
+      "property": "torque",
+      "joint": "Screw, front sprocket cover",
+      "thread": "M8",
+      "domain": "chassis",
+      "value": 15.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M8"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 156, torque table row 11: Screw, front sprocket cover",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "15 Nm (11.1 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, front sprocket cover\nM8",
+        "15 Nm\n(11.1 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-156-12-32",
+      "property": "torque",
+      "joint": "Nut, brake pedal stop",
+      "thread": "M8",
+      "domain": "chassis",
+      "value": 20.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M8"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 156, torque table row 12: Nut, brake pedal stop",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "20 Nm (14.8 ft\u22c5lb ) f",
+      "source_row": [
+        "Nut, brake pedal stop\nM8",
+        "20 Nm\n(14.8 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-156-13-33",
+      "property": "torque",
+      "joint": "Nut, rear sprocket screw",
+      "thread": "M8",
+      "domain": "chassis",
+      "value": 35.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M8",
+        "Loctite 2701"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 156, torque table row 13: Nut, rear sprocket screw",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "35 Nm (25.8 ft\u22c5lb ) f Loctite\u00ae 2701",
+      "source_row": [
+        "Nut, rear sprocket screw\nM8",
+        "35 Nm\n(25.8 ft\u22c5lb )\nf\nLoctite\u00ae 2701"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-156-14-34",
+      "property": "torque",
+      "joint": "Nut, rim lock",
+      "thread": "M8",
+      "domain": "chassis",
+      "value": 12.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M8"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 156, torque table row 14: Nut, rim lock",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "12 Nm (8.9 ft\u22c5lb ) f",
+      "source_row": [
+        "Nut, rim lock\nM8",
+        "12 Nm\n(8.9 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-156-15-35",
+      "property": "torque",
+      "joint": "Remaining nuts on chassis",
+      "thread": "M8",
+      "domain": "chassis",
+      "value": 25.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M8",
+        "Applies only to remaining fasteners in the named system after excluding all specifically listed joints."
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 156, torque table row 15: Remaining nuts on chassis",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "25 Nm (18.4 ft\u22c5lb ) f",
+      "source_row": [
+        "Remaining nuts on chassis\nM8",
+        "25 Nm\n(18.4 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-156-16-36",
+      "property": "torque",
+      "joint": "Remaining screws on chassis",
+      "thread": "M8",
+      "domain": "chassis",
+      "value": 25.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M8",
+        "Applies only to remaining fasteners in the named system after excluding all specifically listed joints."
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 156, torque table row 16: Remaining screws on chassis",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "25 Nm (18.4 ft\u22c5lb ) f",
+      "source_row": [
+        "Remaining screws on chassis\nM8",
+        "25 Nm\n(18.4 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-156-17-37",
+      "property": "torque",
+      "joint": "Screw, front brake caliper",
+      "thread": "M8",
+      "domain": "chassis",
+      "value": 25.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M8",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 156, torque table row 17: Screw, front brake caliper",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "25 Nm (18.4 ft\u22c5lb ) f Loctite\u00ae 243",
+      "source_row": [
+        "Screw, front brake caliper\nM8",
+        "25 Nm\n(18.4 ft\u22c5lb )\nf\nLoctite\u00ae 243"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-156-18-38",
+      "property": "torque",
+      "joint": "Screw, top triple clamp",
+      "thread": "M8",
+      "domain": "chassis",
+      "value": 17.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M8"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 156, torque table row 18: Screw, top triple clamp",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "17 Nm (12.5 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, top triple clamp\nM8",
+        "17 Nm\n(12.5 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-156-19-39",
+      "property": "torque",
+      "joint": "Screw, bottom triple clamp",
+      "thread": "M8",
+      "domain": "chassis",
+      "value": 12.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M8"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 156, torque table row 19: Screw, bottom triple clamp",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "12 Nm (8.9 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, bottom triple clamp\nM8",
+        "12 Nm\n(8.9 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-156-20-40",
+      "property": "torque",
+      "joint": "Screw, fork shoe",
+      "thread": "M8",
+      "domain": "chassis",
+      "value": 15.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M8"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 156, torque table row 20: Screw, fork shoe",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "15 Nm (11.1 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, fork shoe\nM8",
+        "15 Nm\n(11.1 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-157-1-41",
+      "property": "torque",
+      "joint": "Screw, upper steering stem",
+      "thread": "M8",
+      "domain": "chassis",
+      "value": 20.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M8",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 157, torque table row 1: Screw, upper steering stem",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "20 Nm (14.8 ft\u22c5lb ) f Loctite\u00ae 243",
+      "source_row": [
+        "Screw, upper steering stem\nM8",
+        "20 Nm\n(14.8 ft\u22c5lb )\nf\nLoctite\u00ae 243"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-157-2-42",
+      "property": "torque",
+      "joint": "Handlebar clamp screw",
+      "thread": "M8",
+      "domain": "chassis",
+      "value": 20.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M8"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 157, torque table row 2: Handlebar clamp screw",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "20 Nm (14.8 ft\u22c5lb ) f",
+      "source_row": [
+        "Handlebar clamp screw\nM8",
+        "20 Nm\n(14.8 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-157-3-43",
+      "property": "torque",
+      "joint": "Subframe screw",
+      "thread": "M8",
+      "domain": "chassis",
+      "value": 35.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M8",
+        "Loctite 2701"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 157, torque table row 3: Subframe screw",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "35 Nm (25.8 ft\u22c5lb ) f Loctite\u00ae 2701",
+      "source_row": [
+        "Subframe screw\nM8",
+        "35 Nm\n(25.8 ft\u22c5lb )\nf\nLoctite\u00ae 2701"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-157-4-44",
+      "property": "torque",
+      "joint": "Screw, chain slider",
+      "thread": "M8",
+      "domain": "chassis",
+      "value": 15.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M8"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 157, torque table row 4: Screw, chain slider",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "15 Nm (11.1 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, chain slider\nM8",
+        "15 Nm\n(11.1 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-157-5-45",
+      "property": "torque",
+      "joint": "(FX 450) Screw, side stand bracket",
+      "thread": "M8",
+      "domain": "chassis",
+      "value": 33.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M8",
+        "Loctite 2701"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 157, torque table row 5: (FX 450) Screw, side stand bracket",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "EXCLUDED",
+      "review_note": "This row explicitly applies to another variant/model such as FX; excluded from standard FC target.",
+      "source_value_cell": "33 Nm (24.3 ft\u22c5lb ) f Loctite\u00ae 2701",
+      "source_row": [
+        "(FX 450)\nScrew, side stand bracket\nM8",
+        "33 Nm\n(24.3 ft\u22c5lb )\nf\nLoctite\u00ae 2701"
+      ],
+      "excluded_variant_candidate": true
+    },
+    {
+      "id": "fc-450-2025-torque-157-6-46",
+      "property": "torque",
+      "joint": "Screw, manifold on engine brace",
+      "thread": "M8",
+      "domain": "chassis",
+      "value": 15.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M8"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 157, torque table row 6: Screw, manifold on engine brace",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "15 Nm (11.1 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, manifold on engine brace\nM8",
+        "15 Nm\n(11.1 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-157-7-47",
+      "property": "torque",
+      "joint": "Screw, subframe, bottom",
+      "thread": "M8",
+      "domain": "chassis",
+      "value": 30.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M8",
+        "Loctite 2701"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 157, torque table row 7: Screw, subframe, bottom",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "30 Nm (22.1 ft\u22c5lb ) f Loctite\u00ae 2701",
+      "source_row": [
+        "Screw, subframe, bottom\nM8",
+        "30 Nm\n(22.1 ft\u22c5lb )\nf\nLoctite\u00ae 2701"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-157-8-48",
+      "property": "torque",
+      "joint": "Engine bracket screw",
+      "thread": "M10",
+      "domain": "chassis",
+      "value": 60.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M10"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 157, torque table row 8: Engine bracket screw",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "60 Nm (44.3 ft\u22c5lb ) f",
+      "source_row": [
+        "Engine bracket screw\nM10",
+        "60 Nm\n(44.3 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-157-9-49",
+      "property": "torque",
+      "joint": "Remaining nuts on chassis",
+      "thread": "M10",
+      "domain": "chassis",
+      "value": 45.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M10",
+        "Applies only to remaining fasteners in the named system after excluding all specifically listed joints."
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 157, torque table row 9: Remaining nuts on chassis",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "45 Nm (33.2 ft\u22c5lb ) f",
+      "source_row": [
+        "Remaining nuts on chassis\nM10",
+        "45 Nm\n(33.2 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-157-10-50",
+      "property": "torque",
+      "joint": "Remaining screws on chassis",
+      "thread": "M10",
+      "domain": "chassis",
+      "value": 45.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M10",
+        "Applies only to remaining fasteners in the named system after excluding all specifically listed joints."
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 157, torque table row 10: Remaining screws on chassis",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "45 Nm (33.2 ft\u22c5lb ) f",
+      "source_row": [
+        "Remaining screws on chassis\nM10",
+        "45 Nm\n(33.2 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-157-11-51",
+      "property": "torque",
+      "joint": "Top shock absorber screw",
+      "thread": "M10",
+      "domain": "chassis",
+      "value": 60.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M10",
+        "Loctite 2701"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 157, torque table row 11: Top shock absorber screw",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "60 Nm (44.3 ft\u22c5lb ) f Loctite\u00ae 2701",
+      "source_row": [
+        "Top shock absorber screw\nM10",
+        "60 Nm\n(44.3 ft\u22c5lb )\nf\nLoctite\u00ae 2701"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-157-12-52",
+      "property": "torque",
+      "joint": "Bottom shock absorber screw",
+      "thread": "M10",
+      "domain": "chassis",
+      "value": 60.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M10",
+        "Loctite 2701"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 157, torque table row 12: Bottom shock absorber screw",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "60 Nm (44.3 ft\u22c5lb ) f Loctite\u00ae 2701",
+      "source_row": [
+        "Bottom shock absorber screw\nM10",
+        "60 Nm\n(44.3 ft\u22c5lb )\nf\nLoctite\u00ae 2701"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-157-13-53",
+      "property": "torque",
+      "joint": "Screw, handlebar mount",
+      "thread": "M10",
+      "domain": "chassis",
+      "value": 40.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M10",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 157, torque table row 13: Screw, handlebar mount",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "40 Nm (29.5 ft\u22c5lb ) f Loctite\u00ae 243",
+      "source_row": [
+        "Screw, handlebar mount\nM10",
+        "40 Nm\n(29.5 ft\u22c5lb )\nf\nLoctite\u00ae 243"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-157-14-54",
+      "property": "torque",
+      "joint": "Nut, frame on linkage lever",
+      "thread": "M16\u00d71.5",
+      "domain": "chassis",
+      "value": 80.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M16\u00d71.5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 157, torque table row 14: Nut, frame on linkage lever",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "CONFLICTED",
+      "review_note": "Manual lists M16x1.5 linkage hardware; exact model catalog lists M14x1.5 hardware. Torque cannot be assigned until the joint/revision conflict is resolved.",
+      "source_value_cell": "80 Nm (59.0 ft\u22c5lb ) f",
+      "source_row": [
+        "Nut, frame on linkage lever\nM16\u00d71.5",
+        "80 Nm\n(59.0 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-157-15-55",
+      "property": "torque",
+      "joint": "Nut, swingarm pivot",
+      "thread": "M16\u00d71.5",
+      "domain": "chassis",
+      "value": 100.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M16\u00d71.5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 157, torque table row 15: Nut, swingarm pivot",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "100 Nm (73.8 ft\u22c5lb ) f",
+      "source_row": [
+        "Nut, swingarm pivot\nM16\u00d71.5",
+        "100 Nm\n(73.8 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-157-16-56",
+      "property": "torque",
+      "joint": "Nut, linkage lever on angle lever",
+      "thread": "M16\u00d71.5",
+      "domain": "chassis",
+      "value": 80.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M16\u00d71.5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 157, torque table row 16: Nut, linkage lever on angle lever",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "CONFLICTED",
+      "review_note": "Manual lists M16x1.5 linkage hardware; exact model catalog lists M14x1.5 hardware. Torque cannot be assigned until the joint/revision conflict is resolved.",
+      "source_value_cell": "80 Nm (59.0 ft\u22c5lb ) f",
+      "source_row": [
+        "Nut, linkage lever on angle lever\nM16\u00d71.5",
+        "80 Nm\n(59.0 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-157-17-57",
+      "property": "torque",
+      "joint": "Nut, angle lever to link fork",
+      "thread": "M16\u00d71.5",
+      "domain": "chassis",
+      "value": 80.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M16\u00d71.5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 157, torque table row 17: Nut, angle lever to link fork",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "CONFLICTED",
+      "review_note": "Manual lists M16x1.5 linkage hardware; exact model catalog lists M14x1.5 hardware. Torque cannot be assigned until the joint/revision conflict is resolved.",
+      "source_value_cell": "80 Nm (59.0 ft\u22c5lb ) f",
+      "source_row": [
+        "Nut, angle lever to link fork\nM16\u00d71.5",
+        "80 Nm\n(59.0 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-157-18-58",
+      "property": "torque",
+      "joint": "Screw, wheel spindle, front",
+      "thread": "M20\u00d71.5",
+      "domain": "chassis",
+      "value": 35.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M20\u00d71.5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 157, torque table row 18: Screw, wheel spindle, front",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "35 Nm (25.8 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, wheel spindle, front\nM20\u00d71.5",
+        "35 Nm\n(25.8 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-157-19-59",
+      "property": "torque",
+      "joint": "Screw, top steering head",
+      "thread": "M20\u00d71.5",
+      "domain": "chassis",
+      "value": 12.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M20\u00d71.5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 157, torque table row 19: Screw, top steering head",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "12 Nm (8.9 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, top steering head\nM20\u00d71.5",
+        "12 Nm\n(8.9 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-157-20-60",
+      "property": "torque",
+      "joint": "Nut, wheel spindle, rear",
+      "thread": "M22\u00d71.5",
+      "domain": "chassis",
+      "value": 80.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M22\u00d71.5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 157, torque table row 20: Nut, wheel spindle, rear",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "80 Nm (59.0 ft\u22c5lb ) f",
+      "source_row": [
+        "Nut, wheel spindle, rear\nM22\u00d71.5",
+        "80 Nm\n(59.0 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-158-1-61",
+      "property": "torque",
+      "joint": "Screw-in nozzle, cooling system",
+      "thread": "M24\u00d71.5",
+      "domain": "chassis",
+      "value": "7\u20135",
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M24\u00d71.5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 158, torque table row 1: Screw-in nozzle, cooling system",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "7.5 Nm (5.53 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw-in nozzle, cooling system\nM24\u00d71.5",
+        "7.5 Nm\n(5.53 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-158-2-62",
+      "property": "torque",
+      "joint": "Spoke nipple, rear wheel",
+      "thread": "M4,5",
+      "domain": "chassis",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M4,5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 158, torque table row 2: Spoke nipple, rear wheel",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "6 Nm (4.4 ft\u22c5lb ) f",
+      "source_row": [
+        "Spoke nipple, rear wheel\nM4,5",
+        "6 Nm\n(4.4 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-158-3-63",
+      "property": "torque",
+      "joint": "Spoke nipple, front wheel",
+      "thread": "M4,5",
+      "domain": "chassis",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M4,5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 158, torque table row 3: Spoke nipple, front wheel",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "6 Nm (4.4 ft\u22c5lb ) f",
+      "source_row": [
+        "Spoke nipple, front wheel\nM4,5",
+        "6 Nm\n(4.4 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-158-4-64",
+      "property": "torque",
+      "joint": "Combination switch screw",
+      "thread": "EJOT PT\u00ae \u2012 K50\u00d718",
+      "domain": "chassis",
+      "value": 2.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: EJOT PT\u00ae \u2012 K50\u00d718"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 158, torque table row 4: Combination switch screw",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "2 Nm (1.5 ft\u22c5lb ) f",
+      "source_row": [
+        "Combination switch screw\nEJOT PT\u00ae \u2012 K50\u00d718",
+        "2 Nm\n(1.5 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-158-5-65",
+      "property": "torque",
+      "joint": "Screw, intake air temperature sensor",
+      "thread": "EJOT PT\u00ae \u2012 K50\u00d718",
+      "domain": "chassis",
+      "value": "0\u20137",
+      "unit": "Nm",
+      "conditions": [
+        "Thread: EJOT PT\u00ae \u2012 K50\u00d718"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 158, torque table row 5: Screw, intake air temperature sensor",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "0.7 Nm (0.52 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, intake air temperature sensor\nEJOT PT\u00ae \u2012 K50\u00d718",
+        "0.7 Nm\n(0.52 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-158-6-66",
+      "property": "torque",
+      "joint": "Screw, start button/kill switch",
+      "thread": "EJOT PT\u00ae \u2012 K50\u00d718",
+      "domain": "chassis",
+      "value": 2.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: EJOT PT\u00ae \u2012 K50\u00d718"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 158, torque table row 6: Screw, start button/kill switch",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "2 Nm (1.5 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, start button/kill switch\nEJOT PT\u00ae \u2012 K50\u00d718",
+        "2 Nm\n(1.5 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-158-7-67",
+      "property": "torque",
+      "joint": "Screw, air filter box cover",
+      "thread": "EJOT PT\u00ae \u2012 K60\u00d720 \u2012 Z",
+      "domain": "chassis",
+      "value": 5.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: EJOT PT\u00ae \u2012 K60\u00d720 \u2012 Z"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 158, torque table row 7: Screw, air filter box cover",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "5 Nm (3.7 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, air filter box cover\nEJOT PT\u00ae \u2012 K60\u00d720 \u2012 Z",
+        "5 Nm\n(3.7 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-158-8-68",
+      "property": "torque",
+      "joint": "Screw, seat installation",
+      "thread": "EJOT EJOFORM\u00ae \u2012 K60\u00d723/18",
+      "domain": "chassis",
+      "value": "2\u20135",
+      "unit": "Nm",
+      "conditions": [
+        "Thread: EJOT EJOFORM\u00ae \u2012 K60\u00d723/18"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 158, torque table row 8: Screw, seat installation",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "2.5 Nm (1.84 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, seat installation\nEJOT EJOFORM\u00ae \u2012 K60\u00d723/18",
+        "2.5 Nm\n(1.84 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-158-9-69",
+      "property": "torque",
+      "joint": "Screw, fuel pump on fuel tank",
+      "thread": "EJOT PT\u00ae \u2012 K60\u00d730 \u2012 Z",
+      "domain": "chassis",
+      "value": "2\u20135",
+      "unit": "Nm",
+      "conditions": [
+        "Thread: EJOT PT\u00ae \u2012 K60\u00d730 \u2012 Z"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 158, torque table row 9: Screw, fuel pump on fuel tank",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "2.5 Nm (1.84 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, fuel pump on fuel tank\nEJOT PT\u00ae \u2012 K60\u00d730 \u2012 Z",
+        "2.5 Nm\n(1.84 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-158-10-70",
+      "property": "torque",
+      "joint": "Screw, air filter box, on subframe",
+      "thread": "EJOT PT\u00ae \u2012 K60\u00d720 \u2012 AL",
+      "domain": "chassis",
+      "value": 5.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: EJOT PT\u00ae \u2012 K60\u00d720 \u2012 AL"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 158, torque table row 10: Screw, air filter box, on subframe",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "5 Nm (3.7 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, air filter box, on subframe\nEJOT PT\u00ae \u2012 K60\u00d720 \u2012 AL",
+        "5 Nm\n(3.7 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-158-1-71",
+      "property": "torque",
+      "joint": "Screw, oil nozzle bent for piston cooling",
+      "thread": "M4",
+      "domain": "engine",
+      "value": 2.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M4",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 158, torque table row 1: Screw, oil nozzle bent for piston cooling",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "2 Nm (1.5 ft\u22c5lb ) f Loctite\u00ae 243",
+      "source_row": [
+        "Screw, oil nozzle bent for piston cooling\nM4",
+        "2 Nm\n(1.5 ft\u22c5lb )\nf\nLoctite\u00ae 243"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-158-2-72",
+      "property": "torque",
+      "joint": "Oil nozzle for the clutch lubrication (alternator cover sealing surface)",
+      "thread": "M4",
+      "domain": "engine",
+      "value": "0\u20138",
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M4"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 158, torque table row 2: Oil nozzle for the clutch lubrication (alternator cover sealing surface)",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "0.8 Nm (0.59 ft\u22c5lb ) f",
+      "source_row": [
+        "Oil nozzle for the clutch lubrication (alternator cover sealing surface)\nM4",
+        "0.8 Nm\n(0.59 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-158-3-73",
+      "property": "torque",
+      "joint": "Screw, gear position sensor",
+      "thread": "M5\u00d714",
+      "domain": "engine",
+      "value": 5.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M5\u00d714",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 158, torque table row 3: Screw, gear position sensor",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "5 Nm (3.7 ft\u22c5lb ) f Loctite\u00ae 243",
+      "source_row": [
+        "Screw, gear position sensor\nM5\u00d714",
+        "5 Nm\n(3.7 ft\u22c5lb )\nf\nLoctite\u00ae 243"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-158-4-74",
+      "property": "torque",
+      "joint": "Oil nozzle for piston cooling",
+      "thread": "M5",
+      "domain": "engine",
+      "value": 2.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M5",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 158, torque table row 4: Oil nozzle for piston cooling",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "2 Nm (1.5 ft\u22c5lb ) f Loctite\u00ae 243",
+      "source_row": [
+        "Oil nozzle for piston cooling\nM5",
+        "2 Nm\n(1.5 ft\u22c5lb )\nf\nLoctite\u00ae 243"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-158-5-75",
+      "property": "torque",
+      "joint": "Detent arm screw",
+      "thread": "M5",
+      "domain": "engine",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M5",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 158, torque table row 5: Detent arm screw",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "6 Nm (4.4 ft\u22c5lb ) f Loctite\u00ae 243",
+      "source_row": [
+        "Detent arm screw\nM5",
+        "6 Nm\n(4.4 ft\u22c5lb )\nf\nLoctite\u00ae 243"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-158-6-76",
+      "property": "torque",
+      "joint": "Screw, clutch spring retainer",
+      "thread": "M5",
+      "domain": "engine",
+      "value": 8.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 158, torque table row 6: Screw, clutch spring retainer",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "8 Nm (5.9 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, clutch spring retainer\nM5",
+        "8 Nm\n(5.9 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-158-7-77",
+      "property": "torque",
+      "joint": "Screw, bearing retainer",
+      "thread": "M5",
+      "domain": "engine",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M5",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 158, torque table row 7: Screw, bearing retainer",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "6 Nm (4.4 ft\u22c5lb ) f Loctite\u00ae 243",
+      "source_row": [
+        "Screw, bearing retainer\nM5",
+        "6 Nm\n(4.4 ft\u22c5lb )\nf\nLoctite\u00ae 243"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-158-8-78",
+      "property": "torque",
+      "joint": "Screw, suction pump cover",
+      "thread": "M5\u00d716",
+      "domain": "engine",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M5\u00d716",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 158, torque table row 8: Screw, suction pump cover",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "6 Nm (4.4 ft\u22c5lb ) f Loctite\u00ae 243",
+      "source_row": [
+        "Screw, suction pump cover\nM5\u00d716",
+        "6 Nm\n(4.4 ft\u22c5lb )\nf\nLoctite\u00ae 243"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-158-9-79",
+      "property": "torque",
+      "joint": "Stator screw",
+      "thread": "M5",
+      "domain": "engine",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M5",
+        "Loctite 2701"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 158, torque table row 9: Stator screw",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "6 Nm (4.4 ft\u22c5lb ) f Loctite\u00ae 2701",
+      "source_row": [
+        "Stator screw\nM5",
+        "6 Nm\n(4.4 ft\u22c5lb )\nf\nLoctite\u00ae 2701"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-159-1-80",
+      "property": "torque",
+      "joint": "Crankshaft speed sensor screw and cable retainer",
+      "thread": "M5",
+      "domain": "engine",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M5",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 159, torque table row 1: Crankshaft speed sensor screw and cable retainer",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "6 Nm (4.4 ft\u22c5lb ) f Loctite\u00ae 243",
+      "source_row": [
+        "Crankshaft speed sensor screw and cable retainer\nM5",
+        "6 Nm\n(4.4 ft\u22c5lb )\nf\nLoctite\u00ae 243"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-159-2-81",
+      "property": "torque",
+      "joint": "Oil nozzle for timing chain lubrication",
+      "thread": "M5",
+      "domain": "engine",
+      "value": 2.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M5",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 159, torque table row 2: Oil nozzle for timing chain lubrication",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "2 Nm (1.5 ft\u22c5lb ) f Loctite\u00ae 243",
+      "source_row": [
+        "Oil nozzle for timing chain lubrication\nM5",
+        "2 Nm\n(1.5 ft\u22c5lb )\nf\nLoctite\u00ae 243"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-159-3-82",
+      "property": "torque",
+      "joint": "Screw, lock washer, oil pump idler gear",
+      "thread": "M5\u00d710",
+      "domain": "engine",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M5\u00d710",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 159, torque table row 3: Screw, lock washer, oil pump idler gear",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "6 Nm (4.4 ft\u22c5lb ) f Loctite\u00ae 243",
+      "source_row": [
+        "Screw, lock washer, oil pump idler gear\nM5\u00d710",
+        "6 Nm\n(4.4 ft\u22c5lb )\nf\nLoctite\u00ae 243"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-159-4-83",
+      "property": "torque",
+      "joint": "Screw, clutch adjusting ring",
+      "thread": "M5\u00d716",
+      "domain": "engine",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M5\u00d716"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 159, torque table row 4: Screw, clutch adjusting ring",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "6 Nm (4.4 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, clutch adjusting ring\nM5\u00d716",
+        "6 Nm\n(4.4 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-159-5-84",
+      "property": "torque",
+      "joint": "Screws, main bearing lock washer, transmission bearings",
+      "thread": "M5\u00d712",
+      "domain": "engine",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M5\u00d712"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 159, torque table row 5: Screws, main bearing lock washer, transmission bearings",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "6 Nm (4.4 ft\u22c5lb ) f",
+      "source_row": [
+        "Screws, main bearing lock washer, transmission bearings\nM5\u00d712",
+        "6 Nm\n(4.4 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-159-6-85",
+      "property": "torque",
+      "joint": "Nut, water pump impeller",
+      "thread": "M6",
+      "domain": "engine",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 159, torque table row 6: Nut, water pump impeller",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "6 Nm (4.4 ft\u22c5lb ) f Loctite\u00ae 243",
+      "source_row": [
+        "Nut, water pump impeller\nM6",
+        "6 Nm\n(4.4 ft\u22c5lb )\nf\nLoctite\u00ae 243"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-159-7-86",
+      "property": "torque",
+      "joint": "Exhaust flange screw",
+      "thread": "M6\u00d716",
+      "domain": "engine",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6\u00d716",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 159, torque table row 7: Exhaust flange screw",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "10 Nm (7.4 ft\u22c5lb ) f Loctite\u00ae 243",
+      "source_row": [
+        "Exhaust flange screw\nM6\u00d716",
+        "10 Nm\n(7.4 ft\u22c5lb )\nf\nLoctite\u00ae 243"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-159-8-87",
+      "property": "torque",
+      "joint": "Screw, torque governor",
+      "thread": "M6",
+      "domain": "engine",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 159, torque table row 8: Screw, torque governor",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "10 Nm (7.4 ft\u22c5lb ) f Loctite\u00ae 243",
+      "source_row": [
+        "Screw, torque governor\nM6",
+        "10 Nm\n(7.4 ft\u22c5lb )\nf\nLoctite\u00ae 243"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-159-9-88",
+      "property": "torque",
+      "joint": "Screw, pressure pump cover",
+      "thread": "M6\u00d716",
+      "domain": "engine",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6\u00d716",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 159, torque table row 9: Screw, pressure pump cover",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "CONFLICTED",
+      "review_note": "2025 owner table specifies M6x16; exact lubrication catalog/previous OEM table identifies M5. Confirm thread and procedure before assigning torque.",
+      "source_value_cell": "6 Nm (4.4 ft\u22c5lb ) f Loctite\u00ae 243",
+      "source_row": [
+        "Screw, pressure pump cover\nM6\u00d716",
+        "6 Nm\n(4.4 ft\u22c5lb )\nf\nLoctite\u00ae 243"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-159-10-89",
+      "property": "torque",
+      "joint": "Screw, starter motor",
+      "thread": "M6\u00d725",
+      "domain": "engine",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6\u00d725"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 159, torque table row 10: Screw, starter motor",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "10 Nm (7.4 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, starter motor\nM6\u00d725",
+        "10 Nm\n(7.4 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-159-11-90",
+      "property": "torque",
+      "joint": "Screw, clutch cover",
+      "thread": "M6",
+      "domain": "engine",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 159, torque table row 11: Screw, clutch cover",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "10 Nm (7.4 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, clutch cover\nM6",
+        "10 Nm\n(7.4 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-159-12-91",
+      "property": "torque",
+      "joint": "Screw, engine case",
+      "thread": "M6",
+      "domain": "engine",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 159, torque table row 12: Screw, engine case",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "10 Nm (7.4 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, engine case\nM6",
+        "10 Nm\n(7.4 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-159-13-92",
+      "property": "torque",
+      "joint": "Screw, oil filter cover",
+      "thread": "M6\u00d716",
+      "domain": "engine",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6\u00d716"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 159, torque table row 13: Screw, oil filter cover",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "10 Nm (7.4 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, oil filter cover\nM6\u00d716",
+        "10 Nm\n(7.4 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-159-14-93",
+      "property": "torque",
+      "joint": "Shift star screw",
+      "thread": "M6\u00d730",
+      "domain": "engine",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6\u00d730",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 159, torque table row 14: Shift star screw",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "10 Nm (7.4 ft\u22c5lb ) f Loctite\u00ae 243",
+      "source_row": [
+        "Shift star screw\nM6\u00d730",
+        "10 Nm\n(7.4 ft\u22c5lb )\nf\nLoctite\u00ae 243"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-159-15-94",
+      "property": "torque",
+      "joint": "Screw, shift lever",
+      "thread": "M6\u00d716",
+      "domain": "engine",
+      "value": 14.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6\u00d716",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 159, torque table row 15: Screw, shift lever",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "14 Nm (10.3 ft\u22c5lb ) f Loctite\u00ae 243",
+      "source_row": [
+        "Screw, shift lever\nM6\u00d716",
+        "14 Nm\n(10.3 ft\u22c5lb )\nf\nLoctite\u00ae 243"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-159-16-95",
+      "property": "torque",
+      "joint": "Timing chain-securing guide screw",
+      "thread": "M6",
+      "domain": "engine",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 159, torque table row 16: Timing chain-securing guide screw",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "10 Nm (7.4 ft\u22c5lb ) f Loctite\u00ae 243",
+      "source_row": [
+        "Timing chain-securing guide screw\nM6",
+        "10 Nm\n(7.4 ft\u22c5lb )\nf\nLoctite\u00ae 243"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-159-17-96",
+      "property": "torque",
+      "joint": "Screw, timing chain tensioner",
+      "thread": "M6",
+      "domain": "engine",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 159, torque table row 17: Screw, timing chain tensioner",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "10 Nm (7.4 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, timing chain tensioner\nM6",
+        "10 Nm\n(7.4 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-159-18-97",
+      "property": "torque",
+      "joint": "Slide rail screw",
+      "thread": "M6",
+      "domain": "engine",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 159, torque table row 18: Slide rail screw",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "10 Nm (7.4 ft\u22c5lb ) f Loctite\u00ae 243",
+      "source_row": [
+        "Slide rail screw\nM6",
+        "10 Nm\n(7.4 ft\u22c5lb )\nf\nLoctite\u00ae 243"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-160-1-98",
+      "property": "torque",
+      "joint": "Screw, valve cover",
+      "thread": "M6",
+      "domain": "engine",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 160, torque table row 1: Screw, valve cover",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "10 Nm (7.4 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, valve cover\nM6",
+        null,
+        "10 Nm\n(7.4 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-160-2-99",
+      "property": "torque",
+      "joint": "Screw, clutch slave cylinder",
+      "thread": "M6",
+      "domain": "engine",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 160, torque table row 2: Screw, clutch slave cylinder",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "10 Nm (7.4 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, clutch slave cylinder\nM6",
+        null,
+        "10 Nm\n(7.4 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-160-3-100",
+      "property": "torque",
+      "joint": "Screw, water pump cover",
+      "thread": "M6\u00d720",
+      "domain": "engine",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6\u00d720"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 160, torque table row 3: Screw, water pump cover",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "10 Nm (7.4 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, water pump cover\nM6\u00d720",
+        null,
+        "10 Nm\n(7.4 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-160-4-101",
+      "property": "torque",
+      "joint": "Screw, water pump cover",
+      "thread": "M6\u00d725",
+      "domain": "engine",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6\u00d725",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 160, torque table row 4: Screw, water pump cover",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "10 Nm (7.4 ft\u22c5lb ) f Loctite\u00ae 243",
+      "source_row": [
+        "Screw, water pump cover\nM6\u00d725",
+        null,
+        "10 Nm\n(7.4 ft\u22c5lb )\nf\nLoctite\u00ae 243"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-160-5-102",
+      "property": "torque",
+      "joint": "Screw, balancer shaft fastening to water pump cover",
+      "thread": "M6",
+      "domain": "engine",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6",
+        "Loctite 222"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 160, torque table row 5: Screw, balancer shaft fastening to water pump cover",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "10 Nm (7.4 ft\u22c5lb ) f Loctite\u00ae 222",
+      "source_row": [
+        "Screw, balancer shaft fastening to water pump cover\nM6",
+        null,
+        "10 Nm\n(7.4 ft\u22c5lb )\nf\nLoctite\u00ae 222"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-160-6-103",
+      "property": "torque",
+      "joint": "Remaining screws on water pump cover",
+      "thread": "M6",
+      "domain": "engine",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6",
+        "Loctite 222",
+        "Applies only to remaining fasteners in the named system after excluding all specifically listed joints."
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 160, torque table row 6: Remaining screws on water pump cover",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "10 Nm (7.4 ft\u22c5lb ) f Loctite\u00ae 222",
+      "source_row": [
+        "Remaining screws on water pump cover\nM6",
+        null,
+        "10 Nm\n(7.4 ft\u22c5lb )\nf\nLoctite\u00ae 222"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-160-7-104",
+      "property": "torque",
+      "joint": "Screw, ignition cover",
+      "thread": "M6",
+      "domain": "engine",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 160, torque table row 7: Screw, ignition cover",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "10 Nm (7.4 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, ignition cover\nM6",
+        null,
+        "10 Nm\n(7.4 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-160-8-105",
+      "property": "torque",
+      "joint": "Screw, cylinder head",
+      "thread": "M6\u00d775",
+      "domain": "engine",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6\u00d775"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 160, torque table row 8: Screw, cylinder head",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "10 Nm (7.4 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, cylinder head\nM6\u00d775",
+        null,
+        "10 Nm\n(7.4 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-160-9-106",
+      "property": "torque",
+      "joint": "Remaining screws, clutch cover",
+      "thread": "M6",
+      "domain": "engine",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6",
+        "Applies only to remaining fasteners in the named system after excluding all specifically listed joints."
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 160, torque table row 9: Remaining screws, clutch cover",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "10 Nm (7.4 ft\u22c5lb ) f",
+      "source_row": [
+        "Remaining screws, clutch cover\nM6",
+        null,
+        "10 Nm\n(7.4 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-160-10-107",
+      "property": "torque",
+      "joint": "Remaining screws, alternator cover",
+      "thread": "M6",
+      "domain": "engine",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6",
+        "Applies only to remaining fasteners in the named system after excluding all specifically listed joints."
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 160, torque table row 10: Remaining screws, alternator cover",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "10 Nm (7.4 ft\u22c5lb ) f",
+      "source_row": [
+        "Remaining screws, alternator cover\nM6",
+        null,
+        "10 Nm\n(7.4 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-160-11-108",
+      "property": "torque",
+      "joint": "Screws, section of the engine case",
+      "thread": "M6",
+      "domain": "engine",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 160, torque table row 11: Screws, section of the engine case",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "10 Nm (7.4 ft\u22c5lb ) f",
+      "source_row": [
+        "Screws, section of the engine case\nM6",
+        null,
+        "10 Nm\n(7.4 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-160-12-109",
+      "property": "torque",
+      "joint": "Screw, rocker arm bearing",
+      "thread": "M7\u00d71",
+      "domain": "engine",
+      "value": 15.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M7\u00d71"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 160, torque table row 12: Screw, rocker arm bearing",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "15 Nm (11.1 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, rocker arm bearing\nM7\u00d71",
+        null,
+        "15 Nm\n(11.1 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-160-13-110",
+      "property": "torque",
+      "joint": "Oil channel screw plug",
+      "thread": "M7",
+      "domain": "engine",
+      "value": 9.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M7",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 160, torque table row 13: Oil channel screw plug",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "9 Nm (6.6 ft\u22c5lb ) f Loctite\u00ae 243",
+      "source_row": [
+        "Oil channel screw plug\nM7",
+        null,
+        "9 Nm\n(6.6 ft\u22c5lb )\nf\nLoctite\u00ae 243"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-160-14-111",
+      "property": "torque",
+      "joint": "Crankshaft locking bolt plug",
+      "thread": "M8",
+      "domain": "engine",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M8"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 160, torque table row 14: Crankshaft locking bolt plug",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "10 Nm (7.4 ft\u22c5lb ) f",
+      "source_row": [
+        "Crankshaft locking bolt plug\nM8",
+        null,
+        "10 Nm\n(7.4 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-160-15-112",
+      "property": "torque",
+      "joint": "Screw plug, timing chain tensioner",
+      "thread": "M8",
+      "domain": "engine",
+      "value": 8.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M8"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 160, torque table row 15: Screw plug, timing chain tensioner",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "8 Nm (5.9 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw plug, timing chain tensioner\nM8",
+        null,
+        "8 Nm\n(5.9 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-160-16-113",
+      "property": "torque",
+      "joint": "Coolant temperature sensor",
+      "thread": "M10\u00d71.25",
+      "domain": "engine",
+      "value": 12.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M10\u00d71.25"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 160, torque table row 16: Coolant temperature sensor",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "12 Nm (8.9 ft\u22c5lb ) f",
+      "source_row": [
+        "Coolant temperature sensor\nM10\u00d71.25",
+        null,
+        "12 Nm\n(8.9 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-160-17-114",
+      "property": "torque",
+      "joint": "Front sprocket screw",
+      "thread": "M10",
+      "domain": "engine",
+      "value": 60.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M10",
+        "Loctite 2701"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 160, torque table row 17: Front sprocket screw",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "60 Nm (44.3 ft\u22c5lb ) f Loctite\u00ae 2701",
+      "source_row": [
+        "Front sprocket screw\nM10",
+        null,
+        "60 Nm\n(44.3 ft\u22c5lb )\nf\nLoctite\u00ae 2701"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-160-18-115",
+      "property": "torque",
+      "joint": "Oil channel screw plug",
+      "thread": "M10",
+      "domain": "engine",
+      "value": 15.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M10",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 160, torque table row 18: Oil channel screw plug",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "15 Nm (11.1 ft\u22c5lb ) f Loctite\u00ae 243",
+      "source_row": [
+        "Oil channel screw plug\nM10",
+        null,
+        "15 Nm\n(11.1 ft\u22c5lb )\nf\nLoctite\u00ae 243"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-161-2-117",
+      "property": "torque",
+      "joint": "Spark plug",
+      "thread": "M10\u00d71",
+      "domain": "engine",
+      "value": "10\u201312",
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M10\u00d71"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 161, torque table row 2: Spark plug",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "10 Nm \u2026 12 Nm (7.4 ft\u22c5lb \u2026 8.9 ft\u22c5lb ) f f",
+      "source_row": [
+        "Spark plug\nM10\u00d71",
+        null,
+        "10 Nm \u2026 12 Nm\n(7.4 ft\u22c5lb \u2026 8.9 ft\u22c5lb )\nf f"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-161-3-118",
+      "property": "torque",
+      "joint": "Screw, rotor",
+      "thread": "M10\u00d71",
+      "domain": "engine",
+      "value": 70.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M10\u00d71"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 161, torque table row 3: Screw, rotor",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "70 Nm (51.6 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, rotor\nM10\u00d71",
+        null,
+        "70 Nm\n(51.6 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-161-4-119",
+      "property": "torque",
+      "joint": "Oil drain plug with magnet",
+      "thread": "M12\u00d71.5",
+      "domain": "engine",
+      "value": 20.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M12\u00d71.5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 161, torque table row 4: Oil drain plug with magnet",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "20 Nm (14.8 ft\u22c5lb ) f",
+      "source_row": [
+        "Oil drain plug with magnet\nM12\u00d71.5",
+        null,
+        "20 Nm\n(14.8 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-161-5-120",
+      "property": "torque",
+      "joint": "Screw plug, oil pressure control valve",
+      "thread": "M12\u00d71.5",
+      "domain": "engine",
+      "value": 20.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M12\u00d71.5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 161, torque table row 5: Screw plug, oil pressure control valve",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "20 Nm (14.8 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw plug, oil pressure control valve\nM12\u00d71.5",
+        null,
+        "20 Nm\n(14.8 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-161-6-121",
+      "property": "torque",
+      "joint": "Screw plug, crankcase",
+      "thread": "M16\u00d71.5",
+      "domain": "engine",
+      "value": 15.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M16\u00d71.5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 161, torque table row 6: Screw plug, crankcase",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "15 Nm (11.1 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw plug, crankcase\nM16\u00d71.5",
+        null,
+        "15 Nm\n(11.1 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-161-7-122",
+      "property": "torque",
+      "joint": "Nut, inner clutch hub",
+      "thread": "M18\u00d71.5",
+      "domain": "engine",
+      "value": 100.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M18\u00d71.5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 161, torque table row 7: Nut, inner clutch hub",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "100 Nm (73.8 ft\u22c5lb ) f",
+      "source_row": [
+        "Nut, inner clutch hub\nM18\u00d71.5",
+        null,
+        "100 Nm\n(73.8 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-161-8-123",
+      "property": "torque",
+      "joint": "Nut, primary gear wheel",
+      "thread": "M18LH\u00d71.5",
+      "domain": "engine",
+      "value": 120.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M18LH\u00d71.5",
+        "Left-hand thread."
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 161, torque table row 8: Nut, primary gear wheel",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "120 Nm (88.5 ft\u22c5lb ) f",
+      "source_row": [
+        "Nut, primary gear wheel\nM18LH\u00d71.5",
+        null,
+        "120 Nm\n(88.5 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-161-9-124",
+      "property": "torque",
+      "joint": "Plug, oil screen",
+      "thread": "M20\u00d71.5",
+      "domain": "engine",
+      "value": 15.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M20\u00d71.5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 161, torque table row 9: Plug, oil screen",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "15 Nm (11.1 ft\u22c5lb ) f",
+      "source_row": [
+        "Plug, oil screen\nM20\u00d71.5",
+        null,
+        "15 Nm\n(11.1 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-161-10-125",
+      "property": "torque",
+      "joint": "Screw plug, alternator cover",
+      "thread": "M24\u00d71.5",
+      "domain": "engine",
+      "value": 18.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M24\u00d71.5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 161, torque table row 10: Screw plug, alternator cover",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "OEM manual linked by official selector; PDF scope page and complete torque-table pages visually reviewed. Exact standard-US model identity and table conditions retained. No KTM inheritance. Factual extraction only; source document not redistributed.",
+      "source_value_cell": "18 Nm (13.3 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw plug, alternator cover\nM24\u00d71.5",
+        null,
+        "18 Nm\n(13.3 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    },
+    {
+      "id": "fc-450-2025-torque-161-1-116",
+      "property": "torque",
+      "joint": "Main cylinder-head screws",
+      "thread": "M10\u00d71.25",
+      "domain": "engine",
+      "value": "10 Nm \u2192 30 Nm \u2192 50 Nm",
+      "unit": "Nm",
+      "conditions": [
+        "Thread: M10\u00d71.25",
+        "Apply engine oil to collar and thread before tightening.",
+        "Tighten in three torque stages: 10, 30, then 50 Nm.",
+        "Bolt sequence requires the model-specific service procedure."
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF pages 160\u2013161, cylinder-head screw row continued across pages",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "Split torque row manually reconstructed after visual inspection of both page segments; all stages and oil treatment retained.",
+      "source_value_cell": "50 Nm (36.9 ft\u22c5lb ) f",
+      "source_row": [
+        "Screw, cylinder head\nM10\u00d71.25\nEngine oil",
+        "4.",
+        "50 Nm\n(36.9 ft\u22c5lb )\nf"
+      ],
+      "excluded_variant_candidate": false
+    }
+  ],
+  "scope_confirmed": true,
+  "catalog_complete": false,
+  "source_metadata": {
+    "target": {
+      "manufacturer": "Husqvarna",
+      "model": "FC 450",
+      "model_year": 2025,
+      "variant": "standard",
+      "region": "US"
+    },
+    "selector_url": "https://www.husqvarna-motorcycles.com/en-us/service/user-manuals.html",
+    "query_url": "https://www.husqvarna-motorcycles.com/en-us/service/user-manuals/_jcr_content/root/responsivegrid_1_col/bikemanuals.manuals.json?modelName=FC+450+2025",
+    "english_results": [
+      {
+        "modelName": "FC 450 2025",
+        "title": "FC 450 2025 EU (en) - 2025",
+        "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf"
+      },
+      {
+        "modelName": "FC 450 2025",
+        "title": "FC 450 2025 BR (en) - 2025",
+        "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf"
+      },
+      {
+        "modelName": "FC 450 2025",
+        "title": "FC 450 2025 US (en) - 2025",
+        "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf"
+      }
+    ],
+    "selected": {
+      "modelName": "FC 450 2025",
+      "title": "FC 450 2025 US (en) - 2025",
+      "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf"
+    },
+    "scope_confirmed_by_selector": true,
+    "review_status": "PENDING",
+    "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+    "bytes": 10737342,
+    "temporary_pdf": "/tmp/hq-manuals/fc-450-2025.pdf",
+    "temporary_text": "/tmp/hq-manuals/fc-450-2025.txt",
+    "scope_page": 3,
+    "scope_excerpt": "This document is valid for the following models:\nFC 450 EU (F2401Y1)\nFC 450 US (F2475Y2)\nFC 450 Factory Edition US (F2475Y1)\nFX 450 US (F2375Y4)\n*3402805en*\n3402805en\n23/01/2025",
+    "document_revision": "23/01/2025",
+    "document_article": "3402805en",
+    "torque_table_pdf_pages": [
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161
+    ]
+  },
+  "review_summary": {
+    "APPROVED": 120,
+    "EXCLUDED": 1,
+    "CONFLICTED": 4
+  },
+  "visual_reviewed_pdf_pages": [
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161
+  ]
+}

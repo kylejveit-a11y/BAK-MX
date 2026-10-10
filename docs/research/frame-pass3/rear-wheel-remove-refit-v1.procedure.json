@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "publication_status": "LOCAL_REVIEWED_NOT_IMPORTED",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      90,
+      111,
+      112,
+      131,
+      134,
+      136,
+      137,
+      138
+    ],
+    "printed_pages": [
+      "See exact PDF page links at each step"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Text and assembly diagrams visually checked for this bounded operation; no generalization to other years or modified parts."
+  },
+  "id": "yamaha-2026-yz450f-rear-wheel-remove-refit-v1",
+  "title": "Remove and refit the stock rear wheel",
+  "completeness": "Complete rear-wheel removal/refit with closed brake hydraulics, exact axle orientation, chain measurement/adjustment and brake closure.",
+  "applicability": {
+    "included": "Exact stock 2026 US standard YZ450F; original serviceable assemblies unless explicitly replaced below",
+    "excluded": [
+      "Other years/models and non-stock assemblies",
+      "Frame repair/welding/straightening",
+      "Brake hydraulic service",
+      "Chain replacement",
+      "Bearing/disc/sprocket/tire replacement"
+    ]
+  },
+  "prerequisites": [
+    "Match the exact bike and installed stock parts. Have the complete cited diagrams available.",
+    "Stable maintenance stand and support suitable for changing weight distribution; clean labeled parts storage."
+  ],
+  "required_tools": [
+    {
+      "name": "Maintenance stand",
+      "spec": null
+    },
+    {
+      "name": "Axle and adjuster tools; calibrated torque wrench covering21–135 N·m",
+      "spec": null
+    },
+    {
+      "name": "Ruler and means to apply approximately50 N for chain measurement",
+      "spec": null
+    },
+    {
+      "name": "Lithium-soap-based grease",
+      "spec": null
+    }
+  ],
+  "required_parts": [],
+  "critical_stop_conditions": [
+    "Unstable support, bent/cracked parts, damaged fasteners or unknown assembly order.",
+    "Binding, leaks, missing hardware or abnormal brake/control function remains an unresolved fault."
+  ],
+  "steps": [
+    {
+      "id": "prepare",
+      "title": "Support the rear wheel",
+      "instruction": "Support the bike with its rear wheel off the ground. Select neutral. Protect the rear brake pedal against operation while the wheel is removed; keep the hydraulic line closed.",
+      "source_pdf_pages": [
+        134,
+        136,
+        111
+      ],
+      "verification": [
+        "Rear wheel clear, bike stable, brake pedal protected."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": []
+    },
+    {
+      "id": "remove",
+      "title": "Release the axle and chain",
+      "instruction": "Remove the axle nut. Loosen both adjuster locknuts and turn the adjusting bolts inward to let the wheel move forward. Support the wheel, withdraw the axle and retain both pullers and collars by side. Push the wheel forward, lift the chain from the sprocket and remove the wheel without disturbing the hydraulic line.",
+      "source_pdf_pages": [
+        134,
+        136
+      ],
+      "verification": [
+        "Wheel clear; left/right pullers and collars labeled."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=134",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=136"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "prepare"
+      ]
+    },
+    {
+      "id": "inspect",
+      "title": "Inspect wheel, axle and collars",
+      "instruction": "Check the axle for bending, the tire/wheel and collars for damage, and bearings for roughness or looseness. Inspect seals and sprocket teeth. Record defects; damaged components need the matching repair before refitting.",
+      "source_pdf_pages": [
+        131,
+        136
+      ],
+      "verification": [
+        "Serviceability recorded; no damaged parts silently reused."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "remove"
+      ]
+    },
+    {
+      "id": "refit",
+      "title": "Refit the wheel and chain",
+      "instruction": "Grease the oil-seal lips with lithium-soap-based grease and refit the collars. Place the disc between the brake pads and locate the caliper bracket correctly in its swingarm guide. Push the wheel forward and put the chain onto the sprocket. Fit the left puller and insert the greased axle from the left.",
+      "source_pdf_pages": [
+        134,
+        137,
+        138
+      ],
+      "verification": [
+        "Collars retained; bracket engaged; disc between pads; chain on sprocket; axle from left."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=134",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=137",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=138"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "inspect"
+      ]
+    },
+    {
+      "id": "hardware",
+      "title": "Fit the right puller and nut",
+      "instruction": "Fit the right chain puller, washer and axle nut. Leave the nut temporarily snug until chain adjustment is complete.",
+      "source_pdf_pages": [
+        138
+      ],
+      "verification": [
+        "Right puller and washer present; axle nut temporary only."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=138"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "refit"
+      ]
+    },
+    {
+      "id": "slack",
+      "title": "Measure and adjust chain slack",
+      "instruction": "With the rear wheel raised and gearbox in neutral, pull the chain upward above the chain-guide mounting bolt with about 50 N. Measure between the drive-chain guide and the bottom of the chain at the exact diagram location. Adjust both sides equally to 50–60 mm. Push the wheel forward so each puller/end plate is seated against the swingarm end.",
+      "source_pdf_pages": [
+        111,
+        138
+      ],
+      "verification": [
+        "Measured slack 50–60 mm using OEM50 N reference; pullers equally adjusted and seated."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=111",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=138"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "torque",
+      "title": "Secure the rear axle and adjusters",
+      "instruction": "Tighten the rear axle nut to 135 N·m and both chain-adjuster locknuts to 21 N·m. Recheck the chain slack after tightening.",
+      "source_pdf_pages": [
+        112,
+        138
+      ],
+      "verification": [
+        "Axle 135 N·m; locknuts 21 N·m; final slack recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "slack"
+      ]
+    },
+    {
+      "id": "close",
+      "title": "Check chain alignment and brake function",
+      "instruction": "Turn the wheel and check the chain follows the sprockets, the brake disc sits correctly and the rear brake has normal firm operation. Record wheel installation and any unresolved fault before use.",
+      "source_pdf_pages": [
+        90,
+        136,
+        137,
+        138
+      ],
+      "verification": [
+        "Alignment, wheel rotation and brake action verified."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "torque"
+      ]
+    }
+  ],
+  "operation_dependencies": [],
+  "affected_components": [
+    "rear_wheel",
+    "wheels",
+    "rear_brake",
+    "brakes",
+    "chain"
+  ]
+}

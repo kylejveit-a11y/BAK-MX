@@ -1,0 +1,41 @@
+{
+  "status": "APPROVED",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2025,
+    "region": "US",
+    "variant": "standard"
+  },
+  "source_sha256": "5005e7d8492c9482dfe44c6d752609a9a70a836f5b1dc94be3149d5d493de8ac",
+  "reviewer": "root",
+  "peer_review": {
+    "path": "independent-engine-review-v1.json",
+    "sha256": "6093d47df205660d358e5268c3ced64d3173d9c6ed30ea8f5d0f1b7ca0efc94c"
+  },
+  "reviewed_candidate_sha256": "619cbc2c967d568c060cca0379e82ccd3efd002bde9aa55aafa437fad5015314",
+  "artifacts": [
+    {
+      "path": "top-end-bike-journey-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "fe700644eff579401c300404fce7628fc4f63883e6fa645067285f7bf6901407",
+      "source_id": "yamaha-2025-d02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 167
+    }
+  ],
+  "scope": "Mechanical composition and source review, not physical validation",
+  "checks": [
+    "Actual completed top-end handoff and sealed filter/covers before refill",
+    "Forward-only optional guide/clearance branches preserve not-performed records",
+    "Cold attached tester before first oil-flow idle; three-minute warm hold, full cooling, normal checks and riding",
+    "Exact PDF246 new filler O-ring lithium-soap grease",
+    "Actual external seat/tank/inaccessible checks retained"
+  ]
+}

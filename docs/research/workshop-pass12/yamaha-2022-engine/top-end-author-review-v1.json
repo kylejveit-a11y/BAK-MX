@@ -1,0 +1,559 @@
+{
+  "schema_version": 1,
+  "status": "AUTHOR_SOURCE_REVIEWED",
+  "source_sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608",
+  "template_sha256": "5465c9014294095e4ca146287c352444baccc5c0ffc3ccf016dc19e74a27a8ee",
+  "step_review": [
+    {
+      "step_id": "entry",
+      "source_pdf_pages": [
+        82,
+        199,
+        206,
+        218
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "cover",
+      "source_pdf_pages": [
+        88,
+        199
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "timing-access",
+      "source_pdf_pages": [
+        200,
+        201
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "tdc",
+      "source_pdf_pages": [
+        82,
+        201
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "clearances-before",
+      "source_pdf_pages": [
+        82
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "tensioner-out",
+      "source_pdf_pages": [
+        200,
+        201
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "cams-out",
+      "source_pdf_pages": [
+        200,
+        201,
+        202
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "tensioner-check",
+      "source_pdf_pages": [
+        203
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "head-out",
+      "source_pdf_pages": [
+        206,
+        208
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "head-condition",
+      "source_pdf_pages": [
+        208
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "cylinder-out",
+      "source_pdf_pages": [
+        218,
+        219
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "piston-out",
+      "source_pdf_pages": [
+        219
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "bore",
+      "source_pdf_pages": [
+        219
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "piston-fit",
+      "source_pdf_pages": [
+        48,
+        219,
+        220
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "ring-side",
+      "source_pdf_pages": [
+        220
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "ring-end",
+      "source_pdf_pages": [
+        220,
+        221
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "pin-fit",
+      "source_pdf_pages": [
+        48,
+        221
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "parts-accepted",
+      "source_pdf_pages": [
+        219,
+        220,
+        221
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "lifters-out",
+      "source_pdf_pages": [
+        212
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "sealing-before",
+      "source_pdf_pages": [
+        212
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "valves-out",
+      "source_pdf_pages": [
+        211,
+        212,
+        213
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "valve-guide-fit",
+      "source_pdf_pages": [
+        48,
+        213,
+        214
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "seats",
+      "source_pdf_pages": [
+        214,
+        215
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "springs-lifters",
+      "source_pdf_pages": [
+        48,
+        215,
+        216
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "head-path",
+      "source_pdf_pages": [
+        213,
+        214,
+        215,
+        216
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "guides-prepare",
+      "source_pdf_pages": [
+        214,
+        215
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "guides-out",
+      "source_pdf_pages": [
+        213,
+        214
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "guides-in",
+      "source_pdf_pages": [
+        213,
+        214
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "guides-ream",
+      "source_pdf_pages": [
+        48,
+        213,
+        214
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "seats-reface",
+      "source_pdf_pages": [
+        213,
+        215
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "lap-coarse",
+      "source_pdf_pages": [
+        215
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "lap-fine",
+      "source_pdf_pages": [
+        214,
+        215
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "running-valves",
+      "source_pdf_pages": [
+        215
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "valves-in",
+      "source_pdf_pages": [
+        8,
+        211,
+        216
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "cotters",
+      "source_pdf_pages": [
+        216,
+        217
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "sealing-final",
+      "source_pdf_pages": [
+        212,
+        215
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "pads-return",
+      "source_pdf_pages": [
+        217
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "cam-lobes",
+      "source_pdf_pages": [
+        202
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "cam-clearance",
+      "source_pdf_pages": [
+        202
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "cam-disposition",
+      "source_pdf_pages": [
+        202,
+        203
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "rings-in",
+      "source_pdf_pages": [
+        221
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "piston-in",
+      "source_pdf_pages": [
+        221,
+        222
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "ring-clock",
+      "source_pdf_pages": [
+        222
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "cylinder-in",
+      "source_pdf_pages": [
+        218,
+        222
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "head-in",
+      "source_pdf_pages": [
+        206,
+        208,
+        209
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "head-bolt-prep",
+      "source_pdf_pages": [
+        8,
+        209
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "head-first",
+      "source_pdf_pages": [
+        209
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "head-second",
+      "source_pdf_pages": [
+        209,
+        210
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "head-final",
+      "source_pdf_pages": [
+        54,
+        206,
+        209,
+        210
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "first-cams",
+      "source_pdf_pages": [
+        200,
+        203,
+        204
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "first-caps",
+      "source_pdf_pages": [
+        200,
+        204
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "first-tensioner",
+      "source_pdf_pages": [
+        200,
+        204,
+        205
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "first-timing",
+      "source_pdf_pages": [
+        205
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "first-measure",
+      "source_pdf_pages": [
+        82,
+        84
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "adjust-path",
+      "source_pdf_pages": [
+        82,
+        83,
+        84
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "adjust-cams-out",
+      "source_pdf_pages": [
+        83,
+        200,
+        201,
+        202
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "adjust-select",
+      "source_pdf_pages": [
+        83,
+        85,
+        86
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "adjust-pads-in",
+      "source_pdf_pages": [
+        83,
+        84
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "adjust-cams",
+      "source_pdf_pages": [
+        200,
+        203,
+        204
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "adjust-caps",
+      "source_pdf_pages": [
+        200,
+        204
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "adjust-tensioner",
+      "source_pdf_pages": [
+        200,
+        204,
+        205
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "adjust-timing",
+      "source_pdf_pages": [
+        205
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "adjust-measure",
+      "source_pdf_pages": [
+        82,
+        84
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "adjust-accept",
+      "source_pdf_pages": [
+        82,
+        84
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "cover-in",
+      "source_pdf_pages": [
+        199,
+        205
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "ports-close",
+      "source_pdf_pages": [
+        8,
+        88,
+        200,
+        205
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    },
+    {
+      "step_id": "exit",
+      "source_pdf_pages": [
+        82,
+        84,
+        205
+      ],
+      "review": "Exact2022 text and diagrams checked."
+    }
+  ],
+  "differences": [
+    "Head40 then individual23+90 then all60; small10Nm clean/dry. Separate oil plug LT is not inherited.",
+    "Seven cam cap bolts, two clips, exact new diagram; journal21.959–21.972mm.",
+    "Exhaustspring minimum35.55mm; cover1215.",
+    "Head bolts M6x35 and M10x149. Access-screw O-rings LS; no engine-oil thread instruction inherited.",
+    "Piston/lobe/clearance ranges individually checked and supported, not assumed different or inherited. Actual-fit ambiguity preserved."
+  ]
+}

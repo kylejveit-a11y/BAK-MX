@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2026-yz450f-shift-mechanism-bench-v1",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Rebuild the shift mechanism",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete bounded bench operation from the declared entry state to the declared exit state. Whole-bike access and downstream engine closure are separate dependencies.",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      7,
+      56,
+      264,
+      265,
+      266,
+      267,
+      268,
+      292
+    ],
+    "printed_pages": [
+      "Symbols (unnumbered)",
+      "2-9",
+      "5-61",
+      "5-62",
+      "5-63",
+      "5-64",
+      "5-65",
+      "5-89"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "All cited operation pages visually reviewed. General symbols and conditional torque rules retained."
+  },
+  "applicability": {
+    "included": "Exact US2026 YZ450F standard stock components only",
+    "excluded": [
+      "Transmission shaft rebuilding",
+      "Engine access and clutch closure"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "affected_components": [
+    "engine",
+    "transmission"
+  ],
+  "required_tools": [
+    {
+      "name": "Torque wrench accurate at10/12/30Nm; seal driver"
+    },
+    {
+      "name": "Clean labeled trays"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "New shift-shaft oil seal"
+    },
+    {
+      "name": "Engine oil, lithium-soap grease and LOCTITE"
+    }
+  ],
+  "preflight": [
+    "Clutch idle gear removed; selector exposed; transmission installed for final check."
+  ],
+  "entry_state": [
+    "Clutch idle gear removed; selector exposed; transmission installed for final check."
+  ],
+  "exit_state": [
+    "Shift shaft/selector/pedal installed and function checked; clutch/cover closure remains."
+  ],
+  "critical_stop_conditions": [
+    "Any required measurement unresolved or replacement criteria not satisfied.",
+    "Unidentified diagram orientation, missing parts, damage or abnormal binding."
+  ],
+  "material_policy": {
+    "LT": "Locking agent (LOCTITE) per PDF7. Grade unspecified by this manual; no grade inferred.",
+    "lubrication": "Follow each explicit E/M/LS/S application; general dry torque does not override a lubricated joint."
+  },
+  "steps": [
+    {
+      "id": "entry",
+      "title": "Confirm shift-mechanism access",
+      "instruction": "Start with the clutch idle gear removed and right-side shift mechanism exposed. Retain the pedal alignment marks if the pedal is still fitted; remove its bolt/pedal before withdrawing the shaft.",
+      "source_pdf_pages": [
+        264,
+        265,
+        268
+      ],
+      "verification": [
+        "Idle gear removed; pedal marks retained."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=264",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=265",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=268"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": []
+    },
+    {
+      "id": "remove",
+      "title": "Remove the shaft and selector parts",
+      "instruction": "Withdraw shift shaft, collar and spring; retain the roller. Remove shift-guide bolts and lift guide/shift-lever assembly together, retaining both pawls, pins and springs by location. Turn the segment counterclockwise to its stop and loosen its bolt without impact. Remove segment, stopper lever/collar and spring.",
+      "source_pdf_pages": [
+        264,
+        265,
+        266
+      ],
+      "verification": [
+        "Shaft/selector parts labeled; no impact on segment."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=264",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=265",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=266"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "entry"
+      ]
+    },
+    {
+      "id": "inspect",
+      "title": "Inspect every selector part",
+      "instruction": "Replace bent/damaged/worn shift shaft or spring. Inspect guide, lever, both pawls/pins/springs and stopper lever for damage/wear; replace defective parts. Replace a broken stopper spring. Record the assessment.",
+      "source_pdf_pages": [
+        266
+      ],
+      "verification": [
+        "Selector inspection and replacement list saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=266"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "remove"
+      ]
+    },
+    {
+      "id": "stopper",
+      "title": "Install the stopper and segment",
+      "instruction": "Fit stopper spring, collar and lever in the shown arrangement; tighten stopper bolt10Nm with LOCTITE. Push the stopper lever down and align segment projections with drum slits; install segment bolt30Nm without impact.",
+      "source_pdf_pages": [
+        266,
+        267
+      ],
+      "verification": [
+        "Stopper10Nm, segment30Nm and projection/slit alignment recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=266",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=267"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "inspect"
+      ]
+    },
+    {
+      "id": "pawls",
+      "title": "Build and fit the shift lever",
+      "instruction": "Oil the two springs, pawl pins and pawls. Fit them in the illustrated lever pockets, then install lever into guide. Fit both together and tighten shift-guide bolts10Nm with LOCTITE.",
+      "source_pdf_pages": [
+        267
+      ],
+      "verification": [
+        "Both pawls/pins/springs installed; guide10Nm recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=267"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "stopper"
+      ]
+    },
+    {
+      "id": "shaft",
+      "title": "Install shaft and new seal",
+      "instruction": "Fit dowel, roller, shaft spring and collar in the illustrated locations. Oil the shaft and install it with the spring engaging as shown. Fit a new shift-shaft seal at0\u20131.0mm illustrated depth and lubricate its lip with lithium-soap grease.",
+      "source_pdf_pages": [
+        264,
+        267
+      ],
+      "verification": [
+        "Shaft spring engagement and new seal depth recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=264",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=267"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "pawls"
+      ]
+    },
+    {
+      "id": "pedal",
+      "title": "Refit the marked pedal and check movement",
+      "instruction": "Align the punch marks on shaft and pedal; tighten pedal bolt12Nm. Operate the selector while turning the transmission by hand, checking smooth return and gear selection before the idle gear and covers are installed.",
+      "source_pdf_pages": [
+        267,
+        268,
+        292
+      ],
+      "verification": [
+        "Pedal12Nm and selector movement saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=267",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=268",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=292"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "shaft"
+      ]
+    }
+  ],
+  "reviewed_at": "2026-09-13",
+  "runtime_integration_requirement": "Enforce entry state and record_required. Completion certifies this bounded operation only; no automatic completion of upstream/downstream work."
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "frame-pass3-complete-chassis-reviewed-procedure",
+  "reviewed_at": "2026-09-13",
+  "database_writes": false,
+  "sources": [
+    {
+      "id": "yamaha26",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+      "local_pdf_path": "C:/Users/kylej/AppData/Local/Temp/D03-2819U-10_02.pdf",
+      "sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "frame-strip-reassemble-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "515099c701602c179763c20a973365044ad65f3488c8edad9d0185cbccfdc282",
+      "source_id": "yamaha26",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 106
+    }
+  ],
+  "full_frame_rebuild_complete": false,
+  "visual_pages_reviewed": [
+    64,
+    68,
+    72,
+    74,
+    76,
+    77,
+    98,
+    99,
+    111,
+    123,
+    129,
+    134,
+    137,
+    150,
+    152,
+    153,
+    180,
+    181,
+    183,
+    184,
+    187,
+    190,
+    192,
+    193,
+    195,
+    198,
+    208,
+    210,
+    212,
+    222,
+    254,
+    257,
+    296,
+    297,
+    310
+  ]
+}

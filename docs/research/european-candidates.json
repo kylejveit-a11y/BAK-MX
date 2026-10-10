@@ -1,0 +1,346 @@
+{
+  "schema": "bakmx.research-candidates.v1",
+  "researched_at": "2026-09-12",
+  "runtime_eligible": false,
+  "status": "RESEARCH_ONLY",
+  "commercial_rights": "NOT_REVIEWED",
+  "source_capture_hash": null,
+  "notes": [
+    "This is a research inventory, not the validated ingestion schema.",
+    "HTML source content was inspected through web retrieval. No full manual was captured.",
+    "No US applicability for AU/NZ records; no cross-year or cross-variant inheritance.",
+    "Facts require archived source, hash-bound review, rights assessment and conflict check before promotion."
+  ],
+  "sources": [
+    {
+      "id": "ktm250nz",
+      "make": "KTM",
+      "model": "250 SX-F",
+      "year": 2026,
+      "variant": "standard",
+      "region": "NZ",
+      "url": "https://www.ktm.com/en-nz/models/motocross/4-stroke/2026-ktm-250-sx-f/technical-specifications.html",
+      "source_type": "OEM product technical page",
+      "access": "HTML_READ",
+      "document_revision": null
+    },
+    {
+      "id": "ktm450nz",
+      "make": "KTM",
+      "model": "450 SX-F",
+      "year": 2026,
+      "variant": "standard",
+      "region": "NZ",
+      "url": "https://www.ktm.com/en-nz/models/motocross/4-stroke/2026-ktm-450-sx-f/technical-specifications.html",
+      "source_type": "OEM product technical page",
+      "access": "HTML_READ",
+      "document_revision": null
+    },
+    {
+      "id": "husky250au",
+      "make": "Husqvarna",
+      "model": "FC 250",
+      "year": 2026,
+      "variant": "standard",
+      "region": "AU",
+      "url": "https://www.husqvarna-motorcycles.com/en-au/models/motocross/4-stroke/fc-250-2026.html",
+      "source_type": "OEM product technical page",
+      "access": "HTML_READ",
+      "document_revision": null
+    },
+    {
+      "id": "husky450feus",
+      "make": "Husqvarna",
+      "model": "FC 450",
+      "year": 2026,
+      "variant": "Factory Edition",
+      "region": "US",
+      "url": "https://www.husqvarna-motorcycles.com/en-us/models/motocross/4-stroke/fc-450-factory-edition2026.html",
+      "source_type": "OEM product technical page",
+      "access": "HTML_READ",
+      "document_revision": null
+    },
+    {
+      "id": "gas250au",
+      "make": "GasGas",
+      "model": "MC 250F",
+      "year": 2026,
+      "variant": "standard",
+      "region": "AU",
+      "url": "https://www.gasgas.com/en-au/models/motocross/4-stroke/mc-250f-2026.html",
+      "source_type": "OEM product technical page",
+      "access": "HTML_READ",
+      "document_revision": null
+    },
+    {
+      "id": "gas450au",
+      "make": "GasGas",
+      "model": "MC 450F",
+      "year": 2026,
+      "variant": "standard",
+      "region": "AU",
+      "url": "https://www.gasgas.com/en-au/models/motocross/4-stroke/mc-450f-2026.html",
+      "source_type": "OEM product technical page",
+      "access": "HTML_READ",
+      "document_revision": null
+    }
+  ],
+  "candidates": [
+    {
+      "id": "eur-20260912-001",
+      "source_id": "ktm250nz",
+      "applicability": {
+        "make": "KTM",
+        "model": "250 SX-F",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "NZ",
+        "component_revision": null,
+        "ecu_firmware": null
+      },
+      "locator": "Engine > Primary drive",
+      "statement": "The listed primary-drive tooth pair is 24:72.",
+      "key": "primary_drive_teeth",
+      "value": {
+        "input": 24,
+        "output": 72
+      },
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false
+    },
+    {
+      "id": "eur-20260912-002",
+      "source_id": "ktm250nz",
+      "applicability": {
+        "make": "KTM",
+        "model": "250 SX-F",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "NZ",
+        "component_revision": null,
+        "ecu_firmware": null
+      },
+      "locator": "Suspension > Front suspension",
+      "statement": "The listed fork is a 48 mm WP XACT AER inverted unit.",
+      "key": "fork_identity",
+      "value": {
+        "manufacturer": "WP",
+        "family": "XACT AER",
+        "diameter_mm": 48
+      },
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false
+    },
+    {
+      "id": "eur-20260912-003",
+      "source_id": "ktm450nz",
+      "applicability": {
+        "make": "KTM",
+        "model": "450 SX-F",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "NZ",
+        "component_revision": null,
+        "ecu_firmware": null
+      },
+      "locator": "Engine > Primary drive",
+      "statement": "The listed primary-drive tooth pair is 29:72.",
+      "key": "primary_drive_teeth",
+      "value": {
+        "input": 29,
+        "output": 72
+      },
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false
+    },
+    {
+      "id": "eur-20260912-004",
+      "source_id": "ktm450nz",
+      "applicability": {
+        "make": "KTM",
+        "model": "450 SX-F",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "NZ",
+        "component_revision": null,
+        "ecu_firmware": null
+      },
+      "locator": "Engine > Clutch",
+      "statement": "The listed clutch is a wet DDS multi-disc design operated by Brembo hydraulics.",
+      "key": "clutch_identity",
+      "value": {
+        "design": "DDS",
+        "actuation": "Brembo hydraulic"
+      },
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false
+    },
+    {
+      "id": "eur-20260912-005",
+      "source_id": "husky250au",
+      "applicability": {
+        "make": "Husqvarna",
+        "model": "FC 250",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "AU",
+        "component_revision": null,
+        "ecu_firmware": null
+      },
+      "locator": "Technologically advanced > Quickshift",
+      "statement": "Quickshift uses a momentary ignition interruption and operates from second gear upward.",
+      "key": "quickshift_operation",
+      "value": null,
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false
+    },
+    {
+      "id": "eur-20260912-006",
+      "source_id": "husky250au",
+      "applicability": {
+        "make": "Husqvarna",
+        "model": "FC 250",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "AU",
+        "component_revision": null,
+        "ecu_firmware": null
+      },
+      "locator": "Technical Details > Chassis > Suspension travel",
+      "statement": "The published suspension travel is 305 mm front and 293 mm rear.",
+      "key": "suspension_travel_mm",
+      "value": {
+        "front": 305,
+        "rear": 293
+      },
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false
+    },
+    {
+      "id": "eur-20260912-007",
+      "source_id": "husky450feus",
+      "applicability": {
+        "make": "Husqvarna",
+        "model": "FC 450",
+        "model_year": 2026,
+        "variant": "Factory Edition",
+        "region": "US",
+        "component_revision": null,
+        "ecu_firmware": null
+      },
+      "locator": "Technical Details > Chassis > Front suspension; Rear suspension",
+      "statement": "Factory Edition equipment lists WP XACT PRO 7548 forks and a WP XACT PRO 8950 shock.",
+      "key": "suspension_identity",
+      "value": {
+        "front": "WP XACT PRO 7548",
+        "rear": "WP XACT PRO 8950"
+      },
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false
+    },
+    {
+      "id": "eur-20260912-008",
+      "source_id": "husky450feus",
+      "applicability": {
+        "make": "Husqvarna",
+        "model": "FC 450",
+        "model_year": 2026,
+        "variant": "Factory Edition",
+        "region": "US",
+        "component_revision": null,
+        "ecu_firmware": null
+      },
+      "locator": "Finest Componentry > FMF titanium exhaust; Technical Details > Chassis > Silencer",
+      "statement": "The Factory Edition lists an FMF Factory 4.1 RCT muffler.",
+      "key": "silencer_identity",
+      "value": "FMF Factory 4.1 RCT",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false
+    },
+    {
+      "id": "eur-20260912-009",
+      "source_id": "gas250au",
+      "applicability": {
+        "make": "GasGas",
+        "model": "MC 250F",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "AU",
+        "component_revision": null,
+        "ecu_firmware": null
+      },
+      "locator": "Technical Details > Engine > Secondary gear ratio",
+      "statement": "The listed secondary-drive tooth pair is 14:52.",
+      "key": "secondary_drive_teeth",
+      "value": {
+        "front": 14,
+        "rear": 52
+      },
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false
+    },
+    {
+      "id": "eur-20260912-010",
+      "source_id": "gas250au",
+      "applicability": {
+        "make": "GasGas",
+        "model": "MC 250F",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "AU",
+        "component_revision": null,
+        "ecu_firmware": null
+      },
+      "locator": "Technical Details > Engine > Clutch",
+      "statement": "The listed clutch uses a DS wet multi-disc design with Braktec hydraulics.",
+      "key": "clutch_identity",
+      "value": {
+        "design": "DS",
+        "actuation": "Braktec hydraulic"
+      },
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false
+    },
+    {
+      "id": "eur-20260912-011",
+      "source_id": "gas450au",
+      "applicability": {
+        "make": "GasGas",
+        "model": "MC 450F",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "AU",
+        "component_revision": null,
+        "ecu_firmware": null
+      },
+      "locator": "Technical Details > Engine > Secondary gear ratio",
+      "statement": "The listed secondary-drive tooth pair is 13:51.",
+      "key": "secondary_drive_teeth",
+      "value": {
+        "front": 13,
+        "rear": 51
+      },
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false
+    },
+    {
+      "id": "eur-20260912-012",
+      "source_id": "gas450au",
+      "applicability": {
+        "make": "GasGas",
+        "model": "MC 450F",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "AU",
+        "component_revision": null,
+        "ecu_firmware": null
+      },
+      "locator": "Features & Benefits > Map Select Switch",
+      "statement": "The map-select switch is an optional technical accessory; it enables the listed map, launch, traction and quickshift functions.",
+      "key": "optional_equipment",
+      "value": "Map Select Switch",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false
+    }
+  ]
+}

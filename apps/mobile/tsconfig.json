@@ -1,0 +1,1 @@
+{"extends":"expo/tsconfig.base","compilerOptions":{"strict":true,"allowImportingTsExtensions":true,"noEmit":true},"include":["**/*.ts","**/*.tsx","../../shared/types.ts","../../shared/calculators.ts","../../shared/rider-types.ts","../../shared/setup-knowledge.ts","../../shared/garage-fields.ts"]}

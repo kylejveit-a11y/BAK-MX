@@ -1,0 +1,154 @@
+{
+  "status": "APPROVED",
+  "reviewer": "root independent source reviewer",
+  "scope": "21 bounded setup companions, US standard YZ250F 2020–2026",
+  "review_method": "Root read all 19 exact2026 actions and every-year raw Standard block and source locator, checked cover identities and visually reviewed critical control/sag diagrams. Author checked remaining per-year instructions: only exact numeric controls, datum, 2020 access scope and page locations differ.",
+  "source_visual_pages": {
+    "2020": [
+      104,
+      106,
+      107,
+      352
+    ],
+    "2021": [
+      105,
+      107,
+      356
+    ],
+    "2022": [
+      105,
+      107,
+      356
+    ],
+    "2023": [
+      103,
+      105,
+      354
+    ],
+    "2024": [
+      112,
+      114,
+      378
+    ],
+    "2025": [
+      114,
+      116,
+      388
+    ],
+    "2026": [
+      114,
+      116,
+      390
+    ]
+  },
+  "resolved_findings": [
+    "Added assembled-bike ring/locknut access prerequisite for 2021–2026 sag; no implied access/remove-refit service."
+  ],
+  "artifacts": [
+    {
+      "path": "docs/research/workshop-pass13/yz250f/2020/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "c72391401b5b56051a835d019adb166aab3506f7cdf3e656379fdd71a7eeae2c",
+      "artifact_sha256": "9efc1068d3e30381d6acd816e3a9a47c50784859516bae562ec9a1f2ac026a11"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yz250f/2020/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "e75a15252d16b08711491d68c475e740c96db56473ac4e2dd60d8142cc70b037",
+      "artifact_sha256": "c0950c2e5bacf0c9d8d6123d1661eb150420da413eb7e0bd18cb01cf4b261e30"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yz250f/2020/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "0139f7a26dd7403cb8afaafac179531cd8ce322f0c4e9c728d4523cc282dc24e",
+      "artifact_sha256": "dce4610b17c9bd0d32bf7a5a7d92a37b766b26d00dae4ad92276ca146acaa489"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yz250f/2021/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "6b66dadb790abcbfb67e788899844ef9f73a412d901a3aee561c449adba2074e",
+      "artifact_sha256": "beeb6dd6696caaa9276ea5bb62508aad3eaad93483c7701b062e037d5d30e185"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yz250f/2021/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "f0d9bde9fa67ef7de7147a4faa1bf20139f3c24077f686988acc57997359fb9c",
+      "artifact_sha256": "9d9b670659d7c9ad52af465b2dad534748a2d7b33ef3a39ea7fce21182cf05f5"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yz250f/2021/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "ef594d3b6b8cd98db4d129253f81f33caab997133a5bca522724252cc13c77d7",
+      "artifact_sha256": "c08ed68a7b137f12c03902f54ccab43463c5cc37754ceb1f04f382c2269c7cc5"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yz250f/2022/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "a505ad9467891b873a86624221dcbfe464c02171b01f03518f0a2ff07fe1847d",
+      "artifact_sha256": "f4cc9a98b550007914698706f6ff36ad4c05e81ef9ec91df23f13ab6fdb19163"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yz250f/2022/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "d0fe6421500d383e08a4d32950f40f5e2e8279d85ee4d8a7525e43f3d8686560",
+      "artifact_sha256": "38d83fc9c4efe316fad2e7b4856cf38981262bac738787cd63e817ef79cc7277"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yz250f/2022/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "0a9957d0a103e3f33c0ead1154182c71d9f419cb15b56f42745720fd33bb62a6",
+      "artifact_sha256": "d8ecbbef1d75bc6d043a2906ab5c91c4c9bc5a8ab36161705c41e6e7899a2624"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yz250f/2023/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "90ed23ac2c947dfd64f1d26b48c4d4dbc46f1118f8029b570a1229a410636271",
+      "artifact_sha256": "89cff87ea4bb3df333c09b5aaa3d35f4997136adf1d6cb0d62bf1935e70ad1ae"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yz250f/2023/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "300da9e37db48c6e200a688aca2393210e14a73972af277ae8f9563684130286",
+      "artifact_sha256": "882b0fde7a6fbd824655302e4d40ca5f1e8d32fb445590922f258d4dc8485498"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yz250f/2023/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "4adeb10ea299cbf0cfa0a23467963e18d65e9cabd11f5028906beb81c8cb7367",
+      "artifact_sha256": "5d0cfaea5a1944dc8422ff30055a00b55149b82de484a764b6abd58265dddfae"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yz250f/2024/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "953e586e4c4957c7435a370b84910ac687927861fc666cc5d1484d8e2c72e203",
+      "artifact_sha256": "820d12e423dd575bb9c7abbe1b31761853abcbecd52b42d02acf5d2b04f05d5f"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yz250f/2024/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "53d4a16a41cd354726c60cee3c3b5fb78fad1516a2a81d0e68e90af20fc8c1cc",
+      "artifact_sha256": "ad4f403dac28de1e640e602ebccf5e5ce40d9f600645caab843aab914db9306b"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yz250f/2024/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "755e1a1884f610478a331201a8573890cf62d47914a22be0b1fa812ea5921459",
+      "artifact_sha256": "4185e79759f838b1c1b4491973aa4e0356ab75a71628bf0eb1d1412652de08bf"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yz250f/2025/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "f4d4495c532b8b82ac0adb79f9502e2461850f31ecb49c879ee9c7deb8bc6157",
+      "artifact_sha256": "2ef8787bfd3e1f3e47895ff55aa509a6bbe09d09b014d7b57ea6f6c7ce6d91af"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yz250f/2025/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "40fcb683edba032bfb3b09a343e76d280c6a9b64ceb760f9eb4ebd12f78582c3",
+      "artifact_sha256": "073da61e95c865b75b14b4e65ac72964196ad92b8bba45092b6789cbeadcc38d"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yz250f/2025/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "5356eb761576d50d2dbbcb34596445060d51d9a88e1e0df1374fb8804995dd6c",
+      "artifact_sha256": "3da69a84552cca1ca935b58b94e194f467a737e43a5f92aac9bcee74ed3bcb09"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yz250f/2026/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "8f897fe86c9bc720342e2ae482d191d6b4ddbca948493d04d28176c0e36ef340",
+      "artifact_sha256": "5fb3f69fc469f77d9c1139eb83b53cfdfaac2085dabc66da8568bee0e9ff2336"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yz250f/2026/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "880e09dce10dffee6f9a1af7f689da09e3542cdd140869b663a6fd465ba71981",
+      "artifact_sha256": "45ebae1c24d7aa0f7f3d5128fbb8e3ed7cae0e205cb938d7c9890852329e0bbd"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yz250f/2026/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "43b5d676e4f36247df13f8b24a726a6a705a7f7397969d367d3e0a87e9b3189e",
+      "artifact_sha256": "7b6e85323f1cf28e5eb179f1e0d5a9a93baf9ce06d639a1185aa973187a16a53"
+    }
+  ]
+}

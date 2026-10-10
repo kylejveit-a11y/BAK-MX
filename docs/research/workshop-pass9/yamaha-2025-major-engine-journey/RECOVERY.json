@@ -1,0 +1,33 @@
+{
+  "status": "APPROVED_READY_FOR_ROOT_INTEGRATION",
+  "artifacts": [
+    {
+      "path": "major-engine-bike-journey-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "22767c0cf087c4aaa37a7ac055b6ac5beecf7e71d12dadd2b1723740d3e06d3e",
+      "source_id": "yamaha-2025-d02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 214
+    }
+  ],
+  "dependencies": [
+    {
+      "artifact": "docs/research/workshop-pass9/yamaha-2025-engine-journey/top-end-bike-journey-v1.procedure.json",
+      "sha256": "fe700644eff579401c300404fce7628fc4f63883e6fa645067285f7bf6901407",
+      "kind": "approved_source_operation"
+    },
+    {
+      "artifact": "docs/research/workshop-pass9/yamaha-2025-engine/lower-engine-bench-v1.procedure.json",
+      "sha256": "47a147277f552cf86353a2277bfa5205b5d7719966c3e957cda86df0deb70e35",
+      "kind": "approved_source_operation"
+    }
+  ],
+  "next": "Root integration; do not rerun frozen builder. Next exact 2024 source review separately.",
+  "database_writes": false
+}

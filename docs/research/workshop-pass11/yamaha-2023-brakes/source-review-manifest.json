@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED",
+  "sources": [
+    {
+      "source_id": "yamaha-us-2023-yz450f-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf",
+      "sha256": "9a8605e26301ba1d0d1d21e93d23cca721bdcdbece6188775626a8819332aa9f",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\BHR-2819U-10_02.pdf"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "docs/research/workshop-pass11/yamaha-2023-brakes/front-caliper-rebuild-v1.procedure.json",
+      "sha256": "17e77be0efede936c9abb10acf62b68b504640974ff3b6d923b9525486a6ef97",
+      "source_id": "yamaha-us-2023-yz450f-oem",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 14,
+      "review_status": "APPROVED",
+      "template_sha256": "9fe96855010aa9e4da931ec0e1da53450c4851c208bb6fa149d837208c607e3d"
+    },
+    {
+      "path": "docs/research/workshop-pass11/yamaha-2023-brakes/front-master-rebuild-v1.procedure.json",
+      "sha256": "70b3db3acfdfbf24ebd51589dc6a3f30793a1621e14d758394ae3d84d256704a",
+      "source_id": "yamaha-us-2023-yz450f-oem",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 12,
+      "review_status": "APPROVED",
+      "template_sha256": "7fcfb35c20996a8a1967568038c0366729b6755ed20d7cb5c19156c23906e116"
+    },
+    {
+      "path": "docs/research/workshop-pass11/yamaha-2023-brakes/rear-caliper-rebuild-v1.procedure.json",
+      "sha256": "4d8cee430fe9e16bcd5a750458e1df4a9faeceb850e5505b441a98f23e212280",
+      "source_id": "yamaha-us-2023-yz450f-oem",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 16,
+      "review_status": "APPROVED",
+      "template_sha256": "0b24a3de223cf1bb5d72ba80eec727fc4f8701e1f8ff7c288daa901e9d9d8e2c"
+    },
+    {
+      "path": "docs/research/workshop-pass11/yamaha-2023-brakes/rear-master-rebuild-v1.procedure.json",
+      "sha256": "5e83f3455bdb7726d4f9654fbf7cb321eec599a40e0456a2bce35a7db8547134",
+      "source_id": "yamaha-us-2023-yz450f-oem",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 12,
+      "review_status": "APPROVED",
+      "template_sha256": "02bc41bd4692f7dcb1d362c27a3345b92cf51e0ff899c91f9b6bdaf783078af7"
+    }
+  ],
+  "independent_review": {
+    "path": "docs/research/workshop-pass11/yamaha-2023-brakes/independent-review-v1.json",
+    "sha256": "2546ce8fa26a7b7eaf6f2b5b6c07f0479030b2be0cebaf10a978b92668e89135",
+    "status": "APPROVED"
+  }
+}

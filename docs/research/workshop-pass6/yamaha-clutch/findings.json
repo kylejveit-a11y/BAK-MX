@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-09-13",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard",
+    "configuration": "stock"
+  },
+  "decision": "HOLD_RETAINED_PUBLIC_EVIDENCE_NOT_RESOLVING",
+  "conflicted_claim_uuid": "a8317507-1cc3-5dab-a3bb-2501be6d2aef",
+  "database_writes": false,
+  "runtime_changes": false,
+  "new_approved_facts": 0,
+  "prior_evidence": [
+    {
+      "path": "docs/research/engine-pass3/clutch-preparation-conflict.json",
+      "sha256": "56cc6e9907ac9d8d958202e78b4d69050de238f52de53cd54be30b80ee9b5f8f"
+    },
+    {
+      "path": "docs/research/engine-pass4/clutch-preparation-followup-v1.json",
+      "sha256": "adcd275705fea295822e58e16513fb5b6efff94aa994e0eed5f7fad1a42185b6"
+    },
+    {
+      "path": "docs/research/engine-pass4/REVIEW.md",
+      "sha256": "a31c633c5fd4e20e95e85da63a5f1784f5794890e1e7f2bf0345c8779454cfa0"
+    }
+  ],
+  "additional_findings": [
+    {
+      "id": "short-us-owner",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-28199-10_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\D03-28199-10_02.pdf",
+      "sha256": "061398b620cc1f0be49c2b794444df95ca40580df024a8f63807d84b3bd907e2",
+      "revision": "D03-28199-10 / LIT-11626-39-21; 2026 YZ450FT; First edition May2025",
+      "locators": [
+        "PDF45 torque table",
+        "PDF126 printed5-5 oil text/exploded diagram",
+        "PDF127 printed5-6 LT close-up"
+      ],
+      "visual_review": [
+        3,
+        126,
+        127
+      ],
+      "finding": "Short exact-year owner manual repeats oil instruction and contradictory LT close-up. It does not correct or supersede the full service manual.",
+      "disposition": "DUPLICATED_CONFLICT_NOT_INDEPENDENT_RESOLUTION"
+    },
+    {
+      "id": "full-us-service-recheck",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+      "sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+      "locators": [
+        "PDF258 printed5-55",
+        "PDF259 printed5-56"
+      ],
+      "visual_review": [
+        258,
+        259
+      ],
+      "finding": "Independent visual recheck confirms oil at nut threads/contact in installation text and E exploded callout; next-page detail still shows LT at joint. No alternative joint identified that removes the contradiction.",
+      "disposition": "CONFLICT_CONFIRMED"
+    },
+    {
+      "id": "rekluse-rms8907176",
+      "url": "https://www.rekluse.com/product/auto-clutches/radiuscx/radiuscx-clutches/radiuscx-4-0-yz450-23/",
+      "locator": "Description; SKU; Fitment; Documents product guide",
+      "finding": "Component maker identifies RadiusCX replacement inner hub/pressure plate/auto clutch package. Lists2026 among years but does not issue stock-nut erratum.",
+      "linked_document": "https://www.rekluse.com/wp-content/uploads/2025/08/RMS-8907176.pdf",
+      "linked_document_access": "Web returned One moment, please challenge; no instruction content obtained and no bypass attempted.",
+      "disposition": "AFTERMARKET_CONFIGURATION_NOT_STOCK_CLARIFICATION"
+    },
+    {
+      "id": "hinson-steelplates",
+      "url": "https://www.hinsonracing.com/p18090-steel-plate-kit-set-of-9",
+      "locator": "SP373-9-001 application chart",
+      "finding": "Component-maker plate fitment includes newer YZ450F years; no stock boss-nut preparation instruction.",
+      "disposition": "PART_FITMENT_ONLY"
+    },
+    {
+      "id": "motosport-adjustment-rejected",
+      "url": "https://www.motosport.com/blog/how-to-adjust-the-clutch-on-a-2026-yamaha-yz450f-dirt-bike",
+      "attribution": "AndrewT, April17,2026",
+      "locator": "Opening paragraph and What Freeplay Does and Why It Matters",
+      "finding": "Labels exact2026 model cable-operated and gives cable adjustment. That is inconsistent with stock hydraulic clutch evidence already reviewed in the exact OEM manual. No boss-nut clarification; reject for stock2026 clutch prescription.",
+      "disposition": "EXACT_YEAR_TITLE_WITH_WRONG_CONFIGURATION"
+    },
+    {
+      "id": "colombia-parts",
+      "url": "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2026/01/YZ450F-D032_2026.pdf",
+      "locator": "FIG19 CLUTCH, printed25, callout23 nut90179-18010",
+      "finding": "OEM distributor exact-year catalog lead identifies a nut; it does not provide preparation, establish US scope or supersede the conflicting service illustrations. No compatibility/torque inferred.",
+      "disposition": "PARTS_LEAD_NOT_SERVICE_RESOLUTION"
+    },
+    {
+      "id": "generic-numeric-result-rejected",
+      "url": "https://autogearnexus.com/clutch/symptoms/motorcycle-atv-wet-clutch-diagram-diagnostics",
+      "locator": "Indexed clutch table and generic threadlocker note",
+      "finding": "Search snippet groups2023\u20132026 and advocates generic threadlocker with a different numerical nut value. No exact stock source binding; not relied on as technical evidence.",
+      "disposition": "UNVERIFIED_SEARCH_RESULT_REJECTED"
+    }
+  ],
+  "queries": [
+    "2026 YZ450F clutch boss nut Loctite oil manual correction",
+    "D03-2819U-10 clutch",
+    "site:rekluse.com 2026 YZ450F installation instructions",
+    "2026 YZ450F clutch bulletin",
+    "D03 clutch boss",
+    "2026 YZ450F Hinson instructions",
+    "2026 YZ450F clutch nut",
+    "2026 YZ450F Loctite excluding manual mirrors",
+    "site:hinsonracing.com YZ450F2026",
+    "site:rekluse.com YZ450F2026"
+  ],
+  "remaining_blocker": "Exact applicable technical clarification must identify the stock joint/nut version, distinguish oil versus locking agent, identify what instruction is corrected/superseded, and state associated torque/staking conditions. More copies or different-year/aftermarket instructions cannot provide that authority.",
+  "next_evidence_action": "Obtain an attributable Yamaha technical clarification or a documented qualified exact-stock engineering resolution. No contact was sent. Preserve full-bottom-end hold before teardown and quarantine until that review exists.",
+  "bounded_search_limit": "No resolving publicly indexed clarification found in this pass. Does not claim dealer-only or unindexed evidence does not exist."
+}

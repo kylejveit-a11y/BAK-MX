@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED",
+  "reviewer": "/root",
+  "artifact_sha256": "f9207a0cd26f1412979f3100584a362bcc6653119dde5bae3c43660fb7f4a6a3",
+  "reviewed_candidate_sha256": "0b05f904f1912756424910baf316321bfc631a6c7107cf18fbd06aa76b458d32",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2022,
+    "region": "US",
+    "variant": "standard"
+  },
+  "review": "All five composition adaptations and actual handoff/cold entry/first idle/final oil-check wording independently reviewed. Read-only validator confirms all other instructions/verifications unchanged against approved exact-year origins.",
+  "findings": [],
+  "preserved_external_records": 4,
+  "approval_only_changes": [
+    "publication_status",
+    "source.review_status",
+    "integration_status",
+    "status"
+  ]
+}

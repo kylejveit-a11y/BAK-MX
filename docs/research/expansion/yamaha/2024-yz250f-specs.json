@@ -1,0 +1,2978 @@
+{
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ250F",
+    "model_year": 2024,
+    "variant": "standard",
+    "region": "US"
+  },
+  "local_pdf_path": "/tmp/BMF.pdf",
+  "scope_confirmed": true,
+  "facts": [
+    {
+      "id": "yamaha-2024-yz250f-spec-001",
+      "property": "specification",
+      "joint": "Engine / Combustion cycle",
+      "value": "4-stroke",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 49; printed 2-2; Engine / Combustion cycle",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "4-stroke"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-002",
+      "property": "specification",
+      "joint": "Engine / Cooling system",
+      "value": "Liquid cooled",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 49; printed 2-2; Engine / Cooling system",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Liquid cooled"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-003",
+      "property": "specification",
+      "joint": "Engine / Valve train",
+      "value": "DOHC",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 49; printed 2-2; Engine / Valve train",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "DOHC"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-004",
+      "property": "specification",
+      "joint": "Engine / Displacement",
+      "value": 250.0,
+      "unit": "cm\u00b3",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 49; printed 2-2; Engine / Displacement",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "250 cm\u00b3"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-005",
+      "property": "specification",
+      "joint": "Engine / Number of cylinders",
+      "value": "Single cylinder",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 49; printed 2-2; Engine / Number of cylinders",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Single cylinder"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-006",
+      "property": "specification",
+      "joint": "Engine / Bore \u00d7 stroke",
+      "value": "77.0 \u00d7 53.6 mm",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 49; printed 2-2; Engine / Bore \u00d7 stroke",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "77.0 \u00d7 53.6 mm (3.03 \u00d7 2.11 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-007",
+      "property": "specification",
+      "joint": "Engine / Compression ratio",
+      "value": "13.8 : 1",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 49; printed 2-2; Engine / Compression ratio",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "13.8 : 1"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-008",
+      "property": "specification",
+      "joint": "Engine / Starting system",
+      "value": "Electric starter",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 49; printed 2-2; Engine / Starting system",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Electric starter"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-009",
+      "property": "specification",
+      "joint": "Fuel / Recommended fuel",
+      "value": "Unleaded gasoline (E10 acceptable)",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 49; printed 2-2; Fuel / Recommended fuel",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Unleaded gasoline (E10 acceptable)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-010",
+      "property": "specification",
+      "joint": "Fuel / Octane number (RON)",
+      "value": "95",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 49; printed 2-2; Fuel / Octane number (RON)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "95"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-011",
+      "property": "specification",
+      "joint": "Fuel / Fuel tank capacity",
+      "value": 6.2,
+      "unit": "L",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 49; printed 2-2; Fuel / Fuel tank capacity",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "6.2 L (1.6 US gal, 1.4 Imp.gal)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-012",
+      "property": "specification",
+      "joint": "Engine oil / Recommended brand",
+      "value": "YAMALUBE",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 49; printed 2-2; Engine oil / Recommended brand",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "YAMALUBE"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-013",
+      "property": "specification",
+      "joint": "Engine oil / SAE viscosity grades",
+      "value": "10W-40, 10W-50, 15W-40, 20W-40 or 20W-50",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 49; printed 2-2; Engine oil / SAE viscosity grades",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "10W-40, 10W-50, 15W-40, 20W-40 or 20W-50"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-014",
+      "property": "specification",
+      "joint": "Engine oil / Recommended engine oil grade",
+      "value": "API service SG type or higher, JASO standard MA",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 49; printed 2-2; Engine oil / Recommended engine oil grade",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "API service SG type or higher, JASO standard MA"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-015",
+      "property": "specification",
+      "joint": "Engine oil / Lubrication system",
+      "value": "Wet sump",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 49; printed 2-2; Engine oil / Lubrication system",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Wet sump"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-016",
+      "property": "specification",
+      "joint": "Engine oil / Engine oil quantity / Oil change",
+      "value": 0.73,
+      "unit": "L",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Retain the stated oil-change/filter-removal/disassembled fill condition; verify level by OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 49; printed 2-2; Engine oil / Engine oil quantity / Oil change",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0.73 L (0.77 US qt, 0.64 Imp.qt)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-017",
+      "property": "specification",
+      "joint": "Engine oil / Engine oil quantity / With oil filter removal",
+      "value": 0.75,
+      "unit": "L",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Retain the stated oil-change/filter-removal/disassembled fill condition; verify level by OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 49; printed 2-2; Engine oil / Engine oil quantity / With oil filter removal",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0.75 L (0.79 US qt, 0.66 Imp.qt)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-018",
+      "property": "specification",
+      "joint": "Engine oil / Engine oil quantity / Quantity (disassembled)",
+      "value": 0.95,
+      "unit": "L",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Retain the stated oil-change/filter-removal/disassembled fill condition; verify level by OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 49; printed 2-2; Engine oil / Engine oil quantity / Quantity (disassembled)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0.95 L (1.00 US qt, 0.84 Imp.qt)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-019",
+      "property": "specification",
+      "joint": "Oil filter / Oil filter type",
+      "value": "Cartridge",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 49; printed 2-2; Oil filter / Oil filter type",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Cartridge"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-020",
+      "property": "specification",
+      "joint": "Cooling system / Coolant quantity / Radiator (including all routes)",
+      "value": 0.94,
+      "unit": "L",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 49; printed 2-2; Cooling system / Coolant quantity / Radiator (including all routes)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0.94 L (0.99 US qt, 0.83 Imp.qt)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-021",
+      "property": "specification",
+      "joint": "Cooling system / Coolant quantity / Radiator cap valve opening pressure",
+      "value": "107.9\u2013137.3",
+      "unit": "kPa",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 49; printed 2-2; Cooling system / Coolant quantity / Radiator cap valve opening pressure",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "107.9\u2013137.3 kPa (1.08\u20131.37 kgf/cm\u00b2, 15.6\u201319.9 psi)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-022",
+      "property": "specification",
+      "joint": "Spark plug(s) / Manufacturer/model",
+      "value": "NGK/LMAR9E-J",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 49; printed 2-2; Spark plug(s) / Manufacturer/model",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "NGK/LMAR9E-J"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-023",
+      "property": "specification",
+      "joint": "Spark plug(s) / Spark plug gap",
+      "value": "0.6\u20130.7",
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 49; printed 2-2; Spark plug(s) / Spark plug gap",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0.6\u20130.7 mm (0.024\u20130.028 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-024",
+      "property": "specification",
+      "joint": "Cylinder head / Warpage limit",
+      "value": 0.05,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 49; printed 2-2; Cylinder head / Warpage limit",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0.05 mm (0.0020 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-025",
+      "property": "specification",
+      "joint": "Camshaft / Camshaft cap inside diameter",
+      "value": "22.000\u201322.021",
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 49; printed 2-2; Camshaft / Camshaft cap inside diameter",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "22.000\u201322.021 mm (0.8661\u20130.8670 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-026",
+      "property": "specification",
+      "joint": "Camshaft / Camshaft journal diameter",
+      "value": "21.959\u201321.972",
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 49; printed 2-2; Camshaft / Camshaft journal diameter",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "21.959\u201321.972 mm (0.8645\u20130.8650 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-027",
+      "property": "specification",
+      "joint": "Camshaft / Camshaft-journal-to-camshaft-cap clearance",
+      "value": "0.028\u20130.062",
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 49; printed 2-2; Camshaft / Camshaft-journal-to-camshaft-cap clearance",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0.028\u20130.062 mm (0.0011\u20130.0024 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-028",
+      "property": "specification",
+      "joint": "Camshaft / Camshaft-journal-to-camshaft-cap clearance limit",
+      "value": 0.08,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 49; printed 2-2; Camshaft / Camshaft-journal-to-camshaft-cap clearance limit",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0.080 mm (0.0032 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-029",
+      "property": "specification",
+      "joint": "Camshaft / Camshaft lobe dimensions / Lobe height limit (Intake)",
+      "value": 32.13,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 49; printed 2-2; Camshaft / Camshaft lobe dimensions / Lobe height limit (Intake)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "32.130 mm (1.2650 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-030",
+      "property": "specification",
+      "joint": "Camshaft / Camshaft lobe dimensions / Lobe height limit (Exhaust)",
+      "value": 33.46,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 49; printed 2-2; Camshaft / Camshaft lobe dimensions / Lobe height limit (Exhaust)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "33.460 mm (1.3173 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-031",
+      "property": "specification",
+      "joint": "Valve, valve seat, valve guide / Valve clearance (cold) / Intake",
+      "value": "0.12\u20130.19",
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Measure valve clearance with engine cold."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 49; printed 2-2; Valve, valve seat, valve guide / Valve clearance (cold) / Intake",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0.12\u20130.19 mm (0.0047\u20130.0075 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-032",
+      "property": "specification",
+      "joint": "Valve, valve seat, valve guide / Valve clearance (cold) / Exhaust",
+      "value": "0.17\u20130.24",
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Measure valve clearance with engine cold."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Valve, valve seat, valve guide / Valve clearance (cold) / Exhaust",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0.17\u20130.24 mm (0.0067\u20130.0094 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-033",
+      "property": "specification",
+      "joint": "Valve, valve seat, valve guide / Valve dimensions / Valve seat contact width limit (intake)",
+      "value": 1.6,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Valve, valve seat, valve guide / Valve dimensions / Valve seat contact width limit (intake)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "1.6 mm (0.06 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-034",
+      "property": "specification",
+      "joint": "Valve, valve seat, valve guide / Valve dimensions / Valve seat contact width limit (exhaust)",
+      "value": 1.6,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Valve, valve seat, valve guide / Valve dimensions / Valve seat contact width limit (exhaust)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "1.6 mm (0.06 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-035",
+      "property": "specification",
+      "joint": "Valve, valve seat, valve guide / Valve dimensions / Valve stem diameter limit (intake)",
+      "value": 4.945,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Valve, valve seat, valve guide / Valve dimensions / Valve stem diameter limit (intake)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "4.945 mm (0.1947 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-036",
+      "property": "specification",
+      "joint": "Valve, valve seat, valve guide / Valve dimensions / Valve stem diameter limit (exhaust)",
+      "value": 4.43,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Valve, valve seat, valve guide / Valve dimensions / Valve stem diameter limit (exhaust)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "4.430 mm (0.1744 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-037",
+      "property": "specification",
+      "joint": "Valve, valve seat, valve guide / Valve dimensions / Valve guide inside diameter (intake)",
+      "value": "5.000\u20135.012",
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Valve, valve seat, valve guide / Valve dimensions / Valve guide inside diameter (intake)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "5.000\u20135.012 mm (0.1969\u20130.1973 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-038",
+      "property": "specification",
+      "joint": "Valve, valve seat, valve guide / Valve dimensions / Valve guide inside diameter (exhaust)",
+      "value": "4.500\u20134.512",
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Valve, valve seat, valve guide / Valve dimensions / Valve guide inside diameter (exhaust)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "4.500\u20134.512 mm (0.1772\u20130.1776 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-039",
+      "property": "specification",
+      "joint": "Valve, valve seat, valve guide / Valve dimensions / Valve-stem-to-valve-guide clearance limit (intake)",
+      "value": 0.08,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Valve, valve seat, valve guide / Valve dimensions / Valve-stem-to-valve-guide clearance limit (intake)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0.080 mm (0.0032 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-040",
+      "property": "specification",
+      "joint": "Valve, valve seat, valve guide / Valve dimensions / Valve-stem-to-valve-guide clearance limit (exhaust)",
+      "value": 0.1,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Valve, valve seat, valve guide / Valve dimensions / Valve-stem-to-valve-guide clearance limit (exhaust)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0.100 mm (0.0039 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-041",
+      "property": "specification",
+      "joint": "Valve, valve seat, valve guide / Valve dimensions / Valve stem runout",
+      "value": 0.02,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Valve, valve seat, valve guide / Valve dimensions / Valve stem runout",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0.020 mm (0.0008 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-042",
+      "property": "specification",
+      "joint": "Valve spring / Free length limit (intake)",
+      "value": 34.94,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Valve spring / Free length limit (intake)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "34.94 mm (1.38 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-043",
+      "property": "specification",
+      "joint": "Valve spring / Free length limit (exhaust)",
+      "value": 33.82,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Valve spring / Free length limit (exhaust)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "33.82 mm (1.33 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-044",
+      "property": "specification",
+      "joint": "Cylinder / Bore",
+      "value": "77.000\u201377.010",
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Cylinder / Bore",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "77.000\u201377.010 mm (3.0315\u20133.0319 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-045",
+      "property": "specification",
+      "joint": "Cylinder / Wear limit",
+      "value": 77.06,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Cylinder / Wear limit",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "77.060 mm (3.0339 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-046",
+      "property": "specification",
+      "joint": "Piston / Piston-to-cylinder clearance",
+      "value": "0.030\u20130.055",
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Piston / Piston-to-cylinder clearance",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0.030\u20130.055 mm (0.0012\u20130.0022 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-047",
+      "property": "specification",
+      "joint": "Piston / Diameter",
+      "value": "76.955\u201376.970",
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Piston diameter measuring point: 4.0 mm (0.16 in) from piston skirt bottom; follow OEM measurement orientation."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Piston / Diameter",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "76.955\u201376.970 mm (3.0297\u20133.0303 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-048",
+      "property": "specification",
+      "joint": "Piston / Measuring point (from piston skirt bottom)",
+      "value": 4.0,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Piston / Measuring point (from piston skirt bottom)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "4.0 mm (0.16 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-049",
+      "property": "specification",
+      "joint": "Piston / Piston pin bore inside diameter limit",
+      "value": 16.043,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Piston / Piston pin bore inside diameter limit",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "16.043 mm (0.6316 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-050",
+      "property": "specification",
+      "joint": "Piston / Piston pin outside diameter limit",
+      "value": 15.971,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Piston / Piston pin outside diameter limit",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "15.971 mm (0.6288 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-051",
+      "property": "specification",
+      "joint": "Piston / Piston-pin-to-piston-pin-bore clearance",
+      "value": "0.002\u20130.022",
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Piston / Piston-pin-to-piston-pin-bore clearance",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0.002\u20130.022 mm (0.0001\u20130.0009 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-052",
+      "property": "specification",
+      "joint": "Piston ring / Top ring / End gap limit",
+      "value": 0.5,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Piston ring / Top ring / End gap limit",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0.50 mm (0.0197 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-053",
+      "property": "specification",
+      "joint": "Piston ring / Top ring / Ring side clearance",
+      "value": "0.030\u20130.065",
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Piston ring / Top ring / Ring side clearance",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0.030\u20130.065 mm (0.0012\u20130.0026 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-054",
+      "property": "specification",
+      "joint": "Piston ring / Top ring / Side clearance limit",
+      "value": 0.115,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Piston ring / Top ring / Side clearance limit",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0.115 mm (0.0045 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-055",
+      "property": "specification",
+      "joint": "Crankshaft / Crank assembly width",
+      "value": "55.93\u201356.00",
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Crankshaft / Crank assembly width",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "55.93\u201356.00 mm (2.202\u20132.205 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-056",
+      "property": "specification",
+      "joint": "Crankshaft / Runout limit",
+      "value": 0.03,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Crankshaft / Runout limit",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0.030 mm (0.0012 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-057",
+      "property": "specification",
+      "joint": "Clutch / Clutch type",
+      "value": "Wet, multiple-disc",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Clutch / Clutch type",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Wet, multiple-disc"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-058",
+      "property": "specification",
+      "joint": "Clutch / Clutch lever free play",
+      "value": "7.0\u201312.0",
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Clutch / Clutch lever free play",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "7.0\u201312.0 mm (0.28\u20130.47 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-059",
+      "property": "specification",
+      "joint": "Clutch / Friction plate thickness",
+      "value": "2.70\u20132.90",
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Clutch / Friction plate thickness",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "2.70\u20132.90 mm (0.106\u20130.114 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-060",
+      "property": "specification",
+      "joint": "Clutch / Friction plate wear limit",
+      "value": 2.6,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Clutch / Friction plate wear limit",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "2.60 mm (0.102 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-061",
+      "property": "specification",
+      "joint": "Clutch / Friction plate plate quantity",
+      "value": 8.0,
+      "unit": "pcs",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Clutch / Friction plate plate quantity",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "8 pcs"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-062",
+      "property": "specification",
+      "joint": "Clutch / Clutch plate thickness",
+      "value": "1.50\u20131.70",
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Clutch / Clutch plate thickness",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "1.50\u20131.70 mm (0.059\u20130.067 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-063",
+      "property": "specification",
+      "joint": "Clutch / Clutch plate plate quantity",
+      "value": 7.0,
+      "unit": "pcs",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Clutch / Clutch plate plate quantity",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "7 pcs"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-064",
+      "property": "specification",
+      "joint": "Clutch / Clutch plate warpage limit",
+      "value": 0.1,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Clutch / Clutch plate warpage limit",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0.10 mm (0.004 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-065",
+      "property": "specification",
+      "joint": "Clutch / Clutch spring free length",
+      "value": 46.2,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Clutch / Clutch spring free length",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "46.20 mm (1.82 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-066",
+      "property": "specification",
+      "joint": "Clutch / Clutch spring free length limit",
+      "value": 43.89,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Clutch / Clutch spring free length limit",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "43.89 mm (1.73 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-067",
+      "property": "specification",
+      "joint": "Clutch / Push rod bending limit",
+      "value": 0.3,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Clutch / Push rod bending limit",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0.30 mm (0.012 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-068",
+      "property": "specification",
+      "joint": "Drivetrain / Primary reduction ratio",
+      "value": "3.353 (57/17)",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Drivetrain / Primary reduction ratio",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "3.353 (57/17)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-069",
+      "property": "specification",
+      "joint": "Drivetrain / Transmission type",
+      "value": "Constant mesh 5-speed",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 50; printed 2-3; Drivetrain / Transmission type",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Constant mesh 5-speed"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-070",
+      "property": "specification",
+      "joint": "Drivetrain / Gear ratio / 1st",
+      "value": "2.143 (30/14)",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 51; printed 2-4; Drivetrain / Gear ratio / 1st",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "2.143 (30/14)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-071",
+      "property": "specification",
+      "joint": "Drivetrain / Gear ratio / 2nd",
+      "value": "1.750 (28/16)",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 51; printed 2-4; Drivetrain / Gear ratio / 2nd",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "1.750 (28/16)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-072",
+      "property": "specification",
+      "joint": "Drivetrain / Gear ratio / 3rd",
+      "value": "1.444 (26/18)",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 51; printed 2-4; Drivetrain / Gear ratio / 3rd",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "1.444 (26/18)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-073",
+      "property": "specification",
+      "joint": "Drivetrain / Gear ratio / 4th",
+      "value": "1.222 (22/18)",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 51; printed 2-4; Drivetrain / Gear ratio / 4th",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "1.222 (22/18)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-074",
+      "property": "specification",
+      "joint": "Drivetrain / Gear ratio / 5th",
+      "value": "1.042 (25/24)",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 51; printed 2-4; Drivetrain / Gear ratio / 5th",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "1.042 (25/24)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-075",
+      "property": "specification",
+      "joint": "Drivetrain / Main axle runout limit",
+      "value": 0.08,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 51; printed 2-4; Drivetrain / Main axle runout limit",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0.08 mm (0.0032 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-076",
+      "property": "specification",
+      "joint": "Drivetrain / Drive axle runout limit",
+      "value": 0.08,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 51; printed 2-4; Drivetrain / Drive axle runout limit",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0.08 mm (0.0032 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-077",
+      "property": "specification",
+      "joint": "Drivetrain / Secondary reduction ratio",
+      "value": "3.846 (50/13)",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 51; printed 2-4; Drivetrain / Secondary reduction ratio",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "3.846 (50/13)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-078",
+      "property": "specification",
+      "joint": "Drivetrain / Final drive",
+      "value": "Chain",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 51; printed 2-4; Drivetrain / Final drive",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Chain"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-079",
+      "property": "specification",
+      "joint": "Air filter / Air filter element",
+      "value": "Wet element",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 51; printed 2-4; Air filter / Air filter element",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Wet element"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-080",
+      "property": "specification",
+      "joint": "Air filter / Air filter oil grade",
+      "value": "Yamaha foam air filter oil or other quality foam air filter oil",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 51; printed 2-4; Air filter / Air filter oil grade",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Yamaha foam air filter oil or other quality foam air filter oil"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-081",
+      "property": "specification",
+      "joint": "Fuel pump / Maximum consumption amperage",
+      "value": 2.4,
+      "unit": "A",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 51; printed 2-4; Fuel pump / Maximum consumption amperage",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "2.4 A"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-082",
+      "property": "specification",
+      "joint": "Fuel injector / Resistance",
+      "value": 12.0,
+      "unit": "\u03a9",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 51; printed 2-4; Fuel injector / Resistance",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "12.0 \u03a9"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-083",
+      "property": "specification",
+      "joint": "Throttle body / ID mark",
+      "value": "BMF1",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 51; printed 2-4; Throttle body / ID mark",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "BMF1"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-084",
+      "property": "specification",
+      "joint": "Idling condition / Engine idling speed",
+      "value": "1900\u20132100",
+      "unit": "r/min",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Idling-condition table: coolant 70\u201380 \u00b0C and engine idle 1900\u20132100 r/min; fuel pressure is specified at idle."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 51; printed 2-4; Idling condition / Engine idling speed",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "1900\u20132100 r/min"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-085",
+      "property": "specification",
+      "joint": "Idling condition / Coolant temperature",
+      "value": "70\u201380",
+      "unit": "\u00b0C",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Idling-condition table: coolant 70\u201380 \u00b0C and engine idle 1900\u20132100 r/min; fuel pressure is specified at idle."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 51; printed 2-4; Idling condition / Coolant temperature",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "70\u201380 \u00b0C (158\u2013176 \u00b0F)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-086",
+      "property": "specification",
+      "joint": "Idling condition / Fuel line pressure (at idle)",
+      "value": "300\u2013390",
+      "unit": "kPa",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Idling-condition table: coolant 70\u201380 \u00b0C and engine idle 1900\u20132100 r/min; fuel pressure is specified at idle."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 51; printed 2-4; Idling condition / Fuel line pressure (at idle)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "300\u2013390 kPa (3.0\u20133.9 kgf/cm\u00b2, 43.5\u201356.6 psi)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-087",
+      "property": "specification",
+      "joint": "Idling condition / Throttle grip free play",
+      "value": "3.0\u20136.0",
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Idling-condition table: coolant 70\u201380 \u00b0C and engine idle 1900\u20132100 r/min; fuel pressure is specified at idle."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 51; printed 2-4; Idling condition / Throttle grip free play",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "3.0\u20136.0 mm (0.12\u20130.24 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-088",
+      "property": "specification",
+      "joint": "Chassis / Caster angle",
+      "value": 26.9,
+      "unit": "\u00b0",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Chassis / Caster angle",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "26.9 \u00b0"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-089",
+      "property": "specification",
+      "joint": "Chassis / Trail",
+      "value": 119.0,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Chassis / Trail",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "119 mm (4.7 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-090",
+      "property": "specification",
+      "joint": "Front wheel / Wheel type",
+      "value": "Spoke wheel",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Front wheel / Wheel type",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Spoke wheel"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-091",
+      "property": "specification",
+      "joint": "Front wheel / Rim size",
+      "value": "21x1.6",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Front wheel / Rim size",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "21x1.6"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-092",
+      "property": "specification",
+      "joint": "Front wheel / Radial wheel runout limit",
+      "value": 2.0,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Front wheel / Radial wheel runout limit",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "2.0 mm (0.08 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-093",
+      "property": "specification",
+      "joint": "Front wheel / Lateral wheel runout limit",
+      "value": 2.0,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Front wheel / Lateral wheel runout limit",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "2.0 mm (0.08 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-094",
+      "property": "specification",
+      "joint": "Front wheel / Wheel axle bending limit",
+      "value": 0.5,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Front wheel / Wheel axle bending limit",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0.50 mm (0.02 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-095",
+      "property": "specification",
+      "joint": "Rear wheel / Wheel type",
+      "value": "Spoke wheel",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Rear wheel / Wheel type",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Spoke wheel"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-096",
+      "property": "specification",
+      "joint": "Rear wheel / Rim size",
+      "value": "19x2.15",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Rear wheel / Rim size",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "19x2.15"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-097",
+      "property": "specification",
+      "joint": "Rear wheel / Radial wheel runout limit",
+      "value": 2.0,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Rear wheel / Radial wheel runout limit",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "2.0 mm (0.08 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-098",
+      "property": "specification",
+      "joint": "Rear wheel / Lateral wheel runout limit",
+      "value": 2.0,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Rear wheel / Lateral wheel runout limit",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "2.0 mm (0.08 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-099",
+      "property": "specification",
+      "joint": "Rear wheel / Wheel axle bending limit",
+      "value": 0.5,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Rear wheel / Wheel axle bending limit",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0.50 mm (0.02 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-100",
+      "property": "specification",
+      "joint": "Front tire / Type",
+      "value": "With tube",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Front tire / Type",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "With tube"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-101",
+      "property": "specification",
+      "joint": "Front tire / Size",
+      "value": "80/100-21 51M",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Front tire / Size",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "80/100-21 51M"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-102",
+      "property": "specification",
+      "joint": "Front tire / Manufacturer/model",
+      "value": "DUNLOP/MX33F",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Front tire / Manufacturer/model",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "DUNLOP/MX33F"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-103",
+      "property": "specification",
+      "joint": "Rear tire / Type",
+      "value": "With tube",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Rear tire / Type",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "With tube"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-104",
+      "property": "specification",
+      "joint": "Rear tire / Size",
+      "value": "110/90-19 62M",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Rear tire / Size",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "110/90-19 62M"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-105",
+      "property": "specification",
+      "joint": "Rear tire / Manufacturer/model",
+      "value": "DUNLOP/MX33",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Rear tire / Manufacturer/model",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "DUNLOP/MX33"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-106",
+      "property": "specification",
+      "joint": "Tire air pressure (measured on cold tires) / Front",
+      "value": 100.0,
+      "unit": "kPa",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Measure cold tire pressure on the specified stock tires."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Tire air pressure (measured on cold tires) / Front",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "100 kPa (1.00 kgf/cm\u00b2, 15 psi)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-107",
+      "property": "specification",
+      "joint": "Tire air pressure (measured on cold tires) / Rear",
+      "value": 100.0,
+      "unit": "kPa",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Measure cold tire pressure on the specified stock tires."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Tire air pressure (measured on cold tires) / Rear",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "100 kPa (1.00 kgf/cm\u00b2, 15 psi)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-108",
+      "property": "specification",
+      "joint": "Front brake / Type",
+      "value": "Hydraulic single disc brake",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Front brake / Type",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Hydraulic single disc brake"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-109",
+      "property": "specification",
+      "joint": "Front brake / Brake disc thickness limit",
+      "value": 2.5,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Front brake / Brake disc thickness limit",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "2.5 mm (0.10 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-110",
+      "property": "specification",
+      "joint": "Front brake / Brake disc runout limit (as measured on wheel)",
+      "value": 0.15,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Front brake / Brake disc runout limit (as measured on wheel)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0.15 mm (0.0059 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-111",
+      "property": "specification",
+      "joint": "Front brake / Brake pad lining thickness limit",
+      "value": 1.0,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Front brake / Brake pad lining thickness limit",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "1.0 mm (0.04 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-112",
+      "property": "specification",
+      "joint": "Front brake / Master cylinder inside diameter",
+      "value": 9.52,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Front brake / Master cylinder inside diameter",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "9.52 mm (0.37 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-113",
+      "property": "specification",
+      "joint": "Front brake / Caliper cylinder inside diameter (Left)",
+      "value": "25.40 mm, 25.40 mm",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Front brake / Caliper cylinder inside diameter (Left)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "25.40 mm, 25.40 mm (1.00 in, 1.00 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-114",
+      "property": "specification",
+      "joint": "Front brake / Specified brake fluid",
+      "value": "DOT 4",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Front brake / Specified brake fluid",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "DOT 4"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-115",
+      "property": "specification",
+      "joint": "Rear brake / Type",
+      "value": "Hydraulic single disc brake",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Rear brake / Type",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Hydraulic single disc brake"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-116",
+      "property": "specification",
+      "joint": "Rear brake / Brake disc thickness limit",
+      "value": 3.5,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Rear brake / Brake disc thickness limit",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "3.5 mm (0.14 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-117",
+      "property": "specification",
+      "joint": "Rear brake / Brake disc runout limit (as measured on wheel)",
+      "value": 0.15,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Rear brake / Brake disc runout limit (as measured on wheel)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0.15 mm (0.0059 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-118",
+      "property": "specification",
+      "joint": "Rear brake / Brake pad lining thickness limit",
+      "value": 1.0,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Rear brake / Brake pad lining thickness limit",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "1.0 mm (0.04 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-119",
+      "property": "specification",
+      "joint": "Rear brake / Master cylinder inside diameter",
+      "value": 11.0,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Rear brake / Master cylinder inside diameter",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "11.0 mm (0.43 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-120",
+      "property": "specification",
+      "joint": "Rear brake / Caliper cylinder inside diameter",
+      "value": 25.4,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Rear brake / Caliper cylinder inside diameter",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "25.40 mm (1.00 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-121",
+      "property": "specification",
+      "joint": "Rear brake / Specified brake fluid",
+      "value": "DOT 4",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Rear brake / Specified brake fluid",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "DOT 4"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-122",
+      "property": "specification",
+      "joint": "Front suspension / Type",
+      "value": "Telescopic fork",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Front suspension / Type",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Telescopic fork"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-123",
+      "property": "specification",
+      "joint": "Front suspension / Spring",
+      "value": "Coil spring",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 52; printed 2-5; Front suspension / Spring",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Coil spring"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-124",
+      "property": "specification",
+      "joint": "Front suspension / Shock absorber",
+      "value": "Hydraulic damper",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Front suspension / Shock absorber",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Hydraulic damper"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-125",
+      "property": "specification",
+      "joint": "Front suspension / Wheel travel",
+      "value": 310.0,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Front suspension / Wheel travel",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "310 mm (12.2 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-126",
+      "property": "specification",
+      "joint": "Front suspension / Fork spring free length limit",
+      "value": 492.0,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Front suspension / Fork spring free length limit",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "492.0 mm (19.37 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-127",
+      "property": "specification",
+      "joint": "Front suspension / Inner tube bending limit",
+      "value": 0.2,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Front suspension / Inner tube bending limit",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0.2 mm (0.01 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-128",
+      "property": "specification",
+      "joint": "Front suspension / Recommended oil",
+      "value": "Yamaha Suspension Oil S1",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Front suspension / Recommended oil",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Yamaha Suspension Oil S1"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-129",
+      "property": "specification",
+      "joint": "Front suspension / Quantity (left)",
+      "value": 486.0,
+      "unit": "cm\u00b3",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault.",
+        "This is the specification-table quantity for the named fork leg; do not confuse total leg oil with outer-chamber adjustment volume. Consult fill/bleed procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Front suspension / Quantity (left)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "486.0 cm\u00b3 (16.43 US oz, 17.14 Imp.oz)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-130",
+      "property": "specification",
+      "joint": "Front suspension / Quantity (right)",
+      "value": 486.0,
+      "unit": "cm\u00b3",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault.",
+        "This is the specification-table quantity for the named fork leg; do not confuse total leg oil with outer-chamber adjustment volume. Consult fill/bleed procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Front suspension / Quantity (right)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "486.0 cm\u00b3 (16.43 US oz, 17.14 Imp.oz)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-131",
+      "property": "specification",
+      "joint": "Front suspension / Rebound damping / Adjusting system",
+      "value": "Mechanical adjustable type",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Front suspension / Rebound damping / Adjusting system",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Mechanical adjustable type"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-132",
+      "property": "specification",
+      "joint": "Front suspension / Rebound damping / Unit for adjustment",
+      "value": "Click",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Front suspension / Rebound damping / Unit for adjustment",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Click"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-133",
+      "property": "specification",
+      "joint": "Front suspension / Rebound damping / Adjustment value from the start position (Soft)",
+      "value": "20",
+      "unit": "click",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault.",
+        "Adjustment is measured from the OEM start position; Click units. Confirm start-position procedure before adjusting."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Front suspension / Rebound damping / Adjustment value from the start position (Soft)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "20"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-134",
+      "property": "specification",
+      "joint": "Front suspension / Rebound damping / Adjustment value from the start position (STD)",
+      "value": "7",
+      "unit": "click",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault.",
+        "Adjustment is measured from the OEM start position; Click units. Confirm start-position procedure before adjusting."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Front suspension / Rebound damping / Adjustment value from the start position (STD)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "7"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-135",
+      "property": "specification",
+      "joint": "Front suspension / Rebound damping / Adjustment value from the start position (Hard)",
+      "value": "0",
+      "unit": "click",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault.",
+        "Adjustment is measured from the OEM start position; Click units. Confirm start-position procedure before adjusting."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Front suspension / Rebound damping / Adjustment value from the start position (Hard)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-136",
+      "property": "specification",
+      "joint": "Front suspension / Compression damping / Adjusting system",
+      "value": "Mechanical adjustable type",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Front suspension / Compression damping / Adjusting system",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Mechanical adjustable type"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-137",
+      "property": "specification",
+      "joint": "Front suspension / Compression damping / Unit for compression damping adjustment",
+      "value": "Click",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Front suspension / Compression damping / Unit for compression damping adjustment",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Click"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-138",
+      "property": "specification",
+      "joint": "Front suspension / Compression damping / Adjustment value from the start position (Soft)",
+      "value": "20",
+      "unit": "click",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault.",
+        "Adjustment is measured from the OEM start position; Click units. Confirm start-position procedure before adjusting."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Front suspension / Compression damping / Adjustment value from the start position (Soft)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "20"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-139",
+      "property": "specification",
+      "joint": "Front suspension / Compression damping / Adjustment value from the start position (STD)",
+      "value": "10",
+      "unit": "click",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault.",
+        "Adjustment is measured from the OEM start position; Click units. Confirm start-position procedure before adjusting."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Front suspension / Compression damping / Adjustment value from the start position (STD)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "10"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-140",
+      "property": "specification",
+      "joint": "Front suspension / Compression damping / Adjustment value from the start position (Hard)",
+      "value": "0",
+      "unit": "click",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault.",
+        "Adjustment is measured from the OEM start position; Click units. Confirm start-position procedure before adjusting."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Front suspension / Compression damping / Adjustment value from the start position (Hard)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-141",
+      "property": "specification",
+      "joint": "Rear suspension / Type",
+      "value": "Swingarm (link suspension)",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Rear suspension / Type",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Swingarm (link suspension)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-142",
+      "property": "specification",
+      "joint": "Rear suspension / Spring",
+      "value": "Coil spring",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Rear suspension / Spring",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Coil spring"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-143",
+      "property": "specification",
+      "joint": "Rear suspension / Shock absorber",
+      "value": "Gas-hydraulic damper",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Rear suspension / Shock absorber",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Gas-hydraulic damper"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-144",
+      "property": "specification",
+      "joint": "Rear suspension / Wheel travel",
+      "value": 313.0,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Rear suspension / Wheel travel",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "313 mm (12.3 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-145",
+      "property": "specification",
+      "joint": "Rear suspension / Spring preload / Adjusting system",
+      "value": "Mechanical adjustable type",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Rear suspension / Spring preload / Adjusting system",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Mechanical adjustable type"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-146",
+      "property": "specification",
+      "joint": "Rear suspension / Spring preload / Adjustment value (Soft)",
+      "value": 1.5,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Rear suspension / Spring preload / Adjustment value (Soft)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "1.5 mm (0.06 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-147",
+      "property": "specification",
+      "joint": "Rear suspension / Spring preload / Adjustment value (STD)",
+      "value": 5.0,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Rear suspension / Spring preload / Adjustment value (STD)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "5.0 mm (0.20 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-148",
+      "property": "specification",
+      "joint": "Rear suspension / Spring preload / Adjustment value (Hard)",
+      "value": 18.0,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Rear suspension / Spring preload / Adjustment value (Hard)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "18.0 mm (0.71 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-149",
+      "property": "specification",
+      "joint": "Rear suspension / Rebound damping / Adjusting system",
+      "value": "Mechanical adjustable type",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Rear suspension / Rebound damping / Adjusting system",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Mechanical adjustable type"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-150",
+      "property": "specification",
+      "joint": "Rear suspension / Rebound damping / Unit for adjustment",
+      "value": "Click",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Rear suspension / Rebound damping / Unit for adjustment",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Click"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-151",
+      "property": "specification",
+      "joint": "Rear suspension / Rebound damping / Adjustment value from the start position (Soft)",
+      "value": "30",
+      "unit": "click",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault.",
+        "Adjustment is measured from the OEM start position; Click units. Confirm start-position procedure before adjusting."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Rear suspension / Rebound damping / Adjustment value from the start position (Soft)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "30"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-152",
+      "property": "specification",
+      "joint": "Rear suspension / Rebound damping / Adjustment value from the start position (STD)",
+      "value": "10",
+      "unit": "click",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault.",
+        "Adjustment is measured from the OEM start position; Click units. Confirm start-position procedure before adjusting."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Rear suspension / Rebound damping / Adjustment value from the start position (STD)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "10"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-153",
+      "property": "specification",
+      "joint": "Rear suspension / Rebound damping / Adjustment value from the start position (Hard)",
+      "value": "0",
+      "unit": "click",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault.",
+        "Adjustment is measured from the OEM start position; Click units. Confirm start-position procedure before adjusting."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Rear suspension / Rebound damping / Adjustment value from the start position (Hard)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-154",
+      "property": "specification",
+      "joint": "Rear suspension / Compression damping / Adjusting system",
+      "value": "Mechanical adjustable type",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Rear suspension / Compression damping / Adjusting system",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Mechanical adjustable type"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-155",
+      "property": "specification",
+      "joint": "Rear suspension / Fast compression damping / Unit for adjustment",
+      "value": "Turn",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Rear suspension / Fast compression damping / Unit for adjustment",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Turn"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-156",
+      "property": "specification",
+      "joint": "Rear suspension / Fast compression damping / Adjustment value from the start position (Soft)",
+      "value": "2",
+      "unit": "turn",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault.",
+        "Adjustment is measured from the OEM start position; Turn units. Confirm start-position procedure before adjusting."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Rear suspension / Fast compression damping / Adjustment value from the start position (Soft)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "2"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-157",
+      "property": "specification",
+      "joint": "Rear suspension / Fast compression damping / Adjustment value from the start position (STD)",
+      "value": "1+1/4",
+      "unit": "turn",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault.",
+        "Adjustment is measured from the OEM start position; Turn units. Confirm start-position procedure before adjusting."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 53; printed 2-6; Rear suspension / Fast compression damping / Adjustment value from the start position (STD)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "1+1/4"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-158",
+      "property": "specification",
+      "joint": "Rear suspension / Fast compression damping / Adjustment value from the start position (Hard)",
+      "value": "0",
+      "unit": "turn",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault.",
+        "Adjustment is measured from the OEM start position; Turn units. Confirm start-position procedure before adjusting."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 54; printed 2-7; Rear suspension / Fast compression damping / Adjustment value from the start position (Hard)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-159",
+      "property": "specification",
+      "joint": "Rear suspension / Slow compression damping / Unit for adjustment",
+      "value": "Click",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 54; printed 2-7; Rear suspension / Slow compression damping / Unit for adjustment",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Click"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-160",
+      "property": "specification",
+      "joint": "Rear suspension / Slow compression damping / Adjustment value from the start position (Soft)",
+      "value": "20",
+      "unit": "click",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault.",
+        "Adjustment is measured from the OEM start position; Click units. Confirm start-position procedure before adjusting."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 54; printed 2-7; Rear suspension / Slow compression damping / Adjustment value from the start position (Soft)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "20"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-161",
+      "property": "specification",
+      "joint": "Rear suspension / Slow compression damping / Adjustment value from the start position (STD)",
+      "value": "10",
+      "unit": "click",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault.",
+        "Adjustment is measured from the OEM start position; Click units. Confirm start-position procedure before adjusting."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 54; printed 2-7; Rear suspension / Slow compression damping / Adjustment value from the start position (STD)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "10"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-162",
+      "property": "specification",
+      "joint": "Rear suspension / Slow compression damping / Adjustment value from the start position (Hard)",
+      "value": "0",
+      "unit": "click",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault.",
+        "Adjustment is measured from the OEM start position; Click units. Confirm start-position procedure before adjusting."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 54; printed 2-7; Rear suspension / Slow compression damping / Adjustment value from the start position (Hard)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "0"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-163",
+      "property": "specification",
+      "joint": "Drive chain / Size",
+      "value": "520",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 54; printed 2-7; Drive chain / Size",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "520"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-164",
+      "property": "specification",
+      "joint": "Drive chain / Chain type",
+      "value": "Non-sealed type",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 54; printed 2-7; Drive chain / Chain type",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "Non-sealed type"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-165",
+      "property": "specification",
+      "joint": "Drive chain / Number of links",
+      "value": "114",
+      "unit": null,
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 54; printed 2-7; Drive chain / Number of links",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "114"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-166",
+      "property": "specification",
+      "joint": "Drive chain / Drive chain slack (Maintenance Stand)",
+      "value": "50.0\u201360.0",
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Drive chain slack is specified with motorcycle on maintenance stand; preserve OEM measurement location."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 54; printed 2-7; Drive chain / Drive chain slack (Maintenance Stand)",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "50.0\u201360.0 mm (1.97\u20132.36 in)"
+    },
+    {
+      "id": "yamaha-2024-yz250f-spec-167",
+      "property": "specification",
+      "joint": "Drive chain / 15-link length limit",
+      "value": 242.9,
+      "unit": "mm",
+      "conditions": [
+        "Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+        "Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "locator": "PDF page 54; printed 2-7; Drive chain / 15-link length limit",
+      "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+      "review_status": "APPROVED",
+      "review_note": "Six engine/chassis specification pages rendered and visually reviewed; contextual labels, range versus limit, cold/idle/stand conditions and OEM component scope preserved.",
+      "raw_value": "242.9 mm (9.56 in)"
+    }
+  ],
+  "assemblies": [],
+  "parts": [],
+  "mappings": [],
+  "catalog_complete": false,
+  "gaps": [
+    "Selected specification section only; complete part mapping and remaining service procedures still required."
+  ],
+  "source_section": {
+    "pdf_pages": [
+      49,
+      54
+    ],
+    "expected_rows": 167,
+    "extracted_rows": 167,
+    "enumeration_checked": true
+  }
+}

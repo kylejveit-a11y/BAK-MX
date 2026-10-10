@@ -1,0 +1,384 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2026-yz450f-transmission-bench-v1",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Rebuild the stock transmission on the bench",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete bounded bench operation from the declared entry state to the declared exit state. Whole-bike access and downstream engine closure are separate dependencies.",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      7,
+      56,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291,
+      292
+    ],
+    "review_status": "APPROVED",
+    "review_note": "All cited operation pages visually reviewed. General symbols and conditional torque rules retained.",
+    "printed_pages": [
+      "Symbols (unnumbered)",
+      "2-9",
+      "5-83",
+      "5-84",
+      "5-85",
+      "5-86",
+      "5-87",
+      "5-88",
+      "5-89"
+    ]
+  },
+  "applicability": {
+    "included": "Exact US2026 YZ450F standard stock components only",
+    "excluded": [
+      "Case separation and closure",
+      "Engine removal/refit",
+      "Aftermarket ratios or components"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "affected_components": [
+    "engine",
+    "transmission"
+  ],
+  "required_tools": [
+    {
+      "name": "Centering device, shaft supports and dial indicator accurate for0.08mm"
+    },
+    {
+      "name": "Flat inspection surface, soft hammer, circlip pliers, labeled trays"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "New shaft circlips and drive-axle O-ring"
+    },
+    {
+      "name": "Engine oil, molybdenum-disulfide oil, lithium-soap grease"
+    },
+    {
+      "name": "Exact stock replacement gears/forks/bars/drum/shafts as inspection requires"
+    }
+  ],
+  "preflight": [
+    "Engine removed; right crankcase already separated under the case-opening operation.",
+    "Stock shafts/gears/forks identified; original positions retained."
+  ],
+  "entry_state": [
+    "Engine removed; right crankcase already separated under the case-opening operation.",
+    "Stock shafts/gears/forks identified; original positions retained."
+  ],
+  "exit_state": [
+    "Transmission installed in left case and function checked; right case remains open."
+  ],
+  "critical_stop_conditions": [
+    "Any required measurement unresolved or replacement criteria not satisfied.",
+    "Unidentified diagram orientation, missing parts, damage or abnormal binding."
+  ],
+  "material_policy": {
+    "LT": "Locking agent (LOCTITE) per PDF7. Grade unspecified by this manual; no grade inferred.",
+    "lubrication": "Follow each explicit E/M/LS/S application; general dry torque does not override a lubricated joint."
+  },
+  "steps": [
+    {
+      "id": "entry",
+      "title": "Confirm the exposed transmission",
+      "instruction": "Start with the engine on the bench, right crankcase separated and both shaft assemblies exposed in the left case. Preserve the installed collar until the two shafts can be removed together. Record existing fork positions and direction.",
+      "source_pdf_pages": [
+        286,
+        287,
+        288,
+        289
+      ],
+      "verification": [
+        "Case-open entry state confirmed; positions recorded."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=286",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=287",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=288",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=289"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": []
+    },
+    {
+      "id": "remove",
+      "title": "Lift out the gear train",
+      "instruction": "Withdraw the long and short fork guide bars and retain all four end springs. Lift out the drum and forks, labeled3(R),2(C),1(L). Remove main and drive axles together; lightly tap the drive axle with a soft hammer if needed. Keep the collar in place during removal, then retain it separately.",
+      "source_pdf_pages": [
+        287,
+        288,
+        289
+      ],
+      "verification": [
+        "Two shafts, three identified forks, drum, two bars, four springs and collar accounted for."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=287",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=288",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=289"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "entry"
+      ]
+    },
+    {
+      "id": "strip",
+      "title": "Lay out both shaft stacks",
+      "instruction": "Remove each shaft gear, collar, washer and circlip into an ordered tray using the two exploded stacks. Preserve every washer face and circlip location. Removed circlips are replaced at assembly; do not substitute a remembered generic gearbox order.",
+      "source_pdf_pages": [
+        286,
+        290,
+        291
+      ],
+      "verification": [
+        "Both original stack orders recorded; new circlips obtained."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=286",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=290",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=291"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "remove"
+      ]
+    },
+    {
+      "id": "fork-check",
+      "title": "Inspect forks, bars and drum",
+      "instruction": "Check fork followers and pawls for bends, scoring, damage or wear; replace defective forks. Roll each guide bar on a flat surface and replace a bent bar without straightening it. Check fork sliding movement; rough movement requires forks and guide bars as a set. Replace a drum assembly with worn/damaged grooves or segment.",
+      "source_pdf_pages": [
+        289
+      ],
+      "verification": [
+        "Fork, bar and drum results and any replacement decisions recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=289"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "strip"
+      ]
+    },
+    {
+      "id": "shaft-check",
+      "title": "Measure both shaft runouts",
+      "instruction": "Support the main axle in a centering device and measure with a dial indicator at the illustrated point. Check the drive axle on the illustrated supports in the same way. Limit is0.08mm for either shaft. Replace an out-of-limit axle.",
+      "source_pdf_pages": [
+        289,
+        290
+      ],
+      "verification": [
+        "Main axle runout in mm saved.",
+        "Drive axle runout in mm saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=289",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=290"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "fork-check"
+      ]
+    },
+    {
+      "id": "gear-check",
+      "title": "Assess each gear and dog",
+      "instruction": "Inspect every gear for blue heat discoloration, pitting and wear, and each dog for cracks, damage or rounded edges. Replace defective gears. Check sliding movement and replace gears that remain rough. Record the inspected part and decision before rebuilding.",
+      "source_pdf_pages": [
+        290
+      ],
+      "verification": [
+        "Gear-by-gear assessment and replacement list saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=290"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "shaft-check"
+      ]
+    },
+    {
+      "id": "main-stack",
+      "title": "Build the main axle",
+      "instruction": "Fit fourth pinion22T, third pinion20T, collar, fifth pinion21T and second pinion16T in the illustrated order, including every intervening washer/circlip. Apply molybdenum-disulfide oil to idler-gear inner/end faces and sliding-gear inner faces. Use the exploded stack for all shoulder orientations.",
+      "source_pdf_pages": [
+        286,
+        290
+      ],
+      "verification": [
+        "Main axle stack, tooth counts, washers and lubrication verified."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=286",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=290"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "gear-check"
+      ]
+    },
+    {
+      "id": "drive-stack",
+      "title": "Build the drive axle",
+      "instruction": "Fit collar, second wheel26T, fifth wheel21T, third wheel27T, fourth wheel25T, collar, first wheel28T and a new O-ring in the illustrated stack with its washers/circlips. Apply molybdenum-disulfide oil to idler gear/collar inner and end faces and sliding-gear inner faces. Lubricate the new O-ring with lithium-soap grease.",
+      "source_pdf_pages": [
+        286,
+        290
+      ],
+      "verification": [
+        "Drive axle stack, tooth counts, washers, new O-ring and lubrication verified."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=286",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=290"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "main-stack"
+      ]
+    },
+    {
+      "id": "clips",
+      "title": "Verify each new circlip",
+      "instruction": "Install the washers and new circlips at their exact diagram positions. The sharp-edged corner faces away from the adjacent washer/gear. Position both open ends evenly on spline crests and confirm full groove seating; inspect each location separately.",
+      "source_pdf_pages": [
+        290,
+        291
+      ],
+      "verification": [
+        "Every circlip new, seated and correctly oriented."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=290",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=291"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "drive-stack"
+      ]
+    },
+    {
+      "id": "shafts-install",
+      "title": "Return both shafts together",
+      "instruction": "Grease the case oil-seal lip with lithium-soap grease and fit the collar without rolling the lip. Oil both shaft bearings. Install the main and drive axles simultaneously into the left crankcase.",
+      "source_pdf_pages": [
+        291
+      ],
+      "verification": [
+        "Collar lip undamaged; both shafts seated together."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=291"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "clips"
+      ]
+    },
+    {
+      "id": "forks-install",
+      "title": "Engage the three forks and drum",
+      "instruction": "Oil fork grooves, drum grooves and drum bearing contact surfaces. Fork1(L) engages fifth wheel gear on the drive axle; fork3(R) engages fourth wheel gear on that axle. Fork2(C) engages third pinion on the main axle. Engage the drum as illustrated.",
+      "source_pdf_pages": [
+        291,
+        292
+      ],
+      "verification": [
+        "L/C/R forks matched to correct gears and drum tracks."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=291",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=292"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "shafts-install"
+      ]
+    },
+    {
+      "id": "bars-install",
+      "title": "Install the bars and four springs",
+      "instruction": "Lightly screw each spring into its guide-bar end beforehand. Oil the bars; install the long and short bars in the illustrated locations with all four springs retained.",
+      "source_pdf_pages": [
+        287,
+        292
+      ],
+      "verification": [
+        "Two correct bars and all four springs installed."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=287",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=292"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "forks-install"
+      ]
+    },
+    {
+      "id": "function",
+      "title": "Check transmission movement before case closure",
+      "instruction": "Turn the shafts by hand while operating the drum through the gear selections. Confirm smooth drum, fork and transmission movement. Correct any binding before case closure; do not mark the engine assembled at this bench checkpoint.",
+      "source_pdf_pages": [
+        292
+      ],
+      "verification": [
+        "Selection and rotation observations saved; smooth operation confirmed."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=292"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "bars-install"
+      ]
+    }
+  ],
+  "reviewed_at": "2026-09-13",
+  "runtime_integration_requirement": "Enforce entry state and record_required. Completion certifies this bounded operation only; no automatic completion of upstream/downstream work."
+}

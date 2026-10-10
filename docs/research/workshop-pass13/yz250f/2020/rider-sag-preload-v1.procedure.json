@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2020-yz250f-rider-sag-preload-v1",
+  "title": "Measure rider sag",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ250F",
+    "model_year": 2020,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "publication_status": "APPROVED",
+  "component": "shock",
+  "affected_components": [
+    "shock",
+    "suspension"
+  ],
+  "applicability": {
+    "included": "Exact standard US 2020 Yamaha YZ250F with original stock suspension.",
+    "excluded": [
+      "Other years, modified valving, replacement shock/fork assemblies or springs",
+      "Preload adjustment requiring rear-frame removal",
+      "Spring replacement"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "entry_state": [
+    "Assembled bike with identified original components and serviceable suspension."
+  ],
+  "exit_state": [
+    "Rider sag measured and assessed; preload rings, rear frame and springs remain unchanged."
+  ],
+  "preflight": [
+    "Use the exact-year diagrams to identify the adjusters and measurement points.",
+    "Record current setup before changing it; do not force an adjuster past its stop."
+  ],
+  "critical_stop_conditions": [
+    "Unidentified component or adjuster; leaks, damage or binding; target setting cannot be reached within actual travel."
+  ],
+  "required_tools": [
+    {
+      "name": "Stable maintenance stand"
+    },
+    {
+      "name": "Millimeter tape or sag gauge"
+    },
+    {
+      "name": "Helper"
+    }
+  ],
+  "required_parts": [],
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf",
+    "document_sha256": "0a680d50262a0cab7323e3b97bf0565d358a726852610ee41ed48d747a4cd054",
+    "document_revision": "B7B-28199-11",
+    "pdf_pages": [
+      1,
+      4,
+      105,
+      106,
+      352
+    ],
+    "printed_pages": [
+      "1: front matter",
+      "4: front matter",
+      "105: 3-29",
+      "106: 3-30",
+      "352: 10-3"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Root independent review approved exact-year settings and diagrams; assembled preload access prerequisite preserved. Physical validation remains outstanding."
+  },
+  "steps": [
+    {
+      "id": "inspect",
+      "title": "Prepare the measurement",
+      "instruction": "Check the shock for leaks and verify smooth suspension/linkage movement. Use level ground and a helper to stabilize the bike and take consistent readings.",
+      "source_pdf_pages": [
+        105
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=105"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Save the actual measurements or setting and outcome."
+      ],
+      "depends_on": []
+    },
+    {
+      "id": "unloaded",
+      "title": "Measure the unloaded bike",
+      "instruction": "Support the bike under the engine so the rear wheel is off the floor. Measure A from the rear axle center to the rear-fender holding bolt. Use the illustrated points and record the actual millimeters.",
+      "source_pdf_pages": [
+        352
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=352"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Save the actual measurements or setting and outcome."
+      ],
+      "depends_on": [
+        "inspect"
+      ]
+    },
+    {
+      "id": "loaded",
+      "title": "Measure with the rider",
+      "instruction": "Remove the stand and have the rider sit astride the seat as shown. With the bike held upright, measure B between the same axle center and the rear-fender holding bolt. Record the actual millimeters.",
+      "source_pdf_pages": [
+        352
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=352"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Save the actual measurements or setting and outcome."
+      ],
+      "depends_on": [
+        "unloaded"
+      ]
+    },
+    {
+      "id": "assess",
+      "title": "Calculate rider sag",
+      "instruction": "Subtract B from A. The standard difference is 90–100 mm. Record both measurements, the difference and whether it is in range.",
+      "source_pdf_pages": [
+        352
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=352"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Save the actual measurements or setting and outcome."
+      ],
+      "depends_on": [
+        "loaded"
+      ]
+    },
+    {
+      "id": "finish",
+      "title": "Save the result",
+      "instruction": "Dismount and support the bike securely. Save the result and any needed follow-up. This operation measures sag only. Preload adjustment on this year requires rear-frame removal/refitting; arrange that complete service before altering the rings. Do not mark an out-of-range reading as an adjusted setup.",
+      "source_pdf_pages": [
+        105,
+        106,
+        352
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=105",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=106",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf#page=352"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Save the actual measurements or setting and outcome."
+      ],
+      "depends_on": [
+        "assess"
+      ]
+    }
+  ],
+  "operation_dependencies": [],
+  "completeness": "Rider sag measured and assessed; preload rings, rear frame and springs remain unchanged."
+}

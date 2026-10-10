@@ -1,0 +1,540 @@
+{
+  "source_sha256": "9a8605e26301ba1d0d1d21e93d23cca721bdcdbece6188775626a8819332aa9f",
+  "template_sha256": "03bc4efc8716d92f28af1e88ed84cc79620432324ff0461283538443c4712997",
+  "steps": [
+    {
+      "step_id": "entry",
+      "source_pdf_pages": [
+        85,
+        213
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "cover",
+      "source_pdf_pages": [
+        91,
+        206
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "timing-access",
+      "source_pdf_pages": [
+        85,
+        207
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "tdc",
+      "source_pdf_pages": [
+        85,
+        208
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "clearances-before",
+      "source_pdf_pages": [
+        85
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "tensioner-out",
+      "source_pdf_pages": [
+        207,
+        208
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "cams-out",
+      "source_pdf_pages": [
+        208
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "tensioner-check",
+      "source_pdf_pages": [
+        210
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "head-out",
+      "source_pdf_pages": [
+        214,
+        215
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "head-condition",
+      "source_pdf_pages": [
+        215
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "cylinder-out",
+      "source_pdf_pages": [
+        226,
+        230
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "piston-out",
+      "source_pdf_pages": [
+        227
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "bore",
+      "source_pdf_pages": [
+        227
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "piston-fit",
+      "source_pdf_pages": [
+        228
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "ring-side",
+      "source_pdf_pages": [
+        228
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "ring-end",
+      "source_pdf_pages": [
+        228,
+        229
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "pin-fit",
+      "source_pdf_pages": [
+        48,
+        229
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "parts-accepted",
+      "source_pdf_pages": [
+        48,
+        227,
+        228,
+        229
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "lifters-out",
+      "source_pdf_pages": [
+        220
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "sealing-before",
+      "source_pdf_pages": [
+        220
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "valves-out",
+      "source_pdf_pages": [
+        220,
+        221
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "valve-guide-fit",
+      "source_pdf_pages": [
+        48,
+        221,
+        222
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "seats",
+      "source_pdf_pages": [
+        222
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "springs-lifters",
+      "source_pdf_pages": [
+        223,
+        224
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "head-path",
+      "source_pdf_pages": [
+        221,
+        222,
+        223,
+        224
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "guides-prepare",
+      "source_pdf_pages": [
+        221,
+        222,
+        223
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "guides-out",
+      "source_pdf_pages": [
+        221,
+        222
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "guides-in",
+      "source_pdf_pages": [
+        221,
+        222
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "guides-ream",
+      "source_pdf_pages": [
+        48,
+        221,
+        222
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "seats-reface",
+      "source_pdf_pages": [
+        221,
+        223
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "lap-coarse",
+      "source_pdf_pages": [
+        223
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "lap-fine",
+      "source_pdf_pages": [
+        222,
+        223
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "running-valves",
+      "source_pdf_pages": [
+        222,
+        223
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "valves-in",
+      "source_pdf_pages": [
+        224
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "cotters",
+      "source_pdf_pages": [
+        224,
+        225
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "sealing-final",
+      "source_pdf_pages": [
+        220,
+        222,
+        223
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "pads-return",
+      "source_pdf_pages": [
+        225
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "cam-lobes",
+      "source_pdf_pages": [
+        209
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "cam-clearance",
+      "source_pdf_pages": [
+        209
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "cam-disposition",
+      "source_pdf_pages": [
+        209,
+        210
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "rings-in",
+      "source_pdf_pages": [
+        229
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "piston-in",
+      "source_pdf_pages": [
+        229,
+        230
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "ring-clock",
+      "source_pdf_pages": [
+        230
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "cylinder-in",
+      "source_pdf_pages": [
+        226,
+        230
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "head-in",
+      "source_pdf_pages": [
+        215,
+        216
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "head-bolt-prep",
+      "source_pdf_pages": [
+        216
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "head-first",
+      "source_pdf_pages": [
+        216
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "head-second",
+      "source_pdf_pages": [
+        216,
+        217
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "head-final",
+      "source_pdf_pages": [
+        8,
+        216,
+        217
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "first-cams",
+      "source_pdf_pages": [
+        210,
+        211
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "first-caps",
+      "source_pdf_pages": [
+        207,
+        211
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "first-tensioner",
+      "source_pdf_pages": [
+        207,
+        211,
+        212
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "first-timing",
+      "source_pdf_pages": [
+        211,
+        212
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "first-measure",
+      "source_pdf_pages": [
+        85,
+        87
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "adjust-path",
+      "source_pdf_pages": [
+        85,
+        86,
+        87
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "adjust-cams-out",
+      "source_pdf_pages": [
+        86,
+        207,
+        208
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "adjust-select",
+      "source_pdf_pages": [
+        86,
+        88,
+        89
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "adjust-pads-in",
+      "source_pdf_pages": [
+        86,
+        87
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "adjust-cams",
+      "source_pdf_pages": [
+        210,
+        211
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "adjust-caps",
+      "source_pdf_pages": [
+        207,
+        211
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "adjust-tensioner",
+      "source_pdf_pages": [
+        207,
+        211,
+        212
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "adjust-timing",
+      "source_pdf_pages": [
+        211,
+        212
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "adjust-measure",
+      "source_pdf_pages": [
+        85,
+        87
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "adjust-accept",
+      "source_pdf_pages": [
+        87
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "cover-in",
+      "source_pdf_pages": [
+        206,
+        212
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "ports-close",
+      "source_pdf_pages": [
+        91,
+        207,
+        212
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    },
+    {
+      "step_id": "exit",
+      "source_pdf_pages": [
+        85,
+        87,
+        212,
+        217,
+        223,
+        230
+      ],
+      "review": "Exact2023 complete step text and source diagram reviewed; retained numeric/preparation/sequence supported by BHR10, not copied applicability."
+    }
+  ]
+}

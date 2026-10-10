@@ -1,0 +1,46 @@
+{
+  "target": {
+    "manufacturer": "Husqvarna",
+    "model": "FC 250",
+    "model_year": 2022,
+    "variant": "standard",
+    "region": "US"
+  },
+  "selector_url": "https://www.husqvarna-motorcycles.com/en-us/service/user-manuals.html",
+  "query_url": "https://www.husqvarna-motorcycles.com/en-us/service/user-manuals/_jcr_content/root/responsivegrid_1_col/bikemanuals.manuals.json?modelName=FC+250+2022",
+  "english_results": [
+    {
+      "modelName": "FC 250 2022",
+      "title": "FC 250 2022 EU (en) - 2022",
+      "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3402532_en_OM.pdf"
+    },
+    {
+      "modelName": "FC 250 2022",
+      "title": "FC 250 2022 US (en) - 2022",
+      "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3402532_en_OM.pdf"
+    }
+  ],
+  "selected": {
+    "modelName": "FC 250 2022",
+    "title": "FC 250 2022 US (en) - 2022",
+    "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3402532_en_OM.pdf"
+  },
+  "scope_confirmed_by_selector": true,
+  "review_status": "PENDING",
+  "document_sha256": "08b00f0b8ef2d728d21d5d028b69e5439c6af3487c0bd972ac593332765b4495",
+  "bytes": 10194067,
+  "temporary_pdf": "/tmp/hq-manuals/fc-250-2022.pdf",
+  "temporary_text": "/tmp/hq-manuals/fc-250-2022.txt",
+  "scope_page": 3,
+  "scope_excerpt": "This document is valid for the following models:\nFC 250 EU (F2101V1)\nFC 250 US (F2175V1)\n*3402532en*\n3402532en\n04/2021",
+  "document_revision": "04/2021",
+  "document_article": "3402532en",
+  "torque_table_pdf_pages": [
+    132,
+    133,
+    134,
+    137,
+    138,
+    139
+  ]
+}

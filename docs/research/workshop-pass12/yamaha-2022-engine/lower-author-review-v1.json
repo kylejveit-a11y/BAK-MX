@@ -1,0 +1,429 @@
+{
+  "schema_version": 1,
+  "status": "AUTHOR_SOURCE_REVIEWED",
+  "source_sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608",
+  "template_usage": "Schema only; new 2022 mechanical sequence, no inherited later-year instructions.",
+  "step_review": [
+    {
+      "step_id": "entry",
+      "source_pdf_pages": [
+        21,
+        223,
+        232,
+        249
+      ]
+    },
+    {
+      "step_id": "generator-cover-out",
+      "source_pdf_pages": [
+        223,
+        224
+      ]
+    },
+    {
+      "step_id": "clutch-out",
+      "source_pdf_pages": [
+        232,
+        233,
+        239
+      ]
+    },
+    {
+      "step_id": "boss-out",
+      "source_pdf_pages": [
+        232,
+        233,
+        235
+      ]
+    },
+    {
+      "step_id": "right-cover-out",
+      "source_pdf_pages": [
+        90,
+        234
+      ]
+    },
+    {
+      "step_id": "starter-out",
+      "source_pdf_pages": [
+        226,
+        227
+      ]
+    },
+    {
+      "step_id": "shift-out",
+      "source_pdf_pages": [
+        240,
+        241,
+        242
+      ]
+    },
+    {
+      "step_id": "drive-out",
+      "source_pdf_pages": [
+        245,
+        246
+      ]
+    },
+    {
+      "step_id": "pump-out",
+      "source_pdf_pages": [
+        244,
+        246
+      ]
+    },
+    {
+      "step_id": "chain-out",
+      "source_pdf_pages": [
+        249,
+        251,
+        254
+      ]
+    },
+    {
+      "step_id": "cases-open",
+      "source_pdf_pages": [
+        249,
+        251
+      ]
+    },
+    {
+      "step_id": "transmission-out",
+      "source_pdf_pages": [
+        256,
+        257
+      ]
+    },
+    {
+      "step_id": "crank-out",
+      "source_pdf_pages": [
+        253,
+        254
+      ]
+    },
+    {
+      "step_id": "case-clean",
+      "source_pdf_pages": [
+        21,
+        22,
+        250,
+        251
+      ]
+    },
+    {
+      "step_id": "bearings",
+      "source_pdf_pages": [
+        21,
+        22,
+        250,
+        251,
+        252
+      ]
+    },
+    {
+      "step_id": "case-seals",
+      "source_pdf_pages": [
+        21,
+        22,
+        250,
+        252
+      ]
+    },
+    {
+      "step_id": "crank-check",
+      "source_pdf_pages": [
+        254
+      ]
+    },
+    {
+      "step_id": "gearbox-check",
+      "source_pdf_pages": [
+        257,
+        258
+      ]
+    },
+    {
+      "step_id": "main-build",
+      "source_pdf_pages": [
+        22,
+        256,
+        258,
+        259
+      ]
+    },
+    {
+      "step_id": "drive-build",
+      "source_pdf_pages": [
+        22,
+        256,
+        258,
+        259
+      ]
+    },
+    {
+      "step_id": "crank-in",
+      "source_pdf_pages": [
+        253,
+        254,
+        255
+      ]
+    },
+    {
+      "step_id": "transmission-in",
+      "source_pdf_pages": [
+        256,
+        259,
+        260
+      ]
+    },
+    {
+      "step_id": "shift-bars-in",
+      "source_pdf_pages": [
+        256,
+        260
+      ]
+    },
+    {
+      "step_id": "cases-close",
+      "source_pdf_pages": [
+        249,
+        252
+      ]
+    },
+    {
+      "step_id": "chain-in",
+      "source_pdf_pages": [
+        249,
+        251,
+        254
+      ]
+    },
+    {
+      "step_id": "pump-build",
+      "source_pdf_pages": [
+        244,
+        246,
+        247
+      ]
+    },
+    {
+      "step_id": "drives-check",
+      "source_pdf_pages": [
+        236,
+        246
+      ]
+    },
+    {
+      "step_id": "balance-marks",
+      "source_pdf_pages": [
+        247
+      ]
+    },
+    {
+      "step_id": "drive-nuts",
+      "source_pdf_pages": [
+        22,
+        245,
+        248
+      ]
+    },
+    {
+      "step_id": "shift-restore",
+      "source_pdf_pages": [
+        240,
+        241,
+        242
+      ]
+    },
+    {
+      "step_id": "shift-shaft",
+      "source_pdf_pages": [
+        21,
+        22,
+        240,
+        242,
+        243
+      ]
+    },
+    {
+      "step_id": "starter-check",
+      "source_pdf_pages": [
+        21,
+        226,
+        227
+      ]
+    },
+    {
+      "step_id": "release-inspect",
+      "source_pdf_pages": [
+        235,
+        236,
+        237
+      ]
+    },
+    {
+      "step_id": "release-seal",
+      "source_pdf_pages": [
+        22,
+        234,
+        236,
+        237
+      ]
+    },
+    {
+      "step_id": "right-cover-in",
+      "source_pdf_pages": [
+        234,
+        237
+      ]
+    },
+    {
+      "step_id": "pipe-filter",
+      "source_pdf_pages": [
+        90,
+        234
+      ]
+    },
+    {
+      "step_id": "clutch-inspect",
+      "source_pdf_pages": [
+        235,
+        236
+      ]
+    },
+    {
+      "step_id": "clutch-base",
+      "source_pdf_pages": [
+        232,
+        233,
+        237
+      ]
+    },
+    {
+      "step_id": "clutch-nut",
+      "source_pdf_pages": [
+        232,
+        238
+      ]
+    },
+    {
+      "step_id": "clutch-pack",
+      "source_pdf_pages": [
+        232,
+        238
+      ]
+    },
+    {
+      "step_id": "pressure-plate",
+      "source_pdf_pages": [
+        22,
+        232,
+        238,
+        239
+      ]
+    },
+    {
+      "step_id": "clutch-cover",
+      "source_pdf_pages": [
+        232,
+        239
+      ]
+    },
+    {
+      "step_id": "rotor-in",
+      "source_pdf_pages": [
+        223,
+        224,
+        225
+      ]
+    },
+    {
+      "step_id": "generator-cover-in",
+      "source_pdf_pages": [
+        223,
+        225
+      ]
+    },
+    {
+      "step_id": "exit",
+      "source_pdf_pages": [
+        249,
+        252,
+        260
+      ]
+    }
+  ],
+  "text_pages": [
+    223,
+    224,
+    225,
+    226,
+    227,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    21,
+    22,
+    54,
+    55,
+    56,
+    57,
+    90
+  ],
+  "visual_pages": [
+    223,
+    225,
+    226,
+    227,
+    232,
+    233,
+    234,
+    237,
+    238,
+    240,
+    245,
+    247,
+    248,
+    249,
+    250,
+    252,
+    254,
+    255,
+    256,
+    258,
+    259,
+    260
+  ],
+  "differences": [
+    "2022 coil-spring clutch, 75 Nm oil/new lockwasher; primary80 Nm oil/new conical washer; balance nuts50/45.",
+    "Case bolts12 Nm with distinct 45/60/75 mm map and1215; crank bearing retainers22 LT; drive seal0–0.5 mm.",
+    "Distinct actual gearbox stacks; no later diaphragm spring, pressure-relief or clutch-staked-nut instructions.",
+    "Bench scope does not require opening oil filler/check bolt; unresolved bike-level oil-check-bolt torque retained by interface author."
+  ]
+}

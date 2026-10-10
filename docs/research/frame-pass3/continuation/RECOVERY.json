@@ -1,0 +1,17 @@
+{
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "artifact": "frame-strip-reassemble-v1.procedure.json",
+  "sha256": "515099c701602c179763c20a973365044ad65f3488c8edad9d0185cbccfdc282",
+  "steps": 106,
+  "verified": [
+    "all source dependency hashes",
+    "unique ordered dependencies",
+    "source page containment",
+    "engine and swingarm shared pivot order",
+    "both wheels secured before fork seating",
+    "fuel and pressure check before startup",
+    "no false unchanged upper shock mount"
+  ],
+  "frozen_parent_guides_modified": false,
+  "remaining": "Runtime integration and physical/device validation are separate; source and closure review approved"
+}

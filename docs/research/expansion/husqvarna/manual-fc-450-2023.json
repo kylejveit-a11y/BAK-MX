@@ -1,0 +1,45 @@
+{
+  "target": {
+    "manufacturer": "Husqvarna",
+    "model": "FC 450",
+    "model_year": 2023,
+    "variant": "standard",
+    "region": "US"
+  },
+  "selector_url": "https://www.husqvarna-motorcycles.com/en-us/service/user-manuals.html",
+  "query_url": "https://www.husqvarna-motorcycles.com/en-us/service/user-manuals/_jcr_content/root/responsivegrid_1_col/bikemanuals.manuals.json?modelName=FC+450+2023",
+  "english_results": [
+    {
+      "modelName": "FC 450 2023",
+      "title": "FC 450 2023 EU (en) - 2023",
+      "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402633_en_OM.pdf"
+    },
+    {
+      "modelName": "FC 450 2023",
+      "title": "FC 450 2023 US (en) - 2023",
+      "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402633_en_OM.pdf"
+    }
+  ],
+  "selected": {
+    "modelName": "FC 450 2023",
+    "title": "FC 450 2023 US (en) - 2023",
+    "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402633_en_OM.pdf"
+  },
+  "scope_confirmed_by_selector": true,
+  "review_status": "PENDING",
+  "document_sha256": "5ce2da1f3a76e5da6de7f97ff60644a408351998d3189b5cd4229a7fc965dd09",
+  "bytes": 10033583,
+  "temporary_pdf": "/tmp/hq-manuals/fc-450-2023.pdf",
+  "temporary_text": "/tmp/hq-manuals/fc-450-2023.txt",
+  "scope_page": 3,
+  "scope_excerpt": "This document is valid for the following models:\nFC 450 EU (F2401W1)\nFC 450 US (F2475W2)\nFX 450 (F2301W6, F2301W8)\nFC 450 Heritage EU (F2401W2)\nFC 450 Heritage US (F2475W3)\nFC 450 Rockstar Edition US (F2475W1)\n*3402633en*\n3402633en\n06.12.2022",
+  "document_revision": "06.12.2022",
+  "document_article": "3402633en",
+  "torque_table_pdf_pages": [
+    150,
+    151,
+    158,
+    159,
+    160
+  ]
+}

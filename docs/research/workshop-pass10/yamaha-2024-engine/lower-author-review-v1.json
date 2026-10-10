@@ -1,0 +1,436 @@
+{
+  "schema_version": 1,
+  "status": "AUTHOR_SOURCE_REVIEWED",
+  "source_sha256": "6e784b3b15fe1e131f0e385676ca2873e74d783ee2499ce561e595bcea9ca9be",
+  "template_sha256": "47a147277f552cf86353a2277bfa5205b5d7719966c3e957cda86df0deb70e35",
+  "template_usage": "Structure and original prose only; every source instruction independently reviewed on exact 2024 pages. No calculated global page offset or inherited approval.",
+  "step_review": [
+    {
+      "step_id": "entry",
+      "source_pdf_pages": [
+        240,
+        242,
+        261,
+        268
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "generator-cover-out",
+      "source_pdf_pages": [
+        231,
+        233
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "rotor-out",
+      "source_pdf_pages": [
+        234
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "clutch-out",
+      "source_pdf_pages": [
+        240,
+        241,
+        244
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "boss-out",
+      "source_pdf_pages": [
+        241,
+        244
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "right-cover-out",
+      "source_pdf_pages": [
+        92,
+        93,
+        242
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "release-out",
+      "source_pdf_pages": [
+        243
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "shift-out",
+      "source_pdf_pages": [
+        250,
+        251,
+        252
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "drive-out",
+      "source_pdf_pages": [
+        255,
+        256,
+        257
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "pump-out",
+      "source_pdf_pages": [
+        259,
+        260
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "chain-out",
+      "source_pdf_pages": [
+        261,
+        265,
+        269
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "cases-open",
+      "source_pdf_pages": [
+        262,
+        265
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "transmission-out",
+      "source_pdf_pages": [
+        271,
+        272,
+        273,
+        274
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "crank-out",
+      "source_pdf_pages": [
+        268,
+        269
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "case-clean",
+      "source_pdf_pages": [
+        23,
+        262,
+        265,
+        266
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "bearings",
+      "source_pdf_pages": [
+        8,
+        23,
+        263,
+        264,
+        266
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "drive-seal",
+      "source_pdf_pages": [
+        23,
+        263,
+        266
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "crank-check",
+      "source_pdf_pages": [
+        269,
+        270
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "gearbox-check",
+      "source_pdf_pages": [
+        274,
+        275
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "gearbox-build",
+      "source_pdf_pages": [
+        8,
+        23,
+        271,
+        272,
+        273,
+        275,
+        276
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "crank-in",
+      "source_pdf_pages": [
+        263,
+        264,
+        268,
+        269,
+        270
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "transmission-in",
+      "source_pdf_pages": [
+        276,
+        277
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "shift-bars-in",
+      "source_pdf_pages": [
+        277
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "nozzles-strainer",
+      "source_pdf_pages": [
+        8,
+        261,
+        262,
+        266,
+        267
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "cases-close",
+      "source_pdf_pages": [
+        262,
+        266,
+        267
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "chain-in",
+      "source_pdf_pages": [
+        261,
+        265,
+        269
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "pump-inspect",
+      "source_pdf_pages": [
+        260
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "pump-build",
+      "source_pdf_pages": [
+        23,
+        259,
+        260
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "drives-inspect",
+      "source_pdf_pages": [
+        245,
+        257
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "balancer-in",
+      "source_pdf_pages": [
+        23,
+        255,
+        257,
+        258
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "primary-in",
+      "source_pdf_pages": [
+        8,
+        23,
+        255,
+        256,
+        258
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "shift-inspect",
+      "source_pdf_pages": [
+        252
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "shift-restore",
+      "source_pdf_pages": [
+        8,
+        250,
+        252,
+        253
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "shift-shaft",
+      "source_pdf_pages": [
+        23,
+        250,
+        253
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "release-check",
+      "source_pdf_pages": [
+        245,
+        246
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "release-in",
+      "source_pdf_pages": [
+        243,
+        246,
+        247
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "right-cover-in",
+      "source_pdf_pages": [
+        242,
+        246,
+        247
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "filter-in",
+      "source_pdf_pages": [
+        92,
+        93,
+        242
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "clutch-inspect",
+      "source_pdf_pages": [
+        244,
+        245,
+        246
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "clutch-base",
+      "source_pdf_pages": [
+        240,
+        241,
+        247
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "clutch-nut",
+      "source_pdf_pages": [
+        8,
+        240,
+        247,
+        248
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "clutch-pack",
+      "source_pdf_pages": [
+        241,
+        248
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "pressure-plate",
+      "source_pdf_pages": [
+        23,
+        248,
+        249
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "clutch-cover",
+      "source_pdf_pages": [
+        240,
+        249
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "rotor-check",
+      "source_pdf_pages": [
+        234,
+        235
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "generator-cover-in",
+      "source_pdf_pages": [
+        93,
+        231,
+        235
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    },
+    {
+      "step_id": "exit",
+      "source_pdf_pages": [
+        47,
+        93,
+        261,
+        267,
+        277
+      ],
+      "review": "Exact 2024 text and rendered diagrams checked."
+    }
+  ],
+  "differences": [
+    "Primary nut: 120 N·m with engine oil on washer contact and nut threads/contact; 2025 uses 130 N·m with molybdenum grease.",
+    "Clutch boss: washer then new nut; no separate 2025 spacer, step-catch warning or free-washer check inherited. Nut 105 N·m LOCTITE and staking retained from exact 2024.",
+    "Shift-shaft seal: 0–0.1 mm in 2024 PDF 250/251; 2025 PDF 255 has 0–1.0 mm. Both use LS. An initial low-resolution S reading for 2025 was withdrawn after enlarged source review; no grease discrepancy remains.",
+    "Crank diagram 2024 PDF 268/270 identifies M grease on crank only; 2025 diagram has additional balancer arrow. Bearings remain oiled per exact 2024 case diagrams.",
+    "Painted friction plates identified by blue paint around pawl circumference; exact 2024 pack diagram retained."
+  ]
+}

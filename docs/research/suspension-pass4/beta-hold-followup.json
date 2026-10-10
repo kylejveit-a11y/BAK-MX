@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "beta-c46-hold-followup-pass4",
+  "reviewed_at": "2026-09-13",
+  "target": {
+    "manufacturer": "Beta",
+    "model": "300 RR",
+    "model_year": 2023,
+    "region": "US",
+    "variant": "Race Edition"
+  },
+  "decision": "RETAIN_PUBLICATION_HOLD",
+  "previous_hold": {
+    "path": "../suspension-pass3/publication-hold.json",
+    "sha256": "610e47cca03160ef712ed81689eb252c1a688e3694d72b2e11c63e6964699665"
+  },
+  "new_sources": [
+    {
+      "id": "beta23-lowering",
+      "url": "https://betausa.com/content/SUPPORT_PDF%27s/AB-41115%20%26%20AB-41116%202023%20KYB%20Lowering%20Kit.pdf",
+      "local_path": "C:/Users/kylej/AppData/Local/Temp/beta-2023-kyb-lowering.pdf",
+      "sha256": "650c8c962d0d52ef82baad3e264f859a4ca79c67deb308758ffae1b9508cfdae",
+      "pdf_pages": [
+        1
+      ],
+      "review": "VISUALLY_REVIEWED",
+      "attribution": "Beta USA",
+      "scope": "2023 RX/Race Edition lowering kits AB-41115/16",
+      "summary": "Names Liqui Moly2.5/3wt for the KYB shock. This corroborates an OEM US service-product recommendation, but the operation changes the original stop plate/stack with a lowering spacer. It provides no final charge or explicit equivalence to K2C.",
+      "admission": "REFERENCE_ONLY_NOT_STOCK_PROCEDURE"
+    }
+  ],
+  "clarification_assessment": {
+    "fluid": "Multiple OEM US service documents recommend Liqui Moly. No reviewed statement identifies K2C equivalence, supersession, or factory-fill versus service-fill conditions.",
+    "pressure": "No exact source explains the147/150psi discrepancy, measurement reference, temperature or accepted tolerance.",
+    "changed_stack": "Lowering-kit shaft nut instruction is30Nm; it cannot silently replace the stock-service34Nm instruction because the assembly and operation differ."
+  },
+  "resolution_requires": [
+    "Exact OEM/component service clarification identifying accepted final charge and pressure reference for the stock2023 C46.",
+    "Explicit accepted service-fluid equivalence or source applicability/supersession clarification."
+  ],
+  "procedure_created": false,
+  "database_writes": false
+}

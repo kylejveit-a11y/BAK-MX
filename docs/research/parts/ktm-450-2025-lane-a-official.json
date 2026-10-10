@@ -1,0 +1,2736 @@
+{
+  "model_code": "F8475Y5",
+  "model_identifier": "1003417574",
+  "groups": [
+    {
+      "index": 0,
+      "name": "01\tFRONT FORK, TRIPLE CLAMP\t",
+      "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/72523?modelidentifier=1003417574&isEngine=False",
+      "parts": [
+        {
+          "callout": "1",
+          "part_number": "SPNO",
+          "description": "Non orderable",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "non_orderable_reference": "A460C159Y406000",
+          "is_fastener": false
+        },
+        {
+          "callout": "2",
+          "part_number": "A46001035001",
+          "description": "Rubber bushing",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": false
+        },
+        {
+          "callout": "3",
+          "part_number": "0025080256",
+          "description": "HH collar",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 4,
+          "quantity": 4,
+          "is_fastener": true
+        },
+        {
+          "callout": "4",
+          "part_number": "0025080406",
+          "description": "HH COLLAR",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 4,
+          "quantity": 4,
+          "is_fastener": true
+        },
+        {
+          "callout": "5",
+          "part_number": "0015080256S",
+          "description": "HH COLLAR",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": true
+        },
+        {
+          "callout": "6",
+          "part_number": "0035100509S",
+          "description": "AH collar",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": true
+        },
+        {
+          "callout": "7",
+          "part_number": "83001040000",
+          "description": "RUBBER BUSH",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": false
+        },
+        {
+          "callout": "9",
+          "part_number": "0017060206",
+          "description": "SCREW F.",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": true
+        },
+        {
+          "callout": "10",
+          "part_number": "A46001039034",
+          "description": "Handlebar support,",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": false
+        },
+        {
+          "callout": "11",
+          "part_number": "0025080506",
+          "description": "HH collar",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 4,
+          "quantity": 4,
+          "is_fastener": true
+        },
+        {
+          "callout": "30",
+          "part_number": "A46001132022C1",
+          "description": "Bottom triple",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "32",
+          "part_number": "A46001134022C1",
+          "description": "Triple clamp",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "36",
+          "part_number": "A46009082000",
+          "description": "Collar screw",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": true
+        },
+        {
+          "callout": "38",
+          "part_number": "79001038000",
+          "description": "HANDLEBAR CLAMP",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "39",
+          "part_number": "A48001039036",
+          "description": "Handlebar mount",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "81",
+          "part_number": "54201081100",
+          "description": "TAPERED ROLLER",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": false
+        },
+        {
+          "callout": "82",
+          "part_number": "77701084000",
+          "description": "O-RING SUPPORT",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "84",
+          "part_number": "A46001086000",
+          "description": "Steering head",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "85",
+          "part_number": "77701085100EB",
+          "description": "Clamp for",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "91",
+          "part_number": "59001092050",
+          "description": "SPECIAL SCREW",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 6,
+          "quantity": 6,
+          "is_fastener": true
+        },
+        {
+          "callout": "92",
+          "part_number": "A46001094000EBH",
+          "description": "fork protector",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "98",
+          "part_number": "A48001039010",
+          "description": "handlebar mount",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "is_fastener": false
+        },
+        {
+          "callout": "99",
+          "part_number": "A46001081044",
+          "description": "Repair Kit",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "is_fastener": false
+        }
+      ],
+      "diagram_part_numbers": [
+        "SPNO",
+        "A46001035001",
+        "0025080256",
+        "0025080406",
+        "0015080256S",
+        "0035100509S",
+        "83001040000",
+        "0017060206",
+        "A46001039034",
+        "0025080506",
+        "A46001132022C1",
+        "A46001134022C1",
+        "A46009082000",
+        "79001038000",
+        "A48001039036",
+        "54201081100",
+        "77701084000",
+        "A46001086000",
+        "77701085100EB",
+        "59001092050",
+        "A46001094000EBH",
+        "A48001039010",
+        "A46001081044"
+      ],
+      "diagram_point_count": 30,
+      "missing_table_part_numbers": [],
+      "reconciliation_status": "ALL_DIAGRAM_POINT_PART_NUMBERS_PRESENT_IN_TABLE",
+      "scope_evidence": "Observed breadcrumb 450 SX-F 2025 <2025><US><F8475Y5>",
+      "table_status": "ALL_RENDERED_ROWS_ACQUIRED"
+    },
+    {
+      "index": 1,
+      "name": "01\tFRONT FORK DISASSEMBLED\t",
+      "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/69023?modelidentifier=1003417574&isEngine=False",
+      "parts": [
+        {
+          "callout": "1",
+          "part_number": "48602046S2",
+          "description": "Axle clamp",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "2",
+          "part_number": "48602045S2",
+          "description": "Axle clamp",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "3",
+          "part_number": "0025080256",
+          "description": "HH collar",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 4,
+          "quantity": 4,
+          "is_fastener": true
+        },
+        {
+          "callout": "5",
+          "part_number": "RP10033T",
+          "description": "Repair kit",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "is_fastener": false
+        },
+        {
+          "callout": "6",
+          "part_number": "48602052S",
+          "description": "adjuster housing",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "7",
+          "part_number": "48601533S",
+          "description": "HH collar",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": true
+        },
+        {
+          "callout": "8",
+          "part_number": "S501200016S0000",
+          "description": "Pistonrod D12",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "9",
+          "part_number": "48601501S2",
+          "description": "piston rod",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "10",
+          "part_number": "48601462S2",
+          "description": "Screw sleeve",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": true
+        },
+        {
+          "callout": "11",
+          "part_number": "48602138S2",
+          "description": "Screw sleeve",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": true
+        },
+        {
+          "callout": "12",
+          "part_number": "48600578S",
+          "description": "Spring (13,9)",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "13",
+          "part_number": "48601820S",
+          "description": "Spring (22)",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "14",
+          "part_number": "RP10035T",
+          "description": "Repair kit",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "is_fastener": false
+        },
+        {
+          "callout": "15",
+          "part_number": "48602049S5",
+          "description": "Basevalve cpl.",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "16",
+          "part_number": "RP10029T",
+          "description": "adjuster kit",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "is_fastener": true
+        },
+        {
+          "callout": "17",
+          "part_number": "S409100014S0000",
+          "description": "Screw cap",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": true
+        },
+        {
+          "callout": "18",
+          "part_number": "48602047S2",
+          "description": "screw cap",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": true
+        },
+        {
+          "callout": "19",
+          "part_number": "00700007",
+          "description": "ISA countersunk",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": true
+        },
+        {
+          "callout": "20",
+          "part_number": "48601494S",
+          "description": "Schrader valve",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "21",
+          "part_number": "48602096",
+          "description": "fork outer",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": false
+        },
+        {
+          "callout": "22",
+          "part_number": "R14047T",
+          "description": "Guide bushing",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "is_fastener": false
+        },
+        {
+          "callout": "23",
+          "part_number": "RP10048T",
+          "description": "Seal kit",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "is_fastener": false
+        },
+        {
+          "callout": "24",
+          "part_number": "04100002",
+          "description": "X-ring 26,57x3,53",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "25",
+          "part_number": "50180222",
+          "description": "O-ring 4x1,5",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "26",
+          "part_number": "48602135S",
+          "description": "Piston 33,6x35,4",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "27",
+          "part_number": "S639200001000FA",
+          "description": "Fork protection",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": false
+        },
+        {
+          "callout": "28",
+          "part_number": "52000361",
+          "description": "ECE sticker",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "29",
+          "part_number": "48602007",
+          "description": "Stroke indicator",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": false
+        },
+        {
+          "callout": "30",
+          "part_number": "52000235SET",
+          "description": "Sticker set",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "31",
+          "part_number": "48602128",
+          "description": "Nut M6",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": true
+        },
+        {
+          "callout": "32",
+          "part_number": "52000328",
+          "description": "Sticker warning",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "33",
+          "part_number": "48601727",
+          "description": "Spring (19,5)",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "optional": true,
+          "is_fastener": false
+        },
+        {
+          "callout": "33",
+          "part_number": "48601588",
+          "description": "Spring (19,5)",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "optional": true,
+          "is_fastener": false
+        },
+        {
+          "callout": "33",
+          "part_number": "48602157",
+          "description": "Spring (19,5)",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "optional": true,
+          "is_fastener": false
+        },
+        {
+          "callout": "33",
+          "part_number": "48601258",
+          "description": "Spring (19,5)",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "33",
+          "part_number": "48601851",
+          "description": "Spring (19,5)",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "optional": true,
+          "is_fastener": false
+        },
+        {
+          "callout": "96",
+          "part_number": "T14034",
+          "description": "Fuchs grease",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "is_fastener": false
+        },
+        {
+          "callout": "97",
+          "part_number": "00062010053",
+          "description": "special grease",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "is_fastener": false
+        },
+        {
+          "callout": "98",
+          "part_number": "48601166S1",
+          "description": "Fork Fluid",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "is_fastener": false
+        },
+        {
+          "callout": "99",
+          "part_number": "RP10042T",
+          "description": "Gasket kit",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "is_fastener": false
+        }
+      ],
+      "diagram_part_numbers": [
+        "48602046S2",
+        "48602045S2",
+        "0025080256",
+        "RP10033T",
+        "48602052S",
+        "48601533S",
+        "S501200016S0000",
+        "48601501S2",
+        "48601462S2",
+        "48602138S2",
+        "48600578S",
+        "48601820S",
+        "RP10035T",
+        "48602049S5",
+        "RP10029T",
+        "S409100014S0000",
+        "48602047S2",
+        "00700007",
+        "48601494S",
+        "48602096",
+        "R14047T",
+        "RP10048T",
+        "04100002",
+        "50180222",
+        "48602135S",
+        "S639200001000FA",
+        "52000361",
+        "48602007",
+        "52000235SET",
+        "48602128",
+        "52000328",
+        "48601727",
+        "48601588",
+        "48602157",
+        "48601258",
+        "48601851",
+        "T14034",
+        "00062010053",
+        "48601166S1",
+        "RP10042T"
+      ],
+      "diagram_point_count": 59,
+      "missing_table_part_numbers": [],
+      "reconciliation_status": "ALL_DIAGRAM_POINT_PART_NUMBERS_PRESENT_IN_TABLE",
+      "scope_evidence": "Observed official model-specific URL; same modelidentifier 1003417574",
+      "table_status": "ALL_RENDERED_ROWS_ACQUIRED"
+    },
+    {
+      "index": 2,
+      "name": "02\tHANDLEBAR, CONTROLS\t",
+      "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/59885?modelidentifier=1003417574&isEngine=False",
+      "parts": [
+        {
+          "callout": "1",
+          "part_number": "7900200100030",
+          "description": "HANDLEBAR D=28MM",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "2",
+          "part_number": "A46002002044C1A",
+          "description": "Handlebar pad",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "4",
+          "part_number": "A46011074000",
+          "description": "Start/stop button",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "5",
+          "part_number": "A46039074000",
+          "description": "Combination switch",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "9",
+          "part_number": "0081050181",
+          "description": "SCREW FOR",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": true
+        },
+        {
+          "callout": "13",
+          "part_number": "A46002010025",
+          "description": "Housing throttle",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "14",
+          "part_number": "0025060206",
+          "description": "HH collar",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": true
+        },
+        {
+          "callout": "17",
+          "part_number": "A46002921000C1",
+          "description": "Grip set",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "18",
+          "part_number": "44011076200",
+          "description": "Cable tie",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "is_fastener": false
+        },
+        {
+          "callout": "18",
+          "part_number": "44011076140",
+          "description": "CABLE TIE",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "is_fastener": false
+        },
+        {
+          "callout": "92",
+          "part_number": "A46002091000",
+          "description": "Throttle cable",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        }
+      ],
+      "diagram_part_numbers": [
+        "7900200100030",
+        "A46002002044C1A",
+        "A46011074000",
+        "A46039074000",
+        "0081050181",
+        "A46002010025",
+        "0025060206",
+        "A46002921000C1",
+        "44011076200",
+        "44011076140",
+        "A46002091000"
+      ],
+      "diagram_point_count": 12,
+      "missing_table_part_numbers": [],
+      "reconciliation_status": "ALL_DIAGRAM_POINT_PART_NUMBERS_PRESENT_IN_TABLE",
+      "scope_evidence": "Observed official model-specific URL; same modelidentifier 1003417574",
+      "table_status": "ALL_RENDERED_ROWS_ACQUIRED"
+    },
+    {
+      "index": 3,
+      "name": "03\tFRAME\t",
+      "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/70477?modelidentifier=1003417574&isEngine=False",
+      "parts": [
+        {
+          "callout": "1",
+          "part_number": "A46003001200C1",
+          "description": "Frame",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "2",
+          "part_number": "A46003002000",
+          "description": "Subframe",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "3",
+          "part_number": "79111013010",
+          "description": "Cover control",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "4",
+          "part_number": "09000008016U0",
+          "description": "Special screw",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": true
+        },
+        {
+          "callout": "5",
+          "part_number": "79003003000",
+          "description": "Special screw",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": true
+        },
+        {
+          "callout": "6",
+          "part_number": "A4600301310001",
+          "description": "Engine brace",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "7",
+          "part_number": "A4600301410001",
+          "description": "Engine brace",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "8",
+          "part_number": "0035080206S",
+          "description": "SHCS M8x20",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 6,
+          "quantity": 6,
+          "is_fastener": true
+        },
+        {
+          "callout": "9",
+          "part_number": "A46007012100",
+          "description": "Fuel tank",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "10",
+          "part_number": "A46003099020",
+          "description": "Cable bracket/throttle",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "11",
+          "part_number": "0081050141",
+          "description": "EJOT PT",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": true
+        },
+        {
+          "callout": "12",
+          "part_number": "A49003099030",
+          "description": "Cable protection",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": false
+        },
+        {
+          "callout": "15",
+          "part_number": "59003013000",
+          "description": "Enginebrac. screw",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": true
+        },
+        {
+          "callout": "16",
+          "part_number": "A46003053000",
+          "description": "Chain slider",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "18",
+          "part_number": "0025080206",
+          "description": "HH collar",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": true
+        },
+        {
+          "callout": "19",
+          "part_number": "0025060456",
+          "description": "HH COLLAR",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": true
+        },
+        {
+          "callout": "21",
+          "part_number": "A46003140000",
+          "description": "Footpeg left",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "22",
+          "part_number": "A46003141000",
+          "description": "Footpeg right",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "23",
+          "part_number": "0125100003",
+          "description": "washer DIN",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": true
+        },
+        {
+          "callout": "24",
+          "part_number": "A46003045000",
+          "description": "Footrest spring",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "25",
+          "part_number": "54803044000",
+          "description": "PIN FOR",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": false
+        },
+        {
+          "callout": "26",
+          "part_number": "A46003044000",
+          "description": "Footrest spring",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "27",
+          "part_number": "0094032253",
+          "description": "PIN DIN0094-3,2X25",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": false
+        },
+        {
+          "callout": "28",
+          "part_number": "A46003137033",
+          "description": "Footpeg set",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "29",
+          "part_number": "0025050106",
+          "description": "HH collar",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": true
+        },
+        {
+          "callout": "30",
+          "part_number": "54803092060",
+          "description": "Bush f.",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": false
+        },
+        {
+          "callout": "31",
+          "part_number": "44011076200",
+          "description": "Cable tie",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": false
+        },
+        {
+          "callout": "32",
+          "part_number": "44011076140",
+          "description": "CABLE TIE",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "33",
+          "part_number": "A46003094000C1",
+          "description": "Frame protection",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "35",
+          "part_number": "A46003099010",
+          "description": "Cable bracket",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "36",
+          "part_number": "79107013010",
+          "description": "wire holder",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "37",
+          "part_number": "79711013010",
+          "description": "Cable bracket",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "38",
+          "part_number": "0025080206",
+          "description": "HH collar",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": true
+        },
+        {
+          "callout": "39",
+          "part_number": "A46003096000",
+          "description": "Front sprocket",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        }
+      ],
+      "diagram_part_numbers": [
+        "A46003001200C1",
+        "A46003002000",
+        "79111013010",
+        "09000008016U0",
+        "79003003000",
+        "A4600301310001",
+        "A4600301410001",
+        "0035080206S",
+        "A46007012100",
+        "A46003099020",
+        "0081050141",
+        "59003013000",
+        "A46003053000",
+        "0025080206",
+        "0025060456",
+        "A46003140000",
+        "A46003141000",
+        "0125100003",
+        "A46003045000",
+        "54803044000",
+        "A46003044000",
+        "0094032253",
+        "A46003137033",
+        "0025050106",
+        "54803092060",
+        "44011076200",
+        "44011076140",
+        "A46003094000C1",
+        "A46003099010",
+        "79107013010",
+        "79711013010",
+        "A46003096000",
+        "A49003099030"
+      ],
+      "diagram_point_count": 42,
+      "missing_table_part_numbers": [],
+      "reconciliation_status": "ALL_DIAGRAM_POINT_PART_NUMBERS_PRESENT_IN_TABLE",
+      "scope_evidence": "Observed official model-specific URL; same modelidentifier 1003417574",
+      "table_status": "ALL_RENDERED_ROWS_ACQUIRED"
+    },
+    {
+      "index": 4,
+      "name": "04\tSHOCK ABSORBER\t",
+      "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/69024?modelidentifier=1003417574&isEngine=False",
+      "parts": [
+        {
+          "callout": "1",
+          "part_number": "A460C459Y408000",
+          "description": "Strut KTM",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "2",
+          "part_number": "77204089000",
+          "description": "HH collar",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": true
+        }
+      ],
+      "diagram_part_numbers": [
+        "A460C459Y408000",
+        "77204089000"
+      ],
+      "diagram_point_count": 3,
+      "missing_table_part_numbers": [],
+      "reconciliation_status": "ALL_DIAGRAM_POINT_PART_NUMBERS_PRESENT_IN_TABLE",
+      "scope_evidence": "Observed official model-specific URL; same modelidentifier 1003417574",
+      "table_status": "ALL_RENDERED_ROWS_ACQUIRED"
+    },
+    {
+      "index": 5,
+      "name": "04\tSHOCK ABSORBER DISASSEMBLED\t",
+      "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/70455?modelidentifier=1003417574&isEngine=False",
+      "parts": [
+        {
+          "callout": "1",
+          "part_number": "S455000003S0100",
+          "description": "Monoshock case",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "2",
+          "part_number": "S012900000S2200",
+          "description": "Compression cpl",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "3",
+          "part_number": "14460042",
+          "description": "HS cylinder-head",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": true
+        },
+        {
+          "callout": "4",
+          "part_number": "50180095",
+          "description": "HS cylinder-head",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": true
+        },
+        {
+          "callout": "5",
+          "part_number": "50180217",
+          "description": "O-ring 27x1,5",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "6",
+          "part_number": "36120151S1",
+          "description": "screw fill",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": true
+        },
+        {
+          "callout": "7",
+          "part_number": "52000312",
+          "description": "Sticker XACT",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "8",
+          "part_number": "S938100001S0000",
+          "description": "SPRING SUPPORT",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "9",
+          "part_number": "91210130",
+          "description": "mainspring (62/65)",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "is_fastener": false
+        },
+        {
+          "callout": "9",
+          "part_number": "91210131",
+          "description": "mainspring (62/65)",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "is_fastener": false
+        },
+        {
+          "callout": "9",
+          "part_number": "91210132",
+          "description": "Main spring",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "is_fastener": false
+        },
+        {
+          "callout": "9",
+          "part_number": "91210133",
+          "description": "Main spring",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "is_fastener": false
+        },
+        {
+          "callout": "9",
+          "part_number": "91210134",
+          "description": "Main spring",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "is_fastener": false
+        },
+        {
+          "callout": "9",
+          "part_number": "91210135",
+          "description": "mainspring (62/65)",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "is_fastener": false
+        },
+        {
+          "callout": "9",
+          "part_number": "91210136",
+          "description": "Mainspring (62)",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "is_fastener": false
+        },
+        {
+          "callout": "10",
+          "part_number": "S828800000S01BQ",
+          "description": "Spring seat",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "11",
+          "part_number": "S208600003000FB",
+          "description": "O-ring 5,28x1,78",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "12",
+          "part_number": "50181207",
+          "description": "Locking nut",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": true
+        },
+        {
+          "callout": "13",
+          "part_number": "50181344",
+          "description": "Rebound disc",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "14",
+          "part_number": "S625000000S0000",
+          "description": "Piston 12x49,4x18",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "15",
+          "part_number": "50181091",
+          "description": "Rebound disc",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "16",
+          "part_number": "50180603S7",
+          "description": "Dichtungstr\u00e4ger 50x28",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "17",
+          "part_number": "50180126",
+          "description": "Round-wire snap",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "18",
+          "part_number": "50181349",
+          "description": "Cap 50,12x16",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "19",
+          "part_number": "50181100",
+          "description": "Rubber pad",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "20",
+          "part_number": "S421800010S0100",
+          "description": "Mounting fork",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "21",
+          "part_number": "RP10044T",
+          "description": "Repair kit",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "is_fastener": false
+        },
+        {
+          "callout": "22",
+          "part_number": "46811205",
+          "description": "Bush M10x12/15/13x9,5",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "23",
+          "part_number": "S918100006S0000",
+          "description": "adjuster rebound",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "24",
+          "part_number": "R15006",
+          "description": "REPAIR KIT",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "is_fastener": false
+        },
+        {
+          "callout": "25",
+          "part_number": "50180218",
+          "description": "O-ring 25x1,5",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "98",
+          "part_number": "50180751S1",
+          "description": "SHOCK ABSORBER",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "is_fastener": false
+        },
+        {
+          "callout": "99",
+          "part_number": "RP10043T",
+          "description": "shock absorber",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "is_fastener": false
+        }
+      ],
+      "diagram_part_numbers": [
+        "S455000003S0100",
+        "S012900000S2200",
+        "14460042",
+        "50180095",
+        "50180217",
+        "36120151S1",
+        "52000312",
+        "S938100001S0000",
+        "91210130",
+        "91210131",
+        "91210132",
+        "91210133",
+        "91210134",
+        "91210135",
+        "91210136",
+        "S828800000S01BQ",
+        "S208600003000FB",
+        "50181207",
+        "50181344",
+        "S625000000S0000",
+        "50181091",
+        "50180603S7",
+        "50180126",
+        "50181349",
+        "50181100",
+        "S421800010S0100",
+        "RP10044T",
+        "46811205",
+        "S918100006S0000",
+        "R15006",
+        "50180218",
+        "50180751S1",
+        "RP10043T"
+      ],
+      "diagram_point_count": 37,
+      "missing_table_part_numbers": [],
+      "reconciliation_status": "ALL_DIAGRAM_POINT_PART_NUMBERS_PRESENT_IN_TABLE",
+      "scope_evidence": "Observed official model-specific URL; same modelidentifier 1003417574",
+      "table_status": "ALL_RENDERED_ROWS_ACQUIRED"
+    },
+    {
+      "index": 6,
+      "name": "04\tPRO LEVER LINKING\t",
+      "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/70692?modelidentifier=1003417574&isEngine=False",
+      "parts": [
+        {
+          "callout": "1",
+          "part_number": "A46004080244",
+          "description": "Triangle cantilever",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "2",
+          "part_number": "A46004083244",
+          "description": "Pull rod",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "3",
+          "part_number": "54603081000",
+          "description": "Bushing sleeve",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": false
+        },
+        {
+          "callout": "4",
+          "part_number": "54603097000",
+          "description": "Needle bushing",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 4,
+          "quantity": 4,
+          "is_fastener": false
+        },
+        {
+          "callout": "5",
+          "part_number": "54603036000",
+          "description": "STOP DISK",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 4,
+          "quantity": 4,
+          "is_fastener": false
+        },
+        {
+          "callout": "6",
+          "part_number": "0760253271",
+          "description": "Radial shaft",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 4,
+          "quantity": 4,
+          "is_fastener": false
+        },
+        {
+          "callout": "7",
+          "part_number": "77204080130",
+          "description": "Bucket f.",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 4,
+          "quantity": 4,
+          "is_fastener": false
+        },
+        {
+          "callout": "8",
+          "part_number": "77204080010",
+          "description": "Bearing sleeve",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "9",
+          "part_number": "0618182416",
+          "description": "NEEDLE BUSH",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "10",
+          "part_number": "50180604",
+          "description": "Shim 29.75x19x0.4",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": false
+        },
+        {
+          "callout": "11",
+          "part_number": "0760243051",
+          "description": "Radial shaft",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": false
+        },
+        {
+          "callout": "12",
+          "part_number": "77204080020",
+          "description": "Bucket f.",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": false
+        },
+        {
+          "callout": "13",
+          "part_number": "0760222842",
+          "description": "Radial shaft",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": false
+        },
+        {
+          "callout": "14",
+          "part_number": "0618222820",
+          "description": "NEEDLE BEARING",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": false
+        },
+        {
+          "callout": "15",
+          "part_number": "79004084010",
+          "description": "Bearing sleeve",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "16",
+          "part_number": "A48004084000",
+          "description": "Pin pull",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "17",
+          "part_number": "77404084120",
+          "description": "Hex. nut",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": true
+        },
+        {
+          "callout": "18",
+          "part_number": "A48004085000",
+          "description": "Triangle cantilever",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": false
+        },
+        {
+          "callout": "19",
+          "part_number": "77204087000",
+          "description": "hex nut",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": true
+        },
+        {
+          "callout": "97",
+          "part_number": "A46004180020",
+          "description": "Repair kit",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "is_fastener": false
+        },
+        {
+          "callout": "98",
+          "part_number": "A46004180010",
+          "description": "Repair kit",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "is_fastener": false
+        },
+        {
+          "callout": "99",
+          "part_number": "A46004183010",
+          "description": "Repair kit",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "is_fastener": false
+        }
+      ],
+      "diagram_part_numbers": [
+        "A46004080244",
+        "A46004083244",
+        "54603081000",
+        "54603097000",
+        "54603036000",
+        "0760253271",
+        "77204080130",
+        "77204080010",
+        "0618182416",
+        "50180604",
+        "0760243051",
+        "77204080020",
+        "0760222842",
+        "0618222820",
+        "79004084010",
+        "A48004084000",
+        "77404084120",
+        "A48004085000",
+        "77204087000",
+        "A46004180020",
+        "A46004180010",
+        "A46004183010"
+      ],
+      "diagram_point_count": 46,
+      "missing_table_part_numbers": [],
+      "reconciliation_status": "ALL_DIAGRAM_POINT_PART_NUMBERS_PRESENT_IN_TABLE",
+      "scope_evidence": "Observed official model-specific URL; same modelidentifier 1003417574",
+      "table_status": "ALL_RENDERED_ROWS_ACQUIRED"
+    },
+    {
+      "index": 7,
+      "name": "04\tSWING ARM\t",
+      "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/70473?modelidentifier=1003417574&isEngine=False",
+      "parts": [
+        {
+          "callout": "2",
+          "part_number": "A46004230144",
+          "description": "Swingarm cpl",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "3",
+          "part_number": "A46004066100",
+          "description": "Chain slider",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "4",
+          "part_number": "77304066150",
+          "description": "Chain slider",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": false
+        },
+        {
+          "callout": "5",
+          "part_number": "0025060166S",
+          "description": "HH collar",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 5,
+          "quantity": 5,
+          "is_fastener": true
+        },
+        {
+          "callout": "6",
+          "part_number": "A46004042000",
+          "description": "Brake line",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "8",
+          "part_number": "77704034000",
+          "description": "Support f.",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 4,
+          "quantity": 4,
+          "is_fastener": false
+        },
+        {
+          "callout": "9",
+          "part_number": "0760253270",
+          "description": "radial shaft",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 4,
+          "quantity": 4,
+          "is_fastener": false
+        },
+        {
+          "callout": "10",
+          "part_number": "59404032000",
+          "description": "Bearing sleeve",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": false
+        },
+        {
+          "callout": "11",
+          "part_number": "0618222812",
+          "description": "Needle bushing",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 4,
+          "quantity": 4,
+          "is_fastener": false
+        },
+        {
+          "callout": "12",
+          "part_number": "54603036000",
+          "description": "STOP DISK",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": false
+        },
+        {
+          "callout": "14",
+          "part_number": "A46004070000",
+          "description": "Chainguide SX",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "16",
+          "part_number": "0025060456",
+          "description": "HH COLLAR",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": true
+        },
+        {
+          "callout": "17",
+          "part_number": "58414030000",
+          "description": "HH COLLAR",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": true
+        },
+        {
+          "callout": "18",
+          "part_number": "50304040100",
+          "description": "screw M10x1.25x50",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": true
+        },
+        {
+          "callout": "25",
+          "part_number": "A46004037000",
+          "description": "Swingarm pivot",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "26",
+          "part_number": "54804038000",
+          "description": "Nut with",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": true
+        },
+        {
+          "callout": "27",
+          "part_number": "A46004041000",
+          "description": "Locking cap",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 4,
+          "quantity": 4,
+          "is_fastener": false
+        },
+        {
+          "callout": "29",
+          "part_number": "54603055051",
+          "description": "PRESS IN",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": true
+        },
+        {
+          "callout": "99",
+          "part_number": "79004030110",
+          "description": "Repair kit",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 0,
+          "quantity": null,
+          "is_fastener": false
+        }
+      ],
+      "diagram_part_numbers": [
+        "A46004230144",
+        "A46004066100",
+        "77304066150",
+        "0025060166S",
+        "A46004042000",
+        "77704034000",
+        "0760253270",
+        "59404032000",
+        "0618222812",
+        "54603036000",
+        "A46004070000",
+        "0025060456",
+        "58414030000",
+        "50304040100",
+        "A46004037000",
+        "54804038000",
+        "A46004041000",
+        "54603055051",
+        "79004030110"
+      ],
+      "diagram_point_count": 24,
+      "missing_table_part_numbers": [],
+      "reconciliation_status": "ALL_DIAGRAM_POINT_PART_NUMBERS_PRESENT_IN_TABLE",
+      "scope_evidence": "Observed official model-specific URL; same modelidentifier 1003417574",
+      "table_status": "ALL_RENDERED_ROWS_ACQUIRED"
+    },
+    {
+      "index": 8,
+      "name": "05\tEXHAUST SYSTEM\t",
+      "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/72521?modelidentifier=1003417574&isEngine=False",
+      "parts": [
+        {
+          "callout": "1",
+          "part_number": "A47005079133",
+          "description": "Silencer SXF",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "2",
+          "part_number": "77205068000",
+          "description": "DAMP. COMPON.",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": false
+        },
+        {
+          "callout": "3",
+          "part_number": "77205169000",
+          "description": "BUSHING 7.5x12x28x8.3",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": false
+        },
+        {
+          "callout": "5",
+          "part_number": "50233041000",
+          "description": "Pair of",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": true
+        },
+        {
+          "callout": "6",
+          "part_number": "0025060306",
+          "description": "HH collar",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": true
+        },
+        {
+          "callout": "7",
+          "part_number": "0770800021",
+          "description": "O-RING 80,00X2,00",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "8",
+          "part_number": "A47005079060",
+          "description": "endcap cpl.",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "9",
+          "part_number": "78105081010",
+          "description": "SCREW TORX",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 5,
+          "quantity": 5,
+          "is_fastener": true
+        },
+        {
+          "callout": "10",
+          "part_number": "79305078520",
+          "description": "Rockwool preformed",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "11",
+          "part_number": "A46005078080",
+          "description": "Rockwool preformed",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "12",
+          "part_number": "79105098000",
+          "description": "exhaust spacer",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "20",
+          "part_number": "50305016200",
+          "description": "Tension spring",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 3,
+          "quantity": 3,
+          "is_fastener": false
+        },
+        {
+          "callout": "40",
+          "part_number": "A48005007033",
+          "description": "Header KTM",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "41",
+          "part_number": "0025080256",
+          "description": "HH collar",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": true
+        },
+        {
+          "callout": "42",
+          "part_number": "77805069000",
+          "description": "BUSHING 8.5x12x28x8.3",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": false
+        },
+        {
+          "callout": "43",
+          "part_number": "79105068000",
+          "description": "Damper gray",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        }
+      ],
+      "diagram_part_numbers": [
+        "A47005079133",
+        "77205068000",
+        "77205169000",
+        "50233041000",
+        "0025060306",
+        "0770800021",
+        "A47005079060",
+        "78105081010",
+        "79305078520",
+        "A46005078080",
+        "79105098000",
+        "50305016200",
+        "A48005007033",
+        "0025080256",
+        "77805069000",
+        "79105068000"
+      ],
+      "diagram_point_count": 22,
+      "missing_table_part_numbers": [],
+      "reconciliation_status": "ALL_DIAGRAM_POINT_PART_NUMBERS_PRESENT_IN_TABLE",
+      "scope_evidence": "Observed official model-specific URL; same modelidentifier 1003417574",
+      "table_status": "ALL_RENDERED_ROWS_ACQUIRED"
+    },
+    {
+      "index": 9,
+      "name": "06\tAIR FILTER\t",
+      "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/72520?modelidentifier=1003417574&isEngine=False",
+      "parts": [
+        {
+          "callout": "1",
+          "part_number": "A46006001000EB",
+          "description": "Lower section",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "2",
+          "part_number": "A46006004000EB",
+          "description": "Air filter",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "3",
+          "part_number": "A46006003000EB",
+          "description": "Air filter",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "4",
+          "part_number": "A46006005000EB",
+          "description": "Side fairing",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "5",
+          "part_number": "A46006001010EB",
+          "description": "Air filter",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "7",
+          "part_number": "0025060206",
+          "description": "HH collar",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": true
+        },
+        {
+          "callout": "9",
+          "part_number": "0017060206",
+          "description": "SCREW F.",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 5,
+          "quantity": 5,
+          "is_fastener": true
+        },
+        {
+          "callout": "10",
+          "part_number": "77304066150",
+          "description": "Chain slider",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": false
+        },
+        {
+          "callout": "11",
+          "part_number": "79105098000",
+          "description": "exhaust spacer",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "12",
+          "part_number": "78006027000",
+          "description": "HOSE CLAMP",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "13",
+          "part_number": "A48006026100",
+          "description": "Air boot",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "14",
+          "part_number": "A46006017000",
+          "description": "Air filter",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "15",
+          "part_number": "A46006016000",
+          "description": "Air filter",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "16",
+          "part_number": "A46006015000",
+          "description": "Air filter",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "19",
+          "part_number": "47106003160",
+          "description": "quick release",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 5,
+          "quantity": 5,
+          "is_fastener": false
+        },
+        {
+          "callout": "23",
+          "part_number": "A46004050000",
+          "description": "Splash protection",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "24",
+          "part_number": "0081050141",
+          "description": "EJOT PT",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": true
+        },
+        {
+          "callout": "26",
+          "part_number": "79003003000",
+          "description": "Special screw",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": true
+        },
+        {
+          "callout": "27",
+          "part_number": "83008000012",
+          "description": "special screw",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": true
+        }
+      ],
+      "diagram_part_numbers": [
+        "A46006001000EB",
+        "A46006004000EB",
+        "A46006003000EB",
+        "A46006005000EB",
+        "A46006001010EB",
+        "0025060206",
+        "0017060206",
+        "77304066150",
+        "79105098000",
+        "78006027000",
+        "A48006026100",
+        "A46006017000",
+        "A46006016000",
+        "A46006015000",
+        "47106003160",
+        "A46004050000",
+        "0081050141",
+        "79003003000",
+        "83008000012"
+      ],
+      "diagram_point_count": 31,
+      "missing_table_part_numbers": [],
+      "reconciliation_status": "ALL_DIAGRAM_POINT_PART_NUMBERS_PRESENT_IN_TABLE",
+      "scope_evidence": "Observed official model-specific URL; same modelidentifier 1003417574",
+      "table_status": "ALL_RENDERED_ROWS_ACQUIRED"
+    },
+    {
+      "index": 10,
+      "name": "07\tTANK, SEAT\t",
+      "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/70476?modelidentifier=1003417574&isEngine=False",
+      "parts": [
+        {
+          "callout": "1",
+          "part_number": "A46007113000",
+          "description": "Fuel tank",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "2",
+          "part_number": "79107011000",
+          "description": "Seat holder",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 4,
+          "quantity": 4,
+          "is_fastener": true
+        },
+        {
+          "callout": "3",
+          "part_number": "77707008144C1",
+          "description": "Fuel tank",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "4",
+          "part_number": "A46007014000",
+          "description": "Fuel tank",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 3,
+          "quantity": 3,
+          "is_fastener": false
+        },
+        {
+          "callout": "6",
+          "part_number": "79107013010",
+          "description": "wire holder",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "7",
+          "part_number": "78007100270",
+          "description": "Vent hose",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "8",
+          "part_number": "A46008054100EBB",
+          "description": "spoiler set",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "10",
+          "part_number": "0025060126",
+          "description": "HH collar",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 7,
+          "quantity": 7,
+          "is_fastener": true
+        },
+        {
+          "callout": "11",
+          "part_number": "0025060256",
+          "description": "HH collar",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": true
+        },
+        {
+          "callout": "12",
+          "part_number": "0017060206",
+          "description": "SCREW F.",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 4,
+          "quantity": 4,
+          "is_fastener": true
+        },
+        {
+          "callout": "13",
+          "part_number": "A46007040000C1",
+          "description": "Seat",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "14",
+          "part_number": "A46007040050C1",
+          "description": "Seat cover",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "15",
+          "part_number": "A46007046000",
+          "description": "Seat installation",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "16",
+          "part_number": "0004711200100",
+          "description": "Lock ring",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        }
+      ],
+      "diagram_part_numbers": [
+        "A46007113000",
+        "79107011000",
+        "77707008144C1",
+        "A46007014000",
+        "79107013010",
+        "78007100270",
+        "A46008054100EBB",
+        "0025060126",
+        "0025060256",
+        "0017060206",
+        "A46007040000C1",
+        "A46007040050C1",
+        "A46007046000",
+        "0004711200100"
+      ],
+      "diagram_point_count": 23,
+      "missing_table_part_numbers": [],
+      "reconciliation_status": "ALL_DIAGRAM_POINT_PART_NUMBERS_PRESENT_IN_TABLE",
+      "scope_evidence": "Observed official model-specific URL; same modelidentifier 1003417574",
+      "table_status": "ALL_RENDERED_ROWS_ACQUIRED"
+    },
+    {
+      "index": 11,
+      "name": "07\tFUEL PUMP\t",
+      "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/62027?modelidentifier=1003417574&isEngine=False",
+      "parts": [
+        {
+          "callout": "1",
+          "part_number": "A46007088200",
+          "description": "Fuel pump",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "2",
+          "part_number": "0017060305",
+          "description": "Special screw",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 4,
+          "quantity": 4,
+          "is_fastener": true
+        },
+        {
+          "callout": "3",
+          "part_number": "00050157706",
+          "description": "Variable one-ear",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 4,
+          "quantity": 4,
+          "is_fastener": false
+        },
+        {
+          "callout": "4",
+          "part_number": "A46007016000",
+          "description": "Fuel hose",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "5",
+          "part_number": "5850701050030",
+          "description": "Clutch CPC",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "6",
+          "part_number": "78141013190",
+          "description": "FUEL FILTER",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "7",
+          "part_number": "58507012000",
+          "description": "O-ring VITON",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "8",
+          "part_number": "77707010000",
+          "description": "Fuel connection",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "9",
+          "part_number": "A46007017000",
+          "description": "Fuel hose",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "10",
+          "part_number": "A46007088050",
+          "description": "Fuel pump",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "11",
+          "part_number": "A46007018044",
+          "description": "Fuel pump",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        }
+      ],
+      "diagram_part_numbers": [
+        "A46007088200",
+        "0017060305",
+        "00050157706",
+        "A46007016000",
+        "5850701050030",
+        "78141013190",
+        "58507012000",
+        "77707010000",
+        "A46007017000",
+        "A46007088050",
+        "A46007018044"
+      ],
+      "diagram_point_count": 14,
+      "missing_table_part_numbers": [],
+      "reconciliation_status": "ALL_DIAGRAM_POINT_PART_NUMBERS_PRESENT_IN_TABLE",
+      "scope_evidence": "Observed official model-specific URL; same modelidentifier 1003417574",
+      "table_status": "ALL_RENDERED_ROWS_ACQUIRED"
+    },
+    {
+      "index": 12,
+      "name": "08\tMASK, FENDERS\t",
+      "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/62504?modelidentifier=1003417574&isEngine=False",
+      "parts": [
+        {
+          "callout": "1",
+          "part_number": "A46008007000EB",
+          "description": "Startnumber plate",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "2",
+          "part_number": "0017060206",
+          "description": "SCREW F.",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 3,
+          "quantity": 3,
+          "is_fastener": true
+        },
+        {
+          "callout": "3",
+          "part_number": "A46008010000EB",
+          "description": "Fender",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "4",
+          "part_number": "0025060166",
+          "description": "HH collar",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 4,
+          "quantity": 4,
+          "is_fastener": true
+        },
+        {
+          "callout": "5",
+          "part_number": "A46008013000EBC",
+          "description": "Rear fender",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "6",
+          "part_number": "83008000012",
+          "description": "special screw",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 2,
+          "quantity": 2,
+          "is_fastener": true
+        },
+        {
+          "callout": "7",
+          "part_number": "79608052000",
+          "description": "BUSH 6X11X16X5",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        }
+      ],
+      "diagram_part_numbers": [
+        "A46008007000EB",
+        "0017060206",
+        "A46008010000EB",
+        "0025060166",
+        "A46008013000EBC",
+        "83008000012",
+        "79608052000"
+      ],
+      "diagram_point_count": 10,
+      "missing_table_part_numbers": [],
+      "reconciliation_status": "ALL_DIAGRAM_POINT_PART_NUMBERS_PRESENT_IN_TABLE",
+      "scope_evidence": "Observed official model-specific URL; same modelidentifier 1003417574",
+      "table_status": "ALL_RENDERED_ROWS_ACQUIRED"
+    },
+    {
+      "index": 13,
+      "name": "08\tDECAL\t",
+      "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/72525?modelidentifier=1003417574&isEngine=False",
+      "parts": [
+        {
+          "callout": "1",
+          "part_number": "A46008091000",
+          "description": "Number plate",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        },
+        {
+          "callout": "2",
+          "part_number": "A46008078026",
+          "description": "Displacement label",
+          "description_status": "ABBREVIATED_CATALOG_LABEL",
+          "catalog_quantity": 1,
+          "quantity": 1,
+          "is_fastener": false
+        }
+      ],
+      "diagram_part_numbers": [
+        "A46008091000",
+        "A46008078026"
+      ],
+      "diagram_point_count": 2,
+      "missing_table_part_numbers": [],
+      "reconciliation_status": "ALL_DIAGRAM_POINT_PART_NUMBERS_PRESENT_IN_TABLE",
+      "scope_evidence": "Observed official model-specific URL; same modelidentifier 1003417574",
+      "table_status": "ALL_RENDERED_ROWS_ACQUIRED"
+    }
+  ]
+}

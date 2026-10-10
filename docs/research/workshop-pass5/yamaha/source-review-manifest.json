@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-pass5-2025-fork",
+  "reviewed_at": "2026-09-13",
+  "database_writes": false,
+  "sources": [
+    {
+      "id": "yamaha25",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf",
+      "local_pdf_path": "C:/Users/kylej/AppData/Local/Temp/D02-2819U-10_02.pdf",
+      "sha256": "5005e7d8492c9482dfe44c6d752609a9a70a836f5b1dc94be3149d5d493de8ac"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "yz450f-2025-fork-oil-seals-bushings-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "5ba3c015673bf3ec962478ab4df3b2e4fa24d77bb0e4266afcccdd73150088bb",
+      "source_id": "yamaha25",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 53
+    }
+  ]
+}

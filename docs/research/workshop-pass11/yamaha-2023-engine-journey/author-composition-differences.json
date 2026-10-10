@@ -1,0 +1,27 @@
+{
+  "status": "AUTHOR_REVIEW_NOT_APPROVAL",
+  "changes": [
+    {
+      "step": "access-engine-cooling-fill",
+      "field": "instruction",
+      "2024": "Use the specified aluminum-compatible ethylene-glycol antifreeze and distilled water at a final 1:1 coolant-to-water ratio. Do not mix antifreeze types. Fill to the maximum level illustrated in PDF100. The complete system nominal volume is 1.03 L including all routes; correct level and concentration govern, not forcing in that amount after an incomplete drain. Wash any spill on paint away immediately with water.",
+      "2023": "Use the specified aluminum-compatible ethylene-glycol antifreeze and distilled water at a final 1:1 coolant-to-water ratio. Do not mix antifreeze types. Fill to the maximum level illustrated in PDF99. The complete system nominal volume is 1.03 L including all routes; correct level and concentration govern, not forcing in that amount after an incomplete drain. Wash any spill on paint away immediately with water."
+    },
+    {
+      "step": "access-engine-access-body-install",
+      "field": "instruction",
+      "2024": "Locate the radiator-guard projections in the shroud holes, then install the shrouds at 7 N·m. Refit the air-filter-case cover by engaging its projection and both ribs. Slide side-cover tabs into their slots; the right-cover rib sits under the rear-fender rib. Tighten ordinary left/right side-cover bolts to 7 N·m and the two seat bolts to 13 N·m. Refit the sub-seat with its tether untwisted, then press, rotate and secure its quick fastener.",
+      "2023": "Locate the radiator-guard projections in the shroud holes, then install the shrouds at 7 N·m. Refit the air-filter-case cover by engaging its projection and both ribs. Slide side-cover tabs into their slots; the right-cover rib sits under the rear-fender rib. Tighten ordinary left/right side-cover bolts to 7 N·m and the two seat bolts to 13 N·m. Refit the sub-seat with its tether untwisted, then press, rotate and secure its quick fastener. Restore the fuel-tank breather hose: protected end in the steering-shaft hole, other end on the fuel-cap projection, hose through the cover guide and seated in its groove as shown in PDF96."
+    },
+    {
+      "step": "access-control-renew-idle-check",
+      "field": "instruction",
+      "2024": "Use the correctly configured YDT 90890-03269 (US USB) or 90890-03273 to confirm coolant at 70–80 °C. Measure speed with tachometer 90890-06760 or YU-39951-B, connected as shown to the ignition-coil high-tension lead. With the starter knob fully returned and normal filter/compression/free play, verify 1900–2100 r/min. If necessary, adjust the idle screw; clockwise raises speed.",
+      "2023": "Use the correctly configured YDT 90890-03269 (US USB) or 90890-03264 to confirm coolant at 70–80 °C. Measure speed with tachometer 90890-06760 or YU-39951-B, connected as shown to the ignition-coil high-tension lead. With the starter knob fully returned and normal filter/compression/free play, verify 1900–2100 r/min. If necessary, adjust the idle screw; clockwise raises speed."
+    }
+  ],
+  "notes": [
+    "All unchanged structure remains independently bound to exact2023 approved sources, not2024 authority.",
+    "Changes originate from approved2023 access/engine source reconciliation."
+  ]
+}

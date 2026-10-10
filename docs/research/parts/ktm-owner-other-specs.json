@@ -1,0 +1,1621 @@
+{
+  "schema_version": 1,
+  "applicability": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2025,
+    "variant": "standard",
+    "region": "US"
+  },
+  "source": {
+    "url": "https://powaypowersports.com/cdn/shop/files/2025-ktm-450sx-f-factory-owners-manual.pdf?v=679135179847397228",
+    "sha256": "a24efdc2f908cc4c3764ee133bcdf6957b6caaebfee4587e847f3b2fe2456a33",
+    "revision": "3240045en / 2025-01-22",
+    "publisher": "KTM",
+    "host": "Poway Powersports",
+    "review_method": "Rendered PDF pages visually checked, including table columns, market headings and tolerance superscripts."
+  },
+  "facts": [
+    {
+      "id": "ktm25-owner-displacement",
+      "joint": "Engine displacement",
+      "property": "other",
+      "value": "449.9",
+      "unit": "cm3",
+      "conditions": [],
+      "printed_page": 149,
+      "domain": "engine_mechanical",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-stroke",
+      "joint": "Crank stroke",
+      "property": "dimensions",
+      "value": "63.4",
+      "unit": "mm",
+      "conditions": [],
+      "printed_page": 149,
+      "domain": "engine_mechanical",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-bore",
+      "joint": "Cylinder nominal bore",
+      "property": "dimensions",
+      "value": "95",
+      "unit": "mm",
+      "conditions": [
+        "Nominal bore, not a cylinder wear limit."
+      ],
+      "printed_page": 149,
+      "domain": "engine_mechanical",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-idle",
+      "joint": "Engine idle speed",
+      "property": "other",
+      "value": "2200\u20132300",
+      "unit": "rpm",
+      "conditions": [],
+      "printed_page": 149,
+      "domain": "engine_mechanical",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-compression",
+      "joint": "Geometric compression ratio",
+      "property": "other",
+      "value": "13.6:1",
+      "unit": null,
+      "conditions": [
+        "Not compression-test pressure."
+      ],
+      "printed_page": 149,
+      "domain": "engine_mechanical",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-intake-valve-diameter",
+      "joint": "intake valve head diameter",
+      "property": "dimensions",
+      "value": "40",
+      "unit": "mm",
+      "conditions": [],
+      "printed_page": 149,
+      "domain": "engine_mechanical",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-intake-valve-clearance",
+      "joint": "intake valve clearance",
+      "property": "clearance_wear_limit",
+      "value": "0.10\u20130.15",
+      "unit": "mm",
+      "conditions": [
+        "At 20 degrees C.",
+        "Valve-train operating clearance, not valve-to-guide clearance."
+      ],
+      "printed_page": 149,
+      "domain": "engine_mechanical",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-exhaust-valve-diameter",
+      "joint": "exhaust valve head diameter",
+      "property": "dimensions",
+      "value": "33",
+      "unit": "mm",
+      "conditions": [],
+      "printed_page": 149,
+      "domain": "engine_mechanical",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-exhaust-valve-clearance",
+      "joint": "exhaust valve clearance",
+      "property": "clearance_wear_limit",
+      "value": "0.12\u20130.17",
+      "unit": "mm",
+      "conditions": [
+        "At 20 degrees C.",
+        "Valve-train operating clearance, not valve-to-guide clearance."
+      ],
+      "printed_page": 149,
+      "domain": "engine_mechanical",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-primary",
+      "joint": "Primary tooth ratio",
+      "property": "other",
+      "value": "29:72",
+      "unit": null,
+      "conditions": [],
+      "printed_page": 149,
+      "domain": "final_drive_gearing",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-gear-1",
+      "joint": "Transmission gear 1 tooth ratio",
+      "property": "other",
+      "value": "14:28",
+      "unit": null,
+      "conditions": [
+        "Five-speed SX-F transmission only."
+      ],
+      "printed_page": 149,
+      "domain": "transmission",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-gear-2",
+      "joint": "Transmission gear 2 tooth ratio",
+      "property": "other",
+      "value": "16:26",
+      "unit": null,
+      "conditions": [
+        "Five-speed SX-F transmission only."
+      ],
+      "printed_page": 149,
+      "domain": "transmission",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-gear-3",
+      "joint": "Transmission gear 3 tooth ratio",
+      "property": "other",
+      "value": "18:24",
+      "unit": null,
+      "conditions": [
+        "Five-speed SX-F transmission only."
+      ],
+      "printed_page": 149,
+      "domain": "transmission",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-gear-4",
+      "joint": "Transmission gear 4 tooth ratio",
+      "property": "other",
+      "value": "21:24",
+      "unit": null,
+      "conditions": [
+        "Five-speed SX-F transmission only."
+      ],
+      "printed_page": 149,
+      "domain": "transmission",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-gear-5",
+      "joint": "Transmission gear 5 tooth ratio",
+      "property": "other",
+      "value": "22:21",
+      "unit": null,
+      "conditions": [
+        "Five-speed SX-F transmission only."
+      ],
+      "printed_page": 149,
+      "domain": "transmission",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-alternator",
+      "joint": "Alternator output",
+      "property": "other",
+      "value": "14 V; 70 W",
+      "unit": null,
+      "conditions": [
+        "System rating, not individual rotor or stator winding resistance."
+      ],
+      "printed_page": 149,
+      "domain": "electrical",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-plug-identity",
+      "joint": "Spark plug identity",
+      "property": "other",
+      "value": "NGK LMAR9AI-10",
+      "unit": null,
+      "conditions": [],
+      "printed_page": 149,
+      "domain": "ignition",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-plug-gap",
+      "joint": "Spark plug electrode gap",
+      "property": "clearance_wear_limit",
+      "value": "1.0",
+      "unit": "mm",
+      "conditions": [],
+      "printed_page": 149,
+      "domain": "ignition",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-oil-capacity",
+      "joint": "Engine oil capacity",
+      "property": "other",
+      "value": "1.20",
+      "unit": "L",
+      "conditions": [
+        "Capacity table; verify oil level using section 18.1 and follow oil-change procedure."
+      ],
+      "printed_page": 152,
+      "domain": "lubrication",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-coolant-capacity",
+      "joint": "Cooling system capacity",
+      "property": "other",
+      "value": "0.95",
+      "unit": "L",
+      "conditions": [
+        "Entire system capacity, not an individual radiator capacity."
+      ],
+      "printed_page": 152,
+      "domain": "cooling",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-fuel-capacity",
+      "joint": "Fuel tank capacity",
+      "property": "other",
+      "value": "7.2",
+      "unit": "L",
+      "conditions": [
+        "Approximate; SX-F tank."
+      ],
+      "printed_page": 152,
+      "domain": "fuel",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-frame-material",
+      "joint": "Frame construction",
+      "property": "material_grade",
+      "value": "Chrome-moly steel tubing; central-tube design",
+      "unit": null,
+      "conditions": [],
+      "printed_page": 152,
+      "domain": "chassis",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-front-travel",
+      "joint": "Front suspension travel",
+      "property": "dimensions",
+      "value": "310",
+      "unit": "mm",
+      "conditions": [],
+      "printed_page": 152,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-rear-travel",
+      "joint": "Rear suspension travel",
+      "property": "dimensions",
+      "value": "300",
+      "unit": "mm",
+      "conditions": [],
+      "printed_page": 152,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-fork-offset",
+      "joint": "Fork offset",
+      "property": "dimensions",
+      "value": "22",
+      "unit": "mm",
+      "conditions": [],
+      "printed_page": 152,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-front-disc-diameter",
+      "joint": "front brake disc diameter",
+      "property": "dimensions",
+      "value": "260",
+      "unit": "mm",
+      "conditions": [],
+      "printed_page": 152,
+      "domain": "brakes",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-front-disc-wear",
+      "joint": "front brake disc minimum thickness",
+      "property": "clearance_wear_limit",
+      "value": "2.5",
+      "unit": "mm",
+      "conditions": [
+        "Wear limit, not new-disc nominal thickness."
+      ],
+      "printed_page": 152,
+      "domain": "brakes",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-front-tire-pressure",
+      "joint": "front tire pressure",
+      "property": "other",
+      "value": "1.0",
+      "unit": "bar",
+      "conditions": [
+        "Offroad specification; not a universal tire-specific recommendation."
+      ],
+      "printed_page": 152,
+      "domain": "wheels_tires",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-rear-disc-diameter",
+      "joint": "rear brake disc diameter",
+      "property": "dimensions",
+      "value": "220",
+      "unit": "mm",
+      "conditions": [],
+      "printed_page": 152,
+      "domain": "brakes",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-rear-disc-wear",
+      "joint": "rear brake disc minimum thickness",
+      "property": "clearance_wear_limit",
+      "value": "3.5",
+      "unit": "mm",
+      "conditions": [
+        "Wear limit, not new-disc nominal thickness."
+      ],
+      "printed_page": 152,
+      "domain": "brakes",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-rear-tire-pressure",
+      "joint": "rear tire pressure",
+      "property": "other",
+      "value": "1.0",
+      "unit": "bar",
+      "conditions": [
+        "Offroad specification; not a universal tire-specific recommendation."
+      ],
+      "printed_page": 152,
+      "domain": "wheels_tires",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-secondary",
+      "joint": "Final-drive tooth ratio",
+      "property": "other",
+      "value": "13:51",
+      "unit": null,
+      "conditions": [
+        "Original SX-F gearing; aftermarket changes require actual tooth counts."
+      ],
+      "printed_page": 152,
+      "domain": "final_drive_gearing",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-chain-size",
+      "joint": "Drive-chain pitch and inner width",
+      "property": "dimensions",
+      "value": "5/8 x 1/4",
+      "unit": "inch",
+      "conditions": [],
+      "printed_page": 152,
+      "domain": "final_drive_gearing",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-steering-angle",
+      "joint": "Steering head angle",
+      "property": "other",
+      "value": "63.9",
+      "unit": "degrees",
+      "conditions": [
+        "OEM angle convention; do not relabel as rake from vertical."
+      ],
+      "printed_page": 152,
+      "domain": "chassis",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-wheelbase",
+      "joint": "Wheelbase",
+      "property": "other",
+      "value": "1493 +/- 10",
+      "unit": "mm",
+      "conditions": [
+        "OEM technical table."
+      ],
+      "printed_page": 153,
+      "domain": "chassis",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-ground-clearance",
+      "joint": "Ground clearance",
+      "property": "other",
+      "value": "343",
+      "unit": "mm",
+      "conditions": [
+        "Unloaded."
+      ],
+      "printed_page": 153,
+      "domain": "chassis",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-seat-height",
+      "joint": "Seat height",
+      "property": "other",
+      "value": "958",
+      "unit": "mm",
+      "conditions": [
+        "Unloaded."
+      ],
+      "printed_page": 153,
+      "domain": "chassis",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-dry-mass",
+      "joint": "Mass without fuel",
+      "property": "other",
+      "value": "102.6",
+      "unit": "kg",
+      "conditions": [
+        "Approximate; standard SX-F, not Factory Edition."
+      ],
+      "printed_page": 153,
+      "domain": "chassis",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-front-load",
+      "joint": "Maximum front axle load",
+      "property": "other",
+      "value": "145",
+      "unit": "kg",
+      "conditions": [
+        "OEM technical table."
+      ],
+      "printed_page": 153,
+      "domain": "chassis",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-rear-load",
+      "joint": "Maximum rear axle load",
+      "property": "other",
+      "value": "190",
+      "unit": "kg",
+      "conditions": [
+        "OEM technical table."
+      ],
+      "printed_page": 153,
+      "domain": "chassis",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-max-mass",
+      "joint": "Maximum overall mass",
+      "property": "other",
+      "value": "335",
+      "unit": "kg",
+      "conditions": [
+        "OEM technical table."
+      ],
+      "printed_page": 153,
+      "domain": "chassis",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-battery",
+      "joint": "Battery specification",
+      "property": "other",
+      "value": "HJTZ5S-FP-C; lithium-ion; 12 V; 2.0 Ah",
+      "unit": null,
+      "conditions": [],
+      "printed_page": 153,
+      "domain": "electrical",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-fuse10",
+      "joint": "Fuse 58011109110 current rating",
+      "property": "other",
+      "value": "10",
+      "unit": "A",
+      "conditions": [],
+      "printed_page": 153,
+      "domain": "electrical",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-fuse5",
+      "joint": "Fuse 58011109105 current rating",
+      "property": "other",
+      "value": "5",
+      "unit": "A",
+      "conditions": [
+        "Manual entry; catalog occurrence not yet matched."
+      ],
+      "printed_page": 153,
+      "domain": "electrical",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-front-tire",
+      "joint": "Original front tire",
+      "property": "other",
+      "value": "80/100-21 51M TT; Dunlop GEOMAX MX34F",
+      "unit": null,
+      "conditions": [
+        "One possible production fitment; standard SX-F US."
+      ],
+      "printed_page": 153,
+      "domain": "wheels_tires",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-rear-tire",
+      "joint": "Original rear tire",
+      "property": "other",
+      "value": "110/90-19 62M TT; Dunlop GEOMAX MX34",
+      "unit": null,
+      "conditions": [
+        "One possible production fitment; excludes Factory Edition rear size."
+      ],
+      "printed_page": 153,
+      "domain": "wheels_tires",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-fork-identity",
+      "joint": "US fork assembly",
+      "property": "other",
+      "value": "A460C159Y406000; WP XACT AER",
+      "unit": null,
+      "conditions": [
+        "US SX-F; EU fork part number differs."
+      ],
+      "printed_page": 154,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-fork-pressure",
+      "joint": "Fork air pressure",
+      "property": "other",
+      "value": "10.5",
+      "unit": "bar",
+      "conditions": [
+        "US stock baseline; procedure section10.13."
+      ],
+      "printed_page": 154,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-fork-length",
+      "joint": "Fork length",
+      "property": "dimensions",
+      "value": "950",
+      "unit": "mm",
+      "conditions": [],
+      "printed_page": 154,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-fork-outer-oil-right",
+      "joint": "right fork outer chamber oil",
+      "property": "other",
+      "value": "240 +10/-50",
+      "unit": "mL",
+      "conditions": [
+        "SAE 4; OEM fluid 48601166S1.",
+        "Tolerance visually verified; text extraction reverses upper/lower tolerances.",
+        "Chamber-specific capacity, not cartridge fill."
+      ],
+      "printed_page": 154,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-fork-outer-oil-left",
+      "joint": "left fork outer chamber oil",
+      "property": "other",
+      "value": "240 +10/-50",
+      "unit": "mL",
+      "conditions": [
+        "SAE 4; OEM fluid 48601166S1.",
+        "Tolerance visually verified; text extraction reverses upper/lower tolerances.",
+        "Chamber-specific capacity, not cartridge fill."
+      ],
+      "printed_page": 154,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-fork-cartridge-oil",
+      "joint": "Right fork cartridge oil",
+      "property": "other",
+      "value": "380",
+      "unit": "mL",
+      "conditions": [
+        "SAE 4; OEM fluid 48601166S1."
+      ],
+      "printed_page": 154,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-fork-cartridge-grease",
+      "joint": "Left fork cartridge grease",
+      "property": "other",
+      "value": "5",
+      "unit": "g",
+      "conditions": [
+        "Special grease 00062010053."
+      ],
+      "printed_page": 154,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-fork-compression-comfort",
+      "joint": "Fork compression comfort",
+      "property": "other",
+      "value": "17",
+      "unit": "clicks",
+      "conditions": [
+        "US fork settings.",
+        "Count counterclockwise from clockwise stop; section10.14/10.15, printed47\u201349."
+      ],
+      "printed_page": 154,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-fork-compression-standard",
+      "joint": "Fork compression standard",
+      "property": "other",
+      "value": "12",
+      "unit": "clicks",
+      "conditions": [
+        "US fork settings.",
+        "Count counterclockwise from clockwise stop; section10.14/10.15, printed47\u201349."
+      ],
+      "printed_page": 154,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-fork-compression-sport",
+      "joint": "Fork compression sport",
+      "property": "other",
+      "value": "7",
+      "unit": "clicks",
+      "conditions": [
+        "US fork settings.",
+        "Count counterclockwise from clockwise stop; section10.14/10.15, printed47\u201349."
+      ],
+      "printed_page": 154,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-fork-rebound-comfort",
+      "joint": "Fork rebound comfort",
+      "property": "other",
+      "value": "23",
+      "unit": "clicks",
+      "conditions": [
+        "US fork settings.",
+        "Count counterclockwise from clockwise stop; section10.14/10.15, printed47\u201349."
+      ],
+      "printed_page": 154,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-fork-rebound-standard",
+      "joint": "Fork rebound standard",
+      "property": "other",
+      "value": "18",
+      "unit": "clicks",
+      "conditions": [
+        "US fork settings.",
+        "Count counterclockwise from clockwise stop; section10.14/10.15, printed47\u201349."
+      ],
+      "printed_page": 154,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-fork-rebound-sport",
+      "joint": "Fork rebound sport",
+      "property": "other",
+      "value": "13",
+      "unit": "clicks",
+      "conditions": [
+        "US fork settings.",
+        "Count counterclockwise from clockwise stop; section10.14/10.15, printed47\u201349."
+      ],
+      "printed_page": 154,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-shock-identity",
+      "joint": "US shock assembly",
+      "property": "other",
+      "value": "A460C459Y408000; WP XACT LDS",
+      "unit": null,
+      "conditions": [],
+      "printed_page": 155,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-shock-low-speed-compression-comfort",
+      "joint": "Shock low-speed compression comfort",
+      "property": "other",
+      "value": "17",
+      "unit": "clicks",
+      "conditions": [
+        "Counterclockwise from clockwise stop; printed40.",
+        "US original shock only."
+      ],
+      "printed_page": 156,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-shock-low-speed-compression-standard",
+      "joint": "Shock low-speed compression standard",
+      "property": "other",
+      "value": "15",
+      "unit": "clicks",
+      "conditions": [
+        "Counterclockwise from clockwise stop; printed40.",
+        "US original shock only."
+      ],
+      "printed_page": 156,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-shock-low-speed-compression-sport",
+      "joint": "Shock low-speed compression sport",
+      "property": "other",
+      "value": "13",
+      "unit": "clicks",
+      "conditions": [
+        "Counterclockwise from clockwise stop; printed40.",
+        "US original shock only."
+      ],
+      "printed_page": 156,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-shock-high-speed-compression-comfort",
+      "joint": "Shock high-speed compression comfort",
+      "property": "other",
+      "value": "2",
+      "unit": "turns",
+      "conditions": [
+        "Counterclockwise from clockwise stop; printed41.",
+        "US original shock only."
+      ],
+      "printed_page": 156,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-shock-high-speed-compression-standard",
+      "joint": "Shock high-speed compression standard",
+      "property": "other",
+      "value": "1.5",
+      "unit": "turns",
+      "conditions": [
+        "Counterclockwise from clockwise stop; printed41.",
+        "US original shock only."
+      ],
+      "printed_page": 156,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-shock-high-speed-compression-sport",
+      "joint": "Shock high-speed compression sport",
+      "property": "other",
+      "value": "1",
+      "unit": "turns",
+      "conditions": [
+        "Counterclockwise from clockwise stop; printed41.",
+        "US original shock only."
+      ],
+      "printed_page": 156,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-shock-rebound-comfort",
+      "joint": "Shock rebound comfort",
+      "property": "other",
+      "value": "17",
+      "unit": "clicks",
+      "conditions": [
+        "Counterclockwise from last perceptible clockwise click; printed42.",
+        "US original shock only."
+      ],
+      "printed_page": 156,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-shock-rebound-standard",
+      "joint": "Shock rebound standard",
+      "property": "other",
+      "value": "15",
+      "unit": "clicks",
+      "conditions": [
+        "Counterclockwise from last perceptible clockwise click; printed42.",
+        "US original shock only."
+      ],
+      "printed_page": 156,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-shock-rebound-sport",
+      "joint": "Shock rebound sport",
+      "property": "other",
+      "value": "13",
+      "unit": "clicks",
+      "conditions": [
+        "Counterclockwise from last perceptible clockwise click; printed42.",
+        "US original shock only."
+      ],
+      "printed_page": 156,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-shock-preload",
+      "joint": "Shock spring preload",
+      "property": "other",
+      "value": "8",
+      "unit": "mm",
+      "conditions": [
+        "OEM US stock setup reference."
+      ],
+      "printed_page": 156,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-shock-spring-length",
+      "joint": "Shock spring length",
+      "property": "other",
+      "value": "240",
+      "unit": "mm",
+      "conditions": [
+        "OEM US stock setup reference."
+      ],
+      "printed_page": 156,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-shock-gas",
+      "joint": "Shock gas pressure",
+      "property": "other",
+      "value": "10",
+      "unit": "bar",
+      "conditions": [
+        "High-pressure nitrogen; qualified suspension service required."
+      ],
+      "printed_page": 156,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-shock-static-sag",
+      "joint": "Static sag",
+      "property": "other",
+      "value": "35",
+      "unit": "mm",
+      "conditions": [
+        "OEM US stock setup reference."
+      ],
+      "printed_page": 156,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-shock-rider-sag",
+      "joint": "Riding sag",
+      "property": "other",
+      "value": "105",
+      "unit": "mm",
+      "conditions": [
+        "OEM US stock setup reference."
+      ],
+      "printed_page": 156,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-shock-length",
+      "joint": "Shock fitted length",
+      "property": "other",
+      "value": "456.3",
+      "unit": "mm",
+      "conditions": [
+        "OEM US stock setup reference."
+      ],
+      "printed_page": 156,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-shock-spring-42",
+      "joint": "Recommended shock spring rate",
+      "property": "other",
+      "value": "42",
+      "unit": "N/mm",
+      "conditions": [
+        "Rider mass 65\u201375 kg.",
+        "Recommendation; not evidence of which spring is installed."
+      ],
+      "printed_page": 156,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-shock-spring-45",
+      "joint": "Recommended shock spring rate",
+      "property": "other",
+      "value": "45",
+      "unit": "N/mm",
+      "conditions": [
+        "Rider mass 75\u201385 kg.",
+        "Recommendation; not evidence of which spring is installed."
+      ],
+      "printed_page": 156,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-shock-spring-48",
+      "joint": "Recommended shock spring rate",
+      "property": "other",
+      "value": "48",
+      "unit": "N/mm",
+      "conditions": [
+        "Rider mass 85\u201395 kg.",
+        "Recommendation; not evidence of which spring is installed."
+      ],
+      "printed_page": 156,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-shock-fluid",
+      "joint": "Shock fluid",
+      "property": "other",
+      "value": "SAE 2.5; 50180751S1",
+      "unit": null,
+      "conditions": [],
+      "printed_page": 156,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-fork-pressure-range",
+      "joint": "Permitted fork air pressure",
+      "property": "other",
+      "value": "7\u201312",
+      "unit": "bar",
+      "conditions": [
+        "Original AER fork only; not a shock nitrogen specification."
+      ],
+      "printed_page": 47,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-fork-pressure-step",
+      "joint": "Fork air-pressure adjustment increment",
+      "property": "other",
+      "value": "0.2",
+      "unit": "bar",
+      "conditions": [],
+      "printed_page": 47,
+      "domain": "suspension",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-chain-tension",
+      "joint": "Chain tension",
+      "property": "clearance_wear_limit",
+      "value": "58\u201361",
+      "unit": "mm",
+      "conditions": [
+        "Bike raised on lift stand.",
+        "Lift chain at end of chain sliding piece; measure A as diagram F03680-10.",
+        "Lower run taut; repeat at multiple chain positions."
+      ],
+      "printed_page": 85,
+      "domain": "final_drive_gearing",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-chain-wear",
+      "joint": "Maximum span of 18 chain rollers",
+      "property": "clearance_wear_limit",
+      "value": "272",
+      "unit": "mm",
+      "conditions": [
+        "Lift stand; neutral.",
+        "Load upper chain with 10\u201315 kg; measure lower run from roller1 to18 per diagram400987-10.",
+        "Repeat around chain; evaluate longest span."
+      ],
+      "printed_page": 87,
+      "domain": "final_drive_gearing",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-chain-replacement",
+      "joint": "Worn chain/drivetrain replacement",
+      "property": "replacement_rule",
+      "value": "Replace chain and both sprockets together",
+      "unit": null,
+      "conditions": [
+        "When chain or sprocket wear requires replacement."
+      ],
+      "printed_page": 87,
+      "domain": "final_drive_gearing",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-chain-guide-wear",
+      "joint": "Chain guide minimum C thickness",
+      "property": "clearance_wear_limit",
+      "value": "6",
+      "unit": "mm",
+      "conditions": [
+        "Measure point C with caliper as diagramF03687-10; replace below6mm."
+      ],
+      "printed_page": 88,
+      "domain": "final_drive_gearing",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-front-pad-wear",
+      "joint": "front brake friction material minimum",
+      "property": "clearance_wear_limit",
+      "value": "1",
+      "unit": "mm",
+      "conditions": [
+        "Minimum lining thickness; excludes backing plate.",
+        "Replace below limit or for damage/cracking."
+      ],
+      "printed_page": 97,
+      "domain": "brakes",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-rear-pad-wear",
+      "joint": "rear brake friction material minimum",
+      "property": "clearance_wear_limit",
+      "value": "1",
+      "unit": "mm",
+      "conditions": [
+        "Minimum lining thickness; excludes backing plate.",
+        "Replace below limit or for damage/cracking."
+      ],
+      "printed_page": 104,
+      "domain": "brakes",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-front-brake-level",
+      "joint": "Front brake reservoir fill distance below rim",
+      "property": "other",
+      "value": "5",
+      "unit": "mm",
+      "conditions": [
+        "Reservoir level/horizontal; cover and membrane removed.",
+        "DOT4 or DOT5.1 brake fluid."
+      ],
+      "printed_page": 97,
+      "domain": "brakes",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-coolant-type",
+      "joint": "Coolant requirements",
+      "property": "other",
+      "value": "Silicate-free; aluminum corrosion inhibitor; freeze protection to at least -25 C",
+      "unit": null,
+      "conditions": [
+        "No plain-water fill.",
+        "Follow coolant maker dilution/mixing guidance; distilled water when dilution needed."
+      ],
+      "printed_page": 162,
+      "domain": "cooling",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-oil-type",
+      "joint": "Engine oil requirements",
+      "property": "other",
+      "value": "Fully synthetic SAE10W/50; JASO T903 MA2",
+      "unit": null,
+      "conditions": [],
+      "printed_page": 162,
+      "domain": "lubrication",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-fuel-grade",
+      "joint": "US fuel requirement",
+      "property": "other",
+      "value": "DIN EN228 ROZ95; unleaded; ethanol <=10%; no methanol",
+      "unit": null,
+      "conditions": [
+        "ROZ/RON rating, not US pump AKI95.",
+        "Brazil RON95/97 ethanol exception excluded."
+      ],
+      "printed_page": 163,
+      "domain": "fuel",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-service-oil",
+      "joint": "Engine oil/filter change and screens clean",
+      "property": "service_interval",
+      "value": "After1h; every15h; included45h/90h; every24months",
+      "unit": null,
+      "conditions": [
+        "OEM schedule revision2025-01-22; subject to local conditions and later manufacturer revisions.",
+        "Harsh use may require shorter intervals; scheduled work is not a universal failure deadline."
+      ],
+      "printed_page": 37,
+      "domain": "maintenance",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-service-brake-fluid",
+      "joint": "Front/rear brake-fluid replacement",
+      "property": "service_interval",
+      "value": "Every90h or24months",
+      "unit": null,
+      "conditions": [
+        "OEM schedule revision2025-01-22; subject to local conditions and later manufacturer revisions.",
+        "Harsh use may require shorter intervals; scheduled work is not a universal failure deadline."
+      ],
+      "printed_page": 37,
+      "domain": "maintenance",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-service-clutch-fluid",
+      "joint": "Clutch hydraulic-fluid replacement",
+      "property": "service_interval",
+      "value": "Every90h or24months",
+      "unit": null,
+      "conditions": [
+        "OEM schedule revision2025-01-22; subject to local conditions and later manufacturer revisions.",
+        "Harsh use may require shorter intervals; scheduled work is not a universal failure deadline."
+      ],
+      "printed_page": 37,
+      "domain": "maintenance",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-service-plug",
+      "joint": "Spark plug and connector replacement",
+      "property": "service_interval",
+      "value": "Every45h; included90h",
+      "unit": null,
+      "conditions": [
+        "OEM schedule revision2025-01-22; subject to local conditions and later manufacturer revisions.",
+        "Harsh use may require shorter intervals; scheduled work is not a universal failure deadline."
+      ],
+      "printed_page": 38,
+      "domain": "maintenance",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-service-valves",
+      "joint": "Valve clearance inspection",
+      "property": "service_interval",
+      "value": "After1h; every45h; included90h",
+      "unit": null,
+      "conditions": [
+        "OEM schedule revision2025-01-22; subject to local conditions and later manufacturer revisions.",
+        "Harsh use may require shorter intervals; scheduled work is not a universal failure deadline."
+      ],
+      "printed_page": 38,
+      "domain": "maintenance",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-service-fork",
+      "joint": "SX-F fork service",
+      "property": "service_interval",
+      "value": "Every45h; included90h",
+      "unit": null,
+      "conditions": [
+        "OEM schedule revision2025-01-22; subject to local conditions and later manufacturer revisions.",
+        "Harsh use may require shorter intervals; scheduled work is not a universal failure deadline."
+      ],
+      "printed_page": 38,
+      "domain": "maintenance",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-service-shock",
+      "joint": "Shock service",
+      "property": "service_interval",
+      "value": "Every45h; included90h",
+      "unit": null,
+      "conditions": [
+        "OEM schedule revision2025-01-22; subject to local conditions and later manufacturer revisions.",
+        "Harsh use may require shorter intervals; scheduled work is not a universal failure deadline."
+      ],
+      "printed_page": 38,
+      "domain": "maintenance",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-service-fuel-filter",
+      "joint": "Fuel filter replacement",
+      "property": "service_interval",
+      "value": "Every90h or24months",
+      "unit": null,
+      "conditions": [
+        "OEM schedule revision2025-01-22; subject to local conditions and later manufacturer revisions.",
+        "Harsh use may require shorter intervals; scheduled work is not a universal failure deadline."
+      ],
+      "printed_page": 38,
+      "domain": "maintenance",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-service-air-filter",
+      "joint": "Air filter and box cleaning",
+      "property": "service_interval",
+      "value": "Every15h; included45h/90h; every24months",
+      "unit": null,
+      "conditions": [
+        "OEM schedule revision2025-01-22; subject to local conditions and later manufacturer revisions.",
+        "Harsh use may require shorter intervals; scheduled work is not a universal failure deadline."
+      ],
+      "printed_page": 38,
+      "domain": "maintenance",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-service-coolant",
+      "joint": "Coolant replacement",
+      "property": "service_interval",
+      "value": "Every24months",
+      "unit": null,
+      "conditions": [
+        "OEM schedule revision2025-01-22; subject to local conditions and later manufacturer revisions.",
+        "Harsh use may require shorter intervals; scheduled work is not a universal failure deadline."
+      ],
+      "printed_page": 38,
+      "domain": "maintenance",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-service-minor-engine",
+      "joint": "Minor engine service",
+      "property": "service_interval",
+      "value": "Every45h; included90h",
+      "unit": null,
+      "conditions": [
+        "OEM schedule revision2025-01-22; subject to local conditions and later manufacturer revisions.",
+        "Harsh use may require shorter intervals; scheduled work is not a universal failure deadline."
+      ],
+      "printed_page": 38,
+      "domain": "maintenance",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    },
+    {
+      "id": "ktm25-owner-service-major-engine",
+      "joint": "Major engine service",
+      "property": "service_interval",
+      "value": "Every90h",
+      "unit": null,
+      "conditions": [
+        "OEM schedule revision2025-01-22; subject to local conditions and later manufacturer revisions.",
+        "Harsh use may require shorter intervals; scheduled work is not a universal failure deadline."
+      ],
+      "printed_page": 38,
+      "domain": "maintenance",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained."
+    }
+  ],
+  "mappings": [
+    {
+      "fact_id": "ktm25-owner-intake-valve-diameter",
+      "assembly_id": "official-35",
+      "callout": "1",
+      "part_number": "79536030000",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-intake-valve-clearance",
+      "assembly_id": "official-35",
+      "callout": "1",
+      "part_number": "79536030000",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-exhaust-valve-diameter",
+      "assembly_id": "official-35",
+      "callout": "2",
+      "part_number": "79536031000",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-exhaust-valve-clearance",
+      "assembly_id": "official-35",
+      "callout": "2",
+      "part_number": "79536031000",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-plug-identity",
+      "assembly_id": "official-39",
+      "callout": "13",
+      "part_number": "77839093000",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-plug-gap",
+      "assembly_id": "official-39",
+      "callout": "13",
+      "part_number": "77839093000",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-front-disc-diameter",
+      "assembly_id": "official-14",
+      "callout": "20",
+      "part_number": "79009060000",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-front-disc-wear",
+      "assembly_id": "official-14",
+      "callout": "20",
+      "part_number": "79009060000",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-rear-disc-diameter",
+      "assembly_id": "official-15",
+      "callout": "11",
+      "part_number": "79010060000",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-rear-disc-wear",
+      "assembly_id": "official-15",
+      "callout": "11",
+      "part_number": "79010060000",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-chain-size",
+      "assembly_id": "official-15",
+      "callout": "23",
+      "part_number": "50310165118",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-battery",
+      "assembly_id": "official-16",
+      "callout": "26",
+      "part_number": "79111053000",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-fuse10",
+      "assembly_id": "official-16",
+      "callout": "23",
+      "part_number": "58011109110",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-shock-identity",
+      "assembly_id": "official-4",
+      "callout": "1",
+      "part_number": "A460C459Y408000",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-shock-low-speed-compression-comfort",
+      "assembly_id": "official-4",
+      "callout": "1",
+      "part_number": "A460C459Y408000",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-shock-low-speed-compression-standard",
+      "assembly_id": "official-4",
+      "callout": "1",
+      "part_number": "A460C459Y408000",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-shock-low-speed-compression-sport",
+      "assembly_id": "official-4",
+      "callout": "1",
+      "part_number": "A460C459Y408000",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-shock-high-speed-compression-comfort",
+      "assembly_id": "official-4",
+      "callout": "1",
+      "part_number": "A460C459Y408000",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-shock-high-speed-compression-standard",
+      "assembly_id": "official-4",
+      "callout": "1",
+      "part_number": "A460C459Y408000",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-shock-high-speed-compression-sport",
+      "assembly_id": "official-4",
+      "callout": "1",
+      "part_number": "A460C459Y408000",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-shock-rebound-comfort",
+      "assembly_id": "official-4",
+      "callout": "1",
+      "part_number": "A460C459Y408000",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-shock-rebound-standard",
+      "assembly_id": "official-4",
+      "callout": "1",
+      "part_number": "A460C459Y408000",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-shock-rebound-sport",
+      "assembly_id": "official-4",
+      "callout": "1",
+      "part_number": "A460C459Y408000",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-shock-preload",
+      "assembly_id": "official-4",
+      "callout": "1",
+      "part_number": "A460C459Y408000",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-shock-spring-length",
+      "assembly_id": "official-4",
+      "callout": "1",
+      "part_number": "A460C459Y408000",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-shock-gas",
+      "assembly_id": "official-4",
+      "callout": "1",
+      "part_number": "A460C459Y408000",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-shock-length",
+      "assembly_id": "official-4",
+      "callout": "1",
+      "part_number": "A460C459Y408000",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-shock-fluid",
+      "assembly_id": "official-5",
+      "callout": "98",
+      "part_number": "50180751S1",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-chain-tension",
+      "assembly_id": "official-15",
+      "callout": "23",
+      "part_number": "50310165118",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-chain-wear",
+      "assembly_id": "official-15",
+      "callout": "23",
+      "part_number": "50310165118",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-chain-replacement",
+      "assembly_id": "official-15",
+      "callout": "23",
+      "part_number": "50310165118",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-chain-guide-wear",
+      "assembly_id": "official-7",
+      "callout": "14",
+      "part_number": "A46004070000",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-front-pad-wear",
+      "assembly_id": "official-19",
+      "callout": "9",
+      "part_number": "77713030000",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-rear-pad-wear",
+      "assembly_id": "official-20",
+      "callout": "4",
+      "part_number": "79013090000",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-service-plug",
+      "assembly_id": "official-39",
+      "callout": "13",
+      "part_number": "77839093000",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    },
+    {
+      "fact_id": "ktm25-owner-service-shock",
+      "assembly_id": "official-4",
+      "callout": "1",
+      "part_number": "A460C459Y408000",
+      "review_note": "Exact OEM catalog assembly/callout/part number identifies this component; manual specification applies to this installed component, not all similarly named parts."
+    }
+  ],
+  "limitations": [
+    "Facts are bounded paraphrased engineering data; no manual redistribution.",
+    "Bike-level facts do not fill every part slot.",
+    "US fork master catalog occurrence is SPNO; no fabricated part-number mapping.",
+    "Internal engine rebuild tolerances and detailed service procedures still require repair documentation.",
+    "Service facts preserve original schedule provenance; not a claim that this 2025 revision supersedes later service updates."
+  ]
+}

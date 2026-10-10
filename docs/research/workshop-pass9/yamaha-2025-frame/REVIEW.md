@@ -1,0 +1,26 @@
+Independent root review APPROVED both bounded guides. See independent-review-v1.json for resolved findings and remaining scope. Frozen artifacts must not be overwritten by authoring builders. Historical authoring notes below.
+
+# Exact US 2025 YZ450F frame and engine interfaces
+
+Root independently approved and froze two authored procedures: a 151-step frame/bearing strip and reassembly route, and a 70-step engine-only out/refit route that leaves wheels and suspension assembled. Root integrated both into the local procedure library. Neither is physically validated. The 2026 route supplied editorial sequencing only; its source hash is retained as template provenance, not evidence of 2025 applicability.
+
+The exact OEM source is D02-2819U-10 / LIT-11626-38-16, first edition March 2024, SHA256 `5005e7d8492c9482dfe44c6d752609a9a70a836f5b1dc94be3149d5d493de8ac`. Original PDF and renders remain in Temp. Per-step links point to exact 2025 PDF pages. Motion Pro tools supply attributed standard installation technique; actual mandrel/contact fit remains required. Nick Dole's published gearing article supplies the intact-chain/manual rear-brake holding method only; no impact or heat is adopted.
+
+Actual differences and checks that prevent blind year inheritance:
+
+- Cable clutch: engine cable endpoint PDF244 (5-45), free play 7-12 mm at97, cable adjuster locknut4.3 Nm at98, engine-end cable locknut7 Nm at58. No hydraulic release, slave O-ring or silicone-grease step.
+- Fork projection5 mm on165/176/181, not2026's2 mm. Original clickers are recorded/restored; no2026 rebound baseline applied.
+- Upper chain roller has a separate16 Nm bolt (62); no2026 rear-frame bolt pin/washer retention. Four rear-frame bolts38 Nm. Right side cover uses the single projection/slot on125.
+- Handlebar routing70-71 puts clutch cable and both switch leads LEFT of the plate bracket; switch-lead tie locks UP and ends forward, uncut. Protector tie lock is down. Rear negative lead runs OUTSIDE relay/starter lead per66-67. Engine-side cable protector, grommet tie and push-lever clearance follow64-65.
+- Oil independently checked49/95-97:0.94 L unchanged filter,0.96 L filter removal,1.20 L disassembled; drains10/20 Nm, new gaskets and filler O-ring. Final level procedure preserves10-minute warm-up/60 C,10-second run and settling. No unsupported temperature-to-grade chart is asserted.
+- Coolant104-105:1.03 L nominal,1:1 mixture, drain10 Nm. Retained-head-gasket pressure test288-289:137.3 kPa,5-10 seconds. A separate head-gasket replacement has its own explicit post-three-minute-warm-up requirement and must not be considered checked by this route's cold test.
+- Exact2025 steering178-181, wheels126-135, linkage184/186, swingarm190-192 and eyes183/187 were visually reviewed. Front flush seals and left-first bearing; rear approximate1 mm seals/right-first single bearing/new clip/spacer/two left bearings remain distinct. Steering38/one turn/7 then stem145; swingarm6.5 mm inner bearing and0-0.5 mm seals; linkage0 mm bearing faces; lower eye outer race dry and seal/collar dimension>=0.3 mm all retained from2025 evidence.
+- Engine mount and exhaust diagrams202/204-209, ground217 and starter240 visually reviewed. Cable/clamp/body diagrams158/160/163-164,299-300 and radiators286-287 visually reviewed. Exact directions, mount torque groups and port protection retained.
+
+Order audit: old chain and mounted brake hold the initial sprocket nut before teardown; final nut90 Nm/LOCTITE/new washer happens after rear-wheel and brake closure. One shared engine/swingarm pivot removal/refit in broad route. Bearings are renewed at exposed-frame bench stage. Both wheels and rear suspension precede front axle seating. Oil-flow check precedes warm operating checks; full cooling precedes opening radiator cap. Every measurement/assessment requires a record. Hydraulic brake circuits, bonded pads and engine/fork/shock internals remain outside the frame renewal operation.
+
+Run `python validate.py` for read-only hash/target/order checks; `--approved` verifies the frozen independent review and its exact source/artifact bindings. Passing validation establishes artifact consistency, not physical repair success or launch readiness.
+
+Independent review corrections now incorporated: exhaust-port gasket terminology; upper shock-eye dust-seal lips use M grease while O-rings use LS; both new pedal-pivot O-rings are preflight parts and installed explicitly; cooling system receives the OEM clean-water flush and complete drain before refill; frame removal explicitly releases/reconnects the three throttle-body sensor/injector couplers before independently moving the loom and body. The engine-only route keeps those couplers connected with the body supported within free wire reach.
+
+Engine-only composition interface: stages1-31 (`engine-initial-record` through `engine-engine-out`) reach the supported engine bench. A separate measured internal job may run there. Stage32 (`engine-bench-record`) verifies a sealed engine, filter/covers, timing, clearances, lubrication and free rotation as applicable. Stages33-70 (`engine-engine-in` through `engine-final-checks`) restore the bike. The internal procedure's own post-head-gasket pressure requirement must be included when relevant; no automatic completion of that work occurs here.

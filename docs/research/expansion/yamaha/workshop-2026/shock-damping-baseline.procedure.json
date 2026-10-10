@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2026-yz450f-stock-shock-damping-baseline-v1",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Reset stock shock damping to the Yamaha baseline",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete for external stock shock rebound and fast/slow compression baseline reset only. Does not change preload or cover internal shock service, rider-specific tuning or ride readiness.",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      115,
+      116,
+      117
+    ],
+    "printed_pages": [
+      "3-31",
+      "3-32",
+      "3-33"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "All pages rendered and reviewed including adjuster diagrams, direction arrows, units, full-hard reference and production-range TIPs. Original-worded external-adjustment procedure."
+  },
+  "applicability": {
+    "model_codes": [
+      "D031",
+      "D036"
+    ],
+    "included": "US 2026 YZ450F / YZ450FT stock rear shock adjuster configuration",
+    "excluded": [
+      "YZ450FX",
+      "Other model years",
+      "Aftermarket shocks",
+      "Modified adjuster assemblies",
+      "Revalved shock requiring a tuner baseline"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "required_parts": [],
+  "prerequisites": [
+    "Confirm exact bike year/model and stock rear shock.",
+    "External adjusters intact and accessible.",
+    "Address oil/gas leakage, binding or damaged controls before using damping adjustment to diagnose the ride."
+  ],
+  "critical_stop_conditions": [
+    "Adjuster binds or cannot reach its reference without force.",
+    "Stock component applicability cannot be confirmed."
+  ],
+  "reviewed_at": "2026-09-13",
+  "publication_status": "LOCAL_REVIEWED_NOT_IMPORTED",
+  "required_tools": [
+    {
+      "name": "Stable maintenance stand",
+      "size": null
+    },
+    {
+      "name": "Tools fitting the stock rebound, low-speed screw and high-speed hex adjusters",
+      "size": "UNKNOWN; section does not specify sizes; select tools that fit without slipping"
+    },
+    {
+      "name": "Settings notebook or app journal",
+      "size": null
+    }
+  ],
+  "baseline": {
+    "reference": "Gently seated full hard",
+    "harder_direction": "clockwise viewed facing the adjuster",
+    "softer_direction": "counterclockwise viewed facing the adjuster",
+    "rebound_clicks_out": 10,
+    "high_speed_compression_turns_out": 1.25,
+    "low_speed_compression_clicks_out": 8,
+    "nominal_soft_end": {
+      "rebound_clicks": 30,
+      "high_speed_compression_turns": 2,
+      "low_speed_compression_clicks": 20
+    },
+    "production_range_may_vary": true
+  },
+  "steps": [
+    {
+      "id": "support",
+      "title": "Support the bike",
+      "instruction": "Use a stable maintenance stand with the rear wheel clear of the ground. Check that reaching the shock controls cannot tip the bike.",
+      "depends_on": [],
+      "verification": [
+        "Bike secure; exact stock shock confirmed."
+      ],
+      "source_pdf_pages": [
+        115,
+        116,
+        117
+      ],
+      "origin": "original summary; record/save are application workflow steps"
+    },
+    {
+      "id": "record",
+      "title": "Record the starting settings",
+      "instruction": "Record rebound clicks, high-speed compression turns and low-speed compression clicks from each control's gently seated full-hard reference. Keep the three readings separate so this setup can be restored.",
+      "depends_on": [
+        "support"
+      ],
+      "verification": [
+        "Three original settings saved with their units."
+      ],
+      "source_pdf_pages": [
+        115,
+        116,
+        117
+      ],
+      "origin": "original summary; record/save are application workflow steps"
+    },
+    {
+      "id": "rebound",
+      "title": "Set rebound",
+      "instruction": "Use the rebound adjuster at the lower shock. Gently turn clockwise to full hard, then counterclockwise 10 clicks. Stop at resistance instead of forcing the reference.",
+      "depends_on": [
+        "record"
+      ],
+      "verification": [
+        "Rebound 10 clicks out."
+      ],
+      "source_pdf_pages": [
+        115,
+        116,
+        117
+      ],
+      "origin": "original summary; record/save are application workflow steps"
+    },
+    {
+      "id": "high-speed",
+      "title": "Set high-speed compression",
+      "instruction": "Use the larger compression hex adjuster at the reservoir. Gently turn clockwise to full hard, then counterclockwise 1 and 1/4 turns. This control is measured in turns, not clicks.",
+      "depends_on": [
+        "rebound"
+      ],
+      "verification": [
+        "High-speed compression 1.25 turns out."
+      ],
+      "source_pdf_pages": [
+        115,
+        116,
+        117
+      ],
+      "origin": "original summary; record/save are application workflow steps"
+    },
+    {
+      "id": "low-speed",
+      "title": "Set low-speed compression",
+      "instruction": "Use the smaller central compression screw at the reservoir. Gently turn clockwise to full hard, then counterclockwise 8 clicks.",
+      "depends_on": [
+        "high-speed"
+      ],
+      "verification": [
+        "Low-speed compression 8 clicks out."
+      ],
+      "source_pdf_pages": [
+        115,
+        116,
+        117
+      ],
+      "origin": "original summary; record/save are application workflow steps"
+    },
+    {
+      "id": "verify",
+      "title": "Verify the three settings",
+      "instruction": "Check rebound 10 clicks out, high-speed compression 1.25 turns out and low-speed compression 8 clicks out. Nominal soft endpoints are respectively 30 clicks, 2 turns and 20 clicks; actual production travel may differ, so do not force a control to match the nominal range.",
+      "depends_on": [
+        "low-speed"
+      ],
+      "verification": [
+        "Three settings recorded with correct units; controls not forced."
+      ],
+      "source_pdf_pages": [
+        115,
+        116,
+        117
+      ],
+      "origin": "original summary; record/save are application workflow steps"
+    },
+    {
+      "id": "save",
+      "title": "Save the factory baseline",
+      "instruction": "Save the three settings against this exact bike. Keep spring preload unchanged by this procedure. Rider weight, spring suitability and track-specific damping selection belong in a separate tuning session.",
+      "depends_on": [
+        "verify"
+      ],
+      "verification": [
+        "Factory baseline saved; preload and rider-specific tune not claimed complete."
+      ],
+      "source_pdf_pages": [
+        115,
+        116,
+        117
+      ],
+      "origin": "original summary; record/save are application workflow steps"
+    }
+  ],
+  "fact_ids": [
+    "yamaha-2026-yz450f-spec-164",
+    "yamaha-2026-yz450f-spec-165",
+    "yamaha-2026-yz450f-spec-166",
+    "yamaha-2026-yz450f-spec-169",
+    "yamaha-2026-yz450f-spec-170",
+    "yamaha-2026-yz450f-spec-171",
+    "yamaha-2026-yz450f-spec-173",
+    "yamaha-2026-yz450f-spec-174",
+    "yamaha-2026-yz450f-spec-175"
+  ]
+}

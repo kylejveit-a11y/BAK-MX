@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2025-yz450f-shock-baseline-v1",
+  "title": "Restore the stock shock damping baseline",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2025,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "publication_status": "APPROVED",
+  "component": "shock",
+  "affected_components": [
+    "shock",
+    "suspension"
+  ],
+  "applicability": {
+    "included": "Exact standard US2025 YZ450F original stock suspension.",
+    "excluded": [
+      "Other years, replacement springs/components or aftermarket damping conversions",
+      "Internal fork/shock overhaul"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "entry_state": [
+    "Assembled bike, serviceable stock suspension, exact original adjusters identified."
+  ],
+  "exit_state": [
+    "Recorded adjustment and functional checks complete; no internal service performed."
+  ],
+  "preflight": [
+    "Record actual starting settings.",
+    "Stop for leaks, damage, binding or an unidentified adjuster.",
+    "Keep the linked diagrams visible to identify distinct controls."
+  ],
+  "critical_stop_conditions": [
+    "Damaged or binding suspension",
+    "Adjuster at stop before target, inability to identify stock control, or unresolved setup measurement"
+  ],
+  "required_tools": [
+    {
+      "name": "Secure rear-wheel maintenance stand"
+    },
+    {
+      "name": "Appropriate separate rebound/low-speed driver and high-speed adjuster tool"
+    }
+  ],
+  "required_parts": [],
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf",
+    "document_sha256": "5005e7d8492c9482dfe44c6d752609a9a70a836f5b1dc94be3149d5d493de8ac",
+    "document_revision": "D02-2819U-10 / LIT-11626-38-16; March2024",
+    "pdf_pages": [
+      113,
+      114,
+      115
+    ],
+    "printed_pages": [
+      "3-31",
+      "3-32",
+      "3-33"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Root independently read allsteps and visually reviewed exact2025 PDF112–115/384–385; values andcontrolidentities confirmed. Sag forwardbranch preserves unchanged acceptedsetup; no physicalwork claimed."
+  },
+  "steps": [
+    {
+      "id": "inspect",
+      "title": "Inspect the stock shock",
+      "instruction": "Support the assembled bike upright. Check shock for oil/gas leakage and rear suspension/linkage for smooth movement by sitting astride and moving up/down. Resolve leakage, damage or rough action before setup. Raise rear wheel securely for adjustment.",
+      "depends_on": [],
+      "source_pdf_pages": [
+        113
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=113"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Confirm the described outcome; record actual settings/measurements where requested."
+      ],
+      "record_required": true,
+      "origin": "Original exact-source summary; recording/comparison are workflow adaptations."
+    },
+    {
+      "id": "record",
+      "title": "Identify and record the controls",
+      "instruction": "Use PDF114–115 to distinguish rebound, outer high-speed compression and inner low-speed compression. Gently count each starting setting back to its full-hard stop, recording clicks or turns. Never force. This2025 shock is not the revised2026 tool-free unit.",
+      "depends_on": [
+        "inspect"
+      ],
+      "source_pdf_pages": [
+        114,
+        115
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=114",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=115"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Confirm the described outcome; record actual settings/measurements where requested."
+      ],
+      "record_required": true,
+      "origin": "Original exact-source summary; recording/comparison are workflow adaptations."
+    },
+    {
+      "id": "rebound",
+      "title": "Set rebound",
+      "instruction": "From gently seated full hard in direction a, turn rebound12 clicks outward in direction b. Nominal range is0–30 clicks, with production variation acknowledged by Yamaha. Stop if the actual control cannot reach the standard.",
+      "depends_on": [
+        "record"
+      ],
+      "source_pdf_pages": [
+        114
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=114"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Confirm the described outcome; record actual settings/measurements where requested."
+      ],
+      "record_required": true,
+      "origin": "Original exact-source summary; recording/comparison are workflow adaptations."
+    },
+    {
+      "id": "high",
+      "title": "Set high-speed compression",
+      "instruction": "Set the high-speed compression control to1 full turn outward in direction b from gently seated full hard. Nominal range is0–2 turns. Identify this control in the diagram so the concentric low-speed control is not substituted.",
+      "depends_on": [
+        "rebound"
+      ],
+      "source_pdf_pages": [
+        114,
+        115
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=114",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=115"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Confirm the described outcome; record actual settings/measurements where requested."
+      ],
+      "record_required": true,
+      "origin": "Original exact-source summary; recording/comparison are workflow adaptations."
+    },
+    {
+      "id": "low",
+      "title": "Set low-speed compression",
+      "instruction": "Set the distinct low-speed compression screw9 clicks outward in direction b from gently seated full hard. Nominal range is0–20 clicks. Do not force a stop or silently translate turns into clicks.",
+      "depends_on": [
+        "high"
+      ],
+      "source_pdf_pages": [
+        115
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=115"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Confirm the described outcome; record actual settings/measurements where requested."
+      ],
+      "record_required": true,
+      "origin": "Original exact-source summary; recording/comparison are workflow adaptations."
+    },
+    {
+      "id": "verify",
+      "title": "Verify the recorded baseline",
+      "instruction": "Lower the bike and check rear movement is smooth. Record rebound12 clicks, high-speed1 turn and low-speed9 clicks out, plus actual control travel concerns. Spring preload and sag are separate measured settings and were not changed here.",
+      "depends_on": [
+        "low"
+      ],
+      "source_pdf_pages": [
+        113,
+        114,
+        115
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=113",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=114",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=115"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Confirm the described outcome; record actual settings/measurements where requested."
+      ],
+      "record_required": true,
+      "origin": "Original exact-source summary; recording/comparison are workflow adaptations."
+    }
+  ],
+  "completeness": "Restore the original shock rebound and high/low compression settings. Preload, spring and sealed internals remain unchanged."
+}

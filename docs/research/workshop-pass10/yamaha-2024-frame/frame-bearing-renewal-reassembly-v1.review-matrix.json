@@ -1,0 +1,1690 @@
+{
+  "status": "AUTHOR_SOURCE_REVIEWED_PENDING_INDEPENDENT_REVIEW",
+  "template_sha256": "41e9d90bfe0017e793dd22f662076528d5e980f70bde6b6d56e57dc5eaeec8c5",
+  "exact_2024_source_sha256": "6e784b3b15fe1e131f0e385676ca2873e74d783ee2499ce561e595bcea9ca9be",
+  "warning": "Candidate page locators only; no year inheritance or runtime use. Every instruction and drawing requires exact-year review.",
+  "steps": [
+    {
+      "id": "engine-initial-record",
+      "title": "Record the engine and job condition",
+      "reviewed_2024_pages": [
+        84,
+        85,
+        203
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "control-renew-record",
+      "title": "Record the original cable positions",
+      "reviewed_2024_pages": [
+        90,
+        155
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-oil-drain",
+      "title": "Drain the engine oil before lifting",
+      "reviewed_2024_pages": [
+        92,
+        93
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-access-prepare",
+      "title": "Prepare the bike",
+      "reviewed_2024_pages": [
+        85,
+        291
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-access-subseat",
+      "title": "Open the sub-seat",
+      "reviewed_2024_pages": [
+        36,
+        120,
+        291
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-access-body",
+      "title": "Remove access panels",
+      "reviewed_2024_pages": [
+        117,
+        118,
+        120,
+        121
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-isolate",
+      "title": "Isolate the battery",
+      "reviewed_2024_pages": [
+        117
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-access-shrouds",
+      "title": "Expose the tank",
+      "reviewed_2024_pages": [
+        94,
+        119,
+        120
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-access-tank-disconnect",
+      "title": "Disconnect the tank",
+      "reviewed_2024_pages": [
+        290,
+        291
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-access-tank-remove",
+      "title": "Lift the tank clear",
+      "reviewed_2024_pages": [
+        290,
+        291
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-access-case-release",
+      "title": "Release the intact case",
+      "reviewed_2024_pages": [
+        55,
+        293,
+        294
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-access-case-remove",
+      "title": "Lift off and protect the intake",
+      "reviewed_2024_pages": [
+        293,
+        294,
+        296
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "control-renew-housing-open",
+      "title": "Open the cable housing",
+      "reviewed_2024_pages": [
+        155,
+        157
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "control-renew-ends-release",
+      "title": "Release the two grip-end cables",
+      "reviewed_2024_pages": [
+        155,
+        157,
+        160
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "control-renew-inspect",
+      "title": "Check the released parts",
+      "reviewed_2024_pages": [
+        157,
+        160
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-exhaust-silencer-remove",
+      "title": "Remove the complete silencer",
+      "reviewed_2024_pages": [
+        198
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-exhaust-midpipe-remove",
+      "title": "Remove the intermediate pipe",
+      "reviewed_2024_pages": [
+        198,
+        203
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-exhaust-header-remove",
+      "title": "Remove the header and old seals",
+      "reviewed_2024_pages": [
+        198
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-cooling-prepare",
+      "title": "Set up for a cold drain",
+      "reviewed_2024_pages": [
+        100,
+        101
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-cooling-drain",
+      "title": "Open the drain and radiator cap",
+      "reviewed_2024_pages": [
+        100,
+        101
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-cooling-seal",
+      "title": "Install a new drain washer",
+      "reviewed_2024_pages": [
+        101
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-coolant-hoses",
+      "title": "Disconnect the engine coolant hoses",
+      "reviewed_2024_pages": [
+        202,
+        281,
+        282
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-intake-clear",
+      "title": "Lift the intact throttle body from the engine joint",
+      "reviewed_2024_pages": [
+        55,
+        294,
+        296
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-electrical-left",
+      "title": "Disconnect the left engine harness interfaces",
+      "reviewed_2024_pages": [
+        62,
+        63,
+        200
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-electrical-right",
+      "title": "Disconnect starter, ground and plug interfaces",
+      "reviewed_2024_pages": [
+        66,
+        67,
+        70,
+        71,
+        200,
+        213,
+        236
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-sprocket",
+      "title": "Remove chain, sprocket and shift pedal",
+      "reviewed_2024_pages": [
+        56,
+        190,
+        192,
+        253,
+        254
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-release-cylinder",
+      "title": "Disconnect and record the cable clutch",
+      "reviewed_2024_pages": [
+        93,
+        94,
+        240
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-pedal-guard",
+      "title": "Clear pedal, guard and breather",
+      "reviewed_2024_pages": [
+        62,
+        63,
+        202
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-engine-support",
+      "title": "Support engine and swingarm before undoing mounts",
+      "reviewed_2024_pages": [
+        201,
+        202,
+        203
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-mounts-out",
+      "title": "Release the engine mounts",
+      "reviewed_2024_pages": [
+        201,
+        202,
+        203
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-engine-out",
+      "title": "Lift the engine out to the right",
+      "reviewed_2024_pages": [
+        203
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "rear-prepare",
+      "title": "Support the rear wheel",
+      "reviewed_2024_pages": [
+        105,
+        127,
+        129
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "rear-remove",
+      "title": "Release the axle and chain",
+      "reviewed_2024_pages": [
+        127,
+        129
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "rear-inspect",
+      "title": "Inspect wheel, axle and collars",
+      "reviewed_2024_pages": [
+        124,
+        129
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "rear-brake-free",
+      "title": "Free the complete rear brake assembly",
+      "reviewed_2024_pages": [
+        58,
+        74,
+        75,
+        127,
+        143,
+        145,
+        146,
+        202
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "rear-shock-lower",
+      "title": "Unlink the shock and linkage",
+      "reviewed_2024_pages": [
+        181,
+        182,
+        184,
+        185
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "swingarm-off",
+      "title": "Remove the supported swingarm",
+      "reviewed_2024_pages": [
+        181,
+        188,
+        189,
+        203
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "arm-inspect",
+      "title": "Inspect the arm, pivot and linkage",
+      "reviewed_2024_pages": [
+        183,
+        188
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "shock-upper-off",
+      "title": "Remove the sealed shock",
+      "reviewed_2024_pages": [
+        179,
+        182,
+        184
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "front-setup",
+      "title": "Record and support",
+      "reviewed_2024_pages": [
+        162,
+        164
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "front-plate",
+      "title": "Free the hose guides",
+      "reviewed_2024_pages": [
+        120
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "front-bar-off",
+      "title": "Support the intact handlebar assembly",
+      "reviewed_2024_pages": [
+        155,
+        156,
+        157
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "front-wheel-remove",
+      "title": "Remove the front wheel",
+      "reviewed_2024_pages": [
+        122
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "front-caliper",
+      "title": "Support the brake assembly",
+      "reviewed_2024_pages": [
+        132,
+        162
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "front-protectors",
+      "title": "Remove the protectors",
+      "reviewed_2024_pages": [
+        162
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "front-legs-remove",
+      "title": "Release each fork leg",
+      "reviewed_2024_pages": [
+        162,
+        164
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "front-bench-check",
+      "title": "Check before refitting",
+      "reviewed_2024_pages": [
+        165,
+        166
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "front-fender-off",
+      "title": "Remove the front fender",
+      "reviewed_2024_pages": [
+        174,
+        175
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "front-stem-out",
+      "title": "Lower the steering stem",
+      "reviewed_2024_pages": [
+        175,
+        176
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "front-steering-inspect",
+      "title": "Clean and inspect the steering bearings",
+      "reviewed_2024_pages": [
+        176
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "steering-renew-old-races-out",
+      "title": "Remove the old matched bearing sets",
+      "reviewed_2024_pages": [
+        175,
+        176
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "radiators-off",
+      "title": "Remove the radiators and remaining hose connections",
+      "reviewed_2024_pages": [
+        55,
+        281,
+        282
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "rear-electrical-free",
+      "title": "Release the rear electrical attachments",
+      "reviewed_2024_pages": [
+        64,
+        65,
+        72,
+        73,
+        117,
+        118
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "rear-frame-off",
+      "title": "Remove the rear-frame assembly",
+      "reviewed_2024_pages": [
+        59,
+        64,
+        65,
+        117,
+        118
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "loom-control-off",
+      "title": "Lift the supported controls and main harness clear",
+      "reviewed_2024_pages": [
+        55,
+        56,
+        60,
+        62,
+        63,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        155,
+        156,
+        200,
+        294
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "remaining-brackets",
+      "title": "Remove the remaining bolt-on frame parts",
+      "reviewed_2024_pages": [
+        58,
+        59,
+        60,
+        118
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "frame-inspection",
+      "title": "Inspect the exposed main frame",
+      "reviewed_2024_pages": [
+        84,
+        85,
+        176,
+        188
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "rear-renew-disc-sprocket-off",
+      "title": "Expose both sides of the hub",
+      "reviewed_2024_pages": [
+        128,
+        129,
+        130
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "rear-renew-seals-clip-out",
+      "title": "Remove seals and bearing retention",
+      "reviewed_2024_pages": [
+        124,
+        128
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "rear-renew-bearings-out",
+      "title": "Extract all three old bearings",
+      "reviewed_2024_pages": [
+        124,
+        128,
+        130
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "rear-renew-hub-inspection",
+      "title": "Inspect the hub and spacer",
+      "reviewed_2024_pages": [
+        124,
+        129
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "rear-renew-right-bearing",
+      "title": "Fit the right bearing first",
+      "reviewed_2024_pages": [
+        23,
+        128,
+        130
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "rear-renew-new-circlip",
+      "title": "Fit new right-side retention",
+      "reviewed_2024_pages": [
+        23,
+        128,
+        130
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "rear-renew-spacer-left-bearings",
+      "title": "Restore the spacer and both left bearings",
+      "reviewed_2024_pages": [
+        23,
+        128,
+        130
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "rear-renew-new-seals",
+      "title": "Install both new wheel seals",
+      "reviewed_2024_pages": [
+        23,
+        128,
+        130
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "rear-renew-sprocket-refit",
+      "title": "Refit the original serviceable sprocket",
+      "reviewed_2024_pages": [
+        128,
+        129,
+        130
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "rear-renew-disc-refit",
+      "title": "Refit the original serviceable disc",
+      "reviewed_2024_pages": [
+        128,
+        130
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "front-renew-inspect",
+      "title": "Inspect the removed wheel",
+      "reviewed_2024_pages": [
+        124
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "front-renew-seals-out",
+      "title": "Remove both oil seals",
+      "reviewed_2024_pages": [
+        123,
+        124
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "front-renew-bearings-out",
+      "title": "Pull both hub bearings",
+      "reviewed_2024_pages": [
+        123,
+        124
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "front-renew-hub-check",
+      "title": "Check the hub and spacer",
+      "reviewed_2024_pages": [
+        123,
+        124,
+        125
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "front-renew-left-bearing",
+      "title": "Install the left bearing first",
+      "reviewed_2024_pages": [
+        23,
+        123,
+        124,
+        125
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "front-renew-spacer-right",
+      "title": "Restore the spacer and right bearing",
+      "reviewed_2024_pages": [
+        23,
+        123,
+        124,
+        125
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "front-renew-seals-in",
+      "title": "Install both new oil seals",
+      "reviewed_2024_pages": [
+        123,
+        124,
+        125
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "front-renew-bearing-check",
+      "title": "Check the renewed hub",
+      "reviewed_2024_pages": [
+        124,
+        125
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "linkage-renew-stack-record",
+      "title": "Identify every bearing and seal stack",
+      "reviewed_2024_pages": [
+        181,
+        187
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "linkage-renew-bearings-out",
+      "title": "Remove bearings with supported fitting tools",
+      "reviewed_2024_pages": [
+        181,
+        187,
+        188
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "linkage-renew-swingarm-bearings-in",
+      "title": "Install the four pivot bearings to Yamaha depths",
+      "reviewed_2024_pages": [
+        187,
+        188,
+        189
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "linkage-renew-swingarm-seals",
+      "title": "Complete pivot bushes, thrust bearings and seals",
+      "reviewed_2024_pages": [
+        23,
+        187,
+        188,
+        189
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "linkage-renew-relay-renew",
+      "title": "Renew both relay-arm bearing pairs",
+      "reviewed_2024_pages": [
+        181,
+        183
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "linkage-renew-connecting-renew",
+      "title": "Renew connecting-arm bearings",
+      "reviewed_2024_pages": [
+        181,
+        183
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "eyes-renew-eye-stack",
+      "title": "Record and expose the two mount stacks",
+      "reviewed_2024_pages": [
+        23,
+        180,
+        184
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "eyes-renew-eye-extract",
+      "title": "Remove worn eye bearing components",
+      "reviewed_2024_pages": [
+        180,
+        182,
+        184
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "eyes-renew-upper-eye-in",
+      "title": "Install and retain upper bushing",
+      "reviewed_2024_pages": [
+        23,
+        180,
+        184
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "eyes-renew-lower-eye-in",
+      "title": "Renew lower bearing and seal stack",
+      "reviewed_2024_pages": [
+        180,
+        184
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "steering-renew-head-races-in",
+      "title": "Install both new head races",
+      "reviewed_2024_pages": [
+        175,
+        176,
+        177
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "steering-renew-lower-bearing-in",
+      "title": "Install the lower seal and bearing",
+      "reviewed_2024_pages": [
+        176,
+        177
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "frame-small-refit",
+      "title": "Restore footrests, roller and retained mounting pieces",
+      "reviewed_2024_pages": [
+        58,
+        59
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "rear-frame-refit",
+      "title": "Reinstall the rear frame and upper roller",
+      "reviewed_2024_pages": [
+        59,
+        64,
+        65
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "loom-control-refit",
+      "title": "Place the controls, loom and brackets back on the frame",
+      "reviewed_2024_pages": [
+        55,
+        56,
+        60,
+        62,
+        63,
+        66,
+        67,
+        70,
+        71,
+        72,
+        73,
+        200,
+        294
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "rear-harness-route",
+      "title": "Restore rear harness routing and holders",
+      "reviewed_2024_pages": [
+        64,
+        65,
+        66,
+        67,
+        72,
+        73,
+        117
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "radiators-refit",
+      "title": "Mount the radiators and route their hoses",
+      "reviewed_2024_pages": [
+        55,
+        62,
+        63,
+        66,
+        67,
+        281,
+        282,
+        283
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "shock-upper-refit",
+      "title": "Hang the intact shock on its upper mount",
+      "reviewed_2024_pages": [
+        182,
+        184
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "front-steering-grease",
+      "title": "Lubricate the bearing stack",
+      "reviewed_2024_pages": [
+        176,
+        177
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "front-preload",
+      "title": "Set the steering preload",
+      "reviewed_2024_pages": [
+        60,
+        106,
+        177
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "front-upper-refit",
+      "title": "Restore the upper bracket and stem nut",
+      "reviewed_2024_pages": [
+        177,
+        178
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "front-legs-refit",
+      "title": "Refit and secure the top assemblies",
+      "reviewed_2024_pages": [
+        172,
+        173
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "front-height-clamps",
+      "title": "Set height and tighten the clamps",
+      "reviewed_2024_pages": [
+        162,
+        173
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "front-bar-refit",
+      "title": "Restore the handlebar and fender",
+      "reviewed_2024_pages": [
+        157,
+        158,
+        174
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "control-renew-lubricate",
+      "title": "Lubricate the sliding and cable-end surfaces",
+      "reviewed_2024_pages": [
+        160
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "control-renew-ends-fit",
+      "title": "Reconnect pull and return cables",
+      "reviewed_2024_pages": [
+        155,
+        160
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "control-renew-housing-close",
+      "title": "Secure the housing",
+      "reviewed_2024_pages": [
+        160
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "front-guards-brake",
+      "title": "Restore protectors and brake mounts",
+      "reviewed_2024_pages": [
+        57,
+        58,
+        132,
+        139,
+        162,
+        173
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "front-wheel-refit",
+      "title": "Install the wheel and axle",
+      "reviewed_2024_pages": [
+        122,
+        125
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "front-control-route",
+      "title": "Restore front control routing",
+      "reviewed_2024_pages": [
+        68,
+        69
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "control-renew-static-check",
+      "title": "Verify free play and return before starting",
+      "reviewed_2024_pages": [
+        90,
+        160,
+        161
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "front-plate-settings",
+      "title": "Restore guides and settings",
+      "reviewed_2024_pages": [
+        60,
+        108,
+        109,
+        120,
+        173
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-bench-record",
+      "title": "Verify the engine and rear bearing stacks",
+      "reviewed_2024_pages": [
+        183,
+        188,
+        189,
+        203,
+        204
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-engine-in",
+      "title": "Place the engine back in the chassis",
+      "reviewed_2024_pages": [
+        189,
+        203,
+        204
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-mount-torque",
+      "title": "Install and secure the engine brackets",
+      "reviewed_2024_pages": [
+        59,
+        203,
+        204
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "rear-link-refit",
+      "title": "Refit the linkage in its original orientation",
+      "reviewed_2024_pages": [
+        181,
+        183,
+        184
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "rear-link-torque",
+      "title": "Secure the linkage and lower shock",
+      "reviewed_2024_pages": [
+        184,
+        185
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "rear-brake-refit",
+      "title": "Mount the closed rear brake assembly",
+      "reviewed_2024_pages": [
+        58,
+        59,
+        74,
+        75,
+        145,
+        146
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-release-refit",
+      "title": "Reconnect and adjust the cable clutch",
+      "reviewed_2024_pages": [
+        56,
+        93,
+        94,
+        240
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-pedal-refit",
+      "title": "Restore pedal, guard and breather",
+      "reviewed_2024_pages": [
+        58,
+        59,
+        70,
+        71,
+        201,
+        202,
+        293
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-sprocket-refit",
+      "title": "Restore the drive sprocket and chain",
+      "reviewed_2024_pages": [
+        52,
+        56,
+        190,
+        192,
+        253,
+        254
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "rear-refit",
+      "title": "Refit the wheel and chain",
+      "reviewed_2024_pages": [
+        127,
+        130,
+        131
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "rear-hardware",
+      "title": "Fit the right puller and nut",
+      "reviewed_2024_pages": [
+        131
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-ground-starter",
+      "title": "Restore the engine ground and starter lead",
+      "reviewed_2024_pages": [
+        62,
+        63,
+        66,
+        67,
+        200,
+        213,
+        236
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-harness-refit",
+      "title": "Reconnect and route the engine harness",
+      "reviewed_2024_pages": [
+        62,
+        63,
+        66,
+        67,
+        70,
+        71
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-intake-refit",
+      "title": "Reseat the throttle body",
+      "reviewed_2024_pages": [
+        55,
+        90,
+        294,
+        296
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-hoses-refit",
+      "title": "Reconnect the engine coolant hoses",
+      "reviewed_2024_pages": [
+        55,
+        281,
+        282
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-exhaust-header-install",
+      "title": "Seat the new header gasket",
+      "reviewed_2024_pages": [
+        198,
+        204
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-exhaust-midpipe-install",
+      "title": "Locate pipe 2 and its clamp",
+      "reviewed_2024_pages": [
+        198,
+        204
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-exhaust-silencer-install",
+      "title": "Refit the complete silencer",
+      "reviewed_2024_pages": [
+        198,
+        204,
+        205
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-exhaust-joints-final",
+      "title": "Tighten the bracket and both clamps",
+      "reviewed_2024_pages": [
+        205
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-access-case-refit",
+      "title": "Seat the case and secure its mounts",
+      "reviewed_2024_pages": [
+        55,
+        293,
+        294
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-access-intake-check",
+      "title": "Verify the restored intake",
+      "reviewed_2024_pages": [
+        293,
+        294,
+        297,
+        298
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-access-tank-install",
+      "title": "Reconnect the fuel system",
+      "reviewed_2024_pages": [
+        290,
+        292
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-cooling-fill",
+      "title": "Refill with the specified mixture",
+      "reviewed_2024_pages": [
+        100,
+        101
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-cooling-cap",
+      "title": "Secure the radiator cap",
+      "reviewed_2024_pages": [
+        101
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "pressure-test",
+      "title": "Pressure-check the reinstalled cooling system",
+      "reviewed_2024_pages": [
+        283,
+        284
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-oil-fill",
+      "title": "Refill the oil for the actual engine condition",
+      "reviewed_2024_pages": [
+        47,
+        92,
+        93,
+        242
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-battery-refit",
+      "title": "Reconnect the battery and inspect routing",
+      "reviewed_2024_pages": [
+        72,
+        73,
+        117
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-access-body-install",
+      "title": "Refit the panels and seat",
+      "reviewed_2024_pages": [
+        36,
+        94,
+        95,
+        117,
+        118,
+        119,
+        120,
+        121
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-slack",
+      "title": "Measure and adjust chain slack",
+      "reviewed_2024_pages": [
+        105,
+        131
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-torque",
+      "title": "Secure the rear axle and adjusters",
+      "reviewed_2024_pages": [
+        106,
+        131
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-sprocket-final",
+      "title": "Lock the drive sprocket after rear-wheel closure",
+      "reviewed_2024_pages": [
+        56,
+        190,
+        192
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "rear-renew-close",
+      "title": "Check chain alignment and brake function",
+      "reviewed_2024_pages": [
+        84,
+        124,
+        128,
+        129,
+        130,
+        131
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "front-seat-torque",
+      "title": "Seat the forks before final axle tightening",
+      "reviewed_2024_pages": [
+        126
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "front-steering-close",
+      "title": "Verify steering and front-end closure",
+      "reviewed_2024_pages": [
+        84,
+        106,
+        107,
+        124,
+        126,
+        178
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-fuel-ready",
+      "title": "Restore fuel and verify readiness to start",
+      "reviewed_2024_pages": [
+        36,
+        37,
+        38,
+        291,
+        292
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-oil-flow",
+      "title": "Verify oil flow immediately at idle",
+      "reviewed_2024_pages": [
+        93
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-cooling-warm-cool",
+      "title": "Warm for the operating checks",
+      "reviewed_2024_pages": [
+        101
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "control-renew-idle-check",
+      "title": "Check the warm idle",
+      "reviewed_2024_pages": [
+        90
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "control-renew-final-adjust",
+      "title": "Set the final grip free play",
+      "reviewed_2024_pages": [
+        90
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "control-renew-steering-check",
+      "title": "Verify idle through steering travel",
+      "reviewed_2024_pages": [
+        37,
+        38,
+        90
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-complete-cooling",
+      "title": "Allow complete cooling",
+      "reviewed_2024_pages": [
+        101
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-cooling-recheck",
+      "title": "Recheck the cold level",
+      "reviewed_2024_pages": [
+        100,
+        101
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "engine-final-checks",
+      "title": "Verify the installed engine and record closure",
+      "reviewed_2024_pages": [
+        84,
+        90,
+        91,
+        92,
+        93,
+        94,
+        105,
+        106,
+        203,
+        204
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    },
+    {
+      "id": "frame-final",
+      "title": "Verify the rebuilt chassis as a whole",
+      "reviewed_2024_pages": [
+        84,
+        90,
+        105,
+        106,
+        107,
+        178,
+        184,
+        185,
+        189,
+        284
+      ],
+      "review_status": "AUTHOR_REVIEWED_CANDIDATE",
+      "note": "Exact diagrams/text and documented universal tool techniques; independently review before publication."
+    }
+  ]
+}

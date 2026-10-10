@@ -1,0 +1,37 @@
+{
+  "status": "APPROVED",
+  "artifacts": [
+    {
+      "path": "top-end-bike-journey-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "fc79cc545ca42c3d45d04b5e29975afa4d4ee8204e889acc19a5f57e20031fca",
+      "source_id": "yamaha-2023-bhr",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 167
+    }
+  ],
+  "dependencies": [
+    {
+      "artifact": "docs/research/workshop-pass11/yamaha-2023-frame/engine-removal-refit-v1.procedure.json",
+      "sha256": "7c9b11a914a0ef0ef2dbb33b24a7ef7c50e41d3f082bf4c5b2739e5be09b0e67",
+      "kind": "approved_source_operation"
+    },
+    {
+      "artifact": "docs/research/workshop-pass11/yamaha-2023-engine/top-end-bench-v1.procedure.json",
+      "sha256": "5465c9014294095e4ca146287c352444baccc5c0ffc3ccf016dc19e74a27a8ee",
+      "kind": "approved_source_operation"
+    },
+    {
+      "artifact": "docs/research/workshop-pass11/yamaha-2023-commissioning/post-rebuild-commissioning-v1.procedure.json",
+      "sha256": "62748a58bdc8f370e080a391d8b205acbb14f3504374e29b6a9d6c8769bb8bd9",
+      "kind": "approved_source_operation"
+    }
+  ],
+  "next": "Root integration or remaining exact-bike composition; no physical repair qualification."
+}

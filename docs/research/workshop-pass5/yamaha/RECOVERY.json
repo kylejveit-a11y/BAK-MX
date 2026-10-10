@@ -1,0 +1,15 @@
+{
+  "status": "SOURCE_REVIEW_COMPLETE_AWAITING_ROOT_INTEGRATION",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2025,
+    "region": "US",
+    "variant": "standard"
+  },
+  "guides": 1,
+  "steps": 53,
+  "complete_full_rebuild": false,
+  "artifact_sha256": "5ba3c015673bf3ec962478ab4df3b2e4fa24d77bb0e4266afcccdd73150088bb",
+  "next": "Independent root review and runtime integration; source leads for2020/21 separately recorded"
+}

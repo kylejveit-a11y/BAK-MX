@@ -1,0 +1,707 @@
+{
+  "artifact_sha256": "7c9b11a914a0ef0ef2dbb33b24a7ef7c50e41d3f082bf4c5b2739e5be09b0e67",
+  "source_sha256": "9a8605e26301ba1d0d1d21e93d23cca721bdcdbece6188775626a8819332aa9f",
+  "status": "APPROVED",
+  "rows": [
+    {
+      "step_id": "engine-initial-record",
+      "pdf_pages": [
+        84,
+        85,
+        93,
+        203
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": true
+    },
+    {
+      "step_id": "control-renew-record",
+      "pdf_pages": [
+        90,
+        155
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": true
+    },
+    {
+      "step_id": "engine-oil-drain",
+      "pdf_pages": [
+        92,
+        93
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": true
+    },
+    {
+      "step_id": "engine-access-prepare",
+      "pdf_pages": [
+        85,
+        291
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-access-subseat",
+      "pdf_pages": [
+        35,
+        120,
+        291
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-access-body",
+      "pdf_pages": [
+        117,
+        118,
+        120,
+        121
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-isolate",
+      "pdf_pages": [
+        117
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-access-shrouds",
+      "pdf_pages": [
+        94,
+        119,
+        120
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-access-tank-disconnect",
+      "pdf_pages": [
+        290,
+        291
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-access-tank-remove",
+      "pdf_pages": [
+        290,
+        291
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-access-case-release",
+      "pdf_pages": [
+        55,
+        293,
+        294
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-access-case-remove",
+      "pdf_pages": [
+        293,
+        294,
+        296
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "control-renew-housing-open",
+      "pdf_pages": [
+        155,
+        157
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "control-renew-ends-release",
+      "pdf_pages": [
+        155,
+        157,
+        160
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "control-renew-inspect",
+      "pdf_pages": [
+        157,
+        160
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": true
+    },
+    {
+      "step_id": "engine-exhaust-silencer-remove",
+      "pdf_pages": [
+        198
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-exhaust-midpipe-remove",
+      "pdf_pages": [
+        198,
+        203
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-exhaust-header-remove",
+      "pdf_pages": [
+        198
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-cooling-prepare",
+      "pdf_pages": [
+        100,
+        101
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-cooling-drain",
+      "pdf_pages": [
+        100,
+        101
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-cooling-seal",
+      "pdf_pages": [
+        100
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": true
+    },
+    {
+      "step_id": "engine-coolant-hoses",
+      "pdf_pages": [
+        202,
+        281,
+        282
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-intake-clear",
+      "pdf_pages": [
+        55,
+        294,
+        296
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-electrical-left",
+      "pdf_pages": [
+        62,
+        63,
+        200
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-electrical-right",
+      "pdf_pages": [
+        66,
+        67,
+        70,
+        71,
+        200,
+        213,
+        236
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-sprocket",
+      "pdf_pages": [
+        56,
+        190,
+        192,
+        253,
+        254
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": true
+    },
+    {
+      "step_id": "engine-release-cylinder",
+      "pdf_pages": [
+        93,
+        94,
+        240
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": true
+    },
+    {
+      "step_id": "engine-pedal-guard",
+      "pdf_pages": [
+        62,
+        63,
+        202
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-engine-support",
+      "pdf_pages": [
+        201,
+        202,
+        203
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": true
+    },
+    {
+      "step_id": "engine-mounts-out",
+      "pdf_pages": [
+        201,
+        202,
+        203
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-engine-out",
+      "pdf_pages": [
+        203
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-bench-record",
+      "pdf_pages": [
+        183,
+        188,
+        189,
+        203,
+        204
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": true
+    },
+    {
+      "step_id": "engine-engine-in",
+      "pdf_pages": [
+        189,
+        203,
+        204
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-mount-torque",
+      "pdf_pages": [
+        59,
+        203,
+        204
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": true
+    },
+    {
+      "step_id": "engine-release-refit",
+      "pdf_pages": [
+        56,
+        93,
+        94,
+        240
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": true
+    },
+    {
+      "step_id": "engine-pedal-refit",
+      "pdf_pages": [
+        58,
+        59,
+        70,
+        71,
+        201,
+        202,
+        293
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-sprocket-refit",
+      "pdf_pages": [
+        52,
+        56,
+        190,
+        192,
+        253,
+        254
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-ground-starter",
+      "pdf_pages": [
+        62,
+        63,
+        66,
+        67,
+        200,
+        213,
+        236
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-harness-refit",
+      "pdf_pages": [
+        62,
+        63,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-intake-refit",
+      "pdf_pages": [
+        55,
+        90,
+        294,
+        296
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "control-renew-lubricate",
+      "pdf_pages": [
+        160
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "control-renew-ends-fit",
+      "pdf_pages": [
+        155,
+        160
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "control-renew-housing-close",
+      "pdf_pages": [
+        160
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "control-renew-static-check",
+      "pdf_pages": [
+        90,
+        160,
+        161
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": true
+    },
+    {
+      "step_id": "engine-hoses-refit",
+      "pdf_pages": [
+        55,
+        281,
+        282
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-exhaust-header-install",
+      "pdf_pages": [
+        198,
+        204
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": true
+    },
+    {
+      "step_id": "engine-exhaust-midpipe-install",
+      "pdf_pages": [
+        198,
+        204
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-exhaust-silencer-install",
+      "pdf_pages": [
+        198,
+        204,
+        205
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": true
+    },
+    {
+      "step_id": "engine-exhaust-joints-final",
+      "pdf_pages": [
+        205
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": true
+    },
+    {
+      "step_id": "engine-access-case-refit",
+      "pdf_pages": [
+        55,
+        293,
+        294
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": true
+    },
+    {
+      "step_id": "engine-access-intake-check",
+      "pdf_pages": [
+        293,
+        294,
+        297,
+        298
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": true
+    },
+    {
+      "step_id": "engine-access-tank-install",
+      "pdf_pages": [
+        290,
+        292
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-cooling-fill",
+      "pdf_pages": [
+        99,
+        100,
+        101
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": true
+    },
+    {
+      "step_id": "engine-cooling-cap",
+      "pdf_pages": [
+        101
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "pressure-test",
+      "pdf_pages": [
+        283,
+        284
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": true
+    },
+    {
+      "step_id": "engine-oil-fill",
+      "pdf_pages": [
+        47,
+        92,
+        93,
+        242
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": true
+    },
+    {
+      "step_id": "engine-battery-refit",
+      "pdf_pages": [
+        72,
+        73,
+        117
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-access-body-install",
+      "pdf_pages": [
+        35,
+        94,
+        95,
+        96,
+        117,
+        118,
+        119,
+        120,
+        121
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-slack",
+      "pdf_pages": [
+        105,
+        131
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": true
+    },
+    {
+      "step_id": "engine-torque",
+      "pdf_pages": [
+        106,
+        131
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": true
+    },
+    {
+      "step_id": "engine-sprocket-final",
+      "pdf_pages": [
+        56,
+        190,
+        192
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": true
+    },
+    {
+      "step_id": "engine-fuel-ready",
+      "pdf_pages": [
+        35,
+        36,
+        37,
+        291,
+        292
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-oil-flow",
+      "pdf_pages": [
+        93
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": true
+    },
+    {
+      "step_id": "engine-cooling-warm-cool",
+      "pdf_pages": [
+        101
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": true
+    },
+    {
+      "step_id": "control-renew-idle-check",
+      "pdf_pages": [
+        90
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": true
+    },
+    {
+      "step_id": "control-renew-final-adjust",
+      "pdf_pages": [
+        90
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": true
+    },
+    {
+      "step_id": "control-renew-steering-check",
+      "pdf_pages": [
+        36,
+        37,
+        90
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": true
+    },
+    {
+      "step_id": "engine-complete-cooling",
+      "pdf_pages": [
+        101
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": false
+    },
+    {
+      "step_id": "engine-cooling-recheck",
+      "pdf_pages": [
+        99,
+        100,
+        101
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": true
+    },
+    {
+      "step_id": "engine-final-checks",
+      "pdf_pages": [
+        84,
+        90,
+        91,
+        92,
+        93,
+        94,
+        105,
+        106,
+        203,
+        204
+      ],
+      "status": "EXACT_2023_SOURCE_CHECKED",
+      "notes_required": true
+    }
+  ]
+}

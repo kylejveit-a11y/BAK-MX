@@ -1,0 +1,30 @@
+{
+  "status": "APPROVED",
+  "sources": [
+    {
+      "id": "yamaha-2022-yz450f-owner-service",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\B2W-2819U-12_02.pdf",
+      "sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "engine-removal-refit-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "cbf8d699bd55eea9bd8d5ba98c459829dc8aa94110736340679fc3b4f5f2244a",
+      "source_id": "yamaha-2022-yz450f-owner-service",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      }
+    }
+  ],
+  "independent_review": {
+    "path": "docs/research/workshop-pass12/yamaha-2022-frame/independent-review-v1.json",
+    "sha256": "afd4d0039efa914e87feb39c1e99836b575f20b02678e5a5c50a2216c4d79725"
+  }
+}

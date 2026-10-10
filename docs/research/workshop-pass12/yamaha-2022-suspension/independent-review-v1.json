@@ -1,0 +1,35 @@
+{
+  "status": "APPROVED",
+  "reviewer": "root independent exact2022 source review",
+  "artifacts": [
+    {
+      "path": "docs/research/workshop-pass12/yamaha-2022-suspension/fork-baseline-v1.procedure.json",
+      "reviewed_candidate_sha256": "d8779d6f43ec760b7e393970415915121c90333c04eb5baf32ada15c18202bd1",
+      "sha256": "94fb9ad92d912cfea7a3f407439a70f5c1a7a1439b75d07964e091a342fdba3e"
+    },
+    {
+      "path": "docs/research/workshop-pass12/yamaha-2022-suspension/shock-baseline-v1.procedure.json",
+      "reviewed_candidate_sha256": "aedf5d5106837f4c557239169a0d81ee347ccc61cdcb06194b17b2b5ac9dc1dc",
+      "sha256": "14f8c958cbdc1aaf2e5e7062f99cfe072cdcaa60bf1b874b2da14c44a71164bc"
+    },
+    {
+      "path": "docs/research/workshop-pass12/yamaha-2022-suspension/rider-sag-preload-v1.procedure.json",
+      "reviewed_candidate_sha256": "f57854e421f565a797d1a56bd7ebcbba07889c847d7c816e3e433b35ded92978",
+      "sha256": "6b462dd40d03f4b765501d88531cdaa550ff3311e16de20e72ee2e3f21661a61"
+    }
+  ],
+  "reviewed_pages": [
+    105,
+    106,
+    107,
+    108,
+    354
+  ],
+  "author_rendered_pages": [
+    105,
+    107,
+    354
+  ],
+  "scope": "All19 steps;9/9fork,12rebound/7⁄8HS/6LSshock,7mmpreload1.5–18/1.5perturn,sag90–100 against rear-fender holdingbolt.",
+  "freeze_changes": "Approval status/review note only."
+}

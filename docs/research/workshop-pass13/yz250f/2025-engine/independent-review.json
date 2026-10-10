@@ -1,0 +1,30 @@
+{
+  "status": "APPROVED_FOR_BOUNDED_RUNTIME",
+  "reviewer": "root independent of author yamaha_workshop_evidence",
+  "artifacts": [
+    {
+      "path": "docs\\research\\workshop-pass13\\yz250f\\2025-engine\\original-head-valve-reassembly-v1.procedure.json",
+      "candidate_sha256": "920821b364d69771270cefb2a61c5efc0cbf9eb55fd3f97891eac3e3182d382d"
+    },
+    {
+      "path": "docs\\research\\workshop-pass13\\yz250f\\2025-engine\\top-end-teardown-inspection-v1.procedure.json",
+      "candidate_sha256": "c3b53d66cec03105b5558ccb3f8d0cc5142b917cb47bbe04f4df395ee3bb4b0e"
+    }
+  ],
+  "source_sha256": "fc8a31623daae1c746126688fac22c0b0698611a03dc98083876d2a3516a96da",
+  "review": "Root recomputed exact whole-text comparison for every cited page in both guides against independently reviewed2026 source. Only cover and spec52differ; read spec52diff and only out-of-scope row relocations. Compared all33instructions; only exactentryyear changes.",
+  "rendered_pages_reviewed": [
+    220,
+    228,
+    229,
+    236,
+    237
+  ],
+  "boundaries": [
+    "Prepared engine teardown/inspection",
+    "Accepted original detached head assembly",
+    "Head-bolt oil/grease disagreement retained; mounting, timing, access/refit and commissioning incomplete"
+  ],
+  "physical_workshop_validation": false,
+  "full_bike_complete": false
+}

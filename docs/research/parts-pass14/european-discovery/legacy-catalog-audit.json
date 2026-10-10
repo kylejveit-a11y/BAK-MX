@@ -1,0 +1,401 @@
+[
+  {
+    "path": "docs\\research\\expansion\\husqvarna\\fc-250-2022.json",
+    "sha256": "d9c7cfd9c6e58beaa337f70581eb23e6d4f71a0735350d4f8923fbab21e4ea92",
+    "target": {
+      "manufacturer": "Husqvarna",
+      "model": "FC 250",
+      "model_year": 2022,
+      "variant": "standard",
+      "region": "US"
+    },
+    "catalog_model_identifier": "1002104830",
+    "catalog_complete": true,
+    "assemblies": 41,
+    "parts": 1189,
+    "scope_confirmed": true,
+    "catalog_region": "US",
+    "catalog_label": "FC 250                              2022 <2022><US><F2175V1>",
+    "reusable_for_us": true
+  },
+  {
+    "path": "docs\\research\\expansion\\husqvarna\\fc-250-2023.json",
+    "sha256": "9e07f69b4fd8db18ff130a5e64070a462573771e98dc6b9bc51607db99276f25",
+    "target": {
+      "manufacturer": "Husqvarna",
+      "model": "FC 250",
+      "model_year": 2023,
+      "variant": "standard",
+      "region": "US"
+    },
+    "catalog_model_identifier": "1002327849",
+    "catalog_complete": true,
+    "assemblies": 42,
+    "parts": 1185,
+    "scope_confirmed": true,
+    "catalog_region": "US",
+    "catalog_label": "FC 250                              2023 <2023><US><F2175W1>",
+    "reusable_for_us": true
+  },
+  {
+    "path": "docs\\research\\expansion\\husqvarna\\fc-250-2024.json",
+    "sha256": "4acfbd86062aac0903facd486a70ef4a1e266ac80631a98b599b4c8c1889d011",
+    "target": {
+      "manufacturer": "Husqvarna",
+      "model": "FC 250",
+      "model_year": 2024,
+      "variant": "standard",
+      "region": "US"
+    },
+    "catalog_model_identifier": "1003027010",
+    "catalog_complete": true,
+    "assemblies": 42,
+    "parts": 1188,
+    "scope_confirmed": true,
+    "catalog_region": "US",
+    "catalog_label": "FC 250                              2024 <2024><US><F2175X1>",
+    "reusable_for_us": true
+  },
+  {
+    "path": "docs\\research\\expansion\\husqvarna\\fc-250-2025.json",
+    "sha256": "cb5bd128a2d632852692c88de5695e842ccfc0369c4700504f9091582537b5c4",
+    "target": {
+      "manufacturer": "Husqvarna",
+      "model": "FC 250",
+      "model_year": 2025,
+      "variant": "standard",
+      "region": "US"
+    },
+    "catalog_model_identifier": "1003420835",
+    "catalog_complete": true,
+    "assemblies": 42,
+    "parts": 1181,
+    "scope_confirmed": true,
+    "catalog_region": "EU",
+    "catalog_label": "FC 250                              2025 <2025><EU><F2175Y1>",
+    "reusable_for_us": true
+  },
+  {
+    "path": "docs\\research\\expansion\\husqvarna\\fc-250-2026.json",
+    "sha256": "9264c5b48d2760c5ea87f2f9a0ee915bc90dc8713c8202bd4abeb2448045d5e0",
+    "target": {
+      "manufacturer": "Husqvarna",
+      "model": "FC 250",
+      "model_year": 2026,
+      "variant": "standard",
+      "region": "US"
+    },
+    "catalog_model_identifier": "1003992487",
+    "catalog_complete": false,
+    "assemblies": 42,
+    "parts": 1179,
+    "scope_confirmed": false,
+    "catalog_region": "EU",
+    "catalog_label": "FC 250                              2026 <2026><EU><F2101Z1>",
+    "reusable_for_us": false
+  },
+  {
+    "path": "docs\\research\\expansion\\husqvarna\\fc-450-2022.json",
+    "sha256": "b1c92d51301e7074a78656fd91a2b917b0e546ca213dab7855848da4028df328",
+    "target": {
+      "manufacturer": "Husqvarna",
+      "model": "FC 450",
+      "model_year": 2022,
+      "variant": "standard",
+      "region": "US"
+    },
+    "catalog_model_identifier": "1002104876",
+    "catalog_complete": true,
+    "assemblies": 41,
+    "parts": 1181,
+    "scope_confirmed": true,
+    "catalog_region": "US",
+    "catalog_label": "FC 450                              2022 <2022><US><F2475V2>",
+    "reusable_for_us": true
+  },
+  {
+    "path": "docs\\research\\expansion\\husqvarna\\fc-450-2023.json",
+    "sha256": "41754e6ca0e8894e52eb4aa6c87d4019d2b53f1a44ec76816dfc01bc0fe3b849",
+    "target": {
+      "manufacturer": "Husqvarna",
+      "model": "FC 450",
+      "model_year": 2023,
+      "variant": "standard",
+      "region": "US"
+    },
+    "catalog_model_identifier": "1002327847",
+    "catalog_complete": true,
+    "assemblies": 42,
+    "parts": 1178,
+    "scope_confirmed": true,
+    "catalog_region": "US",
+    "catalog_label": "FC 450                              2023 <2023><US><F2475W2>",
+    "reusable_for_us": true
+  },
+  {
+    "path": "docs\\research\\expansion\\husqvarna\\fc-450-2024.json",
+    "sha256": "f5c6e8031c3de35b7ac63fd7d43583bf1349baa5234cd3c72da765708c29e410",
+    "target": {
+      "manufacturer": "Husqvarna",
+      "model": "FC 450",
+      "model_year": 2024,
+      "variant": "standard",
+      "region": "US"
+    },
+    "catalog_model_identifier": "1003027004",
+    "catalog_complete": true,
+    "assemblies": 42,
+    "parts": 1185,
+    "scope_confirmed": true,
+    "catalog_region": "US",
+    "catalog_label": "FC 450                              2024 <2024><US><F2475X2>",
+    "reusable_for_us": true
+  },
+  {
+    "path": "docs\\research\\expansion\\husqvarna\\fc-450-2025.json",
+    "sha256": "3d035bcfac53b6d3813f428dc4cac8d70adc4b3635fa4a64f6820d718ca52ea2",
+    "target": {
+      "manufacturer": "Husqvarna",
+      "model": "FC 450",
+      "model_year": 2025,
+      "variant": "standard",
+      "region": "US"
+    },
+    "catalog_model_identifier": "1003420885",
+    "catalog_complete": true,
+    "assemblies": 42,
+    "parts": 1176,
+    "scope_confirmed": true,
+    "catalog_region": "US",
+    "catalog_label": "FC 450                              2025 <2025><US><F2475Y2>",
+    "reusable_for_us": true
+  },
+  {
+    "path": "docs\\research\\expansion\\husqvarna\\fc-450-2026.json",
+    "sha256": "266ec31f6a268c59c54494f726673722292d535c08dde5b59adc248acd90e969",
+    "target": {
+      "manufacturer": "Husqvarna",
+      "model": "FC 450",
+      "model_year": 2026,
+      "variant": "standard",
+      "region": "US"
+    },
+    "catalog_model_identifier": "1003992529",
+    "catalog_complete": false,
+    "assemblies": 42,
+    "parts": 1172,
+    "scope_confirmed": false,
+    "catalog_region": "EU",
+    "catalog_label": "FC 450                              2026 <2026><EU><F2401Z1>",
+    "reusable_for_us": false
+  },
+  {
+    "path": "docs\\research\\expansion\\gasgas\\mc-250f-2022.json",
+    "sha256": "a61b83907fa8b544cf789c303e465825c261f563371f9e70fd714fded3cc28b5",
+    "target": {
+      "manufacturer": "GasGas",
+      "model": "MC 250F",
+      "model_year": 2022,
+      "variant": "standard",
+      "region": "US"
+    },
+    "catalog_model_identifier": "1002106178",
+    "catalog_complete": true,
+    "assemblies": 41,
+    "parts": 1177,
+    "scope_confirmed": false,
+    "catalog_region": "EU",
+    "catalog_label": "MC 250F                             2022 <2022><EU><F0201V5>",
+    "reusable_for_us": false
+  },
+  {
+    "path": "docs\\research\\expansion\\gasgas\\mc-250f-2023.json",
+    "sha256": "4d4953a41659fdd697d9567d8450299fa1e3c026c0c4d2b68b8f740837a9ae6d",
+    "target": {
+      "manufacturer": "GasGas",
+      "model": "MC 250F",
+      "model_year": 2023,
+      "variant": "standard",
+      "region": "US"
+    },
+    "catalog_model_identifier": "1002324346",
+    "catalog_complete": true,
+    "assemblies": 42,
+    "parts": 1184,
+    "scope_confirmed": false,
+    "catalog_region": "EU",
+    "catalog_label": "MC 250F                             2023 <2023><EU><F0201W5>",
+    "reusable_for_us": false
+  },
+  {
+    "path": "docs\\research\\expansion\\gasgas\\mc-250f-2024.json",
+    "sha256": "5e962c10257f36579a643ac2e4fb10c5d3a3b1c923b4f44818a269b3c7e8bb3d",
+    "target": {
+      "manufacturer": "GasGas",
+      "model": "MC 250F",
+      "model_year": 2024,
+      "variant": "standard",
+      "region": "US"
+    },
+    "catalog_model_identifier": "1003024725",
+    "catalog_complete": true,
+    "assemblies": 42,
+    "parts": 1168,
+    "scope_confirmed": true,
+    "catalog_region": null,
+    "catalog_label": "MC 250F                             2024 <2024><F0201X5>",
+    "reusable_for_us": true
+  },
+  {
+    "path": "docs\\research\\expansion\\gasgas\\mc-250f-2025.json",
+    "sha256": "1063c72b1e0b9d9e9340de1835fdee1fb7164f34dd8801c82913b7f987ee6948",
+    "target": {
+      "manufacturer": "GasGas",
+      "model": "MC 250F",
+      "model_year": 2025,
+      "variant": "standard",
+      "region": "US"
+    },
+    "catalog_model_identifier": "1003420981",
+    "catalog_complete": true,
+    "assemblies": 42,
+    "parts": 1171,
+    "scope_confirmed": true,
+    "catalog_region": null,
+    "catalog_label": "MC 250F                             2025 <2025><F0201Y5>",
+    "reusable_for_us": true
+  },
+  {
+    "path": "docs\\research\\expansion\\gasgas\\mc-250f-2026.json",
+    "sha256": "896d5512dbc82972353acf067bbd48aff397720ef68020bc1004c1629aafb6a8",
+    "target": {
+      "manufacturer": "GasGas",
+      "model": "MC 250F",
+      "model_year": 2026,
+      "variant": "standard",
+      "region": "US"
+    },
+    "catalog_model_identifier": "1003992417",
+    "catalog_complete": true,
+    "assemblies": 42,
+    "parts": 1171,
+    "scope_confirmed": false,
+    "catalog_region": "AR",
+    "catalog_label": "MC 250F                             2026 <2026><AR><F0201Z5>",
+    "reusable_for_us": false
+  },
+  {
+    "path": "docs\\research\\expansion\\gasgas\\mc-450f-2022.json",
+    "sha256": "2865f19cc77a433f0037b4a5a0920ece610738a2b2ea00b8a019b0661994c410",
+    "target": {
+      "manufacturer": "GasGas",
+      "model": "MC 450F",
+      "model_year": 2022,
+      "variant": "standard",
+      "region": "US"
+    },
+    "catalog_model_identifier": "1002106184",
+    "catalog_complete": true,
+    "assemblies": 41,
+    "parts": 1169,
+    "scope_confirmed": false,
+    "catalog_region": "EU",
+    "catalog_label": "MC 450F                             2022 <2022><EU><F0301V5>",
+    "reusable_for_us": false
+  },
+  {
+    "path": "docs\\research\\expansion\\gasgas\\mc-450f-2023.json",
+    "sha256": "3add8c673f77b30acec7095407413dbacd80e4ed9d5176afd39563c7729bd208",
+    "target": {
+      "manufacturer": "GasGas",
+      "model": "MC 450F",
+      "model_year": 2023,
+      "variant": "standard",
+      "region": "US"
+    },
+    "catalog_model_identifier": "1002324340",
+    "catalog_complete": true,
+    "assemblies": 42,
+    "parts": 1172,
+    "scope_confirmed": false,
+    "catalog_region": "EU",
+    "catalog_label": "MC 450F                             2023 <2023><EU><F0301W5>",
+    "reusable_for_us": false
+  },
+  {
+    "path": "docs\\research\\expansion\\gasgas\\mc-450f-2024.json",
+    "sha256": "48927d63a840ba96c1ffc02d575d002ef6a1bcd5d738634dcd888365e16f8c60",
+    "target": {
+      "manufacturer": "GasGas",
+      "model": "MC 450F",
+      "model_year": 2024,
+      "variant": "standard",
+      "region": "US"
+    },
+    "catalog_model_identifier": "1003024719",
+    "catalog_complete": true,
+    "assemblies": 42,
+    "parts": 1166,
+    "scope_confirmed": false,
+    "catalog_region": "EU",
+    "catalog_label": "MC 450F                             2024 <2024><EU><F0301X5>",
+    "reusable_for_us": false
+  },
+  {
+    "path": "docs\\research\\expansion\\gasgas\\mc-450f-2025.json",
+    "sha256": "3fba6099e8b45966742cb77aac408a5e33b789991229372d08453fddcd483f1c",
+    "target": {
+      "manufacturer": "GasGas",
+      "model": "MC 450F",
+      "model_year": 2025,
+      "variant": "standard",
+      "region": "US"
+    },
+    "catalog_model_identifier": "1003420993",
+    "catalog_complete": true,
+    "assemblies": 42,
+    "parts": 1164,
+    "scope_confirmed": true,
+    "catalog_region": null,
+    "catalog_label": "MC 450F                             2025 <2025><F0301Y5>",
+    "reusable_for_us": true
+  },
+  {
+    "path": "docs\\research\\expansion\\gasgas\\mc-450f-2026.json",
+    "sha256": "8cd15e2058c5329f8ec925c204b6f57b34b6361e569131b5c203811174c5e83a",
+    "target": {
+      "manufacturer": "GasGas",
+      "model": "MC 450F",
+      "model_year": 2026,
+      "variant": "standard",
+      "region": "US"
+    },
+    "catalog_model_identifier": "1003992433",
+    "catalog_complete": true,
+    "assemblies": 42,
+    "parts": 1164,
+    "scope_confirmed": true,
+    "catalog_region": null,
+    "catalog_label": "MC 450F                             2026 <2026><F0301Z5>",
+    "reusable_for_us": true
+  },
+  {
+    "path": "docs\\research\\parts\\ktm-450-2025.json",
+    "sha256": "339964007f83e9c73fef33718d53e6e9b9a9eaed24f4528d3a86627bb4339de8",
+    "target": {
+      "manufacturer": "KTM",
+      "model": "450 SX-F",
+      "model_year": 2025,
+      "variant": "standard",
+      "region": "US"
+    },
+    "catalog_model_identifier": "1003417574",
+    "catalog_complete": true,
+    "assemblies": 42,
+    "parts": 1167,
+    "scope_confirmed": true,
+    "catalog_region": "US",
+    "catalog_label": null,
+    "reusable_for_us": true
+  }
+]

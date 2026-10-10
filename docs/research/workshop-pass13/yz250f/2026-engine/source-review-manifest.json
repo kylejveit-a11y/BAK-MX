@@ -1,0 +1,34 @@
+{
+  "status": "APPROVED",
+  "sources": [
+    {
+      "id": "yamaha-us-2026-yz250f-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/DR8-2819U-10_02.pdf",
+      "sha256": "1a4cbe46f057fdedfcb50bde0bc7f67180eb649725f8a18f756dd6d12588bec9",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\DR8-2819U-10_02.pdf"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "top-end-teardown-inspection-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "88e9c1f18c94bff4ab345a8454882220ee8657c0155c5773356d5df3193f3805",
+      "source_id": "yamaha-us-2026-yz250f-oem",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "step_count": 24
+    }
+  ],
+  "independent_review": {
+    "path": "engine-independent-review.json",
+    "sha256": "580abbdc761e3ba9986d81ce6fb0d8bb152de8e9e8c62716c94314b2415678e6",
+    "candidate_sha256": "d8b74c8b6a10296cbbfb6580357003a0f1e462f288024b68fd3ede9ab3924f06",
+    "approved_artifact_sha256": "88e9c1f18c94bff4ab345a8454882220ee8657c0155c5773356d5df3193f3805",
+    "freeze_changes": "Approval metadata only; head completeness describes its existing detached-head scope."
+  }
+}

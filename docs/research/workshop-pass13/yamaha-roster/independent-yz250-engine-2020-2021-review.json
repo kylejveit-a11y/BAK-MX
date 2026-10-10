@@ -1,0 +1,117 @@
+{
+  "status": "APPROVED_FOR_BOUNDED_RUNTIME",
+  "reviewer": "year_groups_research independent of core_flow_repairs author",
+  "artifacts": [
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2020-yz250-top-end-power-valve-bench-v1.procedure.json",
+      "reviewed_candidate_sha256": "584023468fceb8d9634ab3873520572b7e50e8d23b228175bb41deca1e0a21dc",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 28
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2021-yz250-top-end-power-valve-bench-v1.procedure.json",
+      "reviewed_candidate_sha256": "15092c7f7cecba999489ee4bb902f8f448affd30bf3f247071f697d3a57055a1",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 28
+    }
+  ],
+  "source_bindings": [
+    {
+      "id": "yamaha-us-2020-yz250-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf",
+      "sha256": "112713a7256a234953896fb34d9ddfd308a897c1c623fe29f95a344080a4ce2e"
+    },
+    {
+      "id": "yamaha-us-2021-yz250-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BF1-2819U-10_02.pdf",
+      "sha256": "2cd32cdb7b01212b35ca3ddab57c60cf47873ad6ef19f18ad57b98e779e41ab7"
+    }
+  ],
+  "scope": "Two distinct exact-US prepared-engine top-end/power-valve companions; no automatic YZ250X or year inheritance.",
+  "review": {
+    "2020": {
+      "text_pages": [
+        1,
+        3,
+        9,
+        33,
+        35,
+        109,
+        113,
+        114,
+        115,
+        116,
+        117,
+        120
+      ],
+      "rendered_pages": [
+        109,
+        111,
+        114,
+        115,
+        116,
+        118,
+        119,
+        120,
+        121,
+        122
+      ],
+      "findings_resolved": [
+        "Piston measurement datum corrected from unsupported skirt bottom to exact stepped inner surface a/distance b17.5mm fromPDF115."
+      ],
+      "accepted_limits": [
+        "Mean-vs-maximum bore contradiction PDF114 remains a REQUIRED qualified external method/disposition before acceptance/assembly. Source review does not resolve that conflict.",
+        "Head resurfacing/cylinder repair, lower-end/shaft-seal service and bike access/refit/commissioning are separate."
+      ],
+      "key_checks": [
+        "Quarter-turn head loosening;5Nm pushrod/housing; oldBsymbol lithium grease rather than later wheel grease.",
+        "66.500 bore limit/.050 taper/.100 piston limit/.40–.55 ring gap/17.995–18.000 pinOD and explicit freeplay checks match source.",
+        "Basegasket printtowardcase; oilbearings/bigendwashers; ringpins, newclips, headOrings/copperwashers, valveassemblyorder and42/25Nm closure match exact diagrams."
+      ]
+    },
+    "2021": {
+      "text_review": "Exact168–178 chapter normalized comparison to independently reviewed2022 showed only identified heading/wording/layout changes; all resulting deltas inspected. Exact41–42 dimensions and scopes read independently.",
+      "text_pages": [
+        1,
+        3,
+        41,
+        42,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178
+      ],
+      "rendered_pages": [
+        168,
+        169,
+        175,
+        176,
+        177,
+        178
+      ],
+      "findings": []
+    }
+  },
+  "physical_validation": false,
+  "whole_bike_complete": false,
+  "freeze_permission": "Approval/status/review-note-only metadata revision and final hash rebinding permitted; mechanical changes require review."
+}

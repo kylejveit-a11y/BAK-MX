@@ -1,0 +1,153 @@
+{
+  "status": "PENDING_INDEPENDENT_REVIEW",
+  "artifacts": [
+    {
+      "path": "2021-fork-baseline-v1.procedure.json",
+      "sha256": "de772ce92cb8de1403757f669cef2b063d7231fdcc4a086644182afe2069b7ab",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 6
+    },
+    {
+      "path": "2021-shock-baseline-v1.procedure.json",
+      "sha256": "1bf50dd2269e4b1ba034fafa71b83233794e034644c3ea279173ce08b2cb4b77",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 6
+    },
+    {
+      "path": "2021-rider-sag-preload-v1.procedure.json",
+      "sha256": "d99925f9c656d638dbb6b4a4cc3735b2dc9c161a0da1ac1555d3a247d6511537",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 7
+    },
+    {
+      "path": "2027-fork-baseline-v1.procedure.json",
+      "sha256": "37236d501f7c66780bbd9ffeafe818ba443c4dbb546a26445ba52032ad2f84bb",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2027,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 6
+    },
+    {
+      "path": "2027-shock-baseline-v1.procedure.json",
+      "sha256": "83207ee22c09f55e19f6b6bf4d64f6042a00843573ec2e321bb894348ba59980",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2027,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 6
+    },
+    {
+      "path": "2027-rider-sag-preload-v1.procedure.json",
+      "sha256": "74610f433a6376984e868eea5147fed3646634cae0caf0c8d8e27fc73db61ba1",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2027,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 7
+    },
+    {
+      "path": "2020-fork-baseline-v1.procedure.json",
+      "sha256": "bea94a9f2d803d4f9823363c1826e1c79db1407fbbb4842afb991e26523543e3",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 6
+    },
+    {
+      "path": "2020-shock-baseline-v1.procedure.json",
+      "sha256": "02c2f294da5b14493cfd19162eb5544fa5a3733b993cf2328bb98d75abd264c6",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 6
+    },
+    {
+      "path": "2020-rider-sag-preload-v1.procedure.json",
+      "sha256": "1ddb8fe37bd325da8d5b8286eda96ed9bb80e99c32c14a702771faf90c038de8",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 4
+    }
+  ],
+  "source_parameters": [
+    {
+      "year": 2021,
+      "code": "B2W-2819U-11",
+      "fork": 105,
+      "inspect": 104,
+      "bleed": 106,
+      "shock": 106,
+      "reboundpage": 107,
+      "highpage": 107,
+      "lowpage": 108,
+      "sag": 356,
+      "fr": 9,
+      "fc": 9,
+      "sr": 11,
+      "sh": "1",
+      "sl": 9,
+      "preload": 7,
+      "datum": "rear fender holding bolt"
+    },
+    {
+      "year": 2027,
+      "code": "D03-2819U-11",
+      "fork": 114,
+      "inspect": 113,
+      "bleed": 115,
+      "shock": 115,
+      "reboundpage": 116,
+      "highpage": 117,
+      "lowpage": 117,
+      "sag": 396,
+      "fr": 9,
+      "fc": 12,
+      "sr": 8,
+      "sh": "1+3/8",
+      "sl": 7,
+      "preload": 7,
+      "datum": "triangle mark on the rear fender"
+    }
+  ]
+}

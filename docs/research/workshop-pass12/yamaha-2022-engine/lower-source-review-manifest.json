@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED",
+  "sources": [
+    {
+      "id": "yamaha-us-2022-yz450f-oem",
+      "source_id": "yamaha-us-2022-yz450f-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf",
+      "sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\B2W-2819U-12_02.pdf",
+      "pdf_pages": [
+        21,
+        22,
+        90,
+        223,
+        224,
+        225,
+        226,
+        227,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "lower-engine-bench-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "7f00ea163b0867b3e60b19246aba36af5bfb75b63e12266829ca0cac2da8fba4",
+      "source_id": "yamaha-us-2022-yz450f-oem",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "review_status": "APPROVED"
+    }
+  ],
+  "author_review": {
+    "path": "lower-author-review-v1.json",
+    "sha256": "d1d7d8825028a629ff9b9d5731568098fe27be6aade1b293208b4b8907cfa12a"
+  },
+  "independent_review": {
+    "path": "lower-independent-review-v1.json",
+    "sha256": "8209eb0cb19135bba84441ac36e4360986be4aad11b3cb7918925aac626566ca",
+    "status": "APPROVED"
+  }
+}

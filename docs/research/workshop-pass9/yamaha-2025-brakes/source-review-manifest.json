@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED",
+  "sources": [
+    {
+      "id": "yamaha25",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf",
+      "sha256": "5005e7d8492c9482dfe44c6d752609a9a70a836f5b1dc94be3149d5d493de8ac",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\D02-2819U-10_02.pdf"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "front-caliper-rebuild-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "d19ce9350d0a271b3703833c033b1ba0211ec8ecaaf9f69d8e44caf0cf7c84ab",
+      "source_id": "yamaha25",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "rear-caliper-rebuild-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "2471b69ebe8822d670210261475ced42f99df052187752548034a6375d8bebb5",
+      "source_id": "yamaha25",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "front-master-rebuild-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "de395c39fe3433432645fc2f2c6b980b1d2066b5b8001e5c74f0c1cba79f2de9",
+      "source_id": "yamaha25",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "rear-master-rebuild-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "4ad97a37087557ed28355e03fd01ffb43e3f9b7494a0244cba1ea44f4d280f69",
+      "source_id": "yamaha25",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "independent-review-v1.json",
+      "kind": "review",
+      "sha256": "ee7a5cdaf4d65c94d791e39b974cb1a62033a63b32303d8c5be90589983420dc"
+    },
+    {
+      "path": "validate_review.py",
+      "kind": "validator",
+      "sha256": "2548f5e93ce84f52e44613e24f3785e89b9c0402b6d2964cbece454078d8073e"
+    },
+    {
+      "path": "page-comparison-map.json",
+      "kind": "comparison",
+      "sha256": "ca8c5e853d6b6c9d04c0ca8665d8919c4946587af34e133730d59b7779c6fca7"
+    },
+    {
+      "path": "build_candidates.py",
+      "kind": "authoring_helper",
+      "sha256": "2264b1ffce206c356f614c70e250dbe94c894fe2f94c11424922928cf961e0d0"
+    }
+  ]
+}

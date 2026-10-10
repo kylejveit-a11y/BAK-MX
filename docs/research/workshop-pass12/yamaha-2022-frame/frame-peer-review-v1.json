@@ -1,0 +1,70 @@
+{
+  "status": "APPROVED",
+  "reviewer": "year_groups_research independent source peer",
+  "artifact_path": "docs/research/workshop-pass12/yamaha-2022-frame/frame-bearing-renewal-reassembly-v1.procedure.json",
+  "artifact_sha256": "795b8bb16d2ac68b6c5b19711f805c55b2f9f88d3a25fa80fa2c4524076fa40a",
+  "source_sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608",
+  "dependency_sha256": "cbf8d699bd55eea9bd8d5ba98c459829dc8aa94110736340679fc3b4f5f2244a",
+  "scope": "Read all81 non-access chassis instructions,5 adapted engine-interface instructions and final lower-holder/eye/wheel corrections. Remaining72-step interface inherited only from exact2022 frozen dependency. No cross-year physical specification inheritance accepted. Explicit oil-check closure and hub-seal endpoint external documentation required. Illustrated serviceable-frame/bearing renewal route, not structural repair or all-bike completion.",
+  "reviewed_text_pages": [
+    22,
+    58,
+    59,
+    60,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    149,
+    150,
+    151,
+    152,
+    156,
+    158,
+    167,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180
+  ],
+  "reviewed_rendered_pages": [
+    177,
+    178,
+    180
+  ],
+  "supplemental_review": "Read and hashchecked Motion Pro stem/race/linkage sources; rendered page1 of each; preserved exact-Yamaha geometry and actual tool-fit prerequisite. Existing drive holding method comes from frozen exact2022 access dependency.",
+  "resolved_findings": [
+    {
+      "id": "lower-holder-access",
+      "resolution": "Revised bar-off/refit remove2lowerholdernuts with complete bar/upperholders intact, preserve4dampers+washers, restore source offset and40Nm. Exact158/167 route now matches.",
+      "reviewed_final_steps": [
+        "front-bar-off",
+        "front-bar-refit"
+      ]
+    },
+    {
+      "id": "bearing-depth-datum",
+      "resolution": "Enlarged177 confirms0mm bearingface, not seal;1784.25 eyehousingface to bearing1face now explicit."
+    },
+    {
+      "id": "chain-sequence",
+      "resolution": "Rear wheel refit explicitly keeps chain absent until later sprocket/chain installation."
+    }
+  ],
+  "checks": [
+    "validate_frame.py PASS153 and all source/dependency hashes"
+  ],
+  "freeze_permission": "Approval-status-only metadata changes permitted; author must rebind final artifact hash in this review and manifests. No mechanical changes without review."
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "status": "FINAL_FROZEN_AFTER_SOURCE_AND_RIDER_REVIEW",
+  "artifacts": [
+    {
+      "path": "build_topend.py",
+      "sha256": "f69d94b95274fcf4c26edcd909671403e31fcbf6f4b69bfe30cd64d32b4c4cf5"
+    },
+    {
+      "path": "composition-review-v1.json",
+      "sha256": "dfce7866d8ff9a7d8ff719694004d1f1217f3ce3c390b983887786887113aac3"
+    },
+    {
+      "path": "REVIEW.md",
+      "sha256": "4eeec29aedbad74173eba8de96bb64e33df6fffe78c399e419cc1b28f055cf1f"
+    },
+    {
+      "path": "source-review-manifest.json",
+      "sha256": "b499036ddfb68e6dd445bec8f23c1124176d121afcd1634e9b80ada168d36045"
+    },
+    {
+      "path": "top-end-stock-reuse-v1.procedure.json",
+      "sha256": "67e79fb759118435f2150c3f18fab128638b2752160a4ccbf5c25e4a2fc0e21e"
+    },
+    {
+      "path": "validate_topend.py",
+      "sha256": "8dec0bdb8153c9ebb78c1700c708d2589ae0a26f2de7b4f2352c3ccbc3256191"
+    },
+    {
+      "path": "independent-review-correction-v1.json",
+      "sha256": "21d8ad4812eb88de11b0b78c2b72421714e8c32629d820bc11abd92536cdeb5d"
+    },
+    {
+      "path": "rider-metadata-correction-v1.json",
+      "sha256": "b8182b071bfad3633107a53bf622ce40efed055cf2860d447e7c8f0265ee1825"
+    }
+  ]
+}

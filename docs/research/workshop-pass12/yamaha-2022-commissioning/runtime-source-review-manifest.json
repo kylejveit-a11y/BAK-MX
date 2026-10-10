@@ -1,0 +1,37 @@
+{
+  "status": "APPROVED",
+  "author_review_manifest": {
+    "path": "docs/research/workshop-pass12/yamaha-2022-commissioning/source-review-manifest.json",
+    "sha256": "17b9bff576c774e6bcc9e32d7ae3355e458fa898eccfb080f7718538a8b8ee57"
+  },
+  "sources": [
+    {
+      "id": "yamaha-us-2022-yz450f-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf",
+      "sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\B2W-2819U-12_02.pdf"
+    },
+    {
+      "id": "mityvac-mv4560-method",
+      "url": "https://cdn.skfmediahub.skf.com/api/public/0901d1968096854e/pdf_preview_medium/0901d1968096854e_pdf_preview_medium.pdf",
+      "sha256": "508a744728dc28c37911bdc206f3e8ec6fe5eb8f11febe74a385bbf1299493cf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\mityvac-MV4560-801625.pdf"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "post-rebuild-commissioning-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2022-yz450f-oem",
+      "sha256": "8a32d6216ba22e82295a4c51966c0d0a82717d530e6177d2b56cad9086183bd8",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 32
+    }
+  ]
+}

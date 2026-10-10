@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED",
+  "reviewer": "/root",
+  "original_artifact": "docs/research/workshop-pass12/yamaha-2022-engine/lower-engine-bench-v1.procedure.json",
+  "original_sha256": "7f00ea163b0867b3e60b19246aba36af5bfb75b63e12266829ca0cac2da8fba4",
+  "overlay": {
+    "path": "lower-filter-oring-correction-v1.json",
+    "sha256": "b43c248302b36f6273d198a1cfc39cfaa6848ee5542b8f2bb33cbcbe0750e946"
+  },
+  "corrected_snapshot": {
+    "path": "lower-engine-bench-v1-corrected.procedure.json",
+    "sha256": "be37758b69aa7a849f001a7ce16494cf71f0274c0eccbc756906108aa88e51d4"
+  },
+  "source_sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608",
+  "only_allowed_changes": [
+    {
+      "step_id": "right-cover-out",
+      "field": "instruction",
+      "before": "Remove the oil-filter cover, filter and O-rings. Remove radiator pipe 2 from the right-cover interface and discard its O-ring. Remove the right-cover bolts and lift the cover without forcing the water-pump shaft drive. Keep the pump assembled to the cover. Recover the dowels and collar; discard the cover gasket and collar O-ring. Index the cover fasteners using the exploded view.",
+      "after": "Remove the oil-filter cover, filter and O-ring. Remove radiator pipe 2 from the right-cover interface and discard its O-ring. Remove the right-cover bolts and lift the cover without forcing the water-pump shaft drive. Keep the pump assembled to the cover. Recover the dowels and collar; discard the cover gasket and collar O-ring. Index the cover fasteners using the exploded view."
+    },
+    {
+      "step_id": "pipe-filter",
+      "field": "instruction",
+      "before": "Fit radiator pipe 2 with a new O-ring lubricated with LS grease, following the illustrated joint orientation; tighten the joint bolt to 10 Nm. Install a new oil filter and new LS-greased cover O-rings, then the filter cover at 10 Nm. Keep oil and coolant unfilled at this bench stage.",
+      "after": "Fit radiator pipe 2 with a new O-ring lubricated with LS grease, following the illustrated joint orientation; tighten the joint bolt to 10 Nm. Install a new oil filter and a new LS-greased cover O-ring, then the filter cover at 10 Nm. Keep oil and coolant unfilled at this bench stage."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-09-13",
+  "runtime_approval": false,
+  "database_writes": false,
+  "artifacts": [
+    {
+      "path": "beta-hold-followup.json",
+      "sha256": "0b058054de87aef0fe967038dfcd7cff310599cd53d6264f10c1c1e46f73f2f0"
+    },
+    {
+      "path": "yamaha-internal-shock-review.json",
+      "sha256": "ac5adfc3b0056ea6189744e568200d0b2568b612ffaed9a5325f99550c2f197f"
+    }
+  ],
+  "sources": [
+    {
+      "id": "beta23-lowering",
+      "url": "https://betausa.com/content/SUPPORT_PDF%27s/AB-41115%20%26%20AB-41116%202023%20KYB%20Lowering%20Kit.pdf",
+      "local_path": "C:/Users/kylej/AppData/Local/Temp/beta-2023-kyb-lowering.pdf",
+      "sha256": "650c8c962d0d52ef82baad3e264f859a4ca79c67deb308758ffae1b9508cfdae",
+      "pdf_pages": [
+        1
+      ],
+      "review": "VISUALLY_REVIEWED",
+      "attribution": "Beta USA",
+      "scope": "2023 RX/Race Edition lowering kits AB-41115/16",
+      "summary": "Names Liqui Moly2.5/3wt for the KYB shock. This corroborates an OEM US service-product recommendation, but the operation changes the original stop plate/stack with a lowering spacer. It provides no final charge or explicit equivalence to K2C.",
+      "admission": "REFERENCE_ONLY_NOT_STOCK_PROCEDURE"
+    },
+    {
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+      "local_path": "C:/Users/kylej/AppData/Local/Temp/D03-2819U-10_02.pdf",
+      "sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+      "pdf_pages": [
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        396,
+        397
+      ],
+      "finding": "Shock section supports removal/refit, spring and mounting/linkage bearing service, not oil/piston/seal-head overhaul. Disposal gas release is not a rebuild charge procedure."
+    }
+  ]
+}

@@ -1,0 +1,2139 @@
+{
+  "schema_version": 1,
+  "bike": {
+    "make": "KTM",
+    "model": "450 SX-F",
+    "year": 2025
+  },
+  "scope": "retailer assemblies indexes 0..13",
+  "research_date": "2026-09-13",
+  "quantity_note": "Suggested order quantity is not verified installed quantity.",
+  "assemblies": [
+    {
+      "assembly_id": "frame",
+      "assembly_name": "frame",
+      "inventory_source_id": "frame",
+      "part_count_acquired": 33,
+      "rows": [
+        {
+          "callout": "1",
+          "description": "Frame",
+          "part_number": "A46003001200C1",
+          "suggested_order_quantity": null,
+          "supersedes": null
+        },
+        {
+          "callout": "2",
+          "description": "Subframe",
+          "part_number": "A46003002000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "3",
+          "description": "Cover control",
+          "part_number": "79111013010",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "4",
+          "description": "Special screw",
+          "part_number": "09000008016U0",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "5",
+          "description": "SPECIAL SCREW",
+          "part_number": "79003003000",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "6",
+          "description": "Engine brace",
+          "part_number": "A4600301310001",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "7",
+          "description": "Engine brace",
+          "part_number": "A4600301410001",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "8",
+          "description": "SHCS M8x20",
+          "part_number": "0035080206S",
+          "suggested_order_quantity": "6",
+          "supersedes": "0933080203"
+        },
+        {
+          "callout": "9",
+          "description": "Fuel tank",
+          "part_number": "A46007012100",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "10",
+          "description": "Cable bracket/throttle",
+          "part_number": "A46003099020",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "11",
+          "description": "EJOT PT",
+          "part_number": "0081050141",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "15",
+          "description": "ENGINEBRAC.SCREW M10X123",
+          "part_number": "59003013000",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "16",
+          "description": "Chain slider",
+          "part_number": "A46003053000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "18",
+          "description": "HH collar",
+          "part_number": "0025080206",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "19",
+          "description": "HH COLLAR",
+          "part_number": "0025060456",
+          "suggested_order_quantity": "1",
+          "supersedes": "0015060453"
+        },
+        {
+          "callout": "21",
+          "description": "Footpeg left",
+          "part_number": "A46003140000",
+          "suggested_order_quantity": "1",
+          "supersedes": "A46003040000"
+        },
+        {
+          "callout": "22",
+          "description": "Footpeg right",
+          "part_number": "A46003141000",
+          "suggested_order_quantity": "1",
+          "supersedes": "A46003041000"
+        },
+        {
+          "callout": "23",
+          "description": "washer DIN",
+          "part_number": "0125100003",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "24",
+          "description": "Footrest spring",
+          "part_number": "A46003045000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "25",
+          "description": "PIN FOR",
+          "part_number": "54803044000",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "26",
+          "description": "Footrest spring",
+          "part_number": "A46003044000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "27",
+          "description": "PIN DIN",
+          "part_number": "0094032250",
+          "suggested_order_quantity": "2",
+          "supersedes": "0094032253"
+        },
+        {
+          "callout": "28",
+          "description": "Footpeg set",
+          "part_number": "A46003137033",
+          "suggested_order_quantity": "1",
+          "supersedes": "A46003037033"
+        },
+        {
+          "callout": "29",
+          "description": "HH collar",
+          "part_number": "0025050106",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "30",
+          "description": "BUSH F.",
+          "part_number": "54803092060",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "31",
+          "description": "CABLE TIE",
+          "part_number": "44011076200",
+          "suggested_order_quantity": null,
+          "supersedes": null
+        },
+        {
+          "callout": "32",
+          "description": "CABLE TIE",
+          "part_number": "44011076140",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "33",
+          "description": "Frame protection",
+          "part_number": "A46003094000C1",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "35",
+          "description": "Cable bracket",
+          "part_number": "A46003099010",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "36",
+          "description": "wire holder",
+          "part_number": "79107013010",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "37",
+          "description": "Cable bracket",
+          "part_number": "79711013010",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "38",
+          "description": "HH collar",
+          "part_number": "0025080206",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "39",
+          "description": "Front sprocket",
+          "part_number": "A46003096000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        }
+      ],
+      "source_url": "https://www.motosport.com/dirtbike/oem-parts/ktm/2025/450-sx_f/frame",
+      "status": "full_rendered_table_acquired",
+      "url_evidence": "Observed live catalogue navigation href; only sampled assemblies opened",
+      "diagram_reconciliation_status": "not_performed"
+    },
+    {
+      "assembly_id": "balancer-shaft",
+      "assembly_name": "balancer shaft",
+      "inventory_source_id": "frame",
+      "observed_title": "MotoSport.com: #1 in Dirt Bike, Motorcycle, ATV and UTV Parts, Accessories and Gear | MotoSport",
+      "observed_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/balancer-shaft?fam=engine",
+      "part_count_acquired": 3,
+      "rows": [
+        {
+          "callout": "1",
+          "description": "Balancer shaft",
+          "part_number": "A48030057000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "2",
+          "description": "Balancer shaft",
+          "part_number": "79430057101",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "3",
+          "description": "FRICTION BEAR.",
+          "part_number": "79430057010",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        }
+      ],
+      "source_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/balancer-shaft?fam=engine",
+      "status": "full_rendered_table_acquired",
+      "url_evidence": "Observed live catalogue navigation href; only sampled assemblies opened",
+      "diagram_reconciliation_status": "not_performed"
+    },
+    {
+      "assembly_id": "clutch",
+      "assembly_name": "clutch",
+      "inventory_source_id": "frame",
+      "observed_title": "MotoSport.com: #1 in Dirt Bike, Motorcycle, ATV and UTV Parts, Accessories and Gear | MotoSport",
+      "observed_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/clutch?fam=engine",
+      "part_count_acquired": 22,
+      "rows": [
+        {
+          "callout": "1",
+          "description": "Outer clutch",
+          "part_number": "A46032001072",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "2",
+          "description": "NEEDLE BEAR",
+          "part_number": "0405252910",
+          "suggested_order_quantity": "2",
+          "supersedes": "0402252910"
+        },
+        {
+          "callout": "3",
+          "description": "Collar sleeve",
+          "part_number": "A46032015000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "4",
+          "description": "WASHER 22",
+          "part_number": "78932009000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "5",
+          "description": "Inner clutch",
+          "part_number": "78132002400",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "6",
+          "description": "WASHER 112X118X1.5",
+          "part_number": "78132013000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "7",
+          "description": "Clutch pressure",
+          "part_number": "79432003100",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "8",
+          "description": "DAMPING RUBBER",
+          "part_number": "78132025100",
+          "suggested_order_quantity": "6",
+          "supersedes": null
+        },
+        {
+          "callout": "9",
+          "description": "Sleeve, 7.95x38",
+          "part_number": "77232104000",
+          "suggested_order_quantity": "6",
+          "supersedes": "77232004000"
+        },
+        {
+          "callout": "10",
+          "description": "HH collar",
+          "part_number": "0025050166",
+          "suggested_order_quantity": "6",
+          "supersedes": null
+        },
+        {
+          "callout": "11",
+          "description": "Lining disc",
+          "part_number": "79532011000",
+          "suggested_order_quantity": "8",
+          "supersedes": null
+        },
+        {
+          "callout": "12",
+          "description": "INTERMEDIATE DISC",
+          "part_number": "59032010200",
+          "suggested_order_quantity": "7",
+          "supersedes": null
+        },
+        {
+          "callout": "13",
+          "description": "Push rod",
+          "part_number": "A48032054000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "14",
+          "description": "Wedge lock",
+          "part_number": "0252012002900",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "15",
+          "description": "Hex nut",
+          "part_number": "0936181506",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "33",
+          "description": "INTERMEDIATE DISC",
+          "part_number": "59032010100",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "35",
+          "description": "PRESSURE PIECE",
+          "part_number": "78132057144",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "36",
+          "description": "Spring retainer",
+          "part_number": "78132006200",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "37",
+          "description": "BELLEV. SPR.",
+          "part_number": "78932005000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "38",
+          "description": "Clutch center",
+          "part_number": "78132002211",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "39",
+          "description": "INTERMEDIATE DISC",
+          "part_number": "78932010000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "99",
+          "description": "CLUTCH DISC",
+          "part_number": "79532010033",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        }
+      ],
+      "source_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/clutch?fam=engine",
+      "status": "full_rendered_table_acquired",
+      "url_evidence": "Observed live catalogue navigation href; only sampled assemblies opened",
+      "diagram_reconciliation_status": "not_performed"
+    },
+    {
+      "assembly_id": "clutch-control",
+      "assembly_name": "clutch control",
+      "inventory_source_id": "frame",
+      "observed_title": "MotoSport.com: #1 in Dirt Bike, Motorcycle, ATV and UTV Parts, Accessories and Gear | MotoSport",
+      "observed_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/clutch-control?fam=engine",
+      "part_count_acquired": 19,
+      "rows": [
+        {
+          "callout": "1",
+          "description": "MASTER CYLINDER",
+          "part_number": "79202030044",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "2",
+          "description": "CLUTCH LEVER",
+          "part_number": "54802031000",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "3",
+          "description": "REP. KIT",
+          "part_number": "54802032000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "4",
+          "description": "COVER HYD.",
+          "part_number": "5480200310030",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "5",
+          "description": "VALVE",
+          "part_number": "54802051000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "6",
+          "description": "BOLT KPL.",
+          "part_number": "54802052000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "7",
+          "description": "PROTECTION CAP",
+          "part_number": "54802037000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "8",
+          "description": "LEVER SCREW",
+          "part_number": "54802038100",
+          "suggested_order_quantity": "6",
+          "supersedes": null
+        },
+        {
+          "callout": "9",
+          "description": "PUSH ROD",
+          "part_number": "54802046000",
+          "suggested_order_quantity": "6",
+          "supersedes": null
+        },
+        {
+          "callout": "10",
+          "description": "CLAMP CPL.",
+          "part_number": "54802005100",
+          "suggested_order_quantity": "6",
+          "supersedes": null
+        },
+        {
+          "callout": "15",
+          "description": "BRAKE FLUID",
+          "part_number": "00062030000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "20",
+          "description": "OUTPUT CYLINDER",
+          "part_number": "79232061044",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "21",
+          "description": "O-RING 30,00X1,50",
+          "part_number": "0770300015",
+          "suggested_order_quantity": "1",
+          "supersedes": "770300015"
+        },
+        {
+          "callout": "23",
+          "description": "BLEEDER SCREW",
+          "part_number": "79032064000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "24",
+          "description": "SEAL RING",
+          "part_number": "0603082121",
+          "suggested_order_quantity": "2",
+          "supersedes": "58038032000"
+        },
+        {
+          "callout": "25",
+          "description": "clutch hose",
+          "part_number": "A49032063000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "28",
+          "description": "HH collar",
+          "part_number": "0025060406",
+          "suggested_order_quantity": "1",
+          "supersedes": "0015060403"
+        },
+        {
+          "callout": "29",
+          "description": "HH collar",
+          "part_number": "0025060166",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "30",
+          "description": "VENT INJEKTION",
+          "part_number": "50329050000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        }
+      ],
+      "source_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/clutch-control?fam=engine",
+      "status": "full_rendered_table_acquired",
+      "url_evidence": "Observed live catalogue navigation href; only sampled assemblies opened",
+      "diagram_reconciliation_status": "not_performed"
+    },
+    {
+      "assembly_id": "clutch-cover",
+      "assembly_name": "clutch cover",
+      "inventory_source_id": "frame",
+      "observed_title": "MotoSport.com: #1 in Dirt Bike, Motorcycle, ATV and UTV Parts, Accessories and Gear | MotoSport",
+      "observed_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/clutch-cover?fam=engine",
+      "part_count_acquired": 22,
+      "rows": [
+        {
+          "callout": "1",
+          "description": "clutch cover",
+          "part_number": "A48030001044",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "2",
+          "description": "Clutch cover",
+          "part_number": "A48030026000C1",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "3",
+          "description": "Clutch cover",
+          "part_number": "A48030027000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "4",
+          "description": "Inner clutch",
+          "part_number": "A48030025000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "5",
+          "description": "OIL SIGHT",
+          "part_number": "59030019200",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "6",
+          "description": "CIRCLIP OIL",
+          "part_number": "61030019050",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "7",
+          "description": "radial shaft",
+          "part_number": "0760142460",
+          "suggested_order_quantity": "1",
+          "supersedes": "8000H7216"
+        },
+        {
+          "callout": "8",
+          "description": "CIRCLIP DIN0472-24X1.2",
+          "part_number": "0472024120",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "9",
+          "description": "SHAFT SEAL",
+          "part_number": "0760123073",
+          "suggested_order_quantity": "1",
+          "supersedes": "0760123072"
+        },
+        {
+          "callout": "10",
+          "description": "FRICTION BEAR.",
+          "part_number": "79430057010",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "11",
+          "description": "OIL FILLER",
+          "part_number": "79430020033",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "12",
+          "description": "O-RING 19,00X3,00",
+          "part_number": "0770191015",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "13",
+          "description": "COPPER GASK.DIN7603-",
+          "part_number": "0603082131",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "14",
+          "description": "Screw, M8x20",
+          "part_number": "0000150802000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "16",
+          "description": "CU-SEAL RING",
+          "part_number": "0603061001",
+          "suggested_order_quantity": "1",
+          "supersedes": "8000H4591"
+        },
+        {
+          "callout": "17",
+          "description": "NEEDLE ROL.DIN5402",
+          "part_number": "0402040980",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "18",
+          "description": "SCREW PLUG",
+          "part_number": "59030296000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "19",
+          "description": "HH collar",
+          "part_number": "0025060206S",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "20",
+          "description": "HH collar",
+          "part_number": "0025060256",
+          "suggested_order_quantity": "7",
+          "supersedes": "0015060253"
+        },
+        {
+          "callout": "22",
+          "description": "HH collar",
+          "part_number": "0025060206",
+          "suggested_order_quantity": "3",
+          "supersedes": "0015060203"
+        },
+        {
+          "callout": "23",
+          "description": "HH COLLAR",
+          "part_number": "0025060456",
+          "suggested_order_quantity": "1",
+          "supersedes": "0015060453"
+        },
+        {
+          "callout": "24",
+          "description": "HH collar",
+          "part_number": "0025060556",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        }
+      ],
+      "source_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/clutch-cover?fam=engine",
+      "status": "full_rendered_table_acquired",
+      "url_evidence": "Observed live catalogue navigation href; only sampled assemblies opened",
+      "diagram_reconciliation_status": "not_performed"
+    },
+    {
+      "assembly_id": "cooling-system",
+      "assembly_name": "cooling system",
+      "inventory_source_id": "frame",
+      "observed_heading": "2025 KTM 450 SX-F COOLING SYSTEM",
+      "observed_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/cooling-system?fam=engine",
+      "part_count_acquired": 13,
+      "rows": [
+        {
+          "callout": "1",
+          "description": "Radiator left",
+          "part_number": "A46035007000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "2",
+          "description": "Radiator right",
+          "part_number": "A46035008000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "3",
+          "description": "Radiator cap",
+          "part_number": "A46035009000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "4",
+          "description": "Pre-formed hose",
+          "part_number": "A46035025000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "5",
+          "description": "Hose clip",
+          "part_number": "0310000902900",
+          "suggested_order_quantity": "7",
+          "supersedes": null
+        },
+        {
+          "callout": "6",
+          "description": "Y-piece cmpl.",
+          "part_number": "A46035071044",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "9",
+          "description": "PVC-HOSE 6X9",
+          "part_number": "50335030001",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "11",
+          "description": "Pre-formed hose,",
+          "part_number": "A48035024000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "12",
+          "description": "Pre-formed hose",
+          "part_number": "A48035123000",
+          "suggested_order_quantity": "1",
+          "supersedes": "A48035023000"
+        },
+        {
+          "callout": "13",
+          "description": "Screw-in nozzle",
+          "part_number": "A46035073033",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "14",
+          "description": "Radiator protection",
+          "part_number": "A46035036044C1",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "15",
+          "description": "HH ISR",
+          "part_number": "0900000601203",
+          "suggested_order_quantity": "4",
+          "supersedes": null
+        },
+        {
+          "callout": "16",
+          "description": "Hose clip",
+          "part_number": "0310000903200",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        }
+      ],
+      "source_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/cooling-system?fam=engine",
+      "status": "full_rendered_table_acquired",
+      "url_evidence": "Observed live catalogue navigation href; only sampled assemblies opened",
+      "diagram_reconciliation_status": "not_performed"
+    },
+    {
+      "assembly_id": "crankshaft,-piston",
+      "assembly_name": "crankshaft, piston",
+      "inventory_source_id": "frame",
+      "observed_heading": "2025 KTM 450 SX-F CRANKSHAFT, PISTON",
+      "observed_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/crankshaft,-piston?fam=engine",
+      "part_count_acquired": 21,
+      "rows": [
+        {
+          "callout": "1",
+          "description": "Crankshaft cmpl.",
+          "part_number": "A48030018000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "2",
+          "description": "Connecting rod",
+          "part_number": "79530015044",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "3",
+          "description": "Piston gr.I",
+          "part_number": "A48030007100 I",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "3",
+          "description": "PISTON Gr.",
+          "part_number": "A48030007100 II",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "4",
+          "description": "PISTON RING",
+          "part_number": "79430130044",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "7",
+          "description": "CIRCLIP",
+          "part_number": "79430174000",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "8",
+          "description": "CYLINDER ROLLER",
+          "part_number": "79430082000",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "9",
+          "description": "Retaining bracket",
+          "part_number": "75030085100",
+          "suggested_order_quantity": "2",
+          "supersedes": "75030085000"
+        },
+        {
+          "callout": "10",
+          "description": "INT. TORX",
+          "part_number": "0019050121S",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "11",
+          "description": "SHIM WASHER",
+          "part_number": "56530081000",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        },
+        {
+          "callout": "11",
+          "description": "SHIM WASHER",
+          "part_number": "56530081100",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        },
+        {
+          "callout": "11",
+          "description": "SHIM WASHER",
+          "part_number": "56530081200",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        },
+        {
+          "callout": "11",
+          "description": "SHIM WASHER",
+          "part_number": "56530081300",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        },
+        {
+          "callout": "13",
+          "description": "Nut M18x1.5",
+          "part_number": "0910001801001S",
+          "suggested_order_quantity": "1",
+          "supersedes": "0910001801000S"
+        },
+        {
+          "callout": "14",
+          "description": "Primary gear",
+          "part_number": "A48032023029",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "15",
+          "description": "Timing gear",
+          "part_number": "78036014400",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "16",
+          "description": "WOODRUFF KEY",
+          "part_number": "0888030037",
+          "suggested_order_quantity": "3",
+          "supersedes": null
+        },
+        {
+          "callout": "19",
+          "description": "BEARING SEAL",
+          "part_number": "79430084000",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "98",
+          "description": "Piston Kit",
+          "part_number": "A48030007110 I",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        },
+        {
+          "callout": "98",
+          "description": "Piston Kit",
+          "part_number": "A48030007110 II",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        },
+        {
+          "callout": "99",
+          "description": "Crankshaft repair",
+          "part_number": "79430018088",
+          "suggested_order_quantity": "0",
+          "supersedes": "00050002315"
+        }
+      ],
+      "source_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/crankshaft,-piston?fam=engine",
+      "status": "full_rendered_table_acquired",
+      "url_evidence": "Observed live catalogue navigation href; only sampled assemblies opened",
+      "diagram_reconciliation_status": "not_performed"
+    },
+    {
+      "assembly_id": "cylinder",
+      "assembly_name": "cylinder",
+      "inventory_source_id": "frame",
+      "observed_heading": "2025 KTM 450 SX-F CYLINDER",
+      "observed_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/cylinder?fam=engine",
+      "part_count_acquired": 4,
+      "rows": [
+        {
+          "callout": "1",
+          "description": "cylinder &",
+          "part_number": "A48030038000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "2",
+          "description": "needle roller",
+          "part_number": "0402050980",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "3",
+          "description": "CYLINDER BASE",
+          "part_number": "79430035000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "4",
+          "description": "dowl sleeve",
+          "part_number": "58530014100",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        }
+      ],
+      "source_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/cylinder?fam=engine",
+      "status": "full_rendered_table_acquired",
+      "url_evidence": "Observed live catalogue navigation href; only sampled assemblies opened",
+      "diagram_reconciliation_status": "not_performed"
+    },
+    {
+      "assembly_id": "cylinder-head",
+      "assembly_name": "cylinder head",
+      "inventory_source_id": "frame",
+      "observed_heading": "2025 KTM 450 SX-F CYLINDER HEAD",
+      "observed_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/cylinder-head?fam=engine",
+      "part_count_acquired": 24,
+      "rows": [
+        {
+          "callout": "1",
+          "description": "cylinder head",
+          "part_number": "A48036020044",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "2",
+          "description": "CYLINDER HEAD",
+          "part_number": "79430036010",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "3",
+          "description": "Valve cover",
+          "part_number": "A48036052000C1",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "4",
+          "description": "Valve cover",
+          "part_number": "A48036053000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "5",
+          "description": "Valve cover",
+          "part_number": "79136054000",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "6",
+          "description": "Rubber seal",
+          "part_number": "79136054050",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "7",
+          "description": "rubber sleeve",
+          "part_number": "79536044000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "8",
+          "description": "HH collar",
+          "part_number": "0025060166S",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "9",
+          "description": "Exhaust system",
+          "part_number": "78136139100",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "10",
+          "description": "Exhaust gasket",
+          "part_number": "79536041000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "11",
+          "description": "SCREW IN",
+          "part_number": "58030010200",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "12",
+          "description": "valve cover",
+          "part_number": "79536053150",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "14",
+          "description": "oil jet",
+          "part_number": "60030063070",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "16",
+          "description": "valve guide",
+          "part_number": "79536125001",
+          "suggested_order_quantity": "4",
+          "supersedes": "79536025001"
+        },
+        {
+          "callout": "17",
+          "description": "Cylinder head",
+          "part_number": "79530044000",
+          "suggested_order_quantity": "4",
+          "supersedes": null
+        },
+        {
+          "callout": "18",
+          "description": "washer 19x10.5x2.5",
+          "part_number": "77336089010",
+          "suggested_order_quantity": "4",
+          "supersedes": null
+        },
+        {
+          "callout": "19",
+          "description": "HH COLLAR",
+          "part_number": "0025060756",
+          "suggested_order_quantity": "1",
+          "supersedes": "0015060753"
+        },
+        {
+          "callout": "20",
+          "description": "SCREW PLUG",
+          "part_number": "59030296000",
+          "suggested_order_quantity": "3",
+          "supersedes": null
+        },
+        {
+          "callout": "24",
+          "description": "HOSE CLAMP",
+          "part_number": "61036047000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "25",
+          "description": "HOSE CLAMP",
+          "part_number": "77236048000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "27",
+          "description": "water temperature",
+          "part_number": "79435047000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "28",
+          "description": "CLAMP YDNAC",
+          "part_number": "58431082300",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "29",
+          "description": "ENGINE BREATHER",
+          "part_number": "79030087000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "99",
+          "description": "gasket kit",
+          "part_number": "A48030097000",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        }
+      ],
+      "source_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/cylinder-head?fam=engine",
+      "status": "full_rendered_table_acquired",
+      "url_evidence": "Observed live catalogue navigation href; only sampled assemblies opened",
+      "diagram_reconciliation_status": "not_performed"
+    },
+    {
+      "assembly_id": "electric-starter",
+      "assembly_name": "electric starter",
+      "inventory_source_id": "frame",
+      "observed_heading": "2025 KTM 450 SX-F ELECTRIC STARTER",
+      "observed_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/electric-starter?fam=engine",
+      "part_count_acquired": 9,
+      "rows": [
+        {
+          "callout": "1",
+          "description": "E-STARTER CPL.",
+          "part_number": "79440001000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "2",
+          "description": "HH collar",
+          "part_number": "0025060256",
+          "suggested_order_quantity": "2",
+          "supersedes": "0015060253"
+        },
+        {
+          "callout": "3",
+          "description": "O-RING 25,00X3,00",
+          "part_number": "0770250030",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "4",
+          "description": "Hex collar",
+          "part_number": "0025060126S",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "5",
+          "description": "STOP DISC",
+          "part_number": "78040016004",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "6",
+          "description": "Torque limiter",
+          "part_number": "79540016000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "9",
+          "description": "E. starter",
+          "part_number": "A48040022030",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "10",
+          "description": "FREE WHEEL",
+          "part_number": "75040026000",
+          "suggested_order_quantity": null,
+          "supersedes": null
+        },
+        {
+          "callout": "11",
+          "description": "freewheel gear",
+          "part_number": "79440020133",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        }
+      ],
+      "source_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/electric-starter?fam=engine",
+      "status": "full_rendered_table_acquired",
+      "url_evidence": "Observed live catalogue navigation href; only sampled assemblies opened",
+      "diagram_reconciliation_status": "not_performed"
+    },
+    {
+      "assembly_id": "engine-case",
+      "assembly_name": "engine case",
+      "inventory_source_id": "frame",
+      "observed_heading": "2025 KTM 450 SX-F ENGINE CASE",
+      "observed_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/engine-case?fam=engine",
+      "part_count_acquired": 20,
+      "rows": [
+        {
+          "callout": "1",
+          "description": "engine case",
+          "part_number": "A48030000044",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "3",
+          "description": "oil jet",
+          "part_number": "60030063070",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "4",
+          "description": "SCREW IN",
+          "part_number": "58030010200",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "5",
+          "description": "Housing bush",
+          "part_number": "79230010000",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "6",
+          "description": "Dowel, 21x12",
+          "part_number": "54830027100",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "7",
+          "description": "Dowel, 6x8x11.5",
+          "part_number": "59030023100",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "8",
+          "description": "DOWEL BUSHING",
+          "part_number": "54630027000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "9",
+          "description": "O-RING 3,5X2,00",
+          "part_number": "0770035020",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "10",
+          "description": "OIL JET",
+          "part_number": "81230064000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "11",
+          "description": "Cylinder screw",
+          "part_number": "0912040103S",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "12",
+          "description": "CU-SEAL RING",
+          "part_number": "58038022000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "13",
+          "description": "oildrain plug",
+          "part_number": "58030021100",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "14",
+          "description": "pipe plug",
+          "part_number": "0906100100",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "15",
+          "description": "SCREW PLUG",
+          "part_number": "59030296000",
+          "suggested_order_quantity": "3",
+          "supersedes": null
+        },
+        {
+          "callout": "18",
+          "description": "INT. TORX",
+          "part_number": "0019050121S",
+          "suggested_order_quantity": "6",
+          "supersedes": null
+        },
+        {
+          "callout": "19",
+          "description": "Retaining bracket",
+          "part_number": "75030085100",
+          "suggested_order_quantity": "6",
+          "supersedes": null
+        },
+        {
+          "callout": "20",
+          "description": "HH COLLAR",
+          "part_number": "0025060656",
+          "suggested_order_quantity": "9",
+          "supersedes": null
+        },
+        {
+          "callout": "22",
+          "description": "HH COLLAR",
+          "part_number": "0025060806",
+          "suggested_order_quantity": "4",
+          "supersedes": "0015060803"
+        },
+        {
+          "callout": "24",
+          "description": "JET 100",
+          "part_number": "59030058000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "99",
+          "description": "engine gasket",
+          "part_number": "A48030099000",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        }
+      ],
+      "source_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/engine-case?fam=engine",
+      "status": "full_rendered_table_acquired",
+      "url_evidence": "Observed live catalogue navigation href; only sampled assemblies opened",
+      "diagram_reconciliation_status": "not_performed"
+    },
+    {
+      "assembly_id": "ignition-system",
+      "assembly_name": "ignition system",
+      "inventory_source_id": "frame",
+      "observed_heading": "2025 KTM 450 SX-F IGNITION SYSTEM",
+      "observed_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/ignition-system?fam=engine",
+      "part_count_acquired": 18,
+      "rows": [
+        {
+          "callout": "1",
+          "description": "Ignition cover",
+          "part_number": "A48030002000C1",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "2",
+          "description": "Ignition cover",
+          "part_number": "A48030040000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "3",
+          "description": "NEEDLE ROL.DIN5402",
+          "part_number": "0402040980",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "4",
+          "description": "Stator",
+          "part_number": "79239004200",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "5",
+          "description": "Bolt DIN",
+          "part_number": "0012050253S",
+          "suggested_order_quantity": "3",
+          "supersedes": null
+        },
+        {
+          "callout": "6",
+          "description": "FLYWHEEL SCREW",
+          "part_number": "77339010100",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "8",
+          "description": "Rotor",
+          "part_number": "79439005100",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "9",
+          "description": "WOODRUFF KEY",
+          "part_number": "0888030037",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "10",
+          "description": "Cable retainer",
+          "part_number": "A46030002050",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "11",
+          "description": "Cap head",
+          "part_number": "0912050163S",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "12",
+          "description": "Spark plug",
+          "part_number": "79539190000",
+          "suggested_order_quantity": "1",
+          "supersedes": "79539090000"
+        },
+        {
+          "callout": "13",
+          "description": "spark plug",
+          "part_number": "77839093000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "14",
+          "description": "IGNITIONCOIL IG3826",
+          "part_number": "58439006000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "15",
+          "description": "COLLAR SCREW",
+          "part_number": "0026060186",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "16",
+          "description": "HH collar",
+          "part_number": "0025060256",
+          "suggested_order_quantity": "7",
+          "supersedes": "0015060253"
+        },
+        {
+          "callout": "17",
+          "description": "CU-SEAL RING",
+          "part_number": "0603061001",
+          "suggested_order_quantity": "2",
+          "supersedes": "8000H4591"
+        },
+        {
+          "callout": "18",
+          "description": "o-ring 24.00x2.50",
+          "part_number": "07700240251",
+          "suggested_order_quantity": "1",
+          "supersedes": "0770024025"
+        },
+        {
+          "callout": "19",
+          "description": "SCREW PLUG",
+          "part_number": "7723000216030",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        }
+      ],
+      "source_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/ignition-system?fam=engine",
+      "status": "full_rendered_table_acquired",
+      "url_evidence": "Observed live catalogue navigation href; only sampled assemblies opened",
+      "diagram_reconciliation_status": "not_performed"
+    },
+    {
+      "assembly_id": "lubricating-system",
+      "assembly_name": "lubricating system",
+      "inventory_source_id": "frame",
+      "observed_heading": "2025 KTM 450 SX-F LUBRICATING SYSTEM",
+      "observed_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/lubricating-system?fam=engine",
+      "part_count_acquired": 37,
+      "rows": [
+        {
+          "callout": "1",
+          "description": "OIL FILTER",
+          "part_number": "77338005100",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "2",
+          "description": "O-RING 33,05X1,78",
+          "part_number": "07703305178",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "3",
+          "description": "OIL FILTER",
+          "part_number": "77338041200",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "4",
+          "description": "HH collar",
+          "part_number": "0025060166",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "5",
+          "description": "TAB WASHER",
+          "part_number": "0799060000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "6",
+          "description": "STOP DISK",
+          "part_number": "58038007755",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "7",
+          "description": "Oil pump",
+          "part_number": "77038001200",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "8",
+          "description": "Hex coll.",
+          "part_number": "0025050146S",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "9",
+          "description": "Oil pump",
+          "part_number": "A48038003000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "10",
+          "description": "OILPUMP ROTOR-SET",
+          "part_number": "59038011112",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "11",
+          "description": "Oil pump",
+          "part_number": "A48038002000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "12",
+          "description": "NEEDLEROL.DIN5402 NRA",
+          "part_number": "0402251980",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "13",
+          "description": "NEEDLE ROLLER",
+          "part_number": "0402251180",
+          "suggested_order_quantity": "1",
+          "supersedes": "6BN0A7474"
+        },
+        {
+          "callout": "14",
+          "description": "needle roller",
+          "part_number": "0402041580",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "15",
+          "description": "ROTOR SET",
+          "part_number": "61238011100",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "16",
+          "description": "O-RING 44,00X2,00",
+          "part_number": "0770440020",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "17",
+          "description": "OIL PUMP",
+          "part_number": "79238004000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "18",
+          "description": "CU-SEAL RING",
+          "part_number": "58038022000",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "19",
+          "description": "oildrain plug",
+          "part_number": "58030021100",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "20",
+          "description": "O-RING 12,5X1,5",
+          "part_number": "07701250151",
+          "suggested_order_quantity": "2",
+          "supersedes": "45133057000"
+        },
+        {
+          "callout": "21",
+          "description": "Oil screen",
+          "part_number": "59038016200",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "22",
+          "description": "O-RING 17,17X1,78",
+          "part_number": "0770020170",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "23",
+          "description": "PLUG M20X1,5",
+          "part_number": "59038017100",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "24",
+          "description": "BALL DIN5401-9",
+          "part_number": "0401090003",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "25",
+          "description": "Compression spring",
+          "part_number": "A48038026000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "26",
+          "description": "Hex coll.",
+          "part_number": "0025050146S",
+          "suggested_order_quantity": "3",
+          "supersedes": null
+        },
+        {
+          "callout": "27",
+          "description": "PLUG SCREW",
+          "part_number": "78036024000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "28",
+          "description": "Dowel, 6x8x11.5",
+          "part_number": "59030023100",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "29",
+          "description": "O-RING 12X2",
+          "part_number": "0770012021",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "30",
+          "description": "Screw plug",
+          "part_number": "0900001600200",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "33",
+          "description": "Oil pump",
+          "part_number": "A48038006033",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "34",
+          "description": "SHIM WASHER",
+          "part_number": "0988121805",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "35",
+          "description": "retaining ring",
+          "part_number": "0471120010",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "36",
+          "description": "BUSHING PIN",
+          "part_number": "77038013100",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "37",
+          "description": "AXIAL-CIRCLIP",
+          "part_number": "77238061050",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "38",
+          "description": "Oval head",
+          "part_number": "0018050103S",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "99",
+          "description": "OILFILTER SERVICE",
+          "part_number": "A48038015010",
+          "suggested_order_quantity": "0",
+          "supersedes": null
+        }
+      ],
+      "source_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/lubricating-system?fam=engine",
+      "status": "full_rendered_table_acquired",
+      "url_evidence": "Observed live catalogue navigation href; only sampled assemblies opened",
+      "diagram_reconciliation_status": "not_performed"
+    },
+    {
+      "assembly_id": "shifting-mechanism",
+      "assembly_name": "shifting mechanism",
+      "inventory_source_id": "frame",
+      "observed_heading": "2025 KTM 450 SX-F SHIFTING MECHANISM",
+      "observed_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/shifting-mechanism?fam=engine",
+      "part_count_acquired": 31,
+      "rows": [
+        {
+          "callout": "1",
+          "description": "SHIFT LEVER",
+          "part_number": "79234031100",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "2",
+          "description": "HH collar",
+          "part_number": "0024060156S",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "4",
+          "description": "SHAFT SEAL",
+          "part_number": "0760142461",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "5",
+          "description": "needle sleeve",
+          "part_number": "54632095000",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        },
+        {
+          "callout": "6",
+          "description": "STOP DISK",
+          "part_number": "54634050000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "7",
+          "description": "RETURN SPRING",
+          "part_number": "54834014000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "8",
+          "description": "SPRING GUIDE",
+          "part_number": "54634020000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "9",
+          "description": "TENSIONING SPRING",
+          "part_number": "56534013100",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "10",
+          "description": "Shift shaft",
+          "part_number": "A46034005033",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "12",
+          "description": "Compression spring",
+          "part_number": "58038023400",
+          "suggested_order_quantity": "4",
+          "supersedes": null
+        },
+        {
+          "callout": "13",
+          "description": "Shift fork",
+          "part_number": "A46034020000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "16",
+          "description": "Shift star",
+          "part_number": "A46034115000",
+          "suggested_order_quantity": "1",
+          "supersedes": "A46034015000"
+        },
+        {
+          "callout": "17",
+          "description": "Shift drum",
+          "part_number": "A47034012000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "18",
+          "description": "HH collar",
+          "part_number": "0025060306S",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "20",
+          "description": "Detent arm",
+          "part_number": "A46034024044",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "21",
+          "description": "HH collar",
+          "part_number": "0025050256S",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "22",
+          "description": "SLEEVE FOR",
+          "part_number": "54634052300",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "23",
+          "description": "LOCKING LEVER",
+          "part_number": "54834023000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "24",
+          "description": "Shift fork",
+          "part_number": "A46034019000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "25",
+          "description": "SHIFTING FORK",
+          "part_number": "79234001000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "26",
+          "description": "washer DIN",
+          "part_number": "0021050003",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "27",
+          "description": "SHIFTING FORK",
+          "part_number": "79234002000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "28",
+          "description": "BALL BEARING",
+          "part_number": "0625618050",
+          "suggested_order_quantity": "1",
+          "supersedes": "625618050"
+        },
+        {
+          "callout": "29",
+          "description": "PAIR NORDLOCK",
+          "part_number": "50233041500",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "30",
+          "description": "SHIFTING FORK",
+          "part_number": "79234003000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "31",
+          "description": "NEEDLE ROLLER",
+          "part_number": "0402061480",
+          "suggested_order_quantity": "3",
+          "supersedes": null
+        },
+        {
+          "callout": "32",
+          "description": "FRICTION BEARING",
+          "part_number": "79234012010",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "33",
+          "description": "magnet holder",
+          "part_number": "79234012020",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "34",
+          "description": "gear position",
+          "part_number": "79211023000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "35",
+          "description": "Shield gear",
+          "part_number": "A46011024000",
+          "suggested_order_quantity": "1",
+          "supersedes": null
+        },
+        {
+          "callout": "36",
+          "description": "Hex coll.",
+          "part_number": "0025050146S",
+          "suggested_order_quantity": "2",
+          "supersedes": null
+        }
+      ],
+      "source_url": "https://www.motosport.com/oem-parts/ktm/2025/450-sx_f/shifting-mechanism?fam=engine",
+      "status": "full_rendered_table_acquired",
+      "url_evidence": "Observed live catalogue navigation href; only sampled assemblies opened",
+      "diagram_reconciliation_status": "not_performed"
+    }
+  ]
+}

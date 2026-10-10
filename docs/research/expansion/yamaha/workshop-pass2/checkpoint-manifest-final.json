@@ -1,0 +1,89 @@
+{
+  "id": "yamaha-workshop-pass2-final",
+  "complete_bounded_procedures": {
+    "valve-adjustment-v2.procedure.json": 29,
+    "stock-tensioner-service-v1.procedure.json": 22,
+    "exhaust-remove-refit-v1.procedure.json": 9,
+    "coolant-change-v1.procedure.json": 9,
+    "airbox-remove-refit-v1.procedure.json": 13
+  },
+  "total_bounded_steps": 82,
+  "not_runtime_complete": [
+    "topend-chain-coverage-v1.json"
+  ],
+  "database_writes": false,
+  "artifacts": [
+    {
+      "path": "COOLANT_REVIEW_V1.md",
+      "sha256": "2bdecffec530778ca8382f6a515e28cba3f0376730af959eebabd717030e8543"
+    },
+    {
+      "path": "DEPENDENCY_REVIEW_FINAL.md",
+      "sha256": "7fccbcf2c12b912aac29f5edfb687ed7b041d5f7112dfc5649e9d3869163373d"
+    },
+    {
+      "path": "REVIEW.md",
+      "sha256": "509ef914f6fdee5d36450fd1570182214b112d83fe1e11fdcb6d3bc8e5d1a352"
+    },
+    {
+      "path": "airbox-remove-refit-v1.procedure.json",
+      "sha256": "05fda63f2bca5ad27d456c22cbe036233a65656f1d0121898f98e6aafed77103"
+    },
+    {
+      "path": "build_airbox_v1.py",
+      "sha256": "b7f4229008764bacce50603aa4e1f54280e5f1d5057b64044ab08063d8ebec3d"
+    },
+    {
+      "path": "build_coolant_v1.py",
+      "sha256": "e6f96caa77c918e80b88cca761ce23e5939570ae7452f2c67c330b8999ad1c15"
+    },
+    {
+      "path": "build_pass2.py",
+      "sha256": "613ddbdd37b6b931fd988bb63c2b50d64b42db41ae1e090909052f735b105fd2"
+    },
+    {
+      "path": "build_topend_checkpoint.py",
+      "sha256": "5df1f2486491e0e3bc83ce2e46e91b1d705aa5e07e0925dc9759fefd586ef8f7"
+    },
+    {
+      "path": "checkpoint-manifest-v1.json",
+      "sha256": "66ed0363662d2722d8bdca68f2a1017fa3b3c47bbc5cec6fb083b4549398f563"
+    },
+    {
+      "path": "checkpoint-manifest-v2.json",
+      "sha256": "4191f5e34d0e6e8fae55812df4ae0afd47148d73b5a22f0bf6dc2f47abd364a9"
+    },
+    {
+      "path": "coolant-change-v1.procedure.json",
+      "sha256": "8caf5ecacf1bc81e4b8e52c0ff4b97e6c34ac124169fcad9d7f79e45452d7368"
+    },
+    {
+      "path": "exhaust-remove-refit-v1.procedure.json",
+      "sha256": "9c3b883d626c60c4112686994c06cdc5b5b0bb2f4096dbdae3f2bbc2f373b684"
+    },
+    {
+      "path": "page-index-correction.json",
+      "sha256": "61a2ce1ba921a461fa4df70b7cb43a4ea20a3b74a29ffc5ee9ac5c138db9dbc4"
+    },
+    {
+      "path": "stock-tensioner-service-v1.procedure.json",
+      "sha256": "a88d355c1cf23a2a2e27f577f455dbf223890338781e7be2b4aa480f934d9573"
+    },
+    {
+      "path": "topend-chain-coverage-v1.json",
+      "sha256": "9ae2249c33682f48564187b79789ebd14a8aa566c4c8d7696bfbd1b098b90de9"
+    },
+    {
+      "path": "validate_final.py",
+      "sha256": "e33262b7ed7da8508f80421253f5879a692bb6645992d762caea7604f3744294"
+    },
+    {
+      "path": "validate_pass2.py",
+      "sha256": "5c42089467c0fd4f38765a6392ddfb9195a5bfed5b15b595ab5b0d6a4312d40f"
+    },
+    {
+      "path": "valve-adjustment-v2.procedure.json",
+      "sha256": "3bac1b9144799d7f89c5a679595428508c67255677d804d57b34995bd69f7260"
+    }
+  ]
+}

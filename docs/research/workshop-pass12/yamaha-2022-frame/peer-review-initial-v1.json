@@ -1,0 +1,33 @@
+{
+  "status": "REVIEW_FINDING_PENDING",
+  "reviewer": "year_groups_research independent peer",
+  "candidate_sha256": "b43b6991772e118b48eec1ed3d735792d93b99161ed699c17b05bf09ffe25111",
+  "source_sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608",
+  "scope": "Read all81 chassis/nonaccess instructions plus5 changed access instructions against approved72. Checked source22/58\u201360/119\u2013126/149\u2013152/158/167/169\u2013180 and exact year engine-interface preservation. Tool method sources stem/race/linkage read and hashes confirmed; no universal geometry inheritance.",
+  "rendered_pages": [
+    177,
+    178,
+    180
+  ],
+  "findings": [
+    {
+      "id": "lower-handlebar-holder-access",
+      "status": "PENDING",
+      "steps": [
+        "front-bar-off",
+        "front-legs-remove",
+        "front-bar-refit"
+      ],
+      "source_pages": [
+        158,
+        167
+      ],
+      "detail": "Exact fork source removes lower handlebar holders for damper cap access and reinstalls at40Nm. Candidate removes upper clamps/bar only and expressly retains lower holders, then loosens caps before upper steering bracket removal. Verify alternate clearance or follow exact lower-holder access/closure; do not assume physical equivalence."
+    }
+  ],
+  "resolved_notes": [
+    "1770mm is bearing end-face/housing datum, not oilseal.",
+    "1784.25mm is lower eye outerface to bearing1face; author corrected from ambiguous endpoint language.",
+    "Wheel seal seating remains explicit externally verified exact-interface prerequisite, no0/1mm newer-year inheritance."
+  ]
+}

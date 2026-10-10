@@ -1,0 +1,63 @@
+{
+  "status": "UNRESOLVED_EXACT_SOURCE",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2022,
+    "variant": "standard",
+    "region": "US"
+  },
+  "document_sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608",
+  "findings": [
+    {
+      "id": "ecu-mount-torque",
+      "sources": [
+        {
+          "pdf_page": 57,
+          "value": "ECU M5 x2 3.8 Nm"
+        },
+        {
+          "pdf_page": 275,
+          "value": "Exploded arrow explicitly ECU bolts8 Nm"
+        }
+      ],
+      "disposition": "Do not select either by majority. Engine/frame access may retain ECU and coil mounted to aircase; disconnect labeled couplers and plug cap, then support whole retained assembly. Confirm actual bolt access/free clearance; do not force. ECU mounting repair remains unresolved."
+    },
+    {
+      "id": "oil-check-bolt-closure",
+      "sources": [
+        {
+          "pdf_page": 89,
+          "value": "Warm2\u20133min, stop/waitabout1min; above minimum window mark and no oil flowing from removed level-check bolt. Drain excess until last drop."
+        },
+        {
+          "pdf_page": 234,
+          "value": "Right-cover diagram10Nm does not defensibly identify this check bolt as same fastener."
+        }
+      ],
+      "disposition": "Exact check-bolt refit torque/seal requirements need attributed exact-interface documentation. Do not infer cover10Nm or older oil-pressure-check values. Require this closure document before beginning guide and record actual external closure before any subsequent start/return to use. Root independently searched exact source and rejected wrong-year/pressure-check results."
+    },
+    {
+      "id": "wheel-seal-endpoints",
+      "sources": [
+        {
+          "pdf_pages": [
+            119,
+            120,
+            121,
+            123,
+            124,
+            125
+          ],
+          "value": "OEM authorizes bearing/seal renewal and gives ring load, order, orientation and grease but does not provide the later front0/rear1mm seal depth callouts."
+        }
+      ],
+      "disposition": "Frame153 requires exact-interface front/rear wheel seal seating documents before dismantling, then actual recorded positions at both seal steps. Numeric endpoint UNKNOWN in present evidence. No year transfer or dimension inference; root explicitly accepted this conditional scope."
+    }
+  ],
+  "reviewed_by": [
+    "core_flow_repairs exact source text/visual",
+    "root independent oil-bolt investigation"
+  ],
+  "physical_validation": false
+}

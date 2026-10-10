@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED",
+  "sources": [
+    {
+      "id": "yamaha-2022-b2w",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf",
+      "sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608",
+      "local_pdf_path": "C:/Users/kylej/AppData/Local/Temp/B2W-2819U-12_02.pdf"
+    },
+    {
+      "id": "nick-dole-gearing",
+      "url": "https://www.teknikmotorsport.com/assets/brochures/Transmoto-Gearing.pdf",
+      "sha256": "84e1c2a35ba1c44b2917d889f3ecb5765b383cf65e69ffaada2808f2b1ba3cf0",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\drive8\\Transmoto-Gearing.pdf"
+    },
+    {
+      "id": "mityvac-mv4560-method",
+      "url": "https://cdn.skfmediahub.skf.com/api/public/0901d1968096854e/pdf_preview_medium/0901d1968096854e_pdf_preview_medium.pdf",
+      "sha256": "508a744728dc28c37911bdc206f3e8ec6fe5eb8f11febe74a385bbf1299493cf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\mityvac-MV4560-801625.pdf"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "major-engine-bike-journey-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "bffa50837ce4db3e3b8e5e312e82c5de38e2ede1bf1895ce02b9cdf3ae699a83",
+      "source_id": "yamaha-2022-b2w",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 214,
+      "review_status": "APPROVED"
+    }
+  ],
+  "author_review": {
+    "path": "major-author-composition-review.json",
+    "sha256": "8bddfc29cee5f97db95c47f71eb9bbab3de4621ff53df49531a122dd6ccdae3f"
+  },
+  "independent_review": {
+    "path": "major-independent-review-v1.json",
+    "sha256": "0bb0f9db5524a85fe5514a514a8f74e8d5f3827ff9884dedf7a61db5283540d8"
+  }
+}

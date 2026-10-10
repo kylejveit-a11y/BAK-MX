@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "artifact": "docs/research/workshop-pass7/yamaha-hydraulics/clutch-hydraulic-service-v1.procedure.json",
+  "reviewed_sha256": "dab8099ea39884750299af320268fdb4455bd67ec38a72f4283bf72d69244660",
+  "reviewer": "yamaha_workshop_evidence",
+  "decision": "MECHANICAL_CONTENT_APPROVED_METADATA_CORRECTION_REQUIRED",
+  "steps_reviewed": 15,
+  "visual_pdf_pages": [
+    100,
+    252,
+    253,
+    257,
+    262,
+    263
+  ],
+  "text_pdf_pages": [
+    99,
+    100,
+    101,
+    252,
+    253,
+    254,
+    257,
+    261,
+    262,
+    263
+  ],
+  "inherited_source": "Previously approved Yamaha control/release interface and general material symbols",
+  "required_correction": "Replace placeholder printed_pages with exact cited printed labels before freezing.",
+  "scope": "Master kit renewal and complete replacement release cylinder, with drained/cleaned entire circuit, new washers, DOT4 baseline and bleed closure. Does not cover release-cylinder internal rebuild or mechanical clutch repair.",
+  "physical_execution": false
+}

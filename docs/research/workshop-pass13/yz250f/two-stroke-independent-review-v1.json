@@ -1,0 +1,439 @@
+{
+  "status": "APPROVED",
+  "reviewer": "yamaha_workshop_evidence, independent of core_flow_repairs",
+  "scope": "32 exact US2020–2027 YZ125/YZ125X/YZ250/YZ250X assembled stock damping baseline guides; not sag or rebuild coverage.",
+  "artifacts": [
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2026-yz250-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "0e3dbbb2cb5fdcf3b460e139823a02484a58124a539894a09441c9d78fd0687c",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2025-yz250-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "d8aca61e06423b30f91538b1f702ff9658b9286994fcd3297097be822a13b721",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2026-yz125-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "a2eac13bd79d036dc66ea45a127f3c24ddbb5db1d563006645bb3012a1dfe037",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2021-yz250-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "1d2847a278ec82312ad9e6e4df53c1235a505ce364811c78abde5fa2b24bdcad",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2021-yz250x-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "aa078e6b07128dbe90ff6a4f43a76dca41784f0d1c8234b8fc1fd423481cf4db",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250X",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2020-yz125-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "bd36c606e8a8d8bdb66e67442d2a2401c1d6eb4a5ad50afd1df2cc87bafe22cc",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2020-yz125x-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "b08ae63e0d38cc249eb1af098833cfc9ffdf5804a891077fcb563e06157520d8",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125X",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2025-yz125-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "fc36435a7a32af02791bd0a4b20626c1daedefef1d79feccdd12557148ac8a9a",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2025-yz125x-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "4529f2a99ca3cf7142c20bb3568165fd93bd8e35e60aaa361e63ecd7da2e75c3",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125X",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2026-yz125x-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "ded652f4658b8328c14fbe1893edcdec1849ed56201d2df55024778744578b00",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125X",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2025-yz250x-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "7aa7f3dde09d36bd547a404ee4b307b6d851134f3045c06992c4f0f11463047b",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250X",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2026-yz250x-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "9e222fd894ac9e14e6ec25b23bf2904513406fb5c12c7744b93863114cb69082",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250X",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2022-yz125-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "ff05bc57df56008452a349f031c8e581ea3bf3f5619969f790be61eebc0861a9",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2023-yz125-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "0b855481093c53de4759532a86456fd18f1dd693021fbe5a3eb7c041aa7cdc33",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2024-yz125-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "388a2a76078d316e8cb4b8156a2f7bee052681bb7fae650438cc5ad3c593743e",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2022-yz250-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "e41043cd1695705c1793d4203e089238081a5343fbfad4ce88be8052dba7d7a0",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2023-yz250-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "7c47339bd29b6ec17aa4ade3cda07e1f5c11360d1cbb334d3246c85d66f80e87",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2024-yz250-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "bc65457fa5c8db06717c55c792b6d3bbb7c33440999c7c66abcae12d0a7c7eab",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2021-yz125-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "11e425ee741ee59630e2e39898b8aea4fabf709453582ab8c72131b71e3c8f88",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2023-yz125x-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "bb5ffe1e90b607e0c3048cecd6be4e5b4b541e2ff57bf6467b000722b8b3796d",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125X",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2024-yz125x-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "c857188975adc3decdf5fde417f49072556c5ab589bf96d74ec649be10cbe5b4",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125X",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2023-yz250x-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "58a12e25c91f9c800cc7b75e0943d7a1dc509ccf2151c383d31f1cb513fd82c6",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250X",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2024-yz250x-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "6ad1c790bcf61bbbb1ecbf50fdfef5c22eae66b22d80a413fc1b74f98fef7639",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250X",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2021-yz125x-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "8488b447319d38b1cb98c760318eba76cc4c292191cef861431b577c820696f3",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125X",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2022-yz125x-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "572a31d745a776ad4f82c46322c2cd591199bfbe0bf56f92c4f082e0a043b30e",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125X",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2022-yz250x-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "404212dc482b1e40a819e294635e2715f426891b27e331cb73b62d450bd0fd8e",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250X",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2020-yz250-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "1c4b19540b562263af4bd01c0de688b54327d1cb5a72346f89153194a931741b",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2020-yz250x-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "17a4f200cca2287095b87c6500e6d9c1cb68053a1c298a748470ef578ee8d484",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250X",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2027-yz125-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "61486a6fc5d991381a44e599f7d7e2790fc5ed39bd8cbd523f98e5a50da8ffb3",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125",
+        "model_year": 2027,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2027-yz250-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "2d2767567e5fa84e3060eab7d2c6f7e17be35bb79236c1e3668109681f2ea88c",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2027,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2027-yz125x-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "39ccaaaff37dcfafe9cc16edcbba96e8960cc228294d6c7de86dc7eba9eed117",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125X",
+        "model_year": 2027,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2027-yz250x-damping-baseline-v1.procedure.json",
+      "artifact_sha256": "663532ecb2424db838556b5f6e20d46c9d4fc05a7d16b6f03d660b293ea4e77c",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250X",
+        "model_year": 2027,
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "APPROVED"
+    }
+  ],
+  "source_manifest_sha256_at_review": "6bfd01ad9c55594281d8fc1473eacb7db922640a6554584715bc02943210ad1b",
+  "source_checks": "All29 PDF byte hashes and covers checked; all32 target parameter rows compared to exact extracted Standard blocks. Shared entire-page text hashes recorded only after exact source capture; no automatic year approval. Eight-step authored sequence read in full and per-target parameter/link substitutions checked.",
+  "visual_checks": {
+    "B0V-28199-11_02": [
+      81,
+      83,
+      84
+    ],
+    "B9U-28199-11_02": [
+      81,
+      83,
+      84
+    ],
+    "BF1-2819U-10_02": [
+      85,
+      86,
+      88,
+      89
+    ],
+    "D68-2819U-12_02": [
+      86,
+      88,
+      89
+    ],
+    "DF3-2819U-12_02": [
+      86,
+      88,
+      89
+    ],
+    "D69-2819U-12_02": [
+      88,
+      90,
+      91
+    ],
+    "DF4-2819U-12_02": [
+      88,
+      90,
+      91
+    ]
+  },
+  "resolved_findings": [
+    "Added split-page control diagram links to setting and record steps; table values unchanged.",
+    "Preserved2020 factory punch-mark alignment and tolerance rather than an invented midpoint.",
+    "Mixed fractions displayed with spaces."
+  ],
+  "open_blocking_findings": [],
+  "physical_validation": false,
+  "review_limit": "Independent visual sampling spans original combined manuals,2021 split layout and2027 four-model diagrams; all intervening exact-year numeric blocks were read as text. Author separately rendered controls across29 exact sources."
+}

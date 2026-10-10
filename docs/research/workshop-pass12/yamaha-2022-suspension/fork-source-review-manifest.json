@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED",
+  "sources": [
+    {
+      "source_id": "yamaha-us-2022-yz450f-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf",
+      "sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\B2W-2819U-12_02.pdf"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "docs/research/workshop-pass12/yamaha-2022-suspension/fork-oil-seals-bushings-v1.procedure.json",
+      "sha256": "cbf6a735ba775c74529505b6eb34bb93a183c214a2e02b7cca7df191dfbe97b6",
+      "source_id": "yamaha-us-2022-yz450f-oem",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 55,
+      "review_status": "APPROVED",
+      "template_sha256": "30483874e1654a6584269fe96eb08d7a9ced059c8d2e09a76ee8fa0adbe933f6"
+    }
+  ],
+  "independent_review": {
+    "path": "docs/research/workshop-pass12/yamaha-2022-suspension/fork-independent-review-v1.json",
+    "sha256": "b38496e3b1f85c9731a55a92d433f0b78eab4e5ae78f8c4c15a3298143d54a13",
+    "status": "APPROVED"
+  }
+}

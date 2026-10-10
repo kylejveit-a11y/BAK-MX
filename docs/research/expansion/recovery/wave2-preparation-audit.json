@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-09-13T18:29:40.954Z",
+  "project_ref": "yzvrujffiktfserrgkcb",
+  "status": "PREPARED_NOT_PUBLISHED",
+  "wave1_sha256": "5401d54e377304076ecdd25c12ed3b4744b92b7a34df4a29e7c60e3cf19b8475",
+  "wave2_sha256": "c6c318331a4bf8eba5d7225108f9d40328c75c947b8fb8103088a13332d2a2bc",
+  "wave2_claims": 3106,
+  "wave1_overlapping_ids": [],
+  "unique_ids": 3106,
+  "mappings": 2674,
+  "catalogs": [
+    {
+      "file": "gasgas/mc-450f-2023.json",
+      "part_rows": 1172,
+      "scope_confirmed": false,
+      "catalog_complete": true
+    },
+    {
+      "file": "husqvarna/fc-450-2022.json",
+      "part_rows": 1181,
+      "scope_confirmed": true,
+      "catalog_complete": true
+    },
+    {
+      "file": "husqvarna/fc-450-2023.json",
+      "part_rows": 1178,
+      "scope_confirmed": true,
+      "catalog_complete": true
+    },
+    {
+      "file": "husqvarna/fc-450-2024.json",
+      "part_rows": 1185,
+      "scope_confirmed": true,
+      "catalog_complete": true
+    }
+  ],
+  "source_recheck": "recovery/wave2-source-recheck.json",
+  "database_writes_performed": false,
+  "checks": [
+    "prepare-expansion explicit manifest/output: passed, 3106 claims and 4 catalogs",
+    "Wave-one frozen SHA256: unchanged",
+    "Wave-two IDs unique: 3106; overlap with frozen wave one: 0",
+    "npm run typecheck: passed",
+    "Custom manifest without explicit output: rejected; frozen bundle unchanged"
+  ]
+}

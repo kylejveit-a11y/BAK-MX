@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "status": "INDEPENDENT_REVIEW_CORRECTION",
+  "procedure_id": "yamaha-2026-yz450f-top-end-stock-reuse-v1",
+  "previous_sha256": "217e8e8c8dd2ddc4c13d3cad373bb714f5f2f2f2780c7689744d55124b2a7a8b",
+  "corrected_sha256": "7b540d96cad6c6e4c7478d21dd22ddf558160c2b119d6fcadfa699567352cf06",
+  "step_id": "head-in--repair",
+  "reason": "Independent composition review removed inherited head-machining/valve-guide replacement directions because the composite explicitly retains the original serviceable head and valve train.",
+  "frozen_upstream_artifacts_unchanged": true
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "status": "AUTHOR_SOURCE_REVIEWED",
+  "source_sha256": "9a8605e26301ba1d0d1d21e93d23cca721bdcdbece6188775626a8819332aa9f",
+  "template_sha256": "03bc4efc8716d92f28af1e88ed84cc79620432324ff0461283538443c4712997",
+  "step_ledger": {
+    "path": "top-end-reviewed-step-pages.json",
+    "sha256": "ccee733e8a81b184742b6c1c169d6e21c056ae34b1c1ab3a959d8bd72afec094"
+  },
+  "differences": [
+    "2023 crank turning instruction starts211 and finishes212; both are bound to timing checks.",
+    "2023 piston clip warning fits229;230 retains exact orientation and gap diagram; both are bound.",
+    "Exact guide installer04015, head36 then individual18+90 then all60, numeric fits and procedures agree after direct review. This is not a parts-interchangeability claim.",
+    "No source approval inherited; this is a bench candidate with separate exact-year access/refit/commissioning."
+  ]
+}

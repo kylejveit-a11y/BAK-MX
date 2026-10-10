@@ -1,0 +1,233 @@
+{
+  "id": "yamaha-2026-yz450f-topend-chain-review-v1",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      38,
+      58,
+      91,
+      92,
+      93,
+      94,
+      95,
+      97,
+      101,
+      123,
+      124,
+      125,
+      126,
+      127,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      306,
+      307,
+      308
+    ],
+    "printed_pages": [
+      "1-26",
+      "3-7",
+      "3-8",
+      "3-13",
+      "3-17",
+      "4-1 to 4-5",
+      "5-11",
+      "5-12",
+      "5-18",
+      "7-1 to 7-3",
+      "5-13",
+      "2-11",
+      "3-9 to 3-11",
+      "5-14 to 5-17"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Existing reviewed assembled-bike valve access/closure retained. Additional PDF92-95 and216-221 visually reviewed for shim selection, cam/tensioner removal, installation and timing recheck. Exact diagrams remain mandatory where flagged."
+  },
+  "status": "PARTIAL_REVIEW_NOT_RUNTIME_COMPLETE",
+  "new_visually_reviewed_pdf_pages": [
+    206,
+    211,
+    212,
+    213,
+    222,
+    223,
+    224,
+    225,
+    226,
+    235,
+    236,
+    237,
+    238,
+    239
+  ],
+  "complete_operations": [
+    "valve-adjustment-v2.procedure.json",
+    "stock-tensioner-service-v1.procedure.json",
+    "exhaust-remove-refit-v1.procedure.json"
+  ],
+  "remaining_dependency_graph": [
+    {
+      "id": "cold-coolant-drain-refill",
+      "status": "NOT_YET_CLOSED",
+      "reason": "Head removal separates radiator hose. Exact drain, new seals, fill/air removal and final checks must be integrated."
+    },
+    {
+      "id": "throttlebody-access-refit",
+      "status": "TEXT_INSPECTED_NOT_VISUALLY_REVIEWED",
+      "source_pdf_pages": [
+        309,
+        310,
+        312
+      ],
+      "reason": "Airbox/brackets, two throttle cables, fuel hose, sensors, joint clamp and throttle free play/return closure needed; do not silently omit these."
+    },
+    {
+      "id": "upper-engine-brackets",
+      "status": "PARTIAL_VISUAL_REVIEW",
+      "source_pdf_pages": [
+        211,
+        212
+      ],
+      "reason": "Upper bracket bolt34 N\u00b7m versus upper engine mounting bolt45 N\u00b7m distinguished; removal/support sequence and all bracket positions need closure."
+    },
+    {
+      "id": "head-removal-refit",
+      "status": "CORE_SEQUENCE_VISUALLY_REVIEWED_DEPENDENCIES_OPEN",
+      "source_pdf_pages": [
+        222,
+        223,
+        224,
+        225,
+        226
+      ],
+      "requires": [
+        "cold-coolant-drain-refill",
+        "throttlebody-access-refit",
+        "upper-engine-brackets",
+        "exhaust-remove-refit",
+        "camshaft-removal-install"
+      ]
+    },
+    {
+      "id": "piston-cylinder-service",
+      "status": "CORE_SEQUENCE_VISUALLY_REVIEWED_DEPENDENCIES_OPEN",
+      "source_pdf_pages": [
+        235,
+        236,
+        237,
+        238,
+        239
+      ],
+      "requires": [
+        "head-removal-refit",
+        "dimensional-serviceability-decision",
+        "ring-gap/orientation-confirmation",
+        "complete-reassembly-fluid-checks"
+      ]
+    },
+    {
+      "id": "head-valve-overhaul",
+      "status": "NOT_VISUALLY_REVIEWED",
+      "source_pdf_pages": [
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234
+      ],
+      "reason": "Valves/guides/seats/springs remain outside completion; a head removal/refit is not a rebuilt head."
+    }
+  ],
+  "critical_reviewed_conditions": [
+    {
+      "operation": "Head removal",
+      "pdf_pages": [
+        223,
+        224
+      ],
+      "condition": "Two M6x45 and four M10x129 bolts; follow removal diagram1\u20136, loosen each half a turn at a time before removing fully. Removal and installation numbering differ."
+    },
+    {
+      "operation": "Head install",
+      "pdf_pages": [
+        224,
+        225,
+        226
+      ],
+      "condition": "New head gasket with diagram orientation; retain dowels and intake chain guide. Clean bolt/washer/head contact faces and crankcase threads. Molybdenum disulfide GREASE on four main bolt threads/contact faces and both washer faces. First all four in source order to36 N\u00b7m in2\u20133 stages. Then REMOVE only bolt1, reapply grease and reinstall18 N\u00b7m plus90 degrees; complete that bolt before repeating bolts2\u20134. Then final additional60 degrees in order. The two small bolts5/6 are12 N\u00b7m with LOCTITE. Do not collapse this to36+90+60 or loosen all four together."
+    },
+    {
+      "operation": "Head repairs",
+      "pdf_pages": [
+        224
+      ],
+      "condition": "Warp limit0.05 mm. Source includes resurfacing but no final head-height/material-removal bound in this section; automated resurfacing approval excluded. Replacement head also requires valves per source."
+    },
+    {
+      "operation": "Piston removal",
+      "pdf_pages": [
+        235,
+        236
+      ],
+      "condition": "Cover crankcase opening before clip removal; do not hammer pin. Deburr pin groove/bore area; pin puller90890-01304/YU-01304 if needed."
+    },
+    {
+      "operation": "Dimensional checks",
+      "pdf_pages": [
+        236,
+        237,
+        238
+      ],
+      "condition": "Cylinder C is maximum of six two-axis/three-height measurements. Piston measured9.0 mm from skirt bottom. Use actual C minus measured piston diameter; retain source clearance0.010\u20130.045 mm and limit0.15 mm distinctly. Do not infer a safe fit merely from individual component ranges."
+    },
+    {
+      "operation": "Ring checks",
+      "pdf_pages": [
+        237,
+        238
+      ],
+      "condition": "Clean grooves/rings before side-clearance measure; square ring near bottom with piston crown for end-gap check. Oil expander end gap cannot be measured; excessive rail gap means replace oil-ring set. Top/end gap limits0.55/0.85 mm are wear limits, not ring-filing installation targets."
+    },
+    {
+      "operation": "Piston installation",
+      "pdf_pages": [
+        238,
+        239
+      ],
+      "condition": "Oil expander, lower rail, upper rail, second ring, top ring; marks/numbers face upward. Oil piston/pin; piston mark points toward exhaust(REAR). Use NEW clips, gap end away from piston cutout, cloth blocks crankcase. Source-specific ring clocking diagram must be preserved; no generic120-degree rule. New base gasket/dowels; compress rings while lowering cylinder, pass chain and exhaust-side guide through cavity; cylinder bolt10 N\u00b7m."
+    }
+  ],
+  "open_evidence_questions": [
+    {
+      "id": "head-locking-agent",
+      "detail": "Two small head bolts specify LOCTITE with no grade/application details in inspected section. Resolve exact product/applicability before novice runnable head-refit instructions."
+    },
+    {
+      "id": "piston-fit-range-tension",
+      "detail": "Individual standard ranges cylinder97.000\u201397.010 mm and piston96.955\u201396.970 mm can mathematically yield0.030\u20130.055 mm, while source separately specifies assembled clearance0.010\u20130.045 mm. Preserve both; use actual measured clearance and do not declare every individually in-range pair acceptable."
+    },
+    {
+      "id": "ring-install-targets",
+      "detail": "Reviewed piston section shows top/second ring end-gap wear limits; exact standard top/second/rail installation gaps must be reconciled with earlier spec table before a complete rebuild instruction. Do not turn maximum wear values into targets."
+    }
+  ],
+  "release_decision": "Do not publish a complete top-end or motor rebuild from these core pages. Retain this dependency checkpoint and continue the missing access, fluid, head-valve and fit decisions.",
+  "updated_at": "2026-09-13T19:37:46.637810+00:00"
+}

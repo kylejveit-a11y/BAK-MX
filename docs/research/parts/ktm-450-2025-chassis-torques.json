@@ -1,0 +1,1143 @@
+{
+  "source_url": "https://powaypowersports.com/cdn/shop/files/2025-ktm-450sx-f-factory-owners-manual.pdf?v=679135179847397228",
+  "document_sha256": "a24efdc2f908cc4c3764ee133bcdf6957b6caaebfee4587e847f3b2fe2456a33",
+  "review": "Visual review PDF159\u2013161; applicability PDF3 F8475Y5. XC-F-only sidestand row excluded. Torque facts do not establish full installation procedure.",
+  "facts": [
+    {
+      "id": "ktm25-chassis-01",
+      "joint": "Airbox cover screw",
+      "thread": "EJOT PT K60x20-Z",
+      "value": "3",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 157,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-02",
+      "joint": "Airbox-to-subframe screw",
+      "thread": "EJOT PT K60x20AL",
+      "value": "5",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 157,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-03",
+      "joint": "Combination switch screw",
+      "thread": "EJOT PT K50x18 T20",
+      "value": "2",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 157,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-04",
+      "joint": "Fuel-pump mounting screw",
+      "thread": "EJOT PT K60x30-Z",
+      "value": "2.5",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 157,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-05",
+      "joint": "Intake-temperature sensor screw",
+      "thread": "EJOT PT K50x18 T20",
+      "value": "0.7",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 157,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-06",
+      "joint": "Radiator hose clamp screw",
+      "thread": "unspecified",
+      "value": "2.4",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 157,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-07",
+      "joint": "Seat retaining screw (plastic thread)",
+      "thread": "EJOT EJOFORM PT K60x23/18",
+      "value": "2.5",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 157,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-08",
+      "joint": "Start/stop switch screw",
+      "thread": "EJOT PT K50x18 T20",
+      "value": "2",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 157,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-09",
+      "joint": "Fixed grip screw",
+      "thread": "M4",
+      "value": "5",
+      "unit": "Nm",
+      "conditions": [
+        "Loctite 243"
+      ],
+      "printed_page": 157,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-10",
+      "joint": "Throttle-body hose clamp screw",
+      "thread": "M4",
+      "value": "5",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 157,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-11",
+      "joint": "Front spoke nipple",
+      "thread": "M4.5",
+      "value": "6",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 157,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-12",
+      "joint": "Rear spoke nipple",
+      "thread": "M4.5",
+      "value": "6",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 157,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-13",
+      "joint": "Other chassis nuts",
+      "thread": "M5",
+      "value": "5",
+      "unit": "Nm",
+      "conditions": [
+        "Fallback only after excluding named joints; never apply by thread size alone"
+      ],
+      "printed_page": 157,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-14",
+      "joint": "Other chassis screws",
+      "thread": "M5",
+      "value": "5",
+      "unit": "Nm",
+      "conditions": [
+        "Fallback only after excluding named joints; never apply by thread size alone"
+      ],
+      "printed_page": 157,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-15",
+      "joint": "Battery terminal screw",
+      "thread": "M5",
+      "value": "2.5",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 157,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-16",
+      "joint": "Frame guard screw",
+      "thread": "M5",
+      "value": "3",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 157,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-17",
+      "joint": "Shock preload-ring screw",
+      "thread": "M5",
+      "value": "5",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 157,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-18",
+      "joint": "Throttle-body cover screw",
+      "thread": "M5",
+      "value": "2.6",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 157,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-19",
+      "joint": "Silencer screws",
+      "thread": "M5",
+      "value": "7",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 157,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-20",
+      "joint": "Starter cable nut at motor",
+      "thread": "M6",
+      "value": "4",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 157,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-21",
+      "joint": "Throttle cable nut at throttle body",
+      "thread": "M6",
+      "value": "3",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 157,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-22",
+      "joint": "Other chassis nuts",
+      "thread": "M6",
+      "value": "10",
+      "unit": "Nm",
+      "conditions": [
+        "Fallback only after excluding named joints; never apply by thread size alone"
+      ],
+      "printed_page": 157,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-23",
+      "joint": "Other chassis screws",
+      "thread": "M6",
+      "value": "10",
+      "unit": "Nm",
+      "conditions": [
+        "Fallback only after excluding named joints; never apply by thread size alone"
+      ],
+      "printed_page": 157,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-24",
+      "joint": "Battery bracket screw",
+      "thread": "M6",
+      "value": "6",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 157,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-25",
+      "joint": "Swingarm brake-hose guide screw",
+      "thread": "M6",
+      "value": "4.5",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 157,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-26",
+      "joint": "Forward chain-guide screw at swingarm",
+      "thread": "M6x45",
+      "value": "10",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 157,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-27",
+      "joint": "Rearward chain-guide screw at swingarm",
+      "thread": "M6x16",
+      "value": "10",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 157,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-28",
+      "joint": "Swingarm chain slider screw",
+      "thread": "M6",
+      "value": "6",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 157,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-29",
+      "joint": "Instrument connector-board screw",
+      "thread": "M6",
+      "value": "5",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 157,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-30",
+      "joint": "Fender screw",
+      "thread": "M6",
+      "value": "12",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-31",
+      "joint": "Front rotor screw",
+      "thread": "M6",
+      "value": "14",
+      "unit": "Nm",
+      "conditions": [
+        "Loctite 243"
+      ],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-32",
+      "joint": "Shroud-to-radiator screw",
+      "thread": "M6",
+      "value": "6",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-33",
+      "joint": "Frame ground connection screw",
+      "thread": "M6",
+      "value": "10",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-34",
+      "joint": "Hand lever screw",
+      "thread": "M6",
+      "value": "5",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-35",
+      "joint": "Rear master-cylinder pushrod ball-joint screw",
+      "thread": "M6",
+      "value": "10",
+      "unit": "Nm",
+      "conditions": [
+        "Loctite 243"
+      ],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-36",
+      "joint": "Rear rotor screw",
+      "thread": "M6",
+      "value": "14",
+      "unit": "Nm",
+      "conditions": [
+        "Loctite 243"
+      ],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-37",
+      "joint": "Seat retaining screw (metric)",
+      "thread": "M6",
+      "value": "8",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-38",
+      "joint": "Starter cable screw at relay",
+      "thread": "M6",
+      "value": "6",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-39",
+      "joint": "Throttle grip screw",
+      "thread": "M6",
+      "value": "5",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-40",
+      "joint": "Brake-pedal stop nut",
+      "thread": "M8",
+      "value": "20",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-41",
+      "joint": "Rear sprocket retaining nut",
+      "thread": "M8",
+      "value": "35",
+      "unit": "Nm",
+      "conditions": [
+        "Loctite 2701"
+      ],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-42",
+      "joint": "Rim-lock nut",
+      "thread": "M8",
+      "value": "12",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-43",
+      "joint": "Other chassis nuts",
+      "thread": "M8",
+      "value": "25",
+      "unit": "Nm",
+      "conditions": [
+        "Fallback only after excluding named joints; never apply by thread size alone"
+      ],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-44",
+      "joint": "Other chassis screws",
+      "thread": "M8",
+      "value": "25",
+      "unit": "Nm",
+      "conditions": [
+        "Fallback only after excluding named joints; never apply by thread size alone"
+      ],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-45",
+      "joint": "Lower triple-clamp screw",
+      "thread": "M8",
+      "value": "12",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-46",
+      "joint": "Chain sliding-piece screw",
+      "thread": "M8",
+      "value": "15",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-47",
+      "joint": "Countershaft cover screw",
+      "thread": "M8",
+      "value": "15",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-48",
+      "joint": "Fork axle-clamp screw",
+      "thread": "M8",
+      "value": "15",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-49",
+      "joint": "Front caliper mounting screw",
+      "thread": "M8",
+      "value": "25",
+      "unit": "Nm",
+      "conditions": [
+        "Loctite 243"
+      ],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-50",
+      "joint": "Handlebar clamp screw",
+      "thread": "M8",
+      "value": "20",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-51",
+      "joint": "Exhaust manifold-to-head-brace screw",
+      "thread": "M8",
+      "value": "15",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-52",
+      "joint": "Lower subframe screw",
+      "thread": "M8",
+      "value": "30",
+      "unit": "Nm",
+      "conditions": [
+        "Loctite 2701"
+      ],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-53",
+      "joint": "Upper subframe screw",
+      "thread": "M8",
+      "value": "35",
+      "unit": "Nm",
+      "conditions": [
+        "Loctite 2701"
+      ],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-54",
+      "joint": "Upper steering-stem screw",
+      "thread": "M8",
+      "value": "20",
+      "unit": "Nm",
+      "conditions": [
+        "Loctite 243"
+      ],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-55",
+      "joint": "Upper triple-clamp screw",
+      "thread": "M8",
+      "value": "17",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-56",
+      "joint": "Engine mounting screw",
+      "thread": "M10",
+      "value": "60",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-57",
+      "joint": "Other chassis nuts",
+      "thread": "M10",
+      "value": "45",
+      "unit": "Nm",
+      "conditions": [
+        "Fallback only after excluding named joints; never apply by thread size alone"
+      ],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-58",
+      "joint": "Other chassis screws",
+      "thread": "M10",
+      "value": "45",
+      "unit": "Nm",
+      "conditions": [
+        "Fallback only after excluding named joints; never apply by thread size alone"
+      ],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-59",
+      "joint": "Lower shock mounting screw",
+      "thread": "M10",
+      "value": "60",
+      "unit": "Nm",
+      "conditions": [
+        "Loctite 2701"
+      ],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-60",
+      "joint": "Handlebar support screw",
+      "thread": "M10",
+      "value": "40",
+      "unit": "Nm",
+      "conditions": [
+        "Loctite 243"
+      ],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-61",
+      "joint": "Upper shock mounting screw",
+      "thread": "M10",
+      "value": "60",
+      "unit": "Nm",
+      "conditions": [
+        "Loctite 2701"
+      ],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-62",
+      "joint": "Bell crank-to-swingarm nut",
+      "thread": "M14x1.5",
+      "value": "60",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-63",
+      "joint": "Linkage-to-frame nut",
+      "thread": "M14x1.5",
+      "value": "60",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 158,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-64",
+      "joint": "Linkage-to-bell-crank nut",
+      "thread": "M14x1.5",
+      "value": "60",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 159,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-65",
+      "joint": "Swingarm pivot nut",
+      "thread": "M16x1.5",
+      "value": "100",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 159,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-66",
+      "joint": "Front axle retaining screw",
+      "thread": "M20x1.5",
+      "value": "35",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 159,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-67",
+      "joint": "Upper steering-head screw",
+      "thread": "M20x1.5",
+      "value": "12",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 159,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-68",
+      "joint": "Rear axle nut",
+      "thread": "M22x1.5",
+      "value": "80",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 159,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    },
+    {
+      "id": "ktm25-chassis-69",
+      "joint": "Cooling-system threaded fitting",
+      "thread": "M24x1.5",
+      "value": "7.5",
+      "unit": "Nm",
+      "conditions": [],
+      "printed_page": 159,
+      "domain": "chassis",
+      "mapping_status": "UNMAPPED"
+    }
+  ],
+  "mappings": [
+    {
+      "fact_id": "ktm25-chassis-11",
+      "assembly_id": "official-14",
+      "callout": "11",
+      "part_number": "77109072000",
+      "review_note": "Exact front M4.5 nipple occurrence; does not apply to spoke itself.",
+      "reviewed_catalog_description": "Spoke nipple M4.5 AL"
+    },
+    {
+      "fact_id": "ktm25-chassis-12",
+      "assembly_id": "official-15",
+      "callout": "9",
+      "part_number": "79109072000",
+      "review_note": "Exact rear M4.5 nipple occurrence; does not apply to spoke itself.",
+      "reviewed_catalog_description": "Spoke nipple M4.5"
+    },
+    {
+      "fact_id": "ktm25-chassis-31",
+      "assembly_id": "official-14",
+      "callout": "21",
+      "part_number": "59009062013",
+      "review_note": "Front-wheel assembly rotor mounting screw, adjacent rotor callout20; distinct from caliper mount.",
+      "reviewed_catalog_description": "SPECIAL SCREW M6X13 WS=8 10.9"
+    },
+    {
+      "fact_id": "ktm25-chassis-36",
+      "assembly_id": "official-15",
+      "callout": "12",
+      "part_number": "59009062013",
+      "review_note": "Rear-wheel assembly rotor mounting screw, adjacent rotor callout11; distinct from sprocket mount.",
+      "reviewed_catalog_description": "SPECIAL SCREW M6X13 WS=8 10.9"
+    },
+    {
+      "fact_id": "ktm25-chassis-66",
+      "assembly_id": "official-14",
+      "callout": "32",
+      "part_number": "A46009082000",
+      "review_note": "Front axle retaining M20x1.5 screw; same PN elsewhere does not inherit this axle torque.",
+      "reviewed_catalog_description": "Collar screw M20x1.5 SW17 Al"
+    },
+    {
+      "fact_id": "ktm25-chassis-68",
+      "assembly_id": "official-15",
+      "callout": "44",
+      "part_number": "A46010086000",
+      "review_note": "Rear axle M22x1.5 collar nut; distinct from chain-adjuster nut.",
+      "reviewed_catalog_description": "Collar nut M22x1.5 WS=30"
+    },
+    {
+      "fact_id": "ktm25-chassis-50",
+      "assembly_id": "official-0",
+      "callout": "3",
+      "part_number": "0025080256",
+      "review_note": "Diagram shows four screws through handlebar clamp38 into support39.",
+      "reviewed_catalog_description": "HH collar screw M8x25"
+    },
+    {
+      "fact_id": "ktm25-chassis-55",
+      "assembly_id": "official-0",
+      "callout": "4",
+      "part_number": "0025080406",
+      "review_note": "Diagram shows four M8x40 screws pinching upper triple clamp32; not lower clamp.",
+      "reviewed_catalog_description": "HH COLLAR SCREW M8X40 TX40"
+    },
+    {
+      "fact_id": "ktm25-chassis-54",
+      "assembly_id": "official-0",
+      "callout": "5",
+      "part_number": "0015080256S",
+      "review_note": "Single screw at steering-stem pinch of upper clamp32; distinct from four fork-tube clamps.",
+      "reviewed_catalog_description": "HH COLLAR SCREW M8X25 WS=10"
+    },
+    {
+      "fact_id": "ktm25-chassis-60",
+      "assembly_id": "official-0",
+      "callout": "6",
+      "part_number": "0035100509S",
+      "review_note": "Two M10 screws below handlebar supports; exact support attachment.",
+      "reviewed_catalog_description": "AH collar screw M10x50 ISA45"
+    },
+    {
+      "fact_id": "ktm25-chassis-45",
+      "assembly_id": "official-0",
+      "callout": "11",
+      "part_number": "0025080506",
+      "review_note": "Diagram shows four M8x50 screws pinching lower triple clamp30.",
+      "reviewed_catalog_description": "HH collar screw M8x50 TX40"
+    },
+    {
+      "fact_id": "ktm25-chassis-67",
+      "assembly_id": "official-0",
+      "callout": "36",
+      "part_number": "A46009082000",
+      "review_note": "M20x1.5 screw above steering head; this occurrence is NOT front axle despite same part number.",
+      "reviewed_catalog_description": "Collar screw M20x1.5 SW17 Al"
+    },
+    {
+      "fact_id": "ktm25-chassis-53",
+      "assembly_id": "official-3",
+      "callout": "4",
+      "part_number": "09000008016U0",
+      "review_note": "Diagram locates screw4 at upper subframe attachment; lower subframe uses screw5.",
+      "reviewed_catalog_description": "Special screw M8x16 ISA45 self"
+    },
+    {
+      "fact_id": "ktm25-chassis-52",
+      "assembly_id": "official-3",
+      "callout": "5",
+      "part_number": "79003003000",
+      "review_note": "Diagram locates screw5 at lower subframe attachment; upper subframe uses screw4.",
+      "reviewed_catalog_description": "Special screw M8X18 TORX45 SL"
+    },
+    {
+      "fact_id": "ktm25-chassis-56",
+      "assembly_id": "official-3",
+      "callout": "15",
+      "part_number": "59003013000",
+      "review_note": "Engine mounting M10x123 screws pass through main frame engine cradle.",
+      "reviewed_catalog_description": "Enginebrac. screw M10X123 WS=1"
+    },
+    {
+      "fact_id": "ktm25-chassis-47",
+      "assembly_id": "official-3",
+      "callout": "18",
+      "part_number": "0025080206",
+      "review_note": "Diagram locates screw18 at countershaft sprocket cover39.",
+      "reviewed_catalog_description": "HH collar screw M8x20"
+    },
+    {
+      "fact_id": "ktm25-chassis-16",
+      "assembly_id": "official-3",
+      "callout": "29",
+      "part_number": "0025050106",
+      "review_note": "Diagram locates two M5 screws at frame protector33.",
+      "reviewed_catalog_description": "HH collar screw M5x10 TX30"
+    },
+    {
+      "fact_id": "ktm25-chassis-46",
+      "assembly_id": "official-3",
+      "callout": "38",
+      "part_number": "0025080206",
+      "review_note": "Diagram locates screw38 at chain sliding piece16 below engine.",
+      "reviewed_catalog_description": "HH collar screw M8x20"
+    },
+    {
+      "fact_id": "ktm25-chassis-26",
+      "assembly_id": "official-7",
+      "callout": "16",
+      "part_number": "0025060456",
+      "review_note": "Unique long M6x45 screw at forward chain-guide14 mounting position.",
+      "reviewed_catalog_description": "HH COLLAR SCREW M6X45 TX30"
+    },
+    {
+      "fact_id": "ktm25-chassis-65",
+      "assembly_id": "official-7",
+      "callout": "26",
+      "part_number": "54804038000",
+      "review_note": "Flanged M16x1.5 nut pairs with swingarm pivot25; not chain adjustment.",
+      "reviewed_catalog_description": "Nut with flange M16X1,5 WS=19"
+    },
+    {
+      "fact_id": "ktm25-chassis-19",
+      "assembly_id": "official-8",
+      "callout": "9",
+      "part_number": "78105081010",
+      "review_note": "Five M5 silencer shell/end-cap screws; distinct from M6 silencer mounting screws6.",
+      "reviewed_catalog_description": "SCREW TORX M5X10"
+    },
+    {
+      "fact_id": "ktm25-chassis-51",
+      "assembly_id": "official-8",
+      "callout": "41",
+      "part_number": "0025080256",
+      "review_note": "Unique M8 screw through exhaust header40 mounting tab to head brace.",
+      "reviewed_catalog_description": "HH collar screw M8x25"
+    },
+    {
+      "fact_id": "ktm25-chassis-37",
+      "assembly_id": "official-10",
+      "callout": "11",
+      "part_number": "0025060256",
+      "review_note": "Single metric M6x25 screw in seat13 assembly; not plastic seat holder2.",
+      "reviewed_catalog_description": "HH collar screw M6x25 TX30"
+    },
+    {
+      "fact_id": "ktm25-chassis-04",
+      "assembly_id": "official-11",
+      "callout": "2",
+      "part_number": "0017060305",
+      "review_note": "Only K60x30 fixing screws in fuel pump assembly, four pump-to-tank fixings.",
+      "reviewed_catalog_description": "Special screw K60X30 WS=6"
+    },
+    {
+      "fact_id": "ktm25-chassis-42",
+      "assembly_id": "official-14",
+      "callout": "17",
+      "part_number": "77110090050",
+      "review_note": "Nut directly paired with tyre locker16 in front wheel diagram; torque targets nut, not rim lock body.",
+      "reviewed_catalog_description": "NUT FOR WHEEL HOLDER"
+    },
+    {
+      "fact_id": "ktm25-chassis-42",
+      "assembly_id": "official-15",
+      "callout": "34",
+      "part_number": "77110090050",
+      "review_note": "Nut directly paired with tyre locker33 in rear wheel diagram.",
+      "reviewed_catalog_description": "NUT FOR WHEEL HOLDER"
+    },
+    {
+      "fact_id": "ktm25-chassis-41",
+      "assembly_id": "official-15",
+      "callout": "22",
+      "part_number": "06923080003",
+      "review_note": "Six M8 nuts at rear sprocket19 joint; do not apply to counter-sunk bolt21 independently.",
+      "reviewed_catalog_description": "Hex. nut DIN EN 1661 M8 WS13"
+    },
+    {
+      "fact_id": "ktm25-chassis-15",
+      "assembly_id": "official-16",
+      "callout": "11",
+      "part_number": "0025050126",
+      "review_note": "Two M5 screws at battery positive cable25 and ground cable17 ends in diagram; separate M6 frame ground screw13.",
+      "reviewed_catalog_description": "HH collar screw M5x12 TX30"
+    },
+    {
+      "fact_id": "ktm25-chassis-33",
+      "assembly_id": "official-16",
+      "callout": "13",
+      "part_number": "0900000601202",
+      "review_note": "Single M6 screw at chassis end of ground cable17; distinct from M5 battery terminal screws11.",
+      "reviewed_catalog_description": "Roundhead screw w/ Tx M6x12 mm"
+    },
+    {
+      "fact_id": "ktm25-chassis-24",
+      "assembly_id": "official-16",
+      "callout": "14",
+      "part_number": "0024060106",
+      "review_note": "M6 screw passes through battery holding bracket24 into tray.",
+      "reviewed_catalog_description": "HH COLLAR SCREW M6X10 TX30"
+    },
+    {
+      "fact_id": "ktm25-chassis-29",
+      "assembly_id": "official-16",
+      "callout": "28",
+      "part_number": "83008100015",
+      "review_note": "Two M6 screws at connector support18 with instrument27.",
+      "reviewed_catalog_description": "Special screw M6x15x5.5"
+    },
+    {
+      "fact_id": "ktm25-chassis-38",
+      "assembly_id": "official-16",
+      "callout": "15",
+      "part_number": "0738060167",
+      "review_note": "Screw15 is one starter-relay22 cable terminal fixing; catalog label truncates length, but M6 thread and exact relay joint are visible.",
+      "reviewed_catalog_description": "Oval head screw AH socket M6x1"
+    },
+    {
+      "fact_id": "ktm25-chassis-38",
+      "assembly_id": "official-16",
+      "callout": "16",
+      "part_number": "0902060083",
+      "review_note": "M6x8 screw16 at second starter-relay22 terminal, same specified relay-cable joint.",
+      "reviewed_catalog_description": "Oval head screw ISO 7380 M 6X8"
+    },
+    {
+      "fact_id": "ktm25-chassis-20",
+      "assembly_id": "official-16",
+      "callout": "19",
+      "part_number": "0985060003",
+      "review_note": "M6 nut shown at starter-motor terminal under protection cap20; torque is at motor, not relay.",
+      "reviewed_catalog_description": "Self lock. nut DIN985-M6-A2"
+    },
+    {
+      "fact_id": "ktm25-chassis-35",
+      "assembly_id": "official-18",
+      "callout": "14",
+      "part_number": "0025060206S",
+      "review_note": "M6 screw through pushrod ball-joint17 to brake pedal; not pedal pivot18.",
+      "reviewed_catalog_description": "HH collar screw M6x20 TX30"
+    },
+    {
+      "fact_id": "ktm25-chassis-40",
+      "assembly_id": "official-18",
+      "callout": "20",
+      "part_number": "46030045000",
+      "review_note": "M8 flanged nut on brake-pedal stop screw19; not M10 pivot nut22.",
+      "reviewed_catalog_description": "flanged nut M8 WS10"
+    },
+    {
+      "fact_id": "ktm25-chassis-49",
+      "assembly_id": "official-19",
+      "callout": "15",
+      "part_number": "0025080306S",
+      "review_note": "Two M8x30 screws at front brake caliper carrier mounting; not slide pins, pad pin or banjo bolt.",
+      "reviewed_catalog_description": "HH COLLAR SCREW M8X30 TX40"
+    }
+  ],
+  "mapping_review": "2026-09-13 complete visible OEM labels reread for every retained mapping; chassis diagrams reviewed for exact joint identity. No thread-size defaults. Table values remain separate from complete installation procedures.",
+  "unresolved_mappings": [
+    {
+      "assembly_id": "official-7",
+      "callout": "5",
+      "part_number": "0025060166S",
+      "reason": "Same callout covers five M6x16 screws at brake-hose guide, chain slider and rear chain-guide joints, whose torques differ (4.5/6/10 Nm). Requires per-position child occurrences before mapping."
+    },
+    {
+      "assembly_id": "official-4",
+      "callout": "2",
+      "part_number": "77204089000",
+      "reason": "One catalog row covers upper and lower shock mount positions. Both table values60Nm+2701, but separate joint identities must be represented before mapping."
+    },
+    {
+      "assembly_id": "official-6",
+      "callout": "19",
+      "part_number": "77204087000",
+      "reason": "Two nuts cover distinct linkage joints; same torque does not establish which occurrence is which. Requires position subdivision."
+    },
+    {
+      "assembly_id": "official-9",
+      "callout": "9",
+      "part_number": "0017060206",
+      "reason": "Five plastic screws cover multiple airbox parts; no uniform torque assigned from thread alone."
+    },
+    {
+      "assembly_id": "official-10",
+      "callout": "10",
+      "part_number": "0025060126",
+      "reason": "Seven M6 screws span tank/shroud positions; radiator-shroud6Nm cannot be assigned to entire row."
+    },
+    {
+      "assembly_id": "official-2",
+      "callout": "9",
+      "part_number": "0081050181",
+      "reason": "Combined switch fastening row spans start-stop and map-switch; both2Nm but joint subdivision required."
+    }
+  ]
+}

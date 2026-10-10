@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED",
+  "reviewer": "/root",
+  "artifact_sha256": "b8ef616901d5dc9a45dc7fce825602238014c879d224234d92d0893d8c2ed1b7",
+  "reviewed_candidate_sha256": "e76e18a4a15852c1de8d114988283fb82930c8335d401dd3b55bfc0be0504626",
+  "source_sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608",
+  "reviewed_steps": "All changed 2022 top-end instruction fields compared with approved 2023 structural template; exact 2022 source independently reviewed.",
+  "text_pages": [
+    48,
+    202,
+    203,
+    204,
+    205,
+    210,
+    211,
+    212,
+    213,
+    215,
+    218,
+    219,
+    220,
+    221
+  ],
+  "visual_pages": [
+    85,
+    86,
+    200,
+    204,
+    206,
+    209,
+    216,
+    222
+  ],
+  "findings": [],
+  "approval_only_change": "Publication/source review status only; no mechanical instructions changed.",
+  "review_notes": [
+    "Small head bolts 10 Nm clean/dry, distinct oil-plug LT; seven cam-cap bolts and clips.",
+    "Head 40 Nm then individual 23 Nm plus 90 degrees then all 60 degrees; 1215 sealant and LS access O-rings confirmed."
+  ]
+}

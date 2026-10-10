@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "target": {
+    "manufacturer": "Yamaha",
+    "year": 2022,
+    "model": "YZ250F",
+    "region": "US",
+    "variant": "standard"
+  },
+  "source": "MotoSport public OEM catalog",
+  "index_url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f",
+  "index_sha256": "ba470fcf288c306465070c1f34b31098844f3543f16e4bb2dead0bdaf202262d",
+  "scope": "Retail catalog occurrence inventory; not mechanical instructions or whole-bike BOM quantities.",
+  "status": "PARTIAL",
+  "counts": {
+    "indexed_assemblies": 45,
+    "captured_assemblies": 0,
+    "occurrences": 0,
+    "unique_part_numbers": 0,
+    "explicit_catalog_quantities": 0,
+    "supersession_rows": 0
+  },
+  "missing": [
+    {
+      "name": "1 TITLE PAGE",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/1-title-page"
+    },
+    {
+      "name": "2 SCHEDULED SERVICE PARTS",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/2-scheduled-service-parts"
+    },
+    {
+      "name": "3 MAINTENANCE PARTS KIT",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/3-maintenance-parts-kit"
+    },
+    {
+      "name": "4 PISTON REBUILT KIT",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/4-piston-rebuilt-kit"
+    },
+    {
+      "name": "ALTERNATE FOR CHASSIS",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/alternate-for-chassis"
+    },
+    {
+      "name": "CAMSHAFT & CHAIN",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/camshaft-%26-chain"
+    },
+    {
+      "name": "CLUTCH",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/clutch"
+    },
+    {
+      "name": "CRANKCASE",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/crankcase"
+    },
+    {
+      "name": "CRANKCASE COVER 1",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/crankcase-cover-1"
+    },
+    {
+      "name": "CRANKSHAFT & PISTON",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/crankshaft-%26-piston"
+    },
+    {
+      "name": "CYLINDER",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/cylinder"
+    },
+    {
+      "name": "ELECTRICAL 1",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/electrical-1"
+    },
+    {
+      "name": "ELECTRICAL 2",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/electrical-2"
+    },
+    {
+      "name": "EXHAUST",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/exhaust"
+    },
+    {
+      "name": "FENDER",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/fender"
+    },
+    {
+      "name": "FRAME",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/frame"
+    },
+    {
+      "name": "FRONT BRAKE CALIPER",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/front-brake-caliper"
+    },
+    {
+      "name": "FRONT FORK",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/front-fork"
+    },
+    {
+      "name": "FRONT MASTER CYLINDER",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/front-master-cylinder"
+    },
+    {
+      "name": "FRONT WHEEL",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/front-wheel"
+    },
+    {
+      "name": "FUEL TANK",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/fuel-tank"
+    },
+    {
+      "name": "GENERATOR",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/generator"
+    },
+    {
+      "name": "HANDLE SWITCH & LEVER",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/handle-switch-%26-lever"
+    },
+    {
+      "name": "INTAKE",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/intake"
+    },
+    {
+      "name": "INTAKE 2",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/intake-2"
+    },
+    {
+      "name": "OIL CLEANER",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/oil-cleaner"
+    },
+    {
+      "name": "OIL PUMP",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/oil-pump"
+    },
+    {
+      "name": "RADIATOR & HOSE",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/radiator-%26-hose"
+    },
+    {
+      "name": "REAR ARM",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/rear-arm"
+    },
+    {
+      "name": "REAR BRAKE CALIPER",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/rear-brake-caliper"
+    },
+    {
+      "name": "REAR MASTER CYLINDER",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/rear-master-cylinder"
+    },
+    {
+      "name": "REAR SUSPENSION",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/rear-suspension"
+    },
+    {
+      "name": "REAR WHEEL",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/rear-wheel"
+    },
+    {
+      "name": "SEAT",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/seat"
+    },
+    {
+      "name": "SHIFT CAM & FORK",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/shift-cam-%26-fork"
+    },
+    {
+      "name": "SHIFT SHAFT",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/shift-shaft"
+    },
+    {
+      "name": "SIDE COVER",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/side-cover"
+    },
+    {
+      "name": "STAND & FOOTREST",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/stand-%26-footrest"
+    },
+    {
+      "name": "STARTER",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/starter"
+    },
+    {
+      "name": "STARTING MOTOR",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/starting-motor"
+    },
+    {
+      "name": "STEERING",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/steering"
+    },
+    {
+      "name": "STEERING HANDLE & CABLE",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/steering-handle-%26-cable"
+    },
+    {
+      "name": "TRANSMISSION",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/transmission"
+    },
+    {
+      "name": "VALVE",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/valve"
+    },
+    {
+      "name": "WATER PUMP",
+      "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/water-pump"
+    }
+  ],
+  "errors": [],
+  "assemblies": []
+}

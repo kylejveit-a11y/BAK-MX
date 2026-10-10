@@ -1,0 +1,875 @@
+{
+  "checked_at": "2026-09-21T15:43:57.194920+00:00",
+  "complete_catalogs": 45,
+  "in_progress_or_incomplete": 3,
+  "part_occurrences": 56029,
+  "catalogs": [
+    {
+      "path": "captures\\gasgas\\ec-250-2022-1002108019.json",
+      "sha256": "261b68058abe18ed85b972e41e2717ebd73d3eea6ed5964ce63d98373f4f74cf",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "EC 250",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 43,
+      "expected_assemblies": 43,
+      "parts_occurrences": 1224,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\gasgas\\ec-250-2023-1002324358.json",
+      "sha256": "b6819e91a1b7f290384673848317c8a95f5243ecb0694a0d7e02b06a5538e884",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "EC 250",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 44,
+      "expected_assemblies": 44,
+      "parts_occurrences": 1225,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\gasgas\\ec-300-2021-1002032208.json",
+      "sha256": "3749552b3770be1eb5bf38236dbe07a4b14f2831f20a69bf4c4bcc56d9cb3c6b",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "EC 300",
+        "model_year": 2021,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 43,
+      "expected_assemblies": 43,
+      "parts_occurrences": 1223,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\gasgas\\ec-300-2022-1002106218.json",
+      "sha256": "9e533e491c61c37ad422b9b4c47607b3d7791d816f766d7d16434c03ed20b3ed",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "EC 300",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 43,
+      "expected_assemblies": 43,
+      "parts_occurrences": 1223,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\gasgas\\ex-250-2022-1002108017.json",
+      "sha256": "41d519f5f9ceedb34fbd4a47b78feec637bff376c07ec8941ba2c92fecb08971",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "EX 250",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 41,
+      "expected_assemblies": 41,
+      "parts_occurrences": 1181,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\gasgas\\ex-250f-2021-1002032200.json",
+      "sha256": "0eab42244e5100a57b37a80a02fdff0b92d8e14d4e3f404eb4b86b4845339c69",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "EX 250F",
+        "model_year": 2021,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 43,
+      "expected_assemblies": 43,
+      "parts_occurrences": 1194,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\gasgas\\ex-250f-2022-1002106182.json",
+      "sha256": "f17dce47a776b642ba41390f9ba915fd700e17488fef10f8884341841db3cfb5",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "EX 250F",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 43,
+      "expected_assemblies": 43,
+      "parts_occurrences": 1190,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\gasgas\\ex-300-2021-1002032206.json",
+      "sha256": "1c181910e0dea1af29dc62fac7f3834291e60cd6acf54671dd5fa46837131846",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "EX 300",
+        "model_year": 2021,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 41,
+      "expected_assemblies": 41,
+      "parts_occurrences": 1179,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\gasgas\\ex-300-2022-1002106216.json",
+      "sha256": "2ccaa286d7bc3b225841b4f367c5befe6fe8e4b0234f8d41c78e0adac294f262",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "EX 300",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 41,
+      "expected_assemblies": 41,
+      "parts_occurrences": 1180,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\gasgas\\ex-350f-2021-1002032202.json",
+      "sha256": "329aa9365738ff1fff9d508412d2bcd26110c390a50107511fd0b7e493c23831",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "EX 350F",
+        "model_year": 2021,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 43,
+      "expected_assemblies": 43,
+      "parts_occurrences": 1196,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\gasgas\\ex-350f-2022-1002106198.json",
+      "sha256": "fe2d901c3dd3a0b7c1e12315be8af926133f9013eb48161688a959845b755b54",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "EX 350F",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 43,
+      "expected_assemblies": 43,
+      "parts_occurrences": 1195,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\gasgas\\ex-450f-2021-1002032204.json",
+      "sha256": "60238d70574507e8beae22a9c3f8c3733752a69cc4710b7d3f2c9c08fa20e791",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "EX 450F",
+        "model_year": 2021,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 43,
+      "expected_assemblies": 43,
+      "parts_occurrences": 1183,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\gasgas\\ex-450f-2022-1002106200.json",
+      "sha256": "a649f25ab6a8a73af6619660d79b032f8fba34e1894ffb80e32c90dcb750e2c9",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "EX 450F",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 43,
+      "expected_assemblies": 43,
+      "parts_occurrences": 1183,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\husqvarna\\fc-250-2021-1001896047.json",
+      "sha256": "8eae652432da9342307affc1ddc5c40bf1c35845a31bd6f1632bc946cf05cc0c",
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FC 250",
+        "model_year": 2021,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 41,
+      "expected_assemblies": 41,
+      "parts_occurrences": 1186,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\husqvarna\\fc-350-2021-1001896057.json",
+      "sha256": "06e9202aa55b84be3de9713e6200920621b9b35739f8ec329ac3dae35b2d7bf8",
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FC 350",
+        "model_year": 2021,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 41,
+      "expected_assemblies": 41,
+      "parts_occurrences": 1192,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\husqvarna\\fc-450-2021-1001896087.json",
+      "sha256": "f80f2a2760cbe08305f8382380fcf59adba2d648a62ed13fdb5d3c4154649cf0",
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FC 450",
+        "model_year": 2021,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 41,
+      "expected_assemblies": 41,
+      "parts_occurrences": 1176,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\husqvarna\\fe-350-2020-1001662112.json",
+      "sha256": "ddfbf994130b78d060afb782ba8b166e2c37efed593e66c533bc7fe279e4cd41",
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FE 350",
+        "model_year": 2020,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": false,
+      "catalog_complete": false,
+      "captured_assemblies": 44,
+      "expected_assemblies": 46,
+      "parts_occurrences": 1244,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\husqvarna\\fe-501-2020-1001662138.json",
+      "sha256": "1c5bdf55278b8cfc6166b27d1db570467b495fe1463fdfbd3aba832fbfd38428",
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FE 501",
+        "model_year": 2020,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": false,
+      "catalog_complete": false,
+      "captured_assemblies": 40,
+      "expected_assemblies": 46,
+      "parts_occurrences": 1136,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\husqvarna\\fx-350-2020-1001662106.json",
+      "sha256": "a8a54632c356145f6c9c1c3f3a6d485ac761ce1e79e2d08b450c570a9a0813f3",
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FX 350",
+        "model_year": 2020,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 42,
+      "expected_assemblies": 42,
+      "parts_occurrences": 1213,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\husqvarna\\fx-350-2021-1001896053.json",
+      "sha256": "acae7fb355e2a34c49659b82c35c1da606127beaeab8fccba5462aa26bbdb0a8",
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FX 350",
+        "model_year": 2021,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 42,
+      "expected_assemblies": 42,
+      "parts_occurrences": 1207,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\husqvarna\\fx-450-2020-1001662116.json",
+      "sha256": "125756ddee9566678588f69ae98fb5a1ba0d2c6073d903f7e2efee1ded950e6c",
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FX 450",
+        "model_year": 2020,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 42,
+      "expected_assemblies": 42,
+      "parts_occurrences": 1201,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\husqvarna\\fx-450-2021-1001896065.json",
+      "sha256": "e31bd95a5c450ba404112d1c3ab77c7638efd0d16cbf37e65482d0e98bd8d9d9",
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FX 450",
+        "model_year": 2021,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 42,
+      "expected_assemblies": 42,
+      "parts_occurrences": 1192,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\husqvarna\\te-150i-2020-1001662102.json",
+      "sha256": "4286041e077ef5af699729bc33fa20d78a2a441f224bc329bce30c112730a526",
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "TE 150i",
+        "model_year": 2020,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": false,
+      "catalog_complete": false,
+      "captured_assemblies": 18,
+      "expected_assemblies": 44,
+      "parts_occurrences": 357,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\ktm\\125-sx-2020-1001665870.json",
+      "sha256": "b2d2a0ed6133967b4e00dd92906a1cff2c2172b94a61e0e61398ee0513851c0d",
+      "target": {
+        "manufacturer": "KTM",
+        "model": "125 SX",
+        "model_year": 2020,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 36,
+      "expected_assemblies": 36,
+      "parts_occurrences": 1146,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\ktm\\125-xc-2021-1001976417.json",
+      "sha256": "a506934aade6f3720b9960585f60ca07d923f2e1987bb4b2ae0485d7690b6e29",
+      "target": {
+        "manufacturer": "KTM",
+        "model": "125 XC",
+        "model_year": 2021,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 40,
+      "expected_assemblies": 40,
+      "parts_occurrences": 1200,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\ktm\\150-sx-2020-1001665872.json",
+      "sha256": "2bd965faff9b8fa995a4273feb55c85dd9cc6197d60c90a5c0a88218e0b0b0ca",
+      "target": {
+        "manufacturer": "KTM",
+        "model": "150 SX",
+        "model_year": 2020,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 36,
+      "expected_assemblies": 36,
+      "parts_occurrences": 1145,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\ktm\\250-sx-2020-1001665876.json",
+      "sha256": "9dfa55b05714c766668a41b1216857de504e655ecabbad0dc4b977b335a4c4e9",
+      "target": {
+        "manufacturer": "KTM",
+        "model": "250 SX",
+        "model_year": 2020,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 36,
+      "expected_assemblies": 36,
+      "parts_occurrences": 797,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\ktm\\250-sx-f-2020-1001665880.json",
+      "sha256": "20a44bd1a18fcab12f6fefef8b3e69889afbaff14c7aafe4f3d337f298b4709f",
+      "target": {
+        "manufacturer": "KTM",
+        "model": "250 SX-F",
+        "model_year": 2020,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 41,
+      "expected_assemblies": 41,
+      "parts_occurrences": 1202,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\ktm\\250-sx-f-2021-1001921073.json",
+      "sha256": "5b4a530b33a33b27adf8084e13ccea9bc95275753adadb0d64c4ea13cd7a1900",
+      "target": {
+        "manufacturer": "KTM",
+        "model": "250 SX-F",
+        "model_year": 2021,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 41,
+      "expected_assemblies": 41,
+      "parts_occurrences": 1200,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\ktm\\250-sx-f-2022-1002104922.json",
+      "sha256": "857c3319eaf73cc05e1abc75059db0858ca1eab53bef00a7f422190bc9ea223d",
+      "target": {
+        "manufacturer": "KTM",
+        "model": "250 SX-F",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 41,
+      "expected_assemblies": 41,
+      "parts_occurrences": 1193,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\ktm\\250-sx-f-2023-1002337359.json",
+      "sha256": "8117c7eaeffbae69a97d4f0770751e9ee7111f5eb3535a0d2cc813a3ef0b0f07",
+      "target": {
+        "manufacturer": "KTM",
+        "model": "250 SX-F",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 42,
+      "expected_assemblies": 42,
+      "parts_occurrences": 1174,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\ktm\\250-sx-f-2024-1003029304.json",
+      "sha256": "86523ccd2d7ea0031f5f9c55e00d90945d6623377e085f008fb79b453baf8383",
+      "target": {
+        "manufacturer": "KTM",
+        "model": "250 SX-F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 42,
+      "expected_assemblies": 42,
+      "parts_occurrences": 1169,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\ktm\\250-sx-f-2025-1003417530.json",
+      "sha256": "de2a482e030c8f7ec8a0a12847511582dcc11f6d491593f61e78a193d56ec794",
+      "target": {
+        "manufacturer": "KTM",
+        "model": "250 SX-F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 42,
+      "expected_assemblies": 42,
+      "parts_occurrences": 1169,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\ktm\\250-sx-f-2026-1003992693.json",
+      "sha256": "c1dc0ae341e680af445cf7d6d9143e27c7dde8e12aa5b57a02e46eddc9ee2e43",
+      "target": {
+        "manufacturer": "KTM",
+        "model": "250 SX-F",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 42,
+      "expected_assemblies": 42,
+      "parts_occurrences": 1168,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\ktm\\250-xc-f-2020-1001666608.json",
+      "sha256": "5276bb941d4ad78e9098d31a0bf3a707682f8b55fe37d208202a41a188a3ce52",
+      "target": {
+        "manufacturer": "KTM",
+        "model": "250 XC-F",
+        "model_year": 2020,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 43,
+      "expected_assemblies": 43,
+      "parts_occurrences": 1220,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\ktm\\250-xc-f-2021-1001930479.json",
+      "sha256": "e39f28c7de934e97b96aeebdbd14c4fae97d6a0d05835749f489ef3808c83bfd",
+      "target": {
+        "manufacturer": "KTM",
+        "model": "250 XC-F",
+        "model_year": 2021,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 43,
+      "expected_assemblies": 43,
+      "parts_occurrences": 1215,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\ktm\\350-sx-f-2020-1001665884.json",
+      "sha256": "f993c881262aee1ccc29eccd75e7def5762000cdd08cfc262e33ed83f5e2703f",
+      "target": {
+        "manufacturer": "KTM",
+        "model": "350 SX-F",
+        "model_year": 2020,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 41,
+      "expected_assemblies": 41,
+      "parts_occurrences": 1207,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\ktm\\350-sx-f-2021-1001921081.json",
+      "sha256": "3f346f0eaa22fbde4b0977cb946d17179809225928519645abac4a0ff571e32c",
+      "target": {
+        "manufacturer": "KTM",
+        "model": "350 SX-F",
+        "model_year": 2021,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 41,
+      "expected_assemblies": 41,
+      "parts_occurrences": 1207,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\ktm\\350-xc-f-2020-1001666618.json",
+      "sha256": "e5c573132dd30bbb30b981bc659c2f35ceab24f2210a5c6b56f006ceac6f8785",
+      "target": {
+        "manufacturer": "KTM",
+        "model": "350 XC-F",
+        "model_year": 2020,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 43,
+      "expected_assemblies": 43,
+      "parts_occurrences": 1222,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\ktm\\350-xc-f-2021-1001930481.json",
+      "sha256": "397e8fbafc4c8677e9b7399ac71a84c4881adebc793ec6ff98ec669ae6811c60",
+      "target": {
+        "manufacturer": "KTM",
+        "model": "350 XC-F",
+        "model_year": 2021,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 43,
+      "expected_assemblies": 43,
+      "parts_occurrences": 1217,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\ktm\\450-sx-f-2020-1001665890.json",
+      "sha256": "f4eb43c4aab7d89198cd295d38627fc9fe671bfe7830ac633dec48597e9016c8",
+      "target": {
+        "manufacturer": "KTM",
+        "model": "450 SX-F",
+        "model_year": 2020,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 41,
+      "expected_assemblies": 41,
+      "parts_occurrences": 1198,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\ktm\\450-sx-f-2021-1001921093.json",
+      "sha256": "783d640fad0f2987e3bce3daac91b0614c2e0440650ae4195f05917f9265cdf7",
+      "target": {
+        "manufacturer": "KTM",
+        "model": "450 SX-F",
+        "model_year": 2021,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 41,
+      "expected_assemblies": 41,
+      "parts_occurrences": 1192,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\ktm\\450-sx-f-2022-1002104932.json",
+      "sha256": "ce24bad76165fa2644f3a69c01287b1f4aaf800fc0dec02d0e3431c005e53aee",
+      "target": {
+        "manufacturer": "KTM",
+        "model": "450 SX-F",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 41,
+      "expected_assemblies": 41,
+      "parts_occurrences": 1185,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\ktm\\450-sx-f-2023-1002337355.json",
+      "sha256": "c0468fd4d933b3f7c952b9ee806093b9faa7437197697d5d9cd92a1fbefa49cc",
+      "target": {
+        "manufacturer": "KTM",
+        "model": "450 SX-F",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 42,
+      "expected_assemblies": 42,
+      "parts_occurrences": 1170,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\ktm\\450-sx-f-2024-1003029294.json",
+      "sha256": "bc1ef176e3dd53cbef98e0dcdd44b91175cd0e348b9a379433053c1bb24942a0",
+      "target": {
+        "manufacturer": "KTM",
+        "model": "450 SX-F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 42,
+      "expected_assemblies": 42,
+      "parts_occurrences": 1169,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\ktm\\450-sx-f-2026-1003992733.json",
+      "sha256": "f5da6a820b9145f51891ee0fe6bac502bc99eefea99d0fe3485d4ee2017db1f6",
+      "target": {
+        "manufacturer": "KTM",
+        "model": "450 SX-F",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 42,
+      "expected_assemblies": 42,
+      "parts_occurrences": 1170,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\ktm\\450-xc-f-2020-1001666628.json",
+      "sha256": "bcf937fdd12e43577abe0b63ed01e6e9c50263c36d6bcb260c4c81a5e5c7b030",
+      "target": {
+        "manufacturer": "KTM",
+        "model": "450 XC-F",
+        "model_year": 2020,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 43,
+      "expected_assemblies": 43,
+      "parts_occurrences": 1212,
+      "errors": [],
+      "assembly_errors": []
+    },
+    {
+      "path": "captures\\ktm\\450-xc-f-2021-1001930485.json",
+      "sha256": "18ce8c767ac24f7f4c816a964f0e77b37e6cf4d962d20a6198a0460dd9c44dd7",
+      "target": {
+        "manufacturer": "KTM",
+        "model": "450 XC-F",
+        "model_year": 2021,
+        "variant": "standard",
+        "region": "US"
+      },
+      "planned": true,
+      "catalog_complete": true,
+      "captured_assemblies": 43,
+      "expected_assemblies": 43,
+      "parts_occurrences": 1202,
+      "errors": [],
+      "assembly_errors": []
+    }
+  ],
+  "scope": "Public exact-US OEM catalog occurrences, including optional and accessory alternatives. Not installed bike totals; no torque or compatibility inference.",
+  "planned_complete_catalogs": 45,
+  "supplemental_unused_catalogs": 3
+}

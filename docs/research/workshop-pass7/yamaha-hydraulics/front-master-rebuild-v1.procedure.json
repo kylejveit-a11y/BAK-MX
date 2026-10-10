@@ -1,0 +1,372 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2026-yz450f-us-front-master-rebuild-v1",
+  "component": "brakes",
+  "affected_components": [
+    "front_brake",
+    "brakes",
+    "handlebar"
+  ],
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Rebuild the stock front brake master cylinder",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete stock front-master cylinder kit replacement with lever, holder and hose refit, fluid replacement, bleeding and brake checks. Caliper remains installed and serviceable.",
+  "entry_state": [
+    "Assembled exact US2026 stock YZ450F with serviceable front caliper, hose and disc.",
+    "Exact front master-cylinder replacement kit and union washers available."
+  ],
+  "exit_state": [
+    "Master cylinder rebuilt, mounted and connected; lever and hose routing restored.",
+    "Front circuit bled and reservoir closed; brake function checked."
+  ],
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10_02",
+    "pdf_pages": [
+      108,
+      109,
+      110,
+      111,
+      140,
+      141,
+      142,
+      146,
+      147,
+      148,
+      149,
+      166
+    ],
+    "printed_pages": [
+      "See exact PDF page links"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Visually reviewed141,142,147,148,149 and inherited110 bleeding. Cup orientation remains explicit diagram148 reference, not an invented textual lip direction. Exact NEW kit142 and assembly/circlip148 preserved. Independent root review passed rendered141/147\u2013149 and152\u2013154/159/160 plus108\u2013111 as applicable; kit/retention/closure verified."
+  },
+  "applicability": {
+    "included": "Stock front master cylinder on exact US2026 YZ450F",
+    "excluded": [
+      "Other model years",
+      "Aftermarket brake system",
+      "Damaged master-cylinder body or other brake components requiring replacement"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "required_tools": [
+    {
+      "name": "Stable support, suitable hand tools and precision torque tools",
+      "size": "1.5\u201330 Nm"
+    },
+    {
+      "name": "Retaining-ring tools and clean parts tray",
+      "size": "Match original master cylinder"
+    },
+    {
+      "name": "Bleed hose and waste container",
+      "size": "Fit front caliper bleeder"
+    },
+    {
+      "name": "Compressed air and eye protection",
+      "size": "For clearing obstructed passages"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "Exact new front master-cylinder kit",
+      "purpose": "Renew diagram142 kit; piston assembly and circlip explicitly NEW on148"
+    },
+    {
+      "name": "Two new copper union washers",
+      "purpose": "Master hose connection"
+    },
+    {
+      "name": "Fresh DOT4 brake fluid",
+      "purpose": "Internal cleaning/lubrication and refill"
+    },
+    {
+      "name": "Silicone grease",
+      "purpose": "Pushrod end and lever locations marked on141/148"
+    }
+  ],
+  "preflight": [
+    "Use cup and retention diagrams142/148 throughout; all hydraulic parts must be clean.",
+    "Protect eyes and painted/plastic surfaces from fluid."
+  ],
+  "critical_stop_conditions": [
+    "Damaged bore/body, incorrect kit or unseated retaining ring.",
+    "Fluid leakage, persistent air, spongy lever or improper braking."
+  ],
+  "steps": [
+    {
+      "id": "prepare",
+      "title": "Prepare and drain",
+      "instruction": "Secure bike upright with reservoir horizontal; protect paint/plastics. Remove cap, diaphragm and float. Connect bleeder hose to catch container and drain front fluid using the lever/bleeder cycle; discard fluid.",
+      "source_pdf_pages": [
+        108,
+        110,
+        111,
+        141,
+        147
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=108",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=110",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=111",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=141",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=147"
+      ],
+      "depends_on": [],
+      "verification": "Front circuit drained before master removal.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "remove",
+      "title": "Remove master cylinder",
+      "instruction": "Remove lever pivot nut/bolt and lever. Remove hose union and both washers, catching residual fluid under hose and master. Remove holder and master while retaining original location and starter-lead routing.",
+      "source_pdf_pages": [
+        141,
+        147,
+        166
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=141",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=147",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=166"
+      ],
+      "depends_on": [
+        "prepare"
+      ],
+      "verification": "Hose protected; controls and lead not strained.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "strip",
+      "title": "Remove old cylinder kit",
+      "instruction": "Remove pushrod and boot; remove circlip and washer while controlling the spring-loaded piston. Withdraw piston/spring and old cups in diagram142/148 order. Keep the body bore undamaged.",
+      "source_pdf_pages": [
+        142,
+        148
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=142",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=148"
+      ],
+      "depends_on": [
+        "remove"
+      ],
+      "verification": "Old kit removed; all positions identified from exploded view.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "inspect",
+      "title": "Inspect and clean",
+      "instruction": "Replace damaged, scratched or worn master body and damaged reservoir cap. Inspect hose for cracks/damage/wear. Clear blocked body passages with compressed air. Wash body/internal parts with fresh DOT4; never solvent.",
+      "source_pdf_pages": [
+        147
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=147"
+      ],
+      "depends_on": [
+        "strip"
+      ],
+      "verification": "Record inspection; damaged body or hose requires replacement before proceeding.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "cups",
+      "title": "Build replacement piston",
+      "instruction": "Wet the new primary and secondary cups with DOT4 and install in the distinct positions and orientations shown on148. Fit spring with its smaller inside diameter toward piston.",
+      "source_pdf_pages": [
+        142,
+        147,
+        148
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=142",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=147",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=148"
+      ],
+      "depends_on": [
+        "inspect"
+      ],
+      "verification": "Record both cup orientations against148; no reversal or torn lips.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "retain",
+      "title": "Install and retain piston",
+      "instruction": "Lubricate piston assembly and bore with DOT4. Insert new piston assembly, washer and new circlip, then boot and pushrod in diagram148 order. Apply silicone grease to pushrod end; verify circlip is seated.",
+      "source_pdf_pages": [
+        142,
+        148
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=142",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=148"
+      ],
+      "depends_on": [
+        "cups"
+      ],
+      "verification": "Piston retained; boot seated and pushrod located correctly.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "mount",
+      "title": "Mount master and lever",
+      "instruction": "Refit holder with UP upward and reservoir level; preserve starter-lead route through holder. Tighten upper holder bolt first, then lower, both9 Nm. Apply silicone grease at diagram141 lever points; refit lever pivot bolt6 Nm and nut6 Nm.",
+      "source_pdf_pages": [
+        141,
+        148,
+        166
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=141",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=148",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=166"
+      ],
+      "depends_on": [
+        "retain"
+      ],
+      "verification": "Record holder sequence/torques and lever hardware; lever moves freely.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "hose",
+      "title": "Reconnect hose",
+      "instruction": "Use two new copper washers and tighten union30 Nm. Seat hose against master projection with bent portion downward as148/149. Turn bars both ways; hose must not contact wiring, cables or other parts.",
+      "source_pdf_pages": [
+        148,
+        149
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=148",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=149"
+      ],
+      "depends_on": [
+        "mount"
+      ],
+      "verification": "Record washers,30 Nm and full-steering routing check.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "fill",
+      "title": "Fill for bleeding",
+      "instruction": "Fill reservoir above the minimum mark shown on PDF109 with fresh DOT4 and fit diaphragm. Attach a secure clear hose to bleeder, with its free end in a catch container. Keep reservoir supplied throughout; prevent water entry and overflow.",
+      "source_pdf_pages": [
+        108,
+        109,
+        110,
+        146
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=108",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=109",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=110",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=146"
+      ],
+      "depends_on": [
+        "hose"
+      ],
+      "verification": "Reservoir horizontal; correct fluid and sufficient supply.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "bleed",
+      "title": "Remove trapped air",
+      "instruction": "Slowly pump lever several times, then pull fully and hold. Open bleeder; close it before releasing lever. Repeat until hose fluid contains no bubbles, replenishing reservoir. If stubborn tiny bubbles persist, let fluid settle a few hours and repeat.",
+      "source_pdf_pages": [
+        110,
+        111
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=110",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=111"
+      ],
+      "depends_on": [
+        "fill"
+      ],
+      "verification": "Record bubble-free result; never allow reservoir to empty.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "close",
+      "title": "Close the circuit",
+      "instruction": "Tighten bleeder5 Nm and refit its cap. Restore fluid above the minimum mark shown on PDF109 with bike upright and reservoir horizontal. Refit float, diaphragm and cap in diagram141 order; cap screws1.5 Nm. Clean spills immediately.",
+      "source_pdf_pages": [
+        108,
+        109,
+        111,
+        140,
+        141
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=108",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=109",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=111",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=140",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=141"
+      ],
+      "depends_on": [
+        "bleed"
+      ],
+      "verification": "Record final level, bleeder and cap torque; all openings closed.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "verify",
+      "title": "Verify brake function",
+      "instruction": "Apply front brake repeatedly and inspect hose/connections for leaks. Lever must not feel soft or spongy; bleed again if it does. After stationary checks pass, check brake effect on a dry test surface before normal riding. Confirm no lever-end free play and no brake drag.",
+      "source_pdf_pages": [
+        109,
+        110,
+        147,
+        108
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=109",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=110",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=147",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=108"
+      ],
+      "depends_on": [
+        "close"
+      ],
+      "verification": "Record no leaks, firm lever and proper braking; unresolved faults prevent completion.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    }
+  ],
+  "publication_status": "LOCAL_REVIEW_ONLY_NOT_IMPORTED",
+  "reviewed_at": "2026-09-13"
+}

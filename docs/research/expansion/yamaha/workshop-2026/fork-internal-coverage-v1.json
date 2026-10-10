@@ -1,0 +1,196 @@
+{
+  "id": "yamaha-2026-yz450f-fork-internal-coverage-v1",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025"
+  },
+  "visually_reviewed_pdf_pages": [
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178
+  ],
+  "decision": "NOT_RELEASED_AS_COMPLETE_INTERNAL_SERVICE",
+  "complete_bounded_operation": "fork-remove-refit-v1.procedure.json",
+  "internal_source_available": true,
+  "requirements": [
+    {
+      "category": "Special tools",
+      "items": [
+        "Cap bolt ring wrench90890-01501 / YM-01501",
+        "Cap bolt wrench90890-01911",
+        "Fork seal driver90890-01917 / YM-A0948 (48)",
+        "Dial gauge and suitable support for tube bend check",
+        "Oil-level measuring/suction tool; ruler; accurate volume measure",
+        "Seal-lip protective film and clean work area"
+      ],
+      "pdf_pages": [
+        169,
+        170,
+        172,
+        174,
+        175
+      ]
+    },
+    {
+      "category": "Renewals",
+      "items": [
+        "Inner-tube/piston bushing",
+        "Slide metal",
+        "Oil seal",
+        "Dust seal",
+        "Copper washer",
+        "O-rings marked NEW in exploded view; exact part inventory still needs component mapping"
+      ],
+      "pdf_pages": [
+        168,
+        171,
+        173,
+        174,
+        175,
+        176
+      ]
+    },
+    {
+      "category": "Fluids and lubrication",
+      "items": [
+        "Yamaha Suspension Oil S1",
+        "Lithium-soap grease on dust/oil seal lips; locations preserved in diagram",
+        "LOCTITE on adjuster-to-inner-tube thread; grade not given by this source section"
+      ],
+      "pdf_pages": [
+        173,
+        174,
+        175,
+        177
+      ]
+    },
+    {
+      "category": "Separate oil compartments",
+      "items": [
+        {
+          "compartment": "Damper assembly initial fill",
+          "value": 216,
+          "unit": "cm3",
+          "condition": "Fully extend damper assembly before filling; subsequently bleed, set level and purge overflow; not final outer-fork fill."
+        },
+        {
+          "compartment": "Damper oil level",
+          "value": [
+            145,
+            148
+          ],
+          "unit": "mm",
+          "condition": "Distance from top of fully extended damper assembly; left and right matched."
+        },
+        {
+          "compartment": "Outer fork fill",
+          "value": 280,
+          "unit": "cm3",
+          "condition": "After assembled damper is installed and adjuster secured; factory standard."
+        },
+        {
+          "compartment": "Outer adjustment range",
+          "value": [
+            260,
+            365
+          ],
+          "unit": "cm3",
+          "condition": "Range is not a direction to choose a nonstandard fill during a baseline service."
+        },
+        {
+          "compartment": "Approximate purge overflow",
+          "value": 10,
+          "unit": "cm3",
+          "condition": "Approximate observation during purge, not an independent subtract-this dosing instruction."
+        }
+      ],
+      "pdf_pages": [
+        171,
+        172,
+        173,
+        177
+      ]
+    },
+    {
+      "category": "Bleed/verification dependencies",
+      "items": [
+        "Initial slow pumping before base valve installation; source stroke wording requires careful resolution noted below.",
+        "Measure/set oil level before base valve insertion.",
+        "Finger-tighten locknut; base valve inserted with prescribed rod-pressure motion.",
+        "Verify full extension; repeat fill/bleed if extension incomplete.",
+        "Base valve28 N\u00b7m; adjuster-knob screw0.6 N\u00b7m.",
+        "After base valve installation pump more than10 times, then protected full-compression overflow purge and drain overflow hole.",
+        "Verify smooth damper motion; repeat sequence if binding."
+      ],
+      "pdf_pages": [
+        171,
+        172,
+        173
+      ]
+    },
+    {
+      "category": "Mechanical stack and final gaps",
+      "items": [
+        "Oil-seal numbered face points downward; protect lip during installation.",
+        "Seat slide metal/washer/seal; stopper groove must be fully visible and ring seated.",
+        "Upper spring seat larger diameter toward spring.",
+        "Damper-assembly bottom to locknut bottom at least16 mm before adjuster assembly.",
+        "With rebound control fully loosened, fit rod/new copper washer/adjuster and verify0.5\u20131.0 mm adjuster-to-locknut gap before holding locknut and tightening29 N\u00b7m.",
+        "Adjuster-to-inner-tube55 N\u00b7m with specified locking agent; outer fill follows; damper assembly-to-outer-tube30 N\u00b7m on refit."
+      ],
+      "pdf_pages": [
+        173,
+        174,
+        175,
+        176,
+        177
+      ]
+    }
+  ],
+  "unresolved_before_internal_runtime_release": [
+    {
+      "id": "bleed-stroke-wording",
+      "pdf_page": 172,
+      "detail": "Main text says approximately200 mm initial pumping; immediately adjacent TIP says200 mm or more admits air. Do not silently encode200 mm as a safe exact stroke. A clarified operational bound/technique must be recorded before automated guidance."
+    },
+    {
+      "id": "rod-pressure-technique",
+      "pdf_page": 172,
+      "detail": "Base-valve insertion calls for maximum damper-rod pressure followed by releasing that pressure, without a numerical pressure or a clear text-only motion description. Do not invent psi or a gas charge; component/tuner demonstration or clarified OEM procedure needed for novice-friendly instruction."
+    },
+    {
+      "id": "locking-agent-specificity",
+      "pdf_page": 177,
+      "detail": "OEM specifies LOCTITE without grade or cure/preparation details here. Exact suitable product/application must be resolved or explicitly supplied by applicable service evidence; no guessed243/271."
+    },
+    {
+      "id": "service-kit-map",
+      "pdf_page": 168,
+      "detail": "Exploded view shows multiple NEW sealing items. Confirm exact component parts/kit applicability and every seal location before claiming a complete purchase-ready rebuild kit."
+    }
+  ],
+  "external_gas_charge": "No external gas-charge step or pressure is specified in this OEM fork service section. Do not import a shock nitrogen value.",
+  "scope_exclusions": [
+    "No valve-stack revalving or shim-stack changes",
+    "No altered spring/aftermarket cartridge compatibility inference",
+    "No repaired status merely from fact extraction"
+  ],
+  "checked_at": "2026-09-13T19:16:08.910346+00:00"
+}

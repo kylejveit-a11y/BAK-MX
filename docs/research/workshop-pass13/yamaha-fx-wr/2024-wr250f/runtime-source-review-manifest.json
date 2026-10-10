@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED",
+  "author_review_manifest": {
+    "path": "docs/research/workshop-pass13/yamaha-fx-wr/remaining-source-review-manifest.json",
+    "sha256": "bc4e3edde3431826bf31c64f7c859fabdb46324f5fb0cf4ac8ea21b1f54e6b90"
+  },
+  "sources": [
+    {
+      "id": "yamaha-us-2024-wr250f-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BAK-2819U-14_02.pdf",
+      "sha256": "bf7343a8b0faccea80f47dd1f415a2ba91977cbc86fd0b6a913b2e61fe331230",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\bakmx-pass13\\BAK-2819U-14.pdf"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "fork-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2024-wr250f-oem",
+      "sha256": "dbb2560bafc12f4377bef2f473c9cac1e8eb58c19597ba84d741074aa0808b66",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 6
+    },
+    {
+      "path": "shock-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2024-wr250f-oem",
+      "sha256": "d8e22c2cd48a96a6d148a3e485baf42d0529889b6b3283a280b8bb544108ecad",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 6
+    },
+    {
+      "path": "rider-sag-preload-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2024-wr250f-oem",
+      "sha256": "f98b074a4bc927052d44186b7e6dc0431f479b0b87265d3c20d9625480ea1b16",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 7
+    }
+  ]
+}

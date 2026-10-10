@@ -1,0 +1,46 @@
+{
+  "status": "YAMAHA_EXPANSION_PASS_SAVED_WITH_EXPLICIT_GAPS",
+  "requested_scope": "Ten planned adult Yamaha families; 2020 through latest released exact US model-year, as far as evidence supports; document gaps without a measured completion claim",
+  "baseline_commit": "7ec15d0790b53ef3756ffbdc505641ecfec962c4",
+  "runtime_guides_at_start": 120,
+  "new_guides_integrated": 174,
+  "lanes": [
+    "yz450f",
+    "yz250f",
+    "yamaha-two-stroke",
+    "yamaha-fx-wr",
+    "yamaha-roster"
+  ],
+  "source_files": "OEM PDFs and renders remain temporary; discovery records and factual adaptations retained",
+  "database_writes": false,
+  "review_policy": "Candidates cannot enter runtime before independent source review; missing workflow authoring is unfinished work, not evidence unavailability",
+  "runtime_guides_current": 294,
+  "new_integrated_scope": "All planned Yamaha stock setup batches, YZ2502020\u20132027 prepared-engine modules, and individually approved YZ250F engine/head modules.",
+  "latest_integration_checks": "Final generator and source validators PASS",
+  "active_work": "No agents remain active at final handoff. Continue remaining engine/frame/internal-fork/internal-shock authoring from exact-year gaps; do not restart.",
+  "whole_bikes_complete": 0,
+  "runtime_steps_current": 6265,
+  "planned_exact_year_targets": 80,
+  "current_checks": {
+    "root_tests": 126,
+    "mobile_tests": 12,
+    "root_typecheck": "PASS",
+    "mobile_typecheck": "PASS",
+    "web_build": "PASS_WITH_BUNDLE_SIZE_WARNING",
+    "ios_export": "PASS",
+    "android_export": "PASS",
+    "physical_workshop_validation": false,
+    "database_readback": false,
+    "database_writes": false,
+    "checked_library_guides": 294
+  },
+  "new_steps_integrated": 1454,
+  "targets_with_reviewed_guides": 77,
+  "report": "docs/WORKSHOP_PASS13_20260914.md",
+  "progress": "docs/research/workshop-pass13/YAMAHA_PROGRESS.json",
+  "missing_exact_current_manuals": [
+    "2027 YZ450FX",
+    "2027 WR250F",
+    "2027 WR450F"
+  ]
+}

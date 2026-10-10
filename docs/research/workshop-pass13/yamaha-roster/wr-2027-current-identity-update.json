@@ -1,0 +1,21 @@
+{
+  "status": "RESOLVED_NEW_PRODUCT_IDS",
+  "observed_at": "2026-09-14",
+  "homepage": "https://www.yamahamotorsports.com/",
+  "new_sources": [
+    {
+      "url": "https://www.yamahamotorsports.com/models.php?action=productPage&product=482",
+      "title": "2027 WR450F\n    Yamaha Motorsports, USA",
+      "response_sha256": "fda9ebcceb008616ad90e1be3783e10bb097be11f51a54c2f0985b857c027996",
+      "scope": "Individual official US2027 marketed identity only; service manual not recovered."
+    },
+    {
+      "url": "https://www.yamahamotorsports.com/models.php?action=productPage&product=483",
+      "title": "2027 WR250F\n    Yamaha Motorsports, USA",
+      "response_sha256": "47bafbfe7c6a43d5de5ba97c426543aeee8e17754920c77a0969dce05ce220f6",
+      "scope": "Individual official US2027 marketed identity only; service manual not recovered."
+    }
+  ],
+  "explanation": "Earlier individually inspected IDs395/396 are2026 pages. Current homepage points to new IDs482/483 with exact2027 titles, so2027 identities are confirmed without treating historical2026 pages as conflicting specifications.",
+  "manual_status": "UNRECOVERED_NO_YEAR_INHERITANCE"
+}

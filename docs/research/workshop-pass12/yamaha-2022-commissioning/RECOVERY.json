@@ -1,0 +1,38 @@
+{
+  "status": "APPROVED_NINE_OPERATIONS",
+  "scope": "Exact US2022 standard YZ450F, no cross-year operational inheritance",
+  "approved": [
+    {
+      "folder": "yamaha-2022-suspension",
+      "guides": 4,
+      "steps": 74,
+      "manifests": [
+        "runtime-source-review-manifest.json",
+        "fork-runtime-source-review-manifest.json"
+      ]
+    },
+    {
+      "folder": "yamaha-2022-brakes",
+      "guides": 4,
+      "steps": 54,
+      "manifests": [
+        "runtime-source-review-manifest.json"
+      ]
+    },
+    {
+      "folder": "yamaha-2022-commissioning",
+      "guides": 1,
+      "steps": 32,
+      "manifests": [
+        "runtime-source-review-manifest.json"
+      ]
+    }
+  ],
+  "validation": "All own approved validators passed. Root independent review bound to frozen artifact hashes. No DB/shared code edited.",
+  "remaining": [
+    "Root integration and full app checks owned by root.",
+    "2022 engine continuous journeys owned by engineagent using approved32 companion.",
+    "Frame renewal independent peer review pending author candidate.",
+    "Stock internal shock service evidence remains unresolved; oilcheckbolt exact closure and tank-cleaning/fit/alljoint companion dependencies explicit."
+  ]
+}

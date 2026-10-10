@@ -1,0 +1,52 @@
+{
+  "status": "AUTHOR_REVIEWED_PENDING_PEER",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ250",
+    "model_year": 2020,
+    "region": "US",
+    "variant": "standard"
+  },
+  "source_sha256": "112713a7256a234953896fb34d9ddfd308a897c1c623fe29f95a344080a4ce2e",
+  "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf",
+  "text_pages_reviewed": [
+    1,
+    9,
+    33,
+    35,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122
+  ],
+  "rendered_pages_reviewed": [
+    109,
+    111,
+    114,
+    115,
+    116,
+    118,
+    119,
+    120,
+    121,
+    122
+  ],
+  "differences": [
+    "Head loosening quarter turn; pushrod/housing5Nm.",
+    "Bore66.500 wear/taper0.050; mean-versus-max conflict retained external assessment.",
+    "Pistonclearance0.100 limit; ringgap0.40-0.55 standard.",
+    "PinOD17.995-18.000 standard plus two free-play checks, no inherited pinboreID numerical check.",
+    "Basegasket printtowardcase and oilbigend bearings/washers; newer explicit pushrodLS not inherited."
+  ],
+  "conflict": "Exact 2020 PDF114 prose says average bore measurements while its formula says C = maximum Aa-Cb. A qualified exact-source bore/clearance disposition must resolve the method before assembly; this guide records the conflict and never chooses a hidden method."
+}

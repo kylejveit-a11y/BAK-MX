@@ -1,0 +1,26 @@
+{
+  "access": {
+    "artifact": "docs/research/workshop-pass12/yamaha-2022-frame/engine-removal-refit-v1.procedure.json",
+    "sha256": "cbf8d699bd55eea9bd8d5ba98c459829dc8aa94110736340679fc3b4f5f2244a"
+  },
+  "topend": {
+    "artifact": "docs/research/workshop-pass12/yamaha-2022-engine/top-end-bench-v1.procedure.json",
+    "sha256": "b8ef616901d5dc9a45dc7fce825602238014c879d224234d92d0893d8c2ed1b7"
+  },
+  "lower": {
+    "artifact": "docs/research/workshop-pass12/yamaha-2022-engine/lower-engine-bench-v1.procedure.json",
+    "sha256": "7f00ea163b0867b3e60b19246aba36af5bfb75b63e12266829ca0cac2da8fba4"
+  },
+  "commission": {
+    "artifact": "docs/research/workshop-pass12/yamaha-2022-commissioning/post-rebuild-commissioning-v1.procedure.json",
+    "sha256": "8a32d6216ba22e82295a4c51966c0d0a82717d530e6177d2b56cad9086183bd8"
+  },
+  "corrected_lower": {
+    "artifact": "docs/research/workshop-pass12/yamaha-2022-engine-journey/lower-engine-bench-v1-corrected.procedure.json",
+    "sha256": "be37758b69aa7a849f001a7ce16494cf71f0274c0eccbc756906108aa88e51d4"
+  },
+  "journey": {
+    "artifact": "docs/research/workshop-pass12/yamaha-2022-engine-journey/top-end-bike-journey-v1.procedure.json",
+    "sha256": "f9207a0cd26f1412979f3100584a362bcc6653119dde5bae3c43660fb7f4a6a3"
+  }
+}

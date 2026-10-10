@@ -1,0 +1,39 @@
+{
+  "status": "APPROVED",
+  "reviewer": "root",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2025,
+    "region": "US",
+    "variant": "standard"
+  },
+  "source_sha256": "5005e7d8492c9482dfe44c6d752609a9a70a836f5b1dc94be3149d5d493de8ac",
+  "reviewed_candidate_sha256": "1c905af3b1a5a18d7cf9963a9ac9d847e590477bbe9e42b697c96b59fc6218f3",
+  "artifacts": [
+    {
+      "path": "major-engine-bike-journey-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "22767c0cf087c4aaa37a7ac055b6ac5beecf7e71d12dadd2b1723740d3e06d3e",
+      "source_id": "yamaha-2025-d02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 214
+    }
+  ],
+  "checks": [
+    "214-step order and mechanical composition changes reviewed",
+    "Piston removal then lower teardown/refit then top-end assembly",
+    "Generator closure before cams; matched crank/chain/cam requirements preserved",
+    "New filter closure; 1.20 L disassembled initial fill and 0.96 L subsequent filter service",
+    "Protective cloth accounted before cases opened and closed",
+    "Exact PDF40 crank/gear break-in groups and explicitly conservative overlap",
+    "External actual-work dependencies and retained-system exclusions remain visible"
+  ],
+  "physical_validation": false
+}

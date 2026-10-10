@@ -1,0 +1,11 @@
+import {useState} from 'react';
+import type {Bike} from '../shared/types';
+import {archivedWorkText} from '../shared/workshop-backup';
+import {browserWorkshopBackup,restoreBrowserWorkshop} from './workshopRecoveryStorage';
+
+export function WorkshopRecovery({bike,onRestored}:{bike:Bike;onRestored:(message:string)=>void}){
+ const [notice,setNotice]=useState(''),[history,setHistory]=useState<string[]>([]);
+ function download(){try{const backup=browserWorkshopBackup(bike),url=URL.createObjectURL(new Blob([JSON.stringify(backup,null,2)],{type:'application/json'})),link=document.createElement('a');link.href=url;link.download=`bakmx-workshop-${bike.id}.json`;link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);setNotice('Keep this backup outside the browser.');}catch(e){setNotice((e as Error).message);}}
+ async function restore(file:File){try{if(file.size>5_000_000)throw Error('Choose a workshop backup smaller than 5 MB.');const restored=restoreBrowserWorkshop(await file.text(),bike);onRestored(`Workshop restored: ${restored.journals.length} journals, ${restored.procedures.length} guide runs and ${restored.archived.length} historical records. Existing work was preserved.`);}catch(e){setNotice((e as Error).message);}}
+ return <section className="panel"><h2>Back up and recover your workshop</h2><p>Move records between devices using the same account and original Garage bike. Recovery adds work; conflicting versions remain readable as history.</p>{notice&&<p role="status" className="notice">{notice}</p>}<div className="button-row"><button className="button secondary" onClick={download}>Export workshop backup</button><label className="field"><span>Import workshop backup</span><input type="file" accept="application/json,.json" onChange={event=>{const file=event.target.files?.[0];if(file)void restore(file);event.target.value='';}}/></label><button className="button secondary" onClick={()=>{try{const records=browserWorkshopBackup(bike).archived;setHistory(records.map(archivedWorkText));setNotice(records.length?'Historical records are read-only.':'No imported historical records for this bike.');}catch(e){setNotice((e as Error).message);}}}>Read imported history</button></div>{history.map((text,i)=><details key={i}><summary>Historical record {i+1}</summary><p className="plain-message">{text}</p></details>)}</section>;
+}

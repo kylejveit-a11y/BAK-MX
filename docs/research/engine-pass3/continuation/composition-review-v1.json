@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "status": "SOURCE_REVIEWED_COMPOSITION",
+  "procedure_id": "yamaha-2026-yz450f-top-end-stock-reuse-v1",
+  "source_index_sha256": "9c52fcb918dc8c2219248bfd187d88d8d08346621b1c074486e58128cd19782b",
+  "step_count": 132,
+  "phase_count": 9,
+  "adaptations": [
+    {
+      "step_id": "engine-out--initial-record",
+      "reason": "Context changed from engine-assembly removal to source-composed top-end operation; no mechanical values changed.",
+      "original_instruction": "Record the exact stock engine identity, running condition and reason for removal. Photograph hose, electrical and bracket routing before access. Prepare an independently supported engine bench and a controlled lift with a helper; this guide removes/installs the assembly and does not repair its internals."
+    },
+    {
+      "step_id": "cams-in--entry",
+      "reason": "Connects the installation cutpoint to the existing removed-engine state.",
+      "original_instruction": "Head, valves, original-position pads/lifters and cylinder are assembled and verified. Crankcases, rotor and left cover are installed with readable timing marks. Cams/tensioner are inspected and stock. Rotate the crankshaft counterclockwise by hand to align rotorTDC with its cover reference before cam installation."
+    },
+    {
+      "step_id": "cams-in--remeasure",
+      "reason": "First measurement now feeds the source-reviewed adjustment contingency instead of an unconditional closure.",
+      "original_instruction": "At the verified TDC position and with the engine still at room temperature, measure between each cam lobe and its lifter. Record all four results. Each intake must be 0.10\u20130.17 mm; each exhaust must be 0.15\u20130.22 mm. An unresolved boundary or out-of-range result is not a completed adjustment."
+    },
+    {
+      "step_id": "clearance-adjust--adjustment-scope",
+      "reason": "Reuses the reviewed v3 all-in-range branch after the composite initial timing/measurement; explicit destination is the shared cover closure.",
+      "original_instruction": "Compare the recorded readings with the intake and exhaust ranges. Continue into cam removal only for a definite out-of-range reading with otherwise serviceable stock valve-train components. If all four already meet specification, use the inspection procedure closure without changing pads. Uncertain measurements must be resolved before selecting a pad."
+    },
+    {
+      "step_id": "clearance-adjust--remeasure",
+      "reason": "Makes the final adjustment failure state explicit; no backward loop or false completion is implied.",
+      "original_instruction": "At the verified TDC position and with the engine still at room temperature, measure between each cam lobe and its lifter. Record all four results. Each intake must be 0.10\u20130.17 mm; each exhaust must be 0.15\u20130.22 mm. An unresolved boundary or out-of-range result is not a completed adjustment."
+    },
+    {
+      "step_id": "engine-in--bench-record",
+      "reason": "Replaces the standalone interface guide\u2019s separate-job placeholder with this composite\u2019s actual internal inspection record.",
+      "original_instruction": "Record whether the same unopened assembly is returning or a separate documented internal rebuild has been completed. Inspect mounting brackets, bolts and contact surfaces. This guide cannot certify internal timing, bearing clearances or clutch/gearbox assembly; retain that separate job record before installation. For a rebuilt engine, verify its prescribed pre-start clearances, timing and free-rotation checks are complete before engine-in."
+    },
+    {
+      "step_id": "engine-in--final-checks",
+      "reason": "Final completion names the actual composite scope.",
+      "original_instruction": "Follow the oil-level procedure with the bike upright: warm oil to normal operating temperature, run for 10 seconds, stop and allow a few minutes to settle; level must be between window minimum and maximum mark. Check leaks, normal clutch/brake operation, throttle free play 3\u20136 mm and full return; turn the bars both ways and verify idle does not change. Record all mount torques, fluid quantities, chain slack and unresolved symptoms. Engine installation completion does not substitute for an internal rebuild record."
+    },
+    {
+      "step_id": "head-in--repair",
+      "reason": "Independent composition review removed inherited head-machining/valve-guide replacement directions because the composite explicitly retains the original serviceable head and valve train.",
+      "original_instruction": "The retained-head path requires satisfactory head/valve inspection. If head repair, valve/guide replacement or cylinder/piston service is needed, complete and document that work before proceeding. OEM describes400\u2013600-grit figure-eight resurfacing on a surface plate, rotating the head for even removal, but gives no maximum material-removal depth here; do not invent a skim allowance."
+    }
+  ],
+  "branch": {
+    "id": "within-range",
+    "label": "All four readings are in range \u2014 close up",
+    "next_step": "cams-in--cover-install",
+    "condition": "All four just-recorded cold readings are within intake0.10\u20130.17mm and exhaust0.15\u20130.22mm; no additional cam/tensioner/pad work is needed."
+  },
+  "additional_adjustment_steps_skipped_when_in_range": [
+    "clearance-adjust--tensioner-remove",
+    "clearance-adjust--cams-remove",
+    "clearance-adjust--cams-condition",
+    "clearance-adjust--tensioner-check",
+    "clearance-adjust--pads-remove",
+    "clearance-adjust--pads-select",
+    "clearance-adjust--pads-install",
+    "clearance-adjust--cams-install",
+    "clearance-adjust--caps-install",
+    "clearance-adjust--tensioner-install",
+    "clearance-adjust--tensioner-release",
+    "clearance-adjust--timing-verify",
+    "clearance-adjust--remeasure"
+  ],
+  "frozen_source_artifacts_unchanged": true,
+  "review_checks": [
+    "Engine-out before cams/head; refit only after accepted internal timing/measurements.",
+    "Rotor/left cover retained throughout top-end route for timing marks.",
+    "Head and cylinder removal/refit cutpoints separated around bench inspections.",
+    "Extra cam/tensioner/pad work bypassed explicitly only for four accepted initial cold readings.",
+    "Second clearance measurement must pass before shared closure.",
+    "Clutch-basket nut untouched; full bottom-end conflict does not authorize changing that nut."
+  ]
+}

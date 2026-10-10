@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED",
+  "reviewer": "/root",
+  "artifact_sha256": "15a08ca72cf2c86a03d4458dd6ecc501b44738cc2fc4b817d560e1f3fe354d1e",
+  "reviewed_candidate_sha256": "fcbc7ca657a4e55609442404e2c5bfa99fcfc63dc1e573adffdc7c9b34fef1b7",
+  "approval_only_change": "Publication and source status only; all47 mechanical instructions unchanged.",
+  "source_sha256": "6e784b3b15fe1e131f0e385676ca2873e74d783ee2499ce561e595bcea9ca9be",
+  "reviewed_steps": "All47 instructions and verification reviewed, including complete middle and changed exact2024 mechanics.",
+  "text_pages": [
+    244,
+    245,
+    246,
+    250,
+    253,
+    257,
+    260,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    274,
+    275,
+    276,
+    277
+  ],
+  "visual_pages": [
+    247,
+    248,
+    250,
+    258,
+    261,
+    262,
+    266,
+    267,
+    268
+  ],
+  "findings": [],
+  "review_notes": [
+    "Primary120Nm engine oil, clutch105Nm LOCTITE without extra spacer verified.",
+    "Shift seal0–0.1mm LS; crank-only M; circlips and blue-mark clutch plate order verified.",
+    "Gear stacks, forks, shaft0.08mm/crank0.03mm limits, crank width61.93–62mm, case30/12LT and drive seal0.5mm verified.",
+    "Existing bounded scope exclusions preserved. No2025 shift-seal grease erratum: withdrawn tiny-icon misreading;2025 LS confirmed."
+  ]
+}

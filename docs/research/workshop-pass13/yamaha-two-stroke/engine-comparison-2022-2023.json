@@ -1,0 +1,338 @@
+{
+  "status": "AUTHOR_REVIEWED_PENDING_PEER",
+  "reference_sha256": "79dc2b20faec6f0040fea0606a193af63b1e15e6f5f8e57cc4dad1905dec13d5",
+  "targets": [
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "source_sha256": "7e35f5a2255910883c8d285ab17b4c8df93b6bd5f5bce169f961739f7eac772b",
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BCR-2819U-10_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\BCR-2819U-10_02.pdf",
+      "pages": [
+        {
+          "pdf_page": 166,
+          "reference_pdf_page": 176,
+          "text_sha256": "8ac722febd424a38f555ceee42b6e1de201d7c8acfce064c0ed14ba6fa9102de",
+          "reference_text_sha256": "6da058ebaa42fdbb62aa11a50df471e140f8c17c8e3854cd2405530a0303d7b9",
+          "normalized_text_equal": false,
+          "normalized_similarity": 0.5858,
+          "render_pixel_sha256": "26f83144256189cab89ec9f02acda30232198192d2c703933bee62601fd86191",
+          "reference_render_pixel_sha256": "c547bccd45da6e5ed5ae80acfcb84f121f6fd8d7a4ed6b008cc9d9a97cfac998",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 167,
+          "reference_pdf_page": 177,
+          "text_sha256": "3bbe291ecac816c638618a48863c74700df1f20e96d0be789db66e62b5bc1f73",
+          "reference_text_sha256": "ae1ea7ded4a227aa7558793c036ee740623c30faf3a7dafb0be024a72715cbc7",
+          "normalized_text_equal": false,
+          "normalized_similarity": 0.59,
+          "render_pixel_sha256": "44107066934e8ef3f2694a779b99bdfc2c4dd80a84604886aed25a88a04d7331",
+          "reference_render_pixel_sha256": "45198df776f66e2c6efe93dcc4c491bb2a5ab88461c461febfec3276ba88e625",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 168,
+          "reference_pdf_page": 178,
+          "text_sha256": "b8df2c232b6cd5514c299a3bf4c62977fc4897180d7e76982eceab162aa56680",
+          "reference_text_sha256": "98c7cd741772050b18bd8378521725b88ef45a5104cc961a7f9cade777b079d1",
+          "normalized_text_equal": false,
+          "normalized_similarity": 0.9016,
+          "render_pixel_sha256": "20805a8dc678ceef08341ff0a0586169a4c888248a77739c7b9a65c31953fbce",
+          "reference_render_pixel_sha256": "b2a933d2d72f8d4fd581738838a087525892de616f8a5796be858d6dcf887155",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 169,
+          "reference_pdf_page": 179,
+          "text_sha256": "3b801666df4fa4f1e55cf6c027265fd7891895abe6234ffbd0655fcbbe12c6dc",
+          "reference_text_sha256": "b6db2fc21853878add1196622713dd7d1b16e6e48fddce590f708af7fab5db34",
+          "normalized_text_equal": false,
+          "normalized_similarity": 0.8566,
+          "render_pixel_sha256": "7fbcc9307130025cd58f0cb31e779805d3c3099648d50050fdbf02b5571935b6",
+          "reference_render_pixel_sha256": "9ce15d8f3f54e6d7aa6912164cd146a1b2683c4830be86d152a6aa26557d1098",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 170,
+          "reference_pdf_page": 180,
+          "text_sha256": "0bdde9973b22a68e73a42888b8c4e1be38ee19670b0f6127776faf6ce2e47ade",
+          "reference_text_sha256": "8c705af09d28d83c2b927d1c9020df857a9bbbaca51c3f7ac0930a7c2e8aefac",
+          "normalized_text_equal": false,
+          "normalized_similarity": 0.5908,
+          "render_pixel_sha256": "b9fc2e05fbb211fb4c85c7f5c4b5ce6362644d91717cc9a9e79372c0363587d1",
+          "reference_render_pixel_sha256": "854d097e1a4d64966ea0877b255207d25f854af12bb25be804d318d2dae923b7",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 171,
+          "reference_pdf_page": 181,
+          "text_sha256": "db42ae09dcb8e76727acb1ef7df3153a16399e2ffa9bd46054efc3257d0b7749",
+          "reference_text_sha256": "aaec4665e931b7207bc52c39bc1e4db421f16f073981f837b324cb6714d0786e",
+          "normalized_text_equal": false,
+          "normalized_similarity": 0.4814,
+          "render_pixel_sha256": "ad9d166c978a1e0d3ccb3402279e185ac768032327c1295efb33252315954870",
+          "reference_render_pixel_sha256": "3576c7ab192ebc14fafd28c1295dc857bdbe62e4dc945c82c58ba226af2e4f00",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 172,
+          "reference_pdf_page": 182,
+          "text_sha256": "f9f9672f87dfc9d5c33238bf1b8e26f2f4dd0ab63dfc414c764d79a20b797dba",
+          "reference_text_sha256": "7c04852b4d8b4a3c9fe5ffe73a5c5e92bf6939ad05b3df77bffb2f6e8b52ff7a",
+          "normalized_text_equal": false,
+          "normalized_similarity": 0.3196,
+          "render_pixel_sha256": "013e8ba2a392634f88e09140e994224721b094ee1257b486e58d98458834e13b",
+          "reference_render_pixel_sha256": "02ee1d3d541cead40c08dac4c8d1a1fbbc64931dc5672a037fc9488c0ce60fd1",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 173,
+          "reference_pdf_page": 183,
+          "text_sha256": "ce51e120cc950e19065a7fcdb5246d1301035e8ceb0344cf594782eb15462837",
+          "reference_text_sha256": "fe3c9c7113c6aa33e8c1ae2579d7ae554a32ca991ce0a5ae5311321daa68b889",
+          "normalized_text_equal": false,
+          "normalized_similarity": 0.7855,
+          "render_pixel_sha256": "435386a83514d719635caeefb3a789605c278a01a95a570d577c47b74f1e83a5",
+          "reference_render_pixel_sha256": "dca02de7be9b230008d07827a0519b54417bf0018112e00599e24eb314a9e6c6",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 174,
+          "reference_pdf_page": 184,
+          "text_sha256": "b41656eb0e853c7cb905ad8c81826f2fd01f065011837a22b5201a761c3e3200",
+          "reference_text_sha256": "28da27241dccb42dbfe759597864a0306aa7022c711f72664bf2825452507602",
+          "normalized_text_equal": false,
+          "normalized_similarity": 0.7748,
+          "render_pixel_sha256": "852d5c3fa4748ef1d0c310e56ccd2ef5b3a6905a15d69a864609489572ce74db",
+          "reference_render_pixel_sha256": "0eb32fd47f591e543e0fff8160b2bab44cdbf9237a90a3bc4580843ce0f5ba12",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 175,
+          "reference_pdf_page": 185,
+          "text_sha256": "73e59d450b06c92b4f9f38e8f9a23110c732faa349578453309db531a93b577c",
+          "reference_text_sha256": "fd5b8fcd5f127359d0054364c327265d1aac0879b83744b075e28dffeae7b02d",
+          "normalized_text_equal": false,
+          "normalized_similarity": 0.8156,
+          "render_pixel_sha256": "7f18dbdc5809fc0d531f08310033ae11b953885d6ac6c2ec262e92228c7a495c",
+          "reference_render_pixel_sha256": "4dc2ae1a53e93aa032efa98027c3a7fff616fc3724e2f5930a71ff47c7abfe4c",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 176,
+          "reference_pdf_page": 186,
+          "text_sha256": "d120c2c0ba4f7340a297dd585b041dc1c9b712702cfaf40384b00c5f4296b89b",
+          "reference_text_sha256": "53dbf2f14bd4e53f40203c7c7b7330d7f63d93a5ffa2caf7ebf6c71265069d85",
+          "normalized_text_equal": false,
+          "normalized_similarity": 0.7355,
+          "render_pixel_sha256": "5471818964da0a721b3517e35ef5dd624f05052aa76dc8228ad63525c17dea24",
+          "reference_render_pixel_sha256": "fed0666abfe670854fc4e1c0cca1851319ee26fc02ec923a2b57a71812c84158",
+          "render_pixels_equal": false
+        }
+      ],
+      "author_review_status": "REVIEWED_EXACT_SOURCE",
+      "text_pages_reviewed": [
+        7,
+        41,
+        42,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176
+      ],
+      "rendered_pages_reviewed": [
+        166,
+        167,
+        170,
+        173,
+        175,
+        176
+      ],
+      "findings": [
+        "Exact2022/2023 mechanical text compared per page against fully read2024 chapter; changes are extraction bullets, wrapping and page break boundaries, not new numerical requirements.",
+        "Valve lever/pulley torque text starts173 while movement/diagram continues174; both pages explicitly linked. Pushrod installation heading begins175, procedure/diagram176; both linked.",
+        "Exact head/YPVS exploded, grade geometry, shaft spring stack and piston/head assembly diagrams visually reviewed.",
+        "Cooling spec remains1.20L and93.3-122.7kPa, outside bench closure; exactNGKBR8EG/.5-.6 confirmed41."
+      ]
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "source_sha256": "5987b96f081f7c33d155d566ee0cdf7a9a7082e05a4270320d06847e43483659",
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BCR-2819U-11_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\BCR-2819U-11_02.pdf",
+      "pages": [
+        {
+          "pdf_page": 166,
+          "reference_pdf_page": 176,
+          "text_sha256": "8ac722febd424a38f555ceee42b6e1de201d7c8acfce064c0ed14ba6fa9102de",
+          "reference_text_sha256": "6da058ebaa42fdbb62aa11a50df471e140f8c17c8e3854cd2405530a0303d7b9",
+          "normalized_text_equal": false,
+          "normalized_similarity": 0.5858,
+          "render_pixel_sha256": "26f83144256189cab89ec9f02acda30232198192d2c703933bee62601fd86191",
+          "reference_render_pixel_sha256": "c547bccd45da6e5ed5ae80acfcb84f121f6fd8d7a4ed6b008cc9d9a97cfac998",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 167,
+          "reference_pdf_page": 177,
+          "text_sha256": "3bbe291ecac816c638618a48863c74700df1f20e96d0be789db66e62b5bc1f73",
+          "reference_text_sha256": "ae1ea7ded4a227aa7558793c036ee740623c30faf3a7dafb0be024a72715cbc7",
+          "normalized_text_equal": false,
+          "normalized_similarity": 0.59,
+          "render_pixel_sha256": "44107066934e8ef3f2694a779b99bdfc2c4dd80a84604886aed25a88a04d7331",
+          "reference_render_pixel_sha256": "45198df776f66e2c6efe93dcc4c491bb2a5ab88461c461febfec3276ba88e625",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 168,
+          "reference_pdf_page": 178,
+          "text_sha256": "b8df2c232b6cd5514c299a3bf4c62977fc4897180d7e76982eceab162aa56680",
+          "reference_text_sha256": "98c7cd741772050b18bd8378521725b88ef45a5104cc961a7f9cade777b079d1",
+          "normalized_text_equal": false,
+          "normalized_similarity": 0.9016,
+          "render_pixel_sha256": "20805a8dc678ceef08341ff0a0586169a4c888248a77739c7b9a65c31953fbce",
+          "reference_render_pixel_sha256": "b2a933d2d72f8d4fd581738838a087525892de616f8a5796be858d6dcf887155",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 169,
+          "reference_pdf_page": 179,
+          "text_sha256": "3b801666df4fa4f1e55cf6c027265fd7891895abe6234ffbd0655fcbbe12c6dc",
+          "reference_text_sha256": "b6db2fc21853878add1196622713dd7d1b16e6e48fddce590f708af7fab5db34",
+          "normalized_text_equal": false,
+          "normalized_similarity": 0.8566,
+          "render_pixel_sha256": "7fbcc9307130025cd58f0cb31e779805d3c3099648d50050fdbf02b5571935b6",
+          "reference_render_pixel_sha256": "9ce15d8f3f54e6d7aa6912164cd146a1b2683c4830be86d152a6aa26557d1098",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 170,
+          "reference_pdf_page": 180,
+          "text_sha256": "0bdde9973b22a68e73a42888b8c4e1be38ee19670b0f6127776faf6ce2e47ade",
+          "reference_text_sha256": "8c705af09d28d83c2b927d1c9020df857a9bbbaca51c3f7ac0930a7c2e8aefac",
+          "normalized_text_equal": false,
+          "normalized_similarity": 0.5908,
+          "render_pixel_sha256": "b9fc2e05fbb211fb4c85c7f5c4b5ce6362644d91717cc9a9e79372c0363587d1",
+          "reference_render_pixel_sha256": "854d097e1a4d64966ea0877b255207d25f854af12bb25be804d318d2dae923b7",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 171,
+          "reference_pdf_page": 181,
+          "text_sha256": "db42ae09dcb8e76727acb1ef7df3153a16399e2ffa9bd46054efc3257d0b7749",
+          "reference_text_sha256": "aaec4665e931b7207bc52c39bc1e4db421f16f073981f837b324cb6714d0786e",
+          "normalized_text_equal": false,
+          "normalized_similarity": 0.4814,
+          "render_pixel_sha256": "ad9d166c978a1e0d3ccb3402279e185ac768032327c1295efb33252315954870",
+          "reference_render_pixel_sha256": "3576c7ab192ebc14fafd28c1295dc857bdbe62e4dc945c82c58ba226af2e4f00",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 172,
+          "reference_pdf_page": 182,
+          "text_sha256": "f9f9672f87dfc9d5c33238bf1b8e26f2f4dd0ab63dfc414c764d79a20b797dba",
+          "reference_text_sha256": "7c04852b4d8b4a3c9fe5ffe73a5c5e92bf6939ad05b3df77bffb2f6e8b52ff7a",
+          "normalized_text_equal": false,
+          "normalized_similarity": 0.3196,
+          "render_pixel_sha256": "013e8ba2a392634f88e09140e994224721b094ee1257b486e58d98458834e13b",
+          "reference_render_pixel_sha256": "02ee1d3d541cead40c08dac4c8d1a1fbbc64931dc5672a037fc9488c0ce60fd1",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 173,
+          "reference_pdf_page": 183,
+          "text_sha256": "ce51e120cc950e19065a7fcdb5246d1301035e8ceb0344cf594782eb15462837",
+          "reference_text_sha256": "fe3c9c7113c6aa33e8c1ae2579d7ae554a32ca991ce0a5ae5311321daa68b889",
+          "normalized_text_equal": false,
+          "normalized_similarity": 0.7855,
+          "render_pixel_sha256": "435386a83514d719635caeefb3a789605c278a01a95a570d577c47b74f1e83a5",
+          "reference_render_pixel_sha256": "dca02de7be9b230008d07827a0519b54417bf0018112e00599e24eb314a9e6c6",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 174,
+          "reference_pdf_page": 184,
+          "text_sha256": "b41656eb0e853c7cb905ad8c81826f2fd01f065011837a22b5201a761c3e3200",
+          "reference_text_sha256": "28da27241dccb42dbfe759597864a0306aa7022c711f72664bf2825452507602",
+          "normalized_text_equal": false,
+          "normalized_similarity": 0.7748,
+          "render_pixel_sha256": "852d5c3fa4748ef1d0c310e56ccd2ef5b3a6905a15d69a864609489572ce74db",
+          "reference_render_pixel_sha256": "0eb32fd47f591e543e0fff8160b2bab44cdbf9237a90a3bc4580843ce0f5ba12",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 175,
+          "reference_pdf_page": 185,
+          "text_sha256": "73e59d450b06c92b4f9f38e8f9a23110c732faa349578453309db531a93b577c",
+          "reference_text_sha256": "fd5b8fcd5f127359d0054364c327265d1aac0879b83744b075e28dffeae7b02d",
+          "normalized_text_equal": false,
+          "normalized_similarity": 0.8156,
+          "render_pixel_sha256": "7f18dbdc5809fc0d531f08310033ae11b953885d6ac6c2ec262e92228c7a495c",
+          "reference_render_pixel_sha256": "4dc2ae1a53e93aa032efa98027c3a7fff616fc3724e2f5930a71ff47c7abfe4c",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 176,
+          "reference_pdf_page": 186,
+          "text_sha256": "d120c2c0ba4f7340a297dd585b041dc1c9b712702cfaf40384b00c5f4296b89b",
+          "reference_text_sha256": "53dbf2f14bd4e53f40203c7c7b7330d7f63d93a5ffa2caf7ebf6c71265069d85",
+          "normalized_text_equal": false,
+          "normalized_similarity": 0.7355,
+          "render_pixel_sha256": "5471818964da0a721b3517e35ef5dd624f05052aa76dc8228ad63525c17dea24",
+          "reference_render_pixel_sha256": "fed0666abfe670854fc4e1c0cca1851319ee26fc02ec923a2b57a71812c84158",
+          "render_pixels_equal": false
+        }
+      ],
+      "author_review_status": "REVIEWED_EXACT_SOURCE",
+      "text_pages_reviewed": [
+        7,
+        41,
+        42,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176
+      ],
+      "rendered_pages_reviewed": [
+        166,
+        167,
+        170,
+        173,
+        175,
+        176
+      ],
+      "findings": [
+        "Exact2022/2023 mechanical text compared per page against fully read2024 chapter; changes are extraction bullets, wrapping and page break boundaries, not new numerical requirements.",
+        "Valve lever/pulley torque text starts173 while movement/diagram continues174; both pages explicitly linked. Pushrod installation heading begins175, procedure/diagram176; both linked.",
+        "Exact head/YPVS exploded, grade geometry, shaft spring stack and piston/head assembly diagrams visually reviewed.",
+        "Cooling spec remains1.20L and93.3-122.7kPa, outside bench closure; exactNGKBR8EG/.5-.6 confirmed41."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "status": "APPROVED",
+  "reviewer": "root independent2022 commissioning source review",
+  "reviewed_candidate_sha256": "20662ea5095958fc3736e0f99a851c9bdb19ad72fd781bd3d3eaebd96df6698b",
+  "previous_reviewed_candidate_sha256": "5584caf039ce0c714f03ad388ce88fbb72389761736e7a6b915ec289b70d576c",
+  "artifact_sha256": "8a32d6216ba22e82295a4c51966c0d0a82717d530e6177d2b56cad9086183bd8",
+  "artifact_path": "docs/research/workshop-pass12/yamaha-2022-commissioning/post-rebuild-commissioning-v1.procedure.json",
+  "reviewed_text_pages": [
+    35,
+    37,
+    38,
+    89,
+    90,
+    115,
+    117,
+    223,
+    224,
+    225,
+    234,
+    265,
+    266,
+    272
+  ],
+  "reviewed_rendered_pages": [
+    37,
+    92,
+    93,
+    274
+  ],
+  "scope": "All32 instructions; exact-year oil0.65 service/0.90 disassembled and checkbolt external closure, cap-before-seat access, LSfilterseal,6pump4Nm/7and9tank, Mityvac coldattach/coolrelease, actual tank cleaning/fit/alljoint obligations. Illustrated companion only.",
+  "resolved_findings": [
+    "Enlarged93 clearly LS, matching92 prose.",
+    "Added fuel-cap cover removal BEFORE seat at generator and tank access, exact117/35; separately approved final20662 candidate."
+  ],
+  "freeze_changes": "Approval status fields only; no further mechanical changes."
+}

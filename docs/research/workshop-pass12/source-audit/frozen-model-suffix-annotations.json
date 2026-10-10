@@ -1,0 +1,28 @@
+{
+  "status": "PROVENANCE_ANNOTATION_ONLY",
+  "authority": "root requested narrow annotation; frozen artifacts unchanged",
+  "annotations": [
+    {
+      "artifact": "docs/research/workshop-pass11/yamaha-2023-suspension/fork-oil-seals-bushings-v1.procedure.json",
+      "frozen_sha256": "30483874e1654a6584269fe96eb08d7a9ced059c8d2e09a76ee8fa0adbe933f6",
+      "field": "applicability.included",
+      "before": "Exact standard US 2023 YZ450F/YZ450FS with original spring forks",
+      "corrected_annotation": "Exact standard US 2023 YZ450F/YZ450FP with original spring forks",
+      "source_cover_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=1",
+      "reason": "Legacy marketing-model suffix from sequence template; exact model_year/region target and hashboundsource are correct.",
+      "mechanical_change": false,
+      "runtime_change": false
+    },
+    {
+      "artifact": "docs/research/workshop-pass10/yamaha-2024-suspension/fork-oil-seals-bushings-v1.procedure.json",
+      "frozen_sha256": "bc868eab85d2f5c705807d8a05fc1ba577de07b1fa5d2ead16c84ea3b2324f51",
+      "field": "applicability.included",
+      "before": "Exact standard US 2024 YZ450F/YZ450FS with original spring forks",
+      "corrected_annotation": "Exact standard US 2024 YZ450F/YZ450FR with original spring forks",
+      "source_cover_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=1",
+      "reason": "Legacy marketing-model suffix from sequence template; exact model_year/region target and hashboundsource are correct.",
+      "mechanical_change": false,
+      "runtime_change": false
+    }
+  ]
+}

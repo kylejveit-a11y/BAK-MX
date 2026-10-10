@@ -1,0 +1,36 @@
+{
+  "status": "APPROVED_FOR_BOUNDED_RUNTIME",
+  "reviewer": "root independent of author yamaha_workshop_evidence",
+  "source_sha256": "ee02280139498348008b90fa4fed317228500c47caf76eb1712d1669e19d1578",
+  "all_steps_read": 19,
+  "rendered_pages_reviewed": [
+    118,
+    119,
+    120,
+    121,
+    412
+  ],
+  "checks": [
+    "Both forks12/12 clicks,1.3Nm bleeds, actual control diagrams",
+    "Shock13R,1 5/8HSC,8LSC, distinctcontrols",
+    "Preload7 reference,1.5\u201318 bounds and1.5mm perturn",
+    "Araised/Briderloaded at exact moldedfender mark,90\u2013100mm target",
+    "Stock originalcomponents only, assembledringaccess and separate spring replacement"
+  ],
+  "artifacts": [
+    {
+      "path": "docs\\research\\workshop-pass13\\yz250f\\2027\\fork-baseline-v1.procedure.json",
+      "candidate_sha256": "478a5c3a1d8d60e7df847bad21fc860ad74d372c0a946572b27ecef3f75bfdbc"
+    },
+    {
+      "path": "docs\\research\\workshop-pass13\\yz250f\\2027\\rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "2a43d2a97e0fdb83c5d5c50f30dde1de98cd90d4e1c19b9729aa217dc2ccccb3"
+    },
+    {
+      "path": "docs\\research\\workshop-pass13\\yz250f\\2027\\shock-baseline-v1.procedure.json",
+      "candidate_sha256": "9b052009e86e502ea19a1906b028011be9583e7e2b7dee229b82fffdf713decf"
+    }
+  ],
+  "physical_workshop_validation": false,
+  "full_bike_complete": false
+}

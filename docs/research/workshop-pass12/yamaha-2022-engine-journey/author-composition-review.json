@@ -1,0 +1,56 @@
+{
+  "status": "AUTHOR_COMPOSITION_REVIEW",
+  "dependencies": [
+    {
+      "artifact": "docs/research/workshop-pass12/yamaha-2022-frame/engine-removal-refit-v1.procedure.json",
+      "sha256": "cbf8d699bd55eea9bd8d5ba98c459829dc8aa94110736340679fc3b4f5f2244a",
+      "kind": "approved_source_operation"
+    },
+    {
+      "artifact": "docs/research/workshop-pass12/yamaha-2022-engine/top-end-bench-v1.procedure.json",
+      "sha256": "b8ef616901d5dc9a45dc7fce825602238014c879d224234d92d0893d8c2ed1b7",
+      "kind": "approved_source_operation"
+    },
+    {
+      "artifact": "docs/research/workshop-pass12/yamaha-2022-commissioning/post-rebuild-commissioning-v1.procedure.json",
+      "sha256": "8a32d6216ba22e82295a4c51966c0d0a82717d530e6177d2b56cad9086183bd8",
+      "kind": "approved_source_operation"
+    }
+  ],
+  "adaptations": [
+    {
+      "step_id": "commission-entry",
+      "original_instruction_sha256": "e30cadcdb1b5147f683610eec3af162d5a55f4bea9b7bc4386e12397307c0f18",
+      "reason": "Replace standalone prior-start entry with the actual continuous-route cold pre-start state, preserving exact check-bolt closure."
+    },
+    {
+      "step_id": "access-engine-oil-flow",
+      "original_instruction_sha256": "2116232b3ab50a44e3d098a64bd6658310a75502841f0e2354616ff5c2e90e3f",
+      "reason": "Combine exact oil-flow startup with approved cold-attached tester monitoring; preserve both fault conditions."
+    },
+    {
+      "step_id": "access-engine-cooling-warm-cool",
+      "original_instruction_sha256": "c656693e927f84758b1a874f2c1b1b4ceaf5d4a5a6fe24f12cee6e8f35accf4d",
+      "reason": "Prevent access warm-up from preceding cold pressure-test closure."
+    },
+    {
+      "step_id": "topend-entry",
+      "original_instruction_sha256": "eec57336ef6c179bdac529ae26f99c47617f2082b073f586b096ca5ddbfe71cd",
+      "reason": "Continuous-route bench entry after its own engine removal."
+    },
+    {
+      "step_id": "access-engine-bench-record",
+      "original_instruction_sha256": "ec9a5e437594b7d2c5e9dc1d7afa113c427c034f5618f67ff0a272f850368b5c",
+      "reason": "Replace standalone intact-engine handoff with the actual completed top-end repair records."
+    }
+  ],
+  "omitted": [
+    "Standalone top-end exit handoff; actual bench acceptance follows.",
+    "Access retained-gasket cold pressure test replaced by approved head-gasket commissioning."
+  ],
+  "preserved": [
+    "2022 stock chain is opened; new clip retained.",
+    "Exact2022 oil quantities and check-bolt external closure preserved.",
+    "ECU/coil remain mounted; no filler grease or later-year numerical inheritance."
+  ]
+}

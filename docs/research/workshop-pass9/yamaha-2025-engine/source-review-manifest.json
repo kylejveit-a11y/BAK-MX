@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED",
+  "sources": [
+    {
+      "source_id": "yamaha-us-2025-yz450f-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf",
+      "sha256": "5005e7d8492c9482dfe44c6d752609a9a70a836f5b1dc94be3149d5d493de8ac",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\D02-2819U-10_02.pdf",
+      "pdf_pages": [
+        7,
+        50,
+        89,
+        90,
+        91,
+        92,
+        93,
+        95,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "docs/research/workshop-pass9/yamaha-2025-engine/top-end-bench-v1.procedure.json",
+      "sha256": "168f728aa9c092015bac846833b06502964ed223fa58dc58295219240ccf8eb6",
+      "source_id": "yamaha-us-2025-yz450f-oem",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "review_status": "APPROVED"
+    }
+  ],
+  "independent_review": {
+    "path": "docs/research/workshop-pass9/yamaha-2025-engine/independent-review-v1.json",
+    "sha256": "0983d62372016a72b95810b3bc5db99895036d3a3f802bad02c3c89c0e7e9fa9",
+    "status": "APPROVED"
+  }
+}

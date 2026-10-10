@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED",
+  "sources": [
+    {
+      "id": "yamaha-2024-bhr",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf",
+      "sha256": "6e784b3b15fe1e131f0e385676ca2873e74d783ee2499ce561e595bcea9ca9be",
+      "local_pdf_path": "C:/Users/kylej/AppData/Local/Temp/BHR-2819U-11_02.pdf"
+    },
+    {
+      "id": "nick-dole-gearing",
+      "url": "https://www.teknikmotorsport.com/assets/brochures/Transmoto-Gearing.pdf",
+      "sha256": "84e1c2a35ba1c44b2917d889f3ecb5765b383cf65e69ffaada2808f2b1ba3cf0",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\drive8\\Transmoto-Gearing.pdf"
+    },
+    {
+      "id": "mityvac-mv4560-method",
+      "url": "https://cdn.skfmediahub.skf.com/api/public/0901d1968096854e/pdf_preview_medium/0901d1968096854e_pdf_preview_medium.pdf",
+      "sha256": "508a744728dc28c37911bdc206f3e8ec6fe5eb8f11febe74a385bbf1299493cf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\mityvac-MV4560-801625.pdf"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "major-engine-bike-journey-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "ab1e5b6ab3c400a6052ad0bc6b34138ab67999e5a9d7ae0d4025c4b05aef717b",
+      "source_id": "yamaha-2024-bhr",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 214
+    }
+  ],
+  "id": "yamaha-2024-major-engine-journey-pass10",
+  "independent_review": {
+    "path": "major-independent-review-v1.json",
+    "sha256": "75a28a9f3c110fe74721b43c082713157d50b16c79680ba784865ab62d8c518f",
+    "status": "APPROVED"
+  }
+}

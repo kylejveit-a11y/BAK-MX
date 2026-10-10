@@ -1,0 +1,141 @@
+{
+  "status": "APPROVED_FOR_BOUNDED_RUNTIME",
+  "reviewer": "core_flow_repairs, independent of yamaha_workshop_evidence author",
+  "artifacts": [
+    {
+      "path": "docs/research/workshop-pass13/yz250f/2021-engine/top-end-teardown-inspection-v1.procedure.json",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2021,
+        "variant": "standard",
+        "region": "US"
+      },
+      "reviewed_candidate_sha256": "cbcc9109e9427cf9626a983c51eec93664ab97eab6f897d51a4f8735be57b6cf",
+      "source_sha256": "c2f65141ab95bdbe20d7bdd027bfdde93d2d79dbcb4ff0ccb54140ed7fb0578b",
+      "step_count": 24
+    },
+    {
+      "path": "docs/research/workshop-pass13/yz250f/2021-engine/original-head-valve-reassembly-v1.procedure.json",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2021,
+        "variant": "standard",
+        "region": "US"
+      },
+      "reviewed_candidate_sha256": "a73fd53a91037b42dde1e045e4e515f4b18ce49903b4d3745baab4b0010326e8",
+      "source_sha256": "c2f65141ab95bdbe20d7bdd027bfdde93d2d79dbcb4ff0ccb54140ed7fb0578b",
+      "step_count": 9
+    },
+    {
+      "path": "docs/research/workshop-pass13/yz250f/2022-engine/top-end-teardown-inspection-v1.procedure.json",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "reviewed_candidate_sha256": "30d08c0f989845a8cfdcc0bb9f16a8955af897a9588c01a5860780af504a3c72",
+      "source_sha256": "17e7cc840c86a2afe05fbe38a5197778932470ad4d57e0a78b08eed3e386bc4f",
+      "step_count": 24
+    },
+    {
+      "path": "docs/research/workshop-pass13/yz250f/2022-engine/original-head-valve-reassembly-v1.procedure.json",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "reviewed_candidate_sha256": "f72e13dc17df398d17606d4805e745568b594c33084ff4b647b6f313a5d86f16",
+      "source_sha256": "17e7cc840c86a2afe05fbe38a5197778932470ad4d57e0a78b08eed3e386bc4f",
+      "step_count": 9
+    },
+    {
+      "path": "docs/research/workshop-pass13/yz250f/2023-engine/top-end-teardown-inspection-v1.procedure.json",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "reviewed_candidate_sha256": "fef391542a21b2dc9f7e15feeaabf8eda004b5036a15d6860419f8f61c7f5a28",
+      "source_sha256": "d0a100edf6abb20bc424fe6f0924e007993abb0a81c0893ea09088efa3689217",
+      "step_count": 24
+    },
+    {
+      "path": "docs/research/workshop-pass13/yz250f/2023-engine/original-head-valve-reassembly-v1.procedure.json",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "reviewed_candidate_sha256": "e428addae6d9b44b39cb4e024f11ff5ac3309d7e3bf2200f48495e890d0b65bb",
+      "source_sha256": "d0a100edf6abb20bc424fe6f0924e007993abb0a81c0893ea09088efa3689217",
+      "step_count": 9
+    }
+  ],
+  "sources": [
+    {
+      "id": "yamaha-us-2021-yz250f-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf",
+      "sha256": "c2f65141ab95bdbe20d7bdd027bfdde93d2d79dbcb4ff0ccb54140ed7fb0578b",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\B7B-2819U-12_02.pdf"
+    },
+    {
+      "id": "yamaha-us-2022-yz250f-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-13_02.pdf",
+      "sha256": "17e7cc840c86a2afe05fbe38a5197778932470ad4d57e0a78b08eed3e386bc4f",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\B7B-2819U-13_02.pdf"
+    },
+    {
+      "id": "yamaha-us-2023-yz250f-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BSB-2819U-10_02.pdf",
+      "sha256": "d0a100edf6abb20bc424fe6f0924e007993abb0a81c0893ea09088efa3689217",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\BSB-2819U-10_02.pdf"
+    }
+  ],
+  "review_scope": [
+    "Read all24 teardown and9 head-assembly instructions/verification and metadata for2021; compared every2022/23 instruction and all exact-source201-223 versus198-220 differences.",
+    "Read exact numerical specifications47/48 and45/46, conflict57/211 and55/208, cold inspection82/80. Source cover and allPDF hashes verified.",
+    "Validated eight camcap bolts/oil10Nm, outside-in removal/inside-out inspection, sixhead removal sequence and longbolt location, source piston/stem/guide/ring/spring measurements.",
+    "Confirmed2021 compressor04019 and all-piston-rings replacement versus2022/23 compressor04200 and oil-ring set. Original head only, newseals/Moil, springpitch and cotter/lifter closure checked."
+  ],
+  "rendered_pages_reviewed": {
+    "2021": [
+      202,
+      203,
+      210,
+      213,
+      218,
+      219,
+      221,
+      222
+    ],
+    "2022": [
+      202,
+      210,
+      218,
+      222
+    ],
+    "2023": [
+      199,
+      207,
+      215,
+      219
+    ]
+  },
+  "remaining_findings": [],
+  "limits": [
+    "Prepared teardown and detached original-head reassembly only; does not authorize head mounting, newvalve/guide work, engine timing or starting.",
+    "Headbolt oil-versus-grease conflict remains unresolved and preserved. Oilrail reuse numerical tolerance remains unknown.",
+    "No physical workshop validation or completebike qualification."
+  ],
+  "freeze_permission": "Approve publication/source status metadata only; preserve mechanical instructions and bind this reviewed candidate to final hash with explicit freeze record."
+}

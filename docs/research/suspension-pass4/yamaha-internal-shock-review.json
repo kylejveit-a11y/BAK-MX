@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2026-yz450f-internal-shock-source-review",
+  "reviewed_at": "2026-09-13",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "decision": "NO_EXECUTABLE_INTERNAL_GUIDE_APPROVED",
+  "existing_manual": {
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "local_path": "C:/Users/kylej/AppData/Local/Temp/D03-2819U-10_02.pdf",
+    "sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "pdf_pages": [
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      396,
+      397
+    ],
+    "finding": "Shock section supports removal/refit, spring and mounting/linkage bearing service, not oil/piston/seal-head overhaul. Disposal gas release is not a rebuild charge procedure."
+  },
+  "new_sources": [
+    {
+      "url": "https://yamahamotorsports.com/models/26-yz450f/features",
+      "attribution": "Yamaha USA",
+      "locator": "NEW FOR2026",
+      "summary": "Identifies newly developed KYB shock and hand-operated low-speed adjuster. Supports a2026 component boundary, not numeric overhaul instructions.",
+      "admission": "PRIMARY_APPLICABILITY_BOUNDARY"
+    },
+    {
+      "url": "https://www.yamaha-motor.co.jp/mc/yamaha-motor-life/2025/06/20250625-001.html",
+      "attribution": "Yamaha Motor",
+      "locator": "2026 model changes; rear suspension paragraph",
+      "summary": "OEM development account states rear suspension internal structure was revised. Do not inherit an earlier-year internal procedure solely from KYB branding.",
+      "admission": "PRIMARY_DESIGN_CHANGE_ONLY_NO_US_VALUE_TRANSFER"
+    },
+    {
+      "url": "https://www.teknikmotorsport.com/bike-suspension-parts/yamaha/yz450f/2026/?pgnum=10",
+      "attribution": "Teknik Motorsport",
+      "locator": "Bike-specific specifications; SHOCKS INFO",
+      "summary": "Indexed model-labeled table includes142psi,34Nm shaft nut and2.5weight oil. These are research candidates only. Stock preload8 conflicts with OEM7.0mm; fork stock-rate0.46 is also inconsistent with OEM5.0N/mm.",
+      "admission": "NOT_VERIFIED_FOR_EXACT_COMPONENT",
+      "retrieval_limitation": "Search cache provided table; direct page retrieval timed out/403. No byte-frozen HTML or physical component confirmation."
+    },
+    {
+      "url": "https://www.teknikmotorsport.com/bike-suspension-parts/yamaha/yz450f/2026/?pgnum=6",
+      "attribution": "Teknik Motorsport",
+      "locator": "Shock lubricants product listing",
+      "summary": "Model category includes K2C oil. Product-category inclusion is not a complete service specification or pressure/bleed procedure.",
+      "admission": "PARTS_LEAD_ONLY"
+    }
+  ],
+  "verified_crosscheck": {
+    "pdf396": "OEM stock fork spring5.0N/mm visually verified.",
+    "pdf397": "OEM stock shock spring56N/mm and standard preload7.0mm visually verified.",
+    "interpretation": "Catalog inconsistency reduces confidence; it does not establish which internal values are wrong. No catalog value promoted."
+  },
+  "gaps": [
+    "Exact new shock body/piston/compression assembly identification matched to service instructions.",
+    "Stock oil grade and fill/bleeding acceptance sequence.",
+    "Final nitrogen charge specification and measurement reference.",
+    "Internal fastener torques, retention/thread preparation and renewal map.",
+    "Illustrated seal-head, bladder and valve assembly order for this exact unit."
+  ],
+  "next_action": "Obtain an exact KYB/Yamaha service document or attributable specialist procedure that explicitly identifies the redesigned2026 stock unit. Existing reviewed sealed-shock removal/refit remains usable.",
+  "year_inheritance": "NONE",
+  "procedure_created": false,
+  "database_writes": false
+}

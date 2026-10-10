@@ -1,0 +1,74 @@
+{
+  "status": "APPROVED",
+  "reviewer": "root independent source review",
+  "artifacts": [
+    {
+      "path": "docs/research/workshop-pass10/yamaha-2024-suspension/fork-baseline-v1.procedure.json",
+      "approved_candidate_sha256": "8374c6869eb0f29a80f8f5cc28fb6af4c62c76a0288350e956db6fd737cc4dd2",
+      "sha256": "554ff36650ce0d8eeb2d172669f1e51469c9b23163a0ba3c8ffa21d5929b25cf"
+    },
+    {
+      "path": "docs/research/workshop-pass10/yamaha-2024-suspension/fork-oil-seals-bushings-v1.procedure.json",
+      "approved_candidate_sha256": "79f11ae83237fe197c2fae67629295ffc5d2054ee5d10cbfc311d08af542c15a",
+      "sha256": "bc868eab85d2f5c705807d8a05fc1ba577de07b1fa5d2ead16c84ea3b2324f51"
+    },
+    {
+      "path": "docs/research/workshop-pass10/yamaha-2024-suspension/rider-sag-preload-v1.procedure.json",
+      "approved_candidate_sha256": "40c1b3e647d50274234559aa43289e9e0e7ac9a5f2efa1982bd2ee32dce1e0c4",
+      "sha256": "5f7833f006ff6f7180451ed9c88026dab2b2568cc56be28e48031f9e5d41328c"
+    },
+    {
+      "path": "docs/research/workshop-pass10/yamaha-2024-suspension/shock-baseline-v1.procedure.json",
+      "approved_candidate_sha256": "d44e69e8ae0d2bcfdb835220b3d4bca497f8f890f309673d76a77be83c7e211d",
+      "sha256": "ab31503f1be37b89667065ad1acedcecbd241b83a68dc3201a3eac3a99f5b0e3"
+    }
+  ],
+  "text_pages": [
+    108,
+    109,
+    110,
+    111,
+    120,
+    122,
+    125,
+    126,
+    136,
+    137,
+    139,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    376,
+    377
+  ],
+  "rendered_pages": [
+    162,
+    163,
+    164,
+    166,
+    167,
+    168,
+    170,
+    171,
+    172,
+    173,
+    126,
+    139,
+    376
+  ],
+  "resolved_findings": [
+    "Inline seating/adjuster page references corrected to167/171.",
+    "Material list preserves fork oil during oilseal insertion and lithium-soap grease at later dustseal/inner-tube stage."
+  ],
+  "scope": "Four bounded suspension operations72steps; cartridge rod-seal and internal shock overhaul remain outside scope.",
+  "open_blocking_findings": []
+}

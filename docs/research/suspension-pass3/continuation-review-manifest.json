@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-09-13",
+  "database_writes": false,
+  "runtime_approval": false,
+  "sources": [
+    {
+      "url": "https://store-peenhlhyij.mybigcommerce.com/content/SUPPORT_PDF%27s/2023%20Beta%20250%20300%20RR%20Service%20Manual.pdf",
+      "local_path": "C:/Users/kylej/AppData/Local/Temp/beta-2023-engine.pdf",
+      "sha256": "d0d92351299bae06b91be6617bf05cc9c5b2134ac046751e7b5f8bb9393d8dc6"
+    },
+    {
+      "url": "https://store-peenhlhyij.mybigcommerce.com/content/2023_Owner%20manual_RR%26RR-Race_2Stroke.pdf",
+      "local_path": "C:/Users/kylej/AppData/Local/Temp/beta-2023-owner.pdf",
+      "sha256": "e7b94994619b5bef81c5e1a65b0c60aa70a3f74516f380f0b9b58283a904599f"
+    },
+    {
+      "url": "https://betausagallery.com/wp-content/uploads/2023/02/Supplementary-sheet-of-owner-manual-RR-2T-Racing-my-23.pdf",
+      "local_path": "C:/Users/kylej/AppData/Local/Temp/beta-2023-race-supplement.pdf",
+      "sha256": "6ce6c23abf0c64b337d4d14befaaac29ce8772f51bf6a3d0426802c06517eb2e"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "publication-hold.json",
+      "sha256": "610e47cca03160ef712ed81689eb252c1a688e3694d72b2e11c63e6964699665"
+    },
+    {
+      "path": "beta-conflict-overlay-v1.json",
+      "sha256": "edb887813311982e537f2700ab089a2ccd57a52a0849006b780cd3c67e31cc07"
+    },
+    {
+      "path": "beta-access-review-v2.json",
+      "sha256": "2ea5ceef5a703e89195c63bd39972857f75458c8f09e43f8ac6f1f388e5d1cc0"
+    },
+    {
+      "path": "validate_continuation.py",
+      "sha256": "0ef5086b7543c97ddfab53d1ca42cadefef5d6a800db05cdc8d6c34ecc4cd25d"
+    }
+  ]
+}

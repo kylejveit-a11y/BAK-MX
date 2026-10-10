@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "id": "husqvarna-2025-fc450-shock-sag-inspection-v1",
+  "component": "shock",
+  "target": {
+    "manufacturer": "Husqvarna",
+    "model": "FC 450",
+    "model_year": 2025,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Measure stock rear sag",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete unloaded, static and rider measurements plus comparison with US standard targets. Inspection only; no preload or spring change.",
+  "source": {
+    "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+    "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+    "document_revision": "3402805en /23 January2025",
+    "pdf_pages": [
+      3,
+      48,
+      49,
+      50,
+      60,
+      61
+    ],
+    "printed_pages": [
+      "3",
+      "48",
+      "49",
+      "50",
+      "60",
+      "61"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Scope page3 names FC450 US F2475Y2. Every operation page visually reviewed. Only FC450 US values selected; no model-year inheritance."
+  },
+  "applicability": {
+    "included": "Stock US2025 FC450 F2475Y2",
+    "excluded": [
+      "Other years/models/regions",
+      "Factory Edition",
+      "Modified suspension or rear-fender datum",
+      "Preload or spring adjustment",
+      "Internal shock service"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "required_tools": [
+    {
+      "name": "Lift stand81329955100 or suitable frame-supporting lift stand",
+      "size": null
+    },
+    {
+      "name": "Sag scale00029090200",
+      "size": null
+    },
+    {
+      "name": "Helpers to hold the bike and measure",
+      "size": null
+    },
+    {
+      "name": "Full protective riding equipment",
+      "size": null
+    }
+  ],
+  "required_parts": [],
+  "preflight": [
+    "Exact stock shock/build confirmed.",
+    "Engine stopped; bike securely supported on firm level ground.",
+    "Record observations and any remaining fault."
+  ],
+  "critical_stop_conditions": [
+    "Bike cannot be securely supported.",
+    "Damaged/leaking shock or adjuster that does not work as described.",
+    "Actual shock or geometry differs from stock."
+  ],
+  "steps": [
+    {
+      "id": "prepare",
+      "title": "Prepare for the measurements",
+      "instruction": "Use firm level ground and helpers to hold the motorcycle upright and take measurements. Wear full riding equipment for the rider measurement. Identify the rear-axle datum and rear-fender SAG mark shown in the manual; use the same points throughout.",
+      "depends_on": [],
+      "source_pdf_pages": [
+        49,
+        50,
+        60
+      ],
+      "verification": [
+        "Helpers, riding equipment and both measuring points ready."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=49",
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=50",
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=60"
+      ],
+      "origin": "Original source-based summary; record prompts are application workflow."
+    },
+    {
+      "id": "unload",
+      "title": "Raise the bike without a rider",
+      "instruction": "Remove the plug-in stand. Position the lift stand under the frame beneath the engine and raise the bike until both wheels are off the ground. Secure it against falling. Nobody sits on the bike while it is on the stand.",
+      "depends_on": [
+        "prepare"
+      ],
+      "source_pdf_pages": [
+        60
+      ],
+      "verification": [
+        "Both wheels clear; bike secured; no rider aboard."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=60"
+      ],
+      "origin": "Original source-based summary; record prompts are application workflow."
+    },
+    {
+      "id": "a",
+      "title": "Measure unloaded length A",
+      "instruction": "With the suspension unloaded, position the sag scale in the rear axle and measure to the rear-fender SAG mark. Record this distance in millimeters as A.",
+      "depends_on": [
+        "unload"
+      ],
+      "source_pdf_pages": [
+        48,
+        49
+      ],
+      "verification": [
+        "A recorded in millimeters using illustrated points."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=48",
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=49"
+      ],
+      "origin": "Original source-based summary; record prompts are application workflow."
+    },
+    {
+      "id": "lower",
+      "title": "Lower to the ground",
+      "instruction": "Support and lower the motorcycle from the lift stand, then remove the stand. Keep a helper holding it upright for the next measurements; do not seat the rider while the bike is supported by a parking stand.",
+      "depends_on": [
+        "a"
+      ],
+      "source_pdf_pages": [
+        60,
+        61
+      ],
+      "verification": [
+        "Both wheels on ground; bike held upright; stand removed."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=60",
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=61"
+      ],
+      "origin": "Original source-based summary; record prompts are application workflow."
+    },
+    {
+      "id": "b",
+      "title": "Measure static length B",
+      "instruction": "With no rider and a helper holding the bike upright, measure between the same rear axle and SAG mark. Record B in millimeters. Calculate static sag as A minus B; the FC450 US target is35 mm.",
+      "depends_on": [
+        "lower"
+      ],
+      "source_pdf_pages": [
+        49
+      ],
+      "verification": [
+        "A, B and A−B recorded; compared with35 mm."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=49"
+      ],
+      "origin": "Original source-based summary; record prompts are application workflow."
+    },
+    {
+      "id": "c",
+      "title": "Measure rider length C",
+      "instruction": "With helpers holding the bike and measuring, sit in the normal seated position wearing full protective equipment, feet on the footpegs. Bounce a few times to settle the suspension. Measure the same axle-to-SAG distance and record C. Rider sag is A minus C; the FC450 US target is105 mm.",
+      "depends_on": [
+        "b"
+      ],
+      "source_pdf_pages": [
+        50
+      ],
+      "verification": [
+        "C and A−C recorded; full gear/feet on pegs; compared with105 mm."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=50"
+      ],
+      "origin": "Original source-based summary; record prompts are application workflow."
+    },
+    {
+      "id": "finish",
+      "title": "Record the result and park",
+      "instruction": "Dismount with the bike supported. Save A, B, C, static sag and rider sag. A result different from35 mm static or105 mm rider requires a separate setup adjustment; this inspection has not changed preload or selected a spring. To park, insert the plug-in stand into the left side of the wheel spindle on firm level ground; remove it before riding.",
+      "depends_on": [
+        "c"
+      ],
+      "source_pdf_pages": [
+        49,
+        50,
+        60,
+        61
+      ],
+      "verification": [
+        "Measurements saved; any adjustment requirement retained; bike parked securely."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=49",
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=50",
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=60",
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=61"
+      ],
+      "origin": "Original source-based summary; record prompts are application workflow."
+    }
+  ],
+  "publication_status": "LOCAL_REVIEWED_NOT_IMPORTED",
+  "reviewed_at": "2026-09-13T19:39:53.734Z"
+}

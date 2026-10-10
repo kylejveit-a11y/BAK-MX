@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2024-yz450f-shock-baseline-v1",
+  "title": "Restore the stock shock damping baseline",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2024,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "publication_status": "APPROVED",
+  "component": "shock",
+  "affected_components": [
+    "shock",
+    "suspension"
+  ],
+  "applicability": {
+    "included": "Exact standard US2024 YZ450F original stock suspension.",
+    "excluded": [
+      "Other years, replacement springs/components or aftermarket damping conversions",
+      "Internal fork/shock overhaul"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "entry_state": [
+    "Assembled bike, serviceable stock suspension, exact original adjusters identified."
+  ],
+  "exit_state": [
+    "Recorded adjustment and functional checks complete; no internal service performed."
+  ],
+  "preflight": [
+    "Record actual starting settings.",
+    "Stop for leaks, damage, binding or an unidentified adjuster.",
+    "Keep the linked diagrams visible to identify distinct controls."
+  ],
+  "critical_stop_conditions": [
+    "Damaged or binding suspension",
+    "Adjuster at stop before target, inability to identify stock control, or unresolved setup measurement"
+  ],
+  "required_tools": [
+    {
+      "name": "Secure rear-wheel maintenance stand"
+    },
+    {
+      "name": "Appropriate separate rebound/low-speed driver and high-speed adjuster tool"
+    }
+  ],
+  "required_parts": [],
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf",
+    "document_sha256": "6e784b3b15fe1e131f0e385676ca2873e74d783ee2499ce561e595bcea9ca9be",
+    "document_revision": "BHR-2819U-11 / LIT-11626-37-11; first edition February 2023",
+    "pdf_pages": [
+      109,
+      110,
+      111
+    ],
+    "printed_pages": [
+      "109: 3-31",
+      "110: 3-32",
+      "111: 3-33"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Independent root review approved exact2024 instructions, diagrams, values and bounded scope; plain page references and stage-specific lubricant materials corrected before freeze."
+  },
+  "steps": [
+    {
+      "id": "inspect",
+      "title": "Inspect the stock shock",
+      "instruction": "Support the assembled bike upright. Check shock for oil/gas leakage and rear suspension/linkage for smooth movement by sitting astride and moving up/down. Resolve leakage, damage or rough action before setup. Raise rear wheel securely for adjustment.",
+      "depends_on": [],
+      "source_pdf_pages": [
+        109
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=109"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Confirm the described outcome; record actual settings/measurements where requested."
+      ],
+      "record_required": true,
+      "origin": "Original illustrated companion reconciled against exact 2024 BHR source; logging/support and closed-caliper retention are explicit workflow adaptations."
+    },
+    {
+      "id": "record",
+      "title": "Identify and record the controls",
+      "instruction": "Use PDF 110–111 to distinguish rebound, outer high-speed compression and inner low-speed compression. Gently count each starting setting back to its full-hard stop, recording clicks or turns. Never force.",
+      "depends_on": [
+        "inspect"
+      ],
+      "source_pdf_pages": [
+        110,
+        111
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=110",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=111"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Confirm the described outcome; record actual settings/measurements where requested."
+      ],
+      "record_required": true,
+      "origin": "Original illustrated companion reconciled against exact 2024 BHR source; logging/support and closed-caliper retention are explicit workflow adaptations."
+    },
+    {
+      "id": "rebound",
+      "title": "Set rebound",
+      "instruction": "From gently seated full hard in direction a, turn rebound 13 clicks outward in direction b. Nominal range is 0–30 clicks, with production variation acknowledged by Yamaha. Stop if the actual control cannot reach the standard.",
+      "depends_on": [
+        "record"
+      ],
+      "source_pdf_pages": [
+        110
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=110"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Confirm the described outcome; record actual settings/measurements where requested."
+      ],
+      "record_required": true,
+      "origin": "Original illustrated companion reconciled against exact 2024 BHR source; logging/support and closed-caliper retention are explicit workflow adaptations."
+    },
+    {
+      "id": "high",
+      "title": "Set high-speed compression",
+      "instruction": "Set the high-speed compression control to 1 full turn outward in direction b from gently seated full hard. Nominal range is 0–2 turns. Identify this control in the diagram so the concentric low-speed control is not substituted.",
+      "depends_on": [
+        "rebound"
+      ],
+      "source_pdf_pages": [
+        110,
+        111
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=110",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=111"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Confirm the described outcome; record actual settings/measurements where requested."
+      ],
+      "record_required": true,
+      "origin": "Original illustrated companion reconciled against exact 2024 BHR source; logging/support and closed-caliper retention are explicit workflow adaptations."
+    },
+    {
+      "id": "low",
+      "title": "Set low-speed compression",
+      "instruction": "Set the distinct low-speed compression screw 10 clicks outward in direction b from gently seated full hard. Nominal range is 0–20 clicks. Do not force a stop or silently translate turns into clicks.",
+      "depends_on": [
+        "high"
+      ],
+      "source_pdf_pages": [
+        111
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=111"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Confirm the described outcome; record actual settings/measurements where requested."
+      ],
+      "record_required": true,
+      "origin": "Original illustrated companion reconciled against exact 2024 BHR source; logging/support and closed-caliper retention are explicit workflow adaptations."
+    },
+    {
+      "id": "verify",
+      "title": "Verify the recorded baseline",
+      "instruction": "Lower the bike and check rear movement is smooth. Record rebound 13 clicks, high-speed 1 turn and low-speed 10 clicks out, plus actual control travel concerns. Spring preload and sag are separate measured settings and were not changed here.",
+      "depends_on": [
+        "low"
+      ],
+      "source_pdf_pages": [
+        109,
+        110,
+        111
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=109",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=110",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=111"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Confirm the described outcome; record actual settings/measurements where requested."
+      ],
+      "record_required": true,
+      "origin": "Original illustrated companion reconciled against exact 2024 BHR source; logging/support and closed-caliper retention are explicit workflow adaptations."
+    }
+  ],
+  "completeness": "Restore the original shock rebound and high/low compression settings. Preload, spring and sealed internals remain unchanged.",
+  "operation_dependencies": [],
+  "authoring_template": {
+    "path": "docs/research/workshop-pass9/yamaha-2025-suspension/shock-baseline-v1.procedure.json",
+    "sha256": "617c9cd63e40bd52d9ffeb22b9190601f455b17351217c1cf6bbe67e33f21840",
+    "scope": "Sequence structure only; not mechanical applicability evidence."
+  }
+}

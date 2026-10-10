@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED",
+  "sources": [
+    {
+      "source_id": "yamaha-us-2023-yz450f-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf",
+      "sha256": "9a8605e26301ba1d0d1d21e93d23cca721bdcdbece6188775626a8819332aa9f",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\BHR-2819U-10_02.pdf"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "docs/research/workshop-pass11/yamaha-2023-suspension/fork-baseline-v1.procedure.json",
+      "sha256": "5d954b69df96e680e8bc1c5912212e83baf8b2f2ef58d37e7378232a5cf7e409",
+      "source_id": "yamaha-us-2023-yz450f-oem",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 6,
+      "review_status": "APPROVED",
+      "template_sha256": "554ff36650ce0d8eeb2d172669f1e51469c9b23163a0ba3c8ffa21d5929b25cf"
+    },
+    {
+      "path": "docs/research/workshop-pass11/yamaha-2023-suspension/fork-oil-seals-bushings-v1.procedure.json",
+      "sha256": "30483874e1654a6584269fe96eb08d7a9ced059c8d2e09a76ee8fa0adbe933f6",
+      "source_id": "yamaha-us-2023-yz450f-oem",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 53,
+      "review_status": "APPROVED",
+      "template_sha256": "bc868eab85d2f5c705807d8a05fc1ba577de07b1fa5d2ead16c84ea3b2324f51"
+    },
+    {
+      "path": "docs/research/workshop-pass11/yamaha-2023-suspension/rider-sag-preload-v1.procedure.json",
+      "sha256": "4b9d85edd8f9e9ab18e888606971a15dcffe6707a69cfc43ecb96eb8b78fb37b",
+      "source_id": "yamaha-us-2023-yz450f-oem",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 7,
+      "review_status": "APPROVED",
+      "template_sha256": "5f7833f006ff6f7180451ed9c88026dab2b2568cc56be28e48031f9e5d41328c"
+    },
+    {
+      "path": "docs/research/workshop-pass11/yamaha-2023-suspension/shock-baseline-v1.procedure.json",
+      "sha256": "1f02d4e28b88c9264060727b8c061771226d856e6ff279f49910d7b808a563ce",
+      "source_id": "yamaha-us-2023-yz450f-oem",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 6,
+      "review_status": "APPROVED",
+      "template_sha256": "ab31503f1be37b89667065ad1acedcecbd241b83a68dc3201a3eac3a99f5b0e3"
+    }
+  ],
+  "independent_review": {
+    "path": "docs/research/workshop-pass11/yamaha-2023-suspension/independent-review-v1.json",
+    "sha256": "7acc07970aed7a6c9a5b52a6d4260cf830b56044ac57cb17d0af0b7b15b33cfe",
+    "status": "APPROVED"
+  }
+}

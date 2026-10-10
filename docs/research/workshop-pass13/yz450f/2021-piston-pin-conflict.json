@@ -1,0 +1,26 @@
+{
+  "status": "UNRESOLVED",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2021,
+    "region": "US",
+    "variant": "standard"
+  },
+  "interface": "Piston-pin installation lubricant",
+  "source": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-11_02.pdf",
+  "source_sha256": "d322a59a3df2dd9431047d5416f18f73bee530a0ce6a86b60f8b3ae2c1f5eca9",
+  "evidence": [
+    {
+      "pdf_page": 222,
+      "claim": "Molybdenum disulfide oil in dedicated installation TIP"
+    },
+    {
+      "pdf_page": 223,
+      "claim": "Engine oil E icon points to piston pin2 in installation diagram"
+    }
+  ],
+  "action": "Hold full reassembly candidate; no numerical or lubricant inference from other years",
+  "affected_artifact": "2021-top-end-bench-v1.procedure.json",
+  "artifact_sha256": "21f5764cc34f6b45075eff516722743881f7ff237511352bce272ab919fff554"
+}

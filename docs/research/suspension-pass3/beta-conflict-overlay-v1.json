@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "beta-2023-c46-new-evidence-conflict-v1",
+  "reviewed_at": "2026-09-13",
+  "status": "SUPERSEDING_CONFLICT_HOLD",
+  "supersedes_review_of": {
+    "path": "beta-2023-c46-bench-rebuild-v1.procedure.json",
+    "sha256": "c78129b46dd47858453a2b056c975677da47c57cfefc5d4a1d161269b50ce911"
+  },
+  "runtime_decision": "Do not expose conflicting numeric service steps as uncontested executable guidance. Keep historical review unchanged. Resolve or qualify the conflict explicitly before renewed approval.",
+  "supplemental_sources": [
+    {
+      "id": "beta-2023-race-supplement",
+      "url": "https://betausagallery.com/wp-content/uploads/2023/02/Supplementary-sheet-of-owner-manual-RR-2T-Racing-my-23.pdf",
+      "sha256": "6ce6c23abf0c64b337d4d14befaaac29ce8772f51bf6a3d0426802c06517eb2e",
+      "local_path": "C:/Users/kylej/AppData/Local/Temp/beta-2023-race-supplement.pdf",
+      "attribution": "Betamotor / Beta USA support link 98",
+      "scope": "RR 2T Racing MY23; PDF4-5 visually reviewed."
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "final-gas-charge",
+      "bench_source_pdf_page": 39,
+      "bench_value": "150 psi / 10 bar",
+      "supplement_pdf_page": 4,
+      "supplement_value": "147 PSI / 10 Atmospheres",
+      "assessment": "No source-stated temperature, gauge/absolute reference, tolerance, or factory/service distinction found. Numeric proximity is not evidence of equivalence.",
+      "resolution": "UNRESOLVED"
+    },
+    {
+      "id": "oil-product",
+      "bench_source_pdf_page": 35,
+      "bench_value": "Liqui Moly Shock Fluid 2.5-3W or equivalent",
+      "supplement_pdf_page": 4,
+      "supplement_value": "KYB Shock Oil K2C",
+      "assessment": "Different named recommendations. No explicit cross-reference or equivalence declaration found; nominal weight alone cannot prove interchangeable fluid.",
+      "resolution": "UNRESOLVED"
+    },
+    {
+      "id": "high-speed-baseline-direction",
+      "supplement_pdf_page": 5,
+      "values": {
+        "English_Italian_French_Dutch_Spanish": "1.5 turns from fully open",
+        "German": "1.5 turns from fully closed"
+      },
+      "assessment": "Do not invent a language-priority correction. Existing bench companion restores recorded settings rather than this disputed baseline.",
+      "resolution": "NOT_USED"
+    },
+    {
+      "id": "spring-rate-unit",
+      "supplement_pdf_page": 4,
+      "supplement_value": "5.2 N/mm for 250/300",
+      "owner_pdf_page": 12,
+      "owner_value": "5.2 daN/mm for RR250/300",
+      "assessment": "Scope and unit mismatch retained; no inferred unit correction or spring recommendation.",
+      "resolution": "NOT_USED"
+    }
+  ],
+  "frozen_artifacts_modified": false,
+  "database_writes": false
+}

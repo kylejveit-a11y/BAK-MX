@@ -1,0 +1,751 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-yz450f-2026-shock-spring-preload-sag-v1",
+  "component": "shock",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Change the stock shock spring and set measured preload and rider sag",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete stock sealed shock spring exchange, bike refit and measured preload/rider-sag closure. Optional springs restricted to Yamaha exact listed applications. No internal shock or eye bearing service.",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      38,
+      101,
+      115,
+      116,
+      123,
+      124,
+      125,
+      126,
+      127,
+      185,
+      186,
+      188,
+      189,
+      190,
+      191,
+      306,
+      307,
+      308,
+      396,
+      397
+    ],
+    "printed_pages": [
+      "1-26",
+      "3-17",
+      "4-1 to4-5",
+      "4-63",
+      "4-66 to4-69",
+      "7-1 to7-3",
+      "3-31",
+      "3-32",
+      "4-64",
+      "10-3",
+      "10-4"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Yamaha115/116/185/186/396/397 rendered and visually reviewed; Motion Pro08-0608 both pages rendered. Tool technique is supplemental, not an assertion of model fit. Root independently reviewed OEM115/116/397 and both tool pages; approved after explicit sag direction, selectable OEM spring identities and tool assembly warnings were included."
+  },
+  "applicability": {
+    "included": "Exact stockUS2026YZ450F shock with OEM standard or exact OEM-listed optional rear spring; eyes/gas/oil circuits remain assembled.",
+    "excluded": [
+      "Other years/models",
+      "Aftermarket shock or spring not in exact Yamaha list",
+      "Internal shock service",
+      "Bearing/seal disassembly",
+      "Leaking or damaged shock"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "required_tools": [
+    {
+      "name": "Secure maintenance stand plus separate swingarm support",
+      "size": null
+    },
+    {
+      "name": "Calibrated torque wrench",
+      "size": "Accurate across4–56 N·m for touched joints"
+    },
+    {
+      "name": "Hand tools fitting actual stock body/tank and shock mounting fasteners",
+      "size": "Hex sizes not specified by source; do not infer from thread size"
+    },
+    {
+      "name": "Fuel-safe transfer pump, approved container, absorbent cloths and supplied fuel-joint covers",
+      "size": null
+    },
+    {
+      "name": "Clean bench and labeled hardware trays",
+      "size": null
+    },
+    {
+      "name": "Motion Pro08-0608 compressor, appropriate eye adapter and fitting pin; verify actual eye/spring fit and maker assembly before use",
+      "spec": null
+    },
+    {
+      "name": "Correct preload-ring spanner, spring-length ruler, sag ruler and helper to stabilize rider/bike",
+      "spec": null
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "Molybdenum disulfide grease",
+      "purpose": "Upper/lower mounting-bolt circumference and threads",
+      "source_pdf_page": 190
+    },
+    {
+      "name": "Choose one exact OEM spring: 52N/mm BR9-22212-00; end I.D. mark Yellow",
+      "purpose": "OEM397 option; choose by measured setup, not weight inference"
+    },
+    {
+      "name": "Choose one exact OEM spring: 54N/mm BR9-22212-10; end I.D. mark Pink",
+      "purpose": "OEM397 option; choose by measured setup, not weight inference"
+    },
+    {
+      "name": "Choose one exact OEM spring: 56N/mm BR9-22212-A0; end I.D. mark White",
+      "purpose": "OEM397 option; choose by measured setup, not weight inference"
+    },
+    {
+      "name": "Choose one exact OEM spring: 58N/mm BR9-22212-B0; end I.D. mark Gold",
+      "purpose": "OEM397 option; choose by measured setup, not weight inference"
+    },
+    {
+      "name": "Choose one exact OEM spring: 60N/mm BR9-22212-40; end I.D. mark Brown",
+      "purpose": "OEM397 option; choose by measured setup, not weight inference"
+    }
+  ],
+  "renewal_policy": "Replacement spring identified by exact OEM part/rate and fit; retained serviceable spring guides. No new mounting seals unless separately serviced.",
+  "preflight": [
+    "Correct spring and actual compressor fit established before removing shock.",
+    "Qualified operator familiar with compressed-spring tools; inspect assembled tool against its maker instructions.",
+    "Independent swingarm support, safe fuel transfer and clean parts storage available."
+  ],
+  "critical_stop_conditions": [
+    "Unsupported bike/swingarm or mismatched/incorrectly assembled compressor.",
+    "Damaged spring/retainer, shock leakage or bent rod.",
+    "Preload needed outside1.5–18.0mm or rider sag cannot reach90–100mm; select appropriate listed spring and repeat before closure.",
+    "Unlatched/leaking fuel joint or incomplete mounting closure."
+  ],
+  "steps": [
+    {
+      "id": "prepare",
+      "title": "Support the bike and swingarm",
+      "instruction": "Stop the engine and let the bike cool. Clean the work area and secure the bike on a maintenance stand with the rear wheel off the ground. Arrange separate support for the swingarm so it cannot fall when the lower shock bolt is removed. Keep fuel work away from ignition sources. Record old spring identity, installed length and rebound/high/low compression settings before alteration.",
+      "depends_on": [],
+      "source_pdf_pages": [
+        188,
+        307
+      ],
+      "verification": [
+        "Bike stable; rear wheel raised; swingarm support ready; fuel-handling tools ready."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=188",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=307"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow"
+    },
+    {
+      "id": "subseat",
+      "title": "Open the sub-seat",
+      "instruction": "Release its quick fastener and lift the sub-seat first; it is tethered to the main seat. Open the fuel cap and transfer the tank fuel with a fuel-safe pump into a suitable container, then secure the cap.",
+      "depends_on": [
+        "prepare"
+      ],
+      "source_pdf_pages": [
+        38,
+        126,
+        307
+      ],
+      "verification": [
+        "Sub-seat tether not strained; fuel contained."
+      ],
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": true
+    },
+    {
+      "id": "body",
+      "title": "Remove access panels",
+      "instruction": "Remove the main-seat bolts and slide the seat rearward. Remove the left/right side covers, keeping their bolts and collars labeled. Slide the right cover out of its upper and lower locating slots instead of pulling the tabs apart.",
+      "depends_on": [
+        "subseat"
+      ],
+      "source_pdf_pages": [
+        123,
+        124,
+        126,
+        127
+      ],
+      "verification": [
+        "Seat and two side covers removed; hardware locations retained."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=123",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=124",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=126",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=127"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": true
+    },
+    {
+      "id": "shrouds",
+      "title": "Expose the tank",
+      "instruction": "Release the air-filter-case cover ribs by pressing the duct sides inward and lifting the rear; slide the cover rearward to release the front projection. Leave the filter installed. Remove the left/right shroud bolts and shrouds, retaining their collars.",
+      "depends_on": [
+        "body"
+      ],
+      "source_pdf_pages": [
+        101,
+        125,
+        126
+      ],
+      "verification": [
+        "Air-filter-case cover and shrouds removed; filter undisturbed."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=101",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=125",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=126"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": true
+    },
+    {
+      "id": "tank-disconnect",
+      "title": "Disconnect the tank",
+      "instruction": "Unplug the fuel-pump connector. Put cloths below and around the fuel-hose joint for residual pressure. Slide the connector cover back, press its two release buttons, and separate the joint by hand. Fit the supplied joint covers immediately to both openings.",
+      "depends_on": [
+        "shrouds"
+      ],
+      "source_pdf_pages": [
+        306,
+        307
+      ],
+      "verification": [
+        "Pump disconnected; both fuel openings capped; no forced hose tools."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=306",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=307"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": true
+    },
+    {
+      "id": "tank-remove",
+      "title": "Lift the tank clear",
+      "instruction": "Remove the tank mounting fasteners, retaining the collars/dampers in their original locations, and lift the tank away. Support it so its weight does not rest on the fuel-pump mounting surface. Leave the pump installed in the tank.",
+      "depends_on": [
+        "tank-disconnect"
+      ],
+      "source_pdf_pages": [
+        306,
+        307
+      ],
+      "verification": [
+        "Tank supported; mounts accounted for; pump untouched."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=306",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=307"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": true
+    },
+    {
+      "id": "shock-lower",
+      "title": "Release the lower shock mount",
+      "instruction": "Identify the lower shock mounting bolt in the diagram. Support the swingarm and remove the lower mounting nut and bolt, keeping their hardware identified. Keep supporting the swingarm after the bolt is out; do not allow it to drop.",
+      "depends_on": [
+        "tank-remove"
+      ],
+      "source_pdf_pages": [
+        185,
+        188
+      ],
+      "verification": [
+        "Lower hardware retained and labeled; swingarm still supported."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=185",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=188"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow"
+    },
+    {
+      "id": "shock-out",
+      "title": "Lift out the sealed shock",
+      "instruction": "Support the shock, remove its upper mounting nut and bolt, then remove the shock assembly. Retain the mount collars in their original positions. Keep the mounting seals/bearings assembled; the spring is changed next. Keep the nitrogen valve and shock body closed, away from heat and damage.",
+      "depends_on": [
+        "shock-lower"
+      ],
+      "source_pdf_pages": [
+        185,
+        188
+      ],
+      "verification": [
+        "Shock supported on the bench; both mounts accounted for; sealed assembly and mount seals undisturbed."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=185",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=188"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow"
+    },
+    {
+      "id": "inspect",
+      "title": "Check the assembly before refitting",
+      "instruction": "Inspect the visible rod and body for bending, damage or leakage, and the spring, spring guides, mounting bearings and bolts for damage or wear. Record any defect. A damaged rod or leaking shock requires assembly replacement according to this manual; shock body/rod defects are outside this spring-change guide. Do not refit a defective assembly as ready for use.",
+      "depends_on": [
+        "shock-out"
+      ],
+      "source_pdf_pages": [
+        188,
+        189
+      ],
+      "verification": [
+        "Rod/body/spring/guides/mounts/hardware condition recorded; defects require separate repair or replacement."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=188",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=189"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow"
+    },
+    {
+      "id": "spring-unload",
+      "title": "Measure the unloaded spring",
+      "instruction": "Clean ring threads. Loosen the locknut and back off the adjusting ring until spring clearance exists, as Yamaha115 specifies. Measure and record free length. Keep the damper, gas valve and shaft untouched. Identify the lower and upper spring guides against PDF185/186 before disturbing retention.",
+      "source_pdf_pages": [
+        115,
+        185,
+        186
+      ],
+      "verification": [
+        "No remaining ring preload",
+        "Free length and guide orientation recorded"
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha exact spring/setup source",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=115"
+        }
+      ],
+      "depends_on": [
+        "inspect"
+      ]
+    },
+    {
+      "id": "spring-remove",
+      "title": "Release the spring with controlled support",
+      "instruction": "Follow Motion Pro08-0608 photos: adjustable plates must be beneath the lower tool plate; tighten the TOOL pull-rod-to-lower-plate assembly fasteners to10ftlb per tool page2; this is not a bike fastener torque. Verify actual adapter/pin fit. If using the threaded-clevis attachment, fully insert the OEM bolt but do not tighten it into the clevis, as tool page1 warns. Then lock spring plates with their6mm screws. Compress with the30mm nut only until the Yamaha lower guide can clear. Remove the unloaded guide, then release tool load gradually and remove spring/upper guide. Never open the damper to remove the spring.",
+      "source_pdf_pages": [
+        185,
+        186
+      ],
+      "verification": [
+        "Correct tool assembly and fitted retention",
+        "Guide unloaded before removal",
+        "Tool released before spring handled"
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha exact spring/setup source",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=185"
+        },
+        {
+          "title": "Motion Pro compressor instructions; tool technique only",
+          "url": "https://www.motionpro.com/download/i08-0608_instructions"
+        }
+      ],
+      "depends_on": [
+        "spring-unload"
+      ]
+    },
+    {
+      "id": "spring-install",
+      "title": "Seat the replacement spring and guides",
+      "instruction": "Record replacement part/rate and measure its free length. Inspect and restore Yamaha upper/lower guides in their original illustrated orientation. Using the compressor in reverse, fit the spring and lower retainer; verify the guide is fully located before gradually releasing tool load. Remove the tool only after the spring is securely supported by its guides.",
+      "source_pdf_pages": [
+        185,
+        186,
+        397
+      ],
+      "verification": [
+        "Correct replacement and actual free length recorded",
+        "Both guides fully seated without damage"
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha exact spring/setup source",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=185"
+        },
+        {
+          "title": "Motion Pro compressor instructions; tool technique only",
+          "url": "https://www.motionpro.com/download/i08-0608_instructions"
+        }
+      ],
+      "depends_on": [
+        "spring-remove"
+      ]
+    },
+    {
+      "id": "initial-preload",
+      "title": "Set a measured starting preload",
+      "instruction": "Turn the clean adjusting ring to obtain installed length equal to measured free length minus7.0mm as the OEM standard starting point. One ring turn changes length1.5mm, but confirm with a ruler. Yamaha permits1.5–18.0mm preload; do not exceed this range. Tighten the locknut against the adjuster; this source does not state a locknut torque. Record free length, installed length and their difference.",
+      "source_pdf_pages": [
+        115,
+        116,
+        397
+      ],
+      "verification": [
+        "Actual7.0mm starting preload recorded",
+        "Locknut secure and guides seated"
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha exact spring/setup source",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=115"
+        }
+      ],
+      "depends_on": [
+        "spring-install"
+      ]
+    },
+    {
+      "id": "lubricate",
+      "title": "Prepare the mounting bolts",
+      "instruction": "Clean the retained upper and lower shock bolts and apply molybdenum disulfide grease to their circumference and threaded portions. Keep the mounting seals, O-rings and bearings assembled; this step does not call for removing or greasing a bearing outer race.",
+      "depends_on": [
+        "initial-preload"
+      ],
+      "source_pdf_pages": [
+        185,
+        190
+      ],
+      "verification": [
+        "Upper and lower bolts greased with the specified molybdenum disulfide grease; no damaged mounting parts reused."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=185",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=190"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow"
+    },
+    {
+      "id": "shock-in",
+      "title": "Refit the assembly",
+      "instruction": "Position and support the shock in its original orientation with the retained mount collars correctly seated. Install the upper bolt from the bike's right side. Raise the supported swingarm to align the lower mount, and install its bolt from the left side. Refit the corresponding mounting hardware without forcing misaligned parts.",
+      "depends_on": [
+        "lubricate"
+      ],
+      "source_pdf_pages": [
+        185,
+        190
+      ],
+      "verification": [
+        "Upper bolt entered from right; lower from left; both mounting locations aligned; original hardware placement matched."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=185",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=190"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow"
+    },
+    {
+      "id": "torque",
+      "title": "Tighten both shock mounts",
+      "instruction": "Tighten the upper shock mounting nut to 56 N·m and the lower shock mounting nut to 53 N·m. Record each result separately. These values apply to the shock mounts shown; the linkage fasteners remain untouched.",
+      "depends_on": [
+        "shock-in"
+      ],
+      "source_pdf_pages": [
+        185,
+        190,
+        191
+      ],
+      "verification": [
+        "Upper56 N·m and lower53 N·m recorded; both mounts secured."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=185",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=190",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=191"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow"
+    },
+    {
+      "id": "tank-install",
+      "title": "Reconnect the fuel system",
+      "instruction": "Refit the tank on its retained dampers/collars. Tighten its two front mounting bolts to 8 N·m and the tank retaining screw to 4 N·m. Remove the temporary joint covers, push the fuel hose fully onto the pipe until it clicks, and slide the connector cover back into its locked position. Keep the hose holder correctly oriented, with no kink or pinch. Reconnect the pump plug.",
+      "depends_on": [
+        "torque"
+      ],
+      "source_pdf_pages": [
+        306,
+        308
+      ],
+      "verification": [
+        "Tank front bolts8 N·m/retaining screw4 N·m; hose latched/covered/routed; pump plug connected."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=306",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=308"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": true
+    },
+    {
+      "id": "body-install",
+      "title": "Refit the panels and seat",
+      "instruction": "Locate the radiator-guard projections in the shroud holes, then install the shrouds at 7 N·m. Refit the air-filter-case cover by engaging its projection and both ribs. Slide side-cover tabs into their slots; the right-cover rib sits under the rear-fender rib. Tighten ordinary left/right side-cover bolts to 7 N·m and the two seat bolts to 13 N·m. Refit the sub-seat with its tether untwisted, then press, rotate and secure its quick fastener.",
+      "depends_on": [
+        "tank-install"
+      ],
+      "source_pdf_pages": [
+        38,
+        101,
+        123,
+        124,
+        125,
+        126,
+        127
+      ],
+      "verification": [
+        "Tabs/ribs seated; shrouds/side-cover bolts7 N·m; seat bolts13 N·m; quick fastener locked."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=38",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=101",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=123",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=124",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=125",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=126",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=127"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": true
+    },
+    {
+      "id": "closeout",
+      "title": "Close the job",
+      "instruction": "Restore fuel safely and secure the fuel cap. Check the fuel connection for leakage, the pump connector and body-panel seating, and account for tools and removed hardware. Confirm both shock mounts are secured before removing the separate swingarm support and lowering the bike from the stand. Record the removal/refit and any remaining fault; the shock internals remain unserviced. Perform the following measured sag/preload checks before declaring setup complete.",
+      "depends_on": [
+        "body-install"
+      ],
+      "source_pdf_pages": [
+        188,
+        190,
+        191,
+        308
+      ],
+      "verification": [
+        "Fuel system closed without leaks; panels secured; both shock mounts complete; supports removed only after mounting closure; outstanding faults recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=188",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=190",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=191",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=308"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow"
+    },
+    {
+      "id": "sag-measure",
+      "title": "Measure rider sag at the actual reference points",
+      "instruction": "Raise the rear wheel on the stand and measure a from axle center to the triangle mark on the rear fender, using Yamaha396 picture. Lower the bike; with a helper stabilizing it and the rider astride, measure b between the same points. Record a, b and a minus b. The target is90–100mm; do not substitute a weight estimate or a different fender point.",
+      "source_pdf_pages": [
+        396
+      ],
+      "verification": [
+        "Two actual lengths and calculated sag recorded"
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha exact spring/setup source",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=396"
+        }
+      ],
+      "depends_on": [
+        "closeout"
+      ]
+    },
+    {
+      "id": "sag-adjust",
+      "title": "Adjust preload and remeasure until the setup qualifies",
+      "instruction": "Sag above100mm calls for more preload (shorter installed spring); sag below90mm calls for less preload (longer installed spring). If sag is outside90–100mm, raise the rear wheel, loosen the locknut and alter the ring setting. Retighten the locknut, measure actual installed spring length and verify free minus installed remains1.5–18.0mm. Repeat the same a/b rider measurement after lowering. Record each change and final measurements. If the target cannot be reached within this preload range, a different listed spring and repeat of this spring-change route are required; do not record this step complete with an out-of-range result.",
+      "source_pdf_pages": [
+        115,
+        116,
+        396,
+        397
+      ],
+      "verification": [
+        "Final measured preload within1.5–18.0mm",
+        "Final actual rider sag90–100mm",
+        "Locknut secure after adjustment"
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha exact spring/setup source",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=115"
+        }
+      ],
+      "depends_on": [
+        "sag-measure"
+      ]
+    },
+    {
+      "id": "spring-damping-close",
+      "title": "Record spring-related damping and final checks",
+      "instruction": "For a softer spring Yamaha397 suggests one or two rebound clicks out; for a stiffer spring one or two clicks in, then reassess on a controlled run. Record an explicit chosen change from the original setting, or unchanged for the same rate. Never force beyond the actual adjuster range. Compression may also need later refinement; do not invent an automatic setting. Confirm smooth rear travel, secure guides/rings/mounts, no leaks and recheck sag after initial spring use.",
+      "source_pdf_pages": [
+        116,
+        397,
+        115
+      ],
+      "verification": [
+        "Actual rebound setting/change recorded",
+        "Spring, guides and locknut secure",
+        "Smooth travel and all mount/fuel closures confirmed"
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha exact spring/setup source",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=116"
+        }
+      ],
+      "depends_on": [
+        "sag-adjust"
+      ]
+    }
+  ],
+  "publication_status": "LOCAL_REVIEWED_NOT_IMPORTED",
+  "reviewed_at": "2026-09-13T19:36:58.365Z",
+  "exclusions_detail": [
+    "No shock gas/oil pressure circuit opening.",
+    "No force, rider-weight spring-rate mapping or unlisted spring fit inferred.",
+    "Physical-bike QA not performed."
+  ],
+  "integration_status": "ROOT_SOURCE_AND_CLOSURE_REVIEW_APPROVED",
+  "prerequisites": [
+    "Record original spring identity, installed length and all damping adjusters before removal.",
+    "Stock56N/mm BR9-22212-A0; exact OEM optional52 BR9-22212-00,54 BR9-22212-10,58 BR9-22212-B0,60 BR9-22212-40 (N/mm), PDF397. Selection is based on measured setup, not inferred weight compatibility."
+  ],
+  "affected_components": [
+    "shock",
+    "suspension"
+  ],
+  "operation_dependencies": [
+    {
+      "artifact": "docs/research/suspension-pass2/shock-remove-refit-v1.procedure.json",
+      "sha256": "f92b64f514e879387d98cbd37136c13796c286ca0a26128227ad62f4ab033bdd",
+      "kind": "approved_access_and_closure"
+    }
+  ],
+  "supplemental_sources": [
+    {
+      "id": "motionpro-spring-2020",
+      "url": "https://www.motionpro.com/download/i08-0608_instructions",
+      "local_pdf_path": "C:/Users/kylej/AppData/Local/Temp/chassis7/spring.pdf",
+      "sha256": "c4c5d65976e51c6c710d3beab79c327961abd78eb628f22fbeed4c8b25c0b7c3",
+      "locators": [
+        "pages1-2 tool assembly and spring retention photographs"
+      ],
+      "local_path": "C:/Users/kylej/AppData/Local/Temp/chassis7/spring.pdf",
+      "attribution": "Motion Pro, Inc., official tool instructions",
+      "scope": "Standard tool operation only; exact Yamaha geometry, stack, grease exceptions, depths and closure control. Actual adapter fit must be checked; no model compatibility assertion."
+    }
+  ],
+  "entry_state": [
+    "Assembled stock bike; correct replacement spring and suitable fitting compressor ready."
+  ],
+  "exit_state": [
+    "New spring seated and retained, shock refitted; actual free/installed lengths and1.5–18mm preload recorded; actual axle/fender rider sag90–100mm recorded; damping change and final fuel/mount closure recorded."
+  ],
+  "spring_options": [
+    {
+      "rate_n_mm": 52,
+      "part_number": "BR9-22212-00",
+      "id_mark": "Yellow",
+      "standard": false,
+      "source_pdf_page": 397
+    },
+    {
+      "rate_n_mm": 54,
+      "part_number": "BR9-22212-10",
+      "id_mark": "Pink",
+      "standard": false,
+      "source_pdf_page": 397
+    },
+    {
+      "rate_n_mm": 56,
+      "part_number": "BR9-22212-A0",
+      "id_mark": "White",
+      "standard": true,
+      "source_pdf_page": 397
+    },
+    {
+      "rate_n_mm": 58,
+      "part_number": "BR9-22212-B0",
+      "id_mark": "Gold",
+      "standard": false,
+      "source_pdf_page": 397
+    },
+    {
+      "rate_n_mm": 60,
+      "part_number": "BR9-22212-40",
+      "id_mark": "Brown",
+      "standard": false,
+      "source_pdf_page": 397
+    }
+  ]
+}

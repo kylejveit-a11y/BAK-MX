@@ -1,0 +1,1076 @@
+{
+  "schema_version": 1,
+  "bike": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2025,
+    "variant": "standard",
+    "region": "US",
+    "catalog_submodel": "CRF250RAC"
+  },
+  "retrieved_at": "2026-09-13",
+  "status": "research_staged_incomplete",
+  "fitment_evidence": {
+    "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+    "statement": "Catalog identifies CRF250RAC as 50-State; assembly pages explicitly identify 2025 CRF250RAC."
+  },
+  "coverage": {
+    "catalog_assembly_count": 50,
+    "assemblies_with_parts": 3,
+    "part_rows": 61,
+    "complete_bike": false,
+    "missing_assembly_count": 47,
+    "note": "Includes every distinct displayed part row from three assemblies only. Catalog alternatives and nested wheel/hub subassemblies must not be summed into an installed-bike bill of materials. No callout 18 is displayed in rear-wheel table."
+  },
+  "catalog_index": [
+    {
+      "name": "TOOLS",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "AIR CLEANER",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "FUEL TANK (CRF250R/CRF250RWE)",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "THROTTLE BODY",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "FRONT FENDER",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "MARK@STRIPE",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "REAR FENDER",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "SEAT@SIDE COVER",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "WIRE HARNESS",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "FRONT BRAKE CALIPER",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "FRONT BRAKE MASTER CYLINDER",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "REAR BRAKE CALIPER",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "REAR BRAKE MASTER CYLINDER",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "RADIATOR",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "RADIATOR SHROUD (CRF250R/CRF250RWE)",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "CLUTCH",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "GEARSHIFT DRUM",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "TRANSMISSION",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "BATTERY",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "GENERATOR",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "STARTER MOTOR",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "BALANCER",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "CAM CHAIN@TENSIONER",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "CAMSHAFT@VALVE",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "CRANKCASE",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "CRANKSHAFT@PISTON",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "CYLINDER",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "CYLINDER HEAD",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "CYLINDER HEAD COVER",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": true
+    },
+    {
+      "name": "GASKET KIT A",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "GASKET KIT B",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "LEFT CRANKCASE COVER (CRF250R/CRF250RX)",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "OIL PUMP",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "RIGHT CRANKCASE COVER @WATER PUMP",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "STARTING CLUTCH",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "MUFFLER",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "PEDAL",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "STEP@STAND",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "FRAME",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "STEERING STEM",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "SWINGARM",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "HANDLE LEVER@SWITCH@CABLE",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "HANDLEBAR@TOP BRIDGE",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "CAUTION LABELS",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "COLOR TABLE",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "CUSHION ARM",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "FRONT FORK",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "REAR SHOCK ABSORBER",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": false
+    },
+    {
+      "name": "FRONT WHEEL",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": true
+    },
+    {
+      "name": "REAR WHEEL",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r",
+      "parts_extracted": true
+    }
+  ],
+  "assemblies": [
+    {
+      "assembly_id": "F781917",
+      "name": "FRONT WHEEL",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/front-wheel?submodel=crf250rac",
+      "coverage": "all_distinct_displayed_part_rows",
+      "row_count": 23,
+      "diagram_redistributed": false
+    },
+    {
+      "assembly_id": "F781911",
+      "name": "CYLINDER HEAD COVER",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/cylinder-head-cover?submodel=crf250rac",
+      "coverage": "all_distinct_displayed_part_rows",
+      "row_count": 6,
+      "diagram_redistributed": false
+    },
+    {
+      "assembly_id": "F781936",
+      "name": "REAR WHEEL",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "coverage": "all_distinct_displayed_part_rows",
+      "row_count": 32,
+      "diagram_redistributed": false
+    }
+  ],
+  "parts": [
+    {
+      "assembly_id": "F781917",
+      "assembly_name": "FRONT WHEEL",
+      "callout": "1",
+      "part_number": "06440-MEN-840",
+      "description": "Front spoke 240mm",
+      "quantity": 36,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/front-wheel?submodel=crf250rac",
+      "torque_fact_id": "2aa3719d-2641-4887-8221-5f3fd5309abd",
+      "torque_nm": 3.7,
+      "torque_source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952525chen.pdf",
+      "torque_source_locator": "Printed 2-4; PDF page 24; specified fastener table",
+      "torque_mapping_basis": "Explicit front/rear spoke fact; applies to spoke tightening, not every component of spoke set",
+      "torque_scope": "Front and rear spoke torque: 3.7 N\u00b7m. OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence. Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+    },
+    {
+      "assembly_id": "F781917",
+      "assembly_name": "FRONT WHEEL",
+      "callout": "2",
+      "part_number": "42714-KA3-710",
+      "description": "Valve cap",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/front-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781917",
+      "assembly_name": "FRONT WHEEL",
+      "callout": "3",
+      "part_number": "44301-K95-AG0",
+      "description": "Front axle",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/front-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781917",
+      "assembly_name": "FRONT WHEEL",
+      "callout": "4",
+      "part_number": "44311-MKE-A60",
+      "description": "Left wheel collar",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/front-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781917",
+      "assembly_name": "FRONT WHEEL",
+      "callout": "5",
+      "part_number": "44312-KRN-A30",
+      "description": "Right wheel collar",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/front-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781917",
+      "assembly_name": "FRONT WHEEL",
+      "callout": "6",
+      "part_number": "44620-MKE-A60",
+      "description": "Distance collar",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/front-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781917",
+      "assembly_name": "FRONT WHEEL",
+      "callout": "7",
+      "part_number": "44635-MKE-A60",
+      "description": "Front hub",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/front-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781917",
+      "assembly_name": "FRONT WHEEL",
+      "callout": "8",
+      "part_number": "44650-MKE-AF0",
+      "description": "Front wheel subassembly",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/front-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781917",
+      "assembly_name": "FRONT WHEEL",
+      "callout": "9",
+      "part_number": "44701-MKE-AF1",
+      "description": "Rim 21x1.60",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/front-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781917",
+      "assembly_name": "FRONT WHEEL",
+      "callout": "10",
+      "part_number": "44711-K95-AA2",
+      "description": "Tire 80/100-21",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/front-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null,
+      "supersedes": [
+        "44711-K95-AA1"
+      ]
+    },
+    {
+      "assembly_id": "F781917",
+      "assembly_name": "FRONT WHEEL",
+      "callout": "11",
+      "part_number": "44712-KRN-E21",
+      "description": "Tube 80/100-21",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/front-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781917",
+      "assembly_name": "FRONT WHEEL",
+      "callout": "12",
+      "part_number": "44713-KS6-641",
+      "description": "Tire flap",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/front-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null,
+      "supersedes": [
+        "44713-MEB-771"
+      ]
+    },
+    {
+      "assembly_id": "F781917",
+      "assembly_name": "FRONT WHEEL",
+      "callout": "13",
+      "part_number": "44715-MA0-770",
+      "description": "Bead stopper 1.60",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/front-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781917",
+      "assembly_name": "FRONT WHEEL",
+      "callout": "14",
+      "part_number": "45351-K95-AG1",
+      "description": "Front brake disk",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/front-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781917",
+      "assembly_name": "FRONT WHEEL",
+      "callout": "15",
+      "part_number": "51614-MKE-A00ZA",
+      "description": "Black disk cover",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/front-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781917",
+      "assembly_name": "FRONT WHEEL",
+      "callout": "16",
+      "part_number": "90105-MAC-680",
+      "description": "Disk bolt 6x19",
+      "quantity": 6,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/front-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781917",
+      "assembly_name": "FRONT WHEEL",
+      "callout": "17",
+      "part_number": "90112-K95-AG0",
+      "description": "Front axle bolt",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/front-wheel?submodel=crf250rac",
+      "torque_fact_id": "759c3301-228b-4a6e-b469-41a617fa0e6f",
+      "torque_nm": 78,
+      "torque_source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952525chen.pdf",
+      "torque_source_locator": "Printed 2-4; PDF page 24; specified fastener table",
+      "torque_mapping_basis": "Exact front-axle-bolt designation",
+      "torque_scope": "Front axle bolt: 78 N\u00b7m. OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence. Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+    },
+    {
+      "assembly_id": "F781917",
+      "assembly_name": "FRONT WHEEL",
+      "callout": "18",
+      "part_number": "90114-MAC-780",
+      "description": "Disk-cover bolt",
+      "quantity": 2,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/front-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781917",
+      "assembly_name": "FRONT WHEEL",
+      "callout": "19",
+      "part_number": "90301-473-003",
+      "description": "U/flange nut 6mm",
+      "quantity": 6,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/front-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781917",
+      "assembly_name": "FRONT WHEEL",
+      "callout": "20",
+      "part_number": "91062-MAC-681",
+      "description": "Bearing 6904",
+      "quantity": 2,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/front-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781917",
+      "assembly_name": "FRONT WHEEL",
+      "callout": "21",
+      "part_number": "91201-KS6-004",
+      "description": "Seal 26x37x7",
+      "quantity": 2,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/front-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781917",
+      "assembly_name": "FRONT WHEEL",
+      "callout": "22",
+      "part_number": "94001-08000-0S",
+      "description": "Hex nut 8mm",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/front-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781917",
+      "assembly_name": "FRONT WHEEL",
+      "callout": "23",
+      "part_number": "94111-08000",
+      "description": "Spring washer 8mm",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/front-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781911",
+      "assembly_name": "CYLINDER HEAD COVER",
+      "callout": "1",
+      "part_number": "12310-K95-AA0",
+      "description": "Cylinder head cover",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/cylinder-head-cover?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781911",
+      "assembly_name": "CYLINDER HEAD COVER",
+      "callout": "2",
+      "part_number": "12316-K95-A20",
+      "description": "Breather plate",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/cylinder-head-cover?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781911",
+      "assembly_name": "CYLINDER HEAD COVER",
+      "callout": "3",
+      "part_number": "12391-K95-A20",
+      "description": "Head-cover gasket",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/cylinder-head-cover?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781911",
+      "assembly_name": "CYLINDER HEAD COVER",
+      "callout": "4",
+      "part_number": "90017-KRN-A40",
+      "description": "Head-cover bolt",
+      "quantity": 2,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/cylinder-head-cover?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781911",
+      "assembly_name": "CYLINDER HEAD COVER",
+      "callout": "5",
+      "part_number": "90020-GHB-620",
+      "description": "Flange bolt 6x12",
+      "quantity": 3,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/cylinder-head-cover?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781911",
+      "assembly_name": "CYLINDER HEAD COVER",
+      "callout": "6",
+      "part_number": "90543-MV9-670",
+      "description": "Mounting rubber",
+      "quantity": 2,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/cylinder-head-cover?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "1",
+      "part_number": "06420-KRN-710",
+      "description": "Inside spoke",
+      "quantity": 16,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": "2aa3719d-2641-4887-8221-5f3fd5309abd",
+      "torque_nm": 3.7,
+      "torque_source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952525chen.pdf",
+      "torque_source_locator": "Printed 2-4; PDF page 24; specified fastener table",
+      "torque_mapping_basis": "Explicit front/rear spoke fact; applies to spoke tightening, not every component of spoke set",
+      "torque_scope": "Front and rear spoke torque: 3.7 N\u00b7m. OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence. Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "2",
+      "part_number": "06421-KRN-710",
+      "description": "Outside spoke",
+      "quantity": 16,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": "2aa3719d-2641-4887-8221-5f3fd5309abd",
+      "torque_nm": 3.7,
+      "torque_source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952525chen.pdf",
+      "torque_source_locator": "Printed 2-4; PDF page 24; specified fastener table",
+      "torque_mapping_basis": "Explicit front/rear spoke fact; applies to spoke tightening, not every component of spoke set",
+      "torque_scope": "Front and rear spoke torque: 3.7 N\u00b7m. OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence. Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "3",
+      "part_number": "41201-MKE-A70",
+      "description": "Sprocket 49T",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null,
+      "alternative_group": "rear-sprocket-callout-3",
+      "installed_option": "unresolved"
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "3",
+      "part_number": "41203-MKE-A00",
+      "description": "Sprocket 50T",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null,
+      "alternative_group": "rear-sprocket-callout-3",
+      "installed_option": "unresolved"
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "3",
+      "part_number": "41204-MKE-A10",
+      "description": "Sprocket 51T",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null,
+      "alternative_group": "rear-sprocket-callout-3",
+      "installed_option": "unresolved"
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "4",
+      "part_number": "41231-KZ4-J20",
+      "description": "Bearing retainer",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "5",
+      "part_number": "42301-KRN-A30",
+      "description": "Rear axle",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "6",
+      "part_number": "42305-MKE-A50",
+      "description": "Left axle-collar",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "7",
+      "part_number": "42306-KZ4-J20",
+      "description": "Right axle-collar",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "8",
+      "part_number": "42311-MKE-A60",
+      "description": "Side collar",
+      "quantity": 2,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "9",
+      "part_number": "42620-MKE-A60",
+      "description": "Distance collar",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "10",
+      "part_number": "42635-MKE-AF0",
+      "description": "Rear hub",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "11",
+      "part_number": "42650-K95-AA0",
+      "description": "Rear wheel",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "12",
+      "part_number": "42701-K95-AA1",
+      "description": "Rim 19x1.85",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "13",
+      "part_number": "42711-K95-AA2",
+      "description": "Tire 100/90-19",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null,
+      "supersedes": [
+        "42711-K95-AA1"
+      ]
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "14",
+      "part_number": "42712-KRN-E21",
+      "description": "Tube 110/90-19",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "15",
+      "part_number": "42713-MEB-771",
+      "description": "Tire flap",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "16",
+      "part_number": "42714-KA3-710",
+      "description": "Valve cap",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "17",
+      "part_number": "42715-KA2-680",
+      "description": "Bead stopper",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "19",
+      "part_number": "43351-K95-AG1",
+      "description": "Brake disk",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "20",
+      "part_number": "90105-MAC-680",
+      "description": "Disk-bolt 6x19",
+      "quantity": 4,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "21",
+      "part_number": "90125-MKE-AF0",
+      "description": "Flat-socket screw",
+      "quantity": 6,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "22",
+      "part_number": "90301-473-003",
+      "description": "U/flange-nut 6mm",
+      "quantity": 4,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "23",
+      "part_number": "90305-KZ4-J20",
+      "description": "U-nut 22mm",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "24",
+      "part_number": "90309-MKE-AF1",
+      "description": "U-nut 8mm",
+      "quantity": 6,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "25",
+      "part_number": "90401-KZ4-J20",
+      "description": "Washer 22x35x2",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "26",
+      "part_number": "90465-MC4-000",
+      "description": "Washer 8mm",
+      "quantity": 6,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "27",
+      "part_number": "91051-KZ4-J21",
+      "description": "Bearing 69052RS",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "28",
+      "part_number": "91052-KZ4-J21",
+      "description": "Bearing 6905RS",
+      "quantity": 2,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "29",
+      "part_number": "91251-KZ4-J21",
+      "description": "Seal 32x43x7",
+      "quantity": 2,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "30",
+      "part_number": "94001-08000-0S",
+      "description": "Hex-nut 8mm",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    },
+    {
+      "assembly_id": "F781936",
+      "assembly_name": "REAR WHEEL",
+      "callout": "31",
+      "part_number": "94111-08000",
+      "description": "Spring-washer 8mm",
+      "quantity": 1,
+      "quantity_basis": "catalog_suggested_quantity_per_diagram",
+      "source_url": "https://www.revzilla.com/oem/honda/2025-honda-crf250r/rear-wheel?submodel=crf250rac",
+      "torque_fact_id": null,
+      "torque_nm": null
+    }
+  ],
+  "limitations": [
+    "47 assembly tables remain unextracted; this is not every bolt on the motorcycle.",
+    "Descriptions are concise factual paraphrases; diagrams and original prose are not redistributed.",
+    "Generic nuts and bead stoppers have no torque mapped without verified exact fastener placement.",
+    "Supersession duplicate rows consolidated by assembly, callout and current part number.",
+    "MotoSport returned generic homepage; HondaPartsHouse and Partzilla access returned 403; RevZilla browser displayed generic error page but indexed catalog tables were accessible.",
+    "No database mutation performed."
+  ]
+}

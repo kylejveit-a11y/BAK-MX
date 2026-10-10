@@ -1,0 +1,49 @@
+{
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2025,
+    "region": "US",
+    "variant": "standard"
+  },
+  "status": "APPROVED_INTEGRATED_BY_ROOT",
+  "database_writes": false,
+  "artifacts": [
+    {
+      "path": "engine-removal-refit-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "ac4ff7e9f086bd069a4c1008c8e09076a64c93afdbef204501ecbc048975157d",
+      "source_id": "yamaha-2025-d02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 70,
+      "review_status": "APPROVED"
+    },
+    {
+      "path": "frame-bearing-renewal-reassembly-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "41e9d90bfe0017e793dd22f662076528d5e980f70bde6b6d56e57dc5eaeec8c5",
+      "source_id": "yamaha-2025-d02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 151,
+      "review_status": "APPROVED"
+    }
+  ],
+  "independent_review": {
+    "path": "independent-review-v1.json",
+    "sha256": "8a4bc0869760c2dd86eb83f580346cc1da8cd966a27b760da0cd9ad81dc30624"
+  },
+  "validation": "Read-only --approved validator verifies independent review hash, exact source and both artifact bindings; frozen builders refuse overwrite.",
+  "next": "Preserve these source snapshots. New assembled-bike top-end composition in separate yamaha-2025-engine-journey folder; physical validation remains separate."
+}

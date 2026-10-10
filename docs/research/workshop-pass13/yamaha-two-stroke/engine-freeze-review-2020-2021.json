@@ -1,0 +1,34 @@
+{
+  "status": "APPROVED_FOR_BOUNDED_RUNTIME",
+  "original_peer_review": {
+    "path": "docs/research/workshop-pass13/yamaha-roster/independent-yz250-engine-2020-2021-review.json",
+    "sha256": "d628eaf26c2e0a2dc56824394b49fccb1a0cfabdfd063829d48e385acb0e9132"
+  },
+  "freeze_transition": "Only publication/source approval metadata changed under explicit peer status-only authorization.",
+  "artifacts": [
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "candidate_sha256": "584023468fceb8d9634ab3873520572b7e50e8d23b228175bb41deca1e0a21dc",
+      "approved_artifact_sha256": "6021c0911d41cc842098335b6f8c88b9367dc1571a80a0511224d554cdbb31e1",
+      "source_sha256": "112713a7256a234953896fb34d9ddfd308a897c1c623fe29f95a344080a4ce2e"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "candidate_sha256": "15092c7f7cecba999489ee4bb902f8f448affd30bf3f247071f697d3a57055a1",
+      "approved_artifact_sha256": "e1ea01986c22d158e2c4519cc45a65e402dde20fbb4ae314785b8b36a6c2f95a",
+      "source_sha256": "2cd32cdb7b01212b35ca3ddab57c60cf47873ad6ef19f18ad57b98e779e41ab7"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED",
+  "reviewer": "/root",
+  "artifact_sha256": "52b78df8eba15d9c060b5c1b8cb2957a4ad3f950ecd10951f934eec275194c2a",
+  "reviewed_candidate_sha256": "d3f375c0539add024dbb189a3381272ac8f1eeb3a41ad5cd7e0df10a7f45598e",
+  "approval_only_change": "Publication and source review status only; all47 instructions unchanged.",
+  "source_sha256": "9a8605e26301ba1d0d1d21e93d23cca721bdcdbece6188775626a8819332aa9f",
+  "reviewed_steps": "All47 instructions and verification compared with approved2024 plus exact2023 source review.",
+  "text_pages": [
+    244,
+    260,
+    265,
+    266,
+    269,
+    270
+  ],
+  "visual_pages": [
+    22,
+    242,
+    247,
+    250,
+    258,
+    263,
+    264,
+    275,
+    276
+  ],
+  "findings": [],
+  "review_notes": [
+    "Primary120Nm engine oil; boss105Nm LOCTITE; shiftseal0–0.1mm LS confirmed.",
+    "Case30/12Nm LOCTITE and bearing0mm/drive-seal0–0.5mm, newclips, gearbox M-oil and fork L/C/R verified.",
+    "Crank0.03mm and61.93–62mm, pump6/5Nm LOCTITE verified. Bounded exclusions remain explicit."
+  ]
+}

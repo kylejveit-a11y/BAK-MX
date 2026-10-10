@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2026-yz450f-fork-harshness-trial-v1",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "publication_status": "APPROVED",
+  "title": "Compare fork compression for harshness",
+  "completeness": "One symptom-specific stock damping comparison, with measured rear sag prerequisite, OEM baseline, one change, repeat observation and recorded keep/revert decision. No automatic optimum or internal rebuild claim.",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      114,
+      115,
+      396,
+      398
+    ],
+    "printed_pages": [
+      "3-30",
+      "3-31",
+      "10-3",
+      "10-5"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Root visually reviewed PDF396/398/399/400; adjuster identity/baselines inherited from hash-bound previously reviewed guide. Independently reviewed and approved; scope remains a bounded operation."
+  },
+  "applicability": {
+    "included": "Exact stock US2026 YZ450F, standard spring and valving, serviceable assemblies.",
+    "excluded": [
+      "Other years, models or markets",
+      "Revalved suspension or spring/air conversions",
+      "Internal repairs, spring/preload changes and oil changes",
+      "High-speed compression adjustment in this guide"
+    ]
+  },
+  "affected_components": [
+    "fork",
+    "shock",
+    "suspension",
+    "linkage",
+    "swingarm",
+    "wheels",
+    "tires"
+  ],
+  "required_tools": [
+    {
+      "name": "Stable maintenance stand and helper for sag measurements"
+    },
+    {
+      "name": "Metric tape or sag gauge and settings journal"
+    },
+    {
+      "name": "Correctly fitting tools for stock adjusters"
+    },
+    {
+      "name": "Precision torque driver accurate at 1.3 Nm for fork bleed screws"
+    }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+    "Resolve mechanical defects and confirm exact stock components.",
+    "Source diagrams available; rider can repeat a manageable section."
+  ],
+  "critical_stop_conditions": [
+    "Leakage, binding or damaged controls require service, not clicker compensation.",
+    "Expected baseline cannot be set without forcing a control."
+  ],
+  "entry_state": [
+    "Serviceable assembled bike with stock spring/valving and the specified symptom."
+  ],
+  "exit_state": [
+    "A documented baseline/change comparison and final chosen setting; optimum not guaranteed."
+  ],
+  "operation_dependencies": [
+    {
+      "artifact": "docs/research/expansion/yamaha/workshop-2026/fork-clicker-baseline.procedure.json",
+      "sha256": "727eda2ac7063d230fe86b150b71267eaeded5370298e334be4d0da8fe1301bb",
+      "role": "Previously reviewed exact adjuster identity, direction, units and baselines"
+    }
+  ],
+  "steps": [
+    {
+      "id": "match",
+      "title": "Describe the symptom",
+      "instruction": "Stiff across the stroke on jumps or large/medium bumps, or stiff at initial movement. This does not cover rough/binding movement from damaged tubes or bushings. Confirm stock serviceable suspension, correct wheel/fork alignment and no leaks or binding. Record rider, terrain, tire setup and the observed motion. Keep these conditions consistent across the comparison.",
+      "source_pdf_pages": [
+        398
+      ],
+      "depends_on": [],
+      "verification": [
+        "Record the requested observations and actual settings before continuing."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original summary of OEM setting facts; controlled comparison, records and keep/revert decision are explicit BAK workflow adaptations."
+    },
+    {
+      "id": "air-release",
+      "title": "Release built-up fork air first",
+      "instruction": "Before interpreting initial stiffness that develops during a run, securely raise the front wheel off the ground on a maintenance stand. Identify the small bleed screw at the top of each leg in PDF115, remove it to release internal pressure, then refit and tighten each bleed screw to 1.3 Nm. Do not confuse it with the compression adjuster. Record whether this resolves the stiffness before continuing the clicker comparison. If pressure relief resolves the symptom, use the resolved route below; do not make an unnecessary clicker change.",
+      "source_pdf_pages": [
+        115
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=115"
+      ],
+      "depends_on": [
+        "match"
+      ],
+      "verification": [
+        "Both bleed screws restored at 1.3 Nm; observed response recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "OEM air-release instruction PDF115; recorded response is BAK workflow.",
+      "branches": [
+        {
+          "id": "air-resolved",
+          "label": "Air release resolved the stiffness",
+          "next_step": "retain-or-restore",
+          "condition": "The recorded check after air release shows the initial stiffness is resolved. No damping adjustment is needed."
+        }
+      ]
+    },
+    {
+      "id": "sag",
+      "title": "Measure the rear starting position",
+      "instruction": "With the rear wheel off the ground on a stable stand, measure rear axle centre to the triangle mark on the rear fender (A). Lower the bike and have a helper balance it with the rider astride the seat, then measure between the same points (B). Record A, B and A minus B. The source starting range is 90-100 mm. If outside it, complete the separate spring/preload setup before this damping comparison; this guide does not turn the preload rings.",
+      "source_pdf_pages": [
+        396,
+        398
+      ],
+      "depends_on": [
+        "air-release"
+      ],
+      "verification": [
+        "Record the requested observations and actual settings before continuing."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=396",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=398"
+      ],
+      "origin": "Original summary of OEM setting facts; controlled comparison, records and keep/revert decision are explicit BAK workflow adaptations."
+    },
+    {
+      "id": "baseline",
+      "title": "Record and set the comparison baseline",
+      "instruction": "Record all four current fork clicker counts before changing anything. Identify rebound at each leg bottom and compression at each leg top in the source diagrams. Gently turn each to its full-hard clockwise reference without forcing it, then set rebound 9 clicks out and compression 12 clicks out on BOTH legs. Record matching counts. This returns the selected component to the OEM baseline for a controlled comparison; it does not promise an optimum for this rider.",
+      "source_pdf_pages": [
+        114,
+        115
+      ],
+      "depends_on": [
+        "sag"
+      ],
+      "verification": [
+        "Record the requested observations and actual settings before continuing."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=114",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=115"
+      ],
+      "origin": "Original summary of OEM setting facts; controlled comparison, records and keep/revert decision are explicit BAK workflow adaptations."
+    },
+    {
+      "id": "reference-run",
+      "title": "Observe the baseline",
+      "instruction": "Ride a controlled, familiar section appropriate to your ability and the symptom. Use a repeatable pace and line; do not create a larger jump or hazard to force the symptom. Stop and record what the bike did, where in the stroke it happened and the terrain. The test-and-record protocol is a BAK workflow adaptation, not an OEM prescribed speed or lap count.",
+      "source_pdf_pages": [
+        396,
+        398
+      ],
+      "depends_on": [
+        "baseline"
+      ],
+      "verification": [
+        "Record the requested observations and actual settings before continuing."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original summary of OEM setting facts; controlled comparison, records and keep/revert decision are explicit BAK workflow adaptations."
+    },
+    {
+      "id": "adjust",
+      "title": "Make one source-backed change",
+      "instruction": "Stop and securely support the bike before adjusting. At the top of BOTH fork legs, turn compression counterclockwise 2 clicks from the recorded 12-out baseline to 14 clicks out. Leave rebound at 9 out and all other settings unchanged. Record the resulting setting. Never force an adjuster against a stop; if the expected clicks cannot be obtained, resolve the control fault instead of making a different unrecorded change.",
+      "source_pdf_pages": [
+        114,
+        115,
+        398
+      ],
+      "depends_on": [
+        "reference-run"
+      ],
+      "verification": [
+        "Record the requested observations and actual settings before continuing."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=114",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=115",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=398"
+      ],
+      "origin": "Original summary of OEM setting facts; controlled comparison, records and keep/revert decision are explicit BAK workflow adaptations."
+    },
+    {
+      "id": "compare",
+      "title": "Repeat and compare",
+      "instruction": "Repeat the same manageable section with similar pace and line. Record whether the original symptom improved, stayed the same or worsened, and any new symptom. If handling worsens, end the test and restore the recorded baseline before another ride. Do not combine an oil, spring, ride-height or second damping change into this comparison.",
+      "source_pdf_pages": [
+        396,
+        398
+      ],
+      "depends_on": [
+        "adjust"
+      ],
+      "verification": [
+        "Record the requested observations and actual settings before continuing."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original summary of OEM setting facts; controlled comparison, records and keep/revert decision are explicit BAK workflow adaptations."
+    },
+    {
+      "id": "retain-or-restore",
+      "title": "Save the result or restore the baseline",
+      "instruction": "If you selected the air-release-resolved route, record that the original clicker settings remain unchanged and the symptom resolved; no baseline reset, damping change or comparison run was performed. Otherwise: Stop and support the bike. Keep the tested setting only if your recorded comparison supports it with no new problem. Otherwise restore it: Return both top compression adjusters clockwise 2 clicks to the recorded 12-out baseline. Record the final setting, decision and riding conditions. This completes one comparison, not proof that the suspension is fully dialled in. A different symptom needs its matching diagnostic branch; do not automatically repeat this change beyond the tested pair.",
+      "source_pdf_pages": [
+        114,
+        115,
+        398
+      ],
+      "depends_on": [
+        "compare"
+      ],
+      "verification": [
+        "Record the requested observations and actual settings before continuing."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original summary of OEM setting facts; controlled comparison, records and keep/revert decision are explicit BAK workflow adaptations."
+    }
+  ]
+}

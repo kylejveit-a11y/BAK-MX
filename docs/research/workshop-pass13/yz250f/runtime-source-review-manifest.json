@@ -1,0 +1,347 @@
+{
+  "status": "APPROVED",
+  "author_review_manifest": {
+    "path": "docs/research/workshop-pass13/yz250f/source-review-manifest.json",
+    "sha256": "630128b8849903d7df2b0ddc69949705daac702b6905546386d88c34b2aa49ea"
+  },
+  "sources": [
+    {
+      "id": "yamaha-us-2022-yz250f-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-13_02.pdf",
+      "sha256": "17e7cc840c86a2afe05fbe38a5197778932470ad4d57e0a78b08eed3e386bc4f",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\B7B-2819U-13_02.pdf"
+    },
+    {
+      "id": "yamaha-us-2023-yz250f-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BSB-2819U-10_02.pdf",
+      "sha256": "d0a100edf6abb20bc424fe6f0924e007993abb0a81c0893ea09088efa3689217",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\BSB-2819U-10_02.pdf"
+    },
+    {
+      "id": "yamaha-us-2024-yz250f-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\BMF-2819U-10_02.pdf"
+    },
+    {
+      "id": "yamaha-us-2025-yz250f-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D01-2819U-10_02.pdf",
+      "sha256": "fc8a31623daae1c746126688fac22c0b0698611a03dc98083876d2a3516a96da",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\D01-2819U-10_02.pdf"
+    },
+    {
+      "id": "yamaha-us-2026-yz250f-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/DR8-2819U-10_02.pdf",
+      "sha256": "1a4cbe46f057fdedfcb50bde0bc7f67180eb649725f8a18f756dd6d12588bec9",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\DR8-2819U-10_02.pdf"
+    },
+    {
+      "id": "yamaha-us-2021-yz250f-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf",
+      "sha256": "c2f65141ab95bdbe20d7bdd027bfdde93d2d79dbcb4ff0ccb54140ed7fb0578b",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\B7B-2819U-12_02.pdf"
+    },
+    {
+      "id": "yamaha-us-2020-yz250f-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf",
+      "sha256": "0a680d50262a0cab7323e3b97bf0565d358a726852610ee41ed48d747a4cd054",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\B7B-28199-11_02.pdf"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "2020/fork-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2020-yz250f-oem",
+      "sha256": "9efc1068d3e30381d6acd816e3a9a47c50784859516bae562ec9a1f2ac026a11",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 6
+    },
+    {
+      "path": "2020/shock-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2020-yz250f-oem",
+      "sha256": "c0950c2e5bacf0c9d8d6123d1661eb150420da413eb7e0bd18cb01cf4b261e30",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 6
+    },
+    {
+      "path": "2020/rider-sag-preload-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2020-yz250f-oem",
+      "sha256": "dce4610b17c9bd0d32bf7a5a7d92a37b766b26d00dae4ad92276ca146acaa489",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 5
+    },
+    {
+      "path": "2021/fork-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2021-yz250f-oem",
+      "sha256": "beeb6dd6696caaa9276ea5bb62508aad3eaad93483c7701b062e037d5d30e185",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 6
+    },
+    {
+      "path": "2021/shock-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2021-yz250f-oem",
+      "sha256": "9d9b670659d7c9ad52af465b2dad534748a2d7b33ef3a39ea7fce21182cf05f5",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 6
+    },
+    {
+      "path": "2021/rider-sag-preload-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2021-yz250f-oem",
+      "sha256": "c08ed68a7b137f12c03902f54ccab43463c5cc37754ceb1f04f382c2269c7cc5",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 7
+    },
+    {
+      "path": "2022/fork-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2022-yz250f-oem",
+      "sha256": "f4cc9a98b550007914698706f6ff36ad4c05e81ef9ec91df23f13ab6fdb19163",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "step_count": 6
+    },
+    {
+      "path": "2022/shock-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2022-yz250f-oem",
+      "sha256": "38d83fc9c4efe316fad2e7b4856cf38981262bac738787cd63e817ef79cc7277",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "step_count": 6
+    },
+    {
+      "path": "2022/rider-sag-preload-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2022-yz250f-oem",
+      "sha256": "d8ecbbef1d75bc6d043a2906ab5c91c4c9bc5a8ab36161705c41e6e7899a2624",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "step_count": 7
+    },
+    {
+      "path": "2023/fork-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2023-yz250f-oem",
+      "sha256": "89cff87ea4bb3df333c09b5aaa3d35f4997136adf1d6cb0d62bf1935e70ad1ae",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "step_count": 6
+    },
+    {
+      "path": "2023/shock-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2023-yz250f-oem",
+      "sha256": "882b0fde7a6fbd824655302e4d40ca5f1e8d32fb445590922f258d4dc8485498",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "step_count": 6
+    },
+    {
+      "path": "2023/rider-sag-preload-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2023-yz250f-oem",
+      "sha256": "5d0cfaea5a1944dc8422ff30055a00b55149b82de484a764b6abd58265dddfae",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "step_count": 7
+    },
+    {
+      "path": "2024/fork-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2024-yz250f-oem",
+      "sha256": "820d12e423dd575bb9c7abbe1b31761853abcbecd52b42d02acf5d2b04f05d5f",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "step_count": 6
+    },
+    {
+      "path": "2024/shock-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2024-yz250f-oem",
+      "sha256": "ad4f403dac28de1e640e602ebccf5e5ce40d9f600645caab843aab914db9306b",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "step_count": 6
+    },
+    {
+      "path": "2024/rider-sag-preload-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2024-yz250f-oem",
+      "sha256": "4185e79759f838b1c1b4491973aa4e0356ab75a71628bf0eb1d1412652de08bf",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "step_count": 7
+    },
+    {
+      "path": "2025/fork-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2025-yz250f-oem",
+      "sha256": "2ef8787bfd3e1f3e47895ff55aa509a6bbe09d09b014d7b57ea6f6c7ce6d91af",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "step_count": 6
+    },
+    {
+      "path": "2025/shock-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2025-yz250f-oem",
+      "sha256": "073da61e95c865b75b14b4e65ac72964196ad92b8bba45092b6789cbeadcc38d",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "step_count": 6
+    },
+    {
+      "path": "2025/rider-sag-preload-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2025-yz250f-oem",
+      "sha256": "3da69a84552cca1ca935b58b94e194f467a737e43a5f92aac9bcee74ed3bcb09",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "step_count": 7
+    },
+    {
+      "path": "2026/fork-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2026-yz250f-oem",
+      "sha256": "5fb3f69fc469f77d9c1139eb83b53cfdfaac2085dabc66da8568bee0e9ff2336",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "step_count": 6
+    },
+    {
+      "path": "2026/shock-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2026-yz250f-oem",
+      "sha256": "45ebae1c24d7aa0f7f3d5128fbb8e3ed7cae0e205cb938d7c9890852329e0bbd",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "step_count": 6
+    },
+    {
+      "path": "2026/rider-sag-preload-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2026-yz250f-oem",
+      "sha256": "7b6e85323f1cf28e5eb179f1e0d5a9a93baf9ce06d639a1185aa973187a16a53",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "step_count": 7
+    }
+  ]
+}

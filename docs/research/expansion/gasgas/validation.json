@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-09-13",
+  "fact_status_counts": {
+    "APPROVED": 769,
+    "PENDING": 613,
+    "DUPLICATE": 2,
+    "EXCLUDED_VARIANT": 14
+  },
+  "checks": [
+    "unique fact IDs within source target",
+    "explicit threadlocker preserved",
+    "final angle present",
+    "no oil-nozzle-name lubricant inference",
+    "review provenance/hash complete for approved facts",
+    "German instruction document hashes matched local originals and same-model fork identity"
+  ],
+  "problems": []
+}

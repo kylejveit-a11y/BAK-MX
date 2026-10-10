@@ -1,0 +1,40 @@
+{
+  "target": "2022 Yamaha YZ450F standard US",
+  "source_sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608",
+  "status": "INDEPENDENT_SOURCE_REVIEW_IN_PROGRESS_NOT_BLANKET_APPROVAL",
+  "engine_access_visual_pages": [
+    192,
+    194,
+    196,
+    275
+  ],
+  "lower_visual_pages": [
+    232,
+    234,
+    240,
+    244,
+    249,
+    250,
+    257,
+    258,
+    259,
+    260
+  ],
+  "lower_text_pages": [
+    237,
+    238,
+    239,
+    242,
+    247,
+    248,
+    252,
+    254,
+    255
+  ],
+  "notes": [
+    "Exact final candidates still require instruction/closure review.",
+    "ECU page275 visible8Nm conflict retained; no majority selection.",
+    "Oilcheckbolt page89 names interface but named closure torque not established.",
+    "Source pages rendered in Temp only."
+  ]
+}

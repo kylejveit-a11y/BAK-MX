@@ -1,0 +1,34 @@
+{
+  "checked_at": "2026-09-13T18:34:47.060Z",
+  "project_ref": "yzvrujffiktfserrgkcb",
+  "bundle_sources": [
+    {
+      "file": "approved-bundle.json",
+      "sha256": "5401d54e377304076ecdd25c12ed3b4744b92b7a34df4a29e7c60e3cf19b8475"
+    },
+    {
+      "file": "approved-bundle-wave2.json",
+      "sha256": "c6c318331a4bf8eba5d7225108f9d40328c75c947b8fb8103088a13332d2a2bc"
+    },
+    {
+      "file": "approved-bundle-catalog-resume.json",
+      "sha256": "9e44e1f639372c53fba767434393619638076f11a5959f7a71bc48ba1b340234"
+    }
+  ],
+  "part_occurrences": 23357,
+  "group_rows": 943,
+  "complete_catalogs_including_ktm": 14,
+  "reviewed_expansion_records": 12680,
+  "published_expansion_records": 12680,
+  "checks": [
+    "npm run typecheck: passed",
+    "npm test: 67 passed",
+    "normalize-parts-research: passed",
+    "build-parts-inventory: passed",
+    "report-expansion: passed"
+  ],
+  "database_writes_performed": false,
+  "engineering_coverage_complete": false,
+  "launch_ready": false,
+  "catalog_resume_source": "gasgas/RESUME_VALIDATION_20260913.json"
+}

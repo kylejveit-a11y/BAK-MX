@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "status": "RESEARCH_PARTIAL_EXACT_EXTRACTION_GAP",
+  "target": {
+    "manufacturer": "Beta",
+    "model": "300 RR",
+    "model_year": 2023,
+    "region": "US",
+    "variant": "Race Edition"
+  },
+  "decision": "Do not stitch bench guide into an asserted complete bike workflow. Preserve verified exact mount values, explicit extraction gap and superseding source conflict overlay.",
+  "sources": [
+    {
+      "url": "https://store-peenhlhyij.mybigcommerce.com/content/SUPPORT_PDF%27s/2023%20Beta%20250%20300%20RR%20Service%20Manual.pdf",
+      "local_path": "C:/Users/kylej/AppData/Local/Temp/beta-2023-engine.pdf",
+      "sha256": "d0d92351299bae06b91be6617bf05cc9c5b2134ac046751e7b5f8bb9393d8dc6",
+      "pdf_pages": [
+        18
+      ]
+    },
+    {
+      "url": "https://store-peenhlhyij.mybigcommerce.com/content/2023_Owner%20manual_RR%26RR-Race_2Stroke.pdf",
+      "local_path": "C:/Users/kylej/AppData/Local/Temp/beta-2023-owner.pdf",
+      "sha256": "e7b94994619b5bef81c5e1a65b0c60aa70a3f74516f380f0b9b58283a904599f",
+      "pdf_pages": [
+        77,
+        88
+      ]
+    }
+  ],
+  "id": "beta-access-review-v2",
+  "reviewed_at": "2026-09-13",
+  "confirmed_facts": [
+    {
+      "source_index": 1,
+      "pdf_page": 88,
+      "item": "rear shock/frame",
+      "torque_nm": 50,
+      "threadlock": "medium strength",
+      "review": "Visually verified owner PDF88 table and PDF77 callouts"
+    },
+    {
+      "source_index": 1,
+      "pdf_page": 88,
+      "item": "rear shock/rocker arm",
+      "torque_nm": 50,
+      "threadlock": "not marked in table",
+      "review": "Visually verified owner PDF88 table and PDF77 callouts"
+    },
+    {
+      "source_index": 1,
+      "pdf_page": 88,
+      "item": "connecting rod/frame",
+      "torque_nm": 90,
+      "threadlock": "not marked in table",
+      "review": "Visually verified"
+    },
+    {
+      "source_index": 1,
+      "pdf_page": 88,
+      "item": "connecting rod/rocker arm",
+      "torque_nm": 90,
+      "threadlock": "not marked in table",
+      "review": "Visually verified"
+    },
+    {
+      "source_index": 1,
+      "pdf_page": 88,
+      "item": "rocker arm/swingarm",
+      "torque_nm": 90,
+      "threadlock": "not marked in table",
+      "review": "Visually verified"
+    }
+  ],
+  "missing_for_complete_operation": [
+    "Which access components, if any, must move for exact 2023 Race KYB body/reservoir clearance.",
+    "Verified extraction direction and swingarm/linkage support sequence.",
+    "Hardware placement and closure for whatever access components the proven route disturbs.",
+    "Race-specific sag target/reference still requires unambiguous source scope."
+  ],
+  "reviewed_leads": [
+    {
+      "url": "https://www.motosport.com/blog/2023-beta-300-rr-race-rear-shock-service-guide",
+      "decision": "Rejected as exact-operation authority",
+      "reason": "Named model article still uses conditional remote-reservoir/IFP language and unsupported midpoint clicker reset. It supplies no exact clearance route or illustrated fastener order."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=xeKZxk0cYZA",
+      "decision": "Adjacent-year lead only; not transferred",
+      "reason": "Title is 2024 Race Edition; exact 2023 chassis/applicability bridge not established; video mechanics not reviewed."
+    },
+    {
+      "url": "https://betausa.com/content/XTR%20Fork%20Kit%20InstallationPRINT.pdf",
+      "decision": "Excluded target",
+      "reason": "Xtrainer accessory operation does not establish RR Race extraction applicability."
+    }
+  ],
+  "supplemental_sources": [
+    {
+      "id": "beta-2023-race-supplement",
+      "url": "https://betausagallery.com/wp-content/uploads/2023/02/Supplementary-sheet-of-owner-manual-RR-2T-Racing-my-23.pdf",
+      "sha256": "6ce6c23abf0c64b337d4d14befaaac29ce8772f51bf6a3d0426802c06517eb2e",
+      "local_path": "C:/Users/kylej/AppData/Local/Temp/beta-2023-race-supplement.pdf",
+      "attribution": "Betamotor / Beta USA support link 98",
+      "scope": "RR 2T Racing MY23; PDF4-5 visually reviewed."
+    }
+  ]
+}

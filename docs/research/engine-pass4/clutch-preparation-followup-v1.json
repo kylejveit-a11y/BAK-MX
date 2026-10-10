@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-09-13",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "year": 2026,
+    "market": "US",
+    "configuration": "stock"
+  },
+  "status": "UNRESOLVED_AFTER_BOUNDED_ADDITIONAL_SEARCH",
+  "claim_id": "yamaha-yz450f-2026-torque-061",
+  "published_uuid": "a8317507-1cc3-5dab-a3bb-2501be6d2aef",
+  "sources": [
+    {
+      "id": "yamaha-us-existing",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+      "sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+      "locator": "PDF58 torque table; PDF258 installation text; PDF259 installation diagram",
+      "disposition": "EXISTING_CONFLICT_UNCHANGED",
+      "finding": "75Nm with oil in table/text conflicts with LT diagram callout. Existing independent visual review retained; not rebuilt."
+    },
+    {
+      "id": "yamaha-jp-2026",
+      "url": "https://www2.yamaha-motor.co.jp/Manual/pdf/mc/2026D033.pdf",
+      "local_path": "C:/Users/kylej/AppData/Local/Temp/2026D033.pdf",
+      "sha256": "8349d0d8e70693ee0724e26b465ab5631b696633994bd2aa39001ab93b411cd4",
+      "revision": "D03-28199-J0; QQS-CLT-100-D03; cover 2025.06",
+      "page_count": 168,
+      "locator": "PDF46 / printed2-11 top row; cover PDF1 full-service link",
+      "visual_review": true,
+      "disposition": "CORROBORATION_NOT_US_ERRATUM",
+      "finding": "Japanese clutch-boss table shows M20, quantity1,75Nm, staking and E/oil symbol. Supports oil side but is not a correction of US installation diagram; no cross-market assembly equivalence established."
+    },
+    {
+      "id": "yamaha-jp-web-service",
+      "url": "https://www.yamaha-motor.co.jp/mc/competition/HD032819UJ0J/",
+      "locator": "Linked from official Japanese PDF cover",
+      "disposition": "ACCESS_BLOCKED",
+      "finding": "Web tool could not open; normal urllib response contains Incapsula challenge resource rather than service content. No bypass attempted; no substantive source content reviewed."
+    },
+    {
+      "id": "motosport-2026-clutch",
+      "url": "https://www.motosport.com/blog/how-to-install-a-clutch-kit-on-a-2026-yamaha-yz450f-dirt-bike",
+      "locator": "Reinstall clutch stack and springs; Reassemble cover, oil, and check engagement",
+      "disposition": "NO_BOSS_PREPARATION_CLARIFICATION",
+      "finding": "Exact-year first-party shop guide concerns plates and pressure plate. Refers final torque to shop manual; gives no boss-nut oil/LT clarification. Its feel-based tightening language is not imported."
+    },
+    {
+      "id": "keefer-2026-conversion",
+      "url": "https://pulpmx.com/2026/04/26/exactly-what-you-need-for-the-cable-clutch-conversion-2026-yz450f/",
+      "author": "Kris Keefer",
+      "published": "2026-04-26",
+      "locator": "DIY parts; special actuator sleeve; labor involved",
+      "disposition": "MODIFIED_CONFIGURATION_NOT_BOSS_PREPARATION",
+      "finding": "Direct tuner-authored 2026 cable-conversion parts list and actuator modification. No stock boss-nut preparation. Page footer has unrelated spam links; ignored. No conversion spec or compatibility imported."
+    },
+    {
+      "id": "rekluse-library",
+      "url": "https://www.rekluse.com/document-library/",
+      "locator": "Tech Library fitment/SKU selection",
+      "disposition": "NO_EXACT_STOCK_CORRECTION_FOUND",
+      "finding": "Search surfaced aftermarket hub guides, including RMS7756 and75404042; their different hub/nut assemblies and torque values cannot settle OEM stock2026 preparation."
+    },
+    {
+      "id": "hinson-plate-kit",
+      "url": "https://www.hinsonracing.com/p345257-fs-clutch-kit?uid=345257%3A",
+      "locator": "FS616-8-2301 application chart and product description",
+      "disposition": "PLATE_FITMENT_ONLY",
+      "finding": "Component-maker plate kit fitment is not a stock boss-nut preparation instruction."
+    },
+    {
+      "id": "us2026-fiche",
+      "url": "https://www.supersmittys.com/Parts/Parts-Diagrams/yamaha/motorcycles/2026/yz450f-yz450ftl/clutch/9aece830-b14b-4e32-9d13-04a27910d3a6",
+      "locator": "Clutch assembly YZ450FTL",
+      "disposition": "PARTS_ONLY",
+      "finding": "Exact US2026 parts lead, no preparation instructions. Do not confuse primary nut item4 with clutch center nut."
+    },
+    {
+      "id": "nut-supersession-lead",
+      "url": "https://www.revzilla.com/oem/yamaha/2024-yamaha-yz450f-50th-anniversary-edition/clutch",
+      "locator": "Item22 nut90179-18010-00 supersedes90179-18015-00",
+      "disposition": "NON_TARGET_YEAR_PARTS_LEAD_ONLY",
+      "finding": "A replacement part listing does not supply a torque-condition bulletin or prove preparation unchanged for2026."
+    }
+  ],
+  "queries": [
+    "2026 YZ450F clutch boss nut Loctite engine oil 75 Nm",
+    "Yamaha D03-2819U clutch boss nut correction service bulletin",
+    "site.rekluse.com 2026 YZ450F installation clutch hub nut",
+    "site.hinsonracing.com 2026 YZ450F clutch installation nut",
+    "2026 YZ450F Loctite",
+    "D03-2819U correction",
+    "2026 YZ450F clutch nut torque",
+    "YZ450F clutch boss Loctite 2024 2025 2026",
+    "site.yamaha-motor.com YZ450F bulletin clutch",
+    "2026 YZ450F clutch nut site.thumpertalk.com",
+    "2026 YZ450F clutch nut site.vitalmx.com",
+    "YZ450F 90179-18010 loctite",
+    "2026 YZ450F clutch site.rockymountainatvmc.com",
+    "2026 YZ450F clutch technical bulletin",
+    "90179-18015 90179-18010 torque",
+    "YZ450F clutch nut oil loctite error"
+  ],
+  "decision": {
+    "resolve_conflict": false,
+    "publish_or_promote": false,
+    "database_writes": false,
+    "new_runtime_procedures": 0,
+    "reason": "Additional OEM oil corroboration does not identify or supersede the contradictory US LT installation callout. Component/tuner sources found do not address the exact stock joint. No applicable public OEM bulletin/erratum located in this bounded search.",
+    "remaining_evidence_needed": "Exact applicable Yamaha correction or documented qualified technical clarification identifying the stock joint, oil versus locking-agent preparation, relevant nut version and torque/staking conditions.",
+    "search_exhaustion_limit": "Public indexed leads searched here exhausted without resolution; not a claim that no dealer-only bulletin or unindexed clarification exists."
+  }
+}

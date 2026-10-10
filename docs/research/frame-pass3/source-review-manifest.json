@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "id": "frame-pass3-reviewed-procedures",
+  "reviewed_at": "2026-09-13",
+  "database_writes": false,
+  "sources": [
+    {
+      "id": "yamaha26",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+      "local_pdf_path": "C:/Users/kylej/AppData/Local/Temp/D03-2819U-10_02.pdf",
+      "sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "clutch-release-remove-refit-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "4e28e84a4e5362f78db88a8b7f26f723ed1e5047c15b1c27ea4ebb7ee23c7fec",
+      "source_id": "yamaha26",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "engine-remove-refit-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "d0e2c9546d7bdd05e7b9702df20d8edab462c15a5c1a4f0438e6c928c6bd3713",
+      "source_id": "yamaha26",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 56
+    },
+    {
+      "path": "front-wheel-remove-refit-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "75c5b6631fee6156b5d1b6dcca6e8b8511e9f829c6b1f418dc8ec2af2609173c",
+      "source_id": "yamaha26",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 7
+    },
+    {
+      "path": "rear-wheel-remove-refit-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "2a91e8d0b6d866b08ffb3662ff5bebbf0cc439b940c1c41453c0cb0feff1514c",
+      "source_id": "yamaha26",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 8
+    },
+    {
+      "path": "steering-bearing-inspection-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "a821af77bc9cfe69e8d9b4f36604cae2cb8128e8b3fd852ddeee7a3ca872fb65",
+      "source_id": "yamaha26",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 22
+    },
+    {
+      "path": "swingarm-linkage-remove-refit-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "78e75778e052bdc44df0e7bd265c6a6a358212223e4f69b548576cb116754f43",
+      "source_id": "yamaha26",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 19
+    }
+  ],
+  "full_frame_rebuild_complete": false,
+  "visual_pages_reviewed": [
+    64,
+    68,
+    72,
+    74,
+    76,
+    77,
+    98,
+    99,
+    111,
+    123,
+    129,
+    134,
+    137,
+    150,
+    152,
+    153,
+    180,
+    181,
+    183,
+    184,
+    187,
+    190,
+    192,
+    193,
+    195,
+    198,
+    208,
+    210,
+    212,
+    222,
+    254,
+    257,
+    296,
+    297,
+    310
+  ]
+}

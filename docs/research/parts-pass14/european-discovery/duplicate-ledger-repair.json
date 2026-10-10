@@ -1,0 +1,118 @@
+{
+  "verified_at": "2026-09-21T15:42:40.664356+00:00",
+  "reason": "Cached-resume branch carried normalized parts but omitted raw_duplicate_rows. Four existing assembly responses rechecked; no part, quantity or applicability changes.",
+  "artifacts": [
+    {
+      "path": "captures\\ktm\\250-sx-f-2024-1003029304.json",
+      "before_sha256": "4c1880f679e4e93107f6cba7768536a018d9c6cc67feeaa6ad88f879fc65f66f",
+      "after_sha256": "86523ccd2d7ea0031f5f9c55e00d90945d6623377e085f008fb79b453baf8383",
+      "assembly_id": "4668",
+      "source_url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/4668?modelidentifier=1003029304&isEngine=False",
+      "response_endpoint": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/ComponentGroupTemplateArticles_Read/4668?partType=Parts&idModel=1003029304",
+      "original_response_sha256": "f3702a9a39f87c8abdc3fc4033b1858964a4a659758c6679e9096f658a9c22c8",
+      "verification_response_sha256": "f3702a9a39f87c8abdc3fc4033b1858964a4a659758c6679e9096f658a9c22c8",
+      "response_bytes_identical": true,
+      "raw_rows": 381,
+      "unchanged_normalized_rows": 380,
+      "restored_duplicate_rows": [
+        {
+          "assembly_id": "4668",
+          "row": {
+            "ArticleNumber": "S64080000100000",
+            "SequenceNumber": 8,
+            "ArticleDescription": "Shim 8x12x0.2",
+            "Quantity": 0,
+            "IsSelected": false,
+            "Price": false,
+            "IsNew": false,
+            "ArticleAdditionalText": ""
+          }
+        }
+      ]
+    },
+    {
+      "path": "captures\\ktm\\250-sx-f-2025-1003417530.json",
+      "before_sha256": "0f89ed300c61816541472b326a3a7c1a411abf10b35797257a9280636d0e27c3",
+      "after_sha256": "de2a482e030c8f7ec8a0a12847511582dcc11f6d491593f61e78a193d56ec794",
+      "assembly_id": "4668",
+      "source_url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/4668?modelidentifier=1003417530&isEngine=False",
+      "response_endpoint": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/ComponentGroupTemplateArticles_Read/4668?partType=Parts&idModel=1003417530",
+      "original_response_sha256": "f3702a9a39f87c8abdc3fc4033b1858964a4a659758c6679e9096f658a9c22c8",
+      "verification_response_sha256": "f3702a9a39f87c8abdc3fc4033b1858964a4a659758c6679e9096f658a9c22c8",
+      "response_bytes_identical": true,
+      "raw_rows": 381,
+      "unchanged_normalized_rows": 380,
+      "restored_duplicate_rows": [
+        {
+          "assembly_id": "4668",
+          "row": {
+            "ArticleNumber": "S64080000100000",
+            "SequenceNumber": 8,
+            "ArticleDescription": "Shim 8x12x0.2",
+            "Quantity": 0,
+            "IsSelected": false,
+            "Price": false,
+            "IsNew": false,
+            "ArticleAdditionalText": ""
+          }
+        }
+      ]
+    },
+    {
+      "path": "captures\\ktm\\250-sx-f-2026-1003992693.json",
+      "before_sha256": "8e7788298c43e26c1a413fb81463e8064bd6114bce2bbaf9cf0d6d966b7631f1",
+      "after_sha256": "c1dc0ae341e680af445cf7d6d9143e27c7dde8e12aa5b57a02e46eddc9ee2e43",
+      "assembly_id": "4668",
+      "source_url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/4668?modelidentifier=1003992693&isEngine=False",
+      "response_endpoint": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/ComponentGroupTemplateArticles_Read/4668?partType=Parts&idModel=1003992693",
+      "original_response_sha256": "f3702a9a39f87c8abdc3fc4033b1858964a4a659758c6679e9096f658a9c22c8",
+      "verification_response_sha256": "f3702a9a39f87c8abdc3fc4033b1858964a4a659758c6679e9096f658a9c22c8",
+      "response_bytes_identical": true,
+      "raw_rows": 381,
+      "unchanged_normalized_rows": 380,
+      "restored_duplicate_rows": [
+        {
+          "assembly_id": "4668",
+          "row": {
+            "ArticleNumber": "S64080000100000",
+            "SequenceNumber": 8,
+            "ArticleDescription": "Shim 8x12x0.2",
+            "Quantity": 0,
+            "IsSelected": false,
+            "Price": false,
+            "IsNew": false,
+            "ArticleAdditionalText": ""
+          }
+        }
+      ]
+    },
+    {
+      "path": "captures\\ktm\\450-sx-f-2024-1003029294.json",
+      "before_sha256": "17843f4bb7c35b8025d08a039d4680b10ac59510c5200ae1e469bc2fb983dceb",
+      "after_sha256": "bc1ef176e3dd53cbef98e0dcdd44b91175cd0e348b9a379433053c1bb24942a0",
+      "assembly_id": "4668",
+      "source_url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/4668?modelidentifier=1003029294&isEngine=False",
+      "response_endpoint": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/ComponentGroupTemplateArticles_Read/4668?partType=Parts&idModel=1003029294",
+      "original_response_sha256": "f3702a9a39f87c8abdc3fc4033b1858964a4a659758c6679e9096f658a9c22c8",
+      "verification_response_sha256": "f3702a9a39f87c8abdc3fc4033b1858964a4a659758c6679e9096f658a9c22c8",
+      "response_bytes_identical": true,
+      "raw_rows": 381,
+      "unchanged_normalized_rows": 380,
+      "restored_duplicate_rows": [
+        {
+          "assembly_id": "4668",
+          "row": {
+            "ArticleNumber": "S64080000100000",
+            "SequenceNumber": 8,
+            "ArticleDescription": "Shim 8x12x0.2",
+            "Quantity": 0,
+            "IsSelected": false,
+            "Price": false,
+            "IsNew": false,
+            "ArticleAdditionalText": ""
+          }
+        }
+      ]
+    }
+  ]
+}

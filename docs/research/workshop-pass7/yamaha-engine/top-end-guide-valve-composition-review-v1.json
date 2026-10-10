@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED",
+  "base_sha256": "67e79fb759118435f2150c3f18fab128638b2752160a4ccbf5c25e4a2fc0e21e",
+  "head_sha256": "678ace2e72a45d24bc2ea80bfac7727d3fea5a98a6fec4e7373ae1524ecbb4bd",
+  "adaptations": [
+    {
+      "step_id": "engine-out--initial-record",
+      "original_instruction": "Record the exact stock engine identity, running condition and reason for this top-end work. Photograph hose, electrical and bracket routing before access. Prepare an independently supported engine bench and a controlled lift with a helper. This route retains serviceable original head, caps, cams, valves, guides and seats; it includes cylinder/piston checks, stem-seal renewal and supported pad adjustment. Review its repair exclusions before opening the engine.",
+      "reason": "New supported repair scope; mandatory specialist stage and downstream run-in identified before teardown."
+    },
+    {
+      "step_id": "head-renew--entry",
+      "original_instruction": "Start with the original cylinder head removed and cams out. This bench route renews all four guides and valves while retaining an undamaged original head and serviceable lifters. Arrange specialist valve-seat refacing before starting; this guide records its required result and does not teach seat cutting. Keep the two intake and two exhaust positions identified. Obtain four new guides, four sacrificial new titanium lapping valves, four separate new running valves and four new stem seals, all matched to the exact stock head.",
+      "reason": "Closes bench access using already completed composite phases; no repeated engine removal."
+    },
+    {
+      "step_id": "head-in--repair",
+      "original_instruction": "Confirm the original head, matching caps, cams, valves, guides and seats passed every included inspection, and that the installed cylinder/piston pair has an accepted recorded actual fit. Continue to head installation only with those results complete. If machining, resurfacing, valve/guide replacement, seat repair or head/cap/cam replacement is required, stop this operation with the engine open for a separately reviewed repair; those operations are excluded here. Saving a note does not turn a failed inspection into a pass.",
+      "reason": "Replaces prior reuse-only restriction with the completed source-reviewed new-guide/new-valve phase; excluded replacement heads remain excluded."
+    },
+    {
+      "step_id": "engine-in--final-checks",
+      "original_instruction": "Follow the oil-level procedure with the bike upright: warm oil to normal operating temperature, run for 10 seconds, stop and allow a few minutes to settle; level must be between window minimum and maximum mark. Check leaks, normal clutch/brake operation, throttle free play 3\u20136 mm and full return; turn the bars both ways and verify idle does not change. Record all mount torques, fluid quantities, chain slack and unresolved symptoms. Save the accepted top-end measurements with these installation checks. This records only the work actually performed; bottom-end or head-machining work is not included.",
+      "reason": "Accurate assembled-bike exit without false return-to-racing completion."
+    },
+    {
+      "step_id": "clearance-adjust--adjustment-scope",
+      "original_instruction": "Compare the four just-recorded cold clearances with intake0.10\u20130.17mm and exhaust0.15\u20130.22mm. If all four meet their range, choose \u201cAll four readings are in range \u2014 close up.\u201d Otherwise continue only for definite out-of-range readings with serviceable original stock valve-train parts and readable, supported OEM pad-chart inputs. Uncertain readings, unsupported pad numbers or a failed mechanical inspection are unresolved repair conditions; do not continue into assembly on a guess.",
+      "reason": "Aligns clearance contingency with reviewed replacement-valve scope."
+    },
+    {
+      "step_id": "engine-in--bench-record",
+      "original_instruction": "Save this top-end job record before reinstalling the engine: head fastener stages, piston/cylinder fit, ring/pin checks, original-valve/cam inspection decisions, all four accepted final cold clearances and hand-rotation timing verification. Inspect mounting brackets, bolts and contact surfaces. Continue only when every required result is accepted and the cover, plug and service-access closures are complete. The crankcases, clutch basket and gearbox remained assembled during this route.",
+      "reason": "Refit acceptance reflects actual replacement work."
+    },
+    {
+      "step_id": "engine-in--final-checks",
+      "original_instruction": "Follow the oil-level procedure with the bike upright: warm oil to normal operating temperature, run for 10 seconds, stop and allow a few minutes to settle; level must be between window minimum and maximum mark. Check leaks, normal clutch/brake operation, throttle free play 3\u20136 mm and full return; turn the bars both ways and verify idle does not change. Record all mount torques, fluid quantities, chain slack and unresolved symptoms. Save the accepted top-end measurements with these installation checks. This records only the work actually performed; bottom-end work is not included. Seat refacing is recorded as the external operation actually completed. The bike is assembled and stationary checks are complete; new-valve run-in and its follow-up maintenance remain required.",
+      "reason": "Closes explicit exact-source temperature and idle commissioning prerequisite from PDF96."
+    }
+  ],
+  "steps": 142,
+  "branch_policy": {
+    "within-range": {
+      "skipped_step_ids": [
+        "clearance-adjust--tensioner-remove",
+        "clearance-adjust--cams-remove",
+        "clearance-adjust--cams-condition",
+        "clearance-adjust--tensioner-check",
+        "clearance-adjust--pads-remove",
+        "clearance-adjust--pads-select",
+        "clearance-adjust--pads-install",
+        "clearance-adjust--cams-install",
+        "clearance-adjust--caps-install",
+        "clearance-adjust--tensioner-install",
+        "clearance-adjust--tensioner-release",
+        "clearance-adjust--timing-verify",
+        "clearance-adjust--remeasure"
+      ],
+      "skipped_status": "NOT_PERFORMED",
+      "operation_result": "TOP_END_REBUILT_CLEARANCE_ADJUSTMENT_NOT_NEEDED",
+      "required_observations": [
+        "intake1",
+        "intake2",
+        "exhaust1",
+        "exhaust2"
+      ],
+      "rule": "Branch skips only the additional adjustment work. Earlier removal/rebuild/timing work remains performed. Never fabricate completion of skipped steps."
+    }
+  },
+  "downstream_scope": "Run-in and post-run-in maintenance explicitly not executed by this candidate."
+}

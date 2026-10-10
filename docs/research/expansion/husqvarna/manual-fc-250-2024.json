@@ -1,0 +1,46 @@
+{
+  "target": {
+    "manufacturer": "Husqvarna",
+    "model": "FC 250",
+    "model_year": 2024,
+    "variant": "standard",
+    "region": "US"
+  },
+  "selector_url": "https://www.husqvarna-motorcycles.com/en-us/service/user-manuals.html",
+  "query_url": "https://www.husqvarna-motorcycles.com/en-us/service/user-manuals/_jcr_content/root/responsivegrid_1_col/bikemanuals.manuals.json?modelName=FC+250+2024",
+  "english_results": [
+    {
+      "modelName": "FC 250 2024",
+      "title": "FC 250 2024 US (en) - 2024",
+      "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf"
+    },
+    {
+      "modelName": "FC 250 2024",
+      "title": "FC 250 2024 EU (en) - 2024",
+      "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf"
+    }
+  ],
+  "selected": {
+    "modelName": "FC 250 2024",
+    "title": "FC 250 2024 US (en) - 2024",
+    "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf"
+  },
+  "scope_confirmed_by_selector": true,
+  "review_status": "PENDING",
+  "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+  "bytes": 9223272,
+  "temporary_pdf": "/tmp/hq-manuals/fc-250-2024.pdf",
+  "temporary_text": "/tmp/hq-manuals/fc-250-2024.txt",
+  "scope_page": 3,
+  "scope_excerpt": "This document is valid for the following models:\nFC 250 EU (F2101X1)\nFC 250 US (F2175X1)\nFC 250 Rockstar Edition US (F2175X2)\n*3402713en*\n3402713en\n15.02.2024",
+  "document_revision": "15.02.2024",
+  "document_article": "3402713en",
+  "torque_table_pdf_pages": [
+    143,
+    144,
+    145,
+    150,
+    151,
+    152
+  ]
+}

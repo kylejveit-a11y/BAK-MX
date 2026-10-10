@@ -1,0 +1,1312 @@
+{
+  "status": "APPROVED_FOR_BOUNDED_RUNTIME",
+  "reviewer": "root independent of author year_groups_research",
+  "artifacts": [
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2021-yz250fx/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "14e1660eb369ef6585a888502c750b1c6fea585dfa0a643bbc28a30662a05968",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250FX",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2021-yz250fx/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "10bd493a3cca8f65d01bbaee4bd4f5731b20f9bc5bd7d83b951c794cd3c3806e",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250FX",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2021-yz250fx/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "177f64b94555f7404993eaafae6875f6dcd1d5302b3d2a76eebba17298b1cb67",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250FX",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2022-yz250fx/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "ba20dc7cd15bbaf8b90723e83b55dfb75fac2c0699fe08d3f6089eefe4a1a038",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250FX",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2022-yz250fx/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "0b5e9ae8f4e7a66012880a171c7515cb115c7bc9441844f80a8739c4d94c3fcd",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250FX",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2022-yz250fx/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "68b745a5cb9babce3db20ae3e9d836c9a5ec68385d9662569a3e6758b06f35d2",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250FX",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2023-yz250fx/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "2433e3f484bd6dca5ab70fc9a846a8e4c116b20345ebabb557cb11c084cf8840",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250FX",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2023-yz250fx/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "cc08082d2939329725268e2d0abfc5c8ddbf6e82517ac88e26ea16494f1103f8",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250FX",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2023-yz250fx/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "51c06015d6c564f3d9d2f7fabffcaf1c1a92e7653e2e0397c8d3235adfc2adfd",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250FX",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2024-yz250fx/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "d59f07779fab5c4fc0a53a1dae7757c21a0882d30e978003e50dcc5fd9c4c1ae",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250FX",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2024-yz250fx/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "d832146e20f3bdfda876ce7248648b8a6ca603b1b6134722f2514b1c8ae07fbb",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250FX",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2024-yz250fx/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "f4ce2e6fb0038252f95645a12e188b84a6d6126818e05973e3ffe7cd624206db",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250FX",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2021-yz450fx/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "d495c05263a5854240b310863ec7da3af5855adc6a85205a3581f6fb60bdc3ed",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450FX",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2021-yz450fx/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "f7a86ea22f36945a5773360a9f8d25c7e17ee850795c6e6d44f6c309b61b4fa7",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450FX",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2021-yz450fx/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "a4b83374f642083327eb45334d06936e0a3c48063b2242d8d1c13a0f96726650",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450FX",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2022-yz450fx/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "72ea7528f641a5fb951c7529d058f505e81a2d7b9f204365ef0a7167312f3513",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450FX",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2022-yz450fx/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "1fda57dc65c047776648f64d1b74e176420fca98b4c05ccb33089b26147de83e",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450FX",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2022-yz450fx/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "28b8d4cebd2a6aecad2fd1325c60eaf452244f5ede6f5379732b9fd4875f23ad",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450FX",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2023-yz450fx/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "935ccf0aa1aaca9cae4c4eadbe84a8ac63d6ebff9c13d4bba71b351cedc90797",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450FX",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2023-yz450fx/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "4e0fbbcca63cc5e273cee46411e4ac9d1ed7b92cf9720bcbb04dd19ea0a8ce69",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450FX",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2023-yz450fx/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "af4dcae3c6265e581bcb91689f2c80fb034337cc8a7da80236d9ff71d4f8d3e3",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450FX",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2024-yz450fx/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "433fc57f8e47df02acd843dab4eff575361e88af124182289e610299ee5f5b55",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450FX",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2024-yz450fx/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "328a5052f71b322cccbe4fdb50294ccfb668b2d11e952b1c1d1757afcaf2a6ab",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450FX",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2024-yz450fx/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "ff2c38754ec52004da8f793c8d797158b1ad1a98b9d3eadfe6432cb948fab7f0",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450FX",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2025-yz450fx/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "63f6ff6e69cda7fa3a3d6ca04af6aab567211867fbf983c27f69d91afdfc4c68",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450FX",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2025-yz450fx/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "c3de1edc749b3b12c0569cf4594ab63ab047025b6a899b19f2179259a536ef55",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450FX",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2025-yz450fx/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "64f5b048d89a67461e1d59f74142578b419e1efdb9b028b87941dcb97202c5bf",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450FX",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2021-wr250f/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "a243d489ee1b94d73bbed5a21a3c9005717f9d9567bf26c4986ef71faa5e52c0",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2021-wr250f/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "3980dbb101e9f300ddb95993d8167c8ecd23a329a56a23b602c5321738d21557",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2021-wr250f/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "8d1d290b415b687983afa560db05a88ab5fb22374bee47c1bb9a434b7d5b69a6",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2022-wr250f/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "5d60cea6bbeb019d5fe672c25cbeb6aaeea6fd2f75bb11c8da77ebd1f35c9007",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2022-wr250f/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "78850908a37b2101bf30f50f80c669b63f30fc75d0a476ba322068087451984b",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2022-wr250f/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "e8bdec4322c998e28e50d0dcf7dfa212518b030a65aa2dd47b7dcf4478417bf3",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2023-wr250f/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "69a1c908be886e2c2c4515f357b88c1a393c8ba629e5cbbfeb06330f8f3fab5d",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2023-wr250f/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "6cbd400924516d00d4a3545725c5c52e016f96db847c0f3af3051fec38142eef",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2023-wr250f/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "35daabdf2a11ba1a240dba14542bc1eb1c45d691459595fdb9edaaa46fde203e",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2024-wr250f/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "27cb47a2f6ef624d4b6a7dea6a9187f0f50f49d9e30568ff4b7584bf2c72056f",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2024-wr250f/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "b422486c3b9464570b349d4bd1c943b4896d297d474aeac3a4cb50bd83ea9995",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2024-wr250f/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "f97b4c32916c2debbcbebecb0f6ee976289784928001eab49689db36fcdcc339",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2021-wr450f/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "41569ee9e8b0bd5bf5d4a0af495553cd325566a301805b0102999482fde3577f",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR450F",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2021-wr450f/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "0f947cb9888a9b23dbb881dbb0e0de36ceef82ac7125d8a0356d7355af086f69",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR450F",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2021-wr450f/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "207d7dde785e81bb7ff5b7289c0aa60099238e28450c9b985fc8da46d22cdd83",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR450F",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2022-wr450f/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "77c4a2f7663ae78e36909f3a006e1b617126398eb18a2d4180e0f9f66bb2e266",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR450F",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2022-wr450f/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "c50008ccf7791e56609745704664a2d2655e44ba8459d3e19131f12ffd1e4086",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR450F",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2022-wr450f/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "f5b71faac9bdf271f028fc5a4e86ca4e9ac57ba2d230ef9431bbf8737b284edd",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR450F",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2023-wr450f/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "47beb8b3e0f3326cde85fc91a94160e5bfb6fcf951d77c2a8dfd01b2a14b7df3",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR450F",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2023-wr450f/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "51a9ea3b52a6b721a006f0502f9561ebbcad65963a69753c8ac378d7a17dfe6f",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR450F",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2023-wr450f/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "d4de9a98c3fb4d8c8be1719c6ac7f6ff95f7262791ab9ba212675c20559fc702",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR450F",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2024-wr450f/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "5776bcd642e3c0cceafe40b173eae2842d8904c6c13c46ebfa17375bba0600a0",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR450F",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2024-wr450f/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "5bb1c0c2af3926a3a9c38a51cfe0f3b98b42fd65500676535072e058e28ed622",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR450F",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2024-wr450f/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "4065af7563fbb9d14b1b8f92a30b9c2da30ff54b51dc4bf40c90830dbe8393c5",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR450F",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2020-yz250fx/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "0ad0e11e884f516498cfdf5575e2ca1d0caf3b85db0068cef3ee5b7714845b8b",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250FX",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2020-yz250fx/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "19ce1828e7969f103840bbf7b56be497c013d9c3a6288e8d88d0ec65b045ef55",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250FX",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "pre_citation_correction_sha256": "379730f9f1d8b7c09eb9488035ce7f66032e52535bfbd460ed2ffc4e668e8051"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2020-yz250fx/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "e3c08d4276606e4ef02808c537ab85e8695c1b2bc0bacfdac6f6d113ed267846",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250FX",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2020-wr250f/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "5509f865fcef90df7c0000e06c134de7b95602e971ba05ec1106ff95c566b668",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2020-wr250f/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "113457d22dc1c9a4dd60daf209856d60b1399eab79ecd4e8af0283739960e62d",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "pre_citation_correction_sha256": "9645c8c90bd2ca8dced19993eaddcfc9a6d9a161449e12b32d4acb0b87c9606c"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2020-wr250f/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "3befbd80b3c00921972adffcaefd4caf340c77c3ab2447d6e405d913d9073bb2",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2020-yz450fx/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "803c982a85f298c2cea50692aec10b63dd25c0cbcd6702790769d69b0c991077",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450FX",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2020-yz450fx/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "67e49df89c8b3fa545e8591ed522b6a98966dcf3dcced9dff5fc124f6436267a",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450FX",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "pre_citation_correction_sha256": "401ebad7e41b2e9ef2eb7d07ba8a62f3b8209a219b216c496f47460dbdb0925a"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2020-yz450fx/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "009edc639dbc4c611a0ff6b64dbc16772b1fc3d6a6db9d8bdaa66bb89266ee8f",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450FX",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2020-wr450f/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "7acba4e902409b31ca7112ee0dc9738cef4d7432d6dddc25f0dbbcf01b9ff900",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR450F",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2020-wr450f/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "02a245a8b5980f5116da34fb90ee28226b9957346627ba5556dc4530e2276b3b",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR450F",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "pre_citation_correction_sha256": "037d3ff613d3e2598e6a0554d2f2b3f8123f06950830a7411e4b5933388157a7"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2020-wr450f/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "f2b91822c9694deccd9202ce11373d7852f5d2f34957f2510ceea796e0695944",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR450F",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2026-wr250f/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "e01f4a62895568c9535b1a82b8c344059c312e0c17be02f26c3bd3f9f050d5b8",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2026-wr250f/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "06cd9abf720fa2103931695516bc9b80fbfe0e16bd713a8445e7ebc9d1fde992",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2026-wr250f/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "eb1877bbb4ef60f4f9728f6b221baa254e4124780c6e8eae3e99328e9bc9d2d9",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2025-wr250f/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "8197372453e98f8923e700400c726a6240e0a1f4bbd79842b6f9b318670faa96",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2025-wr250f/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "b4a5aa44aba38b9e0f7b715b36c7407c579835a45240f9ce4fefdac2db1874a0",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2025-wr250f/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "320dbf088aceb7548e882b5ec95938b3a46c4b54b8efebfabeb7e73982543367",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2026-wr450f/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "8645ba8f256ae1733eac00023dffc80fea505549eef95c6547157fd3c9078d90",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR450F",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2026-wr450f/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "946625eef778b8f0d4ce44560a5ff33fce928afc13d714d3e012edff75ed8e33",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR450F",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2026-wr450f/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "bcb01f0306b1f466948a06dee257003ff5490ce21b0da2d9281696cd59b73ab3",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR450F",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2027-yz250fx/fork-baseline-v1.procedure.json",
+      "candidate_sha256": "80a9c9ce56fdaa3610b2a406990e82351ec3b2d9ac829e5c5b1a1420d4202a8b",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250FX",
+        "model_year": 2027,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2027-yz250fx/shock-baseline-v1.procedure.json",
+      "candidate_sha256": "12f26b17ee99236ec5db9119e3fd220343444c5a85bd8bba25d78939d349251e",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250FX",
+        "model_year": 2027,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2027-yz250fx/rider-sag-preload-v1.procedure.json",
+      "candidate_sha256": "b94825382c1e319267dbd2784dde5601dfad02fa5be2105a23f33c74f8ef92b8",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250FX",
+        "model_year": 2027,
+        "region": "US",
+        "variant": "standard"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "yamaha-us-2021-yz250fx-oem",
+      "sha256": "6107dda7cc2393e28c0291a709484d6fe657a398515579c924095442d50a0e19",
+      "text_review": "Cover identity; actual standard damping and preload blocks, bleed torque and sag method/target checked separately for this source",
+      "text_pages": [
+        1,
+        105,
+        106,
+        107,
+        108,
+        109,
+        366,
+        367
+      ],
+      "rendered_pages_reviewed": [
+        105,
+        106,
+        107,
+        108,
+        366,
+        367
+      ]
+    },
+    {
+      "source_id": "yamaha-us-2022-yz250fx-oem",
+      "sha256": "c9117f41e8a41ea60aef6bded7c4992c3b6b1d107af88ea15a252fd202299ce8",
+      "text_review": "Cover identity; actual standard damping and preload blocks, bleed torque and sag method/target checked separately for this source",
+      "text_pages": [
+        1,
+        105,
+        106,
+        107,
+        108,
+        109,
+        366,
+        367
+      ],
+      "rendered_pages_reviewed": [
+        107
+      ]
+    },
+    {
+      "source_id": "yamaha-us-2023-yz250fx-oem",
+      "sha256": "eb27053ad64665a66e39f5ac2a940bd152fc658288e2201bd1afee60db630414",
+      "text_review": "Cover identity; actual standard damping and preload blocks, bleed torque and sag method/target checked separately for this source",
+      "text_pages": [
+        1,
+        105,
+        106,
+        107,
+        108,
+        109,
+        366,
+        367
+      ],
+      "rendered_pages_reviewed": [
+        108
+      ]
+    },
+    {
+      "source_id": "yamaha-us-2024-yz250fx-oem",
+      "sha256": "f794ffbd2101744d9e4ce4d61d066dd027bbf73e3661b7c4d8cd951461fb366f",
+      "text_review": "Cover identity; actual standard damping and preload blocks, bleed torque and sag method/target checked separately for this source",
+      "text_pages": [
+        1,
+        106,
+        107,
+        108,
+        109,
+        110,
+        366,
+        367
+      ],
+      "rendered_pages_reviewed": [
+        109
+      ]
+    },
+    {
+      "source_id": "yamaha-us-2021-yz450fx-oem",
+      "sha256": "fc890ba96324f2ebcae5aee2f7b4c33c13e20a6ed4adefeb0daafd5d136c2ebb",
+      "text_review": "Cover identity; actual standard damping and preload blocks, bleed torque and sag method/target checked separately for this source",
+      "text_pages": [
+        1,
+        105,
+        106,
+        107,
+        108,
+        109,
+        362,
+        363
+      ],
+      "rendered_pages_reviewed": [
+        107
+      ]
+    },
+    {
+      "source_id": "yamaha-us-2022-yz450fx-oem",
+      "sha256": "628162841843d9fa45c9d45f905944958bce7f56d12d4c153fca873376a33d0d",
+      "text_review": "Cover identity; actual standard damping and preload blocks, bleed torque and sag method/target checked separately for this source",
+      "text_pages": [
+        1,
+        105,
+        106,
+        107,
+        108,
+        109,
+        362,
+        363
+      ],
+      "rendered_pages_reviewed": [
+        108
+      ]
+    },
+    {
+      "source_id": "yamaha-us-2023-yz450fx-oem",
+      "sha256": "3e8ebc08be238b9ba2416c98704a10fb885a0aa41579f741fab16188a2cfea90",
+      "text_review": "Cover identity; actual standard damping and preload blocks, bleed torque and sag method/target checked separately for this source",
+      "text_pages": [
+        1,
+        105,
+        106,
+        107,
+        108,
+        109,
+        364,
+        365
+      ],
+      "rendered_pages_reviewed": [
+        105
+      ]
+    },
+    {
+      "source_id": "yamaha-us-2024-yz450fx-oem",
+      "sha256": "3ea319f1d25a36a9a3d55f0c116c78082a248a4dfd3499c95c2630681171682b",
+      "text_review": "Cover identity; actual standard damping and preload blocks, bleed torque and sag method/target checked separately for this source",
+      "text_pages": [
+        1,
+        112,
+        113,
+        114,
+        115,
+        116,
+        392,
+        393
+      ],
+      "rendered_pages_reviewed": [
+        113,
+        392
+      ]
+    },
+    {
+      "source_id": "yamaha-us-2025-yz450fx-oem",
+      "sha256": "c94d6d80d2bc930919cd21f768b1390a6768d4be595e2ca4572304519e9ed5eb",
+      "text_review": "Cover identity; actual standard damping and preload blocks, bleed torque and sag method/target checked separately for this source",
+      "text_pages": [
+        1,
+        112,
+        113,
+        114,
+        115,
+        116,
+        390,
+        391
+      ],
+      "rendered_pages_reviewed": [
+        114
+      ]
+    },
+    {
+      "source_id": "yamaha-us-2021-wr250f-oem",
+      "sha256": "86aea6461600e0a35acae3fde997d4426c422c8bb74dd36a6c146562c109c115",
+      "text_review": "Cover identity; actual standard damping and preload blocks, bleed torque and sag method/target checked separately for this source",
+      "text_pages": [
+        1,
+        117,
+        118,
+        119,
+        120,
+        121,
+        392,
+        393
+      ],
+      "rendered_pages_reviewed": [
+        119
+      ]
+    },
+    {
+      "source_id": "yamaha-us-2022-wr250f-oem",
+      "sha256": "a269165518c93622fe8cee6aa27f585297961448971b6bd210ca5c359635f132",
+      "text_review": "Cover identity; actual standard damping and preload blocks, bleed torque and sag method/target checked separately for this source",
+      "text_pages": [
+        1,
+        117,
+        118,
+        119,
+        120,
+        121,
+        392,
+        393
+      ],
+      "rendered_pages_reviewed": [
+        120
+      ]
+    },
+    {
+      "source_id": "yamaha-us-2023-wr250f-oem",
+      "sha256": "9d216e19c6d7e9153492ad274142fa5e5915f7d4ec300246b38fa522d73ddf5e",
+      "text_review": "Cover identity; actual standard damping and preload blocks, bleed torque and sag method/target checked separately for this source",
+      "text_pages": [
+        1,
+        117,
+        118,
+        119,
+        120,
+        121,
+        394,
+        395
+      ],
+      "rendered_pages_reviewed": [
+        117
+      ]
+    },
+    {
+      "source_id": "yamaha-us-2024-wr250f-oem",
+      "sha256": "bf7343a8b0faccea80f47dd1f415a2ba91977cbc86fd0b6a913b2e61fe331230",
+      "text_review": "Cover identity; actual standard damping and preload blocks, bleed torque and sag method/target checked separately for this source",
+      "text_pages": [
+        1,
+        118,
+        119,
+        120,
+        121,
+        122,
+        392,
+        393
+      ],
+      "rendered_pages_reviewed": [
+        119
+      ]
+    },
+    {
+      "source_id": "yamaha-us-2021-wr450f-oem",
+      "sha256": "ba839b9fb99aaed9731f0a3c84e3f6ffe68c881580150e427900cb23264f3b3e",
+      "text_review": "Cover identity; actual standard damping and preload blocks, bleed torque and sag method/target checked separately for this source",
+      "text_pages": [
+        1,
+        119,
+        120,
+        121,
+        122,
+        123,
+        390,
+        391
+      ],
+      "rendered_pages_reviewed": [
+        121
+      ]
+    },
+    {
+      "source_id": "yamaha-us-2022-wr450f-oem",
+      "sha256": "60c299ba755524860825e89c346a1660dc8b5786e39d09c14ced410c59d844b9",
+      "text_review": "Cover identity; actual standard damping and preload blocks, bleed torque and sag method/target checked separately for this source",
+      "text_pages": [
+        1,
+        119,
+        120,
+        121,
+        122,
+        123,
+        390,
+        391
+      ],
+      "rendered_pages_reviewed": [
+        122
+      ]
+    },
+    {
+      "source_id": "yamaha-us-2023-wr450f-oem",
+      "sha256": "cf246bf517548572cd2df10602ffc40ca53bafc9cbcb2414b24c7f70454b0ff4",
+      "text_review": "Cover identity; actual standard damping and preload blocks, bleed torque and sag method/target checked separately for this source",
+      "text_pages": [
+        1,
+        119,
+        120,
+        121,
+        122,
+        123,
+        392,
+        393
+      ],
+      "rendered_pages_reviewed": [
+        120
+      ]
+    },
+    {
+      "source_id": "yamaha-us-2024-wr450f-oem",
+      "sha256": "add785d416779586138b6d50984431daeb8f77cf8009073ef3e436aa96d3e2e7",
+      "text_review": "Cover identity; actual standard damping and preload blocks, bleed torque and sag method/target checked separately for this source",
+      "text_pages": [
+        1,
+        124,
+        125,
+        126,
+        127,
+        128,
+        416,
+        417
+      ],
+      "rendered_pages_reviewed": [
+        126
+      ]
+    },
+    {
+      "source_id": "yamaha-us-2020-yz250fx-oem",
+      "sha256": "3376359ce1cb32203efa0643eb53188f58c7a6936f2a86e4c4367b54b6af3361",
+      "text_review": "Cover identity; actual standard damping and preload blocks, bleed torque and sag method/target checked separately for this source",
+      "text_pages": [
+        1,
+        104,
+        105,
+        106,
+        107,
+        108,
+        364,
+        365
+      ],
+      "rendered_pages_reviewed": [
+        106
+      ]
+    },
+    {
+      "source_id": "yamaha-us-2020-wr250f-oem",
+      "sha256": "7af30805b5d9ac93ddb0e539f282fed0bd001df48127cdca6df5a5a5140ea31a",
+      "text_review": "Cover identity; actual standard damping and preload blocks, bleed torque and sag method/target checked separately for this source",
+      "text_pages": [
+        1,
+        117,
+        118,
+        119,
+        120,
+        121,
+        396,
+        397
+      ],
+      "rendered_pages_reviewed": [
+        119
+      ]
+    },
+    {
+      "source_id": "yamaha-us-2020-yz450fx-oem",
+      "sha256": "ff63e727ef2fbbdcf9fc678731bc254b835250043992f0c42a903dccdf75d8b9",
+      "text_review": "Cover identity; actual standard damping and preload blocks, bleed torque and sag method/target checked separately for this source",
+      "text_pages": [
+        1,
+        104,
+        105,
+        106,
+        107,
+        108,
+        360,
+        361
+      ],
+      "rendered_pages_reviewed": [
+        106
+      ]
+    },
+    {
+      "source_id": "yamaha-us-2020-wr450f-oem",
+      "sha256": "8c604a2203bf98d166d26fa673b9e647b67302d884de0dc7b4b899288287bb97",
+      "text_review": "Cover identity; actual standard damping and preload blocks, bleed torque and sag method/target checked separately for this source",
+      "text_pages": [
+        1,
+        117,
+        118,
+        119,
+        120,
+        121,
+        392,
+        393
+      ],
+      "rendered_pages_reviewed": [
+        119
+      ]
+    },
+    {
+      "source_id": "yamaha-us-2026-wr250f-oem",
+      "sha256": "1849424089b2cb189663382f7d51d2ab5e2d6ae1ad196e502dd135575981d921",
+      "text_review": "Cover identity; actual standard damping and preload blocks, bleed torque and sag method/target checked separately for this source",
+      "text_pages": [
+        1,
+        128,
+        129,
+        130,
+        131,
+        132,
+        420,
+        421
+      ],
+      "rendered_pages_reviewed": [
+        130,
+        420
+      ]
+    },
+    {
+      "source_id": "yamaha-us-2025-wr250f-oem",
+      "sha256": "28a36bfbe4728bb49691b080818ee011008a52b60339985b03c223717b1d7f1e",
+      "text_review": "Cover identity; actual standard damping and preload blocks, bleed torque and sag method/target checked separately for this source",
+      "text_pages": [
+        1,
+        126,
+        127,
+        128,
+        129,
+        130,
+        422,
+        423
+      ],
+      "rendered_pages_reviewed": [
+        129,
+        422
+      ]
+    },
+    {
+      "source_id": "yamaha-us-2026-wr450f-oem",
+      "sha256": "fe5e907ae0a9549b3fb82a86522fbf6e8994e20bf44b4821ac5d96d2c88e8d27",
+      "text_review": "Cover identity; actual standard damping and preload blocks, bleed torque and sag method/target checked separately for this source",
+      "text_pages": [
+        1,
+        126,
+        127,
+        128,
+        129,
+        130,
+        416,
+        417
+      ],
+      "rendered_pages_reviewed": [
+        129
+      ]
+    },
+    {
+      "source_id": "yamaha-us-2027-yz250fx-oem",
+      "sha256": "42a9d1a05ec9d213d2f06bc2f5c854dd09a4ebc76bdbdd9d08d1a643e6d65362",
+      "text_review": "Cover identity; actual standard damping and preload blocks, bleed torque and sag method/target checked separately for this source",
+      "text_pages": [
+        1,
+        116,
+        117,
+        118,
+        119,
+        120,
+        400,
+        401
+      ],
+      "rendered_pages_reviewed": [
+        118,
+        400
+      ]
+    }
+  ],
+  "instruction_review": "All24 distinct instruction forms read after numerical normalization; all25 model/year variable settings checked against exact source standard blocks. 2020 measurement-only closure independently checked against each actual rear-frame-removal instruction.",
+  "checks": [
+    "No year-inherited source bindings",
+    "Fork20click,shock30R/20LSC/2turnHSC nominal ranges with variation caveat",
+    "Distinct adjuster diagrams and full-hard reference",
+    "1.3Nmbleed per source",
+    "Raised-wheel free-length method,1.5\u201318preload,1.5mmperturn",
+    "Old holding-bolt versus modern moldedmark sag datum;90\u2013100target checked across all25",
+    "2020 rear-frame access and10Nm locknut not silently omitted from adjustment: guide limited to measurement",
+    "Already-valid branch preserves actual prior free/installed length records",
+    "No engine/frame/internal-suspension rebuild claim"
+  ],
+  "physical_workshop_validation": false,
+  "whole_bikes_complete": false,
+  "final_gate": "Author25sources complete. Root verified all4final changes against committed predecessor: only citations/page-range wording changed; all other JSON identical. Exact additional2020 low-speed blocks independently read.",
+  "citation_correction_manifest_sha256": "129c0c3ade7f6ee2c21ac4379d329cd0e50b3c6cf242b1b352ff1aae683d62c6"
+}

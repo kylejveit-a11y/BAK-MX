@@ -1,0 +1,381 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2026-yz450f-throttle-grip-cable-access-v1",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "component": "engine",
+  "affected_components": [
+    "engine",
+    "throttle",
+    "controls"
+  ],
+  "scope_confirmed": true,
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "publication_status": "APPROVED",
+  "title": "Disconnect and refit throttle cables at the grip",
+  "completeness": "Complete grip-end cable disconnection/refit on a serviceable stock assembled bike, with retained bonded grip and throttle-body ends, lubrication, free-play/return and operating checks. Full cable renewal and throttle-body removal are separate.",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      39,
+      40,
+      96,
+      161,
+      163,
+      165,
+      166
+    ],
+    "printed_pages": [
+      "1-27",
+      "1-28",
+      "3-12",
+      "4-39",
+      "4-41",
+      "4-43",
+      "4-44"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "New operation diagrams161/163/165 and adjustment96 visually reviewed; start/stop39/40 and166 closure text crosschecked against exact PDF and earlier approved engine closure. Independent year_groups_research review approved: rendered96/161/165 and text39/40/96/163\u2013166."
+  },
+  "applicability": {
+    "included": "Exact US2026 standard stock YZ450F, serviceable original throttle grip/tube and cables.",
+    "excluded": [
+      "Other models/years",
+      "Cable replacement or body-end disconnection",
+      "Grip rebonding or replacement",
+      "TPS or throttle-body adjustment",
+      "Handlebar, hydraulic or engine removal"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "entry_state": [
+    "Assembled stock bike, engine stopped, normal idle/freeplay established before service.",
+    "Intact bonded grip, cables and routing serviceable; diagnostic/tachometer equipment configured for final check."
+  ],
+  "exit_state": [
+    "Pull/return ends correctly restored; housing and covers closed.",
+    "Final free play and smooth return accepted; idle unchanged with steering travel; engine stopped."
+  ],
+  "required_tools": [
+    {
+      "name": "Appropriate housing driver and calibrated 3.8 Nm torque tool"
+    },
+    {
+      "name": "Free-play measuring scale"
+    },
+    {
+      "name": "Configured exact Yamaha diagnostic tool and its supplied operating instructions"
+    },
+    {
+      "name": "Digital tachometer 90890-06760 or YU-39951-B"
+    },
+    {
+      "name": "Stable bike support"
+    }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+    "No known cable damage or pre-existing abnormal idle.",
+    "Keep cable outer routing and body-end adjustment unchanged.",
+    "If composed into another job, complete that job and restore all assemblies before the running-check range."
+  ],
+  "consumables": [
+    "Lithium-soap-based grease"
+  ],
+  "critical_stop_conditions": [
+    "Damaged cable, uncertain pull/return identity or binding",
+    "Insufficient clearance without disturbing excluded components",
+    "Idle changes through steering travel or abnormal engine operation"
+  ],
+  "steps": [
+    {
+      "id": "prepare",
+      "title": "Confirm the throttle and working state",
+      "instruction": "Start with the assembled stock bike, engine stopped and securely supported upright. Confirm the throttle and engine idle were operating normally before this access job. Keep the throttle body, TPS, hydraulic units and the bonded grip/tube assembly intact. Arrange the configured Yamaha diagnostic tool and tachometer for the final operating check.",
+      "depends_on": [],
+      "source_pdf_pages": [
+        96,
+        161,
+        163,
+        165
+      ],
+      "verification": [
+        "Stock serviceable throttle and normal prior idle confirmed."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original source-based summary; retained grip/body and observation gates are bounded workflow adaptations."
+    },
+    {
+      "id": "record",
+      "title": "Record the original cable positions",
+      "instruction": "Record the pull and return cable positions at the grip against the page 4-39 diagram. Record existing grip free play, which must be 3\u20136 mm before this service. Preserve the outer cable routing and adjustment so neither cable is swapped on refit.",
+      "depends_on": [
+        "prepare"
+      ],
+      "source_pdf_pages": [
+        96,
+        161
+      ],
+      "verification": [
+        "Pull/return identities, routing and initial free play recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=96",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=161"
+      ],
+      "origin": "Original source-based summary; retained grip/body and observation gates are bounded workflow adaptations."
+    },
+    {
+      "id": "housing-open",
+      "title": "Open the cable housing",
+      "instruction": "Pull back the rubber cover. Remove the housing screws and separate the throttle cable housing without pulling on the cables.",
+      "depends_on": [
+        "record"
+      ],
+      "source_pdf_pages": [
+        161,
+        163
+      ],
+      "verification": [
+        "Housing open; rubber cover and screws retained."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=161",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=163"
+      ],
+      "origin": "Original source-based summary; retained grip/body and observation gates are bounded workflow adaptations."
+    },
+    {
+      "id": "ends-release",
+      "title": "Release the two grip-end cables",
+      "instruction": "Disengage the pull and return cable ends from their original seats in the throttle tube as shown. Support the cables without kinking them and withdraw the complete grip/tube assembly from the bar. Do not peel the bonded rubber grip off its tube or disturb the cable ends at the throttle body.",
+      "depends_on": [
+        "housing-open"
+      ],
+      "source_pdf_pages": [
+        161,
+        163,
+        165
+      ],
+      "verification": [
+        "Both identified ends released; intact grip/tube retained."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=161",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=163",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=165"
+      ],
+      "origin": "Original source-based summary; retained grip/body and observation gates are bounded workflow adaptations."
+    },
+    {
+      "id": "inspect",
+      "title": "Check the released parts",
+      "instruction": "Inspect the tube sliding surface and cable-end seats for damage and check that the cables move without binding. Keep dirt out of the open housing. A damaged or frayed cable needs a separate full cable-renewal operation before this access job can return to service.",
+      "depends_on": [
+        "ends-release"
+      ],
+      "source_pdf_pages": [
+        163,
+        165
+      ],
+      "verification": [
+        "Retained parts accepted; no damaged cable or binding."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original source-based summary; retained grip/body and observation gates are bounded workflow adaptations."
+    },
+    {
+      "id": "lubricate",
+      "title": "Lubricate the sliding and cable-end surfaces",
+      "instruction": "Apply lithium-soap-based grease to the throttle-grip sliding surface. Lightly grease the cable ends and inside of the grip as shown. Keep grease away from the exterior gripping surface and the brake.",
+      "depends_on": [
+        "inspect"
+      ],
+      "source_pdf_pages": [
+        165
+      ],
+      "verification": [
+        "Sliding and cable-end contact surfaces lubricated."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=165"
+      ],
+      "origin": "Original source-based summary; retained grip/body and observation gates are bounded workflow adaptations."
+    },
+    {
+      "id": "ends-fit",
+      "title": "Reconnect pull and return cables",
+      "instruction": "Restore each identified cable end to its original seat and groove in the throttle tube. Place the rubber cover and slide the intact grip/tube onto the handlebar. Confirm both cable ends and their outer housings are seated correctly before closing the housing.",
+      "depends_on": [
+        "lubricate"
+      ],
+      "source_pdf_pages": [
+        161,
+        165
+      ],
+      "verification": [
+        "Both cable ends seated in the correct positions without crossing."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=161",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=165"
+      ],
+      "origin": "Original source-based summary; retained grip/body and observation gates are bounded workflow adaptations."
+    },
+    {
+      "id": "housing-close",
+      "title": "Secure the housing",
+      "instruction": "Fit the housing and tighten its screws to 3.8 Nm. Check grip movement immediately. If the housing causes binding, reposition and retighten it, then check again. Restore the housing cover and rubber cover.",
+      "depends_on": [
+        "ends-fit"
+      ],
+      "source_pdf_pages": [
+        165
+      ],
+      "verification": [
+        "Housing torqued; grip moves smoothly and returns."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=165"
+      ],
+      "origin": "Original source-based summary; retained grip/body and observation gates are bounded workflow adaptations."
+    },
+    {
+      "id": "static-check",
+      "title": "Verify free play and return before starting",
+      "instruction": "With the engine stopped, check free play and smooth full return through the steering travel. The retained setup must still have 3\u20136 mm free play and no binding. If not, correct seating/routing before starting; do not use a running engine to diagnose a bound throttle.",
+      "depends_on": [
+        "housing-close"
+      ],
+      "source_pdf_pages": [
+        96,
+        165,
+        166
+      ],
+      "verification": [
+        "Record 3\u20136 mm free play and full return at centre and both steering limits."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original source-based summary; retained grip/body and observation gates are bounded workflow adaptations."
+    },
+    {
+      "id": "warm",
+      "title": "Start for the operating check",
+      "instruction": "Only with all work on the bike complete, select neutral and use a ventilated location. Start according to engine temperature: the warm engine does not need the starter knob. For a cold start, use the starter knob when ambient temperature is 15 \u00b0C or below, keep the throttle untouched while operating it, and limit each starter attempt to 10 seconds with a pause between attempts. After a cold start, warm for one or two minutes at a steady 3000\u20135000 r/min and return the starter knob to its normal position.",
+      "depends_on": [
+        "static-check"
+      ],
+      "source_pdf_pages": [
+        39,
+        40
+      ],
+      "verification": [
+        "Engine running normally, starter enrichment returned."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original source-based summary; retained grip/body and observation gates are bounded workflow adaptations."
+    },
+    {
+      "id": "idle-check",
+      "title": "Check the warm idle",
+      "instruction": "Use the correctly configured YDT 90890-03275 (US USB) or 90890-03273 to confirm coolant at 70\u201380 \u00b0C. Measure speed with tachometer 90890-06760 or YU-39951-B, connected as shown to the ignition-coil high-tension lead. With the starter knob fully returned and normal filter/compression/free play, verify 1900\u20132100 r/min. If necessary, adjust the idle screw; clockwise raises speed.",
+      "depends_on": [
+        "warm"
+      ],
+      "source_pdf_pages": [
+        96
+      ],
+      "verification": [
+        "Record temperature and accepted idle speed."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=96"
+      ],
+      "origin": "Original source-based summary; retained grip/body and observation gates are bounded workflow adaptations."
+    },
+    {
+      "id": "final-adjust",
+      "title": "Set the final grip free play",
+      "instruction": "Stop the engine. If final adjustment is needed after idle setting, loosen the grip adjuster locknut, turn the adjuster to obtain 3\u20136 mm free play, and tighten the locknut. Confirm smooth full return again.",
+      "depends_on": [
+        "idle-check"
+      ],
+      "source_pdf_pages": [
+        96
+      ],
+      "verification": [
+        "Record final 3\u20136 mm free play and secure locknut."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=96"
+      ],
+      "origin": "Original source-based summary; retained grip/body and observation gates are bounded workflow adaptations."
+    },
+    {
+      "id": "steering-check",
+      "title": "Verify idle through steering travel",
+      "instruction": "Restart the warm engine without starter enrichment. Turn the handlebar fully left and right: idle must not change. If it changes, stop and correct cable routing/seating or adjustment before repeating this check. Hold the engine-stop switch until the engine fully stops when the check is finished.",
+      "depends_on": [
+        "final-adjust"
+      ],
+      "source_pdf_pages": [
+        39,
+        40,
+        96
+      ],
+      "verification": [
+        "Record unchanged idle across steering travel; engine stopped."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original source-based summary; retained grip/body and observation gates are bounded workflow adaptations."
+    }
+  ],
+  "operation_dependencies": [],
+  "phase_boundaries": {
+    "access": [
+      "prepare",
+      "ends-release"
+    ],
+    "refit": [
+      "inspect",
+      "static-check"
+    ],
+    "operating_closure": [
+      "warm",
+      "steering-check"
+    ]
+  }
+}

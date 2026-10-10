@@ -1,0 +1,30 @@
+{
+  "status": "APPROVED",
+  "approved_candidate_sha256": "cb36009e7e716ec090606742a218a59b4bf392d7cc959f171ff6a97d86492d5e",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2023,
+    "region": "US",
+    "variant": "standard"
+  },
+  "reviewer": "root independent composition review",
+  "metadata_only_freeze_authorized": true,
+  "scope": "All three author-composition rider-field differences reviewed against approved exact2023 access changes; previous exact source-reviewed composition cutpoints preserved.",
+  "findings": [
+    "Exact2023 coolant locator99, body filter-cover/breather closure and YDT03264 changes accepted.",
+    "Bench-before-refit,135Nm axle-before-start and coldattach-before-oilflow/test/ride sequencing validated."
+  ],
+  "limits": [
+    "Physical bike execution not verified.",
+    "External actual work and excluded internal systems remain required/scoped."
+  ],
+  "source_reviewed_candidate_sha256": "cb36009e7e716ec090606742a218a59b4bf392d7cc959f171ff6a97d86492d5e",
+  "artifacts": [
+    {
+      "path": "top-end-bike-journey-v1.procedure.json",
+      "sha256": "fc79cc545ca42c3d45d04b5e29975afa4d4ee8204e889acc19a5f57e20031fca"
+    }
+  ],
+  "freeze_changes": "Approval and review metadata only; instructions unchanged."
+}

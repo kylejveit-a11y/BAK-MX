@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "reason": "Final dependency-condition audit",
+  "replacements": {
+    "camshaft-inspection-bench-v1.procedure.json": "camshaft-inspection-bench-v2.procedure.json",
+    "crankcase-bench-v1.procedure.json": "crankcase-bench-v2.procedure.json"
+  }
+}

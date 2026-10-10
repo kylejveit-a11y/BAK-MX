@@ -1,0 +1,633 @@
+{
+  "target": {
+    "manufacturer": "Husqvarna",
+    "model": "FC 250",
+    "model_year": 2024,
+    "variant": "standard",
+    "region": "US"
+  },
+  "source_metadata": {
+    "target": {
+      "manufacturer": "Husqvarna",
+      "model": "FC 250",
+      "model_year": 2024,
+      "variant": "standard",
+      "region": "US"
+    },
+    "selector_url": "https://www.husqvarna-motorcycles.com/en-us/service/user-manuals.html",
+    "query_url": "https://www.husqvarna-motorcycles.com/en-us/service/user-manuals/_jcr_content/root/responsivegrid_1_col/bikemanuals.manuals.json?modelName=FC+250+2024",
+    "english_results": [
+      {
+        "modelName": "FC 250 2024",
+        "title": "FC 250 2024 US (en) - 2024",
+        "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf"
+      },
+      {
+        "modelName": "FC 250 2024",
+        "title": "FC 250 2024 EU (en) - 2024",
+        "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf"
+      }
+    ],
+    "selected": {
+      "modelName": "FC 250 2024",
+      "title": "FC 250 2024 US (en) - 2024",
+      "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf"
+    },
+    "scope_confirmed_by_selector": true,
+    "review_status": "PENDING",
+    "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+    "bytes": 9223272,
+    "temporary_pdf": "/tmp/hq-manuals/fc-250-2024.pdf",
+    "temporary_text": "/tmp/hq-manuals/fc-250-2024.txt",
+    "scope_page": 3,
+    "scope_excerpt": "This document is valid for the following models:\nFC 250 EU (F2101X1)\nFC 250 US (F2175X1)\nFC 250 Rockstar Edition US (F2175X2)\n*3402713en*\n3402713en\n15.02.2024",
+    "document_revision": "15.02.2024",
+    "document_article": "3402713en",
+    "torque_table_pdf_pages": [
+      143,
+      144,
+      145,
+      150,
+      151,
+      152
+    ]
+  },
+  "assemblies": [],
+  "parts": [],
+  "facts": [
+    {
+      "id": "fc-250-2024-suspension-1",
+      "property": "component_identity",
+      "joint": "Front fork",
+      "value": "A360C155X406000",
+      "unit": "part number",
+      "conditions": [
+        "OEM stock US standard component A360C155X406000"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 147\u2013148, US standard suspension table: Front fork",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-2",
+      "property": "component_family",
+      "joint": "Front fork",
+      "value": "WP XACT AER",
+      "unit": "model",
+      "conditions": [
+        "OEM stock US standard component A360C155X406000"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 147\u2013148, US standard suspension table: Front fork",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-3",
+      "property": "compression_damping",
+      "joint": "Front fork",
+      "value": 17,
+      "unit": "clicks",
+      "conditions": [
+        "OEM stock US standard component A360C155X406000",
+        "Comfort baseline"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 147\u2013148, US standard suspension table: Front fork",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-4",
+      "property": "compression_damping",
+      "joint": "Front fork",
+      "value": 12,
+      "unit": "clicks",
+      "conditions": [
+        "OEM stock US standard component A360C155X406000",
+        "Standard baseline"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 147\u2013148, US standard suspension table: Front fork",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-5",
+      "property": "compression_damping",
+      "joint": "Front fork",
+      "value": 7,
+      "unit": "clicks",
+      "conditions": [
+        "OEM stock US standard component A360C155X406000",
+        "Sport baseline"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 147\u2013148, US standard suspension table: Front fork",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-6",
+      "property": "rebound_damping",
+      "joint": "Front fork",
+      "value": 23,
+      "unit": "clicks",
+      "conditions": [
+        "OEM stock US standard component A360C155X406000",
+        "Comfort baseline"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 147\u2013148, US standard suspension table: Front fork",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-7",
+      "property": "rebound_damping",
+      "joint": "Front fork",
+      "value": 18,
+      "unit": "clicks",
+      "conditions": [
+        "OEM stock US standard component A360C155X406000",
+        "Standard baseline"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 147\u2013148, US standard suspension table: Front fork",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-8",
+      "property": "rebound_damping",
+      "joint": "Front fork",
+      "value": 13,
+      "unit": "clicks",
+      "conditions": [
+        "OEM stock US standard component A360C155X406000",
+        "Sport baseline"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 147\u2013148, US standard suspension table: Front fork",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-9",
+      "property": "air_pressure",
+      "joint": "Front fork",
+      "value": 10.5,
+      "unit": "bar",
+      "conditions": [
+        "OEM stock US standard component A360C155X406000"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 147\u2013148, US standard suspension table: Front fork",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-10",
+      "property": "component_length",
+      "joint": "Front fork",
+      "value": 940,
+      "unit": "mm",
+      "conditions": [
+        "OEM stock US standard component A360C155X406000"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 147\u2013148, US standard suspension table: Front fork",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-11",
+      "property": "oil_capacity",
+      "joint": "Right fork outer assembly",
+      "value": 240,
+      "unit": "ml",
+      "conditions": [
+        "OEM stock US standard component A360C155X406000",
+        "Tolerance +10 / -50 ml",
+        "Fork oil SAE 4, 48601166S1"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 147\u2013148, US standard suspension table: Right fork outer assembly",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-12",
+      "property": "oil_capacity",
+      "joint": "Left fork outer assembly",
+      "value": 240,
+      "unit": "ml",
+      "conditions": [
+        "OEM stock US standard component A360C155X406000",
+        "Tolerance +10 / -50 ml",
+        "Fork oil SAE 4, 48601166S1"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 147\u2013148, US standard suspension table: Left fork outer assembly",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-13",
+      "property": "oil_capacity",
+      "joint": "Right fork cartridge",
+      "value": 370,
+      "unit": "ml",
+      "conditions": [
+        "OEM stock US standard component A360C155X406000",
+        "Fork oil SAE 4, 48601166S1"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 147\u2013148, US standard suspension table: Right fork cartridge",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-14",
+      "property": "grease_capacity",
+      "joint": "Left fork cartridge",
+      "value": 5,
+      "unit": "g",
+      "conditions": [
+        "OEM stock US standard component A360C155X406000",
+        "Special grease 00062010053"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 147\u2013148, US standard suspension table: Left fork cartridge",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-15",
+      "property": "component_identity",
+      "joint": "Rear shock",
+      "value": "A360C455X408000",
+      "unit": "part number",
+      "conditions": [
+        "OEM stock US standard component A360C455X408000"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 149, US standard suspension table: Rear shock",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-16",
+      "property": "component_family",
+      "joint": "Rear shock",
+      "value": "WP XACT LDS",
+      "unit": "model",
+      "conditions": [
+        "OEM stock US standard component A360C455X408000"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 149, US standard suspension table: Rear shock",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-17",
+      "property": "low_speed_compression",
+      "joint": "Rear shock",
+      "value": 17,
+      "unit": "clicks",
+      "conditions": [
+        "OEM stock US standard component A360C455X408000",
+        "Comfort baseline"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 149, US standard suspension table: Rear shock",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-18",
+      "property": "low_speed_compression",
+      "joint": "Rear shock",
+      "value": 15,
+      "unit": "clicks",
+      "conditions": [
+        "OEM stock US standard component A360C455X408000",
+        "Standard baseline"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 149, US standard suspension table: Rear shock",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-19",
+      "property": "low_speed_compression",
+      "joint": "Rear shock",
+      "value": 13,
+      "unit": "clicks",
+      "conditions": [
+        "OEM stock US standard component A360C455X408000",
+        "Sport baseline"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 149, US standard suspension table: Rear shock",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-20",
+      "property": "high_speed_compression",
+      "joint": "Rear shock",
+      "value": 2.0,
+      "unit": "turns",
+      "conditions": [
+        "OEM stock US standard component A360C455X408000",
+        "Comfort baseline"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 149, US standard suspension table: Rear shock",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-21",
+      "property": "high_speed_compression",
+      "joint": "Rear shock",
+      "value": 1.5,
+      "unit": "turns",
+      "conditions": [
+        "OEM stock US standard component A360C455X408000",
+        "Standard baseline"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 149, US standard suspension table: Rear shock",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-22",
+      "property": "high_speed_compression",
+      "joint": "Rear shock",
+      "value": 1.0,
+      "unit": "turns",
+      "conditions": [
+        "OEM stock US standard component A360C455X408000",
+        "Sport baseline"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 149, US standard suspension table: Rear shock",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-23",
+      "property": "rebound_damping",
+      "joint": "Rear shock",
+      "value": 17,
+      "unit": "clicks",
+      "conditions": [
+        "OEM stock US standard component A360C455X408000",
+        "Comfort baseline"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 149, US standard suspension table: Rear shock",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-24",
+      "property": "rebound_damping",
+      "joint": "Rear shock",
+      "value": 15,
+      "unit": "clicks",
+      "conditions": [
+        "OEM stock US standard component A360C455X408000",
+        "Standard baseline"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 149, US standard suspension table: Rear shock",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-25",
+      "property": "rebound_damping",
+      "joint": "Rear shock",
+      "value": 13,
+      "unit": "clicks",
+      "conditions": [
+        "OEM stock US standard component A360C455X408000",
+        "Sport baseline"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 149, US standard suspension table: Rear shock",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-26",
+      "property": "spring_preload",
+      "joint": "Rear shock spring",
+      "value": 8,
+      "unit": "mm",
+      "conditions": [
+        "OEM stock US standard component A360C455X408000"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 149, US standard suspension table: Rear shock spring",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-27",
+      "property": "spring_rate",
+      "joint": "Rear shock spring",
+      "value": 39,
+      "unit": "N/mm",
+      "conditions": [
+        "OEM stock US standard component A360C455X408000",
+        "Rider weight 65\u201375 kg"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 149, US standard suspension table: Rear shock spring",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-28",
+      "property": "spring_rate",
+      "joint": "Rear shock spring",
+      "value": 42,
+      "unit": "N/mm",
+      "conditions": [
+        "OEM stock US standard component A360C455X408000",
+        "Rider weight 75\u201385 kg"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 149, US standard suspension table: Rear shock spring",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-29",
+      "property": "spring_rate",
+      "joint": "Rear shock spring",
+      "value": 45,
+      "unit": "N/mm",
+      "conditions": [
+        "OEM stock US standard component A360C455X408000",
+        "Rider weight 85\u201395 kg"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 149, US standard suspension table: Rear shock spring",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-30",
+      "property": "spring_length",
+      "joint": "Rear shock spring",
+      "value": 240,
+      "unit": "mm",
+      "conditions": [
+        "OEM stock US standard component A360C455X408000"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 149, US standard suspension table: Rear shock spring",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-31",
+      "property": "gas_pressure",
+      "joint": "Rear shock",
+      "value": 10,
+      "unit": "bar",
+      "conditions": [
+        "OEM stock US standard component A360C455X408000"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 149, US standard suspension table: Rear shock",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-32",
+      "property": "static_sag",
+      "joint": "Rear suspension",
+      "value": 35,
+      "unit": "mm",
+      "conditions": [
+        "OEM stock US standard component A360C455X408000"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 149, US standard suspension table: Rear suspension",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-33",
+      "property": "rider_sag",
+      "joint": "Rear suspension",
+      "value": 105,
+      "unit": "mm",
+      "conditions": [
+        "OEM stock US standard component A360C455X408000"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 149, US standard suspension table: Rear suspension",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    },
+    {
+      "id": "fc-250-2024-suspension-34",
+      "property": "installed_length",
+      "joint": "Rear shock",
+      "value": 456.3,
+      "unit": "mm",
+      "conditions": [
+        "OEM stock US standard component A360C455X408000"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402713_en_OM.pdf",
+      "locator": "PDF page(s) 149, US standard suspension table: Rear shock",
+      "document_sha256": "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450",
+      "document_revision": "3402713en / 15.02.2024",
+      "review_status": "APPROVED",
+      "review_note": "Exact US table visually reviewed, including component article number and adjacent section boundaries. EU, FX and Factory/Rockstar settings not inherited. Damping values are baseline table positions; use the linked adjustment procedure for direction/reference."
+    }
+  ],
+  "mappings": [],
+  "gaps": [
+    "Internal suspension service torque and complete procedure verification remain separate."
+  ],
+  "catalog_complete": false,
+  "scope_confirmed": true
+}

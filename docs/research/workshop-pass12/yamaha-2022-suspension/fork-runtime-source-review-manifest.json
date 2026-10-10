@@ -1,0 +1,31 @@
+{
+  "status": "APPROVED",
+  "author_review_manifest": {
+    "path": "docs/research/workshop-pass12/yamaha-2022-suspension/fork-source-review-manifest.json",
+    "sha256": "2bf8dc5af2a0b7d280b3eed23dfa26162f8a61a05597da4626c775e2c43d4898"
+  },
+  "sources": [
+    {
+      "id": "yamaha-us-2022-yz450f-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf",
+      "sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\B2W-2819U-12_02.pdf"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "fork-oil-seals-bushings-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2022-yz450f-oem",
+      "sha256": "cbf6a735ba775c74529505b6eb34bb93a183c214a2e02b7cca7df191dfbe97b6",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 55
+    }
+  ]
+}

@@ -1,0 +1,2538 @@
+{
+  "schema_version": 1,
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2023,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "publication_status": "SOURCE_APPROVED_NOT_YET_IMPORTED",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf",
+    "document_sha256": "9a8605e26301ba1d0d1d21e93d23cca721bdcdbece6188775626a8819332aa9f",
+    "document_revision": "BHR-2819U-10 / LIT-11626-36-32; First edition July2022",
+    "pdf_pages": [
+      35,
+      36,
+      37,
+      47,
+      52,
+      55,
+      56,
+      58,
+      59,
+      62,
+      63,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      84,
+      85,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      99,
+      100,
+      101,
+      105,
+      106,
+      117,
+      118,
+      119,
+      120,
+      121,
+      131,
+      155,
+      157,
+      160,
+      161,
+      183,
+      188,
+      189,
+      190,
+      192,
+      198,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      213,
+      236,
+      240,
+      242,
+      253,
+      254,
+      281,
+      282,
+      283,
+      284,
+      290,
+      291,
+      292,
+      293,
+      294,
+      296,
+      297,
+      298
+    ],
+    "printed_pages": [
+      "1-23",
+      "1-24",
+      "1-25",
+      "2-2",
+      "2-7",
+      "2-10",
+      "2-11",
+      "2-13",
+      "2-14",
+      "2-17",
+      "2-18",
+      "2-21",
+      "2-22",
+      "2-23",
+      "2-24",
+      "2-25",
+      "2-26",
+      "2-27",
+      "2-28",
+      "3-6",
+      "3-7",
+      "3-12",
+      "3-13",
+      "3-14",
+      "3-15",
+      "3-16",
+      "3-17",
+      "3-18",
+      "3-21",
+      "3-22",
+      "3-23",
+      "3-27",
+      "3-28",
+      "4-1",
+      "4-2",
+      "4-3",
+      "4-4",
+      "4-5",
+      "4-15",
+      "4-39",
+      "4-41",
+      "4-44",
+      "4-45",
+      "4-67",
+      "4-72",
+      "4-73",
+      "4-74",
+      "4-76",
+      "5-2",
+      "5-4",
+      "5-5",
+      "5-6",
+      "5-7",
+      "5-8",
+      "5-9",
+      "5-17",
+      "5-40",
+      "5-44",
+      "5-46",
+      "5-57",
+      "5-58",
+      "6-2",
+      "6-3",
+      "6-4",
+      "6-5",
+      "7-1",
+      "7-2",
+      "7-3",
+      "7-4",
+      "7-5",
+      "7-7",
+      "7-8",
+      "7-9"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Exact2023 source and closure independently approved by engine reviewer for70-step engine access and root for151-step frame renewal. Hash-bound review records final corrections; physical validation remains separate."
+  },
+  "id": "yamaha-yz450f-2023-engine-removal-refit-v1",
+  "title": "Remove the complete engine and refit it to the bike",
+  "completeness": "Assembled exact stock bike to supported complete engine on a bench, then bike reassembly and operating checks. Wheels, fork, shock and linkage stay assembled. Internal engine work is a separate exact-year route with its own measured checks.",
+  "applicability": {
+    "included": "Exact stock US 2023 YZ450F with serviceable frame, engine mounting interfaces, intact chain/sprockets and operating brakes. Cable clutch. No automatic year inheritance.",
+    "excluded": [
+      "Other years/models or modified interfaces",
+      "Internal engine repairs unless separately source-reviewed and recorded",
+      "Wheel/frame/suspension bearing service or structural repair",
+      "Opening hydraulic brake circuits",
+      "Complete cable replacement or throttle-body sensor/calibration work",
+      "Broken chain, failed rear brake or seized sprocket nut preventing the reviewed manual holding method"
+    ]
+  },
+  "prerequisites": [
+    "Match exact stock installed engine and cable-clutch interfaces; preserve original hose/cable routing photographs.",
+    "Independent engine, swingarm and chassis support required while the shared pivot is withdrawn. Wheels, suspension and brake hydraulic circuits remain assembled.",
+    "Serviceable intact stock chain, sprockets and working rear brake are required for the attributed manual sprocket-nut holding technique; no impact, heat or case jamming.",
+    "Internal bench work, if performed, must return a sealed engine with all plugs/covers/filter/O-rings correctly fitted and documented timing, clearance, lubrication and free-rotation checks before refit.",
+    "A separate head-gasket replacement requires the additional post-replacement cooling-system check stated in OEM PDF284 after 3 minutes warm-up. The cold retained-gasket pressure check here does not complete that separate requirement."
+  ],
+  "required_tools": [
+    {
+      "name": "Stable motorcycle stand plus independent engine and swingarm supports, temporary pivot-support shaft and helper"
+    },
+    {
+      "name": "Calibrated torque tools covering 1.5-135 Nm; correct sockets and manual breaker bar"
+    },
+    {
+      "name": "Fuel-safe transfer equipment, containers, measured oil/coolant vessels and port covers"
+    },
+    {
+      "name": "Configured Yamaha diagnostic tool 90890-03269 (US USB) or 90890-03264 and supplied instructions; digital tachometer 90890-06760/YU-39951-B"
+    },
+    {
+      "name": "Radiator tester 90890-01325/YU-24460-A and adapter 90890-01352/YU-33984"
+    },
+    {
+      "name": "Ruler/free-play gauge, means of applying approximately 50 N for chain slack; source-specific molybdenum-disulfide and lithium-soap greases"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "New engine-oil drain gaskets and filler-cap O-ring",
+      "purpose": "Both drains and filler disturbed."
+    },
+    {
+      "name": "New coolant-drain washer and exact recommended coolant",
+      "purpose": "Cooling drain/refill."
+    },
+    {
+      "name": "New exact sprocket lock washer and stock-chain joint clip",
+      "purpose": "OEM one-use locking parts."
+    },
+    {
+      "name": "New exhaust header/joint seals specified by the inlined exhaust operation",
+      "purpose": "Disturbed exhaust interfaces."
+    },
+    {
+      "name": "Engine oil matched to actual assembly condition",
+      "purpose": "Recorded refill and level/flow verification."
+    },
+    {
+      "name": "Replacement original-type harness ties",
+      "purpose": "Restore every released tape-position/routing clamp."
+    },
+    {
+      "name": "New rear-brake pedal pivot O-rings",
+      "purpose": "Renew the two illustrated pedal-pivot seals when the pivot is removed; lithium-soap grease per PDF201/202."
+    },
+    {
+      "name": "Molybdenum-disulfide grease and lithium-soap grease",
+      "purpose": "Pivot shaft/nut, pedal O-rings and pivot, throttle contact points and new filler O-ring."
+    },
+    {
+      "name": "OEM-specified LOCTITE locking agent",
+      "purpose": "Drive sprocket nut threads; record actual product, grade not named by Yamaha."
+    }
+  ],
+  "critical_stop_conditions": [
+    "Unstable support, bent/cracked parts, damaged fasteners or unknown assembly order.",
+    "Binding, leaks, missing hardware or abnormal brake/control function remains an unresolved fault."
+  ],
+  "steps": [
+    {
+      "id": "engine-initial-record",
+      "title": "Record the engine and job condition",
+      "instruction": "Record the exact stock engine identity, running condition and reason for removal. Photograph hose, electrical and bracket routing before access. Prepare an independently supported engine bench and a controlled lift with a helper; this guide removes/installs the assembly and does not repair its internals. Record initial clutch lever free play 7-12 mm and control condition before removing any cable end.",
+      "source_pdf_pages": [
+        84,
+        85,
+        93,
+        203
+      ],
+      "verification": [
+        "Engine identity, fault and lift/support plan recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF84",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=84"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF85",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=85"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF93",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=93"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF203",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=203"
+        }
+      ],
+      "depends_on": []
+    },
+    {
+      "id": "control-renew-record",
+      "title": "Record the original cable positions",
+      "instruction": "Record the pull and return cable positions at the grip against the page 4-39 diagram. Record existing grip free play, which must be 3–6 mm before this service. Preserve the outer cable routing and adjustment so neither cable is swapped on refit.",
+      "depends_on": [
+        "engine-initial-record"
+      ],
+      "source_pdf_pages": [
+        90,
+        155
+      ],
+      "verification": [
+        "Pull/return identities, routing and initial free play recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF90",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=90"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF155",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=155"
+        }
+      ]
+    },
+    {
+      "id": "engine-oil-drain",
+      "title": "Drain the engine oil before lifting",
+      "instruction": "For a normally running engine, follow the oil-change warm-up then stop the engine; do not run a faulted engine solely to warm oil. Stand the bike upright, place drain containers and remove the filler cap and both oil drain bolts. Drain tank and crankcase. Leave the oil filter unchanged unless separately serviced. Install new drain-bolt gaskets: tank bolt 10 N·m, crankcase bolt 20 N·m. Mark the engine empty of oil.",
+      "source_pdf_pages": [
+        92,
+        93
+      ],
+      "verification": [
+        "Oil drained; two new gaskets; tank 10/crankcase 20 N·m; engine marked empty."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF92",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=92"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF93",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=93"
+        }
+      ],
+      "depends_on": [
+        "control-renew-record"
+      ]
+    },
+    {
+      "id": "engine-access-prepare",
+      "title": "Prepare the bike",
+      "instruction": "Stop the engine, let it cool and support the bike. Clean the intake and fuel work area. Keep dirt out of open joints and fuel work away from ignition sources.",
+      "depends_on": [
+        "engine-oil-drain"
+      ],
+      "source_pdf_pages": [
+        85,
+        291
+      ],
+      "verification": [
+        "Cold engine; stable bike; clean work area; parts/tools ready."
+      ],
+      "diagram_reference_required": false,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF85",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=85"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF291",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=291"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "engine-access-subseat",
+      "title": "Open the sub-seat",
+      "instruction": "Release its quick fastener and lift the sub-seat first; it is tethered to the main seat. Open the fuel cap and transfer the tank fuel with a fuel-safe pump into a suitable container, then secure the cap.",
+      "depends_on": [
+        "engine-access-prepare"
+      ],
+      "source_pdf_pages": [
+        35,
+        120,
+        291
+      ],
+      "verification": [
+        "Sub-seat tether not strained; fuel contained."
+      ],
+      "diagram_reference_required": false,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF35",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=35"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF120",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=120"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF291",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=291"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "engine-access-body",
+      "title": "Remove access panels",
+      "instruction": "Remove the main-seat bolts and slide the seat rearward. Remove left/right side covers, keeping bolts and collars labeled. Slide the right cover projection out of its single locating slot as illustrated; do not pull the tab apart.",
+      "depends_on": [
+        "engine-access-subseat"
+      ],
+      "source_pdf_pages": [
+        117,
+        118,
+        120,
+        121
+      ],
+      "verification": [
+        "Seat and two side covers removed; hardware locations retained."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF117",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=117"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF118",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=118"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF120",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=120"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF121",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=121"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "engine-isolate",
+      "title": "Isolate the battery",
+      "instruction": "With the engine stopped, disconnect the negative battery lead first, then the positive lead. Insulate the loose terminals. Retain the battery and relay in place unless separate frame work requires removal; no starter action is allowed during the work.",
+      "source_pdf_pages": [
+        117
+      ],
+      "verification": [
+        "Negative then positive disconnected and insulated."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF117",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=117"
+        }
+      ],
+      "depends_on": [
+        "engine-access-body"
+      ]
+    },
+    {
+      "id": "engine-access-shrouds",
+      "title": "Expose the tank",
+      "instruction": "Release the air-filter-case cover ribs by pressing the duct sides inward and lifting the rear; slide the cover rearward to release the front projection. Leave the filter installed. Remove the left/right shroud bolts and shrouds, retaining their collars.",
+      "depends_on": [
+        "engine-isolate"
+      ],
+      "source_pdf_pages": [
+        94,
+        119,
+        120
+      ],
+      "verification": [
+        "Air-filter-case cover and shrouds removed; filter undisturbed."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF94",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=94"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF119",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=119"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF120",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=120"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "engine-access-tank-disconnect",
+      "title": "Disconnect the tank",
+      "instruction": "Unplug the fuel-pump connector. Put cloths below and around the fuel-hose joint for residual pressure. Remove the connector holder, slide the cover back, press its two release buttons and separate the joint by hand. Fit the supplied joint covers to both openings immediately.",
+      "depends_on": [
+        "engine-access-shrouds"
+      ],
+      "source_pdf_pages": [
+        290,
+        291
+      ],
+      "verification": [
+        "Pump disconnected; both fuel openings capped; no forced hose tools."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF290",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=290"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF291",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=291"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "engine-access-tank-remove",
+      "title": "Lift the tank clear",
+      "instruction": "Remove the tank mounting fasteners, retaining the collars/dampers in their original locations, and lift the tank away. Support it so its weight does not rest on the fuel-pump mounting surface. Leave the pump installed in the tank.",
+      "depends_on": [
+        "engine-access-tank-disconnect"
+      ],
+      "source_pdf_pages": [
+        290,
+        291
+      ],
+      "verification": [
+        "Tank supported; mounts accounted for; pump untouched."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF290",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=290"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF291",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=291"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "engine-access-case-release",
+      "title": "Release the intact case",
+      "instruction": "Disconnect the intake-air-temperature-sensor coupler by its connector latch. Loosen the air-filter-case joint clamp screw and remove the three case mounting bolts, retaining their collars, washers and dampers at the original locations. Keep the filter, temperature sensor and case assembly bracket attached to the case. Identify and release the cylinder-head breather connection to the air-filter case if it prevents free removal; retain its spring clamp and protect the opening.",
+      "source_pdf_pages": [
+        55,
+        293,
+        294
+      ],
+      "verification": [
+        "Sensor coupler disconnected; three mounting sets retained; case internals attached."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF55",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=55"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF293",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=293"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF294",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=294"
+        }
+      ],
+      "record_required": false,
+      "depends_on": [
+        "engine-access-tank-remove"
+      ]
+    },
+    {
+      "id": "engine-access-case-remove",
+      "title": "Lift off and protect the intake",
+      "instruction": "Lift the case clear of its seated intake connection without loading the remaining throttle body. Protect the exposed throttle-body inlet from dirt. Keep the case clean and inspect the joint and mounting supports for visible damage. Do not push the throttle valve, loosen sensor screws or move the cables.",
+      "source_pdf_pages": [
+        293,
+        294,
+        296
+      ],
+      "verification": [
+        "Intact case removed; clean inlet protected; throttle and sensors undisturbed."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF293",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=293"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF294",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=294"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF296",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=296"
+        }
+      ],
+      "record_required": false,
+      "depends_on": [
+        "engine-access-case-release"
+      ]
+    },
+    {
+      "id": "control-renew-housing-open",
+      "title": "Open the cable housing",
+      "instruction": "Pull back the rubber cover. Remove the housing screws and separate the throttle cable housing without pulling on the cables.",
+      "depends_on": [
+        "engine-access-case-remove"
+      ],
+      "source_pdf_pages": [
+        155,
+        157
+      ],
+      "verification": [
+        "Housing open; rubber cover and screws retained."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF155",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=155"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF157",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=157"
+        }
+      ]
+    },
+    {
+      "id": "control-renew-ends-release",
+      "title": "Release the two grip-end cables",
+      "instruction": "Disengage the pull and return cable ends from their original seats in the throttle tube as shown. Support the cables without kinking them and withdraw the complete grip/tube assembly from the bar. Do not peel the bonded rubber grip off its tube or disturb the cable ends at the throttle body.",
+      "depends_on": [
+        "control-renew-housing-open"
+      ],
+      "source_pdf_pages": [
+        155,
+        157,
+        160
+      ],
+      "verification": [
+        "Both identified ends released; intact grip/tube retained."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF155",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=155"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF157",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=157"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF160",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=160"
+        }
+      ]
+    },
+    {
+      "id": "control-renew-inspect",
+      "title": "Check the released parts",
+      "instruction": "Inspect the tube sliding surface and cable-end seats for damage and check that the cables move without binding. Keep dirt out of the open housing. A damaged or frayed cable needs a separate full cable-renewal operation before this access job can return to service.",
+      "depends_on": [
+        "control-renew-ends-release"
+      ],
+      "source_pdf_pages": [
+        157,
+        160
+      ],
+      "verification": [
+        "Retained parts accepted; no damaged cable or binding."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF157",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=157"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF160",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=160"
+        }
+      ]
+    },
+    {
+      "id": "engine-exhaust-silencer-remove",
+      "title": "Remove the complete silencer",
+      "instruction": "Support the silencer. Loosen its joint clamp, remove its two mounting bolts and lift the complete silencer off its joint. Keep the silencer body, end cap and packing assembled.",
+      "depends_on": [
+        "control-renew-inspect"
+      ],
+      "source_pdf_pages": [
+        198
+      ],
+      "verification": [
+        "Complete silencer supported and removed; internals untouched."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF198",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=198"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "engine-exhaust-midpipe-remove",
+      "title": "Remove the intermediate pipe",
+      "instruction": "Loosen the pipe-2 joint clamp and remove the exhaust-pipe bracket bolt while supporting the pipe. Move pipe 2 through the clearance path shown in PDF203 and remove it without forcing nearby components.",
+      "depends_on": [
+        "engine-exhaust-silencer-remove"
+      ],
+      "source_pdf_pages": [
+        198,
+        203
+      ],
+      "verification": [
+        "Pipe 2 removed; mounting hardware retained."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF198",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=198"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF203",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=203"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "engine-exhaust-header-remove",
+      "title": "Remove the header and old seals",
+      "instruction": "Remove the header nuts and header pipe. Leave the header protector attached. Remove the old exhaust-port gasket at the cylinder head and the two pipe-joint gaskets; inspect joint faces and supports for damage before refitting.",
+      "depends_on": [
+        "engine-exhaust-midpipe-remove"
+      ],
+      "source_pdf_pages": [
+        198
+      ],
+      "verification": [
+        "Header removed; all three separated joint seals identified; protector untouched."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF198",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=198"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "engine-cooling-prepare",
+      "title": "Set up for a cold drain",
+      "instruction": "Stand the cooled bike upright on a level surface. Place the collection container beneath the engine and position it close to the drain outlet, because flow can shoot sideways when the radiator cap is released.",
+      "depends_on": [
+        "engine-exhaust-header-remove"
+      ],
+      "source_pdf_pages": [
+        100,
+        101
+      ],
+      "verification": [
+        "Bike stable; engine and coolant cold; collection ready."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF100",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=100"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF101",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=101"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "engine-cooling-drain",
+      "title": "Open the drain and radiator cap",
+      "instruction": "Remove the coolant drain bolt and its copper washer. Place a thick cloth over the radiator cap and turn it slowly counterclockwise toward its detent to release residual pressure. Once hissing stops, press down and turn farther to remove the cap. Let the coolant drain into the container. Thoroughly flush the cooling system with clean tap water as Yamaha directs, then drain the flush water completely before fitting the new drain washer. Account for residual water when establishing the final coolant mixture.",
+      "depends_on": [
+        "engine-cooling-prepare"
+      ],
+      "source_pdf_pages": [
+        100,
+        101
+      ],
+      "verification": [
+        "Drain complete; old washer removed; cap opened only when cold."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF100",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=100"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF101",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=101"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "engine-cooling-seal",
+      "title": "Install a new drain washer",
+      "instruction": "Install a new copper washer and the coolant drain bolt. Tighten the bolt to 10 N·m.",
+      "depends_on": [
+        "engine-cooling-drain"
+      ],
+      "source_pdf_pages": [
+        100
+      ],
+      "verification": [
+        "New washer installed; drain bolt 10 N·m."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF100",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=100"
+        }
+      ],
+      "record_required": true
+    },
+    {
+      "id": "engine-coolant-hoses",
+      "title": "Disconnect the engine coolant hoses",
+      "instruction": "Identify radiator hoses 1,3 and 4 from the source drawing. Mark each hose and clamp position, loosen its engine-side clamp and release the hoses from the engine. Keep radiators mounted and protect the open hose/engine ports from dirt. Do not remove coolant pipe joints or the temperature sensor itself.",
+      "source_pdf_pages": [
+        202,
+        281,
+        282
+      ],
+      "verification": [
+        "Hoses 1/3/4 labeled and clear; pipe joints/sensor remain sealed."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF202",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=202"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF281",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=281"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF282",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=282"
+        }
+      ],
+      "depends_on": [
+        "engine-cooling-seal"
+      ]
+    },
+    {
+      "id": "engine-intake-clear",
+      "title": "Lift the intact throttle body from the engine joint",
+      "instruction": "Clean the lower intake joint, loosen its clamp and lift the intact throttle body clear. The grip-end cables were detached earlier; support the body and both identified cables separately outside the engine lifting path without tension. Keep body-end cable seats, sensors, adjustment screws and pulley intact; protect the engine intake and housing against dirt. The injector and sensor leads may remain connected while this group is supported next to the frame with slack; they must not carry its weight. Do not try to move it beyond their free reach.",
+      "source_pdf_pages": [
+        55,
+        294,
+        296
+      ],
+      "verification": [
+        "Throttle body supported clear; cables/sensors undisturbed; intake protected."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF55",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=55"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF294",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=294"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF296",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=296"
+        }
+      ],
+      "depends_on": [
+        "engine-coolant-hoses"
+      ]
+    },
+    {
+      "id": "engine-electrical-left",
+      "title": "Disconnect the left engine harness interfaces",
+      "instruction": "Release only the retaining clips/ties needed to free engine leads. Disconnect the stator, crankshaft-position and gear-position connectors; keep the gear-position switch bolted to the engine so its seal is not disturbed. Match connector identity to the diagrams, including the white 3-pin gear-position and gray 2-pin stator connectors. Label and protect both halves.",
+      "source_pdf_pages": [
+        62,
+        63,
+        200
+      ],
+      "verification": [
+        "Stator/crank-position/gear-position leads released; sensor seals untouched."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF62",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=62"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF63",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=63"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF200",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=200"
+        }
+      ],
+      "depends_on": [
+        "engine-intake-clear"
+      ]
+    },
+    {
+      "id": "engine-electrical-right",
+      "title": "Disconnect starter, ground and plug interfaces",
+      "instruction": "Disconnect the coolant-temperature connector, pull the spark-plug cap clear without removing the plug, and remove the engine-ground terminal bolt. At the starter lead, hold the motor-side terminal nut with a spanner while undoing the lead nut. Release the lead clamps and support the harness away from the lift path.",
+      "source_pdf_pages": [
+        66,
+        67,
+        70,
+        71,
+        200,
+        213,
+        236
+      ],
+      "verification": [
+        "Ground/starter/temperature/plug disconnected; starter terminal not twisted."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF66",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=66"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF67",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=67"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF70",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=70"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF71",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=71"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF200",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=200"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF213",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=213"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF236",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=236"
+        }
+      ],
+      "depends_on": [
+        "engine-electrical-left"
+      ]
+    },
+    {
+      "id": "engine-sprocket",
+      "title": "Remove chain, sprocket and shift pedal",
+      "instruction": "With the rear wheel still secured, chain intact and rear brake still fully mounted, select neutral. Remove the cover and flatten the old lock-washer tabs. Have a helper hold the rear brake firmly while using a correctly fitting socket and manual breaker bar to loosen the sprocket nut, following the attributed Nick Dole technique. Do not use impact, heat or jam the chain against the case. Once loose, release the stock chain joint and remove the chain, retaining its matched link/plate and preparing a new clip. Remove the nut, old lock washer and sprocket. Mark and remove the shift pedal, preserving punch-mark alignment.",
+      "source_pdf_pages": [
+        56,
+        190,
+        192,
+        253,
+        254
+      ],
+      "verification": [
+        "Chain and sprocket clear; old lock washer/clip retired; shift position recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF56",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=56"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF190",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=190"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF192",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=192"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF253",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=253"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF254",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=254"
+        },
+        {
+          "title": "Nick Dole manual brake-holding technique, PDF5",
+          "url": "https://www.teknikmotorsport.com/assets/brochures/Transmoto-Gearing.pdf#page=5"
+        }
+      ],
+      "depends_on": [
+        "engine-electrical-right"
+      ]
+    },
+    {
+      "id": "engine-release-cylinder",
+      "title": "Disconnect and record the cable clutch",
+      "instruction": "Record clutch lever free play and the cable-end/adjuster positions. Release cable tension with the handlebar adjuster as necessary. Disconnect the engine-end cable nipple from the push lever and release the cable outer from its bracket as shown in the inset; keep the push lever, shaft and clutch cover installed. Retain the cable with its handlebar lever and support it clear of the engine lifting path. This bike has a cable clutch.",
+      "source_pdf_pages": [
+        93,
+        94,
+        240
+      ],
+      "verification": [
+        "Engine-end nipple and outer detached and identified; push lever and clutch internals remain installed; cable supported."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF93",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=93"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF94",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=94"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF240",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=240"
+        }
+      ],
+      "depends_on": [
+        "engine-sprocket"
+      ]
+    },
+    {
+      "id": "engine-pedal-guard",
+      "title": "Clear pedal, guard and breather",
+      "instruction": "Remove the engine guard, brake-pedal pivot bolt and return spring. Support the pedal with its master-cylinder linkage attached. Label and release the cylinder-head breather hose from the engine and its routing holders. Keep brake hydraulics closed.",
+      "source_pdf_pages": [
+        62,
+        63,
+        202
+      ],
+      "verification": [
+        "Guard/pedal/spring retained; breather clear; brake system closed."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF62",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=62"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF63",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=63"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF202",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=202"
+        }
+      ],
+      "depends_on": [
+        "engine-release-cylinder"
+      ]
+    },
+    {
+      "id": "engine-engine-support",
+      "title": "Support engine and swingarm before undoing mounts",
+      "instruction": "Support the engine independently. Support the swingarm and prepare a same-diameter temporary support shaft from its other side if needed when the pivot is withdrawn. Confirm every electrical connector, hose, intake assembly and cable is clear before loosening the engine mounts.",
+      "source_pdf_pages": [
+        201,
+        202,
+        203
+      ],
+      "verification": [
+        "Independent supports ready; all engine interfaces clear."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF201",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=201"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF202",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=202"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF203",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=203"
+        }
+      ],
+      "depends_on": [
+        "engine-pedal-guard"
+      ]
+    },
+    {
+      "id": "engine-mounts-out",
+      "title": "Release the engine mounts",
+      "instruction": "Remove the left/right upper brackets and four lower bracket plates (a paired stack on each side) with their identified hardware, keeping bolt positions separate. Withdraw the pivot while maintaining swingarm support. Keep the engine fully supported as the last mounting fasteners come out; never let it hang from a remaining hose or lead.",
+      "source_pdf_pages": [
+        201,
+        202,
+        203
+      ],
+      "verification": [
+        "Mount hardware mapped; pivot removed with swingarm supported."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF201",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=201"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF202",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=202"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF203",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=203"
+        }
+      ],
+      "depends_on": [
+        "engine-engine-support"
+      ]
+    },
+    {
+      "id": "engine-engine-out",
+      "title": "Lift the engine out to the right",
+      "instruction": "Lift the engine and move its lower part toward the right side of the chassis as shown in the OEM drawing, then transfer it to the prepared support. Stop if any interface catches. Keep the inlet, exhaust and fluid ports protected from contamination.",
+      "source_pdf_pages": [
+        203
+      ],
+      "verification": [
+        "Assembly removed to right; no trapped interface; engine stable."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF203",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=203"
+        }
+      ],
+      "depends_on": [
+        "engine-mounts-out"
+      ]
+    },
+    {
+      "id": "engine-bench-record",
+      "title": "Verify the engine and rear bearing stacks",
+      "instruction": "Record the completed independent bench work, if any. Before refit confirm its timing, clearances, lubrication, free rotation and sealed cover/filter checks. This guide itself leaves engine internals intact. Keep the original swingarm and side stacks located on their temporary support and ready for the single pivot replacement.",
+      "source_pdf_pages": [
+        183,
+        188,
+        189,
+        203,
+        204
+      ],
+      "verification": [
+        "Bench condition and any separate internal repair record accepted; all covers/filter sealed; original swingarm side stacks retained and supported."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF183",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=183"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF188",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=188"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF189",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=189"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF203",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=203"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF204",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=204"
+        }
+      ],
+      "depends_on": [
+        "engine-engine-out"
+      ]
+    },
+    {
+      "id": "engine-engine-in",
+      "title": "Place the engine back in the chassis",
+      "instruction": "Bring the supported engine in from the right, lower part first, and align mounting points without trapping wires or hoses. Apply molybdenum-disulfide grease to the pivot and install from the right while withdrawing the temporary support shaft, keeping the original swingarm side stacks located. Apply lithium-soap grease to the pivot-nut threads and contact face.",
+      "source_pdf_pages": [
+        189,
+        203,
+        204
+      ],
+      "verification": [
+        "Engine aligned from right; pivot from right; supports and grease correct."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF189",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=189"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF203",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=203"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF204",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=204"
+        }
+      ],
+      "depends_on": [
+        "engine-bench-record"
+      ]
+    },
+    {
+      "id": "engine-mount-torque",
+      "title": "Install and secure the engine brackets",
+      "instruction": "Restore the original four lower bracket plates in their paired left/right stacks and both upper brackets and mapped hardware. Follow the labeled engine-install drawing: pivot nut 75 N·m; lower engine-mount bolt 53 N·m; front bracket bolts 34 N·m; front engine-mount bolt 55 N·m; upper bracket bolts 34 N·m; upper engine-mount bolts 45 N·m. Keep the supported assembly aligned while tightening.",
+      "source_pdf_pages": [
+        59,
+        203,
+        204
+      ],
+      "verification": [
+        "All six distinct mounting torque groups recorded against the diagram."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF59",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=59"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF203",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=203"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF204",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=204"
+        }
+      ],
+      "depends_on": [
+        "engine-engine-in"
+      ]
+    },
+    {
+      "id": "engine-release-refit",
+      "title": "Reconnect and adjust the cable clutch",
+      "instruction": "Restore the identified clutch cable outer to its engine bracket and nipple to the push lever as illustrated; tighten the engine-end cable locknut to 7 Nm if loosened. Verify full seating. Set lever free play to 7-12 mm using the handlebar adjuster first. If its range is insufficient, slide the cable cover, loosen the cable-side adjuster locknut, adjust and tighten that locknut to 4.3 Nm, then restore the cover. Check smooth clutch operation through both steering locks and record actual free play.",
+      "source_pdf_pages": [
+        56,
+        93,
+        94,
+        240
+      ],
+      "verification": [
+        "Engine cable-end and outer fully seated; disturbed engine locknut 7 Nm; cable-side adjuster locknut 4.3 Nm if used; actual lever free play 7-12 mm recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF56",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=56"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF93",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=93"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF94",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=94"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF240",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=240"
+        }
+      ],
+      "depends_on": [
+        "engine-mount-torque"
+      ]
+    },
+    {
+      "id": "engine-pedal-refit",
+      "title": "Restore pedal, guard and breather",
+      "instruction": "Install new matching pedal-pivot O-rings at the two illustrated positions, lubricated with lithium-soap grease. Restore the brake-pedal pivot and spring, lubricating illustrated pivot/seal contacts with lithium-soap grease; tighten its bolt to 26 Nm. Refit the engine guard at 7 Nm. Restore the head breather to its recorded case/engine connections and exact top-view route. Keep ignition, ground and temperature leads outside the breather and avoid pinching under case brackets.",
+      "source_pdf_pages": [
+        58,
+        59,
+        70,
+        71,
+        201,
+        202,
+        293
+      ],
+      "verification": [
+        "Pedal 26/guard 7 N·m; spring attached; breather routing and marks correct."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF58",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=58"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF59",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=59"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF70",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=70"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF71",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=71"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF201",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=201"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF202",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=202"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF293",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=293"
+        }
+      ],
+      "depends_on": [
+        "engine-release-refit"
+      ]
+    },
+    {
+      "id": "engine-sprocket-refit",
+      "title": "Restore the drive sprocket and chain",
+      "instruction": "Fit the original serviceable drive sprocket and new correct lock washer. Leave the nut hand-threaded temporarily; its final LOCTITE preparation, torque and tab locking are a later explicit step after rear-wheel, brake and chain closure. Align shift-shaft/pedal punch marks and tighten the pedal bolt to 12 Nm. With the supported rear wheel still installed, loosen the axle nut and both adjuster locknuts and back off adjusters enough to bring the wheel forward for chain installation. Fit the retained stock chain with matched link/plate and new clip, closed end leading chain travel as illustrated; lubricate the chain. Leave the sprocket cover off for the final nut check.",
+      "source_pdf_pages": [
+        52,
+        56,
+        190,
+        192,
+        253,
+        254
+      ],
+      "verification": [
+        "Original sprocket and new lock washer seated; nut temporary only; new chain clip correctly oriented; shift pedal 12 Nm."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF52",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=52"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF56",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=56"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF190",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=190"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF192",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=192"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF253",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=253"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF254",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=254"
+        }
+      ],
+      "depends_on": [
+        "engine-pedal-refit"
+      ]
+    },
+    {
+      "id": "engine-ground-starter",
+      "title": "Restore the engine ground and starter lead",
+      "instruction": "Refit the ground terminal at the cylinder-head location shown and tighten its bolt 7 N·m; point the lead upward and route it with the temperature and high-tension leads outside the head breather. Refit the starter lead at 6 N·m while holding the motor-side nut with a spanner. Restore its clamp without slack, as shown.",
+      "source_pdf_pages": [
+        62,
+        63,
+        66,
+        67,
+        200,
+        213,
+        236
+      ],
+      "verification": [
+        "Head ground 7 N·m and upward; starter 6 N·m with terminal counterheld."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF62",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=62"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF63",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=63"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF66",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=66"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF67",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=67"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF200",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=200"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF213",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=213"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF236",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=236"
+        }
+      ],
+      "depends_on": [
+        "engine-sprocket-refit"
+      ]
+    },
+    {
+      "id": "engine-harness-refit",
+      "title": "Reconnect and route the engine harness",
+      "instruction": "Reconnect stator, crankshaft-position, gear-position and coolant-temperature connectors and their covers. Route stator lead behind the radiator, clear of the tension arm and gear-position connector. The clutch cable protector contacts the radiator hose and passes outside the stator and gear leads. Fasten clutch cable, gear lead and stator lead over the grommet with the tie end forward and cut off excess. Clamp the clutch cable ahead of the leads, seat the frame clip with its lock forward and trim excess as illustrated. Keep regulator leads inside the tension arm. Fully seat the plug cap and route temperature, engine-ground and high-tension leads outside the head breather. Check the starter lead stays clear of the push lever shaft. Restore steering-area switch leads and cable routing to the exact diagrams.",
+      "source_pdf_pages": [
+        62,
+        63,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "verification": [
+        "Every labeled connector latched/covered; source routing and tie locations verified."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF62",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=62"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF63",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=63"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF66",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=66"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF67",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=67"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF68",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=68"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF69",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=69"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF70",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=70"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF71",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=71"
+        }
+      ],
+      "depends_on": [
+        "engine-ground-starter"
+      ]
+    },
+    {
+      "id": "engine-intake-refit",
+      "title": "Reseat the throttle body",
+      "instruction": "Remove intake protection and seat the intact throttle body fully in its original engine-side joint. Restore the clamp orientation and tighten the throttle-body joint clamp to 3.0 N·m. Keep both cables routed without tension and check full smooth throttle return. Sensors and calibration screws remain untouched.",
+      "source_pdf_pages": [
+        55,
+        90,
+        294,
+        296
+      ],
+      "verification": [
+        "Joint fully seated 3.0 N·m; throttle returns smoothly; cables not trapped."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF55",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=55"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF90",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=90"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF294",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=294"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF296",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=296"
+        }
+      ],
+      "depends_on": [
+        "engine-harness-refit"
+      ]
+    },
+    {
+      "id": "control-renew-lubricate",
+      "title": "Lubricate the sliding and cable-end surfaces",
+      "instruction": "Apply lithium-soap-based grease to the throttle-grip sliding surface. Lightly grease the cable ends and inside of the grip as shown. Keep grease away from the exterior gripping surface and the brake.",
+      "depends_on": [
+        "engine-intake-refit"
+      ],
+      "source_pdf_pages": [
+        160
+      ],
+      "verification": [
+        "Sliding and cable-end contact surfaces lubricated."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF160",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=160"
+        }
+      ]
+    },
+    {
+      "id": "control-renew-ends-fit",
+      "title": "Reconnect pull and return cables",
+      "instruction": "Restore each identified cable end to its original seat and groove in the throttle tube. Place the rubber cover and slide the intact grip/tube onto the handlebar. Confirm both cable ends and their outer housings are seated correctly before closing the housing.",
+      "depends_on": [
+        "control-renew-lubricate"
+      ],
+      "source_pdf_pages": [
+        155,
+        160
+      ],
+      "verification": [
+        "Both cable ends seated in the correct positions without crossing."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF155",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=155"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF160",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=160"
+        }
+      ]
+    },
+    {
+      "id": "control-renew-housing-close",
+      "title": "Secure the housing",
+      "instruction": "Fit the housing and tighten its screws to 3.8 Nm. Check grip movement immediately. If the housing causes binding, reposition and retighten it, then check again. Restore the housing cover and rubber cover.",
+      "depends_on": [
+        "control-renew-ends-fit"
+      ],
+      "source_pdf_pages": [
+        160
+      ],
+      "verification": [
+        "Housing torqued; grip moves smoothly and returns."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF160",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=160"
+        }
+      ]
+    },
+    {
+      "id": "control-renew-static-check",
+      "title": "Verify free play and return before starting",
+      "instruction": "With the engine stopped, check free play and smooth full return through the steering travel. The retained setup must still have 3–6 mm free play and no binding. If not, correct seating/routing before starting; do not use a running engine to diagnose a bound throttle.",
+      "depends_on": [
+        "control-renew-housing-close"
+      ],
+      "source_pdf_pages": [
+        90,
+        160,
+        161
+      ],
+      "verification": [
+        "Record 3–6 mm free play and full return at centre and both steering limits."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF90",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=90"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF160",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=160"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF161",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=161"
+        }
+      ]
+    },
+    {
+      "id": "engine-hoses-refit",
+      "title": "Reconnect the engine coolant hoses",
+      "instruction": "Remove temporary port covers. Restore radiator hoses 1,3 and 4 to their marked engine connections and original clamp positions; tighten each disturbed radiator-hose clamp screw to 1.5 N·m. Check there are no kinks or trapped hoses. Radiator pipe seals and temperature sensor were not removed.",
+      "source_pdf_pages": [
+        55,
+        281,
+        282
+      ],
+      "verification": [
+        "Hoses 1/3/4 correct; disturbed clamps 1.5 N·m."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF55",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=55"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF281",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=281"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF282",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=282"
+        }
+      ],
+      "depends_on": [
+        "control-renew-static-check"
+      ]
+    },
+    {
+      "id": "engine-exhaust-header-install",
+      "title": "Seat the new header gasket",
+      "instruction": "Install the new exhaust-port gasket at the cylinder head and refit header pipe 1. Tighten all header nuts first to 7 N·m, then retighten them to 10 N·m. Do not apply the protector-screw locking-agent note to these nuts.",
+      "depends_on": [
+        "engine-hoses-refit"
+      ],
+      "source_pdf_pages": [
+        198,
+        204
+      ],
+      "verification": [
+        "New exhaust-port gasket; all header nuts 7 then 10 Nm."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF198",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=198"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF204",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=204"
+        }
+      ],
+      "record_required": true
+    },
+    {
+      "id": "engine-exhaust-midpipe-install",
+      "title": "Locate pipe 2 and its clamp",
+      "instruction": "Install the new pipe-joint gaskets in their PDF198 positions. Refit the pipe-2 clamp, pipe 2 and bracket bolt. At each joint, engage the clamp projection in the pipe/silencer slot and keep the clamp off the raised projection illustrated in PDF204. Leave final bracket and clamp tightening until the silencer is seated.",
+      "depends_on": [
+        "engine-exhaust-header-install"
+      ],
+      "source_pdf_pages": [
+        198,
+        204
+      ],
+      "verification": [
+        "Fresh joint seals seated; clamp locating features correct."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF198",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=198"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF204",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=204"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "engine-exhaust-silencer-install",
+      "title": "Refit the complete silencer",
+      "instruction": "Refit the silencer clamp and complete silencer on the seated joint. Install the retained mounting hardware and tighten both silencer mounting bolts to 30 N·m.",
+      "depends_on": [
+        "engine-exhaust-midpipe-install"
+      ],
+      "source_pdf_pages": [
+        198,
+        204,
+        205
+      ],
+      "verification": [
+        "Both silencer mounts 30 N·m; joints fully engaged."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF198",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=198"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF204",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=204"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF205",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=205"
+        }
+      ],
+      "record_required": true
+    },
+    {
+      "id": "engine-exhaust-joints-final",
+      "title": "Tighten the bracket and both clamps",
+      "instruction": "Confirm front and rear joints remain fully inserted while tightening the exhaust-pipe bracket bolt to 20 N·m, pipe-2 clamp bolt to 12 N·m and silencer clamp bolt to 12 N·m.",
+      "depends_on": [
+        "engine-exhaust-silencer-install"
+      ],
+      "source_pdf_pages": [
+        205
+      ],
+      "verification": [
+        "Bracket 20 N·m; each joint clamp 12 N·m; projections correctly located."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF205",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=205"
+        }
+      ],
+      "record_required": true
+    },
+    {
+      "id": "engine-access-case-refit",
+      "title": "Seat the case and secure its mounts",
+      "instruction": "Remove temporary inlet protection and seat the complete case fully on its original intake connection. Restore mounting collars, dampers and washers; tighten the three case bolts to 7 Nm and the air-filter-case joint clamp screw to 3 Nm. Restore the cylinder-head breather connection to the case if released and its original spring clamp. Check the lip is evenly seated, reconnect the intake-temperature coupler and restore its cover.",
+      "source_pdf_pages": [
+        55,
+        293,
+        294
+      ],
+      "verification": [
+        "Three mounts 7 N·m; joint clamp 3 N·m; joint fully seated; sensor connector latched."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF55",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=55"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF293",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=293"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF294",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=294"
+        }
+      ],
+      "record_required": true,
+      "depends_on": [
+        "engine-exhaust-joints-final"
+      ]
+    },
+    {
+      "id": "engine-access-intake-check",
+      "title": "Verify the restored intake",
+      "instruction": "Check case support, full joint seating, wiring clearance and that all temporary intake protection has been removed. The filter and bracket stayed assembled; if either has moved or a seal cannot be accounted for, resolve it before closing the bike.",
+      "source_pdf_pages": [
+        293,
+        294,
+        297,
+        298
+      ],
+      "verification": [
+        "Intake complete and clean; retained assembly bracket/element secure."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF293",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=293"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF294",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=294"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF297",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=297"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF298",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=298"
+        }
+      ],
+      "record_required": true,
+      "depends_on": [
+        "engine-access-case-refit"
+      ]
+    },
+    {
+      "id": "engine-access-tank-install",
+      "title": "Reconnect the fuel system",
+      "instruction": "Refit the tank on its retained dampers/collars. Tighten its two front mounting bolts to 8 N·m and the tank retaining screw to 4 N·m. Remove the temporary joint covers, push the fuel hose fully onto the pipe until it clicks, and slide the connector cover back into its locked position. Keep the hose holder correctly oriented, with no kink or pinch. Reconnect the pump plug. Route both the fuel hose and fuel-pump lead through the guide on the cover as shown in PDF292.",
+      "depends_on": [
+        "engine-access-intake-check"
+      ],
+      "source_pdf_pages": [
+        290,
+        292
+      ],
+      "verification": [
+        "Tank front bolts 8 N·m/retaining screw 4 N·m; hose latched/covered/routed; pump plug connected."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF290",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=290"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF292",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=292"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "engine-cooling-fill",
+      "title": "Refill with the specified mixture",
+      "instruction": "Use the specified aluminum-compatible ethylene-glycol antifreeze and distilled water at a final 1:1 coolant-to-water ratio. Do not mix antifreeze types. Fill to the maximum level illustrated in PDF99. The complete system nominal volume is 1.03 L including all routes; correct level and concentration govern, not forcing in that amount after an incomplete drain. Wash any spill on paint away immediately with water.",
+      "depends_on": [
+        "engine-access-tank-install"
+      ],
+      "source_pdf_pages": [
+        99,
+        100,
+        101
+      ],
+      "verification": [
+        "Mixture/product and amount recorded; level at illustrated maximum."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF99",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=99"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF100",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=100"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF101",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=101"
+        }
+      ],
+      "record_required": true
+    },
+    {
+      "id": "engine-cooling-cap",
+      "title": "Secure the radiator cap",
+      "instruction": "Install and secure the radiator cap. Account for the drain hardware, collection container and tools before running the engine.",
+      "depends_on": [
+        "engine-cooling-fill"
+      ],
+      "source_pdf_pages": [
+        101
+      ],
+      "verification": [
+        "Cap secured; drain sealed; tools clear."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF101",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=101"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "pressure-test",
+      "title": "Pressure-check the reinstalled cooling system",
+      "instruction": "With coolant at the upper level, install the specified radiator tester/adapter and apply137.3 kPa; do not exceed that pressure. It must hold5–10 seconds. Check radiator joints and hoses for leaks or bulging, correct any fault, release pressure and cover the connection with a cloth before removing the tester. Secure the radiator cap. Do not perform this check on a hot pressurized system.",
+      "source_pdf_pages": [
+        283,
+        284
+      ],
+      "verification": [
+        "Cooling system holds137.3 kPa for5–10 seconds; no leaks/bulges; cap restored."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF283",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=283"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF284",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=284"
+        }
+      ],
+      "depends_on": [
+        "engine-cooling-cap"
+      ]
+    },
+    {
+      "id": "engine-oil-fill",
+      "title": "Refill the oil for the actual engine condition",
+      "instruction": "Record the applicable oil quantity: 0.94 L for oil change with unchanged filter, 0.96 L with filter removal, or 1.20 L for a disassembled engine. Use the OEM-listed Yamalube/API SG-or-higher JASO MA oil from the listed SAE grades 10W-40, 10W-50, 15W-40, 20W-40 or 20W-50. Do not add chemical additives or use source-excluded energy-conserving oils. Record chosen product and quantity; no temperature-to-grade chart is asserted by these pages. Apply lithium-soap grease to the new filler-cap O-ring shown in PDF242 and fit the cap. Final level and flow checks remain required.",
+      "source_pdf_pages": [
+        47,
+        92,
+        93,
+        242
+      ],
+      "verification": [
+        "Actual engine condition, oil grade and measured fill recorded; new filler O-ring."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF47",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=47"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF92",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=92"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF93",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=93"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF242",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=242"
+        }
+      ],
+      "depends_on": [
+        "pressure-test"
+      ]
+    },
+    {
+      "id": "engine-battery-refit",
+      "title": "Reconnect the battery and inspect routing",
+      "instruction": "Recheck all engine interfaces, then reconnect positive battery lead before negative. Restore positive-terminal cover and the exact illustrated lead routing, with positive lead below negative. Keep all loose conductors away from the frame and secure the original connections.",
+      "source_pdf_pages": [
+        72,
+        73,
+        117
+      ],
+      "verification": [
+        "Positive then negative restored; terminal cover/routing correct."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF72",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=72"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF73",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=73"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF117",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=117"
+        }
+      ],
+      "depends_on": [
+        "engine-oil-fill"
+      ]
+    },
+    {
+      "id": "engine-access-body-install",
+      "title": "Refit the panels and seat",
+      "instruction": "Locate the radiator-guard projections in the shroud holes, then install the shrouds at 7 N·m. Refit the air-filter-case cover by engaging its projection and both ribs. Slide side-cover tabs into their slots; the right-cover rib sits under the rear-fender rib. Tighten ordinary left/right side-cover bolts to 7 N·m and the two seat bolts to 13 N·m. Refit the sub-seat with its tether untwisted, then press, rotate and secure its quick fastener. Restore the fuel-tank breather hose: protected end in the steering-shaft hole, other end on the fuel-cap projection, hose through the cover guide and seated in its groove as shown in PDF96.",
+      "depends_on": [
+        "engine-battery-refit"
+      ],
+      "source_pdf_pages": [
+        35,
+        94,
+        95,
+        96,
+        117,
+        118,
+        119,
+        120,
+        121
+      ],
+      "verification": [
+        "Tabs/ribs seated; shrouds/side-cover bolts 7 N·m; seat bolts 13 N·m; quick fastener locked."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF35",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=35"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF94",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=94"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF95",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=95"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF96",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=96"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF117",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=117"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF118",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=118"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF119",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=119"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF120",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=120"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF121",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=121"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "engine-slack",
+      "title": "Measure and adjust chain slack",
+      "instruction": "Loosen the rear axle nut and both adjuster locknuts first. With the rear wheel raised and gearbox in neutral, pull the chain upward above the chain-guide mounting bolt with about 50 N. Measure between the drive-chain guide and the bottom of the chain at the exact diagram location. Adjust both sides equally to 50–60 mm. Push the wheel forward so each puller/end plate is seated against the swingarm end.",
+      "source_pdf_pages": [
+        105,
+        131
+      ],
+      "verification": [
+        "Measured slack 50–60 mm using OEM50 N reference; pullers equally adjusted and seated."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF105",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=105"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF131",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=131"
+        }
+      ],
+      "depends_on": [
+        "engine-access-body-install"
+      ]
+    },
+    {
+      "id": "engine-torque",
+      "title": "Secure the rear axle and adjusters",
+      "instruction": "Tighten the rear axle nut to 135 N·m and both chain-adjuster locknuts to 21 N·m. Recheck the chain slack after tightening.",
+      "source_pdf_pages": [
+        106,
+        131
+      ],
+      "verification": [
+        "Axle 135 N·m; locknuts 21 N·m; final slack recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF106",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=106"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF131",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=131"
+        }
+      ],
+      "depends_on": [
+        "engine-slack"
+      ]
+    },
+    {
+      "id": "engine-sprocket-final",
+      "title": "Lock the drive sprocket after rear-wheel closure",
+      "instruction": "With the rear axle and adjusters torqued, chain fitted and rear brake refitted and firm, keep the transmission in neutral and have a helper apply the rear brake to hold the drive. Remove the temporarily fitted nut, apply Yamaha-specified LOCTITE to its threads and tighten to 90 Nm with a torque wrench. Record the actual locking product and follow its instructions; Yamaha does not name a grade here. Bend the new washer tabs against the nut flats, inspect locking and fit the sprocket cover at 7 Nm. No impact or heat is part of this method.",
+      "source_pdf_pages": [
+        56,
+        190,
+        192
+      ],
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF56",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=56"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF190",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=190"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF192",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=192"
+        },
+        {
+          "title": "Nick Dole manual brake-holding technique, PDF5",
+          "url": "https://www.teknikmotorsport.com/assets/brochures/Transmoto-Gearing.pdf#page=5"
+        }
+      ],
+      "verification": [
+        "Rear wheel, chain and working brake restored before holding load; nut 90 Nm with specified locking agent; new tab washer locked; cover 7 Nm."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "engine-torque"
+      ]
+    },
+    {
+      "id": "engine-fuel-ready",
+      "title": "Restore fuel and verify readiness to start",
+      "instruction": "Open the sub-seat access and add clean recommended unleaded gasoline, minimum 91 (R+M)/2; E10 is permitted. Secure the fuel cap and sub-seat fastener with its tether untwisted. Check the pump connector and latched fuel hose/cover, and check for fuel leaks. Select neutral and work in a ventilated area before any starter operation.",
+      "source_pdf_pages": [
+        35,
+        36,
+        37,
+        291,
+        292
+      ],
+      "verification": [
+        "Correct fuel restored; cap/fastener secured; hose/connector checked; no fuel leak; neutral selected."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF35",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=35"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF36",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=36"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF37",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=37"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF291",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=291"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF292",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=292"
+        }
+      ],
+      "depends_on": [
+        "engine-sprocket-final"
+      ]
+    },
+    {
+      "id": "engine-oil-flow",
+      "title": "Verify oil flow immediately at idle",
+      "instruction": "Start only after fuel, intake, cooling, electrical and mounting closure is complete. Keep the engine at idle; observe the oil-check window for oil flow and decreasing level. If the level does not decrease, stop the engine immediately and investigate the lubrication system instead of revving it.",
+      "source_pdf_pages": [
+        93
+      ],
+      "verification": [
+        "Oil flow/level decrease observed at idle; no leak or abnormal condition."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF93",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=93"
+        }
+      ],
+      "depends_on": [
+        "engine-fuel-ready"
+      ]
+    },
+    {
+      "id": "engine-cooling-warm-cool",
+      "title": "Warm for the operating checks",
+      "instruction": "After initial idle oil-flow verification and with all fuel, cooling, intake and control closure complete, warm the engine for several minutes. Leave the radiator cap secured. Proceed to the following measured operating checks before stopping and cooling completely.",
+      "depends_on": [
+        "engine-oil-flow"
+      ],
+      "source_pdf_pages": [
+        101
+      ],
+      "verification": [
+        "Initial oil flow verified; engine warmed for the next measured operating checks; cap remains closed."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF101",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=101"
+        }
+      ],
+      "record_required": true
+    },
+    {
+      "id": "control-renew-idle-check",
+      "title": "Check the warm idle",
+      "instruction": "Use the correctly configured YDT 90890-03269 (US USB) or 90890-03264 to confirm coolant at 70–80 °C. Measure speed with tachometer 90890-06760 or YU-39951-B, connected as shown to the ignition-coil high-tension lead. With the starter knob fully returned and normal filter/compression/free play, verify 1900–2100 r/min. If necessary, adjust the idle screw; clockwise raises speed.",
+      "depends_on": [
+        "engine-cooling-warm-cool"
+      ],
+      "source_pdf_pages": [
+        90
+      ],
+      "verification": [
+        "Record temperature and accepted idle speed."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF90",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=90"
+        }
+      ]
+    },
+    {
+      "id": "control-renew-final-adjust",
+      "title": "Set the final grip free play",
+      "instruction": "Stop the engine. If final adjustment is needed after idle setting, loosen the grip adjuster locknut, turn the adjuster to obtain 3–6 mm free play, and tighten the locknut. Confirm smooth full return again.",
+      "depends_on": [
+        "control-renew-idle-check"
+      ],
+      "source_pdf_pages": [
+        90
+      ],
+      "verification": [
+        "Record final 3–6 mm free play and secure locknut."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF90",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=90"
+        }
+      ]
+    },
+    {
+      "id": "control-renew-steering-check",
+      "title": "Verify idle through steering travel",
+      "instruction": "Restart the warm engine without starter enrichment. Turn the handlebar fully left and right: idle must not change. If it changes, stop and correct cable routing/seating or adjustment before repeating this check. Hold the engine-stop switch until the engine fully stops when the check is finished.",
+      "depends_on": [
+        "control-renew-final-adjust"
+      ],
+      "source_pdf_pages": [
+        36,
+        37,
+        90
+      ],
+      "verification": [
+        "Record unchanged idle across steering travel; engine stopped."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF36",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=36"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF37",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=37"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF90",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=90"
+        }
+      ]
+    },
+    {
+      "id": "engine-complete-cooling",
+      "title": "Allow complete cooling",
+      "instruction": "After the operating check has stopped the engine, let it cool completely before opening the radiator cap for the next cold-level check.",
+      "depends_on": [
+        "control-renew-steering-check"
+      ],
+      "source_pdf_pages": [
+        101
+      ],
+      "verification": [
+        "Engine stopped and fully cooled before the cap is opened."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF101",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=101"
+        }
+      ],
+      "record_required": false
+    },
+    {
+      "id": "engine-cooling-recheck",
+      "title": "Recheck the cold level",
+      "instruction": "Keep the bike upright on level ground. With the engine cooled, use the cloth and slow pressure-release method to remove the cap. Allow the coolant to settle, check against the illustrated maximum and add the correct mixture if low. Restore the cap securely. A leak or repeatedly dropping level requires repair rather than repeated top-offs.",
+      "depends_on": [
+        "engine-complete-cooling"
+      ],
+      "source_pdf_pages": [
+        99,
+        100,
+        101
+      ],
+      "verification": [
+        "Final cold level and mixture recorded; cap secured; no unresolved loss."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF99",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=99"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF100",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=100"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF101",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=101"
+        }
+      ],
+      "record_required": true
+    },
+    {
+      "id": "engine-final-checks",
+      "title": "Verify the installed engine and record closure",
+      "instruction": "Follow the oil-level procedure with the bike upright: warm the engine for ten minutes to the stated normal oil temperature of 60 C, stop, stand upright on level ground, then restart for 10 seconds, stop and allow a few minutes to settle. Level must be between the window lower edge and maximum mark. Correct level with the recommended oil; warm for several minutes and recheck after settling as directed. Check leaks, cable-clutch free play 7-12 mm and brake operation, throttle free play 3-6 mm/full return, and the recorded warm-idle steering test. Record mount torques, fluid quantities, chain slack and unresolved symptoms. Engine installation completion does not substitute for an internal rebuild record. Verify wheels remain correctly secured, brakes firm, no trapped cable/hose, and all temporary supports and port covers removed. Record any fault before returning the bike to use.",
+      "source_pdf_pages": [
+        84,
+        90,
+        91,
+        92,
+        93,
+        94,
+        105,
+        106,
+        203,
+        204
+      ],
+      "verification": [
+        "Oil level/flow, coolant level, leak/control checks and hardware record complete."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        {
+          "title": "Yamaha2023 owner/service manual, PDF84",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=84"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF90",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=90"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF91",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=91"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF92",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=92"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF93",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=93"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF94",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=94"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF105",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=105"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF106",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=106"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF203",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=203"
+        },
+        {
+          "title": "Yamaha2023 owner/service manual, PDF204",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=204"
+        }
+      ],
+      "depends_on": [
+        "engine-cooling-recheck"
+      ]
+    }
+  ],
+  "affected_components": [
+    "engine_modifications",
+    "chain",
+    "brakes",
+    "rear_brake",
+    "clutch",
+    "exhaust",
+    "intake"
+  ],
+  "entry_state": [
+    "Assembled exact stock bike; intact chain and working rear brake; original engine condition and routing recorded."
+  ],
+  "exit_state": [
+    "Engine refitted with mounting, electrical, intake, fuel, exhaust, cable clutch, chain, oil and cooling closure recorded; any separate internal job retains its own checks."
+  ],
+  "integration_status": "ROOT_SOURCE_AND_CLOSURE_REVIEW_APPROVED",
+  "supplemental_sources": [
+    {
+      "id": "nick-dole-gearing",
+      "url": "https://www.teknikmotorsport.com/assets/brochures/Transmoto-Gearing.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\drive8\\Transmoto-Gearing.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\drive8\\Transmoto-Gearing.pdf",
+      "sha256": "84e1c2a35ba1c44b2917d889f3ecb5765b383cf65e69ffaada2808f2b1ba3cf0",
+      "attribution": "Nick Dole, Transmoto On The Tools: Gearing, hosted by Teknik Motorsport",
+      "scope": "Nick Dole manual rear-brake holding technique with an intact serviceable chain and secured rear wheel; universal technique only. Yamaha BHR controls all exact fasteners, thread preparation and locking. No impact/heat suggestions adopted."
+    }
+  ],
+  "editorial_template": {
+    "path": "docs/research/workshop-pass10/yamaha-2024-frame/engine-removal-refit-v1.procedure.json",
+    "sha256": "86fb9b99d1efeb08101a68f7f8b232cc0267ccc8e67465e41eec2750f181be96",
+    "scope": "Ordered workflow scaffold only; exact2023 BHR-2819U-10 text and diagrams control claims."
+  },
+  "remaining_gaps": [
+    "Internal engine operations and their measurements are separate records, not implied by engine installation.",
+    "The OEM head-gasket replacement pressure-test timing is an additional prerequisite of any separate gasket job.",
+    "Physical bike validation has not been performed."
+  ]
+}

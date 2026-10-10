@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "status": "ACCESS_RESEARCH_NOT_A_PROCEDURE",
+  "target": {
+    "manufacturer": "Beta",
+    "model": "300 RR",
+    "model_year": 2023,
+    "region": "US",
+    "variant": "Race Edition"
+  },
+  "decision": "Keep bench-only boundary: sources inspected do not yet establish complete shock extraction and refit clearance/order. Lower-pin removal during engine extraction is not a complete shock-removal procedure.",
+  "sources": [
+    {
+      "url": "https://store-peenhlhyij.mybigcommerce.com/content/SUPPORT_PDF%27s/2023%20Beta%20250%20300%20RR%20Service%20Manual.pdf",
+      "local_path": "C:/Users/kylej/AppData/Local/Temp/beta-2023-engine.pdf",
+      "sha256": "d0d92351299bae06b91be6617bf05cc9c5b2134ac046751e7b5f8bb9393d8dc6",
+      "pdf_pages": [
+        18
+      ]
+    },
+    {
+      "url": "https://store-peenhlhyij.mybigcommerce.com/content/2023_Owner%20manual_RR%26RR-Race_2Stroke.pdf",
+      "local_path": "C:/Users/kylej/AppData/Local/Temp/beta-2023-owner.pdf",
+      "sha256": "e7b94994619b5bef81c5e1a65b0c60aa70a3f74516f380f0b9b58283a904599f",
+      "pdf_pages": [
+        77,
+        88
+      ]
+    }
+  ],
+  "candidate_facts_pending_visual_review": [
+    {
+      "source_index": 1,
+      "pdf_page": 88,
+      "item": "rear shock/frame",
+      "torque_nm": 50,
+      "threadlock": "medium strength"
+    },
+    {
+      "source_index": 1,
+      "pdf_page": 88,
+      "item": "rear shock/rocker arm",
+      "torque_nm": 50,
+      "threadlock": "not marked in table"
+    }
+  ]
+}

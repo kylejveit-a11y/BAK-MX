@@ -1,0 +1,720 @@
+{
+  "schemaVersion": 1,
+  "status": "incomplete_research_only",
+  "reviewedAt": "2026-09-13",
+  "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": 2025,
+    "market": "US",
+    "edition": "standard",
+    "modelCode": "KX450MSFNN",
+    "excluded": [
+      "KX450SR / KX450PSFNN",
+      "KX450X / KX450NSFNN",
+      "other years and markets"
+    ]
+  },
+  "coverage": {
+    "assemblyIndexCount": 56,
+    "partRows": 24,
+    "assembliesWithRows": 4,
+    "manufacturerTableAssembliesCaptured": 3,
+    "completeBikeInventory": false,
+    "assemblyIndexManufacturerReconciled": false,
+    "diagramImagesCaptured": false,
+    "quantityTotalsAreWholeBikeTotals": false,
+    "notes": [
+      "Only three indexed manufacturer tables were transcribed in full; Front Fork is one row only.",
+      "56 assembly labels are dealer navigation, not proof of complete manufacturer coverage.",
+      "Options and nested or repeated components must not be summed into a whole-bike bill of materials.",
+      "No database writes, torque values, inferred replacements, procedures, or owner-manual maintenance facts."
+    ]
+  },
+  "assemblies": [
+    {
+      "name": "Accessory(Chain)",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Accessory(Number Plate)",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Owner's Tools",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 4,
+      "coverage": "indexed_table_rows_captured"
+    },
+    {
+      "name": "Air Cleaner",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Fuel Injection",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Fuel Pump",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Fuel Tank",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Throttle",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Decals",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Fenders",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Side Covers",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Front Brake",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Front Master Cylinder",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Rear Brake",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Rear Master Cylinder",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Radiator",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Water Pipe",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Water Pump",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Clutch",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Front Hub",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Gear Change Drum/Shift Fork(s)",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Gear Change Mechanism",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Transmission",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Chassis Electrical Equipment",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Generator",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Ignition System",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Starter Motor",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Camshaft(s)/Tensioner",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Crankcase",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Crankcase 2",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Crankshaft",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Cylinder Head",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Cylinder Head Cover",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Cylinder/Piston(s)",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Engine Cover(s)",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Engine Shrouds",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 9,
+      "coverage": "indexed_table_rows_captured"
+    },
+    {
+      "name": "Oil Filter",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 10,
+      "coverage": "indexed_table_rows_captured"
+    },
+    {
+      "name": "Oil Pump",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Valve(s)",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Valve(s) 2",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Muffler(s)",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Brake Pedal",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Footrests",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Stand(s)",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Frame",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Frame Fittings",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Swingarm",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Cables",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Clutch Master Cylinder",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Handlebar",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Labels",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Front Fork",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 1,
+      "coverage": "one_indexed_row_only"
+    },
+    {
+      "name": "Rear Suspension",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Shock Absorber(s)",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Rear Hub",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    },
+    {
+      "name": "Wheels/Tires",
+      "indexSourceURL": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "rowCount": 0,
+      "coverage": "not_extracted"
+    }
+  ],
+  "parts": [
+    {
+      "assembly": "Oil Filter",
+      "callout": "11065",
+      "partNumber": "11065-1280",
+      "description": "CAP",
+      "quantity": 1,
+      "quantityBasis": "source assembly table; not purchase recommendation",
+      "remarks": null,
+      "sourceURL": "https://www.kawasaki.com/en-us/owner-center/parts/356627/2025/KX450MSFNN",
+      "evidenceStatus": "indexed_manufacturer_table_pending_live_verification"
+    },
+    {
+      "assembly": "Oil Filter",
+      "callout": "49065",
+      "partNumber": "49065-0040",
+      "description": "FILTER-OIL",
+      "quantity": 1,
+      "quantityBasis": "source assembly table; not purchase recommendation",
+      "remarks": null,
+      "sourceURL": "https://www.kawasaki.com/en-us/owner-center/parts/356627/2025/KX450MSFNN",
+      "evidenceStatus": "indexed_manufacturer_table_pending_live_verification"
+    },
+    {
+      "assembly": "Oil Filter",
+      "callout": "49065A",
+      "partNumber": "49065-0043",
+      "description": "FILTER-OIL",
+      "quantity": 1,
+      "quantityBasis": "source assembly table; not purchase recommendation",
+      "remarks": null,
+      "sourceURL": "https://www.kawasaki.com/en-us/owner-center/parts/356627/2025/KX450MSFNN",
+      "evidenceStatus": "indexed_manufacturer_table_pending_live_verification"
+    },
+    {
+      "assembly": "Oil Filter",
+      "callout": "52010",
+      "partNumber": "52010-0001",
+      "description": "ELEMENT-OIL FILTER",
+      "quantity": 1,
+      "quantityBasis": "source assembly table; not purchase recommendation",
+      "remarks": null,
+      "sourceURL": "https://www.kawasaki.com/en-us/owner-center/parts/356627/2025/KX450MSFNN",
+      "evidenceStatus": "indexed_manufacturer_table_pending_live_verification"
+    },
+    {
+      "assembly": "Oil Filter",
+      "callout": "92055",
+      "partNumber": "92055-0839",
+      "description": "RING-O,37.2X2.4",
+      "quantity": 1,
+      "quantityBasis": "source assembly table; not purchase recommendation",
+      "remarks": null,
+      "sourceURL": "https://www.kawasaki.com/en-us/owner-center/parts/356627/2025/KX450MSFNN",
+      "evidenceStatus": "indexed_manufacturer_table_pending_live_verification"
+    },
+    {
+      "assembly": "Oil Filter",
+      "callout": "92055A",
+      "partNumber": "92055-1011",
+      "description": "RING-O,13.0X1.9",
+      "quantity": 1,
+      "quantityBasis": "source assembly table; not purchase recommendation",
+      "remarks": null,
+      "sourceURL": "https://www.kawasaki.com/en-us/owner-center/parts/356627/2025/KX450MSFNN",
+      "evidenceStatus": "indexed_manufacturer_table_pending_live_verification"
+    },
+    {
+      "assembly": "Oil Filter",
+      "callout": "92144",
+      "partNumber": "92144-1761",
+      "description": "SPRING",
+      "quantity": 1,
+      "quantityBasis": "source assembly table; not purchase recommendation",
+      "remarks": null,
+      "sourceURL": "https://www.kawasaki.com/en-us/owner-center/parts/356627/2025/KX450MSFNN",
+      "evidenceStatus": "indexed_manufacturer_table_pending_live_verification"
+    },
+    {
+      "assembly": "Oil Filter",
+      "callout": "92154",
+      "partNumber": "92154-2964",
+      "description": "BOLT,FLANGED,6X14",
+      "quantity": 2,
+      "quantityBasis": "source assembly table; not purchase recommendation",
+      "remarks": null,
+      "sourceURL": "https://www.kawasaki.com/en-us/owner-center/parts/356627/2025/KX450MSFNN",
+      "evidenceStatus": "indexed_manufacturer_table_pending_live_verification"
+    },
+    {
+      "assembly": "Oil Filter",
+      "callout": "92154A",
+      "partNumber": "92154-2981",
+      "description": "BOLT,FLANGED,6X70",
+      "quantity": 1,
+      "quantityBasis": "source assembly table; not purchase recommendation",
+      "remarks": null,
+      "sourceURL": "https://www.kawasaki.com/en-us/owner-center/parts/356627/2025/KX450MSFNN",
+      "evidenceStatus": "indexed_manufacturer_table_pending_live_verification"
+    },
+    {
+      "assembly": "Oil Filter",
+      "callout": "670",
+      "partNumber": "670D1510",
+      "description": "O RING,10MM",
+      "quantity": 2,
+      "quantityBasis": "source assembly table; not purchase recommendation",
+      "remarks": null,
+      "sourceURL": "https://www.kawasaki.com/en-us/owner-center/parts/356627/2025/KX450MSFNN",
+      "evidenceStatus": "indexed_manufacturer_table_pending_live_verification"
+    },
+    {
+      "assembly": "Engine Shrouds",
+      "callout": "49089",
+      "partNumber": "49089-1168-290",
+      "description": "SHROUD-ENGINE,L.GREEN",
+      "quantity": 1,
+      "quantityBasis": "source assembly table; not purchase recommendation",
+      "remarks": "OPTION",
+      "sourceURL": "https://www.kawasaki.com/en-us/owner-center/parts/356633/2025/KX450MSFNN",
+      "evidenceStatus": "indexed_manufacturer_table_pending_live_verification"
+    },
+    {
+      "assembly": "Engine Shrouds",
+      "callout": "49089A",
+      "partNumber": "49089-1169-290",
+      "description": "SHROUD-ENGINE,L.GREEN",
+      "quantity": 1,
+      "quantityBasis": "source assembly table; not purchase recommendation",
+      "remarks": "OPTION",
+      "sourceURL": "https://www.kawasaki.com/en-us/owner-center/parts/356633/2025/KX450MSFNN",
+      "evidenceStatus": "indexed_manufacturer_table_pending_live_verification"
+    },
+    {
+      "assembly": "Engine Shrouds",
+      "callout": "49136",
+      "partNumber": "49136-5279-290",
+      "description": "SHROUD-ENGINE,LH,INMOLD,GREEN",
+      "quantity": 1,
+      "quantityBasis": "source assembly table; not purchase recommendation",
+      "remarks": null,
+      "sourceURL": "https://www.kawasaki.com/en-us/owner-center/parts/356633/2025/KX450MSFNN",
+      "evidenceStatus": "indexed_manufacturer_table_pending_live_verification"
+    },
+    {
+      "assembly": "Engine Shrouds",
+      "callout": "49136A",
+      "partNumber": "49136-5280-290",
+      "description": "SHROUD-ENGINE,RH,INMOLD,GREEN",
+      "quantity": 1,
+      "quantityBasis": "source assembly table; not purchase recommendation",
+      "remarks": null,
+      "sourceURL": "https://www.kawasaki.com/en-us/owner-center/parts/356633/2025/KX450MSFNN",
+      "evidenceStatus": "indexed_manufacturer_table_pending_live_verification"
+    },
+    {
+      "assembly": "Engine Shrouds",
+      "callout": "92152",
+      "partNumber": "92152-0052",
+      "description": "COLLAR",
+      "quantity": 2,
+      "quantityBasis": "source assembly table; not purchase recommendation",
+      "remarks": null,
+      "sourceURL": "https://www.kawasaki.com/en-us/owner-center/parts/356633/2025/KX450MSFNN",
+      "evidenceStatus": "indexed_manufacturer_table_pending_live_verification"
+    },
+    {
+      "assembly": "Engine Shrouds",
+      "callout": "92154",
+      "partNumber": "92154-0546",
+      "description": "BOLT,FLANGED,6X9",
+      "quantity": 2,
+      "quantityBasis": "source assembly table; not purchase recommendation",
+      "remarks": null,
+      "sourceURL": "https://www.kawasaki.com/en-us/owner-center/parts/356633/2025/KX450MSFNN",
+      "evidenceStatus": "indexed_manufacturer_table_pending_live_verification"
+    },
+    {
+      "assembly": "Engine Shrouds",
+      "callout": "92154A",
+      "partNumber": "92154-1739",
+      "description": "BOLT,FLANGED,6X28",
+      "quantity": 2,
+      "quantityBasis": "source assembly table; not purchase recommendation",
+      "remarks": null,
+      "sourceURL": "https://www.kawasaki.com/en-us/owner-center/parts/356633/2025/KX450MSFNN",
+      "evidenceStatus": "indexed_manufacturer_table_pending_live_verification"
+    },
+    {
+      "assembly": "Engine Shrouds",
+      "callout": "92154B",
+      "partNumber": "92154-2972",
+      "description": "BOLT,FLANGED,6X20",
+      "quantity": 2,
+      "quantityBasis": "source assembly table; not purchase recommendation",
+      "remarks": null,
+      "sourceURL": "https://www.kawasaki.com/en-us/owner-center/parts/356633/2025/KX450MSFNN",
+      "evidenceStatus": "indexed_manufacturer_table_pending_live_verification"
+    },
+    {
+      "assembly": "Engine Shrouds",
+      "callout": "92161",
+      "partNumber": "92161-2090",
+      "description": "DAMPER",
+      "quantity": 2,
+      "quantityBasis": "source assembly table; not purchase recommendation",
+      "remarks": null,
+      "sourceURL": "https://www.kawasaki.com/en-us/owner-center/parts/356633/2025/KX450MSFNN",
+      "evidenceStatus": "indexed_manufacturer_table_pending_live_verification"
+    },
+    {
+      "assembly": "Owner's Tools",
+      "callout": "92104",
+      "partNumber": "92104-0004",
+      "description": "GASKET-LIQUID,TB1211F,CLEAR",
+      "quantity": 1,
+      "quantityBasis": "source assembly table; not purchase recommendation",
+      "remarks": null,
+      "sourceURL": "https://www.kawasaki.com/en-us/owner-center/parts/356658/2025/KX450MSFNN",
+      "evidenceStatus": "indexed_manufacturer_table_pending_live_verification"
+    },
+    {
+      "assembly": "Owner's Tools",
+      "callout": "92104A",
+      "partNumber": "92104-1063",
+      "description": "GASKET-LIQUID,TB1216,GRAY",
+      "quantity": 1,
+      "quantityBasis": "source assembly table; not purchase recommendation",
+      "remarks": null,
+      "sourceURL": "https://www.kawasaki.com/en-us/owner-center/parts/356658/2025/KX450MSFNN",
+      "evidenceStatus": "indexed_manufacturer_table_pending_live_verification"
+    },
+    {
+      "assembly": "Owner's Tools",
+      "callout": "92104B",
+      "partNumber": "92104-1064",
+      "description": "GASKET-LIQUID,TB1216B,BLACK",
+      "quantity": 1,
+      "quantityBasis": "source assembly table; not purchase recommendation",
+      "remarks": null,
+      "sourceURL": "https://www.kawasaki.com/en-us/owner-center/parts/356658/2025/KX450MSFNN",
+      "evidenceStatus": "indexed_manufacturer_table_pending_live_verification"
+    },
+    {
+      "assembly": "Owner's Tools",
+      "callout": "92110",
+      "partNumber": "92110-0004",
+      "description": "TOOL-WRENCH,NIPPLE,6X8",
+      "quantity": 1,
+      "quantityBasis": "source assembly table; not purchase recommendation",
+      "remarks": null,
+      "sourceURL": "https://www.kawasaki.com/en-us/owner-center/parts/356658/2025/KX450MSFNN",
+      "evidenceStatus": "indexed_manufacturer_table_pending_live_verification"
+    },
+    {
+      "assembly": "Front Fork",
+      "callout": "92153",
+      "partNumber": "92153-1397",
+      "description": "BOLT,FLANGED",
+      "quantity": 1,
+      "quantityBasis": "source assembly table; not purchase recommendation",
+      "remarks": null,
+      "sourceURL": "https://www.kawasaki.com/en-us/OwnerCenter/DownloadDiagramPdf/327041?modelcode=KX450MSFNN&modelyear=2025",
+      "evidenceStatus": "indexed_manufacturer_snippet_pending_live_verification"
+    }
+  ],
+  "sources": [
+    {
+      "id": "catalog-index",
+      "url": "https://www.revzilla.com/oem/kawasaki/2025-kawasaki-kx450/owners-tools",
+      "publisher": "RevZilla / Montgomeryville Cycle Center",
+      "kind": "dealer_oem_catalog",
+      "access": "web_open_full_text",
+      "locator": "Categories, links 612\u2013667; applicability statement beneath diagram",
+      "scope": "2025 Kawasaki KX450MSFNN KX450",
+      "use": "Assembly navigation only; not manufacturer-verified list completeness."
+    },
+    {
+      "id": "356627",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356627/2025/KX450MSFNN",
+      "publisher": "Kawasaki Motors Corp., U.S.A.",
+      "kind": "manufacturer_parts_catalog",
+      "access": "search_index_full_table; direct_open_redirect_loop",
+      "locator": "Part Item Information table",
+      "scope": "2025 KX450 / KX450MSFNN"
+    },
+    {
+      "id": "356633",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356633/2025/KX450MSFNN",
+      "publisher": "Kawasaki Motors Corp., U.S.A.",
+      "kind": "manufacturer_parts_catalog",
+      "access": "search_index_full_table; direct_open_redirect_loop",
+      "locator": "Part Item Information table",
+      "scope": "2025 KX450 / KX450MSFNN"
+    },
+    {
+      "id": "356658",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356658/2025/KX450MSFNN",
+      "publisher": "Kawasaki Motors Corp., U.S.A.",
+      "kind": "manufacturer_parts_catalog",
+      "access": "search_index_full_table; direct_open_redirect_loop",
+      "locator": "Part Item Information table",
+      "scope": "2025 KX450 / KX450MSFNN"
+    },
+    {
+      "id": "fork-pdf",
+      "url": "https://www.kawasaki.com/en-us/OwnerCenter/DownloadDiagramPdf/327041?modelcode=KX450MSFNN&modelyear=2025",
+      "publisher": "Kawasaki Motors Corp., U.S.A.",
+      "kind": "manufacturer_parts_pdf",
+      "access": "search_index_snippet_only",
+      "locator": "Parts List Front Fork, before page 3",
+      "scope": "2025 KX450 / KX450MSFNN"
+    }
+  ],
+  "ownersManual": {
+    "title": "Owner's Manual, KX450M/N (2025)",
+    "itemNumber": "99814-0003",
+    "sourceURL": "https://www.kawasaki.com/en-us/owner-center/service-manuals/2025/KX450MSFNN",
+    "access": "search_index_listing_only; direct_open_redirect_loop",
+    "publicViewLinkAdvertised": true,
+    "publicViewURL": null,
+    "contentInspected": false,
+    "maintenanceFacts": []
+  },
+  "conflicts": [
+    {
+      "assembly": "Oil Filter",
+      "callout": "92055A",
+      "manufacturerIndexedPartNumber": "92055-1011",
+      "dealerReportedReplacement": "92055-1021",
+      "dealerSourceURL": "https://www.rpmcyclesnc.com/Parts/Parts-Finder/kawasaki/motorcycles/2025/kx450-kx450msfnn/oil-filter/6d0730b5-1072-4a63-ad19-51f774aae574",
+      "status": "unresolved_supersession; retain original and require manufacturer confirmation"
+    }
+  ],
+  "accessBlockers": [
+    {
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/2025/KX450MSFNN",
+      "result": "direct read redirect loop; indexed model page exists"
+    },
+    {
+      "url": "https://www.kawasaki.com/en-us/ownercenter/downloaddiagrampdf/356630?modelcode=KX450MSFNN&modelyear=2025",
+      "result": "Starter Motor PDF indexed; direct read redirect loop; no rows transcribed"
+    },
+    {
+      "url": "https://www.motosport.com/dirtbike/oem-parts/kawasaki/2025/kx450/oil-filter",
+      "result": "JavaScript robot-verification page; no bypass attempted"
+    }
+  ]
+}

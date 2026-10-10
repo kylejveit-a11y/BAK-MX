@@ -1,0 +1,61 @@
+{
+  "status": "PREPARATION_PENDING_APPROVED_DEPENDENCIES",
+  "source": "Exact2024 BHR only; approved2025 composition supplies structure, never numeric authority.",
+  "topend_cutpoints": [
+    {
+      "after": "access-engine-engine-out",
+      "insert": "topend67 except exit",
+      "reason": "Perform measured bench repair before engine refit, keep single original pivot/side-stack support."
+    },
+    {
+      "replace": "access-engine-bench-record",
+      "reason": "Require completed top-end measurements/timing/sealed closures rather than standalone intact-engine assumption."
+    },
+    {
+      "omit": "access-pressure-test",
+      "reason": "Replace cold-only test with cold-attach/initial-idle-oilflow/three-minute-warm/test/fullcool bridge."
+    },
+    {
+      "before": "access-engine-oil-flow",
+      "insert": "commission entry/plan/filter/static preflight; access fuel-ready; commission test-attach",
+      "reason": "No startup before cold adapter attachment. Initial idle flow check and warm-up are continuous."
+    },
+    {
+      "after": "commission-test-cool-close",
+      "insert": "access warm operating idle/throttle/oil/cooling checks; remaining commissioning ride/postmaintenance",
+      "reason": "No hot cap removal. Actual external work remains required."
+    }
+  ],
+  "major_cutpoints": [
+    {
+      "after": "topend-piston-out",
+      "insert": "lower47",
+      "reason": "Remove/account protective cloth before opening cases; preserve clean openings and indexed removed cams."
+    },
+    {
+      "replace": "topend-entry retained lower-engine instruction",
+      "reason": "Lower systems now opened at stated cutpoint; topend bench source alone retains them."
+    },
+    {
+      "replace": "topend-cam-disposition",
+      "reason": "Cross-check exact lower-chain/crank/cam matched-set requirements, no stale retained-drive assumption."
+    },
+    {
+      "replace": "access-engine-oil-fill",
+      "reason": "Cases split: initial1.20L disassembled quantity; later postbreakin filter service0.96L remains distinct."
+    },
+    {
+      "preserve": "commission crank/gear routes",
+      "reason": "Exact2024PDF38 includes crank1h and gear30min; already in2024commissioning."
+    }
+  ],
+  "mandatory_checks": [
+    "All operation hashes approved before builder emits candidate.",
+    "Exact2024 lower source retains four lower-case bearing plates,0.1mm seal depth and120Nm engine-oil primary nut; never2025 quantities/preparations.",
+    "Rear axle135Nm before first startup/riding.",
+    "No unsupported2026 clutch hydraulics or specifications.",
+    "Only standalone exit removed; forward branch targets and sequential dependencies remain real.",
+    "External tank-cleaning and repaired-part/all-joint records remain pending until actual work.",
+    "No physical-validation or full-spec completion claim."
+  ]
+}

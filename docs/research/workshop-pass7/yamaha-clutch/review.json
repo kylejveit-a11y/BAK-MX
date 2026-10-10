@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "decision": "HOLD_RETAINED_CLARIFICATION_PREPARED_NOT_SENT",
+  "external_messages_sent": false,
+  "database_writes": false,
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "contact": {
+    "url": "https://yamaha-motor.com/contact",
+    "locator": "Motorsports Customer Relations",
+    "phone": "1-800-962-7926",
+    "verified_via": "web tool 2026-09-13",
+    "email": null
+  },
+  "sources": [
+    {
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+      "local_path": "C:/Users/kylej/AppData/Local/Temp/D03-2819U-10_02.pdf",
+      "sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+      "locators": [
+        "PDF7 legend",
+        "PDF58 / 2-11 torque table",
+        "PDF258 / 5-55 oil text/exploded drawing",
+        "PDF259 / 5-56 LT close-up"
+      ]
+    },
+    {
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-28199-10_02.pdf",
+      "local_path": "C:/Users/kylej/AppData/Local/Temp/D03-28199-10_02.pdf",
+      "sha256": "061398b620cc1f0be49c2b794444df95ca40580df024a8f63807d84b3bd907e2",
+      "locators": [
+        "PDF45 table",
+        "PDF126 / 5-5 oil text",
+        "PDF127 / 5-6 LT close-up"
+      ]
+    }
+  ],
+  "scope": "Clarification request only. Torque/new-nut/staking agreement does not resolve preparation. No execution or combined oil/LT authorized."
+}

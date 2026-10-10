@@ -1,0 +1,202 @@
+{
+  "status": "DRAFT_FOR_INDEPENDENT_REVIEW",
+  "scope": "Exact2026 US stock YZ450F; repeat full internal chain per leg",
+  "steps": [
+    [
+      "drain",
+      "Open and drain the outer chamber",
+      "Keep parts identified by side. Unscrew the already-loosened damper assembly from the outer tube and drain the outer fork oil into a suitable container. Preserve the spring, upper spring seat and adjusting rod as each is freed; use the exploded view to maintain their order.",
+      [
+        168,
+        169
+      ],
+      "Outer oil drained; left/right parts remain separate."
+    ],
+    [
+      "bottom",
+      "Detach the lower adjuster",
+      "Loosen the lower adjuster from the inner tube. Compress the inner tube and support the exposed rod locknut with the cap-bolt ring wrench positioned between tube and locknut as illustrated. Hold the locknut while unscrewing the adjuster from the rod. Retain the adjusting rod and old sealing washer for identification. Never remove the rod locknut: the rod can disappear into the cartridge.",
+      [
+        168,
+        169
+      ],
+      "Adjuster detached with locknut retained; rod supported; old washer identified."
+    ],
+    [
+      "cartridge",
+      "Remove cartridge and spring",
+      "With the lower adjuster detached, release the supported spring load under control and withdraw the damper assembly, upper spring seat and fork spring. Keep the spring seat orientation identified. Keep the damper-rod locknut installed.",
+      [
+        168,
+        169,
+        175,
+        176
+      ],
+      "Damper/spring/seat removed and identified; locknut remains installed."
+    ],
+    [
+      "split",
+      "Separate the fork tubes",
+      "Carefully lift the dust seal and remove the scraper/stopper ring without scratching the inner tube. Slowly push the inner tube almost to bottom, then pull it back quickly as illustrated; repeat to separate the tubes. Remove the old piston metal, slide metal, oil seal and dust seal, retaining reusable washer, scraper and rings in order.",
+      [
+        168,
+        169,
+        170
+      ],
+      "Tubes separated without damage; renewal items separated from reusable hardware."
+    ],
+    [
+      "base-remove",
+      "Open the damper oil chamber",
+      "Record the compression setting if not already recorded, then fully loosen that damping adjuster. Remove the adjuster knob and base valve while holding the cartridge with ring wrench 90890-01501 and using cap wrench 90890-01911. Drain the damper oil. Keep the base-valve assembly intact; this operation does not dismantle shim stacks or pressure-spring internals.",
+      [
+        168,
+        170,
+        171
+      ],
+      "Compression control fully loosened; cartridge drained; valve assembly intact."
+    ],
+    [
+      "inspect",
+      "Inspect tubes, spring and damper",
+      "Check the inner tube, oil-lock piece, outer tube and damper for damage. Measure inner-tube bend with a dial gauge: bending is half the total reading and must not exceed 0.2 mm. The fork-spring free-length limit is 492.0 mm. Record both measurements. A bent tube, damaged oil-lock piece, worn outer tube or damaged damper needs replacement; do not straighten a bent tube.",
+      [
+        170
+      ],
+      "Bend and spring length recorded; damaged/out-of-limit components replaced before assembly."
+    ],
+    [
+      "renew",
+      "Renew the disturbed seals",
+      "Clean components and inspect the base valve, its spring/bushing, bleed screw, upper spring-seat contact face, adjuster and scraper. Replace failed components rather than changing their internal construction. Renew every disturbed NEW-marked O-ring at its original groove using the page168 exploded positions and page171 close-ups: damper assembly, base-valve sealing positions and lower adjuster. Match each replacement individually before removing the next old seal; record each location. The new outer bushings/seals and copper washer are installed in subsequent steps.",
+      [
+        168,
+        170,
+        171
+      ],
+      "Each disturbed seal matched to its illustrated location and renewed; all assemblies clean and serviceable."
+    ],
+    [
+      "fill",
+      "Fill the damper chamber",
+      "Fully extend the damper assembly. Measure and add 216 cm³ of Yamaha Suspension Oil S1 to the damper chamber. This is the initial cartridge fill, not the outer fork fill.",
+      [
+        171
+      ],
+      "S1 initial damper fill216 cm³ recorded; damper fully extended."
+    ],
+    [
+      "bleed",
+      "Bleed slowly with short strokes",
+      "Pump the damper slowly several times to remove air, using strokes below 200 mm. Do not use 200 mm or more or a full stroke during this initial bleed: the manual warns that this draws air in. If air enters, repeat the full-extension, fill and initial-bleed sequence before continuing.",
+      [
+        172
+      ],
+      "Slow sub-200 mm bleed completed without drawing air; repeat performed if needed."
+    ],
+    [
+      "level",
+      "Set cartridge oil level",
+      "Fully extend the damper and measure oil level from its top as shown. Adjust to 145–148 mm, matching the other fork leg. Fully finger-tighten the rod locknut onto the damper assembly; do not remove it.",
+      [
+        172
+      ],
+      "Level145–148 mm recorded from illustrated top datum; rod locknut finger-tight."
+    ],
+    [
+      "base-seat",
+      "Seat the base valve using the source motion",
+      "Use the page172 hand-position diagram. Apply hand pressure to load the damper rod as the manual describes, then ease that rod pressure while installing the base valve. This is a manual loading/release operation, not a gas charge; do not add air or nitrogen. The source specifies no numerical force. Verify the damper is fully extended after seating; if not, repeat full extension, fill, bleed, level and seating before fastening.",
+      [
+        172
+      ],
+      "OEM seating motion followed; damper fully extended; no external charge."
+    ],
+    [
+      "base-torque",
+      "Secure the base valve and knob",
+      "Hold the damper with cap-bolt ring wrench 90890-01501 and use cap wrench 90890-01911 to tighten the base valve to 28 N·m. Refit the adjuster knob and tighten its screw to 0.6 N·m using a tool accurate at that value.",
+      [
+        173
+      ],
+      "Base valve28 N·m; knob screw0.6 N·m recorded."
+    ],
+    [
+      "purge",
+      "Distribute oil and purge the excess",
+      "Slowly pump the assembled damper more than ten times. Protect the rod end with a cloth as shown and fully compress the assembly to expel excess oil at the base-valve side. Drain overflow through the illustrated hole. About 10 cm³ overflow is an observation, not a dosing amount to subtract manually. Verify smooth travel; binding or rough spots require repeating the OEM fill-to-purge sequence.",
+      [
+        173
+      ],
+      "More-than-ten pumping cycles; full-compression purge; overflow drained; smooth damper motion verified."
+    ],
+    [
+      "seal-stack",
+      "Install the seal and bushing stack",
+      "Oil the inner tube with fork oil and protect its sharp seal-entry area with oiled vinyl film. Grease the dust- and oil-seal lips with lithium-soap-based grease. Fit the new dust seal, scraper, stopper ring, new oil seal, washer and new slide metal in the illustrated order. The oil seal's numbered face points down. Remove the protective film after the seal is safely past the sharp area.",
+      [
+        173,
+        174
+      ],
+      "New seal stack ordered and oriented as shown; lips protected/greased; film removed."
+    ],
+    [
+      "tubes",
+      "Assemble and seat the bushings and seal",
+      "Install new piston metal in its inner-tube groove. Slide on the outer tube. Use fork-seal driver 90890-01917 / YM-A0948 (48) to seat the slide metal through its washer, then seat the oil seal until the stopper-ring groove is fully visible. Seat the ring completely in that groove.",
+      [
+        174,
+        175
+      ],
+      "New piston/slide metal seated; oil seal seated; stopper ring fully engaged."
+    ],
+    [
+      "dust",
+      "Seat the scraper and dust seal",
+      "Apply lithium-soap-based grease to the indicated inner-tube area, then seat the scraper and new dust seal as illustrated. Slide the tubes to verify smooth motion. Binding or rough spots require correcting and repeating the seal-stack/tube assembly before proceeding.",
+      [
+        175
+      ],
+      "Scraper/dust seal seated; tube movement smooth."
+    ],
+    [
+      "spring",
+      "Set the locknut position and spring stack",
+      "Measure from the damper-assembly bottom to the locknut bottom exactly as shown; adjust the locknut until that distance is at least 16 mm. Install the upper spring seat with its larger-diameter end facing the spring, then the spring. Lower the damper assembly slowly into the inner tube until it contacts the bottom; do not drop it.",
+      [
+        175,
+        176
+      ],
+      "At least16 mm recorded; spring seat faces spring; cartridge lowered without impact."
+    ],
+    [
+      "adjuster",
+      "Fit the rod, washer and adjuster",
+      "Record and fully loosen the rebound control. Compress the inner tube and position the ring wrench under the locknut as illustrated. Fit the damper adjusting rod, new copper washer and adjuster. Finger-tighten the adjuster fully onto the damper rod. Before torquing, measure the gap between adjuster and locknut: it must be 0.5–1.0 mm. Correct the locknut/adjuster position if outside that range.",
+      [
+        176
+      ],
+      "Rebound fully loosened; rod/new washer fitted; gap0.5–1.0 mm recorded."
+    ],
+    [
+      "adjuster-torque",
+      "Tighten both adjuster joints",
+      "Hold the locknut and tighten the adjuster-to-damper joint to 29 N·m. Release the supporting tool under controlled spring load. Apply the specified LOCTITE locking agent to the adjuster-to-inner-tube thread shown on page177, then tighten that joint to 55 N·m. The OEM does not identify a LOCTITE grade or cure time here; record the actual product used and follow its application instructions without treating an invented grade as an OEM value.",
+      [
+        7,
+        176,
+        177
+      ],
+      "Rod joint29 N·m; inner-tube joint55 N·m; locking agent recorded; supporting tool removed."
+    ],
+    [
+      "outer-fill",
+      "Fill the separate outer chamber",
+      "Measure and add 280.0 cm³ of Yamaha Suspension Oil S1 to the outer fork chamber. This is separate from the earlier cartridge fill. Use the same standard quantity in both legs. Temporarily thread the damper assembly into the outer tube and refit the protector guide. Final top tightening is performed during refit.",
+      [
+        177
+      ],
+      "Outer S1 fill280.0 cm³ recorded; damper temporarily threaded; guide fitted."
+    ]
+  ]
+}

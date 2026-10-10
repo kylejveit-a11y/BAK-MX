@@ -1,0 +1,37 @@
+{
+  "status": "APPROVED",
+  "artifact": "major-engine-bike-journey-v1.procedure.json",
+  "sha256": "bffa50837ce4db3e3b8e5e312e82c5de38e2ede1bf1895ce02b9cdf3ae699a83",
+  "steps": 214,
+  "dependencies": [
+    {
+      "artifact": "docs/research/workshop-pass12/yamaha-2022-engine-journey/top-end-bike-journey-v1.procedure.json",
+      "sha256": "f9207a0cd26f1412979f3100584a362bcc6653119dde5bae3c43660fb7f4a6a3",
+      "kind": "approved_source_operation"
+    },
+    {
+      "artifact": "docs/research/workshop-pass12/yamaha-2022-engine-journey/lower-engine-bench-v1-corrected.procedure.json",
+      "sha256": "be37758b69aa7a849f001a7ce16494cf71f0274c0eccbc756906108aa88e51d4",
+      "kind": "approved_source_operation"
+    },
+    {
+      "artifact": "docs/research/workshop-pass12/yamaha-2022-engine/lower-engine-bench-v1.procedure.json",
+      "sha256": "7f00ea163b0867b3e60b19246aba36af5bfb75b63e12266829ca0cac2da8fba4",
+      "kind": "approved_source_operation"
+    }
+  ],
+  "correction_dependencies": [
+    {
+      "artifact": "docs/research/workshop-pass12/yamaha-2022-engine-journey/lower-filter-oring-correction-v1.json",
+      "sha256": "b43c248302b36f6273d198a1cfc39cfaa6848ee5542b8f2bb33cbcbe0750e946",
+      "kind": "approved_narrow_correction"
+    },
+    {
+      "artifact": "docs/research/workshop-pass12/yamaha-2022-engine-journey/lower-correction-review-manifest.json",
+      "sha256": "238b91315ff089057723acbe1afeb74ae90f45295409a09dbde784a74a73efcd",
+      "kind": "approved_narrow_correction"
+    }
+  ],
+  "next": "Root runtime integration and product checks; external/physical validation gaps remain visible.",
+  "database_writes": false
+}

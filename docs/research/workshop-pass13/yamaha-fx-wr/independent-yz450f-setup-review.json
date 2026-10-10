@@ -1,0 +1,104 @@
+{
+  "status": "APPROVED_BOUNDED_SETUP",
+  "reviewer": "year_groups_research",
+  "artifacts": [
+    {
+      "path": "checkpoint\\bakmx\\docs\\research\\workshop-pass13\\yz450f\\2020-fork-baseline-v1.procedure.json",
+      "sha256": "92f9989f1c577047aaa4958b0dfa85c5258dee58c5faef5963b812db4e541877"
+    },
+    {
+      "path": "checkpoint\\bakmx\\docs\\research\\workshop-pass13\\yz450f\\2020-rider-sag-preload-v1.procedure.json",
+      "sha256": "90ba7e2131fddeb8bd5e51eefc9c883aebb45f1db4901ff477bf03a52b2fc2a1"
+    },
+    {
+      "path": "checkpoint\\bakmx\\docs\\research\\workshop-pass13\\yz450f\\2020-shock-baseline-v1.procedure.json",
+      "sha256": "0423af54137b49dd70c82d4c30b4c36f6f7fa0b8f6575e5a52a5a82d7ad8e3b5"
+    },
+    {
+      "path": "checkpoint\\bakmx\\docs\\research\\workshop-pass13\\yz450f\\2021-fork-baseline-v1.procedure.json",
+      "sha256": "de772ce92cb8de1403757f669cef2b063d7231fdcc4a086644182afe2069b7ab"
+    },
+    {
+      "path": "checkpoint\\bakmx\\docs\\research\\workshop-pass13\\yz450f\\2021-rider-sag-preload-v1.procedure.json",
+      "sha256": "d99925f9c656d638dbb6b4a4cc3735b2dc9c161a0da1ac1555d3a247d6511537"
+    },
+    {
+      "path": "checkpoint\\bakmx\\docs\\research\\workshop-pass13\\yz450f\\2021-shock-baseline-v1.procedure.json",
+      "sha256": "1bf50dd2269e4b1ba034fafa71b83233794e034644c3ea279173ce08b2cb4b77"
+    },
+    {
+      "path": "checkpoint\\bakmx\\docs\\research\\workshop-pass13\\yz450f\\2027-fork-baseline-v1.procedure.json",
+      "sha256": "37236d501f7c66780bbd9ffeafe818ba443c4dbb546a26445ba52032ad2f84bb"
+    },
+    {
+      "path": "checkpoint\\bakmx\\docs\\research\\workshop-pass13\\yz450f\\2027-rider-sag-preload-v1.procedure.json",
+      "sha256": "74610f433a6376984e868eea5147fed3646634cae0caf0c8d8e27fc73db61ba1"
+    },
+    {
+      "path": "checkpoint\\bakmx\\docs\\research\\workshop-pass13\\yz450f\\2027-shock-baseline-v1.procedure.json",
+      "sha256": "83207ee22c09f55e19f6b6bf4d64f6042a00843573ec2e321bb894348ba59980"
+    }
+  ],
+  "sources": [
+    {
+      "code": "B2W-28199-10",
+      "sha256": "ee1b8c9747c089fe345097dc16955d7fa30e005a1c77b6d81e919d6ee3f6080e"
+    },
+    {
+      "code": "B2W-2819U-11",
+      "sha256": "d322a59a3df2dd9431047d5416f18f73bee530a0ce6a86b60f8b3ae2c1f5eca9"
+    },
+    {
+      "code": "D03-2819U-11",
+      "sha256": "3629816a57fb9bca6ec5a05d375234f0cb66641e868da547461d044c9aae4456"
+    }
+  ],
+  "reviewed_text_pages": {
+    "2020": [
+      103,
+      104,
+      105,
+      106,
+      107,
+      352
+    ],
+    "2021": [
+      104,
+      105,
+      106,
+      107,
+      108,
+      356
+    ],
+    "2027": [
+      113,
+      114,
+      115,
+      116,
+      117,
+      396
+    ]
+  },
+  "rendered_pages": {
+    "2020": [
+      104,
+      107,
+      352
+    ],
+    "2021": [
+      105,
+      108,
+      356
+    ],
+    "2027": [
+      114,
+      117,
+      396
+    ]
+  },
+  "resolved_findings": [
+    "2021/2027 repeated sag measurements now explicitly raise rear wheel for A and lower for rider B."
+  ],
+  "scope": "Nine damping/sag companions only. 2020 sag is measurement-only because actual preload service requires rear-frame access/refit; no approval of top-end or rebuild completeness.",
+  "freeze_permission": "Approval-status and hash rebinding only; mechanical changes require review."
+}

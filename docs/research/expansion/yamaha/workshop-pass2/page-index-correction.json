@@ -1,0 +1,19 @@
+{
+  "id": "yamaha-2026-yz450f-valve-inspection-page-index-correction-v1",
+  "original_artifact": "../workshop-2026/valve-inspection-v1.procedure.json",
+  "original_artifact_sha256": "bd29071a272a48dc432388033793ab052041db4b3232d95021e608488acb49c8",
+  "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+  "correction_kind": "SOURCE_PAGE_INDEX_ONLY",
+  "add_source_pdf_pages": [
+    58
+  ],
+  "add_source_printed_pages": [
+    "2-11"
+  ],
+  "mechanical_step_changes": [],
+  "rationale": "Original plug-access-close step already references PDF58 but procedure-level source.pdf_pages omitted it. Visual re-review confirms PDF58 rows crankshaft end accessing screw M36 10 Nm and timing mark accessing screw M14 6 Nm with engine-oil symbols. PDF216 continues to supply new O-ring and grease arrows; PDF97/221 supplies plug13 Nm. This correction adds source-index metadata only, no changed mechanical instruction.",
+  "visually_reverified_pdf_pages": [
+    58
+  ],
+  "normalization_policy": "Apply only when original artifact SHA matches; union page58 and printed2-11 into normalized metadata. Preserve original file and hash. Bind normalized content to this correction artifact and its hash."
+}

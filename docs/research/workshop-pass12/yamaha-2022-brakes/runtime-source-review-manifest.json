@@ -1,0 +1,73 @@
+{
+  "status": "APPROVED",
+  "author_review_manifest": {
+    "path": "docs/research/workshop-pass12/yamaha-2022-brakes/source-review-manifest.json",
+    "sha256": "823125ef0e65a6233e35843bc9010b9669ef7344b0787d486d8e094f8fcf80c7"
+  },
+  "sources": [
+    {
+      "id": "yamaha-us-2022-yz450f-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf",
+      "sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\B2W-2819U-12_02.pdf"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "front-caliper-rebuild-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2022-yz450f-oem",
+      "sha256": "3b1ff8de8e8b300a0619ff548eb161b010589a8953eca99ba67dd1cf33f831db",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 14
+    },
+    {
+      "path": "front-master-rebuild-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2022-yz450f-oem",
+      "sha256": "7b0d3b4fe81e33797eb2bb91f8ae0dc4bfd6dc797915efbb0bba1441e6106820",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 12
+    },
+    {
+      "path": "rear-caliper-rebuild-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2022-yz450f-oem",
+      "sha256": "2228d5b45a10faff434f28e5b690a84e45a58b3883d8deb2826713f4a654316c",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 16
+    },
+    {
+      "path": "rear-master-rebuild-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2022-yz450f-oem",
+      "sha256": "a81a144a077c3cc1b7dc0f144b6f3bcc419352261e4cb0c2e35ed8dc4981900e",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 12
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "suspension-pass2-reviewed-procedures",
+  "reviewed_at": "2026-09-13",
+  "database_writes": false,
+  "sources": [
+    {
+      "id": "yamaha26",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+      "local_pdf_path": "C:/Users/kylej/AppData/Local/Temp/D03-2819U-10_02.pdf",
+      "sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd"
+    },
+    {
+      "id": "husqvarna25",
+      "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "local_pdf_path": "C:/Users/kylej/AppData/Local/Temp/hq-fc450-2025.pdf",
+      "sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "shock-remove-refit-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "f92b64f514e879387d98cbd37136c13796c286ca0a26128227ad62f4ab033bdd",
+      "source_id": "yamaha26",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "husqvarna-fc450-2025-shock-baseline.procedure.json",
+      "kind": "procedure",
+      "sha256": "17b5f91ffe78694ec994bee35c3a2a489bd676f689d8490413faec497a2c13c8",
+      "source_id": "husqvarna25",
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FC 450",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "husqvarna-fc450-2025-sag-inspection.procedure.json",
+      "kind": "procedure",
+      "sha256": "9843658a1da692af91fe11d54edf86319ec275e2a77dcc9db81b2e16a84f6f37",
+      "source_id": "husqvarna25",
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FC 450",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "validate_review.py",
+      "kind": "validator",
+      "sha256": "cbc76e98f527b118f93bd8b39404d859a695c09adb8ebe7399ec010209b5bcb8"
+    }
+  ]
+}

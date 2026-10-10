@@ -1,0 +1,88 @@
+{
+  "status": "READ_ONLY_REVIEW",
+  "finding": "2024 full-text search finds front hose paint reference only; rear paintmarkUP is not established by cited rear routing74/75 or brake chapter.2025 PDF77 explicitly says rear paintmark faces upper vehicle, as does2026 PDF77. Only2024 inherited qualifier needs root correction assessment. Frozen artifacts unchanged.",
+  "sources": [
+    {
+      "year": 2024,
+      "manual": "BHR-2819U-11_02.pdf",
+      "text_matches": [
+        {
+          "pdf_page": 139,
+          "context": "“1”\nMake sure that the brake hose holder “2” is in-\nstalled with its upper end “a” aligned with the\npaint “b” on the brake hose.\n4. Pour brake fluid to the brake master cylinder\nreservoir up to the specified level.\nEWA13090\n•Use only the designated brake fluid. Other\nbr"
+        },
+        {
+          "pdf_page": 241,
+          "context": "to remove\nQ’ty\nRemarks\n12\nClutch plate 2\n2\n[Thickness: 1.0 mm (0.04 in)]\n13\nFriction plate 2\n4\nBlue paint on the outer circumference of the \npawls.\n14\nClutch plate 1\n7\n[Thickness: 1.4 mm (0.06 in)]\n15\nFriction plate 1\n4\n16\nCollar\n6\n17\nWasher\n1\n18\nSleeve\n1\n19\nAbsorber\n6\n"
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "manual": "D02-2819U-10_02.pdf",
+      "text_matches": [
+        {
+          "pdf_page": 77,
+          "context": "e that the rear brake hose is not ex-\ncessively twisted.\nE.\nInstall the rear brake hose so that the paint\nmark of the rear brake faces to the upper\npart of the vehicle.\nF.\nMake sure that the metal part of the rear\nbrake hose contacts the stopper of the rear\nbrake master"
+        },
+        {
+          "pdf_page": 79,
+          "context": "\nthe number plate from the position shown.\nB. Install the brake hose holder by aligning it\nwith the paint mark of the front brake hose.\nC. Make sure that the metal part of the front\nbrake hose contacts the stopper of the front\nbrake caliper.\nD. Route the front brake hos"
+        },
+        {
+          "pdf_page": 143,
+          "context": "TIP\nMake sure that the brake hose holder “2” is in-\nstalled with its upper end “a” aligned with the\npaint “b” on the brake hose.\n1\n2\na\nb\n4. Pour brake fluid to the brake master cylinder\nreservoir up to the specified level.\nSpecified brake fluid\nDOT 4\nEWA13090\nWARNING\n•U"
+        },
+        {
+          "pdf_page": 245,
+          "context": "to remove\nQ’ty\nRemarks\n12\nClutch plate 2\n2\n[Thickness: 1.0 mm (0.04 in)]\n13\nFriction plate 2\n4\nBlue paint on the outer circumference, in-\ncluding 1 pawl head only.\n14\nClutch plate 1\n7\n[Thickness: 1.4 mm (0.06 in)]\n15\nFriction plate 1\n4\n \n16\nCollar\n6\n \n17\nSpacer\n1\n \n18\nW"
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "manual": "D03-2819U-10_02.pdf",
+      "text_matches": [
+        {
+          "pdf_page": 65,
+          "context": "e tension arm\n(the side of the vehicle).\nE.\nInstall the cylinder head breather hose by\naligning the paint mark on the cylinder head\nbreather hose with the holder. When doing\nso, the paint mark should be within the hold-\ner area.\nF.\nRoute the cylinder head breather hose "
+        },
+        {
+          "pdf_page": 65,
+          "context": "e by\naligning the paint mark on the cylinder head\nbreather hose with the holder. When doing\nso, the paint mark should be within the hold-\ner area.\nF.\nRoute the cylinder head breather hose be-\ntween the two engine bracket bolts (front)\nand the one engine bracket bolt (re"
+        },
+        {
+          "pdf_page": 65,
+          "context": "ar switch\nlead (left) and starter switch lead does not\nmatter.\nO. Install the clamp by aligning the paint mark\non the cylinder head breather hose. When\ndoing so, the paint mark should be within the\nclamp area.\nP.\nPass the radiator breather hose through the\ndown tube.\nQ."
+        },
+        {
+          "pdf_page": 65,
+          "context": "Install the clamp by aligning the paint mark\non the cylinder head breather hose. When\ndoing so, the paint mark should be within the\nclamp area.\nP.\nPass the radiator breather hose through the\ndown tube.\nQ. Route the gear position switch lead outside\nthe vehicle past the "
+        },
+        {
+          "pdf_page": 65,
+          "context": "nsioner.\nT.\nRoute the clutch hose while facing the front,\nand then fasten it using the clamp at the\npaint mark.\nU. Insert the clip portion of the clamp into the\nframe. The lock part should face toward the\nfront of the vehicle.\nCut off the end of the remaining portion. ("
+        },
+        {
+          "pdf_page": 77,
+          "context": "e that the rear brake hose is not ex-\ncessively twisted.\nD. Install the rear brake hose so that the paint\nmark of the rear brake faces to the upper\npart of the vehicle.\nE.\nMake sure that the metal part of the rear\nbrake hose contacts the stopper of the rear\nbrake master"
+        },
+        {
+          "pdf_page": 79,
+          "context": "\nthe number plate from the position shown.\nB. Install the brake hose holder by aligning it\nwith the paint mark of the front brake hose.\nC. Make sure that the metal part of the front\nbrake hose contacts the stopper of the front\nbrake caliper.\nD. Route the front brake hos"
+        },
+        {
+          "pdf_page": 146,
+          "context": "TIP\nMake sure that the brake hose holder “2” is in-\nstalled with its upper end “a” aligned with the\npaint “b” on the brake hose.\n1\n2\na\nb\n4. Pour brake fluid to the brake master cylinder\nreservoir up to the specified level.\nSpecified brake fluid\nDOT 4\nEWA13090\nWARNING\n•U"
+        },
+        {
+          "pdf_page": 250,
+          "context": "to remove\nQ’ty\nRemarks\n11\nClutch plate 2\n2\n[Thickness: 1.0 mm (0.04 in)]\n12\nFriction plate 2\n4\nBlue paint on the outer circumference, in-\ncluding 1 pawl head only.\n13\nClutch plate 1\n7\n[Thickness: 1.4 mm (0.06 in)]\n14\nFriction plate 1\n4\n \n15\nCollar\n6\n \n16\nSpacer\n1\n \n17\nW"
+        },
+        {
+          "pdf_page": 261,
+          "context": "lutch lever holder with the “UP”\nmark facing up.\n•Align the end of the clutch lever holder with the\npaint mark “a” on the left handlebar.\n•First, tighten the upper bolt, then the lower\nbolt.\nCLUTCH\n5-58\n"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "status": "APPROVED_FOR_BOUNDED_RUNTIME",
+  "reviewer": "root independent of author core_flow_repairs",
+  "candidate_sha256": "5f0896aa6eb88b51c3315a9bf34033582cc29725b3ca619ef859e41a2dcf9572",
+  "source_sha256": "79dc2b20faec6f0040fea0606a193af63b1e15e6f5f8e57cc4dad1905dec13d5",
+  "all_steps_read": 28,
+  "source_text_pages_read": [
+    1,
+    7,
+    43,
+    44,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186
+  ],
+  "rendered_pages_reviewed": [
+    176,
+    177,
+    180,
+    183,
+    184,
+    185,
+    186
+  ],
+  "checks": [
+    "Exact 2027 YZ250V US cover identity",
+    "Dimensions, grade pairing, clearance formulas and replacement disposition",
+    "Exploded component order, lubrication arrows, spring and shaft orientation",
+    "Set-pin use AND removal, ring locating pins, clip seating, new seals and washers",
+    "Torque values and sequence, original engine applicability, external refit/commissioning explicitly incomplete"
+  ],
+  "resolved_findings": [
+    "Page178 printed locator5-6",
+    "Completeness metadata present",
+    "Pin OD minimum and bore ID maximum stated"
+  ],
+  "physical_workshop_validation": false,
+  "full_bike_complete": false,
+  "approved_artifact_sha256": "0c3d1de84dd5067ecd7ca8df57415bf5484457ec2473c2a21976a010016d280b",
+  "approval_transition": "Publication/source status and approval note only; mechanical instructions unchanged."
+}

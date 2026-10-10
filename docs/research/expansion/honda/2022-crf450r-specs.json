@@ -1,0 +1,688 @@
+{
+  "target": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2022,
+    "variant": "standard",
+    "region": "US"
+  },
+  "assemblies": [],
+  "parts": [],
+  "facts": [
+    {
+      "id": "honda-2022-crf450r-spec-cylinder-bore-diameter-standard",
+      "property": "dimensions",
+      "joint": "Cylinder bore diameter \u2014 standard",
+      "value": "96.000 - 96.015",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 57; 2-37",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-cylinder-bore-diameter-service-limit",
+      "property": "clearance_wear_limit",
+      "joint": "Cylinder bore diameter \u2014 service limit",
+      "value": "96.025",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 57; 2-37",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-cylinder-sealing-face-warpage-service-limit",
+      "property": "clearance_wear_limit",
+      "joint": "Cylinder sealing face warpage \u2014 service limit",
+      "value": "0.05",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 57; 2-37",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-piston-outside-diameter-standard",
+      "property": "dimensions",
+      "joint": "Piston outside diameter \u2014 standard",
+      "value": "95.976 - 95.991",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure.",
+        "Measure 5.0 mm above the bottom of the piston skirt, following OEM orientation."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 57; 2-37",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-piston-outside-diameter-service-limit",
+      "property": "clearance_wear_limit",
+      "joint": "Piston outside diameter \u2014 service limit",
+      "value": "95.876",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure.",
+        "Measure 5.0 mm above the bottom of the piston skirt, following OEM orientation."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 57; 2-37",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-piston-pin-bore-diameter-standard",
+      "property": "dimensions",
+      "joint": "Piston pin bore diameter \u2014 standard",
+      "value": "19.002 - 19.008",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 57; 2-37",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-piston-pin-bore-diameter-service-limit",
+      "property": "clearance_wear_limit",
+      "joint": "Piston pin bore diameter \u2014 service limit",
+      "value": "19.03",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 57; 2-37",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-piston-pin-outside-diameter-standard",
+      "property": "dimensions",
+      "joint": "Piston pin outside diameter \u2014 standard",
+      "value": "18.994 - 19.000",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 57; 2-37",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-piston-pin-outside-diameter-service-limit",
+      "property": "clearance_wear_limit",
+      "joint": "Piston pin outside diameter \u2014 service limit",
+      "value": "18.99",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 57; 2-37",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-top-piston-ring-end-gap-standard",
+      "property": "clearance_wear_limit",
+      "joint": "Top piston ring end gap \u2014 standard",
+      "value": "0.25 - 0.31",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 57; 2-37",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-top-piston-ring-end-gap-service-limit",
+      "property": "clearance_wear_limit",
+      "joint": "Top piston ring end gap \u2014 service limit",
+      "value": "0.32",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 57; 2-37",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-oil-ring-side-rail-end-gap-standard",
+      "property": "clearance_wear_limit",
+      "joint": "Oil ring side rail end gap \u2014 standard",
+      "value": "0.10 - 0.35",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 57; 2-37",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-oil-ring-side-rail-end-gap-service-limit",
+      "property": "clearance_wear_limit",
+      "joint": "Oil ring side rail end gap \u2014 service limit",
+      "value": "0.36",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 57; 2-37",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-top-ring-to-piston-groove-clearance-standard",
+      "property": "clearance_wear_limit",
+      "joint": "Top ring to piston groove clearance \u2014 standard",
+      "value": "0.030 - 0.065",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 57; 2-37",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-connecting-rod-small-end-diameter-standard",
+      "property": "dimensions",
+      "joint": "Connecting rod small end diameter \u2014 standard",
+      "value": "19.010 - 19.022",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 57; 2-37",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-connecting-rod-small-end-diameter-service-limit",
+      "property": "clearance_wear_limit",
+      "joint": "Connecting rod small end diameter \u2014 service limit",
+      "value": "19.034",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 57; 2-37",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-piston-pin-surface-treatment",
+      "property": "installation",
+      "joint": "Piston pin surface treatment",
+      "value": "Do not polish",
+      "unit": null,
+      "conditions": [],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 57; 2-37",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-clutch-friction-disc-thickness-standard",
+      "property": "dimensions",
+      "joint": "Clutch friction disc thickness \u2014 standard",
+      "value": "2.92 - 3.08",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 79; 2-59",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-clutch-friction-disc-thickness-service-limit",
+      "property": "clearance_wear_limit",
+      "joint": "Clutch friction disc thickness \u2014 service limit",
+      "value": "2.85",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 79; 2-59",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-clutch-plate-warpage-service-limit",
+      "property": "clearance_wear_limit",
+      "joint": "Clutch plate warpage \u2014 service limit",
+      "value": "0.15",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 79; 2-59",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-clutch-spring-free-length-standard",
+      "property": "dimensions",
+      "joint": "Clutch spring free length \u2014 standard",
+      "value": "56.2",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 79; 2-59",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-clutch-spring-free-length-service-limit",
+      "property": "clearance_wear_limit",
+      "joint": "Clutch spring free length \u2014 service limit",
+      "value": "55.2",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 79; 2-59",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-clutch-spring-replacement-grouping",
+      "property": "replacement_rule",
+      "joint": "Clutch spring replacement grouping",
+      "value": "Replace as a set",
+      "unit": null,
+      "conditions": [],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 79; 2-59",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-clutch-friction-disc-and-plate-replacement-grouping",
+      "property": "replacement_rule",
+      "joint": "Clutch friction disc and plate replacement grouping",
+      "value": "Replace as a set",
+      "unit": null,
+      "conditions": [],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 79; 2-59",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-fork-optional-soft-spring-rate",
+      "property": "spring_rate",
+      "joint": "Fork optional soft spring rate",
+      "value": 4.8,
+      "unit": "N/mm",
+      "conditions": [
+        "Applies to the standard R model configuration identified by this table; optional rates are alternatives, not stock specification.",
+        "Factory springs may be unmarked; marks alone do not prove spring identity."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 105; 3-3",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-fork-standard-spring-rate",
+      "property": "spring_rate",
+      "joint": "Fork standard spring rate",
+      "value": 5.0,
+      "unit": "N/mm",
+      "conditions": [
+        "Applies to the standard R model configuration identified by this table; optional rates are alternatives, not stock specification.",
+        "Factory springs may be unmarked; marks alone do not prove spring identity."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 105; 3-3",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-fork-optional-stiff-spring-rate",
+      "property": "spring_rate",
+      "joint": "Fork optional stiff spring rate",
+      "value": 5.2,
+      "unit": "N/mm",
+      "conditions": [
+        "Applies to the standard R model configuration identified by this table; optional rates are alternatives, not stock specification.",
+        "Factory springs may be unmarked; marks alone do not prove spring identity."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 105; 3-3",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-shock-optional-soft-spring-rate",
+      "property": "spring_rate",
+      "joint": "Shock optional soft spring rate",
+      "value": 52.0,
+      "unit": "N/mm",
+      "conditions": [
+        "Applies to the standard R model configuration identified by this table; optional rates are alternatives, not stock specification.",
+        "Factory springs may be unmarked; marks alone do not prove spring identity."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 105; 3-3",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-shock-standard-spring-rate",
+      "property": "spring_rate",
+      "joint": "Shock standard spring rate",
+      "value": 54.0,
+      "unit": "N/mm",
+      "conditions": [
+        "Applies to the standard R model configuration identified by this table; optional rates are alternatives, not stock specification.",
+        "Factory springs may be unmarked; marks alone do not prove spring identity."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 105; 3-3",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-shock-optional-stiff-spring-rate",
+      "property": "spring_rate",
+      "joint": "Shock optional stiff spring rate",
+      "value": 56.0,
+      "unit": "N/mm",
+      "conditions": [
+        "Applies to the standard R model configuration identified by this table; optional rates are alternatives, not stock specification.",
+        "Factory springs may be unmarked; marks alone do not prove spring identity."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 105; 3-3",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-front-tire-pressure",
+      "property": "pressure",
+      "joint": "Front tire pressure",
+      "value": 100.0,
+      "unit": "kPa",
+      "conditions": [
+        "OEM cold-tire baseline; measure tires cold. Terrain and aftermarket tires require contextual review."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 101; 2-81",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-rear-tire-pressure",
+      "property": "pressure",
+      "joint": "Rear tire pressure",
+      "value": 100.0,
+      "unit": "kPa",
+      "conditions": [
+        "OEM cold-tire baseline; measure tires cold. Terrain and aftermarket tires require contextual review."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 101; 2-81",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-front-radial-wheel-rim-runout-service-limit",
+      "property": "clearance_wear_limit",
+      "joint": "Front radial wheel rim runout \u2014 service limit",
+      "value": 1.0,
+      "unit": "mm",
+      "conditions": [],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 101; 2-81",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-front-axial-wheel-rim-runout-service-limit",
+      "property": "clearance_wear_limit",
+      "joint": "Front axial wheel rim runout \u2014 service limit",
+      "value": 1.0,
+      "unit": "mm",
+      "conditions": [],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 101; 2-81",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-rear-radial-wheel-rim-runout-service-limit",
+      "property": "clearance_wear_limit",
+      "joint": "Rear radial wheel rim runout \u2014 service limit",
+      "value": 1.0,
+      "unit": "mm",
+      "conditions": [],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 101; 2-81",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf450r-spec-rear-axial-wheel-rim-runout-service-limit",
+      "property": "clearance_wear_limit",
+      "joint": "Rear axial wheel rim runout \u2014 service limit",
+      "value": 1.0,
+      "unit": "mm",
+      "conditions": [],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "locator": "PDF page 101; 2-81",
+      "document_sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "document_revision": "2022 CRF450R/RX/RWE Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    }
+  ],
+  "mappings": [],
+  "gaps": [
+    "Catalog occurrence mapping incomplete.",
+    "These four tables do not cover all dimensions, capacities or installation procedures."
+  ],
+  "catalog_complete": false,
+  "scope_confirmed": true,
+  "source_document": {
+    "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+    "sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+    "bytes": 8534713,
+    "torque_pdf_pages": [
+      23,
+      24
+    ],
+    "specification_pdf_pages": [
+      57,
+      79,
+      105,
+      101
+    ]
+  },
+  "review": {
+    "reviewer": "bakmx-honda-source-review-20260913",
+    "decision": "APPROVED_NAMED_SPEC_FACTS",
+    "reviewed_pdf_pages": [
+      57,
+      79,
+      105,
+      101
+    ],
+    "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+  }
+}

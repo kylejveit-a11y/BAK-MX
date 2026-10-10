@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2023-yz450f-rider-sag-preload-v1",
+  "title": "Measure rider sag and adjust stock spring preload",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2023,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "publication_status": "APPROVED",
+  "component": "shock",
+  "affected_components": [
+    "shock",
+    "suspension"
+  ],
+  "applicability": {
+    "included": "Exact standard US2023 YZ450F original stock suspension.",
+    "excluded": [
+      "Other years, replacement springs/components or aftermarket damping conversions",
+      "Internal fork/shock overhaul"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "entry_state": [
+    "Assembled bike, serviceable stock suspension, exact original adjusters identified."
+  ],
+  "exit_state": [
+    "Recorded adjustment and functional checks complete; no internal service performed."
+  ],
+  "preflight": [
+    "Record actual starting settings.",
+    "Stop for leaks, damage, binding or an unidentified adjuster.",
+    "Keep the linked diagrams visible to identify distinct controls."
+  ],
+  "critical_stop_conditions": [
+    "Damaged or binding suspension",
+    "Adjuster at stop before target, inability to identify stock control, or unresolved setup measurement"
+  ],
+  "required_tools": [
+    {
+      "name": "Secure maintenance stand and helper"
+    },
+    {
+      "name": "Length measuring equipment and appropriate spring-ring/locknut tools"
+    }
+  ],
+  "required_parts": [],
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf",
+    "document_sha256": "9a8605e26301ba1d0d1d21e93d23cca721bdcdbece6188775626a8819332aa9f",
+    "document_revision": "BHR-2819U-10 / LIT-11626-36-32; first edition July2022",
+    "pdf_pages": [
+      109,
+      110,
+      376,
+      377
+    ],
+    "printed_pages": [
+      "109: 3-31",
+      "110: 3-32",
+      "376: 10-3",
+      "377: 10-4"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Exact2023 source and all instruction/verification content independently reviewed by root; author diagram/text audit complete. Source mechanics unchanged after independent review."
+  },
+  "steps": [
+    {
+      "id": "inspect",
+      "title": "Confirm stock spring and serviceability",
+      "instruction": "Confirm original stock spring and smooth leak-free rear suspension. Clean dirt/mud from locknut and adjusting ring. Record existing installed spring length before loosening anything. This route adjusts the original spring, not a replacement spring or shock.",
+      "depends_on": [],
+      "source_pdf_pages": [
+        109,
+        376,
+        377
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=109",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=376",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=377"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Confirm the described outcome; record actual settings/measurements where requested."
+      ],
+      "record_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    },
+    {
+      "id": "extended",
+      "title": "Measure the unloaded reference",
+      "instruction": "Support under the engine with rear wheel fully off the ground. Measure distance a between rear axle center and the exact marked rear-fender point shown PDF 376. Record both reference points and the measurement; use them unchanged throughout.",
+      "depends_on": [
+        "inspect"
+      ],
+      "source_pdf_pages": [
+        376
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=376"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Confirm the described outcome; record actual settings/measurements where requested."
+      ],
+      "record_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    },
+    {
+      "id": "loaded",
+      "title": "Measure with the rider",
+      "instruction": "Remove the stand and support the bike upright with a helper. With the rider astride the seat, measure distance b between the same axle center/fender mark. Record rider/equipment for repeatability. Calculate a minus b; Yamaha target is 90–100 mm. If already within range and current preload is valid, record it without changing the spring.",
+      "depends_on": [
+        "extended"
+      ],
+      "source_pdf_pages": [
+        376
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=376"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Confirm the described outcome; record actual settings/measurements where requested."
+      ],
+      "record_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations.",
+      "branches": [
+        {
+          "id": "already-valid",
+          "label": "Sag and recorded preload are already valid",
+          "next_step": "record",
+          "condition": "Rider sag90–100mm and actual known free/installed spring measurements establish preload1.5–18mm with locknut already secure. If free length is unknown, continue measuring instead."
+        }
+      ]
+    },
+    {
+      "id": "free-length",
+      "title": "Establish the spring reference if adjustment is needed",
+      "instruction": "Raise rear wheel again. Loosen locknut, then back off adjusting ring until a small clearance exists between ring and spring. Measure actual free spring length as PDF 109 shows. Do not remove the spring or use a guessed catalog length. Keep the spring seated while making the next adjustment.",
+      "depends_on": [
+        "loaded"
+      ],
+      "source_pdf_pages": [
+        109
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=109"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Confirm the described outcome; record actual settings/measurements where requested."
+      ],
+      "record_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    },
+    {
+      "id": "adjust",
+      "title": "Set preload within limits",
+      "instruction": "Turn the ring in diagram direction b to increase preload or c to decrease it. Allowed shortening from measured free length is 1.5–18.0 mm; stock reference is 7.0 mm. One ring turn changes installed length 1.5 mm. Choose a measured setting within those bounds to approach 90–100 mm rider sag, then tighten the locknut as Yamaha directs; this section gives no numeric locknut torque. If rider sag is above 100 mm, increase preload; below 90 mm, decrease preload. Keep the measured preload within its limits.",
+      "depends_on": [
+        "free-length"
+      ],
+      "source_pdf_pages": [
+        109,
+        110,
+        376,
+        377
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=109",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=110",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=376",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=377"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Confirm the described outcome; record actual settings/measurements where requested."
+      ],
+      "record_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    },
+    {
+      "id": "remeasure",
+      "title": "Recheck with the same rider",
+      "instruction": "With the rear wheel raised, record a; then remove the stand and record rider-loaded b at the same points and under the same conditions. Repeat adjustment only with rear wheel raised and within the measured preload bounds, securing the locknut each time. If 90–100 mm cannot be achieved within those limits, stop this stock-spring route: source calls for an appropriate optional spring and readjustment, not extra preload beyond the limit.",
+      "depends_on": [
+        "adjust"
+      ],
+      "source_pdf_pages": [
+        109,
+        110,
+        376
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=109",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=110",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=376"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Confirm the described outcome; record actual settings/measurements where requested."
+      ],
+      "record_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    },
+    {
+      "id": "record",
+      "title": "Record the accepted setup",
+      "instruction": "Record free/installed spring length, preload amount, unloaded a, rider-loaded b and resulting sag. Verify locknut secure and rear action smooth. Reevaluate after initial break-in because the spring can settle. Spring selection, damping changes and internal shock servicing remain separate.",
+      "depends_on": [
+        "remeasure"
+      ],
+      "source_pdf_pages": [
+        109,
+        110,
+        376,
+        377
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=109",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=110",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=376",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf#page=377"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Confirm the described outcome; record actual settings/measurements where requested."
+      ],
+      "record_required": true,
+      "origin": "Original illustrated companion checked against exact2023 BHR pages; closed hydraulic access and observation records are explicit workflow adaptations."
+    }
+  ],
+  "completeness": "Measure rider sag and actual spring preload; adjust the original spring within the OEM limits and record the accepted setup. A valid measured setup can be retained without adjustment.",
+  "operation_dependencies": [],
+  "authoring_template": {
+    "path": "docs/research/workshop-pass10/yamaha-2024-suspension/rider-sag-preload-v1.procedure.json",
+    "sha256": "5f7833f006ff6f7180451ed9c88026dab2b2568cc56be28e48031f9e5d41328c",
+    "scope": "Sequence structure only; source identity does not transfer across years."
+  }
+}

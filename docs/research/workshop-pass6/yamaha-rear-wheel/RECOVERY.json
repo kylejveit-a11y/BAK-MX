@@ -1,0 +1,14 @@
+{
+  "status": "ROOT_SOURCE_AND_CLOSURE_REVIEW_APPROVED",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "steps": 18,
+  "complete_bike": false,
+  "remaining": "Runtime integration; physical execution not tested",
+  "artifact_sha256": "59adb9b43c9039814e9f9979e06a5b6c09fff963558b9f11be303e926a124e54"
+}

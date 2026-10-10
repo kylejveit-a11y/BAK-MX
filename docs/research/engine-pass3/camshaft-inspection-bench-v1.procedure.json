@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2026-yz450f-camshaft-inspection-bench-v1",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Measure camshafts and journal clearance",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete bounded bench operation from the declared entry state to the declared exit state. Whole-bike access and downstream engine closure are separate dependencies.",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      7,
+      56,
+      217,
+      218,
+      219
+    ],
+    "printed_pages": [
+      "Symbols (unnumbered)",
+      "2-9",
+      "5-14",
+      "5-15",
+      "5-16"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "All cited operation pages visually reviewed. General symbols and conditional torque rules retained."
+  },
+  "applicability": {
+    "included": "Exact US2026 YZ450F standard stock components only",
+    "excluded": [
+      "Engine access",
+      "Installation and final timing"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "affected_components": [
+    "engine",
+    "cams",
+    "cylinder_head"
+  ],
+  "required_tools": [
+    {
+      "name": "Micrometer, Plastigauge covering0.028\u20130.062mm with its scale/instructions"
+    },
+    {
+      "name": "Torque wrench accurate at10Nm"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "Exact stock replacement cams/head-cap set/chain if inspection requires"
+    }
+  ],
+  "preflight": [
+    "Cams removed; their original matching head/caps available."
+  ],
+  "entry_state": [
+    "Cams removed; their original matching head/caps available."
+  ],
+  "exit_state": [
+    "Cam/head inspection recorded and required replacement disposition determined; cams remain out."
+  ],
+  "critical_stop_conditions": [
+    "Any required measurement unresolved or replacement criteria not satisfied.",
+    "Unidentified diagram orientation, missing parts, damage or abnormal binding."
+  ],
+  "material_policy": {
+    "LT": "Locking agent (LOCTITE) per PDF7. Grade unspecified by this manual; no grade inferred.",
+    "lubrication": "Follow each explicit E/M/LS/S application; general dry torque does not override a lubricated joint."
+  },
+  "steps": [
+    {
+      "id": "entry",
+      "title": "Prepare the removed cams and matching head",
+      "instruction": "Use the original matching head and caps on the bench, with cams removed and identified by intake/exhaust. Keep cap locations and dowels matched; a mixed cap set is not an acceptable measurement fixture.",
+      "source_pdf_pages": [
+        217,
+        218
+      ],
+      "verification": [
+        "Original matching caps/head confirmed."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=217",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=218"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": []
+    },
+    {
+      "id": "lobes",
+      "title": "Inspect and measure the lobes",
+      "instruction": "Replace a cam with blue discoloration, pitting or scratches. Measure lobe height at the illustrated axis: intake limit38.030mm, exhaust34.170mm. Record each lobe measurement and condition.",
+      "source_pdf_pages": [
+        218
+      ],
+      "verification": [
+        "All lobe heights and conditions saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=218"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "entry"
+      ]
+    },
+    {
+      "id": "plastigauge",
+      "title": "Measure cam journal clearance",
+      "instruction": "Place the cam in its matching head and position a Plastigauge strip on the journal as shown. Install dowels/caps, tightening inward-to-outward in a crisscross pattern to10Nm. Do not rotate the cam during the measurement. Remove caps and read strip width using the product scale; required clearance0.028\u20130.062mm.",
+      "source_pdf_pages": [
+        218
+      ],
+      "verification": [
+        "Each measured journal clearance recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=218"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "lobes"
+      ]
+    },
+    {
+      "id": "journal",
+      "title": "Identify the worn component when clearance fails",
+      "instruction": "If a journal clearance is outside0.028\u20130.062mm, measure that cam journal diameter. Required diameter22.002\u201322.015mm. An out-of-spec diameter requires the cam; an in-spec diameter with failed clearance requires the head and matching caps as a set. Record the decision for each failed location.",
+      "source_pdf_pages": [
+        218
+      ],
+      "verification": [
+        "Failed-location diameter and replacement decision recorded, or no failed clearance."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=218"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "plastigauge"
+      ]
+    },
+    {
+      "id": "chain",
+      "title": "Inspect chain and sprockets",
+      "instruction": "Check chain damage/stiffness and sprocket tooth wear against the drawing. More than one-quarter tooth wear requires camshaft and timing chain as a set; damaged/stiff chain requires the stated matching replacement set. Do not return a defective sprocket to service with only a new chain.",
+      "source_pdf_pages": [
+        218,
+        219
+      ],
+      "verification": [
+        "Chain and sprocket results recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=218",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=219"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "journal"
+      ]
+    },
+    {
+      "id": "decompressor",
+      "title": "Inspect the decompressor and preserve parts",
+      "instruction": "Verify the decompressor cam moves smoothly and its lever pin projects from the camshaft. Record the results. Remove all Plastigauge residue before assembly and keep the inspected cams/caps labeled for the installation operation.",
+      "source_pdf_pages": [
+        218,
+        219
+      ],
+      "verification": [
+        "Decompressor result saved; measurement residue removed."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=218",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=219"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "chain"
+      ]
+    }
+  ],
+  "reviewed_at": "2026-09-13",
+  "runtime_integration_requirement": "Enforce entry state and record_required. Completion certifies this bounded operation only; no automatic completion of upstream/downstream work."
+}

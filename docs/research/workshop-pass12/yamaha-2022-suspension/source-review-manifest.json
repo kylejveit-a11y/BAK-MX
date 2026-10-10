@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED",
+  "sources": [
+    {
+      "source_id": "yamaha-us-2022-yz450f-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf",
+      "sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\B2W-2819U-12_02.pdf"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "docs/research/workshop-pass12/yamaha-2022-suspension/fork-baseline-v1.procedure.json",
+      "sha256": "94fb9ad92d912cfea7a3f407439a70f5c1a7a1439b75d07964e091a342fdba3e",
+      "source_id": "yamaha-us-2022-yz450f-oem",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 6,
+      "review_status": "APPROVED",
+      "template_sha256": "5d954b69df96e680e8bc1c5912212e83baf8b2f2ef58d37e7378232a5cf7e409"
+    },
+    {
+      "path": "docs/research/workshop-pass12/yamaha-2022-suspension/shock-baseline-v1.procedure.json",
+      "sha256": "14f8c958cbdc1aaf2e5e7062f99cfe072cdcaa60bf1b874b2da14c44a71164bc",
+      "source_id": "yamaha-us-2022-yz450f-oem",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 6,
+      "review_status": "APPROVED",
+      "template_sha256": "1f02d4e28b88c9264060727b8c061771226d856e6ff279f49910d7b808a563ce"
+    },
+    {
+      "path": "docs/research/workshop-pass12/yamaha-2022-suspension/rider-sag-preload-v1.procedure.json",
+      "sha256": "6b462dd40d03f4b765501d88531cdaa550ff3311e16de20e72ee2e3f21661a61",
+      "source_id": "yamaha-us-2022-yz450f-oem",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 7,
+      "review_status": "APPROVED",
+      "template_sha256": "4b9d85edd8f9e9ab18e888606971a15dcffe6707a69cfc43ecb96eb8b78fb37b"
+    }
+  ],
+  "independent_review": {
+    "path": "docs/research/workshop-pass12/yamaha-2022-suspension/independent-review-v1.json",
+    "sha256": "fba3451f0d18c17d115e444586d94138bffbd524e69768f6af6a905928ba7190",
+    "status": "APPROVED"
+  }
+}

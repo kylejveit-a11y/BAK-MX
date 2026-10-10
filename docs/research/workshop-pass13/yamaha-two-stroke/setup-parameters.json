@@ -1,0 +1,1594 @@
+[
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ250",
+      "model_year": 2026,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "D69-2819U-11_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "14",
+        "unit": "click",
+        "pdf_page": 88,
+        "table_text_sha256": "b12de70c673af7a35c4f4e2a75b8e121438eea0e615a087cc2ff4247fdb24022"
+      },
+      "fork_compression": {
+        "value": "9",
+        "unit": "click",
+        "pdf_page": 88,
+        "table_text_sha256": "b12de70c673af7a35c4f4e2a75b8e121438eea0e615a087cc2ff4247fdb24022"
+      },
+      "shock_rebound": {
+        "value": "8",
+        "unit": "click",
+        "pdf_page": 90,
+        "table_text_sha256": "ee33d7f0428d23ff81492af6791149e153e6c54900c3af0b7712c4cec59b5455"
+      },
+      "shock_high_speed": {
+        "value": "1-1/8",
+        "unit": "turn",
+        "pdf_page": 90,
+        "table_text_sha256": "ee33d7f0428d23ff81492af6791149e153e6c54900c3af0b7712c4cec59b5455"
+      },
+      "shock_low_speed": {
+        "value": "9",
+        "unit": "click",
+        "pdf_page": 91,
+        "table_text_sha256": "542ec6a7938c4aabccd53106d6b6e666ea5bbd91c9e2dc091a753d154fae1beb"
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      88,
+      90,
+      91
+    ],
+    "year_inheritance": "NONE"
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ250",
+      "model_year": 2025,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "D69-2819U-10_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "14",
+        "unit": "click",
+        "pdf_page": 88,
+        "table_text_sha256": "b12de70c673af7a35c4f4e2a75b8e121438eea0e615a087cc2ff4247fdb24022"
+      },
+      "fork_compression": {
+        "value": "9",
+        "unit": "click",
+        "pdf_page": 88,
+        "table_text_sha256": "b12de70c673af7a35c4f4e2a75b8e121438eea0e615a087cc2ff4247fdb24022"
+      },
+      "shock_rebound": {
+        "value": "8",
+        "unit": "click",
+        "pdf_page": 90,
+        "table_text_sha256": "ee33d7f0428d23ff81492af6791149e153e6c54900c3af0b7712c4cec59b5455"
+      },
+      "shock_high_speed": {
+        "value": "1-1/8",
+        "unit": "turn",
+        "pdf_page": 90,
+        "table_text_sha256": "ee33d7f0428d23ff81492af6791149e153e6c54900c3af0b7712c4cec59b5455"
+      },
+      "shock_low_speed": {
+        "value": "9",
+        "unit": "click",
+        "pdf_page": 91,
+        "table_text_sha256": "542ec6a7938c4aabccd53106d6b6e666ea5bbd91c9e2dc091a753d154fae1beb"
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      88,
+      90,
+      91
+    ],
+    "year_inheritance": "NONE"
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ125",
+      "model_year": 2026,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "D68-2819U-11_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "11",
+        "unit": "click",
+        "pdf_page": 86,
+        "table_text_sha256": "214a98320716fb0bf070f6c2dbba319b30f14a591d0a394bbd11c7cdeb670b5f"
+      },
+      "fork_compression": {
+        "value": "10",
+        "unit": "click",
+        "pdf_page": 86,
+        "table_text_sha256": "214a98320716fb0bf070f6c2dbba319b30f14a591d0a394bbd11c7cdeb670b5f"
+      },
+      "shock_rebound": {
+        "value": "10",
+        "unit": "click",
+        "pdf_page": 88,
+        "table_text_sha256": "4a9c5fca197a5d4621750775eb6014ecd0aeac3c47485775188472f6c13573b5"
+      },
+      "shock_high_speed": {
+        "value": "1-1/2",
+        "unit": "turn",
+        "pdf_page": 88,
+        "table_text_sha256": "4a9c5fca197a5d4621750775eb6014ecd0aeac3c47485775188472f6c13573b5"
+      },
+      "shock_low_speed": {
+        "value": "12",
+        "unit": "click",
+        "pdf_page": 89,
+        "table_text_sha256": "e6cb0c9c0410806b58e578924daebfc58cec1e256f51ec5319b5e53d03c586cf"
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      86,
+      88,
+      89
+    ],
+    "year_inheritance": "NONE"
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ250",
+      "model_year": 2021,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "BF1-2819U-10_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "12",
+        "unit": "click",
+        "pdf_page": 85,
+        "table_text_sha256": "11fe2eb2052e95eb1bee01d692eee891822e928575cc5ba34983c51452dc2c86"
+      },
+      "fork_compression": {
+        "value": "12",
+        "unit": "click",
+        "pdf_page": 86,
+        "table_text_sha256": "1c44f588e21b386c9660b17c1596095b8569fb8d085e16d9d8f849a249869b88"
+      },
+      "shock_rebound": {
+        "value": "10",
+        "unit": "click",
+        "pdf_page": 88,
+        "table_text_sha256": "a3cf31d566921e05cb21bd9b729f36e102d40ee1c2e2da894802424c396a98ba"
+      },
+      "shock_high_speed": {
+        "value": "1-3/8",
+        "unit": "turn",
+        "pdf_page": 88,
+        "table_text_sha256": "a3cf31d566921e05cb21bd9b729f36e102d40ee1c2e2da894802424c396a98ba"
+      },
+      "shock_low_speed": {
+        "value": "12",
+        "unit": "click",
+        "pdf_page": 89,
+        "table_text_sha256": "34f199b2ea3fd08305dfc586323326c92ac027b68e15ffdc4fe44b0ff61a8263"
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      85,
+      86,
+      88,
+      89
+    ],
+    "year_inheritance": "NONE"
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ250X",
+      "model_year": 2021,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "BF1-2819U-10_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "10",
+        "unit": "click",
+        "pdf_page": 85,
+        "table_text_sha256": "11fe2eb2052e95eb1bee01d692eee891822e928575cc5ba34983c51452dc2c86"
+      },
+      "fork_compression": {
+        "value": "13",
+        "unit": "click",
+        "pdf_page": 86,
+        "table_text_sha256": "1c44f588e21b386c9660b17c1596095b8569fb8d085e16d9d8f849a249869b88"
+      },
+      "shock_rebound": {
+        "value": "11",
+        "unit": "click",
+        "pdf_page": 88,
+        "table_text_sha256": "a3cf31d566921e05cb21bd9b729f36e102d40ee1c2e2da894802424c396a98ba"
+      },
+      "shock_high_speed": {
+        "value": "1-5/8",
+        "unit": "turn",
+        "pdf_page": 88,
+        "table_text_sha256": "a3cf31d566921e05cb21bd9b729f36e102d40ee1c2e2da894802424c396a98ba"
+      },
+      "shock_low_speed": {
+        "value": "12",
+        "unit": "click",
+        "pdf_page": 89,
+        "table_text_sha256": "34f199b2ea3fd08305dfc586323326c92ac027b68e15ffdc4fe44b0ff61a8263"
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      85,
+      86,
+      88,
+      89
+    ],
+    "year_inheritance": "NONE"
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ125",
+      "model_year": 2020,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "B0V-28199-11_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "12",
+        "unit": "click",
+        "pdf_page": 81,
+        "table_text_sha256": "478d5d9c3806a94740336fa58a19969bc9137d5a8e70f1bcb51e5196b61c21a7",
+        "punch_mark_required": false
+      },
+      "fork_compression": {
+        "value": "12",
+        "unit": "click",
+        "pdf_page": 81,
+        "table_text_sha256": "478d5d9c3806a94740336fa58a19969bc9137d5a8e70f1bcb51e5196b61c21a7",
+        "punch_mark_required": false
+      },
+      "shock_rebound": {
+        "value": "10–13",
+        "unit": "click",
+        "pdf_page": 83,
+        "table_text_sha256": "46577e6cffe91d43b57fe699219371d3d56369504b5a85553cdfb377ddab95ec",
+        "punch_mark_required": true
+      },
+      "shock_high_speed": {
+        "value": "1-3/8 ± 1/6",
+        "unit": "turn",
+        "pdf_page": 84,
+        "table_text_sha256": "9e03824e8575610c0d13634a44689189f694ce1f1ca2854121a7ee4c988b3362",
+        "punch_mark_required": true
+      },
+      "shock_low_speed": {
+        "value": "11–14",
+        "unit": "click",
+        "pdf_page": 84,
+        "table_text_sha256": "9e03824e8575610c0d13634a44689189f694ce1f1ca2854121a7ee4c988b3362",
+        "punch_mark_required": true
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      81,
+      83,
+      84
+    ],
+    "year_inheritance": "NONE"
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ125X",
+      "model_year": 2020,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "B0V-28199-11_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "11",
+        "unit": "click",
+        "pdf_page": 81,
+        "table_text_sha256": "478d5d9c3806a94740336fa58a19969bc9137d5a8e70f1bcb51e5196b61c21a7",
+        "punch_mark_required": false
+      },
+      "fork_compression": {
+        "value": "15",
+        "unit": "click",
+        "pdf_page": 81,
+        "table_text_sha256": "478d5d9c3806a94740336fa58a19969bc9137d5a8e70f1bcb51e5196b61c21a7",
+        "punch_mark_required": false
+      },
+      "shock_rebound": {
+        "value": "12–15",
+        "unit": "click",
+        "pdf_page": 83,
+        "table_text_sha256": "46577e6cffe91d43b57fe699219371d3d56369504b5a85553cdfb377ddab95ec",
+        "punch_mark_required": true
+      },
+      "shock_high_speed": {
+        "value": "1-5/8 ± 1/6",
+        "unit": "turn",
+        "pdf_page": 84,
+        "table_text_sha256": "9e03824e8575610c0d13634a44689189f694ce1f1ca2854121a7ee4c988b3362",
+        "punch_mark_required": true
+      },
+      "shock_low_speed": {
+        "value": "12–15",
+        "unit": "click",
+        "pdf_page": 84,
+        "table_text_sha256": "9e03824e8575610c0d13634a44689189f694ce1f1ca2854121a7ee4c988b3362",
+        "punch_mark_required": true
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      81,
+      83,
+      84
+    ],
+    "year_inheritance": "NONE"
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ125",
+      "model_year": 2025,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "D68-2819U-10_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "11",
+        "unit": "click",
+        "pdf_page": 86,
+        "table_text_sha256": "214a98320716fb0bf070f6c2dbba319b30f14a591d0a394bbd11c7cdeb670b5f"
+      },
+      "fork_compression": {
+        "value": "10",
+        "unit": "click",
+        "pdf_page": 86,
+        "table_text_sha256": "214a98320716fb0bf070f6c2dbba319b30f14a591d0a394bbd11c7cdeb670b5f"
+      },
+      "shock_rebound": {
+        "value": "10",
+        "unit": "click",
+        "pdf_page": 88,
+        "table_text_sha256": "4a9c5fca197a5d4621750775eb6014ecd0aeac3c47485775188472f6c13573b5"
+      },
+      "shock_high_speed": {
+        "value": "1-1/2",
+        "unit": "turn",
+        "pdf_page": 88,
+        "table_text_sha256": "4a9c5fca197a5d4621750775eb6014ecd0aeac3c47485775188472f6c13573b5"
+      },
+      "shock_low_speed": {
+        "value": "12",
+        "unit": "click",
+        "pdf_page": 89,
+        "table_text_sha256": "e6cb0c9c0410806b58e578924daebfc58cec1e256f51ec5319b5e53d03c586cf"
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      86,
+      88,
+      89
+    ],
+    "year_inheritance": "NONE"
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ125X",
+      "model_year": 2025,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "DF3-2819U-10_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "10",
+        "unit": "click",
+        "pdf_page": 86,
+        "table_text_sha256": "29a14669ea351df5d664e4314bef72580cfc7643fcfab4b54947963f5d86343c"
+      },
+      "fork_compression": {
+        "value": "15",
+        "unit": "click",
+        "pdf_page": 86,
+        "table_text_sha256": "29a14669ea351df5d664e4314bef72580cfc7643fcfab4b54947963f5d86343c"
+      },
+      "shock_rebound": {
+        "value": "10",
+        "unit": "click",
+        "pdf_page": 88,
+        "table_text_sha256": "f0138f6f137f276d8ee4c0bd860339d71d058fb7b0de440745bc2db7ef6566cf"
+      },
+      "shock_high_speed": {
+        "value": "1-5/8",
+        "unit": "turn",
+        "pdf_page": 89,
+        "table_text_sha256": "1b9620f12913dbe25ef34c32e0b3425e3583717de7ade7d561faf9bbca04b187"
+      },
+      "shock_low_speed": {
+        "value": "14",
+        "unit": "click",
+        "pdf_page": 89,
+        "table_text_sha256": "1b9620f12913dbe25ef34c32e0b3425e3583717de7ade7d561faf9bbca04b187"
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      86,
+      88,
+      89
+    ],
+    "year_inheritance": "NONE"
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ125X",
+      "model_year": 2026,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "DF3-2819U-11_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "10",
+        "unit": "click",
+        "pdf_page": 86,
+        "table_text_sha256": "29a14669ea351df5d664e4314bef72580cfc7643fcfab4b54947963f5d86343c"
+      },
+      "fork_compression": {
+        "value": "15",
+        "unit": "click",
+        "pdf_page": 86,
+        "table_text_sha256": "29a14669ea351df5d664e4314bef72580cfc7643fcfab4b54947963f5d86343c"
+      },
+      "shock_rebound": {
+        "value": "10",
+        "unit": "click",
+        "pdf_page": 88,
+        "table_text_sha256": "f0138f6f137f276d8ee4c0bd860339d71d058fb7b0de440745bc2db7ef6566cf"
+      },
+      "shock_high_speed": {
+        "value": "1-5/8",
+        "unit": "turn",
+        "pdf_page": 89,
+        "table_text_sha256": "1b9620f12913dbe25ef34c32e0b3425e3583717de7ade7d561faf9bbca04b187"
+      },
+      "shock_low_speed": {
+        "value": "14",
+        "unit": "click",
+        "pdf_page": 89,
+        "table_text_sha256": "1b9620f12913dbe25ef34c32e0b3425e3583717de7ade7d561faf9bbca04b187"
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      86,
+      88,
+      89
+    ],
+    "year_inheritance": "NONE"
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ250X",
+      "model_year": 2025,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "DF4-2819U-10_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "9",
+        "unit": "click",
+        "pdf_page": 88,
+        "table_text_sha256": "eef32e81e77187709fc0e32c549bcbfdd4e2b37e3b7634bd69200984d2068e05"
+      },
+      "fork_compression": {
+        "value": "10",
+        "unit": "click",
+        "pdf_page": 88,
+        "table_text_sha256": "eef32e81e77187709fc0e32c549bcbfdd4e2b37e3b7634bd69200984d2068e05"
+      },
+      "shock_rebound": {
+        "value": "9",
+        "unit": "click",
+        "pdf_page": 90,
+        "table_text_sha256": "3389c148f61a1237c7cccedf92f789c169e8b3206e849dbb57b0cde2c1a70028"
+      },
+      "shock_high_speed": {
+        "value": "1",
+        "unit": "turn",
+        "pdf_page": 91,
+        "table_text_sha256": "14e94ad538d89fe2794d53e2d22d6e846502f8a1f9ace2590a4bdf9eb1e32f1a"
+      },
+      "shock_low_speed": {
+        "value": "8",
+        "unit": "click",
+        "pdf_page": 91,
+        "table_text_sha256": "14e94ad538d89fe2794d53e2d22d6e846502f8a1f9ace2590a4bdf9eb1e32f1a"
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      88,
+      90,
+      91
+    ],
+    "year_inheritance": "NONE"
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ250X",
+      "model_year": 2026,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "DF4-2819U-11_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "9",
+        "unit": "click",
+        "pdf_page": 88,
+        "table_text_sha256": "eef32e81e77187709fc0e32c549bcbfdd4e2b37e3b7634bd69200984d2068e05"
+      },
+      "fork_compression": {
+        "value": "10",
+        "unit": "click",
+        "pdf_page": 88,
+        "table_text_sha256": "eef32e81e77187709fc0e32c549bcbfdd4e2b37e3b7634bd69200984d2068e05"
+      },
+      "shock_rebound": {
+        "value": "9",
+        "unit": "click",
+        "pdf_page": 90,
+        "table_text_sha256": "3389c148f61a1237c7cccedf92f789c169e8b3206e849dbb57b0cde2c1a70028"
+      },
+      "shock_high_speed": {
+        "value": "1",
+        "unit": "turn",
+        "pdf_page": 91,
+        "table_text_sha256": "14e94ad538d89fe2794d53e2d22d6e846502f8a1f9ace2590a4bdf9eb1e32f1a"
+      },
+      "shock_low_speed": {
+        "value": "8",
+        "unit": "click",
+        "pdf_page": 91,
+        "table_text_sha256": "14e94ad538d89fe2794d53e2d22d6e846502f8a1f9ace2590a4bdf9eb1e32f1a"
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      88,
+      90,
+      91
+    ],
+    "year_inheritance": "NONE"
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ125",
+      "model_year": 2022,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "B4X-2819U-10_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "11",
+        "unit": "click",
+        "pdf_page": 83,
+        "table_text_sha256": "18b03acd56fd0b8e52f9861057b848e36b12612adba11b74430dd913123a5c57"
+      },
+      "fork_compression": {
+        "value": "10",
+        "unit": "click",
+        "pdf_page": 83,
+        "table_text_sha256": "18b03acd56fd0b8e52f9861057b848e36b12612adba11b74430dd913123a5c57"
+      },
+      "shock_rebound": {
+        "value": "10",
+        "unit": "click",
+        "pdf_page": 85,
+        "table_text_sha256": "b5cbecfa32cc9383099096965a1730deadce8f0b8ba8ff863699fefabf624dfa"
+      },
+      "shock_high_speed": {
+        "value": "1-1/2",
+        "unit": "turn",
+        "pdf_page": 86,
+        "table_text_sha256": "b83777f99d475632d58d63f029bcfa158956ea29ff25f2e139cf28b9b01fd0dc"
+      },
+      "shock_low_speed": {
+        "value": "12",
+        "unit": "click",
+        "pdf_page": 86,
+        "table_text_sha256": "b83777f99d475632d58d63f029bcfa158956ea29ff25f2e139cf28b9b01fd0dc"
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      83,
+      85,
+      86
+    ],
+    "year_inheritance": "NONE"
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ125",
+      "model_year": 2023,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "B4X-2819U-11_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "11",
+        "unit": "click",
+        "pdf_page": 83,
+        "table_text_sha256": "18b03acd56fd0b8e52f9861057b848e36b12612adba11b74430dd913123a5c57"
+      },
+      "fork_compression": {
+        "value": "10",
+        "unit": "click",
+        "pdf_page": 83,
+        "table_text_sha256": "18b03acd56fd0b8e52f9861057b848e36b12612adba11b74430dd913123a5c57"
+      },
+      "shock_rebound": {
+        "value": "10",
+        "unit": "click",
+        "pdf_page": 85,
+        "table_text_sha256": "b5cbecfa32cc9383099096965a1730deadce8f0b8ba8ff863699fefabf624dfa"
+      },
+      "shock_high_speed": {
+        "value": "1-1/2",
+        "unit": "turn",
+        "pdf_page": 86,
+        "table_text_sha256": "b83777f99d475632d58d63f029bcfa158956ea29ff25f2e139cf28b9b01fd0dc"
+      },
+      "shock_low_speed": {
+        "value": "12",
+        "unit": "click",
+        "pdf_page": 86,
+        "table_text_sha256": "b83777f99d475632d58d63f029bcfa158956ea29ff25f2e139cf28b9b01fd0dc"
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      83,
+      85,
+      86
+    ],
+    "year_inheritance": "NONE"
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ125",
+      "model_year": 2024,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "B4X-2819U-12_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "11",
+        "unit": "click",
+        "pdf_page": 84,
+        "table_text_sha256": "bfd003f923f5651fbf9f3cbbcc53a798b175e95892ce890ede1cc6d5137d3040"
+      },
+      "fork_compression": {
+        "value": "10",
+        "unit": "click",
+        "pdf_page": 84,
+        "table_text_sha256": "bfd003f923f5651fbf9f3cbbcc53a798b175e95892ce890ede1cc6d5137d3040"
+      },
+      "shock_rebound": {
+        "value": "10",
+        "unit": "click",
+        "pdf_page": 86,
+        "table_text_sha256": "228325b84f4621f63adea000ac8b1462340fc868c206b22e587ca4af3e7a5783"
+      },
+      "shock_high_speed": {
+        "value": "1-1/2",
+        "unit": "turn",
+        "pdf_page": 87,
+        "table_text_sha256": "6b746a609bf67b25c50215f5391b1ef6f1a7386c9261e44ef69fbf00a4776443"
+      },
+      "shock_low_speed": {
+        "value": "12",
+        "unit": "click",
+        "pdf_page": 87,
+        "table_text_sha256": "6b746a609bf67b25c50215f5391b1ef6f1a7386c9261e44ef69fbf00a4776443"
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      84,
+      86,
+      87
+    ],
+    "year_inheritance": "NONE"
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ250",
+      "model_year": 2022,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "BCR-2819U-10_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "14",
+        "unit": "click",
+        "pdf_page": 85,
+        "table_text_sha256": "55197d93ace8aae8c2e49a0fae63d7f914196c5e45f9d27da62c47bec9f0f379"
+      },
+      "fork_compression": {
+        "value": "9",
+        "unit": "click",
+        "pdf_page": 85,
+        "table_text_sha256": "55197d93ace8aae8c2e49a0fae63d7f914196c5e45f9d27da62c47bec9f0f379"
+      },
+      "shock_rebound": {
+        "value": "8",
+        "unit": "click",
+        "pdf_page": 87,
+        "table_text_sha256": "47ceda01fefbe1abc821810f64d7dce465284de3d6e802c694636be6277fa5db"
+      },
+      "shock_high_speed": {
+        "value": "1-1/8",
+        "unit": "turn",
+        "pdf_page": 88,
+        "table_text_sha256": "673b4c21da3dcc404b7d1b09532c06f253b48768cd2c4a0d4393567878387060"
+      },
+      "shock_low_speed": {
+        "value": "9",
+        "unit": "click",
+        "pdf_page": 88,
+        "table_text_sha256": "673b4c21da3dcc404b7d1b09532c06f253b48768cd2c4a0d4393567878387060"
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      85,
+      87,
+      88
+    ],
+    "year_inheritance": "NONE"
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ250",
+      "model_year": 2023,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "BCR-2819U-11_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "14",
+        "unit": "click",
+        "pdf_page": 85,
+        "table_text_sha256": "55197d93ace8aae8c2e49a0fae63d7f914196c5e45f9d27da62c47bec9f0f379"
+      },
+      "fork_compression": {
+        "value": "9",
+        "unit": "click",
+        "pdf_page": 85,
+        "table_text_sha256": "55197d93ace8aae8c2e49a0fae63d7f914196c5e45f9d27da62c47bec9f0f379"
+      },
+      "shock_rebound": {
+        "value": "8",
+        "unit": "click",
+        "pdf_page": 87,
+        "table_text_sha256": "47ceda01fefbe1abc821810f64d7dce465284de3d6e802c694636be6277fa5db"
+      },
+      "shock_high_speed": {
+        "value": "1-1/8",
+        "unit": "turn",
+        "pdf_page": 88,
+        "table_text_sha256": "673b4c21da3dcc404b7d1b09532c06f253b48768cd2c4a0d4393567878387060"
+      },
+      "shock_low_speed": {
+        "value": "9",
+        "unit": "click",
+        "pdf_page": 88,
+        "table_text_sha256": "673b4c21da3dcc404b7d1b09532c06f253b48768cd2c4a0d4393567878387060"
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      85,
+      87,
+      88
+    ],
+    "year_inheritance": "NONE"
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ250",
+      "model_year": 2024,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "BCR-2819U-12_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "14",
+        "unit": "click",
+        "pdf_page": 86,
+        "table_text_sha256": "bba6e4c29682d55559e0c4ff9b243a223a8192464b1ebbebae7263db48b80240"
+      },
+      "fork_compression": {
+        "value": "9",
+        "unit": "click",
+        "pdf_page": 86,
+        "table_text_sha256": "bba6e4c29682d55559e0c4ff9b243a223a8192464b1ebbebae7263db48b80240"
+      },
+      "shock_rebound": {
+        "value": "8",
+        "unit": "click",
+        "pdf_page": 88,
+        "table_text_sha256": "f1b6f1569d9d7603fb072056fa6abb8312e5c3a84740d43bf4619d5899db6cc8"
+      },
+      "shock_high_speed": {
+        "value": "1-1/8",
+        "unit": "turn",
+        "pdf_page": 89,
+        "table_text_sha256": "de2d18bde5cb966b1c819a629ee3ef6308dccd3c2eb6fcb8a49988edc7dc3529"
+      },
+      "shock_low_speed": {
+        "value": "9",
+        "unit": "click",
+        "pdf_page": 89,
+        "table_text_sha256": "de2d18bde5cb966b1c819a629ee3ef6308dccd3c2eb6fcb8a49988edc7dc3529"
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      86,
+      88,
+      89
+    ],
+    "year_inheritance": "NONE"
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ125",
+      "model_year": 2021,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "B0V-2819U-10_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "12",
+        "unit": "click",
+        "pdf_page": 83,
+        "table_text_sha256": "bb11cc69e5be411174566c5eb0cab2a0f5df071dff9086ee1572908b7a03fd31"
+      },
+      "fork_compression": {
+        "value": "12",
+        "unit": "click",
+        "pdf_page": 84,
+        "table_text_sha256": "7caba25688ae9f09f1acf84debd6ca4970a6b24ce125f9942976be10404a8894"
+      },
+      "shock_rebound": {
+        "value": "11",
+        "unit": "click",
+        "pdf_page": 85,
+        "table_text_sha256": "07dce0d217b482109400afece89ffde13be11434df2d6566100d924293129d2a"
+      },
+      "shock_high_speed": {
+        "value": "1-3/8",
+        "unit": "turn",
+        "pdf_page": 86,
+        "table_text_sha256": "5b9b8e7c3b27a9e735f382d06aedfa10737d9326e4bdaef154ffc0bd76949ea6"
+      },
+      "shock_low_speed": {
+        "value": "12",
+        "unit": "click",
+        "pdf_page": 86,
+        "table_text_sha256": "5b9b8e7c3b27a9e735f382d06aedfa10737d9326e4bdaef154ffc0bd76949ea6"
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      83,
+      84,
+      85,
+      86
+    ],
+    "year_inheritance": "NONE"
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ125X",
+      "model_year": 2023,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "BRX-2819U-10_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "10",
+        "unit": "click",
+        "pdf_page": 83,
+        "table_text_sha256": "25b8da7fac3c54febc01b75f551a2cf0ad4e835597a01666dac64ae2f7712fac"
+      },
+      "fork_compression": {
+        "value": "15",
+        "unit": "click",
+        "pdf_page": 83,
+        "table_text_sha256": "25b8da7fac3c54febc01b75f551a2cf0ad4e835597a01666dac64ae2f7712fac"
+      },
+      "shock_rebound": {
+        "value": "10",
+        "unit": "click",
+        "pdf_page": 85,
+        "table_text_sha256": "3fc02562974eca2fe2156b6d8eb0698965ce6d9e320912b5a03e3a1408be58af"
+      },
+      "shock_high_speed": {
+        "value": "1-5/8",
+        "unit": "turn",
+        "pdf_page": 86,
+        "table_text_sha256": "3a9fe867f4563f4391016a3714e6781eb56d5f4696dac86e4c9c4bd59501a332"
+      },
+      "shock_low_speed": {
+        "value": "14",
+        "unit": "click",
+        "pdf_page": 86,
+        "table_text_sha256": "3a9fe867f4563f4391016a3714e6781eb56d5f4696dac86e4c9c4bd59501a332"
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      83,
+      85,
+      86
+    ],
+    "year_inheritance": "NONE"
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ125X",
+      "model_year": 2024,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "BRX-2819U-11_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "10",
+        "unit": "click",
+        "pdf_page": 84,
+        "table_text_sha256": "d9ce381f8ac30ad5812fd4c0e461f77d0b69643ea20d5dd560ee4dc1bbca07b2"
+      },
+      "fork_compression": {
+        "value": "15",
+        "unit": "click",
+        "pdf_page": 84,
+        "table_text_sha256": "d9ce381f8ac30ad5812fd4c0e461f77d0b69643ea20d5dd560ee4dc1bbca07b2"
+      },
+      "shock_rebound": {
+        "value": "10",
+        "unit": "click",
+        "pdf_page": 86,
+        "table_text_sha256": "78220b5b907e96f0019f5ae39fa8612c0b4637f10e5a27e116058c842d6e996a"
+      },
+      "shock_high_speed": {
+        "value": "1-5/8",
+        "unit": "turn",
+        "pdf_page": 87,
+        "table_text_sha256": "a6089c6085c303a72e6fd7ef248b266c2000653ab9a946a68126cecc9158f5b3"
+      },
+      "shock_low_speed": {
+        "value": "14",
+        "unit": "click",
+        "pdf_page": 87,
+        "table_text_sha256": "a6089c6085c303a72e6fd7ef248b266c2000653ab9a946a68126cecc9158f5b3"
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      84,
+      86,
+      87
+    ],
+    "year_inheritance": "NONE"
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ250X",
+      "model_year": 2023,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "BRY-2819U-10_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "9",
+        "unit": "click",
+        "pdf_page": 85,
+        "table_text_sha256": "427d94c6ff8da5b9425fe8065c0e11e69bdf291c274ef0cb5fc41135f8d47dd7"
+      },
+      "fork_compression": {
+        "value": "10",
+        "unit": "click",
+        "pdf_page": 85,
+        "table_text_sha256": "427d94c6ff8da5b9425fe8065c0e11e69bdf291c274ef0cb5fc41135f8d47dd7"
+      },
+      "shock_rebound": {
+        "value": "9",
+        "unit": "click",
+        "pdf_page": 87,
+        "table_text_sha256": "8734485ac5c9dd7b6619fb77bd2ec7276ca500e6f9dc261fd2409a6a38ff267f"
+      },
+      "shock_high_speed": {
+        "value": "1",
+        "unit": "turn",
+        "pdf_page": 88,
+        "table_text_sha256": "fad8d5c7bfe81f9a49c9c07f62e6f49b9c227f8b750e749ddae2149cac43dcd4"
+      },
+      "shock_low_speed": {
+        "value": "8",
+        "unit": "click",
+        "pdf_page": 88,
+        "table_text_sha256": "fad8d5c7bfe81f9a49c9c07f62e6f49b9c227f8b750e749ddae2149cac43dcd4"
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      85,
+      87,
+      88
+    ],
+    "year_inheritance": "NONE"
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ250X",
+      "model_year": 2024,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "BRY-2819U-11_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "9",
+        "unit": "click",
+        "pdf_page": 86,
+        "table_text_sha256": "56877a5dc6e4b6010787ff351f246db426fb7c4c281692c42cb65ff3c9b55a4d"
+      },
+      "fork_compression": {
+        "value": "10",
+        "unit": "click",
+        "pdf_page": 86,
+        "table_text_sha256": "56877a5dc6e4b6010787ff351f246db426fb7c4c281692c42cb65ff3c9b55a4d"
+      },
+      "shock_rebound": {
+        "value": "9",
+        "unit": "click",
+        "pdf_page": 88,
+        "table_text_sha256": "e1ddf1ae6e76ef17af0cc3fd1cc7671be448880cf4af4f9ce7faf283b9ff7dad"
+      },
+      "shock_high_speed": {
+        "value": "1",
+        "unit": "turn",
+        "pdf_page": 89,
+        "table_text_sha256": "00f3acf7ea34f4074c2e6ec9f3af1af422b1a23bc5e8a5115833b307a75777f0"
+      },
+      "shock_low_speed": {
+        "value": "8",
+        "unit": "click",
+        "pdf_page": 89,
+        "table_text_sha256": "00f3acf7ea34f4074c2e6ec9f3af1af422b1a23bc5e8a5115833b307a75777f0"
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      86,
+      88,
+      89
+    ],
+    "year_inheritance": "NONE"
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ125X",
+      "model_year": 2021,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "B1B-2819U-10_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "11",
+        "unit": "click",
+        "pdf_page": 83,
+        "table_text_sha256": "acac48c4caace8f8a5de6508a35acfec6c39e17a75ced521def5011fac6f8a3a"
+      },
+      "fork_compression": {
+        "value": "15",
+        "unit": "click",
+        "pdf_page": 84,
+        "table_text_sha256": "63c648f47c77c479c90d7c4641ffa50597b0c9f31e1712c5c5b60bbd8cad0225"
+      },
+      "shock_rebound": {
+        "value": "13",
+        "unit": "click",
+        "pdf_page": 86,
+        "table_text_sha256": "fe68f02ce762edd90e6770befb799ee7d19dfdf0f7af8b4472397cd04af0e1de"
+      },
+      "shock_high_speed": {
+        "value": "1-5/8",
+        "unit": "turn",
+        "pdf_page": 86,
+        "table_text_sha256": "fe68f02ce762edd90e6770befb799ee7d19dfdf0f7af8b4472397cd04af0e1de"
+      },
+      "shock_low_speed": {
+        "value": "13",
+        "unit": "click",
+        "pdf_page": 87,
+        "table_text_sha256": "17bf7e3c034dfb5450814735247fa8dfcd97f4f268b52986c60d8a3ee4122c85"
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      83,
+      84,
+      86,
+      87
+    ],
+    "year_inheritance": "NONE"
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ125X",
+      "model_year": 2022,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "B1B-2819U-11_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "11",
+        "unit": "click",
+        "pdf_page": 83,
+        "table_text_sha256": "b988a0a7ff4dffa69620191036a718a0073f242dfde3fc6624b2c1a455a9b217"
+      },
+      "fork_compression": {
+        "value": "15",
+        "unit": "click",
+        "pdf_page": 83,
+        "table_text_sha256": "b988a0a7ff4dffa69620191036a718a0073f242dfde3fc6624b2c1a455a9b217"
+      },
+      "shock_rebound": {
+        "value": "13",
+        "unit": "click",
+        "pdf_page": 85,
+        "table_text_sha256": "868b3393d328623bff4000841a64e8656e7c7f1f13563d35d53bcd53dbc9fe4c"
+      },
+      "shock_high_speed": {
+        "value": "1-5/8",
+        "unit": "turn",
+        "pdf_page": 86,
+        "table_text_sha256": "22686a585e9d153f66a6df19ebb1b4025ecce2d785408b77d1baa5f246060f28"
+      },
+      "shock_low_speed": {
+        "value": "13",
+        "unit": "click",
+        "pdf_page": 86,
+        "table_text_sha256": "22686a585e9d153f66a6df19ebb1b4025ecce2d785408b77d1baa5f246060f28"
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      83,
+      85,
+      86
+    ],
+    "year_inheritance": "NONE"
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ250X",
+      "model_year": 2022,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "BF1-2819U-11_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "10",
+        "unit": "click",
+        "pdf_page": 85,
+        "table_text_sha256": "a855f55621f4294e0c0bed33e6fee5d913cbea6dec33f29bcc523c08c371121c"
+      },
+      "fork_compression": {
+        "value": "13",
+        "unit": "click",
+        "pdf_page": 85,
+        "table_text_sha256": "a855f55621f4294e0c0bed33e6fee5d913cbea6dec33f29bcc523c08c371121c"
+      },
+      "shock_rebound": {
+        "value": "11",
+        "unit": "click",
+        "pdf_page": 87,
+        "table_text_sha256": "86b6fa00d590c91bf61458f84a3c083f9b9d9254a7fb651bebbe8a46a086471e"
+      },
+      "shock_high_speed": {
+        "value": "1-5/8",
+        "unit": "turn",
+        "pdf_page": 88,
+        "table_text_sha256": "d78ae7665876c6ee2754779385696dd77302422b067e938d329e941fd23e1326"
+      },
+      "shock_low_speed": {
+        "value": "12",
+        "unit": "click",
+        "pdf_page": 88,
+        "table_text_sha256": "d78ae7665876c6ee2754779385696dd77302422b067e938d329e941fd23e1326"
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      85,
+      87,
+      88
+    ],
+    "year_inheritance": "NONE"
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ250",
+      "model_year": 2020,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "B9U-28199-11_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "12",
+        "unit": "click",
+        "pdf_page": 81,
+        "table_text_sha256": "64b09ad5837fe4da0d9770728c9da55ec33cd27a0910379a69a87d9f77384cb3",
+        "punch_mark_required": false
+      },
+      "fork_compression": {
+        "value": "12",
+        "unit": "click",
+        "pdf_page": 81,
+        "table_text_sha256": "64b09ad5837fe4da0d9770728c9da55ec33cd27a0910379a69a87d9f77384cb3",
+        "punch_mark_required": false
+      },
+      "shock_rebound": {
+        "value": "9–12",
+        "unit": "click",
+        "pdf_page": 83,
+        "table_text_sha256": "aead1f67e99d6a9ccbda05bbb117f36bda1589b7612d6ba84d8d6f73c9e31890",
+        "punch_mark_required": true
+      },
+      "shock_high_speed": {
+        "value": "1-3/8 ± 1/6",
+        "unit": "turn",
+        "pdf_page": 84,
+        "table_text_sha256": "4bf445672702ca1c49cdff3c34da1fb4799e400fe7fecac236e4634e9966d04e",
+        "punch_mark_required": true
+      },
+      "shock_low_speed": {
+        "value": "11–14",
+        "unit": "click",
+        "pdf_page": 83,
+        "table_text_sha256": "aead1f67e99d6a9ccbda05bbb117f36bda1589b7612d6ba84d8d6f73c9e31890",
+        "punch_mark_required": true
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      81,
+      83,
+      84
+    ],
+    "year_inheritance": "NONE"
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ250X",
+      "model_year": 2020,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "B9U-28199-11_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "10",
+        "unit": "click",
+        "pdf_page": 81,
+        "table_text_sha256": "64b09ad5837fe4da0d9770728c9da55ec33cd27a0910379a69a87d9f77384cb3",
+        "punch_mark_required": false
+      },
+      "fork_compression": {
+        "value": "13",
+        "unit": "click",
+        "pdf_page": 81,
+        "table_text_sha256": "64b09ad5837fe4da0d9770728c9da55ec33cd27a0910379a69a87d9f77384cb3",
+        "punch_mark_required": false
+      },
+      "shock_rebound": {
+        "value": "10–13",
+        "unit": "click",
+        "pdf_page": 83,
+        "table_text_sha256": "aead1f67e99d6a9ccbda05bbb117f36bda1589b7612d6ba84d8d6f73c9e31890",
+        "punch_mark_required": true
+      },
+      "shock_high_speed": {
+        "value": "1-5/8 ± 1/6",
+        "unit": "turn",
+        "pdf_page": 84,
+        "table_text_sha256": "4bf445672702ca1c49cdff3c34da1fb4799e400fe7fecac236e4634e9966d04e",
+        "punch_mark_required": true
+      },
+      "shock_low_speed": {
+        "value": "11–14",
+        "unit": "click",
+        "pdf_page": 83,
+        "table_text_sha256": "aead1f67e99d6a9ccbda05bbb117f36bda1589b7612d6ba84d8d6f73c9e31890",
+        "punch_mark_required": true
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      81,
+      83,
+      84
+    ],
+    "year_inheritance": "NONE"
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ125",
+      "model_year": 2027,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "D68-2819U-12_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "11",
+        "unit": "click",
+        "pdf_page": 86,
+        "table_text_sha256": "214a98320716fb0bf070f6c2dbba319b30f14a591d0a394bbd11c7cdeb670b5f"
+      },
+      "fork_compression": {
+        "value": "10",
+        "unit": "click",
+        "pdf_page": 86,
+        "table_text_sha256": "214a98320716fb0bf070f6c2dbba319b30f14a591d0a394bbd11c7cdeb670b5f"
+      },
+      "shock_rebound": {
+        "value": "10",
+        "unit": "click",
+        "pdf_page": 88,
+        "table_text_sha256": "4a9c5fca197a5d4621750775eb6014ecd0aeac3c47485775188472f6c13573b5"
+      },
+      "shock_high_speed": {
+        "value": "1-1/2",
+        "unit": "turn",
+        "pdf_page": 88,
+        "table_text_sha256": "4a9c5fca197a5d4621750775eb6014ecd0aeac3c47485775188472f6c13573b5"
+      },
+      "shock_low_speed": {
+        "value": "12",
+        "unit": "click",
+        "pdf_page": 89,
+        "table_text_sha256": "e6cb0c9c0410806b58e578924daebfc58cec1e256f51ec5319b5e53d03c586cf"
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      86,
+      88,
+      89
+    ],
+    "year_inheritance": "NONE"
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ250",
+      "model_year": 2027,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "D69-2819U-12_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "14",
+        "unit": "click",
+        "pdf_page": 88,
+        "table_text_sha256": "b12de70c673af7a35c4f4e2a75b8e121438eea0e615a087cc2ff4247fdb24022"
+      },
+      "fork_compression": {
+        "value": "9",
+        "unit": "click",
+        "pdf_page": 88,
+        "table_text_sha256": "b12de70c673af7a35c4f4e2a75b8e121438eea0e615a087cc2ff4247fdb24022"
+      },
+      "shock_rebound": {
+        "value": "8",
+        "unit": "click",
+        "pdf_page": 90,
+        "table_text_sha256": "ee33d7f0428d23ff81492af6791149e153e6c54900c3af0b7712c4cec59b5455"
+      },
+      "shock_high_speed": {
+        "value": "1-1/8",
+        "unit": "turn",
+        "pdf_page": 90,
+        "table_text_sha256": "ee33d7f0428d23ff81492af6791149e153e6c54900c3af0b7712c4cec59b5455"
+      },
+      "shock_low_speed": {
+        "value": "9",
+        "unit": "click",
+        "pdf_page": 91,
+        "table_text_sha256": "542ec6a7938c4aabccd53106d6b6e666ea5bbd91c9e2dc091a753d154fae1beb"
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      88,
+      90,
+      91
+    ],
+    "year_inheritance": "NONE"
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ125X",
+      "model_year": 2027,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "DF3-2819U-12_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "10",
+        "unit": "click",
+        "pdf_page": 86,
+        "table_text_sha256": "29a14669ea351df5d664e4314bef72580cfc7643fcfab4b54947963f5d86343c"
+      },
+      "fork_compression": {
+        "value": "15",
+        "unit": "click",
+        "pdf_page": 86,
+        "table_text_sha256": "29a14669ea351df5d664e4314bef72580cfc7643fcfab4b54947963f5d86343c"
+      },
+      "shock_rebound": {
+        "value": "10",
+        "unit": "click",
+        "pdf_page": 88,
+        "table_text_sha256": "f0138f6f137f276d8ee4c0bd860339d71d058fb7b0de440745bc2db7ef6566cf"
+      },
+      "shock_high_speed": {
+        "value": "1-5/8",
+        "unit": "turn",
+        "pdf_page": 89,
+        "table_text_sha256": "1b9620f12913dbe25ef34c32e0b3425e3583717de7ade7d561faf9bbca04b187"
+      },
+      "shock_low_speed": {
+        "value": "14",
+        "unit": "click",
+        "pdf_page": 89,
+        "table_text_sha256": "1b9620f12913dbe25ef34c32e0b3425e3583717de7ade7d561faf9bbca04b187"
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      86,
+      88,
+      89
+    ],
+    "year_inheritance": "NONE"
+  },
+  {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ250X",
+      "model_year": 2027,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_id": "DF4-2819U-12_02",
+    "parameters": {
+      "fork_rebound": {
+        "value": "9",
+        "unit": "click",
+        "pdf_page": 88,
+        "table_text_sha256": "eef32e81e77187709fc0e32c549bcbfdd4e2b37e3b7634bd69200984d2068e05"
+      },
+      "fork_compression": {
+        "value": "10",
+        "unit": "click",
+        "pdf_page": 88,
+        "table_text_sha256": "eef32e81e77187709fc0e32c549bcbfdd4e2b37e3b7634bd69200984d2068e05"
+      },
+      "shock_rebound": {
+        "value": "9",
+        "unit": "click",
+        "pdf_page": 90,
+        "table_text_sha256": "3389c148f61a1237c7cccedf92f789c169e8b3206e849dbb57b0cde2c1a70028"
+      },
+      "shock_high_speed": {
+        "value": "1",
+        "unit": "turn",
+        "pdf_page": 91,
+        "table_text_sha256": "14e94ad538d89fe2794d53e2d22d6e846502f8a1f9ace2590a4bdf9eb1e32f1a"
+      },
+      "shock_low_speed": {
+        "value": "8",
+        "unit": "click",
+        "pdf_page": 91,
+        "table_text_sha256": "14e94ad538d89fe2794d53e2d22d6e846502f8a1f9ace2590a4bdf9eb1e32f1a"
+      }
+    },
+    "author_review": "EXACT_SOURCE_TEXT_AND_RENDERED_ADJUSTER_TABLES_CHECKED",
+    "reviewed_pdf_pages": [
+      88,
+      90,
+      91
+    ],
+    "year_inheritance": "NONE"
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED",
+  "reviewer": "/root",
+  "artifact_sha256": "03bc4efc8716d92f28af1e88ed84cc79620432324ff0461283538443c4712997",
+  "reviewed_candidate_sha256": "22ce257bd2c897652cc08789c6a989759b77f6fd065d3e7890f66ff612ffd1b9",
+  "approval_only_change": "Publication and source status only; all 67 mechanical instructions unchanged.",
+  "source_sha256": "6e784b3b15fe1e131f0e385676ca2873e74d783ee2499ce561e595bcea9ca9be",
+  "reviewed_steps": "All 67 mechanical instructions compared with independently reviewed source and exact installer change.",
+  "text_pages": [
+    48,
+    209,
+    210,
+    215,
+    216,
+    217,
+    221,
+    222,
+    223,
+    228,
+    229
+  ],
+  "visual_pages": [
+    85,
+    88,
+    89,
+    207,
+    208,
+    211,
+    212,
+    215,
+    216,
+    217,
+    221,
+    224,
+    230
+  ],
+  "findings": [],
+  "review_notes": [
+    "Head 36 then individually 18+90 then all60; new gasket and preparation verified.",
+    "100 C head heating, guide heights, sacrificial lapping and distinct running valves verified.",
+    "Ring/pin/clearance dimensions, actual charts, cloth and solvent closure verified."
+  ]
+}

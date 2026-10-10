@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2026-yz450f-generator-bench-v1",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Remove and refit the engine generator",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete bounded bench operation from the declared entry state to the declared exit state. Whole-bike access and downstream engine closure are separate dependencies.",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      7,
+      56,
+      240,
+      241,
+      242,
+      243,
+      244
+    ],
+    "review_status": "APPROVED",
+    "review_note": "All cited operation pages visually reviewed. General symbols and conditional torque rules retained.",
+    "printed_pages": [
+      "Symbols (unnumbered)",
+      "2-9",
+      "5-37",
+      "5-38",
+      "5-39",
+      "5-40",
+      "5-41"
+    ]
+  },
+  "applicability": {
+    "included": "Exact US2026 YZ450F standard stock components only",
+    "excluded": [
+      "Electrical coil diagnosis",
+      "Engine removal and harness routing closure"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "affected_components": [
+    "engine",
+    "generator"
+  ],
+  "required_tools": [
+    {
+      "name": "Rotor puller90890-04151/YM-04151"
+    },
+    {
+      "name": "Suitable holder/wrench for rotor flats"
+    },
+    {
+      "name": "T25 bit; torque wrench accurate at10/65Nm"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "New left-cover gasket and oil-tank drain washer"
+    },
+    {
+      "name": "YamahaBond1215/ThreeBond1215"
+    },
+    {
+      "name": "LOCTITE locking agent; grade unspecified"
+    }
+  ],
+  "preflight": [
+    "Engine removed, oil drained, shift pedal removed and electrical couplers disconnected."
+  ],
+  "entry_state": [
+    "Engine removed, oil drained, shift pedal removed and electrical couplers disconnected."
+  ],
+  "exit_state": [
+    "Generator and left cover installed; harness remains disconnected for engine refit."
+  ],
+  "critical_stop_conditions": [
+    "Any required measurement unresolved or replacement criteria not satisfied.",
+    "Unidentified diagram orientation, missing parts, damage or abnormal binding."
+  ],
+  "material_policy": {
+    "LT": "Locking agent (LOCTITE) per PDF7. Grade unspecified by this manual; no grade inferred.",
+    "lubrication": "Follow each explicit E/M/LS/S application; general dry torque does not override a lubricated joint."
+  },
+  "steps": [
+    {
+      "id": "entry",
+      "title": "Confirm engine-bench access",
+      "instruction": "Start with the removed engine securely supported, oil drained, shift pedal removed and stator/position-sensor harness couplers disconnected. Record the two external lead clamps and holder positions before removing the left cover.",
+      "source_pdf_pages": [
+        240,
+        241,
+        242
+      ],
+      "verification": [
+        "Oil drained, couplers disconnected, clamps identified."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=240",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=241",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=242"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": []
+    },
+    {
+      "id": "cover-remove",
+      "title": "Remove the left cover",
+      "instruction": "Release the cover fasteners progressively, remove the external clamps/holder and lift off the left crankcase cover. Retain both dowels and discard the gasket. Preserve the oil-tank drain-bolt washer location.",
+      "source_pdf_pages": [
+        240,
+        241,
+        242
+      ],
+      "verification": [
+        "Cover, two dowels and hardware retained."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=240",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=241",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=242"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "entry"
+      ]
+    },
+    {
+      "id": "stator-remove",
+      "title": "Release the stator assembly",
+      "instruction": "Remove the lead clamp/crank-position sensor bolts and three stator screws. Release the lead grommet and remove the assembly without pulling on its wires. Keep the rotor and crankshaft undisturbed until the next step.",
+      "source_pdf_pages": [
+        242,
+        243
+      ],
+      "verification": [
+        "Stator, sensor/clamp and grommet retained."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=242",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=243"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "cover-remove"
+      ]
+    },
+    {
+      "id": "rotor-remove",
+      "title": "Pull the rotor",
+      "instruction": "Hold the rotor at the illustrated wrenching flats while removing its nut and washer. Use rotor puller90890-04151/YM-04151 to remove the rotor. Remove and retain the woodruff key; do not pry against the stator surface.",
+      "source_pdf_pages": [
+        243
+      ],
+      "verification": [
+        "Rotor pulled with specified tool; key and washer retained."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=243"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "stator-remove"
+      ]
+    },
+    {
+      "id": "inspect",
+      "title": "Inspect contact and key surfaces",
+      "instruction": "Inspect rotor inner surface and stator outer surface for contact damage. Damage requires crankshaft runout and bearing inspection before reassembly. Replace a damaged woodruff key. Record the result; electrical diagnosis is separate.",
+      "source_pdf_pages": [
+        243
+      ],
+      "verification": [
+        "Contact-surface and key condition recorded; any crank/bearing fault resolved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=243"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "rotor-remove"
+      ]
+    },
+    {
+      "id": "stator-install",
+      "title": "Install stator, sensor and grommet",
+      "instruction": "Refit the stator with its three screws at10Nm using LOCTITE and aT25 bit. Refit crank-position sensor bolts at10Nm using LOCTITE. Apply YamahaBond1215/ThreeBond1215 to the lead grommet and route the lead through the cover side exactly as illustrated.",
+      "source_pdf_pages": [
+        240,
+        243
+      ],
+      "verification": [
+        "Stator/sensor10Nm, locking agent and1215 grommet seal recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=240",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=243"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "inspect"
+      ]
+    },
+    {
+      "id": "rotor-install",
+      "title": "Install the keyed rotor",
+      "instruction": "Clean both tapered mating surfaces. Fit the woodruff key with its flat face parallel to the crankshaft centerline. Align the rotor keyway with the key, seat the rotor, install washer/nut and hold the illustrated flats while tightening to65Nm.",
+      "source_pdf_pages": [
+        244
+      ],
+      "verification": [
+        "Key alignment, clean taper and65Nm saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=244"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "stator-install"
+      ]
+    },
+    {
+      "id": "cover-install",
+      "title": "Close the left side",
+      "instruction": "Fit both dowels and a new left-cover gasket. Return the cover, lead clamps and holder to their diagram locations. Tighten cover bolts progressively in a crisscross pattern to10Nm. Fit a new oil-tank drain washer and tighten that drain bolt10Nm. Leave harness reconnection for engine installation with the routing guide.",
+      "source_pdf_pages": [
+        242,
+        244
+      ],
+      "verification": [
+        "New gasket/washer, dowels and all10Nm closures checked."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=242",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=244"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "rotor-install"
+      ]
+    }
+  ],
+  "reviewed_at": "2026-09-13",
+  "runtime_integration_requirement": "Enforce entry state and record_required. Completion certifies this bounded operation only; no automatic completion of upstream/downstream work."
+}

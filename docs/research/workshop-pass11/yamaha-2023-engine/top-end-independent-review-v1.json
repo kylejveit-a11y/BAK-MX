@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED",
+  "reviewer": "/root",
+  "artifact_sha256": "5465c9014294095e4ca146287c352444baccc5c0ffc3ccf016dc19e74a27a8ee",
+  "reviewed_candidate_sha256": "27d8da9660452ec0b0494164ce91f2b5bb86cf52e0eba6cc157491daa82e1acb",
+  "source_sha256": "9a8605e26301ba1d0d1d21e93d23cca721bdcdbece6188775626a8819332aa9f",
+  "reviewed_steps": "All67 instructions and verification compared with approved structural template; exact2023 source reviewed independently.",
+  "text_pages": [
+    48,
+    209,
+    210,
+    211,
+    212,
+    215,
+    217,
+    222,
+    223,
+    228,
+    229,
+    230
+  ],
+  "visual_pages": [
+    85,
+    88,
+    89,
+    216,
+    217,
+    221,
+    224,
+    230
+  ],
+  "findings": [],
+  "approval_only_change": "Publication/source review status only; no mechanical instructions changed.",
+  "review_notes": [
+    "Head36 then individual18+90 then all60 with M preparation; small bolts12LT.",
+    "Guide heights/ID/limits, distinct lapping/running titanium valves, piston/ring/cam values, actual shim charts and04015 tool confirmed."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2022-topend-metadata-correction-v1",
+  "status": "APPROVED",
+  "reviewer": "/root",
+  "original_artifact": "docs/research/workshop-pass12/yamaha-2022-engine-journey/top-end-bike-journey-v1.procedure.json",
+  "original_sha256": "f9207a0cd26f1412979f3100584a362bcc6653119dde5bae3c43660fb7f4a6a3",
+  "source_sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608",
+  "scope": "Two metadata-only corrections; every step, verification, torque, quantity, graph and saved guide identity remains unchanged.",
+  "patches": [
+    {
+      "path": [
+        "prerequisites",
+        4
+      ],
+      "before": "Any separate internal bench work must return sealed covers/filter/strainer and documented timing, clearances, lubrication and free rotation. No internals are serviced here.",
+      "after": "The completed top-end bench work must return sealed covers/filter/strainer and documented timing, clearances, lubrication and free rotation."
+    },
+    {
+      "path": [
+        "source",
+        "review_note"
+      ],
+      "before": "Approved exact 2022 engine access, top-end bench and commissioning operations composed with explicit handoffs and cold pressure-tester attachment before first oil-flow start. Independent composition review pending.",
+      "after": "Approved exact 2022 engine access, top-end bench and commissioning operations composed with explicit handoffs and cold pressure-tester attachment before first oil-flow start. Independent root composition review approved."
+    }
+  ]
+}

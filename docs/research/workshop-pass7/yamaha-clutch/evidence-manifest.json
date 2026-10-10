@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "artifacts": [
+    {
+      "path": "review.json",
+      "sha256": "dfdadbf7e29cf376ba6d4f3df8d2b0539c70bd3fcdd39f597fdd021c5d6ba887"
+    },
+    {
+      "path": "UNSENT-technical-request.md",
+      "sha256": "04f77aa5453249230a1020c3cfcaea02be519d5c963dc832b6fed7cab1f5c683"
+    },
+    {
+      "path": "validate_evidence.py",
+      "sha256": "dd2c96e8585408b6dc70bac10ef6ed8ff2d5048a2d338c5ef9be1a334e73115a"
+    }
+  ],
+  "inherited": [
+    {
+      "path": "docs/research/workshop-pass6/yamaha-clutch/findings.json",
+      "sha256": "23daaf3af50dec5eaaba1bbb74791a188d72cba6a01bd2e8b51645d8d147622f"
+    }
+  ]
+}

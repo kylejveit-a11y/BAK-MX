@@ -1,0 +1,71 @@
+{
+  "status": "AUTHOR_COMPOSITION_REVIEW",
+  "adaptations": [
+    {
+      "step_id": "topend-entry",
+      "before": "Confirm exact standard US 2022 YZ450F stock engine, cold at room temperature, drained and securely supported after the preceding engine-removal steps. Intake, exhaust, coolant and electrical interfaces must be clear. Retain assembled crankcases, clutch, gearbox, starter, generator and oil-pump systems. Plan the head repair and later installation/commissioning before opening the engine.",
+      "after": "Confirm exact standard US 2022 YZ450F stock engine, cold at room temperature, drained and securely supported after the preceding engine-removal steps. Intake, exhaust, coolant and electrical interfaces must be clear. Keep the lower engine assembled until head, cylinder and piston removal. The lower-engine sequence then opens and closes its supported systems before top-end assembly resumes. Plan the head repair and later installation/commissioning before opening the engine.",
+      "reason": "Replace retained-lower standalone scope with the ordered combined-engine boundary."
+    },
+    {
+      "step_id": "lower-entry",
+      "before": "Confirm this is the stock US 2022 YZ450F engine, cold, drained and securely supported off the bike. Cams, head, cylinder and piston are already removed and indexed; the chain is retained. External clutch cable, coolant, exhaust, electrical and drive connections are disconnected. This route retains sound cases, water-pump internals, starter motor and stator mountings. Resolve faults in those excluded assemblies before proceeding. Arrange exact top-end closure, engine refitting and commissioning separately.",
+      "after": "Confirm this is the stock US 2022 YZ450F engine, cold, drained and securely supported off the bike. Cams, head, cylinder and piston are already removed and indexed; the chain is retained. External clutch cable, coolant, exhaust, electrical and drive connections are disconnected. This route retains sound cases, water-pump internals, starter motor and stator mountings. Resolve faults in those excluded assemblies before proceeding. Continue with the top-end closure, engine refitting and commissioning steps in this journey after the lower-engine work. Account for and remove the protective cloth placed below the piston before opening the crankcases. Keep openings clean between operations and account for every replacement cloth before closure.",
+      "reason": "Close the piston-removal protective-cloth dependency before crankcase opening and retain the continuous later closure."
+    },
+    {
+      "step_id": "topend-cam-disposition",
+      "before": "If journal clearance failed, measure journal OD against 21.959–21.972 mm: a failed journal requires a cam, while an in-range journal with failed clearance requires head and caps together. Inspect chain for stiffness/damage and sprockets for more than one-quarter tooth wear; either condition requires chain and cam replacement as a set. Check smooth decompressor movement and projecting lever pin. This route does not remove the lower chain drive or replace the head/cap set; such failures require that repair before continuing.",
+      "after": "If journal clearance failed, measure journal OD against 21.959–21.972 mm: a failed journal requires a cam, while an in-range journal with failed clearance requires head and caps together. Inspect chain for stiffness/damage and sprockets for more than one-quarter tooth wear; either condition requires chain and cam replacement as a set. Check smooth decompressor movement and projecting lever pin. Cross-check the recorded lower-chain inspection and installed crank/chain against the cams selected here. Any required matched crank-sprocket, chain and cam set must now be complete and individually accepted; do not retain old cams when matched renewal is required. Head/cap-set replacement remains outside this route.",
+      "reason": "Carry lower timing-drive matched replacement decisions into cam selection."
+    },
+    {
+      "step_id": "access-engine-bench-record",
+      "before": "Record the actual completed top-end work: installed parts, piston/cylinder/ring and valve/guide measurements, completed specialist seat work if used, accepted cold valve clearances, timing, lubrication and free rotation. Confirm top-end covers and access plugs are sealed and retained oil-filter closure accepted before refit. No unresolved bench fault may pass this handoff. Preserve the supported swingarm side stacks for the single pivot replacement.",
+      "after": "Record the actual completed lower-engine and top-end work: installed crank/chain/cam matched-set disposition, gear/shaft and case-bearing measurements, lower-drive/clutch torques and free movement, piston/cylinder/ring and valve/guide measurements, completed specialist seat work if used, accepted cold valve clearances, timing, lubrication and free rotation. Confirm top-end covers and access plugs are sealed and renewed oil-filter closure accepted before refit. No unresolved bench fault may pass this handoff. Preserve the supported swingarm side stacks for the single pivot replacement.",
+      "reason": "Record actual combined repair results before installing the engine."
+    },
+    {
+      "step_id": "access-engine-oil-fill",
+      "before": "Record applicable oil quantity:.63L unchanged filter,.65L filter removal,.90L disassembled engine. Use source-listed Yamalube/API SG-or-higher JASO MA with SAE10W40,10W50,15W40,20W40 or20W50 selected against the ambient-temperature chart. No additives. Record product and actual quantity, check filler cap/seal condition and install cap. Do not copy newer-year filler O-ring grease/replacement instructions absent here. Flow and exact final level checks remain required.",
+      "after": "This route split the crankcases and reassembled the engine: measure 0.90 L for the initial disassembled-engine fill. The later post-break-in oil/filter change uses its separate 0.65 L service quantity. Use source-listed Yamalube/API SG-or-higher JASO MA with SAE10W40,10W50,15W40,20W40 or20W50 selected against the ambient-temperature chart. No additives. Record product and actual quantity, check filler cap/seal condition and install cap. Do not copy newer-year filler O-ring grease/replacement instructions absent here. Flow and exact final level checks remain required.",
+      "reason": "Choose exact disassembled-engine capacity for the actual performed lower-engine operation; preserve later service refill."
+    },
+    {
+      "step_id": "commission-entry",
+      "before": "Record the actual top-end parts installed and the accepted cold timing, clearance, fit and refit records from the preceding steps. The bike remains fully cool and has not yet been started after repair. Perform the following filter/static checks and cold pressure-tester attachment before its first oil-flow start. Record verified exact oil-check-bolt fastening and seal closure before any engine start; unresolved closure prevents starting. Unresolved mechanical or lubrication-preparation faults remain open.",
+      "after": "Record the actual lower-engine and top-end parts installed and the accepted cold timing, clearance, fit and refit records from the preceding steps. The bike remains fully cool and has not yet been started after repair. Perform the following filter/static checks and cold pressure-tester attachment before its first oil-flow start. Record verified exact oil-check-bolt fastening and seal closure before any engine start; unresolved closure prevents starting. Unresolved mechanical or lubrication-preparation faults remain open.",
+      "reason": "Accept combined repair parts for the already-approved crank/gear/top-end break-in groups."
+    }
+  ],
+  "dependencies": [
+    {
+      "artifact": "docs/research/workshop-pass12/yamaha-2022-engine-journey/top-end-bike-journey-v1.procedure.json",
+      "sha256": "f9207a0cd26f1412979f3100584a362bcc6653119dde5bae3c43660fb7f4a6a3",
+      "kind": "approved_source_operation"
+    },
+    {
+      "artifact": "docs/research/workshop-pass12/yamaha-2022-engine-journey/lower-engine-bench-v1-corrected.procedure.json",
+      "sha256": "be37758b69aa7a849f001a7ce16494cf71f0274c0eccbc756906108aa88e51d4",
+      "kind": "approved_source_operation"
+    },
+    {
+      "artifact": "docs/research/workshop-pass12/yamaha-2022-engine/lower-engine-bench-v1.procedure.json",
+      "sha256": "7f00ea163b0867b3e60b19246aba36af5bfb75b63e12266829ca0cac2da8fba4",
+      "kind": "approved_source_operation"
+    }
+  ],
+  "correction_dependencies": [
+    {
+      "artifact": "docs/research/workshop-pass12/yamaha-2022-engine-journey/lower-filter-oring-correction-v1.json",
+      "sha256": "b43c248302b36f6273d198a1cfc39cfaa6848ee5542b8f2bb33cbcbe0750e946",
+      "kind": "approved_narrow_correction"
+    },
+    {
+      "artifact": "docs/research/workshop-pass12/yamaha-2022-engine-journey/lower-correction-review-manifest.json",
+      "sha256": "238b91315ff089057723acbe1afeb74ae90f45295409a09dbde784a74a73efcd",
+      "kind": "approved_narrow_correction"
+    }
+  ],
+  "retained_commissioning": "Approved exact 2022 plan and remaining-ride already cover new crankshaft and gears; no break-in numeric edits."
+}

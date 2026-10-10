@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-09-13",
+  "holds": [
+    {
+      "procedure_id": "beta-2023-300-rr-race-kyb-c46-bench-rebuild-v1",
+      "source_artifact": "beta-2023-c46-bench-rebuild-v1.procedure.json",
+      "source_artifact_sha256": "c78129b46dd47858453a2b056c975677da47c57cfefc5d4a1d161269b50ce911",
+      "status": "HELD",
+      "reason": "Unresolved exact-model OEM final-pressure and oil-product disagreement; historical reviewed artifact is not runtime approval.",
+      "new_source": {
+        "url": "https://betausagallery.com/wp-content/uploads/2023/02/Supplementary-sheet-of-owner-manual-RR-2T-Racing-my-23.pdf",
+        "sha256": "6ce6c23abf0c64b337d4d14befaaac29ce8772f51bf6a3d0426802c06517eb2e",
+        "local_path": "C:/Users/kylej/AppData/Local/Temp/beta-2023-race-supplement.pdf",
+        "pdf_pages": [
+          4,
+          5
+        ]
+      },
+      "conflict_overlay": "beta-conflict-overlay-v1.json",
+      "auto_approval": false
+    }
+  ]
+}

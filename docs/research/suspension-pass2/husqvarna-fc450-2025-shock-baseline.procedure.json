@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "id": "husqvarna-2025-fc450-shock-damping-baseline-v1",
+  "component": "shock",
+  "target": {
+    "manufacturer": "Husqvarna",
+    "model": "FC 450",
+    "model_year": 2025,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Set the stock shock damping baseline",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete external adjustment of all three stock shock damping controls to the US standard settings. Does not set sag, preload, fork pressure or repair the shock.",
+  "source": {
+    "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+    "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+    "document_revision": "3402805en /23 January2025",
+    "pdf_pages": [
+      3,
+      45,
+      46,
+      47,
+      48
+    ],
+    "printed_pages": [
+      "3",
+      "45",
+      "46",
+      "47",
+      "48"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Scope page3 names FC450 US F2475Y2. Every operation page visually reviewed. Only FC450 US values selected; no model-year inheritance."
+  },
+  "applicability": {
+    "included": "Stock US2025 FC450 F2475Y2",
+    "excluded": [
+      "Other years/models/regions",
+      "Factory Edition",
+      "Aftermarket shock or revalving",
+      "Sag/preload adjustment",
+      "Internal shock service"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "required_tools": [
+    {
+      "name": "A setup notebook or app journal",
+      "size": null
+    },
+    {
+      "name": "Access to the three illustrated external adjusters",
+      "size": null
+    }
+  ],
+  "required_parts": [],
+  "preflight": [
+    "Exact stock shock/build confirmed.",
+    "Engine stopped; bike securely supported on firm level ground.",
+    "Record observations and any remaining fault."
+  ],
+  "critical_stop_conditions": [
+    "Bike cannot be securely supported.",
+    "Damaged/leaking shock or adjuster that does not work as described.",
+    "Actual shock or geometry differs from stock."
+  ],
+  "steps": [
+    {
+      "id": "prepare",
+      "title": "Identify the three controls",
+      "instruction": "Stop the engine and securely support the bike. Use the diagrams to identify low-speed compression, high-speed compression and rebound. Keep the shock mounted and sealed. High/low speed describes suspension movement, not road speed.",
+      "depends_on": [],
+      "source_pdf_pages": [
+        45,
+        46,
+        48
+      ],
+      "verification": [
+        "Three illustrated controls identified; stock sealed shock confirmed."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=45",
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=46",
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=48"
+      ],
+      "origin": "Original source-based summary; record prompts are application workflow."
+    },
+    {
+      "id": "low",
+      "title": "Set low-speed compression",
+      "instruction": "Turn the low-speed compression adjuster clockwise to the last perceptible click, counting and recording the existing setting as you go. Do not force it beyond that point. Turn counterclockwise15 clicks to the FC450 US standard setting.",
+      "depends_on": [
+        "prepare"
+      ],
+      "source_pdf_pages": [
+        45,
+        46
+      ],
+      "verification": [
+        "Original setting recorded; final setting15 clicks out."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=45",
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=46"
+      ],
+      "origin": "Original source-based summary; record prompts are application workflow."
+    },
+    {
+      "id": "high",
+      "title": "Set high-speed compression",
+      "instruction": "Turn the high-speed compression adjuster clockwise to its stop, gently counting and recording the original turns. Do not force the stop. Turn it counterclockwise1.5 turns, equivalent to540 degrees, to the FC450 US standard.",
+      "depends_on": [
+        "low"
+      ],
+      "source_pdf_pages": [
+        46,
+        47
+      ],
+      "verification": [
+        "Original turns recorded; final setting1.5 turns out."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=46",
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=47"
+      ],
+      "origin": "Original source-based summary; record prompts are application workflow."
+    },
+    {
+      "id": "rebound",
+      "title": "Set rebound",
+      "instruction": "Turn the rebound adjuster clockwise to the last perceptible click, counting and recording the original setting without forcing it. Then turn counterclockwise15 clicks to the FC450 US standard.",
+      "depends_on": [
+        "high"
+      ],
+      "source_pdf_pages": [
+        48
+      ],
+      "verification": [
+        "Original rebound recorded; final setting15 clicks out."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=48"
+      ],
+      "origin": "Original source-based summary; record prompts are application workflow."
+    },
+    {
+      "id": "record",
+      "title": "Save the baseline",
+      "instruction": "Record low-speed15 clicks out, high-speed1.5 turns out and rebound15 clicks out. Clockwise increases damping; counterclockwise reduces it. This establishes the standard damping reference; record remaining symptoms separately. It does not establish that the spring or sag suits the rider.",
+      "depends_on": [
+        "rebound"
+      ],
+      "source_pdf_pages": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "verification": [
+        "Three final settings saved; remaining concerns retained."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=45",
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=46",
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=47",
+        "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf#page=48"
+      ],
+      "origin": "Original source-based summary; record prompts are application workflow."
+    }
+  ],
+  "publication_status": "LOCAL_REVIEWED_NOT_IMPORTED",
+  "reviewed_at": "2026-09-13T19:39:53.734Z"
+}

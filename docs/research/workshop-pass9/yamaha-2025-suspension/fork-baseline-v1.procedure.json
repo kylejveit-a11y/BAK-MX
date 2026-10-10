@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2025-yz450f-fork-baseline-v1",
+  "title": "Restore the stock fork damping baseline",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2025,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "publication_status": "APPROVED",
+  "component": "fork",
+  "affected_components": [
+    "fork",
+    "suspension"
+  ],
+  "applicability": {
+    "included": "Exact standard US2025 YZ450F original stock suspension.",
+    "excluded": [
+      "Other years, replacement springs/components or aftermarket damping conversions",
+      "Internal fork/shock overhaul"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "entry_state": [
+    "Assembled bike, serviceable stock suspension, exact original adjusters identified."
+  ],
+  "exit_state": [
+    "Recorded adjustment and functional checks complete; no internal service performed."
+  ],
+  "preflight": [
+    "Record actual starting settings.",
+    "Stop for leaks, damage, binding or an unidentified adjuster.",
+    "Keep the linked diagrams visible to identify distinct controls."
+  ],
+  "critical_stop_conditions": [
+    "Damaged or binding suspension",
+    "Adjuster at stop before target, inability to identify stock control, or unresolved setup measurement"
+  ],
+  "required_tools": [
+    {
+      "name": "Secure front-wheel maintenance stand"
+    },
+    {
+      "name": "Appropriate damping driver and precision torque tool for1.3Nm"
+    }
+  ],
+  "required_parts": [],
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf",
+    "document_sha256": "5005e7d8492c9482dfe44c6d752609a9a70a836f5b1dc94be3149d5d493de8ac",
+    "document_revision": "D02-2819U-10 / LIT-11626-38-16; March2024",
+    "pdf_pages": [
+      111,
+      112,
+      113
+    ],
+    "printed_pages": [
+      "3-29",
+      "3-30",
+      "3-31"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Root independently read allsteps and visually reviewed exact2025 PDF112–115/384–385; values andcontrolidentities confirmed. Sag forwardbranch preserves unchanged acceptedsetup; no physicalwork claimed."
+  },
+  "steps": [
+    {
+      "id": "inspect",
+      "title": "Inspect both legs",
+      "instruction": "Support the assembled bike upright. Inspect inner tubes for damage and fork joints for leaks. Apply front brake and compress the fork several times; it must rebound smoothly. Resolve damage/leaks/binding before adjusting.",
+      "depends_on": [],
+      "source_pdf_pages": [
+        111
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=111"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Confirm the described outcome; record actual settings/measurements where requested."
+      ],
+      "record_required": true,
+      "origin": "Original exact-source summary; recording/comparison are workflow adaptations."
+    },
+    {
+      "id": "record",
+      "title": "Record both sides",
+      "instruction": "Identify bottom rebound and top compression controls from PDF112. Gently turn each toward full hard, counting and saving the original clicks so they can be restored. Never force a stop. Actual total travel can vary from nominal; do not manufacture missing clicks.",
+      "depends_on": [
+        "inspect"
+      ],
+      "source_pdf_pages": [
+        112
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=112"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Confirm the described outcome; record actual settings/measurements where requested."
+      ],
+      "record_required": true,
+      "origin": "Original exact-source summary; recording/comparison are workflow adaptations."
+    },
+    {
+      "id": "bleed",
+      "title": "Release trapped air",
+      "instruction": "Raise front wheel securely. Remove each leg bleed screw shown PDF113 to release internal pressure, then refit each at1.3Nm. Keep dirt out and return both screws before setting damping.",
+      "depends_on": [
+        "record"
+      ],
+      "source_pdf_pages": [
+        112,
+        113
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=112",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=113"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Confirm the described outcome; record actual settings/measurements where requested."
+      ],
+      "record_required": false,
+      "origin": "Original exact-source summary; recording/comparison are workflow adaptations."
+    },
+    {
+      "id": "rebound",
+      "title": "Set rebound",
+      "instruction": "From gently seated full hard, turn each lower rebound adjuster10 clicks outward in diagram direction b. Both legs must match. Source nominal range is0–20 clicks; stop if actual mechanism cannot reach the standard without force.",
+      "depends_on": [
+        "bleed"
+      ],
+      "source_pdf_pages": [
+        112
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=112"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Confirm the described outcome; record actual settings/measurements where requested."
+      ],
+      "record_required": true,
+      "origin": "Original exact-source summary; recording/comparison are workflow adaptations."
+    },
+    {
+      "id": "compression",
+      "title": "Set compression",
+      "instruction": "From gently seated full hard, turn each top compression adjuster12 clicks outward in diagram direction b. Both legs must match. Source nominal range is0–20 clicks; never force beyond actual travel.",
+      "depends_on": [
+        "rebound"
+      ],
+      "source_pdf_pages": [
+        112
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=112"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Confirm the described outcome; record actual settings/measurements where requested."
+      ],
+      "record_required": true,
+      "origin": "Original exact-source summary; recording/comparison are workflow adaptations."
+    },
+    {
+      "id": "verify",
+      "title": "Verify the baseline",
+      "instruction": "Lower the bike from its stand. Recheck smooth fork action, both secured bleed screws and matched settings. Record rebound10/compression12 clicks out per leg and any unresolved symptoms. This restores damping only; fork height, oil and springs were not changed.",
+      "depends_on": [
+        "compression"
+      ],
+      "source_pdf_pages": [
+        111,
+        112,
+        113
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=111",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=112",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=113"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Confirm the described outcome; record actual settings/measurements where requested."
+      ],
+      "record_required": true,
+      "origin": "Original exact-source summary; recording/comparison are workflow adaptations."
+    }
+  ],
+  "completeness": "Restore both original fork damping settings, release trapped air and record functional checks. Oil, springs and fork height remain unchanged."
+}

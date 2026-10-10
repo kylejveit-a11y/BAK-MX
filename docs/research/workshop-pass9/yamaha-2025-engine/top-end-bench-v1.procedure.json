@@ -1,0 +1,1670 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2025-yz450f-top-end-bench-v1",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2025,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Rebuild the stock top end on the bench",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "publication_status": "APPROVED",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf",
+    "document_sha256": "5005e7d8492c9482dfe44c6d752609a9a70a836f5b1dc94be3149d5d493de8ac",
+    "document_revision": "D02-2819U-10 / LIT-11626-38-16; First edition March 2024",
+    "pdf_pages": [
+      7,
+      50,
+      89,
+      90,
+      91,
+      92,
+      93,
+      95,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234
+    ],
+    "printed_pages": [
+      "Symbols (unnumbered)",
+      "2-3",
+      "3-7",
+      "3-8",
+      "3-9",
+      "3-10",
+      "3-11",
+      "3-13",
+      "5-11",
+      "5-12",
+      "5-13",
+      "5-14",
+      "5-15",
+      "5-16",
+      "5-17",
+      "5-18",
+      "5-19",
+      "5-20",
+      "5-21",
+      "5-22",
+      "5-25",
+      "5-26",
+      "5-27",
+      "5-28",
+      "5-29",
+      "5-30",
+      "5-31",
+      "5-32",
+      "5-33",
+      "5-34",
+      "5-35"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Exact 2025 text and rendered mechanical diagrams checked. Structural concepts from 2026 work only; no inherited numerical values or page offset conversion."
+  },
+  "completeness": "Continuous bounded bench route including piston/cylinder/rings, retained-head valve inspection and optional guide/new-valve renewal, cam inspection, reassembly, timing and pad adjustment. Separate engine access/refit and commissioning are required.",
+  "applicability": {
+    "included": "Exact standard US 2025 YZ450F stock top-end parts; retained sound head/caps/lifters and sound lower engine.",
+    "excluded": [
+      "Damaged head/cap/lifter-set replacement",
+      "Head resurfacing, cylinder rebore/replate, aftermarket parts or ring filing",
+      "Lower timing-chain drive replacement, bottom-end overhaul or lubrication-fault diagnosis",
+      "Engine removal/refitting, running, break-in and post-maintenance checks"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "affected_components": [
+    "engine",
+    "cylinder_head",
+    "cams",
+    "piston",
+    "valves"
+  ],
+  "entry_state": [
+    "Exact 2025 engine removed, drained, cold at room temperature and securely supported.",
+    "Head external interfaces clear; stock lower engine and timing drive intact."
+  ],
+  "exit_state": [
+    "Top end mechanically closed and timing/final cold clearances accepted.",
+    "Crankcases, clutch and gearbox remained assembled.",
+    "Engine refitting, fluid restoration, startup and commissioning still required."
+  ],
+  "preflight": [
+    "Read the scope and arrange refit/commissioning before teardown.",
+    "Have exact diagrams available for head/cam order, timing, guide height and ring-gap orientation.",
+    "For guide renewal, arrange actual specialist seat refacing and separate new lapping/running valves.",
+    "Confirm measuring tools, new seals/gaskets and specified lubricants are available."
+  ],
+  "required_tools": [
+    {
+      "name": "Secure engine fixture; organized parts trays and clean chain-retaining wire"
+    },
+    {
+      "name": "Calibrated torque wrenches, angle measurement tool and marking pen"
+    },
+    {
+      "name": "Feeler gauges 90890-03268 / YU-26900-9; straightedge"
+    },
+    {
+      "name": "Cylinder bore gauge, micrometers, small-bore gauge, dial indicator with valve supports, depth gauge and caliper"
+    },
+    {
+      "name": "Plastigauge; thin screwdriver; rounded carbon scraper"
+    },
+    {
+      "name": "Valve lapper 90890-04101 / YM-A8998"
+    },
+    {
+      "name": "Valve spring compressor 90890-04200 / YM-04019 and 22 mm attachment 90890-04108 / YM-04108"
+    },
+    {
+      "name": "Piston-pin puller 90890-01304 / YU-01304 if pin binds after deburring"
+    },
+    {
+      "name": "For guide renewal: oven/temperature measurement, 5.5 mm remover/installer set 90890-04016 (YM-01122 is the remover only; an appropriate installer is also required), reamer 90890-01196 / YM-01196 and arranged professional seat refacing"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "Correct stock piston/cylinder/rings/pin or accepted retained parts as measured"
+    },
+    {
+      "name": "New piston-pin clips, base gasket, head gasket and four valve stem seals"
+    },
+    {
+      "name": "New cover gasket, plug-hole gasket, tensioner gaskets and two timing-access O-rings"
+    },
+    {
+      "name": "Correct replacement springs/tensioner/intake chain guide if required by inspection"
+    },
+    {
+      "name": "Selected exact stock valve pads as required"
+    },
+    {
+      "name": "For each renewed guide: new guide, new sacrificial lapping valve and distinct new running valve"
+    },
+    {
+      "name": "Engine oil; molybdenum disulfide oil; molybdenum disulfide grease; lithium-soap-based grease"
+    },
+    {
+      "name": "ThreeBond 1541C and LOCTITE locking agent (OEM gives no grade for the small head bolts)"
+    },
+    {
+      "name": "Clean seat-check solvent/kerosene, blue layout fluid; coarse and fine lapping compound for renewal"
+    }
+  ],
+  "critical_stop_conditions": [
+    "Failed head/cap/lifter or lower timing-drive condition outside this repair scope.",
+    "Unresolved actual piston/pin/ring fit or oil-rail assessment.",
+    "Guide renewal without completed seat refacing or distinct new running valves.",
+    "Unsupported pad chart selection or failed final cold clearance/timing.",
+    "Foreign material, missing parts or abnormal resistance."
+  ],
+  "operation_dependencies": [],
+  "branch_completion_policy": "Forward branch bypasses are recorded as NOT_PERFORMED; no skipped work is represented as completed. Adjustment-repeat work requires new actual measurements before its acceptance step.",
+  "steps": [
+    {
+      "id": "entry",
+      "title": "Confirm the engine is ready for bench work",
+      "instruction": "Confirm exact standard US 2025 YZ450F stock engine, cold at room temperature, drained and securely supported after the separate engine-removal operation. Intake, exhaust, coolant and electrical interfaces must be clear. Retain assembled crankcases, clutch, gearbox, starter, generator and oil-pump systems. Plan the head repair and later installation/commissioning before opening the engine.",
+      "source_pdf_pages": [
+        89,
+        217
+      ],
+      "verification": [
+        "Engine identity, condition and access handoff recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=89",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=217"
+      ],
+      "depends_on": [],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "cover",
+      "title": "Expose the valve train",
+      "instruction": "Clean around the plug before removing it. Disconnect the head breather and remove plug, head-cover bolts, cover, top chain guide and old cover/plug-hole gaskets. Keep the breather plate and its mounts intact. Protect the open engine from dirt.",
+      "source_pdf_pages": [
+        95,
+        210
+      ],
+      "verification": [
+        "Cover hardware and top guide retained; sealing surfaces protected."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=95",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=210"
+      ],
+      "depends_on": [
+        "entry"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "timing-access",
+      "title": "Open the timing inspection ports",
+      "instruction": "Remove the timing-mark and crankshaft-end access screws and their O-rings. Keep their identities separate.",
+      "source_pdf_pages": [
+        89,
+        211
+      ],
+      "verification": [
+        "Both ports open; screws identified."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=89",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=211"
+      ],
+      "depends_on": [
+        "cover"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "tdc",
+      "title": "Set the cold measurement position",
+      "instruction": "Turn the crankshaft counterclockwise by hand. Align the rotor TDC mark with the cover mark and verify both cam-sprocket marks align with the cam-cap surface edges in the diagram. Do not force resistance or rely on the rotor mark alone.",
+      "source_pdf_pages": [
+        89,
+        212
+      ],
+      "verification": [
+        "Rotor and both cam marks recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=89",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=212"
+      ],
+      "depends_on": [
+        "timing-access"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "clearances-before",
+      "title": "Measure the four valve clearances",
+      "instruction": "Use a feeler gauge at each illustrated cam/lifter gap with the engine cold at room temperature and piston at the confirmed TDC position. Record intake left/right and exhaust left/right. Intake is 0.10–0.17 mm; exhaust 0.15–0.22 mm. These readings establish the pre-repair condition, not final acceptance.",
+      "source_pdf_pages": [
+        89
+      ],
+      "verification": [
+        "All four cold readings and positions saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=89"
+      ],
+      "depends_on": [
+        "tdc"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "tensioner-out",
+      "title": "Remove the chain tensioner",
+      "instruction": "Remove the tensioner cap bolt, tensioner mounting bolts, tensioner and gaskets. Retain the chain position; keep the crank at the established position.",
+      "source_pdf_pages": [
+        211,
+        212
+      ],
+      "verification": [
+        "Tensioner removed and sealing pieces identified."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=211",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=212"
+      ],
+      "depends_on": [
+        "clearances-before"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "cams-out",
+      "title": "Lift out the cams",
+      "instruction": "Loosen cap bolts evenly in a crisscross pattern from outside inward, then remove caps and cams. Label intake/exhaust, caps, dowels and hardware. Wire the chain securely so it cannot fall into the crankcase. Do not turn the crank with the cams being removed.",
+      "source_pdf_pages": [
+        212
+      ],
+      "verification": [
+        "Cams/caps kept in matched positions; chain supported."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=212"
+      ],
+      "depends_on": [
+        "tensioner-out"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "tensioner-check",
+      "title": "Inspect the tensioner",
+      "instruction": "Reject cracks or damage. With light finger pressure on the rod, use a thin screwdriver to wind it fully clockwise. Release the screwdriver while maintaining light pressure: the rod must extend smoothly. Replace the complete tensioner if it fails.",
+      "source_pdf_pages": [
+        214
+      ],
+      "verification": [
+        "Condition and smooth-extension result recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=214"
+      ],
+      "depends_on": [
+        "cams-out"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "head-out",
+      "title": "Release and lift the head",
+      "instruction": "Use the removal diagram on this page, which is different from the tightening numbering. Loosen each bolt half a turn per pass in illustrated order 1–6 until all are loose, then remove them. The two small bolts are M6×45 mm and four main bolts M10×129 mm. Lift the head, retain dowels and intake-side chain guide, and remove the head gasket while keeping the chain supported. Leave head studs and oil-passage plugs installed.",
+      "source_pdf_pages": [
+        218,
+        219
+      ],
+      "verification": [
+        "Head removed; removal order followed and chain retained."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=218",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=219"
+      ],
+      "depends_on": [
+        "tensioner-check"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "head-condition",
+      "title": "Inspect the head and intake chain guide",
+      "instruction": "Remove carbon with a rounded scraper, avoiding plug threads and sealing faces; remove deposits/rust from coolant passages. Inspect head damage/scratches and guide wear/damage; replace a damaged guide. Measure head warpage with straightedge and feeler gauge across the illustrated directions: limit 0.05 mm. This route retains a sound original head and excludes resurfacing or replacement of a damaged head.",
+      "source_pdf_pages": [
+        219
+      ],
+      "verification": [
+        "Warpage readings, head condition and chain-guide disposition saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=219"
+      ],
+      "depends_on": [
+        "head-out"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "cylinder-out",
+      "title": "Lift off the cylinder",
+      "instruction": "Remove the cylinder bolt, lift the cylinder while retaining chain/guide through its cavity, and collect the base gasket and two dowels. Support the exposed piston and cover the crankcase opening.",
+      "source_pdf_pages": [
+        230,
+        234
+      ],
+      "verification": [
+        "Cylinder removed and crankcase opening protected."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=230",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=234"
+      ],
+      "depends_on": [
+        "head-condition"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "piston-out",
+      "title": "Remove piston and rings",
+      "instruction": "Cover the case opening before removing pin clips. Deburr the clip groove and pin bore area if needed; never hammer the pin. If it remains tight use the specified piston-pin puller. Remove pin and piston. Spread each ring only enough by hand to lift its opposite side over the crown, keeping top, second and oil rings identified.",
+      "source_pdf_pages": [
+        231
+      ],
+      "verification": [
+        "Piston/rings identified; no clip or debris lost."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=231"
+      ],
+      "depends_on": [
+        "cylinder-out"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "bore",
+      "title": "Measure the cylinder",
+      "instruction": "Inspect cylinder and piston walls for vertical scratches. Measure side-to-side and front-to-back at the three illustrated heights, recording D1–D6; C is their maximum. Standard bore 97.000–97.010 mm, wear limit 97.060 mm. Scratched walls require cylinder replacement and piston/rings as a set. This route supports exact stock replacement, not rebore or replating.",
+      "source_pdf_pages": [
+        231
+      ],
+      "verification": [
+        "Six bore readings and wall condition recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=231"
+      ],
+      "depends_on": [
+        "piston-out"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "piston-fit",
+      "title": "Measure piston diameter and actual clearance",
+      "instruction": "Measure piston diameter on the illustrated axis 9.0 mm above the skirt bottom: standard 96.955–96.970 mm. Calculate actual C minus piston diameter. The manual separately specifies 0.010–0.045 mm clearance and 0.15 mm limit. Preserve both stated ranges: individually acceptable diameters do not automatically establish an acceptable pair. Resolve a failing actual fit with the prescribed cylinder/piston/ring set replacement and remeasurement.",
+      "source_pdf_pages": [
+        232
+      ],
+      "verification": [
+        "Piston diameter, datum, actual subtraction and fit disposition saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=232"
+      ],
+      "depends_on": [
+        "bore"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "ring-side",
+      "title": "Measure ring side clearances",
+      "instruction": "Clean carbon from grooves and rings before measuring. Top standard side clearance is 0.015–0.065 mm, limit 0.120 mm; second standard is 0.020–0.060 mm, limit 0.100 mm. An out-of-specification result requires piston and rings as a set.",
+      "source_pdf_pages": [
+        232
+      ],
+      "verification": [
+        "Top and second side-clearance readings and parts decisions saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=232"
+      ],
+      "depends_on": [
+        "piston-fit"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "ring-end",
+      "title": "Measure ring end gaps",
+      "instruction": "Square each ring near the cylinder bottom using the piston crown as illustrated. Record top and second end gaps: limits 0.55 mm and 0.85 mm respectively. Replace an out-of-specification ring. The oil expander gap is not measurable; if oil-rail gap is excessive replace the oil-ring set. No numerical oil-rail acceptance or ring filing amount is supplied here.",
+      "source_pdf_pages": [
+        232,
+        233
+      ],
+      "verification": [
+        "Measured gaps and ring disposition saved; unresolved oil-rail condition not accepted by an invented limit."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=232",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=233"
+      ],
+      "depends_on": [
+        "ring-side"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "pin-fit",
+      "title": "Inspect piston pin and bore",
+      "instruction": "A blue or grooved pin requires replacement and investigation of the lubrication system before this route can continue. Measure pin outside diameter (minimum 17.981 mm) and piston pin bore (maximum 18.045 mm). Replace pin or piston for the corresponding failed measurement. Also record the actual pin-to-bore clearance against the listed 0.004–0.024 mm range.",
+      "source_pdf_pages": [
+        50,
+        233
+      ],
+      "verification": [
+        "Pin/bore measurements, actual clearance and surface condition saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=50",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=233"
+      ],
+      "depends_on": [
+        "ring-end"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "parts-accepted",
+      "title": "Accept the actual piston assembly",
+      "instruction": "Record the exact stock parts retained or renewed. All required cylinder, piston, ring and pin checks must pass on the final chosen parts before assembly. Do not treat wear limits as an invented new-part target or infer correct fit from catalog sizes. Lubrication faults, unidentified parts and unresolved measured fit stop this route.",
+      "source_pdf_pages": [
+        50,
+        231,
+        232,
+        233
+      ],
+      "verification": [
+        "Final measured assembly and replacement decisions accepted."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=50",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=231",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=232",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=233"
+      ],
+      "depends_on": [
+        "pin-fit"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "lifters-out",
+      "title": "Identify each lifter and pad",
+      "instruction": "On the removed head, protect the chain opening with a cloth and use the valve lapper to lift each lifter and pad. Store and label all four pairs by original position. Keep the original cams and caps matched to this head.",
+      "source_pdf_pages": [
+        224
+      ],
+      "verification": [
+        "Four lifter/pad positions recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=224"
+      ],
+      "depends_on": [
+        "parts-accepted"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "sealing-before",
+      "title": "Check valve sealing before stripping",
+      "instruction": "Pour clean solvent into intake and exhaust ports as illustrated and check for leakage through each seat. The source identifies kerosene in its leakage check. Record leakage and inspect the associated face, seat and contact width; dispose of the solvent before further work.",
+      "source_pdf_pages": [
+        224
+      ],
+      "verification": [
+        "Four seat-sealing observations saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=224"
+      ],
+      "depends_on": [
+        "lifters-out"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "valves-out",
+      "title": "Remove the valve assemblies",
+      "instruction": "Use the valve spring compressor and 22 mm attachment to compress each spring and remove its cotters. Release the compressor, then remove retainer, spring, valve, old stem seal and spring seat. Keep every part identified by valve position.",
+      "source_pdf_pages": [
+        224,
+        225
+      ],
+      "verification": [
+        "All parts indexed and removed seals set aside for replacement."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=224",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=225"
+      ],
+      "depends_on": [
+        "sealing-before"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "valve-guide-fit",
+      "title": "Inspect and measure valves and guides",
+      "instruction": "Measure each guide ID and stem OD and subtract to obtain actual clearance. Guide ID is 5.500–5.512 mm; minimum stem OD intake 5.445 mm/exhaust 5.435 mm. Clearance limits intake 0.080 mm/exhaust 0.100 mm. Inspect faces and stem ends; reject mushroomed ends. Measure stem runout on supports with a dial gauge: maximum 0.020 mm. Do not accept an undersize stem merely because clearance passes.",
+      "source_pdf_pages": [
+        50,
+        225,
+        226
+      ],
+      "verification": [
+        "Four ID/OD/clearance/runout results and condition decisions saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=50",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=225",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=226"
+      ],
+      "depends_on": [
+        "valves-out"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "seats",
+      "title": "Measure seat contact",
+      "instruction": "Remove carbon and inspect seats. Apply blue layout fluid to each valve face, press the valve through its guide against the seat, remove it and measure the contact band where blueing was displaced. Contact width limit is 1.5 mm for both intake and exhaust. Pitting/wear or failed original seat width requires head replacement under the inspection instructions and is outside this retained-head route.",
+      "source_pdf_pages": [
+        226
+      ],
+      "verification": [
+        "Four contact widths and seat condition saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=226"
+      ],
+      "depends_on": [
+        "valve-guide-fit"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "springs-lifters",
+      "title": "Inspect springs and lifters",
+      "instruction": "Measure spring free lengths: intake minimum 36.65 mm, exhaust minimum 37.34 mm. Replace failed springs with correct stock parts. Damaged or scratched lifters require lifters and cylinder head together; do not fit a fresh lifter into a failed head in this route.",
+      "source_pdf_pages": [
+        227,
+        228
+      ],
+      "verification": [
+        "Spring measurements, lifter condition and decisions saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=227",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=228"
+      ],
+      "depends_on": [
+        "seats"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "head-path",
+      "title": "Choose retained valves or guide renewal",
+      "instruction": "Continue into guide renewal only with a sound retained head, acceptable seats and lifters, appropriate replacement parts and arranged specialist seat refacing. A new running valve always requires a new guide; new valves used for lapping must be replaced by distinct new running valves. If all original valves/guides/seats passed and no lapping or machining is needed, choose the retained-valve branch instead.",
+      "source_pdf_pages": [
+        225,
+        226,
+        227,
+        228
+      ],
+      "verification": [
+        "Repair path and component decisions recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=225",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=226",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=227",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=228"
+      ],
+      "depends_on": [
+        "springs-lifters"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow.",
+      "branches": [
+        {
+          "id": "retain-original",
+          "label": "Retain all four accepted original valves and guides",
+          "next_step": "valves-in",
+          "condition": "All original valve, guide, seat, sealing and lifter checks pass; no lapping or machining is required."
+        }
+      ]
+    },
+    {
+      "id": "guides-prepare",
+      "title": "Prepare the guide-renewal parts",
+      "instruction": "For every guide/valve position being renewed, identify the correct new guide, a new valve used only for lapping and a distinct new valve for running. Keep the running valves away from lapping compound. Preserve unaffected original parts only if their recorded checks passed. Arrange professional seat refacing; this guide does not specify cutter angles or a machining allowance.",
+      "source_pdf_pages": [
+        225,
+        226,
+        227
+      ],
+      "verification": [
+        "Renewal positions, separate lapping/running valves and refacing service recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=225",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=226",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=227"
+      ],
+      "depends_on": [
+        "head-path"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "guides-out",
+      "title": "Heat the head and remove the guides",
+      "instruction": "Heat the stripped head to 100 °C in an oven to preserve the guide fit. Support it securely and use the 5.5 mm guide remover in the illustrated direction to remove each selected guide. Handle the heated head with suitable protection.",
+      "source_pdf_pages": [
+        225,
+        226
+      ],
+      "verification": [
+        "Head temperature and guides removed recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=225",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=226"
+      ],
+      "depends_on": [
+        "guides-prepare"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "guides-in",
+      "title": "Install the new guides",
+      "instruction": "Use the illustrated guide installer and remover to drive each new guide to its measured installation height from the shown head datum. Intake height 13.5–13.9 mm; exhaust 12.2–12.6 mm. Keep intake/exhaust locations distinct.",
+      "source_pdf_pages": [
+        225,
+        226
+      ],
+      "verification": [
+        "Each guide height measured and recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=225",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=226"
+      ],
+      "depends_on": [
+        "guides-out"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "guides-ream",
+      "title": "Ream and measure the new guides",
+      "instruction": "Use the specified 5.5 mm reamer after installation. Measure actual guide ID, new running-valve stem OD and clearance for every renewed position. Apply the same 5.500–5.512 mm ID, intake/exhaust minimum stem diameters 5.445/5.435 mm and clearance limits 0.080/0.100 mm. Confirm the running valves also pass the 0.020 mm runout check; remove all machining debris.",
+      "source_pdf_pages": [
+        50,
+        225,
+        226
+      ],
+      "verification": [
+        "New guide/running-valve measurements and cleanliness accepted."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=50",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=225",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=226"
+      ],
+      "depends_on": [
+        "guides-in"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "seats-reface",
+      "title": "Have the seats refaced for the new guides",
+      "instruction": "Have a qualified cylinder-head specialist reface every seat associated with a renewed guide before lapping. Record the actual completed service and resulting seat condition. Cutter selection, angles and material removal are not prescribed here; do not mark an arranged appointment as completed work.",
+      "source_pdf_pages": [
+        225,
+        227
+      ],
+      "verification": [
+        "Actual specialist refacing record and accepted seat condition attached."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=225",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=227"
+      ],
+      "depends_on": [
+        "guides-ream"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "lap-coarse",
+      "title": "Lap with the sacrificial new valves",
+      "instruction": "Use only the new lapping valves assigned to the renewed positions. Apply coarse compound to the face and molybdenum disulfide oil to the stem; keep compound out of the stem-to-guide gap. Insert the valve and turn it with the lapper, using the illustrated tap-and-lap action until contact is evenly polished. Remove all compound from face and seat.",
+      "source_pdf_pages": [
+        227
+      ],
+      "verification": [
+        "Coarse lapping completed without contaminating guides."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=227"
+      ],
+      "depends_on": [
+        "seats-reface"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "lap-fine",
+      "title": "Finish lapping and recheck contact",
+      "instruction": "Repeat with fine compound and clean all compound away after every lapping stage. Apply blue layout fluid, press the valve into its seat, remove and measure the contact band again. Maximum contact width is 1.5 mm. If contact remains out of specification, return for refacing and repeat the lapping/measurement sequence before proceeding.",
+      "source_pdf_pages": [
+        226,
+        227
+      ],
+      "verification": [
+        "Final renewed-seat widths and contact accepted."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=226",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=227"
+      ],
+      "depends_on": [
+        "lap-coarse"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "running-valves",
+      "title": "Separate lapping valves from running parts",
+      "instruction": "Remove all sacrificial lapping valves from the running-parts tray. Use the distinct new running valves for renewed positions; do not install a valve used for lapping into the running engine. Clean the head and confirm the final running-valve/guide measurements remain accepted.",
+      "source_pdf_pages": [
+        226,
+        227
+      ],
+      "verification": [
+        "Running-valve identities and discarded lapping valves recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=226",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=227"
+      ],
+      "depends_on": [
+        "lap-fine"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "valves-in",
+      "title": "Install valves and new stem seals",
+      "instruction": "Clean stem ends; lubricate stems and all new stem seals with molybdenum disulfide oil. Fit each spring seat, new stem seal, accepted valve, spring and retainer. Original retained parts return to their original positions; renewed parts go to their recorded positions. Install springs with the larger pitch upward.",
+      "source_pdf_pages": [
+        228
+      ],
+      "verification": [
+        "Four valve assemblies seated with new seals and correct spring orientation."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=228"
+      ],
+      "depends_on": [
+        "running-valves"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "cotters",
+      "title": "Secure the cotters",
+      "instruction": "Compress each spring with the specified tool and 22 mm attachment and install its cotters. Release the tool, then lightly tap each valve tip with a soft-face hammer to seat the cotters. Excessive impact can damage the valve.",
+      "source_pdf_pages": [
+        228,
+        229
+      ],
+      "verification": [
+        "Cotters seated in all four assemblies."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=228",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=229"
+      ],
+      "depends_on": [
+        "valves-in"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "sealing-final",
+      "title": "Confirm final valve sealing",
+      "instruction": "Repeat the illustrated clean-solvent port check on the assembled head, including the actual new running valves where fitted. A leaking seat cannot proceed to engine assembly; resolve the seat/valve condition and repeat acceptance. After acceptance, drain the test solvent and dry the ports before engine assembly.",
+      "source_pdf_pages": [
+        224,
+        226,
+        227
+      ],
+      "verification": [
+        "Four final running-valve sealing results accepted."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=224",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=226",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=227"
+      ],
+      "depends_on": [
+        "cotters"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "pads-return",
+      "title": "Return the pads and lifters",
+      "instruction": "Apply engine oil to pads and lifters, return each to its identified location and verify every lifter rotates smoothly with a finger. Preserve the pad numbers and original positions for final clearance adjustment.",
+      "source_pdf_pages": [
+        229
+      ],
+      "verification": [
+        "Four pads/lifters installed in their identified positions."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=229"
+      ],
+      "depends_on": [
+        "sealing-final"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "cam-lobes",
+      "title": "Measure cam lobes",
+      "instruction": "Inspect for blue discoloration, pitting and scratches. Measure each lobe height on the illustrated axis: intake minimum 38.030 mm and exhaust minimum 34.170 mm. A failed cam needs replacement; this route continues only with accepted exact stock cams and a serviceable matching head/caps.",
+      "source_pdf_pages": [
+        213
+      ],
+      "verification": [
+        "Lobe readings and cam surface decisions saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=213"
+      ],
+      "depends_on": [
+        "pads-return"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "cam-clearance",
+      "title": "Measure the cam journals in the head",
+      "instruction": "Place cams in the head, position Plastigauge on the illustrated journals, install dowels and matching caps, and tighten caps crisscross from inner to outer at 10 N·m. Do not turn the cams during measurement. Remove caps evenly and read the flattened strips. Required clearance is 0.028–0.062 mm. Clean off the Plastigauge before final assembly.",
+      "source_pdf_pages": [
+        213
+      ],
+      "verification": [
+        "Journal-clearance readings recorded and measuring material removed."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=213"
+      ],
+      "depends_on": [
+        "cam-lobes"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "cam-disposition",
+      "title": "Resolve cam and chain defects",
+      "instruction": "If journal clearance failed, measure journal OD against 22.002–22.015 mm: a failed journal requires a cam, while an in-range journal with failed clearance requires head and caps together. Inspect chain for stiffness/damage and sprockets for more than one-quarter tooth wear; either condition requires chain and cam replacement as a set. Check smooth decompressor movement and projecting lever pin. This route does not remove the lower chain drive or replace the head/cap set; such failures require that repair before continuing.",
+      "source_pdf_pages": [
+        213,
+        214
+      ],
+      "verification": [
+        "Cam, chain, sprocket and decompressor disposition accepted."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=213",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=214"
+      ],
+      "depends_on": [
+        "cam-clearance"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "rings-in",
+      "title": "Install the rings",
+      "instruction": "Install the oil expander, lower rail, upper rail, second ring and top ring in that order. Manufacturer marks or numbers face upward. Use the accepted matched parts from the measurement records.",
+      "source_pdf_pages": [
+        233
+      ],
+      "verification": [
+        "Ring order and markings confirmed."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=233"
+      ],
+      "depends_on": [
+        "cam-disposition"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "piston-in",
+      "title": "Fit piston, pin and new clips",
+      "instruction": "Oil the piston and pin with engine oil. Orient the piston mark toward the exhaust/rear of the engine. Protect the case opening while inserting pin and new clips. Fully seat the clips, keeping each clip end away from the piston cutout.",
+      "source_pdf_pages": [
+        233,
+        234
+      ],
+      "verification": [
+        "Orientation and new clip seating confirmed."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=233",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=234"
+      ],
+      "depends_on": [
+        "rings-in"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "ring-clock",
+      "title": "Set the ring-gap positions",
+      "instruction": "Oil piston, rings and cylinder. Match the five end-gap positions exactly to this diagram, including its 15° offsets: a top ring, b second ring, c upper oil rail, d expander, e lower oil rail. Use the piston drawing as the orientation reference rather than guessing clock positions.",
+      "source_pdf_pages": [
+        234
+      ],
+      "verification": [
+        "Five ring-gap positions checked against the diagram."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=234"
+      ],
+      "depends_on": [
+        "piston-in"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "cylinder-in",
+      "title": "Install the cylinder",
+      "instruction": "Account for and remove the crankcase protective cloth before lowering the cylinder, keeping the timing chain supported. Install new base gasket and dowels. Compress the rings by hand as the cylinder is lowered, passing the timing chain and exhaust-side guide through their cavity. Do not force a snagged ring. Tighten the cylinder bolt to 10 N·m.",
+      "source_pdf_pages": [
+        230,
+        234
+      ],
+      "verification": [
+        "Cylinder seated without ring damage; bolt tightened."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=230",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=234"
+      ],
+      "depends_on": [
+        "ring-clock"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "head-in",
+      "title": "Seat the accepted head",
+      "instruction": "Confirm final piston fit, valve/head checks and selected repair are accepted. Install intake-side guide, dowels, new head gasket and head while drawing the chain upward. Match the gasket orientation to the illustration and keep passages clear.",
+      "source_pdf_pages": [
+        219,
+        220
+      ],
+      "verification": [
+        "Head and new gasket correctly seated; chain retained."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=219",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=220"
+      ],
+      "depends_on": [
+        "cylinder-in"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "head-bolt-prep",
+      "title": "Prepare the main head bolts",
+      "instruction": "Wash bolt threads/contact surfaces, both washer contact faces, head contact faces and crankcase threads. Apply molybdenum disulfide grease to the four main-bolt threads/contact faces and both washer faces. Install washers and bolts, lightly seating them in the installation diagram order. Keep the small bolts distinct.",
+      "source_pdf_pages": [
+        220
+      ],
+      "verification": [
+        "Four main bolts and washers prepared as specified."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=220"
+      ],
+      "depends_on": [
+        "head-in"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "head-first",
+      "title": "Tighten the first stage",
+      "instruction": "Following installation diagram order 1–4, tighten the main bolts to 36 N·m in two or three stages. Do not use the removal-diagram numbering.",
+      "source_pdf_pages": [
+        220
+      ],
+      "verification": [
+        "First 36 N·m stage and order recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=220"
+      ],
+      "depends_on": [
+        "head-bolt-prep"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "head-second",
+      "title": "Retighten one main bolt at a time",
+      "instruction": "Remove only installation bolt 1, without loosening any other. Reapply molybdenum disulfide grease to threads/contact face and both washer faces. Refit at 18 N·m, make reference marks and turn an additional 90°. Complete the same entire operation on bolts 2, 3 and 4 individually in order; finish each before loosening the next.",
+      "source_pdf_pages": [
+        220,
+        221
+      ],
+      "verification": [
+        "Each individual 18 N·m plus 90° stage recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=220",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=221"
+      ],
+      "depends_on": [
+        "head-first"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "head-final",
+      "title": "Finish the head fastening",
+      "instruction": "In installation order 1–4 turn each main bolt a further 60°. Apply LOCTITE locking agent to the two small bolts and tighten installation positions 5 and 6 to 12 N·m. Keep molybdenum grease preparation and locking-agent preparation separate.",
+      "source_pdf_pages": [
+        7,
+        220,
+        221
+      ],
+      "verification": [
+        "Final 60° stages and small-bolt 12 N·m recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=7",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=220",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=221"
+      ],
+      "depends_on": [
+        "head-second"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "first-cams",
+      "title": "Set the cams at TDC",
+      "instruction": "Account for and remove all protective cloths from the head and timing-chain space before installing the cams. Turn the crank counterclockwise to align rotor TDC with the cover mark. Apply molybdenum disulfide oil to cams and engine oil to the decompressor. Fit chain onto both sprockets and set both cam marks at the cap-surface edges in the diagram. Do not rotate the crank while installing cams.",
+      "source_pdf_pages": [
+        214,
+        215
+      ],
+      "verification": [
+        "Rotor/cam alignment recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=214",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=215"
+      ],
+      "depends_on": [
+        "head-final"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "first-caps",
+      "title": "Secure the cam caps",
+      "instruction": "Install the matching caps and dowels. Oil cap-bolt threads and contact surfaces. Tighten evenly to 10 N·m in two or three stages following the exact eight-bolt sequence shown; no forced or uneven seating.",
+      "source_pdf_pages": [
+        211,
+        215
+      ],
+      "verification": [
+        "Caps seated and exact sequence/torque recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=211",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=215"
+      ],
+      "depends_on": [
+        "first-cams"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "first-tensioner",
+      "title": "Fit and release the tensioner",
+      "instruction": "Wind the rod fully clockwise with light finger pressure. Fit new illustrated body/sealing gaskets, tensioner UP mark upward, and mounting bolts at 10 N·m. Release the screwdriver and confirm smooth rod extension, then install the new cap gasket and cap bolt at 6 N·m.",
+      "source_pdf_pages": [
+        211,
+        215,
+        216
+      ],
+      "verification": [
+        "Tensioner extended smoothly; gaskets and 10/6 N·m settings confirmed."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=211",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=215",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=216"
+      ],
+      "depends_on": [
+        "first-caps"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "first-timing",
+      "title": "Check timing by hand",
+      "instruction": "Turn the crank counterclockwise several turns without forcing resistance. Return rotor TDC to the cover mark and verify both cam marks match the head/cap surfaces. Correct any mismatch before proceeding; never use the starter to test unresolved timing.",
+      "source_pdf_pages": [
+        216
+      ],
+      "verification": [
+        "Several-turn hand check and all timing marks accepted."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=216"
+      ],
+      "depends_on": [
+        "first-tensioner"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "first-measure",
+      "title": "Measure the final cold clearances",
+      "instruction": "At the confirmed TDC position and room temperature, record all four gaps using a feeler gauge. Intake 0.10–0.17 mm; exhaust 0.15–0.22 mm. Choose the next action from the actual readings; these results do not automatically approve closure.",
+      "source_pdf_pages": [
+        89,
+        91
+      ],
+      "verification": [
+        "Four readings and required next action recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=89",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=91"
+      ],
+      "depends_on": [
+        "first-timing"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "adjust-path",
+      "title": "Choose adjustment or closure",
+      "instruction": "If all four cold readings are within specification, choose the close-up branch. Otherwise continue with the pad adjustment below using the actual current installed pad and measured gap. Unsupported pad selection or a component fault cannot be bypassed by selecting close-up.",
+      "source_pdf_pages": [
+        89,
+        90,
+        91
+      ],
+      "verification": [
+        "Reading-based path recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=89",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=90",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=91"
+      ],
+      "depends_on": [
+        "first-measure"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow.",
+      "branches": [
+        {
+          "id": "in-range",
+          "label": "All four cold clearances pass — close the engine",
+          "next_step": "cover-in",
+          "condition": "All four latest cold readings are in range and all timing checks pass; no adjustment required."
+        }
+      ]
+    },
+    {
+      "id": "adjust-cams-out",
+      "title": "Reopen the cam and pad access",
+      "instruction": "At the confirmed TDC position remove tensioner cap, mounting bolts and tensioner. Loosen cap bolts evenly crisscross from outside inward, lift matching caps/cams and secure the chain. Lift each affected lifter/pad with the lapper, protecting the opening and preserving exact positions.",
+      "source_pdf_pages": [
+        90,
+        211,
+        212
+      ],
+      "verification": [
+        "Cams and affected pads removed without losing identity or chain position."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=90",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=211",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=212"
+      ],
+      "depends_on": [
+        "adjust-path"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "adjust-select",
+      "title": "Select each replacement pad from the correct chart",
+      "instruction": "Record the current installed pad number. Convert its last digit only as listed: 0/1/2 to 0; 4/5/6 to 5; 8/9 to the next ten (148 becomes 150). Digits 3 and 7 are unspecified. Use the intake chart or exhaust chart to intersect the measured cold-gap row with that pad column. Record the resulting pad number. Blank cells, unreadable numbers, unlisted digit conversions or readings between/outside chart rows require clarification, not extrapolation. Available stock pads are 1.20–2.40 mm in 0.05 mm increments.",
+      "source_pdf_pages": [
+        90,
+        92,
+        93
+      ],
+      "verification": [
+        "Each new pad traced to exact valve, current pad and chart cell."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=90",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=92",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=93"
+      ],
+      "depends_on": [
+        "adjust-cams-out"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "adjust-pads-in",
+      "title": "Install the selected pads",
+      "instruction": "Apply molybdenum disulfide oil to stem ends and engine oil to lifters. Fit correct selected pads with numbers up and original lifters in their original positions. Do not twist them forcibly; each lifter must rotate smoothly with a finger. After securing every pad and lifter, account for and remove the protective cloth from the timing-chain space before the next cam-installation step.",
+      "source_pdf_pages": [
+        90,
+        91
+      ],
+      "verification": [
+        "Selected pads installed in recorded positions."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=90",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=91"
+      ],
+      "depends_on": [
+        "adjust-select"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "adjust-cams",
+      "title": "Set the cams at TDC",
+      "instruction": "Turn the crank counterclockwise to align rotor TDC with the cover mark. Apply molybdenum disulfide oil to cams and engine oil to the decompressor. Fit chain onto both sprockets and set both cam marks at the cap-surface edges in the diagram. Do not rotate the crank while installing cams.",
+      "source_pdf_pages": [
+        214,
+        215
+      ],
+      "verification": [
+        "Rotor/cam alignment recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=214",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=215"
+      ],
+      "depends_on": [
+        "adjust-pads-in"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "adjust-caps",
+      "title": "Secure the cam caps",
+      "instruction": "Install the matching caps and dowels. Oil cap-bolt threads and contact surfaces. Tighten evenly to 10 N·m in two or three stages following the exact eight-bolt sequence shown; no forced or uneven seating.",
+      "source_pdf_pages": [
+        211,
+        215
+      ],
+      "verification": [
+        "Caps seated and exact sequence/torque recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=211",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=215"
+      ],
+      "depends_on": [
+        "adjust-cams"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "adjust-tensioner",
+      "title": "Fit and release the tensioner",
+      "instruction": "Wind the rod fully clockwise with light finger pressure. Fit new illustrated body/sealing gaskets, tensioner UP mark upward, and mounting bolts at 10 N·m. Release the screwdriver and confirm smooth rod extension, then install the new cap gasket and cap bolt at 6 N·m.",
+      "source_pdf_pages": [
+        211,
+        215,
+        216
+      ],
+      "verification": [
+        "Tensioner extended smoothly; gaskets and 10/6 N·m settings confirmed."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=211",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=215",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=216"
+      ],
+      "depends_on": [
+        "adjust-caps"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "adjust-timing",
+      "title": "Check timing by hand",
+      "instruction": "Turn the crank counterclockwise several turns without forcing resistance. Return rotor TDC to the cover mark and verify both cam marks match the head/cap surfaces. Correct any mismatch before proceeding; never use the starter to test unresolved timing.",
+      "source_pdf_pages": [
+        216
+      ],
+      "verification": [
+        "Several-turn hand check and all timing marks accepted."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=216"
+      ],
+      "depends_on": [
+        "adjust-tensioner"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "adjust-measure",
+      "title": "Measure the final cold clearances",
+      "instruction": "At the confirmed TDC position and room temperature, record all four gaps using a feeler gauge. Intake 0.10–0.17 mm; exhaust 0.15–0.22 mm. Choose the next action from the actual readings; these results do not automatically approve closure.",
+      "source_pdf_pages": [
+        89,
+        91
+      ],
+      "verification": [
+        "Four readings and required next action recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=89",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=91"
+      ],
+      "depends_on": [
+        "adjust-timing"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "adjust-accept",
+      "title": "Accept the adjusted clearances",
+      "instruction": "All four latest readings must now be within the cold specifications. If any fail, repeat the cam-removal, chart selection, installation, timing and measurement sequence before marking this step complete. Preserve every changed pad and final reading in the record; do not continue to the cover with failed clearance.",
+      "source_pdf_pages": [
+        91
+      ],
+      "verification": [
+        "All four final cold readings and timing accepted."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=91"
+      ],
+      "depends_on": [
+        "adjust-measure"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "cover-in",
+      "title": "Reseal the head cover",
+      "instruction": "Fit the top chain guide, new head-cover gasket and new plug-hole gasket. Apply ThreeBond 1541C to the cover gasket as illustrated, install the cover and tighten its bolts to 10 N·m. Keep the retained breather plate intact.",
+      "source_pdf_pages": [
+        210,
+        216
+      ],
+      "verification": [
+        "Guide and new gaskets seated; cover secured."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=210",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=216"
+      ],
+      "depends_on": [
+        "adjust-accept"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "ports-close",
+      "title": "Close plug and timing access",
+      "instruction": "Restore the head breather. Clean the spark plug and its gasket seat, install at 13 N·m and refit the cap when its engine interface is restored. Fit two new access-screw O-rings with lithium-soap-based grease, oil the screw threads, and tighten timing-mark screw to 6 N·m and crankshaft-end screw to 10 N·m.",
+      "source_pdf_pages": [
+        95,
+        211,
+        216
+      ],
+      "verification": [
+        "Plug, breather and both access ports closed with correct preparation."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=95",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=211",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=216"
+      ],
+      "depends_on": [
+        "cover-in"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    },
+    {
+      "id": "exit",
+      "title": "Record the bench handoff",
+      "instruction": "Record installed parts, measured fits, head-bolt stages, valve repair/refacing work if used, pad selections, four accepted final clearances and timing results. Keep the engine supported and interfaces protected. The next operation is exact 2025 engine refitting, fluid restoration and stationary checks, followed by required break-in and post-maintenance checks. Do not run this engine on the bench or call it ready to ride here.",
+      "source_pdf_pages": [
+        89,
+        91,
+        216,
+        221,
+        227,
+        234
+      ],
+      "verification": [
+        "Bench work accepted; refit and commissioning remain explicitly outstanding."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=89",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=91",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=216",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=221",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=227",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=234"
+      ],
+      "depends_on": [
+        "ports-close"
+      ],
+      "origin": "Original summary independently reviewed against exact 2025 OEM source; records and phase sequencing are application workflow."
+    }
+  ]
+}

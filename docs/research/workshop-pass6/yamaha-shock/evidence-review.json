@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "id": "us2026-yz450f-stock-internal-shock-pass6",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "decision": "INTERNAL_REBUILD_INCOMPLETE_NO_EXECUTABLE_PROCEDURE",
+  "year_inheritance": "NONE",
+  "database_writes": false,
+  "component_identity": {
+    "yamaha_model": "YZ450FTL/D031",
+    "assembly": "D03-22200-00-00",
+    "damper": "D03-22201-00-00",
+    "evidence": [
+      "yamaha-us-fiche",
+      "yamaha-dealer-fiche"
+    ],
+    "kyb_2026_design": [
+      "larger base valve",
+      "six-port piston",
+      "tool-free adjuster"
+    ],
+    "catalog_candidates": {
+      "compression_adjuster": "120060007601",
+      "piston": "120205000601"
+    },
+    "catalog_to_exact_us_stock_service_bridge": "UNCONFIRMED"
+  },
+  "sources": [
+    {
+      "id": "yamaha-us-fiche",
+      "url": "https://yamaha-motor.com/parts/diagram/14091824/322749042",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\yamaha-us-fiche.html",
+      "sha256": "815594b116697e28adbd3a32bbf53d7068364025fb54f2866b690d649e533903",
+      "bytes": 177528,
+      "capture_status": "HTML_APP_SHELL_NO_FICHE_RECORDS",
+      "admissible_capture": false
+    },
+    {
+      "id": "kyb-2026-release",
+      "url": "https://www.kyb.co.jp/media/news_20250910.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\kyb-2026-release.pdf",
+      "sha256": "e5ec248df2a41d38ed0d3a9174897469d561acf5a733eb787fc6918eb19667f1",
+      "bytes": 3078,
+      "capture_status": "INVALID_CONTENT_404_HTML_NOT_PDF",
+      "admissible_capture": false
+    },
+    {
+      "id": "tt-2026-adjuster",
+      "url": "https://technicaltouch-shop.com/compression-adjuster-rcu-yz450f-2026",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\tt-2026-adjuster.html",
+      "sha256": "52f12e6c0015fae92a8fc276165f8d9132fc4eb995397998d75eb28ba4a10831",
+      "bytes": 175771,
+      "admissible_capture": true
+    },
+    {
+      "id": "tt-2026-piston-list",
+      "url": "https://technicaltouch-shop.com/shop/kyb/genuine-parts?p=92",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\tt-2026-piston-list.html",
+      "sha256": "dda3768d546f027c4b84ef78e781859d22d524ae40f01b40b5525b4b48e9dd2d",
+      "bytes": 277429,
+      "admissible_capture": true
+    },
+    {
+      "id": "fc-service-fit",
+      "url": "https://www.factoryconnection.com/Products-applications-Rebuild-39",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\fc-service-fit.html",
+      "sha256": "83c77fdffecbaec239b8b20cd457815fa410d54c190c2756541136bd93086640",
+      "bytes": 289706,
+      "admissible_capture": true
+    },
+    {
+      "id": "yamaha-colombia-fiche",
+      "url": "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2026/01/YZ450F-D032_2026.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\yamaha-colombia-fiche.pdf",
+      "sha256": "b9416ba665f52e017ad327abeb7dad74d1a9fc89cf995e892266afa06b9afe46",
+      "bytes": 4985092
+    },
+    {
+      "id": "kyb-article",
+      "url": "https://www.kyb.co.jp/news/20250910212654.html",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\kyb-release-article.html",
+      "sha256": "ac3c98e330d52d9bc206542ca453c7b1bcc1b6af455beb2bae3585a7bfcf03e3",
+      "bytes": 6094,
+      "admissible_capture": true
+    },
+    {
+      "id": "yamaha-dealer-fiche",
+      "url": "https://www.experiencepowersports.com/Services/Parts-Finder/yamaha/motorcycles/2026/yz450f-yz450ftl/rear-suspension/78ff2a24-5799-44b2-a800-3cead580025e",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\yamaha-dealer-fiche.html",
+      "sha256": "6c6947616997166b7f6419bd1e879e16ca9b67e8e4510088b0b184f977382bd7",
+      "bytes": 205691,
+      "admissible_capture": true
+    }
+  ],
+  "remaining_gaps": [
+    "Exact gas-valve/opening/retainer method",
+    "Original shaft-end retention and piston/stack/rebound assembly order",
+    "Individual seals/bladder/piston-band renewal and inspection map",
+    "Internal fastener torques and specified preparation/retention",
+    "Exact oil and fill/bleed/closure acceptance method",
+    "Final nitrogen reference conditions and assembled bench tests"
+  ],
+  "preserved_prior_review": "docs/research/suspension-pass4/yamaha-internal-shock-review.json",
+  "new_exclusions": [
+    {
+      "url": "https://www.scribd.com/document/1030268574/ShockAbsorberAddendumKYB-20251112-1",
+      "reason": "CFMOTO models only; not this shock"
+    },
+    {
+      "url": "https://www.technicaltouchusa.com/pq422155-kyb-factory-kit-shock-yz450f-2023-2026-yz250f-2024-2026",
+      "reason": "Aftermarket factory-kit cross-year fit is not stock internal equivalence"
+    }
+  ],
+  "next_action": "Obtain exact D03-22201-00-00 service sheet or attributed specialist illustrated rebuild covering new piston and compression assembly; no message sent."
+}

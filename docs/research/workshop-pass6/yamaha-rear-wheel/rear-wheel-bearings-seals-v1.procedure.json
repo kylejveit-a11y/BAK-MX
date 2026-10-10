@@ -1,0 +1,540 @@
+{
+  "schema_version": 1,
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "publication_status": "LOCAL_REVIEWED_NOT_IMPORTED",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      7,
+      25,
+      90,
+      111,
+      112,
+      131,
+      134,
+      135,
+      136,
+      137,
+      138
+    ],
+    "printed_pages": [
+      "See exact PDF page links at each step"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Rear-specific PDF135/137 three-bearing stack, right-first retention and approximate1mm seal recess visually reviewed. PDF136 explicitly delegates extraction/checking method to front-wheel page131; only those shared methods used. Rear axle/chain closure retained from exact reviewed operation. Independent root review of all18 steps and PDF25,135–138,131–132 accepted after runout measurement moved to final axle-supported stage; no physical execution implied."
+  },
+  "id": "yamaha-2026-yz450f-rear-wheel-bearings-seals-v1",
+  "title": "Renew rear-wheel bearings and seals",
+  "completeness": "Assembled-bike rear-wheel removal, three hub bearings/two seals/new retaining circlip, original serviceable spacer, original disc/sprocket removal/refit, and final axle/chain/brake closure. Hub machining, wheel truing, tire work and hydraulic service are excluded.",
+  "applicability": {
+    "included": "Exact stock 2026 US standard YZ450F; original serviceable assemblies unless explicitly replaced below",
+    "excluded": [
+      "Other years/models and non-stock hubs/wheels",
+      "Hub/bearing-seat machining or wheel truing",
+      "Brake hydraulic service",
+      "Tire, chain or damaged sprocket/disc replacement"
+    ]
+  },
+  "prerequisites": [
+    "Match the exact bike and installed stock parts. Have the complete cited diagrams available.",
+    "Stable maintenance stand and support suitable for changing weight distribution; clean labeled parts storage."
+  ],
+  "required_tools": [
+    {
+      "name": "Maintenance stand",
+      "spec": null
+    },
+    {
+      "name": "Axle and adjuster tools; calibrated torque wrench covering21–135 N·m",
+      "spec": null
+    },
+    {
+      "name": "Ruler and means to apply approximately50 N for chain measurement",
+      "spec": null
+    },
+    {
+      "name": "Lithium-soap-based grease",
+      "spec": null
+    },
+    {
+      "name": "Bearing puller appropriate to hub/bearing access; wheel support"
+    },
+    {
+      "name": "Drivers/sockets matching bearing outer races and seal outside diameters"
+    },
+    {
+      "name": "Circlip pliers, flat-head screwdriver and protective cloth"
+    },
+    {
+      "name": "Dial gauge/wheel runout support and depth gauge"
+    },
+    {
+      "name": "Torque wrench also accurate at12 and42 N·m"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "Three exact matching new rear-wheel bearings",
+      "purpose": "One right and two left, PDF135/137; no catalog part numbers inferred."
+    },
+    {
+      "name": "Two exact matching new oil seals",
+      "purpose": "Approximate1mm recess; marks outward."
+    },
+    {
+      "name": "One new matching rear-wheel bearing circlip",
+      "purpose": "Right-side retention, PDF135/137."
+    },
+    {
+      "name": "Six matching new sprocket self-locking nuts",
+      "purpose": "Conservative renewal choice for this workflow; source specifies self-locking nuts and42Nm, not an inferred chemical grade."
+    },
+    {
+      "name": "Lithium-soap-based grease",
+      "purpose": "Seal lips and rear axle."
+    },
+    {
+      "name": "LOCTITE locking agent",
+      "purpose": "Disc bolt threads; actual product recorded, grade unspecified by source."
+    }
+  ],
+  "critical_stop_conditions": [
+    "Unstable support, bent/cracked parts, damaged fasteners or unknown assembly order.",
+    "Binding, leaks, missing hardware or abnormal brake/control function remains an unresolved fault."
+  ],
+  "steps": [
+    {
+      "id": "prepare",
+      "title": "Support the rear wheel",
+      "instruction": "Support the bike with its rear wheel off the ground. Select neutral. Protect the rear brake pedal against operation while the wheel is removed; keep the hydraulic line closed.",
+      "source_pdf_pages": [
+        134,
+        136,
+        111
+      ],
+      "verification": [
+        "Rear wheel clear, bike stable, brake pedal protected."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": []
+    },
+    {
+      "id": "remove",
+      "title": "Release the axle and chain",
+      "instruction": "Remove the axle nut. Loosen both adjuster locknuts and turn the adjusting bolts inward to let the wheel move forward. Support the wheel, withdraw the axle and retain both pullers and collars by side. Push the wheel forward, lift the chain from the sprocket and remove the wheel without disturbing the hydraulic line.",
+      "source_pdf_pages": [
+        134,
+        136
+      ],
+      "verification": [
+        "Wheel clear; left/right pullers and collars labeled."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=134",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=136"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "prepare"
+      ]
+    },
+    {
+      "id": "inspect",
+      "title": "Inspect wheel, axle and collars",
+      "instruction": "Check the axle for bending, the tire/wheel and collars for damage, and bearings for roughness or looseness. Inspect seals and sprocket teeth. Record defects; damaged components need the matching repair before refitting.",
+      "source_pdf_pages": [
+        131,
+        136
+      ],
+      "verification": [
+        "Serviceability recorded; no damaged parts silently reused."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "remove"
+      ]
+    },
+    {
+      "id": "disc-sprocket-off",
+      "title": "Expose both sides of the hub",
+      "instruction": "Record the installed disc and sprocket faces/orientations before removal. Support the wheel without loading the disc. Remove the six sprocket self-locking nuts and retain the bolt/washer arrangement by location; remove the sprocket. Remove the six brake-disc bolts and lift off the disc. Keep friction surfaces clear of grease and locking agent.",
+      "source_pdf_pages": [
+        135,
+        136,
+        137
+      ],
+      "verification": [
+        "Sprocket/disc orientation and hardware recorded; hub accessible; disc protected."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=135",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=136",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=137"
+      ],
+      "origin": "Original OEM-based summary; labeled storage, inspection records and conservative new sprocket nuts are explicit workflow adaptations.",
+      "depends_on": [
+        "inspect"
+      ]
+    },
+    {
+      "id": "seals-clip-out",
+      "title": "Remove seals and bearing retention",
+      "instruction": "Clean the hub exterior. Lever out both old oil seals with a flat-head screwdriver, using a cloth between tool and wheel to protect the hub. Remove the right-side bearing circlip with suitable circlip pliers before attempting to extract that bearing. Retain old seals and clip only for matching replacements.",
+      "source_pdf_pages": [
+        131,
+        135
+      ],
+      "verification": [
+        "Both seals and right-side circlip removed; bearing retention released."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=131",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=135"
+      ],
+      "origin": "Original OEM-based summary; labeled storage, inspection records and conservative new sprocket nuts are explicit workflow adaptations.",
+      "depends_on": [
+        "disc-sprocket-off"
+      ]
+    },
+    {
+      "id": "bearings-out",
+      "title": "Extract all three old bearings",
+      "instruction": "Use an appropriate bearing puller as Yamaha specifies. Remove the single right-side bearing and retain the internal spacer; extract both left-side bearings. Keep their side/order identified against PDF135/137. Support the hub for the puller reaction; do not force a bearing against retained hardware or damage its housing.",
+      "source_pdf_pages": [
+        131,
+        135,
+        137
+      ],
+      "verification": [
+        "Three old bearings removed: right one, left two; internal spacer retained."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=131",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=135",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=137"
+      ],
+      "origin": "Original OEM-based summary; labeled storage, inspection records and conservative new sprocket nuts are explicit workflow adaptations.",
+      "depends_on": [
+        "seals-clip-out"
+      ]
+    },
+    {
+      "id": "hub-inspection",
+      "title": "Inspect the hub and spacer",
+      "instruction": "Clean and inspect bearing seats, circlip groove, internal spacer and external collars for damage or wear. Record whether the original hub and spacer remain serviceable. Check axle bending on a flat surface; do not straighten it. Check tire/wheel condition now; measure runout after the wheel is refitted on its axle as instructed in the final check. A damaged seat, spacer, axle, disc or worn sprocket requires its own repair/replacement decision; this guide does not authorize machining or truing.",
+      "source_pdf_pages": [
+        131,
+        136
+      ],
+      "verification": [
+        "Hub/spacer/collars and axle condition recorded; no unresolved damage accepted; runout deferred until axle refit."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=131",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=136"
+      ],
+      "origin": "Original OEM-based summary; labeled storage, inspection records and conservative new sprocket nuts are explicit workflow adaptations.",
+      "depends_on": [
+        "bearings-out"
+      ]
+    },
+    {
+      "id": "right-bearing",
+      "title": "Fit the right bearing first",
+      "instruction": "Identify the brake-disc/right side and the single matching new bearing. Install it first into its original seat, pressing the outer race square and parallel with a correctly sized driver/socket. Follow the PDF137 arrangement and general marked-face-outward orientation. Do not drive through the inner race or use compressed air to spin the bearing.",
+      "source_pdf_pages": [
+        25,
+        135,
+        137
+      ],
+      "verification": [
+        "Right-side new bearing square in its original seat; correct side and marked-face orientation checked."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=25",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=135",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=137"
+      ],
+      "origin": "Original OEM-based summary; labeled storage, inspection records and conservative new sprocket nuts are explicit workflow adaptations.",
+      "depends_on": [
+        "hub-inspection"
+      ]
+    },
+    {
+      "id": "new-circlip",
+      "title": "Fit new right-side retention",
+      "instruction": "Install the matching new circlip into the right-side hub groove. Follow the general PDF25 edge/force orientation and exact PDF135/137 retaining position; do not overexpand it. Verify the full circumference is seated in the groove before covering it with the seal. If bearing position prevents seating, correct the assembly rather than forcing the clip.",
+      "source_pdf_pages": [
+        25,
+        135,
+        137
+      ],
+      "verification": [
+        "New circlip fully seated; bearing retained; edge orientation checked."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=25",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=135",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=137"
+      ],
+      "origin": "Original OEM-based summary; labeled storage, inspection records and conservative new sprocket nuts are explicit workflow adaptations.",
+      "depends_on": [
+        "right-bearing"
+      ]
+    },
+    {
+      "id": "spacer-left-bearings",
+      "title": "Restore the spacer and both left bearings",
+      "instruction": "Insert the original serviceable internal spacer in the PDF137 position between the right bearing and left bearing pair. Fit both matching new left-side bearings in the order/positions shown in PDF135/137. Press each outer race square and parallel with a matching driver. Keep the spacer correctly located; do not omit it or force a cocked bearing. Verify the stack and smooth bearing rotation before installing seals.",
+      "source_pdf_pages": [
+        25,
+        135,
+        137
+      ],
+      "verification": [
+        "Internal spacer present; two left bearings installed; all three bearings turn smoothly and stack matches drawing."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=25",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=135",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=137"
+      ],
+      "origin": "Original OEM-based summary; labeled storage, inspection records and conservative new sprocket nuts are explicit workflow adaptations.",
+      "depends_on": [
+        "new-circlip"
+      ]
+    },
+    {
+      "id": "new-seals",
+      "title": "Install both new wheel seals",
+      "instruction": "Apply lithium-soap-based grease to both new seal lips. Face their manufacturer marks/numbers outward and the main lips toward the hub interior. Drive each seal evenly using a socket/driver matching its outside diameter. Set both at the approximate1.0 mm recess shown by dimension a in the two PDF135 cross-sections; do not copy the front-wheel flush setting. Measure and record each recess against the illustrated hub-face reference.",
+      "source_pdf_pages": [
+        25,
+        135,
+        137
+      ],
+      "verification": [
+        "Both new seals oriented and undamaged; left/right approximate1.0 mm recess recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=25",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=135",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=137"
+      ],
+      "origin": "Original OEM-based summary; labeled storage, inspection records and conservative new sprocket nuts are explicit workflow adaptations.",
+      "depends_on": [
+        "spacer-left-bearings"
+      ]
+    },
+    {
+      "id": "sprocket-refit",
+      "title": "Refit the original serviceable sprocket",
+      "instruction": "Clean the hub/sprocket mating faces and restore the recorded original orientation and bolt/washer arrangement. This workflow uses matching new self-locking nuts. Tighten all six nuts progressively in a crisscross pattern to42 N·m. Inspect that the sprocket sits fully against the hub. Worn or bent teeth require matched drive/rear sprocket replacement outside this retained-sprocket operation.",
+      "source_pdf_pages": [
+        135,
+        136,
+        137
+      ],
+      "verification": [
+        "Six sprocket nuts42 N·m in staged crisscross pattern; mating faces seated."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=135",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=136",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=137"
+      ],
+      "origin": "Original OEM-based summary; labeled storage, inspection records and conservative new sprocket nuts are explicit workflow adaptations.",
+      "depends_on": [
+        "new-seals"
+      ]
+    },
+    {
+      "id": "disc-refit",
+      "title": "Refit the original serviceable disc",
+      "instruction": "Restore the recorded disc orientation against clean mating faces. Apply the specified LOCTITE locking agent at the disc-bolt threads and tighten all six bolts progressively in a crisscross pattern to12 N·m. The OEM source does not identify a grade or cure time here; record the actual product and follow its instructions. Keep grease/locking agent away from friction faces and inspect seating.",
+      "source_pdf_pages": [
+        135,
+        137
+      ],
+      "verification": [
+        "Six disc bolts12 N·m in stages/crisscross; actual locking agent recorded; disc seated and friction faces clean."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=135",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=137"
+      ],
+      "origin": "Original OEM-based summary; labeled storage, inspection records and conservative new sprocket nuts are explicit workflow adaptations.",
+      "depends_on": [
+        "sprocket-refit"
+      ]
+    },
+    {
+      "id": "refit",
+      "title": "Refit the wheel and chain",
+      "instruction": "Grease the oil-seal lips with lithium-soap-based grease and refit the collars. Place the disc between the brake pads and locate the caliper bracket correctly in its swingarm guide. Push the wheel forward and put the chain onto the sprocket. Fit the left puller and insert the greased axle from the left.",
+      "source_pdf_pages": [
+        134,
+        137,
+        138
+      ],
+      "verification": [
+        "Collars retained; bracket engaged; disc between pads; chain on sprocket; axle from left."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=134",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=137",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=138"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "disc-refit"
+      ]
+    },
+    {
+      "id": "hardware",
+      "title": "Fit the right puller and nut",
+      "instruction": "Fit the right chain puller, washer and axle nut. Leave the nut temporarily snug until chain adjustment is complete.",
+      "source_pdf_pages": [
+        138
+      ],
+      "verification": [
+        "Right puller and washer present; axle nut temporary only."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=138"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "refit"
+      ]
+    },
+    {
+      "id": "slack",
+      "title": "Measure and adjust chain slack",
+      "instruction": "With the rear wheel raised and gearbox in neutral, pull the chain upward above the chain-guide mounting bolt with about 50 N. Measure between the drive-chain guide and the bottom of the chain at the exact diagram location. Adjust both sides equally to 50–60 mm. Push the wheel forward so each puller/end plate is seated against the swingarm end.",
+      "source_pdf_pages": [
+        111,
+        138
+      ],
+      "verification": [
+        "Measured slack 50–60 mm using OEM50 N reference; pullers equally adjusted and seated."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=111",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=138"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "torque",
+      "title": "Secure the rear axle and adjusters",
+      "instruction": "Tighten the rear axle nut to 135 N·m and both chain-adjuster locknuts to 21 N·m. Recheck the chain slack after tightening.",
+      "source_pdf_pages": [
+        112,
+        138
+      ],
+      "verification": [
+        "Axle 135 N·m; locknuts 21 N·m; final slack recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "slack"
+      ]
+    },
+    {
+      "id": "close",
+      "title": "Check chain alignment and brake function",
+      "instruction": "Turn the wheel and check the chain follows the sprockets, the brake disc sits correctly and the rear brake has normal firm operation. Record wheel installation and any unresolved fault before use. With the wheel refitted on its axle and supported off the ground, secure a dial gauge and rotate the wheel to measure radial and lateral runout at the rim locations illustrated in PDF131. Record both readings; each rear-wheel limit is2.0 mm. Out-of-limit runout needs separate repair or replacement before use. Confirm there is no bearing roughness or free play after final axle torque; save bearing/seal replacements, both seal recesses and the retention/spacer checks. Any binding after tightening remains an unresolved assembly fault.",
+      "source_pdf_pages": [
+        90,
+        131,
+        135,
+        136,
+        137,
+        138
+      ],
+      "verification": [
+        "Final axle-supported radial/lateral runout readings, bearing rotation/play, chain alignment/slack and brake function recorded; all renewal and retention checks saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "torque"
+      ]
+    }
+  ],
+  "operation_dependencies": [
+    {
+      "artifact": "docs/research/frame-pass3/rear-wheel-remove-refit-v1.procedure.json",
+      "sha256": "2a91e8d0b6d866b08ffb3662ff5bebbf0cc439b940c1c41453c0cb0feff1514c",
+      "kind": "reviewed_access_closure"
+    }
+  ],
+  "affected_components": [
+    "rear_wheel",
+    "wheels",
+    "rear_brake",
+    "brakes",
+    "chain"
+  ],
+  "component": "rear_wheel",
+  "entry_state": [
+    "Assembled exact stock bike with serviceable original rear hub, spacer, disc/sprocket and closed brake circuit."
+  ],
+  "exit_state": [
+    "Rear wheel refitted with three new bearings, two new seals and a new circlip; spacer retained; disc/sprocket torque and axle/chain/brake checks recorded."
+  ],
+  "integration_status": "ROOT_SOURCE_AND_CLOSURE_REVIEW_APPROVED"
+}

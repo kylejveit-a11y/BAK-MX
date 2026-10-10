@@ -1,0 +1,46 @@
+{
+  "status": "APPROVED_FOR_BOUNDED_RUNTIME",
+  "original_peer_review": {
+    "path": "docs/research/workshop-pass13/yamaha-roster/independent-yz250-engine-2022-2024-review.json",
+    "sha256": "97b1c5f621b24e98cdd448a4bc1ff2462f986b926fbe4370d4c1447624d0799f"
+  },
+  "freeze_transition": "Only publication/source approval metadata changed under explicit peer status-only authorization.",
+  "artifacts": [
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "candidate_sha256": "a498ad410b750a109e2a1348827d411998d74f7f0142ac8e628492977509229e",
+      "approved_artifact_sha256": "3a9eb1aee712164330229bfee230dab908500e3a629a70b70c91b6db41a572b7",
+      "source_sha256": "766bc3ef6c02e72741f31cc31f8433568b0502dcc0638c685ab1ce37d71e497a"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "candidate_sha256": "11b238aa932f6e1deab0b3722fec19e6dc7a583501593e81865864515caa9a65",
+      "approved_artifact_sha256": "2412bdcdede11301bac21661af346ffe4f011870aba42ed7751a5f9589fb495e",
+      "source_sha256": "7e35f5a2255910883c8d285ab17b4c8df93b6bd5f5bce169f961739f7eac772b"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "candidate_sha256": "63e8c9384c02dea06d660f068b54ae39209f4e5d4c4adaaa86ae9573d90603ab",
+      "approved_artifact_sha256": "cfb1129fd7ee6945ba03b416c16eaf7a7a232f54465b2fbb547218014146afa2",
+      "source_sha256": "5987b96f081f7c33d155d566ee0cdf7a9a7082e05a4270320d06847e43483659"
+    }
+  ]
+}

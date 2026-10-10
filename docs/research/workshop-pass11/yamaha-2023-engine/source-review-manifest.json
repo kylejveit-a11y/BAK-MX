@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED",
+  "sources": [
+    {
+      "id": "yamaha-us-2023-yz450f-oem",
+      "source_id": "yamaha-us-2023-yz450f-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf",
+      "sha256": "9a8605e26301ba1d0d1d21e93d23cca721bdcdbece6188775626a8819332aa9f",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\BHR-2819U-10_02.pdf",
+      "pdf_pages": [
+        8,
+        48,
+        85,
+        86,
+        87,
+        88,
+        89,
+        91,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "top-end-bench-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "5465c9014294095e4ca146287c352444baccc5c0ffc3ccf016dc19e74a27a8ee",
+      "source_id": "yamaha-us-2023-yz450f-oem",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "review_status": "APPROVED"
+    }
+  ],
+  "author_review": {
+    "path": "top-end-author-review-v1.json",
+    "sha256": "77edf96ac3151580f720c8b4ba27509c610e9e40abff3e8aea719a620a1c5c1f"
+  },
+  "independent_review": {
+    "path": "top-end-independent-review-v1.json",
+    "sha256": "c5605dd8f96e0e846be41f8159b10a7ee84dc8be5659e3f084955eb04cae1e0b",
+    "status": "APPROVED"
+  }
+}

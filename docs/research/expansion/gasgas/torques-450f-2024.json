@@ -1,0 +1,2591 @@
+{
+  "target": {
+    "manufacturer": "GasGas",
+    "model": "MC 450F",
+    "model_year": 2024,
+    "variant": "standard",
+    "region": "US"
+  },
+  "scope_confirmed": false,
+  "catalog_complete": false,
+  "assemblies": [],
+  "parts": [],
+  "facts": [
+    {
+      "id": "gasgas-450f-2024-torque-p140-t2-r1",
+      "property": "torque",
+      "joint": "Oil nozzle for the clutch lubrication (alternator cover sealing surface)",
+      "value": 0.8,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M4"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 140, table 2, row 1",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "0.8 Nm (0.59 lbf ft)",
+      "source_thread": "M4",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p140-t2-r2",
+      "property": "torque",
+      "joint": "Screw, oil nozzle bent for piston cooling",
+      "value": 2.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M4",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 140, table 2, row 2",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "2 Nm (1.5 lbf ft)\nLoctite®243™",
+      "source_thread": "M4",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p140-t2-r3",
+      "property": "torque",
+      "joint": "Crankshaft speed sensor screw and cable retainer",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M5",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 140, table 2, row 3",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "6 Nm (4.4 lbf ft)\nLoctite®243™",
+      "source_thread": "M5",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p140-t2-r4",
+      "property": "torque",
+      "joint": "Oil nozzle for piston cooling",
+      "value": 2.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M5",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 140, table 2, row 4",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "2 Nm (1.5 lbf ft)\nLoctite®243™",
+      "source_thread": "M5",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r1",
+      "property": "torque",
+      "joint": "Oil nozzle for timing chain lubrication",
+      "value": 2.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M5",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 1",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "2 Nm (1.5 lbf ft)\nLoctite®243™",
+      "source_thread": "M5",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r2",
+      "property": "torque",
+      "joint": "Screw, bearing retainer",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M5",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 2",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "6 Nm (4.4 lbf ft)\nLoctite®243™",
+      "source_thread": "M5",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r3",
+      "property": "torque",
+      "joint": "Screw, clutch adjusting ring",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M5x16"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 3",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "6 Nm (4.4 lbf ft)",
+      "source_thread": "M5x16",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r4",
+      "property": "torque",
+      "joint": "Screw, clutch spring retainer",
+      "value": 8.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 4",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "8 Nm (5.9 lbf ft)",
+      "source_thread": "M5",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r5",
+      "property": "torque",
+      "joint": "Screw, gear position sensor",
+      "value": 5.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M5x14",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 5",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "5 Nm (3.7 lbf ft)\nLoctite®243™",
+      "source_thread": "M5x14",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r6",
+      "property": "torque",
+      "joint": "Screw, lock washer, oil pump idler gear",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M5x10",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 6",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "6 Nm (4.4 lbf ft)\nLoctite®243™",
+      "source_thread": "M5x10",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r7",
+      "property": "torque",
+      "joint": "Screw, locking lever",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M5",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 7",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "6 Nm (4.4 lbf ft)\nLoctite®243™",
+      "source_thread": "M5",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r8",
+      "property": "torque",
+      "joint": "Screw, pressure pump cover",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M5x16",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 8",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "6 Nm (4.4 lbf ft)\nLoctite®243™",
+      "source_thread": "M5x16",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r9",
+      "property": "torque",
+      "joint": "Screw, stator",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M5",
+        "Loctite 2701"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 9",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "6 Nm (4.4 lbf ft)\nLoctite®2701™",
+      "source_thread": "M5",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r10",
+      "property": "torque",
+      "joint": "Screw, suction pump cover",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M5x16",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 10",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "6 Nm (4.4 lbf ft)\nLoctite®243™",
+      "source_thread": "M5x16",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r11",
+      "property": "torque",
+      "joint": "Screws, main bearing lock washer, transmission bearings",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M5x12"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 11",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "6 Nm (4.4 lbf ft)",
+      "source_thread": "M5x12",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r12",
+      "property": "torque",
+      "joint": "Nut, water pump impeller",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 12",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "6 Nm (4.4 lbf ft)\nLoctite®243™",
+      "source_thread": "M6",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r13",
+      "property": "torque",
+      "joint": "Remaining screws on water pump cover",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6",
+        "Loctite 222",
+        "Only remaining fasteners after all named exceptions; not a generic thread-size default"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 13",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 Nm (7.4 lbf ft)\nLoctite® 222™",
+      "source_thread": "M6",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r14",
+      "property": "torque",
+      "joint": "Remaining screws, alternator cover",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6",
+        "Only remaining fasteners after all named exceptions; not a generic thread-size default"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 14",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 Nm (7.4 lbf ft)",
+      "source_thread": "M6",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r15",
+      "property": "torque",
+      "joint": "Remaining screws, clutch cover",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6",
+        "Only remaining fasteners after all named exceptions; not a generic thread-size default"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 15",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 Nm (7.4 lbf ft)",
+      "source_thread": "M6",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r16",
+      "property": "torque",
+      "joint": "Screw, alternator cover",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6x25"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 16",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 Nm (7.4 lbf ft)",
+      "source_thread": "M6x25",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r17",
+      "property": "torque",
+      "joint": "Screw, balancer shaft fastening to water pump cover",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6",
+        "Loctite 222"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 17",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 Nm (7.4 lbf ft)\nLoctite® 222™",
+      "source_thread": "M6",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r18",
+      "property": "torque",
+      "joint": "Screw, clutch cover",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6x25"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 18",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 Nm (7.4 lbf ft)",
+      "source_thread": "M6x25",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r19",
+      "property": "torque",
+      "joint": "Screw, clutch cover",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6x55"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 19",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 Nm (7.4 lbf ft)",
+      "source_thread": "M6x55",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r20",
+      "property": "torque",
+      "joint": "Screw, clutch slave cylinder",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 20",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 Nm (7.4 lbf ft)",
+      "source_thread": "M6",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r21",
+      "property": "torque",
+      "joint": "Screw, cylinder head",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6x75"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 21",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 Nm (7.4 lbf ft)",
+      "source_thread": "M6x75",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r22",
+      "property": "torque",
+      "joint": "Screw, engine case",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6x65"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 22",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 Nm (7.4 lbf ft)",
+      "source_thread": "M6x65",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r23",
+      "property": "torque",
+      "joint": "Screw, engine case",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6x80"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 23",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 Nm (7.4 lbf ft)",
+      "source_thread": "M6x80",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r24",
+      "property": "torque",
+      "joint": "Screw, exhaust flange",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6x16",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 24",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 Nm (7.4 lbf ft)\nLoctite®243™",
+      "source_thread": "M6x16",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r25",
+      "property": "torque",
+      "joint": "Screw, oil filter cover",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6x16"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 25",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 Nm (7.4 lbf ft)",
+      "source_thread": "M6x16",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r26",
+      "property": "torque",
+      "joint": "Screw, shift drum locating unit",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6x30",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 26",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 Nm (7.4 lbf ft)\nLoctite®243™",
+      "source_thread": "M6x30",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r27",
+      "property": "torque",
+      "joint": "Screw, shift lever",
+      "value": 14.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6x16",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 27",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "14 Nm (10.3 lbf ft)\nLoctite®243™",
+      "source_thread": "M6x16",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r28",
+      "property": "torque",
+      "joint": "Screw, starter motor",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6x25"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 28",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 Nm (7.4 lbf ft)",
+      "source_thread": "M6x25",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r29",
+      "property": "torque",
+      "joint": "Screw, tensioning rail",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 29",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 Nm (7.4 lbf ft)\nLoctite®243™",
+      "source_thread": "M6",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r30",
+      "property": "torque",
+      "joint": "Screw, timing chain clip",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 30",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 Nm (7.4 lbf ft)\nLoctite®243™",
+      "source_thread": "M6",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r31",
+      "property": "torque",
+      "joint": "Screw, timing chain tensioner",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 31",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 Nm (7.4 lbf ft)",
+      "source_thread": "M6",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p141-t1-r32",
+      "property": "torque",
+      "joint": "Screw, torque governor",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 141, table 1, row 32",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 Nm (7.4 lbf ft)\nLoctite®243™",
+      "source_thread": "M6",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p142-t1-r1",
+      "property": "torque",
+      "joint": "Screw, valve cover",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 142, table 1, row 1",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 Nm (7.4 lbf ft)",
+      "source_thread": "M6",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p142-t1-r2",
+      "property": "torque",
+      "joint": "Screw, water pump cover",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6x20"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 142, table 1, row 2",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 Nm (7.4 lbf ft)",
+      "source_thread": "M6x20",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p142-t1-r3",
+      "property": "torque",
+      "joint": "Screw, water pump cover",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6x25",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 142, table 1, row 3",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 Nm (7.4 lbf ft)\nLoctite®243™",
+      "source_thread": "M6x25",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p142-t1-r4",
+      "property": "torque",
+      "joint": "Screws, section of the engine case",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 142, table 1, row 4",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 Nm (7.4 lbf ft)",
+      "source_thread": "M6",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p142-t1-r5",
+      "property": "torque",
+      "joint": "Plug, oil channel",
+      "value": 9.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M7",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 142, table 1, row 5",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "9 Nm (6.6 lbf ft)\nLoctite®243™",
+      "source_thread": "M7",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p142-t1-r6",
+      "property": "torque",
+      "joint": "Screw, camshaft retaining bracket",
+      "value": 15.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M7x1"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 142, table 1, row 6",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "15 Nm (11.1 lbf ft)",
+      "source_thread": "M7x1",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p142-t1-r7",
+      "property": "torque",
+      "joint": "Screw, rocker arm bearing",
+      "value": 15.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M7x1"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 142, table 1, row 7",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "15 Nm (11.1 lbf ft)",
+      "source_thread": "M7x1",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p142-t1-r8",
+      "property": "torque",
+      "joint": "Crankshaft clamp screw plug",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M8"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 142, table 1, row 8",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 Nm (7.4 lbf ft)",
+      "source_thread": "M8",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p142-t1-r9",
+      "property": "torque",
+      "joint": "Crankshaft locking bolt",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M8"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 142, table 1, row 9",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 Nm (7.4 lbf ft)",
+      "source_thread": "M8",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p142-t1-r10",
+      "property": "torque",
+      "joint": "Plug, timing chain tensioner",
+      "value": 8.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M8"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 142, table 1, row 10",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "8 Nm (5.9 lbf ft)",
+      "source_thread": "M8",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p142-t1-r11",
+      "property": "torque",
+      "joint": "Plug, oil channel",
+      "value": 15.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M10",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 142, table 1, row 11",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "15 Nm (11.1 lbf ft)\nLoctite®243™",
+      "source_thread": "M10",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p142-t1-r12",
+      "property": "torque",
+      "joint": "Screw, engine sprocket",
+      "value": 60.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M10",
+        "Loctite 2701"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 142, table 1, row 12",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "60 Nm (44.3 lbf ft)\nLoctite®2701™",
+      "source_thread": "M10",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p142-t1-r13",
+      "property": "torque",
+      "joint": "Screw, rotor",
+      "value": 70.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M10x1"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 142, table 1, row 13",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "70 Nm (51.6 lbf ft)",
+      "source_thread": "M10x1",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p142-t1-r14",
+      "property": "torque",
+      "joint": "Spark plug",
+      "value": 12.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M10x1"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 142, table 1, row 14",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 … 12 Nm (7.4 … 8.9 lbf ft)",
+      "source_thread": "M10x1",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p142-t1-r15",
+      "property": "torque",
+      "joint": "Engine coolant temperature sensor",
+      "value": 12.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M10x1.25"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 142, table 1, row 15",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "12 Nm (8.9 lbf ft)",
+      "source_thread": "M10x1.25",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p142-t1-r16",
+      "property": "torque",
+      "joint": "Screw, cylinder head",
+      "value": [
+        10.0,
+        30.0,
+        50.0
+      ],
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M10x1.25",
+        "Oil/lubrication instruction requires exact procedure review: 1st stage\n10 Nm (7.4 lbf ft)\n2nd stage\n30 Nm (22.1 lbf ft)\n3rd stage\n50 Nm (36.9 lbf ft)\nCollar and thread oiled",
+        "Ordered tightening stages"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 142, table 1, row 16",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "1st stage\n10 Nm (7.4 lbf ft)\n2nd stage\n30 Nm (22.1 lbf ft)\n3rd stage\n50 Nm (36.9 lbf ft)\nCollar and thread oiled",
+      "source_thread": "M10x1.25",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p142-t1-r17",
+      "property": "torque",
+      "joint": "Oil drain plug with magnet",
+      "value": 20.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M12x1.5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 142, table 1, row 17",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "20 Nm (14.8 lbf ft)",
+      "source_thread": "M12x1.5",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p142-t1-r18",
+      "property": "torque",
+      "joint": "Screw plug, oil pressure control valve",
+      "value": 20.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M12x1.5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 142, table 1, row 18",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "20 Nm (14.8 lbf ft)",
+      "source_thread": "M12x1.5",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p142-t1-r19",
+      "property": "torque",
+      "joint": "Screw plug, crankcase",
+      "value": 15.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M16x1.5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 142, table 1, row 19",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "15 Nm (11.1 lbf ft)",
+      "source_thread": "M16x1.5",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p142-t1-r20",
+      "property": "torque",
+      "joint": "Nut, inner clutch hub",
+      "value": 100.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M18x1.5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 142, table 1, row 20",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "100 Nm (73.8 lbf ft)",
+      "source_thread": "M18x1.5",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p142-t1-r21",
+      "property": "torque",
+      "joint": "Nut, primary gear wheel",
+      "value": 120.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M18LHx1.5",
+        "Left-hand thread"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 142, table 1, row 21",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "120 Nm (88.5 lbf ft)",
+      "source_thread": "M18LHx1.5",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p142-t1-r22",
+      "property": "torque",
+      "joint": "Screw plug, oil screen",
+      "value": 15.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M20x1.5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 142, table 1, row 22",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "15 Nm (11.1 lbf ft)",
+      "source_thread": "M20x1.5",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p142-t1-r23",
+      "property": "torque",
+      "joint": "Screw plug, alternator cover",
+      "value": 18.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M24x1.5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 142, table 1, row 23",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "18 Nm (13.3 lbf ft)",
+      "source_thread": "M24x1.5",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r1",
+      "property": "torque",
+      "joint": "Remaining screws, chassis",
+      "value": 2.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: EJOT PT® K60x25‑Z",
+        "Only remaining fasteners after all named exceptions; not a generic thread-size default"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 1",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "2 Nm (1.5 lbf ft)",
+      "source_thread": "EJOT PT® K60x25‑Z",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r2",
+      "property": "torque",
+      "joint": "Screw, air filter box cover",
+      "value": 3.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: EJOT PT® K60x20-Z"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 2",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "3 Nm (2.2 lbf ft)",
+      "source_thread": "EJOT PT® K60x20-Z",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r3",
+      "property": "torque",
+      "joint": "Screw, air filter box, on subframe",
+      "value": 5.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: EJOT PT® K60x20AL"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 3",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "5 Nm (3.7 lbf ft)",
+      "source_thread": "EJOT PT® K60x20AL",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r4",
+      "property": "torque",
+      "joint": "Screw, combination switch",
+      "value": 2.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: EJOT PT® K50x18 T20"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 4",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "2 Nm (1.5 lbf ft)",
+      "source_thread": "EJOT PT® K50x18 T20",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r5",
+      "property": "torque",
+      "joint": "Screw, fuel pump on fuel tank",
+      "value": 2.5,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: EJOT PT® K60x30-Z"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 5",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "2.5 Nm (1.84 lbf ft)",
+      "source_thread": "EJOT PT® K60x30-Z",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r6",
+      "property": "torque",
+      "joint": "Screw, intake air temperature sensor",
+      "value": 0.7,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: EJOT PT® K50x18 T20"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 6",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "0.7 Nm (0.52 lbf ft)",
+      "source_thread": "EJOT PT® K50x18 T20",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r7",
+      "property": "torque",
+      "joint": "Screw, radiator hoses clip",
+      "value": 2.4,
+      "unit": "Nm",
+      "conditions": [],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 7",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "2.4 Nm (1.77 lbf ft)",
+      "source_thread": "",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r8",
+      "property": "torque",
+      "joint": "Screw, seat fixing",
+      "value": 2.5,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: EJOT EJOFORM PT® K60x23/18"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 8",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "2.5 Nm (1.84 lbf ft)",
+      "source_thread": "EJOT EJOFORM PT® K60x23/18",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r9",
+      "property": "torque",
+      "joint": "Screw, start/stop button",
+      "value": 2.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: EJOT PT® K50x18 T20"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 9",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "2 Nm (1.5 lbf ft)",
+      "source_thread": "EJOT PT® K50x18 T20",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r10",
+      "property": "torque",
+      "joint": "Screw, fixed grip",
+      "value": 5.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M4",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 10",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "5 Nm (3.7 lbf ft)\nLoctite®243™",
+      "source_thread": "M4",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r11",
+      "property": "torque",
+      "joint": "Screw, throttle valve body hose clamp",
+      "value": 5.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M4"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 11",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "5 Nm (3.7 lbf ft)",
+      "source_thread": "M4",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r12",
+      "property": "torque",
+      "joint": "Spoke nipple, front wheel",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M4.5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 12",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "6 Nm (4.4 lbf ft)",
+      "source_thread": "M4.5",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r13",
+      "property": "torque",
+      "joint": "Spoke nipple, rear wheel",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M4.5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 13",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "6 Nm (4.4 lbf ft)",
+      "source_thread": "M4.5",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r14",
+      "property": "torque",
+      "joint": "Remaining nuts, chassis",
+      "value": 5.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M5",
+        "Only remaining fasteners after all named exceptions; not a generic thread-size default"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 14",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "5 Nm (3.7 lbf ft)",
+      "source_thread": "M5",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r15",
+      "property": "torque",
+      "joint": "Remaining screws, chassis",
+      "value": 5.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M5",
+        "Only remaining fasteners after all named exceptions; not a generic thread-size default"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 15",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "5 Nm (3.7 lbf ft)",
+      "source_thread": "M5",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r16",
+      "property": "torque",
+      "joint": "Screw, battery terminal",
+      "value": 2.5,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 16",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "2.5 Nm (1.84 lbf ft)",
+      "source_thread": "M5",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r17",
+      "property": "torque",
+      "joint": "Screw, frame protector",
+      "value": 3.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 17",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "3 Nm (2.2 lbf ft)",
+      "source_thread": "M5",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r18",
+      "property": "torque",
+      "joint": "Screw, shock absorber adjusting ring",
+      "value": 5.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 18",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "5 Nm (3.7 lbf ft)",
+      "source_thread": "M5",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r19",
+      "property": "torque",
+      "joint": "Screw, throttle valve body cover",
+      "value": 2.6,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 19",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "2.6 Nm (1.92 lbf ft)",
+      "source_thread": "M5",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r20",
+      "property": "torque",
+      "joint": "Screws on main silencer",
+      "value": 7.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 20",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "7 Nm (5.2 lbf ft)",
+      "source_thread": "M5",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r21",
+      "property": "torque",
+      "joint": "Nut, starter cable on starter motor",
+      "value": 4.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 21",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "4 Nm (3 lbf ft)",
+      "source_thread": "M6",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r22",
+      "property": "torque",
+      "joint": "Nut, throttle cable on throttle valve body",
+      "value": 3.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 22",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "3 Nm (2.2 lbf ft)",
+      "source_thread": "M6",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r23",
+      "property": "torque",
+      "joint": "Remaining nuts, chassis",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6",
+        "Only remaining fasteners after all named exceptions; not a generic thread-size default"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 23",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 Nm (7.4 lbf ft)",
+      "source_thread": "M6",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r24",
+      "property": "torque",
+      "joint": "Remaining screws, chassis",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6",
+        "Only remaining fasteners after all named exceptions; not a generic thread-size default"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 24",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 Nm (7.4 lbf ft)",
+      "source_thread": "M6",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r25",
+      "property": "torque",
+      "joint": "Screw, battery support bracket",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 25",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "6 Nm (4.4 lbf ft)",
+      "source_thread": "M6",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r26",
+      "property": "torque",
+      "joint": "Screw, brake line guide on link fork",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 26",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "6 Nm (4.4 lbf ft)",
+      "source_thread": "M6",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r27",
+      "property": "torque",
+      "joint": "Screw, chain guide on link fork at the front",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6x45"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 27",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 Nm (7.4 lbf ft)",
+      "source_thread": "M6x45",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r28",
+      "property": "torque",
+      "joint": "Screw, chain guide on link fork at the rear",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6x16"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 28",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 Nm (7.4 lbf ft)",
+      "source_thread": "M6x16",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r29",
+      "property": "torque",
+      "joint": "Screw, chain sliding guard on link fork",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 29",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "6 Nm (4.4 lbf ft)",
+      "source_thread": "M6",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r30",
+      "property": "torque",
+      "joint": "Screw, connector board with combination instrument",
+      "value": 5.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 30",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "5 Nm (3.7 lbf ft)",
+      "source_thread": "M6",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r31",
+      "property": "torque",
+      "joint": "Screw, front brake disc",
+      "value": 14.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 31",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "14 Nm (10.3 lbf ft)\nLoctite®243™",
+      "source_thread": "M6",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r32",
+      "property": "torque",
+      "joint": "Screw, fuel tank spoiler on radiator",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 32",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "6 Nm (4.4 lbf ft)",
+      "source_thread": "M6",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r33",
+      "property": "torque",
+      "joint": "Screw, ground wire on frame",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 33",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 Nm (7.4 lbf ft)",
+      "source_thread": "M6",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r34",
+      "property": "torque",
+      "joint": "Screw, hand lever",
+      "value": 5.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 34",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "5 Nm (3.7 lbf ft)",
+      "source_thread": "M6",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r35",
+      "property": "torque",
+      "joint": "Screw, push rod ball joint on the rear brake cylinder",
+      "value": 10.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 35",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "10 Nm (7.4 lbf ft)\nLoctite®243™",
+      "source_thread": "M6",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r36",
+      "property": "torque",
+      "joint": "Screw, rear brake disc",
+      "value": 14.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 36",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "14 Nm (10.3 lbf ft)\nLoctite®243™",
+      "source_thread": "M6",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r37",
+      "property": "torque",
+      "joint": "Screw, seat fixing",
+      "value": 8.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 37",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "8 Nm (5.9 lbf ft)",
+      "source_thread": "M6",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r38",
+      "property": "torque",
+      "joint": "Screw, starter cable to starter relay",
+      "value": 6.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 38",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "6 Nm (4.4 lbf ft)",
+      "source_thread": "M6",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p148-t1-r39",
+      "property": "torque",
+      "joint": "Screw, throttle grip",
+      "value": 5.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M6"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 148, table 1, row 39",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "5 Nm (3.7 lbf ft)",
+      "source_thread": "M6",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r1",
+      "property": "torque",
+      "joint": "Brake lever stop nut",
+      "value": 20.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M8"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 1",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "20 Nm (14.8 lbf ft)",
+      "source_thread": "M8",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r2",
+      "property": "torque",
+      "joint": "Nut, rear sprocket screw",
+      "value": 35.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M8",
+        "Loctite 2701"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 2",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "35 Nm (25.8 lbf ft)\nLoctite®2701™",
+      "source_thread": "M8",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r3",
+      "property": "torque",
+      "joint": "Nut, rim lock",
+      "value": 12.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M8"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 3",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "12 Nm (8.9 lbf ft)",
+      "source_thread": "M8",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r4",
+      "property": "torque",
+      "joint": "Remaining nuts, chassis",
+      "value": 25.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M8",
+        "Only remaining fasteners after all named exceptions; not a generic thread-size default"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 4",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "25 Nm (18.4 lbf ft)",
+      "source_thread": "M8",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r5",
+      "property": "torque",
+      "joint": "Remaining screws, chassis",
+      "value": 25.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M8",
+        "Only remaining fasteners after all named exceptions; not a generic thread-size default"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 5",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "25 Nm (18.4 lbf ft)",
+      "source_thread": "M8",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r6",
+      "property": "torque",
+      "joint": "Screw, bottom triple clamp (FACTORY EDITION)",
+      "value": 12.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M8"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 6",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "12 Nm (8.9 lbf ft)",
+      "source_thread": "M8",
+      "review_status": "EXCLUDED_VARIANT",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r7",
+      "property": "torque",
+      "joint": "Screw, bottom triple clamp (MC-F / EX-F)",
+      "value": 15.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M8"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 7",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "15 Nm (11.1 lbf ft)",
+      "source_thread": "M8",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r8",
+      "property": "torque",
+      "joint": "Screw, chain sliding piece",
+      "value": 15.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M8"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 8",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "15 Nm (11.1 lbf ft)",
+      "source_thread": "M8",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r9",
+      "property": "torque",
+      "joint": "Screw, engine sprocket cover",
+      "value": 15.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M8"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 9",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "15 Nm (11.1 lbf ft)",
+      "source_thread": "M8",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r10",
+      "property": "torque",
+      "joint": "Screw, fork stub",
+      "value": 15.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M8"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 10",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "15 Nm (11.1 lbf ft)",
+      "source_thread": "M8",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r11",
+      "property": "torque",
+      "joint": "Screw, front brake caliper",
+      "value": 25.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M8",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 11",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "25 Nm (18.4 lbf ft)\nLoctite®243™",
+      "source_thread": "M8",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r12",
+      "property": "torque",
+      "joint": "Screw, handlebar clamp",
+      "value": 20.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M8"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 12",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "20 Nm (14.8 lbf ft)",
+      "source_thread": "M8",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r13",
+      "property": "torque",
+      "joint": "Screw, manifold on cylinder head brace",
+      "value": 15.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M8"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 13",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "15 Nm (11.1 lbf ft)",
+      "source_thread": "M8",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r14",
+      "property": "torque",
+      "joint": "Screw, side stand attachment (EX-F)",
+      "value": 33.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M8",
+        "Loctite 2701"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 14",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "33 Nm (24.3 lbf ft)\nLoctite®2701™",
+      "source_thread": "M8",
+      "review_status": "EXCLUDED_VARIANT",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r15",
+      "property": "torque",
+      "joint": "Screw, subframe, bottom",
+      "value": 35.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M8",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 15",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "35 Nm (25.8 lbf ft)\nLoctite®243™",
+      "source_thread": "M8",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r16",
+      "property": "torque",
+      "joint": "Screw, subframe, top",
+      "value": 40.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M8",
+        "Loctite 2701"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 16",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "40 Nm (29.5 lbf ft)\nLoctite®2701™",
+      "source_thread": "M8",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r17",
+      "property": "torque",
+      "joint": "Screw, top steering stem (FACTORY EDITION)",
+      "value": 20.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M8",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 17",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "20 Nm (14.8 lbf ft)\nLoctite®243™",
+      "source_thread": "M8",
+      "review_status": "EXCLUDED_VARIANT",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r18",
+      "property": "torque",
+      "joint": "Screw, top steering stem",
+      "value": 20.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M8",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 18",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "20 Nm (14.8 lbf ft)\nLoctite®243™",
+      "source_thread": "M8",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r19",
+      "property": "torque",
+      "joint": "Screw, top triple clamp (FACTORY EDI- TION)",
+      "value": 17.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M8"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 19",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "17 Nm (12.5 lbf ft)",
+      "source_thread": "M8",
+      "review_status": "EXCLUDED_VARIANT",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r20",
+      "property": "torque",
+      "joint": "Screw, top triple clamp (MC-F / EX-F)",
+      "value": 20.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M8"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 20",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "20 Nm (14.8 lbf ft)",
+      "source_thread": "M8",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r21",
+      "property": "torque",
+      "joint": "Engine carrying screw",
+      "value": 60.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M10"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 21",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "60 Nm (44.3 lbf ft)",
+      "source_thread": "M10",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r22",
+      "property": "torque",
+      "joint": "Remaining nuts, chassis",
+      "value": 45.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M10",
+        "Only remaining fasteners after all named exceptions; not a generic thread-size default"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 22",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "45 Nm (33.2 lbf ft)",
+      "source_thread": "M10",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r23",
+      "property": "torque",
+      "joint": "Remaining screws, chassis",
+      "value": 45.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M10",
+        "Only remaining fasteners after all named exceptions; not a generic thread-size default"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 23",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "45 Nm (33.2 lbf ft)",
+      "source_thread": "M10",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r24",
+      "property": "torque",
+      "joint": "Screw, bottom shock absorber",
+      "value": 60.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M10",
+        "Loctite 2701"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 24",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "60 Nm (44.3 lbf ft)\nLoctite®2701™",
+      "source_thread": "M10",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r25",
+      "property": "torque",
+      "joint": "Screw, handlebar support",
+      "value": 40.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M10",
+        "Loctite 243"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 25",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "40 Nm (29.5 lbf ft)\nLoctite®243™",
+      "source_thread": "M10",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r26",
+      "property": "torque",
+      "joint": "Screw, top shock absorber",
+      "value": 60.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M10",
+        "Loctite 2701"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 26",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "60 Nm (44.3 lbf ft)\nLoctite®2701™",
+      "source_thread": "M10",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r27",
+      "property": "torque",
+      "joint": "Nut, angle lever to link fork",
+      "value": 80.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M16x1.5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 27",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "80 Nm (59 lbf ft)",
+      "source_thread": "M16x1.5",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r28",
+      "property": "torque",
+      "joint": "Nut, fork pivot",
+      "value": 100.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M16x1.5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 28",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "100 Nm (73.8 lbf ft)",
+      "source_thread": "M16x1.5",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r29",
+      "property": "torque",
+      "joint": "Nut, frame on linkage lever",
+      "value": 80.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M16x1.5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 29",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "80 Nm (59 lbf ft)",
+      "source_thread": "M16x1.5",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r30",
+      "property": "torque",
+      "joint": "Nut, linkage lever on angle lever",
+      "value": 80.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M16x1.5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 30",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "80 Nm (59 lbf ft)",
+      "source_thread": "M16x1.5",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r31",
+      "property": "torque",
+      "joint": "Screw, front wheel spindle",
+      "value": 35.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M20x1.5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 31",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "35 Nm (25.8 lbf ft)",
+      "source_thread": "M20x1.5",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r32",
+      "property": "torque",
+      "joint": "Screw, top steering head",
+      "value": 12.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M20x1.5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 32",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "12 Nm (8.9 lbf ft)",
+      "source_thread": "M20x1.5",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r33",
+      "property": "torque",
+      "joint": "Nut, rear wheel spindle",
+      "value": 80.0,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M22x1.5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 33",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "80 Nm (59 lbf ft)",
+      "source_thread": "M22x1.5",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    },
+    {
+      "id": "gasgas-450f-2024-torque-p149-t1-r34",
+      "property": "torque",
+      "joint": "Screw-in fitting, cooling system",
+      "value": 7.5,
+      "unit": "Nm",
+      "conditions": [
+        "Thread/size: M24x1.5"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+      "locator": "PDF page 149, table 1, row 34",
+      "document_sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+      "document_revision": "3215162en / 3215162en",
+      "source_value_text": "7.5 Nm (5.53 lbf ft)",
+      "source_thread": "M24x1.5",
+      "review_status": "PENDING",
+      "review_note": "OEM table extracted; per-row visual validation, US applicability and part mapping pending.",
+      "scope_worldwide_portal": false
+    }
+  ],
+  "mappings": [],
+  "gaps": [
+    "Torque extraction requires row review before promotion."
+  ],
+  "manual_source": {
+    "modelName": "MC 450F 2024",
+    "title": "MC 450F 2024 EU (en) - 2024",
+    "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215162_en_OM.pdf",
+    "sha256": "52a13d11f2ba277746f2ea6e0d01ff42cfbd0b39722f3089bd4f39643ac79554",
+    "bytes": 9778425,
+    "local_pdf": "/tmp/gg-450-2024-0.pdf"
+  },
+  "manual_portal_url": "https://www.gasgas.com/en-us/service/manuals/_jcr_content/root/responsivegrid_1_col/bikemanuals.manuals.json?modelName=MC%20450F%202024"
+}

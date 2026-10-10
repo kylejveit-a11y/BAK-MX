@@ -1,0 +1,408 @@
+{
+  "checkpoint_at": "2026-09-14",
+  "project_ref": "yzvrujffiktfserrgkcb",
+  "last_database_readback": {
+    "VERIFIED": 14450,
+    "STAGED": 0,
+    "CONFLICTED": 1
+  },
+  "wave1_approved_bundle_records": 9574,
+  "already_published_expansion_records": 13023,
+  "wave1_remaining_records": 0,
+  "wave1_staging_batches": 87,
+  "resume_policy": "Import recovery complete. Read recovery/RESUMED_HANDOFF.md. Preserve frozen bundles and use bundle-manifest.json for cumulative normalization; future promotions must use exact reviewed IDs.",
+  "approved_bundle_sha256": "5401d54e377304076ecdd25c12ed3b4744b92b7a34df4a29e7c60e3cf19b8475",
+  "integration_pending": [],
+  "previous_checkpoint": {
+    "checkpoint_at": "2026-09-13T14:07:57.080201-04:00",
+    "last_database_readback": {
+      "VERIFIED": 2353,
+      "STAGED": 3400
+    }
+  },
+  "wave1_status": "PUBLISHED_EXACT_IDS_VERIFIED",
+  "wave2_records": 3106,
+  "wave2_status": "PUBLISHED_EXACT_IDS_VERIFIED",
+  "integration_completed": [
+    {
+      "file": "gasgas/mc-250f-2025-catalog-fields.json",
+      "approved_facts": 672,
+      "part_rows": 1171,
+      "scope_confirmed": true
+    },
+    {
+      "file": "gasgas/mc-450f-2023.json",
+      "approved_facts": 0,
+      "part_rows": 1172,
+      "scope_confirmed": false
+    },
+    {
+      "file": "husqvarna/fc-250-2022-service-specs.json",
+      "approved_facts": 11,
+      "part_rows": 0,
+      "scope_confirmed": true
+    },
+    {
+      "file": "husqvarna/fc-250-2023-service-specs.json",
+      "approved_facts": 11,
+      "part_rows": 0,
+      "scope_confirmed": true
+    },
+    {
+      "file": "husqvarna/fc-250-2024-service-specs.json",
+      "approved_facts": 11,
+      "part_rows": 0,
+      "scope_confirmed": true
+    },
+    {
+      "file": "husqvarna/fc-250-2025-service-specs.json",
+      "approved_facts": 10,
+      "part_rows": 0,
+      "scope_confirmed": true
+    },
+    {
+      "file": "husqvarna/fc-450-2022-catalog-fields.json",
+      "approved_facts": 667,
+      "part_rows": 1181,
+      "scope_confirmed": true
+    },
+    {
+      "file": "husqvarna/fc-450-2022-service-specs.json",
+      "approved_facts": 11,
+      "part_rows": 0,
+      "scope_confirmed": true
+    },
+    {
+      "file": "husqvarna/fc-450-2022.json",
+      "approved_facts": 0,
+      "part_rows": 1181,
+      "scope_confirmed": true
+    },
+    {
+      "file": "husqvarna/fc-450-2023-catalog-fields.json",
+      "approved_facts": 668,
+      "part_rows": 1178,
+      "scope_confirmed": true
+    },
+    {
+      "file": "husqvarna/fc-450-2023-service-specs.json",
+      "approved_facts": 11,
+      "part_rows": 0,
+      "scope_confirmed": true
+    },
+    {
+      "file": "husqvarna/fc-450-2023.json",
+      "approved_facts": 0,
+      "part_rows": 1178,
+      "scope_confirmed": true
+    },
+    {
+      "file": "husqvarna/fc-450-2024-catalog-fields.json",
+      "approved_facts": 667,
+      "part_rows": 1185,
+      "scope_confirmed": true
+    },
+    {
+      "file": "husqvarna/fc-450-2024-service-specs.json",
+      "approved_facts": 11,
+      "part_rows": 0,
+      "scope_confirmed": true
+    },
+    {
+      "file": "husqvarna/fc-450-2024.json",
+      "approved_facts": 0,
+      "part_rows": 1185,
+      "scope_confirmed": true
+    },
+    {
+      "file": "husqvarna/fc-450-2025-service-specs.json",
+      "approved_facts": 10,
+      "part_rows": 0,
+      "scope_confirmed": true
+    },
+    {
+      "file": "yamaha/2023-yz450f-specs.json",
+      "approved_facts": 179,
+      "part_rows": 0,
+      "scope_confirmed": true
+    },
+    {
+      "file": "yamaha/2024-yz250f-specs.json",
+      "approved_facts": 167,
+      "part_rows": 0,
+      "scope_confirmed": true
+    }
+  ],
+  "next_handoff": "../../WORKSHOP_PASS4_20260913.md",
+  "new_sources_acquired": [
+    "yamaha/2026-yz450f-discovery-20260913.json"
+  ],
+  "next_research": "Resolve exact Yamaha clutch preparation and Beta oil/pressure conflicts; complete internal shock, replacement/machining and remaining exact-target rebuild gaps. Preserve publication holds and frozen source hashes. No automatic year inheritance.",
+  "workshop_wave": {
+    "records": 343,
+    "status": "PUBLISHED_EXACT_IDS_VERIFIED",
+    "bundle": "yamaha/workshop-2026/approved-bundle.json",
+    "sha256": "761d6bf6b82127138da2b5345ee19d5d3bdbe5157f89bc1fd84749f3533c12d1"
+  },
+  "active_build_plan": "../../WORKSHOP_BUILD_PLAN.md",
+  "workshop_pass2": {
+    "guides": 12,
+    "steps": 154,
+    "exact_bike_scopes": 2,
+    "compared_catalog_pairs": 582,
+    "identical_captured_orderable_pairs": 220,
+    "database_claim_changes": 0,
+    "delivery_report": "../../WORKSHOP_PASS2_20260913.md",
+    "runtime_prompt_version": "mx-engineering-5",
+    "root_tests": 101
+  },
+  "pass3_conflict_overlay": {
+    "id": "a8317507-1cc3-5dab-a3bb-2501be6d2aef",
+    "record": "yamaha-yz450f-2026-torque-061",
+    "reference": "docs/research/engine-pass3/clutch-preparation-conflict.json",
+    "policy": "Do not replay frozen approval over this later conflict quarantine. Original published totals are historical."
+  },
+  "workshop_pass3": {
+    "guides": 37,
+    "steps": 718,
+    "exact_bike_scopes": 2,
+    "complete_full_rebuild_targets": 0,
+    "continuous_top_end_steps": 132,
+    "frame_composite_steps": 106,
+    "fork_internal_service_steps": 53,
+    "engine_bench_modules": 16,
+    "engine_bench_steps": 153,
+    "chassis_access_modules": 6,
+    "chassis_access_steps": 120,
+    "database_change": "One exact clutch claim quarantined; 14450 VERIFIED, 0 STAGED, 1 CONFLICTED",
+    "publication_hold": "../suspension-pass3/publication-hold.json",
+    "delivery_report": "../../WORKSHOP_PASS3_20260913.md",
+    "physical_validation": false,
+    "deployed": false
+  },
+  "workshop_pass4": {
+    "guides": 39,
+    "steps": 737,
+    "exact_bike_scopes": 2,
+    "yamaha_yz450f_2026_guides": 35,
+    "husqvarna_fc450_2025_guides": 4,
+    "complete_full_rebuild_targets": 0,
+    "database_writes": false,
+    "new_guides": [
+      "husqvarna-2025-fc450-engine-oil-filter-v1",
+      "husqvarna-2025-fc450-us-fork-air-baseline-v1"
+    ],
+    "delivery_report": "../../WORKSHOP_PASS4_20260913.md",
+    "aftermarket_plan": "../../AFTERMARKET_BUILD_PLAN.md",
+    "educational_intake": "../suspension-foundations-intake/INTAKE.md",
+    "educational_runtime_approval": false
+  },
+  "accepted_release_scope": {
+    "start_model_year": 2020,
+    "end_policy": "present; independently confirm current released model-years, including observed2027 candidates",
+    "calendar_year_baseline_end": 2026,
+    "scope_document": "../../RELEASE_SCOPE.md",
+    "historical_50_target_batch_is_complete_release_scope": false,
+    "broader_family_roster_complete": false,
+    "full_rebuild_qualified_targets": 0
+  },
+  "active_delivery_sequence": {
+    "round_target_count": 5,
+    "policy": "User update: advance at approximately90% practical coverage with clearly listed gaps; do not hold every bike for100%. Percent is a working target, not a measured completeness claim. Preserve exact applicability, source conflicts and missing values. Five-bike round continues; full completion and launch qualification remain separate.",
+    "active_target": null,
+    "advance_authorized_targets": [
+      {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard",
+        "status": "ADVANCE_ALLOWED_WITH_DOCUMENTED_GAPS",
+        "measured_completion_percentage": null
+      },
+      {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard",
+        "status": "ADVANCE_ALLOWED_WITH_DOCUMENTED_GAPS",
+        "measured_completion_percentage": null,
+        "coverage_record": "docs/research/workshop-pass9/ACTIVE_BIKE_COVERAGE.md"
+      },
+      {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard",
+        "status": "ADVANCE_ALLOWED_WITH_DOCUMENTED_GAPS",
+        "measured_completion_percentage": null,
+        "coverage_record": "docs/research/workshop-pass10/ACTIVE_BIKE_COVERAGE.md"
+      },
+      {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard",
+        "status": "ADVANCE_ALLOWED_WITH_DOCUMENTED_GAPS",
+        "measured_completion_percentage": null,
+        "coverage_record": "docs/research/workshop-pass11/ACTIVE_BIKE_COVERAGE.md"
+      },
+      {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard",
+        "status": "ADVANCE_ALLOWED_WITH_DOCUMENTED_GAPS",
+        "measured_completion_percentage": null,
+        "coverage_record": "docs/research/workshop-pass12/ACTIVE_BIKE_COVERAGE.md"
+      }
+    ],
+    "round_completed_targets": [],
+    "next_work": "Continue next documented model target from preserved manufacturer queue; 2020\u2013present scope remains unfinished.",
+    "status": "FIVE_MODEL_YEAR_COVERAGE_PASS_FINISHED_WITH_GAPS"
+  },
+  "workshop_pass7": {
+    "status": "ONGOING_NOT_ROUND_COMPLETE",
+    "handoff": "docs/WORKSHOP_PASS7_20260913.md",
+    "reviewed_guides": 60,
+    "overlapping_steps": 1309,
+    "complete_bikes": 0,
+    "database_writes": false,
+    "root_tests_passed": 112,
+    "mobile_tests_passed": 12,
+    "native_export_this_pass": "ios/android PASS60guide snapshot",
+    "remaining": [
+      "clutch boss-nut preparation conflict",
+      "exact shock internals",
+      "fork cartridge internal scope",
+      "reviewed continuous renewal compositions",
+      "physical and device qualification"
+    ],
+    "integrated_continuous_routes": [
+      "142-step top-end guide/valve renewal",
+      "150-step frame/chassis bearing renewal"
+    ],
+    "web_build_this_pass": "PASS60guide snapshot; largechunkwarning",
+    "latest_focused_tests_passed": 14,
+    "unintegrated_companion": "yamaha-commissioning28steps; incomplete actionable cleaning/alljointmethods",
+    "user_technical_contact_question": "asked; no answer yet",
+    "recovery_bundle": "../bakmx-workshop-pass7-history-20260913.bundle",
+    "recovery_zip": "../bakmx-workshop-pass7-20260913.zip"
+  },
+  "pass9_current": {
+    "status": "ADVANCE_ALLOWED_WITH_DOCUMENTED_GAPS",
+    "integrated_guides": 75,
+    "overlapping_steps": 2183,
+    "new_exact_2025_yz450f_guides": 15,
+    "next": "2025 majorengine214 now integrated.2024active sourcebound engine/frame/suspension/brake authoring; continue remaining exacttargets under practicalcoverage policy.",
+    "checks": "116 root tests, root typecheck/web build, mobile typecheck/12 tests, iOS and Android exports PASS at75. Native bundles5.2MB each; webchunk2672.37kB/532.10gzip warning.",
+    "database_writes": false
+  },
+  "pass10_current": {
+    "report": "docs/WORKSHOP_PASS10_20260913.md",
+    "reviewed_guides": 90,
+    "overlapping_steps": 3057,
+    "exact_2024_yz450f_guides": 15,
+    "root_tests_passed": 119,
+    "database_written": false,
+    "physical_validation": false,
+    "fully_complete_targets": 0,
+    "root_tests_guides_at_run": 90,
+    "mobile_tests_passed": 12,
+    "web_build_passed": true,
+    "typechecks_passed": [
+      "root",
+      "mobile"
+    ],
+    "native_exports_passed": [
+      "ios",
+      "android"
+    ]
+  },
+  "pass11_current": {
+    "reviewed_guides": 105,
+    "overlapping_steps": 3931,
+    "exact_2023_guides": 15,
+    "report": "docs/WORKSHOP_PASS11_20260913.md",
+    "last_checks_at_guide_count": 105,
+    "root_tests": 122,
+    "mobile_tests": 12,
+    "typechecks": "PASS",
+    "web_build": "PASS",
+    "native_exports_last_guide_count": 90
+  },
+  "pass12_current": {
+    "reviewed_guides": 120,
+    "overlapping_steps": 4811,
+    "exact_2022_guides": 15,
+    "status": "ADVANCE_ALLOWED_WITH_DOCUMENTED_GAPS",
+    "last_checks_at_guide_count": 120,
+    "full_completion": false,
+    "recovery_archive": "checkpoint/bakmx-pass11-de7dc6f.zip",
+    "recovery_archive_sha256": "0ec38cf65eff2f10be455bbbc9d8ce718a595769dcad964600fdc055c76d123c",
+    "recovery_archive_guide_count": 105,
+    "root_tests": 125,
+    "root_tests_at_guide_count": 120,
+    "mobile_tests": 12,
+    "typechecks": "PASS",
+    "web_build": "PASS",
+    "native_exports": [
+      "ios",
+      "android"
+    ],
+    "native_exports_guide_count": 120,
+    "report": "docs/WORKSHOP_PASS12_20260913.md",
+    "database_written": false,
+    "physical_validation": false
+  },
+  "pass13_current": {
+    "reviewed_guides": 294,
+    "overlapping_steps": 6265,
+    "yamaha_exact_targets": 80,
+    "yamaha_targets_with_guides": 77,
+    "full_rebuild_complete": 0,
+    "report": "docs/WORKSHOP_PASS13_20260914.md",
+    "progress": "docs/research/workshop-pass13/YAMAHA_PROGRESS.json",
+    "checks": {
+      "root_tests": 126,
+      "mobile_tests": 12,
+      "root_typecheck": "PASS",
+      "mobile_typecheck": "PASS",
+      "web_build": "PASS_WITH_BUNDLE_SIZE_WARNING",
+      "ios_export": "PASS",
+      "android_export": "PASS",
+      "physical_workshop_validation": false,
+      "database_readback": false,
+      "database_writes": false,
+      "checked_library_guides": 294
+    },
+    "database_snapshot_refreshed": false
+  },
+  "parts_inventory_pass14": {
+    "date": "2026-09-21",
+    "status": "PAUSED_AT_USER_REQUEST_AFTER_CURRENT_BATCH",
+    "recovery": "docs/research/parts-pass14/RECOVERY.json",
+    "summary": {
+      "planned_acquisition_slots": 467,
+      "families": 62,
+      "complete_catalog_inventories": 71,
+      "original_60_complete": 26,
+      "new_completed_targets": 57,
+      "selected_captured_occurrences": 87803,
+      "complete_by_brand": {
+        "GasGas": 17,
+        "Honda": 4,
+        "Husqvarna": 15,
+        "KTM": 26,
+        "Kawasaki": 7,
+        "Yamaha": 2
+      }
+    },
+    "database_readback_refreshed": false,
+    "database_writes": false
+  }
+}

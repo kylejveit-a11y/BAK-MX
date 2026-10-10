@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "gasgas-2025-250f-fork-compression-direction",
+      "claim_kind": "OEM_SPEC",
+      "applicability": {
+        "manufacturer": "GasGas",
+        "model": "MC 250F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "WW",
+        "component": "WP XACT AER",
+        "component_part_number": "A460C105Y406000"
+      },
+      "statement": "For the original A460C105Y406000 fork, establish compression setting by turning its adjuster clockwise to its stop, then count the model-specific setting counterclockwise.",
+      "value": {
+        "reference_direction": "clockwise",
+        "reference_position": "stop",
+        "setting_direction": "counterclockwise",
+        "compression_adjuster_location": "right fork leg, upper end",
+        "rebound_adjuster_location": null
+      },
+      "source": {
+        "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3215221_de_BA.pdf",
+        "publisher": "GASGAS",
+        "document_revision": "3215221de",
+        "published_dates_detected": [
+          "19/12/2024"
+        ],
+        "document_sha256": "527ca62f3bd6de5c9324a90d30f3d53f8bb8d223449e5d93843556fa78863488",
+        "bytes": 10798433,
+        "source_locator": "German PDF pages 51, 52; fork identity PDF page 155",
+        "portal_url": "https://www.gasgas.com/de-at/service/manuals/_jcr_content/root/responsivegrid_1_col/bikemanuals.manuals.json?modelName=MC%20250F%202025",
+        "retrieved_at": "2026-09-13"
+      },
+      "conflict": {
+        "retained": true,
+        "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3215221_en_BA.pdf",
+        "description": "English procedure says clockwise twice; its explanatory note states clockwise increases damping and counterclockwise decreases it.",
+        "resolution_status": "RESOLVED_BY_BILINGUAL_OEM_REVIEW",
+        "publisher_erratum_found": false,
+        "rationale": "Exact same bike/year standard-fork part identity in OEM German manual, and unambiguous German opposite-clockwise instruction agrees with both languages explanatory notes. No transferred KTM setting or generic thread/adjuster assumption."
+      },
+      "review": {
+        "reviewer": "BAK-MX-secondary-source-review",
+        "reviewed_at": "2026-09-13",
+        "pdf_rendered_and_visually_checked": true,
+        "exact_component_identity_checked": true,
+        "translation": "gegen den Uhrzeigersinn = counterclockwise",
+        "approved_for_runtime": true,
+        "runtime_condition": "Apply only to the positively matched original standard fork. Numeric setting remains exact model/variant-specific; never force an adjuster beyond its stop.",
+        "database_promoted": false
+      },
+      "rights": "Bounded factual extraction only; no manual redistribution."
+    },
+    {
+      "id": "gasgas-2025-250f-fork-rebound-direction",
+      "claim_kind": "OEM_SPEC",
+      "applicability": {
+        "manufacturer": "GasGas",
+        "model": "MC 250F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "WW",
+        "component": "WP XACT AER",
+        "component_part_number": "A460C105Y406000"
+      },
+      "statement": "For the original A460C105Y406000 fork, establish rebound setting by turning its adjuster clockwise to its stop, then count the model-specific setting counterclockwise.",
+      "value": {
+        "reference_direction": "clockwise",
+        "reference_position": "stop",
+        "setting_direction": "counterclockwise",
+        "compression_adjuster_location": null,
+        "rebound_adjuster_location": "right fork leg, lower end"
+      },
+      "source": {
+        "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3215221_de_BA.pdf",
+        "publisher": "GASGAS",
+        "document_revision": "3215221de",
+        "published_dates_detected": [
+          "19/12/2024"
+        ],
+        "document_sha256": "527ca62f3bd6de5c9324a90d30f3d53f8bb8d223449e5d93843556fa78863488",
+        "bytes": 10798433,
+        "source_locator": "German PDF pages 53; fork identity PDF page 155",
+        "portal_url": "https://www.gasgas.com/de-at/service/manuals/_jcr_content/root/responsivegrid_1_col/bikemanuals.manuals.json?modelName=MC%20250F%202025",
+        "retrieved_at": "2026-09-13"
+      },
+      "conflict": {
+        "retained": true,
+        "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3215221_en_BA.pdf",
+        "description": "English procedure says clockwise twice; its explanatory note states clockwise increases damping and counterclockwise decreases it.",
+        "resolution_status": "RESOLVED_BY_BILINGUAL_OEM_REVIEW",
+        "publisher_erratum_found": false,
+        "rationale": "Exact same bike/year standard-fork part identity in OEM German manual, and unambiguous German opposite-clockwise instruction agrees with both languages explanatory notes. No transferred KTM setting or generic thread/adjuster assumption."
+      },
+      "review": {
+        "reviewer": "BAK-MX-secondary-source-review",
+        "reviewed_at": "2026-09-13",
+        "pdf_rendered_and_visually_checked": true,
+        "exact_component_identity_checked": true,
+        "translation": "gegen den Uhrzeigersinn = counterclockwise",
+        "approved_for_runtime": true,
+        "runtime_condition": "Apply only to the positively matched original standard fork. Numeric setting remains exact model/variant-specific; never force an adjuster beyond its stop.",
+        "database_promoted": false
+      },
+      "rights": "Bounded factual extraction only; no manual redistribution."
+    },
+    {
+      "id": "gasgas-2025-450f-fork-compression-direction",
+      "claim_kind": "OEM_SPEC",
+      "applicability": {
+        "manufacturer": "GasGas",
+        "model": "MC 450F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "WW",
+        "component": "WP XACT AER",
+        "component_part_number": "A460C109Y406000"
+      },
+      "statement": "For the original A460C109Y406000 fork, establish compression setting by turning its adjuster clockwise to its stop, then count the model-specific setting counterclockwise.",
+      "value": {
+        "reference_direction": "clockwise",
+        "reference_position": "stop",
+        "setting_direction": "counterclockwise",
+        "compression_adjuster_location": "right fork leg, upper end",
+        "rebound_adjuster_location": null
+      },
+      "source": {
+        "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3215223_de_BA.pdf",
+        "publisher": "GASGAS",
+        "document_revision": "3215223de",
+        "published_dates_detected": [
+          "19/12/2024"
+        ],
+        "document_sha256": "50f0e1cd7c594882ac840e81630f3b8d5fed67e1d1e687b1c06efa1bded1300a",
+        "bytes": 11041931,
+        "source_locator": "German PDF pages 53, 54; fork identity PDF page 155",
+        "portal_url": "https://www.gasgas.com/de-at/service/manuals/_jcr_content/root/responsivegrid_1_col/bikemanuals.manuals.json?modelName=MC%20450F%202025",
+        "retrieved_at": "2026-09-13"
+      },
+      "conflict": {
+        "retained": true,
+        "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3215223_en_BA.pdf",
+        "description": "English procedure says clockwise twice; its explanatory note states clockwise increases damping and counterclockwise decreases it.",
+        "resolution_status": "RESOLVED_BY_BILINGUAL_OEM_REVIEW",
+        "publisher_erratum_found": false,
+        "rationale": "Exact same bike/year standard-fork part identity in OEM German manual, and unambiguous German opposite-clockwise instruction agrees with both languages explanatory notes. No transferred KTM setting or generic thread/adjuster assumption."
+      },
+      "review": {
+        "reviewer": "BAK-MX-secondary-source-review",
+        "reviewed_at": "2026-09-13",
+        "pdf_rendered_and_visually_checked": true,
+        "exact_component_identity_checked": true,
+        "translation": "gegen den Uhrzeigersinn = counterclockwise",
+        "approved_for_runtime": true,
+        "runtime_condition": "Apply only to the positively matched original standard fork. Numeric setting remains exact model/variant-specific; never force an adjuster beyond its stop.",
+        "database_promoted": false
+      },
+      "rights": "Bounded factual extraction only; no manual redistribution."
+    },
+    {
+      "id": "gasgas-2025-450f-fork-rebound-direction",
+      "claim_kind": "OEM_SPEC",
+      "applicability": {
+        "manufacturer": "GasGas",
+        "model": "MC 450F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "WW",
+        "component": "WP XACT AER",
+        "component_part_number": "A460C109Y406000"
+      },
+      "statement": "For the original A460C109Y406000 fork, establish rebound setting by turning its adjuster clockwise to its stop, then count the model-specific setting counterclockwise.",
+      "value": {
+        "reference_direction": "clockwise",
+        "reference_position": "stop",
+        "setting_direction": "counterclockwise",
+        "compression_adjuster_location": null,
+        "rebound_adjuster_location": "right fork leg, lower end"
+      },
+      "source": {
+        "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3215223_de_BA.pdf",
+        "publisher": "GASGAS",
+        "document_revision": "3215223de",
+        "published_dates_detected": [
+          "19/12/2024"
+        ],
+        "document_sha256": "50f0e1cd7c594882ac840e81630f3b8d5fed67e1d1e687b1c06efa1bded1300a",
+        "bytes": 11041931,
+        "source_locator": "German PDF pages 55; fork identity PDF page 155",
+        "portal_url": "https://www.gasgas.com/de-at/service/manuals/_jcr_content/root/responsivegrid_1_col/bikemanuals.manuals.json?modelName=MC%20450F%202025",
+        "retrieved_at": "2026-09-13"
+      },
+      "conflict": {
+        "retained": true,
+        "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3215223_en_BA.pdf",
+        "description": "English procedure says clockwise twice; its explanatory note states clockwise increases damping and counterclockwise decreases it.",
+        "resolution_status": "RESOLVED_BY_BILINGUAL_OEM_REVIEW",
+        "publisher_erratum_found": false,
+        "rationale": "Exact same bike/year standard-fork part identity in OEM German manual, and unambiguous German opposite-clockwise instruction agrees with both languages explanatory notes. No transferred KTM setting or generic thread/adjuster assumption."
+      },
+      "review": {
+        "reviewer": "BAK-MX-secondary-source-review",
+        "reviewed_at": "2026-09-13",
+        "pdf_rendered_and_visually_checked": true,
+        "exact_component_identity_checked": true,
+        "translation": "gegen den Uhrzeigersinn = counterclockwise",
+        "approved_for_runtime": true,
+        "runtime_condition": "Apply only to the positively matched original standard fork. Numeric setting remains exact model/variant-specific; never force an adjuster beyond its stop.",
+        "database_promoted": false
+      },
+      "rights": "Bounded factual extraction only; no manual redistribution."
+    }
+  ]
+}

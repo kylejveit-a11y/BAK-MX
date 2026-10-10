@@ -1,0 +1,225 @@
+{
+  "status": "SOURCE_DIFFERENCE_AUDIT_ONLY_NOT_PROCEDURE_APPROVAL",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2024,
+    "region": "US",
+    "variant": "standard"
+  },
+  "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf",
+  "source_sha256": "6e784b3b15fe1e131f0e385676ca2873e74d783ee2499ce561e595bcea9ca9be",
+  "comparison_source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf",
+  "comparison_source_sha256": "5005e7d8492c9482dfe44c6d752609a9a70a836f5b1dc94be3149d5d493de8ac",
+  "applicability_evidence": {
+    "pdf_pages": [
+      1,
+      4
+    ],
+    "facts": "2024 YZ450FR cover and Yamaha Motor Corporation U.S.A. publication LIT-11626-37-11; BHR-2819U-11, first edition February2023. Captured bytes match saved checkpoint source map."
+  },
+  "confirmed_changes": [
+    {
+      "property": "fork rebound baseline",
+      "2024": 11,
+      "2025": 10,
+      "unit": "clicks out from gently closed",
+      "pages_2024": [
+        51,
+        108
+      ],
+      "pages_2025": [
+        112
+      ]
+    },
+    {
+      "property": "fork compression baseline",
+      "2024": 10,
+      "2025": 12,
+      "unit": "clicks out from gently closed",
+      "pages_2024": [
+        51,
+        108
+      ],
+      "pages_2025": [
+        112
+      ]
+    },
+    {
+      "property": "rear spring standard preload",
+      "2024": 7.0,
+      "2025": 8.0,
+      "unit": "mm from actual spring free length",
+      "pages_2024": [
+        51,
+        109,
+        377
+      ],
+      "pages_2025": [
+        113
+      ]
+    },
+    {
+      "property": "shock rebound baseline",
+      "2024": 13,
+      "2025": 12,
+      "unit": "clicks out from gently closed",
+      "pages_2024": [
+        51,
+        110
+      ],
+      "pages_2025": [
+        114
+      ]
+    },
+    {
+      "property": "shock low-speed compression baseline",
+      "2024": 10,
+      "2025": 9,
+      "unit": "clicks out from gently closed",
+      "pages_2024": [
+        52,
+        111
+      ],
+      "pages_2025": [
+        115
+      ]
+    },
+    {
+      "property": "fork outer-leg service oil amount",
+      "2024": 270,
+      "2025": 275,
+      "unit": "cm3 Yamaha Suspension Oil S1 per leg",
+      "pages_2024": [
+        172
+      ],
+      "pages_2025": [
+        175
+      ],
+      "caution": "Not the damper charge or total fork specification-table amount."
+    },
+    {
+      "property": "standard fork projection",
+      "2024": 7,
+      "2025": 5,
+      "unit": "mm at source illustrated measuring point",
+      "pages_2024": [
+        173
+      ],
+      "pages_2025": [
+        176
+      ]
+    },
+    {
+      "property": "exhaust pipe clamp bolt torque",
+      "2024": 12,
+      "2025": 16,
+      "unit": "N m",
+      "pages_2024": [
+        56,
+        99
+      ],
+      "pages_2025": [
+        58,
+        103
+      ],
+      "review": "2024 table and exact two-clamp illustration inspected."
+    },
+    {
+      "property": "primary drive gear nut torque and preparation",
+      "2024": {
+        "torque_Nm": 120,
+        "preparation": "engine oil on thread and contact surface"
+      },
+      "2025": {
+        "torque_Nm": 130,
+        "preparation": "molybdenum disulfide grease per exact service section"
+      },
+      "pages_2024": [
+        56,
+        258
+      ],
+      "pages_2025": [
+        58
+      ],
+      "review": "2024 service text and drawing inspected; continuing engine audit delegated separately."
+    },
+    {
+      "property": "standard rear spring rate",
+      "2024": 58,
+      "2025": 56,
+      "unit": "N/mm",
+      "pages_2024": [
+        377
+      ],
+      "pages_2025": [
+        385
+      ],
+      "caution": "2025 alternative spring table includes model-code-dependent part numbers. Rate change is explicit; no common part-number or fit inference."
+    }
+  ],
+  "resolved_table_only_difference": {
+    "property": "pressure plate1 bolt preparation",
+    "table_2024": "blank remark",
+    "table_2025": "E remark",
+    "resolution": "2024 PDF249 explicitly requires engine oil on bolt threads/contact and plate1 contact, temporary4 then final10 N m crisscross. Blank table cell must not be interpreted as dry assembly or a year-specific procedure change.",
+    "pages_2024": [
+      56,
+      249
+    ]
+  },
+  "checked_unchanged_subset": [
+    {
+      "scope": "suspension baseline limits",
+      "facts": "Fork both nominal0–20 clicks; shock rebound0–30, low-speed0–20, high-speed0–2 turns with1turn standard. Production range qualification remains.",
+      "pages_2024": [
+        108,
+        110,
+        111
+      ]
+    },
+    {
+      "scope": "fork bleed and preload",
+      "facts": "Bleed1.3 N m with front wheel raised. Preload minimum1.5 maximum18 mm,1.5 mm per adjuster turn. Sag90–100 mm measured raised axle-to-fender versus loaded rider.",
+      "pages_2024": [
+        108,
+        109,
+        110,
+        376,
+        377
+      ]
+    },
+    {
+      "scope": "fork damper service numbers",
+      "facts": "S1 damper216cm3; level145–148 mm fully extended; base28 N m, knob0.6 N m; adjuster gap0.5–1 mm, joint29 N m, inner-tube adjuster55 N m with unspecified Loctite; cap30 N m; clamps21 N m. Initial bleed about200 wording conflicts with no200-or-more warning and requires the same explicit warning-bound handling, not assumed equivalence.",
+      "pages_2024": [
+        166,
+        167,
+        168,
+        171,
+        172,
+        173
+      ]
+    },
+    {
+      "scope": "rear caliper and masters subset",
+      "facts": "Rear pad springs quantity2 under callout9; DOT4; rear union30, pin17, plug2.5 N m. Front holder9 N m UP/top-first, union30; front new piston/circlip with serviceable boot retained. Rear cups diagram and small-end spring to piston; new piston/pushrod/circlip/boot. No changed number found in this checked subset; no all-brake compatibility claim.",
+      "pages_2024": [
+        134,
+        141,
+        143,
+        150,
+        151,
+        152,
+        153
+      ]
+    }
+  ],
+  "remaining": [
+    "All frame/brake/fork drawing arrows, renewals and hardware applicability still require step-level independent review before authoring approval.",
+    "Full OEM catalog part-number comparison not performed; matching torque does not establish common hardware.",
+    "Internal shock and cartridge rod-seal completeness is not established by any page mapping.",
+    "Engine-only detailed comparison continues in sibling yamaha-2024-engine-audit folder.",
+    "Automated candidate page-map contains low-score false matches; use reviewed section map and actual pages, never bulk replacement."
+  ]
+}

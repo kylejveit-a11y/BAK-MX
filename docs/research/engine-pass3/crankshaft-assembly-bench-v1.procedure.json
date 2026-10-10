@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2026-yz450f-crankshaft-assembly-bench-v1",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Inspect and replace the crankshaft assembly",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete bounded bench operation from the declared entry state to the declared exit state. Whole-bike access and downstream engine closure are separate dependencies.",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      7,
+      56,
+      283,
+      284,
+      285
+    ],
+    "review_status": "APPROVED",
+    "review_note": "All cited operation pages visually reviewed. General symbols and conditional torque rules retained.",
+    "printed_pages": [
+      "Symbols (unnumbered)",
+      "2-9",
+      "5-80",
+      "5-81",
+      "5-82"
+    ]
+  },
+  "applicability": {
+    "included": "Exact US2026 YZ450F standard stock components only",
+    "excluded": [
+      "Connecting-rod pin pressing, crank truing or crank assembly fabrication; OEM gives no press dimensions here",
+      "Complete engine closure"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "affected_components": [
+    "engine",
+    "crankshaft"
+  ],
+  "required_tools": [
+    {
+      "name": "Crankcase separator90890-04152/YU-A9642"
+    },
+    {
+      "name": "Crank installer pot90890-01274/YU-90058, bolt90890-01275/YU-90060, M12 adapter90890-01278/YU-90063, spacer90890-04081/YM-91044"
+    },
+    {
+      "name": "Crank supports, dial indicator, precision width measuring tool"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "Exact complete crankshaft assembly if required"
+    },
+    {
+      "name": "Lithium-soap grease and molybdenum-disulfide grease"
+    }
+  ],
+  "preflight": [
+    "Cases split; transmission and external crank/balancer gear stacks removed."
+  ],
+  "entry_state": [
+    "Cases split; transmission and external crank/balancer gear stacks removed."
+  ],
+  "exit_state": [
+    "Inspected complete crankshaft and balancer installed in left case; transmission and case closure still required."
+  ],
+  "critical_stop_conditions": [
+    "Any required measurement unresolved or replacement criteria not satisfied.",
+    "Unidentified diagram orientation, missing parts, damage or abnormal binding."
+  ],
+  "material_policy": {
+    "LT": "Locking agent (LOCTITE) per PDF7. Grade unspecified by this manual; no grade inferred.",
+    "lubrication": "Follow each explicit E/M/LS/S application; general dry torque does not override a lubricated joint."
+  },
+  "steps": [
+    {
+      "id": "entry",
+      "title": "Confirm crankshaft access",
+      "instruction": "Start with the cases separated, transmission removed and the crankshaft/balancer retained in the left case. Ensure the external balancer and primary gears have been removed before attempting shaft removal.",
+      "source_pdf_pages": [
+        283,
+        284
+      ],
+      "verification": [
+        "Left-case crankshaft entry state confirmed."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=283",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=284"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": []
+    },
+    {
+      "id": "balancer-out",
+      "title": "Remove the balancer shaft",
+      "instruction": "Turn the balancer so its flat face points toward the crankshaft, as shown, then remove it. Keep its contact surfaces protected.",
+      "source_pdf_pages": [
+        284
+      ],
+      "verification": [
+        "Balancer orientation and removal recorded."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=284"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "entry"
+      ]
+    },
+    {
+      "id": "crank-out",
+      "title": "Remove the crankshaft assembly",
+      "instruction": "Use crankcase separator90890-04152/YU-A9642 mounted at the illustrated left-case holes to press the crankshaft out. Keep the crankshaft supported and protect the mating face; do not substitute uncontrolled hammer blows.",
+      "source_pdf_pages": [
+        284
+      ],
+      "verification": [
+        "Specified separator used; crank removed intact."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=284"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "balancer-out"
+      ]
+    },
+    {
+      "id": "runout",
+      "title": "Measure crankshaft runout",
+      "instruction": "Support the crankshaft as illustrated and rotate it slowly while reading the dial indicator at the indicated journal. Limit0.030mm. Record the measured result and replace an out-of-limit complete assembly.",
+      "source_pdf_pages": [
+        284
+      ],
+      "verification": [
+        "Crankshaft runout in mm saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=284"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "crank-out"
+      ]
+    },
+    {
+      "id": "width",
+      "title": "Measure width and inspect the sprocket",
+      "instruction": "Measure crank assembly width between the shown faces:61.93\u201362.00mm. Inspect the crank sprocket for damage/wear; replace the crankshaft assembly if defective. Clear an obstructed journal oil passage with compressed air and recheck it.",
+      "source_pdf_pages": [
+        284
+      ],
+      "verification": [
+        "Width, sprocket condition and open oil passage recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=284"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "runout"
+      ]
+    },
+    {
+      "id": "install",
+      "title": "Draw the complete crankshaft into the left case",
+      "instruction": "Grease the oil-seal lip with lithium-soap grease and apply molybdenum-disulfide grease to the illustrated crankshaft location. Use installer pot90890-01274/YU-90058, bolt90890-01275/YU-90060, M12 adapter90890-01278/YU-90063 and spacer90890-04081/YM-91044. Hold the rod atTDC while turning the installer until the crank bottoms against the bearing.",
+      "source_pdf_pages": [
+        285
+      ],
+      "verification": [
+        "Correct installer parts, rodTDC and crank seating recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=285"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "width"
+      ]
+    },
+    {
+      "id": "balancer-in",
+      "title": "Return the balancer and hand off",
+      "instruction": "Install the balancer in the left case in the reverse physical orientation of removal with its flat toward the crankshaft to pass the crank. Check free movement and retain the rodTDC position for subsequent case closure. Balancer gear timing is performed separately when the external gears return.",
+      "source_pdf_pages": [
+        283,
+        284,
+        285
+      ],
+      "verification": [
+        "Crank/balancer seated; free movement recorded."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=283",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=284",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=285"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "install"
+      ]
+    }
+  ],
+  "reviewed_at": "2026-09-13",
+  "runtime_integration_requirement": "Enforce entry state and record_required. Completion certifies this bounded operation only; no automatic completion of upstream/downstream work."
+}

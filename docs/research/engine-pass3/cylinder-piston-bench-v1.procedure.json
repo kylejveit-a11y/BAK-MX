@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2026-yz450f-cylinder-piston-bench-v1",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Inspect and rebuild the cylinder and piston",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete bounded bench operation from the declared entry state to the declared exit state. Whole-bike access and downstream engine closure are separate dependencies.",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      7,
+      56,
+      235,
+      236,
+      237,
+      238,
+      239
+    ],
+    "printed_pages": [
+      "Symbols (unnumbered)",
+      "2-9",
+      "5-32",
+      "5-33",
+      "5-34",
+      "5-35",
+      "5-36"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "All cited operation pages visually reviewed. General symbols and conditional torque rules retained."
+  },
+  "applicability": {
+    "included": "Exact US2026 YZ450F standard stock components only",
+    "excluded": [
+      "Rebore/replate",
+      "Aftermarket pistons or ring-gap filing",
+      "Standard ring end-gap target is not supplied by this source"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "affected_components": [
+    "engine",
+    "piston",
+    "cylinder"
+  ],
+  "required_tools": [
+    {
+      "name": "Cylinder bore gauge and suitable micrometers"
+    },
+    {
+      "name": "Feeler gauges, piston-pin puller90890-01304/YU-01304"
+    },
+    {
+      "name": "Torque wrench accurate at10Nm; clean case-protection cloths"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "New base gasket and two new piston-pin clips"
+    },
+    {
+      "name": "Exact stock replacement piston/rings/cylinder/pin as assessment requires"
+    },
+    {
+      "name": "Engine oil"
+    }
+  ],
+  "preflight": [
+    "Head removed, chain retained, crankcase protected."
+  ],
+  "entry_state": [
+    "Head removed, chain retained, crankcase protected."
+  ],
+  "exit_state": [
+    "Piston/rings/cylinder installed with new base gasket; head installation remains."
+  ],
+  "critical_stop_conditions": [
+    "Any required measurement unresolved or replacement criteria not satisfied.",
+    "Unidentified diagram orientation, missing parts, damage or abnormal binding."
+  ],
+  "material_policy": {
+    "LT": "Locking agent (LOCTITE) per PDF7. Grade unspecified by this manual; no grade inferred.",
+    "lubrication": "Follow each explicit E/M/LS/S application; general dry torque does not override a lubricated joint."
+  },
+  "steps": [
+    {
+      "id": "entry",
+      "title": "Confirm open-head access",
+      "instruction": "Start with the cylinder head removed and timing chain retained. Remove the cylinder bolt and lift the cylinder while guiding the chain through its cavity. Retain both dowels and remove the old base gasket.",
+      "source_pdf_pages": [
+        235
+      ],
+      "verification": [
+        "Cylinder, two dowels and old gasket accounted for."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=235"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": []
+    },
+    {
+      "id": "pin-remove",
+      "title": "Remove the piston without losing a clip",
+      "instruction": "Cover the crankcase opening before removing the clips. Deburr the clip groove and pin-bore area before sliding out the pin. If still tight, use puller90890-01304/YU-01304; never hammer the pin. Lift off the piston, keeping debris and clips out of the engine.",
+      "source_pdf_pages": [
+        235,
+        236
+      ],
+      "verification": [
+        "Piston removed; both clips accounted for; case protected."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=235",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=236"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "entry"
+      ]
+    },
+    {
+      "id": "rings-remove",
+      "title": "Remove and identify the rings",
+      "instruction": "Open a ring gap with your fingers and lift the opposite side over the crown as illustrated. Remove top, second and oil-ring components into a labeled tray. Clean ring grooves and rings before measuring.",
+      "source_pdf_pages": [
+        236,
+        237
+      ],
+      "verification": [
+        "All ring components identified; grooves clean."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=236",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=237"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "pin-remove"
+      ]
+    },
+    {
+      "id": "bore",
+      "title": "Inspect and measure the cylinder",
+      "instruction": "Check piston and cylinder walls for vertical scratches; damaged walls require cylinder replacement with piston/rings as a set. Measure side-to-side and front-to-back at each of three illustrated heights. RecordD1\u2013D6 and use their maximum as boreC. Standard97.000\u201397.010mm; wear limit97.060mm.",
+      "source_pdf_pages": [
+        236
+      ],
+      "verification": [
+        "D1\u2013D6, maximumC and wall condition saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=236"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "rings-remove"
+      ]
+    },
+    {
+      "id": "piston-size",
+      "title": "Measure piston and actual fit",
+      "instruction": "Measure piston diameter with a micrometer9.0mm above the skirt bottom at the illustrated axis; standard96.955\u201396.970mm. Compute actual clearance=C minus measured piston diameter. OEM separately states standard0.010\u20130.045mm and limit0.15mm. Record the actual subtraction; individually acceptable part diameters do not automatically prove an acceptable pair.",
+      "source_pdf_pages": [
+        236,
+        237
+      ],
+      "verification": [
+        "Piston diameter,9mm datum and calculated fit saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=236",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=237"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "bore"
+      ]
+    },
+    {
+      "id": "side-gap",
+      "title": "Measure ring side clearances",
+      "instruction": "With carbon removed, measure top and second ring side clearance in the piston grooves. Top standard0.015\u20130.065mm, limit0.120mm; second standard0.020\u20130.060mm, limit0.100mm. An out-of-spec result requires piston/rings as a set.",
+      "source_pdf_pages": [
+        237
+      ],
+      "verification": [
+        "Top and second side-clearance values recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=237"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "piston-size"
+      ]
+    },
+    {
+      "id": "end-gap",
+      "title": "Measure ring end gaps",
+      "instruction": "Place each compression ring near the cylinder bottom and square it with the piston crown. Measure its gap: top limit0.55mm, second limit0.85mm. These are wear limits, not new-ring filing targets. Do not measure the oil expander as a rail; excessive oil-rail gap calls for the oil-ring set, with no numerical rail limit supplied here.",
+      "source_pdf_pages": [
+        237,
+        238
+      ],
+      "verification": [
+        "Top/second end gaps and oil-ring assessment saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=237",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=238"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "side-gap"
+      ]
+    },
+    {
+      "id": "pin-check",
+      "title": "Inspect pin and pin bore",
+      "instruction": "Replace a blue-discolored or grooved pin and investigate lubrication. Measure pin outside diameter: minimum wear limit17.981mm. Measure piston pin-bore inside diameter: maximum limit18.045mm. Replace the defective pin or piston as specified.",
+      "source_pdf_pages": [
+        238
+      ],
+      "verification": [
+        "PinOD, boreID and lubrication-related condition saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=238"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "end-gap"
+      ]
+    },
+    {
+      "id": "parts",
+      "title": "Confirm the rebuild parts and fit",
+      "instruction": "Record reuse or exact stock replacement decisions for every failed check. Where cylinder/piston/clearance is out of specification, follow OEM set-replacement requirements. Confirm the chosen actual piston/cylinder pair satisfies the required fit; do not accept it merely because both individual dimensions fall within their separate ranges. This guide excludes rebore/replate and aftermarket ring filing.",
+      "source_pdf_pages": [
+        236,
+        237,
+        238
+      ],
+      "verification": [
+        "Final installed parts and measured-fit decision documented."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=236",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=237",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=238"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "pin-check"
+      ]
+    },
+    {
+      "id": "rings-install",
+      "title": "Install the ring set",
+      "instruction": "Fit oil expander, lower oil rail, upper oil rail, second ring and top ring in that order. Face any manufacturer marks/numbers upward. Keep the expander correctly seated rather than overlapping its ends.",
+      "source_pdf_pages": [
+        238
+      ],
+      "verification": [
+        "Ring order and upward marks verified."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=238"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "parts"
+      ]
+    },
+    {
+      "id": "piston-install",
+      "title": "Install piston, pin and new clips",
+      "instruction": "Oil the piston and pin. Face the piston mark toward the exhaust, which is the REAR on this engine. Cover the case opening while fitting both new clips. Seat them fully; neither clip end belongs at the piston cutout.",
+      "source_pdf_pages": [
+        235,
+        238,
+        239
+      ],
+      "verification": [
+        "Rear-facing mark and two new fully seated clips recorded."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=235",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=238",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=239"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "rings-install"
+      ]
+    },
+    {
+      "id": "clock",
+      "title": "Set the exact ring-gap positions",
+      "instruction": "Oil piston, rings and cylinder. Set all five gaps from the source diagram: top(a),second(b),upper rail(c),expander(d),lower rail(e), preserving its15degree offsets and reference orientation. Keep the drawing visible; a generic120degree arrangement is not this procedure.",
+      "source_pdf_pages": [
+        239
+      ],
+      "verification": [
+        "All five labeled gap locations checked against diagram."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=239"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "piston-install"
+      ]
+    },
+    {
+      "id": "cylinder-install",
+      "title": "Refit cylinder and new base gasket",
+      "instruction": "Fit the new base gasket and both dowels. Compress the rings by hand while lowering the cylinder with the other hand. Pass the chain and exhaust-side guide through their cavity. Tighten the cylinder bolt10Nm. Account for protective cloths before head installation.",
+      "source_pdf_pages": [
+        235,
+        239
+      ],
+      "verification": [
+        "New gasket, two dowels, chain/guide passage and10Nm recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=235",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=239"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "clock"
+      ]
+    }
+  ],
+  "reviewed_at": "2026-09-13",
+  "runtime_integration_requirement": "Enforce entry state and record_required. Completion certifies this bounded operation only; no automatic completion of upstream/downstream work."
+}

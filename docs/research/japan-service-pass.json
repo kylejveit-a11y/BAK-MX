@@ -1,0 +1,1296 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-09-13",
+  "scope": "Honda/Kawasaki 2022\u20132026 service acquisition: six exact US 2022\u20132024 Honda competition handbook bodies inspected, plus official/authorized paid factory manual purchase metadata.",
+  "sources": [
+    {
+      "id": "helm-61k9550",
+      "url": "https://www.helminc.com/helm/product2.asp?Sku=61K9550&class_2=AHC&itemtype=N",
+      "title": "2022\u20132025 CRF250R/RX/RWE Service Manual",
+      "document_type": "FACTORY_SERVICE_MANUAL",
+      "source_access": "PRODUCT_PAGE_READ",
+      "manual_body_access": "NOT_RETRIEVED_DISCOVERY_ONLY",
+      "publication": "61K9550",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_years": [
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "variant": "standard",
+        "region": "US"
+      },
+      "price": {
+        "amount": 50,
+        "currency": "USD",
+        "basis": "listed paper-manual price, shipping/tax excluded",
+        "checked_date": "2026-09-13"
+      },
+      "availability": "IN_STOCK",
+      "sha256": null,
+      "purchased": false,
+      "runtime_eligible": false
+    },
+    {
+      "id": "helm-61k9561",
+      "url": "https://www.helminc.com/helm/product2.asp?Sku=61K9561&class_2=AHC&itemtype=N",
+      "title": "2025\u20132027 CRF250R/RX/RWE/HRC-WE Service Manual",
+      "document_type": "FACTORY_SERVICE_MANUAL",
+      "source_access": "PRODUCT_PAGE_READ",
+      "manual_body_access": "NOT_RETRIEVED_DISCOVERY_ONLY",
+      "publication": "61K9561",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_years": [
+          2025,
+          2026,
+          2027
+        ],
+        "variant": "standard",
+        "region": "US"
+      },
+      "price": {
+        "amount": 50,
+        "currency": "USD",
+        "basis": "listed paper-manual price, shipping/tax excluded",
+        "checked_date": "2026-09-13"
+      },
+      "availability": "PRINT_ON_DEMAND_ALLOW_5_DAYS_BEFORE_SHIPPING",
+      "sha256": null,
+      "purchased": false,
+      "runtime_eligible": false
+    },
+    {
+      "id": "helm-61mke92",
+      "url": "https://www.helminc.com/helm/product2.asp?Sku=61MKE92&class_2=AHC&itemtype=N",
+      "title": "2021\u20132024 CRF450R/RX/RWE/R-S Service Manual",
+      "document_type": "FACTORY_SERVICE_MANUAL",
+      "source_access": "PRODUCT_PAGE_READ",
+      "manual_body_access": "NOT_RETRIEVED_DISCOVERY_ONLY",
+      "publication": "61MKE92",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_years": [
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "variant": "standard",
+        "region": "US"
+      },
+      "price": {
+        "amount": 50,
+        "currency": "USD",
+        "basis": "listed paper-manual price, shipping/tax excluded",
+        "checked_date": "2026-09-13"
+      },
+      "availability": "IN_STOCK",
+      "sha256": null,
+      "purchased": false,
+      "runtime_eligible": false
+    },
+    {
+      "id": "helm-61mke80",
+      "url": "https://www.helminc.com/helm/product2.asp?Sku=61MKE80&class_2=AHC&itemtype=N",
+      "title": "2025\u20132026 CRF450R/RX/RWE Service Manual",
+      "document_type": "FACTORY_SERVICE_MANUAL",
+      "source_access": "PRODUCT_PAGE_READ",
+      "manual_body_access": "NOT_RETRIEVED_DISCOVERY_ONLY",
+      "publication": "61MKE80",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_years": [
+          2025,
+          2026
+        ],
+        "variant": "standard",
+        "region": "US"
+      },
+      "price": {
+        "amount": 50,
+        "currency": "USD",
+        "basis": "listed paper-manual price, shipping/tax excluded",
+        "checked_date": "2026-09-13"
+      },
+      "availability": "PRINT_ON_DEMAND_ALLOW_5_DAYS_BEFORE_SHIPPING",
+      "sha256": null,
+      "purchased": false,
+      "runtime_eligible": false
+    },
+    {
+      "id": "kawasaki-us-kx250-2022-service-purchase",
+      "url": "https://www.kawasaki.com/en-us/owner-center/service-manuals/2022/KX252CNFNN",
+      "title": "Service Manual, KX252C/D",
+      "document_type": "FACTORY_SERVICE_MANUAL",
+      "source_access": "OEM_SEARCH_INDEX_ONLY_DIRECT_FETCH_REDIRECT_LOOP",
+      "manual_body_access": "NOT_RETRIEVED_DISCOVERY_ONLY",
+      "publication": "99830-0039-09",
+      "applicability": {
+        "make": "Kawasaki",
+        "model": "KX250",
+        "model_years": [
+          2022
+        ],
+        "variant": "standard",
+        "region": "US",
+        "model_code": "KX252CNFNN"
+      },
+      "price": {
+        "amount": 95.75,
+        "currency": "USD",
+        "basis": "indexed OEM MSRP; not a live cart quote",
+        "checked_date": "2026-09-13"
+      },
+      "availability": "NOT_LIVE_VERIFIED",
+      "sha256": null,
+      "purchased": false,
+      "runtime_eligible": false
+    },
+    {
+      "id": "kawasaki-us-kx250-2023-service-purchase",
+      "url": "https://www.kawasaki.com/en-us/owner-center/service-manuals/2023/KX252CPFNN",
+      "title": "Service Manual, KX252C/D",
+      "document_type": "FACTORY_SERVICE_MANUAL",
+      "source_access": "OEM_SEARCH_INDEX_ONLY_DIRECT_FETCH_REDIRECT_LOOP",
+      "manual_body_access": "NOT_RETRIEVED_DISCOVERY_ONLY",
+      "publication": "99830-0039-09",
+      "applicability": {
+        "make": "Kawasaki",
+        "model": "KX250",
+        "model_years": [
+          2023
+        ],
+        "variant": "standard",
+        "region": "US",
+        "model_code": "KX252CPFNN"
+      },
+      "price": {
+        "amount": null,
+        "currency": "USD",
+        "basis": "indexed OEM MSRP; not a live cart quote",
+        "checked_date": "2026-09-13"
+      },
+      "availability": "NOT_LIVE_VERIFIED",
+      "sha256": null,
+      "purchased": false,
+      "runtime_eligible": false
+    },
+    {
+      "id": "kawasaki-us-kx250-2024-service-purchase",
+      "url": "https://www.kawasaki.com/en-us/owner-center/service-manuals/2024/KX252CRFNN",
+      "title": "Service Manual, KX252C/D",
+      "document_type": "FACTORY_SERVICE_MANUAL",
+      "source_access": "OEM_SEARCH_INDEX_ONLY_DIRECT_FETCH_REDIRECT_LOOP",
+      "manual_body_access": "NOT_RETRIEVED_DISCOVERY_ONLY",
+      "publication": "99830-0039-09",
+      "applicability": {
+        "make": "Kawasaki",
+        "model": "KX250",
+        "model_years": [
+          2024
+        ],
+        "variant": "standard",
+        "region": "US",
+        "model_code": "KX252CRFNN"
+      },
+      "price": {
+        "amount": null,
+        "currency": "USD",
+        "basis": "indexed OEM MSRP; not a live cart quote",
+        "checked_date": "2026-09-13"
+      },
+      "availability": "NOT_LIVE_VERIFIED",
+      "sha256": null,
+      "purchased": false,
+      "runtime_eligible": false
+    },
+    {
+      "id": "kawasaki-us-kx250-2025-service-purchase",
+      "url": "https://www.kawasaki.com/en-us/owner-center/service-manuals/2025/KX252ESFNN",
+      "title": "Service Manual, KX252E/F",
+      "document_type": "FACTORY_SERVICE_MANUAL",
+      "source_access": "OEM_SEARCH_INDEX_ONLY_DIRECT_FETCH_REDIRECT_LOOP",
+      "manual_body_access": "NOT_RETRIEVED_DISCOVERY_ONLY",
+      "publication": "99830-0180-04",
+      "applicability": {
+        "make": "Kawasaki",
+        "model": "KX250",
+        "model_years": [
+          2025
+        ],
+        "variant": "standard",
+        "region": "US",
+        "model_code": "KX252ESFNN"
+      },
+      "price": {
+        "amount": 117.71,
+        "currency": "USD",
+        "basis": "indexed OEM MSRP; not a live cart quote",
+        "checked_date": "2026-09-13"
+      },
+      "availability": "NOT_LIVE_VERIFIED",
+      "sha256": null,
+      "purchased": false,
+      "runtime_eligible": false
+    },
+    {
+      "id": "kawasaki-us-kx250-2026-service-purchase",
+      "url": "https://www.kawasaki.com/en-us/owner-center/service-manuals/2026/kx252etfnn",
+      "title": "Service Manual, KX252E/F",
+      "document_type": "FACTORY_SERVICE_MANUAL",
+      "source_access": "OEM_SEARCH_INDEX_ONLY_DIRECT_FETCH_REDIRECT_LOOP",
+      "manual_body_access": "NOT_RETRIEVED_DISCOVERY_ONLY",
+      "publication": "99830-0180-04",
+      "applicability": {
+        "make": "Kawasaki",
+        "model": "KX250",
+        "model_years": [
+          2026
+        ],
+        "variant": "standard",
+        "region": "US",
+        "model_code": "kx252etfnn"
+      },
+      "price": {
+        "amount": 117.71,
+        "currency": "USD",
+        "basis": "indexed OEM MSRP; not a live cart quote",
+        "checked_date": "2026-09-13"
+      },
+      "availability": "NOT_LIVE_VERIFIED",
+      "sha256": null,
+      "purchased": false,
+      "runtime_eligible": false
+    },
+    {
+      "id": "kawasaki-us-kx450-2025-service-purchase",
+      "url": "https://www.kawasaki.com/en-us/owner-center/service-manuals/2025/KX450MSFNN",
+      "title": "Service Manual, KX450M/N/P",
+      "document_type": "FACTORY_SERVICE_MANUAL",
+      "source_access": "OEM_SEARCH_INDEX_ONLY_DIRECT_FETCH_REDIRECT_LOOP",
+      "manual_body_access": "NOT_RETRIEVED_DISCOVERY_ONLY",
+      "publication": "99830-0153-05",
+      "applicability": {
+        "make": "Kawasaki",
+        "model": "KX450",
+        "model_years": [
+          2025
+        ],
+        "variant": "standard",
+        "region": "US",
+        "model_code": "KX450MSFNN"
+      },
+      "price": {
+        "amount": 103.15,
+        "currency": "USD",
+        "basis": "indexed OEM MSRP; not a live cart quote",
+        "checked_date": "2026-09-13"
+      },
+      "availability": "INDEXED_OUT_OF_STOCK",
+      "sha256": null,
+      "purchased": false,
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-ro-2022-crf450-competition-lead",
+      "url": "https://honda-moto.ro/wp-content/uploads/22-CRF450-Handbook-EN-Web.pdf",
+      "title": "2022 CRF450R/RX Competition Handbook lead",
+      "document_type": "COMPETITION_HANDBOOK",
+      "source_access": "SEARCH_INDEX_ONLY",
+      "manual_body_access": "NOT_RETRIEVED_DISCOVERY_ONLY",
+      "publication": null,
+      "applicability": null,
+      "sha256": null,
+      "region_notes": "Regional Honda-branded Romanian host; EU/English lead only. Cover and applicability not inspected; no US inheritance.",
+      "failure": "Web fetch reports PDF 16,889,596 bytes exceeds limit; ordinary urllib returned HTTP786 Not allowed.",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-us-crf250r-2024-competition",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952424chen.pdf",
+      "title": "2024 CRF250R/RX Competition Handbook",
+      "document_type": "COMPETITION_HANDBOOK",
+      "source_access": "OEM_PDF_BODY_READ_SELECTED_TABLE_VISUALLY_CHECKED",
+      "manual_body_access": "RETRIEVED_AND_SELECTED_PAGES_INSPECTED",
+      "publication": "61K95X30",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "sha256": "3388e50048f0a99edffda9653f9457bcba8d51ba6529e2c9d4f8352ac19017e8",
+      "page_count": 126,
+      "local_inspection_copy": "/tmp/2024-CRF250R-ch.pdf",
+      "archive_status": "TEMPORARY_ONLY_NOT_IN_REPOSITORY",
+      "visual_pages": [
+        22
+      ],
+      "scope_evidence": "Exact US Honda selector entry, PDF model-year cover, US publication colophon; standard R separately gated from RX/RWE.",
+      "section_map": [
+        {
+          "section": "Maintenance",
+          "printed_page": "2-1",
+          "pdf_page": 19
+        },
+        {
+          "section": "Condition-specific torque table",
+          "printed_page": "2-4",
+          "pdf_page": 22
+        },
+        {
+          "section": "Setting Information",
+          "printed_page": "3-1",
+          "pdf_page": 105
+        },
+        {
+          "section": "Wiring diagram indexed; circuit contents not extracted",
+          "printed_page": "3-20",
+          "pdf_page": 124
+        }
+      ],
+      "rights_review": "PENDING",
+      "runtime_eligible": false,
+      "candidate_source_derived_word_count": 73
+    },
+    {
+      "id": "honda-us-crf250r-2023-competition",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "title": "2023 CRF250R/RX Competition Handbook",
+      "document_type": "COMPETITION_HANDBOOK",
+      "source_access": "OEM_PDF_BODY_READ_SELECTED_TABLE_VISUALLY_CHECKED",
+      "manual_body_access": "RETRIEVED_AND_SELECTED_PAGES_INSPECTED",
+      "publication": "61K95X20",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "page_count": 126,
+      "local_inspection_copy": "/tmp/2023-CRF250R-ch.pdf",
+      "archive_status": "TEMPORARY_ONLY_NOT_IN_REPOSITORY",
+      "visual_pages": [
+        22
+      ],
+      "scope_evidence": "Exact US Honda selector entry, PDF model-year cover, US publication colophon; standard R separately gated from RX/RWE.",
+      "section_map": [
+        {
+          "section": "Maintenance",
+          "printed_page": "2-1",
+          "pdf_page": 19
+        },
+        {
+          "section": "Condition-specific torque table",
+          "printed_page": "2-4",
+          "pdf_page": 22
+        },
+        {
+          "section": "Setting Information",
+          "printed_page": "3-1",
+          "pdf_page": 105
+        },
+        {
+          "section": "Wiring diagram indexed; circuit contents not extracted",
+          "printed_page": "3-20",
+          "pdf_page": 124
+        }
+      ],
+      "rights_review": "PENDING",
+      "runtime_eligible": false,
+      "candidate_source_derived_word_count": 73
+    },
+    {
+      "id": "honda-us-crf250r-2022-competition",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "title": "2022 CRF250R/RX Competition Handbook",
+      "document_type": "COMPETITION_HANDBOOK",
+      "source_access": "OEM_PDF_BODY_READ_SELECTED_TABLE_VISUALLY_CHECKED",
+      "manual_body_access": "RETRIEVED_AND_SELECTED_PAGES_INSPECTED",
+      "publication": "61K95X10",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "page_count": 126,
+      "local_inspection_copy": "/tmp/2022-CRF250R-ch.pdf",
+      "archive_status": "TEMPORARY_ONLY_NOT_IN_REPOSITORY",
+      "visual_pages": [
+        22
+      ],
+      "scope_evidence": "Exact US Honda selector entry, PDF model-year cover, US publication colophon; standard R separately gated from RX/RWE.",
+      "section_map": [
+        {
+          "section": "Maintenance",
+          "printed_page": "2-1",
+          "pdf_page": 19
+        },
+        {
+          "section": "Condition-specific torque table",
+          "printed_page": "2-4",
+          "pdf_page": 22
+        },
+        {
+          "section": "Setting Information",
+          "printed_page": "3-1",
+          "pdf_page": 105
+        },
+        {
+          "section": "Wiring diagram indexed; circuit contents not extracted",
+          "printed_page": "3-20",
+          "pdf_page": 124
+        }
+      ],
+      "rights_review": "PENDING",
+      "runtime_eligible": false,
+      "candidate_source_derived_word_count": 73
+    },
+    {
+      "id": "honda-us-crf450r-2024-competition",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2424chen.pdf",
+      "title": "2024 CRF450R/RX/RWE Competition Handbook",
+      "document_type": "COMPETITION_HANDBOOK",
+      "source_access": "OEM_PDF_BODY_READ_SELECTED_TABLE_VISUALLY_CHECKED",
+      "manual_body_access": "RETRIEVED_AND_SELECTED_PAGES_INSPECTED",
+      "publication": "61MKEX30",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "sha256": "15551ba9b237cffff0c3b2052335f55ac959bde733daa9d237475f484e8030cd",
+      "page_count": 124,
+      "local_inspection_copy": "/tmp/2024-CRF450R-ch.pdf",
+      "archive_status": "TEMPORARY_ONLY_NOT_IN_REPOSITORY",
+      "visual_pages": [
+        23
+      ],
+      "scope_evidence": "Exact US Honda selector entry, PDF model-year cover, US publication colophon; standard R separately gated from RX/RWE.",
+      "section_map": [
+        {
+          "section": "Maintenance",
+          "printed_page": "2-1",
+          "pdf_page": 21
+        },
+        {
+          "section": "Condition-specific torque table",
+          "printed_page": "2-3",
+          "pdf_page": 23
+        },
+        {
+          "section": "Setting Information",
+          "printed_page": "3-1",
+          "pdf_page": 103
+        },
+        {
+          "section": "Wiring diagram indexed; circuit contents not extracted",
+          "printed_page": "3-20",
+          "pdf_page": 122
+        }
+      ],
+      "rights_review": "PENDING",
+      "runtime_eligible": false,
+      "candidate_source_derived_word_count": 65
+    },
+    {
+      "id": "honda-us-crf450r-2023-competition",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2323chen.pdf",
+      "title": "2023 CRF450R/RX/RWE Competition Handbook",
+      "document_type": "COMPETITION_HANDBOOK",
+      "source_access": "OEM_PDF_BODY_READ_SELECTED_TABLE_VISUALLY_CHECKED",
+      "manual_body_access": "RETRIEVED_AND_SELECTED_PAGES_INSPECTED",
+      "publication": "61MKEX20",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "sha256": "29bd02fc18fd2ff07737ab3b93412dd1f00cc3b8567502a602bbfd51682e0df4",
+      "page_count": 124,
+      "local_inspection_copy": "/tmp/2023-CRF450R-ch.pdf",
+      "archive_status": "TEMPORARY_ONLY_NOT_IN_REPOSITORY",
+      "visual_pages": [
+        23
+      ],
+      "scope_evidence": "Exact US Honda selector entry, PDF model-year cover, US publication colophon; standard R separately gated from RX/RWE.",
+      "section_map": [
+        {
+          "section": "Maintenance",
+          "printed_page": "2-1",
+          "pdf_page": 21
+        },
+        {
+          "section": "Condition-specific torque table",
+          "printed_page": "2-3",
+          "pdf_page": 23
+        },
+        {
+          "section": "Setting Information",
+          "printed_page": "3-1",
+          "pdf_page": 103
+        },
+        {
+          "section": "Wiring diagram indexed; circuit contents not extracted",
+          "printed_page": "3-20",
+          "pdf_page": 122
+        }
+      ],
+      "rights_review": "PENDING",
+      "runtime_eligible": false,
+      "candidate_source_derived_word_count": 65
+    },
+    {
+      "id": "honda-us-crf450r-2022-competition",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "title": "2022 CRF450R/RX/RWE Competition Handbook",
+      "document_type": "COMPETITION_HANDBOOK",
+      "source_access": "OEM_PDF_BODY_READ_SELECTED_TABLE_VISUALLY_CHECKED",
+      "manual_body_access": "RETRIEVED_AND_SELECTED_PAGES_INSPECTED",
+      "publication": "61MKEX10",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "sha256": "24cf776173f95eab9ea06826dd43562acc1c81680a14abcd292c467c68e79d8a",
+      "page_count": 124,
+      "local_inspection_copy": "/tmp/2022-CRF450R-ch.pdf",
+      "archive_status": "TEMPORARY_ONLY_NOT_IN_REPOSITORY",
+      "visual_pages": [
+        23
+      ],
+      "scope_evidence": "Exact US Honda selector entry, PDF model-year cover, US publication colophon; standard R separately gated from RX/RWE.",
+      "section_map": [
+        {
+          "section": "Maintenance",
+          "printed_page": "2-1",
+          "pdf_page": 21
+        },
+        {
+          "section": "Condition-specific torque table",
+          "printed_page": "2-3",
+          "pdf_page": 23
+        },
+        {
+          "section": "Setting Information",
+          "printed_page": "3-1",
+          "pdf_page": 103
+        },
+        {
+          "section": "Wiring diagram indexed; circuit contents not extracted",
+          "printed_page": "3-20",
+          "pdf_page": 122
+        }
+      ],
+      "rights_review": "PENDING",
+      "runtime_eligible": false,
+      "candidate_source_derived_word_count": 65
+    }
+  ],
+  "candidates": [
+    {
+      "id": "honda-us-crf250r-2024-competition-oil-drain-torque",
+      "source_id": "honda-us-crf250r-2024-competition",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 2-4; PDF page 22 (one-based), torque table",
+      "statement": "Engine-oil drain bolt: 23 N\u00b7m.",
+      "conditions": "Apply engine oil to threads and seating surface before tightening; table row specifies 14 mm thread.",
+      "value": 23,
+      "unit": "N\u00b7m",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard R only. Table fact is not a complete procedure; consult associated assembly/replacement instructions before service."
+    },
+    {
+      "id": "honda-us-crf250r-2024-competition-rear-axle-torque",
+      "source_id": "honda-us-crf250r-2024-competition",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 2-4; PDF page 22 (one-based), torque table",
+      "statement": "Rear axle nut: 128 N\u00b7m.",
+      "conditions": "Specified self-locking nut; table row specifies 22 mm thread.",
+      "value": 128,
+      "unit": "N\u00b7m",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard R only. Table fact is not a complete procedure; consult associated assembly/replacement instructions before service."
+    },
+    {
+      "id": "honda-us-crf250r-2024-competition-fork-protector-torque",
+      "source_id": "honda-us-crf250r-2024-competition",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 2-4; PDF page 22 (one-based), torque table",
+      "statement": "Fork protector bolts: 7 N\u00b7m.",
+      "conditions": "Replace with new bolts; six specified 6 mm fasteners.",
+      "value": 7,
+      "unit": "N\u00b7m",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard R only. Table fact is not a complete procedure; consult associated assembly/replacement instructions before service."
+    },
+    {
+      "id": "honda-us-crf250r-2024-competition-front-caliper-torque",
+      "source_id": "honda-us-crf250r-2024-competition",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 2-4; PDF page 22 (one-based), torque table",
+      "statement": "Front brake caliper mounting bolts: 30 N\u00b7m.",
+      "conditions": "Apply locking agent to threads; two specified 8 mm fasteners.",
+      "value": 30,
+      "unit": "N\u00b7m",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard R only. Table fact is not a complete procedure; consult associated assembly/replacement instructions before service."
+    },
+    {
+      "id": "honda-us-crf250r-2024-competition-clutch-spring-torque",
+      "source_id": "honda-us-crf250r-2024-competition",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 2-4; PDF page 22 (one-based), torque table",
+      "statement": "Clutch spring bolt/washer: 12 N\u00b7m.",
+      "conditions": "Five specified 6 mm fasteners.",
+      "value": 12,
+      "unit": "N\u00b7m",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard R only. Table fact is not a complete procedure; consult associated assembly/replacement instructions before service."
+    },
+    {
+      "id": "honda-us-crf250r-2023-competition-oil-drain-torque",
+      "source_id": "honda-us-crf250r-2023-competition",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 2-4; PDF page 22 (one-based), torque table",
+      "statement": "Engine-oil drain bolt: 23 N\u00b7m.",
+      "conditions": "Apply engine oil to threads and seating surface before tightening; table row specifies 14 mm thread.",
+      "value": 23,
+      "unit": "N\u00b7m",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard R only. Table fact is not a complete procedure; consult associated assembly/replacement instructions before service."
+    },
+    {
+      "id": "honda-us-crf250r-2023-competition-rear-axle-torque",
+      "source_id": "honda-us-crf250r-2023-competition",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 2-4; PDF page 22 (one-based), torque table",
+      "statement": "Rear axle nut: 128 N\u00b7m.",
+      "conditions": "Specified self-locking nut; table row specifies 22 mm thread.",
+      "value": 128,
+      "unit": "N\u00b7m",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard R only. Table fact is not a complete procedure; consult associated assembly/replacement instructions before service."
+    },
+    {
+      "id": "honda-us-crf250r-2023-competition-fork-protector-torque",
+      "source_id": "honda-us-crf250r-2023-competition",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 2-4; PDF page 22 (one-based), torque table",
+      "statement": "Fork protector bolts: 7 N\u00b7m.",
+      "conditions": "Replace with new bolts; six specified 6 mm fasteners.",
+      "value": 7,
+      "unit": "N\u00b7m",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard R only. Table fact is not a complete procedure; consult associated assembly/replacement instructions before service."
+    },
+    {
+      "id": "honda-us-crf250r-2023-competition-front-caliper-torque",
+      "source_id": "honda-us-crf250r-2023-competition",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 2-4; PDF page 22 (one-based), torque table",
+      "statement": "Front brake caliper mounting bolts: 30 N\u00b7m.",
+      "conditions": "Apply locking agent to threads; two specified 8 mm fasteners.",
+      "value": 30,
+      "unit": "N\u00b7m",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard R only. Table fact is not a complete procedure; consult associated assembly/replacement instructions before service."
+    },
+    {
+      "id": "honda-us-crf250r-2023-competition-clutch-spring-torque",
+      "source_id": "honda-us-crf250r-2023-competition",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 2-4; PDF page 22 (one-based), torque table",
+      "statement": "Clutch spring bolt/washer: 12 N\u00b7m.",
+      "conditions": "Five specified 6 mm fasteners.",
+      "value": 12,
+      "unit": "N\u00b7m",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard R only. Table fact is not a complete procedure; consult associated assembly/replacement instructions before service."
+    },
+    {
+      "id": "honda-us-crf250r-2022-competition-oil-drain-torque",
+      "source_id": "honda-us-crf250r-2022-competition",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 2-4; PDF page 22 (one-based), torque table",
+      "statement": "Engine-oil drain bolt: 23 N\u00b7m.",
+      "conditions": "Apply engine oil to threads and seating surface before tightening; table row specifies 14 mm thread.",
+      "value": 23,
+      "unit": "N\u00b7m",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard R only. Table fact is not a complete procedure; consult associated assembly/replacement instructions before service."
+    },
+    {
+      "id": "honda-us-crf250r-2022-competition-rear-axle-torque",
+      "source_id": "honda-us-crf250r-2022-competition",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 2-4; PDF page 22 (one-based), torque table",
+      "statement": "Rear axle nut: 128 N\u00b7m.",
+      "conditions": "Specified self-locking nut; table row specifies 22 mm thread.",
+      "value": 128,
+      "unit": "N\u00b7m",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard R only. Table fact is not a complete procedure; consult associated assembly/replacement instructions before service."
+    },
+    {
+      "id": "honda-us-crf250r-2022-competition-fork-protector-torque",
+      "source_id": "honda-us-crf250r-2022-competition",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 2-4; PDF page 22 (one-based), torque table",
+      "statement": "Fork protector bolts: 7 N\u00b7m.",
+      "conditions": "Replace with new bolts; six specified 6 mm fasteners.",
+      "value": 7,
+      "unit": "N\u00b7m",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard R only. Table fact is not a complete procedure; consult associated assembly/replacement instructions before service."
+    },
+    {
+      "id": "honda-us-crf250r-2022-competition-front-caliper-torque",
+      "source_id": "honda-us-crf250r-2022-competition",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 2-4; PDF page 22 (one-based), torque table",
+      "statement": "Front brake caliper mounting bolts: 30 N\u00b7m.",
+      "conditions": "Apply locking agent to threads; two specified 8 mm fasteners.",
+      "value": 30,
+      "unit": "N\u00b7m",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard R only. Table fact is not a complete procedure; consult associated assembly/replacement instructions before service."
+    },
+    {
+      "id": "honda-us-crf250r-2022-competition-clutch-spring-torque",
+      "source_id": "honda-us-crf250r-2022-competition",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 2-4; PDF page 22 (one-based), torque table",
+      "statement": "Clutch spring bolt/washer: 12 N\u00b7m.",
+      "conditions": "Five specified 6 mm fasteners.",
+      "value": 12,
+      "unit": "N\u00b7m",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard R only. Table fact is not a complete procedure; consult associated assembly/replacement instructions before service."
+    },
+    {
+      "id": "honda-us-crf450r-2024-competition-oil-drain-torque",
+      "source_id": "honda-us-crf450r-2024-competition",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 2-3; PDF page 23 (one-based), torque table",
+      "statement": "Engine-oil drain bolt: 18 N\u00b7m.",
+      "conditions": "Apply engine oil to threads and seating surface before tightening; table row specifies 30 mm thread.",
+      "value": 18,
+      "unit": "N\u00b7m",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard R only. Table fact is not a complete procedure; consult associated assembly/replacement instructions before service."
+    },
+    {
+      "id": "honda-us-crf450r-2024-competition-camshaft-holder-torque",
+      "source_id": "honda-us-crf450r-2024-competition",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 2-3; PDF page 23 (one-based), torque table",
+      "statement": "Camshaft holder mounting bolts: 15 N\u00b7m.",
+      "conditions": "Apply engine oil to threads and seating surfaces; four specified 7 mm fasteners.",
+      "value": 15,
+      "unit": "N\u00b7m",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard R only. Table fact is not a complete procedure; consult associated assembly/replacement instructions before service."
+    },
+    {
+      "id": "honda-us-crf450r-2024-competition-crankshaft-cap-torque",
+      "source_id": "honda-us-crf450r-2024-competition",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 2-3; PDF page 23 (one-based), torque table",
+      "statement": "Crankshaft hole cap: 15 N\u00b7m.",
+      "conditions": "Grease threads; specified 30 mm thread.",
+      "value": 15,
+      "unit": "N\u00b7m",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard R only. Table fact is not a complete procedure; consult associated assembly/replacement instructions before service."
+    },
+    {
+      "id": "honda-us-crf450r-2024-competition-seat-bolt-torque",
+      "source_id": "honda-us-crf450r-2024-competition",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 2-3; PDF page 23 (one-based), torque table",
+      "statement": "Seat mounting bolts: 10 N\u00b7m.",
+      "conditions": "Two specified 6 mm fasteners.",
+      "value": 10,
+      "unit": "N\u00b7m",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard R only. Table fact is not a complete procedure; consult associated assembly/replacement instructions before service."
+    },
+    {
+      "id": "honda-us-crf450r-2024-competition-battery-terminal-torque",
+      "source_id": "honda-us-crf450r-2024-competition",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 2-3; PDF page 23 (one-based), torque table",
+      "statement": "Battery terminal bolts: 2 N\u00b7m.",
+      "conditions": "Two specified 5 mm fasteners.",
+      "value": 2,
+      "unit": "N\u00b7m",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard R only. Table fact is not a complete procedure; consult associated assembly/replacement instructions before service."
+    },
+    {
+      "id": "honda-us-crf450r-2023-competition-oil-drain-torque",
+      "source_id": "honda-us-crf450r-2023-competition",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 2-3; PDF page 23 (one-based), torque table",
+      "statement": "Engine-oil drain bolt: 18 N\u00b7m.",
+      "conditions": "Apply engine oil to threads and seating surface before tightening; table row specifies 30 mm thread.",
+      "value": 18,
+      "unit": "N\u00b7m",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard R only. Table fact is not a complete procedure; consult associated assembly/replacement instructions before service."
+    },
+    {
+      "id": "honda-us-crf450r-2023-competition-camshaft-holder-torque",
+      "source_id": "honda-us-crf450r-2023-competition",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 2-3; PDF page 23 (one-based), torque table",
+      "statement": "Camshaft holder mounting bolts: 15 N\u00b7m.",
+      "conditions": "Apply engine oil to threads and seating surfaces; four specified 7 mm fasteners.",
+      "value": 15,
+      "unit": "N\u00b7m",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard R only. Table fact is not a complete procedure; consult associated assembly/replacement instructions before service."
+    },
+    {
+      "id": "honda-us-crf450r-2023-competition-crankshaft-cap-torque",
+      "source_id": "honda-us-crf450r-2023-competition",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 2-3; PDF page 23 (one-based), torque table",
+      "statement": "Crankshaft hole cap: 15 N\u00b7m.",
+      "conditions": "Grease threads; specified 30 mm thread.",
+      "value": 15,
+      "unit": "N\u00b7m",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard R only. Table fact is not a complete procedure; consult associated assembly/replacement instructions before service."
+    },
+    {
+      "id": "honda-us-crf450r-2023-competition-seat-bolt-torque",
+      "source_id": "honda-us-crf450r-2023-competition",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 2-3; PDF page 23 (one-based), torque table",
+      "statement": "Seat mounting bolts: 10 N\u00b7m.",
+      "conditions": "Two specified 6 mm fasteners.",
+      "value": 10,
+      "unit": "N\u00b7m",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard R only. Table fact is not a complete procedure; consult associated assembly/replacement instructions before service."
+    },
+    {
+      "id": "honda-us-crf450r-2023-competition-battery-terminal-torque",
+      "source_id": "honda-us-crf450r-2023-competition",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 2-3; PDF page 23 (one-based), torque table",
+      "statement": "Battery terminal bolts: 2 N\u00b7m.",
+      "conditions": "Two specified 5 mm fasteners.",
+      "value": 2,
+      "unit": "N\u00b7m",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard R only. Table fact is not a complete procedure; consult associated assembly/replacement instructions before service."
+    },
+    {
+      "id": "honda-us-crf450r-2022-competition-oil-drain-torque",
+      "source_id": "honda-us-crf450r-2022-competition",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 2-3; PDF page 23 (one-based), torque table",
+      "statement": "Engine-oil drain bolt: 18 N\u00b7m.",
+      "conditions": "Apply engine oil to threads and seating surface before tightening; table row specifies 30 mm thread.",
+      "value": 18,
+      "unit": "N\u00b7m",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard R only. Table fact is not a complete procedure; consult associated assembly/replacement instructions before service."
+    },
+    {
+      "id": "honda-us-crf450r-2022-competition-camshaft-holder-torque",
+      "source_id": "honda-us-crf450r-2022-competition",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 2-3; PDF page 23 (one-based), torque table",
+      "statement": "Camshaft holder mounting bolts: 15 N\u00b7m.",
+      "conditions": "Apply engine oil to threads and seating surfaces; four specified 7 mm fasteners.",
+      "value": 15,
+      "unit": "N\u00b7m",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard R only. Table fact is not a complete procedure; consult associated assembly/replacement instructions before service."
+    },
+    {
+      "id": "honda-us-crf450r-2022-competition-crankshaft-cap-torque",
+      "source_id": "honda-us-crf450r-2022-competition",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 2-3; PDF page 23 (one-based), torque table",
+      "statement": "Crankshaft hole cap: 15 N\u00b7m.",
+      "conditions": "Grease threads; specified 30 mm thread.",
+      "value": 15,
+      "unit": "N\u00b7m",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard R only. Table fact is not a complete procedure; consult associated assembly/replacement instructions before service."
+    },
+    {
+      "id": "honda-us-crf450r-2022-competition-seat-bolt-torque",
+      "source_id": "honda-us-crf450r-2022-competition",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 2-3; PDF page 23 (one-based), torque table",
+      "statement": "Seat mounting bolts: 10 N\u00b7m.",
+      "conditions": "Two specified 6 mm fasteners.",
+      "value": 10,
+      "unit": "N\u00b7m",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard R only. Table fact is not a complete procedure; consult associated assembly/replacement instructions before service."
+    },
+    {
+      "id": "honda-us-crf450r-2022-competition-battery-terminal-torque",
+      "source_id": "honda-us-crf450r-2022-competition",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed page 2-3; PDF page 23 (one-based), torque table",
+      "statement": "Battery terminal bolts: 2 N\u00b7m.",
+      "conditions": "Two specified 5 mm fasteners.",
+      "value": 2,
+      "unit": "N\u00b7m",
+      "status": "RESEARCH_ONLY",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Stock standard R only. Table fact is not a complete procedure; consult associated assembly/replacement instructions before service."
+    }
+  ],
+  "counts": {
+    "sources": 17,
+    "service_manual_purchase_sources": 10,
+    "unique_service_manual_skus": 7,
+    "product_pages_read": 4,
+    "indexed_purchase_listings_only": 6,
+    "competition_handbook_discovery_only": 1,
+    "manual_bodies_read": 6,
+    "service_fact_candidates": 30,
+    "purchases": 0,
+    "competition_handbook_bodies_read": 6
+  },
+  "publication_selection_notes": [
+    "2025 CRF250R overlaps Helm 61K9550 and 61K9561. Both catalog claims are recorded; neither establishes supersession or complete VIN-specific coverage. Confirm intended edition with Helm/Honda before ordering.",
+    "Helm also lists 61K9560 for 2025\u20132026 CRF250R, temporarily unavailable; 61K9561 is the separately verified 2025\u20132027 listing.",
+    "Kawasaki 99830-0039-09 MSRP $95.75 is explicitly indexed on the 2022 KX250 page (and 2024 KX250X listing); no independently observed price assigned to 2023/2024 standard-model rows.",
+    "Kawasaki service manuals are separate purchase products. Owner-manual VIEW MANUAL links are not evidence of a publicly readable service manual."
+  ],
+  "remaining_gaps": [
+    "Kawasaki KX450 2022,2023,2024,2026 exact official purchase SKU/year mapping remains unresolved in this pass. Do not transfer the 2025 SKU across those years.",
+    "Paid factory service manual bodies remain unacquired. Six public competition handbooks provide selected torque facts and section references, not full diagnostic coverage.",
+    "2025\u20132026 Honda competition handbook acquisition is handled in the root pass; do not infer those years from 2022\u20132024 records."
+  ],
+  "rights_notes": "No publications copied into repository. Prices and catalog identities are concise metadata, not publication content. No purchase executed."
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "status": "RESEARCH_PARTIAL_BRIDGE_NOT_RUNTIME_APPROVAL",
+  "source": {
+    "url": "https://www.rd-service.se/pdf/kyb_2021.pdf",
+    "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\kyb-genuine-2021-pass7.pdf",
+    "sha256": "725f565e32fabc9c92a3fd0bf7eeef7b3f340e26677b8b6ceeb1c78bce4f9e56",
+    "visual_pdf_pages": [
+      22
+    ],
+    "printed_pages": [
+      "42",
+      "43"
+    ]
+  },
+  "artifact": {
+    "path": "COMPATIBILITY_BRIDGE_V2.md",
+    "sha256": "18c21fb86a2545cdaca1e3a44e9a9eb27f21829a184d6d3a1d5e7e77c4e43de0"
+  },
+  "exact_us_cartridge": "D03-23170-00-00",
+  "exact_us_base_valve": "D03-2316A-00-00",
+  "same_catalog_seal": "110210000401",
+  "same_catalog_bush": "110231200101",
+  "unresolved": "Current cartridge-head method applicability and newer seal retention vs illustrated separate backup ring",
+  "no_db_writes": true
+}

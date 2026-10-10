@@ -1,0 +1,98 @@
+{
+  "transmission-bench-v1": [
+    "fork-check",
+    "shaft-check",
+    "gear-check",
+    "function"
+  ],
+  "oil-pump-bench-v1": [
+    "inspect",
+    "cover",
+    "mount"
+  ],
+  "primary-balancer-bench-v1": [
+    "inspect",
+    "oneway",
+    "drive",
+    "starter-install",
+    "torque"
+  ],
+  "generator-bench-v1": [
+    "inspect",
+    "stator-install",
+    "rotor-install",
+    "cover-install"
+  ],
+  "crankcase-bench-v1": [
+    "clean",
+    "strainer",
+    "bearings",
+    "retainers",
+    "internals-in",
+    "oil-parts",
+    "case-torque"
+  ],
+  "crankshaft-assembly-bench-v1": [
+    "runout",
+    "width",
+    "install"
+  ],
+  "head-remove-refit-bench-v1": [
+    "inspect",
+    "repair",
+    "first",
+    "second-one",
+    "second-rest",
+    "final-angle",
+    "small"
+  ],
+  "cylinder-piston-bench-v1": [
+    "bore",
+    "piston-size",
+    "side-gap",
+    "end-gap",
+    "pin-check",
+    "parts",
+    "clock",
+    "cylinder-install"
+  ],
+  "head-valve-inspect-reseal-bench-v1": [
+    "lifters",
+    "sealing",
+    "guide-check",
+    "valve-check",
+    "seat-check",
+    "spring-check",
+    "disposition"
+  ],
+  "cams-remove-bench-v1": [
+    "tdc",
+    "measure",
+    "tensioner-check"
+  ],
+  "camshaft-inspection-bench-v1": [
+    "lobes",
+    "plastigauge",
+    "journal",
+    "chain",
+    "decompressor"
+  ],
+  "cams-install-bench-v1": [
+    "entry",
+    "cams-install",
+    "caps-install",
+    "tensioner-install",
+    "tensioner-release",
+    "timing-verify",
+    "remeasure",
+    "cover-install",
+    "plug-access-close"
+  ],
+  "shift-mechanism-bench-v1": [
+    "inspect",
+    "stopper",
+    "pawls",
+    "shaft",
+    "pedal"
+  ]
+}

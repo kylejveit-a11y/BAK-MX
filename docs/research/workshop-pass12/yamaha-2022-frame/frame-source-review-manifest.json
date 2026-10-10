@@ -1,0 +1,30 @@
+{
+  "status": "APPROVED",
+  "sources": [
+    {
+      "id": "yamaha-2022-b2w",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf",
+      "local_pdf_path": "C:/Users/kylej/AppData/Local/Temp/B2W-2819U-12_02.pdf",
+      "sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "frame-bearing-renewal-reassembly-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "80aaf24e8f9ee4abff65dfd53d56f09f88ce107114bf50703eab0a1c2d51fecd",
+      "source_id": "yamaha-2022-b2w",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      }
+    }
+  ],
+  "independent_review": {
+    "path": "docs/research/workshop-pass12/yamaha-2022-frame/frame-independent-review-v1.json",
+    "sha256": "1309a9ccbbe4f320b30c379ac4797354326820aa201ef3478a54fe3b72d01c2f"
+  }
+}

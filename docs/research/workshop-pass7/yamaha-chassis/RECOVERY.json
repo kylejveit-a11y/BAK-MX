@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "active_target": "US2026 stock Yamaha YZ450F only",
+  "phase": "Four chassis procedures root-approved and frozen",
+  "candidate_count": 0,
+  "database_writes": false,
+  "physical_validation": false,
+  "next": "Root integrates frozen manifest; physical validation remains separate. Await next same-bike review assignment.",
+  "source_pdf": "C:/Users/kylej/AppData/Local/Temp/D03-2819U-10_02.pdf",
+  "source_hash": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+  "temp_component_sources": "C:/Users/kylej/AppData/Local/Temp/chassis7",
+  "integration_manifest": "source-review-manifest.json",
+  "approved_count": 4,
+  "total_artifacts": 4,
+  "total_steps": 91
+}

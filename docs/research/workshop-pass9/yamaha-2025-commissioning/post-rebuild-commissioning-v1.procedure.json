@@ -1,0 +1,1080 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2025-yz450f-post-rebuild-commissioning-v1",
+  "title": "Commission the repaired engine and complete break-in follow-up",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2025,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "publication_status": "APPROVED",
+  "completeness": "Illustrated maintenance companion; not a stand-alone all-joint access or internal fit diagnostic. Actual required inspections and repairs must be recorded before completion.",
+  "entry_state": [
+    "Exact standard US 2025 stock YZ450F engine repaired, refitted and assembled with accepted timing, cold clearances, oil supply/levels, coolant fill, controls and stationary checks; engine completely cool.",
+    "Correctly fitting Mityvac MV4560 cooling-system adapter and secure hose connections confirmed before this illustrated tester-method route. This is not a claim that MV4560 is identical to the Yamaha-listed kit."
+  ],
+  "exit_state": [
+    "Actual post-head-gasket cooling test, selected replacement-part break-in and all required follow-up work recorded; no unresolved inspection findings.",
+    "Fuel-tank internal cleaning, inaccessible repaired-part fit assessment and all-joint checks require actual qualified work where this companion does not provide the method."
+  ],
+  "applicability": {
+    "included": "Exact US 2025 standard stock YZ450F after completed top-end repair with new head gasket and new valves/piston/rings/camshaft or cylinder.",
+    "excluded": [
+      "Aftermarket build specifications",
+      "Bottom-end repair and crankshaft/gear-specific commissioning",
+      "Diagnosis/repair of failed tests",
+      "Use of other pressure testers without their reviewed operating method"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "affected_components": [
+    "engine",
+    "generator",
+    "air_filter",
+    "wheels",
+    "brakes",
+    "clutch",
+    "suspension",
+    "frame"
+  ],
+  "preflight": [
+    "Have original illustrated manual and torque-check sheet available.",
+    "Arrange qualified assessment for required inaccessible checks or checks outside operator capability.",
+    "Do not record work as completed unless physically performed."
+  ],
+  "required_tools": [
+    {
+      "name": "Mityvac MV4560 and verified correct cooling-system adapter; readable pressure gauge; thick cloth and eye protection"
+    },
+    {
+      "name": "Secure stand; torque tools spanning 2.5–135 N·m; timer; oil temperature measurement for the source level check"
+    },
+    {
+      "name": "Clean drain container, filter tools, spoke wrench, cable lubricant applicator and chain measurement tool"
+    },
+    {
+      "name": "Exact D02 diagrams and actual qualified tank-cleaning, repaired-part fit and all-joint inspection support"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "Stock oil filter and new cover O-ring",
+      "purpose": "Deliberate filter renewal with post-break-in oil change"
+    },
+    {
+      "name": "New oil drain gaskets and filler O-ring",
+      "purpose": "Oil closure"
+    },
+    {
+      "name": "New left generator-cover gasket",
+      "purpose": "Inspection access closure"
+    },
+    {
+      "name": "Specified engine oil and coolant",
+      "purpose": "Refill/check"
+    },
+    {
+      "name": "Foam filter oil, approved filter cleaner, lithium-soap and silicone greases",
+      "purpose": "Source maintenance points"
+    },
+    {
+      "name": "New exact pump gasket if pump removed",
+      "purpose": "Fuel-tank cleaning closure"
+    }
+  ],
+  "critical_stop_conditions": [
+    "Oil debris, flow failure, leaks or abnormal running",
+    "Unresolved fit assessment or required inaccessible check",
+    "Generator looseness/contact damage or control fault"
+  ],
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf",
+    "document_sha256": "5005e7d8492c9482dfe44c6d752609a9a70a836f5b1dc94be3149d5d493de8ac",
+    "document_revision": "D02-2819U-10 / LIT-11626-38-16; March 2024",
+    "pdf_pages": [
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      88,
+      89,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      103,
+      104,
+      106,
+      107,
+      109,
+      110,
+      115,
+      116,
+      117,
+      121,
+      123,
+      124,
+      194,
+      195,
+      235,
+      236,
+      237,
+      238,
+      239,
+      246,
+      288,
+      289,
+      296,
+      297,
+      298
+    ],
+    "printed_pages": [
+      "38: 1-26",
+      "39: 1-27",
+      "40: 1-28",
+      "41: 1-29",
+      "42: 1-30",
+      "43: 1-31",
+      "56: 2-9",
+      "57: 2-10",
+      "58: 2-11",
+      "59: 2-12",
+      "60: 2-13",
+      "61: 2-14",
+      "62: 2-15",
+      "63: 2-16",
+      "64: 2-17",
+      "65: 2-18",
+      "66: 2-19",
+      "67: 2-20",
+      "68: 2-21",
+      "69: 2-22",
+      "70: 2-23",
+      "71: 2-24",
+      "72: 2-25",
+      "73: 2-26",
+      "74: 2-27",
+      "75: 2-28",
+      "88: 3-6",
+      "89: 3-7",
+      "94: 3-12",
+      "95: 3-13",
+      "96: 3-14",
+      "97: 3-15",
+      "98: 3-16",
+      "99: 3-17",
+      "100: 3-18",
+      "103: 3-21",
+      "104: 3-22",
+      "106: 3-24",
+      "107: 3-25",
+      "109: 3-27",
+      "110: 3-28",
+      "115: 3-33",
+      "116: 3-34",
+      "117: 3-35",
+      "121: 4-1",
+      "123: 4-3",
+      "124: 4-4",
+      "194: 4-74",
+      "195: 4-75",
+      "235: 5-36",
+      "236: 5-37",
+      "237: 5-38",
+      "238: 5-39",
+      "239: 5-40",
+      "246: 5-47",
+      "288: 6-5",
+      "289: 6-6",
+      "296: 7-1",
+      "297: 7-2",
+      "298: 7-3"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Independently reviewed against exact D02 and Mityvac tool-method pages; approved as the stated illustrated companion with actual external-work obligations.",
+    "document_id": "D02-2819U-10 / LIT-11626-38-16"
+  },
+  "operation_dependencies": [],
+  "steps": [
+    {
+      "id": "entry",
+      "title": "Accept the completed repair",
+      "instruction": "Record the exact repaired parts and completed engine-refit record. Accept cold clearances, timing, oil flow/levels, coolant fill, idle and controls before riding. The engine must now be fully cool. Any unresolved noise, leak or lubrication fault requires repair first. This companion does not itself perform engine removal/refit.",
+      "source_pdf_pages": [
+        39,
+        40,
+        88,
+        89
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=39",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=40",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=88",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=89"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record actual outcome; unresolved required work prevents completion."
+      ],
+      "record_required": true,
+      "depends_on": [],
+      "origin": "Original companion wording checked against exact 2025 D02 pages; prior 2026 structure is not applicability evidence."
+    },
+    {
+      "id": "plan",
+      "title": "Choose the actual parts route",
+      "instruction": "New valves, piston, rings or camshaft require about 30 minutes at no more than half throttle. A new cylinder requires about one hour: 20 minutes at no more than half throttle, inspect, then 40 minutes at no more than three-quarter throttle and inspect again. With both groups renewed, keep at or below half throttle for the first 30 minutes; this overlap is an explicit conservative workflow adaptation. Record the actual parts route.",
+      "source_pdf_pages": [
+        40
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=40"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record actual outcome; unresolved required work prevents completion."
+      ],
+      "record_required": true,
+      "depends_on": [
+        "entry"
+      ],
+      "origin": "Original companion wording checked against exact 2025 D02 pages; prior 2026 structure is not applicability evidence."
+    },
+    {
+      "id": "filter-open",
+      "title": "Open filter access",
+      "instruction": "Release the sub-seat quick fastener. Press the intake-duct side inward, release both cover ribs, lift its rear and slide rearward out of the front projection. Release the retaining band and move the bracket in the arrow direction shown in the diagram. Withdraw filter/guide together and separate the filter, guide and seal. Leave the bracket mounted.",
+      "source_pdf_pages": [
+        38,
+        98,
+        99
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=38",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=98",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=99"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record actual outcome; unresolved required work prevents completion."
+      ],
+      "record_required": false,
+      "depends_on": [
+        "plan"
+      ],
+      "origin": "Original companion wording checked against exact 2025 D02 pages; prior 2026 structure is not applicability evidence."
+    },
+    {
+      "id": "filter-clean",
+      "title": "Clean and oil the foam",
+      "instruction": "Wash with air-filter cleaner or kerosene, squeeze without twisting and dry fully. Replace damaged foam. Work Yamaha or quality foam-filter oil evenly through the foam in a bag; wipe excess with a clean cloth. It must be wet throughout but not dripping. Do not use gasoline or the source-prohibited volatile cleaners.",
+      "source_pdf_pages": [
+        99
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=99"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record actual outcome; unresolved required work prevents completion."
+      ],
+      "record_required": false,
+      "depends_on": [
+        "filter-open"
+      ],
+      "origin": "Original companion wording checked against exact 2025 D02 pages; prior 2026 structure is not applicability evidence."
+    },
+    {
+      "id": "filter-close",
+      "title": "Restore the sealed intake",
+      "instruction": "Fit seal/filter to the guide and grease the entire seal lips with lithium-soap grease. Move the bracket rearward, engage the guide projection with it and secure the other projection in the band. Engage cover projection and both ribs. Restore the breather through guide/groove, protected end in steering shaft and other end on cap. Secure sub-seat with tether untwisted.",
+      "source_pdf_pages": [
+        38,
+        100
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=38",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=100"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record actual outcome; unresolved required work prevents completion."
+      ],
+      "record_required": false,
+      "depends_on": [
+        "filter-clean"
+      ],
+      "origin": "Original companion wording checked against exact 2025 D02 pages; prior 2026 structure is not applicability evidence."
+    },
+    {
+      "id": "preflight",
+      "title": "Perform the pre-ride inspection",
+      "instruction": "Complete the pre-ride inspection: coolant/fuel/oil levels and no leaks; sequential shifts and smooth clutch; effective brakes; full throttle return and 3–6 mm free play; aligned lubricated chain; wheels/spokes/tires; smooth steering without play; smooth leak-free suspension; unrestricted cables and secure connectors. Cold tire pressure is 100 kPa (15 psi) front/rear. Correct failures before riding.",
+      "source_pdf_pages": [
+        88,
+        94,
+        106,
+        107,
+        109,
+        115
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=88",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=94",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=106",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=107",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=109",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=115"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record actual outcome; unresolved required work prevents completion."
+      ],
+      "record_required": true,
+      "depends_on": [
+        "filter-close"
+      ],
+      "origin": "Original companion wording checked against exact 2025 D02 pages; prior 2026 structure is not applicability evidence."
+    },
+    {
+      "id": "test-attach",
+      "title": "Attach the pressure tester while cold",
+      "instruction": "Use the Mityvac MV4560 method only with confirmed correct radiator adapter fit. With the engine fully cool, remove the cap under a thick cloth, slowly vent at the detent, then remove after hissing stops. Fill coolant to the source upper level and inspect hoses. Wet the adapter seal with water or coolant, seat it in the filler neck and secure both hose compression connections. Keep the original cap off until testing and full cooling are finished.",
+      "source_pdf_pages": [
+        103,
+        104,
+        288
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=103",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=104",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=288",
+        "https://cdn.skfmediahub.skf.com/api/public/0901d1968096854e/pdf_preview_medium/0901d1968096854e_pdf_preview_medium.pdf#page=8",
+        "https://cdn.skfmediahub.skf.com/api/public/0901d1968096854e/pdf_preview_medium/0901d1968096854e_pdf_preview_medium.pdf#page=9"
+      ],
+      "verification": [
+        "Record the actual equipment, condition and test result; unresolved faults remain pending."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Combined original companion: Yamaha D02 exact pressure/time; Mityvac Form801625 pages8–9 tool operation, not OEM adapter equivalence.",
+      "depends_on": [
+        "preflight"
+      ]
+    },
+    {
+      "id": "test-warm",
+      "title": "Warm with the gauge connected",
+      "instruction": "Monitor the connected gauge while warming for Yamaha’s three minutes. Stop for rapid pressure rise, abnormal gauge behavior, leaks or pressure approaching the 137.3 kPa ceiling. Do not pump above that ceiling. If stopped for a fault, let the system cool fully before releasing pressure or disconnecting; investigate before repeating. This sequence combines Mityvac cold attachment/engine-on monitoring with Yamaha’s head-gasket warm-up requirement.",
+      "source_pdf_pages": [
+        39,
+        288,
+        289
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=39",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=288",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=289",
+        "https://cdn.skfmediahub.skf.com/api/public/0901d1968096854e/pdf_preview_medium/0901d1968096854e_pdf_preview_medium.pdf#page=8",
+        "https://cdn.skfmediahub.skf.com/api/public/0901d1968096854e/pdf_preview_medium/0901d1968096854e_pdf_preview_medium.pdf#page=9"
+      ],
+      "verification": [
+        "Record the actual equipment, condition and test result; unresolved faults remain pending."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Combined original companion: Yamaha D02 exact pressure/time; Mityvac Form801625 pages8–9 tool operation, not OEM adapter equivalence.",
+      "depends_on": [
+        "test-attach"
+      ]
+    },
+    {
+      "id": "test-hold",
+      "title": "Check cooling-system pressure",
+      "instruction": "After the three-minute warm-up, stop the engine and apply only enough pressure to reach 137.3 kPa (19.9 psi), never exceed it. Confirm it holds for 5–10 seconds. Check radiator/hose joints for leakage and hoses for bulging. A loss of pressure or visible defect requires correction and repeat testing; record actual pressure and hold time.",
+      "source_pdf_pages": [
+        289
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=289",
+        "https://cdn.skfmediahub.skf.com/api/public/0901d1968096854e/pdf_preview_medium/0901d1968096854e_pdf_preview_medium.pdf#page=8",
+        "https://cdn.skfmediahub.skf.com/api/public/0901d1968096854e/pdf_preview_medium/0901d1968096854e_pdf_preview_medium.pdf#page=9"
+      ],
+      "verification": [
+        "Record the actual equipment, condition and test result; unresolved faults remain pending."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Combined original companion: Yamaha D02 exact pressure/time; Mityvac Form801625 pages8–9 tool operation, not OEM adapter equivalence.",
+      "depends_on": [
+        "test-warm"
+      ]
+    },
+    {
+      "id": "test-cool-close",
+      "title": "Cool fully before removing the tester",
+      "instruction": "Leave the connected equipment undisturbed until the engine is completely cool. Then use the MV4560 relief lever to release remaining pressure before disconnecting under a cloth. Refill to the source level and refit the radiator cap. This cold-release restriction comes from Mityvac page9; never remove a hot cap or hot pressurized adapter.",
+      "source_pdf_pages": [
+        103,
+        104,
+        289
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=103",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=104",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=289",
+        "https://cdn.skfmediahub.skf.com/api/public/0901d1968096854e/pdf_preview_medium/0901d1968096854e_pdf_preview_medium.pdf#page=8",
+        "https://cdn.skfmediahub.skf.com/api/public/0901d1968096854e/pdf_preview_medium/0901d1968096854e_pdf_preview_medium.pdf#page=9"
+      ],
+      "verification": [
+        "Record the actual equipment, condition and test result; unresolved faults remain pending."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Combined original companion: Yamaha D02 exact pressure/time; Mityvac Form801625 pages8–9 tool operation, not OEM adapter equivalence.",
+      "depends_on": [
+        "test-hold"
+      ]
+    },
+    {
+      "id": "first-ride",
+      "title": "Ride the first interval",
+      "instruction": "Warm the fully assembled engine using its accepted starting procedure. In a controlled off-road area, ride about20 minutes at no more than half throttle. Stop immediately for a problem and record actual riding time/symptoms. Automatic stop after7 minutes idling does not make idling into riding time.",
+      "source_pdf_pages": [
+        39,
+        40
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=39",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=40"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record actual outcome; unresolved required work prevents completion."
+      ],
+      "record_required": true,
+      "depends_on": [
+        "test-cool-close"
+      ],
+      "origin": "Original companion wording checked against exact 2025 D02 pages; prior 2026 structure is not applicability evidence."
+    },
+    {
+      "id": "first-pit",
+      "title": "Stop and inspect",
+      "instruction": "Check mounted areas for looseness and oil or other leaks. Resolve any problem before continuing. Record actual findings; a symptom-free interval does not complete post-break-in maintenance.",
+      "source_pdf_pages": [
+        40
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=40"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record actual outcome; unresolved required work prevents completion."
+      ],
+      "record_required": true,
+      "depends_on": [
+        "first-ride"
+      ],
+      "origin": "Original companion wording checked against exact 2025 D02 pages; prior 2026 structure is not applicability evidence."
+    },
+    {
+      "id": "remaining-ride",
+      "title": "Complete the recorded parts route",
+      "instruction": "For valves/piston/rings/camshaft without cylinder replacement, ride about10 further minutes at no more than half throttle. For a new cylinder, ride about40 further minutes; with new valves/piston/rings/camshaft too, retain half throttle for the first10 minutes, then never exceed three-quarter throttle. Stop for abnormal behavior and record actual time and throttle ceiling.",
+      "source_pdf_pages": [
+        40
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=40"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record actual outcome; unresolved required work prevents completion."
+      ],
+      "record_required": true,
+      "depends_on": [
+        "first-pit"
+      ],
+      "origin": "Original companion wording checked against exact 2025 D02 pages; prior 2026 structure is not applicability evidence."
+    },
+    {
+      "id": "final-pit",
+      "title": "Inspect before maintenance",
+      "instruction": "Stop and thoroughly inspect mounted areas and leakage, cable stretch, brake action/free play, chain stretch and loose spokes. The riding period is complete only for the recorded parts route; maintenance below remains unfinished.",
+      "source_pdf_pages": [
+        40,
+        41
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=40",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=41"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record actual outcome; unresolved required work prevents completion."
+      ],
+      "record_required": true,
+      "depends_on": [
+        "remaining-ride"
+      ],
+      "origin": "Original companion wording checked against exact 2025 D02 pages; prior 2026 structure is not applicability evidence."
+    },
+    {
+      "id": "oil-drain",
+      "title": "Drain and inspect the used oil",
+      "instruction": "Upright on level ground, warm the engine several minutes and stop. Place a clean container under both drains. Remove filler cap/O-ring and crankcase/oil-tank drain bolts with gaskets; drain both compartments completely. Inspect for dirt and foreign material, especially metal chips. If present, stop: Yamaha requires crankcase disassembly/inspection, not merely fresh oil and a passed record.",
+      "source_pdf_pages": [
+        41,
+        96
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=41",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=96"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record actual outcome; unresolved required work prevents completion."
+      ],
+      "record_required": true,
+      "depends_on": [
+        "final-pit"
+      ],
+      "origin": "Original companion wording checked against exact 2025 D02 pages; prior 2026 structure is not applicability evidence."
+    },
+    {
+      "id": "filter-renew",
+      "title": "Renew the oil filter",
+      "instruction": "Renew the oil filter during this oil change. Remove the cover and old filter. Apply lithium-soap-based grease to the new cover O-ring, install it, and fit the exact new filter in the diagram orientation. Refit the cover bolts at 10 N·m. Filter renewal is included in this route; the post-break-in list itself requires the oil change.",
+      "source_pdf_pages": [
+        96,
+        97,
+        246
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=96",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=97",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=246"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record actual outcome; unresolved required work prevents completion."
+      ],
+      "record_required": false,
+      "depends_on": [
+        "oil-drain"
+      ],
+      "origin": "Original companion wording checked against exact 2025 D02 pages; prior 2026 structure is not applicability evidence."
+    },
+    {
+      "id": "generator-access",
+      "title": "Expose the generator mounting check",
+      "instruction": "With oil drained, remove sub-seat/seat, filter-case cover and left shroud. Label/disconnect stator and crank-position couplers. Remove the shift pedal, preserving punch-mark alignment, and retain both external lead clamps/holder. Keep the engine installed during this inspection.",
+      "source_pdf_pages": [
+        38,
+        121,
+        123,
+        124,
+        235,
+        236,
+        237
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=38",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=121",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=123",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=124",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=235",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=236",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=237"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record actual outcome; unresolved required work prevents completion."
+      ],
+      "record_required": false,
+      "depends_on": [
+        "filter-renew"
+      ],
+      "origin": "Original companion wording checked against exact 2025 D02 pages; prior 2026 structure is not applicability evidence."
+    },
+    {
+      "id": "generator-open",
+      "title": "Open the left cover only",
+      "instruction": "Release cover fasteners progressively and lift the cover without pulling wires. Retain both dowels and holders/clamps; discard the gasket. Keep stator/grommet attached to the cover and rotor attached to the shaft. Secure assemblies do not need removal merely for a mounting inspection.",
+      "source_pdf_pages": [
+        235,
+        236,
+        237,
+        239
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=235",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=236",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=237",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=239"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record actual outcome; unresolved required work prevents completion."
+      ],
+      "record_required": false,
+      "depends_on": [
+        "generator-access"
+      ],
+      "origin": "Original companion wording checked against exact 2025 D02 pages; prior 2026 structure is not applicability evidence."
+    },
+    {
+      "id": "generator-check",
+      "title": "Inspect generator mounting",
+      "instruction": "Check generator rotor and stator mounted areas for looseness and visible contact damage, and inspect connectors. Keep sound mounted assemblies intact. Record the actual inspection. Loose or damaged assemblies require separate generator repair with correct taper/key, sealing and fastening steps; a blind torque check does not replace that repair.",
+      "source_pdf_pages": [
+        41,
+        238,
+        239
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=41",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=238",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=239"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record actual outcome; unresolved required work prevents completion."
+      ],
+      "record_required": true,
+      "depends_on": [
+        "generator-open"
+      ],
+      "origin": "Original companion wording checked against exact 2025 D02 pages; prior 2026 structure is not applicability evidence."
+    },
+    {
+      "id": "generator-close",
+      "title": "Reseal the left side",
+      "instruction": "Fit both dowels and a new cover gasket. Restore cover/holders/clamps and tighten bolts in stages and crisscross to10Nm. Keep the undisturbed grommet sealed and wires unpinched. Align pedal/shaft punch marks, tighten the pedal bolt to 12 N·m, reconnect both couplers and restore the illustrated lead routing.",
+      "source_pdf_pages": [
+        236,
+        237,
+        239,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=236",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=237",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=239",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=64",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=65",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=66",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=67",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=68",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=69",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=70",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=71",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=72",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=73",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=74",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=75"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record actual outcome; unresolved required work prevents completion."
+      ],
+      "record_required": false,
+      "depends_on": [
+        "generator-check"
+      ],
+      "origin": "Original companion wording checked against exact 2025 D02 pages; prior 2026 structure is not applicability evidence."
+    },
+    {
+      "id": "oil-fill",
+      "title": "Close drains and refill",
+      "instruction": "Fit new drain gaskets: oil-tank bolt 10 N·m, crankcase bolt 20 N·m. Fill 0.96 L for this filter-removal service and install filler cap with a new O-ring. Use Yamalube or an oil meeting API SG or higher and JASO MA; the listed SAE grades are 10W-40, 10W-50, 15W-40, 20W-40 or 20W-50. Do not add additives or use the source-prohibited CD-or-higher or ENERGY CONSERVING II oils. The settled window level is the final check. The 1.20 L disassembled capacity is not this service refill. Apply lithium-soap-based grease to the new filler-cap O-ring as shown in the engine-cover diagram.",
+      "source_pdf_pages": [
+        95,
+        96,
+        97,
+        246
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=95",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=96",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=97",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=246"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record actual outcome; unresolved required work prevents completion."
+      ],
+      "record_required": true,
+      "depends_on": [
+        "generator-close"
+      ],
+      "origin": "Original companion wording checked against exact 2025 D02 pages; prior 2026 structure is not applicability evidence."
+    },
+    {
+      "id": "engine-inspect",
+      "title": "Inspect the repaired engine",
+      "instruction": "Check head/cylinder and crankcase/cover joints for pressure/oil leaks and cooling-system leakage. Check silencer body/stay for cracks/leaks and engine mounts for loosening. Record the actual repaired-part fit and contact inspection with the repair specialist where needed. Accepted old dimensions alone are not a fresh inspection of inaccessible surfaces; any suspect fit must be resolved before completion.",
+      "source_pdf_pages": [
+        41,
+        103,
+        104
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=41",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=103",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=104"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record actual outcome; unresolved required work prevents completion."
+      ],
+      "record_required": true,
+      "depends_on": [
+        "oil-fill"
+      ],
+      "origin": "Original companion wording checked against exact 2025 D02 pages; prior 2026 structure is not applicability evidence."
+    },
+    {
+      "id": "chassis-inspect",
+      "title": "Inspect chassis and wheels",
+      "instruction": "Check frame, swingarm, linkage and bracket welds/mounts for cracks/looseness; wheels for damage/runout and bearing play. A tilted tire valve indicates tire movement requiring correction. Check fork/shock smooth operation, leaks and mounts. Raise front wheel, rock lower fork legs to check steering play and turn both ways; binding/play needs separate steering service.",
+      "source_pdf_pages": [
+        41,
+        88,
+        110,
+        115,
+        116
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=41",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=88",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=110",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=115",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=116"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record actual outcome; unresolved required work prevents completion."
+      ],
+      "record_required": true,
+      "depends_on": [
+        "engine-inspect"
+      ],
+      "origin": "Original companion wording checked against exact 2025 D02 pages; prior 2026 structure is not applicability evidence."
+    },
+    {
+      "id": "spokes",
+      "title": "Check spokes progressively",
+      "instruction": "Compare spoke tones by tapping: loose spokes sound dull. Replace bent/damaged spokes through the separate wheel repair. Tighten sound loose nipples progressively to 2.5 N·m, never a half-turn or more per adjustment. Continue staged checks until initial looseness disappears; record unresolved wheel faults.",
+      "source_pdf_pages": [
+        116
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=116"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record actual outcome; unresolved required work prevents completion."
+      ],
+      "record_required": true,
+      "depends_on": [
+        "chassis-inspect"
+      ],
+      "origin": "Original companion wording checked against exact 2025 D02 pages; prior 2026 structure is not applicability evidence."
+    },
+    {
+      "id": "chain",
+      "title": "Set chain alignment and slack",
+      "instruction": "With the rear wheel raised and transmission neutral, pull up the chain about 50 N above the guide mounting bolt and measure the illustrated guide-to-chain gap: 50–60 mm. To adjust, loosen axle nut and both locknuts; adjust sides equally and push wheel forward to seat both end plates. Tighten axle 135 N·m and locknuts 21 N·m, then recheck alignment/slack. Lubricate the chain. A stiff, damaged or worn chain requires separate cleaning/removal or replacement and clip closure; do not hide that work behind this inspection.",
+      "source_pdf_pages": [
+        41,
+        109,
+        110,
+        194,
+        195
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=41",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=109",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=110",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=194",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=195"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record actual outcome; unresolved required work prevents completion."
+      ],
+      "record_required": true,
+      "depends_on": [
+        "spokes"
+      ],
+      "origin": "Original companion wording checked against exact 2025 D02 pages; prior 2026 structure is not applicability evidence."
+    },
+    {
+      "id": "controls",
+      "title": "Inspect and lubricate controls",
+      "instruction": "Check both brakes for effective action without drag and the front-lever end for no free play. With reservoirs horizontal, fluid must be above the minimum marks in the diagram. Leaks or spongy action require separate brake service. Check cable-clutch free play at 7.0–12.0 mm: turn the handlebar adjuster; if insufficient, slide the cable cover, loosen its locknut, adjust at the cable, tighten that locknut to 4.3 N·m and restore the cover. Check smooth clutch action and unrestricted cable travel through full steering. Replace damaged cables; lubricate rough sound cables with engine oil or suitable cable lubricant at the upright cable end. Use silicone grease at brake-lever moving contacts and lithium-soap grease at clutch-lever and pedal pivots.",
+      "source_pdf_pages": [
+        41,
+        88,
+        97,
+        98,
+        106,
+        107,
+        116,
+        117
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=41",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=88",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=97",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=98",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=106",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=107",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=116",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=117"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record actual outcome; unresolved required work prevents completion."
+      ],
+      "record_required": true,
+      "depends_on": [
+        "chain"
+      ],
+      "origin": "Original companion wording checked against exact 2025 D02 pages; prior 2026 structure is not applicability evidence."
+    },
+    {
+      "id": "tank-cleaning-record",
+      "title": "Record the required tank-interior service",
+      "instruction": "The post-break-in list requires cleaning inside the fuel tank and checking for leaks. Record actual qualified cleaning, not merely an appointment or fuel-color inspection. The cleaning method remains an external dependency. Follow exact tank access/refit: extract fuel with a pump; remove seat, side covers and shrouds; cover residual-pressure fittings with cloth, release holder/cover and both connector buttons by hand, protect disconnected joints and support the tank off its pump face. If pump removed, renew gasket lip upward, align pump projection with bracket slot and tighten the five bolts in the numbered order to 7 N·m. Restore tank front bolts 8 N·m and retaining screw 4 N·m, reconnect fuel hose until it clicks, restore connector cover and correctly oriented holder, and connect pump coupler. Record restored sealing and leak checks.",
+      "source_pdf_pages": [
+        41,
+        296,
+        297,
+        298
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=41",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=296",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=297",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=298"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record actual outcome; unresolved required work prevents completion."
+      ],
+      "record_required": true,
+      "depends_on": [
+        "controls"
+      ],
+      "origin": "Original companion wording checked against exact 2025 D02 pages; prior 2026 structure is not applicability evidence."
+    },
+    {
+      "id": "body-close",
+      "title": "Restore access panels",
+      "instruction": "Seat the radiator-guard projections in the left shroud and tighten shroud fasteners to 7 N·m. Restore filter-cover projections/ribs and breather routing. Refit seat bolts to 13 N·m and secure the sub-seat with untwisted tether. Restore any other bodywork removed for tank cleaning using its exact diagram. Confirm all connectors, wire clearance, fuel connections and oil closures before restart.",
+      "source_pdf_pages": [
+        38,
+        100,
+        121,
+        123,
+        124
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=38",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=100",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=121",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=123",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=124"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record actual outcome; unresolved required work prevents completion."
+      ],
+      "record_required": false,
+      "depends_on": [
+        "tank-cleaning-record"
+      ],
+      "origin": "Original companion wording checked against exact 2025 D02 pages; prior 2026 structure is not applicability evidence."
+    },
+    {
+      "id": "torques",
+      "title": "Complete every applicable torque check",
+      "instruction": "Complete the post-break-in fastener checks using the linked joint table and its preparation conditions: frame/engine/seat, steering, suspension/linkage/pivot, wheels/spokes/sprocket, brake/clutch fasteners, fuel pump, shift pedal and bodywork. Record each joint or link the actual inspection sheet. Inaccessible/unidentified joints remain pending. Do not substitute generic torques or open hydraulic unions merely to create a check. Lower steering-ring preload requires its separate staged service. No completion with unresolved required checks.",
+      "source_pdf_pages": [
+        41,
+        42,
+        43,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=41",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=42",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=43",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=56",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=57",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=58",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=59",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=60",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=61",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=62",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=63"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record actual outcome; unresolved required work prevents completion."
+      ],
+      "record_required": true,
+      "depends_on": [
+        "body-close"
+      ],
+      "origin": "Original companion wording checked against exact 2025 D02 pages; prior 2026 structure is not applicability evidence."
+    },
+    {
+      "id": "oil-flow",
+      "title": "Check flow at idle",
+      "instruction": "Start fully assembled engine at idle only and watch oil window for flow and decreasing level. Stop immediately if level does not decrease; diagnose lubrication before proceeding. Do not rev it to force a successful check.",
+      "source_pdf_pages": [
+        97
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=97"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record actual outcome; unresolved required work prevents completion."
+      ],
+      "record_required": true,
+      "depends_on": [
+        "torques"
+      ],
+      "origin": "Original companion wording checked against exact 2025 D02 pages; prior 2026 structure is not applicability evidence."
+    },
+    {
+      "id": "oil-level",
+      "title": "Verify settled oil level",
+      "instruction": "Warm the oil to the specified normal 60°C (source says ten minutes; automatic idle stop may interrupt), stop, stand upright/level, run ten seconds, stop and wait a few minutes. Level must lie between lower window edge and maximum mark. Correct with specified oil, then warm several minutes, stop, settle and recheck. Record actual level/leaks; do not claim an unmeasured temperature was measured.",
+      "source_pdf_pages": [
+        40,
+        95,
+        96
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=40",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=95",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=96"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record actual outcome; unresolved required work prevents completion."
+      ],
+      "record_required": true,
+      "depends_on": [
+        "oil-flow"
+      ],
+      "origin": "Original companion wording checked against exact 2025 D02 pages; prior 2026 structure is not applicability evidence."
+    },
+    {
+      "id": "final",
+      "title": "Record actual maintenance completion",
+      "instruction": "After the engine is fully cool, check coolant at the illustrated maximum and confirm no continuing loss. Open a radiator cap only cold, using a thick cloth and slow release to the detent; wait for hissing to stop before pressing/turning it off, and secure it after checking. Repeat the pre-operation checklist. Complete only with actual pressure-test, riding, oil/debris, generator, repaired-part fit, tank-cleaning, chassis and all-joint records accepted. Missing required work remains pending.",
+      "source_pdf_pages": [
+        41,
+        88,
+        103,
+        104
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=41",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=88",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=103",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=104"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record actual outcome; unresolved required work prevents completion."
+      ],
+      "record_required": true,
+      "depends_on": [
+        "oil-level"
+      ],
+      "origin": "Original companion wording checked against exact 2025 D02 pages; prior 2026 structure is not applicability evidence."
+    }
+  ],
+  "external_operations": [
+    {
+      "id": "tank-cleaning",
+      "required": true,
+      "step_id": "tank-cleaning-record",
+      "scope": "Qualified tank-interior cleaning with exact source access/refit and leak closure. Cleaning method not specified in cited OEM; external completion record required."
+    }
+  ],
+  "unresolved_knowledge": [
+    "Compatible actionable tank-interior cleaning method not yet established; qualified external service required.",
+    "All-joint access and internal fit diagnostics are not taught here; actual required specialist inspection record governs completion."
+  ],
+  "supplemental_sources": [
+    {
+      "id": "mityvac-mv4560-method",
+      "url": "https://cdn.skfmediahub.skf.com/api/public/0901d1968096854e/pdf_preview_medium/0901d1968096854e_pdf_preview_medium.pdf",
+      "sha256": "508a744728dc28c37911bdc206f3e8ec6fe5eb8f11febe74a385bbf1299493cf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\mityvac-MV4560-801625.pdf",
+      "attribution": "Mityvac / SKF, MV4560 user manual Form 801625, pages 8–9",
+      "scope": "Cold attachment and engine-on pressure monitoring; cool completely before relief/disconnection. Does not establish bike-specific adapter interchangeability or Yamaha pressure."
+    }
+  ],
+  "open_knowledge_dependencies": [
+    "Exact plastic-tank internal-cleaning method remains external; no solvent invented.",
+    "Inaccessible repaired-part fit/contact and all-joint access are qualified actual-work dependencies.",
+    "MV4560 adapter fit must be verified; no adapter part-number interchangeability asserted."
+  ]
+}

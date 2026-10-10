@@ -1,0 +1,303 @@
+{
+  "schema": "bakmx.service-research.v1",
+  "researched_at": "2026-09-13",
+  "status": "RESEARCH_ONLY",
+  "runtime_eligible": false,
+  "commercial_rights": "NOT_REVIEWED",
+  "sources": [
+    {
+      "id": "ktm450-2025-manual-dealer",
+      "url": "https://powaypowersports.com/cdn/shop/files/2025-ktm-450sx-f-factory-owners-manual.pdf?v=679135179847397228",
+      "title": "KTM Owner's Manual 2025 — 450 SX-F / 450 XC-F / 450 SX-F Factory Edition",
+      "access": "PDF_TEXT_READ_AND_ENGINE_TABLE_VISUALLY_CHECKED",
+      "source_type": "OEM-authored manual hosted by US dealer; publisher-host corroboration pending",
+      "discovery_url": "https://powaypowersports.com/products/2025-ktm-450-sx-f",
+      "revision": "3240045en / 2025-01-22",
+      "source_byte_sha256": "a24efdc2f908cc4c3764ee133bcdf6957b6caaebfee4587e847f3b2fe2456a33",
+      "archive_retained": false
+    },
+    {
+      "id": "europe-repair-shop",
+      "url": "https://print.ktm.com/skyco13/XIII-KTM-1/bridge",
+      "title": "KTM Print on Demand",
+      "access": "LIVE_BROWSER_PRODUCT_DETAIL_READ",
+      "source_type": "OEM-linked repair-manual seller",
+      "source_capture_hash": null
+    }
+  ],
+  "documents": [
+    {
+      "id": "ktm450-2025-owner-en",
+      "source_id": "ktm450-2025-manual-dealer",
+      "title": "2025 KTM 450 owner's manual",
+      "status": "OWNER_MANUAL_PARTIAL_BODY_READ",
+      "document_number": "3240045en",
+      "revision_date": "2025-01-22",
+      "pdf_page_count": 178,
+      "applicability": {
+        "make": "KTM",
+        "model": "450 SX-F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "model_code": "F8475Y5",
+      "applicability_locator": "PDF page 3, explicit document-validity list",
+      "pages_read": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        39,
+        40,
+        48,
+        49,
+        50,
+        51,
+        154,
+        156,
+        157
+      ],
+      "pages_visually_checked": [
+        154,
+        156
+      ],
+      "runtime_eligible": false,
+      "notes": "Combined manual also covers other markets and variants. Individual section qualifiers remain mandatory.",
+      "archive_retained": false
+    },
+    {
+      "id": "ktm450-2025-repair-en-preview",
+      "source_id": "europe-repair-shop",
+      "document_type": "Repair Manual",
+      "document_number": "3206600en",
+      "revision_date": "2025-06-06",
+      "applicability": {
+        "make": "KTM",
+        "model": "450 SX-F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "model_code": "F8475Y5",
+      "applicability_locator": "Preview page 3",
+      "status": "AUTHORIZED_PREVIEW_PARTIAL_READ",
+      "pages_visually_checked": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10
+      ],
+      "preview_page_count_displayed": 431,
+      "pdf_bytes_acquired": false,
+      "source_byte_sha256": null,
+      "body_scope": "Cover, validity, parts of contents and general work-rules page only; no mechanical repair procedure verified.",
+      "runtime_eligible": false
+    }
+  ],
+  "candidates": [
+    {
+      "id": "eur-service-ktm450-2025-engine_oil",
+      "source_id": "ktm450-2025-manual-dealer",
+      "applicability": {
+        "make": "KTM",
+        "model": "450 SX-F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "category": "engine_oil",
+      "statement": "Engine oil: 1.20 L; SAE 10W/50.",
+      "locator": {
+        "pdf_page": 154,
+        "printed_page": 152,
+        "section": "23.3.1"
+      },
+      "runtime_eligible": false,
+      "review_status": "VISUAL_ROW_CHECK_PENDING_PUBLISHER_CORROBORATION"
+    },
+    {
+      "id": "eur-service-ktm450-2025-coolant",
+      "source_id": "ktm450-2025-manual-dealer",
+      "applicability": {
+        "make": "KTM",
+        "model": "450 SX-F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "category": "coolant",
+      "statement": "Coolant capacity: 0.95 L.",
+      "locator": {
+        "pdf_page": 154,
+        "printed_page": 152,
+        "section": "23.3.2"
+      },
+      "runtime_eligible": false,
+      "review_status": "VISUAL_ROW_CHECK_PENDING_PUBLISHER_CORROBORATION"
+    },
+    {
+      "id": "eur-service-ktm450-2025-fork_pressure",
+      "source_id": "ktm450-2025-manual-dealer",
+      "applicability": {
+        "make": "KTM",
+        "model": "450 SX-F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "category": "fork_pressure",
+      "statement": "US fork baseline: 10.5 bar.",
+      "locator": {
+        "pdf_page": 156,
+        "printed_page": 154,
+        "section": "23.7.2"
+      },
+      "runtime_eligible": false,
+      "review_status": "VISUAL_ROW_CHECK_PENDING_PUBLISHER_CORROBORATION"
+    },
+    {
+      "id": "eur-service-ktm450-2025-fork_compression",
+      "source_id": "ktm450-2025-manual-dealer",
+      "applicability": {
+        "make": "KTM",
+        "model": "450 SX-F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "category": "fork_compression",
+      "statement": "US standard fork compression: 12 clicks counterclockwise from stop.",
+      "locator": {
+        "pdf_page": 156,
+        "printed_page": 154,
+        "section": "23.7.2;10.14"
+      },
+      "runtime_eligible": false,
+      "review_status": "VISUAL_ROW_CHECK_PENDING_PUBLISHER_CORROBORATION"
+    },
+    {
+      "id": "eur-service-ktm450-2025-fork_rebound",
+      "source_id": "ktm450-2025-manual-dealer",
+      "applicability": {
+        "make": "KTM",
+        "model": "450 SX-F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "category": "fork_rebound",
+      "statement": "US standard fork rebound: 18 clicks counterclockwise from stop.",
+      "locator": {
+        "pdf_page": 156,
+        "printed_page": 154,
+        "section": "23.7.2;10.15"
+      },
+      "runtime_eligible": false,
+      "review_status": "VISUAL_ROW_CHECK_PENDING_PUBLISHER_CORROBORATION"
+    }
+  ],
+  "section_map": [
+    {
+      "topic": "schedule",
+      "section": "9",
+      "printed_pages": "37–38",
+      "pdf_pages": "39–40",
+      "inspection": "BODY_TEXT_READ"
+    },
+    {
+      "topic": "suspension adjustment",
+      "section": "10",
+      "printed_pages": "39–53",
+      "pdf_pages": "41–55",
+      "inspection": "CONTENTS_AND_SELECT_BODY"
+    },
+    {
+      "topic": "cooling",
+      "section": "15",
+      "printed_pages": "123–127",
+      "pdf_pages": "125–129",
+      "inspection": "CONTENTS_ONLY"
+    },
+    {
+      "topic": "engine service",
+      "section": "17",
+      "printed_pages": "134–139",
+      "pdf_pages": "136–141",
+      "inspection": "CONTENTS_ONLY"
+    },
+    {
+      "topic": "torques",
+      "section": "23.2;23.9",
+      "printed_pages": "150–151;157–159",
+      "pdf_pages": "152–153;159–161",
+      "inspection": "CONTENTS_ONLY"
+    }
+  ],
+  "purchase_leads": [
+    {
+      "id": "ktm450-2025-repair-en",
+      "source_id": "europe-repair-shop",
+      "document_type": "Repair Manual",
+      "model": "450 SX-F",
+      "make": "KTM",
+      "model_year": 2025,
+      "variant": "standard",
+      "execution": "EU/BR/US",
+      "language": "English",
+      "product_number": "3206600en",
+      "status": "EXACT_PRODUCT_AND_AUTHORIZED_PREVIEW_READ",
+      "price_context": "Austria delivery selected; EUR; includes 10% VAT; not a US landed quote",
+      "digital_eur": 27.45,
+      "printed_eur": 54.95,
+      "bundle_eur": 72.39,
+      "displayed_shipping_eur": 9.9,
+      "scope": "Workshop servicing and repair for trained mechanics; pages watermarked. General workshop methods omitted.",
+      "navigation": [
+        "Open bridge; allow shop to finish loading",
+        "KTM",
+        "2025",
+        "450 SX-F",
+        "DISPLAY",
+        "EN - English",
+        "Repair Manual DETAILS"
+      ],
+      "purchased": false,
+      "revision_date": "2025-06-06",
+      "preview": "Public PREVIEW: cover and applicability page visually read; contents partly read. UI declares 431 pages but later body navigation was not established; do not count 431 pages as read."
+    }
+  ],
+  "gaps": [
+    "No complete repair-manual body acquired. Owner-manual values are not repair-manual extraction.",
+    "Other 29 requested standard US model-years remain without repair product verification.",
+    "Existing 2025 KTM450 compression-ratio conflict remains unpromoted.",
+    "Section map alone does not verify service procedures or torque values.",
+    "Owner PDF temporary inspection copy will be deleted; no full manual redistributed."
+  ],
+  "repair_section_map": [
+    {
+      "topic": "US fork reassembly",
+      "section": "6.31",
+      "printed_page": 67,
+      "locator": "Preview page4 / contents",
+      "status": "CONTENTS_ONLY"
+    },
+    {
+      "topic": "US damper assembly",
+      "section": "9.31",
+      "printed_page": 151,
+      "locator": "Preview page5 / contents",
+      "status": "CONTENTS_ONLY"
+    }
+  ],
+  "notes": [
+    "Official KTM, Husqvarna and GasGas service/manual pages each link the same Print on Demand shop.",
+    "Root HTML frameset previously appeared empty; directly opening linked bridge and allowing loading resolved the catalog.",
+    "Owner candidate statements plus existing seven candidate statements total 90 whitespace-delimited words; section labels kept bounded.",
+    "Repair preview purchase item was verified visually:3206600en,06.06.2025,F8475Y5. No account or payment attempted."
+  ]
+}

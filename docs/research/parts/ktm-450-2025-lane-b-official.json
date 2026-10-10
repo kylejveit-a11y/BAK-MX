@@ -1,0 +1,6989 @@
+{
+  "assemblies": [
+    {
+      "acquired_row_count": 19,
+      "assembly_name": "FRONT WHEEL",
+      "diagram_check": "DOM hotspot part numbers compared with all table part numbers; no visual geometry or installed-unit validation",
+      "missing_diagram_part_numbers": [],
+      "points": [
+        {
+          "callout": "",
+          "part_number": "7900900144430"
+        },
+        {
+          "callout": "",
+          "part_number": "77709010144"
+        },
+        {
+          "callout": "",
+          "part_number": "54809011000"
+        },
+        {
+          "callout": "",
+          "part_number": "0625069068"
+        },
+        {
+          "callout": "",
+          "part_number": "0625069068"
+        },
+        {
+          "callout": "",
+          "part_number": "77709015000"
+        },
+        {
+          "callout": "",
+          "part_number": "0760354771"
+        },
+        {
+          "callout": "",
+          "part_number": "0760354771"
+        },
+        {
+          "callout": "",
+          "part_number": "77709012000"
+        },
+        {
+          "callout": "",
+          "part_number": "77709012000"
+        },
+        {
+          "callout": "",
+          "part_number": "7710907122630"
+        },
+        {
+          "callout": "",
+          "part_number": "77109072000"
+        },
+        {
+          "callout": "",
+          "part_number": "7910907000030"
+        },
+        {
+          "callout": "",
+          "part_number": "50309073000"
+        },
+        {
+          "callout": "",
+          "part_number": "78109090200"
+        },
+        {
+          "callout": "",
+          "part_number": "77110090050"
+        },
+        {
+          "callout": "",
+          "part_number": "79009060000"
+        },
+        {
+          "callout": "",
+          "part_number": "59009062013"
+        },
+        {
+          "callout": "",
+          "part_number": "79109081033"
+        },
+        {
+          "callout": "",
+          "part_number": "A46009082000"
+        },
+        {
+          "callout": "",
+          "part_number": "55003135000"
+        },
+        {
+          "callout": "",
+          "part_number": "7770908107055"
+        }
+      ],
+      "rows": [
+        {
+          "callout": "1",
+          "description": "front wheel cmpl.",
+          "part_number": "7900900144430",
+          "quantity": 1
+        },
+        {
+          "callout": "2",
+          "description": "front wheel hub",
+          "part_number": "77709010144",
+          "quantity": 1
+        },
+        {
+          "callout": "3",
+          "description": "bea.spacertube 35x2 l=79,4",
+          "part_number": "54809011000",
+          "quantity": 1
+        },
+        {
+          "callout": "4",
+          "description": "grooved ball bearing",
+          "part_number": "0625069068",
+          "quantity": 2
+        },
+        {
+          "callout": "5",
+          "description": "wheel bearing repair",
+          "part_number": "77709015000",
+          "quantity": 1
+        },
+        {
+          "callout": "6",
+          "description": "radial shaft seal",
+          "part_number": "0760354771",
+          "quantity": 2
+        },
+        {
+          "callout": "8",
+          "description": "spacer bushing f.",
+          "part_number": "77709012000",
+          "quantity": 2
+        },
+        {
+          "callout": "10",
+          "description": "spoke m4,5x226- 21''",
+          "part_number": "7710907122630",
+          "quantity": 36
+        },
+        {
+          "callout": "11",
+          "description": "spoke nipple m4.5",
+          "part_number": "77109072000",
+          "quantity": 36
+        },
+        {
+          "callout": "12",
+          "description": "front rim 21x1.60",
+          "part_number": "7910907000030",
+          "quantity": 1
+        },
+        {
+          "callout": "13",
+          "description": "tube protector 21\"",
+          "part_number": "50309073000",
+          "quantity": 1
+        },
+        {
+          "callout": "16",
+          "description": "tyre locker 1,60\"",
+          "part_number": "78109090200",
+          "quantity": 1
+        },
+        {
+          "callout": "17",
+          "description": "nut for wheel",
+          "part_number": "77110090050",
+          "quantity": 1
+        },
+        {
+          "callout": "20",
+          "description": "brake disc front",
+          "part_number": "79009060000",
+          "quantity": 1
+        },
+        {
+          "callout": "21",
+          "description": "special screw m6x13",
+          "part_number": "59009062013",
+          "quantity": 6
+        },
+        {
+          "callout": "30",
+          "description": "wheel spindle front",
+          "part_number": "79109081033",
+          "quantity": 1
+        },
+        {
+          "callout": "32",
+          "description": "collar screw m20x1.5",
+          "part_number": "A46009082000",
+          "quantity": 1
+        },
+        {
+          "callout": "38",
+          "description": "plug for rim",
+          "part_number": "55003135000",
+          "quantity": 0
+        },
+        {
+          "callout": "40",
+          "description": "auxiliary screw front",
+          "part_number": "7770908107055",
+          "quantity": 1
+        }
+      ],
+      "source_url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/59849?modelidentifier=1003417574&isEngine=False",
+      "status": "complete_table_and_diagram_part_number_coverage",
+      "table_complete": true,
+      "table_row_count": 19
+    },
+    {
+      "acquired_row_count": 28,
+      "assembly_name": "REAR WHEEL",
+      "diagram_check": "DOM hotspot part numbers compared with all table part numbers; no visual geometry or installed-unit validation",
+      "missing_diagram_part_numbers": [],
+      "points": [
+        {
+          "callout": "",
+          "part_number": "A4601000104430"
+        },
+        {
+          "callout": "",
+          "part_number": "A46010010044"
+        },
+        {
+          "callout": "",
+          "part_number": "A46010011000"
+        },
+        {
+          "callout": "",
+          "part_number": "A46010011000"
+        },
+        {
+          "callout": "",
+          "part_number": "0625060058"
+        },
+        {
+          "callout": "",
+          "part_number": "0625060058"
+        },
+        {
+          "callout": "",
+          "part_number": "0625060058"
+        },
+        {
+          "callout": "",
+          "part_number": "0472047175"
+        },
+        {
+          "callout": "",
+          "part_number": "0472047175"
+        },
+        {
+          "callout": "",
+          "part_number": "0760354771"
+        },
+        {
+          "callout": "",
+          "part_number": "0760354771"
+        },
+        {
+          "callout": "",
+          "part_number": "0760354771"
+        },
+        {
+          "callout": "",
+          "part_number": "A46010016000"
+        },
+        {
+          "callout": "",
+          "part_number": "A46010016000"
+        },
+        {
+          "callout": "",
+          "part_number": "A46010016000"
+        },
+        {
+          "callout": "",
+          "part_number": "7901007120530"
+        },
+        {
+          "callout": "",
+          "part_number": "79109072000"
+        },
+        {
+          "callout": "",
+          "part_number": "7911007000030"
+        },
+        {
+          "callout": "",
+          "part_number": "79010060000"
+        },
+        {
+          "callout": "",
+          "part_number": "59009062013"
+        },
+        {
+          "callout": "",
+          "part_number": "50310073200"
+        },
+        {
+          "callout": "",
+          "part_number": "7771015105130"
+        },
+        {
+          "callout": "",
+          "part_number": "0019080266S"
+        },
+        {
+          "callout": "",
+          "part_number": "06923080003"
+        },
+        {
+          "callout": "",
+          "part_number": "50310165118"
+        },
+        {
+          "callout": "",
+          "part_number": "50310166000"
+        },
+        {
+          "callout": "",
+          "part_number": "78110090200"
+        },
+        {
+          "callout": "",
+          "part_number": "77110090050"
+        },
+        {
+          "callout": "",
+          "part_number": "55003135000"
+        },
+        {
+          "callout": "",
+          "part_number": "A46010085044"
+        },
+        {
+          "callout": "",
+          "part_number": "A46010084000"
+        },
+        {
+          "callout": "",
+          "part_number": "50304040100"
+        },
+        {
+          "callout": "",
+          "part_number": "50304040100"
+        },
+        {
+          "callout": "",
+          "part_number": "58414030000"
+        },
+        {
+          "callout": "",
+          "part_number": "58414030000"
+        },
+        {
+          "callout": "",
+          "part_number": "A46010086000"
+        },
+        {
+          "callout": "",
+          "part_number": "A46010015010"
+        },
+        {
+          "callout": "",
+          "part_number": "SPAA13U51AM1186"
+        }
+      ],
+      "rows": [
+        {
+          "callout": "1",
+          "description": "rear wheel cmpl.",
+          "part_number": "A4601000104430",
+          "quantity": 1
+        },
+        {
+          "callout": "2",
+          "description": "rear wheel hub",
+          "part_number": "A46010010044",
+          "quantity": 1
+        },
+        {
+          "callout": "3",
+          "description": "bearing spacer tube",
+          "part_number": "A46010011000",
+          "quantity": 1
+        },
+        {
+          "callout": "4",
+          "description": "grooved ball bear.6005",
+          "part_number": "0625060058",
+          "quantity": 2
+        },
+        {
+          "callout": "5",
+          "description": "circlip din0472-47x1,75",
+          "part_number": "0472047175",
+          "quantity": 1
+        },
+        {
+          "callout": "6",
+          "description": "radial shaft seal",
+          "part_number": "0760354771",
+          "quantity": 2
+        },
+        {
+          "callout": "7",
+          "description": "spacing tube rear",
+          "part_number": "A46010016000",
+          "quantity": 2
+        },
+        {
+          "callout": "8",
+          "description": "spoke m4,5x205-19'' black",
+          "part_number": "7901007120530",
+          "quantity": 36
+        },
+        {
+          "callout": "9",
+          "description": "spoke nipple m4.5",
+          "part_number": "79109072000",
+          "quantity": 36
+        },
+        {
+          "callout": "10",
+          "description": "rear rim 19x2.15",
+          "part_number": "7911007000030",
+          "quantity": 1
+        },
+        {
+          "callout": "11",
+          "description": "brake disc rear",
+          "part_number": "79010060000",
+          "quantity": 1
+        },
+        {
+          "callout": "12",
+          "description": "special screw m6x13",
+          "part_number": "59009062013",
+          "quantity": 6
+        },
+        {
+          "callout": "13",
+          "description": "tube protector 18\"",
+          "part_number": "50310073200",
+          "quantity": 1
+        },
+        {
+          "callout": "19",
+          "description": "rear sprocket 51-t",
+          "part_number": "7771015105130",
+          "quantity": 1
+        },
+        {
+          "callout": "21",
+          "description": "counter-sunk screw isa45",
+          "part_number": "0019080266S",
+          "quantity": 6
+        },
+        {
+          "callout": "22",
+          "description": "hex. nut din",
+          "part_number": "06923080003",
+          "quantity": 6
+        },
+        {
+          "callout": "23",
+          "description": "chain 5/8x1/4'' mx",
+          "part_number": "50310165118",
+          "quantity": 1
+        },
+        {
+          "callout": "24",
+          "description": "connecting link for",
+          "part_number": "50310166000",
+          "quantity": 1
+        },
+        {
+          "callout": "33",
+          "description": "tyre locker 2,15\"",
+          "part_number": "78110090200",
+          "quantity": 1
+        },
+        {
+          "callout": "34",
+          "description": "nut for wheel",
+          "part_number": "77110090050",
+          "quantity": 1
+        },
+        {
+          "callout": "38",
+          "description": "plug for rim",
+          "part_number": "55003135000",
+          "quantity": 0
+        },
+        {
+          "callout": "40",
+          "description": "wheel spindle rear",
+          "part_number": "A46010085044",
+          "quantity": 1
+        },
+        {
+          "callout": "41",
+          "description": "chain tension adjuster",
+          "part_number": "A46010084000",
+          "quantity": 1
+        },
+        {
+          "callout": "42",
+          "description": "screw m10x1.25x50 ws10",
+          "part_number": "50304040100",
+          "quantity": 2
+        },
+        {
+          "callout": "43",
+          "description": "hh collar nut",
+          "part_number": "58414030000",
+          "quantity": 2
+        },
+        {
+          "callout": "44",
+          "description": "collar nut m22x1.5",
+          "part_number": "A46010086000",
+          "quantity": 1
+        },
+        {
+          "callout": "97",
+          "description": "wheel bearing repair",
+          "part_number": "A46010015010",
+          "quantity": 0
+        },
+        {
+          "callout": "98",
+          "description": "drivetrain set sx",
+          "part_number": "SPAA13U51AM1186",
+          "quantity": 0
+        }
+      ],
+      "source_url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/60087?modelidentifier=1003417574&isEngine=False",
+      "status": "complete_table_and_diagram_part_number_coverage",
+      "table_complete": true,
+      "table_row_count": 28
+    },
+    {
+      "acquired_row_count": 32,
+      "assembly_name": "WIRING HARNESS",
+      "diagram_check": "DOM hotspot part numbers compared with all table part numbers; no visual geometry or installed-unit validation",
+      "missing_diagram_part_numbers": [],
+      "points": [
+        {
+          "callout": "",
+          "part_number": "A46011075100"
+        },
+        {
+          "callout": "",
+          "part_number": "59003001099"
+        },
+        {
+          "callout": "",
+          "part_number": "77211034000"
+        },
+        {
+          "callout": "",
+          "part_number": "44011076140"
+        },
+        {
+          "callout": "",
+          "part_number": "44011076200"
+        },
+        {
+          "callout": "",
+          "part_number": "44011076305"
+        },
+        {
+          "callout": "",
+          "part_number": "83013026000"
+        },
+        {
+          "callout": "",
+          "part_number": "000700000OU002"
+        },
+        {
+          "callout": "",
+          "part_number": "79711013010"
+        },
+        {
+          "callout": "",
+          "part_number": "61111057000"
+        },
+        {
+          "callout": "",
+          "part_number": "77711035000"
+        },
+        {
+          "callout": "",
+          "part_number": "55641030000"
+        },
+        {
+          "callout": "",
+          "part_number": "0025050126"
+        },
+        {
+          "callout": "",
+          "part_number": "0025050126"
+        },
+        {
+          "callout": "",
+          "part_number": "58411098100"
+        },
+        {
+          "callout": "",
+          "part_number": "58411098100"
+        },
+        {
+          "callout": "",
+          "part_number": "58411098100"
+        },
+        {
+          "callout": "",
+          "part_number": "0900000601202"
+        },
+        {
+          "callout": "",
+          "part_number": "0024060106"
+        },
+        {
+          "callout": "",
+          "part_number": "0738060167"
+        },
+        {
+          "callout": "",
+          "part_number": "75011097100"
+        },
+        {
+          "callout": "",
+          "part_number": "0902060083"
+        },
+        {
+          "callout": "",
+          "part_number": "A46011083000"
+        },
+        {
+          "callout": "",
+          "part_number": "0985060003"
+        },
+        {
+          "callout": "",
+          "part_number": "77240099000"
+        },
+        {
+          "callout": "",
+          "part_number": "A46011059000"
+        },
+        {
+          "callout": "",
+          "part_number": "58211058000"
+        },
+        {
+          "callout": "",
+          "part_number": "58011109110"
+        },
+        {
+          "callout": "",
+          "part_number": "A46011055000"
+        },
+        {
+          "callout": "",
+          "part_number": "A46011059050"
+        },
+        {
+          "callout": "",
+          "part_number": "79111053000"
+        },
+        {
+          "callout": "",
+          "part_number": "A46014069000"
+        },
+        {
+          "callout": "",
+          "part_number": "83008100015"
+        },
+        {
+          "callout": "",
+          "part_number": "79111053010"
+        },
+        {
+          "callout": "",
+          "part_number": "25140097000"
+        }
+      ],
+      "rows": [
+        {
+          "callout": "1",
+          "description": "main harness",
+          "part_number": "A46011075100",
+          "quantity": 1
+        },
+        {
+          "callout": "2",
+          "description": "metamoll 90x45x3mm 03",
+          "part_number": "59003001099",
+          "quantity": 1
+        },
+        {
+          "callout": "3",
+          "description": "voltage regulator",
+          "part_number": "77211034000",
+          "quantity": 1
+        },
+        {
+          "callout": "4",
+          "description": "cable tie 140/2,5mm",
+          "part_number": "44011076140",
+          "quantity": 0
+        },
+        {
+          "callout": "4",
+          "description": "cable tie 200/4.6mm",
+          "part_number": "44011076200",
+          "quantity": 0
+        },
+        {
+          "callout": "4",
+          "description": "cable tie 300/4,8mm",
+          "part_number": "44011076305",
+          "quantity": 0
+        },
+        {
+          "callout": "5",
+          "description": "line guide",
+          "part_number": "83013026000",
+          "quantity": 2
+        },
+        {
+          "callout": "6",
+          "description": "plug cap",
+          "part_number": "000700000OU002",
+          "quantity": 1
+        },
+        {
+          "callout": "7",
+          "description": "cable bracket d8",
+          "part_number": "79711013010",
+          "quantity": 1
+        },
+        {
+          "callout": "8",
+          "description": "relay cm1a-r-12v-h80 07",
+          "part_number": "61111057000",
+          "quantity": 1
+        },
+        {
+          "callout": "9",
+          "description": "capacitor",
+          "part_number": "77711035000",
+          "quantity": 1
+        },
+        {
+          "callout": "10",
+          "description": "holder control unit",
+          "part_number": "55641030000",
+          "quantity": 2
+        },
+        {
+          "callout": "11",
+          "description": "hh collar screw",
+          "part_number": "0025050126",
+          "quantity": 2
+        },
+        {
+          "callout": "12",
+          "description": "contact washer m6",
+          "part_number": "58411098100",
+          "quantity": 3
+        },
+        {
+          "callout": "13",
+          "description": "roundhead screw w/",
+          "part_number": "0900000601202",
+          "quantity": 1
+        },
+        {
+          "callout": "14",
+          "description": "hh collar screw",
+          "part_number": "0024060106",
+          "quantity": 1
+        },
+        {
+          "callout": "15",
+          "description": "oval head screw",
+          "part_number": "0738060167",
+          "quantity": 1
+        },
+        {
+          "callout": "16",
+          "description": "oval head screw",
+          "part_number": "0902060083",
+          "quantity": 1
+        },
+        {
+          "callout": "17",
+          "description": "ground wire",
+          "part_number": "75011097100",
+          "quantity": 1
+        },
+        {
+          "callout": "18",
+          "description": "connector support",
+          "part_number": "A46011083000",
+          "quantity": 1
+        },
+        {
+          "callout": "19",
+          "description": "self lock. nut",
+          "part_number": "0985060003",
+          "quantity": 1
+        },
+        {
+          "callout": "20",
+          "description": "protection cap for",
+          "part_number": "77240099000",
+          "quantity": 1
+        },
+        {
+          "callout": "21",
+          "description": "starter cable",
+          "part_number": "A46011059000",
+          "quantity": 1
+        },
+        {
+          "callout": "22",
+          "description": "starter reley 12v",
+          "part_number": "58211058000",
+          "quantity": 1
+        },
+        {
+          "callout": "23",
+          "description": "plug-in fuse, big",
+          "part_number": "58011109110",
+          "quantity": 2
+        },
+        {
+          "callout": "24",
+          "description": "battery holding bracket",
+          "part_number": "A46011055000",
+          "quantity": 1
+        },
+        {
+          "callout": "25",
+          "description": "battery cable cmpl.",
+          "part_number": "A46011059050",
+          "quantity": 1
+        },
+        {
+          "callout": "26",
+          "description": "battery 12v/24wh",
+          "part_number": "79111053000",
+          "quantity": 1
+        },
+        {
+          "callout": "27",
+          "description": "dashboard",
+          "part_number": "A46014069000",
+          "quantity": 1
+        },
+        {
+          "callout": "28",
+          "description": "special screw m6x15x5.5",
+          "part_number": "83008100015",
+          "quantity": 2
+        },
+        {
+          "callout": "29",
+          "description": "screw kit only",
+          "part_number": "79111053010",
+          "quantity": 1
+        },
+        {
+          "callout": "30",
+          "description": "starter relay cap",
+          "part_number": "25140097000",
+          "quantity": 1
+        }
+      ],
+      "source_url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/70478?modelidentifier=1003417574&isEngine=False",
+      "status": "complete_table_and_diagram_part_number_coverage",
+      "table_complete": true,
+      "table_row_count": 32
+    },
+    {
+      "acquired_row_count": 14,
+      "assembly_name": "FRONT BRAKE CONTROL",
+      "diagram_check": "DOM hotspot part numbers compared with all table part numbers; no visual geometry or installed-unit validation",
+      "missing_diagram_part_numbers": [],
+      "points": [
+        {
+          "callout": "",
+          "part_number": "77713001044"
+        },
+        {
+          "callout": "",
+          "part_number": "77713003000"
+        },
+        {
+          "callout": "",
+          "part_number": "77713008000"
+        },
+        {
+          "callout": "",
+          "part_number": "54802005100"
+        },
+        {
+          "callout": "",
+          "part_number": "0025060256"
+        },
+        {
+          "callout": "",
+          "part_number": "77713006000"
+        },
+        {
+          "callout": "",
+          "part_number": "77713002000"
+        },
+        {
+          "callout": "",
+          "part_number": "77713007000"
+        },
+        {
+          "callout": "",
+          "part_number": "77713004000"
+        },
+        {
+          "callout": "",
+          "part_number": "59013010000"
+        },
+        {
+          "callout": "",
+          "part_number": "54813020100"
+        },
+        {
+          "callout": "",
+          "part_number": "0603100141"
+        },
+        {
+          "callout": "",
+          "part_number": "54802051000"
+        },
+        {
+          "callout": "",
+          "part_number": "00062030000"
+        }
+      ],
+      "rows": [
+        {
+          "callout": "1",
+          "description": "hand brake cylind.",
+          "part_number": "77713001044",
+          "quantity": 1
+        },
+        {
+          "callout": "9",
+          "description": "hand brake cyl.",
+          "part_number": "77713003000",
+          "quantity": 1
+        },
+        {
+          "callout": "10",
+          "description": "repair kit piston",
+          "part_number": "77713008000",
+          "quantity": 1
+        },
+        {
+          "callout": "11",
+          "description": "clamp cpl. 06",
+          "part_number": "54802005100",
+          "quantity": 1
+        },
+        {
+          "callout": "12",
+          "description": "hh collar screw",
+          "part_number": "0025060256",
+          "quantity": 2
+        },
+        {
+          "callout": "15",
+          "description": "lever screw",
+          "part_number": "77713006000",
+          "quantity": 1
+        },
+        {
+          "callout": "20",
+          "description": "hand brake lever",
+          "part_number": "77713002000",
+          "quantity": 1
+        },
+        {
+          "callout": "21",
+          "description": "push rod cpl.",
+          "part_number": "77713007000",
+          "quantity": 1
+        },
+        {
+          "callout": "23",
+          "description": "protection cap, hand",
+          "part_number": "77713004000",
+          "quantity": 1
+        },
+        {
+          "callout": "30",
+          "description": "brakeho. front 1235mm",
+          "part_number": "59013010000",
+          "quantity": 1
+        },
+        {
+          "callout": "31",
+          "description": "banjo bolt m10x1x19",
+          "part_number": "54813020100",
+          "quantity": 1
+        },
+        {
+          "callout": "32",
+          "description": "sealing ring din",
+          "part_number": "0603100141",
+          "quantity": 2
+        },
+        {
+          "callout": "34",
+          "description": "valve",
+          "part_number": "54802051000",
+          "quantity": 1
+        },
+        {
+          "callout": "80",
+          "description": "brake fluid dot5.1",
+          "part_number": "00062030000",
+          "quantity": 1
+        }
+      ],
+      "source_url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/15055?modelidentifier=1003417574&isEngine=False",
+      "status": "complete_table_and_diagram_part_number_coverage",
+      "table_complete": true,
+      "table_row_count": 14
+    },
+    {
+      "acquired_row_count": 21,
+      "assembly_name": "REAR BRAKE CONTROL",
+      "diagram_check": "DOM hotspot part numbers compared with all table part numbers; no visual geometry or installed-unit validation",
+      "missing_diagram_part_numbers": [],
+      "points": [
+        {
+          "callout": "",
+          "part_number": "77013060044"
+        },
+        {
+          "callout": "",
+          "part_number": "54813062100"
+        },
+        {
+          "callout": "",
+          "part_number": "54813063000"
+        },
+        {
+          "callout": "",
+          "part_number": "54813020100"
+        },
+        {
+          "callout": "",
+          "part_number": "77213070300"
+        },
+        {
+          "callout": "",
+          "part_number": "0603100141"
+        },
+        {
+          "callout": "",
+          "part_number": "A48013050044"
+        },
+        {
+          "callout": "",
+          "part_number": "A48013051000"
+        },
+        {
+          "callout": "",
+          "part_number": "58605083010"
+        },
+        {
+          "callout": "",
+          "part_number": "A46003062000"
+        },
+        {
+          "callout": "",
+          "part_number": "0025060206S"
+        },
+        {
+          "callout": "",
+          "part_number": "54813056000"
+        },
+        {
+          "callout": "",
+          "part_number": "0934060003"
+        },
+        {
+          "callout": "",
+          "part_number": "54813055100"
+        },
+        {
+          "callout": "",
+          "part_number": "47213054000"
+        },
+        {
+          "callout": "",
+          "part_number": "59001037000"
+        },
+        {
+          "callout": "",
+          "part_number": "46030045000"
+        },
+        {
+          "callout": "",
+          "part_number": "0625060002"
+        },
+        {
+          "callout": "",
+          "part_number": "54630044000"
+        },
+        {
+          "callout": "",
+          "part_number": "0025060126"
+        },
+        {
+          "callout": "",
+          "part_number": "00062030000"
+        }
+      ],
+      "rows": [
+        {
+          "callout": "1",
+          "description": "rear brake cylinder",
+          "part_number": "77013060044",
+          "quantity": 1
+        },
+        {
+          "callout": "3",
+          "description": "rear brake cyl.",
+          "part_number": "54813062100",
+          "quantity": 1
+        },
+        {
+          "callout": "4",
+          "description": "foot-brake cyl. gasket",
+          "part_number": "54813063000",
+          "quantity": 1
+        },
+        {
+          "callout": "5",
+          "description": "banjo bolt m10x1x19",
+          "part_number": "54813020100",
+          "quantity": 1
+        },
+        {
+          "callout": "7",
+          "description": "rear brakehose",
+          "part_number": "77213070300",
+          "quantity": 1
+        },
+        {
+          "callout": "9",
+          "description": "sealing ring din",
+          "part_number": "0603100141",
+          "quantity": 2
+        },
+        {
+          "callout": "10",
+          "description": "brake pedal cmpl.",
+          "part_number": "A48013050044",
+          "quantity": 1
+        },
+        {
+          "callout": "11",
+          "description": "step brake lever",
+          "part_number": "A48013051000",
+          "quantity": 1
+        },
+        {
+          "callout": "12",
+          "description": "screw torx m5x10",
+          "part_number": "58605083010",
+          "quantity": 2
+        },
+        {
+          "callout": "13",
+          "description": "retracting spring",
+          "part_number": "A46003062000",
+          "quantity": 1
+        },
+        {
+          "callout": "14",
+          "description": "hh collar screw",
+          "part_number": "0025060206S",
+          "quantity": 1
+        },
+        {
+          "callout": "15",
+          "description": "push rod l=28mm",
+          "part_number": "54813056000",
+          "quantity": 1
+        },
+        {
+          "callout": "16",
+          "description": "hex. nut din",
+          "part_number": "0934060003",
+          "quantity": 1
+        },
+        {
+          "callout": "17",
+          "description": "joint head cmp6",
+          "part_number": "54813055100",
+          "quantity": 1
+        },
+        {
+          "callout": "18",
+          "description": "screw foot brake",
+          "part_number": "47213054000",
+          "quantity": 1
+        },
+        {
+          "callout": "19",
+          "description": "special screw m8x26",
+          "part_number": "59001037000",
+          "quantity": 1
+        },
+        {
+          "callout": "20",
+          "description": "flanged nut m8",
+          "part_number": "46030045000",
+          "quantity": 1
+        },
+        {
+          "callout": "21",
+          "description": "deep groove ball",
+          "part_number": "0625060002",
+          "quantity": 2
+        },
+        {
+          "callout": "22",
+          "description": "collar nut m10",
+          "part_number": "54630044000",
+          "quantity": 1
+        },
+        {
+          "callout": "35",
+          "description": "hh collar screw",
+          "part_number": "0025060126",
+          "quantity": 2
+        },
+        {
+          "callout": "80",
+          "description": "brake fluid dot5.1",
+          "part_number": "00062030000",
+          "quantity": 1
+        }
+      ],
+      "source_url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/69022?modelidentifier=1003417574&isEngine=False",
+      "status": "complete_table_and_diagram_part_number_coverage",
+      "table_complete": true,
+      "table_row_count": 21
+    },
+    {
+      "acquired_row_count": 13,
+      "assembly_name": "FRONT BRAKE CALIPER",
+      "diagram_check": "DOM hotspot part numbers compared with all table part numbers; no visual geometry or installed-unit validation",
+      "missing_diagram_part_numbers": [],
+      "points": [
+        {
+          "callout": "",
+          "part_number": "7701301500101"
+        },
+        {
+          "callout": "",
+          "part_number": "77013014000"
+        },
+        {
+          "callout": "",
+          "part_number": "77013021000"
+        },
+        {
+          "callout": "",
+          "part_number": "77013019000"
+        },
+        {
+          "callout": "",
+          "part_number": "77013017000"
+        },
+        {
+          "callout": "",
+          "part_number": "77013018000"
+        },
+        {
+          "callout": "",
+          "part_number": "77713030000"
+        },
+        {
+          "callout": "",
+          "part_number": "61013020100"
+        },
+        {
+          "callout": "",
+          "part_number": "54613218000"
+        },
+        {
+          "callout": "",
+          "part_number": "0025080306S"
+        },
+        {
+          "callout": "",
+          "part_number": "0025080306S"
+        },
+        {
+          "callout": "",
+          "part_number": "59013010000"
+        },
+        {
+          "callout": "",
+          "part_number": "0603100141"
+        },
+        {
+          "callout": "",
+          "part_number": "0603100141"
+        },
+        {
+          "callout": "",
+          "part_number": "50213025000"
+        }
+      ],
+      "rows": [
+        {
+          "callout": "1",
+          "description": "caliper nat. without",
+          "part_number": "7701301500101",
+          "quantity": 1
+        },
+        {
+          "callout": "2",
+          "description": "brake caliper support",
+          "part_number": "77013014000",
+          "quantity": 1
+        },
+        {
+          "callout": "5",
+          "description": "rep. kit seals",
+          "part_number": "77013021000",
+          "quantity": 1
+        },
+        {
+          "callout": "6",
+          "description": "rep. kit piston",
+          "part_number": "77013019000",
+          "quantity": 1
+        },
+        {
+          "callout": "7",
+          "description": "bolt cpl. 09",
+          "part_number": "77013017000",
+          "quantity": 1
+        },
+        {
+          "callout": "8",
+          "description": "retaining plate set",
+          "part_number": "77013018000",
+          "quantity": 1
+        },
+        {
+          "callout": "9",
+          "description": "brake pad front",
+          "part_number": "77713030000",
+          "quantity": 1
+        },
+        {
+          "callout": "10",
+          "description": "bleeder screw with",
+          "part_number": "61013020100",
+          "quantity": 1
+        },
+        {
+          "callout": "12",
+          "description": "cup set short",
+          "part_number": "54613218000",
+          "quantity": 1
+        },
+        {
+          "callout": "15",
+          "description": "hh collar screw",
+          "part_number": "0025080306S",
+          "quantity": 2
+        },
+        {
+          "callout": "21",
+          "description": "brakeho. front 1235mm",
+          "part_number": "59013010000",
+          "quantity": 1
+        },
+        {
+          "callout": "30",
+          "description": "sealing ring din",
+          "part_number": "0603100141",
+          "quantity": 2
+        },
+        {
+          "callout": "35",
+          "description": "hollow screw m10x1x19",
+          "part_number": "50213025000",
+          "quantity": 1
+        }
+      ],
+      "source_url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/10680?modelidentifier=1003417574&isEngine=False",
+      "status": "complete_table_and_diagram_part_number_coverage",
+      "table_complete": true,
+      "table_row_count": 13
+    },
+    {
+      "acquired_row_count": 12,
+      "assembly_name": "REAR BRAKE CALIPER",
+      "diagram_check": "DOM hotspot part numbers compared with all table part numbers; no visual geometry or installed-unit validation",
+      "missing_diagram_part_numbers": [],
+      "points": [
+        {
+          "callout": "",
+          "part_number": "A46013080001"
+        },
+        {
+          "callout": "",
+          "part_number": "50313081200"
+        },
+        {
+          "callout": "",
+          "part_number": "54813082000"
+        },
+        {
+          "callout": "",
+          "part_number": "54813090300"
+        },
+        {
+          "callout": "",
+          "part_number": "79013090000"
+        },
+        {
+          "callout": "",
+          "part_number": "77713083000"
+        },
+        {
+          "callout": "",
+          "part_number": "54813018000"
+        },
+        {
+          "callout": "",
+          "part_number": "54813018000"
+        },
+        {
+          "callout": "",
+          "part_number": "A46013075000"
+        },
+        {
+          "callout": "",
+          "part_number": "54613218100"
+        },
+        {
+          "callout": "",
+          "part_number": "77213070300"
+        },
+        {
+          "callout": "",
+          "part_number": "62513020000"
+        },
+        {
+          "callout": "",
+          "part_number": "0603100141"
+        }
+      ],
+      "rows": [
+        {
+          "callout": "1",
+          "description": "rear brake caliper",
+          "part_number": "A46013080001",
+          "quantity": 1
+        },
+        {
+          "callout": "2",
+          "description": "repair kit sealing",
+          "part_number": "50313081200",
+          "quantity": 1
+        },
+        {
+          "callout": "3",
+          "description": "bolt set for",
+          "part_number": "54813082000",
+          "quantity": 1
+        },
+        {
+          "callout": "4",
+          "description": "brake pad set",
+          "part_number": "54813090300",
+          "quantity": 0
+        },
+        {
+          "callout": "4",
+          "description": "brake pad rear",
+          "part_number": "79013090000",
+          "quantity": 1
+        },
+        {
+          "callout": "5",
+          "description": "brake piston 26mm",
+          "part_number": "77713083000",
+          "quantity": 1
+        },
+        {
+          "callout": "6",
+          "description": "retaining spring set",
+          "part_number": "54813018000",
+          "quantity": 1
+        },
+        {
+          "callout": "7",
+          "description": "brake caliper support",
+          "part_number": "A46013075000",
+          "quantity": 1
+        },
+        {
+          "callout": "8",
+          "description": "cup set short",
+          "part_number": "54613218100",
+          "quantity": 1
+        },
+        {
+          "callout": "10",
+          "description": "rear brakehose",
+          "part_number": "77213070300",
+          "quantity": 1
+        },
+        {
+          "callout": "11",
+          "description": "bleeder screw cpl.",
+          "part_number": "62513020000",
+          "quantity": 1
+        },
+        {
+          "callout": "12",
+          "description": "sealing ring din",
+          "part_number": "0603100141",
+          "quantity": 2
+        }
+      ],
+      "source_url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/58280?modelidentifier=1003417574&isEngine=False",
+      "status": "complete_table_and_diagram_part_number_coverage",
+      "table_complete": true,
+      "table_row_count": 12
+    },
+    {
+      "acquired_row_count": 20,
+      "assembly_name": "ACCESSORY PACK",
+      "diagram_check": "DOM hotspot part numbers compared with all table part numbers; no visual geometry or installed-unit validation",
+      "missing_diagram_part_numbers": [],
+      "points": [
+        {
+          "callout": "",
+          "part_number": "A46001038010"
+        },
+        {
+          "callout": "",
+          "part_number": "A46039075000"
+        },
+        {
+          "callout": "",
+          "part_number": "A46003037033"
+        },
+        {
+          "callout": "",
+          "part_number": "81212016100"
+        },
+        {
+          "callout": "",
+          "part_number": "A46002014000"
+        },
+        {
+          "callout": "",
+          "part_number": "A46008078026"
+        },
+        {
+          "callout": "",
+          "part_number": "58411098100"
+        },
+        {
+          "callout": "",
+          "part_number": "A46002002044C1A"
+        },
+        {
+          "callout": "",
+          "part_number": "A46006903000EB"
+        },
+        {
+          "callout": "",
+          "part_number": "A46003094000C1"
+        },
+        {
+          "callout": "",
+          "part_number": "0025050126"
+        },
+        {
+          "callout": "",
+          "part_number": "78141013190"
+        },
+        {
+          "callout": "",
+          "part_number": "00063004202"
+        },
+        {
+          "callout": "",
+          "part_number": "78029072000"
+        },
+        {
+          "callout": "",
+          "part_number": "52000235SET"
+        },
+        {
+          "callout": "",
+          "part_number": "A46029094000"
+        },
+        {
+          "callout": "",
+          "part_number": "00063004012"
+        },
+        {
+          "callout": "",
+          "part_number": "3240045EN"
+        },
+        {
+          "callout": "",
+          "part_number": "50329072000"
+        },
+        {
+          "callout": "",
+          "part_number": "79412966100"
+        }
+      ],
+      "rows": [
+        {
+          "callout": "0",
+          "description": "rigid handlebar clamp",
+          "part_number": "A46001038010",
+          "quantity": 2
+        },
+        {
+          "callout": "0",
+          "description": "sticker map select",
+          "part_number": "A46039075000",
+          "quantity": 1
+        },
+        {
+          "callout": "0",
+          "description": "footpeg set",
+          "part_number": "A46003037033",
+          "quantity": 1
+        },
+        {
+          "callout": "0",
+          "description": "wash cap set",
+          "part_number": "81212016100",
+          "quantity": 1
+        },
+        {
+          "callout": "0",
+          "description": "gate 4-t 39,5mm",
+          "part_number": "A46002014000",
+          "quantity": 1
+        },
+        {
+          "callout": "0",
+          "description": "displacement label set",
+          "part_number": "A46008078026",
+          "quantity": 1
+        },
+        {
+          "callout": "0",
+          "description": "contact washer m6",
+          "part_number": "58411098100",
+          "quantity": 2
+        },
+        {
+          "callout": "0",
+          "description": "handlebar pad cmpl.",
+          "part_number": "A46002002044C1A",
+          "quantity": 1
+        },
+        {
+          "callout": "0",
+          "description": "air filter cover",
+          "part_number": "A46006903000EB",
+          "quantity": 1
+        },
+        {
+          "callout": "0",
+          "description": "frame protection set",
+          "part_number": "A46003094000C1",
+          "quantity": 1
+        },
+        {
+          "callout": "0",
+          "description": "hh collar screw",
+          "part_number": "0025050126",
+          "quantity": 2
+        },
+        {
+          "callout": "0",
+          "description": "fuel filter",
+          "part_number": "78141013190",
+          "quantity": 3
+        },
+        {
+          "callout": "0",
+          "description": "print label 60x51",
+          "part_number": "00063004202",
+          "quantity": 1
+        },
+        {
+          "callout": "0",
+          "description": "spark plug wrench",
+          "part_number": "78029072000",
+          "quantity": 1
+        },
+        {
+          "callout": "0",
+          "description": "sticker set xact",
+          "part_number": "52000235SET",
+          "quantity": 1
+        },
+        {
+          "callout": "0",
+          "description": "stand/fork support",
+          "part_number": "A46029094000",
+          "quantity": 1
+        },
+        {
+          "callout": "0",
+          "description": "headlight mask box",
+          "part_number": "00063004012",
+          "quantity": 1
+        },
+        {
+          "callout": "1",
+          "description": "owner manual 450",
+          "part_number": "3240045EN",
+          "quantity": 1
+        },
+        {
+          "callout": "2",
+          "description": "spoke-spanner ws 7/10",
+          "part_number": "50329072000",
+          "quantity": 1
+        },
+        {
+          "callout": "3",
+          "description": "fork pump",
+          "part_number": "79412966100",
+          "quantity": 1
+        }
+      ],
+      "source_url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/72524?modelidentifier=1003417574&isEngine=False",
+      "status": "complete_table_and_diagram_part_number_coverage",
+      "table_complete": true,
+      "table_row_count": 20
+    },
+    {
+      "acquired_row_count": 381,
+      "assembly_name": "WP SHIMS FOR SETTING",
+      "description_labels": {
+        "d0": "spring",
+        "d1": "shim",
+        "d10": "adjustment",
+        "d11": "spring washer",
+        "d12": "distancer plate",
+        "d13": "pessure ring",
+        "d14": "ring",
+        "d15": "shuttle valve",
+        "d16": "shim d",
+        "d2": "washer",
+        "d3": "spring shim",
+        "d4": "washer check valve",
+        "d5": "check valve plate",
+        "d6": "sinus shim plate",
+        "d7": "check valve",
+        "d8": "sinus shim backplate",
+        "d9": "backplate"
+      },
+      "diagram_check": "DOM hotspot part numbers compared with all table part numbers; no visual geometry or installed-unit validation",
+      "missing_diagram_part_numbers": [],
+      "points": [
+        {
+          "callout": "",
+          "part_number": "50180659"
+        },
+        {
+          "callout": "",
+          "part_number": "40540400"
+        },
+        {
+          "callout": "",
+          "part_number": "40540401"
+        },
+        {
+          "callout": "",
+          "part_number": "40540402"
+        },
+        {
+          "callout": "",
+          "part_number": "40540403"
+        },
+        {
+          "callout": "",
+          "part_number": "40540404"
+        },
+        {
+          "callout": "",
+          "part_number": "40540405"
+        },
+        {
+          "callout": "",
+          "part_number": "40540406"
+        },
+        {
+          "callout": "",
+          "part_number": "40540407"
+        },
+        {
+          "callout": "",
+          "part_number": "40540408"
+        },
+        {
+          "callout": "",
+          "part_number": "40540409"
+        },
+        {
+          "callout": "",
+          "part_number": "40540410"
+        },
+        {
+          "callout": "",
+          "part_number": "40540411"
+        },
+        {
+          "callout": "",
+          "part_number": "48600095"
+        },
+        {
+          "callout": "",
+          "part_number": "40540412"
+        },
+        {
+          "callout": "",
+          "part_number": "40540413"
+        },
+        {
+          "callout": "",
+          "part_number": "40540414"
+        },
+        {
+          "callout": "",
+          "part_number": "40540415"
+        },
+        {
+          "callout": "",
+          "part_number": "40540417"
+        },
+        {
+          "callout": "",
+          "part_number": "40540418"
+        },
+        {
+          "callout": "",
+          "part_number": "40540419"
+        },
+        {
+          "callout": "",
+          "part_number": "40540423"
+        },
+        {
+          "callout": "",
+          "part_number": "40540425"
+        },
+        {
+          "callout": "",
+          "part_number": "40540426"
+        },
+        {
+          "callout": "",
+          "part_number": "40540427"
+        },
+        {
+          "callout": "",
+          "part_number": "40540447"
+        },
+        {
+          "callout": "",
+          "part_number": "40540449"
+        },
+        {
+          "callout": "",
+          "part_number": "40540450"
+        },
+        {
+          "callout": "",
+          "part_number": "40540494"
+        },
+        {
+          "callout": "",
+          "part_number": "40540774"
+        },
+        {
+          "callout": "",
+          "part_number": "40541383"
+        },
+        {
+          "callout": "",
+          "part_number": "40541391"
+        },
+        {
+          "callout": "",
+          "part_number": "40541402"
+        },
+        {
+          "callout": "",
+          "part_number": "40541403"
+        },
+        {
+          "callout": "",
+          "part_number": "40541404"
+        },
+        {
+          "callout": "",
+          "part_number": "40541405"
+        },
+        {
+          "callout": "",
+          "part_number": "40541406"
+        },
+        {
+          "callout": "",
+          "part_number": "40541408"
+        },
+        {
+          "callout": "",
+          "part_number": "40541414"
+        },
+        {
+          "callout": "",
+          "part_number": "40541416"
+        },
+        {
+          "callout": "",
+          "part_number": "40541417"
+        },
+        {
+          "callout": "",
+          "part_number": "48600102"
+        },
+        {
+          "callout": "",
+          "part_number": "48600063"
+        },
+        {
+          "callout": "",
+          "part_number": "48600064"
+        },
+        {
+          "callout": "",
+          "part_number": "48600065"
+        },
+        {
+          "callout": "",
+          "part_number": "48600069"
+        },
+        {
+          "callout": "",
+          "part_number": "48600100"
+        },
+        {
+          "callout": "",
+          "part_number": "48600116"
+        },
+        {
+          "callout": "",
+          "part_number": "48600139"
+        },
+        {
+          "callout": "",
+          "part_number": "48600217"
+        },
+        {
+          "callout": "",
+          "part_number": "48600325"
+        },
+        {
+          "callout": "",
+          "part_number": "48600327"
+        },
+        {
+          "callout": "",
+          "part_number": "48600329"
+        },
+        {
+          "callout": "",
+          "part_number": "48600331"
+        },
+        {
+          "callout": "",
+          "part_number": "48600096"
+        },
+        {
+          "callout": "",
+          "part_number": "48600097"
+        },
+        {
+          "callout": "",
+          "part_number": "48600099"
+        },
+        {
+          "callout": "",
+          "part_number": "40540448"
+        },
+        {
+          "callout": "",
+          "part_number": "48600479"
+        },
+        {
+          "callout": "",
+          "part_number": "48600332"
+        },
+        {
+          "callout": "",
+          "part_number": "48600333"
+        },
+        {
+          "callout": "",
+          "part_number": "40541393"
+        },
+        {
+          "callout": "",
+          "part_number": "40540477"
+        },
+        {
+          "callout": "",
+          "part_number": "43570120"
+        },
+        {
+          "callout": "",
+          "part_number": "44916098"
+        },
+        {
+          "callout": "",
+          "part_number": "44916130"
+        },
+        {
+          "callout": "",
+          "part_number": "48600214"
+        },
+        {
+          "callout": "",
+          "part_number": "48600346"
+        },
+        {
+          "callout": "",
+          "part_number": "48600215"
+        },
+        {
+          "callout": "",
+          "part_number": "48600061"
+        },
+        {
+          "callout": "",
+          "part_number": "48600062"
+        },
+        {
+          "callout": "",
+          "part_number": "48600216"
+        },
+        {
+          "callout": "",
+          "part_number": "48600480"
+        },
+        {
+          "callout": "",
+          "part_number": "48600555"
+        },
+        {
+          "callout": "",
+          "part_number": "48600213"
+        },
+        {
+          "callout": "",
+          "part_number": "48600357"
+        },
+        {
+          "callout": "",
+          "part_number": "48600351"
+        },
+        {
+          "callout": "",
+          "part_number": "48600607"
+        },
+        {
+          "callout": "",
+          "part_number": "36120284"
+        },
+        {
+          "callout": "",
+          "part_number": "36120298"
+        },
+        {
+          "callout": "",
+          "part_number": "36120312"
+        },
+        {
+          "callout": "",
+          "part_number": "36120314"
+        },
+        {
+          "callout": "",
+          "part_number": "36120325"
+        },
+        {
+          "callout": "",
+          "part_number": "36120327"
+        },
+        {
+          "callout": "",
+          "part_number": "36120328"
+        },
+        {
+          "callout": "",
+          "part_number": "36120329"
+        },
+        {
+          "callout": "",
+          "part_number": "36120330"
+        },
+        {
+          "callout": "",
+          "part_number": "36120331"
+        },
+        {
+          "callout": "",
+          "part_number": "36120332"
+        },
+        {
+          "callout": "",
+          "part_number": "36120334"
+        },
+        {
+          "callout": "",
+          "part_number": "36120335"
+        },
+        {
+          "callout": "",
+          "part_number": "36120336"
+        },
+        {
+          "callout": "",
+          "part_number": "36120337"
+        },
+        {
+          "callout": "",
+          "part_number": "36120338"
+        },
+        {
+          "callout": "",
+          "part_number": "36120339"
+        },
+        {
+          "callout": "",
+          "part_number": "36120340"
+        },
+        {
+          "callout": "",
+          "part_number": "36120342"
+        },
+        {
+          "callout": "",
+          "part_number": "36120343"
+        },
+        {
+          "callout": "",
+          "part_number": "36120344"
+        },
+        {
+          "callout": "",
+          "part_number": "36120345"
+        },
+        {
+          "callout": "",
+          "part_number": "36120349"
+        },
+        {
+          "callout": "",
+          "part_number": "36120350"
+        },
+        {
+          "callout": "",
+          "part_number": "40140275"
+        },
+        {
+          "callout": "",
+          "part_number": "36120346"
+        },
+        {
+          "callout": "",
+          "part_number": "48601708"
+        },
+        {
+          "callout": "",
+          "part_number": "36120604"
+        },
+        {
+          "callout": "",
+          "part_number": "46810490"
+        },
+        {
+          "callout": "",
+          "part_number": "46810491"
+        },
+        {
+          "callout": "",
+          "part_number": "46810492"
+        },
+        {
+          "callout": "",
+          "part_number": "46810493"
+        },
+        {
+          "callout": "",
+          "part_number": "46810494"
+        },
+        {
+          "callout": "",
+          "part_number": "46810495"
+        },
+        {
+          "callout": "",
+          "part_number": "46810496"
+        },
+        {
+          "callout": "",
+          "part_number": "46810497"
+        },
+        {
+          "callout": "",
+          "part_number": "46810498"
+        },
+        {
+          "callout": "",
+          "part_number": "46810499"
+        },
+        {
+          "callout": "",
+          "part_number": "46810500"
+        },
+        {
+          "callout": "",
+          "part_number": "46810501"
+        },
+        {
+          "callout": "",
+          "part_number": "46810502"
+        },
+        {
+          "callout": "",
+          "part_number": "46810504"
+        },
+        {
+          "callout": "",
+          "part_number": "46810505"
+        },
+        {
+          "callout": "",
+          "part_number": "46810507"
+        },
+        {
+          "callout": "",
+          "part_number": "46810508"
+        },
+        {
+          "callout": "",
+          "part_number": "46810509"
+        },
+        {
+          "callout": "",
+          "part_number": "46810510"
+        },
+        {
+          "callout": "",
+          "part_number": "46810512"
+        },
+        {
+          "callout": "",
+          "part_number": "46810513"
+        },
+        {
+          "callout": "",
+          "part_number": "46810518"
+        },
+        {
+          "callout": "",
+          "part_number": "46810519"
+        },
+        {
+          "callout": "",
+          "part_number": "46810520"
+        },
+        {
+          "callout": "",
+          "part_number": "46810521"
+        },
+        {
+          "callout": "",
+          "part_number": "46810522"
+        },
+        {
+          "callout": "",
+          "part_number": "46810523"
+        },
+        {
+          "callout": "",
+          "part_number": "46810524"
+        },
+        {
+          "callout": "",
+          "part_number": "46810525"
+        },
+        {
+          "callout": "",
+          "part_number": "46810604"
+        },
+        {
+          "callout": "",
+          "part_number": "46810606"
+        },
+        {
+          "callout": "",
+          "part_number": "46810607"
+        },
+        {
+          "callout": "",
+          "part_number": "46810608"
+        },
+        {
+          "callout": "",
+          "part_number": "46810610"
+        },
+        {
+          "callout": "",
+          "part_number": "46810611"
+        },
+        {
+          "callout": "",
+          "part_number": "46810612"
+        },
+        {
+          "callout": "",
+          "part_number": "46810615"
+        },
+        {
+          "callout": "",
+          "part_number": "46810636"
+        },
+        {
+          "callout": "",
+          "part_number": "46810637"
+        },
+        {
+          "callout": "",
+          "part_number": "46810638"
+        },
+        {
+          "callout": "",
+          "part_number": "46810639"
+        },
+        {
+          "callout": "",
+          "part_number": "46810641"
+        },
+        {
+          "callout": "",
+          "part_number": "46811582"
+        },
+        {
+          "callout": "",
+          "part_number": "46810631"
+        },
+        {
+          "callout": "",
+          "part_number": "46810633"
+        },
+        {
+          "callout": "",
+          "part_number": "46811580"
+        },
+        {
+          "callout": "",
+          "part_number": "46810503"
+        },
+        {
+          "callout": "",
+          "part_number": "46810517"
+        },
+        {
+          "callout": "",
+          "part_number": "46810856"
+        },
+        {
+          "callout": "",
+          "part_number": "46811046"
+        },
+        {
+          "callout": "",
+          "part_number": "50180006"
+        },
+        {
+          "callout": "",
+          "part_number": "50180007"
+        },
+        {
+          "callout": "",
+          "part_number": "50180028"
+        },
+        {
+          "callout": "",
+          "part_number": "50180210"
+        },
+        {
+          "callout": "",
+          "part_number": "50180008"
+        },
+        {
+          "callout": "",
+          "part_number": "50180022"
+        },
+        {
+          "callout": "",
+          "part_number": "50180037"
+        },
+        {
+          "callout": "",
+          "part_number": "50180038"
+        },
+        {
+          "callout": "",
+          "part_number": "50180032"
+        },
+        {
+          "callout": "",
+          "part_number": "50180039"
+        },
+        {
+          "callout": "",
+          "part_number": "50180012"
+        },
+        {
+          "callout": "",
+          "part_number": "50180019"
+        },
+        {
+          "callout": "",
+          "part_number": "50180026"
+        },
+        {
+          "callout": "",
+          "part_number": "50180040"
+        },
+        {
+          "callout": "",
+          "part_number": "50180041"
+        },
+        {
+          "callout": "",
+          "part_number": "50180045"
+        },
+        {
+          "callout": "",
+          "part_number": "50180054"
+        },
+        {
+          "callout": "",
+          "part_number": "50180063"
+        },
+        {
+          "callout": "",
+          "part_number": "50180072"
+        },
+        {
+          "callout": "",
+          "part_number": "50180046"
+        },
+        {
+          "callout": "",
+          "part_number": "50180055"
+        },
+        {
+          "callout": "",
+          "part_number": "50180064"
+        },
+        {
+          "callout": "",
+          "part_number": "50180073"
+        },
+        {
+          "callout": "",
+          "part_number": "50180047"
+        },
+        {
+          "callout": "",
+          "part_number": "50180056"
+        },
+        {
+          "callout": "",
+          "part_number": "50180065"
+        },
+        {
+          "callout": "",
+          "part_number": "50180074"
+        },
+        {
+          "callout": "",
+          "part_number": "50180044"
+        },
+        {
+          "callout": "",
+          "part_number": "50180048"
+        },
+        {
+          "callout": "",
+          "part_number": "50180057"
+        },
+        {
+          "callout": "",
+          "part_number": "50180066"
+        },
+        {
+          "callout": "",
+          "part_number": "50180075"
+        },
+        {
+          "callout": "",
+          "part_number": "50180049"
+        },
+        {
+          "callout": "",
+          "part_number": "50180058"
+        },
+        {
+          "callout": "",
+          "part_number": "50180067"
+        },
+        {
+          "callout": "",
+          "part_number": "50180076"
+        },
+        {
+          "callout": "",
+          "part_number": "50180050"
+        },
+        {
+          "callout": "",
+          "part_number": "50180059"
+        },
+        {
+          "callout": "",
+          "part_number": "50180068"
+        },
+        {
+          "callout": "",
+          "part_number": "50180077"
+        },
+        {
+          "callout": "",
+          "part_number": "50180051"
+        },
+        {
+          "callout": "",
+          "part_number": "50180060"
+        },
+        {
+          "callout": "",
+          "part_number": "50180069"
+        },
+        {
+          "callout": "",
+          "part_number": "50180078"
+        },
+        {
+          "callout": "",
+          "part_number": "50180052"
+        },
+        {
+          "callout": "",
+          "part_number": "50180061"
+        },
+        {
+          "callout": "",
+          "part_number": "50180070"
+        },
+        {
+          "callout": "",
+          "part_number": "50180079"
+        },
+        {
+          "callout": "",
+          "part_number": "50180053"
+        },
+        {
+          "callout": "",
+          "part_number": "50180062"
+        },
+        {
+          "callout": "",
+          "part_number": "50180071"
+        },
+        {
+          "callout": "",
+          "part_number": "50180080"
+        },
+        {
+          "callout": "",
+          "part_number": "50180177"
+        },
+        {
+          "callout": "",
+          "part_number": "50180033"
+        },
+        {
+          "callout": "",
+          "part_number": "50180034"
+        },
+        {
+          "callout": "",
+          "part_number": "50180035"
+        },
+        {
+          "callout": "",
+          "part_number": "50180036"
+        },
+        {
+          "callout": "",
+          "part_number": "50180043"
+        },
+        {
+          "callout": "",
+          "part_number": "50180024"
+        },
+        {
+          "callout": "",
+          "part_number": "50180023"
+        },
+        {
+          "callout": "",
+          "part_number": "46811258"
+        },
+        {
+          "callout": "",
+          "part_number": "50180027"
+        },
+        {
+          "callout": "",
+          "part_number": "50180031"
+        },
+        {
+          "callout": "",
+          "part_number": "50180030"
+        },
+        {
+          "callout": "",
+          "part_number": "48600212"
+        },
+        {
+          "callout": "",
+          "part_number": "50180666"
+        },
+        {
+          "callout": "",
+          "part_number": "50180654"
+        },
+        {
+          "callout": "",
+          "part_number": "50180655"
+        },
+        {
+          "callout": "",
+          "part_number": "50180656"
+        },
+        {
+          "callout": "",
+          "part_number": "50180665"
+        },
+        {
+          "callout": "",
+          "part_number": "50180662"
+        },
+        {
+          "callout": "",
+          "part_number": "50180657"
+        },
+        {
+          "callout": "",
+          "part_number": "50180653"
+        },
+        {
+          "callout": "",
+          "part_number": "50180634"
+        },
+        {
+          "callout": "",
+          "part_number": "50180209"
+        },
+        {
+          "callout": "",
+          "part_number": "50180330"
+        },
+        {
+          "callout": "",
+          "part_number": "50180635"
+        },
+        {
+          "callout": "",
+          "part_number": "50180578"
+        },
+        {
+          "callout": "",
+          "part_number": "36120469"
+        },
+        {
+          "callout": "",
+          "part_number": "36120471"
+        },
+        {
+          "callout": "",
+          "part_number": "48600460"
+        },
+        {
+          "callout": "",
+          "part_number": "50600065"
+        },
+        {
+          "callout": "",
+          "part_number": "46811637"
+        },
+        {
+          "callout": "",
+          "part_number": "50600002"
+        },
+        {
+          "callout": "",
+          "part_number": "48601402"
+        },
+        {
+          "callout": "",
+          "part_number": "50180029"
+        },
+        {
+          "callout": "",
+          "part_number": "48600485"
+        },
+        {
+          "callout": "",
+          "part_number": "48600330"
+        },
+        {
+          "callout": "",
+          "part_number": "50180650"
+        },
+        {
+          "callout": "",
+          "part_number": "48601095"
+        },
+        {
+          "callout": "",
+          "part_number": "48600988"
+        },
+        {
+          "callout": "",
+          "part_number": "48600989"
+        },
+        {
+          "callout": "",
+          "part_number": "50180663"
+        },
+        {
+          "callout": "",
+          "part_number": "50180664"
+        },
+        {
+          "callout": "",
+          "part_number": "48601091"
+        },
+        {
+          "callout": "",
+          "part_number": "48601093"
+        },
+        {
+          "callout": "",
+          "part_number": "46812015"
+        },
+        {
+          "callout": "",
+          "part_number": "46812018"
+        },
+        {
+          "callout": "",
+          "part_number": "48600352"
+        },
+        {
+          "callout": "",
+          "part_number": "48600385"
+        },
+        {
+          "callout": "",
+          "part_number": "48600328"
+        },
+        {
+          "callout": "",
+          "part_number": "48600326"
+        },
+        {
+          "callout": "",
+          "part_number": "48601548"
+        },
+        {
+          "callout": "",
+          "part_number": "46810514"
+        },
+        {
+          "callout": "",
+          "part_number": "46810506"
+        },
+        {
+          "callout": "",
+          "part_number": "46810515"
+        },
+        {
+          "callout": "",
+          "part_number": "46812017"
+        },
+        {
+          "callout": "",
+          "part_number": "46812016"
+        },
+        {
+          "callout": "",
+          "part_number": "48601693"
+        },
+        {
+          "callout": "",
+          "part_number": "48600098"
+        },
+        {
+          "callout": "",
+          "part_number": "48601300"
+        },
+        {
+          "callout": "",
+          "part_number": "48601692"
+        },
+        {
+          "callout": "",
+          "part_number": "50180010"
+        },
+        {
+          "callout": "",
+          "part_number": "36120313"
+        },
+        {
+          "callout": "",
+          "part_number": "36120354"
+        },
+        {
+          "callout": "",
+          "part_number": "36120355"
+        },
+        {
+          "callout": "",
+          "part_number": "36120348"
+        },
+        {
+          "callout": "",
+          "part_number": "46810613"
+        },
+        {
+          "callout": "",
+          "part_number": "46810623"
+        },
+        {
+          "callout": "",
+          "part_number": "46810624"
+        },
+        {
+          "callout": "",
+          "part_number": "46810642"
+        },
+        {
+          "callout": "",
+          "part_number": "46810643"
+        },
+        {
+          "callout": "",
+          "part_number": "46811629"
+        },
+        {
+          "callout": "",
+          "part_number": "46810511"
+        },
+        {
+          "callout": "",
+          "part_number": "48601550"
+        },
+        {
+          "callout": "",
+          "part_number": "48600350"
+        },
+        {
+          "callout": "",
+          "part_number": "46810622"
+        },
+        {
+          "callout": "",
+          "part_number": "46811635"
+        },
+        {
+          "callout": "",
+          "part_number": "40541392"
+        },
+        {
+          "callout": "",
+          "part_number": "48601860"
+        },
+        {
+          "callout": "",
+          "part_number": "48601917"
+        },
+        {
+          "callout": "",
+          "part_number": "48601916"
+        },
+        {
+          "callout": "",
+          "part_number": "40540399"
+        },
+        {
+          "callout": "",
+          "part_number": "48601584"
+        },
+        {
+          "callout": "",
+          "part_number": "48601459"
+        },
+        {
+          "callout": "",
+          "part_number": "48601849"
+        },
+        {
+          "callout": "",
+          "part_number": "50181296"
+        },
+        {
+          "callout": "",
+          "part_number": "48600101"
+        },
+        {
+          "callout": "",
+          "part_number": "48601094"
+        },
+        {
+          "callout": "",
+          "part_number": "40540422"
+        },
+        {
+          "callout": "",
+          "part_number": "48601266"
+        },
+        {
+          "callout": "",
+          "part_number": "50180021"
+        },
+        {
+          "callout": "",
+          "part_number": "50180025"
+        },
+        {
+          "callout": "",
+          "part_number": "50180383"
+        },
+        {
+          "callout": "",
+          "part_number": "48601841"
+        },
+        {
+          "callout": "",
+          "part_number": "46810620"
+        },
+        {
+          "callout": "",
+          "part_number": "46180640"
+        },
+        {
+          "callout": "",
+          "part_number": "48601850"
+        },
+        {
+          "callout": "",
+          "part_number": "46810616"
+        },
+        {
+          "callout": "",
+          "part_number": "43578166"
+        },
+        {
+          "callout": "",
+          "part_number": "35480479"
+        },
+        {
+          "callout": "",
+          "part_number": "36120311"
+        },
+        {
+          "callout": "",
+          "part_number": "36120292"
+        },
+        {
+          "callout": "",
+          "part_number": "36120326"
+        },
+        {
+          "callout": "",
+          "part_number": "36120286"
+        },
+        {
+          "callout": "",
+          "part_number": "36120347"
+        },
+        {
+          "callout": "",
+          "part_number": "36120333"
+        },
+        {
+          "callout": "",
+          "part_number": "48601092"
+        },
+        {
+          "callout": "",
+          "part_number": "46810625"
+        },
+        {
+          "callout": "",
+          "part_number": "48601264"
+        },
+        {
+          "callout": "",
+          "part_number": "50180014"
+        },
+        {
+          "callout": "",
+          "part_number": "50180013"
+        },
+        {
+          "callout": "",
+          "part_number": "50180015"
+        },
+        {
+          "callout": "",
+          "part_number": "48601113"
+        },
+        {
+          "callout": "",
+          "part_number": "36120356"
+        },
+        {
+          "callout": "",
+          "part_number": "36120353"
+        },
+        {
+          "callout": "",
+          "part_number": "36120352"
+        },
+        {
+          "callout": "",
+          "part_number": "36120351"
+        },
+        {
+          "callout": "",
+          "part_number": "48600218"
+        },
+        {
+          "callout": "",
+          "part_number": "50181297"
+        },
+        {
+          "callout": "",
+          "part_number": "48600967"
+        },
+        {
+          "callout": "",
+          "part_number": "48601847"
+        },
+        {
+          "callout": "",
+          "part_number": "48601707"
+        },
+        {
+          "callout": "",
+          "part_number": "46810603"
+        },
+        {
+          "callout": "",
+          "part_number": "89000001"
+        },
+        {
+          "callout": "",
+          "part_number": "48600964"
+        },
+        {
+          "callout": "",
+          "part_number": "46180712"
+        },
+        {
+          "callout": "",
+          "part_number": "89080008"
+        },
+        {
+          "callout": "",
+          "part_number": "48601859"
+        },
+        {
+          "callout": "",
+          "part_number": "48601863"
+        },
+        {
+          "callout": "",
+          "part_number": "89080001"
+        },
+        {
+          "callout": "",
+          "part_number": "89080002"
+        },
+        {
+          "callout": "",
+          "part_number": "89080003"
+        },
+        {
+          "callout": "",
+          "part_number": "89080005"
+        },
+        {
+          "callout": "",
+          "part_number": "89080007"
+        },
+        {
+          "callout": "",
+          "part_number": "89080009"
+        },
+        {
+          "callout": "",
+          "part_number": "48600386"
+        },
+        {
+          "callout": "",
+          "part_number": "48601862"
+        },
+        {
+          "callout": "",
+          "part_number": "89080004"
+        },
+        {
+          "callout": "",
+          "part_number": "89080006"
+        },
+        {
+          "callout": "",
+          "part_number": "46810614"
+        },
+        {
+          "callout": "",
+          "part_number": "50180017"
+        },
+        {
+          "callout": "",
+          "part_number": "50180009"
+        },
+        {
+          "callout": "",
+          "part_number": "50180395"
+        },
+        {
+          "callout": "",
+          "part_number": "46811636"
+        },
+        {
+          "callout": "",
+          "part_number": "50180016"
+        },
+        {
+          "callout": "",
+          "part_number": "36120299"
+        },
+        {
+          "callout": "",
+          "part_number": "46810628"
+        },
+        {
+          "callout": "",
+          "part_number": "46810634"
+        },
+        {
+          "callout": "",
+          "part_number": "S64060000400000"
+        },
+        {
+          "callout": "",
+          "part_number": "S64060000500000"
+        },
+        {
+          "callout": "",
+          "part_number": "S64060000600000"
+        },
+        {
+          "callout": "",
+          "part_number": "40540421"
+        },
+        {
+          "callout": "",
+          "part_number": "S64120000000000"
+        },
+        {
+          "callout": "",
+          "part_number": "46810516"
+        },
+        {
+          "callout": "",
+          "part_number": "S64080000000000"
+        },
+        {
+          "callout": "",
+          "part_number": "48601864"
+        },
+        {
+          "callout": "",
+          "part_number": "48600965"
+        },
+        {
+          "callout": "",
+          "part_number": "S64080000300000"
+        },
+        {
+          "callout": "",
+          "part_number": "S64080000100000"
+        },
+        {
+          "callout": "",
+          "part_number": "S64120000800000"
+        },
+        {
+          "callout": "",
+          "part_number": "48601262"
+        },
+        {
+          "callout": "",
+          "part_number": "46810627"
+        },
+        {
+          "callout": "",
+          "part_number": "46810632"
+        },
+        {
+          "callout": "",
+          "part_number": "46810602"
+        },
+        {
+          "callout": "",
+          "part_number": "S64080000900000"
+        },
+        {
+          "callout": "",
+          "part_number": "S64080000100000"
+        },
+        {
+          "callout": "",
+          "part_number": "S64080000400000"
+        },
+        {
+          "callout": "",
+          "part_number": "S64060001500000"
+        },
+        {
+          "callout": "",
+          "part_number": "36120291"
+        },
+        {
+          "callout": "",
+          "part_number": "36120308"
+        },
+        {
+          "callout": "",
+          "part_number": "48600384"
+        },
+        {
+          "callout": "",
+          "part_number": "S25080000300000"
+        },
+        {
+          "callout": "",
+          "part_number": "S25080000500000"
+        }
+      ],
+      "rows": [
+        {
+          "callout": "1",
+          "description_ref": "d0",
+          "part_number": "48600611",
+          "quantity": 0,
+          "specification": "(10,2) l5 check valve"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540400",
+          "quantity": 0,
+          "specification": "6x12x0,10"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540401",
+          "quantity": 0,
+          "specification": "6x14x0,10"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540402",
+          "quantity": 0,
+          "specification": "6x16x0,10"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540403",
+          "quantity": 0,
+          "specification": "6x18x0,10"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540404",
+          "quantity": 0,
+          "specification": "6X12X0,15"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540405",
+          "quantity": 0,
+          "specification": "6X14X0,15"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540406",
+          "quantity": 0,
+          "specification": "6X16X0,15"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540407",
+          "quantity": 0,
+          "specification": "6X18X0,15"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540408",
+          "quantity": 0,
+          "specification": "6x12x0,20"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540409",
+          "quantity": 0,
+          "specification": "6x14x0,20"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540410",
+          "quantity": 0,
+          "specification": "6x16x0,20"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540411",
+          "quantity": 0,
+          "specification": "6x18x0,20"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48600095",
+          "quantity": 0,
+          "specification": "6X20X0,20"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540412",
+          "quantity": 0,
+          "specification": "6X12X0,25"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540413",
+          "quantity": 0,
+          "specification": "6X14X0,25"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540414",
+          "quantity": 0,
+          "specification": "6X16X0,25"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540415",
+          "quantity": 0,
+          "specification": "6X18X0,25"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540417",
+          "quantity": 0,
+          "specification": "6X8,5X0,10"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540418",
+          "quantity": 0,
+          "specification": "6X9X0,10"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540419",
+          "quantity": 0,
+          "specification": "6X9,5X0,10"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540423",
+          "quantity": 0,
+          "specification": "6X9,5X0,15"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540425",
+          "quantity": 0,
+          "specification": "6X8,5X0,20"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540426",
+          "quantity": 0,
+          "specification": "6X9X0,20"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540427",
+          "quantity": 0,
+          "specification": "6X9,5X0,20"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540447",
+          "quantity": 0,
+          "specification": "6x10x0,30"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540449",
+          "quantity": 0,
+          "specification": "6x9x0,30"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540450",
+          "quantity": 0,
+          "specification": "6x9,5x0,30"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540494",
+          "quantity": 0,
+          "specification": "6x18x0,40"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540774",
+          "quantity": 0,
+          "specification": "6x18x0,10 delta"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40541383",
+          "quantity": 0,
+          "specification": "6X11X0,10"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40541391",
+          "quantity": 0,
+          "specification": "6x11x0,30"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40541402",
+          "quantity": 0,
+          "specification": "6x11x0,20"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40541403",
+          "quantity": 0,
+          "specification": "6X10X0,20"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40541404",
+          "quantity": 0,
+          "specification": "6x10x0,10"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40541405",
+          "quantity": 0,
+          "specification": "6X10X0,15"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40541406",
+          "quantity": 0,
+          "specification": "6X11X0,15"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40541408",
+          "quantity": 0,
+          "specification": "6X8,0X0,30"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40541414",
+          "quantity": 0,
+          "specification": "6x8x0,1"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40541416",
+          "quantity": 0,
+          "specification": "6X8X0,3"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40541417",
+          "quantity": 0,
+          "specification": "6X11X0,25"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48600102",
+          "quantity": 0,
+          "specification": "6X24X0,25"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48600063",
+          "quantity": 0,
+          "specification": "6x24x0,10"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48600064",
+          "quantity": 0,
+          "specification": "6x22x0,10"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48600065",
+          "quantity": 0,
+          "specification": "6x20x0,10"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48600069",
+          "quantity": 0,
+          "specification": "6X20X0,15"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48600100",
+          "quantity": 0,
+          "specification": "6X24X0,15"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48600116",
+          "quantity": 0,
+          "specification": "6x24x0,10 delta"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48600139",
+          "quantity": 0,
+          "specification": "6X22X0,1 DELTA"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48600217",
+          "quantity": 0,
+          "specification": "6x10x0,25"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48600325",
+          "quantity": 0,
+          "specification": "6x13x0,10"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48600327",
+          "quantity": 0,
+          "specification": "6X15X0,1"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48600329",
+          "quantity": 0,
+          "specification": "6x17x0,10"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48600331",
+          "quantity": 0,
+          "specification": "6x19x0,10"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48600096",
+          "quantity": 0,
+          "specification": "6X20X0,25"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48600097",
+          "quantity": 0,
+          "specification": "6X22X0,15"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48600099",
+          "quantity": 0,
+          "specification": "6X22X0,25"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540448",
+          "quantity": 0,
+          "specification": "6x8,5x0,30"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48600479",
+          "quantity": 0,
+          "specification": "6x20x0,10 DELTA"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48600332",
+          "quantity": 0,
+          "specification": "6X21X0,1"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48600333",
+          "quantity": 0,
+          "specification": "6X23X0,1"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40541393",
+          "quantity": 0,
+          "specification": "6x12x0,30"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48600330",
+          "quantity": 0,
+          "specification": "6X17X0,15"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48600988",
+          "quantity": 0,
+          "specification": "6X28X0,10"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48600989",
+          "quantity": 0,
+          "specification": "6X26X0,10"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48601091",
+          "quantity": 0,
+          "specification": "6X28X0,15"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48601093",
+          "quantity": 0,
+          "specification": "6X26X0,15"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48600328",
+          "quantity": 0,
+          "specification": "6X15X0,15"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48600326",
+          "quantity": 0,
+          "specification": "6X13X0,15"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48601548",
+          "quantity": 0,
+          "specification": "6X17X1,5"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d2",
+          "part_number": "48601693",
+          "quantity": 0,
+          "specification": "6x18x3"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48600098",
+          "quantity": 0,
+          "specification": "6X22X0,20"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d2",
+          "part_number": "48601300",
+          "quantity": 0,
+          "specification": "6x25x1,5"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48601692",
+          "quantity": 0,
+          "specification": "6X30X0,15"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48601550",
+          "quantity": 0,
+          "specification": "6X30X0,10"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40541392",
+          "quantity": 0,
+          "specification": "6x8x0,2"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d2",
+          "part_number": "48601917",
+          "quantity": 0,
+          "specification": "6x25x4"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d2",
+          "part_number": "48601916",
+          "quantity": 0,
+          "specification": "6x18x4"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540399",
+          "quantity": 0,
+          "specification": "6x16x0,30"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d3",
+          "part_number": "48601584",
+          "quantity": 0,
+          "specification": "6x30x0.4"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d4",
+          "part_number": "48601459",
+          "quantity": 0,
+          "specification": "6x31x0,4"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d5",
+          "part_number": "48601849",
+          "quantity": 0,
+          "specification": "2,5mm hub"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48600101",
+          "quantity": 0,
+          "specification": "6X24X0,20"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48601094",
+          "quantity": 0,
+          "specification": "6X26X0,20"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540422",
+          "quantity": 0,
+          "specification": "6X9X0,15"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d4",
+          "part_number": "48601841",
+          "quantity": 0,
+          "specification": "6x31x0,4"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48601850",
+          "quantity": 0,
+          "specification": "6x30x0,4 spring shim"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48601092",
+          "quantity": 0,
+          "specification": "6X28X0,20"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48601264",
+          "quantity": 0,
+          "specification": "6X25X0,10"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "48600967",
+          "quantity": 0,
+          "specification": "6X20X0,2 DELTA"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d2",
+          "part_number": "48601847",
+          "quantity": 0,
+          "specification": "6x25x1,5"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d6",
+          "part_number": "48601707",
+          "quantity": 0,
+          "specification": "6X30"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "S64060000400000",
+          "quantity": 0,
+          "specification": "6x14x0.3"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "S64060000500000",
+          "quantity": 0,
+          "specification": "6x13x0.25"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "S64060000600000",
+          "quantity": 0,
+          "specification": "6x17x0,2"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "40540421",
+          "quantity": 0,
+          "specification": "6x8.5x0.15"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d2",
+          "part_number": "48601262",
+          "quantity": 0,
+          "specification": "6x18x1,5"
+        },
+        {
+          "callout": "6",
+          "description_ref": "d1",
+          "part_number": "S64060001500000",
+          "quantity": 0,
+          "specification": "6x8x0.15"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "40540477",
+          "quantity": 0,
+          "specification": "8x18x0,40"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "43570120",
+          "quantity": 0,
+          "specification": "8X18X0,10"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d2",
+          "part_number": "44916098",
+          "quantity": 0,
+          "specification": "8,4X16X0,8"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d2",
+          "part_number": "44916130",
+          "quantity": 0,
+          "specification": "8,2X15X1"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "48600214",
+          "quantity": 0,
+          "specification": "8x16x0,10"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "48600346",
+          "quantity": 0,
+          "specification": "8x11x0,20"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "48600215",
+          "quantity": 0,
+          "specification": "8x20x0,10"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "48600061",
+          "quantity": 0,
+          "specification": "8x24x0,40"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d7",
+          "part_number": "48600062",
+          "quantity": 0,
+          "specification": "8X24X0,1"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "48600216",
+          "quantity": 0,
+          "specification": "8x22x0,10"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "48600480",
+          "quantity": 0,
+          "specification": "8X10X0,20"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "48600555",
+          "quantity": 0,
+          "specification": "8X16X0,20"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "48600213",
+          "quantity": 0,
+          "specification": "8X14X0,10"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "48600357",
+          "quantity": 0,
+          "specification": "8x11x0,10"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "48600351",
+          "quantity": 0,
+          "specification": "8x12x0,10"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "48600607",
+          "quantity": 0,
+          "specification": "8x20x0,40"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "48601402",
+          "quantity": 0,
+          "specification": "8X13X0,10"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d2",
+          "part_number": "48600485",
+          "quantity": 0,
+          "specification": "8X10X0,10"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "48601095",
+          "quantity": 0,
+          "specification": "8X17X0,10"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d7",
+          "part_number": "48600352",
+          "quantity": 0,
+          "specification": "8X11X0,4"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "48600385",
+          "quantity": 0,
+          "specification": "8x14x0.25"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "48600350",
+          "quantity": 0,
+          "specification": "8x16x0,15"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d2",
+          "part_number": "48601860",
+          "quantity": 0,
+          "specification": "8x11x0,15"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "48601266",
+          "quantity": 0,
+          "specification": "8X26X0,40"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "46180640",
+          "quantity": 0,
+          "specification": "8X16X0,3"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d2",
+          "part_number": "43578166",
+          "quantity": 0,
+          "specification": "8x20x1"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "48601113",
+          "quantity": 0,
+          "specification": "8x15x0,1"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "48600218",
+          "quantity": 0,
+          "specification": "8X11X0,40"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "48600964",
+          "quantity": 0,
+          "specification": "8X20X0,15"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "89080008",
+          "quantity": 0,
+          "specification": "8x30x0,10"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "48601859",
+          "quantity": 0,
+          "specification": "8x10x0.15"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "48601863",
+          "quantity": 0,
+          "specification": "8x14x0.15"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "89080001",
+          "quantity": 0,
+          "specification": "8x18x0,15"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "89080002",
+          "quantity": 0,
+          "specification": "8x22x0,15"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "89080003",
+          "quantity": 0,
+          "specification": "8x24x0,15"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "89080005",
+          "quantity": 0,
+          "specification": "8x26x0,15"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "89080007",
+          "quantity": 0,
+          "specification": "8x28x0,15"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "89080009",
+          "quantity": 0,
+          "specification": "8x30x0,15"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "48600386",
+          "quantity": 0,
+          "specification": "8X12X0,25"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "48601862",
+          "quantity": 0,
+          "specification": "8x13x0.15"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "89080004",
+          "quantity": 0,
+          "specification": "8x26x0,10"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "89080006",
+          "quantity": 0,
+          "specification": "8x28x0,10"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "S64080000000000",
+          "quantity": 0,
+          "specification": "8x24x0.2"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "48601864",
+          "quantity": 0,
+          "specification": "8x15x0.15"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "48600965",
+          "quantity": 0,
+          "specification": "8X20X0,2"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "S64080000300000",
+          "quantity": 0,
+          "specification": "8x18x0.2"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "S64080000100000",
+          "quantity": 0,
+          "specification": "8x12x0.2"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "S64080000900000",
+          "quantity": 0,
+          "specification": "8x14x0.2"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "S64080000100000",
+          "quantity": 0,
+          "specification": "8x12x0.2"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "S64080000400000",
+          "quantity": 0,
+          "specification": "8x22x0.2"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d1",
+          "part_number": "48600384",
+          "quantity": 0,
+          "specification": "8x22x0,30"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d8",
+          "part_number": "S25080000300000",
+          "quantity": 0,
+          "specification": "8x30"
+        },
+        {
+          "callout": "8",
+          "description_ref": "d2",
+          "part_number": "S25080000500000",
+          "quantity": 0,
+          "specification": "8x25x2,5"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120284",
+          "quantity": 0,
+          "specification": "10X16X0,10"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120298",
+          "quantity": 0,
+          "specification": "10X16X0,2"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120312",
+          "quantity": 0,
+          "specification": "10X16X0,30"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120314",
+          "quantity": 0,
+          "specification": "10X18X0,30"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120325",
+          "quantity": 0,
+          "specification": "10X19X0,15"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120327",
+          "quantity": 0,
+          "specification": "10X23X0,15"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120328",
+          "quantity": 0,
+          "specification": "10X25X0,15"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120329",
+          "quantity": 0,
+          "specification": "10X27X0,15"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120330",
+          "quantity": 0,
+          "specification": "10X29X0,15"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120331",
+          "quantity": 0,
+          "specification": "10X31X0,15"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120332",
+          "quantity": 0,
+          "specification": "10X33X0,15"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120334",
+          "quantity": 0,
+          "specification": "10X21X0,20"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120335",
+          "quantity": 0,
+          "specification": "10X23X0,20"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120336",
+          "quantity": 0,
+          "specification": "10X25X0,20"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120337",
+          "quantity": 0,
+          "specification": "10X27X0,20"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120338",
+          "quantity": 0,
+          "specification": "10X29X0,20"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120339",
+          "quantity": 0,
+          "specification": "10X31X0,20"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120340",
+          "quantity": 0,
+          "specification": "10X33X0,20"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120342",
+          "quantity": 0,
+          "specification": "10X21X0,25"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120343",
+          "quantity": 0,
+          "specification": "10X23X0,25"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120344",
+          "quantity": 0,
+          "specification": "10X25X0,25"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120345",
+          "quantity": 0,
+          "specification": "10X27X0,25"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120349",
+          "quantity": 0,
+          "specification": "10X19X0,30"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120350",
+          "quantity": 0,
+          "specification": "10X21X0,30"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d2",
+          "part_number": "40140275",
+          "quantity": 0,
+          "specification": "10X35X0,15"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120346",
+          "quantity": 0,
+          "specification": "10X29X0,25"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "48601708",
+          "quantity": 0,
+          "specification": "10X30X0,40"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d2",
+          "part_number": "36120604",
+          "quantity": 0,
+          "specification": "10x22x2,5"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120313",
+          "quantity": 0,
+          "specification": "10X17X0,30"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120354",
+          "quantity": 0,
+          "specification": "10X29X0,30"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120355",
+          "quantity": 0,
+          "specification": "10X31X0,30"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120348",
+          "quantity": 0,
+          "specification": "10X33X0,25"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120311",
+          "quantity": 0,
+          "specification": "10X15X0,30"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120292",
+          "quantity": 0,
+          "specification": "10X17X0,15"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120326",
+          "quantity": 0,
+          "specification": "10X21X0,15"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120286",
+          "quantity": 0,
+          "specification": "10X18X0,10"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120347",
+          "quantity": 0,
+          "specification": "10X31X0,25"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120333",
+          "quantity": 0,
+          "specification": "10X19X0,20"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120356",
+          "quantity": 0,
+          "specification": "10X33X0,30"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120353",
+          "quantity": 0,
+          "specification": "10X27X0,30"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120352",
+          "quantity": 0,
+          "specification": "10X25X0,30"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120351",
+          "quantity": 0,
+          "specification": "10X23X0,30"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d2",
+          "part_number": "50180395",
+          "quantity": 0,
+          "specification": "10x16x1"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120299",
+          "quantity": 0,
+          "specification": "10X17X0,20"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120291",
+          "quantity": 0,
+          "specification": "10X16X0,15"
+        },
+        {
+          "callout": "10",
+          "description_ref": "d1",
+          "part_number": "36120308",
+          "quantity": 0,
+          "specification": "10x13x0,30"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810490",
+          "quantity": 0,
+          "specification": "12X24X0,20"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810491",
+          "quantity": 0,
+          "specification": "12X26X0,20"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810492",
+          "quantity": 0,
+          "specification": "12X28X0,20"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810493",
+          "quantity": 0,
+          "specification": "12X30X0,20"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810494",
+          "quantity": 0,
+          "specification": "12X32X0,20"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810495",
+          "quantity": 0,
+          "specification": "12X34X0,20"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810496",
+          "quantity": 0,
+          "specification": "12X36X0,20"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810497",
+          "quantity": 0,
+          "specification": "12X38X0,20"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810498",
+          "quantity": 0,
+          "specification": "12X40X0,20"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810499",
+          "quantity": 0,
+          "specification": "12X24X0,25"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810500",
+          "quantity": 0,
+          "specification": "12X26X0,25"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810501",
+          "quantity": 0,
+          "specification": "12X28X0,25"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810502",
+          "quantity": 0,
+          "specification": "12X30X0,25"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810504",
+          "quantity": 0,
+          "specification": "12X34X0,25"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810505",
+          "quantity": 0,
+          "specification": "12X36X0,25"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810507",
+          "quantity": 0,
+          "specification": "12X40X0,25"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810508",
+          "quantity": 0,
+          "specification": "12X24X0,30"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810509",
+          "quantity": 0,
+          "specification": "12X26X0,30"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810510",
+          "quantity": 0,
+          "specification": "12X28X0,30"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810512",
+          "quantity": 0,
+          "specification": "12X32X0,30"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810513",
+          "quantity": 0,
+          "specification": "12X34X0,30"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810518",
+          "quantity": 0,
+          "specification": "12X26X0,15"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810519",
+          "quantity": 0,
+          "specification": "12X28X0,15"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810520",
+          "quantity": 0,
+          "specification": "12X30X0,15"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810521",
+          "quantity": 0,
+          "specification": "12X32X0,15"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810522",
+          "quantity": 0,
+          "specification": "12X34X0,15"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810523",
+          "quantity": 0,
+          "specification": "12X36X0,15"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810524",
+          "quantity": 0,
+          "specification": "12X38X0,15"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810525",
+          "quantity": 0,
+          "specification": "12X40X0,15"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810604",
+          "quantity": 0,
+          "specification": "12X20X0,10"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810606",
+          "quantity": 0,
+          "specification": "12X22X0,10"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810607",
+          "quantity": 0,
+          "specification": "12X23X0,10"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810608",
+          "quantity": 0,
+          "specification": "12X24X0,10"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810610",
+          "quantity": 0,
+          "specification": "12x17x0,15"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810611",
+          "quantity": 0,
+          "specification": "12X18X0,15"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810612",
+          "quantity": 0,
+          "specification": "12X19X0,15"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810615",
+          "quantity": 0,
+          "specification": "12X22X0,15"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d9",
+          "part_number": "46810636",
+          "quantity": 0,
+          "specification": "12X16X0,30"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810637",
+          "quantity": 0,
+          "specification": "12x17x0,30"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810638",
+          "quantity": 0,
+          "specification": "12x18x0,30"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810639",
+          "quantity": 0,
+          "specification": "12X19X0,30"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810641",
+          "quantity": 0,
+          "specification": "12X21X0,30"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46811582",
+          "quantity": 0,
+          "specification": "12x30x0,10"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810631",
+          "quantity": 0,
+          "specification": "12X20X0,25"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810633",
+          "quantity": 0,
+          "specification": "12X22X0,25"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46811580",
+          "quantity": 0,
+          "specification": "12X32X0,10"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810503",
+          "quantity": 0,
+          "specification": "12X32X0,25"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810517",
+          "quantity": 0,
+          "specification": "12X24X0,15"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810856",
+          "quantity": 0,
+          "specification": "12x20x0,30"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d2",
+          "part_number": "46811258",
+          "quantity": 0,
+          "specification": "12x24x2,5"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46812015",
+          "quantity": 0,
+          "specification": "12X44X0,20"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46812018",
+          "quantity": 0,
+          "specification": "12X42X0,25"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810514",
+          "quantity": 0,
+          "specification": "12X36X0,30"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810506",
+          "quantity": 0,
+          "specification": "12X38X0,25"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810515",
+          "quantity": 0,
+          "specification": "12X38X0,30"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46812017",
+          "quantity": 0,
+          "specification": "12X42X0,20"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46812016",
+          "quantity": 0,
+          "specification": "12X44X0,25"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810613",
+          "quantity": 0,
+          "specification": "12X20X0,15"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810623",
+          "quantity": 0,
+          "specification": "12X21X0,20"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810624",
+          "quantity": 0,
+          "specification": "12X22X0,20"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810642",
+          "quantity": 0,
+          "specification": "12X22X0,30"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810643",
+          "quantity": 0,
+          "specification": "12X23X0,30"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46811629",
+          "quantity": 0,
+          "specification": "12X28X0,10"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810511",
+          "quantity": 0,
+          "specification": "12X30X0,30"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810622",
+          "quantity": 0,
+          "specification": "12X20X0,20"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46811635",
+          "quantity": 0,
+          "specification": "12x26x0,10"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "50181296",
+          "quantity": 0,
+          "specification": "12x45x0,20"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810620",
+          "quantity": 0,
+          "specification": "12x18x0,2"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810616",
+          "quantity": 0,
+          "specification": "12x23x0,15"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810625",
+          "quantity": 0,
+          "specification": "12X23X0,20"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d10",
+          "part_number": "50181297",
+          "quantity": 0,
+          "specification": "12x45x0,25"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810603",
+          "quantity": 0,
+          "specification": "12X19X0,10"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46180712",
+          "quantity": 0,
+          "specification": "12X36X0,10"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810614",
+          "quantity": 0,
+          "specification": "12X21X0,15"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810628",
+          "quantity": 0,
+          "specification": "12X17X0,25"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810634",
+          "quantity": 0,
+          "specification": "12X23X0,25"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "S64120000000000",
+          "quantity": 0,
+          "specification": "12x25x0.15"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810516",
+          "quantity": 0,
+          "specification": "12X40X0,30"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "S64120000800000",
+          "quantity": 0,
+          "specification": "12x34x0,1"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810627",
+          "quantity": 0,
+          "specification": "12X16X0,25"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810632",
+          "quantity": 0,
+          "specification": "12X21X0,25"
+        },
+        {
+          "callout": "12",
+          "description_ref": "d1",
+          "part_number": "46810602",
+          "quantity": 0,
+          "specification": "12X18X0,10"
+        },
+        {
+          "callout": "14",
+          "description_ref": "d2",
+          "part_number": "46811046",
+          "quantity": 0,
+          "specification": "14,5x35,4x1,25"
+        },
+        {
+          "callout": "14",
+          "description_ref": "d1",
+          "part_number": "35480479",
+          "quantity": 0,
+          "specification": "14X26X0,40"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180006",
+          "quantity": 0,
+          "specification": "16x20x0,10"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180007",
+          "quantity": 0,
+          "specification": "16X21X0,10"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180028",
+          "quantity": 0,
+          "specification": "16X21X0,25"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d2",
+          "part_number": "50180210",
+          "quantity": 0,
+          "specification": "16X21X1"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180008",
+          "quantity": 0,
+          "specification": "16X22X0,10"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180022",
+          "quantity": 0,
+          "specification": "16X22X0,20"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180037",
+          "quantity": 0,
+          "specification": "16X23X0,30"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180038",
+          "quantity": 0,
+          "specification": "16X24X0,30"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180032",
+          "quantity": 0,
+          "specification": "16x25x0,25"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180039",
+          "quantity": 0,
+          "specification": "16X25X0,30"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180012",
+          "quantity": 0,
+          "specification": "16X26X0,10"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180019",
+          "quantity": 0,
+          "specification": "16X26X0,15"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180026",
+          "quantity": 0,
+          "specification": "16X26X0,20"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180040",
+          "quantity": 0,
+          "specification": "16X26X0,30"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180041",
+          "quantity": 0,
+          "specification": "16X28X0,10"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180045",
+          "quantity": 0,
+          "specification": "16X28X0,15"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180054",
+          "quantity": 0,
+          "specification": "16x28x0,2"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180063",
+          "quantity": 0,
+          "specification": "16X28X0,25"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180072",
+          "quantity": 0,
+          "specification": "16X28X0,30"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180046",
+          "quantity": 0,
+          "specification": "16X30X0,15"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180055",
+          "quantity": 0,
+          "specification": "16X30X0,20"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180064",
+          "quantity": 0,
+          "specification": "16X30X0,25"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180073",
+          "quantity": 0,
+          "specification": "16X30X0,30"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180047",
+          "quantity": 0,
+          "specification": "16X32X0,15"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180056",
+          "quantity": 0,
+          "specification": "16x32x0,2"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180065",
+          "quantity": 0,
+          "specification": "16X32X0,25"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180074",
+          "quantity": 0,
+          "specification": "16X32X0,30"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180044",
+          "quantity": 0,
+          "specification": "16X34X0,10"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180048",
+          "quantity": 0,
+          "specification": "16X34X0,15"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180057",
+          "quantity": 0,
+          "specification": "16x34x0,2 y5"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180066",
+          "quantity": 0,
+          "specification": "16X34X0,25"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180075",
+          "quantity": 0,
+          "specification": "16X34X0,30"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180049",
+          "quantity": 0,
+          "specification": "16X36X0,15"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180058",
+          "quantity": 0,
+          "specification": "16X36X0,20"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180067",
+          "quantity": 0,
+          "specification": "16X36X0,25"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180076",
+          "quantity": 0,
+          "specification": "16X36X0,30"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180050",
+          "quantity": 0,
+          "specification": "16X38X0,15"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180059",
+          "quantity": 0,
+          "specification": "16X38X0,20"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180068",
+          "quantity": 0,
+          "specification": "16X38X0,25"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180077",
+          "quantity": 0,
+          "specification": "16X38X0,30"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180051",
+          "quantity": 0,
+          "specification": "16X40X0,15"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180060",
+          "quantity": 0,
+          "specification": "16x40x0,2"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180069",
+          "quantity": 0,
+          "specification": "16X40X0,25"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180078",
+          "quantity": 0,
+          "specification": "16X40X0,30"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180052",
+          "quantity": 0,
+          "specification": "16X42X0,15"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180061",
+          "quantity": 0,
+          "specification": "16x42x0,2"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180070",
+          "quantity": 0,
+          "specification": "16X42X0,25"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180079",
+          "quantity": 0,
+          "specification": "16X42X0,30"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180053",
+          "quantity": 0,
+          "specification": "16X44X0,15"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180062",
+          "quantity": 0,
+          "specification": "16X44X0,20"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180071",
+          "quantity": 0,
+          "specification": "16X44X0,25"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180080",
+          "quantity": 0,
+          "specification": "16X44X0,30"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d11",
+          "part_number": "50180177",
+          "quantity": 0,
+          "specification": "8,2x16x0,6"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180033",
+          "quantity": 0,
+          "specification": "16x26x0,25"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180034",
+          "quantity": 0,
+          "specification": "16x20x0,30"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180035",
+          "quantity": 0,
+          "specification": "16x21x0,30"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180036",
+          "quantity": 0,
+          "specification": "16x22x0,30"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180043",
+          "quantity": 0,
+          "specification": "16X32X0,10"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180024",
+          "quantity": 0,
+          "specification": "16X24X0,20"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180023",
+          "quantity": 0,
+          "specification": "16X23X0,20"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180027",
+          "quantity": 0,
+          "specification": "16X20X0,25"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180031",
+          "quantity": 0,
+          "specification": "16x24x0,25"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180030",
+          "quantity": 0,
+          "specification": "16x23x0,25"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180029",
+          "quantity": 0,
+          "specification": null
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180010",
+          "quantity": 0,
+          "specification": "16X24X0,10"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180021",
+          "quantity": 0,
+          "specification": "16X21X0,20"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180025",
+          "quantity": 0,
+          "specification": "16X25X0,20"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d2",
+          "part_number": "50180383",
+          "quantity": 0,
+          "specification": "16x19x0,3"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180014",
+          "quantity": 0,
+          "specification": null
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180013",
+          "quantity": 0,
+          "specification": "16X20X0,15"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d12",
+          "part_number": "50180015",
+          "quantity": 0,
+          "specification": "16X22X0,15"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180017",
+          "quantity": 0,
+          "specification": "16x24x0,15"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d12",
+          "part_number": "50180009",
+          "quantity": 0,
+          "specification": "16X23X0,10"
+        },
+        {
+          "callout": "16",
+          "description_ref": "d1",
+          "part_number": "50180016",
+          "quantity": 0,
+          "specification": "16X23X0,15"
+        },
+        {
+          "callout": "20",
+          "description_ref": "d1",
+          "part_number": "50180659",
+          "quantity": 0,
+          "specification": "20,2X28X0,25"
+        },
+        {
+          "callout": "20",
+          "description_ref": "d13",
+          "part_number": "48600212",
+          "quantity": 0,
+          "specification": "20X16,25X0,20"
+        },
+        {
+          "callout": "20",
+          "description_ref": "d1",
+          "part_number": "50180666",
+          "quantity": 0,
+          "specification": "20X24X0,30"
+        },
+        {
+          "callout": "20",
+          "description_ref": "d1",
+          "part_number": "50180654",
+          "quantity": 0,
+          "specification": "20X36X0,20"
+        },
+        {
+          "callout": "20",
+          "description_ref": "d1",
+          "part_number": "50180655",
+          "quantity": 0,
+          "specification": "20X38X0,20"
+        },
+        {
+          "callout": "20",
+          "description_ref": "d1",
+          "part_number": "50180656",
+          "quantity": 0,
+          "specification": "20X40X0,20"
+        },
+        {
+          "callout": "20",
+          "description_ref": "d1",
+          "part_number": "50180665",
+          "quantity": 0,
+          "specification": "20X40X0,25"
+        },
+        {
+          "callout": "20",
+          "description_ref": "d1",
+          "part_number": "50180662",
+          "quantity": 0,
+          "specification": "20X34X0,25"
+        },
+        {
+          "callout": "20",
+          "description_ref": "d1",
+          "part_number": "50180657",
+          "quantity": 0,
+          "specification": "20X24X0,25"
+        },
+        {
+          "callout": "20",
+          "description_ref": "d1",
+          "part_number": "50180653",
+          "quantity": 0,
+          "specification": "20X34X0,20"
+        },
+        {
+          "callout": "20",
+          "description_ref": "d14",
+          "part_number": "50180634",
+          "quantity": 0,
+          "specification": "20X22,9X1"
+        },
+        {
+          "callout": "20",
+          "description_ref": "d1",
+          "part_number": "50180650",
+          "quantity": 0,
+          "specification": "20x28x0.2"
+        },
+        {
+          "callout": "20",
+          "description_ref": "d1",
+          "part_number": "50180663",
+          "quantity": 0,
+          "specification": "20X36X0,25"
+        },
+        {
+          "callout": "20",
+          "description_ref": "d1",
+          "part_number": "50180664",
+          "quantity": 0,
+          "specification": "20X38X0,25"
+        },
+        {
+          "callout": "21",
+          "description_ref": "d1",
+          "part_number": "50180209",
+          "quantity": 0,
+          "specification": "21x36x0,25"
+        },
+        {
+          "callout": "22",
+          "description_ref": "d1",
+          "part_number": "50180330",
+          "quantity": 0,
+          "specification": "18x22x0,3"
+        },
+        {
+          "callout": "23",
+          "description_ref": "d15",
+          "part_number": "50180635",
+          "quantity": 0,
+          "specification": "23X38X0,25"
+        },
+        {
+          "callout": "23",
+          "description_ref": "d16",
+          "part_number": "50180578",
+          "quantity": 0,
+          "specification": "23XD16X2"
+        },
+        {
+          "callout": "28",
+          "description_ref": "d1",
+          "part_number": "36120469",
+          "quantity": 0,
+          "specification": "28,5X14X2"
+        },
+        {
+          "callout": "28",
+          "description_ref": "d2",
+          "part_number": "36120471",
+          "quantity": 0,
+          "specification": "28,5X14X5"
+        },
+        {
+          "callout": "28",
+          "description_ref": "d1",
+          "part_number": "89000001",
+          "quantity": 0,
+          "specification": "28,25x34x0,30"
+        },
+        {
+          "callout": "28",
+          "description_ref": "d1",
+          "part_number": "46811636",
+          "quantity": 0,
+          "specification": "28,25x32x0,30"
+        },
+        {
+          "callout": "32",
+          "description_ref": "d2",
+          "part_number": "48600460",
+          "quantity": 0,
+          "specification": "32X42X2,5"
+        },
+        {
+          "callout": "32",
+          "description_ref": "d2",
+          "part_number": "50600065",
+          "quantity": 0,
+          "specification": "32X45X2"
+        },
+        {
+          "callout": "32",
+          "description_ref": "d1",
+          "part_number": "46811637",
+          "quantity": 0,
+          "specification": "32,25x36x0,30"
+        },
+        {
+          "callout": "52",
+          "description_ref": "d2",
+          "part_number": "50600002",
+          "quantity": 0,
+          "specification": "52x59x2,2"
+        }
+      ],
+      "source_url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/4668?modelidentifier=1003417574&isEngine=False",
+      "status": "complete_table_and_diagram_part_number_coverage",
+      "table_complete": true,
+      "table_row_count": 381
+    },
+    {
+      "acquired_row_count": 20,
+      "assembly_name": "ENGINE CASE",
+      "diagram_check": "DOM hotspot part numbers compared with all table part numbers; no visual geometry or installed-unit validation",
+      "missing_diagram_part_numbers": [],
+      "points": [
+        {
+          "callout": "",
+          "part_number": "A48030000044"
+        },
+        {
+          "callout": "",
+          "part_number": "A48030000044"
+        },
+        {
+          "callout": "",
+          "part_number": "60030063070"
+        },
+        {
+          "callout": "",
+          "part_number": "58030010200"
+        },
+        {
+          "callout": "",
+          "part_number": "58030010200"
+        },
+        {
+          "callout": "",
+          "part_number": "79230010000"
+        },
+        {
+          "callout": "",
+          "part_number": "79230010000"
+        },
+        {
+          "callout": "",
+          "part_number": "79230010000"
+        },
+        {
+          "callout": "",
+          "part_number": "54830027100"
+        },
+        {
+          "callout": "",
+          "part_number": "54830027100"
+        },
+        {
+          "callout": "",
+          "part_number": "59030023100"
+        },
+        {
+          "callout": "",
+          "part_number": "59030023100"
+        },
+        {
+          "callout": "",
+          "part_number": "54630027000"
+        },
+        {
+          "callout": "",
+          "part_number": "54630027000"
+        },
+        {
+          "callout": "",
+          "part_number": "0770035020"
+        },
+        {
+          "callout": "",
+          "part_number": "81230064000"
+        },
+        {
+          "callout": "",
+          "part_number": "0912040103S"
+        },
+        {
+          "callout": "",
+          "part_number": "58038022000"
+        },
+        {
+          "callout": "",
+          "part_number": "58038022000"
+        },
+        {
+          "callout": "",
+          "part_number": "58030021100"
+        },
+        {
+          "callout": "",
+          "part_number": "58030021100"
+        },
+        {
+          "callout": "",
+          "part_number": "0906100100"
+        },
+        {
+          "callout": "",
+          "part_number": "0906100100"
+        },
+        {
+          "callout": "",
+          "part_number": "0906100100"
+        },
+        {
+          "callout": "",
+          "part_number": "59030296000"
+        },
+        {
+          "callout": "",
+          "part_number": "59030296000"
+        },
+        {
+          "callout": "",
+          "part_number": "0019050121S"
+        },
+        {
+          "callout": "",
+          "part_number": "0019050121S"
+        },
+        {
+          "callout": "",
+          "part_number": "0019050121S"
+        },
+        {
+          "callout": "",
+          "part_number": "75030085100"
+        },
+        {
+          "callout": "",
+          "part_number": "75030085100"
+        },
+        {
+          "callout": "",
+          "part_number": "75030085100"
+        },
+        {
+          "callout": "",
+          "part_number": "0025060656"
+        },
+        {
+          "callout": "",
+          "part_number": "0025060656"
+        },
+        {
+          "callout": "",
+          "part_number": "0025060656"
+        },
+        {
+          "callout": "",
+          "part_number": "0025060656"
+        },
+        {
+          "callout": "",
+          "part_number": "0025060656"
+        },
+        {
+          "callout": "",
+          "part_number": "0025060656"
+        },
+        {
+          "callout": "",
+          "part_number": "0025060656"
+        },
+        {
+          "callout": "",
+          "part_number": "0025060656"
+        },
+        {
+          "callout": "",
+          "part_number": "0025060656"
+        },
+        {
+          "callout": "",
+          "part_number": "0025060806"
+        },
+        {
+          "callout": "",
+          "part_number": "0025060806"
+        },
+        {
+          "callout": "",
+          "part_number": "0025060806"
+        },
+        {
+          "callout": "",
+          "part_number": "A48030099000"
+        },
+        {
+          "callout": "",
+          "part_number": "59030058000"
+        }
+      ],
+      "rows": [
+        {
+          "callout": "1",
+          "description": "engine case cpl.",
+          "part_number": "A48030000044",
+          "quantity": 1
+        },
+        {
+          "callout": "3",
+          "description": "oil jet 70",
+          "part_number": "60030063070",
+          "quantity": 1
+        },
+        {
+          "callout": "4",
+          "description": "screw in nozzle",
+          "part_number": "58030010200",
+          "quantity": 1
+        },
+        {
+          "callout": "5",
+          "description": "housing bush",
+          "part_number": "79230010000",
+          "quantity": 2
+        },
+        {
+          "callout": "6",
+          "description": "dowel, 21x12",
+          "part_number": "54830027100",
+          "quantity": 1
+        },
+        {
+          "callout": "7",
+          "description": "dowel, 6x8x11.5",
+          "part_number": "59030023100",
+          "quantity": 1
+        },
+        {
+          "callout": "8",
+          "description": "dowel bushing 13,8x11x12",
+          "part_number": "54630027000",
+          "quantity": 1
+        },
+        {
+          "callout": "9",
+          "description": "o-ring 3,5x2,00 nbr",
+          "part_number": "0770035020",
+          "quantity": 1
+        },
+        {
+          "callout": "10",
+          "description": "oil jet angled",
+          "part_number": "81230064000",
+          "quantity": 1
+        },
+        {
+          "callout": "11",
+          "description": "cylinder screw din",
+          "part_number": "0912040103S",
+          "quantity": 1
+        },
+        {
+          "callout": "12",
+          "description": "cu-seal ring din7603-12x18x1.5",
+          "part_number": "58038022000",
+          "quantity": 1
+        },
+        {
+          "callout": "13",
+          "description": "oildrain plug with",
+          "part_number": "58030021100",
+          "quantity": 1
+        },
+        {
+          "callout": "14",
+          "description": "pipe plug din",
+          "part_number": "0906100100",
+          "quantity": 2
+        },
+        {
+          "callout": "15",
+          "description": "screw plug",
+          "part_number": "59030296000",
+          "quantity": 3
+        },
+        {
+          "callout": "18",
+          "description": "int. torx flat",
+          "part_number": "0019050121S",
+          "quantity": 6
+        },
+        {
+          "callout": "19",
+          "description": "retaining bracket crankshaft",
+          "part_number": "75030085100",
+          "quantity": 6
+        },
+        {
+          "callout": "20",
+          "description": "hh collar screw",
+          "part_number": "0025060656",
+          "quantity": 9
+        },
+        {
+          "callout": "22",
+          "description": "hh collar screw",
+          "part_number": "0025060806",
+          "quantity": 4
+        },
+        {
+          "callout": "24",
+          "description": "jet 100 bing(44-031/180)",
+          "part_number": "59030058000",
+          "quantity": 1
+        },
+        {
+          "callout": "99",
+          "description": "engine gasket kit",
+          "part_number": "A48030099000",
+          "quantity": 0
+        }
+      ],
+      "source_url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/58123?modelidentifier=1003417574&isEngine=True",
+      "status": "complete_table_and_diagram_part_number_coverage",
+      "table_complete": true,
+      "table_row_count": 20
+    },
+    {
+      "acquired_row_count": 22,
+      "assembly_name": "CLUTCH COVER",
+      "diagram_check": "DOM hotspot part numbers compared with all table part numbers; no visual geometry or installed-unit validation",
+      "missing_diagram_part_numbers": [],
+      "points": [
+        {
+          "callout": "",
+          "part_number": "A48030001044"
+        },
+        {
+          "callout": "",
+          "part_number": "A48030026000C1"
+        },
+        {
+          "callout": "",
+          "part_number": "A48030027000"
+        },
+        {
+          "callout": "",
+          "part_number": "A48030025000"
+        },
+        {
+          "callout": "",
+          "part_number": "59030019200"
+        },
+        {
+          "callout": "",
+          "part_number": "61030019050"
+        },
+        {
+          "callout": "",
+          "part_number": "0760142460"
+        },
+        {
+          "callout": "",
+          "part_number": "0472024120"
+        },
+        {
+          "callout": "",
+          "part_number": "0760123073"
+        },
+        {
+          "callout": "",
+          "part_number": "79430057010"
+        },
+        {
+          "callout": "",
+          "part_number": "79430020033"
+        },
+        {
+          "callout": "",
+          "part_number": "0770191015"
+        },
+        {
+          "callout": "",
+          "part_number": "0603082131"
+        },
+        {
+          "callout": "",
+          "part_number": "0000150802000"
+        },
+        {
+          "callout": "",
+          "part_number": "0025060256"
+        },
+        {
+          "callout": "",
+          "part_number": "0025060256"
+        },
+        {
+          "callout": "",
+          "part_number": "0025060256"
+        },
+        {
+          "callout": "",
+          "part_number": "0025060256"
+        },
+        {
+          "callout": "",
+          "part_number": "0025060256"
+        },
+        {
+          "callout": "",
+          "part_number": "0025060256"
+        },
+        {
+          "callout": "",
+          "part_number": "0025060256"
+        },
+        {
+          "callout": "",
+          "part_number": "0025060206"
+        },
+        {
+          "callout": "",
+          "part_number": "0025060206"
+        },
+        {
+          "callout": "",
+          "part_number": "0025060206"
+        },
+        {
+          "callout": "",
+          "part_number": "0025060456"
+        },
+        {
+          "callout": "",
+          "part_number": "0025060556"
+        },
+        {
+          "callout": "",
+          "part_number": "0025060556"
+        },
+        {
+          "callout": "",
+          "part_number": "0402040980"
+        },
+        {
+          "callout": "",
+          "part_number": "0402040980"
+        },
+        {
+          "callout": "",
+          "part_number": "59030296000"
+        },
+        {
+          "callout": "",
+          "part_number": "0025060206S"
+        },
+        {
+          "callout": "",
+          "part_number": "0603061001"
+        }
+      ],
+      "rows": [
+        {
+          "callout": "1",
+          "description": "clutch cover cpl.",
+          "part_number": "A48030001044",
+          "quantity": 1
+        },
+        {
+          "callout": "2",
+          "description": "clutch cover outside",
+          "part_number": "A48030026000C1",
+          "quantity": 1
+        },
+        {
+          "callout": "3",
+          "description": "clutch cover gasket",
+          "part_number": "A48030027000",
+          "quantity": 1
+        },
+        {
+          "callout": "4",
+          "description": "inner clutch cover",
+          "part_number": "A48030025000",
+          "quantity": 1
+        },
+        {
+          "callout": "5",
+          "description": "oil sight glass",
+          "part_number": "59030019200",
+          "quantity": 1
+        },
+        {
+          "callout": "6",
+          "description": "circlip oil level",
+          "part_number": "61030019050",
+          "quantity": 1
+        },
+        {
+          "callout": "7",
+          "description": "radial shaft seal",
+          "part_number": "0760142460",
+          "quantity": 1
+        },
+        {
+          "callout": "8",
+          "description": "circlip din0472-24x1.2",
+          "part_number": "0472024120",
+          "quantity": 1
+        },
+        {
+          "callout": "9",
+          "description": "shaft seal ring",
+          "part_number": "0760123073",
+          "quantity": 1
+        },
+        {
+          "callout": "10",
+          "description": "friction bear. bush",
+          "part_number": "79430057010",
+          "quantity": 1
+        },
+        {
+          "callout": "11",
+          "description": "oil filler cap",
+          "part_number": "79430020033",
+          "quantity": 1
+        },
+        {
+          "callout": "12",
+          "description": "o-ring 19,00x3,00 nbr",
+          "part_number": "0770191015",
+          "quantity": 1
+        },
+        {
+          "callout": "13",
+          "description": "copper gask.din7603- 8.2x13x1",
+          "part_number": "0603082131",
+          "quantity": 1
+        },
+        {
+          "callout": "14",
+          "description": "screw, m8x20 sw=8",
+          "part_number": "0000150802000",
+          "quantity": 1
+        },
+        {
+          "callout": "16",
+          "description": "cu-seal ring din7603-6x10x1",
+          "part_number": "0603061001",
+          "quantity": 1
+        },
+        {
+          "callout": "17",
+          "description": "needle roll.din5402 nrb",
+          "part_number": "0402040980",
+          "quantity": 2
+        },
+        {
+          "callout": "18",
+          "description": "screw plug",
+          "part_number": "59030296000",
+          "quantity": 1
+        },
+        {
+          "callout": "19",
+          "description": "hh collar screw",
+          "part_number": "0025060206S",
+          "quantity": 1
+        },
+        {
+          "callout": "20",
+          "description": "hh collar screw",
+          "part_number": "0025060256",
+          "quantity": 7
+        },
+        {
+          "callout": "22",
+          "description": "hh collar screw",
+          "part_number": "0025060206",
+          "quantity": 3
+        },
+        {
+          "callout": "23",
+          "description": "hh collar screw",
+          "part_number": "0025060456",
+          "quantity": 1
+        },
+        {
+          "callout": "24",
+          "description": "hh collar screw",
+          "part_number": "0025060556",
+          "quantity": 2
+        }
+      ],
+      "source_url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/58153?modelidentifier=1003417574&isEngine=True",
+      "status": "complete_table_and_diagram_part_number_coverage",
+      "table_complete": true,
+      "table_row_count": 22
+    },
+    {
+      "acquired_row_count": 3,
+      "assembly_name": "BALANCER SHAFT",
+      "diagram_check": "DOM hotspot part numbers compared with all table part numbers; no visual geometry or installed-unit validation",
+      "missing_diagram_part_numbers": [],
+      "points": [
+        {
+          "callout": "",
+          "part_number": "A48030057000"
+        },
+        {
+          "callout": "",
+          "part_number": "79430057101"
+        },
+        {
+          "callout": "",
+          "part_number": "79430057010"
+        },
+        {
+          "callout": "",
+          "part_number": "79430057010"
+        }
+      ],
+      "rows": [
+        {
+          "callout": "1",
+          "description": "balancer shaft",
+          "part_number": "A48030057000",
+          "quantity": 1
+        },
+        {
+          "callout": "2",
+          "description": "balancer shaft",
+          "part_number": "79430057101",
+          "quantity": 1
+        },
+        {
+          "callout": "3",
+          "description": "friction bear. bush",
+          "part_number": "79430057010",
+          "quantity": 2
+        }
+      ],
+      "source_url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/58177?modelidentifier=1003417574&isEngine=True",
+      "status": "complete_table_and_diagram_part_number_coverage",
+      "table_complete": true,
+      "table_row_count": 3
+    },
+    {
+      "acquired_row_count": 4,
+      "assembly_name": "CYLINDER",
+      "diagram_check": "DOM hotspot part numbers compared with all table part numbers; no visual geometry or installed-unit validation",
+      "missing_diagram_part_numbers": [],
+      "points": [
+        {
+          "callout": "",
+          "part_number": "A48030038000"
+        },
+        {
+          "callout": "",
+          "part_number": "0402050980"
+        },
+        {
+          "callout": "",
+          "part_number": "79430035000"
+        },
+        {
+          "callout": "",
+          "part_number": "58530014100"
+        }
+      ],
+      "rows": [
+        {
+          "callout": "1",
+          "description": "cylinder & piston",
+          "part_number": "A48030038000",
+          "quantity": 1
+        },
+        {
+          "callout": "2",
+          "description": "needle roller din",
+          "part_number": "0402050980",
+          "quantity": 2
+        },
+        {
+          "callout": "3",
+          "description": "cylinder base gasket",
+          "part_number": "79430035000",
+          "quantity": 1
+        },
+        {
+          "callout": "4",
+          "description": "dowl sleeve 10.2x12.5x10",
+          "part_number": "58530014100",
+          "quantity": 2
+        }
+      ],
+      "source_url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/58161?modelidentifier=1003417574&isEngine=True",
+      "status": "complete_table_and_diagram_part_number_coverage",
+      "table_complete": true,
+      "table_row_count": 4
+    },
+    {
+      "acquired_row_count": 21,
+      "assembly_name": "CRANKSHAFT, PISTON",
+      "diagram_check": "DOM hotspot part numbers compared with all table part numbers; no visual geometry or installed-unit validation",
+      "missing_diagram_part_numbers": [],
+      "points": [
+        {
+          "callout": "",
+          "part_number": "A48030018000"
+        },
+        {
+          "callout": "",
+          "part_number": "79530015044"
+        },
+        {
+          "callout": "",
+          "part_number": "A48030007100 I"
+        },
+        {
+          "callout": "",
+          "part_number": "A48030007100 II"
+        },
+        {
+          "callout": "",
+          "part_number": "79430130044"
+        },
+        {
+          "callout": "",
+          "part_number": "79430174000"
+        },
+        {
+          "callout": "",
+          "part_number": "79430082000"
+        },
+        {
+          "callout": "",
+          "part_number": "79430082000"
+        },
+        {
+          "callout": "",
+          "part_number": "79430082000"
+        },
+        {
+          "callout": "",
+          "part_number": "75030085000"
+        },
+        {
+          "callout": "",
+          "part_number": "75030085000"
+        },
+        {
+          "callout": "",
+          "part_number": "0019050121S"
+        },
+        {
+          "callout": "",
+          "part_number": "0019050121S"
+        },
+        {
+          "callout": "",
+          "part_number": "56530081000"
+        },
+        {
+          "callout": "",
+          "part_number": "56530081000"
+        },
+        {
+          "callout": "",
+          "part_number": "56530081100"
+        },
+        {
+          "callout": "",
+          "part_number": "56530081100"
+        },
+        {
+          "callout": "",
+          "part_number": "56530081200"
+        },
+        {
+          "callout": "",
+          "part_number": "56530081200"
+        },
+        {
+          "callout": "",
+          "part_number": "56530081300"
+        },
+        {
+          "callout": "",
+          "part_number": "56530081300"
+        },
+        {
+          "callout": "",
+          "part_number": "0910001801000S"
+        },
+        {
+          "callout": "",
+          "part_number": "A48032023029"
+        },
+        {
+          "callout": "",
+          "part_number": "78036014400"
+        },
+        {
+          "callout": "",
+          "part_number": "0888030037"
+        },
+        {
+          "callout": "",
+          "part_number": "0888030037"
+        },
+        {
+          "callout": "",
+          "part_number": "0888030037"
+        },
+        {
+          "callout": "",
+          "part_number": "79430084000"
+        },
+        {
+          "callout": "",
+          "part_number": "79430084000"
+        },
+        {
+          "callout": "",
+          "part_number": "79430084000"
+        },
+        {
+          "callout": "",
+          "part_number": "A48030007110 I"
+        },
+        {
+          "callout": "",
+          "part_number": "A48030007110 II"
+        },
+        {
+          "callout": "",
+          "part_number": "00050002315"
+        }
+      ],
+      "rows": [
+        {
+          "callout": "1",
+          "description": "crankshaft cmpl.",
+          "part_number": "A48030018000",
+          "quantity": 1
+        },
+        {
+          "callout": "2",
+          "description": "connecting rod repair",
+          "part_number": "79530015044",
+          "quantity": 1
+        },
+        {
+          "callout": "3",
+          "description": "piston gr.i kpl.",
+          "part_number": "A48030007100 I",
+          "quantity": 1
+        },
+        {
+          "callout": "3",
+          "description": "piston gr. ii",
+          "part_number": "A48030007100 II",
+          "quantity": 1
+        },
+        {
+          "callout": "4",
+          "description": "piston ring kit",
+          "part_number": "79430130044",
+          "quantity": 1
+        },
+        {
+          "callout": "7",
+          "description": "circlip",
+          "part_number": "79430174000",
+          "quantity": 2
+        },
+        {
+          "callout": "8",
+          "description": "cylinder roller bearing",
+          "part_number": "79430082000",
+          "quantity": 2
+        },
+        {
+          "callout": "9",
+          "description": "retaining plate f.",
+          "part_number": "75030085000",
+          "quantity": 2
+        },
+        {
+          "callout": "10",
+          "description": "int. torx flat",
+          "part_number": "0019050121S",
+          "quantity": 2
+        },
+        {
+          "callout": "11",
+          "description": "shim washer 36x48x0,10",
+          "part_number": "56530081000",
+          "quantity": 0
+        },
+        {
+          "callout": "11",
+          "description": "shim washer 36x48x0,15",
+          "part_number": "56530081100",
+          "quantity": 0
+        },
+        {
+          "callout": "11",
+          "description": "shim washer 36x48x0,20",
+          "part_number": "56530081200",
+          "quantity": 0
+        },
+        {
+          "callout": "11",
+          "description": "shim washer 36x48x0,30",
+          "part_number": "56530081300",
+          "quantity": 0
+        },
+        {
+          "callout": "13",
+          "description": "nut m18x1.5 precote",
+          "part_number": "0910001801000S",
+          "quantity": 1
+        },
+        {
+          "callout": "14",
+          "description": "primary gear 29",
+          "part_number": "A48032023029",
+          "quantity": 1
+        },
+        {
+          "callout": "15",
+          "description": "timing gear 18",
+          "part_number": "78036014400",
+          "quantity": 1
+        },
+        {
+          "callout": "16",
+          "description": "woodruff key din6888-3x3,7",
+          "part_number": "0888030037",
+          "quantity": 3
+        },
+        {
+          "callout": "19",
+          "description": "bearing seal",
+          "part_number": "79430084000",
+          "quantity": 2
+        },
+        {
+          "callout": "98",
+          "description": "piston kit i",
+          "part_number": "A48030007110 I",
+          "quantity": 0
+        },
+        {
+          "callout": "98",
+          "description": "piston kit ii",
+          "part_number": "A48030007110 II",
+          "quantity": 0
+        },
+        {
+          "callout": "99",
+          "description": "crankshaft rep.kit 450",
+          "part_number": "00050002315",
+          "quantity": 0
+        }
+      ],
+      "source_url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/58160?modelidentifier=1003417574&isEngine=True",
+      "status": "complete_table_and_diagram_part_number_coverage",
+      "table_complete": true,
+      "table_row_count": 21
+    }
+  ],
+  "bike": {
+    "make": "KTM",
+    "market": "US",
+    "model": "450 SX-F",
+    "model_code": "F8475Y5",
+    "model_identifier": "1003417574",
+    "year": 2025
+  },
+  "counts": {
+    "assemblies": 14,
+    "part_rows": 610
+  },
+  "limitations": [
+    "Descriptions use concise labels; WP variants reference a shared description dictionary and preserve factual dimension strings.",
+    "Diagram verification checks DOM hotspot part-number coverage, not screenshot geometry.",
+    "No torque research or database changes."
+  ],
+  "quantity_evidence": "Official KTM model-specific parts-table quantity; zero-quantity options retained. Not a sum of installed individual components; assembly kits and alternatives overlap.",
+  "research_date": "2026-09-13",
+  "schema_version": 1,
+  "status": "complete_assigned_official_tables"
+}

@@ -1,0 +1,1447 @@
+{
+  "generated_at": "2026-09-13T19:06:02.255Z",
+  "bundle_sources": [
+    {
+      "file": "approved-bundle.json",
+      "sha256": "5401d54e377304076ecdd25c12ed3b4744b92b7a34df4a29e7c60e3cf19b8475"
+    },
+    {
+      "file": "approved-bundle-wave2.json",
+      "sha256": "c6c318331a4bf8eba5d7225108f9d40328c75c947b8fb8103088a13332d2a2bc"
+    },
+    {
+      "file": "approved-bundle-catalog-resume.json",
+      "sha256": "9e44e1f639372c53fba767434393619638076f11a5959f7a71bc48ba1b340234"
+    },
+    {
+      "file": "yamaha/workshop-2026/approved-bundle.json",
+      "sha256": "761d6bf6b82127138da2b5345ee19d5d3bdbe5157f89bc1fd84749f3533c12d1"
+    }
+  ],
+  "targets": [
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 0,
+      "part_rows": 0,
+      "complete_assemblies": 0,
+      "expected_total_assemblies": null,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 0,
+      "status": "CATALOG_NOT_CAPTURED",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 163,
+      "published_expansion_records": 163,
+      "named_torque_records": 162,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 0,
+      "part_rows": 0,
+      "complete_assemblies": 0,
+      "expected_total_assemblies": null,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 0,
+      "status": "CATALOG_NOT_CAPTURED",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 162,
+      "published_expansion_records": 162,
+      "named_torque_records": 161,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 45,
+      "part_rows": 93,
+      "complete_assemblies": 0,
+      "expected_total_assemblies": null,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 651,
+      "status": "PARTIAL_PARTS_CAPTURE",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 331,
+      "published_expansion_records": 331,
+      "named_torque_records": 163,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 0,
+      "part_rows": 0,
+      "complete_assemblies": 0,
+      "expected_total_assemblies": null,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 0,
+      "status": "CATALOG_NOT_CAPTURED",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 164,
+      "published_expansion_records": 164,
+      "named_torque_records": 163,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 0,
+      "part_rows": 0,
+      "complete_assemblies": 0,
+      "expected_total_assemblies": null,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 0,
+      "status": "CATALOG_NOT_CAPTURED",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 163,
+      "published_expansion_records": 163,
+      "named_torque_records": 162,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 0,
+      "part_rows": 0,
+      "complete_assemblies": 0,
+      "expected_total_assemblies": null,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 0,
+      "status": "CATALOG_NOT_CAPTURED",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 162,
+      "published_expansion_records": 162,
+      "named_torque_records": 160,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 0,
+      "part_rows": 0,
+      "complete_assemblies": 0,
+      "expected_total_assemblies": null,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 0,
+      "status": "CATALOG_NOT_CAPTURED",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 341,
+      "published_expansion_records": 341,
+      "named_torque_records": 160,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 0,
+      "part_rows": 0,
+      "complete_assemblies": 0,
+      "expected_total_assemblies": null,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 0,
+      "status": "CATALOG_NOT_CAPTURED",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 163,
+      "published_expansion_records": 163,
+      "named_torque_records": 161,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 0,
+      "part_rows": 0,
+      "complete_assemblies": 0,
+      "expected_total_assemblies": null,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 0,
+      "status": "CATALOG_NOT_CAPTURED",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 163,
+      "published_expansion_records": 163,
+      "named_torque_records": 161,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 0,
+      "part_rows": 0,
+      "complete_assemblies": 0,
+      "expected_total_assemblies": null,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 0,
+      "status": "CATALOG_NOT_CAPTURED",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 343,
+      "published_expansion_records": 343,
+      "named_torque_records": 161,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF250R",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 0,
+      "part_rows": 0,
+      "complete_assemblies": 0,
+      "expected_total_assemblies": null,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 0,
+      "status": "CATALOG_NOT_CAPTURED",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 98,
+      "published_expansion_records": 98,
+      "named_torque_records": 61,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF250R",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 0,
+      "part_rows": 0,
+      "complete_assemblies": 0,
+      "expected_total_assemblies": null,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 0,
+      "status": "CATALOG_NOT_CAPTURED",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 98,
+      "published_expansion_records": 98,
+      "named_torque_records": 61,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF250R",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 0,
+      "part_rows": 0,
+      "complete_assemblies": 0,
+      "expected_total_assemblies": null,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 0,
+      "status": "CATALOG_NOT_CAPTURED",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 98,
+      "published_expansion_records": 98,
+      "named_torque_records": 61,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF250R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 50,
+      "part_rows": 61,
+      "complete_assemblies": 0,
+      "expected_total_assemblies": null,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 427,
+      "status": "PARTIAL_PARTS_CAPTURE",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 100,
+      "published_expansion_records": 100,
+      "named_torque_records": 63,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF250R",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 0,
+      "part_rows": 0,
+      "complete_assemblies": 0,
+      "expected_total_assemblies": null,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 0,
+      "status": "CATALOG_NOT_CAPTURED",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 100,
+      "published_expansion_records": 100,
+      "named_torque_records": 63,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF450R",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 0,
+      "part_rows": 0,
+      "complete_assemblies": 0,
+      "expected_total_assemblies": null,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 0,
+      "status": "CATALOG_NOT_CAPTURED",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 94,
+      "published_expansion_records": 94,
+      "named_torque_records": 58,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF450R",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 0,
+      "part_rows": 0,
+      "complete_assemblies": 0,
+      "expected_total_assemblies": null,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 0,
+      "status": "CATALOG_NOT_CAPTURED",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 94,
+      "published_expansion_records": 94,
+      "named_torque_records": 58,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF450R",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 0,
+      "part_rows": 0,
+      "complete_assemblies": 0,
+      "expected_total_assemblies": null,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 0,
+      "status": "CATALOG_NOT_CAPTURED",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 94,
+      "published_expansion_records": 94,
+      "named_torque_records": 58,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF450R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 0,
+      "part_rows": 0,
+      "complete_assemblies": 0,
+      "expected_total_assemblies": null,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 0,
+      "status": "CATALOG_NOT_CAPTURED",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 94,
+      "published_expansion_records": 94,
+      "named_torque_records": 58,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF450R",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 0,
+      "part_rows": 0,
+      "complete_assemblies": 0,
+      "expected_total_assemblies": null,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 0,
+      "status": "CATALOG_NOT_CAPTURED",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 94,
+      "published_expansion_records": 94,
+      "named_torque_records": 58,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX250",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 0,
+      "part_rows": 0,
+      "complete_assemblies": 0,
+      "expected_total_assemblies": null,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 0,
+      "status": "CATALOG_NOT_CAPTURED",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 0,
+      "published_expansion_records": 0,
+      "named_torque_records": 0,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX250",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 0,
+      "part_rows": 0,
+      "complete_assemblies": 0,
+      "expected_total_assemblies": null,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 0,
+      "status": "CATALOG_NOT_CAPTURED",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 0,
+      "published_expansion_records": 0,
+      "named_torque_records": 0,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX250",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 0,
+      "part_rows": 0,
+      "complete_assemblies": 0,
+      "expected_total_assemblies": null,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 0,
+      "status": "CATALOG_NOT_CAPTURED",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 0,
+      "published_expansion_records": 0,
+      "named_torque_records": 0,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX250",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 0,
+      "part_rows": 0,
+      "complete_assemblies": 0,
+      "expected_total_assemblies": null,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 0,
+      "status": "CATALOG_NOT_CAPTURED",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 0,
+      "published_expansion_records": 0,
+      "named_torque_records": 0,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX250",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 0,
+      "part_rows": 0,
+      "complete_assemblies": 0,
+      "expected_total_assemblies": null,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 0,
+      "status": "CATALOG_NOT_CAPTURED",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 0,
+      "published_expansion_records": 0,
+      "named_torque_records": 0,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX450",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 0,
+      "part_rows": 0,
+      "complete_assemblies": 0,
+      "expected_total_assemblies": null,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 0,
+      "status": "CATALOG_NOT_CAPTURED",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 0,
+      "published_expansion_records": 0,
+      "named_torque_records": 0,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX450",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 0,
+      "part_rows": 0,
+      "complete_assemblies": 0,
+      "expected_total_assemblies": null,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 0,
+      "status": "CATALOG_NOT_CAPTURED",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 0,
+      "published_expansion_records": 0,
+      "named_torque_records": 0,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX450",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 0,
+      "part_rows": 0,
+      "complete_assemblies": 0,
+      "expected_total_assemblies": null,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 0,
+      "status": "CATALOG_NOT_CAPTURED",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 0,
+      "published_expansion_records": 0,
+      "named_torque_records": 0,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX450",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 54,
+      "part_rows": 867,
+      "complete_assemblies": 54,
+      "expected_total_assemblies": 54,
+      "expected_total_parts": 867,
+      "inventory_complete": true,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 6340,
+      "status": "OEM_CATALOG_ENUMERATED",
+      "gaps": [
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 271,
+      "published_expansion_records": 271,
+      "named_torque_records": 0,
+      "reviewed_field_assignments": 271
+    },
+    {
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX450",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 0,
+      "part_rows": 0,
+      "complete_assemblies": 0,
+      "expected_total_assemblies": null,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 0,
+      "status": "CATALOG_NOT_CAPTURED",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 0,
+      "published_expansion_records": 0,
+      "named_torque_records": 0,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FC 250",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 41,
+      "part_rows": 1189,
+      "complete_assemblies": 41,
+      "expected_total_assemblies": 41,
+      "expected_total_parts": 1189,
+      "inventory_complete": true,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 9001,
+      "status": "OEM_CATALOG_ENUMERATED",
+      "gaps": [
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 856,
+      "published_expansion_records": 856,
+      "named_torque_records": 114,
+      "reviewed_field_assignments": 678
+    },
+    {
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FC 250",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 42,
+      "part_rows": 1185,
+      "complete_assemblies": 42,
+      "expected_total_assemblies": 42,
+      "expected_total_parts": 1185,
+      "inventory_complete": true,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 8971,
+      "status": "OEM_CATALOG_ENUMERATED",
+      "gaps": [
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 870,
+      "published_expansion_records": 870,
+      "named_torque_records": 130,
+      "reviewed_field_assignments": 676
+    },
+    {
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FC 250",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 42,
+      "part_rows": 1188,
+      "complete_assemblies": 42,
+      "expected_total_assemblies": 42,
+      "expected_total_parts": 1188,
+      "inventory_complete": true,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 8990,
+      "status": "OEM_CATALOG_ENUMERATED",
+      "gaps": [
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 870,
+      "published_expansion_records": 870,
+      "named_torque_records": 132,
+      "reviewed_field_assignments": 674
+    },
+    {
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FC 250",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 42,
+      "part_rows": 1181,
+      "complete_assemblies": 42,
+      "expected_total_assemblies": 42,
+      "expected_total_parts": 1181,
+      "inventory_complete": true,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 8949,
+      "status": "OEM_CATALOG_ENUMERATED",
+      "gaps": [
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 871,
+      "published_expansion_records": 871,
+      "named_torque_records": 126,
+      "reviewed_field_assignments": 682
+    },
+    {
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FC 250",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 0,
+      "part_rows": 0,
+      "complete_assemblies": 0,
+      "expected_total_assemblies": null,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 0,
+      "status": "CATALOG_NOT_CAPTURED",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 0,
+      "published_expansion_records": 0,
+      "named_torque_records": 0,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FC 450",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 41,
+      "part_rows": 1181,
+      "complete_assemblies": 41,
+      "expected_total_assemblies": 41,
+      "expected_total_parts": 1181,
+      "inventory_complete": true,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 8934,
+      "status": "OEM_CATALOG_ENUMERATED",
+      "gaps": [
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 836,
+      "published_expansion_records": 836,
+      "named_torque_records": 105,
+      "reviewed_field_assignments": 667
+    },
+    {
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FC 450",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 42,
+      "part_rows": 1178,
+      "complete_assemblies": 42,
+      "expected_total_assemblies": 42,
+      "expected_total_parts": 1178,
+      "inventory_complete": true,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 8914,
+      "status": "OEM_CATALOG_ENUMERATED",
+      "gaps": [
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 850,
+      "published_expansion_records": 850,
+      "named_torque_records": 118,
+      "reviewed_field_assignments": 668
+    },
+    {
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FC 450",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 42,
+      "part_rows": 1185,
+      "complete_assemblies": 42,
+      "expected_total_assemblies": 42,
+      "expected_total_parts": 1185,
+      "inventory_complete": true,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 8962,
+      "status": "OEM_CATALOG_ENUMERATED",
+      "gaps": [
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 853,
+      "published_expansion_records": 853,
+      "named_torque_records": 123,
+      "reviewed_field_assignments": 667
+    },
+    {
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FC 450",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 42,
+      "part_rows": 1176,
+      "complete_assemblies": 42,
+      "expected_total_assemblies": 42,
+      "expected_total_parts": 1176,
+      "inventory_complete": true,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 8907,
+      "status": "OEM_CATALOG_ENUMERATED",
+      "gaps": [
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 855,
+      "published_expansion_records": 855,
+      "named_torque_records": 120,
+      "reviewed_field_assignments": 675
+    },
+    {
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FC 450",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 0,
+      "part_rows": 0,
+      "complete_assemblies": 0,
+      "expected_total_assemblies": null,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 0,
+      "status": "CATALOG_NOT_CAPTURED",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 0,
+      "published_expansion_records": 0,
+      "named_torque_records": 0,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "MC 250F",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 41,
+      "part_rows": 1177,
+      "complete_assemblies": 41,
+      "expected_total_assemblies": 41,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 8239,
+      "status": "PARTIAL_PARTS_CAPTURE",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 0,
+      "published_expansion_records": 0,
+      "named_torque_records": 0,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "MC 250F",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 42,
+      "part_rows": 1184,
+      "complete_assemblies": 42,
+      "expected_total_assemblies": 42,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 8288,
+      "status": "PARTIAL_PARTS_CAPTURE",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 0,
+      "published_expansion_records": 0,
+      "named_torque_records": 0,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "MC 250F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 42,
+      "part_rows": 1168,
+      "complete_assemblies": 42,
+      "expected_total_assemblies": 42,
+      "expected_total_parts": 1168,
+      "inventory_complete": true,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 8842,
+      "status": "OEM_CATALOG_ENUMERATED",
+      "gaps": [
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 797,
+      "published_expansion_records": 797,
+      "named_torque_records": 130,
+      "reviewed_field_assignments": 666
+    },
+    {
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "MC 250F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 42,
+      "part_rows": 1171,
+      "complete_assemblies": 42,
+      "expected_total_assemblies": 42,
+      "expected_total_parts": 1171,
+      "inventory_complete": true,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 8869,
+      "status": "OEM_CATALOG_ENUMERATED",
+      "gaps": [
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 866,
+      "published_expansion_records": 866,
+      "named_torque_records": 122,
+      "reviewed_field_assignments": 672
+    },
+    {
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "MC 250F",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 42,
+      "part_rows": 1171,
+      "complete_assemblies": 42,
+      "expected_total_assemblies": 42,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 8197,
+      "status": "PARTIAL_PARTS_CAPTURE",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 127,
+      "published_expansion_records": 127,
+      "named_torque_records": 125,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "MC 450F",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 41,
+      "part_rows": 1169,
+      "complete_assemblies": 41,
+      "expected_total_assemblies": 41,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 8183,
+      "status": "PARTIAL_PARTS_CAPTURE",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 0,
+      "published_expansion_records": 0,
+      "named_torque_records": 0,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "MC 450F",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 42,
+      "part_rows": 1172,
+      "complete_assemblies": 42,
+      "expected_total_assemblies": 42,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 8204,
+      "status": "PARTIAL_PARTS_CAPTURE",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 0,
+      "published_expansion_records": 0,
+      "named_torque_records": 0,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "MC 450F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 42,
+      "part_rows": 1166,
+      "complete_assemblies": 42,
+      "expected_total_assemblies": 42,
+      "expected_total_parts": null,
+      "inventory_complete": false,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 8162,
+      "status": "PARTIAL_PARTS_CAPTURE",
+      "gaps": [
+        "Confirm exact OEM market and revision",
+        "Reconcile every catalog assembly and alternative callout",
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 0,
+      "published_expansion_records": 0,
+      "named_torque_records": 0,
+      "reviewed_field_assignments": 0
+    },
+    {
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "MC 450F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 42,
+      "part_rows": 1164,
+      "complete_assemblies": 42,
+      "expected_total_assemblies": 42,
+      "expected_total_parts": 1164,
+      "inventory_complete": true,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 8777,
+      "status": "OEM_CATALOG_ENUMERATED",
+      "gaps": [
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 858,
+      "published_expansion_records": 858,
+      "named_torque_records": 123,
+      "reviewed_field_assignments": 701
+    },
+    {
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "MC 450F",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assembly_rows": 42,
+      "part_rows": 1164,
+      "complete_assemblies": 42,
+      "expected_total_assemblies": 42,
+      "expected_total_parts": 1164,
+      "inventory_complete": true,
+      "specification_coverage_complete": false,
+      "unknown_specification_slots": 8148,
+      "status": "OEM_CATALOG_ENUMERATED",
+      "gaps": [
+        "Retain unknown or AR quantities; do not sum alternatives as installed pieces",
+        "Map each applicable specification to its installation and approved source",
+        "Review which specification properties apply to each component"
+      ],
+      "reviewed_expansion_records": 124,
+      "published_expansion_records": 124,
+      "named_torque_records": 124,
+      "reviewed_field_assignments": 0
+    }
+  ]
+}

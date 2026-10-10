@@ -1,0 +1,11 @@
+# Exact US 2024 YZ450F suspension
+
+Four candidates,72 steps:53-step fork oil/seals/bushings,6-step fork damping baseline,6-step rear damping baseline,7-step measured rider sag/preload. BHR-2819U-11 / LIT-11626-37-11 source SHA6e784b3b15fe1e131f0e385676ca2873e74d783ee2499ce561e595bcea9ca9be. All independently approved and frozen after root source review. Approved2025 files are hash-bound structure references only; no cross-year operation dependency or approval is retained.
+
+Exact2024 fork baseline11 rebound/10 compression; rear13 rebound/1turn high-speed/10low-speed. Standard rear preload7mm,1.5–18mm allowed and1.5mm/turn; measured sag90–100mm. Exact fork standard projection7mm and outer-leg S1 quantity270cm3. Cartridge216cm3 is distinct. Spring lengths, damper fill/level, base28/knob0.6/adjuster29/inner55/cap30/clamps21 and front-wheel115/pinch21 were checked against2024 sections. The source about200mm bleed instruction and warning against200mm-or-more are retained as an explicit source issue with below200 motion; no invented force or rod direction. Source unspecified Loctite grade stays unspecified.
+
+Explicit maps handle symbol2024PDF8, copyright4, fork162–173, frontwheel125–126 and caliper136–139. Page167 seating and171 adjuster references corrected in inline prose as well as source arrays. Fork oil goes on the inner tube during oilseal insertion; lithium-soap grease on the inner tube belongs to the later dust-seal installation. These are distinct source stages. Existing fork guide retains closed hydraulic caliper adaptation, final static brake/steering checks and actual measurement records. It does not provide cartridge rod-seal or shock internal rebuild.
+
+Author read exact2024 suspension108–111/162–173/376–377 and wheel125–126/caliper136–139. Source diagrams are linked for every affected step; root is independently reviewing all critical drawings. The validator checks exact target, source bytes, frozen2025 structure hashes, new candidate hashes, step sequence, forward branches and exact links. It never approves or changes records.
+
+Final: independent-review-v1.json records root pages and resolved findings. Runtime-normalized manifest binds the author manifest; --approved read-only validation passes.

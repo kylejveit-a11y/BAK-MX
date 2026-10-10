@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2024-frame-pass10",
+  "status": "APPROVED",
+  "sources": [
+    {
+      "id": "yamaha-2024-bhr",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf",
+      "local_pdf_path": "C:/Users/kylej/AppData/Local/Temp/BHR-2819U-11_02.pdf",
+      "sha256": "6e784b3b15fe1e131f0e385676ca2873e74d783ee2499ce561e595bcea9ca9be"
+    },
+    {
+      "id": "motionpro-stem-2025",
+      "url": "https://www.motionpro.com/download/i08-0544-instructions-v001-2025",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\chassis7\\stem.pdf",
+      "sha256": "de9b7f4f53f59cd3c8393c621425342371dac5bdbeb55ca1068f1260c70b5b6d"
+    },
+    {
+      "id": "motionpro-race-2022",
+      "url": "https://www.motionpro.com/download/instruction-08-0669-steering-bearing-installer",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\chassis7\\race.pdf",
+      "sha256": "7ccc1ed5e429e3c2be782f877a1269e9a62fd5dbbd1aaa50002964d6c0eb723f"
+    },
+    {
+      "id": "motionpro-linkage-2017",
+      "url": "https://www.motionpro.com/download/instructions-08-0294-deluxe-suspension-bearing-service-tool",
+      "local_pdf_path": "C:/Users/kylej/AppData/Local/Temp/chassis7/linkage.pdf",
+      "sha256": "2da71911f69e368f9a458d436bbab475f208c826d1b1141e453e6f74966a1eb4"
+    },
+    {
+      "id": "nick-dole-gearing",
+      "url": "https://www.teknikmotorsport.com/assets/brochures/Transmoto-Gearing.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\drive8\\Transmoto-Gearing.pdf",
+      "sha256": "84e1c2a35ba1c44b2917d889f3ecb5765b383cf65e69ffaada2808f2b1ba3cf0"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "engine-removal-refit-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "86fb9b99d1efeb08101a68f7f8b232cc0267ccc8e67465e41eec2750f181be96",
+      "source_id": "yamaha-2024-bhr",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 70
+    },
+    {
+      "path": "frame-bearing-renewal-reassembly-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "b6628acf8ba83422ab2eba567569599bdcf953d01d05e419aa4358a04c554604",
+      "source_id": "yamaha-2024-bhr",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 151
+    }
+  ],
+  "database_writes": false,
+  "independent_review": {
+    "path": "independent-review-v1.json",
+    "sha256": "34ee33b9bcea287c34ca2a415c597fbd68f80aa26bfaaeec0c0b4643f31e93fc"
+  }
+}

@@ -1,0 +1,385 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2025-yz450f-us-rear-master-rebuild-v1",
+  "component": "brakes",
+  "affected_components": [
+    "rear_brake",
+    "brakes",
+    "brake_pedal"
+  ],
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2025,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Rebuild the stock rear brake master cylinder",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete stock rear-master cylinder kit replacement with pedal joint, mounting and hose refit, fluid replacement and bleeding. Caliper, wheel and hose remain otherwise serviceable.",
+  "entry_state": [
+    "Assembled exact US2025 stock YZ450F with serviceable rear caliper, hose, disc and pedal.",
+    "Exact rear master-cylinder kit, new split pin and union washers available."
+  ],
+  "exit_state": [
+    "Rear master rebuilt and mounted; pedal joint retained and adjusted.",
+    "Rear circuit bled and reservoir closed; leak, pedal and brake-effect checks passed."
+  ],
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf",
+    "document_sha256": "5005e7d8492c9482dfe44c6d752609a9a70a836f5b1dc94be3149d5d493de8ac",
+    "document_revision": "D02-2819U-10 / LIT-11626-38-16; first edition March 2024",
+    "pdf_pages": [
+      106,
+      107,
+      108,
+      109,
+      148,
+      149,
+      150,
+      151,
+      155,
+      156,
+      157
+    ],
+    "printed_pages": [
+      "3-24",
+      "3-25",
+      "3-26",
+      "3-27",
+      "4-28",
+      "4-29",
+      "4-30",
+      "4-31",
+      "4-35",
+      "4-36",
+      "4-37"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Independent review by year_groups_research: exact2025 text106–109/136–157/163–164 and visual7/107/108/137/138/145/147/148/150/156/157/164 support seals, lubrication, cup orientation, hardware, reservoir and bleed closure. Corrected stale inline2026 diagram references, numeric targetyear and encoding before freeze. No neighboring-year specification inheritance."
+  },
+  "applicability": {
+    "included": "Stock rear master cylinder on exact US2025 YZ450F",
+    "excluded": [
+      "Other model years",
+      "Aftermarket brake system",
+      "Damaged master-cylinder body or other brake components requiring replacement"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "required_tools": [
+    {
+      "name": "Stable support, suitable hand tools and precision torque tools",
+      "size": "1.5–30 Nm"
+    },
+    {
+      "name": "Retaining-ring tools and clean parts tray",
+      "size": "Match original master cylinder"
+    },
+    {
+      "name": "Bleed hose and waste container",
+      "size": "Fit rear caliper bleeder"
+    },
+    {
+      "name": "Compressed air and eye protection",
+      "size": "For clearing obstructed passages"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "Exact new rear master-cylinder kit",
+      "purpose": "Renew piston assembly, pushrod, circlip and boot marked NEW on157"
+    },
+    {
+      "name": "Two new copper union washers",
+      "purpose": "Master hose connection"
+    },
+    {
+      "name": "New split pin",
+      "purpose": "Pedal-to-master joint retention"
+    },
+    {
+      "name": "Fresh DOT4 brake fluid",
+      "purpose": "Internal cleaning/lubrication and refill"
+    },
+    {
+      "name": "Silicone grease",
+      "purpose": "Pushrod end"
+    }
+  ],
+  "preflight": [
+    "Use exact cup/retention diagrams154/159/160 and pedal reference153.",
+    "Protect eyes and painted/plastic surfaces from fluid."
+  ],
+  "critical_stop_conditions": [
+    "Damaged bore/body, incorrect kit or unseated retention.",
+    "Fluid leaks, persistent air, soft pedal, brake drag or improper braking."
+  ],
+  "steps": [
+    {
+      "id": "prepare",
+      "title": "Prepare and drain",
+      "instruction": "Secure bike upright on level ground with reservoir horizontal. Protect surfaces. Remove rear cap, diaphragm plate and diaphragm; connect caliper bleeder to catch hose/container and drain fluid with pedal/bleeder cycle.",
+      "source_pdf_pages": [
+        106,
+        108,
+        109,
+        150,
+        155
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=106",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=108",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=109",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=150",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=155"
+      ],
+      "depends_on": [],
+      "verification": "Circuit drained before master removal; discard old fluid.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "remove",
+      "title": "Remove master",
+      "instruction": "Disconnect master union and discard both copper washers; catch remaining fluid. Remove split pin, washer and joint pin. Remove master mounting bolts and master.",
+      "source_pdf_pages": [
+        149,
+        150,
+        155,
+        156
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=149",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=150",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=155",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=156"
+      ],
+      "depends_on": [
+        "prepare"
+      ],
+      "verification": "Retain reusable joint hardware; discard old split pin.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "strip",
+      "title": "Strip cylinder kit",
+      "instruction": "Remove joint and its adjustment hardware from pushrod in diagram151 order. Remove boot and circlip while controlling spring-loaded piston; withdraw pushrod, piston and spring. Preserve body bore.",
+      "source_pdf_pages": [
+        151,
+        157
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=151",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=157"
+      ],
+      "depends_on": [
+        "remove"
+      ],
+      "verification": "Old kit removed; joint arrangement recorded.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "inspect",
+      "title": "Inspect and clean",
+      "instruction": "Replace master for body damage/scratches/wear. Inspect cap, diaphragm plate and diaphragm for cracks/damage; inspect hose for cracks/wear. Clear blocked passages with air. Clean internals using fresh DOT4, never solvent.",
+      "source_pdf_pages": [
+        156
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=156"
+      ],
+      "depends_on": [
+        "strip"
+      ],
+      "verification": "Record findings; failed parts replaced before assembly.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "cups",
+      "title": "Build new piston",
+      "instruction": "Lubricate new primary/secondary cups with DOT4 and fit in the distinct positions/orientations shown on156. Fit spring with smaller inside diameter toward piston.",
+      "source_pdf_pages": [
+        156
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=156"
+      ],
+      "depends_on": [
+        "inspect"
+      ],
+      "verification": "Record both cup orientations and spring direction against diagram.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "retain",
+      "title": "Install new kit",
+      "instruction": "Apply DOT4 to piston assembly and bore; silicone grease to pushrod end. Install new piston assembly, new pushrod, new circlip and new boot in diagram157 order. Fully seat retaining ring and boot; restore joint hardware from151.",
+      "source_pdf_pages": [
+        151,
+        157
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=151",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=157"
+      ],
+      "depends_on": [
+        "cups"
+      ],
+      "verification": "All NEW-marked parts renewed; piston retained and joint fitted.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "mount",
+      "title": "Mount and connect pedal",
+      "instruction": "Install master mounting bolts10 Nm. Connect pedal joint with pin, washer and new split pin; secure pin as diagram150. Set pedal to the5 mm reference shown there using adjusting bolt; tighten adjustment locknut6 Nm.",
+      "source_pdf_pages": [
+        106,
+        150
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=106",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=150"
+      ],
+      "depends_on": [
+        "retain"
+      ],
+      "verification": "Record mounting torque, pedal position and locknut torque; new split pin secured.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "hose",
+      "title": "Reconnect master hose",
+      "instruction": "Fit two new copper washers; position hose pipe against the stop shown on157 and tighten union30 Nm. Preserve original route without strain.",
+      "source_pdf_pages": [
+        149,
+        157
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=149",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=157"
+      ],
+      "depends_on": [
+        "mount"
+      ],
+      "verification": "Record washers, diagram stop contact and30 Nm.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "fill",
+      "title": "Fill for bleeding",
+      "instruction": "Fill horizontal reservoir above the minimum mark shown on PDF107 with fresh DOT4 and fit diaphragm. Secure clear hose to bleeder and lead to catch container. Prevent water entry, overflow and reservoir running dry.",
+      "source_pdf_pages": [
+        106,
+        107,
+        108,
+        155
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=106",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=107",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=108",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=155"
+      ],
+      "depends_on": [
+        "hose"
+      ],
+      "verification": "Correct fluid; sufficient supply throughout bleeding.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "bleed",
+      "title": "Bleed rear circuit",
+      "instruction": "Slowly pump pedal several times, then press fully and hold. Open bleeder; close before releasing pedal. Repeat until hose fluid is bubble-free, replenishing reservoir. If tiny bubbles persist, let fluid settle a few hours and repeat.",
+      "source_pdf_pages": [
+        108,
+        109
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=108",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=109"
+      ],
+      "depends_on": [
+        "fill"
+      ],
+      "verification": "Record bubble-free fluid and firm pedal.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "close",
+      "title": "Close reservoir",
+      "instruction": "Tighten bleeder5 Nm and refit cap. Restore fluid above the minimum mark shown on PDF107 with bike upright and reservoir horizontal. Refit diaphragm, plate and cap in diagram150 order; cap screws1.5 Nm. Clean all spills.",
+      "source_pdf_pages": [
+        106,
+        107,
+        109,
+        148,
+        150
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=106",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=107",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=109",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=148",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=150"
+      ],
+      "depends_on": [
+        "bleed"
+      ],
+      "verification": "Record final fluid level and closure torques.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    },
+    {
+      "id": "verify",
+      "title": "Check wheel and brake",
+      "instruction": "Apply rear brake repeatedly and inspect hose/connections for leaks. Confirm firm pedal, correct pedal position and no brake drag. A soft pedal requires further bleeding. After stationary checks pass, check rear brake effect on a dry test surface.",
+      "source_pdf_pages": [
+        106,
+        108,
+        157
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=106",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=108",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=157"
+      ],
+      "depends_on": [
+        "close"
+      ],
+      "verification": "Record no leaks, firm pedal, no drag and proper brake effect.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Yamaha OEM service manual; original factual companion"
+    }
+  ],
+  "publication_status": "APPROVED",
+  "reviewed_at": "2025-09-13",
+  "authoring_template": {
+    "artifact": "docs/research/workshop-pass7/yamaha-hydraulics/rear-master-rebuild-v1.procedure.json",
+    "sha256": "6cec53d227dc80c66409cbbe7bc78d9f8436bf83d4b184584f4a576b4c57f3a7",
+    "role": "Structure only; exact2025 source is the evidence authority."
+  },
+  "integration_status": "LOCAL_REVIEWED_NOT_IMPORTED"
+}

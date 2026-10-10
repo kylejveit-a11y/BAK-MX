@@ -1,0 +1,26 @@
+{
+  "status": "AUTHOR_REVIEW_COMPLETE_PENDING_REVIEWER_REBIND",
+  "changes": [
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2020-yz250fx/shock-baseline-v1.procedure.json",
+      "before": "379730f9f1d8b7c09eb9488035ce7f66032e52535bfbd460ed2ffc4e668e8051",
+      "after": "19ce1828e7969f103840bbf7b56be497c013d9c3a6288e8d88d0ec65b045ef55"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2020-wr250f/shock-baseline-v1.procedure.json",
+      "before": "9645c8c90bd2ca8dced19993eaddcfc9a6d9a161449e12b32d4acb0b87c9606c",
+      "after": "113457d22dc1c9a4dd60daf209856d60b1399eab79ecd4e8af0283739960e62d"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2020-yz450fx/shock-baseline-v1.procedure.json",
+      "before": "401ebad7e41b2e9ef2eb7d07ba8a62f3b8209a219b216c496f47460dbdb0925a",
+      "after": "67e49df89c8b3fa545e8591ed522b6a98966dcf3dcced9dff5fc124f6436267a"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-fx-wr/2020-wr450f/shock-baseline-v1.procedure.json",
+      "before": "037d3ff613d3e2598e6a0554d2f2b3f8123f06950830a7411e4b5933388157a7",
+      "after": "02a245a8b5980f5116da34fb90ee28226b9957346627ba5556dc4530e2276b3b"
+    }
+  ],
+  "scope": "Only four2020 shock source-page/link coverage and two record-page ranges changed; mechanical action, numeric settings and branch conditions unchanged. BAJ108/BAK121 low-speed table+diagram; all4 rebound table/diagram spans both pages."
+}

@@ -1,0 +1,51 @@
+{
+  "status": "APPROVED",
+  "sources": [
+    {
+      "id": "yamaha-us-2024-yz250f-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\BMF-2819U-10_02.pdf"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "top-end-teardown-inspection-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2024-yz250f-oem",
+      "sha256": "98bb325994d8943abfb43873bb9bb210a4e75cf0f85df93627d99d6922e5c111",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "step_count": 24,
+      "candidate_sha256": "0bddb0f684618cad31c9c1029a19902e00a0c10ba2b17aabf6846b6d75c1350c"
+    },
+    {
+      "path": "original-head-valve-reassembly-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2024-yz250f-oem",
+      "sha256": "9e96d40945fed102de687416570063d0773a04d48a7617c8cf318e4988385441",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "step_count": 9,
+      "candidate_sha256": "b73bc6cda378b0e237b1caf2baca8a6bb858d52e3a93e6735c09cd47d6c3fc5a"
+    }
+  ],
+  "independent_review": {
+    "path": "independent-review.json",
+    "sha256": "e42a20c153d859612c7e09a972cf75cae14223c99f0ec25f1bb8bbf0a5e0b511"
+  },
+  "parent_manifest": {
+    "path": "source-review-manifest.json",
+    "sha256": "fb16ce7aaf4cb9323c82ca4cea17c61e22fbcc78553d203e3ce1c5d77b18e53a"
+  }
+}

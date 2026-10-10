@@ -1,0 +1,388 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2022-yz450f-us-front-master-rebuild-v1",
+  "component": "brakes",
+  "affected_components": [
+    "front_brake",
+    "brakes",
+    "handlebar"
+  ],
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2022,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Rebuild the stock front brake master cylinder",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete stock front-master cylinder kit replacement with lever, holder and hose refit, fluid replacement, bleeding and brake checks. Caliper remains installed and serviceable.",
+  "entry_state": [
+    "Assembled exact US2022 stock YZ450F with serviceable front caliper, hose and disc.",
+    "Exact front master-cylinder replacement kit and union washers available."
+  ],
+  "exit_state": [
+    "Master cylinder rebuilt, mounted and connected; lever and hose routing restored.",
+    "Front circuit bled and reservoir closed; brake function checked."
+  ],
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf",
+    "document_sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608",
+    "document_revision": "B2W-2819U-12 / LIT-11626-35-03; first edition March 2021",
+    "pdf_pages": [
+      99,
+      100,
+      101,
+      102,
+      128,
+      129,
+      130,
+      134,
+      135,
+      136,
+      137,
+      154
+    ],
+    "printed_pages": [
+      "99: 3-23",
+      "100: 3-24",
+      "101: 3-25",
+      "102: 3-26",
+      "128: 4-14",
+      "129: 4-15",
+      "130: 4-16",
+      "134: 4-20",
+      "135: 4-21",
+      "136: 4-22",
+      "137: 4-23",
+      "154: 4-40"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Exact 2022 hydraulic source review; independent review pending."
+  },
+  "applicability": {
+    "included": "Stock front master cylinder on exact US2022 YZ450F",
+    "excluded": [
+      "Other model years",
+      "Aftermarket brake system",
+      "Damaged master-cylinder body or other brake components requiring replacement"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "required_tools": [
+    {
+      "name": "Stable support, suitable hand tools and precision torque tools",
+      "size": "1.5–30 Nm"
+    },
+    {
+      "name": "Retaining-ring tools and clean parts tray",
+      "size": "Match original master cylinder"
+    },
+    {
+      "name": "Bleed hose and waste container",
+      "size": "Fit front caliper bleeder"
+    },
+    {
+      "name": "Compressed air and eye protection",
+      "size": "For clearing obstructed passages"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "Exact new front master-cylinder kit",
+      "purpose": "Renew exact diagram 130 kit; piston assembly and circlip explicitly NEW on 136."
+    },
+    {
+      "name": "Two new copper union washers",
+      "purpose": "Master hose connection"
+    },
+    {
+      "name": "Fresh DOT4 brake fluid",
+      "purpose": "Internal cleaning/lubrication and refill"
+    },
+    {
+      "name": "Silicone grease",
+      "purpose": "Pushrod end and lever locations marked on 129/136."
+    }
+  ],
+  "preflight": [
+    "Use cup and retention diagrams142/148 throughout; all hydraulic parts must be clean.",
+    "Protect eyes and painted/plastic surfaces from fluid."
+  ],
+  "critical_stop_conditions": [
+    "Damaged bore/body, incorrect kit or unseated retaining ring.",
+    "Fluid leakage, persistent air, spongy lever or improper braking."
+  ],
+  "steps": [
+    {
+      "id": "prepare",
+      "title": "Prepare and drain",
+      "instruction": "Secure bike upright with reservoir horizontal; protect paint/plastics. Remove cap, diaphragm and float. Connect bleeder hose to catch container and drain front fluid using the lever/bleeder cycle; discard fluid.",
+      "source_pdf_pages": [
+        99,
+        101,
+        102,
+        129,
+        135
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=99",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=101",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=102",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=129",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=135"
+      ],
+      "depends_on": [],
+      "verification": "Front circuit drained before master removal.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact 2022 B2W source; operational records and closed access are explicit workflow adaptations."
+    },
+    {
+      "id": "remove",
+      "title": "Remove master cylinder",
+      "instruction": "Remove lever pivot nut/bolt and lever. Remove hose union and both washers, catching residual fluid under hose and master. Remove holder and master while retaining original location and control routing.",
+      "source_pdf_pages": [
+        129,
+        135,
+        154
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=129",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=135",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=154"
+      ],
+      "depends_on": [
+        "prepare"
+      ],
+      "verification": "Hose protected; controls and lead not strained.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact 2022 B2W source; operational records and closed access are explicit workflow adaptations."
+    },
+    {
+      "id": "strip",
+      "title": "Remove old cylinder kit",
+      "instruction": "Remove pushrod and boot; remove circlip and washer while controlling the spring-loaded piston. Withdraw piston/spring and old cups in diagram 130/136 order. Keep the body bore undamaged.",
+      "source_pdf_pages": [
+        130,
+        136
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=130",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=136"
+      ],
+      "depends_on": [
+        "remove"
+      ],
+      "verification": "Old kit removed; all positions identified from exploded view.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact 2022 B2W source; operational records and closed access are explicit workflow adaptations."
+    },
+    {
+      "id": "inspect",
+      "title": "Inspect and clean",
+      "instruction": "Replace damaged, scratched or worn master body and damaged reservoir cap. Inspect hose for cracks/damage/wear. Clear blocked body passages with compressed air. Wash body/internal parts with fresh DOT 4; never solvent.",
+      "source_pdf_pages": [
+        135
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=135"
+      ],
+      "depends_on": [
+        "strip"
+      ],
+      "verification": "Record inspection; damaged body or hose requires replacement before proceeding.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact 2022 B2W source; operational records and closed access are explicit workflow adaptations."
+    },
+    {
+      "id": "cups",
+      "title": "Build replacement piston",
+      "instruction": "Wet the new primary and secondary cups with DOT 4 and install in the distinct positions and orientations shown on 135. Fit spring with its smaller inside diameter toward piston.",
+      "source_pdf_pages": [
+        130,
+        135,
+        136
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=130",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=135",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=136"
+      ],
+      "depends_on": [
+        "inspect"
+      ],
+      "verification": "Record both cup orientations against PDF 135 and spring orientation against PDF 136; no reversal or torn lips.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact 2022 B2W source; operational records and closed access are explicit workflow adaptations."
+    },
+    {
+      "id": "retain",
+      "title": "Install and retain piston",
+      "instruction": "Lubricate piston assembly and bore with DOT 4. Insert new piston assembly, washer and new circlip, then boot and pushrod in diagram 136 order. Apply silicone grease to pushrod end; verify circlip is seated.",
+      "source_pdf_pages": [
+        130,
+        136
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=130",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=136"
+      ],
+      "depends_on": [
+        "cups"
+      ],
+      "verification": "Piston retained; boot seated and pushrod located correctly.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact 2022 B2W source; operational records and closed access are explicit workflow adaptations."
+    },
+    {
+      "id": "mount",
+      "title": "Mount master and lever",
+      "instruction": "Refit holder with UP upward and reservoir level; preserve original control routing without trapping leads. Tighten upper holder bolt first, then lower, both 9 Nm. Apply silicone grease at diagram 129 lever points; refit lever pivot bolt 6 Nm and nut 6 Nm.",
+      "source_pdf_pages": [
+        129,
+        136,
+        154
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=129",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=136",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=154"
+      ],
+      "depends_on": [
+        "retain"
+      ],
+      "verification": "Record holder sequence/torques and lever hardware; lever moves freely.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact 2022 B2W source; operational records and closed access are explicit workflow adaptations."
+    },
+    {
+      "id": "hose",
+      "title": "Reconnect hose",
+      "instruction": "Use two new copper washers and tighten union 30 Nm. Seat hose against master projection with bent portion downward as illustrated in the linked hose-routing diagrams. Turn bars both ways; hose must not contact wiring, cables or other parts.",
+      "source_pdf_pages": [
+        136,
+        137
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=136",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=137"
+      ],
+      "depends_on": [
+        "mount"
+      ],
+      "verification": "Record washers,30 Nm and full-steering routing check.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact 2022 B2W source; operational records and closed access are explicit workflow adaptations."
+    },
+    {
+      "id": "fill",
+      "title": "Fill for bleeding",
+      "instruction": "Fill reservoir above the minimum mark shown on PDF 100 with fresh DOT 4 and fit diaphragm. Attach a secure clear hose to bleeder, with its free end in a catch container. Keep reservoir supplied throughout; prevent water entry and overflow.",
+      "source_pdf_pages": [
+        99,
+        100,
+        101,
+        134
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=99",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=100",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=101",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=134"
+      ],
+      "depends_on": [
+        "hose"
+      ],
+      "verification": "Reservoir horizontal; correct fluid and sufficient supply.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact 2022 B2W source; operational records and closed access are explicit workflow adaptations."
+    },
+    {
+      "id": "bleed",
+      "title": "Remove trapped air",
+      "instruction": "Slowly pump lever several times, then pull fully and hold. Open bleeder; close it before releasing lever. Repeat until hose fluid contains no bubbles, replenishing reservoir. If stubborn tiny bubbles persist, let fluid settle a few hours and repeat.",
+      "source_pdf_pages": [
+        101,
+        102
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=101",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=102"
+      ],
+      "depends_on": [
+        "fill"
+      ],
+      "verification": "Record bubble-free result; never allow reservoir to empty.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact 2022 B2W source; operational records and closed access are explicit workflow adaptations."
+    },
+    {
+      "id": "close",
+      "title": "Close the circuit",
+      "instruction": "Tighten bleeder 6 Nm and refit its cap. Restore fluid above the minimum mark shown on PDF 100 with bike upright and reservoir horizontal. Refit float, diaphragm and cap in diagram 129 order; cap screws 1.5 Nm. Clean spills immediately.",
+      "source_pdf_pages": [
+        99,
+        100,
+        102,
+        128,
+        129
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=99",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=100",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=102",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=128",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=129"
+      ],
+      "depends_on": [
+        "bleed"
+      ],
+      "verification": "Record final level, bleeder and cap torque; all openings closed.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact 2022 B2W source; operational records and closed access are explicit workflow adaptations."
+    },
+    {
+      "id": "verify",
+      "title": "Verify brake function",
+      "instruction": "Apply front brake repeatedly and inspect hose/connections for leaks. Lever must not feel soft or spongy; bleed again if it does. After stationary checks pass, check brake effect on a dry test surface before normal riding. Confirm no lever-end free play and no brake drag.",
+      "source_pdf_pages": [
+        99,
+        100,
+        101,
+        135
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=99",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=100",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=101",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=135"
+      ],
+      "depends_on": [
+        "close"
+      ],
+      "verification": "Record no leaks, firm lever and proper braking; unresolved faults prevent completion.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion checked against exact 2022 B2W source; operational records and closed access are explicit workflow adaptations."
+    }
+  ],
+  "publication_status": "APPROVED",
+  "authoring_template": {
+    "path": "docs/research/workshop-pass11/yamaha-2023-brakes/front-master-rebuild-v1.procedure.json",
+    "sha256": "70b3db3acfdfbf24ebd51589dc6a3f30793a1621e14d758394ae3d84d256704a",
+    "scope": "Prior approved sequence structure only; every mechanical fact checked in exact 2022 manual."
+  },
+  "operation_dependencies": []
+}

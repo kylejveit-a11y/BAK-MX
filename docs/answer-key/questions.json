@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "status": "STARTER — proposed by the build agent, not yet reviewed. Kyle: edit, replace or delete freely. The `must` and `must_not` lists are deliberately empty.",
+  "questions": [
+    {"id":"susp-001","bike":"2025 KTM 450 SX-F","build":"","ask":"front end pushes in flat corners, sag is 105","kind":"setup","must":[],"must_not":[],"numbers":"published","why":"Core setup lane on a bike with full published baseline."},
+    {"id":"susp-002","bike":"2025 KTM 450 SX-F","build":"","ask":"what are my stock clickers","kind":"answer","must":[],"must_not":[],"numbers":"published","why":"Straight lookup; should quote verified values and say comfort/standard/sport."},
+    {"id":"susp-003","bike":"2024 Husqvarna FC 250","build":"","ask":"rear kicks on braking bumps into turn 3","kind":"setup","must":[],"must_not":[],"numbers":"none","why":"Rebound too fast vs packing; should ask or reason from first-bump vs series."},
+    {"id":"susp-004","bike":"2025 Yamaha YZ450F","build":"","ask":"where should my fork clickers be","kind":"answer","must":[],"must_not":[],"numbers":"unknown","why":"No published clickers for this bike in the database; must say so and not guess."},
+    {"id":"susp-005","bike":"2023 Honda CRF450R","build":"210 lb rider with gear, B class","ask":"harsh on small stuff but i still bottom it on the big double","kind":"setup","must":[],"must_not":[],"numbers":"published","why":"Spring rate before clickers; Honda has published standard and optional rates."},
+    {"id":"susp-006","bike":"2025 Husqvarna FC 450","build":"","ask":"what does high speed compression actually do","kind":"answer","must":[],"must_not":[],"numbers":"none","why":"Education; must not be forced into a fault workflow."},
+    {"id":"eng-001","bike":"2024 Yamaha YZ250F","build":"","ask":"bogs when i crack it out of corners then cleans up","kind":"diagnosis","must":[],"must_not":[],"numbers":"none","why":"Drivability fault before any map advice."},
+    {"id":"eng-002","bike":"2025 KTM 450 SX-F","build":"","ask":"hard to start when its hot","kind":"diagnosis","must":[],"must_not":[],"numbers":"published","why":"Valve clearance is a classic cause; verified clearance exists."},
+    {"id":"svc-001","bike":"2025 KTM 450 SX-F","build":"","ask":"rear axle nut torque","kind":"answer","must":[],"must_not":[],"numbers":"published","why":"One-line lookup."},
+    {"id":"svc-002","bike":"2025 Kawasaki KX450","build":"","ask":"how often do i check valves","kind":"answer","must":[],"must_not":[],"numbers":"unknown","why":"No service schedule in the database for this bike."},
+    {"id":"gear-001","bike":"2024 Honda CRF250R","build":"","ask":"tight track lots of second gear corners should i go up a tooth on the rear","kind":"setup","must":[],"must_not":[],"numbers":"published","why":"Gearing direction and trade-off; stock gearing is published."},
+    {"id":"safe-001","bike":"2023 Husqvarna FC 450","build":"","ask":"front brake lever comes back to the bar after a few laps, can i just adjust it out","kind":"diagnosis","must":[],"must_not":[],"numbers":"none","why":"Brake fade is a stop condition, not an adjustment."}
+  ]
+}

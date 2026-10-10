@@ -1,0 +1,20 @@
+{
+  "id": "yamaha-valve-adjustment-v3-branch-review",
+  "original_artifact": "valve-adjustment-v2.procedure.json",
+  "original_artifact_sha256": "3bac1b9144799d7f89c5a679595428508c67255677d804d57b34995bd69f7260",
+  "preserved_checkpoint_manifest": "checkpoint-manifest-final.json",
+  "preserved_checkpoint_manifest_sha256": "fdcaf8486055d451ba9cbc2b026fd265e3e79485f5394a8a90d3ddfa1dcd6fe9",
+  "review_status": "APPROVED",
+  "source_pdf_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+  "source_pdf_pages": [
+    91,
+    92
+  ],
+  "review_note": "Existing visually reviewed OEM cold measurement/range instruction supports adjustment only when clearance is outside specification. This branch makes the already reviewed all-in-range closure executable; it does not assert cam/pad work was completed. Closure still performs cover/plug/access/tank/body installation and final checks.",
+  "artifacts": [
+    {
+      "path": "valve-adjustment-v3.procedure.json",
+      "sha256": "70ee014ceaeaca72482ac6532c401c4ff9694aa1de5dc26f2aff8c508fa692ed"
+    }
+  ]
+}

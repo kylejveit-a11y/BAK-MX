@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "reviewer": "yamaha_workshop_evidence, independent of composition author core_flow_repairs",
+  "status": "APPROVED",
+  "artifact": "top-end-bike-journey-v1.procedure.json",
+  "artifact_sha256": "619cbc2c967d568c060cca0379e82ccd3efd002bde9aa55aafa437fad5015314",
+  "review_scope": "Composition and cutpoint review of167 ordered steps; approved mechanical component procedures remain their source authority. This review does not claim physical-bike validation or execution of externally required work.",
+  "checks": [
+    "All three operation dependency hashes match approved exact2025 source artifacts.",
+    "The66 inlined top-end mechanical actions preserve the approved bench operation; duplicate exit handoff is replaced by an actual completed bench record.",
+    "Guide-renewal and clearance-adjustment branches target only the intended forward closure steps; bypasses remain not performed.",
+    "Engine access precedes bench work and refit follows accepted cold timing/clearances and sealed top end.",
+    "Cold tester attachment precedes first idle oil-flow start; continuous three-minute warm-up precedes137.3kPa/5–10s hold; complete cooling precedes tester relief/removal. Running checks, first riding and post-maintenance then follow.",
+    "Actual tank-cleaning external step is correctly prefixed; stale engine-intact/removed-scope metadata and unrelated preparation were corrected."
+  ],
+  "findings_resolved": ["Actual top-end bench handoff wording", "Removed contradictory exclusions and stale remaining gaps", "Prefixed external operation step ID", "Removed unrelated preparation entries", "Exact symbol-page metadata retained"],
+  "open_blocking_findings": [],
+  "freeze_permission": "Composition author may apply approval-only status/review fields and update this artifact hash plus manifest binding. Other mechanical changes require review. Root also performs independent review."
+}

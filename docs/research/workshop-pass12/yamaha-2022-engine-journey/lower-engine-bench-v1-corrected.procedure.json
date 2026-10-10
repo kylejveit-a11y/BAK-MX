@@ -1,0 +1,1234 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2022-yz450f-lower-engine-bench-v1",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2022,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Rebuild the stock lower engine on the bench",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "publication_status": "APPROVED",
+  "completeness": "Continuous bounded lower-engine route from prepared bench engine through case/crank/gearbox, primary and balance drives, coil-spring clutch, oil pump and starter-drive closure. Top-end assembly, bike refitting and commissioning remain separate.",
+  "applicability": {
+    "included": "Exact stock US 2022 YZ450F with serviceable retained cases and retained water-pump/stator/starter-motor internals.",
+    "excluded": [
+      "Pressed connecting-rod/crank internal rebuild",
+      "Damaged case-set replacement or machining",
+      "Water-pump, starter-motor or stator electrical internal rebuild",
+      "Failed retained push-lever bearings",
+      "Top-end removal/refit, engine/frame installation, fluid filling and running"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "affected_components": [
+    "engine",
+    "crankshaft",
+    "transmission",
+    "clutch",
+    "oil_pump"
+  ],
+  "entry_state": [
+    "Engine cold, removed, fully drained and securely supported.",
+    "Cams, head, cylinder and piston removed; all external interfaces disconnected and parts indexed."
+  ],
+  "exit_state": [
+    "Cases, lower drives, coil-spring clutch and side covers assembled; accepted gearbox/crank movement.",
+    "Top end remains removed; engine refitting, fluids and commissioning remain outstanding."
+  ],
+  "preflight": [
+    "Arrange exact 2022 top-end and bike-level closure before teardown.",
+    "Have the exact 2022 case-bearing, bolt-length, gear-stack, balance-timing and clutch diagrams available.",
+    "Resolve failed excluded retained assemblies before starting."
+  ],
+  "required_tools": [
+    {
+      "name": "Secure engine fixture, clean trays and chain-retaining wire"
+    },
+    {
+      "name": "Calibrated torque tools covering 5–80 Nm; hand sockets, holding spanner and circlip tools"
+    },
+    {
+      "name": "Rotor puller 90890-04151 / YM-04151; clutch holder 90890-04199 / YM-91042"
+    },
+    {
+      "name": "Crank separator 90890-04152 / YU-A9642; installer pot01274/bolt01275/M12adapter01278/spacer04081 and listed exact equivalents"
+    },
+    {
+      "name": "Parallel bearing press/drivers, depth gauge, soft hammer and aluminum gear-holding plate"
+    },
+    {
+      "name": "Dial gauge with centers, micrometer, flat plate, feeler gauge and caliper"
+    },
+    {
+      "name": "Mild solvent and controlled compressed air"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "Exact stock replacement assemblies/parts selected by inspection; eight-friction/seven-steel clutch and six springs"
+    },
+    {
+      "name": "New gaskets, O-rings, oil seals, circlips, three lockwashers and primary conical washer"
+    },
+    {
+      "name": "New oil filter and cover O-rings; radiator-pipe O-rings"
+    },
+    {
+      "name": "Engine oil; molybdenum-disulfide oil and grease; lithium-soap-based grease"
+    },
+    {
+      "name": "Yamaha/ThreeBond 1215 and LOCTITE locking agent at the specifically cited joints; exact OEM does not identify a LOCTITE grade"
+    }
+  ],
+  "critical_stop_conditions": [
+    "Failed retained case or excluded assembly.",
+    "Failed measurements, stiffness, incorrect timing or incomplete selector engagement.",
+    "Ambiguous part orientation, missing hardware, foreign material or forced assembly."
+  ],
+  "operation_dependencies": [],
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf",
+    "document_sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608",
+    "document_revision": "B2W-2819U-12 / LIT-11626-35-03; YZ450FN 2022",
+    "pdf_pages": [
+      21,
+      22,
+      90,
+      223,
+      224,
+      225,
+      226,
+      227,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260
+    ],
+    "printed_pages": [
+      "1-9",
+      "1-10",
+      "3-14",
+      "5-37",
+      "5-38",
+      "5-39",
+      "5-40",
+      "5-41",
+      "5-46",
+      "5-47",
+      "5-48",
+      "5-49",
+      "5-50",
+      "5-51",
+      "5-52",
+      "5-53",
+      "5-54",
+      "5-55",
+      "5-56",
+      "5-57",
+      "5-58",
+      "5-59",
+      "5-60",
+      "5-61",
+      "5-62",
+      "5-63",
+      "5-64",
+      "5-65",
+      "5-66",
+      "5-67",
+      "5-68",
+      "5-69",
+      "5-70",
+      "5-71",
+      "5-72",
+      "5-73",
+      "5-74"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Exact 2022 OEM text and critical exploded/assembly diagrams reviewed; independent review pending."
+  },
+  "steps": [
+    {
+      "id": "entry",
+      "title": "Accept the prepared lower engine",
+      "instruction": "Confirm this is the stock US 2022 YZ450F engine, cold, drained and securely supported off the bike. Cams, head, cylinder and piston are already removed and indexed; the chain is retained. External clutch cable, coolant, exhaust, electrical and drive connections are disconnected. This route retains sound cases, water-pump internals, starter motor and stator mountings. Resolve faults in those excluded assemblies before proceeding. Arrange exact top-end closure, engine refitting and commissioning separately.",
+      "source_pdf_pages": [
+        21,
+        223,
+        232,
+        249
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=21",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=223",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=232",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=249"
+      ],
+      "verification": [
+        "Record identity, drained condition, removed top end and retained-system condition."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "depends_on": [],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "generator-cover-out",
+      "title": "Open the generator side",
+      "instruction": "Remove the shift pedal if still fitted and the seven left-cover bolts, retaining the lead holder in its indexed position. Lift the cover with its stator and sensor mountings intact; collect both dowels and discard the gasket. Support the cover and leads without strain. Remove the rotor nut and washer, extract the rotor with 90890-04151 / YM-04151 and recover the Woodruff key. Do not strike the crankshaft or disturb the stator screws.",
+      "source_pdf_pages": [
+        223,
+        224
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=223",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=224"
+      ],
+      "verification": [
+        "Cover, dowels, key and rotor stored without lead or taper damage."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "entry"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "clutch-out",
+      "title": "Remove the coil-spring clutch pack",
+      "instruction": "Remove the clutch-cover bolts and cover, discarding its O-ring. Release the six spring bolts progressively across the pressure plate; collect springs, pressure plate, push rod 1, its bearing/washer/circlip, ball and push rod 2. Keep the eight friction and seven steel plates in their original order for inspection. ",
+      "source_pdf_pages": [
+        232,
+        233,
+        239
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=232",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=233",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=239"
+      ],
+      "verification": [
+        "Six springs and all release/plate parts indexed."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "generator-cover-out"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "boss-out",
+      "title": "Remove the clutch boss and basket",
+      "instruction": "Straighten the clutch-boss lockwasher tab. Hold the boss with 90890-04199 / YM-91042, remove the nut and discard the lockwasher. Remove the boss, thrust washer and primary driven gear/basket, preserving their orientation. Remove the push-lever shaft carefully from its seal and bearings.",
+      "source_pdf_pages": [
+        232,
+        233,
+        235
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=232",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=233",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=235"
+      ],
+      "verification": [
+        "Boss stack and push-lever shaft accounted for."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "clutch-out"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "right-cover-out",
+      "title": "Remove the right cover and filter",
+      "instruction": "Remove the oil-filter cover, filter and O-ring. Remove radiator pipe 2 from the right-cover interface and discard its O-ring. Remove the right-cover bolts and lift the cover without forcing the water-pump shaft drive. Keep the pump assembled to the cover. Recover the dowels and collar; discard the cover gasket and collar O-ring. Index the cover fasteners using the exploded view.",
+      "source_pdf_pages": [
+        90,
+        234
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=90",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=234"
+      ],
+      "verification": [
+        "Right cover, pipe, filter, dowels and collar removed and indexed."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "boss-out"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "starter-out",
+      "title": "Lift out the starter drive",
+      "instruction": "Remove the two starter-drive holder bolts, holder, washer and damper assembly. Lift out the starter-clutch assembly, keeping its drive gear, bearings, washer and dowels in the illustrated order. Keep the starter motor intact.",
+      "source_pdf_pages": [
+        226,
+        227
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=226",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=227"
+      ],
+      "verification": [
+        "All starter-drive spacers and bearings indexed to the exploded view."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "right-cover-out"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "shift-out",
+      "title": "Remove the external selector mechanism",
+      "instruction": "Remove the shift shaft with collar, spring and roller, then the shift guide and lever assembly. Keep both pawls, pins and springs indexed. Remove the stopper lever, collar and spring. To loosen the segment bolt, turn the segment counterclockwise to its stop; avoid impact on the segment or stopper lever. Remove the segment. Remove the shift-shaft seal for renewal without damaging the bore.",
+      "source_pdf_pages": [
+        240,
+        241,
+        242
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=240",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=241",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=242"
+      ],
+      "verification": [
+        "Selector pieces indexed; no impact damage."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "starter-out"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "drive-out",
+      "title": "Remove the primary and balancer drives",
+      "instruction": "Straighten the balancer and balancer-weight lockwasher tabs. Place an aluminum plate between the balancer drive and weight gear teeth at the illustrated contact. Loosen the balancer nut, primary-drive nut and balancer-weight-gear nut. Remove the balancer, straight key, primary gear, conical washer, drive gear and weight gear in the illustrated order. Discard both lockwashers and the conical washer. Keep the weight plate assembled to its gear.",
+      "source_pdf_pages": [
+        245,
+        246
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=245",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=246"
+      ],
+      "verification": [
+        "Key, gears and washer positions indexed; holding plate removed."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "shift-out"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "pump-out",
+      "title": "Remove and open the oil pump",
+      "instruction": "Remove the oil-pump assembly bolts. Lift out the pump, remove its cover bolt and separate cover, outer rotor, dowel pin, inner rotor and drive shaft. Keep the dowel pin contained and preserve all orientations.",
+      "source_pdf_pages": [
+        244,
+        246
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=244",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=246"
+      ],
+      "verification": [
+        "Pump components indexed and clean."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "drive-out"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "chain-out",
+      "title": "Assess the timing drive before selecting a crank",
+      "instruction": "Remove the timing-chain guide stopper plate, exhaust-side guide and chain. Check for chain stiffness and guide wear or damage. A stiff chain requires replacement of the camshaft sprocket, chain and crankshaft sprocket as a set; a damaged crank sprocket requires a complete crankshaft replacement. Record the matched timing-drive decision now and coordinate the necessary cam/sprocket work with top-end closure. Replace a damaged or worn guide.",
+      "source_pdf_pages": [
+        249,
+        251,
+        254
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=249",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=251",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=254"
+      ],
+      "verification": [
+        "Timing-chain/guide condition and any matched replacement requirements recorded before crank selection."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "pump-out"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "cases-open",
+      "title": "Separate the crankcase halves",
+      "instruction": "Index all twelve case bolts: five 45 mm, four 60 mm and three 75 mm at their exact map positions. Loosen each a quarter-turn at a time before removing them. Lay the engine left side down. Use only the designated splitting slit for a screwdriver tip, with light soft-hammer taps on reinforced splitting or mounting bosses. Lift the right case evenly, leaving crank and gearbox in the left. If separation resists, find the remaining bolt or fitting; do not force or strike a gasket surface. Collect dowels and any O-ring encountered.",
+      "source_pdf_pages": [
+        249,
+        251
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=249",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=251"
+      ],
+      "verification": [
+        "Cases separated evenly; fasteners and locating pieces accounted for."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "chain-out"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "transmission-out",
+      "title": "Remove the gearbox as an indexed group",
+      "instruction": "Record each fork location and direction. Remove both guide bars, all four springs, shift cam and the L/C/R forks. Remove main and drive axles together, lightly tapping the drive axle with a soft hammer if needed. Preserve the collar initially installed in the case. Keep every gear, washer and clip indexed before further disassembly.",
+      "source_pdf_pages": [
+        256,
+        257
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=256",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=257"
+      ],
+      "verification": [
+        "Fork and gear-stack orientations recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "cases-open"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "crank-out",
+      "title": "Remove the balancer shaft and crank",
+      "instruction": "Turn the balancer shaft so its flat faces the crank and remove it. Use separator 90890-04152 / YU-A9642 at the illustrated mounting positions to remove the crankshaft assembly. Support the case and do not drive the crank out with blows.",
+      "source_pdf_pages": [
+        253,
+        254
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=253",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=254"
+      ],
+      "verification": [
+        "Crank and balancer shaft removed without case damage."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "transmission-out"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "case-clean",
+      "title": "Clean and inspect the retained cases",
+      "instruction": "Remove the oil nozzle for cleaning and keep its direction indexed. Clean the cases with mild solvent and remove old gasket material without cutting the sealing faces. Inspect for cracks or damage; this route requires sound retained cases. Clear blocked oil passages with controlled compressed air, never spinning bearings with air. Remove solvent and loose debris and dry the cases before assembly.",
+      "source_pdf_pages": [
+        21,
+        22,
+        250,
+        251
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=21",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=22",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=250",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=251"
+      ],
+      "verification": [
+        "Case condition and clear, dry oil passages accepted."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "crank-out"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "bearings",
+      "title": "Renew case bearings where required",
+      "instruction": "Inspect the case bearings for damaged or rough operation. For renewal, remove the exact retainers shown, press the old bearing out through its inner race and discard it. Install the correct new bearing parallel by pressing its outer race, with manufacturer markings outward; lubricate the illustrated bearings with engine oil. Fit the exact retainer to each position: crankshaft bearing plates 22 Nm with LOCTITE, other bearing plates 12 Nm with LOCTITE; the separate illustrated upper collar holder is 10 Nm with LOCTITE. Preserve the distinct plate and bolt locations.",
+      "source_pdf_pages": [
+        21,
+        22,
+        250,
+        251,
+        252
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=21",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=22",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=250",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=251",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=252"
+      ],
+      "verification": [
+        "Record renewed bearings, seating and retainer torques against the case diagram."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "case-clean"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "case-seals",
+      "title": "Fit the crankcase seals and collars",
+      "instruction": "Install new case seals with LS grease at the illustrated lips and new circlips where removed. Keep the main seal lip toward the oil chamber and marked faces outward unless a dedicated instruction states otherwise. Set the left drive-axle seal at the illustrated 0.0–0.5 mm depth. Preserve the upper seal, collar and circlip stack shown in the case exploded view; do not transfer later-model flush or fixed-depth dimensions.",
+      "source_pdf_pages": [
+        21,
+        22,
+        250,
+        252
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=21",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=22",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=250",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=252"
+      ],
+      "verification": [
+        "Record left seal depth and confirm both seal/retainer stacks."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "bearings"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "crank-check",
+      "title": "Measure the crank assembly",
+      "instruction": "Turn the supported crank slowly and measure runout at the illustrated points; limit 0.030 mm. Measure assembly width at the illustrated faces; required range 61.93–62.00 mm. Replace the complete crank if either fails or its sprocket is damaged. Clear a blocked journal oil passage with compressed air, then remove contamination. This route does not press apart or rebuild the connecting rod.",
+      "source_pdf_pages": [
+        254
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=254"
+      ],
+      "verification": [
+        "Actual runout, width, sprocket condition and crank disposition recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "case-seals"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "gearbox-check",
+      "title": "Inspect shafts, gears and selector parts",
+      "instruction": "Measure main- and drive-axle runout using centers and a dial gauge; limit 0.08 mm for each. Replace gears with blue discoloration, pitting, wear, damaged or rounded dogs, or rough movement. Replace forks with bent, scored or worn followers/pawls. Roll guide bars on a flat surface; replace bent bars without straightening. Rough fork movement requires fork and bar replacement as a set. Replace a damaged or worn shift drum/segment assembly.",
+      "source_pdf_pages": [
+        257,
+        258
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=257",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=258"
+      ],
+      "verification": [
+        "Shaft readings and each failed part/replacement decision recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "crank-check"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "main-build",
+      "title": "Build the main-axle stack",
+      "instruction": "Follow the exact exploded view for all washers and new circlips. On the main axle install fifth pinion 21T, third pinion 20T, collar, fourth pinion 22T and second pinion 15T in the illustrated order. Apply molybdenum-disulfide oil to idler-gear inner/end surfaces and sliding-gear inner surfaces. Set new circlip sharp corners away from the adjacent washer/gear, with both ends evenly on spline crests; do not over-expand clips.",
+      "source_pdf_pages": [
+        22,
+        256,
+        258,
+        259
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=22",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=256",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=258",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=259"
+      ],
+      "verification": [
+        "Exact 2022 main-axle stack and each new clip seated."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "gearbox-check"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "drive-build",
+      "title": "Build the drive-axle stack",
+      "instruction": "Install the collar, second wheel 23T, fourth wheel 24T, third wheel 26T, fifth wheel 20T, collar and first wheel 27T on the drive axle using the exploded washer/clip positions. Apply molybdenum-disulfide oil to idler/collar inner and end faces and sliding-gear inner faces. Fit a new drive-axle O-ring with LS grease. Use new circlips with the same sharp-edge and spline-crest orientation just checked.",
+      "source_pdf_pages": [
+        22,
+        256,
+        258,
+        259
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=22",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=256",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=258",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=259"
+      ],
+      "verification": [
+        "Exact drive-axle stack, new O-ring and clips seated."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "main-build"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "crank-in",
+      "title": "Install the accepted crank and balancer shaft",
+      "instruction": "Apply LS grease to seal lips and molybdenum-disulfide grease at the illustrated crank location. Draw the crank into the left bearing using pot 90890-01274 / YU-90058, bolt 90890-01275 / YU-90060, M12 adapter 90890-01278 / YU-90063 and spacer 90890-04081 / YM-91044. Hold the rod at TDC while turning the installer until the crank bottoms against the bearing. Refit the balancer shaft with its flat toward the crank for clearance; do not force it.",
+      "source_pdf_pages": [
+        253,
+        254,
+        255
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=253",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=254",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=255"
+      ],
+      "verification": [
+        "Crank fully seated with free movement and balancer shaft in position."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "drive-build"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "transmission-in",
+      "title": "Fit the gearbox and forks",
+      "instruction": "LS-grease the case seal lip and install its collar with slit toward the crankcase, protecting the lip. Oil the main/drive axle bearings and fit both shafts into the left case together. Oil fork grooves, shift-cam grooves and bearing-contact surface. Fit fork L to the fourth wheel, fork R to the fifth wheel and fork C to the third pinion; engage their followers with the shift cam as illustrated.",
+      "source_pdf_pages": [
+        256,
+        259,
+        260
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=256",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=259",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=260"
+      ],
+      "verification": [
+        "L/C/R engagement and collar slit match the exact diagram."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "crank-in"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "shift-bars-in",
+      "title": "Check the assembled gearbox",
+      "instruction": "Lightly screw each of the four springs into its guide-bar end beforehand. Oil both guide bars and install long and short bars at their exact positions. Operate the shift cam, forks and transmission through the gear positions. Correct rough or incomplete operation before closing the cases.",
+      "source_pdf_pages": [
+        256,
+        260
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=256",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=260"
+      ],
+      "verification": [
+        "Actual selector and gearbox movement accepted and recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "transmission-in"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "cases-close",
+      "title": "Seal and close the crankcase",
+      "instruction": "Fit the oil nozzle in its indexed orientation and tighten its bolt to 10 Nm with LOCTITE. Confirm no tools, rags, solvent or debris remain. Apply Yamaha/ThreeBond 1215 to the illustrated mating path. Install dowels and fit the right half with the rod at TDC, using only light soft-hammer taps. Restore all five 45 mm, four 60 mm and three 75 mm bolts to the exact map. Tighten in a crisscross pattern in two stages with quarter-turn increments to 12 Nm. Confirm crank and gearbox still move freely.",
+      "source_pdf_pages": [
+        249,
+        252
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=249",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=252"
+      ],
+      "verification": [
+        "Case fastener map, 12 Nm closure, nozzle 10 Nm LT and free movement recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "shift-bars-in"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "chain-in",
+      "title": "Restore the accepted timing chain",
+      "instruction": "Install the accepted or matched replacement chain and exhaust guide. Fit the guide stopper plate with LOCTITE and tighten to 10 Nm. Retain the chain above the open cylinder mouth so it cannot fall or jam. Carry any matched cam/sprocket replacement requirement into top-end work.",
+      "source_pdf_pages": [
+        249,
+        251,
+        254
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=249",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=251",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=254"
+      ],
+      "verification": [
+        "Chain retained and matched-drive disposition carried forward."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "cases-close"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "pump-build",
+      "title": "Inspect and rebuild the oil pump",
+      "instruction": "Inspect pump cover, drive shaft and housing for cracks, wear or damage; replace the complete pump for defects. Oil the shaft and inner rotor, seat the dowel in the inner-rotor groove, then fit the oiled outer rotor. Install the cover bolt at 6 Nm with LOCTITE, then the pump assembly bolts at 5 Nm with LOCTITE. Confirm smooth pump movement after tightening; a rough pump requires reassessment or assembly replacement.",
+      "source_pdf_pages": [
+        244,
+        246,
+        247
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=244",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=246",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=247"
+      ],
+      "verification": [
+        "Pump condition and final smooth operation recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "chain-in"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "drives-check",
+      "title": "Accept the primary and balance drives",
+      "instruction": "Inspect primary drive and driven gears for damage, wear, prior excessive noise and mutual free play. Failure of either primary gear, excess noise or free play requires both primary gears as a set. Separately replace worn/damaged balance gears and a cracked/damaged balancer. Keep a sound balance-weight plate attached to its gear.",
+      "source_pdf_pages": [
+        236,
+        246
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=236",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=246"
+      ],
+      "verification": [
+        "Primary pair and balance-drive dispositions recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "pump-build"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "balance-marks",
+      "title": "Time the balance gears",
+      "instruction": "Align the lower splines of the balancer weight gear and shaft. Fit the balancer drive gear with its lower spline aligned to the crankshaft lower spline, while matching the punched marks of both gears. Use the two detailed views to distinguish spline alignment from the gear-tooth timing marks.",
+      "source_pdf_pages": [
+        247
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=247"
+      ],
+      "verification": [
+        "Both lower-spline alignments and punched timing marks recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "drives-check"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "drive-nuts",
+      "title": "Secure the primary and balance drives",
+      "instruction": "Fit a new balance-weight lockwasher and its nut. Fit the primary gear, new conical washer with convex face outward, and primary nut. Fit the straight key, balancer and its new lockwasher/nut. Oil primary-nut threads/contact face and both conical-washer contact faces. Hold the gears only with the illustrated aluminum plate. Tighten weight-gear nut 50 Nm, primary nut 80 Nm and balancer nut 45 Nm. Bend the lockwasher tabs against nut flats and remove the holding plate.",
+      "source_pdf_pages": [
+        22,
+        245,
+        248
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=22",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=245",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=248"
+      ],
+      "verification": [
+        "50/80/45 Nm, oil preparation, new washer directions and locked tabs recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "balance-marks"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "shift-restore",
+      "title": "Rebuild the selector mechanism",
+      "instruction": "Check shaft, spring, roller, guide, lever, pawls/pins and springs for bends, damage or wear and renew failed parts. Install stopper spring, collar and lever; tighten its bolt to 10 Nm with LOCTITE. Align segment notch to drum pin and install while pushing the stopper lever down; tighten segment bolt to 30 Nm without impact. Oil pawls, pins and springs, assemble them into the lever and fit lever/guide together. Tighten guide bolts to 10 Nm with LOCTITE.",
+      "source_pdf_pages": [
+        240,
+        241,
+        242
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=240",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=241",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=242"
+      ],
+      "verification": [
+        "Selector condition and 10 LT/30/10 LT fastenings accepted."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "drive-nuts"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "shift-shaft",
+      "title": "Refit the selector shaft and seal",
+      "instruction": "Fit the roller, shaft spring and collar, oil the shift shaft and slide it into position. Install a new shift-shaft seal with LS grease on its lip, using the exact seal direction and general marked-face rule. Align pedal and shaft punch marks when refitting the pedal and tighten its bolt to 12 Nm. Confirm selection works freely.",
+      "source_pdf_pages": [
+        21,
+        22,
+        240,
+        242,
+        243
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=21",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=22",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=240",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=242",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=243"
+      ],
+      "verification": [
+        "Shaft/seal and punch marks correct; 12 Nm pedal closure."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "shift-restore"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "starter-check",
+      "title": "Inspect and refit the starter drive",
+      "instruction": "Inspect the starter clutch and drive gear for burrs, chips, roughness or wear and its gear for damage or pitting; renew the failed assembly. Viewed exactly as the operation diagram, the drive gear must turn freely counterclockwise and engage the clutch clockwise. Oil bearings before installation. Restore the indexed assembly, bearings, washers, damper, dowels and holder from the exploded view; holder bolts 12 Nm with LOCTITE. Do not omit the washer behind the holder.",
+      "source_pdf_pages": [
+        21,
+        226,
+        227
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=21",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=226",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=227"
+      ],
+      "verification": [
+        "Directional test, part disposition and holder closure recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "shift-shaft"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "release-inspect",
+      "title": "Inspect the mechanical clutch release",
+      "instruction": "Check push-lever shaft, both push rods, bearing, washer and ball for wear, cracks or damage. Measure push rod 2 bending; limit 0.10 mm. Renew failed parts. This route retains sound push-lever bearings; failed bearings require their separate supported repair before closure. Keep the accepted release-shaft bearings and seal protected. Remove the separate right-cover internal oil seal, washer and circlip for renewal as illustrated.",
+      "source_pdf_pages": [
+        235,
+        236,
+        237
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=235",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=236",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=237"
+      ],
+      "verification": [
+        "Release-part condition and push-rod bending recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "starter-check"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "release-seal",
+      "title": "Renew the right-cover internal oil seal",
+      "instruction": "Fit a new right-cover internal oil seal parallel with its manufacturer marks or numbers facing inward, overriding the general outward-mark rule at this particular seal. Apply LS grease to its lip, then install the washer and a new circlip fully in its groove.",
+      "source_pdf_pages": [
+        22,
+        234,
+        236,
+        237
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=22",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=234",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=236",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=237"
+      ],
+      "verification": [
+        "Seal inward-mark orientation, washer and new circlip seated."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "release-inspect"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "right-cover-in",
+      "title": "Close the right crankcase cover",
+      "instruction": "Fit the dowels, new LS-greased collar O-ring, collar and new gasket. Oil the water-pump impeller-shaft end and align it with the balancer end slot before seating the cover. Do not pull a misaligned shaft home with bolts. Restore the right-cover bolts and tighten progressively across the cover to 10 Nm. Oil both push-lever bearings and LS-grease its seal lip before refitting the shaft.",
+      "source_pdf_pages": [
+        234,
+        237
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=234",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=237"
+      ],
+      "verification": [
+        "Pump drive aligned and cover seated before 10 Nm tightening."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "release-seal"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "pipe-filter",
+      "title": "Refit the coolant pipe and oil filter",
+      "instruction": "Fit radiator pipe 2 with a new O-ring lubricated with LS grease, following the illustrated joint orientation; tighten the joint bolt to 10 Nm. Install a new oil filter and a new LS-greased cover O-ring, then the filter cover at 10 Nm. Keep oil and coolant unfilled at this bench stage.",
+      "source_pdf_pages": [
+        90,
+        234
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=90",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=234"
+      ],
+      "verification": [
+        "Pipe and filter sealed with new O-rings; both closures 10 Nm."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "right-cover-in"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "clutch-inspect",
+      "title": "Measure the coil-spring clutch",
+      "instruction": "Measure every friction plate at four points: nominal 2.92–3.08 mm, wear limit 2.82 mm. Damage or wear requires the friction set replaced. Check steel plates for damage and flat-plate/feeler-gauge warpage; limit 0.10 mm, replacing the steel set if failed. Measure all six springs: standard 48.00 mm, minimum 45.60 mm; replace the spring set for damage or failed length. Inspect boss splines, housing dogs and pressure plate. Replace a damaged pressure plate or boss; renew a worn/damaged housing as needed rather than using an unspecified deburring allowance.",
+      "source_pdf_pages": [
+        235,
+        236
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=235",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=236"
+      ],
+      "verification": [
+        "Plate measurements, warpage, spring lengths and part decisions recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "pipe-filter"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "clutch-base",
+      "title": "Install the clutch basket and boss",
+      "instruction": "Oil the primary driven gear/basket inner circumference. Fit it, the thrust washer and clutch boss in the illustrated order. Fit a new lockwasher with its notch engaged with the boss rib.",
+      "source_pdf_pages": [
+        232,
+        233,
+        237
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=232",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=233",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=237"
+      ],
+      "verification": [
+        "Basket, thrust washer, boss and new notched lockwasher correctly seated."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "clutch-inspect"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "clutch-nut",
+      "title": "Secure the clutch boss",
+      "instruction": "Oil the clutch-boss nut threads and contact surface. Hold the boss with 90890-04199 / YM-91042 and tighten the nut to 75 Nm. Bend the new lockwasher tab firmly along a nut flat. ",
+      "source_pdf_pages": [
+        232,
+        238
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=232",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=238"
+      ],
+      "verification": [
+        "Actual 75 Nm, oil preparation and bent locking tab recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "clutch-base"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "clutch-pack",
+      "title": "Install the exact friction-plate order",
+      "instruction": "Oil every friction and steel plate. Working outward from the boss, alternate frictions and steels: three black type-1 frictions, then three purple type-2 frictions, then two black type-1 frictions. Seven steel plates sit between the eight frictions, beginning and ending the pack with friction plates. Confirm identification colors and order against the exploded view.",
+      "source_pdf_pages": [
+        232,
+        238
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=232",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=238"
+      ],
+      "verification": [
+        "Five black plus three purple frictions and seven steels correctly alternated."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "clutch-nut"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "pressure-plate",
+      "title": "Restore the release rods and six springs",
+      "instruction": "Oil and assemble push rod 1, its bearing and washer with a new circlip. Oil push rod 2 and ball; fit rod 2, ball and rod 1 in the illustrated order. Fit the pressure plate and six accepted springs. Tighten spring bolts progressively in a crisscross pattern to 10 Nm. ",
+      "source_pdf_pages": [
+        22,
+        232,
+        238,
+        239
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=22",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=232",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=238",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=239"
+      ],
+      "verification": [
+        "Ball, both rods, new circlip, six springs and 10 Nm closure confirmed."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "clutch-pack"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "clutch-cover",
+      "title": "Close the clutch cover",
+      "instruction": "Fit a new clutch-cover O-ring with LS grease, seat the cover and tighten its bolts progressively in a crisscross pattern to 10 Nm.",
+      "source_pdf_pages": [
+        232,
+        239
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=232",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=239"
+      ],
+      "verification": [
+        "New lubricated O-ring and 10 Nm cover closure."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "pressure-plate"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "rotor-in",
+      "title": "Inspect and refit the rotor",
+      "instruction": "Inspect rotor inner and stator outer surfaces. Contact damage requires crank-runout and bearing reassessment before proceeding. Replace a damaged key. Clean both mating tapers, install the key with its flat parallel to the crank centerline, then align the rotor keyway to it. Fit washer and nut, tightening to 65 Nm using the illustrated holding flats. Keep intact stator and sensor screws undisturbed.",
+      "source_pdf_pages": [
+        223,
+        224,
+        225
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=223",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=224",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=225"
+      ],
+      "verification": [
+        "Rotor clearance, key alignment and 65 Nm recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "clutch-cover"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "generator-cover-in",
+      "title": "Close the generator cover",
+      "instruction": "Install both dowels and a new left-cover gasket. Fit the supported cover with intact stator and sensor mountings, protecting the leads and restoring the external lead holder at its illustrated bolt position. Tighten the seven cover bolts in stages and a crisscross pattern to 10 Nm. Leave bike-level coupler routing to the exact engine-refit procedure.",
+      "source_pdf_pages": [
+        223,
+        225
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=223",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=225"
+      ],
+      "verification": [
+        "New gasket, dowels, lead holder and 10 Nm closure confirmed."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "rotor-in"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    },
+    {
+      "id": "exit",
+      "title": "Record the lower-engine handoff",
+      "instruction": "Record the accepted crank, gearbox, clutch, pump and starter-drive work. Confirm free crank/gearbox movement and account for all tools, holding plates and loose parts. The timing chain remains retained above the open cylinder mouth. Continue the exact 2022 top-end installation, then engine refitting and post-rebuild commissioning; carry any matched cam/chain/crank replacement requirements forward. Do not run this unfilled, open-top-end engine.",
+      "source_pdf_pages": [
+        249,
+        252,
+        260
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=249",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=252",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=260"
+      ],
+      "verification": [
+        "Lower-engine work and outstanding top-end, fluids, oil-flow checks and commissioning recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "depends_on": [
+        "generator-cover-in"
+      ],
+      "origin": "Original authored summary of exact US 2022 OEM procedure and diagrams; no year inheritance."
+    }
+  ]
+}

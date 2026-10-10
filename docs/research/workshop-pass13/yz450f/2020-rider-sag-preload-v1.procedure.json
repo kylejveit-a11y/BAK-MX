@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2020-yz450f-rider-sag-measurement-v1",
+  "title": "Measure rider sag on the assembled bike",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2020,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "publication_status": "APPROVED",
+  "component": "shock",
+  "affected_components": [
+    "shock",
+    "suspension"
+  ],
+  "applicability": {
+    "included": "Exact standard US 2020 Yamaha YZ450F with original stock suspension.",
+    "excluded": [
+      "Other model-years, markets or variants",
+      "Changed springs, revalving or replacement suspension",
+      "Internal suspension rebuilding",
+      "Spring preload adjustment requiring rear-frame removal; not included in this guide"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "entry_state": [
+    "Assembled bike with identified, serviceable stock suspension."
+  ],
+  "exit_state": [
+    "Assembled bike, measured rider sag recorded; preload unchanged."
+  ],
+  "preflight": [
+    "Identify the exact bike and stock components. Save starting settings."
+  ],
+  "critical_stop_conditions": [
+    "Leaks, binding or damage",
+    "Unidentified adjuster or inability to reach a setting without force"
+  ],
+  "required_tools": [
+    {
+      "name": "Stable maintenance stand and helper"
+    },
+    {
+      "name": "Length measuring tool"
+    }
+  ],
+  "required_parts": [],
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-28199-10_02.pdf",
+    "document_sha256": "ee1b8c9747c089fe345097dc16955d7fa30e005a1c77b6d81e919d6ee3f6080e",
+    "document_revision": "B2W-28199-10",
+    "pdf_pages": [
+      1,
+      4,
+      105,
+      106,
+      352,
+      353
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Root author/source review and independent year_groups_research review accepted bounded setup. 2020 copyright locator corrected to4; no mechanical changes after review.",
+    "printed_pages": [
+      "PDF 1: front matter",
+      "PDF 4: front matter",
+      "PDF 105: 3-29",
+      "PDF 106: 3-30",
+      "PDF 352: 10-3",
+      "PDF 353: 10-4"
+    ]
+  },
+  "steps": [
+    {
+      "id": "inspect",
+      "title": "Check the shock and access",
+      "instruction": "Check the shock and linkage for leaks, damage or binding before measuring. Correct faults before evaluating spring setup. No bodywork or suspension parts are removed in this measurement guide.",
+      "depends_on": [],
+      "source_pdf_pages": [
+        105,
+        106
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-28199-10_02.pdf#page=105",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-28199-10_02.pdf#page=106"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record the actual setting or measurement and confirm this step is complete."
+      ],
+      "record_required": true
+    },
+    {
+      "id": "unloaded",
+      "title": "Measure fully extended length",
+      "instruction": "Securely raise the rear wheel clear of the ground. Measure A from the rear axle center to the rear fender holding bolt; record the two exact measuring points and length.",
+      "depends_on": [
+        "inspect"
+      ],
+      "source_pdf_pages": [
+        352
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-28199-10_02.pdf#page=352"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record the actual setting or measurement and confirm this step is complete."
+      ],
+      "record_required": true
+    },
+    {
+      "id": "loaded",
+      "title": "Measure rider-loaded length",
+      "instruction": "Remove the stand and have a helper balance the bike while the rider sits astride the seat. Measure B between the same axle center and rear fender holding bolt. Record B and calculate rider sag as A minus B; the manual target is 90–100 mm.",
+      "depends_on": [
+        "unloaded"
+      ],
+      "source_pdf_pages": [
+        352
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-28199-10_02.pdf#page=352"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record the actual setting or measurement and confirm this step is complete."
+      ],
+      "record_required": true
+    },
+    {
+      "id": "record-result",
+      "title": "Record the result and next action",
+      "instruction": "Record A, B and rider sag. A value outside 90–100 mm needs a separate spring-preload service: the exact 2020 procedure requires rear-frame removal and refit before adjustment. Keep the assembled bike intact here; no spring rings are loosened in this measurement guide. Recheck after break-in or spring settling.",
+      "depends_on": [
+        "loaded"
+      ],
+      "source_pdf_pages": [
+        105,
+        106,
+        352,
+        353
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-28199-10_02.pdf#page=105",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-28199-10_02.pdf#page=106",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-28199-10_02.pdf#page=352",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-28199-10_02.pdf#page=353"
+      ],
+      "diagram_reference_required": true,
+      "verification": [
+        "Record the measured sag and whether adjustment is required."
+      ],
+      "record_required": true
+    }
+  ],
+  "completeness": "Assembled-bike rider sag measurement only; spring adjustment requires separate access service."
+}

@@ -1,0 +1,2806 @@
+{
+  "schema_version": 1,
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "publication_status": "LOCAL_REVIEWED_NOT_IMPORTED",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      38,
+      39,
+      40,
+      57,
+      58,
+      59,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      90,
+      91,
+      96,
+      97,
+      98,
+      99,
+      101,
+      106,
+      107,
+      111,
+      112,
+      113,
+      114,
+      115,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      131,
+      132,
+      133,
+      134,
+      136,
+      137,
+      138,
+      143,
+      144,
+      146,
+      150,
+      152,
+      153,
+      161,
+      162,
+      163,
+      164,
+      167,
+      169,
+      170,
+      171,
+      177,
+      178,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      187,
+      188,
+      189,
+      190,
+      191,
+      194,
+      195,
+      196,
+      197,
+      198,
+      206,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      222,
+      245,
+      254,
+      257,
+      262,
+      263,
+      264,
+      267,
+      268,
+      296,
+      297,
+      298,
+      299,
+      306,
+      307,
+      308,
+      309,
+      310,
+      312,
+      313,
+      314
+    ],
+    "printed_pages": [
+      "See exact PDF page links at each step"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Text and assembly diagrams visually checked for this bounded operation; no generalization to other years or modified parts."
+  },
+  "id": "yamaha-2026-yz450f-frame-strip-reassemble-v1",
+  "title": "Strip and reassemble the stock chassis",
+  "completeness": "Complete source-based strip to the serviceable main frame with pressed steering races/bonded pads retained, and reassembly of stock connected assemblies. Includes coordinated engine/swingarm pivot, wheels/linkage/steering, rear frame, radiators, brackets and harness routing. Engine/suspension internals and structural repair are separate. Intact control/hydraulic assembly retention requires unobstructed stock routing and adequate independent supports.",
+  "applicability": {
+    "included": "Exact stock 2026 US standard YZ450F; original serviceable assemblies unless explicitly replaced below",
+    "excluded": [
+      "Other years/models and non-stock assemblies",
+      "Frame repair/welding/straightening",
+      "Structural frame repair, welding, paint stripping or alignment correction",
+      "Pressed steering-race removal",
+      "Internal engine/fork/shock rebuild",
+      "Modified harness, intake or hydraulic routing that prevents intact assembly removal",
+      "Hydraulic joint opening or cable-end detachment"
+    ]
+  },
+  "prerequisites": [
+    "Match the exact bike and installed stock parts. Have the complete cited diagrams available.",
+    "Stable maintenance stand and support suitable for changing weight distribution; clean labeled parts storage."
+  ],
+  "required_tools": [
+    {
+      "name": "Stable chassis stand plus independent engine/swingarm/component supports and helper",
+      "spec": null
+    },
+    {
+      "name": "Source-specified steering nut and fork cap ring tools",
+      "spec": null
+    },
+    {
+      "name": "Calibrated torque tools covering1.5–145 N·m and appropriate axle/pivot/sprocket tools",
+      "spec": null
+    },
+    {
+      "name": "Radiator pressure tester90890-01325/YU-24460-A and adapter90890-01352/YU-33984",
+      "spec": null
+    },
+    {
+      "name": "Fluid catch/measure containers, fuel-safe transfer equipment, port covers and labeled storage",
+      "spec": null
+    },
+    {
+      "name": "Molybdenum-disulfide, lithium-soap, silicone greases and source-specified LOCTITE",
+      "spec": null
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "New engine-oil drain gaskets and filler-cap O-ring",
+      "purpose": "Both drains and filler disturbed."
+    },
+    {
+      "name": "New coolant-drain washer and exact recommended coolant",
+      "purpose": "Cooling drain/refill."
+    },
+    {
+      "name": "New exact clutch-release mounting O-ring",
+      "purpose": "Intact release-cylinder mount removed."
+    },
+    {
+      "name": "New exact sprocket lock washer and stock-chain joint clip",
+      "purpose": "OEM one-use locking parts."
+    },
+    {
+      "name": "New exhaust header/joint seals specified by the inlined exhaust operation",
+      "purpose": "Disturbed exhaust interfaces."
+    },
+    {
+      "name": "Engine oil matched to actual assembly condition",
+      "purpose": "Recorded refill and level/flow verification."
+    },
+    {
+      "name": "New upper-chain-tensioner retaining pin",
+      "purpose": "Rear-frame bolt removal disturbs the OEM one-use pin."
+    },
+    {
+      "name": "Replacement original-type harness ties",
+      "purpose": "Restore every released tape-position/routing clamp."
+    }
+  ],
+  "critical_stop_conditions": [
+    "Unstable support, bent/cracked parts, damaged fasteners or unknown assembly order.",
+    "Binding, leaks, missing hardware or abnormal brake/control function remains an unresolved fault."
+  ],
+  "steps": [
+    {
+      "id": "engine-initial-record",
+      "title": "Record the engine and job condition",
+      "instruction": "Record the exact stock engine identity, running condition and reason for removal. Photograph hose, electrical and bracket routing before access. Prepare an independently supported engine bench and a controlled lift with a helper; this guide removes/installs the assembly and does not repair its internals.",
+      "source_pdf_pages": [
+        90,
+        91,
+        211
+      ],
+      "verification": [
+        "Engine identity, fault and lift/support plan recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": []
+    },
+    {
+      "id": "engine-oil-drain",
+      "title": "Drain the engine oil before lifting",
+      "instruction": "For a normally running engine, follow the oil-change warm-up then stop the engine; do not run a faulted engine solely to warm oil. Stand the bike upright, place drain containers and remove the filler cap and both oil drain bolts. Drain tank and crankcase. Leave the oil filter unchanged unless separately serviced. Install new drain-bolt gaskets: tank bolt 10 NÂ·m, crankcase bolt 20 NÂ·m. Mark the engine empty of oil.",
+      "source_pdf_pages": [
+        98,
+        99
+      ],
+      "verification": [
+        "Oil drained; two new gaskets; tank 10/crankcase 20 NÂ·m; engine marked empty."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=98",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=99"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "engine-initial-record"
+      ]
+    },
+    {
+      "id": "engine-access-prepare",
+      "title": "Prepare the bike",
+      "instruction": "Stop the engine, let it cool and support the bike. Clean the intake and fuel work area. Keep dirt out of open joints and fuel work away from ignition sources.",
+      "depends_on": [
+        "engine-oil-drain"
+      ],
+      "source_pdf_pages": [
+        91,
+        307
+      ],
+      "verification": [
+        "Cold engine; stable bike; clean work area; parts/tools ready."
+      ],
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": false
+    },
+    {
+      "id": "engine-access-subseat",
+      "title": "Open the sub-seat",
+      "instruction": "Release its quick fastener and lift the sub-seat first; it is tethered to the main seat. Open the fuel cap and transfer the tank fuel with a fuel-safe pump into a suitable container, then secure the cap.",
+      "depends_on": [
+        "engine-access-prepare"
+      ],
+      "source_pdf_pages": [
+        38,
+        126,
+        307
+      ],
+      "verification": [
+        "Sub-seat tether not strained; fuel contained."
+      ],
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": false
+    },
+    {
+      "id": "engine-access-body",
+      "title": "Remove access panels",
+      "instruction": "Remove the main-seat bolts and slide the seat rearward. Remove the left/right side covers, keeping their bolts and collars labeled. Slide the right cover out of its upper and lower locating slots instead of pulling the tabs apart.",
+      "depends_on": [
+        "engine-access-subseat"
+      ],
+      "source_pdf_pages": [
+        123,
+        124,
+        126,
+        127
+      ],
+      "verification": [
+        "Seat and two side covers removed; hardware locations retained."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=123",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=124",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=126",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=127"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": false
+    },
+    {
+      "id": "engine-isolate",
+      "title": "Isolate the battery",
+      "instruction": "With the engine stopped, disconnect the negative battery lead first, then the positive lead. Insulate the loose terminals. Retain the battery and relay in place unless separate frame work requires removal; no starter action is allowed during the work.",
+      "source_pdf_pages": [
+        123
+      ],
+      "verification": [
+        "Negative then positive disconnected and insulated."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=123"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "engine-access-body"
+      ]
+    },
+    {
+      "id": "engine-access-shrouds",
+      "title": "Expose the tank",
+      "instruction": "Release the air-filter-case cover ribs by pressing the duct sides inward and lifting the rear; slide the cover rearward to release the front projection. Leave the filter installed. Remove the left/right shroud bolts and shrouds, retaining their collars.",
+      "depends_on": [
+        "engine-isolate"
+      ],
+      "source_pdf_pages": [
+        101,
+        125,
+        126
+      ],
+      "verification": [
+        "Air-filter-case cover and shrouds removed; filter undisturbed."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=101",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=125",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=126"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": false
+    },
+    {
+      "id": "engine-access-tank-disconnect",
+      "title": "Disconnect the tank",
+      "instruction": "Unplug the fuel-pump connector. Put cloths below and around the fuel-hose joint for residual pressure. Slide the connector cover back, press its two release buttons, and separate the joint by hand. Fit the supplied joint covers immediately to both openings.",
+      "depends_on": [
+        "engine-access-shrouds"
+      ],
+      "source_pdf_pages": [
+        306,
+        307
+      ],
+      "verification": [
+        "Pump disconnected; both fuel openings capped; no forced hose tools."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=306",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=307"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": false
+    },
+    {
+      "id": "engine-access-tank-remove",
+      "title": "Lift the tank clear",
+      "instruction": "Remove the tank mounting fasteners, retaining the collars/dampers in their original locations, and lift the tank away. Support it so its weight does not rest on the fuel-pump mounting surface. Leave the pump installed in the tank.",
+      "depends_on": [
+        "engine-access-tank-disconnect"
+      ],
+      "source_pdf_pages": [
+        306,
+        307
+      ],
+      "verification": [
+        "Tank supported; mounts accounted for; pump untouched."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=306",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=307"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": false
+    },
+    {
+      "id": "engine-access-case-release",
+      "title": "Release the intact case",
+      "instruction": "Disconnect the intake-air-temperature-sensor coupler by its connector latch. Loosen the air-filter-case joint clamp screw and remove the three case mounting bolts, retaining their collars, washers and dampers at the original locations. Keep the filter, temperature sensor and case assembly bracket attached to the case.",
+      "source_pdf_pages": [
+        57,
+        309,
+        310
+      ],
+      "verification": [
+        "Sensor coupler disconnected; three mounting sets retained; case internals attached."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=57",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=309",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=310"
+      ],
+      "record_required": false,
+      "depends_on": [
+        "engine-access-tank-remove"
+      ],
+      "origin": "Original source-based bounded summary; part logging and clean-joint protection are workflow adaptations."
+    },
+    {
+      "id": "engine-access-case-remove",
+      "title": "Lift off and protect the intake",
+      "instruction": "Lift the case clear of its seated intake connection without loading the remaining throttle body. Protect the exposed throttle-body inlet from dirt. Keep the case clean and inspect the joint and mounting supports for visible damage. Do not push the throttle valve, loosen sensor screws or move the cables.",
+      "source_pdf_pages": [
+        309,
+        310,
+        312
+      ],
+      "verification": [
+        "Intact case removed; clean inlet protected; throttle and sensors undisturbed."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=309",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=310",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=312"
+      ],
+      "record_required": false,
+      "depends_on": [
+        "engine-access-case-release"
+      ],
+      "origin": "Original source-based bounded summary; part logging and clean-joint protection are workflow adaptations."
+    },
+    {
+      "id": "engine-exhaust-silencer-remove",
+      "title": "Remove the complete silencer",
+      "instruction": "Support the silencer. Loosen its joint clamp, remove its two mounting bolts and lift the complete silencer off its joint. Keep the silencer body, end cap and packing assembled.",
+      "depends_on": [
+        "engine-access-case-remove"
+      ],
+      "source_pdf_pages": [
+        206
+      ],
+      "verification": [
+        "Complete silencer supported and removed; internals untouched."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=206"
+      ],
+      "record_required": false,
+      "origin": "Original source-based summary with support and logging workflow adaptations."
+    },
+    {
+      "id": "engine-exhaust-midpipe-remove",
+      "title": "Remove the intermediate pipe",
+      "instruction": "Loosen the pipe-2 joint clamp and remove the exhaust-pipe bracket bolt while supporting the pipe. Move pipe 2 through the clearance path shown in PDF211 and remove it without forcing nearby components.",
+      "depends_on": [
+        "engine-exhaust-silencer-remove"
+      ],
+      "source_pdf_pages": [
+        206,
+        211
+      ],
+      "verification": [
+        "Pipe 2 removed; mounting hardware retained."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=206",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=211"
+      ],
+      "record_required": false,
+      "origin": "Original source-based summary with support and logging workflow adaptations."
+    },
+    {
+      "id": "engine-exhaust-header-remove",
+      "title": "Remove the header and old seals",
+      "instruction": "Remove the header nuts and header pipe. Leave the header protector attached. Remove the old head gasket and the two pipe-joint gaskets; inspect joint faces and supports for damage before refitting.",
+      "depends_on": [
+        "engine-exhaust-midpipe-remove"
+      ],
+      "source_pdf_pages": [
+        206
+      ],
+      "verification": [
+        "Header removed; all three separated joint seals identified; protector untouched."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=206"
+      ],
+      "record_required": false,
+      "origin": "Original source-based summary with support and logging workflow adaptations."
+    },
+    {
+      "id": "engine-cooling-prepare",
+      "title": "Set up for a cold drain",
+      "instruction": "Stand the cooled bike upright on a level surface. Place the collection container beneath the engine and position it close to the drain outlet, because flow can shoot sideways when the radiator cap is released.",
+      "depends_on": [
+        "engine-exhaust-header-remove"
+      ],
+      "source_pdf_pages": [
+        106,
+        107
+      ],
+      "verification": [
+        "Bike stable; engine and coolant cold; collection ready."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=106",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=107"
+      ],
+      "record_required": false,
+      "origin": "Original source-based mechanical summary; collection, logging and concurrent-work checks are workflow adaptations."
+    },
+    {
+      "id": "engine-cooling-drain",
+      "title": "Open the drain and radiator cap",
+      "instruction": "Remove the coolant drain bolt and its copper washer. Place a thick cloth over the radiator cap and turn it slowly counterclockwise toward its detent to release residual pressure. Once hissing stops, press down and turn farther to remove the cap. Let the coolant drain into the container.",
+      "depends_on": [
+        "engine-cooling-prepare"
+      ],
+      "source_pdf_pages": [
+        107
+      ],
+      "verification": [
+        "Drain complete; old washer removed; cap opened only when cold."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=107"
+      ],
+      "record_required": false,
+      "origin": "Original source-based mechanical summary; collection, logging and concurrent-work checks are workflow adaptations."
+    },
+    {
+      "id": "engine-cooling-seal",
+      "title": "Install a new drain washer",
+      "instruction": "Install a new copper washer and the coolant drain bolt. Tighten the bolt to 10 NÂ·m.",
+      "depends_on": [
+        "engine-cooling-drain"
+      ],
+      "source_pdf_pages": [
+        107
+      ],
+      "verification": [
+        "New washer installed; drain bolt 10 NÂ·m."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=107"
+      ],
+      "record_required": true,
+      "origin": "Original source-based mechanical summary; collection, logging and concurrent-work checks are workflow adaptations."
+    },
+    {
+      "id": "engine-coolant-hoses",
+      "title": "Disconnect the engine coolant hoses",
+      "instruction": "Identify radiator hoses 1,3 and 4 from the source drawing. Mark each hose and clamp position, loosen its engine-side clamp and release the hoses from the engine. Keep radiators mounted and protect the open hose/engine ports from dirt. Do not remove coolant pipe joints or the temperature sensor itself.",
+      "source_pdf_pages": [
+        210,
+        296,
+        297
+      ],
+      "verification": [
+        "Hoses 1/3/4 labeled and clear; pipe joints/sensor remain sealed."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=210",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=296",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=297"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "engine-cooling-seal"
+      ]
+    },
+    {
+      "id": "engine-intake-clear",
+      "title": "Lift the intact throttle body from the engine joint",
+      "instruction": "Clean around the lower intake joint, loosen its clamp and lift the throttle body clear of the engine-side joint. Support the intact body with both throttle cables attached, out of the engine lifting path without tension; protect the open intake. This retained-cable adaptation requires adequate free support clearance. If the cables cannot remain unstressed, stop and use the separate complete cable-removal procedure. Do not disturb sensors, adjustment screws or the throttle pulley.",
+      "source_pdf_pages": [
+        57,
+        310,
+        312
+      ],
+      "verification": [
+        "Throttle body supported clear; cables/sensors undisturbed; intake protected."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=57",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=310",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=312"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "engine-coolant-hoses"
+      ]
+    },
+    {
+      "id": "engine-electrical-left",
+      "title": "Disconnect the left engine harness interfaces",
+      "instruction": "Release only the retaining clips/ties needed to free engine leads. Disconnect the stator, crankshaft-position and gear-position connectors; keep the gear-position switch bolted to the engine so its seal is not disturbed. Match connector identity to the diagrams, including the white 3-pin gear-position and gray 2-pin stator connectors. Label and protect both halves.",
+      "source_pdf_pages": [
+        64,
+        65,
+        208
+      ],
+      "verification": [
+        "Stator/crank-position/gear-position leads released; sensor seals untouched."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=64",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=65",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=208"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "engine-intake-clear"
+      ]
+    },
+    {
+      "id": "engine-electrical-right",
+      "title": "Disconnect starter, ground and plug interfaces",
+      "instruction": "Disconnect the coolant-temperature connector, pull the spark-plug cap clear without removing the plug, and remove the engine-ground terminal bolt. At the starter lead, hold the motor-side terminal nut with a spanner while undoing the lead nut. Release the lead clamps and support the harness away from the lift path.",
+      "source_pdf_pages": [
+        68,
+        69,
+        72,
+        73,
+        208,
+        222,
+        245
+      ],
+      "verification": [
+        "Ground/starter/temperature/plug disconnected; starter terminal not twisted."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=68",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=69",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=72",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=73",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=208",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=222",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=245"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "engine-electrical-left"
+      ]
+    },
+    {
+      "id": "engine-sprocket",
+      "title": "Remove chain, sprocket and shift pedal",
+      "instruction": "Remove the sprocket cover. Release the stock clip-type chain joint and remove the chain; retain the matched link/plate and prepare a new clip. Remove the sprocket nut and old lock washer using an appropriate holding tool, then remove the sprocket. Mark and remove the shift pedal; retain its bolt and original punch-mark alignment.",
+      "source_pdf_pages": [
+        196,
+        197,
+        198,
+        264,
+        267,
+        268
+      ],
+      "verification": [
+        "Chain and sprocket clear; old lock washer/clip retired; shift position recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=196",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=197",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=198",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=264",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=267",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=268"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "engine-electrical-right"
+      ]
+    },
+    {
+      "id": "engine-release-cylinder",
+      "title": "Unbolt the intact clutch release unit",
+      "instruction": "Protect the clutch lever from operation. Support the release body and remove its two mount bolts while keeping its hydraulic hose attached. Retain the washer, remove the old mounting O-ring and leave push rod 2 and its shaft oil seal installed. Support the unit outside the lifting path without stressing the hose.",
+      "source_pdf_pages": [
+        210,
+        254,
+        257
+      ],
+      "verification": [
+        "Closed release unit supported; washer retained; new mounting O-ring ready."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=210",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=254",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=257"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "engine-sprocket"
+      ]
+    },
+    {
+      "id": "engine-pedal-guard",
+      "title": "Clear pedal, guard and breather",
+      "instruction": "Remove the engine guard, brake-pedal pivot bolt and return spring. Support the pedal with its master-cylinder linkage attached. Label and release the cylinder-head breather hose from the engine and its routing holders. Keep brake hydraulics closed.",
+      "source_pdf_pages": [
+        64,
+        65,
+        210
+      ],
+      "verification": [
+        "Guard/pedal/spring retained; breather clear; brake system closed."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=64",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=65",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=210"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "engine-release-cylinder"
+      ]
+    },
+    {
+      "id": "engine-engine-support",
+      "title": "Support engine and swingarm before undoing mounts",
+      "instruction": "Support the engine independently. Support the swingarm and prepare a same-diameter temporary support shaft from its other side if needed when the pivot is withdrawn. Confirm every electrical connector, hose, intake assembly and cable is clear before loosening the engine mounts.",
+      "source_pdf_pages": [
+        209,
+        210,
+        211
+      ],
+      "verification": [
+        "Independent supports ready; all engine interfaces clear."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=209",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=210",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=211"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "engine-pedal-guard"
+      ]
+    },
+    {
+      "id": "engine-mounts-out",
+      "title": "Release the engine mounts",
+      "instruction": "Remove the left/right upper brackets and two lower brackets with their identified hardware, keeping bolt positions separate. Withdraw the pivot while maintaining swingarm support. Keep the engine fully supported as the last mounting fasteners come out; never let it hang from a remaining hose or lead.",
+      "source_pdf_pages": [
+        209,
+        210,
+        211
+      ],
+      "verification": [
+        "Mount hardware mapped; pivot removed with swingarm supported."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=209",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=210",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=211"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "engine-engine-support"
+      ]
+    },
+    {
+      "id": "engine-engine-out",
+      "title": "Lift the engine out to the right",
+      "instruction": "Lift the engine and move its lower part toward the right side of the chassis as shown in the OEM drawing, then transfer it to the prepared support. Stop if any interface catches. Keep the inlet, exhaust and fluid ports protected from contamination.",
+      "source_pdf_pages": [
+        211
+      ],
+      "verification": [
+        "Assembly removed to right; no trapped interface; engine stable."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=211"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "engine-mounts-out"
+      ]
+    },
+    {
+      "id": "rear-prepare",
+      "title": "Support the rear wheel",
+      "instruction": "Keep the chassis independently supported with its rear wheel clear. The engine and drive chain are already removed. Protect the rear brake pedal against operation while the wheel is absent; keep the hydraulic line closed.",
+      "source_pdf_pages": [
+        134,
+        136,
+        111
+      ],
+      "verification": [
+        "Rear wheel clear, bike stable, brake pedal protected."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "engine-engine-out"
+      ]
+    },
+    {
+      "id": "rear-remove",
+      "title": "Release the axle and chain",
+      "instruction": "Remove the rear axle nut. Loosen both adjuster locknuts and turn the adjusting bolts inward. Support the wheel, withdraw the axle and retain both pullers and collars by side. The chain was already removed for engine access; lower the wheel clear without disturbing the hydraulic line.",
+      "source_pdf_pages": [
+        134,
+        136
+      ],
+      "verification": [
+        "Wheel clear; left/right pullers and collars labeled."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=134",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=136"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "rear-prepare"
+      ]
+    },
+    {
+      "id": "rear-inspect",
+      "title": "Inspect wheel, axle and collars",
+      "instruction": "Check the axle for bending, the tire/wheel and collars for damage, and bearings for roughness or looseness. Inspect seals and sprocket teeth. Record defects; damaged components need the matching repair before refitting.",
+      "source_pdf_pages": [
+        131,
+        136
+      ],
+      "verification": [
+        "Serviceability recorded; no damaged parts silently reused."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "rear-remove"
+      ]
+    },
+    {
+      "id": "rear-brake-free",
+      "title": "Free the complete rear brake assembly",
+      "instruction": "With the rear wheel removed, slide the complete caliper/bracket off its swingarm guide and release the hose retaining clamps. The pedal pivot/spring were already removed during engine access. Remove the two rear-master-cylinder mounting bolts and support master, hose, caliper and linked pedal together. Keep hose unions, reservoir, pads and pushrod pin attached; do not pump the pedal.",
+      "source_pdf_pages": [
+        61,
+        76,
+        77,
+        134,
+        150,
+        152,
+        153,
+        210
+      ],
+      "verification": [
+        "Entire rear brake assembly supported off frame/swingarm; hydraulic circuit remains closed."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=61",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=76",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=77",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=134",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=150",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=152",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=153",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=210"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "rear-inspect"
+      ]
+    },
+    {
+      "id": "rear-shock-lower",
+      "title": "Unlink the shock and linkage",
+      "instruction": "Support the swingarm independently. Remove the lower shock bolt and keep the shock supported on its unchanged upper mount. Remove the connecting-arm frame bolt, connecting-arm-to-relay bolt and relay-to-swingarm bolt, keeping each fastener and collar/washer stack associated with its joint. Keep the linkage bearings and seals assembled in this inspection-only operation.",
+      "source_pdf_pages": [
+        187,
+        188,
+        190,
+        191
+      ],
+      "verification": [
+        "Swingarm cannot drop; three linkage joints and lower shock joint identified."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=187",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=188",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=190",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=191"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "rear-brake-free"
+      ]
+    },
+    {
+      "id": "swingarm-off",
+      "title": "Remove the supported swingarm",
+      "instruction": "The engine pivot is already withdrawn. Support the arm while removing the temporary support shaft used for engine removal, then lower the swingarm clear. Keep original collars and thrust-bearing/seal stacks with their correct sides. The intact linkage is already free; do not extract its bearings or seals.",
+      "source_pdf_pages": [
+        187,
+        194,
+        195,
+        211
+      ],
+      "verification": [
+        "Temporary pivot removed; supported arm clear; all stacks labeled."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=187",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=194",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=195",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=211"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "rear-shock-lower"
+      ]
+    },
+    {
+      "id": "arm-inspect",
+      "title": "Inspect the arm, pivot and linkage",
+      "instruction": "Inspect the swingarm for bends/cracks, roll the pivot on a flat surface to detect bending, and inspect the linkage arms, collars, seals and exposed bearing surfaces for wear, pitting or damage. Record free play, rust, binding or damage. Do not straighten a bent pivot. Damaged bearings/bushings or bearings/collars require their stated matched-set replacement, outside this intact-bearing guide.",
+      "source_pdf_pages": [
+        189,
+        194
+      ],
+      "verification": [
+        "Serviceability recorded for pivot, arm and every linkage joint."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "swingarm-off"
+      ]
+    },
+    {
+      "id": "shock-upper-off",
+      "title": "Remove the sealed shock",
+      "instruction": "Support the shock, remove its upper nut/bolt and lift out the complete sealed assembly. Its lower bolt was removed with the linkage. Keep original eyelet collars/seals intact; do not release gas or loosen the preload hardware.",
+      "source_pdf_pages": [
+        185,
+        188,
+        190
+      ],
+      "verification": [
+        "Sealed shock and upper hardware supported and retained."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=185",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=188",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=190"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "arm-inspect"
+      ]
+    },
+    {
+      "id": "front-setup",
+      "title": "Record and support",
+      "instruction": "Record both fork clicker settings and current height before front-end removal; this operation restores standard2 mm projection. Keep the stripped chassis independently supported with its front wheel clear. The engine and rear wheel are already removed.",
+      "depends_on": [
+        "shock-upper-off"
+      ],
+      "source_pdf_pages": [
+        167,
+        169
+      ],
+      "verification": [
+        "Bike stable; original setup recorded; standard-height target understood."
+      ],
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original source-based bounded summary; support/logging actions are workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "front-plate",
+      "title": "Free the hose guides",
+      "instruction": "Remove the number-plate bolt, release the brake hose from its upper/lower guides, then pull the plate projection free of the front fender. Keep the hose routed and unstressed.",
+      "depends_on": [
+        "front-setup"
+      ],
+      "source_pdf_pages": [
+        126
+      ],
+      "verification": [
+        "Plate removed; guide routing recorded."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=126"
+      ],
+      "origin": "Original source-based bounded summary; support/logging actions are workflow adaptations.",
+      "record_required": false
+    },
+    {
+      "id": "front-bar-off",
+      "title": "Support the intact handlebar assembly",
+      "instruction": "Mark the existing bar position. Remove the handlebar protector and the four upper-holder bolts, then lift the bar from its holders and support it without loading the cables or hydraulic hoses. Keep controls and grips attached; do not loosen the lower-holder nuts or disconnect hoses/cables for this bounded operation. With the fork legs still clamped, loosen the steering-stem nut for later removal.",
+      "source_pdf_pages": [
+        161,
+        162,
+        163
+      ],
+      "verification": [
+        "Bar position recorded; complete bar supported with cables/hoses unstressed."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "front-plate"
+      ]
+    },
+    {
+      "id": "front-wheel-remove",
+      "title": "Remove the front wheel",
+      "instruction": "Loosen all four axle pinch bolts. Support the wheel; remove the axle nut and axle, then lower the wheel clear. Label and retain its left and right collars. Prevent the brake lever being operated with the disc absent.",
+      "depends_on": [
+        "front-bar-off"
+      ],
+      "source_pdf_pages": [
+        129
+      ],
+      "verification": [
+        "Wheel/axle/collars retained with correct sides; pads not forced closed."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=129"
+      ],
+      "origin": "Original source-based bounded summary; support/logging actions are workflow adaptations.",
+      "record_required": false
+    },
+    {
+      "id": "front-caliper",
+      "title": "Support the brake assembly",
+      "instruction": "Remove the two caliper mounting bolts and support the complete caliper so its weight cannot pull on the hose. Keep the hose union, bleed screw, pad pin and pads undisturbed. Release the brake-hose holder from the fork protector, preserving its orientation and paint-mark position.",
+      "depends_on": [
+        "front-wheel-remove"
+      ],
+      "source_pdf_pages": [
+        143,
+        144,
+        146,
+        167
+      ],
+      "verification": [
+        "Caliper supported; closed hydraulic circuit; hose not loaded."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=143",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=144",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=146",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=167"
+      ],
+      "origin": "Original source-based bounded summary; support/logging actions are workflow adaptations.",
+      "record_required": false
+    },
+    {
+      "id": "front-protectors",
+      "title": "Remove the protectors",
+      "instruction": "Remove the three protector bolts on each fork leg and lift the protectors away. Keep the hardware grouped by side.",
+      "depends_on": [
+        "front-caliper"
+      ],
+      "source_pdf_pages": [
+        167
+      ],
+      "verification": [
+        "Both protectors removed; hardware accounted for."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=167"
+      ],
+      "origin": "Original source-based bounded summary; support/logging actions are workflow adaptations.",
+      "record_required": false
+    },
+    {
+      "id": "front-legs-remove",
+      "title": "Release each fork leg",
+      "instruction": "Support one fork leg. Loosen its upper-clamp pinch bolts, then use the specified ring wrench to loosenâ€”but not removeâ€”the damper assembly at the top while the lower clamp still holds the leg. Loosen the lower-clamp pinch bolts and slide the supported leg down and out. Repeat on the other side; keep assemblies upright and intact.",
+      "depends_on": [
+        "front-protectors"
+      ],
+      "source_pdf_pages": [
+        167,
+        169
+      ],
+      "verification": [
+        "Both legs supported and removed; caps only loosened; no oil drained or internal components removed."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=167",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=169"
+      ],
+      "origin": "Original source-based bounded summary; support/logging actions are workflow adaptations.",
+      "record_required": false
+    },
+    {
+      "id": "front-bench-check",
+      "title": "Check before refitting",
+      "instruction": "Keep the assemblies intact. Check for visible leakage, damage or abnormal movement. A fork that needs repair does not become serviced by completing this removal/refit task; route it to the separate repair operation.",
+      "depends_on": [
+        "front-legs-remove"
+      ],
+      "source_pdf_pages": [
+        170,
+        171
+      ],
+      "verification": [
+        "Assemblies suitable for refit or fault recorded; internal-service status not invented."
+      ],
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original source-based bounded summary; support/logging actions are workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "front-fender-off",
+      "title": "Remove the front fender",
+      "instruction": "Remove its four bolts and retain the mounting hardware in order. Remove the steering-stem nut and lift away the upper bracket and its washer.",
+      "source_pdf_pages": [
+        180,
+        181
+      ],
+      "verification": [
+        "Fender, upper bracket and washer retained; all supported."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=180",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=181"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "front-bench-check"
+      ]
+    },
+    {
+      "id": "front-stem-out",
+      "title": "Lower the steering stem",
+      "instruction": "Hold the lower bracket so it cannot drop. Use steering nut wrench 90890-01403 / YU-A9472 to remove the ring nut. Lower the stem and retain the race cover and upper bearing. Leave serviceable pressed bearing races and the lower bearing installed; pressing replacements is outside this guide.",
+      "source_pdf_pages": [
+        181,
+        182
+      ],
+      "verification": [
+        "Lower bracket supported and removed; bearing stack retained in order."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=181",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=182"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "front-fender-off"
+      ]
+    },
+    {
+      "id": "front-steering-inspect",
+      "title": "Clean and inspect the steering bearings",
+      "instruction": "Clean the bearings and races with kerosene. Check for pitting/damage and inspect upper/lower brackets and stem for bends, cracks or damage. Record findings. If replacement is needed, stop this reuse-only sequence; bearings and races must be replaced as a set using the separate repair procedure.",
+      "source_pdf_pages": [
+        182
+      ],
+      "verification": [
+        "Both bearings/races and brackets inspected; reuse is justified or repair remains open."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "front-stem-out"
+      ]
+    },
+    {
+      "id": "radiators-off",
+      "title": "Remove the radiators and remaining hose connections",
+      "instruction": "Coolant was drained during engine access. Label all four hoses1–4 and every remaining clamp orientation using the source diagram. Release the remaining radiator-side hose joints and the radiator breather. Support each radiator, remove its two mounting bolts, and retain each damper/collar/washer stack. Lift both radiators and the loose hoses clear. Leave the coolant pipe joints and their O-rings on the removed engine.",
+      "source_pdf_pages": [
+        57,
+        296,
+        297
+      ],
+      "verification": [
+        "Both radiators/hoses labeled; four mount stacks retained; engine pipe seals untouched."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=57",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=296",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=297"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "front-steering-inspect"
+      ]
+    },
+    {
+      "id": "rear-electrical-free",
+      "title": "Release the rear electrical attachments",
+      "instruction": "Battery leads are isolated. Release the battery band and lift out the battery. Unplug ECU, CCU and starter-relay harness couplers, releasing their covers first; retain the electronics in their original holders on the rear frame. Release the white/green-tape harness ties and clip so the main loom is free of the rear frame. Keep starter/positive leads on the relay and carry them with the rear frame; the starter lead is already free at the engine.",
+      "source_pdf_pages": [
+        66,
+        67,
+        74,
+        75,
+        123,
+        124
+      ],
+      "verification": [
+        "Battery removed; rear couplers identified; loom/ties released; relay leads supported."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=66",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=67",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=74",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=75",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=123",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=124"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "radiators-off"
+      ]
+    },
+    {
+      "id": "rear-frame-off",
+      "title": "Remove the rear-frame assembly",
+      "instruction": "Support the rear frame with rear fender/holders attached. Remove the upper chain tensioner retaining pin and washer, then slide off its roller from the rear-frame bolt; prepare a new pin. Remove all four rear-frame bolts and lift the assembly clear, checking no wire, silencer or hose remains attached. Keep each bolt with its original position.",
+      "source_pdf_pages": [
+        62,
+        124,
+        127,
+        128
+      ],
+      "verification": [
+        "Rear-frame assembly clear; four bolts mapped; upper roller/washer retained; new pin ready."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=62",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=124",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=127",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=128"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "rear-electrical-free"
+      ]
+    },
+    {
+      "id": "loom-control-off",
+      "title": "Lift the supported controls and main harness clear",
+      "instruction": "The bar is already free of its holders, throttle body off its joint, front caliper free, and clutch release off the engine. Release the remaining frame/cable holders and plastic ties according to the front-left, right and top routing diagrams. Unbolt the rectifier/regulator, ignition-coil bracket and air-filter-case brackets from the frame, retaining the coils and connectors on their bracket where possible. Lift the supported harness, bar/controls, throttle body and closed front-brake/clutch assemblies clear as a connected group; use separate bench supports so no cable/hose bears another part's weight. If any stock routing prevents removal without disconnecting a hydraulic joint or throttle end, this retained-assembly variant stops here rather than improvising.",
+      "source_pdf_pages": [
+        57,
+        59,
+        63,
+        64,
+        65,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        161,
+        162,
+        208,
+        310
+      ],
+      "verification": [
+        "All frame holders released; intact controls/hydraulics supported; harness and brackets clear without tension."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=57",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=59",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=63",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=64",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=65",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=68",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=69",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=70",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=71",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=72",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=73",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=161",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=162",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=208",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=310"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "rear-frame-off"
+      ]
+    },
+    {
+      "id": "remaining-brackets",
+      "title": "Remove the remaining bolt-on frame parts",
+      "instruction": "Remove each complete footrest bracket with its peg, spring and pin still assembled; retain the four bracket bolts by side. Remove the lower chain-tensioner bolt and intact roller/collar stack. Identify and retain any remaining clip-in harness holders and removable rubber mounting pieces in labeled positions. Pressed steering races and bonded frame pads may remain; this is not a paint-stripping or structural repair operation.",
+      "source_pdf_pages": [
+        61,
+        62,
+        63,
+        124
+      ],
+      "verification": [
+        "Footrest assemblies and lower roller removed; remaining frame attachments recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=61",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=62",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=63",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=124"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "loom-control-off"
+      ]
+    },
+    {
+      "id": "frame-inspection",
+      "title": "Inspect the exposed main frame",
+      "instruction": "Clean the exposed frame and mounting interfaces without removing identification markings. Record cracks, bends, damaged threads, corroded mounting points or fretting. This guide only reassembles a serviceable original frame; it supplies no frame-alignment tolerance, welding method or straightening authorization. Verify the separate engine work and all component repair findings before reassembly.",
+      "source_pdf_pages": [
+        90,
+        91,
+        182,
+        194
+      ],
+      "verification": [
+        "Frame condition and component repair status recorded; no structural fault silently accepted."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "remaining-brackets"
+      ]
+    },
+    {
+      "id": "frame-small-refit",
+      "title": "Restore footrests, roller and retained mounting pieces",
+      "instruction": "Return all labeled rubber pieces and clip-in holders to their original positions. Refit the intact footrest brackets with source-specified LOCTITE on the four bolts and tighten55 N·m. Refit the intact lower chain-tensioner roller and collar stack and tighten its bolt16 N·m; check the roller turns correctly.",
+      "source_pdf_pages": [
+        61,
+        62,
+        124
+      ],
+      "verification": [
+        "Footrest bolts55 N·m; lower roller16 N·m and free; original mount pieces restored."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=61",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=62",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=124"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "frame-inspection"
+      ]
+    },
+    {
+      "id": "rear-frame-refit",
+      "title": "Reinstall the rear frame and upper roller",
+      "instruction": "Align the supported rear frame without trapping wires. Return its four bolts to their mapped positions and tighten38 N·m. Install the upper chain tensioner and washer on its correct bolt, then install a new retaining pin through the outside pin hole as illustrated; the inside hole is the documented alternative if necessary. Bend the pin so its tip stays within the roller's outer diameter.",
+      "source_pdf_pages": [
+        62,
+        124,
+        127,
+        128
+      ],
+      "verification": [
+        "Four rear-frame bolts38 N·m; roller/washer/new pin correctly retained."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=62",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=124",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=127",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=128"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "frame-small-refit"
+      ]
+    },
+    {
+      "id": "loom-control-refit",
+      "title": "Place the controls, loom and brackets back on the frame",
+      "instruction": "Place the intact supported bar/control and hydraulic assemblies near their original locations, keeping them independently supported until mounted. Route the main loom along the original frame/tank-rail path and engage its locating projections. Refit the original air-filter-case brackets, rectifier/regulator and ignition-coil bracket at7 N·m for each respective mounting bolt. Do not disturb sensor or throttle adjustment screws. Use the exact diagram rather than crossing the loom over the engine opening.",
+      "source_pdf_pages": [
+        57,
+        59,
+        63,
+        64,
+        65,
+        68,
+        69,
+        72,
+        73,
+        208,
+        310
+      ],
+      "verification": [
+        "Bracket mount groups7 N·m; loom located; unsupported units still protected."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=57",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=59",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=63",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=64",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=65",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=68",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=69",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=72",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=73",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=208",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=310"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "rear-frame-refit"
+      ]
+    },
+    {
+      "id": "rear-harness-route",
+      "title": "Restore rear harness routing and holders",
+      "instruction": "Restore the harness/starter-lead ties at the white and green tape locations. At the green-tape clip, starter lead lies below the harness; lock faces down and trimmed end outward. Route negative lead along the inside of the starter lead, and positive lead outside the rear-fender projection. Reseat ECU/CCU/relay connectors and covers: ECU holder enters its battery-box bracket with ECU connector toward the left. Fit the battery and band but leave terminal leads isolated until final startup preparation. At the white-tape rear-frame tie, point the lock downward and trimmed end outward as well.",
+      "source_pdf_pages": [
+        66,
+        67,
+        74,
+        75,
+        123,
+        124
+      ],
+      "verification": [
+        "Rear tie locations/orientations and ECU/CCU/relay holders/covers restored; battery remains isolated."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=66",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=67",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=74",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=75",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=123",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=124"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "loom-control-refit"
+      ]
+    },
+    {
+      "id": "radiators-refit",
+      "title": "Mount the radiators and route their hoses",
+      "instruction": "Inspect hoses and mounting dampers for damage. Restore the original damper/collar/washer stacks and tighten the four radiator mounting bolts10 N·m. Return hoses1–4 to their labeled radiator ends, preserving the original clamp positions; disturbed hose-clamp screws tighten1.5 N·m. Leave engine-end joints ready for engine installation. Route radiator breather behind the upper boss, ahead of the lower boss and ahead of the radiator hose, then through the down tube as shown.",
+      "source_pdf_pages": [
+        57,
+        64,
+        65,
+        68,
+        69,
+        296,
+        297,
+        298
+      ],
+      "verification": [
+        "Radiator mounts10 N·m; radiator-side clamps1.5 N·m; breather and hoses correctly routed."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=57",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=64",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=65",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=68",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=69",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=296",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=297",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=298"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "rear-harness-route"
+      ]
+    },
+    {
+      "id": "shock-upper-refit",
+      "title": "Hang the intact shock on its upper mount",
+      "instruction": "Inspect the retained upper eyelet/collars and lubricate the upper mounting bolt with molybdenum-disulfide grease. Install the bolt from the right and tighten its nut56 N·m. Keep the sealed shock supported until its lower connection is restored; no preload or internal changes are implied.",
+      "source_pdf_pages": [
+        188,
+        190
+      ],
+      "verification": [
+        "Upper bolt from right; nut56 N·m; eyelet parts retained."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=188",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=190"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "radiators-refit"
+      ]
+    },
+    {
+      "id": "front-steering-grease",
+      "title": "Lubricate the bearing stack",
+      "instruction": "Apply lithium-soap-based grease to the bearings, dust-seal/race-cover lips, steering-stem threads and the stem portion shown in the OEM illustration. Return the lower bracket, upper bearing and race cover in the illustrated order. Fit the ring nut with its stepped side downward.",
+      "source_pdf_pages": [
+        182,
+        183
+      ],
+      "verification": [
+        "Lubricated bearing/cover stack correct; ring-nut step faces down."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=182",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=183"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "shock-upper-refit"
+      ]
+    },
+    {
+      "id": "front-preload",
+      "title": "Set the steering preload",
+      "instruction": "Hold the torque wrench at a right angle to the steering-nut wrench. Tighten the ring nut initially to 38 NÂ·m and turn the steering left/right several times. If it binds, inspect the bearings. Loosen the ring nut one full turn, then retighten to 7 NÂ·m. Check full lock-to-lock movement without play or binding.",
+      "source_pdf_pages": [
+        63,
+        112,
+        183
+      ],
+      "verification": [
+        "Initial 38 NÂ·m, loosen one turn, final 7 NÂ·m; smooth steering without looseness."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=63",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=112",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=183"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "front-steering-grease"
+      ]
+    },
+    {
+      "id": "front-upper-refit",
+      "title": "Restore the upper bracket and stem nut",
+      "instruction": "Install the washer and upper bracket. Slide the fork legs into place and temporarily secure the lower clamps, leaving the upper pinch bolts loose. Grease the steering-stem nut contact surface with lithium-soap grease and tighten the stem nut to 145 NÂ·m. Check steering again; if movement is not smooth, follow the manual ring-nut adjustment rather than proceeding.",
+      "source_pdf_pages": [
+        183,
+        184
+      ],
+      "verification": [
+        "Washer fitted; stem nut 145 NÂ·m; steering smooth."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=183",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=184"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "front-preload"
+      ]
+    },
+    {
+      "id": "front-legs-refit",
+      "title": "Refit and secure the top assemblies",
+      "instruction": "With the legs temporarily held by the lower clamps and the upper pinch bolts still loose, tighten each damper assembly at the top to 30 NÂ·m using the cap ring wrench. Keep each leg supported.",
+      "depends_on": [
+        "front-upper-refit"
+      ],
+      "source_pdf_pages": [
+        177,
+        178
+      ],
+      "verification": [
+        "Legs supported; top damper assemblies 30 NÂ·m; upper clamps still loose."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=177",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=178"
+      ],
+      "origin": "Original source-based bounded summary; support/logging actions are workflow adaptations.",
+      "record_required": false
+    },
+    {
+      "id": "front-height-clamps",
+      "title": "Set height and tighten the clamps",
+      "instruction": "With each leg supported, set its outer-tube top projection to 2 mm using the exact source-diagram reference. Match both sides. Tighten upper and lower clamp pinch bolts to 21 NÂ·m; do not overtorque the lower clamps.",
+      "depends_on": [
+        "front-legs-refit"
+      ],
+      "source_pdf_pages": [
+        167,
+        178
+      ],
+      "verification": [
+        "Both projections 2 mm; all upper/lower pinch bolts 21 NÂ·m."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=167",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=178"
+      ],
+      "origin": "Original source-based bounded summary; support/logging actions are workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "front-bar-refit",
+      "title": "Restore the handlebar and fender",
+      "instruction": "Refit the front fender with its four bolts at 10 NÂ·m. Refit the handlebar at its recorded marks with upper-holder punch marks forward and equal side-to-side marks. Tighten the front upper-holder bolts first, then the rear bolts, to 28 NÂ·m. Keep the lower holders unchanged. Check bar alignment and cable/hose clearance now; verify fuel-tank clearance after tank reinstallation.",
+      "source_pdf_pages": [
+        163,
+        164,
+        180
+      ],
+      "verification": [
+        "Fender 10 NÂ·m; holders 28 NÂ·m front first; original bar position and free movement."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=163",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=164",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=180"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "front-height-clamps"
+      ]
+    },
+    {
+      "id": "front-guards-brake",
+      "title": "Restore protectors and brake mounts",
+      "instruction": "Refit the protectors at 7 NÂ·m per bolt. Refit the complete caliper to the fork and tighten its two mount bolts to 28 NÂ·m. Align the upper end of the hose holder with the hose paint mark and tighten its bolts to 9 NÂ·m, preserving the original routing.",
+      "depends_on": [
+        "front-bar-refit"
+      ],
+      "source_pdf_pages": [
+        144,
+        146,
+        178
+      ],
+      "verification": [
+        "Protectors 7 / caliper 28 / hose-holder 9 NÂ·m; hose aligned and unstressed."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=144",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=146",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=178"
+      ],
+      "origin": "Original source-based bounded summary; support/logging actions are workflow adaptations.",
+      "record_required": false
+    },
+    {
+      "id": "front-wheel-refit",
+      "title": "Install the wheel and axle",
+      "instruction": "Apply lithium-soap grease to the axle and wheel oil-seal lips. Put the side-specific collars back, lift the wheel into place with the disc correctly between the pads, and insert the axle. Thread the axle nut on by hand; leave its final tightening and the axle pinch bolts for the seating step.",
+      "depends_on": [
+        "front-guards-brake"
+      ],
+      "source_pdf_pages": [
+        129,
+        132
+      ],
+      "verification": [
+        "Collars correct; disc between pads; axle inserted; nut retained; final torques pending."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=129",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=132"
+      ],
+      "origin": "Original source-based bounded summary; support/logging actions are workflow adaptations.",
+      "record_required": false
+    },
+    {
+      "id": "front-control-route",
+      "title": "Restore front control routing",
+      "instruction": "Route the throttle cables to the right of the number-plate bracket and the starter-switch lead to its left. Both switch leads pass between the plate routing section and upper bracket. Match the plate markings and drawing: clutch hose on the right, ahead of throttle cables and behind the front brake hose. Restore bar ties with locks downward and ends forward, clear of masters and fork tubes. The front brake hose then returns to the plate guides in the next step.",
+      "source_pdf_pages": [
+        70,
+        71
+      ],
+      "verification": [
+        "Cable/lead sides and hose crossing order match the source; ties cannot contact controls or forks."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=70",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=71"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "front-wheel-refit"
+      ]
+    },
+    {
+      "id": "front-plate-settings",
+      "title": "Restore guides and settings",
+      "instruction": "Engage the number-plate projection in the front fender, route the hose through both plate guides and tighten the number-plate bolt to 7 NÂ·m. Restore the recorded rebound and compression settings using the gently seated full-hard reference; verify left/right settings match the intended setup.",
+      "depends_on": [
+        "front-control-route"
+      ],
+      "source_pdf_pages": [
+        126,
+        63,
+        178,
+        114,
+        115
+      ],
+      "verification": [
+        "Plate 7 NÂ·m; both guides used; original damping settings logged and restored."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=126",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=63",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=178",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=114",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=115"
+      ],
+      "origin": "Original source-based bounded summary; support/logging actions are workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "engine-bench-record",
+      "title": "Verify the engine and rear bearing stacks",
+      "instruction": "Confirm the documented internal engine work has its own pre-start clearance, timing and free-rotation checks complete. Inspect and grease original serviceable swingarm bearing/thrust/bushing/collar/seal contact surfaces with molybdenum-disulfide grease. Position the independently supported swingarm with its original side stacks so the shared pivot can locate both it and the engine in the next step.",
+      "source_pdf_pages": [
+        189,
+        194,
+        195,
+        211,
+        212
+      ],
+      "verification": [
+        "Engine bench record verified; arm stacks lubricated and supported for shared pivot."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=189",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=194",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=195",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=211",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=212"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "front-plate-settings"
+      ]
+    },
+    {
+      "id": "engine-engine-in",
+      "title": "Place the engine back in the chassis",
+      "instruction": "Bring the supported engine in from the right and align its mounting points without trapping wires/hoses. Apply molybdenum-disulfide grease to the pivot; install it from the right and restore the swingarm support stack. Apply lithium-soap grease to the pivot-nut threads and contact face.",
+      "source_pdf_pages": [
+        195,
+        211,
+        212
+      ],
+      "verification": [
+        "Engine aligned from right; pivot from right; supports and grease correct."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=195",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=211",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=212"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "engine-bench-record"
+      ]
+    },
+    {
+      "id": "engine-mount-torque",
+      "title": "Install and secure the engine brackets",
+      "instruction": "Restore the original lower and upper brackets and mapped hardware. Follow the labeled engine-install drawing: pivot nut 75 NÂ·m; lower engine-mount bolt 53 NÂ·m; front bracket bolts 34 NÂ·m; front engine-mount bolt 55 NÂ·m; upper bracket bolts 34 NÂ·m; upper engine-mount bolts 45 NÂ·m. Keep the supported assembly aligned while tightening.",
+      "source_pdf_pages": [
+        62,
+        211,
+        212
+      ],
+      "verification": [
+        "All six distinct mounting torque groups recorded against the diagram."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=62",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=211",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=212"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "engine-engine-in"
+      ]
+    },
+    {
+      "id": "rear-link-refit",
+      "title": "Refit the linkage in its original orientation",
+      "instruction": "Lubricate the circumferences and threads of the three linkage bolts and lower shock bolt with molybdenum-disulfide grease. Fit the connecting-arm frame bolt from the right; connecting-arm relay bolt, relay-arm swingarm bolt and lower shock bolt from the left. Restore every retained collar and washer in its original joint. Raise the arm to align the lower shock without forcing the bolts.",
+      "source_pdf_pages": [
+        187,
+        189,
+        190
+      ],
+      "verification": [
+        "Original linkage orientation and washer stacks restored; bolt directions matched."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=187",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=189",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=190"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "engine-mount-torque"
+      ]
+    },
+    {
+      "id": "rear-link-torque",
+      "title": "Secure the linkage and lower shock",
+      "instruction": "Tighten the connecting-arm frame nut and connecting-arm relay nut to 80 NÂ·m each. Tighten the relay-arm swingarm nut to 70 NÂ·m and the lower shock nut to 53 NÂ·m. The upper shock mount was separately restored to56 N·m in this frame sequence; verify that recorded check.",
+      "source_pdf_pages": [
+        190,
+        191
+      ],
+      "verification": [
+        "Frame 80, relay 80, swingarm 70, lower shock 53 NÂ·m recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "rear-link-refit"
+      ]
+    },
+    {
+      "id": "rear-brake-refit",
+      "title": "Mount the closed rear brake assembly",
+      "instruction": "Refit the rear master cylinder to its frame mount with both mounting bolts10 N·m, keeping its original pushrod/clevis adjustment unchanged. Restore the hose along the swingarm: paint mark up, no interference with the spring or suspension. Seat each retaining clamp fully, latch by at least three notches and face the clamp opening inward. Keep caliper/bracket supported for wheel insertion. Pedal pivot/spring are restored by the engine closure step next.",
+      "source_pdf_pages": [
+        61,
+        76,
+        77,
+        152,
+        153
+      ],
+      "verification": [
+        "Master mount bolts10 N·m; closed hose correctly routed; pedal/clevis unchanged."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=61",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=76",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=77",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=152",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=153"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "rear-link-torque"
+      ]
+    },
+    {
+      "id": "engine-release-refit",
+      "title": "Restore the clutch release unit",
+      "instruction": "Replace the mounting O-ring and lubricate it and the pushrod contact end with silicone grease. Restore the retained washer and seat the release cylinder. Apply specified LOCTITE treatment to the two mount bolts and torque to 10 NÂ·m. Keep hose unions and bleed screw untouched.",
+      "source_pdf_pages": [
+        59,
+        254,
+        257
+      ],
+      "verification": [
+        "New O-ring/washer correct; mount bolts 10 NÂ·m; hydraulic line closed."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=59",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=254",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=257"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "rear-brake-refit"
+      ]
+    },
+    {
+      "id": "engine-pedal-refit",
+      "title": "Restore pedal, guard and breather",
+      "instruction": "Restore the brake-pedal pivot and spring, lubricating the illustrated pivot/seal contact locations with lithium-soap grease; tighten its bolt 26 NÂ·m. Refit the engine guard at 7 NÂ·m. Route the head breather between the two front bracket bolts and rear bracket bolt, with its paint marks within the holder/clamp areas.",
+      "source_pdf_pages": [
+        61,
+        62,
+        64,
+        65,
+        210
+      ],
+      "verification": [
+        "Pedal 26/guard 7 NÂ·m; spring attached; breather routing and marks correct."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=61",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=62",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=64",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=65",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=210"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "engine-release-refit"
+      ]
+    },
+    {
+      "id": "engine-sprocket-refit",
+      "title": "Restore the drive sprocket and chain",
+      "instruction": "Refit the original sprocket with a new lock washer. Apply source-specified LOCTITE to the sprocket nut, tighten it 90 NÂ·m and bend the washer tabs against its flats. Align shift-shaft/pedal punch marks and tighten the pedal bolt 12 NÂ·m. Refit the cover at 7 NÂ·m. Fit the stock chain using its matched link/plate and a new clip with closed end leading chain travel.",
+      "source_pdf_pages": [
+        58,
+        59,
+        196,
+        198,
+        267,
+        268
+      ],
+      "verification": [
+        "Sprocket 90 and lock tabs; shift 12; cover 7; new correctly oriented chain clip."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=58",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=59",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=196",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=198",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=267",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=268"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "engine-pedal-refit"
+      ]
+    },
+    {
+      "id": "rear-refit",
+      "title": "Refit the wheel and chain",
+      "instruction": "Grease the oil-seal lips with lithium-soap-based grease and refit the collars. Place the disc between the brake pads and locate the caliper bracket correctly in its swingarm guide. Push the wheel forward and put the chain onto the sprocket. Fit the left puller and insert the greased axle from the left.",
+      "source_pdf_pages": [
+        134,
+        137,
+        138
+      ],
+      "verification": [
+        "Collars retained; bracket engaged; disc between pads; chain on sprocket; axle from left."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=134",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=137",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=138"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "engine-sprocket-refit"
+      ]
+    },
+    {
+      "id": "rear-hardware",
+      "title": "Fit the right puller and nut",
+      "instruction": "Fit the right chain puller, washer and axle nut. Leave the nut temporarily snug until chain adjustment is complete.",
+      "source_pdf_pages": [
+        138
+      ],
+      "verification": [
+        "Right puller and washer present; axle nut temporary only."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=138"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "rear-refit"
+      ]
+    },
+    {
+      "id": "engine-ground-starter",
+      "title": "Restore the engine ground and starter lead",
+      "instruction": "Refit the ground terminal at the cylinder-head location shown and tighten its bolt 7 NÂ·m; point the lead upward and route it outside the high-tension cord. Refit the starter lead at 6 NÂ·m while holding the motor-side nut with a spanner. Restore its clamp without slack, as shown.",
+      "source_pdf_pages": [
+        64,
+        65,
+        68,
+        69,
+        208,
+        222,
+        245
+      ],
+      "verification": [
+        "Head ground 7 NÂ·m and upward; starter 6 NÂ·m with terminal counterheld."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=64",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=65",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=68",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=69",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=208",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=222",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=245"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "rear-hardware"
+      ]
+    },
+    {
+      "id": "engine-harness-refit",
+      "title": "Reconnect and route the engine harness",
+      "instruction": "Reconnect stator, crankshaft-position, gear-position and coolant-temperature connectors and their covers. Route stator/gear leads outside the head breather; stator lead passes behind the radiator without pinch. Keep clutch hose outside those leads and secure the original lower/upper tie positions shown. Install the plug cap fully against the cover; route ground/temperature/high-tension leads outside the breather. Replace released ties in the diagram directions. At the lower engine tie between the indicated left-cover bolts, point the lock outward. At the tie above the upper radiator boss, point the lock forward. Keep rectifier/regulator leads inside the tension arm and throttle cables behind the switch leads; align clutch-hose paint marks to the forward-facing clamp.",
+      "source_pdf_pages": [
+        64,
+        65,
+        68,
+        69,
+        72,
+        73,
+        208
+      ],
+      "verification": [
+        "Every labeled connector latched/covered; source routing and tie locations verified."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=64",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=65",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=68",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=69",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=72",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=73",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=208"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "engine-ground-starter"
+      ]
+    },
+    {
+      "id": "engine-intake-refit",
+      "title": "Reseat the throttle body",
+      "instruction": "Remove intake protection and seat the intact throttle body fully in its original engine-side joint. Restore the clamp orientation and tighten the throttle-body joint clamp to 3.0 NÂ·m. Keep both cables routed without tension and check full smooth throttle return. Sensors and calibration screws remain untouched.",
+      "source_pdf_pages": [
+        57,
+        96,
+        310,
+        312
+      ],
+      "verification": [
+        "Joint fully seated 3.0 NÂ·m; throttle returns smoothly; cables not trapped."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=57",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=96",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=310",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=312"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "engine-harness-refit"
+      ]
+    },
+    {
+      "id": "engine-hoses-refit",
+      "title": "Reconnect the engine coolant hoses",
+      "instruction": "Remove temporary port covers. Restore radiator hoses 1,3 and 4 to their marked engine connections and original clamp positions; tighten each disturbed radiator-hose clamp screw to 1.5 NÂ·m. Check there are no kinks or trapped hoses. Radiator pipe seals and temperature sensor were not removed.",
+      "source_pdf_pages": [
+        57,
+        296,
+        297
+      ],
+      "verification": [
+        "Hoses 1/3/4 correct; disturbed clamps 1.5 NÂ·m."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=57",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=296",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=297"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "engine-intake-refit"
+      ]
+    },
+    {
+      "id": "engine-exhaust-header-install",
+      "title": "Seat the new header gasket",
+      "instruction": "Install the new gasket at the head and refit header pipe 1. Tighten all header nuts first to 7 NÂ·m, then retighten them to 10 NÂ·m. Do not apply the protector-screw locking-agent note to these nuts.",
+      "depends_on": [
+        "engine-hoses-refit"
+      ],
+      "source_pdf_pages": [
+        206,
+        212
+      ],
+      "verification": [
+        "New head gasket; all header nuts 7 then 10 NÂ·m."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=206",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=212"
+      ],
+      "record_required": true,
+      "origin": "Original source-based summary with support and logging workflow adaptations."
+    },
+    {
+      "id": "engine-exhaust-midpipe-install",
+      "title": "Locate pipe 2 and its clamp",
+      "instruction": "Install the new pipe-joint gaskets in their PDF206 positions. Refit the pipe-2 clamp, pipe 2 and bracket bolt. At each joint, engage the clamp projection in the pipe/silencer slot and keep the clamp off the raised projection illustrated in PDF212. Leave final bracket and clamp tightening until the silencer is seated.",
+      "depends_on": [
+        "engine-exhaust-header-install"
+      ],
+      "source_pdf_pages": [
+        206,
+        212
+      ],
+      "verification": [
+        "Fresh joint seals seated; clamp locating features correct."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=206",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=212"
+      ],
+      "record_required": false,
+      "origin": "Original source-based summary with support and logging workflow adaptations."
+    },
+    {
+      "id": "engine-exhaust-silencer-install",
+      "title": "Refit the complete silencer",
+      "instruction": "Refit the silencer clamp and complete silencer on the seated joint. Install the retained mounting hardware and tighten both silencer mounting bolts to 30 NÂ·m.",
+      "depends_on": [
+        "engine-exhaust-midpipe-install"
+      ],
+      "source_pdf_pages": [
+        206,
+        212,
+        213
+      ],
+      "verification": [
+        "Both silencer mounts 30 NÂ·m; joints fully engaged."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=206",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=212",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=213"
+      ],
+      "record_required": true,
+      "origin": "Original source-based summary with support and logging workflow adaptations."
+    },
+    {
+      "id": "engine-exhaust-joints-final",
+      "title": "Tighten the bracket and both clamps",
+      "instruction": "Confirm front and rear joints remain fully inserted while tightening the exhaust-pipe bracket bolt to 20 NÂ·m, pipe-2 clamp bolt to 16 NÂ·m and silencer clamp bolt to 16 NÂ·m.",
+      "depends_on": [
+        "engine-exhaust-silencer-install"
+      ],
+      "source_pdf_pages": [
+        213
+      ],
+      "verification": [
+        "Bracket 20 NÂ·m; each joint clamp 16 NÂ·m; projections correctly located."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=213"
+      ],
+      "record_required": true,
+      "origin": "Original source-based summary with support and logging workflow adaptations."
+    },
+    {
+      "id": "engine-access-case-refit",
+      "title": "Seat the case and secure its mounts",
+      "instruction": "Remove the temporary inlet protection and seat the complete case fully on the throttle-body intake connection in its original orientation. Restore the original mounting collars, dampers and washers. Tighten the three case mounting bolts to 7 NÂ·m and the air-filter-case joint clamp screw to 3 NÂ·m. Confirm the joint lip is evenly seated and not folded. Reconnect the temperature-sensor coupler until its latch engages.",
+      "source_pdf_pages": [
+        57,
+        309,
+        310
+      ],
+      "verification": [
+        "Three mounts 7 NÂ·m; joint clamp 3 NÂ·m; joint fully seated; sensor connector latched."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=57",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=309",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=310"
+      ],
+      "record_required": true,
+      "depends_on": [
+        "engine-exhaust-joints-final"
+      ],
+      "origin": "Original source-based bounded summary; part logging and clean-joint protection are workflow adaptations."
+    },
+    {
+      "id": "engine-access-intake-check",
+      "title": "Verify the restored intake",
+      "instruction": "Check case support, full joint seating, wiring clearance and that all temporary intake protection has been removed. The filter and bracket stayed assembled; if either has moved or a seal cannot be accounted for, resolve it before closing the bike.",
+      "source_pdf_pages": [
+        309,
+        310,
+        313,
+        314
+      ],
+      "verification": [
+        "Intake complete and clean; retained assembly bracket/element secure."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=309",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=310",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=313",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=314"
+      ],
+      "record_required": true,
+      "depends_on": [
+        "engine-access-case-refit"
+      ],
+      "origin": "Original source-based bounded summary; part logging and clean-joint protection are workflow adaptations."
+    },
+    {
+      "id": "engine-access-tank-install",
+      "title": "Reconnect the fuel system",
+      "instruction": "Refit the tank on its retained dampers/collars. Tighten its two front mounting bolts to 8 NÂ·m and the tank retaining screw to 4 NÂ·m. Remove the temporary joint covers, push the fuel hose fully onto the pipe until it clicks, and slide the connector cover back into its locked position. Keep the hose holder correctly oriented, with no kink or pinch. Reconnect the pump plug.",
+      "depends_on": [
+        "engine-access-intake-check"
+      ],
+      "source_pdf_pages": [
+        306,
+        308
+      ],
+      "verification": [
+        "Tank front bolts 8 NÂ·m/retaining screw 4 NÂ·m; hose latched/covered/routed; pump plug connected."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=306",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=308"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": false
+    },
+    {
+      "id": "engine-cooling-fill",
+      "title": "Refill with the specified mixture",
+      "instruction": "Use the specified aluminum-compatible ethylene-glycol antifreeze and distilled water at a final 1:1 coolant-to-water ratio. Do not mix antifreeze types. Fill to the maximum level illustrated in PDF106. The complete system nominal volume is 1.03 L including all routes; correct level and concentration govern, not forcing in that amount after an incomplete drain. Wash any spill on paint away immediately with water.",
+      "depends_on": [
+        "engine-access-tank-install"
+      ],
+      "source_pdf_pages": [
+        106,
+        107
+      ],
+      "verification": [
+        "Mixture/product and amount recorded; level at illustrated maximum."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=106",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=107"
+      ],
+      "record_required": true,
+      "origin": "Original source-based mechanical summary; collection, logging and concurrent-work checks are workflow adaptations."
+    },
+    {
+      "id": "engine-cooling-cap",
+      "title": "Secure the radiator cap",
+      "instruction": "Install and secure the radiator cap. Account for the drain hardware, collection container and tools before running the engine.",
+      "depends_on": [
+        "engine-cooling-fill"
+      ],
+      "source_pdf_pages": [
+        107
+      ],
+      "verification": [
+        "Cap secured; drain sealed; tools clear."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=107"
+      ],
+      "record_required": false,
+      "origin": "Original source-based mechanical summary; collection, logging and concurrent-work checks are workflow adaptations."
+    },
+    {
+      "id": "pressure-test",
+      "title": "Pressure-check the reinstalled cooling system",
+      "instruction": "With coolant at the upper level, install the specified radiator tester/adapter and apply137.3 kPa; do not exceed that pressure. It must hold5–10 seconds. Check radiator joints and hoses for leaks or bulging, correct any fault, release pressure and cover the connection with a cloth before removing the tester. Secure the radiator cap. Do not perform this check on a hot pressurized system.",
+      "source_pdf_pages": [
+        298,
+        299
+      ],
+      "verification": [
+        "Cooling system holds137.3 kPa for5–10 seconds; no leaks/bulges; cap restored."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=298",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=299"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "engine-cooling-cap"
+      ]
+    },
+    {
+      "id": "engine-oil-fill",
+      "title": "Refill the oil for the actual engine condition",
+      "instruction": "Record the applicable oil quantity:0.94 L for oil change with unchanged filter,0.96 L with filter removal, or 1.20 L for a disassembled engine. Use the OEM-listed Yamalube/API SG-or-higher JASO MA oil; choose 10W-40,10W-50,15W-40,20W-40 or 20W-50 against the linked temperature chart; do not add friction modifiers or energy-conserving oil. Fit the filler cap with a new O-ring. Final level/flow checks remain required.",
+      "source_pdf_pages": [
+        98,
+        99
+      ],
+      "verification": [
+        "Actual engine condition, oil grade and measured fill recorded; new filler O-ring."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=98",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=99"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "pressure-test"
+      ]
+    },
+    {
+      "id": "engine-battery-refit",
+      "title": "Reconnect the battery and inspect routing",
+      "instruction": "Recheck all engine interfaces, then reconnect positive battery lead before negative. Restore positive-terminal cover and the exact illustrated lead routing, with positive lead below negative. Keep all loose conductors away from the frame and secure the original connections.",
+      "source_pdf_pages": [
+        74,
+        75,
+        123
+      ],
+      "verification": [
+        "Positive then negative restored; terminal cover/routing correct."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=74",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=75",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=123"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "engine-oil-fill"
+      ]
+    },
+    {
+      "id": "engine-access-body-install",
+      "title": "Refit the panels and seat",
+      "instruction": "Locate the radiator-guard projections in the shroud holes, then install the shrouds at 7 NÂ·m. Refit the air-filter-case cover by engaging its projection and both ribs. Slide side-cover tabs into their slots; the right-cover rib sits under the rear-fender rib. Tighten ordinary left/right side-cover bolts to 7 NÂ·m and the two seat bolts to 13 NÂ·m. Refit the sub-seat with its tether untwisted, then press, rotate and secure its quick fastener.",
+      "depends_on": [
+        "engine-battery-refit"
+      ],
+      "source_pdf_pages": [
+        38,
+        101,
+        123,
+        124,
+        125,
+        126,
+        127
+      ],
+      "verification": [
+        "Tabs/ribs seated; shrouds/side-cover bolts 7 NÂ·m; seat bolts 13 NÂ·m; quick fastener locked."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=38",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=101",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=123",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=124",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=125",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=126",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=127"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": false
+    },
+    {
+      "id": "engine-slack",
+      "title": "Measure and adjust chain slack",
+      "instruction": "Loosen the rear axle nut and both adjuster locknuts first. With the rear wheel raised and gearbox in neutral, pull the chain upward above the chain-guide mounting bolt with about 50 N. Measure between the drive-chain guide and the bottom of the chain at the exact diagram location. Adjust both sides equally to 50â€“60 mm. Push the wheel forward so each puller/end plate is seated against the swingarm end.",
+      "source_pdf_pages": [
+        111,
+        138
+      ],
+      "verification": [
+        "Measured slack 50â€“60 mm using OEM50 N reference; pullers equally adjusted and seated."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=111",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=138"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "engine-access-body-install"
+      ]
+    },
+    {
+      "id": "engine-torque",
+      "title": "Secure the rear axle and adjusters",
+      "instruction": "Tighten the rear axle nut to 135 NÂ·m and both chain-adjuster locknuts to 21 NÂ·m. Recheck the chain slack after tightening.",
+      "source_pdf_pages": [
+        112,
+        138
+      ],
+      "verification": [
+        "Axle 135 NÂ·m; locknuts 21 NÂ·m; final slack recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "engine-slack"
+      ]
+    },
+    {
+      "id": "front-seat-torque",
+      "title": "Seat the forks before final axle tightening",
+      "instruction": "With the bike securely supported on its wheels, push down on the handlebars several times and confirm smooth fork rebound before final axle-nut tightening, as Yamaha specifies. Tighten the axle nut to 115 NÂ·m, then all four axle pinch bolts to 21 NÂ·m. This is a stationary seating operation, not permission to ride with loose axle hardware.",
+      "depends_on": [
+        "engine-torque"
+      ],
+      "source_pdf_pages": [
+        133
+      ],
+      "verification": [
+        "Smooth rebound before nut torque; axle nut 115 NÂ·m; four axle pinch bolts 21 NÂ·m."
+      ],
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original source-based bounded summary; support/logging actions are workflow adaptations.",
+      "record_required": false
+    },
+    {
+      "id": "front-steering-close",
+      "title": "Verify steering and front-end closure",
+      "instruction": "Check the rebuilt steering and front end now: no play or binding, smooth fork action, wheel correctly secured and firm front brake. Inspect hose/cable clearance while the remaining assemblies are still supported. Repeat whole-bike checks after the remaining fluid and startup checks are complete.",
+      "source_pdf_pages": [
+        90,
+        112,
+        113,
+        184
+      ],
+      "verification": [
+        "No play/binding; fork and brake normal; cable/hose clearance and final readings recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "front-seat-torque"
+      ]
+    },
+    {
+      "id": "engine-fuel-ready",
+      "title": "Restore fuel and verify readiness to start",
+      "instruction": "Open the sub-seat access and add clean recommended unleaded gasoline, minimum 91 (R+M)/2; E10 is permitted. Secure the fuel cap and sub-seat fastener with its tether untwisted. Check the pump connector and latched fuel hose/cover, and check for fuel leaks. Select neutral and work in a ventilated area before any starter operation.",
+      "source_pdf_pages": [
+        38,
+        39,
+        40,
+        307,
+        308
+      ],
+      "verification": [
+        "Correct fuel restored; cap/fastener secured; hose/connector checked; no fuel leak; neutral selected."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=38",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=39",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=40",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=307",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=308"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "front-steering-close"
+      ]
+    },
+    {
+      "id": "engine-oil-flow",
+      "title": "Verify oil flow immediately at idle",
+      "instruction": "Start only after fuel, intake, cooling, electrical and mounting closure is complete. Keep the engine at idle; observe the oil-check window for oil flow and decreasing level. If the level does not decrease, stop the engine immediately and investigate the lubrication system instead of revving it.",
+      "source_pdf_pages": [
+        99
+      ],
+      "verification": [
+        "Oil flow/level decrease observed at idle; no leak or abnormal condition."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=99"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "engine-fuel-ready"
+      ]
+    },
+    {
+      "id": "engine-cooling-warm-cool",
+      "title": "Run the prescribed settling cycle",
+      "instruction": "Only with the cooling system and all other work fully assembled, start the engine and warm it for several minutes. Stop it and allow it to cool completely before opening the cap again.",
+      "depends_on": [
+        "engine-oil-flow"
+      ],
+      "source_pdf_pages": [
+        107
+      ],
+      "verification": [
+        "Warm-up completed and engine subsequently fully cooled."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=107"
+      ],
+      "record_required": true,
+      "origin": "Original source-based mechanical summary; collection, logging and concurrent-work checks are workflow adaptations."
+    },
+    {
+      "id": "engine-cooling-recheck",
+      "title": "Recheck the cold level",
+      "instruction": "Keep the bike upright on level ground. With the engine cooled, use the cloth and slow pressure-release method to remove the cap. Allow the coolant to settle, check against the illustrated maximum and add the correct mixture if low. Restore the cap securely. A leak or repeatedly dropping level requires repair rather than repeated top-offs.",
+      "depends_on": [
+        "engine-cooling-warm-cool"
+      ],
+      "source_pdf_pages": [
+        106,
+        107
+      ],
+      "verification": [
+        "Final cold level and mixture recorded; cap secured; no unresolved loss."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=106",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=107"
+      ],
+      "record_required": true,
+      "origin": "Original source-based mechanical summary; collection, logging and concurrent-work checks are workflow adaptations."
+    },
+    {
+      "id": "engine-final-checks",
+      "title": "Verify the installed engine and record closure",
+      "instruction": "Follow the oil-level procedure with the bike upright: warm oil to normal operating temperature, run for 10 seconds, stop and allow a few minutes to settle; level must be between window minimum and maximum mark. Check leaks, normal clutch/brake operation, throttle free play 3â€“6 mm and full return; turn the bars both ways and verify idle does not change. Record all mount torques, fluid quantities, chain slack and unresolved symptoms. Engine installation completion does not substitute for an internal rebuild record.",
+      "source_pdf_pages": [
+        90,
+        96,
+        97,
+        98,
+        99,
+        111,
+        112,
+        211,
+        212,
+        262,
+        263
+      ],
+      "verification": [
+        "Oil level/flow, coolant level, leak/control checks and hardware record complete."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "engine-cooling-recheck"
+      ]
+    },
+    {
+      "id": "frame-final",
+      "title": "Verify the rebuilt chassis as a whole",
+      "instruction": "Check steering play and lock-to-lock clearance, smooth front/rear suspension, front/rear wheel retention and brake action, chain alignment/slack, footrest return and all disturbed frame/engine/linkage fasteners. Check the throttle returns and idle does not change when steering; inspect fuel/oil/coolant leaks and retained harness/tie clearances. Record every unresolved defect and completed separate engine/component job. This record documents reassembly of serviceable stock assemblies, not structural frame repair or automatic permission to ride. With the fuel tank installed, verify the handlebar does not contact it at either steering lock.",
+      "source_pdf_pages": [
+        90,
+        96,
+        111,
+        112,
+        113,
+        184,
+        190,
+        191,
+        195,
+        299
+      ],
+      "verification": [
+        "Whole-bike mechanical/control/fluid checks recorded; unresolved faults remain open."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "engine-final-checks"
+      ]
+    }
+  ],
+  "operation_dependencies": [
+    {
+      "artifact": "docs\\research\\frame-pass3\\engine-remove-refit-v1.procedure.json",
+      "sha256": "d0e2c9546d7bdd05e7b9702df20d8edab462c15a5c1a4f0438e6c928c6bd3713",
+      "kind": "source_reviewed_cutpoint_composition"
+    },
+    {
+      "artifact": "docs\\research\\frame-pass3\\steering-bearing-inspection-v1.procedure.json",
+      "sha256": "a821af77bc9cfe69e8d9b4f36604cae2cb8128e8b3fd852ddeee7a3ca872fb65",
+      "kind": "source_reviewed_cutpoint_composition"
+    },
+    {
+      "artifact": "docs\\research\\frame-pass3\\swingarm-linkage-remove-refit-v1.procedure.json",
+      "sha256": "78e75778e052bdc44df0e7bd265c6a6a358212223e4f69b548576cb116754f43",
+      "kind": "source_reviewed_cutpoint_composition"
+    },
+    {
+      "artifact": "docs\\research\\frame-pass3\\rear-wheel-remove-refit-v1.procedure.json",
+      "sha256": "2a91e8d0b6d866b08ffb3662ff5bebbf0cc439b940c1c41453c0cb0feff1514c",
+      "kind": "source_reviewed_cutpoint_composition"
+    }
+  ],
+  "affected_components": [
+    "engine_modifications",
+    "fork",
+    "shock",
+    "suspension",
+    "intake",
+    "exhaust",
+    "ecu",
+    "clutch",
+    "chain",
+    "swingarm",
+    "linkage",
+    "wheels",
+    "front_wheel",
+    "rear_wheel",
+    "brakes",
+    "front_brake",
+    "rear_brake",
+    "clamps",
+    "triple_clamps",
+    "frame",
+    "subframe",
+    "wiring"
+  ],
+  "entry_state": [
+    "Assembled exact stock 2026 US standard Yamaha YZ450F with serviceable frame and supported stock routing.",
+    "All necessary separate engine/component repairs have defined checks and closure records; this guide does not supply their internal rebuild steps."
+  ],
+  "exit_state": [
+    "Serviceable main frame stripped with pressed steering races and bonded pads retained, inspected and reassembled.",
+    "All removed stock assemblies refitted, disturbed routing and fasteners checked, fluid/operating checks recorded, and unresolved defects preserved.",
+    "Engine and suspension internals remain separate jobs; this is not structural repair or physical validation."
+  ]
+}

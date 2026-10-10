@@ -1,0 +1,64 @@
+{
+  "status": "APPROVED",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2024,
+    "region": "US",
+    "variant": "standard"
+  },
+  "source_sha256": "6e784b3b15fe1e131f0e385676ca2873e74d783ee2499ce561e595bcea9ca9be",
+  "reviewed_candidates": [
+    {
+      "path": "engine-removal-refit-v1.procedure.json",
+      "sha256": "2cec567722238328cb219a31608ba73340463d4ff38da6d025d5f2e3e0321caf"
+    },
+    {
+      "path": "frame-bearing-renewal-reassembly-v1.procedure.json",
+      "sha256": "240362a2768331c7d5276b058ea2c0328fe290068a7806a6e4d3fb596d6496af"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "engine-removal-refit-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "86fb9b99d1efeb08101a68f7f8b232cc0267ccc8e67465e41eec2750f181be96",
+      "source_id": "yamaha-2024-bhr",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 70
+    },
+    {
+      "path": "frame-bearing-renewal-reassembly-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "b6628acf8ba83422ab2eba567569599bdcf953d01d05e419aa4358a04c554604",
+      "source_id": "yamaha-2024-bhr",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 151
+    }
+  ],
+  "reviewers": {
+    "engine70": "yamaha_workshop_evidence",
+    "frame151": "root"
+  },
+  "checks": [
+    "Exact2024 four lower bracket plates,12Nm exhaust,7mm forkprojection,YDT03269 and routing",
+    "Closed hydraulic/support/pivot single-use cutpoints",
+    "Wheel/steering/linkage/eye bearing stack/depth/preparation and final closure",
+    "Fifty-newton chain verification agrees with BHR105; actual source citation corrections84/85/93/105/106/100/101",
+    "Fuel hose and pump lead through cover guide292; filler O-ringLS242",
+    "Tool torque range covers actual required joints"
+  ],
+  "physical_validation": false
+}

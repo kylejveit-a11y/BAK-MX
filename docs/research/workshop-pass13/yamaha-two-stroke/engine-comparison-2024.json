@@ -1,0 +1,173 @@
+{
+  "status": "AUTHOR_REVIEWED_PENDING_PEER",
+  "reference_sha256": "79dc2b20faec6f0040fea0606a193af63b1e15e6f5f8e57cc4dad1905dec13d5",
+  "target": {
+    "target": {
+      "manufacturer": "Yamaha",
+      "model": "YZ250",
+      "model_year": 2024,
+      "region": "US",
+      "variant": "standard"
+    },
+    "source_sha256": "766bc3ef6c02e72741f31cc31f8433568b0502dcc0638c685ab1ce37d71e497a",
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BCR-2819U-12_02.pdf",
+    "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\BCR-2819U-12_02.pdf",
+    "pages": [
+      {
+        "pdf_page": 166,
+        "reference_pdf_page": 176,
+        "text_sha256": "8ac722febd424a38f555ceee42b6e1de201d7c8acfce064c0ed14ba6fa9102de",
+        "reference_text_sha256": "6da058ebaa42fdbb62aa11a50df471e140f8c17c8e3854cd2405530a0303d7b9",
+        "normalized_text_equal": false,
+        "normalized_similarity": 0.5858,
+        "render_pixel_sha256": "fae3accced67554e4552405b5df9c7b1944b030a43ffabe28cf7a0907f82fdbd",
+        "reference_render_pixel_sha256": "c547bccd45da6e5ed5ae80acfcb84f121f6fd8d7a4ed6b008cc9d9a97cfac998",
+        "render_pixels_equal": false
+      },
+      {
+        "pdf_page": 167,
+        "reference_pdf_page": 177,
+        "text_sha256": "3bbe291ecac816c638618a48863c74700df1f20e96d0be789db66e62b5bc1f73",
+        "reference_text_sha256": "ae1ea7ded4a227aa7558793c036ee740623c30faf3a7dafb0be024a72715cbc7",
+        "normalized_text_equal": false,
+        "normalized_similarity": 0.59,
+        "render_pixel_sha256": "508cde39b63956b1dca4011d8b41dfbfa21da051b44dfe8f965329dd7b600c47",
+        "reference_render_pixel_sha256": "45198df776f66e2c6efe93dcc4c491bb2a5ab88461c461febfec3276ba88e625",
+        "render_pixels_equal": false
+      },
+      {
+        "pdf_page": 168,
+        "reference_pdf_page": 178,
+        "text_sha256": "53137aa4a99ad202f5c46573b28364258ad23e972f84469d013b8e3e711e80f0",
+        "reference_text_sha256": "98c7cd741772050b18bd8378521725b88ef45a5104cc961a7f9cade777b079d1",
+        "normalized_text_equal": false,
+        "normalized_similarity": 0.9003,
+        "render_pixel_sha256": "26eedc5d9505a56eee26d3ec4fa1918aacf7b1c27c904f882ec83e054aeba34d",
+        "reference_render_pixel_sha256": "b2a933d2d72f8d4fd581738838a087525892de616f8a5796be858d6dcf887155",
+        "render_pixels_equal": false
+      },
+      {
+        "pdf_page": 169,
+        "reference_pdf_page": 179,
+        "text_sha256": "5d33c0162c631d9c08e79836853242fd69b19be47ada9e21c5cd7bd5823a3c51",
+        "reference_text_sha256": "b6db2fc21853878add1196622713dd7d1b16e6e48fddce590f708af7fab5db34",
+        "normalized_text_equal": false,
+        "normalized_similarity": 0.8541,
+        "render_pixel_sha256": "511771a3d3c4d3c32565b52a90c63a37937f86361cbe46f142b2fa32e1b09c73",
+        "reference_render_pixel_sha256": "9ce15d8f3f54e6d7aa6912164cd146a1b2683c4830be86d152a6aa26557d1098",
+        "render_pixels_equal": false
+      },
+      {
+        "pdf_page": 170,
+        "reference_pdf_page": 180,
+        "text_sha256": "cb72c25fc6e9382cd312741426c4ec4232f4671bd18fe98ed0845ce2ed96d60d",
+        "reference_text_sha256": "8c705af09d28d83c2b927d1c9020df857a9bbbaca51c3f7ac0930a7c2e8aefac",
+        "normalized_text_equal": false,
+        "normalized_similarity": 0.5713,
+        "render_pixel_sha256": "3f8cc18e482d6003c67b6aaad1aef1c13a9e2a986d5e85b3263fafe64542fe08",
+        "reference_render_pixel_sha256": "854d097e1a4d64966ea0877b255207d25f854af12bb25be804d318d2dae923b7",
+        "render_pixels_equal": false
+      },
+      {
+        "pdf_page": 171,
+        "reference_pdf_page": 181,
+        "text_sha256": "96b8d453fedf968ea5de5cb29b8bc3b281d9d24fd9a34f11286339fb5ef49121",
+        "reference_text_sha256": "aaec4665e931b7207bc52c39bc1e4db421f16f073981f837b324cb6714d0786e",
+        "normalized_text_equal": false,
+        "normalized_similarity": 0.4798,
+        "render_pixel_sha256": "ef82684b580b45e6caa0e93e21b104b427742e909f2d5cd9e9d0b48958d9c473",
+        "reference_render_pixel_sha256": "3576c7ab192ebc14fafd28c1295dc857bdbe62e4dc945c82c58ba226af2e4f00",
+        "render_pixels_equal": false
+      },
+      {
+        "pdf_page": 172,
+        "reference_pdf_page": 182,
+        "text_sha256": "1513d72f6b42a0e79e2cb07a549b7e5b7d329bd2655fc44620d305c712ab6b2d",
+        "reference_text_sha256": "7c04852b4d8b4a3c9fe5ffe73a5c5e92bf6939ad05b3df77bffb2f6e8b52ff7a",
+        "normalized_text_equal": false,
+        "normalized_similarity": 0.3206,
+        "render_pixel_sha256": "ff69f2f9255b1c60aa019d8cb2149cc33166679067a529ce76bff6ec326a8fe0",
+        "reference_render_pixel_sha256": "02ee1d3d541cead40c08dac4c8d1a1fbbc64931dc5672a037fc9488c0ce60fd1",
+        "render_pixels_equal": false
+      },
+      {
+        "pdf_page": 173,
+        "reference_pdf_page": 183,
+        "text_sha256": "a090f1c6f23b03b5d02409e14d016422346eafe00edff03c68f3f7804c7c639d",
+        "reference_text_sha256": "fe3c9c7113c6aa33e8c1ae2579d7ae554a32ca991ce0a5ae5311321daa68b889",
+        "normalized_text_equal": false,
+        "normalized_similarity": 0.8535,
+        "render_pixel_sha256": "8b18ff91ca7e13d41ae4d2b7890c4cd9d33ad9b5cc7ad131ffcf4f74949939b6",
+        "reference_render_pixel_sha256": "dca02de7be9b230008d07827a0519b54417bf0018112e00599e24eb314a9e6c6",
+        "render_pixels_equal": false
+      },
+      {
+        "pdf_page": 174,
+        "reference_pdf_page": 184,
+        "text_sha256": "55d22c1057e3816e67bf8ac313ce60963bf60d3ee7cae7dd8f94dc0190db7dee",
+        "reference_text_sha256": "28da27241dccb42dbfe759597864a0306aa7022c711f72664bf2825452507602",
+        "normalized_text_equal": false,
+        "normalized_similarity": 0.7721,
+        "render_pixel_sha256": "f0f9ea4ab60997019b040a5324670a39d1c400526e0c649d33c1c66eedb19876",
+        "reference_render_pixel_sha256": "0eb32fd47f591e543e0fff8160b2bab44cdbf9237a90a3bc4580843ce0f5ba12",
+        "render_pixels_equal": false
+      },
+      {
+        "pdf_page": 175,
+        "reference_pdf_page": 185,
+        "text_sha256": "d2c19bdd8015db7c03c8c162858cfa4a1c563e4bc519d2bde5aa8963120ee7a4",
+        "reference_text_sha256": "fd5b8fcd5f127359d0054364c327265d1aac0879b83744b075e28dffeae7b02d",
+        "normalized_text_equal": false,
+        "normalized_similarity": 0.8259,
+        "render_pixel_sha256": "8f169852cdef6e2f1225122cf8339c44b86c9e3a717700d7ae1b3a916289e5ef",
+        "reference_render_pixel_sha256": "4dc2ae1a53e93aa032efa98027c3a7fff616fc3724e2f5930a71ff47c7abfe4c",
+        "render_pixels_equal": false
+      },
+      {
+        "pdf_page": 176,
+        "reference_pdf_page": 186,
+        "text_sha256": "a1a7721e15385450fd20181417d426af09c10a1640d974d1c66f51870a673079",
+        "reference_text_sha256": "53dbf2f14bd4e53f40203c7c7b7330d7f63d93a5ffa2caf7ebf6c71265069d85",
+        "normalized_text_equal": false,
+        "normalized_similarity": 0.742,
+        "render_pixel_sha256": "da9aa70c23566a2f23f8394bacfdd5bf5eb3c80c76e56aeb9601c1c21a08eae2",
+        "reference_render_pixel_sha256": "fed0666abfe670854fc4e1c0cca1851319ee26fc02ec923a2b57a71812c84158",
+        "render_pixels_equal": false
+      }
+    ],
+    "author_review_status": "REVIEWED_EXACT_SOURCE",
+    "text_pages_reviewed": [
+      7,
+      41,
+      42,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176
+    ],
+    "rendered_pages_reviewed": [
+      166,
+      167,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176
+    ],
+    "findings": [
+      "All eleven exact top-end pages read, including changed extraction order and older layout; no changed mechanical requirements within covered scope.",
+      "Exploded head, YPVS and all assembly/measurement diagrams independently viewed against exact2024 values and orientation.",
+      "Engine specification41 coolant1.20L and cap93.3-122.7kPa differ from newer1.18L/107.9-137.3. Those closure operations are excluded, never inherited.",
+      "Symbols and exact NGK BR8EG gap0.5-0.6 confirmed in2024 source7/41."
+    ]
+  }
+}

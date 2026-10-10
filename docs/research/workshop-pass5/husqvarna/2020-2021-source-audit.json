@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-09-13",
+  "year_inheritance": "NONE",
+  "targets": [
+    {
+      "model": "FC 250",
+      "model_year": 2020,
+      "region": "US",
+      "query_url": "https://www.husqvarna-motorcycles.com/en-us/service/user-manuals/_jcr_content/root/responsivegrid_1_col/bikemanuals.manuals.json?modelName=FC+250+2020",
+      "status": "ACQUIRED_PENDING_PROCEDURE_REVIEW",
+      "response_sha256": "c19ad7e26f09561ed955df96c032d70ece7c0cbf2ce5620c504939659fea36e5",
+      "english_results": [
+        {
+          "modelName": "FC 250 2020",
+          "title": "FC 250 2020 EU (en) - 2020",
+          "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3402335_en_OM.pdf"
+        }
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3402335_en_OM.pdf",
+      "document_sha256": "182a3542a53be5b6f0d647f6a10cd05629b81233691f200b78703750791070bb",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\hq-fc-250-2020.pdf",
+      "scope_pdf_page": 3,
+      "scope_text": "This document is valid for the following models:\nFC 250 (F2101T1)\n",
+      "operation_locators": {
+        "Removing the fork legs": [
+          51
+        ],
+        "Installing the fork legs": [
+          52
+        ],
+        "Removing the front wheel": [
+          92
+        ],
+        "Installing the front wheel": [
+          93
+        ],
+        "Removing the lower triple clamp": [
+          52
+        ]
+      },
+      "scope_assessment": "English selector EU; title has no standard-US identity. Region bridge remains unresolved; no guide inheritance."
+    },
+    {
+      "model": "FC 450",
+      "model_year": 2020,
+      "region": "US",
+      "query_url": "https://www.husqvarna-motorcycles.com/en-us/service/user-manuals/_jcr_content/root/responsivegrid_1_col/bikemanuals.manuals.json?modelName=FC+450+2020",
+      "status": "ACQUIRED_PENDING_PROCEDURE_REVIEW",
+      "response_sha256": "4b8f04c43a150ae5dd5fd5b5a40b4346997b9070ba5bf55dd95e1e2ef3f705ec",
+      "english_results": [
+        {
+          "modelName": "FC 450 2020",
+          "title": "FC 450 2020 EU (en) - 2020",
+          "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3402354_en_OM.pdf"
+        }
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3402354_en_OM.pdf",
+      "document_sha256": "d313c185fe62c76adeab1a3290ddb1fc3505ad08f48c7c67f10f81c235393210",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\hq-fc-450-2020.pdf",
+      "scope_pdf_page": 3,
+      "scope_text": "This document is valid for the following models:\nFC 450 (F2401T1)\nFX 450 (F2301T6)\nFC 450 ROCKSTAR EDITION US (F2475T1)\n",
+      "operation_locators": {
+        "Removing the fork legs": [
+          57
+        ],
+        "Installing the fork legs": [
+          58
+        ],
+        "Removing the front wheel": [
+          109
+        ],
+        "Installing the front wheel": [
+          110
+        ],
+        "Removing the lower triple clamp": [
+          59
+        ]
+      },
+      "scope_assessment": "English selector EU; title has no standard-US identity. Region bridge remains unresolved; no guide inheritance."
+    },
+    {
+      "model": "FC 250",
+      "model_year": 2021,
+      "region": "US",
+      "query_url": "https://www.husqvarna-motorcycles.com/en-us/service/user-manuals/_jcr_content/root/responsivegrid_1_col/bikemanuals.manuals.json?modelName=FC+250+2021",
+      "status": "ACQUIRED_PENDING_PROCEDURE_REVIEW",
+      "response_sha256": "10d79f5eebe0b12f512a09ae3e56b414492777cf18b998c68088194ebf2c4374",
+      "english_results": [
+        {
+          "modelName": "FC 250 2021",
+          "title": "FC 250 2021 US (en) - 2021",
+          "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402442_en_OM.pdf"
+        },
+        {
+          "modelName": "FC 250 2021",
+          "title": "FC 250 2021 EU (en) - 2021",
+          "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402442_en_OM.pdf"
+        }
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402442_en_OM.pdf",
+      "document_sha256": "61ef03cb7f18f20e3ea40a303acebec990f206b30050a37b5cc1e7a04ad1dd4c",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\hq-fc-250-2021.pdf",
+      "scope_pdf_page": 3,
+      "scope_text": "This document is valid for the following models:\nFC 250 EU (F2101U1)\nFC 250 US (F2175U1)\n",
+      "operation_locators": {
+        "Removing the fork legs": [
+          51
+        ],
+        "Installing the fork legs": [
+          52
+        ],
+        "Removing the front wheel": [
+          94
+        ],
+        "Installing the front wheel": [
+          95
+        ],
+        "Removing the lower triple clamp": [
+          53
+        ]
+      },
+      "scope_assessment": "Exact US title identity confirmed; procedure review separate"
+    },
+    {
+      "model": "FC 450",
+      "model_year": 2021,
+      "region": "US",
+      "query_url": "https://www.husqvarna-motorcycles.com/en-us/service/user-manuals/_jcr_content/root/responsivegrid_1_col/bikemanuals.manuals.json?modelName=FC+450+2021",
+      "status": "ACQUIRED_PENDING_PROCEDURE_REVIEW",
+      "response_sha256": "bf147b964c5a4254f42b0fdb4e0070a5ee0d691f1fa1202eb88bd0beaf665323",
+      "english_results": [
+        {
+          "modelName": "FC 450 2021",
+          "title": "FC 450 2021 US (en) - 2021",
+          "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402445_en_OM.pdf"
+        },
+        {
+          "modelName": "FC 450 2021",
+          "title": "FC 450 2021 EU (en) - 2021",
+          "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402445_en_OM.pdf"
+        }
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402445_en_OM.pdf",
+      "document_sha256": "ddb2933ed8a6e8f0a863cee58d15b4b614b9e376cdcb199e43f98d5e3981cf46",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\hq-fc-450-2021.pdf",
+      "scope_pdf_page": 3,
+      "scope_text": "This document is valid for the following models:\nFC 450 EU (F2401U1)\nFC 450 US (F2475U2)\nFX 450 (F2301U6)\nFC 450 ROCKSTAR EDITION US (F2475U1)\n",
+      "operation_locators": {
+        "Removing the fork legs": [
+          59
+        ],
+        "Installing the fork legs": [
+          60
+        ],
+        "Removing the front wheel": [
+          111
+        ],
+        "Installing the front wheel": [
+          112
+        ],
+        "Removing the lower triple clamp": [
+          61
+        ]
+      },
+      "scope_assessment": "Exact US title identity confirmed; procedure review separate"
+    }
+  ],
+  "completion": {
+    "engine": "NOT_REVIEWED",
+    "frame": "NOT_REVIEWED",
+    "fork": "NOT_REVIEWED",
+    "shock": "NOT_REVIEWED"
+  }
+}

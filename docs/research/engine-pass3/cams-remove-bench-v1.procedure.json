@@ -1,0 +1,287 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2026-yz450f-cams-remove-bench-v1",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Remove cams for engine overhaul",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete bounded bench operation from the declared entry state to the declared exit state. Whole-bike access and downstream engine closure are separate dependencies.",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      7,
+      56,
+      91,
+      92,
+      97,
+      214,
+      215,
+      216,
+      217,
+      219
+    ],
+    "printed_pages": [
+      "Symbols (unnumbered)",
+      "2-9",
+      "3-7",
+      "3-8",
+      "3-13",
+      "5-11",
+      "5-12",
+      "5-13",
+      "5-14",
+      "5-16"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "All cited operation pages visually reviewed. General symbols and conditional torque rules retained."
+  },
+  "applicability": {
+    "included": "Exact US2026 YZ450F standard stock components only",
+    "excluded": [
+      "Cam installation/engine closure",
+      "Automatic declaration that recorded clearances are in range"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "affected_components": [
+    "engine",
+    "cams"
+  ],
+  "required_tools": [
+    {
+      "name": "Feeler gauges"
+    },
+    {
+      "name": "Hand crank-rotation wrench; clean chain wire; metric tools"
+    },
+    {
+      "name": "Thin screwdriver for tensioner check"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "Clean labeled trays and protective cloths"
+    }
+  ],
+  "preflight": [
+    "Removed cold engine; left rotor/cover retained for timing reference."
+  ],
+  "entry_state": [
+    "Removed cold engine; left rotor/cover retained for timing reference."
+  ],
+  "exit_state": [
+    "Cams/caps/tensioner removed, chain secured and cold readings recorded; head remains installed."
+  ],
+  "critical_stop_conditions": [
+    "Any required measurement unresolved or replacement criteria not satisfied.",
+    "Unidentified diagram orientation, missing parts, damage or abnormal binding."
+  ],
+  "material_policy": {
+    "LT": "Locking agent (LOCTITE) per PDF7. Grade unspecified by this manual; no grade inferred.",
+    "lubrication": "Follow each explicit E/M/LS/S application; general dry torque does not override a lubricated joint."
+  },
+  "steps": [
+    {
+      "id": "entry",
+      "title": "Confirm cold engine-bench access",
+      "instruction": "Engine is removed and supported with the original left cover/rotor installed so its timing marks can be used. Keep the engine at room temperature and do not use the starter. Exterior tank/body/throttle/exhaust access is already complete.",
+      "source_pdf_pages": [
+        214,
+        217
+      ],
+      "verification": [
+        "Cold supported engine and readable rotor/cover marks confirmed."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=214",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=217"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": []
+    },
+    {
+      "id": "cover-remove",
+      "title": "Expose the valve train",
+      "instruction": "Clean around the spark plug before removing its cap and plug. Disconnect the cylinder-head breather hose; remove the three cover bolts and lift off the cylinder-head cover. Keep the top chain guide and seals accounted for. Retain the top chain guide and do not remove any cam or tensioner hardware until the TDC and measurement steps are completed.",
+      "depends_on": [
+        "entry"
+      ],
+      "source_pdf_pages": [
+        97,
+        214,
+        215
+      ],
+      "verification": [
+        "Head exposed without disturbing timing; plug-hole debris excluded."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=97",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=214",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=215"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": false
+    },
+    {
+      "id": "access",
+      "title": "Open timing access",
+      "instruction": "Remove the timing-mark access screw and crankshaft-end access screw from the left engine cover, retaining their O-rings cleanly. Fit the hand wrench to the crankshaft access.",
+      "depends_on": [
+        "cover-remove"
+      ],
+      "source_pdf_pages": [
+        91
+      ],
+      "verification": [
+        "Both access openings identified; O-rings retained."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=91"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": false
+    },
+    {
+      "id": "tdc",
+      "title": "Align the measurement position",
+      "instruction": "Turn the crankshaft counterclockwise by hand. Align the rotor TDC mark with the crankcase-cover mark, then verify the marks on both cam sprockets align with the cam-cap surface edges exactly as shown. Do not measure from the rotor mark alone or force abnormal resistance.",
+      "depends_on": [
+        "access"
+      ],
+      "source_pdf_pages": [
+        91
+      ],
+      "verification": [
+        "Rotor and both cam marks confirmed; engine still cold."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=91"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": true
+    },
+    {
+      "id": "measure",
+      "title": "Record all four clearances",
+      "instruction": "With that position maintained, insert the feeler gauge between each cam lobe and its lifter as illustrated. Record each intake and exhaust reading separately in millimeters. Use the gauge fit to establish the clearance without forcing it; record an unresolved range if gauge resolution cannot distinguish a boundary.",
+      "depends_on": [
+        "tdc"
+      ],
+      "source_pdf_pages": [
+        91,
+        92
+      ],
+      "verification": [
+        "Four named readings recorded; no guessed boundary values."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=91",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=92"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": true
+    },
+    {
+      "id": "tensioner-remove",
+      "title": "Remove the unloaded tensioner assembly",
+      "instruction": "Keep the engine at the confirmed TDC position. Remove the tensioner cap bolt and its gasket, then remove the mounting bolts and tensioner with its body and mounting-bolt gaskets. Preserve the sealing locations shown. Do not rotate the crankshaft with the tensioner removed.",
+      "depends_on": [
+        "measure"
+      ],
+      "source_pdf_pages": [
+        216,
+        217
+      ],
+      "verification": [
+        "Tensioner removed; crank position unchanged; gasket locations retained."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=216",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=217"
+      ],
+      "origin": "Original source-based summary; logging and fault-stop actions are workflow adaptations.",
+      "record_required": false
+    },
+    {
+      "id": "cams-remove",
+      "title": "Remove the cams without mixing positions",
+      "instruction": "Loosen the cam-cap bolts evenly in a crisscross pattern from outside inward. Lift the caps and retain their dowels and exact original positions. Attach a clean wire to the chain to prevent it falling into the crankcase, then lift out the exhaust and intake cams. Leave the oil nozzle installed and retain crankshaft position.",
+      "depends_on": [
+        "tensioner-remove"
+      ],
+      "source_pdf_pages": [
+        216,
+        217
+      ],
+      "verification": [
+        "Caps/dowels/cams identified; chain secured; crank unchanged; oil nozzle undisturbed."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=216",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=217"
+      ],
+      "origin": "Original source-based summary; logging and fault-stop actions are workflow adaptations.",
+      "record_required": false
+    },
+    {
+      "id": "tensioner-check",
+      "title": "Check tensioner action",
+      "instruction": "Inspect the tensioner for cracks or damage. While lightly pressing the rod with a finger, turn its screw fully clockwise with a thin screwdriver to retract it. Release the screwdriver while maintaining light finger pressure and verify that the rod extends smoothly. Replace a damaged or sticking unit; do not install one that fails this check.",
+      "depends_on": [
+        "cams-remove"
+      ],
+      "source_pdf_pages": [
+        219
+      ],
+      "verification": [
+        "No cracks/damage; rod retracts and extends smoothly."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=219"
+      ],
+      "origin": "Original source-based summary; logging and fault-stop actions are workflow adaptations.",
+      "record_required": true
+    },
+    {
+      "id": "handoff",
+      "title": "Preserve the open timing state",
+      "instruction": "Keep cams/caps/dowels in their exact original positions in labeled trays, keep the chain secured and record the crankTDC position. Cam inspection and head removal can now proceed; do not operate the starter or call this an installed/timed engine.",
+      "source_pdf_pages": [
+        217,
+        219
+      ],
+      "verification": [
+        "Original positions retained; chain secured; open state recorded."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=217",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=219"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "tensioner-check"
+      ]
+    }
+  ],
+  "reviewed_at": "2026-09-13",
+  "runtime_integration_requirement": "Enforce entry state and record_required. Completion certifies this bounded operation only; no automatic completion of upstream/downstream work."
+}

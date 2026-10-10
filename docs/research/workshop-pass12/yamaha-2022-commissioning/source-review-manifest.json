@@ -1,0 +1,39 @@
+{
+  "status": "APPROVED",
+  "sources": [
+    {
+      "source_id": "yamaha-us-2022-yz450f-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf",
+      "sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\B2W-2819U-12_02.pdf"
+    },
+    {
+      "source_id": "mityvac-mv4560-method",
+      "url": "https://cdn.skfmediahub.skf.com/api/public/0901d1968096854e/pdf_preview_medium/0901d1968096854e_pdf_preview_medium.pdf",
+      "sha256": "508a744728dc28c37911bdc206f3e8ec6fe5eb8f11febe74a385bbf1299493cf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\mityvac-MV4560-801625.pdf"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "docs/research/workshop-pass12/yamaha-2022-commissioning/post-rebuild-commissioning-v1.procedure.json",
+      "sha256": "8a32d6216ba22e82295a4c51966c0d0a82717d530e6177d2b56cad9086183bd8",
+      "source_id": "yamaha-us-2022-yz450f-oem",
+      "step_count": 32,
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "review_status": "APPROVED",
+      "template_sha256": "62748a58bdc8f370e080a391d8b205acbb14f3504374e29b6a9d6c8769bb8bd9"
+    }
+  ],
+  "independent_review": {
+    "path": "docs/research/workshop-pass12/yamaha-2022-commissioning/independent-review-v1.json",
+    "sha256": "376b30bd855a19c9ecc4cce152890a3f208fe29c5ab6d87964ef7c918f6b734c",
+    "status": "APPROVED"
+  }
+}

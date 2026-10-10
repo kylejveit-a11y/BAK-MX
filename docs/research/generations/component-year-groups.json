@@ -1,0 +1,533 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-09-13",
+  "purpose": "Reduce duplicate acquisition through component-specific research groups; never transfer specifications by whole-bike generation.",
+  "scope": {
+    "region": "US standard targets 2022–2026",
+    "runtime_roster_changed": false,
+    "database_writes": false
+  },
+  "sources": [
+    {
+      "id": "honda25",
+      "type": "OEM",
+      "title": "Honda 25YM CRF250R press pack",
+      "url": "https://hondanews.eu/eu/el/cars/media/pressreleases/475103/25ym-honda-crf250r",
+      "locator": "Model overview; chassis; engine",
+      "market": "EU",
+      "reviewed_at": "2026-09-13",
+      "summary": "The 2025 model revises chassis and engine; the preceding 2022 redesign is described as unchanged through 2024. US equivalence still requires exact-market manuals.",
+      "review_method": "web source text; no critical service values extracted"
+    },
+    {
+      "id": "honda25us",
+      "type": "OEM",
+      "title": "Honda US 2025 CRF450R brochure",
+      "url": "https://powersports.honda.com/motorcycle/motocross/-/media/products/family/crf450r/brochure/2025/2025-crf450r-brochure.pdf",
+      "locator": "2025 improvements introduction",
+      "market": "US",
+      "reviewed_at": "2026-09-13",
+      "summary": "The 2025 changes include frame, suspension, triple clamps, linkage and front brake. It is a real service-applicability boundary.",
+      "review_method": "web source text; no critical service values extracted"
+    },
+    {
+      "id": "yam25",
+      "type": "OEM",
+      "title": "Yamaha US 2025 off-road announcement",
+      "url": "https://yamahamotorsports.com/Blogs.php?action=blogArticle&blog_id=yamaha-announces-new-yz250fx-and-+wr250f",
+      "locator": "Updated 2025 YZ250F; New 2025 YZ250FX; WR250F",
+      "market": "US",
+      "reviewed_at": "2026-09-13",
+      "summary": "YZ250F receives linkage, fork internals/settings, shock spring/settings and control/footpeg changes. The off-road derivatives have their own model-specific equipment.",
+      "review_method": "web source text; no critical service values extracted"
+    },
+    {
+      "id": "yam26",
+      "type": "OEM",
+      "title": "2026 YZ250F features",
+      "url": "https://www.yamahamotorsports.com/models/26-yz250f/features",
+      "locator": "Engine; Chassis/Suspension",
+      "market": "US",
+      "reviewed_at": "2026-09-13",
+      "summary": "The page specifically identifies the ECU lock as new for 2026. Other listed components do not alone prove unchanged service specifications.",
+      "review_method": "web source text; no critical service values extracted"
+    },
+    {
+      "id": "yam45026",
+      "type": "OEM",
+      "title": "All-new 2026 YZ450F",
+      "url": "https://www.yamaha-motor.com.au/discover/news-and-events/news/motorcycle/2025/june/2026-off-road-range/all-new-2026-yz450f",
+      "locator": "Frame, suspension and engine updates",
+      "market": "Australia",
+      "reviewed_at": "2026-09-13",
+      "summary": "New frame, suspension and engine revisions create a 2026 boundary; reconcile US details with the acquired US service manual.",
+      "review_method": "web source text; no critical service values extracted"
+    },
+    {
+      "id": "hus23",
+      "type": "OEM",
+      "title": "Husqvarna 2023 new-generation release",
+      "url": "https://press.husqvarna-motorcycles.com/news-husqvarna-motorcycles-unveils-its-new-generation-of-motocross-and-cross-country-machinery-canada?id=157747&l=canada&menueid=18841",
+      "locator": "What is new for 2023",
+      "market": "Canada",
+      "reviewed_at": "2026-09-13",
+      "summary": "The FC platform changes frame, swingarm, subframe and suspension. FC250 has a new engine; model-specific differences remain.",
+      "review_method": "web source text; no critical service values extracted"
+    },
+    {
+      "id": "hus25",
+      "type": "OEM",
+      "title": "Husqvarna 2025 motocross release",
+      "url": "https://press.husqvarna-motorcycles.com/news-husqvarna-motorcycles-expands-motocross-line-up-for-2025?id=199322&l=international&menueid=19202",
+      "locator": "Chassis revisions; Technical highlights",
+      "market": "international",
+      "reviewed_at": "2026-09-13",
+      "summary": "Frame flex changes, FC engine mounts, suspension settings and linkage hardware are revised for 2025.",
+      "review_method": "web source text; no critical service values extracted"
+    },
+    {
+      "id": "gas24",
+      "type": "OEM",
+      "title": "GASGAS 16 new 2024 dirt bikes",
+      "url": "https://press.gasgas.com/news-gasgas-spice-it-up-with-16-all-new-dirt-bikes-for-2024?id=181694&imageid=695993&l=international&menueid=20135&tab=1",
+      "locator": "All-new generation; motocross lineup",
+      "market": "international",
+      "reviewed_at": "2026-09-13",
+      "summary": "Standard MC250F and MC450F enter the new-generation range in 2024. Factory Editions are separate variants.",
+      "review_method": "web source text; no critical service values extracted"
+    },
+    {
+      "id": "gas25",
+      "type": "OEM",
+      "title": "2025 MC450F features",
+      "url": "https://www.gasgas.com/en-za/models/motocross/4-stroke/mc-450f-2025.html",
+      "locator": "Model introduction; frame",
+      "market": "South Africa",
+      "reviewed_at": "2026-09-13",
+      "summary": "Frame, suspension settings, intake, footpegs and brake-pedal revisions prevent treating 2024 and 2025 as a graphics-only pair.",
+      "review_method": "web source text; no critical service values extracted"
+    },
+    {
+      "id": "kx45024",
+      "type": "OEM",
+      "title": "Kawasaki US 2024 KX450 press release",
+      "url": "https://content2.kawasaki.com/ContentStorage/KMC/PressReleases/734/9bd052b2-2500-4f45-8633-e723cc94d280.pdf",
+      "locator": "NEW ENGINE; NEW CHASSIS; NEW BRAKES",
+      "market": "US",
+      "reviewed_at": "2026-09-13",
+      "summary": "2024 introduces changed intake/engine layout, frame and Brembo front braking. Do not roll pre-2024 service content forward by name.",
+      "review_method": "web source text; no critical service values extracted"
+    },
+    {
+      "id": "kx25025",
+      "type": "OEM",
+      "title": "Kawasaki US 2025 KX250 and KX250X press release",
+      "url": "https://content2.kawasaki.com/ContentStorage/KMC/PressReleases/783/3d16fe3d-06e3-49b6-961d-f773c3e69f05.pdf",
+      "locator": "Page 1 highlights; model-specific sections",
+      "market": "US",
+      "reviewed_at": "2026-09-13",
+      "summary": "2025 changes the cylinder head, exhaust, frame and electronics. The cross-country derivative is separately identified.",
+      "review_method": "web source text; no critical service values extracted"
+    },
+    {
+      "id": "wcpeg",
+      "type": "COMPONENT_MAKER",
+      "title": "Works Connection offset footpeg mounts",
+      "url": "https://www.worksconnection.com/2010-yamaha-yz250f/p1700908-foot-peg-mounts-offset",
+      "locator": "Details, applicability bullets; rendered lines 464–490",
+      "market": "US vendor",
+      "reviewed_at": "2026-09-13",
+      "summary": "The details list older and newer Yamaha fitment groups. URL bike selection is misleading; named details, exact product selection and instructions control fitment.",
+      "review_method": "web source text; no critical service values extracted"
+    },
+    {
+      "id": "pcpiston",
+      "type": "COMPONENT_MAKER",
+      "title": "Pro Circuit KX450 high-compression piston announcement",
+      "url": "https://www.procircuit.com/",
+      "locator": "May 4 2026 news item",
+      "market": "US vendor",
+      "reviewed_at": "2026-09-13",
+      "summary": "Manufacturer advertises a piston kit across 2024–2026 KX450. This is evidence for that aftermarket kit, not OEM piston identity or universal clearances.",
+      "review_method": "web source text; no critical service values extracted"
+    },
+    {
+      "id": "keeferpiston",
+      "type": "TUNER_FIRSTHAND",
+      "title": "Kris Keefer Pro Circuit HC piston test",
+      "url": "https://www.keeferinctesting.com/pro-circuit-hc-piston-kit-2024-2026-kx450/",
+      "locator": "March 8 2026; staged modification description",
+      "market": "author's tested build",
+      "reviewed_at": "2026-09-13",
+      "summary": "Firsthand test separates exhaust, piston/fuel, ECU and intake stages. Retain modified-build context; the experience is not a standard service interval or stock-bike specification.",
+      "review_method": "web source text; no critical service values extracted"
+    },
+    {
+      "id": "recallhonda",
+      "type": "REGULATOR",
+      "title": "CPSC Honda off-road handlebar recall 26-458",
+      "url": "https://www.cpsc.gov/Recalls/2026/American-Honda-Motor-Recalls-Off-Road-Motorcycles-Due-to-Risk-of-Serious-Injury-or-Death-Due-to-Crash-Hazard",
+      "locator": "Recall Details; Remedy; April 30 2026",
+      "market": "US affected VINs",
+      "reviewed_at": "2026-09-13",
+      "summary": "Certain 2025–2026 CRF250R/RX/RWE and CRF450R/RX/RWE handlebar clamps can allow rotation. VIN lookup determines applicability; dealer inspection and possible replacement is the remedy.",
+      "review_method": "web source text; no critical service values extracted"
+    }
+  ],
+  "groups": [
+    {
+      "id": "honda-crf250r-22-24",
+      "manufacturer": "Honda",
+      "models": [
+        "CRF250R"
+      ],
+      "years": [
+        2022,
+        2023,
+        2024
+      ],
+      "component_scope": "engine/chassis research family",
+      "confidence": "medium",
+      "source_ids": [
+        "honda25"
+      ],
+      "decision": "OEM retrospective supports a common pre-2025 family, EU corroboration only.",
+      "exceptions": "US manual and catalog differences; fork/shock settings, tolerances and lubrication remain exact-year.",
+      "publication_status": "RESEARCH_ONLY",
+      "runtime_spec_inheritance_allowed": false
+    },
+    {
+      "id": "honda-crf250r-25-boundary",
+      "manufacturer": "Honda",
+      "models": [
+        "CRF250R"
+      ],
+      "years": [
+        2025
+      ],
+      "component_scope": "chassis/engine boundary",
+      "confidence": "high",
+      "source_ids": [
+        "honda25",
+        "honda25us"
+      ],
+      "decision": "Start a new research root at 2025.",
+      "exceptions": "Do not inherit 2022–2024 chassis or engine service details; CRF450R shared chassis language is not shared engine identity.",
+      "publication_status": "RESEARCH_ONLY",
+      "runtime_spec_inheritance_allowed": false
+    },
+    {
+      "id": "honda-crf450r-25-boundary",
+      "manufacturer": "Honda",
+      "models": [
+        "CRF450R"
+      ],
+      "years": [
+        2025
+      ],
+      "component_scope": "chassis/suspension/brake boundary",
+      "confidence": "high",
+      "source_ids": [
+        "honda25us"
+      ],
+      "decision": "Treat 2025 running gear as a changed assembly set.",
+      "exceptions": "2022–2024 engine continuity not established by this source; 2026 extension needs source comparison.",
+      "publication_status": "RESEARCH_ONLY",
+      "runtime_spec_inheritance_allowed": false
+    },
+    {
+      "id": "yamaha-yz250f-25-boundary",
+      "manufacturer": "Yamaha",
+      "models": [
+        "YZ250F"
+      ],
+      "years": [
+        2025
+      ],
+      "component_scope": "fork/shock/linkage revision",
+      "confidence": "high",
+      "source_ids": [
+        "yam25"
+      ],
+      "decision": "2024–2025 cannot share an unqualified suspension baseline or internal rebuild kit.",
+      "exceptions": "Linkage, spring, fork shim and damping changes; engine repair equivalence not inferred.",
+      "publication_status": "RESEARCH_ONLY",
+      "runtime_spec_inheritance_allowed": false
+    },
+    {
+      "id": "yamaha-yz250f-25-26-candidate",
+      "manufacturer": "Yamaha",
+      "models": [
+        "YZ250F"
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "component_scope": "chassis mechanical comparison candidate",
+      "confidence": "medium",
+      "source_ids": [
+        "yam25",
+        "yam26"
+      ],
+      "decision": "Prioritize direct manual/catalog comparison for reuse; new ECU lock is explicit.",
+      "exceptions": "OEM feature omission does not prove identical suspension internals, settings or engine tolerances.",
+      "publication_status": "RESEARCH_ONLY",
+      "runtime_spec_inheritance_allowed": false
+    },
+    {
+      "id": "yamaha-yz450f-26-boundary",
+      "manufacturer": "Yamaha",
+      "models": [
+        "YZ450F"
+      ],
+      "years": [
+        2026
+      ],
+      "component_scope": "engine/chassis/clutch/suspension boundary",
+      "confidence": "high",
+      "source_ids": [
+        "yam45026"
+      ],
+      "decision": "Use new 2026 research root and the acquired exact US manual.",
+      "exceptions": "Regional source establishes boundary, not US service numbers; aftermarket cable-clutch conversions require installed-build override.",
+      "publication_status": "RESEARCH_ONLY",
+      "runtime_spec_inheritance_allowed": false
+    },
+    {
+      "id": "husqvarna-fc-23-boundary",
+      "manufacturer": "Husqvarna",
+      "models": [
+        "FC 250",
+        "FC 450"
+      ],
+      "years": [
+        2023
+      ],
+      "component_scope": "chassis/fork/shock boundary",
+      "confidence": "high",
+      "source_ids": [
+        "hus23"
+      ],
+      "decision": "Split 2022 from 2023 in suspension and chassis research.",
+      "exceptions": "FC250 new-engine claim does not assign FC250 internals to FC450; Canada source requires US catalog confirmation.",
+      "publication_status": "RESEARCH_ONLY",
+      "runtime_spec_inheritance_allowed": false
+    },
+    {
+      "id": "husqvarna-fc-25-boundary",
+      "manufacturer": "Husqvarna",
+      "models": [
+        "FC 250",
+        "FC 450"
+      ],
+      "years": [
+        2025
+      ],
+      "component_scope": "frame/mount/linkage/suspension boundary",
+      "confidence": "high",
+      "source_ids": [
+        "hus25"
+      ],
+      "decision": "Keep 2023–2024 and 2025 linkage/setting reviews separate.",
+      "exceptions": "Existing M16 manual vs M14 catalog linkage discrepancy stays unresolved; new-bolt announcement cannot supply torque.",
+      "publication_status": "RESEARCH_ONLY",
+      "runtime_spec_inheritance_allowed": false
+    },
+    {
+      "id": "gasgas-mc-24-boundary",
+      "manufacturer": "GasGas",
+      "models": [
+        "MC 250F",
+        "MC 450F"
+      ],
+      "years": [
+        2024
+      ],
+      "component_scope": "standard-model generation boundary",
+      "confidence": "high",
+      "source_ids": [
+        "gas24"
+      ],
+      "decision": "Separate 2022–2023 standard models from 2024 new-generation research.",
+      "exceptions": "Factory Editions may change earlier; do not infer standard-bike applicability from Factory Edition or KTM/Husqvarna.",
+      "publication_status": "RESEARCH_ONLY",
+      "runtime_spec_inheritance_allowed": false
+    },
+    {
+      "id": "gasgas-mc450f-25-boundary",
+      "manufacturer": "GasGas",
+      "models": [
+        "MC 450F"
+      ],
+      "years": [
+        2025
+      ],
+      "component_scope": "chassis/intake/suspension revision",
+      "confidence": "high",
+      "source_ids": [
+        "gas25"
+      ],
+      "decision": "Do not label 2024–2025 MC450F graphics-only.",
+      "exceptions": "Regional source requires US reconciliation; no blanket extension to MC250F or 2026.",
+      "publication_status": "RESEARCH_ONLY",
+      "runtime_spec_inheritance_allowed": false
+    },
+    {
+      "id": "kawasaki-kx450-24-boundary",
+      "manufacturer": "Kawasaki",
+      "models": [
+        "KX450"
+      ],
+      "years": [
+        2024
+      ],
+      "component_scope": "engine/chassis/brake boundary",
+      "confidence": "high",
+      "source_ids": [
+        "kx45024"
+      ],
+      "decision": "Separate pre-2024 engine and front-brake procedures.",
+      "exceptions": "KX450SR and KX450X are not included automatically.",
+      "publication_status": "RESEARCH_ONLY",
+      "runtime_spec_inheritance_allowed": false
+    },
+    {
+      "id": "kawasaki-kx250-25-boundary",
+      "manufacturer": "Kawasaki",
+      "models": [
+        "KX250"
+      ],
+      "years": [
+        2025
+      ],
+      "component_scope": "head/exhaust/chassis/electronics boundary",
+      "confidence": "high",
+      "source_ids": [
+        "kx25025"
+      ],
+      "decision": "Start separate 2025 top-end, chassis and controls reviews.",
+      "exceptions": "No older-engine clearances or complete KX450 procedure inheritance.",
+      "publication_status": "RESEARCH_ONLY",
+      "runtime_spec_inheritance_allowed": false
+    },
+    {
+      "id": "wc-yamaha-older-pegs",
+      "manufacturer": "Yamaha",
+      "models": [
+        "YZ250F",
+        "YZ450F"
+      ],
+      "years": [
+        2022,
+        2023
+      ],
+      "component_scope": "aftermarket footpeg-mount product family",
+      "confidence": "high",
+      "source_ids": [
+        "wcpeg"
+      ],
+      "decision": "Vendor-listed older fitment: YZ250F 2010–2023, YZ450F 2010–2022.",
+      "exceptions": "2023 YZ450F excluded. Confirm exact SKU/instructions before fitment answer; not a whole chassis family.",
+      "publication_status": "RESEARCH_ONLY",
+      "runtime_spec_inheritance_allowed": false
+    },
+    {
+      "id": "wc-yamaha-newer-pegs",
+      "manufacturer": "Yamaha",
+      "models": [
+        "YZ250F",
+        "YZ450F"
+      ],
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "component_scope": "aftermarket footpeg-mount product family",
+      "confidence": "high",
+      "source_ids": [
+        "wcpeg"
+      ],
+      "decision": "Vendor-listed newer fitment: YZ250F 2024–2025, YZ450F 2023–2025.",
+      "exceptions": "2023 YZ250F excluded. No 2026 extension from product dropdown alone; supplier-specific interface only.",
+      "publication_status": "RESEARCH_ONLY",
+      "runtime_spec_inheritance_allowed": false
+    },
+    {
+      "id": "pc-kx450-piston-24-26",
+      "manufacturer": "Kawasaki",
+      "models": [
+        "KX450"
+      ],
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "component_scope": "aftermarket piston-kit fitment family",
+      "confidence": "high",
+      "source_ids": [
+        "pcpiston",
+        "keeferpiston"
+      ],
+      "decision": "Component maker names 2024–2026 kit application; useful single installation-document acquisition target.",
+      "exceptions": "Require actual SKU and maker installation data. No inferred piston-to-cylinder clearance, ring gap, fuel equivalence or OEM service interval.",
+      "publication_status": "RESEARCH_ONLY",
+      "runtime_spec_inheritance_allowed": false
+    }
+  ],
+  "recall_exceptions": [
+    {
+      "id": "honda-handlebar-26-458",
+      "manufacturer": "Honda",
+      "models": [
+        "CRF250R",
+        "CRF250RX",
+        "CRF250RWE",
+        "CRF450R",
+        "CRF450RX",
+        "CRF450RWE"
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "component": "handlebar clamp",
+      "source_ids": [
+        "recallhonda"
+      ],
+      "applicability": "VIN-specific; model/year alone identifies potential scope",
+      "vin_lookup_url": "https://powersports.honda.com/recalls",
+      "action": "For affected VINs follow official stop-use and authorized-dealer inspection/replacement remedy; ordinary retorque is not proof of repair.",
+      "runtime_integrated": false
+    }
+  ],
+  "unknowns": [
+    "No all-50 complete generation matrix is claimed.",
+    "Engine, chassis, fork, shock, electronics and individual joint applicability must be independent.",
+    "2026 Husqvarna US model-code scope remains pending existing recovery research.",
+    "2022–2023 GasGas US catalog reconciliation remains pending.",
+    "KX250 2022 versus 2023/2024 engine changes need exact OEM acquisition.",
+    "CRF450R 2022 versus 2023/2024 engine changes need exact comparison.",
+    "Missing manufacturer or year entries remain UNKNOWN, not carry-over."
+  ],
+  "reuse_policy": {
+    "allowed": "One source acquisition/review plan for a component family, followed by exact-year comparison.",
+    "required_before_service_inheritance": [
+      "Exact make/model/year/market/variant and installed component",
+      "Same assembly or explicitly documented supersession including mating parts",
+      "Manual edition and joint/procedure comparison including lubricant, sequence and replacement rules",
+      "Separate clearance, wear-limit and adjuster baseline verification",
+      "Recall/bulletin/VIN exceptions resolved"
+    ],
+    "not_evidence_of_equivalence": [
+      "Similar appearance",
+      "Same displacement",
+      "Same marketing generation",
+      "Same fastener diameter",
+      "Absence from a new-features list",
+      "Shared aftermarket exhaust or footpeg fitment"
+    ]
+  }
+}

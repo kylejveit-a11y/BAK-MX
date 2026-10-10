@@ -1,0 +1,38 @@
+{
+  "status": "APPROVED_FOR_BOUNDED_RUNTIME",
+  "reviewer": "core_flow_repairs, independent of yamaha_workshop_evidence author",
+  "external_review": {
+    "path": "../../yamaha-two-stroke/independent-yz250f-engine-2021-2023-review.json",
+    "sha256": "7eb0a21e1900d6c4bc975adfa8c7f456291d9ba8641a2aeef1d582b2393126a9"
+  },
+  "artifacts": [
+    {
+      "path": "docs/research/workshop-pass13/yz250f/2021-engine/top-end-teardown-inspection-v1.procedure.json",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2021,
+        "variant": "standard",
+        "region": "US"
+      },
+      "reviewed_candidate_sha256": "cbcc9109e9427cf9626a983c51eec93664ab97eab6f897d51a4f8735be57b6cf",
+      "source_sha256": "c2f65141ab95bdbe20d7bdd027bfdde93d2d79dbcb4ff0ccb54140ed7fb0578b",
+      "step_count": 24,
+      "candidate_sha256": "cbcc9109e9427cf9626a983c51eec93664ab97eab6f897d51a4f8735be57b6cf"
+    },
+    {
+      "path": "docs/research/workshop-pass13/yz250f/2021-engine/original-head-valve-reassembly-v1.procedure.json",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2021,
+        "variant": "standard",
+        "region": "US"
+      },
+      "reviewed_candidate_sha256": "a73fd53a91037b42dde1e045e4e515f4b18ce49903b4d3745baab4b0010326e8",
+      "source_sha256": "c2f65141ab95bdbe20d7bdd027bfdde93d2d79dbcb4ff0ccb54140ed7fb0578b",
+      "step_count": 9,
+      "candidate_sha256": "a73fd53a91037b42dde1e045e4e515f4b18ce49903b4d3745baab4b0010326e8"
+    }
+  ]
+}

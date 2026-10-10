@@ -1,0 +1,49 @@
+{
+  "status": "APPROVED_READY_FOR_ROOT_INTEGRATION",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2023,
+    "region": "US",
+    "variant": "standard"
+  },
+  "source": {
+    "path": "C:/Users/kylej/AppData/Local/Temp/BHR-2819U-10_02.pdf",
+    "sha256": "9a8605e26301ba1d0d1d21e93d23cca721bdcdbece6188775626a8819332aa9f",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf",
+    "pages": 388,
+    "revision": "BHR-2819U-10 / LIT-11626-36-32; first edition July2022"
+  },
+  "next": "Root integration and engine journey composition; source frozen, new revision required for mechanical changes.",
+  "database_writes": false,
+  "artifacts": [
+    {
+      "path": "engine-removal-refit-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "7c9b11a914a0ef0ef2dbb33b24a7ef7c50e41d3f082bf4c5b2739e5be09b0e67",
+      "source_id": "yamaha-2023-bhr",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 70
+    },
+    {
+      "path": "frame-bearing-renewal-reassembly-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "7079c8378e79d4525d909e06c3f5fc4c1dbbe62b870bf4321bcd4b697f7721e3",
+      "source_id": "yamaha-2023-bhr",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 151
+    }
+  ]
+}

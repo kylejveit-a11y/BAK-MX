@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-shock-pass6-evidence-freeze",
+  "artifacts": [
+    {
+      "path": "REVIEW.md",
+      "sha256": "7ec953e641eec8c23227fc7422310dbebdea81a64c8f8445df80a2f7ef94e83f"
+    },
+    {
+      "path": "captured-sources.json",
+      "sha256": "144d40db3053153694afd2507550c9803441fe0accaa45b8c0548319ee134127"
+    },
+    {
+      "path": "evidence-review.json",
+      "sha256": "e7d55d919883808b42e2ce0d84aa5a2bb3804552967f8a777a09b8e8bd18949f"
+    }
+  ],
+  "source_captures": [
+    {
+      "path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\yamaha-us-fiche.html",
+      "sha256": "815594b116697e28adbd3a32bbf53d7068364025fb54f2866b690d649e533903",
+      "admissible": false
+    },
+    {
+      "path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\kyb-2026-release.pdf",
+      "sha256": "e5ec248df2a41d38ed0d3a9174897469d561acf5a733eb787fc6918eb19667f1",
+      "admissible": false
+    },
+    {
+      "path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\tt-2026-adjuster.html",
+      "sha256": "52f12e6c0015fae92a8fc276165f8d9132fc4eb995397998d75eb28ba4a10831",
+      "admissible": true
+    },
+    {
+      "path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\tt-2026-piston-list.html",
+      "sha256": "dda3768d546f027c4b84ef78e781859d22d524ae40f01b40b5525b4b48e9dd2d",
+      "admissible": true
+    },
+    {
+      "path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\fc-service-fit.html",
+      "sha256": "83c77fdffecbaec239b8b20cd457815fa410d54c190c2756541136bd93086640",
+      "admissible": true
+    },
+    {
+      "path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\yamaha-colombia-fiche.pdf",
+      "sha256": "b9416ba665f52e017ad327abeb7dad74d1a9fc89cf995e892266afa06b9afe46",
+      "admissible": false
+    },
+    {
+      "path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\kyb-release-article.html",
+      "sha256": "ac3c98e330d52d9bc206542ca453c7b1bcc1b6af455beb2bae3585a7bfcf03e3",
+      "admissible": true
+    },
+    {
+      "path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\yamaha-dealer-fiche.html",
+      "sha256": "6c6947616997166b7f6419bd1e879e16ca9b67e8e4510088b0b184f977382bd7",
+      "admissible": true
+    }
+  ],
+  "prior_review": {
+    "path": "docs/research/suspension-pass4/yamaha-internal-shock-review.json",
+    "sha256": "ac5adfc3b0056ea6189744e568200d0b2568b612ffaed9a5325f99550c2f197f"
+  }
+}

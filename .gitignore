@@ -1,0 +1,19 @@
+node_modules/
+dist/
+/apps/mobile/dist-pass7/
+.env*
+!.env.example
+.vercel/
+*.log
+supabase/.temp/
+__pycache__/
+*.pyc
+
+/artifacts/native-pass9/
+
+/artifacts/native-pass9-major/
+/artifacts/native-pass10/
+/artifacts/native-pass12/
+
+# Stored gzipped (GitHub 100 MB limit); unpacked by scripts/ensure-captures.mjs
+/docs/research/parts/normalized-captures.json

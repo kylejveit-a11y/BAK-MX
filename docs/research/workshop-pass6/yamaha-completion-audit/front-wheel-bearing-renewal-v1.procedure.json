@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "publication_status": "APPROVED",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      25,
+      90,
+      113,
+      129,
+      130,
+      131,
+      132,
+      133
+    ],
+    "printed_pages": [
+      "1-13",
+      "3-9",
+      "3-32",
+      "4-7",
+      "4-8",
+      "4-9",
+      "4-10",
+      "4-11"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Author visually verified PDF130\u2013132. Root independently reviewed all 14 steps against rendered OEM129\u2013133 and inherited immutable access/closure; PDF90/113 closure inherits prior approved review. Supplementary root visual review of PDF25 / 1-13 adds bearing manufacturer marks or size symbols facing outward to both bearing-installation steps. Approved bounded front bearing/seal renewal; no physical-bike execution performed."
+  },
+  "id": "yamaha-2026-yz450f-front-wheel-bearing-renewal-v1",
+  "title": "Replace front wheel bearings and seals",
+  "completeness": "Assembled-bike front-wheel removal, both hub bearings and oil seals renewed, spacer restored, and axle/fork/brake closure. Original serviceable disc, tire and spokes remain assembled.",
+  "applicability": {
+    "included": "Exact stock 2026 US standard YZ450F; original serviceable assemblies unless explicitly replaced below",
+    "excluded": [
+      "Other years/models, aftermarket hubs or axle conversions",
+      "Tire, spoke, rim, disc or hydraulic-brake repair",
+      "Hub bore machining or repair of a loose/damaged bearing fit"
+    ]
+  },
+  "prerequisites": [
+    "Match the exact bike and installed stock parts. Have the complete cited diagrams available.",
+    "Stable maintenance stand and support suitable for changing weight distribution; clean labeled parts storage.",
+    "Inspect the removed wheel before bearing work; unrelated wheel/tire/disc defects require separate repair.",
+    "Puller and driver setup must clear the retained original disc. This route leaves its bolts untouched; stop if the available tooling cannot do that."
+  ],
+  "required_tools": [
+    {
+      "name": "Maintenance stand and stable lowering support",
+      "spec": null
+    },
+    {
+      "name": "Appropriate axle tools and calibrated torque wrench covering21\u2013115 N\u00b7m",
+      "spec": null
+    },
+    {
+      "name": "Lithium-soap-based grease and clean cloths",
+      "spec": null
+    },
+    {
+      "name": "Bearing puller suitable for the stock front hub",
+      "spec": "Must clear the retained disc and protect the hub"
+    },
+    {
+      "name": "Bearing and seal drivers or matching sockets",
+      "spec": "Press bearings squarely on the outer race; driver diameters match bearing outer race and seal"
+    },
+    {
+      "name": "Flat-head screwdriver and protective cloth",
+      "spec": "Cloth protects hub surface during seal removal"
+    },
+    {
+      "name": "Suitable press and stable hub support",
+      "spec": "Support the hub without loading the retained brake disc"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "Two exact stock front-wheel bearings",
+      "purpose": "Both removed bearings are renewed"
+    },
+    {
+      "name": "Two exact stock front-wheel oil seals",
+      "purpose": "Both disturbed oil seals are renewed"
+    }
+  ],
+  "critical_stop_conditions": [
+    "Unstable support, bent/cracked parts, damaged fasteners or unknown assembly order.",
+    "Binding, leaks, missing hardware or abnormal brake/control function remains an unresolved fault."
+  ],
+  "steps": [
+    {
+      "id": "prepare",
+      "title": "Support the front of the bike",
+      "instruction": "Secure the bike on a maintenance stand with the front wheel clear of the ground. Keep the complete brake system closed. Prevent the front brake lever being operated while the disc is absent.",
+      "source_pdf_pages": [
+        129,
+        131
+      ],
+      "verification": [
+        "Stable support and brake control protected."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": []
+    },
+    {
+      "id": "remove",
+      "title": "Remove the wheel and retain both collars",
+      "instruction": "Loosen all four front axle pinch bolts. Support the wheel, remove its axle nut and withdraw the axle, then lower the wheel clear of the caliper. Label the left and right collars separately and keep dirt off the seals and disc.",
+      "source_pdf_pages": [
+        129
+      ],
+      "verification": [
+        "Axle, nut and side-specific collars accounted for; brake hose untouched."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=129"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "prepare"
+      ]
+    },
+    {
+      "id": "inspect",
+      "title": "Inspect the removed wheel",
+      "instruction": "Roll the axle on a flat surface and replace it if bent; never straighten it. Inspect wheel, tire, disc and collars. Record bearing roughness or looseness and seal damage. Continue this bearing-renewal route only with a serviceable hub and no unresolved tire, rim, spoke or disc defect.",
+      "source_pdf_pages": [
+        131
+      ],
+      "verification": [
+        "Bearing/seal findings recorded; remaining wheel assembly is serviceable."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "remove"
+      ]
+    },
+    {
+      "id": "seals-out",
+      "title": "Remove both oil seals",
+      "instruction": "Clean the outside of the hub. Use a flat-head screwdriver to lift out the oil seals, with a cloth between the screwdriver and hub to protect the wheel surface. Discard both removed seals.",
+      "depends_on": [
+        "inspect"
+      ],
+      "source_pdf_pages": [
+        130,
+        131
+      ],
+      "verification": [
+        "Both seals removed without damaging the hub."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=130",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=131"
+      ],
+      "origin": "Original OEM-based summary; retained-disc tool-clearance and inspection gates are bounded workflow adaptations."
+    },
+    {
+      "id": "bearings-out",
+      "title": "Pull both hub bearings",
+      "instruction": "Use a suitable bearing puller to remove both bearings. Retain the centre spacer and keep the left and right locations identified. Discard the removed bearings; do not load or bend the retained brake disc.",
+      "depends_on": [
+        "seals-out"
+      ],
+      "source_pdf_pages": [
+        130,
+        131
+      ],
+      "verification": [
+        "Both bearings removed; centre spacer retained."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=130",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=131"
+      ],
+      "origin": "Original OEM-based summary; retained-disc tool-clearance and inspection gates are bounded workflow adaptations."
+    },
+    {
+      "id": "hub-check",
+      "title": "Check the hub and spacer",
+      "instruction": "Confirm the bearing bores and spacer have not been damaged and are clean enough for the new bearings to seat correctly. A damaged or loose bearing fit needs separate wheel repair; do not conceal it with an improvised shim or adhesive.",
+      "depends_on": [
+        "bearings-out"
+      ],
+      "source_pdf_pages": [
+        130,
+        131,
+        132
+      ],
+      "verification": [
+        "Record accepted hub/spacer condition or stop for wheel repair."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; retained-disc tool-clearance and inspection gates are bounded workflow adaptations."
+    },
+    {
+      "id": "left-bearing",
+      "title": "Install the left bearing first",
+      "instruction": "Fit the new LEFT bearing first with its manufacturer marks or size symbols facing outward. Press it squarely by its outer race using a matching driver or socket, following the bearing position in the assembly diagram.",
+      "depends_on": [
+        "hub-check"
+      ],
+      "source_pdf_pages": [
+        25,
+        130,
+        131,
+        132
+      ],
+      "verification": [
+        "Left bearing seated squarely; pressing load applied only to its outer race."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=25",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=130",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=131",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=132"
+      ],
+      "origin": "Original OEM-based summary; retained-disc tool-clearance and inspection gates are bounded workflow adaptations."
+    },
+    {
+      "id": "spacer-right",
+      "title": "Restore the spacer and right bearing",
+      "instruction": "Insert the centre spacer, then install the new RIGHT bearing with its manufacturer marks or size symbols facing outward. Press squarely on its outer race with the matching driver. Confirm the spacer remains correctly positioned between the bearings and the bearing seats as illustrated.",
+      "depends_on": [
+        "left-bearing"
+      ],
+      "source_pdf_pages": [
+        25,
+        130,
+        131,
+        132
+      ],
+      "verification": [
+        "Spacer present; right bearing squarely seated."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=25",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=130",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=131",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=132"
+      ],
+      "origin": "Original OEM-based summary; retained-disc tool-clearance and inspection gates are bounded workflow adaptations."
+    },
+    {
+      "id": "seals-in",
+      "title": "Install both new oil seals",
+      "instruction": "Apply lithium-soap-based grease to the seal lips. Install each new seal with its manufacturer marks or numbers facing OUTWARD. Use a driver/socket matching the seal diameter. Set each seal flush at the illustrated 0 mm depth shown in the page 4-8 cross-section.",
+      "depends_on": [
+        "spacer-right"
+      ],
+      "source_pdf_pages": [
+        130,
+        131,
+        132
+      ],
+      "verification": [
+        "Both new seals face outward and have the illustrated flush 0 mm seating."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=130",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=131",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=132"
+      ],
+      "origin": "Original OEM-based summary; retained-disc tool-clearance and inspection gates are bounded workflow adaptations."
+    },
+    {
+      "id": "bearing-check",
+      "title": "Check the renewed hub",
+      "instruction": "Turn the bearings and verify smooth movement without looseness. Confirm both seals and the centre spacer are correctly located before the side collars and axle are fitted. Resolve binding or a loose fit before returning the wheel to the bike.",
+      "depends_on": [
+        "seals-in"
+      ],
+      "source_pdf_pages": [
+        131,
+        132
+      ],
+      "verification": [
+        "Record smooth bearings, no looseness and all internal parts present."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; retained-disc tool-clearance and inspection gates are bounded workflow adaptations."
+    },
+    {
+      "id": "refit",
+      "title": "Fit collars, wheel and axle",
+      "instruction": "Apply lithium-soap-based grease to the axle and oil-seal lips. Replace the collars on their original sides. Lift the wheel with its disc correctly between the pads and insert the axle. Thread on the axle nut without final tightening.",
+      "source_pdf_pages": [
+        129,
+        132
+      ],
+      "verification": [
+        "Collars seated; disc between pads; greased axle inserted."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=129",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=132"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "bearing-check"
+      ]
+    },
+    {
+      "id": "seat",
+      "title": "Seat the fork before tightening",
+      "instruction": "With the bike securely supported on its wheels, push down on the handlebars several times and check smooth fork rebound before tightening the front axle nut. This is a stationary seating operation; do not ride with loose axle hardware.",
+      "source_pdf_pages": [
+        133
+      ],
+      "verification": [
+        "Fork compressed and rebounds smoothly before final torque."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "refit"
+      ]
+    },
+    {
+      "id": "torque",
+      "title": "Secure the axle hardware",
+      "instruction": "Tighten the front axle nut to 115 N\u00b7m, then tighten all four axle pinch bolts to 21 N\u00b7m.",
+      "source_pdf_pages": [
+        133
+      ],
+      "verification": [
+        "Axle nut 115 N\u00b7m; four pinch bolts 21 N\u00b7m."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "seat"
+      ]
+    },
+    {
+      "id": "close",
+      "title": "Verify the wheel and brake",
+      "instruction": "Check wheel rotation, normal firm front-brake operation and smooth fork movement. Confirm the collars and all axle hardware are secure. Record the two new bearings and seals fitted and the final checks. Any binding, looseness or abnormal brake action remains unresolved until corrected.",
+      "source_pdf_pages": [
+        90,
+        113,
+        129,
+        133
+      ],
+      "verification": [
+        "Wheel retained correctly; firm normal brake; smooth fork; findings recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "torque"
+      ]
+    }
+  ],
+  "operation_dependencies": [
+    {
+      "artifact": "docs/research/frame-pass3/front-wheel-remove-refit-v1.procedure.json",
+      "sha256": "75c5b6631fee6156b5d1b6dcca6e8b8511e9f829c6b1f418dc8ec2af2609173c",
+      "role": "Wheel access and refit, with inspection/closure wording adapted to bearing renewal"
+    }
+  ],
+  "affected_components": [
+    "fork",
+    "suspension",
+    "front_wheel",
+    "wheels",
+    "front_brake",
+    "brakes"
+  ],
+  "entry_state": [
+    "Stock assembled bike with serviceable wheel, tire, disc and spoke assembly; hub bearing or seal renewal planned.",
+    "Exact matching new left/right bearings and both seals, puller and correctly sized drivers available."
+  ],
+  "exit_state": [
+    "Both front hub bearings and seals renewed, centre spacer and side collars restored.",
+    "Wheel, fork and front brake checks passed after final axle tightening."
+  ]
+}

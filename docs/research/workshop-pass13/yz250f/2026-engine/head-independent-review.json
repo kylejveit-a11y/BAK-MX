@@ -1,0 +1,32 @@
+{
+  "status": "APPROVED_FOR_BOUNDED_RUNTIME",
+  "reviewer": "root independent of author yamaha_workshop_evidence",
+  "candidate_sha256": "e8d740fd208f375792f8c617730a8f779ea6a6ee488966f20ecf3e4aef131baf",
+  "source_sha256": "1a4cbe46f057fdedfcb50bde0bc7f67180eb649725f8a18f756dd6d12588bec9",
+  "all_steps_read": 9,
+  "source_text_pages_read": [
+    231,
+    232,
+    234,
+    235,
+    236,
+    237
+  ],
+  "rendered_pages_reviewed": [
+    231,
+    232,
+    234,
+    236,
+    237
+  ],
+  "checks": [
+    "Original accepted parts only; new-valve/guide and lapping exclusions explicit",
+    "Molybdenum disulfide OIL for stem/seal, engine oil for pads/lifters",
+    "New stem seals, spring orientation,22mm attachment, eight cotters",
+    "Light soft-hammer seating, original pad/lifter positions and smoothness",
+    "Postassembly sealing recheck is labeled authored adaptation",
+    "Detached head; head-bolt conflict and timing/commissioning unresolved"
+  ],
+  "physical_workshop_validation": false,
+  "full_bike_complete": false
+}

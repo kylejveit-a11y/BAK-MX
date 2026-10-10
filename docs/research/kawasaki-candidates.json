@@ -1,0 +1,42 @@
+{
+  "schema": "bakmx.research-candidates.v1",
+  "reviewed_at": "2026-09-12",
+  "runtime_eligible": false,
+  "status": "RESEARCH_ONLY",
+  "source_snapshot_sha256": null,
+  "rights_review": "PENDING",
+  "independent_review": "PENDING",
+  "sources": [
+    {
+      "id": "kawasaki-au-kx450-2025",
+      "url": "https://www.kawasaki.com.au/en-au/motorcycle/kx/full-size-mx/kx450f/2025-kx450",
+      "publisher": "Kawasaki Motors Pty Ltd",
+      "title": "2025 KX450 Motorcycle",
+      "source_type": "OEM product specifications",
+      "access": "DIRECT_PAGE_READ",
+      "applicability": {"make":"Kawasaki","model":"KX450","year":2025,"variant":"standard","region":"AU","model_code":"KX450MSFNN","configuration":"OEM stock"}
+    },
+    {
+      "id": "kawasaki-au-kx250-2026",
+      "url": "https://www.kawasaki.com.au/en-au/motorcycle/kx/full-size-mx/kx250f/2026-kx250",
+      "publisher": "Kawasaki Motors Pty Ltd",
+      "title": "2026 KX250 Motorcycle",
+      "source_type": "OEM product specifications",
+      "access": "DIRECT_PAGE_READ",
+      "applicability": {"make":"Kawasaki","model":"KX250","year":2026,"variant":"standard","region":"AU","model_code":"KX252ETFNN","configuration":"OEM stock"}
+    }
+  ],
+  "candidates": [
+    {"id":"kx450-au-2025-displacement","source_id":"kawasaki-au-kx450-2025","locator":"MODEL SPECS > POWER > Displacement","statement":"The Australian standard 2025 KX450 has published displacement of 449 cc.","value":449,"unit":"cc"},
+    {"id":"kx450-au-2025-bore-stroke","source_id":"kawasaki-au-kx450-2025","locator":"MODEL SPECS > POWER > Bore x Stroke","statement":"The Australian standard 2025 KX450 lists bore 96.0 mm and stroke 62.1 mm.","value":{"bore":96.0,"stroke":62.1},"unit":"mm"},
+    {"id":"kx450-au-2025-primary","source_id":"kawasaki-au-kx450-2025","locator":"MODEL SPECS > POWER > Primary Reduction Ratio","statement":"The Australian standard 2025 KX450 lists primary reduction 2.727 (60/22).","value":2.727,"unit":"ratio","tooth_counts":[60,22]},
+    {"id":"kx450-au-2025-final","source_id":"kawasaki-au-kx450-2025","locator":"MODEL SPECS > POWER > Final Reduction Ratio","statement":"The Australian standard 2025 KX450 lists final reduction 3.846 (50/13).","value":3.846,"unit":"ratio","tooth_counts":[50,13]},
+    {"id":"kx250-au-2026-displacement","source_id":"kawasaki-au-kx250-2026","locator":"MODEL SPECS > POWER > Displacement","statement":"The Australian standard 2026 KX250 has published displacement of 249 cc.","value":249,"unit":"cc"},
+    {"id":"kx250-au-2026-bore-stroke","source_id":"kawasaki-au-kx250-2026","locator":"MODEL SPECS > POWER > Bore x Stroke","statement":"The Australian standard 2026 KX250 lists bore 78.0 mm and stroke 52.2 mm.","value":{"bore":78.0,"stroke":52.2},"unit":"mm"},
+    {"id":"kx250-au-2026-primary","source_id":"kawasaki-au-kx250-2026","locator":"MODEL SPECS > POWER > Primary Reduction Ratio","statement":"The Australian standard 2026 KX250 lists primary reduction 3.350 (67/20).","value":3.350,"unit":"ratio","tooth_counts":[67,20]},
+    {"id":"kx250-au-2026-final","source_id":"kawasaki-au-kx250-2026","locator":"MODEL SPECS > POWER > Final Reduction Ratio","statement":"The Australian standard 2026 KX250 lists final reduction 3.846 (50/13).","value":3.846,"unit":"ratio","tooth_counts":[50,13]}
+  ],
+  "conflicts": [
+    {"id":"kx250-2026-regional-compression-discrepancy","status":"UNRESOLVED","field":"compression_ratio","model":"KX250","year":2026,"observations":[{"region":"AU","value":"14.0:1","source_id":"kawasaki-au-kx250-2026","access":"DIRECT_PAGE_READ"},{"region":"US","value":"14.1:1","url":"https://www.kawasaki.com/en-us/motorcycle/kx/full-size-mx/kx-250f/2026-kx250","access":"SEARCH_INDEX_ONLY_DIRECT_REDIRECT_LOOP"},{"region":"CA","value":"14.0:1","url":"https://www.kawasaki.ca/en-ca/motorcycle/kx/full-size-mx/kx250f/2026-kx250","access":"SEARCH_INDEX_ONLY_DIRECT_UNAVAILABLE"}],"resolution":"Do not infer a regional engineering difference or publish a universal compression ratio. Require regional OEM manual and revision verification."}
+  ]
+}

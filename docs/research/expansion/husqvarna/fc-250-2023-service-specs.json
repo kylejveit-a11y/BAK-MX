@@ -1,0 +1,237 @@
+{
+  "target": {
+    "manufacturer": "Husqvarna",
+    "model": "FC 250",
+    "model_year": 2023,
+    "variant": "standard",
+    "region": "US"
+  },
+  "source_metadata": {
+    "target": {
+      "manufacturer": "Husqvarna",
+      "model": "FC 250",
+      "model_year": 2023,
+      "variant": "standard",
+      "region": "US"
+    },
+    "selector_url": "https://www.husqvarna-motorcycles.com/en-us/service/user-manuals.html",
+    "query_url": "https://www.husqvarna-motorcycles.com/en-us/service/user-manuals/_jcr_content/root/responsivegrid_1_col/bikemanuals.manuals.json?modelName=FC+250+2023",
+    "english_results": [
+      {
+        "modelName": "FC 250 2023",
+        "title": "FC 250 2023 US (en) - 2023",
+        "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf"
+      },
+      {
+        "modelName": "FC 250 2023",
+        "title": "FC 250 2023 EU (en) - 2023",
+        "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf"
+      }
+    ],
+    "selected": {
+      "modelName": "FC 250 2023",
+      "title": "FC 250 2023 US (en) - 2023",
+      "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf"
+    },
+    "scope_confirmed_by_selector": true,
+    "review_status": "PENDING",
+    "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+    "bytes": 8456617,
+    "temporary_pdf": "/tmp/hq-manuals/fc-250-2023.pdf",
+    "temporary_text": "/tmp/hq-manuals/fc-250-2023.txt",
+    "scope_page": 3,
+    "scope_excerpt": "This document is valid for the following models:\nFC 250 EU (F2101W1)\nFC 250 US (F2175W1)\nFC 250 Heritage EU (F2101W3)\nFC 250 Heritage US (F2175W3)\n*3402631en*\n3402631en\n27.09.2023",
+    "document_revision": "27.09.2023",
+    "document_article": "3402631en",
+    "torque_table_pdf_pages": [
+      134,
+      135,
+      136,
+      140,
+      141,
+      142
+    ]
+  },
+  "assemblies": [],
+  "parts": [],
+  "facts": [
+    {
+      "id": "fc-250-2023-service-spec-1",
+      "property": "oil_capacity",
+      "joint": "Engine oil",
+      "value": 1,
+      "unit": "L",
+      "conditions": [
+        "OEM capacity table; SAE 10W/50",
+        "Follow oil-change and level-check procedure; not an unconditional refill instruction"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+      "locator": "PDF page(s) 136, technical data: Engine oil",
+      "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+      "document_revision": "3402631en / 27.09.2023",
+      "review_status": "APPROVED",
+      "review_note": "Source numerical table visually reviewed for exact US standard target. Capacity table is not a substitute for level-check/filling procedure. No interpolated model-year values."
+    },
+    {
+      "id": "fc-250-2023-service-spec-2",
+      "property": "coolant_capacity",
+      "joint": "Cooling system",
+      "value": 0.9,
+      "unit": "L",
+      "conditions": [
+        "OEM capacity table; follow filling/bleeding procedure"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+      "locator": "PDF page(s) 136, technical data: Cooling system",
+      "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+      "document_revision": "3402631en / 27.09.2023",
+      "review_status": "APPROVED",
+      "review_note": "Source numerical table visually reviewed for exact US standard target. Capacity table is not a substitute for level-check/filling procedure. No interpolated model-year values."
+    },
+    {
+      "id": "fc-250-2023-service-spec-3",
+      "property": "suspension_travel",
+      "joint": "Front suspension",
+      "value": 305,
+      "unit": "mm",
+      "conditions": [
+        "Standard FC model"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+      "locator": "PDF page(s) 136, technical data: Front suspension",
+      "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+      "document_revision": "3402631en / 27.09.2023",
+      "review_status": "APPROVED",
+      "review_note": "Source numerical table visually reviewed for exact US standard target. Capacity table is not a substitute for level-check/filling procedure. No interpolated model-year values."
+    },
+    {
+      "id": "fc-250-2023-service-spec-4",
+      "property": "suspension_travel",
+      "joint": "Rear suspension",
+      "value": 293,
+      "unit": "mm",
+      "conditions": [
+        "Standard FC model"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+      "locator": "PDF page(s) 136, technical data: Rear suspension",
+      "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+      "document_revision": "3402631en / 27.09.2023",
+      "review_status": "APPROVED",
+      "review_note": "Source numerical table visually reviewed for exact US standard target. Capacity table is not a substitute for level-check/filling procedure. No interpolated model-year values."
+    },
+    {
+      "id": "fc-250-2023-service-spec-5",
+      "property": "triple_clamp_offset",
+      "joint": "Triple clamp",
+      "value": 22,
+      "unit": "mm",
+      "conditions": [],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+      "locator": "PDF page(s) 136, technical data: Triple clamp",
+      "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+      "document_revision": "3402631en / 27.09.2023",
+      "review_status": "APPROVED",
+      "review_note": "Source numerical table visually reviewed for exact US standard target. Capacity table is not a substitute for level-check/filling procedure. No interpolated model-year values."
+    },
+    {
+      "id": "fc-250-2023-service-spec-6",
+      "property": "brake_disc_diameter",
+      "joint": "Front brake disc",
+      "value": 260,
+      "unit": "mm",
+      "conditions": [],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+      "locator": "PDF page(s) 136, technical data: Front brake disc",
+      "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+      "document_revision": "3402631en / 27.09.2023",
+      "review_status": "APPROVED",
+      "review_note": "Source numerical table visually reviewed for exact US standard target. Capacity table is not a substitute for level-check/filling procedure. No interpolated model-year values."
+    },
+    {
+      "id": "fc-250-2023-service-spec-7",
+      "property": "clearance_wear_limit",
+      "joint": "Front brake disc thickness",
+      "value": 2.5,
+      "unit": "mm",
+      "conditions": [
+        "Minimum disc thickness; inspect entire swept surface"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+      "locator": "PDF page(s) 136, technical data: Front brake disc thickness",
+      "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+      "document_revision": "3402631en / 27.09.2023",
+      "review_status": "APPROVED",
+      "review_note": "Source numerical table visually reviewed for exact US standard target. Capacity table is not a substitute for level-check/filling procedure. No interpolated model-year values."
+    },
+    {
+      "id": "fc-250-2023-service-spec-8",
+      "property": "brake_disc_diameter",
+      "joint": "Rear brake disc",
+      "value": 220,
+      "unit": "mm",
+      "conditions": [],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+      "locator": "PDF page(s) 136, technical data: Rear brake disc",
+      "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+      "document_revision": "3402631en / 27.09.2023",
+      "review_status": "APPROVED",
+      "review_note": "Source numerical table visually reviewed for exact US standard target. Capacity table is not a substitute for level-check/filling procedure. No interpolated model-year values."
+    },
+    {
+      "id": "fc-250-2023-service-spec-9",
+      "property": "clearance_wear_limit",
+      "joint": "Rear brake disc thickness",
+      "value": 3.5,
+      "unit": "mm",
+      "conditions": [
+        "Minimum disc thickness; inspect entire swept surface"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+      "locator": "PDF page(s) 136, technical data: Rear brake disc thickness",
+      "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+      "document_revision": "3402631en / 27.09.2023",
+      "review_status": "APPROVED",
+      "review_note": "Source numerical table visually reviewed for exact US standard target. Capacity table is not a substitute for level-check/filling procedure. No interpolated model-year values."
+    },
+    {
+      "id": "fc-250-2023-service-spec-10",
+      "property": "final_drive_tooth_pair",
+      "joint": "Final drive",
+      "value": "14:51",
+      "unit": "tooth pair",
+      "conditions": [
+        "Front:rear sprocket teeth",
+        "US standard factory gearing"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+      "locator": "PDF page(s) 136, technical data: Final drive",
+      "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+      "document_revision": "3402631en / 27.09.2023",
+      "review_status": "APPROVED",
+      "review_note": "Source numerical table visually reviewed for exact US standard target. Capacity table is not a substitute for level-check/filling procedure. No interpolated model-year values."
+    },
+    {
+      "id": "fc-250-2023-service-spec-11",
+      "property": "fuel_tank_capacity",
+      "joint": "Fuel tank",
+      "value": 7.2,
+      "unit": "L",
+      "conditions": [
+        "Approximate total capacity; standard FC, excludes FX"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+      "locator": "PDF page(s) 136, technical data: Fuel tank",
+      "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+      "document_revision": "3402631en / 27.09.2023",
+      "review_status": "APPROVED",
+      "review_note": "Source numerical table visually reviewed for exact US standard target. Capacity table is not a substitute for level-check/filling procedure. No interpolated model-year values."
+    }
+  ],
+  "mappings": [],
+  "gaps": [
+    "Procedure steps, intervals, and full wear-limit enumeration remain separate."
+  ],
+  "catalog_complete": false,
+  "scope_confirmed": true
+}

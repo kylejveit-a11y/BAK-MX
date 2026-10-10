@@ -1,0 +1,62 @@
+{
+  "status": "APPROVED",
+  "sources": [
+    {
+      "id": "yamaha-us-2027-yz250f-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D05-2819U-10_02.pdf",
+      "sha256": "ee02280139498348008b90fa4fed317228500c47caf76eb1712d1669e19d1578",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\bakmx-pass13\\D05-2819U-10_02.pdf"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "fork-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2027-yz250f-oem",
+      "sha256": "5f9bae00f37001e72f27f2d71ddce33caae36b65e90dc77fc04913b88b3ea227",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2027,
+        "variant": "standard",
+        "region": "US"
+      },
+      "step_count": 6,
+      "candidate_sha256": "478a5c3a1d8d60e7df847bad21fc860ad74d372c0a946572b27ecef3f75bfdbc"
+    },
+    {
+      "path": "shock-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2027-yz250f-oem",
+      "sha256": "19921055ed996b7e7fa2b445d986109903c9f295a320366f7ddfe46aa5ba0e89",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2027,
+        "variant": "standard",
+        "region": "US"
+      },
+      "step_count": 6,
+      "candidate_sha256": "9b052009e86e502ea19a1906b028011be9583e7e2b7dee229b82fffdf713decf"
+    },
+    {
+      "path": "rider-sag-preload-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha-us-2027-yz250f-oem",
+      "sha256": "1a3180613b68a3050a2fdbe90cb4e7e8f8de3980971df3bf176de27c7d1b8fa6",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2027,
+        "variant": "standard",
+        "region": "US"
+      },
+      "step_count": 7,
+      "candidate_sha256": "2a43d2a97e0fdb83c5d5c50f30dde1de98cd90d4e1c19b9729aa217dc2ccccb3"
+    }
+  ],
+  "independent_review": {
+    "path": "independent-review.json",
+    "sha256": "3301bf0e965eb8f1b83800197764f326f232e35e43bc911f4d07f22774757a6e"
+  }
+}

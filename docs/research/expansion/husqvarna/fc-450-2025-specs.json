@@ -1,0 +1,323 @@
+{
+  "target": {
+    "manufacturer": "Husqvarna",
+    "model": "FC 450",
+    "model_year": 2025,
+    "variant": "standard",
+    "region": "US"
+  },
+  "source_metadata": {
+    "target": {
+      "manufacturer": "Husqvarna",
+      "model": "FC 450",
+      "model_year": 2025,
+      "variant": "standard",
+      "region": "US"
+    },
+    "selector_url": "https://www.husqvarna-motorcycles.com/en-us/service/user-manuals.html",
+    "query_url": "https://www.husqvarna-motorcycles.com/en-us/service/user-manuals/_jcr_content/root/responsivegrid_1_col/bikemanuals.manuals.json?modelName=FC+450+2025",
+    "english_results": [
+      {
+        "modelName": "FC 450 2025",
+        "title": "FC 450 2025 EU (en) - 2025",
+        "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf"
+      },
+      {
+        "modelName": "FC 450 2025",
+        "title": "FC 450 2025 BR (en) - 2025",
+        "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf"
+      },
+      {
+        "modelName": "FC 450 2025",
+        "title": "FC 450 2025 US (en) - 2025",
+        "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf"
+      }
+    ],
+    "selected": {
+      "modelName": "FC 450 2025",
+      "title": "FC 450 2025 US (en) - 2025",
+      "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf"
+    },
+    "scope_confirmed_by_selector": true,
+    "review_status": "PENDING",
+    "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+    "bytes": 10737342,
+    "temporary_pdf": "/tmp/hq-manuals/fc-450-2025.pdf",
+    "temporary_text": "/tmp/hq-manuals/fc-450-2025.txt",
+    "scope_page": 3,
+    "scope_excerpt": "This document is valid for the following models:\nFC 450 EU (F2401Y1)\nFC 450 US (F2475Y2)\nFC 450 Factory Edition US (F2475Y1)\nFX 450 US (F2375Y4)\n*3402805en*\n3402805en\n23/01/2025",
+    "document_revision": "23/01/2025",
+    "document_article": "3402805en",
+    "torque_table_pdf_pages": [
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161
+    ]
+  },
+  "assemblies": [],
+  "parts": [],
+  "facts": [
+    {
+      "id": "fc-450-2025-spec-1",
+      "property": "displacement",
+      "joint": "Engine",
+      "value": 449.9,
+      "unit": "cm3",
+      "conditions": [],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 144, engine technical data: Engine",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-450-2025-spec-2",
+      "property": "stroke",
+      "joint": "Engine",
+      "value": 63.4,
+      "unit": "mm",
+      "conditions": [],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 144, engine technical data: Engine",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-450-2025-spec-3",
+      "property": "bore",
+      "joint": "Cylinder",
+      "value": 95,
+      "unit": "mm",
+      "conditions": [],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 144, engine technical data: Cylinder",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-450-2025-spec-4",
+      "property": "compression_ratio",
+      "joint": "Engine",
+      "value": "13.6:1",
+      "unit": "ratio",
+      "conditions": [],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 144, engine technical data: Engine",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-450-2025-spec-5",
+      "property": "valve_diameter",
+      "joint": "Intake valve",
+      "value": 40,
+      "unit": "mm",
+      "conditions": [],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 144, engine technical data: Intake valve",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-450-2025-spec-6",
+      "property": "valve_diameter",
+      "joint": "Exhaust valve",
+      "value": 33,
+      "unit": "mm",
+      "conditions": [],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 144, engine technical data: Exhaust valve",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-450-2025-spec-7",
+      "property": "valve_clearance",
+      "joint": "Intake valve",
+      "value": "0.10\u20130.15",
+      "unit": "mm",
+      "conditions": [
+        "At 20 \u00b0C"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 144, engine technical data: Intake valve",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-450-2025-spec-8",
+      "property": "valve_clearance",
+      "joint": "Exhaust valve",
+      "value": "0.12\u20130.17",
+      "unit": "mm",
+      "conditions": [
+        "At 20 \u00b0C"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 144, engine technical data: Exhaust valve",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-450-2025-spec-9",
+      "property": "idle_speed",
+      "joint": "Engine",
+      "value": "2200\u20132300",
+      "unit": "rpm",
+      "conditions": [],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 144, engine technical data: Engine",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-450-2025-spec-10",
+      "property": "primary_transmission",
+      "joint": "Primary transmission",
+      "value": "29:72",
+      "unit": "tooth pair",
+      "conditions": [
+        "Driving:driven teeth; not the numerical reduction ratio"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 144, engine technical data: Primary transmission",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-450-2025-spec-11",
+      "property": "transmission_tooth_pair",
+      "joint": "Gear 1",
+      "value": "2:28 PM",
+      "unit": "unresolved",
+      "conditions": [],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 144, engine technical data: Gear 1",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "CONFLICTED",
+      "review_note": "Original rendered OEM table contains malformed time-like value 2:28 PM. Do not repair by borrowing another year. Requires independent exact-target evidence."
+    },
+    {
+      "id": "fc-450-2025-spec-12",
+      "property": "transmission_tooth_pair",
+      "joint": "Gear 2",
+      "value": "16:26",
+      "unit": "tooth pair",
+      "conditions": [
+        "Driving:driven teeth; standard FC five-speed transmission"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 144, engine technical data: Gear 2",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-450-2025-spec-13",
+      "property": "transmission_tooth_pair",
+      "joint": "Gear 3",
+      "value": "18:24",
+      "unit": "tooth pair",
+      "conditions": [
+        "Driving:driven teeth; standard FC five-speed transmission"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 144, engine technical data: Gear 3",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-450-2025-spec-14",
+      "property": "transmission_tooth_pair",
+      "joint": "Gear 4",
+      "value": "21:24",
+      "unit": "tooth pair",
+      "conditions": [
+        "Driving:driven teeth; standard FC five-speed transmission"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 144, engine technical data: Gear 4",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-450-2025-spec-15",
+      "property": "transmission_tooth_pair",
+      "joint": "Gear 5",
+      "value": "22:21",
+      "unit": "tooth pair",
+      "conditions": [
+        "Driving:driven teeth; standard FC five-speed transmission"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 144, engine technical data: Gear 5",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-450-2025-spec-16",
+      "property": "alternator_voltage",
+      "joint": "Alternator",
+      "value": 14,
+      "unit": "V",
+      "conditions": [],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 144, engine technical data: Alternator",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-450-2025-spec-17",
+      "property": "alternator_power",
+      "joint": "Alternator",
+      "value": 77,
+      "unit": "W",
+      "conditions": [],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page 144, engine technical data: Alternator",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    }
+  ],
+  "mappings": [],
+  "gaps": [
+    "Stock fork/shock and other service specifications still being enumerated."
+  ],
+  "catalog_complete": false,
+  "scope_confirmed": true
+}

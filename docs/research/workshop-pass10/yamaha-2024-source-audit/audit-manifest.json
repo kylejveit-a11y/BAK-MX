@@ -1,0 +1,41 @@
+{
+  "status": "AUDIT_ONLY_NOT_PUBLICATION",
+  "sources": [
+    {
+      "year": 2024,
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\BHR-2819U-11_02.pdf",
+      "sha256": "6e784b3b15fe1e131f0e385676ca2873e74d783ee2499ce561e595bcea9ca9be",
+      "page_count": 386,
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf"
+    },
+    {
+      "year": 2025,
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\D02-2819U-10_02.pdf",
+      "sha256": "5005e7d8492c9482dfe44c6d752609a9a70a836f5b1dc94be3149d5d493de8ac",
+      "page_count": 396,
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "approved-2025-page-map-candidates.json",
+      "sha256": "d7905cd8f63f6598798a2805672767500319f086de7adf37391882eb7f59cffe"
+    },
+    {
+      "path": "reviewed-differences.json",
+      "sha256": "91f6e6d49f5c7f77c190404cba8fc7a6bde184c5dcd7fceb8a8eac92a1a52d05"
+    },
+    {
+      "path": "saved-torque-table-differences.json",
+      "sha256": "6a0514be26ce977bcc16ad9385fa98b96d11164556e9bd157ed4d05127b3ca52"
+    },
+    {
+      "path": "section-routing-map.json",
+      "sha256": "85a3c1360ce41f4870afa2633373843b39b5d5decac27a4ecb5a1213dd8aa136"
+    },
+    {
+      "path": "source-page-index.json",
+      "sha256": "3f54a0c4ef664333c9947454541b49e12560764f5bf17be5fb15eb340491a506"
+    }
+  ]
+}

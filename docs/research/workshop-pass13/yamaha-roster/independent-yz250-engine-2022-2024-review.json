@@ -1,0 +1,123 @@
+{
+  "status": "APPROVED_FOR_BOUNDED_RUNTIME",
+  "reviewer": "year_groups_research, independent of core_flow_repairs author",
+  "artifacts": [
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2024-yz250-top-end-power-valve-bench-v1.procedure.json",
+      "reviewed_candidate_sha256": "a498ad410b750a109e2a1348827d411998d74f7f0142ac8e628492977509229e",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 28
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2022-yz250-top-end-power-valve-bench-v1.procedure.json",
+      "reviewed_candidate_sha256": "11b238aa932f6e1deab0b3722fec19e6dc7a583501593e81865864515caa9a65",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 28
+    },
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2023-yz250-top-end-power-valve-bench-v1.procedure.json",
+      "reviewed_candidate_sha256": "63e8c9384c02dea06d660f068b54ae39209f4e5d4c4adaaa86ae9573d90603ab",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 28
+    }
+  ],
+  "source_bindings": [
+    {
+      "id": "yamaha-us-2024-yz250-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BCR-2819U-12_02.pdf",
+      "sha256": "766bc3ef6c02e72741f31cc31f8433568b0502dcc0638c685ab1ce37d71e497a"
+    },
+    {
+      "id": "yamaha-us-2022-yz250-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BCR-2819U-10_02.pdf",
+      "sha256": "7e35f5a2255910883c8d285ab17b4c8df93b6bd5f5bce169f961739f7eac772b"
+    },
+    {
+      "id": "yamaha-us-2023-yz250-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BCR-2819U-11_02.pdf",
+      "sha256": "5987b96f081f7c33d155d566ee0cdf7a9a7082e05a4270320d06847e43483659"
+    }
+  ],
+  "review_scope": "All28 instructions, scope/tools/renewals and exact2024 source166–176/41–42; exact2022/23 normalized source comparison inspected all changed clauses, same specification blocks independently checked, matching rendered diagrams verified. No cross-year approval by model generation.",
+  "text_pages_each": [
+    1,
+    3,
+    7,
+    41,
+    42,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176
+  ],
+  "visual_review": {
+    "2024": [
+      166,
+      167,
+      168,
+      170,
+      173,
+      174,
+      175,
+      176
+    ],
+    "2022": [
+      166,
+      167,
+      173,
+      174,
+      175,
+      176
+    ],
+    "2023": {
+      "pages": [
+        166,
+        167,
+        173,
+        174,
+        175,
+        176
+      ],
+      "method": "Exact full-pixel SHA256 equivalence with individually viewed2022 pages, not inferred mechanical compatibility."
+    }
+  },
+  "accepted_findings": [
+    "No blocking mechanical discrepancy found within declared prepared-bench scope.",
+    "Exact2022/23 lever/pulley torque page173 and movement/order174 both cited; pushrod175 heading/176 action both cited.",
+    "Molybdenum disulfide OIL and LS preparations, holder2 LT6Nm, plate-before-shaft, inward spring stopper, shaft cut rotation and lever-before-pulley4Nm all supported.",
+    "Set pin installed for pushrod load and removed/accounted; twoNEWclips/newgaskets/headO-rings/sixcopperwashers supported.",
+    "Actual bore/piston/grades/ring/pin clearances and disposition supported; no invented minimum ring gap.",
+    "42Nm cylinder/25Nm head staged-crosswise/4.5Nm housing-pushrod/20Nm plug match exact source."
+  ],
+  "scope_limits": [
+    "Engine access/refit, lower engine/governor, damaged shaft seal repair and head resurfacing remain separate accepted work.",
+    "Cooling refill/leak test, fuel/oil restoration and break-in/post-service commissioning remain uncompleted by these bench guides.",
+    "No physical workshop validation or full-bike qualification."
+  ],
+  "freeze_permission": "Approval/status/review-note-only metadata revision and final hash rebinding permitted; mechanical changes require review."
+}

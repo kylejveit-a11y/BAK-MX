@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "status": "RESEARCH_CHECKPOINT_NO_RUNTIME_APPROVAL",
+  "source_hash_provenance": "Prior frozen Honda capture only; current official browser view visually checked but byte hash unconfirmed.",
+  "artifacts": [
+    {
+      "path": "valve-inspection-candidate-v1.procedure.json",
+      "procedure_id": "honda-2026-crf450r-valve-inspection-candidate-v1",
+      "sha256": "32fc7a5c2c68cc9a30d4c4aab76695a672223f32df9a7f252000c40d08053528",
+      "step_count": 21,
+      "status": "CANDIDATE_PENDING_CURRENT_SOURCE_HASH",
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF450R",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "piston-cylinder-candidate-v1.procedure.json",
+      "procedure_id": "honda-2026-crf450r-piston-cylinder-candidate-v1",
+      "sha256": "aeafbc324e1c2ef7bc98d16d7904901c2f1809c0005e315edd10d3569731595e",
+      "step_count": 57,
+      "status": "CANDIDATE_WITH_UNCLOSED_DEPENDENCIES",
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF450R",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      }
+    }
+  ],
+  "validation": "PASS unique steps, dependency order and page containment; not a mechanical or release approval.",
+  "pending": [
+    "Current-byte verification",
+    "Independent candidate source/composition review",
+    "Full top-end metrology technique",
+    "Post-rebuild first-start and break-in closure",
+    "Top-end repeat-adjustment branch runtime representation"
+  ]
+}

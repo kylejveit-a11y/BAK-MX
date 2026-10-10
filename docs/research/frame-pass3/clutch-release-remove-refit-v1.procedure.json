@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "publication_status": "LOCAL_REVIEWED_NOT_IMPORTED",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      58,
+      59,
+      65,
+      196,
+      210,
+      254,
+      257,
+      261,
+      262,
+      263
+    ],
+    "printed_pages": [
+      "See exact PDF page links at each step"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Text and assembly diagrams visually checked for this bounded operation; no generalization to other years or modified parts."
+  },
+  "id": "yamaha-2026-yz450f-clutch-release-remove-refit-v1",
+  "title": "Remove and refit the intact clutch release cylinder",
+  "completeness": "Complete unbolt/refit of the intact stock release cylinder with its hydraulic hose kept attached, new mounting O-ring and verified closure. Pushrod and shaft oil seal remain installed; no bleeding or clutch-internal overhaul claim.",
+  "applicability": {
+    "included": "Exact stock 2026 US standard YZ450F; original serviceable assemblies unless explicitly replaced below",
+    "excluded": [
+      "Other years/models and non-stock assemblies",
+      "Frame repair/welding/straightening",
+      "Opening hydraulic joints or piston service",
+      "Pushrod removal or shaft oil-seal replacement",
+      "Clutch internal overhaul"
+    ]
+  },
+  "prerequisites": [
+    "Match the exact bike and installed stock parts. Have the complete cited diagrams available.",
+    "Stable maintenance stand and support suitable for changing weight distribution; clean labeled parts storage."
+  ],
+  "required_tools": [
+    {
+      "name": "Stable support for bike and release-cylinder body",
+      "spec": null
+    },
+    {
+      "name": "Appropriate low-range torque wrench covering7–10 N·m",
+      "spec": null
+    },
+    {
+      "name": "Silicone grease and source-specified LOCTITE threadlocking treatment",
+      "spec": null
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "New exact clutch-release-cylinder mounting O-ring",
+      "purpose": "Mounting seal shown new on OEM PDF257; verify OEM part for this exact bike."
+    }
+  ],
+  "critical_stop_conditions": [
+    "Unstable support, bent/cracked parts, damaged fasteners or unknown assembly order.",
+    "Binding, leaks, missing hardware or abnormal brake/control function remains an unresolved fault."
+  ],
+  "steps": [
+    {
+      "id": "prepare",
+      "title": "Prepare the left-side work area",
+      "instruction": "Stop the engine, let it cool and support the bike. Clean the drive-sprocket/release-cylinder area. Prevent the clutch lever being operated while the release unit is unbolted. Keep the hose unions and bleed screw untouched.",
+      "source_pdf_pages": [
+        196,
+        254,
+        261
+      ],
+      "verification": [
+        "Cold supported bike; clean work area; clutch lever protected."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": []
+    },
+    {
+      "id": "cover",
+      "title": "Remove the sprocket cover",
+      "instruction": "Remove the two drive-sprocket-cover bolts and the cover, retaining their locations. Do not remove the sprocket or shift pedal for this bounded operation.",
+      "source_pdf_pages": [
+        196,
+        254
+      ],
+      "verification": [
+        "Cover and two bolts retained."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=196",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=254"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "prepare"
+      ]
+    },
+    {
+      "id": "unit-off",
+      "title": "Support and unbolt the release cylinder",
+      "instruction": "Support the intact release-cylinder body, remove its two mounting bolts and ease it away. Keep the hose attached and unstressed; retain the washer and mounting O-ring. Leave push rod 2 and its installed oil seal in the engine. Do not operate the lever or allow dirt into the exposed area.",
+      "source_pdf_pages": [
+        210,
+        254,
+        257
+      ],
+      "verification": [
+        "Unit supported; hydraulic joints untouched; washer retained; rod and seal undisturbed."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=210",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=254",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=257"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "cover"
+      ]
+    },
+    {
+      "id": "inspect",
+      "title": "Inspect the mounting interface",
+      "instruction": "Inspect the cylinder body and accessible mounting surfaces for damage and record the condition. A hydraulic leak, damaged cylinder or disturbed piston requires the separate hydraulic service; this guide only removes/refits the intact unit.",
+      "source_pdf_pages": [
+        262,
+        263
+      ],
+      "verification": [
+        "Condition recorded; no hydraulic service implied."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "unit-off"
+      ]
+    },
+    {
+      "id": "seal",
+      "title": "Restore the washer and new mounting seal",
+      "instruction": "Fit a new correct release-cylinder mounting O-ring, lubricated with silicone grease. Keep the original washer in the illustrated position. Apply silicone grease to the exposed pushrod-end contact and leave the installed rod oil seal undisturbed. Match the source drawing before seating the cylinder.",
+      "source_pdf_pages": [
+        257
+      ],
+      "verification": [
+        "New lubricated O-ring and original washer correctly located; rod seal undisturbed."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=257"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "inspect"
+      ]
+    },
+    {
+      "id": "mount",
+      "title": "Secure the intact release cylinder",
+      "instruction": "Seat the cylinder without trapping its O-ring or hose. Apply the source-specified LOCTITE threadlocking treatment to the two mounting bolts and tighten them to 10 N·m. The 5 N·m bleed screw and 30 N·m hose union shown nearby are not mounting bolts and remain untouched.",
+      "source_pdf_pages": [
+        59,
+        254,
+        257
+      ],
+      "verification": [
+        "Two mount bolts 10 N·m with specified threadlocking treatment; hydraulics closed."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=59",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=254",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=257"
+      ],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "seal"
+      ]
+    },
+    {
+      "id": "cover-refit",
+      "title": "Refit the sprocket cover",
+      "instruction": "Replace the cover and tighten both cover bolts to 7 N·m. Restore original hose routing and clearances without twist.",
+      "source_pdf_pages": [
+        58,
+        65,
+        254
+      ],
+      "verification": [
+        "Cover bolts 7 N·m; hose routed without tension or pinch."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "mount"
+      ]
+    },
+    {
+      "id": "close",
+      "title": "Check clutch operation",
+      "instruction": "Check normal lever operation and inspect for leakage. Record the work as intact cylinder removal/refit. A soft/spongy lever, leak, moving mount or abnormal clutch function is not a completed repair; use the separate source procedure before riding.",
+      "source_pdf_pages": [
+        262,
+        263
+      ],
+      "verification": [
+        "Normal clutch operation and no leakage; findings recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "Original OEM-based summary; record prompts and sealed-assembly handling are explicit workshop workflow adaptations.",
+      "depends_on": [
+        "cover-refit"
+      ]
+    }
+  ],
+  "operation_dependencies": [],
+  "affected_components": [
+    "clutch",
+    "engine_modifications"
+  ]
+}

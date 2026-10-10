@@ -1,0 +1,4525 @@
+{
+  "schema_version": 1,
+  "library_guides": 294,
+  "library_overlapping_steps": 6265,
+  "scope": "Ten planned adult Yamaha families, exact US standard 2020–2027",
+  "counting_note": "Guide/step counts include overlapping modules; they are not completeness percentages. A gap marked unfinished authoring may already have source material available.",
+  "database_readback_performed": false,
+  "database_writes": false,
+  "targets": 80,
+  "targets_with_reviewed_guides": 77,
+  "whole_bikes_complete": 0,
+  "rows": [
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ450F",
+      "model_year": 2020,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 16,
+      "guide_ids": [
+        "yamaha-2020-yz450f-fork-baseline-v1",
+        "yamaha-2020-yz450f-shock-baseline-v1",
+        "yamaha-2020-yz450f-rider-sag-measurement-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-28199-10_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ450F",
+      "model_year": 2021,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 19,
+      "guide_ids": [
+        "yamaha-2021-yz450f-fork-baseline-v1",
+        "yamaha-2021-yz450f-shock-baseline-v1",
+        "yamaha-2021-yz450f-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-11_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        },
+        {
+          "id": "piston_pin_lubricant",
+          "kind": "SOURCE_CONFLICT",
+          "detail": "Piston-pin text specifies molybdenum disulfide oil; installation diagram points engine oil at the pin. Bench reassembly draft remains held."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ450F",
+      "model_year": 2022,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 15,
+      "step_count": 880,
+      "guide_ids": [
+        "yamaha-2022-yz450f-fork-baseline-v1",
+        "yamaha-2022-yz450f-rider-sag-preload-v1",
+        "yamaha-2022-yz450f-shock-baseline-v1",
+        "yamaha-2022-yz450f-fork-oil-seals-bushings-v1",
+        "yamaha-2022-yz450f-lower-engine-bench-v1",
+        "yamaha-2022-yz450f-us-front-caliper-rebuild-v1",
+        "yamaha-2022-yz450f-us-rear-caliper-rebuild-v1",
+        "yamaha-2022-yz450f-us-front-master-rebuild-v1",
+        "yamaha-2022-yz450f-us-rear-master-rebuild-v1",
+        "yamaha-yz450f-2022-engine-removal-refit-v1",
+        "yamaha-2022-yz450f-post-rebuild-commissioning-v1",
+        "yamaha-yz450f-2022-top-end-bike-journey-v1",
+        "yamaha-yz450f-2022-frame-bearing-renewal-reassembly-v1",
+        "yamaha-yz450f-2022-major-engine-bike-journey-v1",
+        "yamaha-2022-yz450f-top-end-bench-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf"
+      ],
+      "engine_journey": true,
+      "frame_bearing_route": true,
+      "fork_oil_seal_bushing_route": true,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Existing bounded engine journeys exclude some crank/case/accessory work; retain each guide’s explicit gaps."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Bearing renewal route exists; structural repair and all remaining retained-component exclusions are not closed."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Oil/seal/bushing route exists; cartridge rod-seal renewal and revalving remain outside its scope."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        },
+        {
+          "id": "retained_exact_evidence_dependencies",
+          "kind": "EXACT_EVIDENCE_DEPENDENCY",
+          "detail": "The existing 2022 route retains oil-check-bolt fastening and hub-seal endpoint dependencies; consult its exact operation completeness and recorded handoffs."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ450F",
+      "model_year": 2023,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 15,
+      "step_count": 874,
+      "guide_ids": [
+        "yamaha-2023-yz450f-fork-baseline-v1",
+        "yamaha-2023-yz450f-fork-oil-seals-bushings-v1",
+        "yamaha-2023-yz450f-rider-sag-preload-v1",
+        "yamaha-2023-yz450f-shock-baseline-v1",
+        "yamaha-2023-yz450f-us-front-caliper-rebuild-v1",
+        "yamaha-2023-yz450f-us-rear-caliper-rebuild-v1",
+        "yamaha-2023-yz450f-us-front-master-rebuild-v1",
+        "yamaha-2023-yz450f-us-rear-master-rebuild-v1",
+        "yamaha-2023-yz450f-post-rebuild-commissioning-v1",
+        "yamaha-2023-yz450f-lower-engine-bench-v1",
+        "yamaha-yz450f-2023-engine-removal-refit-v1",
+        "yamaha-yz450f-2023-frame-bearing-renewal-reassembly-v1",
+        "yamaha-yz450f-2023-top-end-bike-journey-v1",
+        "yamaha-yz450f-2023-major-engine-bike-journey-v1",
+        "yamaha-2023-yz450f-top-end-bench-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf"
+      ],
+      "engine_journey": true,
+      "frame_bearing_route": true,
+      "fork_oil_seal_bushing_route": true,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Existing bounded engine journeys exclude some crank/case/accessory work; retain each guide’s explicit gaps."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Bearing renewal route exists; structural repair and all remaining retained-component exclusions are not closed."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Oil/seal/bushing route exists; cartridge rod-seal renewal and revalving remain outside its scope."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ450F",
+      "model_year": 2024,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 15,
+      "step_count": 874,
+      "guide_ids": [
+        "yamaha-2024-yz450f-fork-baseline-v1",
+        "yamaha-2024-yz450f-fork-oil-seals-bushings-v1",
+        "yamaha-2024-yz450f-rider-sag-preload-v1",
+        "yamaha-2024-yz450f-shock-baseline-v1",
+        "yamaha-2024-yz450f-us-front-caliper-rebuild-v1",
+        "yamaha-2024-yz450f-us-rear-caliper-rebuild-v1",
+        "yamaha-2024-yz450f-us-front-master-rebuild-v1",
+        "yamaha-2024-yz450f-us-rear-master-rebuild-v1",
+        "yamaha-yz450f-2024-engine-removal-refit-v1",
+        "yamaha-yz450f-2024-frame-bearing-renewal-reassembly-v1",
+        "yamaha-2024-yz450f-post-rebuild-commissioning-v1",
+        "yamaha-yz450f-2024-top-end-bike-journey-v1",
+        "yamaha-yz450f-2024-major-engine-bike-journey-v1",
+        "yamaha-2024-yz450f-top-end-bench-v1",
+        "yamaha-2024-yz450f-lower-engine-bench-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf"
+      ],
+      "engine_journey": true,
+      "frame_bearing_route": true,
+      "fork_oil_seal_bushing_route": true,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Existing bounded engine journeys exclude some crank/case/accessory work; retain each guide’s explicit gaps."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Bearing renewal route exists; structural repair and all remaining retained-component exclusions are not closed."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Oil/seal/bushing route exists; cartridge rod-seal renewal and revalving remain outside its scope."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ450F",
+      "model_year": 2025,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 15,
+      "step_count": 874,
+      "guide_ids": [
+        "yamaha-2025-yz450f-fork-baseline-v1",
+        "yamaha-2025-yz450f-fork-oil-seals-bushings-v2",
+        "yamaha-2025-yz450f-rider-sag-preload-v1",
+        "yamaha-2025-yz450f-shock-baseline-v1",
+        "yamaha-2025-yz450f-us-front-caliper-rebuild-v1",
+        "yamaha-2025-yz450f-us-rear-caliper-rebuild-v1",
+        "yamaha-2025-yz450f-us-front-master-rebuild-v1",
+        "yamaha-2025-yz450f-us-rear-master-rebuild-v1",
+        "yamaha-yz450f-2025-engine-removal-refit-v1",
+        "yamaha-yz450f-2025-frame-bearing-renewal-reassembly-v1",
+        "yamaha-2025-yz450f-top-end-bench-v1",
+        "yamaha-2025-yz450f-lower-engine-bench-v1",
+        "yamaha-2025-yz450f-post-rebuild-commissioning-v1",
+        "yamaha-yz450f-2025-top-end-bike-journey-v1",
+        "yamaha-yz450f-2025-major-engine-bike-journey-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf"
+      ],
+      "engine_journey": true,
+      "frame_bearing_route": true,
+      "fork_oil_seal_bushing_route": true,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Existing bounded engine journeys exclude some crank/case/accessory work; retain each guide’s explicit gaps."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Bearing renewal route exists; structural repair and all remaining retained-component exclusions are not closed."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Oil/seal/bushing route exists; cartridge rod-seal renewal and revalving remain outside its scope."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ450F",
+      "model_year": 2026,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 56,
+      "step_count": 1278,
+      "guide_ids": [
+        "yamaha-2026-yz450f-stock-fork-clicker-baseline-v1",
+        "yamaha-2026-yz450f-stock-shock-damping-baseline-v1",
+        "yamaha-2026-yz450f-valve-clearance-inspection-v1",
+        "yamaha-2026-yz450f-fork-remove-refit-v1",
+        "yamaha-2026-yz450f-top-end-guide-valve-renew-v1",
+        "yamaha-yz450f-2026-frame-bearing-renewal-reassembly-v1",
+        "yamaha-yz450f-2026-stock-chain-sprocket-pair-renewal-v1",
+        "yamaha-2026-yz450f-us-front-caliper-rebuild-v1",
+        "yamaha-2026-yz450f-us-rear-caliper-rebuild-v1",
+        "yamaha-2026-yz450f-us-front-master-rebuild-v1",
+        "yamaha-2026-yz450f-us-rear-master-rebuild-v1",
+        "yamaha-2026-yz450f-us-clutch-hydraulic-service-v1",
+        "yamaha-2026-yz450f-guides-valves-renew-bench-v1",
+        "yamaha-2026-yz450f-throttle-grip-cable-access-v1",
+        "yamaha-yz450f-2026-steering-bearings-races-renewal-v1",
+        "yamaha-yz450f-2026-swingarm-linkage-bearings-renewal-v1",
+        "yamaha-yz450f-2026-shock-eye-bearings-renewal-v1",
+        "yamaha-yz450f-2026-shock-spring-preload-sag-v1",
+        "yamaha-2026-yz450f-fork-harshness-trial-v1",
+        "yamaha-2026-yz450f-fork-bottoming-trial-v1",
+        "yamaha-2026-yz450f-shock-packing-trial-v1",
+        "yamaha-2026-yz450f-shock-bouncing-trial-v1",
+        "yamaha-2026-yz450f-stock-chain-renewal-v1",
+        "yamaha-2026-yz450f-valve-adjustment-v3",
+        "yamaha-2026-yz450f-stock-tensioner-service-v1",
+        "yamaha-2026-yz450f-exhaust-remove-refit-v1",
+        "yamaha-2026-yz450f-coolant-change-v1",
+        "yamaha-2026-yz450f-airbox-remove-refit-v1",
+        "yamaha-2026-yz450f-shock-remove-refit-v1",
+        "yamaha-2026-yz450f-fork-oil-seals-bushings-v1",
+        "yamaha-2026-yz450f-frame-strip-reassemble-v1",
+        "yamaha-2026-yz450f-top-end-stock-reuse-v1",
+        "yamaha-2026-yz450f-front-wheel-bearing-renewal-v1",
+        "yamaha-2026-yz450f-rear-wheel-bearings-seals-v1",
+        "yamaha-2026-yz450f-front-wheel-remove-refit-v1",
+        "yamaha-2026-yz450f-rear-wheel-remove-refit-v1",
+        "yamaha-2026-yz450f-steering-bearing-inspection-v1",
+        "yamaha-2026-yz450f-swingarm-linkage-remove-refit-v1",
+        "yamaha-2026-yz450f-clutch-release-remove-refit-v1",
+        "yamaha-2026-yz450f-engine-remove-refit-v1",
+        "yamaha-2026-yz450f-transmission-bench-v1",
+        "yamaha-2026-yz450f-oil-pump-bench-v1",
+        "yamaha-2026-yz450f-primary-balancer-bench-v1",
+        "yamaha-2026-yz450f-generator-bench-v1",
+        "yamaha-2026-yz450f-crankcase-bench-v2",
+        "yamaha-2026-yz450f-crankshaft-assembly-bench-v1",
+        "yamaha-2026-yz450f-head-remove-refit-bench-v1",
+        "yamaha-2026-yz450f-cylinder-piston-bench-v1",
+        "yamaha-2026-yz450f-head-valve-inspect-reseal-bench-v1",
+        "yamaha-2026-yz450f-cams-remove-bench-v1",
+        "yamaha-2026-yz450f-camshaft-inspection-bench-v2",
+        "yamaha-2026-yz450f-cams-install-bench-v1",
+        "yamaha-2026-yz450f-shift-mechanism-bench-v1",
+        "yamaha-2026-yz450f-clutch-pack-bench-v1",
+        "yamaha-2026-yz450f-right-cover-bench-v1",
+        "yamaha-2026-yz450f-water-pump-bench-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf"
+      ],
+      "engine_journey": true,
+      "frame_bearing_route": true,
+      "fork_oil_seal_bushing_route": true,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Existing bounded engine journeys exclude some crank/case/accessory work; retain each guide’s explicit gaps."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Bearing renewal route exists; structural repair and all remaining retained-component exclusions are not closed."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Oil/seal/bushing route exists; cartridge rod-seal renewal and revalving remain outside its scope."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        },
+        {
+          "id": "clutch_nut_preparation",
+          "kind": "SOURCE_CONFLICT",
+          "detail": "The existing clutch-nut preparation conflict remains governed by the preserved publication hold; this pass does not resolve or override it."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ450F",
+      "model_year": 2027,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 19,
+      "guide_ids": [
+        "yamaha-2027-yz450f-fork-baseline-v1",
+        "yamaha-2027-yz450f-shock-baseline-v1",
+        "yamaha-2027-yz450f-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-11_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250F",
+      "model_year": 2020,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 5,
+      "step_count": 50,
+      "guide_ids": [
+        "yamaha-2020-yz250f-original-head-valve-reassembly-v1",
+        "yamaha-2020-yz250f-top-end-teardown-inspection-v1",
+        "yamaha-2020-yz250f-fork-baseline-v1",
+        "yamaha-2020-yz250f-shock-baseline-v1",
+        "yamaha-2020-yz250f-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        },
+        {
+          "id": "head_bolt_lubricant",
+          "kind": "SOURCE_CONFLICT",
+          "detail": "Head-bolt table note specifies molybdenum disulfide oil; dedicated installation specifies grease. Inspection/detached-head work does not resolve mounting."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250F",
+      "model_year": 2021,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 5,
+      "step_count": 52,
+      "guide_ids": [
+        "yamaha-2021-yz250f-original-head-valve-reassembly-v1",
+        "yamaha-2021-yz250f-top-end-teardown-inspection-v1",
+        "yamaha-2021-yz250f-fork-baseline-v1",
+        "yamaha-2021-yz250f-shock-baseline-v1",
+        "yamaha-2021-yz250f-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        },
+        {
+          "id": "head_bolt_lubricant",
+          "kind": "SOURCE_CONFLICT",
+          "detail": "Head-bolt table note specifies molybdenum disulfide oil; dedicated installation specifies grease. Inspection/detached-head work does not resolve mounting."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250F",
+      "model_year": 2022,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 5,
+      "step_count": 52,
+      "guide_ids": [
+        "yamaha-2022-yz250f-original-head-valve-reassembly-v1",
+        "yamaha-2022-yz250f-top-end-teardown-inspection-v1",
+        "yamaha-2022-yz250f-fork-baseline-v1",
+        "yamaha-2022-yz250f-shock-baseline-v1",
+        "yamaha-2022-yz250f-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-13_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        },
+        {
+          "id": "head_bolt_lubricant",
+          "kind": "SOURCE_CONFLICT",
+          "detail": "Head-bolt table note specifies molybdenum disulfide oil; dedicated installation specifies grease. Inspection/detached-head work does not resolve mounting."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250F",
+      "model_year": 2023,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 5,
+      "step_count": 52,
+      "guide_ids": [
+        "yamaha-2023-yz250f-original-head-valve-reassembly-v1",
+        "yamaha-2023-yz250f-top-end-teardown-inspection-v1",
+        "yamaha-2023-yz250f-fork-baseline-v1",
+        "yamaha-2023-yz250f-shock-baseline-v1",
+        "yamaha-2023-yz250f-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BSB-2819U-10_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        },
+        {
+          "id": "head_bolt_lubricant",
+          "kind": "SOURCE_CONFLICT",
+          "detail": "Head-bolt table note specifies molybdenum disulfide oil; dedicated installation specifies grease. Inspection/detached-head work does not resolve mounting."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250F",
+      "model_year": 2024,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 5,
+      "step_count": 52,
+      "guide_ids": [
+        "yamaha-2024-yz250f-original-head-valve-reassembly-v1",
+        "yamaha-2024-yz250f-top-end-teardown-inspection-v1",
+        "yamaha-2024-yz250f-fork-baseline-v1",
+        "yamaha-2024-yz250f-shock-baseline-v1",
+        "yamaha-2024-yz250f-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        },
+        {
+          "id": "head_bolt_lubricant",
+          "kind": "SOURCE_CONFLICT",
+          "detail": "Head-bolt table note specifies molybdenum disulfide oil; dedicated installation specifies grease. Inspection/detached-head work does not resolve mounting."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250F",
+      "model_year": 2025,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 5,
+      "step_count": 52,
+      "guide_ids": [
+        "yamaha-2025-yz250f-original-head-valve-reassembly-v1",
+        "yamaha-2025-yz250f-top-end-teardown-inspection-v1",
+        "yamaha-2025-yz250f-fork-baseline-v1",
+        "yamaha-2025-yz250f-shock-baseline-v1",
+        "yamaha-2025-yz250f-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D01-2819U-10_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        },
+        {
+          "id": "head_bolt_lubricant",
+          "kind": "SOURCE_CONFLICT",
+          "detail": "Head-bolt table note specifies molybdenum disulfide oil; dedicated installation specifies grease. Inspection/detached-head work does not resolve mounting."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250F",
+      "model_year": 2026,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 5,
+      "step_count": 52,
+      "guide_ids": [
+        "yamaha-2026-yz250f-top-end-teardown-inspection-v1",
+        "yamaha-2026-yz250f-original-head-valve-reassembly-v1",
+        "yamaha-2026-yz250f-fork-baseline-v1",
+        "yamaha-2026-yz250f-shock-baseline-v1",
+        "yamaha-2026-yz250f-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/DR8-2819U-10_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        },
+        {
+          "id": "head_bolt_lubricant",
+          "kind": "SOURCE_CONFLICT",
+          "detail": "Head-bolt table note specifies molybdenum disulfide oil; dedicated installation specifies grease. Inspection/detached-head work does not resolve mounting."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250F",
+      "model_year": 2027,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 19,
+      "guide_ids": [
+        "yamaha-2027-yz250f-fork-baseline-v1",
+        "yamaha-2027-yz250f-shock-baseline-v1",
+        "yamaha-2027-yz250f-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D05-2819U-10_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250",
+      "model_year": 2020,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 2,
+      "step_count": 36,
+      "guide_ids": [
+        "yamaha-2020-yz250-top-end-power-valve-bench-v1",
+        "yamaha-2020-yz250-damping-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        },
+        {
+          "id": "cylinder_bore_measurement_method",
+          "kind": "SOURCE_CONFLICT",
+          "detail": "Exact manual prose averages bore readings while its diagram defines C as the maximum. Final piston/cylinder disposition requires resolution; no averaging or maximum is silently selected."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250",
+      "model_year": 2021,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 2,
+      "step_count": 36,
+      "guide_ids": [
+        "yamaha-2021-yz250-top-end-power-valve-bench-v1",
+        "yamaha-2021-yz250-damping-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BF1-2819U-10_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250",
+      "model_year": 2022,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 2,
+      "step_count": 36,
+      "guide_ids": [
+        "yamaha-2022-yz250-top-end-power-valve-bench-v1",
+        "yamaha-2022-yz250-damping-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BCR-2819U-10_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250",
+      "model_year": 2023,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 2,
+      "step_count": 36,
+      "guide_ids": [
+        "yamaha-2023-yz250-top-end-power-valve-bench-v1",
+        "yamaha-2023-yz250-damping-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BCR-2819U-11_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250",
+      "model_year": 2024,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 2,
+      "step_count": 36,
+      "guide_ids": [
+        "yamaha-2024-yz250-top-end-power-valve-bench-v1",
+        "yamaha-2024-yz250-damping-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BCR-2819U-12_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250",
+      "model_year": 2025,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 2,
+      "step_count": 36,
+      "guide_ids": [
+        "yamaha-2025-yz250-top-end-power-valve-bench-v1",
+        "yamaha-2025-yz250-damping-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D69-2819U-10_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250",
+      "model_year": 2026,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 2,
+      "step_count": 36,
+      "guide_ids": [
+        "yamaha-2026-yz250-top-end-power-valve-bench-v1",
+        "yamaha-2026-yz250-damping-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D69-2819U-11_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250",
+      "model_year": 2027,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 2,
+      "step_count": 36,
+      "guide_ids": [
+        "yamaha-2027-yz250-damping-baseline-v1",
+        "yamaha-2027-yz250-top-end-power-valve-bench-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D69-2819U-12_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ125",
+      "model_year": 2020,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 1,
+      "step_count": 8,
+      "guide_ids": [
+        "yamaha-2020-yz125-damping-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B0V-28199-11_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ125",
+      "model_year": 2021,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 1,
+      "step_count": 8,
+      "guide_ids": [
+        "yamaha-2021-yz125-damping-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B0V-2819U-10_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ125",
+      "model_year": 2022,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 1,
+      "step_count": 8,
+      "guide_ids": [
+        "yamaha-2022-yz125-damping-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B4X-2819U-10_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ125",
+      "model_year": 2023,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 1,
+      "step_count": 8,
+      "guide_ids": [
+        "yamaha-2023-yz125-damping-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B4X-2819U-11_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ125",
+      "model_year": 2024,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 1,
+      "step_count": 8,
+      "guide_ids": [
+        "yamaha-2024-yz125-damping-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B4X-2819U-12_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ125",
+      "model_year": 2025,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 1,
+      "step_count": 8,
+      "guide_ids": [
+        "yamaha-2025-yz125-damping-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D68-2819U-10_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ125",
+      "model_year": 2026,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 1,
+      "step_count": 8,
+      "guide_ids": [
+        "yamaha-2026-yz125-damping-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D68-2819U-11_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ125",
+      "model_year": 2027,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 1,
+      "step_count": 8,
+      "guide_ids": [
+        "yamaha-2027-yz125-damping-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D68-2819U-12_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ450FX",
+      "model_year": 2020,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 16,
+      "guide_ids": [
+        "yamaha-2020-yz450fx-fork-baseline-v1",
+        "yamaha-2020-yz450fx-shock-baseline-v1",
+        "yamaha-2020-yz450fx-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B3J-28199-11_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ450FX",
+      "model_year": 2021,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 19,
+      "guide_ids": [
+        "yamaha-2021-yz450fx-fork-baseline-v1",
+        "yamaha-2021-yz450fx-shock-baseline-v1",
+        "yamaha-2021-yz450fx-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BEX-2819U-10_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ450FX",
+      "model_year": 2022,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 19,
+      "guide_ids": [
+        "yamaha-2022-yz450fx-fork-baseline-v1",
+        "yamaha-2022-yz450fx-shock-baseline-v1",
+        "yamaha-2022-yz450fx-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BEX-2819U-11_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ450FX",
+      "model_year": 2023,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 19,
+      "guide_ids": [
+        "yamaha-2023-yz450fx-fork-baseline-v1",
+        "yamaha-2023-yz450fx-shock-baseline-v1",
+        "yamaha-2023-yz450fx-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BEX-2819U-12_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ450FX",
+      "model_year": 2024,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 19,
+      "guide_ids": [
+        "yamaha-2024-yz450fx-fork-baseline-v1",
+        "yamaha-2024-yz450fx-shock-baseline-v1",
+        "yamaha-2024-yz450fx-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BNL-2819U-10_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ450FX",
+      "model_year": 2025,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 19,
+      "guide_ids": [
+        "yamaha-2025-yz450fx-fork-baseline-v1",
+        "yamaha-2025-yz450fx-shock-baseline-v1",
+        "yamaha-2025-yz450fx-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BNL-2819U-11_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ450FX",
+      "model_year": 2026,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 19,
+      "guide_ids": [
+        "yamaha-2026-yz450fx-fork-baseline-v1",
+        "yamaha-2026-yz450fx-rider-sag-preload-v1",
+        "yamaha-2026-yz450fx-shock-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/DP1-2819U-10_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ450FX",
+      "model_year": 2027,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "CONFIRMED_US_YEAR_IDENTITY",
+      "guide_count": 0,
+      "step_count": 0,
+      "guide_ids": [],
+      "source_urls": [],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "exact_source",
+          "kind": "SOURCE_NOT_YET_RECOVERED",
+          "detail": "Exact current US service manual is not yet recovered in this pass; confirmed marketing identity does not justify service values."
+        },
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250FX",
+      "model_year": 2020,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 16,
+      "guide_ids": [
+        "yamaha-2020-yz250fx-fork-baseline-v1",
+        "yamaha-2020-yz250fx-shock-baseline-v1",
+        "yamaha-2020-yz250fx-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-28199-10_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250FX",
+      "model_year": 2021,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 19,
+      "guide_ids": [
+        "yamaha-2021-yz250fx-fork-baseline-v1",
+        "yamaha-2021-yz250fx-shock-baseline-v1",
+        "yamaha-2021-yz250fx-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-11_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250FX",
+      "model_year": 2022,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 19,
+      "guide_ids": [
+        "yamaha-2022-yz250fx-fork-baseline-v1",
+        "yamaha-2022-yz250fx-shock-baseline-v1",
+        "yamaha-2022-yz250fx-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-12_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250FX",
+      "model_year": 2023,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 19,
+      "guide_ids": [
+        "yamaha-2023-yz250fx-fork-baseline-v1",
+        "yamaha-2023-yz250fx-shock-baseline-v1",
+        "yamaha-2023-yz250fx-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-13_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250FX",
+      "model_year": 2024,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 19,
+      "guide_ids": [
+        "yamaha-2024-yz250fx-fork-baseline-v1",
+        "yamaha-2024-yz250fx-shock-baseline-v1",
+        "yamaha-2024-yz250fx-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-14_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250FX",
+      "model_year": 2025,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 19,
+      "guide_ids": [
+        "yamaha-2025-yz250fx-fork-baseline-v1",
+        "yamaha-2025-yz250fx-rider-sag-preload-v1",
+        "yamaha-2025-yz250fx-shock-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BXA-2819U-10_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250FX",
+      "model_year": 2026,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 19,
+      "guide_ids": [
+        "yamaha-2026-yz250fx-fork-baseline-v1",
+        "yamaha-2026-yz250fx-rider-sag-preload-v1",
+        "yamaha-2026-yz250fx-shock-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/DP3-2819U-10_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250FX",
+      "model_year": 2027,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 19,
+      "guide_ids": [
+        "yamaha-2027-yz250fx-fork-baseline-v1",
+        "yamaha-2027-yz250fx-shock-baseline-v1",
+        "yamaha-2027-yz250fx-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/DP3-2819U-11_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250X",
+      "model_year": 2020,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 1,
+      "step_count": 8,
+      "guide_ids": [
+        "yamaha-2020-yz250x-damping-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250X",
+      "model_year": 2021,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 1,
+      "step_count": 8,
+      "guide_ids": [
+        "yamaha-2021-yz250x-damping-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BF1-2819U-10_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250X",
+      "model_year": 2022,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 1,
+      "step_count": 8,
+      "guide_ids": [
+        "yamaha-2022-yz250x-damping-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BF1-2819U-11_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250X",
+      "model_year": 2023,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 1,
+      "step_count": 8,
+      "guide_ids": [
+        "yamaha-2023-yz250x-damping-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BRY-2819U-10_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250X",
+      "model_year": 2024,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 1,
+      "step_count": 8,
+      "guide_ids": [
+        "yamaha-2024-yz250x-damping-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BRY-2819U-11_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250X",
+      "model_year": 2025,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 1,
+      "step_count": 8,
+      "guide_ids": [
+        "yamaha-2025-yz250x-damping-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/DF4-2819U-10_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250X",
+      "model_year": 2026,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 1,
+      "step_count": 8,
+      "guide_ids": [
+        "yamaha-2026-yz250x-damping-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/DF4-2819U-11_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ250X",
+      "model_year": 2027,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 1,
+      "step_count": 8,
+      "guide_ids": [
+        "yamaha-2027-yz250x-damping-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/DF4-2819U-12_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ125X",
+      "model_year": 2020,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 1,
+      "step_count": 8,
+      "guide_ids": [
+        "yamaha-2020-yz125x-damping-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B0V-28199-11_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ125X",
+      "model_year": 2021,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 1,
+      "step_count": 8,
+      "guide_ids": [
+        "yamaha-2021-yz125x-damping-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B1B-2819U-10_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ125X",
+      "model_year": 2022,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 1,
+      "step_count": 8,
+      "guide_ids": [
+        "yamaha-2022-yz125x-damping-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B1B-2819U-11_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ125X",
+      "model_year": 2023,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 1,
+      "step_count": 8,
+      "guide_ids": [
+        "yamaha-2023-yz125x-damping-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BRX-2819U-10_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ125X",
+      "model_year": 2024,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 1,
+      "step_count": 8,
+      "guide_ids": [
+        "yamaha-2024-yz125x-damping-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BRX-2819U-11_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ125X",
+      "model_year": 2025,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 1,
+      "step_count": 8,
+      "guide_ids": [
+        "yamaha-2025-yz125x-damping-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/DF3-2819U-10_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ125X",
+      "model_year": 2026,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 1,
+      "step_count": 8,
+      "guide_ids": [
+        "yamaha-2026-yz125x-damping-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/DF3-2819U-11_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ125X",
+      "model_year": 2027,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 1,
+      "step_count": 8,
+      "guide_ids": [
+        "yamaha-2027-yz125x-damping-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/DF3-2819U-12_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "WR450F",
+      "model_year": 2020,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 16,
+      "guide_ids": [
+        "yamaha-2020-wr450f-fork-baseline-v1",
+        "yamaha-2020-wr450f-shock-baseline-v1",
+        "yamaha-2020-wr450f-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7R-28199-11_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "WR450F",
+      "model_year": 2021,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 19,
+      "guide_ids": [
+        "yamaha-2021-wr450f-fork-baseline-v1",
+        "yamaha-2021-wr450f-shock-baseline-v1",
+        "yamaha-2021-wr450f-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BDB-2819U-10_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "WR450F",
+      "model_year": 2022,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 19,
+      "guide_ids": [
+        "yamaha-2022-wr450f-fork-baseline-v1",
+        "yamaha-2022-wr450f-shock-baseline-v1",
+        "yamaha-2022-wr450f-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BDB-2819U-11_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "WR450F",
+      "model_year": 2023,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 19,
+      "guide_ids": [
+        "yamaha-2023-wr450f-fork-baseline-v1",
+        "yamaha-2023-wr450f-shock-baseline-v1",
+        "yamaha-2023-wr450f-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BDB-2819U-12_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "WR450F",
+      "model_year": 2024,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 19,
+      "guide_ids": [
+        "yamaha-2024-wr450f-fork-baseline-v1",
+        "yamaha-2024-wr450f-shock-baseline-v1",
+        "yamaha-2024-wr450f-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BNK-2819U-10_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "WR450F",
+      "model_year": 2025,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 19,
+      "guide_ids": [
+        "yamaha-2025-wr450f-fork-baseline-v1",
+        "yamaha-2025-wr450f-rider-sag-preload-v1",
+        "yamaha-2025-wr450f-shock-baseline-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BNK-2819U-11_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "WR450F",
+      "model_year": 2026,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 19,
+      "guide_ids": [
+        "yamaha-2026-wr450f-fork-baseline-v1",
+        "yamaha-2026-wr450f-shock-baseline-v1",
+        "yamaha-2026-wr450f-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/DP0-2819U-10_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "WR250F",
+      "model_year": 2020,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 16,
+      "guide_ids": [
+        "yamaha-2020-wr250f-fork-baseline-v1",
+        "yamaha-2020-wr250f-shock-baseline-v1",
+        "yamaha-2020-wr250f-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BAK-28199-10_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "WR250F",
+      "model_year": 2021,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 19,
+      "guide_ids": [
+        "yamaha-2021-wr250f-fork-baseline-v1",
+        "yamaha-2021-wr250f-shock-baseline-v1",
+        "yamaha-2021-wr250f-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BAK-2819U-11_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "WR250F",
+      "model_year": 2022,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 19,
+      "guide_ids": [
+        "yamaha-2022-wr250f-fork-baseline-v1",
+        "yamaha-2022-wr250f-shock-baseline-v1",
+        "yamaha-2022-wr250f-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BAK-2819U-12_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "WR250F",
+      "model_year": 2023,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 19,
+      "guide_ids": [
+        "yamaha-2023-wr250f-fork-baseline-v1",
+        "yamaha-2023-wr250f-shock-baseline-v1",
+        "yamaha-2023-wr250f-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BAK-2819U-13_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "WR250F",
+      "model_year": 2024,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 19,
+      "guide_ids": [
+        "yamaha-2024-wr250f-fork-baseline-v1",
+        "yamaha-2024-wr250f-shock-baseline-v1",
+        "yamaha-2024-wr250f-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BAK-2819U-14_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "WR250F",
+      "model_year": 2025,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 19,
+      "guide_ids": [
+        "yamaha-2025-wr250f-fork-baseline-v1",
+        "yamaha-2025-wr250f-shock-baseline-v1",
+        "yamaha-2025-wr250f-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BXB-2819U-10_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "WR250F",
+      "model_year": 2026,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "EXACT_US_SOURCE_BOUND",
+      "guide_count": 3,
+      "step_count": 19,
+      "guide_ids": [
+        "yamaha-2026-wr250f-fork-baseline-v1",
+        "yamaha-2026-wr250f-shock-baseline-v1",
+        "yamaha-2026-wr250f-rider-sag-preload-v1"
+      ],
+      "source_urls": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/DP2-2819U-10_02.pdf"
+      ],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "WR450F",
+      "model_year": 2027,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "CONFIRMED_EXACT_US_PRODUCT_IDENTITY",
+      "guide_count": 0,
+      "step_count": 0,
+      "guide_ids": [],
+      "source_urls": [],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "exact_source",
+          "kind": "SOURCE_NOT_YET_RECOVERED",
+          "detail": "Exact current US service manual is not yet recovered in this pass; confirmed marketing identity does not justify service values."
+        },
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "WR250F",
+      "model_year": 2027,
+      "region": "US",
+      "variant": "standard",
+      "identity_status": "CONFIRMED_EXACT_US_PRODUCT_IDENTITY",
+      "guide_count": 0,
+      "step_count": 0,
+      "guide_ids": [],
+      "source_urls": [],
+      "engine_journey": false,
+      "frame_bearing_route": false,
+      "fork_oil_seal_bushing_route": false,
+      "full_rebuild_complete": false,
+      "completion_percentage": null,
+      "gaps": [
+        {
+          "id": "exact_source",
+          "kind": "SOURCE_NOT_YET_RECOVERED",
+          "detail": "Exact current US service manual is not yet recovered in this pass; confirmed marketing identity does not justify service values."
+        },
+        {
+          "id": "engine",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete bike access, top/lower-engine repair, refit and commissioning journey is not integrated. Any prepared-engine modules cover only their stated entry/exit states."
+        },
+        {
+          "id": "frame",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete frame strip, bearings, brake hydraulics, reassembly and final controls checks are not integrated."
+        },
+        {
+          "id": "fork",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Complete removal, internal fork service and refit route is not integrated. Damping setup is not internal service."
+        },
+        {
+          "id": "shock",
+          "kind": "UNFINISHED_AUTHORING_AND_REVIEW",
+          "detail": "Internal shock disassembly, wear inspection, seal/shaft/piston service, bleed, charge and final verification are not integrated."
+        },
+        {
+          "id": "aftermarket",
+          "kind": "APPLICABILITY_AND_WORKFLOW_GAPS",
+          "detail": "Exact aftermarket conversion, tuner, spring and upgraded-component compatibility requires its own evidence and procedures; stock guidance does not transfer."
+        },
+        {
+          "id": "validation",
+          "kind": "VALIDATION_NOT_PERFORMED",
+          "detail": "No complete specification audit or physical bike workshop validation; mobile device/rider walkthrough acceptance remains outstanding."
+        }
+      ]
+    }
+  ]
+}

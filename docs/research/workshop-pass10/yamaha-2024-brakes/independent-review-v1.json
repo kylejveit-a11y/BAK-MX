@@ -1,0 +1,67 @@
+{
+  "status": "APPROVED",
+  "reviewer": "root independent source review",
+  "artifacts": [
+    {
+      "path": "docs/research/workshop-pass10/yamaha-2024-brakes/front-caliper-rebuild-v1.procedure.json",
+      "approved_candidate_sha256": "c2e91287a3dc892004b0da982a1c1bc5478262d4de97f412150e9e2ea781d921",
+      "sha256": "9fe96855010aa9e4da931ec0e1da53450c4851c208bb6fa149d837208c607e3d"
+    },
+    {
+      "path": "docs/research/workshop-pass10/yamaha-2024-brakes/front-master-rebuild-v1.procedure.json",
+      "approved_candidate_sha256": "a53e035ea559a3c7c5339b8ecd97c0af30afa857ea7eb9043db01e5a63b862ab",
+      "sha256": "7fcfb35c20996a8a1967568038c0366729b6755ed20d7cb5c19156c23906e116"
+    },
+    {
+      "path": "docs/research/workshop-pass10/yamaha-2024-brakes/rear-caliper-rebuild-v1.procedure.json",
+      "approved_candidate_sha256": "33e5f8b20e745cbb6fce5e3cde3eb7fcada598e444bafadb1219fcb700c995da",
+      "sha256": "0b24a3de223cf1bb5d72ba80eec727fc4f8701e1f8ff7c288daa901e9d9d8e2c"
+    },
+    {
+      "path": "docs/research/workshop-pass10/yamaha-2024-brakes/rear-master-rebuild-v1.procedure.json",
+      "approved_candidate_sha256": "f680dddbc7e417dbdd94b80650715062efb8bfd59f08461937716531bde1c737",
+      "sha256": "02bc41bd4692f7dcb1d362c27a3345b92cf51e0ff899c91f9b6bdaf783078af7"
+    }
+  ],
+  "text_pages": [
+    102,
+    103,
+    104,
+    105,
+    127,
+    129,
+    130,
+    131,
+    138,
+    139,
+    140,
+    141,
+    142,
+    150,
+    151,
+    152,
+    153
+  ],
+  "rendered_pages": [
+    132,
+    133,
+    134,
+    135,
+    139,
+    141,
+    143,
+    144,
+    146,
+    147,
+    152,
+    153,
+    160,
+    161
+  ],
+  "resolved_findings": [
+    "Stale front-master hose prose as148/149 replaced by linked exact141/142 routing diagrams.",
+    "Reviewer initially requested new washer2/boot4; enlarged PDF141 confirms NEW only piston1/circlip3. Request withdrawn; sound washer/boot retention remains supported. Rear-master distinct renewal requirements unchanged."
+  ],
+  "scope": "Four exact stock hydraulic repairs54steps with access/refit/bleed/operation checks. No common-part-number or cross-year inheritance asserted.",
+  "open_blocking_findings": []
+}

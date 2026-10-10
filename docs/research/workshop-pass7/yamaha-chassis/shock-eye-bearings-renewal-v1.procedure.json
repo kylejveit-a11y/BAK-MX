@@ -1,0 +1,630 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-yz450f-2026-shock-eye-bearings-renewal-v1",
+  "component": "shock",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Renew sealed shock mounting-eye bearings and seals",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Upper and lower shock-eye bearing/bushing and seal renewal with complete assembled-bike access and closure. Spring/preload and gas/oil circuits remain untouched.",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      25,
+      38,
+      101,
+      123,
+      124,
+      125,
+      126,
+      127,
+      185,
+      186,
+      188,
+      189,
+      190,
+      191,
+      306,
+      307,
+      308
+    ],
+    "printed_pages": [
+      "4-63",
+      "4-64",
+      "4-66",
+      "4-68"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "OEM185/186/190 shock-eye exploded and cross-section diagrams visually reviewed. Entire damper remains sealed and spring/preload unchanged. Motion Pro provides standard supported bearing-removal technique only; OEM expressly overrides generic grease-on-outer-race advice. Root independently reviewed exact OEM renewal diagrams and all steps with Motion Pro technique; approved after self-contained grease and source-link corrections."
+  },
+  "applicability": {
+    "included": "Exact stock US2026 YZ450F sealed shock; upper mount bushing/stopper and lower bearing/bushing renewal, both eyes resealed. No damper body, gas valve or preload opening.",
+    "excluded": [
+      "Other years/models",
+      "Aftermarket shock or linkage",
+      "Internal shock service",
+      "Spring replacement/preload changes",
+      "A leaking or damaged shock"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "required_tools": [
+    {
+      "name": "Secure maintenance stand plus separate swingarm support",
+      "size": null
+    },
+    {
+      "name": "Calibrated torque wrench",
+      "size": "Accurate across4–56 N·m for touched joints"
+    },
+    {
+      "name": "Hand tools fitting actual stock body/tank and shock mounting fasteners",
+      "size": "Hex sizes not specified by source; do not infer from thread size"
+    },
+    {
+      "name": "Fuel-safe transfer pump, approved container, absorbent cloths and supplied fuel-joint covers",
+      "size": null
+    },
+    {
+      "name": "Clean bench and labeled hardware trays",
+      "size": null
+    },
+    {
+      "name": "Correct-fitting bearing removal/installation mandrels and receiver; Motion Pro08-0294 technique where adapters fit",
+      "spec": null
+    },
+    {
+      "name": "Stopper-ring tools, protected local eye support, dimensional inspection tool for OEM a clearance",
+      "spec": null
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "Molybdenum disulfide grease",
+      "purpose": "Upper/lower mounting-bolt circumference and threads",
+      "source_pdf_page": 190
+    },
+    {
+      "name": "Upper bushing, new stopper ring, two new O-rings and two new dust seals",
+      "purpose": "OEM upper eye stack; general OEM25 new circlip rule"
+    },
+    {
+      "name": "Lower bearing and bushing, two new dust seals; correct serviceable or replacement collars",
+      "purpose": "Lower eye renewal without damper opening"
+    },
+    {
+      "name": "Lithium-soap-based grease",
+      "purpose": "Upper eye O-rings per OEM190; separate from lower bearing molybdenum-disulfide grease"
+    }
+  ],
+  "renewal_policy": "New upper bushing/stopper, both upper O-rings and seals, lower bearing/bushing and both lower seals. Inspect collars; replace damaged parts. Never reuse removed NEW-marked seals or stopper.",
+  "preflight": [
+    "Exact stock bike confirmed.",
+    "Undamaged sealed shock with correct new eye parts and fitting local support/tools.",
+    "Bike and swingarm securely supported.",
+    "Fuel handling equipment and both specified greases ready."
+  ],
+  "critical_stop_conditions": [
+    "Unstable bike, swingarm or local bearing support.",
+    "Damaged mounting-eye seat, leaking shock or bent/damaged rod.",
+    "Tool cannot fit without loading pressure body or shock rod.",
+    "Fuel contamination, damaged joint or connection that will not latch."
+  ],
+  "steps": [
+    {
+      "id": "prepare",
+      "title": "Support the bike and swingarm",
+      "instruction": "Stop the engine and let the bike cool. Clean the work area and secure the bike on a maintenance stand with the rear wheel off the ground. Arrange separate support for the swingarm so it cannot fall when the lower shock bolt is removed. Keep fuel work away from ignition sources.",
+      "depends_on": [],
+      "source_pdf_pages": [
+        188,
+        307
+      ],
+      "verification": [
+        "Bike stable; rear wheel raised; swingarm support ready; fuel-handling tools ready."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=188",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=307"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow"
+    },
+    {
+      "id": "subseat",
+      "title": "Open the sub-seat",
+      "instruction": "Release its quick fastener and lift the sub-seat first; it is tethered to the main seat. Open the fuel cap and transfer the tank fuel with a fuel-safe pump into a suitable container, then secure the cap.",
+      "depends_on": [
+        "prepare"
+      ],
+      "source_pdf_pages": [
+        38,
+        126,
+        307
+      ],
+      "verification": [
+        "Sub-seat tether not strained; fuel contained."
+      ],
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": true
+    },
+    {
+      "id": "body",
+      "title": "Remove access panels",
+      "instruction": "Remove the main-seat bolts and slide the seat rearward. Remove the left/right side covers, keeping their bolts and collars labeled. Slide the right cover out of its upper and lower locating slots instead of pulling the tabs apart.",
+      "depends_on": [
+        "subseat"
+      ],
+      "source_pdf_pages": [
+        123,
+        124,
+        126,
+        127
+      ],
+      "verification": [
+        "Seat and two side covers removed; hardware locations retained."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=123",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=124",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=126",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=127"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": true
+    },
+    {
+      "id": "shrouds",
+      "title": "Expose the tank",
+      "instruction": "Release the air-filter-case cover ribs by pressing the duct sides inward and lifting the rear; slide the cover rearward to release the front projection. Leave the filter installed. Remove the left/right shroud bolts and shrouds, retaining their collars.",
+      "depends_on": [
+        "body"
+      ],
+      "source_pdf_pages": [
+        101,
+        125,
+        126
+      ],
+      "verification": [
+        "Air-filter-case cover and shrouds removed; filter undisturbed."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=101",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=125",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=126"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": true
+    },
+    {
+      "id": "tank-disconnect",
+      "title": "Disconnect the tank",
+      "instruction": "Unplug the fuel-pump connector. Put cloths below and around the fuel-hose joint for residual pressure. Slide the connector cover back, press its two release buttons, and separate the joint by hand. Fit the supplied joint covers immediately to both openings.",
+      "depends_on": [
+        "shrouds"
+      ],
+      "source_pdf_pages": [
+        306,
+        307
+      ],
+      "verification": [
+        "Pump disconnected; both fuel openings capped; no forced hose tools."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=306",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=307"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": true
+    },
+    {
+      "id": "tank-remove",
+      "title": "Lift the tank clear",
+      "instruction": "Remove the tank mounting fasteners, retaining the collars/dampers in their original locations, and lift the tank away. Support it so its weight does not rest on the fuel-pump mounting surface. Leave the pump installed in the tank.",
+      "depends_on": [
+        "tank-disconnect"
+      ],
+      "source_pdf_pages": [
+        306,
+        307
+      ],
+      "verification": [
+        "Tank supported; mounts accounted for; pump untouched."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=306",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=307"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": true
+    },
+    {
+      "id": "shock-lower",
+      "title": "Release the lower shock mount",
+      "instruction": "Identify the lower shock mounting bolt in the diagram. Support the swingarm and remove the lower mounting nut and bolt, keeping their hardware identified. Keep supporting the swingarm after the bolt is out; do not allow it to drop.",
+      "depends_on": [
+        "tank-remove"
+      ],
+      "source_pdf_pages": [
+        185,
+        188
+      ],
+      "verification": [
+        "Lower hardware retained and labeled; swingarm still supported."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=185",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=188"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow"
+    },
+    {
+      "id": "shock-out",
+      "title": "Lift out the sealed shock",
+      "instruction": "Support the shock, remove its upper mounting nut and bolt, then remove the shock assembly. Retain the mount collars in their original positions. Leave the spring, preload nuts and guides assembled; mounting eyes are renewed in the next steps. Keep the nitrogen valve and shock body closed, away from heat and damage.",
+      "depends_on": [
+        "shock-lower"
+      ],
+      "source_pdf_pages": [
+        185,
+        188
+      ],
+      "verification": [
+        "Shock supported on the bench; both mounts accounted for; sealed assembly and mount seals undisturbed."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=185",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=188"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow"
+    },
+    {
+      "id": "inspect",
+      "title": "Check the assembly before refitting",
+      "instruction": "Inspect the visible rod and body for bending, damage or leakage, and the spring, spring guides, mounting bearings and bolts for damage or wear. Record any defect. A damaged rod or leaking shock requires assembly replacement according to this manual; shock-body and rod defects are outside this mounting-eye renewal. Do not refit a defective assembly as ready for use.",
+      "depends_on": [
+        "shock-out"
+      ],
+      "source_pdf_pages": [
+        188,
+        189
+      ],
+      "verification": [
+        "Rod/body/spring/guides/mounts/hardware condition recorded; defects require separate repair or replacement."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=188",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=189"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow"
+    },
+    {
+      "id": "eye-stack",
+      "title": "Record and expose the two mount stacks",
+      "instruction": "Photograph Yamaha PDF186 upper and lower stack orientations. Remove each pair of collars and dust seals; remove the upper O-rings. Identify the upper stopper ring and remove it before pressing the upper bushing. Lower eye has its separate bushing and bearing. Keep each eye supported locally and all spring/pressure components untouched.",
+      "source_pdf_pages": [
+        186,
+        190,
+        25
+      ],
+      "verification": [
+        "Upper/lower stacks identified separately",
+        "Upper stopper removed before bushing extraction",
+        "Spring, rod and pressure body not loaded"
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha shock mounting-eye diagram",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=186"
+        }
+      ],
+      "depends_on": [
+        "inspect"
+      ]
+    },
+    {
+      "id": "eye-extract",
+      "title": "Remove worn eye bearing components",
+      "instruction": "Use fitting mandrels and a centered receiver as in Motion Pro08-0294 figures1-2/5 to remove the upper bushing and lower bearing/bushing without stressing the shock rod or body. Verify the extraction path is unobstructed. Clean the empty seats and inspect for damage. A damaged mounting eye needs assembly repair/replacement beyond this operation; do not enlarge or stake the seat.",
+      "source_pdf_pages": [
+        186,
+        188,
+        190
+      ],
+      "verification": [
+        "Fitting local support recorded",
+        "No bore damage, retained fragments or obstructions"
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha shock mounting-eye diagram",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=186"
+        },
+        {
+          "title": "Motion Pro supported bearing tool technique only",
+          "url": "https://www.motionpro.com/download/instructions-08-0294-deluxe-suspension-bearing-service-tool"
+        }
+      ],
+      "depends_on": [
+        "eye-stack"
+      ]
+    },
+    {
+      "id": "upper-eye-in",
+      "title": "Install and retain upper bushing",
+      "instruction": "Press the upper bushing squarely by its outer race until its stopper-ring groove is exposed, as Yamaha PDF190 specifies. Install a new correct stopper ring fully in the groove. Push the bushing back until it contacts the ring. Lubricate the two new O-rings with lithium-soap grease, and restore the upper seals and collars in PDF186 order and orientation.",
+      "source_pdf_pages": [
+        186,
+        190,
+        25
+      ],
+      "verification": [
+        "Stopper seated fully",
+        "Bushing returned into contact with stopper",
+        "Two new O-rings and two new seals correctly installed"
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha shock mounting-eye diagram",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=186"
+        },
+        {
+          "title": "Yamaha eye installation cross-section (4-68)",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=190"
+        }
+      ],
+      "depends_on": [
+        "eye-extract"
+      ]
+    },
+    {
+      "id": "lower-eye-in",
+      "title": "Renew lower bearing and seal stack",
+      "instruction": "Install the new lower bearing/bushing and correct collars to the exact PDF186/190 section. Apply molybdenum-disulfide grease to the lower bearing and dust seals, but keep the bearing outer race dry: Yamaha warns greasing this press fit wears the shock seating surface. Fit two new dust seals with lips inward. Measure each source-labelled a dimension at the collar/seal cross-section: at least0.3mm. This is not an invented bearing insertion depth. Record both sides and smooth collar movement.",
+      "source_pdf_pages": [
+        186,
+        190
+      ],
+      "verification": [
+        "Outer race and press-fit seat kept dry",
+        "Both seal lips inward",
+        "Both a measurements at least0.3mm at source locations",
+        "Correct bearing/bushing/collars complete"
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        {
+          "title": "Yamaha shock mounting-eye diagram",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=186"
+        },
+        {
+          "title": "Yamaha eye installation cross-section (4-68)",
+          "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=190"
+        }
+      ],
+      "depends_on": [
+        "upper-eye-in"
+      ]
+    },
+    {
+      "id": "lubricate",
+      "title": "Prepare the mounting bolts",
+      "instruction": "Clean the upper/lower shock bolts and apply molybdenum-disulfide grease to their circumferences and threads. Confirm completed eye stacks remain seated and sealed. Do not grease the bearing outer race or its press-fit bore.",
+      "depends_on": [
+        "lower-eye-in"
+      ],
+      "source_pdf_pages": [
+        185,
+        190
+      ],
+      "verification": [
+        "Upper and lower bolts greased with the specified molybdenum disulfide grease; no damaged mounting parts reused."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=185",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=190"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow"
+    },
+    {
+      "id": "shock-in",
+      "title": "Refit the assembly",
+      "instruction": "Position and support the shock in its original orientation with the retained mount collars correctly seated. Install the upper bolt from the bike's right side. Raise the supported swingarm to align the lower mount, and install its bolt from the left side. Refit the corresponding mounting hardware without forcing misaligned parts.",
+      "depends_on": [
+        "lubricate"
+      ],
+      "source_pdf_pages": [
+        185,
+        190
+      ],
+      "verification": [
+        "Upper bolt entered from right; lower from left; both mounting locations aligned; original hardware placement matched."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=185",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=190"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow"
+    },
+    {
+      "id": "torque",
+      "title": "Tighten both shock mounts",
+      "instruction": "Tighten the upper shock mounting nut to 56 N·m and the lower shock mounting nut to 53 N·m. Record each result separately. These values apply to the shock mounts shown; the linkage fasteners remain untouched.",
+      "depends_on": [
+        "shock-in"
+      ],
+      "source_pdf_pages": [
+        185,
+        190,
+        191
+      ],
+      "verification": [
+        "Upper56 N·m and lower53 N·m recorded; both mounts secured."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=185",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=190",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=191"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow"
+    },
+    {
+      "id": "tank-install",
+      "title": "Reconnect the fuel system",
+      "instruction": "Refit the tank on its retained dampers/collars. Tighten its two front mounting bolts to 8 N·m and the tank retaining screw to 4 N·m. Remove the temporary joint covers, push the fuel hose fully onto the pipe until it clicks, and slide the connector cover back into its locked position. Keep the hose holder correctly oriented, with no kink or pinch. Reconnect the pump plug.",
+      "depends_on": [
+        "torque"
+      ],
+      "source_pdf_pages": [
+        306,
+        308
+      ],
+      "verification": [
+        "Tank front bolts8 N·m/retaining screw4 N·m; hose latched/covered/routed; pump plug connected."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=306",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=308"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": true
+    },
+    {
+      "id": "body-install",
+      "title": "Refit the panels and seat",
+      "instruction": "Locate the radiator-guard projections in the shroud holes, then install the shrouds at 7 N·m. Refit the air-filter-case cover by engaging its projection and both ribs. Slide side-cover tabs into their slots; the right-cover rib sits under the rear-fender rib. Tighten ordinary left/right side-cover bolts to 7 N·m and the two seat bolts to 13 N·m. Refit the sub-seat with its tether untwisted, then press, rotate and secure its quick fastener.",
+      "depends_on": [
+        "tank-install"
+      ],
+      "source_pdf_pages": [
+        38,
+        101,
+        123,
+        124,
+        125,
+        126,
+        127
+      ],
+      "verification": [
+        "Tabs/ribs seated; shrouds/side-cover bolts7 N·m; seat bolts13 N·m; quick fastener locked."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=38",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=101",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=123",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=124",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=125",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=126",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=127"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": true
+    },
+    {
+      "id": "closeout",
+      "title": "Close the job",
+      "instruction": "Restore fuel safely and secure the fuel cap. Check the fuel connection for leakage, the pump connector and body-panel seating, and account for tools and removed hardware. Confirm both shock mounts are secured before removing the separate swingarm support and lowering the bike from the stand. Record the removal/refit and any remaining fault; this job has not serviced the shock internals or changed spring preload. Compress/release the rear suspension and record smooth motion, secure eyes without free play, and clearance throughout travel.",
+      "depends_on": [
+        "body-install"
+      ],
+      "source_pdf_pages": [
+        188,
+        190,
+        191,
+        308
+      ],
+      "verification": [
+        "Fuel system closed without leaks; panels secured; both shock mounts complete; supports removed only after mounting closure; outstanding faults recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=188",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=190",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=191",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=308"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow"
+    }
+  ],
+  "publication_status": "LOCAL_REVIEWED_NOT_IMPORTED",
+  "reviewed_at": "2026-09-13T19:36:58.365Z",
+  "exclusions_detail": [
+    "No pressure setting is provided: nitrogen circuit stays sealed.",
+    "No suspension oil amount is provided: hydraulic circuit stays sealed.",
+    "No claim that removal/refit fixes a handling fault.",
+    "No physical-bike QA or automatic ride-readiness approval."
+  ],
+  "integration_status": "ROOT_SOURCE_AND_CLOSURE_REVIEW_APPROVED",
+  "prerequisites": [
+    "Verify new OEM-equivalent stock eye components and actual mandrel/receiver fit before removal. Do not transfer tool fit from another model.",
+    "Support the mounting eye locally; never transmit pressing load through the shock rod or pressure body."
+  ],
+  "operation_dependencies": [
+    {
+      "artifact": "docs/research/suspension-pass2/shock-remove-refit-v1.procedure.json",
+      "sha256": "f92b64f514e879387d98cbd37136c13796c286ca0a26128227ad62f4ab033bdd",
+      "kind": "approved_access_and_closure"
+    }
+  ],
+  "supplemental_sources": [
+    {
+      "id": "motionpro-linkage-2017",
+      "url": "https://www.motionpro.com/download/instructions-08-0294-deluxe-suspension-bearing-service-tool",
+      "local_pdf_path": "C:/Users/kylej/AppData/Local/Temp/chassis7/linkage.pdf",
+      "sha256": "2da71911f69e368f9a458d436bbab475f208c826d1b1141e453e6f74966a1eb4",
+      "locators": [
+        "pages1-3;figures1-10;tool technique only,2006CRF450R example"
+      ],
+      "local_path": "C:/Users/kylej/AppData/Local/Temp/chassis7/linkage.pdf",
+      "attribution": "Motion Pro, Inc., official tool instructions",
+      "scope": "Standard tool operation only; exact Yamaha geometry, stack, grease exceptions, depths and closure control. Actual adapter fit must be checked; no model compatibility assertion."
+    }
+  ],
+  "entry_state": [
+    "Assembled exact stock bike; sealed undamaged shock; matching new eye components and fitting tools prepared."
+  ],
+  "exit_state": [
+    "Both shock mounting-eye bearing stacks renewed and resealed; unchanged spring/preload and sealed damper refitted; fuel, body, mount torque and rear movement checks recorded."
+  ],
+  "affected_components": [
+    "shock",
+    "suspension"
+  ]
+}

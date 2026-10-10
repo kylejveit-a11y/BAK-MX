@@ -1,0 +1,1329 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2026-yz450f-engine-chain-index-v1",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "status": "SOURCE_REVIEWED_PHASE_INDEX_NOT_A_RUNTIME_EXECUTOR",
+  "automatic_execution_allowed": false,
+  "composition_rules": [
+    "Resolve preflight blockers before any teardown.",
+    "Expand exact referenced step ranges in phase order; never execute a whole remove/refit guide before interior work.",
+    "Do not mark omitted source steps complete; mark them outside this phase or NOT_PERFORMED.",
+    "Re-evaluate physical entry/exit states at every phase boundary; matching part names alone do not close a dependency.",
+    "A failed inspection requires the documented replacement/repair route and cannot be bypassed by saving a note.",
+    "Preserve required observation/timing/torque records; routine checks remain Checked.",
+    "This index cannot by itself certify a complete engine rebuild."
+  ],
+  "routes": [
+    {
+      "id": "top-end-stock-reuse",
+      "status": "REVIEWED_PHASE_COMPOSITION_REQUIRES_RUNTIME_INTEGRATION",
+      "scope": "Exact stock top-end removal/inspection/reseal/rebuild where original valves/guides/seats remain serviceable; cylinder/piston set replacement supported with actual-fit checks.",
+      "preflight": [
+        "Review head-service replacement/machining contingency before opening.",
+        "Obtain correct new seals/gaskets/clips and measuring tools.",
+        "Configured exact YDT with its supplied operation instructions is an equipment prerequisite for final temperature/idle check."
+      ],
+      "phases": [
+        {
+          "id": "engine-out",
+          "title": "Remove the engine",
+          "depends_on": [],
+          "references": [
+            {
+              "path": "../frame-pass3/engine-remove-refit-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-engine-remove-refit-v1",
+              "sha256": "d0e2c9546d7bdd05e7b9702df20d8edab462c15a5c1a4f0438e6c928c6bd3713",
+              "step_ids": [
+                "initial-record",
+                "oil-drain",
+                "access-prepare",
+                "access-subseat",
+                "access-body",
+                "isolate",
+                "access-shrouds",
+                "access-tank-disconnect",
+                "access-tank-remove",
+                "access-case-release",
+                "access-case-remove",
+                "exhaust-silencer-remove",
+                "exhaust-midpipe-remove",
+                "exhaust-header-remove",
+                "cooling-prepare",
+                "cooling-drain",
+                "cooling-seal",
+                "coolant-hoses",
+                "intake-clear",
+                "electrical-left",
+                "electrical-right",
+                "sprocket",
+                "release-cylinder",
+                "pedal-guard",
+                "engine-support",
+                "mounts-out",
+                "engine-out"
+              ],
+              "source_entry_state": [],
+              "source_exit_state": []
+            }
+          ],
+          "entry_state": "Assembled stock cold bike; planned repair scope and parts/tools reviewed.",
+          "exit_state": "Engine removed and supported, fluids drained, external interfaces disconnected."
+        },
+        {
+          "id": "cams-out",
+          "title": "Record cold clearances and remove cams",
+          "depends_on": [
+            "engine-out"
+          ],
+          "references": [
+            {
+              "path": "cams-remove-bench-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-cams-remove-bench-v1",
+              "sha256": "978d1e035f6e40845377a631941944f5107dc81316aaf36ea6c0aedf9c429cd0",
+              "step_ids": [
+                "entry",
+                "cover-remove",
+                "access",
+                "tdc",
+                "measure",
+                "tensioner-remove",
+                "cams-remove",
+                "tensioner-check",
+                "handoff"
+              ],
+              "source_entry_state": [
+                "Removed cold engine; left rotor/cover retained for timing reference."
+              ],
+              "source_exit_state": [
+                "Cams/caps/tensioner removed, chain secured and cold readings recorded; head remains installed."
+              ]
+            }
+          ],
+          "entry_state": "Removed engine with left cover/rotor intact.",
+          "exit_state": "Cams/tensioner out, original positions retained, chain secured."
+        },
+        {
+          "id": "head-out",
+          "title": "Remove and inspect head",
+          "depends_on": [
+            "cams-out"
+          ],
+          "references": [
+            {
+              "path": "head-remove-refit-bench-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-head-remove-refit-bench-v1",
+              "sha256": "76fba7088007d39627366380720a94810d729967e7e85112f625694d958594cb",
+              "step_ids": [
+                "entry",
+                "loosen",
+                "gasket",
+                "inspect"
+              ],
+              "source_entry_state": [
+                "Engine-access and cam-removal states listed in the first step are already complete."
+              ],
+              "source_exit_state": [
+                "Cylinder head sealed and torqued; cam/tensioner installation and external engine closure still required."
+              ]
+            }
+          ],
+          "entry_state": "Cams out and head interfaces already detached.",
+          "exit_state": "Head removed, guide/dowels retained, head warpage/condition recorded."
+        },
+        {
+          "id": "piston-out",
+          "title": "Remove and inspect cylinder/piston",
+          "depends_on": [
+            "head-out"
+          ],
+          "references": [
+            {
+              "path": "cylinder-piston-bench-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-cylinder-piston-bench-v1",
+              "sha256": "2ed73deb5197670d621aacecc63112c55a6deb8b35048817f39eebefb08a8be4",
+              "step_ids": [
+                "entry",
+                "pin-remove",
+                "rings-remove",
+                "bore",
+                "piston-size",
+                "side-gap",
+                "end-gap",
+                "pin-check",
+                "parts"
+              ],
+              "source_entry_state": [
+                "Head removed, chain retained, crankcase protected."
+              ],
+              "source_exit_state": [
+                "Piston/rings/cylinder installed with new base gasket; head installation remains."
+              ]
+            }
+          ],
+          "entry_state": "Head removed; crank supported.",
+          "exit_state": "Cylinder/piston removed; dimensions and part-replacement decision recorded."
+        },
+        {
+          "id": "head-service",
+          "title": "Inspect and reseal serviceable original valves",
+          "depends_on": [
+            "piston-out"
+          ],
+          "references": [
+            {
+              "path": "head-valve-inspect-reseal-bench-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-head-valve-inspect-reseal-bench-v1",
+              "sha256": "5bf0f1c569ce8e7154f725eef699c1d65b0c83a077a160996dd2782f9ce6f940",
+              "step_ids": [
+                "entry",
+                "lifters",
+                "sealing",
+                "strip",
+                "guide-check",
+                "valve-check",
+                "seat-check",
+                "spring-check",
+                "disposition",
+                "assemble",
+                "cotters",
+                "lifters-install"
+              ],
+              "source_entry_state": [
+                "Head removed and cams out; original valve positions identifiable.",
+                "Original-valve reuse path only; repair findings may require separate valve/guide/head service."
+              ],
+              "source_exit_state": [
+                "Serviceable original valves installed with new seals; cams and final clearance check remain."
+              ]
+            },
+            {
+              "path": "camshaft-inspection-bench-v2.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-camshaft-inspection-bench-v2",
+              "sha256": "17dae7bc1f79ac55372a9b1ecb9c938a14a3ce97f3f1c5156fa0b0e0d6de6b4b",
+              "step_ids": [
+                "entry",
+                "lobes",
+                "plastigauge",
+                "journal",
+                "chain",
+                "decompressor"
+              ],
+              "source_entry_state": [
+                "Cams removed; their original matching head/caps available."
+              ],
+              "source_exit_state": [
+                "Cam/head inspection recorded and required replacement disposition determined; cams remain out."
+              ]
+            }
+          ],
+          "entry_state": "Head on bench; original valves/guides expected reusable pending measurement.",
+          "exit_state": "Valve/cam inspection results recorded; serviceable original valves resealed. Any machining/replacement fault remains unresolved until separately completed."
+        },
+        {
+          "id": "piston-in",
+          "title": "Install measured piston/rings/cylinder",
+          "depends_on": [
+            "head-service"
+          ],
+          "references": [
+            {
+              "path": "cylinder-piston-bench-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-cylinder-piston-bench-v1",
+              "sha256": "2ed73deb5197670d621aacecc63112c55a6deb8b35048817f39eebefb08a8be4",
+              "step_ids": [
+                "rings-install",
+                "piston-install",
+                "clock",
+                "cylinder-install"
+              ],
+              "source_entry_state": [
+                "Head removed, chain retained, crankcase protected."
+              ],
+              "source_exit_state": [
+                "Piston/rings/cylinder installed with new base gasket; head installation remains."
+              ]
+            }
+          ],
+          "entry_state": "Closed serviceable lower engine; chosen piston/cylinder pair measured and accepted.",
+          "exit_state": "Piston/rings/cylinder installed; both new clips and new base gasket present."
+        },
+        {
+          "id": "head-in",
+          "title": "Install and tighten cylinder head",
+          "depends_on": [
+            "piston-in"
+          ],
+          "references": [
+            {
+              "path": "head-remove-refit-bench-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-head-remove-refit-bench-v1",
+              "sha256": "76fba7088007d39627366380720a94810d729967e7e85112f625694d958594cb",
+              "step_ids": [
+                "repair",
+                "seat",
+                "prepare-bolts",
+                "first",
+                "second-one",
+                "second-rest",
+                "final-angle",
+                "small"
+              ],
+              "source_entry_state": [
+                "Engine-access and cam-removal states listed in the first step are already complete."
+              ],
+              "source_exit_state": [
+                "Cylinder head sealed and torqued; cam/tensioner installation and external engine closure still required."
+              ]
+            }
+          ],
+          "entry_state": "Cylinder installed; required head repair/inspection complete.",
+          "exit_state": "Head sealed with recorded staged torque/angles; cams remain out."
+        },
+        {
+          "id": "cams-in",
+          "title": "Time the top end and verify clearances",
+          "depends_on": [
+            "head-in"
+          ],
+          "references": [
+            {
+              "path": "cams-install-bench-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-cams-install-bench-v1",
+              "sha256": "9e535b11ab32b1c5642f06af4fe92cf92328009af386dcb4f5701d94e8d0a0c6",
+              "step_ids": [
+                "entry",
+                "cams-install",
+                "caps-install",
+                "tensioner-install",
+                "tensioner-release",
+                "timing-verify",
+                "remeasure",
+                "cover-install",
+                "plug-access-close",
+                "handoff"
+              ],
+              "source_entry_state": [
+                "Head/cylinder installed; cams out; rotor/left cover present.",
+                "Inspected stock cams/tensioner and new sealing parts available."
+              ],
+              "source_exit_state": [
+                "Cams/tensioner installed; timing and four cold clearances verified; head cover/plug/access plugs closed."
+              ]
+            }
+          ],
+          "entry_state": "Head ready; rotor/left cover installed; inspected stock cams/tensioner.",
+          "exit_state": "Timing and four cold clearances accepted; cover/plug/service access closed."
+        },
+        {
+          "id": "engine-in",
+          "title": "Refit and commission the engine",
+          "depends_on": [
+            "cams-in"
+          ],
+          "references": [
+            {
+              "path": "../frame-pass3/engine-remove-refit-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-engine-remove-refit-v1",
+              "sha256": "d0e2c9546d7bdd05e7b9702df20d8edab462c15a5c1a4f0438e6c928c6bd3713",
+              "step_ids": [
+                "bench-record",
+                "engine-in",
+                "mount-torque",
+                "release-refit",
+                "pedal-refit",
+                "sprocket-refit",
+                "ground-starter",
+                "harness-refit",
+                "intake-refit",
+                "hoses-refit",
+                "exhaust-header-install",
+                "exhaust-midpipe-install",
+                "exhaust-silencer-install",
+                "exhaust-joints-final",
+                "access-case-refit",
+                "access-intake-check",
+                "access-tank-install",
+                "cooling-fill",
+                "cooling-cap",
+                "oil-fill",
+                "battery-refit",
+                "access-body-install",
+                "slack",
+                "torque",
+                "fuel-ready",
+                "oil-flow",
+                "cooling-warm-cool",
+                "cooling-recheck",
+                "final-checks"
+              ],
+              "source_entry_state": [],
+              "source_exit_state": []
+            }
+          ],
+          "entry_state": "Bench work actually complete with accepted inspection, timing and clearance records.",
+          "exit_state": "Engine installed; source-prescribed oil/coolant/routing/throttle/idle checks recorded."
+        }
+      ]
+    },
+    {
+      "id": "full-engine",
+      "status": "HELD_BEFORE_TEARDOWN",
+      "scope": "Planned full engine assembly overhaul, including OEM complete-crank replacement rather than rod-pin pressing.",
+      "preflight_blockers": [
+        "Clutch boss preparation: oil inPDF58/258 versusLT arrow inPDF259. Must resolve before engine disassembly requiring basket removal.",
+        "Head repair branch: seat cutting/guide finishing must have an approved component-specific method if inspection requires it.",
+        "Unspecified oil-relief-valve internal overhaul beyond retaining the installed assembly is not represented as completed."
+      ],
+      "phases": [
+        {
+          "id": "engine-out",
+          "title": "Remove engine",
+          "depends_on": [],
+          "references": [
+            {
+              "path": "../frame-pass3/engine-remove-refit-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-engine-remove-refit-v1",
+              "sha256": "d0e2c9546d7bdd05e7b9702df20d8edab462c15a5c1a4f0438e6c928c6bd3713",
+              "step_ids": [
+                "initial-record",
+                "oil-drain",
+                "access-prepare",
+                "access-subseat",
+                "access-body",
+                "isolate",
+                "access-shrouds",
+                "access-tank-disconnect",
+                "access-tank-remove",
+                "access-case-release",
+                "access-case-remove",
+                "exhaust-silencer-remove",
+                "exhaust-midpipe-remove",
+                "exhaust-header-remove",
+                "cooling-prepare",
+                "cooling-drain",
+                "cooling-seal",
+                "coolant-hoses",
+                "intake-clear",
+                "electrical-left",
+                "electrical-right",
+                "sprocket",
+                "release-cylinder",
+                "pedal-guard",
+                "engine-support",
+                "mounts-out",
+                "engine-out"
+              ],
+              "source_entry_state": [],
+              "source_exit_state": []
+            }
+          ],
+          "entry_state": "All full-overhaul preflight dependencies resolved including clutch preparation.",
+          "exit_state": "Engine on bench."
+        },
+        {
+          "id": "cams-out",
+          "title": "Remove cams",
+          "depends_on": [
+            "engine-out"
+          ],
+          "references": [
+            {
+              "path": "cams-remove-bench-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-cams-remove-bench-v1",
+              "sha256": "978d1e035f6e40845377a631941944f5107dc81316aaf36ea6c0aedf9c429cd0",
+              "step_ids": [
+                "entry",
+                "cover-remove",
+                "access",
+                "tdc",
+                "measure",
+                "tensioner-remove",
+                "cams-remove",
+                "tensioner-check",
+                "handoff"
+              ],
+              "source_entry_state": [
+                "Removed cold engine; left rotor/cover retained for timing reference."
+              ],
+              "source_exit_state": [
+                "Cams/caps/tensioner removed, chain secured and cold readings recorded; head remains installed."
+              ]
+            }
+          ],
+          "entry_state": "Left rotor/cover intact.",
+          "exit_state": "Cams out."
+        },
+        {
+          "id": "head-out",
+          "title": "Remove head",
+          "depends_on": [
+            "cams-out"
+          ],
+          "references": [
+            {
+              "path": "head-remove-refit-bench-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-head-remove-refit-bench-v1",
+              "sha256": "76fba7088007d39627366380720a94810d729967e7e85112f625694d958594cb",
+              "step_ids": [
+                "entry",
+                "loosen",
+                "gasket",
+                "inspect"
+              ],
+              "source_entry_state": [
+                "Engine-access and cam-removal states listed in the first step are already complete."
+              ],
+              "source_exit_state": [
+                "Cylinder head sealed and torqued; cam/tensioner installation and external engine closure still required."
+              ]
+            }
+          ],
+          "entry_state": "Cams out.",
+          "exit_state": "Head on bench."
+        },
+        {
+          "id": "piston-out",
+          "title": "Remove and inspect cylinder/piston",
+          "depends_on": [
+            "head-out"
+          ],
+          "references": [
+            {
+              "path": "cylinder-piston-bench-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-cylinder-piston-bench-v1",
+              "sha256": "2ed73deb5197670d621aacecc63112c55a6deb8b35048817f39eebefb08a8be4",
+              "step_ids": [
+                "entry",
+                "pin-remove",
+                "rings-remove",
+                "bore",
+                "piston-size",
+                "side-gap",
+                "end-gap",
+                "pin-check",
+                "parts"
+              ],
+              "source_entry_state": [
+                "Head removed, chain retained, crankcase protected."
+              ],
+              "source_exit_state": [
+                "Piston/rings/cylinder installed with new base gasket; head installation remains."
+              ]
+            }
+          ],
+          "entry_state": "Head out.",
+          "exit_state": "Piston/cylinder removed."
+        },
+        {
+          "id": "pack-out",
+          "title": "Open clutch and remove plate stack",
+          "depends_on": [
+            "piston-out"
+          ],
+          "references": [
+            {
+              "path": "clutch-pack-bench-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-clutch-pack-bench-v1",
+              "sha256": "1d00e86e44bf4f22c711c62ec242004906de6674b65290e8008aa04790dd55a4",
+              "step_ids": [
+                "cover",
+                "pack-out"
+              ],
+              "source_entry_state": [
+                "Removed engine supported and oil drained.",
+                "Clutch center nut/basket remain installed throughout."
+              ],
+              "source_exit_state": [
+                "Clutch pack and cover installed; oil refill/engine commissioning remain."
+              ]
+            }
+          ],
+          "entry_state": "Oil drained.",
+          "exit_state": "Clutch pack removed; center nut still installed."
+        },
+        {
+          "id": "basket-out",
+          "title": "Remove clutch basket \u2014 source conflict must already be resolved",
+          "depends_on": [
+            "pack-out"
+          ],
+          "references": [],
+          "entry_state": "Exact nut preparation conflict resolved before teardown.",
+          "exit_state": "Basket/idle gear removed under the future resolved basket operation."
+        },
+        {
+          "id": "right-cover-out",
+          "title": "Open right cover",
+          "depends_on": [
+            "basket-out"
+          ],
+          "references": [
+            {
+              "path": "right-cover-bench-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-right-cover-bench-v1",
+              "sha256": "9cb79583deb724cc4b3d0a632371691067a24d50259b2a856b3434b7e009dc5e",
+              "step_ids": [
+                "entry",
+                "remove"
+              ],
+              "source_entry_state": [
+                "Engine out, fluids drained, clutch cover removed, external hoses clear."
+              ],
+              "source_exit_state": [
+                "Right cover/filter/filler sealed; clutch cover and fluid commissioning remain."
+              ]
+            }
+          ],
+          "entry_state": "Clutch cover off; fluids drained.",
+          "exit_state": "Right cover off."
+        },
+        {
+          "id": "primary-out",
+          "title": "Remove primary/balancer gears",
+          "depends_on": [
+            "right-cover-out"
+          ],
+          "references": [
+            {
+              "path": "primary-balancer-bench-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-primary-balancer-bench-v1",
+              "sha256": "6bc7b33b70080f343eed82ae0dccf564a0190ab80729b58c4ca047cec1249f9a",
+              "step_ids": [
+                "entry",
+                "unlock",
+                "remove",
+                "inspect",
+                "oneway"
+              ],
+              "source_entry_state": [
+                "Right crankcase cover and clutch idle gear removed.",
+                "Crankshaft and balancer installed in closed crankcases."
+              ],
+              "source_exit_state": [
+                "Primary/balancer/starter-clutch stacks installed and checked; clutch/cover closure still required."
+              ]
+            }
+          ],
+          "entry_state": "Right cover/idle gear off.",
+          "exit_state": "Primary/balancer stacks removed and inspected."
+        },
+        {
+          "id": "pump-out",
+          "title": "Remove oil pump",
+          "depends_on": [
+            "primary-out"
+          ],
+          "references": [
+            {
+              "path": "oil-pump-bench-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-oil-pump-bench-v1",
+              "sha256": "fcbb0bb1558473b26b633ecb18d0c57f9d25ef082d775171b44580e369afa250",
+              "step_ids": [
+                "entry",
+                "remove",
+                "inspect"
+              ],
+              "source_entry_state": [
+                "Right cover, clutch idle gear and oil-pump drive gear removed.",
+                "Relief-valve spring/ball/seat left installed in case."
+              ],
+              "source_exit_state": [
+                "Pump assembled, mounted and rotating smoothly; drive gear and covers remain to be installed."
+              ]
+            }
+          ],
+          "entry_state": "Pump drive gear off.",
+          "exit_state": "Oil pump removed and assessed."
+        },
+        {
+          "id": "selector-out",
+          "title": "Remove selector",
+          "depends_on": [
+            "pump-out"
+          ],
+          "references": [
+            {
+              "path": "shift-mechanism-bench-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-shift-mechanism-bench-v1",
+              "sha256": "75909f39ba4789c90fdd4340ecdab63435f7088839f860a8b4e7e7bd1016ce28",
+              "step_ids": [
+                "entry",
+                "remove",
+                "inspect"
+              ],
+              "source_entry_state": [
+                "Clutch idle gear removed; selector exposed; transmission installed for final check."
+              ],
+              "source_exit_state": [
+                "Shift shaft/selector/pedal installed and function checked; clutch/cover closure remains."
+              ]
+            }
+          ],
+          "entry_state": "Idle gear off.",
+          "exit_state": "Shift segment/shaft removed."
+        },
+        {
+          "id": "generator-out",
+          "title": "Remove generator",
+          "depends_on": [
+            "selector-out"
+          ],
+          "references": [
+            {
+              "path": "generator-bench-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-generator-bench-v1",
+              "sha256": "da8284d52be4db6e75f96704eedb00a02b1d1dda46d9a1d340c5ab46c7bb7b03",
+              "step_ids": [
+                "entry",
+                "cover-remove",
+                "stator-remove",
+                "rotor-remove",
+                "inspect"
+              ],
+              "source_entry_state": [
+                "Engine removed, oil drained, shift pedal removed and electrical couplers disconnected."
+              ],
+              "source_exit_state": [
+                "Generator and left cover installed; harness remains disconnected for engine refit."
+              ]
+            }
+          ],
+          "entry_state": "Cams already out.",
+          "exit_state": "Left cover/stator/rotor removed."
+        },
+        {
+          "id": "cases-open",
+          "title": "Split crankcases",
+          "depends_on": [
+            "generator-out"
+          ],
+          "references": [
+            {
+              "path": "crankcase-bench-v2.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-crankcase-bench-v2",
+              "sha256": "4f6a9ac87be64485eb626ba3cca7778d4a85fa9e72469e54293794a96aabe8df",
+              "step_ids": [
+                "entry",
+                "chain",
+                "bolts",
+                "split"
+              ],
+              "source_entry_state": [
+                "Removed/drained engine with top end and named external assemblies removed.",
+                "Transmission/crankshaft removal and installation modules available."
+              ],
+              "source_exit_state": [
+                "Cases closed around inspected crank/transmission; lower chain/guide restored and secured; external assemblies/top end remain off."
+              ]
+            }
+          ],
+          "entry_state": "All named opening dependencies complete.",
+          "exit_state": "Right case separated; shafts remain left."
+        },
+        {
+          "id": "transmission-out",
+          "title": "Remove and inspect transmission",
+          "depends_on": [
+            "cases-open"
+          ],
+          "references": [
+            {
+              "path": "transmission-bench-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-transmission-bench-v1",
+              "sha256": "2820e1df5f36c86abd518a7283af7595852e7be2d949dcb0f6d80cfb34275234",
+              "step_ids": [
+                "entry",
+                "remove",
+                "strip",
+                "fork-check",
+                "shaft-check",
+                "gear-check"
+              ],
+              "source_entry_state": [
+                "Engine removed; right crankcase already separated under the case-opening operation.",
+                "Stock shafts/gears/forks identified; original positions retained."
+              ],
+              "source_exit_state": [
+                "Transmission installed in left case and function checked; right case remains open."
+              ]
+            }
+          ],
+          "entry_state": "Right case off.",
+          "exit_state": "Transmission removed and assessed."
+        },
+        {
+          "id": "crank-out",
+          "title": "Remove and measure crank assembly",
+          "depends_on": [
+            "transmission-out"
+          ],
+          "references": [
+            {
+              "path": "crankshaft-assembly-bench-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-crankshaft-assembly-bench-v1",
+              "sha256": "6cabb20ec8de3621d37497726806b499eadda26ceb78eea575125e510b9e2f06",
+              "step_ids": [
+                "entry",
+                "balancer-out",
+                "crank-out",
+                "runout",
+                "width"
+              ],
+              "source_entry_state": [
+                "Cases split; transmission and external crank/balancer gear stacks removed."
+              ],
+              "source_exit_state": [
+                "Inspected complete crankshaft and balancer installed in left case; transmission and case closure still required."
+              ]
+            }
+          ],
+          "entry_state": "Transmission out.",
+          "exit_state": "Crank/balancer removed and inspected."
+        },
+        {
+          "id": "case-service",
+          "title": "Service empty cases",
+          "depends_on": [
+            "crank-out"
+          ],
+          "references": [
+            {
+              "path": "crankcase-bench-v2.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-crankcase-bench-v2",
+              "sha256": "4f6a9ac87be64485eb626ba3cca7778d4a85fa9e72469e54293794a96aabe8df",
+              "step_ids": [
+                "internals-out",
+                "clean",
+                "strainer",
+                "bearings",
+                "retainers"
+              ],
+              "source_entry_state": [
+                "Removed/drained engine with top end and named external assemblies removed.",
+                "Transmission/crankshaft removal and installation modules available."
+              ],
+              "source_exit_state": [
+                "Cases closed around inspected crank/transmission; lower chain/guide restored and secured; external assemblies/top end remain off."
+              ]
+            }
+          ],
+          "entry_state": "Both shafts and crank removed.",
+          "exit_state": "Cases clean, bearings/seal/retainers serviced."
+        },
+        {
+          "id": "crank-in",
+          "title": "Install complete crank assembly",
+          "depends_on": [
+            "case-service"
+          ],
+          "references": [
+            {
+              "path": "crankshaft-assembly-bench-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-crankshaft-assembly-bench-v1",
+              "sha256": "6cabb20ec8de3621d37497726806b499eadda26ceb78eea575125e510b9e2f06",
+              "step_ids": [
+                "install",
+                "balancer-in"
+              ],
+              "source_entry_state": [
+                "Cases split; transmission and external crank/balancer gear stacks removed."
+              ],
+              "source_exit_state": [
+                "Inspected complete crankshaft and balancer installed in left case; transmission and case closure still required."
+              ]
+            }
+          ],
+          "entry_state": "Case bearings ready.",
+          "exit_state": "Crank/balancer seated in left case."
+        },
+        {
+          "id": "transmission-in",
+          "title": "Assemble and install transmission",
+          "depends_on": [
+            "crank-in"
+          ],
+          "references": [
+            {
+              "path": "transmission-bench-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-transmission-bench-v1",
+              "sha256": "2820e1df5f36c86abd518a7283af7595852e7be2d949dcb0f6d80cfb34275234",
+              "step_ids": [
+                "main-stack",
+                "drive-stack",
+                "clips",
+                "shafts-install",
+                "forks-install",
+                "bars-install",
+                "function"
+              ],
+              "source_entry_state": [
+                "Engine removed; right crankcase already separated under the case-opening operation.",
+                "Stock shafts/gears/forks identified; original positions retained."
+              ],
+              "source_exit_state": [
+                "Transmission installed in left case and function checked; right case remains open."
+              ]
+            }
+          ],
+          "entry_state": "Accepted parts, left case ready.",
+          "exit_state": "Transmission assembled and selection checked."
+        },
+        {
+          "id": "cases-close",
+          "title": "Close cases and restore lower chain",
+          "depends_on": [
+            "transmission-in"
+          ],
+          "references": [
+            {
+              "path": "crankcase-bench-v2.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-crankcase-bench-v2",
+              "sha256": "4f6a9ac87be64485eb626ba3cca7778d4a85fa9e72469e54293794a96aabe8df",
+              "step_ids": [
+                "internals-in",
+                "oil-parts",
+                "seal",
+                "case-torque",
+                "lower-chain"
+              ],
+              "source_entry_state": [
+                "Removed/drained engine with top end and named external assemblies removed.",
+                "Transmission/crankshaft removal and installation modules available."
+              ],
+              "source_exit_state": [
+                "Cases closed around inspected crank/transmission; lower chain/guide restored and secured; external assemblies/top end remain off."
+              ]
+            }
+          ],
+          "entry_state": "Crank and transmission installations verified.",
+          "exit_state": "Cases sealed; nozzles/strainer/chain/guide restored."
+        },
+        {
+          "id": "pump-in",
+          "title": "Assemble and install oil pump",
+          "depends_on": [
+            "cases-close"
+          ],
+          "references": [
+            {
+              "path": "oil-pump-bench-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-oil-pump-bench-v1",
+              "sha256": "fcbb0bb1558473b26b633ecb18d0c57f9d25ef082d775171b44580e369afa250",
+              "step_ids": [
+                "inner",
+                "cover",
+                "outer",
+                "mount"
+              ],
+              "source_entry_state": [
+                "Right cover, clutch idle gear and oil-pump drive gear removed.",
+                "Relief-valve spring/ball/seat left installed in case."
+              ],
+              "source_exit_state": [
+                "Pump assembled, mounted and rotating smoothly; drive gear and covers remain to be installed."
+              ]
+            }
+          ],
+          "entry_state": "Cases closed; assessed pump ready.",
+          "exit_state": "Pump mounted and turning smoothly."
+        },
+        {
+          "id": "primary-in",
+          "title": "Install and time primary/balancer",
+          "depends_on": [
+            "pump-in"
+          ],
+          "references": [
+            {
+              "path": "primary-balancer-bench-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-primary-balancer-bench-v1",
+              "sha256": "6bc7b33b70080f343eed82ae0dccf564a0190ab80729b58c4ca047cec1249f9a",
+              "step_ids": [
+                "driven",
+                "drive",
+                "clean",
+                "starter-install",
+                "torque",
+                "lock"
+              ],
+              "source_entry_state": [
+                "Right crankcase cover and clutch idle gear removed.",
+                "Crankshaft and balancer installed in closed crankcases."
+              ],
+              "source_exit_state": [
+                "Primary/balancer/starter-clutch stacks installed and checked; clutch/cover closure still required."
+              ]
+            }
+          ],
+          "entry_state": "Pump installed.",
+          "exit_state": "Gears timed/torqued/locked."
+        },
+        {
+          "id": "selector-in",
+          "title": "Install selector",
+          "depends_on": [
+            "primary-in"
+          ],
+          "references": [
+            {
+              "path": "shift-mechanism-bench-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-shift-mechanism-bench-v1",
+              "sha256": "75909f39ba4789c90fdd4340ecdab63435f7088839f860a8b4e7e7bd1016ce28",
+              "step_ids": [
+                "stopper",
+                "pawls",
+                "shaft",
+                "pedal"
+              ],
+              "source_entry_state": [
+                "Clutch idle gear removed; selector exposed; transmission installed for final check."
+              ],
+              "source_exit_state": [
+                "Shift shaft/selector/pedal installed and function checked; clutch/cover closure remains."
+              ]
+            }
+          ],
+          "entry_state": "Transmission and case closed.",
+          "exit_state": "Selector installed and movement checked."
+        },
+        {
+          "id": "water-pump",
+          "title": "Service removed-cover water pump",
+          "depends_on": [
+            "selector-in"
+          ],
+          "references": [
+            {
+              "path": "water-pump-bench-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-water-pump-bench-v1",
+              "sha256": "8f7a867076ae07d8ed6e5883b3f67d4b7f0019554cb067be42943933c2bfa14d",
+              "step_ids": [
+                "entry",
+                "open",
+                "inspect",
+                "bearings-out",
+                "seal-install",
+                "bearings-install",
+                "shaft-install",
+                "close"
+              ],
+              "source_entry_state": [
+                "Right crankcase cover removed; oil/coolant drained.",
+                "Impeller-shaft assembly retained intact; replace it as an exact assembly if defective."
+              ],
+              "source_exit_state": [
+                "Water pump closed on right cover with renewed bearings/seals; right-cover installation and coolant commissioning remain."
+              ]
+            }
+          ],
+          "entry_state": "Right cover on bench.",
+          "exit_state": "Pump bearings/seals renewed; cover ready."
+        },
+        {
+          "id": "right-cover-in",
+          "title": "Install right cover",
+          "depends_on": [
+            "water-pump"
+          ],
+          "references": [
+            {
+              "path": "right-cover-bench-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-right-cover-bench-v1",
+              "sha256": "9cb79583deb724cc4b3d0a632371691067a24d50259b2a856b3434b7e009dc5e",
+              "step_ids": [
+                "service",
+                "seal",
+                "case-close",
+                "filter"
+              ],
+              "source_entry_state": [
+                "Engine out, fluids drained, clutch cover removed, external hoses clear."
+              ],
+              "source_exit_state": [
+                "Right cover/filter/filler sealed; clutch cover and fluid commissioning remain."
+              ]
+            }
+          ],
+          "entry_state": "All enclosed right-side work complete.",
+          "exit_state": "Right cover/filter/filler sealed."
+        },
+        {
+          "id": "basket-in",
+          "title": "Install clutch basket \u2014 held until source conflict resolves",
+          "depends_on": [
+            "right-cover-in"
+          ],
+          "references": [],
+          "entry_state": "Resolved exact nut preparation and approved basket operation available.",
+          "exit_state": "Basket installed, washer freedom/75Nm/staking recorded."
+        },
+        {
+          "id": "pack-in",
+          "title": "Inspect and install clutch pack",
+          "depends_on": [
+            "basket-in"
+          ],
+          "references": [
+            {
+              "path": "clutch-pack-bench-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-clutch-pack-bench-v1",
+              "sha256": "1d00e86e44bf4f22c711c62ec242004906de6674b65290e8008aa04790dd55a4",
+              "step_ids": [
+                "friction",
+                "steels",
+                "other",
+                "stack",
+                "pushrod",
+                "spring",
+                "close"
+              ],
+              "source_entry_state": [
+                "Removed engine supported and oil drained.",
+                "Clutch center nut/basket remain installed throughout."
+              ],
+              "source_exit_state": [
+                "Clutch pack and cover installed; oil refill/engine commissioning remain."
+              ]
+            }
+          ],
+          "entry_state": "Basket operation actually complete.",
+          "exit_state": "Plate stack and cover installed."
+        },
+        {
+          "id": "generator-in",
+          "title": "Install generator and left cover",
+          "depends_on": [
+            "pack-in"
+          ],
+          "references": [
+            {
+              "path": "generator-bench-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-generator-bench-v1",
+              "sha256": "da8284d52be4db6e75f96704eedb00a02b1d1dda46d9a1d340c5ab46c7bb7b03",
+              "step_ids": [
+                "stator-install",
+                "rotor-install",
+                "cover-install"
+              ],
+              "source_entry_state": [
+                "Engine removed, oil drained, shift pedal removed and electrical couplers disconnected."
+              ],
+              "source_exit_state": [
+                "Generator and left cover installed; harness remains disconnected for engine refit."
+              ]
+            }
+          ],
+          "entry_state": "Crank/cases assembled.",
+          "exit_state": "Rotor/cover timing reference restored."
+        },
+        {
+          "id": "head-service",
+          "title": "Service head/cams",
+          "depends_on": [
+            "generator-in"
+          ],
+          "references": [
+            {
+              "path": "head-valve-inspect-reseal-bench-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-head-valve-inspect-reseal-bench-v1",
+              "sha256": "5bf0f1c569ce8e7154f725eef699c1d65b0c83a077a160996dd2782f9ce6f940",
+              "step_ids": [
+                "entry",
+                "lifters",
+                "sealing",
+                "strip",
+                "guide-check",
+                "valve-check",
+                "seat-check",
+                "spring-check",
+                "disposition",
+                "assemble",
+                "cotters",
+                "lifters-install"
+              ],
+              "source_entry_state": [
+                "Head removed and cams out; original valve positions identifiable.",
+                "Original-valve reuse path only; repair findings may require separate valve/guide/head service."
+              ],
+              "source_exit_state": [
+                "Serviceable original valves installed with new seals; cams and final clearance check remain."
+              ]
+            },
+            {
+              "path": "camshaft-inspection-bench-v2.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-camshaft-inspection-bench-v2",
+              "sha256": "17dae7bc1f79ac55372a9b1ecb9c938a14a3ce97f3f1c5156fa0b0e0d6de6b4b",
+              "step_ids": [
+                "entry",
+                "lobes",
+                "plastigauge",
+                "journal",
+                "chain",
+                "decompressor"
+              ],
+              "source_entry_state": [
+                "Cams removed; their original matching head/caps available."
+              ],
+              "source_exit_state": [
+                "Cam/head inspection recorded and required replacement disposition determined; cams remain out."
+              ]
+            }
+          ],
+          "entry_state": "Removed head with original positions retained.",
+          "exit_state": "Head/cam reuse path accepted or separate replacement/machining completed."
+        },
+        {
+          "id": "piston-in",
+          "title": "Install cylinder/piston",
+          "depends_on": [
+            "head-service"
+          ],
+          "references": [
+            {
+              "path": "cylinder-piston-bench-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-cylinder-piston-bench-v1",
+              "sha256": "2ed73deb5197670d621aacecc63112c55a6deb8b35048817f39eebefb08a8be4",
+              "step_ids": [
+                "rings-install",
+                "piston-install",
+                "clock",
+                "cylinder-install"
+              ],
+              "source_entry_state": [
+                "Head removed, chain retained, crankcase protected."
+              ],
+              "source_exit_state": [
+                "Piston/rings/cylinder installed with new base gasket; head installation remains."
+              ]
+            }
+          ],
+          "entry_state": "Lower engine closed and chain restored.",
+          "exit_state": "Cylinder installed."
+        },
+        {
+          "id": "head-in",
+          "title": "Install head",
+          "depends_on": [
+            "piston-in"
+          ],
+          "references": [
+            {
+              "path": "head-remove-refit-bench-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-head-remove-refit-bench-v1",
+              "sha256": "76fba7088007d39627366380720a94810d729967e7e85112f625694d958594cb",
+              "step_ids": [
+                "repair",
+                "seat",
+                "prepare-bolts",
+                "first",
+                "second-one",
+                "second-rest",
+                "final-angle",
+                "small"
+              ],
+              "source_entry_state": [
+                "Engine-access and cam-removal states listed in the first step are already complete."
+              ],
+              "source_exit_state": [
+                "Cylinder head sealed and torqued; cam/tensioner installation and external engine closure still required."
+              ]
+            }
+          ],
+          "entry_state": "Head repairs complete.",
+          "exit_state": "Head torqued."
+        },
+        {
+          "id": "cams-in",
+          "title": "Time and close top end",
+          "depends_on": [
+            "head-in"
+          ],
+          "references": [
+            {
+              "path": "cams-install-bench-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-cams-install-bench-v1",
+              "sha256": "9e535b11ab32b1c5642f06af4fe92cf92328009af386dcb4f5701d94e8d0a0c6",
+              "step_ids": [
+                "entry",
+                "cams-install",
+                "caps-install",
+                "tensioner-install",
+                "tensioner-release",
+                "timing-verify",
+                "remeasure",
+                "cover-install",
+                "plug-access-close",
+                "handoff"
+              ],
+              "source_entry_state": [
+                "Head/cylinder installed; cams out; rotor/left cover present.",
+                "Inspected stock cams/tensioner and new sealing parts available."
+              ],
+              "source_exit_state": [
+                "Cams/tensioner installed; timing and four cold clearances verified; head cover/plug/access plugs closed."
+              ]
+            }
+          ],
+          "entry_state": "Left timing marks available.",
+          "exit_state": "Timing/clearances pass."
+        },
+        {
+          "id": "engine-in",
+          "title": "Install and commission engine",
+          "depends_on": [
+            "cams-in"
+          ],
+          "references": [
+            {
+              "path": "../frame-pass3/engine-remove-refit-v1.procedure.json",
+              "procedure_id": "yamaha-2026-yz450f-engine-remove-refit-v1",
+              "sha256": "d0e2c9546d7bdd05e7b9702df20d8edab462c15a5c1a4f0438e6c928c6bd3713",
+              "step_ids": [
+                "bench-record",
+                "engine-in",
+                "mount-torque",
+                "release-refit",
+                "pedal-refit",
+                "sprocket-refit",
+                "ground-starter",
+                "harness-refit",
+                "intake-refit",
+                "hoses-refit",
+                "exhaust-header-install",
+                "exhaust-midpipe-install",
+                "exhaust-silencer-install",
+                "exhaust-joints-final",
+                "access-case-refit",
+                "access-intake-check",
+                "access-tank-install",
+                "cooling-fill",
+                "cooling-cap",
+                "oil-fill",
+                "battery-refit",
+                "access-body-install",
+                "slack",
+                "torque",
+                "fuel-ready",
+                "oil-flow",
+                "cooling-warm-cool",
+                "cooling-recheck",
+                "final-checks"
+              ],
+              "source_entry_state": [],
+              "source_exit_state": []
+            }
+          ],
+          "entry_state": "All bench operations actually completed.",
+          "exit_state": "Installed engine with required startup checks recorded."
+        }
+      ]
+    }
+  ],
+  "held_artifact": "clutch-basket-overhaul-held-v1.json"
+}

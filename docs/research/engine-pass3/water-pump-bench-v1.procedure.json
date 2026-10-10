@@ -1,0 +1,280 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2026-yz450f-water-pump-bench-v1",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Renew water-pump bearings and seals",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete bounded bench operation from the declared entry state to the declared exit state. Whole-bike access and downstream engine closure are separate dependencies.",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      7,
+      56,
+      280,
+      300,
+      301,
+      302,
+      303
+    ],
+    "printed_pages": [
+      "Symbols (unnumbered)",
+      "2-9",
+      "5-77",
+      "6-7",
+      "6-8",
+      "6-9",
+      "6-10"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "All cited operation pages visually reviewed. General symbols and conditional torque rules retained."
+  },
+  "applicability": {
+    "included": "Exact US2026 YZ450F standard stock components only",
+    "excluded": [
+      "Disassembly of impeller-shaft stack",
+      "Aftermarket pump conversion",
+      "Final coolant commissioning"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "affected_components": [
+    "engine",
+    "water_pump"
+  ],
+  "required_tools": [
+    {
+      "name": "Bearing press and parallel outer-race drivers"
+    },
+    {
+      "name": "Seal driver, circlip tools and torque wrench accurate at10Nm"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "Two new pump bearings, new oil seal and rear shaft circlip"
+    },
+    {
+      "name": "Two new housing/cover O-rings and coolant-drain washer"
+    },
+    {
+      "name": "Exact intact impeller-shaft assembly if required"
+    },
+    {
+      "name": "Engine oil and lithium-soap grease"
+    }
+  ],
+  "preflight": [
+    "Right crankcase cover removed; oil/coolant drained.",
+    "Impeller-shaft assembly retained intact; replace it as an exact assembly if defective."
+  ],
+  "entry_state": [
+    "Right crankcase cover removed; oil/coolant drained.",
+    "Impeller-shaft assembly retained intact; replace it as an exact assembly if defective."
+  ],
+  "exit_state": [
+    "Water pump closed on right cover with renewed bearings/seals; right-cover installation and coolant commissioning remain."
+  ],
+  "critical_stop_conditions": [
+    "Any required measurement unresolved or replacement criteria not satisfied.",
+    "Unidentified diagram orientation, missing parts, damage or abnormal binding."
+  ],
+  "material_policy": {
+    "LT": "Locking agent (LOCTITE) per PDF7. Grade unspecified by this manual; no grade inferred.",
+    "lubrication": "Follow each explicit E/M/LS/S application; general dry torque does not override a lubricated joint."
+  },
+  "steps": [
+    {
+      "id": "entry",
+      "title": "Confirm water-pump bench access",
+      "instruction": "Oil and coolant are drained and the right crankcase cover is removed. Support the cover so pump-shaft and seal removal cannot damage its mating face. This guide renews bearings/seal and retains the intact impeller-shaft assembly unless that assembly is defective.",
+      "source_pdf_pages": [
+        300,
+        301
+      ],
+      "verification": [
+        "Removed right cover and drained state confirmed."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=300",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=301"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": []
+    },
+    {
+      "id": "open",
+      "title": "Remove pump cover and shaft assembly",
+      "instruction": "Remove pump-cover bolts and coolant-drain bolt/washer. Lift cover and remove its O-ring and two dowels. Remove the rear shaft circlip and withdraw the complete impeller-shaft assembly. Remove the pump housing and its O-ring. Keep the two impellers and shaft assembled together for this route.",
+      "source_pdf_pages": [
+        300,
+        301
+      ],
+      "verification": [
+        "Cover, two dowels, housing and intact shaft assembly accounted for."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=300",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=301"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "entry"
+      ]
+    },
+    {
+      "id": "inspect",
+      "title": "Inspect the removed pump",
+      "instruction": "Inspect cover, housing, impeller shaft and both impellers for cracks, damage or wear; replace defective parts with exact stock components. Rotate bearing inner races by finger; roughness or seizure requires replacement. Unusual coolant loss/discoloration or milky engine oil calls for oil-seal removal; a removed seal cannot be reused.",
+      "source_pdf_pages": [
+        301,
+        302
+      ],
+      "verification": [
+        "Pump-part condition and bearing observations saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=301",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=302"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "open"
+      ]
+    },
+    {
+      "id": "bearings-out",
+      "title": "Remove the old bearings and seal",
+      "instruction": "Remove the old oil seal and the two bearings from the supported right cover. Discard the removed bearings and seal. Protect the bores and mating surface; use the press and bearing-driver operation described for the engine bearings rather than hammering the cover.",
+      "source_pdf_pages": [
+        280,
+        300,
+        302
+      ],
+      "verification": [
+        "Old bearings/seal removed; bores intact."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=280",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=300",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=302"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "inspect"
+      ]
+    },
+    {
+      "id": "seal-install",
+      "title": "Install the new pump seal",
+      "instruction": "Apply lithium-soap grease to the new seal lip. Point its illustrated projections outward and install parallel to0mm indicated depth. Keep its spring in place and avoid cutting the lip.",
+      "source_pdf_pages": [
+        300,
+        301,
+        302
+      ],
+      "verification": [
+        "Outward projections,0mm depth and intact spring/lip recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=300",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=301",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=302"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "bearings-out"
+      ]
+    },
+    {
+      "id": "bearings-install",
+      "title": "Install both new bearings",
+      "instruction": "Oil the bearings and press them parallel by their outer races to the0mm indicated seated positions. Verify smooth inner-race movement after seating.",
+      "source_pdf_pages": [
+        300,
+        301,
+        302
+      ],
+      "verification": [
+        "Two new bearings seated0mm and moving smoothly."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=300",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=301",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=302"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "seal-install"
+      ]
+    },
+    {
+      "id": "shaft-install",
+      "title": "Refit housing and intact impeller assembly",
+      "instruction": "Grease the new housing O-ring with lithium-soap grease. Install it, the pump housing and the intact serviceable impeller-shaft assembly, protecting the seal lip and spring. Fit a new rear circlip fully into its groove.",
+      "source_pdf_pages": [
+        300,
+        302
+      ],
+      "verification": [
+        "New housing O-ring and rear clip installed; shaft/impellers serviceable."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=300",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=302"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "bearings-install"
+      ]
+    },
+    {
+      "id": "close",
+      "title": "Close the pump",
+      "instruction": "Fit both dowels and the new cover O-ring with lithium-soap grease. Refit the pump cover and tighten its bolts10Nm. Fit a new drain washer and tighten coolant-drain bolt10Nm. Final coolant fill/leak checks follow engine cover/engine installation.",
+      "source_pdf_pages": [
+        300,
+        302,
+        303
+      ],
+      "verification": [
+        "New cover O-ring, two dowels, cover10Nm and drain10Nm saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=300",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=302",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=303"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "shaft-install"
+      ]
+    }
+  ],
+  "reviewed_at": "2026-09-13",
+  "runtime_integration_requirement": "Enforce entry state and record_required. Completion certifies this bounded operation only; no automatic completion of upstream/downstream work."
+}

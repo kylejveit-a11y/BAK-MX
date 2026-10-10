@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {collectPages} from '../server/pagination.ts';
+const rows=Array.from({length:1257},(_,id)=>({id:String(id),text:'saved diagnostic data'}));
+test('paginates beyond 1000 records and preserves deterministic order',async()=>{const ranges:number[]=[];const result=await collectPages(async(from,to)=>{ranges.push(from);return {data:rows.slice(from,to+1),count:rows.length,error:null};},{label:'History',key:r=>r.id});assert.deepEqual(result,rows);assert.deepEqual(ranges,[0,250,500,750,1000,1250]);});
+test('lower server page cap cannot silently truncate data',async()=>{const result=await collectPages(async(from)=>({data:rows.slice(from,from+100),count:rows.length,error:null}),{label:'History',key:r=>r.id});assert.equal(result.length,1257);});
+test('rejects unavailable counts, premature empty page and database error',async()=>{for(const result of [{data:[],count:null,error:null},{data:[],count:5,error:null},{data:null,count:1,error:{message:'failure'}}])await assert.rejects(collectPages(async()=>result,{label:'History',key:()=>''}),/read completely/);});
+test('rejects row or size bounds without returning a partial collection',async()=>{await assert.rejects(collectPages(async()=>({data:rows.slice(0,250),count:rows.length,error:null}),{label:'History',maxRows:1000,key:r=>r.id}),/record download limit/);await assert.rejects(collectPages(async()=>({data:[rows[0]],count:1,error:null}),{label:'History',maxBytes:5,key:r=>r.id}),/No partial data/);});
+test('concurrent count changes and repeated keys fail explicitly',async()=>{let calls=0;await assert.rejects(collectPages(async()=>({data:[rows[calls++]],count:calls===1?2:3,error:null}),{label:'History',key:r=>r.id}),/changed during retrieval/);await assert.rejects(collectPages(async()=>({data:[rows[0]],count:2,error:null}),{label:'History',key:r=>r.id}),/changed during retrieval/);});
+test('empty datasets are valid complete reads',async()=>assert.deepEqual(await collectPages(async()=>({data:[],count:0,error:null}),{label:'History',key:()=>''}),[]));

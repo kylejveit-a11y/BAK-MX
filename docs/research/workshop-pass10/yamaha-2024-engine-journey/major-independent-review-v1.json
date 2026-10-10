@@ -1,0 +1,33 @@
+{
+  "status": "APPROVED",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2024,
+    "region": "US",
+    "variant": "standard"
+  },
+  "reviewer": "root independent composition review",
+  "approved_candidate_sha256": "816ec0f9efb9e89937788f9b74471a2b48fd236631ff404ad75eb461bd1561f7",
+  "artifacts": [
+    {
+      "path": "major-engine-bike-journey-v1.procedure.json",
+      "sha256": "ab1e5b6ab3c400a6052ad0bc6b34138ab67999e5a9d7ae0d4025c4b05aef717b"
+    }
+  ],
+  "scope": "Read all changed lower-entry/exit, piston-out/lower/bore cutpoint, cam disposition, combined bench record, initial1.20L versus later0.96L, commissioning crank/gear groups; approved source dependencies verified.",
+  "operation_dependencies": [
+    {
+      "artifact": "docs/research/workshop-pass10/yamaha-2024-engine-journey/top-end-bike-journey-v1.procedure.json",
+      "sha256": "aec5a389809767bdf26b2cd140fe48e87f0121f3e037fbcc4a4e732f77c25cf1",
+      "kind": "approved_source_operation"
+    },
+    {
+      "artifact": "docs/research/workshop-pass10/yamaha-2024-engine/lower-engine-bench-v1.procedure.json",
+      "sha256": "15a08ca72cf2c86a03d4458dd6ecc501b44738cc2fc4b817d560e1f3fe354d1e",
+      "kind": "approved_source_operation"
+    }
+  ],
+  "freeze_changes": "Approval status and review metadata only; no instruction changes.",
+  "limits": "Excluded systems and real external maintenance remain explicit; no physical bike validation."
+}

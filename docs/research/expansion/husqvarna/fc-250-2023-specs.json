@@ -1,0 +1,347 @@
+{
+  "target": {
+    "manufacturer": "Husqvarna",
+    "model": "FC 250",
+    "model_year": 2023,
+    "variant": "standard",
+    "region": "US"
+  },
+  "source_metadata": {
+    "target": {
+      "manufacturer": "Husqvarna",
+      "model": "FC 250",
+      "model_year": 2023,
+      "variant": "standard",
+      "region": "US"
+    },
+    "selector_url": "https://www.husqvarna-motorcycles.com/en-us/service/user-manuals.html",
+    "query_url": "https://www.husqvarna-motorcycles.com/en-us/service/user-manuals/_jcr_content/root/responsivegrid_1_col/bikemanuals.manuals.json?modelName=FC+250+2023",
+    "english_results": [
+      {
+        "modelName": "FC 250 2023",
+        "title": "FC 250 2023 US (en) - 2023",
+        "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf"
+      },
+      {
+        "modelName": "FC 250 2023",
+        "title": "FC 250 2023 EU (en) - 2023",
+        "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf"
+      }
+    ],
+    "selected": {
+      "modelName": "FC 250 2023",
+      "title": "FC 250 2023 US (en) - 2023",
+      "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf"
+    },
+    "scope_confirmed_by_selector": true,
+    "review_status": "PENDING",
+    "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+    "bytes": 8456617,
+    "temporary_pdf": "/tmp/hq-manuals/fc-250-2023.pdf",
+    "temporary_text": "/tmp/hq-manuals/fc-250-2023.txt",
+    "scope_page": 3,
+    "scope_excerpt": "This document is valid for the following models:\nFC 250 EU (F2101W1)\nFC 250 US (F2175W1)\nFC 250 Heritage EU (F2101W3)\nFC 250 Heritage US (F2175W3)\n*3402631en*\n3402631en\n27.09.2023",
+    "document_revision": "27.09.2023",
+    "document_article": "3402631en",
+    "torque_table_pdf_pages": [
+      134,
+      135,
+      136,
+      140,
+      141,
+      142
+    ]
+  },
+  "assemblies": [],
+  "parts": [],
+  "facts": [
+    {
+      "id": "fc-250-2023-spec-1",
+      "property": "displacement",
+      "joint": "Engine",
+      "value": 249.91,
+      "unit": "cm3",
+      "conditions": [],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+      "locator": "PDF page 133, engine technical data: Engine",
+      "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+      "document_revision": "3402631en / 27.09.2023",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-250-2023-spec-2",
+      "property": "stroke",
+      "joint": "Engine",
+      "value": 48.5,
+      "unit": "mm",
+      "conditions": [],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+      "locator": "PDF page 133, engine technical data: Engine",
+      "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+      "document_revision": "3402631en / 27.09.2023",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-250-2023-spec-3",
+      "property": "bore",
+      "joint": "Cylinder",
+      "value": 81,
+      "unit": "mm",
+      "conditions": [],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+      "locator": "PDF page 133, engine technical data: Cylinder",
+      "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+      "document_revision": "3402631en / 27.09.2023",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-250-2023-spec-4",
+      "property": "compression_ratio",
+      "joint": "Engine",
+      "value": "14.5:1",
+      "unit": "ratio",
+      "conditions": [],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+      "locator": "PDF page 133, engine technical data: Engine",
+      "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+      "document_revision": "3402631en / 27.09.2023",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-250-2023-spec-5",
+      "property": "valve_diameter",
+      "joint": "Intake valve",
+      "value": 32.5,
+      "unit": "mm",
+      "conditions": [],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+      "locator": "PDF page 133, engine technical data: Intake valve",
+      "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+      "document_revision": "3402631en / 27.09.2023",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-250-2023-spec-6",
+      "property": "valve_diameter",
+      "joint": "Exhaust valve",
+      "value": 27.5,
+      "unit": "mm",
+      "conditions": [],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+      "locator": "PDF page 133, engine technical data: Exhaust valve",
+      "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+      "document_revision": "3402631en / 27.09.2023",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-250-2023-spec-7",
+      "property": "valve_clearance",
+      "joint": "Intake valve",
+      "value": "0.08\u20130.15",
+      "unit": "mm",
+      "conditions": [
+        "At 20 \u00b0C"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+      "locator": "PDF page 133, engine technical data: Intake valve",
+      "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+      "document_revision": "3402631en / 27.09.2023",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-250-2023-spec-8",
+      "property": "valve_clearance",
+      "joint": "Exhaust valve",
+      "value": "0.12\u20130.19",
+      "unit": "mm",
+      "conditions": [
+        "At 20 \u00b0C"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+      "locator": "PDF page 133, engine technical data: Exhaust valve",
+      "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+      "document_revision": "3402631en / 27.09.2023",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-250-2023-spec-9",
+      "property": "idle_speed",
+      "joint": "Engine",
+      "value": "2250\u20132350",
+      "unit": "rpm",
+      "conditions": [],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+      "locator": "PDF page 133, engine technical data: Engine",
+      "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+      "document_revision": "3402631en / 27.09.2023",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-250-2023-spec-10",
+      "property": "primary_transmission",
+      "joint": "Primary transmission",
+      "value": "24:72",
+      "unit": "tooth pair",
+      "conditions": [
+        "Driving:driven teeth; not the numerical reduction ratio"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+      "locator": "PDF page 133, engine technical data: Primary transmission",
+      "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+      "document_revision": "3402631en / 27.09.2023",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-250-2023-spec-11",
+      "property": "transmission_tooth_pair",
+      "joint": "Gear 1",
+      "value": "13:32",
+      "unit": "tooth pair",
+      "conditions": [
+        "Driving:driven teeth; standard FC five-speed transmission"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+      "locator": "PDF page 133, engine technical data: Gear 1",
+      "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+      "document_revision": "3402631en / 27.09.2023",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-250-2023-spec-12",
+      "property": "transmission_tooth_pair",
+      "joint": "Gear 2",
+      "value": "16:32",
+      "unit": "tooth pair",
+      "conditions": [
+        "Driving:driven teeth; standard FC five-speed transmission"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+      "locator": "PDF page 133, engine technical data: Gear 2",
+      "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+      "document_revision": "3402631en / 27.09.2023",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-250-2023-spec-13",
+      "property": "transmission_tooth_pair",
+      "joint": "Gear 3",
+      "value": "17:28",
+      "unit": "tooth pair",
+      "conditions": [
+        "Driving:driven teeth; standard FC five-speed transmission"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+      "locator": "PDF page 133, engine technical data: Gear 3",
+      "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+      "document_revision": "3402631en / 27.09.2023",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-250-2023-spec-14",
+      "property": "transmission_tooth_pair",
+      "joint": "Gear 4",
+      "value": "19:26",
+      "unit": "tooth pair",
+      "conditions": [
+        "Driving:driven teeth; standard FC five-speed transmission"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+      "locator": "PDF page 133, engine technical data: Gear 4",
+      "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+      "document_revision": "3402631en / 27.09.2023",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-250-2023-spec-15",
+      "property": "transmission_tooth_pair",
+      "joint": "Gear 5",
+      "value": "21:25",
+      "unit": "tooth pair",
+      "conditions": [
+        "Driving:driven teeth; standard FC five-speed transmission"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+      "locator": "PDF page 133, engine technical data: Gear 5",
+      "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+      "document_revision": "3402631en / 27.09.2023",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-250-2023-spec-16",
+      "property": "alternator_voltage",
+      "joint": "Alternator",
+      "value": 12,
+      "unit": "V",
+      "conditions": [],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+      "locator": "PDF page 133, engine technical data: Alternator",
+      "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+      "document_revision": "3402631en / 27.09.2023",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-250-2023-spec-17",
+      "property": "alternator_power",
+      "joint": "Alternator",
+      "value": 70,
+      "unit": "W",
+      "conditions": [],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+      "locator": "PDF page 133, engine technical data: Alternator",
+      "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+      "document_revision": "3402631en / 27.09.2023",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-250-2023-spec-18",
+      "property": "spark_plug_identity",
+      "joint": "Spark plug",
+      "value": "NGK LMAR9AI-10",
+      "unit": "model",
+      "conditions": [],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+      "locator": "PDF page 133, engine technical data: Spark plug",
+      "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+      "document_revision": "3402631en / 27.09.2023",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    },
+    {
+      "id": "fc-250-2023-spec-19",
+      "property": "spark_plug_gap",
+      "joint": "Spark plug",
+      "value": 1,
+      "unit": "mm",
+      "conditions": [],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402631_en_OM.pdf",
+      "locator": "PDF page 133, engine technical data: Spark plug",
+      "document_sha256": "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325",
+      "document_revision": "3402631en / 27.09.2023",
+      "review_status": "APPROVED",
+      "review_note": "Visually reviewed original OEM table and US standard scope on PDF page 3. Source transcription only; no cross-year inheritance."
+    }
+  ],
+  "mappings": [],
+  "gaps": [
+    "Stock fork/shock and other service specifications still being enumerated."
+  ],
+  "catalog_complete": false,
+  "scope_confirmed": true
+}

@@ -1,0 +1,62 @@
+{
+  "status": "AUDIT_ONLY_NO_PUBLICATION",
+  "normalization": "Private-use pre-race check glyph normalized to r solely for comparison; no preparation symbol removed. Key includes joint, thread and quantity.",
+  "records_2024": 161,
+  "records_2025": 161,
+  "differences": [
+    {
+      "joint": "Bolt (pressure plate 1)",
+      "thread": "M6",
+      "quantity": 6,
+      "2024": {
+        "value": 10.0,
+        "unit": "N·m",
+        "raw_remarks": "",
+        "locator": "PDF page 56; printed 2-11; Bolt (pressure plate 1); thread M6"
+      },
+      "2025": {
+        "value": 10.0,
+        "unit": "N·m",
+        "raw_remarks": "E",
+        "locator": "PDF page 58; printed 2-11; Bolt (pressure plate 1); thread M6"
+      },
+      "status": "SAVED_TABLE_DIFFERENCE_REQUIRES_DIAGRAM_REVIEW"
+    },
+    {
+      "joint": "Exhaust pipe clamp bolt",
+      "thread": "M8",
+      "quantity": 2,
+      "2024": {
+        "value": 12.0,
+        "unit": "N·m",
+        "raw_remarks": "",
+        "locator": "PDF page 56; printed 2-11; Exhaust pipe clamp bolt; thread M8"
+      },
+      "2025": {
+        "value": 16.0,
+        "unit": "N·m",
+        "raw_remarks": "",
+        "locator": "PDF page 58; printed 2-11; Exhaust pipe clamp bolt; thread M8"
+      },
+      "status": "SAVED_TABLE_DIFFERENCE_REQUIRES_DIAGRAM_REVIEW"
+    },
+    {
+      "joint": "Primary drive gear nut",
+      "thread": "M20",
+      "quantity": 1,
+      "2024": {
+        "value": 120.0,
+        "unit": "N·m",
+        "raw_remarks": "E",
+        "locator": "PDF page 56; printed 2-11; Primary drive gear nut; thread M20"
+      },
+      "2025": {
+        "value": 130.0,
+        "unit": "N·m",
+        "raw_remarks": "M",
+        "locator": "PDF page 58; printed 2-11; Primary drive gear nut; thread M20"
+      },
+      "status": "SAVED_TABLE_DIFFERENCE_REQUIRES_DIAGRAM_REVIEW"
+    }
+  ]
+}

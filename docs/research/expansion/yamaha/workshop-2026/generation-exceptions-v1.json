@@ -1,0 +1,164 @@
+{
+  "id": "yamaha-yz450f-2025-2026-torque-exceptions-v1",
+  "targets": [
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ450F",
+      "model_year": 2025,
+      "variant": "standard",
+      "region": "US"
+    },
+    {
+      "manufacturer": "Yamaha",
+      "model": "YZ450F",
+      "model_year": 2026,
+      "variant": "standard",
+      "region": "US"
+    }
+  ],
+  "exceptions": [
+    {
+      "joint": "Clutch lever pivot bolt",
+      "thread": "M6",
+      "decision": "DO_NOT_INHERIT",
+      "2025": {
+        "id": "yamaha-yz450f-2025-torque-093",
+        "value": 3.0,
+        "unit": "N\u00b7m",
+        "raw_remarks": "",
+        "conditions": [
+          "Exact OEM joint and stock configuration only; consult linked service procedure for order, tool and replacement requirements."
+        ],
+        "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf",
+        "locator": "PDF page 61; printed 2-14; Clutch lever pivot bolt; thread M6",
+        "document_sha256": "5005e7d8492c9482dfe44c6d752609a9a70a836f5b1dc94be3149d5d493de8ac",
+        "document_revision": "D02-2819U-10 / LIT-11626-38-16; First edition March 2024"
+      },
+      "2026": {
+        "id": "yamaha-yz450f-2026-torque-034",
+        "value": 6.0,
+        "unit": "N\u00b7m",
+        "raw_remarks": "",
+        "conditions": [
+          "OEM general rule (PDF page 56; printed 2-9): components at room temperature; clean dry threads unless a specific instruction requires otherwise; multi-fastener assemblies use progressive crisscross tightening unless a specified sequence overrides it.",
+          "Exact OEM joint and stock configuration only; consult linked service procedure for order, tool and replacement requirements."
+        ],
+        "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+        "locator": "PDF page 58; printed 2-11; Clutch lever pivot bolt; thread M6",
+        "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+        "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025"
+      },
+      "review_note": "Compared existing approved exact-US 2025 reviewed fact with newly visually reviewed exact-US 2026 table and TIP. Differing values/preparation require exact-year selection; not an unresolved same-year conflict."
+    },
+    {
+      "joint": "Clutch lever pivot nut",
+      "thread": "M6",
+      "decision": "DO_NOT_INHERIT",
+      "2025": {
+        "id": "yamaha-yz450f-2025-torque-094",
+        "value": 7.0,
+        "unit": "N\u00b7m",
+        "raw_remarks": "",
+        "conditions": [
+          "Exact OEM joint and stock configuration only; consult linked service procedure for order, tool and replacement requirements."
+        ],
+        "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf",
+        "locator": "PDF page 61; printed 2-14; Clutch lever pivot nut; thread M6",
+        "document_sha256": "5005e7d8492c9482dfe44c6d752609a9a70a836f5b1dc94be3149d5d493de8ac",
+        "document_revision": "D02-2819U-10 / LIT-11626-38-16; First edition March 2024"
+      },
+      "2026": {
+        "id": "yamaha-yz450f-2026-torque-035",
+        "value": 6.0,
+        "unit": "N\u00b7m",
+        "raw_remarks": "",
+        "conditions": [
+          "OEM general rule (PDF page 56; printed 2-9): components at room temperature; clean dry threads unless a specific instruction requires otherwise; multi-fastener assemblies use progressive crisscross tightening unless a specified sequence overrides it.",
+          "Exact OEM joint and stock configuration only; consult linked service procedure for order, tool and replacement requirements."
+        ],
+        "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+        "locator": "PDF page 58; printed 2-11; Clutch lever pivot nut; thread M6",
+        "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+        "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025"
+      },
+      "review_note": "Compared existing approved exact-US 2025 reviewed fact with newly visually reviewed exact-US 2026 table and TIP. Differing values/preparation require exact-year selection; not an unresolved same-year conflict."
+    },
+    {
+      "joint": "Primary drive gear nut",
+      "thread": "M20",
+      "decision": "DO_NOT_INHERIT",
+      "2025": {
+        "id": "yamaha-yz450f-2025-torque-056",
+        "value": 130.0,
+        "unit": "N\u00b7m",
+        "raw_remarks": "M",
+        "conditions": [
+          "Exact OEM joint and stock configuration only; consult linked service procedure for order, tool and replacement requirements.",
+          "Molybdenum disulfide grease specified by the table; use joint procedure for application location."
+        ],
+        "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf",
+        "locator": "PDF page 58; printed 2-11; Primary drive gear nut; thread M20",
+        "document_sha256": "5005e7d8492c9482dfe44c6d752609a9a70a836f5b1dc94be3149d5d493de8ac",
+        "document_revision": "D02-2819U-10 / LIT-11626-38-16; First edition March 2024"
+      },
+      "2026": {
+        "id": "yamaha-yz450f-2026-torque-059",
+        "value": 170.0,
+        "unit": "N\u00b7m",
+        "raw_remarks": "M",
+        "conditions": [
+          "OEM general rule (PDF page 56; printed 2-9): components at room temperature; clean dry threads unless a specific instruction requires otherwise; multi-fastener assemblies use progressive crisscross tightening unless a specified sequence overrides it.",
+          "Exact OEM joint and stock configuration only; consult linked service procedure for order, tool and replacement requirements.",
+          "Molybdenum disulfide grease specified by the table; use joint procedure for application location.",
+          "First remove oil from crankshaft threads, washer contact surface, and nut threads/contact surface; then apply molybdenum disulfide grease to those same surfaces. PDF page 60; printed 2-13. Do not inherit 2025 130 N\u00b7m."
+        ],
+        "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+        "locator": "PDF page 58; printed 2-11; Primary drive gear nut; thread M20; TIP printed 2-13",
+        "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+        "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025"
+      },
+      "review_note": "Compared existing approved exact-US 2025 reviewed fact with newly visually reviewed exact-US 2026 table and TIP. Differing values/preparation require exact-year selection; not an unresolved same-year conflict."
+    },
+    {
+      "joint": "Clutch boss nut",
+      "thread": "M20",
+      "decision": "DO_NOT_INHERIT",
+      "2025": {
+        "id": "yamaha-yz450f-2025-torque-058",
+        "value": 105.0,
+        "unit": "N\u00b7m",
+        "raw_remarks": "Stake. LT",
+        "conditions": [
+          "Exact OEM joint and stock configuration only; consult linked service procedure for order, tool and replacement requirements.",
+          "Apply locking agent (LOCTITE); grade and application location require the joint procedure, not inferred from the table.",
+          "Stake the nut after tightening according to the service procedure."
+        ],
+        "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf",
+        "locator": "PDF page 58; printed 2-11; Clutch boss nut; thread M20",
+        "document_sha256": "5005e7d8492c9482dfe44c6d752609a9a70a836f5b1dc94be3149d5d493de8ac",
+        "document_revision": "D02-2819U-10 / LIT-11626-38-16; First edition March 2024"
+      },
+      "2026": {
+        "id": "yamaha-yz450f-2026-torque-061",
+        "value": 75.0,
+        "unit": "N\u00b7m",
+        "raw_remarks": "Stake. E",
+        "conditions": [
+          "OEM general rule (PDF page 56; printed 2-9): components at room temperature; clean dry threads unless a specific instruction requires otherwise; multi-fastener assemblies use progressive crisscross tightening unless a specified sequence overrides it.",
+          "Exact OEM joint and stock configuration only; consult linked service procedure for order, tool and replacement requirements.",
+          "Engine-oil lubrication is specified by the table; use joint procedure for application location.",
+          "Stake the nut after tightening according to the service procedure."
+        ],
+        "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+        "locator": "PDF page 58; printed 2-11; Clutch boss nut; thread M20",
+        "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+        "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025"
+      },
+      "review_note": "Compared existing approved exact-US 2025 reviewed fact with newly visually reviewed exact-US 2026 table and TIP. Differing values/preparation require exact-year selection; not an unresolved same-year conflict."
+    }
+  ],
+  "count": 4,
+  "cross_year_equivalence_approved": false,
+  "policy": "These four observed joint exceptions prohibit inheritance of these facts. Identical other table cells are not part compatibility proof or whole-bike generation equivalence.",
+  "checked_at": "2026-09-13T19:08:21.628170+00:00"
+}

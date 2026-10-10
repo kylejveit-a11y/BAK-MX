@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "variant": "standard",
+    "region": "US"
+  },
+  "source_id": "us-parts",
+  "source_url": "https://www.rockymountainatvmc.com/oem-parts/yamaha/2026-yamaha-yz450f/front-fork?submodel=yz450f-yz450ftl-2026",
+  "diagram_reference": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=168",
+  "status": "CANDIDATE_CROSSWALK_NOT_PURCHASE_READY",
+  "items": [
+    {
+      "component": "piston metal",
+      "manual_item": 9,
+      "fiche_refs": [
+        5,
+        31
+      ],
+      "part": "5XE-23171-L0-00"
+    },
+    {
+      "component": "slide metal",
+      "manual_item": 11,
+      "fiche_refs": [
+        6,
+        32
+      ],
+      "part": "5XE-23125-L0-00"
+    },
+    {
+      "component": "oil seal",
+      "manual_item": 13,
+      "fiche_refs": [
+        8,
+        34
+      ],
+      "part": "B29-23145-00-00"
+    },
+    {
+      "component": "dust seal",
+      "manual_item": 4,
+      "fiche_refs": [
+        11,
+        37
+      ],
+      "part": "BHR-23144-00-00"
+    },
+    {
+      "component": "damper O-ring candidate",
+      "fiche_refs": [
+        13,
+        39
+      ],
+      "part": "1C3-23147-L1-00"
+    },
+    {
+      "component": "base-valve seal candidates",
+      "fiche_refs": [
+        16,
+        42
+      ],
+      "part": "1C3-23188-L2-00"
+    },
+    {
+      "component": "base-valve seal candidates",
+      "fiche_refs": [
+        17,
+        43
+      ],
+      "part": "1C3-23188-P0-00"
+    },
+    {
+      "component": "base-valve seal candidates",
+      "fiche_refs": [
+        18,
+        44
+      ],
+      "part": "1AE-23147-01-00"
+    },
+    {
+      "component": "air-valve O-ring candidate",
+      "fiche_refs": [
+        20,
+        46
+      ],
+      "part": "1C3-23188-R1-00"
+    },
+    {
+      "component": "adjuster gasket candidates",
+      "fiche_refs": [
+        23,
+        49
+      ],
+      "part": "2HH-23158-L0-00"
+    },
+    {
+      "component": "adjuster gasket candidates",
+      "fiche_refs": [
+        24,
+        50
+      ],
+      "part": "276-23114-02-00"
+    },
+    {
+      "component": "listed fork seal kit; contents unconfirmed",
+      "fiche_refs": [
+        61
+      ],
+      "part": "BHR-W003B-00-00"
+    }
+  ],
+  "unknowns": [
+    "Pair counts per individual sealing item require fiche diagram verification.",
+    "Manual copper-washer designation has not been conclusively assigned between the two adjuster gasket references.",
+    "Manual base-valve NEW seal positions need exact mapping to individual O-rings.",
+    "Do not assume fiche name FORK SEAL KIT for B29-23145 includes dust seal or bushings.",
+    "This crosswalk is not a replacement policy for parts outside the OEM NEW markings."
+  ]
+}

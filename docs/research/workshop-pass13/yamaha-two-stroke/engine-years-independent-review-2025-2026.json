@@ -1,0 +1,47 @@
+{
+  "status": "APPROVED_FOR_BOUNDED_RUNTIME",
+  "reviewer": "root independent of author core_flow_repairs",
+  "artifacts": [
+    {
+      "path": "docs\\research\\workshop-pass13\\yamaha-two-stroke\\2025-yz250-top-end-power-valve-bench-v1.procedure.json",
+      "candidate_sha256": "59465143776ce751c2bbf3211f1bf8dd3bda94d13c7707080196da1ba113449f",
+      "source_sha256": "30918eb3f0c0ad42f33814baedc946c9ade6c31403f03a25257d05b0a9267050",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "approved_artifact_sha256": "f8cd12825f2bd13fc4048f06cb66b31555764e103842030154f90b41bcf4c7ac"
+    },
+    {
+      "path": "docs\\research\\workshop-pass13\\yamaha-two-stroke\\2026-yz250-top-end-power-valve-bench-v1.procedure.json",
+      "candidate_sha256": "b75c90d247e5c889cec37899f0b2f0b1f86c33330392a82a301c36a18738b656",
+      "source_sha256": "454ed477eebbdaea52986a21be86225f74e7895e905138881cc21a16bdabf2d2",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "approved_artifact_sha256": "4416b65d0a8159fe189d41c3feaac902ce43f450439e2e67ee2215f926982e83"
+    }
+  ],
+  "review": "Root independently computed whole normalized-text equality on all eleven exact mechanical pages176–186 against already fully reviewed2027source. All28instruction changes compared; only exactentryidentity changes. Spec43differences read;2025missing leaktestpressure not borrowed. Exactcovers previously checked in setupreview.",
+  "rendered_pages_reviewed": {
+    "2025": [
+      177,
+      183
+    ],
+    "2026": [
+      185,
+      186
+    ]
+  },
+  "template_review": "engine-independent-review.json",
+  "full_bike_complete": false,
+  "physical_workshop_validation": false,
+  "freeze_transition": "Only publication/source approval metadata changed after root approval."
+}

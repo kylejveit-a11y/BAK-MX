@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {partOccurrenceSchema,validatePartInventory,type PartOccurrence,type PartsAssembly} from '../shared/parts-inventory.ts';
+const target={manufacturer:'KTM',model:'450 SX-F',model_year:2025,variant:'standard',region:'US'};
+const evidence={url:'https://example.com/catalog',locator:'test fixture'};
+const a:PartsAssembly={id:'frame',target,scope_status:'PENDING',name:'Frame',catalog_evidence:evidence,expected_occurrences:null,enumeration_checked:false,enumeration_review:null};
+const p:PartOccurrence={id:'one',target,scope_status:'PENDING',assembly_id:'frame',callout:'1',alternative_key:'original',part_number:'test',description:'test bolt',quantity:null,quantity_evidence:null,catalog_evidence:evidence,identity_status:'CAPTURED',kind:'FASTENER',supersedes_part_number:null,supersession_evidence:null,specifications:[{property:'torque',status:'UNKNOWN',value:null,unit:null,conditions:[],claim_id:null,evidence:null,review_note:null}]};
+test('partial diagrams and unknown torque never imply complete coverage',()=>{const r=validatePartInventory([a],[p])[0];assert.equal(r.enumeration_complete,false);assert.equal(r.specification_coverage_complete,false);assert.equal(r.open_specifications,1);});
+test('same bolt number remains distinct across assemblies; duplicate callouts rejected',()=>{const b={...a,id:'engine'};assert.equal(validatePartInventory([a,b],[p,{...p,id:'two',assembly_id:'engine'}]).length,2);assert.throws(()=>validatePartInventory([a],[p,{...p,id:'duplicate'}]),/Duplicate/);});
+test('wrong model year and unsupported quantities cannot enter inventory',()=>{assert.throws(()=>validatePartInventory([a],[{...p,target:{...target,model_year:2024}}]),/Cross-target/);assert.throws(()=>partOccurrenceSchema.parse({...p,quantity:1}));});
+test('unknown and not-applicable cannot conceal fabricated specifications',()=>{assert.throws(()=>partOccurrenceSchema.parse({...p,specifications:[{...p.specifications[0],value:'20'}]}));assert.throws(()=>partOccurrenceSchema.parse({...p,specifications:[{...p.specifications[0],status:'NOT_APPLICABLE'}]}));});

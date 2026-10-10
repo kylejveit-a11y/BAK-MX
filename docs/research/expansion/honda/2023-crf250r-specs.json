@@ -1,0 +1,707 @@
+{
+  "target": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2023,
+    "variant": "standard",
+    "region": "US"
+  },
+  "assemblies": [],
+  "parts": [],
+  "facts": [
+    {
+      "id": "honda-2023-crf250r-spec-cylinder-bore-diameter-standard",
+      "property": "dimensions",
+      "joint": "Cylinder bore diameter \u2014 standard",
+      "value": "79.000 - 79.015",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 60; 2-42",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-cylinder-bore-diameter-service-limit",
+      "property": "clearance_wear_limit",
+      "joint": "Cylinder bore diameter \u2014 service limit",
+      "value": "79.100",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 60; 2-42",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-cylinder-sealing-face-warpage-service-limit",
+      "property": "clearance_wear_limit",
+      "joint": "Cylinder sealing face warpage \u2014 service limit",
+      "value": "0.05",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 60; 2-42",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-piston-outside-diameter-standard",
+      "property": "dimensions",
+      "joint": "Piston outside diameter \u2014 standard",
+      "value": "78.975 - 78.985",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure.",
+        "Measure 7.0 mm above the bottom of the piston skirt, following OEM orientation."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 60; 2-42",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-piston-outside-diameter-service-limit",
+      "property": "clearance_wear_limit",
+      "joint": "Piston outside diameter \u2014 service limit",
+      "value": "78.875",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure.",
+        "Measure 7.0 mm above the bottom of the piston skirt, following OEM orientation."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 60; 2-42",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-piston-pin-bore-diameter-standard",
+      "property": "dimensions",
+      "joint": "Piston pin bore diameter \u2014 standard",
+      "value": "16.002 - 16.008",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 60; 2-42",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-piston-pin-bore-diameter-service-limit",
+      "property": "clearance_wear_limit",
+      "joint": "Piston pin bore diameter \u2014 service limit",
+      "value": "16.020",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 60; 2-42",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-piston-pin-outside-diameter-standard",
+      "property": "dimensions",
+      "joint": "Piston pin outside diameter \u2014 standard",
+      "value": "15.994 - 16.000",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 60; 2-42",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-piston-pin-outside-diameter-service-limit",
+      "property": "clearance_wear_limit",
+      "joint": "Piston pin outside diameter \u2014 service limit",
+      "value": "15.980",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 60; 2-42",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-top-piston-ring-end-gap-standard",
+      "property": "clearance_wear_limit",
+      "joint": "Top piston ring end gap \u2014 standard",
+      "value": "0.15 - 0.25",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 60; 2-42",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-top-piston-ring-end-gap-service-limit",
+      "property": "clearance_wear_limit",
+      "joint": "Top piston ring end gap \u2014 service limit",
+      "value": "0.35",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 60; 2-42",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-oil-ring-side-rail-end-gap-standard",
+      "property": "clearance_wear_limit",
+      "joint": "Oil ring side rail end gap \u2014 standard",
+      "value": "0.10 - 0.35",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 60; 2-42",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-oil-ring-side-rail-end-gap-service-limit",
+      "property": "clearance_wear_limit",
+      "joint": "Oil ring side rail end gap \u2014 service limit",
+      "value": "0.55",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 60; 2-42",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-top-ring-to-piston-groove-clearance-standard",
+      "property": "clearance_wear_limit",
+      "joint": "Top ring to piston groove clearance \u2014 standard",
+      "value": "0.015 - 0.045",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 60; 2-42",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-connecting-rod-small-end-diameter-standard",
+      "property": "dimensions",
+      "joint": "Connecting rod small end diameter \u2014 standard",
+      "value": "16.003 - 16.025",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 60; 2-42",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-connecting-rod-small-end-diameter-service-limit",
+      "property": "clearance_wear_limit",
+      "joint": "Connecting rod small end diameter \u2014 service limit",
+      "value": "16.031",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 60; 2-42",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-piston-pin-surface-treatment",
+      "property": "installation",
+      "joint": "Piston pin surface treatment",
+      "value": "Do not polish",
+      "unit": null,
+      "conditions": [],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 60; 2-42",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-clutch-lever-free-play-standard",
+      "property": "dimensions",
+      "joint": "Clutch lever free play \u2014 standard",
+      "value": "10 - 20",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 80; 2-62",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-clutch-friction-disc-thickness-standard",
+      "property": "dimensions",
+      "joint": "Clutch friction disc thickness \u2014 standard",
+      "value": "2.92 - 3.08",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 80; 2-62",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-clutch-friction-disc-thickness-service-limit",
+      "property": "clearance_wear_limit",
+      "joint": "Clutch friction disc thickness \u2014 service limit",
+      "value": "2.85",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 80; 2-62",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-clutch-plate-warpage-service-limit",
+      "property": "clearance_wear_limit",
+      "joint": "Clutch plate warpage \u2014 service limit",
+      "value": "0.10",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 80; 2-62",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-clutch-spring-free-length-standard",
+      "property": "dimensions",
+      "joint": "Clutch spring free length \u2014 standard",
+      "value": "53.13",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 80; 2-62",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-clutch-spring-free-length-service-limit",
+      "property": "clearance_wear_limit",
+      "joint": "Clutch spring free length \u2014 service limit",
+      "value": "52.23",
+      "unit": "mm",
+      "conditions": [
+        "OEM standard engine/components only; inspect using the associated measurement procedure."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 80; 2-62",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-clutch-spring-replacement-grouping",
+      "property": "replacement_rule",
+      "joint": "Clutch spring replacement grouping",
+      "value": "Replace as a set",
+      "unit": null,
+      "conditions": [],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 80; 2-62",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-clutch-friction-disc-and-plate-replacement-grouping",
+      "property": "replacement_rule",
+      "joint": "Clutch friction disc and plate replacement grouping",
+      "value": "Replace as a set",
+      "unit": null,
+      "conditions": [],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 80; 2-62",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-fork-optional-soft-spring-rate",
+      "property": "spring_rate",
+      "joint": "Fork optional soft spring rate",
+      "value": 4.6,
+      "unit": "N/mm",
+      "conditions": [
+        "Applies to the standard R model configuration identified by this table; optional rates are alternatives, not stock specification.",
+        "Factory springs may be unmarked; marks alone do not prove spring identity."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 107; 3-3",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-fork-standard-spring-rate",
+      "property": "spring_rate",
+      "joint": "Fork standard spring rate",
+      "value": 4.8,
+      "unit": "N/mm",
+      "conditions": [
+        "Applies to the standard R model configuration identified by this table; optional rates are alternatives, not stock specification.",
+        "Factory springs may be unmarked; marks alone do not prove spring identity."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 107; 3-3",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-fork-optional-stiff-spring-rate",
+      "property": "spring_rate",
+      "joint": "Fork optional stiff spring rate",
+      "value": 5.0,
+      "unit": "N/mm",
+      "conditions": [
+        "Applies to the standard R model configuration identified by this table; optional rates are alternatives, not stock specification.",
+        "Factory springs may be unmarked; marks alone do not prove spring identity."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 107; 3-3",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-shock-optional-soft-spring-rate",
+      "property": "spring_rate",
+      "joint": "Shock optional soft spring rate",
+      "value": 48.0,
+      "unit": "N/mm",
+      "conditions": [
+        "Applies to the standard R model configuration identified by this table; optional rates are alternatives, not stock specification.",
+        "Factory springs may be unmarked; marks alone do not prove spring identity."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 107; 3-3",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-shock-standard-spring-rate",
+      "property": "spring_rate",
+      "joint": "Shock standard spring rate",
+      "value": 50.0,
+      "unit": "N/mm",
+      "conditions": [
+        "Applies to the standard R model configuration identified by this table; optional rates are alternatives, not stock specification.",
+        "Factory springs may be unmarked; marks alone do not prove spring identity."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 107; 3-3",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-shock-optional-stiff-spring-rate",
+      "property": "spring_rate",
+      "joint": "Shock optional stiff spring rate",
+      "value": 52.0,
+      "unit": "N/mm",
+      "conditions": [
+        "Applies to the standard R model configuration identified by this table; optional rates are alternatives, not stock specification.",
+        "Factory springs may be unmarked; marks alone do not prove spring identity."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 107; 3-3",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-front-tire-pressure",
+      "property": "pressure",
+      "joint": "Front tire pressure",
+      "value": 100.0,
+      "unit": "kPa",
+      "conditions": [
+        "OEM cold-tire baseline; measure tires cold. Terrain and aftermarket tires require contextual review."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 103; 2-85",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-rear-tire-pressure",
+      "property": "pressure",
+      "joint": "Rear tire pressure",
+      "value": 100.0,
+      "unit": "kPa",
+      "conditions": [
+        "OEM cold-tire baseline; measure tires cold. Terrain and aftermarket tires require contextual review."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 103; 2-85",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-front-radial-wheel-rim-runout-service-limit",
+      "property": "clearance_wear_limit",
+      "joint": "Front radial wheel rim runout \u2014 service limit",
+      "value": 1.0,
+      "unit": "mm",
+      "conditions": [],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 103; 2-85",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-front-axial-wheel-rim-runout-service-limit",
+      "property": "clearance_wear_limit",
+      "joint": "Front axial wheel rim runout \u2014 service limit",
+      "value": 1.0,
+      "unit": "mm",
+      "conditions": [],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 103; 2-85",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-rear-radial-wheel-rim-runout-service-limit",
+      "property": "clearance_wear_limit",
+      "joint": "Rear radial wheel rim runout \u2014 service limit",
+      "value": 1.0,
+      "unit": "mm",
+      "conditions": [],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 103; 2-85",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    },
+    {
+      "id": "honda-2023-crf250r-spec-rear-axial-wheel-rim-runout-service-limit",
+      "property": "clearance_wear_limit",
+      "joint": "Rear axial wheel rim runout \u2014 service limit",
+      "value": 1.0,
+      "unit": "mm",
+      "conditions": [],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "locator": "PDF page 103; 2-85",
+      "document_sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+      "document_revision": "2023 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "Exact-year US Honda competition handbook. All four cited table pages rendered and visually checked on 2026-09-13. Values, units, standard versus wear limit, piston measurement depth, cold-tire condition, and standard-R versus optional/RX scope reviewed. Approval covers this bounded fact, not a complete repair procedure or catalog occurrence.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+    }
+  ],
+  "mappings": [],
+  "gaps": [
+    "Catalog occurrence mapping incomplete.",
+    "These four tables do not cover all dimensions, capacities or installation procedures."
+  ],
+  "catalog_complete": false,
+  "scope_confirmed": true,
+  "source_document": {
+    "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+    "sha256": "9572b4ee71a7029b9a78146c4a207bd6ecb763643b9a8ea6cab3584e03757b59",
+    "bytes": 3422734,
+    "torque_pdf_pages": [
+      21,
+      22,
+      23
+    ],
+    "specification_pdf_pages": [
+      60,
+      80,
+      107,
+      103
+    ]
+  },
+  "review": {
+    "reviewer": "bakmx-honda-source-review-20260913",
+    "decision": "APPROVED_NAMED_SPEC_FACTS",
+    "reviewed_pdf_pages": [
+      60,
+      80,
+      107,
+      103
+    ],
+    "approval_reference": "docs/research/expansion/honda/SPEC_REVIEW.md"
+  }
+}

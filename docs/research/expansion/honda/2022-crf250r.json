@@ -1,0 +1,1299 @@
+{
+  "target": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2022,
+    "variant": "standard",
+    "region": "US"
+  },
+  "assemblies": [],
+  "parts": [],
+  "facts": [
+    {
+      "id": "honda-2022-crf250r-torque-seat-mounting-bolt",
+      "property": "torque",
+      "joint": "Seat mounting bolt",
+      "value": 10.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "6",
+      "manual_quantity": 2,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 21; printed 2-3; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-radiator-shroud-lower-bolt",
+      "property": "torque",
+      "joint": "Radiator shroud lower bolt",
+      "value": 10.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "6",
+      "manual_quantity": 2,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 21; printed 2-3; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-radiator-shroud-upper-bolt",
+      "property": "torque",
+      "joint": "Radiator shroud upper bolt",
+      "value": 5.2,
+      "unit": "N\u00b7m",
+      "thread_diameter": "5",
+      "manual_quantity": 2,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 21; printed 2-3; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "additional_locators": [
+        "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES"
+      ],
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-side-cover-bolt",
+      "property": "torque",
+      "joint": "Side cover bolt",
+      "value": 10.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "6",
+      "manual_quantity": 2,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 21; printed 2-3; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-front-number-plate-bolt",
+      "property": "torque",
+      "joint": "Front number plate bolt",
+      "value": 10.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "6",
+      "manual_quantity": 1,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 21; printed 2-3; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-front-disc-cover-bolt",
+      "property": "torque",
+      "joint": "Front disc cover bolt",
+      "value": 13.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "6",
+      "manual_quantity": 2,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 21; printed 2-3; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-engine-guard-bolt",
+      "property": "torque",
+      "joint": "Engine guard bolt",
+      "value": 10.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "6",
+      "manual_quantity": 2,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 21; printed 2-3; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-rear-frame-upper-bolt",
+      "property": "torque",
+      "joint": "Rear frame upper bolt",
+      "value": 32.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "8",
+      "manual_quantity": 2,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 21; printed 2-3; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-rear-frame-lower-bolt",
+      "property": "torque",
+      "joint": "Rear frame lower bolt",
+      "value": 44.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "8",
+      "manual_quantity": 2,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 21; printed 2-3; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-mud-guard-screw",
+      "property": "torque",
+      "joint": "Mud guard screw",
+      "value": 1.5,
+      "unit": "N\u00b7m",
+      "thread_diameter": "5",
+      "manual_quantity": 2,
+      "conditions": [
+        "Tapping screw",
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 21; printed 2-3; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-ecm-cover-socket-bolt",
+      "property": "torque",
+      "joint": "ECM cover socket bolt",
+      "value": 10.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "6",
+      "manual_quantity": 2,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 21; printed 2-3; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-muffler-joint-band-bolt",
+      "property": "torque",
+      "joint": "Muffler joint band bolt",
+      "value": 10.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "6",
+      "manual_quantity": 1,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 21; printed 2-3; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "additional_locators": [
+        "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES"
+      ],
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-exhaust-pipe-joint-nut",
+      "property": "torque",
+      "joint": "Exhaust pipe joint nut",
+      "value": 20.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "8",
+      "manual_quantity": 2,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 21; printed 2-3; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "additional_locators": [
+        "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES"
+      ],
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-battery-terminal-bolt",
+      "property": "torque",
+      "joint": "Battery terminal bolt",
+      "value": 2.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "5",
+      "manual_quantity": 2,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 21; printed 2-3; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-battery-box-lid-bolt",
+      "property": "torque",
+      "joint": "Battery box lid bolt",
+      "value": 5.2,
+      "unit": "N\u00b7m",
+      "thread_diameter": "5",
+      "manual_quantity": 2,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 21; printed 2-3; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-fuel-pump-unit-mounting-nut-crf250r",
+      "property": "torque",
+      "joint": "Fuel pump unit mounting nut (CRF250R)",
+      "value": 11.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "6",
+      "manual_quantity": 4,
+      "conditions": [
+        "For tightening sequence; \uf0e82-16",
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 21; printed 2-3; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-throttle-cable-adjuster-lock-nut",
+      "property": "torque",
+      "joint": "Throttle cable adjuster lock nut",
+      "value": 4.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "6",
+      "manual_quantity": 1,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 21; printed 2-3; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-spark-plug",
+      "property": "torque",
+      "joint": "Spark plug",
+      "value": 22.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "10",
+      "manual_quantity": 1,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 21; printed 2-3; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-crankshaft-hole-cap",
+      "property": "torque",
+      "joint": "Crankshaft hole cap",
+      "value": 15.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "32",
+      "manual_quantity": 1,
+      "conditions": [
+        "Apply grease to the threads.",
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 21; printed 2-3; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-cylinder-head-cover-bolt",
+      "property": "torque",
+      "joint": "Cylinder head cover bolt",
+      "value": 10.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "6",
+      "manual_quantity": 2,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 21; printed 2-3; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-timing-hole-cap",
+      "property": "torque",
+      "joint": "Timing hole cap",
+      "value": 6.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "14",
+      "manual_quantity": 1,
+      "conditions": [
+        "Apply grease to the threads.",
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 21; printed 2-3; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-camshaft-holder-mounting-bolt",
+      "property": "torque",
+      "joint": "Camshaft holder mounting bolt",
+      "value": 13.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "6",
+      "manual_quantity": 7,
+      "conditions": [
+        "Apply engine oil to the threads and seating surface.",
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 21; printed 2-3; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-rocker-arm-shaft-stopper-bolt",
+      "property": "torque",
+      "joint": "Rocker arm shaft stopper bolt",
+      "value": 13.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "6",
+      "manual_quantity": 1,
+      "conditions": [
+        "Apply engine oil to the threads and seating surface.",
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 21; printed 2-3; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-cylinder-head-sealing-bolt",
+      "property": "torque",
+      "joint": "Cylinder head sealing bolt",
+      "value": 14.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "10",
+      "manual_quantity": 3,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-cam-chain-tensioner-mounting-bolt",
+      "property": "torque",
+      "joint": "Cam chain tensioner mounting bolt",
+      "value": 9.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "6",
+      "manual_quantity": 1,
+      "conditions": [
+        "Apply locking agent to the threads.",
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-cam-chain-guide-mounting-bolt",
+      "property": "torque",
+      "joint": "Cam chain guide mounting bolt",
+      "value": 9.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "6",
+      "manual_quantity": 1,
+      "conditions": [
+        "Apply locking agent to the threads.",
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-engine-oil-drain-bolt",
+      "property": "torque",
+      "joint": "Engine oil drain bolt",
+      "value": 23.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "14",
+      "manual_quantity": 1,
+      "conditions": [
+        "Apply engine oil to the threads and seating surface.",
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-cylinder-head-10-mm-bolt",
+      "property": "torque",
+      "joint": "Cylinder head 10 mm bolt",
+      "value": 48.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "10",
+      "manual_quantity": 4,
+      "conditions": [
+        "Apply engine oil to the threads and seating surface.",
+        "Use OEM installation procedure; torque alone is not a complete service instruction.",
+        "Final torque only; follow OEM gradual tightening pattern and sequence. Do not apply final torque in a single uncontrolled step."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-cylinder-head-hanger-bolt",
+      "property": "torque",
+      "joint": "Cylinder head hanger bolt",
+      "value": 54.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "10",
+      "manual_quantity": 2,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-cylinder-head-hanger-plate-bolt",
+      "property": "torque",
+      "joint": "Cylinder head hanger plate bolt",
+      "value": 32.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "8",
+      "manual_quantity": 4,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-rear-axle-nut",
+      "property": "torque",
+      "joint": "Rear axle nut",
+      "value": 128.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "22",
+      "manual_quantity": 1,
+      "conditions": [
+        "Self-lock nut",
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-drive-chain-adjuster-lock-nut",
+      "property": "torque",
+      "joint": "Drive chain adjuster lock nut",
+      "value": 27.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "8",
+      "manual_quantity": 2,
+      "conditions": [
+        "UBS nut",
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-upper-drive-chain-roller-bolt",
+      "property": "torque",
+      "joint": "Upper drive chain roller bolt",
+      "value": 12.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "8",
+      "manual_quantity": 1,
+      "conditions": [
+        "Replace with a new one.",
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-lower-drive-chain-roller-nut",
+      "property": "torque",
+      "joint": "Lower drive chain roller nut",
+      "value": 12.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "6",
+      "manual_quantity": 1,
+      "conditions": [
+        "Self-lock nut",
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-drive-sprocket-bolt",
+      "property": "torque",
+      "joint": "Drive sprocket bolt",
+      "value": 31.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "8",
+      "manual_quantity": 1,
+      "conditions": [
+        "UBS bolt",
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-driven-sprocket-nut",
+      "property": "torque",
+      "joint": "Driven sprocket nut",
+      "value": 40.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "8",
+      "manual_quantity": 6,
+      "conditions": [
+        "Self-lock nut",
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-front-brake-master-cylinder-reservoir-cover-screw",
+      "property": "torque",
+      "joint": "Front brake master cylinder reservoir cover screw",
+      "value": 1.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "4",
+      "manual_quantity": 2,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-rear-brake-master-cylinder-reservoir-cover-bolt",
+      "property": "torque",
+      "joint": "Rear brake master cylinder reservoir cover bolt",
+      "value": 1.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "4",
+      "manual_quantity": 2,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-brake-hose-oil-bolt",
+      "property": "torque",
+      "joint": "Brake hose oil bolt",
+      "value": 34.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "10",
+      "manual_quantity": 4,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-brake-lever-adjuster-lock-nut",
+      "property": "torque",
+      "joint": "Brake lever adjuster lock nut",
+      "value": 5.9,
+      "unit": "N\u00b7m",
+      "thread_diameter": "5",
+      "manual_quantity": 1,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-rear-brake-master-cylinder-push-rod-lock-nut",
+      "property": "torque",
+      "joint": "Rear brake master cylinder push rod lock nut",
+      "value": 5.9,
+      "unit": "N\u00b7m",
+      "thread_diameter": "6",
+      "manual_quantity": 1,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-clutch-spring-bolt-washer",
+      "property": "torque",
+      "joint": "Clutch spring bolt/washer",
+      "value": 12.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "6",
+      "manual_quantity": 5,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-starter-switch-screw",
+      "property": "torque",
+      "joint": "Starter switch screw",
+      "value": 1.5,
+      "unit": "N\u00b7m",
+      "thread_diameter": "4",
+      "manual_quantity": 1,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-fork-plug-bolt",
+      "property": "torque",
+      "joint": "Fork plug bolt",
+      "value": 1.3,
+      "unit": "N\u00b7m",
+      "thread_diameter": "5",
+      "manual_quantity": 2,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "additional_locators": [
+        "PDF page 23; printed 2-5; ENGINE & FRAME TORQUE VALUES"
+      ],
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-fork-center-bolt-lock-nut",
+      "property": "torque",
+      "joint": "Fork center bolt lock nut",
+      "value": 28.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "14",
+      "manual_quantity": 2,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-fork-center-bolt",
+      "property": "torque",
+      "joint": "Fork center bolt",
+      "value": 69.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "24",
+      "manual_quantity": 2,
+      "conditions": [
+        "Apply locking agent to the threads.",
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-fork-bottom-bridge-pinch-bolt",
+      "property": "torque",
+      "joint": "Fork bottom bridge pinch bolt",
+      "value": 20.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "8",
+      "manual_quantity": 4,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-fork-damper",
+      "property": "torque",
+      "joint": "Fork damper",
+      "value": 76.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "51",
+      "manual_quantity": 2,
+      "conditions": [
+        "\uf0e82-67",
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-fork-bolt",
+      "property": "torque",
+      "joint": "Fork bolt",
+      "value": 30.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "44",
+      "manual_quantity": 2,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-fork-top-bridge-pinch-bolt",
+      "property": "torque",
+      "joint": "Fork top bridge pinch bolt",
+      "value": 22.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "8",
+      "manual_quantity": 4,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-fork-protector-bolt",
+      "property": "torque",
+      "joint": "Fork protector bolt",
+      "value": 7.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "6",
+      "manual_quantity": 6,
+      "conditions": [
+        "Replace with new ones.",
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-front-axle-nut",
+      "property": "torque",
+      "joint": "Front axle nut",
+      "value": 88.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "16",
+      "manual_quantity": 1,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-axle-holder-pinch-bolt",
+      "property": "torque",
+      "joint": "Axle holder pinch bolt",
+      "value": 20.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "8",
+      "manual_quantity": 4,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-front-brake-caliper-mounting-bolt",
+      "property": "torque",
+      "joint": "Front brake caliper mounting bolt",
+      "value": 30.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "8",
+      "manual_quantity": 2,
+      "conditions": [
+        "Apply locking agent to the threads.",
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-handlebar-lower-holder-nut",
+      "property": "torque",
+      "joint": "Handlebar lower holder nut",
+      "value": 44.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "10",
+      "manual_quantity": 2,
+      "conditions": [
+        "Self-lock nut",
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "additional_locators": [
+        "PDF page 23; printed 2-5; ENGINE & FRAME TORQUE VALUES"
+      ],
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-front-spoke",
+      "property": "torque",
+      "joint": "Front spoke",
+      "value": 3.7,
+      "unit": "N\u00b7m",
+      "thread_diameter": "BC3.5",
+      "manual_quantity": 36,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-rear-spoke",
+      "property": "torque",
+      "joint": "Rear spoke",
+      "value": 3.7,
+      "unit": "N\u00b7m",
+      "thread_diameter": "4.5",
+      "manual_quantity": 32,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-front-rear-rim-lock",
+      "property": "torque",
+      "joint": "Front/rear rim lock",
+      "value": 12.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "8",
+      "manual_quantity": 2,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 22; printed 2-4; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-handlebar-upper-holder-bolt",
+      "property": "torque",
+      "joint": "Handlebar upper holder bolt",
+      "value": 22.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "8",
+      "manual_quantity": 4,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 23; printed 2-5; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-shock-absorber-spring-adjuster-lock-nut",
+      "property": "torque",
+      "joint": "Shock absorber spring adjuster lock nut",
+      "value": 44.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "60",
+      "manual_quantity": 1,
+      "conditions": [
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 23; printed 2-5; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    },
+    {
+      "id": "honda-2022-crf250r-torque-shock-absorber-mounting-nut",
+      "property": "torque",
+      "joint": "Shock absorber mounting nut",
+      "value": 44.0,
+      "unit": "N\u00b7m",
+      "thread_diameter": "10",
+      "manual_quantity": 2,
+      "conditions": [
+        "Self-lock nut",
+        "Use OEM installation procedure; torque alone is not a complete service instruction."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "locator": "PDF page 23; printed 2-5; ENGINE & FRAME TORQUE VALUES",
+      "document_sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+      "document_revision": "2022 CRF250R/RX Competition Handbook",
+      "review_status": "APPROVED",
+      "review_note": "OEM exact-year US competition handbook; all torque table pages rendered and visually checked on 2026-09-13. Numeric N\u00b7m, named joint, standard-model scope and row remarks checked; RX/Works-only rows excluded. Approval applies to the named torque fact, not to every catalog occurrence or a complete repair procedure.",
+      "reviewer_id": "bakmx-honda-source-review-20260913",
+      "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+    }
+  ],
+  "mappings": [],
+  "gaps": [
+    "Parts catalog enumeration and exact occurrence mapping incomplete.",
+    "These named fasteners do not cover every engine or chassis fastener.",
+    "Standard torque fallback rules not assigned to parts by thread diameter alone; precise fastener identity and exceptions must be established."
+  ],
+  "catalog_complete": false,
+  "scope_confirmed": true,
+  "source_document": {
+    "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+    "sha256": "6bb82e92779c1a6dab33314b6dcb8b02cf2baf14f43edd13bac088447a7b060d",
+    "bytes": 16830214,
+    "torque_pdf_pages": [
+      21,
+      22,
+      23
+    ]
+  },
+  "review": {
+    "reviewer": "bakmx-honda-source-review-20260913",
+    "decision": "APPROVED_NAMED_TORQUE_FACTS",
+    "reviewed_pdf_pages": [
+      21,
+      22,
+      23
+    ],
+    "approval_reference": "docs/research/expansion/honda/REVIEW.md"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "status": "APPROVED",
+  "correction_kind": "UNSUPPORTED_HOSE_MARK_QUALIFIER_ONLY",
+  "reviewer": "Root independent visual review of exact 2024 PDF75 B-H; core_flow_repairs full-manual text and visual routing audit",
+  "procedure_id": "yamaha-yz450f-2024-frame-bearing-renewal-reassembly-v1",
+  "artifact_sha256": "b6628acf8ba83422ab2eba567569599bdcf953d01d05e419aa4358a04c554604",
+  "document_sha256": "6e784b3b15fe1e131f0e385676ca2873e74d783ee2499ce561e595bcea9ca9be",
+  "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf",
+  "source_pdf_pages": [
+    75
+  ],
+  "step_id": "rear-brake-refit",
+  "old_instruction": "Refit the rear master cylinder with both mounting bolts at 10 Nm, retaining its pushrod/clevis adjustment. Restore the hose to all swingarm holders with paint mark UP, no excessive twist and no interference with the spring. Verify the undisturbed hose metal ends remain against their master/caliper stops. Keep the caliper/bracket supported for wheel insertion; the engine closure step restores pedal pivot and spring. Restore any removed hose-holder mounting screws to 3.5 Nm.",
+  "new_instruction": "Refit the rear master cylinder with both mounting bolts at 10 Nm, retaining its pushrod/clevis adjustment. Restore the hose to all swingarm holders following the illustrated route, no excessive twist and no interference with the spring. Verify the undisturbed hose metal ends remain against their master/caliper stops. Keep the caliper/bracket supported for wheel insertion; the engine closure step restores pedal pivot and spring. Restore any removed hose-holder mounting screws to 3.5 Nm.",
+  "reason": "Exact 2024 rear hose routing source specifies illustrated orientation, metal-end stops and freedom from twist/interference; it does not specify the paint-UP qualifier found in later-year sources. Remove only that unsupported qualifier. Original frozen artifact and saved content identity remain unchanged.",
+  "saved_progress_policy": "Preserve original reviewed content identity; no removed action is newly marked complete. Other routing verifications and diagram acknowledgement remain required.",
+  "physical_validation": false
+}

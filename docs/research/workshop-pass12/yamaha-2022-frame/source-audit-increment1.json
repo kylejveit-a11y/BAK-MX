@@ -1,0 +1,125 @@
+{
+  "status": "INCREMENTAL_EXACT_SOURCE_AUDIT",
+  "source_sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608",
+  "reviewed_text_pages": [
+    35,
+    60,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    87,
+    88,
+    89,
+    90,
+    91,
+    115,
+    116,
+    117,
+    118,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280
+  ],
+  "substantive_changes": [
+    {
+      "pages": [
+        192
+      ],
+      "change": "Exhaust access requires supported shocklower and connectingarmframe bolt removal; explicit refit closure must be added."
+    },
+    {
+      "pages": [
+        194,
+        195,
+        196,
+        197
+      ],
+      "change": "85 Nm pivot; TWO lower brackets plus FOUR shims, projectionsoutward. No75 Nm/nutLS inference from newer manual."
+    },
+    {
+      "pages": [
+        89,
+        90,
+        91
+      ],
+      "change": "Single20 Nm drain, .63/.65/.90 L oil; level2–3minwarm then~1minsettle with checkbolt maximum check; idleflow test retained. Need exact oilcheckbolt refit torque/newwasher source."
+    },
+    {
+      "pages": [
+        35,
+        115,
+        116,
+        117,
+        118
+      ],
+      "change": "Fuelcapcover lifts rearward with bands underseat, not quickfastenersubseat. Seat22 Nm; air-scoop interface grooves/ribs/projections; numberplate band and clutchguide changed."
+    },
+    {
+      "pages": [
+        272,
+        274,
+        60
+      ],
+      "change": "Tank front7 Nm/rear9 Nm; bracket7. Fuelpump remainsassembled. Hose+lead throughguide still explicit."
+    },
+    {
+      "pages": [
+        275,
+        276,
+        68,
+        69
+      ],
+      "change": "ECU and ignition coil mounted near airfiltercase, must release/support before case removal. No rearframe ECU assumption. Throttle sensor/injector connections separately identified."
+    },
+    {
+      "pages": [
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "change": "Completely different launch/mode/stop controls, breatheroutletdown atdowntube, TPS outsidebreather, positiveandnegativeunder crossmember, rear leadtie20mm crosswidth endsuncut, fuelwhite2pin. Do not use newer routing."
+    },
+    {
+      "pages": [
+        87
+      ],
+      "change": "US03269/A-I03264 with listed FI sublead03212 and OBD/GST03249. Same70–80C/1900–2100 rpm."
+    }
+  ],
+  "remaining": [
+    "Visual diagram review and exact joint preparation.",
+    "Engineground terminal identification from head/source with engineagent.",
+    "Cooling level/cap/pressure and retained oilfiller/checkbolt closure.",
+    "Chassis bearingdepth/order/newparts and entire broaderframe sequence."
+  ],
+  "publication": "NO_PROCEDURE_APPROVAL_OR_IMPORT"
+}

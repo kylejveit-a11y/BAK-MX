@@ -1,0 +1,278 @@
+[
+  {
+    "id": "ad731925-0250-4500-8000-000000000001",
+    "applicability": {
+      "manufacturer": "Honda",
+      "model": "CRF250R",
+      "model_year": 2025,
+      "variant": "standard",
+      "region": "US"
+    },
+    "domain": "engine",
+    "statement": "Cold intake clearance: 0.10 ± 0.03 mm. Cold engine; Stock engine and valve train; Not a measurement procedure.",
+    "source": {
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952525omen.pdf",
+      "locator": "Printed page 73; PDF page 79 (zero-based 78), Specifications / Engine / Valve clearance",
+      "document_sha256": "0f7db0137d59183929d1d9aaef7c150c0f00e3b553d139a62a94bd3a862efac0",
+      "retrieved_at": "2026-09-13T06:57:04.490Z",
+      "document_revision": "31K956700_enu; 2025 CRF250R/RX/RWE; copyright 2024",
+      "kind": "document",
+      "reviewed_content": "Cold intake clearance: 0.10 ± 0.03 mm."
+    },
+    "rights": {
+      "basis": "unresolved",
+      "reference": "Public OEM publication inspected locally. Source publication not redistributed. Commercial corpus usage review remains pending.",
+      "commercial_use_approved": false
+    },
+    "review": {
+      "reviewer_id": "codex-root-visual-review-20260913",
+      "reviewed_at": "2026-09-13T06:57:04.490Z",
+      "decision": "pending",
+      "content_checked": true,
+      "scope_checked": true,
+      "conflicts_checked": false,
+      "approval_reference": "Visual inspection of original PDF pages 79 and 42 (printed 73 and 36); independent technical and rights review pending. Hash and scope below identify the inspected input, not approval.",
+      "approved_document_sha256": "0f7db0137d59183929d1d9aaef7c150c0f00e3b553d139a62a94bd3a862efac0",
+      "approved_applicability": {
+        "manufacturer": "Honda",
+        "model": "CRF250R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      }
+    },
+    "has_conflict": false,
+    "conflict_references": [],
+    "status": "STAGED"
+  },
+  {
+    "id": "ad731925-0250-4500-8000-000000000002",
+    "applicability": {
+      "manufacturer": "Honda",
+      "model": "CRF250R",
+      "model_year": 2025,
+      "variant": "standard",
+      "region": "US"
+    },
+    "domain": "engine",
+    "statement": "Cold exhaust clearance: 0.20 ± 0.03 mm. Cold engine; Stock engine and valve train; Not a measurement procedure.",
+    "source": {
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952525omen.pdf",
+      "locator": "Printed page 73; PDF page 79 (zero-based 78), Specifications / Engine / Valve clearance",
+      "document_sha256": "0f7db0137d59183929d1d9aaef7c150c0f00e3b553d139a62a94bd3a862efac0",
+      "retrieved_at": "2026-09-13T06:57:04.490Z",
+      "document_revision": "31K956700_enu; 2025 CRF250R/RX/RWE; copyright 2024",
+      "kind": "document",
+      "reviewed_content": "Cold exhaust clearance: 0.20 ± 0.03 mm."
+    },
+    "rights": {
+      "basis": "unresolved",
+      "reference": "Public OEM publication inspected locally. Source publication not redistributed. Commercial corpus usage review remains pending.",
+      "commercial_use_approved": false
+    },
+    "review": {
+      "reviewer_id": "codex-root-visual-review-20260913",
+      "reviewed_at": "2026-09-13T06:57:04.490Z",
+      "decision": "pending",
+      "content_checked": true,
+      "scope_checked": true,
+      "conflicts_checked": false,
+      "approval_reference": "Visual inspection of original PDF pages 79 and 42 (printed 73 and 36); independent technical and rights review pending. Hash and scope below identify the inspected input, not approval.",
+      "approved_document_sha256": "0f7db0137d59183929d1d9aaef7c150c0f00e3b553d139a62a94bd3a862efac0",
+      "approved_applicability": {
+        "manufacturer": "Honda",
+        "model": "CRF250R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      }
+    },
+    "has_conflict": false,
+    "conflict_references": [],
+    "status": "STAGED"
+  },
+  {
+    "id": "ad731925-0250-4500-8000-000000000003",
+    "applicability": {
+      "manufacturer": "Honda",
+      "model": "CRF250R",
+      "model_year": 2025,
+      "variant": "standard",
+      "region": "US"
+    },
+    "domain": "lubrication",
+    "statement": "Oil capacity after draining alone: 1.05 L. Drain only; not filter replacement or disassembly; OEM fill and level-check procedure still required.",
+    "source": {
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952525omen.pdf",
+      "locator": "Printed page 73; PDF page 79 (zero-based 78), Specifications / Engine oil capacity / After draining",
+      "document_sha256": "0f7db0137d59183929d1d9aaef7c150c0f00e3b553d139a62a94bd3a862efac0",
+      "retrieved_at": "2026-09-13T06:57:04.490Z",
+      "document_revision": "31K956700_enu; 2025 CRF250R/RX/RWE; copyright 2024",
+      "kind": "document",
+      "reviewed_content": "Oil capacity after draining alone: 1.05 L."
+    },
+    "rights": {
+      "basis": "unresolved",
+      "reference": "Public OEM publication inspected locally. Source publication not redistributed. Commercial corpus usage review remains pending.",
+      "commercial_use_approved": false
+    },
+    "review": {
+      "reviewer_id": "codex-root-visual-review-20260913",
+      "reviewed_at": "2026-09-13T06:57:04.490Z",
+      "decision": "pending",
+      "content_checked": true,
+      "scope_checked": true,
+      "conflicts_checked": false,
+      "approval_reference": "Visual inspection of original PDF pages 79 and 42 (printed 73 and 36); independent technical and rights review pending. Hash and scope below identify the inspected input, not approval.",
+      "approved_document_sha256": "0f7db0137d59183929d1d9aaef7c150c0f00e3b553d139a62a94bd3a862efac0",
+      "approved_applicability": {
+        "manufacturer": "Honda",
+        "model": "CRF250R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      }
+    },
+    "has_conflict": false,
+    "conflict_references": [],
+    "status": "STAGED"
+  },
+  {
+    "id": "ad731925-0250-4500-8000-000000000004",
+    "applicability": {
+      "manufacturer": "Honda",
+      "model": "CRF250R",
+      "model_year": 2025,
+      "variant": "standard",
+      "region": "US"
+    },
+    "domain": "lubrication",
+    "statement": "Oil capacity after draining and filter replacement: 1.08 L. Filter replaced; not engine disassembly; OEM fill and level-check procedure still required.",
+    "source": {
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952525omen.pdf",
+      "locator": "Printed page 73; PDF page 79 (zero-based 78), Specifications / Engine oil capacity / After draining and oil filter change",
+      "document_sha256": "0f7db0137d59183929d1d9aaef7c150c0f00e3b553d139a62a94bd3a862efac0",
+      "retrieved_at": "2026-09-13T06:57:04.490Z",
+      "document_revision": "31K956700_enu; 2025 CRF250R/RX/RWE; copyright 2024",
+      "kind": "document",
+      "reviewed_content": "Oil capacity after draining and filter replacement: 1.08 L."
+    },
+    "rights": {
+      "basis": "unresolved",
+      "reference": "Public OEM publication inspected locally. Source publication not redistributed. Commercial corpus usage review remains pending.",
+      "commercial_use_approved": false
+    },
+    "review": {
+      "reviewer_id": "codex-root-visual-review-20260913",
+      "reviewed_at": "2026-09-13T06:57:04.490Z",
+      "decision": "pending",
+      "content_checked": true,
+      "scope_checked": true,
+      "conflicts_checked": false,
+      "approval_reference": "Visual inspection of original PDF pages 79 and 42 (printed 73 and 36); independent technical and rights review pending. Hash and scope below identify the inspected input, not approval.",
+      "approved_document_sha256": "0f7db0137d59183929d1d9aaef7c150c0f00e3b553d139a62a94bd3a862efac0",
+      "approved_applicability": {
+        "manufacturer": "Honda",
+        "model": "CRF250R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      }
+    },
+    "has_conflict": false,
+    "conflict_references": [],
+    "status": "STAGED"
+  },
+  {
+    "id": "ad731925-0250-4500-8000-000000000005",
+    "applicability": {
+      "manufacturer": "Honda",
+      "model": "CRF250R",
+      "model_year": 2025,
+      "variant": "standard",
+      "region": "US"
+    },
+    "domain": "engine",
+    "statement": "Specified idle: 2000 ± 100 rpm. Check using OEM procedure; Do not adjust around an unresolved mechanical fault.",
+    "source": {
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952525omen.pdf",
+      "locator": "Printed page 73; PDF page 79 (zero-based 78), Specifications / Engine / Idle speed",
+      "document_sha256": "0f7db0137d59183929d1d9aaef7c150c0f00e3b553d139a62a94bd3a862efac0",
+      "retrieved_at": "2026-09-13T06:57:04.490Z",
+      "document_revision": "31K956700_enu; 2025 CRF250R/RX/RWE; copyright 2024",
+      "kind": "document",
+      "reviewed_content": "Specified idle: 2000 ± 100 rpm."
+    },
+    "rights": {
+      "basis": "unresolved",
+      "reference": "Public OEM publication inspected locally. Source publication not redistributed. Commercial corpus usage review remains pending.",
+      "commercial_use_approved": false
+    },
+    "review": {
+      "reviewer_id": "codex-root-visual-review-20260913",
+      "reviewed_at": "2026-09-13T06:57:04.490Z",
+      "decision": "pending",
+      "content_checked": true,
+      "scope_checked": true,
+      "conflicts_checked": false,
+      "approval_reference": "Visual inspection of original PDF pages 79 and 42 (printed 73 and 36); independent technical and rights review pending. Hash and scope below identify the inspected input, not approval.",
+      "approved_document_sha256": "0f7db0137d59183929d1d9aaef7c150c0f00e3b553d139a62a94bd3a862efac0",
+      "approved_applicability": {
+        "manufacturer": "Honda",
+        "model": "CRF250R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      }
+    },
+    "has_conflict": false,
+    "conflict_references": [],
+    "status": "STAGED"
+  },
+  {
+    "id": "ad731925-0250-4500-8000-000000000006",
+    "applicability": {
+      "manufacturer": "Honda",
+      "model": "CRF250R",
+      "model_year": 2025,
+      "variant": "standard",
+      "region": "US"
+    },
+    "domain": "maintenance",
+    "statement": "Honda bases its schedule on average riding conditions and calls for more frequent service under severe use. No universal failure deadline inferred; Individual task frequencies require visual table review.",
+    "source": {
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952525omen.pdf",
+      "locator": "Printed page 36; PDF page 42 (zero-based 41), Maintenance Schedule note below table",
+      "document_sha256": "0f7db0137d59183929d1d9aaef7c150c0f00e3b553d139a62a94bd3a862efac0",
+      "retrieved_at": "2026-09-13T06:57:04.490Z",
+      "document_revision": "31K956700_enu; 2025 CRF250R/RX/RWE; copyright 2024",
+      "kind": "document",
+      "reviewed_content": "Honda bases its schedule on average riding conditions and calls for more frequent service under severe use."
+    },
+    "rights": {
+      "basis": "unresolved",
+      "reference": "Public OEM publication inspected locally. Source publication not redistributed. Commercial corpus usage review remains pending.",
+      "commercial_use_approved": false
+    },
+    "review": {
+      "reviewer_id": "codex-root-visual-review-20260913",
+      "reviewed_at": "2026-09-13T06:57:04.490Z",
+      "decision": "pending",
+      "content_checked": true,
+      "scope_checked": true,
+      "conflicts_checked": false,
+      "approval_reference": "Visual inspection of original PDF pages 79 and 42 (printed 73 and 36); independent technical and rights review pending. Hash and scope below identify the inspected input, not approval.",
+      "approved_document_sha256": "0f7db0137d59183929d1d9aaef7c150c0f00e3b553d139a62a94bd3a862efac0",
+      "approved_applicability": {
+        "manufacturer": "Honda",
+        "model": "CRF250R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      }
+    },
+    "has_conflict": false,
+    "conflict_references": [],
+    "status": "STAGED"
+  }
+]

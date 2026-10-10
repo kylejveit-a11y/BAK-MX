@@ -1,0 +1,35 @@
+{
+  "status": "APPROVED",
+  "document_sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608",
+  "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2022,
+    "region": "US",
+    "variant": "standard"
+  },
+  "artifacts": [
+    {
+      "path": "engine-removal-refit-v1.procedure.json",
+      "sha256": "cbf8d699bd55eea9bd8d5ba98c459829dc8aa94110736340679fc3b4f5f2244a",
+      "reviewed_candidate_sha256": "1b1317fcac0fb0ad78f481b46fbead4d48176e885a19c08e93b1f23607d1215e"
+    }
+  ],
+  "reviewers": [
+    {
+      "id": "root",
+      "review": "All72 instructions plus exact source56/102/118/178/274 and visual115/272, earlier192/194/196/275; approved subject independent peer, now satisfied."
+    },
+    {
+      "id": "yamaha_workshop_evidence",
+      "review": "All72 instructions, verifications and metadata; exact text35/36/47/55–57/63/65/69/71/87–91/93/97–98/102/115–118/149/151/153–155/174–175/178/182–184/192/194–198/228/263–266/272–276/278; visual62/64/68/70/174/178/192/194/195/197/272/275 plus earlier206/232. No mechanical corrections."
+    }
+  ],
+  "limits": [
+    "ECU mounting conflict preserved; mounts untouched and actual retained-assembly clearance required.",
+    "Exact oil-check-bolt closure document required before dismantling; no prescribed torque invented.",
+    "No physical repair or vehicle validation performed."
+  ],
+  "freeze_changes": "Approval/status/review metadata only; reviewed instructions and verifications unchanged."
+}

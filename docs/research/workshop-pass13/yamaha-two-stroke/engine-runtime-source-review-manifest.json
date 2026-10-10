@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED",
+  "sources": [
+    {
+      "id": "yamaha-us-2027-yz250-oem",
+      "source_id": "yamaha-us-2027-yz250-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D69-2819U-12_02.pdf",
+      "sha256": "79dc2b20faec6f0040fea0606a193af63b1e15e6f5f8e57cc4dad1905dec13d5",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\D69-2819U-12_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\D69-2819U-12_02.pdf"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2027-yz250-top-end-power-valve-bench-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "0c3d1de84dd5067ecd7ca8df57415bf5484457ec2473c2a21976a010016d280b",
+      "source_id": "yamaha-us-2027-yz250-oem",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2027,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 28
+    }
+  ],
+  "independent_review": {
+    "path": "docs/research/workshop-pass13/yamaha-two-stroke/engine-independent-review.json",
+    "sha256": "160aa80fb1bca016c40e6b88f6962d2612770e6d7d06f1f4623461cbdcd291f0"
+  }
+}

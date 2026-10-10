@@ -1,0 +1,13 @@
+{
+  "revision_kind": "ROOT_REQUESTED_POSTFREEZE_SOURCE_CLARIFICATION",
+  "artifact": "front-wheel-bearing-renewal-v1.procedure.json",
+  "previous_sha256": "198df9f844131110312bf62bc26e8dd3b5d6f37676122ed413832930e1dfaeb0",
+  "final_sha256": "02d29281dcabec4bf8241d29786a4bc6f023058d024f359b2af07af6e1a7ba93",
+  "reviewer": "root",
+  "source_pdf_page": 25,
+  "source_printed_page": "1-13",
+  "affected_steps": ["left-bearing", "spacer-right"],
+  "change": "Both new bearings must have manufacturer marks or size symbols facing outward. Added general-source locator and supplementary review metadata. No other mechanical change.",
+  "status": "APPROVED",
+  "physical_validation": false
+}

@@ -1,0 +1,341 @@
+{
+  "reviewed_at": "2026-09-13T18:07:57.080201+00:00",
+  "notes": "Explicit recovery-only 3106 reviewed facts and four finalized catalogs. Frozen wave one is untouched. Pending-market catalogs do not gain US approval.",
+  "sources": [
+    {
+      "file": "gasgas/mc-250f-2025-catalog-fields.json",
+      "facts": true,
+      "catalog": false,
+      "reviewed_at": "2026-09-13T18:07:57.080201+00:00",
+      "fields": true,
+      "review_file": "gasgas/mc-250f-2025-catalog-fields.REVIEW.md",
+      "documents": {
+        "dd3a4950bbaadb816619642f414b2d985336d205a463dd3ece056172fdd85800": "docs/research/expansion/gasgas/source-captures/dd3a4950bbaadb816619642f414b2d985336d205a463dd3ece056172fdd85800.json",
+        "4f0abf884bcde8cfc9ac6d6274f818dffa5bd9e9d9b3d82f08c2cf4ea770dde0": "docs/research/expansion/gasgas/source-captures/4f0abf884bcde8cfc9ac6d6274f818dffa5bd9e9d9b3d82f08c2cf4ea770dde0.json",
+        "c107b8f91bcfd35232ea32206d1d04291c0ad90b6bdd9a27b4e4e182970ba9a3": "docs/research/expansion/gasgas/source-captures/c107b8f91bcfd35232ea32206d1d04291c0ad90b6bdd9a27b4e4e182970ba9a3.json",
+        "e1fd0dba699937e6511a0ebe289d90e8c4d72065ccedb6f25d6b8f0deb6dbbc5": "docs/research/expansion/gasgas/source-captures/e1fd0dba699937e6511a0ebe289d90e8c4d72065ccedb6f25d6b8f0deb6dbbc5.json",
+        "699c63df4435696c2ddcd146db3ee628ce3743280cf73faf9bb5140d3423cd43": "docs/research/expansion/gasgas/source-captures/699c63df4435696c2ddcd146db3ee628ce3743280cf73faf9bb5140d3423cd43.json",
+        "bd1dcc4f5c715a56df10aedabf9c17e9698306118917eae3dd6e0398f8801a5e": "docs/research/expansion/gasgas/source-captures/bd1dcc4f5c715a56df10aedabf9c17e9698306118917eae3dd6e0398f8801a5e.json",
+        "d25d83e64e5ec8b4d766b54c18189725e3bb455e5f09e07c487b1d19a6c0a044": "docs/research/expansion/gasgas/source-captures/d25d83e64e5ec8b4d766b54c18189725e3bb455e5f09e07c487b1d19a6c0a044.json",
+        "b1692403b3af46ca333327f0549245801d2ac38bc038e5b5d71c239cf5aedac0": "docs/research/expansion/gasgas/source-captures/b1692403b3af46ca333327f0549245801d2ac38bc038e5b5d71c239cf5aedac0.json",
+        "8698858f7d6463d43b4c703040fa55a13649e957ff579db503ac08534809cac6": "docs/research/expansion/gasgas/source-captures/8698858f7d6463d43b4c703040fa55a13649e957ff579db503ac08534809cac6.json",
+        "0cd83a56acf213d72cd5992503b044bd6f71cad70389575874a55dc6c6d4c079": "docs/research/expansion/gasgas/source-captures/0cd83a56acf213d72cd5992503b044bd6f71cad70389575874a55dc6c6d4c079.json",
+        "7eb502fbbce71d57ea1680b0fc3b65f43103f2916a5521d130ee70a4df9b56c7": "docs/research/expansion/gasgas/source-captures/7eb502fbbce71d57ea1680b0fc3b65f43103f2916a5521d130ee70a4df9b56c7.json",
+        "6424975a500ae7436f7dc42924f9589f0a3832748c8557b1ba621fe8bdb45eda": "docs/research/expansion/gasgas/source-captures/6424975a500ae7436f7dc42924f9589f0a3832748c8557b1ba621fe8bdb45eda.json",
+        "dfd9fd7e0f42cb797001fbb2708c44e8a1c391edb40db34456484fbe380a3018": "docs/research/expansion/gasgas/source-captures/dfd9fd7e0f42cb797001fbb2708c44e8a1c391edb40db34456484fbe380a3018.json",
+        "f6e17e370e808557cf1741aaef344094ad620197cd83abb7b6228382c5167179": "docs/research/expansion/gasgas/source-captures/f6e17e370e808557cf1741aaef344094ad620197cd83abb7b6228382c5167179.json",
+        "3308696bcb8c21d884eb9937861b3d3cea73326fc5cdc3740f0332464c0d6803": "docs/research/expansion/gasgas/source-captures/3308696bcb8c21d884eb9937861b3d3cea73326fc5cdc3740f0332464c0d6803.json",
+        "f0ec313262c6470129521b626fb0cf46deeb2483915476673af144e127f00990": "docs/research/expansion/gasgas/source-captures/f0ec313262c6470129521b626fb0cf46deeb2483915476673af144e127f00990.json",
+        "c02bb57004c0c583607dabcb855cb66b72d8f3b634d1f249c549d16860e5d771": "docs/research/expansion/gasgas/source-captures/c02bb57004c0c583607dabcb855cb66b72d8f3b634d1f249c549d16860e5d771.json",
+        "6717e99d093cf39ac494d6551d97a5c543245e0c4d69f9a2032cd4dd92e57d44": "docs/research/expansion/gasgas/source-captures/6717e99d093cf39ac494d6551d97a5c543245e0c4d69f9a2032cd4dd92e57d44.json",
+        "dda4aeeec43ebf3b311e89a52c04abe30ca9188d186a32f2f3ba5736588dc917": "docs/research/expansion/gasgas/source-captures/dda4aeeec43ebf3b311e89a52c04abe30ca9188d186a32f2f3ba5736588dc917.json",
+        "51afe49a7126faa45b778be909d7fc3b6412f195241626370d88154347f70a42": "docs/research/expansion/gasgas/source-captures/51afe49a7126faa45b778be909d7fc3b6412f195241626370d88154347f70a42.json",
+        "935a7bd30c9a8258cfbc1d0d1b732018d561bcf84e7f3fbed871cc93d3d2c9cc": "docs/research/expansion/gasgas/source-captures/935a7bd30c9a8258cfbc1d0d1b732018d561bcf84e7f3fbed871cc93d3d2c9cc.json",
+        "7a831383a47c351fb263e1164955befc84ea559d3e847ec9891092d7cf068f9c": "docs/research/expansion/gasgas/source-captures/7a831383a47c351fb263e1164955befc84ea559d3e847ec9891092d7cf068f9c.json",
+        "a49f14210e32f898b5996766704d753f2408bdb6fbb569645ba4e674b025f296": "docs/research/expansion/gasgas/source-captures/a49f14210e32f898b5996766704d753f2408bdb6fbb569645ba4e674b025f296.json",
+        "cfa0137e8cbc827995367861b8ade06eb8030da5db993bb665e867ecfe76c0c5": "docs/research/expansion/gasgas/source-captures/cfa0137e8cbc827995367861b8ade06eb8030da5db993bb665e867ecfe76c0c5.json",
+        "b8055556d91400a00200d1ce4ce7cd328650344e993bfe073cdc6b9d1d4479b8": "docs/research/expansion/gasgas/source-captures/b8055556d91400a00200d1ce4ce7cd328650344e993bfe073cdc6b9d1d4479b8.json",
+        "85efa867572a213abe8fde44544102efa9ca7f4eaa9be85d0a0f9e57d21bd6f5": "docs/research/expansion/gasgas/source-captures/85efa867572a213abe8fde44544102efa9ca7f4eaa9be85d0a0f9e57d21bd6f5.json",
+        "47358a0cd4d3d5b97e9388c5dec226bbac52f04b4f7830a0f9ff99c80366200c": "docs/research/expansion/gasgas/source-captures/47358a0cd4d3d5b97e9388c5dec226bbac52f04b4f7830a0f9ff99c80366200c.json",
+        "71105cbda867cbb28af450e323a37d576c1fe73f764751a60d14c8b8dd110c14": "docs/research/expansion/gasgas/source-captures/71105cbda867cbb28af450e323a37d576c1fe73f764751a60d14c8b8dd110c14.json",
+        "50ff603b1f4ae5670a5fcb4f4f0a822887b1606212525cddb72404b2353c9278": "docs/research/expansion/gasgas/source-captures/50ff603b1f4ae5670a5fcb4f4f0a822887b1606212525cddb72404b2353c9278.json",
+        "64525aecf52bd1615af37d072ff07e0707520914a6bb6c5a5ed064f488f63aad": "docs/research/expansion/gasgas/source-captures/64525aecf52bd1615af37d072ff07e0707520914a6bb6c5a5ed064f488f63aad.json",
+        "176fce10f2ca1f5522da6c16130cad2f076b4964d74be863750a3d2db361acb8": "docs/research/expansion/gasgas/source-captures/176fce10f2ca1f5522da6c16130cad2f076b4964d74be863750a3d2db361acb8.json",
+        "3809a1c8b0f5a237eaae76edfa9df7c2f6a3b88a9d14a82b012f462216bc0169": "docs/research/expansion/gasgas/source-captures/3809a1c8b0f5a237eaae76edfa9df7c2f6a3b88a9d14a82b012f462216bc0169.json",
+        "24d3f4890b96af9d133074d03bdba7903088538bd0403a98e8f432e18b2bb83c": "docs/research/expansion/gasgas/source-captures/24d3f4890b96af9d133074d03bdba7903088538bd0403a98e8f432e18b2bb83c.json",
+        "7143c5be7e5d3f74647a776f0f1e2ecd6738442d53c47900683cebb62e3734b8": "docs/research/expansion/gasgas/source-captures/7143c5be7e5d3f74647a776f0f1e2ecd6738442d53c47900683cebb62e3734b8.json",
+        "a748990effd729d048abbca46cd3f00d37c6ec3f3ebc12220428e798ebaa762f": "docs/research/expansion/gasgas/source-captures/a748990effd729d048abbca46cd3f00d37c6ec3f3ebc12220428e798ebaa762f.json",
+        "a94e8c42470293aa1ab7702582622d63d7cb4540094fddf44701ad30c5e3abcb": "docs/research/expansion/gasgas/source-captures/a94e8c42470293aa1ab7702582622d63d7cb4540094fddf44701ad30c5e3abcb.json",
+        "9fd4f627076432ad59fa217f2850ba740b9284b6a6570b1ffc3d4f39c5f395b9": "docs/research/expansion/gasgas/source-captures/9fd4f627076432ad59fa217f2850ba740b9284b6a6570b1ffc3d4f39c5f395b9.json",
+        "ecbd83375f70e133e76546970ef98cc1da0d863073becd925ab84fe6cb795e79": "docs/research/expansion/gasgas/source-captures/ecbd83375f70e133e76546970ef98cc1da0d863073becd925ab84fe6cb795e79.json",
+        "fd669bc3d65c6c0d2fd06dbc4b2fbdd45a6c1667bc20f0187e54b77f812a7e88": "docs/research/expansion/gasgas/source-captures/fd669bc3d65c6c0d2fd06dbc4b2fbdd45a6c1667bc20f0187e54b77f812a7e88.json",
+        "acb86a4a133925612cae6b9d2ac6bef53807f73eaa707bfbb459a5b59c039fb3": "docs/research/expansion/gasgas/source-captures/acb86a4a133925612cae6b9d2ac6bef53807f73eaa707bfbb459a5b59c039fb3.json",
+        "0890bb382bdfea57daf6f9635aa0d4c44222c2cdc92cac0fdf164c2f66f51147": "docs/research/expansion/gasgas/source-captures/0890bb382bdfea57daf6f9635aa0d4c44222c2cdc92cac0fdf164c2f66f51147.json"
+      }
+    },
+    {
+      "file": "gasgas/mc-450f-2023.json",
+      "facts": false,
+      "catalog": true,
+      "reviewed_at": "2026-09-13T18:07:57.080201+00:00"
+    },
+    {
+      "file": "husqvarna/fc-250-2022-service-specs.json",
+      "facts": true,
+      "catalog": false,
+      "reviewed_at": "2026-09-13T18:07:57.080201+00:00",
+      "fields": false,
+      "review_file": "husqvarna/REVIEW.md",
+      "documents": {
+        "08b00f0b8ef2d728d21d5d028b69e5439c6af3487c0bd972ac593332765b4495": "C:/Users/kylej/AppData/Local/Temp/bakmx-reviewed-documents/08b00f0b8ef2d728d21d5d028b69e5439c6af3487c0bd972ac593332765b4495.pdf"
+      }
+    },
+    {
+      "file": "husqvarna/fc-250-2023-service-specs.json",
+      "facts": true,
+      "catalog": false,
+      "reviewed_at": "2026-09-13T18:07:57.080201+00:00",
+      "fields": false,
+      "review_file": "husqvarna/REVIEW.md",
+      "documents": {
+        "8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325": "C:/Users/kylej/AppData/Local/Temp/bakmx-reviewed-documents/8e46f6f5b9ede84f5074d77608b292099486a188cc0ea91acb4ca339961f6325.pdf"
+      }
+    },
+    {
+      "file": "husqvarna/fc-250-2024-service-specs.json",
+      "facts": true,
+      "catalog": false,
+      "reviewed_at": "2026-09-13T18:07:57.080201+00:00",
+      "fields": false,
+      "review_file": "husqvarna/REVIEW.md",
+      "documents": {
+        "b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450": "C:/Users/kylej/AppData/Local/Temp/bakmx-reviewed-documents/b2f63b24d51d06ae441ab280c50e421bfb629cb04a75a92680da237439979450.pdf"
+      }
+    },
+    {
+      "file": "husqvarna/fc-250-2025-service-specs.json",
+      "facts": true,
+      "catalog": false,
+      "reviewed_at": "2026-09-13T18:07:57.080201+00:00",
+      "fields": false,
+      "review_file": "husqvarna/REVIEW.md",
+      "documents": {
+        "864a5f5d45ddb290a93663c87116792836b27e8a99bcd8deaaf0c07b2ef04cf4": "C:/Users/kylej/AppData/Local/Temp/bakmx-reviewed-documents/864a5f5d45ddb290a93663c87116792836b27e8a99bcd8deaaf0c07b2ef04cf4.pdf"
+      }
+    },
+    {
+      "file": "husqvarna/fc-450-2022-catalog-fields.json",
+      "facts": true,
+      "catalog": false,
+      "reviewed_at": "2026-09-13T18:07:57.080201+00:00",
+      "fields": true,
+      "review_file": "husqvarna/fc-450-2022-catalog-fields.REVIEW.md",
+      "documents": {
+        "388dc161ba09a9777ec3e1a75660827e98d04624d07528580c19b3a7c8e25ee9": "docs/research/expansion/husqvarna/source-captures/388dc161ba09a9777ec3e1a75660827e98d04624d07528580c19b3a7c8e25ee9.json",
+        "44613025a66f4982fac155e9299788440d0e4d61f76e22b51475609724bce382": "docs/research/expansion/husqvarna/source-captures/44613025a66f4982fac155e9299788440d0e4d61f76e22b51475609724bce382.json",
+        "60091ba5abf4cf10aabd00cee98285a5e87f2629bbac572b638af70877365823": "docs/research/expansion/husqvarna/source-captures/60091ba5abf4cf10aabd00cee98285a5e87f2629bbac572b638af70877365823.json",
+        "6c36b10add93998ca31e790b99c3815928271e73d88562a38906635b3a0ecf99": "docs/research/expansion/husqvarna/source-captures/6c36b10add93998ca31e790b99c3815928271e73d88562a38906635b3a0ecf99.json",
+        "01df7455df320efac8edcc6f73143c9cf3edb161da3cdeeed2f6b3555d0a9630": "docs/research/expansion/husqvarna/source-captures/01df7455df320efac8edcc6f73143c9cf3edb161da3cdeeed2f6b3555d0a9630.json",
+        "ca99923f9ee093be423241ed4e1d8baaed93a6b3958e9a3a9c075e5b18505c14": "docs/research/expansion/husqvarna/source-captures/ca99923f9ee093be423241ed4e1d8baaed93a6b3958e9a3a9c075e5b18505c14.json",
+        "598f63ac5a812c0bf2c99167e90697cce65c8d65e469a99275bf49d06d472f8e": "docs/research/expansion/husqvarna/source-captures/598f63ac5a812c0bf2c99167e90697cce65c8d65e469a99275bf49d06d472f8e.json",
+        "50211488cd5da1f14ca099fe4dbf499d59acca4e56adaa47ffd2c09978e7736a": "docs/research/expansion/husqvarna/source-captures/50211488cd5da1f14ca099fe4dbf499d59acca4e56adaa47ffd2c09978e7736a.json",
+        "56cd4e0c4dd0ac69b686161d5834d14e9d0d160cc43052d8a4ad8ed0f45d5015": "docs/research/expansion/husqvarna/source-captures/56cd4e0c4dd0ac69b686161d5834d14e9d0d160cc43052d8a4ad8ed0f45d5015.json",
+        "0e331cfb449cd97fa731c8bcfc08365490daa2629578c15118f415c3330070b4": "docs/research/expansion/husqvarna/source-captures/0e331cfb449cd97fa731c8bcfc08365490daa2629578c15118f415c3330070b4.json",
+        "af2a802260cb0ed357df18893d2c00d68b9ddb94ae3ddb06c546e646f75e7d7a": "docs/research/expansion/husqvarna/source-captures/af2a802260cb0ed357df18893d2c00d68b9ddb94ae3ddb06c546e646f75e7d7a.json",
+        "197a01a079a7bd491965f926a39970de3a2ded59984f161fa7bb5e147a7a077a": "docs/research/expansion/husqvarna/source-captures/197a01a079a7bd491965f926a39970de3a2ded59984f161fa7bb5e147a7a077a.json",
+        "f806c12791e8914f5fecc7186d92cb133b4676d683fcc4636c64bc213bea0fe2": "docs/research/expansion/husqvarna/source-captures/f806c12791e8914f5fecc7186d92cb133b4676d683fcc4636c64bc213bea0fe2.json",
+        "10d3f42c19a8db505f3e1e24d28a179faec7a6a500208b71f1e4900433317fa6": "docs/research/expansion/husqvarna/source-captures/10d3f42c19a8db505f3e1e24d28a179faec7a6a500208b71f1e4900433317fa6.json",
+        "4901662f47bdfca6ceac5962dbc4e93c7dce261230df07bc1b856997ebc0c5bc": "docs/research/expansion/husqvarna/source-captures/4901662f47bdfca6ceac5962dbc4e93c7dce261230df07bc1b856997ebc0c5bc.json",
+        "5aac5acd773d9cee98a567c70ab9f056aeb6cf64fed0abde6ecc4f244bd5744f": "docs/research/expansion/husqvarna/source-captures/5aac5acd773d9cee98a567c70ab9f056aeb6cf64fed0abde6ecc4f244bd5744f.json",
+        "4db61d3d665100cba685674199ff5400bb7a060e4b1047ed239acff029343a21": "docs/research/expansion/husqvarna/source-captures/4db61d3d665100cba685674199ff5400bb7a060e4b1047ed239acff029343a21.json",
+        "c48e6ef9aa7ac7d8a120d2fe2d7ac99c18220dc13bd76ade5ec4c0a041547306": "docs/research/expansion/husqvarna/source-captures/c48e6ef9aa7ac7d8a120d2fe2d7ac99c18220dc13bd76ade5ec4c0a041547306.json",
+        "484c409957e0f560d3709f9730c870ad545c232ef8ae23a61080cd4386ab4036": "docs/research/expansion/husqvarna/source-captures/484c409957e0f560d3709f9730c870ad545c232ef8ae23a61080cd4386ab4036.json",
+        "acef0d29cd1461acf5131d4bd0d3fd76cc93fa06944b5550395051679f4e9396": "docs/research/expansion/husqvarna/source-captures/acef0d29cd1461acf5131d4bd0d3fd76cc93fa06944b5550395051679f4e9396.json",
+        "88756377a81aee70b9ab56aef770f332790f030041e80cf1e0ff00a1b798c849": "docs/research/expansion/husqvarna/source-captures/88756377a81aee70b9ab56aef770f332790f030041e80cf1e0ff00a1b798c849.json",
+        "6768837b5be03e70778539f76533d906f11a70c90b0ed32682e0d5083d02b300": "docs/research/expansion/husqvarna/source-captures/6768837b5be03e70778539f76533d906f11a70c90b0ed32682e0d5083d02b300.json",
+        "17fd84297394f1765dc5c9fdc37eb6ccc8dcac80343f8c6fba9ee61c8ebe83c5": "docs/research/expansion/husqvarna/source-captures/17fd84297394f1765dc5c9fdc37eb6ccc8dcac80343f8c6fba9ee61c8ebe83c5.json",
+        "af0d94ddbcaf7abd3485e4d492e2942c04f703c387c7385a4d82e32674e46967": "docs/research/expansion/husqvarna/source-captures/af0d94ddbcaf7abd3485e4d492e2942c04f703c387c7385a4d82e32674e46967.json",
+        "9b3d081931dfdb79b198763bc5503b6fff40cb5f8049b4af2068e758cbea533b": "docs/research/expansion/husqvarna/source-captures/9b3d081931dfdb79b198763bc5503b6fff40cb5f8049b4af2068e758cbea533b.json",
+        "a3065ebc9e8a52e407937ebb3314edeacb5e55c653faba3095ac1d4010aa99c6": "docs/research/expansion/husqvarna/source-captures/a3065ebc9e8a52e407937ebb3314edeacb5e55c653faba3095ac1d4010aa99c6.json",
+        "9bcf639d373733efaf5e986ee806b7f3ec745d815136196061884059d4db32fb": "docs/research/expansion/husqvarna/source-captures/9bcf639d373733efaf5e986ee806b7f3ec745d815136196061884059d4db32fb.json",
+        "2a2e7af4f568c021aee5947b49260ea663412e48c7a47bd48f734daa2e3b9877": "docs/research/expansion/husqvarna/source-captures/2a2e7af4f568c021aee5947b49260ea663412e48c7a47bd48f734daa2e3b9877.json",
+        "567bd11fd80cf4e241cb99ec0f7c794e04baaa9b584dc6e76fda61f9df75055f": "docs/research/expansion/husqvarna/source-captures/567bd11fd80cf4e241cb99ec0f7c794e04baaa9b584dc6e76fda61f9df75055f.json",
+        "7565f2cc98e7c9d927cfbcd490c605181460f068ddbffa2bd893df9ecad206d0": "docs/research/expansion/husqvarna/source-captures/7565f2cc98e7c9d927cfbcd490c605181460f068ddbffa2bd893df9ecad206d0.json",
+        "604dac2b4d2381cecc08a7283f4c639bfcf7f298834a8b74a727257c3e5b64c0": "docs/research/expansion/husqvarna/source-captures/604dac2b4d2381cecc08a7283f4c639bfcf7f298834a8b74a727257c3e5b64c0.json",
+        "c845bd3cf84de28ad960c656dfd42654f731f50a859057c9ee20ea5f0a194e04": "docs/research/expansion/husqvarna/source-captures/c845bd3cf84de28ad960c656dfd42654f731f50a859057c9ee20ea5f0a194e04.json",
+        "16fcc77db2842b8928ee33e0e07c44120b58e2a407aa9e4e7ba5592249b0515a": "docs/research/expansion/husqvarna/source-captures/16fcc77db2842b8928ee33e0e07c44120b58e2a407aa9e4e7ba5592249b0515a.json",
+        "19933e180417adde5c80885474abb9b1d85e8ee4f67d0efbd79d81dab684e2a3": "docs/research/expansion/husqvarna/source-captures/19933e180417adde5c80885474abb9b1d85e8ee4f67d0efbd79d81dab684e2a3.json",
+        "7e30aac5fe64dc434811345c4253204262bc8f188dcefd631bb24e3d57462d93": "docs/research/expansion/husqvarna/source-captures/7e30aac5fe64dc434811345c4253204262bc8f188dcefd631bb24e3d57462d93.json",
+        "b862b53a813b2f32d1b80482825879271de2cddfbb73ba7e676458e9741f2c3b": "docs/research/expansion/husqvarna/source-captures/b862b53a813b2f32d1b80482825879271de2cddfbb73ba7e676458e9741f2c3b.json",
+        "8a07af74dc8f9ef7227e6ae986539d2c167167bdbb28eae2de9d54212cf27c02": "docs/research/expansion/husqvarna/source-captures/8a07af74dc8f9ef7227e6ae986539d2c167167bdbb28eae2de9d54212cf27c02.json",
+        "729b5d36d4346928694090365b9367d1b76c16e93f9a8a1d026a3499af7d0f0a": "docs/research/expansion/husqvarna/source-captures/729b5d36d4346928694090365b9367d1b76c16e93f9a8a1d026a3499af7d0f0a.json",
+        "7d979854a864ffaf34d614102b91fb28c0f6ccea2698cdc9c230e4d526d46c62": "docs/research/expansion/husqvarna/source-captures/7d979854a864ffaf34d614102b91fb28c0f6ccea2698cdc9c230e4d526d46c62.json"
+      }
+    },
+    {
+      "file": "husqvarna/fc-450-2022-service-specs.json",
+      "facts": true,
+      "catalog": false,
+      "reviewed_at": "2026-09-13T18:07:57.080201+00:00",
+      "fields": false,
+      "review_file": "husqvarna/REVIEW.md",
+      "documents": {
+        "be63d58c058b17229af6b7086b33ea06790d0c34bfd6185ecf1a59f093cfc4d7": "C:/Users/kylej/AppData/Local/Temp/bakmx-reviewed-documents/be63d58c058b17229af6b7086b33ea06790d0c34bfd6185ecf1a59f093cfc4d7.pdf"
+      }
+    },
+    {
+      "file": "husqvarna/fc-450-2022.json",
+      "facts": false,
+      "catalog": true,
+      "reviewed_at": "2026-09-13T18:07:57.080201+00:00"
+    },
+    {
+      "file": "husqvarna/fc-450-2023-catalog-fields.json",
+      "facts": true,
+      "catalog": false,
+      "reviewed_at": "2026-09-13T18:07:57.080201+00:00",
+      "fields": true,
+      "review_file": "husqvarna/fc-450-2023-catalog-fields.REVIEW.md",
+      "documents": {
+        "e31ccbd7436a9dd754693c5e9f1b057d18704c1a232a57ebc61e5b811c9f98f3": "docs/research/expansion/husqvarna/source-captures/e31ccbd7436a9dd754693c5e9f1b057d18704c1a232a57ebc61e5b811c9f98f3.json",
+        "58093066f6d9859ba48e4c0d58a98267cc8f9fdb328efbd67a9e923d30643f11": "docs/research/expansion/husqvarna/source-captures/58093066f6d9859ba48e4c0d58a98267cc8f9fdb328efbd67a9e923d30643f11.json",
+        "09a6c9b1d54b1bfa6500b6f109e30fd3318b8faceab6b0acbbb29aa688dbbc45": "docs/research/expansion/husqvarna/source-captures/09a6c9b1d54b1bfa6500b6f109e30fd3318b8faceab6b0acbbb29aa688dbbc45.json",
+        "7d4d671521a30ee0f6b2f90c37623d42ae5bd7f7eaa1d15189fd5ab3828fc28f": "docs/research/expansion/husqvarna/source-captures/7d4d671521a30ee0f6b2f90c37623d42ae5bd7f7eaa1d15189fd5ab3828fc28f.json",
+        "d25f4c16ce3330d92a87db40a90b5c4e9e1324c8875d319a3419bec07a59adca": "docs/research/expansion/husqvarna/source-captures/d25f4c16ce3330d92a87db40a90b5c4e9e1324c8875d319a3419bec07a59adca.json",
+        "5a95e065ee1201c9c553f85f200d0ac2d25d75b801b59477d5e00dae1d9d422b": "docs/research/expansion/husqvarna/source-captures/5a95e065ee1201c9c553f85f200d0ac2d25d75b801b59477d5e00dae1d9d422b.json",
+        "4935049dc7aa98ce85a0f19139a19c3c5c1f75314a5cd73d4c7572b8e08aeb4e": "docs/research/expansion/husqvarna/source-captures/4935049dc7aa98ce85a0f19139a19c3c5c1f75314a5cd73d4c7572b8e08aeb4e.json",
+        "8734239af599f5f9eb07456e438f308f087f2a3e40fb4681d883af30f7bbf080": "docs/research/expansion/husqvarna/source-captures/8734239af599f5f9eb07456e438f308f087f2a3e40fb4681d883af30f7bbf080.json",
+        "dea7dcc1d1a7bbb575bcf35f5fcd119cf6bd22cb9121963bca078e741fa9adcc": "docs/research/expansion/husqvarna/source-captures/dea7dcc1d1a7bbb575bcf35f5fcd119cf6bd22cb9121963bca078e741fa9adcc.json",
+        "4b4e5854e0bad050a3cddf9ea07b4d4dc38940a733ab2344df1fb5477458e0fb": "docs/research/expansion/husqvarna/source-captures/4b4e5854e0bad050a3cddf9ea07b4d4dc38940a733ab2344df1fb5477458e0fb.json",
+        "8f9f496d6c0092c0c5b2287868f2ec24fae0b6173527fa578e3edb20900312f4": "docs/research/expansion/husqvarna/source-captures/8f9f496d6c0092c0c5b2287868f2ec24fae0b6173527fa578e3edb20900312f4.json",
+        "87a753b910a0589860896a4c4c82f5001186eaed4c01315fa5b014864f4316d2": "docs/research/expansion/husqvarna/source-captures/87a753b910a0589860896a4c4c82f5001186eaed4c01315fa5b014864f4316d2.json",
+        "332b6bdce052c898e929f537fddc1df8ce52d761930fa723c599c71237cacfbe": "docs/research/expansion/husqvarna/source-captures/332b6bdce052c898e929f537fddc1df8ce52d761930fa723c599c71237cacfbe.json",
+        "83a82126045724e9c05552abbb2b2dc56dc50d0b01ae2cff2d2917e3015a2596": "docs/research/expansion/husqvarna/source-captures/83a82126045724e9c05552abbb2b2dc56dc50d0b01ae2cff2d2917e3015a2596.json",
+        "76b301577314986946fe73aec230a9106a4046114456f063ecaecfded6474729": "docs/research/expansion/husqvarna/source-captures/76b301577314986946fe73aec230a9106a4046114456f063ecaecfded6474729.json",
+        "4de66790649b485e49165f458a28e7804667fe37fb80e453607e217319b5fb4b": "docs/research/expansion/husqvarna/source-captures/4de66790649b485e49165f458a28e7804667fe37fb80e453607e217319b5fb4b.json",
+        "ac17636bf1b9007cf2dedb19c06b076db127c37853c42a407e2ddf526b551a9e": "docs/research/expansion/husqvarna/source-captures/ac17636bf1b9007cf2dedb19c06b076db127c37853c42a407e2ddf526b551a9e.json",
+        "a56eb42b4072aad6617b9943198d75e14225c91608700b1cfccab81126a79af3": "docs/research/expansion/husqvarna/source-captures/a56eb42b4072aad6617b9943198d75e14225c91608700b1cfccab81126a79af3.json",
+        "51983d7d480e38bf25fa457c47bf8e1c6b274c788adb878e8505bc144dafd2c0": "docs/research/expansion/husqvarna/source-captures/51983d7d480e38bf25fa457c47bf8e1c6b274c788adb878e8505bc144dafd2c0.json",
+        "c3f1b0dadfc89780ca55a71fbae5e6b52b486d190a25be08c841000d30d0d7d7": "docs/research/expansion/husqvarna/source-captures/c3f1b0dadfc89780ca55a71fbae5e6b52b486d190a25be08c841000d30d0d7d7.json",
+        "905a4ee4a44d3ec25ad3ab205375dc51006bb7ea527f535bd45acac40c840b79": "docs/research/expansion/husqvarna/source-captures/905a4ee4a44d3ec25ad3ab205375dc51006bb7ea527f535bd45acac40c840b79.json",
+        "ab11a5cd2220f7f5dd890aa63868065edb875bfcb1eccf08fb35bf07e97262ab": "docs/research/expansion/husqvarna/source-captures/ab11a5cd2220f7f5dd890aa63868065edb875bfcb1eccf08fb35bf07e97262ab.json",
+        "d3d96739ccd3030284541ee5cc88a6a8eadbe9515d94b6cbe27033e711e889df": "docs/research/expansion/husqvarna/source-captures/d3d96739ccd3030284541ee5cc88a6a8eadbe9515d94b6cbe27033e711e889df.json",
+        "9fe1f79417d79b630cd06cdff3d2dff92b1661e220bf272f10916eba87a0c9ca": "docs/research/expansion/husqvarna/source-captures/9fe1f79417d79b630cd06cdff3d2dff92b1661e220bf272f10916eba87a0c9ca.json",
+        "8a5bb30ead3d9a032ce7bd563d826b5aefcced1a925e663c1650556168c2f5e9": "docs/research/expansion/husqvarna/source-captures/8a5bb30ead3d9a032ce7bd563d826b5aefcced1a925e663c1650556168c2f5e9.json",
+        "63183051a77108ebc90287a1ef36b7d266c85ddf4c21021d17a9aa29ab2f3989": "docs/research/expansion/husqvarna/source-captures/63183051a77108ebc90287a1ef36b7d266c85ddf4c21021d17a9aa29ab2f3989.json",
+        "dbfcc0431e62343ef3177e7758df9c70dfe06db36fa588cd013a8ff9991e0af5": "docs/research/expansion/husqvarna/source-captures/dbfcc0431e62343ef3177e7758df9c70dfe06db36fa588cd013a8ff9991e0af5.json",
+        "0e4bf3343226f40138127243d5f28c3e5b7ac95eb5c3078644ce2798c411e9d9": "docs/research/expansion/husqvarna/source-captures/0e4bf3343226f40138127243d5f28c3e5b7ac95eb5c3078644ce2798c411e9d9.json",
+        "416df0b26da995d111a629a21668c28f6e5975c692ea99399fe5ca51cb0103ff": "docs/research/expansion/husqvarna/source-captures/416df0b26da995d111a629a21668c28f6e5975c692ea99399fe5ca51cb0103ff.json",
+        "41f9bfb547537b3cccb282c7a211122e69a2492414111ae0636a5ee9ec86ba07": "docs/research/expansion/husqvarna/source-captures/41f9bfb547537b3cccb282c7a211122e69a2492414111ae0636a5ee9ec86ba07.json",
+        "3c2e4aee3d007e8ffccecec4e1430a9d4faa0a0eafc7857c9fe3f95a4cbde683": "docs/research/expansion/husqvarna/source-captures/3c2e4aee3d007e8ffccecec4e1430a9d4faa0a0eafc7857c9fe3f95a4cbde683.json",
+        "6dc30bad20fda665e259749868bc3f74bf4dfd6408d882ee1a2f2f1676831beb": "docs/research/expansion/husqvarna/source-captures/6dc30bad20fda665e259749868bc3f74bf4dfd6408d882ee1a2f2f1676831beb.json",
+        "52108ed0eb7230087c6849a4afc711ff10c896087c3dc3373ce45ba231ff607d": "docs/research/expansion/husqvarna/source-captures/52108ed0eb7230087c6849a4afc711ff10c896087c3dc3373ce45ba231ff607d.json",
+        "3a97d27ea3fa6a958c476d460ce2ffa154738fe8a31c789fef13ec8442b4f73d": "docs/research/expansion/husqvarna/source-captures/3a97d27ea3fa6a958c476d460ce2ffa154738fe8a31c789fef13ec8442b4f73d.json",
+        "43fb54a67c107473b8709ac04becfd56ecff7296faeb5cad719c4746d9b91bae": "docs/research/expansion/husqvarna/source-captures/43fb54a67c107473b8709ac04becfd56ecff7296faeb5cad719c4746d9b91bae.json",
+        "5b02b145086d118bde8655ceeaf4d326dff0e1ab4c56d125be86c3afdb9fb1c7": "docs/research/expansion/husqvarna/source-captures/5b02b145086d118bde8655ceeaf4d326dff0e1ab4c56d125be86c3afdb9fb1c7.json",
+        "f34b0befd62fc48b4be6b0e01264b81fdecb12ba2779a74690c86e9fafbc2f74": "docs/research/expansion/husqvarna/source-captures/f34b0befd62fc48b4be6b0e01264b81fdecb12ba2779a74690c86e9fafbc2f74.json",
+        "2bcd2e8b2b0be6e96298e6d5aadf1c3bc44df2049567c38be7a73369faa974e1": "docs/research/expansion/husqvarna/source-captures/2bcd2e8b2b0be6e96298e6d5aadf1c3bc44df2049567c38be7a73369faa974e1.json",
+        "dbf224de711150fcace20369637623324b645b7459096c9c2561c513a0ac2231": "docs/research/expansion/husqvarna/source-captures/dbf224de711150fcace20369637623324b645b7459096c9c2561c513a0ac2231.json",
+        "d0fd75b72579502ac04c4bdafe658489b4abbaeba090dc3f09d506eb59232862": "docs/research/expansion/husqvarna/source-captures/d0fd75b72579502ac04c4bdafe658489b4abbaeba090dc3f09d506eb59232862.json"
+      }
+    },
+    {
+      "file": "husqvarna/fc-450-2023-service-specs.json",
+      "facts": true,
+      "catalog": false,
+      "reviewed_at": "2026-09-13T18:07:57.080201+00:00",
+      "fields": false,
+      "review_file": "husqvarna/REVIEW.md",
+      "documents": {
+        "5ce2da1f3a76e5da6de7f97ff60644a408351998d3189b5cd4229a7fc965dd09": "C:/Users/kylej/AppData/Local/Temp/bakmx-reviewed-documents/5ce2da1f3a76e5da6de7f97ff60644a408351998d3189b5cd4229a7fc965dd09.pdf"
+      }
+    },
+    {
+      "file": "husqvarna/fc-450-2023.json",
+      "facts": false,
+      "catalog": true,
+      "reviewed_at": "2026-09-13T18:07:57.080201+00:00"
+    },
+    {
+      "file": "husqvarna/fc-450-2024-catalog-fields.json",
+      "facts": true,
+      "catalog": false,
+      "reviewed_at": "2026-09-13T18:07:57.080201+00:00",
+      "fields": true,
+      "review_file": "husqvarna/fc-450-2024-catalog-fields.REVIEW.md",
+      "documents": {
+        "b6915ff1bfec979021675916fd0eb6592ffb98492a91770c1f6756c33e874826": "docs/research/expansion/husqvarna/source-captures/b6915ff1bfec979021675916fd0eb6592ffb98492a91770c1f6756c33e874826.json",
+        "67a648e043fb99a54c83aff672f7ed886a778d2c2896121bbe371665d8fd92f2": "docs/research/expansion/husqvarna/source-captures/67a648e043fb99a54c83aff672f7ed886a778d2c2896121bbe371665d8fd92f2.json",
+        "67ac33e7b05c3b7cd06c9c4f993837c26efe45c066bf0946fda9c25c8c21cba1": "docs/research/expansion/husqvarna/source-captures/67ac33e7b05c3b7cd06c9c4f993837c26efe45c066bf0946fda9c25c8c21cba1.json",
+        "986878db6647bf617120a21c6e38d80faf5ee01ba915870d24e8e10bfd418ca7": "docs/research/expansion/husqvarna/source-captures/986878db6647bf617120a21c6e38d80faf5ee01ba915870d24e8e10bfd418ca7.json",
+        "5a9b77e268c714ca3841d43f0d0e850facd08b6abc911659cd2517652b360e07": "docs/research/expansion/husqvarna/source-captures/5a9b77e268c714ca3841d43f0d0e850facd08b6abc911659cd2517652b360e07.json",
+        "9c03606c8453a785c61efc8dce760d30bb9802f89303b954aefd6894d3a349fb": "docs/research/expansion/husqvarna/source-captures/9c03606c8453a785c61efc8dce760d30bb9802f89303b954aefd6894d3a349fb.json",
+        "93bf2e9e342a728fa87447a32fc4a69b50cc5015d0c2159d1bc83fca904716d6": "docs/research/expansion/husqvarna/source-captures/93bf2e9e342a728fa87447a32fc4a69b50cc5015d0c2159d1bc83fca904716d6.json",
+        "fac69a19cdb811fb082c0c92558f5cbdc2a87b869d03143eff8cd94de4947272": "docs/research/expansion/husqvarna/source-captures/fac69a19cdb811fb082c0c92558f5cbdc2a87b869d03143eff8cd94de4947272.json",
+        "76c47c921eb8a4771feb3ed2b89cea89fb4f241b970b62609d2a4936b0953917": "docs/research/expansion/husqvarna/source-captures/76c47c921eb8a4771feb3ed2b89cea89fb4f241b970b62609d2a4936b0953917.json",
+        "49177a3d3177708e2eef82a64cff3299afa356945140b56317fa22da0533d2e1": "docs/research/expansion/husqvarna/source-captures/49177a3d3177708e2eef82a64cff3299afa356945140b56317fa22da0533d2e1.json",
+        "81ccf886d471bb0a94f9fd6aef5710ecb539204aa6505aa30a2cf0028072e1d8": "docs/research/expansion/husqvarna/source-captures/81ccf886d471bb0a94f9fd6aef5710ecb539204aa6505aa30a2cf0028072e1d8.json",
+        "e8155009de5d93b4d8272450d461c5e4d931fa993d83233f65e50728bb206190": "docs/research/expansion/husqvarna/source-captures/e8155009de5d93b4d8272450d461c5e4d931fa993d83233f65e50728bb206190.json",
+        "06e1277f2dd8f41fbce60deb0e901533430bd5f6098506dd895eacffeac715f4": "docs/research/expansion/husqvarna/source-captures/06e1277f2dd8f41fbce60deb0e901533430bd5f6098506dd895eacffeac715f4.json",
+        "78a974dc0403a0d074759fd86a26db98b398b91731c7f8d5ec2098a5f4e3b220": "docs/research/expansion/husqvarna/source-captures/78a974dc0403a0d074759fd86a26db98b398b91731c7f8d5ec2098a5f4e3b220.json",
+        "e6e148c478d024657faa63ce8a31dd817cc7bc9f6b37e176e6e24ed55298c263": "docs/research/expansion/husqvarna/source-captures/e6e148c478d024657faa63ce8a31dd817cc7bc9f6b37e176e6e24ed55298c263.json",
+        "fcfad8b5ce4ede56899cd62ec954be6fce6943b215524c9f0811db3980eacb41": "docs/research/expansion/husqvarna/source-captures/fcfad8b5ce4ede56899cd62ec954be6fce6943b215524c9f0811db3980eacb41.json",
+        "5ea65d239a591c663a0aac8cc4a82c5bfbde7e89522f9c74d6a44f60267718f4": "docs/research/expansion/husqvarna/source-captures/5ea65d239a591c663a0aac8cc4a82c5bfbde7e89522f9c74d6a44f60267718f4.json",
+        "0216c34722f8956b166eab59c7cdebaa85661eff7f6e0e53dbd154d7f649bc98": "docs/research/expansion/husqvarna/source-captures/0216c34722f8956b166eab59c7cdebaa85661eff7f6e0e53dbd154d7f649bc98.json",
+        "d53e03b255ffccca69014042de9a438b22c710345d17fff7b1d1e1b7e8d9e9b9": "docs/research/expansion/husqvarna/source-captures/d53e03b255ffccca69014042de9a438b22c710345d17fff7b1d1e1b7e8d9e9b9.json",
+        "ce8a6f508347ecd05330681290fd6f9358f7e02701f2ac85358aedaf8be2fc48": "docs/research/expansion/husqvarna/source-captures/ce8a6f508347ecd05330681290fd6f9358f7e02701f2ac85358aedaf8be2fc48.json",
+        "76cb2bc5983a0a001269b4dce3ff33de7e7b4a1f85727d7c6b620c4ae6c51c46": "docs/research/expansion/husqvarna/source-captures/76cb2bc5983a0a001269b4dce3ff33de7e7b4a1f85727d7c6b620c4ae6c51c46.json",
+        "17d916ae7a94849582c46db149f4c0f27ea92298743ae0f74549279b9b866e96": "docs/research/expansion/husqvarna/source-captures/17d916ae7a94849582c46db149f4c0f27ea92298743ae0f74549279b9b866e96.json",
+        "a71e8f2be1cdf6c6cdc81b518b5365e99f6bb35ded8d55037e5f798a18e9461a": "docs/research/expansion/husqvarna/source-captures/a71e8f2be1cdf6c6cdc81b518b5365e99f6bb35ded8d55037e5f798a18e9461a.json",
+        "f04e1ea71dc6478b30a2e030c4efed5e1e1ff2f21da8a6e3ff32382a15cbe6f8": "docs/research/expansion/husqvarna/source-captures/f04e1ea71dc6478b30a2e030c4efed5e1e1ff2f21da8a6e3ff32382a15cbe6f8.json",
+        "ff05846cdf3db5e4a1793f84ca9034c52ffe3e374a1888ba335559acb8a23383": "docs/research/expansion/husqvarna/source-captures/ff05846cdf3db5e4a1793f84ca9034c52ffe3e374a1888ba335559acb8a23383.json",
+        "71b18d1df32f0aadae7cfff76535bf4d28b4e25eade858c0320bf01f3611f253": "docs/research/expansion/husqvarna/source-captures/71b18d1df32f0aadae7cfff76535bf4d28b4e25eade858c0320bf01f3611f253.json",
+        "4f48133ab9754704aa0482375bdc6b83669f6d5f520f6abf24a83fa30aac8f4b": "docs/research/expansion/husqvarna/source-captures/4f48133ab9754704aa0482375bdc6b83669f6d5f520f6abf24a83fa30aac8f4b.json",
+        "d93008560dff185007fb6cdb6e42f59a26b4a005a0235604a1b8d7adc7a82931": "docs/research/expansion/husqvarna/source-captures/d93008560dff185007fb6cdb6e42f59a26b4a005a0235604a1b8d7adc7a82931.json",
+        "83470f119ead950d116ba6aeec8592ee189e16c47806607670d77857d457b006": "docs/research/expansion/husqvarna/source-captures/83470f119ead950d116ba6aeec8592ee189e16c47806607670d77857d457b006.json",
+        "cfc9f5a10325ba3ffca1ef9d43764df1207518e416fc023b4bd73597f59a3e28": "docs/research/expansion/husqvarna/source-captures/cfc9f5a10325ba3ffca1ef9d43764df1207518e416fc023b4bd73597f59a3e28.json",
+        "5d1f3b6c92d1fac5c8fd9de4e8df8f7e6069f9ea91faf02c9931a8522e5e3d9a": "docs/research/expansion/husqvarna/source-captures/5d1f3b6c92d1fac5c8fd9de4e8df8f7e6069f9ea91faf02c9931a8522e5e3d9a.json",
+        "9b7f39446905a83009c980ec4f527742cd66a77736292c56889d865e33dd1c79": "docs/research/expansion/husqvarna/source-captures/9b7f39446905a83009c980ec4f527742cd66a77736292c56889d865e33dd1c79.json",
+        "9b257851c5ec7a24649c2afaa5f951b9947378a05766cea4361f0095f8c7287b": "docs/research/expansion/husqvarna/source-captures/9b257851c5ec7a24649c2afaa5f951b9947378a05766cea4361f0095f8c7287b.json",
+        "8fa42f45c4e60a2ecc0363f83d8bc1eba1215c6b8a26a8069e3c4a53f9655f08": "docs/research/expansion/husqvarna/source-captures/8fa42f45c4e60a2ecc0363f83d8bc1eba1215c6b8a26a8069e3c4a53f9655f08.json",
+        "74d4e027406d5fe3c308ed836321d3eb2d315e25bc5c7994ce15595f5b430c2d": "docs/research/expansion/husqvarna/source-captures/74d4e027406d5fe3c308ed836321d3eb2d315e25bc5c7994ce15595f5b430c2d.json",
+        "fa5ee2ba8510b04c9ca92309540d8d36cd98708c26343577663f251c639509d8": "docs/research/expansion/husqvarna/source-captures/fa5ee2ba8510b04c9ca92309540d8d36cd98708c26343577663f251c639509d8.json",
+        "680fceecf6ab0995d70fb186d8824dd5552a1e434b684680335861b11e68c3e6": "docs/research/expansion/husqvarna/source-captures/680fceecf6ab0995d70fb186d8824dd5552a1e434b684680335861b11e68c3e6.json",
+        "8c7351fc0ecf49725365a1db3d8519fc6b5fac68fd341062b8727171afc324d0": "docs/research/expansion/husqvarna/source-captures/8c7351fc0ecf49725365a1db3d8519fc6b5fac68fd341062b8727171afc324d0.json",
+        "346c57d7a88a9d29aab42fd70b1a1c223b8b87f326ec2dd46d7ed480629003ee": "docs/research/expansion/husqvarna/source-captures/346c57d7a88a9d29aab42fd70b1a1c223b8b87f326ec2dd46d7ed480629003ee.json",
+        "d098ebd1a2f0404ddb81d1645de693b930bd31da9c512d1d6ea169957ba0e90b": "docs/research/expansion/husqvarna/source-captures/d098ebd1a2f0404ddb81d1645de693b930bd31da9c512d1d6ea169957ba0e90b.json"
+      }
+    },
+    {
+      "file": "husqvarna/fc-450-2024-service-specs.json",
+      "facts": true,
+      "catalog": false,
+      "reviewed_at": "2026-09-13T18:07:57.080201+00:00",
+      "fields": false,
+      "review_file": "husqvarna/REVIEW.md",
+      "documents": {
+        "8e1e462a88c3b0196d4d2431f0c253c217d509b42825404ec009ca6e7c6f2349": "C:/Users/kylej/AppData/Local/Temp/bakmx-reviewed-documents/8e1e462a88c3b0196d4d2431f0c253c217d509b42825404ec009ca6e7c6f2349.pdf"
+      }
+    },
+    {
+      "file": "husqvarna/fc-450-2024.json",
+      "facts": false,
+      "catalog": true,
+      "reviewed_at": "2026-09-13T18:07:57.080201+00:00"
+    },
+    {
+      "file": "husqvarna/fc-450-2025-service-specs.json",
+      "facts": true,
+      "catalog": false,
+      "reviewed_at": "2026-09-13T18:07:57.080201+00:00",
+      "fields": false,
+      "review_file": "husqvarna/REVIEW.md",
+      "documents": {
+        "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b": "C:/Users/kylej/AppData/Local/Temp/bakmx-reviewed-documents/26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b.pdf"
+      }
+    },
+    {
+      "file": "yamaha/2023-yz450f-specs.json",
+      "facts": true,
+      "catalog": false,
+      "reviewed_at": "2026-09-13T18:07:57.080201+00:00",
+      "fields": false,
+      "review_file": "yamaha/REVIEW.md",
+      "documents": {
+        "9a8605e26301ba1d0d1d21e93d23cca721bdcdbece6188775626a8819332aa9f": "C:/Users/kylej/AppData/Local/Temp/bakmx-reviewed-documents/9a8605e26301ba1d0d1d21e93d23cca721bdcdbece6188775626a8819332aa9f.pdf"
+      }
+    },
+    {
+      "file": "yamaha/2024-yz250f-specs.json",
+      "facts": true,
+      "catalog": false,
+      "reviewed_at": "2026-09-13T18:07:57.080201+00:00",
+      "fields": false,
+      "review_file": "yamaha/REVIEW.md",
+      "documents": {
+        "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330": "C:/Users/kylej/AppData/Local/Temp/bakmx-reviewed-documents/e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330.pdf"
+      }
+    }
+  ],
+  "torque_mapping_files": []
+}

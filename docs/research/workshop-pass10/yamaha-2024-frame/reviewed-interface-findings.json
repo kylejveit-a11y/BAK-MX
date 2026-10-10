@@ -1,0 +1,64 @@
+{
+  "status": "SOURCE_REVIEW_IN_PROGRESS",
+  "source_sha256": "6e784b3b15fe1e131f0e385676ca2873e74d783ee2499ce561e595bcea9ca9be",
+  "reviewed": [
+    {
+      "scope": "Engine mounting and shared pivot",
+      "pdf_pages": [
+        201,
+        202,
+        203,
+        204
+      ],
+      "method": "Rendered diagrams201/202 plus text203/204",
+      "findings": [
+        "Four lower brackets (paired plates each side), unlike2025 two.",
+        "Pivot75Nm molybdenum shaft/lithium-soap nut threads and contact; lower53/front bracket34/front mount55/upper bracket34/upper mount45.",
+        "Pedal26Nm with two NEW pivot O-rings and LS; leave clevis pin/cotter undisturbed."
+      ]
+    },
+    {
+      "scope": "Exhaust",
+      "pdf_pages": [
+        198,
+        204,
+        205
+      ],
+      "method": "Exact text; diagram rendering pending",
+      "findings": [
+        "Header7 then10Nm, new port/joint gaskets; bracket20; silencer30x2; both clamps12Nm (not2025 sixteen)."
+      ]
+    },
+    {
+      "scope": "Controls",
+      "pdf_pages": [
+        90,
+        159,
+        160,
+        161
+      ],
+      "method": "Exact text90 and rendered159\u2013161",
+      "findings": [
+        "US YDT90890-03269; coolant70\u201380C, idle1900\u20132100rpm, freeplay3\u20136mm.",
+        "Throttle cable ends/tube LS; housing3.8Nm; master9Nm UP/top bolt first.",
+        "2024 separate start switch at right, 0mm clamp gap, master2mm offset/3mm switch clearance shown; not2025 combinedrightswitch identity."
+      ]
+    },
+    {
+      "scope": "Fluids",
+      "pdf_pages": [
+        47,
+        91,
+        92,
+        93,
+        100,
+        101
+      ],
+      "method": "Exact text read",
+      "findings": [
+        "Oil.94change/.96filter/1.20disassembled; drain10tank20case/new gaskets; flowdecrease IDLEonlystopnone.",
+        "Coolant1.03L1:1, tapwaterflush fullydrain, newwasher10; capcold/settledlevel."
+      ]
+    }
+  ]
+}

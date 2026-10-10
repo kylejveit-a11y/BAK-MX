@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED",
+  "sources": [
+    {
+      "source_id": "yamaha-us-2025-yz450f-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf",
+      "sha256": "5005e7d8492c9482dfe44c6d752609a9a70a836f5b1dc94be3149d5d493de8ac",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\D02-2819U-10_02.pdf",
+      "id": "yamaha-us-2025-yz450f-oem",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\D02-2819U-10_02.pdf"
+    },
+    {
+      "source_id": "mityvac-mv4560-method",
+      "url": "https://cdn.skfmediahub.skf.com/api/public/0901d1968096854e/pdf_preview_medium/0901d1968096854e_pdf_preview_medium.pdf",
+      "sha256": "508a744728dc28c37911bdc206f3e8ec6fe5eb8f11febe74a385bbf1299493cf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\mityvac-MV4560-801625.pdf",
+      "id": "mityvac-mv4560-method",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\mityvac-MV4560-801625.pdf"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "post-rebuild-commissioning-v1.procedure.json",
+      "sha256": "e992baef16dcb9b875c14b407606aaf1b03b20945f0a9f94ebadf1f058664f1a",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "review_status": "APPROVED",
+      "source_id": "yamaha-us-2025-yz450f-oem",
+      "kind": "procedure"
+    }
+  ],
+  "structure_reference": {
+    "path": "docs/research/workshop-pass7/yamaha-commissioning/top-end-break-in-maintenance-v1.procedure.json",
+    "sha256": "e334a0cf7c34bd1fe353f22b144bd231e12a28c50cf2012e52d6739678a48184",
+    "scope": "Sequence structure only. Every2025 mechanical page independently checked."
+  },
+  "independent_review": {
+    "path": "docs/research/workshop-pass9/yamaha-2025-commissioning/independent-review-v1.json",
+    "sha256": "f2fd11f3c15ba75f171bf0f77b30df378ea9f90539f7c7daaa1a9132ee007705",
+    "status": "APPROVED"
+  },
+  "author_review_manifest": {
+    "path": "docs/research/workshop-pass9/yamaha-2025-commissioning/source-review-manifest.json",
+    "sha256": "5424a9a875d482ba249771ee0db838d6f1c1af4f3c46ab569e7ea310c2a4a69c"
+  }
+}

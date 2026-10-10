@@ -1,0 +1,48 @@
+{
+  "status": "APPROVED_FOR_BOUNDED_RUNTIME",
+  "reviewer": "root independent of author yamaha_workshop_evidence",
+  "candidate_sha256": "d8b74c8b6a10296cbbfb6580357003a0f1e462f288024b68fd3ede9ab3924f06",
+  "source_sha256": "1a4cbe46f057fdedfcb50bde0bc7f67180eb649725f8a18f756dd6d12588bec9",
+  "all_steps_read": 24,
+  "source_text_pages_read": [
+    52,
+    220,
+    221,
+    222,
+    223,
+    224,
+    228,
+    232,
+    233,
+    234,
+    235,
+    236,
+    238,
+    239,
+    240,
+    241
+  ],
+  "rendered_pages_reviewed": [
+    219,
+    220,
+    222,
+    228,
+    231,
+    232,
+    234,
+    236,
+    237,
+    238,
+    239,
+    240
+  ],
+  "checks": [
+    "Exact2026source values, tools, original positions, measurement datums/formulas and replacement sets",
+    "Oil-ring excessive-gap whole-set replacement retained; no invented numeric rail tolerance",
+    "Head-bolt oil/grease conflict not resolved or used for reassembly",
+    "Guide renewal/seat machining and titanium valve reuse excluded",
+    "Prepared removed-engine teardown/inspection only, disassembled exit"
+  ],
+  "physical_workshop_validation": false,
+  "full_bike_complete": false
+}

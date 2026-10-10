@@ -1,0 +1,327 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2026-yz450f-clutch-pack-bench-v1",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Inspect and renew the clutch plate stack",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete bounded bench operation from the declared entry state to the declared exit state. Whole-bike access and downstream engine closure are separate dependencies.",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      7,
+      56,
+      249,
+      250,
+      255,
+      256,
+      258,
+      259,
+      260
+    ],
+    "printed_pages": [
+      "Symbols (unnumbered)",
+      "2-9",
+      "5-46",
+      "5-47",
+      "5-52",
+      "5-53",
+      "5-55",
+      "5-56",
+      "5-57"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "All cited operation pages visually reviewed. General symbols and conditional torque rules retained."
+  },
+  "applicability": {
+    "included": "Exact US2026 YZ450F standard stock components only",
+    "excluded": [
+      "Clutch boss nut removal or tightening",
+      "Basket/primary gear replacement",
+      "Hydraulic clutch bleeding"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "affected_components": [
+    "engine",
+    "clutch"
+  ],
+  "required_tools": [
+    {
+      "name": "Micrometer, flat surface plate and feeler gauges"
+    },
+    {
+      "name": "Spring-height measuring tool"
+    },
+    {
+      "name": "Torque wrench accurate at4/10Nm"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "New clutch-cover gasket"
+    },
+    {
+      "name": "New pushrod1 bearing circlip if disassembled"
+    },
+    {
+      "name": "Exact2026 stock friction/steel sets, spring/collars/pressure components as required"
+    },
+    {
+      "name": "Engine oil"
+    }
+  ],
+  "preflight": [
+    "Removed engine supported and oil drained.",
+    "Clutch center nut/basket remain installed throughout."
+  ],
+  "entry_state": [
+    "Removed engine supported and oil drained.",
+    "Clutch center nut/basket remain installed throughout."
+  ],
+  "exit_state": [
+    "Clutch pack and cover installed; oil refill/engine commissioning remain."
+  ],
+  "critical_stop_conditions": [
+    "Any required measurement unresolved or replacement criteria not satisfied.",
+    "Unidentified diagram orientation, missing parts, damage or abnormal binding."
+  ],
+  "material_policy": {
+    "LT": "Locking agent (LOCTITE) per PDF7. Grade unspecified by this manual; no grade inferred.",
+    "lubrication": "Follow each explicit E/M/LS/S application; general dry torque does not override a lubricated joint."
+  },
+  "steps": [
+    {
+      "id": "entry",
+      "title": "Confirm clutch-pack-only scope",
+      "instruction": "Start with the removed engine supported and oil drained. This operation leaves the clutch boss nut, basket and primary gears untouched. The separate boss-nut preparation conflict does not permit loosening that nut during this pack service.",
+      "source_pdf_pages": [
+        249,
+        250,
+        258,
+        259
+      ],
+      "verification": [
+        "Oil drained; center nut/basket remain installed."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=249",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=250",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=258",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=259"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": []
+    },
+    {
+      "id": "cover",
+      "title": "Remove clutch cover and pressure parts",
+      "instruction": "Remove the clutch cover, retaining the two long and four short bolts in their diagram positions, and discard its gasket. Release the six pressure-plate bolts progressively and remove pressure plate1, clutch spring, spring retainer and pressure plate2. Retain their exact face directions.",
+      "source_pdf_pages": [
+        249,
+        260
+      ],
+      "verification": [
+        "Cover and pressure components retained by position."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=249",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=260"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "entry"
+      ]
+    },
+    {
+      "id": "pack-out",
+      "title": "Remove plates and pushrod-end parts",
+      "instruction": "Remove the ball and pushrod1/bearing assembly; renew its circlip if disassembled. Lift out the alternating plates and six collars into their original stack order. Leave the center nut and sleeve installed.",
+      "source_pdf_pages": [
+        249,
+        250,
+        259
+      ],
+      "verification": [
+        "Ball, pushrod/bearing, six collars and17 plates accounted for."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=249",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=250",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=259"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "cover"
+      ]
+    },
+    {
+      "id": "friction",
+      "title": "Inspect and measure friction plates",
+      "instruction": "Inspect all eight friction plates and replace the friction set for damage/wear. Measure thickness at four points on each: both friction types standard2.12\u20132.28mm, wear limit2.02mm. Preserve the four blue-marked type2 and four unpainted type1 identities.",
+      "source_pdf_pages": [
+        250,
+        255
+      ],
+      "verification": [
+        "32 friction thickness measurements and condition decisions recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=250",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=255"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "pack-out"
+      ]
+    },
+    {
+      "id": "steels",
+      "title": "Inspect steel plates and spring",
+      "instruction": "Check all nine steel plates for damage; measure warpage on a surface plate using feeler gauges, limit0.10mm. Replace the steel set for damage/out-of-limit warpage. Inspect spring and retainer; spring free height4.59mm, minimum limit4.36mm. Replace defective items.",
+      "source_pdf_pages": [
+        255,
+        256
+      ],
+      "verification": [
+        "Nine warpage results, spring height and retainer condition saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=255",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=256"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "friction"
+      ]
+    },
+    {
+      "id": "other",
+      "title": "Inspect collars and pressure parts",
+      "instruction": "Replace the six collars as a set for damage/pitting/wear. Replace cracked/damaged pressure plates. Inspect pushrod1, bearing and ball for damage/wear and replace defective parts; preserve the ball and bearing washer arrangement.",
+      "source_pdf_pages": [
+        256,
+        259
+      ],
+      "verification": [
+        "Collars, pressure plates and release-end condition saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=256",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=259"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "steels"
+      ]
+    },
+    {
+      "id": "stack",
+      "title": "Install the exact seventeen-plate stack",
+      "instruction": "Oil the six collars and all plates. Starting at the clutch-boss side, follow the source diagram with alternating steels/frictions:1.0mm steel, blue friction,1.4mm steel, blue friction,1.4mm steel, plain friction,1.4mm steel, plain friction,1.4mm steel, plain friction,1.4mm steel, plain friction,1.4mm steel, blue friction,1.4mm steel, blue friction,1.0mm steel. Confirm four blue/four plain frictions and two thin/seven thick steels.",
+      "source_pdf_pages": [
+        250,
+        259
+      ],
+      "verification": [
+        "17-plate order, both end steels and all six collars verified."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=250",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=259"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "other"
+      ]
+    },
+    {
+      "id": "pushrod",
+      "title": "Restore pushrod-end and pressure plate2",
+      "instruction": "If the bearing was removed from pushrod1, reinstall it with a new circlip. Oil bearing, pushrod1 and ball, then install ball, pushrod1 and pressure plate2 in the illustrated arrangement.",
+      "source_pdf_pages": [
+        259,
+        260
+      ],
+      "verification": [
+        "Ball, bearing, circlip and pressure plate2 restored."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=259",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=260"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "stack"
+      ]
+    },
+    {
+      "id": "spring",
+      "title": "Tighten the pressure assembly",
+      "instruction": "Fit the spring retainer and clutch spring with their exact illustrated face directions, then pressure plate1 and six bolts. Oil bolt threads/contact faces and pressure-plate1 contact surfaces. Tighten all bolts4Nm in a crisscross pattern, then repeat10Nm in a crisscross pattern.",
+      "source_pdf_pages": [
+        260
+      ],
+      "verification": [
+        "Spring/retainer direction and six4Nm-then10Nm results recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=260"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "pushrod"
+      ]
+    },
+    {
+      "id": "close",
+      "title": "Close the clutch cover",
+      "instruction": "Fit a new gasket and cover. Return its two long/four short bolts to the source positions and tighten progressively in a crisscross pattern10Nm. Record that the center nut/basket remained untouched; final oil filling and running checks belong to engine commissioning.",
+      "source_pdf_pages": [
+        249,
+        260
+      ],
+      "verification": [
+        "New gasket, correct bolt lengths and10Nm closure recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=249",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=260"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "spring"
+      ]
+    }
+  ],
+  "reviewed_at": "2026-09-13",
+  "runtime_integration_requirement": "Enforce entry state and record_required. Completion certifies this bounded operation only; no automatic completion of upstream/downstream work."
+}

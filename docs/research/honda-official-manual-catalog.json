@@ -1,0 +1,228 @@
+{
+  "date": "2026-09-13",
+  "source_page": "https://powersports.honda.com/downloads/owners-manuals",
+  "discovery_method": "Public selector HTML and its published client requests; exact model identifiers returned by GetOwnersManualFilters then passed to LoadOwnersManualsForTrims. No inferred document URLs.",
+  "response_caveat": "Response included success:false despite populated result.listing. Every publication must be fetched and checked independently; catalog alone establishes no factual claim.",
+  "documents": [
+    {
+      "manufacturer": "Honda",
+      "model": "CRF250R",
+      "model_year": 2026,
+      "region": "US selector",
+      "variant": "standard target; combined-document section scope must be checked",
+      "title": "2026 CRF250R/RX/RWE Owner's Manual",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952626omen.pdf",
+      "type": "OWNER_MANUAL",
+      "body_verification": "see corresponding extraction report"
+    },
+    {
+      "manufacturer": "Honda",
+      "model": "CRF250R",
+      "model_year": 2026,
+      "region": "US selector",
+      "variant": "standard target; combined-document section scope must be checked",
+      "title": "2026 CRF250R/RX/RWE Competition Handbook",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952626chen.pdf",
+      "type": "COMPETITION_HANDBOOK",
+      "body_verification": "see corresponding extraction report"
+    },
+    {
+      "manufacturer": "Honda",
+      "model": "CRF250R",
+      "model_year": 2025,
+      "region": "US selector",
+      "variant": "standard target; combined-document section scope must be checked",
+      "title": "2025 CRF250R/RX/RWE Competition Handbook",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952525chen.pdf",
+      "type": "COMPETITION_HANDBOOK",
+      "body_verification": "see corresponding extraction report"
+    },
+    {
+      "manufacturer": "Honda",
+      "model": "CRF250R",
+      "model_year": 2025,
+      "region": "US selector",
+      "variant": "standard target; combined-document section scope must be checked",
+      "title": "2025 CRF250R/RX/RWE Owner's Manual",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952525omen.pdf",
+      "type": "OWNER_MANUAL",
+      "body_verification": "see corresponding extraction report"
+    },
+    {
+      "manufacturer": "Honda",
+      "model": "CRF250R",
+      "model_year": 2024,
+      "region": "US selector",
+      "variant": "standard target; combined-document section scope must be checked",
+      "title": "2024 CRF250R/RX Owner's Manual",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952424omen.pdf",
+      "type": "OWNER_MANUAL",
+      "body_verification": "see corresponding extraction report"
+    },
+    {
+      "manufacturer": "Honda",
+      "model": "CRF250R",
+      "model_year": 2024,
+      "region": "US selector",
+      "variant": "standard target; combined-document section scope must be checked",
+      "title": "2024 CRF250R/RX Competition Handbook",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952424chen.pdf",
+      "type": "COMPETITION_HANDBOOK",
+      "body_verification": "see corresponding extraction report"
+    },
+    {
+      "manufacturer": "Honda",
+      "model": "CRF250R",
+      "model_year": 2023,
+      "region": "US selector",
+      "variant": "standard target; combined-document section scope must be checked",
+      "title": "2023 CRF250R/RX Competition Handbook",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+      "type": "COMPETITION_HANDBOOK",
+      "body_verification": "see corresponding extraction report"
+    },
+    {
+      "manufacturer": "Honda",
+      "model": "CRF250R",
+      "model_year": 2023,
+      "region": "US selector",
+      "variant": "standard target; combined-document section scope must be checked",
+      "title": "2023 CRF250R/RX Owner's Manual",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323omen.pdf",
+      "type": "OWNER_MANUAL",
+      "body_verification": "see corresponding extraction report"
+    },
+    {
+      "manufacturer": "Honda",
+      "model": "CRF250R",
+      "model_year": 2022,
+      "region": "US selector",
+      "variant": "standard target; combined-document section scope must be checked",
+      "title": "2022 CRF250R/RX Owner's Manual",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_owner_s_manual.pdf",
+      "type": "OWNER_MANUAL",
+      "body_verification": "see corresponding extraction report"
+    },
+    {
+      "manufacturer": "Honda",
+      "model": "CRF250R",
+      "model_year": 2022,
+      "region": "US selector",
+      "variant": "standard target; combined-document section scope must be checked",
+      "title": "2022 CRF250R/RX Competition Handbook",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf250r_rx_competition_handbook.pdf",
+      "type": "COMPETITION_HANDBOOK",
+      "body_verification": "see corresponding extraction report"
+    },
+    {
+      "manufacturer": "Honda",
+      "model": "CRF450R",
+      "model_year": 2026,
+      "region": "US selector",
+      "variant": "standard target; combined-document section scope must be checked",
+      "title": "2026 CRF450R/RX/RWE Competition Handbook",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf",
+      "type": "COMPETITION_HANDBOOK",
+      "body_verification": "see corresponding extraction report"
+    },
+    {
+      "manufacturer": "Honda",
+      "model": "CRF450R",
+      "model_year": 2026,
+      "region": "US selector",
+      "variant": "standard target; combined-document section scope must be checked",
+      "title": "2026 CRF450R/RX/RWE Owner's Manual",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626omen.pdf",
+      "type": "OWNER_MANUAL",
+      "body_verification": "see corresponding extraction report"
+    },
+    {
+      "manufacturer": "Honda",
+      "model": "CRF450R",
+      "model_year": 2025,
+      "region": "US selector",
+      "variant": "standard target; combined-document section scope must be checked",
+      "title": "2025 CRF450R/RX/RWE Competition Handbook",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2525chen.pdf",
+      "type": "COMPETITION_HANDBOOK",
+      "body_verification": "see corresponding extraction report"
+    },
+    {
+      "manufacturer": "Honda",
+      "model": "CRF450R",
+      "model_year": 2025,
+      "region": "US selector",
+      "variant": "standard target; combined-document section scope must be checked",
+      "title": "2025 CRF450R/RX/RWE Owner's Manual",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2525omen.pdf",
+      "type": "OWNER_MANUAL",
+      "body_verification": "see corresponding extraction report"
+    },
+    {
+      "manufacturer": "Honda",
+      "model": "CRF450R",
+      "model_year": 2024,
+      "region": "US selector",
+      "variant": "standard target; combined-document section scope must be checked",
+      "title": "2024 CRF450R/RX/RWE Owner's Manual",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2424omen.pdf",
+      "type": "OWNER_MANUAL",
+      "body_verification": "see corresponding extraction report"
+    },
+    {
+      "manufacturer": "Honda",
+      "model": "CRF450R",
+      "model_year": 2024,
+      "region": "US selector",
+      "variant": "standard target; combined-document section scope must be checked",
+      "title": "2024 CRF450R/RX/RWE Competition Handbook",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2424chen.pdf",
+      "type": "COMPETITION_HANDBOOK",
+      "body_verification": "see corresponding extraction report"
+    },
+    {
+      "manufacturer": "Honda",
+      "model": "CRF450R",
+      "model_year": 2023,
+      "region": "US selector",
+      "variant": "standard target; combined-document section scope must be checked",
+      "title": "2023 CRF450R/RX/RWE Competition Handbook",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2323chen.pdf",
+      "type": "COMPETITION_HANDBOOK",
+      "body_verification": "see corresponding extraction report"
+    },
+    {
+      "manufacturer": "Honda",
+      "model": "CRF450R",
+      "model_year": 2023,
+      "region": "US selector",
+      "variant": "standard target; combined-document section scope must be checked",
+      "title": "2023 CRF450R/RX/RWE Owner's Manual",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2323omen.pdf",
+      "type": "OWNER_MANUAL",
+      "body_verification": "see corresponding extraction report"
+    },
+    {
+      "manufacturer": "Honda",
+      "model": "CRF450R",
+      "model_year": 2022,
+      "region": "US selector",
+      "variant": "standard target; combined-document section scope must be checked",
+      "title": "2022 CRF450R/RX/RWE Owner's Manual",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r-rx-rwe_owner_s_manual.pdf",
+      "type": "OWNER_MANUAL",
+      "body_verification": "see corresponding extraction report"
+    },
+    {
+      "manufacturer": "Honda",
+      "model": "CRF450R",
+      "model_year": 2022,
+      "region": "US selector",
+      "variant": "standard target; combined-document section scope must be checked",
+      "title": "2022 CRF450R/RX/RWE Competition Handbook",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+      "type": "COMPETITION_HANDBOOK",
+      "body_verification": "see corresponding extraction report"
+    }
+  ]
+}

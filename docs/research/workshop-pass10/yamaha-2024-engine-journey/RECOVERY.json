@@ -1,0 +1,20 @@
+{
+  "status": "TOPEND167_APPROVED_MAJOR_PENDING",
+  "artifacts": [
+    {
+      "path": "top-end-bike-journey-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "aec5a389809767bdf26b2cd140fe48e87f0121f3e037fbcc4a4e732f77c25cf1",
+      "source_id": "yamaha-2024-bhr",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 167
+    }
+  ],
+  "next": "Build major214 from approved lower47 and independently review composition."
+}

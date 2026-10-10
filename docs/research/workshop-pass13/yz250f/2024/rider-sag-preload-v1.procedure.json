@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2024-yz250f-rider-sag-preload-v1",
+  "title": "Set rider sag and stock spring preload",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ250F",
+    "model_year": 2024,
+    "variant": "standard",
+    "region": "US"
+  },
+  "scope_confirmed": true,
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "publication_status": "APPROVED",
+  "component": "shock",
+  "affected_components": [
+    "shock",
+    "suspension"
+  ],
+  "applicability": {
+    "included": "Exact standard US 2024 Yamaha YZ250F with original stock suspension.",
+    "excluded": [
+      "Other years, modified valving, replacement shock/fork assemblies or springs",
+      "Spring replacement or internal shock service"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "entry_state": [
+    "Assembled bike with identified original components and serviceable suspension."
+  ],
+  "exit_state": [
+    "Rider sag and spring preload measured, adjusted within stock limits and recorded, with locknut secured."
+  ],
+  "preflight": [
+    "Use the exact-year diagrams to identify the adjusters and measurement points.",
+    "Record current setup before changing it; do not force an adjuster past its stop.",
+    "The stock preload ring and locknut must be reachable with suitable tools on the assembled bike. This guide does not remove or refit bodywork, the rear frame or the shock; complete any required access service separately before using it."
+  ],
+  "critical_stop_conditions": [
+    "Unidentified component or adjuster; leaks, damage or binding; target setting cannot be reached within actual travel."
+  ],
+  "required_tools": [
+    {
+      "name": "Stable maintenance stand"
+    },
+    {
+      "name": "Millimeter tape or sag gauge"
+    },
+    {
+      "name": "Tools fitting the stock preload ring and locknut"
+    },
+    {
+      "name": "Helper"
+    }
+  ],
+  "required_parts": [],
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+    "document_sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+    "document_revision": "BMF-2819U-10 / LIT-11626-37-44; First edition June 2023",
+    "pdf_pages": [
+      1,
+      4,
+      113,
+      114,
+      378,
+      379
+    ],
+    "printed_pages": [
+      "1: front matter",
+      "4: front matter",
+      "113: 3-31",
+      "114: 3-32",
+      "378: 10-3",
+      "379: 10-4"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Root independent review approved exact-year settings and diagrams; assembled preload access prerequisite preserved. Physical validation remains outstanding."
+  },
+  "steps": [
+    {
+      "id": "inspect",
+      "title": "Prepare the measurement",
+      "instruction": "Check the shock for leaks and verify smooth suspension/linkage movement. Use level ground and a helper to stabilize the bike and take consistent readings.",
+      "source_pdf_pages": [
+        113
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf#page=113"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Save the actual measurements or setting and outcome."
+      ],
+      "depends_on": []
+    },
+    {
+      "id": "unloaded",
+      "title": "Measure the unloaded bike",
+      "instruction": "Support the bike under the engine so the rear wheel is off the floor. Measure A from the rear axle center to the molded reference mark on the rear fender shown in the diagram. Use the illustrated points and record the actual millimeters.",
+      "source_pdf_pages": [
+        378
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf#page=378"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Save the actual measurements or setting and outcome."
+      ],
+      "depends_on": [
+        "inspect"
+      ]
+    },
+    {
+      "id": "loaded",
+      "title": "Measure with the rider",
+      "instruction": "Remove the stand and have the rider sit astride the seat as shown. With the bike held upright, measure B between the same axle center and the molded reference mark on the rear fender shown in the diagram. Record the actual millimeters.",
+      "source_pdf_pages": [
+        378
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf#page=378"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Save the actual measurements or setting and outcome."
+      ],
+      "depends_on": [
+        "unloaded"
+      ]
+    },
+    {
+      "id": "assess",
+      "title": "Calculate rider sag",
+      "instruction": "Subtract B from A. The standard difference is 90–100 mm. Record both measurements, the difference and whether it is in range.",
+      "source_pdf_pages": [
+        378
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf#page=378"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Save the actual measurements or setting and outcome."
+      ],
+      "depends_on": [
+        "loaded"
+      ]
+    },
+    {
+      "id": "preload",
+      "title": "Measure and adjust preload",
+      "instruction": "With the rear wheel raised securely, clean dirt from the locknut and adjusting ring. Loosen the locknut and back off the ring until there is clearance to the spring; measure its free length. Turn the ring in diagram direction b to increase preload or c to decrease it. One turn changes installed length by 1.5 mm. Keep compression from free length within 1.5–18.0 mm; the standard starting preload is 5.0 mm. Record free length, installed length and resulting preload.",
+      "source_pdf_pages": [
+        113,
+        114
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf#page=113",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf#page=114"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Save the actual measurements or setting and outcome."
+      ],
+      "depends_on": [
+        "assess"
+      ]
+    },
+    {
+      "id": "lock",
+      "title": "Secure the setting",
+      "instruction": "Tighten the preload locknut against the adjuster to secure the setting before loading the bike.",
+      "source_pdf_pages": [
+        114
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf#page=114"
+      ],
+      "diagram_reference_required": true,
+      "record_required": false,
+      "verification": [
+        "Confirm the action is complete."
+      ],
+      "depends_on": [
+        "preload"
+      ]
+    },
+    {
+      "id": "remeasure",
+      "title": "Repeat and record the result",
+      "instruction": "Repeat the unloaded A and rider-loaded B measurements at the same points. Adjust within the allowed preload range until A minus B is 90–100 mm, tightening the locknut before each loaded measurement. If the target cannot be obtained within the allowed range, the spring must be changed and the setup repeated in a separate replacement operation. Save the final values; reevaluate after break-in.",
+      "source_pdf_pages": [
+        113,
+        114,
+        378,
+        379
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf#page=113",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf#page=114",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf#page=378",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf#page=379"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Save the actual measurements or setting and outcome."
+      ],
+      "depends_on": [
+        "lock"
+      ]
+    }
+  ],
+  "operation_dependencies": [],
+  "completeness": "Rider sag and spring preload measured, adjusted within stock limits and recorded, with locknut secured."
+}

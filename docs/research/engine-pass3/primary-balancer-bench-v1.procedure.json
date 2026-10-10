@@ -1,0 +1,333 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2026-yz450f-primary-balancer-bench-v1",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Service the primary drive and starter clutch",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete bounded bench operation from the declared entry state to the declared exit state. Whole-bike access and downstream engine closure are separate dependencies.",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      7,
+      56,
+      256,
+      269,
+      270,
+      271,
+      272,
+      273
+    ],
+    "review_status": "APPROVED",
+    "review_note": "All cited operation pages visually reviewed. General symbols and conditional torque rules retained.",
+    "printed_pages": [
+      "Symbols (unnumbered)",
+      "2-9",
+      "5-53",
+      "5-66",
+      "5-67",
+      "5-68",
+      "5-69",
+      "5-70"
+    ]
+  },
+  "applicability": {
+    "included": "Exact US2026 YZ450F standard stock components only",
+    "excluded": [
+      "Clutch boss nut operation",
+      "Crankcase opening",
+      "Starter electric motor internals"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "affected_components": [
+    "engine",
+    "primary_drive",
+    "starter_clutch"
+  ],
+  "required_tools": [
+    {
+      "name": "Calibrated torque wrench covering50 and170Nm"
+    },
+    {
+      "name": "Aluminum plate for illustrated gear holding"
+    },
+    {
+      "name": "Clearance measuring tool, circlip tools"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "New balancer lock washer"
+    },
+    {
+      "name": "Engine oil and molybdenum-disulfide grease"
+    },
+    {
+      "name": "Exact stock replacement gears/starter clutch as required"
+    }
+  ],
+  "preflight": [
+    "Right crankcase cover and clutch idle gear removed.",
+    "Crankshaft and balancer installed in closed crankcases."
+  ],
+  "entry_state": [
+    "Right crankcase cover and clutch idle gear removed.",
+    "Crankshaft and balancer installed in closed crankcases."
+  ],
+  "exit_state": [
+    "Primary/balancer/starter-clutch stacks installed and checked; clutch/cover closure still required."
+  ],
+  "critical_stop_conditions": [
+    "Any required measurement unresolved or replacement criteria not satisfied.",
+    "Unidentified diagram orientation, missing parts, damage or abnormal binding."
+  ],
+  "material_policy": {
+    "LT": "Locking agent (LOCTITE) per PDF7. Grade unspecified by this manual; no grade inferred.",
+    "lubrication": "Follow each explicit E/M/LS/S application; general dry torque does not override a lubricated joint."
+  },
+  "steps": [
+    {
+      "id": "entry",
+      "title": "Confirm exposed primary drive",
+      "instruction": "Start with the clutch idle gear and right crankcase cover removed. Record the balancer timing marks and stock gear arrangement. Keep the crankshaft supported in the assembled case.",
+      "source_pdf_pages": [
+        269,
+        270
+      ],
+      "verification": [
+        "Entry state and timing marks recorded."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=269",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=270"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": []
+    },
+    {
+      "id": "unlock",
+      "title": "Release both gear nuts",
+      "instruction": "Straighten the balancer lock-washer tab. Insert an aluminum plate between the illustrated balancer drive and driven gear teeth to hold them while loosening the balancer-driven and primary-drive nuts. Do not replace the plate with a hardened tool.",
+      "source_pdf_pages": [
+        271
+      ],
+      "verification": [
+        "Nuts released without tooth damage."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=271"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "entry"
+      ]
+    },
+    {
+      "id": "remove",
+      "title": "Remove the primary and balancer stacks",
+      "instruction": "Remove nuts and washer, primary gear, collar, starter reduction gear, circlip, starter clutch and balancer drive gear in the illustrated order. Remove the balancer lock washer, driven gear and oil-pump drive gear. Keep every part identified. Leave the separate damper assembly intact unless separately serviced.",
+      "source_pdf_pages": [
+        269,
+        270
+      ],
+      "verification": [
+        "Both stacks retained; damper intact."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=269",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=270"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "unlock"
+      ]
+    },
+    {
+      "id": "inspect",
+      "title": "Inspect gears and starter clutch",
+      "instruction": "Replace worn/damaged primary, reduction, balancer and oil-pump gears. Primary drive/driven gears are replaced as a set when either is damaged/worn, noisy or has free play. Replace the starter-clutch assembly for burrs, chips, roughness or wear.",
+      "source_pdf_pages": [
+        256,
+        271
+      ],
+      "verification": [
+        "Gear and starter-clutch results saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=256",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=271"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "remove"
+      ]
+    },
+    {
+      "id": "oneway",
+      "title": "Check starter-clutch direction",
+      "instruction": "Fit the starter clutch to the balancer drive gear and then the reduction gear. Viewed exactly as the diagram, turning the balancer drive gear counterclockwise must freewheel; clockwise must engage. Replace the starter clutch if either test fails.",
+      "source_pdf_pages": [
+        271
+      ],
+      "verification": [
+        "Both directional test results recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=271"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "inspect"
+      ]
+    },
+    {
+      "id": "driven",
+      "title": "Set the balancer driven gear",
+      "instruction": "Install oil-pump drive gear and balancer driven gear, aligning the illustrated lower spline on the gear with that on the shaft.",
+      "source_pdf_pages": [
+        271,
+        272
+      ],
+      "verification": [
+        "Lower splines aligned."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=271",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=272"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "oneway"
+      ]
+    },
+    {
+      "id": "drive",
+      "title": "Set balancer timing",
+      "instruction": "Install balancer drive gear with its lower spline aligned to the crankshaft lower spline. Align the punched drive/driven gear timing marks with one another.",
+      "source_pdf_pages": [
+        272
+      ],
+      "verification": [
+        "Both spline and timing-mark alignments recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=272"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "driven"
+      ]
+    },
+    {
+      "id": "clean",
+      "title": "Prepare primary nut surfaces",
+      "instruction": "Thoroughly remove oil from crankshaft threads, washer contact faces and the primary-drive nut threads/contact face before the specified molybdenum-grease application. Do not carry over the2025 primary-nut preparation or torque.",
+      "source_pdf_pages": [
+        272
+      ],
+      "verification": [
+        "Specified surfaces cleaned and oil removed."
+      ],
+      "record_required": false,
+      "diagram_reference_required": false,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=272"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "drive"
+      ]
+    },
+    {
+      "id": "starter-install",
+      "title": "Install the starter clutch and stack",
+      "instruction": "Fit a new balancer lock washer and the balancer nut. Oil the starter clutch and fit its manufacturer mark outward. Verify the illustrated clearance between clutch and balancer drive gear is at least0.7mm. Fit circlip, oiled reduction gear, collar, primary gear and washer in order.",
+      "source_pdf_pages": [
+        269,
+        272
+      ],
+      "verification": [
+        "New lock washer, outward mark, seated clip and measured clearance saved."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=269",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=272"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "clean"
+      ]
+    },
+    {
+      "id": "torque",
+      "title": "Tighten both nuts with the specified preparation",
+      "instruction": "Apply molybdenum-disulfide grease to crankshaft threads, washer contact surfaces and primary-drive nut threads/contact face. Hold the illustrated balancer teeth with an aluminum plate. Tighten balancer-driven nut50Nm and primary-drive nut170Nm. These are exact2026 settings.",
+      "source_pdf_pages": [
+        272,
+        273
+      ],
+      "verification": [
+        "50Nm/170Nm results and molybdenum-grease application recorded."
+      ],
+      "record_required": true,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=272",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=273"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "starter-install"
+      ]
+    },
+    {
+      "id": "lock",
+      "title": "Lock and check the completed gear stack",
+      "instruction": "Bend the new balancer lock-washer tab against the nut as shown. Remove the holding plate and account for it. Verify the balancer marks, starter-clutch installation and retained clips before the clutch/cover work resumes.",
+      "source_pdf_pages": [
+        272,
+        273
+      ],
+      "verification": [
+        "Lock tab, timing marks, clip and tool removal verified."
+      ],
+      "record_required": false,
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=272",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=273"
+      ],
+      "origin": "Original source-based summary; observation fields are application workflow",
+      "depends_on": [
+        "torque"
+      ]
+    }
+  ],
+  "reviewed_at": "2026-09-13",
+  "runtime_integration_requirement": "Enforce entry state and record_required. Completion certifies this bounded operation only; no automatic completion of upstream/downstream work."
+}

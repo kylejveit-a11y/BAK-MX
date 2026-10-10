@@ -1,0 +1,741 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2020-yz250-top-end-power-valve-bench-v1",
+  "title": "Rebuild the stock two-stroke top end and cylinder power valves — prepared engine",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ250",
+    "model_year": 2020,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "publication_status": "APPROVED",
+  "component": "engine",
+  "affected_components": [
+    "engine"
+  ],
+  "applicability": {
+    "included": "Exact standard US 2020 YZ250L2 original two-stroke engine; prepared cold engine with accepted closed lower end.",
+    "excluded": [
+      "YZ250X, other model years, aftermarket cylinders/pistons or altered ports",
+      "Engine removal/refitting, lower end, crankcase YPVS governor and commissioning",
+      "Head resurfacing and damaged shaft-seal installation geometry",
+      "Bore-method conflict resolution or cylinder resurfacing/reboring; qualified exact-source disposition required."
+    ],
+    "year_inheritance": "NONE"
+  },
+  "entry_state": [
+    "Cold drained engine securely prepared on bench; listed external access already completed and recorded.",
+    "Stock crankcases remain closed with accepted lower-end condition."
+  ],
+  "exit_state": [
+    "Measured and assembled stock top end and cylinder power valves; engine not refitted or commissioned."
+  ],
+  "preflight": [
+    "Have the exact owner-tool-kit power-valve set pin before undoing the push rod.",
+    "Have accepted exact replacement parts, measuring equipment and source diagrams ready.",
+    "Record completed external access and lower-end condition before opening the top end.",
+    "Exact 2020 PDF114 prose says average bore measurements while its formula says C = maximum Aa-Cb. A qualified exact-source bore/clearance disposition must resolve the method before assembly; this guide records the conflict and never chooses a hidden method."
+  ],
+  "critical_stop_conditions": [
+    "Missing set pin or inability to support the mechanism correctly",
+    "Out-of-specification measurements, scoring, broken springs, missing clips or damaged sealing surfaces",
+    "Unresolved lower-end contamination or damaged holder/shaft seal",
+    "Unresolved cylinder measurement method or missing qualified bore/piston clearance acceptance."
+  ],
+  "required_tools": [
+    {
+      "name": "Secure engine bench fixture; correct hand tools and calibrated torque tools spanning 4–42 N·m"
+    },
+    {
+      "name": "Owner-tool-kit YPVS set pin; piston pin puller 90890-01304 / YU-01304 if needed"
+    },
+    {
+      "name": "Bore gauge, micrometers, straightedge and feeler gauges suitable for the stated clearances"
+    },
+    {
+      "name": "Rounded non-damaging carbon scraper and clean protective rags"
+    }
+  ],
+  "required_parts": [
+    "Correct grade OEM piston/rings and accepted pin/small-end bearing as required by measured condition",
+    "New piston-pin clips (2), cylinder base gasket, cylinder-head O-rings (2), copper head washers (6)",
+    "New side-holder O-rings, power-valve cover gasket and housing gasket",
+    "Engine oil specified for this two-stroke engine, molybdenum disulfide oil, lithium-soap grease and LOCTITE for holder 2 bolts",
+    "Replacement worn/damaged power-valve parts identified during inspection"
+  ],
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf",
+    "document_sha256": "112713a7256a234953896fb34d9ddfd308a897c1c623fe29f95a344080a4ce2e",
+    "document_revision": "B9U-28199-11 / LIT-11626-33-08; US2020 YZ250L2 (combined source also YZ250XL)",
+    "pdf_pages": [
+      1,
+      9,
+      33,
+      35,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122
+    ],
+    "printed_pages": [
+      "1: front matter",
+      "9: Symbols (unnumbered)",
+      "33: 2-2",
+      "35: 2-4",
+      "109: 4-18",
+      "110: 4-19",
+      "111: 4-20",
+      "112: 4-21",
+      "113: 4-22",
+      "114: 4-23",
+      "115: 4-24",
+      "116: 4-25",
+      "117: 4-26",
+      "118: 4-27",
+      "119: 4-28",
+      "120: 4-29",
+      "121: 4-30",
+      "122: 4-31"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Author and independent peer reviewed exact-year text and rendered assembly diagrams; approved bounded prepared-engine scope, including explicit unresolved method dependency where stated. Physical validation remains separate."
+  },
+  "steps": [
+    {
+      "id": "entry",
+      "title": "Confirm the prepared engine",
+      "instruction": "Confirm exact stock US 2020 YZ250L2 and record the engine identity and work reason. This begins with a cold, clean engine securely supported on a suitable bench, coolant already drained, exhaust, carburetor, spark-plug cap, head-side coolant hose and upper engine brackets already detached by the separate engine-access operation. Crankcases remain closed; crankshaft/connecting rod and lower-end condition must already be accepted for this top-end job. Record that access handoff and any lower-end inspection concerns before proceeding. This procedure does not remove/refit the engine, overhaul the governor or authorize starting it. Before proceeding, record the qualified exact-source inspection plan for the bore-method conflict described in preflight; the cylinder cannot be accepted for assembly until its actual measurements and disposition are documented.",
+      "depends_on": [],
+      "source_pdf_pages": [
+        1,
+        109,
+        110,
+        114
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=1",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=109",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=110",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=114"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record the actual measurements, parts disposition or verification requested."
+      ],
+      "origin": "Exact D69-2819U-12 OEM source; prepared-engine boundary and saved measurement records are explicit authored workflow adaptations."
+    },
+    {
+      "id": "head-off",
+      "title": "Remove the head",
+      "instruction": "Remove the spark plug. Loosen each of the six cylinder-head nuts one quarter of a turn at a time until all are loose, then remove them, their copper washers and the head. Retain dowels and discard the old head O-rings and copper washers for replacement. Keep the head and sealing surfaces protected.",
+      "depends_on": [
+        "entry"
+      ],
+      "source_pdf_pages": [
+        109
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=109"
+      ],
+      "diagram_reference_required": true,
+      "record_required": false,
+      "verification": [
+        "Confirm the described assembly and checks are complete before advancing."
+      ],
+      "origin": "Exact D69-2819U-12 OEM source; prepared-engine boundary and saved measurement records are explicit authored workflow adaptations."
+    },
+    {
+      "id": "pushrod-off",
+      "title": "Disconnect the power-valve push rod",
+      "instruction": "Remove the power-valve housing and its gasket. Insert the owner-tool-kit set pin into the illustrated mechanism before loosening the push-rod bolt; it protects the valve parts from the tightening/loosening load. Remove the bolt and push rod, keeping joint pieces in illustrated order, then REMOVE and account for the set pin. Never use the mechanism itself as the holding stop.",
+      "depends_on": [
+        "head-off"
+      ],
+      "source_pdf_pages": [
+        109,
+        113
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=109",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=113"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record the actual measurements, parts disposition or verification requested."
+      ],
+      "origin": "Exact D69-2819U-12 OEM source; prepared-engine boundary and saved measurement records are explicit authored workflow adaptations."
+    },
+    {
+      "id": "cylinder-off",
+      "title": "Lift the cylinder",
+      "instruction": "Remove the four cylinder nuts and carefully lift the cylinder off the piston and dowels. Support the piston/rod; retain the dowels and discard the old cylinder gasket. Keep dirt out of the open crankcase and place the cylinder on a protected work surface.",
+      "depends_on": [
+        "pushrod-off"
+      ],
+      "source_pdf_pages": [
+        109,
+        110
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=109",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=110"
+      ],
+      "diagram_reference_required": true,
+      "record_required": false,
+      "verification": [
+        "Confirm the described assembly and checks are complete before advancing."
+      ],
+      "origin": "Exact D69-2819U-12 OEM source; prepared-engine boundary and saved measurement records are explicit authored workflow adaptations."
+    },
+    {
+      "id": "piston-off",
+      "title": "Remove the piston and rings",
+      "instruction": "Cover the crankcase opening with a clean rag before removing piston-pin clips so no clip can enter. Remove the clips, pin, piston and small-end bearing. Deburr the clip groove/pin-bore area if needed; if the pin still resists, use Yamaha 90890-01304 / YU-01304 piston-pin puller. Do not hammer the pin out. Remove rings without scratching the piston or expanding a ring more than necessary. Account for both clips and keep the crankcase protected.",
+      "depends_on": [
+        "cylinder-off"
+      ],
+      "source_pdf_pages": [
+        111,
+        113
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=111",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=113"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record the actual measurements, parts disposition or verification requested."
+      ],
+      "origin": "Exact D69-2819U-12 OEM source; prepared-engine boundary and saved measurement records are explicit authored workflow adaptations."
+    },
+    {
+      "id": "valve-strip",
+      "title": "Disassemble the cylinder power-valve mechanism",
+      "instruction": "Using the exploded view, remove the power-valve cover, both side holders and old O-rings; retain the breather hose routing. Remove the thrust plate, holder 1 and shaft, then capture the link lever, two pulleys, springs and washers in their illustrated positions. Remove the link rod and both power valves 2, then holder 2 and power valve 1. Lay out left/right and spring/washer orientation before cleaning; do not mix or lose the small pieces. The separate crankcase governor remains intact.",
+      "depends_on": [
+        "piston-off"
+      ],
+      "source_pdf_pages": [
+        111,
+        112
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=111",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=112"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record the actual measurements, parts disposition or verification requested."
+      ],
+      "origin": "Exact D69-2819U-12 OEM source; prepared-engine boundary and saved measurement records are explicit authored workflow adaptations."
+    },
+    {
+      "id": "head-inspect",
+      "title": "Inspect the head",
+      "instruction": "Remove carbon with a rounded scraper without damaging spark-plug threads or aluminum. Inspect the water jacket: this exact source calls for replacement for mineral crust/rust. Measure head warpage with the illustrated straightedge and feeler gauge; specified less than 0.03 mm. Record condition and measurement. Over-limit resurfacing remains a separately completed operation; do not assemble a damaged or unresolved head.",
+      "depends_on": [
+        "valve-strip"
+      ],
+      "source_pdf_pages": [
+        113,
+        114
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=113",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=114"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record the actual measurements, parts disposition or verification requested."
+      ],
+      "origin": "Exact D69-2819U-12 OEM source; prepared-engine boundary and saved measurement records are explicit authored workflow adaptations."
+    },
+    {
+      "id": "bore-measure",
+      "title": "Measure the cylinder",
+      "instruction": "Remove carbon with a rounded scraper; inspect scoring. Cylinder surface repair is a separate accepted operation; DO NOT rebore this cylinder. Record all six bore readings Aa-Ab, Ba-Bb, Ca-Cb at the exact illustrated axes/heights. Standard bore 66.400-66.414 mm; wear limit 66.500 mm. Record both mean and maximum because PDF114 prose and formula disagree about C. Record taper using the illustrated A/B calculation; limit 0.050 mm. The specification table also gives out-of-round limit 0.050 mm. Obtain and record the qualified exact-source bore method, dimensional assessment and cylinder disposition; unresolved method or acceptance stops assembly. Do not substitute the later-year 66.464 mm limit.",
+      "depends_on": [
+        "head-inspect"
+      ],
+      "source_pdf_pages": [
+        35,
+        114,
+        115
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=35",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=114",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=115"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "All six readings, mean/maximum, taper/out-of-round assessment and qualified exact-source method/disposition recorded; unresolved acceptance stops assembly."
+      ],
+      "origin": "Exact D69-2819U-12 OEM source; prepared-engine boundary and saved measurement records are explicit authored workflow adaptations."
+    },
+    {
+      "id": "piston-measure",
+      "title": "Measure piston clearance",
+      "instruction": "Measure piston skirt diameter at the illustrated distance b, 17.5 mm from stepped inner surface a; standard 66.352-66.367 mm. Calculate cylinder bore minus piston diameter using the qualified bore method recorded in the preceding step. Standard piston clearance 0.045-0.050 mm; limit 0.100 mm. Record actual dimensions, method and accepted/replacement disposition. Do not proceed to assembly with unresolved bore interpretation or out-of-specification parts.",
+      "depends_on": [
+        "bore-measure"
+      ],
+      "source_pdf_pages": [
+        35,
+        115,
+        116,
+        117
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=35",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=115",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=116",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=117"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record the actual measurements, parts disposition or verification requested."
+      ],
+      "origin": "Exact D69-2819U-12 OEM source; prepared-engine boundary and saved measurement records are explicit authored workflow adaptations."
+    },
+    {
+      "id": "size-match",
+      "title": "Match the replacement size",
+      "instruction": "Read and record actual cylinder and piston grade marks. OEM matching is A to A/red (piston 66.352–66.355 mm), B to B/orange (66.356–66.359), C to C/green (66.360–66.363), D to D/purple (66.364–66.367). Cylinder grades are A 66.400–66.402, B 66.404–66.406, C 66.408–66.410, D 66.412–66.414 mm. A purchased cylinder cannot be ordered by grade: select the piston to its actual mark and verify clearance. Record accepted or replacement parts before assembly.",
+      "depends_on": [
+        "piston-measure"
+      ],
+      "source_pdf_pages": [
+        117
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=117"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record the actual measurements, parts disposition or verification requested."
+      ],
+      "origin": "Exact D69-2819U-12 OEM source; prepared-engine boundary and saved measurement records are explicit authored workflow adaptations."
+    },
+    {
+      "id": "rings-check",
+      "title": "Measure both rings",
+      "instruction": "Clean the ring grooves and rings. Place each ring into the cylinder and square it with the piston crown as illustrated. Record installed end gap: standard 0.40-0.55 mm, limit 0.95 mm; replace an out-of-specification ring. Measure top and second-ring side clearances at several points: standard 0.030-0.065 mm, limit 0.100 mm. Follow exact-source replacement of piston and/or ring for an out-of-specification result. Record actual measurements; this guide does not prescribe ring filing.",
+      "depends_on": [
+        "size-match"
+      ],
+      "source_pdf_pages": [
+        35,
+        116
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=35",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=116"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Actual end gaps and multiple side-clearance readings accepted against exact2020 standards/limits; replacements recorded."
+      ],
+      "origin": "Exact D69-2819U-12 OEM source; prepared-engine boundary and saved measurement records are explicit authored workflow adaptations."
+    },
+    {
+      "id": "pin-check",
+      "title": "Check pin and small-end bearing",
+      "instruction": "Inspect piston pin and small-end bearing for heat discoloration and replace affected parts. Measure pin OD: standard 17.995-18.000 mm, minimum limit 17.975 mm. Fit the pin into the piston and check for noticeable free play; if present, replace pin and/or piston. Fit pin and bearing into the connecting-rod small end and check for noticeable free play; if present, inspect connecting-rod wear and replace pin and/or rod as required. Record measurement and both free-play checks. Connecting-rod repair is a separate lower-end operation; do not continue with an unresolved loose fit. Do not import a later-year pin-bore clearance value.",
+      "depends_on": [
+        "rings-check"
+      ],
+      "source_pdf_pages": [
+        35,
+        115,
+        116
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=35",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=115",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=116"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Pin OD and both actual free-play/heat-condition checks recorded; defective parts or lower-end concerns resolved."
+      ],
+      "origin": "Exact D69-2819U-12 OEM source; prepared-engine boundary and saved measurement records are explicit authored workflow adaptations."
+    },
+    {
+      "id": "valves-clean",
+      "title": "Clean and inspect the power valves",
+      "instruction": "Remove carbon from valves 1/2 and cylinder valve bores without a sharp tool or scratching the aluminum. Check valves, holder 1, link lever, pulleys, shaft, link rod and washers for wear/damage; replace defects. Check both spring types for breakage. Record condition and replacements. The shaft seal must be sound; if damaged, resolve its correct holder/seal service before assembly rather than inventing a seal seating depth.",
+      "depends_on": [
+        "pin-check"
+      ],
+      "source_pdf_pages": [
+        117,
+        118
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=117",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=118"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record the actual measurements, parts disposition or verification requested."
+      ],
+      "origin": "Exact D69-2819U-12 OEM source; prepared-engine boundary and saved measurement records are explicit authored workflow adaptations."
+    },
+    {
+      "id": "valve-main",
+      "title": "Install the main valve",
+      "instruction": "Lubricate power valve 1 with molybdenum disulfide OIL and install its gouge upward. Install holder 2; apply LOCTITE to its bolts and tighten to 6 N·m. Match the exact illustrated valve orientation.",
+      "depends_on": [
+        "valves-clean"
+      ],
+      "source_pdf_pages": [
+        9,
+        111,
+        118
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=9",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=111",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=118"
+      ],
+      "diagram_reference_required": true,
+      "record_required": false,
+      "verification": [
+        "Confirm the described assembly and checks are complete before advancing."
+      ],
+      "origin": "Exact D69-2819U-12 OEM source; prepared-engine boundary and saved measurement records are explicit authored workflow adaptations."
+    },
+    {
+      "id": "valve-sides",
+      "title": "Install side valves and link",
+      "instruction": "Install both power valves 2, link rod and washers. Engage the cuts in both link-rod arm ends over the valve pins as illustrated. Tighten the link-rod screw to 6 N·m.",
+      "depends_on": [
+        "valve-main"
+      ],
+      "source_pdf_pages": [
+        118
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=118"
+      ],
+      "diagram_reference_required": true,
+      "record_required": false,
+      "verification": [
+        "Confirm the described assembly and checks are complete before advancing."
+      ],
+      "origin": "Exact D69-2819U-12 OEM source; prepared-engine boundary and saved measurement records are explicit authored workflow adaptations."
+    },
+    {
+      "id": "thrust-plate",
+      "title": "Install the thrust plate first",
+      "instruction": "Install the thrust plate onto the cylinder and tighten its screw to 6 N·m BEFORE installing the power-valve shaft.",
+      "depends_on": [
+        "valve-sides"
+      ],
+      "source_pdf_pages": [
+        118
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=118"
+      ],
+      "diagram_reference_required": true,
+      "record_required": false,
+      "verification": [
+        "Confirm the described assembly and checks are complete before advancing."
+      ],
+      "origin": "Exact D69-2819U-12 OEM source; prepared-engine boundary and saved measurement records are explicit authored workflow adaptations."
+    },
+    {
+      "id": "shaft-stack",
+      "title": "Assemble springs, pulleys and shaft",
+      "instruction": "Install spring 1 onto the link lever, then into the cylinder with its stopper facing inward. Restore both pulleys, spring 2 pieces and washers exactly as illustrated. Apply molybdenum disulfide OIL to pulley grooves and lithium-soap grease to the shaft oil-seal lip. Insert the shaft with its cut aligned to the thrust plate, then rotate the cut upward. Record correct spring/washer order and cut orientation.",
+      "depends_on": [
+        "thrust-plate"
+      ],
+      "source_pdf_pages": [
+        9,
+        118,
+        119
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=9",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=118",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=119"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record the actual measurements, parts disposition or verification requested."
+      ],
+      "origin": "Exact D69-2819U-12 OEM source; prepared-engine boundary and saved measurement records are explicit authored workflow adaptations."
+    },
+    {
+      "id": "valve-lock",
+      "title": "Secure and check valve movement",
+      "instruction": "Install holder 1. Tighten the link-lever bolt FIRST to 4.0 N·m, then the pulley bolts to 4.0 N·m. Check power valve 1 for smooth movement. Repair or replace the cause of binding before closing the mechanism; record the movement check.",
+      "depends_on": [
+        "shaft-stack"
+      ],
+      "source_pdf_pages": [
+        119
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=119"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record the actual measurements, parts disposition or verification requested."
+      ],
+      "origin": "Exact D69-2819U-12 OEM source; prepared-engine boundary and saved measurement records are explicit authored workflow adaptations."
+    },
+    {
+      "id": "side-holders",
+      "title": "Refit side holders and breather",
+      "instruction": "Grease NEW side-holder O-rings with lithium-soap grease, then install both side holders with their projections upward. Tighten side-holder screws to 4.0 N·m. Refit the YPVS breather hose in its illustrated connection; keep it clear and unpinched.",
+      "depends_on": [
+        "valve-lock"
+      ],
+      "source_pdf_pages": [
+        119
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=119"
+      ],
+      "diagram_reference_required": true,
+      "record_required": false,
+      "verification": [
+        "Confirm the described assembly and checks are complete before advancing."
+      ],
+      "origin": "Exact D69-2819U-12 OEM source; prepared-engine boundary and saved measurement records are explicit authored workflow adaptations."
+    },
+    {
+      "id": "valve-cover",
+      "title": "Close the power-valve cover",
+      "instruction": "Install a NEW cover gasket with its cut downward and seal-print side toward the cover. Install the cover with its arrow upward; tighten cover screws to 4.0 N·m.",
+      "depends_on": [
+        "side-holders"
+      ],
+      "source_pdf_pages": [
+        119
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=119"
+      ],
+      "diagram_reference_required": true,
+      "record_required": false,
+      "verification": [
+        "Confirm the described assembly and checks are complete before advancing."
+      ],
+      "origin": "Exact D69-2819U-12 OEM source; prepared-engine boundary and saved measurement records are explicit authored workflow adaptations."
+    },
+    {
+      "id": "rings-install",
+      "title": "Install the rings",
+      "instruction": "Fit the accepted correct rings without scratching the piston or damaging the rings. Align each ring gap with its locating pin and confirm smooth ring movement. Preserve this alignment for cylinder fitting.",
+      "depends_on": [
+        "valve-cover"
+      ],
+      "source_pdf_pages": [
+        120
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=120"
+      ],
+      "diagram_reference_required": true,
+      "record_required": false,
+      "verification": [
+        "Confirm the described assembly and checks are complete before advancing."
+      ],
+      "origin": "Exact D69-2819U-12 OEM source; prepared-engine boundary and saved measurement records are explicit authored workflow adaptations."
+    },
+    {
+      "id": "piston-install",
+      "title": "Install the piston and new clips",
+      "instruction": "Apply engine mixing oil to the crankshaft/connecting-rod bearings and connecting-rod big-end washers as illustrated. Fit a NEW cylinder gasket with its seal-print side toward the crankcase, accepted small-end bearing and dowels. Oil the pin. With the crankcase opening protected by a clean rag, install the piston with its arrow toward the EXHAUST side, then pin and TWO NEW clips. Fully seat each clip and keep its open ends away from the pin-access slit. Account for all old clips/tools and record clip seating/orientation before removing the protective rag.",
+      "depends_on": [
+        "rings-install"
+      ],
+      "source_pdf_pages": [
+        9,
+        120
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=9",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=120"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record the actual measurements, parts disposition or verification requested."
+      ],
+      "origin": "Exact D69-2819U-12 OEM source; prepared-engine boundary and saved measurement records are explicit authored workflow adaptations."
+    },
+    {
+      "id": "cylinder-install",
+      "title": "Install the cylinder",
+      "instruction": "Lubricate piston, rings and bore with engine oil. Remove and account for the protective rag; verify no debris/parts remain in the opening. Compress the rings by hand with their gaps still on the locating pins and lower the cylinder carefully over them and onto its dowels/new gasket. Tighten the four nuts progressively in a crisscross pattern to 42 N·m. Do not force a cylinder over an incorrectly aligned ring. Check and record smooth piston movement after fitting; do not force or accept binding.",
+      "depends_on": [
+        "piston-install"
+      ],
+      "source_pdf_pages": [
+        121
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=121"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record the actual measurements, parts disposition or verification requested."
+      ],
+      "origin": "Exact D69-2819U-12 OEM source; prepared-engine boundary and saved measurement records are explicit authored workflow adaptations."
+    },
+    {
+      "id": "pushrod-install",
+      "title": "Reconnect the push rod",
+      "instruction": "Restore the push rod and illustrated joint pieces. Insert the owner-tool-kit set pin to support the mechanism while tightening the push-rod bolt to 5 N·m. REMOVE and account for the set pin immediately afterward; record its removal.",
+      "depends_on": [
+        "cylinder-install"
+      ],
+      "source_pdf_pages": [
+        9,
+        109,
+        121
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=9",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=109",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=121"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record the actual measurements, parts disposition or verification requested."
+      ],
+      "origin": "Exact D69-2819U-12 OEM source; prepared-engine boundary and saved measurement records are explicit authored workflow adaptations."
+    },
+    {
+      "id": "housing-close",
+      "title": "Close the push-rod housing",
+      "instruction": "Install a NEW power-valve housing gasket and housing; tighten its bolts to 5 N·m.",
+      "depends_on": [
+        "pushrod-install"
+      ],
+      "source_pdf_pages": [
+        121
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=121"
+      ],
+      "diagram_reference_required": true,
+      "record_required": false,
+      "verification": [
+        "Confirm the described assembly and checks are complete before advancing."
+      ],
+      "origin": "Exact D69-2819U-12 OEM source; prepared-engine boundary and saved measurement records are explicit authored workflow adaptations."
+    },
+    {
+      "id": "head-install",
+      "title": "Install the cylinder head",
+      "instruction": "Grease both NEW head O-rings with lithium-soap grease before fitting them. Install dowels and the head. Use six NEW copper washers and tighten the six head nuts progressively in the illustrated crisscross order to 25 N·m.",
+      "depends_on": [
+        "housing-close"
+      ],
+      "source_pdf_pages": [
+        122
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=122"
+      ],
+      "diagram_reference_required": true,
+      "record_required": false,
+      "verification": [
+        "Confirm the described assembly and checks are complete before advancing."
+      ],
+      "origin": "Exact D69-2819U-12 OEM source; prepared-engine boundary and saved measurement records are explicit authored workflow adaptations."
+    },
+    {
+      "id": "plug-install",
+      "title": "Install the spark plug",
+      "instruction": "Check the exact NGK BR8EG plug and 0.5–0.6 mm electrode gap, then install the spark plug to 20 N·m. The detached cap, coolant hose, carburetor, exhaust and engine mounts remain for the separate bike-level refit.",
+      "depends_on": [
+        "head-install"
+      ],
+      "source_pdf_pages": [
+        33,
+        122
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=33",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=122"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record the actual measurements, parts disposition or verification requested."
+      ],
+      "origin": "Exact D69-2819U-12 OEM source; prepared-engine boundary and saved measurement records are explicit authored workflow adaptations."
+    },
+    {
+      "id": "bench-handoff",
+      "title": "Record the completed bench work",
+      "instruction": "Record final piston/cylinder grades, all actual clearances, replacement parts, valve smoothness, ring/clip orientation, torque checks and removal of every rag and set pin. Top-end and cylinder power-valve bench assembly are complete within this scope. Keep open external connections protected. Do not start the engine: bike refit, coolant restoration/leak test, correct premix/transmission oil checks and source-specific break-in/post-service checks are separate unfinished handoffs. The recorded qualified bore-method and dimensional disposition must accompany this engine.",
+      "depends_on": [
+        "plug-install"
+      ],
+      "source_pdf_pages": [
+        114,
+        116,
+        117,
+        121,
+        122
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=114",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=116",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=117",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=121",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf#page=122"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record the actual measurements, parts disposition or verification requested."
+      ],
+      "origin": "Exact D69-2819U-12 OEM source; prepared-engine boundary and saved measurement records are explicit authored workflow adaptations."
+    }
+  ],
+  "completeness": "Bounded prepared-engine top-end and cylinder power-valve inspection/renewal/reassembly; engine access, lower end and commissioning remain separate.",
+  "remaining_gaps": [
+    "Prepared-engine route requires separate verified bike access/refit and commissioning; these are not completed by this guide.",
+    "Crankcase YPVS governor/lower-end overhaul and shaft-seal seating repair are outside this scope.",
+    "Physical workshop validation has not been performed.",
+    "Exact 2020 PDF114 prose says average bore measurements while its formula says C = maximum Aa-Cb. A qualified exact-source bore/clearance disposition must resolve the method before assembly; this guide records the conflict and never chooses a hidden method."
+  ]
+}

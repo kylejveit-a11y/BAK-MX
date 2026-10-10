@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED_AFTER_INDEPENDENT_REVIEW",
+  "previous_procedure_sha256": "a52730329bbe5102133bbb37f1e2aed93247b1c46ccaf8e4bb9991ad97b8309a",
+  "review": "Root visually reviewed PDF135-137; confirmed scope, numbers and conditional level. Corrected long-screen pin-wrench path to preserve source geometry; removed editorial filler-torque sentence from rider step. No mechanical values changed. Root additionally checked startup/level text32/33/36/38/133/134; final run instruction explicitly preserves the source one-minute stationary/idling threshold, without inventing a warmup duration.",
+  "frozen_sources_unchanged": true,
+  "approved_procedure_sha256": "d8ece6187dc62e48e88e3154cb7197c1a524a66a6ee9df4b774c0e8a5c074e5b"
+}

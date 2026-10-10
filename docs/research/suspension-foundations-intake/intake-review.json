@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "status": "INTAKE_ONLY_NOT_VERIFIED",
+  "source_type": "USER_SUPPLIED_AI_PREPARED_EDUCATIONAL_MANUSCRIPT",
+  "useful_for_bakmx": true,
+  "approved_for_runtime": false,
+  "facts_promoted": 0,
+  "originals_read_only": true,
+  "primary_use": "Suspension explanations, diagnostic question design and tuning-session workflow",
+  "not_established": [
+    "Model/year/installed-component torque, pressure, oil, sag or clicker limits",
+    "Complete suspension service procedures",
+    "Manufacturer endorsement or human technical certification",
+    "Measured case-study datasets or independently verified bibliography"
+  ],
+  "samples": [
+    {
+      "volume": "II",
+      "pdf_pages": [
+        12,
+        13
+      ],
+      "topic": "Sag repeatability and hysteresis",
+      "reuse": "Teach repeated measurements, defined rider posture and measurement uncertainty. Example 101/105/103/106/102 mm is a teaching sample, not an OEM target.",
+      "status": "EXPLANATORY_CANDIDATE"
+    },
+    {
+      "volume": "II",
+      "pdf_pages": [
+        17
+      ],
+      "topic": "Motion/leverage convention and local wheel rate",
+      "reuse": "Explicit r=shock/wheel and L=wheel/shock; local squared ratio plus geometric progression term. 58 N/mm and ratios3.1/2.7 are examples, not recommended springs or linkage specs.",
+      "status": "EXPLANATORY_CANDIDATE"
+    },
+    {
+      "volume": "III",
+      "pdf_pages": [
+        4,
+        6
+      ],
+      "topic": "Damping model and references",
+      "reuse": "Shaft velocity and energy dissipation explanation; broad references name Dixon, White, Merritt, Timoshenko and SAE J670 without claim-level page verification. Figure is a generic conceptual curve, not measured dyno evidence.",
+      "status": "EXPLANATORY_CANDIDATE"
+    },
+    {
+      "volume": "V",
+      "pdf_pages": [
+        9,
+        14,
+        57,
+        58
+      ],
+      "topic": "MX/enduro versus e-moto transfer",
+      "reuse": "Terrain spacing, repetition, pitch and rider posture support MX explanations. Regeneration-specific example must remain e-moto-specific; do not turn it into gas-bike advice.",
+      "status": "EXPLANATORY_CANDIDATE"
+    },
+    {
+      "volume": "VI",
+      "pdf_pages": [
+        7,
+        55,
+        57,
+        58
+      ],
+      "topic": "Rider-language and experiment workflow",
+      "reuse": "Capture complaint and event, compare mechanisms, log baseline/change/result/revert. A/B/A example has numbers but no identifiable raw test dataset; two clicks is scenario content, not a universal intervention.",
+      "status": "WORKFLOW_CANDIDATE"
+    },
+    {
+      "volume": "VII",
+      "pdf_pages": [
+        58,
+        59
+      ],
+      "topic": "Capstone evidence standard",
+      "reuse": "Evidence packet and retest concepts only; explicit statement that certification is not manufacturer endorsement or service qualification.",
+      "status": "INTERNAL_TRAINING_CANDIDATE"
+    },
+    {
+      "volume": "II",
+      "pdf_pages": [
+        12
+      ],
+      "topic": "Eq II-10 static force balance",
+      "reuse": "Quarantine for technical review: additive tire-force term alongside transformed suspension force risks double-counting series load unless a valid free-body definition establishes otherwise. No replacement equation asserted by this intake.",
+      "status": "TECHNICAL_REVIEW_REQUIRED"
+    },
+    {
+      "volume": "I",
+      "pdf_pages": [
+        5,
+        51,
+        52
+      ],
+      "topic": "Editorial/template artifacts",
+      "reuse": "Generic response_index and repeated chapter-name substitutions need cleanup; p51 discusses correcting a bridge chapter with an adjuster, showing templated prose survived claimed publication polish.",
+      "status": "EDITORIAL_REVIEW_REQUIRED"
+    }
+  ],
+  "priority": [
+    "Curate volume VI rider-language/change log and volume II measurement/ratio explanations",
+    "Independently verify governing equations and exact references; preserve assumptions and original provenance",
+    "Rewrite concise rider-facing explanations and clearly label hypothetical examples",
+    "Keep OEM/component-specific operating numbers and rebuild steps in the separately reviewed exact-bike evidence path"
+  ],
+  "version_policy": "Prefer the seven named current volumes for candidate extraction; retain early versions and support audits as history. Same-stem DOCX/PDF pairs are not independent corroboration.",
+  "review_extent": "All20 PDFs text-extracted and inventory-hashed; selective technical/reference/control-document reading; visual checks of IIp17, IIIp4, VIp55; unique unpaired living manuscript read from DOCX XML. Not an exhaustive 389-page engineering proofread; paired DOCX content not independently compared."
+}

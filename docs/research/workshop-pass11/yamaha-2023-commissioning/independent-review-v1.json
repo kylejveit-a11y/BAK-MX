@@ -1,0 +1,43 @@
+{
+  "status": "APPROVED",
+  "artifact_sha256": "62748a58bdc8f370e080a391d8b205acbb14f3504374e29b6a9d6c8769bb8bd9",
+  "reviewer": "root independent source/composition review",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2023,
+    "region": "US",
+    "variant": "standard"
+  },
+  "source_sha256": "9a8605e26301ba1d0d1d21e93d23cca721bdcdbece6188775626a8819332aa9f",
+  "reviewed_text_pages": [
+    37,
+    38,
+    95,
+    96,
+    283,
+    284
+  ],
+  "reviewed_rendered_pages": [
+    95,
+    232,
+    242,
+    292
+  ],
+  "scope": "All32 instructions/verification compared with independently reviewed structure and exact2023 operational source. Break-in crank/cylinder1h and gear/valve/piston30min, cold pressure bridge, oil/generator and real external maintenance accepted.",
+  "author_final_rendered_pages": [
+    95,
+    96,
+    232,
+    242,
+    284
+  ],
+  "metadata_only_freeze_authorized": true,
+  "remaining_boundaries": [
+    "Tank-interior cleaning and inaccessible fit/joint checks remain actual external work.",
+    "No physical repair execution claimed.",
+    "Adapter fit remains explicitly required; no unproven tool interchangeability."
+  ],
+  "approved_candidate_sha256": "6e5ee72f86a1322312039ae1ee0b600e445b128130a6f4fda5c63997d6d6cee5",
+  "freeze_changes": "Publication/source status and review note only; mechanical text unchanged after approval."
+}

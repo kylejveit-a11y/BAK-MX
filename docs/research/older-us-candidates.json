@@ -1,0 +1,62 @@
+{
+  "schema_version": "research-candidates-v1",
+  "researched_on": "2026-09-13",
+  "status": "RESEARCH_ONLY",
+  "runtime_eligible": false,
+  "notice": "Short factual paraphrases from readable primary sources. No production promotion, independent approval, rights approval, source byte capture or source hash. No year-range inheritance.",
+  "sources": {
+    "honda-250-2025-us-om": {
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952525omen.pdf",
+      "title": "2025 CRF250R/RX/RWE Owner's Manual",
+      "publication_id": "31K956700_enu",
+      "authority": "OEM_OWNER_MANUAL",
+      "region": "US",
+      "access": "83-page OEM PDF downloaded for temporary inspection on 2026-09-13. Printed pages 73 and 36 rendered locally and visually checked by root; six original candidates confirmed. Full publication excluded from source distribution.",
+      "rights": "Page 2 prohibits reproduction without written permission. No manual redistributed; commercial corpus rights unresolved.",
+      "sha256": "0f7db0137d59183929d1d9aaef7c150c0f00e3b553d139a62a94bd3a862efac0"
+    },
+    "yamaha-250-2024-us-features": {
+      "url": "https://yamahamotorsports.com/models/24-yz250f/features",
+      "title": "2024 YZ250F - Key Features | Yamaha Motorsports, USA",
+      "authority": "OEM_TECHNICAL_PRODUCT_PAGE",
+      "region": "US",
+      "access": "Readable exact-year main content; current 2027 site navigation deliberately excluded.",
+      "rights": "Short original factual paraphrases only; no source redistribution or commercial corpus approval.",
+      "sha256": null
+    },
+    "yamaha-450-2025-us-features": {
+      "url": "https://yamahamotorsports.com/models/25-yz450f/features",
+      "title": "2025 YZ450F - Key Features | Yamaha Motorsports, USA",
+      "authority": "OEM_TECHNICAL_PRODUCT_PAGE",
+      "region": "US",
+      "access": "Readable exact-year main content; current 2027 site navigation deliberately excluded.",
+      "rights": "Short original factual paraphrases only; no source redistribution or commercial corpus approval.",
+      "sha256": null
+    },
+    "yamaha-250-2025-us-features": {
+      "url": "https://yamahamotorsports.com/models/25-yz250f/features",
+      "title": "2025 YZ250F - Key Features | Yamaha Motorsports, USA",
+      "authority": "OEM_TECHNICAL_PRODUCT_PAGE",
+      "region": "US",
+      "access": "Readable exact-year main content; current 2027 site navigation deliberately excluded.",
+      "rights": "Short original factual paraphrases only; no source redistribution or commercial corpus approval.",
+      "sha256": null
+    }
+  },
+  "candidates": [
+    {"id":"honda-crf250r-2025-cold-intake-clearance","make":"Honda","model":"CRF250R","year":2025,"variant":"standard","region":"US","source_id":"honda-250-2025-us-om","locator":"Printed page 73; PDF page 79 (zero-based 78), Specifications / Engine / Valve clearance","statement":"Cold intake clearance: 0.10 ± 0.03 mm.","value":0.10,"tolerance":0.03,"unit":"mm","conditions":["Cold engine","Stock engine and valve train","Not a measurement procedure"],"source_fact_checked":true,"runtime_eligible":false},
+    {"id":"honda-crf250r-2025-cold-exhaust-clearance","make":"Honda","model":"CRF250R","year":2025,"variant":"standard","region":"US","source_id":"honda-250-2025-us-om","locator":"Printed page 73; PDF page 79 (zero-based 78), Specifications / Engine / Valve clearance","statement":"Cold exhaust clearance: 0.20 ± 0.03 mm.","value":0.20,"tolerance":0.03,"unit":"mm","conditions":["Cold engine","Stock engine and valve train","Not a measurement procedure"],"source_fact_checked":true,"runtime_eligible":false},
+    {"id":"honda-crf250r-2025-oil-drain","make":"Honda","model":"CRF250R","year":2025,"variant":"standard","region":"US","source_id":"honda-250-2025-us-om","locator":"Printed page 73; PDF page 79 (zero-based 78), Specifications / Engine oil capacity / After draining","statement":"Oil capacity after draining alone: 1.05 L.","value":1.05,"unit":"L","conditions":["Drain only; not filter replacement or disassembly","OEM fill and level-check procedure still required"],"source_fact_checked":true,"runtime_eligible":false},
+    {"id":"honda-crf250r-2025-oil-filter","make":"Honda","model":"CRF250R","year":2025,"variant":"standard","region":"US","source_id":"honda-250-2025-us-om","locator":"Printed page 73; PDF page 79 (zero-based 78), Specifications / Engine oil capacity / After draining and oil filter change","statement":"Oil capacity after draining and filter replacement: 1.08 L.","value":1.08,"unit":"L","conditions":["Filter replaced; not engine disassembly","OEM fill and level-check procedure still required"],"source_fact_checked":true,"runtime_eligible":false},
+    {"id":"honda-crf250r-2025-idle","make":"Honda","model":"CRF250R","year":2025,"variant":"standard","region":"US","source_id":"honda-250-2025-us-om","locator":"Printed page 73; PDF page 79 (zero-based 78), Specifications / Engine / Idle speed","statement":"Specified idle: 2000 ± 100 rpm.","value":2000,"tolerance":100,"unit":"rpm","conditions":["Check using OEM procedure","Do not adjust around an unresolved mechanical fault"],"source_fact_checked":true,"runtime_eligible":false},
+    {"id":"honda-crf250r-2025-severe-use-maintenance","make":"Honda","model":"CRF250R","year":2025,"variant":"standard","region":"US","source_id":"honda-250-2025-us-om","locator":"Printed page 36; PDF page 42 (zero-based 41), Maintenance Schedule note below table","statement":"Honda bases its schedule on average riding conditions and calls for more frequent service under severe use.","conditions":["No universal failure deadline inferred","Individual task frequencies require visual table review"],"source_fact_checked":true,"runtime_eligible":false},
+    {"id":"yamaha-yz250f-2024-intake-path","make":"Yamaha","model":"YZ250F","year":2024,"variant":"standard Team Yamaha Blue","region":"US","source_id":"yamaha-250-2024-us-features","locator":"New for 2024 / New Air Intake","statement":"Revised intake draws air from beneath the side covers and seat.","conditions":["OEM intake configuration","No automatic 2023 component interchangeability"],"source_fact_checked":true,"runtime_eligible":false},
+    {"id":"yamaha-yz250f-2024-fork-compression","make":"Yamaha","model":"YZ250F","year":2024,"variant":"standard Team Yamaha Blue","region":"US","source_id":"yamaha-250-2024-us-features","locator":"New for 2024 / Revised Suspension Settings","statement":"The KYB coil-spring fork adds a hand-operated compression adjuster for 2024.","conditions":["OEM fork only","Stock clicker position remains unknown","Revalved or swapped fork requires its own identity"],"source_fact_checked":true,"runtime_eligible":false},
+    {"id":"yamaha-yz250f-2024-launch-range","make":"Yamaha","model":"YZ250F","year":2024,"variant":"standard Team Yamaha Blue","region":"US","source_id":"yamaha-250-2024-us-features","locator":"New for 2024 / New Traction Control & Launch Control","statement":"Power Tuner launch limiter offers 6000–14000 rpm in 500-rpm increments.","minimum":6000,"maximum":14000,"increment":500,"unit":"rpm","conditions":["Compatible OEM ECU and Power Tuner app","No recommended rider setting inferred","App and firmware revision not specified"],"source_fact_checked":true,"runtime_eligible":false},
+    {"id":"yamaha-yz450f-2025-clutch-cooling-change","make":"Yamaha","model":"YZ450F","year":2025,"variant":"standard Team Yamaha Blue","region":"US","source_id":"yamaha-450-2025-us-features","locator":"New for 2025 / New Clutch Design","statement":"The updated clutch increases oil-feed holes from six to eighteen for improved cooling.","conditions":["OEM 2025 clutch","Not proof that earlier components interchange or necessarily overheat"],"source_fact_checked":true,"runtime_eligible":false},
+    {"id":"yamaha-yz450f-2025-engine-mount-change","make":"Yamaha","model":"YZ450F","year":2025,"variant":"standard Team Yamaha Blue","region":"US","source_id":"yamaha-450-2025-us-features","locator":"New for 2025 / Revised Front Engine Mounts","statement":"Front engine mounts were revised alongside the suspension changes.","conditions":["Stock 2025 chassis","No unsupported retrofit recommendation or mounting torque"],"source_fact_checked":true,"runtime_eligible":false},
+    {"id":"yamaha-yz450f-2025-power-tuner-diagnostic-data","make":"Yamaha","model":"YZ450F","year":2025,"variant":"standard Team Yamaha Blue","region":"US","source_id":"yamaha-450-2025-us-features","locator":"Top Features / Cutting-Edge Yamaha Power Tuner App","statement":"Power Tuner exposes engine run time and maintenance/system-diagnosis information.","conditions":["Compatible OEM electronics and app","Specific diagnostic fields and firmware remain unverified","Not a substitute for measured fuel pressure"],"source_fact_checked":true,"runtime_eligible":false},
+    {"id":"yamaha-yz250f-2025-fuel-injection-hardware","make":"Yamaha","model":"YZ250F","year":2025,"variant":"standard Team Yamaha Blue","region":"US","source_id":"yamaha-250-2025-us-features","locator":"Engine / Advanced Fuel Injection","statement":"OEM injection uses a 44-mm throttle body and a twelve-hole Denso injector supplied by an electric high-pressure pump.","conditions":["Stock fuel system","No fuel-pressure test specification established"],"source_fact_checked":true,"runtime_eligible":false},
+    {"id":"yamaha-yz250f-2025-linkage-change","make":"Yamaha","model":"YZ250F","year":2025,"variant":"standard Team Yamaha Blue","region":"US","source_id":"yamaha-250-2025-us-features","locator":"New for 2025 / Revised Suspension Components & Settings","statement":"A revised rear linkage accompanies updated shock and fork settings for 2025.","conditions":["Stock suspension","No inherited 2024 baseline settings or linkage dimensions"],"source_fact_checked":true,"runtime_eligible":false}
+  ]
+}

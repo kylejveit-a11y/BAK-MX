@@ -1,0 +1,45 @@
+{
+  "status": "APPROVED_READY_FOR_ROOT_INTEGRATION",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2025,
+    "region": "US",
+    "variant": "standard"
+  },
+  "artifacts": [
+    {
+      "path": "top-end-bike-journey-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "fe700644eff579401c300404fce7628fc4f63883e6fa645067285f7bf6901407",
+      "source_id": "yamaha-2025-d02",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 167
+    }
+  ],
+  "dependencies": [
+    {
+      "artifact": "docs/research/workshop-pass9/yamaha-2025-frame/engine-removal-refit-v1.procedure.json",
+      "sha256": "ac4ff7e9f086bd069a4c1008c8e09076a64c93afdbef204501ecbc048975157d",
+      "kind": "approved_source_operation"
+    },
+    {
+      "artifact": "docs/research/workshop-pass9/yamaha-2025-engine/top-end-bench-v1.procedure.json",
+      "sha256": "168f728aa9c092015bac846833b06502964ed223fa58dc58295219240ccf8eb6",
+      "kind": "approved_source_operation"
+    },
+    {
+      "artifact": "docs/research/workshop-pass9/yamaha-2025-commissioning/post-rebuild-commissioning-v1.procedure.json",
+      "sha256": "e992baef16dcb9b875c14b407606aaf1b03b20945f0a9f94ebadf1f058664f1a",
+      "kind": "approved_source_operation"
+    }
+  ],
+  "next": "Root integration; frozen builders refuse rewrite. Continue separate major-engine composition.",
+  "database_writes": false
+}

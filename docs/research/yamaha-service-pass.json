@@ -1,0 +1,704 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-09-13",
+  "scope": "Exact-year US Yamaha Owner’s Service Manuals; bounded factual extraction, no manual redistribution.",
+  "sources": [
+    {
+      "id": "yamaha-us-yz250f-2024-bmf-2819u-10",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BMF-2819U-10_02.pdf",
+      "title": "Yamaha 2024 YZ250F Owner’s Service Manual",
+      "document_type": "OWNER_SERVICE_MANUAL",
+      "publication": "BMF-2819U-10 / LIT-11626-37-44",
+      "edition": "June 2023",
+      "applicability": {
+        "make": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "scope_evidence": "Cover explicitly states year/model; publication page 4 identifies Yamaha Motor Corporation, U.S.A. and LIT publication number. US FCC/California material on pages 2–3.",
+      "access": "PDF_READ_AND_SPEC_TABLES_VISUALLY_CHECKED",
+      "sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+      "bytes": 28620226,
+      "pdf_pages": 388,
+      "local_inspection_copy": "/tmp/yamaha-bmf.pdf",
+      "archive_status": "TEMPORARY_INSPECTION_COPY_ONLY",
+      "visual_pages": [
+        1,
+        49,
+        89
+      ],
+      "rights_review": "PENDING",
+      "independent_review": "PENDING",
+      "section_index": [
+        {
+          "section": "Maintenance intervals",
+          "printed_page": "3-2",
+          "index_pdf_page": 81
+        },
+        {
+          "section": "Valve clearance",
+          "printed_page": "3-7",
+          "index_pdf_page": 81
+        },
+        {
+          "section": "Spark plug check",
+          "printed_page": "3-13",
+          "index_pdf_page": 81
+        },
+        {
+          "section": "Oil change",
+          "printed_page": "3-14",
+          "index_pdf_page": 81
+        },
+        {
+          "section": "Ignition troubleshooting",
+          "printed_page": "8-3",
+          "index_pdf_page": 303
+        },
+        {
+          "section": "Starter troubleshooting",
+          "printed_page": "8-9",
+          "index_pdf_page": 303
+        },
+        {
+          "section": "Diagnostic tool connection",
+          "printed_page": "8-18",
+          "index_pdf_page": 303
+        },
+        {
+          "section": "Fault-code troubleshooting",
+          "printed_page": "8-20",
+          "index_pdf_page": 303
+        }
+      ],
+      "section_index_verification": "Read section contents pages; index entries are navigation pointers, not fully extracted procedures.",
+      "source_derived_word_count": 90
+    },
+    {
+      "id": "yamaha-us-yz450f-2023-bhr-2819u-10",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf",
+      "title": "Yamaha 2023 YZ450F Owner’s Service Manual",
+      "document_type": "OWNER_SERVICE_MANUAL",
+      "publication": "BHR-2819U-10 / LIT-11626-36-32",
+      "edition": "July 2022",
+      "applicability": {
+        "make": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "scope_evidence": "Cover explicitly states year/model; publication page 4 identifies Yamaha Motor Corporation, U.S.A. and LIT publication number. US FCC/California material on pages 2–3.",
+      "access": "PDF_READ_AND_SPEC_TABLES_VISUALLY_CHECKED",
+      "sha256": "9a8605e26301ba1d0d1d21e93d23cca721bdcdbece6188775626a8819332aa9f",
+      "bytes": 26838393,
+      "pdf_pages": 388,
+      "local_inspection_copy": "/tmp/yamaha-bhr.pdf",
+      "archive_status": "TEMPORARY_INSPECTION_COPY_ONLY",
+      "visual_pages": [
+        1,
+        47,
+        85
+      ],
+      "rights_review": "PENDING",
+      "independent_review": "PENDING",
+      "section_index": [
+        {
+          "section": "Maintenance intervals",
+          "printed_page": "3-2",
+          "index_pdf_page": 77
+        },
+        {
+          "section": "Valve clearance",
+          "printed_page": "3-7",
+          "index_pdf_page": 77
+        },
+        {
+          "section": "Spark plug check",
+          "printed_page": "3-13",
+          "index_pdf_page": 77
+        },
+        {
+          "section": "Oil change",
+          "printed_page": "3-14",
+          "index_pdf_page": 77
+        },
+        {
+          "section": "Ignition troubleshooting",
+          "printed_page": "8-3",
+          "index_pdf_page": 299
+        },
+        {
+          "section": "Starter troubleshooting",
+          "printed_page": "8-9",
+          "index_pdf_page": 299
+        },
+        {
+          "section": "Diagnostic tool connection",
+          "printed_page": "8-17",
+          "index_pdf_page": 299
+        },
+        {
+          "section": "Fault-code troubleshooting",
+          "printed_page": "8-19",
+          "index_pdf_page": 299
+        }
+      ],
+      "section_index_verification": "Read section contents pages; index entries are navigation pointers, not fully extracted procedures.",
+      "source_derived_word_count": 90
+    }
+  ],
+  "candidates": [
+    {
+      "id": "yamaha-us-yz250f-2024-bmf-2819u-10-oil-change",
+      "source_id": "yamaha-us-yz250f-2024-bmf-2819u-10",
+      "applicability": {
+        "make": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-2; PDF page 49 (one-based)",
+      "statement": "Engine oil change quantity: 0.73 L.",
+      "conditions": "Routine oil change; distinct from filter removal and disassembly.",
+      "status": "CONTENT_CHECKED",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Exact model/year, stock components only. Bounded specification, not a complete repair instruction."
+    },
+    {
+      "id": "yamaha-us-yz250f-2024-bmf-2819u-10-oil-filter",
+      "source_id": "yamaha-us-yz250f-2024-bmf-2819u-10",
+      "applicability": {
+        "make": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-2; PDF page 49 (one-based)",
+      "statement": "Engine oil quantity with filter removal: 0.75 L.",
+      "conditions": "Oil change with oil filter removed.",
+      "status": "CONTENT_CHECKED",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Exact model/year, stock components only. Bounded specification, not a complete repair instruction."
+    },
+    {
+      "id": "yamaha-us-yz250f-2024-bmf-2819u-10-oil-disassembled",
+      "source_id": "yamaha-us-yz250f-2024-bmf-2819u-10",
+      "applicability": {
+        "make": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-2; PDF page 49 (one-based)",
+      "statement": "Engine oil quantity after disassembly: 0.95 L.",
+      "conditions": "Disassembled engine; not routine oil change.",
+      "status": "CONTENT_CHECKED",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Exact model/year, stock components only. Bounded specification, not a complete repair instruction."
+    },
+    {
+      "id": "yamaha-us-yz250f-2024-bmf-2819u-10-coolant",
+      "source_id": "yamaha-us-yz250f-2024-bmf-2819u-10",
+      "applicability": {
+        "make": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-2; PDF page 49 (one-based)",
+      "statement": "Radiator coolant quantity, including all routes: 0.94 L.",
+      "conditions": "Specification does not label this as a routine refill volume.",
+      "status": "CONTENT_CHECKED",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Exact model/year, stock components only. Bounded specification, not a complete repair instruction."
+    },
+    {
+      "id": "yamaha-us-yz250f-2024-bmf-2819u-10-spark-plug",
+      "source_id": "yamaha-us-yz250f-2024-bmf-2819u-10",
+      "applicability": {
+        "make": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-2; PDF page 49 (one-based)",
+      "statement": "Specified spark plug: NGK LMAR9E-J.",
+      "conditions": "Stock ignition.",
+      "status": "CONTENT_CHECKED",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Exact model/year, stock components only. Bounded specification, not a complete repair instruction."
+    },
+    {
+      "id": "yamaha-us-yz250f-2024-bmf-2819u-10-spark-gap",
+      "source_id": "yamaha-us-yz250f-2024-bmf-2819u-10",
+      "applicability": {
+        "make": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-2; PDF page 49 (one-based)",
+      "statement": "Specified spark-plug gap: 0.6–0.7 mm.",
+      "conditions": "Stock specified spark plug.",
+      "status": "CONTENT_CHECKED",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Exact model/year, stock components only. Bounded specification, not a complete repair instruction."
+    },
+    {
+      "id": "yamaha-us-yz250f-2024-bmf-2819u-10-valve-intake",
+      "source_id": "yamaha-us-yz250f-2024-bmf-2819u-10",
+      "applicability": {
+        "make": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 3-7; PDF page 89 (one-based)",
+      "statement": "Cold intake-valve clearance: 0.12–0.19 mm.",
+      "conditions": "Room-temperature engine, piston at TDC; follow full alignment procedure.",
+      "status": "CONTENT_CHECKED",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Exact model/year, stock components only. Bounded specification, not a complete repair instruction."
+    },
+    {
+      "id": "yamaha-us-yz250f-2024-bmf-2819u-10-valve-exhaust",
+      "source_id": "yamaha-us-yz250f-2024-bmf-2819u-10",
+      "applicability": {
+        "make": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 3-7; PDF page 89 (one-based)",
+      "statement": "Cold exhaust-valve clearance: 0.17–0.24 mm.",
+      "conditions": "Room-temperature engine, piston at TDC; follow full alignment procedure.",
+      "status": "CONTENT_CHECKED",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Exact model/year, stock components only. Bounded specification, not a complete repair instruction."
+    },
+    {
+      "id": "yamaha-us-yz250f-2024-bmf-2819u-10-oil-grade",
+      "source_id": "yamaha-us-yz250f-2024-bmf-2819u-10",
+      "applicability": {
+        "make": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-2; PDF page 49 (one-based)",
+      "statement": "Engine oil: API SG or higher, JASO MA.",
+      "conditions": "Use manual viscosity selection and full servicing procedure.",
+      "status": "CONTENT_CHECKED",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Exact model/year, stock components only. Bounded specification, not a complete repair instruction."
+    },
+    {
+      "id": "yamaha-us-yz250f-2024-bmf-2819u-10-oil-viscosity",
+      "source_id": "yamaha-us-yz250f-2024-bmf-2819u-10",
+      "applicability": {
+        "make": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-2; PDF page 49 (one-based)",
+      "statement": "Listed SAE oil viscosities: 10W-40, 10W-50, 15W-40, 20W-40, 20W-50.",
+      "conditions": "List of permitted grades; not a universal temperature-independent recommendation.",
+      "status": "CONTENT_CHECKED",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Exact model/year, stock components only. Bounded specification, not a complete repair instruction."
+    },
+    {
+      "id": "yamaha-us-yz250f-2024-bmf-2819u-10-radiator-cap",
+      "source_id": "yamaha-us-yz250f-2024-bmf-2819u-10",
+      "applicability": {
+        "make": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-2; PDF page 49 (one-based)",
+      "statement": "Radiator-cap valve opening pressure: 107.9–137.3 kPa.",
+      "conditions": "Cap test specification; never open a hot pressurized cooling system.",
+      "status": "CONTENT_CHECKED",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Exact model/year, stock components only. Bounded specification, not a complete repair instruction."
+    },
+    {
+      "id": "yamaha-us-yz450f-2023-bhr-2819u-10-oil-change",
+      "source_id": "yamaha-us-yz450f-2023-bhr-2819u-10",
+      "applicability": {
+        "make": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-2; PDF page 47 (one-based)",
+      "statement": "Engine oil change quantity: 0.94 L.",
+      "conditions": "Routine oil change; distinct from filter removal and disassembly.",
+      "status": "CONTENT_CHECKED",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Exact model/year, stock components only. Bounded specification, not a complete repair instruction."
+    },
+    {
+      "id": "yamaha-us-yz450f-2023-bhr-2819u-10-oil-filter",
+      "source_id": "yamaha-us-yz450f-2023-bhr-2819u-10",
+      "applicability": {
+        "make": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-2; PDF page 47 (one-based)",
+      "statement": "Engine oil quantity with filter removal: 0.96 L.",
+      "conditions": "Oil change with oil filter removed.",
+      "status": "CONTENT_CHECKED",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Exact model/year, stock components only. Bounded specification, not a complete repair instruction."
+    },
+    {
+      "id": "yamaha-us-yz450f-2023-bhr-2819u-10-oil-disassembled",
+      "source_id": "yamaha-us-yz450f-2023-bhr-2819u-10",
+      "applicability": {
+        "make": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-2; PDF page 47 (one-based)",
+      "statement": "Engine oil quantity after disassembly: 1.20 L.",
+      "conditions": "Disassembled engine; not routine oil change.",
+      "status": "CONTENT_CHECKED",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Exact model/year, stock components only. Bounded specification, not a complete repair instruction."
+    },
+    {
+      "id": "yamaha-us-yz450f-2023-bhr-2819u-10-coolant",
+      "source_id": "yamaha-us-yz450f-2023-bhr-2819u-10",
+      "applicability": {
+        "make": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-2; PDF page 47 (one-based)",
+      "statement": "Radiator coolant quantity, including all routes: 1.03 L.",
+      "conditions": "Specification does not label this as a routine refill volume.",
+      "status": "CONTENT_CHECKED",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Exact model/year, stock components only. Bounded specification, not a complete repair instruction."
+    },
+    {
+      "id": "yamaha-us-yz450f-2023-bhr-2819u-10-spark-plug",
+      "source_id": "yamaha-us-yz450f-2023-bhr-2819u-10",
+      "applicability": {
+        "make": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-2; PDF page 47 (one-based)",
+      "statement": "Specified spark plug: NGK LMAR8G.",
+      "conditions": "Stock ignition.",
+      "status": "CONTENT_CHECKED",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Exact model/year, stock components only. Bounded specification, not a complete repair instruction."
+    },
+    {
+      "id": "yamaha-us-yz450f-2023-bhr-2819u-10-spark-gap",
+      "source_id": "yamaha-us-yz450f-2023-bhr-2819u-10",
+      "applicability": {
+        "make": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-2; PDF page 47 (one-based)",
+      "statement": "Specified spark-plug gap: 0.7–0.8 mm.",
+      "conditions": "Stock specified spark plug.",
+      "status": "CONTENT_CHECKED",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Exact model/year, stock components only. Bounded specification, not a complete repair instruction."
+    },
+    {
+      "id": "yamaha-us-yz450f-2023-bhr-2819u-10-valve-intake",
+      "source_id": "yamaha-us-yz450f-2023-bhr-2819u-10",
+      "applicability": {
+        "make": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 3-7; PDF page 85 (one-based)",
+      "statement": "Cold intake-valve clearance: 0.10–0.17 mm.",
+      "conditions": "Room-temperature engine, piston at TDC; follow full alignment procedure.",
+      "status": "CONTENT_CHECKED",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Exact model/year, stock components only. Bounded specification, not a complete repair instruction."
+    },
+    {
+      "id": "yamaha-us-yz450f-2023-bhr-2819u-10-valve-exhaust",
+      "source_id": "yamaha-us-yz450f-2023-bhr-2819u-10",
+      "applicability": {
+        "make": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 3-7; PDF page 85 (one-based)",
+      "statement": "Cold exhaust-valve clearance: 0.15–0.22 mm.",
+      "conditions": "Room-temperature engine, piston at TDC; follow full alignment procedure.",
+      "status": "CONTENT_CHECKED",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Exact model/year, stock components only. Bounded specification, not a complete repair instruction."
+    },
+    {
+      "id": "yamaha-us-yz450f-2023-bhr-2819u-10-oil-grade",
+      "source_id": "yamaha-us-yz450f-2023-bhr-2819u-10",
+      "applicability": {
+        "make": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-2; PDF page 47 (one-based)",
+      "statement": "Engine oil: API SG or higher, JASO MA.",
+      "conditions": "Use manual viscosity selection and full servicing procedure.",
+      "status": "CONTENT_CHECKED",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Exact model/year, stock components only. Bounded specification, not a complete repair instruction."
+    },
+    {
+      "id": "yamaha-us-yz450f-2023-bhr-2819u-10-oil-viscosity",
+      "source_id": "yamaha-us-yz450f-2023-bhr-2819u-10",
+      "applicability": {
+        "make": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-2; PDF page 47 (one-based)",
+      "statement": "Listed SAE oil viscosities: 10W-40, 10W-50, 15W-40, 20W-40, 20W-50.",
+      "conditions": "List of permitted grades; not a universal temperature-independent recommendation.",
+      "status": "CONTENT_CHECKED",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Exact model/year, stock components only. Bounded specification, not a complete repair instruction."
+    },
+    {
+      "id": "yamaha-us-yz450f-2023-bhr-2819u-10-radiator-cap",
+      "source_id": "yamaha-us-yz450f-2023-bhr-2819u-10",
+      "applicability": {
+        "make": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-2; PDF page 47 (one-based)",
+      "statement": "Radiator-cap valve opening pressure: 107.9–137.3 kPa.",
+      "conditions": "Cap test specification; never open a hot pressurized cooling system.",
+      "status": "CONTENT_CHECKED",
+      "runtime_eligible": false,
+      "visual_check": "PASSED_BY_ACQUISITION_AGENT",
+      "independent_review": "PENDING",
+      "conflict_review": "PENDING",
+      "scope_notes": "Exact model/year, stock components only. Bounded specification, not a complete repair instruction."
+    }
+  ],
+  "documents": [
+    {
+      "source_id": "yamaha-us-yz250f-2024-bmf-2819u-10",
+      "applicability": {
+        "make": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "status": "CONTENT_CHECKED",
+      "document_type": "OWNER_SERVICE_MANUAL"
+    },
+    {
+      "source_id": "yamaha-us-yz450f-2023-bhr-2819u-10",
+      "applicability": {
+        "make": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "status": "CONTENT_CHECKED",
+      "document_type": "OWNER_SERVICE_MANUAL"
+    }
+  ],
+  "runtime_promotions": 0,
+  "gaps": [
+    {
+      "make": "Yamaha",
+      "model": "YZ250F",
+      "model_year": 2022,
+      "region": "US",
+      "status": "NO_CONTENT_CHECKED_SERVICE_MANUAL_IN_THIS_PASS"
+    },
+    {
+      "make": "Yamaha",
+      "model": "YZ250F",
+      "model_year": 2023,
+      "region": "US",
+      "status": "NO_CONTENT_CHECKED_SERVICE_MANUAL_IN_THIS_PASS"
+    },
+    {
+      "make": "Yamaha",
+      "model": "YZ250F",
+      "model_year": 2025,
+      "region": "US",
+      "status": "NO_CONTENT_CHECKED_SERVICE_MANUAL_IN_THIS_PASS"
+    },
+    {
+      "make": "Yamaha",
+      "model": "YZ250F",
+      "model_year": 2026,
+      "region": "US",
+      "status": "NO_CONTENT_CHECKED_SERVICE_MANUAL_IN_THIS_PASS"
+    },
+    {
+      "make": "Yamaha",
+      "model": "YZ450F",
+      "model_year": 2022,
+      "region": "US",
+      "status": "NO_CONTENT_CHECKED_SERVICE_MANUAL_IN_THIS_PASS"
+    },
+    {
+      "make": "Yamaha",
+      "model": "YZ450F",
+      "model_year": 2024,
+      "region": "US",
+      "status": "NO_CONTENT_CHECKED_SERVICE_MANUAL_IN_THIS_PASS"
+    },
+    {
+      "make": "Yamaha",
+      "model": "YZ450F",
+      "model_year": 2025,
+      "region": "US",
+      "status": "NO_CONTENT_CHECKED_SERVICE_MANUAL_IN_THIS_PASS"
+    },
+    {
+      "make": "Yamaha",
+      "model": "YZ450F",
+      "model_year": 2026,
+      "region": "US",
+      "status": "NO_CONTENT_CHECKED_SERVICE_MANUAL_IN_THIS_PASS"
+    }
+  ],
+  "discovery_notes": [
+    {
+      "url": "https://www.yamaha-motor.com.au/ownership/support",
+      "result": "Read official support page; Owners Handbooks link points to YMC library with baseCode=6726 and langId=02."
+    },
+    {
+      "url": "https://parts.yamaha-motor.co.jp/ypec_b2c/services/omb2c/product_list/",
+      "result": "Published catalogue endpoint POST returned HTTP403. No alternate identity or bypass attempted."
+    },
+    {
+      "url": "https://www.yamaha-motor.com.au/ownership/support/yz450f_owners_service_manual",
+      "result": "Official page identifies2021, outside requested2022–26 scope; not assigned to newer years."
+    },
+    {
+      "url": "https://www.incolmotos-yamaha.com.co/wp-content/uploads/2018/03/YZ250F-BSB.pdf",
+      "result": "Public2023 YZ250FP Spanish Owner’s Manual body opened; not downloaded or facts extracted, not counted as service manual. US applicability not established."
+    }
+  ],
+  "counts": {
+    "service_manuals_content_checked": 2,
+    "factual_candidates_content_checked": 22,
+    "requested_model_years_still_missing_service_manual": 8,
+    "runtime_promotions": 0
+  }
+}

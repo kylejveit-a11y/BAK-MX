@@ -1,0 +1,42 @@
+{
+  "status": "APPROVED",
+  "reviewer": "root independent exact2022 hydraulic review",
+  "artifacts": [
+    {
+      "path": "docs/research/workshop-pass12/yamaha-2022-brakes/front-caliper-rebuild-v1.procedure.json",
+      "reviewed_candidate_sha256": "0d6e91688b618325f13d23d5b754143665fd5d6991c29584a198e2fe524a624a",
+      "sha256": "3b1ff8de8e8b300a0619ff548eb161b010589a8953eca99ba67dd1cf33f831db"
+    },
+    {
+      "path": "docs/research/workshop-pass12/yamaha-2022-brakes/front-master-rebuild-v1.procedure.json",
+      "reviewed_candidate_sha256": "af0fb235f0578b3346993fd8cb401caf257d8dff63db802cfc0357f958c44556",
+      "sha256": "7b0d3b4fe81e33797eb2bb91f8ae0dc4bfd6dc797915efbb0bba1441e6106820"
+    },
+    {
+      "path": "docs/research/workshop-pass12/yamaha-2022-brakes/rear-caliper-rebuild-v1.procedure.json",
+      "reviewed_candidate_sha256": "1feda4bfd9efa32fd1e69895c5f4ca4be28e7337ea83a72b00d950a5c37b90a2",
+      "sha256": "2228d5b45a10faff434f28e5b690a84e45a58b3883d8deb2826713f4a654316c"
+    },
+    {
+      "path": "docs/research/workshop-pass12/yamaha-2022-brakes/rear-master-rebuild-v1.procedure.json",
+      "reviewed_candidate_sha256": "ee714d705ce32ab1c0b91d23a18b596384d634bce5ee64bdb81fdbdd27749e8f",
+      "sha256": "a81a144a077c3cc1b7dc0f144b6f3bcc419352261e4cb0c2e35ed8dc4981900e"
+    }
+  ],
+  "reviewed_text_pages": [
+    99,
+    102,
+    135,
+    147,
+    154
+  ],
+  "reviewed_rendered_pages": [
+    128,
+    129,
+    136,
+    139,
+    147
+  ],
+  "scope": "All54 steps changed-field comparison versus reviewed 2023 structure, with exact 2022 source. Verified6Nm bleeds, front washer/boot not NEW, rear NEW piston/pushrod/circlip/boot,9Nm UP/top-first holder,30Nm unions,S/BF preparations and no unsupported5mm pedal inheritance.",
+  "freeze_changes": "Approval status fields only; no mechanical changes."
+}

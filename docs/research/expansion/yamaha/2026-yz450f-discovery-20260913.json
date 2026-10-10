@@ -1,0 +1,114 @@
+{
+  "checked_at": "2026-09-13T18:37:47.264805+00:00",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "result": "EXACT_US_OWNER_SERVICE_AND_OWNER_MANUALS_ACQUIRED",
+  "approved_new_facts": 0,
+  "primary_portal": {
+    "entry": "https://www.yamahamotorsports.com/yamaha-manuals",
+    "redirect": "https://library.ymcapps.net/library/om/app/index.html?baseCode=6150&langId=02",
+    "javascript": "https://library.ymcapps.net/library/om/app/index.js?v=1.8.0",
+    "observed_search_endpoint": "https://parts.yamaha-motor.co.jp/ypec_b2c/services/omb2c/model_list_pub/",
+    "request": {
+      "baseCode": "6150",
+      "langId": "02",
+      "productId": "10",
+      "publicationNo": "LIT-11626-39-20"
+    },
+    "result": "HTTP 403 Forbidden; no bypass attempted"
+  },
+  "leads": [
+    {
+      "url": "https://partsfinder.onlinemicrofiche.com/motosillimitees/showmodel/13/yamahadb/695/1/2026%20Yamaha%20Dirt%20Bike%20YZ450F%20MODEL%20INFO%20-%20MANUALS",
+      "type": "dealer_catalog_discovery_only",
+      "owner_manual": "LIT-11626-39-21",
+      "service_manual": "LIT-11626-39-20",
+      "note": "Separate owner and service publication identifiers. Must confirm identities on actual US OEM cover before extraction."
+    },
+    {
+      "url": "https://pwcparts.com/yamaha-oem-owner-s-service-manual-2026-yz450f-lit-11626-39-20-models-yz450ftse-yz450ftl/",
+      "type": "dealer_discovery_only_no_purchase",
+      "manual": "LIT-11626-39-20",
+      "listed_models": [
+        "YZ450FTSE",
+        "YZ450FTL"
+      ]
+    },
+    {
+      "url": "https://www2.yamaha-motor.co.jp/Manual/pdf/mc/2026D033.pdf",
+      "type": "OEM_non_US_candidate",
+      "pages_reported": 168,
+      "note": "Search/open identifies 2026 YZ450F. Japanese host/document is not US-scope proof. PDF screenshot timed out. No cover verification or factual approval."
+    }
+  ],
+  "next_steps": [
+    "Use service manual D03-2819U-10, not abbreviated owner manual, for new engineering extraction.",
+    "Reconcile complete tightening tables, symbol legend and procedure TIPs; visually review every extracted page before APPROVED status.",
+    "Extract exact 2026 engine, chassis and suspension specifications independently; preserve applicability, units, preparation and replacement instructions.",
+    "Append reviewed results to a new hash-bound bundle; do not alter frozen wave-one or existing Yamaha conflicts."
+  ],
+  "documents": [
+    {
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\D03-2819U-10_02.pdf",
+      "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+      "bytes": 33573066,
+      "pages": 406,
+      "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+      "scope_confirmed": true,
+      "scope_basis": "PDF cover page 1 visually verified 2026 YZ450F / YZ450FT and exact publication; copyright page 3 visually verified Yamaha Motor Corporation, U.S.A. and edition.",
+      "visually_reviewed_identity_pages": [
+        1,
+        3
+      ],
+      "engineering_review_status": "NOT_REVIEWED",
+      "tightening_torque_heading_pdf_pages": [
+        43,
+        47,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        119
+      ]
+    },
+    {
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-28199-10_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\D03-28199-10_02.pdf",
+      "document_sha256": "061398b620cc1f0be49c2b794444df95ca40580df024a8f63807d84b3bd907e2",
+      "bytes": 10584356,
+      "pages": 166,
+      "document_revision": "D03-28199-10 / LIT-11626-39-21; First edition May 2025",
+      "scope_confirmed": true,
+      "scope_basis": "PDF cover page 1 visually verified 2026 YZ450F / YZ450FT and exact publication; copyright page 3 visually verified Yamaha Motor Corporation, U.S.A. and edition.",
+      "visually_reviewed_identity_pages": [
+        1,
+        3
+      ],
+      "engineering_review_status": "NOT_REVIEWED",
+      "tightening_torque_heading_pdf_pages": [
+        31,
+        35,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        82
+      ]
+    }
+  ],
+  "acquisition_note": "Public PDF filenames followed existing Yamaha library naming convention using observed 2026 D03 identity and independently listed LIT numbers. Both returned HTTP 200 and exact US covers. API HTTP403 was not bypassed; ordinary public downloadable documents remained available. PDFs stay in temporary research storage, not repository."
+}

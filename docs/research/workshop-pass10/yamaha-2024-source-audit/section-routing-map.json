@@ -1,0 +1,24 @@
+{
+  "status":"SECTION_LOCATION_MAP_NOT_STEP_EQUIVALENCE",
+  "warning":"Intervals are exact document section locations, not permission to subtract page offsets in copied procedures. Layout and extra pages differ.",
+  "sections":[
+    {"scope":"bodywork","2024_pdf":[117,120],"2025_pdf":[121,124]},
+    {"scope":"front/rear wheels","2024_pdf":[122,131],"2025_pdf":[126,135]},
+    {"scope":"front brake caliper and master","2024_pdf":[132,142],"2025_pdf":[136,146]},
+    {"scope":"rear brake caliper and master","2024_pdf":[143,153],"2025_pdf":[147,157]},
+    {"scope":"handlebar and controls","2024_pdf":[154,161],"2025_pdf":[158,164],"difference":"2024 section has an extra page; no uniform mapping across this boundary."},
+    {"scope":"fork removal/internal service/refit","2024_pdf":[162,173],"2025_pdf":[165,176]},
+    {"scope":"steering head","2024_pdf":[174,178],"2025_pdf":[177,181]},
+    {"scope":"rear shock/linkage external service","2024_pdf":[179,185],"2025_pdf":[182,188]},
+    {"scope":"swingarm","2024_pdf":[186,189],"2025_pdf":[189,192]},
+    {"scope":"chain drive","2024_pdf":[190,192],"2025_pdf":[193,195]},
+    {"scope":"suspension baselines and pressure release","2024_pdf":[108,111],"2025_pdf":[112,115]},
+    {"scope":"loaded sag and springs","2024_pdf":[376,377],"2025_pdf":[384,385]}
+  ],
+  "explicit_cutpoints":[
+    {"scope":"fork fill/bleed","2024_pdf":[166,167,168],"2025_pdf":[169,170,171]},
+    {"scope":"fork outer oil","2024_pdf":[172],"2025_pdf":[175]},
+    {"scope":"fork height/refit","2024_pdf":[173],"2025_pdf":[176]},
+    {"scope":"front master UP/top-first","2024_pdf":[141,160,161],"2025_pdf":[145,163,164]}
+  ]
+}

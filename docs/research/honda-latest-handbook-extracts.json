@@ -1,0 +1,992 @@
+{
+  "date": "2026-09-13",
+  "sources": [
+    {
+      "trim": "2026 CRF250R",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952626chen.pdf",
+      "title": "2026 CRF250R/RX/RWE Competition Handbook",
+      "sha256": "93db2951a84fcd973c5f9cf87ece0a05452df8d24ddc86ee2cc3ef14001d64ad",
+      "bytes": 7954042,
+      "id": "2026-CRF250R",
+      "make": "Honda",
+      "model": "CRF250R",
+      "year": 2026,
+      "region": "US",
+      "variant": "standard",
+      "access": "PDF_DOWNLOADED_TABLES_VISUALLY_CHECKED",
+      "kind": "COMPETITION_HANDBOOK",
+      "full_extraction_complete": false
+    },
+    {
+      "trim": "2025 CRF250R",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952525chen.pdf",
+      "title": "2025 CRF250R/RX/RWE Competition Handbook",
+      "sha256": "648251e727fadcf3c0a297462f026f75f315f754b7897ebf0b3194b222be857b",
+      "bytes": 10238874,
+      "id": "2025-CRF250R",
+      "make": "Honda",
+      "model": "CRF250R",
+      "year": 2025,
+      "region": "US",
+      "variant": "standard",
+      "access": "PDF_DOWNLOADED_TABLES_VISUALLY_CHECKED",
+      "kind": "COMPETITION_HANDBOOK",
+      "full_extraction_complete": false
+    },
+    {
+      "trim": "2026 CRF450R",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf",
+      "title": "2026 CRF450R/RX/RWE Competition Handbook",
+      "sha256": "676df763129d63c4bb76e28624158b1d310c71499ab736a7c544c898f69e3819",
+      "bytes": 10924687,
+      "id": "2026-CRF450R",
+      "make": "Honda",
+      "model": "CRF450R",
+      "year": 2026,
+      "region": "US",
+      "variant": "standard",
+      "access": "PDF_DOWNLOADED_TABLES_VISUALLY_CHECKED",
+      "kind": "COMPETITION_HANDBOOK",
+      "full_extraction_complete": false
+    },
+    {
+      "trim": "2025 CRF450R",
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2525chen.pdf",
+      "title": "2025 CRF450R/RX/RWE/R-S Competition Handbook",
+      "sha256": "81d5baf97ec65b2828bfb0251ecac60bb180d49d1f43a878cf3e9bb1b66b09d0",
+      "bytes": 10925418,
+      "id": "2025-CRF450R",
+      "make": "Honda",
+      "model": "CRF450R",
+      "year": 2025,
+      "region": "US",
+      "variant": "standard",
+      "access": "PDF_DOWNLOADED_TABLES_VISUALLY_CHECKED",
+      "kind": "COMPETITION_HANDBOOK",
+      "full_extraction_complete": false
+    }
+  ],
+  "candidates": [
+    {
+      "id": "honda-handbook-2026-crf250r-rear-axle",
+      "source_id": "2026-CRF250R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 24; specified fastener table",
+      "statement": "Rear axle nut: 128 N·m; OEM self-locking nut.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2026-crf250r-front-axle",
+      "source_id": "2026-CRF250R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 24; specified fastener table",
+      "statement": "Front axle bolt: 78 N·m.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2026-crf250r-fork-lower-clamp",
+      "source_id": "2026-CRF250R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 24; specified fastener table",
+      "statement": "Lower triple-clamp fork pinch bolt: 20 N·m.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2026-crf250r-fork-upper-clamp",
+      "source_id": "2026-CRF250R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 24; specified fastener table",
+      "statement": "Upper triple-clamp fork pinch bolt: 22 N·m.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2026-crf250r-axle-holder",
+      "source_id": "2026-CRF250R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 24; specified fastener table",
+      "statement": "Axle-holder pinch bolt: 20 N·m.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2026-crf250r-front-caliper",
+      "source_id": "2026-CRF250R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 24; specified fastener table",
+      "statement": "Front brake-caliper mounting bolt: 30 N·m; thread locking agent required.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2026-crf250r-drive-sprocket",
+      "source_id": "2026-CRF250R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 24; specified fastener table",
+      "statement": "Front sprocket bolt: 31 N·m; OEM UBS bolt.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2026-crf250r-driven-sprocket",
+      "source_id": "2026-CRF250R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 24; specified fastener table",
+      "statement": "Rear sprocket nut: 40 N·m; OEM self-locking nut.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2026-crf250r-spokes",
+      "source_id": "2026-CRF250R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 24; specified fastener table",
+      "statement": "Front and rear spoke torque: 3.7 N·m.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2026-crf250r-rim-lock",
+      "source_id": "2026-CRF250R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 24; specified fastener table",
+      "statement": "Front and rear rim-lock torque: 12 N·m.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2026-crf250r-oil-drain",
+      "source_id": "2026-CRF250R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 24; specified fastener table",
+      "statement": "Oil-drain bolt: 23 N·m; apply engine oil to the threads and seating face.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2026-crf250r-muffler-band",
+      "source_id": "2026-CRF250R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 24; specified fastener table",
+      "statement": "Standard-model muffler joint-band bolt: 10 N·m.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2025-crf250r-rear-axle",
+      "source_id": "2025-CRF250R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 24; specified fastener table",
+      "statement": "Rear axle nut: 128 N·m; OEM self-locking nut.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2025-crf250r-front-axle",
+      "source_id": "2025-CRF250R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 24; specified fastener table",
+      "statement": "Front axle bolt: 78 N·m.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2025-crf250r-fork-lower-clamp",
+      "source_id": "2025-CRF250R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 24; specified fastener table",
+      "statement": "Lower triple-clamp fork pinch bolt: 20 N·m.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2025-crf250r-fork-upper-clamp",
+      "source_id": "2025-CRF250R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 24; specified fastener table",
+      "statement": "Upper triple-clamp fork pinch bolt: 22 N·m.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2025-crf250r-axle-holder",
+      "source_id": "2025-CRF250R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 24; specified fastener table",
+      "statement": "Axle-holder pinch bolt: 20 N·m.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2025-crf250r-front-caliper",
+      "source_id": "2025-CRF250R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 24; specified fastener table",
+      "statement": "Front brake-caliper mounting bolt: 30 N·m; thread locking agent required.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2025-crf250r-drive-sprocket",
+      "source_id": "2025-CRF250R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 24; specified fastener table",
+      "statement": "Front sprocket bolt: 31 N·m; OEM UBS bolt.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2025-crf250r-driven-sprocket",
+      "source_id": "2025-CRF250R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 24; specified fastener table",
+      "statement": "Rear sprocket nut: 40 N·m; OEM self-locking nut.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2025-crf250r-spokes",
+      "source_id": "2025-CRF250R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 24; specified fastener table",
+      "statement": "Front and rear spoke torque: 3.7 N·m.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2025-crf250r-rim-lock",
+      "source_id": "2025-CRF250R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 24; specified fastener table",
+      "statement": "Front and rear rim-lock torque: 12 N·m.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2025-crf250r-oil-drain",
+      "source_id": "2025-CRF250R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 24; specified fastener table",
+      "statement": "Oil-drain bolt: 23 N·m; apply engine oil to the threads and seating face.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2025-crf250r-muffler-band",
+      "source_id": "2025-CRF250R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF250R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 24; specified fastener table",
+      "statement": "Standard-model muffler joint-band bolt: 10 N·m.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2026-crf450r-rear-axle",
+      "source_id": "2026-CRF450R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 22; specified fastener table",
+      "statement": "Rear axle nut: 128 N·m; OEM self-locking nut.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2026-crf450r-front-axle",
+      "source_id": "2026-CRF450R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 22; specified fastener table",
+      "statement": "Front axle bolt: 78 N·m.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2026-crf450r-fork-lower-clamp",
+      "source_id": "2026-CRF450R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 22; specified fastener table",
+      "statement": "Lower triple-clamp fork pinch bolt: 20 N·m.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2026-crf450r-fork-upper-clamp",
+      "source_id": "2026-CRF450R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 22; specified fastener table",
+      "statement": "Upper triple-clamp fork pinch bolt: 22 N·m.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2026-crf450r-axle-holder",
+      "source_id": "2026-CRF450R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 22; specified fastener table",
+      "statement": "Axle-holder pinch bolt: 20 N·m.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2026-crf450r-front-caliper",
+      "source_id": "2026-CRF450R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 22; specified fastener table",
+      "statement": "Front brake-caliper mounting bolt: 30 N·m; thread locking agent required.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2026-crf450r-drive-sprocket",
+      "source_id": "2026-CRF450R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 22; specified fastener table",
+      "statement": "Front sprocket bolt: 31 N·m; OEM UBS bolt.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2026-crf450r-driven-sprocket",
+      "source_id": "2026-CRF450R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 22; specified fastener table",
+      "statement": "Rear sprocket nut: 40 N·m; OEM self-locking nut.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2026-crf450r-spokes",
+      "source_id": "2026-CRF450R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 22; specified fastener table",
+      "statement": "Front and rear spoke torque: 3.7 N·m.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2026-crf450r-rim-lock",
+      "source_id": "2026-CRF450R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 22; specified fastener table",
+      "statement": "Front and rear rim-lock torque: 12 N·m.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2026-crf450r-oil-drain",
+      "source_id": "2026-CRF450R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-3; PDF page 21; specified fastener table",
+      "statement": "Oil-drain bolt: 18 N·m; apply engine oil to the threads and seating face.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2026-crf450r-muffler-band",
+      "source_id": "2026-CRF450R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 22; specified fastener table",
+      "statement": "Standard-model muffler joint-band bolt: 20 N·m.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2025-crf450r-rear-axle",
+      "source_id": "2025-CRF450R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 22; specified fastener table",
+      "statement": "Rear axle nut: 128 N·m; OEM self-locking nut.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2025-crf450r-front-axle",
+      "source_id": "2025-CRF450R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 22; specified fastener table",
+      "statement": "Front axle bolt: 78 N·m.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2025-crf450r-fork-lower-clamp",
+      "source_id": "2025-CRF450R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 22; specified fastener table",
+      "statement": "Lower triple-clamp fork pinch bolt: 20 N·m.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2025-crf450r-fork-upper-clamp",
+      "source_id": "2025-CRF450R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 22; specified fastener table",
+      "statement": "Upper triple-clamp fork pinch bolt: 22 N·m.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2025-crf450r-axle-holder",
+      "source_id": "2025-CRF450R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 22; specified fastener table",
+      "statement": "Axle-holder pinch bolt: 20 N·m.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2025-crf450r-front-caliper",
+      "source_id": "2025-CRF450R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 22; specified fastener table",
+      "statement": "Front brake-caliper mounting bolt: 30 N·m; thread locking agent required.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2025-crf450r-drive-sprocket",
+      "source_id": "2025-CRF450R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 22; specified fastener table",
+      "statement": "Front sprocket bolt: 31 N·m; OEM UBS bolt.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2025-crf450r-driven-sprocket",
+      "source_id": "2025-CRF450R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 22; specified fastener table",
+      "statement": "Rear sprocket nut: 40 N·m; OEM self-locking nut.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2025-crf450r-spokes",
+      "source_id": "2025-CRF450R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 22; specified fastener table",
+      "statement": "Front and rear spoke torque: 3.7 N·m.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2025-crf450r-rim-lock",
+      "source_id": "2025-CRF450R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 22; specified fastener table",
+      "statement": "Front and rear rim-lock torque: 12 N·m.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2025-crf450r-oil-drain",
+      "source_id": "2025-CRF450R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-3; PDF page 21; specified fastener table",
+      "statement": "Oil-drain bolt: 18 N·m; apply engine oil to the threads and seating face.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    },
+    {
+      "id": "honda-handbook-2025-crf450r-muffler-band",
+      "source_id": "2025-CRF450R",
+      "applicability": {
+        "make": "Honda",
+        "model": "CRF450R",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "locator": "Printed 2-4; PDF page 22; specified fastener table",
+      "statement": "Standard-model muffler joint-band bolt: 20 N·m.",
+      "conditions": [
+        "OEM standard fastener and assembly only; damaged or aftermarket parts require their own evidence.",
+        "Use the associated installation/inspection procedure; this fact alone is not a complete repair instruction."
+      ],
+      "review_status": "CONTENT_AND_VISUAL_CHECK_PASSED",
+      "runtime_eligible": false
+    }
+  ],
+  "review_note": "Root directly inspected six original PDF table renders; candidates await explicit database promotion, not generic permission to quote facts. Common values were checked in each source, not inherited across years.",
+  "remaining_extraction": [
+    "Full maintenance task matrix and severe-use modifiers",
+    "Fuel-system service steps and test boundaries",
+    "Valve inspection/adjustment prerequisites",
+    "Fork/shock baseline and service procedures",
+    "Model/variant-specific assembly sequences"
+  ],
+  "full_manuals_distributed": false
+}

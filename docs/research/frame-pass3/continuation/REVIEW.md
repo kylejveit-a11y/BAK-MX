@@ -1,0 +1,13 @@
+# Exact 2026 US YZ450F chassis strip and reassembly review
+
+Source and independent closure review approved, 2026-09-13. This original 106-step composition uses the hash-pinned Yamaha owner/service manual and four previously reviewed operation artifacts recorded inside the procedure. All six earlier frame-pass3 procedures remain unchanged.
+
+The sequence removes engine, rear wheel/linkage/swingarm, sealed shock, front wheel/forks/steering, radiators, rear frame, connected controls/harness and remaining bolt-on brackets. It exposes the serviceable main frame while retaining pressed steering races and bonded pads. Refitting includes engine/swingarm shared-pivot coordination, stock routing, new one-use parts, torque stages, coolant pressure test, clean fuel restoration and final operating checks.
+
+The intact control, throttle-body and hydraulic assembly approach is a bounded adaptation: the original stock routing must allow supported removal without opening hydraulic joints or detaching cable ends. Otherwise the operation stops for a separately reviewed method. It is not a method for structural repair, paint stripping, pressed-race replacement, or internal engine/fork/shock rebuilding.
+
+Visual review includes manual PDF pages 64–77 routing; 123–128 body/rear-frame; 129–138 wheels; 150–153 rear brake; 180–195 steering/linkage/swingarm; 196–198 chain; 208–212 engine interfaces; 222 engine-ground location; 254/257 closed clutch-release interface; and 296–299 radiators/pressure test. Inherited modules retain their further exact source locators and required diagram acknowledgements.
+
+Closure audit corrected the composite boundaries: chain is already removed before rear-wheel removal; no neutral selection is requested after engine removal; upper shock is explicitly restored; fuel-tank/bar clearance is checked after tank refit; front axle seating and final torque occur only after rear assembly and both wheels are installed. Final front-end checking follows this axle closure. Every assembly removed has an explicit refit stage; every step has ordered dependencies and a check record. Actual settings/measurements/condition assessments require notes.
+
+Validation: 106 unique sequential steps, source-page containment, source diagrams for required acknowledgement, all four dependency hashes, engine/shared-pivot ordering, rear-wheel closure before front axle seating, pressure test and fuel restoration before engine start. Source status and recovery status remain reviewed on validator reruns. No physical wrenching or device validation was performed; passing structural validation does not establish roadworthiness or complete app readiness.

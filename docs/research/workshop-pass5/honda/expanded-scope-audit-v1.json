@@ -1,0 +1,30 @@
+{
+  "scope": "US standard competition models, 2020–2026; no automatic year inheritance",
+  "audit_date": "2026-09-13",
+  "documents": [
+    {
+      "model": "CRF450R",
+      "year": 2020,
+      "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31mke630_crf450r_rx_rwe.pdf",
+      "title": "2020 CRF450R/RX/RWE Owner's Manual",
+      "status": "OFFICIAL_PUBLIC_URL_DISCOVERED_BODY_REVIEW_PENDING",
+      "evidence": "Official Honda CDN search result identifies publication 31MKE630; precise standard-model sections and complete pages not reviewed in this pass.",
+      "hash": null
+    },
+    {
+      "model": "CRF450R",
+      "year": 2021,
+      "url": null,
+      "status": "EXACT_US_MANUAL_URL_PENDING",
+      "lead": "https://manualsnet.com/honda/crf450r-2021",
+      "lead_status": "Secondary index calls it a competition handbook; unreviewed and not evidence for a mechanical claim.",
+      "generation_evidence": "https://powersports.honda.com/-/media/products/family/crf450r/brochure/2021/2021-crf450r-crf450rwe-brochure.pdf",
+      "generation_note": "Honda's official search result calls the 2021 CRF450R redesigned. This is a reason not to inherit 2020 procedures; brochure body not yet reviewed for component-specific changes.",
+      "hash": null
+    },
+    {"model": "CRF250R", "year": 2020, "status": "EXACT_SOURCE_AUDIT_PENDING", "hash": null},
+    {"model": "CRF250R", "year": 2021, "status": "EXACT_SOURCE_AUDIT_PENDING", "hash": null}
+  ],
+  "claim_promotions": 0,
+  "new_runtime_approved_procedures": 0
+}

@@ -1,0 +1,206 @@
+{
+  "fact_status_counts": {
+    "APPROVED": 769,
+    "PENDING": 613,
+    "EXCLUDED_VARIANT": 14,
+    "DUPLICATE": 2
+  },
+  "fact_files": {
+    "specs-250f-2025.json": {
+      "APPROVED": 70
+    },
+    "specs-450f-2025.json": {
+      "APPROVED": 70,
+      "PENDING": 1
+    },
+    "torques-250f-2022.json": {
+      "PENDING": 125
+    },
+    "torques-250f-2023.json": {
+      "PENDING": 124
+    },
+    "torques-250f-2024.json": {
+      "APPROVED": 131,
+      "EXCLUDED_VARIANT": 4
+    },
+    "torques-250f-2025.json": {
+      "APPROVED": 124,
+      "EXCLUDED_VARIANT": 3
+    },
+    "torques-250f-2026.json": {
+      "APPROVED": 127
+    },
+    "torques-450f-2022.json": {
+      "PENDING": 116
+    },
+    "torques-450f-2023.json": {
+      "PENDING": 118
+    },
+    "torques-450f-2024.json": {
+      "PENDING": 128,
+      "EXCLUDED_VARIANT": 4
+    },
+    "torques-450f-2025.json": {
+      "APPROVED": 123,
+      "PENDING": 1,
+      "DUPLICATE": 1,
+      "EXCLUDED_VARIANT": 3
+    },
+    "torques-450f-2026.json": {
+      "APPROVED": 124,
+      "DUPLICATE": 1
+    }
+  },
+  "catalogs": [
+    {
+      "file": "mc-250f-2022.json",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "MC 250F",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assemblies": 41,
+      "expected_assemblies": 41,
+      "parts": 1177,
+      "catalog_complete": true,
+      "scope_confirmed": false
+    },
+    {
+      "file": "mc-250f-2023.json",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "MC 250F",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assemblies": 42,
+      "expected_assemblies": 42,
+      "parts": 1184,
+      "catalog_complete": true,
+      "scope_confirmed": false
+    },
+    {
+      "file": "mc-250f-2024.json",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "MC 250F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assemblies": 42,
+      "expected_assemblies": 42,
+      "parts": 1168,
+      "catalog_complete": true,
+      "scope_confirmed": true
+    },
+    {
+      "file": "mc-250f-2025.json",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "MC 250F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assemblies": 42,
+      "expected_assemblies": 42,
+      "parts": 1171,
+      "catalog_complete": true,
+      "scope_confirmed": true
+    },
+    {
+      "file": "mc-250f-2026.json",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "MC 250F",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assemblies": 42,
+      "expected_assemblies": 42,
+      "parts": 1171,
+      "catalog_complete": true,
+      "scope_confirmed": false
+    },
+    {
+      "file": "mc-450f-2022.json",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "MC 450F",
+        "model_year": 2022,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assemblies": 41,
+      "expected_assemblies": 41,
+      "parts": 1169,
+      "catalog_complete": true,
+      "scope_confirmed": false
+    },
+    {
+      "file": "mc-450f-2023.json",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "MC 450F",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assemblies": 42,
+      "expected_assemblies": 42,
+      "parts": 1172,
+      "catalog_complete": true,
+      "scope_confirmed": false
+    },
+    {
+      "file": "mc-450f-2024.json",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "MC 450F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assemblies": 22,
+      "expected_assemblies": 42,
+      "parts": 411,
+      "catalog_complete": false,
+      "scope_confirmed": false
+    },
+    {
+      "file": "mc-450f-2025.json",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "MC 450F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assemblies": 42,
+      "expected_assemblies": 42,
+      "parts": 1164,
+      "catalog_complete": true,
+      "scope_confirmed": true
+    },
+    {
+      "file": "mc-450f-2026.json",
+      "target": {
+        "manufacturer": "GasGas",
+        "model": "MC 450F",
+        "model_year": 2026,
+        "variant": "standard",
+        "region": "US"
+      },
+      "assemblies": 21,
+      "expected_assemblies": 42,
+      "parts": 391,
+      "catalog_complete": false,
+      "scope_confirmed": false
+    }
+  ]
+}

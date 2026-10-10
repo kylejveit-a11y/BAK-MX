@@ -1,0 +1,31 @@
+{
+  "status": "APPROVED",
+  "reviewer": "root independent exact 2022 source review",
+  "artifacts": [
+    {
+      "path": "docs/research/workshop-pass12/yamaha-2022-suspension/fork-oil-seals-bushings-v1.procedure.json",
+      "reviewed_candidate_sha256": "4e1f02d9adbd72759e54196ec7d105717ad0d2928b06aa1a6f1e36eda0eb3703",
+      "sha256": "cbf6a735ba775c74529505b6eb34bb93a183c214a2e02b7cca7df191dfbe97b6"
+    }
+  ],
+  "reviewed_text_pages": [
+    117,
+    150,
+    151,
+    152,
+    161,
+    162,
+    165,
+    166,
+    167,
+    168
+  ],
+  "reviewed_rendered_pages": [
+    157,
+    161,
+    163,
+    167
+  ],
+  "scope": "All changed fork instructions against independently reviewed 2023 structure and exact 2022 source. Confirmed 295 outer / 216 initial fill, 145-148 level, 01500 tool, fully loose compression/rebound, 29 and 55 LT, 40 handlebar holders, 5 mm projection, 21 clamps, 5 protectors and clutch-guide number plate. Source retains illustrated service companion boundaries.",
+  "freeze_changes": "Approval status fields only, including SOURCE_REVIEWED_BOUNDED_PROCEDURE; mechanical instructions unchanged."
+}

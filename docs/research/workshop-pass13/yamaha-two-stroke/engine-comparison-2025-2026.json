@@ -1,0 +1,348 @@
+{
+  "status": "REVIEWED_EXACT_YEAR_BATCH",
+  "reference_sha256": "79dc2b20faec6f0040fea0606a193af63b1e15e6f5f8e57cc4dad1905dec13d5",
+  "comparison_method": "Independent exact manual pages mapped by actual headings. Whitespace/punctuation normalized text comparisons identify reading work, not automatic mechanical approval. Differences kept temporarily outside repo. Rendered diagrams require separate review.",
+  "targets": [
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "source_sha256": "30918eb3f0c0ad42f33814baedc946c9ade6c31403f03a25257d05b0a9267050",
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D69-2819U-10_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\D69-2819U-10_02.pdf",
+      "pages": [
+        {
+          "pdf_page": 176,
+          "reference_pdf_page": 176,
+          "text_sha256": "6da058ebaa42fdbb62aa11a50df471e140f8c17c8e3854cd2405530a0303d7b9",
+          "reference_text_sha256": "6da058ebaa42fdbb62aa11a50df471e140f8c17c8e3854cd2405530a0303d7b9",
+          "normalized_text_equal": true,
+          "normalized_similarity": 1.0,
+          "render_pixel_sha256": "c547bccd45da6e5ed5ae80acfcb84f121f6fd8d7a4ed6b008cc9d9a97cfac998",
+          "reference_render_pixel_sha256": "c547bccd45da6e5ed5ae80acfcb84f121f6fd8d7a4ed6b008cc9d9a97cfac998",
+          "render_pixels_equal": true
+        },
+        {
+          "pdf_page": 177,
+          "reference_pdf_page": 177,
+          "text_sha256": "ae1ea7ded4a227aa7558793c036ee740623c30faf3a7dafb0be024a72715cbc7",
+          "reference_text_sha256": "ae1ea7ded4a227aa7558793c036ee740623c30faf3a7dafb0be024a72715cbc7",
+          "normalized_text_equal": true,
+          "normalized_similarity": 1.0,
+          "render_pixel_sha256": "45198df776f66e2c6efe93dcc4c491bb2a5ab88461c461febfec3276ba88e625",
+          "reference_render_pixel_sha256": "45198df776f66e2c6efe93dcc4c491bb2a5ab88461c461febfec3276ba88e625",
+          "render_pixels_equal": true
+        },
+        {
+          "pdf_page": 178,
+          "reference_pdf_page": 178,
+          "text_sha256": "98c7cd741772050b18bd8378521725b88ef45a5104cc961a7f9cade777b079d1",
+          "reference_text_sha256": "98c7cd741772050b18bd8378521725b88ef45a5104cc961a7f9cade777b079d1",
+          "normalized_text_equal": true,
+          "normalized_similarity": 1.0,
+          "render_pixel_sha256": "d606029d8082d3ed8b0c04ec1b0009ba8e97cb5186afaf40a7ddb3794a54e84d",
+          "reference_render_pixel_sha256": "b2a933d2d72f8d4fd581738838a087525892de616f8a5796be858d6dcf887155",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 179,
+          "reference_pdf_page": 179,
+          "text_sha256": "b6db2fc21853878add1196622713dd7d1b16e6e48fddce590f708af7fab5db34",
+          "reference_text_sha256": "b6db2fc21853878add1196622713dd7d1b16e6e48fddce590f708af7fab5db34",
+          "normalized_text_equal": true,
+          "normalized_similarity": 1.0,
+          "render_pixel_sha256": "03c32b7ad765ee917c6f7f8ede56480ac2ca6d08389334160c1de80e25b6651a",
+          "reference_render_pixel_sha256": "9ce15d8f3f54e6d7aa6912164cd146a1b2683c4830be86d152a6aa26557d1098",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 180,
+          "reference_pdf_page": 180,
+          "text_sha256": "8c705af09d28d83c2b927d1c9020df857a9bbbaca51c3f7ac0930a7c2e8aefac",
+          "reference_text_sha256": "8c705af09d28d83c2b927d1c9020df857a9bbbaca51c3f7ac0930a7c2e8aefac",
+          "normalized_text_equal": true,
+          "normalized_similarity": 1.0,
+          "render_pixel_sha256": "2875c1556017dbbf482ba677b8c0f44b0fdae8c44d17efe0e34a40808c8157c7",
+          "reference_render_pixel_sha256": "854d097e1a4d64966ea0877b255207d25f854af12bb25be804d318d2dae923b7",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 181,
+          "reference_pdf_page": 181,
+          "text_sha256": "aaec4665e931b7207bc52c39bc1e4db421f16f073981f837b324cb6714d0786e",
+          "reference_text_sha256": "aaec4665e931b7207bc52c39bc1e4db421f16f073981f837b324cb6714d0786e",
+          "normalized_text_equal": true,
+          "normalized_similarity": 1.0,
+          "render_pixel_sha256": "56fa2f40a4dfa20c2ae2540a26e9c4ab397446419317aaf3603b20aeebb6824e",
+          "reference_render_pixel_sha256": "3576c7ab192ebc14fafd28c1295dc857bdbe62e4dc945c82c58ba226af2e4f00",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 182,
+          "reference_pdf_page": 182,
+          "text_sha256": "7c04852b4d8b4a3c9fe5ffe73a5c5e92bf6939ad05b3df77bffb2f6e8b52ff7a",
+          "reference_text_sha256": "7c04852b4d8b4a3c9fe5ffe73a5c5e92bf6939ad05b3df77bffb2f6e8b52ff7a",
+          "normalized_text_equal": true,
+          "normalized_similarity": 1.0,
+          "render_pixel_sha256": "2a2b545f8a82fac43c3dfbedc7e44991e1b34b132659943a170e4a0432ee7fbc",
+          "reference_render_pixel_sha256": "02ee1d3d541cead40c08dac4c8d1a1fbbc64931dc5672a037fc9488c0ce60fd1",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 183,
+          "reference_pdf_page": 183,
+          "text_sha256": "fe3c9c7113c6aa33e8c1ae2579d7ae554a32ca991ce0a5ae5311321daa68b889",
+          "reference_text_sha256": "fe3c9c7113c6aa33e8c1ae2579d7ae554a32ca991ce0a5ae5311321daa68b889",
+          "normalized_text_equal": true,
+          "normalized_similarity": 1.0,
+          "render_pixel_sha256": "e4d72b6005d8dcc7ab74c507705a643eb2efd192271525172a8f10e8fe48d239",
+          "reference_render_pixel_sha256": "dca02de7be9b230008d07827a0519b54417bf0018112e00599e24eb314a9e6c6",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 184,
+          "reference_pdf_page": 184,
+          "text_sha256": "28da27241dccb42dbfe759597864a0306aa7022c711f72664bf2825452507602",
+          "reference_text_sha256": "28da27241dccb42dbfe759597864a0306aa7022c711f72664bf2825452507602",
+          "normalized_text_equal": true,
+          "normalized_similarity": 1.0,
+          "render_pixel_sha256": "fdbdb2f3a61609f58a42bc23cb7bb992b359b14c7a7d027c8d528a6957b562e6",
+          "reference_render_pixel_sha256": "0eb32fd47f591e543e0fff8160b2bab44cdbf9237a90a3bc4580843ce0f5ba12",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 185,
+          "reference_pdf_page": 185,
+          "text_sha256": "fd5b8fcd5f127359d0054364c327265d1aac0879b83744b075e28dffeae7b02d",
+          "reference_text_sha256": "fd5b8fcd5f127359d0054364c327265d1aac0879b83744b075e28dffeae7b02d",
+          "normalized_text_equal": true,
+          "normalized_similarity": 1.0,
+          "render_pixel_sha256": "dbf3561aa0e027a09d5b433176bffe6a95dfc596e08c9f18038435021f0eb81d",
+          "reference_render_pixel_sha256": "4dc2ae1a53e93aa032efa98027c3a7fff616fc3724e2f5930a71ff47c7abfe4c",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 186,
+          "reference_pdf_page": 186,
+          "text_sha256": "53dbf2f14bd4e53f40203c7c7b7330d7f63d93a5ffa2caf7ebf6c71265069d85",
+          "reference_text_sha256": "53dbf2f14bd4e53f40203c7c7b7330d7f63d93a5ffa2caf7ebf6c71265069d85",
+          "normalized_text_equal": true,
+          "normalized_similarity": 1.0,
+          "render_pixel_sha256": "54520d1659c6ff6ed746d5bd48bdf4ec87dc65b142cc5842da23de63cab6d4f7",
+          "reference_render_pixel_sha256": "fed0666abfe670854fc4e1c0cca1851319ee26fc02ec923a2b57a71812c84158",
+          "render_pixels_equal": false
+        }
+      ],
+      "author_review_status": "REVIEWED_EXACT_SOURCE",
+      "rendered_pages_reviewed": [
+        7,
+        44,
+        176,
+        177,
+        180,
+        181,
+        183,
+        184,
+        185,
+        186
+      ],
+      "text_pages_reviewed": [
+        7,
+        43,
+        44,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186
+      ],
+      "findings": [
+        "All eleven top-end pages match normalized text; visual assembly, lubrication, torque and measurement diagrams checked independently.",
+        "No changed mechanical instruction within the prepared-engine top-end/power-valve scope.",
+        "Engine specifications: carburetor jet spelling N3-EW-2 versus N3EW-2 lies outside procedure scope.",
+        "Symbols page adds wheel-bearing grease; M oil and M grease remain distinct and reviewed.",
+        "2025 specification page omits later cooling leak-test pressure and moves ring clearance limit across page boundary; no pressure test in this scope."
+      ]
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "source_sha256": "454ed477eebbdaea52986a21be86225f74e7895e905138881cc21a16bdabf2d2",
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D69-2819U-11_02.pdf",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\D69-2819U-11_02.pdf",
+      "pages": [
+        {
+          "pdf_page": 176,
+          "reference_pdf_page": 176,
+          "text_sha256": "6da058ebaa42fdbb62aa11a50df471e140f8c17c8e3854cd2405530a0303d7b9",
+          "reference_text_sha256": "6da058ebaa42fdbb62aa11a50df471e140f8c17c8e3854cd2405530a0303d7b9",
+          "normalized_text_equal": true,
+          "normalized_similarity": 1.0,
+          "render_pixel_sha256": "c547bccd45da6e5ed5ae80acfcb84f121f6fd8d7a4ed6b008cc9d9a97cfac998",
+          "reference_render_pixel_sha256": "c547bccd45da6e5ed5ae80acfcb84f121f6fd8d7a4ed6b008cc9d9a97cfac998",
+          "render_pixels_equal": true
+        },
+        {
+          "pdf_page": 177,
+          "reference_pdf_page": 177,
+          "text_sha256": "ae1ea7ded4a227aa7558793c036ee740623c30faf3a7dafb0be024a72715cbc7",
+          "reference_text_sha256": "ae1ea7ded4a227aa7558793c036ee740623c30faf3a7dafb0be024a72715cbc7",
+          "normalized_text_equal": true,
+          "normalized_similarity": 1.0,
+          "render_pixel_sha256": "45198df776f66e2c6efe93dcc4c491bb2a5ab88461c461febfec3276ba88e625",
+          "reference_render_pixel_sha256": "45198df776f66e2c6efe93dcc4c491bb2a5ab88461c461febfec3276ba88e625",
+          "render_pixels_equal": true
+        },
+        {
+          "pdf_page": 178,
+          "reference_pdf_page": 178,
+          "text_sha256": "98c7cd741772050b18bd8378521725b88ef45a5104cc961a7f9cade777b079d1",
+          "reference_text_sha256": "98c7cd741772050b18bd8378521725b88ef45a5104cc961a7f9cade777b079d1",
+          "normalized_text_equal": true,
+          "normalized_similarity": 1.0,
+          "render_pixel_sha256": "f369467677a8c188b5f2654be55358bdab265c881a140a97ca77b53b78a6fca9",
+          "reference_render_pixel_sha256": "b2a933d2d72f8d4fd581738838a087525892de616f8a5796be858d6dcf887155",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 179,
+          "reference_pdf_page": 179,
+          "text_sha256": "b6db2fc21853878add1196622713dd7d1b16e6e48fddce590f708af7fab5db34",
+          "reference_text_sha256": "b6db2fc21853878add1196622713dd7d1b16e6e48fddce590f708af7fab5db34",
+          "normalized_text_equal": true,
+          "normalized_similarity": 1.0,
+          "render_pixel_sha256": "3cd68dc3d8869c29d23cce0bd6d79c7be32843b8ee8df8632b49299328b8e3bc",
+          "reference_render_pixel_sha256": "9ce15d8f3f54e6d7aa6912164cd146a1b2683c4830be86d152a6aa26557d1098",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 180,
+          "reference_pdf_page": 180,
+          "text_sha256": "8c705af09d28d83c2b927d1c9020df857a9bbbaca51c3f7ac0930a7c2e8aefac",
+          "reference_text_sha256": "8c705af09d28d83c2b927d1c9020df857a9bbbaca51c3f7ac0930a7c2e8aefac",
+          "normalized_text_equal": true,
+          "normalized_similarity": 1.0,
+          "render_pixel_sha256": "4e576e42b0ddda0fbd3f195d66da1c45abfc6296932b135a5f9b1f10fbe3e577",
+          "reference_render_pixel_sha256": "854d097e1a4d64966ea0877b255207d25f854af12bb25be804d318d2dae923b7",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 181,
+          "reference_pdf_page": 181,
+          "text_sha256": "aaec4665e931b7207bc52c39bc1e4db421f16f073981f837b324cb6714d0786e",
+          "reference_text_sha256": "aaec4665e931b7207bc52c39bc1e4db421f16f073981f837b324cb6714d0786e",
+          "normalized_text_equal": true,
+          "normalized_similarity": 1.0,
+          "render_pixel_sha256": "e31041c1b95b63a1d64d651a5866d6f0ac82d9c5342319e6c7f1566172e62887",
+          "reference_render_pixel_sha256": "3576c7ab192ebc14fafd28c1295dc857bdbe62e4dc945c82c58ba226af2e4f00",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 182,
+          "reference_pdf_page": 182,
+          "text_sha256": "7c04852b4d8b4a3c9fe5ffe73a5c5e92bf6939ad05b3df77bffb2f6e8b52ff7a",
+          "reference_text_sha256": "7c04852b4d8b4a3c9fe5ffe73a5c5e92bf6939ad05b3df77bffb2f6e8b52ff7a",
+          "normalized_text_equal": true,
+          "normalized_similarity": 1.0,
+          "render_pixel_sha256": "381f010a2809738f584bd44304192f02af51c04dac07a540ae54177717f7c2fe",
+          "reference_render_pixel_sha256": "02ee1d3d541cead40c08dac4c8d1a1fbbc64931dc5672a037fc9488c0ce60fd1",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 183,
+          "reference_pdf_page": 183,
+          "text_sha256": "fe3c9c7113c6aa33e8c1ae2579d7ae554a32ca991ce0a5ae5311321daa68b889",
+          "reference_text_sha256": "fe3c9c7113c6aa33e8c1ae2579d7ae554a32ca991ce0a5ae5311321daa68b889",
+          "normalized_text_equal": true,
+          "normalized_similarity": 1.0,
+          "render_pixel_sha256": "17ebade6bbd960aab4933d9e3c2276cc0fd419600da4f1ac136e6154f70e09bd",
+          "reference_render_pixel_sha256": "dca02de7be9b230008d07827a0519b54417bf0018112e00599e24eb314a9e6c6",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 184,
+          "reference_pdf_page": 184,
+          "text_sha256": "28da27241dccb42dbfe759597864a0306aa7022c711f72664bf2825452507602",
+          "reference_text_sha256": "28da27241dccb42dbfe759597864a0306aa7022c711f72664bf2825452507602",
+          "normalized_text_equal": true,
+          "normalized_similarity": 1.0,
+          "render_pixel_sha256": "c79e37cb0ce21e61c9401aa30afb7ed6afe4e9249f8356d7de98e3f62d16572f",
+          "reference_render_pixel_sha256": "0eb32fd47f591e543e0fff8160b2bab44cdbf9237a90a3bc4580843ce0f5ba12",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 185,
+          "reference_pdf_page": 185,
+          "text_sha256": "fd5b8fcd5f127359d0054364c327265d1aac0879b83744b075e28dffeae7b02d",
+          "reference_text_sha256": "fd5b8fcd5f127359d0054364c327265d1aac0879b83744b075e28dffeae7b02d",
+          "normalized_text_equal": true,
+          "normalized_similarity": 1.0,
+          "render_pixel_sha256": "d8b78b1031912796fce133ec9776f403d748e54c0d17b85541bcc226d11e8da8",
+          "reference_render_pixel_sha256": "4dc2ae1a53e93aa032efa98027c3a7fff616fc3724e2f5930a71ff47c7abfe4c",
+          "render_pixels_equal": false
+        },
+        {
+          "pdf_page": 186,
+          "reference_pdf_page": 186,
+          "text_sha256": "53dbf2f14bd4e53f40203c7c7b7330d7f63d93a5ffa2caf7ebf6c71265069d85",
+          "reference_text_sha256": "53dbf2f14bd4e53f40203c7c7b7330d7f63d93a5ffa2caf7ebf6c71265069d85",
+          "normalized_text_equal": true,
+          "normalized_similarity": 1.0,
+          "render_pixel_sha256": "c220a4de0e8c6e79acaeb81eeab0a6e344ddd7b00a758931e4254b97d8e2fc2c",
+          "reference_render_pixel_sha256": "fed0666abfe670854fc4e1c0cca1851319ee26fc02ec923a2b57a71812c84158",
+          "render_pixels_equal": false
+        }
+      ],
+      "author_review_status": "REVIEWED_EXACT_SOURCE",
+      "rendered_pages_reviewed": [
+        7,
+        44,
+        176,
+        177,
+        180,
+        181,
+        183,
+        184,
+        185,
+        186
+      ],
+      "text_pages_reviewed": [
+        7,
+        43,
+        44,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186
+      ],
+      "findings": [
+        "All eleven top-end pages match normalized text; visual assembly, lubrication, torque and measurement diagrams checked independently.",
+        "No changed mechanical instruction within the prepared-engine top-end/power-valve scope.",
+        "Engine specifications: carburetor jet spelling N3-EW-2 versus N3EW-2 lies outside procedure scope."
+      ]
+    }
+  ],
+  "2020_status": "Older layout not mapped yet; requires original section review"
+}

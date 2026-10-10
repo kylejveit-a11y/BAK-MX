@@ -1,0 +1,39 @@
+{
+  "checkpoint_date": "2026-09-21",
+  "status": "PAUSED_AT_USER_REQUEST_AFTER_CURRENT_BATCH",
+  "task": "Exact-model-year parts inventory only",
+  "summary": {
+    "planned_acquisition_slots": 467,
+    "families": 62,
+    "complete_catalog_inventories": 71,
+    "original_60_complete": 26,
+    "new_completed_targets": 57,
+    "selected_captured_occurrences": 87803,
+    "complete_by_brand": {
+      "GasGas": 17,
+      "Honda": 4,
+      "Husqvarna": 15,
+      "KTM": 26,
+      "Kawasaki": 7,
+      "Yamaha": 2
+    }
+  },
+  "status_file": "docs\\research\\parts-pass14\\INVENTORY_STATUS.json",
+  "status_sha256": "89b2b6b803a1c376571aea89cea2c4fd9156006ecb0b15022cf0af2f5e7e0095",
+  "roster_sha256": "3c3ef2861782abf2e72ab9c2327298d70e9680380f45d311e6555bf34718c41d",
+  "database_calls_this_pass": 0,
+  "database_writes_this_pass": 0,
+  "allowed_database_project": "yzvrujffiktfserrgkcb",
+  "paid_manual_purchase": "ON_HOLD",
+  "resume": [
+    "Read INVENTORY_STATUS.json and launch-targets.json; preserve existing captures.",
+    "Resume saved Yamaha RECOVERY.json, Honda resume-queue.json, Kawasaki exact indexes, European CAPTURE_STATE.json. European STOP flag intentionally prevents further acquisition until user resumes.",
+    "Do not infer production years, compatibility, installed quantities, torque or other specs from catalog enumeration.",
+    "Run scripts/build-launch-parts-inventory.py after validated captures. Catalog inventory additions are local; legacy runtime inventory and database have not been updated."
+  ],
+  "validation": [
+    "MotoSport parser regression passed",
+    "Exact source hashes and assembly denominators reconciled by build-launch-parts-inventory.py"
+  ],
+  "launch_ready": false
+}

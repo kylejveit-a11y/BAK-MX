@@ -1,0 +1,434 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2024-yz450f-us-front-caliper-rebuild-v1",
+  "component": "brakes",
+  "affected_components": [
+    "front_brake",
+    "brakes",
+    "fork"
+  ],
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2024,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "title": "Rebuild the stock front brake caliper",
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "completeness": "Complete stock front-caliper seal/piston service with removal, fluid replacement, bleeding and refit. Serviceable master cylinder, hose and disc required; damaged components need their own replacement operation.",
+  "entry_state": [
+    "Assembled exact US2024 stock YZ450F; front wheel installed.",
+    "Original front master cylinder, hose and disc serviceable; correct replacement caliper seals and any needed pistons/pads available."
+  ],
+  "exit_state": [
+    "Front caliper rebuilt and secured; hose connected, pads retained and reservoir closed.",
+    "Front circuit bled; leak, lever and brake-effect checks passed."
+  ],
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf",
+    "document_sha256": "6e784b3b15fe1e131f0e385676ca2873e74d783ee2499ce561e595bcea9ca9be",
+    "document_revision": "BHR-2819U-11 / LIT-11626-37-11; first edition February 2023",
+    "pdf_pages": [
+      8,
+      102,
+      103,
+      104,
+      105,
+      132,
+      133,
+      134,
+      136,
+      137,
+      138,
+      139,
+      140
+    ],
+    "printed_pages": [
+      "Symbols (unnumbered)",
+      "102: 3-24",
+      "103: 3-25",
+      "104: 3-26",
+      "105: 3-27",
+      "132: 4-16",
+      "133: 4-17",
+      "134: 4-18",
+      "136: 4-20",
+      "137: 4-21",
+      "138: 4-22",
+      "139: 4-23",
+      "140: 4-24"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Independent root review approved exact2024 fluid, seals, retention, access, bleed and closure. Hose diagram reference corrected; sound front-master washer/boot reuse retained after enlarged NEW-callout review."
+  },
+  "applicability": {
+    "included": "Stock front brake on exact US2024 YZ450F",
+    "excluded": [
+      "Other model years",
+      "Replacement aftermarket brake system",
+      "Damaged master cylinder/hose/disc requiring separate replacement"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "required_tools": [
+    {
+      "name": "Stable support, suitable hand tools and precision torque tools",
+      "size": "1.5–30 Nm"
+    },
+    {
+      "name": "Compressed-air supply, protective rag and eye protection",
+      "size": "For controlled piston extraction and clearing passages"
+    },
+    {
+      "name": "Clear bleed hose, waste container and clean fluid-safe trays",
+      "size": "Fit bleed screw securely"
+    },
+    {
+      "name": "Pad-thickness measuring tool",
+      "size": "1.0 mm limit"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "Fresh DOT4 brake fluid",
+      "purpose": "Cleaning, lubrication and complete front-circuit refill"
+    },
+    {
+      "name": "Two piston seals and two dust seals",
+      "purpose": "Mandatory caliper renewals"
+    },
+    {
+      "name": "Two new copper union washers",
+      "purpose": "Caliper hose connection"
+    },
+    {
+      "name": "Silicone grease",
+      "purpose": "Only diagram-marked seals and sliding pins"
+    },
+    {
+      "name": "Replacement pistons and paired brake pads if inspection requires",
+      "purpose": "Match exact stock caliper; do not reuse failed parts"
+    }
+  ],
+  "preflight": [
+    "Use linked exploded views to identify seal grooves, pad springs and sliding pins.",
+    "Keep brake fluid away from eyes, painted surfaces and plastics; contain piston ejection with a rag."
+  ],
+  "critical_stop_conditions": [
+    "Damaged bore/body/bracket or unserviceable replacement components.",
+    "Fluid leaks, persistent air, spongy lever or failed brake-effect check."
+  ],
+  "steps": [
+    {
+      "id": "prepare",
+      "title": "Prepare the front circuit",
+      "instruction": "Secure the bike upright on level ground with reservoir top horizontal. Protect paint and plastic. Remove reservoir cap, diaphragm and float; keep parts clean.",
+      "source_pdf_pages": [
+        102,
+        104,
+        134
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=102",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=104",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=134"
+      ],
+      "depends_on": [],
+      "verification": "Bike stable; only the front circuit is being opened.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion reconciled against exact 2024 BHR source; logging/support and closed-caliper retention are explicit workflow adaptations."
+    },
+    {
+      "id": "drain",
+      "title": "Drain and disconnect",
+      "instruction": "Remove caliper union bolt and both copper washers; put hose end in a catch container and pump out fluid. Discard drained fluid and washers.",
+      "source_pdf_pages": [
+        132,
+        138
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=132",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=138"
+      ],
+      "depends_on": [
+        "prepare"
+      ],
+      "verification": "Entire front circuit drained before caliper disassembly.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion reconciled against exact 2024 BHR source; logging/support and closed-caliper retention are explicit workflow adaptations."
+    },
+    {
+      "id": "remove",
+      "title": "Remove caliper and pads",
+      "instruction": "Remove pad-pin plug and loosen pin. Remove caliper mounting bolts, then pin, pads and both illustrated pad springs. Separate caliper and bracket; release hose holder if needed.",
+      "source_pdf_pages": [
+        132,
+        136,
+        137,
+        139
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=132",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=136",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=137",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=139"
+      ],
+      "depends_on": [
+        "drain"
+      ],
+      "verification": "Keep spring positions matched to diagram132; wheel stays installed.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion reconciled against exact 2024 BHR source; logging/support and closed-caliper retention are explicit workflow adaptations."
+    },
+    {
+      "id": "pistons",
+      "title": "Extract pistons",
+      "instruction": "Contain the pistons with a rag. Apply compressed air through the hose port to expel them; keep clear of their exit. Never pry pistons out. Remove both dust seals, both piston seals and bleed screw.",
+      "source_pdf_pages": [
+        133,
+        138
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=133",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=138"
+      ],
+      "depends_on": [
+        "remove"
+      ],
+      "verification": "All four old seals removed; no piston or bore damage from extraction.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion reconciled against exact 2024 BHR source; logging/support and closed-caliper retention are explicit workflow adaptations."
+    },
+    {
+      "id": "inspect",
+      "title": "Inspect the caliper",
+      "instruction": "Replace rusted, scratched or worn pistons. Replace the caliper for cylinder scratches/wear or body cracks/damage; replace a damaged bracket. Clear blocked fluid passages with compressed air.",
+      "source_pdf_pages": [
+        138
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=138"
+      ],
+      "depends_on": [
+        "pistons"
+      ],
+      "verification": "Record findings; proceed only with serviceable or correctly replaced parts.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion reconciled against exact 2024 BHR source; logging/support and closed-caliper retention are explicit workflow adaptations."
+    },
+    {
+      "id": "clean",
+      "title": "Clean and renew seals",
+      "instruction": "Wash internal parts with fresh DOT 4, never solvent. Install two new piston seals and two new dust seals in their respective diagram 133 grooves; use silicone grease at its S-marked seal positions.",
+      "source_pdf_pages": [
+        8,
+        133,
+        138,
+        139
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=8",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=133",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=138",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=139"
+      ],
+      "depends_on": [
+        "inspect"
+      ],
+      "verification": "Correct new seals fully seated; piston seal inward of dust seal as illustrated.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion reconciled against exact 2024 BHR source; logging/support and closed-caliper retention are explicit workflow adaptations."
+    },
+    {
+      "id": "assemble",
+      "title": "Reassemble pistons and bracket",
+      "instruction": "Lubricate pistons with fresh DOT 4 and install as diagram 133. Apply silicone grease at diagram 132 sliding-pin locations and reunite bracket/caliper. Install bleed screw at 5 Nm.",
+      "source_pdf_pages": [
+        8,
+        132,
+        133,
+        139
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=8",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=132",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=133",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=139"
+      ],
+      "depends_on": [
+        "clean"
+      ],
+      "verification": "Pistons seated without seal damage; sliding assembly moves correctly.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion reconciled against exact 2024 BHR source; logging/support and closed-caliper retention are explicit workflow adaptations."
+    },
+    {
+      "id": "hose",
+      "title": "Reconnect the hose",
+      "instruction": "Position bracket/caliper temporarily. Fit hose with two new copper washers; its pipe portion must contact the caliper stop. Tighten union bolt to 30 Nm.",
+      "source_pdf_pages": [
+        132,
+        139
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=132",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=139"
+      ],
+      "depends_on": [
+        "assemble"
+      ],
+      "verification": "Record new washers, stop contact and30 Nm union torque.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion reconciled against exact 2024 BHR source; logging/support and closed-caliper retention are explicit workflow adaptations."
+    },
+    {
+      "id": "pads",
+      "title": "Restore pads and mounting",
+      "instruction": "Check lining thickness: replace pads as a set at the 1.0 mm wear limit. Restore both pad springs to diagram 132, engage pad projections in caliper recesses and fit pin temporarily. Secure caliper mounting bolts 28 Nm, pin 17 Nm and plug 2.5 Nm.",
+      "source_pdf_pages": [
+        132,
+        137,
+        139
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=132",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=137",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=139"
+      ],
+      "depends_on": [
+        "hose"
+      ],
+      "verification": "Record lining assessment and mounting/pin/plug torques; pads correctly retained.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion reconciled against exact 2024 BHR source; logging/support and closed-caliper retention are explicit workflow adaptations."
+    },
+    {
+      "id": "holder",
+      "title": "Secure hose routing",
+      "instruction": "If released, align hose-holder upper edge with the hose paint mark and tighten holder bolt 9 Nm. Confirm original routing without strain.",
+      "source_pdf_pages": [
+        139
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=139"
+      ],
+      "depends_on": [
+        "pads"
+      ],
+      "verification": "Holder secured and hose routed as illustrated.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion reconciled against exact 2024 BHR source; logging/support and closed-caliper retention are explicit workflow adaptations."
+    },
+    {
+      "id": "fill",
+      "title": "Fill for bleeding",
+      "instruction": "Fill reservoir above the minimum mark shown on PDF 103 with fresh DOT 4 and fit diaphragm. Attach a secure clear hose to bleeder, with its free end in a catch container. Keep reservoir supplied throughout; prevent water entry and overflow.",
+      "source_pdf_pages": [
+        102,
+        103,
+        104,
+        139
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=102",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=103",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=104",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=139"
+      ],
+      "depends_on": [
+        "holder"
+      ],
+      "verification": "Reservoir horizontal; correct fluid and sufficient supply.",
+      "record_required": false,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion reconciled against exact 2024 BHR source; logging/support and closed-caliper retention are explicit workflow adaptations."
+    },
+    {
+      "id": "bleed",
+      "title": "Remove trapped air",
+      "instruction": "Slowly pump lever several times, then pull fully and hold. Open bleeder; close it before releasing lever. Repeat until hose fluid contains no bubbles, replenishing reservoir. If stubborn tiny bubbles persist, let fluid settle a few hours and repeat.",
+      "source_pdf_pages": [
+        104,
+        105
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=104",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=105"
+      ],
+      "depends_on": [
+        "fill"
+      ],
+      "verification": "Record bubble-free result; never allow reservoir to empty.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion reconciled against exact 2024 BHR source; logging/support and closed-caliper retention are explicit workflow adaptations."
+    },
+    {
+      "id": "close",
+      "title": "Close the circuit",
+      "instruction": "Tighten bleeder 5 Nm and refit its cap. Restore fluid above the minimum mark shown on PDF 103 with bike upright and reservoir horizontal. Refit float, diaphragm and cap in diagram 134 order; cap screws 1.5 Nm. Clean spills immediately.",
+      "source_pdf_pages": [
+        102,
+        103,
+        105,
+        133,
+        134
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=102",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=103",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=105",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=133",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=134"
+      ],
+      "depends_on": [
+        "bleed"
+      ],
+      "verification": "Record final level, bleeder and cap torque; all openings closed.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion reconciled against exact 2024 BHR source; logging/support and closed-caliper retention are explicit workflow adaptations."
+    },
+    {
+      "id": "verify",
+      "title": "Verify brake function",
+      "instruction": "Apply front brake repeatedly and inspect hose/connections for leaks. Lever must not feel soft or spongy; bleed again if it does. After stationary checks pass, check brake effect on a dry test surface before normal riding.",
+      "source_pdf_pages": [
+        103,
+        104,
+        140
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=103",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=104",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf#page=140"
+      ],
+      "depends_on": [
+        "close"
+      ],
+      "verification": "Record no leaks, firm lever and proper braking; unresolved faults prevent completion.",
+      "record_required": true,
+      "diagram_reference_required": true,
+      "origin": "Original illustrated companion reconciled against exact 2024 BHR source; logging/support and closed-caliper retention are explicit workflow adaptations."
+    }
+  ],
+  "publication_status": "APPROVED",
+  "authoring_template": {
+    "path": "docs/research/workshop-pass9/yamaha-2025-brakes/front-caliper-rebuild-v1.procedure.json",
+    "sha256": "d19ce9350d0a271b3703833c033b1ba0211ec8ecaaf9f69d8e44caf0cf7c84ab",
+    "scope": "Sequence structure only; not mechanical applicability evidence."
+  },
+  "operation_dependencies": []
+}

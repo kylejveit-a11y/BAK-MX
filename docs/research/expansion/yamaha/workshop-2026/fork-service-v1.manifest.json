@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2026-yz450f-fork-service-review-v1",
+  "source_pdf_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+  "approved_runtime_candidates": [
+    "fork-remove-refit-v1.procedure.json"
+  ],
+  "not_runtime_approved": [
+    "fork-internal-coverage-v1.json"
+  ],
+  "database_writes": false,
+  "artifacts": [
+    {
+      "path": "fork-remove-refit-v1.procedure.json",
+      "sha256": "cdc130fcef2e490682863d8311dd4823cdc84a2d5343414a271dcf18111a20ee"
+    },
+    {
+      "path": "fork-internal-coverage-v1.json",
+      "sha256": "a201aca89155dbbc5a683b048e834cf52e790f8c3328c927dc7d5cdd4e35d54c"
+    },
+    {
+      "path": "FORK_SERVICE_V1_REVIEW.md",
+      "sha256": "fa580a273d3b306e0805fbf9b9dcfe0597cc1fbb05c4bcb04df8c98500e741a3"
+    },
+    {
+      "path": "validate_fork_v1.py",
+      "sha256": "586a8cfb56b8725e6473b6e2d54463291f329211397238b864eff01aa30b815c"
+    }
+  ]
+}

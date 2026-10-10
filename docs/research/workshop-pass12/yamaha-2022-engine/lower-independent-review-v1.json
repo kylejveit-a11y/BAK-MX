@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED",
+  "reviewer": "/root",
+  "artifact_sha256": "7f00ea163b0867b3e60b19246aba36af5bfb75b63e12266829ca0cac2da8fba4",
+  "reviewed_candidate_sha256": "471a5fa1f3306636316126f068e6e4339b1de5267da43d97c8e6c17b6a733d35",
+  "approval_only_change": "Publication and source review status only; all 45 instructions unchanged.",
+  "source_sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608",
+  "reviewed_steps": "All 45 instructions read against exact 2022 source; critical diagrams independently inspected.",
+  "text_pages": [
+    224,
+    225,
+    227,
+    235,
+    236,
+    237,
+    238,
+    239,
+    242,
+    247,
+    248,
+    252,
+    254,
+    255
+  ],
+  "visual_pages": [
+    226,
+    232,
+    234,
+    236,
+    240,
+    244,
+    248,
+    249,
+    250,
+    252,
+    257,
+    258,
+    259,
+    260
+  ],
+  "findings": [],
+  "review_notes": [
+    "Clutch 75 Nm engine oil/new lockwasher; primary 80 Nm engine oil/new conical washer facing outward; balance nuts50/45 confirmed.",
+    "Starter holder12 Nm LT and right-cover seal inward confirmed.",
+    "Case12 Nm, drive seal0–0.5 mm, crank bearing retainers22 Nm LT, exact gear stacks/forks and spring guides verified.",
+    "Prepared bench scope and peripheral exclusions retained; no oil-check-bolt torque invented."
+  ]
+}

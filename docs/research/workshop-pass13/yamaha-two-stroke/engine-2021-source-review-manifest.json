@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED",
+  "sources": [
+    {
+      "id": "yamaha-us-2021-yz250-oem",
+      "source_id": "yamaha-us-2021-yz250-oem",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BF1-2819U-10_02.pdf",
+      "sha256": "2cd32cdb7b01212b35ca3ddab57c60cf47873ad6ef19f18ad57b98e779e41ab7",
+      "local_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\BF1-2819U-10_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\twostroke13\\BF1-2819U-10_02.pdf"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "docs/research/workshop-pass13/yamaha-two-stroke/2021-yz250-top-end-power-valve-bench-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "e1ea01986c22d158e2c4519cc45a65e402dde20fbb4ae314785b8b36a6c2f95a",
+      "source_id": "yamaha-us-2021-yz250-oem",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "step_count": 28
+    }
+  ],
+  "comparison": {
+    "path": "docs/research/workshop-pass13/yamaha-two-stroke/engine-comparison-2021.json",
+    "sha256": "850a7e54808f32191fcf9f49cb4173836d6c28adfd232e2398caf0b023d6702a"
+  },
+  "independent_review": {
+    "path": "docs/research/workshop-pass13/yamaha-two-stroke/engine-freeze-review-2020-2021.json",
+    "sha256": "b8beb186b17a631dc7cd00028c1d5851bff00536cd751932bda6ab12faabdc94"
+  }
+}

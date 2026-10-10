@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "status": "SOURCE_CHECKPOINT_FINAL",
+  "date": "2026-09-13",
+  "current_reviewed_procedures": 16,
+  "current_reviewed_steps": 153,
+  "full_engine_status": "HELD_BEFORE_TEARDOWN_SOURCE_CONFLICT",
+  "database_writes_by_research_agent": false,
+  "root_owned_excluded": [
+    "clutch-preparation-conflict.json"
+  ],
+  "artifacts": [
+    {
+      "path": "build_chain_index.py",
+      "sha256": "c23b74d07e3369dc2f3e6c5e3dd68a84846e0a3dbd77f47478d2c1f41bccfdc3"
+    },
+    {
+      "path": "build_engine3.py",
+      "sha256": "5e08106cb684c61484713d00e03e6c16eb4bdca6cb3fcb28fd1ca17cd1ce53fd"
+    },
+    {
+      "path": "build_engine3_clutch.py",
+      "sha256": "51af61f874008af2e9d0a1c417ee79632f22993430825d0fe0b0bc4a25a927bf"
+    },
+    {
+      "path": "build_engine3_core.py",
+      "sha256": "2e245add7f23f76eb3ad7242b2655062cdf036120f9d355bf37963d3095d34dc"
+    },
+    {
+      "path": "build_engine3_covers.py",
+      "sha256": "0346deb0379f315e0601d3997db91a47f43260fb52c1263beae2ef0d325dd9b3"
+    },
+    {
+      "path": "build_engine3_dependencies.py",
+      "sha256": "f197cf52a0ab41dca1a8b2ad2e1fed8a58be13438b3e99333e85ae612b30c0ff"
+    },
+    {
+      "path": "build_engine3_top.py",
+      "sha256": "40678819829200d6be245974aef34e5cc5b6fbba3b322e3731642c8155c7a75c"
+    },
+    {
+      "path": "cams-install-bench-v1.procedure.json",
+      "sha256": "9e535b11ab32b1c5642f06af4fe92cf92328009af386dcb4f5701d94e8d0a0c6"
+    },
+    {
+      "path": "cams-remove-bench-v1.procedure.json",
+      "sha256": "978d1e035f6e40845377a631941944f5107dc81316aaf36ea6c0aedf9c429cd0"
+    },
+    {
+      "path": "camshaft-inspection-bench-v1.procedure.json",
+      "sha256": "3515e16a3b60db4c1781da4bb24b1a0a26c254ec0c0088ee136a6f6f0742d417"
+    },
+    {
+      "path": "camshaft-inspection-bench-v2.procedure.json",
+      "sha256": "17dae7bc1f79ac55372a9b1ecb9c938a14a3ce97f3f1c5156fa0b0e0d6de6b4b"
+    },
+    {
+      "path": "clutch-basket-overhaul-held-v1.json",
+      "sha256": "cbfac032b5a2ab332a341e74c939fb616841dacce1737782d9c1b445823fb5ab"
+    },
+    {
+      "path": "clutch-pack-bench-v1.procedure.json",
+      "sha256": "1d00e86e44bf4f22c711c62ec242004906de6674b65290e8008aa04790dd55a4"
+    },
+    {
+      "path": "crankcase-bench-v1.procedure.json",
+      "sha256": "e1bd3cb500a2ada0ba296231f471020d775a8d7e25d113064fb97cb6acb24a66"
+    },
+    {
+      "path": "crankcase-bench-v2.procedure.json",
+      "sha256": "4f6a9ac87be64485eb626ba3cca7778d4a85fa9e72469e54293794a96aabe8df"
+    },
+    {
+      "path": "crankshaft-assembly-bench-v1.procedure.json",
+      "sha256": "6cabb20ec8de3621d37497726806b499eadda26ceb78eea575125e510b9e2f06"
+    },
+    {
+      "path": "cylinder-piston-bench-v1.procedure.json",
+      "sha256": "2ed73deb5197670d621aacecc63112c55a6deb8b35048817f39eebefb08a8be4"
+    },
+    {
+      "path": "engine-chain-index-v1.json",
+      "sha256": "9c52fcb918dc8c2219248bfd187d88d8d08346621b1c074486e58128cd19782b"
+    },
+    {
+      "path": "FINAL_REVIEW.md",
+      "sha256": "37c85b3216cb8c8cc2d9e085809fad9622dc59846be27082863dfd9fba696977"
+    },
+    {
+      "path": "finalize_engine3.py",
+      "sha256": "c740f056b8a1f367f2260208e8d7db0f8c634698273a72153ca82e02380cb6dd"
+    },
+    {
+      "path": "generator-bench-v1.procedure.json",
+      "sha256": "da8284d52be4db6e75f96704eedb00a02b1d1dda46d9a1d340c5ab46c7bb7b03"
+    },
+    {
+      "path": "head-remove-refit-bench-v1.procedure.json",
+      "sha256": "76fba7088007d39627366380720a94810d729967e7e85112f625694d958594cb"
+    },
+    {
+      "path": "head-valve-inspect-reseal-bench-v1.procedure.json",
+      "sha256": "5bf0f1c569ce8e7154f725eef699c1d65b0c83a077a160996dd2782f9ce6f940"
+    },
+    {
+      "path": "oil-pump-bench-v1.procedure.json",
+      "sha256": "fcbb0bb1558473b26b633ecb18d0c57f9d25ef082d775171b44580e369afa250"
+    },
+    {
+      "path": "primary-balancer-bench-v1.procedure.json",
+      "sha256": "6bc7b33b70080f343eed82ae0dccf564a0190ab80729b58c4ca047cec1249f9a"
+    },
+    {
+      "path": "record-policy.json",
+      "sha256": "266b063d5319cf2235ca07c8217dc126b3922e94de7e4c8f32ae071027596744"
+    },
+    {
+      "path": "REVIEW_CHECKPOINT_1.md",
+      "sha256": "aab575f0a5605ca774c89bab0aa04be4ea0e2f92148efcb60b35970f8d33c211"
+    },
+    {
+      "path": "right-cover-bench-v1.procedure.json",
+      "sha256": "9cb79583deb724cc4b3d0a632371691067a24d50259b2a856b3434b7e009dc5e"
+    },
+    {
+      "path": "shift-mechanism-bench-v1.procedure.json",
+      "sha256": "75909f39ba4789c90fdd4340ecdab63435f7088839f860a8b4e7e7bd1016ce28"
+    },
+    {
+      "path": "source-review-manifest.json",
+      "sha256": "12873a0ae3804e177b04d9a91ca90255b19d391b6c1cd6aa7f9b0abdcd6a6ca4"
+    },
+    {
+      "path": "supersessions-v1.json",
+      "sha256": "c98b875718a6c37afceed594f652b81c3b06c5e129c5213431fcbcd8152a9178"
+    },
+    {
+      "path": "transmission-bench-v1.procedure.json",
+      "sha256": "2820e1df5f36c86abd518a7283af7595852e7be2d949dcb0f6d80cfb34275234"
+    },
+    {
+      "path": "validate_review.py",
+      "sha256": "8ca8bedcfd99ca47a39cf9a69fc9bdc7554d0890582423e7210891c37ae72773"
+    },
+    {
+      "path": "water-pump-bench-v1.procedure.json",
+      "sha256": "8f7a867076ae07d8ed6e5883b3f67d4b7f0019554cb067be42943933c2bfa14d"
+    }
+  ]
+}

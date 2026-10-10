@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "engine-pass4-husqvarna-reviewed-procedures",
+  "reviewed_at": "2026-09-13",
+  "database_writes": false,
+  "sources": [
+    {
+      "id": "husqvarna25",
+      "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "local_pdf_path": "C:/Users/kylej/AppData/Local/Temp/hq-fc450-2025.pdf",
+      "sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "engine-oil-filter-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "d8ece6187dc62e48e88e3154cb7197c1a524a66a6ee9df4b774c0e8a5c074e5b",
+      "source_id": "husqvarna25",
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FC 450",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      }
+    }
+  ]
+}

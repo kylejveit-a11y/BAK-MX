@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "reviewer": "root (independent of author yamaha_workshop_evidence)",
+  "status": "APPROVED",
+  "artifact": "lower-engine-bench-v1.procedure.json",
+  "artifact_sha256": "47a147277f552cf86353a2277bfa5205b5d7719966c3e957cda86df0deb70e35",
+  "reviewed_candidate_sha256": "0a6ed213ebcd66a76bc0eed9317dc57ebe606ba0f2b731aaf8a49d3ed9f01e18",
+  "approval_scope": "47-step bounded lower-engine bench repair with prepared top-end-removed entry and explicit retained-assembly exclusions.",
+  "review_method": "All47 instructions independently read; exact OEM text and rendered235/237/238/239/245–255/258–269/271–278 and text270/279–282 checked. Source SHA5005e7d8492c9482dfe44c6d752609a9a70a836f5b1dc94be3149d5d493de8ac.",
+  "findings_resolved": [
+    "LS grease on drive-shaft, filter and filler O-rings",
+    "Early matched timing-chain/cam/crank disposition before crank selection",
+    "M grease on both exact crank and balancer diagram locations",
+    "Either primary-gear failure requires replacement of the pair",
+    "Solvent and debris clearance before case assembly"
+  ],
+  "open_blocking_findings": [],
+  "freeze_changes": "Publication/source status only; mechanical instructions and exclusions unchanged."
+}

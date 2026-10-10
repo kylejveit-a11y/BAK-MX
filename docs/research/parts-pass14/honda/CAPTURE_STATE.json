@@ -1,0 +1,526 @@
+{
+  "captured_at": "2026-09-21T15:36:12.383836+00:00",
+  "status": "USER_REQUESTED_WRAPUP_CHECKPOINT",
+  "scope": "28 Honda targets2020\u20132026; all indexed assembly denominators observed; complete and partial capture explicitly separate.",
+  "targets": [
+    {
+      "directory": "2020-crf250r",
+      "target": {
+        "manufacturer": "Honda",
+        "year": 2020,
+        "model": "CRF250R",
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "ALL_INDEXED_PAGES_CAPTURED",
+      "indexed_assemblies": 50,
+      "captured_assemblies": 50,
+      "occurrences": 1004,
+      "unique_part_numbers": 890,
+      "explicit_catalog_quantities": 989,
+      "supersession_rows": 123,
+      "inventory_sha256": "82cab9e73245a8a45391062b3fcf5ae4d2e70d25936977312a0262d3506e63c1"
+    },
+    {
+      "directory": "2020-crf250rx",
+      "target": {
+        "manufacturer": "Honda",
+        "year": 2020,
+        "model": "CRF250RX",
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "PARTIAL",
+      "indexed_assemblies": 50,
+      "captured_assemblies": 0,
+      "occurrences": 0,
+      "unique_part_numbers": 0,
+      "explicit_catalog_quantities": 0,
+      "supersession_rows": 0,
+      "inventory_sha256": "c27b73897483e7fb5f4a01c18807dd7b9fe032605105c4796d1050d97b0af8f6"
+    },
+    {
+      "directory": "2020-crf450r",
+      "target": {
+        "manufacturer": "Honda",
+        "year": 2020,
+        "model": "CRF450R",
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "PARTIAL",
+      "indexed_assemblies": 49,
+      "captured_assemblies": 0,
+      "occurrences": 0,
+      "unique_part_numbers": 0,
+      "explicit_catalog_quantities": 0,
+      "supersession_rows": 0,
+      "inventory_sha256": "b4df5509f618d3cd7c38f244c38fafd629a336ff5dd4d01b4fbdcbe3bc6265af"
+    },
+    {
+      "directory": "2020-crf450rx",
+      "target": {
+        "manufacturer": "Honda",
+        "year": 2020,
+        "model": "CRF450RX",
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "PARTIAL",
+      "indexed_assemblies": 49,
+      "captured_assemblies": 0,
+      "occurrences": 0,
+      "unique_part_numbers": 0,
+      "explicit_catalog_quantities": 0,
+      "supersession_rows": 0,
+      "inventory_sha256": "40d397eab16efb2c2c9fcb57abf594adcf70bfa395e4b3d8c58a47e81f769a22"
+    },
+    {
+      "directory": "2021-crf250r",
+      "target": {
+        "manufacturer": "Honda",
+        "year": 2021,
+        "model": "CRF250R",
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "PARTIAL",
+      "indexed_assemblies": 50,
+      "captured_assemblies": 0,
+      "occurrences": 0,
+      "unique_part_numbers": 0,
+      "explicit_catalog_quantities": 0,
+      "supersession_rows": 0,
+      "inventory_sha256": "daef70e3e74775b938a1f74664e4f43b31e58a872c9ae0ce5cb1bc032de6a839"
+    },
+    {
+      "directory": "2021-crf250rx",
+      "target": {
+        "manufacturer": "Honda",
+        "year": 2021,
+        "model": "CRF250RX",
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "PARTIAL",
+      "indexed_assemblies": 50,
+      "captured_assemblies": 0,
+      "occurrences": 0,
+      "unique_part_numbers": 0,
+      "explicit_catalog_quantities": 0,
+      "supersession_rows": 0,
+      "inventory_sha256": "fd4f0fd8df24014b28d4adb66d60aa7449eb1c848cce177a4b329290e9641236"
+    },
+    {
+      "directory": "2021-crf450r",
+      "target": {
+        "manufacturer": "Honda",
+        "year": 2021,
+        "model": "CRF450R",
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "PARTIAL",
+      "indexed_assemblies": 51,
+      "captured_assemblies": 0,
+      "occurrences": 0,
+      "unique_part_numbers": 0,
+      "explicit_catalog_quantities": 0,
+      "supersession_rows": 0,
+      "inventory_sha256": "1dbfac3d07977a2eb39763ee06b830e40b8e816ca8847e0da7153db907345c17"
+    },
+    {
+      "directory": "2021-crf450rx",
+      "target": {
+        "manufacturer": "Honda",
+        "year": 2021,
+        "model": "CRF450RX",
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "PARTIAL",
+      "indexed_assemblies": 52,
+      "captured_assemblies": 0,
+      "occurrences": 0,
+      "unique_part_numbers": 0,
+      "explicit_catalog_quantities": 0,
+      "supersession_rows": 0,
+      "inventory_sha256": "0e21805c9fc32fc3d6dcb01ca0e0261931a35185e1e0722d068ecb1c0ec0cd9a"
+    },
+    {
+      "directory": "2022-crf250r",
+      "target": {
+        "manufacturer": "Honda",
+        "year": 2022,
+        "model": "CRF250R",
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "PARTIAL",
+      "indexed_assemblies": 50,
+      "captured_assemblies": 0,
+      "occurrences": 0,
+      "unique_part_numbers": 0,
+      "explicit_catalog_quantities": 0,
+      "supersession_rows": 0,
+      "inventory_sha256": "757610e3d0e4af1704c01d02aa12505847de269da1a51aa953ff18c35c20dd13"
+    },
+    {
+      "directory": "2022-crf250rx",
+      "target": {
+        "manufacturer": "Honda",
+        "year": 2022,
+        "model": "CRF250RX",
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "PARTIAL",
+      "indexed_assemblies": 51,
+      "captured_assemblies": 0,
+      "occurrences": 0,
+      "unique_part_numbers": 0,
+      "explicit_catalog_quantities": 0,
+      "supersession_rows": 0,
+      "inventory_sha256": "c65fa0ce5799167d07a948c88ffc35ecc4457258c715c9cc9d19c12b4e2a8fb8"
+    },
+    {
+      "directory": "2022-crf450r",
+      "target": {
+        "manufacturer": "Honda",
+        "year": 2022,
+        "model": "CRF450R",
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "PARTIAL",
+      "indexed_assemblies": 51,
+      "captured_assemblies": 0,
+      "occurrences": 0,
+      "unique_part_numbers": 0,
+      "explicit_catalog_quantities": 0,
+      "supersession_rows": 0,
+      "inventory_sha256": "3cd42884b9bad21a8de5578dc54a442cd7a962add2f3cd2f94044086761bf765"
+    },
+    {
+      "directory": "2022-crf450rx",
+      "target": {
+        "manufacturer": "Honda",
+        "year": 2022,
+        "model": "CRF450RX",
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "PARTIAL",
+      "indexed_assemblies": 52,
+      "captured_assemblies": 0,
+      "occurrences": 0,
+      "unique_part_numbers": 0,
+      "explicit_catalog_quantities": 0,
+      "supersession_rows": 0,
+      "inventory_sha256": "24d3bd4e10315ce7e1ca4fe532cb66cd65c0237f8ce63ce139e2053c3bee8d90"
+    },
+    {
+      "directory": "2023-crf250r",
+      "target": {
+        "manufacturer": "Honda",
+        "year": 2023,
+        "model": "CRF250R",
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "PARTIAL",
+      "indexed_assemblies": 50,
+      "captured_assemblies": 0,
+      "occurrences": 0,
+      "unique_part_numbers": 0,
+      "explicit_catalog_quantities": 0,
+      "supersession_rows": 0,
+      "inventory_sha256": "34b80706e115c80e20777539b48bda7c92157004b2ff8471b811cd94b0b82773"
+    },
+    {
+      "directory": "2023-crf250rx",
+      "target": {
+        "manufacturer": "Honda",
+        "year": 2023,
+        "model": "CRF250RX",
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "PARTIAL",
+      "indexed_assemblies": 51,
+      "captured_assemblies": 0,
+      "occurrences": 0,
+      "unique_part_numbers": 0,
+      "explicit_catalog_quantities": 0,
+      "supersession_rows": 0,
+      "inventory_sha256": "15a2f648447e9ad72d7201f7f3694893459170db9712079941982c9d82c05631"
+    },
+    {
+      "directory": "2023-crf450r",
+      "target": {
+        "manufacturer": "Honda",
+        "year": 2023,
+        "model": "CRF450R",
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "PARTIAL",
+      "indexed_assemblies": 51,
+      "captured_assemblies": 0,
+      "occurrences": 0,
+      "unique_part_numbers": 0,
+      "explicit_catalog_quantities": 0,
+      "supersession_rows": 0,
+      "inventory_sha256": "465f5a8b2018bf637862063f54ead129bd42c06cc315db4cac9c0cff6d0a5345"
+    },
+    {
+      "directory": "2023-crf450rx",
+      "target": {
+        "manufacturer": "Honda",
+        "year": 2023,
+        "model": "CRF450RX",
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "PARTIAL",
+      "indexed_assemblies": 52,
+      "captured_assemblies": 0,
+      "occurrences": 0,
+      "unique_part_numbers": 0,
+      "explicit_catalog_quantities": 0,
+      "supersession_rows": 0,
+      "inventory_sha256": "a712c9529077eaf2b71122b6ba31c190629dc777832a33b1429336c7bc0f92e1"
+    },
+    {
+      "directory": "2024-crf250r",
+      "target": {
+        "manufacturer": "Honda",
+        "year": 2024,
+        "model": "CRF250R",
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "PARTIAL",
+      "indexed_assemblies": 50,
+      "captured_assemblies": 0,
+      "occurrences": 0,
+      "unique_part_numbers": 0,
+      "explicit_catalog_quantities": 0,
+      "supersession_rows": 0,
+      "inventory_sha256": "3d3f08e76e9c2be471f36028bec590b82a232903e53c07b408a0836dfa4394ca"
+    },
+    {
+      "directory": "2024-crf250rx",
+      "target": {
+        "manufacturer": "Honda",
+        "year": 2024,
+        "model": "CRF250RX",
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "PARTIAL",
+      "indexed_assemblies": 51,
+      "captured_assemblies": 0,
+      "occurrences": 0,
+      "unique_part_numbers": 0,
+      "explicit_catalog_quantities": 0,
+      "supersession_rows": 0,
+      "inventory_sha256": "c3c636e2678800b2943e499dad6c1ebad1d6178de0e7d47eb2d019e9a0322fbe"
+    },
+    {
+      "directory": "2024-crf450r",
+      "target": {
+        "manufacturer": "Honda",
+        "year": 2024,
+        "model": "CRF450R",
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "PARTIAL",
+      "indexed_assemblies": 51,
+      "captured_assemblies": 0,
+      "occurrences": 0,
+      "unique_part_numbers": 0,
+      "explicit_catalog_quantities": 0,
+      "supersession_rows": 0,
+      "inventory_sha256": "5d4a0aaf52d6da61dab4acc53b03722930dbcaa1c0c4245f9c6b46fa7288fa0b"
+    },
+    {
+      "directory": "2024-crf450rx",
+      "target": {
+        "manufacturer": "Honda",
+        "year": 2024,
+        "model": "CRF450RX",
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "PARTIAL",
+      "indexed_assemblies": 52,
+      "captured_assemblies": 0,
+      "occurrences": 0,
+      "unique_part_numbers": 0,
+      "explicit_catalog_quantities": 0,
+      "supersession_rows": 0,
+      "inventory_sha256": "72df22d757045b8eb8ecdc3be3dceb5e625d9ec96dec41126cd9b6df709c5665"
+    },
+    {
+      "directory": "2025-crf250r",
+      "target": {
+        "manufacturer": "Honda",
+        "year": 2025,
+        "model": "CRF250R",
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "PARTIAL",
+      "indexed_assemblies": 50,
+      "captured_assemblies": 0,
+      "occurrences": 0,
+      "unique_part_numbers": 0,
+      "explicit_catalog_quantities": 0,
+      "supersession_rows": 0,
+      "inventory_sha256": "c71ea6e4f839a3a41d83e2d3d441cbd1f659fe07a472404331e5626c2cb70424"
+    },
+    {
+      "directory": "2025-crf250rx",
+      "target": {
+        "manufacturer": "Honda",
+        "year": 2025,
+        "model": "CRF250RX",
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "PARTIAL",
+      "indexed_assemblies": 51,
+      "captured_assemblies": 0,
+      "occurrences": 0,
+      "unique_part_numbers": 0,
+      "explicit_catalog_quantities": 0,
+      "supersession_rows": 0,
+      "inventory_sha256": "963b98edb115113ad7536b1cf8955c2bfbe14168a44445daa820ad01487f4b40"
+    },
+    {
+      "directory": "2025-crf450r",
+      "target": {
+        "manufacturer": "Honda",
+        "year": 2025,
+        "model": "CRF450R",
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "PARTIAL",
+      "indexed_assemblies": 51,
+      "captured_assemblies": 0,
+      "occurrences": 0,
+      "unique_part_numbers": 0,
+      "explicit_catalog_quantities": 0,
+      "supersession_rows": 0,
+      "inventory_sha256": "72d3d14874023ef6c6b267b471f1281d95e28c7b2983c556ef363a5d5af468d0"
+    },
+    {
+      "directory": "2025-crf450rx",
+      "target": {
+        "manufacturer": "Honda",
+        "year": 2025,
+        "model": "CRF450RX",
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "PARTIAL",
+      "indexed_assemblies": 52,
+      "captured_assemblies": 0,
+      "occurrences": 0,
+      "unique_part_numbers": 0,
+      "explicit_catalog_quantities": 0,
+      "supersession_rows": 0,
+      "inventory_sha256": "b7d88e2f2ed02d1f6dec24c253313a631c622ab7c3bcdffb58d95148a21ca3c5"
+    },
+    {
+      "directory": "2026-crf250r",
+      "target": {
+        "manufacturer": "Honda",
+        "year": 2026,
+        "model": "CRF250R",
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "ALL_INDEXED_PAGES_CAPTURED",
+      "indexed_assemblies": 50,
+      "captured_assemblies": 50,
+      "occurrences": 971,
+      "unique_part_numbers": 870,
+      "explicit_catalog_quantities": 956,
+      "supersession_rows": 93,
+      "inventory_sha256": "282a657c4e647919a317803326dce9d967fd50214e959ed3c7b4e02d813be392"
+    },
+    {
+      "directory": "2026-crf250rx",
+      "target": {
+        "manufacturer": "Honda",
+        "year": 2026,
+        "model": "CRF250RX",
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "ALL_INDEXED_PAGES_CAPTURED",
+      "indexed_assemblies": 51,
+      "captured_assemblies": 51,
+      "occurrences": 987,
+      "unique_part_numbers": 878,
+      "explicit_catalog_quantities": 973,
+      "supersession_rows": 102,
+      "inventory_sha256": "04d597de7365e5e7f7e7ec289b4195679778fae5e2a1ecd104a872114f044956"
+    },
+    {
+      "directory": "2026-crf450r",
+      "target": {
+        "manufacturer": "Honda",
+        "year": 2026,
+        "model": "CRF450R",
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "ALL_INDEXED_PAGES_CAPTURED",
+      "indexed_assemblies": 51,
+      "captured_assemblies": 51,
+      "occurrences": 968,
+      "unique_part_numbers": 873,
+      "explicit_catalog_quantities": 956,
+      "supersession_rows": 83,
+      "inventory_sha256": "38816c3fed141e2119c57be81438baf6e1b0938f7eebcca0f4a7b92f161f5e6c"
+    },
+    {
+      "directory": "2026-crf450rx",
+      "target": {
+        "manufacturer": "Honda",
+        "year": 2026,
+        "model": "CRF450RX",
+        "region": "US",
+        "variant": "standard"
+      },
+      "status": "PARTIAL",
+      "indexed_assemblies": 52,
+      "captured_assemblies": 6,
+      "occurrences": 145,
+      "unique_part_numbers": 143,
+      "explicit_catalog_quantities": 145,
+      "supersession_rows": 2,
+      "inventory_sha256": "0e9151d27809927eff2ace9e7a3b3bb64105aa9f145a03821537bce5355286ea"
+    }
+  ],
+  "summary": {
+    "indexed_targets": 28,
+    "complete_targets": 4,
+    "partially_captured_targets": 1,
+    "index_only_targets": 23,
+    "indexed_assemblies": 1421,
+    "captured_assemblies": 208,
+    "occurrences": 4075,
+    "explicit_catalog_quantities": 4019,
+    "remaining_assemblies": 1213,
+    "parse_errors": 0
+  },
+  "errors": [],
+  "quantity_rule": "Retailer attributed manufacturer recommended quantity only. Purchase inputs and missing quantities never treated as installed count.",
+  "resume": "Read resume-queue.json; navigate only saved observed assembly URLs with supported browser; capture main DOM; rerun scripts/motosport_inventory.py per directory. Never mark index-only targets complete."
+}

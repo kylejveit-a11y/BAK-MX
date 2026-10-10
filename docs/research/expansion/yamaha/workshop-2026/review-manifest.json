@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-09-13",
+  "project_ref": "yzvrujffiktfserrgkcb",
+  "source_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+  "files": [
+    {
+      "file": "2026-yz450f-specs.json",
+      "sha256": "ceafde6509c791f66852fc101047bd25082c592ece39aab360f704b7a2f33c28"
+    },
+    {
+      "file": "2026-yz450f-torques.json",
+      "sha256": "ffd88e5f0eecf318f304012ca9d8fcc4fa37f8437ae691a7f239e1e56f70f91d"
+    },
+    {
+      "file": "fork-clicker-baseline.procedure.json",
+      "sha256": "727eda2ac7063d230fe86b150b71267eaeded5370298e334be4d0da8fe1301bb"
+    },
+    {
+      "file": "COVERAGE.json",
+      "sha256": "ded5e42de92bd5b699d6bd41dc9f7364fc7117cb6b6e2c1a41a70ef974ab6434"
+    },
+    {
+      "file": "import-manifest.json",
+      "sha256": "6c0b92849177e2f3c03be3150dd8839385cbdf30867fedc8b18eacc6fcfa6337"
+    },
+    {
+      "file": "approved-bundle.json",
+      "sha256": "761d6bf6b82127138da2b5345ee19d5d3bdbe5157f89bc1fd84749f3533c12d1"
+    },
+    {
+      "file": "shock-damping-baseline.procedure.json",
+      "sha256": "2ec3f3dfc48b2ad4c234f04e6f86c6578a04c4f3aea192b7ed5b05a16ec05be0"
+    }
+  ],
+  "facts": 343,
+  "approved": 343,
+  "published": 0,
+  "procedure_count": 2
+}

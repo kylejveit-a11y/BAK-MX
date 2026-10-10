@@ -1,0 +1,21 @@
+# Frame pass 3 source review
+
+Six bounded operations are complete in this local reviewed bundle (120 displayed steps): front wheel7, rear wheel8, steering-bearing inspection/re-greasing22, swingarm/linkage19, intact clutch-release cylinder8, engine removal/refit56. These are original source-based instructions; numeric values are tied to the exact stock US2026 YZ450F manual. They do not add another model year or manufacturer by resemblance.
+
+The PDF hash was independently verified. Diagram review resolved axle-side collars and bracket engagement; chain50N measurement location; preload38→one full turn loosen→7 N·m; stem145 N·m; fork projection2 mm; linkage80/80/70 versus shock53/56; pivot75; engine mount53/55/45 versus bracket34; and clutch mount10 distinct from bleed5/union30. Engine-ground torque is independently supported by the7 N·m head-terminal callout on PDF222, crossmatched with terminal7 on PDF208. It is not inferred from the differently named frame-ground table entry.
+
+The steering operation returns to standard fork height and preserves the original bar/control assembly. Original reviewed fork access/closure is inlined and hash-attributed. The stem nut is loosened with the fork legs still clamped; actual bearing condition, original settings and final projection require records. Pressed races/bearing replacement remains a separate repair.
+
+The swingarm operation keeps its bearings assembled and the shock sealed on its unchanged upper mount. Rear brake hydraulics remain closed, with complete caliper/bracket supported after wheel removal. The pedal remains linked to its master cylinder. This is an explicitly stated intact-assembly adaptation of the OEM component removal diagrams. It does not reuse disturbed oil seals from a bearing replacement: bearing/seal extraction is excluded.
+
+The engine operation inlines reviewed fuel/body/airbox, exhaust and coolant operations rather than asking a rider to mentally supply their closure. Gear-position sensor stays bolted; its identified white3-pin harness connection is unplugged instead. The clutch cylinder and throttle body are supported with hydraulic hose/cables attached. If adequate unstressed clearance is not available, that retained-cable variant does not apply. Source calibration screws and hydraulic joints remain undisturbed. A separate internal rebuild must have its own completed measurements/assembly record; the engine installation guide does not certify internals.
+
+Engine fill is selected from actual condition:0.94 L oil change,0.96 L with filter removal,1.20 L disassembled. The quantity selection and final idle flow/settled level checks are explicit records. Oil-drain warm-up must not require starting an engine already known to be unsafe to run. This practical workflow adaptation is marked rather than silently presented as OEM wording.
+
+No full bare-frame strip/rebuild is claimed. Combining whole standalone remove/refit cycles is not a frame strip. The remaining composition needs explicit pause/resume cut points, one coordinated engine/swingarm pivot stage, rear subframe and complete electrical/control detachment/refit, radiator/frame bracket removal, and final whole-bike verification. FRAME_CHAIN.json identifies evidence and remaining gaps. The manual does not provide one ready-made full-frame procedure.
+
+All documents remain local reviewed research; no database writes or frozen source files were modified. The full PDF text extract and visual renders are temporary files outside this repository. source-review-manifest.json binds every procedure's exact bytes and source; rerun build_frame.py only when intentionally issuing a new reviewed revision.
+
+Validation passed:6 manifest byte hashes,120 unique ordered steps, source-page containment, mandatory verification/diagram links and explicit record flags. Additional closure assertions checked fuel before startup, rear-axle release before chain adjustment, early stem-nut loosening and actual steering setup notes.
+
+Validation passed:6 manifest byte hashes,120 unique ordered steps, source-page containment, mandatory verification/diagram links and explicit record flags. Additional closure assertions checked fuel before startup, rear-axle release before chain adjustment, early stem-nut loosening and actual steering setup notes.

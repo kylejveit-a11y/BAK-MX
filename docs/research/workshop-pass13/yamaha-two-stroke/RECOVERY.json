@@ -1,0 +1,36 @@
+{
+  "status": "SETUP32_AND_YZ250_ENGINE8_APPROVED_FROZEN",
+  "source_targets": 32,
+  "source_manuals": 29,
+  "setup_guides": 32,
+  "setup_steps": 256,
+  "engine_guides": 8,
+  "engine_steps": 224,
+  "approved_engine_years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026,
+    2027
+  ],
+  "pending_engine_years": [],
+  "database_writes": false,
+  "runtime_integration": "All40 approved entries supplied/integrated; latest author generator run284 total across entireapp, not a database record count. Other agents may increase total.",
+  "remaining": "Family-level engine/frame/fork/shock unfinished work in REVIEW.md and coverage-summary.json; none of these32targets qualified fullbikecomplete.",
+  "source_conflicts": [
+    "Exact2020YZ250 bore prose mean versus formula maximum remains explicit external method/disposition; no spec invented."
+  ],
+  "validators": [
+    "validate_setup.py --approved",
+    "validate_engine.py --approved",
+    "validate_engine_years.py",
+    "validate_engine_batch.py engine-2020-source-review-manifest.json",
+    "validate_engine_batch.py engine-2021-source-review-manifest.json",
+    "validate_engine_batch.py engine-2022-2023-source-review-manifest.json",
+    "validate_engine_batch.py engine-2024-source-review-manifest.json"
+  ],
+  "next": "No additional authoring assigned. Preserve frozen source/artifact/review hashes. Root handles projectcheckpoint and product completion."
+}

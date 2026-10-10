@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "status": "SOURCE_INTERPRETATION_NOTE",
+  "source_sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608",
+  "artifact_sha256": "b8ef616901d5dc9a45dc7fce825602238014c879d224234d92d0893d8c2ed1b7",
+  "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf",
+  "pdf_pages": [57, 209, 210],
+  "summary_table": "PDF57 compresses the sequence into tightening all main head bolts at 40 Nm, removing them, retightening at 23 Nm and performing 90-degree and 60-degree passes.",
+  "dedicated_procedure": "PDF209–210 gives the detailed illustrated sequence: initial 40 Nm tightening, then removal/reinstallation and 23 Nm plus 90 degrees for each bolt in the specified order, followed by the collective 60-degree pass.",
+  "interpretation": "The authored guide follows the detailed dedicated installation procedure and its illustrations, rather than expanding the summary table into a competing operation order. The numerical loads, angle totals and molybdenum-disulfide preparation agree. This note preserves the compressed summary wording and does not claim an OEM erratum was obtained.",
+  "frozen_artifact_changed": false
+}

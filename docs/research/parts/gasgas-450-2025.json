@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "target": {
+    "manufacturer": "GasGas",
+    "model": "MC 450F",
+    "model_year": 2025,
+    "variant": "standard",
+    "region": "US"
+  },
+  "scope_status": "RETAIL_CATALOG_EXACT_MODEL_YEAR_MARKET_REVIEW_PENDING",
+  "sources": [
+    {
+      "id": "gg-index",
+      "url": "https://www.motosport.com/dirtbike/oem-parts/gasgas/2025/gasgas-mc-450f",
+      "locator": "View all parts for your 2025 Gasgas GASGAS MC 450F",
+      "access": "PAGE_READ"
+    }
+  ],
+  "assemblies": [
+    {
+      "id": "group-1",
+      "name": "Accessory pack",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-2",
+      "name": "Air filter",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-3",
+      "name": "Balancer shaft",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-4",
+      "name": "Clutch",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-5",
+      "name": "Clutch control",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-6",
+      "name": "Clutch cover",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-7",
+      "name": "Cooling system",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-8",
+      "name": "Crankshaft, piston",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-9",
+      "name": "Cylinder",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-10",
+      "name": "Cylinder head",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-11",
+      "name": "Decal",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-12",
+      "name": "Electric starter",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-13",
+      "name": "Engine case",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-14",
+      "name": "Exhaust system",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-15",
+      "name": "Frame",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-16",
+      "name": "Front brake caliper",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-17",
+      "name": "Front brake control",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-18",
+      "name": "Front fork disassembled",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-19",
+      "name": "Front fork, triple clamp",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-20",
+      "name": "Front wheel",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-21",
+      "name": "Fuel pump",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-22",
+      "name": "Handlebar, controls",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-23",
+      "name": "Ignition system",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-24",
+      "name": "Lubricating system",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-25",
+      "name": "Mask, fenders",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-26",
+      "name": "Pro lever linking",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-27",
+      "name": "Rear brake caliper",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-28",
+      "name": "Rear brake control",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-29",
+      "name": "Rear wheel",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-30",
+      "name": "Shifting mechanism",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-31",
+      "name": "Shock absorber",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-32",
+      "name": "Shock absorber disassembled",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-33",
+      "name": "Swing arm",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-34",
+      "name": "Tank, seat",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-35",
+      "name": "Throttle body",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-36",
+      "name": "Timing drive",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-37",
+      "name": "Transmission I - main shaft",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-38",
+      "name": "Transmission II - countershaft",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-39",
+      "name": "Valve drive",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-40",
+      "name": "Water pump",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-41",
+      "name": "Wiring harness",
+      "source_id": "gg-index",
+      "complete": false
+    },
+    {
+      "id": "group-42",
+      "name": "WP shims for setting",
+      "source_id": "gg-index",
+      "complete": false
+    }
+  ],
+  "parts": [],
+  "full_coverage": false,
+  "notes": [
+    "Assembly names discovered only; no part rows or specifications acquired.",
+    "US storefront alone does not establish US market configuration."
+  ]
+}

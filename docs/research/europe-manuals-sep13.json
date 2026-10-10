@@ -1,0 +1,404 @@
+{
+  "schema": "bakmx.research-candidates.v1",
+  "researched_at": "2026-09-13",
+  "status": "RESEARCH_ONLY",
+  "runtime_eligible": false,
+  "commercial_rights": "NOT_REVIEWED",
+  "source_capture_hash": null,
+  "sources": [
+    {
+      "id": "husqvarna-cuo-us",
+      "url": "https://www.husqvarna-motorcycles.com/en-us/service/husqvarna-motorcycles-app/offroad.html",
+      "title": "Husqvarna Offroad Connectivity",
+      "access": "HTML_READ",
+      "source_type": "OEM tuning/compatibility page",
+      "revision": null
+    },
+    {
+      "id": "ktm-cuo-us",
+      "url": "https://www.ktm.com/en-us/tech-guide/connectivity-unit-offroad.html",
+      "title": "KTM Connectivity Unit Offroad",
+      "access": "HTML_READ",
+      "source_type": "OEM tuning/compatibility page",
+      "revision": null
+    },
+    {
+      "id": "ktm-manuals-us",
+      "url": "https://www.ktm.com/en-us/service/manuals.html",
+      "title": "KTM Manuals & Maintenance",
+      "access": "HTML_AND_BROWSER_SELECTOR_READ",
+      "source_type": "OEM document discovery portal"
+    },
+    {
+      "id": "ktm-print",
+      "url": "https://print.ktm.com/",
+      "title": "KTM Print on Demand",
+      "access": "NO_READABLE_CONTENT",
+      "source_type": "OEM-linked document portal"
+    },
+    {
+      "id": "husqvarna-manuals-us",
+      "url": "https://www.husqvarna-motorcycles.com/en-us/service/user-manuals.html",
+      "title": "Husqvarna Owner Manuals",
+      "access": "PORTAL_HTML_ONLY",
+      "source_type": "OEM document discovery portal"
+    },
+    {
+      "id": "ktm450-2025-manual-dealer",
+      "url": "https://powaypowersports.com/cdn/shop/files/2025-ktm-450sx-f-factory-owners-manual.pdf?v=679135179847397228",
+      "title": "KTM Owner's Manual 2025 — 450 SX-F / 450 XC-F / 450 SX-F Factory Edition",
+      "access": "PDF_TEXT_READ_AND_ENGINE_TABLE_VISUALLY_CHECKED",
+      "source_type": "OEM-authored manual hosted by US dealer; publisher-host corroboration pending",
+      "discovery_url": "https://powaypowersports.com/products/2025-ktm-450-sx-f",
+      "revision": "3240045en / 2025-01-22",
+      "source_byte_sha256": "a24efdc2f908cc4c3764ee133bcdf6957b6caaebfee4587e847f3b2fe2456a33",
+      "archive_retained": false
+    }
+  ],
+  "documents": [
+    {
+      "id": "ktm450-2025-owner-en",
+      "source_id": "ktm450-2025-manual-dealer",
+      "title": "2025 KTM 450 owner's manual",
+      "status": "READ_PARTIAL",
+      "document_number": "3240045en",
+      "revision_date": "2025-01-22",
+      "pdf_page_count": 178,
+      "applicability": {
+        "make": "KTM",
+        "model": "450 SX-F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "model_code": "F8475Y5",
+      "applicability_locator": "PDF page 3, explicit document-validity list",
+      "pages_read": [
+        1,
+        3,
+        40,
+        146,
+        151
+      ],
+      "pages_visually_checked": [
+        151
+      ],
+      "runtime_eligible": false,
+      "notes": "Combined manual also covers other markets and variants. Individual section qualifiers remain mandatory."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "eur-cuo-husqvarna-2023-fc250",
+      "source_id": "husqvarna-cuo-us",
+      "applicability": {
+        "make": "Husqvarna",
+        "model": "FC 250",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "category": "ecu_compatibility",
+      "locator": "Supported Motorcycles / Model Year 2023 / FC 250 (US)",
+      "statement": "Listed for CUO compatibility; optional unit and authorized-dealer connection required.",
+      "runtime_eligible": false
+    },
+    {
+      "id": "eur-cuo-husqvarna-2023-fc450",
+      "source_id": "husqvarna-cuo-us",
+      "applicability": {
+        "make": "Husqvarna",
+        "model": "FC 450",
+        "model_year": 2023,
+        "variant": "standard",
+        "region": "US"
+      },
+      "category": "ecu_compatibility",
+      "locator": "Supported Motorcycles / Model Year 2023 / FC 450 (US)",
+      "statement": "Listed for CUO compatibility; optional unit and authorized-dealer connection required.",
+      "runtime_eligible": false
+    },
+    {
+      "id": "eur-cuo-husqvarna-2024-fc250",
+      "source_id": "husqvarna-cuo-us",
+      "applicability": {
+        "make": "Husqvarna",
+        "model": "FC 250",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "category": "ecu_compatibility",
+      "locator": "Supported Motorcycles / Model Year 2024 / FC 250 (US)",
+      "statement": "Listed for CUO compatibility; optional unit and authorized-dealer connection required.",
+      "runtime_eligible": false
+    },
+    {
+      "id": "eur-cuo-husqvarna-2024-fc450",
+      "source_id": "husqvarna-cuo-us",
+      "applicability": {
+        "make": "Husqvarna",
+        "model": "FC 450",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "US"
+      },
+      "category": "ecu_compatibility",
+      "locator": "Supported Motorcycles / Model Year 2024 / FC 450 (US)",
+      "statement": "Listed for CUO compatibility; optional unit and authorized-dealer connection required.",
+      "runtime_eligible": false
+    },
+    {
+      "id": "eur-cuo-husqvarna-2025-fc250",
+      "source_id": "husqvarna-cuo-us",
+      "applicability": {
+        "make": "Husqvarna",
+        "model": "FC 250",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "category": "ecu_compatibility",
+      "locator": "Supported Motorcycles / Model Year 2025 / FC 250 (US)",
+      "statement": "Listed for CUO compatibility; optional unit and authorized-dealer connection required.",
+      "runtime_eligible": false
+    },
+    {
+      "id": "eur-cuo-husqvarna-2025-fc450",
+      "source_id": "husqvarna-cuo-us",
+      "applicability": {
+        "make": "Husqvarna",
+        "model": "FC 450",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "category": "ecu_compatibility",
+      "locator": "Supported Motorcycles / Model Year 2025 / FC 450 (US)",
+      "statement": "Listed for CUO compatibility; optional unit and authorized-dealer connection required.",
+      "runtime_eligible": false
+    },
+    {
+      "id": "eur-cuo-ktm-2024-250sx-f",
+      "source_id": "ktm-cuo-us",
+      "applicability": {
+        "make": "KTM",
+        "model": "250 SX-F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "UNKNOWN"
+      },
+      "category": "ecu_compatibility",
+      "locator": "CUO AVAILAIBILITY / models eligible for retrofit",
+      "statement": "SX-F family listed for CUO retrofit; exact regional kit applicability unresolved.",
+      "scope_assessment": "Year and SX-F family explicit; 250/450 are narrower members of that family. US page market is not treated as explicit component regional certification.",
+      "runtime_eligible": false
+    },
+    {
+      "id": "eur-cuo-ktm-2024-450sx-f",
+      "source_id": "ktm-cuo-us",
+      "applicability": {
+        "make": "KTM",
+        "model": "450 SX-F",
+        "model_year": 2024,
+        "variant": "standard",
+        "region": "UNKNOWN"
+      },
+      "category": "ecu_compatibility",
+      "locator": "CUO AVAILAIBILITY / models eligible for retrofit",
+      "statement": "SX-F family listed for CUO retrofit; exact regional kit applicability unresolved.",
+      "scope_assessment": "Year and SX-F family explicit; 250/450 are narrower members of that family. US page market is not treated as explicit component regional certification.",
+      "runtime_eligible": false
+    },
+    {
+      "id": "eur-cuo-ktm-2025-250sx-f",
+      "source_id": "ktm-cuo-us",
+      "applicability": {
+        "make": "KTM",
+        "model": "250 SX-F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "UNKNOWN"
+      },
+      "category": "ecu_compatibility",
+      "locator": "CUO AVAILAIBILITY / models eligible for retrofit",
+      "statement": "SX-F family listed for CUO retrofit; exact regional kit applicability unresolved.",
+      "scope_assessment": "Year and SX-F family explicit; 250/450 are narrower members of that family. US page market is not treated as explicit component regional certification.",
+      "runtime_eligible": false
+    },
+    {
+      "id": "eur-cuo-ktm-2025-450sx-f",
+      "source_id": "ktm-cuo-us",
+      "applicability": {
+        "make": "KTM",
+        "model": "450 SX-F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "UNKNOWN"
+      },
+      "category": "ecu_compatibility",
+      "locator": "CUO AVAILAIBILITY / models eligible for retrofit",
+      "statement": "SX-F family listed for CUO retrofit; exact regional kit applicability unresolved.",
+      "scope_assessment": "Year and SX-F family explicit; 250/450 are narrower members of that family. US page market is not treated as explicit component regional certification.",
+      "runtime_eligible": false
+    },
+    {
+      "id": "eur-ktm450-2025-intake_clearance",
+      "source_id": "ktm450-2025-manual-dealer",
+      "applicability": {
+        "make": "KTM",
+        "model": "450 SX-F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "category": "intake_clearance",
+      "locator": "Printed p.149 / PDF p.151 / §23.1 Engine",
+      "statement": "Intake valve lash at 20°C: minimum 0.10 mm, maximum 0.15 mm.",
+      "runtime_eligible": false,
+      "review_status": "PDF_ROW_VISUALLY_CHECKED_PENDING_PUBLISHER_CORROBORATION"
+    },
+    {
+      "id": "eur-ktm450-2025-exhaust_clearance",
+      "source_id": "ktm450-2025-manual-dealer",
+      "applicability": {
+        "make": "KTM",
+        "model": "450 SX-F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "category": "exhaust_clearance",
+      "locator": "Printed p.149 / PDF p.151 / §23.1 Engine",
+      "statement": "Exhaust valve lash at 20°C: minimum 0.12 mm, maximum 0.17 mm.",
+      "runtime_eligible": false,
+      "review_status": "PDF_ROW_VISUALLY_CHECKED_PENDING_PUBLISHER_CORROBORATION"
+    },
+    {
+      "id": "eur-ktm450-2025-idle_speed",
+      "source_id": "ktm450-2025-manual-dealer",
+      "applicability": {
+        "make": "KTM",
+        "model": "450 SX-F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "category": "idle_speed",
+      "locator": "Printed p.149 / PDF p.151 / §23.1 Engine",
+      "statement": "Specified idle range is 2200–2300 rpm.",
+      "runtime_eligible": false,
+      "review_status": "PDF_ROW_VISUALLY_CHECKED_PENDING_PUBLISHER_CORROBORATION"
+    },
+    {
+      "id": "eur-ktm450-2025-plug_identity",
+      "source_id": "ktm450-2025-manual-dealer",
+      "applicability": {
+        "make": "KTM",
+        "model": "450 SX-F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "category": "plug_identity",
+      "locator": "Printed p.149 / PDF p.151 / §23.1 Engine",
+      "statement": "Listed plug model is NGK LMAR9AI-10.",
+      "runtime_eligible": false,
+      "review_status": "PDF_ROW_VISUALLY_CHECKED_PENDING_PUBLISHER_CORROBORATION"
+    },
+    {
+      "id": "eur-ktm450-2025-plug_gap",
+      "source_id": "ktm450-2025-manual-dealer",
+      "applicability": {
+        "make": "KTM",
+        "model": "450 SX-F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "category": "plug_gap",
+      "locator": "Printed p.149 / PDF p.151 / §23.1 Engine",
+      "statement": "Electrode spacing specification is 1.0 mm.",
+      "runtime_eligible": false,
+      "review_status": "PDF_ROW_VISUALLY_CHECKED_PENDING_PUBLISHER_CORROBORATION"
+    },
+    {
+      "id": "eur-ktm450-2025-primary_gearing",
+      "source_id": "ktm450-2025-manual-dealer",
+      "applicability": {
+        "make": "KTM",
+        "model": "450 SX-F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "category": "primary_gearing",
+      "locator": "Printed p.149 / PDF p.151 / §23.1 Engine",
+      "statement": "Primary-drive tooth relationship is 29:72.",
+      "runtime_eligible": false,
+      "review_status": "PDF_ROW_VISUALLY_CHECKED_PENDING_PUBLISHER_CORROBORATION"
+    },
+    {
+      "id": "eur-ktm450-2025-transmission_gearing",
+      "source_id": "ktm450-2025-manual-dealer",
+      "applicability": {
+        "make": "KTM",
+        "model": "450 SX-F",
+        "model_year": 2025,
+        "variant": "standard",
+        "region": "US"
+      },
+      "category": "transmission_gearing",
+      "locator": "Printed p.149 / PDF p.151 / §23.1 Engine",
+      "statement": "SX-F gear tooth pairs, first through fifth: 14:28; 16:26; 18:24; 21:24; 22:21.",
+      "runtime_eligible": false,
+      "review_status": "PDF_ROW_VISUALLY_CHECKED_PENDING_PUBLISHER_CORROBORATION"
+    }
+  ],
+  "acquisition_gaps": [
+    {
+      "scope": "KTM 250 SX-F all years and 450 SX-F except partial 2025 US; Husqvarna FC250/450; GasGas MC250F/450F; 2022–2026 standard US",
+      "status": "MANUAL_DOCUMENTS_UNRESOLVED",
+      "details": "One dealer-hosted OEM-authored 2025 KTM450 manual read partially; no exact OEM-hosted PDF established. Remaining owner/repair documents unresolved."
+    },
+    {
+      "source_id": "ktm-manuals-us",
+      "status": "SELECTOR_NO_EXACT_RESULT",
+      "details": "Live browser broad 250 SX-F query selected irrelevant 2015 Factory Edition; exact 250 SX-F 2022 query produced no matching entry after state settled. Do not infer manual unavailability globally."
+    },
+    {
+      "source_id": "ktm-print",
+      "status": "BLANK_PORTAL",
+      "details": "Official linked archive produced no readable web text or browser DOM; no purchase attempted."
+    },
+    {
+      "scope": "GasGas 2026 standard US 250F/450F",
+      "status": "HISTORICAL_PRODUCT_URL_REDIRECT",
+      "details": "Both requested historical US model paths redirected to https://www.gasgas.com/en-us/models/motocross.html; no historic specification claims derived."
+    },
+    {
+      "source_id": "husqvarna-cuo-us",
+      "status": "VARIANT_AND_YEAR_BOUNDARY",
+      "details": "2022 displayed list names only Rockstar Editions, not standard FC models; no 2026 applicability inferred from this list. Missing entries are not definitive incompatibility evidence."
+    },
+    {
+      "source_id": "ktm-cuo-us",
+      "status": "REGION_AND_PART_NUMBER_PENDING",
+      "details": "Retrieve actual kit part number, installation sheet, region and firmware requirements before fitment recommendations."
+    },
+    {
+      "scope": "2025 KTM450 SX-F compression ratio",
+      "status": "CONFLICT_REQUIRES_REVIEW",
+      "details": "Manual printed p149 states 13.6:1 while dealer product listing states13.1. Neither promoted; combined-manual variant applicability/authenticity needs publisher corroboration.",
+      "sources": [
+        "ktm450-2025-manual-dealer",
+        "https://powaypowersports.com/products/2025-ktm-450-sx-f"
+      ]
+    }
+  ],
+  "notes": [
+    "Candidate text is brief paraphrase for research review, not a full manual copy or an approved ingestion bundle.",
+    "A dealer-hosted PDF byte hash was computed in memory, but no full archive retained; rights approval, independent review and conflict resolution remain incomplete.",
+    "No runtime knowledge was promoted. English language alone never supplies region applicability."
+  ]
+}

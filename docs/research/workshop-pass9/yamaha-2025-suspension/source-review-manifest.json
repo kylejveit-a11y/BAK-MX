@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "yamaha25",
+      "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\D02-2819U-10_02.pdf",
+      "sha256": "5005e7d8492c9482dfe44c6d752609a9a70a836f5b1dc94be3149d5d493de8ac"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "fork-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha25",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "sha256": "4a342eb4fbcb86917278b5eaf8eb0651edeb5ab1e27130ef442f6b9e4cc075b6",
+      "step_count": 6
+    },
+    {
+      "path": "fork-oil-seals-bushings-v2.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha25",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "sha256": "d3b0ac35fb3252274fbafa36591d58924ecca7287ed8c86d549568aff7854ba0",
+      "step_count": 53
+    },
+    {
+      "path": "rider-sag-preload-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha25",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "sha256": "a5cb55fa0c05c29be8223bc28cf61dde5cbf0c7497270456b61585a57e541130",
+      "step_count": 7
+    },
+    {
+      "path": "shock-baseline-v1.procedure.json",
+      "kind": "procedure",
+      "source_id": "yamaha25",
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "sha256": "617c9cd63e40bd52d9ffeb22b9190601f455b17351217c1cf6bbe67e33f21840",
+      "step_count": 6
+    }
+  ],
+  "status": "APPROVED",
+  "independent_review": {
+    "reviewer": "root",
+    "decision": "APPROVED",
+    "scope": "Three baseline/sag guides; fork53 separately independentlyreviewed byyear_groups_research",
+    "visual_pages": [
+      112,
+      113,
+      114,
+      115,
+      384,
+      385
+    ],
+    "physical_execution": false
+  }
+}

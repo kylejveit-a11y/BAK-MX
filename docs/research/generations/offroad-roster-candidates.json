@@ -1,0 +1,478 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-09-13",
+  "purpose": "OEM-supported acquisition priorities for the broader off-road product; not an all-year verified roster.",
+  "current_source_warning": "Live manufacturer menus already show 2027. A family name here must not create 2022–2026 entries automatically.",
+  "selection_policy": "Prioritize mainstream motocross, cross-country and technical enduro. Road/dual-sport/supermoto and low-volume variants are outside this pass; owner-declared identities can be saved without claiming specification coverage.",
+  "candidates": [
+    {
+      "manufacturer": "Yamaha",
+      "models": [
+        "YZ125",
+        "YZ250"
+      ],
+      "discipline": "motocross",
+      "engine_cycle": "2-stroke",
+      "source_url": "https://yamahamotorsports.com/Blogs.php?action=blogArticle&blog_id=yamaha-announces-new-yz250fx-and-+wr250f",
+      "locator": "US off-road navigation",
+      "exception": "Exact archived year pages required; do not confuse YZ250 two-stroke with YZ250F.",
+      "priority": "P1",
+      "verified_years": [],
+      "status": "CANDIDATE_IDENTITY_ONLY",
+      "runtime_enabled": false,
+      "verified_service_coverage": false
+    },
+    {
+      "manufacturer": "Yamaha",
+      "models": [
+        "YZ125X",
+        "YZ250X"
+      ],
+      "discipline": "cross-country",
+      "engine_cycle": "2-stroke",
+      "source_url": "https://yamahamotorsports.com/Blogs.php?action=blogArticle&blog_id=yamaha-announces-new-yz250fx-and-+wr250f",
+      "locator": "US cross-country navigation",
+      "exception": "X-specific gearing, ignition and suspension require separate evidence.",
+      "priority": "P1",
+      "verified_years": [],
+      "status": "CANDIDATE_IDENTITY_ONLY",
+      "runtime_enabled": false,
+      "verified_service_coverage": false
+    },
+    {
+      "manufacturer": "Yamaha",
+      "models": [
+        "YZ250FX",
+        "YZ450FX"
+      ],
+      "discipline": "cross-country",
+      "engine_cycle": "4-stroke",
+      "source_url": "https://yamahamotorsports.com/Blogs.php?action=blogArticle&blog_id=yamaha-announces-new-yz250fx-and-+wr250f",
+      "locator": "US cross-country navigation; 2025 YZ250FX announcement",
+      "exception": "2025 YZ250FX has a documented update; do not apply MX service data solely because chassis is derived from YZ250F.",
+      "priority": "P1",
+      "verified_years": [],
+      "status": "CANDIDATE_IDENTITY_ONLY",
+      "runtime_enabled": false,
+      "verified_service_coverage": false
+    },
+    {
+      "manufacturer": "Yamaha",
+      "models": [
+        "WR250F",
+        "WR450F"
+      ],
+      "discipline": "enduro-offroad",
+      "engine_cycle": "4-stroke",
+      "source_url": "https://yamahamotorsports.com/Blogs.php?action=blogArticle&blog_id=yamaha-announces-new-yz250fx-and-+wr250f",
+      "locator": "US cross-country navigation; new 2025 WR250F",
+      "exception": "Use exact US off-road versions; overseas homologated variants differ. Transmission, engine tune and running gear need their own review.",
+      "priority": "P1",
+      "verified_years": [],
+      "status": "CANDIDATE_IDENTITY_ONLY",
+      "runtime_enabled": false,
+      "verified_service_coverage": false
+    },
+    {
+      "manufacturer": "KTM",
+      "models": [
+        "125 SX",
+        "150 SX",
+        "250 SX",
+        "300 SX"
+      ],
+      "discipline": "motocross",
+      "engine_cycle": "2-stroke",
+      "source_url": "https://www.ktm.com/en-us/models.html",
+      "locator": "Motocross / 2-stroke navigation",
+      "exception": "Current roster shows 2027 and 2025 examples; not evidence every name exists in all 2022–2026 years.",
+      "priority": "P1",
+      "verified_years": [],
+      "status": "CANDIDATE_IDENTITY_ONLY",
+      "runtime_enabled": false,
+      "verified_service_coverage": false
+    },
+    {
+      "manufacturer": "KTM",
+      "models": [
+        "250 SX-F",
+        "350 SX-F",
+        "450 SX-F"
+      ],
+      "discipline": "motocross",
+      "engine_cycle": "4-stroke",
+      "source_url": "https://www.ktm.com/en-us/models.html",
+      "locator": "Motocross / 4-stroke",
+      "exception": "Extend exact-year work; Factory Edition is a distinct variant.",
+      "priority": "P1",
+      "verified_years": [],
+      "status": "CANDIDATE_IDENTITY_ONLY",
+      "runtime_enabled": false,
+      "verified_service_coverage": false
+    },
+    {
+      "manufacturer": "KTM",
+      "models": [
+        "125 XC",
+        "250 XC",
+        "300 XC"
+      ],
+      "discipline": "cross-country",
+      "engine_cycle": "2-stroke",
+      "source_url": "https://www.ktm.com/en-us/models.html",
+      "locator": "Cross Country / 2-stroke",
+      "exception": "Do not collapse XC into SX or XC-W; carb/TPI/TBI generations require explicit identities.",
+      "priority": "P1",
+      "verified_years": [],
+      "status": "CANDIDATE_IDENTITY_ONLY",
+      "runtime_enabled": false,
+      "verified_service_coverage": false
+    },
+    {
+      "manufacturer": "KTM",
+      "models": [
+        "250 XC-F",
+        "350 XC-F",
+        "450 XC-F"
+      ],
+      "discipline": "cross-country",
+      "engine_cycle": "4-stroke",
+      "source_url": "https://www.ktm.com/en-us/models.html",
+      "locator": "Cross Country / 4-stroke",
+      "exception": "Transmission and fuel/suspension configuration remain separate from SX-F.",
+      "priority": "P1",
+      "verified_years": [],
+      "status": "CANDIDATE_IDENTITY_ONLY",
+      "runtime_enabled": false,
+      "verified_service_coverage": false
+    },
+    {
+      "manufacturer": "KTM",
+      "models": [
+        "150 XC-W",
+        "250 XC-W",
+        "300 XC-W"
+      ],
+      "discipline": "enduro-offroad",
+      "engine_cycle": "2-stroke",
+      "source_url": "https://www.ktm.com/en-us/models.html",
+      "locator": "Enduro / 2-stroke",
+      "exception": "Archive exact years; PDS/linkage and injection systems must not be inferred from displacement.",
+      "priority": "P1",
+      "verified_years": [],
+      "status": "CANDIDATE_IDENTITY_ONLY",
+      "runtime_enabled": false,
+      "verified_service_coverage": false
+    },
+    {
+      "manufacturer": "KTM",
+      "models": [
+        "450 XCF-W"
+      ],
+      "discipline": "enduro-offroad",
+      "engine_cycle": "4-stroke",
+      "source_url": "https://www.ktm.com/en-us/models.html",
+      "locator": "Enduro / 4-stroke",
+      "exception": "Current page establishes family, not all historical availability. Road EXC-F and 690/390 Enduro R are excluded from this scope.",
+      "priority": "P2",
+      "verified_years": [],
+      "status": "CANDIDATE_IDENTITY_ONLY",
+      "runtime_enabled": false,
+      "verified_service_coverage": false
+    },
+    {
+      "manufacturer": "Honda",
+      "models": [
+        "CRF250RX"
+      ],
+      "discipline": "cross-country",
+      "engine_cycle": "4-stroke",
+      "source_url": "https://powersports.honda.com/motorcycle/trail/crf250rx/2026/crf250rx",
+      "locator": "2026 US model identity",
+      "exception": "Distinct from R, RWE, F and L; 2025–2026 recall VIN check required.",
+      "priority": "P1",
+      "verified_years": [],
+      "status": "CANDIDATE_IDENTITY_ONLY",
+      "runtime_enabled": false,
+      "verified_service_coverage": false
+    },
+    {
+      "manufacturer": "Honda",
+      "models": [
+        "CRF450RX"
+      ],
+      "discipline": "cross-country",
+      "engine_cycle": "4-stroke",
+      "source_url": "https://powersports.honda.com/offers/motorcycle/trail/crf450rxt",
+      "locator": "2026 model identity",
+      "exception": "Distinct from R/RWE and road RL; exact service source acquisition remains pending.",
+      "priority": "P1",
+      "verified_years": [],
+      "status": "CANDIDATE_IDENTITY_ONLY",
+      "runtime_enabled": false,
+      "verified_service_coverage": false
+    },
+    {
+      "manufacturer": "Kawasaki",
+      "models": [
+        "KX250X"
+      ],
+      "discipline": "cross-country",
+      "engine_cycle": "4-stroke",
+      "source_url": "https://content2.kawasaki.com/ContentStorage/KMC/PressReleases/783/3d16fe3d-06e3-49b6-961d-f773c3e69f05.pdf",
+      "locator": "2025 KX250 and KX250X release",
+      "exception": "Separate off-road-specific suspension, final drive and equipment from KX250.",
+      "priority": "P1",
+      "verified_years": [],
+      "status": "CANDIDATE_IDENTITY_ONLY",
+      "runtime_enabled": false,
+      "verified_service_coverage": false
+    },
+    {
+      "manufacturer": "Kawasaki",
+      "models": [
+        "KX450X"
+      ],
+      "discipline": "cross-country",
+      "engine_cycle": "4-stroke",
+      "source_url": "https://www.kawasaki.com/en-US/motorcycle/kx",
+      "locator": "OEM search-index KX family listing",
+      "exception": "Direct page open returned an error; lead-level identity only until a year-specific page/manual is acquired.",
+      "priority": "P2",
+      "verified_years": [],
+      "status": "CANDIDATE_IDENTITY_ONLY",
+      "runtime_enabled": false,
+      "verified_service_coverage": false
+    },
+    {
+      "manufacturer": "Husqvarna",
+      "models": [
+        "TC 125",
+        "TC 150",
+        "TC 250",
+        "TC 300"
+      ],
+      "discipline": "motocross",
+      "engine_cycle": "2-stroke",
+      "source_url": "https://www.husqvarna-motorcycles.com/en-us/models.html",
+      "locator": "Motocross; TC150 Heritage 2025",
+      "exception": "Current page has different years/variants. Standard TC150 exact-year existence must be checked separately from Heritage.",
+      "priority": "P1",
+      "verified_years": [],
+      "status": "CANDIDATE_IDENTITY_ONLY",
+      "runtime_enabled": false,
+      "verified_service_coverage": false
+    },
+    {
+      "manufacturer": "Husqvarna",
+      "models": [
+        "FC 250",
+        "FC 350",
+        "FC 450"
+      ],
+      "discipline": "motocross",
+      "engine_cycle": "4-stroke",
+      "source_url": "https://www.husqvarna-motorcycles.com/en-us/models.html",
+      "locator": "Motocross / 4-stroke",
+      "exception": "Add FC350 research independently; no FC450 engine transfer.",
+      "priority": "P1",
+      "verified_years": [],
+      "status": "CANDIDATE_IDENTITY_ONLY",
+      "runtime_enabled": false,
+      "verified_service_coverage": false
+    },
+    {
+      "manufacturer": "Husqvarna",
+      "models": [
+        "TX 300"
+      ],
+      "discipline": "cross-country",
+      "engine_cycle": "2-stroke",
+      "source_url": "https://www.husqvarna-motorcycles.com/en-us/models.html",
+      "locator": "Enduro / Cross Country",
+      "exception": "Exact-year injection, shock and fork configuration needed.",
+      "priority": "P1",
+      "verified_years": [],
+      "status": "CANDIDATE_IDENTITY_ONLY",
+      "runtime_enabled": false,
+      "verified_service_coverage": false
+    },
+    {
+      "manufacturer": "Husqvarna",
+      "models": [
+        "FX 350",
+        "FX 450"
+      ],
+      "discipline": "cross-country",
+      "engine_cycle": "4-stroke",
+      "source_url": "https://www.husqvarna-motorcycles.com/en-us/models.html",
+      "locator": "Enduro / Cross Country",
+      "exception": "Do not silently invent FX250 US availability across all years.",
+      "priority": "P1",
+      "verified_years": [],
+      "status": "CANDIDATE_IDENTITY_ONLY",
+      "runtime_enabled": false,
+      "verified_service_coverage": false
+    },
+    {
+      "manufacturer": "Husqvarna",
+      "models": [
+        "TE 150",
+        "TE 250",
+        "TE 300"
+      ],
+      "discipline": "enduro-offroad",
+      "engine_cycle": "2-stroke",
+      "source_url": "https://www.husqvarna-motorcycles.com/en-us/models.html",
+      "locator": "Enduro / 2-stroke",
+      "exception": "Pro/Heritage variants separate. Exact-year service identity still needed.",
+      "priority": "P1",
+      "verified_years": [],
+      "status": "CANDIDATE_IDENTITY_ONLY",
+      "runtime_enabled": false,
+      "verified_service_coverage": false
+    },
+    {
+      "manufacturer": "Husqvarna",
+      "models": [
+        "FE 450"
+      ],
+      "discipline": "enduro-offroad",
+      "engine_cycle": "4-stroke",
+      "source_url": "https://www.husqvarna-motorcycles.com/en-us/models.html",
+      "locator": "FE450 Heritage 2025 listing",
+      "exception": "Only off-road non-s FE variants. Current US FE350s/FE501s are excluded road variants; older non-s identities need archived OEM proof.",
+      "priority": "P2",
+      "verified_years": [],
+      "status": "CANDIDATE_IDENTITY_ONLY",
+      "runtime_enabled": false,
+      "verified_service_coverage": false
+    },
+    {
+      "manufacturer": "GasGas",
+      "models": [
+        "MC 125",
+        "MC 250"
+      ],
+      "discipline": "motocross",
+      "engine_cycle": "2-stroke",
+      "source_url": "https://press.gasgas.com/news-gasgas-spice-it-up-with-16-all-new-dirt-bikes-for-2024?id=181694&imageid=695993&l=international&menueid=20135&tab=1",
+      "locator": "2024 motocross lineup",
+      "exception": "Newer MC150/MC300 are separate follow-up leads; not backfilled to 2022.",
+      "priority": "P1",
+      "verified_years": [],
+      "status": "CANDIDATE_IDENTITY_ONLY",
+      "runtime_enabled": false,
+      "verified_service_coverage": false
+    },
+    {
+      "manufacturer": "GasGas",
+      "models": [
+        "MC 250F",
+        "MC 350F",
+        "MC 450F"
+      ],
+      "discipline": "motocross",
+      "engine_cycle": "4-stroke",
+      "source_url": "https://press.gasgas.com/news-gasgas-spice-it-up-with-16-all-new-dirt-bikes-for-2024?id=181694&imageid=695993&l=international&menueid=20135&tab=1",
+      "locator": "2024 motocross lineup",
+      "exception": "MC350F exact-year US availability needs market check; no Factory Edition inheritance.",
+      "priority": "P1",
+      "verified_years": [],
+      "status": "CANDIDATE_IDENTITY_ONLY",
+      "runtime_enabled": false,
+      "verified_service_coverage": false
+    },
+    {
+      "manufacturer": "GasGas",
+      "models": [
+        "EC"
+      ],
+      "discipline": "enduro-offroad",
+      "engine_cycle": "mixed-family",
+      "source_url": "https://press.gasgas.com/news-gasgas-spice-it-up-with-16-all-new-dirt-bikes-for-2024?id=181694&imageid=695993&l=international&menueid=20135&tab=1",
+      "locator": "2024 enduro family announcement",
+      "exception": "Acquire exact displacement/year US catalog before naming every EC derivative; exclude ES/SM road variants.",
+      "priority": "P1",
+      "verified_years": [],
+      "status": "CANDIDATE_IDENTITY_ONLY",
+      "runtime_enabled": false,
+      "verified_service_coverage": false
+    },
+    {
+      "manufacturer": "GasGas",
+      "models": [
+        "EX"
+      ],
+      "discipline": "cross-country",
+      "engine_cycle": "mixed-family",
+      "source_url": "https://press.gasgas.com/news-gasgas-spice-it-up-with-16-all-new-dirt-bikes-for-2024?id=181694&imageid=695993&l=international&menueid=20135&tab=1",
+      "locator": "2024 cross-country family announcement",
+      "exception": "Acquire exact displacement/year US model list; not every market receives all EX models.",
+      "priority": "P1",
+      "verified_years": [],
+      "status": "CANDIDATE_IDENTITY_ONLY",
+      "runtime_enabled": false,
+      "verified_service_coverage": false
+    }
+  ],
+  "additional_research_queue": [
+    {
+      "manufacturer": "Suzuki",
+      "models": [
+        "RM-Z250",
+        "RM-Z450"
+      ],
+      "status": "OEM_YEAR_SOURCE_PENDING",
+      "reason": "Mainstream MX addition; verify year-specific manuals before enablement."
+    },
+    {
+      "manufacturer": "Beta",
+      "models": [
+        "RR",
+        "RR Race",
+        "RX"
+      ],
+      "status": "OEM_YEAR_SOURCE_PENDING",
+      "reason": "Relevant single-track/race expansion; engine size, year and trim not yet bounded."
+    },
+    {
+      "manufacturer": "Sherco",
+      "models": [
+        "SE",
+        "SEF"
+      ],
+      "status": "OEM_YEAR_SOURCE_PENDING",
+      "reason": "Relevant enduro expansion after higher-volume families."
+    },
+    {
+      "manufacturer": "Triumph",
+      "models": [
+        "TF 250-X",
+        "TF 450-RC",
+        "TF 450-X"
+      ],
+      "status": "OEM_YEAR_SOURCE_PENDING",
+      "reason": "New racing families; exact marketing spelling/year and recall review required."
+    }
+  ],
+  "required_identity_fields": [
+    "manufacturer",
+    "model",
+    "model_year",
+    "market",
+    "variant",
+    "engine_cycle",
+    "installed_engine",
+    "installed_fork",
+    "installed_shock"
+  ],
+  "acceptance_for_enablement": [
+    "OEM exact-year/market identity",
+    "Source-backed baseline support or explicitly unverified identity status",
+    "Distinct two-stroke/four-stroke routing",
+    "Distinct road-variant exclusion",
+    "Recall and service bulletin checks",
+    "No implied all-year specification coverage"
+  ]
+}

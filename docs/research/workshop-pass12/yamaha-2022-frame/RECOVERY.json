@@ -1,0 +1,34 @@
+{
+  "status": "ENGINE72_FRAME153_APPROVED",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2022,
+    "region": "US",
+    "variant": "standard"
+  },
+  "source": {
+    "local_pdf_path": "C:/Users/kylej/AppData/Local/Temp/B2W-2819U-12_02.pdf",
+    "sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf",
+    "pages": 366
+  },
+  "scope": "Engine assembly removal/refit and frame/bearing renewal. Newgeneration source audit; no yearinheritance.",
+  "next": [
+    "Root integrate separate approved frame manifest and retain external-dependency visibility.",
+    "Final engine journey composition owned by yearagent; do not alter frozen source."
+  ],
+  "database_writes": false,
+  "candidate": {
+    "path": "engine-removal-refit-v1.procedure.json",
+    "sha256": "cbf8d699bd55eea9bd8d5ba98c459829dc8aa94110736340679fc3b4f5f2244a",
+    "steps": 72,
+    "status": "APPROVED"
+  },
+  "frame_candidate": {
+    "path": "frame-bearing-renewal-reassembly-v1.procedure.json",
+    "sha256": "80aaf24e8f9ee4abff65dfd53d56f09f88ce107114bf50703eab0a1c2d51fecd",
+    "steps": 153,
+    "status": "APPROVED"
+  }
+}

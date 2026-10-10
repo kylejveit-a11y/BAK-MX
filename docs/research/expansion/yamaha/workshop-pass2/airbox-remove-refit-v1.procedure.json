@@ -1,0 +1,394 @@
+{
+  "schema_version": 1,
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "scope_confirmed": true,
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "publication_status": "LOCAL_REVIEWED_NOT_IMPORTED",
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf",
+    "document_sha256": "b5cbf756d688c8516251e456d4255da4ab607c8e1206e1408f254a79f74a6fbd",
+    "document_revision": "D03-2819U-10 / LIT-11626-39-20; First edition April 2025",
+    "pdf_pages": [
+      38,
+      57,
+      91,
+      101,
+      123,
+      124,
+      125,
+      126,
+      127,
+      306,
+      307,
+      308,
+      309,
+      310,
+      312,
+      313,
+      314
+    ],
+    "printed_pages": [
+      "2-10",
+      "4-1 to4-5",
+      "7-1 to7-5",
+      "7-7 to7-9"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "PDF309310312313314 visually reviewed this pass with exact clamp/mount mapping reconciled against previously reviewed PDF57. Existing source-reviewed tank/body access and closure retained. Intact-case adaptation does not remove filter, sensor or clipped assembly bracket."
+  },
+  "required_tools": [
+    {
+      "name": "Fuel-safe transfer pump, approved container, absorbent cloths, included fuel-hose joint covers",
+      "spec": "For tank removal; no mouth siphoning"
+    },
+    {
+      "name": "Stable bike support, clean parts trays and measurement log",
+      "spec": null
+    },
+    {
+      "name": "Appropriate tank/body/airbox tools and calibrated low-range torque wrench",
+      "range": "3\u201313 N\u00b7m"
+    }
+  ],
+  "id": "yamaha-2026-yz450f-airbox-remove-refit-v1",
+  "title": "Remove and refit the stock airbox",
+  "completeness": "Complete assembled-bike tank/body access, intact air-filter-case removal, intake joint refit and body/fuel closure. The filter, intake-temperature sensor and case assembly bracket remain attached to the case. Throttle body, cables and calibration remain untouched.",
+  "applicability": {
+    "included": "Exact stock US2026 YZ450F air-filter-case, mounts, intake joint and fuel tank",
+    "excluded": [
+      "Other years/models",
+      "Aftermarket airbox or intake",
+      "Filter cleaning or replacement",
+      "Throttle-body or throttle-cable removal",
+      "TPS/idle calibration"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "required_parts": [],
+  "preflight": [
+    "Engine stopped and cool; stable support; clean intake/fuel work area.",
+    "Intact clean filter, sound stock case/joint/seals and mounting hardware.",
+    "Fuel-safe tank-removal equipment and joint covers available."
+  ],
+  "critical_stop_conditions": [
+    "Intake joint damaged, contaminated or cannot seat fully.",
+    "A mounting collar, damper or sealing interface is unaccounted for.",
+    "Fuel leak, unlatched connector or pinched hose/wire after refit."
+  ],
+  "derivation": {
+    "source_artifact": "../workshop-2026/valve-inspection-v1.procedure.json",
+    "sha256": "bd29071a272a48dc432388033793ab052041db4b3232d95021e608488acb49c8",
+    "method": "Reuses only reviewed tank/body access and closure; no valve-work steps."
+  },
+  "steps": [
+    {
+      "id": "prepare",
+      "title": "Prepare the bike",
+      "instruction": "Stop the engine, let it cool and support the bike. Clean the intake and fuel work area. Keep dirt out of open joints and fuel work away from ignition sources.",
+      "depends_on": [],
+      "source_pdf_pages": [
+        91,
+        307
+      ],
+      "verification": [
+        "Cold engine; stable bike; clean work area; parts/tools ready."
+      ],
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": false
+    },
+    {
+      "id": "subseat",
+      "title": "Open the sub-seat",
+      "instruction": "Release its quick fastener and lift the sub-seat first; it is tethered to the main seat. Open the fuel cap and transfer the tank fuel with a fuel-safe pump into a suitable container, then secure the cap.",
+      "depends_on": [
+        "prepare"
+      ],
+      "source_pdf_pages": [
+        38,
+        126,
+        307
+      ],
+      "verification": [
+        "Sub-seat tether not strained; fuel contained."
+      ],
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": false
+    },
+    {
+      "id": "body",
+      "title": "Remove access panels",
+      "instruction": "Remove the main-seat bolts and slide the seat rearward. Remove the left/right side covers, keeping their bolts and collars labeled. Slide the right cover out of its upper and lower locating slots instead of pulling the tabs apart.",
+      "depends_on": [
+        "subseat"
+      ],
+      "source_pdf_pages": [
+        123,
+        124,
+        126,
+        127
+      ],
+      "verification": [
+        "Seat and two side covers removed; hardware locations retained."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=123",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=124",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=126",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=127"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": false
+    },
+    {
+      "id": "shrouds",
+      "title": "Expose the tank",
+      "instruction": "Release the air-filter-case cover ribs by pressing the duct sides inward and lifting the rear; slide the cover rearward to release the front projection. Leave the filter installed. Remove the left/right shroud bolts and shrouds, retaining their collars.",
+      "depends_on": [
+        "body"
+      ],
+      "source_pdf_pages": [
+        101,
+        125,
+        126
+      ],
+      "verification": [
+        "Air-filter-case cover and shrouds removed; filter undisturbed."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=101",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=125",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=126"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": false
+    },
+    {
+      "id": "tank-disconnect",
+      "title": "Disconnect the tank",
+      "instruction": "Unplug the fuel-pump connector. Put cloths below and around the fuel-hose joint for residual pressure. Slide the connector cover back, press its two release buttons, and separate the joint by hand. Fit the supplied joint covers immediately to both openings.",
+      "depends_on": [
+        "shrouds"
+      ],
+      "source_pdf_pages": [
+        306,
+        307
+      ],
+      "verification": [
+        "Pump disconnected; both fuel openings capped; no forced hose tools."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=306",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=307"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": false
+    },
+    {
+      "id": "tank-remove",
+      "title": "Lift the tank clear",
+      "instruction": "Remove the tank mounting fasteners, retaining the collars/dampers in their original locations, and lift the tank away. Support it so its weight does not rest on the fuel-pump mounting surface. Leave the pump installed in the tank.",
+      "depends_on": [
+        "tank-disconnect"
+      ],
+      "source_pdf_pages": [
+        306,
+        307
+      ],
+      "verification": [
+        "Tank supported; mounts accounted for; pump untouched."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=306",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=307"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": false
+    },
+    {
+      "id": "case-release",
+      "title": "Release the intact case",
+      "instruction": "Disconnect the intake-air-temperature-sensor coupler by its connector latch. Loosen the air-filter-case joint clamp screw and remove the three case mounting bolts, retaining their collars, washers and dampers at the original locations. Keep the filter, temperature sensor and case assembly bracket attached to the case.",
+      "source_pdf_pages": [
+        57,
+        309,
+        310
+      ],
+      "verification": [
+        "Sensor coupler disconnected; three mounting sets retained; case internals attached."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=57",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=309",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=310"
+      ],
+      "record_required": false,
+      "depends_on": [
+        "tank-remove"
+      ],
+      "origin": "Original source-based bounded summary; part logging and clean-joint protection are workflow adaptations."
+    },
+    {
+      "id": "case-remove",
+      "title": "Lift off and protect the intake",
+      "instruction": "Lift the case clear of its seated intake connection without loading the remaining throttle body. Protect the exposed throttle-body inlet from dirt. Keep the case clean and inspect the joint and mounting supports for visible damage. Do not push the throttle valve, loosen sensor screws or move the cables.",
+      "source_pdf_pages": [
+        309,
+        310,
+        312
+      ],
+      "verification": [
+        "Intact case removed; clean inlet protected; throttle and sensors undisturbed."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=309",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=310",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=312"
+      ],
+      "record_required": false,
+      "depends_on": [
+        "case-release"
+      ],
+      "origin": "Original source-based bounded summary; part logging and clean-joint protection are workflow adaptations."
+    },
+    {
+      "id": "case-refit",
+      "title": "Seat the case and secure its mounts",
+      "instruction": "Remove the temporary inlet protection and seat the complete case fully on the throttle-body intake connection in its original orientation. Restore the original mounting collars, dampers and washers. Tighten the three case mounting bolts to7 N\u00b7m and the air-filter-case joint clamp screw to3 N\u00b7m. Confirm the joint lip is evenly seated and not folded. Reconnect the temperature-sensor coupler until its latch engages.",
+      "source_pdf_pages": [
+        57,
+        309,
+        310
+      ],
+      "verification": [
+        "Three mounts7 N\u00b7m; joint clamp3 N\u00b7m; joint fully seated; sensor connector latched."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=57",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=309",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=310"
+      ],
+      "record_required": true,
+      "depends_on": [
+        "case-remove"
+      ],
+      "origin": "Original source-based bounded summary; part logging and clean-joint protection are workflow adaptations."
+    },
+    {
+      "id": "intake-check",
+      "title": "Verify the restored intake",
+      "instruction": "Check case support, full joint seating, wiring clearance and that all temporary intake protection has been removed. The filter and bracket stayed assembled; if either has moved or a seal cannot be accounted for, resolve it before closing the bike.",
+      "source_pdf_pages": [
+        309,
+        310,
+        313,
+        314
+      ],
+      "verification": [
+        "Intake complete and clean; retained assembly bracket/element secure."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=309",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=310",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=313",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=314"
+      ],
+      "record_required": true,
+      "depends_on": [
+        "case-refit"
+      ],
+      "origin": "Original source-based bounded summary; part logging and clean-joint protection are workflow adaptations."
+    },
+    {
+      "id": "tank-install",
+      "title": "Reconnect the fuel system",
+      "instruction": "Refit the tank on its retained dampers/collars. Tighten its two front mounting bolts to 8 N\u00b7m and the tank retaining screw to 4 N\u00b7m. Remove the temporary joint covers, push the fuel hose fully onto the pipe until it clicks, and slide the connector cover back into its locked position. Keep the hose holder correctly oriented, with no kink or pinch. Reconnect the pump plug.",
+      "depends_on": [
+        "intake-check"
+      ],
+      "source_pdf_pages": [
+        306,
+        308
+      ],
+      "verification": [
+        "Tank front bolts8 N\u00b7m/retaining screw4 N\u00b7m; hose latched/covered/routed; pump plug connected."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=306",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=308"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": false
+    },
+    {
+      "id": "body-install",
+      "title": "Refit the panels and seat",
+      "instruction": "Locate the radiator-guard projections in the shroud holes, then install the shrouds at 7 N\u00b7m. Refit the air-filter-case cover by engaging its projection and both ribs. Slide side-cover tabs into their slots; the right-cover rib sits under the rear-fender rib. Tighten ordinary left/right side-cover bolts to 7 N\u00b7m and the two seat bolts to 13 N\u00b7m. Refit the sub-seat with its tether untwisted, then press, rotate and secure its quick fastener.",
+      "depends_on": [
+        "tank-install"
+      ],
+      "source_pdf_pages": [
+        38,
+        101,
+        123,
+        124,
+        125,
+        126,
+        127
+      ],
+      "verification": [
+        "Tabs/ribs seated; shrouds/side-cover bolts7 N\u00b7m; seat bolts13 N\u00b7m; quick fastener locked."
+      ],
+      "diagram_reference_required": true,
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=38",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=101",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=123",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=124",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=125",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=126",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/D03-2819U-10_02.pdf#page=127"
+      ],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": false
+    },
+    {
+      "id": "closeout",
+      "title": "Finish the inspection record",
+      "instruction": "Restore fuel safely and secure the tank cap. Account for the joint covers, intake protection, tools and removed hardware. Check fuel joints for leakage and verify no hose or wire is trapped. Save the case removal/refit and hardware checks; this does not claim filter cleaning, throttle calibration or engine service.",
+      "depends_on": [
+        "body-install"
+      ],
+      "source_pdf_pages": [
+        91,
+        308
+      ],
+      "verification": [
+        "Four readings saved; all closures checked; outstanding adjustment remains visible."
+      ],
+      "diagram_reference_required": false,
+      "source_links": [],
+      "origin": "original source-based summary; log/checklist prompts are application workflow",
+      "record_required": true
+    }
+  ],
+  "reviewed_at": "2026-09-13T19:45:54.300980+00:00"
+}

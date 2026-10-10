@@ -1,0 +1,659 @@
+{
+  "schema_version": 1,
+  "id": "yamaha-2021-yz250f-top-end-teardown-inspection-v1",
+  "title": "Disassemble and measure the prepared top end",
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ250F",
+    "model_year": 2021,
+    "variant": "standard",
+    "region": "US"
+  },
+  "scope_confirmed": true,
+  "status": "SOURCE_REVIEWED_BOUNDED_PROCEDURE",
+  "publication_status": "APPROVED",
+  "component": "engine",
+  "affected_components": [
+    "engine",
+    "cams",
+    "piston"
+  ],
+  "applicability": {
+    "included": "Exact US2021 standard YZ250F stock top end on a prepared removed engine.",
+    "excluded": [
+      "Assembled-bike engine removal/refit",
+      "Cylinder/head/seat machining or guide replacement",
+      "Piston/cylinder/head/valve reassembly, timing closure, valve adjustment, startup",
+      "Bottom-end rebuilding and oil-ring rail reuse approval"
+    ],
+    "year_inheritance": "NONE"
+  },
+  "entry_state": [
+    "Cold, cleaned, drained engine secured on a bench, all external top-end connections and upper brackets detached.",
+    "Cam cover, cams, head, cylinder, piston and valve assemblies still installed."
+  ],
+  "exit_state": [
+    "Top end disassembled; actual inspection measurements, original component positions and repair dispositions saved.",
+    "Open engine protected; assembly and startup remain pending."
+  ],
+  "preflight": [
+    "This is a teardown/inspection route. Arrange subsequent exact repair and reassembly before opening the engine.",
+    "Head-bolt preparation remains conflicted: PDF57 summary specifies molybdenum disulfide oil while dedicated211 specifies molybdenum disulfide grease. Resolve before later head installation; this procedure selects neither.",
+    "Engine removal, draining and external access are prerequisites, not claimed as completed by this guide."
+  ],
+  "critical_stop_conditions": [
+    "Engine not securely supported, residual fuel/coolant or incomplete external access",
+    "Binding during crank rotation, lost hardware or unaccounted debris",
+    "No exact repair/assembly plan or unresolved head-bolt lubricant requirement"
+  ],
+  "required_tools": [
+    {
+      "name": "Stable engine bench fixture and labeled component trays"
+    },
+    {
+      "name": "Suitable sockets and 10 N·m torque tool"
+    },
+    {
+      "name": "Micrometers, bore gauges, straightedge, feeler gauges, dial gauge/V-blocks"
+    },
+    {
+      "name": "Plastigauge and measuring scale"
+    },
+    {
+      "name": "Thin screwdriver and wire to retain timing chain"
+    },
+    {
+      "name": "Piston-pin puller90890-01304 / YU-01304 if needed"
+    },
+    {
+      "name": "Valve spring compressor90890-04019 / YM-04019 and22mm attachment90890-04108 / YM-04108"
+    },
+    {
+      "name": "Rounded carbon scraper, clean solvent and blue layout fluid"
+    }
+  ],
+  "required_parts": [
+    {
+      "name": "New gaskets, piston-pin clips and valve stem seals will be required for later assembly; determine additional replacement sets from actual inspection."
+    }
+  ],
+  "source": {
+    "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf",
+    "document_sha256": "c2f65141ab95bdbe20d7bdd027bfdde93d2d79dbcb4ff0ccb54140ed7fb0578b",
+    "document_revision": "B7B-2819U-12 / LIT-11626-34-25",
+    "pdf_pages": [
+      1,
+      4,
+      48,
+      57,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      208,
+      209,
+      210,
+      211,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      220,
+      221,
+      222,
+      223
+    ],
+    "printed_pages": [
+      "1: front matter",
+      "4: front matter",
+      "48: 2-3",
+      "57: 2-12",
+      "201: 5-14",
+      "202: 5-15",
+      "203: 5-16",
+      "204: 5-17",
+      "205: 5-18",
+      "206: 5-19",
+      "208: 5-21",
+      "209: 5-22",
+      "210: 5-23",
+      "211: 5-24",
+      "213: 5-26",
+      "214: 5-27",
+      "215: 5-28",
+      "216: 5-29",
+      "217: 5-30",
+      "218: 5-31",
+      "220: 5-33",
+      "221: 5-34",
+      "222: 5-35",
+      "223: 5-36"
+    ],
+    "review_status": "APPROVED",
+    "review_note": "Independently source-reviewed bounded engine operation; physical validation remains outstanding."
+  },
+  "steps": [
+    {
+      "id": "entry",
+      "title": "Confirm the prepared engine",
+      "instruction": "Record the exact US 2021 YZ250F stock engine identity and completed engine-removal preparation. Engine must be cold, cleaned, drained and secured on a stable bench fixture; electrical/fuel/intake/exhaust/radiator connections and upper mounting brackets already detached. This route ends with disassembled inspected parts, not a running engine. Head-bolt lubricant disagreement must be resolved before later reassembly.",
+      "depends_on": [],
+      "source_pdf_pages": [
+        57,
+        201,
+        208,
+        211
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=57",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=201",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=208",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=211"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record actual measurements, condition and disposition."
+      ]
+    },
+    {
+      "id": "cover",
+      "title": "Open the top end",
+      "instruction": "Remove the cylinder-head breather hose and spark plug, then the two cover bolts and cylinder-head cover. Retain the top timing-chain guide separately; remove the old cover gasket. Protect the open engine from dirt and keep parts identified.",
+      "depends_on": [
+        "entry"
+      ],
+      "source_pdf_pages": [
+        201
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=201"
+      ],
+      "diagram_reference_required": true,
+      "record_required": false,
+      "verification": [
+        "Confirm the action and component accounting."
+      ]
+    },
+    {
+      "id": "tdc",
+      "title": "Record timing before removal",
+      "instruction": "Remove the timing-mark and crankshaft-end access screws. Turn the crankshaft counterclockwise with a wrench until the rotor TDC mark aligns with the cover mark and both illustrated cam sprocket marks align with the head edge. Record the alignment. Do not force a binding engine.",
+      "depends_on": [
+        "cover"
+      ],
+      "source_pdf_pages": [
+        202,
+        203
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=202",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=203"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record actual measurements, condition and disposition."
+      ]
+    },
+    {
+      "id": "cams-out",
+      "title": "Remove tensioner and cams",
+      "instruction": "Remove the tensioner cap bolt, tensioner and gasket. Loosen all eight cam-cap bolts evenly in a crisscross pattern from outside inward. Lift the two caps while retaining both clips and dowels. Secure the timing chain with wire so it cannot fall, then remove the exhaust and intake cams. Keep caps matched to their original head and positions.",
+      "depends_on": [
+        "tdc"
+      ],
+      "source_pdf_pages": [
+        202,
+        203,
+        204
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=202",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=203",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=204"
+      ],
+      "diagram_reference_required": true,
+      "record_required": false,
+      "verification": [
+        "Confirm the action and component accounting."
+      ]
+    },
+    {
+      "id": "cam-lobes",
+      "title": "Measure the cam lobes",
+      "instruction": "Inspect each cam lobe for blue discoloration, pitting and scratches. Measure the illustrated lobe height with a micrometer: intake service limit 32.130 mm, exhaust 33.460 mm. Record each value; damaged or undersize cams require replacement.",
+      "depends_on": [
+        "cams-out"
+      ],
+      "source_pdf_pages": [
+        204
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=204"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record actual measurements, condition and disposition."
+      ]
+    },
+    {
+      "id": "cam-journals",
+      "title": "Measure journal clearance",
+      "instruction": "Temporarily place each cam in its original head position. Lay Plastigauge on the illustrated journal, install original dowels and caps, and tighten cap bolts to 10 N·m in a crisscross pattern from inside outward; the illustrated bolts use engine oil on threads/contact surfaces. Do not rotate the cam during measurement. Remove caps evenly and measure the strip width. Record clearance against 0.028–0.062 mm. Remove all Plastigauge residue afterward.",
+      "depends_on": [
+        "cam-lobes"
+      ],
+      "source_pdf_pages": [
+        202,
+        204,
+        206
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=202",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=204",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=206"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record actual measurements, condition and disposition."
+      ]
+    },
+    {
+      "id": "cam-disposition",
+      "title": "Resolve worn cam supports",
+      "instruction": "For an out-of-range journal clearance, measure the cam journal diameter against 21.959–21.972 mm. An out-of-range journal requires a new cam; if the journal is within range but clearance failed, replace the cylinder head and its cam caps as a matched set. Save the actual measurements and replacement decision. Remove the temporary cam installation and retain the components separately.",
+      "depends_on": [
+        "cam-journals"
+      ],
+      "source_pdf_pages": [
+        204,
+        205
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=204",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=205"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record actual measurements, condition and disposition."
+      ]
+    },
+    {
+      "id": "timing-condition",
+      "title": "Inspect chain, sprockets and tensioner",
+      "instruction": "Check chain links for damage or stiffness: a failed chain requires chain and camshaft replacement as a set. More than one-quarter tooth wear on the illustrated cam sprocket also requires that matched replacement. Inspect tensioner for cracking/damage; with light finger pressure on its rod, wind it fully clockwise using a thin screwdriver, release and verify smooth extension. Replace a failed tensioner assembly. Record decompressor cam smooth movement and projecting lever pin.",
+      "depends_on": [
+        "cam-disposition"
+      ],
+      "source_pdf_pages": [
+        205
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=205"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record actual measurements, condition and disposition."
+      ]
+    },
+    {
+      "id": "head-out",
+      "title": "Remove the cylinder head",
+      "instruction": "Use the exact six-position removal diagram: loosen each head fastener half a turn per pass in the illustrated order until all are fully loose, then remove. Keep the long M9×145 mm bolt at position3 distinct from the three M9×135 mm bolts at positions4–6. Lift the head while retaining the timing chain; remove the old gasket and intake-side chain guide. Retain dowels and washers. Leave oil-passage plug and head studs installed.",
+      "depends_on": [
+        "timing-condition"
+      ],
+      "source_pdf_pages": [
+        208,
+        209,
+        210
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=208",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=209",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=210"
+      ],
+      "diagram_reference_required": true,
+      "record_required": false,
+      "verification": [
+        "Confirm the action and component accounting."
+      ]
+    },
+    {
+      "id": "head-check",
+      "title": "Check the head and guide",
+      "instruction": "Inspect the intake-side chain guide for damage/wear. Remove combustion-chamber carbon with a rounded scraper without scratching the plug bore or head. Clear coolant-passage deposits/rust. Record head damage and check warpage with straightedge and thickness gauge across the illustrated paths; limit 0.05 mm. Head replacement also requires new valves. A failed warpage check needs a separately reviewed resurfacing operation; do not count this inspection as machining.",
+      "depends_on": [
+        "head-out"
+      ],
+      "source_pdf_pages": [
+        210
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=210"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record actual measurements, condition and disposition."
+      ]
+    },
+    {
+      "id": "cylinder-out",
+      "title": "Lift the cylinder",
+      "instruction": "Remove the cylinder retaining bolt, lift the cylinder while supporting the piston and secured chain, and remove the base gasket and two dowels. Keep the case opening protected. Do not remove the exhaust-side chain-guide stopper plate in this bounded operation.",
+      "depends_on": [
+        "head-check"
+      ],
+      "source_pdf_pages": [
+        220
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=220"
+      ],
+      "diagram_reference_required": true,
+      "record_required": false,
+      "verification": [
+        "Confirm the action and component accounting."
+      ]
+    },
+    {
+      "id": "piston-out",
+      "title": "Remove piston and rings",
+      "instruction": "Cover the crankcase opening before removing a piston-pin clip. Deburr the clip groove and pin-bore area as required; withdraw the pin without hammering. If still difficult, use piston-pin puller 90890-01304 / YU-01304. Remove the piston, then top ring and oil-ring components by opening the ring ends carefully and lifting the opposite side over the crown. Account for clips and protect the exposed connecting rod and crankcase.",
+      "depends_on": [
+        "cylinder-out"
+      ],
+      "source_pdf_pages": [
+        220,
+        221
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=220",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=221"
+      ],
+      "diagram_reference_required": true,
+      "record_required": false,
+      "verification": [
+        "Confirm the action and component accounting."
+      ]
+    },
+    {
+      "id": "bore",
+      "title": "Measure the cylinder",
+      "instruction": "Inspect cylinder and piston walls for vertical scratches. Measure side-to-side and front-to-back at all three illustrated bore heights, recording D1–D6 and their maximum C. Standard bore is 77.000–77.010 mm; wear limit 77.060 mm. Scratches require cylinder replacement with piston/rings as a set. An out-of-spec bore requires cylinder reboring or replacement plus new piston/rings; machining is outside this inspection route.",
+      "depends_on": [
+        "piston-out"
+      ],
+      "source_pdf_pages": [
+        221
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=221"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record actual measurements, condition and disposition."
+      ]
+    },
+    {
+      "id": "piston-fit",
+      "title": "Measure piston and actual fit",
+      "instruction": "Measure piston diameter at the illustrated point 4.0 mm above the skirt bottom: 76.955–76.970 mm. Calculate actual fit as maximum measured bore C minus measured piston diameter; specified clearance 0.030–0.055 mm. Record both dimensions and the subtraction. An out-of-range piston diameter or clearance requires cylinder, piston and rings replaced as a set.",
+      "depends_on": [
+        "bore"
+      ],
+      "source_pdf_pages": [
+        221,
+        222
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=221",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=222"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record actual measurements, condition and disposition."
+      ]
+    },
+    {
+      "id": "ring-check",
+      "title": "Measure ring clearances",
+      "instruction": "Clean carbon from rings and grooves before checking side clearance: standard 0.030–0.065 mm, service limit 0.115 mm. An out-of-spec side clearance requires piston/rings as a set. Square the top ring near the cylinder bottom with the piston crown as shown and record end gap; limit 0.50 mm. Replace a failed ring. The oil-ring expander gap is not measurable. Excessive oil-rail gap requires replacement of all piston rings. The cited section gives no numerical rail-gap tolerance, so do not invent a rail reuse limit.",
+      "depends_on": [
+        "piston-fit"
+      ],
+      "source_pdf_pages": [
+        222
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=222"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record actual measurements, condition and disposition."
+      ]
+    },
+    {
+      "id": "pin-check",
+      "title": "Inspect piston pin and bore",
+      "instruction": "Record pin discoloration or grooves; a damaged pin requires replacement and a lubrication-system investigation. Measure pin OD (minimum 15.971 mm) and piston pin bore ID (maximum16.043 mm); replace the failed pin or piston respectively. Record actual bore-minus-pin fit against 0.002–0.022 mm; an unresolved fit is not accepted for assembly.",
+      "depends_on": [
+        "ring-check"
+      ],
+      "source_pdf_pages": [
+        48,
+        222,
+        223
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=48",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=222",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=223"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record actual measurements, condition and disposition."
+      ]
+    },
+    {
+      "id": "lifters",
+      "title": "Identify lifters and pads",
+      "instruction": "On the detached head, protect the timing-chain opening with a clean cloth and remove all four lifters and pads. Label their original locations individually and keep them separated. Inspect lifters for damage/scratches: failed lifters require lifter and cylinder-head replacement. Account for all pads before moving the head.",
+      "depends_on": [
+        "pin-check"
+      ],
+      "source_pdf_pages": [
+        213,
+        214,
+        218
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=213",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=214",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=218"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record actual measurements, condition and disposition."
+      ]
+    },
+    {
+      "id": "sealing",
+      "title": "Check valve sealing before dismantling",
+      "instruction": "With the valves still held by their springs, add clean solvent to intake and exhaust ports as illustrated and observe each seat for leakage. Record the result for all four valves. Leakage requires face, seat and contact-width inspection. Drain and dry the solvent before subsequent work; do not leave solvent in the parts.",
+      "depends_on": [
+        "lifters"
+      ],
+      "source_pdf_pages": [
+        214
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=214"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record actual measurements, condition and disposition."
+      ]
+    },
+    {
+      "id": "valves-out",
+      "title": "Remove valve assemblies",
+      "instruction": "Use valve spring compressor90890-04019 / YM-04019 with attachment90890-04108 / YM-04108 (22 mm) to compress each spring and remove both cotters. Release the compressor in a controlled manner, then remove retainer, spring, valve, stem seal and spring seat. Keep every part assigned to its original valve position. Every removed valve requires a new stem seal for eventual assembly.",
+      "depends_on": [
+        "sealing"
+      ],
+      "source_pdf_pages": [
+        213,
+        214,
+        216
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=213",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=214",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=216"
+      ],
+      "diagram_reference_required": true,
+      "record_required": false,
+      "verification": [
+        "Confirm the action and component accounting."
+      ]
+    },
+    {
+      "id": "stem-guide",
+      "title": "Measure stems and guides",
+      "instruction": "Measure each valve stem and guide bore. Intake stem minimum4.945 mm; exhaust minimum4.430 mm. Guide IDs: intake5.000–5.012 mm, exhaust4.500–4.512 mm. Compute guide ID minus stem OD for each pair; maximum clearance intake0.080 mm, exhaust0.100 mm. Record each component dimension and actual clearance, not just pass/fail. Failed clearance requires guide replacement; new valve installation also requires a new guide. Guide renewal and subsequent seat refacing are separate repair work.",
+      "depends_on": [
+        "valves-out"
+      ],
+      "source_pdf_pages": [
+        48,
+        215,
+        216
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=48",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=215",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=216"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record actual measurements, condition and disposition."
+      ]
+    },
+    {
+      "id": "valve-runout",
+      "title": "Inspect valve condition and runout",
+      "instruction": "Clean carbon from face and seat for inspection. Record pitting/wear, mushroomed stem end and measured stem runout against0.020 mm. A mushroomed end or failed runout requires replacement. Do not grind or lap a valve and then return it to service: these are titanium intake and exhaust valves, and any valve used for seat lapping must be discarded in favor of a distinct new running valve.",
+      "depends_on": [
+        "stem-guide"
+      ],
+      "source_pdf_pages": [
+        216,
+        217
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=216",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=217"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record actual measurements, condition and disposition."
+      ]
+    },
+    {
+      "id": "seat-contact",
+      "title": "Measure seat contact",
+      "instruction": "Inspect each seat for pitting/wear. Apply blue layout fluid to its corresponding valve face, insert through the guide and press onto the seat to make an impression; measure the removed-blueing band at the illustrated contact location. Maximum width1.6 mm for both intake and exhaust. Record each result. Failed seat condition or contact width requires cylinder-head replacement under the inspection criteria; no seat machining or lapping is performed here. Clean layout fluid away afterward.",
+      "depends_on": [
+        "valve-runout"
+      ],
+      "source_pdf_pages": [
+        216,
+        217
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=216",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=217"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record actual measurements, condition and disposition."
+      ]
+    },
+    {
+      "id": "springs",
+      "title": "Measure valve springs",
+      "instruction": "Measure each spring free length. Intake minimum34.94 mm; exhaust minimum33.82 mm. Record all four readings and identify springs requiring replacement.",
+      "depends_on": [
+        "seat-contact"
+      ],
+      "source_pdf_pages": [
+        217,
+        218
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=217",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=218"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record actual measurements, condition and disposition."
+      ]
+    },
+    {
+      "id": "handoff",
+      "title": "Save the inspection and repair plan",
+      "instruction": "Account for every clip, cotter, dowel, pad, fastener and protective cloth. Keep reusable parts identified by original location, separate failed parts, and protect the open crankcase from debris. Save all measured values and matched replacement requirements. Engine remains disassembled. Resolve the documented head-bolt lubricant discrepancy and complete the required repair, assembly, timing, valve-clearance and commissioning procedures before any start.",
+      "depends_on": [
+        "springs"
+      ],
+      "source_pdf_pages": [
+        57,
+        202,
+        211,
+        213,
+        216,
+        220
+      ],
+      "source_links": [
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=57",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=202",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=211",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=213",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=216",
+        "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf#page=220"
+      ],
+      "diagram_reference_required": true,
+      "record_required": true,
+      "verification": [
+        "Record actual measurements, condition and disposition."
+      ]
+    }
+  ],
+  "operation_dependencies": [],
+  "completeness": "Continuous prepared-engine top-end disassembly and measured inspection. Does not close repair, reassembly or return to running condition.",
+  "authored_adaptation": {
+    "structural_reference_sha256": "88e9c1f18c94bff4ab345a8454882220ee8657c0155c5773356d5df3193f3805",
+    "method": "All mechanical paragraphs compared to exact B7B source;2021 tool and all-ring replacement differences retained. No inferred whole-bike compatibility."
+  }
+}

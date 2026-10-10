@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "husqvarna-workshop-pass5-review",
+  "reviewed_at": "2026-09-13",
+  "database_writes": false,
+  "sources": [
+    {
+      "id": "hq2025",
+      "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "local_pdf_path": "C:/Users/kylej/AppData/Local/Temp/hq-fc450-2025.pdf",
+      "sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b"
+    },
+    {
+      "id": "hq2021",
+      "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402445_en_OM.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\hq-fc-450-2021.pdf",
+      "sha256": "ddb2933ed8a6e8f0a863cee58d15b4b614b9e376cdcb199e43f98d5e3981cf46"
+    },
+    {
+      "id": "hq2020fc250",
+      "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3402335_en_OM.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\hq-fc-250-2020.pdf",
+      "sha256": "182a3542a53be5b6f0d647f6a10cd05629b81233691f200b78703750791070bb"
+    },
+    {
+      "id": "hq2020fc450",
+      "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3402354_en_OM.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\hq-fc-450-2020.pdf",
+      "sha256": "d313c185fe62c76adeab1a3290ddb1fc3505ad08f48c7c67f10f81c235393210"
+    },
+    {
+      "id": "hq2021fc250",
+      "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402442_en_OM.pdf",
+      "local_pdf_path": "C:\\Users\\kylej\\AppData\\Local\\Temp\\hq-fc-250-2021.pdf",
+      "sha256": "61ef03cb7f18f20e3ea40a303acebec990f206b30050a37b5cc1e7a04ad1dd4c"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "fork-remove-refit-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "839cd040d199ca8a9ecf7be0da9ad691816deffb9a806637ff79d57a149a3155",
+      "source_id": "hq2025",
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FC 450",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "validate_review.py",
+      "kind": "validator",
+      "sha256": "2ef3a7300a5dd76c19687df2bcb166be14a74d583255f730250548528d83567e"
+    },
+    {
+      "path": "fork-remove-refit-2021-v1.procedure.json",
+      "kind": "procedure",
+      "sha256": "e1e6b07d4368846f304cb23896b3c531747f199206195fad360939076b7fe37c",
+      "source_id": "hq2021",
+      "target": {
+        "manufacturer": "Husqvarna",
+        "model": "FC 450",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      }
+    },
+    {
+      "path": "2020-2021-source-audit.json",
+      "kind": "review",
+      "sha256": "a6c780e06a56d5e871ccd291becee2e2219cbb701ee32fdedd6a57cb12bb1a45"
+    },
+    {
+      "path": "REVIEW.md",
+      "kind": "review",
+      "sha256": "8927fa457b94f34a1d3f0bbb4d54c29869160068a8ea988e1c1cd6a42170eba3"
+    }
+  ]
+}

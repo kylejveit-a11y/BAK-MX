@@ -1,0 +1,227 @@
+{
+  "target": {
+    "manufacturer": "Husqvarna",
+    "model": "FC 450",
+    "model_year": 2025,
+    "variant": "standard",
+    "region": "US"
+  },
+  "source_metadata": {
+    "target": {
+      "manufacturer": "Husqvarna",
+      "model": "FC 450",
+      "model_year": 2025,
+      "variant": "standard",
+      "region": "US"
+    },
+    "selector_url": "https://www.husqvarna-motorcycles.com/en-us/service/user-manuals.html",
+    "query_url": "https://www.husqvarna-motorcycles.com/en-us/service/user-manuals/_jcr_content/root/responsivegrid_1_col/bikemanuals.manuals.json?modelName=FC+450+2025",
+    "english_results": [
+      {
+        "modelName": "FC 450 2025",
+        "title": "FC 450 2025 EU (en) - 2025",
+        "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf"
+      },
+      {
+        "modelName": "FC 450 2025",
+        "title": "FC 450 2025 BR (en) - 2025",
+        "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf"
+      },
+      {
+        "modelName": "FC 450 2025",
+        "title": "FC 450 2025 US (en) - 2025",
+        "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf"
+      }
+    ],
+    "selected": {
+      "modelName": "FC 450 2025",
+      "title": "FC 450 2025 US (en) - 2025",
+      "link": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf"
+    },
+    "scope_confirmed_by_selector": true,
+    "review_status": "PENDING",
+    "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+    "bytes": 10737342,
+    "temporary_pdf": "/tmp/hq-manuals/fc-450-2025.pdf",
+    "temporary_text": "/tmp/hq-manuals/fc-450-2025.txt",
+    "scope_page": 3,
+    "scope_excerpt": "This document is valid for the following models:\nFC 450 EU (F2401Y1)\nFC 450 US (F2475Y2)\nFC 450 Factory Edition US (F2475Y1)\nFX 450 US (F2375Y4)\n*3402805en*\n3402805en\n23/01/2025",
+    "document_revision": "23/01/2025",
+    "document_article": "3402805en",
+    "torque_table_pdf_pages": [
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161
+    ]
+  },
+  "assemblies": [],
+  "parts": [],
+  "facts": [
+    {
+      "id": "fc-450-2025-service-spec-1",
+      "property": "oil_capacity",
+      "joint": "Engine oil",
+      "value": 1.2,
+      "unit": "L",
+      "conditions": [
+        "OEM capacity table; SAE 10W/50",
+        "Follow oil-change and level-check procedure; not an unconditional refill instruction"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page(s) 145, technical data: Engine oil",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "Source numerical table visually reviewed for exact US standard target. Capacity table is not a substitute for level-check/filling procedure. No interpolated model-year values."
+    },
+    {
+      "id": "fc-450-2025-service-spec-2",
+      "property": "coolant_capacity",
+      "joint": "Cooling system",
+      "value": 0.95,
+      "unit": "L",
+      "conditions": [
+        "OEM capacity table; follow filling/bleeding procedure"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page(s) 145, technical data: Cooling system",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "Source numerical table visually reviewed for exact US standard target. Capacity table is not a substitute for level-check/filling procedure. No interpolated model-year values."
+    },
+    {
+      "id": "fc-450-2025-service-spec-3",
+      "property": "suspension_travel",
+      "joint": "Front suspension",
+      "value": 305,
+      "unit": "mm",
+      "conditions": [
+        "Standard FC model"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page(s) 145\u2013146, technical data: Front suspension",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "Source numerical table visually reviewed for exact US standard target. Capacity table is not a substitute for level-check/filling procedure. No interpolated model-year values."
+    },
+    {
+      "id": "fc-450-2025-service-spec-4",
+      "property": "suspension_travel",
+      "joint": "Rear suspension",
+      "value": 293,
+      "unit": "mm",
+      "conditions": [
+        "Standard FC model"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page(s) 145\u2013146, technical data: Rear suspension",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "Source numerical table visually reviewed for exact US standard target. Capacity table is not a substitute for level-check/filling procedure. No interpolated model-year values."
+    },
+    {
+      "id": "fc-450-2025-service-spec-5",
+      "property": "triple_clamp_offset",
+      "joint": "Triple clamp",
+      "value": 22,
+      "unit": "mm",
+      "conditions": [],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page(s) 145\u2013146, technical data: Triple clamp",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "Source numerical table visually reviewed for exact US standard target. Capacity table is not a substitute for level-check/filling procedure. No interpolated model-year values."
+    },
+    {
+      "id": "fc-450-2025-service-spec-6",
+      "property": "brake_disc_diameter",
+      "joint": "Front brake disc",
+      "value": 260,
+      "unit": "mm",
+      "conditions": [],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page(s) 145\u2013146, technical data: Front brake disc",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "Source numerical table visually reviewed for exact US standard target. Capacity table is not a substitute for level-check/filling procedure. No interpolated model-year values."
+    },
+    {
+      "id": "fc-450-2025-service-spec-7",
+      "property": "clearance_wear_limit",
+      "joint": "Front brake disc thickness",
+      "value": 2.5,
+      "unit": "mm",
+      "conditions": [
+        "Minimum disc thickness; inspect entire swept surface"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page(s) 145\u2013146, technical data: Front brake disc thickness",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "Source numerical table visually reviewed for exact US standard target. Capacity table is not a substitute for level-check/filling procedure. No interpolated model-year values."
+    },
+    {
+      "id": "fc-450-2025-service-spec-8",
+      "property": "brake_disc_diameter",
+      "joint": "Rear brake disc",
+      "value": 220,
+      "unit": "mm",
+      "conditions": [],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page(s) 145\u2013146, technical data: Rear brake disc",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "Source numerical table visually reviewed for exact US standard target. Capacity table is not a substitute for level-check/filling procedure. No interpolated model-year values."
+    },
+    {
+      "id": "fc-450-2025-service-spec-9",
+      "property": "clearance_wear_limit",
+      "joint": "Rear brake disc thickness",
+      "value": 3.5,
+      "unit": "mm",
+      "conditions": [
+        "Minimum disc thickness; inspect entire swept surface"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page(s) 145\u2013146, technical data: Rear brake disc thickness",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "Source numerical table visually reviewed for exact US standard target. Capacity table is not a substitute for level-check/filling procedure. No interpolated model-year values."
+    },
+    {
+      "id": "fc-450-2025-service-spec-10",
+      "property": "final_drive_tooth_pair",
+      "joint": "Final drive",
+      "value": "13:51",
+      "unit": "tooth pair",
+      "conditions": [
+        "Front:rear sprocket teeth",
+        "US standard factory gearing"
+      ],
+      "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402805_en_BA.pdf",
+      "locator": "PDF page(s) 145\u2013146, technical data: Final drive",
+      "document_sha256": "26a4f73db78c496140a932b2d3ad768b0a9d5216504596205e4d0a2fb5cf5c5b",
+      "document_revision": "3402805en / 23/01/2025",
+      "review_status": "APPROVED",
+      "review_note": "Source numerical table visually reviewed for exact US standard target. Capacity table is not a substitute for level-check/filling procedure. No interpolated model-year values."
+    }
+  ],
+  "mappings": [],
+  "gaps": [
+    "Procedure steps, intervals, and full wear-limit enumeration remain separate."
+  ],
+  "catalog_complete": false,
+  "scope_confirmed": true
+}
