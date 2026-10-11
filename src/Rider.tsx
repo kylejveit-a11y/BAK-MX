@@ -280,8 +280,9 @@ export function SetupLogPanel({bike,signedIn,onAsk}:{bike?:Bike;signedIn:boolean
 /* ------------------------------------------------------------------ Parts catalog */
 export function PartsCatalog({bike}:{bike?:Bike}){
  const [catalog,setCatalog]=useState<PartCatalog|null|undefined>(undefined),[assemblies,setAssemblies]=useState<PartAssembly[]>([]),[open,setOpen]=useState(''),[parts,setParts]=useState<Part[]>([]),[error,setError]=useState(''),[find,setFind]=useState('');
- useEffect(()=>{let live=true;setCatalog(undefined);setAssemblies([]);setOpen('');setParts([]);setError('');if(bike)api<{catalog:PartCatalog|null;assemblies:PartAssembly[]}>('/parts/catalog?bike_id='+bike.id).then(d=>{if(live){setCatalog(d.catalog);setAssemblies(d.assemblies);}}).catch(e=>{if(live){setError(e.message);setCatalog(null);}});return()=>{live=false};},[bike?.id]);
- async function show(a:PartAssembly){if(open===a.id){setOpen('');return;}setOpen(a.id);setParts([]);try{setParts(await api<Part[]>('/parts?assembly_id='+a.id));}catch(e){setError((e as Error).message);}}
+ const [partsLoading,setPartsLoading]=useState(false);const [partsLoaded,setPartsLoaded]=useState(false);const requestId=useRef(0);
+ useEffect(()=>{let live=true;requestId.current++;setCatalog(undefined);setAssemblies([]);setOpen('');setParts([]);setPartsLoading(false);setPartsLoaded(false);setError('');if(bike)api<{catalog:PartCatalog|null;assemblies:PartAssembly[]}>('/parts/catalog?bike_id='+bike.id).then(d=>{if(live){setCatalog(d.catalog);setAssemblies(d.assemblies);}}).catch(e=>{if(live){setError(e.message);setCatalog(null);}});return()=>{live=false};},[bike?.id]);
+ async function show(a:PartAssembly){const current=++requestId.current;if(open===a.id){setOpen('');setPartsLoading(false);return;}setOpen(a.id);setParts([]);setPartsLoaded(false);setPartsLoading(true);setError('');try{const result=await api<Part[]>('/parts?assembly_id='+a.id);if(requestId.current===current){setParts(result);setPartsLoaded(true);}}catch(e){if(requestId.current===current)setError((e as Error).message);}finally{if(requestId.current===current)setPartsLoading(false);}}
  if(!bike||catalog===undefined)return null;
  const shown=assemblies.filter(a=>a.name.toLowerCase().includes(find.trim().toLowerCase()));
  return <section className="panel parts-catalog">
@@ -293,7 +294,7 @@ export function PartsCatalog({bike}:{bike?:Bike}){
     <button className="assembly-head" aria-expanded={open===a.id} onClick={()=>show(a)}><span>{a.name}</span><ArrowRight size={15}/></button>
     {open===a.id&&<div className="assembly-body">
      {a.diagram_url&&<a href={a.diagram_url} target="_blank" rel="noreferrer" className="text-button">Open exploded diagram <ArrowRight size={14}/></a>}
-     {!parts.length?<p className="subtle" role="status">Loading parts…</p>:<table><thead><tr><th>Ref</th><th>Part number</th><th>Description</th><th>Qty</th></tr></thead><tbody>{parts.map(p=><tr key={p.id}><td>{p.callout}</td><td>{p.part_number||'—'}</td><td>{p.description}{p.remarks&&<small>{p.remarks}</small>}</td><td>{p.quantity_raw||'—'}</td></tr>)}</tbody></table>}
+     {partsLoading?<p className="subtle" role="status">Loading parts…</p>:!partsLoaded?<p className="subtle" role="status">Parts could not be loaded. Try reopening this assembly.</p>:!parts.length?<p className="subtle" role="status">No part entries have been imported for this assembly.</p>:<table><thead><tr><th>Ref</th><th>Part number</th><th>Description</th><th>Qty</th></tr></thead><tbody>{parts.map(p=><tr key={p.id}><td>{p.callout}</td><td>{p.part_number||'—'}</td><td>{p.description}{p.remarks&&<small>{p.remarks}</small>}</td><td>{p.quantity_raw||'—'}</td></tr>)}</tbody></table>}
      <p className="subtle">Catalog quantities are per assembly as published, not whole-bike totals. Confirm superseded numbers with a dealer before ordering.</p>
     </div>}
    </div>)}</div>
