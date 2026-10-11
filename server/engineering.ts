@@ -77,6 +77,7 @@ export function responseViolations(r:Parsed,claims:Claim[]):string[]{
  for(const c of r.claims){
   if(c.evidence_ids.some(id=>!byId.has(id)))found.push(`A claim cited unavailable evidence: "${c.claim.slice(0,80)}".`);
   if(c.tier==='PUBLISHED'&&!c.evidence_ids.some(id=>byId.has(id)))found.push(`A claim was tiered PUBLISHED without retrieved evidence: "${c.claim.slice(0,80)}". Cite the claim id or lower the tier to what it really is.`);
+  if(c.tier==='PUBLISHED'&&c.evidence_ids.some(id=>byId.has(id)&&!r.evidence_ids.includes(id)))found.push(`A published claim's cited evidence was omitted from the answer-level evidence list: "${c.claim.slice(0,80)}". Include all published citations in evidence_ids.`);
  }
  if(!r.evidence_ids.length&&r.confidence==='SUPPORTED')found.push('Supported confidence requires cited verified evidence.');
  if(r.kind==='diagnosis'&&!r.next_step)found.push('A diagnosis must give one next step.');
