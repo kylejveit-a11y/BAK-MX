@@ -1,6 +1,7 @@
 import type {SupabaseClient} from '@supabase/supabase-js';
 import {z} from 'zod';
 import {checked} from './database.ts';
+import {collectPages} from './pagination.ts';
 import {HttpError,readJson,uuid} from './validation.ts';
 import {objectionable} from './content-rules.ts';
 
@@ -255,8 +256,9 @@ export async function handleRiderSurfaces(req:Request,url:URL,path:string,method
   return json({catalog:catalogs[0],assemblies:assemblies??[]});
  }
  if(path==='/api/parts'&&method==='GET'){
-  const rows=checked(await db.from('parts').select('id,position,callout,part_number,description,quantity_raw,remarks').eq('assembly_id',id('assembly_id')).order('position',{ascending:true}).limit(600));
-  return json(rows??[]);
+  const assemblyId=id('assembly_id');
+  const rows=await collectPages<Row>((from,to)=>db.from('parts').select('id,position,callout,part_number,description,quantity_raw,remarks',{count:'exact'}).eq('assembly_id',assemblyId).order('position',{ascending:true}).order('id',{ascending:true}).range(from,to),{label:'Parts assembly',maxRows:10000,maxBytes:10_000_000,key:row=>String(row.id)});
+  return json(rows);
  }
  return null;
 }
