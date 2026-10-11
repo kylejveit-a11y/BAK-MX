@@ -60,3 +60,30 @@
 .author-link{font-size:13px;font-weight:600;color:#e7e9ee;padding:0;text-align:left}.author-link:hover{color:var(--accent);text-decoration:underline}
 .account-layout+.panel+.panel,.panel+.panel.setup-guide{margin-top:18px}
 .tier-list{margin:12px 0}.tier-list summary{font-size:11px;color:#bed0eb;cursor:pointer}.tier-list ul{list-style:none;padding:0;margin:10px 0 0}.tier-list li{font-size:12px;color:#c9d4e5;margin-bottom:8px;display:flex;gap:10px;align-items:baseline}.tier{flex-shrink:0;font-size:8px;letter-spacing:1px;text-transform:uppercase;border:1px solid #3a4352;border-radius:4px;padding:4px 6px;color:#b9c6dc;white-space:nowrap}.tier.published{color:#bfe3c8;border-color:#3c6a4a;background:#16261b}.tier.unknown{color:#efb5be;border-color:#7d424b}.tier.rider_saved{color:#b6c9e7;border-color:#364a65;background:#202d40}
+
+/* Phone: Ask BAK is the whole screen — a slim context bar, messages on the page itself, and the composer docked above the tab bar. */
+@media(max-width:760px){
+.content.chat-page{padding:0 0 calc(176px + env(safe-area-inset-bottom))}
+.content.chat-page>.page-heading,.content.chat-page>.split-heading,.content.chat-page .page-footer,.content.chat-page>.preview-banner{display:none}
+.chat-page .chat-layout{gap:0}
+.chat-page .conversation{border:0;border-radius:0;background:none;box-shadow:none;overflow:visible}
+.chat-page .chat-context{position:sticky;top:73px;z-index:30;padding:10px 16px;background:#0a0c11;border-bottom:1px solid var(--line)}
+.chat-page .chat-context .mini-brand{transform:scale(.82);transform-origin:left center}
+.chat-page .messages{max-height:none;min-height:0;overflow:visible;padding:14px 16px 8px}
+.chat-page .chat-welcome{padding:34px 6px 10px}
+.chat-page .conversation>.error{margin:8px 16px}
+.chat-page .composer{position:fixed;left:0;right:0;bottom:calc(66px + env(safe-area-inset-bottom));z-index:44;padding:10px 12px 8px;background:#0d1016f7;backdrop-filter:blur(20px);border-top:1px solid #303a4a}
+.chat-page .composer{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 10px;align-items:end}
+.chat-page .composer textarea{min-height:0;height:54px;resize:none;grid-column:1;grid-row:1}
+.chat-page .composer>div{display:contents}
+.chat-page .composer .send-button{grid-column:2;grid-row:1;margin:0}
+.chat-page .composer>div>span{grid-column:1/-1;grid-row:2;text-align:center;font-size:9px}
+.chat-page .history{order:0;display:flex;align-items:center;gap:8px;max-height:none;min-height:0;overflow-x:auto;overflow-y:hidden;padding:8px 16px;border:0;border-bottom:1px solid var(--line);border-radius:0;background:none;box-shadow:none;scrollbar-width:none}
+.chat-page .history::-webkit-scrollbar{display:none}
+.chat-page .history .panel-title{margin:0;flex:0 0 auto;order:2}
+.chat-page .history .panel-title h3,.chat-page .history>.subtle{display:none}
+.chat-page .history-item{flex:0 0 auto;margin:0;padding:7px 11px;border:1px solid var(--line);border-radius:999px;max-width:200px;align-items:center}
+.chat-page .history-item span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.chat-page .history-item small{display:none}
+.chat-page .history:not(:has(.history-item)){display:none}
+}
