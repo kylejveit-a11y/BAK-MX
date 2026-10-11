@@ -38,7 +38,7 @@
 .setup-log,.parts-catalog{margin-bottom:22px}.parts-catalog{margin-top:22px}
 .assembly{border-top:1px solid var(--line)}.assembly-head{width:100%;display:flex;justify-content:space-between;align-items:center;padding:14px 4px;font-size:13px;text-align:left}.assembly.open .assembly-head svg{transform:rotate(90deg)}
 .assembly-body{padding:0 4px 16px;overflow-x:auto}.assembly-body table{width:100%;border-collapse:collapse;font-size:12px;margin:10px 0}.assembly-body th{text-align:left;font-size:9px;letter-spacing:1.2px;color:#8f9bb0;padding:8px 6px;border-bottom:1px solid var(--line)}.assembly-body td{padding:8px 6px;border-bottom:1px solid #1d2129;vertical-align:top}.assembly-body td small{display:block;color:#8594aa;font-size:10px}
-.action-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(min-width:761px){.action-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:760px){.event{gap:14px}.thread-back{display:inline-flex}.history.has-active{display:none}.feed-bar .button{width:100%}}
 .panel+.account-layout,.account-layout+.panel{margin-top:18px}.account-layout .panel+.panel{margin-top:0}
 .conversation .rider-actions{padding:0 22px 12px}

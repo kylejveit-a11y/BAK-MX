@@ -138,7 +138,13 @@ const backupModel=()=>process.env.OPENAI_BACKUP_MODEL||'';
 async function callModel(model:string,args:Call):Promise<{parsed:unknown;raw:ProviderResult}>{
  const key=process.env.OPENAI_API_KEY;if(!key||!model)throw new HttpError(503,'AI is not configured');
  const res=await fetch('https://api.openai.com/v1/responses',{method:'POST',headers:{Authorization:`Bearer ${key}`,'Content-Type':'application/json'},body:JSON.stringify({model,instructions:args.instructions,input:JSON.stringify(args.input),text:{format:{type:'json_schema',name:args.name,schema:args.schema,strict:true}},max_output_tokens:args.maxTokens,store:false}),signal:AbortSignal.timeout(args.timeoutMs)});
- if(!res.ok)throw new HttpError(502,'AI provider could not complete the request');
+ if(!res.ok){
+  // Keep the provider's own error class so a wrong model name, key or billing state can be told apart. Never includes the key.
+  let detail=`provider_${res.status}`;
+  try{const body=await res.json() as {error?:{code?:string|null;type?:string|null;param?:string|null}};const e=body.error;if(e)detail+=`:${String(e.code||e.type||'unknown').slice(0,60)}${e.param?`:${String(e.param).slice(0,40)}`:''}`;}catch{/* body was not JSON */}
+  console.error('[ask-bak] provider error',detail,'model',model);
+  const err=new HttpError(502,'AI provider could not complete the request');(err as HttpError&{detail?:string}).detail=`${detail}@${model}`.slice(0,160);throw err;
+ }
  const raw=await res.json() as ProviderResult;
  if(raw.status!=='completed')throw new HttpError(502,'AI response was incomplete');
  const pieces=raw.output?.flatMap(o=>o.content??[])??[];
