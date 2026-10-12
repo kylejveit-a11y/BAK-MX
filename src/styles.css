@@ -503,3 +503,4 @@ h1,.page-heading h1{font-size:34px}
 .chat-page .chat-context{background:#08080a}
 .chat-page .composer,.bars-hidden .chat-page .composer,.shell:has(.composer textarea:focus) .chat-page .composer{box-shadow:0 -18px 30px 6px #08080a}
 }
+.hero-kicker{margin-bottom:22px}@media(max-width:760px){.hero{padding-top:44px}.hero h2{font-size:38px}}

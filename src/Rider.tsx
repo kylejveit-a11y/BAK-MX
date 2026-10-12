@@ -26,14 +26,14 @@ export function ProfileEditor({profile,onSaved,compact=false}:{profile:Profile|n
  async function submit(e:FormEvent<HTMLFormElement>){
   e.preventDefault();const f=new FormData(e.currentTarget);setBusy(true);setError('');setSaved(false);
   try{
-   const next=await api<Profile>('/profile','PUT',{handle:String(f.get('handle')||''),display_name:String(f.get('display_name')||''),bio:String(f.get('bio')||''),location:String(f.get('location')||''),riding_class:String(f.get('riding_class')||''),...(profile?{}:{accept_rules:true})});
+   const next=await api<Profile>('/profile','PUT',{handle:String(f.get('handle')||'').trim().toLowerCase().replace(/[\s-]+/g,'_').replace(/[^a-z0-9_]/g,'').replace(/_+$/,''),display_name:String(f.get('display_name')||''),bio:String(f.get('bio')||''),location:String(f.get('location')||''),riding_class:String(f.get('riding_class')||''),...(profile?{}:{accept_rules:true})});
    onSaved(next);setSaved(true);
   }catch(err){setError((err as Error).message);}finally{setBusy(false);}
  }
  return <form onSubmit={submit} className="profile-form">
   {!profile&&<p className="notice">Pick a handle so other riders know who they’re talking to. You can change it later.</p>}
   <div className="form-grid">
-   <label className="field"><span>Handle</span><input name="handle" defaultValue={profile?.handle||''} required minLength={3} maxLength={24} pattern="[A-Za-z0-9_]{3,24}" autoCapitalize="none" placeholder="letters, numbers, underscore"/></label>
+   <label className="field"><span>Handle</span><input name="handle" defaultValue={profile?.handle||''} required minLength={3} maxLength={24} autoCapitalize="none" autoCorrect="off" spellCheck={false} placeholder="e.g. god_father" onInput={e=>{const el=e.currentTarget,clean=el.value.toLowerCase().replace(/[\s-]+/g,'_').replace(/[^a-z0-9_]/g,'').slice(0,24);if(clean!==el.value)el.value=clean;}}/><small>3–24 lowercase letters, numbers or underscores. Spaces become underscores.</small></label>
    <label className="field"><span>Display name</span><input name="display_name" defaultValue={profile?.display_name||''} maxLength={60}/></label>
    <label className="field"><span>Home area</span><input name="location" defaultValue={profile?.location||''} maxLength={80} placeholder="City or region"/></label>
    <label className="field"><span>Class / riding</span><input name="riding_class" defaultValue={profile?.riding_class||''} maxLength={60} placeholder="250 B, Vet 30+, weekend rider…"/></label>
