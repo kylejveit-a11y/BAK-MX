@@ -1,4 +1,5 @@
 import {workshopContext,workshopReferences} from './workshop-context.ts';
+import {usConfiguration} from '../shared/garage-fields.ts';
 import {sameBikeScope} from '../shared/bike-identity.ts';
 import {relatedReferences} from './references.ts';
 import {z} from 'zod';
@@ -13,7 +14,7 @@ import {setupKnowledge} from '../shared/setup-knowledge.ts';
  *  3. answer   – one call writes the reply; every factual claim carries a confidence tier
  *  4. check    – code verifies citations and exact published values; one repair attempt, then an honest failure
  *  A backup model is tried when the provider fails. Model names come only from configuration. */
-export const PROMPT_VERSION='mx-engineering-11';
+export const PROMPT_VERSION='mx-engineering-12';
 
 /** How solid a claim is. PUBLISHED must cite retrieved evidence; nothing may be presented above its real tier. */
 export const TIERS=['PUBLISHED','RIDER_SAVED','ENGINEERING','GENERAL','COMMUNITY','UNKNOWN'] as const;
@@ -146,6 +147,7 @@ WORKSHOP JOBS
 For a teardown, rebuild or suspension service, distinguish the overall job plan from an executable source-reviewed procedure; a torque table alone does not establish order, special tools, depressurisation, timing, bleeding or replacement rules. Use reviewed_workshop evidence when it matches the requested operation, within its stated scope; do not turn a candidate guide into confirmed hardware or completed work. A completed step the rider reports is rider-reported, not measured. Preserve performed tests and rejected hypotheses in follow-ups.
 
 STYLE
+Units: this is a US rider. Rider weight is in pounds (geared_weight_lb) and height in inches. Use US units in your own wording: lb, mph, psi, °F, inches and feet, fluid ounces and quarts. Keep a published value exactly as its source states it (sag and clearances in mm, torque in Nm, spring rates in N/mm or kg/mm, capacities in ml or litres) and, when it helps, add the US equivalent in brackets after it, for example torque as "35 Nm (26 ft-lb)". Never drop or replace the published figure.
 Sound like a factory race mechanic and suspension tuner talking to a rider at the track: knowledgeable without arrogance, confident where the evidence supports it, straight about what is not known. Plain rider language; never robotic, corporate or academic. Never open with praise or filler ("Great question", "Absolutely", "I'd be happy to help"), never restate the question, no emojis.
 Lead with the answer or the most likely explanation in the first sentence, then why it happens in a sentence or two.
 Match the reply to the question. A simple question (what is race sag, what is a torque value) gets a short direct answer, not a diagnostic report. For troubleshooting, short headed sections help when they fit: "What I think is happening", "Why it happens", "What I'd check first", "What to look for", "What I'd change". Use only the ones the question needs; they are not a template. Use a table to compare settings or specifications, and numbered steps when order matters.
@@ -223,7 +225,7 @@ export const lookupInstructions=`You prepare specification lookups for BAK MX, a
 /** Step 1. The model names what to look up; it never sees or produces values here.
  *  A planning failure must not cost the rider an answer: fall back to searching with their own words. */
 export async function planSpecLookups(bike:Bike,history:Message[],message:string):Promise<string[]>{
- const input={bike:{manufacturer:bike.manufacturer,model:bike.model,model_year:bike.model_year,variant:bike.variant,region:bike.region,configuration:bike.configuration},conversation:history.slice(-8).map(m=>({role:m.role,content:(m.role==='assistant'?m.response?.summary:undefined)??m.content})),message};
+ const input={bike:{manufacturer:bike.manufacturer,model:bike.model,model_year:bike.model_year,variant:bike.variant,region:bike.region,configuration:usConfiguration(bike.configuration)},conversation:history.slice(-8).map(m=>({role:m.role,content:(m.role==='assistant'?m.response?.summary:undefined)??m.content})),message};
  try{
   const {parsed}=await callWithBackup(planModel(),{instructions:lookupInstructions,input,name:'mx_spec_lookup',schema:lookupJsonSchema,maxTokens:600,timeoutMs:12000});
   const result=lookupSchema.safeParse(parsed);
