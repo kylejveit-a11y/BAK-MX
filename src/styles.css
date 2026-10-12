@@ -109,3 +109,7 @@
 .chat-action:disabled{opacity:.5}
 .chat-action.quiet{border-color:transparent;background:none;color:#8694aa;padding:7px}
 .chat-action.danger{border-color:#7a3038;color:#ffb4b9;background:#2a1418}
+details.response-specifications{margin-top:12px;border-top:1px solid var(--line);padding-top:10px;font-size:12px}
+details.response-specifications summary{cursor:pointer;color:#b9c7dc;font-weight:600}
+details.response-specifications ul{margin:8px 0 6px;padding-left:18px}
+details.response-specifications li{margin:3px 0}

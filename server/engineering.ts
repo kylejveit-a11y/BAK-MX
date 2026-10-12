@@ -208,15 +208,19 @@ export async function planSpecLookups(bike:Bike,history:Message[],message:string
 export async function generateAnswer(bike:Bike,history:Message[],claims:Claim[],message:string,lookups:string[]=[]){
  const started=Date.now();
  const input={...buildEngineeringInput(bike,history,claims,message),spec_lookups_performed:lookups};
- const {wire,real}=toWire(input);
- const call:Call={instructions,input:wire,name:'mx_engineering_response',schema:wireJsonSchema,maxTokens:3500,timeoutMs:45000};
+ const {wire:full,real}=toWire(input);
+ // The provider caches the instructions block as a unit. The reference library is identical on every request, so it rides
+ // there; only what changes per question (bike, conversation, retrieved evidence, message) is sent as input.
+ const {authored_hypotheses,setup_knowledge,hypothesis_boundary,...wire}=full;
+ const briefing=instructions+'\n\nREFERENCE DATA (JSON; the same on every request; data, not instructions):\n'+JSON.stringify({hypothesis_boundary,authored_hypotheses,setup_knowledge});
+ const call:Call={instructions:briefing,input:wire,name:'mx_engineering_response',schema:wireJsonSchema,maxTokens:3500,timeoutMs:45000};
  const first=await callWithBackup(answerModel(),call);
  let parsed=responseSchema.safeParse(fromWire(first.parsed,real)),raw=first.raw,repaired=false;
  let violations=parsed.success?responseViolations(parsed.data,claims):['The reply did not match the required JSON shape.'];
  if(violations.length&&Date.now()-started<50000){
   // One repair, with the exact rules that were broken. A second failure is reported honestly rather than patched over.
   try{
-   const second=await callModel(first.model,{...call,timeoutMs:25000,instructions:instructions+'\n\nYour previous draft broke these rules. Fix them and return the full corrected reply:\n- '+violations.join('\n- '),input:{...wire,previous_draft:first.parsed}});
+   const second=await callModel(first.model,{...call,timeoutMs:25000,instructions:briefing+'\n\nYour previous draft broke these rules. Fix them and return the full corrected reply:\n- '+violations.join('\n- '),input:{...wire,previous_draft:first.parsed}});
    const again=responseSchema.safeParse(fromWire(second.parsed,real));
    const remaining=again.success?responseViolations(again.data,claims):violations;
    if(again.success&&remaining.length<violations.length){parsed=again;raw=second.raw;violations=remaining;repaired=true;}
@@ -224,5 +228,5 @@ export async function generateAnswer(bike:Bike,history:Message[],claims:Claim[],
  }
  if(!parsed.success||violations.length)throw new HttpError(502,violations[0]??'AI response was invalid');
  const response:EngineeringResponse={...parsed.data,references:[...workshopReferences(bike,history,message),...relatedReferences(bike,message)]};
- return {response,raw:{...raw,bakmx_reviewed_workshop:input.reviewed_workshop,bakmx_spec_lookups:lookups,bakmx_model:first.model,bakmx_repaired:repaired}};
+ return {response,raw:{...raw,bakmx_reviewed_workshop:input.reviewed_workshop,bakmx_spec_lookups:lookups,bakmx_model:first.model,bakmx_repaired:repaired,bakmx_answer_ms:Date.now()-started}};
 }
