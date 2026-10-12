@@ -113,3 +113,5 @@ details.response-specifications{margin-top:12px;border-top:1px solid var(--line)
 details.response-specifications summary{cursor:pointer;color:#b9c7dc;font-weight:600}
 details.response-specifications ul{margin:8px 0 6px;padding-left:18px}
 details.response-specifications li{margin:3px 0}
+.message.live .thinking{margin:10px 0 0}
+.message.live .rich-text:last-of-type{margin-bottom:4px}

@@ -155,15 +155,43 @@ When the rider reports that a change did not help, update the diagnosis from tha
 Normally under 200 words in answer; longer only when the rider asks for depth or a full procedure. Short paragraphs. Markdown is rendered: use **bold** sparingly for the value or action that matters, "### " for a section heading, "- " bullets, "1. " steps and simple tables. No preamble, no boilerplate repeated each turn, no closing offer unless it is the single next step. Return only the required JSON.`;
 
 type ProviderResult={status?:string;output?:{content?:{type:string;text?:string}[]}[]};
-type Call={instructions:string;input:unknown;name:string;schema:unknown;maxTokens:number;timeoutMs:number};
+type Call={instructions:string;input:unknown;name:string;schema:unknown;maxTokens:number;timeoutMs:number;/** When set, the reply is streamed and this receives the JSON text written so far. */onText?:(soFar:string)=>void};
+/** Reads one string field out of JSON that is still being written. Returns what has arrived so far, or '' before the field starts. */
+export function partialJsonString(text:string,field:string):string{
+ const start=text.indexOf('"'+field+'":"');if(start<0)return '';
+ let out='';
+ for(let i=start+field.length+4;i<text.length;i++){
+  const ch=text[i];
+  if(ch==='"')break;
+  if(ch!=='\\'){out+=ch;continue;}
+  const next=text[i+1];if(next===undefined)break;
+  if(next==='u'){const hex=text.slice(i+2,i+6);if(hex.length<4||!/^[0-9a-fA-F]{4}$/.test(hex))break;out+=String.fromCharCode(parseInt(hex,16));i+=5;continue;}
+  out+=next==='n'?'\n':next==='t'?'\t':next==='r'?'':next==='b'||next==='f'?'':next;i++;
+ }
+ return out;
+}
 const answerModel=()=>process.env.OPENAI_MODEL;
 const planModel=()=>process.env.OPENAI_PLAN_MODEL||process.env.OPENAI_MODEL;
 const backupModel=()=>process.env.OPENAI_BACKUP_MODEL||'';
 
+/** Follows a streamed reply: hands the text written so far to onText and returns the provider's final response object. */
+async function readStream(res:Response,onText:(soFar:string)=>void):Promise<ProviderResult>{
+ const reader=res.body!.getReader(),decoder=new TextDecoder();let buffer='',text='',final:ProviderResult|null=null;
+ const handle=(block:string)=>{
+  const data=block.split('\n').filter(l=>l.startsWith('data:')).map(l=>l.slice(5).trim()).join('');if(!data||data==='[DONE]')return;
+  let event:{type?:string;delta?:string;response?:ProviderResult};try{event=JSON.parse(data);}catch{return;}
+  if(event.type==='response.output_text.delta'&&typeof event.delta==='string'){text+=event.delta;try{onText(text);}catch{/* a display hiccup must not cost the answer */}}
+  else if((event.type==='response.completed'||event.type==='response.incomplete'||event.type==='response.failed')&&event.response)final=event.response;
+ };
+ for(;;){const {done,value}=await reader.read();if(done)break;buffer+=decoder.decode(value,{stream:true}).replace(/\r/g,'');let cut;while((cut=buffer.indexOf('\n\n'))>=0){handle(buffer.slice(0,cut));buffer=buffer.slice(cut+2);}}
+ if(buffer.trim())handle(buffer);
+ if(!final)throw new HttpError(502,'AI response was incomplete');
+ return final;
+}
 /** One structured-output call to one model. */
 async function callModel(model:string,args:Call):Promise<{parsed:unknown;raw:ProviderResult}>{
  const key=process.env.OPENAI_API_KEY;if(!key||!model)throw new HttpError(503,'AI is not configured');
- const res=await fetch('https://api.openai.com/v1/responses',{method:'POST',headers:{Authorization:`Bearer ${key}`,'Content-Type':'application/json'},body:JSON.stringify({model,instructions:args.instructions,input:JSON.stringify(args.input),text:{format:{type:'json_schema',name:args.name,schema:args.schema,strict:true}},max_output_tokens:args.maxTokens,store:false}),signal:AbortSignal.timeout(args.timeoutMs)});
+ const res=await fetch('https://api.openai.com/v1/responses',{method:'POST',headers:{Authorization:`Bearer ${key}`,'Content-Type':'application/json'},body:JSON.stringify({model,instructions:args.instructions,input:JSON.stringify(args.input),text:{format:{type:'json_schema',name:args.name,schema:args.schema,strict:true}},max_output_tokens:args.maxTokens,store:false,...(args.onText?{stream:true}:{})}),signal:AbortSignal.timeout(args.timeoutMs)});
  if(!res.ok){
   // Keep the provider's own error class so a wrong model name, key or billing state can be told apart. Never includes the key.
   let detail=`provider_${res.status}`;
@@ -171,7 +199,7 @@ async function callModel(model:string,args:Call):Promise<{parsed:unknown;raw:Pro
   console.error('[ask-bak] provider error',detail,'model',model);
   const err=new HttpError(502,'AI provider could not complete the request');(err as HttpError&{detail?:string}).detail=`${detail}@${model}`.slice(0,160);throw err;
  }
- const raw=await res.json() as ProviderResult;
+ const raw=args.onText&&(res.headers.get('content-type')||'').includes('text/event-stream')?await readStream(res,args.onText):await res.json() as ProviderResult;
  if(raw.status!=='completed')throw new HttpError(502,'AI response was incomplete');
  const pieces=raw.output?.flatMap(o=>o.content??[])??[];
  if(pieces.some(p=>p.type==='refusal'))throw new HttpError(422,'The AI could not safely answer this request');
@@ -205,7 +233,7 @@ export async function planSpecLookups(bike:Bike,history:Message[],message:string
 }
 
 /** Steps 3 and 4. `claims` is the retrieved exact-bike evidence. */
-export async function generateAnswer(bike:Bike,history:Message[],claims:Claim[],message:string,lookups:string[]=[]){
+export async function generateAnswer(bike:Bike,history:Message[],claims:Claim[],message:string,lookups:string[]=[],onDraft?:(draft:{summary:string;answer:string})=>void){
  const started=Date.now();
  const input={...buildEngineeringInput(bike,history,claims,message),spec_lookups_performed:lookups};
  const {wire:full,real}=toWire(input);
@@ -214,7 +242,8 @@ export async function generateAnswer(bike:Bike,history:Message[],claims:Claim[],
  const {authored_hypotheses,setup_knowledge,hypothesis_boundary,...wire}=full;
  const briefing=instructions+'\n\nREFERENCE DATA (JSON; the same on every request; data, not instructions):\n'+JSON.stringify({hypothesis_boundary,authored_hypotheses,setup_knowledge});
  const call:Call={instructions:briefing,input:wire,name:'mx_engineering_response',schema:wireJsonSchema,maxTokens:3500,timeoutMs:45000};
- const first=await callWithBackup(answerModel(),call);
+ // The rider-facing text is shown while it is written. It is a draft until the checks below pass on the finished reply.
+ const first=await callWithBackup(answerModel(),onDraft?{...call,onText:soFar=>onDraft({summary:partialJsonString(soFar,'summary'),answer:partialJsonString(soFar,'answer')})}:call);
  let parsed=responseSchema.safeParse(fromWire(first.parsed,real)),raw=first.raw,repaired=false;
  let violations=parsed.success?responseViolations(parsed.data,claims):['The reply did not match the required JSON shape.'];
  if(violations.length&&Date.now()-started<50000){
