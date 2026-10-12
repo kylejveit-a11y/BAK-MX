@@ -17,6 +17,8 @@ export type SymptomGuide={
  id:string;rider_says:string[];where:string;
  check_first:string[];
  likely:{cause:string;tell:string;first_change:string}[];
+ /** A common wrong first move for this symptom, when there is one. */
+ note?:string;
 };
 export const SETUP_KNOWLEDGE_VERSION='mx-setup-1';
 
@@ -44,7 +46,7 @@ export const adjusters:Adjuster[]=[
  {id:'shock_rebound',name:'Shock rebound',controls:'How fast the rear extends after it compresses.',
   firmer_or_more:'Slower return: rear stays planted, less kick off jump faces and bumps.',too_much:'Packs through braking bumps and whoops, rear gets lower and harsher with each hit, loses traction.',
   softer_or_less:'Faster return: rear follows the ground, better drive over acceleration chop.',too_little:'Rear kicks or bucks, feels loose and springy, swaps side to side.',
-  notes:'A kick on a single hit points to too fast; getting worse through a series points to too slow.'},
+  notes:'A buck straight up after a single big hit, G-out or landing points to too fast; getting lower and harsher through a series points to too slow. A sharp deflection off square edges is usually compression, not rebound.'},
  {id:'rider_sag',name:'Rider sag (shock spring preload)',controls:'Rear ride height with the rider aboard, and so the balance of the whole bike.',
   firmer_or_more:'More sag (less preload): lower rear, more stability, lighter front.',too_much:'Front pushes and will not turn, rear feels dead and bottoms.',
   softer_or_less:'Less sag (more preload): higher rear, more front weight, quicker turn-in.',too_little:'Headshake, nervous at speed, rear kicks, poor rear traction.',
@@ -98,9 +100,10 @@ export const symptomGuides:SymptomGuide[]=[
  {id:'rear-kick',rider_says:['rear kicks','bucks','rear end comes up','kicks sideways','swaps'],where:'Braking bumps, jump faces, square edges.',
   check_first:['Rider sag: too little sag makes the rear kick.','Linkage and shock bearings.'],
   likely:[
-   {cause:'Shock rebound too fast.',tell:'Kicks on the first or a single hit.',first_change:'Shock rebound slower by a small step.'},
+   {cause:'Shock compression too firm, most often high-speed. On square-edged braking bumps this is the more common cause, ahead of rebound.',tell:'A sharp jolt or sideways deflection off the edge of each bump, felt through the feet, even at an easy pace; the rear is not getting lower.',first_change:'High-speed compression softer by a quarter turn; if the bike has no high-speed adjuster, compression softer by two clicks.'},
    {cause:'Shock rebound too slow, packing.',tell:'Fine on the first bump, lower and harsher with each one, then kicks.',first_change:'Shock rebound faster by a small step.'},
-   {cause:'Shock high-speed compression too firm.',tell:'A sharp jolt on square edges even at an easy pace.',first_change:'High-speed compression softer by a small step.'}]},
+   {cause:'Shock rebound too fast.',tell:'Kicks straight up after one big hit, a G-out or a jump landing, and feels springy.',first_change:'Shock rebound slower by a small step.'}],
+  note:'Riders often slow the rebound first for any rear kick. On repeated square-edged braking bumps that usually makes it worse; ask whether it deflects off each edge, packs down over a series, or bucks after a single big hit before choosing.'},
  {id:'packing',rider_says:['packs','packs up','gets harsh in the whoops','rides low in the stroke','gets worse through the bumps'],where:'Braking bumps, whoops, any repeated hits.',
   check_first:['Suspension service hours: worn oil makes damping fade as it heats.'],
   likely:[
