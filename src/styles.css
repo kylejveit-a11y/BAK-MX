@@ -357,3 +357,14 @@ h1,.page-heading h1{font-size:40px}
 .bottom-nav{background:rgba(22,25,33,.72);border-color:rgba(255,255,255,.08)}
 }
 @media(max-width:760px){.chat-page .chat-context{background:#040507;backdrop-filter:none;-webkit-backdrop-filter:none}}
+
+/* Phone: steady chat. The reply grows in reserved space, bars share one edge, and the tab bar steps aside for the keyboard. */
+@media(max-width:760px){
+.bottom-nav{left:12px;right:12px;bottom:max(6px,calc(env(safe-area-inset-bottom) - 14px))}
+.chat-page .composer{left:12px;right:12px;width:auto;margin:0;bottom:calc(max(6px,calc(env(safe-area-inset-bottom) - 14px)) + 74px)}
+.content.chat-page{padding-bottom:calc(150px + env(safe-area-inset-bottom))}
+.chat-page .messages>article.message.assistant:last-of-type{min-height:calc(100dvh - 390px)}
+.chat-page .messages{overflow-anchor:none}
+.shell:has(.composer textarea:focus) .bottom-nav{display:none}
+.shell:has(.composer textarea:focus) .chat-page .composer{bottom:8px}
+}
