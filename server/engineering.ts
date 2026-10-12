@@ -166,12 +166,13 @@ When the rider reports that a change did not help, update the diagnosis from tha
 Normally under 200 words in answer; longer only when the rider asks for depth or a full procedure. Short paragraphs. Markdown is rendered: use **bold** sparingly for the value or action that matters, "### " for a section heading, "- " bullets, "1. " steps and simple tables. No preamble, no boilerplate repeated each turn, no closing offer unless it is the single next step. Return only the required JSON.`;
 
 type ProviderResult={status?:string;output?:{content?:{type:string;text?:string}[]}[]};
-type Call={instructions:string;input:unknown;name:string;schema:unknown;maxTokens:number;timeoutMs:number;/** When set, the reply is streamed and this receives the JSON text written so far. */onText?:(soFar:string)=>void};
+type Call={instructions:string;input:unknown;name:string;schema:unknown;maxTokens:number;timeoutMs:number;/** When set, the reply is streamed and this receives the JSON text written so far. */onText?:(soFar:string)=>void;/** Lighter reasoning for simple steps. Dropped automatically if the provider rejects it. */effort?:'low'};
 /** Reads one string field out of JSON that is still being written. Returns what has arrived so far, or '' before the field starts. */
 export function partialJsonString(text:string,field:string):string{
- const start=text.indexOf('"'+field+'":"');if(start<0)return '';
+ // The provider sometimes writes compact JSON and sometimes pretty-prints it, so allow whitespace around the colon.
+ const opening=new RegExp('"'+field+'"\\s*:\\s*"').exec(text);if(!opening)return '';
  let out='';
- for(let i=start+field.length+4;i<text.length;i++){
+ for(let i=opening.index+opening[0].length;i<text.length;i++){
   const ch=text[i];
   if(ch==='"')break;
   if(ch!=='\\'){out+=ch;continue;}
@@ -202,7 +203,8 @@ async function readStream(res:Response,onText:(soFar:string)=>void):Promise<Prov
 /** One structured-output call to one model. */
 async function callModel(model:string,args:Call):Promise<{parsed:unknown;raw:ProviderResult}>{
  const key=process.env.OPENAI_API_KEY;if(!key||!model)throw new HttpError(503,'AI is not configured');
- const res=await fetch('https://api.openai.com/v1/responses',{method:'POST',headers:{Authorization:`Bearer ${key}`,'Content-Type':'application/json'},body:JSON.stringify({model,instructions:args.instructions,input:JSON.stringify(args.input),text:{format:{type:'json_schema',name:args.name,schema:args.schema,strict:true}},max_output_tokens:args.maxTokens,store:false,...(args.onText?{stream:true}:{})}),signal:AbortSignal.timeout(args.timeoutMs)});
+ const res=await fetch('https://api.openai.com/v1/responses',{method:'POST',headers:{Authorization:`Bearer ${key}`,'Content-Type':'application/json'},body:JSON.stringify({model,instructions:args.instructions,input:JSON.stringify(args.input),text:{format:{type:'json_schema',name:args.name,schema:args.schema,strict:true}},max_output_tokens:args.maxTokens,store:false,...(args.effort?{reasoning:{effort:args.effort}}:{}),...(args.onText?{stream:true}:{})}),signal:AbortSignal.timeout(args.timeoutMs)});
+ if(!res.ok&&res.status===400&&args.effort){const {effort:_dropped,...plain}=args;void _dropped;return callModel(model,plain);}
  if(!res.ok){
   // Keep the provider's own error class so a wrong model name, key or billing state can be told apart. Never includes the key.
   let detail=`provider_${res.status}`;
@@ -236,7 +238,7 @@ export const lookupInstructions=`You prepare specification lookups for BAK MX, a
 export async function planSpecLookups(bike:Bike,history:Message[],message:string):Promise<string[]>{
  const input={bike:{manufacturer:bike.manufacturer,model:bike.model,model_year:bike.model_year,variant:bike.variant,region:bike.region,configuration:usConfiguration(bike.configuration)},conversation:history.slice(-8).map(m=>({role:m.role,content:(m.role==='assistant'?m.response?.summary:undefined)??m.content})),message};
  try{
-  const {parsed}=await callWithBackup(planModel(),{instructions:lookupInstructions,input,name:'mx_spec_lookup',schema:lookupJsonSchema,maxTokens:600,timeoutMs:12000});
+  const {parsed}=await callWithBackup(planModel(),{instructions:lookupInstructions,input,name:'mx_spec_lookup',schema:lookupJsonSchema,maxTokens:600,timeoutMs:12000,effort:'low'});
   const result=lookupSchema.safeParse(parsed);
   if(result.success)return [...new Set(result.data.queries.map(q=>q.trim()).filter(Boolean))];
  }catch(e){if(e instanceof HttpError&&e.status===503)throw e;}
@@ -254,7 +256,8 @@ export async function generateAnswer(bike:Bike|null,history:Message[],claims:Cla
  const briefing=instructions+'\n\nREFERENCE DATA (JSON; the same on every request; data, not instructions):\n'+JSON.stringify({hypothesis_boundary,authored_hypotheses,setup_knowledge});
  const call:Call={instructions:briefing,input:wire,name:'mx_engineering_response',schema:wireJsonSchema,maxTokens:3500,timeoutMs:45000};
  // The rider-facing text is shown while it is written. It is a draft until the checks below pass on the finished reply.
- const first=await callWithBackup(answerModel(),onDraft?{...call,onText:soFar=>onDraft({summary:partialJsonString(soFar,'summary'),answer:partialJsonString(soFar,'answer')})}:call);
+ let firstText=0;
+ const first=await callWithBackup(answerModel(),onDraft?{...call,onText:soFar=>{const draft={summary:partialJsonString(soFar,'summary'),answer:partialJsonString(soFar,'answer')};if(!firstText&&(draft.summary||draft.answer))firstText=Date.now()-started;onDraft(draft);}}:call);
  let parsed=responseSchema.safeParse(fromWire(first.parsed,real)),raw=first.raw,repaired=false;
  let violations=parsed.success?responseViolations(parsed.data,claims):['The reply did not match the required JSON shape.'];
  if(violations.length&&Date.now()-started<50000){
@@ -268,5 +271,5 @@ export async function generateAnswer(bike:Bike|null,history:Message[],claims:Cla
  }
  if(!parsed.success||violations.length)throw new HttpError(502,violations[0]??'AI response was invalid');
  const response:EngineeringResponse={...parsed.data,references:bike?[...workshopReferences(bike,history,message),...relatedReferences(bike,message)]:[]};
- return {response,raw:{...raw,bakmx_reviewed_workshop:input.reviewed_workshop,bakmx_spec_lookups:lookups,bakmx_model:first.model,bakmx_repaired:repaired,bakmx_answer_ms:Date.now()-started}};
+ return {response,raw:{...raw,bakmx_reviewed_workshop:input.reviewed_workshop,bakmx_spec_lookups:lookups,bakmx_model:first.model,bakmx_repaired:repaired,bakmx_answer_ms:Date.now()-started,bakmx_first_text_ms:firstText||null}};
 }

@@ -49,3 +49,10 @@ test('without a draft listener the call is not streamed',async()=>{
   await generateAnswer(bike,[],[claim] as any,'rear axle torque?',[]);assert.equal(sent.stream,undefined);
  });
 });
+test('live draft is read from pretty-printed JSON as well as compact JSON',()=>{
+ const pretty='{\n  "kind": "setup",\n  "summary": "A sharp rear kick points to compression.",\n  "answer": "**If the rear';
+ assert.equal(partialJsonString(pretty,'summary'),'A sharp rear kick points to compression.');
+ assert.equal(partialJsonString(pretty,'answer'),'**If the rear');
+ assert.equal(partialJsonString('{"kind":"answer","summary":"Short","answer":"35 Nm','answer'),'35 Nm');
+ assert.equal(partialJsonString('{\n  "kind": "setup",\n  "summ','summary'),'');
+});
