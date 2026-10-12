@@ -13,7 +13,7 @@ import {setupKnowledge} from '../shared/setup-knowledge.ts';
  *  3. answer   – one call writes the reply; every factual claim carries a confidence tier
  *  4. check    – code verifies citations and exact published values; one repair attempt, then an honest failure
  *  A backup model is tried when the provider fails. Model names come only from configuration. */
-export const PROMPT_VERSION='mx-engineering-9';
+export const PROMPT_VERSION='mx-engineering-10';
 
 /** How solid a claim is. PUBLISHED must cite retrieved evidence; nothing may be presented above its real tier. */
 export const TIERS=['PUBLISHED','RIDER_SAVED','ENGINEERING','GENERAL','COMMUNITY','UNKNOWN'] as const;
@@ -21,15 +21,16 @@ export const TIERS=['PUBLISHED','RIDER_SAVED','ENGINEERING','GENERAL','COMMUNITY
 export function applicableClaims(claims:Claim[],bike:Bike){return claims.filter(c=>c.status==='VERIFIED'&&!c.has_conflict&&sameBikeScope(c,bike)&&c.source_url&&c.source_locator);}
 
 export function buildEngineeringInput(bike:Bike,history:Message[],claims:Claim[],message:string){
+ // Order matters for cost and speed: the parts that are identical on every request come first so the provider can reuse its cached prefix.
  return {
+  evidence_boundary:'verified_claims holds the published evidence retrieved for this question for this exact bike, not the whole corpus. A published value that is absent here is not on file for this answer: say so in one line, never state it as published, and then still help from engineering and general knowledge, labelled as such.',
+  hypothesis_boundary:'LIMITED authored causal relationships, not verified specifications or established diagnoses. Select mechanisms using observations and discriminating evidence, not symptom matching alone. Never cite these IDs as verified claim IDs. Hypothetical tests are not performed tests.',
+  authored_hypotheses:getMechanismLibrary(),
+  setup_knowledge:setupKnowledge(),
   bike,
   reviewed_workshop:workshopContext(bike,history,message),
   conversation:history.map(m=>({role:m.role,content:m.response??m.content})),
   verified_claims:applicableClaims(claims,bike),
-  evidence_boundary:'verified_claims holds the published evidence retrieved for this question for this exact bike, not the whole corpus. A published value that is absent here is not on file for this answer: say so in one line, never state it as published, and then still help from engineering and general knowledge, labelled as such.',
-  authored_hypotheses:getMechanismLibrary(),
-  setup_knowledge:setupKnowledge(),
-  hypothesis_boundary:'LIMITED authored causal relationships, not verified specifications or established diagnoses. Select mechanisms using observations and discriminating evidence, not symptom matching alone. Never cite these IDs as verified claim IDs. Hypothetical tests are not performed tests.',
   message,
  };
 }
@@ -127,7 +128,13 @@ WORKSHOP JOBS
 For a teardown, rebuild or suspension service, distinguish the overall job plan from an executable source-reviewed procedure; a torque table alone does not establish order, special tools, depressurisation, timing, bleeding or replacement rules. Use reviewed_workshop evidence when it matches the requested operation, within its stated scope; do not turn a candidate guide into confirmed hardware or completed work. A completed step the rider reports is rider-reported, not measured. Preserve performed tests and rejected hypotheses in follow-ups.
 
 STYLE
-Plain rider language. Normally under 200 words in answer; longer only when the rider asks for depth or a full procedure. Short paragraphs or a few bullets. No preamble, no boilerplate repeated each turn, no closing offer unless it is the single next step. Return only the required JSON.`;
+Sound like a factory race mechanic and suspension tuner talking to a rider at the track: knowledgeable without arrogance, confident where the evidence supports it, straight about what is not known. Plain rider language; never robotic, corporate or academic. Never open with praise or filler ("Great question", "Absolutely", "I'd be happy to help"), never restate the question, no emojis.
+Lead with the answer or the most likely explanation in the first sentence, then why it happens in a sentence or two.
+Match the reply to the question. A simple question (what is race sag, what is a torque value) gets a short direct answer, not a diagnostic report. For troubleshooting, short headed sections help when they fit: "What I think is happening", "Why it happens", "What I'd check first", "What to look for", "What I'd change". Use only the ones the question needs; they are not a template. Use a table to compare settings or specifications, and numbered steps when order matters.
+Match the rider's level from how they write and what is saved: explain plainly for a newer rider, and talk spring rates, damping circuits, chassis balance and measurements with an experienced one without dumbing it down.
+A handling complaint is not automatically a suspension problem, and a performance complaint does not automatically need a mechanical change: weigh tyres and pressure, chassis balance, track conditions and rider position or technique alongside setup, once faults are ruled out.
+When the rider reports that a change did not help, update the diagnosis from that result; do not restart the checklist.
+Normally under 200 words in answer; longer only when the rider asks for depth or a full procedure. Short paragraphs. Markdown is rendered: use **bold** sparingly for the value or action that matters, "### " for a section heading, "- " bullets, "1. " steps and simple tables. No preamble, no boilerplate repeated each turn, no closing offer unless it is the single next step. Return only the required JSON.`;
 
 type ProviderResult={status?:string;output?:{content?:{type:string;text?:string}[]}[]};
 type Call={instructions:string;input:unknown;name:string;schema:unknown;maxTokens:number;timeoutMs:number};

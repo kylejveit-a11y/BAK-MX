@@ -87,3 +87,25 @@
 .chat-page .history-item small{display:none}
 .chat-page .history:not(:has(.history-item)){display:none}
 }
+
+/* Ask BAK reply text and chat actions */
+.rich-text{font-size:14px;line-height:1.65;margin:10px 0}
+.rich-text p{margin:0 0 10px}
+.rich-text p:last-child,.rich-text ul:last-child,.rich-text ol:last-child{margin-bottom:0}
+.rich-text h4{margin:16px 0 6px;font-size:13px;letter-spacing:.2px;color:#e6eefb}
+.rich-text h4:first-child{margin-top:0}
+.rich-text ul,.rich-text ol{margin:0 0 10px;padding-left:20px}
+.rich-text li{margin:4px 0}
+.rich-text strong{color:#f2f6fc;font-weight:650}
+.rich-table{overflow-x:auto;margin:6px 0 12px;border:1px solid var(--line);border-radius:10px}
+.rich-table table{border-collapse:collapse;width:100%;font-size:13px}
+.rich-table th,.rich-table td{padding:8px 10px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+.rich-table th{font-size:11px;letter-spacing:.6px;text-transform:uppercase;color:var(--muted);font-weight:600}
+.rich-table tr:last-child td{border-bottom:0}
+.chat-context{flex-wrap:nowrap}
+.chat-context>div:not(.chat-actions){min-width:0;flex:1}
+.chat-actions{display:flex;align-items:center;gap:6px;margin-left:auto;flex:0 0 auto}
+.chat-action{display:inline-flex;align-items:center;gap:5px;padding:7px 11px;border:1px solid var(--line);border-radius:999px;font-size:11px;color:#c9d6ea;background:#141a24;white-space:nowrap}
+.chat-action:disabled{opacity:.5}
+.chat-action.quiet{border-color:transparent;background:none;color:#8694aa;padding:7px}
+.chat-action.danger{border-color:#7a3038;color:#ffb4b9;background:#2a1418}
