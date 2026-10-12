@@ -120,7 +120,11 @@ function ChatSession({bike,signedIn,mode,onSignIn,onGarage,prefill,onPrefillAppl
    try{const data=await api<Message[]>('/messages?conversation_id='+id);if(current())setMessages(data.filter(m=>m.conversation_id===id));}catch{if(current())setError('Your reply was received. The conversation history could not refresh; it will reload when you reopen this conversation.');}
   }catch(e){
    if(!current())return;
-   setError((e as Error).message);
+   // A retry identity is only reusable while the outcome is unknown (connection lost, or still processing).
+   // Once the server has answered with a failure, the next attempt must be a new request or it would be refused forever.
+   const status=(e as Error&{status?:number}).status,message=(e as Error).message,stale=status===409&&/new request ID/i.test(message);
+   if(status&&!(status===409&&/still processing/i.test(message))){pending.current=null;try{localStorage.setItem(storageKey,JSON.stringify({input:text,active:id,pending:null}));}catch{/* draft stays in memory */}}
+   setError(stale?'That earlier attempt had failed. Send again to retry.':message);
    if(id)try{
     const data=await api<Message[]>('/messages?conversation_id='+id);
     if(current())setMessages(data.filter(m=>m.conversation_id===id));
