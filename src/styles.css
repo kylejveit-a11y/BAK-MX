@@ -424,3 +424,16 @@ h1,.page-heading h1{font-size:40px}
 .build-select:focus-within{outline:2px solid var(--accent);outline-offset:2px}
 .composer>div{display:flex;align-items:center;gap:10px}
 @media(max-width:760px){.chat-page .garage-chip{visibility:hidden}.chat-page .chat-context{background:none;pointer-events:none}.chat-page .chat-context .chat-actions{pointer-events:auto}}
+
+/* Phone chat fixes: input grows with the message, tables wrap, the title row is solid again. */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+.rich-table th,.rich-table td{white-space:normal;vertical-align:top;overflow-wrap:break-word}
+.rich-table td:first-child,.rich-table th:first-child{min-width:92px}
+.rich-table table{font-size:15px;line-height:1.45}
+@media(max-width:760px){
+.chat-page .composer textarea{flex:none;width:100%;max-height:132px}
+.chat-page .garage-chip{visibility:visible;font-size:15px;color:#c9ccd4;font-weight:500}
+.chat-page .chat-context{background:#040507;pointer-events:auto;padding:6px 12px 6px 18px}
+}
+.rich-table td,.rich-table th{min-width:68px}
+.build-select{flex:0 1 auto}.build-select select{field-sizing:content}
