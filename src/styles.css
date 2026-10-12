@@ -368,3 +368,24 @@ h1,.page-heading h1{font-size:40px}
 .shell:has(.composer textarea:focus) .bottom-nav{display:none}
 .shell:has(.composer textarea:focus) .chat-page .composer{bottom:8px}
 }
+
+/* Phone chrome: an edge-anchored tab bar and a separate floating input; both bars slide away while reading down. */
+@media(max-width:760px){
+.app-header{padding-top:env(safe-area-inset-top);transition:transform .28s cubic-bezier(.3,.7,.2,1)}
+.bars-hidden .app-header{transform:translateY(-102%)}
+.bottom-nav{left:0;right:0;bottom:0;border-radius:0;border:0;border-top:1px solid rgba(255,255,255,.08);padding:6px 10px calc(6px + env(safe-area-inset-bottom));background:rgba(8,10,14,.82);box-shadow:none;transition:transform .28s cubic-bezier(.3,.7,.2,1)}
+.bars-hidden .bottom-nav{transform:translateY(105%)}
+.bottom-nav button{border-radius:14px;padding:7px 2px 6px}
+.bottom-nav button.active{background:none;border-color:transparent;box-shadow:none;color:#fff}
+.bottom-nav button.active svg{color:#7ea6ff}
+.content{padding-bottom:calc(96px + env(safe-area-inset-bottom))}
+.chat-page .chat-context{top:calc(68px + env(safe-area-inset-top));transition:top .28s cubic-bezier(.3,.7,.2,1)}
+.bars-hidden .chat-page .chat-context{top:env(safe-area-inset-top)}
+.chat-page .composer{left:14px;right:14px;bottom:calc(72px + env(safe-area-inset-bottom));transition:bottom .28s cubic-bezier(.3,.7,.2,1);box-shadow:0 10px 36px rgba(0,0,0,.6),inset 0 1px 0 rgba(255,255,255,.07)}
+.bars-hidden .chat-page .composer{bottom:calc(12px + env(safe-area-inset-bottom))}
+.shell:has(.composer textarea:focus) .chat-page .composer{bottom:8px}
+.content.chat-page{padding-bottom:calc(150px + env(safe-area-inset-bottom))}
+.chat-page .composer textarea{white-space:nowrap;overflow:hidden}
+.chat-page .composer textarea:not(:placeholder-shown){white-space:pre-wrap;overflow:auto}
+}
+@media(max-width:760px) and (prefers-reduced-motion:reduce){.app-header,.bottom-nav,.chat-page .composer,.chat-page .chat-context{transition:none}}
