@@ -41,8 +41,8 @@ async function route(req:Request):Promise<Response>{const url=new URL(req.url),o
  }
  const serviceMatch=path.match(/^\/api\/service-events\/([^/]+)$/);if(serviceMatch&&method==='DELETE'){const rows=checked(await db.from('service_events').delete().eq('id',uuid.parse(serviceMatch[1])).eq('user_id',owner).select('id'));if(!rows?.length)throw new HttpError(404,'Service event not found');return json({deleted:true});}
  if(path==='/api/conversations'){
-  if(method==='GET'){let query=db.from('conversations').select('*').eq('user_id',owner).order('updated_at',{ascending:false});if(url.searchParams.has('bike_id'))query=query.eq('bike_id',uuid.parse(url.searchParams.get('bike_id')));return json(checked(await query));}
-  if(method==='POST'){const input=createInput(await readJson(req)),data=conversationSchema.parse(input.data);const bike=checked(await db.from('bikes').select('id').eq('id',data.bike_id).eq('user_id',owner).maybeSingle());if(!bike)throw new HttpError(404,'Bike not found');const saved=await createRecord(db,'conversations',owner,data,input.id);return json(saved.record,saved.replayed?200:201);}
+  if(method==='GET'){let query=db.from('conversations').select('*').eq('user_id',owner).order('updated_at',{ascending:false});if(url.searchParams.get('bike_id')==='none')query=query.is('bike_id',null);else if(url.searchParams.has('bike_id'))query=query.eq('bike_id',uuid.parse(url.searchParams.get('bike_id')));return json(checked(await query));}
+  if(method==='POST'){const input=createInput(await readJson(req)),data=conversationSchema.parse(input.data);if(data.bike_id){const bike=checked(await db.from('bikes').select('id').eq('id',data.bike_id).eq('user_id',owner).maybeSingle());if(!bike)throw new HttpError(404,'Bike not found');}const saved=await createRecord(db,'conversations',owner,data,input.id);return json(saved.record,saved.replayed?200:201);}
  }
  const convMatch=path.match(/^\/api\/conversations\/([^/]+)(\/messages)?$/);if(convMatch){const id=uuid.parse(convMatch[1]);if(convMatch[2]&&method==='GET'){const conversation=checked(await db.from('conversations').select('id').eq('id',id).eq('user_id',owner).maybeSingle());if(!conversation)throw new HttpError(404,'Conversation not found');return json(await collectPages((from,to)=>db.from('messages').select('*',{count:'exact'}).eq('conversation_id',id).eq('user_id',owner).order('created_at',{ascending:true}).order('role',{ascending:false}).order('id',{ascending:true}).range(from,to),{label:'Conversation history',key:r=>r.id}));}if(!convMatch[2]&&method==='DELETE'){const rows=checked(await db.from('conversations').delete().eq('id',id).eq('user_id',owner).select('id'));if(!rows?.length)throw new HttpError(404,'Conversation not found');return json({deleted:true});}}
  async function getClaims(bike:Bike){return getBikeClaims(db,bike);}
@@ -65,7 +65,8 @@ async function route(req:Request):Promise<Response>{const url=new URL(req.url),o
   if(!process.env.OPENAI_API_KEY||!process.env.OPENAI_MODEL)throw new HttpError(503,'AI is not configured');
   if(aiAccessMode()==='subscription'&&!await hasPaidAccess(owner))throw new HttpError(402,'An active subscription is required for Ask BAK');
   const conversation=checked(await db.from('conversations').select('*').eq('id',data.conversation_id).eq('user_id',owner).maybeSingle());if(!conversation)throw new HttpError(404,'Conversation not found');
-  const bike=checked(await db.from('bikes').select('*').eq('id',conversation.bike_id).eq('user_id',owner).single()) as Bike;
+  // A conversation without a build is a general question: no saved bike, no published-value lookup.
+  const bike=conversation.bike_id?checked(await db.from('bikes').select('*').eq('id',conversation.bike_id).eq('user_id',owner).single()) as Bike:null;
   // Context is bounded explicitly; do not silently drop previous tests or imply complete continuity.
   const history=await collectPages<Message>((from,to)=>db.from('messages').select('*',{count:'exact'}).eq('conversation_id',data.conversation_id).eq('user_id',owner).order('created_at',{ascending:true}).order('role',{ascending:false}).order('id',{ascending:true}).range(from,to),{label:'Diagnostic context',maxBytes:120000,key:r=>r.id});
   if(JSON.stringify(history).length>120000)throw new HttpError(409,'This diagnostic conversation reached its context limit. Save the history and start a new conversation including prior tests and results.');
@@ -75,14 +76,14 @@ async function route(req:Request):Promise<Response>{const url=new URL(req.url),o
   const run=async(emit:Emit)=>{
    /* A re-run was already counted against the allowance when it first ran. */if(!await consumeAiQuota(owner,data.request_id)&&!rerun)throw new HttpError(429,'Daily AI allowance reached');
    emit({type:'status',stage:'specs'});
-   const t0=Date.now();const lookups=await planSpecLookups(bike,history,data.message);const t1=Date.now();const claims=await searchBikeClaims(db,bike,lookups);const t2=Date.now();
+   const t0=Date.now();const lookups=bike?await planSpecLookups(bike,history,data.message):[];const t1=Date.now();const claims=bike?await searchBikeClaims(db,bike,lookups):[];const t2=Date.now();
    checked(await admin.from('ai_requests').update({claims_snapshot:claims}).eq('request_id',data.request_id).eq('user_id',owner).eq('state','processing'));
    emit({type:'status',stage:'writing',published:claims.length});
    let sent=0;
    const {response,raw}=await generateAnswer(bike,history,claims,data.message,lookups,draft=>{const size=draft.summary.length+draft.answer.length;if(size-sent<24)return;sent=size;emit({type:'draft',summary:draft.summary,answer:draft.answer});});
    emit({type:'status',stage:'checking'});
    checked(await admin.rpc('complete_ai_request',{p_user_id:owner,p_request_id:data.request_id,p_response:response,p_raw_output:{...raw,bakmx_plan_ms:t1-t0,bakmx_search_ms:t2-t1,bakmx_streamed:emit!==quiet}}));
-   if(response.data_gaps?.length){const scope=exactBikeScope(bike);/* Best effort: a logging failure must not cost the rider a saved answer. */await admin.from('data_gaps').insert(response.data_gaps.map(gap=>({request_id:data.request_id,user_id:owner,...scope,gap:gap.slice(0,300)}))).then(()=>{},()=>{});}
+   if(bike&&response.data_gaps?.length){const scope=exactBikeScope(bike);/* Best effort: a logging failure must not cost the rider a saved answer. */await admin.from('data_gaps').insert(response.data_gaps.map(gap=>({request_id:data.request_id,user_id:owner,...scope,gap:gap.slice(0,300)}))).then(()=>{},()=>{});}
    const done=checked(await admin.from('ai_requests').select('assistant_message_id').eq('request_id',data.request_id).single());const message=checked(await db.from('messages').select('*').eq('id',done!.assistant_message_id).eq('user_id',owner).single());
    return {request_id:data.request_id,response,message};
   };

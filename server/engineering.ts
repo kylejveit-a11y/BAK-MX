@@ -14,24 +14,25 @@ import {setupKnowledge} from '../shared/setup-knowledge.ts';
  *  3. answer   – one call writes the reply; every factual claim carries a confidence tier
  *  4. check    – code verifies citations and exact published values; one repair attempt, then an honest failure
  *  A backup model is tried when the provider fails. Model names come only from configuration. */
-export const PROMPT_VERSION='mx-engineering-12';
+export const PROMPT_VERSION='mx-engineering-13';
 
 /** How solid a claim is. PUBLISHED must cite retrieved evidence; nothing may be presented above its real tier. */
 export const TIERS=['PUBLISHED','RIDER_SAVED','ENGINEERING','GENERAL','COMMUNITY','UNKNOWN'] as const;
 
 export function applicableClaims(claims:Claim[],bike:Bike){return claims.filter(c=>c.status==='VERIFIED'&&!c.has_conflict&&sameBikeScope(c,bike)&&c.source_url&&c.source_locator);}
 
-export function buildEngineeringInput(bike:Bike,history:Message[],claims:Claim[],message:string){
+export function buildEngineeringInput(bike:Bike|null,history:Message[],claims:Claim[],message:string){
  // Order matters for cost and speed: the parts that are identical on every request come first so the provider can reuse its cached prefix.
  return {
   evidence_boundary:'verified_claims holds the published evidence retrieved for this question for this exact bike, not the whole corpus. A published value that is absent here is not on file for this answer: say so in one line, never state it as published, and then still help from engineering and general knowledge, labelled as such.',
   hypothesis_boundary:'LIMITED authored causal relationships, not verified specifications or established diagnoses. Select mechanisms using observations and discriminating evidence, not symptom matching alone. Never cite these IDs as verified claim IDs. Hypothetical tests are not performed tests.',
   authored_hypotheses:getMechanismLibrary(),
   setup_knowledge:setupKnowledge(),
-  bike,
-  reviewed_workshop:workshopContext(bike,history,message),
+  bike:bike?{...bike,configuration:usConfiguration(bike.configuration)}:null,
+  ...(bike?{}:{no_build:'The rider chose to ask without a build. There is no saved bike and no published evidence for this question. Follow NO BUILD SELECTED.'}),
+  reviewed_workshop:bike?workshopContext(bike,history,message):null,
   conversation:history.map(m=>({role:m.role,content:m.response??m.content})),
-  verified_claims:applicableClaims(claims,bike),
+  verified_claims:bike?applicableClaims(claims,bike):[],
   message,
  };
 }
@@ -146,6 +147,14 @@ The rider makes every change by hand. Diagnose a fault before tuning around it, 
 WORKSHOP JOBS
 For a teardown, rebuild or suspension service, distinguish the overall job plan from an executable source-reviewed procedure; a torque table alone does not establish order, special tools, depressurisation, timing, bleeding or replacement rules. Use reviewed_workshop evidence when it matches the requested operation, within its stated scope; do not turn a candidate guide into confirmed hardware or completed work. A completed step the rider reports is rider-reported, not measured. Preserve performed tests and rejected hypotheses in follow-ups.
 
+NO BUILD SELECTED
+When input.bike is null the rider is asking a general question with no build chosen. You know nothing about their bike, weight, settings or history, and verified_claims is empty.
+- Answer from your general knowledge of motocross mechanics, suspension, engines and riding. Explain how things work, what a setting does, how to do a job in general, how to think through a symptom.
+- Never state a figure as the published value for any particular bike: no torque, clearance, sag target, clicker position, capacity, jetting, service interval or part number presented as a manufacturer's specification. You may give a typical range clearly labelled as typical ("most 450 motocross bikes run roughly 100-108 mm of rider sag"), and say the exact figure depends on the bike.
+- When the question needs an exact figure or a bike-specific answer, give the general principle, then say in one line that picking their build in the selector under the message box gets the published numbers for that exact bike.
+- If the rider names a bike in their message, you may talk about that model in general terms, still without presenting any figure as its published specification.
+- Every claim is tier GENERAL. specifications and evidence_ids are empty. confidence is never SUPPORTED. Do not say "your bike's saved settings" or refer to a Garage build.
+
 STYLE
 Units: this is a US rider. Rider weight is in pounds (geared_weight_lb) and height in inches. Use US units in your own wording: lb, mph, psi, °F, inches and feet, fluid ounces and quarts. Keep a published value exactly as its source states it (sag and clearances in mm, torque in Nm, spring rates in N/mm or kg/mm, capacities in ml or litres) and, when it helps, add the US equivalent in brackets after it, for example torque as "35 Nm (26 ft-lb)". Never drop or replace the published figure.
 Sound like a factory race mechanic and suspension tuner talking to a rider at the track: knowledgeable without arrogance, confident where the evidence supports it, straight about what is not known. Plain rider language; never robotic, corporate or academic. Never open with praise or filler ("Great question", "Absolutely", "I'd be happy to help"), never restate the question, no emojis.
@@ -235,7 +244,7 @@ export async function planSpecLookups(bike:Bike,history:Message[],message:string
 }
 
 /** Steps 3 and 4. `claims` is the retrieved exact-bike evidence. */
-export async function generateAnswer(bike:Bike,history:Message[],claims:Claim[],message:string,lookups:string[]=[],onDraft?:(draft:{summary:string;answer:string})=>void){
+export async function generateAnswer(bike:Bike|null,history:Message[],claims:Claim[],message:string,lookups:string[]=[],onDraft?:(draft:{summary:string;answer:string})=>void){
  const started=Date.now();
  const input={...buildEngineeringInput(bike,history,claims,message),spec_lookups_performed:lookups};
  const {wire:full,real}=toWire(input);
@@ -258,6 +267,6 @@ export async function generateAnswer(bike:Bike,history:Message[],claims:Claim[],
   }catch{/* keep the first draft's verdict */}
  }
  if(!parsed.success||violations.length)throw new HttpError(502,violations[0]??'AI response was invalid');
- const response:EngineeringResponse={...parsed.data,references:[...workshopReferences(bike,history,message),...relatedReferences(bike,message)]};
+ const response:EngineeringResponse={...parsed.data,references:bike?[...workshopReferences(bike,history,message),...relatedReferences(bike,message)]:[]};
  return {response,raw:{...raw,bakmx_reviewed_workshop:input.reviewed_workshop,bakmx_spec_lookups:lookups,bakmx_model:first.model,bakmx_repaired:repaired,bakmx_answer_ms:Date.now()-started}};
 }
