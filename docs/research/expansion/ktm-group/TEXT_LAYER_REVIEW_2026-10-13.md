@@ -6,7 +6,7 @@ No manual is stored or redistributed.
 
 ## What was added
 
-31,833 verified facts across 125 bike-years, from 63 manuals. Each cell is facts / service-schedule rows / damper click settings.
+45,749 verified facts across 177 bike-years, from 101 manuals (batch 4 below added 13,916 facts: 52 new bike-years from 38 manuals, plus missing rows for bike-years already on file). Each cell is facts / service-schedule rows / damper click settings.
 
 ### Two-stroke minis and 125/150 (35 bike-years, 8,876 facts)
 
@@ -52,6 +52,40 @@ KTM 125 SX 2023: the manual prints fork and shock data for the EU model and the 
 | KTM 350 XC-F | 215/52/15 | 224/53/15 | 229/53/15 |  |  |  |  |  |
 | KTM 450 SX-F | 196/51/15 | 199/52/15 | 215/52/15 |  |  |  |  |  |
 | KTM 450 XC-F | 199/51/15 | 201/52/15 | 218/52/15 |  |  |  |  |  |
+
+### Batch 4: 2020-2022 motocross and cross-country manuals, plus later GasGas EX 250/300 and Husqvarna TC 150 (52 new bike-years, 13,916 facts added)
+
+Loaded 2026-10-13 after the first three batches, from the 38 index rows that were still marked todo. Same extractor, same checks;
+every bike-year was rebuilt from the PDF after loading and matched the stored rows by hash (57 of 57, counting the five below).
+GasGas EX 300 and MC 250 2024-2025 and Husqvarna TC 125 2025 were already on file from the earlier batches; their cells show the totals on file
+after the shared manuals (EX 250 / EX 300 / MC 250, TC 125 / TC 150) were read again and the rows they were missing were added.
+
+| Model | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026 | 2027 |
+|---|---|---|---|---|---|---|---|---|
+| GasGas EX 250 |  |  | 265/57/15 | 265/57/15 | 248/58/15 | 254/58/15 |  |  |
+| GasGas EX 250F |  | 274/53/15 | 276/53/15 |  |  |  |  |  |
+| GasGas EX 300 |  | 253/57/15 | 265/57/15 | 265/57/15 | 248/58/15 | 254/58/15 |  |  |
+| GasGas EX 350F |  | 274/53/15 | 280/53/15 |  |  |  |  |  |
+| GasGas EX 450F |  | 256/52/15 | 263/51/15 |  |  |  |  |  |
+| GasGas MC 125 |  | 243/48/15 | 256/48/15 |  |  |  |  |  |
+| GasGas MC 250 |  |  | 250/48/15 |  | 246/58/15 | 255/58/15 |  |  |
+| GasGas MC 250F |  | 272/53/15 | 275/53/15 |  |  |  |  |  |
+| GasGas MC 350F |  |  | 276/53/15 |  |  |  |  |  |
+| GasGas MC 450F |  | 257/52/15 | 263/51/15 |  |  |  |  |  |
+| Husqvarna FC 250 | 258/52/15 | 262/53/15 |  |  |  |  |  |  |
+| Husqvarna FC 350 | 263/52/15 | 266/53/15 | 267/53/15 |  |  |  |  |  |
+| Husqvarna FC 450 | 251/51/15 | 251/52/15 |  |  |  |  |  |  |
+| Husqvarna FX 350 | 264/51/15 | 267/52/15 | 269/53/15 |  |  |  |  |  |
+| Husqvarna FX 450 | 251/50/15 | 249/51/15 | 256/52/15 |  |  |  |  |  |
+| Husqvarna TC 125 | 229/38/15 | 241/48/15 | 252/48/15 |  |  | 261/57/15 |  |  |
+| Husqvarna TC 150 |  |  |  |  |  | 261/57/15 |  |  |
+| Husqvarna TC 250 | 237/47/15 | 238/48/15 | 249/48/15 |  |  |  |  |  |
+| Husqvarna TX 300 | 252/56/15 | 252/56/15 | 264/56/15 |  |  |  |  |  |
+| KTM 250 SX |  | 237/48/15 | 247/48/15 |  |  |  |  |  |
+| KTM 250 XC | 251/56/15 | 253/57/15 | 263/57/15 |  |  |  |  |  |
+| KTM 300 XC | 251/56/15 | 253/57/15 | 263/57/15 |  |  |  |  |  |
+
+Husqvarna TC 125 2020: the manual's service schedule has 38 rows (the later manuals print 48).
 
 (a) A reviewed table was already on file for this bike; only fork and shock rows and the service schedule were added.
 (b) One damper group (shock high-speed compression) could not be matched to the adjustment section of the same manual and was withheld.

@@ -21,8 +21,16 @@ Triumph:
 
 - `triumph_handbook.py`, `build_triumph.py`: Specifications chapter and factory suspension settings from the public US handbooks.
 
+Yamaha:
+
+- `yamaha_schedule.py`: the MAINTENANCE INTERVALS table of the Owner's Service Manual. The table's own rule lines define
+  the cells (full-width rules to 2024, one segment per cell from 2025) and the check mark is a Symbol-font glyph.
+  Text printed across the interval columns ("Every one year") is kept as its own interval entry.
+- `build_yamaha_schedule.py`: payloads for `stage_manual_rows` with an empty base (the specification rows were loaded earlier
+  by `docs/research/expansion/yamaha/extract_specs.py`).
+
 Usage: download the PDFs into an empty directory and run the builders from that directory, for example
 `python3 scripts/manual-textlayer/build_from_index.py docs/research/manual-index/ktm-group-us.tsv todo <out dir>`.
 A path printed with two different values for one bike is dropped, never guessed.
-Method and results: `docs/research/expansion/ktm-group/TEXT_LAYER_REVIEW_2026-10-13.md` and
-`docs/research/expansion/triumph/HANDBOOK_REVIEW_2026-10-13.md`.
+Method and results: `docs/research/expansion/ktm-group/TEXT_LAYER_REVIEW_2026-10-13.md`,
+`docs/research/expansion/triumph/HANDBOOK_REVIEW_2026-10-13.md` and `docs/research/expansion/yamaha/SCHEDULE_REVIEW_2026-10-13.md`.
