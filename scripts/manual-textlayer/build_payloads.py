@@ -5,7 +5,9 @@ from plan import PLAN
 def h(s): return hashlib.sha256(s.encode()).hexdigest()
 EXTRA={'21_3214209_en_OM':[('125 XC',2021)],'22_3214411_en_OM':[('125 XC',2022)],'23_3214638_en_OM':[('125 XC',2023)],'24_3214832_en_OM':[('125 XC',2024)],'25_3240041_en_OM':[('125 XC',2025)],'26_3240232_en_BA':[('125 XC',2026)],'27_3240379_en_BA':[('125 XC',2027)]}
 pdfdir,outdir=sys.argv[1:3]; os.makedirs(outdir,exist_ok=True); i=0; summary=[]
+ONLY=set(sys.argv[3:])
 for doc,mod,mys in PLAN:
+    if ONLY and doc not in ONLY: continue
     path=f'{pdfdir}/{doc}.pdf'; sha=hashlib.sha256(open(path,'rb').read()).hexdigest()
     rows=mod.parse(path); sched,prob=ss.parse(path); assert not prob,(doc,prob)
     for model,yr in mys+EXTRA.get(doc,[]):

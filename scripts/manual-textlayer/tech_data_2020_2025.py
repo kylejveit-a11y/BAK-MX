@@ -82,9 +82,11 @@ def parse(path):
             if lab:
                 lo=lab[0]['x0']-base
                 ind=0 if abs(lo)<=3 else 1 if abs(lo-15)<=3 else 9
-            items.append(('L',ind,' '.join(w['text'] for w in lab),{k:' '.join(v) for k,v in vals.items()},' '.join(rem),any(w['b'] for w in lab)))
+            items.append(('L',ind,' '.join(w['text'] for w in lab),{k:' '.join(v) for k,v in vals.items()},' '.join(rem),any(w['b'] for w in lab),l[0]['top']))
+        prev_y=None; flat=None
         for i,it in enumerate(items):
             if it[0]=='H':
+                prev_y=None; flat=None
                 num,name=it[1],re.sub(r'^Motor\b','Engine',it[2])
                 if num.count('.')==1: sec=name; top=name; hv=None; skip=False
                 else:
@@ -95,7 +97,8 @@ def parse(path):
                 grp=None; cur=None
                 if name=='Tires': skip='T'
                 continue
-            _,ind,lab,vals,rem,bold=it
+            _,ind,lab,vals,rem,bold,top_y=it
+            gap=top_y-prev_y if prev_y is not None else None; prev_y=top_y
             if skip is True or sec is None: continue
             vals={k:clean(v) for k,v in vals.items()}; vals={k:v for k,v in vals.items() if v}
             lab=clean(lab)
@@ -115,9 +118,22 @@ def parse(path):
                 continue
             nxt=next((x for x in items[i+1:] if x[0]=='H' or x[1] is not None),None)
             if ind==0 and not vals:
-                if nxt and nxt[0]=='L' and nxt[1]==1: grp=lab; cur=None
-                elif cur: cur['lab']=join(cur['lab'],lab); 
+                # Rows are 14.4 pt apart; the lines of one row are closer than 12.5 pt.
+                same_row=gap is not None and gap<12.5
+                nx=items[i+1] if i+1<len(items) else None
+                nx_fills=nx is not None and nx[0]=='L' and nx[1] in (0,None) and any(clean(v) for v in nx[3].values()) and nx[6]-top_y<12.5
+                if nxt and nxt[0]=='L' and nxt[1]==1 and not nx_fills: grp=lab; cur=None
+                elif cur and same_row: cur['lab']=join(cur['lab'],lab)
+                elif nx_fills:        # a row whose value is printed beside its second line
+                    grp=None; cur={'sec':sec,'grp':None,'lab':lab,'vals':{},'rem':'','pdf':pi+1,'printed':printed,'hv':hv,'pending':True,'desc':''}; rows.append(cur); continue
+                elif nxt is None: grp=lab; cur=None      # group header at the foot of a page
+                elif nxt[0]=='L' and nxt[1]==0 and any(clean(v) for v in nxt[3].values()): flat=lab; cur=None   # heading row for the single row below it
+                else: cur=None
                 if rem and cur: cur['rem']=join(cur['rem'],rem)
+                continue
+            if ind==0 and cur and cur.get('pending') and gap is not None and gap<12.5:
+                cur['desc']=join(cur['desc'],lab)
+                for k,v in vals.items(): cur['vals'][k]=join(cur['vals'].get(k,''),v)
                 continue
             if ind==0 and cur and is_note(lab):
                 cur['lab']=join(cur['lab'],lab if lab.startswith('(') else '('+lab+')')
@@ -132,7 +148,7 @@ def parse(path):
                     continue
             if ind==1 and not vals and cur and cur['grp']==grp:
                 cur['lab']=join(cur['lab'],lab); continue
-            cur={'sec':sec,'grp':grp if ind==1 else None,'lab':lab,'vals':dict(vals),'rem':rem,'pdf':pi+1,'printed':printed,'hv':hv}; rows.append(cur)
+            cur={'sec':sec,'grp':grp if ind==1 else (flat if ind==0 else None),'lab':lab,'vals':dict(vals),'rem':rem,'pdf':pi+1,'printed':printed,'hv':hv}; rows.append(cur); flat=None
     return rows
 def facts(rows,model):
     out=[];quals=set()
@@ -152,6 +168,7 @@ def facts(rows,model):
         quals.update(n1+n2)
         if not (ok and o1 and o2): continue
         ks=sorted(r['vals'])
+        if not ks: continue
         if 'torques' in r['sec']:
             if len(ks)==1 and ks[0]==295: val=r['vals'][295]
             elif len(ks)<2: out.append((r,'!BAD '+lab,str(r['vals']))); continue
@@ -159,6 +176,7 @@ def facts(rows,model):
             if r['rem']: val+='; '+re.sub(r'\s+',' ',r['rem'].replace('®',' '))
         else:
             val='; '.join(r['vals'][k] for k in ks)
+            if r.get('desc'): val+='; '+r['desc']
         path=' / '.join(x for x in (r['sec'],grp,lab) if x)
         out.append((r,path,val))
     return out,quals
