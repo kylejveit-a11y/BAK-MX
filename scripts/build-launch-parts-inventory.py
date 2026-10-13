@@ -30,7 +30,13 @@ for ip in sorted(kb.glob('*-index.json')):
   assert d['headers']==['ITEM NAME','REF #','PART NUMBER','QUANTITY','DESTINATION','REMARKS']
   assert all(len(x)==6 for x in d['rows'])
   rows=[{'occurrence_index':i+1,'description':r[0],'callout':r[1],'part_number':r[2] or None,'catalog_quantity':int(r[3]) if r[3].isdigit() else None,'catalog_quantity_raw':r[3],'quantity_basis':'EXPLICIT_OEM_TABLE','destination':r[4],'remarks':r[5],'installed_whole_bike_quantity':None} for i,r in enumerate(d['rows'])]
-  assemblies.append({'id':aid,'name':d['name'],'url':g['url'],'rows':rows,'diagram_urls':d['diagram_urls'],'evidence_file':str(p),'evidence_sha256':sha(p)})
+  # Some captures recorded the page's "VIEW DIAGRAM" link text as the name and site-relative picture paths.
+  # The real diagram name is the page heading already saved in the same evidence file ("2026 KX 450 - Air Cleaner").
+  name=d['name']
+  if name.strip().upper()=='VIEW DIAGRAM':
+   heading=next((h for h in reversed(d.get('headings',[])) if ' - ' in h),None);assert heading,str(p);name=heading.split(' - ',1)[1].strip()
+  pictures=[('https://www.kawasaki.com'+u if u.startswith('/') else u) for u in d['diagram_urls']]
+  assemblies.append({'id':aid,'name':name,'url':g['url'],'rows':rows,'diagram_urls':pictures,'evidence_file':str(p),'evidence_sha256':sha(p)})
  out={'target':idx['target'],'source':'Kawasaki official US catalog','index_url':idx['url'],'index_sha256':sha(ip),'status':'ALL_INDEXED_PAGES_CAPTURED' if not missing else 'PARTIAL','counts':{'indexed_assemblies':len(groups),'captured_assemblies':len(assemblies),'occurrences':sum(len(a['rows']) for a in assemblies)},'missing':missing,'errors':[],'assemblies':assemblies}
  op=kb/'inventories'/f"{idx['target']['model_year']}-{idx['target']['model']}.json";op.write_text(json.dumps(out,indent=2)+'\n',encoding='utf-8')
  catalogs.append({'target':idx['target'],'path':str(op),'sha256':sha(op),'source':out['source'],'complete':not missing,'assemblies':len(assemblies),'expected_assemblies':len(groups),'occurrences':out['counts']['occurrences'],'new_this_pass':True,'scope':'Exact official US model code '+idx['model_code'],'unknown_quantities':sum(r['catalog_quantity'] is None for a in assemblies for r in a['rows'])})
