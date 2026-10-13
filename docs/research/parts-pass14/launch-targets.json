@@ -11317,14 +11317,13 @@
    "model_year": 2020,
    "region": "US",
    "variant": "standard",
-   "planned": true,
-   "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+   "planned": false,
+   "identity_status": "NOT_OFFERED_THIS_MODEL_YEAR",
    "identity_evidence": [],
    "parts_catalog_status": "NOT_AUDITED_BY_ROSTER",
    "service_equivalence": "NOT_INFERRED",
    "gaps": [
-    "Exact US year identity must be verified before catalog applicability or enablement.",
-    "No exact standard label found in observed US parts year selector; absence does not establish nonexistence."
+    "Kawasaki's own 2020 US parts list has no KX250X; the model starts in 2021."
    ],
    "original_60_target": false
   },
@@ -11702,14 +11701,13 @@
    "model_year": 2020,
    "region": "US",
    "variant": "standard",
-   "planned": true,
-   "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+   "planned": false,
+   "identity_status": "NOT_OFFERED_THIS_MODEL_YEAR",
    "identity_evidence": [],
    "parts_catalog_status": "NOT_AUDITED_BY_ROSTER",
    "service_equivalence": "NOT_INFERRED",
    "gaps": [
-    "Exact US year identity must be verified before catalog applicability or enablement.",
-    "No exact standard label found in observed US parts year selector; absence does not establish nonexistence."
+    "Kawasaki's own 2020 US parts list has no KX450X; the model starts in 2021."
    ],
    "original_60_target": false
   },
@@ -13827,7 +13825,7 @@
    "model_year": 2024,
    "region": "US",
    "variant": "standard",
-   "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
+   "identity_status": "NOT_OFFERED_THIS_MODEL_YEAR",
    "identity_evidence": [
     {
      "kind": "official_us_product_page",
@@ -13855,11 +13853,11 @@
     }
    ],
    "id": "yamaha-2024-yz250fx",
-   "planned": true,
+   "planned": false,
    "parts_catalog_status": "NOT_AUDITED_BY_ROSTER",
    "service_equivalence": "NOT_INFERRED",
    "gaps": [
-    "Parts completeness is separate from existing guide coverage."
+    "Not in the 2024 Yamaha OEM model list at the catalog source; 2023 and 2025 are listed."
    ],
    "original_60_target": false
   },

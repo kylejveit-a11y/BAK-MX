@@ -5,17 +5,17 @@
   "summary": {
     "planned_acquisition_slots": 493,
     "families": 71,
-    "complete_catalog_inventories": 432,
+    "complete_catalog_inventories": 434,
     "original_60_complete": 59,
-    "new_completed_targets": 321,
-    "selected_captured_occurrences": 475113,
+    "new_completed_targets": 323,
+    "selected_captured_occurrences": 476911,
     "complete_by_brand": {
       "GasGas": 64,
       "Honda": 28,
       "Husqvarna": 91,
       "KTM": 137,
       "Kawasaki": 26,
-      "Yamaha": 77,
+      "Yamaha": 79,
       "Triumph": 9
     }
   },
@@ -12307,14 +12307,13 @@
         "variant": "standard"
       },
       "original_60_target": false,
-      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "identity_status": "NOT_OFFERED_THIS_MODEL_YEAR",
       "catalog_inventory_complete": false,
       "status": "NOT_CAPTURED",
       "selected_inventory": null,
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index.",
-        "Exact year/market identity remains unverified in the roster."
+        "Capture and reconcile every group in the exact catalog index."
       ]
     },
     {
@@ -12882,14 +12881,13 @@
         "variant": "standard"
       },
       "original_60_target": false,
-      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "identity_status": "NOT_OFFERED_THIS_MODEL_YEAR",
       "catalog_inventory_complete": false,
       "status": "NOT_CAPTURED",
       "selected_inventory": null,
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index.",
-        "Exact year/market identity remains unverified in the roster."
+        "Capture and reconcile every group in the exact catalog index."
       ]
     },
     {
@@ -13370,12 +13368,30 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_PRODUCT_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "Yamaha",
+          "model": "WR250F",
+          "model_year": 2027,
+          "region": "US",
+          "variant": "standard"
+        },
+        "path": "docs/research/parts-pass14/yamaha/2027-wr250f/inventory.json",
+        "sha256": "4285ab670b1af74a06d7f6dcc2db1c457cb7a8e8951a61e3067edfc4b95c99f6",
+        "source": "MotoSport public OEM catalog",
+        "complete": true,
+        "assemblies": 42,
+        "expected_assemblies": 42,
+        "occurrences": 881,
+        "new_this_pass": true,
+        "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
+        "unknown_quantities": 28
+      },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -13640,12 +13656,30 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_PRODUCT_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "Yamaha",
+          "model": "WR450F",
+          "model_year": 2027,
+          "region": "US",
+          "variant": "standard"
+        },
+        "path": "docs/research/parts-pass14/yamaha/2027-wr450f/inventory.json",
+        "sha256": "8f07e25da637e49f71ff461c9578fa38867af82b331f3f7ec4439e88089a96d3",
+        "source": "MotoSport public OEM catalog",
+        "complete": true,
+        "assemblies": 43,
+        "expected_assemblies": 43,
+        "occurrences": 917,
+        "new_this_pass": true,
+        "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
+        "unknown_quantities": 36
+      },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -15062,7 +15096,7 @@
         "variant": "standard"
       },
       "original_60_target": false,
-      "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
+      "identity_status": "NOT_OFFERED_THIS_MODEL_YEAR",
       "catalog_inventory_complete": false,
       "status": "NOT_CAPTURED",
       "selected_inventory": null,

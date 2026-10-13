@@ -2,7 +2,7 @@
 
 Paused at the userÃ¢â‚¬â„¢s request after finishing active batches. Existing captures were preserved; no rebuild guides or database changes were made.
 
-432 complete catalog inventories across 493 planned acquisition slots; 59 of the original60 targets. 321 targets newly completed this pass. Unknown or not-yet-established model-years remain explicit acquisition slots, not asserted production bikes.
+434 complete catalog inventories across 493 planned acquisition slots; 59 of the original60 targets. 323 targets newly completed this pass. Unknown or not-yet-established model-years remain explicit acquisition slots, not asserted production bikes.
 
 Catalog-complete means every listed group and part entry is captured. It does not mean every possible installed piece or specification is known. Optional items, supersessions, nested kits, AR and unavailable quantities remain distinct.
 
@@ -402,7 +402,7 @@ Catalog-complete means every listed group and part entry is captured. It does no
 | Yamaha | WR250F | 2024 | CATALOG_ENUMERATED | 49 / 49 | 1021 |
 | Yamaha | WR250F | 2025 | CATALOG_ENUMERATED | 49 / 49 | 1015 |
 | Yamaha | WR250F | 2026 | CATALOG_ENUMERATED | 49 / 49 | 1011 |
-| Yamaha | WR250F | 2027 | NOT_CAPTURED | 0 / ? | 0 |
+| Yamaha | WR250F | 2027 | CATALOG_ENUMERATED | 42 / 42 | 881 |
 | Yamaha | WR450F | 2020 | CATALOG_ENUMERATED | 46 / 46 | 954 |
 | Yamaha | WR450F | 2021 | CATALOG_ENUMERATED | 47 / 47 | 1005 |
 | Yamaha | WR450F | 2022 | CATALOG_ENUMERATED | 49 / 49 | 1033 |
@@ -410,7 +410,7 @@ Catalog-complete means every listed group and part entry is captured. It does no
 | Yamaha | WR450F | 2024 | CATALOG_ENUMERATED | 49 / 49 | 1013 |
 | Yamaha | WR450F | 2025 | CATALOG_ENUMERATED | 49 / 49 | 1024 |
 | Yamaha | WR450F | 2026 | CATALOG_ENUMERATED | 49 / 49 | 1019 |
-| Yamaha | WR450F | 2027 | NOT_CAPTURED | 0 / ? | 0 |
+| Yamaha | WR450F | 2027 | CATALOG_ENUMERATED | 43 / 43 | 917 |
 | Yamaha | YZ125 | 2020 | CATALOG_ENUMERATED | 38 / 38 | 843 |
 | Yamaha | YZ125 | 2021 | CATALOG_ENUMERATED | 39 / 39 | 895 |
 | Yamaha | YZ125 | 2022 | CATALOG_ENUMERATED | 41 / 41 | 938 |
