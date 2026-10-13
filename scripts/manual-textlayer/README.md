@@ -26,11 +26,18 @@ Yamaha:
 - `yamaha_schedule.py`: the MAINTENANCE INTERVALS table of the Owner's Service Manual. The table's own rule lines define
   the cells (full-width rules to 2024, one segment per cell from 2025) and the check mark is a Symbol-font glyph.
   Text printed across the interval columns ("Every one year") is kept as its own interval entry.
-- `build_yamaha_schedule.py`: payloads for `stage_manual_rows` with an empty base (the specification rows were loaded earlier
-  by `docs/research/expansion/yamaha/extract_specs.py`).
+  The 2020 two-stroke manuals use an older table (items in capitals, dots, a Remarks column): `parse_old`, `--old`.
+- `build_yamaha_schedule.py`: payloads for `stage_manual_rows` with an empty base.
+- `yamaha_specs.py`: the chapter 2 specification table (general, engine, chassis) and the rider-sag figure; `--model` picks a
+  model in a manual shared by two. Checked line for line against the rows loaded on 2026-10-09.
+- `yamaha_dampers.py`: Minimum / Standard / Maximum from the adjustment procedures, compared with every Soft / STD / Hard row.
+- `build_yamaha_specs.py`: jobs file `MODEL|YEAR|CODE|PDF` → payloads; a bike-year that fails the damper check is not written.
+- Yamaha's library lists manuals per model and year through the JSON endpoints its web app calls
+  (`parts.yamaha-motor.co.jp/ypec_b2c/services/omb2c/model_year_list/` and `model_list/`, POST, `baseCode` 6150, `langId` 02).
 
 Usage: download the PDFs into an empty directory and run the builders from that directory, for example
 `python3 scripts/manual-textlayer/build_from_index.py docs/research/manual-index/ktm-group-us.tsv todo <out dir>`.
 A path printed with two different values for one bike is dropped, never guessed.
 Method and results: `docs/research/expansion/ktm-group/TEXT_LAYER_REVIEW_2026-10-13.md`,
-`docs/research/expansion/triumph/HANDBOOK_REVIEW_2026-10-13.md` and `docs/research/expansion/yamaha/SCHEDULE_REVIEW_2026-10-13.md`.
+`docs/research/expansion/triumph/HANDBOOK_REVIEW_2026-10-13.md`, `docs/research/expansion/yamaha/SCHEDULE_REVIEW_2026-10-13.md`
+and `docs/research/expansion/yamaha/TEXT_LAYER_REVIEW_2026-10-13.md`.

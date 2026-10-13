@@ -2,7 +2,7 @@
 
 The specification table (chapter 2) prints Soft / STD / Hard for each damper; the adjustment procedures in chapter 3
 print the same values as Minimum (soft) / Standard / Maximum (hard) under headings such as
-"ADJUSTING THE FRONT FORK REBOUND DAMPING FORCE". The pages are set in two columns, so each page is read column by column.
+"ADJUSTING THE FRONT FORK LEGS" / "ADJUSTING THE REAR SHOCK ABSORBER" with the damper named in a sub-heading. The pages are set in two columns, so each page is read column by column.
 A manual shared by two models tags the Standard value "(YZ250X)".
 
 check(pdf_path, spec_rows, model=None) -> list of (path, spec value, adjustment value) mismatches, plus the groups found.
