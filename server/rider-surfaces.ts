@@ -255,6 +255,12 @@ export async function handleRiderSurfaces(req:Request,url:URL,path:string,method
   const assemblies=checked(await db.from('part_assemblies').select('id,name,diagram_url,source_url,position').eq('catalog_id',catalogs[0].id).order('position',{ascending:true}).limit(400));
   return json({catalog:catalogs[0],assemblies:assemblies??[]});
  }
+ if(path==='/api/parts/fitment'&&method==='GET'){
+  const number=(q('part_number')??'').trim();
+  if(!/^[A-Za-z0-9][A-Za-z0-9 .\/-]{3,39}$/.test(number))throw new HttpError(400,'Enter a part number');
+  const rows=checked(await db.rpc('part_fitment',{p_part_number:number}));
+  return json({part_number:number,fits:rows??[]});
+ }
  if(path==='/api/parts'&&method==='GET'){
   const assemblyId=id('assembly_id');
   const rows=await collectPages<Row>((from,to)=>db.from('parts').select('id,position,callout,part_number,description,quantity_raw,remarks',{count:'exact'}).eq('assembly_id',assemblyId).order('position',{ascending:true}).order('id',{ascending:true}).range(from,to),{label:'Parts assembly',maxRows:10000,maxBytes:10_000_000,key:row=>String(row.id)});

@@ -13,6 +13,13 @@ export type SetupLog={id:string;user_id:string;bike_id:string;recorded_at:string
 export type PartCatalog={id:string;source:string;source_url:string;scope_label:string;complete:boolean;assembly_count:number;part_count:number};
 export type PartAssembly={id:string;name:string;diagram_url:string;source_url:string;position:number};
 export type Part={id:number;position:number;callout:string;part_number:string|null;description:string;quantity_raw:string;remarks:string};
+export type PartFit={manufacturer:string;model:string;years:number[];regions:string[];assemblies:string[]};
+/** 2020, 2021, 2022, 2025 → "2020–2022, 2025" */
+export function yearRanges(years:number[]):string{
+ const sorted=[...new Set(years)].sort((a,b)=>a-b),out:string[]=[];
+ for(let i=0;i<sorted.length;){let j=i;while(j+1<sorted.length&&sorted[j+1]===sorted[j]+1)j++;out.push(j>i?`${sorted[i]}–${sorted[j]}`:String(sorted[i]));i=j+1;}
+ return out.join(', ');
+}
 
 export const POST_CATEGORY_LABELS:Record<PostCategory,string>={build:'Build',setup_question:'Setup question',ride_plan:'Ride plan',general:'General'};
 export const EVENT_TYPE_LABELS:Record<EventType,string>={ride_day:'Ride day',race:'Race',practice:'Practice',clinic:'Clinic',meetup:'Meetup'};

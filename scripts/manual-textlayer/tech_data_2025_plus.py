@@ -24,7 +24,7 @@ def secname(top,sub):
     s=sub.lower()
     if 'torque' in s: return 'Engine tightening torques' if 'engine' in s else 'Chassis tightening torques'
     if 'tuning' in s: return None
-    if 'apacit' in s: return 'Capacities' if top in('Engine','Chassis') else top
+    if 'apacit' in s or s=='fuel': return 'Capacities' if top in('Engine','Chassis') else top
     if 'technical data' in s: return 'Tires' if 'tires' in s else top
     if top=='Carburetor' and sub!='Carburetor': return top+' / '+sub
     return top
@@ -39,7 +39,7 @@ def parse(path):
             continue
         seen=True
         base=104 if L[0][0]['x0']<100 else 54
-        foot=[w['text'] for w in L[-1] if w['b'] and w['text'].isdigit()]
+        foot=[w['text'] for w in L[-1] if w['text'].isdigit() and (w['b'] or len(L[-1])==1)]
         printed=foot[0] if foot else '?'
         body=L[1:-1] if foot else L[1:]
         def new(lab,g,vals=None):
@@ -53,7 +53,7 @@ def parse(path):
                 if l[0]['text'].count('.')==1: top=name; sec=top; mode='row'; hv=None
                 else:
                     sub,hv=head_note(name); sub=sub or ''
-                    sec=secname(top,sub); mode='block' if 'apacit' in sub.lower() else 'torque' if 'torque' in sub.lower() else 'row'
+                    sec=secname(top,sub); mode='block' if ('apacit' in sub.lower() or sub.lower()=='fuel') else 'torque' if 'torque' in sub.lower() else 'row'
                 if 'torque' in name.lower() and l[0]['text'].count('.')==1: sec=None
                 continue
             if sec is None: continue
@@ -66,7 +66,7 @@ def parse(path):
                     px=w['x1']
                 val=[w for w in rest if not w['b'] and w['x0']-base>=326]
                 size=[w for w in rest if not w['b'] and w['x0']-base<326]
-                rem=[w['text'] for w in rest if w['b'] and w['text']!='®']
+                rem=[w['text'] for w in rest if w['text']!='®' and (w['b'] or (not lab and w['x0']-base>=380 and w['size']>8))]
                 boldtxt=txt([w for w in l if w['b']])
                 if boldtxt and is_note(boldtxt):
                     if cur: cur['variant']=True
@@ -137,8 +137,8 @@ def facts(rows,model):
     for r in rows:
         lab=r['lab']; grp=r['grp']; ok=True
         if r.get('hv'):
-            quals.add(r['hv'])
-            if not V.applies(r['hv'],model): ok=False
+            quals.add(('UNRECOGNIZED ' if r['hv'].startswith('?') else '')+r['hv'])
+            if r['hv'].startswith('?') or not V.applies(r['hv'],model): ok=False
         if lab.startswith('@T'):
             a=V.applies(lab[2:],model); quals.add(lab[2:])
             if not ok or a is False: continue
@@ -159,11 +159,12 @@ def facts(rows,model):
             if r['desc']: val+='; '+clean(fold(r['desc']))
         else:
             val=clean(fold(r['val'])).replace('● ','').strip()
-            if '●' in ' '.join(r['val']): val=', '.join(val.split())
+            if '●' in ' '.join(r['val']):
+                items=[x.strip() for x in clean(fold(r['val'])).split('●') if x.strip()]; val=', '.join(items)
         if 'torque' in r['sec'].lower():
             if r['size']: parts[-1]+=' ('+clean(' '.join(r['size'])).replace(' × ','x')+')'
             if r['rem']: val+='; '+' '.join(r['rem'])
-        val=re.sub(r'− (\d+) ° C',r'−\1 °C',val); val=re.sub(r'lb\s*/in\) f',r'lbf/in)',val); val=re.sub(r'\(− ([\d.]+) ° F\)',r'(−\1 °F)',val); parts=[re.sub(r'^‒ ','',p) for p in parts]
+        val=re.sub(r'(\d) ?\+ ?([\d.]+) − ([\d.]+)',r'\1 +\2/−\3',val); val=re.sub(r'− (\d+) ° C',r'−\1 °C',val); val=re.sub(r'lb\s*/in\) f',r'lbf/in)',val); val=re.sub(r'\(− ([\d.]+) ° F\)',r'(−\1 °F)',val); parts=[re.sub(r'^‒ ','',p) for p in parts]
         if 'torque' in r['sec'].lower(): parts[-1]=parts[-1].replace('(‒ ','(')
         if not val or re.search(r'\d:\d\d [AP]M',val): quals.add('DROPPED '+' / '.join(parts)+' = '+val); continue
         out.append((r,' / '.join([r['sec']]+parts),val))

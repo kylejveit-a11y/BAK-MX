@@ -3,16 +3,17 @@ import validity as V
 def is_note(s): return V.applies(s,'125 SX') is not None
 def head_note(name):
     if is_note(name): return None,name
+    if V.suspicious(name): return V.PAR.sub('',name).strip(),'?'+name
     notes=[m for m in V.PAR.findall(name) if is_note(m)]
     base=V.PAR.sub(lambda m:'' if is_note(m.group(1)) else m.group(0),name).strip()
     return base,(notes[0] if notes else None)
 VALCOLS=(147,156,223,295)
 MERGED=[]; SKIPPED=[]
 def lines_of(pg):
-    ws=pg.extract_words(extra_attrs=['fontname'],x_tolerance=1.2,y_tolerance=2)
+    ws=pg.extract_words(extra_attrs=['fontname','size'],x_tolerance=1.2,y_tolerance=2)
     L=[]
     for w in sorted(ws,key=lambda w:(w['top'],w['x0'])):
-        w['b']='Bold' in w['fontname']
+        w['b']=bool(re.search(r'Bold|-Bd$|Black|Heavy',w['fontname'])) or w['size']>=9.8; w['text']=w['text'].replace('\u00ad','-')
         if L and abs(L[-1][0]['top']-w['top'])<3.5: L[-1].append(w)
         else: L.append([w])
     L=[sorted(l,key=lambda w:w['x0']) for l in L]
@@ -52,7 +53,7 @@ def parse(path):
             continue
         seen=True
         base=104 if L[0][0]['x0']<100 else 54
-        foot=[w['text'] for w in L[-1] if w['b'] and w['text'].isdigit()]
+        foot=[w['text'] for w in L[-1] if w['text'].isdigit() and (w['b'] or len(L[-1])==1)]
         printed=foot[0] if foot else '?'
         body=L[1:-1] if foot else L[1:]
         items=[]
@@ -135,8 +136,8 @@ def facts(rows,model):
     for r in rows:
         lab=r['lab']; grp=r['grp']; ok=True
         if r.get('hv'):
-            quals.add(r['hv'])
-            if not V.applies(r['hv'],model): ok=False
+            quals.add(('UNRECOGNIZED ' if r['hv'].startswith('?') else '')+r['hv'])
+            if r['hv'].startswith('?') or not V.applies(r['hv'],model): ok=False
         if lab.startswith('@T'):
             q=lab[2:]; a=V.applies(q,model) if q else True; quals.add(q)
             if not ok or a is False: continue

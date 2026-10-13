@@ -17,7 +17,7 @@ def parse(path):
             if seen: break
             continue
         seen=True
-        foot=[w['text'] for w in L[-1] if w['b'] and w['text'].isdigit()]
+        foot=[w['text'] for w in L[-1] if w['text'].isdigit() and (w['b'] or len(L[-1])==1)]
         printed=foot[0] if foot else '?'
         body=L[1:-1]
         segs=[];seg=None

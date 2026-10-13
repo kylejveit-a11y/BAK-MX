@@ -1,9 +1,9 @@
-import {useEffect,useRef,useState,type FormEvent,type ReactNode} from 'react';
+import {Fragment,useEffect,useRef,useState,type FormEvent,type ReactNode} from 'react';
 import {ArrowLeft,ArrowRight,CalendarDays,Check,Flag,Heart,MapPin,MessageCircle,MessageSquare,Plus,Send,ShieldOff,Trash2,UserRound,Users,X} from 'lucide-react';
 import type {Bike} from '../shared/types';
 import {api} from './client';
 import {adjusters,beforeYouTune,symptomGuides} from '../shared/setup-knowledge';
-import {COMMUNITY_RULES,EVENT_TYPE_LABELS,POST_CATEGORY_LABELS,SETUP_FIELDS,SETUP_RESULT_LABELS,riderName,setupDifferences,type EventType,type Part,type PartAssembly,type PartCatalog,type Post,type PostCategory,type PostComment,type Profile,type RideEvent,type RiderRef,type SetupLog,type SetupResult,type ThreadMessage,type ThreadSummary} from '../shared/rider-types';
+import {COMMUNITY_RULES,EVENT_TYPE_LABELS,POST_CATEGORY_LABELS,SETUP_FIELDS,SETUP_RESULT_LABELS,riderName,setupDifferences,type EventType,yearRanges,type Part,type PartAssembly,type PartCatalog,type PartFit,type Post,type PostCategory,type PostComment,type Profile,type RideEvent,type RiderRef,type SetupLog,type SetupResult,type ThreadMessage,type ThreadSummary} from '../shared/rider-types';
 
 /* Rider surfaces for the web client: Community, Events, Messages, Profile, Feedback, Setup log, Parts.
    Everything here reads and writes through the BAK MX API; nothing is sample data. */
@@ -281,6 +281,8 @@ export function SetupLogPanel({bike,signedIn,onAsk}:{bike?:Bike;signedIn:boolean
 export function PartsCatalog({bike}:{bike?:Bike}){
  const [catalog,setCatalog]=useState<PartCatalog|null|undefined>(undefined),[assemblies,setAssemblies]=useState<PartAssembly[]>([]),[open,setOpen]=useState(''),[parts,setParts]=useState<Part[]>([]),[error,setError]=useState(''),[find,setFind]=useState('');
  const [partsLoading,setPartsLoading]=useState(false);const [partsLoaded,setPartsLoaded]=useState(false);const requestId=useRef(0);
+ const [fit,setFit]=useState<{number:string;rows:PartFit[]|null;error:string}|null>(null);
+ async function showFit(number:string){if(fit?.number===number){setFit(null);return;}setFit({number,rows:null,error:''});try{const d=await api<{part_number:string;fits:PartFit[]}>('/parts/fitment?part_number='+encodeURIComponent(number));setFit(f=>f?.number===number?{number,rows:d.fits,error:''}:f);}catch(e){setFit(f=>f?.number===number?{number,rows:[],error:(e as Error).message}:f);}}
  useEffect(()=>{let live=true;requestId.current++;setCatalog(undefined);setAssemblies([]);setOpen('');setParts([]);setPartsLoading(false);setPartsLoaded(false);setError('');if(bike)api<{catalog:PartCatalog|null;assemblies:PartAssembly[]}>('/parts/catalog?bike_id='+bike.id).then(d=>{if(live){setCatalog(d.catalog);setAssemblies(d.assemblies);}}).catch(e=>{if(live){setError(e.message);setCatalog(null);}});return()=>{live=false};},[bike?.id]);
  async function show(a:PartAssembly){const current=++requestId.current;if(open===a.id){setOpen('');setPartsLoading(false);return;}setOpen(a.id);setParts([]);setPartsLoaded(false);setPartsLoading(true);setError('');try{const result=await api<Part[]>('/parts?assembly_id='+a.id);if(requestId.current===current){setParts(result);setPartsLoaded(true);}}catch(e){if(requestId.current===current)setError((e as Error).message);}finally{if(requestId.current===current)setPartsLoading(false);}}
  if(!bike||catalog===undefined)return null;
@@ -295,12 +297,23 @@ export function PartsCatalog({bike}:{bike?:Bike}){
     <button className="assembly-head" aria-expanded={open===a.id} onClick={()=>show(a)}><span>{a.name}</span><ArrowRight size={15}/></button>
     {open===a.id&&<div className="assembly-body">
      {a.diagram_url&&<a href={a.diagram_url} target="_blank" rel="noreferrer" className="text-button">Open exploded diagram <ArrowRight size={14}/></a>}
-     {partsLoading?<p className="subtle" role="status">Loading parts…</p>:!partsLoaded?<p className="subtle" role="status">Parts could not be loaded. Try reopening this assembly.</p>:!parts.length?<p className="subtle" role="status">No part entries have been imported for this assembly.</p>:<table><thead><tr><th>Ref</th><th>Part number</th><th>Description</th><th>Qty</th></tr></thead><tbody>{parts.map(p=><tr key={p.id}><td>{p.callout}</td><td>{p.part_number||'—'}</td><td>{p.description}{p.remarks&&<small>{p.remarks}</small>}</td><td>{p.quantity_raw==='0'?'As needed':p.quantity_raw||'—'}</td></tr>)}</tbody></table>}
+     {partsLoading?<p className="subtle" role="status">Loading parts…</p>:!partsLoaded?<p className="subtle" role="status">Parts could not be loaded. Try reopening this assembly.</p>:!parts.length?<p className="subtle" role="status">No part entries have been imported for this assembly.</p>:<table><thead><tr><th>Ref</th><th>Part number</th><th>Description</th><th>Qty</th></tr></thead><tbody>{parts.map(p=><Fragment key={p.id}><tr><td>{p.callout}</td><td>{p.part_number?<button className="part-number" aria-expanded={fit?.number===p.part_number} title="See which other bikes list this part number" onClick={()=>showFit(p.part_number!)}>{p.part_number}</button>:'—'}</td><td>{p.description}{p.remarks&&<small>{p.remarks}</small>}</td><td>{p.quantity_raw==='0'?'As needed':p.quantity_raw||'—'}</td></tr>
+      {p.part_number&&fit?.number===p.part_number&&<tr className="fit-row"><td colSpan={4}>{fit.error?<span className="error" role="alert">{fit.error}</span>:!fit.rows?<span className="subtle" role="status">Checking other catalogs…</span>:<FitList bike={bike} rows={fit.rows}/>}</td></tr>}</Fragment>)}</tbody></table>}
      <p className="subtle">Catalog quantities are per assembly as published, not whole-bike totals. Confirm superseded numbers with a dealer before ordering.</p>
     </div>}
    </div>)}</div>
   </>}
  </section>;
+}
+
+function FitList({bike,rows}:{bike:Bike;rows:PartFit[]}){
+ const others=rows.filter(r=>!(r.manufacturer===bike.manufacturer&&r.model===bike.model)),own=rows.find(r=>r.manufacturer===bike.manufacturer&&r.model===bike.model);
+ return <div className="fit-list">
+  <strong>Same part number in other catalogs</strong>
+  {own&&own.years.length>1&&<p className="subtle">{bike.manufacturer} {bike.model}: {yearRanges(own.years)}</p>}
+  {others.length?<ul>{others.map(r=><li key={r.manufacturer+r.model}><span>{r.manufacturer} {r.model}</span><em>{yearRanges(r.years)}</em></li>)}</ul>:<p className="subtle">No other bike in the loaded catalogs lists this number.</p>}
+  <p className="subtle">This shows where the manufacturer prints the same number. Confirm fit for the assembly you’re working on before ordering.</p>
+ </div>;
 }
 
 /* ------------------------------------------------------------------ Setup guide */
