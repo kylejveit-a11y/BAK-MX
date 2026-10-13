@@ -78,6 +78,14 @@ for p in (B/'european-discovery/captures-eu').rglob('*.json'):
  groups=d.get('assemblies',[]);counts=Counter(x['assembly_id'] for x in d.get('parts',[]));dup=Counter(x['assembly_id'] for x in d.get('raw_duplicate_rows',[]))
  complete=bool(d.get('catalog_complete') and groups and len(groups)==d.get('expected_assembly_count') and all(a.get('enumeration_checked') and counts[a['id']]+dup[a['id']]==a.get('expected_occurrences') for a in groups))
  catalogs.append({'target':d['target'],'path':str(p),'sha256':sha(p),'source':'Official '+d['target']['manufacturer']+' catalog (EU market listing)','complete':complete,'assemblies':sum(a.get('enumeration_checked',False) for a in groups),'expected_assemblies':d.get('expected_assembly_count'),'occurrences':len(d.get('parts',[])),'new_this_pass':False,'scope':'EU market listing: '+str(d.get('catalog_label')),'unknown_quantities':sum(x.get('catalog_quantity') is None for x in d.get('parts',[]))})
+# Official catalogs the manufacturer lists once, with no market label. Used only where no US or EU-labelled catalog exists,
+# and only when the model code family matches the one printed on that model's labelled catalogs (checked at capture time).
+for p in (B/'european-discovery/captures-unlabelled').rglob('*.json'):
+ d=read(p)
+ if key(d['target']) not in planned or re.search(r'<[A-Z]{2}>',str(d.get('catalog_label'))):continue
+ groups=d.get('assemblies',[]);counts=Counter(x['assembly_id'] for x in d.get('parts',[]));dup=Counter(x['assembly_id'] for x in d.get('raw_duplicate_rows',[]))
+ complete=bool(d.get('catalog_complete') and groups and len(groups)==d.get('expected_assembly_count') and all(a.get('enumeration_checked') and counts[a['id']]+dup[a['id']]==a.get('expected_occurrences') for a in groups))
+ catalogs.append({'target':d['target'],'path':str(p),'sha256':sha(p),'source':'Official '+d['target']['manufacturer']+' catalog (no market label)','complete':complete,'assemblies':sum(a.get('enumeration_checked',False) for a in groups),'expected_assemblies':d.get('expected_assembly_count'),'occurrences':len(d.get('parts',[])),'new_this_pass':False,'scope':'Listed without a market label: '+str(d.get('catalog_label')),'unknown_quantities':sum(x.get('catalog_quantity') is None for x in d.get('parts',[]))})
 rows=[]
 for k,r in planned.items():
  sources=[c for c in catalogs if key(c['target'])==k]

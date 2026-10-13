@@ -2,7 +2,7 @@
 
 Paused at the userÃ¢â‚¬â„¢s request after finishing active batches. Existing captures were preserved; no rebuild guides or database changes were made.
 
-305 complete catalog inventories across 488 planned acquisition slots; 37 of the original60 targets. 209 targets newly completed this pass. Unknown or not-yet-established model-years remain explicit acquisition slots, not asserted production bikes.
+320 complete catalog inventories across 493 planned acquisition slots; 37 of the original60 targets. 209 targets newly completed this pass. Unknown or not-yet-established model-years remain explicit acquisition slots, not asserted production bikes.
 
 Catalog-complete means every listed group and part entry is captured. It does not mean every possible installed piece or specification is known. Optional items, supersessions, nested kits, AR and unavailable quantities remain distinct.
 
@@ -70,16 +70,16 @@ Catalog-complete means every listed group and part entry is captured. It does no
 | GasGas | MC 125 | 2021 | CATALOG_ENUMERATED | 36 / 36 | 1133 |
 | GasGas | MC 125 | 2022 | CATALOG_ENUMERATED | 36 / 36 | 1143 |
 | GasGas | MC 125 | 2023 | CATALOG_ENUMERATED | 36 / 36 | 1148 |
-| GasGas | MC 125 | 2024 | NOT_CAPTURED | 0 / ? | 0 |
-| GasGas | MC 125 | 2025 | NOT_CAPTURED | 0 / ? | 0 |
-| GasGas | MC 125 | 2026 | NOT_CAPTURED | 0 / ? | 0 |
+| GasGas | MC 125 | 2024 | CATALOG_ENUMERATED | 38 / 38 | 1080 |
+| GasGas | MC 125 | 2025 | CATALOG_ENUMERATED | 37 / 37 | 1079 |
+| GasGas | MC 125 | 2026 | CATALOG_ENUMERATED | 37 / 37 | 1074 |
 | GasGas | MC 250 | 2020 | NOT_CAPTURED | 0 / ? | 0 |
 | GasGas | MC 250 | 2021 | NOT_CAPTURED | 0 / ? | 0 |
 | GasGas | MC 250 | 2022 | CATALOG_ENUMERATED | 37 / 37 | 1170 |
 | GasGas | MC 250 | 2023 | CATALOG_ENUMERATED | 38 / 38 | 1171 |
 | GasGas | MC 250 | 2024 | CATALOG_ENUMERATED | 39 / 39 | 1102 |
-| GasGas | MC 250 | 2025 | NOT_CAPTURED | 0 / ? | 0 |
-| GasGas | MC 250 | 2026 | NOT_CAPTURED | 0 / ? | 0 |
+| GasGas | MC 250 | 2025 | CATALOG_ENUMERATED | 39 / 39 | 1104 |
+| GasGas | MC 250 | 2026 | CATALOG_ENUMERATED | 39 / 39 | 1099 |
 | GasGas | MC 250F | 2020 | NOT_CAPTURED | 0 / ? | 0 |
 | GasGas | MC 250F | 2021 | CATALOG_ENUMERATED | 41 / 41 | 1180 |
 | GasGas | MC 250F | 2022 | CATALOG_ENUMERATED | 41 / 41 | 1177 |
@@ -92,7 +92,7 @@ Catalog-complete means every listed group and part entry is captured. It does no
 | GasGas | MC 350F | 2022 | CATALOG_ENUMERATED | 41 / 41 | 1184 |
 | GasGas | MC 350F | 2023 | CATALOG_ENUMERATED | 42 / 42 | 1189 |
 | GasGas | MC 350F | 2024 | CATALOG_ENUMERATED | 42 / 42 | 1175 |
-| GasGas | MC 350F | 2025 | NOT_CAPTURED | 0 / ? | 0 |
+| GasGas | MC 350F | 2025 | PARTIAL_CAPTURE | 41 / 42 | 1177 |
 | GasGas | MC 350F | 2026 | NOT_CAPTURED | 0 / ? | 0 |
 | GasGas | MC 450F | 2020 | NOT_CAPTURED | 0 / ? | 0 |
 | GasGas | MC 450F | 2021 | CATALOG_ENUMERATED | 41 / 41 | 1171 |
@@ -162,15 +162,15 @@ Catalog-complete means every listed group and part entry is captured. It does no
 | Husqvarna | FE 450 | 2026 | CATALOG_ENUMERATED | 48 / 48 | 1217 |
 | Husqvarna | FX 350 | 2020 | CATALOG_ENUMERATED | 42 / 42 | 1213 |
 | Husqvarna | FX 350 | 2021 | CATALOG_ENUMERATED | 42 / 42 | 1207 |
-| Husqvarna | FX 350 | 2022 | NOT_CAPTURED | 0 / ? | 0 |
-| Husqvarna | FX 350 | 2023 | NOT_CAPTURED | 0 / ? | 0 |
+| Husqvarna | FX 350 | 2022 | CATALOG_ENUMERATED | 42 / 42 | 1210 |
+| Husqvarna | FX 350 | 2023 | PARTIAL_CAPTURE | 43 / 44 | 1209 |
 | Husqvarna | FX 350 | 2024 | CATALOG_ENUMERATED | 44 / 44 | 1208 |
 | Husqvarna | FX 350 | 2025 | CATALOG_ENUMERATED | 44 / 44 | 1195 |
 | Husqvarna | FX 350 | 2026 | CATALOG_ENUMERATED | 44 / 44 | 1195 |
 | Husqvarna | FX 350 | 2027 | CATALOG_ENUMERATED | 44 / 44 | 1193 |
 | Husqvarna | FX 450 | 2020 | CATALOG_ENUMERATED | 42 / 42 | 1201 |
 | Husqvarna | FX 450 | 2021 | CATALOG_ENUMERATED | 42 / 42 | 1192 |
-| Husqvarna | FX 450 | 2022 | NOT_CAPTURED | 0 / ? | 0 |
+| Husqvarna | FX 450 | 2022 | CATALOG_ENUMERATED | 42 / 42 | 1197 |
 | Husqvarna | FX 450 | 2023 | CATALOG_ENUMERATED | 44 / 44 | 1200 |
 | Husqvarna | FX 450 | 2024 | CATALOG_ENUMERATED | 44 / 44 | 1198 |
 | Husqvarna | FX 450 | 2025 | CATALOG_ENUMERATED | 44 / 44 | 1188 |
@@ -196,7 +196,7 @@ Catalog-complete means every listed group and part entry is captured. It does no
 | Husqvarna | TC 250 | 2023 | CATALOG_ENUMERATED | 38 / 38 | 1108 |
 | Husqvarna | TC 250 | 2024 | CATALOG_ENUMERATED | 38 / 38 | 1114 |
 | Husqvarna | TC 250 | 2025 | CATALOG_ENUMERATED | 38 / 38 | 1108 |
-| Husqvarna | TC 250 | 2026 | NOT_CAPTURED | 0 / ? | 0 |
+| Husqvarna | TC 250 | 2026 | CATALOG_ENUMERATED | 38 / 38 | 1109 |
 | Husqvarna | TC 300 | 2020 | NOT_CAPTURED | 0 / ? | 0 |
 | Husqvarna | TC 300 | 2021 | NOT_CAPTURED | 0 / ? | 0 |
 | Husqvarna | TC 300 | 2022 | NOT_CAPTURED | 0 / ? | 0 |
@@ -230,7 +230,7 @@ Catalog-complete means every listed group and part entry is captured. It does no
 | Husqvarna | TX 300 | 2020 | CATALOG_ENUMERATED | 40 / 40 | 806 |
 | Husqvarna | TX 300 | 2021 | CATALOG_ENUMERATED | 40 / 40 | 800 |
 | Husqvarna | TX 300 | 2022 | CATALOG_ENUMERATED | 40 / 40 | 807 |
-| Husqvarna | TX 300 | 2023 | NOT_CAPTURED | 0 / ? | 0 |
+| Husqvarna | TX 300 | 2023 | CATALOG_ENUMERATED | 41 / 41 | 1138 |
 | Husqvarna | TX 300 | 2024 | CATALOG_ENUMERATED | 41 / 41 | 1134 |
 | Husqvarna | TX 300 | 2025 | CATALOG_ENUMERATED | 41 / 41 | 1134 |
 | Husqvarna | TX 300 | 2026 | CATALOG_ENUMERATED | 41 / 41 | 1134 |
@@ -271,7 +271,7 @@ Catalog-complete means every listed group and part entry is captured. It does no
 | KTM | 250 SX | 2023 | CATALOG_ENUMERATED | 38 / 38 | 1109 |
 | KTM | 250 SX | 2024 | CATALOG_ENUMERATED | 38 / 38 | 1109 |
 | KTM | 250 SX | 2025 | CATALOG_ENUMERATED | 38 / 38 | 1112 |
-| KTM | 250 SX | 2026 | NOT_CAPTURED | 0 / ? | 0 |
+| KTM | 250 SX | 2026 | CATALOG_ENUMERATED | 38 / 38 | 1112 |
 | KTM | 250 SX-F | 2020 | CATALOG_ENUMERATED | 41 / 41 | 1202 |
 | KTM | 250 SX-F | 2021 | CATALOG_ENUMERATED | 41 / 41 | 1200 |
 | KTM | 250 SX-F | 2022 | CATALOG_ENUMERATED | 41 / 41 | 1193 |
@@ -496,5 +496,10 @@ Catalog-complete means every listed group and part entry is captured. It does no
 | Triumph | TF 450-C | 2026 | CATALOG_ENUMERATED | 77 / 77 | 969 |
 | Triumph | TF 450-E | 2026 | CATALOG_ENUMERATED | 82 / 82 | 1053 |
 | Triumph | TF 450-X | 2026 | CATALOG_ENUMERATED | 74 / 74 | 938 |
+| KTM | 85 SX 17/14 | 2025 | CATALOG_ENUMERATED | 34 / 34 | 1083 |
+| KTM | 85 SX 17/14 | 2027 | CATALOG_ENUMERATED | 34 / 34 | 1076 |
+| KTM | 85 SX 19/16 | 2025 | CATALOG_ENUMERATED | 34 / 34 | 1083 |
+| KTM | 85 SX 19/16 | 2027 | CATALOG_ENUMERATED | 34 / 34 | 1076 |
+| KTM | 125 SX | 2027 | CATALOG_ENUMERATED | 37 / 37 | 1085 |
 
 See INVENTORY_STATUS.json for exact source paths, hashes, alternate captures and gaps. Source captures and acquisition scripts are resumable; do not restart finished catalogs.

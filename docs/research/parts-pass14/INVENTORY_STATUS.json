@@ -3,17 +3,17 @@
   "status": "PAUSED_AT_USER_REQUEST_AFTER_CURRENT_BATCH",
   "scope": "Parts inventory only; percentages refer only to reconciled catalog indexes, never installed-piece totals or engineering specification coverage.",
   "summary": {
-    "planned_acquisition_slots": 488,
+    "planned_acquisition_slots": 493,
     "families": 71,
-    "complete_catalog_inventories": 305,
+    "complete_catalog_inventories": 320,
     "original_60_complete": 37,
     "new_completed_targets": 209,
-    "selected_captured_occurrences": 348102,
+    "selected_captured_occurrences": 367093,
     "complete_by_brand": {
-      "GasGas": 59,
+      "GasGas": 64,
       "Honda": 6,
-      "Husqvarna": 87,
-      "KTM": 131,
+      "Husqvarna": 91,
+      "KTM": 137,
       "Kawasaki": 9,
       "Yamaha": 4,
       "Triumph": 9
@@ -1839,14 +1839,29 @@
       },
       "original_60_target": false,
       "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "GasGas",
+          "model": "MC 125",
+          "model_year": 2024,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures-unlabelled/gasgas/mc-125-2024-1003024723.json",
+        "sha256": "66f0ae2f81f70dbab8280e76569ef93723baff6f1945a8d092caf28ab5bf6c33",
+        "source": "Official GasGas catalog (no market label)",
+        "complete": true,
+        "assemblies": 38,
+        "expected_assemblies": 38,
+        "occurrences": 1080,
+        "new_this_pass": false,
+        "scope": "Listed without a market label: MC 125 2024 <2024><F0101X0>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index.",
-        "Exact year/market identity remains unverified in the roster."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -1858,14 +1873,29 @@
       },
       "original_60_target": false,
       "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "GasGas",
+          "model": "MC 125",
+          "model_year": 2025,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures-unlabelled/gasgas/mc-125-2025-1003420973.json",
+        "sha256": "816ad9ee4c1c40fbcf6ff962599db36d9f28a2fa0d01b4c6fe202faf4982d910",
+        "source": "Official GasGas catalog (no market label)",
+        "complete": true,
+        "assemblies": 37,
+        "expected_assemblies": 37,
+        "occurrences": 1079,
+        "new_this_pass": false,
+        "scope": "Listed without a market label: MC 125 2025 <2025><F0101Y0>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index.",
-        "Exact year/market identity remains unverified in the roster."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -1877,14 +1907,29 @@
       },
       "original_60_target": false,
       "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "GasGas",
+          "model": "MC 125",
+          "model_year": 2026,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures-unlabelled/gasgas/mc-125-2026-1003992411.json",
+        "sha256": "cf2e731c5d5de287a3d6d5c7ab07c337422a14ceb010a3da67723f69111c8fd6",
+        "source": "Official GasGas catalog (no market label)",
+        "complete": true,
+        "assemblies": 37,
+        "expected_assemblies": 37,
+        "occurrences": 1074,
+        "new_this_pass": false,
+        "scope": "Listed without a market label: MC 125 2026 <2026><F0101Z0>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index.",
-        "Exact year/market identity remains unverified in the roster."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -2036,14 +2081,29 @@
       },
       "original_60_target": false,
       "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "GasGas",
+          "model": "MC 250",
+          "model_year": 2025,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures-unlabelled/gasgas/mc-250-2025-1003420991.json",
+        "sha256": "1fe0b4886728dbf41f63ce6268d46b8a9993d40c852e48da384f080fe643e52b",
+        "source": "Official GasGas catalog (no market label)",
+        "complete": true,
+        "assemblies": 39,
+        "expected_assemblies": 39,
+        "occurrences": 1104,
+        "new_this_pass": false,
+        "scope": "Listed without a market label: MC 250 2025 <2025><F0301Y0>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index.",
-        "Exact year/market identity remains unverified in the roster."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -2055,14 +2115,29 @@
       },
       "original_60_target": false,
       "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "GasGas",
+          "model": "MC 250",
+          "model_year": 2026,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures-unlabelled/gasgas/mc-250-2026-1003992431.json",
+        "sha256": "4bb9b6d68a49aae3b6f41809b2b6b08c23817033f0c9b2f4c37b1d06971fe8aa",
+        "source": "Official GasGas catalog (no market label)",
+        "complete": true,
+        "assemblies": 39,
+        "expected_assemblies": 39,
+        "occurrences": 1099,
+        "new_this_pass": false,
+        "scope": "Listed without a market label: MC 250 2026 <2026><F0301Z0>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index.",
-        "Exact year/market identity remains unverified in the roster."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -2490,8 +2565,26 @@
       "original_60_target": false,
       "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
       "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "status": "PARTIAL_CAPTURE",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "GasGas",
+          "model": "MC 350F",
+          "model_year": 2025,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures-unlabelled/gasgas/mc-350f-2025-1003420995.json",
+        "sha256": "061061cb3a7e9169a27f9aca55ff45dd920d60b6dc7be5d83a96da17cedb3fbf",
+        "source": "Official GasGas catalog (no market label)",
+        "complete": false,
+        "assemblies": 41,
+        "expected_assemblies": 42,
+        "occurrences": 1177,
+        "new_this_pass": false,
+        "scope": "Listed without a market label: MC 350F 2025 <2025><F0301Y8>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
       "gaps": [
         "Capture and reconcile every group in the exact catalog index.",
@@ -5115,14 +5208,29 @@
       },
       "original_60_target": false,
       "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "Husqvarna",
+          "model": "FX 350",
+          "model_year": 2022,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures-unlabelled/husqvarna/fx-350-2022-1002104838.json",
+        "sha256": "a921ac84cfe49dd41755920041d76caf5f77892bdbd2798a8145c7e0ace566d5",
+        "source": "Official Husqvarna catalog (no market label)",
+        "complete": true,
+        "assemblies": 42,
+        "expected_assemblies": 42,
+        "occurrences": 1210,
+        "new_this_pass": false,
+        "scope": "Listed without a market label: FX 350 2022 <2022><F2201V6>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index.",
-        "Exact year/market identity remains unverified in the roster."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -5135,8 +5243,26 @@
       "original_60_target": false,
       "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
       "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "status": "PARTIAL_CAPTURE",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "Husqvarna",
+          "model": "FX 350",
+          "model_year": 2023,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures-unlabelled/husqvarna/fx-350-2023-1002327891.json",
+        "sha256": "225b821d095fac3a3f8744359ff8cc0fde760eb64e71cd0241e242b831241186",
+        "source": "Official Husqvarna catalog (no market label)",
+        "complete": false,
+        "assemblies": 43,
+        "expected_assemblies": 44,
+        "occurrences": 1209,
+        "new_this_pass": false,
+        "scope": "Listed without a market label: FX 350 2023 <2023><F2201W6>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
       "gaps": [
         "Capture and reconcile every group in the exact catalog index.",
@@ -5357,14 +5483,29 @@
       },
       "original_60_target": false,
       "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "Husqvarna",
+          "model": "FX 450",
+          "model_year": 2022,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures-unlabelled/husqvarna/fx-450-2022-1002104852.json",
+        "sha256": "3cdff9083a79e210f61d220d7c55d527cd57744f5aa40cb05f2d8f255706cb5e",
+        "source": "Official Husqvarna catalog (no market label)",
+        "complete": true,
+        "assemblies": 42,
+        "expected_assemblies": 42,
+        "occurrences": 1197,
+        "new_this_pass": false,
+        "scope": "Listed without a market label: FX 450 2022 <2022><F2301V6>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index.",
-        "Exact year/market identity remains unverified in the roster."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -6121,14 +6262,29 @@
       },
       "original_60_target": false,
       "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "Husqvarna",
+          "model": "TC 250",
+          "model_year": 2026,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures-unlabelled/husqvarna/tc-250-2026-1003992515.json",
+        "sha256": "0a8110855acde5a4143b16fd94e3f5a242816bfeda39a4fccabed8e000804a7d",
+        "source": "Official Husqvarna catalog (no market label)",
+        "complete": true,
+        "assemblies": 38,
+        "expected_assemblies": 38,
+        "occurrences": 1109,
+        "new_this_pass": false,
+        "scope": "Listed without a market label: TC 250 2026 <2026><F2301Z1>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index.",
-        "Exact year/market identity remains unverified in the roster."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -7172,14 +7328,29 @@
       },
       "original_60_target": false,
       "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "Husqvarna",
+          "model": "TX 300",
+          "model_year": 2023,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures-unlabelled/husqvarna/tx-300-2023-1002327883.json",
+        "sha256": "a8fca1c04df5add0b2cfe09bf64ac691a6c084bc24dfe78c1bd76d4ac2fa6bfe",
+        "source": "Official Husqvarna catalog (no market label)",
+        "complete": true,
+        "assemblies": 41,
+        "expected_assemblies": 41,
+        "occurrences": 1138,
+        "new_this_pass": false,
+        "scope": "Listed without a market label: TX 300 2023 <2023><F2401W5>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index.",
-        "Exact year/market identity remains unverified in the roster."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -8476,14 +8647,29 @@
       },
       "original_60_target": false,
       "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "250 SX",
+          "model_year": 2026,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures-unlabelled/ktm/250-sx-2026-1003992647.json",
+        "sha256": "444b61bc0f266f0e4e4ceab71223bb4a385ee38c299a52efd8a9ddb23f349076",
+        "source": "Official KTM catalog (no market label)",
+        "complete": true,
+        "assemblies": 38,
+        "expected_assemblies": 38,
+        "occurrences": 1112,
+        "new_this_pass": false,
+        "scope": "Listed without a market label: 250 SX 2026 <2026><F6301Z0>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index.",
-        "Exact year/market identity remains unverified in the roster."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -16656,6 +16842,176 @@
         "occurrences": 938,
         "new_this_pass": false,
         "scope": "Dealer-hosted Triumph OEM catalogue TF450-X 2026",
+        "unknown_quantities": 0
+      },
+      "other_inventory_sources": [],
+      "gaps": []
+    },
+    {
+      "target": {
+        "manufacturer": "KTM",
+        "model": "85 SX 17/14",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "original_60_target": false,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "85 SX 17/14",
+          "model_year": 2025,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures-unlabelled/ktm/85-sx-17-14-2025-1003417472.json",
+        "sha256": "d25b859250e59f0afbf974fd0ab3d038f0afb6904da985adb51f2fe9d2cf771c",
+        "source": "Official KTM catalog (no market label)",
+        "complete": true,
+        "assemblies": 34,
+        "expected_assemblies": 34,
+        "occurrences": 1083,
+        "new_this_pass": false,
+        "scope": "Listed without a market label: 85 SX 17/14 2025 <2025><F6001Y8>",
+        "unknown_quantities": 0
+      },
+      "other_inventory_sources": [],
+      "gaps": []
+    },
+    {
+      "target": {
+        "manufacturer": "KTM",
+        "model": "85 SX 17/14",
+        "model_year": 2027,
+        "region": "US",
+        "variant": "standard"
+      },
+      "original_60_target": false,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "85 SX 17/14",
+          "model_year": 2027,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures-unlabelled/ktm/85-sx-17-14-2027-1004481546.json",
+        "sha256": "6e76a4679d9b8f47f8c636a17db65065de74ac15535bee4b5041f27aff92166e",
+        "source": "Official KTM catalog (no market label)",
+        "complete": true,
+        "assemblies": 34,
+        "expected_assemblies": 34,
+        "occurrences": 1076,
+        "new_this_pass": false,
+        "scope": "Listed without a market label: 85 SX 17/14 2027 <2027><F6001827>",
+        "unknown_quantities": 0
+      },
+      "other_inventory_sources": [],
+      "gaps": []
+    },
+    {
+      "target": {
+        "manufacturer": "KTM",
+        "model": "85 SX 19/16",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "original_60_target": false,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "85 SX 19/16",
+          "model_year": 2025,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures-unlabelled/ktm/85-sx-19-16-2025-1003417474.json",
+        "sha256": "5c626f942885247376b5be44ec4ea94da968ab19d90567f98b7b10a8ab44e546",
+        "source": "Official KTM catalog (no market label)",
+        "complete": true,
+        "assemblies": 34,
+        "expected_assemblies": 34,
+        "occurrences": 1083,
+        "new_this_pass": false,
+        "scope": "Listed without a market label: 85 SX 19/16 2025 <2025><F6001Y9>",
+        "unknown_quantities": 0
+      },
+      "other_inventory_sources": [],
+      "gaps": []
+    },
+    {
+      "target": {
+        "manufacturer": "KTM",
+        "model": "85 SX 19/16",
+        "model_year": 2027,
+        "region": "US",
+        "variant": "standard"
+      },
+      "original_60_target": false,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "85 SX 19/16",
+          "model_year": 2027,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures-unlabelled/ktm/85-sx-19-16-2027-1004481548.json",
+        "sha256": "4423d1d4424b176c8320cc3d339f1c9868a6cc46397107c040c813b2affe2940",
+        "source": "Official KTM catalog (no market label)",
+        "complete": true,
+        "assemblies": 34,
+        "expected_assemblies": 34,
+        "occurrences": 1076,
+        "new_this_pass": false,
+        "scope": "Listed without a market label: 85 SX 19/16 2027 <2027><F6001927>",
+        "unknown_quantities": 0
+      },
+      "other_inventory_sources": [],
+      "gaps": []
+    },
+    {
+      "target": {
+        "manufacturer": "KTM",
+        "model": "125 SX",
+        "model_year": 2027,
+        "region": "US",
+        "variant": "standard"
+      },
+      "original_60_target": false,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "125 SX",
+          "model_year": 2027,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures-unlabelled/ktm/125-sx-2027-1004481550.json",
+        "sha256": "08795336917d51624a064c5451b7c3a8ab50f26782585734c9d36f11fe99dcf9",
+        "source": "Official KTM catalog (no market label)",
+        "complete": true,
+        "assemblies": 37,
+        "expected_assemblies": 37,
+        "occurrences": 1085,
+        "new_this_pass": false,
+        "scope": "Listed without a market label: 125 SX 2027 <2027><F6101027>",
         "unknown_quantities": 0
       },
       "other_inventory_sources": [],

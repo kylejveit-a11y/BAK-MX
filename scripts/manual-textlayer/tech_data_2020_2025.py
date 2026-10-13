@@ -10,7 +10,10 @@ def head_note(name):
 VALCOLS=(147,156,223,295)
 MERGED=[]; SKIPPED=[]
 def lines_of(pg):
-    ws=pg.extract_words(extra_attrs=['fontname','size'],x_tolerance=1.2,y_tolerance=2)
+    ws=pg.extract_words(extra_attrs=['fontname'],x_tolerance=1.2,y_tolerance=2)
+    # size of a word = size of its first glyph (asking extract_words for size would split words at superscripts)
+    sizes={(round(c['x0'],1),round(c['top'],1)):c['size'] for c in pg.chars}
+    for w in ws: w['size']=sizes.get((round(w['x0'],1),round(w['top'],1)),9.0)
     L=[]
     for w in sorted(ws,key=lambda w:(w['top'],w['x0'])):
         w['b']=bool(re.search(r'Bold|-Bd$|Black|Heavy',w['fontname'])) or w['size']>=9.8; w['text']=w['text'].replace('\u00ad','-')

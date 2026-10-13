@@ -25,27 +25,30 @@ def parse(path):
             txt=' '.join(w['text'] for w in l)
             marks=[w for w in l if w['text'] in('○','●') and w['x0']>240]
             if all(w['b'] for w in l) and l[0]['x0']>200 and not marks and re.search(r'hours?|race|months|year',txt):
-                if seg is None or seg['rows']: seg={'h':[],'rows':[]}; segs.append(seg)
-                seg['h'].append(txt); continue
+                if seg is None or seg['rows']: seg={'h':[],'hx':[],'rows':[]}; segs.append(seg)
+                seg['h'].append(txt); seg['hx'].append(max(w['x1'] for w in l)); continue
             if l[0]['b'] and re.match(r'^\d+\.\d+$',l[0]['text']): seg=None; continue
             if seg is None: continue
             lab=[w for w in l if w not in marks]
             if lab and lab[0]['text'] in('○','●'): continue  # legend
             labt=clean(' '.join(w['text'] for w in lab))
-            if marks: seg['rows'].append({'lab':labt,'m':[(round(w['x0']),w['text']) for w in marks]})
+            if marks: seg['rows'].append({'lab':labt,'m':[(w['x0'],w['text']) for w in marks]})
             elif labt and seg['rows']: seg['rows'][-1]['lab']=join(seg['rows'][-1]['lab'],labt)
         for seg in segs:
-            hs=[hdr_text(h) for h in reversed(seg['h'])]   # bottom line = leftmost column
-            xs=sorted({x for r in seg['rows'] for x,_ in r['m']})
-            cl=[]
-            for x in xs:
-                if cl and x-cl[-1][-1]<=4: cl[-1].append(x)
-                else: cl.append([x])
-            if len(cl)!=len(hs): problems.append((pi+1,len(cl),len(hs),seg['h'])); continue
-            col={x:i for i,c in enumerate(cl) for x in c}
+            # Each header line ends where its column starts; the bottom header line is the leftmost column.
+            hs=[hdr_text(h) for h in reversed(seg['h'])]; hx=list(reversed(seg['hx']))
+            if any(b<=a for a,b in zip(hx,hx[1:])): problems.append((pi+1,'header order',seg['h'])); continue
+            bad=False; rows=[]
             for r in seg['rows']:
-                iv=[hs[col[x]][0 if t=='○' else 1] for x,t in sorted(r['m'])]
-                out.append((pi+1,printed,r['lab'].rstrip('.').strip(),iv))
+                iv=[]
+                for x,t in sorted(r['m']):
+                    k=min(range(len(hx)),key=lambda k:abs(hx[k]-7.3-x))   # a mark sits 7.3 pt left of its header's right edge
+                    if abs(hx[k]-7.3-x)>3: bad=True; break
+                    iv.append(hs[k][0 if t=='○' else 1])
+                if bad: break
+                rows.append((pi+1,printed,r['lab'].rstrip('.').strip(),iv))
+            if bad: problems.append((pi+1,'mark off column',seg['h'])); continue
+            out+=rows
     merged={}
     for pdfp,pr,lab,iv in out:
         if lab in merged:

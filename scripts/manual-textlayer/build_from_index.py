@@ -11,6 +11,7 @@ def flags(p,v):
     if v.startswith(('(',')',';')) or re.search(r'\) US$|liq\. gal\b(?!.*\))',v) or '  ' in p: f.append('shape')
     if v.count('(')!=v.count(')') or lab.count('(')!=lab.count(')'): f.append('parens')
     return f
+PARTIAL={('GasGas','MC 250F',2024),('Husqvarna','FC 250',2023),('Husqvarna','FC 250',2024),('Husqvarna','FC 450',2023),('Husqvarna','FC 450',2024)}
 def main():
     index,status,outdir=sys.argv[1:4]; only=set(sys.argv[4:]); os.makedirs(outdir,exist_ok=True); i=0; report=[]
     for line in open(index):
@@ -27,7 +28,9 @@ def main():
             if not re.search(r'(?<![\w-])'+re.escape(model)+r'(?![\w-])',cover):
                 report.append({'i':None,'make':make,'model':model,'yr':yr,'doc':doc,'layout':'','n':0,'sched':0,'sched_problems':[],'secs':{},'damp':0,'dropped':[],'flagged':[],'notes':['NOT ON COVER: '+cover[:120]]}); continue
             f,q=mod.facts(rows,model)
-            allr=[(r['pdf'],r['printed'],p,v) for r,p,v in f]; ns=0
+            # A bike that already has a reviewed table on file only receives suspension rows and the service schedule.
+            partial=(make,model,int(yr)) in PARTIAL
+            allr=[(r['pdf'],r['printed'],p,v) for r,p,v in f if not partial or p.startswith(('Fork','Shock absorber'))]; ns=0
             for a,b,p,v in sched:
                 p2,ok,notes=V.strip(p,model); q.update(notes)
                 if ok: allr.append((a,b,p2,v)); ns+=1
