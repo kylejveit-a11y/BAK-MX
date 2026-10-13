@@ -4,7 +4,7 @@ spanning the routine column separate routines, vertical rules separate the inter
 draw full-width rules and the check mark as SymbolMT U+F0D6; 2025+ manuals draw one rule segment per cell and the
 check mark as SymbolMT 0xD6 (the Symbol-font check). Both are handled by the same geometry."""
 import pdfplumber,re,sys
-KEEP_HYPHEN={'break','lithium','soap','molybdenum','self','anti','pre','re','non','two','four','dust','oil','water','air','fuel','cross'}
+KEEP_HYPHEN={'break','lithium','soap','molybdenum','self','anti','pre','non','two','four','dust','oil','water','air','fuel','cross'}
 MARK=''
 def clean(s): return re.sub(r'\s+',' ',s.replace('\uf020',' ')).strip()   # U+F020 is the Symbol-font space
 def join_lines(words):
@@ -14,11 +14,7 @@ def join_lines(words):
     out=''
     for k in sorted(rows):
         t=' '.join(w['text'] for w in sorted(rows[k],key=lambda w:w['x0']))
-        if out.endswith('-') and t[:1].islower():
-            # a line-break hyphen is dropped unless it is a real compound (break-in, lithium-soap-based ...)
-            keep=out.rsplit(' ',1)[-1][:-1].lower() in KEEP_HYPHEN
-            out=out+t if keep else out[:-1]+t
-        else: out=out+' '+t if out else t
+        out=hyphen_join(out,t) if out else t
     return clean(out)
 def parse(path):
     pdf=pdfplumber.open(path); out=[]; problems=[]; seen=False; pending=None
@@ -81,6 +77,92 @@ def parse(path):
                 if not vals: continue
                 out.append((pi+1,printed,'Service schedule / '+item['name']+' – '+text.rstrip('.'),'; '.join(vals)+('; marked for a Yamaha dealer' if item['star'] else '')))
     return out,problems
+# ---------------------------------------------------------------------------------------------------------------
+# 2020 two-stroke manuals (YZ125 / YZ125X, YZ250 / YZ250X; B0V-28199-11, B9U-28199-11) print the older table:
+# the item in capitals with its routines indented beneath it, filled dots (MS-Gothic "●") as marks, no item
+# numbers or asterisks, and a Remarks column whose text belongs to the item as a whole.
+ACRONYMS={'YPVS','CDI','VIN','SX'}
+def title(s):
+    return ' '.join(w if (w in ACRONYMS or re.match(r'\(?YZ\d',w)) else (w.capitalize() if i==0 else w.lower()) for i,w in enumerate(s.split()))
+def hyphen_join(a,b):
+    """Join two printed lines. A line-break hyphen is dropped unless it is a real compound (break-in, lithium-soap-based ...);
+    the continuation must be lower case, or upper case after an upper-case fragment (YAMA-/LUBE, CONNECT-/ING ROD)."""
+    frag=a.rsplit(' ',1)[-1][:-1]
+    if a.endswith('-') and frag and (b[:1].islower() or (b[:1].isupper() and frag.isupper())):
+        return a+b if frag.lower() in KEEP_HYPHEN else a[:-1]+b
+    return a+' '+b
+def parse_old(path):
+    pdf=pdfplumber.open(path); out=[]; problems=[]; seen=False; pending=None
+    for pi,pg in enumerate(pdf.pages):
+        ws=pg.extract_words(x_tolerance=1.5,y_tolerance=2)
+        head=' '.join(w['text'] for w in ws if w['top']<30)
+        if 'MAINTENANCE INTERVALS' not in head:
+            if seen: break
+            continue
+        seen=True
+        from collections import Counter
+        vc=Counter()
+        for e in pg.edges:
+            if e['orientation']=='v' and 200<e['x0']<400: vc[round(e['x0'])]+=e['bottom']-e['top']
+        cols=[]
+        for x in sorted(x for x,n in vc.items() if n>100):
+            if cols and x-cols[-1]<=4: continue
+            cols.append(x)
+        if len(cols)!=6: problems.append((pi+1,'columns',cols)); continue
+        rem_x=cols[5]
+        rules=[]
+        for t in sorted({round(e['top'],1) for e in pg.edges if e['orientation']=='h' and e['x0']<=70 and e['x1']>=540 and e['top']>40}):
+            if rules and t-rules[-1]<=3: continue
+            rules.append(t)
+        marks=[c for c in pg.chars if c['text']=='●']
+        if not marks or len(rules)<3: problems.append((pi+1,'no marks or rules')); continue
+        header_top=max(r for r in rules if r<marks[0]['top']-10 and any(w['text']=='Item' and r<w['top'] for w in ws))
+        first_item=min(r for r in rules if r>header_top and r>max(w['top'] for w in ws if w['text']=='Item'))
+        labels=[]
+        for a,b in zip(cols,cols[1:]):
+            labels.append(join_lines([w for w in ws if a<=w['x0']<b and header_top<w['top']<first_item]).replace('break -in','break-in').replace('re- quired','required').replace('re-quired','required'))
+        if not any('break-in' in l for l in labels) or not any('required' in l for l in labels): problems.append((pi+1,'header',labels)); continue
+        printed=next((w['text'] for w in ws if re.fullmatch(r'\d-\d+',w['text']) and w['top']>700),'?')
+        bands=[r for r in rules if r>=first_item]
+        for t1,t2 in zip(bands,bands[1:]):
+            cell=[w for w in ws if t1<w['top']<t2 and w['x0']<rem_x]
+            left=[w for w in cell if w['x0']<cols[0]]
+            lines={}
+            for w in left: lines.setdefault(round(w['top']/4),[]).append(w)
+            name_rows=[]; routines=[]; hold=''
+            def marked(top): return any(abs(c['top']-top)<5 and cols[0]<=c['x0']<cols[5] for c in marks)
+            for k in sorted(lines):
+                row=sorted(lines[k],key=lambda w:w['x0']); text=' '.join(w['text'] for w in row); top=row[0]['top']
+                if text==text.upper() and re.search('[A-Z]',text) and row[0]['x0']<72: name_rows.append(text)
+                elif marked(top): routines.append((top,hyphen_join(hold,text) if hold else text)); hold=''
+                elif routines and not hold: routines[-1]=(routines[-1][0],hyphen_join(routines[-1][1],text))   # wrapped line
+                else: hold=hyphen_join(hold,text) if hold else text                                        # line before its mark
+            if hold: problems.append((pi+1,'routine without mark',hold))
+            name=None
+            for t in name_rows: name=hyphen_join(name,t) if name else t
+            name=title(name) if name else (pending['name'] if pending else None)
+            if not name: problems.append((pi+1,'no item name',t1)); continue
+            # Remarks: each printed line goes to the routine it is aligned with; following lines continue that remark;
+            # lines aligned with no routine belong to the item as a whole.
+            rl={}
+            for w in [w for w in ws if t1<w['top']<t2 and rem_x<=w['x0']<560]: rl.setdefault(round(w['top']/4),[]).append(w)
+            remarks={}; cur=None
+            for k in sorted(rl):
+                row=sorted(rl[k],key=lambda w:w['x0']); text=' '.join(w['text'] for w in row)
+                hit=[i for i,(top,_) in enumerate(routines) if abs(top-row[0]['top'])<6]
+                if hit: cur=hit[0]
+                elif cur is None: cur=-1
+                remarks[cur]=hyphen_join(remarks[cur],text) if cur in remarks else text
+            item={'name':name}; pending=item
+            for i,(top,text) in enumerate(routines):
+                ks=sorted({next(k for k in range(5) if cols[k]<=c['x0']<cols[k+1]) for c in marks if abs(c['top']-top)<5 and cols[0]<=c['x0']<cols[5]})
+                vals=[labels[k][0].lower()+labels[k][1:] for k in ks]
+                if i in remarks: vals.append('remarks: '+clean(remarks[i]))
+                out.append((pi+1,printed,'Service schedule / '+name+' – '+text.rstrip('.'),'; '.join(vals)))
+            if -1 in remarks and name_rows: out.append((pi+1,printed,'Service schedule / '+name+' – Remarks',clean(remarks[-1])))
+    return out,problems
+
 if __name__=='__main__':
-    o,p=parse(sys.argv[1]); print('PROBLEMS',p,len(o))
+    o,p=(parse_old if '--old' in sys.argv else parse)(sys.argv[1]); print('PROBLEMS',p,len(o))
     for x in o: print(x)
+

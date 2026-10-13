@@ -4,7 +4,7 @@ usage: build_yamaha_schedule.py rows.json revs.txt outdir
 rows.json : {"MODEL|YEAR": {"code","sha","rows":[[pdf,printed,path,val],...],"problems":[...]}} from a run of yamaha_schedule.parse
 revs.txt  : MODEL|YEAR|<document revision string already on file for the bike's specification rows>
 Each payload carries an empty base ('Yamaha:none'), every row as a '+' delta line, and the hash the loader must reproduce."""
-import hashlib,json,sys,os
+import hashlib,json,re,sys,os
 rows=json.load(open(sys.argv[1])); revs={}
 for l in open(sys.argv[2]):
     m,y,r=l.rstrip('\n').split('|',2); revs[f'{m}|{y}']=r
@@ -18,6 +18,11 @@ for key,d in sorted(rows.items()):
     model,yr=key.split('|')
     byp={}
     for pdf,printed,path,val in d['rows']:
+        # a manual shared by two models marks a model-specific item "(YZ250X)": keep it for that model only
+        m=re.match(r'Service schedule / (.*?) \((YZ\w+)\) – (.*)$',path)
+        if m:
+            if m.group(2)!=model: continue
+            path=f'Service schedule / {m.group(1)} – {m.group(3)}'
         # a bracketed note the manual prints across the interval columns belongs to the routine, not the interval
         parts=val.split('; ')
         if parts[0].startswith('('): path=path+' '+parts[0][0]+parts[0][1:]; parts=parts[1:]; val='; '.join(parts)
