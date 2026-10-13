@@ -9,68 +9,608 @@
   "source": "Kawasaki official US catalog",
   "index_url": "https://www.kawasaki.com/en-us/owner-center/parts/2025/KX450MSFNN",
   "index_sha256": "8a24d339272c2b66f95781475dd2310be4859ca543db35adeccde69c216b4a88",
-  "status": "PARTIAL",
+  "status": "ALL_INDEXED_PAGES_CAPTURED",
   "counts": {
     "indexed_assemblies": 54,
-    "captured_assemblies": 0,
+    "captured_assemblies": 54,
     "occurrences": 0
   },
-  "missing": [
-    "https://www.kawasaki.com/en-us/owner-center/parts/356662/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356661/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356612/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356645/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356655/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356615/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356657/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356617/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356653/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356621/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356616/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356609/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356610/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356611/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356660/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356622/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356633/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356640/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356639/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356635/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356636/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356648/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356652/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356643/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356647/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356625/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356624/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356654/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356619/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356620/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356628/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356651/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356629/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356659/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356613/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356627/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356626/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356658/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356632/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356650/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356644/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356649/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356638/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356646/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356656/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356641/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356630/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356637/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356623/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356618/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356614/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356634/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356631/2025/kx450msfnn",
-    "https://www.kawasaki.com/en-us/owner-center/parts/356642/2025/kx450msfnn"
-  ],
+  "missing": [],
   "errors": [],
-  "assemblies": []
+  "assemblies": [
+    {
+      "id": "356662",
+      "name": "Accessory(Chain)",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356662/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/F2910A.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356662.json",
+      "evidence_sha256": "e058d17db72a36f5d3e3fae741e25b325dd2099633ca4dac2888e3a1170aa5bb"
+    },
+    {
+      "id": "356661",
+      "name": "Accessory(Number Plate)",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356661/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/F2910.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356661.json",
+      "evidence_sha256": "b1391121ccb385ae1b0c6d77757a94e074315462c5df81c91107e7e041d6d3fb"
+    },
+    {
+      "id": "356612",
+      "name": "Air Cleaner",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356612/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/E1130.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356612.json",
+      "evidence_sha256": "20f87fe95089c0f0787ec708eb93598b594c5b9a0fcd21f6ac2a51b2817e1f41"
+    },
+    {
+      "id": "356645",
+      "name": "Brake Pedal",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356645/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/F2260.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356645.json",
+      "evidence_sha256": "bc66fdd8bec7c7f447a47aab00f881431cd21d472bcbe36371be1330bd0193a9"
+    },
+    {
+      "id": "356655",
+      "name": "Cables",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356655/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/F2540.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356655.json",
+      "evidence_sha256": "1195905a01cf4c097536c3e20d699f27e038c9b5956095cdf19f81c092dcb6c7"
+    },
+    {
+      "id": "356615",
+      "name": "Camshaft(s)/Tensioner",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356615/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/E1230.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356615.json",
+      "evidence_sha256": "552fee6c8b2af93e3c1b58099d2409cbba15ae5971fd34649b1697b0d3cd345d"
+    },
+    {
+      "id": "356657",
+      "name": "Chassis Electrical Equipment",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356657/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/F2760.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356657.json",
+      "evidence_sha256": "4321ae991287d2acecf0a4a91b0204bc8bff94923c4af653116b5047cf467baf"
+    },
+    {
+      "id": "356617",
+      "name": "Clutch",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356617/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/E1350.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356617.json",
+      "evidence_sha256": "3c86386b301bd231b4b1c0d92b7ba96a1a407fcee68e7b0a5516ba1a381c2859"
+    },
+    {
+      "id": "356653",
+      "name": "Clutch Master Cylinder",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356653/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/F2380.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356653.json",
+      "evidence_sha256": "7c0e0bcad238c33f2e41ca450a5e58944fbe0e6c0101519253f9c64316589183"
+    },
+    {
+      "id": "356621",
+      "name": "Crankcase",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356621/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/E1411.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356621.json",
+      "evidence_sha256": "aa660d6842a49ff0a424565e0513a3f1f8bb87bf68dda44dcb0d033cf332b52b"
+    },
+    {
+      "id": "356616",
+      "name": "Crankshaft",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356616/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/E1321.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356616.json",
+      "evidence_sha256": "9289d1f4f9d5f8ce3333f4e52fd143233168a9873d1fe5387085c6ab1e88ff71"
+    },
+    {
+      "id": "356609",
+      "name": "Cylinder Head",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356609/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/E1111.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356609.json",
+      "evidence_sha256": "9d9c9efa41942f8295a1b50c89346361b63ede5ec21b7f8a5f8009d685de1a6b"
+    },
+    {
+      "id": "356610",
+      "name": "Cylinder Head Cover",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356610/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/E1112.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356610.json",
+      "evidence_sha256": "01346de97ac0d50f599e09e5e08e59468ee6a22b7f84f09f4cc1e80714c39e68"
+    },
+    {
+      "id": "356611",
+      "name": "Cylinder/Piston(s)",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356611/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/E1120.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356611.json",
+      "evidence_sha256": "66a034e3722a54a1fa5835a1288c20480e7fc5e8702b3fd1306373d0652fbfdc"
+    },
+    {
+      "id": "356660",
+      "name": "Decals",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356660/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/F2861.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356660.json",
+      "evidence_sha256": "1b53c7a5ee5c2cd4d8a9d358859627847d65e70c1bf5ce2ca917e2af676cc26a"
+    },
+    {
+      "id": "356622",
+      "name": "Engine Cover(s)",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356622/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/E1431.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356622.json",
+      "evidence_sha256": "8017e0f8587dacf9ccb1bc8cf762a64734fb1a94a42c861dcde035bf3e140948"
+    },
+    {
+      "id": "356633",
+      "name": "Engine Shrouds",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356633/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/E3036.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356633.json",
+      "evidence_sha256": "57a81aca049c02351add9f234cd30fdb9131be16848fe63ad8b8b5b23208d35c"
+    },
+    {
+      "id": "356640",
+      "name": "Fenders",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356640/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/F2170.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356640.json",
+      "evidence_sha256": "f578a26e8a8505de132b6324b0911bfebb793a0d827cb0384a7f30bbed82abe5"
+    },
+    {
+      "id": "356639",
+      "name": "Footrests",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356639/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/F2160.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356639.json",
+      "evidence_sha256": "8a1e383034307dbf4c740f7cc1fc828ba8707eb7d2b307ad3f17daa992f0f091"
+    },
+    {
+      "id": "356635",
+      "name": "Frame",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356635/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/F2120.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356635.json",
+      "evidence_sha256": "70beee8acdbfba78d6e73dbaddf318a8cc3fa75a6695c65f9e4ec1b0090a5182"
+    },
+    {
+      "id": "356636",
+      "name": "Frame Fittings",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356636/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/F2131.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356636.json",
+      "evidence_sha256": "0be68976cb96b5e6b2f084d126dbc4f658954eadec41891b23a3b6b969064885"
+    },
+    {
+      "id": "356648",
+      "name": "Front Brake",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356648/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/F2292.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356648.json",
+      "evidence_sha256": "b74789fffa4cc47570719914b85976ac95b0aee389d1d64d29c83532f9079e58"
+    },
+    {
+      "id": "356652",
+      "name": "Front Fork",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356652/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/F2340.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356652.json",
+      "evidence_sha256": "69c266eeef73078d4325d8d2c4030ae9a82f0c0c9bbc22b5a5cadfbb34e4de2c"
+    },
+    {
+      "id": "356643",
+      "name": "Front Hub",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356643/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/F2230.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356643.json",
+      "evidence_sha256": "3168a1ea5d47586772cb16b8ead7c547cd6bac38c1d5d31da10066692b3b0e60"
+    },
+    {
+      "id": "356647",
+      "name": "Front Master Cylinder",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356647/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/F2291.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356647.json",
+      "evidence_sha256": "fb954994b759fbdcf9534d4ccdb0bc5e9c011327f723807fff1f02476bd72e44"
+    },
+    {
+      "id": "356625",
+      "name": "Fuel Injection",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356625/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/E1530.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356625.json",
+      "evidence_sha256": "1208b7369aa03ee0b189ea5f8d6d6b97c509217b5dca47e024bdbcb450e625ca"
+    },
+    {
+      "id": "356624",
+      "name": "Fuel Pump",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356624/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/E1520.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356624.json",
+      "evidence_sha256": "e9afafaf1e7196c01b19e73cf4b1b45e406074f9e6a15708a92eb9d7d64fba58"
+    },
+    {
+      "id": "356654",
+      "name": "Fuel Tank",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356654/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/F2410.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356654.json",
+      "evidence_sha256": "3ae3d3a0ce65a5c0390e4715cd550f86324d4d0e04ca2754c79cddc823cdd284"
+    },
+    {
+      "id": "356619",
+      "name": "Gear Change Drum/Shift Fork(s)",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356619/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/E1362.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356619.json",
+      "evidence_sha256": "432c102b999f2db8ac446ee4732c81781200c73a0112ac19bf023af4a72348ed"
+    },
+    {
+      "id": "356620",
+      "name": "Gear Change Mechanism",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356620/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/E1370.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356620.json",
+      "evidence_sha256": "c40890fedc4993179e0036f8e49d389381aa3a80be7c65e52c7d5b1ba393f1ee"
+    },
+    {
+      "id": "356628",
+      "name": "Generator",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356628/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/E1810.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356628.json",
+      "evidence_sha256": "e7e3fc3719840e33efad03633cddb10b4eb1c0631b42c01713d500585bd3dd2d"
+    },
+    {
+      "id": "356651",
+      "name": "Handlebar",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356651/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/F2310.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356651.json",
+      "evidence_sha256": "2d218f74b4c3523b3b6ea7db8dab81d58ae42fa3029697e4fdc0496622f3dbb1"
+    },
+    {
+      "id": "356629",
+      "name": "Ignition System",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356629/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/E1830.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356629.json",
+      "evidence_sha256": "789719b63e9b22e18c3a2ede5fee44d79c4bd0e9a3084f7eed3d69c575625541"
+    },
+    {
+      "id": "356659",
+      "name": "Labels",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356659/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/F2860.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356659.json",
+      "evidence_sha256": "6a9db689ff1de1c12f7d584daf153821627736abea9e341f4232ce675e694838"
+    },
+    {
+      "id": "356613",
+      "name": "Muffler(s)",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356613/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/E1140.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356613.json",
+      "evidence_sha256": "fba4c756324d5bea17d174eeaa5805a0fd345ee7f7bd0f4d902fbcf9f025f32c"
+    },
+    {
+      "id": "356627",
+      "name": "Oil Filter",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356627/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/E1720.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356627.json",
+      "evidence_sha256": "dd36289f7e5c5b1ac9fc7707c795b6d5061f13024860fd4549394cb6e441565f"
+    },
+    {
+      "id": "356626",
+      "name": "Oil Pump",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356626/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/E1712.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356626.json",
+      "evidence_sha256": "d170e042d18ac7cbbc3bb56d30dd3def1257abef55ef619fea1cadfcbda83816"
+    },
+    {
+      "id": "356658",
+      "name": "Owner's Tools",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356658/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/F2810.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356658.json",
+      "evidence_sha256": "e13c103d20ef5f62c6f9009e0e3f9953f9f6dbe42929b88ed0d6b84c9de91de7"
+    },
+    {
+      "id": "356632",
+      "name": "Radiator",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356632/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/E3032.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356632.json",
+      "evidence_sha256": "379bbd05a9395524b55eb52f4cf19f9001872d77df3865ee1f4a4c66e31983ea"
+    },
+    {
+      "id": "356650",
+      "name": "Rear Brake",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356650/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/F2294.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356650.json",
+      "evidence_sha256": "2742f54b68941ac2b9061a2eeb87cb681061540ba3ddae3a5f3b8a46e5968651"
+    },
+    {
+      "id": "356644",
+      "name": "Rear Hub",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356644/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/F2240.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356644.json",
+      "evidence_sha256": "6c0bac5de285c952d1ce1556f9ac8a66f35e1dac0c3b1498b108112ec21fa514"
+    },
+    {
+      "id": "356649",
+      "name": "Rear Master Cylinder",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356649/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/F2293.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356649.json",
+      "evidence_sha256": "92d075d0411d32e6411d8390e241ffb1376502580c520f8c34363dbceefed15a"
+    },
+    {
+      "id": "356638",
+      "name": "Rear Suspension",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356638/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/F2150.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356638.json",
+      "evidence_sha256": "f0d449093d6593f41018d29d1054e2bf79915989bb34b6ee4c5436402c1dcfce"
+    },
+    {
+      "id": "356646",
+      "name": "Shock Absorber(s)",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356646/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/F2280.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356646.json",
+      "evidence_sha256": "73953a5f92efc17206121fef17bfc95d61d01bbd985aef5dfbbaa37efd5be0b2"
+    },
+    {
+      "id": "356656",
+      "name": "Side Covers",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356656/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/F2611.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356656.json",
+      "evidence_sha256": "d43ddc7efafd4cf2ee10d474f2fe5c572b6a584da20d4e106bac06ca18d4ff26"
+    },
+    {
+      "id": "356641",
+      "name": "Stand(s)",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356641/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/F2190.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356641.json",
+      "evidence_sha256": "3f195dd8bd77e1e14be896dca6309faa9ffc475cc4cf90cf244ac6a2978bb7d3"
+    },
+    {
+      "id": "356630",
+      "name": "Starter Motor",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356630/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/E1840.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356630.json",
+      "evidence_sha256": "5d7720848d3e8298ce4ea26e5fa2b87251ea4f210c4ce41fc836a99ed17b3efa"
+    },
+    {
+      "id": "356637",
+      "name": "Swingarm",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356637/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/F2141.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356637.json",
+      "evidence_sha256": "2d00e878ded0379437c3703ee90ed8f14eaf5c1caf543e333462cc253836218f"
+    },
+    {
+      "id": "356623",
+      "name": "Throttle",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356623/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/E1510.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356623.json",
+      "evidence_sha256": "68a4fd1cf9cc0a8878b943418e2c4349c93949db8f9e30231b3622e83fedeb17"
+    },
+    {
+      "id": "356618",
+      "name": "Transmission",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356618/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/E1361.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356618.json",
+      "evidence_sha256": "04bab3773fb5fbfd9152a56dfa4ad2481774de6675660a363b14221f983097c6"
+    },
+    {
+      "id": "356614",
+      "name": "Valve(s)",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356614/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/E1210.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356614.json",
+      "evidence_sha256": "013534ff0eb20b79ae752b603a4b51f8cbbc2ca32a77df99c264e11f8729c20e"
+    },
+    {
+      "id": "356634",
+      "name": "Water Pipe",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356634/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/E3037.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356634.json",
+      "evidence_sha256": "67ab99f27ba45c2057eb5c66982b375e4228f9cf6037833053ebbf22304afa6a"
+    },
+    {
+      "id": "356631",
+      "name": "Water Pump",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356631/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/E3031.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356631.json",
+      "evidence_sha256": "a87e55136d0e5049a118e8622e1052d68a7bf4741b287f07fe2530b59f9cb566"
+    },
+    {
+      "id": "356642",
+      "name": "Wheels/Tires",
+      "url": "https://www.kawasaki.com/en-us/owner-center/parts/356642/2025/kx450msfnn",
+      "rows": [],
+      "diagram_urls": [
+        "https://www.kawasaki.com/Content/Images/Parts/99912-2237-03/F2210.GIF"
+      ],
+      "evidence_file": "docs/research/parts-pass14/kawasaki/2025-KX450-356642.json",
+      "evidence_sha256": "7785f628c9c723fc3860b9b24861cf360bdc4a01d4bde5bad96f65feec7ba669"
+    }
+  ]
 }

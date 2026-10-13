@@ -5,17 +5,17 @@
   "summary": {
     "planned_acquisition_slots": 493,
     "families": 71,
-    "complete_catalog_inventories": 330,
-    "original_60_complete": 47,
-    "new_completed_targets": 219,
-    "selected_captured_occurrences": 376596,
+    "complete_catalog_inventories": 432,
+    "original_60_complete": 59,
+    "new_completed_targets": 321,
+    "selected_captured_occurrences": 475113,
     "complete_by_brand": {
       "GasGas": 64,
-      "Honda": 9,
+      "Honda": 28,
       "Husqvarna": 91,
       "KTM": 137,
-      "Kawasaki": 12,
-      "Yamaha": 8,
+      "Kawasaki": 26,
+      "Yamaha": 77,
       "Triumph": 9
     }
   },
@@ -2929,8 +2929,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_US_RETAIL_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Honda",
@@ -2940,19 +2940,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/honda/2021-crf250r/inventory.json",
-        "sha256": "daef70e3e74775b938a1f74664e4f43b31e58a872c9ae0ce5cb1bc032de6a839",
+        "sha256": "2fa87d510c6ba5ad078e46d56c81e40f39f6a6b2a22176b47570949b0401dca5",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 50,
         "expected_assemblies": 50,
-        "occurrences": 0,
+        "occurrences": 1023,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 15
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -2965,8 +2965,8 @@
       },
       "original_60_target": true,
       "identity_status": "CONFIRMED_US_RETAIL_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Honda",
@@ -2976,15 +2976,15 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/honda/2022-crf250r/inventory.json",
-        "sha256": "757610e3d0e4af1704c01d02aa12505847de269da1a51aa953ff18c35c20dd13",
+        "sha256": "3a357dae6f4c86e406ee3a83c9fcd35c9fd036e30826d85263eb8aa746586849",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 50,
         "expected_assemblies": 50,
-        "occurrences": 0,
+        "occurrences": 973,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 14
       },
       "other_inventory_sources": [
         {
@@ -3006,7 +3006,7 @@
         }
       ],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -3019,8 +3019,8 @@
       },
       "original_60_target": true,
       "identity_status": "CONFIRMED_US_RETAIL_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Honda",
@@ -3030,15 +3030,15 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/honda/2023-crf250r/inventory.json",
-        "sha256": "34b80706e115c80e20777539b48bda7c92157004b2ff8471b811cd94b0b82773",
+        "sha256": "1d703c0dbfd04123ac89e196a1f720ba0ee10ff69edd3f1656f33cefad02218d",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 50,
         "expected_assemblies": 50,
-        "occurrences": 0,
+        "occurrences": 973,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 14
       },
       "other_inventory_sources": [
         {
@@ -3060,7 +3060,7 @@
         }
       ],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -3235,8 +3235,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_US_RETAIL_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Honda",
@@ -3246,19 +3246,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/honda/2020-crf250rx/inventory.json",
-        "sha256": "c27b73897483e7fb5f4a01c18807dd7b9fe032605105c4796d1050d97b0af8f6",
+        "sha256": "30a211ab62889da28db5c7368a2d4cc6ee92452d8a2d8577fd515e66cf857c5d",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 50,
         "expected_assemblies": 50,
-        "occurrences": 0,
+        "occurrences": 1032,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 14
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -3271,8 +3271,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_US_RETAIL_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Honda",
@@ -3282,19 +3282,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/honda/2021-crf250rx/inventory.json",
-        "sha256": "fd4f0fd8df24014b28d4adb66d60aa7449eb1c848cce177a4b329290e9641236",
+        "sha256": "67f71cf7b1febb5c8b795f7478837848d5dec82362cd01f222d192178ba2f8b8",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 50,
         "expected_assemblies": 50,
-        "occurrences": 0,
+        "occurrences": 1031,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 14
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -3307,8 +3307,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_US_RETAIL_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Honda",
@@ -3318,19 +3318,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/honda/2022-crf250rx/inventory.json",
-        "sha256": "c65fa0ce5799167d07a948c88ffc35ecc4457258c715c9cc9d19c12b4e2a8fb8",
+        "sha256": "bc544e2902aa6605c2db9880ce3fa955903bbe6669b827605dd1563aaa1a08a5",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 51,
         "expected_assemblies": 51,
-        "occurrences": 0,
+        "occurrences": 990,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 13
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -3343,8 +3343,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_US_RETAIL_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Honda",
@@ -3354,19 +3354,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/honda/2023-crf250rx/inventory.json",
-        "sha256": "15a2f648447e9ad72d7201f7f3694893459170db9712079941982c9d82c05631",
+        "sha256": "d443718f376bb7d79d56fd08982bdba5f21653e21f66f0721d0753164a10cebd",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 51,
         "expected_assemblies": 51,
-        "occurrences": 0,
+        "occurrences": 991,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 13
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -3379,8 +3379,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_US_RETAIL_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Honda",
@@ -3390,19 +3390,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/honda/2024-crf250rx/inventory.json",
-        "sha256": "c3c636e2678800b2943e499dad6c1ebad1d6178de0e7d47eb2d019e9a0322fbe",
+        "sha256": "1e7654ec6a363e18647dcde36d33ffc72456527eed587f69a87ae06a6c5d4496",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 51,
         "expected_assemblies": 51,
-        "occurrences": 0,
+        "occurrences": 990,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 13
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -3415,8 +3415,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_US_RETAIL_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Honda",
@@ -3426,19 +3426,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/honda/2025-crf250rx/inventory.json",
-        "sha256": "963b98edb115113ad7536b1cf8955c2bfbe14168a44445daa820ad01487f4b40",
+        "sha256": "94fc12ad5dac3624536cbb7d653c0ffb0876a2f446c69cde453b1d9cc36fba55",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 51,
         "expected_assemblies": 51,
-        "occurrences": 0,
+        "occurrences": 990,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 13
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -3487,8 +3487,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_US_RETAIL_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Honda",
@@ -3498,19 +3498,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/honda/2020-crf450r/inventory.json",
-        "sha256": "b4df5509f618d3cd7c38f244c38fafd629a336ff5dd4d01b4fbdcbe3bc6265af",
+        "sha256": "55215a0ca60694c0ae24d4b9e8a27db90ea03e77c26ca0c5eaf4b74c4e6e608f",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 49,
         "expected_assemblies": 49,
-        "occurrences": 0,
+        "occurrences": 1016,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 19
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -3523,8 +3523,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_US_RETAIL_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Honda",
@@ -3534,19 +3534,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/honda/2021-crf450r/inventory.json",
-        "sha256": "1dbfac3d07977a2eb39763ee06b830e40b8e816ca8847e0da7153db907345c17",
+        "sha256": "32e00967c37a39599c571d8ac81e9cc439a28cd499140cffba0596d2200d1fc8",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 51,
         "expected_assemblies": 51,
-        "occurrences": 0,
+        "occurrences": 1002,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 13
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -3559,8 +3559,8 @@
       },
       "original_60_target": true,
       "identity_status": "CONFIRMED_US_RETAIL_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Honda",
@@ -3570,15 +3570,15 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/honda/2022-crf450r/inventory.json",
-        "sha256": "3cd42884b9bad21a8de5578dc54a442cd7a962add2f3cd2f94044086761bf765",
+        "sha256": "c22bdd4a5d080e6f17ba53957747c7c59fea76cd354aaf019c2629f4cf562259",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 51,
         "expected_assemblies": 51,
-        "occurrences": 0,
+        "occurrences": 1002,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 13
       },
       "other_inventory_sources": [
         {
@@ -3600,7 +3600,7 @@
         }
       ],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -3613,8 +3613,8 @@
       },
       "original_60_target": true,
       "identity_status": "CONFIRMED_US_RETAIL_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Honda",
@@ -3624,15 +3624,15 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/honda/2023-crf450r/inventory.json",
-        "sha256": "465f5a8b2018bf637862063f54ead129bd42c06cc315db4cac9c0cff6d0a5345",
+        "sha256": "2bf484915085838f2dab02ba03b99b81e1ac912d9c81b2691ce88c17e2da1264",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 51,
         "expected_assemblies": 51,
-        "occurrences": 0,
+        "occurrences": 994,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 12
       },
       "other_inventory_sources": [
         {
@@ -3654,7 +3654,7 @@
         }
       ],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -3829,8 +3829,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_US_RETAIL_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Honda",
@@ -3840,19 +3840,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/honda/2020-crf450rx/inventory.json",
-        "sha256": "40d397eab16efb2c2c9fcb57abf594adcf70bfa395e4b3d8c58a47e81f769a22",
+        "sha256": "93a0c419dd4fa2c2ee832fb13027c5399b532c5656796a691b52ac4bd1b54b0d",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 49,
         "expected_assemblies": 49,
-        "occurrences": 0,
+        "occurrences": 1026,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 16
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -3865,8 +3865,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_US_RETAIL_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Honda",
@@ -3876,19 +3876,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/honda/2021-crf450rx/inventory.json",
-        "sha256": "0e21805c9fc32fc3d6dcb01ca0e0261931a35185e1e0722d068ecb1c0ec0cd9a",
+        "sha256": "96d0b7ca5c0c816739a4eb16383f5c2f1751ac053c43dc397d696fd2241f782e",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 52,
         "expected_assemblies": 52,
-        "occurrences": 0,
+        "occurrences": 1025,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 13
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -3901,8 +3901,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_US_RETAIL_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Honda",
@@ -3912,19 +3912,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/honda/2022-crf450rx/inventory.json",
-        "sha256": "24d3bd4e10315ce7e1ca4fe532cb66cd65c0237f8ce63ce139e2053c3bee8d90",
+        "sha256": "17ea2bac4e77812235f6166f55b00485c4dabe6b25371a1795d796a9aeadc264",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 52,
         "expected_assemblies": 52,
-        "occurrences": 0,
+        "occurrences": 1023,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 13
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -3937,8 +3937,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_US_RETAIL_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Honda",
@@ -3948,19 +3948,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/honda/2023-crf450rx/inventory.json",
-        "sha256": "a712c9529077eaf2b71122b6ba31c190629dc777832a33b1429336c7bc0f92e1",
+        "sha256": "4bb4159440139fd003b03b3a4a003cb26ab6631f09836d9f6ad5e881120837cc",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 52,
         "expected_assemblies": 52,
-        "occurrences": 0,
+        "occurrences": 1009,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 12
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -3973,8 +3973,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_US_RETAIL_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Honda",
@@ -3984,19 +3984,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/honda/2024-crf450rx/inventory.json",
-        "sha256": "72df22d757045b8eb8ecdc3be3dceb5e625d9ec96dec41126cd9b6df709c5665",
+        "sha256": "961183165282a680bbfe4b1eb9093e90cbd9a582cb32e248cd2c7f680a64f490",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 52,
         "expected_assemblies": 52,
-        "occurrences": 0,
+        "occurrences": 1007,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 12
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -4009,8 +4009,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_US_RETAIL_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Honda",
@@ -4020,19 +4020,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/honda/2025-crf450rx/inventory.json",
-        "sha256": "b7d88e2f2ed02d1f6dec24c253313a631c622ab7c3bcdffb58d95148a21ca3c5",
+        "sha256": "7c2a196d5ea518202fdb0e192b19dc5f176859b4a301628ab0e1ac4724b1301e",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 52,
         "expected_assemblies": 52,
-        "occurrences": 0,
+        "occurrences": 1002,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 12
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -12038,8 +12038,8 @@
       },
       "original_60_target": true,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Kawasaki",
@@ -12049,15 +12049,15 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/kawasaki/inventories/2022-KX250.json",
-        "sha256": "9afc6e60212829cb2182839e50dfa1eb9a406caf2c5ed17468ac8ff0941e5613",
+        "sha256": "489c71451aed04143646712d70aae41e3fd6030ca6ed6f8e2c0fd0d110ca3041",
         "source": "Kawasaki official US catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 51,
         "expected_assemblies": 51,
-        "occurrences": 0,
+        "occurrences": 880,
         "new_this_pass": true,
         "scope": "Exact official US model code KX252CNFNN",
-        "unknown_quantities": 0
+        "unknown_quantities": 49
       },
       "other_inventory_sources": [
         {
@@ -12079,7 +12079,7 @@
         }
       ],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -12092,8 +12092,8 @@
       },
       "original_60_target": true,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Kawasaki",
@@ -12103,15 +12103,15 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/kawasaki/inventories/2023-KX250.json",
-        "sha256": "2668ae388730d06242aa93a5b2f5deb50052683b76f101700848362e896b1a60",
+        "sha256": "3c080e6804989a43bb7a17c1bf003a71db0e6f6f42f0810572b89e394d65c91b",
         "source": "Kawasaki official US catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 53,
         "expected_assemblies": 53,
-        "occurrences": 0,
+        "occurrences": 927,
         "new_this_pass": true,
         "scope": "Exact official US model code KX252CPFNN",
-        "unknown_quantities": 0
+        "unknown_quantities": 49
       },
       "other_inventory_sources": [
         {
@@ -12133,7 +12133,7 @@
         }
       ],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -12363,8 +12363,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Kawasaki",
@@ -12374,19 +12374,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/kawasaki/inventories/2022-KX250X.json",
-        "sha256": "861d8da7a35f4632a7a089aabf712de62ca6e856b55267259303ebd789f505c8",
+        "sha256": "24412dbbe77ffee6b1c8adb6c21f5f76a00142f6c02ce8df9d44857b93fcd2cd",
         "source": "Kawasaki official US catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 50,
         "expected_assemblies": 50,
-        "occurrences": 0,
+        "occurrences": 887,
         "new_this_pass": true,
         "scope": "Exact official US model code KX252DNFNN",
-        "unknown_quantities": 0
+        "unknown_quantities": 49
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -12399,8 +12399,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Kawasaki",
@@ -12410,19 +12410,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/kawasaki/inventories/2023-KX250X.json",
-        "sha256": "b7d804677567259c05d48a48a1960a5fa7b1276ee4f35df23269a2776f51ac28",
+        "sha256": "cbcb670613c8d75ba04dbd194d1e1db60bef8fc5dbfaca99509aae9f02380933",
         "source": "Kawasaki official US catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 52,
         "expected_assemblies": 52,
-        "occurrences": 0,
+        "occurrences": 918,
         "new_this_pass": true,
         "scope": "Exact official US model code KX252DPFNN",
-        "unknown_quantities": 0
+        "unknown_quantities": 49
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -12435,8 +12435,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Kawasaki",
@@ -12446,19 +12446,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/kawasaki/inventories/2024-KX250X.json",
-        "sha256": "4b260471bac1f5cb85aea5d9d18c22de3da7858714c27e52664933cca30c7993",
+        "sha256": "d46fc17288e669d703ab5de5c897864ba6909d783bc9b4f9fd88667d4a792c9a",
         "source": "Kawasaki official US catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 53,
         "expected_assemblies": 53,
-        "occurrences": 0,
+        "occurrences": 926,
         "new_this_pass": true,
         "scope": "Exact official US model code KX252DRFNN",
-        "unknown_quantities": 0
+        "unknown_quantities": 49
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -12471,8 +12471,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Kawasaki",
@@ -12482,19 +12482,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/kawasaki/inventories/2025-KX250X.json",
-        "sha256": "8c049d92751852549d7fdecb0dc09ea30def3155f71cbae4fdeb7d472e85c5cb",
+        "sha256": "728ab7379acf6bb44590ad7c69443f9e3d4a8ff289a12718c93193c6596305fc",
         "source": "Kawasaki official US catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 54,
         "expected_assemblies": 54,
-        "occurrences": 0,
+        "occurrences": 904,
         "new_this_pass": true,
         "scope": "Exact official US model code KX252FSFNN",
-        "unknown_quantities": 0
+        "unknown_quantities": 49
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -12507,8 +12507,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Kawasaki",
@@ -12518,19 +12518,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/kawasaki/inventories/2026-KX250X.json",
-        "sha256": "e5ea7e9e5cc6cf8a0bba062a9adb6a28ff52548a3a88796e8e7d69e0723411a4",
+        "sha256": "21dee5c56c32f5a821ef5a1705fcbdaf9b58bac9393ed00ef3ed1e6a0c801882",
         "source": "Kawasaki official US catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 54,
         "expected_assemblies": 54,
-        "occurrences": 0,
+        "occurrences": 906,
         "new_this_pass": true,
         "scope": "Exact official US model code KX252FTFNN",
-        "unknown_quantities": 0
+        "unknown_quantities": 49
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -12615,8 +12615,8 @@
       },
       "original_60_target": true,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Kawasaki",
@@ -12626,15 +12626,15 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/kawasaki/inventories/2022-KX450.json",
-        "sha256": "8024e10280006694326fdf4716412a6fe31a1bf2c38bc7c8c70a9068d5003ec0",
+        "sha256": "4a93791ea1aee2632e36161c22b6a3c425d708864e39b4f67b67e21629927bdc",
         "source": "Kawasaki official US catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 54,
         "expected_assemblies": 54,
-        "occurrences": 0,
+        "occurrences": 866,
         "new_this_pass": true,
         "scope": "Exact official US model code KX450JNFNN",
-        "unknown_quantities": 0
+        "unknown_quantities": 49
       },
       "other_inventory_sources": [
         {
@@ -12656,7 +12656,7 @@
         }
       ],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -12669,8 +12669,8 @@
       },
       "original_60_target": true,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Kawasaki",
@@ -12680,15 +12680,15 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/kawasaki/inventories/2023-KX450.json",
-        "sha256": "577660fca7467d7b916a6ad65828e3450a4a42e28f066e8a599474b3374f80d5",
+        "sha256": "40e146171cd6facbbbc1440b7959e3da4dddac5cf58346f435f0ce1875c741c5",
         "source": "Kawasaki official US catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 54,
         "expected_assemblies": 54,
-        "occurrences": 0,
+        "occurrences": 866,
         "new_this_pass": true,
         "scope": "Exact official US model code KX450JPFNN",
-        "unknown_quantities": 0
+        "unknown_quantities": 49
       },
       "other_inventory_sources": [
         {
@@ -12710,7 +12710,7 @@
         }
       ],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -12806,10 +12806,10 @@
             "variant": "standard"
           },
           "path": "docs/research/parts-pass14/kawasaki/inventories/2025-KX450.json",
-          "sha256": "5f6f93201b61e11dcc05ca98f1aa5b19c178f947d88b61e94761b351cc51770b",
+          "sha256": "4888450325334de53078313b42cde250cfe72191cf207c3d7a91204cba9a2956",
           "source": "Kawasaki official US catalog",
-          "complete": false,
-          "assemblies": 0,
+          "complete": true,
+          "assemblies": 54,
           "expected_assemblies": 54,
           "occurrences": 0,
           "new_this_pass": true,
@@ -12938,8 +12938,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Kawasaki",
@@ -12949,19 +12949,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/kawasaki/inventories/2022-KX450X.json",
-        "sha256": "ad21af9f839a37822b6fc9068caf562c113ee45779f619a567a3ac1be1c08063",
+        "sha256": "bbc3f52efdbeb20beb87ee77a58323c3767f10536ace8557747fb63592c95298",
         "source": "Kawasaki official US catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 53,
         "expected_assemblies": 53,
-        "occurrences": 0,
+        "occurrences": 869,
         "new_this_pass": true,
         "scope": "Exact official US model code KX450KNFNN",
-        "unknown_quantities": 0
+        "unknown_quantities": 49
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -12974,8 +12974,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Kawasaki",
@@ -12985,19 +12985,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/kawasaki/inventories/2023-KX450X.json",
-        "sha256": "eeed06f820d4029e80744d4a1f8c90d1cb95b6c4db53e69e2575b1291a0e0f71",
+        "sha256": "171d44df2221d15c89190b3ffdb4929a0721e549abec2457c0bb7bd03afe86f8",
         "source": "Kawasaki official US catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 53,
         "expected_assemblies": 53,
-        "occurrences": 0,
+        "occurrences": 869,
         "new_this_pass": true,
         "scope": "Exact official US model code KX450KPFNN",
-        "unknown_quantities": 0
+        "unknown_quantities": 49
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -13010,8 +13010,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Kawasaki",
@@ -13021,19 +13021,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/kawasaki/inventories/2024-KX450X.json",
-        "sha256": "55bac085ceac5bddfb378db2572b80b4f2710e82935df9d06d16357bed027f2f",
+        "sha256": "b9845ddf475299410c9e0745c64b0d972fff1b0cbc2dfc8a8b8d7a5f161421a5",
         "source": "Kawasaki official US catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 54,
         "expected_assemblies": 54,
-        "occurrences": 0,
+        "occurrences": 872,
         "new_this_pass": true,
         "scope": "Exact official US model code KX450NRFNN",
-        "unknown_quantities": 0
+        "unknown_quantities": 49
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -13046,8 +13046,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Kawasaki",
@@ -13057,19 +13057,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/kawasaki/inventories/2025-KX450X.json",
-        "sha256": "ae5ed7b3f4940ba0bd8599b0422eee063acc563be589fe4260bb319dfe51eaa8",
+        "sha256": "45191cadbf43f7f55d2ca788c19739738606e11c78fa980ebe218c0529528c92",
         "source": "Kawasaki official US catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 55,
         "expected_assemblies": 55,
-        "occurrences": 0,
+        "occurrences": 880,
         "new_this_pass": true,
         "scope": "Exact official US model code KX450NSFNN",
-        "unknown_quantities": 0
+        "unknown_quantities": 49
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -13082,8 +13082,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Kawasaki",
@@ -13093,19 +13093,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/kawasaki/inventories/2026-KX450X.json",
-        "sha256": "f6557b9f2447725df13c0215aecc7608ff10cf9b09664f692d8f6538fca2ce02",
+        "sha256": "c550003741f2f351301a34dd499f26c5a40023f33e3ae12c6ef31f058e24edef",
         "source": "Kawasaki official US catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 55,
         "expected_assemblies": 55,
-        "occurrences": 0,
+        "occurrences": 897,
         "new_this_pass": true,
         "scope": "Exact official US model code KX450NTFNN",
-        "unknown_quantities": 0
+        "unknown_quantities": 50
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -13118,8 +13118,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -13129,19 +13129,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2020-wr250f/inventory.json",
-        "sha256": "2a91f6e8f3c95897a615e41fc7a31840908bda2f0f1f655a711684b64ec7b937",
+        "sha256": "110ff71d5fe18f78701720da285d5b95fab6acc1fede56119ddf904113955345",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 46,
         "expected_assemblies": 46,
-        "occurrences": 0,
+        "occurrences": 943,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 32
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -13154,8 +13154,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -13165,19 +13165,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2021-wr250f/inventory.json",
-        "sha256": "e8f5ecedede6bcbdc17ad88faf85d331da65b6161a1a5aa0779e8a15e4ad0bd5",
+        "sha256": "68bff7aea53c217ad9da809b8384026b267a2f678bf7b44f6b3d90ed214c1f56",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 47,
         "expected_assemblies": 47,
-        "occurrences": 0,
+        "occurrences": 996,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 29
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -13190,8 +13190,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -13201,19 +13201,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2022-wr250f/inventory.json",
-        "sha256": "6977a1d90c2cc00a48ab20babf48a4e32e69a9a32212bad9fb2f31da01dd9409",
+        "sha256": "461e4d75a75c0c6476861a8a3b8366c5221b17d6a422b54651147b010fbd6f6d",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 49,
         "expected_assemblies": 49,
-        "occurrences": 0,
+        "occurrences": 1021,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 32
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -13226,8 +13226,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -13237,19 +13237,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2023-wr250f/inventory.json",
-        "sha256": "6db8f81092645a16ebd3e30265a26823c113150c8ab463ded00f9d34881540e6",
+        "sha256": "f550a40c7cce72f43d3c46c5189b40affc8bca2996128f808e047067022d4369",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 49,
         "expected_assemblies": 49,
-        "occurrences": 0,
+        "occurrences": 1021,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 31
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -13262,8 +13262,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -13273,19 +13273,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2024-wr250f/inventory.json",
-        "sha256": "04635239be5039f6cb59f9860b0e43690d68c1bc273b6ce56f33b364a5fa7b7c",
+        "sha256": "3e9b38026e489969c408b37af5afecfb4a50cc8187eb1f218ef1b5427100d8a1",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 49,
         "expected_assemblies": 49,
-        "occurrences": 0,
+        "occurrences": 1021,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 31
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -13298,8 +13298,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -13309,19 +13309,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2025-wr250f/inventory.json",
-        "sha256": "a2c192b41fd94d72b19be5abaa0020108c8b94d6e45639b2725e40a703b8fc58",
+        "sha256": "650999cfe24c9c962cd3e48ac012c6f30160b64416cffad0ebff74473b9d5aba",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 49,
         "expected_assemblies": 49,
-        "occurrences": 0,
+        "occurrences": 1015,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 29
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -13334,8 +13334,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -13345,19 +13345,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2026-wr250f/inventory.json",
-        "sha256": "ef3b692dbfe06ec113a82ed15e1e9fe76aa13c1e36aa67b1ac5cd5e083ff6c54",
+        "sha256": "ae221241a5f366953b867230cbc4322cf95f8cc7b2ed9491804cbe8f75a4aebd",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 49,
         "expected_assemblies": 49,
-        "occurrences": 0,
+        "occurrences": 1011,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 29
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -13388,8 +13388,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -13399,19 +13399,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2020-wr450f/inventory.json",
-        "sha256": "7b0f8fa9b152cc22fdfe694d77afcb31598e7ff38cb5adacc69aa56652ca31bb",
+        "sha256": "2a8c851a0cef3f90018f7b1c67b294dacca27f4301b56e7430d35dd4f19c27f3",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 46,
         "expected_assemblies": 46,
-        "occurrences": 0,
+        "occurrences": 954,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 34
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -13424,8 +13424,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -13435,19 +13435,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2021-wr450f/inventory.json",
-        "sha256": "a034fcb1c43d97cb4d545e71a28bfb55e4bb754600b8f5761825c37a92c7af42",
+        "sha256": "b4a1e07ac3313cbeb004de687f1d58b319aa8c4ce57bfb445e6e1c9f8f6db59f",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 47,
         "expected_assemblies": 47,
-        "occurrences": 0,
+        "occurrences": 1005,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 28
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -13460,8 +13460,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -13471,19 +13471,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2022-wr450f/inventory.json",
-        "sha256": "f616ff7fd925bdf4271d1d7e1c728439831b7118916b5f74f7ff40256aa1d06e",
+        "sha256": "c251d9bb810dcab7503ce38851933dbda29e2fbc1518538e3b295def633b167c",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 49,
         "expected_assemblies": 49,
-        "occurrences": 0,
+        "occurrences": 1033,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 27
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -13496,8 +13496,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -13507,19 +13507,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2023-wr450f/inventory.json",
-        "sha256": "e9b0bcb8e93c11e6dcc98a44c665045f6f27be722f6d868cc8ca1e900f9d7007",
+        "sha256": "6f8b23abc2ce629e087378ffb8f1143782a69dac954784a570512f19a50b996e",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 49,
         "expected_assemblies": 49,
-        "occurrences": 0,
+        "occurrences": 1033,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 27
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -13532,8 +13532,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -13543,19 +13543,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2024-wr450f/inventory.json",
-        "sha256": "998a778a6ebc016cc938962652fb77caeceb12c15c568853c8e5bc216c74124c",
+        "sha256": "5774758921d71dc3016f73fac9c9955f21a3748b2b312bff0b24a4e52f617e02",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 49,
         "expected_assemblies": 49,
-        "occurrences": 0,
+        "occurrences": 1013,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 24
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -13568,8 +13568,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -13579,19 +13579,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2025-wr450f/inventory.json",
-        "sha256": "ebd44717a344f2db935c33a2c387540de703780cbcff4cdee36135ef0f4fd8bd",
+        "sha256": "f5cfcc7895852d34a5a2107080681fe56835ce5ca82506d8de2a0bb7a809618f",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 49,
         "expected_assemblies": 49,
-        "occurrences": 0,
+        "occurrences": 1024,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 25
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -13604,8 +13604,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -13615,19 +13615,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2026-wr450f/inventory.json",
-        "sha256": "de9d669cb6644b4a70561fe9b5aa72401123650a6dc1071ed07c26fb2efb80a2",
+        "sha256": "51d4802e147359a9e10cce95077f13ba10ec206ec59a7c9a28571dc3be911ccf",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 49,
         "expected_assemblies": 49,
-        "occurrences": 0,
+        "occurrences": 1019,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 25
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -13658,8 +13658,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -13669,19 +13669,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2020-yz125/inventory.json",
-        "sha256": "889fe9545c42bac89fd988faeff7b0a3c62b1327ff2f379099fbd48a6c04f713",
+        "sha256": "ba960920289bbc41b4023d95f05c0f23422dfce5fe50229e9158f780a6f7102b",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 38,
         "expected_assemblies": 38,
-        "occurrences": 0,
+        "occurrences": 843,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 37
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -13694,8 +13694,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -13705,19 +13705,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2021-yz125/inventory.json",
-        "sha256": "23d564f8c3e4e22d51adf1ea188c8626128973e34e0d2ac60077c2cb436afd7a",
+        "sha256": "050adc84c7a79fa16c05714a756503db1b2b9437a9604f02e2279a5e1860692b",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 39,
         "expected_assemblies": 39,
-        "occurrences": 0,
+        "occurrences": 895,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 33
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -13730,8 +13730,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -13741,19 +13741,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2022-yz125/inventory.json",
-        "sha256": "e956aa3c88b3c97869d6433593951504e72ff867d6053d2e9d4e063ee695325e",
+        "sha256": "a1d2b39484f5463978741fc1c95eac18bea584f8cc2110747f25b059cfd6c9e6",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 41,
         "expected_assemblies": 41,
-        "occurrences": 0,
+        "occurrences": 938,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 29
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -13766,8 +13766,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -13777,19 +13777,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2023-yz125/inventory.json",
-        "sha256": "03e7850f53a0b8ed6594a70ae0ec9c82099379607395d03cdd1b22e55421cebf",
+        "sha256": "3e1424f585146140cf69e900187e45e630dd3795fa8b1aa8bf512d0db41ab3d2",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 41,
         "expected_assemblies": 41,
-        "occurrences": 0,
+        "occurrences": 941,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 28
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -13802,8 +13802,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -13813,19 +13813,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2024-yz125/inventory.json",
-        "sha256": "55d4162bf85ac290cb62f93d8ac9d950a3b67fbad4ecf362db59a7045c913d42",
+        "sha256": "24777f75c649d9ecf5b21b9adbc5d9f11b4267cca4a830ca7b6b354bc87966f4",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 41,
         "expected_assemblies": 41,
-        "occurrences": 0,
+        "occurrences": 940,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 28
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -13838,8 +13838,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -13849,19 +13849,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2025-yz125/inventory.json",
-        "sha256": "170ff16f0c48237111a42b6c1dec1520c69bbb14436d34771f8d9f22996aa3e3",
+        "sha256": "d454072f29f71d792d3534e41107e566e13a6dabd79cbaa789acb389fb4d0810",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 41,
         "expected_assemblies": 41,
-        "occurrences": 0,
+        "occurrences": 956,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 28
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -13874,8 +13874,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -13885,19 +13885,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2026-yz125/inventory.json",
-        "sha256": "150b7fabbe9ac0834ce58e2e8e7192cc60915d10a89a49859a1521d326b43dd3",
+        "sha256": "3dc3f11d9d0527739cdd62103a4f171e08892ef7092b72fc3a1f04988aa6d6e2",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 41,
         "expected_assemblies": 41,
-        "occurrences": 0,
+        "occurrences": 954,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 28
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -13910,8 +13910,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -13921,19 +13921,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2027-yz125/inventory.json",
-        "sha256": "ab6e73bfd87a591d6943a1be88f5532f4759c49c9cc83d2c0c013a906734b590",
+        "sha256": "ab7d2ae68888e6664c147a737a1b2194c1a8f300952be052dce2300ebabaa377",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 41,
         "expected_assemblies": 41,
-        "occurrences": 0,
+        "occurrences": 954,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 28
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -13946,8 +13946,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -13957,19 +13957,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2020-yz125x/inventory.json",
-        "sha256": "b7376844b03530ad61cc0a3fb344d030434c3e760796e2882b8db5d94e0cf644",
+        "sha256": "12d77e81eddf468bad3074cd364074f11062391634317025dc2cc9202cc24809",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 38,
         "expected_assemblies": 38,
-        "occurrences": 0,
+        "occurrences": 850,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 36
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -13982,8 +13982,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -13993,19 +13993,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2021-yz125x/inventory.json",
-        "sha256": "15291b1fd8c7132159d2f62589d2434b58bcf7ce0d3f743d2070dc7730194a19",
+        "sha256": "4b763905959f88c420d6061d6032b2afe75b0299f086b28381f2ee5a7b039167",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 39,
         "expected_assemblies": 39,
-        "occurrences": 0,
+        "occurrences": 902,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 32
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -14018,8 +14018,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -14029,19 +14029,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2022-yz125x/inventory.json",
-        "sha256": "7aa8f5a0879a76e6ab38ad3f9d62a5ae050b3694a0ff76f994059beeda212e59",
+        "sha256": "06a3c4bcbc6219571a2524927e1dd737bdf1605bfa8cb83fe5e32b56c49aae08",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 41,
         "expected_assemblies": 41,
-        "occurrences": 0,
+        "occurrences": 927,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 32
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -14054,8 +14054,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -14065,19 +14065,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2023-yz125x/inventory.json",
-        "sha256": "0c1d5a627c086bf20469150e16052eaf17d9bbbcafa8c36706bc25cc0214acc4",
+        "sha256": "063187a6ff8246819d7570470a57630096e948d30c806afc0f5f3ca2b62ec36b",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 41,
         "expected_assemblies": 41,
-        "occurrences": 0,
+        "occurrences": 949,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 26
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -14090,8 +14090,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -14101,19 +14101,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2024-yz125x/inventory.json",
-        "sha256": "916c7481a37081bdd355beaaff3e843ee0f7a7394fd1b106918046c487efae7c",
+        "sha256": "9b1cd620da8c2b54034bb9f5ad0adf0d2881e97ecd7b43bee888881bbf63da50",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 41,
         "expected_assemblies": 41,
-        "occurrences": 0,
+        "occurrences": 949,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 26
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -14126,8 +14126,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -14137,19 +14137,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2025-yz125x/inventory.json",
-        "sha256": "8f8e0bbcfd7c98704462417a6cf1964e34cf30f6806eaad2f52d83b93eb2bfc9",
+        "sha256": "9a7ada2a5706bdf6e6612266cf002a5c6f9b7adfb1e693486701888c9ab5d168",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 41,
         "expected_assemblies": 41,
-        "occurrences": 0,
+        "occurrences": 965,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 26
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -14162,8 +14162,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -14173,19 +14173,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2026-yz125x/inventory.json",
-        "sha256": "f7501b82892647824d47f8b52237f1fe83c2c024c2546fc243892344aae8fedf",
+        "sha256": "7a5bf66f77df559a902a879244092545c9160aa6e41ebdfb2ff3c64717d7ae10",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 41,
         "expected_assemblies": 41,
-        "occurrences": 0,
+        "occurrences": 965,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 26
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -14198,8 +14198,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -14209,19 +14209,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2027-yz125x/inventory.json",
-        "sha256": "0015c089252a82332bff5d585e1a4be0cfc98ce86d895c508bf02c27e030f4cc",
+        "sha256": "cfa5d55ad6bc7191d941bd73a50563abe4579c69664550e48d84987d4e615c8e",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 41,
         "expected_assemblies": 41,
-        "occurrences": 0,
+        "occurrences": 965,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 26
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -14234,8 +14234,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -14245,19 +14245,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2020-yz250/inventory.json",
-        "sha256": "219bd7cd4b64c672949e863d6f805903d5af59d041e98ab1a538817396a48ffe",
+        "sha256": "8485e4ce66a0166afb39abe334d3b6b1ce35f77f7b771ba47e40d29d085f200e",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 38,
         "expected_assemblies": 38,
-        "occurrences": 0,
+        "occurrences": 892,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 38
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -14270,8 +14270,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -14281,19 +14281,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2021-yz250/inventory.json",
-        "sha256": "3b35ab4eb1621f13494237ee31223eba77748e26a3c8ab21d7ea248e45892425",
+        "sha256": "6a4b0e20e0fbe27ab26ac38baaa258d24d90f2fa6b6deb872a5ab607f8c028bf",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 39,
         "expected_assemblies": 39,
-        "occurrences": 0,
+        "occurrences": 944,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 35
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -14306,8 +14306,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -14317,19 +14317,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2022-yz250/inventory.json",
-        "sha256": "1f2e3c082809d3474a2b51501881e5a6e5758b14650beb5d1d9e67e85c34316c",
+        "sha256": "f4e4e389aabc07f7b6755aa3ad8a23441ccbc563156d1d1842e859dca9aa1bf7",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 41,
         "expected_assemblies": 41,
-        "occurrences": 0,
+        "occurrences": 970,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 24
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -14342,8 +14342,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -14353,19 +14353,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2023-yz250/inventory.json",
-        "sha256": "775547658a68df9dc30883835770bbdcc9208a043b07fb74aa378609e4fccf0c",
+        "sha256": "4f7c3aada2db55c9b8b965bf3b5bf8ff3506f8bfa52c4f9f889142ccf2725259",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 41,
         "expected_assemblies": 41,
-        "occurrences": 0,
+        "occurrences": 972,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 23
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -14378,8 +14378,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -14389,19 +14389,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2024-yz250/inventory.json",
-        "sha256": "85a4eca6c069aae51d8df0faff5cfff42b1ffcfa2a363da9d235379baad341ad",
+        "sha256": "1eb5e8fba932fb24aba5d904a8364e35d85149bca6fe62ed810a41f579ed1410",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 41,
         "expected_assemblies": 41,
-        "occurrences": 0,
+        "occurrences": 972,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 23
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -14414,8 +14414,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -14425,19 +14425,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2025-yz250/inventory.json",
-        "sha256": "2b56604201b99ce3b894fccbaa79a0fd2b4c53355ab7ff9f8062818e1589aa51",
+        "sha256": "8c978d762984045a2e665160461ecec39bd687122fcb6e2bc727ed1ac5620bdd",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 41,
         "expected_assemblies": 41,
-        "occurrences": 0,
+        "occurrences": 988,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 23
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -14450,8 +14450,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -14461,19 +14461,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2026-yz250/inventory.json",
-        "sha256": "a23874932d6a5e29d8e8a3e3c473db29a53f7cd1425928b7968ff9e5173cd650",
+        "sha256": "80af06a7dca8540d74bed072d156634fea7b28deab4efdd0b4dcd778a5f78d9a",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 41,
         "expected_assemblies": 41,
-        "occurrences": 0,
+        "occurrences": 988,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 23
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -14486,8 +14486,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -14497,19 +14497,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2027-yz250/inventory.json",
-        "sha256": "b3878dfe656ef64d76acaeb8fcb80aa5a13f0c9e42fd7ea408340823e86b164c",
+        "sha256": "9b42b6bd7a6a02b9940892867b3084c09152b912fd3b2b24550776ec625c0875",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 41,
         "expected_assemblies": 41,
-        "occurrences": 0,
+        "occurrences": 988,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 23
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -14522,8 +14522,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -14533,19 +14533,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2020-yz250f/inventory.json",
-        "sha256": "54eb373761e74d2758baddbabc8f343c6e9d70d643589a70884edd0a72ead035",
+        "sha256": "67b5fdfbcd16863b73393185c6004435a9500a16bf4935cf428b4b957c13f270",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 42,
         "expected_assemblies": 42,
-        "occurrences": 0,
+        "occurrences": 908,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 31
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -14558,8 +14558,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -14569,19 +14569,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2021-yz250f/inventory.json",
-        "sha256": "23e629761ccb1447f392b01ee79d713571a130f9d55894b5dc519963fbdb27a3",
+        "sha256": "28b1872e13159a9037d397315a4c548fa563ed8a9d5fa72eaf1565b4ef8ff30b",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 43,
         "expected_assemblies": 43,
-        "occurrences": 0,
+        "occurrences": 939,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 30
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -14594,8 +14594,8 @@
       },
       "original_60_target": true,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -14605,15 +14605,15 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2022-yz250f/inventory.json",
-        "sha256": "6fc78fb8e9891b80bf420cac580072891aabfa90c57dbb1d90d33b9d0eb6195a",
+        "sha256": "34fe60f3a61a78a735dcdf8ae9c49b456c59d2a9186650f363f1ac2e011512bf",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 45,
         "expected_assemblies": 45,
-        "occurrences": 0,
+        "occurrences": 964,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 25
       },
       "other_inventory_sources": [
         {
@@ -14635,7 +14635,7 @@
         }
       ],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -14648,8 +14648,8 @@
       },
       "original_60_target": true,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -14659,15 +14659,15 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2023-yz250f/inventory.json",
-        "sha256": "a8b7fbbc6e49038a07dd086a76cf4048860cf3ede5a79d10e0292980dcda9e11",
+        "sha256": "d1354fef2dddef414a9082e3f6689376d9a13497c8fa1a16f196fbf717bd2351",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 45,
         "expected_assemblies": 45,
-        "occurrences": 0,
+        "occurrences": 963,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 25
       },
       "other_inventory_sources": [
         {
@@ -14689,7 +14689,7 @@
         }
       ],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -14919,8 +14919,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -14930,19 +14930,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2020-yz250fx/inventory.json",
-        "sha256": "b2ed88dff8256ca1231c04b977056c411d52aafc887464623f07473527ca89da",
+        "sha256": "4c0e4dcfb183ac6409fd95775308c02aba2fdcc2e3d0e1ac1369ff0f4fe35611",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 43,
         "expected_assemblies": 43,
-        "occurrences": 0,
+        "occurrences": 924,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 32
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -14955,8 +14955,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -14966,19 +14966,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2021-yz250fx/inventory.json",
-        "sha256": "63f73a6236375d62d911a5f24aa7e695a2f03300639b0f6b9c6154ec1cf714ef",
+        "sha256": "8b71e1d823668c8d84e03fcd43b245d2436c7f91d2619f7006c21cc558809da1",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 44,
         "expected_assemblies": 44,
-        "occurrences": 0,
+        "occurrences": 977,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 30
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -14991,8 +14991,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -15002,19 +15002,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2022-yz250fx/inventory.json",
-        "sha256": "4f145e5788bdea50c345e498fe5ace878cf9c21902bae6c339f4d705e5e6fd43",
+        "sha256": "04a505a5bd81c2f5dcf2a213d0b36077c224b4d66115bca1589d8fb8e2c8ea09",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 46,
         "expected_assemblies": 46,
-        "occurrences": 0,
+        "occurrences": 1005,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 31
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -15027,8 +15027,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -15038,19 +15038,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2023-yz250fx/inventory.json",
-        "sha256": "7dac2dcdcf7dab0f0f4ce58ac6f3d486fde9d139420efda2f7d56064b1c129cc",
+        "sha256": "2d3a2e0d337c879b04307de7063fc3d11435b4e2b32fc5e84b33c726c8f61c4c",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 46,
         "expected_assemblies": 46,
-        "occurrences": 0,
+        "occurrences": 1005,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 31
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -15081,8 +15081,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -15092,19 +15092,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2025-yz250fx/inventory.json",
-        "sha256": "865b8d8aac0dfc620f7335fc37e0b612852ee163eb0ebe461f25c5fa4354a98d",
+        "sha256": "e751e3307722d3c54759e993f17d5d5a77d25ecca07c0207e45a4fe07b783c3f",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 46,
         "expected_assemblies": 46,
-        "occurrences": 0,
+        "occurrences": 991,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 29
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -15117,8 +15117,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -15128,19 +15128,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2026-yz250fx/inventory.json",
-        "sha256": "50ba0bfef3b77ef556b00e26c561b629c7b57b6899c763c4a251dd21d59027b4",
+        "sha256": "4e6599cffd22c8b51e02263bb573c6a168dae447ed88fd99d747f5f624b76642",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 46,
         "expected_assemblies": 46,
-        "occurrences": 0,
+        "occurrences": 989,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 29
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -15153,8 +15153,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -15164,19 +15164,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2027-yz250fx/inventory.json",
-        "sha256": "ab1f0422a92eb37c18e42b08e0f0dbaa83fd8f236d1d28b822baca7d9b22d8e7",
+        "sha256": "84f7f1f9204648dca2664a281d34d6f6197d9e936eccf71afa2a4e6437a20ad4",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 46,
         "expected_assemblies": 46,
-        "occurrences": 0,
+        "occurrences": 990,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 29
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -15189,8 +15189,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -15200,19 +15200,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2020-yz250x/inventory.json",
-        "sha256": "bd375bc1f4b50cf15e791b468eba1324956acdfea3f523595a69422de727ca60",
+        "sha256": "38f83a8af93cda09907468730fee8afb4c396621d72ea1f879aa3b54f66dd96e",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 38,
         "expected_assemblies": 38,
-        "occurrences": 0,
+        "occurrences": 899,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 36
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -15225,8 +15225,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -15236,19 +15236,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2021-yz250x/inventory.json",
-        "sha256": "c8153335cd8d2202b3b44d8f9bc85515868df7b2abc4fbb57579cceea3f3eb82",
+        "sha256": "b95e52560f81219789b2f9403b43037a060f0e25e25415c2840789706501081c",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 39,
         "expected_assemblies": 39,
-        "occurrences": 0,
+        "occurrences": 951,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 32
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -15261,8 +15261,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -15272,19 +15272,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2022-yz250x/inventory.json",
-        "sha256": "67b5cef3cfb49279b1bbf82116b07e8939d54896f8d9c8aee9b6274a83886ad1",
+        "sha256": "8550c2007142334ad6cead419ce522765a4b5eb571f7311968e8c3075adf8e76",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 41,
         "expected_assemblies": 41,
-        "occurrences": 0,
+        "occurrences": 977,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 31
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -15297,8 +15297,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -15308,19 +15308,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2023-yz250x/inventory.json",
-        "sha256": "c2879ee207eb815fdb6183480bf2efb730ccefa09cb9e1e19469a1a7dd2dd95c",
+        "sha256": "d35363860ed8459d510a7f44bc0bc49c24a3490d547ab9237cf2dffb3f781155",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 41,
         "expected_assemblies": 41,
-        "occurrences": 0,
+        "occurrences": 985,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 23
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -15333,8 +15333,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -15344,19 +15344,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2024-yz250x/inventory.json",
-        "sha256": "49753d6fdca1cd77d6a27df6d5b9511ea503ea9346a7d5c1f318123cc79b0a23",
+        "sha256": "8ef87712a48b78a9a345d279416bc393eb8e4f35131fc656bec39e5cb36b71ef",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 41,
         "expected_assemblies": 41,
-        "occurrences": 0,
+        "occurrences": 985,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 23
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -15369,8 +15369,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -15380,19 +15380,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2025-yz250x/inventory.json",
-        "sha256": "119ee3028019b97a4ffd7b3daf6272a9666f90eaa5ad131a7c5cfb614f17d223",
+        "sha256": "bd667df9fdbf3c218b033bcd112cb39fd1be620904a27b46c3289bd84f0d0c5e",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 40,
         "expected_assemblies": 40,
-        "occurrences": 0,
+        "occurrences": 1001,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 23
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -15405,8 +15405,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -15416,19 +15416,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2026-yz250x/inventory.json",
-        "sha256": "52976743850fccc21cb52f6d5953d433e8e37f424ae76a65340b2556997ae129",
+        "sha256": "2666904af8057a3700e1b82d332c75272a62df28305d7ba147c7c43985b6b5e9",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 40,
         "expected_assemblies": 40,
-        "occurrences": 0,
+        "occurrences": 1001,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 23
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -15441,8 +15441,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -15452,19 +15452,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2027-yz250x/inventory.json",
-        "sha256": "a81c084d82e4ae9c5167bfeedb49e28022da5bb50e46bf4b2e665c850535f1b8",
+        "sha256": "b61f8111c97188bbbfbdbd6e14ed04c49dfbc712bdd1106fd4e4c98052387ecf",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 40,
         "expected_assemblies": 40,
-        "occurrences": 0,
+        "occurrences": 1001,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 23
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -15477,8 +15477,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -15488,19 +15488,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2020-yz450f/inventory.json",
-        "sha256": "97f26bd347e3bb58fe48722755b7069ed05ff507bb7b0e6b87c3a3a3338e2109",
+        "sha256": "e51fd66ac1fa59b3dc1fa68e840b407e969db6ed76d9edb1ebb656a21d6c292a",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 43,
         "expected_assemblies": 43,
-        "occurrences": 0,
+        "occurrences": 932,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 28
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -15513,8 +15513,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -15524,19 +15524,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2021-yz450f/inventory.json",
-        "sha256": "b895bf93f0f7909457350fdbce6d8ebbe2662c8c33f1691b3fecf631902cb383",
+        "sha256": "78c114bedc409812b932abdce55fcff2e70585ba81b0c33397aa92840ba23a5c",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 44,
         "expected_assemblies": 44,
-        "occurrences": 0,
+        "occurrences": 960,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 26
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -15549,8 +15549,8 @@
       },
       "original_60_target": true,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -15560,15 +15560,15 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2022-yz450f/inventory.json",
-        "sha256": "d99eba3c3664f8d24b3649a1a288301f084b7727be4cc6bf3ad00d74ee21a971",
+        "sha256": "9cd0de543d5b8d845238bb5010038fa0e050f7a04822297f7ad19d42c4ab5883",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 46,
         "expected_assemblies": 46,
-        "occurrences": 0,
+        "occurrences": 987,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 25
       },
       "other_inventory_sources": [
         {
@@ -15590,7 +15590,7 @@
         }
       ],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -15603,8 +15603,8 @@
       },
       "original_60_target": true,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -15614,15 +15614,15 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2023-yz450f/inventory.json",
-        "sha256": "12a617d5f619e0eb745f5ef1d2ccd01d0b79c4f1f98c26ca36d01eecef89a95c",
+        "sha256": "5e99a43bd1d2713841a4d5963a27306cdfe75343311fd28b97d7f11a035ef01f",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 46,
         "expected_assemblies": 46,
-        "occurrences": 0,
+        "occurrences": 955,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 21
       },
       "other_inventory_sources": [
         {
@@ -15644,7 +15644,7 @@
         }
       ],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -15855,8 +15855,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -15866,19 +15866,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2020-yz450fx/inventory.json",
-        "sha256": "3b81dcb30b53792f92f78205c1135ba5bd2dc6a352b445fbf9bb052ac8c08c74",
+        "sha256": "041777874229d45325869426e7eb903b28da7c8cca509df1291eb747f6a52aab",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 42,
         "expected_assemblies": 42,
-        "occurrences": 0,
+        "occurrences": 935,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 33
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -15891,8 +15891,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -15902,19 +15902,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2021-yz450fx/inventory.json",
-        "sha256": "40c41138dfc56b0559a6d84a93483db4280bb2f9986e8ff7ede486a42aca4181",
+        "sha256": "af78120d2ba6b9b1e83d271dea4316f27f8850d0e3e10db50039d0f073326479",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 44,
         "expected_assemblies": 44,
-        "occurrences": 0,
+        "occurrences": 988,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 29
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -15927,8 +15927,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -15938,19 +15938,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2022-yz450fx/inventory.json",
-        "sha256": "871632a402f605c04e2d82d1008767041732b9b0a04d77c7dcad781636d64d1c",
+        "sha256": "2832ee154addb23a415b4747c82842a51d73572819e659729e586d80bf08c9c5",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 46,
         "expected_assemblies": 46,
-        "occurrences": 0,
+        "occurrences": 1016,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 27
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -15963,8 +15963,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -15974,19 +15974,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2023-yz450fx/inventory.json",
-        "sha256": "ef45d0de17dca957fca85d433b0ab517fa86fb4bbce08941ba60d3b04efb3b02",
+        "sha256": "b133040cfb1247d3f89f0df278e5c2bb776da9079c888740c3484972cc70006e",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 46,
         "expected_assemblies": 46,
-        "occurrences": 0,
+        "occurrences": 1016,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 29
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -15999,8 +15999,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -16010,19 +16010,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2024-yz450fx/inventory.json",
-        "sha256": "742faba0af119f9ba1c4fd1b6194642d9978f9c9603ab7db3893d912d1cfae47",
+        "sha256": "ca24975d31551623e0f7ae79628310b3cd5ad6b1e908b48f55d0040497d7bf61",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 46,
         "expected_assemblies": 46,
-        "occurrences": 0,
+        "occurrences": 987,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 24
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -16035,8 +16035,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -16046,19 +16046,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2025-yz450fx/inventory.json",
-        "sha256": "8bdcd746a444a84d0648ec48bb96ec1897728364bc81388ea44a75583630717b",
+        "sha256": "aec3cb6734fcd2f04f809194342d3a0bc8234408b78ba5673be962696873ea46",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 46,
         "expected_assemblies": 46,
-        "occurrences": 0,
+        "occurrences": 1000,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 25
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -16071,8 +16071,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_MANUAL_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -16082,19 +16082,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2026-yz450fx/inventory.json",
-        "sha256": "9f3592cd8dd046dd7d716879f09e28c09cae765b142e5326fc8f2584c8b2cfde",
+        "sha256": "03327038427044f16169740c4578ff5e9aff7b52179a3aac7d41eebfb7c7c876",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 46,
         "expected_assemblies": 46,
-        "occurrences": 0,
+        "occurrences": 997,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 25
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
@@ -16107,8 +16107,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_US_YEAR_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "INDEX_ONLY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Yamaha",
@@ -16118,19 +16118,19 @@
           "variant": "standard"
         },
         "path": "docs/research/parts-pass14/yamaha/2027-yz450fx/inventory.json",
-        "sha256": "0dc7d83bffd545b4ce044ee600f4900f414dbf32ff893c231c75e89adc9b3ce5",
+        "sha256": "8c1e6287ef3f309f9e1171f8303e51046ae82e9b019d86658f48f88e20251af8",
         "source": "MotoSport public OEM catalog",
-        "complete": false,
-        "assemblies": 0,
+        "complete": true,
+        "assemblies": 47,
         "expected_assemblies": 47,
-        "occurrences": 0,
+        "occurrences": 1007,
         "new_this_pass": true,
         "scope": "Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals",
-        "unknown_quantities": 0
+        "unknown_quantities": 39
       },
       "other_inventory_sources": [],
       "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
+        "Explicit catalog quantity is unavailable for some entries; unknown is preserved."
       ]
     },
     {
