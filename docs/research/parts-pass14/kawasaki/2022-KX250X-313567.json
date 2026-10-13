@@ -1,0 +1,112 @@
+{
+  "target": {
+    "manufacturer": "Kawasaki",
+    "model": "KX250X",
+    "model_year": 2022,
+    "region": "US",
+    "variant": "standard"
+  },
+  "model_code": "KX252DNFNN",
+  "index_url": "https://www.kawasaki.com/en-us/owner-center/parts/2022/KX252DNFNN",
+  "assembly_url": "https://www.kawasaki.com/en-us/owner-center/parts/313567/2022/KX252DNFNN",
+  "name": "Generator",
+  "url": "https://www.kawasaki.com/en-us/owner-center/parts/313567/2022/KX252DNFNN",
+  "headings": [
+    "SHOP ALL",
+    "Vehicle Accessories",
+    "ELEKTRODE\u00ae",
+    "Accessory Packages",
+    "Apparel",
+    "Gifts & Collectibles",
+    "Essentials",
+    "Kawasaki Performance Oils",
+    "Collections",
+    "Digital Catalogs",
+    "Featured",
+    "Sale",
+    "Licensed Products",
+    "VISIT OWNER CENTER",
+    "VISIT RACING",
+    "Racing News",
+    "Team Green\u2122",
+    "Racing Teams",
+    "Research",
+    "Shop",
+    "Finance",
+    "2022 KX\u2122 250X - Generator"
+  ],
+  "headers": [
+    "ITEM NAME",
+    "REF #",
+    "PART NUMBER",
+    "QUANTITY",
+    "DESTINATION",
+    "REMARKS"
+  ],
+  "rows": [
+    [
+      "STATOR",
+      "21003",
+      "21003-0205",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "ROTOR",
+      "21007",
+      "21007-0703",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "REGULATOR-VOLTAGE",
+      "21066",
+      "21066-0743",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "NUT,12MM",
+      "92015",
+      "92015-1426",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "BOLT,5X14",
+      "92151",
+      "92151-1764",
+      "2",
+      "",
+      ""
+    ],
+    [
+      "BOLT,SOCKET,6X25",
+      "92154",
+      "92154-2793",
+      "3",
+      "",
+      ""
+    ],
+    [
+      "KEY-WOODRUFF",
+      "510",
+      "510A3200",
+      "1",
+      "",
+      ""
+    ]
+  ],
+  "diagram_urls": [
+    "/Content/Images/Parts/99912-0533-04/E1810.GIF"
+  ],
+  "captured_at": "2026-10-13T15:15:02Z",
+  "authority": "OEM",
+  "quantity_basis": "EXPLICIT_OEM_TABLE",
+  "source_response_sha256": "813bdd2a98ce05d067621717b00c3e95957d1377993639e6ba9c71d0a44f0058",
+  "acquisition": "Ordinary requests.Session GET with server-issued public cookies; TLS verification enabled"
+}

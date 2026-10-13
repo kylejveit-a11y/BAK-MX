@@ -1,0 +1,128 @@
+{
+  "target": {
+    "manufacturer": "Kawasaki",
+    "model": "KX450X",
+    "model_year": 2023,
+    "region": "US",
+    "variant": "standard"
+  },
+  "model_code": "KX450KPFNN",
+  "index_url": "https://www.kawasaki.com/en-us/owner-center/parts/2023/KX450KPFNN",
+  "assembly_url": "https://www.kawasaki.com/en-us/owner-center/parts/265321/2023/KX450KPFNN",
+  "name": "Fuel Injection",
+  "url": "https://www.kawasaki.com/en-us/owner-center/parts/265321/2023/KX450KPFNN",
+  "headings": [
+    "SHOP ALL",
+    "Vehicle Accessories",
+    "ELEKTRODE\u00ae",
+    "Accessory Packages",
+    "Apparel",
+    "Gifts & Collectibles",
+    "Essentials",
+    "Kawasaki Performance Oils",
+    "Collections",
+    "Digital Catalogs",
+    "Featured",
+    "Sale",
+    "Licensed Products",
+    "VISIT OWNER CENTER",
+    "VISIT RACING",
+    "Racing News",
+    "Team Green\u2122",
+    "Racing Teams",
+    "Research",
+    "Shop",
+    "Finance",
+    "2023 KX\u2122 450X - Fuel Injection"
+  ],
+  "headers": [
+    "ITEM NAME",
+    "REF #",
+    "PART NUMBER",
+    "QUANTITY",
+    "DESTINATION",
+    "REMARKS"
+  ],
+  "rows": [
+    [
+      "CONTROL UNIT-ELECTRONIC",
+      "21175",
+      "21175-1361",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "SENSOR,WATER TEMP",
+      "21176",
+      "21176-0009",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "SENSOR,AIR TEMPERATURE",
+      "21176A",
+      "21176-0048",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "SENSOR,VEHICLE-DOWN",
+      "21176B",
+      "21176-0704",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "RELAY-ASSY",
+      "27002",
+      "27002-1086",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "SCREW,TAPPING,5X16",
+      "92009",
+      "92009-1984",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "RING-O,9.5X1.9",
+      "92055",
+      "92055-0016",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "DAMPER",
+      "92161",
+      "92161-0951",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "DAMPER,ECU",
+      "92161A",
+      "92161-0976",
+      "1",
+      "",
+      ""
+    ]
+  ],
+  "diagram_urls": [
+    "/Content/Images/Parts/99912-0467-03/E1530.GIF"
+  ],
+  "captured_at": "2026-10-13T15:15:55Z",
+  "authority": "OEM",
+  "quantity_basis": "EXPLICIT_OEM_TABLE",
+  "source_response_sha256": "8115f45c5b920c26b8cb5ab918e6d7dbf0c3dce7659ab17d984d3f5fe13cdeaf",
+  "acquisition": "Ordinary requests.Session GET with server-issued public cookies; TLS verification enabled"
+}

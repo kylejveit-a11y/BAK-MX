@@ -1,0 +1,80 @@
+{
+  "target": {
+    "manufacturer": "Kawasaki",
+    "model": "KX250X",
+    "model_year": 2025,
+    "region": "US",
+    "variant": "standard"
+  },
+  "model_code": "KX252FSFNN",
+  "index_url": "https://www.kawasaki.com/en-us/owner-center/parts/2025/KX252FSFNN",
+  "assembly_url": "https://www.kawasaki.com/en-us/owner-center/parts/356768/2025/KX252FSFNN",
+  "name": "Labels",
+  "url": "https://www.kawasaki.com/en-us/owner-center/parts/356768/2025/KX252FSFNN",
+  "headings": [
+    "SHOP ALL",
+    "Vehicle Accessories",
+    "ELEKTRODE\u00ae",
+    "Accessory Packages",
+    "Apparel",
+    "Gifts & Collectibles",
+    "Essentials",
+    "Kawasaki Performance Oils",
+    "Collections",
+    "Digital Catalogs",
+    "Featured",
+    "Sale",
+    "Licensed Products",
+    "VISIT OWNER CENTER",
+    "VISIT RACING",
+    "Racing News",
+    "Team Green\u2122",
+    "Racing Teams",
+    "Research",
+    "Shop",
+    "Finance",
+    "2025 KX\u2122 250X - Labels"
+  ],
+  "headers": [
+    "ITEM NAME",
+    "REF #",
+    "PART NUMBER",
+    "QUANTITY",
+    "DESTINATION",
+    "REMARKS"
+  ],
+  "rows": [
+    [
+      "LABEL,DISCLAIMER",
+      "56030",
+      "56030-0926",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "LABEL,NOISE EMISSION",
+      "56030A",
+      "56030-1231",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "LABEL-WARNING,IMPORTANT NOTICE",
+      "56071",
+      "56071-0028",
+      "1",
+      "",
+      ""
+    ]
+  ],
+  "diagram_urls": [
+    "/Content/Images/Parts/99912-2268-02/F2860.GIF"
+  ],
+  "captured_at": "2026-10-13T15:16:23Z",
+  "authority": "OEM",
+  "quantity_basis": "EXPLICIT_OEM_TABLE",
+  "source_response_sha256": "204800d162cd1e30ca340b2ae83e8f0a39ea73259b52743c780c40373ab84de7",
+  "acquisition": "Ordinary requests.Session GET with server-issued public cookies; TLS verification enabled"
+}

@@ -1,0 +1,96 @@
+{
+  "target": {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2022,
+    "region": "US",
+    "variant": "standard"
+  },
+  "model_code": "KX450JNFNN",
+  "index_url": "https://www.kawasaki.com/en-us/owner-center/parts/2022/KX450JNFNN",
+  "assembly_url": "https://www.kawasaki.com/en-us/owner-center/parts/284598/2022/KX450JNFNN",
+  "name": "Ignition System",
+  "url": "https://www.kawasaki.com/en-us/owner-center/parts/284598/2022/KX450JNFNN",
+  "headings": [
+    "SHOP ALL",
+    "Vehicle Accessories",
+    "ELEKTRODE\u00ae",
+    "Accessory Packages",
+    "Apparel",
+    "Gifts & Collectibles",
+    "Essentials",
+    "Kawasaki Performance Oils",
+    "Collections",
+    "Digital Catalogs",
+    "Featured",
+    "Sale",
+    "Licensed Products",
+    "VISIT OWNER CENTER",
+    "VISIT RACING",
+    "Racing News",
+    "Team Green\u2122",
+    "Racing Teams",
+    "Research",
+    "Shop",
+    "Finance",
+    "2022 KX\u2122 450 - Ignition System"
+  ],
+  "headers": [
+    "ITEM NAME",
+    "REF #",
+    "PART NUMBER",
+    "QUANTITY",
+    "DESTINATION",
+    "REMARKS"
+  ],
+  "rows": [
+    [
+      "COIL-IGNITION",
+      "21121",
+      "21121-0723",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "CAP-ASSY-PLUG",
+      "21160",
+      "21160-0024",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "PLUG-SPARK,CPR8EB-9(NGK)",
+      "92070",
+      "92070-0020",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "PLUG-SPARK,CPR9EB-9(NGK)",
+      "92070A",
+      "92070-0021",
+      "1",
+      "",
+      "(OPTION)"
+    ],
+    [
+      "BOLT,FLANGED,6X18",
+      "92154",
+      "92154-2976",
+      "2",
+      "",
+      ""
+    ]
+  ],
+  "diagram_urls": [
+    "/Content/Images/Parts/99912-0434-03/E1830.GIF"
+  ],
+  "captured_at": "2026-10-13T15:15:11Z",
+  "authority": "OEM",
+  "quantity_basis": "EXPLICIT_OEM_TABLE",
+  "source_response_sha256": "d5f41ac59985afac6cda9290acd6fe73082e63359adfb90e9292a7026e564424",
+  "acquisition": "Ordinary requests.Session GET with server-issued public cookies; TLS verification enabled"
+}

@@ -1,0 +1,311 @@
+{
+ "source": "Saved source tables; independent skuID row count versus parser output",
+ "rows": [
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/air-cleaner",
+   "source_table_rows": 26,
+   "parsed_rows": 26,
+   "sha256": "5728fcc739b81558b04f0c0fec0fd7dab55c81d511d8442eadba0a96af0f1837"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/alternator",
+   "source_table_rows": 9,
+   "parsed_rows": 9,
+   "sha256": "a3bb8dc7b6077363f3a8e7f6505c1be31fd86f5c2582c13e868fb865eeb5bdce"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/balancer",
+   "source_table_rows": 5,
+   "parsed_rows": 5,
+   "sha256": "1132040b38676145b45ad280fe9a4a70cce161f01f6dd514e35a966fd2275c4a"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/battery",
+   "source_table_rows": 23,
+   "parsed_rows": 23,
+   "sha256": "526d81e4f1a1cb33169441ac7f8d71e28ccb2769078280bb60bfae7f5de2e309"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/cam-chain@tensioner",
+   "source_table_rows": 14,
+   "parsed_rows": 14,
+   "sha256": "4de63a535f8f296009e5176e75d02f20b5d1af58c31f418ce1de059cb206e5f4"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/camshaft@valve",
+   "source_table_rows": 74,
+   "parsed_rows": 74,
+   "sha256": "9e601a7e6f35cb69fa11f541db0a848d3bb72dba36a71451dc8b5c373705d2fb"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/caution-labels",
+   "source_table_rows": 1,
+   "parsed_rows": 1,
+   "sha256": "f1c07789484a8f44403cd746f85d8235109c909cc5bfe00bc2bda63caa3e520c"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/clutch",
+   "source_table_rows": 22,
+   "parsed_rows": 22,
+   "sha256": "adb33a2ad4e5a59e068903efb539cf80692359360c11552f5f5a5ee08ea1ffbe"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/color-table",
+   "source_table_rows": 0,
+   "parsed_rows": 0,
+   "sha256": "b69829dd1e4febd60eec1d19bfaa23d3deda24ab0805adb78d0924a8655f7c1f"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/crankcase",
+   "source_table_rows": 38,
+   "parsed_rows": 38,
+   "sha256": "c9572c8eb8261ddf5b742999031ef5b403a58dc4446c94f425db06147546623e"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/crankshaft@piston",
+   "source_table_rows": 11,
+   "parsed_rows": 11,
+   "sha256": "2cdf488728ecd11c877dc43f45ddb805438ae325b0b4f798bf8a08f43ebb39e6"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/cushion-arm",
+   "source_table_rows": 25,
+   "parsed_rows": 25,
+   "sha256": "6cb59862bfb8316541bf02371101924af17485868e664e2c21da36a4e9d23a1c"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/cylinder",
+   "source_table_rows": 5,
+   "parsed_rows": 5,
+   "sha256": "8df0b1bde0a70717692e671507af1f4cc469812c73d9c352d0b3a0def01d1ca8"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/cylinder-head",
+   "source_table_rows": 24,
+   "parsed_rows": 24,
+   "sha256": "7de43cbe8ef687bf7adf80585a485a8bfdec5134ad8f7cac76eeda7713ed5049"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/cylinder-head-cover",
+   "source_table_rows": 6,
+   "parsed_rows": 6,
+   "sha256": "b4ed50fd742aff87d29bac3faf397b48141a696eea9f1ad4386799652853df06"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/frame",
+   "source_table_rows": 24,
+   "parsed_rows": 24,
+   "sha256": "95c6c2252aee5fb0f8ead42863ec97ca13f08e90a66cf879866507be9592af55"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/front-brake-caliper",
+   "source_table_rows": 16,
+   "parsed_rows": 16,
+   "sha256": "5e143063219bebd431e02e0d263289032686506c1bd90ed35a128bd5f409ea11"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/front-brake-master-------cylinder",
+   "source_table_rows": 20,
+   "parsed_rows": 20,
+   "sha256": "8dca0d29e09b49d1d20bc6f622eb69eda138b452fa1d9ec5519de9db0d1feb80"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/front-fender",
+   "source_table_rows": 4,
+   "parsed_rows": 4,
+   "sha256": "04ed1d65dd8d9e36df984bcfeec634c2ed879756712bebba29f44edc7f22ce68"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/front-fork",
+   "source_table_rows": 36,
+   "parsed_rows": 36,
+   "sha256": "8bf01a5349c2db64438e5a806ca0f964626d571f77890bb923306e4e95c4a387"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/front-wheel",
+   "source_table_rows": 25,
+   "parsed_rows": 25,
+   "sha256": "f063f307ffeb1517d802cc382d18e6a6f42d20e1e29e48ac64c58dbc4a849427"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/fuel-tank-%282%29",
+   "source_table_rows": 31,
+   "parsed_rows": 31,
+   "sha256": "c7f01ab772627efefdec5b7c41ec81b3cfa5a3d60fa007b35d65547e8037be7f"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/gasket-kit-a",
+   "source_table_rows": 12,
+   "parsed_rows": 12,
+   "sha256": "e8e62b3df168929916624353295f35e3b0534c71b2723bfb7cb272472efe8f8a"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/gasket-kit-b",
+   "source_table_rows": 22,
+   "parsed_rows": 22,
+   "sha256": "625536d041490f60b821d767bbf7a1903e70db0a59fe6c672c5b3ee16f3af4eb"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/gearshift-drum",
+   "source_table_rows": 29,
+   "parsed_rows": 29,
+   "sha256": "7c4c6eb0bcc6907affa3788b70f8571cb91d3fc17c203367edf37b52bb94e97d"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/handle-lever@switch@cable",
+   "source_table_rows": 26,
+   "parsed_rows": 26,
+   "sha256": "91de21d85c4881e930958d9c8f73dc6fd8f96c4b61d5c0f5d99034eb880143cf"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/handlebar@top-bridge",
+   "source_table_rows": 17,
+   "parsed_rows": 17,
+   "sha256": "fb28b2b8fce14cfab71d63879943f3496c6bf9994bd07d6442756a703b45203d"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/knuckle-guard",
+   "source_table_rows": 7,
+   "parsed_rows": 7,
+   "sha256": "c8eee03503d4aeb05b146258a22cb0552f651bd81051ff3a60e3eb3a3d42c888"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/left-crankcase-cover",
+   "source_table_rows": 18,
+   "parsed_rows": 18,
+   "sha256": "20f31f2605a52e4f67ccdcf7b463c47b85d9b4071c1c213cb479c464ccd7a962"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/marks",
+   "source_table_rows": 3,
+   "parsed_rows": 3,
+   "sha256": "4a3227a5f2484dce79d5d087da8f83274d481f7c8f250bda6d1fc6ad1499fb7a"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/muffler",
+   "source_table_rows": 24,
+   "parsed_rows": 24,
+   "sha256": "0dc321667c32701a0a9f5270387e405b91e3b9a77d4702054f1635c239dde0de"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/oil-pump",
+   "source_table_rows": 21,
+   "parsed_rows": 21,
+   "sha256": "67a94c34e4221dcde35c9e6021e1dc9501f334775d9ac86d90787caddbd7f891"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/pedal",
+   "source_table_rows": 9,
+   "parsed_rows": 9,
+   "sha256": "e81c17f23783274a6207e9f19c53101f57e447de085d18b02121f13d159ec9c0"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/radiator",
+   "source_table_rows": 21,
+   "parsed_rows": 21,
+   "sha256": "6651598215d64947ba7edcd752bfc6eadb26146d60cb3232a657ba5a850c2ff9"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/radiator-shroud-%282%29",
+   "source_table_rows": 4,
+   "parsed_rows": 4,
+   "sha256": "2ca405bb46f1312f510271b414859b979a4475ba03498c640ad96c4cad730381"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/rear-brake-caliper",
+   "source_table_rows": 19,
+   "parsed_rows": 19,
+   "sha256": "2d8269dadea9359fc9b155880b9bf84a3ebdd055335487e351d33a6c648012d8"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/rear-brake-master--------cylinder",
+   "source_table_rows": 15,
+   "parsed_rows": 15,
+   "sha256": "7e85b7568e75ab0eda9963afaa136ff156241f9be754e78e4f8783a8916cd349"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/rear-fender",
+   "source_table_rows": 4,
+   "parsed_rows": 4,
+   "sha256": "6e1fccf36c954362d5c3bf5c04d20f12e0d3e85ce48c54c8a2d2ce826527b663"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/rear-shock-absorber",
+   "source_table_rows": 37,
+   "parsed_rows": 37,
+   "sha256": "1ba8512df7a3b1800a15b0c1d49d5973c11a084b4e6dda5d8038695abf924a50"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/rear-wheel",
+   "source_table_rows": 39,
+   "parsed_rows": 39,
+   "sha256": "4c09009e4ebe6e43368e174cc5c365d876c4eecf6baa40122190556d7e871d8c"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/right-crankcase-cover----@water-pump",
+   "source_table_rows": 38,
+   "parsed_rows": 38,
+   "sha256": "88a78154a34b73f0ff6ca962784455a8dc1a7907a5891857ae58efd279745b0f"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/seat@side-cover",
+   "source_table_rows": 10,
+   "parsed_rows": 10,
+   "sha256": "b8222e0a388de4ed006722ebf75a0d0ca3db2574794c3478a5b1c7776e974f97"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/starter-motor",
+   "source_table_rows": 17,
+   "parsed_rows": 17,
+   "sha256": "4c3e12873b135dab9ba96e630445d46272998140c76919af825d0d9ced6a44a5"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/starting-clutch",
+   "source_table_rows": 14,
+   "parsed_rows": 14,
+   "sha256": "e4b5a701915117634a60bdbba88d0d5a8a5046f8098ad312fb3b9f6a74236cf0"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/steering-stem",
+   "source_table_rows": 8,
+   "parsed_rows": 8,
+   "sha256": "70404b512497263e5b2f9da9683e510f39c464257a551aeba3c91b53f320ca2d"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/step@stand",
+   "source_table_rows": 20,
+   "parsed_rows": 20,
+   "sha256": "e89db5683718b33464a508bac3989c74e91d7144d8de7a688ed7b53e9bab56a9"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/swingarm",
+   "source_table_rows": 33,
+   "parsed_rows": 33,
+   "sha256": "8f378d26d3f8be5a34f1affb98b87ea56f6acefdeee74f108bb136c5002dc8f8"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/throttle-body",
+   "source_table_rows": 13,
+   "parsed_rows": 13,
+   "sha256": "c389abeec92aae3054b9a35890efff7da87a7c5c954b641e8cceb7b3d5ce8dbd"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/tools",
+   "source_table_rows": 4,
+   "parsed_rows": 4,
+   "sha256": "34eeab9106170193d5eb7f283cb0f7f8db995c7c4340d5b292f54dac08f5dfd7"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/transmission",
+   "source_table_rows": 44,
+   "parsed_rows": 44,
+   "sha256": "9757b3d606de302f3b9176667ed29511b7abf83df58c7bf27ae9ff2f10be7da9"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2024/crf250rx/wire-harness",
+   "source_table_rows": 23,
+   "parsed_rows": 23,
+   "sha256": "517aa90cac027368b510b42440d7302edffefc05dc740e8f05b17790c87fc301"
+  }
+ ]
+}

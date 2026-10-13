@@ -1,0 +1,64 @@
+{
+  "target": {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2024,
+    "region": "US",
+    "variant": "standard"
+  },
+  "model_code": "KX450MRFNN",
+  "index_url": "https://www.kawasaki.com/en-us/owner-center/parts/2024/KX450MRFNN",
+  "assembly_url": "https://www.kawasaki.com/en-us/owner-center/parts/313810/2024/KX450MRFNN",
+  "name": "VIEW DIAGRAM",
+  "url": "https://www.kawasaki.com/en-us/owner-center/parts/313810/2024/KX450MRFNN",
+  "headings": [
+    "SHOP ALL",
+    "Vehicle Accessories",
+    "ELEKTRODE\u00ae",
+    "Accessory Packages",
+    "Apparel",
+    "Gifts & Collectibles",
+    "Essentials",
+    "Kawasaki Performance Oils",
+    "Collections",
+    "Digital Catalogs",
+    "Featured",
+    "Sale",
+    "Licensed Products",
+    "VISIT OWNER CENTER",
+    "VISIT RACING",
+    "Racing News",
+    "Team Green\u2122",
+    "Racing Teams",
+    "Research",
+    "Shop",
+    "Finance",
+    "2024 KX\u2122 450 - Cables"
+  ],
+  "headers": [
+    "ITEM NAME",
+    "REF #",
+    "PART NUMBER",
+    "QUANTITY",
+    "DESTINATION",
+    "REMARKS"
+  ],
+  "rows": [
+    [
+      "CABLE-THROTTLE",
+      "54012",
+      "54012-0743",
+      "1",
+      "",
+      ""
+    ]
+  ],
+  "diagram_urls": [
+    "/Content/Images/Parts/99912-0996-02/F2540.GIF"
+  ],
+  "captured_at": "2026-10-13T11:54:26Z",
+  "authority": "OEM",
+  "quantity_basis": "EXPLICIT_OEM_TABLE",
+  "source_response_sha256": "2eb4ceab54157dccae405c83c96688f80b81fb761521c4fdb8e8d9f6a8bae25b",
+  "acquisition": "Ordinary requests.Session GET with server-issued public cookies; TLS verification enabled"
+}

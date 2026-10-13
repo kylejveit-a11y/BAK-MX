@@ -1,0 +1,96 @@
+{
+  "target": {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2023,
+    "region": "US",
+    "variant": "standard"
+  },
+  "model_code": "KX252CPFNN",
+  "index_url": "https://www.kawasaki.com/en-us/owner-center/parts/2023/KX252CPFNN",
+  "assembly_url": "https://www.kawasaki.com/en-us/owner-center/parts/312767/2023/KX252CPFNN",
+  "name": "Fuel Pump(CPFNN-CRFAN)",
+  "url": "https://www.kawasaki.com/en-us/owner-center/parts/312767/2023/KX252CPFNN",
+  "headings": [
+    "SHOP ALL",
+    "Vehicle Accessories",
+    "ELEKTRODE\u00ae",
+    "Accessory Packages",
+    "Apparel",
+    "Gifts & Collectibles",
+    "Essentials",
+    "Kawasaki Performance Oils",
+    "Collections",
+    "Digital Catalogs",
+    "Featured",
+    "Sale",
+    "Licensed Products",
+    "VISIT OWNER CENTER",
+    "VISIT RACING",
+    "Racing News",
+    "Team Green\u2122",
+    "Racing Teams",
+    "Research",
+    "Shop",
+    "Finance",
+    "2023 KX\u2122 250 - Fuel Pump(CPFNN-CRFAN)"
+  ],
+  "headers": [
+    "ITEM NAME",
+    "REF #",
+    "PART NUMBER",
+    "QUANTITY",
+    "DESTINATION",
+    "REMARKS"
+  ],
+  "rows": [
+    [
+      "PUMP-FUEL",
+      "49040",
+      "49040-0839",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "TUBE-ASSY",
+      "51044",
+      "51044-0994",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "TUBE-ASSY",
+      "51044A",
+      "51044-0995",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "RING-O",
+      "92055",
+      "92055-0899",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "BOLT,FLANGED,6X16",
+      "92154",
+      "92154-0899",
+      "5",
+      "",
+      ""
+    ]
+  ],
+  "diagram_urls": [
+    "/Content/Images/Parts/99912-0465-05/E1520A.GIF"
+  ],
+  "captured_at": "2026-10-13T15:15:28Z",
+  "authority": "OEM",
+  "quantity_basis": "EXPLICIT_OEM_TABLE",
+  "source_response_sha256": "f7fc16f67aa7615639fae8b009388dc6933cc16c097c76c0419f0f8285e1dbf0",
+  "acquisition": "Ordinary requests.Session GET with server-issued public cookies; TLS verification enabled"
+}

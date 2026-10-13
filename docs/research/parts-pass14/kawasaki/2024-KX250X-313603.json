@@ -1,0 +1,72 @@
+{
+  "target": {
+    "manufacturer": "Kawasaki",
+    "model": "KX250X",
+    "model_year": 2024,
+    "region": "US",
+    "variant": "standard"
+  },
+  "model_code": "KX252DRFNN",
+  "index_url": "https://www.kawasaki.com/en-us/owner-center/parts/2024/KX252DRFNN",
+  "assembly_url": "https://www.kawasaki.com/en-us/owner-center/parts/313603/2024/KX252DRFNN",
+  "name": "Accessory",
+  "url": "https://www.kawasaki.com/en-us/owner-center/parts/313603/2024/KX252DRFNN",
+  "headings": [
+    "SHOP ALL",
+    "Vehicle Accessories",
+    "ELEKTRODE\u00ae",
+    "Accessory Packages",
+    "Apparel",
+    "Gifts & Collectibles",
+    "Essentials",
+    "Kawasaki Performance Oils",
+    "Collections",
+    "Digital Catalogs",
+    "Featured",
+    "Sale",
+    "Licensed Products",
+    "VISIT OWNER CENTER",
+    "VISIT RACING",
+    "Racing News",
+    "Team Green\u2122",
+    "Racing Teams",
+    "Research",
+    "Shop",
+    "Finance",
+    "2024 KX\u2122 250X - Accessory"
+  ],
+  "headers": [
+    "ITEM NAME",
+    "REF #",
+    "PART NUMBER",
+    "QUANTITY",
+    "DESTINATION",
+    "REMARKS"
+  ],
+  "rows": [
+    [
+      "PLATE-NUMBER,L.GREEN",
+      "58029",
+      "58029-0014-290",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "BOLT,6X10",
+      "92154",
+      "92154-2969",
+      "1",
+      "",
+      ""
+    ]
+  ],
+  "diagram_urls": [
+    "/Content/Images/Parts/99912-0533-04/F2910.GIF"
+  ],
+  "captured_at": "2026-10-13T15:16:00Z",
+  "authority": "OEM",
+  "quantity_basis": "EXPLICIT_OEM_TABLE",
+  "source_response_sha256": "8308826b8dbf014fe090f0e2bb1bd30c7a5de8f88f4ea0254b0f231706c2a4e2",
+  "acquisition": "Ordinary requests.Session GET with server-issued public cookies; TLS verification enabled"
+}

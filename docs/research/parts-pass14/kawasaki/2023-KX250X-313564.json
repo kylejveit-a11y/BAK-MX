@@ -1,0 +1,96 @@
+{
+  "target": {
+    "manufacturer": "Kawasaki",
+    "model": "KX250X",
+    "model_year": 2023,
+    "region": "US",
+    "variant": "standard"
+  },
+  "model_code": "KX252DPFNN",
+  "index_url": "https://www.kawasaki.com/en-us/owner-center/parts/2023/KX252DPFNN",
+  "assembly_url": "https://www.kawasaki.com/en-us/owner-center/parts/313564/2023/KX252DPFNN",
+  "name": "Fuel Pump(DPFNN/DRFNN)",
+  "url": "https://www.kawasaki.com/en-us/owner-center/parts/313564/2023/KX252DPFNN",
+  "headings": [
+    "SHOP ALL",
+    "Vehicle Accessories",
+    "ELEKTRODE\u00ae",
+    "Accessory Packages",
+    "Apparel",
+    "Gifts & Collectibles",
+    "Essentials",
+    "Kawasaki Performance Oils",
+    "Collections",
+    "Digital Catalogs",
+    "Featured",
+    "Sale",
+    "Licensed Products",
+    "VISIT OWNER CENTER",
+    "VISIT RACING",
+    "Racing News",
+    "Team Green\u2122",
+    "Racing Teams",
+    "Research",
+    "Shop",
+    "Finance",
+    "2023 KX\u2122 250X - Fuel Pump(DPFNN/DRFNN)"
+  ],
+  "headers": [
+    "ITEM NAME",
+    "REF #",
+    "PART NUMBER",
+    "QUANTITY",
+    "DESTINATION",
+    "REMARKS"
+  ],
+  "rows": [
+    [
+      "PUMP-FUEL",
+      "49040",
+      "49040-0795",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "TUBE-ASSY",
+      "51044",
+      "51044-0994",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "TUBE-ASSY",
+      "51044A",
+      "51044-0995",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "RING-O",
+      "92055",
+      "92055-0899",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "BOLT,FLANGED,6X16",
+      "92154",
+      "92154-0899",
+      "5",
+      "",
+      ""
+    ]
+  ],
+  "diagram_urls": [
+    "/Content/Images/Parts/99912-0533-04/E1520A.GIF"
+  ],
+  "captured_at": "2026-10-13T15:15:38Z",
+  "authority": "OEM",
+  "quantity_basis": "EXPLICIT_OEM_TABLE",
+  "source_response_sha256": "631087af42ff35a5039c2d937f6d3f5868b8f3e3cc8d413824494f0c58eee6fb",
+  "acquisition": "Ordinary requests.Session GET with server-issued public cookies; TLS verification enabled"
+}

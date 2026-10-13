@@ -1,0 +1,88 @@
+{
+  "target": {
+    "manufacturer": "Kawasaki",
+    "model": "KX250X",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "model_code": "KX252FTFNN",
+  "index_url": "https://www.kawasaki.com/en-us/owner-center/parts/2026/KX252FTFNN",
+  "assembly_url": "https://www.kawasaki.com/en-us/owner-center/parts/356733/2026/KX252FTFNN",
+  "name": "Fuel Pump",
+  "url": "https://www.kawasaki.com/en-us/owner-center/parts/356733/2026/KX252FTFNN",
+  "headings": [
+    "SHOP ALL",
+    "Vehicle Accessories",
+    "ELEKTRODE\u00ae",
+    "Accessory Packages",
+    "Apparel",
+    "Gifts & Collectibles",
+    "Essentials",
+    "Kawasaki Performance Oils",
+    "Collections",
+    "Digital Catalogs",
+    "Featured",
+    "Sale",
+    "Licensed Products",
+    "VISIT OWNER CENTER",
+    "VISIT RACING",
+    "Racing News",
+    "Team Green\u2122",
+    "Racing Teams",
+    "Research",
+    "Shop",
+    "Finance",
+    "2026 KX\u2122 250X - Fuel Pump"
+  ],
+  "headers": [
+    "ITEM NAME",
+    "REF #",
+    "PART NUMBER",
+    "QUANTITY",
+    "DESTINATION",
+    "REMARKS"
+  ],
+  "rows": [
+    [
+      "PUMP-FUEL",
+      "49040",
+      "49040-0842",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "TUBE-ASSY,FUEL",
+      "51044",
+      "51044-1288",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "RING-O",
+      "92055",
+      "92055-0899",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "BOLT,FLANGED,6X16",
+      "92154",
+      "92154-0899",
+      "5",
+      "",
+      ""
+    ]
+  ],
+  "diagram_urls": [
+    "/Content/Images/Parts/99912-2268-02/E1520.GIF"
+  ],
+  "captured_at": "2026-10-13T15:16:48Z",
+  "authority": "OEM",
+  "quantity_basis": "EXPLICIT_OEM_TABLE",
+  "source_response_sha256": "c5fb6fca884535cf8aa0aebe161f1c1daa4befee7d4baa7973143d150b759144",
+  "acquisition": "Ordinary requests.Session GET with server-issued public cookies; TLS verification enabled"
+}

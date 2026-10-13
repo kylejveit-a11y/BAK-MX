@@ -1,0 +1,299 @@
+{
+ "source": "Saved source tables; independent skuID row count versus parser output",
+ "rows": [
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/1-title-page",
+   "source_table_rows": 0,
+   "parsed_rows": 0,
+   "sha256": "8d749d875d355241bfbada10944919791cea64df88d49dd46e142a9fcac9e7bd"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/2-scheduled-service-parts",
+   "source_table_rows": 9,
+   "parsed_rows": 9,
+   "sha256": "023250742e2184cf4c22cdb8071bbc255c2c8fef90af6ce171f6c55ea758b6c0"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/3-maintenance-parts-kit",
+   "source_table_rows": 59,
+   "parsed_rows": 59,
+   "sha256": "8703bcc607c62405f637e8eab76cb04ff03151932f9ea82b582356cac398e1c4"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/4-piston-rebuilt-kit",
+   "source_table_rows": 16,
+   "parsed_rows": 16,
+   "sha256": "18a28d7c5f7c12bf6d7ba97df788718aa84b00f1135e3488cf0be3ec2dfc714e"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/air-induction-system",
+   "source_table_rows": 6,
+   "parsed_rows": 6,
+   "sha256": "20cdd6bd95373213a0e3928671b542059510702d9937d97b17ebf508485fb27f"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/alternate-for-chassis",
+   "source_table_rows": 26,
+   "parsed_rows": 26,
+   "sha256": "229d494fbbf0128c62e85f1c3e04f2d60466022484621e7be13cc9be592dda8a"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/camshaft-%26-chain",
+   "source_table_rows": 13,
+   "parsed_rows": 13,
+   "sha256": "f28f5ddc993ca6d67710300026dbb2e4303142b33ca35b6fbc042824f909e73e"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/clutch",
+   "source_table_rows": 35,
+   "parsed_rows": 35,
+   "sha256": "ccf8d2e478472279998ca4205fefe43c363c0ad06a16386cb420296bec49b10d"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/crankcase",
+   "source_table_rows": 24,
+   "parsed_rows": 24,
+   "sha256": "211b47c4e03c91cf22aeab2838c3e911d60898c69ccc925fd8da8693fc1c6906"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/crankcase-cover-1",
+   "source_table_rows": 19,
+   "parsed_rows": 19,
+   "sha256": "96cbea2fef842f11a376004749f19bca9f36d7c867e94978391fd6cda31f57a9"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/crankshaft-%26-piston",
+   "source_table_rows": 29,
+   "parsed_rows": 29,
+   "sha256": "275fdc8ac7ddd7b789f0cde1c58ea6d8c11d4fd4f3e8f81161619b70bd7df126"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/cylinder",
+   "source_table_rows": 27,
+   "parsed_rows": 27,
+   "sha256": "ea0d93c47e826de27501f5e8b86a3ae28ae4ae437c210ad798893130579efb2c"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/electrical-1",
+   "source_table_rows": 22,
+   "parsed_rows": 22,
+   "sha256": "588b14ec3d4bdf3df42a69da29f382d8f31333737f9e994c86a8b1294a024127"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/electrical-2",
+   "source_table_rows": 32,
+   "parsed_rows": 32,
+   "sha256": "47cc82fdae500924d87761e69020063e5a3647fabefd1dffa42a4301e884b3ba"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/exhaust",
+   "source_table_rows": 28,
+   "parsed_rows": 28,
+   "sha256": "25755bcba2948f37299c10fb677320f20edcd4933cd836eb6825ab4aac9502d4"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/fender",
+   "source_table_rows": 14,
+   "parsed_rows": 14,
+   "sha256": "92c34af27155da1d244b4f229f95e9e1880c12a8d20a33f4a162248dcafbdff4"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/frame",
+   "source_table_rows": 52,
+   "parsed_rows": 52,
+   "sha256": "37f116f61fd877192d4b311236703e173b6c426025f2259da2d133cab7949ac1"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/front-brake-caliper",
+   "source_table_rows": 15,
+   "parsed_rows": 15,
+   "sha256": "7c3c48a06a6c6d758fa09cf22de61ed574af2364aca31e36b579f0a9db8487f7"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/front-fork",
+   "source_table_rows": 64,
+   "parsed_rows": 64,
+   "sha256": "ff57a7e782233465854456a88abb232ae05ca1f3c73205c95bf80ddb80e20f0f"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/front-master-cylinder",
+   "source_table_rows": 17,
+   "parsed_rows": 17,
+   "sha256": "c6835e2ebe35f5b77b8f077c66acd0c7f70bfff622e2aee23b9844cc2304f4c3"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/front-wheel",
+   "source_table_rows": 19,
+   "parsed_rows": 19,
+   "sha256": "587baf9154284e61624eb2e9a7ed04230b339b9b07c47a6c992be7729985db58"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/fuel-tank",
+   "source_table_rows": 23,
+   "parsed_rows": 23,
+   "sha256": "bbdfc09ac8215cd9b40032b2473930978d6d10aa7f2b433d6554385222a6ea22"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/generator",
+   "source_table_rows": 9,
+   "parsed_rows": 9,
+   "sha256": "ced1c9572d0801c3baaf96419bbd54e565fb2064e79a7ec2662937796a404cdd"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/handle-switch-%26-lever",
+   "source_table_rows": 12,
+   "parsed_rows": 12,
+   "sha256": "2d62abaee47eb8356f3cd2aab2c79fa72f6a74d45137e74242c62660d8e2fafa"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/headlight",
+   "source_table_rows": 10,
+   "parsed_rows": 10,
+   "sha256": "7d2dec10956b6fec27b434a99651d9afe28132669a14e6bafd3ef5b435ad681b"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/intake",
+   "source_table_rows": 27,
+   "parsed_rows": 27,
+   "sha256": "b2e141455724c04301f1738513e54778880d748755fff01a2e7e5fb994dad945"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/intake-2",
+   "source_table_rows": 14,
+   "parsed_rows": 14,
+   "sha256": "3a91d434283cc72f1b064c7b807a9a32453e0dde414e6bbad4eca12937fd384c"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/meter",
+   "source_table_rows": 8,
+   "parsed_rows": 8,
+   "sha256": "25949545b0312b3a21bab60c49e53fcb78afccdc81ac7ad4ae6a8817adf479e0"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/oil-cleaner",
+   "source_table_rows": 4,
+   "parsed_rows": 4,
+   "sha256": "992d51f62b31b20302ac1938e243ca55323e55065656a9fbe4d838c6aa36dbe2"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/oil-pump",
+   "source_table_rows": 6,
+   "parsed_rows": 6,
+   "sha256": "4db49e540e71e52eeca8d9ce17736b80706e351d07e45b0432538f8efef11cfb"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/radiator-%26-hose",
+   "source_table_rows": 25,
+   "parsed_rows": 25,
+   "sha256": "7e1f6709cedf589fd0f41a8392faa4e410260095e9536ac1e71876bd15c27514"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/rear-arm",
+   "source_table_rows": 34,
+   "parsed_rows": 34,
+   "sha256": "f23aa7b73017a31956b676cee61705c293a51d72bc8b839b617e172caea34f9a"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/rear-brake-caliper",
+   "source_table_rows": 21,
+   "parsed_rows": 21,
+   "sha256": "a8be2011d62d140192191e1e6bbee456008dec95c5366036b5fcd91f67aadcf7"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/rear-master-cylinder",
+   "source_table_rows": 18,
+   "parsed_rows": 18,
+   "sha256": "fdd7471a831acf2d8c28d70c0fce5ffca428950fe3cfa21a0f501990dbaddf8b"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/rear-suspension",
+   "source_table_rows": 23,
+   "parsed_rows": 23,
+   "sha256": "7503e50338e81d481d14cfd8373e913de820121b49c303be7f050d39ead8dad5"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/rear-wheel",
+   "source_table_rows": 37,
+   "parsed_rows": 37,
+   "sha256": "988beee2d026d67622a86b3ebed162e6d18b6c8e9c7d644d545363e83511d6de"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/seat",
+   "source_table_rows": 7,
+   "parsed_rows": 7,
+   "sha256": "1771dfa119fc721f79475ad8782f982731293761a220674f19fb766644d2ff35"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/shift-cam-%26-fork",
+   "source_table_rows": 15,
+   "parsed_rows": 15,
+   "sha256": "8dcb2f35033259b8e38c3c557b680fdb8b87ddb83cb056bdf78ac432104662c5"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/shift-shaft",
+   "source_table_rows": 16,
+   "parsed_rows": 16,
+   "sha256": "a6d4f1f906e091ef94e00cb96e32e306f89453a484231abf27098e7f41418081"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/side-cover",
+   "source_table_rows": 28,
+   "parsed_rows": 28,
+   "sha256": "90c2b54c7e0a2efb76c55417eca4c2ca21a655857777463301473b1bc37742bc"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/stand-%26-footrest",
+   "source_table_rows": 21,
+   "parsed_rows": 21,
+   "sha256": "ddbb2fe568852b53200f7728ac18d1c72da9d68ee1fd24f47df910a62e8bc869"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/starter-clutch",
+   "source_table_rows": 3,
+   "parsed_rows": 3,
+   "sha256": "51d56cf0af3b7d70cd05dc21fef72dfc3325c62bb455ebd1bab8b0ecb0019a55"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/starting-motor",
+   "source_table_rows": 10,
+   "parsed_rows": 10,
+   "sha256": "039f38d1f9c2e55faed8ea724ba73e6a1b817004e7ff014440a02aa78eb75140"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/steering",
+   "source_table_rows": 15,
+   "parsed_rows": 15,
+   "sha256": "98a2ac11f1af3e2d42454b758e7141ccda7e971681ebab8579033ce6db31492c"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/steering-handle-%26-cable",
+   "source_table_rows": 14,
+   "parsed_rows": 14,
+   "sha256": "45d747268d479171595b5f6573b5a74e4fbc41a34dbf161aa16ef360a4dfe3e5"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/taillight",
+   "source_table_rows": 7,
+   "parsed_rows": 7,
+   "sha256": "e999f081770db6ee7bfad2712a92ea3b5fea5aa329516b5bb9abaa7829e0e35c"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/transmission",
+   "source_table_rows": 30,
+   "parsed_rows": 30,
+   "sha256": "5b255e002008692a193e0e16d62261775d519ba6d51633228c97ad707bce5202"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/valve",
+   "source_table_rows": 39,
+   "parsed_rows": 39,
+   "sha256": "020483201c154f51c488ef7858ec3c7aaf8e067642c0d3351d74aa94257cdcae"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr250f/water-pump",
+   "source_table_rows": 13,
+   "parsed_rows": 13,
+   "sha256": "3e1f37e5674dfdc2db3ee8482712422f211a1ffbbbe2219d3cf877a23375e407"
+  }
+ ]
+}

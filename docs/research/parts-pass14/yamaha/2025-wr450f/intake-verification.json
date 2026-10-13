@@ -1,0 +1,299 @@
+{
+ "source": "Saved source tables; independent skuID row count versus parser output",
+ "rows": [
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/1-title-page",
+   "source_table_rows": 0,
+   "parsed_rows": 0,
+   "sha256": "71ab80066f37ceebcc396b21577c1f65797855d6607c918ceef6a6d8b6c39c3c"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/2-scheduled-service-parts",
+   "source_table_rows": 9,
+   "parsed_rows": 9,
+   "sha256": "59a8c18f5e8584275a03d1882eba7f1526f18e32ac85115c548c1e7146a056f5"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/3-maintenance-parts-kit",
+   "source_table_rows": 60,
+   "parsed_rows": 60,
+   "sha256": "9a9c05ca2e5bf654d03c8124120b2940283c320e0bfc490228ecb95d97c55cfd"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/4-piston-rebuilt-kit",
+   "source_table_rows": 17,
+   "parsed_rows": 17,
+   "sha256": "3bffb6d913e5deeb4299c85c155cb4b7ab0d92c85b84db2d5aff91eea9b2fe8a"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/air-induction-system",
+   "source_table_rows": 3,
+   "parsed_rows": 3,
+   "sha256": "18f6d82a3cf620938d61e94ab3368136ded93e982c6c51d78badcc2dfd8a65ac"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/alternate-for-chassis",
+   "source_table_rows": 26,
+   "parsed_rows": 26,
+   "sha256": "98248a55ebd134d411bbc1528220861dfe11c8b5ae5deecb03177defb754a85b"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/camshaft-%26-chain",
+   "source_table_rows": 13,
+   "parsed_rows": 13,
+   "sha256": "35d068ba606033c2b5a74f354d6a501be9eabbea6ab235da33d6c52acd29e2a9"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/clutch",
+   "source_table_rows": 31,
+   "parsed_rows": 31,
+   "sha256": "e1c68b1510d3f83c646f2b199f1be93747b8bbc26384ee6b2790614da515b0be"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/crankcase",
+   "source_table_rows": 29,
+   "parsed_rows": 29,
+   "sha256": "07a09d37e6d5dda9c97a68f651b5b0c0c956c3299de2e74907ab161fcde17943"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/crankcase-cover-1",
+   "source_table_rows": 23,
+   "parsed_rows": 23,
+   "sha256": "9693e1f689f46b858268dd81d1267f5025dd3ca623d39bf5e8c6664b2e116a3d"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/crankshaft-%26-piston",
+   "source_table_rows": 19,
+   "parsed_rows": 19,
+   "sha256": "490a19eaa9f27d40c3dee304c6807e506983c09e42904b15585dafa3a7baeaa5"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/cylinder",
+   "source_table_rows": 31,
+   "parsed_rows": 31,
+   "sha256": "87854aa7b21daad9d839db9a994354af9e2e4e4fd1040d4696dfb62ffad6da8b"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/electrical-1",
+   "source_table_rows": 21,
+   "parsed_rows": 21,
+   "sha256": "f980cfadab85557b4b86ebd534fa5c9527a8b1e6d4e8de62b879e78c250a13cc"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/electrical-2",
+   "source_table_rows": 32,
+   "parsed_rows": 32,
+   "sha256": "331b0a935cf218167b75d5e7dd623d877a0ba21783686d7688064fca3e19f4a5"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/exhaust",
+   "source_table_rows": 28,
+   "parsed_rows": 28,
+   "sha256": "574a9e41268cee15b1d04fd1068750a161ca92e91b2800b73db895d2ab7fab23"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/fender",
+   "source_table_rows": 14,
+   "parsed_rows": 14,
+   "sha256": "bb81d2bca65891d41ec73d38437b0f3c24c3be6cae385211fefd1892fe8f70a9"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/frame",
+   "source_table_rows": 52,
+   "parsed_rows": 52,
+   "sha256": "094838f855f0ed1032eb21d98ae265b6c97b8c88ab60d5c64b4ef836687bac17"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/front-brake-caliper",
+   "source_table_rows": 15,
+   "parsed_rows": 15,
+   "sha256": "39efac95974023b9c190e563b65a70312951743b071f6c3e719458a05e89e415"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/front-fork",
+   "source_table_rows": 64,
+   "parsed_rows": 64,
+   "sha256": "53b6aa683fbb055c895f9baf6945b42f237e6268d79aca0d865d1d8268b2ce94"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/front-master-cylinder",
+   "source_table_rows": 17,
+   "parsed_rows": 17,
+   "sha256": "88047f65ddc211a7f77c46dbbcce7cd2156f65b5642ca613139ae22387573d4a"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/front-wheel",
+   "source_table_rows": 19,
+   "parsed_rows": 19,
+   "sha256": "73b5e99e4bd2625c6dc264c014ece4f507733fa4c3c14be70e1a8287035d2ada"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/fuel-tank",
+   "source_table_rows": 23,
+   "parsed_rows": 23,
+   "sha256": "267b2cddb33b7cb4ff064e642d607f5c5acdf201470b1c584221ad04fac6879b"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/generator",
+   "source_table_rows": 7,
+   "parsed_rows": 7,
+   "sha256": "773a97ad7917ea255e512f0f4078d77c6cfae7ee35f5c34f34cfe49a191fa7d6"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/handle-switch-%26-lever",
+   "source_table_rows": 12,
+   "parsed_rows": 12,
+   "sha256": "ac8663ce394419a41db742ee6efc677b578b907dbc4853b3fa0c81212bc15b5f"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/headlight",
+   "source_table_rows": 10,
+   "parsed_rows": 10,
+   "sha256": "418ba918d6b8a921d3bcd0589288cbd43786aca18e457486661beddee5523c95"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/intake",
+   "source_table_rows": 26,
+   "parsed_rows": 26,
+   "sha256": "22d34080ae0a5e68dcce4a9ffb365ea29d2b83ab9729cdfff9f5b480bd195f83"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/intake-2",
+   "source_table_rows": 14,
+   "parsed_rows": 14,
+   "sha256": "9a5510fa8d06c7c7759b934d056ce8f987a4c2e8ea982ad91f652bab9399e127"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/meter",
+   "source_table_rows": 8,
+   "parsed_rows": 8,
+   "sha256": "e91a7664ca3926088aa5401eff0bef9e61e04f3f74d3e4de267460d29c8ccf93"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/oil-cleaner",
+   "source_table_rows": 4,
+   "parsed_rows": 4,
+   "sha256": "4baef54e7f26f210d05a0db6faa57da525cb204e9af9e2b8d297e0c55b93a6c9"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/oil-pump",
+   "source_table_rows": 9,
+   "parsed_rows": 9,
+   "sha256": "d6d888246602391a233a48ab7acb20e56cc9c6d60c23fcf56affc7cd99f7c690"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/radiator-%26-hose",
+   "source_table_rows": 27,
+   "parsed_rows": 27,
+   "sha256": "f9dba77147e746eabc8617f54dca13b1b495ef07f22f16cd582486a0ee44f54f"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/rear-arm",
+   "source_table_rows": 34,
+   "parsed_rows": 34,
+   "sha256": "edad351cfb7c5ed6fa99822c5b664c31c353e51417160d0c72f36411972101fb"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/rear-brake-caliper",
+   "source_table_rows": 21,
+   "parsed_rows": 21,
+   "sha256": "49d9c29ced2af3278ae252a64cf64891b1a79a7dac76e2f68a96a893bb0de89a"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/rear-master-cylinder",
+   "source_table_rows": 18,
+   "parsed_rows": 18,
+   "sha256": "6241c514d092f25138d3cdda0b5e6e955425c531f2d4be8c384860710936ee25"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/rear-suspension",
+   "source_table_rows": 23,
+   "parsed_rows": 23,
+   "sha256": "9638b55019d8e46ee5cb768b5dfe1a2f52f99754a1132a6e92fb76b953486c76"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/rear-wheel",
+   "source_table_rows": 37,
+   "parsed_rows": 37,
+   "sha256": "5bfc35ed59a437240438bfc129908ebbf0db629ac072b7bb911fefa5f31790f3"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/seat",
+   "source_table_rows": 7,
+   "parsed_rows": 7,
+   "sha256": "3ea97538304df1415c8c0c58bc03a18a0e043c2aeee3e742104635543f7414ac"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/shift-cam-%26-fork",
+   "source_table_rows": 15,
+   "parsed_rows": 15,
+   "sha256": "252cb54060c4755aadbfc795a7e740722ae720baf14f2aa9cf317824b4e5b9b4"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/shift-shaft",
+   "source_table_rows": 16,
+   "parsed_rows": 16,
+   "sha256": "b789d27370406da01ce7afb09268404202783ab85ebb867f28467b31fa53481e"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/side-cover",
+   "source_table_rows": 28,
+   "parsed_rows": 28,
+   "sha256": "a0cd67f0c26ff81dd80331f84ce1df492603bcc220ff31aea3809762dd7f6396"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/stand-%26-footrest",
+   "source_table_rows": 21,
+   "parsed_rows": 21,
+   "sha256": "067a900eaef0dcdaf717b7f33d7582fa4a6cca44481e8fcb78d55755741379cb"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/starter-clutch",
+   "source_table_rows": 10,
+   "parsed_rows": 10,
+   "sha256": "0855a4e1414d6c6a52374f947174535fab426ee5acf20791e6f911435a3a555a"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/starting-motor",
+   "source_table_rows": 16,
+   "parsed_rows": 16,
+   "sha256": "a153f01b043fe963cddeabab4cdc44285bd3d070dfb17d3f7363b73379eef281"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/steering",
+   "source_table_rows": 15,
+   "parsed_rows": 15,
+   "sha256": "4a54c0e4eb8967d6fdd64553557ec863271df4271da25b5f32dc63a010ba27c6"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/steering-handle-%26-cable",
+   "source_table_rows": 14,
+   "parsed_rows": 14,
+   "sha256": "5a6251e4c7842b6ff3d4d215cf5aecd67737da9536a61549ad1b2cd90d2e8910"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/taillight",
+   "source_table_rows": 7,
+   "parsed_rows": 7,
+   "sha256": "addfc37ac765a1e3d3a5e98b3c02f84852bd1a30f8d52c5826456197d62175bc"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/transmission",
+   "source_table_rows": 31,
+   "parsed_rows": 31,
+   "sha256": "3433a95a3d9737ed8425d4ec07bc72dd813a38ce2984b700b7cbabbead7525f4"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/valve",
+   "source_table_rows": 37,
+   "parsed_rows": 37,
+   "sha256": "9101b9d74a6b62c0c704b2b0ad18fb97c5b4d735725fd199220ce56866c56ee2"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2025/wr450f/water-pump",
+   "source_table_rows": 11,
+   "parsed_rows": 11,
+   "sha256": "64b6f05a9d62299821e7b8caa7a3804170515bdb497b38a10a9c7c3a1e013908"
+  }
+ ]
+}

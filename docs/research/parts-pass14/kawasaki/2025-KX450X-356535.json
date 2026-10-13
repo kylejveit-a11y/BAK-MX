@@ -1,0 +1,96 @@
+{
+  "target": {
+    "manufacturer": "Kawasaki",
+    "model": "KX450X",
+    "model_year": 2025,
+    "region": "US",
+    "variant": "standard"
+  },
+  "model_code": "KX450NSFNN",
+  "index_url": "https://www.kawasaki.com/en-us/owner-center/parts/2025/KX450NSFNN",
+  "assembly_url": "https://www.kawasaki.com/en-us/owner-center/parts/356535/2025/KX450NSFNN",
+  "name": "Labels",
+  "url": "https://www.kawasaki.com/en-us/owner-center/parts/356535/2025/KX450NSFNN",
+  "headings": [
+    "SHOP ALL",
+    "Vehicle Accessories",
+    "ELEKTRODE\u00ae",
+    "Accessory Packages",
+    "Apparel",
+    "Gifts & Collectibles",
+    "Essentials",
+    "Kawasaki Performance Oils",
+    "Collections",
+    "Digital Catalogs",
+    "Featured",
+    "Sale",
+    "Licensed Products",
+    "VISIT OWNER CENTER",
+    "VISIT RACING",
+    "Racing News",
+    "Team Green\u2122",
+    "Racing Teams",
+    "Research",
+    "Shop",
+    "Finance",
+    "2025 KX450X - Labels"
+  ],
+  "headers": [
+    "ITEM NAME",
+    "REF #",
+    "PART NUMBER",
+    "QUANTITY",
+    "DESTINATION",
+    "REMARKS"
+  ],
+  "rows": [
+    [
+      "LABEL,DISCLAIMER",
+      "56030",
+      "56030-0926",
+      "1",
+      "",
+      "_________________________________________US"
+    ],
+    [
+      "LABEL,NOISE EMISSION",
+      "56030A",
+      "56030-1231",
+      "1",
+      "",
+      "_________________________________________US"
+    ],
+    [
+      "LABEL,DISCLAIMER",
+      "56030B",
+      "56030-1233",
+      "1",
+      "CN",
+      ""
+    ],
+    [
+      "LABEL-WARNING,IMPORTANT NOTICE",
+      "56071",
+      "56071-0028",
+      "1",
+      "",
+      "_________________________________________US"
+    ],
+    [
+      "LABEL-WARNING,IMPORTANT NOTICE",
+      "56071A",
+      "56071-0029",
+      "1",
+      "CN",
+      ""
+    ]
+  ],
+  "diagram_urls": [
+    "/Content/Images/Parts/99912-0998-03/F2860.GIF"
+  ],
+  "captured_at": "2026-10-13T15:16:41Z",
+  "authority": "OEM",
+  "quantity_basis": "EXPLICIT_OEM_TABLE",
+  "source_response_sha256": "63c8f955b5f2305221f58d5d5aef883bc76915aed20ff5bb014a38d1e3bc8531",
+  "acquisition": "Ordinary requests.Session GET with server-issued public cookies; TLS verification enabled"
+}

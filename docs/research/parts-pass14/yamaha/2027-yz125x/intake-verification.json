@@ -1,0 +1,251 @@
+{
+ "source": "Saved source tables; independent skuID row count versus parser output",
+ "rows": [
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/1-title-page",
+   "source_table_rows": 0,
+   "parsed_rows": 0,
+   "sha256": "fa4e2d4fa47080130ac7d710019a393ad92c1df52f4008ab7eafd8b37bf14062"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/2-scheduled-service-parts",
+   "source_table_rows": 7,
+   "parsed_rows": 7,
+   "sha256": "3eeb802d81e5e19ea7973425cb03fbd37007a9d5350a191066db99b1b61651e7"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/3-maintenance-parts-kit",
+   "source_table_rows": 56,
+   "parsed_rows": 56,
+   "sha256": "f45fd70f9b7bd37381d6a65cafed5b561cbfb6e9a3771098e17d8e31d6a3ad77"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/4-piston-rebuilt-kit",
+   "source_table_rows": 19,
+   "parsed_rows": 19,
+   "sha256": "22c9d78e8e285abc250000f6382bed65cf3063fd7977e00c6776fd79ec082f67"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/alternate-for-chassis",
+   "source_table_rows": 26,
+   "parsed_rows": 26,
+   "sha256": "eee6f2b0aaecac7f250b5f594c102b2bb22e9b1ae8a82502e7ff1b48b73ed255"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/carburetor",
+   "source_table_rows": 87,
+   "parsed_rows": 87,
+   "sha256": "75d79a769228faa802f0ee393a7fc170b65d1c443895ff615dd3558962efe79d"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/clutch",
+   "source_table_rows": 28,
+   "parsed_rows": 28,
+   "sha256": "4a375ef6cac063e837c78eff38efa85b97a063383228d27c4f459021975610bd"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/crankcase",
+   "source_table_rows": 16,
+   "parsed_rows": 16,
+   "sha256": "f0dc2e41e4d762c7681d963380b22fe0acab37da0258ec9efaf325fb1aa6af8c"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/crankcase-cover-1",
+   "source_table_rows": 20,
+   "parsed_rows": 20,
+   "sha256": "12c2e8af1d07f9bc0386477afb6c2faad7fb5ece12e09d63f7ff156488dca673"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/crankshaft-%26-piston",
+   "source_table_rows": 19,
+   "parsed_rows": 19,
+   "sha256": "d4170f7c6fd9ae7c8344a6f4e9e2e58d218a78d90050ec39a2e811c5f85c9611"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/cylinder-head",
+   "source_table_rows": 34,
+   "parsed_rows": 34,
+   "sha256": "f270f99ac269a94b9bc9874d7fa9aa2b800c5deade476b97d2b63104ef76f1af"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/electrical-1",
+   "source_table_rows": 9,
+   "parsed_rows": 9,
+   "sha256": "3cab0ea83ca4767c698d080689f456b563621b5fe807bb494d81bda3847826a9"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/exhaust",
+   "source_table_rows": 26,
+   "parsed_rows": 26,
+   "sha256": "2737cc14be11d6bf350b09562973d62b11c3a563eb5994e9aa3d5c0b5d7a970a"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/fender",
+   "source_table_rows": 17,
+   "parsed_rows": 17,
+   "sha256": "c2c2fe2a7a88ff8f3726d90eb9ac154e95fcf45d25c0faefd190c6663c385166"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/frame",
+   "source_table_rows": 37,
+   "parsed_rows": 37,
+   "sha256": "34b12dc7f4c3e3c1246ce0d84273e93c77a7422084f7d87a1278a4ac8e2e347f"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/front-brake-caliper",
+   "source_table_rows": 15,
+   "parsed_rows": 15,
+   "sha256": "79117c6f136f598704f1b0388cfc5b8dbb50290e0673b575b2b025d01b531970"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/front-fork",
+   "source_table_rows": 67,
+   "parsed_rows": 67,
+   "sha256": "ad570611e5221a8f792192d692598c08a90a470acc29b2eeba6e149f2109006e"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/front-master-cylinder",
+   "source_table_rows": 17,
+   "parsed_rows": 17,
+   "sha256": "1957e0f0bfc4d2d5f3b752390fd8ea8d8b54ef941e4ef5b1a1a8bfd3da9683ff"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/front-wheel",
+   "source_table_rows": 17,
+   "parsed_rows": 17,
+   "sha256": "bd6c6a68b50da10f947c85feca6d17850be6fffaf8fde8374f04a278d24f8a01"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/fuel-tank",
+   "source_table_rows": 25,
+   "parsed_rows": 25,
+   "sha256": "d33a62ca7845a8d11b240ef6111b1826359be02e1be987633fa7233b77202841"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/generator",
+   "source_table_rows": 5,
+   "parsed_rows": 5,
+   "sha256": "4c3ebf5f07cb9f66d56311fa182c773e6cb389fd1a7100eccef34514705df4b7"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/governor",
+   "source_table_rows": 22,
+   "parsed_rows": 22,
+   "sha256": "629ed2c76e54d2050b6e9db84fa13ad71245f4cc8b57f22c8e4c3b39922e973a"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/handle-switch-%26-lever",
+   "source_table_rows": 15,
+   "parsed_rows": 15,
+   "sha256": "c763abdc0ed237b5ae9ccd594656998adf3eeae67f61577433939eb2e730c64f"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/intake",
+   "source_table_rows": 22,
+   "parsed_rows": 22,
+   "sha256": "a7b4912a57acd5e3246c2e26c171a9cc8ff1417c4608199e06dead61ecc3757f"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/optional-parts-1",
+   "source_table_rows": 11,
+   "parsed_rows": 11,
+   "sha256": "5289cf7e05106424be9aec941e8fe79ff5302b22d4b530680a228b0b243fdc18"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/radiator-%26-hose",
+   "source_table_rows": 16,
+   "parsed_rows": 16,
+   "sha256": "f5a8857b8155c5a4bc9939fa55cdd786d0e4970dc994280cd3e81f4179cf2d22"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/rear-arm",
+   "source_table_rows": 38,
+   "parsed_rows": 38,
+   "sha256": "552d68933c2e8ca30b13266e0c638accbb3231bd33ff4a1e91840aee764e7f77"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/rear-brake-caliper",
+   "source_table_rows": 20,
+   "parsed_rows": 20,
+   "sha256": "281e1c7a80ed33583a153a60f5e66521661bbba0ee6dc73db82fc80f3f173bb5"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/rear-master-cylinder",
+   "source_table_rows": 18,
+   "parsed_rows": 18,
+   "sha256": "e6884180d4a2ae88b73b6bb5b2393bd8315b93f6e7cc0cc0bf18e623cc18a132"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/rear-suspension",
+   "source_table_rows": 24,
+   "parsed_rows": 24,
+   "sha256": "b2b0a2074c9d403df17b6e9e4caf320a2fb5a9d7419759b0d0553f4c3ac7f3ce"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/rear-wheel",
+   "source_table_rows": 41,
+   "parsed_rows": 41,
+   "sha256": "9e89d12ab44e201cef0f50c3cdc84ea9803a79c8a3f7c391e3ec6673fcc09b77"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/seat",
+   "source_table_rows": 9,
+   "parsed_rows": 9,
+   "sha256": "674721becca557fca3be25c0929d685fd5fce85ffcc5c75f9f4198da8a164be9"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/shift-cam-%26-fork",
+   "source_table_rows": 13,
+   "parsed_rows": 13,
+   "sha256": "65b0f926cbbe8b64a8f2ed73bc67094f0bdc62eadf865060a752a65af6193359"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/shift-shaft",
+   "source_table_rows": 18,
+   "parsed_rows": 18,
+   "sha256": "a65d5489a99532a448558e6110e60e36a04ec38fe9c104af1103019b575c38e6"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/side-cover",
+   "source_table_rows": 27,
+   "parsed_rows": 27,
+   "sha256": "d7e9f4653ef414db00dcd3c8ac7e2c779b6739068aca76818a4d5b218e4410c5"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/stand-%26-footrest",
+   "source_table_rows": 23,
+   "parsed_rows": 23,
+   "sha256": "647ea9d05f919e50a11266390a46aef975442875b40dd493dac610c58226421a"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/starter",
+   "source_table_rows": 18,
+   "parsed_rows": 18,
+   "sha256": "7a22ade9ca0fd45575e354cfc08fc1b7b13ee9a0907549cc2d8cd060386188b7"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/steering",
+   "source_table_rows": 18,
+   "parsed_rows": 18,
+   "sha256": "9d502f6de4bc2ef4ca5ce44ae2317e1a7e81af329c0b896490cd9690c4d1cf1b"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/steering-handle-%26-cable",
+   "source_table_rows": 19,
+   "parsed_rows": 19,
+   "sha256": "fc809804371fd7529cb5af5b873a5795985b24bf943fbb5a7ec3fffb63bc0841"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/transmission",
+   "source_table_rows": 29,
+   "parsed_rows": 29,
+   "sha256": "f1ec42dedbe2f20f25e179d7fa842c7a4c0c9fef5640b0c83a1a8fa07341559d"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz125x/water-pump",
+   "source_table_rows": 17,
+   "parsed_rows": 17,
+   "sha256": "953b03ff450afab7ebf323aa74b175b5c82caaee19d46c3125c9ff0424382ad6"
+  }
+ ]
+}

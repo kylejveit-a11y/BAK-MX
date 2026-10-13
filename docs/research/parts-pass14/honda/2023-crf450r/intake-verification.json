@@ -1,0 +1,311 @@
+{
+ "source": "Saved source tables; independent skuID row count versus parser output",
+ "rows": [
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/air-cleaner",
+   "source_table_rows": 26,
+   "parsed_rows": 26,
+   "sha256": "e6051a5fe9e6cbe1a30f583652f65ce57fa5a7b3b297571f79ad0f59c54e849e"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/alternator",
+   "source_table_rows": 7,
+   "parsed_rows": 7,
+   "sha256": "4ce9e318fb55863f30517a78629d73979fe68cb1e1201dfaaef17ccb7d7a1408"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/balancer",
+   "source_table_rows": 4,
+   "parsed_rows": 4,
+   "sha256": "3143a9b3f33af8c3ef8e1f40080a2e35ee54757d28f5ca69802fc37668878c41"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/battery",
+   "source_table_rows": 27,
+   "parsed_rows": 27,
+   "sha256": "c25c5aaea7668563bc2a41dc8ca4fea50d9f3be494f0b7bdfc1f49ee1baaf99c"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/cam-chain@tensioner",
+   "source_table_rows": 12,
+   "parsed_rows": 12,
+   "sha256": "d2a6998346cb1d3b1fcfaf20671bf49d532779f10a42c92f4bd5eb14b62f56fe"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/camshaft@valve",
+   "source_table_rows": 91,
+   "parsed_rows": 91,
+   "sha256": "2488e659ba8019c6c1cdb739b9bf9fa165426946e66dc51ad1986770e29395bb"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/caution-label",
+   "source_table_rows": 1,
+   "parsed_rows": 1,
+   "sha256": "02ee02de2c55fe827909e5181f552381e995160125cf7172131324f74d087f4f"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/clutch",
+   "source_table_rows": 36,
+   "parsed_rows": 36,
+   "sha256": "e9f83715a541e44e2bcfaa5752920e2493a48a9e7fce1ac1227ac4431437c3be"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/clutch-master-cylinder",
+   "source_table_rows": 23,
+   "parsed_rows": 23,
+   "sha256": "e07d91c011f2ba593153b8ad98a40b8b3793c50a1fa0d68bbb6e46372b86e616"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/color-table",
+   "source_table_rows": 0,
+   "parsed_rows": 0,
+   "sha256": "9b70e474885b2e21f9a70c0c109057ba28db79ac7170867a02b1cd1ab84860a6"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/crankcase",
+   "source_table_rows": 44,
+   "parsed_rows": 44,
+   "sha256": "e7ec01996b63af38cbd864726f26efd155b98fe4d1cd64bf6b6a5881a1c548b4"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/crankshaft@piston",
+   "source_table_rows": 6,
+   "parsed_rows": 6,
+   "sha256": "fa02329db231963028e30574ed8a9fc99dac7ea0c79139fab7b1fa8a84864a32"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/cushion-arm",
+   "source_table_rows": 25,
+   "parsed_rows": 25,
+   "sha256": "ba7ab2d84c99542c814ae554e1c5b607d6de44e60a9a439678fdaa5b0c40c960"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/cylinder",
+   "source_table_rows": 3,
+   "parsed_rows": 3,
+   "sha256": "6e3c81e401670a861171a5c2faf9876cf0917efdeb6349964160767b2bca591d"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/cylinder-head",
+   "source_table_rows": 21,
+   "parsed_rows": 21,
+   "sha256": "18407a3d2c7aede59dad0192d9878b0a08e0f5727780a9ae2936cc407c7f47af"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/cylinder-head-cover",
+   "source_table_rows": 7,
+   "parsed_rows": 7,
+   "sha256": "43be1e3f8a471b16fa4657b4b0c3fb07cdaae3d5d444bbf49c94f1df9652062c"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/frame",
+   "source_table_rows": 23,
+   "parsed_rows": 23,
+   "sha256": "18962e2314a6c37d243d80a42aa7e4fc35ee0dece357031323aeaab371899192"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/front-brake-caliper",
+   "source_table_rows": 17,
+   "parsed_rows": 17,
+   "sha256": "980ac12ad9b6e403e0a95135a75a500d10872d731437502d91975de3b82c1102"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/front-brake-master-------cylinder",
+   "source_table_rows": 21,
+   "parsed_rows": 21,
+   "sha256": "d0f625ee9faae21d2b2dcdfb5001340f88685e4043a04fd3267c53c5bccefe01"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/front-fender",
+   "source_table_rows": 3,
+   "parsed_rows": 3,
+   "sha256": "9cad05148e0f3f9f8d4e8d681dd25851517fc10c78d3f3df2a31018ba9f5bc3c"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/front-fork",
+   "source_table_rows": 36,
+   "parsed_rows": 36,
+   "sha256": "4a06073630876f9fee8e3d7a1dbbb0a3a52fb06349ca10868564ea87a62f8c0a"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/front-wheel",
+   "source_table_rows": 25,
+   "parsed_rows": 25,
+   "sha256": "7e40fa389e432e73e403855c96dd2a788a600a741d5a378be2eac63db4bc3e90"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/fuel-tank-%281%29",
+   "source_table_rows": 30,
+   "parsed_rows": 30,
+   "sha256": "7e3c10edfcc0c5a0a9340c5b92e96c298dcbab58a9fa8ed3424eaae1fa56b7f7"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/gasket-kit-a",
+   "source_table_rows": 11,
+   "parsed_rows": 11,
+   "sha256": "1814720f7a4e906e9adf6fde85135faf75d057df0fe29429004450b1d30c0ca1"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/gasket-kit-b",
+   "source_table_rows": 21,
+   "parsed_rows": 21,
+   "sha256": "e653e6d11c8903074679970bae5c7d7e807d7170d8cd7cd639fc738d6d86e7de"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/gearshift-drum",
+   "source_table_rows": 30,
+   "parsed_rows": 30,
+   "sha256": "77a8a237c0eafe95f339a1b89ddefa9fefd9e6f6e6b78777034a914f11dadff3"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/handlebar@top-bridge",
+   "source_table_rows": 17,
+   "parsed_rows": 17,
+   "sha256": "ac7761aa5d580d79ece7fafa5773a2e4ba67035e7d9517cba88bf547e101f837"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/left-crankcase-cover",
+   "source_table_rows": 21,
+   "parsed_rows": 21,
+   "sha256": "295aa38626bff0509677c25f9369169472afb2e8ce2a0fef318656f81e19c120"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/mark-%281%29",
+   "source_table_rows": 3,
+   "parsed_rows": 3,
+   "sha256": "b01347fc13bebadbe6422596f0376eb41a67d5317e1b5d84030b3cff564b8e65"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/muffler",
+   "source_table_rows": 21,
+   "parsed_rows": 21,
+   "sha256": "a5c5aa3bdd903d893bdde2e4c853ea46443055d73f9590d1a624f8be07e12c70"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/oil-pump",
+   "source_table_rows": 18,
+   "parsed_rows": 18,
+   "sha256": "3c1bc31243e697169734466d37ddec4205d848d5eb7e90f59e9cbafbf27884fc"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/pedal",
+   "source_table_rows": 9,
+   "parsed_rows": 9,
+   "sha256": "4d024e19069356c2a0d11db89530f53a7d65076a07169f87ac3eb459ce5d5205"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/radiator",
+   "source_table_rows": 21,
+   "parsed_rows": 21,
+   "sha256": "b2c41c6947b002e6edc6b33f8ee632ff758d597c5b11575f8b7ab7b2a0217c2a"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/radiator-shroud-%281%29",
+   "source_table_rows": 4,
+   "parsed_rows": 4,
+   "sha256": "7829d8e179d961a759b72d0065691a8a5aad29454f8f7954cfb8790d113a583a"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/rear-brake-caliper",
+   "source_table_rows": 18,
+   "parsed_rows": 18,
+   "sha256": "d5151563a28b1ebf30384d5d151598c897e6ffd63f5a5dca99904b8dc49c0263"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/rear-brake-master--------cylinder",
+   "source_table_rows": 15,
+   "parsed_rows": 15,
+   "sha256": "9c09f4e276e7442445f48e4ccb5d6feefa39fd444edf19055fcb39e2519006de"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/rear-fender",
+   "source_table_rows": 4,
+   "parsed_rows": 4,
+   "sha256": "16d2d8060052cd048e9994a3257b08a6cf5b6c61f29b3e8240cde0bb38d581e4"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/rear-shock-absorber",
+   "source_table_rows": 37,
+   "parsed_rows": 37,
+   "sha256": "8bcff275a7b01ea7c87289164bb42f0324180b07911140a5aa469372a0b21eae"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/rear-wheel",
+   "source_table_rows": 35,
+   "parsed_rows": 35,
+   "sha256": "f1a202610e07ac2784335a7f72e0fedb40d847879b7e5535eb45696df5126b3c"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/right-crankcase-cover----@water-pump",
+   "source_table_rows": 29,
+   "parsed_rows": 29,
+   "sha256": "953fd7d6b027b697448e95eb8a9bc5d7b35dc1095897ffd64d7882bea2e6f66c"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/seat@side-cover",
+   "source_table_rows": 11,
+   "parsed_rows": 11,
+   "sha256": "ab7ac908459f96e5f5243b5970718e5804a188fba1a6b32ef5ddfb5a89db41d4"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/starting-clutch",
+   "source_table_rows": 14,
+   "parsed_rows": 14,
+   "sha256": "c3d7ec500c7c34b99bfff6d1e53c4e60d32511c2f049bd9b17bbbee1e0a5b200"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/starting-motor",
+   "source_table_rows": 17,
+   "parsed_rows": 17,
+   "sha256": "78b55da1d9ac780b38ae0cb60f6529bf40d5d458fd092fc64c2e76d61066cef7"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/steering-stem",
+   "source_table_rows": 8,
+   "parsed_rows": 8,
+   "sha256": "a226f8e5b9ae6e04c2f55482385e31f6fa0e8f6d9ce7b276894d29b5801427f2"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/step@stand",
+   "source_table_rows": 16,
+   "parsed_rows": 16,
+   "sha256": "1a7cdbfb408914a8808b0c100d2eb1e082a5aa7a1795c8f5f6b683d31e859200"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/swingarm",
+   "source_table_rows": 33,
+   "parsed_rows": 33,
+   "sha256": "b05b71025e171e2ee0a54b85c81d81473fbb1b952c61e9148ba5ebce6b88752e"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/switch@cable",
+   "source_table_rows": 13,
+   "parsed_rows": 13,
+   "sha256": "ff22bcb96f2a928427e49e73500fb72fc78c5b2e0442f47322323762e0ace9ea"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/throttle-body",
+   "source_table_rows": 13,
+   "parsed_rows": 13,
+   "sha256": "545bceaedfaa2ce72df69844d81dc12188d580a2a557cd1619baf402fef7c28e"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/tools",
+   "source_table_rows": 4,
+   "parsed_rows": 4,
+   "sha256": "c7f505f779594ba2ebed6f9eb4a6f42674e7ef47144ad3fed19afb7bb0b23da8"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/transmission",
+   "source_table_rows": 41,
+   "parsed_rows": 41,
+   "sha256": "c0fb97df8bee69e90df3ba3080def9404cac7c30e1aec5d3e048267fd9dc4d3d"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2023/crf450r/wire-harness",
+   "source_table_rows": 22,
+   "parsed_rows": 22,
+   "sha256": "7dfd7f3f9c33305f55826995e912fc7d44789f2279d3e63276ea52b2c1ebfac2"
+  }
+ ]
+}

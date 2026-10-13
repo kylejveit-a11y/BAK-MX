@@ -1,0 +1,96 @@
+{
+  "target": {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2024,
+    "region": "US",
+    "variant": "standard"
+  },
+  "model_code": "KX252CRFNN",
+  "index_url": "https://www.kawasaki.com/en-us/owner-center/parts/2024/KX252CRFNN",
+  "assembly_url": "https://www.kawasaki.com/en-us/owner-center/parts/312771/2024/KX252CRFNN",
+  "name": "VIEW DIAGRAM",
+  "url": "https://www.kawasaki.com/en-us/owner-center/parts/312771/2024/KX252CRFNN",
+  "headings": [
+    "SHOP ALL",
+    "Vehicle Accessories",
+    "ELEKTRODE\u00ae",
+    "Accessory Packages",
+    "Apparel",
+    "Gifts & Collectibles",
+    "Essentials",
+    "Kawasaki Performance Oils",
+    "Collections",
+    "Digital Catalogs",
+    "Featured",
+    "Sale",
+    "Licensed Products",
+    "VISIT OWNER CENTER",
+    "VISIT RACING",
+    "Racing News",
+    "Team Green\u2122",
+    "Racing Teams",
+    "Research",
+    "Shop",
+    "Finance",
+    "2024 KX\u2122 250 - Ignition System"
+  ],
+  "headers": [
+    "ITEM NAME",
+    "REF #",
+    "PART NUMBER",
+    "QUANTITY",
+    "DESTINATION",
+    "REMARKS"
+  ],
+  "rows": [
+    [
+      "COIL-IGNITION",
+      "21121",
+      "21121-0723",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "CAP-ASSY-PLUG",
+      "21160",
+      "21160-0024",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "PLUG-SPARK,CPR9EB-9(NGK)",
+      "92070",
+      "92070-0021",
+      "1",
+      "",
+      "(OPTION)"
+    ],
+    [
+      "PLUG-SPARK,CR9EIB-9(NGK)",
+      "92070A",
+      "92070-0039",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "BOLT,FLANGED,6X18",
+      "92154",
+      "92154-2976",
+      "2",
+      "",
+      ""
+    ]
+  ],
+  "diagram_urls": [
+    "/Content/Images/Parts/99912-0465-05/E1830.GIF"
+  ],
+  "captured_at": "2026-10-13T11:54:15Z",
+  "authority": "OEM",
+  "quantity_basis": "EXPLICIT_OEM_TABLE",
+  "source_response_sha256": "5903bb06e9a4bfcafcdac269d8461d4b0e72c26c7e9812814881be4dd1d5cd55",
+  "acquisition": "Ordinary requests.Session GET with server-issued public cookies; TLS verification enabled"
+}

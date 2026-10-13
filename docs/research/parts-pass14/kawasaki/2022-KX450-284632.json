@@ -1,0 +1,72 @@
+{
+  "target": {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2022,
+    "region": "US",
+    "variant": "standard"
+  },
+  "model_code": "KX450JNFNN",
+  "index_url": "https://www.kawasaki.com/en-us/owner-center/parts/2022/KX450JNFNN",
+  "assembly_url": "https://www.kawasaki.com/en-us/owner-center/parts/284632/2022/KX450JNFNN",
+  "name": "Accessory(Number Plate)",
+  "url": "https://www.kawasaki.com/en-us/owner-center/parts/284632/2022/KX450JNFNN",
+  "headings": [
+    "SHOP ALL",
+    "Vehicle Accessories",
+    "ELEKTRODE\u00ae",
+    "Accessory Packages",
+    "Apparel",
+    "Gifts & Collectibles",
+    "Essentials",
+    "Kawasaki Performance Oils",
+    "Collections",
+    "Digital Catalogs",
+    "Featured",
+    "Sale",
+    "Licensed Products",
+    "VISIT OWNER CENTER",
+    "VISIT RACING",
+    "Racing News",
+    "Team Green\u2122",
+    "Racing Teams",
+    "Research",
+    "Shop",
+    "Finance",
+    "2022 KX\u2122 450 - Accessory(Number Plate)"
+  ],
+  "headers": [
+    "ITEM NAME",
+    "REF #",
+    "PART NUMBER",
+    "QUANTITY",
+    "DESTINATION",
+    "REMARKS"
+  ],
+  "rows": [
+    [
+      "PLATE-NUMBER,L.GREEN",
+      "58029",
+      "58029-0014-290",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "BOLT,6X10",
+      "92154",
+      "92154-2969",
+      "1",
+      "",
+      ""
+    ]
+  ],
+  "diagram_urls": [
+    "/Content/Images/Parts/99912-0434-03/F2910.GIF"
+  ],
+  "captured_at": "2026-10-13T15:15:06Z",
+  "authority": "OEM",
+  "quantity_basis": "EXPLICIT_OEM_TABLE",
+  "source_response_sha256": "210b052c09446cb06a2f471aac3f50246480b53e5084a022b0ffb43b66558102",
+  "acquisition": "Ordinary requests.Session GET with server-issued public cookies; TLS verification enabled"
+}

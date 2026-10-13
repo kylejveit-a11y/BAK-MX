@@ -1,0 +1,275 @@
+{
+ "source": "Saved source tables; independent skuID row count versus parser output",
+ "rows": [
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/1-title-page",
+   "source_table_rows": 0,
+   "parsed_rows": 0,
+   "sha256": "a9bedbe9c995ec43ee60e15f057184f87233c110d7cf684b776eebc18a519159"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/2-scheduled-service-parts",
+   "source_table_rows": 9,
+   "parsed_rows": 9,
+   "sha256": "d9f5f11d3619c7e40f3a84d215490a6f73bd2f3e6f9bb92af49dd2ec1323cf4e"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/3-maintenance-parts-kit",
+   "source_table_rows": 53,
+   "parsed_rows": 53,
+   "sha256": "30d29bd773b1a5f429a9dcc04d07218b7b79e4783ea09369d96ccf7b420851e0"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/4-piston-rebuilt-kit",
+   "source_table_rows": 16,
+   "parsed_rows": 16,
+   "sha256": "0cd6f9388520166dd89f3f4f58703ab4bc515b29fff5cc03bde311018215cc5e"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/alternate-for-chassis",
+   "source_table_rows": 10,
+   "parsed_rows": 10,
+   "sha256": "8dce79fc08c8d3581fa427b1bd89524a591bfbbdd8baad7299028507afac9526"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/camshaft-%26-chain",
+   "source_table_rows": 13,
+   "parsed_rows": 13,
+   "sha256": "d81a94307be429f71f8f030a3551f00e8398851fb22ffac2edd5137952f9a66f"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/clutch",
+   "source_table_rows": 31,
+   "parsed_rows": 31,
+   "sha256": "f6735bf2ede68b42eb1c82715bf6c95eaefd2bc2fe99f60bb3558f7e3a8c7e06"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/crankcase",
+   "source_table_rows": 24,
+   "parsed_rows": 24,
+   "sha256": "bd3af15bedda77dfd92c2e0ef563db2386974a854fc3ad1e2dd61d6d5424d1a9"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/crankcase-cover-1",
+   "source_table_rows": 21,
+   "parsed_rows": 21,
+   "sha256": "71617160f0858526e4ee883c672ffc2cffb84b0692d415c2d67040ad996c8c42"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/crankshaft-%26-piston",
+   "source_table_rows": 29,
+   "parsed_rows": 29,
+   "sha256": "b1d7e3a7174e1cf24b2fb1c05e0057b75ed3b447ca74038f626de96a67c595e3"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/cylinder",
+   "source_table_rows": 29,
+   "parsed_rows": 29,
+   "sha256": "7aae2049f4d649dcf9f9df2707a646a282789de89ec163394ef04e086fefafbb"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/electrical-1",
+   "source_table_rows": 20,
+   "parsed_rows": 20,
+   "sha256": "2061146a3eac5065148119ce0567a384a5ac31c486b2e3acd2e5be3025fbe4a4"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/electrical-2",
+   "source_table_rows": 35,
+   "parsed_rows": 35,
+   "sha256": "178550854bd2a837a89e048f527104504b7eb789a9dbd1e42c2e76dc66be26d1"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/exhaust",
+   "source_table_rows": 31,
+   "parsed_rows": 31,
+   "sha256": "94018a6bc144cb7a8e2f44b1c5ac085e132cbad8c2113df45976677f8e6ad8d4"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/fender",
+   "source_table_rows": 15,
+   "parsed_rows": 15,
+   "sha256": "6f9d9a8f9bf13efb8688c7f1eeac982899efa656f0045e82e06d75f16bbb8725"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/frame",
+   "source_table_rows": 48,
+   "parsed_rows": 48,
+   "sha256": "c1d24d80869d3eee24be4a4c003276ad29ba9d3dc34f842f96010149bac683d1"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/front-brake-caliper",
+   "source_table_rows": 15,
+   "parsed_rows": 15,
+   "sha256": "7b4284e49c1b8a72d5966bf948fb04bca2b88987aced0948b702a7956a8973a2"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/front-fork",
+   "source_table_rows": 54,
+   "parsed_rows": 54,
+   "sha256": "6fed3d20497c13642ad1dcf4f068bca2aff591f0c533e8853a4a8ba810b218a7"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/front-master-cylinder",
+   "source_table_rows": 17,
+   "parsed_rows": 17,
+   "sha256": "3ea5b4d8a9c8170647e34319ba2fc6f3f4b5d7307684c27bac34166ef8147472"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/front-wheel",
+   "source_table_rows": 17,
+   "parsed_rows": 17,
+   "sha256": "96add53692b8b1c4e375dfd079ea2a1611b063c1748b8f5646bdf6ae5f3791ba"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/fuel-tank",
+   "source_table_rows": 24,
+   "parsed_rows": 24,
+   "sha256": "b92d5cb5db00adb603c3986f0a483b7e76a9542f12953216c0fd223f7f727273"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/generator",
+   "source_table_rows": 8,
+   "parsed_rows": 8,
+   "sha256": "1e8ec1c247c5d6f87ff7b5798aa9bb8c949e5b8c3747af9157834081e4babe81"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/handle-switch-%26-lever",
+   "source_table_rows": 13,
+   "parsed_rows": 13,
+   "sha256": "047fa407badc8cce96eb41fbdf6c9943d70e8d4f3d944fdc2cde953db22b314a"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/intake",
+   "source_table_rows": 38,
+   "parsed_rows": 38,
+   "sha256": "ca497ce89cd9e071fe609128bf567bd478e0d8c17d84a860f42e87a497587d55"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/intake-2",
+   "source_table_rows": 14,
+   "parsed_rows": 14,
+   "sha256": "82b1ebc8d838b23b37a62e59d4370052ec3e403eb82c8aa1804195684d9d13c9"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/oil-cleaner",
+   "source_table_rows": 4,
+   "parsed_rows": 4,
+   "sha256": "9e64f4042011433e4731b49b0055128d992643e2aeb8654d52b762d8b2ab89c6"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/oil-pump",
+   "source_table_rows": 6,
+   "parsed_rows": 6,
+   "sha256": "204795a38a2d7f439664ac34f6cc174536506ec1256982d16e6bb05fb8511a41"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/radiator-%26-hose",
+   "source_table_rows": 22,
+   "parsed_rows": 22,
+   "sha256": "89da42b5cf753b5eb0aa1693afa7e8c13562fb7c1dc80448998facdcfc3d6b24"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/rear-arm",
+   "source_table_rows": 33,
+   "parsed_rows": 33,
+   "sha256": "015296c0196491241d63df7977ed496c0e63ace8363571e901257d36f0d68b29"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/rear-brake-caliper",
+   "source_table_rows": 21,
+   "parsed_rows": 21,
+   "sha256": "8d678acbfc09e4d7c0ff1a8bb4e9f1e91e726fb71d6c19f80ceb54c36af2becf"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/rear-master-cylinder",
+   "source_table_rows": 18,
+   "parsed_rows": 18,
+   "sha256": "a013beb5ffc88894cfed7e0af96bff402e96acb79e7e933d2217d94326b6928d"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/rear-suspension",
+   "source_table_rows": 22,
+   "parsed_rows": 22,
+   "sha256": "83d364600ff9ba365fd57cf83b2769d36a1edc0e37f6ee90ee523d20ef80699c"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/rear-wheel",
+   "source_table_rows": 35,
+   "parsed_rows": 35,
+   "sha256": "c7e2f3e2b525ccf3cb9d3261721deb0436b5499b2f9068b565ee2d5de5ed2267"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/seat",
+   "source_table_rows": 5,
+   "parsed_rows": 5,
+   "sha256": "7125ca95d2070d95a1193de88b19f2b5e915410ee5fc198ddd2166ee23813429"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/shift-cam-%26-fork",
+   "source_table_rows": 15,
+   "parsed_rows": 15,
+   "sha256": "48de6bbe5c95a82f464f7276bf18791bcd141fc0ab36a0caea5883c50ceb42eb"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/shift-shaft",
+   "source_table_rows": 16,
+   "parsed_rows": 16,
+   "sha256": "12af0b38bb2e80c0c86203f25bc9e419e4c47393ca7054e40dfa7e02fb970e0b"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/side-cover",
+   "source_table_rows": 37,
+   "parsed_rows": 37,
+   "sha256": "64b2fc366a0ed6ad0518cbd38a5afe9f84dfd62c1ef07be6eb6757d57cbb1a65"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/stand-%26-footrest",
+   "source_table_rows": 16,
+   "parsed_rows": 16,
+   "sha256": "e157b5480192933dc24b4ed1053b6ce37078134cb08dd0a9b173b5f095831a6c"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/starter",
+   "source_table_rows": 3,
+   "parsed_rows": 3,
+   "sha256": "85e77a0b50b21cd9004ade3cd484f26d1876fc28ad1c9468a3facfd5d60c2ffd"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/starting-motor",
+   "source_table_rows": 10,
+   "parsed_rows": 10,
+   "sha256": "153ae6321364ea37d6f8372f6597f00a65fa74b121a6140e3963110254b90f88"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/steering",
+   "source_table_rows": 19,
+   "parsed_rows": 19,
+   "sha256": "6900fbe546922940a68168e73277fdd31cb2e71dff7a8b0fbdaf685fa872b8a9"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/steering-handle-%26-cable",
+   "source_table_rows": 14,
+   "parsed_rows": 14,
+   "sha256": "aa1f0ef496f0c9f7540cf12b09f9ec806ec6dc97dae906533911092b620f2558"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/transmission",
+   "source_table_rows": 32,
+   "parsed_rows": 32,
+   "sha256": "3907b3a259bc0dd840c8002066c980b3db24c3626efd6612d4a31e4d0e59817c"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/valve",
+   "source_table_rows": 39,
+   "parsed_rows": 39,
+   "sha256": "3be2c90e25247f1a84fdf666c9c8a2d9f8128ab9cf37910343b2fe007d8bf536"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2022/yz250f/water-pump",
+   "source_table_rows": 13,
+   "parsed_rows": 13,
+   "sha256": "46ef6b6fd161ac9b45e6eeccc0f1c13f88ed4cb1307adb252d2f1692ef651386"
+  }
+ ]
+}

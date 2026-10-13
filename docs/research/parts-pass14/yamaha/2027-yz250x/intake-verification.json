@@ -1,0 +1,245 @@
+{
+ "source": "Saved source tables; independent skuID row count versus parser output",
+ "rows": [
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/2-scheduled-service-parts",
+   "source_table_rows": 7,
+   "parsed_rows": 7,
+   "sha256": "cc9b3685a689495ab95ee83853808ff0dbabe200095b6acf70e297d4e295756f"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/3-maintenance-parts-kit",
+   "source_table_rows": 58,
+   "parsed_rows": 58,
+   "sha256": "73b6b865b52862e95e272d6fc70b7dd485f345c1144d61ecf7296b7160c2e48d"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/4-piston-rebuilt-kit",
+   "source_table_rows": 20,
+   "parsed_rows": 20,
+   "sha256": "cc1ea0ef31d0121e6881a62538cb3e27b6e67225ed42d9eab0daa70b37e7991c"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/alternate-for-chassis",
+   "source_table_rows": 26,
+   "parsed_rows": 26,
+   "sha256": "b34f808f237e26df6f8ab3af44484efd935e768c0343b8ace520a715df5bb11b"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/carburetor",
+   "source_table_rows": 83,
+   "parsed_rows": 83,
+   "sha256": "b4a41bf95fd26bcf35198ea25a3d6fd53c983958e3d4568ab63a795d19ad7e9f"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/clutch",
+   "source_table_rows": 32,
+   "parsed_rows": 32,
+   "sha256": "0b9a7d009a9ff533e7b094bc87c55b8acd47e280c993e89ae52d98556c558957"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/crankcase",
+   "source_table_rows": 22,
+   "parsed_rows": 22,
+   "sha256": "62cbf478998ecaedd469c4f11e75bd91ed3e486f4bdb3c218e5d36ec4e0fdcd2"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/crankcase-cover-1",
+   "source_table_rows": 20,
+   "parsed_rows": 20,
+   "sha256": "e9d1dde00e930c1bf7c74764acee185004db20049493048ac9a0938df4b79d8b"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/crankshaft-%26-piston",
+   "source_table_rows": 20,
+   "parsed_rows": 20,
+   "sha256": "5aa33688b6578911ca645b831006f8851b78c8ca2abd59c7317f31246028df09"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/cylinder-head",
+   "source_table_rows": 47,
+   "parsed_rows": 47,
+   "sha256": "6528aa2faa84ea76268dea727e63998101d6c9afd14fc95f9f235f202d976ad7"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/electrical-1",
+   "source_table_rows": 12,
+   "parsed_rows": 12,
+   "sha256": "c16a4cb0d0937c7b3322db955d37102af1fcf58c82f5b13e297af346ce62af12"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/exhaust",
+   "source_table_rows": 25,
+   "parsed_rows": 25,
+   "sha256": "7bf89c49b1d7063ac09024cbea20b903486d665b4e1ecc01c1225687d88f27ac"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/fender",
+   "source_table_rows": 19,
+   "parsed_rows": 19,
+   "sha256": "ab381131fd498d4544f5a1fa177f242550ed64bf70a4dae469b803fa4c154073"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/frame",
+   "source_table_rows": 39,
+   "parsed_rows": 39,
+   "sha256": "6cbea31389b3550e95c956fcd030244345c80eb66a3c0a63293a9b8e91c0a4ef"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/front-brake-caliper",
+   "source_table_rows": 15,
+   "parsed_rows": 15,
+   "sha256": "8362ee77d165eaa6995e7b3069056d70c14eb7dc495d5721480ac9eac0b45c68"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/front-fork",
+   "source_table_rows": 67,
+   "parsed_rows": 67,
+   "sha256": "b26a815c546b34998a580400ebfa71674bf95ee81bb8719e8cfa56ee9e044e0a"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/front-master-cylinder",
+   "source_table_rows": 17,
+   "parsed_rows": 17,
+   "sha256": "ddca1f5425537b0e4937354cba8c469a56a7a30440c12c8229db59862db25066"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/front-wheel",
+   "source_table_rows": 17,
+   "parsed_rows": 17,
+   "sha256": "09a277b3797b46015104fdb96f5350c066cd943896f74c7dd3c7b9ea613d40fa"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/fuel-tank",
+   "source_table_rows": 25,
+   "parsed_rows": 25,
+   "sha256": "e579a1156e812bbe795754cd293c61b8912a2daa0e0e716e08aa1b6a9d1c1289"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/generator",
+   "source_table_rows": 5,
+   "parsed_rows": 5,
+   "sha256": "a4ca6f51e4e7d5440ccb9ebea838b0c2d0f8da88969aae27964dad5c0121d613"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/governor",
+   "source_table_rows": 23,
+   "parsed_rows": 23,
+   "sha256": "ae3fa755fc3ceb20ba359115e02251ffb52dc9353637fd0a9150893fe912c6fb"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/handle-switch-%26-lever",
+   "source_table_rows": 15,
+   "parsed_rows": 15,
+   "sha256": "427d3bf995fcb699d65f52c7a19538932b95651fe7d94f3d7629aabc78bade33"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/intake",
+   "source_table_rows": 27,
+   "parsed_rows": 27,
+   "sha256": "6fb50f55ab668b61face886e2ba04238548f65da7fd14ca344016db35063b76e"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/optional-parts-1",
+   "source_table_rows": 11,
+   "parsed_rows": 11,
+   "sha256": "198d133b5e5183ca69f11e23e15c2fc753c717b5ec7a9ad3e73e4c5ecd02ce20"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/radiator-%26-hose",
+   "source_table_rows": 14,
+   "parsed_rows": 14,
+   "sha256": "8d5c58d65983ca5b39ebb30552ef12933a8fb339f53c10167e61314c484011d5"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/rear-arm",
+   "source_table_rows": 38,
+   "parsed_rows": 38,
+   "sha256": "dc15a5d1d113570ee0f2956618408250bc8a06abc78ce6bd3a520454a78b5dec"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/rear-brake-caliper",
+   "source_table_rows": 20,
+   "parsed_rows": 20,
+   "sha256": "56ebcae470f31b430247b8fadb300549dee3a4cdb23728b4793ad9a680650d2a"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/rear-master-cylinder",
+   "source_table_rows": 18,
+   "parsed_rows": 18,
+   "sha256": "577ee0f4a6f2aa9002864a5c84a0621e65064421fd076baa3685e04fd9e4f011"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/rear-suspension",
+   "source_table_rows": 24,
+   "parsed_rows": 24,
+   "sha256": "de92d73ab7e26f5bf7671285807161feb91d678a55958b24c3cdc5e2000d31ba"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/rear-wheel",
+   "source_table_rows": 42,
+   "parsed_rows": 42,
+   "sha256": "d3d7a0464b2a16c858a195569373f4aa69fbef5903dd2574e32558360a9ab4e0"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/seat",
+   "source_table_rows": 9,
+   "parsed_rows": 9,
+   "sha256": "f01380e07a9b85972fb63e76ea35eb9a561023934a7ff8ce5d1b020662820e46"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/shift-cam-%26-fork",
+   "source_table_rows": 16,
+   "parsed_rows": 16,
+   "sha256": "917a193f8b4eeb9b4bda087128a878a9931ea4861f542cb441b28b31cf5056c9"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/shift-shaft",
+   "source_table_rows": 15,
+   "parsed_rows": 15,
+   "sha256": "ebc6c19c7323a593d325da597f957af39b205ea8dcc25a63f9fbb2fc1054fc9b"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/side-cover",
+   "source_table_rows": 27,
+   "parsed_rows": 27,
+   "sha256": "5d112dfeabee55955215c44ffa9d31b1269b589efac6c76d7c61285a05965bf5"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/stand-%26-footrest",
+   "source_table_rows": 23,
+   "parsed_rows": 23,
+   "sha256": "18934d4edaa1a47cbd7806de07ed47d20eb1ea5ff20d2839d5e43cee1ce7eee9"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/starter",
+   "source_table_rows": 25,
+   "parsed_rows": 25,
+   "sha256": "1515a173039de352b6cf09a55f446a032be45a0af0262a4052213f7e1a3f7411"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/steering",
+   "source_table_rows": 18,
+   "parsed_rows": 18,
+   "sha256": "20ffafc930b574aa06c129d43e342309fd8b58056802ede52f9226abe8fb7db6"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/steering-handle-%26-cable",
+   "source_table_rows": 19,
+   "parsed_rows": 19,
+   "sha256": "786ce1109883d56f3fcdab2889901121195ea0597be0bd4dc124e05ca59da59a"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/transmission",
+   "source_table_rows": 27,
+   "parsed_rows": 27,
+   "sha256": "032a9bce3d3326789f3aa0dc382df866b7724b4bb78f553765b7b7894beaf5d0"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz250x/water-pump",
+   "source_table_rows": 14,
+   "parsed_rows": 14,
+   "sha256": "a9652feaf80eacdc9c13f16df4a2c09fb5f79b289bd02e269be52ef068d6b971"
+  }
+ ]
+}

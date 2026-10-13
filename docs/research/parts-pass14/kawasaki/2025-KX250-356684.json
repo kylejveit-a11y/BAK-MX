@@ -1,0 +1,80 @@
+{
+  "target": {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2025,
+    "region": "US",
+    "variant": "standard"
+  },
+  "model_code": "KX252ESFNN",
+  "index_url": "https://www.kawasaki.com/en-us/owner-center/parts/2025/KX252ESFNN",
+  "assembly_url": "https://www.kawasaki.com/en-us/owner-center/parts/356684/2025/KX252ESFNN",
+  "name": "VIEW DIAGRAM",
+  "url": "https://www.kawasaki.com/en-us/owner-center/parts/356684/2025/KX252ESFNN",
+  "headings": [
+    "SHOP ALL",
+    "Vehicle Accessories",
+    "ELEKTRODE\u00ae",
+    "Accessory Packages",
+    "Apparel",
+    "Gifts & Collectibles",
+    "Essentials",
+    "Kawasaki Performance Oils",
+    "Collections",
+    "Digital Catalogs",
+    "Featured",
+    "Sale",
+    "Licensed Products",
+    "VISIT OWNER CENTER",
+    "VISIT RACING",
+    "Racing News",
+    "Team Green\u2122",
+    "Racing Teams",
+    "Research",
+    "Shop",
+    "Finance",
+    "2025 KX\u2122 250 - Ignition System"
+  ],
+  "headers": [
+    "ITEM NAME",
+    "REF #",
+    "PART NUMBER",
+    "QUANTITY",
+    "DESTINATION",
+    "REMARKS"
+  ],
+  "rows": [
+    [
+      "COIL-IGNITION",
+      "21121",
+      "21121-0723",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "CAP-ASSY-PLUG",
+      "21160",
+      "21160-0027",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "PLUG-SPARK,SILMAR9F9(NGK)",
+      "92070",
+      "92070-0721",
+      "1",
+      "",
+      ""
+    ]
+  ],
+  "diagram_urls": [
+    "/Content/Images/Parts/99912-2265-02/E1830.GIF"
+  ],
+  "captured_at": "2026-10-13T11:39:27Z",
+  "authority": "OEM",
+  "quantity_basis": "EXPLICIT_OEM_TABLE",
+  "source_response_sha256": "cc3ebd1b4f7a3fada8b4694765404e6c17b802b2b4160a595cd1c54143e1fc5c",
+  "acquisition": "Ordinary requests.Session GET with server-issued public cookies; TLS verification enabled"
+}

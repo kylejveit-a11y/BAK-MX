@@ -1,0 +1,96 @@
+{
+  "target": {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2023,
+    "region": "US",
+    "variant": "standard"
+  },
+  "model_code": "KX450JPFNN",
+  "index_url": "https://www.kawasaki.com/en-us/owner-center/parts/2023/KX450JPFNN",
+  "assembly_url": "https://www.kawasaki.com/en-us/owner-center/parts/284627/2023/KX450JPFNN",
+  "name": "Owner's Tools",
+  "url": "https://www.kawasaki.com/en-us/owner-center/parts/284627/2023/KX450JPFNN",
+  "headings": [
+    "SHOP ALL",
+    "Vehicle Accessories",
+    "ELEKTRODE\u00ae",
+    "Accessory Packages",
+    "Apparel",
+    "Gifts & Collectibles",
+    "Essentials",
+    "Kawasaki Performance Oils",
+    "Collections",
+    "Digital Catalogs",
+    "Featured",
+    "Sale",
+    "Licensed Products",
+    "VISIT OWNER CENTER",
+    "VISIT RACING",
+    "Racing News",
+    "Team Green\u2122",
+    "Racing Teams",
+    "Research",
+    "Shop",
+    "Finance",
+    "2023 KX\u2122 450 - Owner's Tools"
+  ],
+  "headers": [
+    "ITEM NAME",
+    "REF #",
+    "PART NUMBER",
+    "QUANTITY",
+    "DESTINATION",
+    "REMARKS"
+  ],
+  "rows": [
+    [
+      "GASKET-LIQUID,TB1211F,CLEAR",
+      "92104",
+      "92104-0004",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "GASKET-LIQUID,TB1216,GRAY",
+      "92104A",
+      "92104-1063",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "GASKET-LIQUID,TB1216B,BLACK",
+      "92104B",
+      "92104-1064",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "TOOL-WRENCH,NIPPLE,6X8",
+      "92110",
+      "92110-0004",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "TOOL-WRENCH,BOX,16MM",
+      "92110A",
+      "92110-0005",
+      "1",
+      "",
+      ""
+    ]
+  ],
+  "diagram_urls": [
+    "/Content/Images/Parts/99912-0434-03/F2810.GIF"
+  ],
+  "captured_at": "2026-10-13T15:15:48Z",
+  "authority": "OEM",
+  "quantity_basis": "EXPLICIT_OEM_TABLE",
+  "source_response_sha256": "0cb2eb343fa6530e7201d952fd6e1a2d3998a6e29a006f2f0626655bb975a7e2",
+  "acquisition": "Ordinary requests.Session GET with server-issued public cookies; TLS verification enabled"
+}

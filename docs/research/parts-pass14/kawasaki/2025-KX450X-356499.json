@@ -1,0 +1,88 @@
+{
+  "target": {
+    "manufacturer": "Kawasaki",
+    "model": "KX450X",
+    "model_year": 2025,
+    "region": "US",
+    "variant": "standard"
+  },
+  "model_code": "KX450NSFNN",
+  "index_url": "https://www.kawasaki.com/en-us/owner-center/parts/2025/KX450NSFNN",
+  "assembly_url": "https://www.kawasaki.com/en-us/owner-center/parts/356499/2025/KX450NSFNN",
+  "name": "Fuel Pump",
+  "url": "https://www.kawasaki.com/en-us/owner-center/parts/356499/2025/KX450NSFNN",
+  "headings": [
+    "SHOP ALL",
+    "Vehicle Accessories",
+    "ELEKTRODE\u00ae",
+    "Accessory Packages",
+    "Apparel",
+    "Gifts & Collectibles",
+    "Essentials",
+    "Kawasaki Performance Oils",
+    "Collections",
+    "Digital Catalogs",
+    "Featured",
+    "Sale",
+    "Licensed Products",
+    "VISIT OWNER CENTER",
+    "VISIT RACING",
+    "Racing News",
+    "Team Green\u2122",
+    "Racing Teams",
+    "Research",
+    "Shop",
+    "Finance",
+    "2025 KX450X - Fuel Pump"
+  ],
+  "headers": [
+    "ITEM NAME",
+    "REF #",
+    "PART NUMBER",
+    "QUANTITY",
+    "DESTINATION",
+    "REMARKS"
+  ],
+  "rows": [
+    [
+      "PUMP-FUEL",
+      "49040",
+      "49040-0839",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "TUBE-ASSY",
+      "51044",
+      "51044-1253",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "RING-O",
+      "92055",
+      "92055-0899",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "BOLT,FLANGED,6X16",
+      "92154",
+      "92154-0899",
+      "5",
+      "",
+      ""
+    ]
+  ],
+  "diagram_urls": [
+    "/Content/Images/Parts/99912-0998-03/E1520.GIF"
+  ],
+  "captured_at": "2026-10-13T15:16:40Z",
+  "authority": "OEM",
+  "quantity_basis": "EXPLICIT_OEM_TABLE",
+  "source_response_sha256": "9c1566f2c0611d34eeccf7190ce1e7f875a9871ea6681a11561e92ed35273cfb",
+  "acquisition": "Ordinary requests.Session GET with server-issued public cookies; TLS verification enabled"
+}

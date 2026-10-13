@@ -1,0 +1,96 @@
+{
+  "target": {
+    "manufacturer": "Kawasaki",
+    "model": "KX450X",
+    "model_year": 2023,
+    "region": "US",
+    "variant": "standard"
+  },
+  "model_code": "KX450KPFNN",
+  "index_url": "https://www.kawasaki.com/en-us/owner-center/parts/2023/KX450KPFNN",
+  "assembly_url": "https://www.kawasaki.com/en-us/owner-center/parts/265355/2023/KX450KPFNN",
+  "name": "Labels",
+  "url": "https://www.kawasaki.com/en-us/owner-center/parts/265355/2023/KX450KPFNN",
+  "headings": [
+    "SHOP ALL",
+    "Vehicle Accessories",
+    "ELEKTRODE\u00ae",
+    "Accessory Packages",
+    "Apparel",
+    "Gifts & Collectibles",
+    "Essentials",
+    "Kawasaki Performance Oils",
+    "Collections",
+    "Digital Catalogs",
+    "Featured",
+    "Sale",
+    "Licensed Products",
+    "VISIT OWNER CENTER",
+    "VISIT RACING",
+    "Racing News",
+    "Team Green\u2122",
+    "Racing Teams",
+    "Research",
+    "Shop",
+    "Finance",
+    "2023 KX\u2122 450X - Labels"
+  ],
+  "headers": [
+    "ITEM NAME",
+    "REF #",
+    "PART NUMBER",
+    "QUANTITY",
+    "DESTINATION",
+    "REMARKS"
+  ],
+  "rows": [
+    [
+      "LABEL,DISCLAIMER",
+      "56030",
+      "56030-0926",
+      "1",
+      "US",
+      ""
+    ],
+    [
+      "LABEL,NOISE EMISSION",
+      "56030A",
+      "56030-1231",
+      "1",
+      "US",
+      ""
+    ],
+    [
+      "LABEL,DISCLAIMER",
+      "56030B",
+      "56030-1233",
+      "1",
+      "CN",
+      ""
+    ],
+    [
+      "LABEL-WARNING,IMPORTANT NOTICE",
+      "56071",
+      "56071-0028",
+      "1",
+      "US",
+      ""
+    ],
+    [
+      "LABEL-WARNING,IMPORTANT NOTICE",
+      "56071A",
+      "56071-0029",
+      "1",
+      "CN",
+      ""
+    ]
+  ],
+  "diagram_urls": [
+    "/Content/Images/Parts/99912-0467-03/F2860.GIF"
+  ],
+  "captured_at": "2026-10-13T15:15:56Z",
+  "authority": "OEM",
+  "quantity_basis": "EXPLICIT_OEM_TABLE",
+  "source_response_sha256": "5c939119432c2c065641185a4a3d731d2de723d53e59924138e1fb49fe9d82f0",
+  "acquisition": "Ordinary requests.Session GET with server-issued public cookies; TLS verification enabled"
+}

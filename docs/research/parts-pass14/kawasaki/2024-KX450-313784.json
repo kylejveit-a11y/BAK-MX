@@ -1,0 +1,88 @@
+{
+  "target": {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2024,
+    "region": "US",
+    "variant": "standard"
+  },
+  "model_code": "KX450MRFNN",
+  "index_url": "https://www.kawasaki.com/en-us/owner-center/parts/2024/KX450MRFNN",
+  "assembly_url": "https://www.kawasaki.com/en-us/owner-center/parts/313784/2024/KX450MRFNN",
+  "name": "VIEW DIAGRAM",
+  "url": "https://www.kawasaki.com/en-us/owner-center/parts/313784/2024/KX450MRFNN",
+  "headings": [
+    "SHOP ALL",
+    "Vehicle Accessories",
+    "ELEKTRODE\u00ae",
+    "Accessory Packages",
+    "Apparel",
+    "Gifts & Collectibles",
+    "Essentials",
+    "Kawasaki Performance Oils",
+    "Collections",
+    "Digital Catalogs",
+    "Featured",
+    "Sale",
+    "Licensed Products",
+    "VISIT OWNER CENTER",
+    "VISIT RACING",
+    "Racing News",
+    "Team Green\u2122",
+    "Racing Teams",
+    "Research",
+    "Shop",
+    "Finance",
+    "2024 KX\u2122 450 - Ignition System"
+  ],
+  "headers": [
+    "ITEM NAME",
+    "REF #",
+    "PART NUMBER",
+    "QUANTITY",
+    "DESTINATION",
+    "REMARKS"
+  ],
+  "rows": [
+    [
+      "COIL-IGNITION",
+      "21121",
+      "21121-0723",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "CAP-ASSY-PLUG",
+      "21160",
+      "21160-0024",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "PLUG-SPARK,CPR8EB-9(NGK)",
+      "92070",
+      "92070-0020",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "PLUG-SPARK,CPR9EB-9(NGK)",
+      "92070A",
+      "92070-0021",
+      "1",
+      "",
+      "(OPTION)"
+    ]
+  ],
+  "diagram_urls": [
+    "/Content/Images/Parts/99912-0996-02/E1830.GIF"
+  ],
+  "captured_at": "2026-10-13T11:54:33Z",
+  "authority": "OEM",
+  "quantity_basis": "EXPLICIT_OEM_TABLE",
+  "source_response_sha256": "c089cdaf0703709301451ad80d432130e3029892a94db515a3f45a15e6477d53",
+  "acquisition": "Ordinary requests.Session GET with server-issued public cookies; TLS verification enabled"
+}

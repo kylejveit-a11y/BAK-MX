@@ -1,0 +1,305 @@
+{
+ "source": "Saved source tables; independent skuID row count versus parser output",
+ "rows": [
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/air-cleaner",
+   "source_table_rows": 26,
+   "parsed_rows": 26,
+   "sha256": "f0915ae43d887fd8aaab3625b5113281fe0ba52050d310bc8d893177f2e14f4f"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/alternator",
+   "source_table_rows": 9,
+   "parsed_rows": 9,
+   "sha256": "2d6cedb7b86b085e8606f1044e197f5c517cfdc7cad7bf818ac317fad724662d"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/balancer",
+   "source_table_rows": 5,
+   "parsed_rows": 5,
+   "sha256": "4b6bf924dbd435b1818b2881bbeb74efd69c0d60cce7ae37f0614e9edd61cedc"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/battery",
+   "source_table_rows": 22,
+   "parsed_rows": 22,
+   "sha256": "ac47db5b5d1418867fa9e5f2d686b2c285b51063f1883f1d714bd0c1189627fd"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/cam-chain@tensioner",
+   "source_table_rows": 14,
+   "parsed_rows": 14,
+   "sha256": "8a321a05b539bf57d6e31c74e5e85484120297b38ea5029602e4679bd3aa6cee"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/camshaft@valve",
+   "source_table_rows": 74,
+   "parsed_rows": 74,
+   "sha256": "815bd2e40f58c09520f8c5b2aa1b93aa34f8a39c19d76a172324f1fb12f6a1a1"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/caution-labels",
+   "source_table_rows": 1,
+   "parsed_rows": 1,
+   "sha256": "3e72c5b8fc6ca9517a172f761dfb13a4e348766f5669735ae6f9ebbf60d46087"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/clutch",
+   "source_table_rows": 22,
+   "parsed_rows": 22,
+   "sha256": "294db9f82d6a94cb32e143925c3bffb07106bfafe92e638f4fe10e127c3f704c"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/color-table",
+   "source_table_rows": 0,
+   "parsed_rows": 0,
+   "sha256": "7880e0851685ff6d631997a1d8c8626677f5b5ae5c8414766b8467fd2b38879f"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/crankcase",
+   "source_table_rows": 38,
+   "parsed_rows": 38,
+   "sha256": "2cbf7af32b9bdc9926e7de3d4bd7fd08d6bdcb530ce26c85027d831ab9d2ce33"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/crankshaft@piston",
+   "source_table_rows": 11,
+   "parsed_rows": 11,
+   "sha256": "007ce8c5ebf04fe63a8322dbb5e92a4341906a53fb44f86d1fe045f179406db1"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/cushion-arm",
+   "source_table_rows": 25,
+   "parsed_rows": 25,
+   "sha256": "fe722905441fd7ffb7ce236630dd6dd29eaee1ea0234b191b7082ab03dc05c6a"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/cylinder",
+   "source_table_rows": 5,
+   "parsed_rows": 5,
+   "sha256": "586c0d69fec3d1642bdbdec13111282a8acc658bd4e69bd477193b3136ff052a"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/cylinder-head",
+   "source_table_rows": 24,
+   "parsed_rows": 24,
+   "sha256": "568296e302a6d610828718c901cc426a4cd817cadacf0e254ce6dcf157323f03"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/cylinder-head-cover",
+   "source_table_rows": 6,
+   "parsed_rows": 6,
+   "sha256": "12e54cea07ebbf71469f7c812b43021f2a40446bbfc7762410cfa668c3e22e9d"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/frame",
+   "source_table_rows": 24,
+   "parsed_rows": 24,
+   "sha256": "43a8dcce0a3377d54373b00eb8ce4c61dccd16540164e470607685251dfec3c4"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/front-brake-caliper",
+   "source_table_rows": 16,
+   "parsed_rows": 16,
+   "sha256": "b083fb0676a73a0ba65a57c595325d11a65daa1a0281bab1fb97025acbccd408"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/front-brake-master-------cylinder",
+   "source_table_rows": 21,
+   "parsed_rows": 21,
+   "sha256": "4bcd52cb9b7f52ac5b2e8dfd09195cdd4e1d25c806e34d7abb18728bae54bb5c"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/front-fender",
+   "source_table_rows": 4,
+   "parsed_rows": 4,
+   "sha256": "c04f912a35c9247a4ef0280d80e3a7d60a4c395c126b5e71fa77afa987d6062c"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/front-fork",
+   "source_table_rows": 36,
+   "parsed_rows": 36,
+   "sha256": "fbf434a611ce278d3bcc83d02c82c28eceb82df037d02e55b8d8ad9650a59466"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/front-wheel",
+   "source_table_rows": 25,
+   "parsed_rows": 25,
+   "sha256": "8f62eaed3e6d814d3a2cf2949aa2c449f17e47e2947aebf826afe5d74e39f1e3"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/fuel-tank-%281%29",
+   "source_table_rows": 29,
+   "parsed_rows": 29,
+   "sha256": "98a90aec047e725ce507291d9aec445e48a614d678238973c7b469cca46c09df"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/gasket-kit-a",
+   "source_table_rows": 12,
+   "parsed_rows": 12,
+   "sha256": "6359a9ef95df5033289d9a272699d52ee7f9d7fa86ac8d17af2c1df388033521"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/gasket-kit-b",
+   "source_table_rows": 22,
+   "parsed_rows": 22,
+   "sha256": "16f94ed23fc09433d57766aa088a113be2a434e85b6961515446a0999f1d0faf"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/gearshift-drum",
+   "source_table_rows": 30,
+   "parsed_rows": 30,
+   "sha256": "030952bbbbb9ba7bf21eab889be9dabcdf6565ded256063dd2e3d91330109221"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/handle-lever@switch@cable",
+   "source_table_rows": 26,
+   "parsed_rows": 26,
+   "sha256": "6ea3a1edb79a5e00536f661ca76ab54aa1757b754030892cea634aefbb090b6c"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/handlebar@top-bridge",
+   "source_table_rows": 17,
+   "parsed_rows": 17,
+   "sha256": "d955b68111c9d01a7bf2b25b082e341791d3437729b13c2e0b447c8660dc38d8"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/left-crankcase-cover",
+   "source_table_rows": 18,
+   "parsed_rows": 18,
+   "sha256": "2b35a2aee36f5618b1a5da01b4bd494ce4eb7b4865f92e23155afb8f9edf9297"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/marks",
+   "source_table_rows": 2,
+   "parsed_rows": 2,
+   "sha256": "1df33b1241525204053568c996cc9171066da8293c8622367a590c22a445247a"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/muffler",
+   "source_table_rows": 25,
+   "parsed_rows": 25,
+   "sha256": "977a4adb9b4d02fb806715bc04bed6250f7e8ba754c5adaaf676e53b915261aa"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/oil-pump",
+   "source_table_rows": 21,
+   "parsed_rows": 21,
+   "sha256": "87a972100d9f11c3787a2a24b441aba55a39f4b836980b735cf20b4616b9daea"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/pedal",
+   "source_table_rows": 9,
+   "parsed_rows": 9,
+   "sha256": "d4f69ccd3104c13586791b9c865279ed626fb380bee1db9b2d33bafac588988f"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/radiator",
+   "source_table_rows": 21,
+   "parsed_rows": 21,
+   "sha256": "6788b82a0d3c298ca234ade3134513bffff7b946818b1860640f56c367f888b4"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/radiator-shroud-%281%29",
+   "source_table_rows": 4,
+   "parsed_rows": 4,
+   "sha256": "bfd48a58d3570fffe2c887f4002609c45390d60822e60e0f6ca80f7839ba3325"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/rear-brake-caliper",
+   "source_table_rows": 19,
+   "parsed_rows": 19,
+   "sha256": "5a1b7da870089aac51ac605c924161956501df14596d98b939acbf8717a1ca5a"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/rear-brake-master--------cylinder",
+   "source_table_rows": 15,
+   "parsed_rows": 15,
+   "sha256": "73af0daf11c8bf0942c65bc2bb25bc4eddd164399d9cb2f03a60bdee8d92a9ee"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/rear-fender",
+   "source_table_rows": 4,
+   "parsed_rows": 4,
+   "sha256": "42fb518b83a9e66d3b3ae9ecf0a53a9b614b126fef7a024257eb884e109bdff7"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/rear-shock-absorber",
+   "source_table_rows": 37,
+   "parsed_rows": 37,
+   "sha256": "65d4b87de78e955369b6bcfa24a52bd8c3ff9c9212df0b615d6df852f2e2a530"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/rear-wheel",
+   "source_table_rows": 34,
+   "parsed_rows": 34,
+   "sha256": "41c27517ede0a9de1c17c230060f3539439201adc57fe5ae060e032f34f34c7a"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/right-crankcase-cover----@water-pump",
+   "source_table_rows": 38,
+   "parsed_rows": 38,
+   "sha256": "f95b83b5ab2bfe9d21de993c70e0f0ed26b156c4c0d0bc1aaada6fcfa6297db4"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/seat@side-cover",
+   "source_table_rows": 10,
+   "parsed_rows": 10,
+   "sha256": "59904ab9c5cff36663e220c5cc10ce6cfb8ddb9b001553fa3a18ae73ad1ba099"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/starter-motor",
+   "source_table_rows": 17,
+   "parsed_rows": 17,
+   "sha256": "5700592b4e9c9b3c1ea236af465372d13341195cb6cc72a11175a48691abdb14"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/starting-clutch",
+   "source_table_rows": 14,
+   "parsed_rows": 14,
+   "sha256": "f3fd9da01df3ff82626b8997b40097728d448852fd721fd395646446c0d2d26a"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/steering-stem",
+   "source_table_rows": 8,
+   "parsed_rows": 8,
+   "sha256": "234e3fce2d81b2426fc69dd781b9c1a3736168a64ed473872ed63cbad9a4b4b6"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/step@stand",
+   "source_table_rows": 16,
+   "parsed_rows": 16,
+   "sha256": "45dc6337c7c4be20f410739b089786a587b555dc8b476ea83b757221edeab657"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/swingarm",
+   "source_table_rows": 33,
+   "parsed_rows": 33,
+   "sha256": "08aa99843bb05150f1e669a3f3c70648fb40e2800befce4b1ebf5fb88fa96925"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/throttle-body",
+   "source_table_rows": 13,
+   "parsed_rows": 13,
+   "sha256": "f5d005c297a12fa907deba81761995e598e4286752df39db6b5826967032cde4"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/tools",
+   "source_table_rows": 4,
+   "parsed_rows": 4,
+   "sha256": "a0f0ba9411282928685177ab8b9458b37f65eb9e64cb4113a3c1163618aef3bf"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/transmission",
+   "source_table_rows": 44,
+   "parsed_rows": 44,
+   "sha256": "b298863200e13e570b66f8347280fb030056d90aef843148f24b7b2e45d715d6"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/honda/2022/crf250r/wire-harness",
+   "source_table_rows": 23,
+   "parsed_rows": 23,
+   "sha256": "ec8c4204f5e6224c5723bb8028bdc92eb7b01eac5bb453d598f7bd86283f2ac2"
+  }
+ ]
+}

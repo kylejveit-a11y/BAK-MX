@@ -1,0 +1,88 @@
+{
+  "target": {
+    "manufacturer": "Kawasaki",
+    "model": "KX250X",
+    "model_year": 2023,
+    "region": "US",
+    "variant": "standard"
+  },
+  "model_code": "KX252DPFNN",
+  "index_url": "https://www.kawasaki.com/en-us/owner-center/parts/2023/KX252DPFNN",
+  "assembly_url": "https://www.kawasaki.com/en-us/owner-center/parts/313580/2023/KX252DPFNN",
+  "name": "Stand(s)",
+  "url": "https://www.kawasaki.com/en-us/owner-center/parts/313580/2023/KX252DPFNN",
+  "headings": [
+    "SHOP ALL",
+    "Vehicle Accessories",
+    "ELEKTRODE\u00ae",
+    "Accessory Packages",
+    "Apparel",
+    "Gifts & Collectibles",
+    "Essentials",
+    "Kawasaki Performance Oils",
+    "Collections",
+    "Digital Catalogs",
+    "Featured",
+    "Sale",
+    "Licensed Products",
+    "VISIT OWNER CENTER",
+    "VISIT RACING",
+    "Racing News",
+    "Team Green\u2122",
+    "Racing Teams",
+    "Research",
+    "Shop",
+    "Finance",
+    "2023 KX\u2122 250X - Stand(s)"
+  ],
+  "headers": [
+    "ITEM NAME",
+    "REF #",
+    "PART NUMBER",
+    "QUANTITY",
+    "DESTINATION",
+    "REMARKS"
+  ],
+  "rows": [
+    [
+      "STAND-SIDE,P.SILVER",
+      "34024",
+      "34024-0175-458",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "BOLT,SIDE STAND",
+      "92002",
+      "92002-1813",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "SPRING,SIDE STAND",
+      "92145",
+      "92145-0454",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "NUT,LOCK,10MM",
+      "92210",
+      "92210-0784",
+      "1",
+      "",
+      ""
+    ]
+  ],
+  "diagram_urls": [
+    "/Content/Images/Parts/99912-0533-04/F2190.GIF"
+  ],
+  "captured_at": "2026-10-13T15:15:42Z",
+  "authority": "OEM",
+  "quantity_basis": "EXPLICIT_OEM_TABLE",
+  "source_response_sha256": "11efe402e2f7855d887f600e58a5b7aaabaa4b34e510eafb2f27b3e04e3718a2",
+  "acquisition": "Ordinary requests.Session GET with server-issued public cookies; TLS verification enabled"
+}

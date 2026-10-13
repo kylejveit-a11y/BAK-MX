@@ -1,0 +1,281 @@
+{
+ "source": "Saved source tables; independent skuID row count versus parser output",
+ "rows": [
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/1-title-page",
+   "source_table_rows": 0,
+   "parsed_rows": 0,
+   "sha256": "a993352afe6ad500f8f7a33d82c627569746fe2781affc1235a46218bdc8ed11"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/2-scheduled-service-parts",
+   "source_table_rows": 9,
+   "parsed_rows": 9,
+   "sha256": "1195c7e1c4b79a23d81115baaefcf6dfde30dc2070d6791249aabfa3890794f7"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/3-maintenance-parts-kit",
+   "source_table_rows": 60,
+   "parsed_rows": 60,
+   "sha256": "b271982aa67ed7ad0dcfcb9a70f270c43bd064433e9251fd1dcc17e34597cc15"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/4-piston-rebuilt-kit",
+   "source_table_rows": 17,
+   "parsed_rows": 17,
+   "sha256": "66db47647e4fde64f88c5886925e760516087c80d83d8d6be014366830e67f9d"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/air-induction-system",
+   "source_table_rows": 3,
+   "parsed_rows": 3,
+   "sha256": "ac70ba1660f9fb90674c2e39ce19ca5402731d1d2d671fa8a1110f5ea4d91f39"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/alternate-for-chassis",
+   "source_table_rows": 26,
+   "parsed_rows": 26,
+   "sha256": "0d2a56bf4c939a383f3e1a1f778c1055f0960592a697cd52409b8f70e027588e"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/camshaft-%26-chain",
+   "source_table_rows": 13,
+   "parsed_rows": 13,
+   "sha256": "5bf10312ae1c3370801c73315f9fd860cb5290a47e3429c4340b157b2eaab129"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/clutch",
+   "source_table_rows": 31,
+   "parsed_rows": 31,
+   "sha256": "21a59f7b8a9136668d7eda3bac9a1280b1771c4fafdfc46ddb8ae6c49cae6865"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/crankcase",
+   "source_table_rows": 29,
+   "parsed_rows": 29,
+   "sha256": "7dc1b2ecd29cd152c82a0dfe95da8affa687a846585d09373ccba237400b651a"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/crankcase-cover-1",
+   "source_table_rows": 23,
+   "parsed_rows": 23,
+   "sha256": "41933a36f5cb333c6d7a4f53b2bc975edca43514f282808fc22253f5816a3d1a"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/crankshaft-%26-piston",
+   "source_table_rows": 19,
+   "parsed_rows": 19,
+   "sha256": "d49aab9afea22044ace7e86c86d98a9dd84f1ccb4e36c53f1ab3605ae5005a1f"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/cylinder",
+   "source_table_rows": 31,
+   "parsed_rows": 31,
+   "sha256": "6217be860476c0e71732af38e916f9b222a34349860e3356b3069df7a29f42e0"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/electrical-1",
+   "source_table_rows": 21,
+   "parsed_rows": 21,
+   "sha256": "bb295e6d9cca2284f9bdeaba0ad1aa7268fd4792860d46533e49cc2f9a2cdc60"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/electrical-2",
+   "source_table_rows": 29,
+   "parsed_rows": 29,
+   "sha256": "0132cc57ab0a64c835b2cfd4dd26f109033a3e9c0ec5bed4193471517ceed246"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/exhaust",
+   "source_table_rows": 31,
+   "parsed_rows": 31,
+   "sha256": "b87b50fc33bda0943c1ab91adc0f96406e75b5f22a4ace5f4397ae8c640d728b"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/fender",
+   "source_table_rows": 14,
+   "parsed_rows": 14,
+   "sha256": "177775990c86844f9a1f9c8815171fb12ce96858a4ccd6dfff17d3bfccc6987c"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/frame",
+   "source_table_rows": 51,
+   "parsed_rows": 51,
+   "sha256": "489f47288bb1d9973425da013c3826d1deacfcedd98a46b61c98a6c42880d7cd"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/front-brake-caliper",
+   "source_table_rows": 15,
+   "parsed_rows": 15,
+   "sha256": "a0b6e19cb37ec2672e27840102d8eddb79f236a367744abbe7bb2fcce3bb8afa"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/front-fork",
+   "source_table_rows": 63,
+   "parsed_rows": 63,
+   "sha256": "956a32ed370302f6ea08560588a7de2201c61fea0c2cdb318df5f27a1ac06686"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/front-master-cylinder",
+   "source_table_rows": 19,
+   "parsed_rows": 19,
+   "sha256": "c5c2d54a20e1cc746b18a58eff1d79232989b6c53fdd2c88f539fb5c8531c423"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/front-wheel",
+   "source_table_rows": 17,
+   "parsed_rows": 17,
+   "sha256": "18fc961fca07571adfe3aaeeb351fd381c46c8c28176e7446d49cf5c575d1bd3"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/fuel-tank",
+   "source_table_rows": 22,
+   "parsed_rows": 22,
+   "sha256": "c794fea6856b0d0b046d15fef4fd285859e74091140ceaa51c579283fcff1800"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/generator",
+   "source_table_rows": 7,
+   "parsed_rows": 7,
+   "sha256": "59a430c511b279bcde0617d31c20b828f9185dc9b9680392aad07eb921ceb76e"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/handle-switch-%26-lever",
+   "source_table_rows": 14,
+   "parsed_rows": 14,
+   "sha256": "27ec30a622352295cddb1905a93a4cac5a0af1e81752ad44ad2ccdaa36c53a46"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/intake",
+   "source_table_rows": 26,
+   "parsed_rows": 26,
+   "sha256": "c3c989e763073d8ca17134d862515b710f7e978fd4572b59097c350a7c24e0be"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/intake-2",
+   "source_table_rows": 14,
+   "parsed_rows": 14,
+   "sha256": "b3b3d10a25b2e1f5ebb4b2625fc7cfb9065f386a9705f544bff340114aa6de35"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/oil-cleaner",
+   "source_table_rows": 4,
+   "parsed_rows": 4,
+   "sha256": "e0f32cf52bbb845b01e350528753a00d4385a1d8ca4114c368a713705bb234ea"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/oil-pump",
+   "source_table_rows": 9,
+   "parsed_rows": 9,
+   "sha256": "e083c16a3a79f16087c0e7d50fdc28e497145d7c50512885b981b723fe37d72c"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/radiator-%26-hose",
+   "source_table_rows": 23,
+   "parsed_rows": 23,
+   "sha256": "074e9643ad338a5ae15d954c8bb33065a9a3f1df2d60119680792e4ffd34338c"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/rear-arm",
+   "source_table_rows": 34,
+   "parsed_rows": 34,
+   "sha256": "5a1519b7e6e0117e0cbd0a59620fe5a6cf61b405543c734b9cb3c0f21e193781"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/rear-brake-caliper",
+   "source_table_rows": 21,
+   "parsed_rows": 21,
+   "sha256": "53afa1c12af7b7691ceeb85ef61578f6c8baa7893a065c270f0a4afbd13a45b1"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/rear-master-cylinder",
+   "source_table_rows": 15,
+   "parsed_rows": 15,
+   "sha256": "730718e44f8faaccc76fcb0140f032b20550f14f94fe902bfc2dd322a1036449"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/rear-suspension",
+   "source_table_rows": 23,
+   "parsed_rows": 23,
+   "sha256": "70e71827d0fe390e5c9518187e03e1834f60fef0dbeaa8f71de884280976ee8f"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/rear-wheel",
+   "source_table_rows": 39,
+   "parsed_rows": 39,
+   "sha256": "54294d483e68cf13defc83259d973d29b21a0cf44949ec3870569d76c76230d0"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/seat",
+   "source_table_rows": 7,
+   "parsed_rows": 7,
+   "sha256": "3fa448a70402cb95d6345714ed46f168f827e16a585f776cca4c750709321ad8"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/shift-cam-%26-fork",
+   "source_table_rows": 15,
+   "parsed_rows": 15,
+   "sha256": "4a5dfd27a81b2d7689283b98530feb194df9d7103747a310c25b36e20b530f4c"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/shift-shaft",
+   "source_table_rows": 16,
+   "parsed_rows": 16,
+   "sha256": "5c29e3e816f499c9d20e6c838406177eb997d6c4c7e08fa260cf8a36696d316a"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/side-cover",
+   "source_table_rows": 30,
+   "parsed_rows": 30,
+   "sha256": "0e53a4b8d46d6ca36dd58f9a6a86cb32a473a1c0de39b418ce9a3da3afef4ec8"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/stand-%26-footrest",
+   "source_table_rows": 21,
+   "parsed_rows": 21,
+   "sha256": "540fcb5495e5cbf7c5b2cfb407e0cb25c6f8476b9d9c5046fe8cf9715c8243a3"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/starter-clutch",
+   "source_table_rows": 10,
+   "parsed_rows": 10,
+   "sha256": "fac3617547619b6c8334738d0c87a9f8a979fc7a5f5397a1cfc8573da06da9ad"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/starting-motor",
+   "source_table_rows": 16,
+   "parsed_rows": 16,
+   "sha256": "fc2ec9a06105d407de3d0523dcccb7bcf10eb09140bee628cf84af449b93984e"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/steering",
+   "source_table_rows": 17,
+   "parsed_rows": 17,
+   "sha256": "a1d8cd65487e86092fc24a2735848c9719b8f1548f15a035920206aa424e03c0"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/steering-handle-%26-cable",
+   "source_table_rows": 14,
+   "parsed_rows": 14,
+   "sha256": "5282306dadab1103785298b68d0436cc5a2801bbe88d759f175d936e0ac65950"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/transmission",
+   "source_table_rows": 31,
+   "parsed_rows": 31,
+   "sha256": "601386f7751d3b8676c00cfc9a6226d0a81860e71a3d85d000be41c450cbd1b4"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/valve",
+   "source_table_rows": 37,
+   "parsed_rows": 37,
+   "sha256": "3070903fa1a101367e03a493ed577c0f1bbf685e4953c90a40ae0af3555bc06a"
+  },
+  {
+   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz450fx/water-pump",
+   "source_table_rows": 11,
+   "parsed_rows": 11,
+   "sha256": "341ec920414549784010a1ffe046aede8e753e212c0faf928fba74fbbc9b9ded"
+  }
+ ]
+}

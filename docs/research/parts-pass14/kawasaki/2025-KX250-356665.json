@@ -1,0 +1,128 @@
+{
+  "target": {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2025,
+    "region": "US",
+    "variant": "standard"
+  },
+  "model_code": "KX252ESFNN",
+  "index_url": "https://www.kawasaki.com/en-us/owner-center/parts/2025/KX252ESFNN",
+  "assembly_url": "https://www.kawasaki.com/en-us/owner-center/parts/356665/2025/KX252ESFNN",
+  "name": "VIEW DIAGRAM",
+  "url": "https://www.kawasaki.com/en-us/owner-center/parts/356665/2025/KX252ESFNN",
+  "headings": [
+    "SHOP ALL",
+    "Vehicle Accessories",
+    "ELEKTRODE\u00ae",
+    "Accessory Packages",
+    "Apparel",
+    "Gifts & Collectibles",
+    "Essentials",
+    "Kawasaki Performance Oils",
+    "Collections",
+    "Digital Catalogs",
+    "Featured",
+    "Sale",
+    "Licensed Products",
+    "VISIT OWNER CENTER",
+    "VISIT RACING",
+    "Racing News",
+    "Team Green\u2122",
+    "Racing Teams",
+    "Research",
+    "Shop",
+    "Finance",
+    "2025 KX\u2122 250 - Cylinder/Piston(s)"
+  ],
+  "headers": [
+    "ITEM NAME",
+    "REF #",
+    "PART NUMBER",
+    "QUANTITY",
+    "DESTINATION",
+    "REMARKS"
+  ],
+  "rows": [
+    [
+      "CYLINDER-ENGINE",
+      "11005",
+      "11005-0717",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "GASKET,CYLINDER BASE",
+      "11061",
+      "11061-1639",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "PISTON-ENGINE",
+      "13001",
+      "13001-0856",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "PIN-PISTON",
+      "13002",
+      "13002-0721",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "RING-SET-PISTON",
+      "13008",
+      "13008-0585",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "RING-SNAP,PISTON PIN",
+      "92033",
+      "92033-1161",
+      "2",
+      "",
+      ""
+    ],
+    [
+      "PIN,10.1X12X14",
+      "92043",
+      "92043-4009",
+      "2",
+      "",
+      ""
+    ],
+    [
+      "BOLT,SOCKET,6X30",
+      "92154",
+      "92154-4181",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "WASHER,6.1X10.0X1.0",
+      "92200",
+      "92200-0190",
+      "1",
+      "",
+      ""
+    ]
+  ],
+  "diagram_urls": [
+    "/Content/Images/Parts/99912-2265-02/E1120.GIF"
+  ],
+  "captured_at": "2026-10-13T11:39:24Z",
+  "authority": "OEM",
+  "quantity_basis": "EXPLICIT_OEM_TABLE",
+  "source_response_sha256": "60a25a1c48a6afe8a2bcc245597f395d1e7891fa043206a287b49d8b6c98025c",
+  "acquisition": "Ordinary requests.Session GET with server-issued public cookies; TLS verification enabled"
+}
