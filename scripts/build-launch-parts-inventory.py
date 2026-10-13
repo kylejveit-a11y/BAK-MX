@@ -56,6 +56,14 @@ for p in (B/'european-discovery/captures').rglob('*.json'):
   duplicate_counts[duplicate['assembly_id']]+=1
  complete=bool(d.get('catalog_complete') and d.get('scope_confirmed') and groups and len(groups)==d.get('expected_assembly_count') and all(a.get('enumeration_checked') and counts[a['id']]+duplicate_counts[a['id']]==a.get('expected_occurrences') for a in groups))
  catalogs.append({'target':d['target'],'path':str(p),'sha256':sha(p),'source':'Official '+d['target']['manufacturer']+' US catalog','complete':complete,'assemblies':sum(a.get('enumeration_checked',False) for a in groups),'expected_assemblies':d.get('expected_assembly_count'),'occurrences':len(d.get('parts',[])),'new_this_pass':True,'scope':d.get('catalog_label'),'unknown_quantities':sum(x.get('catalog_quantity') is None for x in d.get('parts',[]))})
+# Official catalogs the manufacturer lists only under an EU market label, for models also sold in the US.
+# Used only where no exact-US catalog exists; the source name carries the market so the rider is told.
+for p in (B/'european-discovery/captures-eu').rglob('*.json'):
+ d=read(p)
+ if key(d['target']) not in planned or d.get('catalog_region')!='EU':continue
+ groups=d.get('assemblies',[]);counts=Counter(x['assembly_id'] for x in d.get('parts',[]));dup=Counter(x['assembly_id'] for x in d.get('raw_duplicate_rows',[]))
+ complete=bool(d.get('catalog_complete') and groups and len(groups)==d.get('expected_assembly_count') and all(a.get('enumeration_checked') and counts[a['id']]+dup[a['id']]==a.get('expected_occurrences') for a in groups))
+ catalogs.append({'target':d['target'],'path':str(p),'sha256':sha(p),'source':'Official '+d['target']['manufacturer']+' catalog (EU market listing)','complete':complete,'assemblies':sum(a.get('enumeration_checked',False) for a in groups),'expected_assemblies':d.get('expected_assembly_count'),'occurrences':len(d.get('parts',[])),'new_this_pass':False,'scope':'EU market listing: '+str(d.get('catalog_label')),'unknown_quantities':sum(x.get('catalog_quantity') is None for x in d.get('parts',[]))})
 rows=[]
 for k,r in planned.items():
  sources=[c for c in catalogs if key(c['target'])==k]

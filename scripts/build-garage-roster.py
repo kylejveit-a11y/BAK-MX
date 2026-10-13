@@ -25,6 +25,11 @@ manual_confirmed={('Yamaha','YZ450F'):[2018,2019],('Yamaha','YZ250F'):[2019],
 for key,ys in manual_confirmed.items():
     years[key].update(ys)
     discipline.setdefault(key,'motocross');cycle.setdefault(key,'4-stroke')
+# Model-years with a complete manufacturer parts catalog on file: the manufacturer's own listing confirms the model-year exists.
+for r in json.load(open('docs/research/parts-pass14/INVENTORY_STATUS.json',encoding='utf-8'))['rows']:
+    t=r['target']
+    if r['catalog_inventory_complete'] and t.get('region','US')=='US' and t.get('variant','standard')=='standard' and (t['manufacturer'],t['model']) in discipline:
+        years[(t['manufacturer'],t['model'])].add(t['model_year'])
 order={'motocross':0,'cross-country':1,'enduro':2,'enduro-offroad':2}
 makes=defaultdict(list)
 for (make,model),ys in years.items(): makes[make].append(model)
