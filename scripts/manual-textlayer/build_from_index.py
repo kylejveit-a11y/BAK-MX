@@ -25,7 +25,7 @@ def main():
         import pdfplumber
         cover=re.sub(r'\s+',' ',(pdfplumber.open(path).pages[0].extract_text(x_tolerance=1.2) or '').replace('\u2011','-').replace('\u00ad','-'))
         for model in models.split(' / '):
-            if not re.search(r'(?<![\w-])'+re.escape(model)+r'(?![\w-])',cover):
+            if not re.search(r'(?<![\w-])'+re.escape(model)+r'(?:i| TPI)?(?![\w-])',cover):
                 report.append({'i':None,'make':make,'model':model,'yr':yr,'doc':doc,'layout':'','n':0,'sched':0,'sched_problems':[],'secs':{},'damp':0,'dropped':[],'flagged':[],'notes':['NOT ON COVER: '+cover[:120]]}); continue
             f,q=mod.facts(rows,model)
             # A bike that already has a reviewed table on file only receives suspension rows and the service schedule.
