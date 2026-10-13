@@ -1,18 +1,28 @@
-# Owner's-manual text-layer extraction (KTM group)
+# Owner's-manual text-layer extraction
 
-Reads the technical-data chapter and the service schedule of an English KTM / Husqvarna / GasGas owner's manual
-PDF with glyph positions (pdfplumber) and produces hash-guarded payloads for `private.kg` /
-`private.stage_manual_rows` (migration `20261010010000`). Facts only; the PDFs are never stored or redistributed.
+Reads the technical-data chapter and the service schedule of a manufacturer's owner's manual PDF with glyph positions
+(pdfplumber) and produces hash-guarded payloads for `private.kg` / `private.stage_manual_rows` (migration `20261010010000`).
+Facts only; the PDFs are never stored or redistributed.
+
+KTM, Husqvarna, GasGas:
 
 - `tech_data_2020_2025.py`: manuals with the "TECHNICAL DATA" / "TECHNICAL SPECIFICATIONS" page header.
 - `tech_data_2025_plus.py`: manuals with the "Technical specifications" header (new authoring system).
-- `service_schedule.py`: both layouts. Column = header line order (bottom header line is the leftmost column);
+- `service_schedule.py`: both layouts. A mark sits 7.3 pt left of the right edge of its column header;
   open circle = one-time, filled circle = periodic.
-- `validity.py`: decides whether a printed validity note ("All SX models", "125 XC US", "Big wheel", ...)
-  applies to the US standard model being loaded. Rows whose note does not match are not stored.
-- `plan.py` / `build_payloads.py`: document list and payload builder. A path printed with two different values
-  for one bike is dropped, never guessed.
+- `validity.py`: decides whether a printed validity note ("All SX models", "125 XC US", "All SX-F except US", "Big wheel", ...)
+  applies to the US standard model being loaded. Run it directly for its self-test. Notes it does not understand drop their rows.
+- `plan.py` / `build_payloads.py`: the two-stroke minis and 125/150 documents.
+- `build_from_index.py`: every document in `docs/research/manual-index/ktm-group-us.tsv` with a given status; writes a report
+  per document (dropped conflicts, flagged shapes, notes seen).
+- `check_dampers.py`, `finalize_payloads.py`: damper cross-check against the adjustment section, then the final load set.
 
-Usage: download the PDFs into an empty directory, then
-`python3 scripts/manual-textlayer/build_payloads.py <pdf dir> <out dir>` (run from the PDF directory).
-Method and results: `docs/research/expansion/ktm-group/TEXT_LAYER_REVIEW_2026-10-13.md`.
+Triumph:
+
+- `triumph_handbook.py`, `build_triumph.py`: Specifications chapter and factory suspension settings from the public US handbooks.
+
+Usage: download the PDFs into an empty directory and run the builders from that directory, for example
+`python3 scripts/manual-textlayer/build_from_index.py docs/research/manual-index/ktm-group-us.tsv todo <out dir>`.
+A path printed with two different values for one bike is dropped, never guessed.
+Method and results: `docs/research/expansion/ktm-group/TEXT_LAYER_REVIEW_2026-10-13.md` and
+`docs/research/expansion/triumph/HANDBOOK_REVIEW_2026-10-13.md`.
