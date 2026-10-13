@@ -1,0 +1,2588 @@
+{
+  "schema_version": 1,
+  "base_commit": "747458f0a53731f072d18d0ce0a03bdcbdbc2cb7",
+  "branch": "chatgpt/parts-japanese-20261013",
+  "database_writes": false,
+  "scope": "Exact US standard Japanese targets incomplete at branch creation; catalog occurrence inventory only.",
+  "entries": [
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF450RX",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": "docs/research/parts-pass14/honda/2026-crf450rx/inventory.json",
+      "source": "MotoSport public OEM catalog",
+      "source_url": "https://www.motosport.com/oem-parts/honda/2026/crf450rx",
+      "sha256": "41f964fdd0501b9e87b2fa208a82094896e816c348e17145b30e2aecd2118381",
+      "diagrams_captured": 52,
+      "diagrams_expected": 52,
+      "part_rows": 1002,
+      "complete": true,
+      "gaps": [],
+      "initial_status": "PARTIAL_CAPTURE",
+      "attempted": true
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF250R",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": "docs/research/parts-pass14/honda/2025-crf250r/inventory.json",
+      "source": "MotoSport public OEM catalog",
+      "source_url": "https://www.motosport.com/oem-parts/honda/2025/crf250r",
+      "sha256": "75075305a221f0af1d55e79124bc2094d5a79077f5becb0c4cb18d7ee8c3b390",
+      "diagrams_captured": 50,
+      "diagrams_expected": 50,
+      "part_rows": 974,
+      "complete": true,
+      "gaps": [],
+      "initial_status": "PARTIAL_CAPTURE",
+      "attempted": true
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": "docs/research/parts-pass14/yamaha/2024-yz250f/inventory.json",
+      "source": "MotoSport public OEM catalog",
+      "source_url": "https://www.motosport.com/oem-parts/yamaha/2024/yz250f",
+      "sha256": "ee904a8832971834c7fe24f939c8a129441f75340081c55b5bc1437d2f740f5b",
+      "diagrams_captured": 45,
+      "diagrams_expected": 45,
+      "part_rows": 940,
+      "complete": true,
+      "gaps": [],
+      "initial_status": "PARTIAL_CAPTURE",
+      "attempted": true
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2027,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": "docs/research/parts-pass14/yamaha/2027-yz450f/inventory.json",
+      "source": "MotoSport public OEM catalog",
+      "source_url": "https://www.motosport.com/oem-parts/yamaha/2027/yz450f",
+      "sha256": "60565fa053ba9c090a51d1c55c909712c4d402c7c2ad358bec84004085f30d53",
+      "diagrams_captured": 47,
+      "diagrams_expected": 47,
+      "part_rows": 981,
+      "complete": true,
+      "gaps": [],
+      "initial_status": "INDEX_ONLY",
+      "attempted": true
+    },
+    {
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX250",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": "docs/research/parts-pass14/kawasaki/inventories/2026-KX250.json",
+      "source": "Kawasaki official US catalog",
+      "source_url": "https://www.kawasaki.com/en-us/owner-center/parts/2026/KX252ETFNN",
+      "sha256": "50a5ed8b1050c295b92a1dccfae8c5b7bd08a3bd81604d0b5abe998d3e8fbee8",
+      "diagrams_captured": 54,
+      "diagrams_expected": 54,
+      "part_rows": 901,
+      "complete": true,
+      "gaps": [],
+      "initial_status": "INDEX_ONLY",
+      "attempted": true
+    },
+    {
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX450",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF450R",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX250",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF250R",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF450R",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX250",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX450",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF250R",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF450R",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX250",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX450",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF250R",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF450R",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX250",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX450",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF250R",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF450R",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF450R",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250F",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450F",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250FX",
+        "model_year": 2027,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450FX",
+        "model_year": 2027,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX250X",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX450X",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250FX",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450FX",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF250RX",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF450RX",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX250X",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX450X",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250FX",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450FX",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF250RX",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF450RX",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX250X",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX450X",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250FX",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "NOT_CAPTURED"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450FX",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF250RX",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF450RX",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX250X",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX450X",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250FX",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450FX",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF250RX",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF450RX",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX250X",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX450X",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250FX",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450FX",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF250RX",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF450RX",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250FX",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450FX",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF250RX",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Honda",
+        "model": "CRF450RX",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX250X",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "NOT_CAPTURED"
+    },
+    {
+      "target": {
+        "manufacturer": "Kawasaki",
+        "model": "KX450X",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "NOT_CAPTURED"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250FX",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ450FX",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125",
+        "model_year": 2027,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125X",
+        "model_year": 2027,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2027,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250X",
+        "model_year": 2027,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125X",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250X",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125X",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250X",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125X",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250X",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125X",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250X",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125X",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250X",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125X",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250X",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ125X",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "YZ250X",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2027,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "NOT_CAPTURED"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR450F",
+        "model_year": 2027,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "NOT_CAPTURED"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR450F",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR450F",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR450F",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR450F",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR450F",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR450F",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR250F",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    },
+    {
+      "target": {
+        "manufacturer": "Yamaha",
+        "model": "WR450F",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "path": null,
+      "source": null,
+      "source_url": null,
+      "sha256": null,
+      "diagrams_captured": 0,
+      "diagrams_expected": null,
+      "part_rows": 0,
+      "complete": false,
+      "gaps": [
+        "NOT_ATTEMPTED"
+      ],
+      "initial_status": "INDEX_ONLY"
+    }
+  ],
+  "updated_at": "2026-10-13T09:46:37.041400+00:00"
+}
