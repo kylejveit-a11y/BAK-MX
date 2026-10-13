@@ -35,6 +35,10 @@ Yamaha:
 - Yamaha's library lists manuals per model and year through the JSON endpoints its web app calls
   (`parts.yamaha-motor.co.jp/ypec_b2c/services/omb2c/model_year_list/` and `model_list/`, POST, `baseCode` 6150, `langId` 02).
 
+Kawasaki (page images from the online viewer, OCR): `kawasaki_specs.py`, `kawasaki_chart.py`, `kawasaki_suspension.py`,
+`build_kawasaki.py`; see `docs/research/expansion/kawasaki/OWNERS_MANUAL_REVIEW_2026-10-13.md`.
+Triumph schedule: `triumph_schedule.py`, `build_triumph_schedule.py`.
+
 Usage: download the PDFs into an empty directory and run the builders from that directory, for example
 `python3 scripts/manual-textlayer/build_from_index.py docs/research/manual-index/ktm-group-us.tsv todo <out dir>`.
 A path printed with two different values for one bike is dropped, never guessed.
