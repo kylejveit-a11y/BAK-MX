@@ -235,18 +235,17 @@
         "region": "US",
         "variant": "standard"
       },
-      "path": null,
-      "source": null,
-      "source_url": null,
-      "sha256": null,
-      "diagrams_captured": 0,
-      "diagrams_expected": null,
-      "part_rows": 0,
-      "complete": false,
-      "gaps": [
-        "NOT_ATTEMPTED"
-      ],
-      "initial_status": "INDEX_ONLY"
+      "path": "docs/research/parts-pass14/honda/2024-crf250r/inventory.json",
+      "source": "MotoSport public OEM catalog",
+      "source_url": "https://www.motosport.com/oem-parts/honda/2024/crf250r",
+      "sha256": "37eccba4ddc540e256202e60d29669f224a2df18c30ea0d4a2aa505144d42827",
+      "diagrams_captured": 50,
+      "diagrams_expected": 50,
+      "part_rows": 972,
+      "complete": true,
+      "gaps": [],
+      "initial_status": "INDEX_ONLY",
+      "attempted": true
     },
     {
       "target": {
@@ -256,18 +255,17 @@
         "region": "US",
         "variant": "standard"
       },
-      "path": null,
-      "source": null,
-      "source_url": null,
-      "sha256": null,
-      "diagrams_captured": 0,
-      "diagrams_expected": null,
-      "part_rows": 0,
-      "complete": false,
-      "gaps": [
-        "NOT_ATTEMPTED"
-      ],
-      "initial_status": "INDEX_ONLY"
+      "path": "docs/research/parts-pass14/honda/2024-crf450r/inventory.json",
+      "source": "MotoSport public OEM catalog",
+      "source_url": "https://www.motosport.com/oem-parts/honda/2024/crf450r",
+      "sha256": "cb5a4fa685de054258fa4b8aea11615cc5550f3b0bf9bb9cb43da11bac143b47",
+      "diagrams_captured": 51,
+      "diagrams_expected": 51,
+      "part_rows": 991,
+      "complete": true,
+      "gaps": [],
+      "initial_status": "INDEX_ONLY",
+      "attempted": true
     },
     {
       "target": {
@@ -277,18 +275,17 @@
         "region": "US",
         "variant": "standard"
       },
-      "path": null,
-      "source": null,
-      "source_url": null,
-      "sha256": null,
-      "diagrams_captured": 0,
-      "diagrams_expected": null,
-      "part_rows": 0,
-      "complete": false,
-      "gaps": [
-        "NOT_ATTEMPTED"
-      ],
-      "initial_status": "INDEX_ONLY"
+      "path": "docs/research/parts-pass14/kawasaki/inventories/2024-KX250.json",
+      "source": "Kawasaki official US catalog",
+      "source_url": "https://www.kawasaki.com/en-us/owner-center/parts/2024/KX252CRFNN",
+      "sha256": "c9208eac66e6d08dd0daf3017f33051a38ecfe633f5d0b397e5f30a2b19eda0d",
+      "diagrams_captured": 53,
+      "diagrams_expected": 53,
+      "part_rows": 927,
+      "complete": true,
+      "gaps": [],
+      "initial_status": "INDEX_ONLY",
+      "attempted": true
     },
     {
       "target": {
@@ -298,18 +295,17 @@
         "region": "US",
         "variant": "standard"
       },
-      "path": null,
-      "source": null,
-      "source_url": null,
-      "sha256": null,
-      "diagrams_captured": 0,
-      "diagrams_expected": null,
-      "part_rows": 0,
-      "complete": false,
-      "gaps": [
-        "NOT_ATTEMPTED"
-      ],
-      "initial_status": "INDEX_ONLY"
+      "path": "docs/research/parts-pass14/kawasaki/inventories/2024-KX450.json",
+      "source": "Kawasaki official US catalog",
+      "source_url": "https://www.kawasaki.com/en-us/owner-center/parts/2024/KX450MRFNN",
+      "sha256": "1662ae48aa062fab758512de7272e54a61ab4261013837918394d6879796fe92",
+      "diagrams_captured": 53,
+      "diagrams_expected": 53,
+      "part_rows": 865,
+      "complete": true,
+      "gaps": [],
+      "initial_status": "INDEX_ONLY",
+      "attempted": true
     },
     {
       "target": {
@@ -319,18 +315,17 @@
         "region": "US",
         "variant": "standard"
       },
-      "path": null,
-      "source": null,
-      "source_url": null,
-      "sha256": null,
-      "diagrams_captured": 0,
-      "diagrams_expected": null,
-      "part_rows": 0,
-      "complete": false,
-      "gaps": [
-        "NOT_ATTEMPTED"
-      ],
-      "initial_status": "INDEX_ONLY"
+      "path": "docs/research/parts-pass14/yamaha/2024-yz450f/inventory.json",
+      "source": "MotoSport public OEM catalog",
+      "source_url": "https://www.motosport.com/oem-parts/yamaha/2024/yz450f",
+      "sha256": "ad42fdae00771100d24f6930b80b97a6730fd0f46141189990a5f3716bb00b95",
+      "diagrams_captured": 46,
+      "diagrams_expected": 46,
+      "part_rows": 955,
+      "complete": true,
+      "gaps": [],
+      "initial_status": "INDEX_ONLY",
+      "attempted": true
     },
     {
       "target": {
@@ -2580,6 +2575,6 @@
       "initial_status": "INDEX_ONLY"
     }
   ],
-  "updated_at": "2026-10-13T11:39:45.045975+00:00",
+  "updated_at": "2026-10-13T11:54:52.653279+00:00",
   "run_state": "CHECKPOINT_READY"
 }
