@@ -3,19 +3,20 @@
   "status": "PAUSED_AT_USER_REQUEST_AFTER_CURRENT_BATCH",
   "scope": "Parts inventory only; percentages refer only to reconciled catalog indexes, never installed-piece totals or engineering specification coverage.",
   "summary": {
-    "planned_acquisition_slots": 467,
-    "families": 62,
-    "complete_catalog_inventories": 284,
+    "planned_acquisition_slots": 488,
+    "families": 71,
+    "complete_catalog_inventories": 305,
     "original_60_complete": 37,
     "new_completed_targets": 209,
-    "selected_captured_occurrences": 326448,
+    "selected_captured_occurrences": 348102,
     "complete_by_brand": {
       "GasGas": 59,
       "Honda": 6,
       "Husqvarna": 87,
-      "KTM": 119,
+      "KTM": 131,
       "Kawasaki": 9,
-      "Yamaha": 4
+      "Yamaha": 4,
+      "Triumph": 9
     }
   },
   "database_writes": false,
@@ -15945,6 +15946,720 @@
       "gaps": [
         "Capture and reconcile every group in the exact catalog index."
       ]
+    },
+    {
+      "target": {
+        "manufacturer": "KTM",
+        "model": "85 SX 17/14",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "original_60_target": false,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "85 SX 17/14",
+          "model_year": 2020,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures-eu/ktm/85-sx-17-14-2020-1001665862.json",
+        "sha256": "a93471c4fef3dcbe2660cadb4d289a561bff24ef563340ab0698ffcd4d8ea068",
+        "source": "Official KTM catalog (EU market listing)",
+        "complete": true,
+        "assemblies": 33,
+        "expected_assemblies": 33,
+        "occurrences": 1087,
+        "new_this_pass": false,
+        "scope": "EU market listing: 85 SX 17/14 2020 <2020><EU><F6001T8>",
+        "unknown_quantities": 0
+      },
+      "other_inventory_sources": [],
+      "gaps": []
+    },
+    {
+      "target": {
+        "manufacturer": "KTM",
+        "model": "85 SX 17/14",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "original_60_target": false,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "85 SX 17/14",
+          "model_year": 2021,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures-eu/ktm/85-sx-17-14-2021-1001921051.json",
+        "sha256": "e16301e3c825229e5f3b2af213d05cc644792a4f3b1615c82c46dcf6901ed95c",
+        "source": "Official KTM catalog (EU market listing)",
+        "complete": true,
+        "assemblies": 33,
+        "expected_assemblies": 33,
+        "occurrences": 1083,
+        "new_this_pass": false,
+        "scope": "EU market listing: 85 SX 17/14 2021 <2021><EU><F6001U8>",
+        "unknown_quantities": 0
+      },
+      "other_inventory_sources": [],
+      "gaps": []
+    },
+    {
+      "target": {
+        "manufacturer": "KTM",
+        "model": "85 SX 17/14",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "original_60_target": false,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "85 SX 17/14",
+          "model_year": 2022,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures-eu/ktm/85-sx-17-14-2022-1002104906.json",
+        "sha256": "ff00db96cd6f91f721386ae68e153758fca229eb25f799361ed95f582210272d",
+        "source": "Official KTM catalog (EU market listing)",
+        "complete": true,
+        "assemblies": 33,
+        "expected_assemblies": 33,
+        "occurrences": 1074,
+        "new_this_pass": false,
+        "scope": "EU market listing: 85 SX 17/14 2022 <2022><EU><F6001V8>",
+        "unknown_quantities": 0
+      },
+      "other_inventory_sources": [],
+      "gaps": []
+    },
+    {
+      "target": {
+        "manufacturer": "KTM",
+        "model": "85 SX 17/14",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "original_60_target": false,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "85 SX 17/14",
+          "model_year": 2023,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures-eu/ktm/85-sx-17-14-2023-1002337337.json",
+        "sha256": "b29ea9b1fb5f163818e7d6fb2abeaf729c3739efb5ff4aa66c6f31e13c045547",
+        "source": "Official KTM catalog (EU market listing)",
+        "complete": true,
+        "assemblies": 33,
+        "expected_assemblies": 33,
+        "occurrences": 1075,
+        "new_this_pass": false,
+        "scope": "EU market listing: 85 SX 17/14 2023 <2023><EU><F6001W8>",
+        "unknown_quantities": 0
+      },
+      "other_inventory_sources": [],
+      "gaps": []
+    },
+    {
+      "target": {
+        "manufacturer": "KTM",
+        "model": "85 SX 17/14",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "original_60_target": false,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "85 SX 17/14",
+          "model_year": 2024,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures-eu/ktm/85-sx-17-14-2024-1003029270.json",
+        "sha256": "88638a80035ea54b4ab133f99cbcc951c623fdc3b4f732042e13e9235d8c4ac0",
+        "source": "Official KTM catalog (EU market listing)",
+        "complete": true,
+        "assemblies": 33,
+        "expected_assemblies": 33,
+        "occurrences": 1075,
+        "new_this_pass": false,
+        "scope": "EU market listing: 85 SX 17/14 2024 <2024><EU><F6001X8>",
+        "unknown_quantities": 0
+      },
+      "other_inventory_sources": [],
+      "gaps": []
+    },
+    {
+      "target": {
+        "manufacturer": "KTM",
+        "model": "85 SX 17/14",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "original_60_target": false,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "85 SX 17/14",
+          "model_year": 2026,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures-eu/ktm/85-sx-17-14-2026-1003992639.json",
+        "sha256": "ef46c12ac77c38513348741b490c81fb3ef756e45afc183c7d4d572c9b4e8616",
+        "source": "Official KTM catalog (EU market listing)",
+        "complete": true,
+        "assemblies": 34,
+        "expected_assemblies": 34,
+        "occurrences": 1076,
+        "new_this_pass": false,
+        "scope": "EU market listing: 85 SX 17/14 2026 <2026><EU><F6001Z8>",
+        "unknown_quantities": 0
+      },
+      "other_inventory_sources": [],
+      "gaps": []
+    },
+    {
+      "target": {
+        "manufacturer": "KTM",
+        "model": "85 SX 19/16",
+        "model_year": 2020,
+        "region": "US",
+        "variant": "standard"
+      },
+      "original_60_target": false,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "85 SX 19/16",
+          "model_year": 2020,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures-eu/ktm/85-sx-19-16-2020-1001665864.json",
+        "sha256": "43a19b6df32766de0b7b1a6b328df71353401589c55882993e2b5e3e91c32958",
+        "source": "Official KTM catalog (EU market listing)",
+        "complete": true,
+        "assemblies": 33,
+        "expected_assemblies": 33,
+        "occurrences": 1087,
+        "new_this_pass": false,
+        "scope": "EU market listing: 85 SX 19/16 2020 <2020><EU><F6001T9>",
+        "unknown_quantities": 0
+      },
+      "other_inventory_sources": [],
+      "gaps": []
+    },
+    {
+      "target": {
+        "manufacturer": "KTM",
+        "model": "85 SX 19/16",
+        "model_year": 2021,
+        "region": "US",
+        "variant": "standard"
+      },
+      "original_60_target": false,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "85 SX 19/16",
+          "model_year": 2021,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures-eu/ktm/85-sx-19-16-2021-1001921053.json",
+        "sha256": "2bf45fe6733568200387b09c7f275d306785cd893f443400d75362e3a21c7b32",
+        "source": "Official KTM catalog (EU market listing)",
+        "complete": true,
+        "assemblies": 33,
+        "expected_assemblies": 33,
+        "occurrences": 1083,
+        "new_this_pass": false,
+        "scope": "EU market listing: 85 SX 19/16 2021 <2021><EU><F6001U9>",
+        "unknown_quantities": 0
+      },
+      "other_inventory_sources": [],
+      "gaps": []
+    },
+    {
+      "target": {
+        "manufacturer": "KTM",
+        "model": "85 SX 19/16",
+        "model_year": 2022,
+        "region": "US",
+        "variant": "standard"
+      },
+      "original_60_target": false,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "85 SX 19/16",
+          "model_year": 2022,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures-eu/ktm/85-sx-19-16-2022-1002104908.json",
+        "sha256": "a834387a6b57f7f7cac42d6052808f7a97ad061169bf7818a370fe40f92cd804",
+        "source": "Official KTM catalog (EU market listing)",
+        "complete": true,
+        "assemblies": 33,
+        "expected_assemblies": 33,
+        "occurrences": 1074,
+        "new_this_pass": false,
+        "scope": "EU market listing: 85 SX 19/16 2022 <2022><EU><F6001V9>",
+        "unknown_quantities": 0
+      },
+      "other_inventory_sources": [],
+      "gaps": []
+    },
+    {
+      "target": {
+        "manufacturer": "KTM",
+        "model": "85 SX 19/16",
+        "model_year": 2023,
+        "region": "US",
+        "variant": "standard"
+      },
+      "original_60_target": false,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "85 SX 19/16",
+          "model_year": 2023,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures-eu/ktm/85-sx-19-16-2023-1002337339.json",
+        "sha256": "848d30b0a1616078dfea1403a59efd71f58276d0be542e0f239b5a2bbc7f85e3",
+        "source": "Official KTM catalog (EU market listing)",
+        "complete": true,
+        "assemblies": 33,
+        "expected_assemblies": 33,
+        "occurrences": 1075,
+        "new_this_pass": false,
+        "scope": "EU market listing: 85 SX 19/16 2023 <2023><EU><F6001W9>",
+        "unknown_quantities": 0
+      },
+      "other_inventory_sources": [],
+      "gaps": []
+    },
+    {
+      "target": {
+        "manufacturer": "KTM",
+        "model": "85 SX 19/16",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "original_60_target": false,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "85 SX 19/16",
+          "model_year": 2024,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures-eu/ktm/85-sx-19-16-2024-1003029278.json",
+        "sha256": "ee85727af7dc7144819f5fe24bf026d4500108b4960013bdd03776d361690e45",
+        "source": "Official KTM catalog (EU market listing)",
+        "complete": true,
+        "assemblies": 33,
+        "expected_assemblies": 33,
+        "occurrences": 1075,
+        "new_this_pass": false,
+        "scope": "EU market listing: 85 SX 19/16 2024 <2024><EU><F6001X9>",
+        "unknown_quantities": 0
+      },
+      "other_inventory_sources": [],
+      "gaps": []
+    },
+    {
+      "target": {
+        "manufacturer": "KTM",
+        "model": "85 SX 19/16",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "original_60_target": false,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "85 SX 19/16",
+          "model_year": 2026,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures-eu/ktm/85-sx-19-16-2026-1003992641.json",
+        "sha256": "84b28213e110a34930c1ecee0520d29dc487cf2d397556d0fbf026db7824ffea",
+        "source": "Official KTM catalog (EU market listing)",
+        "complete": true,
+        "assemblies": 34,
+        "expected_assemblies": 34,
+        "occurrences": 1076,
+        "new_this_pass": false,
+        "scope": "EU market listing: 85 SX 19/16 2026 <2026><EU><F6001Z9>",
+        "unknown_quantities": 0
+      },
+      "other_inventory_sources": [],
+      "gaps": []
+    },
+    {
+      "target": {
+        "manufacturer": "Triumph",
+        "model": "TF 250-X",
+        "model_year": 2024,
+        "region": "US",
+        "variant": "standard"
+      },
+      "original_60_target": false,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "Triumph",
+          "model": "TF 250-X",
+          "model_year": 2024,
+          "region": "US",
+          "variant": "standard"
+        },
+        "path": "docs/research/parts-pass14/triumph/2024-tf-250-x.json",
+        "sha256": "2046ca56cf153153fb01b2da937c4b3971e5bc7ee2ad1c7818f3aa497d84e441",
+        "source": "Authorized Triumph dealer OEM catalog (US)",
+        "complete": true,
+        "assemblies": 71,
+        "expected_assemblies": 71,
+        "occurrences": 949,
+        "new_this_pass": false,
+        "scope": "Dealer-hosted Triumph OEM catalogue TF250-X 2024",
+        "unknown_quantities": 0
+      },
+      "other_inventory_sources": [],
+      "gaps": []
+    },
+    {
+      "target": {
+        "manufacturer": "Triumph",
+        "model": "TF 250-X",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "original_60_target": false,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "Triumph",
+          "model": "TF 250-X",
+          "model_year": 2025,
+          "region": "US",
+          "variant": "standard"
+        },
+        "path": "docs/research/parts-pass14/triumph/2025-tf-250-x.json",
+        "sha256": "0b45053d614e7d4f50bc831ee4719a0cfb8818d42f7a70f7fdde2d2227d95d42",
+        "source": "Authorized Triumph dealer OEM catalog (US)",
+        "complete": true,
+        "assemblies": 71,
+        "expected_assemblies": 71,
+        "occurrences": 949,
+        "new_this_pass": false,
+        "scope": "Dealer-hosted Triumph OEM catalogue TF250-X 2025",
+        "unknown_quantities": 0
+      },
+      "other_inventory_sources": [],
+      "gaps": []
+    },
+    {
+      "target": {
+        "manufacturer": "Triumph",
+        "model": "TF 450-RC Edition",
+        "model_year": 2025,
+        "region": "US",
+        "variant": "standard"
+      },
+      "original_60_target": false,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "Triumph",
+          "model": "TF 450-RC Edition",
+          "model_year": 2025,
+          "region": "US",
+          "variant": "standard"
+        },
+        "path": "docs/research/parts-pass14/triumph/2025-tf-450-rc-edition.json",
+        "sha256": "5308d40600affd1d2053066700103203d8831b586ac070b9e84b0f705446a3e4",
+        "source": "Authorized Triumph dealer OEM catalog (US)",
+        "complete": true,
+        "assemblies": 66,
+        "expected_assemblies": 66,
+        "occurrences": 921,
+        "new_this_pass": false,
+        "scope": "Dealer-hosted Triumph OEM catalogue TF450-RC Edition 2025",
+        "unknown_quantities": 0
+      },
+      "other_inventory_sources": [],
+      "gaps": []
+    },
+    {
+      "target": {
+        "manufacturer": "Triumph",
+        "model": "TF 250-C",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "original_60_target": false,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "Triumph",
+          "model": "TF 250-C",
+          "model_year": 2026,
+          "region": "US",
+          "variant": "standard"
+        },
+        "path": "docs/research/parts-pass14/triumph/2026-tf-250-c.json",
+        "sha256": "bc55b3ee72eb53b5df46d84d7f87f64ea1b0940b8088fb05b3cf76caf9556098",
+        "source": "Authorized Triumph dealer OEM catalog (US)",
+        "complete": true,
+        "assemblies": 79,
+        "expected_assemblies": 79,
+        "occurrences": 964,
+        "new_this_pass": false,
+        "scope": "Dealer-hosted Triumph OEM catalogue TF250-C 2026",
+        "unknown_quantities": 0
+      },
+      "other_inventory_sources": [],
+      "gaps": []
+    },
+    {
+      "target": {
+        "manufacturer": "Triumph",
+        "model": "TF 250-E",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "original_60_target": false,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "Triumph",
+          "model": "TF 250-E",
+          "model_year": 2026,
+          "region": "US",
+          "variant": "standard"
+        },
+        "path": "docs/research/parts-pass14/triumph/2026-tf-250-e.json",
+        "sha256": "d753823bb50534e4a6c1e815dc2e210ff55e449ecd246c714dbdfe13f1c92c8d",
+        "source": "Authorized Triumph dealer OEM catalog (US)",
+        "complete": true,
+        "assemblies": 82,
+        "expected_assemblies": 82,
+        "occurrences": 1036,
+        "new_this_pass": false,
+        "scope": "Dealer-hosted Triumph OEM catalogue TF250-E 2026",
+        "unknown_quantities": 0
+      },
+      "other_inventory_sources": [],
+      "gaps": []
+    },
+    {
+      "target": {
+        "manufacturer": "Triumph",
+        "model": "TF 250-X",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "original_60_target": false,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "Triumph",
+          "model": "TF 250-X",
+          "model_year": 2026,
+          "region": "US",
+          "variant": "standard"
+        },
+        "path": "docs/research/parts-pass14/triumph/2026-tf-250-x.json",
+        "sha256": "b4251758a64fb266cc0c160d008c03929d927748fa839336a1002dc5865d8af4",
+        "source": "Authorized Triumph dealer OEM catalog (US)",
+        "complete": true,
+        "assemblies": 76,
+        "expected_assemblies": 76,
+        "occurrences": 935,
+        "new_this_pass": false,
+        "scope": "Dealer-hosted Triumph OEM catalogue TF250-X 2026",
+        "unknown_quantities": 0
+      },
+      "other_inventory_sources": [],
+      "gaps": []
+    },
+    {
+      "target": {
+        "manufacturer": "Triumph",
+        "model": "TF 450-C",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "original_60_target": false,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "Triumph",
+          "model": "TF 450-C",
+          "model_year": 2026,
+          "region": "US",
+          "variant": "standard"
+        },
+        "path": "docs/research/parts-pass14/triumph/2026-tf-450-c.json",
+        "sha256": "4ca78ccdcc145576f4d00916a3476b39bad1f0c8697b03de8c2f800178ab4f25",
+        "source": "Authorized Triumph dealer OEM catalog (US)",
+        "complete": true,
+        "assemblies": 77,
+        "expected_assemblies": 77,
+        "occurrences": 969,
+        "new_this_pass": false,
+        "scope": "Dealer-hosted Triumph OEM catalogue TF450-C 2026",
+        "unknown_quantities": 0
+      },
+      "other_inventory_sources": [],
+      "gaps": []
+    },
+    {
+      "target": {
+        "manufacturer": "Triumph",
+        "model": "TF 450-E",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "original_60_target": false,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "Triumph",
+          "model": "TF 450-E",
+          "model_year": 2026,
+          "region": "US",
+          "variant": "standard"
+        },
+        "path": "docs/research/parts-pass14/triumph/2026-tf-450-e.json",
+        "sha256": "2439227f38ffee3fa9fb8b2b92f26e74c3098aa6d8bc60ee4edb4ce29c6267b1",
+        "source": "Authorized Triumph dealer OEM catalog (US)",
+        "complete": true,
+        "assemblies": 82,
+        "expected_assemblies": 82,
+        "occurrences": 1053,
+        "new_this_pass": false,
+        "scope": "Dealer-hosted Triumph OEM catalogue TF450-E 2026",
+        "unknown_quantities": 0
+      },
+      "other_inventory_sources": [],
+      "gaps": []
+    },
+    {
+      "target": {
+        "manufacturer": "Triumph",
+        "model": "TF 450-X",
+        "model_year": 2026,
+        "region": "US",
+        "variant": "standard"
+      },
+      "original_60_target": false,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "Triumph",
+          "model": "TF 450-X",
+          "model_year": 2026,
+          "region": "US",
+          "variant": "standard"
+        },
+        "path": "docs/research/parts-pass14/triumph/2026-tf-450-x.json",
+        "sha256": "cb6d70444c19f3211515af10112398aaf6a0ad77f7b14ce6ddcbb1598a7a451d",
+        "source": "Authorized Triumph dealer OEM catalog (US)",
+        "complete": true,
+        "assemblies": 74,
+        "expected_assemblies": 74,
+        "occurrences": 938,
+        "new_this_pass": false,
+        "scope": "Dealer-hosted Triumph OEM catalogue TF450-X 2026",
+        "unknown_quantities": 0
+      },
+      "other_inventory_sources": [],
+      "gaps": []
     }
   ]
 }

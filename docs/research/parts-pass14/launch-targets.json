@@ -497,6 +497,69 @@
       "discipline": "cross-country",
       "engine_cycle": "4-stroke",
       "scope_origin": "resolved_saved_EC_EX_group_from_exact_US_OEM_catalog"
+    },
+    {
+      "manufacturer": "KTM",
+      "model": "85 SX 17/14",
+      "discipline": "motocross",
+      "engine_cycle": "2-stroke",
+      "scope_origin": "owner_requested_20261013_minis"
+    },
+    {
+      "manufacturer": "KTM",
+      "model": "85 SX 19/16",
+      "discipline": "motocross",
+      "engine_cycle": "2-stroke",
+      "scope_origin": "owner_requested_20261013_minis"
+    },
+    {
+      "manufacturer": "Triumph",
+      "model": "TF 250-X",
+      "discipline": "motocross",
+      "engine_cycle": "4-stroke",
+      "scope_origin": "owner_requested_20261013_triumph"
+    },
+    {
+      "manufacturer": "Triumph",
+      "model": "TF 450-RC Edition",
+      "discipline": "motocross",
+      "engine_cycle": "4-stroke",
+      "scope_origin": "owner_requested_20261013_triumph"
+    },
+    {
+      "manufacturer": "Triumph",
+      "model": "TF 250-C",
+      "discipline": "cross-country",
+      "engine_cycle": "4-stroke",
+      "scope_origin": "owner_requested_20261013_triumph"
+    },
+    {
+      "manufacturer": "Triumph",
+      "model": "TF 250-E",
+      "discipline": "enduro",
+      "engine_cycle": "4-stroke",
+      "scope_origin": "owner_requested_20261013_triumph"
+    },
+    {
+      "manufacturer": "Triumph",
+      "model": "TF 450-C",
+      "discipline": "cross-country",
+      "engine_cycle": "4-stroke",
+      "scope_origin": "owner_requested_20261013_triumph"
+    },
+    {
+      "manufacturer": "Triumph",
+      "model": "TF 450-E",
+      "discipline": "enduro",
+      "engine_cycle": "4-stroke",
+      "scope_origin": "owner_requested_20261013_triumph"
+    },
+    {
+      "manufacturer": "Triumph",
+      "model": "TF 450-X",
+      "discipline": "motocross",
+      "engine_cycle": "4-stroke",
+      "scope_origin": "owner_requested_20261013_triumph"
     }
   ],
   "rows": [
@@ -14815,6 +14878,426 @@
       "service_equivalence": "NOT_INFERRED",
       "gaps": [
         "Parts completeness is separate from existing guide coverage."
+      ],
+      "original_60_target": false
+    },
+    {
+      "manufacturer": "KTM",
+      "model": "85 SX 17/14",
+      "discipline": "motocross",
+      "engine_cycle": "2-stroke",
+      "scope_origin": "owner_requested_20261013_minis",
+      "id": "ktm-2020-85-sx-17-14",
+      "model_year": 2020,
+      "region": "US",
+      "variant": "standard",
+      "planned": true,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "identity_evidence": [],
+      "parts_catalog_status": "NOT_AUDITED_BY_ROSTER",
+      "service_equivalence": "NOT_INFERRED",
+      "gaps": [
+        "Added at the owner's request; enabled only once a complete manufacturer catalog is on file."
+      ],
+      "original_60_target": false
+    },
+    {
+      "manufacturer": "KTM",
+      "model": "85 SX 17/14",
+      "discipline": "motocross",
+      "engine_cycle": "2-stroke",
+      "scope_origin": "owner_requested_20261013_minis",
+      "id": "ktm-2021-85-sx-17-14",
+      "model_year": 2021,
+      "region": "US",
+      "variant": "standard",
+      "planned": true,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "identity_evidence": [],
+      "parts_catalog_status": "NOT_AUDITED_BY_ROSTER",
+      "service_equivalence": "NOT_INFERRED",
+      "gaps": [
+        "Added at the owner's request; enabled only once a complete manufacturer catalog is on file."
+      ],
+      "original_60_target": false
+    },
+    {
+      "manufacturer": "KTM",
+      "model": "85 SX 17/14",
+      "discipline": "motocross",
+      "engine_cycle": "2-stroke",
+      "scope_origin": "owner_requested_20261013_minis",
+      "id": "ktm-2022-85-sx-17-14",
+      "model_year": 2022,
+      "region": "US",
+      "variant": "standard",
+      "planned": true,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "identity_evidence": [],
+      "parts_catalog_status": "NOT_AUDITED_BY_ROSTER",
+      "service_equivalence": "NOT_INFERRED",
+      "gaps": [
+        "Added at the owner's request; enabled only once a complete manufacturer catalog is on file."
+      ],
+      "original_60_target": false
+    },
+    {
+      "manufacturer": "KTM",
+      "model": "85 SX 17/14",
+      "discipline": "motocross",
+      "engine_cycle": "2-stroke",
+      "scope_origin": "owner_requested_20261013_minis",
+      "id": "ktm-2023-85-sx-17-14",
+      "model_year": 2023,
+      "region": "US",
+      "variant": "standard",
+      "planned": true,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "identity_evidence": [],
+      "parts_catalog_status": "NOT_AUDITED_BY_ROSTER",
+      "service_equivalence": "NOT_INFERRED",
+      "gaps": [
+        "Added at the owner's request; enabled only once a complete manufacturer catalog is on file."
+      ],
+      "original_60_target": false
+    },
+    {
+      "manufacturer": "KTM",
+      "model": "85 SX 17/14",
+      "discipline": "motocross",
+      "engine_cycle": "2-stroke",
+      "scope_origin": "owner_requested_20261013_minis",
+      "id": "ktm-2024-85-sx-17-14",
+      "model_year": 2024,
+      "region": "US",
+      "variant": "standard",
+      "planned": true,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "identity_evidence": [],
+      "parts_catalog_status": "NOT_AUDITED_BY_ROSTER",
+      "service_equivalence": "NOT_INFERRED",
+      "gaps": [
+        "Added at the owner's request; enabled only once a complete manufacturer catalog is on file."
+      ],
+      "original_60_target": false
+    },
+    {
+      "manufacturer": "KTM",
+      "model": "85 SX 17/14",
+      "discipline": "motocross",
+      "engine_cycle": "2-stroke",
+      "scope_origin": "owner_requested_20261013_minis",
+      "id": "ktm-2026-85-sx-17-14",
+      "model_year": 2026,
+      "region": "US",
+      "variant": "standard",
+      "planned": true,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "identity_evidence": [],
+      "parts_catalog_status": "NOT_AUDITED_BY_ROSTER",
+      "service_equivalence": "NOT_INFERRED",
+      "gaps": [
+        "Added at the owner's request; enabled only once a complete manufacturer catalog is on file."
+      ],
+      "original_60_target": false
+    },
+    {
+      "manufacturer": "KTM",
+      "model": "85 SX 19/16",
+      "discipline": "motocross",
+      "engine_cycle": "2-stroke",
+      "scope_origin": "owner_requested_20261013_minis",
+      "id": "ktm-2020-85-sx-19-16",
+      "model_year": 2020,
+      "region": "US",
+      "variant": "standard",
+      "planned": true,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "identity_evidence": [],
+      "parts_catalog_status": "NOT_AUDITED_BY_ROSTER",
+      "service_equivalence": "NOT_INFERRED",
+      "gaps": [
+        "Added at the owner's request; enabled only once a complete manufacturer catalog is on file."
+      ],
+      "original_60_target": false
+    },
+    {
+      "manufacturer": "KTM",
+      "model": "85 SX 19/16",
+      "discipline": "motocross",
+      "engine_cycle": "2-stroke",
+      "scope_origin": "owner_requested_20261013_minis",
+      "id": "ktm-2021-85-sx-19-16",
+      "model_year": 2021,
+      "region": "US",
+      "variant": "standard",
+      "planned": true,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "identity_evidence": [],
+      "parts_catalog_status": "NOT_AUDITED_BY_ROSTER",
+      "service_equivalence": "NOT_INFERRED",
+      "gaps": [
+        "Added at the owner's request; enabled only once a complete manufacturer catalog is on file."
+      ],
+      "original_60_target": false
+    },
+    {
+      "manufacturer": "KTM",
+      "model": "85 SX 19/16",
+      "discipline": "motocross",
+      "engine_cycle": "2-stroke",
+      "scope_origin": "owner_requested_20261013_minis",
+      "id": "ktm-2022-85-sx-19-16",
+      "model_year": 2022,
+      "region": "US",
+      "variant": "standard",
+      "planned": true,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "identity_evidence": [],
+      "parts_catalog_status": "NOT_AUDITED_BY_ROSTER",
+      "service_equivalence": "NOT_INFERRED",
+      "gaps": [
+        "Added at the owner's request; enabled only once a complete manufacturer catalog is on file."
+      ],
+      "original_60_target": false
+    },
+    {
+      "manufacturer": "KTM",
+      "model": "85 SX 19/16",
+      "discipline": "motocross",
+      "engine_cycle": "2-stroke",
+      "scope_origin": "owner_requested_20261013_minis",
+      "id": "ktm-2023-85-sx-19-16",
+      "model_year": 2023,
+      "region": "US",
+      "variant": "standard",
+      "planned": true,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "identity_evidence": [],
+      "parts_catalog_status": "NOT_AUDITED_BY_ROSTER",
+      "service_equivalence": "NOT_INFERRED",
+      "gaps": [
+        "Added at the owner's request; enabled only once a complete manufacturer catalog is on file."
+      ],
+      "original_60_target": false
+    },
+    {
+      "manufacturer": "KTM",
+      "model": "85 SX 19/16",
+      "discipline": "motocross",
+      "engine_cycle": "2-stroke",
+      "scope_origin": "owner_requested_20261013_minis",
+      "id": "ktm-2024-85-sx-19-16",
+      "model_year": 2024,
+      "region": "US",
+      "variant": "standard",
+      "planned": true,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "identity_evidence": [],
+      "parts_catalog_status": "NOT_AUDITED_BY_ROSTER",
+      "service_equivalence": "NOT_INFERRED",
+      "gaps": [
+        "Added at the owner's request; enabled only once a complete manufacturer catalog is on file."
+      ],
+      "original_60_target": false
+    },
+    {
+      "manufacturer": "KTM",
+      "model": "85 SX 19/16",
+      "discipline": "motocross",
+      "engine_cycle": "2-stroke",
+      "scope_origin": "owner_requested_20261013_minis",
+      "id": "ktm-2026-85-sx-19-16",
+      "model_year": 2026,
+      "region": "US",
+      "variant": "standard",
+      "planned": true,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "identity_evidence": [],
+      "parts_catalog_status": "NOT_AUDITED_BY_ROSTER",
+      "service_equivalence": "NOT_INFERRED",
+      "gaps": [
+        "Added at the owner's request; enabled only once a complete manufacturer catalog is on file."
+      ],
+      "original_60_target": false
+    },
+    {
+      "manufacturer": "Triumph",
+      "model": "TF 250-X",
+      "discipline": "motocross",
+      "engine_cycle": "4-stroke",
+      "scope_origin": "owner_requested_20261013_triumph",
+      "id": "triumph-2024-tf-250-x",
+      "model_year": 2024,
+      "region": "US",
+      "variant": "standard",
+      "planned": true,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "identity_evidence": [],
+      "parts_catalog_status": "NOT_AUDITED_BY_ROSTER",
+      "service_equivalence": "NOT_INFERRED",
+      "gaps": [
+        "Added at the owner's request; enabled only once a complete catalog is on file."
+      ],
+      "original_60_target": false
+    },
+    {
+      "manufacturer": "Triumph",
+      "model": "TF 250-X",
+      "discipline": "motocross",
+      "engine_cycle": "4-stroke",
+      "scope_origin": "owner_requested_20261013_triumph",
+      "id": "triumph-2025-tf-250-x",
+      "model_year": 2025,
+      "region": "US",
+      "variant": "standard",
+      "planned": true,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "identity_evidence": [],
+      "parts_catalog_status": "NOT_AUDITED_BY_ROSTER",
+      "service_equivalence": "NOT_INFERRED",
+      "gaps": [
+        "Added at the owner's request; enabled only once a complete catalog is on file."
+      ],
+      "original_60_target": false
+    },
+    {
+      "manufacturer": "Triumph",
+      "model": "TF 450-RC Edition",
+      "discipline": "motocross",
+      "engine_cycle": "4-stroke",
+      "scope_origin": "owner_requested_20261013_triumph",
+      "id": "triumph-2025-tf-450-rc-edition",
+      "model_year": 2025,
+      "region": "US",
+      "variant": "standard",
+      "planned": true,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "identity_evidence": [],
+      "parts_catalog_status": "NOT_AUDITED_BY_ROSTER",
+      "service_equivalence": "NOT_INFERRED",
+      "gaps": [
+        "Added at the owner's request; enabled only once a complete catalog is on file."
+      ],
+      "original_60_target": false
+    },
+    {
+      "manufacturer": "Triumph",
+      "model": "TF 250-C",
+      "discipline": "cross-country",
+      "engine_cycle": "4-stroke",
+      "scope_origin": "owner_requested_20261013_triumph",
+      "id": "triumph-2026-tf-250-c",
+      "model_year": 2026,
+      "region": "US",
+      "variant": "standard",
+      "planned": true,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "identity_evidence": [],
+      "parts_catalog_status": "NOT_AUDITED_BY_ROSTER",
+      "service_equivalence": "NOT_INFERRED",
+      "gaps": [
+        "Added at the owner's request; enabled only once a complete catalog is on file."
+      ],
+      "original_60_target": false
+    },
+    {
+      "manufacturer": "Triumph",
+      "model": "TF 250-E",
+      "discipline": "enduro",
+      "engine_cycle": "4-stroke",
+      "scope_origin": "owner_requested_20261013_triumph",
+      "id": "triumph-2026-tf-250-e",
+      "model_year": 2026,
+      "region": "US",
+      "variant": "standard",
+      "planned": true,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "identity_evidence": [],
+      "parts_catalog_status": "NOT_AUDITED_BY_ROSTER",
+      "service_equivalence": "NOT_INFERRED",
+      "gaps": [
+        "Added at the owner's request; enabled only once a complete catalog is on file."
+      ],
+      "original_60_target": false
+    },
+    {
+      "manufacturer": "Triumph",
+      "model": "TF 250-X",
+      "discipline": "motocross",
+      "engine_cycle": "4-stroke",
+      "scope_origin": "owner_requested_20261013_triumph",
+      "id": "triumph-2026-tf-250-x",
+      "model_year": 2026,
+      "region": "US",
+      "variant": "standard",
+      "planned": true,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "identity_evidence": [],
+      "parts_catalog_status": "NOT_AUDITED_BY_ROSTER",
+      "service_equivalence": "NOT_INFERRED",
+      "gaps": [
+        "Added at the owner's request; enabled only once a complete catalog is on file."
+      ],
+      "original_60_target": false
+    },
+    {
+      "manufacturer": "Triumph",
+      "model": "TF 450-C",
+      "discipline": "cross-country",
+      "engine_cycle": "4-stroke",
+      "scope_origin": "owner_requested_20261013_triumph",
+      "id": "triumph-2026-tf-450-c",
+      "model_year": 2026,
+      "region": "US",
+      "variant": "standard",
+      "planned": true,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "identity_evidence": [],
+      "parts_catalog_status": "NOT_AUDITED_BY_ROSTER",
+      "service_equivalence": "NOT_INFERRED",
+      "gaps": [
+        "Added at the owner's request; enabled only once a complete catalog is on file."
+      ],
+      "original_60_target": false
+    },
+    {
+      "manufacturer": "Triumph",
+      "model": "TF 450-E",
+      "discipline": "enduro",
+      "engine_cycle": "4-stroke",
+      "scope_origin": "owner_requested_20261013_triumph",
+      "id": "triumph-2026-tf-450-e",
+      "model_year": 2026,
+      "region": "US",
+      "variant": "standard",
+      "planned": true,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "identity_evidence": [],
+      "parts_catalog_status": "NOT_AUDITED_BY_ROSTER",
+      "service_equivalence": "NOT_INFERRED",
+      "gaps": [
+        "Added at the owner's request; enabled only once a complete catalog is on file."
+      ],
+      "original_60_target": false
+    },
+    {
+      "manufacturer": "Triumph",
+      "model": "TF 450-X",
+      "discipline": "motocross",
+      "engine_cycle": "4-stroke",
+      "scope_origin": "owner_requested_20261013_triumph",
+      "id": "triumph-2026-tf-450-x",
+      "model_year": 2026,
+      "region": "US",
+      "variant": "standard",
+      "planned": true,
+      "identity_status": "UNVERIFIED_YEAR_MARKET_IDENTITY",
+      "identity_evidence": [],
+      "parts_catalog_status": "NOT_AUDITED_BY_ROSTER",
+      "service_equivalence": "NOT_INFERRED",
+      "gaps": [
+        "Added at the owner's request; enabled only once a complete catalog is on file."
       ],
       "original_60_target": false
     }

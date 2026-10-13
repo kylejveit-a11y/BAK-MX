@@ -26,11 +26,11 @@ _urls={'ktm':'https://sparepartsfinder.ktm.com','husqvarna':'https://sparepartsf
 _nodes=[];_seen=set()
 for _b in json.loads((HERE/'all-region-identity-audit.json').read_text()):
  for _l in _b['all_region_leaves']:
-  _m=re.match(r'(.+?)\s+(20\d\d)\s*(.*)',_l['text'])
+  _text=re.sub(r'\s+',' ',_l['text']).strip();_m=re.match(r'(.+?)\s+(20\d\d)\s*(.*)',_text)
   if not _m or '<EU>' not in _m[3]:continue
   _k=(_b['brand'],_m[1].strip().upper(),int(_m[2]))
   if _k not in _open or _k in _seen:continue
-  _seen.add(_k);_nodes.append({'id':str(_l['id']),'label':_l['text'],'year':int(_m[2]),'brand':_b['brand'],'source_url':_urls[_b['brand']],'catalog_disabled':False})
+  _seen.add(_k);_nodes.append({'id':str(_l['id']),'label':_text,'year':int(_m[2]),'brand':_b['brand'],'source_url':_urls[_b['brand']],'catalog_disabled':False})
 index={'indexes':[{'nodes':_nodes}]}
 for group in index['indexes']:
  for n in group.get('nodes',[]):
@@ -39,7 +39,7 @@ for group in index['indexes']:
   target=planned.get((n['brand'],model,n['year']))
   if not target:continue
   n['original_60_target']=target.get('original_60_target',False)
-  if re.match(r'^(50|65|85)\b',model) or re.match(r'^(TC|MC)\s*(50|65|85)\b',model):continue
+  if re.match(r'^(50|65)\b',model) or re.match(r'^(TC|MC)\s*(50|65|85)\b',model):continue
   if model in ['FE 350','FE 501']:continue
   if any(x in model for x in ['FACTORY','ROCKSTAR','6DAYS','HARDENDURO','PRO','CHAMPION',' GP',' BT']):continue
   if 'EXC' in model or re.match(r'FE (350|501)s$',model):continue

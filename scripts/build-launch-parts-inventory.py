@@ -64,6 +64,12 @@ for p in (B/'european-discovery/captures').rglob('*.json'):
   duplicate_counts[duplicate['assembly_id']]+=1
  complete=bool(d.get('catalog_complete') and d.get('scope_confirmed') and groups and len(groups)==d.get('expected_assembly_count') and all(a.get('enumeration_checked') and counts[a['id']]+duplicate_counts[a['id']]==a.get('expected_occurrences') for a in groups))
  catalogs.append({'target':d['target'],'path':str(p),'sha256':sha(p),'source':'Official '+d['target']['manufacturer']+' US catalog','complete':complete,'assemblies':sum(a.get('enumeration_checked',False) for a in groups),'expected_assemblies':d.get('expected_assembly_count'),'occurrences':len(d.get('parts',[])),'new_this_pass':True,'scope':d.get('catalog_label'),'unknown_quantities':sum(x.get('catalog_quantity') is None for x in d.get('parts',[]))})
+# Triumph: public catalog pages of an authorized US Triumph dealer store (scripts/capture-triumph-parts.py).
+for p in sorted((B/'triumph').glob('*.json')):
+ d=read(p)
+ if key(d['target']) not in planned:continue
+ complete=bool(d.get('catalog_complete') and d['assemblies'] and all(a['enumeration_checked'] and a['stated_rows']==len(a['rows']) for a in d['assemblies']))
+ catalogs.append({'target':target(d['target']),'path':str(p),'sha256':sha(p),'source':d['source'],'complete':complete,'assemblies':len(d['assemblies']),'expected_assemblies':len(d['assemblies']),'occurrences':d['counts']['occurrences'],'new_this_pass':False,'scope':'Dealer-hosted Triumph OEM catalogue '+d['catalogue_code']+' '+str(d['target']['model_year']),'unknown_quantities':sum(not r['catalog_quantity_raw'] for a in d['assemblies'] for r in a['rows'])})
 # Official catalogs the manufacturer lists only under an EU market label, for models also sold in the US.
 # Used only where no exact-US catalog exists; the source name carries the market so the rider is told.
 for p in (B/'european-discovery/captures-eu').rglob('*.json'):

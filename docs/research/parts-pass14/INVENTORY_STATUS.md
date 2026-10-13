@@ -2,7 +2,7 @@
 
 Paused at the userÃ¢â‚¬â„¢s request after finishing active batches. Existing captures were preserved; no rebuild guides or database changes were made.
 
-284 complete catalog inventories across 467 planned acquisition slots; 37 of the original60 targets. 209 targets newly completed this pass. Unknown or not-yet-established model-years remain explicit acquisition slots, not asserted production bikes.
+305 complete catalog inventories across 488 planned acquisition slots; 37 of the original60 targets. 209 targets newly completed this pass. Unknown or not-yet-established model-years remain explicit acquisition slots, not asserted production bikes.
 
 Catalog-complete means every listed group and part entry is captured. It does not mean every possible installed piece or specification is known. Optional items, supersessions, nested kits, AR and unavailable quantities remain distinct.
 
@@ -475,5 +475,26 @@ Catalog-complete means every listed group and part entry is captured. It does no
 | Yamaha | YZ450FX | 2025 | INDEX_ONLY | 0 / 46 | 0 |
 | Yamaha | YZ450FX | 2026 | INDEX_ONLY | 0 / 46 | 0 |
 | Yamaha | YZ450FX | 2027 | INDEX_ONLY | 0 / 47 | 0 |
+| KTM | 85 SX 17/14 | 2020 | CATALOG_ENUMERATED | 33 / 33 | 1087 |
+| KTM | 85 SX 17/14 | 2021 | CATALOG_ENUMERATED | 33 / 33 | 1083 |
+| KTM | 85 SX 17/14 | 2022 | CATALOG_ENUMERATED | 33 / 33 | 1074 |
+| KTM | 85 SX 17/14 | 2023 | CATALOG_ENUMERATED | 33 / 33 | 1075 |
+| KTM | 85 SX 17/14 | 2024 | CATALOG_ENUMERATED | 33 / 33 | 1075 |
+| KTM | 85 SX 17/14 | 2026 | CATALOG_ENUMERATED | 34 / 34 | 1076 |
+| KTM | 85 SX 19/16 | 2020 | CATALOG_ENUMERATED | 33 / 33 | 1087 |
+| KTM | 85 SX 19/16 | 2021 | CATALOG_ENUMERATED | 33 / 33 | 1083 |
+| KTM | 85 SX 19/16 | 2022 | CATALOG_ENUMERATED | 33 / 33 | 1074 |
+| KTM | 85 SX 19/16 | 2023 | CATALOG_ENUMERATED | 33 / 33 | 1075 |
+| KTM | 85 SX 19/16 | 2024 | CATALOG_ENUMERATED | 33 / 33 | 1075 |
+| KTM | 85 SX 19/16 | 2026 | CATALOG_ENUMERATED | 34 / 34 | 1076 |
+| Triumph | TF 250-X | 2024 | CATALOG_ENUMERATED | 71 / 71 | 949 |
+| Triumph | TF 250-X | 2025 | CATALOG_ENUMERATED | 71 / 71 | 949 |
+| Triumph | TF 450-RC Edition | 2025 | CATALOG_ENUMERATED | 66 / 66 | 921 |
+| Triumph | TF 250-C | 2026 | CATALOG_ENUMERATED | 79 / 79 | 964 |
+| Triumph | TF 250-E | 2026 | CATALOG_ENUMERATED | 82 / 82 | 1036 |
+| Triumph | TF 250-X | 2026 | CATALOG_ENUMERATED | 76 / 76 | 935 |
+| Triumph | TF 450-C | 2026 | CATALOG_ENUMERATED | 77 / 77 | 969 |
+| Triumph | TF 450-E | 2026 | CATALOG_ENUMERATED | 82 / 82 | 1053 |
+| Triumph | TF 450-X | 2026 | CATALOG_ENUMERATED | 74 / 74 | 938 |
 
 See INVENTORY_STATUS.json for exact source paths, hashes, alternate captures and gaps. Source captures and acquisition scripts are resumable; do not restart finished catalogs.
