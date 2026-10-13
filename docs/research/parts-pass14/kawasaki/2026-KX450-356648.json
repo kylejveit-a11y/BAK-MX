@@ -1,0 +1,128 @@
+{
+  "target": {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "model_code": "KX450MTFNN",
+  "index_url": "https://www.kawasaki.com/en-us/owner-center/parts/2026/KX450MTFNN",
+  "assembly_url": "https://www.kawasaki.com/en-us/owner-center/parts/356648/2026/KX450MTFNN",
+  "name": "VIEW DIAGRAM",
+  "url": "https://www.kawasaki.com/en-us/owner-center/parts/356648/2026/KX450MTFNN",
+  "headings": [
+    "SHOP ALL",
+    "Vehicle Accessories",
+    "ELEKTRODE\u00ae",
+    "Accessory Packages",
+    "Apparel",
+    "Gifts & Collectibles",
+    "Essentials",
+    "Kawasaki Performance Oils",
+    "Collections",
+    "Digital Catalogs",
+    "Featured",
+    "Sale",
+    "Licensed Products",
+    "VISIT OWNER CENTER",
+    "VISIT RACING",
+    "Racing News",
+    "Team Green\u2122",
+    "Racing Teams",
+    "Research",
+    "Shop",
+    "Finance",
+    "2026 KX\u2122 450 - Front Brake"
+  ],
+  "headers": [
+    "ITEM NAME",
+    "REF #",
+    "PART NUMBER",
+    "QUANTITY",
+    "DESTINATION",
+    "REMARKS"
+  ],
+  "rows": [
+    [
+      "DISC,FR,270MM",
+      "41080",
+      "41080-0771",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "CALIPER-ASSY,FR",
+      "43041",
+      "43041-0597",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "BREATHER-BRAKE",
+      "43056",
+      "43056-0023",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "PAD-ASSY-BRAKE",
+      "43082",
+      "43082-0220",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "BOLT,DISC PLATE,6MM",
+      "92151",
+      "92151-1799",
+      "4",
+      "",
+      ""
+    ],
+    [
+      "KIT,PIN RETAINER",
+      "99999",
+      "99999-0856",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "KIT,SPRING STEEL CLIP",
+      "99999A",
+      "99999-0858",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "KIT,BOOT",
+      "99999B",
+      "99999-0859",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "BOLT-SOCKET,8X40",
+      "120",
+      "120CA0840",
+      "2",
+      "",
+      ""
+    ]
+  ],
+  "diagram_urls": [
+    "/Content/Images/Parts/99912-2237-03/F2292.GIF"
+  ],
+  "captured_at": "2026-10-13T09:52:14Z",
+  "authority": "OEM",
+  "quantity_basis": "EXPLICIT_OEM_TABLE",
+  "source_response_sha256": "66a44296edca1b87cbe00d5f24ff1320e115724ae1d809c30abecbe1367d1ef9",
+  "acquisition": "Ordinary requests.Session GET with server-issued public cookies; TLS verification enabled"
+}

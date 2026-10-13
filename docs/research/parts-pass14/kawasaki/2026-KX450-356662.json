@@ -1,0 +1,64 @@
+{
+  "target": {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "model_code": "KX450MTFNN",
+  "index_url": "https://www.kawasaki.com/en-us/owner-center/parts/2026/KX450MTFNN",
+  "assembly_url": "https://www.kawasaki.com/en-us/owner-center/parts/356662/2026/KX450MTFNN",
+  "name": "VIEW DIAGRAM",
+  "url": "https://www.kawasaki.com/en-us/owner-center/parts/356662/2026/KX450MTFNN",
+  "headings": [
+    "SHOP ALL",
+    "Vehicle Accessories",
+    "ELEKTRODE\u00ae",
+    "Accessory Packages",
+    "Apparel",
+    "Gifts & Collectibles",
+    "Essentials",
+    "Kawasaki Performance Oils",
+    "Collections",
+    "Digital Catalogs",
+    "Featured",
+    "Sale",
+    "Licensed Products",
+    "VISIT OWNER CENTER",
+    "VISIT RACING",
+    "Racing News",
+    "Team Green\u2122",
+    "Racing Teams",
+    "Research",
+    "Shop",
+    "Finance",
+    "2026 KX\u2122 450 - Accessory(Chain)"
+  ],
+  "headers": [
+    "ITEM NAME",
+    "REF #",
+    "PART NUMBER",
+    "QUANTITY",
+    "DESTINATION",
+    "REMARKS"
+  ],
+  "rows": [
+    [
+      "KIT (CHAIN)",
+      "99994",
+      "99994-1945",
+      "1",
+      "",
+      ""
+    ]
+  ],
+  "diagram_urls": [
+    "/Content/Images/Parts/99912-2237-03/F2910A.GIF"
+  ],
+  "captured_at": "2026-10-13T09:52:11Z",
+  "authority": "OEM",
+  "quantity_basis": "EXPLICIT_OEM_TABLE",
+  "source_response_sha256": "d9c796b62b5ea670f113b40b3beb6f1468b6fd5b0466c225ccd37ff3cfff5757",
+  "acquisition": "Ordinary requests.Session GET with server-issued public cookies; TLS verification enabled"
+}

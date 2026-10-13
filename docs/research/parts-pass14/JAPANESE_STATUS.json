@@ -113,18 +113,17 @@
         "region": "US",
         "variant": "standard"
       },
-      "path": null,
-      "source": null,
-      "source_url": null,
-      "sha256": null,
-      "diagrams_captured": 0,
-      "diagrams_expected": null,
-      "part_rows": 0,
-      "complete": false,
-      "gaps": [
-        "NOT_ATTEMPTED"
-      ],
-      "initial_status": "INDEX_ONLY"
+      "path": "docs/research/parts-pass14/kawasaki/inventories/2026-KX450.json",
+      "source": "Kawasaki official US catalog",
+      "source_url": "https://www.kawasaki.com/en-us/owner-center/parts/2026/KX450MTFNN",
+      "sha256": "ddc0328cfc88f91a79617f17388389bbcb3c3d401e5198e4b865e19346badf4e",
+      "diagrams_captured": 54,
+      "diagrams_expected": 54,
+      "part_rows": 870,
+      "complete": true,
+      "gaps": [],
+      "initial_status": "INDEX_ONLY",
+      "attempted": true
     },
     {
       "target": {
@@ -135,17 +134,19 @@
         "variant": "standard"
       },
       "path": null,
-      "source": null,
-      "source_url": null,
+      "source": "MotoSport public OEM catalog",
+      "source_url": "https://www.motosport.com/oem-parts/yamaha/2026/yz250f",
       "sha256": null,
       "diagrams_captured": 0,
-      "diagrams_expected": null,
+      "diagrams_expected": 45,
       "part_rows": 0,
       "complete": false,
       "gaps": [
-        "NOT_ATTEMPTED"
+        "INDEX_ONLY: paused before diagram acquisition; all indexed diagrams remain uncaptured."
       ],
-      "initial_status": "INDEX_ONLY"
+      "initial_status": "INDEX_ONLY",
+      "index_path": "docs/research/parts-pass14/yamaha/2026-yz250f/index.json",
+      "index_sha256": "a96c2c7b43120f5b8e7151f8e6dbbf92852871edba48621f6d4d507b1a10f60e"
     },
     {
       "target": {
@@ -2584,5 +2585,7 @@
       "initial_status": "INDEX_ONLY"
     }
   ],
-  "updated_at": "2026-10-13T09:46:37.041400+00:00"
+  "updated_at": "2026-10-13T09:52:19.243738+00:00",
+  "run_state": "PAUSED_AT_USER_REQUEST",
+  "paused_date": "2026-10-13"
 }

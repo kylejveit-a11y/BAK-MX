@@ -1,14 +1,14 @@
 {
   "target": {
     "manufacturer": "Yamaha",
-    "year": 2026,
     "model": "YZ250F",
+    "variant": "standard",
     "region": "US",
-    "variant": "standard"
+    "year": 2026,
+    "catalog_model_label": "YZ250F"
   },
   "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz250f",
-  "title": "2026 Yamaha YZ250F OEM Parts",
-  "captured_at": "2026-09-21T15:27:05.179Z",
+  "captured_at": "2026-10-12T16:10:57.397131+00:00",
   "assemblies": [
     {
       "name": "1 TITLE PAGE",
@@ -190,5 +190,6 @@
       "name": "WATER PUMP",
       "url": "https://www.motosport.com/oem-parts/yamaha/2026/yz250f/water-pump"
     }
-  ]
+  ],
+  "sha256": "9818a17126267c9a9afeffd0e5af16590657860571297fd4be5d32865f85a086"
 }
