@@ -1,0 +1,64 @@
+{
+  "target": {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2025,
+    "region": "US",
+    "variant": "standard"
+  },
+  "model_code": "KX252ESFNN",
+  "index_url": "https://www.kawasaki.com/en-us/owner-center/parts/2025/KX252ESFNN",
+  "assembly_url": "https://www.kawasaki.com/en-us/owner-center/parts/356710/2025/KX252ESFNN",
+  "name": "VIEW DIAGRAM",
+  "url": "https://www.kawasaki.com/en-us/owner-center/parts/356710/2025/KX252ESFNN",
+  "headings": [
+    "SHOP ALL",
+    "Vehicle Accessories",
+    "ELEKTRODE\u00ae",
+    "Accessory Packages",
+    "Apparel",
+    "Gifts & Collectibles",
+    "Essentials",
+    "Kawasaki Performance Oils",
+    "Collections",
+    "Digital Catalogs",
+    "Featured",
+    "Sale",
+    "Licensed Products",
+    "VISIT OWNER CENTER",
+    "VISIT RACING",
+    "Racing News",
+    "Team Green\u2122",
+    "Racing Teams",
+    "Research",
+    "Shop",
+    "Finance",
+    "2025 KX\u2122 250 - Cables"
+  ],
+  "headers": [
+    "ITEM NAME",
+    "REF #",
+    "PART NUMBER",
+    "QUANTITY",
+    "DESTINATION",
+    "REMARKS"
+  ],
+  "rows": [
+    [
+      "CABLE-THROTTLE",
+      "54012",
+      "54012-0743",
+      "1",
+      "",
+      ""
+    ]
+  ],
+  "diagram_urls": [
+    "/Content/Images/Parts/99912-2265-02/F2540.GIF"
+  ],
+  "captured_at": "2026-10-13T11:39:22Z",
+  "authority": "OEM",
+  "quantity_basis": "EXPLICIT_OEM_TABLE",
+  "source_response_sha256": "c0737718fcb8121ff3dd723d9e4a1f266bdf6e523b1d75c97d1ad75d14f50c3f",
+  "acquisition": "Ordinary requests.Session GET with server-issued public cookies; TLS verification enabled"
+}

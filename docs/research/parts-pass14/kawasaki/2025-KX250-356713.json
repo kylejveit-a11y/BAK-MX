@@ -1,0 +1,88 @@
+{
+  "target": {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2025,
+    "region": "US",
+    "variant": "standard"
+  },
+  "model_code": "KX252ESFNN",
+  "index_url": "https://www.kawasaki.com/en-us/owner-center/parts/2025/KX252ESFNN",
+  "assembly_url": "https://www.kawasaki.com/en-us/owner-center/parts/356713/2025/KX252ESFNN",
+  "name": "VIEW DIAGRAM",
+  "url": "https://www.kawasaki.com/en-us/owner-center/parts/356713/2025/KX252ESFNN",
+  "headings": [
+    "SHOP ALL",
+    "Vehicle Accessories",
+    "ELEKTRODE\u00ae",
+    "Accessory Packages",
+    "Apparel",
+    "Gifts & Collectibles",
+    "Essentials",
+    "Kawasaki Performance Oils",
+    "Collections",
+    "Digital Catalogs",
+    "Featured",
+    "Sale",
+    "Licensed Products",
+    "VISIT OWNER CENTER",
+    "VISIT RACING",
+    "Racing News",
+    "Team Green\u2122",
+    "Racing Teams",
+    "Research",
+    "Shop",
+    "Finance",
+    "2025 KX\u2122 250 - Owner's Tools"
+  ],
+  "headers": [
+    "ITEM NAME",
+    "REF #",
+    "PART NUMBER",
+    "QUANTITY",
+    "DESTINATION",
+    "REMARKS"
+  ],
+  "rows": [
+    [
+      "GASKET-LIQUID,TB1211F,CLEAR",
+      "92104",
+      "92104-0004",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "GASKET-LIQUID,TB1216,GRAY",
+      "92104A",
+      "92104-1063",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "GASKET-LIQUID,TB1216B,BLACK",
+      "92104B",
+      "92104-1064",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "TOOL-WRENCH,NIPPLE,6X8",
+      "92110",
+      "92110-0004",
+      "1",
+      "",
+      ""
+    ]
+  ],
+  "diagram_urls": [
+    "/Content/Images/Parts/99912-2265-02/F2810.GIF"
+  ],
+  "captured_at": "2026-10-13T11:39:28Z",
+  "authority": "OEM",
+  "quantity_basis": "EXPLICIT_OEM_TABLE",
+  "source_response_sha256": "aa376bc35949104692c29e8d299f2343a1161c6628679f64bf5b3d2476519a57",
+  "acquisition": "Ordinary requests.Session GET with server-issued public cookies; TLS verification enabled"
+}

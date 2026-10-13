@@ -1,0 +1,64 @@
+{
+  "target": {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2025,
+    "region": "US",
+    "variant": "standard"
+  },
+  "model_code": "KX252ESFNN",
+  "index_url": "https://www.kawasaki.com/en-us/owner-center/parts/2025/KX252ESFNN",
+  "assembly_url": "https://www.kawasaki.com/en-us/owner-center/parts/356716/2025/KX252ESFNN",
+  "name": "VIEW DIAGRAM",
+  "url": "https://www.kawasaki.com/en-us/owner-center/parts/356716/2025/KX252ESFNN",
+  "headings": [
+    "SHOP ALL",
+    "Vehicle Accessories",
+    "ELEKTRODE\u00ae",
+    "Accessory Packages",
+    "Apparel",
+    "Gifts & Collectibles",
+    "Essentials",
+    "Kawasaki Performance Oils",
+    "Collections",
+    "Digital Catalogs",
+    "Featured",
+    "Sale",
+    "Licensed Products",
+    "VISIT OWNER CENTER",
+    "VISIT RACING",
+    "Racing News",
+    "Team Green\u2122",
+    "Racing Teams",
+    "Research",
+    "Shop",
+    "Finance",
+    "2025 KX\u2122 250 - Accessory"
+  ],
+  "headers": [
+    "ITEM NAME",
+    "REF #",
+    "PART NUMBER",
+    "QUANTITY",
+    "DESTINATION",
+    "REMARKS"
+  ],
+  "rows": [
+    [
+      "KIT (CHAIN)",
+      "99994",
+      "99994-1945",
+      "1",
+      "",
+      ""
+    ]
+  ],
+  "diagram_urls": [
+    "/Content/Images/Parts/99912-2265-02/F2910.GIF"
+  ],
+  "captured_at": "2026-10-13T11:39:22Z",
+  "authority": "OEM",
+  "quantity_basis": "EXPLICIT_OEM_TABLE",
+  "source_response_sha256": "e95796be3d4e2b3d9385491d0d558d92678cc6e57ea97e858c8a1e502df70d0c",
+  "acquisition": "Ordinary requests.Session GET with server-issued public cookies; TLS verification enabled"
+}
