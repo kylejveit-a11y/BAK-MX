@@ -412,14 +412,16 @@
       "source_url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/58256?modelidentifier=1004496879&isEngine=True",
       "id": "58256",
       "expected_occurrences": 9,
-      "enumeration_checked": false,
+      "enumeration_checked": true,
       "diagram_url": "https://sparepartsfinder.ktm.com/Images/maps/224603510.png",
       "source_response_sha256": "a5aa1d24f631472f2bf1e7861fa3066dd0220c7471840a8709fd8aca9dda0dad",
       "diagram_part_count": 9,
-      "diagram_missing_part_numbers": [
-        "a46035055015"
-      ],
-      "captured_occurrences": 9
+      "diagram_missing_part_numbers": [],
+      "captured_occurrences": 9,
+      "diagram_raw_case_differences": {
+        "a46035055015": "A46035055015"
+      },
+      "reconciliation_note": "Diagram hotspot and table identifiers differ only in letter case. Original table identifiers and exact hotspot spellings retained; no part substitution inferred."
     },
     {
       "name": "COOLING SYSTEM",
@@ -13395,7 +13397,7 @@
   "gaps": [
     "Parts inventory only; no torque, clearance, compatibility or procedure inference."
   ],
-  "catalog_complete": false,
+  "catalog_complete": true,
   "scope_confirmed": true,
   "source_url": "https://sparepartsfinder.ktm.com/",
   "retrieved_at": "2026-09-21",

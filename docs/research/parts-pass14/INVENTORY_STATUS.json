@@ -5,15 +5,15 @@
   "summary": {
     "planned_acquisition_slots": 467,
     "families": 62,
-    "complete_catalog_inventories": 164,
+    "complete_catalog_inventories": 217,
     "original_60_complete": 26,
-    "new_completed_targets": 150,
-    "selected_captured_occurrences": 226852,
+    "new_completed_targets": 203,
+    "selected_captured_occurrences": 258383,
     "complete_by_brand": {
-      "GasGas": 38,
+      "GasGas": 42,
       "Honda": 4,
-      "Husqvarna": 41,
-      "KTM": 72,
+      "Husqvarna": 60,
+      "KTM": 102,
       "Kawasaki": 7,
       "Yamaha": 2
     }
@@ -957,8 +957,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "PARTIAL_CAPTURE",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "GasGas",
@@ -968,10 +968,10 @@
           "region": "US"
         },
         "path": "docs/research/parts-pass14/european-discovery/captures/gasgas/ex-250f-2024-1003024773.json",
-        "sha256": "c760df69dd2ac9939f649c8afecf0b9906eac8c0940fa37f2c1d621397037809",
+        "sha256": "fd842a3d0c9d4a04fd94099c740b486ecbcacb6a583e78d3bbcea9fe0ed2102b",
         "source": "Official GasGas US catalog",
-        "complete": false,
-        "assemblies": 42,
+        "complete": true,
+        "assemblies": 43,
         "expected_assemblies": 43,
         "occurrences": 1176,
         "new_this_pass": true,
@@ -979,9 +979,7 @@
         "unknown_quantities": 0
       },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -993,8 +991,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "PARTIAL_CAPTURE",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "GasGas",
@@ -1004,10 +1002,10 @@
           "region": "US"
         },
         "path": "docs/research/parts-pass14/european-discovery/captures/gasgas/ex-250f-2025-1003420989.json",
-        "sha256": "16c6feb5cbbfb783a8b163f3ff7c5c9d93fffa6dd54e08d26f0953a43f30f4e0",
+        "sha256": "364d0b4940e00646a5bfca59ad73b925b341b3313cef1f401e8791b25aea7603",
         "source": "Official GasGas US catalog",
-        "complete": false,
-        "assemblies": 42,
+        "complete": true,
+        "assemblies": 43,
         "expected_assemblies": 43,
         "occurrences": 1176,
         "new_this_pass": true,
@@ -1015,9 +1013,7 @@
         "unknown_quantities": 0
       },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -1426,8 +1422,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "PARTIAL_CAPTURE",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "GasGas",
@@ -1437,10 +1433,10 @@
           "region": "US"
         },
         "path": "docs/research/parts-pass14/european-discovery/captures/gasgas/ex-350f-2024-1003024775.json",
-        "sha256": "5f3e93a5ff55890de729c9e8c17f51997326ee5f65c42a16d499a807ce742551",
+        "sha256": "71806166fcd1d434086137765464c63f5d23d00d4efb05a39fb46a4123af4e82",
         "source": "Official GasGas US catalog",
-        "complete": false,
-        "assemblies": 42,
+        "complete": true,
+        "assemblies": 43,
         "expected_assemblies": 43,
         "occurrences": 1180,
         "new_this_pass": true,
@@ -1448,9 +1444,7 @@
         "unknown_quantities": 0
       },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -1462,8 +1456,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "PARTIAL_CAPTURE",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "GasGas",
@@ -1473,10 +1467,10 @@
           "region": "US"
         },
         "path": "docs/research/parts-pass14/european-discovery/captures/gasgas/ex-350f-2025-1003421009.json",
-        "sha256": "758d0b13aab4a16a80982dfe1f93850e022c9c70a3173f26fa5822e920085559",
+        "sha256": "0216fe90134ffbb96239cf52c1df1d0885622763003efc145036b91b136a0bcb",
         "source": "Official GasGas US catalog",
-        "complete": false,
-        "assemblies": 42,
+        "complete": true,
+        "assemblies": 43,
         "expected_assemblies": 43,
         "occurrences": 1179,
         "new_this_pass": true,
@@ -1484,9 +1478,7 @@
         "unknown_quantities": 0
       },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -3947,8 +3939,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "PARTIAL_CAPTURE",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Husqvarna",
@@ -3958,10 +3950,10 @@
           "region": "US"
         },
         "path": "docs/research/parts-pass14/european-discovery/captures/husqvarna/fc-250-2027-1004500839.json",
-        "sha256": "2c9adc6713a500ad387aa799fb94446aa9bc2dd74374430a9958f4de66f60d3d",
+        "sha256": "214aaacde97edeb0dc8c1afcedba172a4903d4483bdc926751d75aa51ee4d9a6",
         "source": "Official Husqvarna US catalog",
-        "complete": false,
-        "assemblies": 42,
+        "complete": true,
+        "assemblies": 43,
         "expected_assemblies": 43,
         "occurrences": 1177,
         "new_this_pass": true,
@@ -3969,9 +3961,7 @@
         "unknown_quantities": 0
       },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -4070,8 +4060,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "PARTIAL_CAPTURE",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Husqvarna",
@@ -4081,10 +4071,10 @@
           "region": "US"
         },
         "path": "docs/research/parts-pass14/european-discovery/captures/husqvarna/fc-350-2023-1002327837.json",
-        "sha256": "f7bf226a0fe8583c5194e29889b53970574b07f45528a206d4be7d995c4acc2e",
+        "sha256": "47a718b866b41d0c6a6af4576634358e2c0c4d0a61d18586e08acae79d9f6902",
         "source": "Official Husqvarna US catalog",
-        "complete": false,
-        "assemblies": 41,
+        "complete": true,
+        "assemblies": 42,
         "expected_assemblies": 42,
         "occurrences": 1188,
         "new_this_pass": true,
@@ -4092,9 +4082,7 @@
         "unknown_quantities": 0
       },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -4106,8 +4094,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "PARTIAL_CAPTURE",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Husqvarna",
@@ -4117,10 +4105,10 @@
           "region": "US"
         },
         "path": "docs/research/parts-pass14/european-discovery/captures/husqvarna/fc-350-2024-1003026998.json",
-        "sha256": "9689ac7a7e577b2d51b725155cd83e4e7c49e62589a869e5f59de28ba66f652b",
+        "sha256": "4325603569b01c0dde6a8f496367bd0cde990f868fefaeb6c9cafc5ae5af8360",
         "source": "Official Husqvarna US catalog",
-        "complete": false,
-        "assemblies": 41,
+        "complete": true,
+        "assemblies": 42,
         "expected_assemblies": 42,
         "occurrences": 1192,
         "new_this_pass": true,
@@ -4128,9 +4116,7 @@
         "unknown_quantities": 0
       },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -4180,8 +4166,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "PARTIAL_CAPTURE",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Husqvarna",
@@ -4191,10 +4177,10 @@
           "region": "US"
         },
         "path": "docs/research/parts-pass14/european-discovery/captures/husqvarna/fc-350-2027-1004496889.json",
-        "sha256": "dc8f1a3f4335d88129424b521cd2985a22a55204f316abad7179a29cabda215c",
+        "sha256": "7d622f0416c950fb1488182df6d49fdd7ef7b65b0e3a66c1aa38f004250bf4fc",
         "source": "Official Husqvarna US catalog",
-        "complete": false,
-        "assemblies": 41,
+        "complete": true,
+        "assemblies": 42,
         "expected_assemblies": 42,
         "occurrences": 1186,
         "new_this_pass": true,
@@ -4202,9 +4188,7 @@
         "unknown_quantities": 0
       },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -4784,8 +4768,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "PARTIAL_CAPTURE",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Husqvarna",
@@ -4795,10 +4779,10 @@
           "region": "US"
         },
         "path": "docs/research/parts-pass14/european-discovery/captures/husqvarna/fx-350-2025-1003420847.json",
-        "sha256": "1fedc7fb070457cb0281d71fa8c3e1d9f0966f49e7f7ae74c761179d2f8b1c56",
+        "sha256": "0e0d1e1b02ddefdf8f7d0357849ecbdc8280bf99c2179c401e28292cf388fb56",
         "source": "Official Husqvarna US catalog",
-        "complete": false,
-        "assemblies": 43,
+        "complete": true,
+        "assemblies": 44,
         "expected_assemblies": 44,
         "occurrences": 1195,
         "new_this_pass": true,
@@ -4806,9 +4790,7 @@
         "unknown_quantities": 0
       },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -4820,8 +4802,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "PARTIAL_CAPTURE",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Husqvarna",
@@ -4831,10 +4813,10 @@
           "region": "US"
         },
         "path": "docs/research/parts-pass14/european-discovery/captures/husqvarna/fx-350-2026-1003992511.json",
-        "sha256": "eff386315ad75925806d68ba8ba804906beedb07674a3867da8788966af7d5ec",
+        "sha256": "cb4c92fb0fcbb0f5e21932aa43d54a415fec70dfe040c2a9b774af8134687cc8",
         "source": "Official Husqvarna US catalog",
-        "complete": false,
-        "assemblies": 43,
+        "complete": true,
+        "assemblies": 44,
         "expected_assemblies": 44,
         "occurrences": 1195,
         "new_this_pass": true,
@@ -4842,9 +4824,7 @@
         "unknown_quantities": 0
       },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -4856,8 +4836,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "PARTIAL_CAPTURE",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "Husqvarna",
@@ -4867,10 +4847,10 @@
           "region": "US"
         },
         "path": "docs/research/parts-pass14/european-discovery/captures/husqvarna/fx-350-2027-1004481154.json",
-        "sha256": "d4c57037cf5de130d7420cf171085fe6e5b6ff3f0a02873eb17e18a36d46e86e",
+        "sha256": "f69d21dba703851943847a2705b9c34f03f3d8f47805add7ddee320ab60b2d31",
         "source": "Official Husqvarna US catalog",
-        "complete": false,
-        "assemblies": 43,
+        "complete": true,
+        "assemblies": 44,
         "expected_assemblies": 44,
         "occurrences": 1193,
         "new_this_pass": true,
@@ -4878,9 +4858,7 @@
         "unknown_quantities": 0
       },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -5651,13 +5629,29 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "Husqvarna",
+          "model": "TE 150",
+          "model_year": 2020,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures/husqvarna/te-150i-2020-1001662102.json",
+        "sha256": "18b697ad7a205062f28628681b3fe31dd7de0644b4f2a6982ee51d2d5f7c279f",
+        "source": "Official Husqvarna US catalog",
+        "complete": true,
+        "assemblies": 44,
+        "expected_assemblies": 44,
+        "occurrences": 1222,
+        "new_this_pass": true,
+        "scope": "TE 150i                             2020 <2020><US><F2175T9>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -5669,13 +5663,29 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "Husqvarna",
+          "model": "TE 150",
+          "model_year": 2021,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures/husqvarna/te-150i-2021-1001896049.json",
+        "sha256": "2ba072edfad4e2db44be0e602362c825aa47894fa7dfa79365331070df0a2b65",
+        "source": "Official Husqvarna US catalog",
+        "complete": true,
+        "assemblies": 44,
+        "expected_assemblies": 44,
+        "occurrences": 1224,
+        "new_this_pass": true,
+        "scope": "TE 150i                             2021 <2021><US><F2175U9>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -5687,13 +5697,29 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "Husqvarna",
+          "model": "TE 150",
+          "model_year": 2022,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures/husqvarna/te-150i-2022-1002104834.json",
+        "sha256": "53d55b86778e39085b3cbc8e9f4b3a2d851a0c02d3cab3c2302b75b5db338574",
+        "source": "Official Husqvarna US catalog",
+        "complete": true,
+        "assemblies": 44,
+        "expected_assemblies": 44,
+        "occurrences": 1227,
+        "new_this_pass": true,
+        "scope": "TE 150i                             2022 <2022><US><F2175V9>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -5875,13 +5901,29 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "Husqvarna",
+          "model": "TE 250",
+          "model_year": 2020,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures/husqvarna/te-250i-2020-1001662124.json",
+        "sha256": "bb4a9ae86baef83f78657ce4fb62e1af0e0ae8ec5db475a6819d369626ee73b0",
+        "source": "Official Husqvarna US catalog",
+        "complete": true,
+        "assemblies": 44,
+        "expected_assemblies": 44,
+        "occurrences": 1236,
+        "new_this_pass": true,
+        "scope": "TE 250i                             2020 <2020><US><F2375T7>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -5893,13 +5935,29 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "Husqvarna",
+          "model": "TE 250",
+          "model_year": 2021,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures/husqvarna/te-250i-2021-1001896073.json",
+        "sha256": "4401735812c521d72fd9edda9caaf1c3d128b75bda50a0c7fd7a97c066c1e329",
+        "source": "Official Husqvarna US catalog",
+        "complete": true,
+        "assemblies": 44,
+        "expected_assemblies": 44,
+        "occurrences": 1238,
+        "new_this_pass": true,
+        "scope": "TE 250i                             2021 <2021><US><F2375U7>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -5911,13 +5969,29 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "Husqvarna",
+          "model": "TE 250",
+          "model_year": 2022,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures/husqvarna/te-250i-2022-1002104860.json",
+        "sha256": "33edd979f6bf113fc870d9e2ebe835ce6ef004fae8ed280739ad65cf45061d20",
+        "source": "Official Husqvarna US catalog",
+        "complete": true,
+        "assemblies": 44,
+        "expected_assemblies": 44,
+        "occurrences": 1236,
+        "new_this_pass": true,
+        "scope": "TE 250i                             2022 <2022><US><F2375V7>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -6065,13 +6139,29 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "Husqvarna",
+          "model": "TE 300",
+          "model_year": 2020,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures/husqvarna/te-300i-2020-1001662140.json",
+        "sha256": "7b75458bf3aac8af7305c783ef229741e265cac2158fd5589cf5329106a82ab5",
+        "source": "Official Husqvarna US catalog",
+        "complete": true,
+        "assemblies": 44,
+        "expected_assemblies": 44,
+        "occurrences": 1236,
+        "new_this_pass": true,
+        "scope": "TE 300i                             2020 <2020><US><F2475T7>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -6083,13 +6173,29 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "Husqvarna",
+          "model": "TE 300",
+          "model_year": 2021,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures/husqvarna/te-300i-2021-1001896093.json",
+        "sha256": "50d2b8b8be9a92668072772c98f823601d55e4ef9892db719f01aa154ed3f276",
+        "source": "Official Husqvarna US catalog",
+        "complete": true,
+        "assemblies": 44,
+        "expected_assemblies": 44,
+        "occurrences": 1235,
+        "new_this_pass": true,
+        "scope": "TE 300i                             2021 <2021><US><F2475U7>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -6101,13 +6207,29 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "Husqvarna",
+          "model": "TE 300",
+          "model_year": 2022,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures/husqvarna/te-300i-2022-1002104880.json",
+        "sha256": "a70edbd9cf751d6cf5fe38944b150f4eb70ededbd3a0bcf5deb91fd9353048bb",
+        "source": "Official Husqvarna US catalog",
+        "complete": true,
+        "assemblies": 44,
+        "expected_assemblies": 44,
+        "occurrences": 1233,
+        "new_this_pass": true,
+        "scope": "TE 300i                             2022 <2022><US><F2475V7>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -6289,13 +6411,29 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "Husqvarna",
+          "model": "TX 300",
+          "model_year": 2020,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures/husqvarna/tx-300i-2020-1001662128.json",
+        "sha256": "bf0ab195a0169f74d414492abd3cff505e362d0e9b27f2ef37c61cc8379f8a99",
+        "source": "Official Husqvarna US catalog",
+        "complete": true,
+        "assemblies": 40,
+        "expected_assemblies": 40,
+        "occurrences": 806,
+        "new_this_pass": true,
+        "scope": "TX 300i                             2020 <2020><US><F2401T5>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -6307,13 +6445,29 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "Husqvarna",
+          "model": "TX 300",
+          "model_year": 2021,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures/husqvarna/tx-300i-2021-1001896079.json",
+        "sha256": "769afd6c9e176a1a64714083a51369b2bf020272fd7d374f1ff3c49d32bc756b",
+        "source": "Official Husqvarna US catalog",
+        "complete": true,
+        "assemblies": 40,
+        "expected_assemblies": 40,
+        "occurrences": 800,
+        "new_this_pass": true,
+        "scope": "TX 300i                             2021 <2021><US><F2401U5>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -6325,13 +6479,29 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "Husqvarna",
+          "model": "TX 300",
+          "model_year": 2022,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures/husqvarna/tx-300i-2022-1002104866.json",
+        "sha256": "616a7ca8dd3cb10409762d61ed2721bce70db72cbc0dcaf7b24ac9853427d7b2",
+        "source": "Official Husqvarna US catalog",
+        "complete": true,
+        "assemblies": 40,
+        "expected_assemblies": 40,
+        "occurrences": 807,
+        "new_this_pass": true,
+        "scope": "TX 300i                             2022 <2022><US><F2401V5>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -7036,13 +7206,29 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "150 XC-W",
+          "model_year": 2020,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures/ktm/150-xc-w-tpi-2020-1001666580.json",
+        "sha256": "3d5c72823f6c2b8ec266249bdc7eca4bb47eb1be8b13aa9ac6725b1901f7beb3",
+        "source": "Official KTM US catalog",
+        "complete": true,
+        "assemblies": 43,
+        "expected_assemblies": 43,
+        "occurrences": 1196,
+        "new_this_pass": true,
+        "scope": "150 XC-W TPI                        2020 <2020><US><F7175T3>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -7054,13 +7240,29 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "150 XC-W",
+          "model_year": 2021,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures/ktm/150-xc-w-tpi-2021-1001930028.json",
+        "sha256": "877aa36af034a32eb0734bf757728b220b1ad65572ef662072fa9a7b3276b7cd",
+        "source": "Official KTM US catalog",
+        "complete": true,
+        "assemblies": 43,
+        "expected_assemblies": 43,
+        "occurrences": 1199,
+        "new_this_pass": true,
+        "scope": "150 XC-W TPI                        2021 <2021><US><F7175U3>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -7072,13 +7274,29 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "150 XC-W",
+          "model_year": 2022,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures/ktm/150-xc-w-tpi-2022-1002105521.json",
+        "sha256": "efbc3bfa44306513848fb42dff84093bc7dcd461fcfb4c4677ec9769ed9f0178",
+        "source": "Official KTM US catalog",
+        "complete": true,
+        "assemblies": 43,
+        "expected_assemblies": 43,
+        "occurrences": 1195,
+        "new_this_pass": true,
+        "scope": "150 XC-W TPI                        2022 <2022><US><F7175V3>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -7736,8 +7954,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "PARTIAL_CAPTURE",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "KTM",
@@ -7747,10 +7965,10 @@
           "region": "US"
         },
         "path": "docs/research/parts-pass14/european-discovery/captures/ktm/250-sx-f-2027-1004496879.json",
-        "sha256": "8e84ca96482f813e9aa7f222f0efe1bd176beb6433f02e78b3ab405ada324ae1",
+        "sha256": "2d50f507d8f6999735519dd850347ac0bf543956dc9d2ed8baa0a2847cd33300",
         "source": "Official KTM US catalog",
-        "complete": false,
-        "assemblies": 41,
+        "complete": true,
+        "assemblies": 42,
         "expected_assemblies": 42,
         "occurrences": 1170,
         "new_this_pass": true,
@@ -7758,9 +7976,7 @@
         "unknown_quantities": 0
       },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -7772,13 +7988,29 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "250 XC",
+          "model_year": 2020,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures/ktm/250-xc-tpi-2020-1001666574.json",
+        "sha256": "13ca81563a3a0d787c741988b241948d81d10c6da26292e36e4e40711264b7d0",
+        "source": "Official KTM US catalog",
+        "complete": true,
+        "assemblies": 41,
+        "expected_assemblies": 41,
+        "occurrences": 1200,
+        "new_this_pass": true,
+        "scope": "250 XC TPI                          2020 <2020><US><F6375T5>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -7790,13 +8022,29 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "250 XC",
+          "model_year": 2021,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures/ktm/250-xc-tpi-2021-1001930024.json",
+        "sha256": "43ca225a6886cd68d8ba9bde3e7ec70ff273466c9b28f3184f830a584954522f",
+        "source": "Official KTM US catalog",
+        "complete": true,
+        "assemblies": 41,
+        "expected_assemblies": 41,
+        "occurrences": 1200,
+        "new_this_pass": true,
+        "scope": "250 XC TPI                          2021 <2021><US><F6375U5>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -7808,13 +8056,29 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "250 XC",
+          "model_year": 2022,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures/ktm/250-xc-tpi-2022-1002105515.json",
+        "sha256": "82376e641d4684742203c1ae5962272ee91ab95e861a560331abdd36a0817eaf",
+        "source": "Official KTM US catalog",
+        "complete": true,
+        "assemblies": 41,
+        "expected_assemblies": 41,
+        "occurrences": 1198,
+        "new_this_pass": true,
+        "scope": "250 XC TPI                          2022 <2022><US><F6375V5>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -8098,8 +8362,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "PARTIAL_CAPTURE",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "KTM",
@@ -8109,10 +8373,10 @@
           "region": "US"
         },
         "path": "docs/research/parts-pass14/european-discovery/captures/ktm/250-xc-f-2023-1002338089.json",
-        "sha256": "7a51600d2edd14aa23d913e16f02b21bb22626b0a8d9c27c51fba87dc6b64398",
+        "sha256": "81360596bede97e9dca0ba5f90a25cfb60e1d96593bf0e780dfca1f534f7bbf2",
         "source": "Official KTM US catalog",
-        "complete": false,
-        "assemblies": 43,
+        "complete": true,
+        "assemblies": 44,
         "expected_assemblies": 44,
         "occurrences": 1194,
         "new_this_pass": true,
@@ -8120,9 +8384,7 @@
         "unknown_quantities": 0
       },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -8134,8 +8396,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "PARTIAL_CAPTURE",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "KTM",
@@ -8145,10 +8407,10 @@
           "region": "US"
         },
         "path": "docs/research/parts-pass14/european-discovery/captures/ktm/250-xc-f-2024-1003029372.json",
-        "sha256": "d518271e5891a5482acc11f66420a183f377387f71c5ea2c4e4d55bde33d0619",
+        "sha256": "0a29ab598f2664c25306e5d00c7e8640cde6491b8c7e825dc38e91e06c6bd898",
         "source": "Official KTM US catalog",
-        "complete": false,
-        "assemblies": 43,
+        "complete": true,
+        "assemblies": 44,
         "expected_assemblies": 44,
         "occurrences": 1190,
         "new_this_pass": true,
@@ -8156,9 +8418,7 @@
         "unknown_quantities": 0
       },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -8170,8 +8430,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "PARTIAL_CAPTURE",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "KTM",
@@ -8181,10 +8441,10 @@
           "region": "US"
         },
         "path": "docs/research/parts-pass14/european-discovery/captures/ktm/250-xc-f-2025-1003417528.json",
-        "sha256": "366cc8e35cfebf725f672cb9da27a6362b94dc5639b9bb24cf09401d780cd8b8",
+        "sha256": "8c7bf18a1c31ef45b9f54abc319abac85e5f1d9779cac365bb9b6bdb64aa3b6a",
         "source": "Official KTM US catalog",
-        "complete": false,
-        "assemblies": 43,
+        "complete": true,
+        "assemblies": 44,
         "expected_assemblies": 44,
         "occurrences": 1190,
         "new_this_pass": true,
@@ -8192,9 +8452,7 @@
         "unknown_quantities": 0
       },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -8206,8 +8464,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "PARTIAL_CAPTURE",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "KTM",
@@ -8217,10 +8475,10 @@
           "region": "US"
         },
         "path": "docs/research/parts-pass14/european-discovery/captures/ktm/250-xc-f-2026-1003992689.json",
-        "sha256": "361beb8274d8888f1dceba8b4d801bdf29580de9847acb7cb78b64d34312017f",
+        "sha256": "bfd2fd7eab11dfdd069fe4d627fba79d867073f740f989edb3c920fafec6a12f",
         "source": "Official KTM US catalog",
-        "complete": false,
-        "assemblies": 43,
+        "complete": true,
+        "assemblies": 44,
         "expected_assemblies": 44,
         "occurrences": 1187,
         "new_this_pass": true,
@@ -8228,9 +8486,7 @@
         "unknown_quantities": 0
       },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -8242,8 +8498,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "PARTIAL_CAPTURE",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "KTM",
@@ -8253,10 +8509,10 @@
           "region": "US"
         },
         "path": "docs/research/parts-pass14/european-discovery/captures/ktm/250-xc-f-2027-1004481594.json",
-        "sha256": "7714ddc36b4d5ac7ea134234cf00899671a20f2a6991710237d5620497bf4dc2",
+        "sha256": "6ed5dd168ebcae44fa178714f0d421d2e2d1ec04178fda409871cc13dabff4e9",
         "source": "Official KTM US catalog",
-        "complete": false,
-        "assemblies": 43,
+        "complete": true,
+        "assemblies": 44,
         "expected_assemblies": 44,
         "occurrences": 1186,
         "new_this_pass": true,
@@ -8264,9 +8520,7 @@
         "unknown_quantities": 0
       },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -8278,13 +8532,29 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "250 XC-W",
+          "model_year": 2020,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures/ktm/250-xc-w-tpi-2020-1001666586.json",
+        "sha256": "ea48e3d68e55b991b76f6bb4a00e3fba89cb340f983fc6648a41ac902f41a22f",
+        "source": "Official KTM US catalog",
+        "complete": true,
+        "assemblies": 42,
+        "expected_assemblies": 42,
+        "occurrences": 1205,
+        "new_this_pass": true,
+        "scope": "250 XC-W TPI                        2020 <2020><US><F7375T4>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -8296,13 +8566,29 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "250 XC-W",
+          "model_year": 2021,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures/ktm/250-xc-w-tpi-2021-1001930030.json",
+        "sha256": "63f15b2aa6b3377e13c140681da60f6bbf8140e3760ea45de280c259c3813dc3",
+        "source": "Official KTM US catalog",
+        "complete": true,
+        "assemblies": 42,
+        "expected_assemblies": 42,
+        "occurrences": 1207,
+        "new_this_pass": true,
+        "scope": "250 XC-W TPI                        2021 <2021><US><F7375U4>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -8314,13 +8600,29 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "250 XC-W",
+          "model_year": 2022,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures/ktm/250-xc-w-tpi-2022-1002105527.json",
+        "sha256": "f414a4938de8b5be5c323977d730035668e8a1510e6e753e3d7ac6f34ca4e808",
+        "source": "Official KTM US catalog",
+        "complete": true,
+        "assemblies": 42,
+        "expected_assemblies": 42,
+        "occurrences": 1201,
+        "new_this_pass": true,
+        "scope": "250 XC-W TPI                        2022 <2022><US><F7375V4>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -8635,13 +8937,29 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "300 XC",
+          "model_year": 2020,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures/ktm/300-xc-tpi-2020-1001666576.json",
+        "sha256": "45c4f200754fd2751a24e090328df9b4a38336640f5edf36b83fb257160b99b4",
+        "source": "Official KTM US catalog",
+        "complete": true,
+        "assemblies": 41,
+        "expected_assemblies": 41,
+        "occurrences": 1202,
+        "new_this_pass": true,
+        "scope": "300 XC TPI                          2020 <2020><US><F6475T5>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -8653,13 +8971,29 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "300 XC",
+          "model_year": 2021,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures/ktm/300-xc-tpi-2021-1001930026.json",
+        "sha256": "a4f5aa2ca06e2f03d5f57028532bda472761eb28b3f77e6fe6cc83e95b091346",
+        "source": "Official KTM US catalog",
+        "complete": true,
+        "assemblies": 41,
+        "expected_assemblies": 41,
+        "occurrences": 1199,
+        "new_this_pass": true,
+        "scope": "300 XC TPI                          2021 <2021><US><F6475U5>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -8671,13 +9005,29 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "300 XC",
+          "model_year": 2022,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures/ktm/300-xc-tpi-2022-1002105517.json",
+        "sha256": "44573325f519220c8419b3229fb108773008c886fc3b4c669cba5c6a04500bad",
+        "source": "Official KTM US catalog",
+        "complete": true,
+        "assemblies": 41,
+        "expected_assemblies": 41,
+        "occurrences": 1199,
+        "new_this_pass": true,
+        "scope": "300 XC TPI                          2022 <2022><US><F6475V5>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -8859,13 +9209,29 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "300 XC-W",
+          "model_year": 2020,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures/ktm/300-xc-w-tpi-2020-1001666596.json",
+        "sha256": "e58145e481003fe0ff07855e4836fd924ab49cee87c4efd62d1ca15a1f6e7521",
+        "source": "Official KTM US catalog",
+        "complete": true,
+        "assemblies": 42,
+        "expected_assemblies": 42,
+        "occurrences": 1214,
+        "new_this_pass": true,
+        "scope": "300 XC-W TPI                        2020 <2020><US><F7475T3>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -8877,13 +9243,29 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "300 XC-W",
+          "model_year": 2021,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures/ktm/300-xc-w-tpi-2021-1001930038.json",
+        "sha256": "8d2211810eb1d6f2680284521a4e33db316705b4030519a2a493763584e45a0e",
+        "source": "Official KTM US catalog",
+        "complete": true,
+        "assemblies": 42,
+        "expected_assemblies": 42,
+        "occurrences": 1211,
+        "new_this_pass": true,
+        "scope": "300 XC-W TPI                        2021 <2021><US><F7475U3>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -8895,13 +9277,29 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "NOT_CAPTURED",
-      "selected_inventory": null,
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
+      "selected_inventory": {
+        "target": {
+          "manufacturer": "KTM",
+          "model": "300 XC-W",
+          "model_year": 2022,
+          "variant": "standard",
+          "region": "US"
+        },
+        "path": "docs/research/parts-pass14/european-discovery/captures/ktm/300-xc-w-tpi-2022-1002105537.json",
+        "sha256": "109cae9f93f6b3d2f60f0ddf5db487739c71ee4d24ef24776d89f12ac14e4f1c",
+        "source": "Official KTM US catalog",
+        "complete": true,
+        "assemblies": 42,
+        "expected_assemblies": 42,
+        "occurrences": 1205,
+        "new_this_pass": true,
+        "scope": "300 XC-W TPI                        2022 <2022><US><F7475V3>",
+        "unknown_quantities": 0
+      },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -9185,8 +9583,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "PARTIAL_CAPTURE",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "KTM",
@@ -9196,10 +9594,10 @@
           "region": "US"
         },
         "path": "docs/research/parts-pass14/european-discovery/captures/ktm/350-sx-f-2023-1002337351.json",
-        "sha256": "7551b35e7c99710f748724606b04bad7e47f724348b2464450daf6d4d33aa4d0",
+        "sha256": "7338c4e235df8c6243f797a79b9db1547a181c3a2bad38b67d87404f34f6b8d1",
         "source": "Official KTM US catalog",
-        "complete": false,
-        "assemblies": 41,
+        "complete": true,
+        "assemblies": 42,
         "expected_assemblies": 42,
         "occurrences": 1179,
         "new_this_pass": true,
@@ -9207,9 +9605,7 @@
         "unknown_quantities": 0
       },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -9221,8 +9617,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "PARTIAL_CAPTURE",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "KTM",
@@ -9232,10 +9628,10 @@
           "region": "US"
         },
         "path": "docs/research/parts-pass14/european-discovery/captures/ktm/350-sx-f-2024-1003029288.json",
-        "sha256": "03653b3dfb89afed4bfaa3841a94042df73d26f1cf6efadf5932e6679b6bd3be",
+        "sha256": "55d64cdac9c20ef0d4ea8beeacf610d5510f444861485243bb9952c10e90b7c6",
         "source": "Official KTM US catalog",
-        "complete": false,
-        "assemblies": 41,
+        "complete": true,
+        "assemblies": 42,
         "expected_assemblies": 42,
         "occurrences": 1175,
         "new_this_pass": true,
@@ -9243,9 +9639,7 @@
         "unknown_quantities": 0
       },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -9257,8 +9651,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "PARTIAL_CAPTURE",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "KTM",
@@ -9268,10 +9662,10 @@
           "region": "US"
         },
         "path": "docs/research/parts-pass14/european-discovery/captures/ktm/350-sx-f-2025-1003417552.json",
-        "sha256": "7b7fc03b5e1ad3fde93d6ad3d4c7b45ef1f416d5e9f9f73c97f05ddd9ed6ad73",
+        "sha256": "1569f63719d77df621b4dec33c1d3f3271b5f8a8cc7b55f066f40dbda151c620",
         "source": "Official KTM US catalog",
-        "complete": false,
-        "assemblies": 41,
+        "complete": true,
+        "assemblies": 42,
         "expected_assemblies": 42,
         "occurrences": 1175,
         "new_this_pass": true,
@@ -9279,9 +9673,7 @@
         "unknown_quantities": 0
       },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -9293,8 +9685,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "PARTIAL_CAPTURE",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "KTM",
@@ -9304,10 +9696,10 @@
           "region": "US"
         },
         "path": "docs/research/parts-pass14/european-discovery/captures/ktm/350-sx-f-2026-1003992713.json",
-        "sha256": "d8af3d502962fbb4b18c70e991d3dbff94e12e761d56264172641e3680867d3d",
+        "sha256": "b3b1db6607b2577f3d200ba993164ed3bc02d4dd913f242c0a29d1f1cb8d1b66",
         "source": "Official KTM US catalog",
-        "complete": false,
-        "assemblies": 41,
+        "complete": true,
+        "assemblies": 42,
         "expected_assemblies": 42,
         "occurrences": 1174,
         "new_this_pass": true,
@@ -9315,9 +9707,7 @@
         "unknown_quantities": 0
       },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -9329,8 +9719,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "PARTIAL_CAPTURE",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "KTM",
@@ -9340,10 +9730,10 @@
           "region": "US"
         },
         "path": "docs/research/parts-pass14/european-discovery/captures/ktm/350-sx-f-2027-1004496877.json",
-        "sha256": "8c70f3711b935f9b83390bf9114c6b404f82b5a0963f2c65690d9350c35fe9d6",
+        "sha256": "c07f61bab54584823a2de8a436ca16dbe68a8f84240638782857b35d6ab74b71",
         "source": "Official KTM US catalog",
-        "complete": false,
-        "assemblies": 41,
+        "complete": true,
+        "assemblies": 42,
         "expected_assemblies": 42,
         "occurrences": 1176,
         "new_this_pass": true,
@@ -9351,9 +9741,7 @@
         "unknown_quantities": 0
       },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -9467,8 +9855,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "PARTIAL_CAPTURE",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "KTM",
@@ -9478,10 +9866,10 @@
           "region": "US"
         },
         "path": "docs/research/parts-pass14/european-discovery/captures/ktm/350-xc-f-2023-1002338091.json",
-        "sha256": "958e76d49cb0b3f348070d7ee54a24290050840d5eedb32a1f1a2db23c0f3bea",
+        "sha256": "6ee24ede578a79089f1055779d95d7b474317a654d78e0afee0acafd670d036b",
         "source": "Official KTM US catalog",
-        "complete": false,
-        "assemblies": 43,
+        "complete": true,
+        "assemblies": 44,
         "expected_assemblies": 44,
         "occurrences": 1198,
         "new_this_pass": true,
@@ -9489,9 +9877,7 @@
         "unknown_quantities": 0
       },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -9503,8 +9889,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "PARTIAL_CAPTURE",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "KTM",
@@ -9514,10 +9900,10 @@
           "region": "US"
         },
         "path": "docs/research/parts-pass14/european-discovery/captures/ktm/350-xc-f-2024-1003029374.json",
-        "sha256": "03d883c86263e7b483363fa925b91c6d9a4d00499d8eee2a077cd064991f1822",
+        "sha256": "1c9b484eb0063341e769f88f3a6cd247897872b76ff566c8f26d51e73f86e276",
         "source": "Official KTM US catalog",
-        "complete": false,
-        "assemblies": 43,
+        "complete": true,
+        "assemblies": 44,
         "expected_assemblies": 44,
         "occurrences": 1199,
         "new_this_pass": true,
@@ -9525,9 +9911,7 @@
         "unknown_quantities": 0
       },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -9539,8 +9923,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "PARTIAL_CAPTURE",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "KTM",
@@ -9550,10 +9934,10 @@
           "region": "US"
         },
         "path": "docs/research/parts-pass14/european-discovery/captures/ktm/350-xc-f-2025-1003417546.json",
-        "sha256": "d39f432b850be15c2743f7644d53c4d214966b317f4c3571a84ce18761f3deac",
+        "sha256": "bbe9b6072d9dd783f1f2e43bc73bfd78618877e38f9911da0d1c7fa14495b25a",
         "source": "Official KTM US catalog",
-        "complete": false,
-        "assemblies": 43,
+        "complete": true,
+        "assemblies": 44,
         "expected_assemblies": 44,
         "occurrences": 1194,
         "new_this_pass": true,
@@ -9561,9 +9945,7 @@
         "unknown_quantities": 0
       },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
@@ -9594,8 +9976,8 @@
       },
       "original_60_target": false,
       "identity_status": "CONFIRMED_EXACT_US_OEM_CATALOG_IDENTITY",
-      "catalog_inventory_complete": false,
-      "status": "PARTIAL_CAPTURE",
+      "catalog_inventory_complete": true,
+      "status": "CATALOG_ENUMERATED",
       "selected_inventory": {
         "target": {
           "manufacturer": "KTM",
@@ -9605,10 +9987,10 @@
           "region": "US"
         },
         "path": "docs/research/parts-pass14/european-discovery/captures/ktm/350-xc-f-2027-1004481610.json",
-        "sha256": "dcd5019a4ae57ceffabe3db5db0b2c7bfadfe31f0b019bb913846bfb1f5591fd",
+        "sha256": "8a770a8c8bac5e72a6c81265969b099edeb5baa183ff93f96fb794746659bdcb",
         "source": "Official KTM US catalog",
-        "complete": false,
-        "assemblies": 43,
+        "complete": true,
+        "assemblies": 44,
         "expected_assemblies": 44,
         "occurrences": 1193,
         "new_this_pass": true,
@@ -9616,9 +9998,7 @@
         "unknown_quantities": 0
       },
       "other_inventory_sources": [],
-      "gaps": [
-        "Capture and reconcile every group in the exact catalog index."
-      ]
+      "gaps": []
     },
     {
       "target": {
