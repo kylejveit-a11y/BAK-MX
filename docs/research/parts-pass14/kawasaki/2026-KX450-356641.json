@@ -1,0 +1,64 @@
+{
+  "target": {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "model_code": "KX450MTFNN",
+  "index_url": "https://www.kawasaki.com/en-us/owner-center/parts/2026/KX450MTFNN",
+  "assembly_url": "https://www.kawasaki.com/en-us/owner-center/parts/356641/2026/KX450MTFNN",
+  "name": "VIEW DIAGRAM",
+  "url": "https://www.kawasaki.com/en-us/owner-center/parts/356641/2026/KX450MTFNN",
+  "headings": [
+    "SHOP ALL",
+    "Vehicle Accessories",
+    "ELEKTRODE\u00ae",
+    "Accessory Packages",
+    "Apparel",
+    "Gifts & Collectibles",
+    "Essentials",
+    "Kawasaki Performance Oils",
+    "Collections",
+    "Digital Catalogs",
+    "Featured",
+    "Sale",
+    "Licensed Products",
+    "VISIT OWNER CENTER",
+    "VISIT RACING",
+    "Racing News",
+    "Team Green\u2122",
+    "Racing Teams",
+    "Research",
+    "Shop",
+    "Finance",
+    "2026 KX\u2122 450 - Stand(s)"
+  ],
+  "headers": [
+    "ITEM NAME",
+    "REF #",
+    "PART NUMBER",
+    "QUANTITY",
+    "DESTINATION",
+    "REMARKS"
+  ],
+  "rows": [
+    [
+      "STAND-SIDE",
+      "34024",
+      "34024-0074",
+      "1",
+      "",
+      ""
+    ]
+  ],
+  "diagram_urls": [
+    "/Content/Images/Parts/99912-2237-03/F2190.GIF"
+  ],
+  "captured_at": "2026-10-13T09:52:17Z",
+  "authority": "OEM",
+  "quantity_basis": "EXPLICIT_OEM_TABLE",
+  "source_response_sha256": "29c1d9b32454185bd7e320485712aed801511cb55075f0e22d09671f4d5bf41c",
+  "acquisition": "Ordinary requests.Session GET with server-issued public cookies; TLS verification enabled"
+}

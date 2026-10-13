@@ -1,0 +1,160 @@
+{
+  "target": {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2026,
+    "region": "US",
+    "variant": "standard"
+  },
+  "model_code": "KX450MTFNN",
+  "index_url": "https://www.kawasaki.com/en-us/owner-center/parts/2026/KX450MTFNN",
+  "assembly_url": "https://www.kawasaki.com/en-us/owner-center/parts/356625/2026/KX450MTFNN",
+  "name": "VIEW DIAGRAM",
+  "url": "https://www.kawasaki.com/en-us/owner-center/parts/356625/2026/KX450MTFNN",
+  "headings": [
+    "SHOP ALL",
+    "Vehicle Accessories",
+    "ELEKTRODE\u00ae",
+    "Accessory Packages",
+    "Apparel",
+    "Gifts & Collectibles",
+    "Essentials",
+    "Kawasaki Performance Oils",
+    "Collections",
+    "Digital Catalogs",
+    "Featured",
+    "Sale",
+    "Licensed Products",
+    "VISIT OWNER CENTER",
+    "VISIT RACING",
+    "Racing News",
+    "Team Green\u2122",
+    "Racing Teams",
+    "Research",
+    "Shop",
+    "Finance",
+    "2026 KX\u2122 450 - Fuel Injection"
+  ],
+  "headers": [
+    "ITEM NAME",
+    "REF #",
+    "PART NUMBER",
+    "QUANTITY",
+    "DESTINATION",
+    "REMARKS"
+  ],
+  "rows": [
+    [
+      "CONTROL UNIT-ELECTRONIC,B/T",
+      "21175",
+      "21175-1933",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "CONTROL UNIT-ELECTRONIC",
+      "21175A",
+      "21175-2170",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "SENSOR,WATER TEMP",
+      "21176",
+      "21176-0009",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "SENSOR,AIR TEMP",
+      "21176A",
+      "21176-0121",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "SENSOR,VEHICLE-DOWN",
+      "21176B",
+      "21176-0704",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "RELAY",
+      "27034",
+      "27034-0012",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "PAD",
+      "39156",
+      "39156-2920",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "RING-O,9.5X1.9",
+      "92055",
+      "92055-0016",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "BOLT,SOCKET,5X14",
+      "92154",
+      "92154-0491",
+      "2",
+      "",
+      ""
+    ],
+    [
+      "DAMPER",
+      "92161",
+      "92161-0951",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "DAMPER",
+      "92161A",
+      "92161-2290",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "DAMPER,B/T UNIT",
+      "92161B",
+      "92161-2513",
+      "1",
+      "",
+      ""
+    ],
+    [
+      "DAMPER,ECU",
+      "92161C",
+      "92161-2518",
+      "1",
+      "",
+      ""
+    ]
+  ],
+  "diagram_urls": [
+    "/Content/Images/Parts/99912-2237-03/E1530.GIF"
+  ],
+  "captured_at": "2026-10-13T09:52:14Z",
+  "authority": "OEM",
+  "quantity_basis": "EXPLICIT_OEM_TABLE",
+  "source_response_sha256": "5f65504b8086bc5142ac56bd49b74a1aa72be5b2dd0b6d4575a676acc673d690",
+  "acquisition": "Ordinary requests.Session GET with server-issued public cookies; TLS verification enabled"
+}

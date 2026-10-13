@@ -2,7 +2,7 @@
 
 Paused at the userÃ¢â‚¬â„¢s request after finishing active batches. Existing captures were preserved; no rebuild guides or database changes were made.
 
-278 complete catalog inventories across 467 planned acquisition slots; 33 of the original60 targets. 203 targets newly completed this pass. Unknown or not-yet-established model-years remain explicit acquisition slots, not asserted production bikes.
+284 complete catalog inventories across 467 planned acquisition slots; 37 of the original60 targets. 209 targets newly completed this pass. Unknown or not-yet-established model-years remain explicit acquisition slots, not asserted production bikes.
 
 Catalog-complete means every listed group and part entry is captured. It does not mean every possible installed piece or specification is known. Optional items, supersessions, nested kits, AR and unavailable quantities remain distinct.
 
@@ -106,7 +106,7 @@ Catalog-complete means every listed group and part entry is captured. It does no
 | Honda | CRF250R | 2022 | INDEX_ONLY | 0 / 50 | 0 |
 | Honda | CRF250R | 2023 | INDEX_ONLY | 0 / 50 | 0 |
 | Honda | CRF250R | 2024 | INDEX_ONLY | 0 / 50 | 0 |
-| Honda | CRF250R | 2025 | PARTIAL_CAPTURE | 50 / ? | 61 |
+| Honda | CRF250R | 2025 | CATALOG_ENUMERATED | 50 / 50 | 974 |
 | Honda | CRF250R | 2026 | CATALOG_ENUMERATED | 50 / 50 | 971 |
 | Honda | CRF250RX | 2020 | INDEX_ONLY | 0 / 50 | 0 |
 | Honda | CRF250RX | 2021 | INDEX_ONLY | 0 / 50 | 0 |
@@ -128,7 +128,7 @@ Catalog-complete means every listed group and part entry is captured. It does no
 | Honda | CRF450RX | 2023 | INDEX_ONLY | 0 / 52 | 0 |
 | Honda | CRF450RX | 2024 | INDEX_ONLY | 0 / 52 | 0 |
 | Honda | CRF450RX | 2025 | INDEX_ONLY | 0 / 52 | 0 |
-| Honda | CRF450RX | 2026 | PARTIAL_CAPTURE | 6 / 52 | 145 |
+| Honda | CRF450RX | 2026 | CATALOG_ENUMERATED | 52 / 52 | 1002 |
 | Husqvarna | FC 250 | 2020 | CATALOG_ENUMERATED | 41 / 41 | 1192 |
 | Husqvarna | FC 250 | 2021 | CATALOG_ENUMERATED | 41 / 41 | 1186 |
 | Husqvarna | FC 250 | 2022 | CATALOG_ENUMERATED | 41 / 41 | 1189 |
@@ -373,7 +373,7 @@ Catalog-complete means every listed group and part entry is captured. It does no
 | Kawasaki | KX250 | 2023 | INDEX_ONLY | 0 / 53 | 0 |
 | Kawasaki | KX250 | 2024 | INDEX_ONLY | 0 / 53 | 0 |
 | Kawasaki | KX250 | 2025 | INDEX_ONLY | 0 / 54 | 0 |
-| Kawasaki | KX250 | 2026 | INDEX_ONLY | 0 / 54 | 0 |
+| Kawasaki | KX250 | 2026 | CATALOG_ENUMERATED | 54 / 54 | 901 |
 | Kawasaki | KX250X | 2020 | NOT_CAPTURED | 0 / ? | 0 |
 | Kawasaki | KX250X | 2021 | CATALOG_ENUMERATED | 50 / 50 | 875 |
 | Kawasaki | KX250X | 2022 | INDEX_ONLY | 0 / 50 | 0 |
@@ -387,7 +387,7 @@ Catalog-complete means every listed group and part entry is captured. It does no
 | Kawasaki | KX450 | 2023 | INDEX_ONLY | 0 / 54 | 0 |
 | Kawasaki | KX450 | 2024 | INDEX_ONLY | 0 / 53 | 0 |
 | Kawasaki | KX450 | 2025 | CATALOG_ENUMERATED | 54 / 54 | 867 |
-| Kawasaki | KX450 | 2026 | INDEX_ONLY | 0 / 54 | 0 |
+| Kawasaki | KX450 | 2026 | CATALOG_ENUMERATED | 54 / 54 | 870 |
 | Kawasaki | KX450X | 2020 | NOT_CAPTURED | 0 / ? | 0 |
 | Kawasaki | KX450X | 2021 | CATALOG_ENUMERATED | 53 / 53 | 867 |
 | Kawasaki | KX450X | 2022 | INDEX_ONLY | 0 / 53 | 0 |
@@ -439,7 +439,7 @@ Catalog-complete means every listed group and part entry is captured. It does no
 | Yamaha | YZ250F | 2021 | INDEX_ONLY | 0 / 43 | 0 |
 | Yamaha | YZ250F | 2022 | INDEX_ONLY | 0 / 45 | 0 |
 | Yamaha | YZ250F | 2023 | INDEX_ONLY | 0 / 45 | 0 |
-| Yamaha | YZ250F | 2024 | PARTIAL_CAPTURE | 45 / ? | 93 |
+| Yamaha | YZ250F | 2024 | CATALOG_ENUMERATED | 45 / 45 | 940 |
 | Yamaha | YZ250F | 2025 | CATALOG_ENUMERATED | 45 / 45 | 958 |
 | Yamaha | YZ250F | 2026 | INDEX_ONLY | 0 / 45 | 0 |
 | Yamaha | YZ250F | 2027 | CATALOG_ENUMERATED | 46 / 46 | 969 |
@@ -466,7 +466,7 @@ Catalog-complete means every listed group and part entry is captured. It does no
 | Yamaha | YZ450F | 2024 | INDEX_ONLY | 0 / 46 | 0 |
 | Yamaha | YZ450F | 2025 | INDEX_ONLY | 0 / 46 | 0 |
 | Yamaha | YZ450F | 2026 | INDEX_ONLY | 0 / 47 | 0 |
-| Yamaha | YZ450F | 2027 | INDEX_ONLY | 0 / 47 | 0 |
+| Yamaha | YZ450F | 2027 | CATALOG_ENUMERATED | 47 / 47 | 981 |
 | Yamaha | YZ450FX | 2020 | INDEX_ONLY | 0 / 42 | 0 |
 | Yamaha | YZ450FX | 2021 | INDEX_ONLY | 0 / 44 | 0 |
 | Yamaha | YZ450FX | 2022 | INDEX_ONLY | 0 / 46 | 0 |

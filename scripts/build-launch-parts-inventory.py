@@ -40,8 +40,10 @@ for p in B.rglob('inventory.json'):
  if d.get('source')!='MotoSport public OEM catalog' or key(d['target']) not in planned:continue
  for a in d['assemblies']:
   ep=p.parent/a['evidence_file'];assert sha(ep)==a['evidence_sha256'],str(ep)
- assert sha(p.parent/'index.json')==d['index_sha256']
- complete=d['status']=='ALL_INDEXED_PAGES_CAPTURED' and not d['missing'] and not d['errors'] and d['counts']['captured_assemblies']==d['counts']['indexed_assemblies']
+ index_bound=sha(p.parent/'index.json')==d['index_sha256']
+ # An in-progress capture may have refreshed its index before rebuilding the inventory; it can never count as complete.
+ assert index_bound or d['status']!='ALL_INDEXED_PAGES_CAPTURED', str(p)
+ complete=index_bound and d['status']=='ALL_INDEXED_PAGES_CAPTURED' and not d['missing'] and not d['errors'] and d['counts']['captured_assemblies']==d['counts']['indexed_assemblies']
  catalogs.append({'target':target(d['target']),'path':str(p),'sha256':sha(p),'source':d['source'],'complete':complete,'assemblies':d['counts']['captured_assemblies'],'expected_assemblies':d['counts']['indexed_assemblies'],'occurrences':d['counts']['occurrences'],'new_this_pass':True,'scope':'Exact retailer catalog fitment; quantities retain explicit retailer-attributed OEM recommendation, not whole-bike totals','unknown_quantities':sum(r['catalog_quantity'] is None for a in d['assemblies'] for r in a['rows'])})
 # New explicit-US official European catalogs. Regional alternatives cannot substitute.
 for p in (B/'european-discovery/captures').rglob('*.json'):

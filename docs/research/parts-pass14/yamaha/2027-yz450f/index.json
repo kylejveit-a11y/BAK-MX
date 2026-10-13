@@ -1,14 +1,14 @@
 {
   "target": {
     "manufacturer": "Yamaha",
-    "year": 2027,
     "model": "YZ450F",
+    "variant": "standard",
     "region": "US",
-    "variant": "standard"
+    "year": 2027,
+    "catalog_model_label": "YZ450F"
   },
   "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz450f",
-  "title": "2027 Yamaha YZ450F OEM Parts",
-  "captured_at": "2026-09-21T15:26:45.199Z",
+  "captured_at": "2026-10-12T16:10:59.379576+00:00",
   "assemblies": [
     {
       "name": "1 TITLE PAGE",
@@ -198,5 +198,6 @@
       "name": "WATER PUMP",
       "url": "https://www.motosport.com/oem-parts/yamaha/2027/yz450f/water-pump"
     }
-  ]
+  ],
+  "sha256": "2e4b40f25b8d57acb97e998e3c0df643c71b93e693e4f155b4df243efeb2a223"
 }
