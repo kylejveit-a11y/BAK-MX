@@ -45,10 +45,34 @@ Missing from BAK's rules, present in Yamaha's:
 Suggested: add an `oil_level` adjuster (coil forks only, direction only) and an `unsmooth-fork` symptom guide to
 setup-knowledge.ts after review; not done here because that file is marked as authored and pending Kyle's review.
 
+## Kawasaki (added 2026-10-14)
+
+`kawasakiGuidance` in the same module: 18 rows from the Tuning chapter of the KX owner's manuals (front fork and rear shock
+"improper adjustment symptoms", and "Front and Rear Suspension Troubleshooting"), plus the chapter's general method (break-in,
+small steps, front-rear balance, fork oil amount and the end of the stroke, spring by rider weight and ability, fork height by
+course type, the front-rear compatibility push test). Given to Ask BAK for the 25 KX bike-years 2020-2026 whose manual BAK holds
+(not the 2021 KX250, which has no manual).
+
+Checked: the chapter pages of all 17 manuals were fetched from Kawasaki's viewer and OCR'd; the troubleshooting text was compared
+word for word with the 2024 KX450 manual (99803-0401, pages read on the page images). The KX450 / KX450X manuals match it. The
+KX250 / KX250X manuals (KYB to 2024, Showa from 2025) print the same text without the fork spring preload items, which are
+therefore attached to the KX450 / KX450X only. The 2025-2026 manuals index the chapter's sub-sections; the text is the same.
+
+## Where the two manufacturers and BAK's rules differ
+
+| Symptom | BAK setup-knowledge.ts | Yamaha | Kawasaki |
+|---|---|---|---|
+| Rear will not hook up / poor rear grip | Shock low-speed compression softer first | Rebound faster; then low-speed and high-speed compression firmer; softer spring | Shock too stiff: less preload, high- and low-speed compression softer, softer spring for a light rider |
+| Rear kicks over braking bumps | High-speed compression too firm is the more common cause; warns that slowing rebound often makes it worse | Not a row (bouncing: slower rebound) | Rebound too fast: slower rebound |
+| Front pushes / washes | Fork compression softer; check sag; raise forks in the clamps | Front high: compression softer, less sag, softer spring, less oil | Front too stiff: compression or rebound softer, bleed air, less oil, softer spring |
+| Front knifes / tucks | Fork compression firmer, rebound faster | Front low: compression firmer, rebound faster, more sag, more oil | Front too soft: compression or rebound firmer, more oil |
+
+Ask BAK now follows the bike maker's table for that maker's stock suspension and mentions the other possibility. The rear-grip
+and braking-bump rows are where BAK's own rules most need a decision, because the two manufacturers disagree with each other on
+rear grip and Kawasaki disagrees with BAK's note on braking bumps.
+
 ## Next sources of the same kind (owner's manuals already in hand or public)
 
-- Kawasaki owner's manuals: "Basic Readjustment of the Suspension", "Front and Rear Suspension Compatibility Inspection" and
-  "Front and Rear Suspension Troubleshooting" (viewer pages after the Suspension tuning entry; not yet fetched).
 - Honda owner's manuals: "Adjustments for Competition" (needs the PDFs; Honda's CDN refuses this environment).
 - KTM / Husqvarna / GasGas owner's manuals: chassis setting and air-fork pressure guidance. KTM's manual restricts
   reproduction even in part: paraphrase and cite only, and get sign-off before showing any table.

@@ -6,7 +6,7 @@ parts (springs, seals, bushings, oils) and the upgraded components offered.
 
 | File | What it is |
 |---|---|
-| `OEM_SETUP_GUIDANCE_2026-10-14.md` | Yamaha's suspension symptom tables, now given to Ask BAK for 56 Yamaha bike-years, and the cross-check against BAK's own rules |
+| `OEM_SETUP_GUIDANCE_2026-10-14.md` | Yamaha's and Kawasaki's suspension symptom guidance, now given to Ask BAK for 56 Yamaha and 25 Kawasaki bike-years, and the cross-check against BAK's own rules |
 | `REFERENCES.md`, `references.json` | 33 reference sources with access, licence status and how the app may use each |
 | `COMPONENT_CATALOG.md`, `kyb.json`, `showa.json`, `wp.json` | 285 sourced component, manual, part and upgrade records, with gaps |
 
