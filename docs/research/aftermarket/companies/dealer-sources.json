@@ -1,0 +1,133 @@
+{
+  "checked_on": "2026-10-14",
+  "sites": [
+    {
+      "url": "https://lings.com",
+      "brands_covered": ["Husqvarna (vendor 'Husqvarna PCA', ~1,209 products seen)", "GasGas (vendor 'GasGas PCA', ~715)", "KTM (vendor 'KTM PCA', ~1,868)", "Pierer Genuine Part (~6,399 KTM-group OEM parts)", "Triumph (vendor 'Triumph PCA', ~1,216, mostly merch/clothing in the sample; TF tags seen on bike listings only)"],
+      "shows_part_numbers": "yes in feed: variant sku is the part number (e.g. A54012920000, 54813990100, 58410051044FA); NOT shown on the product page HTML",
+      "shows_fitment": "yes in feed: tags MODEL_YY (e.g. EC250_21, FE350_22, 701_Enduro_LR_20) plus 'MODEL_<model>_<year>' tags; NOT shown on product page HTML",
+      "platform": "Shopify",
+      "products_json": "yes",
+      "robots_notes": "Standard Shopify robots; disallows cart/checkout/orders/account, /recommendations/products and collections with sort_by. Products and collections allowed.",
+      "example_product_url": "https://lings.com/products/gasgas-hourmeter",
+      "notes": "UK dealer (prices in GBP; European-market catalog). Per-model collections exist, e.g. /collections/ec250-2025-accessories/products.json (all 'GasGas PCA'). /products.json?page= paging returned HTTP 400 at page 60 (Shopify page cap ~15,000 items), so read via per-model collections to get everything. Fitment tags are model+2-digit-year codes and need mapping to US model names."
+    },
+    {
+      "url": "https://yamahaonlineparts.com",
+      "brands_covered": ["Yamaha OEM parts", "Yamaha Genuine Accessories", "GYTR (e.g. D03-E51F0-V0-00, BHR-E16A0-V0-00, B7B-E9500-V0-00)", "also marine/outboard"],
+      "shows_part_numbers": "yes (in title, sku and handle)",
+      "shows_fitment": "yes: product page HTML has a Fitment tab with full model:years list (e.g. 'YZ450F: 2014-2026'); body_html in products.json has a partial 'Fits These Yamaha Models' list plus 'see Fitment tab'",
+      "platform": "Shopify (54cb3d-2.myshopify.com)",
+      "products_json": "yes",
+      "robots_notes": "Standard Shopify robots: Allow /, disallow admin/cart/checkout/orders/account. Products allowed.",
+      "example_product_url": "https://yamahaonlineparts.com/products/yamaha-d03-e51f0-v0-00-gytr-25mm-axle-accent-kit",
+      "notes": "Collection handles 'gytr', 'gytr-performance-parts', 'yamaha-gytr' returned empty products, so filter the full feed by 'GYTR' in title. The full fitment list is in the page HTML (div.product-fitment with an embedded script/noscript pre block), not in products.json, so fetch the page or <handle>.js per product. Site search shows 1000+ GYTR results."
+    },
+    {
+      "url": "https://www.triumphpartstore.com",
+      "brands_covered": ["Triumph OEM parts and genuine accessories incl. TF 250-X / TF 450-X (A96xxxxx-A99xxxxx accessory part numbers listed under the 'Accessories' category)"],
+      "shows_part_numbers": "yes (URL /us/catalog/part/<partnumber>)",
+      "shows_fitment": "yes, in server-rendered HTML: 'Fits: ...' plus a 'Fitment (N models)' Year/Model table, e.g. A9610139 fits 2024-2026 TF250-X, TF450-X, TF250-C/E, TF450-C/E, 2025 TF450-RC Edition",
+      "platform": "custom Next.js (Triumph Waukesha dealer site)",
+      "products_json": "no",
+      "robots_notes": "User-Agent * Allow /; disallows /checkout, /account/, /cart, /reset-password, /api/, /payment/. Sitemap index at /sitemap.xml (multiple /sitemap/N files).",
+      "example_product_url": "https://www.triumphpartstore.com/us/catalog/part/A9610139",
+      "notes": "Authorized Triumph dealer in Waukesha, WI. Category pages like /us/catalog/TF250-X/2026/TF250-X/all/Accessories list accessory part numbers; crawl via the sitemap or the per-model Accessories category, then fetch part pages. Also lists TF450-X parts, e.g. T2046482."
+    },
+    {
+      "url": "https://www.motosport.com",
+      "brands_covered": ["Husqvarna Technical Accessories", "GasGas Technical Accessories", "KTM PowerParts", "GYTR", "Honda Genuine Accessories (brand page mostly UTV/ATV items in first page)", "Kawasaki: /kawasaki-genuine-accessories resolves to a generic 'Accessories' page, not a brand page"],
+      "shows_part_numbers": "yes in static HTML: 'Part Numbers' table (Product Variant / Manufacturer Part #), e.g. 46304070000HA1, D03-E449E-V0-0B",
+      "shows_fitment": "not in static HTML: the 'Fitment' section (#alsoofferedfor) is empty and loaded by JS on expand (data-action=get); the page only has 'select from the list of rides that fit this product'",
+      "platform": "custom (nginx)",
+      "products_json": "no (404)",
+      "robots_notes": "Disallows */popup, */order-status/, */order-return/, */reportaproblem, */submit, */checkout, */account/, *textsearch, *?mmy=clear, /search. Product pages allowed. Sitemap: /sitemap/google_sitemap_index.xml",
+      "example_product_url": "https://www.motosport.com/husqvarna-technical-accessories-chain-guide",
+      "notes": "Brand pages: /husqvarna-technical-accessories, /gasgas-technical-accessories, /ktm-powerparts, /gytr, /honda-genuine-accessories (about 60 product links on each first page). Fitment would need the XHR endpoint behind the Fitment tab (not identified) or per-ride listing pages."
+    },
+    {
+      "url": "https://aomc.mx",
+      "brands_covered": ["KTM", "Husqvarna", "GasGas", "WP", "Yamaha OEM parts / Yamaha Genuine Accessories (GYTR not named on the home page)"],
+      "shows_part_numbers": "yes in URLs/titles (e.g. ...-A46004946044.html, ...-3HS27001730X.html)",
+      "shows_fitment": "unknown: product page could not be fetched (WebFetch permission timed out; server curl returns 403 from Cloudflare). Titles carry year ranges such as 'SXXCEnduro-23-26' and '22-24'",
+      "platform": "Miva Merchant (inferred from /mm5/ asset paths and .html page names)",
+      "products_json": "no (403 from Cloudflare)",
+      "robots_notes": "robots.txt could not be retrieved (WebFetch permission timed out; server request blocked)",
+      "example_product_url": "https://aomc.mx/KTMHusqvarnaGasGas-Swingarm-Protection-22-24-A46004946044.html",
+      "notes": "Blocks automated requests from our server (Cloudflare 403). No Honda, Kawasaki or Triumph seen on the home page."
+    },
+    {
+      "url": "https://ktmtwins.com",
+      "brands_covered": ["KTM PowerParts (vendor KTM dominates the first 750 products)", "a few aftermarket items marked KTM/Husqvarna/GasGas (e.g. Wings, Brembo lever bushing)"],
+      "shows_part_numbers": "yes",
+      "shows_fitment": "yes (existing source)",
+      "platform": "Shopify",
+      "products_json": "yes",
+      "robots_notes": "Shopify robots; Allow /. Header asks agents to see /agents.md.",
+      "example_product_url": "https://ktmtwins.com/products/0930000300600",
+      "notes": "Checked whether it also carries Husqvarna/GasGas Technical Accessories: no Husqvarna/GasGas OEM vendor in the first 750 feed items, and searching 'husqvarna powerparts' returns only aftermarket. Not a source for Husky/GasGas TA."
+    },
+    {
+      "url": "https://www.husqvarna-motorcycles.com/en-us/technical-accessories.html",
+      "brands_covered": ["Husqvarna Technical Accessories (official)"],
+      "shows_part_numbers": "unknown: catalog content is not in the static HTML (JS-rendered)",
+      "shows_fitment": "unknown",
+      "platform": "Adobe Experience Manager (paths /content/dam, /language-masters) - inferred",
+      "products_json": "no (404)",
+      "robots_notes": "Disallows /language-masters/, /content/websites/, /content/dam/. Sitemap index /sitemap-index.xml (146 regional sitemaps; US: sitemap.north-america-us-en-sitemap*.xml, ~1,042 URLs, only one technical-accessories landing URL).",
+      "example_product_url": "",
+      "notes": "www.gasgas.com has the same robots/sitemap layout. No per-product accessory URLs in the US sitemap."
+    },
+    {
+      "url": "https://www.kawasaki.com/en-us/shop/accessories",
+      "brands_covered": ["Kawasaki genuine accessories/parts (official)"],
+      "shows_part_numbers": "part number appears in URL path (e.g. /kx450fcf/360010600266/Cover-SideRhBWhite)",
+      "shows_fitment": "model code appears in URL (kx450fcf etc.); page contents not verified",
+      "platform": "custom (Microsoft-IIS / ASP.NET)",
+      "products_json": "no",
+      "robots_notes": "Disallows *.pdf, /en-us/shop/cart/, /en-us/my-kawasaki/, shop confirm/review-order, wishlist, /dealerlocatorpower/. Sitemap /sitemap/sitemap.xml (7,736 URLs, ~1,958 /shop/accessories/ URLs, 160 for KX models).",
+      "example_product_url": "https://www.kawasaki.com/en-us/shop/accessories/motorcycle/kx450fcf/360010600266/Cover-SideRhBWhite",
+      "notes": "All 4 sampled KX accessory URLs from the sitemap returned Kawasaki's 'Page Not Found' (og:url pagenotfound?500) to our server even with cookies. Sitemap URLs alone give part number + model code. Not usable as-is."
+    },
+    {
+      "url": "https://www.rockymountainatvmc.com",
+      "brands_covered": ["has per-bike pages, e.g. /parts/2024-gasgas-mc-250f-factory-edition (seen in search results)"],
+      "shows_part_numbers": "unknown",
+      "shows_fitment": "unknown",
+      "platform": "custom, behind Imperva Incapsula",
+      "products_json": "no (Incapsula challenge page)",
+      "robots_notes": "not retrieved (Incapsula blocks server and WebFetch)",
+      "example_product_url": "",
+      "notes": "Blocked from both our server and WebFetch."
+    },
+    {
+      "url": "https://www.jpcycles.com / https://www.revzilla.com",
+      "brands_covered": ["Per-model pages for Husqvarna, GasGas, Triumph TF, Yamaha, Honda, Kawasaki (mostly aftermarket brands)", "RevZilla /oem/ microfiche for Honda/Kawasaki/Yamaha"],
+      "shows_part_numbers": "RevZilla OEM fiche: yes (not opened in detail)",
+      "shows_fitment": "per-model listing pages (fitment by page, not per product list)",
+      "platform": "custom (shared RevZilla/J&P platform)",
+      "products_json": "no (404)",
+      "robots_notes": "jpcycles: disallows /oem/, /api/, /fitment_notes/, /vehicle_selector, /search?, query params. revzilla: allows /oem-motorcycle-parts, disallows /oem/availability, /oem*ducati*, /api/, /fitment_notes/, /search?.",
+      "example_product_url": "https://www.revzilla.com/oem/kawasaki/2024-kawasaki-kx450",
+      "notes": "No OEM-accessory brand names (Kawasaki/Honda Genuine, KRT, HRC) found on the 2025 KX450 jpcycles page. OEM fiche typically covers replacement parts, not accessory catalogs."
+    },
+    {
+      "url": "https://kawasakipartshouse.com, https://www.hondapartshouse.com, https://www.babbittsonline.com, https://www.ronayers.com, https://www.boats.net, https://www.partzilla.com, https://www.fortnine.ca, https://ktm-versand.de",
+      "brands_covered": ["OEM parts houses (Kawasaki/Honda/Yamaha etc.) and EU KTM/Husqvarna/GasGas PowerParts shop (ktm-versand.de)"],
+      "shows_part_numbers": "unknown",
+      "shows_fitment": "unknown",
+      "platform": "various; all behind Cloudflare challenge",
+      "products_json": "no (403 Cloudflare 'Just a moment...')",
+      "robots_notes": "not retrievable (Cloudflare challenge, including ktm-versand.de/robots.txt)",
+      "example_product_url": "",
+      "notes": "All returned Cloudflare challenge pages to our server; not readable politely."
+    }
+  ],
+  "recommendation": [
+    "1. lings.com (Shopify, products.json + per-model collections): best machine-readable source for Husqvarna and GasGas OEM accessories (vendors 'Husqvarna PCA', 'GasGas PCA'); sku = part number, tags = MODEL_YY fitment. UK catalog/GBP; map EU model codes to US models.",
+    "2. yamahaonlineparts.com (Shopify): Yamaha GYTR and genuine accessories with part numbers; full model:year fitment list in the product page HTML Fitment block (and partial list in body_html).",
+    "3. triumphpartstore.com (Triumph Waukesha, custom Next.js, robots allow): TF 250-X / TF 450-X accessories (A96-A99 part numbers) with a server-rendered Year/Model fitment table on every part page; crawl via sitemap or the per-model Accessories category.",
+    "4. motosport.com (custom, robots allow product pages): Husqvarna TA, GasGas TA, GYTR, KTM PowerParts, Honda Genuine Accessories with manufacturer part numbers in static HTML; fitment is JS-loaded, so it is a cross-check/part-number source unless the fitment XHR is identified.",
+    "5. Honda (HRC/genuine accessories) and Kawasaki (KX/KRT accessories): no readable dealer feed found. kawasaki.com sitemap lists ~160 KX accessory URLs with part number + model code in the path, but the pages returned 'Page Not Found' to our server; powersports.honda.com returned Access Denied; the big OEM parts houses (partzilla, hondapartshouse, kawasakipartshouse, ronayers, babbitts) are behind Cloudflare. Still open and needs a different approach (browser-based read or a dealer data agreement)."
+  ]
+}

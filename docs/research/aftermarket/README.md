@@ -26,7 +26,7 @@ the app needs a manufacturer-page fitment check per part (the evidence fields in
 |---|---|---|---|
 | KTM family | 1: newest platforms (2023-2027), breadth across all five slices | Done 2026-10-14 | 112 products, 54 rider/tester findings, 11 project builds; 217 of 224 in-scope bike-years have at least one mapped part |
 | KTM family | 2: manufacturer confirmation, missing brands and categories, 85 SX, more feedback | Done 2026-10-14 | 210 products (32 high, 123 medium, 55 unverified), 276 part numbers, 83 findings, 17 builds; all 224 in-scope bike-years have mapped parts |
-| KTM family | 3: 2020-2022 back-fill and what pass 2 could not reach (below) | Next | |
+| KTM family | 3: full dealer and retailer catalogs (every brand), company registry | In progress 2026-10-14 | KTM Twins 968 listings (59 brands), Lings 1,463 official Husqvarna / GasGas / KTM accessories, Cycle Gear crawl running; 233-company registry in companies/COMPANIES.md |
 | Triumph | 1 | Queued | |
 | Yamaha | 1 | Queued | |
 | Honda | 1 | Queued | |
@@ -75,3 +75,21 @@ Pass 3 list:
   part numbers; Husqvarna and GasGas colour-variant OEM numbers; Haan/Talon/DID wheels; Regina/EK chains.
 - Feedback: no written aftermarket tests yet for 2026-27 KTM or Husqvarna; Hinson tests on 2023+; four-stroke cross-country
   tests; the MXA and Racer X pages listed as not done in p2-rider-feedback.json.
+
+## Pass 3 method: whole catalogs instead of searches (2026-10-14)
+
+Searching part by part reaches a few dozen products per session. Pass 3 reads whole dealer and retailer catalogs directly,
+politely (robots.txt respected, about one request per second), so every brand they carry is captured with its part numbers,
+fitment, price and link:
+
+| Source | What it gives | Script |
+|---|---|---|
+| KTM Twins (official KTM dealer, US; public store feed) | KTM PowerParts and 58 other brands, part number, per-product FITMENT list, US price | scripts/aftermarket/ktmtwins_convert.py |
+| Lings (KTM / Husqvarna / GasGas dealer, UK; public store feed) | Husqvarna and GasGas Technical Accessories and KTM PowerParts by exact model-year collection, GBP price; EU market | scripts/aftermarket/lings_convert.py |
+| Cycle Gear (US retailer; server-rendered pages) | every part listed for each bike-year (all brands), product page with the manufacturer part number per style, fitment notes, rating, price | scripts/aftermarket/cyclegear_crawl.py |
+
+Each family folder now has `bikes/<bike>.md` (every listed part for that bike-year, grouped by category, duplicates across
+sellers merged), `BRANDS.md`, and `CATALOG.md` (researched parts, rider findings, builds, sources). Not readable from here:
+MotoSport fitment (loaded by script; its product pages are used for part numbers only), AOMC, Partzilla, Rocky Mountain
+(bot protection), Honda and Kawasaki genuine-accessory catalogs. Next readable sources found: yamahaonlineparts.com (GYTR,
+store feed) and triumphpartstore.com (Triumph TF accessories, server-rendered fitment tables).

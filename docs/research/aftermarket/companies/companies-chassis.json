@@ -1,0 +1,3426 @@
+{
+ "slice": "Company registry: suspension, chassis, controls, wheels, brakes, drivetrain, protection, seats, electrics",
+ "method_note": "Search budget about 45 used. Most official-site fetches were blocked (permission timeout), so many websites are 'unknown' or come from prior knowledge, as noted per record. Makes = yes only where a session source showed a fitment or where noted as prior knowledge; otherwise unknown. Triumph TF fitment almost entirely unverified.",
+ "companies": [
+  {
+   "name": "Enzo Racing",
+   "website": "https://www.enzoracing.com/",
+   "country": "USA",
+   "categories": [
+    "suspension",
+    "suspension service"
+   ],
+   "mx_product_lines": "Suspension parts and accessories, re-springing, conversions, revalving for KYB, Showa and WP",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Suspension rebuilds/revalves",
+    "Re-spring and conversion kits"
+   ],
+   "sales_channels": "Direct from the workshop (Santa Ana, CA and Newark, TX) plus authorized dealers nationwide; Teknik Motorsport (AU) carries the brand",
+   "services": "Yes: full suspension service, revalve, rebuild, upgrades, conversions",
+   "source_url": "https://www.enzoracing.com/",
+   "notes": "Site names KYB, Showa and WP components, not bike makes. Separate apparel site enzoracingapparel.com."
+  },
+  {
+   "name": "Race Tech",
+   "website": "https://www.racetech.com/",
+   "country": "USA",
+   "categories": [
+    "suspension",
+    "suspension service",
+    "springs",
+    "valving kits",
+    "tools"
+   ],
+   "mx_product_lines": "Gold Valve kits and cartridge emulators, fork/shock springs, G3-S custom shocks, G2-R cartridge kits, TNK fork tubes, suspension tools",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Gold Valve kits",
+    "G3-S custom shock",
+    "Fork and shock springs"
+   ],
+   "sales_channels": "Online store, dealers, and a network of Race Tech Centers that install",
+   "services": "Yes: revalve, rebuild, vintage suspension, brake arcing, engine services, seminars",
+   "source_url": "https://www.racetech.com/",
+   "notes": "Corona, CA. Homepage does not list bike makes; catalogue is model-specific."
+  },
+  {
+   "name": "Factory Connection",
+   "website": "https://www.factoryconnection.com/",
+   "country": "USA",
+   "categories": [
+    "suspension",
+    "suspension service",
+    "springs"
+   ],
+   "mx_product_lines": "Suspension revalving and service, springs, KYB conversions",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Fork and shock springs",
+    "Revalve service"
+   ],
+   "sales_channels": "Direct and dealers (unverified)",
+   "services": "Yes: suspension service and revalve (prior knowledge)",
+   "source_url": "https://racerxonline.com/2011/03/10/fmfktm-announces-new-sponsorship-from-factory-connection-",
+   "notes": "Racer X confirms the company and its KTM team sponsorship. Official site fetch failed. Website/country/products from researcher prior knowledge; not verified this session (most official-site fetches were blocked). Verify before publishing."
+  },
+  {
+   "name": "REP Suspension",
+   "website": "unknown",
+   "country": "unknown",
+   "categories": [
+    "suspension",
+    "suspension service"
+   ],
+   "mx_product_lines": "Suspension tuning (name seen on Vital MX forum with AEO)",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "unknown",
+   "services": "Probably suspension service (unverified)",
+   "source_url": "https://www.vitalmx.com/forums/bike-builds/aeo-rep-suspension",
+   "notes": "Website not confirmed; the guessed domain repsuspension.com was blocked and not verified."
+  },
+  {
+   "name": "MX-Tech",
+   "website": "https://www.mx-tech.com/",
+   "country": "USA",
+   "categories": [
+    "suspension",
+    "suspension service",
+    "suspension parts"
+   ],
+   "mx_product_lines": "Suspension tuning, revalve, cartridge/valving parts, springs",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Direct and partner/affiliate shops (e.g. Suspensionwerx partnership noted)",
+   "services": "Yes: suspension service",
+   "source_url": "https://nsmb.com/forum/forum/the-inside-line-1/topic/suspensionwerx-motorsports-partnered-with-mx-tech-1085/",
+   "notes": "Website/country/products from researcher prior knowledge; not verified this session (most official-site fetches were blocked). Verify before publishing."
+  },
+  {
+   "name": "Pro Circuit",
+   "website": "https://www.procircuit.com/",
+   "country": "USA",
+   "categories": [
+    "suspension",
+    "suspension service",
+    "linkages",
+    "springs",
+    "holeshot devices"
+   ],
+   "mx_product_lines": "Suspension service and kits, billet linkages, shock springs (also exhausts, covered by the engine slice)",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "yes",
+    "Honda": "yes",
+    "Kawasaki": "yes"
+   },
+   "notable_products": [
+    "Billet aluminium rear suspension linkages",
+    "Suspension revalve"
+   ],
+   "sales_channels": "Direct, dealers and distributors worldwide (e.g. Firestorm Motorcycles, AU)",
+   "services": "Yes: suspension service and revalve",
+   "source_url": "https://www.firestormmotorcycles.com.au/Pro-Circuit-Billet-Aluminium-Suspension-Linkages",
+   "notes": "Firestorm lists PC linkages for Yamaha YZ450FX/YZ250FX, Kawasaki KX450F, KTM SX. Corona, CA. MXA notes Pro Circuit sold starting devices in the past."
+  },
+  {
+   "name": "Stillwell Performance",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "suspension",
+    "suspension service"
+   ],
+   "mx_product_lines": "Suspension revalve/service incl. KTM EXC",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "EXC suspension service"
+   ],
+   "sales_channels": "Direct service (unverified)",
+   "services": "Yes: suspension service",
+   "source_url": "https://www.cyclenews.com/2016/09/article/stillwell-performance-exc-suspension-service/",
+   "notes": "Website not confirmed this session."
+  },
+  {
+   "name": "Dialed Action",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "suspension",
+    "suspension service"
+   ],
+   "mx_product_lines": "Suspension tuning/service",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "unknown",
+   "services": "Yes (prior knowledge)",
+   "source_url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/WP-Suspension-which-route-to-go,1385665",
+   "notes": "Searches did not surface the official site. Website/country/products from researcher prior knowledge; not verified this session (most official-site fetches were blocked). Verify before publishing."
+  },
+  {
+   "name": "Smart Performance",
+   "website": "unknown",
+   "country": "USA (unverified)",
+   "categories": [
+    "suspension",
+    "suspension service"
+   ],
+   "mx_product_lines": "Suspension tuning (named by BAK MX brief)",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "unknown",
+   "services": "unknown",
+   "source_url": "unknown",
+   "notes": "Search did not surface the company; needs a dedicated search."
+  },
+  {
+   "name": "Technical Touch USA",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "suspension",
+    "suspension service",
+    "suspension parts"
+   ],
+   "mx_product_lines": "Suspension service and parts (Technical Touch Japan affiliate per prior knowledge)",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "yes",
+    "Honda": "unknown",
+    "Kawasaki": "yes"
+   },
+   "notable_products": [],
+   "sales_channels": "Direct; parts also on eBay",
+   "services": "Yes: suspension service (prior knowledge)",
+   "source_url": "https://co.ebay.com/b/Motorcycle-Brakes-and-Suspension-Technical-Touch-USA-Inc-Parts-for-Yamaha/49790/bn_7071791962",
+   "notes": "eBay category pages show Technical Touch USA Inc parts for Yamaha and Kawasaki KX125. Website not confirmed."
+  },
+  {
+   "name": "K-Tech Suspension",
+   "website": "https://ktechsuspension.com/",
+   "country": "UK",
+   "categories": [
+    "suspension",
+    "cartridge kits",
+    "shocks",
+    "suspension parts"
+   ],
+   "mx_product_lines": "Off-road cartridge kits and ORVS (Off Road Valve System), high-performance shocks",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "yes",
+    "GasGas": "yes",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "ORVS for WP AER 48mm and WP 43mm forks",
+    "Off-road shocks"
+   ],
+   "sales_channels": "Dealer/installer network (e.g. TW Suspension Tech UK); Rocky Mountain ATV/MC lists K-Tech",
+   "services": "Via dealers",
+   "source_url": "https://twsuspensiontech.co.uk/front-fork-orvs-wp-aer-48mm-2016-4t",
+   "notes": "ORVS 'designed and manufactured in the UK'. WP-fork fitment implies KTM/Husqvarna/GasGas; verify model list."
+  },
+  {
+   "name": "Öhlins",
+   "website": "https://www.ohlins.com/",
+   "country": "Sweden",
+   "categories": [
+    "suspension",
+    "shocks",
+    "forks",
+    "steering dampers",
+    "springs"
+   ],
+   "mx_product_lines": "MX shocks (TTX), forks/cartridges, springs, steering dampers",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Dealers and national distributors; service centres",
+   "services": "Via service centres",
+   "source_url": "https://www.teknikmotorsport.com/",
+   "notes": "Teknik Motorsport lists Ohlins as a brand. MX fitment not verified. Website/country/products from researcher prior knowledge; not verified this session (most official-site fetches were blocked). Verify before publishing."
+  },
+  {
+   "name": "Andreani Group",
+   "website": "unknown",
+   "country": "Italy",
+   "categories": [
+    "suspension",
+    "cartridge kits",
+    "suspension service"
+   ],
+   "mx_product_lines": "Fork cartridge kits, shocks (Misano), suspension parts",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Fork cartridge kit for KTM SX 50 / SX 65 WP 35mm"
+   ],
+   "sales_channels": "Dealers (e.g. TW Suspension Tech UK, Motorworks UK)",
+   "services": "Brook Suspension (UK) is Andreani-accredited",
+   "source_url": "https://twsuspensiontech.co.uk/andreani-fork-cartridge-kit-for-ktm-sx-65-wp-35",
+   "notes": "Mostly road/adventure range; MX kits seen only for mini KTMs. Official domain not confirmed."
+  },
+  {
+   "name": "TMV",
+   "website": "unknown",
+   "country": "unknown",
+   "categories": [
+    "suspension"
+   ],
+   "mx_product_lines": "Named in BAK MX brief as suspension maker",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "unknown",
+   "services": "unknown",
+   "source_url": "unknown",
+   "notes": "Not found in budget; needs a dedicated search."
+  },
+  {
+   "name": "AOS",
+   "website": "unknown",
+   "country": "unknown",
+   "categories": [
+    "suspension"
+   ],
+   "mx_product_lines": "Named in BAK MX brief as suspension maker",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "unknown",
+   "services": "unknown",
+   "source_url": "unknown",
+   "notes": "Not found in budget; needs a dedicated search."
+  },
+  {
+   "name": "WP Suspension (XACT Pro Components / WP Factory Services)",
+   "website": "https://www.wp-suspension.com/",
+   "country": "Austria",
+   "categories": [
+    "suspension",
+    "forks",
+    "shocks",
+    "cone valve conversions",
+    "factory kits",
+    "suspension service"
+   ],
+   "mx_product_lines": "XACT Pro Components cone-valve forks and Trax shocks, 4CS fork mods, factory services",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "yes",
+    "GasGas": "yes",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "XACT Pro Components for 2023+ KTM motocross range",
+    "XACT Pro cone valve fork + Super Trax shock"
+   ],
+   "sales_channels": "KTM-group dealers and WP Authorized Centers",
+   "services": "Yes: WP Factory Services / authorized centres",
+   "source_url": "https://www.wp-suspension.com/news/the-new-xact-pro-components-for-the-2023-ktm-motocross-range",
+   "notes": "KTM-group (Pierer) suspension maker; fitment Husq/GasGas from prior knowledge."
+  },
+  {
+   "name": "KYB (Kayaba)",
+   "website": "unknown",
+   "country": "Japan",
+   "categories": [
+    "suspension",
+    "factory kits",
+    "OEM parts"
+   ],
+   "mx_product_lines": "A-kit / factory kit forks and shocks, OEM service parts",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "yes",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "yes",
+    "Honda": "yes",
+    "Kawasaki": "yes"
+   },
+   "notable_products": [
+    "KYB factory-kit spring forks for KTM/Husqvarna (MXA test)"
+   ],
+   "sales_channels": "Authorized dealers/tuners; OEM parts via distributors (e.g. Teknik AU)",
+   "services": "No direct",
+   "source_url": "https://motocrossactionmag.com/fork-works-kyb-factory-kit-spring-forks-for-ktm-husqvarna",
+   "notes": "Japanese OEM on Yamaha/Kawasaki (prior knowledge)."
+  },
+  {
+   "name": "Showa",
+   "website": "unknown",
+   "country": "Japan",
+   "categories": [
+    "suspension",
+    "factory kits",
+    "OEM parts"
+   ],
+   "mx_product_lines": "A-kit forks/shocks, OEM parts",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "yes",
+    "Kawasaki": "yes"
+   },
+   "notable_products": [],
+   "sales_channels": "Authorized dealers; OEM parts via distributors",
+   "services": "No direct",
+   "source_url": "https://dirtrider.com/breaking-down-kit-suspension-from-kyb-showa-and-wp",
+   "notes": "OEM on Honda/Kawasaki (prior knowledge). Now part of Hitachi Astemo."
+  },
+  {
+   "name": "TracTive Suspension",
+   "website": "unknown",
+   "country": "Netherlands (prior knowledge)",
+   "categories": [
+    "suspension",
+    "shocks",
+    "forks"
+   ],
+   "mx_product_lines": "Aftermarket shocks/forks",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Dealers (Teknik Motorsport AU carries)",
+   "services": "unknown",
+   "source_url": "https://www.teknikmotorsport.com/",
+   "notes": "Off-road range not verified."
+  },
+  {
+   "name": "HiCalibre",
+   "website": "unknown",
+   "country": "unknown",
+   "categories": [
+    "suspension parts"
+   ],
+   "mx_product_lines": "Suspension parts brand carried by Teknik",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Teknik Motorsport (AU)",
+   "services": "unknown",
+   "source_url": "https://www.teknikmotorsport.com/",
+   "notes": ""
+  },
+  {
+   "name": "Krooztune",
+   "website": "unknown",
+   "country": "unknown",
+   "categories": [
+    "suspension parts",
+    "coatings"
+   ],
+   "mx_product_lines": "Suspension tuning parts brand carried by Teknik",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Teknik Motorsport (AU)",
+   "services": "unknown",
+   "source_url": "https://teknikmotorsport.com/brands/krooztune/",
+   "notes": ""
+  },
+  {
+   "name": "Innteck",
+   "website": "unknown",
+   "country": "unknown",
+   "categories": [
+    "suspension parts"
+   ],
+   "mx_product_lines": "Suspension brand carried by Teknik",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Teknik Motorsport (AU)",
+   "services": "unknown",
+   "source_url": "https://www.teknikmotorsport.com/",
+   "notes": ""
+  },
+  {
+   "name": "Fuji Seimitsu",
+   "website": "unknown",
+   "country": "Japan (name)",
+   "categories": [
+    "suspension parts"
+   ],
+   "mx_product_lines": "Suspension component brand carried by Teknik (likely shims/washers)",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Teknik Motorsport (AU)",
+   "services": "unknown",
+   "source_url": "https://www.teknikmotorsport.com/",
+   "notes": "Product type is a guess from context; verify."
+  },
+  {
+   "name": "Eibach",
+   "website": "unknown",
+   "country": "Germany",
+   "categories": [
+    "springs"
+   ],
+   "mx_product_lines": "Suspension springs",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Teknik Motorsport (AU) and others",
+   "services": "no",
+   "source_url": "https://www.teknikmotorsport.com/",
+   "notes": "MX spring range not verified."
+  },
+  {
+   "name": "SKF (sealing)",
+   "website": "unknown",
+   "country": "Sweden",
+   "categories": [
+    "fork seals",
+    "suspension parts"
+   ],
+   "mx_product_lines": "Fork seal and dust wiper kits",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Teknik Motorsport (AU) and distributors",
+   "services": "no",
+   "source_url": "https://www.teknikmotorsport.com/",
+   "notes": "Fitment by fork size/model; verify."
+  },
+  {
+   "name": "Teknik Motorsport",
+   "website": "https://www.teknikmotorsport.com/",
+   "country": "Australia",
+   "categories": [
+    "suspension parts",
+    "suspension service",
+    "tools",
+    "specialist retailer"
+   ],
+   "mx_product_lines": "Suspension parts (shims, springs, seals, valving kits, cartridges, lowering links), tools, workshop",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Triumph fork cartridge kits and replacement shocks (nav listing)",
+    "WP and KTM suspension tools"
+   ],
+   "sales_channels": "Online, worldwide shipping, dealer finder",
+   "services": "Yes: suspension service, tuning, Suspension Academy",
+   "source_url": "https://www.teknikmotorsport.com/",
+   "notes": "Also a distributor of KYB, Showa, Ohlins, Enzo, Xtrig, KoubaLink etc. Has TF 250-X pages."
+  },
+  {
+   "name": "Hyperpro",
+   "website": "unknown",
+   "country": "Netherlands (prior knowledge)",
+   "categories": [
+    "springs",
+    "steering dampers",
+    "shocks"
+   ],
+   "mx_product_lines": "Progressive springs, steering dampers",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Dealers (Brook Suspension UK sells)",
+   "services": "unknown",
+   "source_url": "https://brooksuspension.co.uk/about-us",
+   "notes": "MX catalogue not verified."
+  },
+  {
+   "name": "Pro Action",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "suspension service"
+   ],
+   "mx_product_lines": "Suspension tuning",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "unknown",
+   "services": "Yes",
+   "source_url": "https://www.vitalmx.com/comment/4999846",
+   "notes": "Named in Vital MX thread."
+  },
+  {
+   "name": "Pro Tune",
+   "website": "unknown",
+   "country": "USA (Ohio area per forum)",
+   "categories": [
+    "suspension service"
+   ],
+   "mx_product_lines": "Suspension tuning",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "unknown",
+   "services": "Yes",
+   "source_url": "https://www.vitalmx.com/comment/4999846",
+   "notes": "Forum poster says local to Jackson, OH."
+  },
+  {
+   "name": "PR2",
+   "website": "unknown",
+   "country": "unknown",
+   "categories": [
+    "suspension service"
+   ],
+   "mx_product_lines": "Suspension tuning",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "unknown",
+   "services": "Yes",
+   "source_url": "https://www.vitalmx.com/comment/4999846",
+   "notes": "Named in Vital MX thread."
+  },
+  {
+   "name": "Powerband",
+   "website": "unknown",
+   "country": "unknown",
+   "categories": [
+    "suspension service"
+   ],
+   "mx_product_lines": "Suspension tuning",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "unknown",
+   "services": "Yes",
+   "source_url": "https://www.vitalmx.com/comment/4999846",
+   "notes": "Named in Vital MX thread."
+  },
+  {
+   "name": "Brook Suspension",
+   "website": "https://www.brooksuspension.co.uk/",
+   "country": "UK",
+   "categories": [
+    "suspension service",
+    "suspension parts"
+   ],
+   "mx_product_lines": "Fork/shock rebuilds, off-road cartridge and piston kits, refinishing",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "yes",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "KTM shock rebuild service",
+    "Off-road cartridge/piston kits"
+   ],
+   "sales_channels": "Direct (Bradford workshop) and online",
+   "services": "Yes: rebuilds, repairs, rechrome, coatings; Ohlins/K-Tech/Nitron/Andreani/YSS accredited",
+   "source_url": "https://brooksuspension.co.uk/about-us",
+   "notes": "Mixed road/off-road; not MX-specific."
+  },
+  {
+   "name": "TW Suspension Tech",
+   "website": "https://twsuspensiontech.co.uk/",
+   "country": "UK",
+   "categories": [
+    "suspension service",
+    "specialist retailer"
+   ],
+   "mx_product_lines": "K-Tech dealer/installer; sells Andreani and K-Tech",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "K-Tech ORVS installs"
+   ],
+   "sales_channels": "Direct",
+   "services": "Yes: supply and install",
+   "source_url": "https://twsuspensiontech.co.uk/front-fork-orvs-wp-aer-48mm-2016-4t",
+   "notes": ""
+  },
+  {
+   "name": "Eurotek UK",
+   "website": "https://eurotekuk.com/",
+   "country": "UK",
+   "categories": [
+    "suspension service",
+    "specialist retailer"
+   ],
+   "mx_product_lines": "WP/KYB revalve, WP Xplor WSC conversion (with TBR), WP shock bladder conversion (with K-Tech), lowering",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "yes",
+    "GasGas": "yes",
+    "Triumph": "yes",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Eurotek/TBR WSC conversion for WP Xplor forks",
+    "Eurotek/K-Tech WP shock bladder conversion"
+   ],
+   "sales_channels": "Direct web store and workshop",
+   "services": "Yes: suspension and engine workshop",
+   "source_url": "https://eurotekuk.com/pages/workshop",
+   "notes": "Lists GASGAS, KTM, Husqvarna, Triumph among brands supported. TBR is a further partner name to research."
+  },
+  {
+   "name": "Shock Treatment",
+   "website": "https://shocktreatment.com.au/",
+   "country": "Australia",
+   "categories": [
+    "suspension service",
+    "specialist retailer"
+   ],
+   "mx_product_lines": "Suspension specialist; sells Neken SFS triple clamps",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Neken SFS triple clamps"
+   ],
+   "sales_channels": "Direct",
+   "services": "Suspension service (prior knowledge)",
+   "source_url": "https://shocktreatment.com.au/neken.html",
+   "notes": ""
+  },
+  {
+   "name": "KoubaLink",
+   "website": "unknown",
+   "country": "USA (prior knowledge)",
+   "categories": [
+    "linkages",
+    "lowering links"
+   ],
+   "mx_product_lines": "Lowering links",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "yes",
+    "Honda": "yes",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Lowering link for Yamaha WR250F 2015-2022",
+    "Lowering links for Honda CRF250L, Beta, Sherco"
+   ],
+   "sales_channels": "Distributors (Teknik AU, Firestorm AU)",
+   "services": "no",
+   "source_url": "https://www.firestormmotorcycles.com.au/yamaha-wr250f-2015-2022-koubalink-32mm-motorcycle",
+   "notes": "Mostly trail/dual-sport fitments seen."
+  },
+  {
+   "name": "Precision Concepts",
+   "website": "unknown",
+   "country": "USA (prior knowledge)",
+   "categories": [
+    "suspension service"
+   ],
+   "mx_product_lines": "Suspension tuning",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "unknown",
+   "services": "Yes (prior knowledge)",
+   "source_url": "unknown",
+   "notes": "Name from prior knowledge only; verify."
+  },
+  {
+   "name": "AEO Powersports",
+   "website": "unknown",
+   "country": "USA (prior knowledge)",
+   "categories": [
+    "suspension service"
+   ],
+   "mx_product_lines": "KTM-focused race shop/suspension (seen with REP on Vital)",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "unknown",
+   "services": "unknown",
+   "source_url": "https://www.vitalmx.com/forums/bike-builds/aeo-rep-suspension",
+   "notes": "Verify."
+  },
+  {
+   "name": "Xtrig",
+   "website": "unknown",
+   "country": "Germany (prior knowledge)",
+   "categories": [
+    "triple clamps",
+    "bar mounts",
+    "suspension"
+   ],
+   "mx_product_lines": "ROCS / ROCS Tech triple clamps, PHDS rubber bar mounts",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "yes",
+    "GasGas": "yes",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "yes",
+    "Kawasaki": "yes"
+   },
+   "notable_products": [
+    "ROCS Tech triple clamp KTM/Husq/GasGas 2013-2022 and 2023-2026",
+    "ROCS Tech for KTM SX50/65, TC50/65, MC50/65 2024+",
+    "ROCS Tech for Kawasaki KX250F/KX450F",
+    "ROCS Tech Honda"
+   ],
+   "sales_channels": "Distributors and dealers worldwide (Slavens Racing, TripleClamp Moto CA, Cycle Gear, Teknik AU)",
+   "services": "no",
+   "source_url": "https://slavensracing.com/shop/rocs-tech-triple-clamps/",
+   "notes": "Domain xtrig.de assumed; fetch blocked. Yamaha not checked."
+  },
+  {
+   "name": "Luxon MX",
+   "website": "https://luxonmx.com/",
+   "country": "USA (unverified)",
+   "categories": [
+    "triple clamps",
+    "bar mounts"
+   ],
+   "mx_product_lines": "Gen2 split and Gen3 Pro triple clamps, rubber-isolated and 4-post bar mounts",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "yes",
+    "Honda": "unknown",
+    "Kawasaki": "yes"
+   },
+   "notable_products": [
+    "Gen3 Pro YZ250/450 triple clamp",
+    "Kawasaki rubber isolated bar mounts",
+    "Beta 450RX Gen3 Pro clamps"
+   ],
+   "sales_channels": "Direct web store; Rocky Mountain ATV/MC",
+   "services": "no",
+   "source_url": "https://motocrossactionmag.com/mxa-team-tested-luxon-mx-gen3-pro-yz250-450-triple-clamp",
+   "notes": "KTM fitment inferred from Vital thread (bar mounts for 2023+ KTM)."
+  },
+  {
+   "name": "Ride Engineering",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "triple clamps",
+    "linkages",
+    "chassis parts"
+   ],
+   "mx_product_lines": "Triple clamps, link arms and other billet chassis parts",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "yes",
+    "Honda": "yes",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "2023 CRF450 triple clamps",
+    "2017 CRF450R/X clamps"
+   ],
+   "sales_channels": "Direct and dealers",
+   "services": "no",
+   "source_url": "https://motocrossactionmag.com/mxa-team-tested-ride-engineering-2023-crf450-triple-clamps",
+   "notes": "Yamaha from 51FIFTY Yamaha sponsorship news, not a catalogue check."
+  },
+  {
+   "name": "Neken",
+   "website": "unknown",
+   "country": "Spain (prior knowledge)",
+   "categories": [
+    "triple clamps",
+    "handlebars",
+    "grips"
+   ],
+   "mx_product_lines": "SFS triple clamps, SFH variable-diameter handlebars, grips",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "yes",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "SFS triple clamp KTM SX/SX-F 125-450 22mm offset",
+    "Honda CRF450 clamps 20mm offset",
+    "SFH handlebar"
+   ],
+   "sales_channels": "Distributors/retailers: RevZilla, Maciag Offroad, Shock Treatment AU, JJ Motorsports",
+   "services": "no",
+   "source_url": "https://www.maciag-offroad.com/neken-triple-clamp-ktm-sx-sx-f-125-250-350-450-orange-offset-22-mm-with-spring-sid90787.html",
+   "notes": ""
+  },
+  {
+   "name": "Applied Racing",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "triple clamps",
+    "bar mounts"
+   ],
+   "mx_product_lines": "R/S and Factory R/S triple clamp kits, oversize upper clamps, CRF50 top clamp",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "yes",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Factory R/S triple clamp set",
+    "CRF triple clamps"
+   ],
+   "sales_channels": "Dealers and retailers",
+   "services": "no",
+   "source_url": "https://motocrossactionmag.com/applied-racings-new-crf-triple-clamps",
+   "notes": ""
+  },
+  {
+   "name": "Works Connection",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "controls",
+    "holeshot devices",
+    "protection",
+    "chassis parts"
+   ],
+   "mx_product_lines": "Elite perch, Pro Launch holeshot device, guards, axle blocks and other billet parts",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "yes",
+    "Kawasaki": "yes"
+   },
+   "notable_products": [
+    "Pro Launch / Pro Launch 2.0 holeshot",
+    "Elite clutch perch"
+   ],
+   "sales_channels": "Dealers and large retailers (RevZilla, MotoSport)",
+   "services": "no",
+   "source_url": "https://motocrossactionmag.com/ten-things-you-need-to-know-about-holeshot-devices",
+   "notes": "Pro Launch listings for KTM 2007-2015 and Kawasaki KX250F/450F seen on RevZilla."
+  },
+  {
+   "name": "Emig Racing",
+   "website": "unknown",
+   "country": "USA (prior knowledge)",
+   "categories": [
+    "triple clamps",
+    "handlebars"
+   ],
+   "mx_product_lines": "Triple clamps and bar mounts",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "unknown",
+   "services": "no",
+   "source_url": "unknown",
+   "notes": "Name from prior knowledge only; verify."
+  },
+  {
+   "name": "RG3 Suspension",
+   "website": "unknown",
+   "country": "USA (prior knowledge)",
+   "categories": [
+    "triple clamps",
+    "suspension service"
+   ],
+   "mx_product_lines": "Triple clamps, suspension",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "unknown",
+   "services": "unknown",
+   "source_url": "unknown",
+   "notes": "Search found no RG3 page; verify."
+  },
+  {
+   "name": "Scar Racing",
+   "website": "unknown",
+   "country": "France",
+   "categories": [
+    "triple clamps",
+    "footpegs",
+    "handlebars",
+    "levers",
+    "brakes",
+    "plastics",
+    "tools"
+   ],
+   "mx_product_lines": "Triple clamps, footpegs, handlebars, levers, brake parts, axle blocks, air pumps",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "yes",
+    "Honda": "yes",
+    "Kawasaki": "yes"
+   },
+   "notable_products": [
+    "Triple clamps KTM 22mm offset",
+    "YZ65/85 clamps",
+    "KX250/450 2006-2023 clamps",
+    "Husqvarna TC85 clamps"
+   ],
+   "sales_channels": "24MX, Parts Europe, Firestorm AU and other dealers",
+   "services": "no",
+   "source_url": "https://www.24mx.com/en-us/motocross/brand/scar",
+   "notes": ""
+  },
+  {
+   "name": "Scotts Performance",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "steering dampers"
+   ],
+   "mx_product_lines": "Steering stabilizers with top and sub-mount kits",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "yes",
+    "GasGas": "yes",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "SUB mount kit 2024+ KTM 450/500 EXC-F",
+    "Top mount kit KTM/Husqvarna 150-500 2020",
+    "GasGas damper kit"
+   ],
+   "sales_channels": "Dealers (Slavens, TripleClamp Moto, Rocky Mountain, Upshift)",
+   "services": "no",
+   "source_url": "https://tripleclampmoto.ca/products/scotts-solid-rubber-sub-mounted-steering-damper-kit-2024-ktm-450-exc-f",
+   "notes": ""
+  },
+  {
+   "name": "BRP (rubber mount adapter)",
+   "website": "unknown",
+   "country": "unknown",
+   "categories": [
+    "steering dampers",
+    "bar mounts"
+   ],
+   "mx_product_lines": "Rubber-mounted adapter used with Scotts stabilizers",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "yes",
+    "GasGas": "yes",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "BRP rubber mounted adapter"
+   ],
+   "sales_channels": "Sold with Scotts kits",
+   "services": "no",
+   "source_url": "https://slavensracing.com/shop/scotts-stabilizer-top-mount-kit-for-ktm-hqv-gg-by-brp/",
+   "notes": "Full company name not confirmed."
+  },
+  {
+   "name": "GPR Stabilizers",
+   "website": "unknown",
+   "country": "USA (prior knowledge)",
+   "categories": [
+    "steering dampers"
+   ],
+   "mx_product_lines": "Steering stabilizers",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "unknown",
+   "services": "no",
+   "source_url": "https://www.kiwibiker.co.nz/forums/archive/index.php/t-140222.html",
+   "notes": "Verify MX fitments."
+  },
+  {
+   "name": "FCP Racing (Factory Chassis Parts)",
+   "website": "https://www.fcpracing.com/",
+   "country": "unknown",
+   "categories": [
+    "engine mounts",
+    "chassis flex parts"
+   ],
+   "mx_product_lines": "Titanium front engine mounts, billet head stays, exhaust mount",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Engine mount kit 2023+ KTM 450 SX-F/XC-F ($429)"
+   ],
+   "sales_channels": "Direct (website); Rocky Mountain ATV/MC KTM team sponsor",
+   "services": "no",
+   "source_url": "https://dirtbiketest.com/product-tests/fcp-racing-engine-mounts-for-2023-ktm/",
+   "notes": "Used by Red Bull KTM per MXA."
+  },
+  {
+   "name": "Works Chassis Lab",
+   "website": "unknown",
+   "country": "unknown",
+   "categories": [
+    "engine mounts",
+    "chassis flex parts"
+   ],
+   "mx_product_lines": "Aluminium top mounts and titanium front mounts with varied flex",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "yes",
+    "Honda": "yes",
+    "Kawasaki": "yes"
+   },
+   "notable_products": [
+    "Honda CRF450R 2019 mount set ($294.98)"
+   ],
+   "sales_channels": "unknown",
+   "services": "no",
+   "source_url": "https://www.swapmotolive.com/?p=14850",
+   "notes": "Used by Star Yamaha, Monster Kawasaki, SmarTop Honda per Swapmoto."
+  },
+  {
+   "name": "Pro Taper",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "handlebars",
+    "grips",
+    "sprockets",
+    "controls"
+   ],
+   "mx_product_lines": "Contour/Evo/SE/Fuzion/Micro bars, grips, sprockets",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "yes",
+    "GasGas": "yes",
+    "Triumph": "yes",
+    "Yamaha": "yes",
+    "Honda": "yes",
+    "Kawasaki": "yes"
+   },
+   "notable_products": [
+    "Fuzion bar",
+    "Contour bar",
+    "Micro bar for kids' bikes"
+   ],
+   "sales_channels": "Dealers and distributors",
+   "services": "no",
+   "source_url": "https://www.vitalmx.com/features/7-Innovative-Handlebar-Systems,6087",
+   "notes": "Handlebars are universal by bend; make list = bend availability, verify."
+  },
+  {
+   "name": "Renthal",
+   "website": "unknown",
+   "country": "UK",
+   "categories": [
+    "handlebars",
+    "grips",
+    "sprockets",
+    "chains",
+    "brake pads",
+    "clutch parts"
+   ],
+   "mx_product_lines": "Twinwall, Fatbar and 7/8 bars, grips, sprockets, chains, brake pads",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "yes",
+    "GasGas": "yes",
+    "Triumph": "unknown",
+    "Yamaha": "yes",
+    "Honda": "yes",
+    "Kawasaki": "yes"
+   },
+   "notable_products": [
+    "Twinwall",
+    "Fatbar"
+   ],
+   "sales_channels": "Dealers and distributors",
+   "services": "no",
+   "source_url": "https://www.vitalmx.com/features/7-Innovative-Handlebar-Systems,6087",
+   "notes": "Website/country/products from researcher prior knowledge; not verified this session (most official-site fetches were blocked). Verify before publishing."
+  },
+  {
+   "name": "ODI",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "grips",
+    "handlebars",
+    "throttles"
+   ],
+   "mx_product_lines": "Lock-on grips, Podium MX CFT bars, throttle tubes",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Podium MX CFT bar"
+   ],
+   "sales_channels": "Dealers",
+   "services": "no",
+   "source_url": "https://www.vitalmx.com/features/7-Innovative-Handlebar-Systems,6087",
+   "notes": ""
+  },
+  {
+   "name": "Fasst Company",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "handlebars"
+   ],
+   "mx_product_lines": "Flexx hinged handlebars",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Flexx bars"
+   ],
+   "sales_channels": "Dealers (Rocky Mountain, Vivid Racing)",
+   "services": "no",
+   "source_url": "https://www.vitalmx.com/features/7-Innovative-Handlebar-Systems,6087",
+   "notes": ""
+  },
+  {
+   "name": "Mika Metals",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "handlebars",
+    "sprockets"
+   ],
+   "mx_product_lines": "Hybrid/Pro/Raw handlebars, sprockets",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Hybrid series bar"
+   ],
+   "sales_channels": "Dealers (Vivid Racing)",
+   "services": "no",
+   "source_url": "https://vividracing.com/mika-metals-m-3540.html",
+   "notes": ""
+  },
+  {
+   "name": "Tag Metals",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "handlebars"
+   ],
+   "mx_product_lines": "T1/T2/T3 handlebars",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Dealers",
+   "services": "no",
+   "source_url": "https://www.vitalmx.com/features/7-Innovative-Handlebar-Systems,6087",
+   "notes": ""
+  },
+  {
+   "name": "Vortex Racing",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "handlebars",
+    "sprockets",
+    "ignitions"
+   ],
+   "mx_product_lines": "Handlebars, sprockets",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Dealers",
+   "services": "no",
+   "source_url": "https://www.vitalmx.com/features/7-Innovative-Handlebar-Systems,6087",
+   "notes": ""
+  },
+  {
+   "name": "WRP",
+   "website": "unknown",
+   "country": "Italy (prior knowledge)",
+   "categories": [
+    "handlebars"
+   ],
+   "mx_product_lines": "OS America, Pro Bar, X-Bar handlebars",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Dealers",
+   "services": "no",
+   "source_url": "https://www.vitalmx.com/features/7-Innovative-Handlebar-Systems,6087",
+   "notes": ""
+  },
+  {
+   "name": "Torc1 Racing",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "handlebars"
+   ],
+   "mx_product_lines": "Attack oversized handlebars",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Dealers",
+   "services": "no",
+   "source_url": "https://www.vitalmx.com/features/7-Innovative-Handlebar-Systems,6087",
+   "notes": ""
+  },
+  {
+   "name": "Fly Racing",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "handlebars",
+    "controls",
+    "protection"
+   ],
+   "mx_product_lines": "Handlebars (Aero, T-6), accessories; Western Power Sports house brand (prior knowledge)",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Western Power Sports dealers (prior knowledge)",
+   "services": "no",
+   "source_url": "https://www.vitalmx.com/features/7-Innovative-Handlebar-Systems,6087",
+   "notes": ""
+  },
+  {
+   "name": "Moose Racing",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "handlebars",
+    "protection",
+    "controls",
+    "seats",
+    "tools"
+   ],
+   "mx_product_lines": "Wide hard-parts range; Parts Unlimited house brand (prior knowledge)",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Parts Unlimited dealers (prior knowledge)",
+   "services": "no",
+   "source_url": "https://www.vitalmx.com/features/7-Innovative-Handlebar-Systems,6087",
+   "notes": ""
+  },
+  {
+   "name": "Tusk",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "handlebars",
+    "triple clamps",
+    "wheels",
+    "protection",
+    "tools",
+    "controls"
+   ],
+   "mx_product_lines": "House brand of Rocky Mountain ATV/MC (prior knowledge)",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "T-10 aluminium bar",
+    "Chub Big Bar"
+   ],
+   "sales_channels": "Rocky Mountain ATV/MC direct",
+   "services": "no",
+   "source_url": "https://www.vitalmx.com/features/7-Innovative-Handlebar-Systems,6087",
+   "notes": ""
+  },
+  {
+   "name": "Domino",
+   "website": "unknown",
+   "country": "Italy (prior knowledge)",
+   "categories": [
+    "grips",
+    "throttles"
+   ],
+   "mx_product_lines": "Grips and quick-turn throttle assemblies",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Torcere throttle assembly"
+   ],
+   "sales_channels": "Dealers",
+   "services": "no",
+   "source_url": "https://www.randakks.com/domino-torcere-single-pull-racing-throttle-assembly-with-grips-7-8.html",
+   "notes": ""
+  },
+  {
+   "name": "ARC Levers",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "levers"
+   ],
+   "mx_product_lines": "Flex clutch and brake levers",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Aluminium flex clutch lever CL-301"
+   ],
+   "sales_channels": "Dealers (Motomentum)",
+   "services": "no",
+   "source_url": "https://motomentum.com/products/arc-aluminum-clutch-lever-mpn-cl-301",
+   "notes": ""
+  },
+  {
+   "name": "ASV Inventions",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "levers",
+    "perches"
+   ],
+   "mx_product_lines": "F3/C5 unbreakable levers and perches",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Dealers (Demon Tweeks EU)",
+   "services": "no",
+   "source_url": "https://www.demon-tweeks.com/eu/brand/asv/?p=7",
+   "notes": ""
+  },
+  {
+   "name": "Magura",
+   "website": "unknown",
+   "country": "Germany",
+   "categories": [
+    "clutch",
+    "brakes",
+    "controls"
+   ],
+   "mx_product_lines": "Hydraulic clutch systems and master cylinders",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Dealers/OEM",
+   "services": "no",
+   "source_url": "unknown",
+   "notes": "Website/country/products from researcher prior knowledge; not verified this session (most official-site fetches were blocked). Verify before publishing."
+  },
+  {
+   "name": "Hammerhead Designs",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "shift levers",
+    "brake pedals",
+    "controls"
+   ],
+   "mx_product_lines": "Forged shift levers, brake pedals, billet controls",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Forged shift lever"
+   ],
+   "sales_channels": "Dealers (Firestorm AU, 24MX)",
+   "services": "no",
+   "source_url": "https://m.vitalmx.com/product/guide/Shift-Levers,109/Hammerhead-Designs/Forged-Shift-Lever,8999",
+   "notes": ""
+  },
+  {
+   "name": "Motion Pro",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "tools",
+    "cables",
+    "throttles"
+   ],
+   "mx_product_lines": "MX-specific tools (e.g. WP compression bolt removal tool), cables",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Compression bolt removal tool for WP 48mm XACT"
+   ],
+   "sales_channels": "Dealers/distributors",
+   "services": "no",
+   "source_url": "https://m.vitalmx.com/product/guide/Tools,51/Motion-Pro/Compression-Bolt-Removal-Tool,14101",
+   "notes": ""
+  },
+  {
+   "name": "ZETA (DirtFreak)",
+   "website": "https://www.dirtfreak.co.jp/en/brand/zeta/",
+   "country": "Japan",
+   "categories": [
+    "handlebars",
+    "levers",
+    "footpegs",
+    "handguards",
+    "chain guides",
+    "electrics"
+   ],
+   "mx_product_lines": "Aluminium bars, levers, Max footpegs, armor handguards, chain guides, LED lights",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Armor handguard kit",
+    "Max foot peg"
+   ],
+   "sales_channels": "DirtFreak (Japan); overseas channel not stated",
+   "services": "no",
+   "source_url": "https://www.dirtfreak.co.jp/en/brand/zeta/",
+   "notes": ""
+  },
+  {
+   "name": "DRC (DirtFreak)",
+   "website": "unknown",
+   "country": "Japan (prior knowledge)",
+   "categories": [
+    "controls",
+    "electrics",
+    "protection"
+   ],
+   "mx_product_lines": "Off-road accessories",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Firestorm AU stocks",
+   "services": "no",
+   "source_url": "https://www.firestormmotorcycles.com.au/brand/drc/",
+   "notes": ""
+  },
+  {
+   "name": "Yoshimura",
+   "website": "unknown",
+   "country": "Japan/USA",
+   "categories": [
+    "chassis parts",
+    "controls"
+   ],
+   "mx_product_lines": "Off-road anodized hard parts (2011 launch)",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Dealers",
+   "services": "no",
+   "source_url": "https://www.off-road.com/dirtbike/news/yoshimura-rd-of-american-debuts-an-allnew-collection-of-offroad-hard-parts-53044.html",
+   "notes": "Exhausts in engine slice. Current hard-parts range unknown."
+  },
+  {
+   "name": "Kitaco",
+   "website": "unknown",
+   "country": "Japan",
+   "categories": [
+    "controls",
+    "chassis parts"
+   ],
+   "mx_product_lines": "Mostly mini/small-bike parts",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "unknown",
+   "services": "no",
+   "source_url": "https://brandwiki.lazada.com.ph/kitaco/",
+   "notes": "Low MX relevance."
+  },
+  {
+   "name": "Raptor Titanium",
+   "website": "unknown",
+   "country": "unknown",
+   "categories": [
+    "footpegs"
+   ],
+   "mx_product_lines": "Titanium footpegs",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "yes",
+    "GasGas": "unknown",
+    "Triumph": "yes",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Xtreme titanium footpegs KTM/Husaberg",
+    "Ti pegs RX003/RX016",
+    "Ti pegs for Triumph 800-1200cc (adventure)"
+   ],
+   "sales_channels": "Dealers (Speed Addicts, Slavens, Cycle Gear)",
+   "services": "no",
+   "source_url": "https://slavensracing.com/shop/xtreme-titanium-footpegs-for-ktm-husaberg-by-raptor/",
+   "notes": "Triumph listing is adventure bikes, not TF models."
+  },
+  {
+   "name": "Fastway (Pro Moto Billet)",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "footpegs",
+    "controls"
+   ],
+   "mx_product_lines": "Evolution/EVO4 footpegs, billet accessories",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Evolution EXT footpegs"
+   ],
+   "sales_channels": "Dealers (TripleClamp Moto, Slavens)",
+   "services": "no",
+   "source_url": "https://tripleclampmoto.ca/products/fastway-evolution-ext-footpegs",
+   "notes": ""
+  },
+  {
+   "name": "Nihilo Concepts",
+   "website": "unknown",
+   "country": "unknown",
+   "categories": [
+    "footpegs",
+    "chassis parts"
+   ],
+   "mx_product_lines": "Footpegs and billet parts (KTM-focused, prior knowledge)",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "unknown",
+   "services": "no",
+   "source_url": "unknown",
+   "notes": "Search surfaced no page; verify."
+  },
+  {
+   "name": "IMS Products",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "footpegs",
+    "fuel tanks"
+   ],
+   "mx_product_lines": "Footpegs, oversize tanks",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Dealers",
+   "services": "no",
+   "source_url": "unknown",
+   "notes": "Website/country/products from researcher prior knowledge; not verified this session (most official-site fetches were blocked). Verify before publishing."
+  },
+  {
+   "name": "Pivot Pegz",
+   "website": "unknown",
+   "country": "unknown",
+   "categories": [
+    "footpegs"
+   ],
+   "mx_product_lines": "Mark 3 pivoting footpeg kits",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Mark 3 kit Suzuki RM85"
+   ],
+   "sales_channels": "Dealers (AOMC)",
+   "services": "no",
+   "source_url": "https://aomc.mx/560-0423.html",
+   "notes": ""
+  },
+  {
+   "name": "Haan Wheels",
+   "website": "unknown",
+   "country": "Netherlands",
+   "categories": [
+    "wheels",
+    "hubs"
+   ],
+   "mx_product_lines": "Hubs and complete wheels for MX, enduro, supermoto",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "yes",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Spoke/wheel kits for Husqvarna/KTM 21in and 19in"
+   ],
+   "sales_channels": "US importer: Dubya USA; EU retailers (Motostorm)",
+   "services": "no",
+   "source_url": "https://cyclenews.com/2019/07/article/dubya-usa-now-u-s-importer-of-haan-hubs",
+   "notes": ""
+  },
+  {
+   "name": "Kite Performance",
+   "website": "unknown",
+   "country": "Italy (prior knowledge)",
+   "categories": [
+    "hubs",
+    "wheels",
+    "chassis parts"
+   ],
+   "mx_product_lines": "Hubs and wheels",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Kite/Excel wheelset (by Dubya)"
+   ],
+   "sales_channels": "US exclusive importer: Dubya USA",
+   "services": "no",
+   "source_url": "https://racerxonline.com/2011/08/12/dubya-usa-now-exclusive-us-importer-of-kite-performance-products",
+   "notes": ""
+  },
+  {
+   "name": "Excel (Takasago)",
+   "website": "unknown",
+   "country": "Japan",
+   "categories": [
+    "rims"
+   ],
+   "mx_product_lines": "A60 and other MX rims",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Excel Takasago/Talon wheels"
+   ],
+   "sales_channels": "Imported by Dubya USA",
+   "services": "Via wheel builders",
+   "source_url": "https://www.vitalmx.com/product/guide/Wheelsets,57/Excel/Takasago-Talon-Front-Wheel,11850",
+   "notes": ""
+  },
+  {
+   "name": "Talon Engineering",
+   "website": "unknown",
+   "country": "UK (prior knowledge)",
+   "categories": [
+    "hubs",
+    "sprockets"
+   ],
+   "mx_product_lines": "Hubs and sprockets",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Imported by Dubya USA",
+   "services": "no",
+   "source_url": "https://cyclenews.com/2019/07/article/dubya-usa-now-u-s-importer-of-haan-hubs",
+   "notes": ""
+  },
+  {
+   "name": "DID",
+   "website": "unknown",
+   "country": "Japan",
+   "categories": [
+    "chains",
+    "rims"
+   ],
+   "mx_product_lines": "Chains and Dirt Star rims",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Dirt Star rims"
+   ],
+   "sales_channels": "Imported by Dubya USA (rims)",
+   "services": "no",
+   "source_url": "https://racerxonline.com/2011/09/02/dubya-usa-did-dirt-star-rims",
+   "notes": ""
+  },
+  {
+   "name": "Dubya USA",
+   "website": "https://www.dubyausa.com/",
+   "country": "USA",
+   "categories": [
+    "wheels",
+    "wheel building",
+    "importer"
+   ],
+   "mx_product_lines": "Complete wheelsets (Edge), importer of Haan, Kite, Talon, Excel, DID, Galfer",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Edge complete wheelset",
+    "Kite/Excel wheelset"
+   ],
+   "sales_channels": "Direct web store",
+   "services": "Yes: complete wheel building",
+   "source_url": "https://cyclenews.com/2019/07/article/dubya-usa-now-u-s-importer-of-haan-hubs",
+   "notes": ""
+  },
+  {
+   "name": "Warp 9 Racing",
+   "website": "https://warp9racing.com/",
+   "country": "USA",
+   "categories": [
+    "wheels",
+    "hubs",
+    "rims",
+    "spokes"
+   ],
+   "mx_product_lines": "MX/enduro and supermoto wheelsets, hubs, rims, spokes, tubeless wheels",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "yes",
+    "GasGas": "yes",
+    "Triumph": "yes",
+    "Yamaha": "yes",
+    "Honda": "yes",
+    "Kawasaki": "yes"
+   },
+   "notable_products": [
+    "Online wheel builders (MX/enduro, supermoto, tubeless)"
+   ],
+   "sales_channels": "Direct web store",
+   "services": "Wheel configuration via online builder",
+   "source_url": "https://warp9racing.com/pages/about-us",
+   "notes": "Nav lists makes; per-model fitment not checked."
+  },
+  {
+   "name": "Nacstar",
+   "website": "https://www.nacstarusa.com/",
+   "country": "Denmark",
+   "categories": [
+    "wheels"
+   ],
+   "mx_product_lines": "Complete wheelsets 50cc to big bikes",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "yes",
+    "GasGas": "yes",
+    "Triumph": "unknown",
+    "Yamaha": "yes",
+    "Honda": "yes",
+    "Kawasaki": "yes"
+   },
+   "notable_products": [
+    "Works complete wheels"
+   ],
+   "sales_channels": "US importer: Nacstar USA (Temecula, CA)",
+   "services": "no",
+   "source_url": "https://motocrossactionmag.com/mxa-team-tested-nacstar-works-complete-wheels",
+   "notes": "2022 prices $439-$649."
+  },
+  {
+   "name": "Buchanan's Spoke & Rim",
+   "website": "unknown",
+   "country": "USA (prior knowledge)",
+   "categories": [
+    "spokes",
+    "rims",
+    "wheel building"
+   ],
+   "mx_product_lines": "Spokes and wheel building",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "unknown",
+   "services": "Yes (prior knowledge)",
+   "source_url": "unknown",
+   "notes": "Not searched; verify."
+  },
+  {
+   "name": "Galfer",
+   "website": "unknown",
+   "country": "Spain (prior knowledge)",
+   "categories": [
+    "brakes"
+   ],
+   "mx_product_lines": "Rotors, pads, brake lines, oversize kits",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Imported by Dubya USA (US)",
+   "services": "no",
+   "source_url": "https://cyclenews.com/2019/07/article/dubya-usa-now-u-s-importer-of-haan-hubs",
+   "notes": ""
+  },
+  {
+   "name": "Moto-Master",
+   "website": "unknown",
+   "country": "Netherlands (prior knowledge)",
+   "categories": [
+    "brakes"
+   ],
+   "mx_product_lines": "Oversize rotor kits, rotors, pads",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "yes",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Rear oversize 240mm rotor kit Husqvarna/KTM"
+   ],
+   "sales_channels": "Parts Europe distribution; retailers",
+   "services": "no",
+   "source_url": "https://maxiscoot.com/en/product/brake-kit-oversize-moto-master-rear-240mm-husqvarna-ktm-211245",
+   "notes": ""
+  },
+  {
+   "name": "Braking",
+   "website": "unknown",
+   "country": "Italy (prior knowledge)",
+   "categories": [
+    "brakes"
+   ],
+   "mx_product_lines": "Wave / Wave-R rotors, pads",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Wave-R rotor"
+   ],
+   "sales_channels": "Parts Europe distribution",
+   "services": "no",
+   "source_url": "https://partseurope.eu/en/product/wave-r-rotor/17103779",
+   "notes": ""
+  },
+  {
+   "name": "Beringer",
+   "website": "unknown",
+   "country": "France (prior knowledge)",
+   "categories": [
+    "brakes"
+   ],
+   "mx_product_lines": "Brake rotors, calipers, master cylinders",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "unknown",
+   "services": "no",
+   "source_url": "unknown",
+   "notes": "Not confirmed this session."
+  },
+  {
+   "name": "Brembo",
+   "website": "unknown",
+   "country": "Italy",
+   "categories": [
+    "brakes"
+   ],
+   "mx_product_lines": "Calipers, master cylinders, pads (OEM on KTM-group bikes)",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Dealers",
+   "services": "no",
+   "source_url": "unknown",
+   "notes": "Website/country/products from researcher prior knowledge; not verified this session (most official-site fetches were blocked). Verify before publishing."
+  },
+  {
+   "name": "EBC Brakes",
+   "website": "unknown",
+   "country": "UK",
+   "categories": [
+    "brakes"
+   ],
+   "mx_product_lines": "Pads and rotors",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Dealers",
+   "services": "no",
+   "source_url": "unknown",
+   "notes": "Website/country/products from researcher prior knowledge; not verified this session (most official-site fetches were blocked). Verify before publishing."
+  },
+  {
+   "name": "Supersprox",
+   "website": "unknown",
+   "country": "unknown",
+   "categories": [
+    "sprockets",
+    "chains"
+   ],
+   "mx_product_lines": "Stealth aluminium/steel sprockets, chain and sprocket kits",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "unknown",
+    "GasGas": "yes",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "yes"
+   },
+   "notable_products": [
+    "MX Stealth rear sprocket",
+    "Stealth 42T-530 Kawasaki",
+    "Stealth for GasGas EX 350F 2022-2023, KTM 85 SX"
+   ],
+   "sales_channels": "Retailers (Louis, Vivid Racing, Firestorm AU)",
+   "services": "no",
+   "source_url": "https://firestormmotorcycles.com.au/gas-gas-ex-350f-2022-2023-rear-sprocket-52t-alumin~2294115",
+   "notes": ""
+  },
+  {
+   "name": "JT Sprockets",
+   "website": "unknown",
+   "country": "UK (prior knowledge)",
+   "categories": [
+    "sprockets"
+   ],
+   "mx_product_lines": "Steel and alloy sprockets",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Dealers",
+   "services": "no",
+   "source_url": "unknown",
+   "notes": "Website/country/products from researcher prior knowledge; not verified this session (most official-site fetches were blocked). Verify before publishing."
+  },
+  {
+   "name": "Sunstar",
+   "website": "unknown",
+   "country": "Japan",
+   "categories": [
+    "sprockets",
+    "chains"
+   ],
+   "mx_product_lines": "Sprockets and chains",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Dealers",
+   "services": "no",
+   "source_url": "unknown",
+   "notes": "Website/country/products from researcher prior knowledge; not verified this session (most official-site fetches were blocked). Verify before publishing."
+  },
+  {
+   "name": "Regina",
+   "website": "unknown",
+   "country": "Italy",
+   "categories": [
+    "chains"
+   ],
+   "mx_product_lines": "Chains",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Dealers",
+   "services": "no",
+   "source_url": "unknown",
+   "notes": "Website/country/products from researcher prior knowledge; not verified this session (most official-site fetches were blocked). Verify before publishing."
+  },
+  {
+   "name": "RK (RK Takasago)",
+   "website": "unknown",
+   "country": "Japan",
+   "categories": [
+    "chains"
+   ],
+   "mx_product_lines": "Chains",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Dealers",
+   "services": "no",
+   "source_url": "unknown",
+   "notes": "Website/country/products from researcher prior knowledge; not verified this session (most official-site fetches were blocked). Verify before publishing."
+  },
+  {
+   "name": "EK Chain",
+   "website": "unknown",
+   "country": "Japan",
+   "categories": [
+    "chains"
+   ],
+   "mx_product_lines": "Chains",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Dealers",
+   "services": "no",
+   "source_url": "unknown",
+   "notes": "Website/country/products from researcher prior knowledge; not verified this session (most official-site fetches were blocked). Verify before publishing."
+  },
+  {
+   "name": "Primary Drive",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "chains",
+    "sprockets"
+   ],
+   "mx_product_lines": "House brand of Tucker (prior knowledge)",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Tucker dealers (prior knowledge)",
+   "services": "no",
+   "source_url": "unknown",
+   "notes": "Website/country/products from researcher prior knowledge; not verified this session (most official-site fetches were blocked). Verify before publishing."
+  },
+  {
+   "name": "TM Designworks",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "chain guides",
+    "chain slides",
+    "protection"
+   ],
+   "mx_product_lines": "Slide-N-Glide chain slide and guide kits, rollers, guards",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "yes",
+    "Honda": "yes",
+    "Kawasaki": "yes"
+   },
+   "notable_products": [
+    "Multi-purpose chain slide-n-guide kit Honda CRF250R/450R 2021-2023",
+    "Kit for Yamaha YZ250F/450F",
+    "Kit for Kawasaki KX250F/450F 2016-2020",
+    "KTM Slide-N-Glide kit"
+   ],
+   "sales_channels": "Dealers (Cycle Gear, RevZilla)",
+   "services": "no",
+   "source_url": "https://motocrossactionmag.com/amp/mxa-team-tested-tm-designworks-ktm-slide-n-glide-kit-2/",
+   "notes": ""
+  },
+  {
+   "name": "P3 Carbon",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "skid plates",
+    "protection"
+   ],
+   "mx_product_lines": "Carbon skid plates incl. linkage guard versions",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "yes",
+    "GasGas": "yes",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Skid plate KTM/Husq/GasGas 250/350F 2023-2024",
+    "Skid plate with linkage guard 450 2023",
+    "Enduro skid plates"
+   ],
+   "sales_channels": "Dealers (AOMC, Rocky Mountain, Slavens)",
+   "services": "no",
+   "source_url": "https://aomc.mx/301095.html",
+   "notes": ""
+  },
+  {
+   "name": "AXP Racing",
+   "website": "unknown",
+   "country": "France (prior knowledge)",
+   "categories": [
+    "skid plates",
+    "protection"
+   ],
+   "mx_product_lines": "MX and Xtrem skid plates, guards",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "yes",
+    "GasGas": "yes",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "MX skid plates KTM/Husq/GasGas",
+    "Xtrem skid plate AX1661"
+   ],
+   "sales_channels": "Dealers (Slavens, AOMC)",
+   "services": "no",
+   "source_url": "https://slavensracing.com/shop/axp-mx-skid-plates-for-ktm-husqvarna-gasgas/",
+   "notes": ""
+  },
+  {
+   "name": "Enduro Engineering",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "skid plates",
+    "protection"
+   ],
+   "mx_product_lines": "Skid plates, guards",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Dealers",
+   "services": "no",
+   "source_url": "unknown",
+   "notes": "Website/country/products from researcher prior knowledge; not verified this session (most official-site fetches were blocked). Verify before publishing."
+  },
+  {
+   "name": "Bullet Proof Designs",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "protection"
+   ],
+   "mx_product_lines": "Guards (disc, radiator, linkage)",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Dealers",
+   "services": "no",
+   "source_url": "unknown",
+   "notes": "Website/country/products from researcher prior knowledge; not verified this session (most official-site fetches were blocked). Verify before publishing."
+  },
+  {
+   "name": "Devol Racing",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "protection"
+   ],
+   "mx_product_lines": "Skid plates, radiator and linkage guards",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "unknown",
+   "services": "no",
+   "source_url": "unknown",
+   "notes": "Search surfaced no page; verify."
+  },
+  {
+   "name": "Flatland Racing",
+   "website": "unknown",
+   "country": "USA (prior knowledge)",
+   "categories": [
+    "skid plates",
+    "protection"
+   ],
+   "mx_product_lines": "Skid plates",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "unknown",
+   "services": "no",
+   "source_url": "unknown",
+   "notes": "Not searched; verify."
+  },
+  {
+   "name": "Cycra",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "handguards",
+    "plastics"
+   ],
+   "mx_product_lines": "Handguards, plastics",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Dealers",
+   "services": "no",
+   "source_url": "unknown",
+   "notes": "Website/country/products from researcher prior knowledge; not verified this session (most official-site fetches were blocked). Verify before publishing."
+  },
+  {
+   "name": "Acerbis",
+   "website": "unknown",
+   "country": "Italy",
+   "categories": [
+    "plastics",
+    "handguards",
+    "fuel tanks",
+    "protection"
+   ],
+   "mx_product_lines": "Plastics, handguards, tanks, guards",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Vision handguards"
+   ],
+   "sales_channels": "Dealers",
+   "services": "no",
+   "source_url": "https://www.revzilla.com/motorcycle/acerbis-vision-handguards",
+   "notes": ""
+  },
+  {
+   "name": "Polisport",
+   "website": "unknown",
+   "country": "Portugal",
+   "categories": [
+    "plastics",
+    "handguards",
+    "protection"
+   ],
+   "mx_product_lines": "Plastics, handguards",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Dealers (Eurotek UK lists)",
+   "services": "no",
+   "source_url": "https://eurotekuk.com/pages/workshop",
+   "notes": ""
+  },
+  {
+   "name": "UFO Plast",
+   "website": "unknown",
+   "country": "Italy",
+   "categories": [
+    "plastics"
+   ],
+   "mx_product_lines": "Plastic kits",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Dealers",
+   "services": "no",
+   "source_url": "unknown",
+   "notes": "Website/country/products from researcher prior knowledge; not verified this session (most official-site fetches were blocked). Verify before publishing."
+  },
+  {
+   "name": "R-Tech (Rtech)",
+   "website": "unknown",
+   "country": "Italy (prior knowledge)",
+   "categories": [
+    "plastics"
+   ],
+   "mx_product_lines": "Plastic kits",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Dealers",
+   "services": "no",
+   "source_url": "unknown",
+   "notes": "Website/country/products from researcher prior knowledge; not verified this session (most official-site fetches were blocked). Verify before publishing."
+  },
+  {
+   "name": "Barkbusters",
+   "website": "https://barkbusters.net/",
+   "country": "Australia",
+   "categories": [
+    "handguards"
+   ],
+   "mx_product_lines": "Handguards incl. Sabre MX/Enduro, triple-clamp mounted guards",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "yes",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Sabre MX/Enduro handguards"
+   ],
+   "sales_channels": "Dealers (RG Racing, TripleClamp Moto)",
+   "services": "no",
+   "source_url": "https://www.rg-racing.com/browsetype/barkbusters-moto/KTM",
+   "notes": ""
+  },
+  {
+   "name": "X-Grip",
+   "website": "unknown",
+   "country": "Germany (prior knowledge)",
+   "categories": [
+    "protection",
+    "hard enduro parts"
+   ],
+   "mx_product_lines": "Enduro protection and accessories",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Dealers (Eurotek UK)",
+   "services": "no",
+   "source_url": "https://eurotekuk.com/pages/workshop",
+   "notes": ""
+  },
+  {
+   "name": "Factory Effex",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "graphics",
+    "seat covers"
+   ],
+   "mx_product_lines": "Graphics kits",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Dealers",
+   "services": "no",
+   "source_url": "unknown",
+   "notes": "Website/country/products from researcher prior knowledge; not verified this session (most official-site fetches were blocked). Verify before publishing."
+  },
+  {
+   "name": "D'Cor Visuals",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "graphics"
+   ],
+   "mx_product_lines": "Graphic kits",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Dealers (JJ Motorsports)",
+   "services": "no",
+   "source_url": "https://jj-motorsports.com/dcor-visuals-graphic-kit-20-30-103/",
+   "notes": ""
+  },
+  {
+   "name": "Attack Graphics",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "graphics"
+   ],
+   "mx_product_lines": "Graphic kits",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Dealers (Rocky Mountain)",
+   "services": "no",
+   "source_url": "https://www.rockymountainatvmc.com/parts/attack-graphics-atv-application-kits?page=all",
+   "notes": ""
+  },
+  {
+   "name": "Decal Works",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "graphics"
+   ],
+   "mx_product_lines": "Graphic kits",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "unknown",
+   "services": "no",
+   "source_url": "unknown",
+   "notes": "Website/country/products from researcher prior knowledge; not verified this session (most official-site fetches were blocked). Verify before publishing."
+  },
+  {
+   "name": "Kutvek",
+   "website": "unknown",
+   "country": "France (prior knowledge)",
+   "categories": [
+    "graphics",
+    "seat covers"
+   ],
+   "mx_product_lines": "Graphic kits",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "unknown",
+   "services": "no",
+   "source_url": "unknown",
+   "notes": "Website/country/products from researcher prior knowledge; not verified this session (most official-site fetches were blocked). Verify before publishing."
+  },
+  {
+   "name": "One Industries",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "graphics",
+    "seat covers"
+   ],
+   "mx_product_lines": "Graphic kits",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "unknown",
+   "services": "no",
+   "source_url": "unknown",
+   "notes": "Website/country/products from researcher prior knowledge; not verified this session (most official-site fetches were blocked). Verify before publishing."
+  },
+  {
+   "name": "Selle Dalla Valle",
+   "website": "unknown",
+   "country": "Italy",
+   "categories": [
+    "seat covers"
+   ],
+   "mx_product_lines": "Shark, Wave, Factory and Racing seat covers; OEM supplier",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "yes",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Factory seat cover",
+    "Racing seat cover"
+   ],
+   "sales_channels": "Athena distribution / shop.athena.eu",
+   "services": "no",
+   "source_url": "https://shop.athena.eu/en/brands/selle-dalla-valle",
+   "notes": "Page says KTM and Husqvarna use its covers as original equipment."
+  },
+  {
+   "name": "Guts Racing",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "seat covers",
+    "seat foam"
+   ],
+   "mx_product_lines": "Seat covers and foam",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Direct and dealers (prior knowledge)",
+   "services": "no",
+   "source_url": "unknown",
+   "notes": "Website/country/products from researcher prior knowledge; not verified this session (most official-site fetches were blocked). Verify before publishing."
+  },
+  {
+   "name": "Seat Concepts",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "seats",
+    "seat foam",
+    "seat covers"
+   ],
+   "mx_product_lines": "Comfort and tall seat kits",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Direct and dealers (prior knowledge)",
+   "services": "no",
+   "source_url": "unknown",
+   "notes": "Website/country/products from researcher prior knowledge; not verified this session (most official-site fetches were blocked). Verify before publishing."
+  },
+  {
+   "name": "Blackbird Racing",
+   "website": "unknown",
+   "country": "Italy (prior knowledge)",
+   "categories": [
+    "seat covers",
+    "graphics"
+   ],
+   "mx_product_lines": "Seat covers and graphics",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Dealers",
+   "services": "no",
+   "source_url": "unknown",
+   "notes": "Website/country/products from researcher prior knowledge; not verified this session (most official-site fetches were blocked). Verify before publishing."
+  },
+  {
+   "name": "Strike Seats",
+   "website": "unknown",
+   "country": "unknown",
+   "categories": [
+    "seat foam"
+   ],
+   "mx_product_lines": "Tall and desert seat foams",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Seat foam desert KTM 450 XC-F 2023",
+    "Tall foam KTM 50/65 SX 2016-2022"
+   ],
+   "sales_channels": "Dealers (Firestorm AU)",
+   "services": "no",
+   "source_url": "https://www.firestormmotorcycles.com.au/ktm-450-xc-f-2023-2023-strike-seat-foam-desert-med",
+   "notes": ""
+  },
+  {
+   "name": "Trail Tech",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "electrics",
+    "hour meters",
+    "lights"
+   ],
+   "mx_product_lines": "Hour meters, digital gauges, lights",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Hour meter (universal)",
+    "TTO tach/hour meter"
+   ],
+   "sales_channels": "Dealers (Firestorm AU, Walmart marketplace)",
+   "services": "no",
+   "source_url": "https://www.firestormmotorcycles.com.au/ktm-250-sx-f-2016-trail-tech-hour-meter-black-univ",
+   "notes": ""
+  },
+  {
+   "name": "Hardline Products",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "hour meters",
+    "electrics"
+   ],
+   "mx_product_lines": "Hour meters and meter mount kits",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "Meter mount kit HRMM-2"
+   ],
+   "sales_channels": "Dealers (Speed Addicts)",
+   "services": "no",
+   "source_url": "https://speedaddicts.com/motorcycle/hardline-meter-mount-kit-hrmm-2",
+   "notes": ""
+  },
+  {
+   "name": "Baja Designs",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "lights"
+   ],
+   "mx_product_lines": "Off-road light kits",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Dealers",
+   "services": "no",
+   "source_url": "unknown",
+   "notes": "Search returned no Baja page; Website/country/products from researcher prior knowledge; not verified this session (most official-site fetches were blocked). Verify before publishing."
+  },
+  {
+   "name": "Matrix Concepts",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "tools",
+    "stands"
+   ],
+   "mx_product_lines": "Bike stands (M2 Worx), pit tools",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [
+    "M2 Worx stand"
+   ],
+   "sales_channels": "Dealers; Madison (UK distributor)",
+   "services": "no",
+   "source_url": "https://madison.co.uk/brands/matrix",
+   "notes": ""
+  },
+  {
+   "name": "Risk Racing",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "tools",
+    "stands",
+    "holeshot/starting tools"
+   ],
+   "mx_product_lines": "Stands, pit mats, MX accessories",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Direct web store (regional sites) and dealers",
+   "services": "no",
+   "source_url": "https://ca.riskracing.com/blogs/news/motocross-pit-setup-mat-stand-gear-mx-accessories",
+   "notes": ""
+  },
+  {
+   "name": "Pit Posse",
+   "website": "unknown",
+   "country": "USA",
+   "categories": [
+    "tools",
+    "stands"
+   ],
+   "mx_product_lines": "Stands and pit tools",
+   "makes": {
+    "KTM": "unknown",
+    "Husqvarna": "unknown",
+    "GasGas": "unknown",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Dealers",
+   "services": "no",
+   "source_url": "unknown",
+   "notes": "Website/country/products from researcher prior knowledge; not verified this session (most official-site fetches were blocked). Verify before publishing."
+  },
+  {
+   "name": "Slavens Racing",
+   "website": "https://slavensracing.com/",
+   "country": "USA (prior knowledge)",
+   "categories": [
+    "specialist retailer"
+   ],
+   "mx_product_lines": "KTM/Husqvarna/GasGas-focused shop stocking Xtrig, Scotts, AXP, Raptor, P3, Moto-Master",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "yes",
+    "GasGas": "yes",
+    "Triumph": "unknown",
+    "Yamaha": "unknown",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Direct web store",
+   "services": "unknown",
+   "source_url": "https://slavensracing.com/shop/rocs-tech-triple-clamps/",
+   "notes": "Retailer, not a maker; good boutique-brand source."
+  },
+  {
+   "name": "TripleClamp Moto",
+   "website": "https://tripleclampmoto.ca/",
+   "country": "Canada",
+   "categories": [
+    "specialist retailer"
+   ],
+   "mx_product_lines": "Boutique-parts retailer (Xtrig, Scotts, Fastway, Barkbusters)",
+   "makes": {
+    "KTM": "yes",
+    "Husqvarna": "yes",
+    "GasGas": "yes",
+    "Triumph": "unknown",
+    "Yamaha": "yes",
+    "Honda": "unknown",
+    "Kawasaki": "unknown"
+   },
+   "notable_products": [],
+   "sales_channels": "Direct web store, Toronto pickup; Oceania site",
+   "services": "no",
+   "source_url": "https://tripleclampmoto.ca/products/scotts-solid-rubber-sub-mounted-steering-damper-kit-2024-ktm-450-exc-f",
+   "notes": "Retailer, not a maker."
+  }
+ ],
+ "not_done": [
+  "Official websites not verified for most companies (fetches blocked); a URL-verification pass is needed",
+  "Make-by-make fitment for most brands, especially Triumph TF 250-X/450-RC and 2025-2027 models",
+  "US distributor mapping (Tucker / Parts Unlimited / WPS) per brand: not researched",
+  "Unresolved names from brief: TMV, AOS, Smart Performance, REP (website), Dialed Action (website)",
+  "Holeshot devices beyond Works Connection (e.g. Ride Engineering, house brands)",
+  "Lights beyond Trail Tech/Baja (e.g. Rigid, Cycra light kits); hour meters beyond Trail Tech/Hardline",
+  "Chain guides/rollers beyond TM Designworks",
+  "Japanese boutique makers (beyond ZETA/DRC/Kitaco/Yoshimura) and Australian/NZ makers beyond Barkbusters/Teknik/Shock Treatment",
+  "European suspension tuners beyond the UK (NL, BE, DE, IT, FR shops), and A-kit/factory-kit resellers",
+  "Spokes and wheel builders beyond Dubya/Warp 9/Buchanan's",
+  "Tire-change tools (e.g. Rabaconda) and MX-specific suspension tools beyond Motion Pro",
+  "Partner names seen but not researched: TBR (Eurotek WSC conversion), Nitron and YSS off-road ranges"
+ ]
+}
