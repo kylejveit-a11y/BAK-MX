@@ -38,7 +38,7 @@ def columns(path):
     cols=[im.crop((30,40,465,625)),im.crop((440,40,890,625))]
     return [ocr(c) if has_box(c) else '' for c in cols]
 VAL=re.compile(r'(\d+(?:[-+]\d+/\d+)?|\d+/\d+)\s*(clicks?|turns?)(?:\s+out)?\s*[*"”]?',re.I)
-RANGE=re.compile(r'(\d+(?:[-+]\d+/\d+)?)\s*(clicks?|turns?)\s+or\s+(?:less|more)',re.I)   # "16 clicks or less" (2022-on) / "20 clicks or more" (2021)
+RANGE=re.compile(r'(\d+(?:[-+]\d+/\d+)?)\s*(clicks?|turns?)\s+or\s+(?:less|[a-z]{1,3}ore)\b',re.I)   # "more" can read as "niore"   # "16 clicks or less" (2022-on) / "20 clicks or more" (2021)
 def frac(v):
     m=re.match(r'^(\d+)(?:[-+](\d+)/(\d+))?$',v)
     if m: return int(m.group(1))+(int(m.group(2))/int(m.group(3)) if m.group(2) else 0)
@@ -54,8 +54,13 @@ def parse(pages,side,code=None):
     for pi,path in pages:
         cols=columns(path)
         for col in cols: text.append((pi,col,'\n'.join(cols)))
+    HEAD=re.compile(r'^K[XC]\s?(\d{3})\s?([A-Z])(?![A-Za-z0-9])[\W_]*$')
     for pi,col,page in text:
         lines=[re.sub(r'^[^A-Za-z0-9*]+','',l.strip()) for l in col.split('\n')]
+        lines=[re.sub(r'(Settings?)[\s\W_]+$',r'\1',l) for l in lines]      # the next column's edge read as "=" after a heading
+        # a manual shared by two models can set each model's settings in its own column under a model heading ("KX450M")
+        hd=[HEAD.match(l) for l in lines[:4] if HEAD.match(l)]
+        if hd and code and 'KX'+hd[0].group(1)+hd[0].group(2)!=code: continue
         for i,l in enumerate(lines):
             m=re.match(r'^Standard\s+(.*?)\s*(?:Adjuste\w*\s+)?Settings?\s*$',l)
             two=re.match(r'^Standard\s+(.*)$',l) and i+1<len(lines) and re.match(r'^(?:Adjuste\w*\s+)?Settings?\s*$',lines[i+1])
@@ -80,7 +85,9 @@ def parse(pages,side,code=None):
                 mine=[t for c,t in coded if c==code]
                 if len(mine)!=1: problems.append((pi,'model row not found',name,code,coded)); continue
                 v=VAL.search(mine[0])
-            else: v=VAL.search(lines[j]) if j<len(lines) else None
+            else:
+                if j<len(lines) and re.match(r'^\S*\d{3}\s?[A-Z]\b',lines[j]): problems.append((pi,'unreadable model row',name,lines[j])); continue
+                v=VAL.search(lines[j]) if j<len(lines) else None
             if not v: problems.append((pi,'no value after',l,lines[j] if j<len(lines) else '')); continue
             val,unit=v.group(1),v.group(2).lower().rstrip('s')
             rng=[r for r in RANGE.findall(page)]

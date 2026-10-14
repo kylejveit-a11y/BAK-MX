@@ -42,8 +42,9 @@ def clean_section(s):
     m=difflib.get_close_matches(s,SECTIONS,n=1,cutoff=0.9)
     return m[0] if m else s
 def clean_op(op):
-    """The cell's left rule can read as "|" or "[" in front of the operation."""
-    return re.sub(r'^[\s|\[\]]+','',op).strip()
+    """The cell's left rule can read as "|" or "[" in front of the operation, and a mark as a single lower-case letter."""
+    op=re.sub(r'^[\s|\[\]]+','',op).strip()
+    return re.sub(r'^[a-z]\s+(?=[A-Z])','',op)                            # a stray mark letter before the operation ("c Clutch ...")
 def parse(path,prev_section=None):
     im=page(path); a=np.array(im)
     h,v=grid(a)
@@ -82,7 +83,7 @@ def parse(path,prev_section=None):
             span=ocr(im.crop((v[1]+2,t1+2,v[-2]-2,t2-2)),7)
             m=re.search(r'Every\s+(\d+)\s+years?',span)
             if m: marks.append(f'every {m.group(1)} years')
-            elif re.fullmatch(r'[A-Za-z ,]{3,40}',span): marks.append(span[0].lower()+span[1:])   # "If damaged"
+            elif re.fullmatch(r'[A-Za-z ,]{3,40}',span): marks.append(re.sub(r'^lf\b','if',span[0].lower()+span[1:]))   # "If damaged" ("lf" as read)
             elif span.strip(): problems.append(('text in frequency columns',span))
         notes=[]
         op=re.sub(r'[\s|]+$','',op)                                   # the cell's right rule reads as "|"
