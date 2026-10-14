@@ -37,3 +37,7 @@ Known forum posts, rider reports and company writeups are valuable. Preserve aut
 4. Wire installed aftermarket identity into Garage and contextual guidance, then test stock/modified separation and actual use.
 
 No purchase, paid manual, tuner outreach, private setup access or product recommendation is authorized by this research queue alone. Paid KTM manual purchase remains on hold. Research and reversible local implementation are authorized; live purchases and external messages require their own user instruction.
+
+## Family-by-family research (from 2026-10-14)
+
+Progress, method and per-family catalogs: `research/aftermarket/README.md`.

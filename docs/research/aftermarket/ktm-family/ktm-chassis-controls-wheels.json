@@ -1,0 +1,740 @@
+{
+  "slice": "Chassis, controls, wheels, brakes, drivetrain, protection",
+  "retrieved": "2026-10-14",
+  "notes": "Prices are as listed on the retailer page on the retrieval date (2026-10-14) unless another date is given. Retailer item numbers (Cycle Gear/RevZilla 'P...'/UPC) are NOT manufacturer part numbers and are labelled as such. Rider feedback is paraphrased.",
+  "platforms": [
+    {
+      "id": "ktm-sx-2023",
+      "description": "KTM SX/SX-F 2023+ generation: revised hydroformed frame (thicker walls, shock mount off main tube; 2-strokes get parallel frame mounts for flex), new hollow die-cast swingarm, 22 mm rear axle, shorter WP XACT shock (300 mm travel) with more linkage ground clearance, CNC billet triple clamps with tuned stem stiffness (22 mm offset), topology-optimised bar mounts (rubber or solid), footpegs moved inward and ~26% larger. Debuted early on the 2022 250/450 SX-F Factory Edition (aftermarket fitment lists group the 2022 FE with 2023+).",
+      "models_years": "KTM 125/250/300 SX, 250/350/450 SX-F 2023-2026 (150 SX 2025); 250/450 SX-F Factory Edition 2022 (2022.5) onward",
+      "source_url": "https://ktm.com/en-us/2023-motocross-media-information.html"
+    },
+    {
+      "id": "ktm-sx-2027",
+      "description": "2027 KTM SX-F range described as largely unchanged (graphics plus engine/sound-regulation updates); 22 mm clamp offset, Excel rims 1.60x21 / 2.15x19, Brembo 260/220 mm discs, Neken tapered bar with ODI grips. Several aftermarket fitment lists (P3, Raptor) already include 2027 models, consistent with carry-over chassis.",
+      "models_years": "KTM 250/350/450 SX-F 2027 (2-stroke SX 2027 appears in Raptor footpeg list)",
+      "source_url": "https://ultimatemotorcycling.com/2026/04/30/2027-ktm-sx-f-lineup-first-look-450-350-and-250-return/"
+    },
+    {
+      "id": "ktm-xc-2023",
+      "description": "KTM XC/XC-F cross-country on the 2023+ chassis. KTM's 2023 media page covers only SX/SX-F; XC inclusion is inferred from aftermarket and KTM PowerParts fitment lists (Factory triple clamp, Raptor pegs, TM Designworks) that group XC/XC-F 2023+ with SX. 2024 update: WP XACT closed-cartridge spring fork replaces air fork, 18x2.15 rear wheel, Brembo 260/220 discs.",
+      "models_years": "KTM 125/250/300 XC, 250/350/450 XC-F 2023-2026 (+2027 in some lists)",
+      "source_url": "https://ultimatemotorcycling.com/2023/05/01/2024-ktm-cross-country-lineup-first-look-xc-and-xc-f/"
+    },
+    {
+      "id": "husqvarna-mx-2023",
+      "description": "Husqvarna TC/FC/TX/FX on the 2023+ shared KTM-family chassis (2022 FC 250/450 Rockstar Edition grouped with it in aftermarket lists). 2026 Factory Editions add Factory Racing offset-adjustable CNC clamps, Factory Racing CNC hubs on Excel rims, RK GB520MXU chain, carbon skid plate and disc guard, ProTaper tapered bar; Brembo 260/220 discs.",
+      "models_years": "Husqvarna TC 125/250/300, TX 300, FC 250/350/450, FX 350/450 2023-2026; FC 250/450 Rockstar Edition 2022",
+      "source_url": "https://ultimatemotorcycling.com/2025/11/23/2026-husqvarna-fc-450-and-fc-250-factory-editions-first-look/"
+    },
+    {
+      "id": "gasgas-mc-2024",
+      "description": "GasGas MC/EX 2024+: new-generation frame (anti-squat, wall thickness), all-aluminium subframe, new 22 mm rear axle, one-piece cast swingarm, FORGED aluminium clamps (KTM/Husky use billet) with more flexible stem and adjustable bar mounts, Braktec calipers with 260/220 discs, larger footpegs mounted further inward. Same chassis specs for MC 125/250 (2T) and 250F/350F/450F (4T). MC 250F/450F Factory Edition 2023 already used the new chassis per aftermarket lists.",
+      "models_years": "GasGas MC 125/250/250F/350F/450F 2024+, EX 250/300/250F/350F/450F 2024+; MC 250F/450F Factory Edition 2023",
+      "source_url": "https://www.vitalmx.com/features/first-look-2024-gasgas-motocross-line"
+    },
+    {
+      "id": "ktm-family-2016-2022",
+      "description": "Previous KTM-family MX/XC generation (KTM SX/SX-F/XC/XC-F 2016/2017-2022, Husqvarna TC/FC 2016-2022, GasGas MC 2021-2023). GasGas MC 2021-2023 used cast/forged clamps and Brembo controls. Included only where products in this pass also cover it.",
+      "models_years": "KTM SX/SX-F/XC/XC-F 2016-2022; Husqvarna TC/FC/TX/FX 2016-2022; GasGas MC/EX 2021-2023",
+      "source_url": "https://motocrossactionmag.com/mxa-team-tested-ride-engineering-gasgas-split-triple-clamps"
+    },
+    {
+      "id": "ktm-85sx-2025",
+      "description": "KTM 85 SX new generation 2025: new chromoly frame based on full-size SX concept, head angle 63.5 deg (0.5 deg flatter), steering lock 35 deg, head 6 mm rearward, engine rotated 3 deg, new one-piece polyamide/aluminium subframe, new die-cast swingarm (-300 g), 20 mm rear axle, revised clamps and new footpegs. Whether TC 85 / MC 85 share it was not stated in the source.",
+      "models_years": "KTM 85 SX 2025+ (prior gen 2018-2024)",
+      "source_url": "https://enduro21.com/en/bikes/latest/first-look-2025-ktm-sx-85-big-updates-for-the-orange-off-road-stepping-stone"
+    }
+  ],
+  "products": [
+    {
+      "id": "xtrig-rocs-tech-ktm-2023",
+      "category": "chassis",
+      "subcategory": "triple clamps",
+      "brand": "Xtrig",
+      "product": "ROCS Tech triple clamp kit (black), KTM/Husqvarna 2023-24, GasGas 2024, 22 mm offset",
+      "part_numbers": ["XT 40501005"],
+      "variants": "Fixed OEM offset (22 mm per listing title); black. ROCS Pro is the adjustable-offset version.",
+      "platform_ids": ["ktm-sx-2023", "ktm-xc-2023", "husqvarna-mx-2023", "gasgas-mc-2024"],
+      "fits": [
+        {"make": "KTM", "model": "SX / SX-F", "years": [2023, 2024], "notes": "Listing title says KTM/Husqvarna 23-24; description names only KTM SX/SX-F 2023; retailer has no fitment table set"},
+        {"make": "Husqvarna", "model": "TC / FC (per title)", "years": [2023, 2024], "notes": "From listing title only"},
+        {"make": "GasGas", "model": "MC (per title)", "years": [2024], "notes": "From listing title only; GasGas stock clamps are forged, so this is a bigger change than on KTM"}
+      ],
+      "fitment_source_url": "https://oceania.tripleclampmoto.ca/products/xtrig-rocs-tech-black-ktm-husqvarna-23-24-gas-gas-24-os-22mm",
+      "what_it_changes": "Manufacturer claims (via retailer): split clamps with elastomer-isolated design keep clamp bore round under load for better fork sensitivity, more resistance to fork twisting, improved fork bending line, independent pinch-bolt preload, lower weight.",
+      "supporting_parts": "No stem nut included (reuse OEM). Bar mounts not included (optional Xtrig bar mounts).",
+      "where_to_buy": [
+        {"seller": "TripleClamp Moto (Oceania/Canada)", "url": "https://oceania.tripleclampmoto.ca/products/xtrig-rocs-tech-black-ktm-husqvarna-23-24-gas-gas-24-os-22mm", "price_if_stated": "993.49", "currency": "CAD", "date": "2026-10-14 (pre-order, out of stock)"}
+      ],
+      "rider_feedback": [],
+      "caveats": "2025-2026 fitment not confirmed by any source found; years beyond 2024 should be checked with Xtrig. Manufacturer (xtrig.de) page not reached.",
+      "confidence": "medium"
+    },
+    {
+      "id": "xtrig-rocs-pro-ktm-2023",
+      "category": "chassis",
+      "subcategory": "triple clamps",
+      "brand": "Xtrig",
+      "product": "ROCS Pro triple clamp kit, KTM SX/SX-F 2023+ / EXC 2024+",
+      "part_numbers": [],
+      "variants": "Offset adjustable 20-22 mm per Maciag listing. Keefer (2023) refers to running Xtrig ROCS clamps at 24 mm - conflicts with the 20-22 mm range listed; may be a different insert/version.",
+      "platform_ids": ["ktm-sx-2023", "ktm-xc-2023"],
+      "fits": [
+        {"make": "KTM", "model": "SX / SX-F", "years": [2023], "notes": "Listed as 'SX/SX-F 23-' (open-ended); later years implied but not enumerated"},
+        {"make": "KTM", "model": "EXC / EXC-F (out of scope)", "years": [2024], "notes": "Enduro, listed for completeness only"}
+      ],
+      "fitment_source_url": "https://www.maciag-offroad.com/xtrig-triple-clamp-rocs-pro-ktm-sx-sx-f-23-exc-exc-f-24-sid162442.html",
+      "what_it_changes": "Same ROCS claims as ROCS Tech (round clamp bore, fork-twist resistance, lighter) plus adjustable offset; offset changes trail and therefore steering quickness vs straight-line stability.",
+      "supporting_parts": "Includes steering stem and steering head bearings. Requires Xtrig M12 handlebar mounts (sold separately).",
+      "where_to_buy": [
+        {"seller": "Maciag Offroad (EU)", "url": "https://www.maciag-offroad.com/xtrig-triple-clamp-rocs-pro-ktm-sx-sx-f-23-exc-exc-f-24-sid162442.html", "price_if_stated": "613.39", "currency": "EUR (incl. VAT)", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [
+        {"source": "Keefer Inc Testing", "author": "Kris Keefer", "date": "2023-05-29", "summary": "Names Xtrig 24 mm ROCS clamps as giving results similar to Ride Engineering 23.5 mm clamps (more planted off-throttle, easier corner entry).", "conditions": "2023 KTM 450 SX-F", "url": "https://www.keeferinctesting.com/8-ways-to-get-less-rigidity-out-of-your-2023-2024-ktm-450-sx-f/"}
+      ],
+      "caveats": "No manufacturer part number found. Husqvarna/GasGas fitment not stated on this listing.",
+      "confidence": "medium"
+    },
+    {
+      "id": "ktm-factory-racing-triple-clamp-2023",
+      "category": "chassis",
+      "subcategory": "triple clamps",
+      "brand": "KTM PowerParts (Factory Racing)",
+      "product": "Factory Racing Triple Clamp (orange), offset-adjustable",
+      "part_numbers": ["A4600199902104A"],
+      "variants": "Offset 20 mm or 22 mm. Another KTM Direct listing exists as A46001999021C1A (variant not checked).",
+      "platform_ids": ["ktm-sx-2023", "ktm-xc-2023"],
+      "fits": [
+        {"make": "KTM", "model": "125 SX", "years": [2023, 2024, 2025, 2026], "notes": ""},
+        {"make": "KTM", "model": "150 SX", "years": [2025], "notes": ""},
+        {"make": "KTM", "model": "250 SX", "years": [2024, 2025, 2026], "notes": "2023 not listed on the page"},
+        {"make": "KTM", "model": "300 SX", "years": [2023, 2024, 2025, 2026], "notes": ""},
+        {"make": "KTM", "model": "250 / 350 / 450 SX-F", "years": [2023, 2024, 2025, 2026], "notes": "Also 250/450 SX-F Factory Edition 2022-2026"},
+        {"make": "KTM", "model": "125 XC", "years": [2023, 2024, 2025], "notes": ""},
+        {"make": "KTM", "model": "250 / 300 XC", "years": [2023, 2024, 2025, 2026], "notes": ""},
+        {"make": "KTM", "model": "250 / 450 XC-F", "years": [2023, 2024, 2025, 2026], "notes": "350 XC-F 2023-2025 (350 XC-F Factory Edition 2023-2026)"}
+      ],
+      "fitment_source_url": "https://ktmdirect.co.uk/products/factory-racing-triple-clamp-a4600199902104a",
+      "what_it_changes": "KTM claims: shorter offset favours stability on fast straights, longer offset favours quicker cornering; tuned stem stiffness, fork-clamp geometry that avoids ovalising the WP outer tube, more stable front-wheel control.",
+      "supporting_parts": "Includes steering stem with bearing pressed on.",
+      "where_to_buy": [
+        {"seller": "KTM Direct (UK)", "url": "https://ktmdirect.co.uk/products/factory-racing-triple-clamp-a4600199902104a", "price_if_stated": "497.00", "currency": "GBP", "date": "2026-10-14"},
+        {"seller": "AOMC.mx (US)", "url": "https://aomc.mx/KTM-Factory-Racing-Triple-Clamps-2023-SX-Orange-A4600199902104A.html", "price_if_stated": null, "currency": null, "date": null}
+      ],
+      "rider_feedback": [
+        {"source": "Vital MX forum", "author": "Smith246", "date": "2024-10-03", "summary": "KTM PowerParts 22 mm split clamps take a little sting out of the hands; noticeable but not huge; would prioritise suspension work over clamps.", "conditions": "2023 KTM 350 SX-F with KYB fork", "url": "https://www.vitalmx.com/comment/6596886"}
+      ],
+      "caveats": "Dealer page lists only KTM models; Husqvarna/GasGas use their own-colour Factory clamps (2026 Husqvarna FE ships with Factory Racing offset-adjustable clamps). Dealer page showed both 'in stock' and 'coming soon'.",
+      "confidence": "medium"
+    },
+    {
+      "id": "luxon-gen3-pro-ktm",
+      "category": "chassis",
+      "subcategory": "triple clamps",
+      "brand": "Luxon MX",
+      "product": "Gen3 Pro triple clamp set (KTM-family), plus Gen3 Standard 23.5 mm",
+      "part_numbers": [],
+      "variants": "Pro: adjustable offset, used at 22-24 mm by forum riders; Standard: fixed 23.5 mm (added per Luxon rep, May 2024). Rocky Mountain ATV/MC lists rubber-isolated and solid bar-mount versions.",
+      "platform_ids": ["ktm-sx-2023"],
+      "fits": [
+        {"make": "KTM", "model": "350 SX-F", "years": [2023], "notes": "From rider reports only; manufacturer fitment page not reached"}
+      ],
+      "fitment_source_url": "https://www.vitalmx.com/comment/6596886",
+      "what_it_changes": "Luxon rep: most Gen3 Pro buyers for KTM chose 23-24 mm; adjustable offset is the key feature. Longer offset reduces trail.",
+      "supporting_parts": "Bar mount type chosen at purchase (rubber or solid) per retailer listing titles.",
+      "where_to_buy": [
+        {"seller": "Rocky Mountain ATV/MC", "url": "https://www.rockymountainatvmc.com/parts/luxon-gen3-pro-triple-clamp-set-p", "price_if_stated": null, "currency": null, "date": null}
+      ],
+      "rider_feedback": [
+        {"source": "Vital MX forum", "author": "NeedMoto", "date": "2024-05-27", "summary": "24 mm Luxon clamps removed corner-entry nervousness, tracked better in ruts and turned better.", "conditions": "2023 KTM 350 SX-F, KYB fork", "url": "https://www.vitalmx.com/comment/6596886"},
+        {"source": "Vital MX forum", "author": "rpm.15", "date": "2024-05-27", "summary": "Luxon Pro at 24 mm 'calmed the beast down'.", "conditions": "2023 KTM 350 SX-F", "url": "https://www.vitalmx.com/comment/6596886"},
+        {"source": "Vital MX forum", "author": "Chris_Buehler", "date": "2024-05-27", "summary": "Counterpoint: his issue is nervousness not turning, unsure more offset is the fix.", "conditions": "2023 KTM 350 SX-F", "url": "https://www.vitalmx.com/comment/6596886"}
+      ],
+      "caveats": "Retailer page blocked by bot protection; no SKU, price or year range verified. Husqvarna/GasGas fitment unverified.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "ride-engineering-split-clamps-ktm",
+      "category": "chassis",
+      "subcategory": "triple clamps",
+      "brand": "Ride Engineering",
+      "product": "Billet split triple clamp set (KTM/Husqvarna/GasGas)",
+      "part_numbers": ["KT-BBM00-CA (rubber-mounted oversize bar mount kit, needed on GasGas)", "KT-BMN16-KT (bar-mount fastener kit)"],
+      "variants": "22 mm (pre-2023 tested set) and 23.5 mm (2023+ KTM per Keefer and forum). Black, blue, orange, red, chrome.",
+      "platform_ids": ["ktm-sx-2023", "ktm-family-2016-2022"],
+      "fits": [
+        {"make": "GasGas", "model": "MC 450F", "years": [2021, 2022], "notes": "MXA test bike; 22 mm"},
+        {"make": "KTM / Husqvarna", "model": "post-2013 models (per MXA)", "years": [], "notes": "Year list not enumerated"},
+        {"make": "KTM", "model": "450 SX-F / 350 SX-F", "years": [2023, 2024], "notes": "23.5 mm version per Keefer and Vital riders; no RE fitment page checked"}
+      ],
+      "fitment_source_url": "https://motocrossactionmag.com/mxa-team-tested-ride-engineering-gasgas-split-triple-clamps",
+      "what_it_changes": "Split clamps add controlled flex/comfort; 23.5 mm offset (vs 22 stock) reduces trail for easier turn-in while testers report better off-throttle stability on the 2023+ KTM.",
+      "supporting_parts": "Set includes clamps, stem, lower bearing and hour-meter relocation bracket (MXA 2021). GasGas needs KTM/Husky rubber bar mount kit KT-BBM00-CA.",
+      "where_to_buy": [
+        {"seller": "Ride Engineering", "url": "https://www.ride-engineering.com", "price_if_stated": "679.90-699.90", "currency": "USD", "date": "2021-11-23 (MXA)"}
+      ],
+      "rider_feedback": [
+        {"source": "Motocross Action", "author": "MXA test crew", "date": "2021-11-23", "summary": "Stock GasGas forged clamps flexed (vague turn-in, front wag); stock KTM billet more accurate but harsher; RE split clamps a compromise. Pros preferred 14/11 lb-ft top/bottom torque vs RE's 13/10.", "conditions": "2021 GasGas MC 450F", "url": "https://motocrossactionmag.com/mxa-team-tested-ride-engineering-gasgas-split-triple-clamps"},
+        {"source": "Keefer Inc Testing", "author": "Kris Keefer", "date": "2023-05-29", "summary": "23.5 mm RE clamps: more planted leaning off throttle, better straight-line stability, easier corner entry, less front tuck on flat turns, less hand vibration.", "conditions": "2023 KTM 450 SX-F", "url": "https://www.keeferinctesting.com/8-ways-to-get-less-rigidity-out-of-your-2023-2024-ktm-450-sx-f/"},
+        {"source": "Vital MX forum", "author": "TahoeVetMX / zwolf734 / GPrider", "date": "2024-05-26 to 2024-10-06", "summary": "23.5 mm RE clamps: more stable, turns better, plusher in the hands.", "conditions": "2023-2024 KTM 350 SX-F", "url": "https://www.vitalmx.com/comment/6596886"}
+      ],
+      "caveats": "No clamp part number found for the 2023+ 23.5 mm set; price is 2021 for the older set.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "scotts-sub-mount-ktm-2023",
+      "category": "chassis",
+      "subcategory": "steering damper",
+      "brand": "Scotts Performance (BRP mount)",
+      "product": "Scotts steering stabilizer with metal SUB (under-bar) mount kit, KTM/Husky 23-25, GasGas 24-25",
+      "part_numbers": ["SCO-DS-SUB-6125-01 (Shock Treatment SKU; appears to follow Scotts DS-xxxx-01 numbering)"],
+      "variants": "Solid or rubber (Performance Adjustable) SUB mount; mount-kit-only option.",
+      "platform_ids": ["ktm-sx-2023", "ktm-xc-2023", "husqvarna-mx-2023", "gasgas-mc-2024"],
+      "fits": [
+        {"make": "KTM", "model": "SX / SX-F / XC / XC-F 125-450", "years": [2023, 2024, 2025], "notes": ""},
+        {"make": "Husqvarna", "model": "TC / FC (and TX/FX per Upshift list)", "years": [2023, 2024, 2025], "notes": ""},
+        {"make": "GasGas", "model": "MC / EX", "years": [2024, 2025], "notes": ""}
+      ],
+      "fitment_source_url": "https://www.shocktreatment.com.au/ktm-husky-23-25-gas-gas-24-25-metal-sub-kit",
+      "what_it_changes": "Adds adjustable steering damping (head-shake control); SUB mount converts rubber-mounted bars to solid and raises bars ~24 mm (11-25 mm by model) with two fore-aft positions; Upshift listing notes 3 mm offset perches.",
+      "supporting_parts": "Oversize (1-1/8) bars; cable guide (sold separately; Clean Speed guide recommended); factory steering lock must be removed; damper and link arm not included in mount-only kit.",
+      "where_to_buy": [
+        {"seller": "Shock Treatment (AU)", "url": "https://www.shocktreatment.com.au/ktm-husky-23-25-gas-gas-24-25-metal-sub-kit", "price_if_stated": null, "currency": null, "date": null},
+        {"seller": "Upshift Online (moved to TMBR Moto)", "url": "https://upshiftonline.com/products/scotts-perf-adjust-rubber-sub-mount-kit-2023-24-ktm-husqvarna-gasgas", "price_if_stated": "839.00 (complete rubber SUB kit with damper)", "currency": "USD", "date": "2026-10-14 (sold out)"}
+      ],
+      "rider_feedback": [],
+      "caveats": "2026-2027 fitment not listed. Bar height change may need a lower bend.",
+      "confidence": "medium"
+    },
+    {
+      "id": "wc-pro-launch-ktm",
+      "category": "chassis",
+      "subcategory": "holeshot device",
+      "brand": "Works Connection",
+      "product": "Pro Launch start device",
+      "part_numbers": ["Cycle Gear item P400381 (KTM 2017-2022 listing; retailer number)", "RevZilla UPC 1081415 (Husqvarna 125-450 2023 listing)"],
+      "variants": "Red/black; separate listings per brand/year range.",
+      "platform_ids": ["ktm-family-2016-2022", "husqvarna-mx-2023"],
+      "fits": [
+        {"make": "KTM", "model": "125/150 SX, 250/350/450 SX-F, 250/350/450 XC-F", "years": [2017, 2018, 2019, 2020, 2021, 2022], "notes": "Plus 125 XC 2021-22, 250/300 XC TPI 2020-22"},
+        {"make": "Husqvarna", "model": "125-450", "years": [2023], "notes": "From listing title only"}
+      ],
+      "fitment_source_url": "https://www.cyclegear.com/parts/works-connection-pro-launch-start-device-ktm-sx-sx-f-xc-xc-f-125cc-450cc",
+      "what_it_changes": "Fork-compression holeshot device (spring-less trigger, ~50 g) to lower the front for starts.",
+      "supporting_parts": "Drill template and countersink tool included; designed for OEM fork guards only (requires drilling).",
+      "where_to_buy": [
+        {"seller": "Cycle Gear", "url": "https://www.cyclegear.com/parts/works-connection-pro-launch-start-device-ktm-sx-sx-f-xc-xc-f-125cc-450cc", "price_if_stated": "164.95", "currency": "USD", "date": "2026-10-14"},
+        {"seller": "RevZilla", "url": "https://www.revzilla.com/motocross/works-connection-pro-launch-start-device-husqvarna-125cc-450cc-2023", "price_if_stated": "164.95 (inferred from page metadata)", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "No listing confirming KTM 2023+ or GasGas 2024+ found; 2023+ KTM OEM bikes have a factory holeshot device - not researched.",
+      "confidence": "medium"
+    },
+    {
+      "id": "fcp-engine-mounts-ktm-2023",
+      "category": "chassis",
+      "subcategory": "engine mounts / head stays",
+      "brand": "FCP Racing (Factory Chassis Parts)",
+      "product": "Engine mount kit for 2023+ KTM (lower mounts, titanium bolt, upper hangers, separate exhaust mount)",
+      "part_numbers": [],
+      "variants": "",
+      "platform_ids": ["ktm-sx-2023", "ktm-xc-2023"],
+      "fits": [
+        {"make": "KTM", "model": "450 SX-F / 450 XC-F", "years": [2023], "notes": "Article: fits 2022.5+ SX-F and 2023+ SX-F and XC-F 450; other sizes not addressed"}
+      ],
+      "fitment_source_url": "https://dirtbiketest.com/product-tests/fcp-racing-engine-mounts-for-2023-ktm/",
+      "what_it_changes": "Tuned mount flex: tester reported less bar harshness on decel and better front edge grip in hard flat turns.",
+      "supporting_parts": "Exhaust mount uses a rear nut (less convenient than stock).",
+      "where_to_buy": [
+        {"seller": "FCP Racing (via article)", "url": "https://dirtbiketest.com/product-tests/fcp-racing-engine-mounts-for-2023-ktm/", "price_if_stated": "429.00", "currency": "USD", "date": "c. 2023-12 (article date inferred)"}
+      ],
+      "rider_feedback": [
+        {"source": "DirtBikeTest", "author": "Todd Davis", "date": "c. 2023-12", "summary": "Less harshness on decel, better hard-pack turn grip; good on soft round bumps, less so on square-edge/high speed; pricey for the change.", "conditions": "2023 KTM 450 XC-F, Glen Helen", "url": "https://dirtbiketest.com/product-tests/fcp-racing-engine-mounts-for-2023-ktm/"}
+      ],
+      "caveats": "No part number or manufacturer page checked.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "wcl-engine-mounts-ktm-2023",
+      "category": "chassis",
+      "subcategory": "engine mounts / head stays",
+      "brand": "WCL",
+      "product": "Aftermarket engine mounts (medium and soft)",
+      "part_numbers": [],
+      "variants": "Medium, soft",
+      "platform_ids": ["ktm-sx-2023"],
+      "fits": [
+        {"make": "KTM", "model": "450 SX-F", "years": [2023, 2024], "notes": "Test article title covers 2023-2024 450 SX-F"}
+      ],
+      "fitment_source_url": "https://www.keeferinctesting.com/8-ways-to-get-less-rigidity-out-of-your-2023-2024-ktm-450-sx-f/",
+      "what_it_changes": "Reduces chassis rigidity: medium mount softened slap-down, slightly less peg vibration, more lean-angle traction; soft mount for fast desert-type tracks.",
+      "supporting_parts": "Keefer raised sag 103 to 105 mm to compensate for added front bite.",
+      "where_to_buy": [],
+      "rider_feedback": [
+        {"source": "Keefer Inc Testing", "author": "Kris Keefer", "date": "2023-05-29", "summary": "Medium mounts: less harsh slap-down, more lean traction. Also notes cutting centre from stock top mount and shimming engine mounts as cheaper flex tweaks.", "conditions": "2023 KTM 450 SX-F", "url": "https://www.keeferinctesting.com/8-ways-to-get-less-rigidity-out-of-your-2023-2024-ktm-450-sx-f/"}
+      ],
+      "caveats": "No part numbers, price or manufacturer page.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "wc-axle-blocks-ktm-2023",
+      "category": "chassis",
+      "subcategory": "axle blocks",
+      "brand": "Works Connection",
+      "product": "Axle blocks (floating)",
+      "part_numbers": [],
+      "variants": "",
+      "platform_ids": ["ktm-sx-2023"],
+      "fits": [{"make": "KTM", "model": "450 SX-F", "years": [2023, 2024], "notes": "From test article"}],
+      "fitment_source_url": "https://www.keeferinctesting.com/8-ways-to-get-less-rigidity-out-of-your-2023-2024-ktm-450-sx-f/",
+      "what_it_changes": "Floating block moves a few mm under load: slightly more rear traction out of corners and plushness on square edges (subtle).",
+      "supporting_parts": "",
+      "where_to_buy": [],
+      "rider_feedback": [
+        {"source": "Keefer Inc Testing", "author": "Kris Keefer", "date": "2023-05-29", "summary": "Subtle gain in rear traction and square-edge comfort.", "conditions": "2023 KTM 450 SX-F", "url": "https://www.keeferinctesting.com/8-ways-to-get-less-rigidity-out-of-your-2023-2024-ktm-450-sx-f/"}
+      ],
+      "caveats": "No part number; 22 mm axle-specific fitment not confirmed.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "protaper-husky-evo-bend",
+      "category": "controls",
+      "subcategory": "handlebars",
+      "brand": "Pro Taper",
+      "product": "EVO handlebar, Husqvarna Stock bend (cut to 803 mm)",
+      "part_numbers": [],
+      "variants": "Husqvarna Stock bend",
+      "platform_ids": ["ktm-sx-2023"],
+      "fits": [{"make": "KTM", "model": "450 SX-F", "years": [2023, 2024], "notes": "Fits oversize 1-1/8 mounts; used on test bike"}],
+      "fitment_source_url": "https://www.keeferinctesting.com/8-ways-to-get-less-rigidity-out-of-your-2023-2024-ktm-450-sx-f/",
+      "what_it_changes": "Reduced vibration and better hand comfort vs stock Neken (tester).",
+      "supporting_parts": "",
+      "where_to_buy": [],
+      "rider_feedback": [
+        {"source": "Keefer Inc Testing", "author": "Kris Keefer", "date": "2023-05-29", "summary": "Less vibration, more comfort; also rated FASST Co FLEXX 12-deg Moto bar as most flex (looks odd). Both for riders ~5'8\"-6'0\".", "conditions": "2023 KTM 450 SX-F", "url": "https://www.keeferinctesting.com/8-ways-to-get-less-rigidity-out-of-your-2023-2024-ktm-450-sx-f/"}
+      ],
+      "caveats": "No bend dimensions or SKU gathered. Stock 2027 KTM bar is Neken tapered; 2026 Husqvarna FE uses ProTaper with integrated switch mount.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "raptor-ti-pegs-ktm-2023",
+      "category": "controls",
+      "subcategory": "footpegs",
+      "brand": "Raptor",
+      "product": "Titanium footpegs, KTM/Husqvarna/GasGas/Stark 125-450 2023-2027",
+      "part_numbers": ["Cycle Gear item P1038532 (retailer number)"],
+      "variants": "5 mm or 10 mm rearward offset vs OEM; pair.",
+      "platform_ids": ["ktm-sx-2023", "ktm-sx-2027", "ktm-xc-2023", "husqvarna-mx-2023", "gasgas-mc-2024"],
+      "fits": [
+        {"make": "KTM", "model": "125/300 SX, 250/350/450 SX-F", "years": [2023, 2024, 2025, 2026, 2027], "notes": "150 SX 2025; 250 SX-F FE 2023-2026"},
+        {"make": "KTM", "model": "250/300 XC, 250/450 XC-F", "years": [2023, 2024, 2025, 2026, 2027], "notes": "125 XC and 350 XC-F listed 2023-2025, 2027"},
+        {"make": "Husqvarna", "model": "TC 125/250", "years": [2023, 2024, 2025, 2026, 2027], "notes": "TC 150 2025-26, TC 300 2025/2027"},
+        {"make": "Husqvarna", "model": "FC 250/350/450", "years": [2023, 2024, 2025, 2027], "notes": "2026 missing from list (likely listing gap); FX 350/450 only 2027 listed"},
+        {"make": "GasGas", "model": "MC 125/250F/450F", "years": [2024, 2025, 2026, 2027], "notes": "MC 250F/450F FE 2023; MC 350F 2024-25; MC 150 2025-26; EX 250/300/250F/450F 2024+"}
+      ],
+      "fitment_source_url": "https://www.cyclegear.com/parts/raptor-titanium-footpegs-ktm-husqvarna-gas-gas-stark-125cc-450cc-2023-2026",
+      "what_it_changes": "57 mm wide platform moved back 5 or 10 mm (changes rider position/leverage), 410 g/set, 24 teeth in 3 rows, anti-clog.",
+      "supporting_parts": "Stainless springs included.",
+      "where_to_buy": [
+        {"seller": "Cycle Gear", "url": "https://www.cyclegear.com/parts/raptor-titanium-footpegs-ktm-husqvarna-gas-gas-stark-125cc-450cc-2023-2026", "price_if_stated": "388.95", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Listing year range inconsistent (2023-2026 vs 2023-2027). Earlier-gen fitment is a separate listing (85-501 2015-2024).",
+      "confidence": "medium"
+    },
+    {
+      "id": "fastway-ext-pegs-ktm-2023",
+      "category": "controls",
+      "subcategory": "footpegs",
+      "brand": "Fastway",
+      "product": "EXT footpeg kit (KTM/Husqvarna 2022/2023)",
+      "part_numbers": ["22-4-017 (peg; colour suffix e.g. BKS)", "22-3-5532S (footpeg fit kit, included)"],
+      "variants": "Black, blue, clear, gold, orange, red; F3 cleats 10 mm and 12 mm; standard/low height; camber adjust.",
+      "platform_ids": ["ktm-sx-2023", "ktm-xc-2023", "husqvarna-mx-2023"],
+      "fits": [
+        {"make": "KTM", "model": "125/250/300 SX, 250/350/450 SX-F, 125/250/300 XC, 250/350/450 XC-F", "years": [2023], "notes": "Plus 250/450 SX-F FE 2022"},
+        {"make": "Husqvarna", "model": "TC 125/250, TX 300i, FC 250/350/450, FX 350/450", "years": [2023], "notes": "Plus FC 250/450 Rockstar 2022"}
+      ],
+      "fitment_source_url": "https://tripleclampmoto.ca/products/fastway-ext-footpegs",
+      "what_it_changes": "Extended rear platform for leverage leaning back, ankle-saver, adjustable height (low position for tall riders) and camber (knees closer to bike).",
+      "supporting_parts": "Fit kit 22-3-5532S included.",
+      "where_to_buy": [
+        {"seller": "TripleClamp Moto (CA)", "url": "https://tripleclampmoto.ca/products/fastway-ext-footpegs", "price_if_stated": "553.95", "currency": "CAD", "date": "2026-10-14 (sold out)"}
+      ],
+      "rider_feedback": [],
+      "caveats": "2024+ and GasGas fitment not listed on this page though chassis is shared; confirm with Fastway.",
+      "confidence": "medium"
+    },
+    {
+      "id": "asv-emig-f4-ktm",
+      "category": "controls",
+      "subcategory": "levers",
+      "brand": "ASV Inventions",
+      "product": "EMIG F4 PRO PACK+ hydraulic clutch and brake lever pair pack, KTM motocross",
+      "part_numbers": ["EMF42303KTM"],
+      "variants": "Pro or Pro PLUS (adds ASV reservoir caps); Black & Gold, Red/White/Blue, Purple & Black; stock length.",
+      "platform_ids": ["ktm-sx-2023", "ktm-xc-2023", "husqvarna-mx-2023", "ktm-family-2016-2022"],
+      "fits": [
+        {"make": "KTM", "model": "250 SX/SX-F/XC/XC-F, 350/450 SX-F/XC-F, 300 XC", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025], "notes": "125 SX 2016-25, 125 XC 2021-25, 300 SX 2024-25"},
+        {"make": "Husqvarna", "model": "FC 250/350/450, FX 350/450, TC 125/250, TX 300", "years": [2022, 2023, 2024, 2025], "notes": "FC also 2014-15; TC 250 2016-25"},
+        {"make": "GasGas", "model": "EC/EX/MC", "years": [2021, 2022, 2023, 2024, 2025], "notes": "'roughly' per page; some MC entries specify Brembo controls (2023). Braktec-equipped 2024+ GasGas not explicitly addressed."}
+      ],
+      "fitment_source_url": "https://asvinventions.com/emig-f4-pro-pack-hydraulic-clutch-and-brake-lever-pair-pack-for-ktm-motocross/",
+      "what_it_changes": "Pivoting crash-resistant levers with on-the-fly reach adjust (4 in range); pack includes ODI EMIG Pro V2 grips and rotator clamps.",
+      "supporting_parts": "Included: brake and clutch levers, ODI lock-on grips (7/8 bar), 2 rotator clamps, dust covers.",
+      "where_to_buy": [
+        {"seller": "ASV Inventions", "url": "https://asvinventions.com/emig-f4-pro-pack-hydraulic-clutch-and-brake-lever-pair-pack-for-ktm-motocross/", "price_if_stated": "268.00 (sale; list 365.00)", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "2026-2027 not listed. Confirm Brembo vs Braktec master cylinder on GasGas 2024+.",
+      "confidence": "high"
+    },
+    {
+      "id": "arc-brake-lever-br214",
+      "category": "controls",
+      "subcategory": "levers",
+      "brand": "ARC",
+      "product": "Alloy brake lever, KTM Brembo",
+      "part_numbers": ["BR-214 (retailer code AC-BR-214)"],
+      "variants": "Alloy; composite textured version also exists (same BR-214 family per retailer).",
+      "platform_ids": ["ktm-sx-2023", "ktm-xc-2023", "ktm-family-2016-2022"],
+      "fits": [
+        {"make": "KTM", "model": "125-500 SX/SX-F (and EXC)", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025], "notes": ""},
+        {"make": "Husqvarna", "model": "TC 125-300 / FC 250-450 (Brembo)", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023], "notes": "TC/TE to 2024, FC/FE to 2023 per listing"},
+        {"make": "GasGas", "model": "MC 125/250/450 (Brembo)", "years": [2021, 2022, 2023], "notes": "2024+ GasGas (Braktec) not listed"}
+      ],
+      "fitment_source_url": "https://www.johnstonsmoto.co.nz/products/arc-brake-lever-alloy-ktm-brembo-sx-xc-exc-14-25-husky-tc-fc-14-24-gasgas-21-23",
+      "what_it_changes": "Folding crash-resistant lever with reach adjust and claimed easier pull ratio.",
+      "supporting_parts": "",
+      "where_to_buy": [
+        {"seller": "Johnstons Moto (NZ)", "url": "https://www.johnstonsmoto.co.nz/products/arc-brake-lever-alloy-ktm-brembo-sx-xc-exc-14-25-husky-tc-fc-14-24-gasgas-21-23", "price_if_stated": "169.99", "currency": "NZD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Husqvarna FC listed only to 2023 though the bikes share Brembo masters with KTM - ask ARC. Not for Braktec GasGas 2024+.",
+      "confidence": "medium"
+    },
+    {
+      "id": "guts-complete-seat-husqvarna-2023",
+      "category": "controls",
+      "subcategory": "seat",
+      "brand": "Guts Racing",
+      "product": "Complete seat, Husqvarna 125-501 2023-2025 (also ribbed version)",
+      "part_numbers": ["RevZilla UPC 1194861 (retailer number)"],
+      "variants": "Standard and ribbed cover listings; foam options not stated.",
+      "platform_ids": ["husqvarna-mx-2023"],
+      "fits": [{"make": "Husqvarna", "model": "125-501 (TC/FC/TX/FX)", "years": [2023, 2024, 2025], "notes": "Model-by-model list not on page"}],
+      "fitment_source_url": "https://www.revzilla.com/motorcycle/guts-complete-seat-husqvarna-125cc-501cc-2023-2025",
+      "what_it_changes": "Replacement seat (foam/cover) - changes seat height/firmness and grip depending on build; not specified.",
+      "supporting_parts": "",
+      "where_to_buy": [
+        {"seller": "RevZilla", "url": "https://www.revzilla.com/motorcycle/guts-complete-seat-husqvarna-125cc-501cc-2023-2025", "price_if_stated": "268.99 (inferred from page metadata)", "currency": "USD", "date": "2026-10-14 (out of stock)"}
+      ],
+      "rider_feedback": [],
+      "caveats": "KTM 2023+ and GasGas 2024+ Guts listings not found in this pass (KTM listing found is 2019-2023, GasGas 2021-2023 - older gen).",
+      "confidence": "medium"
+    },
+    {
+      "id": "kite-elite-mx-rear-19-ktm-2023",
+      "category": "wheels",
+      "subcategory": "complete wheel",
+      "brand": "Kite",
+      "product": "Elite MX 19\" rear wheel, KTM SX-F 450 2023-2024",
+      "part_numbers": ["20.389.0.BL.A60"],
+      "variants": "Red-hub version exists (Ghost Bikes code 100705; SKU not captured). Excel A60 19x2.15 rim, Alpina spokes, Koyo bearings, Kite hub.",
+      "platform_ids": ["ktm-sx-2023", "husqvarna-mx-2023", "gasgas-mc-2024"],
+      "fits": [
+        {"make": "KTM", "model": "450 SX-F", "years": [2023, 2024], "notes": "Incl. 2024 Factory Edition; full list also includes other KTM SX/SX-F, Husqvarna and GasGas 2023-2025 (not enumerated)"}
+      ],
+      "fitment_source_url": "https://www.ghostbikes.com/products/100706-kite-elite-mx-19-rear-wheel-ktm-sxf450-2023-2024",
+      "what_it_changes": "Stronger/lighter build than OEM (implied); must suit 22 mm rear axle on 2023+ chassis.",
+      "supporting_parts": "Disc, sprocket, tyre, spacers per Kite spec (not stated).",
+      "where_to_buy": [
+        {"seller": "Ghost Bikes (UK)", "url": "https://www.ghostbikes.com/products/100706-kite-elite-mx-19-rear-wheel-ktm-sxf450-2023-2024", "price_if_stated": "865.99", "currency": "GBP", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Kite also lists an 18\" Husqvarna TC250 2023-2024 rear (XC/enduro-size).",
+      "confidence": "medium"
+    },
+    {
+      "id": "kite-elite-mx-rear-16-85sx",
+      "category": "wheels",
+      "subcategory": "complete wheel",
+      "brand": "Kite",
+      "product": "Elite MX 16\" rear wheel, KTM SX 85 2021-2024 (black/orange/silver)",
+      "part_numbers": ["20.729.0.AR"],
+      "variants": "16x1.85; 14\" and other colours exist as separate listings.",
+      "platform_ids": [],
+      "fits": [
+        {"make": "KTM", "model": "85 SX (19/16 big wheel)", "years": [2024], "notes": "2021-2023 European models only"},
+        {"make": "KTM", "model": "85 SX (17/14)", "years": [2021, 2022, 2023, 2024], "notes": "As listed by retailer"},
+        {"make": "Husqvarna", "model": "TC 85", "years": [2021, 2022, 2023, 2024], "notes": ""}
+      ],
+      "fitment_source_url": "https://www.ghostbikes.com/products/100670-kite-elite-mx-16-rear-wheel-ktm-sx85-2021-2024-black-orange-silver",
+      "what_it_changes": "Aftermarket complete wheel (Excel rim, Alpina spokes, Koyo bearings).",
+      "supporting_parts": "",
+      "where_to_buy": [
+        {"seller": "Ghost Bikes (UK)", "url": "https://www.ghostbikes.com/products/100670-kite-elite-mx-16-rear-wheel-ktm-sx85-2021-2024-black-orange-silver", "price_if_stated": "553.99", "currency": "GBP", "date": "2026-10-14 (out of stock)"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Pre-2025 85 SX only; the 2025+ 85 SX has a new 20 mm rear axle so this will not carry over unconfirmed. GasGas MC 85 not listed.",
+      "confidence": "medium"
+    },
+    {
+      "id": "ktm-oem-wheels-2023-ref",
+      "category": "wheels",
+      "subcategory": "OEM reference (interchange)",
+      "brand": "KTM OEM",
+      "product": "Stock wheel set 2023+ SX/SX-F (reference for interchange / used-parts lookup)",
+      "part_numbers": ["7810910104430 (front 1.6x21, '22MM')", "A4601000104430 (rear 2.15x19, Excel)"],
+      "variants": "",
+      "platform_ids": ["ktm-sx-2023"],
+      "fits": [
+        {"make": "KTM", "model": "125/250 SX, 250/350/450 SX-F", "years": [2023, 2024, 2025, 2026], "notes": "300 SX 2023-24, 2026; 150 SX 2025"}
+      ],
+      "fitment_source_url": "https://pronorthparts.co.nz/125-450-sx-sx-f-2023-2026-front-rear-wheel-set-ktm-306",
+      "what_it_changes": "N/A - baseline OEM parts for comparing aftermarket wheels.",
+      "supporting_parts": "",
+      "where_to_buy": [{"seller": "Pro North Parts (NZ, used)", "url": "https://pronorthparts.co.nz/125-450-sx-sx-f-2023-2026-front-rear-wheel-set-ktm-306", "price_if_stated": null, "currency": null, "date": null}],
+      "rider_feedback": [],
+      "caveats": "Used-parts seller fitment list; front part name references 'Giant' (rim/hub supplier labelling unclear).",
+      "confidence": "medium"
+    },
+    {
+      "id": "galfer-270-wave-ktm",
+      "category": "brakes",
+      "subcategory": "oversize front rotor kit",
+      "brand": "Galfer",
+      "product": "Oversize 270 mm Wave front rotor kit, solid mount (KTM/Husaberg/Husqvarna/GasGas)",
+      "part_numbers": ["Slavens SKU WP17-DOS220 (retailer)"],
+      "variants": "270 mm solid-mount stainless Wave disc",
+      "platform_ids": ["ktm-sx-2023", "ktm-sx-2027", "ktm-xc-2023", "husqvarna-mx-2023", "gasgas-mc-2024", "ktm-family-2016-2022"],
+      "fits": [
+        {"make": "KTM", "model": "125-530 all models (Brembo)", "years": [2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026], "notes": ""},
+        {"make": "Husqvarna", "model": "TC/TX/FC/FX 125-450", "years": [2022, 2023, 2024, 2025, 2026], "notes": "Asterisked on retailer page without explanation; 2014-2017 also listed"},
+        {"make": "GasGas", "model": "125-450 except EC/EC-F", "years": [2021, 2022, 2023, 2024, 2025, 2026], "notes": "Brembo calipers only - 2024+ GasGas ship with Braktec, so likely NOT a bolt-on there"}
+      ],
+      "fitment_source_url": "https://slavensracing.com/shop/oversize-wave-solid-mount-rotor-kit-skw-ktm-husaberg-husqvarna-galfer/",
+      "what_it_changes": "Larger diameter (260 to 270 mm) increases leverage/braking power; Galfer claims better modulation (less grabby than OEM) and cooling.",
+      "supporting_parts": "CNC 6061-T6 caliper relocation bracket included.",
+      "where_to_buy": [
+        {"seller": "Slavens Racing (US)", "url": "https://slavensracing.com/shop/oversize-wave-solid-mount-rotor-kit-skw-ktm-husaberg-husqvarna-galfer/", "price_if_stated": "268.95", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "No Galfer manufacturer part number captured (Galfer site not reached). Contradiction: GasGas 2021-2026 listed but Braktec/Magura excluded.",
+      "confidence": "medium"
+    },
+    {
+      "id": "motomaster-flame-270-ktm",
+      "category": "brakes",
+      "subcategory": "oversize front rotor kit",
+      "brand": "Moto-Master",
+      "product": "Flame floating front rotor kit 270 mm, KTM/Husqvarna/GasGas",
+      "part_numbers": ["310022-PU"],
+      "variants": "Floating; includes Nitro Sport pads.",
+      "platform_ids": ["ktm-sx-2023", "husqvarna-mx-2023", "gasgas-mc-2024", "ktm-family-2016-2022"],
+      "fits": [
+        {"make": "KTM", "model": "125/150 SX, 125/150 XC, 250 SX, 250 SX-F (list truncated)", "years": [], "notes": "Years not captured; page fitment list truncated"},
+        {"make": "Husqvarna", "model": "TC 125/150/250/300, TX 300, FC 250/350/450, FX 350/450", "years": [], "notes": "Years not captured"},
+        {"make": "GasGas", "model": "MC 125/150/250/250F/300/350F/450F, EX 250/300/250F/350F/450F", "years": [], "notes": "Years not captured; check Braktec compatibility"}
+      ],
+      "fitment_source_url": "https://www.jpcycles.com/product/moto-master-flame-floating-front-rotor-kit-270mm-ktm-husqvarna-gas-gas",
+      "what_it_changes": "Moto-Master claims up to 35% braking performance gain over stock and up to 20% weight saving.",
+      "supporting_parts": "Billet caliper relocation bracket and Nitro Sport pads included.",
+      "where_to_buy": [
+        {"seller": "J&P Cycles", "url": "https://www.jpcycles.com/product/moto-master-flame-floating-front-rotor-kit-270mm-ktm-husqvarna-gas-gas", "price_if_stated": "278.06 (was 308.95)", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Year ranges must be confirmed in vehicle selector; image on page shows a Kawasaki kit.",
+      "confidence": "medium"
+    },
+    {
+      "id": "supersprox-stealth-rst990",
+      "category": "drivetrain",
+      "subcategory": "rear sprocket",
+      "brand": "Supersprox",
+      "product": "Stealth rear sprocket 520 (KTM/Husqvarna/GasGas)",
+      "part_numbers": ["RST-990 (listed as SS-RST990 / RST990-520)"],
+      "variants": "40T-53T; black, blue, orange, gold",
+      "platform_ids": ["ktm-sx-2023", "ktm-xc-2023", "ktm-family-2016-2022"],
+      "fits": [
+        {"make": "KTM", "model": "350 SX-F, 450 SX-F", "years": [2023], "notes": "Listed as '2023+'; 250 SX-F listed only to 2022 on this page"},
+        {"make": "KTM", "model": "350 XC-F", "years": [2023], "notes": "'2023+'"},
+        {"make": "KTM", "model": "250 SX-F, 150 SX, 250 XC-F", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "notes": "250 SX-F from 2006"}
+      ],
+      "fitment_source_url": "https://sprocketcenter.com/i-30500555",
+      "what_it_changes": "Gearing change via tooth count; hybrid steel teeth on aluminium core claimed ~3x life of aluminium and ~70% lighter core than steel.",
+      "supporting_parts": "520 chain; separate GasGas and Husqvarna listings exist on Sprocket Center.",
+      "where_to_buy": [
+        {"seller": "Sprocket Center", "url": "https://sprocketcenter.com/i-30500555", "price_if_stated": "119.95", "currency": "USD", "date": "2026-10-14"},
+        {"seller": "Sprocket Center (GasGas listing)", "url": "https://sprocketcenter.com/i-30500719-supersprox-rst990-520-pitch-stealth-rear-sprocket-gasgas.html", "price_if_stated": null, "currency": null, "date": null}
+      ],
+      "rider_feedback": [],
+      "caveats": "RST-990 is the long-running KTM 520 rear pattern; 2T models and 85 SX not shown on this page.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tmd-fx-rear-chain-guide-2023",
+      "category": "drivetrain",
+      "subcategory": "chain guide",
+      "brand": "TM Designworks",
+      "product": "Factory Edition FX rear chain guide, KTM/Husky/GasGas 23-25",
+      "part_numbers": ["RCG-KT5-BK", "RCG-KT5-BL2", "RCG-KT5-ORG", "RCG-KT5-RD", "KTM-FEC-WP (replacement wear pads)"],
+      "variants": "Black, dark blue, orange, red",
+      "platform_ids": ["ktm-sx-2023", "ktm-xc-2023", "husqvarna-mx-2023", "gasgas-mc-2024"],
+      "fits": [
+        {"make": "KTM", "model": "125-450 SX, SX-F, XC, XC-F", "years": [2023, 2024, 2025], "notes": "250/450 SX-F FE 2022-24"},
+        {"make": "Husqvarna", "model": "FC/FX 250-450, TC/TX 125-300", "years": [2023, 2024, 2025], "notes": "FC 250/450 Rockstar 2022-24"},
+        {"make": "GasGas", "model": "MC/EX 125-500", "years": [2024, 2025], "notes": "MC 250F/450F FE 2023-24"}
+      ],
+      "fitment_source_url": "https://tripleclampmoto.ca/products/tm-designworks-factory-edition-fx-rear-chain-guide-ktm-husky-gas-gas-23-25",
+      "what_it_changes": "Replaces OEM guide: replaceable wear pad, more swingarm tab coverage, chamfered edges to deflect rocks; claims suit oversize sprockets and mud.",
+      "supporting_parts": "Mounting hardware included.",
+      "where_to_buy": [
+        {"seller": "TripleClamp Moto (CA)", "url": "https://tripleclampmoto.ca/products/tm-designworks-factory-edition-fx-rear-chain-guide-ktm-husky-gas-gas-23-25", "price_if_stated": "158.99", "currency": "CAD", "date": "2026-10-14 (pre-order)"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Retailer also says no vehicle fitment set - confirm. 2026+ not listed.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tmd-fx-slide-n-guide-2023",
+      "category": "drivetrain",
+      "subcategory": "chain slider + guide kit",
+      "brand": "TM Designworks",
+      "product": "FX Slide-n-Guide kit (Baja front slider, Powerlip lower roller/pad, FX rear guide)",
+      "part_numbers": ["FXK-KHG3-BLACK", "FXK-KHG3-RED", "FXK-KHG3-ORANGE"],
+      "variants": "Black, red, orange",
+      "platform_ids": ["ktm-sx-2023", "ktm-xc-2023", "husqvarna-mx-2023", "gasgas-mc-2024"],
+      "fits": [
+        {"make": "KTM", "model": "125-450 SX, SX-F, XC, XC-F", "years": [2023, 2024, 2025], "notes": "250/450 SX-F FE 2022-25"},
+        {"make": "Husqvarna", "model": "FC/FX 250-450, TC/TX 125-300", "years": [2023, 2024, 2025], "notes": "FC Rockstar 2022-25"},
+        {"make": "GasGas", "model": "EX, MC 125-450", "years": [2024, 2025], "notes": "MC 250F/450F FE 2023-25"}
+      ],
+      "fitment_source_url": "https://tripleclampmoto.ca/products/tmdesigns-fx-slide-n-guide-kit",
+      "what_it_changes": "Full chain-path protection; slider claimed up to 3x life, inner guide wing reduces tyre buzz, damping pads reduce chain slap; Powerlip reduces chain drag.",
+      "supporting_parts": "Hardware included.",
+      "where_to_buy": [
+        {"seller": "TripleClamp Moto (CA)", "url": "https://tripleclampmoto.ca/products/tmdesigns-fx-slide-n-guide-kit", "price_if_stated": "294.95 (black, sale; reg 336.95); 341.87 red/orange", "currency": "CAD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Retailer notes no vehicle fitment set - confirm.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p3-carbon-skid-450-2023",
+      "category": "protection",
+      "subcategory": "skid plate",
+      "brand": "P3 Carbon",
+      "product": "Carbon fiber skid plate with linkage guard, KTM/Husqvarna/GasGas 450",
+      "part_numbers": ["Cycle Gear item P1057592 (retailer)"],
+      "variants": "With linkage guard (only option listed)",
+      "platform_ids": ["ktm-sx-2023", "ktm-sx-2027", "ktm-xc-2023", "husqvarna-mx-2023", "gasgas-mc-2024"],
+      "fits": [
+        {"make": "KTM", "model": "450 SX-F", "years": [2023, 2024, 2025, 2026, 2027], "notes": "450 SX-F FE 2022-2026"},
+        {"make": "KTM", "model": "450 XC-F", "years": [2023, 2024, 2025, 2026, 2027], "notes": ""},
+        {"make": "Husqvarna", "model": "FC 450", "years": [2023, 2024, 2025, 2027], "notes": "Rockstar 2022-2025; FX 450 2023-24, 2027"},
+        {"make": "GasGas", "model": "MC 450F", "years": [2024, 2025, 2026, 2027], "notes": "MC 450F FE 2023, 2025; EX 450F 2024-25"}
+      ],
+      "fitment_source_url": "https://www.cyclegear.com/parts/p3-carbon-fiber-skid-plate-ktm-husqvarna-gas-gas-450cc-2022-2024",
+      "what_it_changes": "Frame/engine and linkage protection; carbon/Kevlar/glass layup.",
+      "supporting_parts": "Hardware included; clutch cover guard not included.",
+      "where_to_buy": [
+        {"seller": "Cycle Gear", "url": "https://www.cyclegear.com/parts/p3-carbon-fiber-skid-plate-ktm-husqvarna-gas-gas-450cc-2022-2024", "price_if_stated": "239.95", "currency": "USD", "date": "2026-10-14 (out of stock)"}
+      ],
+      "rider_feedback": [],
+      "caveats": "2022 fits only Factory/Rockstar Editions.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p3-carbon-skid-2t-250-300-2023",
+      "category": "protection",
+      "subcategory": "skid plate",
+      "brand": "P3 Carbon",
+      "product": "Carbon fiber skid plate, KTM/Husqvarna/GasGas 250-300 2-stroke 2023-2025",
+      "part_numbers": ["Cycle Gear item P1087690 (retailer)"],
+      "variants": "With or without linkage guard",
+      "platform_ids": ["ktm-sx-2023", "ktm-xc-2023", "husqvarna-mx-2023", "gasgas-mc-2024"],
+      "fits": [
+        {"make": "KTM", "model": "250 SX, 300 SX", "years": [2023, 2024], "notes": ""},
+        {"make": "KTM", "model": "250 XC", "years": [2023, 2024], "notes": "300 XC 2024"},
+        {"make": "Husqvarna", "model": "TC 250, TX 300", "years": [2023, 2024], "notes": ""},
+        {"make": "GasGas", "model": "MC 250, EX 250/300", "years": [2024], "notes": ""}
+      ],
+      "fitment_source_url": "https://www.cyclegear.com/parts/p3-carbon-fiber-skid-plate-ktm-husqvarna-gasgas-250cc-300cc-2023-2025",
+      "what_it_changes": "Engine/frame protection, 2-stroke specific shape (2T and 4T plates differ).",
+      "supporting_parts": "Hardware included.",
+      "where_to_buy": [
+        {"seller": "Cycle Gear", "url": "https://www.cyclegear.com/parts/p3-carbon-fiber-skid-plate-ktm-husqvarna-gasgas-250cc-300cc-2023-2025", "price_if_stated": "219.95", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Separate P3 listings for 125/150 2T 2023-2024 and 250/350 4T exist (not detailed). 2025+ 2T fitment list incomplete (2025 shows only XC-W Hardenduro).",
+      "confidence": "medium"
+    },
+    {
+      "id": "axp-xtrem-skid-450-2023",
+      "category": "protection",
+      "subcategory": "skid plate",
+      "brand": "AXP Racing",
+      "product": "Xtrem skid plate with integrated linkage guard, Husqvarna/KTM 450-501",
+      "part_numbers": ["RevZilla UPC 1088862 (retailer)"],
+      "variants": "8 mm HDPE; colour not specified",
+      "platform_ids": ["ktm-sx-2023", "husqvarna-mx-2023"],
+      "fits": [
+        {"make": "KTM / Husqvarna", "model": "450-501", "years": [2023, 2024], "notes": "Title says 2023-2027, URL says 2023-2024; MX vs enduro variants not split on page"}
+      ],
+      "fitment_source_url": "https://www.revzilla.com/motorcycle/axp-racing-xtrem-skid-plate-husqvarna-ktm-450cc-501cc-2023-2024",
+      "what_it_changes": "Full HDPE coverage incl. linkage; heavier but more abrasion/impact resistant than carbon (general HDPE trait, not claimed on page).",
+      "supporting_parts": "",
+      "where_to_buy": [
+        {"seller": "RevZilla", "url": "https://www.revzilla.com/motorcycle/axp-racing-xtrem-skid-plate-husqvarna-ktm-450cc-501cc-2023-2024", "price_if_stated": "159.95 (inferred from page metadata)", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "501 in title suggests an enduro-oriented listing; confirm MX (SX-F/FC) fit with AXP. No AXP part number.",
+      "confidence": "medium"
+    },
+    {
+      "id": "bpd-radiator-guards-ktm-rg-19",
+      "category": "protection",
+      "subcategory": "radiator guards",
+      "brand": "Bullet Proof Designs",
+      "product": "Radiator guards KTM/Husqvarna/GasGas 125-501",
+      "part_numbers": ["KTM-RG-19"],
+      "variants": "Black, orange, blue; silver +40 USD; optional mud kit",
+      "platform_ids": ["ktm-family-2016-2022"],
+      "fits": [
+        {"make": "KTM / Husqvarna / GasGas", "model": "125-501 all models", "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023], "notes": "Page title says 17-26, URL says 17-23; no fitment table. 2023+ chassis fit NOT confirmed."}
+      ],
+      "fitment_source_url": "https://aomc.mx/KTM-RG-19.html",
+      "what_it_changes": "Frame-mounted aluminium guards for frontal/side impact; claimed no cooling restriction, fan-kit compatible, ~3 oz/side over stock louver.",
+      "supporting_parts": "",
+      "where_to_buy": [
+        {"seller": "AOMC.mx", "url": "https://aomc.mx/KTM-RG-19.html", "price_if_stated": "290.00", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Year range conflict on retailer page; confirm with BPD for 2023+ KTM/Husky and 2024+ GasGas.",
+      "confidence": "unverified"
+    }
+  ],
+  "gaps": [
+    "Husqvarna 2026 FC/FX missing from several fitment lists (Raptor, P3) while 2027 listed - likely retailer data gaps; treat 2026 Husqvarna fitment as needing confirmation.",
+    "XC/XC-F 2023 chassis membership inferred from fitment lists, not from a KTM press statement.",
+    "Neken handlebar (stock on 2027 KTM) bends/SKUs, Renthal bars, grips, bar mounts not researched.",
+    "Galfer manufacturer part numbers and galferusa fitment page not reached; Braking, Brembo upgrades, EBC/Galfer pads, master cylinders not researched.",
+    "GasGas 2024+ Braktec brake compatibility for oversize rotor kits and Brembo-pattern levers unresolved (sources contradict).",
+    "Linkages / pull rods for KTM 2023+ not found in this pass.",
+    "Haan wheels (Sprocket Center custom KTM set) - no fitment, SKU or price captured. Warp 9, Talon, DID wheels, rim locks, spokes not researched.",
+    "Cycra and Acerbis handguards: Cycra listing had no fitment/SKU; KTM mount kits not identified.",
+    "Disc guards, frame guards, pipe guards, Enduro Engineering skid plates not researched.",
+    "Chains (DID, Regina, EK) and Renthal/JT/Talon sprockets not researched.",
+    "Works Connection Pro Launch for KTM 2023+/GasGas 2024+ not found (KTM 2023+ has OEM holeshot); WC Elite perches, brake pedals, shift levers not researched.",
+    "KTM 85 SX 2025+ aftermarket fitment (20 mm rear axle) not researched; Husqvarna TC 85 / GasGas MC 85 2025 platform sharing unconfirmed.",
+    "Luxon and Ride Engineering 2023+ part numbers/prices not captured (RMATV page blocked by bot protection).",
+    "GPR steering damper 2023+ KTM kit not found (only old V4 kits)."
+  ],
+  "not_done": [
+    "Search budget (~35) reached at 34 searches; remaining categories listed in gaps.",
+    "2020-2022 previous-generation coverage only where a product's listing also spanned those years.",
+    "No manufacturer sites fetched for Xtrig, Luxon, Galfer, P3, Raptor, Fastway, Guts - all medium confidence from retailers except ASV (manufacturer page)."
+  ]
+}

@@ -1,0 +1,784 @@
+{
+  "slice": "OEM accessories",
+  "retrieved": "2026-10-14",
+  "notes": "Fitment lists come mostly from KTM Direct (ktmdirect.co.uk, UK KTM dealer) product pages, which print a per-part model/year compatibility list, and from AOMC (aomc.mx, US KTM/Husqvarna/GasGas dealer) product titles. No official KTM/Husqvarna/GasGas web page with part number + fitment was found, so nothing is rated 'high'. Dealer fitment lists stop at MY2026 (2027 not yet populated); AOMC titles often say '23-27'. Enduro models (EXC, XC-W, TE, FE, EC, SMR) are removed from fits even where the source lists them.",
+  "platforms": [
+    {
+      "id": "ktm-4t-2023",
+      "description": "KTM-group 4-stroke MX/XC chassis introduced MY2023 (new frame, engine, bodywork). The SX-F Factory Editions released in 2022 as early MY23 bikes are catalogued by dealers as 'Factory Edition 2022'. Carried through 2026; KTM's 2027 350 SX-F page describes 'revised frame updates' (shock-mount area, engine mounts, front-frame wall thickness) without a new generation.",
+      "models_years": "KTM 250/350/450 SX-F 2023-2027 (Factory Edition from 2022), 250/350/450 XC-F 2023+; Husqvarna FC 250/350/450 and FX 350/450 2023+; GasGas MC 250F/350F/450F and EX 2024+ (see gg-2024)",
+      "source_url": "https://ktmdirect.co.uk/products/factory-racing-triple-clamp-a46001999021c1a ; https://www.ktm.com/en-lt/models/motocross/4-stroke/2027-ktm-350-sx-f.html"
+    },
+    {
+      "id": "ktm-2t-2023",
+      "description": "KTM-group 2-stroke MX/XC chassis (2023+ frame shared with 4T; throttle-body injection 2-strokes). Dealer fitment lists put 125 SX, 300 SX, 125/250/300 XC on this platform from 2023; 250 SX appears from 2024 on some parts (triple clamp, expansion chamber). Treat the 250 SX 2023 as needing a per-part check.",
+      "models_years": "KTM 125 SX 2023+, 150 SX 2025, 250 SX 2023/2024+, 300 SX 2023+, 125/250/300 XC 2023+; Husqvarna TC 125/250, TX 300 2023+; GasGas MC 125/250, EX 300 2024+",
+      "source_url": "https://ktmdirect.co.uk/products/factory-racing-expansion-chamber-a44005907500"
+    },
+    {
+      "id": "hqv-2023",
+      "description": "Husqvarna TC/FC/TX/FX on the shared 2023+ platform. AOMC labels shared parts 'SX/TC/Enduro 23-27' or 'SX-F/XC-F/FX 23-27'.",
+      "models_years": "Husqvarna TC 125/250, FC 250/350/450, TX 300, FX 350/450 2023-2027",
+      "source_url": "https://aomc.mx/KTM-SX-F-Clutch-Cover-Protection-23-25-A48030994144.html"
+    },
+    {
+      "id": "gg-2024",
+      "description": "GasGas MC range moved to the shared KTM/Husqvarna platform for MY2024: all-new frame, new forged triple clamps, new engines, WP XACT suspension, new bodywork, Neken bar. The map select switch is fitted on the MC 125, optional on the MC 250 2-stroke, and an add-on for the 4-strokes; on the 4-strokes it enables launch control, traction control and quickshift.",
+      "models_years": "GasGas MC 125, MC 250, MC 250F, MC 350F, MC 450F 2024+ (EX cross-country models assumed to follow; not verified)",
+      "source_url": "https://www.bikesales.com.au/editorial/details/overhauled-gasgas-2024-motocross-range-revealed-141792"
+    },
+    {
+      "id": "ktm-4t-2019-2022",
+      "description": "Previous KTM/Husqvarna 4-stroke MX generation (2019-2022 450 SX-F/XC-F, FC/FX equivalents). Covered here only by the Akrapovič Racing Line 79505901044.",
+      "models_years": "KTM 450 SX-F/XC-F 2019-2022; Husqvarna FC/FX 450 2019-2022 (per AOMC 'KTM/HQV' title)",
+      "source_url": "https://aomc.mx/KTM-Powerparts-Akrapovic-Racing-Line-Exhaust-System-450-SX-FXC-F-19-22-79505901044.html"
+    },
+    {
+      "id": "ktm-wp-fork-2015-2026",
+      "description": "Parts keyed to the WP fork outer tube (e.g. start device) that span 2015-2026 regardless of chassis generation.",
+      "models_years": "KTM SX/SX-F/XC/XC-F 2015-2026",
+      "source_url": "https://ktmdirect.co.uk/products/factory-start-device-a54001996500faa"
+    }
+  ],
+  "products": [
+    {
+      "id": "ktm-cuo-a46014986088eb",
+      "category": "electronics",
+      "subcategory": "connectivity / data / engine tuning",
+      "brand": "KTM PowerParts",
+      "product": "Connectivity Unit Offroad (CUO) / Connectivity Unit GPS Fender Kit",
+      "part_numbers": ["A46014986088EB"],
+      "variants": "Kit contents: Connectivity Unit Kit A46014986033, GPS Antenna Kit A46014987033, front fender A46008010144EB, mounting hardware",
+      "platform_ids": ["ktm-4t-2023"],
+      "fits": [
+        {"make": "KTM", "model": "250 SX-F", "years": [2023, 2024, 2025], "notes": "Also 250 SX-F Adamo Edition 2025, 250 SX-F Factory Edition 2022-2025"},
+        {"make": "KTM", "model": "350 SX-F", "years": [2023, 2024, 2025], "notes": ""},
+        {"make": "KTM", "model": "450 SX-F", "years": [2023, 2024, 2025], "notes": "Also 450 SX-F Factory Edition 2022-2025 (standard on 2024+ Factory Editions)"},
+        {"make": "KTM", "model": "250 XC-F", "years": [2023, 2024], "notes": ""},
+        {"make": "KTM", "model": "350 XC-F", "years": [2023, 2024], "notes": "Also 350 XC-F Factory Edition 2023-2024"},
+        {"make": "KTM", "model": "450 XC-F", "years": [2023, 2024], "notes": ""},
+        {"make": "Husqvarna", "model": "FC / FX 4-stroke", "years": [2023, 2024], "notes": "Enduro21 says equivalent Husqvarna and GasGas 4T MX/XC models have their own CUO kits. Part numbers were not found."},
+        {"make": "GasGas", "model": "MC-F / EX-F 4-stroke", "years": [2023, 2024], "notes": "Pairs with the GASGAS+ app. Standard on 2024 MC 250F/450F Factory Edition. GasGas part number not found."}
+      ],
+      "fitment_source_url": "https://ktmdirect.co.uk/products/connectivity-unit-gps-fender-kit-a46014986088eb",
+      "what_it_changes": "Bluetooth unit (between the fork and triple clamp, behind the number plate) plus a GPS receiver on the fender, paired with the free KTMconnect app. It adds engine settings (PRIME/ADVANCED modes, engine braking, throttle response, TC, launch control, quickshifter, track presets), a sag assistant and suspension recommendations. Rider Coach adds lap data (manufacturer/dealer claim).",
+      "supporting_parts": "MY22 and MY23 4-strokes need a dealer EFI mapping update; MY24 4T needs none (KTM Direct). The KTMconnect app is required. The replacement fender is included.",
+      "where_to_buy": [
+        {"seller": "KTM Direct (UK)", "url": "https://ktmdirect.co.uk/products/connectivity-unit-gps-fender-kit-a46014986088eb", "price_if_stated": 216.00, "currency": "GBP", "date": "2026-10-14"},
+        {"seller": "Authorised dealers (RRP per Enduro21)", "url": "https://enduro21.com/en/products-reviews/latest/quick-look-2023-2024-ktm-sx-f-and-xc-f-connectivity-unit-offroad", "price_if_stated": 249.99, "currency": "USD", "date": "article undated (2023-2024 era)"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Rider Coach needs a subscription after a 1-month trial (GBP 59.99/yr, KTM Direct). The dealer list stops at MY2025 SX-F and MY2024 XC-F, so check 2026+ with a dealer.",
+      "confidence": "medium"
+    },
+    {
+      "id": "ktm-factory-triple-clamp-2023",
+      "category": "chassis",
+      "subcategory": "triple clamps",
+      "brand": "KTM PowerParts / WP Factory Racing (also sold by Husqvarna and GasGas)",
+      "product": "Factory Racing Triple Clamp (2023+ platform)",
+      "part_numbers": ["A46001999021C1A", "A4600199902104A", "A46001999021FAA"],
+      "variants": "A46001999021C1A = black (sold by KTM Direct and Husqvarna dealers; AOMC calls it 'WP Factory Racing Triple Clamps (Black)'); A4600199902104A = orange (AOMC 'KTM Factory Racing Triple Clamps 2023 SX (Orange)'); A46001999021FAA = GasGas variant (AOMC 'GasGas Factory Racing Triple Clamp MC 250F/450F 2024', colour not stated)",
+      "platform_ids": ["ktm-4t-2023", "ktm-2t-2023", "hqv-2023", "gg-2024"],
+      "fits": [
+        {"make": "KTM", "model": "125 SX", "years": [2023, 2024, 2025, 2026], "notes": ""},
+        {"make": "KTM", "model": "150 SX", "years": [2025], "notes": ""},
+        {"make": "KTM", "model": "250 SX", "years": [2024, 2025, 2026], "notes": "2023 not listed"},
+        {"make": "KTM", "model": "300 SX", "years": [2023, 2024, 2025, 2026], "notes": ""},
+        {"make": "KTM", "model": "250 SX-F", "years": [2023, 2024, 2025, 2026], "notes": "Also Factory Edition 2022-2026 and Adamo Edition 2025"},
+        {"make": "KTM", "model": "350 SX-F", "years": [2023, 2024, 2025, 2026], "notes": ""},
+        {"make": "KTM", "model": "450 SX-F", "years": [2023, 2024, 2025, 2026], "notes": "Also Factory Edition 2022-2026"},
+        {"make": "KTM", "model": "125 XC", "years": [2023, 2024, 2025], "notes": ""},
+        {"make": "KTM", "model": "250 XC", "years": [2023, 2024, 2025, 2026], "notes": ""},
+        {"make": "KTM", "model": "300 XC", "years": [2023, 2024, 2025, 2026], "notes": ""},
+        {"make": "KTM", "model": "250 XC-F", "years": [2023, 2024, 2025, 2026], "notes": ""},
+        {"make": "KTM", "model": "350 XC-F", "years": [2023, 2024, 2025], "notes": "Also XC-F Factory Edition 2023-2026"},
+        {"make": "KTM", "model": "450 XC-F", "years": [2023, 2024, 2025, 2026], "notes": ""},
+        {"make": "Husqvarna", "model": "TC / FC (equivalents)", "years": [2023, 2024, 2025, 2026], "notes": "A46001999021C1A is sold as a Husqvarna part (Iron City Motorcycles listing). AOMC labels it 'SX/TC/Enduro 22-26'. Husqvarna fitment list not retrieved."},
+        {"make": "GasGas", "model": "MC 250F / MC 450F", "years": [2024], "notes": "A46001999021FAA per AOMC title. The 2024 GasGas Factory Edition is fitted with CNC triple clamps with two offsets."}
+      ],
+      "fitment_source_url": "https://ktmdirect.co.uk/products/factory-racing-triple-clamp-a46001999021c1a",
+      "what_it_changes": "CNC-milled anodised aluminium clamps with 20 or 22 mm offset (shorter for straight-line stability, longer for quicker turning). Claimed tuned flex for the WP fork, precise fork-tube alignment and no ovalisation of the outer tube (manufacturer claim via dealer).",
+      "supporting_parts": "The kit includes the triple clamp and a steering stem with the steering head bearing pressed on. No other parts are listed.",
+      "where_to_buy": [
+        {"seller": "KTM Direct (UK)", "url": "https://ktmdirect.co.uk/products/factory-racing-triple-clamp-a46001999021c1a", "price_if_stated": 497.00, "currency": "GBP", "date": "2026-10-14"},
+        {"seller": "KTM Direct (UK), orange", "url": "https://ktmdirect.co.uk/products/factory-racing-triple-clamp-a4600199902104a", "price_if_stated": 497.00, "currency": "GBP", "date": "2026-10-14"},
+        {"seller": "AOMC (US), orange", "url": "https://aomc.mx/KTM-Factory-Racing-Triple-Clamps-2023-SX-Orange-A4600199902104A.html", "price_if_stated": 612.99, "currency": "USD", "date": "2026-10-14"},
+        {"seller": "AOMC (US), GasGas", "url": "https://aomc.mx/GasGas-Factory-Racing-Triple-Clamp-MC-250F450F-2024-A46001999021FAA.html", "price_if_stated": 612.99, "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "The dealer warns that colour may differ between the upper and lower clamp. The previous generation used other numbers (e.g. 79701999021C1A); its fitment was not retrieved.",
+      "confidence": "medium"
+    },
+    {
+      "id": "ktm-factory-start-device",
+      "category": "chassis",
+      "subcategory": "holeshot / start device",
+      "brand": "KTM PowerParts (WP)",
+      "product": "Factory Start Device",
+      "part_numbers": ["A54001996500FAA", "A54001996000FAA"],
+      "variants": "Two numbers listed by KTM Direct with identical fitment lists. A54001996500FAA is described as having two selectable preloads and a two-part design for easier fork-ring fitting. A54001996000FAA's description gives no preload detail. The relationship (supersession or colour) is not stated.",
+      "platform_ids": ["ktm-wp-fork-2015-2026", "ktm-4t-2023", "ktm-2t-2023"],
+      "fits": [
+        {"make": "KTM", "model": "125 SX", "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026], "notes": ""},
+        {"make": "KTM", "model": "250 SX", "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026], "notes": ""},
+        {"make": "KTM", "model": "300 SX", "years": [2023, 2024, 2025, 2026], "notes": ""},
+        {"make": "KTM", "model": "250 SX-F", "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026], "notes": "Incl. Factory Edition 2015-2026, Adamo 2025, Prado 2020"},
+        {"make": "KTM", "model": "350 SX-F", "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026], "notes": ""},
+        {"make": "KTM", "model": "450 SX-F", "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026], "notes": "Incl. Factory Edition 2015-2026, Cairoli 2020, Herlings Replica 2019"},
+        {"make": "KTM", "model": "125 XC", "years": [2021, 2022, 2023, 2024, 2025], "notes": ""},
+        {"make": "KTM", "model": "250 XC", "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026], "notes": "Incl. XC TPI 2020-2022"},
+        {"make": "KTM", "model": "300 XC", "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026], "notes": "Incl. XC TPI 2020-2022"},
+        {"make": "KTM", "model": "250 XC-F", "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026], "notes": ""},
+        {"make": "KTM", "model": "350 XC-F", "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025], "notes": "Also XC-F Factory Edition 2022-2026"},
+        {"make": "KTM", "model": "450 XC-F", "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026], "notes": ""},
+        {"make": "KTM", "model": "150 SX", "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025], "notes": "Listed on the A54001996000FAA page only"}
+      ],
+      "fitment_source_url": "https://ktmdirect.co.uk/products/factory-start-device-a54001996500faa",
+      "what_it_changes": "Fork-mounted holeshot device that compresses the fork for gate starts, for more traction off the line. High-strength anodised aluminium that mounts without removing the fork (dealer description).",
+      "supporting_parts": "None listed.",
+      "where_to_buy": [
+        {"seller": "KTM Direct (UK)", "url": "https://ktmdirect.co.uk/products/factory-start-device-a54001996500faa", "price_if_stated": 89.00, "currency": "GBP", "date": "2026-10-14"},
+        {"seller": "KTM Direct (UK)", "url": "https://ktmdirect.co.uk/collections/ktm-450-sx-f-factory-edition-2025-powerparts-accessories/products/factory-start-device-a54001996000faa", "price_if_stated": 89.00, "currency": "GBP", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "The 2015-2026 span covers several fork generations (4CS/AER/XACT), so this list may be over-broad dealer data. Confirm the fork-ring diameter for your model with a dealer. Husqvarna and GasGas equivalents were not verified.",
+      "confidence": "medium"
+    },
+    {
+      "id": "akra-slipon-350-450-a48005979000",
+      "category": "exhaust",
+      "subcategory": "slip-on muffler",
+      "brand": "Akrapovič (sold as KTM PowerParts / Husqvarna / GasGas)",
+      "product": "Akrapovič Slip-On Line (titanium), 350/450 SX-F/XC-F",
+      "part_numbers": ["A48005979000"],
+      "variants": "Titanium",
+      "platform_ids": ["ktm-4t-2023", "hqv-2023", "gg-2024"],
+      "fits": [
+        {"make": "KTM", "model": "350 SX-F", "years": [2023, 2024, 2025, 2026], "notes": ""},
+        {"make": "KTM", "model": "450 SX-F", "years": [2023, 2024, 2025, 2026], "notes": "Also Factory Edition 2022-2026 (Akrapovič slip-on is standard on the FE)"},
+        {"make": "KTM", "model": "350 XC-F", "years": [2023, 2024, 2025], "notes": "Also XC-F Factory Edition 2023-2026"},
+        {"make": "KTM", "model": "450 XC-F", "years": [2023, 2024, 2025, 2026], "notes": ""},
+        {"make": "Husqvarna/GasGas", "model": "FC/FX 350-450, MC 350F/450F", "years": [2023, 2024, 2025, 2026, 2027], "notes": "AOMC labels it 'KTM/HQV/GG ... 350/450 SX-F/XC-F 23-27'. Model-level list not retrieved."}
+      ],
+      "fitment_source_url": "https://ktmdirect.co.uk/products/akrapovic-slip-on-line-exhaust-a48005979000",
+      "what_it_changes": "Titanium slip-on with welded brackets. Claimed weight saving and more performance (no figures given). Stated to comply with current FIM noise regulations.",
+      "supporting_parts": "Recommended: Akrapovič Heat Protection A48005994000.",
+      "where_to_buy": [
+        {"seller": "KTM Direct (UK)", "url": "https://ktmdirect.co.uk/products/akrapovic-slip-on-line-exhaust-a48005979000", "price_if_stated": 724.00, "currency": "GBP", "date": "2026-10-14"},
+        {"seller": "AOMC (US)", "url": "https://aomc.mx/KTM-SX-F-Clutch-Cover-Protection-23-25-A48030994144.html", "price_if_stated": 899.99, "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Competition use. See the MY26/27 airbox caveat on the 250 slip-on (A46005979000); it may also apply to the 350/450 but is not confirmed on this page.",
+      "confidence": "medium"
+    },
+    {
+      "id": "akra-slipon-250-a46005979000",
+      "category": "exhaust",
+      "subcategory": "slip-on muffler",
+      "brand": "Akrapovič (sold as KTM PowerParts / Husqvarna / GasGas)",
+      "product": "Akrapovič Slip-On Line (titanium), 250 SX-F/XC-F",
+      "part_numbers": ["A46005979000"],
+      "variants": "Titanium. Spares: noise insert A48005979030, main silencer assembly kit A48005979060, silencer cap A46005979050, damping material kit A46005979010, exhaust spring 57305989100",
+      "platform_ids": ["ktm-4t-2023", "hqv-2023", "gg-2024"],
+      "fits": [
+        {"make": "KTM", "model": "250 SX-F", "years": [2023, 2024, 2025, 2026, 2027], "notes": "Per AOMC title '250 SX-F/XC-F 23-27'"},
+        {"make": "KTM", "model": "250 XC-F", "years": [2023, 2024, 2025, 2026, 2027], "notes": ""},
+        {"make": "Husqvarna", "model": "FC 250 / FX 250 equivalent", "years": [2023, 2024, 2025, 2026, 2027], "notes": "KTM/HQV/GG label"},
+        {"make": "GasGas", "model": "MC 250F", "years": [2024, 2025, 2026, 2027], "notes": "AOMC: GasGas installation requires modifying the stock mounting parts"}
+      ],
+      "fitment_source_url": "https://aomc.mx/KTM-Powerparts-Akrapovic-Slip-On-Line-Muffler-250-SX-FXC-F-23-24-A46005979000.html",
+      "what_it_changes": "Titanium slip-on. Claimed performance gain and weight saving. FIM-compliant in the original configuration.",
+      "supporting_parts": "Recommended: Heat Protection A48005994000. For EU MY26+ and US MY26 Factory Edition / MY27 standard bikes, the airbox and air filter must revert to MY25 parts and the correct engine map must be installed (AOMC).",
+      "where_to_buy": [
+        {"seller": "AOMC (US)", "url": "https://aomc.mx/KTM-Powerparts-Akrapovic-Slip-On-Line-Muffler-250-SX-FXC-F-23-24-A46005979000.html", "price_if_stated": 899.99, "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Important: AOMC states that bikes in the MY26+/MY27 converted configuration no longer meet the 109 dB FIM noise limit. Competition only.",
+      "confidence": "medium"
+    },
+    {
+      "id": "akra-racing-450-a48005901044",
+      "category": "exhaust",
+      "subcategory": "full system",
+      "brand": "Akrapovič (KTM PowerParts)",
+      "product": "Akrapovič Racing Line full system, 450 SX-F/XC-F",
+      "part_numbers": ["A48005901044"],
+      "variants": "Stainless-steel header, titanium silencer",
+      "platform_ids": ["ktm-4t-2023", "hqv-2023", "gg-2024"],
+      "fits": [
+        {"make": "KTM", "model": "450 SX-F", "years": [2023, 2024, 2025, 2026], "notes": "Also Factory Edition 2022-2026"},
+        {"make": "KTM", "model": "450 XC-F", "years": [2023, 2024, 2025, 2026], "notes": ""},
+        {"make": "Husqvarna/GasGas", "model": "FC/FX 450, MC 450F", "years": [2023, 2024, 2025, 2026, 2027], "notes": "AOMC title 'KTM/HQV/GG ... 450 SX-F/XC-F 23-27'"}
+      ],
+      "fitment_source_url": "https://ktmdirect.co.uk/products/akrapovic-racing-line-exhaust-a48005901044",
+      "what_it_changes": "0.6 kg (16.7%) lighter than stock. Claimed better power delivery, a wider usable rev range and sharper throttle response. Complies with FIM and AMA noise rules (manufacturer claim via dealer).",
+      "supporting_parts": "Recommended: Heat Protection A48005994000.",
+      "where_to_buy": [
+        {"seller": "KTM Direct (UK)", "url": "https://ktmdirect.co.uk/products/akrapovic-racing-line-exhaust-a48005901044", "price_if_stated": 1267.00, "currency": "GBP", "date": "2026-10-14"},
+        {"seller": "AOMC (US)", "url": "https://aomc.mx/KTM-Powerparts-Akrapovic-Racing-Line-Exhaust-System-450-SX-FXC-F-23-24-A48005901044.html", "price_if_stated": 1391.99, "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Competition use. MY26+ airbox/mapping interaction unconfirmed for this system.",
+      "confidence": "medium"
+    },
+    {
+      "id": "akra-racing-250-350-a46005901044",
+      "category": "exhaust",
+      "subcategory": "full system",
+      "brand": "Akrapovič (KTM PowerParts)",
+      "product": "Akrapovič Racing Line full system, 250/350 SX-F/XC-F",
+      "part_numbers": ["A46005901044"],
+      "variants": "Stainless-steel header, titanium silencer",
+      "platform_ids": ["ktm-4t-2023", "hqv-2023", "gg-2024"],
+      "fits": [
+        {"make": "KTM", "model": "250 SX-F", "years": [2023, 2024, 2025, 2026], "notes": "Also Factory Edition 2022-2026 and Adamo Edition 2025"},
+        {"make": "KTM", "model": "350 SX-F", "years": [2023, 2024, 2025, 2026], "notes": ""},
+        {"make": "KTM", "model": "250 XC-F", "years": [2023, 2024, 2025, 2026], "notes": ""},
+        {"make": "KTM", "model": "350 XC-F", "years": [2023, 2024, 2025], "notes": "Also XC-F Factory Edition 2023-2026"},
+        {"make": "Husqvarna/GasGas", "model": "FC/FX 250-350, MC 250F/350F", "years": [2023, 2024, 2025, 2026, 2027], "notes": "AOMC title 'KTM/HQV/GG Akrapovič Racing Line 250/350 SX-F/XC-F 23-27'"}
+      ],
+      "fitment_source_url": "https://ktmdirect.co.uk/products/akrapovic-racing-line-a46005901044",
+      "what_it_changes": "Claimed wider usable rev range, better power delivery and finer throttle response. Complies with FIM and AMA noise rules (claim).",
+      "supporting_parts": "None listed.",
+      "where_to_buy": [
+        {"seller": "KTM Direct (UK)", "url": "https://ktmdirect.co.uk/products/akrapovic-racing-line-a46005901044", "price_if_stated": 1265.00, "currency": "GBP", "date": "2026-10-14"},
+        {"seller": "AOMC (US)", "url": "https://aomc.mx/KTM-Powerparts-Akrapovic-Racing-Line-Exhaust-System-250350-SX-FXC-F-23-24-A46005901044.html", "price_if_stated": 1391.99, "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Competition use. Check the MY26+ airbox caveat (see A46005979000).",
+      "confidence": "medium"
+    },
+    {
+      "id": "akra-evolution-450-a48005900044",
+      "category": "exhaust",
+      "subcategory": "full system",
+      "brand": "Akrapovič (KTM PowerParts)",
+      "product": "Akrapovič Evolution Line full titanium system, 450 SX-F/XC-F",
+      "part_numbers": ["A48005900044"],
+      "variants": "Full titanium",
+      "platform_ids": ["ktm-4t-2023"],
+      "fits": [
+        {"make": "KTM", "model": "450 SX-F", "years": [2023, 2024, 2025, 2026], "notes": "Also Factory Edition 2022-2026"},
+        {"make": "KTM", "model": "450 XC-F", "years": [2023, 2024, 2025, 2026], "notes": ""}
+      ],
+      "fitment_source_url": "https://ktmdirect.co.uk/products/akrapovic-evolution-line-exhaust-a48005900044",
+      "what_it_changes": "0.9 kg (23.8%) lighter than stock. Claimed better power delivery and throttle response. FIM/AMA noise compliant (claim).",
+      "supporting_parts": "Recommended: Heat Protection A48005994000.",
+      "where_to_buy": [
+        {"seller": "KTM Direct (UK)", "url": "https://ktmdirect.co.uk/products/akrapovic-evolution-line-exhaust-a48005900044", "price_if_stated": 1448.00, "currency": "GBP", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Competition use. Husqvarna/GasGas fitment not verified.",
+      "confidence": "medium"
+    },
+    {
+      "id": "akra-racing-450-2019-2022-79505901044",
+      "category": "exhaust",
+      "subcategory": "full system",
+      "brand": "Akrapovič (KTM PowerParts / Husqvarna)",
+      "product": "Akrapovič Racing Line full system, 450 SX-F/XC-F 2019-2022",
+      "part_numbers": ["79505901044"],
+      "variants": "Stainless header, titanium silencer. Matching heat protection 79505994000",
+      "platform_ids": ["ktm-4t-2019-2022"],
+      "fits": [
+        {"make": "KTM", "model": "450 SX-F", "years": [2019, 2020, 2021, 2022], "notes": "Per AOMC title"},
+        {"make": "KTM", "model": "450 XC-F", "years": [2019, 2020, 2021, 2022], "notes": ""},
+        {"make": "Husqvarna", "model": "FC 450 / FX 450", "years": [2019, 2020, 2021, 2022], "notes": "AOMC title says 'KTM/HQV'; Husqvarna model mapping inferred"}
+      ],
+      "fitment_source_url": "https://aomc.mx/KTM-Powerparts-Akrapovic-Racing-Line-Exhaust-System-450-SX-FXC-F-19-22-79505901044.html",
+      "what_it_changes": "Claimed better low-end torque, a wider usable range, smoother engine braking and better throttle response. FIM/AMA compliant (claim).",
+      "supporting_parts": "Recommended: Akrapovič Heat Protection 79505994000 (USD 104.99 at AOMC).",
+      "where_to_buy": [
+        {"seller": "AOMC (US)", "url": "https://aomc.mx/KTM-Powerparts-Akrapovic-Racing-Line-Exhaust-System-450-SX-FXC-F-19-22-79505901044.html", "price_if_stated": 1049.99, "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Out of stock/backordered at AOMC on retrieval. GasGas MC 450F 2021-2023 (the earlier KTM-derived platform) not confirmed.",
+      "confidence": "medium"
+    },
+    {
+      "id": "akra-heat-protection-a48005994000",
+      "category": "exhaust",
+      "subcategory": "heat shield",
+      "brand": "Akrapovič (KTM PowerParts)",
+      "product": "Akrapovič Heat Protection",
+      "part_numbers": ["A48005994000"],
+      "variants": "",
+      "platform_ids": ["ktm-4t-2023", "hqv-2023", "gg-2024"],
+      "fits": [
+        {"make": "KTM/Husqvarna/GasGas", "model": "250/450 SX-F (and equivalents)", "years": [2023, 2024, 2025, 2026, 2027], "notes": "AOMC label 'KTM/HQV/GG Akrapovic Heat Protection 250/450 SX-F 23-27'. Recommended by KTM Direct for A48005979000, A48005901044 and A48005900044."}
+      ],
+      "fitment_source_url": "https://aomc.mx/KTM-Powerparts-Akrapovic-Slip-On-Line-Muffler-250-SX-FXC-F-23-24-A46005979000.html",
+      "what_it_changes": "Heat guard for the Akrapovič silencer/header.",
+      "supporting_parts": "",
+      "where_to_buy": [
+        {"seller": "AOMC (US)", "url": "https://aomc.mx/KTM-Powerparts-Akrapovic-Slip-On-Line-Muffler-250-SX-FXC-F-23-24-A46005979000.html", "price_if_stated": 131.99, "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Model-level fitment list not retrieved.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "fmf-factory41-rct-oem-2023",
+      "category": "exhaust",
+      "subcategory": "slip-on muffler",
+      "brand": "FMF (sold via KTM/Husqvarna/GasGas dealer PowerParts channel)",
+      "product": "FMF Factory 4.1 RCT Silencer 250/350 SX-F/XC-F 23-27",
+      "part_numbers": [],
+      "variants": "Blue (USD 854.99) and Black (USD 674.99) per AOMC",
+      "platform_ids": ["ktm-4t-2023", "hqv-2023", "gg-2024"],
+      "fits": [
+        {"make": "KTM/Husqvarna/GasGas", "model": "250/350 SX-F/XC-F equivalents", "years": [2023, 2024, 2025, 2026, 2027], "notes": "From an AOMC related-product title only"}
+      ],
+      "fitment_source_url": "https://aomc.mx/KTM-Powerparts-Akrapovic-Slip-On-Line-Muffler-250-SX-FXC-F-23-24-A46005979000.html",
+      "what_it_changes": "Not stated.",
+      "supporting_parts": "",
+      "where_to_buy": [
+        {"seller": "AOMC (US)", "url": "https://aomc.mx/KTM-Powerparts-Akrapovic-Slip-On-Line-Muffler-250-SX-FXC-F-23-24-A46005979000.html", "price_if_stated": 854.99, "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "No part number captured. It may be an FMF retail part rather than an OEM PowerPart, so overlap with the aftermarket slice is possible.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "ktm-factory-expansion-chamber-a44005907500",
+      "category": "exhaust",
+      "subcategory": "2-stroke expansion chamber",
+      "brand": "KTM PowerParts (Factory Racing)",
+      "product": "Factory Racing Expansion Chamber (250/300 2-stroke)",
+      "part_numbers": ["A44005907500"],
+      "variants": "Stainless steel, natural finish",
+      "platform_ids": ["ktm-2t-2023"],
+      "fits": [
+        {"make": "KTM", "model": "250 SX", "years": [2024, 2025, 2026], "notes": ""},
+        {"make": "KTM", "model": "300 SX", "years": [2023, 2024, 2025, 2026], "notes": ""},
+        {"make": "KTM", "model": "250 XC", "years": [2023, 2024], "notes": ""},
+        {"make": "KTM", "model": "300 XC", "years": [2023, 2024], "notes": ""}
+      ],
+      "fitment_source_url": "https://ktmdirect.co.uk/products/factory-racing-expansion-chamber-a44005907500",
+      "what_it_changes": "Claimed more power and torque and better throttle response. About 0.4 kg (nearly 20%) lighter than stock. Works with the standard silencer (dealer description).",
+      "supporting_parts": "Not listed; reuses the stock silencer.",
+      "where_to_buy": [
+        {"seller": "KTM Direct (UK)", "url": "https://ktmdirect.co.uk/products/factory-racing-expansion-chamber-a44005907500", "price_if_stated": 270.00, "currency": "GBP", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "XC fitment stops at 2024 in the dealer list. Husqvarna TC 250 / TX 300 and GasGas MC 250 / EX 300 fit not verified.",
+      "confidence": "medium"
+    },
+    {
+      "id": "ktm-factory-skid-plate-a46003990144",
+      "category": "protection",
+      "subcategory": "skid plate",
+      "brand": "KTM PowerParts (Factory)",
+      "product": "Factory Skid Plate (carbon/plastic, 4-stroke)",
+      "part_numbers": ["A46003990144", "A46003990044 (replaced)"],
+      "variants": "Carbon fibre + plastic, 2-component injection moulded",
+      "platform_ids": ["ktm-4t-2023", "gg-2024"],
+      "fits": [
+        {"make": "KTM", "model": "250 SX-F", "years": [2023, 2024, 2025], "notes": "Also Factory Edition 2022-2025 and Adamo 2025"},
+        {"make": "KTM", "model": "350 SX-F", "years": [2023, 2024, 2025], "notes": ""},
+        {"make": "KTM", "model": "450 SX-F", "years": [2023, 2024, 2025], "notes": "Also Factory Edition 2022-2025"},
+        {"make": "KTM", "model": "250 XC-F", "years": [2023, 2024], "notes": ""},
+        {"make": "KTM", "model": "350 XC-F", "years": [2023, 2024], "notes": "Also XC-F Factory Edition 2023-2025"},
+        {"make": "KTM", "model": "450 XC-F", "years": [2023, 2024], "notes": ""},
+        {"make": "GasGas", "model": "MC 250F / MC 450F", "years": [2024], "notes": "AOMC lists it as a related part on the GasGas MC 250F/450F 2024 page (KTM/HQV/GG shared). A factory skid plate is fitted to the 2024 GasGas FE."}
+      ],
+      "fitment_source_url": "https://ktmdirect.co.uk/products/factory-skid-plate-a46003990144",
+      "what_it_changes": "Light carbon/plastic engine and frame protection (claim).",
+      "supporting_parts": "None listed.",
+      "where_to_buy": [
+        {"seller": "KTM Direct (UK)", "url": "https://ktmdirect.co.uk/products/factory-skid-plate-a46003990144", "price_if_stated": 180.00, "currency": "GBP", "date": "2026-10-14"},
+        {"seller": "AOMC (US)", "url": "https://aomc.mx/GasGas-Factory-Racing-Triple-Clamp-MC-250F450F-2024-A46001999021FAA.html", "price_if_stated": 230.99, "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "No 2026 fitment listed (the 2026 frame/engine may need a different part). 2-stroke not covered.",
+      "confidence": "medium"
+    },
+    {
+      "id": "ktm-factory-wheels-orange",
+      "category": "wheels",
+      "subcategory": "complete wheels",
+      "brand": "KTM PowerParts",
+      "product": "KTM Factory Front Wheel 1.6x21\" and Factory Rear Wheel 2.15x19\" (orange hubs)",
+      "part_numbers": ["A4600990104404", "A4601090104404"],
+      "variants": "Front 1.6x21 orange A4600990104404; rear 2.15x19 orange A4601090104404. Earlier front A46009901044C1 (replaces 7900990114430) is listed as no longer available from the manufacturer (motorcyclespareparts.eu).",
+      "platform_ids": ["ktm-4t-2023", "ktm-2t-2023"],
+      "fits": [
+        {"make": "KTM", "model": "SX / SX-F / XC / XC-F full-size", "years": [2023, 2024, 2025, 2026, 2027], "notes": "AOMC titles: front 'SX/XC/Enduro 15-27' (URL says 16-24); rear 'SX/XC/Enduro 22-27'. Model-level list did not load, so verify with a dealer."}
+      ],
+      "fitment_source_url": "https://aomc.mx/KTM-Factory-Front-Wheel-16-x-21-125-500-16-24-A4600990104404.html",
+      "what_it_changes": "One-piece machined anodised hub and anodised aluminium nipples. Claimed lighter than stock, with better handling and stability.",
+      "supporting_parts": "Disc, sprocket, tyre and bearings are not stated as included. Spare: Factory Rear Wheel Bearing Repair Kit A46010919000C1 (USD 86.99) / A46010919000EB (GBP 68).",
+      "where_to_buy": [
+        {"seller": "AOMC (US), front", "url": "https://aomc.mx/KTM-Factory-Front-Wheel-16-x-21-125-500-16-24-A4600990104404.html", "price_if_stated": 519.99, "currency": "USD", "date": "2026-10-14"},
+        {"seller": "AOMC (US), rear 2.15x19", "url": "https://aomc.mx/KTM-Factory-Front-Wheel-16-x-21-125-500-16-24-A4600990104404.html", "price_if_stated": 612.99, "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "The front was out of stock/backordered at retrieval. Fitment year ranges conflict between AOMC title and URL.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "wp-factory-racing-wheels-black",
+      "category": "wheels",
+      "subcategory": "complete wheels",
+      "brand": "WP / KTM PowerParts",
+      "product": "WP Factory Racing Front Wheel 1.6x21\" and Rear Wheel 2.15x19\" (black)",
+      "part_numbers": ["A46009901544C1A", "A46010901544C1A"],
+      "variants": "Black",
+      "platform_ids": ["ktm-4t-2023", "hqv-2023"],
+      "fits": [
+        {"make": "KTM/Husqvarna", "model": "Front: SX/TC full-size", "years": [2023, 2024, 2025, 2026, 2027], "notes": "AOMC title 'SX/TC/Enduro 23-27'"},
+        {"make": "KTM/Husqvarna", "model": "Rear: SX-F/XC-F/FX", "years": [2023, 2024, 2025, 2026, 2027], "notes": "AOMC title 'SX-F/XC-F/FX 23-27'"}
+      ],
+      "fitment_source_url": "https://aomc.mx/KTM-Factory-Front-Wheel-16-x-21-125-500-16-24-A4600990104404.html",
+      "what_it_changes": "Factory-spec wheel set (see the orange wheel record for claims).",
+      "supporting_parts": "Bearing repair kit A46010919000C1.",
+      "where_to_buy": [
+        {"seller": "AOMC (US), front", "url": "https://aomc.mx/KTM-Factory-Front-Wheel-16-x-21-125-500-16-24-A4600990104404.html", "price_if_stated": 519.99, "currency": "USD", "date": "2026-10-14"},
+        {"seller": "AOMC (US), rear", "url": "https://aomc.mx/KTM-Factory-Front-Wheel-16-x-21-125-500-16-24-A4600990104404.html", "price_if_stated": 612.99, "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "From AOMC related-product titles only; product pages not fetched.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "gg-factory-wheels",
+      "category": "wheels",
+      "subcategory": "complete wheels",
+      "brand": "GasGas Parts & Accessories",
+      "product": "GasGas Factory Front Wheel 1.6x21\" and Factory Rear Wheel 2.15x19\"",
+      "part_numbers": ["A46009901044FA", "A46010901044FA"],
+      "variants": "GasGas finish (colour not stated)",
+      "platform_ids": ["gg-2024"],
+      "fits": [
+        {"make": "GasGas", "model": "MC 250F / MC 450F", "years": [2024], "notes": "Listed as related parts on AOMC's GasGas MC 250F/450F 2024 triple clamp page. Factory Racing wheels are fitted to the 2024 GasGas FE."}
+      ],
+      "fitment_source_url": "https://aomc.mx/GasGas-Factory-Racing-Triple-Clamp-MC-250F450F-2024-A46001999021FAA.html",
+      "what_it_changes": "Factory Racing wheels as fitted to the GasGas Factory Edition.",
+      "supporting_parts": "Bearing repair kit A46010919000C1.",
+      "where_to_buy": [
+        {"seller": "AOMC (US), front", "url": "https://aomc.mx/GasGas-Factory-Racing-Triple-Clamp-MC-250F450F-2024-A46001999021FAA.html", "price_if_stated": 519.99, "currency": "USD", "date": "2026-10-14"},
+        {"seller": "AOMC (US), rear", "url": "https://aomc.mx/GasGas-Factory-Racing-Triple-Clamp-MC-250F450F-2024-A46001999021FAA.html", "price_if_stated": 612.99, "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Fitment inferred from the related-parts context.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "hqv-factory-wheels",
+      "category": "wheels",
+      "subcategory": "complete wheels",
+      "brand": "Husqvarna Technical Accessories",
+      "product": "Husqvarna Factory Wheels (blue or black hubs)",
+      "part_numbers": [],
+      "variants": "Hub blue or black; rear 18\" or 19\"; D.I.D Dirt Star rims; anodised aluminium nipples",
+      "platform_ids": ["hqv-2023"],
+      "fits": [
+        {"make": "Husqvarna", "model": "TC, FC, TX, FX (all full-size MX/XC)", "years": [2021, 2022], "notes": "Announcement dated 03.09.2021 says it fits all full-size TC/FC/TE/FE/TX/FX. Current-gen part numbers not found."}
+      ],
+      "fitment_source_url": "https://husqvarna-motorcycles.com/de-at/news/factory-wheels.html",
+      "what_it_changes": "One-piece machined hub. Husqvarna claims lighter and stronger than stock, with better stability and handling.",
+      "supporting_parts": "",
+      "where_to_buy": [
+        {"seller": "Authorised Husqvarna dealers / national importer", "url": "https://husqvarna-motorcycles.com/de-at/news/factory-wheels.html", "price_if_stated": null, "currency": null, "date": null}
+      ],
+      "rider_feedback": [],
+      "caveats": "Manufacturer page, but no part numbers. Applicability to the 2023+ platform not stated.",
+      "confidence": "medium"
+    },
+    {
+      "id": "factory-wheel-bearing-kit",
+      "category": "wheels",
+      "subcategory": "bearings",
+      "brand": "KTM PowerParts",
+      "product": "Factory (Rear) Wheel Bearing Repair Kit",
+      "part_numbers": ["A46010919000C1", "A46010919000EB"],
+      "variants": "C1 (AOMC), EB (KTM Direct)",
+      "platform_ids": ["ktm-4t-2023", "ktm-2t-2023", "hqv-2023", "gg-2024"],
+      "fits": [
+        {"make": "KTM/Husqvarna/GasGas", "model": "Factory wheels, SX/XC full-size", "years": [2023, 2024, 2025, 2026, 2027], "notes": "AOMC title 'KTM/HQV/GG Factory Rear Wheel Bearing Repair Kit SX/XC/Enduro 23-27'"}
+      ],
+      "fitment_source_url": "https://aomc.mx/KTM-Factory-Front-Wheel-16-x-21-125-500-16-24-A4600990104404.html",
+      "what_it_changes": "Service kit for Factory wheel hubs.",
+      "supporting_parts": "",
+      "where_to_buy": [
+        {"seller": "AOMC (US)", "url": "https://aomc.mx/KTM-Factory-Front-Wheel-16-x-21-125-500-16-24-A4600990104404.html", "price_if_stated": 86.99, "currency": "USD", "date": "2026-10-14"},
+        {"seller": "KTM Direct (UK)", "url": "https://ktmdirect.co.uk/collections/ktm-450-sx-f-factory-edition-2025-powerparts-accessories/300-sx?page=8", "price_if_stated": 68.00, "currency": "GBP", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Whether the C1 and EB suffixes are the same kit is unconfirmed.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "hinson-outer-clutch-cover-a48030926000",
+      "category": "engine",
+      "subcategory": "clutch cover",
+      "brand": "Hinson (KTM PowerParts / Husqvarna)",
+      "product": "Hinson Outer Clutch Cover",
+      "part_numbers": ["A48030926000"],
+      "variants": "CNC billet aluminium",
+      "platform_ids": ["ktm-4t-2023", "hqv-2023"],
+      "fits": [
+        {"make": "KTM", "model": "250/350/450 SX-F, XC-F", "years": [2023, 2024, 2025, 2026, 2027], "notes": "AOMC title 'SX/TC/Enduro 23-27'; URL references 250-450 SX/SX-F/XC/XC-F 2023. Inconsistent, so verify. It is fitted to the 450 SX-F Factory Edition."},
+        {"make": "Husqvarna", "model": "FC/FX equivalents", "years": [2023, 2024, 2025, 2026, 2027], "notes": "KTM/HQV label"}
+      ],
+      "fitment_source_url": "https://aomc.mx/KTM-Factory-Racing-Hinson-Outer-Clutch-Cover-250-450-SXSX-FXCXC-F-2023-A48030926000.html",
+      "what_it_changes": "Billet replacement for the cast outer clutch cover. Claimed stronger and weight-optimised.",
+      "supporting_parts": "Not listed (gasket not mentioned).",
+      "where_to_buy": [
+        {"seller": "AOMC (US)", "url": "https://aomc.mx/KTM-Factory-Racing-Hinson-Outer-Clutch-Cover-250-450-SXSX-FXCXC-F-2023-A48030926000.html", "price_if_stated": 257.99, "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Backordered at retrieval. Whether it fits the 2-stroke 'SX' is unclear; likely 4T only (the A48 prefix matches the 450 parts), so treat as unverified for 2T.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "clutch-cover-protection-a48030994144",
+      "category": "protection",
+      "subcategory": "clutch cover guard",
+      "brand": "KTM PowerParts / Husqvarna",
+      "product": "Clutch Cover Protection (black)",
+      "part_numbers": ["A48030994144"],
+      "variants": "Black plastic",
+      "platform_ids": ["ktm-4t-2023", "hqv-2023"],
+      "fits": [
+        {"make": "KTM/Husqvarna", "model": "SX-F (and FC equivalents)", "years": [2023, 2024, 2025, 2026, 2027], "notes": "AOMC title 'SX-F 23-27'; meta/URL say 23-25 and 23-26. For the original outer clutch cover."}
+      ],
+      "fitment_source_url": "https://aomc.mx/KTM-SX-F-Clutch-Cover-Protection-23-25-A48030994144.html",
+      "what_it_changes": "Guards the stock outer clutch cover from stone impacts and from the brake lever being pushed into it in a crash (claim).",
+      "supporting_parts": "",
+      "where_to_buy": [
+        {"seller": "AOMC (US)", "url": "https://aomc.mx/KTM-SX-F-Clutch-Cover-Protection-23-25-A48030994144.html", "price_if_stated": 43.99, "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Year range inconsistent on the page.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "hinson-inner-clutch-hub-a46032902000",
+      "category": "engine",
+      "subcategory": "clutch internals",
+      "brand": "Hinson (KTM PowerParts)",
+      "product": "Hinson Inner Clutch Hub",
+      "part_numbers": ["A46032902000"],
+      "variants": "",
+      "platform_ids": ["ktm-4t-2023"],
+      "fits": [
+        {"make": "KTM/Husqvarna/GasGas", "model": "SX/TC (4T per part prefix)", "years": [2022, 2023, 2024], "notes": "AOMC title says 'SX/TC/Enduro/Travel/Sport 09-27' but the URL says 22-24. Unresolved."}
+      ],
+      "fitment_source_url": "https://aomc.mx/KTMHQVGG-Hinson-Inner-Clutch-Hub-22-24-A46032902000.html",
+      "what_it_changes": "Claimed better clutch performance and durability.",
+      "supporting_parts": "Hinson clutch pressure plate shown as related (no part number captured).",
+      "where_to_buy": [
+        {"seller": "AOMC (US)", "url": "https://aomc.mx/KTMHQVGG-Hinson-Inner-Clutch-Hub-22-24-A46032902000.html", "price_if_stated": 377.99, "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Fitment unclear.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "wp-steering-damper-a46002922044",
+      "category": "chassis",
+      "subcategory": "steering damper",
+      "brand": "WP (KTM PowerParts)",
+      "product": "WP Steering Damper Kit",
+      "part_numbers": ["A46002922044"],
+      "variants": "",
+      "platform_ids": ["ktm-4t-2023", "ktm-2t-2023", "hqv-2023"],
+      "fits": [
+        {"make": "KTM", "model": "125 SX", "years": [2023, 2024, 2025], "notes": ""},
+        {"make": "KTM", "model": "150 SX", "years": [2025], "notes": ""},
+        {"make": "KTM", "model": "250 SX", "years": [2023, 2024, 2025], "notes": ""},
+        {"make": "KTM", "model": "300 SX", "years": [2023, 2024, 2025], "notes": ""},
+        {"make": "KTM", "model": "250 SX-F", "years": [2023, 2024, 2025], "notes": "Also FE 2022-2024 and Adamo 2025"},
+        {"make": "KTM", "model": "350 SX-F", "years": [2023, 2024, 2025], "notes": ""},
+        {"make": "KTM", "model": "450 SX-F", "years": [2023, 2024, 2025], "notes": "Also FE 2022-2024"},
+        {"make": "KTM", "model": "125/250/300 XC", "years": [2023, 2024, 2025], "notes": ""},
+        {"make": "KTM", "model": "250/350/450 XC-F", "years": [2023, 2024, 2025], "notes": "Also 350 XC-F FE 2023-2024"},
+        {"make": "Husqvarna", "model": "FC/FX", "years": [2023, 2024, 2025, 2026, 2027], "notes": "AOMC title 'SX-F/XC-F/FX 23-27'"}
+      ],
+      "fitment_source_url": "https://ktmdirect.co.uk/products/steering-damper-kit-a46002922044",
+      "what_it_changes": "Fully adjustable WP steering damper. Claimed to improve front-wheel stability, and the mount still allows handlebar adjustment.",
+      "supporting_parts": "Kit contents not listed.",
+      "where_to_buy": [
+        {"seller": "KTM Direct (UK)", "url": "https://ktmdirect.co.uk/products/steering-damper-kit-a46002922044", "price_if_stated": 452.00, "currency": "GBP", "date": "2026-10-14"},
+        {"seller": "AOMC (US)", "url": "https://aomc.mx/KTM-Steering-Damper-Kit-125-450-SXXCSX-FXC-F-2023-A46002922044.html", "price_if_stated": 553.99, "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "The KTM Direct list ends at 2025 while AOMC says 23-27. 2026 KTM fit is unconfirmed.",
+      "confidence": "medium"
+    },
+    {
+      "id": "wp-phds-a46001939500",
+      "category": "chassis",
+      "subcategory": "handlebar mount damping",
+      "brand": "WP (KTM PowerParts)",
+      "product": "WP Progressive Handlebar Damping System (PHDS)",
+      "part_numbers": ["A46001939500"],
+      "variants": "",
+      "platform_ids": ["ktm-4t-2023", "hqv-2023"],
+      "fits": [
+        {"make": "KTM/Husqvarna", "model": "SX-F/XC-F/FX", "years": [2023, 2024, 2025, 2026, 2027], "notes": "AOMC related-product title only"}
+      ],
+      "fitment_source_url": "https://aomc.mx/KTMHQVGG-Hinson-Inner-Clutch-Hub-22-24-A46032902000.html",
+      "what_it_changes": "Rubber-damped bar mount that reduces vibration and impacts at the bars (general product description; not captured from this page).",
+      "supporting_parts": "",
+      "where_to_buy": [
+        {"seller": "AOMC (US)", "url": "https://aomc.mx/KTMHQVGG-Hinson-Inner-Clutch-Hub-22-24-A46032902000.html", "price_if_stated": 283.99, "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "KTM Direct also lists a 'PHDS' as SXS07125200 under the 250 SX-F 2025 CNC collection (price not shown). Relationship not verified.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "radiator-protection-a46035036044",
+      "category": "protection",
+      "subcategory": "radiator guards",
+      "brand": "KTM PowerParts",
+      "product": "Radiator Protection",
+      "part_numbers": ["A46035036044AB", "A46035036044XX"],
+      "variants": "Multiple suffixes (colour/finish variants; AOMC price range USD 62.47-68.99)",
+      "platform_ids": ["ktm-4t-2023", "ktm-2t-2023", "hqv-2023", "gg-2024"],
+      "fits": [
+        {"make": "KTM/Husqvarna/GasGas", "model": "SX/TC full-size", "years": [2023, 2024, 2025, 2026, 2027], "notes": "AOMC title 'KTM/HQV/GG Radiator Protection SX/TC/Enduro 23-27'"}
+      ],
+      "fitment_source_url": "https://aomc.mx/KTM-SX-F-Clutch-Cover-Protection-23-25-A48030994144.html",
+      "what_it_changes": "Radiator guard.",
+      "supporting_parts": "",
+      "where_to_buy": [
+        {"seller": "AOMC (US)", "url": "https://aomc.mx/KTM-SX-F-Clutch-Cover-Protection-23-25-A48030994144.html", "price_if_stated": 68.99, "currency": "USD", "date": "2026-10-14"},
+        {"seller": "motorcyclespareparts.eu", "url": "https://motorcyclespareparts.eu/en/ktm-parts/a46035036044ab", "price_if_stated": 50.00, "currency": "USD (excl. VAT)", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "The 'XX' suffix is an AOMC URL placeholder; actual colour-suffix numbers are not captured.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "fuel-filter-a48007918000",
+      "category": "fuel",
+      "subcategory": "fuel filter",
+      "brand": "KTM PowerParts",
+      "product": "Fuel Filter (white)",
+      "part_numbers": ["A48007918000"],
+      "variants": "White",
+      "platform_ids": ["ktm-4t-2023", "hqv-2023", "gg-2024"],
+      "fits": [
+        {"make": "KTM/Husqvarna/GasGas", "model": "SX/XC", "years": [2022, 2023, 2024, 2025, 2026, 2027], "notes": "AOMC title 'SX/XC/Enduro 22-27'"}
+      ],
+      "fitment_source_url": "https://aomc.mx/KTM-SX-F-Clutch-Cover-Protection-23-25-A48030994144.html",
+      "what_it_changes": "Not stated.",
+      "supporting_parts": "",
+      "where_to_buy": [
+        {"seller": "AOMC (US)", "url": "https://aomc.mx/KTM-SX-F-Clutch-Cover-Protection-23-25-A48030994144.html", "price_if_stated": 34.99, "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Title-level fitment only.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "clutch-master-cyl-protection-a46002941010",
+      "category": "protection",
+      "subcategory": "control protection",
+      "brand": "KTM PowerParts (Factory Racing)",
+      "product": "Factory Racing Clutch Master Cylinder Protection",
+      "part_numbers": ["A46002941010"],
+      "variants": "",
+      "platform_ids": [],
+      "fits": [],
+      "fitment_source_url": "https://aomc.mx/KTM-SX-F-Clutch-Cover-Protection-23-25-A48030994144.html",
+      "what_it_changes": "Not stated.",
+      "supporting_parts": "",
+      "where_to_buy": [
+        {"seller": "AOMC (US)", "url": "https://aomc.mx/KTM-SX-F-Clutch-Cover-Protection-23-25-A48030994144.html", "price_if_stated": 91.99, "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "No fitment captured; only seen as a related product on an SX-F 23-27 page.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "plastic-parts-kit-00010000430k",
+      "category": "bodywork",
+      "subcategory": "plastics kit",
+      "brand": "KTM PowerParts",
+      "product": "Plastic Parts Kit (orange)",
+      "part_numbers": ["00010000430K"],
+      "variants": "Orange",
+      "platform_ids": ["ktm-4t-2023", "ktm-2t-2023"],
+      "fits": [
+        {"make": "KTM", "model": "SX / XC", "years": [2023, 2024, 2025, 2026, 2027], "notes": "AOMC search-result title 'KTM Plastic Parts Kit (Orange) SX/XC/Enduro 23-27'; page not fetched"}
+      ],
+      "fitment_source_url": "https://aomc.mx/Plastic-parts-kit-00010000430K.html",
+      "what_it_changes": "Replacement plastics set.",
+      "supporting_parts": "",
+      "where_to_buy": [
+        {"seller": "KTM Direct (UK)", "url": "https://ktmdirect.co.uk/collections/ktm-450-sx-f-factory-edition-2025-powerparts-accessories/300-sx?page=8", "price_if_stated": 180.00, "currency": "GBP", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Fitment from a search-result title only.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "ktmdirect-450fe-2025-misc",
+      "category": "misc",
+      "subcategory": "listed in 450 SX-F Factory Edition 2025 accessory collection",
+      "brand": "KTM PowerParts",
+      "product": "Assorted PowerParts listed in KTM Direct's '450 SX-F Factory Edition 2025' accessory collection (filter /300-sx)",
+      "part_numbers": ["A46007940000", "A4601095104704", "A46009960000", "A46010945000", "79109961100", "77713975030", "A4901397504430", "A46004066000EB", "A42002979000C1", "A42002979000EB", "A46001094000HH", "7910192000004"],
+      "variants": "Seat +20mm A46007940000 GBP135; Renthal GP Sprocket 47T A4601095104704 GBP63; Flame Brake Disc A46009960000 GBP135; Crash Bung Kit A46010945000 GBP40; Factory Racing Brake Disc Guard 79109961100 GBP180; Carbon Brake Disc Guard 77713975030 GBP89; Brake Caliper Support with Brake Disc Guard A4901397504430 GBP153; Chain Sliding Protection A46004066000EB GBP23.50; Factory Racing Handguard Kit black A42002979000C1 / orange A42002979000EB GBP44; Fork Protector Kit A46001094000HH GBP31; Factory Adjuster Wheel 7910192000004 GBP18",
+      "platform_ids": [],
+      "fits": [
+        {"make": "KTM", "model": "450 SX-F Factory Edition (collection membership)", "years": [2025], "notes": "Collection page was filtered '/300-sx'. Per-part fitment not fetched, so do not publish as fitment until checked."}
+      ],
+      "fitment_source_url": "https://ktmdirect.co.uk/collections/ktm-450-sx-f-factory-edition-2025-powerparts-accessories/300-sx?page=8",
+      "what_it_changes": "Various (seat height +20 mm, sprocket gearing, brake disc, protection).",
+      "supporting_parts": "",
+      "where_to_buy": [
+        {"seller": "KTM Direct (UK)", "url": "https://ktmdirect.co.uk/collections/ktm-450-sx-f-factory-edition-2025-powerparts-accessories/300-sx?page=8", "price_if_stated": null, "currency": "GBP", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Leads only: split into individual records after per-part fitment checks.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "ktmdirect-250sxf-2025-cnc",
+      "category": "misc",
+      "subcategory": "CNC anodised components (250 SX-F 2025 collection)",
+      "brand": "KTM PowerParts",
+      "product": "CNC anodised parts listed for KTM 250 SX-F 2025",
+      "part_numbers": ["A4603595204404", "A46035952044C1", "22130994044C1", "2213092004404", "22130920044C1", "77707908244", "A54007930000C1", "SXS07125200", "SXS08300040"],
+      "variants": "Water Pump Cover orange A4603595204404 / black A46035952044C1 GBP116; Ignition Cover Plug 22130994044C1 GBP18; Oil Plug 2213092004404 / 22130920044C1 GBP18; Factory Fuel Cap 77707908244 GBP71; Factory Fuel Cap Vent Black A54007930000C1; PHDS SXS07125200; Factory Adjuster Wheel Set SXS08300040",
+      "platform_ids": ["ktm-4t-2023"],
+      "fits": [
+        {"make": "KTM", "model": "250 SX-F (collection membership)", "years": [2025], "notes": "Collection-level only; per-part fitment not fetched"}
+      ],
+      "fitment_source_url": "https://ktmdirect.co.uk/collections/ktm-250-sx-f-2025-parts-accessories/cnc-anodised-components",
+      "what_it_changes": "Cosmetic and durability billet parts.",
+      "supporting_parts": "",
+      "where_to_buy": [
+        {"seller": "KTM Direct (UK)", "url": "https://ktmdirect.co.uk/collections/ktm-250-sx-f-2025-parts-accessories/cnc-anodised-components", "price_if_stated": null, "currency": "GBP", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Leads only.",
+      "confidence": "unverified"
+    }
+  ],
+  "gaps": [
+    "No official KTM/Husqvarna/GasGas web page or PDF catalogue giving part number + fitment was found (ktm.com PowerParts pages are navigation only; the online configurator was not accessible), so nothing is rated 'high'.",
+    "Map Select Switch: standard on KTM/Husqvarna SX-F/FC; on 2024 GasGas the 4-strokes need it added to get launch control, TC and quickshift (bikesales). The GasGas/2-stroke map switch part numbers were not found.",
+    "Husqvarna Technical Accessories: no Husqvarna-specific part numbers (blue Factory wheels, blue triple clamps, Husqvarna CUO kit) captured; Iron City Motorcycles Husqvarna pages redirect to ironoffroad.co.uk, which was blocked (permission not answered): https://ironoffroad.co.uk/?path=husqvarna%2Fhusqvarna-store%2Fdetail%2Ffactory-racing-triple-clamp%2Fhus-a46001999021c1a and ...hus-2620199902168 (2620199902168 = older Husqvarna Factory Racing triple clamp).",
+    "GasGas: only the triple clamp (A46001999021FAA) and wheels (A46009901044FA / A46010901044FA) captured; GasGas CUO, Hinson cover, start device variants not found.",
+    "KTM 85 SX: no PowerParts records gathered (KTM Direct 85 SX 2025 collections exist: https://ktmdirect.co.uk/collections/ktm-85-sx-19-16-2025-powerparts-accessories/65-sx?page=2).",
+    "MY2027 fitment: dealer lists stop at 2026; AOMC titles say 23-27 but are title-level.",
+    "Two Factory Start Device numbers (A54001996000FAA / A54001996500FAA) with identical dealer fitment; relationship unknown.",
+    "Hinson full clutch kits, Factory ignition cover, footpegs, seat options, handlebars, chains and brake parts (Factory caliper etc.) not individually recorded.",
+    "Prior generation (2019-2022) covered only by one Akrapovič Racing Line record; 2020-2022 Factory triple clamps, skid plates and wheels not mapped.",
+    "Direct ktmdirect collection-filter URLs (e.g. /collections/powerparts/450-sx-f+engine-parts) were blocked by URL provenance rules; only URLs surfaced by search could be fetched."
+  ],
+  "not_done": [
+    "Per-part fitment verification for the ~20 lead part numbers in the two 'misc' records.",
+    "Husqvarna TC/FC/TX/FX and GasGas MC/EX specific accessory numbers and colour variants.",
+    "KTM 85 SX and 2-stroke-specific items beyond the expansion chamber (2T silencer, 2T skid plate, map switch).",
+    "2020-2022 platform back-fill.",
+    "Rider feedback (not in scope of manufacturer catalog slice; left empty)."
+  ]
+}
