@@ -59,6 +59,8 @@ def crawl_bike(make,model,year,url):
         for x in new: seen[x['slug']]=x
         if not new: break
         page+=1
+    if total and len(seen)<0.95*total:  # stopped early (an empty or failed page): keep nothing so the next run reads it again
+        print('bike',make,model,year,len(seen),'of',total,'incomplete; not saved',flush=True); return list(seen.values())
     json.dump({'make':make,'model':model,'year':year,'url':url,'pages':page-1,'stated_results':total,'retrieved':time.strftime('%Y-%m-%d'),'products':list(seen.values())},open(f,'w'))
     print('bike',make,model,year,len(seen),'of',total,flush=True)
     return list(seen.values())
