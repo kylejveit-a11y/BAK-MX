@@ -1,0 +1,116 @@
+{
+ "slice": "Pass 2 corrections (applied by hand)",
+ "updates": [
+  {
+   "id": "asv-emig-f4-ktm",
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX/SX-F/XC/XC-F, 350/450 SX-F/XC-F, 300 XC",
+     "years": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "125 SX 2016-25, 125 XC 2021-25, 300 SX 2024-25"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250/350/450, FX 350/450, TC 125/250, TX 300",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "FC also 2014-15; TC 250 2016-25"
+    },
+    {
+     "make": "GasGas",
+     "model": "EC/EX/MC",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "'roughly' per page; some MC entries specify Brembo controls (2023). Braktec-equipped 2024+ GasGas not explicitly addressed."
+    }
+   ],
+   "caveats": "2026-2027 not listed. Confirm Brembo vs Braktec master cylinder on GasGas 2024+. 2024+ GasGas MC/EX use Braktec brakes, not Brembo: ARC says its Brembo-pattern levers do not fit them (BR-122 is the GasGas lever); pass 2 removed GasGas 2024+ from lever fitment.",
+   "note": "Braktec correction"
+  },
+  {
+   "id": "galfer-270-wave-ktm",
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125-530 all models (Brembo)",
+     "years": [
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC/TX/FC/FX 125-450",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Asterisked on retailer page without explanation; 2014-2017 also listed"
+    },
+    {
+     "make": "GasGas",
+     "model": "125-450 except EC/EC-F",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Brembo calipers only - 2024+ GasGas ship with Braktec, so likely NOT a bolt-on there"
+    },
+    {
+     "make": "GasGas",
+     "model": "125-450 except EC/EC-F",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Brembo calipers only - 2024+ GasGas ship with Braktec, so likely NOT a bolt-on there 2024+ GasGas has Braktec brakes: fit unconfirmed by the maker"
+    }
+   ],
+   "caveats": "No Galfer manufacturer part number captured (Galfer site not reached). Contradiction: GasGas 2021-2026 listed but Braktec/Magura excluded. 2024+ GasGas MC/EX use Braktec brakes, not Brembo: ARC says its Brembo-pattern levers do not fit them (BR-122 is the GasGas lever); pass 2 removed GasGas 2024+ from lever fitment.",
+   "note": "Braktec correction"
+  }
+ ]
+}

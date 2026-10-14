@@ -20,6 +20,10 @@ def norm_fit(make,text):
     if ENDURO.search(text) and not re.search(r'\b(SX|XC(?!-W)|TC|FC|TX|FX|MC|EX(?!C))\b',text.upper()): return []
     t=text.upper().replace('SXF','SX-F').replace('XCF','XC-F')
     nums=set(re.findall(r'(?<!\d)(85|125|150|250|300|350|450)(?!\d)',t))
+    rng=re.search(r'(?<!\d)(85|125|150|250)\s*-\s*(450|500|501|530|890)(?!\d)',t)
+    if rng: nums|={d for d in ('125','150','250','300','350','450') if int(rng.group(1))<=int(d)<=int(rng.group(2))}
+    every=bool(re.search(r'\bALL\b|ALL MODELS|ANY MODEL|FULL-SIZE',t))
+    stroke='4' if re.search(r'\b4T\b|4-?STROKE|\d{3}\s?F\b|SX-F|XC-F|\bFC\b|\bFX\b|MC-F|EX-F',t) else '2' if re.search(r'\b2T\b|2-?STROKE|TBI|\b(SX|XC|TC|TX)\b',t) else None
     out=set()
     for mk,model,y in roster:
         if mk!=make: continue
@@ -30,16 +34,22 @@ def norm_fit(make,text):
         if mk=='GasGas':
             four=M.endswith('F'); 
             if 'MC' in t and fam!='MC' and 'EX' not in t: continue
-            if fam=='MC' and 'MC' not in t: continue
-            if fam=='EX' and 'EX' not in t: continue
+            named=('MC' in t) or bool(re.search(r'\bEX\b|EX\s?\d',t))
+            if named and fam=='MC' and 'MC' not in t: continue
+            if named and fam=='EX' and not re.search(r'\bEX\b|EX\s?\d',t): continue
+            if not named and not (nums or every): continue
+            if four and named and nums and not re.search(r'\d{3}\s?F\b|4-?STROKE|\b4T\b|MC-F|EX-F',t): continue   # "MC 250" names the two-stroke
+            if stroke and four!=(stroke=='4'): continue
             if re.search(r'\d{3}F|MC-F|MCF|EX-F|4-?STROKE|4T',t) and not re.search(r'\d{3}(?!F)\b|2-?STROKE|2T',t) and not four: continue
             if re.search(r'2-?STROKE|2T|TBI',t) and not re.search(r'\d{3}F|4-?STROKE',t) and four: continue
         else:
+            four=fam in ('SX-F','XC-F','FC','FX')
             if famtoks and fam not in famtoks: continue
-            if not famtoks: continue
+            if not famtoks and not (nums or every): continue
+            if stroke and four!=(stroke=='4'): continue
         out.add((mk,model))
     return sorted(out)
-products=[];feedback=[];builds=[];gaps=[];notdone=[];platforms=[]
+products=[];feedback=[];builds=[];gaps=[];notdone=[];platforms=[];updates=[]
 for f in sorted(glob.glob(os.path.join(fam_dir,'*.json'))):
     if f.endswith('index.json'): continue
     d=json.load(open(f)); src=os.path.basename(f)
@@ -47,14 +57,26 @@ for f in sorted(glob.glob(os.path.join(fam_dir,'*.json'))):
     for x in d.get('feedback',[]): x['_file']=src; feedback.append(x)
     builds+=d.get('builds',[]); platforms+=[dict(p,_file=src) for p in d.get('platforms',[])]
     gaps+=[(src,g) for g in d.get('gaps',[])]; notdone+=[(src,g) for g in d.get('not_done',[])]
+    updates+=[dict(u,_file=src) for u in d.get('updates',[])]
+# a later pass confirms or corrects a product by id: listed fields replace the earlier ones, sources are kept
+byid={p['id']:p for p in products}
+for u in updates:
+    p=byid.get(u.get('id'))
+    if not p: continue
+    for k,v in u.items():
+        if k in ('id','_file','note') or v in (None,'',[]): continue
+        if k=='where_to_buy': p[k]=(p.get(k) or [])+[w for w in v if w not in (p.get(k) or [])]
+        elif k=='rider_feedback': p[k]=(p.get(k) or [])+v
+        else: p[k]=v
+    p['_updated']=u['_file']+(': '+u['note'] if u.get('note') else '')
 # per-bike index
 bike=collections.defaultdict(set); unmapped=[]
 for p in products:
     hit=False
     for fit in p.get('fits') or []:
-        mk=fit.get('make'); 
-        if mk not in makes: continue
-        for mk2,model in norm_fit(mk,str(fit.get('model',''))):
+        for mk in [m.strip() for m in re.split(r'[/,&]| and ',str(fit.get('make','')))]:
+          if mk not in makes: continue
+          for mk2,model in norm_fit(mk,str(fit.get('model',''))):
             for y in fit.get('years') or []:
                 if (mk2,model,y) in roster: bike[(mk2,model,y)].add(p['id']); hit=True
     if not hit: unmapped.append(p['id'])
@@ -66,7 +88,7 @@ for x in feedback:
     for p in best: p.setdefault('_feedback',[]).append(x)
 esc=lambda s:re.sub(r'\s+',' ',str(s if s is not None else '')).replace('|','/')
 def fits_text(p):
-    return '; '.join(f"{esc(f.get('make'))} {esc(f.get('model'))} {','.join(str(y) for y in f.get('years') or [])}" for f in p.get('fits') or [] if f.get('make') in makes)[:300]
+    return '; '.join(f"{esc(f.get('make'))} {esc(f.get('model'))} {','.join(str(y) for y in f.get('years') or [])}" for f in p.get('fits') or [] if any(m.strip() in makes for m in re.split(r'[/,&]',str(f.get('make','')))))[:300]
 def buy(p):
     return ' '.join(f"[{esc(w.get('seller'))}]({w.get('url')})"+(f" {esc(w.get('price_if_stated'))} {esc(w.get('currency') or '')}".rstrip() if w.get('price_if_stated') else '') for w in (p.get('where_to_buy') or [])[:3])
 L=[f'# {title}: aftermarket parts research catalog','',

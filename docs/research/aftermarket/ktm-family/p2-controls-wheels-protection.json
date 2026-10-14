@@ -1,0 +1,889 @@
+{
+  "slice": "Pass 2: controls, linkages, wheels, brakes, drivetrain, protection",
+  "retrieved": "2026-10-14",
+  "notes": "Prices are as shown on the retailer page on 2026-10-14 unless another date is given. Retailer item numbers (Cycle Gear 'P...', J&P item #, UPC, Maciag SID) are NOT manufacturer part numbers and are labelled as such. Platform ids reuse pass 1 (ktm-chassis-controls-wheels.json); one new platform id is added (ktm-family-2025-linkage). Pass 1 products are not repeated; where pass 2 adds part numbers to a pass 1 item, the entry says so in caveats.",
+  "key_findings": [
+    "Braktec (GasGas 2024+ MC/EX, GasGas EC 2021+, Husqvarna TE/TX/FE/FX 2022+) needs Braktec-specific levers: ARC sells BR-122 for Braktec and says its Flex lever is Brembo-only (not Braktec, Nissin or Magura); Tusk sells a Braktec lever replacing OEM A54013002044. Brembo-pattern levers (ARC BR-214, ASV EMF42303KTM from pass 1) should be treated as NOT fitting 2024+ GasGas MC.",
+    "Brake pads and oversize rotor kits are less clear: EBC FA181R (front) and MXS368 (rear) are listed by J&P for GasGas MC 2024-2027 alongside 2021-2023 Brembo years, and GBrakes 270 mm kit GBDOS220 lists GasGas MC 250F/450F 2024-2025, and Tusk sells a 270 mm kit for the Braktec MC 150 2025. That suggests the Braktec caliper uses the same pad shape and mount as the Brembo, but no manufacturer statement was found. Treat as medium, and confirm before buying.",
+    "MXA (Dec 2024) says the 2023-2024 KTM-family linkage uses larger linkage bolts than 2024.5 Factory Edition and 2025+ bikes, so 2023-24 and 2025+ linkage parts do not swap. Standard Husqvarna bikes use a different (lower) linkage ratio than KTM/GasGas.",
+    "Works Connection Pro Launch now lists KTM 2023-2027 SX/SX-F and Husqvarna 2023-2027 (Cycle Gear P366605); GasGas is listed as 125-450 2021-2027 on RevZilla without a model breakdown.",
+    "Works Connection Elite axle blocks for the 22 mm axle: 17-251 blue, 17-256 red, 17-261 black, 17-264 orange, 17-316 silver (KTM/Husqvarna 2023, 2022 FE/Rockstar; GasGas not stated)."
+  ],
+  "platforms": [
+    {"id": "ktm-sx-2023", "description": "Defined in pass 1. KTM SX/SX-F 2023+ chassis with 22 mm rear axle (2022 250/450 SX-F Factory Edition grouped with it).", "models_years": "KTM 125/250/300 SX, 250/350/450 SX-F 2023-2026 (150 SX 2025)", "source_url": "https://ktm.com/en-us/2023-motocross-media-information.html"},
+    {"id": "ktm-sx-2027", "description": "Defined in pass 1. 2027 KTM SX-F carry-over chassis.", "models_years": "KTM SX/SX-F 2027", "source_url": "https://ultimatemotorcycling.com/2026/04/30/2027-ktm-sx-f-lineup-first-look-450-350-and-250-return/"},
+    {"id": "ktm-xc-2023", "description": "Defined in pass 1. KTM XC/XC-F on the 2023+ chassis (2024+ spring fork, 18 in rear).", "models_years": "KTM 125/250/300 XC, 250/350/450 XC-F 2023-2026", "source_url": "https://ultimatemotorcycling.com/2023/05/01/2024-ktm-cross-country-lineup-first-look-xc-and-xc-f/"},
+    {"id": "husqvarna-mx-2023", "description": "Defined in pass 1. Husqvarna TC/FC/TX/FX 2023+. Standard Husqvarna linkage gives a lower rear ride height than KTM (MXA, Krooztune). Husqvarna MX (TC/FC) keep Brembo brakes; Husqvarna TE/TX/FE/FX use Braktec from 2022 per ARC lever listing.", "models_years": "Husqvarna TC/FC/TX/FX 2023-2026", "source_url": "https://ultimatemotorcycling.com/2025/11/23/2026-husqvarna-fc-450-and-fc-250-factory-editions-first-look/"},
+    {"id": "gasgas-mc-2024", "description": "Defined in pass 1. GasGas MC/EX 2024+ with Braktec brakes and 22 mm rear axle. MXA (2023-10-06): Braktec is Brembo-owned (bought 2021) but a different factory/product; all 2024 GasGas use Braktec hydraulics.", "models_years": "GasGas MC/EX 2024+", "source_url": "https://motocrossactionmag.com/ask-the-mxperts-what-logo-is-this"},
+    {"id": "ktm-family-2025-linkage", "description": "NEW in pass 2. Linkage sub-platform: 2024.5 KTM/Husqvarna/GasGas Factory Editions and 2025+ models use smaller linkage bolts than 2023-2024, so linkage parts are not interchangeable between 2023-24 and 2025+ (MXA).", "models_years": "KTM/GasGas 2025-2025.5, 2024.5 Factory Editions; Husqvarna 2025 (fits but raises rear to KTM height)", "source_url": "https://motocrossactionmag.com/mxa-team-tested-ride-engineering-full-performance-ktm-linkage"},
+    {"id": "ktm-family-2016-2022", "description": "Defined in pass 1. Previous KTM-family MX/XC generation.", "models_years": "KTM SX/SX-F/XC/XC-F 2016-2022; Husqvarna TC/FC 2016-2022; GasGas MC 2021-2023", "source_url": "https://motocrossactionmag.com/mxa-team-tested-ride-engineering-gasgas-split-triple-clamps"}
+  ],
+  "products": [
+    {
+      "id": "p2-renthal-fatbar-ktm-bends",
+      "category": "controls",
+      "subcategory": "handlebars",
+      "brand": "Renthal",
+      "product": "Fatbar 1-1/8 in handlebar - KTM-family bends",
+      "part_numbers": ["826-01-BK (KTM High, black; manufacturer ID on 24MX)", "Bend numbers: 672, 821, 822, 826, 831, 849", "Part number format: {bend}-01-{colour}, e.g. 827-01-HA (Greenland MX listing)"],
+      "variants": "672 'KTM SX/SX-F 125-450 13+' (A806/B85/C51/D125/E56/F190 mm); 821 'McGrath/Short/KTM SX/SX-F/XC-F 15+' (813/78/42/150/54/200); 822 'KTM Low' (808/83/53/140/41/200); 826 'KTM High' (805/95/68/130/42/180); 831 'KTM SX 85 13+' (779/88/53/122/50/200); 849 'KTM/Gas/Husq 65cc 2021+'. Column letters A-F are unlabelled on the page; A appears to be width.",
+      "platform_ids": ["ktm-sx-2023", "ktm-sx-2027", "ktm-xc-2023", "husqvarna-mx-2023", "gasgas-mc-2024", "ktm-family-2016-2022"],
+      "fits": [
+        {"make": "KTM / Husqvarna / GasGas", "model": "Any model with 1-1/8 (28.6 mm) bar clamps", "years": [], "notes": "Bend names reference KTM model years, not a fitment table. All full-size KTM-family MX bikes use oversize bar mounts."}
+      ],
+      "fitment_source_url": "https://cyclegear.com/parts/renthal-fatbar-handlebars-1-18",
+      "what_it_changes": "Bar shape (width, rise, sweep) changes rider position; bend 821 is the lowest/flattest KTM-named bend, 826 the tallest.",
+      "supporting_parts": "Bar pad included (24MX). Stock 2023+ KTM bar is a Neken tapered bar; check ODI grip/throttle tube and handguard fit.",
+      "where_to_buy": [
+        {"seller": "Cycle Gear", "url": "https://cyclegear.com/parts/renthal-fatbar-handlebars-1-18", "price_if_stated": "from 107.96", "currency": "USD", "date": "2026-10-14"},
+        {"seller": "24MX (US)", "url": "https://www.24mx.com/en-us/product/renthal-fatbar-handlebar/PM-0001320", "price_if_stated": "99.99", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Cycle Gear names bend 672 'KTM SX/SX-F 125-450 13+' in the options list but 'KTM SX/SX-F 09-12 / Suzuki RM/RMZ 06-13' in the dimension table. No bend is named for GasGas or Husqvarna full-size bikes. Renthal.com not checked. Twinwall bends not covered.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-protaper-evo-ktm-husky-bends",
+      "category": "controls",
+      "subcategory": "handlebars",
+      "brand": "Pro Taper",
+      "product": "EVO 1-1/8 in handlebar - Factory Suzuki/KTM Stock and Husqvarna Stock bends",
+      "part_numbers": ["020338 (Factory Suzuki/KTM Stock, black)", "020337 (Factory Suzuki/KTM Stock, magnesium)", "022026 (Husqvarna Stock, black)", "022024 (SX Race, black)", "022025 (SX Race, magnesium)", "024028 (Steering Damper Low, black)"],
+      "variants": "Factory Suzuki/KTM Stock: A800/B92/C62/D217/E47/F180 mm. Husqvarna Stock: 811/80/39.5/192/51/210. Steering Damper Low: 800/69/62/217/47/180. Column labels not given on page.",
+      "platform_ids": ["ktm-sx-2023", "ktm-xc-2023", "husqvarna-mx-2023", "gasgas-mc-2024", "ktm-family-2016-2022"],
+      "fits": [
+        {"make": "KTM / Husqvarna / GasGas", "model": "Any model with 1-1/8 bar clamps", "years": [], "notes": "Bend names only; no model-year fitment table."}
+      ],
+      "fitment_source_url": "https://www.cyclegear.com/parts/pro-taper-evo-handlebars-1-18",
+      "what_it_changes": "Husqvarna Stock bend is lower and flatter than the KTM Stock bend (B 80 vs 92 mm). Keefer (pass 1 item protaper-husky-evo-bend) reported less vibration than stock Neken on a 2023 450 SX-F with the Husqvarna bend.",
+      "supporting_parts": "Steering Damper Low bend suits bars raised by an under-bar damper mount (e.g. Scotts SUB, pass 1).",
+      "where_to_buy": [
+        {"seller": "Cycle Gear", "url": "https://www.cyclegear.com/parts/pro-taper-evo-handlebars-1-18", "price_if_stated": "from 96.42 (list 119.99)", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Adds manufacturer part numbers to pass 1 item protaper-husky-evo-bend. No GasGas-named bend.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-odi-emig-pro-v2-grips",
+      "category": "controls",
+      "subcategory": "grips",
+      "brand": "ODI",
+      "product": "Emig Pro V2 lock-on MX grips",
+      "part_numbers": [],
+      "variants": "Colours: Blackout, Gray/Orange, Black/Green, Black/Yellow, Blue/Light Blue, Black/White, Blue/White, Graphite/Gray, Red/White. Kit includes throttle cams B, C, D, J, K, M.",
+      "platform_ids": ["ktm-sx-2023", "ktm-xc-2023", "husqvarna-mx-2023", "gasgas-mc-2024"],
+      "fits": [
+        {"make": "Most 2-stroke and 4-stroke MX bikes", "model": "per ODI cam chart", "years": [], "notes": "KTM-family cam letter not confirmed; ODI cam fitment chart PDF not read."}
+      ],
+      "fitment_source_url": "https://slavensracing.com/?p=20746",
+      "what_it_changes": "Lock-on grips need no glue; kit includes a new throttle tube and snap-on cams (MXA). MXA says KTM and Husqvarna use of lock-ons has removed worries about them slipping.",
+      "supporting_parts": "Throttle tube and cams included.",
+      "where_to_buy": [
+        {"seller": "Slavens Racing", "url": "https://slavensracing.com/?p=20746", "price_if_stated": "28.75-31.45", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "No ODI part number or KTM-specific cam captured. KTM-family bikes ship with ODI lock-ons, so cam selection should be checked against ODI's chart.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "p2-cycra-probend-crm-racer-pack",
+      "category": "controls",
+      "subcategory": "handguards",
+      "brand": "Cycra",
+      "product": "Probend CRM Racer Pack handguards",
+      "part_numbers": ["1CYC-7402-12X (black, 1-1/8)", "1CYC-7402-22X (orange, 1-1/8)", "1CYC-7402-62X (blue, 1-1/8)", "1CYC-7402-42X (white, 1-1/8)", "1CYC-7402-32X (red, 1-1/8)", "1CYC-7402-02X (natural, 1-1/8)", "1CYC-7401-xxX (same colours, 7/8 bar)"],
+      "variants": "7/8 or 1-1/8 bar; black, white, red, yellow, orange, green, blue, natural.",
+      "platform_ids": ["ktm-sx-2023", "ktm-xc-2023", "husqvarna-mx-2023", "gasgas-mc-2024", "ktm-family-2016-2022"],
+      "fits": [
+        {"make": "KTM / Husqvarna / GasGas", "model": "Models with 1-1/8 fat bars", "years": [], "notes": "Slavens lists KTM, Husqvarna and GasGas with 1-1/8 bars; no years."}
+      ],
+      "fitment_source_url": "https://slavensracing.com/?p=1877",
+      "what_it_changes": "Aluminium-cored full-wrap handguards (centre-reach clamps) for roost and impact protection; Cycra says designed for MX, trail and enduro.",
+      "supporting_parts": "Included: centre-reach bars and clamps, Classic Enduro shields, Powergrip alloy bar ends, hardware.",
+      "where_to_buy": [
+        {"seller": "Cycle Gear", "url": "https://www.cyclegear.com/parts/cycra-probend-crm-racer-pack-handguards", "price_if_stated": "from 133.95", "currency": "USD", "date": "2026-10-14"},
+        {"seller": "Slavens Racing", "url": "https://slavensracing.com/?p=1877", "price_if_stated": "133.95 (was 148.83)", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Tapered (Neken stock) bar inner diameter and bar-end fit not confirmed for 2023+ KTM.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-acerbis-x-factory-handguards",
+      "category": "controls",
+      "subcategory": "handguards",
+      "brand": "Acerbis",
+      "product": "X-Factory handguards incl. mounting kit",
+      "part_numbers": ["EAN 8052796716506 (white, Maciag listing)", "Maciag SID168814 (retailer)"],
+      "variants": "Black, blue, green, orange, red, white and two-tone options.",
+      "platform_ids": ["ktm-sx-2023", "ktm-xc-2023", "husqvarna-mx-2023", "gasgas-mc-2024"],
+      "fits": [
+        {"make": "Universal", "model": "22.2 mm or 28.6 mm bars with 13.5-16.0 mm inner diameter", "years": [], "notes": "No model list on page."}
+      ],
+      "fitment_source_url": "https://www.maciag-offroad.com/acerbis-handguards-x-factory-white-incl-mounting-kit-sid168814.html",
+      "what_it_changes": "Steel bar inside injection-moulded nylon composite, with replaceable polypropylene shield (RevZilla description).",
+      "supporting_parts": "Mounting kit included.",
+      "where_to_buy": [
+        {"seller": "Maciag Offroad (EU)", "url": "https://www.maciag-offroad.com/acerbis-handguards-x-factory-white-incl-mounting-kit-sid168814.html", "price_if_stated": "79.95 (RRP 94.95)", "currency": "EUR (incl. VAT)", "date": "2026-10-14"},
+        {"seller": "RevZilla", "url": "https://www.revzilla.com/motocross/acerbis-x-factory-handguards", "price_if_stated": "89.96 (from page metadata; conflicting price tag)", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "No Acerbis part number captured. Bar inner-diameter range must be checked against the stock tapered bar.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "p2-arc-brake-lever-braktec-br122",
+      "category": "brakes",
+      "subcategory": "brake lever (Braktec)",
+      "brand": "ARC",
+      "product": "Alloy brake lever for Braktec front brake (GasGas / Husqvarna)",
+      "part_numbers": ["BR-122 (retailer code AC-BR-122)"],
+      "variants": "Alloy; one size.",
+      "platform_ids": ["gasgas-mc-2024"],
+      "fits": [
+        {"make": "GasGas", "model": "MC 125, 250F, 350F, 450F", "years": [2024, 2025], "notes": "Braktec front brake"},
+        {"make": "GasGas", "model": "EX 250, 250F, 300, 300F, 350F, 450F, 500F", "years": [2023, 2024, 2025], "notes": ""},
+        {"make": "Husqvarna", "model": "TX 300 / FX 350, 450 (TE/FE enduro also listed)", "years": [2022, 2023, 2024, 2025], "notes": "Husqvarna cross-country TX/FX with Braktec, NOT TC/FC (Brembo)"}
+      ],
+      "fitment_source_url": "https://www.johnstonsmoto.co.nz/products/arc-brake-lever-alloy-gasgas-husq-braketec-ec-23-25-mc-24-25-ex-23-25-ec-21-23-te-tx-fe-fx-22-25",
+      "what_it_changes": "Folding, crash-resistant lever with reach adjust (ARC family claims, see pass 1 arc-brake-lever-br214).",
+      "supporting_parts": "",
+      "where_to_buy": [
+        {"seller": "Johnstons Moto (NZ)", "url": "https://www.johnstonsmoto.co.nz/products/arc-brake-lever-alloy-gasgas-husq-braketec-ec-23-25-mc-24-25-ex-23-25-ec-21-23-te-tx-fe-fx-22-25", "price_if_stated": "169.99", "currency": "NZD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Shows that Braktec bikes need a different lever from the Brembo BR-214. Husqvarna FX/TX listing conflicts with pass 1 ARC Flex list (which includes FX/TX 350/450/300 under Brembo-only) - confirm per bike which master is fitted. 2026-2027 not listed.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-arc-flex-brake-lever-brembo",
+      "category": "brakes",
+      "subcategory": "brake lever (Brembo)",
+      "brand": "ARC",
+      "product": "Flex front brake lever, KTM/Husqvarna/GasGas/Sherco/TM/Kawasaki/Stark 125-501 2014-2027",
+      "part_numbers": ["Cycle Gear item P308105 (retailer)"],
+      "variants": "Black; aluminium, composite or composite-textured blade.",
+      "platform_ids": ["ktm-sx-2023", "ktm-sx-2027", "ktm-xc-2023", "husqvarna-mx-2023", "ktm-family-2016-2022"],
+      "fits": [
+        {"make": "KTM", "model": "125 SX, 250 SX, 250 SX-F, 125/250 XC, 250 XC-F", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027], "notes": "List truncated after 250 XCF-W; 350/450 not captured. 150 SX to 2025."},
+        {"make": "Husqvarna", "model": "TC 125/250, FC 250/350/450", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027], "notes": "TC 150 2025-26, TC 300 2025/2027, TX 300 2017-2027, FX 350 2017-2027"},
+        {"make": "GasGas", "model": "MC 125/250/250F/350F/450F, EX", "years": [2021, 2022, 2023], "notes": "Plus MC 250F Factory Edition 2023-2024. Standard 2024+ GasGas (Braktec) NOT listed."}
+      ],
+      "fitment_source_url": "https://www.cyclegear.com/parts/arc-flex-front-brake-lever-ktm-husqvarna-gas-gas-sherco-tm-kawasaki-stark-125cc-501cc-2014-2026",
+      "what_it_changes": "ARC claim: lever flexes away from the bar in a crash so the brake still works after a bar-bending impact; reach adjuster; forged blade, billet knee; made in USA.",
+      "supporting_parts": "",
+      "where_to_buy": [
+        {"seller": "Cycle Gear", "url": "https://www.cyclegear.com/parts/arc-flex-front-brake-lever-ktm-husqvarna-gas-gas-sherco-tm-kawasaki-stark-125cc-501cc-2014-2026", "price_if_stated": "79.99", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Page states: only for OEM Brembo master cylinders; not compatible with Braktec, Nissin or Magura. The 2024 GasGas MC 250F Factory Edition listing implies FE models kept Brembo - unconfirmed.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-tusk-braktec-brake-lever",
+      "category": "brakes",
+      "subcategory": "brake lever (Braktec)",
+      "brand": "Tusk",
+      "product": "Brake lever, BrakTec, black (GasGas MC)",
+      "part_numbers": ["Replaces OEM A54013002044"],
+      "variants": "Black",
+      "platform_ids": ["gasgas-mc-2024"],
+      "fits": [
+        {"make": "GasGas", "model": "MC 350F", "years": [2023, 2024, 2025], "notes": "Title 2023-2025; URL says 2023-2024. 'For BrakTec systems'."},
+        {"make": "GasGas", "model": "MC 125", "years": [2024, 2025], "notes": "Separate listing title"}
+      ],
+      "fitment_source_url": "https://www.walmart.com/ip/5771566312",
+      "what_it_changes": "OEM-style replacement lever for Braktec masters.",
+      "supporting_parts": "",
+      "where_to_buy": [
+        {"seller": "Walmart Marketplace", "url": "https://www.walmart.com/ip/5771566312", "price_if_stated": "29.85", "currency": "USD", "date": "2026-10-14"},
+        {"seller": "Walmart Marketplace (MC 125 listing)", "url": "https://www.walmart.com/ip/13303457164", "price_if_stated": null, "currency": null, "date": null}
+      ],
+      "rider_feedback": [],
+      "caveats": "No Tusk part number; marketplace listing. The OEM number A54013002044 is useful for cross-referencing Braktec levers.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-ebc-fa181r-front-pads",
+      "category": "brakes",
+      "subcategory": "brake pads (front)",
+      "brand": "EBC",
+      "product": "FA181R R-Series sintered front brake pads",
+      "part_numbers": ["FA181R"],
+      "variants": "R-Series sintered; FA181 also exists in other EBC compounds (not checked).",
+      "platform_ids": ["gasgas-mc-2024", "ktm-family-2016-2022"],
+      "fits": [
+        {"make": "GasGas", "model": "MC 125, 250F, 450F", "years": [2021, 2022, 2023, 2024, 2025, 2026, 2027], "notes": "Spans Brembo (2021-23) and Braktec (2024+) years"},
+        {"make": "GasGas", "model": "MC 250", "years": [2022, 2023, 2024, 2025, 2026], "notes": "MC 350F 2022-2025; MC 150 2025-26; MC 300 2025; EX 250/250F/350F/450F to 2025; EX 300 2021-2027"}
+      ],
+      "fitment_source_url": "https://www.jpcycles.com/product/ebc-fa181r-r-series-sintered-brake-pads",
+      "what_it_changes": "Sintered replacement front pad.",
+      "supporting_parts": "",
+      "where_to_buy": [
+        {"seller": "J&P Cycles", "url": "https://www.jpcycles.com/product/ebc-fa181r-r-series-sintered-brake-pads", "price_if_stated": "42.07", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "KTM and Husqvarna rows were cut off in the captured page, so KTM/Husqvarna fitment is not confirmed here. GasGas listing across 2021-2027 suggests Braktec front caliper takes the same pad as the earlier Brembo - not stated by EBC.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-ebc-mxs368-rear-pads",
+      "category": "brakes",
+      "subcategory": "brake pads (rear)",
+      "brand": "EBC",
+      "product": "MXS368 Race Series rear brake pads",
+      "part_numbers": ["MXS368"],
+      "variants": "Sintered copper race compound (not street legal).",
+      "platform_ids": ["husqvarna-mx-2023", "gasgas-mc-2024", "ktm-family-2016-2022"],
+      "fits": [
+        {"make": "GasGas", "model": "MC 125, 250F, 450F", "years": [2021, 2022, 2023, 2024, 2025, 2026, 2027], "notes": "MC 250 2024-26; MC 350F 2024-25; MC 150 2025-26; EX 2024-25"},
+        {"make": "Husqvarna", "model": "FC 250 / 350 / 450", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027], "notes": "List truncated; TC not captured"}
+      ],
+      "fitment_source_url": "https://www.jpcycles.com/product/ebc-mxs368-race-series-rear-brake-pads",
+      "what_it_changes": "EBC race-compound sintered rear pad.",
+      "supporting_parts": "",
+      "where_to_buy": [
+        {"seller": "J&P Cycles", "url": "https://www.jpcycles.com/product/ebc-mxs368-race-series-rear-brake-pads", "price_if_stated": "46.08 (was 51.19)", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "KTM rows not captured (list cut off). FA368R (R-Series equivalent) listing exists at J&P but was not read.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-galfer-pads-leads",
+      "category": "brakes",
+      "subcategory": "brake pads",
+      "brand": "Galfer",
+      "product": "Galfer pad references seen for KTM/Husqvarna (fitment not confirmed)",
+      "part_numbers": ["FD165G1396 (rear, sintered; TripleClamp Moto)", "FD265G1054 (organic base; JJ Motorsports, position not stated)", "FD265G1396 (sintered; Mieloch lists only 65/85 cc fitment)"],
+      "variants": "G1054 semi-metallic/organic; G1396 sintered",
+      "platform_ids": [],
+      "fits": [
+        {"make": "KTM / Husqvarna", "model": "not stated", "years": [], "notes": "Retailer pages had no loaded fitment table"}
+      ],
+      "fitment_source_url": "https://tripleclampmoto.ca/products/galfer-rear-brake-pads-aprillia-bmw-ducati-husaberg-husqvarna-indian-ktm-triumph-yamaha-fd165",
+      "what_it_changes": "Replacement pads.",
+      "supporting_parts": "",
+      "where_to_buy": [
+        {"seller": "TripleClamp Moto (CA)", "url": "https://tripleclampmoto.ca/products/galfer-rear-brake-pads-aprillia-bmw-ducati-husaberg-husqvarna-indian-ktm-triumph-yamaha-fd165", "price_if_stated": "46.49 (FD165G1396, sale)", "currency": "CAD", "date": "2026-10-14"},
+        {"seller": "JJ Motorsports", "url": "https://jj-motorsports.com/galfer-brake-pads-husqvarna-ktm-fd265g1054/", "price_if_stated": "29.50 (FD265G1054)", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Do not publish as fitment; leads only. Galfer USA catalogue not reached.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "p2-galfer-wave-rotor-df686w",
+      "category": "brakes",
+      "subcategory": "rear rotor",
+      "brand": "Galfer",
+      "product": "Wave rotor KTM DF686W (rear)",
+      "part_numbers": ["DF686W (Galfer MPN)", "JJ Motorsports SKU 17111654"],
+      "variants": "Wave, rear position",
+      "platform_ids": [],
+      "fits": [
+        {"make": "KTM", "model": "not loaded", "years": [], "notes": "Fitment table did not load"}
+      ],
+      "fitment_source_url": "https://jj-motorsports.com/galfer-wave-rotor-ktm-df686w/",
+      "what_it_changes": "Replacement wave-pattern rear disc.",
+      "supporting_parts": "",
+      "where_to_buy": [
+        {"seller": "JJ Motorsports", "url": "https://jj-motorsports.com/galfer-wave-rotor-ktm-df686w/", "price_if_stated": "92.70 (MSRP 103.00)", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Diameter and model years not stated; confirm with Galfer before use.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "p2-gbrakes-270-wave-kit",
+      "category": "brakes",
+      "subcategory": "oversize front rotor kit",
+      "brand": "GBrakes",
+      "product": "270 mm non-floating Wave rotor plus bracket, KTM/Husqvarna/Husaberg/GasGas 125-530 2009-2027",
+      "part_numbers": ["GBDOS220", "J&P item 10570462 (retailer)"],
+      "variants": "270 mm solid mount",
+      "platform_ids": ["ktm-sx-2023", "ktm-xc-2023", "husqvarna-mx-2023", "gasgas-mc-2024", "ktm-family-2016-2022"],
+      "fits": [
+        {"make": "KTM", "model": "125 SX", "years": [2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "notes": "250 SX to 2023; 250 SX-F to 2025; 350 SX-F to 2024; 300 SX 2023-24; 350 XC-F to 2027. List truncated (450 not captured)."},
+        {"make": "Husqvarna", "model": "FC 250 / 350 / 450", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027], "notes": "TC 125/250 to 2024; FX 450 to 2027"},
+        {"make": "GasGas", "model": "MC 250F, MC 450F", "years": [2021, 2022, 2023, 2024, 2025], "notes": "2024-25 are Braktec years; MC 125 only 2021-23"}
+      ],
+      "fitment_source_url": "https://www.jpcycles.com/product/gbrakes-270mm-non-floating-wave-rotor-plus-bracket-ktm-husqvarna-husaberg-gas-gas-125cc-530cc",
+      "what_it_changes": "Larger disc increases braking leverage.",
+      "supporting_parts": "Caliper relocation bracket included.",
+      "where_to_buy": [
+        {"seller": "J&P Cycles", "url": "https://www.jpcycles.com/product/gbrakes-270mm-non-floating-wave-rotor-plus-bracket-ktm-husqvarna-husaberg-gas-gas-125cc-530cc", "price_if_stated": "269.00", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "GBrakes code GBDOS220 resembles the Slavens Galfer kit SKU WP17-DOS220 (pass 1 galfer-270-wave-ktm); relationship between GBrakes and Galfer not confirmed. Year gaps (e.g. KTM 125 SX to 2024 only) look like listing gaps.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-tusk-typhoon-270-gasgas-mc150",
+      "category": "brakes",
+      "subcategory": "oversize front rotor kit",
+      "brand": "Tusk",
+      "product": "Oversized floating Typhoon brake rotor kit, front 270 mm",
+      "part_numbers": [],
+      "variants": "270 mm floating",
+      "platform_ids": ["gasgas-mc-2024"],
+      "fits": [
+        {"make": "GasGas", "model": "MC 150", "years": [2025], "notes": "Only fitment stated (listing title). A Braktec-equipped bike."}
+      ],
+      "fitment_source_url": "https://www.walmart.com/ip/13263673487",
+      "what_it_changes": "Larger floating disc for more braking leverage.",
+      "supporting_parts": "Billet caliper relocation bracket included.",
+      "where_to_buy": [
+        {"seller": "Walmart Marketplace (MX PowerPlay)", "url": "https://www.walmart.com/ip/13263673487", "price_if_stated": "136.49", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Evidence that oversize kits are sold for Braktec GasGas, but no Tusk part number; check Rocky Mountain ATV/MC (Tusk's seller) directly.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-motomaster-caliper-adapter-260",
+      "category": "brakes",
+      "subcategory": "caliper adapter",
+      "brand": "Moto-Master",
+      "product": "Brake caliper adapter, front, 260 mm, KTM/Husqvarna/GasGas",
+      "part_numbers": ["EAN 8790497087395", "Maciag SID182187 (retailer)"],
+      "variants": "Black",
+      "platform_ids": [],
+      "fits": [
+        {"make": "KTM / Husqvarna (GasGas in title)", "model": "not stated", "years": [], "notes": "No model list"}
+      ],
+      "fitment_source_url": "https://www.maciag-offroad.com/moto-master-brake-caliper-adapter-caliper-front-260-mm-ktm-husqvarna-gasgas-sid182187.html",
+      "what_it_changes": "Caliper adapter for a 260 mm disc (purpose not explained further).",
+      "supporting_parts": "Clip included.",
+      "where_to_buy": [
+        {"seller": "Maciag Offroad (EU)", "url": "https://www.maciag-offroad.com/moto-master-brake-caliper-adapter-caliper-front-260-mm-ktm-husqvarna-gasgas-sid182187.html", "price_if_stated": "92.95 (UVP 104.75)", "currency": "EUR (incl. VAT)", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "No Moto-Master part number or model years.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "p2-ktm-factory-front-caliper",
+      "category": "brakes",
+      "subcategory": "front caliper",
+      "brand": "KTM / Brembo",
+      "product": "KTM Factory/SXS front caliper (24 mm pistons) vs Brembo 28 mm caliper",
+      "part_numbers": ["SXS09125512 (KTM, 24 mm pistons, per forum)", "XQ21361 (Brembo, 28 mm pistons, per forum)"],
+      "variants": "24 mm vs 28 mm pistons (28 mm gives ~36% more area, per poster)",
+      "platform_ids": ["ktm-family-2016-2022"],
+      "fits": [
+        {"make": "KTM", "model": "250 SX", "years": [2018], "notes": "Forum poster's bike; no fitment table"}
+      ],
+      "fitment_source_url": "https://www.vitalmx.com/forums/tech-helprace-shop/ktm-factorysxs-front-caliper-two-versions",
+      "what_it_changes": "Piston size and master/caliper pairing changes lever ratio and bite.",
+      "supporting_parts": "Must be matched to master cylinder bore (forum: Brembo lists a 10 mm PS 10/16 master with the 24 mm caliper on the 450 SX-F Factory Edition).",
+      "where_to_buy": [],
+      "rider_feedback": [
+        {"source": "Vital MX forum", "author": "cwtoyota", "date": "2025-11-02", "summary": "Runs a Honda/Nissin 11 mm master with a Braktec-or-Brembo 28 mm caliper and stock KTM hose on a 2023 GasGas 350 (260 mm disc); prefers it to his KX450's Brembo set-up; says a 270 mm rotor kit matters more than a same-piston caliper swap; warns mixing eras gives poor pairings.", "conditions": "2023 GasGas 350", "url": "https://www.vitalmx.com/forums/tech-helprace-shop/ktm-factorysxs-front-caliper-two-versions"},
+        {"source": "Vital MX forum", "author": "ar15", "date": "2025-11-16", "summary": "Bought the SXS09125512 24 mm caliper; not yet tested with the stock 9 mm master.", "conditions": "2018 KTM 250 SX", "url": "https://www.vitalmx.com/forums/tech-helprace-shop/ktm-factorysxs-front-caliper-two-versions"}
+      ],
+      "caveats": "All data from a forum thread; part numbers unconfirmed by KTM or Brembo. Not a recommendation.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "p2-wc-pro-launch-ktm-2023",
+      "category": "chassis",
+      "subcategory": "holeshot device",
+      "brand": "Works Connection",
+      "product": "Pro Launch start device (2023+ KTM/Husqvarna; GasGas 125-450 2021-2027 listing)",
+      "part_numbers": ["Cycle Gear item P366605 (retailer)", "RevZilla UPC 1148999 (GasGas 125-450 2021-2027 listing; retailer)"],
+      "variants": "Standard; LE purple trigger version (2024).",
+      "platform_ids": ["ktm-sx-2023", "ktm-sx-2027", "ktm-xc-2023", "husqvarna-mx-2023", "gasgas-mc-2024"],
+      "fits": [
+        {"make": "KTM", "model": "125 SX, 250 SX, 250 SX-F", "years": [2023, 2024, 2025, 2026, 2027], "notes": "250 SX-F FE 2023-26; 150 SX 2025; 125/250 XC and 250 XC-F only 2023 listed; list truncated before 350/450"},
+        {"make": "Husqvarna", "model": "FC 250/350/450, TC 125/250, FX 350", "years": [2023, 2024, 2025, 2026, 2027], "notes": "FX 450 2023; TC 300 2025-27"},
+        {"make": "GasGas", "model": "MC 125-450", "years": [2021, 2022, 2023, 2024, 2025, 2026, 2027], "notes": "RevZilla title only; Cycle Gear list shows GasGas MC only to 2023"}
+      ],
+      "fitment_source_url": "https://www.cyclegear.com/parts/works-connection-pro-launch-start-device",
+      "what_it_changes": "WC claim: spring-less 50 g CNC aluminium fork-compression holeshot device with consistent release.",
+      "supporting_parts": "OEM fork guards only; drill template and countersink tool included.",
+      "where_to_buy": [
+        {"seller": "Cycle Gear", "url": "https://www.cyclegear.com/parts/works-connection-pro-launch-start-device", "price_if_stated": "115.47-174.95 (by fitment)", "currency": "USD", "date": "2026-10-14"},
+        {"seller": "RevZilla (GasGas)", "url": "https://www.revzilla.com/motocross/works-connection-pro-launch-kit-gas-gas-125cc-450cc-2021-2025", "price_if_stated": "159.95 (from page metadata)", "currency": "USD", "date": "2026-10-14"},
+        {"seller": "Cycle News (LE press)", "url": "https://cyclenews.com/2024/04/article/works-connection-le-pro-launch-start-device", "price_if_stated": "159.95 kit; 89.95 trigger", "currency": "USD", "date": "2024-04-05"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Extends pass 1 wc-pro-launch-ktm (which found only 2017-22 KTM and 2023 Husqvarna). No WC manufacturer part number. XC/XC-F after 2023 and 350/450 SX-F not visible in truncated list.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-wc-elite-axle-blocks-22mm",
+      "category": "chassis",
+      "subcategory": "axle blocks",
+      "brand": "Works Connection",
+      "product": "Elite Axle Block Kit (floating), 22 mm axle KTM/Husqvarna",
+      "part_numbers": ["17-251 (blue)", "17-256 (red)", "17-261 (black)", "17-264 (orange)", "17-316 (silver/raw)"],
+      "variants": "Blue, red, black, orange, silver",
+      "platform_ids": ["ktm-sx-2023", "ktm-xc-2023", "husqvarna-mx-2023"],
+      "fits": [
+        {"make": "KTM", "model": "250/350/450 SX-F and XC-F; 125/250/300 SX and XC", "years": [2023], "notes": "Plus 2022 250/450 SX-F Factory Edition. Release dated 2022-08-07, so later years not listed."},
+        {"make": "Husqvarna", "model": "FC 250/350/450, TC 125/250, FX 350/450, TX 300", "years": [2023], "notes": "Plus 2022 FC 250/450 Rockstar Edition"}
+      ],
+      "fitment_source_url": "https://vitalmx.com/media/200321",
+      "what_it_changes": "WC claims: converts fixed axle to floating for traction and handling; caliper receiver posts for exact chain alignment; titanium drive-side receiver; designed for the 25-to-22 mm axle change.",
+      "supporting_parts": "Uses stock axle and aluminium nut (stock 'leaner' triangle still works); square removal tool nut included.",
+      "where_to_buy": [
+        {"seller": "Works Connection (press release)", "url": "https://vitalmx.com/media/200321", "price_if_stated": "99.95", "currency": "USD", "date": "2022-08-07"}
+      ],
+      "rider_feedback": [
+        {"source": "Keefer Inc Testing", "author": "Kris Keefer", "date": "2023-05-29", "summary": "Subtle gain in rear traction and square-edge comfort (see pass 1 wc-axle-blocks-ktm-2023).", "conditions": "2023 KTM 450 SX-F", "url": "https://www.keeferinctesting.com/8-ways-to-get-less-rigidity-out-of-your-2023-2024-ktm-450-sx-f/"}
+      ],
+      "caveats": "Adds part numbers to pass 1 wc-axle-blocks-ktm-2023. GasGas 2024+ (same 22 mm axle) not named in release; 2024+ years need confirming.",
+      "confidence": "high"
+    },
+    {
+      "id": "p2-ride-engineering-full-performance-linkage-2025",
+      "category": "chassis",
+      "subcategory": "linkage",
+      "brand": "Ride Engineering",
+      "product": "Full Performance linkage (KTM/GasGas, 2024.5 FE and 2025+)",
+      "part_numbers": [],
+      "variants": "",
+      "platform_ids": ["ktm-family-2025-linkage"],
+      "fits": [
+        {"make": "KTM", "model": "SX/SX-F", "years": [2025], "notes": "Plus 2024.5 Factory Editions and 2025.5"},
+        {"make": "GasGas", "model": "MC", "years": [2025], "notes": "Plus 2024.5 Factory Editions"},
+        {"make": "Husqvarna", "model": "TC/FC", "years": [2025], "notes": "Fits but raises rear to KTM/GasGas (Rockstar) height"},
+        {"make": "KTM / Husqvarna / GasGas", "model": "all", "years": [2023, 2024], "notes": "Does NOT fit: larger linkage bolts"}
+      ],
+      "fitment_source_url": "https://motocrossactionmag.com/mxa-team-tested-ride-engineering-full-performance-ktm-linkage",
+      "what_it_changes": "More linear damping curve for balance and less pitching under braking and acceleration.",
+      "supporting_parts": "Shock spring one rate stiffer than stock; race sag 106-108 mm. Reuses stock bushings and spacers; bearings pre-installed.",
+      "where_to_buy": [
+        {"seller": "Ride Engineering (price via MXA)", "url": "https://www.ride-engineering.com", "price_if_stated": "474.90 (about 600 with spring, MXA estimate)", "currency": "USD", "date": "2024-12-24"}
+      ],
+      "rider_feedback": [
+        {"source": "Motocross Action", "author": "MXA test crew", "date": "2024-12-24", "summary": "Better rear stability on corner entry and fast straights, less harshness on acceleration bumps with the stiffer spring, could run softer fork clickers, more consistent lap to lap.", "conditions": "2025 KTM/GasGas", "url": "https://motocrossactionmag.com/mxa-team-tested-ride-engineering-full-performance-ktm-linkage"}
+      ],
+      "caveats": "No part number; fitment from magazine test, not RE fitment page. 2026-2027 not stated.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-ride-engineering-performance-link-2020",
+      "category": "chassis",
+      "subcategory": "pull rods",
+      "brand": "Ride Engineering",
+      "product": "Performance Link (pull rods), previous-generation KTM",
+      "part_numbers": [],
+      "variants": "Pull rods 1.3 mm longer than stock (149.5 mm overall)",
+      "platform_ids": ["ktm-family-2016-2022"],
+      "fits": [
+        {"make": "KTM", "model": "125 SX", "years": [2020], "notes": "Test bike; full fitment not stated"}
+      ],
+      "fitment_source_url": "https://www.keeferinctesting.com/?p=13109",
+      "what_it_changes": "Lowers rear about 7 mm; tester: better tracking out of choppy corners, more off-throttle stability, less kicking on braking bumps.",
+      "supporting_parts": "Bearings and seals included. Tester ran 103 mm sag and suggested 0.2-0.5 bar less AER fork pressure.",
+      "where_to_buy": [
+        {"seller": "Ride Engineering (price via Keefer)", "url": "https://www.ride-engineering.com", "price_if_stated": "219.95", "currency": "USD", "date": "2020-02-26"}
+      ],
+      "rider_feedback": [
+        {"source": "Keefer Inc Testing", "author": "Kris Keefer", "date": "2020-02-26", "summary": "Rear less busy over rough ground; turn-in unchanged; front may feel high.", "conditions": "2020 KTM 125 SX", "url": "https://www.keeferinctesting.com/?p=13109"}
+      ],
+      "caveats": "Pre-2023 chassis only; no part number.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-krooztune-lowering-linkage-2023",
+      "category": "chassis",
+      "subcategory": "linkage (lowering)",
+      "brand": "Krooztune (KroozR)",
+      "product": "KTM 2023-on SX-F / XC-F / XC lowering linkage",
+      "part_numbers": ["KT-KTM23LL-40"],
+      "variants": "20 mm or 40 mm options (suffix -40 likely the 40 mm version; not confirmed)",
+      "platform_ids": ["ktm-sx-2023", "ktm-xc-2023"],
+      "fits": [
+        {"make": "KTM", "model": "SX-F, XC-F, XC", "years": [2023], "notes": "'2023-on'; check against MXA note that 2025+ linkage bolts differ"}
+      ],
+      "fitment_source_url": "https://www.teknikmotorsport.com/KT-KTM23LL-40-Krooztune-ktm-sxf-xcf-xc-lowering-linkage-2023",
+      "what_it_changes": "Lowers the rear (seat height) by the stated amount; lowering figures refer to the rear, not overall height.",
+      "supporting_parts": "",
+      "where_to_buy": [
+        {"seller": "Teknik Motorsport (AU)", "url": "https://www.teknikmotorsport.com/KT-KTM23LL-40-Krooztune-ktm-sxf-xcf-xc-lowering-linkage-2023", "price_if_stated": null, "currency": null, "date": null}
+      ],
+      "rider_feedback": [],
+      "caveats": "A Husqvarna FX/TX 2023 version (KT-HQV23LL-40) appears in search URL slugs but was not opened. 2025+ fitment uncertain.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-krooztune-ktm-height-link-husky-2023",
+      "category": "chassis",
+      "subcategory": "linkage (raising)",
+      "brand": "Krooztune (KroozR)",
+      "product": "WP 2023 Husqvarna-to-KTM height linkage system",
+      "part_numbers": ["KT-KTM23"],
+      "variants": "With or without pre-fitted bearings",
+      "platform_ids": ["husqvarna-mx-2023"],
+      "fits": [
+        {"make": "Husqvarna", "model": "MX models (names missing on page)", "years": [2023], "notes": "Replaces 2022-2023 Husqvarna linkage and stock-height 2023 KTM linkage"}
+      ],
+      "fitment_source_url": "https://www.teknikmotorsport.com/KT-KTM23-LS-kroozr-wp-2023-husqvarna-to-ktm-height-linkage-system",
+      "what_it_changes": "Raises a lower stock Husqvarna MX rear to KTM height and linkage ratio.",
+      "supporting_parts": "Includes shorter WP KTM 2023-spec shock dust cap to keep correct bottoming height.",
+      "where_to_buy": [
+        {"seller": "Teknik Motorsport (AU)", "url": "https://www.teknikmotorsport.com/KT-KTM23-LS-kroozr-wp-2023-husqvarna-to-ktm-height-linkage-system", "price_if_stated": "230.00", "currency": "not stated (AUD likely)", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Page heading mislabelled (shows a KoubaLink XR title); details from spec table. Model list missing.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-koubalink-ktm11-2023",
+      "category": "chassis",
+      "subcategory": "linkage (lowering)",
+      "brand": "KoubaLink",
+      "product": "KTM11-2023 rear suspension lowering link (25 mm)",
+      "part_numbers": ["KTM11-2023 (from product name; not labelled as part number)"],
+      "variants": "25 mm drop",
+      "platform_ids": ["ktm-sx-2023", "husqvarna-mx-2023", "gasgas-mc-2024"],
+      "fits": [
+        {"make": "KTM", "model": "SX, SX-F", "years": [2023], "notes": "From name/URL; listing title also says 2023-2024"},
+        {"make": "Husqvarna", "model": "TC, FC (TE/FE)", "years": [2023], "notes": "From URL slug"},
+        {"make": "GasGas", "model": "MC (EC)", "years": [], "notes": "From URL slug; years not stated"}
+      ],
+      "fitment_source_url": "https://www.teknikmotorsport.com/KOUBALINK-KTM11-5-Lowering-Link-KTM-2023-2024-38mm",
+      "what_it_changes": "Lowers rear by 25 mm (claims better stability and confidence).",
+      "supporting_parts": "",
+      "where_to_buy": [
+        {"seller": "Teknik Motorsport (AU)", "url": "https://www.teknikmotorsport.com/KOUBALINK-KTM11-5-Lowering-Link-KTM-2023-2024-38mm", "price_if_stated": null, "currency": null, "date": null}
+      ],
+      "rider_feedback": [],
+      "caveats": "URL says '38mm' while page says 25 mm; part number and years unclear.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "p2-warp9-elite-wheels-ktm",
+      "category": "wheels",
+      "subcategory": "complete wheel",
+      "brand": "Warp 9",
+      "product": "Elite wheel assembly, KTM/Husaberg/Husqvarna/GasGas (21x1.60 front, 18x2.15 rear)",
+      "part_numbers": [],
+      "variants": "Black rim; hub/spoke colours black, silver, orange, blue, red, magnesium; others special order.",
+      "platform_ids": ["ktm-xc-2023", "husqvarna-mx-2023", "gasgas-mc-2024", "ktm-family-2016-2022"],
+      "fits": [
+        {"make": "KTM", "model": "125-530 all", "years": [2020, 2021, 2022, 2023, 2024, 2025, 2026], "notes": "Front 2003-26, rear 1991-26 (range clipped to scope)"},
+        {"make": "Husqvarna", "model": "125-501 all", "years": [2020, 2021, 2022, 2023, 2024, 2025, 2026], "notes": "2014-26"},
+        {"make": "GasGas", "model": "125-500 all", "years": [2021, 2022, 2023, 2024, 2025, 2026], "notes": ""}
+      ],
+      "fitment_source_url": "https://slavensracing.com/shop/complete-wheel-assembly-ktm-husaberg-warp-9/",
+      "what_it_changes": "Aftermarket complete wheel; the 18 in rear suits XC/cross-country use (MX SX/SX-F run 19 in).",
+      "supporting_parts": "2023-26: reuse OEM wheel spacers and seals or buy the spacer/seal kit linked on the page.",
+      "where_to_buy": [
+        {"seller": "Slavens Racing", "url": "https://slavensracing.com/shop/complete-wheel-assembly-ktm-husaberg-warp-9/", "price_if_stated": "441.00-544.00", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Page does not mention the 22 mm rear axle; confirm hub bore for 2023+. No 19 in rear option shown on this listing.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-allballs-rear-wheel-bearing-25-1404",
+      "category": "wheels",
+      "subcategory": "wheel bearing kit",
+      "brand": "All Balls Racing",
+      "product": "Rear wheel bearing and seal kit, KTM/Husqvarna/GasGas 2023+ (22 mm axle)",
+      "part_numbers": ["25-1404"],
+      "variants": "",
+      "platform_ids": ["ktm-sx-2023", "husqvarna-mx-2023", "gasgas-mc-2024"],
+      "fits": [
+        {"make": "KTM", "model": "250 SX-F", "years": [2023, 2024], "notes": "eBay.de listing MPN 25-1404"},
+        {"make": "KTM", "model": "125 SX", "years": [2023, 2024, 2025], "notes": "Firestorm listing; 25-1404 only in image filename"},
+        {"make": "Husqvarna", "model": "TC 250", "years": [2023, 2024, 2025], "notes": "Firestorm listing; 25-1404 only in image filename"},
+        {"make": "GasGas", "model": "EC/EX (enduro links)", "years": [2024, 2025], "notes": "Cycle Gear cross-links GasGas 2024+ to 25-1404; MC not shown"}
+      ],
+      "fitment_source_url": "https://www.ebay.de/itm/405497492968",
+      "what_it_changes": "OEM-replacement bearings and seals.",
+      "supporting_parts": "",
+      "where_to_buy": [
+        {"seller": "eBay.de seller", "url": "https://www.ebay.de/itm/405497492968", "price_if_stated": "24.99", "currency": "GBP (incl. VAT)", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Cycle Gear 25-1404 page was blocked; part number not confirmed on an All Balls or major-retailer page. Front kit not identified.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "p2-renthal-224u-rear-sprocket",
+      "category": "drivetrain",
+      "subcategory": "rear sprocket",
+      "brand": "Renthal",
+      "product": "Ultralight self-cleaning aluminium rear sprocket 224U-520 (KTM/Husqvarna/GasGas)",
+      "part_numbers": ["224U-520-44GPSI", "224U-520-46GPOR", "224U-520-48GPBK", "224U-520-51GPOR", "224U-520-52GPOR", "224U-520-53GPSI", "Format: 224U-520-{teeth}GP{colour: BK/OR/SI}"],
+      "variants": "40-53T; four colours (black, orange, silver confirmed).",
+      "platform_ids": ["ktm-sx-2023", "ktm-xc-2023", "husqvarna-mx-2023", "gasgas-mc-2024", "ktm-family-2016-2022"],
+      "fits": [
+        {"make": "KTM / Husqvarna / GasGas", "model": "most 125-890 models", "years": [], "notes": "No model-year table on either page; OEM cross-ref 1075636001 on biketeile-service"}
+      ],
+      "fitment_source_url": "https://sprocketcenter.com/i-30500553-renthal-224u-520-pitch-aluminum-rear-sprocket-gas-husq-ktm-cf-kove.html",
+      "what_it_changes": "Gearing via tooth count; self-cleaning profile and lightweight aluminium.",
+      "supporting_parts": "520 chain.",
+      "where_to_buy": [
+        {"seller": "Biketeile-Service (DE)", "url": "https://www.biketeile-service.de/en/motorcycleparts/wearingparts/drive/sprockets/renthalaluminiumultralightselfcleaningrearsprocket224u520forktm.html", "price_if_stated": "68.72 (48T black)", "currency": "EUR (incl. 19% VAT)", "date": "2026-10-14"},
+        {"seller": "Sprocket Center", "url": "https://sprocketcenter.com/i-30500553-renthal-224u-520-pitch-aluminum-rear-sprocket-gas-husq-ktm-cf-kove.html", "price_if_stated": null, "currency": null, "date": null}
+      ],
+      "rider_feedback": [],
+      "caveats": "224U is the long-running KTM 520 rear pattern (same pattern as JT 897 / Supersprox RST-990). Model-year fitment not enumerated.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-renthal-292-front-sprocket",
+      "category": "drivetrain",
+      "subcategory": "front sprocket",
+      "brand": "Renthal",
+      "product": "Chromoly steel front sprocket #292, 520 (Beta/GasGas/Husqvarna/KTM)",
+      "part_numbers": ["292 (Renthal pattern; Sprocket Center keyword REN292)"],
+      "variants": "11-15T",
+      "platform_ids": ["ktm-sx-2023", "ktm-xc-2023", "husqvarna-mx-2023", "gasgas-mc-2024"],
+      "fits": [
+        {"make": "KTM / Husqvarna / GasGas", "model": "many 125-530 models", "years": [], "notes": "No model-year list"}
+      ],
+      "fitment_source_url": "https://sprocketcenter.com/i-30499994-renthal-292-520-pitch-chromoly-steel-front-sprocket-beta-gas-husq-ktm.html",
+      "what_it_changes": "Front gearing change.",
+      "supporting_parts": "",
+      "where_to_buy": [
+        {"seller": "Sprocket Center", "url": "https://sprocketcenter.com/i-30499994-renthal-292-520-pitch-chromoly-steel-front-sprocket-beta-gas-husq-ktm.html", "price_if_stated": null, "currency": null, "date": null}
+      ],
+      "rider_feedback": [],
+      "caveats": "Full part number with tooth count (e.g. 292--520-13) not captured; 2-stroke vs 4-stroke front patterns not separated.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "p2-jt-racelite-jta897",
+      "category": "drivetrain",
+      "subcategory": "rear sprocket",
+      "brand": "JT Sprockets",
+      "product": "RaceLite aluminium rear sprocket JTA897 (KTM/Husqvarna/GasGas/Stark/Husaberg)",
+      "part_numbers": ["JTA897.38BLK ... JTA897.52BLK", "JTA897.38ORG ... JTA897.52ORG", "e.g. JTA897.48BLK, JTA897.50ORG (also written JTA89748BLK)"],
+      "variants": "38, 40, 41, 42, 45, 47, 48, 49, 50, 51, 52T; black or orange.",
+      "platform_ids": ["gasgas-mc-2024", "ktm-sx-2023", "husqvarna-mx-2023", "ktm-family-2016-2022"],
+      "fits": [
+        {"make": "GasGas", "model": "MC 125, MC 250F", "years": [2021, 2022, 2023, 2024, 2025, 2026, 2027], "notes": "MC 250 2022-2026; MC 150 2025-26; EX 300 2021-2027; MC 250F FE 2023; list truncated"},
+        {"make": "KTM / Husqvarna", "model": "not captured", "years": [], "notes": "Rows cut off; title says KTM/Husqvarna 125-701"}
+      ],
+      "fitment_source_url": "https://www.jpcycles.com/product/jt-sprockets-racelite-aluminum-rear-sprocket-ktm-husqvarna-gas-gas-stark-husaberg-125cc-701cc",
+      "what_it_changes": "Gearing via tooth count; lightweight aluminium.",
+      "supporting_parts": "520 chain.",
+      "where_to_buy": [
+        {"seller": "J&P Cycles", "url": "https://www.jpcycles.com/product/jt-sprockets-racelite-aluminum-rear-sprocket-ktm-husqvarna-gas-gas-stark-husaberg-125cc-701cc", "price_if_stated": "from 26.95", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "KTM/Husqvarna year list not captured.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-did-520ert3-chain",
+      "category": "drivetrain",
+      "subcategory": "chain",
+      "brand": "D.I.D",
+      "product": "520 ERT3 non-sealed motocross chain",
+      "part_numbers": ["520ERT3120RB (120 links)", "M520ERT3120RB (retailer form)", "EAN 4525516906432 (124 links, gold/gold)"],
+      "variants": "110-150 links, 25 ft, 100 ft; clip connecting link; gold.",
+      "platform_ids": ["ktm-sx-2023", "ktm-xc-2023", "husqvarna-mx-2023", "gasgas-mc-2024"],
+      "fits": [
+        {"make": "KTM / Husqvarna", "model": "520-chain MX bikes up to 450 cc", "years": [], "notes": "DID rates it to 450 cc; no model-year fitment; length per bike not confirmed"}
+      ],
+      "fitment_source_url": "https://didchain.com/products/520ert3",
+      "what_it_changes": "DID: best-selling MX chain, strong strength-to-weight (8,300 lb tensile, 2.99 lb per 100 links), used by Red Bull KTM and other factory teams.",
+      "supporting_parts": "Length depends on gearing (stock link count for 2023+ KTM not captured).",
+      "where_to_buy": [
+        {"seller": "D.I.D (manufacturer)", "url": "https://didchain.com/products/520ert3", "price_if_stated": "171.13 (120 links)", "currency": "USD", "date": "2026-10-14"},
+        {"seller": "Biketeile-Service (DE)", "url": "https://www.biketeile-service.de/en/motorcycleparts/wearingparts/drive/drivechains/did520ert3drivechain520forktmhusqvarnabeta4525516906432.html", "price_if_stated": "155.56 (124 links)", "currency": "EUR (incl. VAT)", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Generic 520 fit; per-bike link count needed.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-ee-skid-plate-4t-2023",
+      "category": "protection",
+      "subcategory": "skid plate",
+      "brand": "Enduro Engineering",
+      "product": "Aluminium skid plate, KTM/Husqvarna/GasGas 250-500 4-stroke 2022-2027",
+      "part_numbers": ["Cycle Gear item P1035804 (retailer)"],
+      "variants": "5052H32 aluminium; no colour/linkage options listed",
+      "platform_ids": ["ktm-sx-2023", "ktm-sx-2027", "ktm-xc-2023", "husqvarna-mx-2023", "gasgas-mc-2024"],
+      "fits": [
+        {"make": "KTM", "model": "250/350/450 SX-F, 250/450 XC-F", "years": [2023, 2024, 2025, 2026, 2027], "notes": "350 XC-F 2023-25, 2027; 250 SX-F FE 2022-26; 450 SX-F FE 2022"},
+        {"make": "Husqvarna", "model": "FC 250/350/450", "years": [2023, 2024, 2025, 2027], "notes": "2026 missing (listing gap?); FX 350 2023-27; FX 450 2023-24, 2027"},
+        {"make": "GasGas", "model": "MC 250F, MC 450F", "years": [2024, 2025, 2026, 2027], "notes": "MC 350F 2024-25; FE 2023-25; EX 250F/350F/450F 2024-25"}
+      ],
+      "fitment_source_url": "https://www.cyclegear.com/parts/enduro-engineering-skid-plate-ktm-husqvarna-gas-gas-250cc-500cc-2022-2024",
+      "what_it_changes": "EE claims: protects cases, covers and frame rails; vented wings shed mud; front flap stops roost packing; footpeg mount coverage.",
+      "supporting_parts": "Billet aluminium mounting hardware.",
+      "where_to_buy": [
+        {"seller": "Cycle Gear", "url": "https://www.cyclegear.com/parts/enduro-engineering-skid-plate-ktm-husqvarna-gas-gas-250cc-500cc-2022-2024", "price_if_stated": "123.45 (was 129.95)", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "No EE part number. Husqvarna 2026 absent from list.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-ee-skid-plate-2t-250-300-2023",
+      "category": "protection",
+      "subcategory": "skid plate",
+      "brand": "Enduro Engineering",
+      "product": "Aluminium skid plate, KTM/Husqvarna/GasGas 250-300 2-stroke 2023-2027",
+      "part_numbers": ["Cycle Gear item P1035779 (retailer)"],
+      "variants": "5052H32 aluminium",
+      "platform_ids": ["ktm-sx-2023", "ktm-sx-2027", "ktm-xc-2023", "husqvarna-mx-2023", "gasgas-mc-2024"],
+      "fits": [
+        {"make": "KTM", "model": "250 SX, 300 SX, 250 XC, 300 XC", "years": [2023, 2024, 2025, 2026, 2027], "notes": ""},
+        {"make": "Husqvarna", "model": "TC 250, TX 300", "years": [2023, 2024, 2025, 2026, 2027], "notes": "TC 300 2025, 2027"},
+        {"make": "GasGas", "model": "MC 250", "years": [2024, 2025, 2026], "notes": "MC 300 2025; EX 250 2024-25; EX 300 2024-27"}
+      ],
+      "fitment_source_url": "https://www.cyclegear.com/parts/enduro-engineering-skid-plate-ktm-husqvarna-gas-gas-250cc-300cc-2023-2024",
+      "what_it_changes": "Same EE claims as 4-stroke plate (case/frame protection, mud vents, roost flap).",
+      "supporting_parts": "Billet hardware.",
+      "where_to_buy": [
+        {"seller": "Cycle Gear", "url": "https://www.cyclegear.com/parts/enduro-engineering-skid-plate-ktm-husqvarna-gas-gas-250cc-300cc-2023-2024", "price_if_stated": "123.45 (was 129.95)", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "No EE part number.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-ee-skid-plate-125-150-2023",
+      "category": "protection",
+      "subcategory": "skid plate",
+      "brand": "Enduro Engineering",
+      "product": "Aluminium skid plate, KTM/Husqvarna/GasGas 125-150 2023-2027",
+      "part_numbers": ["Cycle Gear item P1035812 (retailer)"],
+      "variants": "5052H32 aluminium",
+      "platform_ids": ["ktm-sx-2023", "ktm-xc-2023", "husqvarna-mx-2023", "gasgas-mc-2024"],
+      "fits": [
+        {"make": "KTM", "model": "125 SX", "years": [2023, 2024, 2025, 2026, 2027], "notes": "125 XC 2023-25, 2027; 150 SX 2025"},
+        {"make": "Husqvarna", "model": "TC 125", "years": [2023, 2024, 2025, 2026, 2027], "notes": "TC 150 2025-26"},
+        {"make": "GasGas", "model": "MC 125", "years": [2024, 2025, 2026, 2027], "notes": "MC 150 2025-26"}
+      ],
+      "fitment_source_url": "https://www.cyclegear.com/parts/enduro-engineering-skid-plate-ktm-husqvarna-gas-gas-125cc-150cc-2023-2024",
+      "what_it_changes": "Same EE claims.",
+      "supporting_parts": "Billet hardware.",
+      "where_to_buy": [
+        {"seller": "Cycle Gear", "url": "https://www.cyclegear.com/parts/enduro-engineering-skid-plate-ktm-husqvarna-gas-gas-125cc-150cc-2023-2024", "price_if_stated": "123.45 (was 129.95)", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "No EE part number.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-axp-skid-plate-2t-250-300-2023",
+      "category": "protection",
+      "subcategory": "skid plate",
+      "brand": "AXP Racing",
+      "product": "6 mm HDPE skid plate, KTM/Husqvarna 250-300 2-stroke 2023-2027",
+      "part_numbers": ["AX1639 (black)", "AX1635 (orange)", "AX1648 (blue)"],
+      "variants": "Black, orange, blue; 6 mm HDPE",
+      "platform_ids": ["ktm-sx-2023", "ktm-sx-2027", "ktm-xc-2023", "husqvarna-mx-2023"],
+      "fits": [
+        {"make": "KTM", "model": "250 SX, 250 XC, 300 XC", "years": [2023, 2024, 2025, 2026, 2027], "notes": "300 SX not listed"},
+        {"make": "Husqvarna", "model": "TC 250", "years": [2023, 2024, 2025, 2026, 2027], "notes": "TX 300 2024-27"}
+      ],
+      "fitment_source_url": "https://www.cyclegear.com/parts/axp-racing-skid-plate-ktm-husqvarna-250cc-300cc-2023-2024",
+      "what_it_changes": "AXP claims: protects subframe and cases; 30-40% lighter than aluminium; absorbs impacts, reduces vibration, won't warp.",
+      "supporting_parts": "",
+      "where_to_buy": [
+        {"seller": "Cycle Gear", "url": "https://www.cyclegear.com/parts/axp-racing-skid-plate-ktm-husqvarna-250cc-300cc-2023-2024", "price_if_stated": "99.95", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "GasGas 2024+ 2-stroke not on this listing (separate AXP GasGas listings found only for 2021-2023). Customer rating 3.5/5 on few reviews.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-bpd-radiator-guards-gen3",
+      "category": "protection",
+      "subcategory": "radiator guards",
+      "brand": "Bullet Proof Designs",
+      "product": "Gen 3 radiator guards for KTM ('17-27 125-500 all models option)",
+      "part_numbers": ["BPKTM-RG-08-STD (older 2008-16 option only)", "KTM-RG-19 (pass 1, AOMC)"],
+      "variants": "Black, blue, orange, polished; fitment options by year range.",
+      "platform_ids": ["ktm-sx-2023", "ktm-sx-2027", "ktm-xc-2023", "ktm-family-2016-2022"],
+      "fits": [
+        {"make": "KTM", "model": "125-500 all models", "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027], "notes": "Option label '17-27'; description says Gen 3 covers 2017-25 - inconsistent"}
+      ],
+      "fitment_source_url": "https://slavensracing.com/shop/radiator-guards-bullet-proof-designs-ktm",
+      "what_it_changes": "Frame-mounted aluminium braces for frontal, side-crush and anti-fold protection. Upshift tester measured 5-10 deg higher temps in slow technical terrain.",
+      "supporting_parts": "Replaces stock louvers; tank and shrouds come off to fit.",
+      "where_to_buy": [
+        {"seller": "Slavens Racing", "url": "https://slavensracing.com/shop/radiator-guards-bullet-proof-designs-ktm", "price_if_stated": "214.00-290.00", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [
+        {"source": "Upshift Online", "author": "Chad de Alva", "date": "undated", "summary": "Better protection than stock louvers, worth the cost despite 5-10 deg temperature rise in slow terrain.", "conditions": "2023 KTM 300 XC", "url": "https://upshiftonline.com/blogs/content/tested-bullet-proof-design-guards-for-new-generation-ktm-models"}
+      ],
+      "caveats": "Updates pass 1 bpd-radiator-guards-ktm-rg-19: Slavens offers a '17-27' option and Upshift tested BPD radiator guards on a 2023 KTM 300 XC, so 2023+ KTM fit is supported by a retailer and a tester. Husqvarna/GasGas not stated on Slavens page.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-bpd-2t-guards-2023",
+      "category": "protection",
+      "subcategory": "small guards (power valve, throttle body, exhaust flange, swingarm, fork lug, rear disc)",
+      "brand": "Bullet Proof Designs",
+      "product": "Guards for new-generation (2023+) KTM-group 2-strokes",
+      "part_numbers": [],
+      "variants": "Power valve cover; throttle body guard; exhaust flange guard; swingarm (chain keeper) guard; billet fork lug guards; rear disc guard with optional caliper guard.",
+      "platform_ids": ["ktm-xc-2023", "ktm-sx-2023"],
+      "fits": [
+        {"make": "KTM", "model": "300 XC (test bike); new-gen KTM-group 2-strokes", "years": [2023], "notes": "Model list not given"}
+      ],
+      "fitment_source_url": "https://upshiftonline.com/blogs/content/tested-bullet-proof-design-guards-for-new-generation-ktm-models",
+      "what_it_changes": "Protects TBI 2-stroke electronics (power valve actuator, throttle position sensor), exhaust flange, chain keeper tabs, fork lugs, rear disc.",
+      "supporting_parts": "Fork lug right side uses longer pinch bolts.",
+      "where_to_buy": [
+        {"seller": "Bullet Proof Designs (prices via Upshift)", "url": "https://upshiftonline.com/blogs/content/tested-bullet-proof-design-guards-for-new-generation-ktm-models", "price_if_stated": "Power valve cover 60-70; exhaust flange guard 50; swingarm guard 59", "currency": "USD", "date": "undated article"}
+      ],
+      "rider_feedback": [
+        {"source": "Upshift Online", "author": "Chad de Alva", "date": "undated", "summary": "High build quality; only gripe is left fork-lug guard needing a combination wrench for pinch bolts.", "conditions": "2023 KTM 300 XC", "url": "https://upshiftonline.com/blogs/content/tested-bullet-proof-design-guards-for-new-generation-ktm-models"}
+      ],
+      "caveats": "No part numbers. XC-focused; SX 2-stroke fit for each guard unconfirmed.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "p2-acerbis-linear-front-disc-guard",
+      "category": "protection",
+      "subcategory": "front disc guard",
+      "brand": "Acerbis",
+      "product": "Linear front disc cover (KTM/Husqvarna/GasGas/Stark), max disc 280 mm",
+      "part_numbers": ["AC-26107BK (black; Bikeman JP code, 'AC-' likely retailer prefix)", "AC-26107OR16 (orange) and AC-26107WH (white) from Bikeman URLs"],
+      "variants": "Black, white, orange; 200 g.",
+      "platform_ids": ["ktm-sx-2023", "ktm-xc-2023", "husqvarna-mx-2023", "gasgas-mc-2024", "ktm-family-2016-2022"],
+      "fits": [
+        {"make": "KTM", "model": "125-500 all models", "years": [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026], "notes": "Slavens; Bikeman lists SX/SX-F/XC/XC-F to 2024"},
+        {"make": "Husqvarna", "model": "125-501 all models", "years": [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026], "notes": ""},
+        {"make": "GasGas", "model": "125-450 all models", "years": [2021, 2022, 2023, 2024, 2025, 2026], "notes": ""}
+      ],
+      "fitment_source_url": "https://slavensracing.com/shop/linear-disc-guard-for-ktm-hqv-gg-stark-by-acerbis/",
+      "what_it_changes": "Protects disc, left fork bottom and caliper; vented; mounts on the axle nut with no extra mount kit.",
+      "supporting_parts": "None (no mount/spacer/adapter required).",
+      "where_to_buy": [
+        {"seller": "Slavens Racing", "url": "https://slavensracing.com/shop/linear-disc-guard-for-ktm-hqv-gg-stark-by-acerbis/", "price_if_stated": "53.05 (was 58.95)", "currency": "USD", "date": "2026-10-14"},
+        {"seller": "Bikeman (JP)", "url": "https://bikeman.jp/en/products/rrd-ac-26107bk", "price_if_stated": "6811", "currency": "JPY (incl. tax)", "date": "2026-10-14 (sold out)"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Max disc 280 mm, so it should clear a 270 mm oversize kit (inference, not stated). Acerbis catalogue number not confirmed.",
+      "confidence": "medium"
+    }
+  ],
+  "gaps": [
+    "Neken stock bar (KTM 2023+) part numbers/bend, Renthal Twinwall bends, and bar mounts (KTM PowerParts, Xtrig, Neken) not found.",
+    "ODI KTM-specific cam/throttle tube part numbers not captured (ODI cam chart PDF not read).",
+    "Works Connection perches: KTM-family bikes use hydraulic clutch and brake masters, so WC cable-clutch Elite perches likely do not apply (inference, not verified). WC brake pedals and shift levers for 2023+ KTM not found.",
+    "Galfer manufacturer catalogue (galferusa.com) not reached: no confirmed Galfer part numbers with KTM 2023+ fitment for rotors, oversize kits or pads. Parts Europe pages need JavaScript.",
+    "Braktec vs Brembo: lever split is confirmed (separate ARC/Tusk Braktec levers). Pad and rotor-kit compatibility is suggested by retailer fitment (EBC, GBrakes, Tusk) but no manufacturer statement; Braktec master cylinder upgrade or swap to Brembo not documented.",
+    "Brembo master cylinder upgrades (e.g. 10 mm PS 10/16 on KTM Factory Edition) found only in forum posts; no retailer SKU.",
+    "Haan, Talon/Excel, DID Dirtstar complete wheels for 22 mm axle bikes: no SKUs or fitment found. Rim locks and Pivot Works bearing kits not researched. All Balls front kit not identified.",
+    "Chains: Regina ZRT and EK not researched; stock chain link count per 2023+ model not captured.",
+    "JT front sprocket part numbers (JTF) and stock gearing per bike not captured; JT catalogue URL in search pointed to a non-KTM model.",
+    "Cycra and Acerbis handguards: no model-specific mount kits identified for tapered Neken bars.",
+    "Frame guards and pipe guards not researched.",
+    "AXP 4-stroke 2023+ and GasGas 2024+ AXP skid plates not captured.",
+    "Husqvarna 2026 FC missing from several fitment lists again (EE, Pro Launch) - likely retailer data gaps.",
+    "2025+ linkage bolt change (MXA) means pass 1 and pass 2 linkage/lowering parts listed as '2023-on' need re-checking for 2025+."
+  ],
+  "not_done": [
+    "Search budget reached (35 searches used).",
+    "Remaining: Neken/Renthal Twinwall bends; bar mounts; WC brake pedals and shift levers; Haan/Talon/DID wheels; rim locks; Pivot Works bearings; Galfer catalogue numbers; Brembo master cylinders; Regina/EK chains; JT fronts; frame and pipe guards; Cycra/Acerbis KTM mount kits; manufacturer-page confirmation for most medium items.",
+    "Blocked URL: https://www.cyclegear.com/parts/all-balls-racing-rear-wheel-bearing-kit-25-1404 (permission request timed out)."
+  ]
+}

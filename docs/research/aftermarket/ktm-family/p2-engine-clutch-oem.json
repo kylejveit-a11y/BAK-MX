@@ -1,0 +1,613 @@
+{
+  "slice": "Pass 2: engine, clutch, Husqvarna/GasGas OEM numbers",
+  "retrieved": "2026-10-14",
+  "notes": "Platform ids reuse pass 1 ids from ktm-engine-clutch-cooling.json (KTM4T-*, KTM2T-*) and ktm-oem-accessories.json (ktm-4t-2023, hqv-2023, gg-2024). One new platform is added: GG-MC4T-2021-2023. Enduro models (EXC, XC-W, TE, FE, EC, ES) are left out of fits even where sources list them. Search budget: 35 of ~35 used.",
+  "platforms": [
+    {
+      "id": "GG-MC4T-2021-2023",
+      "description": "GasGas MC 250F / MC 450F for model years 2021-2023 use the previous-generation KTM/Husqvarna 4-stroke engine (78 mm bore 250; previous 450), not the 2023+ new-generation engine. Two sources agree. Cometic's manufacturer page lists the old-generation 250 bottom-end kit C3595BE for GasGas MC 250F 2021-2023, and its 2023 MC 250F application page returns only old-generation 250 kits. Vertex's PRO Replica 450 piston is listed for GasGas MC-F 450 2021-2023 next to KTM 450 SX-F 2016-2022. This settles pass 1's open question: for 2023 GasGas MC-F, use 2016-2022 KTM 4T parts. The new-generation engine starts on GasGas with MY2024.",
+      "models_years": "GasGas MC 250F 2021-2023, MC 350F 2022-2023, MC 450F 2021-2023",
+      "source_url": "https://www.cometic.com/products/C3595BE ; https://www.cometic.com/applications/powersports/gas-gas/mc-250f/2023 ; https://www.maciag-offroad.com/vertex-piston-kit-pro-replica-gas-gas-mc-f-450-21-23-husqvarna-fc-450-14-22-ktm-sx-f-450-16-22-sid140069.html"
+    },
+    {
+      "id": "KTM4T-250-2023",
+      "description": "Reused from pass 1 (81 mm bore 250 SX-F, 2023+). GasGas MC 250F joins from MY2024 (see GG-MC4T-2021-2023).",
+      "models_years": "KTM 250 SX-F 2023-2027; Husqvarna FC 250 2023+; GasGas MC 250F 2024+",
+      "source_url": "see pass 1"
+    },
+    {
+      "id": "KTM4T-450-2023",
+      "description": "Reused from pass 1.",
+      "models_years": "KTM 450 SX-F 2023-2027; Husqvarna FC 450 2023+; GasGas MC 450F 2024+",
+      "source_url": "see pass 1"
+    },
+    {
+      "id": "KTM2T-250-300-TBI-2023",
+      "description": "Reused from pass 1.",
+      "models_years": "KTM 250/300 SX 2023-2027; Husqvarna TC 250 2023+, TC 300 2025+; GasGas MC 250 2024+, MC 300 2025+",
+      "source_url": "see pass 1"
+    }
+  ],
+  "products": [
+    {
+      "id": "p2-prox-piston-250sxf-2023-2027",
+      "category": "engine",
+      "subcategory": "piston kit (4T, forged, OEM-style)",
+      "brand": "Pro X",
+      "product": "Pro X Piston Kit KTM / Husqvarna / Gas Gas 250cc 2023-2027",
+      "part_numbers": ["Cycle Gear item P1152564 (retailer item, not a Pro X MPN)", "Likely the same kit as pass 1's 01.6348.A (grade A 80.96 mm matches), but not confirmed"],
+      "variants": "A: 80.96 mm (standard); B: 80.97 mm (+0.01). A blemished/refurbished unit is also offered. Compression ratio not stated on this page (pass 1's ORO2U page for 01.6348 states 14.5:1).",
+      "platform_ids": ["KTM4T-250-2023"],
+      "fits": [
+        {"make": "KTM", "model": "250 SX-F", "years": [2023, 2024, 2025, 2026, 2027], "notes": ""},
+        {"make": "Husqvarna", "model": "FC 250", "years": [2023, 2024, 2025, 2027], "notes": "2026 missing from the retailer list (probably a data gap)"},
+        {"make": "GasGas", "model": "MC 250F", "years": [2024, 2025, 2026, 2027], "notes": "Also MC 250F Factory Edition 2025 and EX 250F 2024-2025"}
+      ],
+      "fitment_source_url": "https://www.cyclegear.com/parts/pro-x-piston-kit-ktm-husqvarna-gas-gas-250cc-2023-2025",
+      "what_it_changes": "OEM-replacement forged piston: low-expansion, low-friction alloy with a tin-based OEM-style coating (retailer copy). No performance claim.",
+      "supporting_parts": "Includes piston, pin, clips and rings. Gaskets not included (see p2-prox-top-end-gasket-250-2023 or Cometic).",
+      "service_implications": "Standard-bore replacement, so no map change implied. Pick the size grade to match the cylinder (A or B).",
+      "where_to_buy": [
+        {"seller": "Cycle Gear (US)", "url": "https://www.cyclegear.com/parts/pro-x-piston-kit-ktm-husqvarna-gas-gas-250cc-2023-2025", "price_if_stated": "209.65 (was 232.95)", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "This extends pass 1's Pro X fitment to 2027. The canonical URL says 2023-2025 while the title and fitment list say 2023-2027. No Pro X MPN is shown on the page.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-wiseco-cc069",
+      "category": "engine",
+      "subcategory": "cam chain (4T)",
+      "brand": "Wiseco",
+      "product": "Wiseco Cam Chain, 23-25 KTM / FC 250-350",
+      "part_numbers": ["CC069"],
+      "variants": "",
+      "platform_ids": ["KTM4T-250-2023", "KTM4T-350-2023"],
+      "fits": [
+        {"make": "KTM", "model": "250 SX-F / 350 SX-F", "years": [2023, 2024, 2025], "notes": "Also 250/350 XC-F 2023-2025"},
+        {"make": "Husqvarna", "model": "FC 250 / FC 350", "years": [2023, 2024, 2025], "notes": "Also FX 350 2023-2025"},
+        {"make": "GasGas", "model": "MC 250F / MC 350F", "years": [2024, 2025], "notes": ""}
+      ],
+      "fitment_source_url": "https://hurreysoffroad.com/products/wiseco-23-25-ktm-450sx-23-24-fc250-350-camchain",
+      "what_it_changes": "Replacement cam chain. Retailer says it is made by OE suppliers in premium steel.",
+      "supporting_parts": "Not stated.",
+      "service_implications": "Top-end and valvetrain service item.",
+      "where_to_buy": [
+        {"seller": "Hurrey's Off Road (US)", "url": "https://hurreysoffroad.com/products/wiseco-23-25-ktm-450sx-23-24-fc250-350-camchain", "price_if_stated": "88.99 (was 98.95)", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "The title names the KTM 450 SX but the fitment table has no 450, so 450 fit is unconfirmed. Backordered.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-vertex-pro-replica-450-2016-2022",
+      "category": "engine",
+      "subcategory": "piston kit (4T, forged replica)",
+      "brand": "Vertex",
+      "product": "Vertex Piston Kit PRO Replica, Gas Gas MC-F 450 21-23 / Husqvarna FC 450 14-22 / KTM SX-F 450 16-22",
+      "part_numbers": [],
+      "variants": "94.95 / 94.96 / 94.97 mm; 12.6:1 compression (retailer spec). Grade not stated.",
+      "platform_ids": ["GG-MC4T-2021-2023"],
+      "fits": [
+        {"make": "KTM", "model": "450 SX-F", "years": [2020, 2021, 2022], "notes": "Listing covers 2016-2022"},
+        {"make": "Husqvarna", "model": "FC 450", "years": [2020, 2021, 2022], "notes": "Listing covers 2014-2022"},
+        {"make": "GasGas", "model": "MC 450F", "years": [2021, 2022, 2023], "notes": "Confirms 2023 MC 450F is on the old-generation engine"}
+      ],
+      "fitment_source_url": "https://www.maciag-offroad.com/vertex-piston-kit-pro-replica-gas-gas-mc-f-450-21-23-husqvarna-fc-450-14-22-ktm-sx-f-450-16-22-sid140069.html",
+      "what_it_changes": "Forged replica piston with MoS2 anti-seize coating and the original-type ring kit (retailer).",
+      "supporting_parts": "Ring kit included. Pin and clips not mentioned.",
+      "service_implications": "Replacement piston. Retailer lists 12.6:1; whether that matches the stock ratio was not verified.",
+      "where_to_buy": [
+        {"seller": "Maciag Offroad (DE)", "url": "https://www.maciag-offroad.com/vertex-piston-kit-pro-replica-gas-gas-mc-f-450-21-23-husqvarna-fc-450-14-22-ktm-sx-f-450-16-22-sid140069.html", "price_if_stated": "231.95 incl. VAT (list 247.95)", "currency": "EUR", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "No Vertex part number on the page (shop id SID140069 only). Not for 2023+ KTM/Husqvarna 450 or 2024+ GasGas.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-cometic-C3595-EST",
+      "category": "engine",
+      "subcategory": "top-end gasket kit (4T)",
+      "brand": "Cometic",
+      "product": "Cometic Top End Gasket Kit, KTM 250 SX-F/XC-F 2015-2022",
+      "part_numbers": ["C3595-EST"],
+      "variants": "MLS head gasket, 0.034 in thick; Cometic lists the bore as 79 mm",
+      "platform_ids": ["KTM4T-250-2016-2022", "GG-MC4T-2021-2023"],
+      "fits": [
+        {"make": "KTM", "model": "250 SX-F / 250 XC-F", "years": [2020, 2021, 2022], "notes": "Title says 2015-2022"},
+        {"make": "GasGas", "model": "MC 250F", "years": [2023], "notes": "Returned on Cometic's 2023 MC 250F application page. 2021-2022 assumed by platform but not checked on this page."},
+        {"make": "Husqvarna", "model": "FC 250", "years": [], "notes": "Title says KTM/Husqvarna/GasGas, but no Husqvarna model-year list was captured"}
+      ],
+      "fitment_source_url": "https://www.cometic.com/applications/powersports/gas-gas/mc-250f/2023",
+      "what_it_changes": "Replacement top-end gasket set with an MLS head gasket.",
+      "supporting_parts": "",
+      "service_implications": "Use it at top-end rebuilds. Cometic's 79 mm bore note does not match the stock 78 mm bore; it may be sized for overbore or a typo, so check before use.",
+      "where_to_buy": [
+        {"seller": "Cometic (manufacturer)", "url": "https://www.cometic.com/applications/powersports/gas-gas/mc-250f/2023", "price_if_stated": "87.75", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Not for the 2023+ KTM 250 SX-F / FC 250 (81 mm). The Cometic KTM 250 SX-F 2024 application page was blocked (see gaps), so no 2023+ Cometic number was found.",
+      "confidence": "high"
+    },
+    {
+      "id": "p2-cometic-C3595BE",
+      "category": "engine",
+      "subcategory": "bottom-end gasket kit (4T)",
+      "brand": "Cometic",
+      "product": "Cometic Bottom End Kit, KTM 250/350 SX-F/XC-F 15-21, Husqvarna FC250/FC350",
+      "part_numbers": ["C3595BE"],
+      "variants": "",
+      "platform_ids": ["KTM4T-250-2016-2022", "GG-MC4T-2021-2023"],
+      "fits": [
+        {"make": "KTM", "model": "250 SX-F / 250 XC-F", "years": [2020, 2021, 2022], "notes": "Application list 2015-2022"},
+        {"make": "Husqvarna", "model": "FC 250", "years": [2020, 2021, 2022], "notes": "Application list 2015-2022"},
+        {"make": "Husqvarna", "model": "FC 350 / FX 350", "years": [2020, 2021], "notes": "Application list 2019-2021"},
+        {"make": "GasGas", "model": "MC 250F", "years": [2021, 2022, 2023], "notes": "Also EX 250F 2021-2023"}
+      ],
+      "fitment_source_url": "https://www.cometic.com/products/C3595BE",
+      "what_it_changes": "Bottom-end gasket set for case splits.",
+      "supporting_parts": "",
+      "service_implications": "Made to order: Cometic quotes 2-3 weeks production plus 2-5 business days shipping.",
+      "where_to_buy": [
+        {"seller": "Cometic (manufacturer)", "url": "https://www.cometic.com/products/C3595BE", "price_if_stated": "119.08", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "The title mentions KTM 350 SX-F, but the application list has no KTM 350, so KTM 350 fit is unconfirmed.",
+      "confidence": "high"
+    },
+    {
+      "id": "p2-prox-top-end-gasket-250-2023",
+      "category": "engine",
+      "subcategory": "top-end gasket kit (4T)",
+      "brand": "Pro X",
+      "product": "Pro X Top End Gasket Kit KTM / Gas Gas / Husqvarna 250cc 2023-2027",
+      "part_numbers": [],
+      "variants": "",
+      "platform_ids": ["KTM4T-250-2023"],
+      "fits": [
+        {"make": "KTM/Husqvarna/GasGas", "model": "250 4T (title only)", "years": [2023, 2024, 2025, 2026, 2027], "notes": "Title says 2023-2027 and URL says 2023-2025. No model list on the page."}
+      ],
+      "fitment_source_url": "https://www.revzilla.com/motorcycle/pro-x-top-end-gasket-kit-ktm-gas-gas-husqvarna-250cc-2023-2025",
+      "what_it_changes": "Top-end gasket set for the 2023+ 250 4T.",
+      "supporting_parts": "Pairs with the Pro X piston kit (p2-prox-piston-250sxf-2023-2027).",
+      "service_implications": "",
+      "where_to_buy": [
+        {"seller": "RevZilla (US)", "url": "https://www.revzilla.com/motorcycle/pro-x-top-end-gasket-kit-ktm-gas-gas-husqvarna-250cc-2023-2025", "price_if_stated": null, "currency": null, "date": "2026-10-14"},
+        {"seller": "J&P Cycles (US)", "url": "https://www.jpcycles.com/product/pro-x-top-end-gasket-kit-ktm-gas-gas-husqvarna-250cc-2023-2025", "price_if_stated": null, "currency": null, "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "No MPN and no contents list. The RevZilla page metadata implies about USD 84.56 but does not display a price. The title says '250cc', and since 2T 250 also exists for 2023+, confirm it is the 4T kit before ordering. A separate J&P listing exists for 'Gas Gas / KTM 350cc 2024-2025' (not opened).",
+      "confidence": "unverified"
+    },
+    {
+      "id": "p2-rfx-magnetic-drain-bolt",
+      "category": "engine",
+      "subcategory": "magnetic oil drain bolt",
+      "brand": "RFX",
+      "product": "RFX Magnetic Drain Bolt Husqvarna / Gas Gas 125cc-501cc",
+      "part_numbers": ["FXDB 50100 99BU (blue)", "FXDB 50100 99RD (red)"],
+      "variants": "Blue, red. Thread size not stated.",
+      "platform_ids": ["KTM4T-250-2023", "KTM4T-350-2023", "KTM4T-450-2023", "KTM2T-250-300-TBI-2023", "KTM2T-125-TBI-2023", "GG-MC4T-2021-2023"],
+      "fits": [
+        {"make": "Husqvarna", "model": "FC 250 / FC 350 / FC 450", "years": [2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027], "notes": "Listing range 2014-2027. Also FX 450 to 2027, FX 350 to 2025, Rockstar Editions."},
+        {"make": "Husqvarna", "model": "TC 125 / TC 250", "years": [2020, 2021, 2022, 2023, 2024, 2025], "notes": "Listing range 2014-2025"},
+        {"make": "GasGas", "model": "MC 125 / MC 250 / MC 250F / MC 350F / MC 450F", "years": [2023, 2024, 2025], "notes": "Only 2023+ captured. Also MC 250F Factory Edition 2023-2024."}
+      ],
+      "fitment_source_url": "https://www.cyclegear.com/parts/rfx-magnetic-drain-bolt-husqvarna-gas-gas-125cc-501cc",
+      "what_it_changes": "Magnet catches ferrous debris in the oil (RFX claim). CNC 6061-T6, pre-drilled for safety wire.",
+      "supporting_parts": "Sealing washer not stated.",
+      "service_implications": "Check and clean the magnet at each oil change.",
+      "where_to_buy": [
+        {"seller": "Cycle Gear (US)", "url": "https://www.cyclegear.com/parts/rfx-magnetic-drain-bolt-husqvarna-gas-gas-125cc-501cc", "price_if_stated": "12.49", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Only one bolt per listing, and KTM / 4T engines have more than one drain plug, so which position it fits is not stated. KTM fitment is on a separate RFX listing (not opened). An orange KTM variant likely exists but was not captured.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-moose-magnetic-drain-plug",
+      "category": "engine",
+      "subcategory": "magnetic oil drain plug",
+      "brand": "Moose Racing",
+      "product": "Moose Racing Aluminum Magnetic Drain Plug KTM / Husqvarna 50cc-501cc",
+      "part_numbers": ["T14-5085S (M10 x 1.5 x 15 mm)", "T14-5084S (M12 x 1.5 x 12 mm)"],
+      "variants": "Two thread sizes",
+      "platform_ids": ["KTM4T-250-2023", "KTM4T-450-2023", "KTM2T-250-300-TBI-2023", "KTM2T-125-TBI-2023"],
+      "fits": [
+        {"make": "Husqvarna", "model": "FC 250 / FC 450", "years": [2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027], "notes": "Listing range 2014-2027"},
+        {"make": "Husqvarna", "model": "TC 125 / TC 250", "years": [2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027], "notes": "Also TC 150 2025-2026"},
+        {"make": "Husqvarna", "model": "FX 350", "years": [2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027], "notes": ""}
+      ],
+      "fitment_source_url": "https://www.jpcycles.com/product/moose-racing-aluminum-magnetic-drain-plug-ktm-husqvarna-50cc-501cc",
+      "what_it_changes": "7075 aluminium, clear anodised, magnet pulls metal filings from the oil (manufacturer claim). Safety-wire drilled.",
+      "supporting_parts": "Ships with an O-ring or a metal washer.",
+      "service_implications": "Retailer says to compare against the OEM plug before fitting. The page does not say which thread fits which bike.",
+      "where_to_buy": [
+        {"seller": "J&P Cycles (US)", "url": "https://www.jpcycles.com/product/moose-racing-aluminum-magnetic-drain-plug-ktm-husqvarna-50cc-501cc", "price_if_stated": "17.95", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "The captured list shows no KTM SX/SX-F MX models (only minis and 125 XC), and the page says 47 more vehicles exist. KTM SX-F fit is unconfirmed even though the title says KTM.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-rekluse-radiusx-dds-RMS-8313186",
+      "category": "clutch",
+      "subcategory": "auto clutch (complete kit, TorqDrive + EXP 4.0)",
+      "brand": "Rekluse",
+      "product": "Rekluse RadiusX 4.0 (DDS) Clutch Kit, KTM/Husqvarna/GasGas 250-300 2T 2023+",
+      "part_numbers": ["RMS-8313186"],
+      "variants": "",
+      "platform_ids": ["KTM2T-250-300-TBI-2023"],
+      "fits": [
+        {"make": "KTM", "model": "250 SX / 300 SX", "years": [2023, 2024, 2025], "notes": "Also 250/300 XC 2023-2025"},
+        {"make": "Husqvarna", "model": "TC 250", "years": [2023, 2024, 2025], "notes": "Also TX 300i 2023-2025"},
+        {"make": "GasGas", "model": "MC 250", "years": [2024, 2025], "notes": "MC 300 2025; EX 250/300 2024-2025"}
+      ],
+      "fitment_source_url": "https://oro2u.com/clutch-kit-radiusx-dds-23-25-gas-husq-ktm-250-350-ec-es-ex-mc-sx-xc-te-tx-rekluse-rms-8313186",
+      "what_it_changes": "Rekluse claims (via retailer): no stalling, so starts and stops work without the lever; more power transfer than OEM; on-the-fly external adjustment; allows taller gearing; TorqDrive pack lasts longer and needs less adjustment. The manual lever still works as an override.",
+      "supporting_parts": "Professional installation recommended by the retailer.",
+      "service_implications": "Rekluse-specific frictions. The 'DDS' in the retailer title means it is built for KTM's Belleville-spring clutch (see p2-ktm-dds-clutch-notes).",
+      "where_to_buy": [
+        {"seller": "ORO2U (UK)", "url": "https://oro2u.com/clutch-kit-radiusx-dds-23-25-gas-husq-ktm-250-350-ec-es-ex-mc-sx-xc-te-tx-rekluse-rms-8313186", "price_if_stated": "1066.60 (trade 888.83)", "currency": "GBP", "date": "2026-10-14"},
+        {"seller": "RevZilla (US), listed as 'Radius X 4.0 KTM/Husqvarna 250-300 2023-2027' (assumed same kit)", "url": "https://www.revzilla.com/motorcycle/rekluse-radius-x-40-clutch-kit-ktm-husqvarna-250cc-300cc-2023-2024", "price_if_stated": null, "currency": null, "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "The ORO2U title says '250-350' and covers 2024 4T enduro models, so one SKU spanning 2T MX and 4T enduro is odd; verify on the Rekluse fitment tool. RevZilla shows no MPN or price.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-rekluse-radiusx-450-RMS-8313198",
+      "category": "clutch",
+      "subcategory": "auto clutch (complete kit)",
+      "brand": "Rekluse",
+      "product": "Rekluse Radius X 4.0 Clutch Kit, KTM 450 SX-F / Husqvarna FC 450 2023-2026",
+      "part_numbers": ["RMS-8313198"],
+      "variants": "",
+      "platform_ids": ["KTM4T-450-2023"],
+      "fits": [
+        {"make": "KTM", "model": "450 SX-F", "years": [2023, 2024, 2025], "notes": "Also Factory Edition 2024-2026"},
+        {"make": "Husqvarna", "model": "FC 450", "years": [2023, 2024, 2025], "notes": "Also 2023 Heritage, 2024 Rockstar Edition, 2025-2026 Factory Edition"}
+      ],
+      "fitment_source_url": "https://www.ghostbikes.com/products/2507896-rekluse-radius-x-40-clutch-kit-for-husqvarna-fc450-2023-2026",
+      "what_it_changes": "Rekluse claims (via retailer): updated EXP disc with stronger high-temperature base, more connected lever feel, TorqDrive-style friction pads, rolling-pin wedges for smoother engagement, engagement curve updated for modern engines. Tunable with wedge weights and EXP springs.",
+      "supporting_parts": "",
+      "service_implications": "Auto clutch: tuning (wedges/springs) and Rekluse-specific plates.",
+      "where_to_buy": [
+        {"seller": "Ghostbikes (UK)", "url": "https://www.ghostbikes.com/products/2507896-rekluse-radius-x-40-clutch-kit-for-husqvarna-fc450-2023-2026", "price_if_stated": "1145.99", "currency": "GBP", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Sold out at the retailer. GasGas MC 450F 2024+ is not listed here, though the RadiusCX 4.0 450 kit lists it. Standard 2026-2027 450 SX-F not listed.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-rekluse-radiuscx4-450-2022-2027",
+      "category": "clutch",
+      "subcategory": "auto clutch (complete kit with cover)",
+      "brand": "Rekluse",
+      "product": "Rekluse Radius CX 4.0 Clutch Kit KTM / Husqvarna / Gas Gas 450cc 2022-2027",
+      "part_numbers": ["Cycle Gear item P1069732 (retailer item, not a Rekluse MPN)"],
+      "variants": "",
+      "platform_ids": ["KTM4T-450-2023"],
+      "fits": [
+        {"make": "KTM", "model": "450 SX-F", "years": [2023, 2024, 2025, 2026, 2027], "notes": "Also Factory Edition 2022-2026"},
+        {"make": "KTM", "model": "450 XC-F", "years": [2023, 2024, 2025, 2026, 2027], "notes": ""},
+        {"make": "Husqvarna", "model": "FC 450", "years": [2023, 2024, 2025, 2027], "notes": "Also Rockstar Edition 2022-2025"},
+        {"make": "Husqvarna", "model": "FX 450", "years": [2023, 2024, 2027], "notes": ""},
+        {"make": "GasGas", "model": "MC 450F", "years": [2024, 2025, 2026, 2027], "notes": "Also MC 450F Factory Edition 2025, Prado Edition 2025, EX 450F 2024-2025"}
+      ],
+      "fitment_source_url": "https://www.cyclegear.com/parts/rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-450cc-2022-2025",
+      "what_it_changes": "Rekluse claims (via retailer): EXP 4.0 auto clutch prevents stalls; better friction material than EXP 3.0; rolling expansion wedges; more power transfer than OEM manual; cooler running; longer life; tunable; full manual override.",
+      "supporting_parts": "Kit lists EXP 4.0 disc, billet inner hub, billet pressure plate, adjustable slave cylinder (hydraulic models), TorqDrive frictions, steel basket sleeves and a clutch cover.",
+      "service_implications": "Rekluse-specific plates and tuning. Includes its own adjustable slave cylinder.",
+      "where_to_buy": [
+        {"seller": "Cycle Gear (US)", "url": "https://www.cyclegear.com/parts/rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-450cc-2022-2025", "price_if_stated": "1649.00", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [
+        {"source": "Cycle Gear product page (aggregate)", "author": "Cycle Gear customers", "date": "2026-10-14 (retrieved)", "summary": "4.5 of 5 stars from 10 reviews. Review text not read.", "conditions": "Not stated", "url": "https://www.cyclegear.com/parts/rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-450cc-2022-2025"}
+      ],
+      "caveats": "No Rekluse RMS number on the page. Cycle Gear also lists separate RadiusCX 4.0 pages for 350cc 2023-2026 and 125cc 2023-2024 (not opened), plus a RevZilla 'MC 450F 2023' page (2023 GasGas = old engine).",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-rekluse-radiuscx3-250-300-2t",
+      "category": "clutch",
+      "subcategory": "auto clutch (complete kit)",
+      "brand": "Rekluse",
+      "product": "Rekluse Radius CX 3.0 Clutch Kit, KTM / Husqvarna / Gas Gas 250cc-300cc 2023-2027",
+      "part_numbers": ["Cycle Gear item P1035120 (retailer item)"],
+      "variants": "",
+      "platform_ids": ["KTM2T-250-300-TBI-2023"],
+      "fits": [
+        {"make": "KTM", "model": "250 SX / 300 SX", "years": [2023, 2024, 2025, 2026, 2027], "notes": "Also 250/300 XC 2023-2027"},
+        {"make": "Husqvarna", "model": "TC 250", "years": [2023, 2024, 2025, 2026, 2027], "notes": "TC 300 2025, 2027; TX 300 2023-2027"},
+        {"make": "GasGas", "model": "MC 250", "years": [2024, 2025, 2026], "notes": "MC 300 2025"}
+      ],
+      "fitment_source_url": "https://www.cyclegear.com/parts/rekluse-radius-cx-clutch-kit-ktm-husqvarna-gas-gas-250cc-300cc-2023-2024",
+      "what_it_changes": "Rekluse claims: prevents stalls, more power transfer than OEM, TorqDrive pack for longer life, tunable EXP auto clutch, billet parts, consistent lever feel, cooler running, manual override.",
+      "supporting_parts": "Kit contents not itemised.",
+      "service_implications": "",
+      "where_to_buy": [
+        {"seller": "Cycle Gear (US)", "url": "https://www.cyclegear.com/parts/rekluse-radius-cx-clutch-kit-ktm-husqvarna-gas-gas-250cc-300cc-2023-2024", "price_if_stated": "1299.00 (closeout)", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Discontinued. Cycle Gear names the replacement as 'Rekluse Radius CX 4.0 Clutch Kit KTM/Husqvarna/Gas Gas 250cc-350cc 2023-2027' (not opened).",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-hinson-HCA460-2301",
+      "category": "clutch",
+      "subcategory": "complete clutch kit (cover, basket, hub, pressure plate, plates, springs)",
+      "brand": "Hinson",
+      "product": "Hinson Complete Billetproof Conventional Clutch Kit KTM / Husky 250/350 '23-",
+      "part_numbers": ["HCA460-2301"],
+      "variants": "",
+      "platform_ids": ["KTM4T-250-2023", "KTM4T-350-2023"],
+      "fits": [
+        {"make": "KTM", "model": "250 SX-F / 350 SX-F", "years": [2023, 2024], "notes": "Ghostbikes list. Tokyo Mods list has no years."},
+        {"make": "Husqvarna", "model": "FC 250 / FC 350", "years": [2023, 2024], "notes": "Includes 2023 Heritage"},
+        {"make": "GasGas", "model": "MC 250F / MC 350F", "years": [2024, 2025], "notes": ""}
+      ],
+      "fitment_source_url": "https://www.ghostbikes.com/products/2430292-hinson-billetproof-clutch-kit-for-husqvarna-fc250-2023-2024",
+      "what_it_changes": "Hinson claims (via retailers): billet T-6 aluminium, hard-coated for 5x stock wear resistance with proper maintenance; spins truer, so less heat when disengaged; smoother engagement; less chatter; better heat dissipation.",
+      "supporting_parts": "Kit includes Billetproof cover, basket, inner hub, pressure plate, fibre and steel plates, hi-temp springs.",
+      "service_implications": "Converts to a coil-spring Hinson pack. Replacement plates and springs: see p2-hinson-plate-spring-kit.",
+      "where_to_buy": [
+        {"seller": "Ghostbikes (UK)", "url": "https://www.ghostbikes.com/products/2430292-hinson-billetproof-clutch-kit-for-husqvarna-fc250-2023-2024", "price_if_stated": "1001.99", "currency": "GBP", "date": "2026-10-14"},
+        {"seller": "Tokyo Mods (US)", "url": "https://tokyomods.com/shop/engine-parts/engine-parts-clutch/engine-parts-clutch-hinson/complete-billetproof-conventional-clutch-kit-ktm-husky-250-350-23/", "price_if_stated": "939.99", "currency": "USD (symbol only)", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "This confirms the part number that pass 1 only saw in an image filename. 2025+ KTM/Husqvarna not listed. hinsonracing.com was not reached (the Hinson search returned only retailers).",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-hinson-HCA480-2301",
+      "category": "clutch",
+      "subcategory": "complete clutch kit",
+      "brand": "Hinson",
+      "product": "Hinson Complete Billetproof Conventional Clutch Kit KTM / Husky '23- (450)",
+      "part_numbers": ["HCA480-2301"],
+      "variants": "",
+      "platform_ids": ["KTM4T-450-2023"],
+      "fits": [
+        {"make": "KTM", "model": "450 SX-F / 450 XC-F", "years": [], "notes": "Tokyo Mods lists models without years; '23-' in the title"},
+        {"make": "Husqvarna", "model": "FC 450 (incl. Rockstar Edition)", "years": [], "notes": "Firestorm sells an FC 450 2023-2024 Hinson cover whose image file is named HN-CA480-2301"}
+      ],
+      "fitment_source_url": "https://tokyomods.com/shop/engine-parts/engine-parts-clutch/engine-parts-clutch-hinson/complete-billetproof-conventional-clutch-kit-ktm-husky-23/",
+      "what_it_changes": "Same Hinson claims as HCA460-2301.",
+      "supporting_parts": "Cover, basket, inner hub, pressure plate, plates, springs.",
+      "service_implications": "",
+      "where_to_buy": [
+        {"seller": "Tokyo Mods (US)", "url": "https://tokyomods.com/shop/engine-parts/engine-parts-clutch/engine-parts-clutch-hinson/complete-billetproof-conventional-clutch-kit-ktm-husky-23/", "price_if_stated": "939.99", "currency": "USD (symbol only)", "date": "2026-10-14"},
+        {"seller": "Cycle Gear (US, discontinued per pass 1)", "url": "https://www.cyclegear.com/parts/hinson-complete-billetproof-conventional-clutch-kit-ktm-husqvarna-gas-gas-450cc-2022-2024", "price_if_stated": null, "currency": null, "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Tokyo Mods' fitment list is polluted (it includes KTM 250 SX 2T, 350/500 EXC and FE models). Year coverage unconfirmed. Treat the 450 SX-F / FC 450 2023+ fit as likely but unverified.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "p2-hinson-clutch-cover-2023",
+      "category": "clutch",
+      "subcategory": "clutch cover (billet, outer)",
+      "brand": "Hinson",
+      "product": "Hinson Billetproof Clutch Cover KTM / Husqvarna / Gas Gas 250cc-450cc 2023-2027",
+      "part_numbers": ["Cycle Gear item P1067617 (retailer item, not a Hinson MPN)"],
+      "variants": "",
+      "platform_ids": ["KTM4T-250-2023", "KTM4T-350-2023", "KTM4T-450-2023", "KTM2T-250-300-TBI-2023"],
+      "fits": [
+        {"make": "KTM", "model": "250 SX-F / 350 SX-F / 450 SX-F", "years": [2023, 2024, 2025, 2026, 2027], "notes": "Also 250 SX-F Factory Edition 2023-2026, Adamo 2025, 350/450 XC-F"},
+        {"make": "KTM", "model": "250 SX / 300 SX / 300 XC", "years": [2023, 2024, 2025, 2026, 2027], "notes": "Listed for 2-strokes too"},
+        {"make": "Husqvarna", "model": "FC 250 / FC 350 / FC 450", "years": [2023, 2024, 2025, 2027], "notes": "FX 350 2023-2027; FX 450 2023"},
+        {"make": "Husqvarna", "model": "TC 250 / TC 300", "years": [2023, 2024, 2025, 2026, 2027], "notes": "TC 300 2025, 2027 only"},
+        {"make": "GasGas", "model": "MC 250F / MC 450F", "years": [2024, 2025, 2026, 2027], "notes": "MC 350F 2024-2025; MC 250 2024-2026; MC 300 2025"}
+      ],
+      "fitment_source_url": "https://www.cyclegear.com/parts/hinson-billetproof-clutch-cover-ktm-husqvarna-gas-gas-250cc-450cc-2023-2024",
+      "what_it_changes": "Billet T-6 aluminium cover, stronger than stock, better heat dissipation, hard-coated against boot wear (Hinson claims via retailer).",
+      "supporting_parts": "Gasket not stated.",
+      "service_implications": "",
+      "where_to_buy": [
+        {"seller": "Cycle Gear (US)", "url": "https://www.cyclegear.com/parts/hinson-billetproof-clutch-cover-ktm-husqvarna-gas-gas-250cc-450cc-2023-2024", "price_if_stated": "179.99", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "One cover listed for both 4T and 2T, which is unusual; the list also has 'MC 250F/450F Factory Edition 2023', which conflicts with the old-engine 2023 GasGas. Confirm with Hinson. This is the aftermarket Hinson cover; the KTM PowerParts Hinson outer cover A48030926000 is in pass 1.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-hinson-plate-spring-kit",
+      "category": "clutch",
+      "subcategory": "clutch plates + springs",
+      "brand": "Hinson",
+      "product": "Hinson Racing Clutch Plate and Spring Kit (KTM 450 SX-F 2013-2024; KTM 300 SX 2023-2026)",
+      "part_numbers": ["FSC373-8-002 (taken from retailer SKU strings 'H|1629-FSC373-8-002|15' and '...|60'; the 'manufacturer part number' field shows only '8')"],
+      "variants": "Steel springs included",
+      "platform_ids": ["KTM4T-450-2023", "KTM2T-250-300-TBI-2023"],
+      "fits": [
+        {"make": "KTM", "model": "450 SX-F", "years": [2020, 2021, 2022, 2023, 2024], "notes": "Listing 2013-2024"},
+        {"make": "KTM", "model": "300 SX", "years": [2023, 2024, 2025, 2026], "notes": "Separate listing, same SKU stem"}
+      ],
+      "fitment_source_url": "https://www.sportbiketrackgear.com/hinson-racing-2023-2024-ktm-300-sx-clutch-plate-and-spring-kit/",
+      "what_it_changes": "Made to close tolerances to mate with a Hinson basket, which Hinson says improves basket and plate life. Works in OEM or Hinson basket, hub and pressure plate (retailer copy).",
+      "supporting_parts": "Coil springs only work with a coil-spring pressure plate (Hinson kit). KTM's stock DDS uses a single diaphragm spring (see p2-ktm-dds-clutch-notes), so the springs in this kit imply the Hinson conversion. Inferred, not stated.",
+      "service_implications": "",
+      "where_to_buy": [
+        {"seller": "SportbikeTrackGear (US), 450 SX-F", "url": "https://www.sportbiketrackgear.com/hinson-racing-2013-2024-ktm-450-sx-f-clutch-plate-and-spring-kit/", "price_if_stated": "299.99", "currency": "USD", "date": "2026-10-14"},
+        {"seller": "SportbikeTrackGear (US), 300 SX", "url": "https://www.sportbiketrackgear.com/hinson-racing-2023-2024-ktm-300-sx-clutch-plate-and-spring-kit/", "price_if_stated": "299.99", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "The same SKU stem covers a 450 SX-F from 2013 and a 2023+ 300 SX 2-stroke, so retailer data may be generic. The part number is not confirmed by Hinson.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "p2-oberon-CLU-7923",
+      "category": "clutch",
+      "subcategory": "hydraulic clutch slave cylinder",
+      "brand": "Oberon",
+      "product": "Oberon hydraulic clutch slave (pusher) cylinder CLU-7923",
+      "part_numbers": ["CLU-7923"],
+      "variants": "Black, Blue, Orange, Titanium (seven colours claimed)",
+      "platform_ids": ["KTM4T-250-2023", "KTM4T-350-2023", "KTM4T-450-2023", "KTM2T-250-300-TBI-2023", "KTM2T-125-TBI-2023", "KTM4T-250-2016-2022", "GG-MC4T-2021-2023"],
+      "fits": [
+        {"make": "KTM", "model": "250 SX-F / 350 SX-F", "years": [2020, 2021, 2022, 2023, 2024], "notes": "Listing 2016-2024"},
+        {"make": "KTM", "model": "450 SX-F", "years": [2023, 2024], "notes": "Also Factory Edition 2024"},
+        {"make": "KTM", "model": "125 SX / 150 SX / 250 SX", "years": [2020, 2021, 2022, 2023, 2024], "notes": ""},
+        {"make": "KTM", "model": "300 SX", "years": [2023, 2024], "notes": ""},
+        {"make": "KTM", "model": "125/250/300 XC, 250/350 XC-F", "years": [2020, 2021, 2022, 2023, 2024], "notes": "125 XC from 2021; XC TPI 2020-2022"},
+        {"make": "Husqvarna", "model": "FC 250 / FC 350 / TC 125 / TC 250", "years": [2020, 2021, 2022], "notes": "Husqvarna list stops at 2022"},
+        {"make": "GasGas", "model": "MC 125 / MC 250 / MC 250F / MC 350F", "years": [2021, 2022, 2023, 2024, 2025], "notes": "MC 450F not listed"}
+      ],
+      "fitment_source_url": "https://viejospistones.com/en/product/oberon-clu-7923-hydraulic-clutch-pusher-cylinder/",
+      "what_it_changes": "Oberon claims (via retailer): improved plunger/piston design against leaks, smoother action, guided piston for less wear and softer lever feel, lower lever effort. CNC T6 aluminium, Viton U-profile seals, 100 g.",
+      "supporting_parts": "Complete kit with instructions. Replaces OEM 79232061044 / 25032061044 / 72132061044.",
+      "service_implications": "Use the fluid marked on the clutch master cylinder: mineral oil (Magura) or DOT 4 (Brembo). The unit accepts both.",
+      "where_to_buy": [
+        {"seller": "Viejos Pistones (ES)", "url": "https://viejospistones.com/en/product/oberon-clu-7923-hydraulic-clutch-pusher-cylinder/", "price_if_stated": null, "currency": null, "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "The retailer's list has visible typos (e.g. 'EXC 250 2017-2014'). Husqvarna stops at 2022 while KTM and GasGas run to 2024/2025, which is odd for a shared part. 2025+ KTM and 2023+ Husqvarna not listed. Verify with Oberon.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-ktm-dds-clutch-notes",
+      "category": "clutch",
+      "subcategory": "service note (KTM DS/DDS diaphragm clutch)",
+      "brand": "KTM (OEM) / Rekluse install documentation",
+      "product": "KTM DS and DDS diaphragm-spring clutch: background and service notes",
+      "part_numbers": ["KTM damper 78132025100 (x6, per Rekluse)", "KTM 4T friction disc 59032011100 (Rekluse 2T stack note)", "Rekluse DDS kits RMS-7084 (Core Manual), RMS-7785 (Core EXP), RMS-335 (cover)"],
+      "variants": "DDS = damped diaphragm steel (rubber cush dampers in hub, steel basket with integral primary gear, single Belleville spring). DS = same without dampers.",
+      "platform_ids": [],
+      "fits": [
+        {"make": "KTM", "model": "450 SX-F, 250 SX (DDS); 125/150 SX, 250/350 SX-F (DS)", "years": [2019], "notes": "MXA, Feb 2019. Which clutch the 2023+ engines use was NOT verified in this pass."}
+      ],
+      "fitment_source_url": "https://motocrossactionmag.com/ask-the-mxperts-the-difference-between-ktms-ds-and-dds-clutches",
+      "what_it_changes": "Explains why coil-spring aftermarket springs (Barnett, Hinson) are not a drop-in on stock KTM clutches: KTM uses one diaphragm spring that self-adjusts and spreads pressure evenly. Rubber dampers on DDS absorb shock.",
+      "supporting_parts": "",
+      "service_implications": "MXA replaces DDS rubber bumpers about every 4 months. Rekluse (RMS-7082 install doc) cites KTM's interval of 20 h (SX-F) / 30 h (XC/EXC) for damper checks: replace if the inner hub has slop. DDS uses thinner end steels, so keep the plate order. Rekluse says to use fresh JASO-MA oil and not to reuse stock pressure-plate screws with their kit.",
+      "where_to_buy": [],
+      "rider_feedback": [
+        {"source": "Motocross Action (Ask the MXperts)", "author": "MXA staff", "date": "2019-02-12", "summary": "Says the billet DDS basket should never need replacing for notching; bumpers wear and get replaced about every four months on their test bikes.", "conditions": "2017-2019 KTM SX/SX-F test fleet", "url": "https://motocrossactionmag.com/ask-the-mxperts-the-difference-between-ktms-ds-and-dds-clutches"}
+      ],
+      "caveats": "The Rekluse doc covers the 2013+ 250/350 SX-F CSS-to-DDS conversion (older generation). Retailers label the 2023+ 2T RadiusX kit 'DDS', which suggests 2023+ 2-strokes still use DDS, but this is unconfirmed. Source: https://www.rekluse.com/wp-content/uploads/2024/04/RMS-7082.pdf",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-hqv-factory-triple-clamp-blue",
+      "category": "chassis",
+      "subcategory": "triple clamps (OEM accessory, Husqvarna colour)",
+      "brand": "Husqvarna Technical Accessories (WP Factory Racing)",
+      "product": "Husqvarna Factory Racing Triple Clamps (Blue) 2023",
+      "part_numbers": ["A4600199902168A"],
+      "variants": "Blue. The black A46001999021C1A is also sold as a Husqvarna part (pass 1). The older Husqvarna Factory Racing clamp is 79701999021C1A (Iron City search result title).",
+      "platform_ids": ["hqv-2023"],
+      "fits": [
+        {"make": "Husqvarna", "model": "TC / FC full-size (2023 platform)", "years": [2023], "notes": "From the AOMC search-result title only. The product page now returns 'Item Not Found'."}
+      ],
+      "fitment_source_url": "https://aomc.mx/A4600199902168A.html",
+      "what_it_changes": "Same as the KTM Factory Racing clamp (20/22 mm offset) per pass 1 (ktm-factory-triple-clamp-2023).",
+      "supporting_parts": "",
+      "service_implications": "",
+      "where_to_buy": [
+        {"seller": "AOMC (US), listing removed", "url": "https://aomc.mx/A4600199902168A.html", "price_if_stated": null, "currency": null, "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Search title only, and the page is gone, so the part may be discontinued or superseded. The '68' colour code matches the older Husqvarna clamp 2620199902168, which suggests 68 is the Husqvarna blue suffix (inferred).",
+      "confidence": "unverified"
+    },
+    {
+      "id": "p2-myhusqvarna-cu-25114986044",
+      "category": "electronics",
+      "subcategory": "connectivity unit (previous generation)",
+      "brand": "Husqvarna Technical Accessories",
+      "product": "myHusqvarna Connectivity Unit Kit",
+      "part_numbers": ["25114986044"],
+      "variants": "UPC 9010544204254",
+      "platform_ids": ["KTM4T-250-2016-2022"],
+      "fits": [
+        {"make": "Husqvarna", "model": "certain 4-stroke models", "years": [2021], "notes": "Description says the app covers certain 2021 Husqvarna 4-strokes and the 2020 FC 450 Rockstar Edition. No model list."}
+      ],
+      "fitment_source_url": "https://aomc.mx/25114986044.html",
+      "what_it_changes": "Bike-mounted unit paired with the myHusqvarna app.",
+      "supporting_parts": "Must be activated at a Husqvarna dealer with the bike and phone; the dealer may charge.",
+      "service_implications": "",
+      "where_to_buy": [
+        {"seller": "AOMC (US)", "url": "https://aomc.mx/25114986044.html", "price_if_stated": "249.99", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Previous-generation system, not the 2023+ Connectivity Unit Offroad (CUO). Out of stock.",
+      "confidence": "medium"
+    },
+    {
+      "id": "p2-hqv-cuo-kit",
+      "category": "electronics",
+      "subcategory": "Connectivity Unit Offroad (Husqvarna)",
+      "brand": "Husqvarna Technical Accessories",
+      "product": "Husqvarna Connectivity Unit kit (Ride Husqvarna Motorcycles app)",
+      "part_numbers": [],
+      "variants": "",
+      "platform_ids": ["hqv-2023"],
+      "fits": [
+        {"make": "Husqvarna", "model": "not listed", "years": [], "notes": "Dealer page says only 'Husqvarna'. CUO plus front-fender GPS is standard on the 2024 FC 250/450 Rockstar Edition (Husqvarna press kit)."}
+      ],
+      "fitment_source_url": "https://shop.thepotteries.co.uk/product/connectivity-unit-kit-4",
+      "what_it_changes": "Bluetooth unit between the triple clamps working with the Ride Husqvarna Motorcycles app (see pass 1 KTM CUO record for functions).",
+      "supporting_parts": "Bluetooth smartphone. The dealer says the latest ECU file version must be used.",
+      "service_implications": "May need an ECU file update at a dealer.",
+      "where_to_buy": [
+        {"seller": "The Potteries (UK dealer)", "url": "https://shop.thepotteries.co.uk/product/connectivity-unit-kit-4", "price_if_stated": "135.06", "currency": "GBP", "date": "2026-10-14"},
+        {"seller": "Rocky Mountain ATV/MC (US), 'Husqvarna Connectivity Unit GPS Fender Kit' (page blocked by bot protection)", "url": "https://www.rockymountainatvmc.com/parts/husqvarna-connectivity-unit-gps-fender-kit-p", "price_if_stated": null, "currency": null, "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "No part number. At GBP 135 this may be the unit-only kit rather than the full GPS fender kit (KTM equivalent A46014986088EB at GBP 216). Rocky Mountain's page title confirms a Husqvarna GPS fender kit exists.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "p2-hqv-plastics-kit-black-00010000379K",
+      "category": "bodywork",
+      "subcategory": "plastics kit (OEM)",
+      "brand": "Husqvarna Motorcycles (OEM)",
+      "product": "Husqvarna Motorcycles Plastic Parts Kit (TC/FC/TX/FX) (125-450) (2023+) (black)",
+      "part_numbers": ["00010000379K"],
+      "variants": "Black",
+      "platform_ids": ["hqv-2023"],
+      "fits": [
+        {"make": "Husqvarna", "model": "TC / FC / TX / FX 125-450", "years": [2023], "notes": "Title says 2023+; no model-year list"}
+      ],
+      "fitment_source_url": "https://www.walmart.com/ip/Husqvarna-Motorcycles-Plastic-Parts-Kit-TC-FC-TX-FX-125-450-2023-black-00010000379K/13004164003",
+      "what_it_changes": "Replacement plastics set (Husqvarna counterpart of KTM orange kit 00010000430K in pass 1).",
+      "supporting_parts": "",
+      "service_implications": "",
+      "where_to_buy": [
+        {"seller": "MyPowerSports via Walmart Marketplace (US)", "url": "https://www.walmart.com/ip/Husqvarna-Motorcycles-Plastic-Parts-Kit-TC-FC-TX-FX-125-450-2023-black-00010000379K/13004164003", "price_if_stated": "209.99", "currency": "USD", "date": "2026-10-14"}
+      ],
+      "rider_feedback": [],
+      "caveats": "Marketplace title-level fitment only.",
+      "confidence": "unverified"
+    }
+  ],
+  "gaps": [
+    "Wiseco: no 2023+ part number found for the 250 SX-F (81 mm) or 2023+ 125/250/300 TBI two-strokes. Search results returned only pre-2023 Wiseco listings, and wiseco.com fetch was blocked (https://www.wiseco.com/search?q=250%20sx-f%202023).",
+    "JE: only 'JE Pistons KTM 450SX-F Piston Kit' SKU JEP260955 (Coyote Direct, USD 309.99, backordered) found, with no years, bore or compression, so it was not recorded. CP Carrillo: nothing found.",
+    "Vertex/Athena high-compression or big-bore kits for 2023+ 4T engines: none found. Only the old-generation Vertex PRO Replica 450 (12.6:1) was recorded.",
+    "Hot Cams / Web Cams for 2023+ engines: none found. All Hot Cams hits were 2016-2022 250 (already in pass 1).",
+    "Kibblewhite / Del West: no 2023+ KTM listing found. Parts Europe pages need JavaScript and returned nothing.",
+    "Crank/rod kits (Hot Rods, Pro X, Vertex) for 2020+ in-scope MX models: none found (only 50 SX and pre-2015 Vertex kits).",
+    "Athena gasket kits for 2023+: not found. Cometic 2023+ KTM numbers not captured (KTM 250 SX-F 2024 application page blocked: https://www.cometic.com/applications/powersports/ktm/250-sx-f/2024).",
+    "Stators (Ricky Stator / Rick's, Electrosport) for 2023+ MX: none found. Hits were 2013-2022 or OEM 79239004100 (2015-2020 4T) and 55439004000 (2017-2020 250 SX).",
+    "4-stroke flywheel weights for 2023+: none found. Steahly 2T 2023 (pass 1) remains the only flywheel weight.",
+    "Barnett springs/plates for 2023+ KTM: none found (only 2011-2018 kits). Note: stock KTM DS/DDS clutches use a diaphragm spring, so coil-spring kits only apply with a coil-spring pressure plate.",
+    "hinsonracing.com was not reached (the Hinson search returned only retailers). Hinson numbers HCA460-2301 / HCA480-2301 come from retailers.",
+    "Rekluse: no rekluse.com fitment page reached. RadiusX numbers come from UK retailers (RMS-8313186, RMS-8313198). The RMS number for the RadiusCX 4.0 450 (Cycle Gear P1069732) was not found, and no RadiusX/CX 250/350 4T 2023+ kit number was captured.",
+    "Husqvarna 2023+ CUO part number, GasGas CUO part number, Husqvarna/GasGas start device, skid plate and Hinson cover variants: not found. The GasGas search returned only press articles. Husqvarna 2024 Rockstar Edition press kit confirms Factory triple clamps (20/22 mm), black Factory wheels, holeshot device, 2K carbon skid plate, CUO + GPS and map switch are standard, but gives no part numbers: https://www.husqvarna-motorcycles.com/language-masters/en/media-information/factory-edition-2024/2024-FC-250-450-Rockstar-Edition-Press-Kit.pdf",
+    "Husqvarna blue Factory wheels for 2023+: no part number found.",
+    "Oberon CLU-4050 found but its fitment is 2014-2016 Husqvarna (out of scope), so it was not recorded."
+  ],
+  "not_done": [
+    "Search budget used up (35 of ~35). Remaining work:",
+    "Wiseco / JE / CP pistons for 2023+ 250 SX-F, 350 SX-F and 2T 125/250/300 TBI; try wiseco.com and jepistons.com fitment tools directly.",
+    "Hot Cams / Web Cams / Kibblewhite / Del West for 2023+ 4T; 2023+ crank and rod kits; Athena/Cometic 2023+ gasket kits.",
+    "2023+ stators (Rick's, Electrosport) and 4T flywheel weights (Steahly, GYTR-style).",
+    "Barnett 2023+ (if any coil-spring conversion exists); Rekluse RadiusX/CX 4T 250/350 2023+ RMS numbers; Rekluse Core EXP 2023+ MX numbers.",
+    "Confirm whether 2023+ 4T and 2T engines use DS or DDS clutches (KTM owner's manual or parts fiche).",
+    "Hinson: verify HCA460-2301 / HCA480-2301 and plate kit FSC373-8-002 on hinsonracing.com; 2025-2027 fitment.",
+    "Husqvarna (blue/white) and GasGas (red) OEM numbers for CUO kits, start device, skid plate, Hinson covers, Factory wheels. Suggest the KTM Direct sister sites or an OEM parts fiche (e.g. motorcyclespareparts.eu) using the KTM base numbers from pass 1 with colour suffixes.",
+    "Open the unopened leads: Cycle Gear RadiusCX 4.0 350cc 2023-2026 and 125cc 2023-2024 pages, the RadiusCX 4.0 250-350 2023-2027 replacement page, J&P Pro X top-end gasket 350cc 2024-2025, Firestorm Hinson complete kit 350 XC-F / FC 350 pages."
+  ]
+}

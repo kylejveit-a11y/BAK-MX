@@ -1,0 +1,1309 @@
+{
+ "slice": "Pass 2 manufacturer confirmations",
+ "updates": [
+  {
+   "id": "pc-ti6-pro-450-2023-fp",
+   "part_numbers": [
+    "0352245FP"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "Pro Circuit title: 'KTM450 SXF 2023-24, F.E. 2022 1/2'"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F Factory Edition",
+     "years": [
+      2022
+     ],
+     "notes": "2022 1/2 Factory Edition"
+    }
+   ],
+   "fitment_source_url": "https://www.procircuit.com/ktm-ti-6-pro-titanium-ktm-450-sx-f-fe-22",
+   "where_to_buy": [
+    {
+     "seller": "Pro Circuit (manufacturer)",
+     "url": "https://www.procircuit.com/ktm-ti-6-pro-titanium-ktm-450-sx-f-fe-22",
+     "price_if_stated": 1396.95,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "caveats": "Product heading says 'KTM/Husq.' but no Husqvarna or GasGas model is named on the maker page. Maker page carries no performance description.",
+   "confidence": "high",
+   "note": "Part number, title and price confirmed on procircuit.com. CORRECTION: maker lists only KTM 450 SX-F 2023-24 and 450 SX-F FE 2022 1/2. Pass-1 fitment for 2025-2027, 450 XC-F, Husqvarna FC450/Rockstar and GasGas MC/EX 450F came from a Cycle Gear list and is not shown by Pro Circuit; treat those as unconfirmed."
+  },
+  {
+   "id": "pc-ti6-pro-350-2023",
+   "part_numbers": [
+    "0352235FP"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "Pro Circuit title: 'KTM350SXF 23-24'"
+    }
+   ],
+   "fitment_source_url": "https://www.procircuit.com/ktm-ti-6-pro-systems.html",
+   "where_to_buy": [
+    {
+     "seller": "Pro Circuit (manufacturer)",
+     "url": "https://www.procircuit.com/ktm-ti-6-pro-titanium-ktm-350-sx-f-23",
+     "price_if_stated": 1396.95,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "confidence": "high",
+   "note": "Confirmed on Pro Circuit's KTM Ti-6 Pro listing. CORRECTION: maker lists KTM 350 SX-F 2023-24 only; pass-1 2025-2026 and 350 XC-F fitment (retailer) not shown by maker."
+  },
+  {
+   "id": "pc-ti6-pro-450-2023-bc",
+   "part_numbers": [
+    "0352545BC"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Pro Circuit title: 'KTM450 SXF 2023-25, F.E. 2022 1/2'"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F Factory Edition",
+     "years": [
+      2022
+     ],
+     "notes": "2022 1/2"
+    }
+   ],
+   "fitment_source_url": "https://www.procircuit.com/Ktm-ti-6-bc-systems",
+   "what_it_changes": "Pro Circuit: full race system that replaces the older Ti-6 Pro design, built to raise performance and help pro racers meet the newer AMA/FIM sound rules. Titanium end cap.",
+   "where_to_buy": [
+    {
+     "seller": "Pro Circuit (manufacturer)",
+     "url": "https://www.procircuit.com/0352545BC",
+     "price_if_stated": 1476.95,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "caveats": "Shown as backorder on maker site. Maker does not list 2026 (Ghostbikes title says 2023-2026).",
+   "confidence": "high",
+   "note": "Confirmed on procircuit.com. CORRECTION: maker years 2023-25 (+FE 2022 1/2), not 2023-2026."
+  },
+  {
+   "id": "pc-ti6-bc-250-350-2023",
+   "part_numbers": [
+    "0352525BC"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Maker title: 'KTM250SXF 2023-27, F.E. 2022'"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F Factory Edition",
+     "years": [
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Maker title: 'KTM350 SX-F 2023-25'"
+    }
+   ],
+   "fitment_source_url": "https://www.procircuit.com/Ktm-ti-6-bc-systems",
+   "what_it_changes": "Pro Circuit: full race system replacing the older Ti-6 Pro design, aimed at more performance and meeting AMA/FIM sound rules. Titanium end cap.",
+   "where_to_buy": [
+    {
+     "seller": "Pro Circuit (manufacturer)",
+     "url": "https://www.procircuit.com/ktm-ti-6-bc-titanium-ktm250-23-25",
+     "price_if_stated": 1476.95,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "caveats": "Backorder on maker site. No Husqvarna/GasGas models named by maker.",
+   "confidence": "high",
+   "note": "Confirmed. CORRECTION: maker extends 250 SX-F fitment to 2027 (pass 1 had 2023-2025) and adds 350 SX-F 2023-25."
+  },
+  {
+   "id": "fmf-41rct-450-2019",
+   "part_numbers": [
+    "045638"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2019,
+      2020,
+      2021,
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "450 XC-F",
+     "years": [
+      2019,
+      2020,
+      2021,
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F Factory Edition",
+     "years": [
+      2018,
+      2020,
+      2021
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2019,
+      2020,
+      2021,
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 450",
+     "years": [
+      2019,
+      2020,
+      2021,
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450 Rockstar Edition",
+     "years": [
+      2018,
+      2020,
+      2021
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 450F",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.fmfracing.com/products/factory-4-1-rct-045638",
+   "what_it_changes": "FMF: resonance-chamber muffler, shorter and mounted closer to the engine for mass centralization, claimed power gains across the rev range, page cites 13.3 lbs in its weight-saving claim; includes RTS, spark-arrestor screen and AMA-pro quiet insert. Stainless MegaBomb header and mid-pipe, aluminum muffler body, carbon end cap.",
+   "where_to_buy": [
+    {
+     "seller": "FMF Racing (manufacturer)",
+     "url": "https://www.fmfracing.com/products/factory-4-1-rct-045638",
+     "price_if_stated": 1049.99,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "caveats": "Closed-course use only. GasGas MC/EX 450F 2023 is listed by FMF even though the 2023 KTM/Husqvarna 450 moved to a new chassis.",
+   "confidence": "high",
+   "note": "Part number, fitment and price confirmed on fmfracing.com; fitment matches pass 1 and adds GasGas MC/EX 450F 2021-2023 and Husqvarna FX 450."
+  },
+  {
+   "id": "fmf-factory-fatty-tbi-2023",
+   "part_numbers": [
+    "025290"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "300 SX",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "300 XC",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 300",
+     "years": [
+      2025,
+      2027
+     ],
+     "notes": "FMF lists 2025 and 2027 only; 2026 likely a data gap"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TX 300",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 300",
+     "years": [
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 250",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 300",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.fmfracing.com/products/factory-fatty-025290",
+   "what_it_changes": "FMF: modeled on cone-style factory 'works' pipes; broadens and smooths the power curve with claimed gains in low-end, midrange and over-rev. 20-gauge body, 19-gauge header, hand-pounded seams, O-rings included, 5.0 lbs.",
+   "where_to_buy": [
+    {
+     "seller": "FMF Racing (manufacturer)",
+     "url": "https://www.fmfracing.com/products/factory-fatty-025290",
+     "price_if_stated": 329.99,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "caveats": "Part number covers the pipe only; the PowerCore 2.1 silencer part number is still unconfirmed. Sold out on FMF at capture. FMF page also lists enduro XC-W/TE/EC fitment (out of scope).",
+   "confidence": "high",
+   "note": "NEW part number found: 025290 is FMF's Factory Fatty for the 2023-2027 TBI 250/300. Pipe fitment confirmed on maker page; silencer still open."
+  },
+  {
+   "id": "rekluse-cmtd-450-2023",
+   "part_numbers": [
+    "RMS-7113198"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "450 SX-F, 450 SX-F Factory Edition, 450 XC-F (+ enduro)",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Rekluse lists years 2022-2027 for the make group without per-model year mapping"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC450, FC450 Rockstar Edition, FX450 (+ enduro)",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F, EX 450F, MC 250F Factory Edition (as listed)",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "MC 250F FE listed by Rekluse; verify"
+    }
+   ],
+   "fitment_source_url": "https://www.rekluse.com/product/manual-clutches/core-manual-torq-drive/core-manual-torq-drive-clutches/core-manual-td-gas-ktm-hqv-450-500-501-2/",
+   "what_it_changes": "Rekluse: fits up to four more friction discs than stock in the same space, raising torque capacity without stiffer springs; claims better drive, less fade, more consistent lever feel; lever pull can stay stock or go lighter; sleeves stop basket notching.",
+   "where_to_buy": [
+    {
+     "seller": "Rekluse (manufacturer)",
+     "url": "https://www.rekluse.com/product/manual-clutches/core-manual-torq-drive/core-manual-torq-drive-clutches/core-manual-td-gas-ktm-hqv-450-500-501-2/",
+     "price_if_stated": 989.1,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "caveats": "Maker model list is truncated behind 'Show All' and does not map models to years; listed 'Call for Availability'.",
+   "confidence": "high",
+   "note": "Part number and 2022-2027 KTM/Husqvarna/GasGas 450 fitment confirmed on rekluse.com (pass 1 had 2023-2027 from Cycle Gear)."
+  },
+  {
+   "id": "rekluse-cmtd-125-150-2023",
+   "part_numbers": [
+    "RMS-7113291"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX, 150 SX, 125 XC (+ XC-W/EXC)",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Years listed for the group, not per model"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC125, TC150 (+ TE)",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125, MC 150 (+ EC)",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.rekluse.com/product/manual-clutches/core-manual-torq-drive/core-manual-torq-drive-clutches/core-manual-td-gas-ktm-hqv-125/",
+   "what_it_changes": "Rekluse: up to four extra friction discs vs stock for more torque capacity, less fade, consistent lever feel; sleeves reduce basket wear.",
+   "where_to_buy": [
+    {
+     "seller": "Rekluse (manufacturer)",
+     "url": "https://www.rekluse.com/product/manual-clutches/core-manual-torq-drive/core-manual-torq-drive-clutches/core-manual-td-gas-ktm-hqv-125/",
+     "price_if_stated": 926.1,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "caveats": "Do not confuse with RMS-7113191 (same name family, Rekluse lists it for 2019-2023 125/150). Model list truncated on maker page.",
+   "confidence": "high",
+   "note": "NEW part number: RMS-7113291 for 2023-2027 125/150 2T (pass 1 had none)."
+  },
+  {
+   "id": "rekluse-cmtd-250-300-2t-2023",
+   "part_numbers": [
+    "RMS-7113096"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX, 250 XC, 300 XC (+ enduro)",
+     "years": [],
+     "notes": "Rekluse year filter shows 2017-2026 for the part but does not map years to models"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC250, TX300 (+ TE)",
+     "years": [],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250, EX 250/300 (+ EC)",
+     "years": [],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.rekluse.com/product/manual-clutches/core-manual-torq-drive/core-manual-torq-drive-clutches/core-manual-td-gas-ktm-hqv-250-300-2t/",
+   "where_to_buy": [
+    {
+     "seller": "Rekluse (manufacturer)",
+     "url": "https://www.rekluse.com/product/manual-clutches/core-manual-torq-drive/core-manual-torq-drive-clutches/core-manual-td-gas-ktm-hqv-250-300-2t/",
+     "price_if_stated": 1025.1,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "caveats": "Maker page spans 2017-2026 with no per-year mapping and includes TPI models, so it is unclear whether this one kit covers the 2023+ TBI engine. Check Rekluse product guide PDF before ordering.",
+   "confidence": "medium",
+   "note": "Candidate part number RMS-7113096 found on rekluse.com; 2023+ TBI fitment not explicitly confirmed, so confidence left at medium."
+  },
+  {
+   "id": "wiseco-40306M09500",
+   "part_numbers": [
+    "40306M09500"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "450 SX-F, 450 SX-F Factory Edition",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Wiseco shop page"
+    },
+    {
+     "make": "KTM",
+     "model": "450 XC-F",
+     "years": [
+      2023
+     ],
+     "notes": "Wiseco blog fitment table; shop page list truncated"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC450, FC450 Rockstar Edition, FX450",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F Factory Edition",
+     "years": [
+      2023
+     ],
+     "notes": "'2023.5' per Wiseco blog"
+    }
+   ],
+   "fitment_source_url": "https://www.wiseco.com/shop/powersports/pistons-kits-powersports/single-pistons/classic-forged-single-pistons/wiseco-4-stroke-forged-series-piston-kit-95-00-mm-bore-13-11-cr/",
+   "what_it_changes": "Wiseco: 95.00 mm, 13.1:1 forged kit with revised skirt and ArmorGlide coating to cut friction, boxed/strutted strength design, internal milling to save weight, lateral gas ports for ring seal, accumulator groove against ring flutter, DLC-coated pin.",
+   "where_to_buy": [
+    {
+     "seller": "Wiseco (manufacturer)",
+     "url": "https://www.wiseco.com/shop/powersports/pistons-kits-powersports/single-pistons/classic-forged-single-pistons/wiseco-4-stroke-forged-series-piston-kit-95-00-mm-bore-13-11-cr/",
+     "price_if_stated": 269.99,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "caveats": "Price is a sale price (MSRP 299.95 USD). A/B size-grade suffixes are retailer SKUs; the maker page shows the base SKU only.",
+   "confidence": "high",
+   "note": "Confirmed on wiseco.com; adds compression ratio 13.1:1 and extends to 2026 (pass 1 had 2023-25)."
+  },
+  {
+   "id": "prox-01-6348",
+   "part_numbers": [
+    "01.6348.C"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX-F, 250 XC-F (+ EXC-F)",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Group years, not per model"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC250 (+ FE250)",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F (+ EX/EC 250F)",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.pro-x.com/product/prox-piston-kit-ktm250sx-f-23-fc250-23-14-51-80-98mm/",
+   "what_it_changes": "ProX: OEM-replacement kit (piston, rings, pin, clips) CNC-machined from low-expansion, low-friction alloy; 14.5:1, 80.98 mm (C grade).",
+   "where_to_buy": [
+    {
+     "seller": "ProX (manufacturer)",
+     "url": "https://www.pro-x.com/product/prox-piston-kit-ktm250sx-f-23-fc250-23-14-51-80-98mm/",
+     "price_if_stated": 209.99,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "caveats": "Sale price; MSRP 232.95 USD. Only the .C grade was confirmed on the maker page; .A grade not seen.",
+   "confidence": "high",
+   "note": "CORRECTION: maker gives bore 80.98 mm (pass 1 said 81 mm) and 14.5:1 CR; fitment extends to 2027 and includes GasGas MC 250F."
+  },
+  {
+   "id": "boyesen-WPK-44",
+   "caveats": "Boyesen's own page for WPK-44AM (and WPK-44AB) lists KTM 250/350 SX-F and XC-F 2016-2022, Husqvarna FC350/FX350 to 2022 and GasGas MC 250F/350F 2021-2023, not 2023+ KTM/Husqvarna. The 2023-2027 fitment and the CB/CL/CM suffixes are still retailer-only.",
+   "confidence": "medium",
+   "note": "Not confirmed for 2023+. Possible conflict: maker page shows the WPK-44A* kit ending at 2022 KTM. Needs Boyesen's 2023 KTM 250 SX-F page."
+  },
+  {
+   "id": "tmd-fx-rear-chain-guide-2023",
+   "part_numbers": [
+    "RCG-KT5"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125-450 SX, SX-F, XC, XC-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Parts Finder fitment"
+    },
+    {
+     "make": "KTM",
+     "model": "250/450 SX-F Factory Edition",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC/FX 250-450, TC/TX 125-300",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250/450 Rockstar Edition",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F/450F Factory Edition",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125-450 (2T and 4T)",
+     "years": [
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Listed within 'EC, ES, EX, MC 125-500'"
+    }
+   ],
+   "fitment_source_url": "https://www.tmdesignworks.com/p-8515-factory-edition-fx-rear-chain-guidebrpn-rcg-kt5br23-25-ktm-husky-gas-gas.aspx",
+   "what_it_changes": "TM Designworks: replaceable wear pad (good in mud/sand and with oversize sprockets), slimmer profile with more coverage of the swingarm tabs, chamfered edges to deflect rocks, recessed pad bolts, flexible 'RMS' plastic that returns to center; standard and sealed chains.",
+   "where_to_buy": [
+    {
+     "seller": "TM Designworks (manufacturer)",
+     "url": "https://www.tmdesignworks.com/p-8515-factory-edition-fx-rear-chain-guidebrpn-rcg-kt5br23-25-ktm-husky-gas-gas.aspx",
+     "price_if_stated": 117.95,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "caveats": "Maker shows colours Black, Dark Blue, Orange, Red under the single PN RCG-KT5; colour-suffixed PNs (-BK, -BL2, -ORG) are retailer-only. Stark Varg needs a separate bracket.",
+   "confidence": "high",
+   "note": "Confirmed. CORRECTION: maker fitment runs 2023-2027 (pass 1 said 23-25) and adds GasGas MC from 2024; also adds Dark Blue and Red colours."
+  },
+  {
+   "id": "tmd-fx-slide-n-guide-2023",
+   "part_numbers": [
+    "FXK-KHG3"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125-450 SX, SX-F, XC, XC-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "250/450 SX-F Factory Edition",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC/FX 250-450, TC/TX 125-300",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250/450 Rockstar Edition",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F/450F Factory Edition",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125-450",
+     "years": [
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.tmdesignworks.com/p-8994-fx-slide-n-guide-kitbrwith-fe-fx-rear-guidebr-pn-fxk-khg3br23-25-ktm-husky-gas-gas.aspx",
+   "what_it_changes": "TM Designworks: kit of Baja front chain slider (claimed up to 3x the life of other sliders, inner wing to keep chain aligned, sound-damping pads), Powerlip lower roller or frame pad to cut chain drag, and the FX rear guide.",
+   "where_to_buy": [
+    {
+     "seller": "TM Designworks (manufacturer)",
+     "url": "https://www.tmdesignworks.com/p-8994-fx-slide-n-guide-kitbrwith-fe-fx-rear-guidebr-pn-fxk-khg3br23-25-ktm-husky-gas-gas.aspx",
+     "price_if_stated": 245.95,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "caveats": "Maker shows one PN with colour options (Black, Dark Blue, Orange, Red); colour-suffixed PNs are retailer-only. Page says roller 'or' frame pad, so the lower piece is unclear.",
+   "confidence": "high",
+   "note": "Confirmed. CORRECTION: fitment 2023-2027 (pass 1 said 23-25); maker price 245.95 USD."
+  },
+  {
+   "id": "supersprox-stealth-rst990",
+   "part_numbers": [
+    "RST-990:<teeth>-<colour> (e.g. RST-990:48-BLK, RST-990:50-ORG)"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125/150 SX, 250 SX, 250 SX-F, 450 SX-F (+FE), 350/450 XC-F, 150 XC",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Supersprox application list for pattern 990 runs to 2026; 350 SX-F not named separately in the list"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125, FC 250/350/450, FX 350/450, TX 125/300",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Other GasGas MC models not named in pattern-990 list"
+    }
+   ],
+   "fitment_source_url": "https://www.supersprox.com/rear/990",
+   "what_it_changes": "Supersprox: aluminium centre with steel teeth (claimed 3x life of an aluminium sprocket), lighter rotating mass than steel, Tri-Zink plating, forged stainless rivets. 520 pitch, 150 mm PCD, 125 mm centre bore.",
+   "where_to_buy": [
+    {
+     "seller": "Supersprox (manufacturer)",
+     "url": "https://www.supersprox.com/product/supersprox-stealth-rear-sprocket-rst-99048-blk/",
+     "price_if_stated": 53.21,
+     "currency": "EUR",
+     "date": "2026-10-14"
+    }
+   ],
+   "caveats": "Maker price is for 48T black, excluding 23% VAT and shipping. Application list does not name the 350 SX-F or most GasGas MC models even though they share the hub.",
+   "confidence": "high",
+   "note": "Pattern 990 and part-number format confirmed on supersprox.com; maker list runs to 2026 (pass 1 cited 2023 only)."
+  },
+  {
+   "id": "motomaster-flame-270-ktm",
+   "what_it_changes": "Moto-Master: full-floating oversize disc with CNC aluminium hub, stainless floaters and ground stainless ring; claims up to 35% better performance and up to 20% lighter than stock. Needs a Moto-Master caliper relocation bracket. KTM Red Bull team uses the 260 mm version.",
+   "note": "Maker general page read; it lists no part number or fitment, so 310022-PU is still retailer-only. Confidence unchanged."
+  },
+  {
+   "id": "xtrig-rocs-tech-ktm-2023",
+   "what_it_changes": "Xtrig: ROCS clamping reduces fork-tube deformation at the clamps for better fork response; Tech version keeps stock offset, pressed-in stem and reuses OEM nuts/washers.",
+   "note": "Xtrig product page has no part numbers or fitment (points to xtrig-shop.com); XT 40501005 unconfirmed."
+  },
+  {
+   "id": "xtrig-rocs-pro-ktm-2023",
+   "what_it_changes": "Xtrig: ROCS Pro has adjustable offset, bolted stem and fork bores machined after assembly for accuracy; ROCS system reduces fork-tube deformation.",
+   "note": "No part number or fitment on xtrig.com product page."
+  }
+ ],
+ "products": [
+  {
+   "id": "pc-ti6-pro-250-2023-fp",
+   "category": "exhaust",
+   "subcategory": "full system 4-stroke",
+   "brand": "Pro Circuit",
+   "product": "Ti-6 Pro Titanium System w/ Carbon End Cap, KTM 250 SX-F 2023-25, F.E. 2022",
+   "part_numbers": [
+    "0352225FP"
+   ],
+   "variants": "Titanium, carbon end cap",
+   "platform_ids": [
+    "ktm-4t-mx-2023"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Maker title"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F Factory Edition",
+     "years": [
+      2022
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.procircuit.com/ktm-ti-6-pro-systems.html",
+   "what_it_changes": "Maker listing gives no performance description.",
+   "supporting_parts": "None listed.",
+   "where_to_buy": [
+    {
+     "seller": "Pro Circuit (manufacturer)",
+     "url": "https://www.procircuit.com/ktm-ti-6-pro-titanium-ktm-250-sx-f-fe-22",
+     "price_if_stated": 1396.95,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No Husqvarna/GasGas model named. Closed-course use.",
+   "confidence": "high"
+  },
+  {
+   "id": "fmf-41rct-ti-full-045683",
+   "category": "exhaust",
+   "subcategory": "full system 4-stroke",
+   "brand": "FMF",
+   "product": "Factory 4.1 RCT Titanium Anodized Full System w/ Carbon End Cap (listed for KTM 350 SX-F 2023)",
+   "part_numbers": [
+    "045683"
+   ],
+   "variants": "Titanium anodized; stainless/aluminium full system 045682 also listed (sold out)",
+   "platform_ids": [
+    "ktm-4t-mx-2023"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2023
+     ],
+     "notes": "Shown under FMF's 'KTM 350 SX-F 2023' collection filter; full fitment list not read"
+    }
+   ],
+   "fitment_source_url": "https://www.fmfracing.com/collections/factory-4-1/ktm-350-sx-f-2023",
+   "what_it_changes": "Not read (product page fetch blocked).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "FMF Racing (manufacturer)",
+     "url": "https://www.fmfracing.com/collections/factory-4-1/products/factory-4-1-rct-titanium-anodized-full-system-w-carbon-end-cap-045683",
+     "price_if_stated": 1329.99,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Fitment only inferred from the collection filter; may also cover 250 SX-F/XC-F and Husqvarna/GasGas equivalents. Same-filter items: 045670 Ti slip-on 854.99 USD, 045679 stainless slip-on 674.99 USD, 045682 stainless/alu full system 1049.99 USD (sold out).",
+   "confidence": "medium"
+  },
+  {
+   "id": "fmf-fatty-tbi-025288",
+   "category": "exhaust",
+   "subcategory": "2-stroke pipe",
+   "brand": "FMF",
+   "product": "Fatty pipe (Gold Series), KTM/Husqvarna/GasGas 250/300 TBI",
+   "part_numbers": [
+    "025288"
+   ],
+   "variants": "Nickel-plated carbon steel",
+   "platform_ids": [
+    "ktm-2t-tbi-2023"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX, 300 SX, 250 XC, 300 XC",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250, TX 300",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 300",
+     "years": [
+      2025,
+      2027
+     ],
+     "notes": "2026 not listed"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 300",
+     "years": [
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 250",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 300",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.fmfracing.com/products/fatty-025288",
+   "what_it_changes": "FMF: broadens and smooths power with more low-end, midrange and over-rev, better tractability; Tru-Flo stamped; works with FMF or stock silencer; 5.0 lbs.",
+   "supporting_parts": "O-rings included.",
+   "where_to_buy": [
+    {
+     "seller": "FMF Racing (manufacturer)",
+     "url": "https://www.fmfracing.com/products/fatty-025288",
+     "price_if_stated": 329.99,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Enduro fitments (XC-W/TE/EC) also listed, out of scope.",
+   "confidence": "high"
+  },
+  {
+   "id": "boyesen-supercooler-tbi-wpk-42",
+   "category": "engine",
+   "subcategory": "cooling / water pump",
+   "brand": "Boyesen",
+   "product": "Supercooler water pump kit, KTM/Husqvarna/GasGas TBI 2-stroke",
+   "part_numbers": [
+    "WPK-42B",
+    "WPK-42M",
+    "WPK-42O",
+    "WPK-42L"
+   ],
+   "variants": "Black (B), Magnesium (M), Orange (O), Blue (L)",
+   "platform_ids": [
+    "ktm-2t-tbi-2023"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX, 250 SX, 300 SX, 250 XC, 300 XC",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "125 XC",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125, TC 250",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": "Husqvarna TX 300i also listed 2024-2025"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": "EX 250 and EC 300 also listed"
+    }
+   ],
+   "fitment_source_url": "https://boyesen.com/Boyesen-Supercooler-for-KTM-Husqvarna-Gas-Gas-TBI-2-Stroke-Machines",
+   "what_it_changes": "Boyesen: improves cooling on 2023+ TBI 2-strokes, lowering coolant and engine temperature so power holds in heat or mud; says it extends internal part life.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Boyesen (manufacturer, news post dated 2024-12-04)",
+     "url": "https://boyesen.com/Boyesen-Supercooler-for-KTM-Husqvarna-Gas-Gas-TBI-2-Stroke-Machines",
+     "price_if_stated": 194.95,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Prices from a Dec 2024 news post: 194.95 USD black/magnesium, 199.95 USD orange/blue. Fitment stops at 2025 in that post. Husqvarna TC 250 2023 not listed even though KTM 250 SX 2023 is.",
+   "confidence": "high"
+  },
+  {
+   "id": "p3-hybrid-skid-450-2023-no-linkage",
+   "category": "chassis",
+   "subcategory": "skid plate",
+   "brand": "P3 Carbon",
+   "product": "Hybrid Skid Plate, NO linkage guard, KTM/Husqvarna/GasGas 450/500 2023+",
+   "part_numbers": [],
+   "variants": "Without linkage guard (a with-linkage-guard version exists, see p3-carbon-skid-450-2023)",
+   "platform_ids": [
+    "ktm-4t-mx-2023"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "450 SX-F, 450 XC-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Per title/meta; URL slug says 2023-2026; fitment chart not read"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450, FX 450",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "450 models",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://p3carbon.com/products/p3-skid-plate-with-linkage-guard-ktm-sx-f-xc-f-450-husq-fc-fx-fs-450-2023-2026-see-fitment-tab/",
+   "what_it_changes": "P3: hand-made carbon fibre protection; no further detail on page.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "P3 Carbon (manufacturer)",
+     "url": "https://p3carbon.com/products/p3-skid-plate-with-linkage-guard-ktm-sx-f-xc-f-450-husq-fc-fx-fs-450-2023-2026-see-fitment-tab/",
+     "price_if_stated": 199.95,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "URL slug says 'with-linkage-guard' but title says NO linkage guard; confirm the variant. No SKU shown.",
+   "confidence": "medium"
+  }
+ ],
+ "gaps": [
+  "Pro Circuit maker pages list only KTM model names; Husqvarna/GasGas fitment of 2023+ Ti-6 Pro and BC systems is retailer-only.",
+  "FMF Factory 4.1 RCT for 2023+ KTM 450 SX-F: part number still unconfirmed (product page 045674 failed to load; the 450 2023 collection URL was blocked). 045674 is a candidate only.",
+  "FMF PowerCore 2.1 silencer part number for the TBI 250/300 still unconfirmed.",
+  "Boyesen WPK-44 2023+ 4T fitment conflicts with maker page (WPK-44AM ends at 2022 KTM).",
+  "Rekluse RMS-7113096 (250/300 2T) 2023+ TBI fitment unclear on maker page; check the product guide PDF.",
+  "KTM PowerParts on ktm.com is rendered by JavaScript and returned no product data; all PowerParts/Akrapovic A4xxx part numbers stay dealer-sourced.",
+  "Galfer USA product URLs now redirect to galfer.com; Galfer not confirmed.",
+  "Moto-Master and Xtrig maker pages give descriptions but no part numbers or fitment (they use product finders: products.moto-master.com, xtrig-shop.com).",
+  "Hinson maker site (hinsonracing.com) lists kits without SKUs or fitment unless a ride is selected; HCA480-2301 / HCA460-2301 unconfirmed.",
+  "Vertex Italy news page for MY2023 KTM SX-F redirected and the redirect URL was blocked."
+ ],
+ "not_done": [
+  "Not reached (search budget): HGS (no maker page found in search), Akrapovic maker pages, Yoshimura (already high), Kite (no maker domain found), Raptor, Fastway, Scotts, Luxon, Ride Engineering, Moose/Samco, X-Grip, Trail Tech, Twin Air, No Toil, Athena/GET, Hot Cams, TSP, Steahly, ARC, ASV, Guts, AXP, BPD, Works Connection.",
+  "Not reached: Husqvarna and GasGas accessory pages; Vertex 24615B/24618B and Vertex cast 2T kits; Wiseco 40144M07800/PK1924; Pro X other bores.",
+  "Blocked URLs (permission not answered): fmfracing.com/collections/factory-4-1/ktm-450-sx-f-2023; FMF 045683 product page; vertexpistons.com/it/?idSezione=574; one Rekluse page (later reached via search).",
+  "p3-carbon-skid-450-2023 (with linkage guard) maker page returned a fetch error; p3-carbon-skid-2t-250-300-2023 not checked."
+ ]
+}

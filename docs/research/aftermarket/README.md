@@ -25,7 +25,8 @@ the app needs a manufacturer-page fitment check per part (the evidence fields in
 | Family | Pass | Status | Result |
 |---|---|---|---|
 | KTM family | 1: newest platforms (2023-2027), breadth across all five slices | Done 2026-10-14 | 112 products, 54 rider/tester findings, 11 project builds; 217 of 224 in-scope bike-years have at least one mapped part |
-| KTM family | 2: depth and gaps (see below), then 2020-2022 back-fill | Next | |
+| KTM family | 2: manufacturer confirmation, missing brands and categories, 85 SX, more feedback | Done 2026-10-14 | 210 products (32 high, 123 medium, 55 unverified), 276 part numbers, 83 findings, 17 builds; all 224 in-scope bike-years have mapped parts |
+| KTM family | 3: 2020-2022 back-fill and what pass 2 could not reach (below) | Next | |
 | Triumph | 1 | Queued | |
 | Yamaha | 1 | Queued | |
 | Honda | 1 | Queued | |
@@ -51,3 +52,26 @@ Pass 2 list:
 - Feedback: 2026-27 written tests, cross-country models, GasGas 250/350, 2023+ clutch tests, footpeg, wheel and rotor tests;
   Dirt Bike Test, Transworld, Dirt Rider, Cycle News, ThumperTalk; the blocked Swapmoto and MXA pages listed in the files.
 - Then 2020-2022 platform back-fill across all slices.
+
+## KTM family pass 2 (2026-10-14)
+
+Confirmed on the maker's own page: Pro Circuit Ti-6 systems (with corrected year ranges: the maker lists fewer years and
+models than retailers), FMF 2023+ slip-ons and TBI pipes (new numbers 025288, 025290, 045669/045680, 045670/045679), Rekluse
+TorqDrive kits, Wiseco and ProX pistons, TM Designworks, Supersprox, Cometic, Works Connection axle blocks.
+
+Corrections and findings: 2024+ GasGas Braktec brakes take their own levers (ARC BR-122), so Brembo-pattern levers were taken
+off GasGas 2024+ (p2-corrections.json); 2023-24 and 2025+ linkage bolts differ, so linkages do not swap across them; the 2023
+GasGas MC-F still has the previous KTM engine (2016-2022 engine parts fit); the 2023+ KTM SX-F handlebar switch number comes
+only from a Vortex harness listing; Husqvarna did not import the 2026 FC to the US, which explains its absence from fitment
+lists; Boyesen lists its WPK-44 supercooler only to 2022 on its own page; Rekluse auto clutch tested on a 2025 350 XC-F.
+
+Pass 3 list:
+- 2020-2022 platform back-fill across every slice.
+- Still unconfirmed at the maker: KTM PowerParts and Akrapovič (ktm.com renders without data; dealer catalog PDFs may work),
+  FMF 4.1 RCT 2023+ 450, Hinson (maker shows no SKUs), Galfer (US links redirect), Vertex, Moto-Master, Xtrig, Luxon, Ride
+  Engineering, HGS, Kite, Raptor, Fastway, Scotts, Athena/GET, Twin Air, No Toil.
+- Not found yet: 2023+ big-bore, cams, valves, crank kits, stators and four-stroke flywheel weights; JE/CP pistons; Boyesen
+  reeds and power valve springs for TBI; support for the 2027 fuel-injected 125; 2025+ 85 SX wheels, controls and suspension
+  part numbers; Husqvarna and GasGas colour-variant OEM numbers; Haan/Talon/DID wheels; Regina/EK chains.
+- Feedback: no written aftermarket tests yet for 2026-27 KTM or Husqvarna; Hinson tests on 2023+; four-stroke cross-country
+  tests; the MXA and Racer X pages listed as not done in p2-rider-feedback.json.

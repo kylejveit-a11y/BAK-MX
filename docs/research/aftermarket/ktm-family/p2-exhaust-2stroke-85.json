@@ -1,0 +1,2728 @@
+{
+ "slice": "Pass 2: exhaust brands, two-stroke, 85 SX, map switches",
+ "research_date": "2026-10-14",
+ "platforms": [
+  {
+   "id": "p2-85-2025",
+   "description": "New-generation 85 SX (MY2025+): new chromoly frame, rear shock mount separated from upper frame tube, head angle 63.5 deg, one-piece die-cast swingarm (2.8 kg), WP XACT AER 43 fork (278 mm) and WP XACT shock with PDS (289 mm), Formula calipers with 240/220 mm Galfer wave discs, Excel rims in 17/14 or 19/16, new seamless exhaust, Hidria digital CDI, hydraulic clutch, 6-speed. 20 mm rear axle per pass-1 chassis note (KTM media kit does not state axle sizes). Pro Circuit and Bill's Pipes list 2025 Husqvarna TC 85 and GasGas MC 85 alongside the KTM, which suggests the three share the platform (not confirmed by KTM).",
+   "models_years": "KTM 85 SX 17/14 and 19/16 2025-2026(+); Husqvarna TC 85 and GasGas MC 85 2025+ (per aftermarket listings, unconfirmed by OEM)",
+   "source_url": "https://www.ktm.com/en-int/85-sx-media-kit.html"
+  },
+  {
+   "id": "p2-125-150-2t-2023",
+   "description": "125/150 two-stroke on the 2023+ chassis. Carbureted 2023-2026 (pass 1 says 2027 125 SX goes EFI, see pass-1 platform ktm-125-2t-efi-2027). FMF lists its PowerCore 2.1 025291 for 125 SX 2023-2027 without separating the 2027 EFI bike.",
+   "models_years": "KTM 125 SX 2023-2027, 125 XC 2023-2025, 150 SX 2025; Husqvarna TC 125 2023-2027, TC 150 2025; GasGas MC 125 2024-2026, MC 150 2025",
+   "source_url": "https://www.fmfracing.com/products/powercore-2-1-025291"
+  },
+  {
+   "id": "p2-map-switch-4t-2023",
+   "description": "2023+ KTM SX-F handlebar switch (map select, launch control, traction control, quickshift). Standard on KTM/Husqvarna 4T MX; per pass-1 notes 2024 GasGas 4T needs it added. Plugs into the 6-way diagnostic connector under the seat (per Vortex harness listing).",
+   "models_years": "KTM SX-F/XC-F 2023+, Husqvarna FC/FX 2023+, GasGas MC-F 2024+ (retrofit)",
+   "source_url": "https://tokyomods.com/shop/vortex/vortex-ecus/vortex-ecus-switches/vortex-adapter-harness-for-ktm-sxf-2023-oem-handlebar-switch/"
+  },
+  {
+   "id": "ref-pass1",
+   "description": "Products in this file also reference pass-1 platform ids: ktm-4t-mx-2023, ktm-2t-tbi-2023, ktm-125-2t-efi-2027, ktm-85-2018-2024 (defined in ktm-exhaust-intake-fuel.json).",
+   "models_years": "see pass 1",
+   "source_url": "docs/research/aftermarket/ktm-family/ktm-exhaust-intake-fuel.json"
+  }
+ ],
+ "products": [
+  {
+   "variants": "Titanium blue-anodized muffler, titanium mid-pipe, carbon end cap; 6.7 lb. Screen spark arrestor included; quiet insert listed (AMA pro sound). Stainless/aluminum sibling: 045680.",
+   "supporting_parts": "Uses stock head pipe (slip-on). FMF says to check the Fitment tab for header compatibility.",
+   "rider_feedback": [],
+   "caveats": "Closed-course use only. Pass-1 note: US MY27 standard SX-F/XC-F (and EU MY26 / US MY26 Factory Edition) got a revised airbox/filter; KTM says its Akrapovic systems need MY25 intake parts and map on those bikes. FMF lists 2027 fitment without such a note; check before buying. FMF also lists enduro models (EC/FE/XCF-W/XW-F), out of scope here.",
+   "part_numbers": [
+    "045669"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "FMF Racing",
+     "url": "https://www.fmfracing.com/products/factory-4-1-rct-titanium-anodized-sl-slip-on-w-carbon-cap-045669",
+     "price_if_stated": 854.99,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-fmf-41rct-ti-slipon-450-2023",
+   "category": "exhaust",
+   "subcategory": "slip-on 4-stroke",
+   "brand": "FMF",
+   "product": "Factory 4.1 RCT Titanium Anodized SL (Slip-On) w/ Carbon Cap",
+   "platform_ids": [
+    "ktm-4t-mx-2023"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F Factory Edition",
+     "years": [
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "450 XC-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 450",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F Factory Edition",
+     "years": [
+      2023
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 450F",
+     "years": [
+      2024
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.fmfracing.com/products/factory-4-1-rct-titanium-anodized-sl-slip-on-w-carbon-cap-045669",
+   "what_it_changes": "FMF claim: power gains across the rpm range, weight savings, shorter muffler closer to the engine (mass centralization), RTS rapid tuning system. No dyno figures given.",
+   "confidence": "high"
+  },
+  {
+   "variants": "Gray-anodized aluminum muffler, stainless mid-pipe, carbon end cap; 5.5 lb. Page text also mentions a natural aluminum option.",
+   "supporting_parts": "Stock head pipe.",
+   "rider_feedback": [],
+   "caveats": "Sold out on FMF site 2026-10-14. FMF page mixes 'titanium' wording with an aluminum/stainless spec. Pass-1 note: US MY27 standard SX-F/XC-F (and EU MY26 / US MY26 Factory Edition) got a revised airbox/filter; KTM says its Akrapovic systems need MY25 intake parts and map on those bikes. FMF lists 2027 fitment without such a note; check before buying.",
+   "part_numbers": [
+    "045680"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "FMF Racing",
+     "url": "https://www.fmfracing.com/products/factory-4-1-rct-stainless-sl-slip-on-w-carbon-end-cap-045680",
+     "price_if_stated": 674.99,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-fmf-41rct-ss-slipon-450-2023",
+   "category": "exhaust",
+   "subcategory": "slip-on 4-stroke",
+   "brand": "FMF",
+   "product": "Factory 4.1 RCT Stainless SL (Slip-On) w/ Carbon End Cap",
+   "platform_ids": [
+    "ktm-4t-mx-2023"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F Factory Edition",
+     "years": [
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "450 XC-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 450",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F Factory Edition",
+     "years": [
+      2023
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 450F",
+     "years": [
+      2024
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.fmfracing.com/products/factory-4-1-rct-stainless-sl-slip-on-w-carbon-end-cap-045680",
+   "what_it_changes": "Same FMF claims as 045669 (power gains through the rpm range, mass centralization). No dyno figures.",
+   "confidence": "high"
+  },
+  {
+   "variants": "Titanium blue-anodized, titanium mid-pipe, carbon cap; 7.0 lb; spark arrestor screen included.",
+   "supporting_parts": "Stock head pipe.",
+   "rider_feedback": [],
+   "caveats": "Pass 1 listed an FMF 250/350 silencer sold through the KTM dealer channel without a part number (fmf-factory41-rct-oem-2023); this is likely the FMF-direct equivalent but the link is not confirmed. Pass-1 note: US MY27 standard SX-F/XC-F (and EU MY26 / US MY26 Factory Edition) got a revised airbox/filter; KTM says its Akrapovic systems need MY25 intake parts and map on those bikes. FMF lists 2027 fitment without such a note; check before buying.",
+   "part_numbers": [
+    "045670"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "FMF Racing",
+     "url": "https://www.fmfracing.com/products/factory-4-1-rct-titanium-anodized-sl-slip-on-w-carbon-cap-045670",
+     "price_if_stated": 854.99,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-fmf-41rct-ti-slipon-250-350-2023",
+   "category": "exhaust",
+   "subcategory": "slip-on 4-stroke",
+   "brand": "FMF",
+   "product": "Factory 4.1 RCT Titanium Anodized SL (Slip-On) w/ Carbon Cap, 250/350",
+   "platform_ids": [
+    "ktm-4t-mx-2023"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F Factory Edition",
+     "years": [
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "350 XC-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250 Rockstar Edition",
+     "years": [
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 350",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F Factory Edition",
+     "years": [
+      2023
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 350F",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 250F / EX 350F",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.fmfracing.com/products/factory-4-1-rct-titanium-anodized-sl-slip-on-w-carbon-cap-045670",
+   "what_it_changes": "FMF claim: power gains through the rpm range, weight savings, mass centralization. No dyno figures.",
+   "confidence": "high"
+  },
+  {
+   "variants": "Gray-anodized aluminum body, stainless mid-pipe, carbon cap; 5.6 lb.",
+   "supporting_parts": "Stock head pipe.",
+   "rider_feedback": [],
+   "caveats": "Pass-1 note: US MY27 standard SX-F/XC-F (and EU MY26 / US MY26 Factory Edition) got a revised airbox/filter; KTM says its Akrapovic systems need MY25 intake parts and map on those bikes. FMF lists 2027 fitment without such a note; check before buying.",
+   "part_numbers": [
+    "045679"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "FMF Racing",
+     "url": "https://www.fmfracing.com/products/factory-4-1-rct-stainless-sl-slip-on-w-carbon-end-cap-045679",
+     "price_if_stated": 674.99,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-fmf-41rct-ss-slipon-250-350-2023",
+   "category": "exhaust",
+   "subcategory": "slip-on 4-stroke",
+   "brand": "FMF",
+   "product": "Factory 4.1 RCT Stainless SL (Slip-On) w/ Carbon End Cap, 250/350",
+   "platform_ids": [
+    "ktm-4t-mx-2023"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F Factory Edition",
+     "years": [
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "350 XC-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250 Rockstar Edition",
+     "years": [
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 350",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F Factory Edition",
+     "years": [
+      2023
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 350F",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 250F / EX 350F",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.fmfracing.com/products/factory-4-1-rct-stainless-sl-slip-on-w-carbon-end-cap-045679",
+   "what_it_changes": "FMF claim as above. No dyno figures.",
+   "confidence": "high"
+  },
+  {
+   "variants": "045682 stainless header/aluminum muffler (USD 1,049.99, sold out); 045683 titanium anodized (USD 1,329.99).",
+   "supporting_parts": "Complete system; no separate parts listed.",
+   "rider_feedback": [],
+   "caveats": "Product pages for 045682/045683 not opened; full fitment table not captured. The 450 full-system numbers for 2023+ were not found (FMF 450 collection page was blocked).",
+   "part_numbers": [
+    "045682",
+    "045683"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "FMF Racing",
+     "url": "https://www.fmfracing.com/collections/factory-4-1/ktm-350-sx-f-2023",
+     "price_if_stated": 1329.99,
+     "currency": "USD (045683)",
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-fmf-41rct-full-250-350-2023",
+   "category": "exhaust",
+   "subcategory": "full system 4-stroke",
+   "brand": "FMF",
+   "product": "Factory 4.1 RCT full systems for KTM 350 SX-F 2023: Stainless/Alum w/ Carbon Cap (045682) and Titanium Anodized w/ Carbon End Cap (045683)",
+   "platform_ids": [
+    "ktm-4t-mx-2023"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2023
+     ],
+     "notes": "Only fitment confirmed is FMF's 'KTM 350 SX-F 2023' collection page; wider 250/350 2023+ fitment is likely but not read from the product pages"
+    }
+   ],
+   "fitment_source_url": "https://www.fmfracing.com/collections/factory-4-1/ktm-350-sx-f-2023",
+   "what_it_changes": "FMF claim: power gains through the rpm range, weight savings. No dyno figures.",
+   "confidence": "medium"
+  },
+  {
+   "variants": "Single variant; 20-gauge body, 19-gauge header, hand-pounded seams, nickel finish (per R1 Industries). 5.0 lb.",
+   "supporting_parts": "O-rings included. Pairs with PowerCore 2.1 025294 or stock silencer. No remap needed in MXA test.",
+   "rider_feedback": [],
+   "caveats": "Resolves pass-1 gap: this is the part number for the Factory Fatty in pass-1 fmf-factory-fatty-tbi-2023. Sold out on FMF site 2026-10-14. FMF also lists TE/XC-W/EC (enduro, out of scope).",
+   "part_numbers": [
+    "025290"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "FMF Racing",
+     "url": "https://www.fmfracing.com/products/factory-fatty-025290",
+     "price_if_stated": 329.99,
+     "currency": "USD",
+     "date": "2026-10-14"
+    },
+    {
+     "seller": "R1 Industries Offroad",
+     "url": "https://r1industriesoffroad.com/products/fmf-fatty-pipe-ktm-250-sx-fuel-injected-2023-2026",
+     "price_if_stated": null,
+     "currency": null,
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-fmf-factory-fatty-tbi-025290",
+   "category": "exhaust",
+   "subcategory": "expansion chamber 2-stroke",
+   "brand": "FMF",
+   "product": "Factory Fatty pipe, KTM/Husqvarna/GasGas 250/300 TBI",
+   "platform_ids": [
+    "ktm-2t-tbi-2023"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "300 SX",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "300 XC",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 300",
+     "years": [
+      2025,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TX 300",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 300",
+     "years": [
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 250",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 300",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.fmfracing.com/products/factory-fatty-025290",
+   "what_it_changes": "FMF claim: broader, smoother power curve with more low end, midrange and over-rev. MXA 2023 dyno (pass-1 item fmf-factory-fatty-tbi-2023): 2023 KTM 300 SX 54.96 hp to 58.08 hp peak with PowerCore 2.1, green map; slightly down 5800-6700 rpm.",
+   "confidence": "high"
+  },
+  {
+   "variants": "Black-anodized aluminum body, stainless mid-pipe and end cap; 2.8 lb. A titanium PowerCore 2.1 (MXA price USD 449.99) and a Titanium PowerCore 2.1 Shorty (025255, fitment not read) also exist.",
+   "supporting_parts": "Works with FMF or stock pipe (per FMF).",
+   "rider_feedback": [],
+   "caveats": "Sold out on FMF site 2026-10-14. FMF lists TC 300 for 2025 only (pipe 025290 lists 2025 and 2027).",
+   "part_numbers": [
+    "025294"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "FMF Racing",
+     "url": "https://www.fmfracing.com/products/powercore-2-1-025294",
+     "price_if_stated": 239.99,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-fmf-powercore21-tbi-025294",
+   "category": "exhaust",
+   "subcategory": "silencer 2-stroke",
+   "brand": "FMF",
+   "product": "PowerCore 2.1 silencer, 250/300 TBI",
+   "platform_ids": [
+    "ktm-2t-tbi-2023"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "300 SX",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "300 XC",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TX 300",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 300",
+     "years": [
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 250",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 300",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 300",
+     "years": [
+      2025
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.fmfracing.com/products/powercore-2-1-025294",
+   "what_it_changes": "FMF claim: smooth power curve, larger canister for longer packing life, lighter than stock. MXA (2023 TC250, silencer only): less bottom snap, more mid/top.",
+   "confidence": "high"
+  },
+  {
+   "variants": "Black-anodized aluminum, stainless mid-pipe and end cap; 2.4 lb.",
+   "supporting_parts": "Works with FMF or stock pipe.",
+   "rider_feedback": [],
+   "caveats": "Sold out on FMF site 2026-10-14. FMF 125 pipe part number for 2023+ not found. Enduro EC 125 / XC-W 150 also listed (out of scope).",
+   "part_numbers": [
+    "025291"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "FMF Racing",
+     "url": "https://www.fmfracing.com/products/powercore-2-1-025291",
+     "price_if_stated": 239.99,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-fmf-powercore21-125-025291",
+   "category": "exhaust",
+   "subcategory": "silencer 2-stroke",
+   "brand": "FMF",
+   "product": "PowerCore 2.1 silencer, 125/150",
+   "platform_ids": [
+    "p2-125-150-2t-2023",
+    "ktm-125-2t-efi-2027"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "2027 is the EFI model; FMF does not separate it"
+    },
+    {
+     "make": "KTM",
+     "model": "125 XC",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 150",
+     "years": [
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 150",
+     "years": [
+      2025
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.fmfracing.com/products/powercore-2-1-025291",
+   "what_it_changes": "FMF claim: smooth power curve, more tunability, longer packing life, lighter than stock.",
+   "confidence": "high"
+  },
+  {
+   "variants": "Nickel finish listed by Firestorm.",
+   "supporting_parts": "None listed. Pro Circuit silencers for TBI listed below (R-304 / 304).",
+   "rider_feedback": [],
+   "caveats": "Husqvarna/GasGas fitment not read from a source. Same number used across 250 and 300 by two retailers.",
+   "part_numbers": [
+    "0852325",
+    "PC0852325_333 (Firestorm SKU, nickel)"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "Firestorm Motorcycles (AU)",
+     "url": "https://firestormmotorcycles.com.au/ktm-300-sx-2023-2025-pro-circuit-platinum-expansio",
+     "price_if_stated": 579.99,
+     "currency": "not stated (AU site)",
+     "date": "2026-10-14"
+    },
+    {
+     "seller": "JJ Motorsports",
+     "url": "https://jj-motorsports.com/pro-circuit-works-pipe-0752312/",
+     "price_if_stated": 384.95,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-pc-platinum-250-300-tbi",
+   "category": "exhaust",
+   "subcategory": "expansion chamber 2-stroke",
+   "brand": "Pro Circuit",
+   "product": "Platinum Pipe (expansion chamber), KTM 250 SX / 300 SX TBI",
+   "platform_ids": [
+    "ktm-2t-tbi-2023"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "300 SX",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Firestorm"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "JJ Motorsports related-item title"
+    }
+   ],
+   "fitment_source_url": "https://firestormmotorcycles.com.au/ktm-300-sx-2023-2025-pro-circuit-platinum-expansio",
+   "what_it_changes": "Pro Circuit claim (via retailer): matches the performance gains of the Works Pipe; platinum/nickel plating for durability. No dyno figures. MXA (pass-1 TD remap test) ran a Pro Circuit pipe on a 2024 300 SX and used 3rd gear in tight turns with a matching TD map.",
+   "confidence": "medium"
+  },
+  {
+   "variants": "Stainless/aluminum/stainless.",
+   "supporting_parts": "Not compatible with the stock head pipe (needs a Pro Circuit pipe).",
+   "rider_feedback": [],
+   "caveats": "Pass 1 (MXA, 2024) said no PC silencer was available for the TBI bikes; this listing shows one now. Retailer fitment list is truncated.",
+   "part_numbers": [
+    "Cycle Gear item P1046383 (retailer number; Pro Circuit MPN not shown)"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/pro-circuit-r-304-silencer-ktm-husqvarna-gas-gas-250cc-300cc-2023-2024",
+     "price_if_stated": 195.97,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-pc-r304-silencer-tbi",
+   "category": "exhaust",
+   "subcategory": "silencer 2-stroke",
+   "brand": "Pro Circuit",
+   "product": "R-304 silencer, KTM/Husqvarna/GasGas 250-300 2023-2027",
+   "platform_ids": [
+    "ktm-2t-tbi-2023"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "300 SX",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "300 XC",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC250",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC300",
+     "years": [
+      2025,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TX300i",
+     "years": [
+      2023
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 300",
+     "years": [
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 250",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 300",
+     "years": [
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/pro-circuit-r-304-silencer-ktm-husqvarna-gas-gas-250cc-300cc-2023-2024",
+   "what_it_changes": "Pro Circuit claim: short full-race canister, less back pressure, sharper throttle response and more low-to-mid power.",
+   "confidence": "medium"
+  },
+  {
+   "variants": "Longer 6061 aluminum canister, stainless intake tube and end cap.",
+   "supporting_parts": "Stock head pipe compatibility not stated.",
+   "rider_feedback": [],
+   "caveats": "Pro Circuit MPN not shown.",
+   "part_numbers": [
+    "Cycle Gear item P1046385 (retailer number)"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/pro-circuit-304-silencer-ktm-husqvarna-gas-gas-250cc-300cc-2023-2024",
+     "price_if_stated": 195.65,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-pc-304-silencer-tbi",
+   "category": "exhaust",
+   "subcategory": "silencer 2-stroke",
+   "brand": "Pro Circuit",
+   "product": "304 silencer, KTM/Husqvarna/GasGas 250-300 2023-2027",
+   "platform_ids": [
+    "ktm-2t-tbi-2023"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "300 SX",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "300 XC",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC250",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC300",
+     "years": [
+      2025,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TX300i",
+     "years": [
+      2023
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 300",
+     "years": [
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 250",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 300",
+     "years": [
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/pro-circuit-304-silencer-ktm-husqvarna-gas-gas-250cc-300cc-2023-2024",
+   "what_it_changes": "Pro Circuit claim: more top-end power and lower noise than the R-304.",
+   "confidence": "medium"
+  },
+  {
+   "variants": "AKDQ carbon steel, 5.8 lb. Platinum version: 0852312 (listed as KTM 125 SX 2023-2025, USD 352.95 at JJ Motorsports).",
+   "supporting_parts": "None listed.",
+   "rider_feedback": [],
+   "caveats": "Husqvarna TC 125 / GasGas MC 125 not listed by this retailer. Not for the 2027 EFI 125 unless confirmed.",
+   "part_numbers": [
+    "0752312"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "JJ Motorsports",
+     "url": "https://jj-motorsports.com/pro-circuit-works-pipe-0752312/",
+     "price_if_stated": 337.95,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-pc-works-125-2023",
+   "category": "exhaust",
+   "subcategory": "expansion chamber 2-stroke",
+   "brand": "Pro Circuit",
+   "product": "Works Pipe, KTM 125 SX 2023-2024",
+   "platform_ids": [
+    "p2-125-150-2t-2023"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "Works Pipe 0752312"
+    },
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Platinum Pipe 0852312, per related-item title"
+    }
+   ],
+   "fitment_source_url": "https://jj-motorsports.com/pro-circuit-works-pipe-0752312/",
+   "what_it_changes": "Retailer copy: performance gains from better flow. No dyno figures.",
+   "confidence": "medium"
+  },
+  {
+   "variants": "",
+   "supporting_parts": "Matching Pro Circuit 304 silencer for 85cc 2025 (p2-pc-304-silencer-85-2025).",
+   "rider_feedback": [],
+   "caveats": "Price not displayed (tag suggests USD 300-349). 2026 fitment not stated. Separate from the 2018-2024 85 Works Pipe 0761985.",
+   "part_numbers": [
+    "RevZilla UPC 1168444 (retailer number)"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "RevZilla",
+     "url": "https://www.revzilla.com/dirt-bike/pro-circuit-works-pipe-ktm-husqvarna-gas-gas-85cc-2025",
+     "price_if_stated": null,
+     "currency": null,
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-pc-works-85-2025",
+   "category": "exhaust",
+   "subcategory": "expansion chamber 2-stroke",
+   "brand": "Pro Circuit",
+   "product": "Works Pipe, KTM/Husqvarna/GasGas 85cc 2025",
+   "platform_ids": [
+    "p2-85-2025"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX",
+     "years": [
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 85",
+     "years": [
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 85",
+     "years": [
+      2025
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.revzilla.com/dirt-bike/pro-circuit-works-pipe-ktm-husqvarna-gas-gas-85cc-2025",
+   "what_it_changes": "Retailer copy: more usable power. No dyno figures.",
+   "confidence": "medium"
+  },
+  {
+   "variants": "Stainless.",
+   "supporting_parts": "",
+   "rider_feedback": [],
+   "caveats": "Price ambiguous on page (possibly USD 195.65).",
+   "part_numbers": [
+    "RevZilla UPC 1168446 (retailer number)"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "RevZilla",
+     "url": "https://www.revzilla.com/dirt-bike/pro-circuit-304-silencer-ktm-gas-gas-husqvarna-85cc-2025",
+     "price_if_stated": null,
+     "currency": null,
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-pc-304-silencer-85-2025",
+   "category": "exhaust",
+   "subcategory": "silencer 2-stroke",
+   "brand": "Pro Circuit",
+   "product": "304 Silencer, KTM/GasGas/Husqvarna 85cc 2025",
+   "platform_ids": [
+    "p2-85-2025"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX",
+     "years": [
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 85",
+     "years": [
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 85",
+     "years": [
+      2025
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.revzilla.com/dirt-bike/pro-circuit-304-silencer-ktm-gas-gas-husqvarna-85cc-2025",
+   "what_it_changes": "No specific claim captured.",
+   "confidence": "medium"
+  },
+  {
+   "variants": "",
+   "supporting_parts": "",
+   "rider_feedback": [],
+   "caveats": "Year range differs between retailers (2018-2022 vs 2018-2024).",
+   "part_numbers": [
+    "0761985"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "JJ Motorsports",
+     "url": "https://jj-motorsports.com/pro-circuit-works-pipe-0752312/",
+     "price_if_stated": 304.16,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-pc-works-85-2018-2024",
+   "category": "exhaust",
+   "subcategory": "expansion chamber 2-stroke",
+   "brand": "Pro Circuit",
+   "product": "Works Pipe, KTM 85 SX 2018-2024",
+   "platform_ids": [
+    "ktm-85-2018-2024"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX",
+     "years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "JJ Motorsports related-item title; RevZilla/Cycle Gear list a KTM/Husqvarna/GasGas 85cc 2018-2022 version"
+    }
+   ],
+   "fitment_source_url": "https://jj-motorsports.com/pro-circuit-works-pipe-0752312/",
+   "what_it_changes": "No claim captured.",
+   "confidence": "medium"
+  },
+  {
+   "variants": "19-gauge carbon steel; made in USA.",
+   "supporting_parts": "",
+   "rider_feedback": [],
+   "caveats": "URL slug says 'works pipe' but title says Bill's Pipes MX2. No SKU.",
+   "part_numbers": [],
+   "where_to_buy": [
+    {
+     "seller": "Faster Minis",
+     "url": "https://faster-minis.com/products/ktm-85-sx-2025-2026-works-pipe",
+     "price_if_stated": 299.99,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-bills-mx2-85-2025",
+   "category": "exhaust",
+   "subcategory": "expansion chamber 2-stroke",
+   "brand": "Bill's Pipes",
+   "product": "MX2 exhaust pipe, KTM 85SX/105SX, TC85, MC85 2025-2026",
+   "platform_ids": [
+    "p2-85-2025"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX / 105 SX",
+     "years": [
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 85 / TC 105",
+     "years": [
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 85 / MC 105",
+     "years": [
+      2025,
+      2026
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://faster-minis.com/products/ktm-85-sx-2025-2026-works-pipe",
+   "what_it_changes": "Seller claim: strong power across the rpm range.",
+   "confidence": "medium"
+  },
+  {
+   "variants": "Aluminum canister (black anodized or polished), 304 stainless header with boost chamber; FS header only works with S7/S7R silencers.",
+   "supporting_parts": "S7R mid-section slides onto header without OE gasket.",
+   "rider_feedback": [],
+   "caveats": "No model years; platform assignment (2023+) is inferred from GasGas MC 350F being listed. Which SKU is which generation is unknown.",
+   "part_numbers": [
+    "DEPTFS29",
+    "DEPTFS28 (variant, not explained)"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "CMG Motorcycles (NZ)",
+     "url": "https://store.cmgmotorcycles.co.nz/products/full-exhaust-system-dep-gas-gas-mc250f-mc350f-husqvarna-fc250-fc350-ktm-250-sx-f-350-sx-f",
+     "price_if_stated": 1499.95,
+     "currency": "NZD",
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-dep-s7r-full-250-350",
+   "category": "exhaust",
+   "subcategory": "full system 4-stroke",
+   "brand": "DEP",
+   "product": "Full exhaust system (S7R), GasGas MC250F/MC350F, Husqvarna FC250/FC350, KTM 250/350 SX-F",
+   "platform_ids": [
+    "ktm-4t-mx-2023"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX-F / 350 SX-F",
+     "years": [],
+     "notes": "years not given"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250 / FC 350",
+     "years": [],
+     "notes": "years not given"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F / MC 350F",
+     "years": [],
+     "notes": "years not given"
+    }
+   ],
+   "fitment_source_url": "https://store.cmgmotorcycles.co.nz/products/full-exhaust-system-dep-gas-gas-mc250f-mc350f-husqvarna-fc250-fc350-ktm-250-sx-f-350-sx-f",
+   "what_it_changes": "DEP claim: better than OE power curve while meeting noise rules; header boost chamber reduces noise and improves mid and peak power.",
+   "confidence": "unverified"
+  },
+  {
+   "variants": "Image filename shows 'DEPT4229' (not confirmed as SKU).",
+   "supporting_parts": "DEP S7/S7R silencer (FS header) per DEP general notes.",
+   "rider_feedback": [],
+   "caveats": "Page had no price or description.",
+   "part_numbers": [],
+   "where_to_buy": [
+    {
+     "seller": "Firestorm Motorcycles (AU)",
+     "url": "https://www.firestormmotorcycles.com.au/ktm-450-sx-f-2023-2024-dep-4-stroke-header-exhaust",
+     "price_if_stated": null,
+     "currency": null,
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-dep-header-450-2023",
+   "category": "exhaust",
+   "subcategory": "header 4-stroke",
+   "brand": "DEP",
+   "product": "DEP 4-stroke header pipe, KTM 450 SX-F 2023-2024",
+   "platform_ids": [
+    "ktm-4t-mx-2023"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.firestormmotorcycles.com.au/ktm-450-sx-f-2023-2024-dep-4-stroke-header-exhaust",
+   "what_it_changes": "No claim on page.",
+   "confidence": "unverified"
+  },
+  {
+   "variants": "Image filename shows 'XT-123-H00-3' (not confirmed as SKU).",
+   "supporting_parts": "",
+   "rider_feedback": [],
+   "caveats": "No price/SKU on page.",
+   "part_numbers": [],
+   "where_to_buy": [
+    {
+     "seller": "Firestorm Motorcycles (AU)",
+     "url": "https://www.firestormmotorcycles.com.au/ktm-125-sx-2023-2025-hgs-werx-2-stroke-expansion-c",
+     "price_if_stated": null,
+     "currency": null,
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-hgs-werx-125-2023",
+   "category": "exhaust",
+   "subcategory": "expansion chamber 2-stroke",
+   "brand": "HGS",
+   "product": "HGS Werx 2-stroke expansion chamber, KTM 125 SX 2023-2025",
+   "platform_ids": [
+    "p2-125-150-2t-2023"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.firestormmotorcycles.com.au/ktm-125-sx-2023-2025-hgs-werx-2-stroke-expansion-c",
+   "what_it_changes": "No claim on page.",
+   "confidence": "unverified"
+  },
+  {
+   "variants": "Oil-injected 2024-2025 TBI models use V4X26AM-I instead (page not loaded; from search title).",
+   "supporting_parts": "",
+   "rider_feedback": [],
+   "caveats": "Resolves pass-1 gap only partly: TBI fitment is stated generically; MX models (SX/TC/MC premix TBI) vs oil-injected XC-W/TE split needs Finder check.",
+   "part_numbers": [
+    "V4X26AM"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "Moto Tassinari",
+     "url": "https://mototassinari.com/vforce4x/v4x26am.html",
+     "price_if_stated": 165.0,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-vforce-v4x26am-tbi",
+   "category": "intake",
+   "subcategory": "reed valve",
+   "brand": "Moto Tassinari (VForce4X)",
+   "product": "VFORCE4X V4X26AM reed valve",
+   "platform_ids": [
+    "ktm-2t-tbi-2023",
+    "p2-125-150-2t-2023"
+   ],
+   "fits": [
+    {
+     "make": "KTM / Husqvarna / GasGas",
+     "model": "TBI fuel-injected 125/150/250/300",
+     "years": [],
+     "notes": "Maker says 'fits all fuel-injected TPI and TBI models' but not 2024-2025 TBI oil-injected models; use the Finder to confirm"
+    }
+   ],
+   "fitment_source_url": "https://mototassinari.com/vforce4x/v4x26am.html",
+   "what_it_changes": "Maker claim: more durable and overcomes shortcomings of the stock reed system. No data given.",
+   "confidence": "medium"
+  },
+  {
+   "variants": "",
+   "supporting_parts": "",
+   "rider_feedback": [],
+   "caveats": "Own page returned a server error; fitment from the sibling page only.",
+   "part_numbers": [
+    "V4X26AM-I"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "Moto Tassinari",
+     "url": "https://mototassinari.com/vforce4x/v4x26am-i.html",
+     "price_if_stated": null,
+     "currency": null,
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-vforce-v4x26am-i",
+   "category": "intake",
+   "subcategory": "reed valve",
+   "brand": "Moto Tassinari (VForce4X)",
+   "product": "V4X26AM-I VFORCE4X reed valve for GasGas, Husqvarna and KTM TBI oil-injected models",
+   "platform_ids": [
+    "ktm-2t-tbi-2023"
+   ],
+   "fits": [
+    {
+     "make": "KTM / Husqvarna / GasGas",
+     "model": "TBI oil-injected 2024-2025",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": "per V4X26AM page; mostly XC-W/TE/EX/EC enduro models, some may be in scope"
+    }
+   ],
+   "fitment_source_url": "https://mototassinari.com/vforce4x/v4x26am.html",
+   "what_it_changes": "",
+   "confidence": "unverified"
+  },
+  {
+   "variants": "",
+   "supporting_parts": "Gaskets included.",
+   "rider_feedback": [],
+   "caveats": "Covers the 2025 new-gen 85 per maker; 2026 not listed.",
+   "part_numbers": [
+    "V4R85A"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "Moto Tassinari",
+     "url": "https://mototassinari.com/v4r85a.html",
+     "price_if_stated": 175.0,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-vforce-v4r85a",
+   "category": "intake",
+   "subcategory": "reed valve",
+   "brand": "Moto Tassinari (VForce4R)",
+   "product": "VFORCE4R V4R85A reed valve, GasGas/KTM/Husqvarna 85cc",
+   "platform_ids": [
+    "p2-85-2025",
+    "ktm-85-2018-2024"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX / 105 SX",
+     "years": [
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 85",
+     "years": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 85",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://mototassinari.com/v4r85a.html",
+   "what_it_changes": "Maker claim: more bottom end, stronger midrange, longer top end; double reed tip surface halves petal travel; longer petal life; screw-free cage.",
+   "confidence": "high"
+  },
+  {
+   "variants": "'H' = higher-tension petal for high-revving carbureted bikes.",
+   "supporting_parts": "Gasket included.",
+   "rider_feedback": [],
+   "caveats": "Whether it fits 2023-2026 carbureted 125/150 SX was not confirmed.",
+   "part_numbers": [
+    "V4R26H"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "Moto Tassinari",
+     "url": "https://mototassinari.com/vforce4/motorcycle/gasgas/v4r26h.html",
+     "price_if_stated": 175.0,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-vforce-v4r26h",
+   "category": "intake",
+   "subcategory": "reed valve",
+   "brand": "Moto Tassinari (VForce4R)",
+   "product": "V4R26H reed valve (high-tension petals) for carbureted KTM/Husqvarna/GasGas 125/150/250",
+   "platform_ids": [
+    "p2-125-150-2t-2023"
+   ],
+   "fits": [
+    {
+     "make": "KTM / Husqvarna / GasGas",
+     "model": "125/150/250 carbureted",
+     "years": [],
+     "notes": "years and models not listed; maker says use the Parts Finder"
+    }
+   ],
+   "fitment_source_url": "https://mototassinari.com/vforce4/motorcycle/gasgas/v4r26h.html",
+   "what_it_changes": "Maker claim: more bottom end, stronger midrange, longer top end; less petal wear.",
+   "confidence": "unverified"
+  },
+  {
+   "variants": "Legacy: green (mild), yellow (stock 250/300), red (hard hit). Mule Four adds a progressive steel spring. Options with KTM/HQV or Beta adjusting tool. USD 10.95-24.90.",
+   "supporting_parts": "Optional adjusting wrench.",
+   "rider_feedback": [],
+   "caveats": "Does NOT list 2023+ TBI SX/XC or 2023+ 125 SX; useful only for 2020-2022 MX bikes in scope. 2023+ TBI PV spring options remain a gap.",
+   "part_numbers": [],
+   "where_to_buy": [
+    {
+     "seller": "Slavens Racing",
+     "url": "https://slavensracing.com/shop/power-valve-tuning-kit/",
+     "price_if_stated": null,
+     "currency": "USD (range 10.95-24.90)",
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-slavens-pv-tuning-kit",
+   "category": "engine",
+   "subcategory": "power valve springs",
+   "brand": "Slavens Racing (Mule)",
+   "product": "Power Valve Tuning Kit (Legacy 3-spring and Mule Four 4-spring)",
+   "platform_ids": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125/150 SX",
+     "years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "250/300 SX/XC/XC-W (incl. TPI)",
+     "years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "listed from 1996"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC/TX/TE 250/300",
+     "years": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX/EC 250/300",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://slavensracing.com/shop/power-valve-tuning-kit/",
+   "what_it_changes": "Seller: changes power delivery via power-valve spring rate.",
+   "confidence": "medium"
+  },
+  {
+   "variants": "6 or 8 oz.",
+   "supporting_parts": "Flywheel puller (sold separately).",
+   "rider_feedback": [],
+   "caveats": "Not listed for 150 SX 2023+ or 2026+ 125. Same page lists SO935 (9/11 oz) for 2023-25 TBI 250/300 SX/XC, TC/TX, 2024-25 GasGas MC/EX (pass 1 had it as 935-7/9/11 from another seller; weight options differ).",
+   "part_numbers": [
+    "SO936 (6 oz / 8 oz)"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "Slavens Racing",
+     "url": "https://slavensracing.com/shop/flywheel-weight-for-ktm-husaberg-husqvarna-250300-by-steahly/",
+     "price_if_stated": null,
+     "currency": "USD (range 149.95-169.95)",
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-steahly-so936-125",
+   "category": "engine",
+   "subcategory": "flywheel weight",
+   "brand": "Steahly Off Road",
+   "product": "Steahly flywheel weight SO936, KTM/Husqvarna/GasGas 125",
+   "platform_ids": [
+    "p2-125-150-2t-2023"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX / 125 XC",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://slavensracing.com/shop/flywheel-weight-for-ktm-husaberg-husqvarna-250300-by-steahly/",
+   "what_it_changes": "Seller: reduces stalling, more traction, easier-to-use power. Guide: ~7 oz fast riders, 10 oz intermediates, 13 oz casual.",
+   "confidence": "medium"
+  },
+  {
+   "variants": "7, 9 or 11 oz. Older 85s (2003-2017): SO910.",
+   "supporting_parts": "Flywheel puller.",
+   "rider_feedback": [],
+   "caveats": "2025 listed; 2025 85 has new Hidria CDI, so confirm rotor compatibility with seller.",
+   "part_numbers": [
+    "SO934 (7/9/11 oz)"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "Slavens Racing",
+     "url": "https://slavensracing.com/shop/flywheel-weight-for-ktm-husaberg-husqvarna-250300-by-steahly/",
+     "price_if_stated": null,
+     "currency": "USD (range 149.95-169.95)",
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-steahly-so934-85",
+   "category": "engine",
+   "subcategory": "flywheel weight",
+   "brand": "Steahly Off Road",
+   "product": "Steahly flywheel weight SO934, 85 SX / TC 85 / MC 85",
+   "platform_ids": [
+    "p2-85-2025",
+    "ktm-85-2018-2024"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX",
+     "years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 85",
+     "years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 85",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://slavensracing.com/shop/flywheel-weight-for-ktm-husaberg-husqvarna-250300-by-steahly/",
+   "what_it_changes": "Seller: reduces stalling, adds traction, smoother power.",
+   "confidence": "medium"
+  },
+  {
+   "variants": "Related Rekluse 85 parts from Oro2u titles.",
+   "supporting_parts": "",
+   "rider_feedback": [],
+   "caveats": "Not listed for 2025+ new-gen 85.",
+   "part_numbers": [
+    "RMS-7113051",
+    "RMS-2813051 (TorqDrive clutch pack)",
+    "750-13051 (CMTD replacement pack)",
+    "RMS-7913051 (RadiusCX kit)",
+    "751-13051 (RadiusCX pack)",
+    "RMS-0413051 (clutch cover)"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "Oro2u (UK, trade only)",
+     "url": "https://www.oro2u.com/clutch-kit-core-manual-torq-drive-14-24-gas-mc-85-husq-tc-ktm-sx-rekluse-rms-7113051",
+     "price_if_stated": 1001.81,
+     "currency": "GBP (retail)",
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-rekluse-cmtd-85-2014-2024",
+   "category": "clutch",
+   "subcategory": "manual clutch kit",
+   "brand": "Rekluse",
+   "product": "Core Manual TorqDrive clutch kit, GasGas MC 85 / Husqvarna TC 85 / KTM 85 SX",
+   "platform_ids": [
+    "ktm-85-2018-2024"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX 17/14 and 19/16",
+     "years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 85",
+     "years": [
+      2014,
+      2015,
+      2016,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 85",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.oro2u.com/clutch-kit-core-manual-torq-drive-14-24-gas-mc-85-husq-tc-ktm-sx-rekluse-rms-7113051",
+   "what_it_changes": "Rekluse claim: less fade, consistent lever feel, more torque capacity without stiffer springs.",
+   "confidence": "medium"
+  },
+  {
+   "variants": "Fixed-pin hub, billet pressure plate, TorqDrive pack, basket sleeves, two spring sets, billet cover.",
+   "supporting_parts": "",
+   "rider_feedback": [],
+   "caveats": "Title says 2018-2021 though year dropdown shows to 2027; 2022+ and 2025 new-gen not confirmed.",
+   "part_numbers": [
+    "RMS-7413051"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "Rekluse",
+     "url": "https://www.rekluse.com/product/manual-clutches/apex/rekluse-apex-clutch-gasgas-mc-85-husqvarna-tc-85-ktm-85-sx/",
+     "price_if_stated": 899.0,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-rekluse-apex-85",
+   "category": "clutch",
+   "subcategory": "manual clutch kit",
+   "brand": "Rekluse",
+   "product": "APEX-TD clutch, GasGas MC 85 / Husqvarna TC 85 / KTM 85 SX",
+   "platform_ids": [
+    "ktm-85-2018-2024"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX 17/14, 19/16",
+     "years": [
+      2018,
+      2019,
+      2020,
+      2021
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 85",
+     "years": [
+      2018,
+      2019,
+      2020,
+      2021
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 85",
+     "years": [
+      2021
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.rekluse.com/product/manual-clutches/apex/rekluse-apex-clutch-gasgas-mc-85-husqvarna-tc-85-ktm-85-sx/",
+   "what_it_changes": "Rekluse claim: smoother lever pull, more power to the wheel, no basket notching, cooler running.",
+   "confidence": "high"
+  },
+  {
+   "variants": "44T-50T; blue, orange, purple, silver; 7075-T6.",
+   "supporting_parts": "Chain length may change with large tooth swaps.",
+   "rider_feedback": [],
+   "caveats": "Retailer extends the old pattern to 2027, implying the 2025 new-gen 85 kept the sprocket bolt pattern; confirm with Renthal.",
+   "part_numbers": [
+    "Cycle Gear item P356637 (retailer number; Renthal numbers by tooth not shown)"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/renthal-ultralight-rear-aluminum-sprocket-ktm-husqvarna-gas-gas-85cc-105cc-2004-2024",
+     "price_if_stated": 94.47,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-renthal-ultralight-rear-85",
+   "category": "drivetrain",
+   "subcategory": "rear sprocket",
+   "brand": "Renthal",
+   "product": "Ultralight rear aluminum sprocket, KTM/Husqvarna/GasGas 85cc-105cc",
+   "platform_ids": [
+    "p2-85-2025",
+    "ktm-85-2018-2024"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX 17/14 and 19/16",
+     "years": [
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 85 17/14 and 19/16",
+     "years": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 85 17/14 and 19/16",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/renthal-ultralight-rear-aluminum-sprocket-ktm-husqvarna-gas-gas-85cc-105cc-2004-2024",
+   "what_it_changes": "Gearing change by tooth count; lighter than steel.",
+   "confidence": "medium"
+  },
+  {
+   "variants": "Front 1.6x19, rear 1.85x16; CNC 6082 hubs (orange), black Excel rims; complete with bearings and tube.",
+   "supporting_parts": "",
+   "rider_feedback": [],
+   "caveats": "Conflicting year headings; axle size not stated. Sold out.",
+   "part_numbers": [],
+   "where_to_buy": [
+    {
+     "seller": "Radmoto USA",
+     "url": "https://radmotousa.com/products/kke-19-16-kids-big-wheels-with-takasago-excel-rims-fit-for-ktm-85-sx-2025",
+     "price_if_stated": 799.0,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-kke-wheels-85sx-2025",
+   "category": "wheels",
+   "subcategory": "wheel set",
+   "brand": "KKE Racing",
+   "product": "KKE 19/16 big wheels with Takasago Excel rims, KTM 85 SX 2025",
+   "platform_ids": [
+    "p2-85-2025"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX 19/16",
+     "years": [
+      2025
+     ],
+     "notes": "page also carries a 2021-2024 heading, conflicting"
+    }
+   ],
+   "fitment_source_url": "https://radmotousa.com/products/kke-19-16-kids-big-wheels-with-takasago-excel-rims-fit-for-ktm-85-sx-2025",
+   "what_it_changes": "Replacement/upgrade wheel set; uses OEM disc and sprocket.",
+   "confidence": "unverified"
+  },
+  {
+   "variants": "",
+   "supporting_parts": "",
+   "rider_feedback": [],
+   "caveats": "No part number or price found. MXA tested an MX-Tech-modified shock on a 2025 85 (pass-1 rider feedback).",
+   "part_numbers": [],
+   "where_to_buy": [],
+   "id": "p2-wp-xact-pro-cartridge-85",
+   "category": "suspension",
+   "subcategory": "fork cartridge kit",
+   "brand": "WP (KTM PowerParts)",
+   "product": "WP XACT PRO COMPONENTS cartridge kit for 85 SX",
+   "platform_ids": [
+    "p2-85-2025"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX",
+     "years": [
+      2025
+     ],
+     "notes": "mentioned in KTM 85 SX media kit"
+    }
+   ],
+   "fitment_source_url": "https://www.ktm.com/en-int/85-sx-media-kit.html",
+   "what_it_changes": "Upgrade for the stock WP XACT AER 43 air fork (KTM gives no specifics).",
+   "confidence": "unverified"
+  },
+  {
+   "variants": "",
+   "supporting_parts": "On bikes without it as standard (e.g. 2024 GasGas 4T per pass 1), wiring to the diagnostic port is needed; Vortex sells an adapter harness for its ECU.",
+   "rider_feedback": [
+    {
+     "source": "Vital MX forum",
+     "author": "Cory128 and others",
+     "date": "2023-04-17 to 2023-08-29",
+     "summary": "On a 2023 KTM the switch stuck in white map, TC light flashed, quickshift would not engage, later random map changes and a stall. Checking/greasing connectors and a dealer reset helped briefly; replacing the switch fixed it. Others suggested water in the under-seat diagnostic port or chafed wires behind the number plate.",
+     "conditions": "2023 KTM (model not confirmed, probably 4-stroke)",
+     "url": "https://www.vitalmx.com/comment/5571221"
+    }
+   ],
+   "caveats": "Part number from a third-party listing only; not checked on a KTM parts catalog. Husqvarna and GasGas OEM numbers not found.",
+   "part_numbers": [
+    "A46039074000"
+   ],
+   "where_to_buy": [],
+   "id": "p2-ktm-sxf23-handlebar-switch",
+   "category": "controls",
+   "subcategory": "map switch / handlebar switch",
+   "brand": "KTM (OEM)",
+   "product": "KTM SX-F 2023 handlebar map switch",
+   "platform_ids": [
+    "p2-map-switch-4t-2023"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "SX-F",
+     "years": [
+      2023
+     ],
+     "notes": "named by Vortex/TokyoMods as the 'KTM SXF23 handlebar switch'; also retrofit to KTM/Husky/GasGas with Vortex ECU-8H2 and harness"
+    }
+   ],
+   "fitment_source_url": "https://tokyomods.com/shop/vortex/vortex-ecus/vortex-ecus-switches/vortex-adapter-harness-for-ktm-sxf-2023-oem-handlebar-switch/",
+   "what_it_changes": "Map select, launch control, traction control and quickshift on/off.",
+   "confidence": "medium"
+  },
+  {
+   "variants": "",
+   "supporting_parts": "Vortex ECU-8H2 (PN not listed); KTM switch A46039074000 (not included).",
+   "rider_feedback": [],
+   "caveats": "Shows a Vortex ECU-8H2 exists for KTM-group bikes (pass 1 found none), but MX model coverage not confirmed.",
+   "part_numbers": [
+    "55-205-KTMSXF23"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "TokyoMods",
+     "url": "https://tokyomods.com/shop/vortex/vortex-ecus/vortex-ecus-switches/vortex-adapter-harness-for-ktm-sxf-2023-oem-handlebar-switch/",
+     "price_if_stated": 69.95,
+     "currency": "USD",
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-vortex-sxf23-switch-harness",
+   "category": "fuel_ecu",
+   "subcategory": "map switch adapter harness",
+   "brand": "Vortex",
+   "product": "Vortex adapter harness for KTM SX-F 2023 OEM handlebar switch",
+   "platform_ids": [
+    "p2-map-switch-4t-2023"
+   ],
+   "fits": [
+    {
+     "make": "KTM / Husqvarna / GasGas",
+     "model": "models running Vortex ECU-8H2",
+     "years": [],
+     "notes": "listing shows KTM 350/500 EXC, Husqvarna FE350/FE501 (enduro); MX fitment not stated"
+    }
+   ],
+   "fitment_source_url": "https://tokyomods.com/shop/vortex/vortex-ecus/vortex-ecus-switches/vortex-adapter-harness-for-ktm-sxf-2023-oem-handlebar-switch/",
+   "what_it_changes": "Lets the KTM SX-F 2023 switch run map select, launch, TC and quickshift through a Vortex ECU-8H2.",
+   "confidence": "medium"
+  },
+  {
+   "variants": "",
+   "supporting_parts": "Bike must have a CDI/ECU with stored curves (owner's manual).",
+   "rider_feedback": [],
+   "caveats": "Not confirmed for 2023+ TBI (those come with a green/white map switch as standard; TBI part number not found). Older 4T switch 77239974200 is 2012-2016 only.",
+   "part_numbers": [
+    "51539974200",
+    "supersedes 51539974000, 51539974100, 54839074000, 54839074100"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "MotoSport",
+     "url": "https://www.motosport.com/ktm-powerparts-map-switch-2stroke",
+     "price_if_stated": 103.99,
+     "currency": "USD",
+     "date": "2026-10-14"
+    },
+    {
+     "seller": "MotorcycleSpareParts.eu",
+     "url": "https://motorcyclespareparts.eu/en/ktm-parts/51539974200",
+     "price_if_stated": 100.0,
+     "currency": "USD ex VAT",
+     "date": "2026-10-14"
+    }
+   ],
+   "id": "p2-ktm-2t-map-switch-515",
+   "category": "controls",
+   "subcategory": "map switch (2-stroke ignition curve)",
+   "brand": "KTM PowerParts / Husqvarna OEM",
+   "product": "Map Switch 2-stroke (ignition curve on the handlebar)",
+   "platform_ids": [
+    "ktm-2t-tpi-carb-2019-2022"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250/300 EXC / XC-W TPI and Six Days, Erzbergrodeo",
+     "years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "MSP listing; enduro"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC/TC/TE/TX/FE/FX (55 models)",
+     "years": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "MSP Husqvarna listing; exact models/years not itemised"
+    }
+   ],
+   "fitment_source_url": "https://www.motorcyclespareparts.eu/en/husqvarna-parts/51539974200",
+   "what_it_changes": "Switches between two ignition curves from the handlebar on bikes with pre-programmed curves.",
+   "confidence": "medium"
+  },
+  {
+   "variants": "KTM kit is A46014986088EB (pass 1).",
+   "supporting_parts": "Free app; mounts on the GPS front fender.",
+   "rider_feedback": [],
+   "caveats": "Husqvarna/GasGas part numbers not found. 4-stroke only.",
+   "part_numbers": [],
+   "where_to_buy": [
+    {
+     "seller": "Authorised dealers (RRP per Enduro21)",
+     "url": "https://enduro21.com/en/products-reviews/latest/quick-look-2023-2024-ktm-sx-f-and-xc-f-connectivity-unit-offroad",
+     "price_if_stated": 249.99,
+     "currency": "USD",
+     "date": "undated article"
+    }
+   ],
+   "id": "p2-cuo-husqvarna-gasgas",
+   "category": "fuel_ecu",
+   "subcategory": "connectivity unit",
+   "brand": "KTM group (Husqvarna / GasGas Technical Accessories)",
+   "product": "Connectivity Unit Offroad (CUO), Husqvarna and GasGas versions",
+   "platform_ids": [
+    "ktm-4t-mx-2023"
+   ],
+   "fits": [
+    {
+     "make": "Husqvarna",
+     "model": "4T MX/XC (FC/FX)",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "Enduro21: 'equivalent GASGAS and Husqvarna 4T MX and XC models'"
+    },
+    {
+     "make": "GasGas",
+     "model": "4T MX/XC (MC-F/EX-F)",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "same source"
+    }
+   ],
+   "fitment_source_url": "https://enduro21.com/en/products-reviews/latest/quick-look-2023-2024-ktm-sx-f-and-xc-f-connectivity-unit-offroad",
+   "what_it_changes": "Via the app: traction control levels, engine braking, throttle response, launch control, quickshift, track presets, sag assistant; lap data needs a subscription.",
+   "confidence": "unverified"
+  }
+ ],
+ "gaps": [
+  "Arrow: only road/WSS exhausts found for KTM; no Arrow MX (SX-F) product found.",
+  "SC-Project: only road KTM (Duke/890/1290) products found; no MX product.",
+  "Doma, Rocket, Twisted Development (pipe), Scalvini: searches returned nothing for 2023+ KTM-group MX bikes.",
+  "DEP: full system DEPTFS29/28 has no model years; 450 header has no SKU.",
+  "FMF 450 Factory 4.1 RCT full-system part numbers for 2023+ not confirmed (collection page blocked). FMF 2023+ 125 pipe part number not found. Titanium PowerCore 2.1 Shorty 025255 fitment not read (page blocked).",
+  "Pro Circuit: Husqvarna/GasGas fitment for Platinum 0852325 not read; Pro Circuit MPNs for R-304/304 TBI silencers not shown (retailer numbers only).",
+  "Boyesen reeds/RAD valve for 2023+ TBI or 125: nothing found.",
+  "Power valve springs for 2023+ TBI 250/300 and 2023+ 125/150: no product listing found (Slavens kit stops at 2022 SX/TC).",
+  "Head/porting services for TBI: no specific service found in searches.",
+  "Remap services beyond Twisted Development (pass 1): none found; 2027 125 SX EFI aftermarket (pipes, ECU) not found.",
+  "85 SX 2025+: no confirmed 20 mm rear axle wheels with SKU; no suspension kit part numbers; no controls (bars, levers, pegs) or triple clamp parts; Rekluse lists nothing for 2025+; Husqvarna TC 85/GasGas MC 85 platform sharing only implied by aftermarket listings.",
+  "Map switches: Husqvarna and GasGas OEM numbers for the 2023+ 4T switch, and any OEM number for the 2023+ TBI 2-stroke green/white switch, not found. GasGas 2024 MC-F retrofit kit number not found.",
+  "Extra rider feedback found for a pass-1 product: SwapMoto Live tested the Yoshimura RS-12 Ti full system on a 2023 KTM 450 SX-F (USD 1,299): softened bottom hit at first, later judged controllable roll-on power and strong pull; called it better than stock (https://www.swapmotolive.com/?p=153259)."
+ ],
+ "not_done": [
+  "Search budget (about 35) used.",
+  "Fetch fmfracing.com 450 SX-F 2023 Factory 4.1 collection (blocked) to get 450 full-system numbers.",
+  "Fetch FMF 045682/045683 product pages for full fitment.",
+  "Moto Tassinari parts finder for SX/TC/MC TBI and 2023-2026 125/150 SX reed fitment.",
+  "Pro Circuit site for MPNs and Husqvarna/GasGas fitment (TBI and 85 2025).",
+  "KTM Direct 85 SX 2025 PowerParts listing (triple clamps, wheels, pegs) and Teknik/MX-Tech 85 suspension parts.",
+  "Transmoto how-to on fitting a 2T map switch (not read).",
+  "2027 125 SX EFI aftermarket support."
+ ]
+}
