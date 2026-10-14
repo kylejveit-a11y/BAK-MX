@@ -105,7 +105,7 @@ for pl in platforms:
     k=esc(pl.get('description'))[:80]
     if k in seen: continue
     seen.add(k); L.append(f"| {esc(pl.get('description'))[:220]} | {esc(pl.get('models_years'))[:220]} | [link]({pl.get('source_url')}) |")
-FEED=('ktt-','cg-','lng-','tri-')
+FEED=('ktt-','cg-','lng-','tri-','ms-')
 isfeed=lambda p:str(p['id']).startswith(FEED)
 feed=[p for p in products if isfeed(p)]
 if feed:

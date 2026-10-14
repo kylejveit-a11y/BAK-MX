@@ -9,6 +9,8 @@ Stage 2, per unique product (after each make's bikes): the product page's breadc
 retailer item number and the manufacturer product number, the "Fitment Notes & Exceptions" text and the first part of the
 description -> outdir/products/<slug>.json
 
+A bike whose later listing page fails after three tries is not saved, so a re-run reads it again.
+
 robots.txt (cyclegear.com) allows /motorcycle/ and /parts/ pages and asks for a crawl delay of 1 s; this crawler waits
 1.1 s between requests, uses one connection and resumes from the files already written."""
 import html,json,os,re,subprocess,sys,time
@@ -41,7 +43,10 @@ def crawl_bike(make,model,year,url):
     seen={};page=1
     while page<=80:
         h=get(url+(f'?page={page}' if page>1 else ''))
-        if not h: break
+        if not h:
+            if page>1:  # a later page failed after retries: keep nothing so the next run reads this bike again
+                print('bike',make,model,year,'page',page,'failed; not saved',flush=True); return list(seen.values())
+            break
         t=tiles(h); new=[x for x in t if x['slug'] not in seen]
         for x in new: seen[x['slug']]=x
         if not new: break
