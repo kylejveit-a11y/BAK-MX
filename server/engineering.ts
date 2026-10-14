@@ -7,6 +7,7 @@ import type {Bike,Claim,EngineeringResponse,Message} from '../shared/types.ts';
 import {HttpError} from './validation.ts';
 import {getMechanismLibrary} from '../shared/mechanisms.ts';
 import {setupKnowledge} from '../shared/setup-knowledge.ts';
+import {manufacturerSetupGuidance} from '../shared/manufacturer-setup-guidance.ts';
 
 /** Ask BAK answer path.
  *  1. plan     – a small call names the published facts to look up (never blocks the answer)
@@ -14,7 +15,7 @@ import {setupKnowledge} from '../shared/setup-knowledge.ts';
  *  3. answer   – one call writes the reply; every factual claim carries a confidence tier
  *  4. check    – code verifies citations and exact published values; one repair attempt, then an honest failure
  *  A backup model is tried when the provider fails. Model names come only from configuration. */
-export const PROMPT_VERSION='mx-engineering-13';
+export const PROMPT_VERSION='mx-engineering-14';
 
 /** How solid a claim is. PUBLISHED must cite retrieved evidence; nothing may be presented above its real tier. */
 export const TIERS=['PUBLISHED','RIDER_SAVED','ENGINEERING','GENERAL','COMMUNITY','UNKNOWN'] as const;
@@ -29,6 +30,7 @@ export function buildEngineeringInput(bike:Bike|null,history:Message[],claims:Cl
   authored_hypotheses:getMechanismLibrary(),
   setup_knowledge:setupKnowledge(),
   bike:bike?{...bike,configuration:usConfiguration(bike.configuration)}:null,
+  ...(bike&&manufacturerSetupGuidance(bike)?{manufacturer_setup_guidance:manufacturerSetupGuidance(bike)}:{}),
   ...(bike?{}:{no_build:'The rider chose to ask without a build. There is no saved bike and no published evidence for this question. Follow NO BUILD SELECTED.'}),
   reviewed_workshop:bike?workshopContext(bike,history,message):null,
   conversation:history.map(m=>({role:m.role,content:m.response??m.content})),
@@ -139,7 +141,7 @@ Do not show claim ids (c1, c2 ...) or any internal identifier to the rider; name
 data_gaps: list any published data that was missing and would have improved this reply, one short line each. Empty when nothing was missing.
 
 SETUP REASONING
-For setup and handling questions reason from setup_knowledge: match what the rider describes to the symptom guides by meaning, not exact words; confirm the before_you_tune checks that matter for that symptom; use the rider's own tell-tale details to choose between likely causes. Clicker positions are counted out from lightly seated; fewer clicks out means more damping. Do not state a total click range unless evidence gives one. authored_hypotheses are general mechanisms, not a verified diagnosis.
+For setup and handling questions reason from setup_knowledge: match what the rider describes to the symptom guides by meaning, not exact words; confirm the before_you_tune checks that matter for that symptom; use the rider's own tell-tale details to choose between likely causes. When manufacturer_setup_guidance is present it is the bike maker's own published symptom table for this exact bike: for stock suspension prefer its direction where it covers the rider's symptom, say it comes from the owner's service manual, and where it differs from setup_knowledge follow the manufacturer and mention the other possibility in one line. Clicker positions are counted out from lightly seated; fewer clicks out means more damping. Do not state a total click range unless evidence gives one. authored_hypotheses are general mechanisms, not a verified diagnosis.
 
 SAFETY
 The rider makes every change by hand. Diagnose a fault before tuning around it, and never blame technique while a fault remains unresolved. Do not recommend running a bike with abnormal mechanical noise, oil loss, unsafe brakes, uncontrolled throttle or severe overheating, and do not advise opening a hot pressurised cooling or fuel system. Lean two-stroke jetting that pings or detonates is a stop condition. Keep safety proportionate: one clear line when it matters, not a checklist.

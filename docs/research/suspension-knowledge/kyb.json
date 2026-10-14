@@ -1,0 +1,806 @@
+{
+  "brand": "KYB",
+  "fitment": [
+    {
+      "make": "Yamaha",
+      "model": "YZ450F",
+      "years": "2025",
+      "fork": "KYB spring-type (coil) inverted fork with speed-sensitive damping, fully adjustable; 12.2 in travel",
+      "shock": "KYB single shock, fully adjustable; 12.4 in travel",
+      "notes": "Yamaha US spec page. Fork diameter not stated on page.",
+      "source_url": "https://yamahamotorsports.com/models/25-yz450f/specs",
+      "confidence": "verified"
+    },
+    {
+      "make": "Yamaha",
+      "model": "YZ450F",
+      "years": "2027",
+      "fork": "Carryover KYB coil SSS fork (no significant changes reported)",
+      "shock": "Carryover KYB shock",
+      "notes": "PulpMX 2027 Yamaha model report: YZ450F receives no significant changes for 2027.",
+      "source_url": "https://pulpmx.com/?p=179813",
+      "confidence": "plausible"
+    },
+    {
+      "make": "Yamaha",
+      "model": "YZ450F",
+      "years": "2020 vs 2024",
+      "fork": "Upside-down telescopic fork, 310 mm travel (both years)",
+      "shock": "Monoshock with linkage; 317 mm travel (2020), 315 mm travel (2024)",
+      "notes": "1000PS comparison; brand not named on that page but Yamaha US pages name KYB for current generation.",
+      "source_url": "https://www.1000ps.com/en-gb/comparison/360790/yamaha-yz450f-2024-vs-yamaha-yz450f-2020",
+      "confidence": "verified"
+    },
+    {
+      "make": "Yamaha",
+      "model": "YZ450F",
+      "years": "2018 (reference, out of range)",
+      "fork": "KYB SSS fork, 5.0 N/mm stock spring per tester",
+      "shock": "KYB shock",
+      "notes": "Out of model-year scope; kept only as reference for SSS stock spring heritage (Keefer test of Enzo parts).",
+      "source_url": "https://www.keeferinctesting.com/?p=13046",
+      "confidence": "verified"
+    },
+    {
+      "make": "Yamaha",
+      "model": "YZ250F",
+      "years": "2025",
+      "fork": "KYB Speed-Sensitive System (SSS) inverted fork, fully adjustable; 12.2 in travel",
+      "shock": "KYB single shock, fully adjustable; 12.3 in travel",
+      "notes": "Yamaha US spec page.",
+      "source_url": "https://yamahamotorsports.com/models/25-yz250f/specs",
+      "confidence": "verified"
+    },
+    {
+      "make": "Yamaha",
+      "model": "YZ250F",
+      "years": "2024",
+      "fork": "Revised fully adjustable KYB SSS coil fork with tool-free compression knob; 12.2 in travel",
+      "shock": "Linkage-assisted fully adjustable KYB shock with revised settings; 12.3 in travel",
+      "notes": "New YZ450F-based frame for 2024; suspension retuned for it.",
+      "source_url": "https://ultimatemotorcycling.com/2023/07/26/2024-yamaha-yz250f-first-look-8-fast-facts-20-photos-specs/",
+      "confidence": "verified"
+    },
+    {
+      "make": "Yamaha",
+      "model": "YZ250F",
+      "years": "2026",
+      "fork": "KYB coil fork; Keefer baseline 4.7 N/mm spring",
+      "shock": "KYB shock; Keefer baseline 54 N/mm (rear spring dropped from 56 N/mm in 2025 due to new linkage)",
+      "notes": "Keefer Inc 2026 250 MX baseline settings; rates are recommended baselines for 140-180 lb riders, not necessarily stock.",
+      "source_url": "https://www.keeferinctesting.com/?p=29823",
+      "confidence": "plausible"
+    },
+    {
+      "make": "Yamaha",
+      "model": "YZ250F",
+      "years": "2027",
+      "fork": "KYB coil-spring fork, fully adjustable, revised settings specific to YZ250F",
+      "shock": "New high-performance KYB shock with improved damping and new hand-operated low-speed compression clicker",
+      "notes": "2027 update reported by PulpMX; frame geometry matches YZ450F.",
+      "source_url": "https://pulpmx.com/?p=179813",
+      "confidence": "verified"
+    },
+    {
+      "make": "Yamaha",
+      "model": "YZ125",
+      "years": "2026",
+      "fork": "KYB Speed-Sensitive System inverted fork, fully adjustable; 11.8 in travel",
+      "shock": "KYB single shock, fully adjustable; 12.4 in travel",
+      "notes": "Yamaha US spec page.",
+      "source_url": "https://yamahamotorsports.com/models/26-yz125/specs",
+      "confidence": "verified"
+    },
+    {
+      "make": "Yamaha",
+      "model": "YZ250",
+      "years": "2025",
+      "fork": "KYB speed-sensitive inverted fork, fully adjustable; 11.8 in travel",
+      "shock": "KYB single shock, fully adjustable; 12.4 in travel",
+      "notes": "Yamaha US spec page.",
+      "source_url": "https://yamahamotorsports.com/models/25-yz250/specs",
+      "confidence": "verified"
+    },
+    {
+      "make": "Yamaha",
+      "model": "YZ250",
+      "years": "2023",
+      "fork": "KYB speed-sensitive inverted fork, fully adjustable; 11.8 in travel",
+      "shock": "KYB single shock, fully adjustable; 12.4 in travel",
+      "notes": "Yamaha US spec page.",
+      "source_url": "https://yamahamotorsports.com/models/23-yz250/specs",
+      "confidence": "verified"
+    },
+    {
+      "make": "Yamaha",
+      "model": "YZ125X",
+      "years": "2025",
+      "fork": "KYB speed-sensitive inverted fork, fully adjustable; 11.8 in travel",
+      "shock": "KYB single shock, fully adjustable; 12.4 in travel",
+      "notes": "Yamaha US spec page; XC/enduro-specific settings.",
+      "source_url": "https://yamahamotorsports.com/models/25-yz125x/specs",
+      "confidence": "verified"
+    },
+    {
+      "make": "Yamaha",
+      "model": "YZ250X",
+      "years": "2026",
+      "fork": "KYB SSS inverted fork, fully adjustable; 11.8 in travel",
+      "shock": "KYB single shock, fully adjustable; 12.4 in travel",
+      "notes": "Yamaha US spec page.",
+      "source_url": "https://yamahamotorsports.com/models/26-yz250x/specs",
+      "confidence": "verified"
+    },
+    {
+      "make": "Yamaha",
+      "model": "YZ250X",
+      "years": "2024",
+      "fork": "KYB SSS 48 mm coil-spring fork, adj. compression/rebound; 11.8 in travel; stock spring 4.3 (N/mm, printed as 'Nm')",
+      "shock": "KYB shock, 50 mm piston, adj. preload, HS/LS compression, rebound; 12.4 in travel; stock spring 48 (N/mm, printed as 'Nm')",
+      "notes": "Dirt Rider technical info: rates softer than YZ250, off-road-specific damping. Unit label on source is 'Nm', interpreted as N/mm.",
+      "source_url": "https://www.dirtrider.com/dirt-bikes/yamaha-yz250x-technical-information",
+      "confidence": "verified"
+    },
+    {
+      "make": "Yamaha",
+      "model": "YZ250FX",
+      "years": "2026",
+      "fork": "KYB spring-type fork with speed-sensitive damping, fully adjustable; 11.8 in travel",
+      "shock": "KYB single shock, fully adjustable; 12.0 in travel",
+      "notes": "Yamaha US spec page.",
+      "source_url": "https://yamahamotorsports.com/models/26-yz250fx/specs",
+      "confidence": "verified"
+    },
+    {
+      "make": "Yamaha",
+      "model": "YZ250FX",
+      "years": "2025",
+      "fork": "Fully adjustable KYB SSS inverted fork with tool-free compression adjustment; 11.8 in travel (0.5 in less than 2024)",
+      "shock": "Fully adjustable linkage KYB shock; 12.0 in travel (0.4 in less than 2024)",
+      "notes": "New aluminum frame for 2025; suspension reworked.",
+      "source_url": "https://ultimatemotorcycling.com/2024/07/15/2025-yamaha-yz250fx-first-look-9-fast-facts/",
+      "confidence": "verified"
+    },
+    {
+      "make": "Yamaha",
+      "model": "YZ250FX",
+      "years": "2024",
+      "fork": "Fully adjustable KYB fork with speed-sensitive damping; 12.2 in travel",
+      "shock": "Fully adjustable KYB single shock; 12.5 in travel",
+      "notes": "Yamaha US spec page (previous-generation chassis).",
+      "source_url": "https://yamahamotorsports.com/models/24-yz250fx/specs",
+      "confidence": "verified"
+    },
+    {
+      "make": "Yamaha",
+      "model": "YZ450FX",
+      "years": "2026",
+      "fork": "KYB spring-type fork with speed-sensitive damping, fully adjustable; 11.8 in travel",
+      "shock": "KYB single shock, fully adjustable; 12.0 in travel",
+      "notes": "Yamaha US spec page.",
+      "source_url": "https://yamahamotorsports.com/models/26-yz450fx/specs",
+      "confidence": "verified"
+    },
+    {
+      "make": "Yamaha",
+      "model": "YZ450FX",
+      "years": "2023",
+      "fork": "KYB spring-type fork with speed-sensitive damping, fully adjustable; 12.2 in travel",
+      "shock": "KYB single shock, fully adjustable; 12.5 in travel",
+      "notes": "Yamaha US spec page (previous-generation chassis). Year of travel change between 2023 and 2026 not confirmed.",
+      "source_url": "https://yamahamotorsports.com/models/23-yz450fx/specs",
+      "confidence": "verified"
+    },
+    {
+      "make": "Yamaha",
+      "model": "WR250F",
+      "years": "2026",
+      "fork": "KYB spring-type fork with speed-sensitive damping, fully adjustable; 11.8 in travel",
+      "shock": "KYB single shock, fully adjustable; 12.0 in travel",
+      "notes": "Yamaha US spec page.",
+      "source_url": "https://yamahamotorsports.com/models/26-wr250f/specs",
+      "confidence": "verified"
+    },
+    {
+      "make": "Yamaha",
+      "model": "WR250F",
+      "years": "2023",
+      "fork": "KYB SSS inverted fork, fully adjustable; 12.2 in travel",
+      "shock": "KYB single shock, fully adjustable; 12.5 in travel",
+      "notes": "Yamaha US spec page (previous-generation chassis).",
+      "source_url": "https://yamahamotorsports.com/models/23-wr250f/specs",
+      "confidence": "verified"
+    },
+    {
+      "make": "Yamaha",
+      "model": "WR450F",
+      "years": "2026",
+      "fork": "KYB spring-type fork with speed-sensitive damping, fully adjustable; 11.8 in travel",
+      "shock": "KYB single shock, fully adjustable; 12.0 in travel",
+      "notes": "Yamaha US spec page.",
+      "source_url": "https://yamahamotorsports.com/models/26-wr450f/specs",
+      "confidence": "verified"
+    },
+    {
+      "make": "Yamaha",
+      "model": "WR450F",
+      "years": "2020",
+      "fork": "Kayaba (KYB) inverted fork, fully adjustable",
+      "shock": "Single shock, fully adjustable; 12.5 in (318 mm) travel",
+      "notes": "Wikipedia generation summary for 2019-2020; fork diameter/travel not given there.",
+      "source_url": "https://en.wikipedia.org/wiki/Yamaha_WR450F",
+      "confidence": "plausible"
+    },
+    {
+      "make": "Triumph",
+      "model": "TF 250-X",
+      "years": "2024",
+      "fork": "KYB AOS 48 mm closed-cartridge coil-spring fork, adj. compression/rebound; 12.2 in travel; standard spring 4.7 (N/mm) both legs; optional 4.5, 4.6, 4.8, 4.9; fork height 5 mm std",
+      "shock": "KYB shock, adj. preload, HS/LS compression, rebound; 12.0 in travel; standard spring 56 (N/mm) for ~165-185 lb riders",
+      "notes": "Dirt Rider technical overview prints rates with 'Nm' label; interpreted as N/mm.",
+      "source_url": "https://www.dirtrider.com/dirt-bikes/triumph-tf-250-x-technical-overview-2024/",
+      "confidence": "verified"
+    },
+    {
+      "make": "Triumph",
+      "model": "TF 250-X",
+      "years": "2025",
+      "fork": "KYB 48 mm (1.88 in) USD AOS coil-spring fork, compression/rebound adj.; 310 mm travel",
+      "shock": "KYB coil shock with unique hollow mount, HS/LS compression and rebound adj.; 305 mm travel",
+      "notes": "Triumph model page MY25.",
+      "source_url": "https://www.triumphmotorcycles.com/motorcycles/off-road/motocross/tf-250-x-2025",
+      "confidence": "verified"
+    },
+    {
+      "make": "Triumph",
+      "model": "TF 250-X",
+      "years": "2026",
+      "fork": "KYB AOS 48 mm closed-cartridge coil fork; 12.2 in travel; spring 4.7 per caption",
+      "shock": "KYB shock; 12.0 in travel; spring 56 per caption",
+      "notes": "Dirt Rider says 'updated suspension settings' for 2026 without specifics. Keefer 2026 baseline: fork 4.7, shock 56, 103 mm sag.",
+      "source_url": "https://dirtrider.com/dirt-bikes/triumph-tf-250-x-technical-overview",
+      "confidence": "verified"
+    },
+    {
+      "make": "Triumph",
+      "model": "TF 450-RC Edition",
+      "years": "2025",
+      "fork": "KYB 48 mm AOS coil-spring fork, compression/rebound adj.; 310 mm travel",
+      "shock": "KYB coil 3-way piggyback shock, HS/LS compression and rebound adj.; 305 mm travel",
+      "notes": "Triumph spec page MY25; spring rates not published there.",
+      "source_url": "https://www.triumphmotorcycles.com/motorcycles/off-road/motocross/specification",
+      "confidence": "verified"
+    },
+    {
+      "make": "Triumph",
+      "model": "TF 450-X",
+      "years": "2026",
+      "fork": "KYB 48 mm AOS closed-cartridge coil-spring fork, adj. compression/rebound; 310 mm (12.2 in) travel",
+      "shock": "KYB 3-way adjustable piggyback coil shock (preload, HS/LS comp, rebound); 305 mm (12.0 in) travel",
+      "notes": "Triumph press release: KYB settings carry over from TF 450-RC Edition. Spring rates not published.",
+      "source_url": "https://triumph-mediakits.com/en/news-articles/triumph-launches-new-tf-450-x-for-2026-pure.-focused.-performance.html",
+      "confidence": "verified"
+    },
+    {
+      "make": "Triumph",
+      "model": "TF 250-C / TF 450-C",
+      "years": "2026 (MY26 per image filenames; on sale Oct 2025)",
+      "fork": "KYB 48 mm AOS coil fork, compression/rebound adj.; 310 mm travel",
+      "shock": "KYB coil shock, HS/LS compression and rebound adj.; 305 mm travel",
+      "notes": "Cross-country models with 'new settings in the KYB suspension' vs X models; rates not published.",
+      "source_url": "https://enduro21.com/en/bikes/latest/first-look-triumph-tf-250-c-tf-450-c-cross-country-models",
+      "confidence": "verified"
+    },
+    {
+      "make": "Triumph",
+      "model": "TF 250-E / TF 450-E",
+      "years": "2026",
+      "fork": "KYB 48 mm (1.89 in) coil-spring fork, compression/rebound adj.; 300 mm (11.81 in) travel",
+      "shock": "Linked KYB coil shock, HS/LS compression and rebound adj.; 313 mm (12.32 in) travel",
+      "notes": "Triumph enduro spec page; both models share suspension.",
+      "source_url": "https://www.triumphmotorcycles.com/motorcycles/off-road/enduro/specification",
+      "confidence": "verified"
+    },
+    {
+      "make": "Kawasaki",
+      "model": "KX250",
+      "years": "2020",
+      "fork": "KYB 48 mm inverted dual coil-spring fork, fully adjustable (replaced Showa SFF); 31.5 cm travel (Kawasaki LA sheet; brand not named there)",
+      "shock": "KYB shock, linkage (Uni-Trak), separate HS/LS compression; 31.5 cm travel",
+      "notes": "Stiffer spring rates than prior model per MXA; rates not stated.",
+      "source_url": "https://www.cyclenews.com/2019/07/article/2020-kawasaki-kx250-first-review/",
+      "confidence": "verified"
+    },
+    {
+      "make": "Kawasaki",
+      "model": "KX250",
+      "years": "2024 (50th Anniversary Edition)",
+      "fork": "KYB inverted fork; 12.4 in (315 mm) travel",
+      "shock": "Uni-Trak single shock; 12.4 in (315 mm) travel",
+      "notes": "motorcycle.com spec listing names KYB. Standard 2024 KX250 page was not reachable but presumed same.",
+      "source_url": "https://www.motorcycle.com/specs/kawasaki/off-road/2024/kx/250-50th-anniversary-edition/detail.html",
+      "confidence": "verified"
+    },
+    {
+      "make": "Kawasaki",
+      "model": "KX250",
+      "years": "2021-2023, 2025-2027",
+      "fork": "Presumed KYB 48 mm coil fork (carryover)",
+      "shock": "Presumed KYB shock",
+      "notes": "Not directly confirmed for each year. Keefer says 2026 KX250 unchanged from 2025 (baseline fork 5.0, shock 54) but does not name brand.",
+      "source_url": "https://www.keeferinctesting.com/?p=29429",
+      "confidence": "unverified"
+    },
+    {
+      "make": "Kawasaki",
+      "model": "KX250X",
+      "years": "2021",
+      "fork": "KYB inverted fork; 12.4 in (315 mm) travel",
+      "shock": "Uni-Trak single shock; 12.4 in (315 mm) travel",
+      "notes": "motorcycle.com spec listing names KYB. Later KX250X years presumed same but not checked.",
+      "source_url": "https://www.motorcycle.com/specs/kawasaki/off-road/2021/kx/250x/detail.html",
+      "confidence": "verified"
+    },
+    {
+      "make": "Kawasaki",
+      "model": "KX450 (EXCLUDED - Showa)",
+      "years": "2020-2024+",
+      "fork": "Showa 49 mm coil-spring fork (A-Kit technology)",
+      "shock": "Showa shock (Uni-Trak)",
+      "notes": "Not KYB; out of scope for this KYB catalog.",
+      "source_url": "https://motocrossactionmag.com/amp/2020-kawasaki-kx250-all-new-kx450-kx100-kx85-kx65",
+      "confidence": "verified"
+    },
+    {
+      "make": "Kawasaki",
+      "model": "KX450X (EXCLUDED - Showa)",
+      "years": "2024",
+      "fork": "Showa inverted fork; 12 in travel",
+      "shock": "Uni-Trak single shock; 12.1 in travel",
+      "notes": "Not KYB; out of scope.",
+      "source_url": "https://www.motorcycle.com/specs/kawasaki/off-road/2024/kx/450x/detail.html",
+      "confidence": "verified"
+    }
+  ],
+  "manuals": [
+    {
+      "title": "Yamaha Owner's Manual Library (YZ/WR owner's and owner's service manuals)",
+      "covers": "Yamaha US manual library; redirects to library.ymcapps.net. Coverage of YZ Owner's Service Manual (includes fork/shock disassembly, spring options) not confirmed because the redirected page could not be fetched.",
+      "access": "free/public (library); OSM coverage unverified",
+      "url": "https://www.yamahamotorsports.com/yamaha-manuals"
+    },
+    {
+      "title": "Yamaha Motor Europe Owner Manuals",
+      "covers": "Owner manuals for Yamaha products; JS-rendered, YZ OSM coverage not confirmed.",
+      "access": "free/public (coverage unverified)",
+      "url": "https://www.yamaha-motor.eu/gb/en/service-support/owner-manuals/"
+    },
+    {
+      "title": "KYB AOS Closed Cartridge Fork Service Manual (Beta USA, 06-2025)",
+      "covers": "Disassembly/assembly of KYB AOS closed-cartridge 48 mm fork (Beta application): cartridge, outer, oil volumes (outer 320-340 cc, cartridge 215 cc, Motul 5wt for Beta), torques, lowering. Same AOS family as Triumph TF forks; values are Beta-specific.",
+      "access": "free/public PDF (dealer-oriented)",
+      "url": "https://betausa.com/content/Suspension%20KYB%20AOS%20manual%20final.pdf"
+    },
+    {
+      "title": "KYB Offroad MX Competition Suspension Service Manual - English (KYB P/N 150340000201)",
+      "covers": "KYB MX suspension service workbook; model coverage not stated on retailer page.",
+      "access": "paid (retail)",
+      "url": "https://www.teknikmotorsport.com/150340000201-KYB-servicing-workbook-motocross-english"
+    },
+    {
+      "title": "Pro Circuit suspension service forms (Yamaha YZ125/250, YZ250F/450F; Kawasaki; Triumph TF250-X, TF450-RC)",
+      "covers": "Service intake forms, not technical manuals.",
+      "access": "free/public",
+      "url": "https://www.procircuit.com/suspension-services"
+    },
+    {
+      "title": "Triumph TF owner's handbook",
+      "covers": "Triumph model page references the owner's manual; no public download link found.",
+      "access": "unverified (likely supplied with bike / dealer)",
+      "url": "https://www.triumphmotorcycles.com/motorcycles/off-road/motocross/tf-250-x-2025"
+    }
+  ],
+  "parts": [
+    {
+      "category": "fork_spring",
+      "name": "Triumph TF 250-X standard fork spring",
+      "part_number": null,
+      "spec": "4.7 N/mm (printed 'Nm'), both legs",
+      "fits": "Triumph TF 250-X 2024",
+      "source_url": "https://www.dirtrider.com/dirt-bikes/triumph-tf-250-x-technical-overview-2024/",
+      "confidence": "verified"
+    },
+    {
+      "category": "fork_spring",
+      "name": "Triumph TF 250-X optional fork springs",
+      "part_number": null,
+      "spec": "4.5 / 4.6 (lighter), 4.8 / 4.9 (heavier) N/mm",
+      "fits": "Triumph TF 250-X 2024",
+      "source_url": "https://www.dirtrider.com/dirt-bikes/triumph-tf-250-x-technical-overview-2024/",
+      "confidence": "verified"
+    },
+    {
+      "category": "shock_spring",
+      "name": "Triumph TF 250-X standard shock spring",
+      "part_number": null,
+      "spec": "56 N/mm (printed 'Nm'); suits ~165-185 lb riders",
+      "fits": "Triumph TF 250-X 2024-2026",
+      "source_url": "https://www.dirtrider.com/dirt-bikes/triumph-tf-250-x-technical-overview-2024/",
+      "confidence": "verified"
+    },
+    {
+      "category": "fork_spring",
+      "name": "Yamaha YZ250X stock fork spring",
+      "part_number": null,
+      "spec": "4.3 N/mm (printed 'Nm')",
+      "fits": "Yamaha YZ250X 2024",
+      "source_url": "https://www.dirtrider.com/dirt-bikes/yamaha-yz250x-technical-information",
+      "confidence": "verified"
+    },
+    {
+      "category": "shock_spring",
+      "name": "Yamaha YZ250X stock shock spring",
+      "part_number": null,
+      "spec": "48 N/mm (printed 'Nm')",
+      "fits": "Yamaha YZ250X 2024",
+      "source_url": "https://www.dirtrider.com/dirt-bikes/yamaha-yz250x-technical-information",
+      "confidence": "verified"
+    },
+    {
+      "category": "shock_spring",
+      "name": "Yamaha YZ250F shock spring (rate change)",
+      "part_number": null,
+      "spec": "56 N/mm in 2025 -> 54 N/mm baseline 2026 with new linkage (Keefer baseline; stock not explicitly stated)",
+      "fits": "Yamaha YZ250F 2025-2026",
+      "source_url": "https://www.keeferinctesting.com/?p=29823",
+      "confidence": "plausible"
+    },
+    {
+      "category": "fork_spring",
+      "name": "Yamaha YZ250F baseline fork spring",
+      "part_number": null,
+      "spec": "4.7 N/mm (Keefer baseline)",
+      "fits": "Yamaha YZ250F 2026",
+      "source_url": "https://www.keeferinctesting.com/?p=29823",
+      "confidence": "plausible"
+    },
+    {
+      "category": "fork_spring",
+      "name": "Kawasaki KX250 baseline fork spring",
+      "part_number": null,
+      "spec": "5.0 N/mm (Keefer baseline; not stated as stock)",
+      "fits": "Kawasaki KX250 2025-2026",
+      "source_url": "https://www.keeferinctesting.com/?p=29429",
+      "confidence": "plausible"
+    },
+    {
+      "category": "shock_spring",
+      "name": "Kawasaki KX250 baseline shock spring",
+      "part_number": null,
+      "spec": "54 N/mm, 104-105 mm sag (Keefer baseline)",
+      "fits": "Kawasaki KX250 2025-2026",
+      "source_url": "https://www.keeferinctesting.com/?p=29429",
+      "confidence": "plausible"
+    },
+    {
+      "category": "oil",
+      "name": "KYB 01M fork oil 1 quart",
+      "part_number": "130010010101",
+      "spec": "Genuine KYB; listed for SSS, AOS, PSF1/PSF2 and cartridge forks; viscosity not stated",
+      "fits": "KYB SSS/AOS forks (Yamaha YZ/WR, Triumph TF, KX250)",
+      "source_url": "https://speedaddicts.com/motorcycle/kyb-01m-fork-oil-1-quart-130010010101",
+      "confidence": "verified"
+    },
+    {
+      "category": "oil",
+      "name": "KYB 01M fork oil 1 gallon",
+      "part_number": "130010050101",
+      "spec": "Genuine KYB 01M",
+      "fits": "KYB SSS/AOS forks",
+      "source_url": "https://speedaddicts.com/motorcycle/kyb-01m-fork-oil-1-gal-130010050101",
+      "confidence": "plausible"
+    },
+    {
+      "category": "oil",
+      "name": "KYB 01M fork oil 5 L",
+      "part_number": "130030010101",
+      "spec": "Genuine KYB 01M (retailer listing title)",
+      "fits": "KYB forks",
+      "source_url": "https://www.teknikmotorsport.com/130030010101-KYB-fork-fluid-oil-01m-official-suspension-lubricants",
+      "confidence": "unverified"
+    },
+    {
+      "category": "oil",
+      "name": "KYB 01M superseded by 02M",
+      "part_number": null,
+      "spec": "Retailer title states 01M 1 L 'replaced with 02M'; 02M part number not given",
+      "fits": "KYB forks",
+      "source_url": "https://www.drivos.com/en/products/kyb-front-fork-kyb-oil-01m-1l-replaced-with-02m",
+      "confidence": "unverified"
+    },
+    {
+      "category": "seal_kit",
+      "name": "KYB front fork oil and dust seal set 48 mm",
+      "part_number": "117774800201",
+      "spec": "48 mm oil + dust seal set; $46.11",
+      "fits": "Title: KYB 05-09 Kawasaki/Suzuki, 05+ Yamaha, TM (no model list; 2020+ fitment not confirmed)",
+      "source_url": "https://www.happy-trail.com/kyb-powersports-kyb-05-09-kawasaki-suzuki-05-yamaha-tm-front-fork-oil-and-dust-seal-set-48-mm-117774800201.html",
+      "confidence": "unverified"
+    },
+    {
+      "category": "seal_kit",
+      "name": "KYB fork oil seal/service kit",
+      "part_number": "110014800102",
+      "spec": "Listed with in/out metal bushings, oil seal, dust seal; $25.95",
+      "fits": "KYB 48 mm (no fitment list)",
+      "source_url": "https://www.speedaddicts.com/motorcycle/kyb-fork-oil-seal-110014800102",
+      "confidence": "unverified"
+    },
+    {
+      "category": "seal_kit",
+      "name": "SKF fork seal kit 48 mm KYB (one seal + one wiper; order 2)",
+      "part_number": "KITG-48K",
+      "spec": "$39.99; bushings sold separately",
+      "fits": "KYB 48 mm coil forks (no model list on page)",
+      "source_url": "https://www.speedaddicts.com/motorcycle/skf-fork-seal-kit-48mm-kitg-48k",
+      "confidence": "plausible"
+    },
+    {
+      "category": "seal_kit",
+      "name": "SKF seal kit KYB 48 mm air forks",
+      "part_number": "KITG-48K-PSF",
+      "spec": "For KYB PSF air forks - NOT for in-scope coil forks",
+      "fits": "KYB PSF air forks (not in scope)",
+      "source_url": "https://speedaddicts.com/motorcycle/skf-seal-kit-kyb-48mm-air-forks-kitg-48k-psf",
+      "confidence": "verified"
+    },
+    {
+      "category": "seal_kit",
+      "name": "SKF Dual Compound seal kit KYB 48 mm",
+      "part_number": "SKF-DUAL-48K (from URL slug)",
+      "spec": "Seal kit, contents not listed",
+      "fits": "KYB 48 mm forks",
+      "source_url": "https://teknikmotorsport.com/SKF-DUAL-48K-SKF-Dual-Compound-seal-Kit-KYB-48MM",
+      "confidence": "unverified"
+    },
+    {
+      "category": "seal_kit",
+      "name": "Parts Unlimited fork seals for Kayaba 48 mm tubes (NOK)",
+      "part_number": "PUP40FORK455123 / 0407-0036",
+      "spec": "48 x 58.12 x 8.5 mm, pair; $35.95",
+      "fits": "Listed fitment ends at older Yamaha (to 2013) / KX250 2007; 2020+ not listed",
+      "source_url": "https://www.denniskirk.com/parts-unlimited/fork-seals-for-kayaba-48mm-fork-tubes-0407-0036.p148706.prd/148706.sku",
+      "confidence": "unverified"
+    },
+    {
+      "category": "seal_kit",
+      "name": "Teknik Fork DIY overhaul seal & bush set, 48 mm KYB AOSS",
+      "part_number": "24-374-20 (image filename, unconfirmed)",
+      "spec": "Oil seals, dust wipers, inner/outer bushings for a pair",
+      "fits": "KYB 48 mm AOS forks (e.g., Triumph TF) - no model list",
+      "source_url": "https://www.teknikmotorsport.com/kyb-48-aos-motorbike-suspension-front-forks-rebuild-kit-seals-bushes-rings-consumables",
+      "confidence": "unverified"
+    },
+    {
+      "category": "bushing_kit",
+      "name": "All Balls Racing fork bushing kit Kawasaki KX250 / X / KX450SR 2020-2024",
+      "part_number": "UPC 1039155 (MPN not shown)",
+      "spec": "2 slider + 2 leg bushings, copper washers, O-rings, seal snap rings",
+      "fits": "Kawasaki KX250 2020-2024, KX250X",
+      "source_url": "https://www.revzilla.com/motorcycle/all-balls-racing-fork-bushing-kit-kawasaki-kx250-x-kx450sr-2020-2022",
+      "confidence": "plausible"
+    },
+    {
+      "category": "bushing_kit",
+      "name": "All Balls Racing fork bushing kit Kawasaki/Suzuki/Triumph/Yamaha 1999-2025",
+      "part_number": "UPC 1037540",
+      "spec": "2 slider + 2 leg bushings, washers, O-rings, snap rings; ~$53.75",
+      "fits": "Title only; model-level fitment not shown",
+      "source_url": "https://www.revzilla.com/motorcycle/all-balls-racing-fork-bushing-kit-kawasaki-suzuki-triumph-yamaha-1999-2024",
+      "confidence": "unverified"
+    },
+    {
+      "category": "seal_kit",
+      "name": "Pivot Works fork rebuild kit Kawasaki KX250 2020-2024",
+      "part_number": "UPC 989017",
+      "spec": "Seals, wipers, etc.; ~$109.92",
+      "fits": "Kawasaki KX250 2020-2024 (title; slug says 2020-2022)",
+      "source_url": "https://www.revzilla.com/motorcycle/pivot-works-fork-rebuild-kit-kawasaki-kx250-2020-2022",
+      "confidence": "plausible"
+    },
+    {
+      "category": "seal",
+      "name": "KYB fork outer-tube oil seal retainer washer",
+      "part_number": "110770001001",
+      "spec": "Retainer washer",
+      "fits": "KYB forks (no model list)",
+      "source_url": "https://www.teknikmotorsport.com/110770001001-KYB-motorbike-suspension-front-forks-case-outside-tubes-oil-seals-washers",
+      "confidence": "unverified"
+    },
+    {
+      "category": "shock_part",
+      "name": "Enzo Technica reduced-volume bladder cap",
+      "part_number": null,
+      "spec": "Reduces gas chamber volume, Schrader valve; $88",
+      "fits": "2019 Yamaha YZ250F/YZ450F (2020+ fit unconfirmed)",
+      "source_url": "https://www.enzoracing.com/parts-accessories/",
+      "confidence": "unverified"
+    },
+    {
+      "category": "shock_part",
+      "name": "Enzo Technica works bottoming bumper kit",
+      "part_number": null,
+      "spec": "Conical bumper, cup, c-clip; $88",
+      "fits": "KYB YZF models",
+      "source_url": "https://www.enzoracing.com/parts-accessories/",
+      "confidence": "plausible"
+    },
+    {
+      "category": "shock_part",
+      "name": "Enzo Technica preload bracelet",
+      "part_number": null,
+      "spec": "Notched pinch-bolt preload lock; $80-88",
+      "fits": "Yamaha YZ250F/YZ450F 2014-on",
+      "source_url": "https://www.enzoracing.com/parts-accessories/",
+      "confidence": "verified"
+    },
+    {
+      "category": "fork_part",
+      "name": "Enzo front fork compression dials",
+      "part_number": null,
+      "spec": "Tool-less compression dials; $110 installed",
+      "fits": "All KYB AOS forks",
+      "source_url": "https://www.enzoracing.com/parts-accessories/",
+      "confidence": "verified"
+    }
+  ],
+  "upgrades": [
+    {
+      "vendor": "Enzo Racing",
+      "product": "Technica Spring Perches",
+      "fits": "KYB and Showa forks (incl. Yamaha SSS)",
+      "what_it_changes": "Restricts high-speed oil flow (SX focus); Keefer test on YZ450F improved lean-angle traction",
+      "price_if_stated": "$150/pair",
+      "url": "https://www.enzoracing.com/parts-accessories/",
+      "confidence": "verified"
+    },
+    {
+      "vendor": "Enzo Racing",
+      "product": "Technica Spring Tubes (secondary damping)",
+      "fits": "KYB/Showa 24 mm and 25 mm cartridges",
+      "what_it_changes": "Adds linear high-speed damping",
+      "price_if_stated": "$275",
+      "url": "https://www.enzoracing.com/parts-accessories/",
+      "confidence": "verified"
+    },
+    {
+      "vendor": "Enzo Racing",
+      "product": "Enzo Sub-Tank System",
+      "fits": "Front forks (brand unspecified; tested on Yamaha YZ450F KYB SSS)",
+      "what_it_changes": "Adds end-stroke damping via adjustable bleed",
+      "price_if_stated": "$450-$495 installed",
+      "url": "https://www.enzoracing.com/parts-accessories/",
+      "confidence": "verified"
+    },
+    {
+      "vendor": "Enzo Racing",
+      "product": "Technica Compression Adjusters (shock)",
+      "fits": "KYB and some Showa shocks",
+      "what_it_changes": "Wider piston face for traction",
+      "price_if_stated": "$275",
+      "url": "https://www.enzoracing.com/parts-accessories/",
+      "confidence": "verified"
+    },
+    {
+      "vendor": "Enzo Racing",
+      "product": "Polished & Kashima-coated KYB shock body",
+      "fits": "2019 Yamaha YZF models (2020+ unconfirmed)",
+      "what_it_changes": "Reduced friction body coating",
+      "price_if_stated": "$550",
+      "url": "https://www.enzoracing.com/parts-accessories/",
+      "confidence": "unverified"
+    },
+    {
+      "vendor": "Enzo Racing",
+      "product": "Replacement fork/shock springs (rate by consultation)",
+      "fits": "Front fork and rear shock",
+      "what_it_changes": "Spring rate for rider weight",
+      "price_if_stated": "$150/pair fork, $150 shock",
+      "url": "https://www.enzoracing.com/parts-accessories/",
+      "confidence": "verified"
+    },
+    {
+      "vendor": "Pro Circuit",
+      "product": "Suspension revalve / Stage service",
+      "fits": "Yamaha YZ125/250, YZ250F/450F; Kawasaki; Triumph TF250-X, TF450-RC",
+      "what_it_changes": "Revalve, spring selection, oil change/inspection",
+      "price_if_stated": "Quote only (2021 catalog shows Stage service from $235)",
+      "url": "https://www.procircuit.com/suspension-services",
+      "confidence": "verified"
+    },
+    {
+      "vendor": "Pro Circuit",
+      "product": "Works Shock Kits (CNC 6061 aluminum)",
+      "fits": "Most Showa, KYB and WP shocks; Yamaha page only lists '10 YZF450 (PC1900-0014, $124.95)",
+      "what_it_changes": "Anodized shock hardware/cosmetics",
+      "price_if_stated": "$124.95 (YZF450 '10 kit)",
+      "url": "https://www.procircuit.com/works-shock-yamaha.html",
+      "confidence": "verified"
+    },
+    {
+      "vendor": "Pro Circuit",
+      "product": "Linkage System '21 KX250 / '19-'21 KX450",
+      "fits": "Kawasaki KX250 2021",
+      "what_it_changes": "Revised linkage ratio for plusher feel and traction",
+      "price_if_stated": null,
+      "url": "https://www.procircuit.com/content/21_Pro_Circuit_Catalog_Low-Res.pdf",
+      "confidence": "verified"
+    },
+    {
+      "vendor": "Pro Circuit",
+      "product": "2021 KX250 A-Kit Shock",
+      "fits": "Kawasaki KX250 2021",
+      "what_it_changes": "KYB A-Kit factory-spec shock (pictured only)",
+      "price_if_stated": null,
+      "url": "https://www.procircuit.com/content/21_Pro_Circuit_Catalog_Low-Res.pdf",
+      "confidence": "plausible"
+    },
+    {
+      "vendor": "Factory Connection",
+      "product": "Fork / shock rebuild (basic pricing)",
+      "fits": "All models incl. KYB",
+      "what_it_changes": "Rebuild with fluids and wear parts as needed",
+      "price_if_stated": "Fork $160, shock $160, fluids $32/$22, wear parts $50-300",
+      "url": "https://factoryconnection.com/Rebuild-basicPricing",
+      "confidence": "verified"
+    },
+    {
+      "vendor": "Factory Connection",
+      "product": "2025 YZ450F R&D page (settings/revalve)",
+      "fits": "Yamaha YZ450F 2025",
+      "what_it_changes": "Model-specific setup/revalve info",
+      "price_if_stated": null,
+      "url": "https://factoryconnection.com/RD-2025YZ450F",
+      "confidence": "unverified"
+    },
+    {
+      "vendor": "Factory Connection",
+      "product": "Yamaha Pull Rod (black)",
+      "fits": "Yamaha (years not confirmed)",
+      "what_it_changes": "Replacement linkage pull rod (ratio change)",
+      "price_if_stated": null,
+      "url": "https://www.factoryconnection.com/Products-applications-PullRodYamahaBlack-18",
+      "confidence": "unverified"
+    },
+    {
+      "vendor": "Teknik Motorsport",
+      "product": "KYB Factory A-Kit forks/shocks and A-Kit parts",
+      "fits": "Listed in catalogs for 2024 YZ450F, Triumph TF 250-X, Kawasaki KX250F 2024",
+      "what_it_changes": "Factory racing-spec KYB suspension and parts",
+      "price_if_stated": null,
+      "url": "https://www.teknikmotorsport.com/bike-suspension-parts/kawasaki/kx250f/2024/?pgnum=22",
+      "confidence": "unverified"
+    },
+    {
+      "vendor": "Race Tech",
+      "product": "Gold Valve fork kits (FMGV series)",
+      "fits": "Cartridge forks; no in-scope 2020+ fitment confirmed (FMGV 2530 is for older Yamaha/Kawasaki)",
+      "what_it_changes": "Replaces compression/rebound pistons; moves control to shim stack",
+      "price_if_stated": "$170-$450 depending on kit",
+      "url": "https://www.jpcycles.com/product/220-0141/race-tech-gold-valve-fork-kit",
+      "confidence": "unverified"
+    }
+  ],
+  "gaps": [
+    "Web search budget was exhausted mid-task; Race Tech, Stillwell, Factory Connection product-application pages, KYB USA and Rocky Mountain (bot-blocked) could not be queried further.",
+    "Yamaha YZ/WR Owner's Service Manual (OSM) spring tables (standard and optional fork/shock spring rates with Yamaha part numbers) were not retrieved; library.ymcapps.net redirect required approval and timed out.",
+    "Stock spring rates for YZ125, YZ250, YZ250F (stock), YZ450F, YZ125X, YZ250FX, YZ450FX, WR250F, WR450F, TF 450 models, and KX250 are not confirmed from manufacturer sources.",
+    "Fork diameter (48 mm) for Yamaha models is confirmed only for YZ250X (Dirt Rider) and implied elsewhere; Yamaha US spec pages do not state it.",
+    "KX250 2021-2023 and 2025-2027 and KX250X 2022-2027 KYB usage not individually confirmed (2020 and 2024 KX250 and 2021 KX250X confirmed KYB). KX450/KX450X are Showa and excluded.",
+    "Yamaha model-year coverage is sampled (e.g., 2020-2022 YZ250F/YZ125/YZ250, 2021-2022 WR, 2024 YZ450FX) rather than every year; travel changed with new chassis (YZ250FX 2025, WR/YZ450FX around 2025-2026).",
+    "No model-specific OEM fork seal/bushing/shock-seal part numbers (Yamaha or KYB) with confirmed 2020+ fitment were retrieved; retailer seal kits listed lack fitment tables.",
+    "No KYB A-kit, Pro Circuit, Race Tech G3-S / Gold Valve, Stillwell, or Factory Connection products with confirmed fitment and price for 2020+ in-scope bikes were found.",
+    "Blocked/unfetched URLs: yamahamotorsports.com/models/25-yz125/specs (fetched 26 instead), motorcycle.com 2024 KX250 and KX250X spec pages, kawasaki.com 2026 KX250/KX450X spec sheets, racetech.com ProductSearch, factoryconnection.com Revalve/PressureSprings/RD pages, partzilla and rockymountainatvmc product pages.",
+    "KYB 01M -> 02M supersession seen only in a retailer title; needs confirmation from KYB."
+  ]
+}
