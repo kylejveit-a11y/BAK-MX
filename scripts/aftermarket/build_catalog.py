@@ -105,13 +105,13 @@ for pl in platforms:
     k=esc(pl.get('description'))[:80]
     if k in seen: continue
     seen.add(k); L.append(f"| {esc(pl.get('description'))[:220]} | {esc(pl.get('models_years'))[:220]} | [link]({pl.get('source_url')}) |")
-FEED=('ktt-','cg-','lng-')
+FEED=('ktt-','cg-','lng-','tri-')
 isfeed=lambda p:str(p['id']).startswith(FEED)
 feed=[p for p in products if isfeed(p)]
 if feed:
     L+=['','## Dealer and retailer catalogs','',f'{len(feed)} listings from dealer and retailer catalogs are summarised here and listed in full on the per-bike pages (bikes/) and in BRANDS.md.','',
         '| Source | Listings | Brands | With part numbers |','|---|---|---|---|']
-    for pre,name in (('ktt-','KTM Twins (official KTM dealer, US)'),('lng-','Lings (KTM/Husqvarna/GasGas dealer, UK)'),('cg-','Cycle Gear (retailer, US)')):
+    for pre,name in (('ktt-','KTM Twins (official KTM dealer, US)'),('lng-','Lings (KTM/Husqvarna/GasGas dealer, UK)'),('tri-','Triumph Waukesha (official Triumph dealer, US)'),('cg-','Cycle Gear (retailer, US)')):
         ff=[p for p in feed if p['id'].startswith(pre)]
         if ff: L.append(f"| {name} | {len(ff)} | {len({p.get('brand') for p in ff})} | {sum(1 for p in ff if p.get('part_numbers'))} |")
 bycat=collections.defaultdict(list)
@@ -167,7 +167,7 @@ for p in products: br[str(p.get('brand') or 'Unknown').strip()].append(p)
 R=[f'# {title}: aftermarket brands','',f'{len(br)} brands with at least one part listed for these bikes, with the categories they cover and where the listings come from.','','| Brand | Parts | Categories | Sources |','|---|---|---|---|']
 for b in sorted(br,key=lambda b:(-len(br[b]),b.lower())):
     ps=br[b]; cats=collections.Counter(str(p.get('category') or 'Other').split(' > ')[-1].strip() for p in ps)
-    src=collections.Counter('KTM Twins' if p['id'].startswith('ktt-') else 'Lings' if p['id'].startswith('lng-') else 'Cycle Gear' if p['id'].startswith('cg-') else 'research' for p in ps)
+    src=collections.Counter('KTM Twins' if p['id'].startswith('ktt-') else 'Lings' if p['id'].startswith('lng-') else 'Triumph dealer' if p['id'].startswith('tri-') else 'Cycle Gear' if p['id'].startswith('cg-') else 'research' for p in ps)
     R.append(f"| {esc(b)} | {len(ps)} | {esc(', '.join(f'{c} ({n})' for c,n in cats.most_common(6)))} | {esc(', '.join(f'{k} {v}' for k,v in src.items()))} |")
 open(os.path.join(fam_dir,'BRANDS.md'),'w').write('\n'.join(R)+'\n')
 json.dump({'by_bike':{f'{a}|{b}|{c}':sorted(v) for (a,b,c),v in sorted(bike.items())},'unmapped':unmapped,

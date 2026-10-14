@@ -1,0 +1,2328 @@
+{
+  "slice": "Triumph TF aftermarket",
+  "platforms": [
+    {
+      "id": "tf250",
+      "description": "Triumph 250cc DOHC four-stroke family (MX, cross-country, enduro) sharing engine/chassis; Pro-X lists one piston for all",
+      "models_years": [
+        "TF 250-X 2024-2026",
+        "TF 250-C 2026",
+        "TF 250-E 2026 (some sellers list 2025)"
+      ],
+      "source_url": "https://www.oro2u.com/piston-kit-triumph-250-78mm-prox-01-7354-a"
+    },
+    {
+      "id": "tf450",
+      "description": "Triumph 450cc four-stroke family; RC Edition launched 2025, X/C/E for 2026",
+      "models_years": [
+        "TF 450-RC Edition 2025",
+        "TF 450-X 2026",
+        "TF 450-C 2026",
+        "TF 450-E 2026"
+      ],
+      "source_url": "https://www.ghostbikes.com/products/2528034-moto-master-supermoto-racing-brake-kit-for-triumph-tf250c-2026-front"
+    }
+  ],
+  "products": [
+    {
+      "id": "tf-pc-ti6-250",
+      "category": "exhaust",
+      "subcategory": "full system",
+      "brand": "Pro Circuit",
+      "product": "Ti-6 Titanium Exhaust System (Triumph TF250X)",
+      "part_numbers": [
+        "03122525F"
+      ],
+      "variants": "Titanium head pipe/mid pipe/canister, carbon end cap; blemished/refurb version also sold by Cycle Gear",
+      "platform_ids": [
+        "tf250"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2024,
+            2025,
+            2026
+          ],
+          "notes": ""
+        }
+      ],
+      "fitment_source_url": "https://www.cyclegear.com/parts/pro-circuit-ti-6-titanium-exhaust-system-triumph-tf250x",
+      "what_it_changes": "Pro Circuit says it improves performance across the rpm range; RC-4 resonance chamber, removable USFS spark arrestor. Meets AMA amateur sound limits, not FIM pro limits (per retailer copy).",
+      "supporting_parts": "None stated.",
+      "where_to_buy": [
+        {
+          "seller": "Cycle Gear",
+          "url": "https://www.cyclegear.com/parts/pro-circuit-ti-6-titanium-exhaust-system-triumph-tf250x",
+          "price_if_stated": 1329.0,
+          "currency": "USD",
+          "date": "2026-10-14"
+        },
+        {
+          "seller": "RevZilla",
+          "url": "https://www.revzilla.com/dirt-bike/pro-circuit-ti-6-titanium-exhaust-system-triumph-tf250x",
+          "price_if_stated": null,
+          "currency": null,
+          "date": null
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Pro Circuit site not fetched; part number taken from Cycle Gear 'Manufacturer Product #'. MXA (2025 spotlight) quoted $1,269.95 for 2025 TF250X.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-pc-ti6pro-250",
+      "category": "exhaust",
+      "subcategory": "full system (FIM sound)",
+      "brand": "Pro Circuit",
+      "product": "Ti-6 Pro Titanium Exhaust System (Triumph TF250X)",
+      "part_numbers": [
+        "03122525FP"
+      ],
+      "variants": "Titanium with carbon end cap; Pro RC-4 titanium head pipe",
+      "platform_ids": [
+        "tf250"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2024,
+            2025,
+            2026
+          ],
+          "notes": ""
+        }
+      ],
+      "fitment_source_url": "https://www.cyclegear.com/parts/pro-circuit-ti-6-pro-titanium-exhaust-system-triumph-tf250x",
+      "what_it_changes": "Retailer copy says it passes AMA/FIM sound rules, is lighter than stock and improves throttle response; closed-course only.",
+      "supporting_parts": "None stated.",
+      "where_to_buy": [
+        {
+          "seller": "Cycle Gear",
+          "url": "https://www.cyclegear.com/parts/pro-circuit-ti-6-pro-titanium-exhaust-system-triumph-tf250x",
+          "price_if_stated": 1329.0,
+          "currency": "USD",
+          "date": "2026-10-14"
+        },
+        {
+          "seller": "RevZilla",
+          "url": "https://www.revzilla.com/dirt-bike/pro-circuit-ti-6-pro-titanium-exhaust-system-triumph-tf250x",
+          "price_if_stated": null,
+          "currency": null,
+          "date": null
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Pro Circuit site not fetched; part number taken from Cycle Gear 'Manufacturer Product #'. No dB figure published.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-pc-t6-250",
+      "category": "exhaust",
+      "subcategory": "full system",
+      "brand": "Pro Circuit",
+      "product": "T-6 Exhaust System (Triumph TF250X)",
+      "part_numbers": [
+        "01122525G"
+      ],
+      "variants": "Stainless head/mid pipe and end cap, aluminum canister",
+      "platform_ids": [
+        "tf250"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2024,
+            2025,
+            2026
+          ],
+          "notes": ""
+        }
+      ],
+      "fitment_source_url": "https://www.cyclegear.com/parts/pro-circuit-t-6-exhaust-system-triumph-tf250x",
+      "what_it_changes": "Budget stainless alternative to Ti-6; Pro Circuit claims same performance as Ti-6 with more durability.",
+      "supporting_parts": "None stated.",
+      "where_to_buy": [
+        {
+          "seller": "Cycle Gear",
+          "url": "https://www.cyclegear.com/parts/pro-circuit-t-6-exhaust-system-triumph-tf250x",
+          "price_if_stated": 1035.45,
+          "currency": "USD",
+          "date": "2026-10-14"
+        },
+        {
+          "seller": "RevZilla",
+          "url": "https://www.revzilla.com/dirt-bike/pro-circuit-t-6-exhaust-system-triumph-tf250x",
+          "price_if_stated": null,
+          "currency": null,
+          "date": null
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Pro Circuit site not fetched; part number taken from Cycle Gear 'Manufacturer Product #'. MXA quoted $990.95 in its 2025 spotlight. A T-6 slip-on for TF250X is also listed on RevZilla (https://www.revzilla.com/dirt-bike/pro-circuit-t-6-slip-on-exhaust-triumph-tf250x) - not fetched.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-pc-ti6pro-450",
+      "category": "exhaust",
+      "subcategory": "full system (FIM sound)",
+      "brand": "Pro Circuit",
+      "product": "Ti-6 Pro Titanium Exhaust System (Triumph TF450C / TF450RC)",
+      "part_numbers": [
+        "03122645F"
+      ],
+      "variants": "Titanium, carbon end cap, RC-4 Ti head pipe",
+      "platform_ids": [
+        "tf450"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 450-RC Edition",
+          "years": [
+            2025
+          ],
+          "notes": ""
+        },
+        {
+          "make": "Triumph",
+          "model": "TF 450-C",
+          "years": [
+            2026
+          ],
+          "notes": ""
+        }
+      ],
+      "fitment_source_url": "https://www.cyclegear.com/parts/pro-circuit-ti-6-pro-titanium-exhaust-system-triumph-tf450c-tf450rc",
+      "what_it_changes": "Built for pro AMA racing; passes AMA/FIM sound rules per retailer copy; lighter than stock.",
+      "supporting_parts": "None stated.",
+      "where_to_buy": [
+        {
+          "seller": "Cycle Gear",
+          "url": "https://www.cyclegear.com/parts/pro-circuit-ti-6-pro-titanium-exhaust-system-triumph-tf450c-tf450rc",
+          "price_if_stated": 1329.0,
+          "currency": "USD",
+          "date": "2026-10-14"
+        },
+        {
+          "seller": "RevZilla",
+          "url": "https://www.revzilla.com/dirt-bike/pro-circuit-ti-6-pro-titanium-exhaust-system-triumph-tf450c-tf450rc",
+          "price_if_stated": null,
+          "currency": null,
+          "date": null
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Pro Circuit site not fetched; part number taken from Cycle Gear 'Manufacturer Product #'. TF 450-X / TF 450-E 2026 not listed - confirm with Pro Circuit.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-pc-ti6bcpro-450",
+      "category": "exhaust",
+      "subcategory": "full system (FIM sound)",
+      "brand": "Pro Circuit",
+      "product": "Ti-6 BC Pro Exhaust System (Triumph TF450C / TF450RC)",
+      "part_numbers": [
+        "03122645BC"
+      ],
+      "variants": "All-titanium incl. end cap; 'BC' not defined by seller",
+      "platform_ids": [
+        "tf450"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 450-RC Edition",
+          "years": [
+            2025
+          ],
+          "notes": ""
+        },
+        {
+          "make": "Triumph",
+          "model": "TF 450-C",
+          "years": [
+            2026
+          ],
+          "notes": ""
+        }
+      ],
+      "fitment_source_url": "https://www.cyclegear.com/parts/pro-circuit-ti-6-bc-pro-exhaust-system-triumph-tf450c-tf450rc",
+      "what_it_changes": "Passes AMA/FIM sound; machined mid-pipe joint for leak-free fit (retailer copy).",
+      "supporting_parts": "None stated.",
+      "where_to_buy": [
+        {
+          "seller": "Cycle Gear",
+          "url": "https://www.cyclegear.com/parts/pro-circuit-ti-6-bc-pro-exhaust-system-triumph-tf450c-tf450rc",
+          "price_if_stated": 1406.9,
+          "currency": "USD",
+          "date": "2026-10-14"
+        },
+        {
+          "seller": "RevZilla",
+          "url": "https://www.revzilla.com/dirt-bike/pro-circuit-ti-6-bc-pro-exhaust-system-triumph-tf450c-tf450rc",
+          "price_if_stated": null,
+          "currency": null,
+          "date": null
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Pro Circuit site not fetched; part number taken from Cycle Gear 'Manufacturer Product #'. Meaning of 'BC' unknown. RevZilla photo shows a Yamaha.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-pc-t6-450",
+      "category": "exhaust",
+      "subcategory": "full system",
+      "brand": "Pro Circuit",
+      "product": "T-6 Exhaust System (Triumph TF450C / TF450RC)",
+      "part_numbers": [
+        "01122645G"
+      ],
+      "variants": "Stainless with aluminum canister",
+      "platform_ids": [
+        "tf450"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 450-RC Edition",
+          "years": [
+            2025
+          ],
+          "notes": ""
+        },
+        {
+          "make": "Triumph",
+          "model": "TF 450-C",
+          "years": [
+            2026
+          ],
+          "notes": ""
+        }
+      ],
+      "fitment_source_url": "https://www.cyclegear.com/parts/pro-circuit-t-6-exhaust-system-triumph-tc450c-tf450rc",
+      "what_it_changes": "Economical stainless system; Pro Circuit says same performance as Ti-6; AMA amateur sound compliant; USFS spark arrestor.",
+      "supporting_parts": "None stated.",
+      "where_to_buy": [
+        {
+          "seller": "Cycle Gear",
+          "url": "https://www.cyclegear.com/parts/pro-circuit-t-6-exhaust-system-triumph-tc450c-tf450rc",
+          "price_if_stated": 1035.45,
+          "currency": "USD",
+          "date": "2026-10-14"
+        },
+        {
+          "seller": "RevZilla",
+          "url": "https://www.revzilla.com/dirt-bike/pro-circuit-t-6-exhaust-system-triumph-tc450c-tf450rc",
+          "price_if_stated": null,
+          "currency": null,
+          "date": null
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Pro Circuit site not fetched; part number taken from Cycle Gear 'Manufacturer Product #'. Seller URL has typo 'TC450C'.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-fmf-41rct-250",
+      "category": "exhaust",
+      "subcategory": "slip-on",
+      "brand": "FMF Racing",
+      "product": "Factory 4.1 RCT Slip-On (Triumph TF250X/C/E)",
+      "part_numbers": [
+        "045695"
+      ],
+      "variants": "Titanium anodized w/ carbon cap (045695); Cycle Gear also lists Stainless/Aluminum/Carbon option (FMF number not shown)",
+      "platform_ids": [
+        "tf250"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2024,
+            2025,
+            2026
+          ],
+          "notes": ""
+        },
+        {
+          "make": "Triumph",
+          "model": "TF 250-C",
+          "years": [
+            2026
+          ],
+          "notes": ""
+        },
+        {
+          "make": "Triumph",
+          "model": "TF 250-E",
+          "years": [
+            2026
+          ],
+          "notes": ""
+        }
+      ],
+      "fitment_source_url": "https://www.cyclegear.com/parts/fmf-factory-41-rct-slip-on-exhaust-triumph-tf250x-c-e-2024-2026",
+      "what_it_changes": "FMF claims power gains through the rpm range and weight savings; RTS tuning, removable spark arrestor, 94 dB quiet insert; works with stock or FMF header.",
+      "supporting_parts": "Uses stock header or FMF header.",
+      "where_to_buy": [
+        {
+          "seller": "Cycle Gear",
+          "url": "https://www.cyclegear.com/parts/fmf-factory-41-rct-slip-on-exhaust-triumph-tf250x-c-e-2024-2026",
+          "price_if_stated": 641.24,
+          "currency": "USD",
+          "date": "2026-10-14"
+        },
+        {
+          "seller": "Happy Trail (045695)",
+          "url": "https://www.happy-trail.com/fmf-racing-fmf-4-stroke-factory-4-1-rct-muffler-045695.html",
+          "price_if_stated": 808.73,
+          "currency": "USD",
+          "date": "2026-10-14"
+        },
+        {
+          "seller": "Oro2u (EU B2B)",
+          "url": "https://www.oro2u.com/factory-4-1-rct-titanium-anodized-exhaust-silencer-24-26-triumph-tf-250-e-x-fmf-045695",
+          "price_if_stated": null,
+          "currency": null,
+          "date": null
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Cycle Gear 'from' price depends on material. FMF's own page for 045695 not fetched.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-fmf-41rct-450-ss",
+      "category": "exhaust",
+      "subcategory": "slip-on",
+      "brand": "FMF Racing",
+      "product": "Factory 4.1 RCT Stainless Silencer (Triumph TF450RC)",
+      "part_numbers": [
+        "045699"
+      ],
+      "variants": "Stainless pipe, grey anodized aluminum body, carbon cap",
+      "platform_ids": [
+        "tf450"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 450-RC Edition",
+          "years": [
+            2025,
+            2026
+          ],
+          "notes": "Ghost Bikes lists 2025 and 2026 RC Edition"
+        }
+      ],
+      "fitment_source_url": "https://www.ghostbikes.com/products/2503690-fmf-factory-41-rct-stainless-silencer-for-triumph-tf450rc-2025-2026",
+      "what_it_changes": "RCT core said to lower dB while keeping power; QuietCore 94 dB insert and spark arrestor included.",
+      "supporting_parts": "Stock or FMF header.",
+      "where_to_buy": [
+        {
+          "seller": "Ghost Bikes (UK)",
+          "url": "https://www.ghostbikes.com/products/2503690-fmf-factory-41-rct-stainless-silencer-for-triumph-tf450rc-2025-2026",
+          "price_if_stated": 770.99,
+          "currency": "GBP",
+          "date": "2026-10-14"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Seller notes it will NOT pass 2025 FIM sound regulation. Sold out at check.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-fmf-41rct-450-ti",
+      "category": "exhaust",
+      "subcategory": "slip-on",
+      "brand": "FMF Racing",
+      "product": "Titanium Factory 4.1 RCT Slip-On w/ Carbon Cap (Triumph TF 450-RC)",
+      "part_numbers": [
+        "045700"
+      ],
+      "variants": "Titanium, carbon cap",
+      "platform_ids": [
+        "tf450"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 450-RC Edition",
+          "years": [
+            2025
+          ],
+          "notes": "fitment only in page meta description"
+        }
+      ],
+      "fitment_source_url": "https://www.happy-trail.com/fmf-racing-fmf-4-stroke-factory-4-1-rct-muffler-045700.html",
+      "what_it_changes": "Titanium version of the 4.1 RCT slip-on.",
+      "supporting_parts": "Stock or FMF header (per FMF family copy).",
+      "where_to_buy": [
+        {
+          "seller": "Happy Trail",
+          "url": "https://www.happy-trail.com/fmf-racing-fmf-4-stroke-factory-4-1-rct-muffler-045700.html",
+          "price_if_stated": 819.97,
+          "currency": "USD",
+          "date": "2026-10-14"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Fitment weakly stated on retailer page.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "tf-fmf-41rct-450-full",
+      "category": "exhaust",
+      "subcategory": "full system (likely)",
+      "brand": "FMF Racing",
+      "product": "Factory 4.1 RCT (Ti anodized, titanium header, carbon cap) - Triumph TF 450-RC",
+      "part_numbers": [
+        "045706"
+      ],
+      "variants": "Ti anodized, titanium header, carbon end cap",
+      "platform_ids": [
+        "tf450"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 450-RC Edition",
+          "years": [
+            2025,
+            2026
+          ],
+          "notes": "listing text fragmentary"
+        }
+      ],
+      "fitment_source_url": "https://www.happy-trail.com/fmf-racing-fmf-4-stroke-factory-4-1-rct-muffler-045706.html",
+      "what_it_changes": "Appears to be the full titanium system version.",
+      "supporting_parts": "None stated.",
+      "where_to_buy": [
+        {
+          "seller": "Happy Trail",
+          "url": "https://www.happy-trail.com/fmf-racing-fmf-4-stroke-factory-4-1-rct-muffler-045706.html",
+          "price_if_stated": 1249.83,
+          "currency": "USD",
+          "date": "2026-10-14"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Full-system status and years inferred from fragmentary listing; verify with FMF.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "tf-yosh-rs12-250",
+      "category": "exhaust",
+      "subcategory": "full system",
+      "brand": "Yoshimura",
+      "product": "RS-12 Exhaust System (Triumph TF250X)",
+      "part_numbers": [
+        "272500S320"
+      ],
+      "variants": "Stainless/aluminum with matte carbon end cap (AU sellers list stainless-aluminium)",
+      "platform_ids": [
+        "tf250"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2024,
+            2025
+          ],
+          "notes": "years from Firestorm (AU) listing title; CT Racing lists no years"
+        }
+      ],
+      "fitment_source_url": "https://ctracingservices.com/products/yoshimura-rs-12-exhaust-system-for-triumph-tf250x-part-number-272500s320",
+      "what_it_changes": "Yoshimura claims more muffler volume, more power, better tire/caliper clearance; PTF insert ring, tapered inlet; 3 years development.",
+      "supporting_parts": "None stated.",
+      "where_to_buy": [
+        {
+          "seller": "CT Racing Services",
+          "url": "https://ctracingservices.com/products/yoshimura-rs-12-exhaust-system-for-triumph-tf250x-part-number-272500s320",
+          "price_if_stated": 1099.0,
+          "currency": "USD",
+          "date": "2026-10-14"
+        },
+        {
+          "seller": "Firestorm Motorcycles (AU)",
+          "url": "https://www.firestormmotorcycles.com.au/triumph-tf-250-x-2024-2025-yoshimura-rs-12-full-ex~2958732",
+          "price_if_stated": null,
+          "currency": null,
+          "date": null
+        },
+        {
+          "seller": "BikeBiz (AU)",
+          "url": "https://www.bikebiz.com.au/products/yoshimura-rs-12-triumph-tf250-x-stainless-aluminium-full-exhaust-system",
+          "price_if_stated": null,
+          "currency": null,
+          "date": null
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "2026 TF 250-X fitment not confirmed (2026 had engine updates).",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-yosh-rs12-450",
+      "category": "exhaust",
+      "subcategory": "full system",
+      "brand": "Yoshimura",
+      "product": "RS-12 Exhaust System (Triumph TF 450, 2025-2026)",
+      "part_numbers": [],
+      "variants": "Stainless (per tags); aluminum/carbon in image name",
+      "platform_ids": [
+        "tf450"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 450-RC Edition",
+          "years": [
+            2025
+          ],
+          "notes": "RevZilla lists 'TF 450 2025-2026' without sub-model"
+        },
+        {
+          "make": "Triumph",
+          "model": "TF 450-X",
+          "years": [
+            2026
+          ],
+          "notes": "inferred from 'TF 450 2025-2026' - unverified"
+        }
+      ],
+      "fitment_source_url": "https://www.revzilla.com/motorcycle/yoshimura-rs-12-exhaust-system-triumph-tf-450-2025-2026",
+      "what_it_changes": "Full RS-12 system; Yoshimura cites 3 years development.",
+      "supporting_parts": "None stated.",
+      "where_to_buy": [
+        {
+          "seller": "RevZilla",
+          "url": "https://www.revzilla.com/motorcycle/yoshimura-rs-12-exhaust-system-triumph-tf-450-2025-2026",
+          "price_if_stated": 1069.0,
+          "currency": "USD",
+          "date": "2026-10-14"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "No Yoshimura part number on page; price inferred from metadata. Sub-model fitment unclear.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-prox-piston-250",
+      "category": "engine",
+      "subcategory": "piston kit",
+      "brand": "Pro-X Racing",
+      "product": "Piston Kit Triumph 250, 78mm forged",
+      "part_numbers": [
+        "01.7354.A",
+        "01.7354.C"
+      ],
+      "variants": "Size A (77.95mm) and C; 14.4:1 actual CR; OEM ref T1120079",
+      "platform_ids": [
+        "tf250"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2024,
+            2025,
+            2026
+          ],
+          "notes": ""
+        },
+        {
+          "make": "Triumph",
+          "model": "TF 250-E",
+          "years": [
+            2025,
+            2026
+          ],
+          "notes": ""
+        },
+        {
+          "make": "Triumph",
+          "model": "TF 250-C",
+          "years": [
+            2026
+          ],
+          "notes": ""
+        }
+      ],
+      "fitment_source_url": "https://www.oro2u.com/piston-kit-triumph-250-78mm-prox-01-7354-a",
+      "what_it_changes": "OEM-replacement forged piston, 4 valve pockets.",
+      "supporting_parts": "Rings/pin/clips not itemized.",
+      "where_to_buy": [
+        {
+          "seller": "Oro2u (UK B2B, retail price)",
+          "url": "https://www.oro2u.com/piston-kit-triumph-250-78mm-prox-01-7354-a",
+          "price_if_stated": 188.8,
+          "currency": "GBP",
+          "date": "2026-10-14"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Oro2u is trade-only; 'TF 250-E 2025' listed though E launched for 2026 elsewhere - check.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-prox-piston-450",
+      "category": "engine",
+      "subcategory": "piston kit",
+      "brand": "Pro-X Racing",
+      "product": "Piston Kit 2025 TF450-RC, 95mm 13.1:1 forged",
+      "part_numbers": [
+        "01.7455.A",
+        "01.7455.B",
+        "01.7455.C"
+      ],
+      "variants": "Sizes A/B/C; OEM ref T1120087; related rings 02.6429, circlip 05.1912",
+      "platform_ids": [
+        "tf450"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 450-RC Edition",
+          "years": [
+            2025
+          ],
+          "notes": ""
+        },
+        {
+          "make": "Triumph",
+          "model": "TF 450-E",
+          "years": [
+            2025
+          ],
+          "notes": "as listed by seller"
+        }
+      ],
+      "fitment_source_url": "https://www.oro2u.com/piston-kit-2025-tf450-rc-triumph-95mm-13-1-1-01-7455-a",
+      "what_it_changes": "OEM-replacement forged flat-top piston, 13.1:1.",
+      "supporting_parts": "Rings 02.6429, circlip 05.1912 (Pro-X related parts).",
+      "where_to_buy": [
+        {
+          "seller": "Oro2u (UK B2B, retail price)",
+          "url": "https://www.oro2u.com/piston-kit-2025-tf450-rc-triumph-95mm-13-1-1-01-7455-a",
+          "price_if_stated": 202.6,
+          "currency": "GBP",
+          "date": "2026-10-14"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "2026 TF 450-X/C/E fitment not listed.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-rekluse-apextd-250",
+      "category": "clutch",
+      "subcategory": "complete manual clutch",
+      "brand": "Rekluse",
+      "product": "APEX-TD Clutch - Triumph TF250X",
+      "part_numbers": [
+        "RMS-7412002"
+      ],
+      "variants": "",
+      "platform_ids": [
+        "tf250"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2024,
+            2025,
+            2026
+          ],
+          "notes": "Rekluse lists '2024+'"
+        }
+      ],
+      "fitment_source_url": "https://www.rekluse.com/product-category/manual-clutches/mk-triumph/",
+      "what_it_changes": "Fixed-pin inner hub + pressure plate with TorqDrive friction; Rekluse pitches it against OEM hub oil-flow/slip issues.",
+      "supporting_parts": "None stated.",
+      "where_to_buy": [
+        {
+          "seller": "Rekluse",
+          "url": "https://www.rekluse.com/product-category/manual-clutches/mk-triumph/",
+          "price_if_stated": 1259.0,
+          "currency": "USD",
+          "date": "2026-10-14"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "",
+      "confidence": "high"
+    },
+    {
+      "id": "tf-rekluse-apextd-450",
+      "category": "clutch",
+      "subcategory": "complete manual clutch",
+      "brand": "Rekluse",
+      "product": "APEX-TD Clutch - Triumph TF450",
+      "part_numbers": [
+        "RMS-7412003"
+      ],
+      "variants": "",
+      "platform_ids": [
+        "tf450"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 450-X",
+          "years": [],
+          "notes": "years not listed"
+        },
+        {
+          "make": "Triumph",
+          "model": "TF 450-E",
+          "years": [],
+          "notes": "years not listed"
+        }
+      ],
+      "fitment_source_url": "https://www.rekluse.com/product-category/manual-clutches/mk-triumph/",
+      "what_it_changes": "As above for TF450.",
+      "supporting_parts": "None stated.",
+      "where_to_buy": [
+        {
+          "seller": "Rekluse",
+          "url": "https://www.rekluse.com/product-category/manual-clutches/mk-triumph/",
+          "price_if_stated": 1259.0,
+          "currency": "USD",
+          "date": "2026-10-14"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Years and RC/C fitment not stated.",
+      "confidence": "high"
+    },
+    {
+      "id": "tf-rekluse-torqdrive-250",
+      "category": "clutch",
+      "subcategory": "clutch pack",
+      "brand": "Rekluse",
+      "product": "TorqDrive Clutch Pack - Triumph TF250X",
+      "part_numbers": [
+        "RMS-2812002"
+      ],
+      "variants": "",
+      "platform_ids": [
+        "tf250"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2024,
+            2025,
+            2026
+          ],
+          "notes": "'2024+'"
+        }
+      ],
+      "fitment_source_url": "https://www.rekluse.com/product-category/manual-clutches/mk-triumph/",
+      "what_it_changes": "Drop-in friction pack inside OEM basket/hub; more friction area, longer life (maker).",
+      "supporting_parts": "OEM clutch components.",
+      "where_to_buy": [
+        {
+          "seller": "Rekluse",
+          "url": "https://www.rekluse.com/product-category/manual-clutches/mk-triumph/",
+          "price_if_stated": 429.0,
+          "currency": "USD",
+          "date": "2026-10-14"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "",
+      "confidence": "high"
+    },
+    {
+      "id": "tf-rekluse-torqdrive-450",
+      "category": "clutch",
+      "subcategory": "clutch pack",
+      "brand": "Rekluse",
+      "product": "TorqDrive Clutch Pack - Triumph TF450",
+      "part_numbers": [
+        "RMS-2812003"
+      ],
+      "variants": "",
+      "platform_ids": [
+        "tf450"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 450-RC Edition",
+          "years": [
+            2025
+          ],
+          "notes": "Rekluse lists 'TF450 2024+'"
+        },
+        {
+          "make": "Triumph",
+          "model": "TF 450-X",
+          "years": [
+            2026
+          ],
+          "notes": "'TF450 2024+'"
+        }
+      ],
+      "fitment_source_url": "https://www.rekluse.com/product-category/manual-clutches/mk-triumph/",
+      "what_it_changes": "Drop-in friction pack.",
+      "supporting_parts": "OEM clutch components.",
+      "where_to_buy": [
+        {
+          "seller": "Rekluse",
+          "url": "https://www.rekluse.com/product-category/manual-clutches/mk-triumph/",
+          "price_if_stated": 429.0,
+          "currency": "USD",
+          "date": "2026-10-14"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Sub-model mapping inferred from 'TF450 2024+'.",
+      "confidence": "high"
+    },
+    {
+      "id": "tf-rekluse-radiusx-250",
+      "category": "clutch",
+      "subcategory": "auto clutch",
+      "brand": "Rekluse",
+      "product": "RadiusX 4.0 Auto Clutch Kit - Triumph TF250X",
+      "part_numbers": [
+        "RMS-8312002-KIT"
+      ],
+      "variants": "",
+      "platform_ids": [
+        "tf250"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2024,
+            2025
+          ],
+          "notes": ""
+        }
+      ],
+      "fitment_source_url": "https://www.cyclegear.com/parts/rekluse-radius-x-40-clutch-kit-triumph-tf250x-2024-2025",
+      "what_it_changes": "Drop-in auto clutch: anti-stall, smoother engagement, full manual override, TorqDrive pack (maker claims).",
+      "supporting_parts": "Rekluse suggests a left-hand rear brake kit with auto clutches.",
+      "where_to_buy": [
+        {
+          "seller": "Cycle Gear",
+          "url": "https://www.cyclegear.com/parts/rekluse-radius-x-40-clutch-kit-triumph-tf250x-2024-2025",
+          "price_if_stated": 1029.0,
+          "currency": "USD",
+          "date": "2026-10-14"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Part number read from image filename on Rekluse blog - verify.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-rekluse-radiuscx-250",
+      "category": "clutch",
+      "subcategory": "auto clutch",
+      "brand": "Rekluse",
+      "product": "RadiusCX Auto Clutch - Triumph TF 250-X",
+      "part_numbers": [
+        "RMS-8907002"
+      ],
+      "variants": "",
+      "platform_ids": [
+        "tf250"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [],
+          "notes": "per Rekluse blog"
+        }
+      ],
+      "fitment_source_url": "https://www.rekluse.com/blog/common-triumph-tf-250-x-clutch-problems-and-how-rekluse-can-help/",
+      "what_it_changes": "Auto clutch built on Rekluse Core hub/pressure plate.",
+      "supporting_parts": "Core components (included in system).",
+      "where_to_buy": [
+        {
+          "seller": "Rekluse",
+          "url": "https://www.rekluse.com/",
+          "price_if_stated": null,
+          "currency": null,
+          "date": null
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "PN from image filename; price not seen.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "tf-rekluse-basket-250",
+      "category": "clutch",
+      "subcategory": "clutch basket",
+      "brand": "Rekluse",
+      "product": "Billet Clutch Basket - Triumph TF 250-X",
+      "part_numbers": [
+        "RMS-4112002-KIT"
+      ],
+      "variants": "",
+      "platform_ids": [
+        "tf250"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [],
+          "notes": "per Rekluse blog"
+        }
+      ],
+      "fitment_source_url": "https://www.rekluse.com/blog/common-triumph-tf-250-x-clutch-problems-and-how-rekluse-can-help/",
+      "what_it_changes": "Addresses basket notching and inconsistent engagement (maker).",
+      "supporting_parts": "None stated.",
+      "where_to_buy": [
+        {
+          "seller": "Rekluse",
+          "url": "https://www.rekluse.com/",
+          "price_if_stated": null,
+          "currency": null,
+          "date": null
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "PN from image filename.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "tf-rekluse-cover-250",
+      "category": "clutch",
+      "subcategory": "clutch cover",
+      "brand": "Rekluse",
+      "product": "Clutch Cover - Triumph TF 250-X",
+      "part_numbers": [
+        "RMS-0412002"
+      ],
+      "variants": "Image filename suffix -ANG45 suggests a colour variant",
+      "platform_ids": [
+        "tf250"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [],
+          "notes": "per Rekluse blog"
+        }
+      ],
+      "fitment_source_url": "https://www.rekluse.com/blog/common-triumph-tf-250-x-clutch-problems-and-how-rekluse-can-help/",
+      "what_it_changes": "Extra capacity/heat dissipation; works with Rekluse or OEM clutch.",
+      "supporting_parts": "None.",
+      "where_to_buy": [
+        {
+          "seller": "Rekluse",
+          "url": "https://www.rekluse.com/",
+          "price_if_stated": null,
+          "currency": null,
+          "date": null
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "PN from image filename.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "tf-rekluse-lhrb-250",
+      "category": "controls",
+      "subcategory": "left-hand rear brake",
+      "brand": "Rekluse",
+      "product": "Left-Hand Rear Brake Kit / Billet Foot Master Cylinder / Brake Combo (Triumph TF 250-X)",
+      "part_numbers": [
+        "RMS-5300002-KIT",
+        "RMS-5310006",
+        "RMS-5320006"
+      ],
+      "variants": "LH kit, foot master cylinder, combo",
+      "platform_ids": [
+        "tf250"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [],
+          "notes": "per Rekluse blog"
+        }
+      ],
+      "fitment_source_url": "https://www.rekluse.com/blog/common-triumph-tf-250-x-clutch-problems-and-how-rekluse-can-help/",
+      "what_it_changes": "Adds bar-mounted rear brake (useful with auto clutch).",
+      "supporting_parts": "Pair with auto clutch.",
+      "where_to_buy": [
+        {
+          "seller": "Rekluse",
+          "url": "https://www.rekluse.com/",
+          "price_if_stated": null,
+          "currency": null,
+          "date": null
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "PNs from image filenames; Triumph fitment of generic brake parts not confirmed.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "tf-hinson-basket-250",
+      "category": "clutch",
+      "subcategory": "clutch basket",
+      "brand": "Hinson",
+      "product": "Billetproof Clutch Basket (Triumph TF250X / TF250E)",
+      "part_numbers": [
+        "H105-B-2401"
+      ],
+      "variants": "",
+      "platform_ids": [
+        "tf250"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2024,
+            2025
+          ],
+          "notes": ""
+        },
+        {
+          "make": "Triumph",
+          "model": "TF 250-E",
+          "years": [
+            2026
+          ],
+          "notes": ""
+        }
+      ],
+      "fitment_source_url": "https://www.cyclegear.com/parts/hinson-billetproof-clutch-basket-triumph-tf250x-tf250e-2024-2026",
+      "what_it_changes": "Billet hardcoated basket: claimed 5x wear life vs stock, truer spin, better heat dissipation; works with OEM parts.",
+      "supporting_parts": "None (OEM-compatible).",
+      "where_to_buy": [
+        {
+          "seller": "Cycle Gear",
+          "url": "https://www.cyclegear.com/parts/hinson-billetproof-clutch-basket-triumph-tf250x-tf250e-2024-2026",
+          "price_if_stated": 319.99,
+          "currency": "USD",
+          "date": "2026-10-14"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Title says 2024-2026 but fitment table shows TF250X 2024-25 only.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-hinson-cover-250",
+      "category": "clutch",
+      "subcategory": "clutch cover",
+      "brand": "Hinson",
+      "product": "Billetproof Clutch Cover (Triumph TF250X 2024-2025)",
+      "part_numbers": [],
+      "variants": "Material options (out of stock at check)",
+      "platform_ids": [
+        "tf250"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2024,
+            2025
+          ],
+          "notes": "from listing title only"
+        }
+      ],
+      "fitment_source_url": "https://www.cyclegear.com/parts/hinson-billetproof-clutch-cover-triumph-tf250x-2024-2025",
+      "what_it_changes": "Billet cover: stronger, cooler, hardcoated (maker).",
+      "supporting_parts": "None.",
+      "where_to_buy": [
+        {
+          "seller": "Cycle Gear",
+          "url": "https://www.cyclegear.com/parts/hinson-billetproof-clutch-cover-triumph-tf250x-2024-2025",
+          "price_if_stated": 189.99,
+          "currency": "USD",
+          "date": "2026-10-14"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "No Hinson PN on page; fitment list truncated.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-hinson-fsc-450",
+      "category": "clutch",
+      "subcategory": "clutch plates + spring kit",
+      "brand": "Hinson",
+      "product": "FSC Clutch Fiber/Steel/Spring Kit (Triumph TF 450-RC Edition)",
+      "part_numbers": [
+        "FSC106-8-2501"
+      ],
+      "variants": "",
+      "platform_ids": [
+        "tf450"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 450-RC Edition",
+          "years": [
+            2025
+          ],
+          "notes": ""
+        }
+      ],
+      "fitment_source_url": "https://www.keeferinctesting.com/hinson-replacement-clutch-pack-triumph-tf-450-rc-edition/",
+      "what_it_changes": "Fibers, steels and stiffer-than-stock springs.",
+      "supporting_parts": "None.",
+      "where_to_buy": [
+        {
+          "seller": "Keefer Inc. Tested (review, price quoted)",
+          "url": "https://www.keeferinctesting.com/hinson-replacement-clutch-pack-triumph-tf-450-rc-edition/",
+          "price_if_stated": 299.99,
+          "currency": "USD",
+          "date": "2026-10-14"
+        },
+        {
+          "seller": "Cycle Gear",
+          "url": "https://www.cyclegear.com/parts/hinson-fsc-clutch-plate-spring-kit-triumph-tf-450-rc-edition-2025",
+          "price_if_stated": null,
+          "currency": null,
+          "date": null
+        },
+        {
+          "seller": "Happy Trail",
+          "url": "https://www.happy-trail.com/hinson-clutch-2025-triumph-tf-450-clutch-fiber-steel-spring-kit-fsc106-8-2501.html",
+          "price_if_stated": null,
+          "currency": null,
+          "date": null
+        }
+      ],
+      "rider_feedback": [
+        {
+          "source": "Keefer Inc. Tested",
+          "author": "Kris Keefer",
+          "date": "2025-04-02",
+          "summary": "Firmer pull but more bite and engagement feel; better low-mid pull and recovery; outlasts OEM plates (OEM ~10 h for him). Recommends as early mod.",
+          "conditions": "Hard MX use, incl. soft dirt",
+          "url": "https://www.keeferinctesting.com/hinson-replacement-clutch-pack-triumph-tf-450-rc-edition/"
+        }
+      ],
+      "caveats": "Price as quoted in review, April 2025.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-fc-fork-springs",
+      "category": "suspension",
+      "subcategory": "fork springs",
+      "brand": "Factory Connection",
+      "product": "Fork Springs (Yamaha/Kawasaki/Suzuki/Triumph 125-450cc)",
+      "part_numbers": [],
+      "variants": ".42/.44/.46/.48/.52 kg/mm",
+      "platform_ids": [
+        "tf250"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2024
+          ],
+          "notes": ""
+        }
+      ],
+      "fitment_source_url": "https://www.cyclegear.com/parts/factory-connection-fork-springs-yamaha-kawasaki-suzuki-triumph-125cc-450cc",
+      "what_it_changes": "Re-springs KYB AOS coil fork for rider weight.",
+      "supporting_parts": "Check OEM rate in owner's manual.",
+      "where_to_buy": [
+        {
+          "seller": "Cycle Gear",
+          "url": "https://www.cyclegear.com/parts/factory-connection-fork-springs-yamaha-kawasaki-suzuki-triumph-125cc-450cc",
+          "price_if_stated": 159.95,
+          "currency": "USD",
+          "date": "2026-10-14"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "No per-rate FC part numbers; only 2024 TF250X listed.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-xtrig-rocs-tech",
+      "category": "chassis",
+      "subcategory": "triple clamps",
+      "brand": "X-Trig",
+      "product": "ROCS Tech Triple Clamps (Triumph 24-)",
+      "part_numbers": [],
+      "variants": "Black; 22mm fixed offset",
+      "platform_ids": [
+        "tf250",
+        "tf450"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2024,
+            2025
+          ],
+          "notes": "Keefer tested on TF-250-X and TF-450 RC"
+        },
+        {
+          "make": "Triumph",
+          "model": "TF 450-RC Edition",
+          "years": [
+            2025
+          ],
+          "notes": ""
+        }
+      ],
+      "fitment_source_url": "https://www.maciag-offroad.com/xtrig-triple-clamp-rocs-tech-triumph-24-black-sid174632.html",
+      "what_it_changes": "Split clamps, rounder clamping under load, more anti-rotation (maker). Keefer: stiffer than stock, better flat-corner stability.",
+      "supporting_parts": "Requires X-Trig PHDS or Fix bar mount.",
+      "where_to_buy": [
+        {
+          "seller": "Maciag Offroad (EU)",
+          "url": "https://www.maciag-offroad.com/xtrig-triple-clamp-rocs-tech-triumph-24-black-sid174632.html",
+          "price_if_stated": 510.95,
+          "currency": "EUR",
+          "date": "2026-10-14"
+        }
+      ],
+      "rider_feedback": [
+        {
+          "source": "Keefer Inc. Tested",
+          "author": "Kris Keefer",
+          "date": "2025-03-18",
+          "summary": "Stiffer than stock but keeps bump absorption; more front-end stability through flat corners, less wallow; no fork slip at normal torque specs. Price quoted $800.",
+          "conditions": "MX test on TF-250-X / TF-450 RC",
+          "url": "https://www.keeferinctesting.com/?p=28782"
+        }
+      ],
+      "caveats": "X-Trig part number not found. Triumph also lists an XTrig holeshot device as a dealer accessory.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-xtrig-phds",
+      "category": "controls",
+      "subcategory": "handlebar mounts",
+      "brand": "X-Trig",
+      "product": "PHDS Progressive Handlebar Dampening System (Triumph TF)",
+      "part_numbers": [],
+      "variants": "Spacers 3/5/10mm; Technical Touch soft/firm elastomers available",
+      "platform_ids": [
+        "tf250",
+        "tf450"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2024,
+            2025
+          ],
+          "notes": "per Keefer"
+        },
+        {
+          "make": "Triumph",
+          "model": "TF 450-RC Edition",
+          "years": [
+            2025
+          ],
+          "notes": "per Keefer"
+        }
+      ],
+      "fitment_source_url": "https://www.keeferinctesting.com/?p=28782",
+      "what_it_changes": "Rubber-damped bar mounts; reduce vibration.",
+      "supporting_parts": "Required with ROCS Tech clamps (or Fix mount).",
+      "where_to_buy": [
+        {
+          "seller": "Keefer (price quoted, ~)",
+          "url": "https://www.keeferinctesting.com/?p=28782",
+          "price_if_stated": 200.0,
+          "currency": "USD",
+          "date": "2026-10-14"
+        }
+      ],
+      "rider_feedback": [
+        {
+          "source": "Keefer Inc. Tested",
+          "author": "Kris Keefer",
+          "date": "2025-03-18",
+          "summary": "Noticeably less vibration than stock, especially high rpm; heavier than stock.",
+          "conditions": "MX",
+          "url": "https://www.keeferinctesting.com/?p=28782"
+        }
+      ],
+      "caveats": "Approximate price ('almost $200'); no PN.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "tf-motomaster-sm-front",
+      "category": "brakes",
+      "subcategory": "supermoto front brake kit",
+      "brand": "Moto-Master",
+      "product": "Supermoto Racing Brake Kit, Front 320mm (Triumph TF)",
+      "part_numbers": [
+        "313097R"
+      ],
+      "variants": "",
+      "platform_ids": [
+        "tf250",
+        "tf450"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2024,
+            2025,
+            2026
+          ],
+          "notes": ""
+        },
+        {
+          "make": "Triumph",
+          "model": "TF 250-C",
+          "years": [
+            2026
+          ],
+          "notes": ""
+        },
+        {
+          "make": "Triumph",
+          "model": "TF 250-E",
+          "years": [
+            2026
+          ],
+          "notes": ""
+        },
+        {
+          "make": "Triumph",
+          "model": "TF 450-C",
+          "years": [
+            2026
+          ],
+          "notes": ""
+        },
+        {
+          "make": "Triumph",
+          "model": "TF 450-E",
+          "years": [
+            2026
+          ],
+          "notes": ""
+        }
+      ],
+      "fitment_source_url": "https://www.ghostbikes.com/products/2528034-moto-master-supermoto-racing-brake-kit-for-triumph-tf250c-2026-front",
+      "what_it_changes": "Converts to 320mm 2-piece floating disc with caliper, adapter, 12mm radial master cylinder, SS line, racing pads.",
+      "supporting_parts": "All included.",
+      "where_to_buy": [
+        {
+          "seller": "Ghost Bikes (UK)",
+          "url": "https://www.ghostbikes.com/products/2528034-moto-master-supermoto-racing-brake-kit-for-triumph-tf250c-2026-front",
+          "price_if_stated": 1053.49,
+          "currency": "GBP",
+          "date": "2026-10-14"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Seller note: 'for bikes with a headlight' - odd for X/C models; confirm.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-ee-skid",
+      "category": "protection",
+      "subcategory": "skid plate",
+      "brand": "Enduro Engineering",
+      "product": "Aluminum Skid Plate",
+      "part_numbers": [
+        "24-2024"
+      ],
+      "variants": "",
+      "platform_ids": [
+        "tf250"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2024,
+            2025
+          ],
+          "notes": ""
+        }
+      ],
+      "fitment_source_url": "https://cyclenews.com/2024/12/article/triumph-2024-25-tf-250-x-aluminum-skidplates",
+      "what_it_changes": "Protects cases, covers, filter, water pump; side tabs for frame/peg mounts; oil drain holes.",
+      "supporting_parts": "None stated.",
+      "where_to_buy": [
+        {
+          "seller": "Enduro Engineering (MSRP via Cycle News)",
+          "url": "https://www.enduroeng.com/",
+          "price_if_stated": 129.95,
+          "currency": "USD",
+          "date": "2026-10-14"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Fitment and MSRP from Cycle News product release (Dec 2024); EE site not fetched. Cycle Gear also lists it: https://www.cyclegear.com/parts/enduro-engineering-skid-plate-triumph-tf250x-2024-2025",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-ee-radguard",
+      "category": "protection",
+      "subcategory": "radiator guards",
+      "brand": "Enduro Engineering",
+      "product": "Radiator Guards",
+      "part_numbers": [
+        "12-2024"
+      ],
+      "variants": "",
+      "platform_ids": [
+        "tf250",
+        "tf450"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2024,
+            2025
+          ],
+          "notes": ""
+        },
+        {
+          "make": "Triumph",
+          "model": "TF 450-RC Edition",
+          "years": [
+            2025
+          ],
+          "notes": ""
+        }
+      ],
+      "fitment_source_url": "https://cyclenews.com/2024/12/article/triumph-2024-25-tf-250-x-aluminum-skidplates",
+      "what_it_changes": "Billet side/front impact protection; works with fan kits.",
+      "supporting_parts": "None stated.",
+      "where_to_buy": [
+        {
+          "seller": "Enduro Engineering (MSRP via Cycle News)",
+          "url": "https://www.enduroeng.com/",
+          "price_if_stated": 175.95,
+          "currency": "USD",
+          "date": "2026-10-14"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Fitment and MSRP from Cycle News product release (Dec 2024); EE site not fetched.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-ee-clutchcylguard",
+      "category": "protection",
+      "subcategory": "slave cylinder guard",
+      "brand": "Enduro Engineering",
+      "product": "Clutch Cylinder Guard",
+      "part_numbers": [
+        "13-2024"
+      ],
+      "variants": "",
+      "platform_ids": [
+        "tf250"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2024,
+            2025
+          ],
+          "notes": ""
+        }
+      ],
+      "fitment_source_url": "https://cyclenews.com/2024/12/article/triumph-2024-25-tf-250-x-aluminum-skidplates",
+      "what_it_changes": "Protects slave cylinder and case from thrown chain/rocks.",
+      "supporting_parts": "None stated.",
+      "where_to_buy": [
+        {
+          "seller": "Enduro Engineering (MSRP via Cycle News)",
+          "url": "https://www.enduroeng.com/",
+          "price_if_stated": 42.95,
+          "currency": "USD",
+          "date": "2026-10-14"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Fitment and MSRP from Cycle News product release (Dec 2024); EE site not fetched.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-ee-wheelspacers",
+      "category": "protection",
+      "subcategory": "wheel spacers",
+      "brand": "Enduro Engineering",
+      "product": "Wheel Spacers for KTM Wheels",
+      "part_numbers": [
+        "16-2024"
+      ],
+      "variants": "",
+      "platform_ids": [
+        "tf250",
+        "tf450"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2024,
+            2025
+          ],
+          "notes": ""
+        },
+        {
+          "make": "Triumph",
+          "model": "TF 450-RC Edition",
+          "years": [
+            2025
+          ],
+          "notes": ""
+        }
+      ],
+      "fitment_source_url": "https://cyclenews.com/2024/12/article/triumph-2024-25-tf-250-x-aluminum-skidplates",
+      "what_it_changes": "Lets KTM/Husqvarna/GasGas wheels fit the Triumph.",
+      "supporting_parts": "None stated.",
+      "where_to_buy": [
+        {
+          "seller": "Enduro Engineering (MSRP via Cycle News)",
+          "url": "https://www.enduroeng.com/",
+          "price_if_stated": 59.95,
+          "currency": "USD",
+          "date": "2026-10-14"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Fitment and MSRP from Cycle News product release (Dec 2024); EE site not fetched. Not OEM spacer replacement; not for 2023+ KTM-group 22mm rear-axle wheels.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-ee-frontaxlepull",
+      "category": "protection",
+      "subcategory": "axle pull",
+      "brand": "Enduro Engineering",
+      "product": "Front Axle Pull Insert (billet)",
+      "part_numbers": [
+        "23-050"
+      ],
+      "variants": "",
+      "platform_ids": [
+        "tf250",
+        "tf450"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2024,
+            2025
+          ],
+          "notes": ""
+        },
+        {
+          "make": "Triumph",
+          "model": "TF 450-RC Edition",
+          "years": [
+            2025
+          ],
+          "notes": ""
+        }
+      ],
+      "fitment_source_url": "https://cyclenews.com/2024/12/article/triumph-2024-25-tf-250-x-aluminum-skidplates",
+      "what_it_changes": "Axle pull insert.",
+      "supporting_parts": "None stated.",
+      "where_to_buy": [
+        {
+          "seller": "Enduro Engineering (MSRP via Cycle News)",
+          "url": "https://www.enduroeng.com/",
+          "price_if_stated": 19.95,
+          "currency": "USD",
+          "date": "2026-10-14"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Fitment and MSRP from Cycle News product release (Dec 2024); EE site not fetched.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-ee-rearaxlepull",
+      "category": "protection",
+      "subcategory": "axle pull",
+      "brand": "Enduro Engineering",
+      "product": "Rear Axle Pull Insert (billet)",
+      "part_numbers": [
+        "23-061"
+      ],
+      "variants": "",
+      "platform_ids": [
+        "tf250",
+        "tf450"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2024,
+            2025
+          ],
+          "notes": ""
+        },
+        {
+          "make": "Triumph",
+          "model": "TF 450-RC Edition",
+          "years": [
+            2025
+          ],
+          "notes": ""
+        }
+      ],
+      "fitment_source_url": "https://cyclenews.com/2024/12/article/triumph-2024-25-tf-250-x-aluminum-skidplates",
+      "what_it_changes": "Axle pull insert.",
+      "supporting_parts": "None stated.",
+      "where_to_buy": [
+        {
+          "seller": "Enduro Engineering (MSRP via Cycle News)",
+          "url": "https://www.enduroeng.com/",
+          "price_if_stated": 19.95,
+          "currency": "USD",
+          "date": "2026-10-14"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Fitment and MSRP from Cycle News product release (Dec 2024); EE site not fetched.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-ee-ignwireguard",
+      "category": "protection",
+      "subcategory": "wire guard",
+      "brand": "Enduro Engineering",
+      "product": "Ignition Wire Guard",
+      "part_numbers": [
+        "27-1017"
+      ],
+      "variants": "",
+      "platform_ids": [
+        "tf250"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2024,
+            2025
+          ],
+          "notes": ""
+        }
+      ],
+      "fitment_source_url": "https://cyclenews.com/2024/12/article/triumph-2024-25-tf-250-x-aluminum-skidplates",
+      "what_it_changes": "Protects ignition wire.",
+      "supporting_parts": "None stated.",
+      "where_to_buy": [
+        {
+          "seller": "Enduro Engineering (MSRP via Cycle News)",
+          "url": "https://www.enduroeng.com/",
+          "price_if_stated": 29.95,
+          "currency": "USD",
+          "date": "2026-10-14"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Fitment and MSRP from Cycle News product release (Dec 2024); EE site not fetched.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-ee-forkguard",
+      "category": "protection",
+      "subcategory": "fork guard",
+      "brand": "Enduro Engineering",
+      "product": "Fork Guard",
+      "part_numbers": [
+        "32-254"
+      ],
+      "variants": "",
+      "platform_ids": [
+        "tf250",
+        "tf450"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2024,
+            2025
+          ],
+          "notes": ""
+        },
+        {
+          "make": "Triumph",
+          "model": "TF 450-RC Edition",
+          "years": [
+            2025
+          ],
+          "notes": ""
+        }
+      ],
+      "fitment_source_url": "https://cyclenews.com/2024/12/article/triumph-2024-25-tf-250-x-aluminum-skidplates",
+      "what_it_changes": "Lower fork leg protection with clicker cutout.",
+      "supporting_parts": "None stated.",
+      "where_to_buy": [
+        {
+          "seller": "Enduro Engineering (MSRP via Cycle News)",
+          "url": "https://www.enduroeng.com/",
+          "price_if_stated": 49.95,
+          "currency": "USD",
+          "date": "2026-10-14"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Fitment and MSRP from Cycle News product release (Dec 2024); EE site not fetched.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-ee-reardiscguard",
+      "category": "protection",
+      "subcategory": "rear disc guard",
+      "brand": "Enduro Engineering",
+      "product": "Rear Disc Guard",
+      "part_numbers": [
+        "33-046"
+      ],
+      "variants": "",
+      "platform_ids": [
+        "tf250",
+        "tf450"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2024,
+            2025
+          ],
+          "notes": ""
+        },
+        {
+          "make": "Triumph",
+          "model": "TF 450-RC Edition",
+          "years": [
+            2025
+          ],
+          "notes": ""
+        }
+      ],
+      "fitment_source_url": "https://cyclenews.com/2024/12/article/triumph-2024-25-tf-250-x-aluminum-skidplates",
+      "what_it_changes": "Replaces brake carrier; replaceable fin.",
+      "supporting_parts": "None stated.",
+      "where_to_buy": [
+        {
+          "seller": "Enduro Engineering (MSRP via Cycle News)",
+          "url": "https://www.enduroeng.com/",
+          "price_if_stated": 109.95,
+          "currency": "USD",
+          "date": "2026-10-14"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Fitment and MSRP from Cycle News product release (Dec 2024); EE site not fetched.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-ee-deflectors",
+      "category": "protection",
+      "subcategory": "handguards",
+      "brand": "Enduro Engineering",
+      "product": "Full Wrap Aluminum Debris Deflectors (pair)",
+      "part_numbers": [
+        "50-5214"
+      ],
+      "variants": "",
+      "platform_ids": [
+        "tf250",
+        "tf450"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2024,
+            2025
+          ],
+          "notes": ""
+        },
+        {
+          "make": "Triumph",
+          "model": "TF 450-RC Edition",
+          "years": [
+            2025
+          ],
+          "notes": ""
+        }
+      ],
+      "fitment_source_url": "https://cyclenews.com/2024/12/article/triumph-2024-25-tf-250-x-aluminum-skidplates",
+      "what_it_changes": "Wrap-around handguards.",
+      "supporting_parts": "Fits Renthal FatBar, Neken 1-1/8, ProTaper 1-1/8 bars.",
+      "where_to_buy": [
+        {
+          "seller": "Enduro Engineering (MSRP via Cycle News)",
+          "url": "https://www.enduroeng.com/",
+          "price_if_stated": 67.95,
+          "currency": "USD",
+          "date": "2026-10-14"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Fitment and MSRP from Cycle News product release (Dec 2024); EE site not fetched.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-ee-openmount",
+      "category": "protection",
+      "subcategory": "handguards",
+      "brand": "Enduro Engineering",
+      "product": "Open-Ended Aluminum Mount (pair)",
+      "part_numbers": [
+        "53-1020"
+      ],
+      "variants": "",
+      "platform_ids": [
+        "tf250",
+        "tf450"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2024,
+            2025
+          ],
+          "notes": ""
+        },
+        {
+          "make": "Triumph",
+          "model": "TF 450-RC Edition",
+          "years": [
+            2025
+          ],
+          "notes": ""
+        }
+      ],
+      "fitment_source_url": "https://cyclenews.com/2024/12/article/triumph-2024-25-tf-250-x-aluminum-skidplates",
+      "what_it_changes": "Open-ended roost deflector mounts (EE: 'strongest on the market').",
+      "supporting_parts": "Plastic roost deflector 51-220 to 51-229.",
+      "where_to_buy": [
+        {
+          "seller": "Enduro Engineering (MSRP via Cycle News)",
+          "url": "https://www.enduroeng.com/",
+          "price_if_stated": 59.95,
+          "currency": "USD",
+          "date": "2026-10-14"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Fitment and MSRP from Cycle News product release (Dec 2024); EE site not fetched.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-axp-ax1783",
+      "category": "protection",
+      "subcategory": "skid plate",
+      "brand": "AXP Racing",
+      "product": "Skid Plate with Linkage Guard, 8mm HDPE (Triumph TF 250-X / TF 250-E 2025-26)",
+      "part_numbers": [
+        "AX1783"
+      ],
+      "variants": "Black",
+      "platform_ids": [
+        "tf250"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2025,
+            2026
+          ],
+          "notes": ""
+        },
+        {
+          "make": "Triumph",
+          "model": "TF 250-E",
+          "years": [
+            2025,
+            2026
+          ],
+          "notes": ""
+        }
+      ],
+      "fitment_source_url": "https://dirtbikespec.com/product/axp-triumph-skid-plate-2025-26-tf-250-x-tf-250-e-with-linkage-guard-black-ax1783/",
+      "what_it_changes": "Covers frame, water pump, cases, linkage; 30-40% lighter than aluminium, 1.5 kg (maker).",
+      "supporting_parts": "Hardware included.",
+      "where_to_buy": [
+        {
+          "seller": "DirtBikeSpec",
+          "url": "https://dirtbikespec.com/product/axp-triumph-skid-plate-2025-26-tf-250-x-tf-250-e-with-linkage-guard-black-ax1783/",
+          "price_if_stated": null,
+          "currency": null,
+          "date": null
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-axp-phd6-250",
+      "category": "protection",
+      "subcategory": "skid plate",
+      "brand": "AXP Racing",
+      "product": "Skidplate PHD 6mm (Triumph TF 250-X 2024-25)",
+      "part_numbers": [],
+      "variants": "Black",
+      "platform_ids": [
+        "tf250"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2024,
+            2025
+          ],
+          "notes": ""
+        }
+      ],
+      "fitment_source_url": "https://www.revzilla.com/motorcycle/axp-racing-skidplate-phd-6-mm-triumph-tf-250-x",
+      "what_it_changes": "6mm HDPE plate protecting subframe and cases.",
+      "supporting_parts": "None stated.",
+      "where_to_buy": [
+        {
+          "seller": "RevZilla",
+          "url": "https://www.revzilla.com/motorcycle/axp-racing-skidplate-phd-6-mm-triumph-tf-250-x",
+          "price_if_stated": null,
+          "currency": null,
+          "date": null
+        },
+        {
+          "seller": "Karkkainen (FI)",
+          "url": "https://www.karkkainen.com/verkkokauppa/axp-skid-plate-phd-6mm-black-triumph-tf250-x-24-25",
+          "price_if_stated": null,
+          "currency": null,
+          "date": null
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Price unclear on RevZilla (~$99.95 by metadata). No AXP PN seen. Acerbis also lists a Triumph skid plate (https://marketing1.acerbis.com/motorsport/10029-skid-plates/10567-triumph/298692) - not fetched.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-rtech-plastics",
+      "category": "plastics",
+      "subcategory": "full plastic kit",
+      "brand": "Rtech (R-Tech)",
+      "product": "Replica Plastic Kit, Triumph TF 250-X / 450-RC, Grey/Black",
+      "part_numbers": [
+        "R-KITTRI-GR0-025"
+      ],
+      "variants": "Grey with black airbox cover",
+      "platform_ids": [
+        "tf250",
+        "tf450"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2024,
+            2025
+          ],
+          "notes": "page fitment table also says 2026"
+        },
+        {
+          "make": "Triumph",
+          "model": "TF 450-RC Edition",
+          "years": [
+            2025
+          ],
+          "notes": ""
+        }
+      ],
+      "fitment_source_url": "https://www.cpd-usa.com/shop/rtech-r-kittri-gr0-025-rtech-replica-plastic-kit-for-triumph-tf-250-x-450-rc-2024-2025-greyblack-56478",
+      "what_it_changes": "Complete replacement bodywork: shrouds, side panels, airbox cover, fenders, fork guards, number plate.",
+      "supporting_parts": "None.",
+      "where_to_buy": [
+        {
+          "seller": "CPD USA",
+          "url": "https://www.cpd-usa.com/shop/rtech-r-kittri-gr0-025-rtech-replica-plastic-kit-for-triumph-tf-250-x-450-rc-2024-2025-greyblack-56478",
+          "price_if_stated": 175.99,
+          "currency": "USD",
+          "date": "2026-10-14"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "2026 bodywork may differ; confirm.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-blackbird-seatcover",
+      "category": "seats",
+      "subcategory": "seat cover",
+      "brand": "Blackbird Racing",
+      "product": "Pyramid Seat Cover, Black (Triumph TF 250-X 24-25)",
+      "part_numbers": [
+        "1H00G"
+      ],
+      "variants": "Black Pyramid (PMD)",
+      "platform_ids": [
+        "tf250"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2024,
+            2025
+          ],
+          "notes": ""
+        }
+      ],
+      "fitment_source_url": "https://www.oro2u.com/triumph-tf-250x-24-25-black-pyramid-seat-cover-blackbird-1h00g",
+      "what_it_changes": "Replacement grip seat cover.",
+      "supporting_parts": "None.",
+      "where_to_buy": [
+        {
+          "seller": "Oro2u (UK B2B, retail price)",
+          "url": "https://www.oro2u.com/triumph-tf-250x-24-25-black-pyramid-seat-cover-blackbird-1h00g",
+          "price_if_stated": 56.82,
+          "currency": "GBP",
+          "date": "2026-10-14"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Out of stock at check.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-triumph-mxtunepro",
+      "category": "ecu",
+      "subcategory": "tuning app + WiFi module",
+      "brand": "Triumph (genuine)",
+      "product": "MX Tune Pro app with Triumph Wifi Module Kit",
+      "part_numbers": [],
+      "variants": "10 maps (OE + 9 condition maps), separate Akrapovic maps",
+      "platform_ids": [
+        "tf250"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [],
+          "notes": "app page names TF 250-X only"
+        }
+      ],
+      "fitment_source_url": "https://www.triumphmotorcycles.com/owners/off-road/app",
+      "what_it_changes": "Edits Map 2 (Map 1 stays full power), launch & traction control per map, error codes, hours/service log, live rpm/throttle.",
+      "supporting_parts": "Genuine Triumph Wifi Module Kit (PN not stated); Athena LC-GPA for race/training switch.",
+      "where_to_buy": [
+        {
+          "seller": "Triumph off-road dealer",
+          "url": "https://www.triumphmotorcycles.com/owners/off-road/app",
+          "price_if_stated": null,
+          "currency": null,
+          "date": null
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Likely already in genuine accessory catalog - dedupe. MXA: 2025 maps can be flashed onto MY24 TF 250-X by dealers.",
+      "confidence": "high"
+    },
+    {
+      "id": "tf-athena-lcgpa",
+      "category": "ecu",
+      "subcategory": "launch/traction module",
+      "brand": "Athena (GET)",
+      "product": "LC-GPA Launch Control Module (Triumph dealer accessory)",
+      "part_numbers": [],
+      "variants": "",
+      "platform_ids": [
+        "tf250"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2025
+          ],
+          "notes": "MXA first look lists it as dealer competition accessory"
+        }
+      ],
+      "fitment_source_url": "https://motocrossactionmag.com/first-look-2025-triumph-tf250-x",
+      "what_it_changes": "Rider-selectable launch and traction control with LED rpm indicator.",
+      "supporting_parts": "MX Tune Pro app to switch race/training mode.",
+      "where_to_buy": [
+        {
+          "seller": "Triumph off-road dealer",
+          "url": "https://www.triumphmotorcycles.com/owners/off-road/app",
+          "price_if_stated": null,
+          "currency": null,
+          "date": null
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Sold via Triumph; PN not found; check genuine catalog for dedupe.",
+      "confidence": "medium"
+    },
+    {
+      "id": "tf-worksconn-oilcap",
+      "category": "engine",
+      "subcategory": "oil filler cap",
+      "brand": "Works Connection",
+      "product": "Oil filler cap (fitted to TF250-X by MXA)",
+      "part_numbers": [],
+      "variants": "",
+      "platform_ids": [
+        "tf250"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2024
+          ],
+          "notes": "MXA race test"
+        }
+      ],
+      "fitment_source_url": "https://motocrossactionmag.com/mxa-race-test-2024-triumph-tf250-x",
+      "what_it_changes": "Replaces stock cap that a boot can knock loose (MXA).",
+      "supporting_parts": "",
+      "where_to_buy": [],
+      "rider_feedback": [
+        {
+          "source": "MXA race test",
+          "author": "MXA staff",
+          "date": "2024-10-28",
+          "summary": "Stock oil cap can be knocked loose by boot; testers used a Works Connection cap.",
+          "conditions": "Race test",
+          "url": "https://motocrossactionmag.com/mxa-race-test-2024-triumph-tf250-x"
+        }
+      ],
+      "caveats": "No PN; product existence inferred from article.",
+      "confidence": "unverified"
+    },
+    {
+      "id": "tf-acerbis-peg-covers",
+      "category": "controls",
+      "subcategory": "footpeg hinge covers",
+      "brand": "Acerbis",
+      "product": "Rubber footpeg hinge covers",
+      "part_numbers": [],
+      "variants": "",
+      "platform_ids": [
+        "tf250"
+      ],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [
+            2024
+          ],
+          "notes": "MXA race test"
+        }
+      ],
+      "fitment_source_url": "https://motocrossactionmag.com/mxa-race-test-2024-triumph-tf250-x",
+      "what_it_changes": "Stops pegs packing with mud.",
+      "supporting_parts": "",
+      "where_to_buy": [],
+      "rider_feedback": [
+        {
+          "source": "MXA race test",
+          "author": "MXA staff",
+          "date": "2024-10-28",
+          "summary": "Stock pegs pack with mud; Acerbis hinge covers fitted.",
+          "conditions": "Muddy tracks",
+          "url": "https://motocrossactionmag.com/mxa-race-test-2024-triumph-tf250-x"
+        }
+      ],
+      "caveats": "Generic product; Triumph fitment unconfirmed.",
+      "confidence": "unverified"
+    }
+  ],
+  "gaps": [
+    "Stock spec (for KB context): KYB 48mm AOS coil fork + KYB shock, Brembo calipers, Galfer discs 260/220mm (Galfer is OEM supplier), DirtStar 7000 rims, ProTaper ACF bars, ODI grips, 7075 clamps (MXA 2025 TF250-X first look).",
+    "Pro Circuit part numbers come from Cycle Gear 'Manufacturer Product #' fields; procircuit.com not fetched.",
+    "TF 450-X / 450-E 2026 fitment rarely listed by aftermarket sellers yet; most 450 parts list only 2025 RC Edition / 2026 C.",
+    "No suspension tuner revalve service (Enzo, Factory Connection, Pro Circuit, Race Tech, Technical Touch) with Triumph-specific listing found; only FC fork springs.",
+    "Akrapovic aftermarket (non-Triumph) Evolution part numbers for TF not found; Partseurope pages need JavaScript.",
+    "No Wiseco, Vertex or JE piston for TF found in searches; only Pro-X.",
+    "Rekluse blog part numbers read from image filenames - verify.",
+    "MXA 2024 test: stock shock bottoming, low-end bog (mapping), notchy shifting, poor rear traction on 1.85 rim - tuning targets.",
+    "Rekluse blog mentions a Triumph recall for a new clutch centre hub and plates (years not stated)."
+  ],
+  "not_done": [
+    "HGS exhaust for TF - searched once, no result.",
+    "Sprockets/chains (Supersprox, Renthal, JT, RFX) - TF part numbers not found; RevZilla hints RFX 13T front sprocket for TF450C.",
+    "Wheels (Haan, Kite, Warp 9, Excel) - not found.",
+    "Galfer aftermarket rotors/pads for TF - Galfer page redirected, not fetched: https://galfer.com/moto/galfer-oem-supplier-for-the-new-triumph-250-x/",
+    "Linkages, bars/levers/pegs (beyond EE/X-Trig), cooling (fans, hoses), cams/gaskets, graphics (OMX: https://omxgraphics.com/motocross-graphics/triumph-mx-graphics, Factory Effex, D'Cor, Attack), seats (Guts) - not searched.",
+    "Vortex / GET / Twisted Development ECU - none found.",
+    "Triumph Racing team (MX2/SX) bike parts list - not found in budget.",
+    "Pro Circuit T-6 slip-on TF250X, Acerbis Triumph skid plate, Rocky Mountain ATV/MC TF250X parts list (https://www.rockymountainatvmc.com/parts/2024-triumph-tf-250-x?page=All) - not fetched."
+  ]
+}

@@ -27,7 +27,7 @@ the app needs a manufacturer-page fitment check per part (the evidence fields in
 | KTM family | 1: newest platforms (2023-2027), breadth across all five slices | Done 2026-10-14 | 112 products, 54 rider/tester findings, 11 project builds; 217 of 224 in-scope bike-years have at least one mapped part |
 | KTM family | 2: manufacturer confirmation, missing brands and categories, 85 SX, more feedback | Done 2026-10-14 | 210 products (32 high, 123 medium, 55 unverified), 276 part numbers, 83 findings, 17 builds; all 224 in-scope bike-years have mapped parts |
 | KTM family | 3: full dealer and retailer catalogs (every brand), company registry | In progress 2026-10-14 | KTM Twins 968 listings (59 brands), Lings 1,463 official Husqvarna / GasGas / KTM accessories, Cycle Gear crawl running; 233-company registry in companies/COMPANIES.md |
-| Triumph | 1 | Queued | |
+| Triumph | 1: genuine accessories (official dealer catalog), aftermarket search, rider and tester feedback | Done 2026-10-14 | 125 products (76 Triumph genuine accessories from triumphpartstore.com, 49 aftermarket: 5 high, 35 medium, 9 unverified), 31 findings, 5 builds; all 9 TF bike-years mapped. Cycle Gear TF listings follow in the crawl |
 | Yamaha | 1 | Queued | |
 | Honda | 1 | Queued | |
 | Kawasaki | 1 | Queued | |
@@ -93,3 +93,19 @@ sellers merged), `BRANDS.md`, and `CATALOG.md` (researched parts, rider findings
 MotoSport fitment (loaded by script; its product pages are used for part numbers only), AOMC, Partzilla, Rocky Mountain
 (bot protection), Honda and Kawasaki genuine-accessory catalogs. Next readable sources found: yamahaonlineparts.com (GYTR,
 store feed) and triumphpartstore.com (Triumph TF accessories, server-rendered fitment tables).
+
+## Triumph: what pass 1 found
+
+Sources: the official US dealer catalog (triumphpartstore.com, 76 genuine accessories with part number, price and the TF
+catalogue and year each is listed under), maker pages (Rekluse, Triumph MX Tune Pro), retailers, and tests (MXA, Keefer Inc,
+Vital MX, Cycle News, Dirt Bike, Australian tests). Files: `triumph/dealer-triumph-genuine.json`, `triumph/triumph-aftermarket.json`,
+`triumph/triumph-feedback.json`, built into `triumph/CATALOG.md`, `BRANDS.md` and `bikes/`.
+
+Main findings: Pro Circuit, FMF, Yoshimura, Rekluse, Hinson, Pro-X, Enduro Engineering, AXP and X-Trig list TF parts with part
+numbers; the FMF 4.1 Ti / Megabomb on the TF 250-X is the only aftermarket exhaust with a rider test (stronger 2nd-3rd gear pull,
+slightly softer off idle); testers agree the stock springs are soft above about 80 kg, run 100-104 mm rear sag, and want a 110
+rear tire; gearing is split (13/48 stock vs 13/49); the 2025 ECU maps can be dealer-flashed onto a 2024 TF 250-X; Rekluse
+reports a Triumph recall of the TF 250-X clutch centre hub and plates (years not given). Six records have no stated years and
+stay unmapped. Still to do: HGS and Akrapovič aftermarket numbers, Wiseco / Vertex / JE pistons, suspension tuner services,
+ECU tuners, sprockets, wheels, rotors, bars and controls, graphics, seats, and factory-team bike parts lists; 2026 TF 450-X /
+450-E fitment is thin everywhere.
