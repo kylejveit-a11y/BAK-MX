@@ -655,3 +655,95 @@ body{color:var(--ink);letter-spacing:-.005em}
 .bottom-nav button{border-radius:10px;border:1px solid transparent;color:#8f98a8;font-weight:600}
 .bottom-nav button.active{color:#fff;background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.08);box-shadow:none}
 .mobile-toggle{border-radius:var(--r-ctl)}
+
+/* ---------------------------------------------------------------------------------------------------------------
+   Open layout, 2026-10-14: the page is one surface. No boxed cards, no bubbles; content sits on the background,
+   separated by whitespace and hairline dividers, the way a modern chat app reads. Steel stays for the one primary
+   action and the BAK wordmark. Overrides the passes above.
+   --------------------------------------------------------------------------------------------------------------- */
+:root{--line:rgba(255,255,255,.07);--line-strong:rgba(255,255,255,.12);--soft:rgba(255,255,255,.035);--soft-2:rgba(255,255,255,.065)}
+html,body,:root{background:#08090c}
+.page-heading{margin:14px 0 30px}.page-heading h1{font-weight:700;letter-spacing:-.035em}.page-heading p{color:#8d95a3}
+
+/* surfaces: what used to be a card becomes a section */
+.panel,.stat,.claim-list article,.rules,.history,.action-card,.feed .panel.post,.feed .panel.event,.account-layout .panel{background:none;border:0;border-radius:0;box-shadow:none}
+.panel{padding:8px 0 30px;border-bottom:1px solid var(--line)}
+.panel:last-child{border-bottom:0}
+.panel+.panel,.panel+.account-layout,.account-layout+.panel,.account-layout .panel+.panel,section.panel~section.panel,.setup-log,.setup-guide,.parts-catalog,.calculator{margin-top:30px}
+.panel>h2:first-child,.panel-title h2,.panel-title h3{font-size:21px;font-weight:700;letter-spacing:-.03em}
+.stat{padding:14px 0;border-bottom:1px solid var(--line)}
+.feed{gap:0}
+.feed .panel.post,.feed .panel.event{padding:26px 0;border-bottom:1px solid var(--line)}
+.feed .panel.post:last-child,.feed .panel.event:last-child{border-bottom:0}
+.post-foot{border-top:0;padding-top:4px}
+.comment{padding:12px 0;border-bottom:1px solid var(--line);background:none;border-radius:0}
+.event-date{background:var(--soft);border:0}
+.rider-strip{padding:0 0 26px;margin:0 0 30px;border:0;border-bottom:1px solid var(--line);background:none;border-radius:0;box-shadow:none}
+.notice{background:none;border:0;border-left:2px solid var(--line-strong);border-radius:0;padding:8px 14px;color:#aab3c4}
+
+/* home: actions are rows with an icon, a title and a chevron */
+.action-grid{gap:0;display:flex;flex-direction:column}
+.action-card{position:relative;padding:20px 32px 20px 46px;border-bottom:1px solid var(--line)}
+.action-card:last-child{border-bottom:0}
+.action-card:hover{background:var(--soft);border-color:var(--line)}
+.action-card-top{position:absolute;left:6px;top:22px;color:#c9d2e0}
+.action-card .eyebrow{display:none}
+.action-card h3{font-family:inherit;font-size:17px;font-weight:600;letter-spacing:-.01em;margin:0 0 3px}
+.action-card p{font-size:14px;color:#8d95a3;margin:0}
+.action-card::after{content:'';position:absolute;right:10px;top:50%;width:7px;height:7px;border-right:1.5px solid #6f7786;border-top:1.5px solid #6f7786;transform:translateY(-50%) rotate(45deg)}
+.hero{background:none}
+.chat-launch{background:var(--soft);border:1px solid var(--line-strong);border-radius:18px;box-shadow:0 24px 70px rgba(0,0,0,.45)}
+.chat-launch:hover{background:var(--soft-2)}
+
+/* forms: soft fields on the page, no second box */
+.field input,.field select,.field textarea,.inline-form input,.inline-form textarea,.spec-search input{background:var(--soft);border:1px solid transparent;border-radius:12px}
+.field input:hover,.field select:hover,.field textarea:hover{background:var(--soft-2)}
+.field input:focus,.field select:focus,.field textarea:focus,.inline-form input:focus,.inline-form textarea:focus{background:var(--soft-2);border-color:var(--line-strong);box-shadow:none}
+.button.secondary{background:var(--soft);border-color:transparent;box-shadow:none}
+.button.secondary:hover{background:var(--soft-2);border-color:transparent}
+.button.secondary.selected{background:#e8ecf2;color:#0b0d12;border-color:transparent;box-shadow:none}
+.glass-chip,.kind-tag,.bike-tag,.status-badge,.result-chip{background:var(--soft);border-color:transparent;border-radius:999px}
+.modal{background:#0d0f13;border:1px solid var(--line);border-radius:20px}
+
+/* menu: plain rows */
+.tools-menu{gap:0;background:#08090c}
+.tools-menu button,.tools-menu button.active{background:none;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:16px 6px}
+.tools-menu button:hover{background:var(--soft);border-color:var(--line)}
+.tools-menu button svg{display:inline-block;color:#aab3c4}
+.tools-menu b{font-size:16px;font-weight:600}.tools-menu small{color:#7f8898}
+.tools-menu button i{color:#c9d2e0}
+.menu-intro{display:none}
+
+/* chat: open thread, floating composer */
+.chat-page .chat-context,.chat-context{background:none;border-bottom:0}
+.chat-action{background:var(--soft);border:0;border-radius:999px;color:#dfe5ef}
+.chat-action:hover{background:var(--soft-2)}
+.chat-action.quiet{background:none;color:#8d95a3}
+.chat-action.danger{background:none;color:#f0b4ba}
+.chat-page .history{border-bottom:0}
+.chat-page .history-item,.history-item{background:none;border:0;border-radius:999px;color:#9aa3b2}
+.chat-page .history-item.active,.history-item.active{background:var(--soft-2);color:#fff}
+.prompt-chips{max-width:560px;gap:0;display:flex;flex-direction:column}
+.prompt-chips button{background:none;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:15px 6px;font-weight:500;text-align:left}
+.prompt-chips button:last-child{border-bottom:0}
+.prompt-chips button:hover{background:var(--soft)}
+.message{margin-bottom:34px}
+.message.user{max-width:78%;border:0;border-radius:20px 20px 6px 20px;background:var(--soft-2);box-shadow:none}
+.message.user .message-label{display:none}
+.message summary,details.response-specifications summary,.tier-list summary{background:var(--soft);border:0;border-radius:999px}
+.message details[open]>summary{background:var(--soft-2);color:#fff}
+.composer,.chat-page .composer{border-top:0;background:linear-gradient(180deg,rgba(8,9,12,0),#08090c 40%)}
+.chat-page .composer,.bars-hidden .chat-page .composer,.shell:has(.composer textarea:focus) .chat-page .composer{box-shadow:none}
+.composer textarea{background:#111318;border:1px solid var(--line-strong);border-radius:24px;box-shadow:0 18px 50px rgba(0,0,0,.5)}
+.composer textarea:focus{border-color:rgba(255,255,255,.22);box-shadow:0 18px 50px rgba(0,0,0,.5)}
+.send-button{border-radius:999px}
+
+/* header and bars: quieter */
+.app-header{background:rgba(8,9,12,.82);border-bottom:1px solid var(--line)}
+.mobile-toggle{background:var(--soft);border-color:transparent;border-radius:999px}
+@media(max-width:760px){
+.bottom-nav{border-radius:0;border:0;border-top:1px solid var(--line);background:rgba(8,9,12,.92);box-shadow:none}
+.bottom-nav button,.bottom-nav button.active{background:none;border-color:transparent}
+.action-card{padding:18px 28px 18px 40px}
+.feed .panel.post,.feed .panel.event{padding:22px 0}
+}
