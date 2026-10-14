@@ -32,6 +32,9 @@ Yamaha:
   model in a manual shared by two. Checked line for line against the rows loaded on 2026-10-09.
 - `yamaha_dampers.py`: Minimum / Standard / Maximum from the adjustment procedures, compared with every Soft / STD / Hard row.
 - `build_yamaha_specs.py`: jobs file `MODEL|YEAR|CODE|PDF` → payloads; a bike-year that fails the damper check is not written.
+- `yamaha_specs_2020.py`, `build_yamaha_specs_2020.py`: the older ruled-table layout of the 2020 two-stroke manuals (USA market
+  column only, Standard / Limit columns, mm values checked against their inch conversion) and the damper settings from the
+  adjustment procedures. Same jobs file format.
 - Yamaha's library lists manuals per model and year through the JSON endpoints its web app calls
   (`parts.yamaha-motor.co.jp/ypec_b2c/services/omb2c/model_year_list/` and `model_list/`, POST, `baseCode` 6150, `langId` 02).
 

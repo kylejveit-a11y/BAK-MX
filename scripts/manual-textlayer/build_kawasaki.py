@@ -47,8 +47,10 @@ for line in open(sys.argv[1]):
             rows.append((p,f'Service schedule / {s} / {op}',val,None)); nchart+=1; sec=s
     nsusp=0
     for side,pages in (('Front suspension',front),('Rear suspension',rear)):
-        o,pr=kawasaki_suspension.parse(pages,side); problems+=[('suspension',)+tuple(p) for p in pr]
+        o,pr=kawasaki_suspension.parse(pages,side,code); problems+=[('suspension',)+tuple(p) for p in pr]
         for p,path,v,u,note in o: rows.append((p,path,v,u)); nsusp+=1
+    bar=[r for r in rows if '|' in r[1] or '|' in str(r[2])]
+    if bar: problems.append(('field separator in a row',[r[1] for r in bar])); rows=[r for r in rows if r not in bar]
     paths=[r[1] for r in rows]; dup=[p for p in set(paths) if paths.count(p)>1]
     if dup:
         problems.append(('duplicate paths',dup)); rows=[r for r in rows if r[1] not in dup]

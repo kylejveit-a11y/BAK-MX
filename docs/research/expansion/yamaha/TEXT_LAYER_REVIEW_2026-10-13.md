@@ -50,8 +50,40 @@ see below), and the carburetor "Type × quantity" row on the two-strokes.
 - 2020 YZ250FX page 52 (front and rear suspension, 35 rows) rendered and compared row for row: identical.
 - No path occurs twice for a bike; every damper group has its Soft, STD and Hard value.
 
+## 2020 two-strokes (added 2026-10-14)
+
+| Bike | Manual | Rows | Dampers |
+|---|---|---|---|
+| YZ125 2020 | `B0V-28199-11` (covers YZ125 and YZ125X) | 180 | 15 |
+| YZ125X 2020 | `B0V-28199-11` | 181 | 15 |
+| YZ250 2020 | `B9U-28199-11` (covers YZ250 and YZ250X) | 179 | 15 |
+| YZ250X 2020 | `B9U-28199-11` | 180 | 15 |
+
+These manuals use an older layout, read by `yamaha_specs_2020.py` / `build_yamaha_specs_2020.py`:
+
+1. GENERAL SPECIFICATIONS (item | value) and MAINTENANCE SPECIFICATIONS (item | Standard | Limit) are ruled tables; the
+   table's own vertical rules give the columns. Where a value differs by market the Standard cell is split by an inner rule
+   under a header such as "USA, CAN, EUROPE, NZ, ZA | AUS"; only the sub-column whose header names USA is read, and a split
+   whose first column does not name USA stops the bike-year. Market-tagged value lines ("B9U5 (USA, CAN)") keep the USA line.
+2. Model rows ("YZ250" / "YZ250X" sub-headings, or a "(YZ250X)" tag on the label) go to that model only.
+3. A Limit-column value is stored as "<label> limit"; a label that already says "limit" ("Runout limit") keeps its name for
+   the limit and its standard value is stored as "<name> (standard)". "Quantity" / "Operation" rows are named after the row
+   they belong to ("Friction plate quantity", "Front brake operation").
+4. Every millimetre value printed with an inch conversion is checked against it. Two rows fail and are not stored: the
+   clutch housing radial clearance (B9U prints 0.03–0.05 mm as 0.0012–0.0022 in; B0V prints 0.01–0.04 mm as
+   0.0006–0.0018 in). The B0V model-code row lists two US codes without naming the model, so it is not stored either.
+5. The damper settings are not in the specification table in this layout. They are read from the adjustment procedures
+   ("ADJUSTING THE FRONT FORK REBOUND DAMPING FORCE" ... "HIGH COMPRESSION DAMPING FORCE"): "Extent of adjustment" gives
+   Maximum = fully turned in (stored as Hard 0) and Minimum = N clicks / turns out (Soft); "Standard position" gives the
+   per-model standard (STD), stored as printed, including ranges ("10–13 clicks out") and tolerances ("1-5/8±1/6 turns").
+   All five dampers with all three values are required. There is no second copy in the table to cross-check against.
+6. The general and maintenance tables both print the carburetor type; one copy is kept when they agree, otherwise the
+   bike-year stops. The YZ125 carburetor type is stored as printed ("TMXχ38SS/MIKUNI").
+7. Rendered and compared by eye: B9U pages 2-1 (dimensions, market split) and 2-7 (chassis, market split, model rows), and
+   the four standard-position blocks per manual.
+
+Loaded through `private.stage_manual_rows` with an empty base: 4 of 4 hashes matched, 720 rows staged and verified.
+
 ## Still missing in the launch scope
 
-| Manual | Why |
-|---|---|
-| YZ125 / YZ125X 2020 (`B0V-28199-11`), YZ250 / YZ250X 2020 (`B9U-28199-11`) | Older layout: regional value columns ("USA, CAN" / "EUROPE, NZ, ZA" / "AUS", "←" = same as the first column), a Standard / Limit table, and the damper settings in the setting chapter rather than the specification table. Needs its own reader; the service schedule for these four bike-years is on file (`SCHEDULE_REVIEW_2026-10-13.md`). |
+None for Yamaha specification tables: every 2020-2027 motocross and cross-country model year in scope is on file.

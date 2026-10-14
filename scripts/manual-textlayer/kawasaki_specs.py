@@ -30,6 +30,7 @@ def tsv(path):
 def fix(s):
     s=s.replace('Ib','lb').replace('cm?','cm³').replace('cm3','cm³').replace('cm®','cm³').replace('cm*','cm³').replace('N-m','N·m').replace('N·m','N·m').replace('ft-lb','ft·lb').replace('in-lb','in·lb')
     s=s.replace('—','-').replace('–','-')
+    s=re.sub(r'cm³[®*]',r'cm³',s); s=re.sub(r'US 0[2z]\.\)','US oz.)',s); s=s.replace('US gt)','US qt)'); s=re.sub(r'\bFl \(Fuel','FI (Fuel',s)
     return s
 def metric(v):
     """'2 180 mm (85.83 in.)' -> ('2180','mm','85.83','in') ; None when no bracketed conversion."""
@@ -87,6 +88,11 @@ def parse(pages,code=None):
             if r:
                 if abs(float(r.group(1))-int(r.group(2))/int(r.group(3)))>0.0006: problems.append(('ratio mismatch',pi,label,value)); continue
                 value=f'{r.group(1)} ({r.group(2)}/{r.group(3)})'
+            # a value with no conversion to check it against is kept only when it reads cleanly
+            if re.search(r"[^A-Za-z0-9 .,/()\-:@°%+×'’&;®³]",value) or re.search(r'\s=|=\s|\s\*\s',value):
+                problems.append(('unreadable value',pi,label,value)); continue
+            if re.search(r'Caster',label) and not re.fullmatch(r'\d{2}\.\d°',value):
+                problems.append(('caster not d.d°',pi,label,value)); continue
             out.append((pi,f'{section} / {label}',value,None,False))
     return out,problems
 if __name__=='__main__':

@@ -44,8 +44,11 @@ def frac(v):
     if m: return int(m.group(1))+(int(m.group(2))/int(m.group(3)) if m.group(2) else 0)
     m=re.match(r'^(\d+)/(\d+)$',v)
     return int(m.group(1))/int(m.group(2)) if m else None
-def parse(pages,side):
-    """pages: [(page number, image path)], side: 'Front suspension' or 'Rear suspension'. Returns rows and problems."""
+NAMES=['Rebound damping','Compression damping','High speed compression damping','Low speed compression damping']
+CODE=re.compile(r'^K[XC]\s?(\d{3})\s?([A-Z])(?![A-Za-z0-9])[_\W]*(.*)$')
+def parse(pages,side,code=None):
+    """pages: [(page number, image path)], side: 'Front suspension' or 'Rear suspension', code: the model code (KX252D) that
+    picks the row when one manual prints a setting per model ("KX252C 11 clicks *" / "KX252D 13 clicks *")."""
     out=[]; problems=[]
     text=[]
     for pi,path in pages:
@@ -63,8 +66,21 @@ def parse(pages,side):
             name=re.sub(r'Dampin\w*','Damping',name)
             if not re.search(r'Damping',name): continue
             name=name[0]+name[1:].lower()                          # "High speed compression damping"
+            import difflib
+            snap=difflib.get_close_matches(name,NAMES,n=1,cutoff=0.8)   # an OCR slip in the heading ("Re sound damping")
+            if not snap: problems.append((pi,'unknown damper name',name)); continue
+            name=snap[0]
             while j<len(lines) and not lines[j]: j+=1
-            v=VAL.search(lines[j]) if j<len(lines) else None
+            coded=[]; k=j
+            while k<len(lines) and (CODE.match(lines[k]) or not lines[k]):
+                m2=CODE.match(lines[k])
+                if m2: coded.append(('KX'+m2.group(1)+m2.group(2),m2.group(3)))
+                k+=1
+            if coded:                                              # one row per model code
+                mine=[t for c,t in coded if c==code]
+                if len(mine)!=1: problems.append((pi,'model row not found',name,code,coded)); continue
+                v=VAL.search(mine[0])
+            else: v=VAL.search(lines[j]) if j<len(lines) else None
             if not v: problems.append((pi,'no value after',l,lines[j] if j<len(lines) else '')); continue
             val,unit=v.group(1),v.group(2).lower().rstrip('s')
             rng=[r for r in RANGE.findall(page)]

@@ -34,6 +34,16 @@ def ocr(im,psm=7):
     with tempfile.NamedTemporaryFile(suffix='.png',delete=False) as f: im.save(f.name); n=f.name
     r=subprocess.run(['tesseract',n,'-','--psm',str(psm)],capture_output=True,text=True); os.remove(n)
     return re.sub(r'\s+',' ',r.stdout).strip()
+SECTIONS=['Periodic Inspection (Engine Related Item)','Periodic Inspection (Chassis Related Item)',
+          'Periodic Replacement (Engine and Chassis Related Item)','Periodic Replacement Parts']
+def clean_section(s):
+    """The grid titles are a fixed set; an OCR slip in one ("Enaine") is snapped to the nearest title, anything else is kept as read."""
+    import difflib
+    m=difflib.get_close_matches(s,SECTIONS,n=1,cutoff=0.9)
+    return m[0] if m else s
+def clean_op(op):
+    """The cell's left rule can read as "|" or "[" in front of the operation."""
+    return re.sub(r'^[\s|\[\]]+','',op).strip()
 def parse(path,prev_section=None):
     im=page(path); a=np.array(im)
     h,v=grid(a)
@@ -76,12 +86,13 @@ def parse(path,prev_section=None):
             elif span.strip(): problems.append(('text in frequency columns',span))
         notes=[]
         op=re.sub(r'[\s|]+$','',op)                                   # the cell's right rule reads as "|"
+        op=clean_op(op)                                                # and its left rule as "|" or "["
         op=re.sub(r'(\w)- (\w)',r'\1\2',op)                            # a word wrapped inside the cell ("piv- ots")
         if re.search(r'\s[†+tTfF]{1,2}$',op): notes.append('†: replace, add, adjust, clean or torque if necessary'); op=re.sub(r'\s[†+tTfF]{1,2}$','',op)
         if re.match(r'^K\s',op): notes.append('K: serviced by referring to the service manual or an authorized Kawasaki dealer'); op=op[2:]
         op=op.strip()
         if not marks: problems.append(('no mark',op)); continue
-        out.append((section,op,'; '.join(marks+notes)))
+        out.append((clean_section(section) if section else section,op,'; '.join(marks+notes)))
     return out,problems
 if __name__=='__main__':
     sec=None
