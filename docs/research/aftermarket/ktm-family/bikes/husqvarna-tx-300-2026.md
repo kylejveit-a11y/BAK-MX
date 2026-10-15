@@ -1,6 +1,6 @@
 # Husqvarna TX 300 2026: aftermarket parts
 
-3885 listings whose stated fitment names this bike: 13 researched parts (with what they change and rider findings), 422 dealer and retailer listings specific to this bike, and 3450 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+3885 listings whose stated fitment names this bike: 13 researched parts (with what they change and rider findings), 420 dealer and retailer listings specific to this bike, and 3452 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -9,9 +9,9 @@
 | Bullet Proof Designs | Bullet Proof Designs Radiator Braces/Guards, KTM/Husqvarna/GasGas |  | 6061 billet frame-mounted guards; claims no adverse effect on airflow and compatible with fan kits. | A single SKU across 2017-2026 is doubtful given the 2023 chassis change; AOMC listing is '17-23' (possible SKU KTM-RG-19, not verified). 85 SX not covered. | [Dirt Bike Spec](https://dirtbikespec.com/product/bulletproof-designs-radiator-guards-ktm-husqvarna/) | unverified |
 | Trail Tech | Trail Tech Fan Kit KTM/Husqvarna/GasGas '23-'24 | 732-FN17 (retailer code TT732FN17) | Adds 4-inch SPAL fan, adjustable trigger via fin sensor (no hose cutting), TTV temp gauge. 12V DC, 30 W. | Title says '23-'24 but list runs to 2026. SX models not listed (no lighting/charging assumptions verified). | [THS Moto (NZ)](https://www.thsmoto.co.nz/products/tt732fn17) | medium |
 | X-Grip | X-Grip Silicone Radiator Hoses, KTM/Husqvarna/GasGas 250-300 2T 2023-up | XG-2721-001 (black), XG-2721-009 (red, per retailer URL) | Multi-layer reinforced silicone; claims higher temp/pressure tolerance. | Years after 2024 inferred from '2023-Up'. | [CPD USA](https://www.cpd-usa.com/shop/xgrip-xg-2721-001-x-grip-silicone-radiator-hoses-for-ktm-husqvarna-and-gasgas-250-300-bikes-2023-up-black-54423) | medium |
-| FMF | Gnarly pipe, KTM/Husqvarna/GasGas 250/300 TBI | 025289 | FMF claim: more low-rpm horsepower and torque, a 4-stroke-like bottom end. Weight listed as 5.7 lb. | FMF declares it a 'replacement part'; no install instructions posted. | [FMF Racing](https://www.fmfracing.com/products/gnarly-025289) | high |
 | FMF | Factory Fatty pipe, KTM/Husqvarna/GasGas 250/300 TBI | 025290 | FMF claim: broader, smoother power curve with more low end, midrange and over-rev. MXA 2023 dyno (pass-1 item fmf-factory-fatty-tbi-2023): 2023 KTM 300 SX 54.96 hp to 58.08 hp peak with PowerCore 2.1, | Resolves pass-1 gap: this is the part number for the Factory Fatty in pass-1 fmf-factory-fatty-tbi-2023. Sold out on FMF site 2026-10-14. FMF also lists TE/XC-W | [FMF Racing](https://www.fmfracing.com/products/factory-fatty-025290) | high |
 | FMF | Fatty pipe (Gold Series), KTM/Husqvarna/GasGas 250/300 TBI | 025288 | FMF: broadens and smooths power with more low-end, midrange and over-rev, better tractability; Tru-Flo stamped; works with FMF or stock silencer; 5.0 lbs. | Enduro fitments (XC-W/TE/EC) also listed, out of scope. | [FMF Racing (manufacturer)](https://www.fmfracing.com/products/fatty-025288) | high |
+| FMF | Gnarly pipe, KTM/Husqvarna/GasGas 250/300 TBI | 025289 | FMF claim: more low-rpm horsepower and torque, a 4-stroke-like bottom end. Weight listed as 5.7 lb. | FMF declares it a 'replacement part'; no install instructions posted. | [FMF Racing](https://www.fmfracing.com/products/gnarly-025289) | high |
 | FMF | PowerCore 2.1 silencer, 250/300 TBI | 025294 | FMF claim: smooth power curve, larger canister for longer packing life, lighter than stock. MXA (2023 TC250, silencer only): less bottom snap, more mid/top. | Sold out on FMF site 2026-10-14. FMF lists TC 300 for 2025 only (pipe 025290 lists 2025 and 2027). | [FMF Racing](https://www.fmfracing.com/products/powercore-2-1-025294) | high |
 | FMF | Factory Fatty pipe + PowerCore 2.1 silencer (2023 KTM 250/300 SX TBI application) | 025290 | FMF: modeled on cone-style factory 'works' pipes; broadens and smooths the power curve with claimed gains in low-end, midrange and over-rev. 20-gauge body, 19-gauge header, hand-pounded seams, O-rings | Part number covers the pipe only; the PowerCore 2.1 silencer part number is still unconfirmed. Sold out on FMF at capture. FMF page also lists enduro XC-W/TE/EC | [FMF Racing (MXA-quoted pricing)](https://motocrossactionmag.com/mxa-team-tested-fmf-2023-ktm-250-300sx-pipe-silencer) | high |
 | Motoes | Handmade Pipe for KTM-Husky-GasGas TBI 250-300 2T 2023-26 |  | Seller claim: more torque and power for hard European enduro terrain. | Small-maker product; out of stock at time of check. | [True North Motos](https://truenorthmotos.com/product/handmade-pipe-for-ktm-husky-gasgas-tbi-250-300-2t-2023-24/) | unverified |
@@ -166,20 +166,20 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Vortex Racing | Vortex Front Sprocket KTM / Husqvarna / Gas Gas / Beta / Husaberg 125cc-530cc 1991-2027 | 3224-13, 3224-14 | 26.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/vortex-front-sprocket-ktm-husqvarna-gas-gas-beta-husaberg-125cc-530cc-1991-2024) |
 | Vortex Racing | Vortex Steel Rear Sprocket CFMoto / KTM / Husqvarna / Gas Gas / Stark / Husaberg / AJP / Triumph 125 | 316S-38, 316S-40, 316S-42, 316S-45, 316S-48, 316S-49, 316S-50, 316S-51, 316S-52 | 54.10 USD | [Cycle Gear](https://www.cyclegear.com/parts/vortex-steel-rear-sprocket-ktm-husqvarna-gas-gas-stark-husaberg-125cc-701cc-1991-2024) |
 
-### Controls (3)
+### Controls (2)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
 | Bullet Proof Designs | Bullet Proof Designs Throttle Housing | KTM-TH-23-BLK, KTM-TH-23-BLU, KTM-TH-23-ORG, KTM-TH-23-RED, KTM-TH-23-SIL | 159.99 USD | [MotoSport](https://www.motosport.com/bullet-proof-designs-throttle-housing) |
 | Nihilo | Nihilo Start / Stop Button | NC2BCS, NC2BCS-TRIUM | 112.99 USD | [MotoSport](https://www.motosport.com/nihilo-start-stop-button) |
-| ZETA | ZETA Handlebar Clamp Stabilizer | ZE33-2098, ZE33-3091, ZE33-3096, ZE33-3103 | 88.37 USD | [MotoSport](https://www.motosport.com/zeta-handlebar-clamp-stabilizer) |
 
-### Drive (6)
+### Drive (7)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
 | JT | JT Aluminum Rear Sprocket | JTA1308.42BLK, JTA1793.42BLK, JTA897.42BLK, JTA75.42BLK, JTA703.42BLK, JTA1308.43BLK, JTA478.43BLK, JTA486.43BLK, JTA75. | 27.32 USD | [MotoSport](https://www.motosport.com/jt-aluminum-rear-sprocket) |
 | KTM PowerParts | KTM PowerParts Supersprox 2K Rear Sprocket | 5841005103804, 5841005104004, 5841005104204, 5841005104404, 5841005104604, 5841005104804, 5841005104904, 5841005105004,  | 118.99 USD | [MotoSport](https://www.motosport.com/ktm-powerparts-supersprox-2k-rear-sprocket) |
+| Nihilo | Nihilo Ny-Lock Axle Nut | NSLN12BLU, NSLN12GMG, NSLN12ORG, NSLN12RED, NSLN14EUBLK, NSLN14EUBLU, NSLN14EUORG, NSLN14EURED, NSLN14EUSILVER, NSLN20BL | 34.99 USD | [MotoSport](https://www.motosport.com/nihilo-nylock-axle-nut) |
 | Polisport | Polisport Chain Guide | 8433400002, 8499600002, 8451900001, 8451200001, 8435900001, 8451700001, 8433400001, 8452500001, 8494000001, 8499600001,  | 17.99 USD | [MotoSport](https://www.motosport.com/polisport-chain-guide) |
 | Supersprox | Supersprox Aluminum Rear Sprocket | RAL-214-37-BLK, RAL-990-48-ORG, RAL-990-50-BLK, RAL-990-50-ORG, RAL-990-51-ORG | 62.96 USD | [MotoSport](https://www.motosport.com/supersprox-aluminum-rear-sprocket) |
 | Supersprox | Supersprox Stealth Rear Sprocket | RST-1306-42-GLD, RST-1800-42-GLD, RST-1306-43-GLD, RST-1334-43-GLD, RST-1800-43-GLD, RST-302-43-GLD, RST-488-43-GLD, RST | 107.96 USD | [MotoSport](https://www.motosport.com/supersprox-stealth-rear-sprocket) |
@@ -207,16 +207,21 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | TM Designworks | TM Designworks Factory Edition FX Rear Chain Guide KTM / Husqvarna / Gas Gas 125cc-500cc 2022-2027 | RCG-KT5-BK, RCG-KT5-BL2, RCG-KT5-OR, RCG-KT5-RD | 117.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/tm-designworks-factory-edition-fx-rear-chain-guide-ktm-husqvarna-gas-gas-125cc-500cc-2022-2024) |
 | TM Designworks | TM Designworks Factory Edition FX Rear Chain Guide Replacement Wear Pad KTM / Husqvarna / Gas Gas | 2527426 | 35.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/tm-designworks-factory-edition-fx-rear-chain-guide-replacement-wear-pad-ktm-husqvarna-gas-gas) |
 
-### Engine (15)
+### Engine (20)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
 | Boyesen | Boyesen Rad Valve Replacement Gasket | RG-30, RG-01A, RG-02, RG-02A, RG-03, RG-11, RG-12, RG-15, RG-20, RG-23, RG-25, RG-31, RG-33J, RG-40, RG-43, RG-10, RG-21 | 5.99 USD | [MotoSport](https://www.motosport.com/boyesen-rad-valve-replacement-gasket) |
 | Bullet Proof Designs | Bullet Proof Designs Clutch Cover | 99-YZ2T-CC-BLK, BPD-CC-17-SIL, BPD-CC-23-SIL, 99-YZ2T-CC-SIL, BPD-CC-23-HCA, BPD-CC-17-HCN | 212.00 USD | [MotoSport](https://www.motosport.com/bullet-proof-designs-clutch-cover) |
+| Hammerhead Designs | Hammerhead Designs Oil Filler Plug | 33-0101-00-60, 33-0341-00-30, 33-0451-00-50, 33-0561-00-40, 33-0561-00-60, 33-0341-00-60 | 29.99 USD | [MotoSport](https://www.motosport.com/hammerhead-designs-oil-filler-plug) |
 | Hinson | Hinson Oil Filler Cap | OC154X, OC213, OC230, OC255 | 19.99 USD | [MotoSport](https://www.motosport.com/hinson-oil-filler-cap) |
 | HOT RODS | HOT RODS Complete Crank Assembly | 4006, 4007, 4406, 4411, 4023, 4084, 4402, 4409, 4410, 4053, 4056, 4002, 4068, 4030, 4083, 4097, 4095, 4048, 4093, 4080,  | 505.35 USD | [MotoSport](https://www.motosport.com/hot-rods-complete-crank-assembly) |
 | HOT RODS | HOT RODS Needle Bearing | WB102, WB104, WB109-CL77, WB111, WB112, WB113, WB115, WB116, WB117, WB118, WB119, WB120, WB122, WB139, WB106, WB143, WB1 | 21.90 USD | [MotoSport](https://www.motosport.com/hot-rods-needle-bearing) |
+| Moose | Moose Clutch Cover Gasket | 09342094, 816046, 816061, 816102, 816132, 816135, 816167, 816202, 816217, 817009, 817565, 817679, 817680, 816227, 816230 | 6.99 USD | [MotoSport](https://www.motosport.com/moose-clutch-cover-gasket) |
+| Moose | Moose Gasket Set With Oil Seals | 811861, 811888, 811875, 811880, 811882, 811887, 811892, 811894, 811907, 811905, 811847, 811868, 811904, 811916-CL77, 811 | 137.12 USD | [MotoSport](https://www.motosport.com/moose-gasket-set-with-oil-seals) |
 | Moose | Moose Oil Seal Set | 822237, 822251, 822238, 822232, 822143, 822147, 822153, 822154, 822155, 822201, 822102mse, 822112mse, 822113mse, 822163m | 63.23 USD | [MotoSport](https://www.motosport.com/moose-oil-seal-set) |
+| Moose | Moose Top End Gasket Set | 810677, 810840, 810849, 810850, 810868, 810875, 810880, 810886, 810904, 810916, 810921, 810926, 810923, 810924, 810801,  | 72.98 USD | [MotoSport](https://www.motosport.com/moose-top-end-gasket-set) |
+| Moose | Moose Water Pump Rebuild Kit | 821006mse, 821007mse, 821008mse, 821009mse, 821010mse, 821983mse, 8210008mse | 47.65 USD | [MotoSport](https://www.motosport.com/moose-water-pump-rebuild-kit) |
 | Nihilo | Nihilo Billet Clutch Cover | NCSC5013BLK, NCSC8518BLK, NCSCYZ65BLK, NCSC65BLK, NCSC12516BLK, NCSCYZ125BLK, NCCCBIGBIKE24BLK, NCSC25016BLK, NCSC45016B | 204.99 USD | [MotoSport](https://www.motosport.com/nihilo-billet-clutch-cover) |
 | Nihilo | Nihilo Oil Fill Plug | NOFPBLK, NOFPBLU, NYZOFPBLU, NOFPORG, NOFPRED, NRM85OFPRED, NRM85OFPYLW | 22.99 USD | [MotoSport](https://www.motosport.com/nihilo-oil-fill-plug) |
 | Pro X | Pro X Crankshaft Bearing | 23.6322C4, 23.6328C3, 23.SX06C42, 23.NJ207ECS, 23.6305JR2, 23.NJ205, 23.6305C3, 23.6205C3 | 26.55 USD | [MotoSport](https://www.motosport.com/pro-x-crankshaft-bearing) |
@@ -283,23 +288,36 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 |---|---|---|---|---|
 | Factory Effex | Factory Effex Dual Grip Seat Cover Husqvarna 125cc-501cc 2022-2027 | 28-28606 | 79.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-effex-dual-grip-seat-cover-husqvarna-125cc-501cc-2022-2025) |
 
-### Suspension (5)
+### Skid Plates And Guards (1)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| P3 | P3 Skid Plate with Integrated Linkage Guard | 309058, 306073, 301085, 301097, 309071, 306053, 301044, 308075 | 219.95 USD | [MotoSport](https://www.motosport.com/p3-skid-plate-with-integrated-linkage-guard) |
+
+### Suspension (6)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
 | AltRider | AltRider Variable Height Suspension Lowering Linkage KTM / Husqvarna / Gas Gas 125cc-501cc 2022-2027 | KT23-6-2202 | 271.37 USD | [Cycle Gear](https://www.cyclegear.com/parts/altrider-variable-height-suspension-lowering-linkage-ktm-husqvarna-gas-gas-125cc-501cc-2022-2025) |
+| Ride Engineering | Ride Engineering Linkage Assembly | KT-LKN16-BA, KT-LKN21-BA, KT-LKN16-GE, KT-LKN21-GE, KT-LKN16-MB, KT-LKN21-MB, KT-LKN25-GE, KT-LKN25-MB, KX-LKN19-BA, KT- | 426.95 USD | [MotoSport](https://www.motosport.com/ride-engineering-linkage-assembly) |
 | XTrig | XTrig Rocs Tech Triple Clamps KTM / Husqvarna 125cc-450cc 2022-2027 | 501330502101 | 799.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/xtrig-rocs-tech-triple-clamps-ktm-husqvarna-125cc-450cc-2022-2024) |
 | Zeta | Zeta Lowering Link Husqvarna 150cc-501cc 2023-2027  | ZE56-05869 | 259.89 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-lowering-link-husqvarna-150cc-501cc-2023-2025-1) |
 | Zeta | Zeta Preload Adjuster Joint KTM / Husqvarna / Gas Gas 125cc-450cc 2023-2027 | ZE56-13070 | 58.36 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-preload-adjuster-joint-ktm-husqvarna-gas-gas-125cc-450cc-2023-2024) |
 | Zeta | Zeta WP Shock Gas Valve Xact Shock KTM / Husqvarna / Gas Gas 125cc-450cc 2023-2027 | ZE56-51001 | 77.30 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-wp-shock-gas-valve-xact-shock-ktm-husqvarna-gas-gas-125cc-450cc-2023-2025) |
 
-### Uncategorised (220)
+### Tools And Maintenance (1)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Twin Air | Twin Air Dust Cover For Kit | 150210DC, 150220DC, 151122DC, 152219DC, 153007DC, 153218DC, 158186DC, 154225DC | 21.99 USD | [MotoSport](https://www.motosport.com/twin-air-dust-cover-for-kit) |
+
+### Uncategorised (211)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
 | Acerbis | Acerbis Chain Guide Replacement Insert |  | 22.99 USD | [MotoSport](https://www.motosport.com/acerbis-chain-guide-replacement-insert) |
-| Acerbis | Acerbis Fuel Tank Husqvarna 125cc-501cc 2022-2027 | 2983610001, 2983610147, 2985430001, 2985430147 | 365.36 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-fuel-tank-husqvarna-125cc-501cc-2022-2025) |
 | Acerbis | Acerbis Fuel Tank Husqvarna 125cc-501cc 2022-2027 | 2979390001, 2979390147 | 319.46 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-fuel-tank-husqvarna-125cc-501cc-2022-2025-1) |
+| Acerbis | Acerbis Fuel Tank Husqvarna 125cc-501cc 2022-2027 | 2983610001, 2983610147, 2985430001, 2985430147 | 365.36 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-fuel-tank-husqvarna-125cc-501cc-2022-2025) |
 | Acerbis | Acerbis Full Plastic Kit Husqvarna TC / FC / FX / TX 125cc-450cc 2025-2027 | 2986846811, 2986848212 | 181.56 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-full-plastic-kit-husqvarna-tc-fc-fx-tx-125cc-450cc-2025-2026) |
 | Acerbis | Acerbis Mud Flap KTM / Husqvarna / Gas Gas 125cc-450cc 2022-2027 | 2979360001 | 29.66 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-mud-flap-ktm-husqvarna-125cc-450cc-2022-2024) |
 | Acerbis | Acerbis Standard Plastic Kit Husqvarna 125cc-450cc | 2986838212 | 149.56 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-standard-plastic-kit-husqvarna-125cc-450cc) |
@@ -358,7 +376,6 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Flo Motorsports | Flo Motorsports Folding Tip Brake Pedal KTM / Husqvarna / Gas Gas 125cc-450cc 2023-2027 | MXBP-523 BLK, MXBP-523 BLU, MXBP-523 ORG, MXBP-523RED | 149.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-folding-tip-brake-pedal-ktm-husqvarna-gas-gas-125cc-450cc-2023-2024) |
 | Flo Motorsports | Flo Motorsports High Flow Radiator Braces |  | 299.95 USD | [MotoSport](https://www.motosport.com/flo-motorsports-high-flow-radiator-braces) |
 | Flo Motorsports | Flo Motorsports Shift Lever KTM / Husqvarna / Gas Gas 125cc-501cc 2012-2027 | SF-795BLK, SF-795BLU, SF-795ORG, SF-795R | 52.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-shift-lever-ktm-husqvarna-gas-gas-125cc-501cc-2012-2026) |
-| Hammerhead Designs | Hammerhead Designs Oil Filler Plug |  | 29.99 USD | [MotoSport](https://www.motosport.com/hammerhead-designs-oil-filler-plug) |
 | Hinson | Hinson Oil Filler Cap KTM / Husqvarna / Gas Gas 125cc-501cc 1998-2027 | OC255 | 19.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/hinson-oil-filler-cap-ktm-husqvarna-gas-gas-125cc-501cc-1998-2024) |
 | HP Tools | HP Tools Fork Cap Tool |  | 14.99 USD | [MotoSport](https://www.motosport.com/hp-tools-fork-cap-tool) |
 | HP Tools | HP Tools Oil Drain Tool |  | 12.99 USD | [MotoSport](https://www.motosport.com/hp-tools-oil-drain-tool) |
@@ -437,12 +454,8 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | IMS | IMS Fuel Tank Husqvarna 125cc-450cc 2022-2027 | 112442-BK1, 112442-N2, 112443-BK1, 112443-N2, 112448-BK1, 112448-N2 | 463.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/ims-fuel-tank-husqvarna-fc-fx-250cc-450cc-2022-2025) |
 | KTM PowerParts | KTM PowerParts Brembo Clutch Lever |  | 48.99 USD | [MotoSport](https://www.motosport.com/ktm-powerparts-brembo-clutch-lever) |
 | Moose | Moose Brake Caliper Rebuild Kit |  | 30.95 USD | [MotoSport](https://www.motosport.com/moose-brake-caliper-rebuild-kit) |
-| Moose | Moose Clutch Cover Gasket |  | 6.99 USD | [MotoSport](https://www.motosport.com/moose-clutch-cover-gasket) |
-| Moose | Moose Gasket Set With Oil Seals |  | 137.12 USD | [MotoSport](https://www.motosport.com/moose-gasket-set-with-oil-seals) |
 | Moose | Moose Ignition Cover Gasket |  | 9.68 USD | [MotoSport](https://www.motosport.com/moose-ignition-cover-gasket) |
 | Moose | Moose Linkage Bearing Kit |  | 118.95 USD | [MotoSport](https://www.motosport.com/moose-linkage-bearing-kit) |
-| Moose | Moose Top End Gasket Set |  | 72.98 USD | [MotoSport](https://www.motosport.com/moose-top-end-gasket-set) |
-| Moose | Moose Water Pump Rebuild Kit |  | 47.65 USD | [MotoSport](https://www.motosport.com/moose-water-pump-rebuild-kit) |
 | Moose Racing | Moose Racing Fast Front Wheel Spacers KTM / Husqvarna / Gas Gas 125cc-500cc 2015-2027 | W16-5312GB, W16-5312L, W16-5312O | 35.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-fast-front-wheel-spacers-ktm-husqvarna-gas-gas-125cc-500cc-2015-2024) |
 | Moose Racing | Moose Racing Forged Shift Lever Husqvarna 125cc-300cc 2023-2027 | 81-0771-02-20, 81-0771-06-20, 81-0771-10-20 | 46.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-forged-shift-lever-husqvarna-125cc-300cc-2023-2024) |
 | Moose Racing | Moose Racing Front Wheel Bearing Kit KTM / Husqvarna / Gas Gas / Beta / Husaberg | 25-1402 | 34.29 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-front-wheel-bearing-kit-ktm-husqvarna-beta-husaberg) |
@@ -465,7 +478,6 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Nihilo | Nihilo Fuel Pump Saver |  | 59.99 USD | [MotoSport](https://www.motosport.com/nihilo-fuel-pump-saver) |
 | Nihilo | Nihilo Fuel Transfer Pump |  | 199.99 USD | [MotoSport](https://www.motosport.com/nihilo-fuel-transfer-pump) |
 | Nihilo | Nihilo High Pressure 2.0 Bar Radiator Cap |  | 34.99 USD | [MotoSport](https://www.motosport.com/nihilo-high-pressure-20-bar-radiator-cap) |
-| Nihilo | Nihilo Ny-Lock Axle Nut |  | 34.99 USD | [MotoSport](https://www.motosport.com/nihilo-nylock-axle-nut) |
 | Nihilo | Nihilo Run Cool Brake Piston |  | 64.99 USD | [MotoSport](https://www.motosport.com/nihilo-run-cool-brake-piston) |
 | Nihilo | Nihilo Water Pump Gear |  | 69.99 USD | [MotoSport](https://www.motosport.com/nihilo-water-pump-gear) |
 | Nihilo | Nihilo Water Pump Impeller |  | 74.99 USD | [MotoSport](https://www.motosport.com/nihilo-water-pump-impeller) |
@@ -473,7 +485,6 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | P3 | P3 Carbon Pipe Guard MAXCoverage |  | 189.95 USD | [MotoSport](https://www.motosport.com/p3-carbon-pipe-guard-maxcoverage) |
 | P3 | P3 Carbon Solid Rear Brake Rotor Guard Kit |  | 199.95 USD | [MotoSport](https://www.motosport.com/p3-carbon-solid-rear-brake-rotor-guard-kit) |
 | P3 | P3 Carbon Throttle Body Guard |  | 89.95 USD | [MotoSport](https://www.motosport.com/p3-carbon-throttle-body-guard) |
-| P3 | P3 Skid Plate with Integrated Linkage Guard |  | 219.95 USD | [MotoSport](https://www.motosport.com/p3-skid-plate-with-integrated-linkage-guard) |
 | Pivot Works | Pivot Works Front Wheel Bearing Kit KTM / Husqvarna / Gas Gas 125cc-701cc | PWFWK-T11-521 | 38.51 USD | [Cycle Gear](https://www.cyclegear.com/parts/pivot-works-front-wheel-bearing-kit-ktm-husqvarna-125cc-701cc) |
 | Pivot Works | Pivot Works Premium Front Wheel Bearing Kit KTM / Husqvarna / Gas Gas 125cc-701cc 2003-2027 | 25-1402-P | 51.25 USD | [Cycle Gear](https://www.cyclegear.com/parts/pivot-works-premium-front-wheel-bearing-kit-ktm-husqvarna-gas-gas-125cc-701cc-2003-2025) |
 | Polisport | Polisport Front Fender Husqvarna 125cc-450cc 2023-2027 | 8685100001, 8685100002, 8685100003, 8685100004 | 29.98 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-front-fender-husqvarna-125cc-450cc-2023-2026) |
@@ -495,7 +506,6 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Ride Engineering | Ride Engineering Billet Shock Bottom Collar |  | 35.99 USD | [MotoSport](https://www.motosport.com/ride-engineering-billet-shock-bottom-collar) |
 | Ride Engineering | Ride Engineering Billet Shock Collar |  | 53.99 USD | [MotoSport](https://www.motosport.com/ride-engineering-billet-shock-collar) |
 | Ride Engineering | Ride Engineering Hour Meter Relocation Bracket |  | 12.95 USD | [MotoSport](https://www.motosport.com/ride-engineering-hour-meter-relocation-bracket) |
-| Ride Engineering | Ride Engineering Linkage Assembly |  | 426.95 USD | [MotoSport](https://www.motosport.com/ride-engineering-linkage-assembly) |
 | Ride Engineering | Ride Engineering Lower Stabilizer Bracket |  | 26.95 USD | [MotoSport](https://www.motosport.com/ride-engineering-lower-stabilizer-bracket) |
 | Ride Engineering | Ride Engineering WP XACT Lug Conversion Kit for KYB Fork Internals |  | 149.95 USD | [MotoSport](https://www.motosport.com/ride-engineering-wp-xact-lug-conversion-kit-for-kyb-fork-internals) |
 | Samco | Samco Radiator Hose Kit KTM / Husqvarna / Gas Gas 250cc-300cc 2023-2027 | KTM-132-OR | 159.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/samco-radiator-hose-kit-ktm-husqvarna-gas-gas-250cc-300cc-2023-2025) |
@@ -508,7 +518,6 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Turner Performance Products | Turner Performance Products Rear Wheel Bearing Kit |  | 22.97 USD | [MotoSport](https://www.motosport.com/turner-performance-products-rear-wheel-bearing-kit) |
 | Turner Performance Products | Turner Performance Products Rear Wheel Bearing Upgrade Kit |  | 66.40 USD | [MotoSport](https://www.motosport.com/turner-performance-products-rear-wheel-bearing-upgrade-kit) |
 | Turner Performance Products | Turner Performance Products Throttle Body Guard |  | 39.99 USD | [MotoSport](https://www.motosport.com/turner-performance-products-throttle-body-guard) |
-| Twin Air | Twin Air Dust Cover For Kit |  | 21.99 USD | [MotoSport](https://www.motosport.com/twin-air-dust-cover-for-kit) |
 | Wiseco | Wiseco Wrist Pin |  | 21.99 USD | [MotoSport](https://www.motosport.com/wiseco-wrist-pin) |
 | Works Connection | Works Connection Clutch Master Cylinder Cover Husqvarna 125cc-501cc 2014-2027 | 21-057, 21-072, 21-077 | 36.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-clutch-master-cylinder-cover-husqvarna-125cc-501cc-2014-2024) |
 | Works Connection | Works Connection Fork Guard Reinforcing Kit KTM / Gas Gas / Husqvarna 125cc-450cc 2023-2027 | 12-193 | 19.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-fork-guard-reinforcing-kit-ktm-gas-gas-husqvarna-125cc-450cc-2023-2025) |
@@ -524,16 +533,15 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 |---|---|---|---|---|
 | Duraboost | Duraboost DBL5L Lithium Ion Battery | DBL5L | 127.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/duraboost-dbl5l-lithium-ion-battery) |
 
-### Wheels And Rims (2)
+### Wheels And Rims (1)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
 | Hammerhead Designs | Hammerhead Designs Rear Wheel Spacers | 45-0562-00-20, 45-0221-00-20, 45-0561-00-20, 45-0562-00-40, 45-0562-00-60 | 41.98 USD | [MotoSport](https://www.motosport.com/hammerhead-designs-rear-wheel-spacers) |
-| SKF | SKF Front Wheel Seal and Spacer Kit | W-KIT-F008-KTM-Hus, W-KIT-F020-KTM, W-KIT-F023-KTM, W-KIT-F003-Ho, W-KIT-F019-Ho, W-KIT-F016-Ka, W-KIT-F018-Ka | 59.99 USD | [MotoSport](https://www.motosport.com/skf-front-wheel-seal-and-spacer-kit) |
 
 ## Universal retailer listings (counted only)
 
-Controls 477, Lights And Electrical 384, Uncategorised 320, Tires 219, Handlebars & Controls 217, Body 184, Tools And Maintenance 167, Graphics 162, Exhaust 158, Engine 121, Drive 115, Chain & Sprocket 109, Luggage And Racks 106, Suspension 105, Brakes 92, Wheels And Rims 68, Vehicle Communication 60, Fuel System 56, Accessories 48, Air & Fuel 43, Batteries & Electrical 39, Gauges 32, Lighting 30, Bike Protection 29, Utv / Atv Parts 29, Skid Plates And Guards 20, Riding Gear 18, Farming And Hunting 13, Body & Fairing 8, Intake 6, Drive & Transmission 5, Filters 5, Helmets 3, Winch And Plow 2
+Controls 478, Lights And Electrical 384, Uncategorised 320, Tires 219, Handlebars & Controls 217, Body 184, Tools And Maintenance 167, Graphics 162, Exhaust 158, Engine 121, Drive 115, Chain & Sprocket 109, Luggage And Racks 106, Suspension 105, Brakes 92, Wheels And Rims 69, Vehicle Communication 60, Fuel System 56, Accessories 48, Air & Fuel 43, Batteries & Electrical 39, Gauges 32, Lighting 30, Bike Protection 29, Utv / Atv Parts 29, Skid Plates And Guards 20, Riding Gear 18, Farming And Hunting 13, Body & Fairing 8, Intake 6, Drive & Transmission 5, Filters 5, Helmets 3, Winch And Plow 2
 
-Top brands: Acerbis 139, Pro Taper 121, Motion Pro 111, Cycra 106, Rugged Radios 105, Turner Performance Products 97, Factory Effex 82, Renthal 81, ODI 79, RAM Mounts 74, D'COR Visuals 65, Trail Tech 64, Bolt Hardware 57, RFX 56, DRC 56, Bolt 54, Fire Power 53, Quad Lock 53, SP Connect 51, Polisport 50, Moose Racing 49, Kriega 45, KTM PowerParts 43, Namz Custom Cycle 40, Zeta 37
+Top brands: Acerbis 139, Pro Taper 121, Motion Pro 111, Cycra 106, Rugged Radios 105, Turner Performance Products 97, Factory Effex 82, Renthal 81, ODI 79, RAM Mounts 74, D'COR Visuals 65, Trail Tech 64, Bolt Hardware 57, RFX 56, DRC 56, Bolt 54, Quad Lock 53, Fire Power 53, SP Connect 51, Polisport 50, Moose Racing 49, Kriega 45, KTM PowerParts 43, Namz Custom Cycle 40, Zeta 37
 

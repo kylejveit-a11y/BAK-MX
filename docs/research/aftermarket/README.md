@@ -30,7 +30,7 @@ the app needs a manufacturer-page fitment check per part (the evidence fields in
 | Triumph | 1: genuine accessories (official dealer catalog), aftermarket search, rider and tester feedback; Cycle Gear and MotoSport catalogs | Done 2026-10-14 | 125 products (76 Triumph genuine accessories from triumphpartstore.com, 49 aftermarket: 5 high, 35 medium, 9 unverified), 31 findings, 5 builds; all 9 TF bike-years mapped. Retailer catalogs: Cycle Gear 1,273 parts (121 brands, all with part numbers), MotoSport 2,431 (208 brands, 2,280 with part numbers); 3,829 listings in `triumph/parts.csv` |
 | Yamaha | 1: maker-confirmed parts, rider and tester feedback; Yamaha genuine and GYTR; Cycle Gear and MotoSport catalogs | Done 2026-10-15 | 5,992 listings in `yamaha/parts.csv`: 46 researched parts (about 22 maker-confirmed), 155 Yamaha genuine / GYTR (yamahaonlineparts.com), Cycle Gear 2,470 (148 brands), MotoSport 3,321 (232 brands); 34 findings, 5 builds; all 63 YZ bike-years mapped |
 | Honda | 1: maker-confirmed parts, rider and tester feedback; Cycle Gear and MotoSport catalogs | Done 2026-10-15 | 5,158 listings in `honda/parts.csv`: 27 researched parts (12 maker-confirmed), Cycle Gear 2,033 (145 brands), MotoSport 3,098 (227 brands); 35 findings, 6 builds; all 28 CRF-R / RX bike-years mapped. Honda genuine accessories not readable from here |
-| Kawasaki | 1 | Queued | |
+| Kawasaki | 1: maker-confirmed parts, rider and tester feedback; Cycle Gear and MotoSport catalogs | Done 2026-10-15 | 5,057 listings in `kawasaki/parts.csv`: 30 researched parts (23 maker-confirmed), Cycle Gear 1,953 (141 brands), MotoSport 3,074 (229 brands); 28 findings, 4 builds; all 26 KX bike-years mapped. Kawasaki genuine accessories not readable from here |
 
 ## KTM family: what pass 1 found and what pass 2 must do
 
@@ -152,3 +152,20 @@ control by condition, gearing (a 14T front is blocked by the clutch slave on the
 dyno (MXA 55.34 hp vs Dirt Rider 51.1 hp), 2027 dimensions between sources. Gaps: FMF's own pages and several Keefer pages
 did not load; no HRC tuning tool for 2021+ found; no maker-confirmed pistons or cams for 2021+; no CRF250RX feedback; no
 confirmed 2027 aftermarket fitment.
+
+## Kawasaki: what pass 1 found
+
+Maker-confirmed: Pro Circuit exhausts, race pistons, cams and linkages (KLS24450 fits KX450 2024-26 and KX250 2025-26),
+Yoshimura RS-12, Akrapovič Evolution (needs its insert for the FIM limit), Rekluse, Wiseco, TM Designworks, and Kawasaki
+Australia's KX FI Calibration Kit with the sub-harness and clamp it needs. Platforms: KX450 new from 2024 (centre exhaust,
+Rideology app, no couplers), KX250 updated 2021 and new 2025, 2026 carry-over, 2027 KX450 new exhaust, frame spars, swingarm
+and rear brake (no maker fitment yet). Keefer baselines for KX450 and KX250 2025/26; MXA dynos with the Pro Circuit Ti-6 and
+Twisted Development map; optional softer engine mounts. Disagreements kept: coupler descriptions (Keefer vs MXA), KX450 fork
+height, gearing, price changes over time. Gaps: FMF pages, Kawasaki US accessories and Ride Engineering did not load; no
+2024+ KX450 aftermarket piston found; HGS, Arrow, GET and suspension tuners not covered.
+
+## All brands
+
+`companies/ALL_BRANDS.md` lists every brand with a part listed for any in-scope bike across all five families (390 brands;
+96 of them also profiled in the researched registry `companies/COMPANIES.md`), with listing counts, families, main categories
+and sources. Universal items are now judged against all five families.

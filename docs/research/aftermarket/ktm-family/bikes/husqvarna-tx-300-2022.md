@@ -313,5 +313,5 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 Uncategorised 319, Handlebars & Controls 219, Chain & Sprocket 111, Exhaust 81, Air & Fuel 45, Batteries & Electrical 40, Utv / Atv Parts 34, Lighting 32, Gauges 31, Bike Protection 26, Suspension 21, Body & Fairing 9, Drive & Transmission 7, Filters 4, Tire Accessories 1, Brakes 1
 
-Top brands: Acerbis 56, Bolt Hardware 56, Pro Taper 53, Moose Racing 51, Cycra 48, Zeta 45, Renthal 41, ODI 38, Fire Power 36, Barkbusters 29, Helix Racing Products 29, Factory Effex 24, Namz 23, RK 22, RFX 21, Motion Pro 21, K&N 20, FMF 19, Koso 18, Polisport 14, Motolis 13, EK Chain 13, BBR Motorsports 12, Pro Grip 12, BikeMaster 12
+Top brands: Acerbis 56, Bolt Hardware 56, Pro Taper 53, Moose Racing 51, Cycra 48, Zeta 45, Renthal 41, ODI 38, Fire Power 36, Helix Racing Products 29, Barkbusters 29, Factory Effex 24, Namz 23, RK 22, Motion Pro 21, RFX 21, K&N 20, FMF 19, Koso 18, Polisport 14, EK Chain 13, Motolis 13, BikeMaster 12, BBR Motorsports 12, Pro Grip 12
 

@@ -1,0 +1,566 @@
+# Kawasaki KX450 2020: aftermarket parts
+
+4197 listings whose stated fitment names this bike: 7 researched parts (with what they change and rider findings), 416 dealer and retailer listings specific to this bike, and 3774 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+
+## Researched parts
+
+| Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
+|---|---|---|---|---|---|---|
+| Kawasaki (genuine) | KX FI Calibration Kit (Handheld) | 99999-0615 | Kawasaki Australia: handheld controller that lets riders 'adjust engine characteristics, by rewriting actual data maps'; adjusts fuel injection and ignition timing by throttle position and rpm; seven  | Page is internally inconsistent: description says fits KX250F 13-25 and KX450F 09-10/12-25, compatible-models list omits some years (e.g. KX250 2021, KX450 2021 | [Kawasaki Australia (MSRP, 'not sold online')](https://kawasaki.com.au/en-au/shop/maintenance/15827/kx-fi-calibration-kit-(handheld)) | high |
+| Kawasaki (genuine) | KX FI Calibration Kit (PC version) | 99999-0616 | Kawasaki Australia: handheld controller plugs into ECU, 'rewriting actual data maps'; seven preset settings incl. richer/leaner fuelling, advanced/retarded ignition, hard/soft surfaces, beginners. | US price cited by testers: $699.95 (Keefer 2022 KX250, MXA 2021 KX250); Ultimate Motorcycling 2023 KX250X cites $775. Not confirmed which kit version those pric | [Kawasaki Australia (MSRP, 'not sold online')](https://www.kawasaki.com.au/en-au/shop/maintenance/14529/kx-fi-calibration-kit) | high |
+| Pro Circuit | P/C Race Piston (high-compression) KX450 | RPK26450F, RPK19450F-1 | Maker lists no compression ratio or claims. | KX450X fitment not stated by maker. Compression ratio and fuel requirement not stated. | [Pro Circuit](https://www.procircuit.com/high-compression-piston-kx450-2025.html) | high |
+| Wiseco | Kawasaki KX450F/KX450X piston kit 96.00 mm, 14:1 | RE822M09600 | 14:1 compression, 96.00 mm bore (maker). | Not listed for 2024+ KX450. No 2024+ Wiseco/Vertex/JE KX450 piston found within budget. | [Wiseco](https://www.wiseco.com/shop/powersports/pistons-powersports/piston-kits/kawasaki-kx450f-kx450x-wiseco-piston-kit-3/) | high |
+| Pro Circuit | T-6 Stainless System (KX450F '19-23 / KX450XC '21-23) | 0121945G | No claims on maker page. | Previous-generation KX450 only; does not fit 2024+ (center-port exhaust). | [Pro Circuit](https://www.procircuit.com/t-6-system-kx450-19-23.html) | high |
+| Yoshimura | RS-12 Stainless Full Exhaust w/ Aluminum Muffler (KX450F 19-23 / KX450X 21-23) | 244720S320 | Yoshimura claim: 'max HP was up 9.6% and torque was up as well at 5.6%'. | Search title said KX450X 21-24 while page says 21-23. | [Yoshimura](https://www.yoshimura-rd.com/products/kx450f-rs-12-stainless-full-exhaust-w-aluminum-muffler-244720s320) | high |
+| Pro Circuit | Linkage System (KX450 '19-23 / KX250 '21-24) | KLS20450 | No claims on maker page. | Fitment inconsistent on page. | [Pro Circuit](https://www.procircuit.com/kx250-450-linkage-system-19-23.html) | high |
+
+## Dealer and retailer listings for this bike
+
+Merged across sellers by brand and part number (or brand and name). Lings is a UK dealer (GBP prices, EU-market models).
+
+### Air & Fuel (13)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| FunnelWeb | FunnelWeb ProLine Air Filter Kawasaki KX250 / KX450 / X / SR 2019-2024 | FWF PRO 7801 | 39.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/funnelweb-proline-air-filter-kawasaki-kx250-kx450-x-sr-2019-2023) |
+| No Toil | No Toil Pre Oiled Air Filter Kawasaki KX250 / X / KX450 / SR 2019-2024 | 1450 | 33.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/no-toil-pre-oiled-air-filter-kawasaki-kx250-x-kx450-sr-2019-2024) |
+| No Toil | No Toil Standard Air Filter Kawasaki KX250 / X / KX450 / SR 2019-2024 | 140-50 | 30.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/no-toil-standard-air-filter-kawasaki-kx250-x-kx450-sr-2019-2024) |
+| No Toil | No Toil Super Flo Kit Kawasaki KX250 / X / KX450 / F / SR / X 2021-2023 | SFK14050/SKF14050 | 69.26 USD | [Cycle Gear](https://www.cyclegear.com/parts/no-toil-super-flo-kit-kawasaki-kx250-x-kx450-f-sr-x-2021-2023) |
+| No Toil | No Toil Super Flo Replacement Air Filter Kawasaki KX250 / X / KX450 / F / SR / X 2021-2023 | FRF140-50/FRF14050 | 36.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/no-toil-super-flo-replacement-air-filter-kawasaki-kx250-x-kx450-f-sr-x-2021-2023) |
+| PC Racing | PC Racing Pro-Seal Air Filter Gasket Kawasaki KX250 / X / KX450 / X / SR 2019-2024 | PC26 | 18.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/pc-racing-pro-seal-air-filter-gasket-kawasaki-kx250-x-kx450-x-sr-2019-2022) |
+| RFX | RFX Air Filter Kawasaki KX250 / KX450 2019-2024 | FXAF 20005 55NO | 22.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-air-filter-kawasaki-kx250-kx450-2019-2024) |
+| RFX | RFX Pre Oiled Air Filter Kawasaki KX250 / KX450 2019-2024 | FXAF 20005 55PO | 29.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-pre-oiled-air-filter-kawasaki-kx250-kx450-2019-2024) |
+| Twin Air | Twin Air Air Filter Kawasaki KX250 / KX450 / X / SR 2019-2024 | 151124 | 37.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/twin-air-air-filter-kawasaki-kx250-kx450-x-sr-2019-2024) |
+| Twin Air | Twin Air Factory Pre Oiled Air Filter Kawasaki KX250 / KX450 / X / SR 2019-2024 | 151124X | 41.75 USD | [Cycle Gear](https://www.cyclegear.com/parts/twin-air-factory-pre-oiled-air-filter-kawasaki-kx250-kx450-x-sr-2019-2022) |
+| Twin Air | Twin Air Powerflow Backfire Air Filter Kawasaki KX450 / X / SR 2019-2023 | 151125FR | 41.75 USD | [Cycle Gear](https://www.cyclegear.com/parts/twin-air-powerflow-backfire-air-filter-kawasaki-kx450-x-sr-2019-2023) |
+| Twin Air | Twin Air Powerflow Backfire Pre Oiled Air Filter Kawasaki KX450 / X / SR 2019-2023 | 151125FRX | 45.55 USD | [Cycle Gear](https://www.cyclegear.com/parts/twin-air-powerflow-backfire-pre-oiled-air-filter-kawasaki-kx450-x-sr-2019-2023) |
+| Twin Air | Twin Air Powerflow Kit Kawasaki KX450 / X / SR 2019-2023 | 151125C | 189.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/twin-air-powerflow-kit-kawasaki-kx450-x-sr-2019-2023) |
+
+### Batteries & Electrical (1)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Fire Power | Fire Power Featherweight Lithium Battery LFP03-FP-IL | FFP03-FP-IL | 187.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/fire-power-lfp03-fp-il) |
+
+### Bike Protection (18)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Acerbis | Acerbis Fork Shoe Protectors Honda / Kawasaki 250cc-450cc 2009-2023 | 2709690001, 2709690012, 2709690227 | 26.06 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-fork-shoe-protectors-honda-kawasaki-250cc-450cc-2009-2019) |
+| Acerbis | Acerbis X-Grip Frame Guards Kawasaki KX250 / KX450 / F / X / SR 2019-2024 | 2742601015, 2742601089 | 54.86 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-x-grip-frame-guards-kawasaki-kx250-kx450-f-x-sr-2019-2022) |
+| AXP Racing | AXP Racing Skid Plate Kawasaki KX450 2019-2023 | AX1517 | 119.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/axp-racing-skid-plate-kawasaki-kx450-2019-2023) |
+| AXP Racing | AXP Racing Xtrem Skid Plate Kawasaki KX450 / KX450X 2019-2023 | AX1677 | 159.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/axp-racing-xtrem-skid-plate-kawasaki-kx450-kx450x-2019-2023) |
+| DCOR | D'COR Visuals Frame Grip Tape Kawasaki KX250 / X / KX450 / X / SR 2019-2024 | 16-20-109, 16-20-110 | 29.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/dcor-visuals-frame-grip-tape-kawasaki-kx250-x-kx450-x-sr-2019-2022) |
+| E-Line | E-Line Carbon Fiber Skid Plate Kawasaki KX450 / X / SR 2019-2023 | KSP45019 | 199.0 USD | [Cycle Gear](https://www.cyclegear.com/parts/e-line-carbon-fiber-skid-plate-kawasaki-kx450-x-sr-2019-2023) |
+| Moose Racing | Moose Racing Rear Rotor Guard Kawasaki 125cc-450cc | B06-2301GN | 67.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-rear-rotor-guard-kawasaki-125cc-450cc) |
+| Moose Racing | Moose Racing Shark Fin Rear Disc Guard Kawasaki KX250 / KX450 2019-2023 | 33-8019 | 109.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-shark-fin-disc-guard-kawasaki-kx250-kx450-2019-2023) |
+| P3 | P3 Carbon Fiber Enduro Skid Plate Kawasaki KX250 / X / KX450 / X / SR 2019-2024 | 306072-BLK | 199.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/p3-carbon-fiber-enduro-skid-plate-kawasaki-kx250-x-kx450-x-sr-2019-2022) |
+| P3 | P3 Rear Disc Guard Kawasaki KX250 / F / X / KX450 / F / X / SR 2009-2024 | 526050 | 99.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/p3-rear-disc-guard-kawasaki-kx250-f-x-kx450-f-x-sr-2009-2022) |
+| Polisport | Polisport Bottom Fork Protectors Kawasaki KX250 / X / KX450 / X / SR 2019-2026 | 8157600001 | 35.94 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-bottom-fork-protectors-kawasaki-kx250-x-kx450-x-sr-2019-2025) |
+| Polisport | Polisport Front Disc Guard and Fork Protector Kawasaki KX250 / KX450 / KX450X 2019-2026 | 8158100001, 8158100002, 8158100003, 8158100004 | 45.83 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-front-disc-guard-and-fork-protector-kawasaki-kx250-kx450-kx450x-2019-2024) |
+| Polisport | Polisport Front Rotor And Fork Protector Kawasaki KX250 / X / KX450 / X 2019-2026 | 8157500001, 8157500003 | 49.49 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-front-rotor-and-fork-protector-kawasaki-kx250-x-kx450-x-2019-2025) |
+| TM Designworks | TM Designworks Extreme Skid Plate With Linkage Guard Kawasaki KX450F / KX450X 2019-2023 | KXLG-465-BK | 169.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/tm-designworks-extreme-skid-plate-with-linkage-guard-kawasaki-kx450f-kx450x-2019-2023) |
+| TM Designworks | TM Designworks Full Coverage Skid Plate Kawasaki KX450F / KX450X 2019-2023 | KXMC-465-BK | 139.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/tm-designworks-full-coverage-skid-plate-kawasaki-kx450f-kx450x-2019-2023) |
+| Twin Air | Twin Air Radiator Sleeves Kawasaki KX250 / KX450 / F / X / SR 2016-2024 | 177759SL13 | 52.20 USD | [Cycle Gear](https://www.cyclegear.com/parts/twin-air-radiator-sleeves-kawasaki-kx250f-kx450f-kx250-kx450-2016-2020) |
+| Works Connection | Works Connection MX Skid Plate Kawasaki KX450 / KX450X / KX450SR 2019-2023 | 10-298 | 103.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-mx-skid-plate-kawasaki-kx450-kx450x-kx450sr-2019-2022) |
+| Works Connection | Works Connection Rear Caliper Guard Kawasaki / Suzuki 250cc-450cc 2004-2026 | 25-022 | 38.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-rear-caliper-guard-kawasaki-suzuki-250cc-450cc-2004-2020) |
+
+### Body (9)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Acerbis | Acerbis MX Skid Plate | 2686035226, 2686590001, 2686030001, 2690690001, 2982500001, 2690690211, 2982500003, 2734920001, 2742671007 | 75.99 USD | [MotoSport](https://www.motosport.com/acerbis-mx-skid-plate) |
+| Cycra | Cycra Performance Front Fender | 1CYC-1500-12, 1CYC-1502-12, 1CYC-1542-12, 1CYC-1571-12, 1CYC-1531-12, 1CYC-1572-12, 1CYC-1503-12, 1CYC-1573-12, 1CYC-150 | 28.99 USD | [MotoSport](https://www.motosport.com/cycra-performance-front-fender) |
+| Cycra | Cycra Powerflow Front/Rear Fender Kit | 1CYC-1400-12, 1CYC-1401-12, 1CYC-1442-12, 1CYC-1441-12, 1CYC-1471-12, 1CYC-1462-12, 1CYC-1472-12, 1CYC-1400-33, 1CYC-140 | 70.99 USD | [MotoSport](https://www.motosport.com/cycra-powerflow-frontrear-fender-kit) |
+| P3 | P3 Fuel Tank Cover | 775050, 775070, 776070, 775071, 775051, 776071 | 124.95 USD | [MotoSport](https://www.motosport.com/p3-fuel-tank-cover) |
+| Polisport | Polisport Bottom Fork Protector | 8152200003, 8154900001, 8152200004, 8155700001, 8157600001, 8154900002, 8152200005, 8155700002, 8154900003, 8152200006,  | 21.77 USD | [MotoSport](https://www.motosport.com/polisport-bottom-fork-protector) |
+| Polisport | Polisport Rear Shock Flap | 8906400001, 8906600001, 8906200001, 8907300001-CL77, 8907200002 | 12.99 USD | [MotoSport](https://www.motosport.com/polisport-rear-shock-flap) |
+| Polisport | Polisport Standard Plastic Kit | 90025, 90056, 91539, 90097, 90105, 91528, 91430, 91388, 90661, 90760, 91408, 91495, 90092, 90094, 90104, 90124, 90131, 9 | 100.99 USD | [MotoSport](https://www.motosport.com/polisport-standard-plastic-kit) |
+| Selle Dalla Valle | Selle Dalla Valle Wave Seat Cover | SDV001W, SDV002W, SDV008W, SDV011W, SDV001WB, SDV002WB, SDV007WB, SDV013WB | 65.95 USD | [MotoSport](https://www.motosport.com/selle-dalla-valle-wave-seat-cover) |
+| Trail Tech | Trail Tech Kickstand | 5001-CR, 5011-CR, 5103-00, 5104-00, 5013-KTM, 5301-00, 5400-00, 5402-00, 5401-00, 5501-00, 5502-00, 5201-00, 5202-00, 50 | 159.95 USD | [MotoSport](https://www.motosport.com/trail-tech-kickstand) |
+
+### Brakes (39)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| BILT FACTORY | BILT FACTORY FA185R Sintered Front Brake Pads FA185R [Open Box] | YL-F050 | 25.19 USD | [Cycle Gear](https://www.cyclegear.com/parts/bilt-factory-fa185r-sintered-front-brake-pads-) |
+| BILT FACTORY | BILT FACTORY FA367R Sintered Rear Brake Pads | YL-F157 | 28.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/bilt-factory-fa367r-sintered-rear-brake-pads) |
+| Brembo | Brembo SX Front Brake Pads 07YA47SX | 07YA47SX | 64.03 USD | [Cycle Gear](https://www.cyclegear.com/parts/brembo-sx-front-brake-pads-07ya47sx) |
+| DP Brakes | DP Brakes DP321 Sintered Front Brake Pads | DP321 | 54.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/dp-brakes-sintered-front-brake-pads-honda-kawasaki-suzuki-yamaha-gas-gas-beta) |
+| DP Brakes | DP Brakes DP940 Sintered Rear Brake Pads | DP940 | 52.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/dp-brakes-dp940-sintered-rear-brake-pads) |
+| DP Brakes | DP Brakes SDP321 Pro MX Front Brake Pads | SDP321 | 59.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/dp-brakes-sdp321-pro-mx-front-brake-pads) |
+| DP Brakes | DP Brakes SDP940 Pro MX Rear Brake Pads | SDP940 | 59.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/dp-brakes-sdp940-pro-mx-rear-brake-pads) |
+| EBC Brakes | EBC EPFA185HH Road Race Front Brake Pads | EPFA185HH | 78.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/ebc-epfa185hh-road-race-front-brake-pads) |
+| EBC Brakes | EBC EPFA185HH Road Race Front Brake Pads [Blemished - Good] | 2519816 | 62.40 USD | [Cycle Gear](https://www.cyclegear.com/parts/ebc-epfa185hh-road-race-front-brake-pads-1785334480) |
+| EBC Brakes | EBC FA185R R Series Sintered Front Brake Pads | FA185R | 42.07 USD | [Cycle Gear](https://www.cyclegear.com/parts/ebc-fa185r-r-series-sintered-front-brake-pads) |
+| EBC Brakes | EBC FA367R R Series Sintered Rear Brake Pads | FA367R | 39.54 USD | [Cycle Gear](https://www.cyclegear.com/parts/ebc-fa367r-r-series-sintered-rear-brake-pads) |
+| Galfer | Galfer Oversized Front Brake Rotor Kit | KITOS8, KITOS12 | 256.99 USD | [MotoSport](https://www.motosport.com/galfer-oversized-front-brake-rotor-kit) |
+| Galfer | Galfer Semi-Metallic Brake Pads | FD086G1054, FD086G1054, FD117G1054, FD086G1054-CL77, FD117G1054, FD117G1054-CL77, FD179G1054, FD145G1054, FD145G1054, FD | 22.13 USD | [MotoSport](https://www.motosport.com/galfer-semimetallic-brake-pads) |
+| Galfer | Galfer Solid Mount Brake Rotor - Rear | DF193W, DF307W, DF339W, DF491W, DF081W, DF204W, DF355W, DF459W, DF463W, DF469W, DF488W, DF494W, DF636W, DF681W, DF682W,  | 108.00 USD | [MotoSport](https://www.motosport.com/galfer-solid-mount-brake-rotor-rear) |
+| Galfer Braking Systems | Galfer HH Sintered Front Brake Pads FD164 | FD164G1396 | 30.0 USD | [Cycle Gear](https://www.cyclegear.com/parts/galfer-hh-sintered-front-brake-pads-fd164) |
+| GBrakes | GBrakes Front Floating Wave Rotor GBD9037X | GBD9037X | 202.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-front-floating-wave-rotor-gbd9037x) |
+| GBrakes | GBrakes Front Solid Mount Tsunami Wave Rotor GBD063 | GBD063 | 141.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-front-solid-mount-tsunami-wave-rotor-gbd063) |
+| GBrakes | GBrakes Front Solid Mount Wave Rotor GBD9030X | GBD9030X | 133.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-front-solid-mount-wave-rotor-gbd9030x) |
+| GBrakes | GBrakes HH Sintered Front Brake Pads GB0524-76 | GB0524-76 | 41.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-hh-sintered-front-brake-pads-gb0524-76) |
+| GBrakes | GBrakes HH Sintered Rear Brake Pads GB0560-76 | GB0560-76 | 41.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-hh-sintered-rear-brake-pads-gb0560-76) · [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-hh-sintered-rear-brake-pads-gb0560-76-) |
+| GBrakes | GBrakes Semi-Metallic Front Brake Pads GB0524-69 | GB0524-69 | 38.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-semi-metallic-front-brake-pads-gb0524-69) |
+| GBrakes | GBrakes Semi-Metallic Rear Brake Pads GB0560-69 | GB0560-69 | 38.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-semi-metallic-rear-brake-pads-gb0560-69) |
+| K&L | K&L Brake Caliper Rebuild Kit | 32-1163, 32-1182, 32-1446, 32-1335, 32-1185, 32-1203, 32-1608, 32-1199, 32-1202, 32-1197, 32-1425, 32-4229, 32-1602, 32- | 37.95 USD | [MotoSport](https://www.motosport.com/kl-brake-caliper-rebuild-kit) |
+| K&L | K&L Brake Master Cylinder Rebuild Kit | 32-1078, 32-1118, 32-0853, 32-1079, 32-1082, 32-1083, 32-1085, CL77-32-1096, 32-1100, 32-1101, 32-1102, 32-1122, 32-1474 | 35.95 USD | [MotoSport](https://www.motosport.com/kl-brake-master-cylinder-rebuild-kit) |
+| Moose Racing | Moose Racing M321 XCR Sintered Front Brake Pads | M321-S47 | 42.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-xcr-sintered-front-brake-pads-m321) |
+| Moose Racing | Moose Racing RFX Rear Rotor Kawasaki KX250 / KX450 2019-2023 | FCBD 20705 55NP | 127.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-rfx-rear-rotor-kawasaki-kx250-kx450-2019-2023) |
+| Moose Racing | Moose Racing Solid Rotor Kawasaki KX250 / KX450 2019-2023 | 150-067S | 69.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-solid-rotor-kawasaki-kx250-kx450-2019-2023) |
+| Moto-Master | Moto Master 93411 Sinter Pro Racing Front Brake Pads | 93411-PU | 30.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-93411-sinter-pro-racing-front-brake-pads) |
+| Moto-Master | Moto Master 93421 Nitro Front Brake Pads | 93421-PU | 24.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-93421-nitro-front-brake-pads) |
+| Moto-Master | Moto Master 94511 Sinter Pro Racing Rear Brake Pads | 94511-PU | 30.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-94511-sinter-pro-racing-rear-brake-pads) |
+| Moto-Master | Moto Master 94521 Nitro Rear Brake Pads | 94521-PU | 24.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-94521-nitro-rear-brake-pads) |
+| Moto-Master | Moto Master Flame 260mm Floating Front Rotor Kawasaki 250cc-450cc 2006-2024 | 111037-PU | 154.76 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-flame-260mm-floating-front-rotor-kawasaki-250cc-450cc-2006-2023) |
+| Moto-Master | Moto Master Flame 270mm Floating Front Rotor Kawasaki 250cc-450cc 2006-2024 | 112084-PU | 188.06 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-flame-270mm-floating-front-rotor-kawasaki-250cc-450cc-2006-2023) |
+| Moto-Master | Moto Master Flame Fixed Front Rotor Kawasaki 250cc-450cc 2015-2023 | 110639-PU | 123.26 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-flame-front-rotor-kawasaki-250cc-450cc-2015-2023) |
+| Moto-Master | Moto Master Flame Fixed Rear Rotor Kawasaki KX250 / KX450 2019-2023 | 110774-PU | 123.26 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-flame-fixed-rear-rotor-kawasaki-kx250-kx450-2019-2023) |
+| Renthal | Renthal RC-1 Works Front Brake Pads BP-100 | BP-100 | 50.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/renthal-rc-1-works-front-brake-pads-bp-100) |
+| Renthal | Renthal RC-1 Works Rear Brake Pads BP-104 | BP-104 | 50.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/renthal-rc-1-works-rear-brake-pads-bp-104) |
+| Turner Performance Products | Turner Performance Products Oversized Front Brake Rotor And Pad Kit |  | 131.99 USD | [MotoSport](https://www.motosport.com/turner-performance-products-oversized-front-brake-rotor-and-pad-kit) |
+
+### Chain & Sprocket (26)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Afam Sprockets | AFAM Rear Aluminum Sprocket Kawasaki / Suzuki 125cc-650cc 1984-2027 | 17206+48, 17206+49, 17206+50, 17206+51 | 79.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/afam-rear-aluminum-sprocket-kawasaki-suzuki-125cc-650cc-1984-2027) |
+| Afam Sprockets | AFAM Self Cleaning Front Sprocket Kawasaki 450cc | 27502+13 | 24.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/afam-front-sprocket-kawasaki-450cc) |
+| Afam Sprockets | AFAM Self Cleaning Rear Steel Sprocket Kawasaki 250cc-450cc | 16206SLK+48, 16206SLK+49, 16206SLK+50, 16206SLK+51, 16206SLK+52 | 75.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/afam-self-cleaning-rear-steel-sprocket-kawasaki-250cc-450cc) |
+| Dirt Tricks | Dirt Tricks Steel Front Sprocket Yamaha / Fantic / Kawasaki 250cc-660cc 1999-2027 | YK2-12, YK2-13, YK2-14, YK2-15 | 44.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/dirt-tricks-steel-front-sprocket-yamaha-kawasaki-250cc-660cc-1999-2023) |
+| Fire Power | Fire Power Aluminum Rear Sprocket Kawasaki / Suzuki 125cc-650cc 1985-2027 | 422-46 BLK, 422-47 BLK, 422-48 BLK, 422-49 BLK, 422-50 BLK, 422-51 BLK, 422-52 BLK, 422-53 BLK | 82.76 USD | [Cycle Gear](https://www.cyclegear.com/parts/fire-power-rear-sprocket-kawasaki-suzuki-125cc-650cc-1985-2023) |
+| Fire Power | Fire Power Hybrid Rear Sprocket Kawasaki / Suzuki 125cc-650cc 1985-2027 (50 (Tall)) | FPH-460-50-BLK | 107.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/fire-power-hybrid-rear-sprocket-kawasaki-suzuki-125cc-650cc-1985-2024) |
+| Fire Power | Fire Power Steel Front Sprocket Kawasaki KX450F / KX450 / KX450X / KLX450R 2006-2026 (12T and 13T) | MX-156512-4, MX-156513-4 | 36.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/fire-power-steel-front-sprocket-kawasaki-kx450f-kx450-kx450x-klx450r-2006-2023) |
+| JT Sprockets | JT Sprockets Racelite Aluminum Rear Sprocket Kawasaki / Suzuki 125cc-650cc 1985-2027 | JTA460.47BLK/JTA46047BLK, JTA460.48BLK/JTA46048BLK, JTA460.49BLK/JTA46049BLK, JTA460.50BLK/JTA46050BLK, JTA460.51BLK/JTA | 32.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/jt-sprockets-racelite-aluminum-rear-sprocket-kawasaki-suzuki-125cc-650cc-1985-2024) |
+| JT Sprockets | JT Sprockets Rear Steel Sprocket Kawasaki / Suzuki 125cc-650cc 1985-2027 | JTR460.42/JTR46042, JTR460.43/JTR46043, JTR460.44/JTR46044, JTR460.45/JTR46045, JTR460.46/JTR46046, JTR460.47/JTR46047,  | 24.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/jt-sprockets-steel-rear-sprocket-kawasaki-suzuki-125cc-650cc) |
+| Mika Metals | Mika Metals Rear Aluminum Sprocket Kawasaki / Suzuki 125cc-650cc 1985-2027 | 40-1148, 40-1149, 40-1150, 40-1151, 40-1152, 40-1153 | 89.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/mika-metals-rear-aluminum-sprocket-kawasaki-suzuki-125cc-650cc-1985-2024) |
+| Moto-Master | Moto Master Aluminum Rear Sprocket Kawasaki / Suzuki 125cc-650cc 1985-2027 | 620052248, 620052249, 620052250, 620052251, 620052252, 620052253 | 62.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-aluminum-rear-sprocket-kawasaki-suzuki-125cc-650cc-1985-2026) |
+| Moto-Master | Moto Master Front Sprocket Kawasaki KX450F / KX450 / KX450X / KLX450R 2006-2026 | 610091113, 610091114, 610091115 | 26.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-front-sprocket-kawasaki-kx450f-kx450-kx450x-klx450r-2006-2026) |
+| Moto-Master | Moto Master Fusion Series Dual Ring Rear Sprocket Kawasaki / Suzuki 125cc-650cc 1985-2027 | 620053248, 620053249, 620053250, 620053251, 620053252 | 107.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-fusion-series-dual-ring-rear-sprocket-kawasaki-suzuki-125cc-650cc-1985-2026) |
+| Moto-Master | Moto Master Steel Rear Sprocket Kawasaki / Suzuki 125cc-650cc 1985-2027 | 620051148, 620051149, 620051150, 620051151, 620051152 | 58.46 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-steel-rear-sprocket-kawasaki-suzuki-125cc-650cc-1985-2026) |
+| Pro Taper | Pro Taper Race Spec Front Sprocket Kawasaki 450cc 2006-2026 | 038336, 038361 | 29.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-taper-race-spec-front-sprocket-kawasaki-450cc-2006-2019) |
+| Pro Taper | Pro Taper Race Spec Rear Aluminum Sprocket Kawasaki / Suzuki 125cc-650cc 1985-2027 | 033176, 033177, 033178, 033179, 033188, 033189, 033190, 033191, 033192, 033193, 033194, 033283/33283, 033284/33284 | 96.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-taper-race-spec-rear-aluminum-sprocket-kawasaki-suzuki-125cc-650cc-1985-2024) |
+| Renthal | Renthal Twinring Rear Sprocket Kawasaki / Suzuki 125cc-650cc 1985-2027 | 1120-520-47GPSI, 1120-520-48GPSI/112052048GPSI, 1120-520-49GPGN, 1120-520-49GPSI/112052049GPSI, 1120-520-50GPBK, 1120-52 | 91.76 USD | [Cycle Gear](https://www.cyclegear.com/parts/renthal-twinring-rear-sprocket-kawasaki-suzuki-125cc-650cc-1985-2024) |
+| Renthal | Renthal Ultralight Front Sprocket Kawasaki KX450 / F / X / SR / KLX450R 2006-2026 | 452U-520-13P | 43.16 USD | [Cycle Gear](https://www.cyclegear.com/parts/renthal-ultralight-front-sprocket-kawasaki-kx450f-klx450r-2006-2020) |
+| RFX | RFX Pro Armalite Rear Sprocket Kawasaki / Suzuki 125cc-650cc 1985-2027 | FXRS 20-48 ALBK, FXRS 20-48 ALGN, FXRS 20-49 ALBK, FXRS 20-49 ALGN, FXRS 20-50 ALBK, FXRS 20-50 ALGN, FXRS 20-51 ALBK | 99.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-pro-armalite-rear-sprocket-kawasaki-suzuki-125cc-650cc-1985-2026) |
+| RFX | RFX Race Series CS Steel Front Sprocket Kawasaki KX450F / KX450 / KX450X / KLX450R 2006-2026 | FXFS 23-13 55ST, FXFS 23-14 55ST | 15.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-race-series-cs-steel-front-sprocket-kawasaki-kx450f-kx450-kx450x-klx450r-2006-2026) |
+| SuperSprox | SuperSprox Aluminum Rear Sprocket / Off Road Kawasaki / Suzuki 125cc-650cc 1985-2027 | RAL-460-48-BLK, RAL-460-49-BLK, RAL-460-50-BLK, RAL-460-51-BLK, RAL-460-52-BLK | 69.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/supersprox-aluminum-rear-sprocket-off-road-kawasaki-suzuki-125cc-650cc-1985-2024) |
+| SuperSprox | SuperSprox Front Sprocket / Off Road Kawasaki KX450 / F / X / SR / KLX450R 2006-2026 | CST-1565-13-1, CST-1565-14-1 | 24.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/supersprox-front-sprocket-off-road-kawasaki-kx450-f-x-sr-klx450r-2006-2022) |
+| SuperSprox | SuperSprox Stealth Rear Sprocket / Off Road Kawasaki / Suzuki 125cc-650cc 1982-2027 | RST-460-47-GLD, RST-460-49-GLD, RST-460-50-GLD, RST-460-51-GLD, RST-460-53-GLD | 119.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/supersprox-stealth-rear-sprocket-off-road-kawasaki-suzuki-125cc-650cc-1982-2017) |
+| SuperSprox | SuperSprox Steel Rear Sprocket / Off Road Kawasaki / Suzuki 125cc-650cc 1982-2027 | RFE-460-42-BLK, RFE-460-48-BLK, RFE-460-49-BLK, RFE-460-50-BLK, RFE-460-51-BLK | 49.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/supersprox-steel-rear-sprocket-off-road-kawasaki-suzuki-125cc-650cc-1982-2024) |
+| Vortex Racing | Vortex Front Sprocket Yamaha / Fantic / Kawasaki 250cc-660cc 1999-2027 (13T and 14T) | 3370-13, 3370-14 | 29.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/vortex-front-sprocket-yamaha-kawasaki-250cc-660cc-1999-2023) |
+| Vortex Racing | Vortex Steel Rear Sprocket Kawasaki / Suzuki 125cc-650cc 1985-2027 | 422S-48, 422S-49, 422S-50, 422S-51, 422S-52 | 65.50 USD | [Cycle Gear](https://www.cyclegear.com/parts/vortex-steel-rear-sprocket-kawasaki-suzuki-125cc-650cc-1985-2024) |
+
+### Controls (17)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Fastway | Fastway Evolution 4 Footpeg And Fit Kit Combo | 22-3-0031S, 22-3-2031S, 22-3-5031S, 22-3-8131S, 22-3-0131S, 22-3-3031S, 22-3-4031S, 22-3-5131S, 22-3-6031S, 22-3-6131S,  | 202.90 USD | [MotoSport](https://www.motosport.com/fastway-evolution-4-footpeg-and-fit-kit-combo) |
+| Fastway | Fastway Evolution Air Footpeg And Fit Kit Combo | 22-3-0031S, 22-3-2031S, 22-3-5031S, 22-3-8131S, 22-3-0131S, 22-3-3031S, 22-3-4031S, 22-3-5131S, 22-3-6031S, 22-3-6131S,  | 271.65 USD | [MotoSport](https://www.motosport.com/fastway-evolution-air-footpeg-and-fit-kit-combo) |
+| Flo Motorsports | Flo Motorsports Adventure / Snow Footpegs | SPEG-792BLK, SPEG-795-2BLK | 264.95 USD | [MotoSport](https://www.motosport.com/flo-motorsports-adventure-snow-footpegs) |
+| Pro Taper | Pro Taper Profile Pro Hydraulic Clutch Lever | 024045, 024046, 024048 | 139.99 USD | [MotoSport](https://www.motosport.com/pro-taper-profile-pro-hydraulic-clutch-lever) |
+| Pro Taper | Pro Taper Spi 2.3 Platform Footpegs | 023208-CL77, 11-168A | 212.77 USD | [MotoSport](https://www.motosport.com/pro-taper-spi-23-platform-footpegs) |
+| RFX | RFX OEM Replica Mapping Switch | FXKB 11000 55ST, FXKB 21000 55ST, FXKB 31000 55ST, FXKB 41100 55ST, FXKB 41200 55ST, FXKB 50900 55ST | 49.99 USD | [MotoSport](https://www.motosport.com/rfx-oem-replica-mapping-switch) |
+| Ride Engineering | Ride Engineering Bar Mount Studs | CR-BMS00-SS, KX-BMS00-SS, CR-BMS10-SS | 21.95 USD | [MotoSport](https://www.motosport.com/ride-engineering-bar-mount-studs) |
+| Ride Engineering | Ride Engineering Billet Kill Switch LED Light | MX-LED00-AS | 26.95 USD | [MotoSport](https://www.motosport.com/ride-engineering-billet-kill-switch-led-light) |
+| Turner Performance Products | Turner Performance Products Oversized Bar Mounts With Fasst Flexx Handlebar Combo |  | 435.98 USD | [MotoSport](https://www.motosport.com/turner-performance-products-oversized-bar-mounts-with-fasst-flexx-handlebar-combo) |
+| Turner Performance Products | Turner Performance Products Oversized Bar Mounts With Pro Taper Contour Handlebar Combo |  | 107.99 USD | [MotoSport](https://www.motosport.com/turner-performance-products-oversized-bar-mounts-with-pro-taper-contour-handlebar-combo) |
+| Turner Performance Products | Turner Performance Products Oversized Bar Mounts With Pro Taper Evo Handlebar Combo |  | 147.98 USD | [MotoSport](https://www.motosport.com/turner-performance-products-oversized-bar-mounts-with-pro-taper-evo-handlebar-combo) |
+| Turner Performance Products | Turner Performance Products Oversized Bar Mounts With Renthal Fat Bar Combo |  | 186.97 USD | [MotoSport](https://www.motosport.com/turner-performance-products-oversized-bar-mounts-with-renthal-fat-bar-combo) |
+| Turner Performance Products | Turner Performance Products Oversized Bar Mounts With Turner Oversized Handlebar Combo |  | 87.98 USD | [MotoSport](https://www.motosport.com/turner-performance-products-oversized-bar-mounts-with-turner-oversized-handlebar-combo) |
+| Turner Performance Products | Turner Performance Products Oversized Mounts With Renthal Twinwall Handlebar Combo |  | 198.98 USD | [MotoSport](https://www.motosport.com/turner-performance-products-oversized-mounts-with-renthal-twinwall-handlebar-combo) |
+| Turner Performance Products | Turner Performance Products Universal Bar Mounts - Oversized 1-1/8 Bars |  | 39.99 USD | [MotoSport](https://www.motosport.com/turner-performance-products-universal-bar-mounts-oversized-118-bars) |
+| ZETA | ZETA Rx Clamp Kit | ZE32-4011, ZE32-4051, ZE32-4045 | 162.44 USD | [MotoSport](https://www.motosport.com/zeta-rx-clamp-kit) |
+| ZETA | ZETA Rx2 Clamp Kit | ZE32-4201 | 117.56 USD | [MotoSport](https://www.motosport.com/zeta-rx2-clamp-kit) |
+
+### Drive (8)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| All Balls | All Balls Counter Shaft Washer | 25-6004, 25-6005, 25-6007, 25-6008, 25-6009-CL77, 25-6012-CL77, 25-6001, 25-6002, 25-6014, 25-6015, 25-6016 | 31.07 USD | [MotoSport](https://www.motosport.com/all-balls-counter-shaft-washer) |
+| JT | JT Steel Chain And Sprocket Kit | 420-120, 428-120, 520-120, 520SRO6-120, 420NZ3G120RB, 520DZ2X120RB, C241, C267, C312, C128, C416, 420SR-130, 420X120RB,  | 83.01 USD | [MotoSport](https://www.motosport.com/jt-steel-chain-and-sprocket-kit) |
+| Nihilo | Nihilo Ny-Lock Axle Nut | NSLN12BLU, NSLN12GMG, NSLN12ORG, NSLN12RED, NSLN14EUBLK, NSLN14EUBLU, NSLN14EUORG, NSLN14EURED, NSLN14EUSILVER, NSLN20BL | 34.99 USD | [MotoSport](https://www.motosport.com/nihilo-nylock-axle-nut) |
+| Sunstar | Sunstar Aluminum Rear Sprocket | 5-357748BK, 5-361948BK, 5-367940, CL77-5-362643 | 78.49 USD | [MotoSport](https://www.motosport.com/sunstar-aluminum-rear-sprocket) |
+| TM Designworks | TM Designworks Baja Endurance Chain Slide-N-Guide Kit | HCP-H07-RD, KCP-K11-GR, KTM-225-BK, KTM-225-OR, KTM-230-BK, YCP-K10-BK, YCP-K19-BK, KCP-K12-BK, KTM-230-OR, YCP-K19-BU | 253.95 USD | [MotoSport](https://www.motosport.com/tm-designworks-baja-endurance-chain-slidenguide-kit) |
+| TM Designworks | TM Designworks Powerlip Race Chain Roller | PLR-211-BK, PLR-211-BU, PLR-211-RD, PLR-212-BK, PLR-215-BK, PLR-220-BK, PLR-220-GR, PLR-400-BK, PLR-400-RD, PLR-513-BK,  | 36.95 USD | [MotoSport](https://www.motosport.com/tm-designworks-powerlip-race-chain-roller) |
+| Turner Performance Products | Turner Performance Products Steel Sprocket & Chain Kit |  | 79.99 USD | [MotoSport](https://www.motosport.com/turner-performance-products-steel-sprocket-chain-kit) |
+| Turner Performance Products | Turner Performance Products Steel Sprocket - Rear |  | 26.99 USD | [MotoSport](https://www.motosport.com/turner-performance-products-steel-sprocket-rear) |
+
+### Drive & Transmission (20)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Acerbis | Acerbis Chain Guide / Slider Kit 2.0 Kawasaki KX250 / KX450 / F / X / SR 2019-2024 | 2734950001, 2734950006 | 98.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-chain-guide-slider-kit-20-kawasaki-kx250-kx450-f-x-sr-2019-2022) |
+| AXP Racing | AXP Racing Chain Guide Kawasaki 250cc-450cc 2019-2023 | AX1676 | 108.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/axp-racing-chain-guide-kawasaki-250cc-450cc-2019-2023) |
+| Barnett | Barnett Clutch Friction Plate Metric 1983-2025 | 301-35-10012 | 19.72 USD | [Cycle Gear](https://www.cyclegear.com/parts/barnett-clutch-friction-plate-metric-1983-2020) |
+| DP Brakes | DP Brakes Clutch Kit Kawasaki KX450 2019-2020 | DPK247 | 234.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/dp-brakes-clutch-kit-kawasaki-kx450-2019-2020) |
+| Hinson | Hinson Cushion Kit Kawasaki KX250 / KX450F / KLX450R 2005-2022 | CU263 | 55.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/hinson-cushion-kit-kawasaki-kx250-kx450f-klx450r-2005-2022) |
+| Hinson | Hinson Fiber Clutch Plates Honda / Kawasaki / Suzuki 400cc-450cc 2000-2020 | FP154-7-001, FP154-8-001, FP154-9-001 | 89.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/hinson-fiber-clutch-plates-honda-kawasaki-suzuki-400cc-450cc-2000-2020) |
+| Hinson | Hinson Hi Temp Clutch Spring Kit Kawasaki KX450 / KX450F / KLX450R 2006-2020 | CS264-5-0409 | 59.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/hinson-hi-temp-clutch-spring-kit-kawasaki-kx450-kx450f-klx450r-2006-2020) |
+| Polisport | Polisport Performance Chain Guide Kawasaki KX250 / KX450 / F / X / SR 2009-2024 | 8457600001, 8457600002 | 36.65 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-performance-chain-guide-kawasaki-kx250-kx450-f-x-sr-2009-2026) |
+| Pro X | Pro X Clutch Plate Set Kawasaki KX450 2019-2020 | 16.CPS44019 | 154.76 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-x-clutch-plate-set-kawasaki-kx450-2019-2020) |
+| Rekluse | Rekluse Core Manual Torq Drive Clutch Kit Kawasaki KX450 2019-2020 | RMS-7104046 | 1199.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-core-manual-torq-drive-clutch-kit-kawasaki-kx450-2019-2020) |
+| Rekluse | Rekluse EXP 3.0 Clutch Service Kit Honda / Kawasaki / Suzuki / KTM / Sherco / Gas Gas 250cc-650cc | 782-220 | 197.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-exp-30-clutch-service-kit-honda-kawasaki-suzuki-ktm-sherco-gas-gas-250cc-650cc) |
+| Rekluse | Rekluse Radius CX 4.0 Clutch Kit Kawasaki KX450 2019-2020 | RMS-8904046 | 1499.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-radius-cx-40-clutch-kit-kawasaki-kx450-2019-2020) |
+| Rekluse | Rekluse Torq Drive Clutch Pack Kawasaki KX450F / KX450 2016-2020 | RMS-2804044 | 429.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-torq-drive-clutch-pack-kawasaki-kx450f-kx450-2016-2020) |
+| RFX | RFX Rear Axle Blocks Kawasaki 250cc-450cc | FXAB 20200 99GN | 35.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-rear-axle-blocks-kawasaki-250cc-450cc) |
+| TM Designworks | TM Designworks Axle Block Flag Holder Kawasaki / Suzuki 125cc-450cc 2003-2027 | DBF-H03 | 46.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/tm-designworks-axle-block-flag-holder-kawasaki-suzuki-125cc-450cc-2003-2023) |
+| TM Designworks | TM Designworks Factory Edition SX Rear Chain Guide Kawasaki KX250 / F / KX450 / F / SR 2009-2024 | KXCG-SX5-BK, KXCG-SX5-GR | 97.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/tm-designworks-factory-edition-sx-rear-chain-guide-kawasaki-kx250-f-kx450-f-sr-2009-2022) |
+| TM Designworks | TM Designworks Multi-Purpose Chain Slide-N-Guide Kit Kawasaki KX250 / KX450 / F / X 2019-2024 | KCP-K11-BK, KCP-K11-GR | 234.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/tm-designworks-multi-purpose-chain-slide-n-guide-kit-kawasaki-kx250-kx450-f-x-2019-2022) |
+| TM Designworks | TM Designworks Powerlip Chain Roller Kit Kawasaki 250cc-450cc 2019-2023 | ZDK-KX5-BK, ZDK-KX5-GR | 179.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/tm-designworks-powerlip-chain-roller-kit-kawasaki-250cc-450cc-2019-2023) |
+| UFO | UFO Chain Roller Kawasaki KX250 / KX450 2019-2022 | KA04754001 | 15.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/ufo-chain-roller-kawasaki-kx250-kx450-2019-2022) |
+| Works Connection | Works Connection Elite Axle Blocks Kawasaki / Suzuki 125cc-450cc 2003-2027 | 17-235, 17-240, 17-245, 17-248, 17-310 | 76.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-elite-axle-blocks-kawasaki-suzuki-125cc-450cc-2003-2022) |
+
+### Engine (14)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| EBC | EBC Clutch Springs | CSK10, CSK101, CL77-CSK102, CSK109, CSK11, CSK110, CSK111, CSK112, CSK114, CSK115, CSK117, CSK119, CL77-CSK12, CSK120, C | 5.77 USD | [MotoSport](https://www.motosport.com/ebc-clutch-springs) |
+| Hammerhead Designs | Hammerhead Designs Oil Filler Plug | 33-0101-00-60, 33-0341-00-30, 33-0451-00-50, 33-0561-00-40, 33-0561-00-60, 33-0341-00-60 | 29.99 USD | [MotoSport](https://www.motosport.com/hammerhead-designs-oil-filler-plug) |
+| Moose | Moose CP Piston Circlips | 748050SWL | 4.95 USD | [MotoSport](https://www.motosport.com/moose-cp-piston-circlips) |
+| Moose | Moose Clutch Cover Gasket | 09342094, 816046, 816061, 816102, 816132, 816135, 816167, 816202, 816217, 817009, 817565, 817679, 817680, 816227, 816230 | 5.37 USD | [MotoSport](https://www.motosport.com/moose-clutch-cover-gasket) |
+| Nihilo | Nihilo Oil Filter Cover | NOFILCKXF450BLK, NOFILC-BLK, NOFILCKXF450BLU, NOFILCKXF450GRN | 27.99 USD | [MotoSport](https://www.motosport.com/nihilo-oil-filter-cover) |
+| Pro Circuit | Pro Circuit Clutch Spring Set | CSK09065, CSK09085, CSS12085, CST09250, CST12350, CSY10450-CS, CSH12150-CS, CSH10250CS, CSH04450, CSH09450, CSK10250CS,  | 90.00 USD | [MotoSport](https://www.motosport.com/pro-circuit-clutch-spring-set) |
+| Pro Circuit | Pro Circuit Engine Plug Kit | PC4009-0018, PC4009-0019, PC40090002, PC40090003, PC40090004, PC40090011, PC40090000, PC40090001, PC40090007, PC4009-001 | 69.95 USD | [MotoSport](https://www.motosport.com/pro-circuit-engine-plug-kit) |
+| Pro Circuit | Pro Circuit Ignition Cover | ICK1485, ICK09250, ICK17250, ICK16450, ICK25250, ICK20110, ICK21250, ICK19450 | 490.00 USD | [MotoSport](https://www.motosport.com/pro-circuit-ignition-cover) |
+| Pro Circuit | Pro Circuit Radiator Hose Kit | RHKH14250, RHKH16250, RHKK16450, RHKK02065, RHKS13250, RHKS15450, RHKY14250, RHKY02085, RHKK24450, RHKH22450, RHKK21250, | 139.49 USD | [MotoSport](https://www.motosport.com/pro-circuit-radiator-hose-kit) |
+| Pro Circuit | Pro Circuit Radiator Y-Hose Kit | RHKH14250Y, RHKH16250Y, RHKH16450Y, RHKK10250Y, RHKK16450Y, RHKS13250Y, RHKS15450Y, RHKK21250Y, RHKK24450Y, RHKK25250Y | 269.95 USD | [MotoSport](https://www.motosport.com/pro-circuit-radiator-yhose-kit) |
+| Pro Circuit | Pro Circuit Valve Springs | VSH07150, VSK06450, VSK07110, VSS05450, VSS07250, VSH10250, VSH04250, VSH02450, VSY06450, VSY14250, VSY17250, VSK19450 | 378.00 USD | [MotoSport](https://www.motosport.com/pro-circuit-valve-springs) |
+| Pro Circuit | Pro Circuit Water Pump Cover With Impeller | WPH04250, WPH10250, WPH09450, WPK17250, WPK19450, WPK24450 | 204.99 USD | [MotoSport](https://www.motosport.com/pro-circuit-water-pump-cover-with-impeller) |
+| Works Connection | Works Connection Maintenance-Hour-Tach Mount Bracket | 37-205, 37-206, 37-220 | 16.95 USD | [MotoSport](https://www.motosport.com/works-connection-maintenancehourtach-mount-bracket) |
+| Works Connection | Works Connection Radiator Plug | 24-630, 24-631, 24-632, 24-633, 24-634 | 22.95 USD | [MotoSport](https://www.motosport.com/works-connection-radiator-plug) |
+
+### Exhaust (7)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Big Gun | Big Gun EXO Full System Exhaust Kawasaki KX450 2019-2023 | 13-44543, 13-44723BK | 593.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/big-gun-exo-full-system-exhaust-kawasaki-kx450-2019-2023) |
+| Big Gun | Big Gun EXO R Full System Exhaust Kawasaki KX450 / KX450X 2019-2023 | 19-44723 | 674.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/big-gun-exo-r-full-system-exhaust-kawasaki-kx450-kx450x-2019-2023) |
+| FMF | FMF Factory 4.1 RCT Exhaust System Kawasaki KX450 / X / SR 2019-2023 | 042372, 042373/42373 | 926.24 USD | [Cycle Gear](https://www.cyclegear.com/parts/fmf-factory-41-rct-exhaust-system-kawasaki-kx450-x-sr-2019-2023) |
+| FMF | FMF Factory 4.1 RCT Slip-On Exhaust Kawasaki KX450 / X / SR 2019-2023 | 042369/42369 | 569.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/fmf-factory-41-rct-slip-on-exhaust-kawasaki-kx450-x-sr-2019-2022) |
+| FMF | FMF MegaBomb Header Kawasaki KX450 / X / SR 2019-2023 | 042365/42365, 042366/42366, 042379/42379, 042384/42384 | 284.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/fmf-megabomb-header-kawasaki-kx450-x-sr-2019-2023) |
+| FMF | FMF Powercore 4 HEX Slip-On Exhaust Kawasaki KX450 / X / SR 2019-2023 | 042367/42367 | 427.49 USD | [Cycle Gear](https://www.cyclegear.com/parts/fmf-powercore-4-hex-slip-on-exhaust-kawasaki-kx450-x-sr-2019-2022) |
+| Yoshimura | Yoshimura RS-12 Low Volume Insert Kit Kawasaki / Triumph 250cc-450cc 2021-2026 | INS-30-K | 40.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/yoshimura-rs-12-low-volume-insert-kit-kawasaki-triumph-250cc-450cc-2021-2026) |
+
+### Filters (7)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| BikeMaster | BikeMaster Oil Filter BM-207 | 171640/BM-207 | 4.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/bikemaster-oil-filter-bm-207) |
+| K&N | K&N Oil Filter KN-207 | KN-207 | 11.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/kn-oil-filter-kn-207) |
+| Moose Racing | Moose Racing Oil Filter Kawasaki KX250 / KX450 / F / X / SR 2004-2026 | DT-09-40 | 5.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-oil-filter-kawasaki-kx250f-kx250-kx450f-kx450-2004-2022) |
+| Motolis | Motolis M-207 Oil Filter  | M-207 | 6.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/motolis-m-207-oil-filter) |
+| Twin Air | Twin Air Air Filter Dust Cover Kawasaki KX250 / KX450 / X / SR 2019-2024 | 151124DC | 23.70 USD | [Cycle Gear](https://www.cyclegear.com/parts/twin-air-air-filter-dust-cover-kawasaki-kx250-kx450-x-sr-2019-2022) |
+| Twin Air | Twin Air Fuel Filter Kawasaki KX250 / KX450 / F / X / SR 2009-2023 | 160610 | 37.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/twin-air-fuel-filter-kawasaki-kx250-kx450-f-x-sr-2009-2022) |
+| Twin Air | Twin Air Oil Filter Kawasaki / Suzuki / Beta 250cc-450cc | 140018 | 12.30 USD | [Cycle Gear](https://www.cyclegear.com/parts/twin-air-oil-filter-kawasaki-suzuki-beta-250cc-450cc) |
+
+### Fuel System (1)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Quantum Fuel Systems | Quantum Fuel Systems Fuel Pump Kit | HFP-283, HFP-297, HFP-382-CA, HFP-396-U5, HFP-397-U, HFP-182, HFP-382-P, HFP-382-PX, HFP-361-U, HFP-396-NR, HFP-A396, HF | 125.95 USD | [MotoSport](https://www.motosport.com/quantum-fuel-systems-fuel-pump-kit) |
+
+### Gauges (1)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| GET | GET RPM Gauge Kawasaki / Yamaha 250cc-450cc 2018-2024 | GK-RPMDASH-0002 | 210.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/get-rpm-gauge-kawasaki-yamaha-250cc-450cc-2018-2024) |
+
+### Graphics (47)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| D'COR Visuals | D'COR Visuals 2019 Monster Cup Replica Seat Cover - Kawasaki | 30-20-480 | 69.95 USD | [MotoSport](https://www.motosport.com/dcor-visuals-2019-monster-cup-replica-seat-cover-kawasaki) |
+| D'COR Visuals | D'COR Visuals 2019 Monster Energy USA Complete Graphic Kit - Kawasaki | 20-20-755 | 103.99 USD | [MotoSport](https://www.motosport.com/dcor-visuals-2019-monster-energy-usa-complete-graphic-kit-kawasaki) |
+| D'COR Visuals | D'COR Visuals 2023 Monster Energy Kawasaki Complete Kit | 20-20-073, 20-20-143, 20-20-663, 20-20-503, 20-20-803 | 149.95 USD | [MotoSport](https://www.motosport.com/dcor-visuals-2023-monster-energy-kawasaki-complete-kit) |
+| D'COR Visuals | D'COR Visuals 25 Monster Energy Kawasaki Complete Graphics Kit | 20-20-075, 20-20-675, 20-20-665, 20-20-145, 20-20-805, 20-20-825 | 149.95 USD | [MotoSport](https://www.motosport.com/dcor-visuals-25-monster-energy-kawasaki-complete-graphics-kit) |
+| D'COR Visuals | D'COR Visuals 25 USA Complete Graphics Kit - Kawasaki | 20-20-201, 20-20-200 | 149.95 USD | [MotoSport](https://www.motosport.com/dcor-visuals-25-usa-complete-graphics-kit-kawasaki) |
+| D'COR Visuals | D'COR Visuals COR9 Complete Graphic Kit - Kawasaki | 20-20-231, 20-20-461, 20-20-462, 20-20-464 | 149.95 USD | [MotoSport](https://www.motosport.com/dcor-visuals-cor9-complete-graphic-kit-kawasaki) |
+| D'COR Visuals | D'COR Visuals Factory Replica Gripper Seat Cover - Kawasaki | 30-20-458, 30-20-459, 30-20-460, 30-20-475, 30-20-484 | 69.95 USD | [MotoSport](https://www.motosport.com/dcor-visuals-factory-replica-gripper-seat-cover-kawasaki) |
+| D'COR Visuals | D'COR Visuals Gripper Seat Cover - Kawasaki | 30-20-101, 30-20-125, 30-20-225, 30-20-102, 30-20-477, 30-20-452, 30-20-462, 30-20-453, 30-20-461, 30-20-476, 30-20-455, | 69.95 USD | [MotoSport](https://www.motosport.com/dcor-visuals-gripper-seat-cover-kawasaki) |
+| D'COR Visuals | D'COR Visuals Retro Seat Cover - Kawasaki | 30-20-485 | 74.95 USD | [MotoSport](https://www.motosport.com/dcor-visuals-retro-seat-cover-kawasaki) |
+| Factory Effex | Factory Effex 2017 OEM Lower Fork Decals - Kawasaki | 20-40128 | 11.69 USD | [MotoSport](https://www.motosport.com/factory-effex-2017-oem-lower-fork-decals-kawasaki) |
+| Factory Effex | Factory Effex 2019 OEM Graphics - Kawasaki | 22-05130, 22-05132 | 35.99 USD | [MotoSport](https://www.motosport.com/factory-effex-2019-oem-graphics-kawasaki) |
+| Factory Effex | Factory Effex 2020 OEM Graphics - Kawasaki | 23-05130, 23-05132 | 35.99 USD | [MotoSport](https://www.motosport.com/factory-effex-2020-oem-graphics-kawasaki) |
+| Factory Effex | Factory Effex 2021 OEM Graphics - Kawasaki | 24-05132 | 35.99 USD | [MotoSport](https://www.motosport.com/factory-effex-2021-oem-graphics-kawasaki) |
+| Factory Effex | Factory Effex 2022 OEM Graphics - Kawasaki | 25-05132 | 35.99 USD | [MotoSport](https://www.motosport.com/factory-effex-2022-oem-graphics-kawasaki) |
+| Factory Effex | Factory Effex DX1 Backgrounds Elite - Kawasaki |  | 59.99 USD | [MotoSport](https://www.motosport.com/factory-effex-dx1-backgrounds-elite-kawasaki) |
+| Factory Effex | Factory Effex DX1 Backgrounds Pro - Kawasaki |  | 44.99 USD | [MotoSport](https://www.motosport.com/factory-effex-dx1-backgrounds-pro-kawasaki) |
+| Factory Effex | Factory Effex DX1 Backgrounds Signature - Kawasaki | 17-40360 | 49.99 USD | [MotoSport](https://www.motosport.com/factory-effex-dx1-backgrounds-signature-kawasaki) |
+| Factory Effex | Factory Effex EVO 21 Series Shroud Graphic Kit - Kawasaki | 28-02106, 28-02108, 28-02110, 28-02112, 28-02148, 28-02114, 28-02116, 28-02118, 28-02120, 28-02122, 28-02124, 28-02126,  | 56.69 USD | [MotoSport](https://www.motosport.com/factory-effex-evo-21-series-shroud-graphic-kit-kawasaki) |
+| Factory Effex | Factory Effex Front Fender Decal - Kawasaki | 19-30118, 19-30120, 19-30126, 19-30128 | 17.99 USD | [MotoSport](https://www.motosport.com/factory-effex-front-fender-decal-kawasaki) |
+| Factory Effex | Factory Effex OEM Graphics - Kawasaki | 05-2688, 17-05132, 19-05132, 21-05130, 21-05132, 26-05132, 27-05132, 27-05134, 28-05132, 29-05132 | 37.99 USD | [MotoSport](https://www.motosport.com/factory-effex-oem-graphics-kawasaki) |
+| Factory Effex | Factory Effex OEM Swingarm Decals - Kawasaki | 19-42110, 19-42116, 19-42120, 19-42126 | 11.69 USD | [MotoSport](https://www.motosport.com/factory-effex-oem-swingarm-decals-kawasaki) |
+| Factory Effex | Factory Effex Pre-Cut Number Plate Backgrounds Kawasaki | 22-64138, 12-64124, 12-64130, 22-64140 | 35.99 USD | [MotoSport](https://www.motosport.com/factory-effex-precut-number-plate-backgrounds-kawasaki) |
+| Factory Effex | Factory Effex RS1 Seat Cover - Kawasaki | 18-29126, 18-29130, 22-29138, 27-29148 | 55.79 USD | [MotoSport](https://www.motosport.com/factory-effex-rs1-seat-cover-kawasaki) |
+| Factory Effex | Factory Effex Rear Fender Decal - Kawasaki | 19-32110, 19-32130, 19-32132, 22-32138, 19-32116, 19-32122 | 16.19 USD | [MotoSport](https://www.motosport.com/factory-effex-rear-fender-decal-kawasaki) |
+| Factory Effex | Factory Effex Retro 1 Series Shroud Graphic Kit - Kawasaki | 29-03106, 29-03108, 29-03110, 29-03112, 29-03148, 29-03114, 29-03116, 29-03118, 29-03120, 29-03122, 29-03124, 29-03126,  | 58.99 USD | [MotoSport](https://www.motosport.com/factory-effex-retro-1-series-shroud-graphic-kit-kawasaki) |
+| Factory Effex | Factory Effex Rockstar Complete Graphic Kit - Kawasaki | 26-07136, 26-07140, 26-07142, 26-07144 | 100.79 USD | [MotoSport](https://www.motosport.com/factory-effex-rockstar-complete-graphic-kit-kawasaki) |
+| Factory Effex | Factory Effex SR3 Series Shroud Graphic Kit - Kawasaki | 28-01108, 28-01110, 28-01112, 28-01148, 28-01116, 28-01118, 28-01120, 28-01122, 28-01124, 28-01126, 28-01128, 28-01130,  | 56.69 USD | [MotoSport](https://www.motosport.com/factory-effex-sr3-series-shroud-graphic-kit-kawasaki) |
+| Factory Effex | Factory Effex Shift Series Shroud Graphic Kit - Kawasaki | 29-02106, 29-02108, 29-02110, 29-02112, 29-02148, 29-02114, 29-02116, 29-02118, 29-02120, 29-02122, 29-02124, 29-02126,  | 58.99 USD | [MotoSport](https://www.motosport.com/factory-effex-shift-series-shroud-graphic-kit-kawasaki) |
+| Factory Effex | Factory Effex Standard Trim Kit - Kawasaki | 19-50114, 19-50120, 19-50122, 19-50124, 19-50130, 19-50132, 22-50138, 27-50140 | 46.99 USD | [MotoSport](https://www.motosport.com/factory-effex-standard-trim-kit-kawasaki) |
+| Factory Effex | Factory Effex Vision Series Shroud Graphic Kit - Kawasaki | 29-01106, 29-01108, 29-01110, 29-01112, 29-01148, 29-01114, 29-01116, 29-01118, 29-01120, 29-01122, 29-01124, 29-01126,  | 58.99 USD | [MotoSport](https://www.motosport.com/factory-effex-vision-series-shroud-graphic-kit-kawasaki) |
+| FLU Designs | FLU Designs Grip Seat Cover | 15005, 15008, 15010, 55204, 25008, 25002, 25009, 45004, 45003, 35002, 35005, 55009, 25014, 45010 | 23.99 USD | [MotoSport](https://www.motosport.com/flu-designs-grip-seat-cover) |
+| MotoSport | MotoSport Complete Factor Series Graphics Kit - Kawasaki |  | 144.99 USD | [MotoSport](https://www.motosport.com/motosport-complete-factor-series-graphics-kit-kawasaki) |
+| MotoSport | MotoSport Factory Series Backgrounds - Kawasaki |  | 59.99 USD | [MotoSport](https://www.motosport.com/motosport-factory-series-backgrounds-kawasaki) |
+| MotoSport | MotoSport Racer Series Backgrounds - Kawasaki |  | 49.99 USD | [MotoSport](https://www.motosport.com/motosport-racer-series-backgrounds-kawasaki) |
+| MotoSport | MotoSport Standard Series Backgrounds - Kawasaki |  | 39.99 USD | [MotoSport](https://www.motosport.com/motosport-standard-series-backgrounds-kawasaki) |
+| Throttle Syndicate | Throttle Syndicate 2019 Team Pro Circuit Team Kit | TS40-3797, TS40-3798, TS40-3799 | 124.99 USD | [MotoSport](https://www.motosport.com/throttle-syndicate-2019-team-pro-circuit-team-kit) |
+| Throttle Syndicate | Throttle Syndicate Frontline Complete Kit - Kawasaki | TS40-3822, TS40-3824, TS40-3826, TS40-3828 | 119.99 USD | [MotoSport](https://www.motosport.com/throttle-syndicate-frontline-complete-kit-kawasaki) |
+| Throttle Syndicate | Throttle Syndicate Frontline Shroud Kit - Kawasaki | TS40-3823, TS40-3825, TS40-3827, TS40-3829 | 69.99 USD | [MotoSport](https://www.motosport.com/throttle-syndicate-frontline-shroud-kit-kawasaki) |
+| Throttle Syndicate | Throttle Syndicate Pro Circuit Team Kit - 2020 | TS40-3804, TS40-3805, TS40-3806, TS40-3807 | 119.99 USD | [MotoSport](https://www.motosport.com/throttle-syndicate-pro-circuit-team-kit-2020) |
+| Throttle Syndicate | Throttle Syndicate Pro Circuit Team Kit - 2021 | TS40-3830, TS40-3831, TS40-3832, TS40-3833, TS40-3834, TS40-3835 | 119.99 USD | [MotoSport](https://www.motosport.com/throttle-syndicate-pro-circuit-team-kit-2021) |
+| Throttle Syndicate | Throttle Syndicate Pro Circuit Team Kit - 2022 | TS40-3848, TS40-3849, TS40-3850, TS40-3851, TS40-3852, TS40-3853, TS40-3113 | 119.99 USD | [MotoSport](https://www.motosport.com/throttle-syndicate-pro-circuit-team-kit-2022) |
+| Throttle Syndicate | Throttle Syndicate Pro Circuit Team Kit - 2023 | TS40-3854, TS40-3855, TS40-3856, TS40-3857, TS40-3858, TS40-3859, TS40-3115 | 119.99 USD | [MotoSport](https://www.motosport.com/throttle-syndicate-pro-circuit-team-kit-2023) |
+| Throttle Syndicate | Throttle Syndicate Pro Circuit Team Kit - 2024 | TS40-3883, TS40-3884, TS40-3885, TS40-3899, TS40-3886, TS40-3887, TS40-3888, TS40-3889, TS40-3890 | 119.99 USD | [MotoSport](https://www.motosport.com/throttle-syndicate-pro-circuit-team-kit-2024) |
+| Throttle Syndicate | Throttle Syndicate Team Green Kit - 2022 | TS40-3860, TS40-3861, TS40-3862, TS40-3863, TS40-3864, TS40-3865, TS40-3117 | 119.99 USD | [MotoSport](https://www.motosport.com/throttle-syndicate-team-green-kit-2022) |
+| Throttle Syndicate | Throttle Syndicate Team Green Kit - 2023 | TS40-3866, TS40-3867, TS40-3868, TS40-3869, TS40-3870, TS40-3871, TS40-3119 | 119.99 USD | [MotoSport](https://www.motosport.com/throttle-syndicate-team-green-kit-2023) |
+| Throttle Syndicate | Throttle Syndicate Team Green Kit - 2024 | TS40-3891, TS40-3892, TS40-3893, TS40-3900, TS40-3894, TS40-3895, TS40-3896, TS40-3897, TS40-3898 | 119.99 USD | [MotoSport](https://www.motosport.com/throttle-syndicate-team-green-kit-2024) |
+| Throttle Syndicate | Throttle Syndicate Team Green MEC Kit - 2019 | TS40-3813, TS40-3814, TS40-3815, TS40-3816 | 119.99 USD | [MotoSport](https://www.motosport.com/throttle-syndicate-team-green-mec-kit-2019) |
+
+### Handlebars & Controls (12)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Acerbis | Acerbis K-Future Handguards Kawasaki / Suzuki 250cc-450cc 2016-2027 | 2895641007, 2895641089 | 53.06 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-k-future-handguards-kawasaki-suzuki-250cc-450cc-2016-2022) |
+| Acerbis | Acerbis K-Linear Handguards Kawasaki KX250 / X / KX450 / X 2019-2024 | 2981401007, 2981401035, 2981401089 | 49.46 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-k-linear-handguards-kawasaki-kx250-x-kx450-x-2019-2024) |
+| Arc Levers | ARC Power Lever Clutch Lever Kawasaki KX250 / X / KX450 / X 2019-2026 | AC-CL-424I-CT, CL-412I-C/CL-424I-C/AC-CL-424I-C, CL-412I/CL-424I/AC-CL-424I | 139.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/arc-power-lever-clutch-lever-kawasaki-kx250-x-kx450-x-2019-2023) |
+| Arc Levers | ARC Power Lever Front Brake Lever Kawasaki 250cc-450cc 2019-2024 | AC-BR-412I-CT, BR-412I-C/AC-BR-412I-C, BR-412I/AC-BR-412I | 139.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/arc-power-lever-front-brake-lever-kawasaki-250cc-450cc-2019-2023) |
+| Enduro Engineering | Enduro Engineering Roost Deflector Mounting Kit Honda / Kawasaki 250cc-450cc 2019-2026 | 53-8019 | 66.45 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-roost-deflector-mounting-kit-honda-kawasaki-250cc-450cc-2019-2026) |
+| Flo Motorsports | Flo Motorsports Pro 160 Clutch Lever Kawasaki KX250 / X / KX450 / X 2019-2026 | CL-723-2 | 87.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-pro-160-clutch-lever-kawasaki-kx250-x-kx450-x-2019-2022) |
+| Moose Racing | Moose Racing Forged Clutch Lever Kawasaki KX250 / X / KX450 / X / SR 2019-2026 | H07-2909CMB, H07-2909CS | 57.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-forged-clutch-lever-kawasaki-kx250-x-kx450-x-sr-2019-2022) |
+| Polisport | Polisport MX Flow Handguards Kawasaki KX250 / X / KX450 / X / SR 2019-2024 | 8308200038, 8308200039, 8308200040 | 41.35 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-mx-flow-handguards-kawasaki-kx250-x-kx450-x-sr-2019-2022) |
+| Polisport | Polisport Pivot Lever Set Kawasaki KX250 / KX450 2019-2024 | 8487200019, 8487200020 | 113.39 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-pivot-lever-set-kawasaki-kx250-kx450-2019-2022) |
+| Pro Taper | Pro Taper Profile Pro XPS Front Brake Lever Kawasaki KX250 / X / KX450 / X / SR 2019-2024 | 024049 | 140.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-taper-profile-pro-xps-front-brake-lever-kawasaki-kx250-x-kx450-x-sr-2019-2023) |
+| Zeta | Zeta Forged Pivot Brake Lever Kawasaki KX250 / KX450 / X 2019-2024 | ZE41-3620 | 87.68 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-forged-pivot-brake-lever-kawasaki-kx250-kx450-x-2019-2023) |
+| Zeta | Zeta Forged Pivot Clutch Lever Kawasaki KX250 / KX250X / KX450 / KX450X 2019-2026 | ZE42-4621 | 87.68 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-forged-pivot-clutch-lever-kawasaki-kx250-kx250x-kx450-kx450x-2019-2023) |
+
+### Intake (2)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Boyesen | Boyesen Power Wing | PW-08, PW-29, PW-30, PW-43, PW-37, PW-21, PW-10, PW38, PW-14, PW-24, PW-41 | 123.99 USD | [MotoSport](https://www.motosport.com/boyesen-power-wing) |
+| P3 | P3 Carbon Air Box Cover | 716079, 715001 | 69.95 USD | [MotoSport](https://www.motosport.com/p3-carbon-air-box-cover) |
+
+### Lights And Electrical (1)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Works Connection | Works Connection Maintenance-Hour-Tach & Mount Kit | 37-200, 37-205, 37-206, 37-220 | 66.90 USD | [MotoSport](https://www.motosport.com/works-connection-maintenancehourtach-mount-kit) |
+
+### Seats (7)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Factory Effex | Factory Effex Dual Grip Seat Cover Kawasaki KX250 / X / KX450 / X 2019-2024 | 28-28104 | 79.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-effex-dual-grip-seat-cover-kawasaki-kx250-x-kx450-x-2019-2024) |
+| Factory Effex | Factory Effex RS1 Seat Cover Kawasaki KX250 / KX450 / F / X / SR 2019-2026 | 22-29138, 22-29140 | 69.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-effex-rs1-seat-cover-kawasaki-kx250-kx450-f-x-sr-2019-2022) |
+| FLU DESIGNS INC. | Flu Designs PRS Seat Cover Kawasaki KX250 / KX450 2019-2022 | 25507 | 49.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flu-designs-prs-seat-cover-kawasaki-kx250-kx450-2019-2022) |
+| Moose Racing | Moose Racing Gripper Seat Cover Kawasaki KX250 / KX450 / F / X / SR 2019-2026 | KXF45019-3 | 43.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-gripper-seat-cover-kawasaki-kx250-kx450-f-x-sr-2019-2022) |
+| Moose Racing | Moose Racing Ribbed Seat Cover Kawasaki KX250 / KX450 / F / X / SR 2019-2026 | KXF45019-334 | 59.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-ribbed-seat-cover-kawasaki-kx250-kx450-f-x-sr-2019-2022) |
+| Moose Racing | Moose Racing Seat Foam Kawasaki KX250 / X / KX450 / X / SR 2019-2026 | KXF45019-F | 69.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-seat-foam-kawasaki-kx250-x-kx450-x-sr-2019-2022) |
+| RFX | RFX Gripper Seat Cover Kawasaki KX250F / KX450F | FXSC 20005 55ST | 69.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-gripper-seat-cover-kawasaki-kx250f-kx450f) |
+
+### Skid Plates And Guards (1)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| P3 | P3 Front Brake Disc Guard | 502000, 519000, 515000, 511030, 518000, 517001, 514500, 516001, 514000 | 149.95 USD | [MotoSport](https://www.motosport.com/p3-front-brake-disc-guard) |
+
+### Suspension (20)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| All Balls Racing | All Balls Racing Fork Bushing Kit Kawasaki KX450 / X 2019-2022 | 38-6135 | 51.90 USD | [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-fork-bushing-kit-kawasaki-kx450-x-2019-2022) |
+| All Balls Racing | All Balls Racing Upper Shock Bearing Kit Kawasaki / Suzuki 80cc-650cc | 29-1002 | 30.13 USD | [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-upper-shock-bearing-kit-kawasaki-suzuki-80cc-650cc) |
+| Devol | Devol Transformer Pull Rod | 0116-1201, 0116-1202, 0116-2502, 0116-4701, 0116-4702, 0116-5501, 0116-5502, 0116-3301, 0116-4703, 0116-2503, 0116-4705, | 220.99 USD | [MotoSport](https://www.motosport.com/devol-transformer-pull-rod) |
+| Factory Connection | Factory Connection Fork Springs Honda / Kawasaki / Suzuki 250-450cc | LRN-045, LRN-047, LRN-049, LRN-051, LRN-053, LRN-055 | 154.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-connection-fork-springs-honda-kawasaki-suzuki-250-450cc) |
+| Factory Links | Factory Links Linkage Bearing Kit Kawasaki KX450 / KX450X / KX450SR 2019-2023 | LRK-K-112 | 104.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-links-linkage-bearing-rebuild-kit-kawasaki-kx450-kx450x-kx450sr-2019-2023) |
+| Factory Links | Factory Links Lower Shock Bearing Kit Kawasaki / Suzuki 65cc-450cc 1998-2027 | LSA-K-002 | 29.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-links-lower-shock-bearing-kit-kawasaki-suzuki-65cc-450cc-1998-2023) |
+| HP Tools | HP Tools Showa Inner Fork Cap Wrench |  | 14.99 USD | [MotoSport](https://www.motosport.com/hp-tools-showa-inner-fork-cap-wrench) |
+| Moose Racing | Moose Racing Fork Rebuild Kit Honda / Kawasaki / Suzuki 250cc-450cc | 1.19999E+11 | 78.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-fork-rebuild-kit-honda-kawasaki-suzuki-250cc-450cc) |
+| Moose Racing | Moose Racing NOK Fork Oil Seals Honda / Kawasaki / Suzuki 250cc-450cc | 0407-0729 | 27.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-nok-fork-oil-seals-honda-kawasaki-suzuki-250cc-450cc) |
+| Moose Racing | Moose Racing Shock Service Kit Kawasaki KX450 2019-2022 | 13140855 | 89.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-shock-service-kit-kawasaki-kx450-2019-2022) |
+| Moose Racing | Moose Racing Triple Clamps Kawasaki KX250 / KX450 2019-2024 | 14.099.2.AN | 599.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-triple-clamps-kawasaki-kx250-kx450-2019-2022) |
+| Pivot Works | Pivot Works Linkage Rebuild Kit Kawasaki 250cc-450cc 2019-2022 | PWLK-K34-000 | 140.34 USD | [Cycle Gear](https://www.cyclegear.com/parts/pivot-works-linkage-rebuild-kit-kawasaki-250cc-450cc-2019-2022) |
+| Pivot Works | Pivot Works Linkage/Shock Bearing Kit | PWLK-H41-000, PWLK-H42-000, PWLK-H43-000, PWLK-H44-000, PWLK-H45-000, PWLK-H46-000, PWLK-H47-000, PWLK-H49-000, PWLK-H50 | 98.14 USD | [MotoSport](https://www.motosport.com/pivot-works-linkageshock-bearing-kit) |
+| Pivot Works | Pivot Works Swingarm Bearing Kit Kawasaki 250cc-450cc 2017-2022 | PWSAK-K22-000 | 112.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/pivot-works-swingarm-bearing-kit-kawasaki-250cc-450cc-2017-2022) |
+| Pro Circuit | Pro Circuit Complete Linkage System | HLS19450X, HLS23450, KLS09085-7.0, KLS09100-7.0, KLS09085-9.5, KLS09100-9.5, KLS09100-2.0, KLS13065-2.0, KLS20450, KLS24 | 465.00 USD | [MotoSport](https://www.motosport.com/pro-circuit-complete-linkage-system) |
+| Race Tech | Race Tech Bottom Out Bumper | SKBO 123440, SKBO 144255, SKBO 164255, SKBO 164459, SKBO 184359F, SSBO 123634, SSBO 144439, SSBO 144856, SSBO 144944, SS | 29.99 USD | [MotoSport](https://www.motosport.com/race-tech-bottom-out-bumper) |
+| Ride Engineering | Ride Engineering Linkage Assembly | KT-LKN16-BA, KT-LKN21-BA, KT-LKN16-GE, KT-LKN21-GE, KT-LKN16-MB, KT-LKN21-MB, KT-LKN25-GE, KT-LKN25-MB, KX-LKN19-BA, KT- | 426.95 USD | [MotoSport](https://www.motosport.com/ride-engineering-linkage-assembly) |
+| XTrig | XTrig Pre-Load Adjuster Kawasaki KX450 / KX450X 2019-2023 | 500010300401 | 189.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/xtrig-pre-load-adjuster-kawasaki-kx450-kx450x-2019-2022) |
+| XTrig | XTrig Rocs Tech Triple Clamps Kawasaki KX450 / KX450X / KX450SR 2019-2023 | 501330401201 | 853.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/xtrig-rocs-tech-triple-clamps-kawasaki-kx450-kx450x-kx450sr-2019-2022) |
+| Zeta | Zeta Preload Adjuster Joint Kawasaki / Suzuki 450cc 2018-2024 | ZE56-13042 | 63.69 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-preload-adjuster-joint-kawasaki-suzuki-450cc-2018-2024) |
+
+### Tools And Maintenance (2)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| No Toil | No Toil Super-Flo Starter Kit | FRF12046, FRF12051, FRF15044, FRF15043, FRF14046, FRF18044, FRF18051, FRF15046, FRF18053, FRF17045, FRF14050, FRF12006,  | 194.12 USD | [MotoSport](https://www.motosport.com/no-toil-superflo-starter-kit) |
+| Pro Circuit | Pro Circuit Oil Filter Cover | PC4009-0015 | 35.96 USD | [MotoSport](https://www.motosport.com/pro-circuit-oil-filter-cover) |
+
+### Uncategorised (141)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Acerbis | Acerbis Front Number Plate Kawasaki KX250 / KX450 / F / X / SR 2016-2026 | 2449390001, 2449390002, 2449390006, 2449390011, 2449390213, 2449390235 | 25.16 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-front-number-plate-kawasaki-kx250f-kx250-kx450f-kx450-2016-2021) |
+| Acerbis | Acerbis Fuel Tank Kawasaki KX250 / KX450 / X / SR 2019-2024 | 2742620001, 2742620147 | 283.46 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-fuel-tank-kawasaki-kx250-kx450-x-sr-2019-2022) |
+| Acerbis | Acerbis Full Plastic Kit Kawasaki KX250 / KX450 / X / SR 2019-2024 | 2736290001, 2736290002, 2736290006, 2736290011, 2736290021, 2736290235, 2736291089, 2736296345, 2736296812, 2736297297,  | 152.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-full-plastic-kit-kawasaki-kx250-kx450-x-sr-2019-2022) |
+| Acerbis | Acerbis Lower Fork Covers Kawasaki KX250 / KX450 / F / X / SR 2016-2026 | 2403060001/2982550001, 2403060006/2982550006, 2403060085, 2982550002, 2982550011 | 32.36 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-lower-fork-covers-kawasaki-kx250-kx450-f-x-2016-2022) |
+| Acerbis | Acerbis Radiator Louvers Kawasaki KX250 / KX450 / F / X / SR 2016-2024 | 2791430001, 2791430006 | 39.56 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-radiator-louvers-kawasaki-kx250-kx450-f-x-sr-2016-2022) |
+| Acerbis | Acerbis Radiator Louvers Kawasaki KX250 / KX450 / F / X / SR 2016-2024 Black [Open Box] | 2791430001 | 35.60 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-radiator-louvers-kawasaki-kx250-kx450-f-x--1) |
+| Acerbis | Acerbis Radiator Shrouds Kawasaki KX250 / KX450 / F / X / SR 2019-2024 | 2736300001, 2736300002, 2736300006, 2736300011 | 53.06 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-radiator-shrouds-kawasaki-kx250-kx450-f-x-sr-2019-2023) |
+| Acerbis | Acerbis Raptor 2 Front Number Plate Kawasaki KX250 / KX450 / F / X / SR 2016-2026 | 2981840001, 2981840002, 2981840006 | 40.46 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-raptor-2-front-number-plate-kawasaki-kx250-kx450-f-x-sr-2016-2024) |
+| Acerbis | Acerbis Side Panels Kawasaki KX250 / KX450 / F / X / SR 2019-2024 | 2736310001, 2736310002, 2736310006, 2736310011, 2736310235 | 47.66 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-side-panels-kawasaki-kx250-kx450-f-x-sr-2019-2023) |
+| Acerbis | Acerbis Standard Plastic Kit Kawasaki KX250 / KX450 / F / X / SR 2019-2024 | 2736280001, 2736280002, 2736280006, 2736286345, 2736286812 | 128.66 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-standard-plastic-kit-kawasaki-kx250-kx450-f-x-sr-2019-2022) |
+| All Balls Racing | All Balls Racing Counter Shaft Seal Kit Kawasaki KX450 2019-2020 | 25-4046 | 27.82 USD | [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-counter-shaft-seal-kit-kawasaki-kx450-2019-2020) |
+| Athena | Athena Top End Gasket Kit Kawasaki KX450 2019-2020 | P400250600068 | 87.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/athena-top-end-gasket-kit-kawasaki-kx450-2019-2020) |
+| Athena | Athena Water Pump Gasket Kit Kawasaki KX450 / KX450X 2019-2026 | P400250475016 | 73.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/athena-water-pump-gasket-kit-kawasaki-kx450-kx450x-2019-2025) |
+| BILT FACTORY | BILT FACTORY Rear Brake Pedal Kawasaki 250cc-450cc 2020-2026 | RBP-K03B, RBP-K03E | 69.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/bilt-factory-rear-brake-pedal-kawasaki-250cc-450cc-2020-2025) |
+| Bolt Hardware | Bolt Hardware Rear Fender Perma Nuts Kawasaki KX250 / KX450 2019-2024 | BMH-KNUT | 14.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/bolt-hardware-rear-fender-perma-nuts-kawasaki-kx250-kx450-2019-2023) |
+| Boyesen | Boyesen Factory Racing Spectra Clutch Cover Kawasaki KX450 2019-2020 | CC-18CB, CC-18CM | 113.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/boyesen-factory-racing-spectra-clutch-cover-kawasaki-kx450-2019-2020) |
+| Boyesen | Boyesen Spectra Supercooler Kit Kawasaki KX450 / KX450X 2019-2023 | WPK-18CB, WPK-18CM | 175.46 USD | [Cycle Gear](https://www.cyclegear.com/parts/boyesen-spectra-supercooler-kit-kawasaki-kx450-kx450x-2019-2022) |
+| Cycra | Cycra 5 Piece Replica Kit Kawasaki KX250 / KX450 / F / X / SR 2019-2024 | 1CYC-9425-00, 1CYC-9425-12, 1CYC-9425-42, 1CYC-9425-72 | 134.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/cycra-5-piece-replica-kit-kawasaki-kx250-kx450-f-x-sr-2019-2022) |
+| Cycra | Cycra Cycralite Front Fender Kawasaki KX250 / KX450 / F / X / SR / KLX300R 2016-2027 | 1CYC-1472-12, 1CYC-1472-42, 1CYC-1472-72, 1CYC-1472-72F | 44.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/cycra-cycralite-front-fender-kawasaki-kx250-kx450-f-x-sr-klx300r-2016-2025) |
+| Cycra | Cycra Fork Guards Kawasaki KX250 / KX450 / F / X / SR 2016-2023 | 1CYC-6909-12, 1CYC-6909-42, 1CYC-6909-72, 1CYC-6909-72F | 35.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/cycra-fork-guards-kawasaki-kx250f-kx250-kx450f-kx450-2016-2021) |
+| Cycra | Cycra Performance Front Fender Kawasaki KX250 / KX450 / F / X / SR / KLX300R 2016-2027 | 1CYC-1572-12, 1CYC-1572-42, 1CYC-1572-72, 1CYC-1572-72F | 29.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/cycra-performance-front-fender-kawasaki-kx250-kx450-f-x-sr-klx300r-2016-2025) |
+| Cycra | Cycra Powerflow Body Kit Kawasaki KX250 / KX450 / F / X / SR 2019-2024 | 1CYC-9325-02, 1CYC-9325-12, 1CYC-9325-42, 1CYC-9325-72 | 219.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/cycra-powerflow-body-kit-kawasaki-kx250-kx450-f-x-sr-2019-2022) |
+| Cycra | Cycra Powerflow Radiator Shrouds Kawasaki KX250 / KX450 / F / X / SR 2019-2023 | 1CYC-1871-12, 1CYC-1871-42, 1CYC-1871-72 | 79.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/cycra-powerflow-radiator-shrouds-kawasaki-kx250-kx450-f-x-sr-2019-2022) |
+| Cycra | Cycra Powerflow Rear Fender Kawasaki KX250 / KX450 / F / X / SR 2019-2024 | 1CYC-1715-12, 1CYC-1715-42, 1CYC-1715-72 | 36.61 USD | [Cycle Gear](https://www.cyclegear.com/parts/cycra-powerflow-rear-fender-kawasaki-kx250-kx450-f-x-sr-2019-2022) |
+| Cycra | Cycra Radiator Louvers Kawasaki KX250 / X / KX450 / X 2016-2024 | 1CYC-6804-12, 1CYC-6804-72 | 43.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/cycra-radiator-louvers-kawasaki-kx250-x-kx450-x-2016-2023) |
+| Cycra | Cycra Side Panels Kawasaki KX250 / KX450 / F / X / SR 2019-2024 | 1CYC-2770-12, 1CYC-2770-42, 1CYC-2770-72 | 55.50 USD | [Cycle Gear](https://www.cyclegear.com/parts/cycra-side-panels-kawasaki-kx250-kx450-f-x-sr-2019-2023) |
+| Cycra | Cycra Stadium Front Number Plate Kawasaki KX250 / KX450 / F / X / SR 2016-2026 | 1CYC-0701-12, 1CYC-0701-42, 1CYC-0701-72, 1CYC-0701-72F | 34.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/cycra-stadium-front-number-plate-kawasaki-kx250-kx450-f-x-sr-2016-2022) |
+| DP Brakes | DP Brakes Vented Titanium Rear Brake Piston Yamaha / Fantic / Kawasaki / Suzuki 125cc-450cc 2003-202 | DPP021M | 178.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/dp-brakes-vented-titanium-rear-brake-piston-yamaha-kawasaki-suzuki-125cc-450cc-2003-2025) |
+| DRC | DRC Footpeg Pin And Spring Kit Kawasaki KX250 / F / X / KX450 / F / X / KLX450 2006-2026 | D48-01-114 | 24.94 USD | [Cycle Gear](https://www.cyclegear.com/parts/drc-footpeg-pin-and-spring-kit-kawasaki-kx250-f-x-kx450-f-x-klx450-2006-2024) |
+| DRC | DRC Radiator Hose Kit Kawasaki KX450 / KX450X 2019-2023 | D47-01-302 | 167.24 USD | [Cycle Gear](https://www.cyclegear.com/parts/drc-radiator-hose-kit-kawasaki-kx450-kx450x-2019-2023) |
+| DRC | DRC Wide Steel Footpegs Kawasaki KX250 / F / X / KX450 / F / X / KLX450 2006-2026 | Z48-02-531 | 88.27 USD | [Cycle Gear](https://www.cyclegear.com/parts/drc-wide-steel-footpegs-kawasaki-kx250-f-x-kx450-f-x-klx450-2006-2024) |
+| Excel | Excel Front Wheel Spoke Set Kawasaki 200cc-650cc 1991-2027 | XS9-22217 | 103.88 USD | [Cycle Gear](https://www.cyclegear.com/parts/excel-front-wheel-spoke-set-kawasaki-200cc-650cc-1991-2021) |
+| Excel | Excel Rear Wheel Spoke Set Kawasaki / Suzuki 125cc-450cc 2003-2026 | XS8-23197, XS8-25187 | 103.88 USD | [Cycle Gear](https://www.cyclegear.com/parts/excel-rear-wheel-spoke-set-kawasaki-suzuki-125cc-450cc-2003-2023) |
+| Excel | Excel Takasago 1.85" x 19" Rear Rim Yamaha / Kawasaki / Suzuki 125cc-650cc 1989-2027 | GDB406, GDG406, GDK406, GDS406 | 173.34 USD | [Cycle Gear](https://www.cyclegear.com/parts/excel-takasago-185-x-19-rear-rim-yamaha-kawasaki-suzuki-125cc-650cc-1989-2023) |
+| Excel | Excel Takasago 2.15" x 18" Rear Rim Kawasaki / Suzuki 125cc-650cc 1989-2026 | FEG410, FEK410, FES410 | 190.77 USD | [Cycle Gear](https://www.cyclegear.com/parts/excel-takasago-215-x-18-rear-rim-kawasaki-suzuki-125cc-650cc-1989-2023) |
+| Excel | Excel Takasago 2.15" x 19" Rear Rim Kawasaki / Suzuki 125cc-500cc 1989-2026 | GEG410, GEK410, GES410 | 195.92 USD | [Cycle Gear](https://www.cyclegear.com/parts/excel-takasago-215-x-19-rear-rim-kawasaki-suzuki-125cc-500cc-1989-2023) |
+| Factory Effex | Factory Effex Candy Chrome Shroud / Airbox Graphics Kit Kawasaki KX250 / X / KX450 / X / SR 2019-202 | 27-03106 | 99.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-effex-complete-candy-chrome-kit-kawasaki-kx250-x-kx450-x-sr-2019-2024) |
+| Factory Effex | Factory Effex Candy Chrome Trim Kit Kawasaki KX250 / KX450 2019-2024 | 27-51106 | 84.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-effex-candy-chrome-trim-kit-kawasaki-kx250-kx450-2019-2024) |
+| Factory Effex | Factory Effex EVO 21 Shroud / Airbox Graphics Kit Kawasaki KX250 / X / KX450 / X 2019-2024 | 28-02138 | 69.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-effex-evo-21-shroud-airbox-graphics-kit-kawasaki-kx250-x-kx450-x-2019-2024) |
+| Factory Effex | Factory Effex Engine Plug Kit Kawasaki KX250 / KX450 / F / X / SR 2009-2024 | 1236110/12-36110, 17-36112, 17-36114 | 74.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-effex-engine-plug-kit-kawasaki-kx250f-kx450f-kx450-2009-2021) |
+| Factory Effex | Factory Effex Swingarm Graphics Kawasaki 250cc-450cc 2006-2024 | 19-42126 | 14.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-effex-swingarm-graphics-kawasaki-250cc-450cc-2006-2022) |
+| Factory Links | Factory Links Front Wheel Bearing Kit Kawasaki / Suzuki / Yamaha 250cc-450cc 2005-2024 | FWK-S-047 | 34.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-links-front-wheel-bearing-kit-kawasaki-suzuki-yamaha-250cc-450cc-2005-2024) |
+| Factory Links | Factory Links Front and Rear Wheel Bearing Kit Kawasaki 250cc-450cc 2019-2026 | KWK-K-001 | 66.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-links-front-and-rear-wheel-bearing-kit-kawasaki-250cc-450cc-2019-2025) |
+| Factory Links | Factory Links Rear Wheel Bearing Kit Kawasaki / Suzuki 125cc-450cc 2003-2026 | RWK-K-123 | 34.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-links-rear-wheel-bearing-kit-kawasaki-suzuki-125cc-450cc-2003-2023) |
+| Fire Power | Fire Power Front Wheel Kawasaki 250cc-450cc 2019-2026 | 568-7221-3333 | 413.06 USD | [Cycle Gear](https://www.cyclegear.com/parts/fire-power-front-wheel-kawasaki-250cc-450cc-2019-2026) |
+| Fire Power | Fire Power Radiator Kawasaki KX450F / KX450 2016-2023 | TRS-R-140L, TRS-R-140R | 112.46 USD | [Cycle Gear](https://www.cyclegear.com/parts/fire-power-radiator-kawasaki-kx450f-kx450-2016-2023) |
+| Fire Power | Fire Power Replacement Front Spokes Service Kit Kawasaki 250cc-450cc 2019-2026 | FW-2116-K722F-SN | 29.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/fire-power-replacement-front-spokes-service-kit-kawasaki-250cc-450cc-2019-2026) |
+| Flo Motorsports | Flo Motorsports Adventure / Snow Bike Foot Pegs Honda / Kawasaki 125cc-450cc 2004-2027 | SPEG-792BLK | 264.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-adventure-snow-bike-foot-pegs-honda-kawasaki-125cc-450cc-2004-2022) |
+| Flo Motorsports | Flo Motorsports Stainless Steel Foot Pegs Honda / Kawasaki 125cc-450cc 2004-2027 | SS-792 | 139.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-stainless-steel-foot-pegs-honda-kawasaki-125cc-450cc-2004-2024) |
+| Flo Motorsports | Flo Motorsports Titanium Foot Pegs Honda / Kawasaki 125cc-450cc 2004-2027 | TI-792JET | 389.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-titanium-foot-pegs-honda-kawasaki-125cc-450cc-2004-2022) |
+| GBrakes | GBrakes Off Road Front Brake Line FK003D477 | FK003D477/FK003D477-1 | 62.10 USD | [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-off-road-front-brake-line-fk003d477) |
+| Guts | Guts Complete Ribbed Seat Kawasaki 250cc-450cc | 6802208R21S21T21-CSM, 6802208R31S21T21-CSM, 6802208R31S31T31-CSM, 6808R21S21T21-CSM, 6808R31S21T21-CSM, 6808R31S31T31-CS | 268.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/guts-complete-ribbed-seat-kawasaki-250cc-450cc) |
+| Guts | Guts Complete Seat Kawasaki 250cc-450cc | 6802206-21-CSM, 6802206-31-CSM, 6806-21-CSM, 6806-31-CSM, 6816-21-CSM, 6816-31-CSM | 268.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/guts-complete-seat-kawasaki-250cc-450cc) |
+| Hinson | Hinson BTL Series Slipper Clutch Kawasaki KX450F / KX450 / KLX450R 2006-2020 | BTL263 | 1149.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/hinson-btl-series-slipper-clutch-kawasaki-kx450f-kx450-klx450r-2006-2020) |
+| Hinson | Hinson Billetproof Clutch Cover Kawasaki KX450 2019-2020 | C563 | 169.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/hinson-billetproof-clutch-cover-kawasaki-kx450-2019-2020) |
+| IMS | IMS Bigfoot Footpegs Kawasaki KX250 / F / X / KX450 / F / X / KLX450 2006-2026 | 263120 | 140.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/ims-bigfoot-footpegs-kawasaki-kx250-f-x-kx450-f-x-klx450-2006-2024) |
+| IMS | IMS Core Enduro Footpegs Kawasaki KX250 / F / X / KX450 / F / X / KLX450 2006-2026 | 343120-E | 215.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/ims-core-enduro-footpegs-kawasaki-kx250-f-x-kx450-f-x-klx450-2006-2024) |
+| IMS | IMS Core MX Footpegs Kawasaki KX250 / F / X / KX450 / F / X / KLX450 2006-2026 | 343120-M | 215.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/ims-core-mx-footpegs-kawasaki-kx250-f-x-kx450-f-x-klx450-2006-2024) |
+| IMS | IMS Pro Series Footpegs Kawasaki KX250 / F / X / KX450 / F / X / KLX450 2006-2026 | 293120-4 | 140.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/ims-pro-series-footpegs-kawasaki-kx250-f-x-kx450-f-x-klx450-2006-2024) |
+| IMS | IMS Super Stock Footpegs Kawasaki KX250 / F / X / KX450 / F / X / KLX450 2006-2026 | 273120 | 125.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/ims-super-stock-footpegs-kawasaki-kx250-f-x-kx450-f-x-klx450-2006-2024) |
+| Moose Racing | Moose Racing Aluminum Magnetic Drain Plug Kawasaki 250cc-450cc 2019-2023 | T14-2083S | 17.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-aluminum-magnetic-drain-plug-kawasaki-250cc-450cc-2019-2023) |
+| Moose Racing | Moose Racing Aluminum Throttle Tube Kawasaki / Suzuki / Yamaha 2001-2026 | M40-200 | 44.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-aluminum-throttle-tube-kawasaki-suzuki-yamaha-2001-2026) |
+| Moose Racing | Moose Racing Bling Pack Kawasaki 250cc-450cc 2019-2021 | M57-2004GN | 132.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-bling-kit-kawasaki-250cc-450cc-2019-2021) |
+| Moose Racing | Moose Racing Clutch Cover Gasket Honda / Kawasaki 450cc 2002-2020 | 817716MSE | 5.37 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-clutch-cover-gasket-honda-kawasaki-450cc-2002-2020) |
+| Moose Racing | Moose Racing Clutch Cover Kawasaki KX450 2019-2020 | D70-2425MB | 156.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-clutch-cover-kawasaki-kx450-2019-2020) |
+| Moose Racing | Moose Racing Complete Motor Gasket Kit Kawasaki KX450 2019-2020 | 8110027MSE | 221.09 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-complete-motor-gasket-kit-kawasaki-kx450-2019-2020) |
+| Moose Racing | Moose Racing EFI Fuel Pump Rebuild Kit Kawasaki 250cc-450cc 2019-2024 | 47-2061 | 104.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-efi-fuel-pump-rebuild-kit-kawasaki-250cc-450cc-2019-2022) |
+| Moose Racing | Moose Racing Fast Front Wheel Spacers Kawasaki 250cc-450cc 2019-2022 | W16-2307GB, W16-2307GN | 28.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-fast-front-wheel-spacers-kawasaki-250cc-450cc-2019-2022) |
+| Moose Racing | Moose Racing Fast Rear Wheel Spacers Kawasaki 125cc-450cc | W16-2301GB, W16-2301GN | 35.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-fast-rear-wheel-spacers-kawasaki-125cc-450cc) |
+| Moose Racing | Moose Racing Forged Rear Brake Pedal Kawasaki KX450 / F / X / SR 2006-2023 | 82-0342-21-33 | 131.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-forged-rear-brake-pedal-kawasaki-kx450-f-x-sr-2006-2022) |
+| Moose Racing | Moose Racing Front Wheel Bearing Kit Suzuki / Yamaha 250cc-450cc 2005-2027 | 25-1482 | 34.29 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-front-wheel-bearing-kit-suzuki-yamaha-250cc-450cc-2005-2022) |
+| Moose Racing | Moose Racing Hybrid Footpegs Kawasaki / Suzuki 250cc-450cc 2005-2020 | STKXF-5, STKXF-5B | 219.73 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-hybrid-footpegs-kawasaki-suzuki-250cc-450cc-2005-2020) |
+| Moose Racing | Moose Racing Ignition Cover Gasket Kawasaki KX450 / KX450F 2016-2020 | 816292MSE | 13.64 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-ignition-cover-gasket-kawasaki-kx450-kx450f-2016-2020) |
+| Moose Racing | Moose Racing MX1 Front Wheel Spoke Set Kawasaki 250cc-450cc 2006-2026 | 24-211 | 49.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-mx1-front-wheel-spoke-set-kawasaki-250cc-450cc-2006-2022) |
+| Moose Racing | Moose Racing ND Series Footpegs Kawasaki KX250 / F / X / KX450 / F / X / KLX450 2006-2026 | NDKXF-5, NDKXF-5B | 147.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-nd-series-footpegs-kawasaki-kx250-f-x-kx450-f-x-klx450-2006-2024) |
+| Moose Racing | Moose Racing Pro Footpegs Kawasaki KX250 / F / X / KX450 / F / X / KLX450 2006-2026 | NRKXF-5, NRKXF-5B | 159.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-pro-footpegs-kawasaki-kx250-f-x-kx450-f-x-klx450-2006-2024) |
+| Moose Racing | Moose Racing Pro Race Piston Kit Kawasaki KX450 2019-2022 | MPX3030, MPX3033, MPX3034 | 386.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-pro-race-piston-kit-kawasaki-kx450-2019-2022) |
+| Moose Racing | Moose Racing Qualifier Footpegs Kawasaki KX250 / F / X / KX450 / F / X / KLX450 2006-2026 | P17-24A4B | 146.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-qualifier-footpegs-kawasaki-kx250-f-x-kx450-f-x-klx450-2006-2024) |
+| Moose Racing | Moose Racing Radiator Hose Clamp Kit Kawasaki KX450 2019-2022 | CK-KAW-92 | 28.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-radiator-hose-clamp-kit-kawasaki-kx450-2019-2022) |
+| Moose Racing | Moose Racing Radiator Kawasaki KX450 / KX450F 2016-2021 | 1901-0897, 1901-0898 | 159.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-radiator-kawasaki-kx450-kx450f-2016-2021) |
+| Moose Racing | Moose Racing Radiator Kawasaki KX450 / KX450F 2016-2021 Right Side [Previously Installed] | 1901-0898 | 135.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-radiator-kawasaki-kx450-kx450f-2016-2021-) |
+| Moose Racing | Moose Racing Rear Rim Kawasaki / Suzuki / Yamaha 125cc-450cc 1989-2026 | GK-18X215BK, GK-18X215S, GK-19X185BK, GK-19X185S, GK-19X215BK, GK-19X215S | 146.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-rear-rim-kawasaki-suzuki-yamaha-125cc-450cc-1989-2022) |
+| Moose Racing | Moose Racing SX-1 Complete Front Wheel Kawasaki 125cc-450cc | KFN-16021-BKGN | 441.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-sx-1-complete-front-wheel-kawasaki-125cc-450cc) |
+| Moose Racing | Moose Racing SX-1 Complete Rear Wheel Kawasaki 125cc-450cc | KR-21519-BKGN | 478.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-sx-1-complete-rear-wheel-kawasaki-125cc-450cc) |
+| Moose Racing | Moose Racing SX-1 Front Wheel Spacers Kawasaki 250cc-450cc | KFN19-WSP-KIT | 12.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-sx-1-front-wheel-spacers-kawasaki-250cc-450cc) |
+| Moose Racing | Moose Racing SX-1 Rear Wheel Spacers Kawasaki 125cc-450cc | KR-WSP-KIT | 16.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-sx-1-rear-wheel-spacers-kawasaki-125cc-450cc) |
+| Moose Racing | Moose Racing Stainless Steel Front Spoke Set Kawasaki 250cc-450cc 2006-2026 | 1-22-211-S | 69.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-stainless-steel-front-spoke-set-kawasaki-250cc-450cc-2006-2020) |
+| Moose Racing | Moose Racing Stainless Steel Rear Spoke Set Kawasaki / Suzuki 125cc-450cc 2003-2026 | 1-22-208-S, 1-22-209-S | 69.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-stainless-steel-rear-spoke-set-kawasaki-suzuki-125cc-450cc-2003-2022) |
+| Moose Racing | Moose Racing Steering Stem Nut Yamaha 125cc-450cc 2004-2024 | C23-2241GN | 18.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-steering-stem-nut-yamaha-125cc-450cc-2004-2022) |
+| Moose Racing | Moose Racing Top End Gasket Kit Kawasaki KX450 2019-2020 | 8100023MSE | 87.56 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-top-end-gasket-kit-kawasaki-kx450-2019-2020) |
+| Motion Pro | Motion Pro Black Vinyl Throttle Cable Kawasaki KX450 / KX450X 2019-2023 | 03-0447 | 27.79 USD | [Cycle Gear](https://www.cyclegear.com/parts/motion-pro-black-vinyl-throttle-cable-kawasaki-kx450-kx450x-2019-2023) |
+| No Toil | No Toil Air Filter Cage Kawasaki KX250 / X / KX450 / X 2019-2024 | C14050 | 29.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/no-toil-air-filter-cage-kawasaki-kx250-x-kx450-x-2019-2024) |
+| No Toil | No Toil Bike Wash Kit Kawasaki KX450 2019-2023 | WK140-50 | 39.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/no-toil-bike-wash-kit-kawasaki-kx450-2019-2023) |
+| No Toil | No Toil Pre Filter Kawasaki KX250 / KX450 2020-2021 | PF140-50 | 19.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/no-toil-pre-filter-kawasaki-kx250-kx450-2020-2021) |
+| Polisport | Polisport Front Fender Kawasaki KX250 / KX450 / F / X / SR / KLX300R 2016-2027 | 8574500001, 8574500003, 8574500004 | 24.31 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-front-fender-kawasaki-kx250-kx450-f-x-sr-klx300r-2016-2022) |
+| Polisport | Polisport Front Number Plate Kawasaki KX250 / KX450 / F / X / SR 2016-2026 | 8665900001, 8665900002, 8665900003, 8665900005, 8665900006 | 26.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-front-number-plate-kawasaki-kx250-kx450-f-x-sr-2016-2022) |
+| Polisport | Polisport Mud Flap Kawasaki KX250 / X / KX450 / X / SR 2019-2024 | 8907200001 | 17.09 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-mud-flap-kawasaki-kx250-x-kx450-x-sr-2019-2023) |
+| Polisport | Polisport Radiator Louvers Kawasaki KX250 / KX450 / F / X / SR 2016-2024 | 8457800001, 8457800002 | 37.74 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-radiator-louvers-kawasaki-kx250-kx450-f-x-sr-2016-2022) |
+| Polisport | Polisport Radiator Shrouds Kawasaki KX250 / KX450 / X / SR 2019-2024 | 8423400001, 8423400002, 8423400003, 8423400004, 8423400005 | 58.45 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-radiator-shrouds-kawasaki-kx250-kx450-x-sr-2019-2022) |
+| Polisport | Polisport Rear Fender Kawasaki KX250F / KX450F 2019-2024 | 8596100001, 8596100003, 8596100004, 8596100005 | 30.55 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-rear-fender-kawasaki-kx250f-kx450f-2019-2024) |
+| Polisport | Polisport Side Panels Kawasaki KX250 / KX450 / X / SR 2019-2024 | 8423500001, 8423500002, 8423500003, 8423500004, 8423500005 | 49.50 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-side-panels-kawasaki-kx250-kx450-x-sr-2019-2022) |
+| Pro Circuit | Pro Circuit Billet Throttle Tube Kawasaki / Suzuki / Yamaha 250cc-450cc 2001-2024 | TB-04 | 71.20 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-billet-throttle-tube-kawasaki-suzuki-yamaha-250cc-450cc-2001-2021) |
+| Pro Taper | Pro Taper Aluminum Shift Lever Kawasaki KX450 / F / X / SR 2016-2023 | 021191/21191 | 29.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-taper-aluminum-shift-lever-kawasaki-kx450-f-x-sr-2016-2022) |
+| Pro Taper | Pro Taper Titanium Footpegs Kawasaki KX250 / F / X / KX450 / F / X / KLX450 2006-2026 | 022153 | 329.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-taper-titanium-footpegs-kawasaki-kx250-f-x-kx450-f-x-klx450-2006-2025) |
+| Pro Taper | Pro Taper VDS Bar Mounts Kawasaki 250cc-450cc 2013-2026 | 022216 | 199.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-taper-vds-bar-mounts-kawasaki-250cc-450cc-2013-2026) |
+| Pro X | Pro X Cam Chain Yamaha / Suzuki / Kawasaki 450cc-700cc 2004-2023 | 31.2706 | 95.36 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-x-cam-chain-yamaha-suzuki-kawasaki-450cc-700cc-2004-2023) |
+| Pro X | Pro X Forged Piston Kit Kawasaki KX450 / X 2019-2023 (B/95.98mm/+0.01mm Over) | 01.4429.A, 01.4429.B, 01.4429.C | 210.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-x-forged-piston-kit-kawasaki-kx450-x-2019-2023-b9598mm001mm-over) |
+| Puig | Puig Off-Road Footpegs Kawasaki KX250F / KX450 / F 2006-2021 | 20557N, 20557V | 131.23 USD | [Cycle Gear](https://www.cyclegear.com/parts/puig-off-road-footpegs-kawasaki-kx250f-kx450-f-2006-2021) |
+| Raptor | Raptor Titanium Footpegs Kawasaki KX250 / F / X / KX450 / F / X / KLX450 2006-2026 | RX006 | 362.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/raptor-titanium-footpegs-kawasaki-kx250-f-x-kx450-f-x-klx450-2006-2024) |
+| RFX | RFX Air Box Wash Cover Kawasaki KX250F / KX450F 2019-2024 | FXAW 20002 55ST | 29.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-air-box-wash-cover-kawasaki-kx250f-kx450f-2019-2024) |
+| RFX | RFX Clutch Cover Kawasaki KX450 2019-2020 | FXCC 20400 99H2 | 209.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-clutch-cover-kawasaki-kx450-2019-2020) |
+| RFX | RFX Factory Shift Lever Kawasaki KX450F 2016-2025 | FXGP 21301 99HA | 129.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-factory-shift-lever-kawasaki-kx450f-2016-2025) |
+| RFX | RFX Factory Titanium Footpegs Kawasaki | FXFR 20100 GPTI | 299.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-factory-titanium-footpegs-kawasaki) |
+| RFX | RFX Plastics Fastener Kit Kawasaki 250cc-450cc | FXBK 20701 55SV | 24.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-plastics-fastener-kit-kawasaki-250cc-450cc) |
+| RFX | RFX Pro Aluminum Footpegs Kawasaki | FXFR 20100 99GN | 159.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-pro-aluminum-footpegs-kawasaki) |
+| RFX | RFX Pro Bolt Pack Kawasaki 250cc-450cc | FXBK 20500 55SV | 75.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-pro-bolt-pack-kawasaki-250cc-450cc) |
+| RFX | RFX Pro Flexi Tip Rear Brake Pedal Kawasaki KX250F/ KX450F | FXRB 20200 99GN | 99.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-pro-flexi-tip-rear-brake-pedal-kawasaki-kx250f-kx450f) |
+| RFX | RFX Pro Ignition Cover Kawasaki KX450 | FXIC 20200 99H2 | 459.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-pro-ignition-cover-kawasaki-kx450) |
+| RFX | RFX Pro Solid Tip Rear Brake Pedal Kawasaki KX250F / KX450F 2006-2025 | FXRB 20201 99GN, FXRB 20201 99HA | 99.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-pro-solid-tip-rear-brake-pedal-kawasaki-kx250f-kx450f-2006-2025) |
+| RFX | RFX Pro Titanium/Aluminum Footpegs Kawasaki | FXFR 20100 99TA | 239.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-pro-titaniumaluminum-footpegs-kawasaki) |
+| RFX | RFX Race Shift Lever Kawasaki KX450F 2016-2025 | FXGP 21300 55GN, FXGP 21300 55SV | 39.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-race-shift-lever-kawasaki-kx450f-2016-2025) |
+| RFX | RFX Track Pack Kawasaki 65cc-450cc | FXBK 20600 55SV | 24.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-track-pack-kawasaki-65cc-450cc) |
+| UFO | UFO Fork Guards Kawasaki KX250 / F / X / KX450 / F / X / SR 2009-2024 | KA04701-001, KA04701-280, KA04701-AFLU | 34.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/ufo-fork-guards-kawasaki-kx250-f-x-kx450-f-x-sr-2009-2023) |
+| UFO | UFO Front Fender Kawasaki KX250 / KX450 / F / X / SR / KLX300R 2016-2027 | KA04748-001, KA04748-026, KA04748-047, KA04748-AFLU | 26.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/ufo-front-fender-kawasaki-kx250-kx450-f-x-sr-klx300r-2016-2025) |
+| UFO | UFO Plastic Kit Kawasaki KX250 / X / KX450 / X / SR 2019-2024 | KAKIT227-001/KAKIT227001, KAKIT227-047/KAKIT227047, KAKIT227-999/KAKIT227999, KAKIT227026, KAKIT227AFLU | 162.10 USD | [Cycle Gear](https://www.cyclegear.com/parts/ufo-plastic-kit-kawasaki-kx250-x-kx450-x-sr-2019-2023) |
+| UFO | UFO Radiator Shrouds Kawasaki 250cc-450cc 2019-2024 | KA04751-026/KA04751026, KA04751001, KA04751047, KA04751AFLU | 55.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/ufo-radiator-shrouds-kawasaki-250cc-450cc-2019-2023) |
+| UFO | UFO Side Panels Kawasaki KX250 / KX250X / KX450 / KX450X 2019-2024 | KA04752-001/KA04752001, KA04752-026/KA04752026, KA04752047, KA04752AFLU | 55.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/ufo-side-panels-kawasaki-kx250-kx250x-kx450-kx450x-2019-2023) |
+| UFO | UFO Stadium Number Plate Kawasaki KX250F / KX250 / KX450F / KX450 2016-2026 | KA04746-001, KA04746-026, KA04746-047, KA04746-AFLU | 33.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/ufo-stadium-number-plate-kawasaki-kx250f-kx250-kx450f-kx450-2016-2023) |
+| Vertex | Vertex Ignition Cover Gasket Kawasaki KX450 2019-2022 | 816328 | 10.17 USD | [Cycle Gear](https://www.cyclegear.com/parts/vertex-ignition-cover-gasket-kawasaki-kx450-2019-2022) |
+| Works Connection | Works Connection Clutch Master Cylinder Cover Honda CRF450R / RX / RWE / Kawasaki KX250 / X / KX450  | 21-150, 21-151, 21-152, 21-153 | 36.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-clutch-master-cylinder-cover-honda-crf450r-rx-rwe-kawasaki-kx250) |
+| Works Connection | Works Connection Engine Plug Kit Kawasaki KX250 / KX450 2019-2020 | 24-620, 24-621, 24-622, 24-623 | 49.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-engine-plug-kit-kawasaki-kx250-kx450-2019-2020) |
+| Works Connection | Works Connection Foot Peg Mounts Kawasaki 250cc-450cc 2015-2026 | 20-525 | 199.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-foot-peg-mounts-kawasaki-250cc-450cc-2015-2026) |
+| Works Connection | Works Connection Fork Guard Reinforcing Kit Kawasaki KX250 / F / KX450 / F 2016-2026 | 12-192 | 14.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-fork-guard-reinforcing-kit-kawasaki-kx250-f-kx450-f-2016-2025) |
+| Works Connection | Works Connection Front Brake Reservoir Cover Honda / Kawasaki 80cc-650cc 1986-2024 | 21-000, 21-005, 21-105, 21-110 | 36.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-front-brake-reservoir-cover-honda-kawasaki-80cc-650cc-1986-2020) |
+| Works Connection | Works Connection Oil Filler Plug Kawasaki / Suzuki 250cc-450cc | 24-190, 24-191, 24-198 | 32.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-oil-filler-plug-kawasaki-suzuki-250cc-450cc) |
+| Works Connection | Works Connection Oil Filter Cover Kawasaki KX450 / F / X 2016-2026 | 27-070, 27-080, 27-085 | 59.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-oil-filter-cover-kawasaki-kx450-f-x-2016-2024) |
+| Works Connection | Works Connection Steering Stem Nut Kawasaki / Honda 125cc-450cc 1984-2024 | 24-320, 24-325, 24-330, 24-338 | 37.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-steering-stem-nut-kawasaki-honda-125cc-450cc-1984-2022) |
+| XTrig | XTrig OEM PHDS Bar Mounts Suzuki / Kawasaki 250cc-450cc 2004-2024 | 501250300101 | 249.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/xtrig-oem-phds-bar-mounts-suzuki-kawasaki-250cc-450cc-2004-2021) |
+| Zeta | Zeta Bolt Kit Kawasaki KX250 / KX450 / F 2016-2024 | ZE88-5252, ZE88-5256 | 62.65 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-bolt-kit-kawasaki-kx250-kx450-f-2016-2023) |
+| Zeta | Zeta Front Brake Line Clamp Kawasaki KLX / KX / KX-F / Suzuki DRZ / RM / RMX / RMZ | ZE92-2106, ZE92-2107 | 29.36 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-front-brake-line-clamp-kawasaki-klx-kx-kx-f-suzuki-drz-rm-rmx-rmz) |
+| Zeta | Zeta Max Footpegs Kawasaki KX250 / X / F / KX450 / X / F 2006-2026 | ZE93-2650, ZE93-2655 | 122.33 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-max-footpegs-kawasaki-kx250-x-f-kx450-x-f-2006-2026) |
+
+### Utv / Atv Parts (1)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Barnett | Barnett Clutch Drive Plate Metric 1987-2020 | 401-45-063006 | 8.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/barnett-clutch-drive-plate-metric-1987-2020) |
+
+### Wheels And Rims (1)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Turner Performance Products | Turner Performance Products Front Wheel Bearing Kit |  | 8.77 USD | [MotoSport](https://www.motosport.com/turner-performance-products-front-wheel-bearing-kit) |
+
+## Universal retailer listings (counted only)
+
+Controls 543, Lights And Electrical 386, Uncategorised 344, Handlebars & Controls 249, Body 208, Tires 198, Exhaust 183, Tools And Maintenance 173, Graphics 170, Engine 154, Suspension 141, Drive 131, Chain & Sprocket 131, Luggage And Racks 106, Brakes 103, Wheels And Rims 74, Vehicle Communication 60, Fuel System 57, Air & Fuel 49, Accessories 48, Batteries & Electrical 42, Gauges 36, Utv / Atv Parts 35, Lighting 33, Bike Protection 31, Skid Plates And Guards 25, Riding Gear 18, Farming And Hunting 13, Body & Fairing 9, Intake 7, Drive & Transmission 6, Filters 5, Helmets 3, Winch And Plow 2, Tire Accessories 1
+
+Top brands: Acerbis 154, Pro Taper 133, Cycra 125, Motion Pro 118, Turner Performance Products 111, Rugged Radios 105, Renthal 87, ODI 84, Factory Effex 80, RAM Mounts 74, D'COR Visuals 66, Trail Tech 65, RFX 62, Fire Power 60, DRC 60, Bolt Hardware 58, Bolt 55, Moose Racing 55, Polisport 54, Quad Lock 53, SP Connect 51, Zeta 46, Kriega 44, KTM PowerParts 43, Namz Custom Cycle 40
+

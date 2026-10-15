@@ -1,6 +1,6 @@
 # Honda CRF250R 2022: aftermarket parts
 
-2889 listings whose stated fitment names this bike: 8 researched parts (with what they change and rider findings), 233 dealer and retailer listings specific to this bike, and 2648 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+2889 listings whose stated fitment names this bike: 8 researched parts (with what they change and rider findings), 185 dealer and retailer listings specific to this bike, and 2696 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -11,8 +11,8 @@
 | FMF | Factory 4.1 RCT Titanium Anodized Full System w/ Carbon End Cap (titanium MegaBomb header) | 041613 | FMF/dealer copy: resonance chamber technology, shorter muffler moved closer to engine to centralize mass, 'massive power gains throughout the RPM range', RTS tuning system (unquantified marketing). | SKU 041613 is from dealer page, could not confirm on fmfracing.com (maker site fetch blocked). Year range conflicts on the dealer page itself. | [CRFsOnly (dealer)](https://www.crfsonly.com/crf250r22-25-fmf-factory-41-rct-titanium-anodized-full-system-w-carbon-end-cap) | medium |
 | Pro Circuit | T-6 Stainless Slip-On, CRF250R/RX '22-24 | 0112225A |  | Stock head pipe only. Does not cross to 2025+ (separate SKU 0112425A). | [Pro Circuit (maker)](https://www.procircuit.com/honda-t-6-slip-on-crf250r-22) | high |
 | Pro Circuit | Ti-6 Titanium System w/ Carbon End Caps, CRF250R/RX | 0312425F |  | Maker category page title says 'CRF250R/RX 22-27' while the product page title/alt text says '22-25'; 2026-2027 fitment only per category page. Note Pro Circuit | [Pro Circuit (maker)](https://www.procircuit.com/ti-6-exhaust-crf250r-22-25) | high |
-| Enduro Engineering | Billet radiator guards |  | Side/front radiator impact protection with airflow grooves; not compatible with additional radiator braces. | No manufacturer PN on page (retailer item P979710 only). Kept because fitment shows a 2025 CRF450R boundary (CRF450R ends 2024) while CRF250R runs 2022-2026. | [Cycle Gear (retailer)](https://www.cyclegear.com/parts/enduro-engineering-billet-radiator-guards-honda-crf250r-rx-crf450r-rx-rwe-2021-2025) | medium |
 | Enduro Engineering | Aluminum skid plate | 24-6021 | Protects water pump, oil filter, cases; side tabs for frame rails; drain holes for oil change without removal. | Dealer page conflicts between fitment list (CRF450R/RX 21-26) and description (incl. CRF250R/RX 22-25, RWE 21-25). 2027 CRF450R ships without a skid plate and h | [CRFsOnly (dealer)](https://www.crfsonly.com/crf450r21-25-enduro-engineering-skid-plate) | medium |
+| Enduro Engineering | Billet radiator guards |  | Side/front radiator impact protection with airflow grooves; not compatible with additional radiator braces. | No manufacturer PN on page (retailer item P979710 only). Kept because fitment shows a 2025 CRF450R boundary (CRF450R ends 2024) while CRF250R runs 2022-2026. | [Cycle Gear (retailer)](https://www.cyclegear.com/parts/enduro-engineering-billet-radiator-guards-honda-crf250r-rx-crf450r-rx-rwe-2021-2025) | medium |
 | Factory Connection | Delta linkage set (rocker + pull rods) with required shock modification |  | Keefer (2021-22 CRF450R): less harsh acceleration chop, flatter braking bumps, less pitch when chopping throttle, addresses off-throttle 'stinkbug' corner entry; no change in rear ride height. With FC | Not bolt-on: shock must be sent to FC. Shock revalve $227 labor + $20 fluids + parts ($325-375) per article. No PN. | [Factory Connection via Keefer article (2022 price, linkage only)](https://www.keeferinctesting.com/factory-connection-linkage-shock-modification-2021-2022-honda-crf450r/) | unverified |
 
 ## Dealer and retailer listings for this bike
@@ -46,7 +46,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Enduro Engineering | Enduro Engineering Skid Plate Honda 250cc-450cc 2021-2026 | 24-6021 | 123.45 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-skid-plate-honda-250cc-450cc-2021-2024) |
 | Works Connection | Works Connection Radiator Braces Honda CRF250R / CRF450R / RX 2021-2024 | 18-710, 18-B710 | 136.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-radiator-braces-honda-crf250r-crf450r-rx-2021-2025) |
 
-### Body (17)
+### Body (11)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
@@ -56,19 +56,13 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | P3 | P3 Fuel Tank Cover | 775050, 775070, 776070, 775071, 775051, 776071 | 149.95 USD | [MotoSport](https://www.motosport.com/p3-fuel-tank-cover) |
 | Polisport | Polisport Bottom Fork Protector | 8152200003, 8154900001, 8152200004, 8155700001, 8157600001, 8154900002, 8152200005, 8155700002, 8154900003, 8152200006,  | 17.77 USD | [MotoSport](https://www.motosport.com/polisport-bottom-fork-protector) |
 | Polisport | Polisport Complete Mix & Match Plastic Kit | 8351700001, 8394000001, 8398000001, 8398100001, 8351400001, 8392000001, 8398600002, 8352600002-CL77, 8351700003, 8398600 | 144.97 USD | [MotoSport](https://www.motosport.com/polisport-complete-mix-match-plastic-kit) |
-| Polisport | Polisport Complete Plastic Kit | 90201, 90504, 91485, 91524, 90450, 90502, 91385, 91436, 90503, 91387, 91395, 91431, 91543, 91562, 90682, 91452, 91464, 9 | 127.99 USD | [MotoSport](https://www.motosport.com/polisport-complete-plastic-kit) |
 | Polisport | Polisport Front Sprocket Protector | 8467700001, 8467800001, 8468400001, 8486800001, 8486900001, 8468000001, 8467700002, 8467800002, 8468500002, 8486800002,  | 23.77 USD | [MotoSport](https://www.motosport.com/polisport-front-sprocket-protector) |
-| Polisport | Polisport Front and Rear Fender Combo | 8550000013, 8562600003, 8563300001, 8554800003, 8557100003, 8572200003, 8684900001, 8550100002, 8579100003, 8560000002,  | 37.99 USD | [MotoSport](https://www.motosport.com/polisport-front-and-rear-fender-combo) |
 | Polisport | Polisport Full Wrap Fork Guards | 8399200001, 8399200002, 8399500001, 8399600002, 8399500002, 8399600003 | 32.99 USD | [MotoSport](https://www.motosport.com/polisport-full-wrap-fork-guards) |
 | Polisport | Polisport Mix & Match Plastic Kit | 8410100009, 8429200002, 8426000003, 8414000004, 8426100002, 8410900001, 8417500001, 8410500007, 8411300012, 8412000001,  | 124.97 USD | [MotoSport](https://www.motosport.com/polisport-mix-match-plastic-kit) |
-| Polisport | Polisport Number Plate and Side Panel Combo | 8418600001, 8419900001, 8422200004, 8422200006, 8423500001, 8423500004, 8473900008-CL77, 8475000004-CL77, 8477300004, 84 | 54.98 USD | [MotoSport](https://www.motosport.com/polisport-number-plate-and-side-panel-combo) |
-| Polisport | Polisport Radiator Louvers | 8455500002, 8455600002, 8487900002, 8456000002, 8457800001, 8472500001, 8474100001, 8476100001, 8500800001, 8457800002,  | 18.99 USD | [MotoSport](https://www.motosport.com/polisport-radiator-louvers) |
-| Polisport | Polisport Radiator Shroud Set | 8410100009, 8429200002, 8426000003, 8414000004, 8426100002, 8410800001, 8410900001, 8417500001, 8411300012, 8412200002,  | 37.77 USD | [MotoSport](https://www.motosport.com/polisport-radiator-shroud-set) |
-| Polisport | Polisport Rear Fender | 8550100002, 8579100003, 8560000002, 8552900002, 8560500002, 8551400001, 8579500003, 8579800003, 8579300003, 8554600003,  | 20.99 USD | [MotoSport](https://www.motosport.com/polisport-rear-fender) |
 | Polisport | Polisport Rear Shock Flap | 8906400001, 8906600001, 8906200001, 8907300001-CL77, 8907200002 | 11.99 USD | [MotoSport](https://www.motosport.com/polisport-rear-shock-flap) |
 | Works Connection | Works Connection Titanium Fork Guard Bolt Kit | 70-615 | 49.95 USD | [MotoSport](https://www.motosport.com/works-connection-titanium-fork-guard-bolt-kit) |
 
-### Brakes (25)
+### Brakes (24)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
@@ -93,7 +87,6 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Moto-Master | Moto Master Flame Fixed Rear Rotor Honda 125cc-450cc 2002-2027 | 110207-PU | 123.26 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-flame-fixed-rear-rotor-honda-125cc-450cc-2002-2023) |
 | P3 | P3 Rear Brake Cylinder Guard | 707021, 747174, 201203, 705004 | 79.95 USD | [MotoSport](https://www.motosport.com/p3-rear-brake-cylinder-guard) |
 | Pro Circuit | Pro Circuit Brake Hose Clamp | PC4014-0001 | 40.46 USD | [MotoSport](https://www.motosport.com/pro-circuit-brake-hose-clamp) |
-| Turner Performance Products | Turner Performance Products Oversize Floating Front Brake Rotor |  | 93.77 USD | [MotoSport](https://www.motosport.com/turner-performance-products-oversize-floating-front-brake-rotor) |
 | Turner Performance Products | Turner Performance Products Oversized Front Brake Rotor And Pad Kit |  | 112.76 USD | [MotoSport](https://www.motosport.com/turner-performance-products-oversized-front-brake-rotor-and-pad-kit) |
 | Works Connection | Works Connection Rear Master Cylinder Guard | 15-705, 15-295, 15-193, 15-495, 15-494-CL77, 15-278, 15-265, 15-267, 15-194, 15-268, 15-498 | 39.95 USD | [MotoSport](https://www.motosport.com/works-connection-rear-master-cylinder-guard) |
 | ZETA | ZETA Billet Kit | ZE51-3072, ZE51-3042, ZE51-3032, ZE51-3316, ZE51-3306, ZE51-3256, ZE51-3356, ZE51-3433, ZE51-3403 | 257.86 USD | [MotoSport](https://www.motosport.com/zeta-billet-kit) |
@@ -116,51 +109,34 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | SuperSprox | SuperSprox Steel Rear Sprocket / Off Road Honda 125cc-650cc 1985-2027 | RFE-210-48-BLK, RFE-210-49-BLK, RFE-210-50-BLK, RFE-210-51-BLK, RFE-210-52-BLK, RFE-210-53-BLK | 54.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/supersprox-steel-rear-sprocket-off-road-honda-125cc-650cc-1985-2024) |
 | Vortex Racing | Vortex Steel Rear Sprocket Honda 125cc-650cc 1985-2027 | 225S-48, 225S-49, 225S-50, 225S-51, 225S-52, 225S-53 | 58.61 USD | [Cycle Gear](https://www.cyclegear.com/parts/vortex-steel-rear-sprocket-honda-125cc-650cc-1985-2024) |
 
-### Controls (29)
+### Controls (14)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
-| All Balls | All Balls Clutch Cable | 45-2001, 45-2002, 45-2003, 45-2004, 45-2005, 45-2006, 45-2007, 45-2008, 45-2010-CL77, 45-2011, 45-2012, 45-2013, 45-2014 | 21.33 USD | [MotoSport](https://www.motosport.com/all-balls-clutch-cable) |
-| ARC | ARC DC-8 Clutch Perch Assembly | CP-304, CP-304-B, CP-304-CT, CP-304C, CP-S304, CP-S304-B, CP-S304-C, CP-S304-CT, CP-S304-R | 144.99 USD | [MotoSport](https://www.motosport.com/arc-dc8-clutch-perch-assembly) |
-| ARC | ARC RC-8 Clutch Perch Assembly | CP-201, CP-201-B, CP-201-C, CP-201-CT, CP-201-R, CP-S201, CP201-D27 | 219.99 USD | [MotoSport](https://www.motosport.com/arc-rc8-clutch-perch-assembly) |
-| ASV | ASV Brake Lever Dust Cover | FBDC01 | 15.00 USD | [MotoSport](https://www.motosport.com/asv-brake-lever-dust-cover) |
 | ASV | ASV C6 Clutch Lever Only | CDC606-B, CDC607-B, CDC609-B, CDC644-B, CDC634-B, CDC606-K, CDC607-K, CDC610-K, CDC609-K, CDC644-K, CDC634-K, CDC606-R,  | 120.00 USD | [MotoSport](https://www.motosport.com/asv-c6-clutch-lever-only) |
-| ASV | ASV C6 Pro Clutch Lever | CDC606PX-B, CDC606YPX-B, CDC606PX-K, CDC606YPX-K, CDC606PX-R, CDC606PX-SR, CDC606YPX-SB, CDC606PX-SB, CDC606YPX-SK, CDC6 | 180.00 USD | [MotoSport](https://www.motosport.com/asv-c6-pro-clutch-lever) |
 | ASV | ASV C6 Pro Clutch Lever With Thumb Hot Start | CDC606PH-R, CQC606PHC-R, CDC606PH-SR, CQC606PHC-SR, CDC606YPH-B, CDC606YPH-K, CDC606YPH-SB, CQC606PHC-SK | 205.00 USD | [MotoSport](https://www.motosport.com/asv-c6-pro-clutch-lever-with-thumb-hot-start) |
 | ASV | ASV F4 Series Clutch Lever - Manual | CDF406-B, CDF407-B, CDF406-K, CDF407-K, CDF406-SB, CDF407-SB, CDF406-SK, CDF406-SR, CDF407-SR, CDF407-R | 95.00 USD | [MotoSport](https://www.motosport.com/asv-f4-series-clutch-lever-manual) |
 | ASV | ASV F4 Series Clutch Lever With Hot Start | CDF406SH-K, CQF406SHC-K, CDF406YSH-K, CDF406SH-R, CQF406SHC-R, CDF406SH-SK, CQF406SHC-SK, CDF406YSH-SK, CDF406SH-SR, CQF | 135.00 USD | [MotoSport](https://www.motosport.com/asv-f4-series-clutch-lever-with-hot-start) |
-| ASV | ASV F4 Series Pro Model Clutch Lever | CDF406PH-K, CDF406YPH-K, CDF406PH-R, CDF406PH-SB, CDF406YPH-SB, CDF406PH-SK, CDF406YPH-SK, CDF406PH-SR, CDF406PX-B, CDF4 | 180.00 USD | [MotoSport](https://www.motosport.com/asv-f4-series-pro-model-clutch-lever) |
 | ASV | ASV F4 Series Pro Pack Brake and Clutch Set | BCF40106PH-SK, BCF41506PH-SK, BCF41506PX-SK, BCF41306PX-SK, BCF40506PX-SK, BCF42506PX-SK, BCF4A206PX-SK, BCF4A206PHC-SK, | 225.00 USD | [MotoSport](https://www.motosport.com/asv-f4-series-pro-pack-brake-and-clutch-set) |
-| ASV | ASV Pro Clutch Perch Dust Cover | PPDC01 | 12.00 USD | [MotoSport](https://www.motosport.com/asv-pro-clutch-perch-dust-cover) |
 | Fasst Company | Fasst Company Rear Brake Clevis | BC-101H-RED, BC-105K-BLACK, BC-105K-BLUE | 39.99 USD | [MotoSport](https://www.motosport.com/fasst-company-rear-brake-clevis) |
 | Flo Motorsports | Flo Motorsports Adventure / Snow Footpegs | SPEG-792BLK, SPEG-795-2BLK | 264.95 USD | [MotoSport](https://www.motosport.com/flo-motorsports-adventure-snow-footpegs) |
-| Hammerhead Designs | Hammerhead Designs Aluminum Throttle Tube | 05-0002-00-50, 05-0101-00-60, 05-0002-00-60, 05-0001-00-60, 05-0562-00-60, 05-0003-00-60, 04-0101-00-60, 04-0220-00-60,  | 59.99 USD | [MotoSport](https://www.motosport.com/hammerhead-designs-aluminum-throttle-tube) |
-| Motion Pro | Motion Pro Nylon Throttle Tube | 01-0079, 01-0080, 01-0082, 01-0083, 01-0084, 01-0085, 01-0086, 01-0087, 01-0091, 01-0092, 01-0094, 01-0097, 01-1040, 01- | 7.99 USD | [MotoSport](https://www.motosport.com/motion-pro-nylon-throttle-tube) |
-| Motion Pro | Motion Pro T3 Clutch Cable | 02-3000, 02-3001, 02-3002, 02-3003, 02-3005, 02-3006, 03-3000-CL77, 03-3001, 03-3004, 03-3005, 04-3000, 04-3001, 04-3003 | 77.89 USD | [MotoSport](https://www.motosport.com/motion-pro-t3-clutch-cable) |
 | Pro Taper | Pro Taper Throttle Tube | 05-102B, 05-039B, 05-057A, 05-059B | 65.99 USD | [MotoSport](https://www.motosport.com/pro-taper-throttle-tube) |
-| Pro Taper | Pro Taper Twister Throttle Tube | 11-015C, 11-017B, 11-019C, 11-014C, 88R-1 | 84.99 USD | [MotoSport](https://www.motosport.com/pro-taper-twister-throttle-tube) |
-| RFX | RFX OEM Replica Throttle Assembly | FXTA 10300 55BK, FXTA 10400 55BK, FXTA 40200 55BK, FXTA 40300 55BK, FXTA 50300 55BK, FXTA 50400 55BK | 49.99 USD | [MotoSport](https://www.motosport.com/rfx-oem-replica-throttle-assembly) |
 | Ride Engineering | Ride Engineering Throttle Mounted Start Switch | MX-TS00B-AS | 48.99 USD | [MotoSport](https://www.motosport.com/ride-engineering-throttle-mounted-start-switch) |
-| Streamline | Streamline Reflex Pro Clutch Lever | SA-103-B, SA-103-BK, SA-103-R | 135.99 USD | [MotoSport](https://www.motosport.com/streamline-reflex-pro-clutch-lever) |
 | Torc1 Racing | Torc1 Racing Vengeance Flex Clutch Lever | 6911-0204 | 74.99 USD | [MotoSport](https://www.motosport.com/torc1-racing-vengeance-flex-clutch-lever) |
 | Torc1 Racing | Torc1 Racing Vengeance Flex Front Brake Lever | 6811-0204, 6812-0208, 7810-0204 | 74.99 USD | [MotoSport](https://www.motosport.com/torc1-racing-vengeance-flex-front-brake-lever) |
-| Turner Performance Products | Turner Performance Products Adjust On The Fly Clutch Lever & Perch |  | 31.99 USD | [MotoSport](https://www.motosport.com/turner-performance-products-adjust-on-the-fly-clutch-lever-perch) |
 | Turner Performance Products | Turner Performance Products Clutch Cable |  | 21.33 USD | [MotoSport](https://www.motosport.com/turner-performance-products-clutch-cable) |
-| Turner Performance Products | Turner Performance Products Clutch Lever |  | 7.99 USD | [MotoSport](https://www.motosport.com/turner-performance-products-clutch-lever) |
 | Works Connection | Works Connection Titanium Foot Peg Pins | 20-521 | 65.00 USD | [MotoSport](https://www.motosport.com/works-connection-titanium-foot-peg-pins) |
 | ZETA | ZETA Rx2 Clamp Kit | ZE32-4201 | 117.56 USD | [MotoSport](https://www.motosport.com/zeta-rx2-clamp-kit) |
 
-### Drive (9)
+### Drive (7)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
-| All Balls | All Balls Lower Chain Roller | 79-5001, 79-5002, 79-5003, 79-5006, 79-5007, 79-5008, 79-5009, 79-5011, 79-5012, 79-5015, 79-5010-CL77, 79-5016, 79-5017 | 22.44 USD | [MotoSport](https://www.motosport.com/all-balls-lower-chain-roller) |
 | Fastway | Fastway Counter Shaft Spacer | 22-4-010 | 7.45 USD | [MotoSport](https://www.motosport.com/fastway-counter-shaft-spacer) |
 | TM Designworks | TM Designworks Axle Block And Flag Holder | DBF-H01, DBF-H02, DBF-H06, DBF-KT2 | 46.95 USD | [MotoSport](https://www.motosport.com/tm-designworks-axle-block-and-flag-holder) |
 | TM Designworks | TM Designworks Dirt Cross Multi-Purpose Chain Slide-N-Guide Kit | DCK-KT4-BL2, DCK-KT4-OR, DCK-ORK-OR, DCK-OR1-BK, DCK-OR2-BK, DCK-OR3-BK, DCK-OR4-BK, YCP-OR1-BK, DCK-KT3-BK, DCK-OR1-RD, | 189.95 USD | [MotoSport](https://www.motosport.com/tm-designworks-dirt-cross-multipurpose-chain-slidenguide-kit) |
 | TM Designworks | TM Designworks Dirt Cross Super Chain Slider | DCS-H10-BK, DCS-H15-BK, DCS-S20-BK, DCS-Y30-BK, DCS-Y40-BK, DCS-KT3-BK, DCS-H20-BK, DCS-KX85-BK, DCS-H35-BK, DCS-BT2-BK, | 65.95 USD | [MotoSport](https://www.motosport.com/tm-designworks-dirt-cross-super-chain-slider) |
 | TM Designworks | TM Designworks Rear Chain Slide-N-Guide | RCG-CR2-BK, RCG-CR3-BK, RCG-CRM-BK, RCG-KTM-BK, RCG-KX2-BK, RCG-YSM-BK, RCG-CR2-RD, RCG-CR3-RD, RCG-CRM-RD, RCG-KTM-OR | 102.95 USD | [MotoSport](https://www.motosport.com/tm-designworks-rear-chain-slidenguide) |
-| Turner Performance Products | Turner Performance Products Rear Chain Guide |  | 39.99 USD | [MotoSport](https://www.motosport.com/turner-performance-products-rear-chain-guide) |
 | Turner Performance Products | Turner Performance Products Steel Sprocket & Chain Kit |  | 79.99 USD | [MotoSport](https://www.motosport.com/turner-performance-products-steel-sprocket-chain-kit) |
 | Turner Performance Products | Turner Performance Products Steel Sprocket - Rear |  | 26.99 USD | [MotoSport](https://www.motosport.com/turner-performance-products-steel-sprocket-rear) |
 
@@ -174,37 +150,20 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | TM Designworks | TM Designworks Factory Edition 2 Rear Chain Guide Honda 250cc-450cc 2007-2027 | RCG-CR4-BK, RCG-CR4-RD | 109.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/tm-design-works-factory-edition-2-rear-chain-guide-honda-250cc-450cc-2007-2020) |
 | Zeta | Zeta 3D Chain Guide Honda CRF250R / CRF450R / R-S / RX / X / L / RL 2007-2027 | ZE82-1002 | 111.68 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-3d-chain-guide-honda-crf250r-crf450r-rx-crf450l-2007-2019) |
 
-### Engine (27)
+### Engine (10)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
-| Athena | Athena Big Bore Gaskets | P400210160, P400210160001, P400250160003, P400250160012, P400510160008, P400510160006, P400510160011, P400510160013, P40 | 98.99 USD | [MotoSport](https://www.motosport.com/athena-big-bore-gaskets) |
-| Athena | Athena Big Bore Kit | P400210100023, P400210100030, P400210100001, P400210100021, P400250100003, P400250100015, P400510100008, P400510100006,  | 1083.99 USD | [MotoSport](https://www.motosport.com/athena-big-bore-kit) |
-| Athena | Athena Big Bore Piston | S4C05000001B, S4C05000013A, S4C05000001A, S4C05700001A, S4C05800003B, S4C05800004A, S4C05800003A, S4F069000030, S4F07200 | 280.99 USD | [MotoSport](https://www.motosport.com/athena-big-bore-piston) |
 | Athena | Athena Clutch Cover Gasket | M751802625004, M751802662004, M751802687004, M751815164004, M751818000004, M752016500004, S410060008014, S410060008015,  | 9.99 USD | [MotoSport](https://www.motosport.com/athena-clutch-cover-gasket) |
-| Athena | Athena Cylinder Gasket Kit | P400210160002, P400250160006, P400220160002, P400485160018, P400250160011, P400270160066, P400270160075, P400485160076,  | 93.99 USD | [MotoSport](https://www.motosport.com/athena-cylinder-gasket-kit) |
-| Athena | Athena Piston | S4F09600009A, S4F09600010A, S4F09600010B, S4F09700015B, S4F09600013A, S4F09600013B, S4F09600016A, S4F09600016B, S4F09600 | 170.99 USD | [MotoSport](https://www.motosport.com/athena-piston) |
-| Athena | Athena Stock Cylinder Kit | P400210100002, P400210100008, P400210100020, P400210100022, P400210100029, P400210100032, P400210100049, P400210100054,  | 642.99 USD | [MotoSport](https://www.motosport.com/athena-stock-cylinder-kit) |
-| CV4 | CV4 Radiator Hose Kit | SFSMBC154W, SFSMBC269W, SFSMBC271W, SFSMBC267W, SFSMBC239W, SFSMBC276W, SFSMBC175B, SFSMBC12B, SFSMBC85B, SFSMBC55B, SFS | 184.46 USD | [MotoSport](https://www.motosport.com/cv4-radiator-hose-kit) |
 | Cylinder Works | Cylinder Works Big Bore Gasket Set | 11001-G01, 31001-G01, 31004-G01, 21002-G01, 41003-G01, 41004-G01, 11002-G01, 11003-G01, 11004-G01, 21005-G02, 22001-G01, | 112.29 USD | [MotoSport](https://www.motosport.com/cylinder-works-big-bore-gasket-set) |
-| Cylinder Works | Cylinder Works Big Bore Kit | 11001-K01, 31001-K01, 31004-K01, 21002-K01, 31006-K01, 31005-K01, 41003-K01, 41004-K01, 41004-K02, 11002-K01, 11003-K01, | 825.50 USD | [MotoSport](https://www.motosport.com/cylinder-works-big-bore-kit) |
 | Cylinder Works | Cylinder Works Standard Bore High Compression Cylinder Kit | 10001-K01HC, 10001-K02HC, 10002-K01HC, 10002-K02HC, 10003-K01HC, 10004-K01HC, 10004-K02HC, 10005-K01HC, 10006-K01HC, 100 | 514.21 USD | [MotoSport](https://www.motosport.com/cylinder-works-standard-bore-high-compression-cylinder-kit) |
-| Cylinder Works | Cylinder Works Top End Kit With Cylinder - 4-Stroke | 10004, 10001, 10007, 10002, 10006, 10008, 50004, 40001, 30006, 30004, 30011, 50002, 50001, 50003, 40004, 20002, 20010, 2 | 627.01 USD | [MotoSport](https://www.motosport.com/cylinder-works-top-end-kit-with-cylinder-4stroke) |
-| Hinson | Hinson Clutch Basket Cushions | CU789-1701, H299-CL77, CU216, CU230, CU263, CU641-1901, CU299, CU017, CU224 | 55.99 USD | [MotoSport](https://www.motosport.com/hinson-clutch-basket-cushions) |
-| HOTCAMS | HOTCAMS Cam Chain | HC00164, HC00162, HC82RH2015128, HC92RH2015114, HC98XRH2010126, HC82RH2010124, HC92RH2010114, HC92RH2015104, HC92RH20151 | 59.80 USD | [MotoSport](https://www.motosport.com/hotcams-cam-chain) |
-| JE Pistons | JE Pistons Piston Kit | 127918, 128995, 128996, 128998, 130682, 136633, 130928, 131243, 132699, 133889, 138330, 138978, 139550, 157595, 177239,  | 424.99 USD | [MotoSport](https://www.motosport.com/je-pistons-piston-kit) |
-| Kibblewhite | Kibblewhite Titanium Exhaust Valve | 40-40143T, 60-60213T, 60-60516T, 60-60718T, 80-80077T, 80-80217T, 80-80916T, 80-80766T, 80-80876T, 40-41416T, 30-32416T, | 109.33 USD | [MotoSport](https://www.motosport.com/kibblewhite-titanium-exhaust-valve) |
-| Myler's | Myler's SuperCool Radiator Combo | IY111, IY110D, NTR5004, NRN1002, NTR5006, NTR5014-CL77, NTR5035, NTR5011, IY165, NTR5027, NRN1015, NTR5053, NTR5012, NTR | 340.00 USD | [MotoSport](https://www.motosport.com/mylers-supercool-radiator-combo) |
 | P3 | P3 Clutch Cover | 715070, 711092, 711072, 711060, 711061, 711090, 711070, 715060, 711074, 719074, 719072 | 79.95 USD | [MotoSport](https://www.motosport.com/p3-clutch-cover) |
 | Polisport | Polisport Clutch and Ignition Cover Protector Kit | 8441100001, 8461700001, 8460300001, 8460400001, 8463600001, 8465700001, 8467300001, 8474700001, 8447700003, 8447700004,  | 37.54 USD | [MotoSport](https://www.motosport.com/polisport-clutch-and-ignition-cover-protector-kit) |
 | Polisport | Polisport Ignition Cover Protector | 8461000001, 8460600001, 8464100001, 8467500001, 8467000001, 8465300001, 8465900001, 8470800001, 8474300001, 8471100001,  | 18.77 USD | [MotoSport](https://www.motosport.com/polisport-ignition-cover-protector) |
-| Polisport | Polisport Radiator Louver Mesh | 8458500001-CL77, 8459000001, 8459300001, 8984200001, 8985600001, 8448700001, 8463000001, 8465200001, 8465500001, 8467100 | 10.99 USD | [MotoSport](https://www.motosport.com/polisport-radiator-louver-mesh) |
 | Pro X | Pro X Clutch Pressure Plate | 18.P1286, 18.P1390, 18.P1392, 18.P1110, 18.P1227, 18.P1308, 18.P1340, 18.P1409, 18.P1405, 18.P3402, 18.P4303, 18.P4294,  | 49.99 USD | [MotoSport](https://www.motosport.com/pro-x-clutch-pressure-plate) |
 | PSR | PSR Manual Cam Chain Tensioner | 03-02003-29, 03-02004-29, 03-02005-29, 04-02000-29, 04-02004-29, 04-02006-29, 04-02007-29, 04-02008-29, 04-02009-29, 05- | 74.95 USD | [MotoSport](https://www.motosport.com/psr-manual-cam-chain-tensioner) |
 | Vertex | Vertex Mechanical Water Pump Seal | 503000, 503001, 503002, 503003, 503010 | 27.35 USD | [MotoSport](https://www.motosport.com/vertex-mechanical-water-pump-seal) |
-| Vertex | Vertex Piston Circlip | 72055K, 72121K | 3.94 USD | [MotoSport](https://www.motosport.com/vertex-piston-circlip) |
 | Vertex | Vertex Valve Cover Gasket | 817848, 819037, 817977, 819049, 817985, 819048, 817855, 817846, 817917, 819057, 817924, 817865, 819056, 817893, 817843,  | 62.86 USD | [MotoSport](https://www.motosport.com/vertex-valve-cover-gasket) |
-| Wiseco | Wiseco Clutch Spring Kit | CSK001, CSK002, CSK003, CSK004, CSK005, CSK006, CSK007, CSK009, CSK010, CSK011, CSK012, CSK013, CSK014, CSK015, CSK016,  | 34.99 USD | [MotoSport](https://www.motosport.com/wiseco-clutch-spring-kit) |
 
 ### Exhaust (5)
 
@@ -228,13 +187,12 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 |---|---|---|---|---|
 | Quantum Fuel Systems | Quantum Fuel Systems Electric Fuel Pump | HFP-390-U, HFP-390-UR, QFS-344FT-P, HFP-382-X, HFP-384-U, HFP-393, HFP-386-U, HFP-389-U, HFP-360KP, HFP-PPN30, HFP-404,  | 114.95 USD | [MotoSport](https://www.motosport.com/quantum-fuel-systems-electric-fuel-pump) |
 
-### Graphics (29)
+### Graphics (28)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
 | D'COR Visuals | D'COR Visuals 2023 Honda HRC Complete Kit | 20-10-112, 20-10-632, 20-10-942 | 149.95 USD | [MotoSport](https://www.motosport.com/dcor-visuals-2023-honda-hrc-complete-kit) |
 | D'COR Visuals | D'COR Visuals 25 Honda HRC Complete Graphics Kit | 20-10-115, 20-10-205, 20-10-645, 20-10-635, 20-10-955, 20-10-145, 20-10-945 | 149.95 USD | [MotoSport](https://www.motosport.com/dcor-visuals-25-honda-hrc-complete-graphics-kit) |
-| D'COR Visuals | D'COR Visuals Frame Grip Tape | 16-10-101, 16-10-102, 16-20-101, 16-20-103, 16-20-105, 16-20-107, 16-40-101, 16-40-103, 16-40-105, 16-50-101, 16-50-103, | 29.95 USD | [MotoSport](https://www.motosport.com/dcor-visuals-frame-grip-tape) |
 | D'COR Visuals | D'COR Visuals Honda HRC Seat Cover | 30-10-480, 30-10-506 | 69.95 USD | [MotoSport](https://www.motosport.com/dcor-visuals-honda-hrc-seat-cover) |
 | Factory Effex | Factory Effex 2022 OEM Graphics - Honda | 24-05340, 25-05340 | 35.99 USD | [MotoSport](https://www.motosport.com/factory-effex-2022-oem-graphics-honda) |
 | Factory Effex | Factory Effex Chrome Series Shroud Graphic Kit - Honda | 27-03304, 27-03306, 27-03308 | 89.99 USD | [MotoSport](https://www.motosport.com/factory-effex-chrome-series-shroud-graphic-kit-honda) |
@@ -281,21 +239,14 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 |---|---|---|---|---|
 | Twin Air | Twin Air Powertune Intake Funnel | 177920 | 80.99 USD | [MotoSport](https://www.motosport.com/twin-air-powertune-intake-funnel) |
 
-### Lights And Electrical (1)
+### Skid Plates And Guards (2)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
-| GET | GET RX1 PRO Control Unit | GK-RX1PRO-0070, GK-RX1PRO-0071, GK-RX1PRO-0072, GK-RX1PRO-0073, GK-RX1PRO-0074, GK-RX1PRO-0075, GK-RX1PRO-0076, GK-RX1PR | 766.95 USD | [MotoSport](https://www.motosport.com/get-rx1-pro-control-unit) |
-
-### Skid Plates And Guards (3)
-
-| Brand | Part | Part numbers | Price | Sellers |
-|---|---|---|---|---|
-| Cycra | Cycra Disc Cover With Mount Kit | 1CYC-1096-12, 1CYC-1096-22, 1CYC-1096-62, 1CYC-1096-72, 1CYC-1097-02, 1CYC-1097-03, 1CYC-1097-04, 1CYC-1097-05, 1CYC-109 | 51.76 USD | [MotoSport](https://www.motosport.com/cycra-disc-cover-with-mount-kit) |
 | Fastway | Fastway Sharkfin Rear Disc Guard | PMB-01-9004B | 137.45 USD | [MotoSport](https://www.motosport.com/fastway-sharkfin-rear-disc-guard) |
 | Polisport | Polisport Clutch Cover Guard | 8441100001, 8447600001, 8461700001, 8460300001, 8460400001, 8463200001, 8463600001, 8465700001, 8467300001, 8467200001,  | 18.77 USD | [MotoSport](https://www.motosport.com/polisport-clutch-cover-guard) |
 
-### Suspension (9)
+### Suspension (7)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
@@ -305,8 +256,6 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Pro Circuit | Pro Circuit Complete Linkage System | HLS19450X, HLS23450, KLS09085-7.0, KLS09100-7.0, KLS09085-9.5, KLS09100-9.5, KLS09100-2.0, KLS13065-2.0, KLS20450, KLS24 | 495.00 USD | [MotoSport](https://www.motosport.com/pro-circuit-complete-linkage-system) |
 | Race Tech | Race Tech Bottom Out Bumper | SKBO 123440, SKBO 144255, SKBO 164255, SKBO 164459, SKBO 184359F, SSBO 123634, SSBO 144439, SSBO 144856, SSBO 144944, SS | 29.99 USD | [MotoSport](https://www.motosport.com/race-tech-bottom-out-bumper) |
 | Ride Engineering | Ride Engineering Lowering Link | CR-DLA41-RA | 215.99 USD | [MotoSport](https://www.motosport.com/ride-engineering-lowering-link) |
-| Turner Performance Products | Turner Performance Products Fork Bushing Kit |  | 28.87 USD | [MotoSport](https://www.motosport.com/turner-performance-products-fork-bushing-kit) |
-| Turner Performance Products | Turner Performance Products Rear Shock Seal Head Kit |  | 58.45 USD | [MotoSport](https://www.motosport.com/turner-performance-products-rear-shock-seal-head-kit) |
 | XTrig | XTrig Rocs Tech Triple Clamps Honda CRF250R / RX / CRF450R / RX 2021-2026 | 501330101401 | 799.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/xtrig-rocs-tech-triple-clamps-honda-crf250r-rx-crf450r-rx-2021-2026) |
 
 ### Uncategorised (31)
@@ -354,17 +303,15 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | K&N | K&N Oil Filter KN-116 | KN-116 | 11.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/kn-oil-filter-kn-116) |
 | Motolis | Motolis M-116 Oil Filter  | M-116 | 6.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/motolis-m-116-oil-filter) |
 
-### Wheels And Rims (3)
+### Wheels And Rims (1)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
 | All Balls | All Balls Rear Wheel Bearing Retainer Kit | 11-2001-1, 11-2002-1, 11-2003-1, 11-2004-1, 11-2005-1 | 18.00 USD | [MotoSport](https://www.motosport.com/all-balls-rear-wheel-bearing-retainer-kit) |
-| SKF | SKF Front Wheel Seal and Spacer Kit | W-KIT-F008-KTM-Hus, W-KIT-F020-KTM, W-KIT-F023-KTM, W-KIT-F003-Ho, W-KIT-F019-Ho, W-KIT-F016-Ka, W-KIT-F018-Ka | 59.99 USD | [MotoSport](https://www.motosport.com/skf-front-wheel-seal-and-spacer-kit) |
-| Warp 9 | Warp 9 Complete Front and Rear Wheel Combo | 89-11812R, 89-41812R, 89-11912R, 89-21912-09, 89-B11912R, 89-31912R, 89-41912R, 89-11932R, 89-B11932R, 89-12112, 89-2211 | 850.00 USD | [MotoSport](https://www.motosport.com/warp-9-complete-front-and-rear-wheel-combo) |
 
 ## Universal retailer listings (counted only)
 
-Controls 542, Lights And Electrical 385, Body 197, Tires 188, Tools And Maintenance 171, Graphics 162, Engine 144, Drive 122, Suspension 115, Brakes 107, Luggage And Racks 106, Exhaust 99, Wheels And Rims 78, Vehicle Communication 60, Fuel System 56, Accessories 48, Skid Plates And Guards 21, Riding Gear 18, Farming And Hunting 13, Intake 7, Helmets 3, Winch And Plow 2, Gauges 1, Bike Protection 1, Uncategorised 1, Drive & Transmission 1
+Controls 557, Lights And Electrical 386, Body 203, Tires 188, Tools And Maintenance 171, Graphics 163, Engine 161, Drive 124, Suspension 117, Brakes 108, Luggage And Racks 106, Exhaust 99, Wheels And Rims 80, Vehicle Communication 60, Fuel System 56, Accessories 48, Skid Plates And Guards 22, Riding Gear 18, Farming And Hunting 13, Intake 7, Helmets 3, Winch And Plow 2, Gauges 1, Drive & Transmission 1, Uncategorised 1, Bike Protection 1
 
-Top brands: Turner Performance Products 115, Rugged Radios 105, Motion Pro 97, Acerbis 95, RAM Mounts 72, D'COR Visuals 66, Cycra 65, Pro Taper 63, Factory Effex 58, Trail Tech 56, Bolt 54, Quad Lock 53, DRC 52, SP Connect 51, KTM PowerParts 43, ODI 43, Kriega 43, Renthal 41, Namz Custom Cycle 40, RFX 36, Fastway 36, Ride Engineering 34, Giant Loop 32, Husqvarna Technical Accessories 31, Kenda 31
+Top brands: Turner Performance Products 121, Rugged Radios 105, Motion Pro 99, Acerbis 95, RAM Mounts 72, D'COR Visuals 67, Cycra 66, Pro Taper 64, Factory Effex 58, Trail Tech 56, Bolt 54, Quad Lock 53, DRC 52, SP Connect 51, ODI 43, KTM PowerParts 43, Kriega 43, Renthal 41, Namz Custom Cycle 40, RFX 37, Polisport 37, Fastway 36, Ride Engineering 34, Giant Loop 32, Kenda 31
 

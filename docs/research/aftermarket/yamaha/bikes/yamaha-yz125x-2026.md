@@ -7,8 +7,8 @@
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
 | Yamaha GYTR | GYTR YZ/WR Chain Guide / WR250F, WR450F, YZ125, YZ125X, YZ250, YZ250F - See Description For Model Application | 17D-F21E0-V1-00 | Seller description: Yamaha 17D-F21E0-V1-00 - GYTR YZ/WR Chain Guide is a GYTR accessory. This GYTR chain guide is designed to minimize the risk of chain derailment or damage on select Yamaha YZ and WR | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-17d-f21e0-v1-00-gytr-yz-wr-chain-guide) | medium |
-| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25452-50-00 | Seller description: Yamaha 17D-25452-50-00 - Sprocket is a Yamaha Genuine accessory. This Yamaha Genuine sprocket is a direct replacement for the original sprocket on select YZ series off-road motorcy | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-17d-25452-50-00-sprocket) | medium |
 | Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25448-50-00 | Seller description: Yamaha 17D-25448-50-00 - Sprocket is a Yamaha Genuine accessory. This Yamaha Genuine sprocket is a direct replacement for the original sprocket on select YZ series off-road motorcy | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-17d-25448-50-00-sprocket) | medium |
+| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25452-50-00 | Seller description: Yamaha 17D-25452-50-00 - Sprocket is a Yamaha Genuine accessory. This Yamaha Genuine sprocket is a direct replacement for the original sprocket on select YZ series off-road motorcy | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-17d-25452-50-00-sprocket) | medium |
 | FMF | Fatty Gold Series Pipe | 024076 | FMF claims 'more low-end, more mid, and increased over-rev' and 'More tractable power, improved throttle control.' |  | [FMF](https://www.fmfracing.com/products/fatty-024076) | high |
 
 ## Dealer and retailer listings for this bike
@@ -307,7 +307,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Uncategorised 309, Handlebars & Controls 222, Chain & Sprocket 113, Exhaust 76, Air & Fuel 39, Lighting 33, Batteries & Electrical 30, Utv / Atv Parts 30, Gauges 30, Bike Protection 29, Suspension 21, Body & Fairing 9, Drive & Transmission 6, Filters 3, Tire Accessories 1
+Uncategorised 309, Handlebars & Controls 222, Chain & Sprocket 113, Exhaust 76, Air & Fuel 39, Lighting 33, Gauges 30, Utv / Atv Parts 30, Batteries & Electrical 30, Bike Protection 29, Suspension 21, Body & Fairing 9, Drive & Transmission 6, Filters 3, Tire Accessories 1
 
-Top brands: Cycra 57, Acerbis 55, Pro Taper 54, Moose Racing 50, Bolt Hardware 46, Zeta 44, Renthal 41, ODI 38, Fire Power 34, Helix Racing Products 24, Barkbusters 23, FMF 23, RK 23, RFX 23, EK Chain 20, Factory Effex 19, Polisport 19, Koso 18, K&N 18, Motion Pro 18, Namz 17, Motolis 13, Pro Grip 12, BBR Motorsports 12, Enduro Engineering 9
+Top brands: Cycra 57, Acerbis 55, Pro Taper 54, Moose Racing 50, Bolt Hardware 46, Zeta 44, Renthal 41, ODI 38, Fire Power 34, Helix Racing Products 24, RK 23, FMF 23, Barkbusters 23, RFX 23, EK Chain 20, Factory Effex 19, Polisport 19, K&N 18, Motion Pro 18, Koso 18, Namz 17, Motolis 13, Pro Grip 12, BBR Motorsports 12, Enduro Engineering 9
 

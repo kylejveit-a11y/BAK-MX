@@ -36,19 +36,19 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | GasGas Technical Accessories | Air Filter Water Protection | 79006921000 | 12.66 GBP | [Lings](https://lings.com/products/gasgas-air-filter-water-protection) |
 | GasGas Technical Accessories | Akrapoviƒç "Slip-on Line" Silencer | 79505979000 | 634.20 GBP | [Lings](https://lings.com/products/gasgas-akrapovic-slip-on-line-silencer) |
 | GasGas Technical Accessories | Akrapoviƒç Heat Protection | 79505994000 | 99.60 GBP | [Lings](https://lings.com/products/gasgas-akrapovic-heat-protection) |
+| GasGas Technical Accessories | Auxiliary Wiring Harness | 77711979010 | 8.10 GBP | [Lings](https://lings.com/products/gasgas-auxiliary-wiring-harness-1) |
 | GasGas Technical Accessories | Auxiliary Wiring Harness | 77711979000 | 14.46 GBP | [Lings](https://lings.com/products/gasgas-auxiliary-wiring-harness) |
 | GasGas Technical Accessories | Auxiliary Wiring Harness | 77711979044 | 31.68 GBP | [Lings](https://lings.com/products/gasgas-auxiliary-wiring-harness-2) |
-| GasGas Technical Accessories | Auxiliary Wiring Harness | 77711979010 | 8.10 GBP | [Lings](https://lings.com/products/gasgas-auxiliary-wiring-harness-1) |
 | GasGas Technical Accessories | Axle Reduction Kit | SXS03540400 | 25.32 GBP | [Lings](https://lings.com/products/gasgas-axle-reduction-kit) |
 | GasGas Technical Accessories | Brake Caliper Protection | 77713975120 | 89.70 GBP | [Lings](https://lings.com/products/gasgas-brake-caliper-protection) |
 | GasGas Technical Accessories | Brake Caliper Support | 77013914000 | 89.70 GBP | [Lings](https://lings.com/products/gasgas-brake-caliper-support) |
 | GasGas Technical Accessories | Brake Caliper Support With Brake Disc Guard | 79113975044FAA | 171.30 GBP | [Lings](https://lings.com/products/gasgas-brake-caliper-support-with-brake-disc-guard) |
 | GasGas Technical Accessories | Brake Disc | 58309060000 | 179.10 GBP | [Lings](https://lings.com/products/gasgas-brake-disc) |
 | GasGas Technical Accessories | Brake Disc Guard | 79109961000 | 68.04 GBP | [Lings](https://lings.com/products/gasgas-brake-disc-guard) |
+| GasGas Technical Accessories | Brake Pads | 54813990200 | 36.24 GBP | [Lings](https://lings.com/products/gasgas-brake-pads-1) |
+| GasGas Technical Accessories | Brake Pads | 59013930100 | 27.12 GBP | [Lings](https://lings.com/products/gasgas-brake-pads-2) |
 | GasGas Technical Accessories | Brake Pads | 59013930200 | 36.24 GBP | [Lings](https://lings.com/products/gasgas-brake-pads-3) |
 | GasGas Technical Accessories | Brake Pads | 54813990100 | 27.12 GBP | [Lings](https://lings.com/products/gasgas-brake-pads) |
-| GasGas Technical Accessories | Brake Pads | 59013930100 | 27.12 GBP | [Lings](https://lings.com/products/gasgas-brake-pads-2) |
-| GasGas Technical Accessories | Brake Pads | 54813990200 | 36.24 GBP | [Lings](https://lings.com/products/gasgas-brake-pads-1) |
 | GasGas Technical Accessories | C Spanner | 79619910000 | 27.12 GBP | [Lings](https://lings.com/products/gasgas-c-spanner-1) |
 | GasGas Technical Accessories | C Spanner | 77719910100 | 27.12 GBP | [Lings](https://lings.com/products/gasgas-c-spanner) |
 | GasGas Technical Accessories | Chain | 50310165118 | 77.04 GBP | [Lings](https://lings.com/products/gasgas-chain-1) |
@@ -57,14 +57,14 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | GasGas Technical Accessories | Chainguide Bracket Protection | 78104974100 | 89.70 GBP | [Lings](https://lings.com/products/gasgas-chainguide-bracket-protection) |
 | GasGas Technical Accessories | Clamp | 77702944000FAA | 17.16 GBP | [Lings](https://lings.com/products/gasgas-clamp) |
 | GasGas Technical Accessories | Combination Switch | 79039974144 | 89.70 GBP | [Lings](https://lings.com/products/gasgas-combination-switch) |
-| GasGas Technical Accessories | Crash Bung | 78110945100 | 36.24 GBP | [Lings](https://lings.com/products/gasgas-crash-bung) |
 | GasGas Technical Accessories | Crash Bung | 77709945000 | 36.24 GBP | [Lings](https://lings.com/products/gasgas-crash-bung-1) |
+| GasGas Technical Accessories | Crash Bung | 78110945100 | 36.24 GBP | [Lings](https://lings.com/products/gasgas-crash-bung) |
 | GasGas Technical Accessories | Crash Bung Kit | A46009945000 | 45.30 GBP | [Lings](https://lings.com/products/gasgas-crash-bung-kit-1) |
 | GasGas Technical Accessories | FMF Factory 4.1 RCT Silencer | 79505979003 | 588.06 GBP | [Lings](https://lings.com/products/gasgas-fmf-factory-4-1-rct-silencer) |
 | GasGas Technical Accessories | FMF Megabomb Header | 79505907501 | 361.51 GBP | [Lings](https://lings.com/products/gasgas-fmf-megabomb-header) |
 | GasGas Technical Accessories | Factory Front Wheel 1.6 x 21'' | 7900990000000 | 406.82 GBP | [Lings](https://lings.com/products/gasgas-factory-front-wheel-1-6-x-21) |
-| GasGas Technical Accessories | Factory Racing Brake Caliper | SXS07125712 | 859.92 GBP | [Lings](https://lings.com/products/gasgas-factory-racing-brake-caliper) |
 | GasGas Technical Accessories | Factory Racing Brake Caliper | SXS09125512 | 905.22 GBP | [Lings](https://lings.com/products/gasgas-factory-racing-brake-caliper-1) |
+| GasGas Technical Accessories | Factory Racing Brake Caliper | SXS07125712 | 859.92 GBP | [Lings](https://lings.com/products/gasgas-factory-racing-brake-caliper) |
 | GasGas Technical Accessories | Factory Racing Brake Disc Guard | 79109961100 | 180.36 GBP | [Lings](https://lings.com/products/gasgas-factory-racing-brake-disc-guard) |
 | GasGas Technical Accessories | Factory Racing Chainguide | 77304260144 | 12.66 GBP | [Lings](https://lings.com/products/gasgas-factory-racing-chainguide) |
 | GasGas Technical Accessories | Factory Racing Fuel Pump Connection | 77707988017 | 44.46 GBP | [Lings](https://lings.com/products/gasgas-factory-racing-fuel-pump-connection) |
@@ -74,10 +74,10 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | GasGas Technical Accessories | Factory Racing Triple Clamp | 79701999021FAA | 497.46 GBP | [Lings](https://lings.com/products/gasgas-factory-racing-triple-clamp-1) |
 | GasGas Technical Accessories | Feeler Gauge | 79129941000 | 18.12 GBP | [Lings](https://lings.com/products/gasgas-feeler-gauge) |
 | GasGas Technical Accessories | First Aid Kit | 60412002200 | 14.46 GBP | [Lings](https://lings.com/products/gasgas-first-aid-kit) |
-| GasGas Technical Accessories | Flame Brake Disc | 78909960000 | 144.12 GBP | [Lings](https://lings.com/products/gasgas-flame-brake-disc-1) |
 | GasGas Technical Accessories | Flame Brake Disc | 78910960000 | 89.70 GBP | [Lings](https://lings.com/products/gasgas-flame-brake-disc) |
-| GasGas Technical Accessories | Foam Rubber | 54835980000 | 8.10 GBP | [Lings](https://lings.com/products/gasgas-foam-rubber-2) |
+| GasGas Technical Accessories | Flame Brake Disc | 78909960000 | 144.12 GBP | [Lings](https://lings.com/products/gasgas-flame-brake-disc-1) |
 | GasGas Technical Accessories | Foam Rubber | 59003990250 | 9.00 GBP | [Lings](https://lings.com/products/gasgas-foam-rubber-1) |
+| GasGas Technical Accessories | Foam Rubber | 54835980000 | 8.10 GBP | [Lings](https://lings.com/products/gasgas-foam-rubber-2) |
 | GasGas Technical Accessories | Fork Airpump | 79412966100 | 89.70 GBP | [Lings](https://lings.com/products/gasgas-fork-airpump) |
 | GasGas Technical Accessories | Fork Protector | A46001995000 | 26.34 GBP | [Lings](https://lings.com/products/gasgas-fork-protector-1) |
 | GasGas Technical Accessories | Fork Protector Kit | 7900200000000 | 116.94 GBP | [Lings](https://lings.com/products/gasgas-fork-protector-kit) |
@@ -93,9 +93,9 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | GasGas Technical Accessories | HINSON Clutch Pressure Plate | 79432903000 | 261.90 GBP | [Lings](https://lings.com/products/gasgas-hinson-clutch-pressure-plate) |
 | GasGas Technical Accessories | HINSON Outer Clutch Cover | 26130826000 | 180.36 GBP | [Lings](https://lings.com/products/gasgas-hinson-outer-clutch-cover) |
 | GasGas Technical Accessories | Handguard Bushing Kit | 79702988044 | 18.12 GBP | [Lings](https://lings.com/products/gasgas-handguard-bushing-kit) |
-| GasGas Technical Accessories | Handguard Kit | 60302179100AB | 58.92 GBP | [Lings](https://lings.com/products/gasgas-handguard-kit-1) |
-| GasGas Technical Accessories | Handguard Kit | 78002079200AB | 53.52 GBP | [Lings](https://lings.com/products/gasgas-handguard-kit) |
 | GasGas Technical Accessories | Handguard Kit | 6030220000000 | 58.92 GBP | [Lings](https://lings.com/products/gasgas-handguard-kit-3) |
+| GasGas Technical Accessories | Handguard Kit | 78002079200AB | 53.52 GBP | [Lings](https://lings.com/products/gasgas-handguard-kit) |
+| GasGas Technical Accessories | Handguard Kit | 60302179100AB | 58.92 GBP | [Lings](https://lings.com/products/gasgas-handguard-kit-1) |
 | GasGas Technical Accessories | Handguard Kit | 7800210000000 | 53.52 GBP | [Lings](https://lings.com/products/gasgas-handguard-kit-2) |
 | GasGas Technical Accessories | Handlebar Cross Brace | 60112092070 | 27.12 GBP | [Lings](https://lings.com/products/gasgas-handlebar-cross-brace) |
 | GasGas Technical Accessories | Handlebar Mount Kit | 79701939144, 79701939344, 79701939444 | 44.46 GBP | [Lings](https://lings.com/products/gasgas-handlebar-mount-kit) |
@@ -108,8 +108,8 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | GasGas Technical Accessories | Multi Plug In Stand | 79029094000 | 26.28 GBP | [Lings](https://lings.com/products/gasgas-multi-plug-in-stand) |
 | GasGas Technical Accessories | Plug In Stand | 77703020000 | 28.20 GBP | [Lings](https://lings.com/products/gasgas-plug-in-stand) |
 | GasGas Technical Accessories | Progressive Handlebar Damping System | SXS07125200 | 180.36 GBP | [Lings](https://lings.com/products/gasgas-progressive-handlebar-damping-system) |
-| GasGas Technical Accessories | Protective Fork Sticker Set | 52000093 | 27.12 GBP | [Lings](https://lings.com/products/gasgas-protective-fork-sticker-set-1) |
 | GasGas Technical Accessories | Protective Fork Sticker Set | 52000092 | 27.12 GBP | [Lings](https://lings.com/products/gasgas-protective-fork-sticker-set) |
+| GasGas Technical Accessories | Protective Fork Sticker Set | 52000093 | 27.12 GBP | [Lings](https://lings.com/products/gasgas-protective-fork-sticker-set-1) |
 | GasGas Technical Accessories | Protective Outdoor Cover | A54012007000 | 77.04 GBP | [Lings](https://lings.com/products/gasgas-protective-outdoor-cover) |
 | GasGas Technical Accessories | Radiator Fan | 55735941044 | 261.90 GBP | [Lings](https://lings.com/products/gasgas-radiator-fan) |
 | GasGas Technical Accessories | Radiator Protection | 79635936044 | 44.46 GBP | [Lings](https://lings.com/products/gasgas-radiator-protection) |
@@ -496,7 +496,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Uncategorised 327, Handlebars & Controls 244, Chain & Sprocket 136, Exhaust 87, Air & Fuel 47, Lighting 34, Batteries & Electrical 34, Gauges 34, Bike Protection 30, Utv / Atv Parts 29, Suspension 24, Body & Fairing 9, Drive & Transmission 6, Filters 5, Brakes 2, Tire Accessories 1
+Uncategorised 327, Handlebars & Controls 244, Chain & Sprocket 136, Exhaust 87, Air & Fuel 47, Gauges 34, Lighting 34, Batteries & Electrical 34, Bike Protection 30, Utv / Atv Parts 29, Suspension 24, Body & Fairing 9, Drive & Transmission 6, Filters 5, Brakes 2, Tire Accessories 1
 
-Top brands: Pro Taper 71, Acerbis 59, Bolt Hardware 54, Moose Racing 52, Cycra 51, Zeta 47, Renthal 46, ODI 42, Fire Power 38, Barkbusters 36, Helix Racing Products 31, RK 27, RFX 25, FMF 22, EK Chain 22, Factory Effex 21, Motion Pro 20, Polisport 19, K&N 19, Koso 17, Namz 16, Motolis 16, DID Chain 14, Yoshimura 13, BikeMaster 13
+Top brands: Pro Taper 71, Acerbis 59, Bolt Hardware 54, Moose Racing 52, Cycra 51, Zeta 47, Renthal 46, ODI 42, Fire Power 38, Barkbusters 36, Helix Racing Products 31, RK 27, RFX 25, EK Chain 22, FMF 22, Factory Effex 21, Motion Pro 20, K&N 19, Polisport 19, Koso 17, Motolis 16, Namz 16, DID Chain 14, Yoshimura 13, BikeMaster 13
 
