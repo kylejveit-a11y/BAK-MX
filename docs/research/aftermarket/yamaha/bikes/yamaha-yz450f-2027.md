@@ -1,17 +1,22 @@
 # Yamaha YZ450F 2027: aftermarket parts
 
-3531 listings whose stated fitment names this bike: 2 researched parts (with what they change and rider findings), 62 dealer and retailer listings specific to this bike, and 3467 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+3531 listings whose stated fitment names this bike: 1 researched parts (with what they change and rider findings), 63 dealer and retailer listings specific to this bike, and 3467 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
-| Yamaha Genuine Accessories | Performance Airbox Kit / YZ450F | D03-E41E0-V0-00 | Seller description: Yamaha D03-E41E0-V0-00 - GYTR YZ450F Performance Airbox Kit is a genuine Yamaha accessory. The GYTR YZ450F Performance Airbox Kit increases mid-range to top-end pulling power, impr | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-d03-e41e0-v0-00-yz450f-performance-airbox-kit) | medium |
 | Rekluse | TorqDrive Clutch Pack - YAM 450F 23 | RMS-2807176 | Rekluse claims additional friction disks give 'an average of a 25% gain in torque capacity over stock', about 10% lower lever effort, and 'Virtually eliminates clutch fade.' | Not a replacement pack for RadiusX/RadiusCX/Core Manual TorqDrive. The YZ250F listing in its fitment tab conflicts with the product title; confirm before use. | [Rekluse](https://www.rekluse.com/product/manual-clutches/torq-drive-clutch-pack/torqdrive-clutch-pack-yam-450f-23/) | high |
 
 ## Dealer and retailer listings for this bike
 
 Merged across sellers by brand and part number (or brand and name). Lings is a UK dealer (GBP prices, EU-market models).
+
+### Accessories (1)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Yamaha Genuine Accessories | Performance Airbox Kit / YZ450F | D03-E41E0-V0-00 | 122.78 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-d03-e41e0-v0-00-yz450f-performance-airbox-kit) |
 
 ### Body (4)
 
@@ -147,7 +152,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Controls 515, Lights And Electrical 381, Uncategorised 297, Handlebars & Controls 234, Tires 198, Body 189, Tools And Maintenance 173, Exhaust 169, Graphics 161, Drive 125, Engine 121, Chain & Sprocket 121, Luggage And Racks 106, Suspension 105, Brakes 67, Wheels And Rims 64, Vehicle Communication 60, Fuel System 55, Accessories 48, Air & Fuel 38, Batteries & Electrical 38, Gauges 34, Lighting 33, Utv / Atv Parts 31, Bike Protection 26, Skid Plates And Guards 21, Riding Gear 18, Farming And Hunting 13, Intake 7, Body & Fairing 6, Drive & Transmission 4, Filters 3, Helmets 3, Winch And Plow 2, Tire Accessories 1
+Controls 515, Lights And Electrical 381, Uncategorised 297, Handlebars & Controls 234, Tires 198, Body 189, Tools And Maintenance 173, Exhaust 169, Graphics 161, Drive 125, Chain & Sprocket 121, Engine 121, Luggage And Racks 106, Suspension 105, Brakes 67, Wheels And Rims 64, Vehicle Communication 60, Fuel System 55, Accessories 48, Air & Fuel 38, Batteries & Electrical 38, Gauges 34, Lighting 33, Utv / Atv Parts 31, Bike Protection 26, Skid Plates And Guards 21, Riding Gear 18, Farming And Hunting 13, Intake 7, Body & Fairing 6, Drive & Transmission 4, Helmets 3, Filters 3, Winch And Plow 2, Tire Accessories 1
 
-Top brands: Acerbis 146, Pro Taper 123, Cycra 121, Motion Pro 114, Rugged Radios 105, Turner Performance Products 88, Renthal 84, ODI 83, Factory Effex 76, RAM Mounts 74, D'COR Visuals 65, Trail Tech 61, DRC 56, Bolt 54, Fire Power 54, RFX 54, Quad Lock 53, SP Connect 51, Kriega 45, Moose Racing 43, KTM PowerParts 43, Zeta 42, Polisport 41, Namz Custom Cycle 40, Bolt Hardware 40
+Top brands: Acerbis 146, Pro Taper 123, Cycra 121, Motion Pro 114, Rugged Radios 105, Turner Performance Products 88, Renthal 84, ODI 83, Factory Effex 76, RAM Mounts 74, D'COR Visuals 65, Trail Tech 61, DRC 56, RFX 54, Fire Power 54, Bolt 54, Quad Lock 53, SP Connect 51, Kriega 45, KTM PowerParts 43, Moose Racing 43, Zeta 42, Polisport 41, Bolt Hardware 40, Namz Custom Cycle 40
 

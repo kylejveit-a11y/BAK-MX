@@ -1,4 +1,5 @@
 import type {Bike} from './types.ts';
+import {readInstalled,systemsRecorded,partSystems} from './installed-parts.ts';
 /** One definition of the build profile for web and native, so a bike edited on either reads the same. */
 export type GarageField={key:string;label:string;numeric?:boolean};
 export const garageFieldGroups:Record<'Rider'|'Engine'|'Suspension'|'Drivetrain',GarageField[]>={
@@ -22,13 +23,15 @@ export type BuildCheck={id:string;label:string;done:boolean;why:string};
 /** What BAK knows about this build. Each item says why it matters, so a gap is a reason to fill it in. */
 export function buildChecks(bike:Pick<Bike,'engine_hours'|'configuration'>):BuildCheck[]{
  const c=bike.configuration??{},any=(keys:string[])=>keys.some(k=>filled(c[k]));
+ const sheet=readInstalled(c),onSheet=(systems:string[])=>sheet.parts.some(p=>systems.includes(p.s))||sheet.stock.some(s=>systems.includes(s));
  return [
   {id:'hours',label:'Engine hours',done:bike.engine_hours!==null&&bike.engine_hours!==undefined,why:'Service timing and wear-related advice depend on hours.'},
   {id:'rider',label:'Rider weight and level',done:(filled(c.geared_weight_lb)||filled(c.geared_weight_kg))&&filled(c.skill_level),why:'Spring rate and setup direction start from the rider.'},
   {id:'suspension',label:'Current suspension settings',done:any(['rider_sag_mm','fork_compression','fork_rebound','shock_compression','shock_rebound']),why:'BAK can only suggest a change from where your clickers and sag are now.'},
   {id:'springs',label:'Spring rates or revalve',done:any(['fork_spring_rate','shock_spring_rate','fork','shock']),why:'Stock settings stop applying once springs or valving change.'},
-  {id:'engine',label:'Engine, exhaust and map',done:any(['engine_modifications','exhaust','ecu','active_map','intake']),why:'Mapping and jetting advice depends on what is fitted.'},
-  {id:'drivetrain',label:'Gearing and tires',done:any(['front_sprocket','rear_sprocket','front_tire','rear_tire','tire_pressures']),why:'Gearing and tire choice change how the bike drives and turns.'},
+  {id:'engine',label:'Engine, exhaust and map',done:any(['engine_modifications','exhaust','ecu','active_map','intake'])||onSheet(['exhaust','engine','tuning','intake']),why:'Mapping and jetting advice depends on what is fitted.'},
+  {id:'drivetrain',label:'Gearing and tires',done:any(['front_sprocket','rear_sprocket','front_tire','rear_tire','tire_pressures'])||onSheet(['gearing','wheels']),why:'Gearing and tire choice change how the bike drives and turns.'},
+  {id:'parts',label:'What’s on the bike',done:systemsRecorded(c)>=Math.ceil(partSystems.length/2),why:'Fitted parts change which stock settings and maps still apply.'},
  ];
 }
 export function buildProgress(bike:Pick<Bike,'engine_hours'|'configuration'>){const checks=buildChecks(bike);return {done:checks.filter(x=>x.done).length,total:checks.length,missing:checks.filter(x=>!x.done)};}

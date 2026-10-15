@@ -1,12 +1,11 @@
 # Yamaha YZ250X 2027: aftermarket parts
 
-2911 listings whose stated fitment names this bike: 2 researched parts (with what they change and rider findings), 294 dealer and retailer listings specific to this bike, and 2615 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+2911 listings whose stated fitment names this bike: 1 researched parts (with what they change and rider findings), 295 dealer and retailer listings specific to this bike, and 2615 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
-| Yamaha Genuine Accessories | Sprocket / WR400F, YZ250, YZ250X, YZ426F, YZ450F | 9383E-14215-00 | Seller description: Yamaha 9383E-14215-00 - Sprocket is a Yamaha Genuine accessory. This Yamaha Genuine sprocket is a direct replacement for the original sprocket on select YZ series off-road motorcyc | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-938-3e142-15-00-sprocket) | medium |
 | FMF | Gnarly Pipe | 024054 | FMF claims it focuses 'on increasing the lower RPM horsepower and torque' with 'bottom to mid range pull' (off-road oriented). | Sold out at capture; page compare-at price ($171.59) looks erroneous. | [FMF](https://www.fmfracing.com/products/gnarly-pipe-024054) | high |
 
 ## Dealer and retailer listings for this bike
@@ -300,6 +299,12 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | BILT FACTORY | BILT FACTORY Folding Lever Set Yamaha 125cc-450cc 2009-2027 | 7266/8265-BLK, 7266/8265-BLU | 99.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/bilt-factory-folding-lever-set-yamaha-125cc-450cc-2009-2025) |
 | Polisport | Polisport Pivot Lever Set Yamaha 125cc-450cc 2015-2027 | 8487200027, 8487200028, 8487200029 | 113.39 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-pivot-lever-set-yamaha-125cc-450cc-2015-2022) |
 
+### Hard Parts (1)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Yamaha Genuine Accessories | Sprocket / WR400F, YZ250, YZ250X, YZ426F, YZ450F | 9383E-14215-00 | 23.99 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-938-3e142-15-00-sprocket) |
+
 ### Intake (9)
 
 | Brand | Part | Part numbers | Price | Sellers |
@@ -405,5 +410,5 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 Controls 544, Lights And Electrical 381, Tires 219, Body 188, Tools And Maintenance 172, Graphics 164, Engine 141, Drive 122, Suspension 112, Luggage And Racks 106, Brakes 86, Exhaust 81, Wheels And Rims 67, Vehicle Communication 60, Fuel System 54, Accessories 48, Skid Plates And Guards 25, Riding Gear 18, Farming And Hunting 13, Intake 6, Helmets 3, Uncategorised 2, Winch And Plow 2, Bike Protection 1
 
-Top brands: Turner Performance Products 115, Rugged Radios 105, Motion Pro 96, Acerbis 86, RAM Mounts 72, Cycra 65, D'COR Visuals 65, Pro Taper 62, Factory Effex 58, Trail Tech 55, Bolt 53, Quad Lock 53, SP Connect 51, DRC 51, Kriega 43, KTM PowerParts 43, ODI 43, Namz Custom Cycle 40, Renthal 38, Fastway 37, Ride Engineering 35, Shinko 34, Giant Loop 32, RFX 32, Husqvarna Technical Accessories 31
+Top brands: Turner Performance Products 115, Rugged Radios 105, Motion Pro 96, Acerbis 86, RAM Mounts 72, Cycra 65, D'COR Visuals 65, Pro Taper 62, Factory Effex 58, Trail Tech 55, Quad Lock 53, Bolt 53, DRC 51, SP Connect 51, KTM PowerParts 43, ODI 43, Kriega 43, Namz Custom Cycle 40, Renthal 38, Fastway 37, Ride Engineering 35, Shinko 34, RFX 32, Giant Loop 32, Kenda 31
 

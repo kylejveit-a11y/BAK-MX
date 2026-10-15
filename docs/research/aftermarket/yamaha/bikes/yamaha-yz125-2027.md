@@ -1,17 +1,11 @@
 # Yamaha YZ125 2027: aftermarket parts
 
-2912 listings whose stated fitment names this bike: 7 researched parts (with what they change and rider findings), 272 dealer and retailer listings specific to this bike, and 2633 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+2912 listings whose stated fitment names this bike: 1 researched parts (with what they change and rider findings), 278 dealer and retailer listings specific to this bike, and 2633 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
-| Yamaha GYTR | GYTR YZ/WR Chain Guide / WR250F, WR450F, YZ125, YZ125X, YZ250, YZ250F - See Description For Model Application | 17D-F21E0-V1-00 | Seller description: Yamaha 17D-F21E0-V1-00 - GYTR YZ/WR Chain Guide is a GYTR accessory. This GYTR chain guide is designed to minimize the risk of chain derailment or damage on select Yamaha YZ and WR | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-17d-f21e0-v1-00-gytr-yz-wr-chain-guide) | medium |
-| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25452-50-00 | Seller description: Yamaha 17D-25452-50-00 - Sprocket is a Yamaha Genuine accessory. This Yamaha Genuine sprocket is a direct replacement for the original sprocket on select YZ series off-road motorcy | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-17d-25452-50-00-sprocket) | medium |
-| Yamaha Genuine Accessories | Aluminum Stand / WR250F, WR400F, WR450F, YZ125, YZ125X, YZ250, YZ250F - See Description For Model Application | QBY-ACC56-35-02 | Seller description: Yamaha QBY-ACC56-35-02 - Aluminum Stand is a Yamaha accessory. The A2 Aluminum Stand supports select Yamaha WR and YZ series off-road motorcycles and adds a factory look to garages | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-qby-acc56-35-02-a2-aluminum-stand) | medium |
-| Yamaha Genuine Accessories | Steel Stand / WR250F, WR400F, WR450F, YZ125, YZ125X, YZ250, YZ250F, YZ250FX - See Description For Model Application | QBY-ACC56-35-00 | Seller description: Yamaha QBY-ACC56-35-00 - Steel Stand is a Yamaha accessory. The C2 Steel Stand is an ultra-durable steel stand used by Yamaha factory off-road race teams for maintenance and servic | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-qby-acc56-35-00-c2-steel-stand) | medium |
-| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25448-50-00 | Seller description: Yamaha 17D-25448-50-00 - Sprocket is a Yamaha Genuine accessory. This Yamaha Genuine sprocket is a direct replacement for the original sprocket on select YZ series off-road motorcy | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-17d-25448-50-00-sprocket) | medium |
-| Yamaha Genuine Accessories | Lift Stand / WR250F, WR400F, WR450F, YZ125, YZ125X, YZ250, YZ250F, YZ250FX - See Description For Model Application | QBY-ACC56-35-01 | Seller description: Yamaha QBY-ACC56-35-01 - Lift Stand is a Yamaha accessory. The LS1 Lift Stand uses a foot pedal to lift select Yamaha motorcycles for maintenance. | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-qby-acc56-35-01-ls1-lift-stand) | medium |
 | FMF | Fatty Gold Series Pipe | 024076 | FMF claims 'more low-end, more mid, and increased over-rev' and 'More tractable power, improved throttle control.' |  | [FMF](https://www.fmfracing.com/products/fatty-024076) | high |
 
 ## Dealer and retailer listings for this bike
@@ -268,6 +262,12 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Throttle Syndicate | Throttle Syndicate Flush Complete Kit - Yamaha | TS40-2000, TS40-2002, TS40-2004, TS40-2006, TS40-2008, TS40-2010, TS40-2012, TS40-2014, TS40-2016, TS40-2018, TS40-2020, | 119.99 USD | [MotoSport](https://www.motosport.com/throttle-syndicate-flush-complete-kit-yamaha) |
 | Throttle Syndicate | Throttle Syndicate Flush Shroud Kit - Yamaha | TS40-2001, TS40-2003, TS40-2005, TS40-2007, TS40-2009, TS40-2011, TS40-2013, TS40-2017, TS40-2021, TS40-2023, TS40-2025 | 69.99 USD | [MotoSport](https://www.motosport.com/throttle-syndicate-flush-shroud-kit-yamaha) |
 
+### Gytr (1)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Yamaha GYTR | GYTR YZ/WR Chain Guide / WR250F, WR450F, YZ125, YZ125X, YZ250, YZ250F - See Description For Model Ap | 17D-F21E0-V1-00 | 98.96 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-f21e0-v1-00-gytr-yz-wr-chain-guide) |
+
 ### Handlebars & Controls (14)
 
 | Brand | Part | Part numbers | Price | Sellers |
@@ -286,6 +286,16 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Pro Taper | Pro Taper Profile Pro XPS Front Brake Lever Kawasaki / Yamaha | 024098 | 109.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-taper-profile-pro-xps-front-brake-lever-kawasaki-yamaha) |
 | Zeta | Zeta Pivot Brake Lever Yamaha / Kawasaki 125cc-450cc | ZE41-3265 | 106.34 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-pivot-brake-lever-yamaha-kawasaki-125cc-450cc) |
 | Zeta | Zeta Pivot Clutch Lever Yamaha 65cc-450cc 2009-2027 | ZE42-4266 | 106.34 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-pivot-clutch-lever-yamaha-65cc-450cc-2009-2024) |
+
+### Hard Parts (5)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Yamaha Genuine Accessories | Aluminum Stand / WR250F, WR400F, WR450F, YZ125, YZ125X, YZ250, YZ250F - See Description For Model Ap | QBY-ACC56-35-02 | 182.19 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-qby-acc56-35-02-a2-aluminum-stand) |
+| Yamaha Genuine Accessories | Lift Stand / WR250F, WR400F, WR450F, YZ125, YZ125X, YZ250, YZ250F, YZ250FX - See Description For Mod | QBY-ACC56-35-01 | 190.41 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-qby-acc56-35-01-ls1-lift-stand) |
+| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25448-50-00 | 82.83 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25448-50-00-sprocket) |
+| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25452-50-00 | 87.07 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25452-50-00-sprocket) |
+| Yamaha Genuine Accessories | Steel Stand / WR250F, WR400F, WR450F, YZ125, YZ125X, YZ250, YZ250F, YZ250FX - See Description For Mo | QBY-ACC56-35-00 | 111.23 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-qby-acc56-35-00-c2-steel-stand) |
 
 ### Intake (7)
 
@@ -389,5 +399,5 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 Controls 549, Lights And Electrical 380, Tires 218, Body 193, Tools And Maintenance 170, Graphics 168, Engine 136, Drive 124, Suspension 114, Luggage And Racks 106, Brakes 93, Exhaust 81, Wheels And Rims 66, Vehicle Communication 60, Fuel System 54, Accessories 48, Skid Plates And Guards 26, Riding Gear 18, Farming And Hunting 13, Intake 6, Helmets 3, Uncategorised 3, Winch And Plow 2, Gauges 1, Bike Protection 1
 
-Top brands: Turner Performance Products 116, Rugged Radios 105, Motion Pro 97, Acerbis 93, RAM Mounts 72, D'COR Visuals 66, Cycra 65, Pro Taper 63, Factory Effex 57, Trail Tech 55, Bolt 54, Quad Lock 53, DRC 52, SP Connect 51, Kriega 43, KTM PowerParts 43, ODI 43, Namz Custom Cycle 40, Renthal 40, Fastway 36, RFX 35, Ride Engineering 35, Shinko 34, Kenda 32, Giant Loop 32
+Top brands: Turner Performance Products 116, Rugged Radios 105, Motion Pro 97, Acerbis 93, RAM Mounts 72, D'COR Visuals 66, Cycra 65, Pro Taper 63, Factory Effex 57, Trail Tech 55, Bolt 54, Quad Lock 53, DRC 52, SP Connect 51, KTM PowerParts 43, ODI 43, Kriega 43, Namz Custom Cycle 40, Renthal 40, Fastway 36, RFX 35, Ride Engineering 35, Shinko 34, Giant Loop 32, Kenda 32
 

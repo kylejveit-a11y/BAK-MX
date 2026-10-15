@@ -1,32 +1,27 @@
 # Yamaha YZ450F 2026: aftermarket parts
 
-3825 listings whose stated fitment names this bike: 17 researched parts (with what they change and rider findings), 280 dealer and retailer listings specific to this bike, and 3528 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+3825 listings whose stated fitment names this bike: 5 researched parts (with what they change and rider findings), 292 dealer and retailer listings specific to this bike, and 3528 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
-| Yamaha Genuine Accessories | Performance Airbox Kit / YZ450F | D03-E41E0-V0-00 | Seller description: Yamaha D03-E41E0-V0-00 - GYTR YZ450F Performance Airbox Kit is a genuine Yamaha accessory. The GYTR YZ450F Performance Airbox Kit increases mid-range to top-end pulling power, impr | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-d03-e41e0-v0-00-yz450f-performance-airbox-kit) | medium |
-| Yamaha Genuine Accessories | Fork Seal Kit (One Fork) / WR250F, WR450F, YZ125, YZ125X, YZ250, YZ250F - See Description For Model Application | BDB-W003B-00-00 | Seller description: Yamaha BDB-W003B-00-00 - YZ/WR Single Front Fork Seal Kit is a genuine Yamaha accessory. These Yamaha Genuine Fork Seal Kits come with the original equipment fork and dust seals. D | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-bdb-w003b-00-00-fork-seal-kit-one-fork) | medium |
-| Yamaha GYTR | Gytr Billet Ignition Cover / WR450F, YZ450F, YZ450FX - See Description For Model Application | BHR-E54G0-V0-00 | Seller description: Yamaha BHR-E54G0-V0-00 - GYTR YZ450F/WR450F Ignition Cover is a genuine Yamaha accessory. The YZ450F/WR450F GYTR Ignition Cover is engineered to offer an exceptional level of stren | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-bhr-e54g0-v0-00-gytr-billet-ignition-cover) | medium |
-| Yamaha GYTR | Gytr Billet Clutch Cover / WR450F, YZ450F, YZ450F 70th Anniversary Edition - See Description For Model Application | BHR-E54E0-V0-00 | Seller description: Yamaha BHR-E54E0-V0-00 - GYTR YZ450F/WR450F Clutch Cover is a genuine Yamaha accessory. Tested and proven by factory Yamaha MX and XC race teams in the most extreme race environmen | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-bhr-e54e0-v0-00-gytr-billet-clutch-cover) | medium |
-| Yamaha GYTR | GYTR YZ/WR Chain Guide / WR250F, WR450F, YZ125, YZ125X, YZ250, YZ250F - See Description For Model Application | 17D-F21E0-V1-00 | Seller description: Yamaha 17D-F21E0-V1-00 - GYTR YZ/WR Chain Guide is a GYTR accessory. This GYTR chain guide is designed to minimize the risk of chain derailment or damage on select Yamaha YZ and WR | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-17d-f21e0-v1-00-gytr-yz-wr-chain-guide) | medium |
-| Yamaha GYTR | Gytr 25MM Axle Accent Kit / WR250F, WR450F, YZ125, YZ125X, YZ250, YZ250F - See Description For Model Application | D03-E51F0-V0-00 | Seller description: Yamaha D03-E51F0-V0-00 - GYTR YZ/WR Factory Accent Kit is a genuine Yamaha accessory. Upgrade your YZ/WR with the GYTR Factory Accent Kit. Race tested components that deliver pro-l | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-d03-e51f0-v0-00-gytr-25mm-axle-accent-kit) | medium |
-| Yamaha GYTR | Gytr Air Filter / WR250F, WR450F, YZ250F, YZ250F 70th Anniversary Edition - See Description For Model Application | BHR-E41C0-V0-00 | Seller description: Yamaha BHR-E41C0-V0-00 - GYTR High-Flow Air Filter is a genuine Yamaha part. Performance, high-flow, 2-layer foam filter optimizes filtration while maximizing airflow. Filter is wa | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-bhr-e41c0-v0-00-gytr-air-filter) | medium |
-| Yamaha GYTR | Gytr Radiator Guard / WR250F, WR450F, YZ250F, YZ250FX, YZ450F, YZ450FX - See Description For Model Application | BNL-E24D0-V0-00 | Seller description: Yamaha BNL-E24D0-V0-00 - Off-Road Radiator Guard is a genuine Yamaha accessory. The GYTR Billet Radiator Guards are designed to protect the radiators from front and side impacts an | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-bnl-e24d0-v0-00-gytr-radiator-guard) | medium |
-| Yamaha GYTR | Gytr WR450F Competition Kit / WR450F | BNK-E9500-V0-00 | Seller description: Yamaha BNK-E9500-V0-00 - GYTR WR450F Competition ECU Kit is a genuine Yamaha accessory. The GYTR WR450F Competition ECU enables the full performance capabilities of the YZ450FX and | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-bnk-e9500-v0-00-gytr-wr450f-competition-kit) | medium |
-| Yamaha Genuine Accessories | Aluminum Stand / WR250F, WR400F, WR450F, YZ125, YZ125X, YZ250, YZ250F - See Description For Model Application | QBY-ACC56-35-02 | Seller description: Yamaha QBY-ACC56-35-02 - Aluminum Stand is a Yamaha accessory. The A2 Aluminum Stand supports select Yamaha WR and YZ series off-road motorcycles and adds a factory look to garages | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-qby-acc56-35-02-a2-aluminum-stand) | medium |
-| Yamaha Genuine Accessories | Steel Stand / WR250F, WR400F, WR450F, YZ125, YZ125X, YZ250, YZ250F, YZ250FX - See Description For Model Application | QBY-ACC56-35-00 | Seller description: Yamaha QBY-ACC56-35-00 - Steel Stand is a Yamaha accessory. The C2 Steel Stand is an ultra-durable steel stand used by Yamaha factory off-road race teams for maintenance and servic | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-qby-acc56-35-00-c2-steel-stand) | medium |
-| Yamaha Genuine Accessories | Lift Stand / WR250F, WR400F, WR450F, YZ125, YZ125X, YZ250, YZ250F, YZ250FX - See Description For Model Application | QBY-ACC56-35-01 | Seller description: Yamaha QBY-ACC56-35-01 - Lift Stand is a Yamaha accessory. The LS1 Lift Stand uses a foot pedal to lift select Yamaha motorcycles for maintenance. | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-qby-acc56-35-01-ls1-lift-stand) | medium |
 | Xtrig | ROCS Pro Triple Clamps 20/22 mm, Bronze (PHDS mounts) | 501330200601 | Xtrig (via dealer) claims opposing clamp design reduces fork-tube deformation and resists twist. | Dealer page has inconsistent year ranges; confirm with Xtrig. | [Tokyo Mods](https://tokyomods.com/xtrig-rocs-pro-clamp-set-bronze-yamaha-2022mm-yz250f-24-36-yz450f-23-26/) | medium |
-| Rekluse | RadiusCX 4.0 - YZ450 | RMS-8907176 | Rekluse claims it 'Eliminates stalling, start and stop without engaging the clutch lever', with full lever override and TorqDrive pack for longer life. | 'Call for Availability'. 2026 YZ450F moved to Nissin hydraulic clutch (MXA); fitment page still lists 2026. | [Rekluse](https://www.rekluse.com/product/auto-clutches/radiuscx/radiuscx-clutches/radiuscx-4-0-yz450-23/) | high |
 | Rekluse | TorqDrive Clutch Pack - YAM 450F 23 | RMS-2807176 | Rekluse claims additional friction disks give 'an average of a 25% gain in torque capacity over stock', about 10% lower lever effort, and 'Virtually eliminates clutch fade.' | Not a replacement pack for RadiusX/RadiusCX/Core Manual TorqDrive. The YZ250F listing in its fitment tab conflicts with the product title; confirm before use. | [Rekluse](https://www.rekluse.com/product/manual-clutches/torq-drive-clutch-pack/torqdrive-clutch-pack-yam-450f-23/) | high |
+| Rekluse | RadiusCX 4.0 - YZ450 | RMS-8907176 | Rekluse claims it 'Eliminates stalling, start and stop without engaging the clutch lever', with full lever override and TorqDrive pack for longer life. | 'Call for Availability'. 2026 YZ450F moved to Nissin hydraulic clutch (MXA); fitment page still lists 2026. | [Rekluse](https://www.rekluse.com/product/auto-clutches/radiuscx/radiuscx-clutches/radiuscx-4-0-yz450-23/) | high |
 | Vortex | X10 ECU | 55-335-ECU-13 | Vortex (via dealer) claims 'Improved bottom end power and throttle response', 10 preloaded fuel/ignition maps, plug-in. | Dealer page, not Vortex. 2026 YZ450F ECU is password-locked (Keefer) - plug-in compatibility not independently confirmed. | [Tokyo Mods](https://tokyomods.com/vortex-x10-ecu-yamaha-yz450f-2026/) | medium |
 | FMF | Titanium Kick Shield | 040691 | Heat/kick protection for the header; no claim captured. | Fitment string is in the product name on the maker listing. | [FMF](https://www.fmfracing.com/collections/all/yamaha-yz250f-2024) | high |
 
 ## Dealer and retailer listings for this bike
 
 Merged across sellers by brand and part number (or brand and name). Lings is a UK dealer (GBP prices, EU-market models).
+
+### Accessories (2)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Yamaha Genuine Accessories | Fork Seal Kit (One Fork) / WR250F, WR450F, YZ125, YZ125X, YZ250, YZ250F - See Description For Model  | BDB-W003B-00-00 | 57.27 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-bdb-w003b-00-00-fork-seal-kit-one-fork) |
+| Yamaha Genuine Accessories | Performance Airbox Kit / YZ450F | D03-E41E0-V0-00 | 122.78 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-d03-e41e0-v0-00-yz450f-performance-airbox-kit) |
 
 ### Air & Fuel (9)
 
@@ -275,6 +270,18 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | MotoSport | MotoSport Racer Series Backgrounds - Yamaha |  | 49.99 USD | [MotoSport](https://www.motosport.com/motosport-racer-series-backgrounds-yamaha) |
 | MotoSport | MotoSport Standard Series Backgrounds - Yamaha |  | 39.99 USD | [MotoSport](https://www.motosport.com/motosport-standard-series-backgrounds-yamaha) |
 
+### Gytr (7)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Yamaha GYTR | GYTR YZ/WR Chain Guide / WR250F, WR450F, YZ125, YZ125X, YZ250, YZ250F - See Description For Model Ap | 17D-F21E0-V1-00 | 98.96 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-f21e0-v1-00-gytr-yz-wr-chain-guide) |
+| Yamaha GYTR | Gytr 25MM Axle Accent Kit / WR250F, WR450F, YZ125, YZ125X, YZ250, YZ250F - See Description For Model | D03-E51F0-V0-00 | 209.99 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-d03-e51f0-v0-00-gytr-25mm-axle-accent-kit) |
+| Yamaha GYTR | Gytr Air Filter / WR250F, WR450F, YZ250F, YZ250F 70th Anniversary Edition - See Description For Mode | BHR-E41C0-V0-00 | 31.10 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-bhr-e41c0-v0-00-gytr-air-filter) |
+| Yamaha GYTR | Gytr Billet Clutch Cover / WR450F, YZ450F, YZ450F 70th Anniversary Edition - See Description For Mod | BHR-E54E0-V0-00 | 199.99 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-bhr-e54e0-v0-00-gytr-billet-clutch-cover) |
+| Yamaha GYTR | Gytr Billet Ignition Cover / WR450F, YZ450F, YZ450FX - See Description For Model Application | BHR-E54G0-V0-00 | 309.99 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-bhr-e54g0-v0-00-gytr-billet-ignition-cover) |
+| Yamaha GYTR | Gytr Radiator Guard / WR250F, WR450F, YZ250F, YZ250FX, YZ450F, YZ450FX - See Description For Model A | BNL-E24D0-V0-00 | 234.52 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-bnl-e24d0-v0-00-gytr-radiator-guard) |
+| Yamaha GYTR | Gytr WR450F Competition Kit / WR450F | BNK-E9500-V0-00 | 209.99 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-bnk-e9500-v0-00-gytr-wr450f-competition-kit) |
+
 ### Handlebars & Controls (5)
 
 | Brand | Part | Part numbers | Price | Sellers |
@@ -284,6 +291,14 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Flo Motorsports | Flo Motorsports Pro 160 Brake Lever Yamaha / Kawasaki 125cc-450cc 2007-2027 | BL-714, BL-714B, BL-714G | 87.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-pro-160-brake-lever-yamaha-kawasaki-125cc-450cc-2007-2022) |
 | Polisport | Polisport APT Unbreakable Lever Kit Yamaha 125cc-450cc 2009-2027 | 91580 | 41.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-apt-unbreakable-lever-kit-yamaha-125cc-450cc-2009-2025) |
 | Zeta | Zeta Pivot Brake Lever Yamaha / Kawasaki 125cc-450cc | ZE41-3265 | 106.34 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-pivot-brake-lever-yamaha-kawasaki-125cc-450cc) |
+
+### Hard Parts (3)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Yamaha Genuine Accessories | Aluminum Stand / WR250F, WR400F, WR450F, YZ125, YZ125X, YZ250, YZ250F - See Description For Model Ap | QBY-ACC56-35-02 | 182.19 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-qby-acc56-35-02-a2-aluminum-stand) |
+| Yamaha Genuine Accessories | Lift Stand / WR250F, WR400F, WR450F, YZ125, YZ125X, YZ250, YZ250F, YZ250FX - See Description For Mod | QBY-ACC56-35-01 | 190.41 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-qby-acc56-35-01-ls1-lift-stand) |
+| Yamaha Genuine Accessories | Steel Stand / WR250F, WR400F, WR450F, YZ125, YZ125X, YZ250, YZ250F, YZ250FX - See Description For Mo | QBY-ACC56-35-00 | 111.23 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-qby-acc56-35-00-c2-steel-stand) |
 
 ### Intake (4)
 
@@ -423,7 +438,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Controls 521, Lights And Electrical 381, Uncategorised 318, Handlebars & Controls 207, Tires 198, Body 189, Tools And Maintenance 173, Exhaust 171, Graphics 161, Chain & Sprocket 134, Engine 127, Drive 125, Luggage And Racks 106, Suspension 106, Brakes 84, Wheels And Rims 72, Vehicle Communication 60, Fuel System 56, Accessories 48, Air & Fuel 44, Batteries & Electrical 37, Gauges 34, Utv / Atv Parts 32, Bike Protection 30, Lighting 29, Skid Plates And Guards 23, Riding Gear 18, Farming And Hunting 13, Intake 7, Drive & Transmission 7, Body & Fairing 6, Filters 5, Helmets 3, Winch And Plow 2, Tire Accessories 1
+Controls 521, Lights And Electrical 381, Uncategorised 318, Handlebars & Controls 207, Tires 198, Body 189, Tools And Maintenance 173, Exhaust 171, Graphics 161, Chain & Sprocket 134, Engine 127, Drive 125, Suspension 106, Luggage And Racks 106, Brakes 84, Wheels And Rims 72, Vehicle Communication 60, Fuel System 56, Accessories 48, Air & Fuel 44, Batteries & Electrical 37, Gauges 34, Utv / Atv Parts 32, Bike Protection 30, Lighting 29, Skid Plates And Guards 23, Riding Gear 18, Farming And Hunting 13, Drive & Transmission 7, Intake 7, Body & Fairing 6, Filters 5, Helmets 3, Winch And Plow 2, Tire Accessories 1
 
-Top brands: Acerbis 142, Pro Taper 122, Motion Pro 115, Cycra 114, Rugged Radios 105, Turner Performance Products 96, Factory Effex 83, ODI 82, Renthal 80, RAM Mounts 74, D'COR Visuals 65, RFX 63, Trail Tech 61, DRC 56, Bolt 54, Quad Lock 53, Fire Power 53, Bolt Hardware 52, SP Connect 51, Kriega 44, KTM PowerParts 43, Moose Racing 42, Namz Custom Cycle 40, Zeta 40, Polisport 38
+Top brands: Acerbis 142, Pro Taper 122, Motion Pro 115, Cycra 114, Rugged Radios 105, Turner Performance Products 96, Factory Effex 83, ODI 82, Renthal 80, RAM Mounts 74, D'COR Visuals 65, RFX 63, Trail Tech 61, DRC 56, Bolt 54, Quad Lock 53, Fire Power 53, Bolt Hardware 52, SP Connect 51, Kriega 44, KTM PowerParts 43, Moose Racing 42, Zeta 40, Namz Custom Cycle 40, Polisport 38
 

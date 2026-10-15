@@ -9,13 +9,13 @@
 | Ride Engineering | Full Performance linkage (KTM/GasGas, 2024.5 FE and 2025+) |  | More linear damping curve for balance and less pitching under braking and acceleration. | No part number; fitment from magazine test, not RE fitment page. 2026-2027 not stated. | [Ride Engineering (price via MXA)](https://www.ride-engineering.com) | medium |
 | Scotts Performance (BRP mount) | Scotts steering stabilizer with metal SUB (under-bar) mount kit, KTM/Husky 23-25, GasGas 24-25 | SCO-DS-SUB-6125-01 (Shock Treatment SKU; appears to follow Scotts DS-xxxx-01 numbering) | Adds adjustable steering damping (head-shake control); SUB mount converts rubber-mounted bars to solid and raises bars ~24 mm (11-25 mm by model) with two fore-aft positions; Upshift listing notes 3 m | 2026-2027 fitment not listed. Bar height change may need a lower bend. | [Shock Treatment (AU)](https://www.shocktreatment.com.au/ktm-husky-23-25-gas-gas-24-25-metal-sub-kit) | medium |
 | Bullet Proof Designs | Bullet Proof Designs Radiator Braces/Guards, KTM/Husqvarna/GasGas |  | 6061 billet frame-mounted guards; claims no adverse effect on airflow and compatible with fan kits. | A single SKU across 2017-2026 is doubtful given the 2023 chassis change; AOMC listing is '17-23' (possible SKU KTM-RG-19, not verified). 85 SX not covered. | [Dirt Bike Spec](https://dirtbikespec.com/product/bulletproof-designs-radiator-guards-ktm-husqvarna/) | unverified |
+| FMF | Gnarly pipe, KTM/Husqvarna/GasGas 250/300 TBI | 025289 | FMF claim: more low-rpm horsepower and torque, a 4-stroke-like bottom end. Weight listed as 5.7 lb. | FMF declares it a 'replacement part'; no install instructions posted. | [FMF Racing](https://www.fmfracing.com/products/gnarly-025289) | high |
+| FMF | Factory Fatty pipe + PowerCore 2.1 silencer (2023 KTM 250/300 SX TBI application) | 025290 | FMF: modeled on cone-style factory 'works' pipes; broadens and smooths the power curve with claimed gains in low-end, midrange and over-rev. 20-gauge body, 19-gauge header, hand-pounded seams, O-rings | Part number covers the pipe only; the PowerCore 2.1 silencer part number is still unconfirmed. Sold out on FMF at capture. FMF page also lists enduro XC-W/TE/EC | [FMF Racing (MXA-quoted pricing)](https://motocrossactionmag.com/mxa-team-tested-fmf-2023-ktm-250-300sx-pipe-silencer) | high |
+| FMF | PowerCore 2.1 silencer, 250/300 TBI | 025294 | FMF claim: smooth power curve, larger canister for longer packing life, lighter than stock. MXA (2023 TC250, silencer only): less bottom snap, more mid/top. | Sold out on FMF site 2026-10-14. FMF lists TC 300 for 2025 only (pipe 025290 lists 2025 and 2027). | [FMF Racing](https://www.fmfracing.com/products/powercore-2-1-025294) | high |
 | FMF | Factory Fatty pipe, KTM/Husqvarna/GasGas 250/300 TBI | 025290 | FMF claim: broader, smoother power curve with more low end, midrange and over-rev. MXA 2023 dyno (pass-1 item fmf-factory-fatty-tbi-2023): 2023 KTM 300 SX 54.96 hp to 58.08 hp peak with PowerCore 2.1, | Resolves pass-1 gap: this is the part number for the Factory Fatty in pass-1 fmf-factory-fatty-tbi-2023. Sold out on FMF site 2026-10-14. FMF also lists TE/XC-W | [FMF Racing](https://www.fmfracing.com/products/factory-fatty-025290) | high |
 | FMF | Fatty pipe (Gold Series), KTM/Husqvarna/GasGas 250/300 TBI | 025288 | FMF: broadens and smooths power with more low-end, midrange and over-rev, better tractability; Tru-Flo stamped; works with FMF or stock silencer; 5.0 lbs. | Enduro fitments (XC-W/TE/EC) also listed, out of scope. | [FMF Racing (manufacturer)](https://www.fmfracing.com/products/fatty-025288) | high |
-| FMF | Gnarly pipe, KTM/Husqvarna/GasGas 250/300 TBI | 025289 | FMF claim: more low-rpm horsepower and torque, a 4-stroke-like bottom end. Weight listed as 5.7 lb. | FMF declares it a 'replacement part'; no install instructions posted. | [FMF Racing](https://www.fmfracing.com/products/gnarly-025289) | high |
-| FMF | PowerCore 2.1 silencer, 250/300 TBI | 025294 | FMF claim: smooth power curve, larger canister for longer packing life, lighter than stock. MXA (2023 TC250, silencer only): less bottom snap, more mid/top. | Sold out on FMF site 2026-10-14. FMF lists TC 300 for 2025 only (pipe 025290 lists 2025 and 2027). | [FMF Racing](https://www.fmfracing.com/products/powercore-2-1-025294) | high |
-| FMF | Factory Fatty pipe + PowerCore 2.1 silencer (2023 KTM 250/300 SX TBI application) | 025290 | FMF: modeled on cone-style factory 'works' pipes; broadens and smooths the power curve with claimed gains in low-end, midrange and over-rev. 20-gauge body, 19-gauge header, hand-pounded seams, O-rings | Part number covers the pipe only; the PowerCore 2.1 silencer part number is still unconfirmed. Sold out on FMF at capture. FMF page also lists enduro XC-W/TE/EC | [FMF Racing (MXA-quoted pricing)](https://motocrossactionmag.com/mxa-team-tested-fmf-2023-ktm-250-300sx-pipe-silencer) | high |
-| Pro Circuit | R-304 silencer, KTM/Husqvarna/GasGas 250-300 2023-2027 | Cycle Gear item P1046383 (retailer number; Pro Circuit MPN not shown) | Pro Circuit claim: short full-race canister, less back pressure, sharper throttle response and more low-to-mid power. | Pass 1 (MXA, 2024) said no PC silencer was available for the TBI bikes; this listing shows one now. Retailer fitment list is truncated. | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-r-304-silencer-ktm-husqvarna-gas-gas-250cc-300cc-2023-2024) | medium |
 | Pro Circuit | 304 silencer, KTM/Husqvarna/GasGas 250-300 2023-2027 | Cycle Gear item P1046385 (retailer number) | Pro Circuit claim: more top-end power and lower noise than the R-304. | Pro Circuit MPN not shown. | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-304-silencer-ktm-husqvarna-gas-gas-250cc-300cc-2023-2024) | medium |
+| Pro Circuit | R-304 silencer, KTM/Husqvarna/GasGas 250-300 2023-2027 | Cycle Gear item P1046383 (retailer number; Pro Circuit MPN not shown) | Pro Circuit claim: short full-race canister, less back pressure, sharper throttle response and more low-to-mid power. | Pass 1 (MXA, 2024) said no PC silencer was available for the TBI bikes; this listing shows one now. Retailer fitment list is truncated. | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-r-304-silencer-ktm-husqvarna-gas-gas-250cc-300cc-2023-2024) | medium |
 | Twin Air | Powerflow Kit GasGas/Husqvarna/KTM 125cc-450cc 2023-2027 |  | High-flow intake kit developed with race teams (no figures). | Price unclear on the page (~$199.45 in structured data). Part number not captured. | [RevZilla](https://www.revzilla.com/motorcycle/twin-air-powerflow-kit-gas-gashusqvarnaktm-125cc-450cc-2023-2024) | unverified |
 | Acerbis | Linear front disc cover (KTM/Husqvarna/GasGas/Stark), max disc 280 mm | AC-26107BK (black; Bikeman JP code, 'AC-' likely retailer prefix), AC-26107OR16 (orange) and AC-26107WH (white) from Bikeman URLs | Protects disc, left fork bottom and caliper; vented; mounts on the axle nut with no extra mount kit. | Max disc 280 mm, so it should clear a 270 mm oversize kit (inference, not stated). Acerbis catalogue number not confirmed. | [Slavens Racing](https://slavensracing.com/shop/linear-disc-guard-for-ktm-hqv-gg-stark-by-acerbis/) | medium |
 | KTM PowerParts | Radiator Protection | A46035036044AB, A46035036044XX | Radiator guard. | The 'XX' suffix is an AOMC URL placeholder; actual colour-suffix numbers are not captured. | [AOMC (US)](https://aomc.mx/KTM-SX-F-Clutch-Cover-Protection-23-25-A48030994144.html) | unverified |
@@ -33,32 +33,32 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
 | GasGas Technical Accessories | AIR FILTER WATER PROTECTION | A46006921000 | 14.46 GBP | [Lings](https://lings.com/products/gasgas-air-filter-water-protection-1) |
+| GasGas Technical Accessories | Auxiliary Wiring Harness | 77711979044 | 31.68 GBP | [Lings](https://lings.com/products/gasgas-auxiliary-wiring-harness-2) |
 | GasGas Technical Accessories | Auxiliary Wiring Harness | 77711979010 | 8.10 GBP | [Lings](https://lings.com/products/gasgas-auxiliary-wiring-harness-1) |
 | GasGas Technical Accessories | Auxiliary Wiring Harness | 77711979000 | 14.46 GBP | [Lings](https://lings.com/products/gasgas-auxiliary-wiring-harness) |
-| GasGas Technical Accessories | Auxiliary Wiring Harness | 77711979044 | 31.68 GBP | [Lings](https://lings.com/products/gasgas-auxiliary-wiring-harness-2) |
-| GasGas Technical Accessories | BATTERY CHARGING AND TESTING UNIT | A61029974244 | 226.44 GBP | [Lings](https://lings.com/products/gasgas-battery-charging-and-testing-unit-1) |
 | GasGas Technical Accessories | BATTERY CHARGING AND TESTING UNIT | A61029974000 | 217.38 GBP | [Lings](https://lings.com/products/gasgas-battery-charging-and-testing-unit-2) |
+| GasGas Technical Accessories | BATTERY CHARGING AND TESTING UNIT | A61029974244 | 226.44 GBP | [Lings](https://lings.com/products/gasgas-battery-charging-and-testing-unit-1) |
 | GasGas Technical Accessories | Bike Stand | 79129955000BJC | 126.00 GBP | [Lings](https://lings.com/products/gasgas-bike-stand) |
 | GasGas Technical Accessories | Bleeder Valve | 79101900100 | 16.26 GBP | [Lings](https://lings.com/products/gasgas-bleeder-valve-1) |
 | GasGas Technical Accessories | Brake Caliper Protection | 77713975120 | 89.70 GBP | [Lings](https://lings.com/products/gasgas-brake-caliper-protection) |
 | GasGas Technical Accessories | Brake Disc Guard | 79109961000 | 68.04 GBP | [Lings](https://lings.com/products/gasgas-brake-disc-guard) |
-| GasGas Technical Accessories | Brake Pads | 54813990200 | 36.24 GBP | [Lings](https://lings.com/products/gasgas-brake-pads-1) |
-| GasGas Technical Accessories | Brake Pads | 59013930100 | 27.12 GBP | [Lings](https://lings.com/products/gasgas-brake-pads-2) |
 | GasGas Technical Accessories | Brake Pads | 59013930200 | 36.24 GBP | [Lings](https://lings.com/products/gasgas-brake-pads-3) |
+| GasGas Technical Accessories | Brake Pads | 54813990200 | 36.24 GBP | [Lings](https://lings.com/products/gasgas-brake-pads-1) |
 | GasGas Technical Accessories | Brake Pads | 54813990100 | 27.12 GBP | [Lings](https://lings.com/products/gasgas-brake-pads) |
+| GasGas Technical Accessories | Brake Pads | 59013930100 | 27.12 GBP | [Lings](https://lings.com/products/gasgas-brake-pads-2) |
 | GasGas Technical Accessories | C Spanner | 77719910100 | 27.12 GBP | [Lings](https://lings.com/products/gasgas-c-spanner) |
 | GasGas Technical Accessories | CLUTCH LEVER | A54002931044FAA | 72.42 GBP | [Lings](https://lings.com/products/gasgas-clutch-lever-1) |
 | GasGas Technical Accessories | CLUTCH SLAVE CYLINDER PROTECTION | A44032975044FAA | 49.74 GBP | [Lings](https://lings.com/products/gasgas-clutch-slave-cylinder-protection) |
 | GasGas Technical Accessories | COMBINATION SWITCH | A44039974044 | 107.88 GBP | [Lings](https://lings.com/products/gasgas-combination-switch-2) |
-| GasGas Technical Accessories | Chain | 50310165118 | 77.04 GBP | [Lings](https://lings.com/products/gasgas-chain-1) |
 | GasGas Technical Accessories | Chain | 78910065118 | 92.10 GBP | [Lings](https://lings.com/products/gasgas-chain) |
+| GasGas Technical Accessories | Chain | 50310165118 | 77.04 GBP | [Lings](https://lings.com/products/gasgas-chain-1) |
 | GasGas Technical Accessories | Chain Breaker | 57929020000 | 48.12 GBP | [Lings](https://lings.com/products/gasgas-chain-breaker) |
 | GasGas Technical Accessories | Crash Bung Kit | A46009945000 | 45.30 GBP | [Lings](https://lings.com/products/gasgas-crash-bung-kit-1) |
 | GasGas Technical Accessories | DIRT SCRAPER | A49001997000 | 31.68 GBP | [Lings](https://lings.com/products/gasgas-dirt-scraper) |
 | GasGas Technical Accessories | ENGINE BRACE SET | A42003912044C1 | 67.92 GBP | [Lings](https://lings.com/products/gasgas-engine-brace-set-1) |
 | GasGas Technical Accessories | EXPANSION CHAMBER GUARD | A44005994000 | 180.36 GBP | [Lings](https://lings.com/products/gasgas-expansion-chamber-guard-1) |
-| GasGas Technical Accessories | FACTORY RACING CHAIN GUIDE | A46004970044 | 243.78 GBP | [Lings](https://lings.com/products/gasgas-factory-racing-chain-guide-2) |
 | GasGas Technical Accessories | FACTORY RACING CHAIN GUIDE | A39004970000FB | 117.78 GBP | [Lings](https://lings.com/products/gasgas-factory-racing-chain-guide-1) |
+| GasGas Technical Accessories | FACTORY RACING CHAIN GUIDE | A46004970044 | 243.78 GBP | [Lings](https://lings.com/products/gasgas-factory-racing-chain-guide-2) |
 | GasGas Technical Accessories | FACTORY RACING FRAME PROTECTION SET | A59003994000FB1 | 44.46 GBP | [Lings](https://lings.com/products/gasgas-factory-racing-frame-protection-set) |
 | GasGas Technical Accessories | FACTORY RACING SEAT COVER | A54107940050FBA | 65.22 GBP | [Lings](https://lings.com/products/gasgas-factory-racing-seat-cover-2) |
 | GasGas Technical Accessories | FACTORY SEAT COVER | A59007040050FBA | 65.22 GBP | [Lings](https://lings.com/products/gasgas-factory-seat-cover) |
@@ -72,11 +72,11 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | GasGas Technical Accessories | FUEL TANK FAIRING | A59008030000FB | 18.12 GBP | [Lings](https://lings.com/products/gasgas-fuel-tank-fairing) |
 | GasGas Technical Accessories | Factory Fuel Cap Vent | A54007930000C1 | 9.00 GBP | [Lings](https://lings.com/products/gasgas-factory-fuel-cap-vent) |
 | GasGas Technical Accessories | Factory Racing Brake Disc Guard | 79109961100 | 180.36 GBP | [Lings](https://lings.com/products/gasgas-factory-racing-brake-disc-guard) |
-| GasGas Technical Accessories | Factory Racing Handguard Kit | A42002979000FB1 | 44.46 GBP | [Lings](https://lings.com/products/gasgas-factory-racing-handguard-kit) |
-| GasGas Technical Accessories | Factory Racing Handguard Kit | A42002979000AB | 44.46 GBP | [Lings](https://lings.com/products/gasgas-factory-racing-handguard-kit-2) |
 | GasGas Technical Accessories | Factory Racing Handguard Kit | A42002979000C1 | 44.46 GBP | [Lings](https://lings.com/products/gasgas-factory-racing-handguard-kit-3) |
-| GasGas Technical Accessories | Factory Start Device | A54001996000FAA | 89.70 GBP | [Lings](https://lings.com/products/gasgas-factory-start-device-3) |
+| GasGas Technical Accessories | Factory Racing Handguard Kit | A42002979000AB | 44.46 GBP | [Lings](https://lings.com/products/gasgas-factory-racing-handguard-kit-2) |
+| GasGas Technical Accessories | Factory Racing Handguard Kit | A42002979000FB1 | 44.46 GBP | [Lings](https://lings.com/products/gasgas-factory-racing-handguard-kit) |
 | GasGas Technical Accessories | Factory Start Device | A54001996500FAA | 89.70 GBP | [Lings](https://lings.com/products/gasgas-factory-start-device-2) |
+| GasGas Technical Accessories | Factory Start Device | A54001996000FAA | 89.70 GBP | [Lings](https://lings.com/products/gasgas-factory-start-device-3) |
 | GasGas Technical Accessories | First Aid Kit | 60412002200 | 14.46 GBP | [Lings](https://lings.com/products/gasgas-first-aid-kit) |
 | GasGas Technical Accessories | Foam Rubber | 59003990250 | 9.00 GBP | [Lings](https://lings.com/products/gasgas-foam-rubber-1) |
 | GasGas Technical Accessories | Foam Rubber | 54835980000 | 8.10 GBP | [Lings](https://lings.com/products/gasgas-foam-rubber-2) |
@@ -94,13 +94,13 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | GasGas Technical Accessories | HINSON Clutch Pressure Plate | 79432903000 | 261.90 GBP | [Lings](https://lings.com/products/gasgas-hinson-clutch-pressure-plate) |
 | GasGas Technical Accessories | HINSON-OUTER CLUTCH COVER | A59030926000 | 207.54 GBP | [Lings](https://lings.com/products/gasgas-hinson-outer-clutch-cover-2) |
 | GasGas Technical Accessories | Handguard Bushing Kit | 79702988044 | 18.12 GBP | [Lings](https://lings.com/products/gasgas-handguard-bushing-kit) |
-| GasGas Technical Accessories | Handguard Kit | 7970300000000 | 126.00 GBP | [Lings](https://lings.com/products/gasgas-handguard-kit-6) |
-| GasGas Technical Accessories | Handguard Kit | 6030220000000 | 58.92 GBP | [Lings](https://lings.com/products/gasgas-handguard-kit-3) |
-| GasGas Technical Accessories | Handguard Kit | 78002079200AB | 53.52 GBP | [Lings](https://lings.com/products/gasgas-handguard-kit) |
-| GasGas Technical Accessories | Handguard Kit | 79702979000AB | 126.00 GBP | [Lings](https://lings.com/products/gasgas-handguard-kit-5) |
 | GasGas Technical Accessories | Handguard Kit | 79702979000FB1 | 126.00 GBP | [Lings](https://lings.com/products/gasgas-handguard-kit-4) |
-| GasGas Technical Accessories | Handguard Kit | 60302179100AB | 58.92 GBP | [Lings](https://lings.com/products/gasgas-handguard-kit-1) |
+| GasGas Technical Accessories | Handguard Kit | 7970300000000 | 126.00 GBP | [Lings](https://lings.com/products/gasgas-handguard-kit-6) |
+| GasGas Technical Accessories | Handguard Kit | 78002079200AB | 53.52 GBP | [Lings](https://lings.com/products/gasgas-handguard-kit) |
 | GasGas Technical Accessories | Handguard Kit | 7800210000000 | 53.52 GBP | [Lings](https://lings.com/products/gasgas-handguard-kit-2) |
+| GasGas Technical Accessories | Handguard Kit | 79702979000AB | 126.00 GBP | [Lings](https://lings.com/products/gasgas-handguard-kit-5) |
+| GasGas Technical Accessories | Handguard Kit | 60302179100AB | 58.92 GBP | [Lings](https://lings.com/products/gasgas-handguard-kit-1) |
+| GasGas Technical Accessories | Handguard Kit | 6030220000000 | 58.92 GBP | [Lings](https://lings.com/products/gasgas-handguard-kit-3) |
 | GasGas Technical Accessories | Handlebar Ends | 54802005000FAA | 14.46 GBP | [Lings](https://lings.com/products/gasgas-handlebar-ends) |
 | GasGas Technical Accessories | Hourmeter | A54012920000 | 62.58 GBP | [Lings](https://lings.com/products/gasgas-hourmeter) |
 | GasGas Technical Accessories | Lift Stand | A54029955100 | 77.04 GBP | [Lings](https://lings.com/products/gasgas-lift-stand) |
@@ -121,8 +121,8 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | GasGas Technical Accessories | RADIATOR PROTECTION SLEEVE | A46035935000 | 34.38 GBP | [Lings](https://lings.com/products/gasgas-radiator-protection-sleeve-1) |
 | GasGas Technical Accessories | Rear Brake Safety Wire | 54812063044 | 9.00 GBP | [Lings](https://lings.com/products/gasgas-rear-brake-safety-wire) |
 | GasGas Technical Accessories | Rear Sprocket | 58210951042, 58210951045, 58210951048, 58210951049, 58210951050, 58210951051, 58210951052 | 27.12 GBP | [Lings](https://lings.com/products/gasgas-rear-sprocket) |
-| GasGas Technical Accessories | Renthal GP Sprocket | A4601095049FA, A46010951044FA, A46010951045FA, A46010951046FA, A46010951047FA, A46010951048FA, A46010951050FA, A46010951 | 63.36 GBP | [Lings](https://lings.com/products/gasgas-renthal-gp-sprocket-1) |
 | GasGas Technical Accessories | Renthal GP Sprocket | A46010951044C1, A46010951045C1, A46010951046C1, A46010951047C1, A46010951048C1, A46010951049C1, A46010951050C1, A4601095 | 63.36 GBP | [Lings](https://lings.com/products/gasgas-renthal-gp-sprocket) |
+| GasGas Technical Accessories | Renthal GP Sprocket | A4601095049FA, A46010951044FA, A46010951045FA, A46010951046FA, A46010951047FA, A46010951048FA, A46010951050FA, A46010951 | 63.36 GBP | [Lings](https://lings.com/products/gasgas-renthal-gp-sprocket-1) |
 | GasGas Technical Accessories | Renthal Twinwall Handlebar | 79502901000C1 | 181.20 GBP | [Lings](https://lings.com/products/gasgas-renthal-twinwall-handlebar) |
 | GasGas Technical Accessories | SAG Scale | 29090200 | 49.86 GBP | [Lings](https://lings.com/products/gasgas-sag-scale) |
 | GasGas Technical Accessories | SEAT | A59007940000 | 135.06 GBP | [Lings](https://lings.com/products/gasgas-seat-2) |
@@ -137,15 +137,15 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | GasGas Technical Accessories | Smartphone Universal Adaptor | 61712991000 | 21.66 GBP | [Lings](https://lings.com/products/gasgas-smartphone-universal-adaptor) |
 | GasGas Technical Accessories | Spoke Wrench | 77212991100 | 14.46 GBP | [Lings](https://lings.com/products/gasgas-spoke-wrench) |
 | GasGas Technical Accessories | Spring Hook | 50305017000C1 | 12.66 GBP | [Lings](https://lings.com/products/gasgas-spring-hook) |
-| GasGas Technical Accessories | Start Numbers | 322200, 322201, 322202, 322203, 322204, 322205, 322207, 322208, 322209 | 2.70 GBP | [Lings](https://lings.com/products/gasgas-start-numbers) |
 | GasGas Technical Accessories | Start Numbers | 322100, 322101, 322102, 322103, 322104, 322105, 322106, 322107, 322108, 322109 | 2.70 GBP | [Lings](https://lings.com/products/gasgas-start-numbers-1) |
+| GasGas Technical Accessories | Start Numbers | 322200, 322201, 322202, 322203, 322204, 322205, 322207, 322208, 322209 | 2.70 GBP | [Lings](https://lings.com/products/gasgas-start-numbers) |
 | GasGas Technical Accessories | Sticker Sheet | 52000347 | 13.14 GBP | [Lings](https://lings.com/products/gasgas-sticker-sheet) |
 | GasGas Technical Accessories | Supersprox Stealth Rear Sprocket | 58410051044FA, 58410051045FA, 58410051046FA, 58410051047FA, 58410051048FA, 58410051049FA, 58410051050FA, 58410051051FA,  | 62.58 GBP | [Lings](https://lings.com/products/gasgas-supersprox-stealth-rear-sprocket) |
 | GasGas Technical Accessories | Supporting Strap | 78712916000 | 14.46 GBP | [Lings](https://lings.com/products/gasgas-supporting-strap) |
 | GasGas Technical Accessories | Tachometer/Hourmeter | A54012920100 | 62.58 GBP | [Lings](https://lings.com/products/gasgas-tachometer-hourmeter) |
 | GasGas Technical Accessories | Tie Down Set | A54012950000 | 44.46 GBP | [Lings](https://lings.com/products/gasgas-tie-down-set) |
-| GasGas Technical Accessories | Tyre Lever | 51012093100 | 16.26 GBP | [Lings](https://lings.com/products/gasgas-tyre-lever) |
 | GasGas Technical Accessories | Tyre Lever | 51012092100 | 13.56 GBP | [Lings](https://lings.com/products/gasgas-tyre-lever-1) |
+| GasGas Technical Accessories | Tyre Lever | 51012093100 | 16.26 GBP | [Lings](https://lings.com/products/gasgas-tyre-lever) |
 | GasGas Technical Accessories | Tyre Lever Set | 10000353 | 77.04 GBP | [Lings](https://lings.com/products/gasgas-tyre-lever-set) |
 | GasGas Technical Accessories | Valve Cap | 48601627 | 4.80 GBP | [Lings](https://lings.com/products/gasgas-valve-cap) |
 | GasGas Technical Accessories | Valve Cap Set | 77710976050FA | 14.46 GBP | [Lings](https://lings.com/products/gasgas-valve-cap-set) |
@@ -154,10 +154,10 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | GasGas Technical Accessories | WHEEL RIM STICKER KIT | A54109998000 | 27.12 GBP | [Lings](https://lings.com/products/gasgas-wheel-rim-sticker-kit) |
 | GasGas Technical Accessories | Wave Brake Disc | 25010960000 | 89.70 GBP | [Lings](https://lings.com/products/gasgas-wave-brake-disc) |
 | GasGas Technical Accessories | Wire Pliers | 29015100 | 53.52 GBP | [Lings](https://lings.com/products/gasgas-wire-pliers) |
-| GasGas Technical Accessories | Wrap Around Handguard Kit | 79102979000AB | 58.92 GBP | [Lings](https://lings.com/products/gasgas-wrap-around-handguard-kit-4) |
 | GasGas Technical Accessories | Wrap Around Handguard Kit | 79702984044 | 89.70 GBP | [Lings](https://lings.com/products/gasgas-wrap-around-handguard-kit-1) |
-| GasGas Technical Accessories | Wrap Around Handguard Kit | 79102984000 | 53.52 GBP | [Lings](https://lings.com/products/gasgas-wrap-around-handguard-kit) |
+| GasGas Technical Accessories | Wrap Around Handguard Kit | 79102979000AB | 58.92 GBP | [Lings](https://lings.com/products/gasgas-wrap-around-handguard-kit-4) |
 | GasGas Technical Accessories | Wrap Around Handguard Kit | 7910300000000 | 58.92 GBP | [Lings](https://lings.com/products/gasgas-wrap-around-handguard-kit-5) |
+| GasGas Technical Accessories | Wrap Around Handguard Kit | 79102984000 | 53.52 GBP | [Lings](https://lings.com/products/gasgas-wrap-around-handguard-kit) |
 | GasGas Technical Accessories | Wrap Around Handguard Kit | 79102979000FB1 | 58.92 GBP | [Lings](https://lings.com/products/gasgas-wrap-around-handguard-kit-3) |
 | GasGas Technical Accessories | X-Ring Chain | 78010267118 | 92.10 GBP | [Lings](https://lings.com/products/gasgas-x-ring-chain) |
 
@@ -427,7 +427,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Uncategorised 358, Handlebars & Controls 242, Chain & Sprocket 143, Exhaust 91, Air & Fuel 49, Gauges 38, Batteries & Electrical 38, Lighting 37, Utv / Atv Parts 33, Bike Protection 29, Suspension 24, Body & Fairing 7, Drive & Transmission 7, Filters 5, Tire Accessories 1, Brakes 1
+Uncategorised 358, Handlebars & Controls 242, Chain & Sprocket 143, Exhaust 91, Air & Fuel 49, Gauges 38, Batteries & Electrical 38, Lighting 37, Utv / Atv Parts 33, Bike Protection 29, Suspension 24, Drive & Transmission 7, Body & Fairing 7, Filters 5, Brakes 1, Tire Accessories 1
 
-Top brands: Pro Taper 71, Acerbis 59, Bolt Hardware 56, Moose Racing 55, Cycra 53, Renthal 47, Zeta 45, ODI 42, Fire Power 32, Barkbusters 31, Helix Racing Products 30, RK 30, RFX 29, Factory Effex 28, Namz 23, Motion Pro 22, FMF 22, K&N 21, EK Chain 21, Polisport 20, Koso 18, Motolis 18, Pro Grip 15, DID Chain 14, BikeMaster 13
+Top brands: Pro Taper 71, Acerbis 59, Bolt Hardware 56, Moose Racing 55, Cycra 53, Renthal 47, Zeta 45, ODI 42, Fire Power 32, Barkbusters 31, RK 30, Helix Racing Products 30, RFX 29, Factory Effex 28, Namz 23, Motion Pro 22, FMF 22, K&N 21, EK Chain 21, Polisport 20, Motolis 18, Koso 18, Pro Grip 15, DID Chain 14, BBR Motorsports 13
 

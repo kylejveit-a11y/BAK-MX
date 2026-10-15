@@ -99,8 +99,8 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
-| Triumph Genuine Accessories | Akrapovic Exhaust, Full System | A9601360 | 1668.60 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23365?catalogue=TF250-X&year=2026) |
 | Triumph Genuine Accessories | Akrapovic Exhaust, Full System | A9601349 | 1931.25 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23365?catalogue=TF250-X&year=2026) |
+| Triumph Genuine Accessories | Akrapovic Exhaust, Full System | A9601360 | 1668.60 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23365?catalogue=TF250-X&year=2026) |
 
 ### Protection (27)
 
@@ -164,7 +164,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Controls 459, Lights And Electrical 381, Uncategorised 333, Handlebars & Controls 244, Tires 189, Exhaust 176, Body 161, Graphics 160, Tools And Maintenance 159, Chain & Sprocket 131, Suspension 110, Luggage And Racks 106, Drive 95, Engine 76, Brakes 62, Vehicle Communication 60, Fuel System 54, Accessories 48, Wheels And Rims 45, Batteries & Electrical 38, Lighting 34, Gauges 33, Air & Fuel 32, Utv / Atv Parts 32, Bike Protection 31, Riding Gear 18, Farming And Hunting 13, Skid Plates And Guards 10, Body & Fairing 8, Drive & Transmission 5, Intake 5, Helmets 3, Filters 3, Winch And Plow 2, Tire Accessories 1
+Controls 459, Lights And Electrical 381, Uncategorised 333, Handlebars & Controls 244, Tires 189, Exhaust 176, Body 161, Graphics 160, Tools And Maintenance 159, Chain & Sprocket 131, Suspension 110, Luggage And Racks 106, Drive 95, Engine 76, Brakes 62, Vehicle Communication 60, Fuel System 54, Accessories 48, Wheels And Rims 45, Batteries & Electrical 38, Lighting 34, Gauges 33, Utv / Atv Parts 32, Air & Fuel 32, Bike Protection 31, Riding Gear 18, Farming And Hunting 13, Skid Plates And Guards 10, Body & Fairing 8, Drive & Transmission 5, Intake 5, Filters 3, Helmets 3, Winch And Plow 2, Tire Accessories 1
 
-Top brands: Acerbis 130, Pro Taper 126, Motion Pro 114, Cycra 111, Rugged Radios 105, ODI 87, Factory Effex 82, Renthal 81, RAM Mounts 74, Turner Performance Products 74, D'COR Visuals 65, Trail Tech 60, Fire Power 57, RFX 55, Moose Racing 54, DRC 54, Bolt 53, Quad Lock 53, SP Connect 51, Bolt Hardware 49, Zeta 45, Kriega 45, KTM PowerParts 43, Polisport 42, Namz Custom Cycle 40
+Top brands: Acerbis 130, Pro Taper 126, Motion Pro 114, Cycra 111, Rugged Radios 105, ODI 87, Factory Effex 82, Renthal 81, Turner Performance Products 74, RAM Mounts 74, D'COR Visuals 65, Trail Tech 60, Fire Power 57, RFX 55, Moose Racing 54, DRC 54, Quad Lock 53, Bolt 53, SP Connect 51, Bolt Hardware 49, Zeta 45, Kriega 45, KTM PowerParts 43, Polisport 42, Namz Custom Cycle 40
 

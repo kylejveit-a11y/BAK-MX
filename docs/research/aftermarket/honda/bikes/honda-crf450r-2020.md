@@ -7,8 +7,8 @@
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
 | Vortex | X10 ECU (fuel & ignition control) | ECU-8H2-450R | Dealer/Vortex claims: 10 preloaded maps, three trim switches (Lo/Mid/Hi throttle) +12.5% to -10% fuel, plug-in to stock harness; 'Power' settings for bottom-end response, 'Traction' settings for smoot | One SKU across 2017-2026 crosses the 2021 and 2025 platform changes; verify with Vortex/dealer. Software/interface not included. | [CRFsOnly (dealer)](https://www.crfsonly.com/catalog/product_info.php/products_id/7920) | medium |
-| Pro Circuit | T-6 Stainless Dual Slip-On, CRF450R '19-20 | 0111945A2 |  |  | [Pro Circuit (maker)](https://www.procircuit.com/t-6-slip-on-crf450r-19-20) | high |
 | Pro Circuit | Ti-6 Dual Titanium System w/ Carbon End Caps, CRF450R '19-20 | 0311945F2 |  | Dual-muffler 2019-2020 platform; 2021+ CRF450R is single-muffler. | [Pro Circuit (maker)](https://www.procircuit.com/ti-6-dual-crf450r-19-20) | high |
+| Pro Circuit | T-6 Stainless Dual Slip-On, CRF450R '19-20 | 0111945A2 |  |  | [Pro Circuit (maker)](https://www.procircuit.com/t-6-slip-on-crf450r-19-20) | high |
 
 ## Dealer and retailer listings for this bike
 
@@ -726,7 +726,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Controls 570, Lights And Electrical 386, Uncategorised 337, Handlebars & Controls 222, Body 206, Tires 198, Engine 184, Tools And Maintenance 171, Graphics 170, Exhaust 163, Chain & Sprocket 142, Suspension 141, Drive 126, Brakes 114, Luggage And Racks 106, Wheels And Rims 82, Vehicle Communication 60, Fuel System 57, Accessories 48, Air & Fuel 45, Batteries & Electrical 37, Gauges 35, Lighting 33, Utv / Atv Parts 33, Bike Protection 28, Skid Plates And Guards 25, Riding Gear 18, Farming And Hunting 13, Intake 7, Drive & Transmission 7, Body & Fairing 6, Filters 5, Helmets 3, Winch And Plow 2, Tire Accessories 1
+Controls 570, Lights And Electrical 386, Uncategorised 337, Handlebars & Controls 222, Body 206, Tires 198, Engine 184, Tools And Maintenance 171, Graphics 170, Exhaust 163, Chain & Sprocket 142, Suspension 141, Drive 126, Brakes 114, Luggage And Racks 106, Wheels And Rims 82, Vehicle Communication 60, Fuel System 57, Accessories 48, Air & Fuel 45, Batteries & Electrical 37, Gauges 35, Utv / Atv Parts 33, Lighting 33, Bike Protection 28, Skid Plates And Guards 25, Riding Gear 18, Farming And Hunting 13, Drive & Transmission 7, Intake 7, Body & Fairing 6, Filters 5, Helmets 3, Winch And Plow 2, Tire Accessories 1
 
-Top brands: Acerbis 151, Pro Taper 136, Turner Performance Products 131, Motion Pro 118, Cycra 109, Rugged Radios 105, ODI 84, Renthal 82, Factory Effex 81, RAM Mounts 74, D'COR Visuals 66, Trail Tech 65, DRC 59, RFX 56, Bolt Hardware 56, Bolt 55, Fire Power 54, Polisport 54, Quad Lock 53, Moose Racing 51, SP Connect 51, Kriega 45, Zeta 44, KTM PowerParts 43, Namz Custom Cycle 40
+Top brands: Acerbis 151, Pro Taper 136, Turner Performance Products 131, Motion Pro 118, Cycra 109, Rugged Radios 105, ODI 84, Renthal 82, Factory Effex 81, RAM Mounts 74, D'COR Visuals 66, Trail Tech 65, DRC 59, Bolt Hardware 56, RFX 56, Bolt 55, Fire Power 54, Polisport 54, Quad Lock 53, SP Connect 51, Moose Racing 51, Kriega 45, Zeta 44, KTM PowerParts 43, Namz Custom Cycle 40
 

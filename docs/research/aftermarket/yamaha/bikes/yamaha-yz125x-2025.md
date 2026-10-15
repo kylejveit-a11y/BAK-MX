@@ -1,14 +1,11 @@
 # Yamaha YZ125X 2025: aftermarket parts
 
-2816 listings whose stated fitment names this bike: 7 researched parts (with what they change and rider findings), 167 dealer and retailer listings specific to this bike, and 2642 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+2816 listings whose stated fitment names this bike: 4 researched parts (with what they change and rider findings), 170 dealer and retailer listings specific to this bike, and 2642 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
-| Yamaha GYTR | GYTR YZ/WR Chain Guide / WR250F, WR450F, YZ125, YZ125X, YZ250, YZ250F - See Description For Model Application | 17D-F21E0-V1-00 | Seller description: Yamaha 17D-F21E0-V1-00 - GYTR YZ/WR Chain Guide is a GYTR accessory. This GYTR chain guide is designed to minimize the risk of chain derailment or damage on select Yamaha YZ and WR | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-17d-f21e0-v1-00-gytr-yz-wr-chain-guide) | medium |
-| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25452-50-00 | Seller description: Yamaha 17D-25452-50-00 - Sprocket is a Yamaha Genuine accessory. This Yamaha Genuine sprocket is a direct replacement for the original sprocket on select YZ series off-road motorcy | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-17d-25452-50-00-sprocket) | medium |
-| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25448-50-00 | Seller description: Yamaha 17D-25448-50-00 - Sprocket is a Yamaha Genuine accessory. This Yamaha Genuine sprocket is a direct replacement for the original sprocket on select YZ series off-road motorcy | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-17d-25448-50-00-sprocket) | medium |
 | FMF | Fatty Gold Series Pipe | 024076 | FMF claims 'more low-end, more mid, and increased over-rev' and 'More tractable power, improved throttle control.' |  | [FMF](https://www.fmfracing.com/products/fatty-024076) | high |
 | Pro Circuit | R-304 Silencer | 1132212 | No claims on page. |  | [Pro Circuit](https://www.procircuit.com/r-304-yz125-22-23) | high |
 | Pro Circuit | Platinum Pipe | 0832212 | No claims on page. | 2022 YZ125 got a new cylinder/engine; separate pipes exist for 2005-2021 YZ125 (and 2020-2022 YZ125X). | [Pro Circuit](https://www.procircuit.com/platinum-pipe-yz125-22.html) | high |
@@ -197,6 +194,19 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Throttle Syndicate | Throttle Syndicate Flush Complete Kit - Yamaha | TS40-2000, TS40-2002, TS40-2004, TS40-2006, TS40-2008, TS40-2010, TS40-2012, TS40-2014, TS40-2016, TS40-2018, TS40-2020, | 119.99 USD | [MotoSport](https://www.motosport.com/throttle-syndicate-flush-complete-kit-yamaha) |
 | Throttle Syndicate | Throttle Syndicate Flush Shroud Kit - Yamaha | TS40-2001, TS40-2003, TS40-2005, TS40-2007, TS40-2009, TS40-2011, TS40-2013, TS40-2017, TS40-2021, TS40-2023, TS40-2025 | 69.99 USD | [MotoSport](https://www.motosport.com/throttle-syndicate-flush-shroud-kit-yamaha) |
 
+### Gytr (1)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Yamaha GYTR | GYTR YZ/WR Chain Guide / WR250F, WR450F, YZ125, YZ125X, YZ250, YZ250F - See Description For Model Ap | 17D-F21E0-V1-00 | 98.96 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-f21e0-v1-00-gytr-yz-wr-chain-guide) |
+
+### Hard Parts (2)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25448-50-00 | 82.83 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25448-50-00-sprocket) |
+| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25452-50-00 | 87.07 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25452-50-00-sprocket) |
+
 ### Intake (7)
 
 | Brand | Part | Part numbers | Price | Sellers |
@@ -257,7 +267,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Controls 542, Lights And Electrical 381, Tires 218, Body 194, Tools And Maintenance 171, Graphics 165, Engine 134, Drive 122, Suspension 113, Luggage And Racks 106, Exhaust 83, Brakes 82, Wheels And Rims 64, Vehicle Communication 60, Fuel System 54, Accessories 48, Skid Plates And Guards 26, Riding Gear 18, Farming And Hunting 13, Chain & Sprocket 12, Handlebars & Controls 9, Uncategorised 8, Intake 6, Batteries & Electrical 6, Helmets 3, Winch And Plow 2, Filters 1, Utv / Atv Parts 1
+Controls 542, Lights And Electrical 381, Tires 218, Body 194, Tools And Maintenance 171, Graphics 165, Engine 134, Drive 122, Suspension 113, Luggage And Racks 106, Exhaust 83, Brakes 82, Wheels And Rims 64, Vehicle Communication 60, Fuel System 54, Accessories 48, Skid Plates And Guards 26, Riding Gear 18, Farming And Hunting 13, Chain & Sprocket 12, Handlebars & Controls 9, Uncategorised 8, Batteries & Electrical 6, Intake 6, Helmets 3, Winch And Plow 2, Filters 1, Utv / Atv Parts 1
 
-Top brands: Turner Performance Products 106, Rugged Radios 105, Motion Pro 98, Acerbis 94, RAM Mounts 72, Cycra 66, D'COR Visuals 66, Pro Taper 65, Factory Effex 57, Trail Tech 55, Bolt 53, Quad Lock 53, DRC 52, SP Connect 51, ODI 48, Kriega 43, KTM PowerParts 43, Namz Custom Cycle 40, Renthal 38, Fastway 37, Shinko 34, Ride Engineering 33, RFX 33, Polisport 32, Kenda 32
+Top brands: Turner Performance Products 106, Rugged Radios 105, Motion Pro 98, Acerbis 94, RAM Mounts 72, Cycra 66, D'COR Visuals 66, Pro Taper 65, Factory Effex 57, Trail Tech 55, Quad Lock 53, Bolt 53, DRC 52, SP Connect 51, ODI 48, KTM PowerParts 43, Kriega 43, Namz Custom Cycle 40, Renthal 38, Fastway 37, Shinko 34, RFX 33, Ride Engineering 33, Giant Loop 32, Kenda 32
 

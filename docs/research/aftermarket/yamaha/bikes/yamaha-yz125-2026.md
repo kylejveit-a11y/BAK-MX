@@ -1,31 +1,23 @@
 # Yamaha YZ125 2026: aftermarket parts
 
-1476 listings whose stated fitment names this bike: 16 researched parts (with what they change and rider findings), 326 dealer and retailer listings specific to this bike, and 1134 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1476 listings whose stated fitment names this bike: 1 researched parts (with what they change and rider findings), 341 dealer and retailer listings specific to this bike, and 1134 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
-| Yamaha Genuine Accessories | Fork Seal Kit (One Fork) / WR250F, WR450F, YZ125, YZ125X, YZ250, YZ250F - See Description For Model Application | BDB-W003B-00-00 | Seller description: Yamaha BDB-W003B-00-00 - YZ/WR Single Front Fork Seal Kit is a genuine Yamaha accessory. These Yamaha Genuine Fork Seal Kits come with the original equipment fork and dust seals. D | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-bdb-w003b-00-00-fork-seal-kit-one-fork) | medium |
-| Yamaha Genuine Accessories | Fork Seal Kit (Two Forks) / YZ125, YZ125 70th Anniversary Edition, YZ125X - See Description For Model Application | B29-W003B-00-00 | Seller description: Yamaha B29-W003B-00-00 - YZ/WR Pair of Front Fork Seal Kit is a genuine Yamaha accessory. Fork Seal Kits come with the original parts to replace both fork legs. Don't settle for su | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-b29-w003b-00-00-fork-seal-kit-two-forks) | medium |
-| Yamaha GYTR | Gytr Clutch Basket - YZ125 / YZ125, YZ125 70th Anniversary Edition, YZ125X - See Description For Model Application | GYT-1C356-10-00 | Seller description: Yamaha GYT-1C356-10-00 - Gytr Clutch Basket - YZ125 is a genuine Yamaha part. It is an original equipment replacement part for select Yamaha motorcycles. | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-gyt-1c356-10-00-gytr-clutch-basket-yz125) | medium |
-| Yamaha GYTR | Gytr Clutch Cover YZ125 / YZ125, YZ125 70th Anniversary Edition, YZ125X - See Description For Model Application | GYT-1C335-10-AL | Seller description: Yamaha GYT-1C335-10-AL - Gytr Clutch Cover YZ125 is a genuine Yamaha part. It is an original equipment replacement part for select Yamaha motorcycles. | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-gyt-1c335-10-al-gytr-clutch-cover-yz125) | medium |
-| Yamaha GYTR | GYTR YZ/WR Chain Guide / WR250F, WR450F, YZ125, YZ125X, YZ250, YZ250F - See Description For Model Application | 17D-F21E0-V1-00 | Seller description: Yamaha 17D-F21E0-V1-00 - GYTR YZ/WR Chain Guide is a GYTR accessory. This GYTR chain guide is designed to minimize the risk of chain derailment or damage on select Yamaha YZ and WR | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-17d-f21e0-v1-00-gytr-yz-wr-chain-guide) | medium |
-| Yamaha GYTR | Gytr 25MM Axle Accent Kit / WR250F, WR450F, YZ125, YZ125X, YZ250, YZ250F - See Description For Model Application | D03-E51F0-V0-00 | Seller description: Yamaha D03-E51F0-V0-00 - GYTR YZ/WR Factory Accent Kit is a genuine Yamaha accessory. Upgrade your YZ/WR with the GYTR Factory Accent Kit. Race tested components that deliver pro-l | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-d03-e51f0-v0-00-gytr-25mm-axle-accent-kit) | medium |
-| Yamaha GYTR | Gytr Clutch Pressure Plate / YZ125, YZ125 70th Anniversary Edition, YZ125X - See Description For Model Application | GYT-5XC56-20-00 | Seller description: Yamaha GYT-5XC56-20-00 - Gytr Clutch Pressure Plate is a genuine Yamaha part. It is an original equipment replacement part for select Yamaha motorcycles. | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-gyt-5xc56-20-00-gytr-clutch-pressure-plate) | medium |
-| Yamaha GYTR | Gytr 22MM Axle Accent Kit / YZ125, YZ125 70th Anniversary Edition, YZ125X - See Description For Model Application | D03-E51F0-T0-00 | Seller description: Yamaha D03-E51F0-T0-00 - GYTR YZ/WR Factory Accent Kit is a genuine Yamaha accessory. Upgrade your YZ/WR with the GYTR Factory Accent Kit. Race tested components that deliver pro-l | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-d03-e51f0-t0-00-gytr-22mm-axle-accent-kit) | medium |
-| Yamaha GYTR | Gytr Clutch Inner Hub YZ125 / YZ125, YZ125 70th Anniversary Edition, YZ125X - See Description For Model Application | GYT-5XE56-40-00 | Seller description: Yamaha GYT-5XE56-40-00 - Gytr Clutch Inner Hub YZ125 is a genuine Yamaha part. It is an original equipment replacement part for select Yamaha motorcycles. | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-gyt-5xe56-40-00-gytr-clutch-inner-hub-yz125) | medium |
-| Yamaha GYTR | Gytr Ultimate Skid Plate (YZ125/X) / YZ125, YZ125 70th Anniversary Edition - See Description For Model Application | D68-F14B0-V0-00 | Seller description: Yamaha D68-F14B0-V0-00 - GYTR YZ125/YZ125X Ultimate Skid Plate is a genuine Yamaha accessory. Constructed from tough 6mm injected polypropylene, it is designed by Yamaha engineers  | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-d68-f14b0-v0-00-gytr-ultimate-skidplate-yz125-x) | medium |
-| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25452-50-00 | Seller description: Yamaha 17D-25452-50-00 - Sprocket is a Yamaha Genuine accessory. This Yamaha Genuine sprocket is a direct replacement for the original sprocket on select YZ series off-road motorcy | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-17d-25452-50-00-sprocket) | medium |
-| Yamaha Genuine Accessories | Aluminum Stand / WR250F, WR400F, WR450F, YZ125, YZ125X, YZ250, YZ250F - See Description For Model Application | QBY-ACC56-35-02 | Seller description: Yamaha QBY-ACC56-35-02 - Aluminum Stand is a Yamaha accessory. The A2 Aluminum Stand supports select Yamaha WR and YZ series off-road motorcycles and adds a factory look to garages | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-qby-acc56-35-02-a2-aluminum-stand) | medium |
-| Yamaha Genuine Accessories | Steel Stand / WR250F, WR400F, WR450F, YZ125, YZ125X, YZ250, YZ250F, YZ250FX - See Description For Model Application | QBY-ACC56-35-00 | Seller description: Yamaha QBY-ACC56-35-00 - Steel Stand is a Yamaha accessory. The C2 Steel Stand is an ultra-durable steel stand used by Yamaha factory off-road race teams for maintenance and servic | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-qby-acc56-35-00-c2-steel-stand) | medium |
-| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25448-50-00 | Seller description: Yamaha 17D-25448-50-00 - Sprocket is a Yamaha Genuine accessory. This Yamaha Genuine sprocket is a direct replacement for the original sprocket on select YZ series off-road motorcy | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-17d-25448-50-00-sprocket) | medium |
-| Yamaha Genuine Accessories | Lift Stand / WR250F, WR400F, WR450F, YZ125, YZ125X, YZ250, YZ250F, YZ250FX - See Description For Model Application | QBY-ACC56-35-01 | Seller description: Yamaha QBY-ACC56-35-01 - Lift Stand is a Yamaha accessory. The LS1 Lift Stand uses a foot pedal to lift select Yamaha motorcycles for maintenance. | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-qby-acc56-35-01-ls1-lift-stand) | medium |
 | FMF | Fatty Gold Series Pipe | 024076 | FMF claims 'more low-end, more mid, and increased over-rev' and 'More tractable power, improved throttle control.' |  | [FMF](https://www.fmfracing.com/products/fatty-024076) | high |
 
 ## Dealer and retailer listings for this bike
 
 Merged across sellers by brand and part number (or brand and name). Lings is a UK dealer (GBP prices, EU-market models).
+
+### Accessories (2)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Yamaha Genuine Accessories | Fork Seal Kit (One Fork) / WR250F, WR450F, YZ125, YZ125X, YZ250, YZ250F - See Description For Model  | BDB-W003B-00-00 | 57.27 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-bdb-w003b-00-00-fork-seal-kit-one-fork) |
+| Yamaha Genuine Accessories | Fork Seal Kit (Two Forks) / YZ125, YZ125 70th Anniversary Edition, YZ125X - See Description For Mode | B29-W003B-00-00 | 70.58 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-b29-w003b-00-00-fork-seal-kit-two-forks) |
 
 ### Air & Fuel (8)
 
@@ -191,6 +183,19 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 |---|---|---|---|---|
 | Trail Tech | Trail Tech Endurance II Speedometer Beta / Husqvarna / Honda / Kawasaki / Suzuki / Yamaha | 202-119 | 199.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/trail-tech-endurance-ii-speedometer-beta-husqvarna-honda-kawasaki-suzuki-yamaha) |
 
+### Gytr (8)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Yamaha GYTR | GYTR YZ/WR Chain Guide / WR250F, WR450F, YZ125, YZ125X, YZ250, YZ250F - See Description For Model Ap | 17D-F21E0-V1-00 | 98.96 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-f21e0-v1-00-gytr-yz-wr-chain-guide) |
+| Yamaha GYTR | Gytr 22MM Axle Accent Kit / YZ125, YZ125 70th Anniversary Edition, YZ125X - See Description For Mode | D03-E51F0-T0-00 | 209.99 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-d03-e51f0-t0-00-gytr-22mm-axle-accent-kit) |
+| Yamaha GYTR | Gytr 25MM Axle Accent Kit / WR250F, WR450F, YZ125, YZ125X, YZ250, YZ250F - See Description For Model | D03-E51F0-V0-00 | 209.99 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-d03-e51f0-v0-00-gytr-25mm-axle-accent-kit) |
+| Yamaha GYTR | Gytr Clutch Basket - YZ125 / YZ125, YZ125 70th Anniversary Edition, YZ125X - See Description For Mod | GYT-1C356-10-00 | 255.13 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-gyt-1c356-10-00-gytr-clutch-basket-yz125) |
+| Yamaha GYTR | Gytr Clutch Cover YZ125 / YZ125, YZ125 70th Anniversary Edition, YZ125X - See Description For Model  | GYT-1C335-10-AL | 164.99 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-gyt-1c335-10-al-gytr-clutch-cover-yz125) |
+| Yamaha GYTR | Gytr Clutch Inner Hub YZ125 / YZ125, YZ125 70th Anniversary Edition, YZ125X - See Description For Mo | GYT-5XE56-40-00 | 291.17 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-gyt-5xe56-40-00-gytr-clutch-inner-hub-yz125) |
+| Yamaha GYTR | Gytr Clutch Pressure Plate / YZ125, YZ125 70th Anniversary Edition, YZ125X - See Description For Mod | GYT-5XC56-20-00 | 180.16 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-gyt-5xc56-20-00-gytr-clutch-pressure-plate) |
+| Yamaha GYTR | Gytr Ultimate Skid Plate (YZ125/X) / YZ125, YZ125 70th Anniversary Edition - See Description For Mod | D68-F14B0-V0-00 | 181.75 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-d68-f14b0-v0-00-gytr-ultimate-skidplate-yz125-x) |
+
 ### Handlebars & Controls (26)
 
 | Brand | Part | Part numbers | Price | Sellers |
@@ -221,6 +226,16 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Zeta | Zeta Forged Pivot Clutch Lever Yamaha 65cc-450cc 2009-2027 | ZE42-4666 | 87.68 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-forged-pivot-clutch-lever-yamaha-65cc-450cc-2009-2024) |
 | Zeta | Zeta Pivot Brake Lever Yamaha / Kawasaki 125cc-450cc | ZE41-3265 | 106.34 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-pivot-brake-lever-yamaha-kawasaki-125cc-450cc) |
 | Zeta | Zeta Pivot Clutch Lever Yamaha 65cc-450cc 2009-2027 | ZE42-4266 | 106.34 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-pivot-clutch-lever-yamaha-65cc-450cc-2009-2024) |
+
+### Hard Parts (5)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Yamaha Genuine Accessories | Aluminum Stand / WR250F, WR400F, WR450F, YZ125, YZ125X, YZ250, YZ250F - See Description For Model Ap | QBY-ACC56-35-02 | 182.19 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-qby-acc56-35-02-a2-aluminum-stand) |
+| Yamaha Genuine Accessories | Lift Stand / WR250F, WR400F, WR450F, YZ125, YZ125X, YZ250, YZ250F, YZ250FX - See Description For Mod | QBY-ACC56-35-01 | 190.41 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-qby-acc56-35-01-ls1-lift-stand) |
+| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25448-50-00 | 82.83 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25448-50-00-sprocket) |
+| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25452-50-00 | 87.07 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25452-50-00-sprocket) |
+| Yamaha Genuine Accessories | Steel Stand / WR250F, WR400F, WR450F, YZ125, YZ125X, YZ250, YZ250F, YZ250FX - See Description For Mo | QBY-ACC56-35-00 | 111.23 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-qby-acc56-35-00-c2-steel-stand) |
 
 ### Seats (4)
 
@@ -409,7 +424,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Uncategorised 365, Handlebars & Controls 256, Chain & Sprocket 144, Exhaust 89, Air & Fuel 50, Batteries & Electrical 44, Lighting 38, Gauges 36, Bike Protection 33, Utv / Atv Parts 31, Suspension 27, Body & Fairing 8, Drive & Transmission 8, Filters 4, Tire Accessories 1
+Uncategorised 365, Handlebars & Controls 256, Chain & Sprocket 144, Exhaust 89, Air & Fuel 50, Batteries & Electrical 44, Lighting 38, Gauges 36, Bike Protection 33, Utv / Atv Parts 31, Suspension 27, Drive & Transmission 8, Body & Fairing 8, Filters 4, Tire Accessories 1
 
-Top brands: Pro Taper 73, Acerbis 65, Bolt Hardware 57, Moose Racing 56, Cycra 54, Renthal 47, Zeta 46, ODI 43, Fire Power 35, Barkbusters 34, RK 33, Helix Racing Products 33, RFX 31, Factory Effex 28, Namz 25, Motion Pro 23, K&N 22, FMF 22, Polisport 22, EK Chain 21, Koso 18, Motolis 15, DID Chain 15, Pro Grip 14, BBR Motorsports 13
+Top brands: Pro Taper 73, Acerbis 65, Bolt Hardware 57, Moose Racing 56, Cycra 54, Renthal 47, Zeta 46, ODI 43, Fire Power 35, Barkbusters 34, Helix Racing Products 33, RK 33, RFX 31, Factory Effex 28, Namz 25, Motion Pro 23, Polisport 22, K&N 22, FMF 22, EK Chain 21, Koso 18, Motolis 15, DID Chain 15, Pro Grip 14, Yoshimura 13
 

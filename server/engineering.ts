@@ -8,6 +8,7 @@ import {HttpError} from './validation.ts';
 import {getMechanismLibrary} from '../shared/mechanisms.ts';
 import {setupKnowledge} from '../shared/setup-knowledge.ts';
 import {manufacturerSetupGuidance} from '../shared/manufacturer-setup-guidance.ts';
+import {installedPartsContext,withoutBuildSheet} from './installed-parts-context.ts';
 
 /** Ask BAK answer path.
  *  1. plan     – a small call names the published facts to look up (never blocks the answer)
@@ -15,7 +16,7 @@ import {manufacturerSetupGuidance} from '../shared/manufacturer-setup-guidance.t
  *  3. answer   – one call writes the reply; every factual claim carries a confidence tier
  *  4. check    – code verifies citations and exact published values; one repair attempt, then an honest failure
  *  A backup model is tried when the provider fails. Model names come only from configuration. */
-export const PROMPT_VERSION='mx-engineering-14';
+export const PROMPT_VERSION='mx-engineering-15';
 
 /** How solid a claim is. PUBLISHED must cite retrieved evidence; nothing may be presented above its real tier. */
 export const TIERS=['PUBLISHED','RIDER_SAVED','ENGINEERING','GENERAL','COMMUNITY','UNKNOWN'] as const;
@@ -29,7 +30,8 @@ export function buildEngineeringInput(bike:Bike|null,history:Message[],claims:Cl
   hypothesis_boundary:'LIMITED authored causal relationships, not verified specifications or established diagnoses. Select mechanisms using observations and discriminating evidence, not symptom matching alone. Never cite these IDs as verified claim IDs. Hypothetical tests are not performed tests.',
   authored_hypotheses:getMechanismLibrary(),
   setup_knowledge:setupKnowledge(),
-  bike:bike?{...bike,configuration:usConfiguration(bike.configuration)}:null,
+  bike:bike?{...bike,configuration:withoutBuildSheet(usConfiguration(bike.configuration))}:null,
+  ...(bike&&installedPartsContext(bike.configuration)?{installed_parts:installedPartsContext(bike.configuration)}:{}),
   ...(bike&&manufacturerSetupGuidance(bike)?{manufacturer_setup_guidance:manufacturerSetupGuidance(bike)}:{}),
   ...(bike?{}:{no_build:'The rider chose to ask without a build. There is no saved bike and no published evidence for this question. Follow NO BUILD SELECTED.'}),
   reviewed_workshop:bike?workshopContext(bike,history,message):null,
@@ -142,6 +144,9 @@ data_gaps: list any published data that was missing and would have improved this
 
 SETUP REASONING
 For setup and handling questions reason from setup_knowledge: match what the rider describes to the symptom guides by meaning, not exact words; confirm the before_you_tune checks that matter for that symptom; use the rider's own tell-tale details to choose between likely causes. When manufacturer_setup_guidance is present it is the bike maker's own published symptom table for this exact bike: for stock suspension prefer its direction where it covers the rider's symptom, say it comes from the owner's service manual, and where it differs from setup_knowledge follow the manufacturer and mention the other possibility in one line. Clicker positions are counted out from lightly seated; fewer clicks out means more damping. Do not state a total click range unless evidence gives one. authored_hypotheses are general mechanisms, not a verified diagnosis.
+
+INSTALLED PARTS
+installed_parts is the rider's build sheet: parts fitted by system, systems confirmed stock, and systems not recorded. A part changes what applies: stock maps, jetting, clicker baselines and spring advice may no longer fit a modified system, so say when your answer depends on a fitted part. A not_recorded system is unknown, not stock: ask about it only when the answer turns on it. research notes on a part are attributed research (maker claims, tester observations, caveats such as supporting parts, required maps or noise limits): use them, name them as maker claims or tester reports, and never present a claimed gain as measured fact or invent a spec the notes do not give. A part typed by the rider is their description, unverified.
 
 SAFETY
 The rider makes every change by hand. Diagnose a fault before tuning around it, and never blame technique while a fault remains unresolved. Do not recommend running a bike with abnormal mechanical noise, oil loss, unsafe brakes, uncontrolled throttle or severe overheating, and do not advise opening a hot pressurised cooling or fuel system. Lean two-stroke jetting that pings or detonates is a stop condition. Keep safety proportionate: one clear line when it matters, not a checklist.

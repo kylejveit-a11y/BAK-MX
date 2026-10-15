@@ -6,8 +6,8 @@
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
-| Pro Circuit | Ti-6 Dual Carbon Ti-System, CRF250R/RX 2020-'21 | 0312025F2 |  | Dual-muffler generation; does not fit 2022+ CRF250R single-muffler platform. | [Pro Circuit (maker)](https://www.procircuit.com/ti-6-dual-crf250r-rx-20) | high |
 | Pro Circuit | T-6 Stainless Slip-On w/ Removable Spark Arrestor, CRF250R/RX 2020-'21 | 0112025A2 |  | Dual slip-on generation (A2 suffix pattern / price matches dual units). | [Pro Circuit (maker)](https://www.procircuit.com/honda-t-6-slip-on-crf250r-rx-20) | high |
+| Pro Circuit | Ti-6 Dual Carbon Ti-System, CRF250R/RX 2020-'21 | 0312025F2 |  | Dual-muffler generation; does not fit 2022+ CRF250R single-muffler platform. | [Pro Circuit (maker)](https://www.procircuit.com/ti-6-dual-crf250r-rx-20) | high |
 
 ## Dealer and retailer listings for this bike
 
@@ -628,7 +628,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Controls 566, Lights And Electrical 386, Uncategorised 315, Handlebars & Controls 232, Body 208, Tires 188, Graphics 170, Tools And Maintenance 168, Engine 164, Exhaust 163, Suspension 143, Chain & Sprocket 129, Drive 126, Brakes 108, Luggage And Racks 106, Wheels And Rims 82, Vehicle Communication 60, Fuel System 57, Accessories 48, Air & Fuel 45, Batteries & Electrical 34, Gauges 33, Bike Protection 29, Lighting 27, Utv / Atv Parts 26, Skid Plates And Guards 22, Riding Gear 18, Farming And Hunting 13, Drive & Transmission 8, Intake 7, Body & Fairing 7, Filters 5, Helmets 3, Winch And Plow 2, Tire Accessories 1
+Controls 566, Lights And Electrical 386, Uncategorised 315, Handlebars & Controls 232, Body 208, Tires 188, Graphics 170, Tools And Maintenance 168, Engine 164, Exhaust 163, Suspension 143, Chain & Sprocket 129, Drive 126, Brakes 108, Luggage And Racks 106, Wheels And Rims 82, Vehicle Communication 60, Fuel System 57, Accessories 48, Air & Fuel 45, Batteries & Electrical 34, Gauges 33, Bike Protection 29, Lighting 27, Utv / Atv Parts 26, Skid Plates And Guards 22, Riding Gear 18, Farming And Hunting 13, Drive & Transmission 8, Body & Fairing 7, Intake 7, Filters 5, Helmets 3, Winch And Plow 2, Tire Accessories 1
 
-Top brands: Acerbis 153, Pro Taper 123, Turner Performance Products 119, Motion Pro 118, Cycra 117, Rugged Radios 105, Renthal 83, Factory Effex 82, ODI 81, RAM Mounts 74, Trail Tech 67, D'COR Visuals 66, RFX 61, DRC 59, Polisport 56, Bolt 54, Quad Lock 53, Moose Racing 52, SP Connect 51, Bolt Hardware 49, Fire Power 49, Kriega 45, KTM PowerParts 43, Namz Custom Cycle 40, Zeta 39
+Top brands: Acerbis 153, Pro Taper 123, Turner Performance Products 119, Motion Pro 118, Cycra 117, Rugged Radios 105, Renthal 83, Factory Effex 82, ODI 81, RAM Mounts 74, Trail Tech 67, D'COR Visuals 66, RFX 61, DRC 59, Polisport 56, Bolt 54, Quad Lock 53, Moose Racing 52, SP Connect 51, Fire Power 49, Bolt Hardware 49, Kriega 45, KTM PowerParts 43, Namz Custom Cycle 40, Zeta 39
 

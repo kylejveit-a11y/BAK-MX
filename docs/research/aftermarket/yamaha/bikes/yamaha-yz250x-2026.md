@@ -1,12 +1,11 @@
 # Yamaha YZ250X 2026: aftermarket parts
 
-4044 listings whose stated fitment names this bike: 3 researched parts (with what they change and rider findings), 428 dealer and retailer listings specific to this bike, and 3613 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+4044 listings whose stated fitment names this bike: 2 researched parts (with what they change and rider findings), 429 dealer and retailer listings specific to this bike, and 3613 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
-| Yamaha Genuine Accessories | Sprocket / WR400F, YZ250, YZ250X, YZ426F, YZ450F | 9383E-14215-00 | Seller description: Yamaha 9383E-14215-00 - Sprocket is a Yamaha Genuine accessory. This Yamaha Genuine sprocket is a direct replacement for the original sprocket on select YZ series off-road motorcyc | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-938-3e142-15-00-sprocket) | medium |
 | FMF | Gnarly Pipe | 024054 | FMF claims it focuses 'on increasing the lower RPM horsepower and torque' with 'bottom to mid range pull' (off-road oriented). | Sold out at capture; page compare-at price ($171.59) looks erroneous. | [FMF](https://www.fmfracing.com/products/gnarly-pipe-024054) | high |
 | Pro Circuit | Works Champ Pipe | 0732525 | No claims on page. |  | [Pro Circuit](https://www.procircuit.com/works-yamaha) | high |
 
@@ -379,6 +378,12 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Flo Motorsports | Flo Motorsports Pro 160 Brake Lever Yamaha / Kawasaki 125cc-450cc 2007-2027 | BL-714, BL-714B, BL-714G | 87.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-pro-160-brake-lever-yamaha-kawasaki-125cc-450cc-2007-2022) |
 | Polisport | Polisport Pivot Lever Set Yamaha 125cc-450cc 2015-2027 | 8487200027, 8487200028, 8487200029 | 113.39 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-pivot-lever-set-yamaha-125cc-450cc-2015-2022) |
 
+### Hard Parts (1)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Yamaha Genuine Accessories | Sprocket / WR400F, YZ250, YZ250X, YZ426F, YZ450F | 9383E-14215-00 | 23.99 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-938-3e142-15-00-sprocket) |
+
 ### Intake (9)
 
 | Brand | Part | Part numbers | Price | Sellers |
@@ -545,7 +550,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Controls 546, Lights And Electrical 381, Uncategorised 323, Handlebars & Controls 221, Tires 219, Body 190, Tools And Maintenance 172, Graphics 164, Exhaust 156, Engine 141, Suspension 134, Drive 123, Chain & Sprocket 123, Luggage And Racks 106, Brakes 90, Wheels And Rims 67, Vehicle Communication 60, Fuel System 54, Accessories 48, Air & Fuel 47, Batteries & Electrical 37, Utv / Atv Parts 33, Gauges 32, Lighting 30, Bike Protection 29, Skid Plates And Guards 25, Riding Gear 18, Farming And Hunting 13, Body & Fairing 8, Drive & Transmission 7, Intake 6, Filters 4, Helmets 3, Winch And Plow 2, Tire Accessories 1
+Controls 546, Lights And Electrical 381, Uncategorised 323, Handlebars & Controls 221, Tires 219, Body 190, Tools And Maintenance 172, Graphics 164, Exhaust 156, Engine 141, Suspension 134, Chain & Sprocket 123, Drive 123, Luggage And Racks 106, Brakes 90, Wheels And Rims 67, Vehicle Communication 60, Fuel System 54, Accessories 48, Air & Fuel 47, Batteries & Electrical 37, Utv / Atv Parts 33, Gauges 32, Lighting 30, Bike Protection 29, Skid Plates And Guards 25, Riding Gear 18, Farming And Hunting 13, Body & Fairing 8, Drive & Transmission 7, Intake 6, Filters 4, Helmets 3, Winch And Plow 2, Tire Accessories 1
 
-Top brands: Acerbis 143, Pro Taper 122, Cycra 118, Motion Pro 118, Turner Performance Products 115, Rugged Radios 105, Renthal 83, ODI 82, Factory Effex 80, RAM Mounts 73, D'COR Visuals 65, Trail Tech 64, DRC 58, Bolt Hardware 56, Fire Power 54, Bolt 53, Quad Lock 53, RFX 52, SP Connect 51, Moose Racing 49, Polisport 45, Kriega 45, KTM PowerParts 43, Zeta 42, Namz Custom Cycle 40
+Top brands: Acerbis 143, Pro Taper 122, Cycra 118, Motion Pro 118, Turner Performance Products 115, Rugged Radios 105, Renthal 83, ODI 82, Factory Effex 80, RAM Mounts 73, D'COR Visuals 65, Trail Tech 64, DRC 58, Bolt Hardware 56, Fire Power 54, Quad Lock 53, Bolt 53, RFX 52, SP Connect 51, Moose Racing 49, Polisport 45, Kriega 45, KTM PowerParts 43, Zeta 42, Namz Custom Cycle 40
 

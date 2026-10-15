@@ -336,8 +336,8 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 |---|---|---|---|---|
 | Acerbis | Acerbis Chain Guide |  | 75.99 USD | [MotoSport](https://www.motosport.com/acerbis-chain-guide) |
 | Acerbis | Acerbis Chain Guide Replacement Insert |  | 22.99 USD | [MotoSport](https://www.motosport.com/acerbis-chain-guide-replacement-insert) |
-| Acerbis | Acerbis Fuel Tank Husqvarna 125cc-501cc 2022-2027 | 2979390001, 2979390147 | 319.46 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-fuel-tank-husqvarna-125cc-501cc-2022-2025-1) |
 | Acerbis | Acerbis Fuel Tank Husqvarna 125cc-501cc 2022-2027 | 2983610001, 2983610147, 2985430001, 2985430147 | 365.36 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-fuel-tank-husqvarna-125cc-501cc-2022-2025) |
+| Acerbis | Acerbis Fuel Tank Husqvarna 125cc-501cc 2022-2027 | 2979390001, 2979390147 | 319.46 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-fuel-tank-husqvarna-125cc-501cc-2022-2025-1) |
 | Acerbis | Acerbis Mud Flap KTM / Husqvarna / Gas Gas 125cc-450cc 2022-2027 | 2979360001 | 29.66 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-mud-flap-ktm-husqvarna-125cc-450cc-2022-2024) |
 | Acerbis | Acerbis Standard Plastic Kit Husqvarna 125cc-450cc | 2986838212 | 149.56 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-standard-plastic-kit-husqvarna-125cc-450cc) |
 | All Balls | All Balls Brake Pedal Rebuild Kit |  | 44.77 USD | [MotoSport](https://www.motosport.com/all-balls-brake-pedal-rebuild-kit) |
@@ -590,5 +590,5 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 Controls 501, Lights And Electrical 383, Uncategorised 341, Handlebars & Controls 246, Tires 188, Body 187, Tools And Maintenance 169, Graphics 165, Exhaust 160, Chain & Sprocket 134, Drive 117, Suspension 115, Engine 113, Luggage And Racks 106, Brakes 101, Wheels And Rims 72, Vehicle Communication 60, Fuel System 56, Accessories 48, Air & Fuel 45, Batteries & Electrical 40, Gauges 37, Lighting 36, Utv / Atv Parts 35, Bike Protection 32, Skid Plates And Guards 20, Riding Gear 18, Farming And Hunting 13, Body & Fairing 9, Intake 7, Drive & Transmission 6, Filters 4, Helmets 3, Winch And Plow 2, Tire Accessories 1
 
-Top brands: Acerbis 151, Pro Taper 125, Motion Pro 116, Cycra 114, Turner Performance Products 107, Rugged Radios 105, ODI 82, Factory Effex 82, Renthal 82, RAM Mounts 74, D'COR Visuals 65, Trail Tech 63, Fire Power 59, DRC 58, Bolt Hardware 56, Moose Racing 55, RFX 55, Bolt 54, Quad Lock 53, Polisport 52, SP Connect 51, Kriega 45, KTM PowerParts 43, Zeta 43, Namz Custom Cycle 40
+Top brands: Acerbis 151, Pro Taper 125, Motion Pro 116, Cycra 114, Turner Performance Products 107, Rugged Radios 105, ODI 82, Renthal 82, Factory Effex 82, RAM Mounts 74, D'COR Visuals 65, Trail Tech 63, Fire Power 59, DRC 58, Bolt Hardware 56, RFX 55, Moose Racing 55, Bolt 54, Quad Lock 53, Polisport 52, SP Connect 51, Kriega 45, Zeta 43, KTM PowerParts 43, Namz Custom Cycle 40
 

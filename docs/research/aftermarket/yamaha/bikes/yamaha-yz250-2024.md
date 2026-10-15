@@ -1,36 +1,35 @@
 # Yamaha YZ250 2024: aftermarket parts
 
-4291 listings whose stated fitment names this bike: 21 researched parts (with what they change and rider findings), 635 dealer and retailer listings specific to this bike, and 3635 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+4291 listings whose stated fitment names this bike: 5 researched parts (with what they change and rider findings), 651 dealer and retailer listings specific to this bike, and 3635 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
-| Yamaha Genuine Accessories | Side Cover Insert Assembly 4 / YZ250 | BCR-217S0-L0-00 | Seller description: Yamaha BCR-217S0-L0-00 - YZ250 Radiator Shroud with Graphics is a genuine Yamaha accessory. It is an original equipment accessory for select Yamaha motorcycles. | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-bcr-217s0-l0-00-side-cover-insert-assy-4) | medium |
-| Yamaha Genuine Accessories | Cover 1 / WR250F, WR450F, YZ250, YZ250F, YZ450F, YZ450FX | B7R-8246B-00-00 | Seller description: Yamaha B7R-8246B-00-00 - Cover 1 is a genuine Yamaha part. It is an original equipment replacement part for select Yamaha motorcycles. | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-b7r-8246b-00-00-cover-1) | medium |
-| Yamaha Genuine Accessories | Rear Upper Bracket 2 / YZ250, YZ250F | B7B-21426-10-00 | Seller description: Yamaha B7B-21426-10-00 - Rear Upper Bracket 2 is a genuine Yamaha part. It is an original equipment replacement part for select Yamaha motorcycles. | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-b7b-21426-10-00-bracket-rear-upper-2) | medium |
-| Yamaha Genuine Accessories | Front Lower Bracket 1 / WR250F, WR450F, YZ250, YZ250F, YZ450F, YZ450FX | BAK-21417-00-00 | Seller description: Yamaha BAK-21417-00-00 - Front Lower Bracket 1 is a genuine Yamaha part. It is an original equipment replacement part for select Yamaha motorcycles. | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-bak-21417-00-00-bracket-front-lower-1) | medium |
-| Yamaha Genuine Accessories | Under Bracket Complete / WR250F, WR450F, YZ250, YZ450F, YZ450FX | B7R-23340-00-00 | Seller description: Yamaha B7R-23340-00-00 - Under Bracket Complete is a genuine Yamaha part. It is an original equipment replacement part for select Yamaha motorcycles. | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-b7r-23340-00-00-under-bracket-comp) | medium |
-| Yamaha Genuine Accessories | Side Cover Insert Assembly 3 / YZ250 | BCR-217R0-L0-00 | Seller description: Yamaha BCR-217R0-L0-00 - YZ250 Radiator Shroud with Graphics is a genuine Yamaha accessory. It is an original equipment accessory for select Yamaha motorcycles. | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-bcr-217r0-l0-00-side-cover-insert-assy-3) | medium |
-| Yamaha Genuine Accessories | Rear Upper Bracket 1 / YZ250, YZ250F | B7B-21425-10-00 | Seller description: Yamaha B7B-21425-10-00 - Rear Upper Bracket 1 is a genuine Yamaha part. It is an original equipment replacement part for select Yamaha motorcycles. | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-b7b-21425-10-00-bracket-rear-upper-1) | medium |
-| Yamaha Genuine Accessories | Friction Plate Kit / WR250F, YZ250, YZ250F | BAJ-W001M-00-00 | Seller description: Yamaha BAJ-W001M-00-00 - Friction Plate Kit is a genuine Yamaha part. It is an original equipment replacement part for select Yamaha motorcycles. | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-baj-w001m-00-00-friction-plate-kit) | medium |
-| Yamaha Genuine Accessories | Oil Element Cover / WR250F, WR450F, YZ250, YZ250F, YZ450F, YZ450FX | 1SL-13447-00-00 | Seller description: Yamaha 1SL-13447-00-00 - Oil Element Cover is a genuine Yamaha part. It is an original equipment replacement part for select Yamaha motorcycles. | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-1sl-13447-00-00-cover-oil-element) | medium |
-| Yamaha Genuine Accessories | Friction Plate Kit / YZ250, YZ250F | B7B-W001M-00-00 | Seller description: Yamaha B7B-W001M-00-00 - Friction Plate Kit is a genuine Yamaha part. It is an original equipment replacement part for select Yamaha motorcycles. | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-b7b-w001m-00-00-friction-plate-kit) | medium |
-| Yamaha GYTR | Clb Gytr Clutch Basket / YZ250, YZ250X - See Description For Model Application | GYT-5XF56-10-00 | Seller description: Yamaha GYT-5XF56-10-00 - Clb Gytr Clutch Basket is a genuine Yamaha part. It is an original equipment replacement part for select Yamaha motorcycles. | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-gyt-5xf56-10-00-clb-gytr-clutch-basket) | medium |
-| Yamaha GYTR | Gytr Billet Ignition Cover / YZ250, YZ250 50th Anniversary Edition, YZ250X - See Description For Model Application | BCR-E54G0-V0-00 | Seller description: Yamaha BCR-E54G0-V0-00 - GYTR YZ250 Ignition Cover is a genuine Yamaha accessory. The GYTR Ignition Cover is precision-machined from 6061 aluminum for added protection and styling  | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-bcr-e54g0-v0-00-gytr-billet-ignition-cover) | medium |
-| Yamaha GYTR | Gytr Clutch Pressure Plate / WR450F, YZ250, YZ250X, YZ450F, YZ450FX - See Description For Model Application | GYT-5XD56-20-00 | Seller description: Yamaha GYT-5XD56-20-00 - Gytr Clutch Pressure Plate is a genuine Yamaha part. It is an original equipment replacement part for select Yamaha motorcycles. | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-gyt-5xd56-20-00-gytr-clutch-pressure-plate) | medium |
-| Yamaha Genuine Accessories | Sprocket / WR400F, YZ250, YZ250X, YZ426F, YZ450F | 9383E-14215-00 | Seller description: Yamaha 9383E-14215-00 - Sprocket is a Yamaha Genuine accessory. This Yamaha Genuine sprocket is a direct replacement for the original sprocket on select YZ series off-road motorcyc | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-938-3e142-15-00-sprocket) | medium |
-| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25452-50-00 | Seller description: Yamaha 17D-25452-50-00 - Sprocket is a Yamaha Genuine accessory. This Yamaha Genuine sprocket is a direct replacement for the original sprocket on select YZ series off-road motorcy | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-17d-25452-50-00-sprocket) | medium |
-| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25448-50-00 | Seller description: Yamaha 17D-25448-50-00 - Sprocket is a Yamaha Genuine accessory. This Yamaha Genuine sprocket is a direct replacement for the original sprocket on select YZ series off-road motorcy | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-17d-25448-50-00-sprocket) | medium |
-| FMF | Gnarly Pipe | 024054 | FMF claims it focuses 'on increasing the lower RPM horsepower and torque' with 'bottom to mid range pull' (off-road oriented). | Sold out at capture; page compare-at price ($171.59) looks erroneous. | [FMF](https://www.fmfracing.com/products/gnarly-pipe-024054) | high |
 | FMF | Factory Fatty | 024056 | FMF claims it 'broadens and smoothes out the power curve' with 'more low-end, more mid, and increased over-rev'. | Sold out at capture. | [FMF](https://www.fmfracing.com/products/factory-fatty-024056) | high |
+| FMF | Gnarly Pipe | 024054 | FMF claims it focuses 'on increasing the lower RPM horsepower and torque' with 'bottom to mid range pull' (off-road oriented). | Sold out at capture; page compare-at price ($171.59) looks erroneous. | [FMF](https://www.fmfracing.com/products/gnarly-pipe-024054) | high |
 | Pro Circuit | Works Champ Pipe | 0732525 | No claims on page. |  | [Pro Circuit](https://www.procircuit.com/works-yamaha) | high |
-| Pro Circuit | Works Pipe | PY05250 | No claims on page. |  | [Pro Circuit](https://www.procircuit.com/works-yamaha) | high |
 | Pro Circuit | Ti-2 Shorty Silencer (Ti/Blue Kevlar) |  | Not checked. | Pages seen only as search-result titles; part numbers and prices not seen. YZ125 page: https://procircuit.com/ti-2-blue-silencer-yz125-22-23.html | [source](https://www.procircuit.com/ti-2-blue-silencer-yz250-03-23.html) | medium |
+| Pro Circuit | Works Pipe | PY05250 | No claims on page. |  | [Pro Circuit](https://www.procircuit.com/works-yamaha) | high |
 
 ## Dealer and retailer listings for this bike
 
 Merged across sellers by brand and part number (or brand and name). Lings is a UK dealer (GBP prices, EU-market models).
+
+### Accessories (10)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Yamaha Genuine Accessories | Cover 1 / WR250F, WR450F, YZ250, YZ250F, YZ450F, YZ450FX | B7R-8246B-00-00 | 19.85 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-b7r-8246b-00-00-cover-1) |
+| Yamaha Genuine Accessories | Friction Plate Kit / WR250F, YZ250, YZ250F | BAJ-W001M-00-00 | 123.74 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-baj-w001m-00-00-friction-plate-kit) |
+| Yamaha Genuine Accessories | Friction Plate Kit / YZ250, YZ250F | B7B-W001M-00-00 | 103.86 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-b7b-w001m-00-00-friction-plate-kit) |
+| Yamaha Genuine Accessories | Front Lower Bracket 1 / WR250F, WR450F, YZ250, YZ250F, YZ450F, YZ450FX | BAK-21417-00-00 | 13.49 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-bak-21417-00-00-bracket-front-lower-1) |
+| Yamaha Genuine Accessories | Oil Element Cover / WR250F, WR450F, YZ250, YZ250F, YZ450F, YZ450FX | 1SL-13447-00-00 | 21.49 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-1sl-13447-00-00-cover-oil-element) |
+| Yamaha Genuine Accessories | Rear Upper Bracket 1 / YZ250, YZ250F | B7B-21425-10-00 | 20.61 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-b7b-21425-10-00-bracket-rear-upper-1) |
+| Yamaha Genuine Accessories | Rear Upper Bracket 2 / YZ250, YZ250F | B7B-21426-10-00 | 35.69 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-b7b-21426-10-00-bracket-rear-upper-2) |
+| Yamaha Genuine Accessories | Side Cover Insert Assembly 3 / YZ250 | BCR-217R0-L0-00 | 104.57 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-bcr-217r0-l0-00-side-cover-insert-assy-3) |
+| Yamaha Genuine Accessories | Side Cover Insert Assembly 4 / YZ250 | BCR-217S0-L0-00 | 104.57 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-bcr-217s0-l0-00-side-cover-insert-assy-4) |
+| Yamaha Genuine Accessories | Under Bracket Complete / WR250F, WR450F, YZ250, YZ450F, YZ450FX | B7R-23340-00-00 | 541.48 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-b7r-23340-00-00-under-bracket-comp) |
 
 ### Air & Fuel (8)
 
@@ -473,6 +472,14 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Throttle Syndicate | Throttle Syndicate Flush Complete Kit - Yamaha | TS40-2000, TS40-2002, TS40-2004, TS40-2006, TS40-2008, TS40-2010, TS40-2012, TS40-2014, TS40-2016, TS40-2018, TS40-2020, | 119.99 USD | [MotoSport](https://www.motosport.com/throttle-syndicate-flush-complete-kit-yamaha) |
 | Throttle Syndicate | Throttle Syndicate Flush Shroud Kit - Yamaha | TS40-2001, TS40-2003, TS40-2005, TS40-2007, TS40-2009, TS40-2011, TS40-2013, TS40-2017, TS40-2021, TS40-2023, TS40-2025 | 69.99 USD | [MotoSport](https://www.motosport.com/throttle-syndicate-flush-shroud-kit-yamaha) |
 
+### Gytr (3)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Yamaha GYTR | Clb Gytr Clutch Basket / YZ250, YZ250X - See Description For Model Application | GYT-5XF56-10-00 | 275.65 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-gyt-5xf56-10-00-clb-gytr-clutch-basket) |
+| Yamaha GYTR | Gytr Billet Ignition Cover / YZ250, YZ250 50th Anniversary Edition, YZ250X - See Description For Mod | BCR-E54G0-V0-00 | 169.99 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-bcr-e54g0-v0-00-gytr-billet-ignition-cover) |
+| Yamaha GYTR | Gytr Clutch Pressure Plate / WR450F, YZ250, YZ250X, YZ450F, YZ450FX - See Description For Model Appl | GYT-5XD56-20-00 | 190.26 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-gyt-5xd56-20-00-gytr-clutch-pressure-plate) |
+
 ### Handlebars & Controls (26)
 
 | Brand | Part | Part numbers | Price | Sellers |
@@ -503,6 +510,14 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Zeta | Zeta Forged Pivot Clutch Lever Yamaha 65cc-450cc 2009-2027 | ZE42-4666 | 87.68 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-forged-pivot-clutch-lever-yamaha-65cc-450cc-2009-2024) |
 | Zeta | Zeta Pivot Brake Lever Yamaha / Kawasaki 125cc-450cc | ZE41-3265 | 106.34 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-pivot-brake-lever-yamaha-kawasaki-125cc-450cc) |
 | Zeta | Zeta Pivot Clutch Lever Yamaha 65cc-450cc 2009-2027 | ZE42-4266 | 106.34 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-pivot-clutch-lever-yamaha-65cc-450cc-2009-2024) |
+
+### Hard Parts (3)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Yamaha Genuine Accessories | Sprocket / WR400F, YZ250, YZ250X, YZ426F, YZ450F | 9383E-14215-00 | 23.99 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-938-3e142-15-00-sprocket) |
+| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25448-50-00 | 82.83 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25448-50-00-sprocket) |
+| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25452-50-00 | 87.07 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25452-50-00-sprocket) |
 
 ### Intake (9)
 
@@ -774,7 +789,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Controls 553, Lights And Electrical 381, Uncategorised 345, Handlebars & Controls 215, Body 199, Tires 198, Tools And Maintenance 171, Graphics 166, Exhaust 166, Engine 143, Suspension 135, Drive 125, Chain & Sprocket 124, Luggage And Racks 106, Brakes 95, Wheels And Rims 68, Vehicle Communication 60, Fuel System 54, Accessories 48, Air & Fuel 41, Batteries & Electrical 39, Utv / Atv Parts 30, Gauges 28, Lighting 28, Bike Protection 28, Skid Plates And Guards 26, Riding Gear 18, Farming And Hunting 13, Drive & Transmission 8, Body & Fairing 7, Intake 6, Filters 5, Helmets 3, Winch And Plow 2, Tire Accessories 1
+Controls 553, Lights And Electrical 381, Uncategorised 345, Handlebars & Controls 215, Body 199, Tires 198, Tools And Maintenance 171, Graphics 166, Exhaust 166, Engine 143, Suspension 135, Drive 125, Chain & Sprocket 124, Luggage And Racks 106, Brakes 95, Wheels And Rims 68, Vehicle Communication 60, Fuel System 54, Accessories 48, Air & Fuel 41, Batteries & Electrical 39, Utv / Atv Parts 30, Bike Protection 28, Gauges 28, Lighting 28, Skid Plates And Guards 26, Riding Gear 18, Farming And Hunting 13, Drive & Transmission 8, Body & Fairing 7, Intake 6, Filters 5, Helmets 3, Winch And Plow 2, Tire Accessories 1
 
-Top brands: Acerbis 145, Pro Taper 121, Motion Pro 117, Turner Performance Products 114, Cycra 111, Rugged Radios 105, Renthal 87, Factory Effex 85, ODI 83, RAM Mounts 74, D'COR Visuals 65, Trail Tech 64, RFX 62, DRC 60, Bolt Hardware 59, Bolt 54, Quad Lock 53, Fire Power 53, Polisport 52, SP Connect 51, Moose Racing 46, Kriega 45, KTM PowerParts 43, Namz Custom Cycle 40, Fastway 37
+Top brands: Acerbis 145, Pro Taper 121, Motion Pro 117, Turner Performance Products 114, Cycra 111, Rugged Radios 105, Renthal 87, Factory Effex 85, ODI 83, RAM Mounts 74, D'COR Visuals 65, Trail Tech 64, RFX 62, DRC 60, Bolt Hardware 59, Bolt 54, Quad Lock 53, Fire Power 53, Polisport 52, SP Connect 51, Moose Racing 46, Kriega 45, KTM PowerParts 43, Namz Custom Cycle 40, Zeta 37
 

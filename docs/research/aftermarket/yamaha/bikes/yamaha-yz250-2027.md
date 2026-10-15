@@ -1,14 +1,11 @@
 # Yamaha YZ250 2027: aftermarket parts
 
-4243 listings whose stated fitment names this bike: 4 researched parts (with what they change and rider findings), 603 dealer and retailer listings specific to this bike, and 3636 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+4243 listings whose stated fitment names this bike: 1 researched parts (with what they change and rider findings), 606 dealer and retailer listings specific to this bike, and 3636 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
-| Yamaha Genuine Accessories | Sprocket / WR400F, YZ250, YZ250X, YZ426F, YZ450F | 9383E-14215-00 | Seller description: Yamaha 9383E-14215-00 - Sprocket is a Yamaha Genuine accessory. This Yamaha Genuine sprocket is a direct replacement for the original sprocket on select YZ series off-road motorcyc | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-938-3e142-15-00-sprocket) | medium |
-| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25452-50-00 | Seller description: Yamaha 17D-25452-50-00 - Sprocket is a Yamaha Genuine accessory. This Yamaha Genuine sprocket is a direct replacement for the original sprocket on select YZ series off-road motorcy | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-17d-25452-50-00-sprocket) | medium |
-| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25448-50-00 | Seller description: Yamaha 17D-25448-50-00 - Sprocket is a Yamaha Genuine accessory. This Yamaha Genuine sprocket is a direct replacement for the original sprocket on select YZ series off-road motorcy | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-17d-25448-50-00-sprocket) | medium |
 | FMF | Gnarly Pipe | 024054 | FMF claims it focuses 'on increasing the lower RPM horsepower and torque' with 'bottom to mid range pull' (off-road oriented). | Sold out at capture; page compare-at price ($171.59) looks erroneous. | [FMF](https://www.fmfracing.com/products/gnarly-pipe-024054) | high |
 
 ## Dealer and retailer listings for this bike
@@ -474,6 +471,14 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Zeta | Zeta Pivot Brake Lever Yamaha / Kawasaki 125cc-450cc | ZE41-3265 | 106.34 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-pivot-brake-lever-yamaha-kawasaki-125cc-450cc) |
 | Zeta | Zeta Pivot Clutch Lever Yamaha 65cc-450cc 2009-2027 | ZE42-4266 | 106.34 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-pivot-clutch-lever-yamaha-65cc-450cc-2009-2024) |
 
+### Hard Parts (3)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Yamaha Genuine Accessories | Sprocket / WR400F, YZ250, YZ250X, YZ426F, YZ450F | 9383E-14215-00 | 23.99 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-938-3e142-15-00-sprocket) |
+| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25448-50-00 | 82.83 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25448-50-00-sprocket) |
+| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25452-50-00 | 87.07 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25452-50-00-sprocket) |
+
 ### Intake (9)
 
 | Brand | Part | Part numbers | Price | Sellers |
@@ -720,7 +725,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Controls 549, Lights And Electrical 381, Uncategorised 337, Handlebars & Controls 232, Tires 198, Body 197, Tools And Maintenance 171, Exhaust 169, Graphics 166, Chain & Sprocket 141, Suspension 138, Engine 134, Drive 123, Luggage And Racks 106, Brakes 90, Wheels And Rims 66, Vehicle Communication 60, Fuel System 54, Accessories 48, Batteries & Electrical 36, Gauges 34, Lighting 34, Air & Fuel 33, Bike Protection 28, Skid Plates And Guards 26, Utv / Atv Parts 22, Riding Gear 18, Farming And Hunting 13, Body & Fairing 8, Drive & Transmission 8, Intake 6, Filters 4, Helmets 3, Winch And Plow 2, Tire Accessories 1
+Controls 549, Lights And Electrical 381, Uncategorised 337, Handlebars & Controls 232, Tires 198, Body 197, Tools And Maintenance 171, Exhaust 169, Graphics 166, Chain & Sprocket 141, Suspension 138, Engine 134, Drive 123, Luggage And Racks 106, Brakes 90, Wheels And Rims 66, Vehicle Communication 60, Fuel System 54, Accessories 48, Batteries & Electrical 36, Gauges 34, Lighting 34, Air & Fuel 33, Bike Protection 28, Skid Plates And Guards 26, Utv / Atv Parts 22, Riding Gear 18, Farming And Hunting 13, Drive & Transmission 8, Body & Fairing 8, Intake 6, Filters 4, Helmets 3, Winch And Plow 2, Tire Accessories 1
 
-Top brands: Acerbis 150, Pro Taper 132, Motion Pro 120, Cycra 114, Turner Performance Products 114, Rugged Radios 105, ODI 85, Factory Effex 84, Renthal 83, RAM Mounts 74, Trail Tech 65, D'COR Visuals 65, RFX 64, DRC 60, Bolt 54, Bolt Hardware 53, Fire Power 53, Quad Lock 53, SP Connect 51, Polisport 49, Moose Racing 46, Kriega 44, KTM PowerParts 43, Namz Custom Cycle 40, Zeta 38
+Top brands: Acerbis 150, Pro Taper 132, Motion Pro 120, Cycra 114, Turner Performance Products 114, Rugged Radios 105, ODI 85, Factory Effex 84, Renthal 83, RAM Mounts 74, Trail Tech 65, D'COR Visuals 65, RFX 64, DRC 60, Bolt 54, Quad Lock 53, Bolt Hardware 53, Fire Power 53, SP Connect 51, Polisport 49, Moose Racing 46, Kriega 44, KTM PowerParts 43, Namz Custom Cycle 40, Zeta 38
 

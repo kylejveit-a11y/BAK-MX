@@ -1,14 +1,11 @@
 # Yamaha YZ250X 2021: aftermarket parts
 
-4341 listings whose stated fitment names this bike: 5 researched parts (with what they change and rider findings), 582 dealer and retailer listings specific to this bike, and 3754 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+4341 listings whose stated fitment names this bike: 2 researched parts (with what they change and rider findings), 585 dealer and retailer listings specific to this bike, and 3754 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
-| Yamaha GYTR | Clb Gytr Clutch Basket / YZ250, YZ250X - See Description For Model Application | GYT-5XF56-10-00 | Seller description: Yamaha GYT-5XF56-10-00 - Clb Gytr Clutch Basket is a genuine Yamaha part. It is an original equipment replacement part for select Yamaha motorcycles. | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-gyt-5xf56-10-00-clb-gytr-clutch-basket) | medium |
-| Yamaha GYTR | Gytr Clutch Pressure Plate / WR450F, YZ250, YZ250X, YZ450F, YZ450FX - See Description For Model Application | GYT-5XD56-20-00 | Seller description: Yamaha GYT-5XD56-20-00 - Gytr Clutch Pressure Plate is a genuine Yamaha part. It is an original equipment replacement part for select Yamaha motorcycles. | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-gyt-5xd56-20-00-gytr-clutch-pressure-plate) | medium |
-| Yamaha Genuine Accessories | Sprocket / WR400F, YZ250, YZ250X, YZ426F, YZ450F | 9383E-14215-00 | Seller description: Yamaha 9383E-14215-00 - Sprocket is a Yamaha Genuine accessory. This Yamaha Genuine sprocket is a direct replacement for the original sprocket on select YZ series off-road motorcyc | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-938-3e142-15-00-sprocket) | medium |
 | FMF | Gnarly Pipe | 024054 | FMF claims it focuses 'on increasing the lower RPM horsepower and torque' with 'bottom to mid range pull' (off-road oriented). | Sold out at capture; page compare-at price ($171.59) looks erroneous. | [FMF](https://www.fmfracing.com/products/gnarly-pipe-024054) | high |
 | Pro Circuit | Works Pipe | PY05250 | No claims on page. |  | [Pro Circuit](https://www.procircuit.com/works-yamaha) | high |
 
@@ -436,6 +433,13 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | MotoSport | MotoSport Racer Series Backgrounds - Yamaha |  | 49.99 USD | [MotoSport](https://www.motosport.com/motosport-racer-series-backgrounds-yamaha) |
 | MotoSport | MotoSport Standard Series Backgrounds - Yamaha |  | 39.99 USD | [MotoSport](https://www.motosport.com/motosport-standard-series-backgrounds-yamaha) |
 
+### Gytr (2)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Yamaha GYTR | Clb Gytr Clutch Basket / YZ250, YZ250X - See Description For Model Application | GYT-5XF56-10-00 | 275.65 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-gyt-5xf56-10-00-clb-gytr-clutch-basket) |
+| Yamaha GYTR | Gytr Clutch Pressure Plate / WR450F, YZ250, YZ250X, YZ450F, YZ450FX - See Description For Model Appl | GYT-5XD56-20-00 | 190.26 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-gyt-5xd56-20-00-gytr-clutch-pressure-plate) |
+
 ### Handlebars & Controls (25)
 
 | Brand | Part | Part numbers | Price | Sellers |
@@ -465,6 +469,12 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Zeta | Zeta Forged Pivot Clutch Lever Yamaha 65cc-450cc 2009-2027 | ZE42-4666 | 87.68 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-forged-pivot-clutch-lever-yamaha-65cc-450cc-2009-2024) |
 | Zeta | Zeta Pivot Brake Lever Yamaha / Kawasaki 125cc-450cc | ZE41-3265 | 106.34 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-pivot-brake-lever-yamaha-kawasaki-125cc-450cc) |
 | Zeta | Zeta Pivot Clutch Lever Yamaha 65cc-450cc 2009-2027 | ZE42-4266 | 106.34 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-pivot-clutch-lever-yamaha-65cc-450cc-2009-2024) |
+
+### Hard Parts (1)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Yamaha Genuine Accessories | Sprocket / WR400F, YZ250, YZ250X, YZ426F, YZ450F | 9383E-14215-00 | 23.99 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-938-3e142-15-00-sprocket) |
 
 ### Intake (9)
 
@@ -705,7 +715,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Controls 550, Lights And Electrical 381, Uncategorised 356, Handlebars & Controls 246, Tires 219, Body 200, Exhaust 175, Tools And Maintenance 172, Graphics 164, Suspension 144, Engine 144, Drive 126, Chain & Sprocket 122, Luggage And Racks 106, Brakes 100, Wheels And Rims 68, Vehicle Communication 60, Fuel System 54, Accessories 48, Air & Fuel 47, Batteries & Electrical 40, Gauges 38, Lighting 38, Bike Protection 35, Utv / Atv Parts 33, Skid Plates And Guards 25, Riding Gear 18, Farming And Hunting 13, Body & Fairing 8, Drive & Transmission 7, Intake 6, Filters 5, Helmets 3, Winch And Plow 2, Tire Accessories 1
+Controls 550, Lights And Electrical 381, Uncategorised 356, Handlebars & Controls 246, Tires 219, Body 200, Exhaust 175, Tools And Maintenance 172, Graphics 164, Engine 144, Suspension 144, Drive 126, Chain & Sprocket 122, Luggage And Racks 106, Brakes 100, Wheels And Rims 68, Vehicle Communication 60, Fuel System 54, Accessories 48, Air & Fuel 47, Batteries & Electrical 40, Gauges 38, Lighting 38, Bike Protection 35, Utv / Atv Parts 33, Skid Plates And Guards 25, Riding Gear 18, Farming And Hunting 13, Body & Fairing 8, Drive & Transmission 7, Intake 6, Filters 5, Helmets 3, Winch And Plow 2, Tire Accessories 1
 
-Top brands: Acerbis 152, Pro Taper 126, Cycra 122, Turner Performance Products 121, Motion Pro 117, Rugged Radios 105, Renthal 88, ODI 86, Factory Effex 83, RAM Mounts 74, Trail Tech 66, D'COR Visuals 65, RFX 63, DRC 59, Moose Racing 58, Fire Power 58, Polisport 54, Bolt Hardware 54, Bolt 54, Quad Lock 53, SP Connect 51, Zeta 46, Kriega 45, KTM PowerParts 43, Namz Custom Cycle 40
+Top brands: Acerbis 152, Pro Taper 126, Cycra 122, Turner Performance Products 121, Motion Pro 117, Rugged Radios 105, Renthal 88, ODI 86, Factory Effex 83, RAM Mounts 74, Trail Tech 66, D'COR Visuals 65, RFX 63, DRC 59, Fire Power 58, Moose Racing 58, Bolt Hardware 54, Polisport 54, Bolt 54, Quad Lock 53, SP Connect 51, Zeta 46, Kriega 45, KTM PowerParts 43, Namz Custom Cycle 40
 

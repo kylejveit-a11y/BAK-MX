@@ -14,7 +14,7 @@
 | Factory Effex | 135 | Graphics (72), Uncategorised (33), Handlebars & Controls (9), Seats (6), Body (6), Controls (5) | Cycle Gear 49, MotoSport 86 |
 | Polisport | 131 | Uncategorised (33), Body (27), Bike Protection (25), Handlebars & Controls (9), Exhaust (8), Lights and Electrical (7) | Cycle Gear 77, MotoSport 54 |
 | FMF | 119 | Exhaust (99), exhaust (15), Tools and Maintenance (2), Uncategorised (1), Body (1), protection (1) | Cycle Gear 64, MotoSport 39, research 16 |
-| Yamaha Genuine Accessories | 111 | Accessories (100), Hard Parts (10), Batteries & Battery Leads (1) | research 111 |
+| Yamaha Genuine Accessories | 111 | Accessories (100), Hard Parts (10), Batteries & Battery Leads (1) | Yamaha dealer 111 |
 | Rugged Radios | 105 | Vehicle Communication (60), Accessories (42), Helmets (3) | MotoSport 105 |
 | Renthal | 102 | Controls (31), Uncategorised (26), Handlebars & Controls (19), Chain & Sprocket (13), Drive (9), Brakes (3) | Cycle Gear 61, MotoSport 41 |
 | Pro Circuit | 101 | Exhaust (69), Engine (9), exhaust (9), Uncategorised (4), Controls (4), Suspension (2) | Cycle Gear 50, MotoSport 42, research 9 |
@@ -38,7 +38,7 @@
 | Vertex | 47 | Uncategorised (26), Engine (17), Exhaust (4) | Cycle Gear 30, MotoSport 17 |
 | Kriega | 45 | Luggage and Racks (27), Riding Gear (13), Farming and Hunting (2), Bike Protection (1), Uncategorised (1), Suspension (1) | Cycle Gear 2, MotoSport 43 |
 | Ride Engineering | 44 | Controls (20), Brakes (14), Drive (3), Engine (2), Suspension (1), Lights and Electrical (1) | MotoSport 43, research 1 |
-| Yamaha GYTR | 44 | GYTR (44) | research 44 |
+| Yamaha GYTR | 44 | GYTR (44) | Yamaha dealer 44 |
 | KTM PowerParts | 43 | Controls (16), Lights and Electrical (5), Body (4), Graphics (4), Tools and Maintenance (4), Drive (3) | MotoSport 43 |
 | Athena | 42 | Engine (25), Uncategorised (15), Suspension (2) | Cycle Gear 15, MotoSport 27 |
 | BikeMaster | 41 | Chain & Sprocket (10), Tools and Maintenance (7), Suspension (5), Uncategorised (3), Controls (2), Drive (2) | Cycle Gear 15, MotoSport 26 |

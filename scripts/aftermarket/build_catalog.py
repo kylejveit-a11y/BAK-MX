@@ -107,13 +107,13 @@ for pl in platforms:
     k=esc(pl.get('description'))[:80]
     if k in seen: continue
     seen.add(k); L.append(f"| {esc(pl.get('description'))[:220]} | {esc(pl.get('models_years'))[:220]} | [link]({pl.get('source_url')}) |")
-FEED=('ktt-','cg-','lng-','tri-','ms-')
+FEED=('ktt-','cg-','lng-','tri-','ms-','yop-')
 isfeed=lambda p:str(p['id']).startswith(FEED)
 feed=[p for p in products if isfeed(p)]
 if feed:
     L+=['','## Dealer and retailer catalogs','',f'{len(feed)} listings from dealer and retailer catalogs are summarised here and listed in full on the per-bike pages (bikes/) and in BRANDS.md.','',
         '| Source | Listings | Brands | With part numbers |','|---|---|---|---|']
-    for pre,name in (('ktt-','KTM Twins (official KTM dealer, US)'),('lng-','Lings (KTM/Husqvarna/GasGas dealer, UK)'),('tri-','Triumph Waukesha (official Triumph dealer, US)'),('cg-','Cycle Gear (retailer, US)'),('ms-','MotoSport (retailer, US)')):
+    for pre,name in (('ktt-','KTM Twins (official KTM dealer, US)'),('lng-','Lings (KTM/Husqvarna/GasGas dealer, UK)'),('tri-','Triumph Waukesha (official Triumph dealer, US)'),('cg-','Cycle Gear (retailer, US)'),('ms-','MotoSport (retailer, US)'),('yop-','Yamaha Online Parts (Yamaha dealer, US)')):
         ff=[p for p in feed if p['id'].startswith(pre)]
         if ff: L.append(f"| {name} | {len(ff)} | {len({p.get('brand') for p in ff})} | {sum(1 for p in ff if p.get('part_numbers'))} |")
 bycat=collections.defaultdict(list)
@@ -146,7 +146,7 @@ L+=['','## Gaps and work not done','']+[f'- ({s}) {esc(g)}' for s,g in gaps+notd
 open(os.path.join(fam_dir,'CATALOG.md'),'w').write('\n'.join(L)+'\n')
 os.makedirs(os.path.join(fam_dir,'bikes'),exist_ok=True)
 byid={p['id']:p for p in products}
-SRC={'ktt-':'KTM Twins','lng-':'Lings','tri-':'Triumph dealer','cg-':'Cycle Gear','ms-':'MotoSport'}
+SRC={'ktt-':'KTM Twins','lng-':'Lings','tri-':'Triumph dealer','cg-':'Cycle Gear','ms-':'MotoSport','yop-':'Yamaha dealer'}
 src_of=lambda p:next((v for k,v in SRC.items() if str(p['id']).startswith(k)),'research')
 # A retailer listing carried for three or more make families (KTM group, Triumph, Yamaha, Honda, Kawasaki) is a universal
 # item (oil, grips, batteries): counted on the bike pages and kept in parts.csv, but not listed row by row.
@@ -208,10 +208,101 @@ for p in products: br[str(p.get('brand') or 'Unknown').strip()].append(p)
 R=[f'# {title}: aftermarket brands','',f'{len(br)} brands with at least one part listed for these bikes, with the categories they cover and where the listings come from.','','| Brand | Parts | Categories | Sources |','|---|---|---|---|']
 for b in sorted(br,key=lambda b:(-len(br[b]),b.lower())):
     ps=br[b]; cats=collections.Counter(str(p.get('category') or 'Other').split(' > ')[-1].strip() for p in ps)
-    src=collections.Counter('KTM Twins' if p['id'].startswith('ktt-') else 'Lings' if p['id'].startswith('lng-') else 'Triumph dealer' if p['id'].startswith('tri-') else 'Cycle Gear' if p['id'].startswith('cg-') else 'MotoSport' if p['id'].startswith('ms-') else 'research' for p in ps)
+    src=collections.Counter('KTM Twins' if p['id'].startswith('ktt-') else 'Lings' if p['id'].startswith('lng-') else 'Triumph dealer' if p['id'].startswith('tri-') else 'Cycle Gear' if p['id'].startswith('cg-') else 'MotoSport' if p['id'].startswith('ms-') else 'Yamaha dealer' if p['id'].startswith('yop-') else 'research' for p in ps)
     R.append(f"| {esc(b)} | {len(ps)} | {esc(', '.join(f'{c} ({n})' for c,n in cats.most_common(6)))} | {esc(', '.join(f'{k} {v}' for k,v in src.items()))} |")
 open(os.path.join(fam_dir,'BRANDS.md'),'w').write('\n'.join(R)+'\n')
 json.dump({'by_bike':{f'{a}|{b}|{c}':sorted(i for i in v if src_of(byid[i])=='research') for (a,b,c),v in sorted(bike.items())},
            'listing_counts':{f'{a}|{b}|{c}':dict(collections.Counter(src_of(byid[i]) for i in v)) for (a,b,c),v in sorted(bike.items())},'unmapped':unmapped,
            'feedback_links':{x.get('id'):x['_linked'] for x in feedback}},open(os.path.join(fam_dir,'index.json'),'w'),indent=0)
 print(len(products),'products',len(feedback),'feedback',len(builds),'builds;',len(bike),'of',len(roster),'bike-years mapped; unmapped',len(unmapped))
+
+# ---------------------------------------------------------------------------------------------------------------
+# App catalog (optional): APP_OUT=<dir> writes <dir>/<family>.json, the rider-facing "What's on your bike" picker data.
+# Only parts a rider fits and that change how the bike runs or fits are kept, sorted into plain systems; listings merged
+# across sellers by brand and part number (or brand and name). Researched parts carry what they change, caveats and tester
+# notes and their source link; retailer listings keep brand, name and part numbers only, so the file stays small.
+APP_OUT=os.environ.get('APP_OUT')
+if APP_OUT:
+    SYSTEMS=['exhaust','suspension','engine','clutch','tuning','intake','gearing','brakes','controls','chassis','wheels','protection','body']
+    JUNK=re.compile(r'\b(tool|tools|stand|lift|wrench|socket|torx|battery|batteries|charger|tender|light|lights|lamp|led|helmet|jersey|glove|gloves|boot|boots|goggle|goggles|decal|decals|graphic|graphics|sticker|backgrounds?|grease|lube|lubricant|cleaner|polish|wash|tie[- ]?downs?|ramp|bag|luggage|backpack|gps|phone|camera|hour ?meter|tach|speedometer|computer|radio|intercom|cover kit|bike cover|muffler plug|exhaust plug|packing|repack|wrap|manual|book|poster|key ?chain|mat|funnel|sealant|thread ?lock|loctite|zip ?ties?|fluid|coolant|oil(?! ?filter)|gift card|t-?shirt|hat|hoodie|sticker|tape(?! grip)|brush|towel|gauge|tie rod|winch|plow|rack|basket(?! clutch)|cooler|mirror|horn|turn signal|license|stand|umbrella)\b',re.I)
+    RULES=[('tuning',r'\b(ecu|e\.c\.u|ignition (?:box|module|curve)|map ?switch|map select|tuner|tuning|fuel controller|power commander|vortex|wi-?fi|connectivity|fi calibration|power tuner|launch control|traction control|engine control|fuel injection kit|injector|throttle body|fuel pump|carburetor|carb\b|jet kit|main jet|pilot jet|needle)'),
+           ('controls',r'\b(handlebars?|fat ?bar|bar pad|grips?|levers?|perch|throttle tube|throttle|foot ?pegs?|pegs?|bar mounts?|bar clamps?|handguards?|hand guards?|brush guards?|kill switch|start button|shift(?:er| lever)|gear lever|brake pedal|kick ?start(?:er)?|hot start|clutch cable|throttle cable|bar riser)\b'),
+           ('exhaust',r'\b(exhausts?|mufflers?|silencers?|slip-?ons?|head ?pipes?|header|expansion chamber|pipes?|megabomb|spark arrest(?:o|e)r|end ?cap|power ?bomb|tailpipe|resonator)\b'),
+           ('suspension',r'\b(forks?|shocks?|springs?|linkage|link arm|pull rod|cartridge|preload|holeshot|start device|launch device|bleeders?|fork seals?|seal kit|dust seals?|suspension|valving|revalve|air fork|fork guard|clickers?|sag|shock bladder|piston kit fork)\b'),
+           ('clutch',r'\b(clutch|pressure plate|friction plates?|steel plates?|clutch basket|inner hub|torqdrive|auto ?clutch|slave cylinder)\b'),
+           ('chassis',r'\b(triple clamps?|clamp set|steering stem|steering damper|stabilizer|engine mounts?|engine hanger|subframe|frame|swing ?arm|chain guide|chain slider|chain roller|rollers?|axle|axle block|wheel spacers?)\b'),
+           ('gearing',r'\b(sprockets?|chain(?! guard)|master link|drive kit)\b'),
+           ('brakes',r'\b(brakes?|rotors?|calipers?|pads?|master cylinder|brake discs?|discs?|brake lines?|oversize rotor)\b'),
+           ('wheels',r'\b(wheels?|rims?|hubs?|spokes?|tires?|tyres?|tubes?|mousse|tubliss|rim locks?|bead lock|nipples)\b'),
+           ('intake',r'\b(air ?filters?|air ?box|airbox|intake|velocity stack|filter cage|air boot|pre-?filter|filter skin|air filter cover|snorkel|reed|reeds|reed valve)\b'),
+           ('engine',r'\b(pistons?|cylinders?|head|cams?|camshafts?|valves?|crank|crankshaft|connecting rod|big bore|stroker|gaskets?|top end|bottom end|water pump|radiators?|cooling|fan|hose kit|radiator hoses?|thermostat|ignition cover|stator|flywheel|engine|oil filter|power valve|exhaust valve|transmission|gear set|shift drum|cylinder head|compression)\b'),
+           ('protection',r'\b(skid ?plate|glide ?plate|bash ?plate|guards?|protectors?|frame guards?|radiator guards?|disc guards?|caliper guard|case saver|case guard|shark fin|link guard|chain guard)\b'),
+           ('body',r'\b(plastics?|plastic kit|fenders?|shrouds?|number plates?|side panels?|side covers?|seats?|seat cover|seat foam|tanks?|fuel tank|gas tank|airbox cover|air box cover)\b')]
+    CATHINT=[('exhaust','exhaust'),('suspension','suspension'),('clutch','clutch'),('chain','gearing'),('sprocket','gearing'),('brake','brakes'),('tire','wheels'),('wheel','wheels'),
+             ('handlebar','controls'),('controls','controls'),('ergonomic','controls'),('protection','protection'),('skid','protection'),('seat','body'),('body','body'),('plastics','body'),
+             ('intake','intake'),('filter','intake'),('air & fuel','intake'),('fuel','tuning'),('ecu','tuning'),('electronics','tuning'),('engine','engine'),('cooling','engine'),
+             ('chassis','chassis'),('drive','gearing'),('gytr','engine'),('performance','engine')]
+    def system_of(p):
+        name=f"{p.get('product') or ''}"; cat=f"{p.get('category') or ''} {p.get('subcategory') or ''}".lower(); t=(name+' '+cat).lower()
+        if JUNK.search(name) and not re.search(r'clutch basket|oil filter',name,re.I): return None
+        if re.search(r'\b(riding gear|helmets|luggage|lights|lighting|batteries|electrical|gauges|tools|utv|farming|winch|garage|security|styling|comfort|decal|fluids|graphics|vehicle communication|gps|bags)\b',cat) and not re.search(r'fuel|ecu|tun',t): return None
+        for s,rx in RULES:
+            if re.search(rx,name,re.I): return s
+        for k,s in CATHINT:
+            if k in cat: return s
+        return None
+    MAKES=r'(?:KTM|Husqvarna|Husky|Gas ?Gas|GASGAS|Yamaha|Honda|Kawasaki|Suzuki|Triumph|Beta|Sherco|CF ?Moto|Stark|Husaberg|AJP|TM|Fantic|Rieju|Kayo|Polaris|Can-Am|Arctic Cat|BMW|Ducati)'
+    def clean(brand,name):
+        n=re.sub(r'\s+',' ',str(name)).strip()
+        if brand and n.lower().startswith(str(brand).lower()+' '): n=n[len(brand)+1:]
+        m=re.search(r'\s+(?:-\s+|for\s+|\|\s+)?'+MAKES+r'\b[\s/,&+-]*(?:'+MAKES+r'\b[\s/,&+-]*)*.*$',n)
+        if m and m.start()>=6: n=n[:m.start()]
+        n=re.sub(r'\s*[-|,/]\s*$','',n).strip()
+        return n[:90] or str(name)[:90]
+    SELL={'Cycle Gear':('cg','https://www.cyclegear.com/parts/'),'MotoSport':('ms','https://www.motosport.com/'),'KTM Twins':('kt','https://ktmtwins.com/products/'),
+          'Lings':('lg','https://lings.com/products/'),'Triumph dealer':('tr',''),'Yamaha dealer':('ym','https://yamahaonlineparts.com/products/'),'research':('rs','')}
+    brands=[];bidx={}
+    def bi(b):
+        b=re.sub(r'\s+',' ',str(b or 'Unbranded')).strip()
+        k=re.sub(r'[^a-z0-9]','',b.lower())
+        if k not in bidx: bidx[k]=len(brands); brands.append(b)
+        return bidx[k]
+    items=[];ikey={};bikes_out={}
+    def short(s,n): s=re.sub(r'\s+',' ',str(s or '')).strip().replace(' at capture',' when checked'); return s if len(s)<=n else s[:n-1].rsplit(' ',1)[0]+'…'
+    for (mk,model,y),ids in sorted(bike.items()):
+        lst=set()
+        for i in ids:
+            p=byid[i]; s=system_of(p)
+            if not s: continue
+            src=src_of(p); b=bi(p.get('brand')); pns=sorted(p.get('part_numbers') or [])
+            name=clean(brands[b],p.get('product'))
+            key=(b,tuple(pns)) if pns else (b,re.sub(r'[^a-z0-9]','',name.lower()))
+            if key not in ikey:
+                ikey[key]=len(items); items.append({'b':b,'n':name,'s':SYSTEMS.index(s),'p':' '.join(pns)[:48],'u':[],'r':None})
+            it=items[ikey[key]]
+            if src=='research':
+                it['r']=p['id']; it['n']=name; it['conf']=p.get('confidence')
+                it['w']=short(p.get('what_it_changes'),220); it['c']=short(' '.join((' '.join(map(str,x)) if isinstance(x,list) else str(x)) for x in (p.get('supporting_parts'),p.get('caveats')) if x),220)
+                fb=[f"{x.get('publication') or x.get('source_type')}: {short(x.get('observed'),160)}" for x in p.get('_feedback',[]) if x.get('observed')][:2]
+                if fb: it['t']=fb
+                if not it['p'] and pns: it['p']=' '.join(pns)[:80]
+            code,base=SELL.get(src,('rs',''))
+            w=(p.get('where_to_buy') or [{}])[0]; url=w.get('url') or p.get('fitment_source_url') or ''
+            path=url[len(base):] if base and url.startswith(base) else url
+            if src=='research' and path and len(it['u'])<2 and all(c!=code for c,_,_ in it['u']):
+                pr=w.get('price_if_stated'); it['u'].append((code,path,(str(pr)+' '+(w.get('currency') or '')).strip() if pr else ''))
+            lst.add(ikey[key])
+        srt=sorted(lst); bikes_out[f'{mk}|{model}|{y}']=[v-(srt[i-1] if i else 0) for i,v in enumerate(srt)]  # delta-encoded item indexes
+    out_items=[]
+    for it in items:
+        o={'b':it['b'],'n':it['n'],'s':it['s']}
+        if it['p']:o['p']=it['p']
+        if it['u']:o['u']=[[c,pth]+([pr] if pr else []) for c,pth,pr in it['u']]
+        for k in ('r','conf','w','c','t'):
+            if it.get(k):o[k]=it[k]
+        out_items.append(o)
+    fam=os.path.basename(fam_dir.rstrip('/'))
+    os.makedirs(APP_OUT,exist_ok=True)
+    json.dump({'v':2,'family':fam,'generated':'2026-10-15','systems':SYSTEMS,'sellers':{c:b for c,b in SELL.values()},'brands':brands,'items':out_items,'bikes':bikes_out},
+              open(os.path.join(APP_OUT,fam+'.json'),'w'),separators=(',',':'),ensure_ascii=False)
+    print('app catalog',fam,len(out_items),'items',len(brands),'brands',os.path.getsize(os.path.join(APP_OUT,fam+'.json'))//1024,'KB',collections.Counter(SYSTEMS[i['s']] for i in out_items).most_common())

@@ -6,8 +6,8 @@
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
-| Pro Circuit | Ti-6 Dual Carbon Ti-System, CRF250R/RX 2020-'21 | 0312025F2 |  | Dual-muffler generation; does not fit 2022+ CRF250R single-muffler platform. | [Pro Circuit (maker)](https://www.procircuit.com/ti-6-dual-crf250r-rx-20) | high |
 | Pro Circuit | T-6 Stainless Slip-On w/ Removable Spark Arrestor, CRF250R/RX 2020-'21 | 0112025A2 |  | Dual slip-on generation (A2 suffix pattern / price matches dual units). | [Pro Circuit (maker)](https://www.procircuit.com/honda-t-6-slip-on-crf250r-rx-20) | high |
+| Pro Circuit | Ti-6 Dual Carbon Ti-System, CRF250R/RX 2020-'21 | 0312025F2 |  | Dual-muffler generation; does not fit 2022+ CRF250R single-muffler platform. | [Pro Circuit (maker)](https://www.procircuit.com/ti-6-dual-crf250r-rx-20) | high |
 
 ## Dealer and retailer listings for this bike
 
@@ -197,5 +197,5 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 Controls 564, Lights And Electrical 383, Tires 239, Body 200, Tools And Maintenance 170, Graphics 165, Engine 156, Drive 121, Suspension 112, Luggage And Racks 106, Brakes 105, Exhaust 85, Wheels And Rims 79, Vehicle Communication 60, Fuel System 56, Accessories 48, Skid Plates And Guards 22, Riding Gear 18, Farming And Hunting 13, Chain & Sprocket 12, Uncategorised 9, Handlebars & Controls 9, Intake 7, Batteries & Electrical 6, Helmets 3, Winch And Plow 2, Utv / Atv Parts 1, Filters 1
 
-Top brands: Turner Performance Products 113, Rugged Radios 105, Motion Pro 98, Acerbis 94, RAM Mounts 72, Cycra 67, Pro Taper 67, D'COR Visuals 65, Factory Effex 58, Bolt 54, Trail Tech 53, Quad Lock 53, DRC 52, SP Connect 51, ODI 48, KTM PowerParts 43, Kriega 43, Renthal 41, Namz Custom Cycle 40, Fastway 38, Ride Engineering 35, Polisport 35, Shinko 35, RFX 34, Kenda 32
+Top brands: Turner Performance Products 113, Rugged Radios 105, Motion Pro 98, Acerbis 94, RAM Mounts 72, Cycra 67, Pro Taper 67, D'COR Visuals 65, Factory Effex 58, Bolt 54, Quad Lock 53, Trail Tech 53, DRC 52, SP Connect 51, ODI 48, Kriega 43, KTM PowerParts 43, Renthal 41, Namz Custom Cycle 40, Fastway 38, Shinko 35, Ride Engineering 35, Polisport 35, RFX 34, Kenda 32
 

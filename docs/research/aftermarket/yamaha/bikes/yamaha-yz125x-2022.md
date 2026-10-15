@@ -1,18 +1,6 @@
 # Yamaha YZ125X 2022: aftermarket parts
 
-4147 listings whose stated fitment names this bike: 7 researched parts (with what they change and rider findings), 540 dealer and retailer listings specific to this bike, and 3600 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
-
-## Researched parts
-
-| Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
-|---|---|---|---|---|---|---|
-| Yamaha GYTR | Gytr Billet Ignition Cover / YZ250, YZ250 50th Anniversary Edition, YZ250X - See Description For Model Application | BCR-E54G0-V0-00 | Seller description: Yamaha BCR-E54G0-V0-00 - GYTR YZ250 Ignition Cover is a genuine Yamaha accessory. The GYTR Ignition Cover is precision-machined from 6061 aluminum for added protection and styling  | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-bcr-e54g0-v0-00-gytr-billet-ignition-cover) | medium |
-| Yamaha GYTR | GYTR YZ/WR Chain Guide / WR250F, WR450F, YZ125, YZ125X, YZ250, YZ250F - See Description For Model Application | 17D-F21E0-V1-00 | Seller description: Yamaha 17D-F21E0-V1-00 - GYTR YZ/WR Chain Guide is a GYTR accessory. This GYTR chain guide is designed to minimize the risk of chain derailment or damage on select Yamaha YZ and WR | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-17d-f21e0-v1-00-gytr-yz-wr-chain-guide) | medium |
-| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25452-50-00 | Seller description: Yamaha 17D-25452-50-00 - Sprocket is a Yamaha Genuine accessory. This Yamaha Genuine sprocket is a direct replacement for the original sprocket on select YZ series off-road motorcy | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-17d-25452-50-00-sprocket) | medium |
-| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25451-50-00 | Seller description: Yamaha 17D-25451-50-00 - Sprocket is a Yamaha Genuine accessory. This Yamaha Genuine sprocket is a direct replacement for the original sprocket on select YZ series off-road motorcy | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-17d-25451-50-00-sprocket) | medium |
-| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25449-50-00 | Seller description: Yamaha 17D-25449-50-00 - Sprocket is a Yamaha Genuine accessory. This Yamaha Genuine sprocket is a direct replacement for the original sprocket on select YZ series off-road motorcy | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-17d-25449-50-00-sprocket) | medium |
-| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25450-50-00 | Seller description: Yamaha 17D-25450-50-00 - Sprocket is a Yamaha Genuine accessory. This Yamaha Genuine sprocket is a direct replacement for the original sprocket on select YZ series off-road motorcy | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-17d-25450-50-00-sprocket) | medium |
-| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25448-50-00 | Seller description: Yamaha 17D-25448-50-00 - Sprocket is a Yamaha Genuine accessory. This Yamaha Genuine sprocket is a direct replacement for the original sprocket on select YZ series off-road motorcy | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-17d-25448-50-00-sprocket) | medium |
+4147 listings whose stated fitment names this bike: 0 researched parts (with what they change and rider findings), 547 dealer and retailer listings specific to this bike, and 3600 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Dealer and retailer listings for this bike
 
@@ -397,6 +385,13 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | MotoSport | MotoSport Racer Series Backgrounds - Yamaha |  | 49.99 USD | [MotoSport](https://www.motosport.com/motosport-racer-series-backgrounds-yamaha) |
 | MotoSport | MotoSport Standard Series Backgrounds - Yamaha |  | 39.99 USD | [MotoSport](https://www.motosport.com/motosport-standard-series-backgrounds-yamaha) |
 
+### Gytr (2)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Yamaha GYTR | GYTR YZ/WR Chain Guide / WR250F, WR450F, YZ125, YZ125X, YZ250, YZ250F - See Description For Model Ap | 17D-F21E0-V1-00 | 98.96 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-f21e0-v1-00-gytr-yz-wr-chain-guide) |
+| Yamaha GYTR | Gytr Billet Ignition Cover / YZ250, YZ250 50th Anniversary Edition, YZ250X - See Description For Mod | BCR-E54G0-V0-00 | 169.99 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-bcr-e54g0-v0-00-gytr-billet-ignition-cover) |
+
 ### Handlebars & Controls (23)
 
 | Brand | Part | Part numbers | Price | Sellers |
@@ -424,6 +419,16 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Zeta | Zeta Forged Pivot Clutch Lever Yamaha 65cc-450cc 2009-2027 | ZE42-4666 | 87.68 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-forged-pivot-clutch-lever-yamaha-65cc-450cc-2009-2024) |
 | Zeta | Zeta Pivot Brake Lever Yamaha / Kawasaki 125cc-450cc | ZE41-3265 | 106.34 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-pivot-brake-lever-yamaha-kawasaki-125cc-450cc) |
 | Zeta | Zeta Pivot Clutch Lever Yamaha 65cc-450cc 2009-2027 | ZE42-4266 | 106.34 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-pivot-clutch-lever-yamaha-65cc-450cc-2009-2024) |
+
+### Hard Parts (5)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25451-50-00 | 86.37 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25451-50-00-sprocket) |
+| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25448-50-00 | 82.83 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25448-50-00-sprocket) |
+| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25449-50-00 | 84.08 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25449-50-00-sprocket) |
+| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25450-50-00 | 73.12 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25450-50-00-sprocket) |
+| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25452-50-00 | 87.07 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25452-50-00-sprocket) |
 
 ### Intake (7)
 
@@ -668,7 +673,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Controls 546, Lights And Electrical 381, Uncategorised 311, Tires 228, Handlebars & Controls 204, Body 195, Tools And Maintenance 171, Graphics 162, Exhaust 149, Engine 142, Suspension 136, Chain & Sprocket 131, Drive 123, Luggage And Racks 106, Brakes 98, Wheels And Rims 70, Vehicle Communication 60, Fuel System 54, Accessories 48, Air & Fuel 42, Batteries & Electrical 39, Gauges 36, Lighting 32, Utv / Atv Parts 27, Bike Protection 27, Skid Plates And Guards 24, Riding Gear 18, Farming And Hunting 13, Intake 6, Body & Fairing 5, Filters 5, Drive & Transmission 5, Helmets 3, Winch And Plow 2, Tire Accessories 1
+Controls 546, Lights And Electrical 381, Uncategorised 311, Tires 228, Handlebars & Controls 204, Body 195, Tools And Maintenance 171, Graphics 162, Exhaust 149, Engine 142, Suspension 136, Chain & Sprocket 131, Drive 123, Luggage And Racks 106, Brakes 98, Wheels And Rims 70, Vehicle Communication 60, Fuel System 54, Accessories 48, Air & Fuel 42, Batteries & Electrical 39, Gauges 36, Lighting 32, Bike Protection 27, Utv / Atv Parts 27, Skid Plates And Guards 24, Riding Gear 18, Farming And Hunting 13, Intake 6, Drive & Transmission 5, Body & Fairing 5, Filters 5, Helmets 3, Winch And Plow 2, Tire Accessories 1
 
 Top brands: Acerbis 139, Pro Taper 135, Turner Performance Products 118, Motion Pro 117, Cycra 116, Rugged Radios 105, ODI 79, Factory Effex 78, Renthal 74, RAM Mounts 74, D'COR Visuals 66, Trail Tech 64, DRC 58, RFX 57, Bolt 54, Quad Lock 53, Polisport 52, SP Connect 51, Fire Power 48, Moose Racing 47, Bolt Hardware 46, Kriega 45, KTM PowerParts 43, Namz Custom Cycle 40, Fastway 37
 

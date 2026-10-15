@@ -1,14 +1,11 @@
 # Yamaha YZ250X 2024: aftermarket parts
 
-4114 listings whose stated fitment names this bike: 6 researched parts (with what they change and rider findings), 441 dealer and retailer listings specific to this bike, and 3667 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+4114 listings whose stated fitment names this bike: 3 researched parts (with what they change and rider findings), 444 dealer and retailer listings specific to this bike, and 3667 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
-| Yamaha GYTR | Clb Gytr Clutch Basket / YZ250, YZ250X - See Description For Model Application | GYT-5XF56-10-00 | Seller description: Yamaha GYT-5XF56-10-00 - Clb Gytr Clutch Basket is a genuine Yamaha part. It is an original equipment replacement part for select Yamaha motorcycles. | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-gyt-5xf56-10-00-clb-gytr-clutch-basket) | medium |
-| Yamaha GYTR | Gytr Clutch Pressure Plate / WR450F, YZ250, YZ250X, YZ450F, YZ450FX - See Description For Model Application | GYT-5XD56-20-00 | Seller description: Yamaha GYT-5XD56-20-00 - Gytr Clutch Pressure Plate is a genuine Yamaha part. It is an original equipment replacement part for select Yamaha motorcycles. | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-gyt-5xd56-20-00-gytr-clutch-pressure-plate) | medium |
-| Yamaha Genuine Accessories | Sprocket / WR400F, YZ250, YZ250X, YZ426F, YZ450F | 9383E-14215-00 | Seller description: Yamaha 9383E-14215-00 - Sprocket is a Yamaha Genuine accessory. This Yamaha Genuine sprocket is a direct replacement for the original sprocket on select YZ series off-road motorcyc | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-938-3e142-15-00-sprocket) | medium |
 | FMF | Gnarly Pipe | 024054 | FMF claims it focuses 'on increasing the lower RPM horsepower and torque' with 'bottom to mid range pull' (off-road oriented). | Sold out at capture; page compare-at price ($171.59) looks erroneous. | [FMF](https://www.fmfracing.com/products/gnarly-pipe-024054) | high |
 | Pro Circuit | Works Champ Pipe | 0732525 | No claims on page. |  | [Pro Circuit](https://www.procircuit.com/works-yamaha) | high |
 | Pro Circuit | Works Pipe | PY05250 | No claims on page. |  | [Pro Circuit](https://www.procircuit.com/works-yamaha) | high |
@@ -374,6 +371,13 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Throttle Syndicate | Throttle Syndicate Flush Complete Kit - Yamaha | TS40-2000, TS40-2002, TS40-2004, TS40-2006, TS40-2008, TS40-2010, TS40-2012, TS40-2014, TS40-2016, TS40-2018, TS40-2020, | 119.99 USD | [MotoSport](https://www.motosport.com/throttle-syndicate-flush-complete-kit-yamaha) |
 | Throttle Syndicate | Throttle Syndicate Flush Shroud Kit - Yamaha | TS40-2001, TS40-2003, TS40-2005, TS40-2007, TS40-2009, TS40-2011, TS40-2013, TS40-2017, TS40-2021, TS40-2023, TS40-2025 | 69.99 USD | [MotoSport](https://www.motosport.com/throttle-syndicate-flush-shroud-kit-yamaha) |
 
+### Gytr (2)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Yamaha GYTR | Clb Gytr Clutch Basket / YZ250, YZ250X - See Description For Model Application | GYT-5XF56-10-00 | 275.65 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-gyt-5xf56-10-00-clb-gytr-clutch-basket) |
+| Yamaha GYTR | Gytr Clutch Pressure Plate / WR450F, YZ250, YZ250X, YZ450F, YZ450FX - See Description For Model Appl | GYT-5XD56-20-00 | 190.26 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-gyt-5xd56-20-00-gytr-clutch-pressure-plate) |
+
 ### Handlebars & Controls (10)
 
 | Brand | Part | Part numbers | Price | Sellers |
@@ -388,6 +392,12 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Polisport | Polisport APT Unbreakable Lever Kit Yamaha 125cc-450cc 2009-2027 | 91580 | 41.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-apt-unbreakable-lever-kit-yamaha-125cc-450cc-2009-2025) |
 | Polisport | Polisport MX Flow Handguards Yamaha 125cc-450cc 2008-2027 White/Blue [Open Box] | 8308200016 | 37.22 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-mx-flow-handguards-yamaha-125cc-450cc-2008-2023-) |
 | Polisport | Polisport Pivot Lever Set Yamaha 125cc-450cc 2015-2027 | 8487200027, 8487200028, 8487200029 | 113.39 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-pivot-lever-set-yamaha-125cc-450cc-2015-2022) |
+
+### Hard Parts (1)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Yamaha Genuine Accessories | Sprocket / WR400F, YZ250, YZ250X, YZ426F, YZ450F | 9383E-14215-00 | 23.99 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-938-3e142-15-00-sprocket) |
 
 ### Intake (9)
 
@@ -564,5 +574,5 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 Controls 550, Lights And Electrical 381, Uncategorised 324, Handlebars & Controls 232, Tires 219, Body 193, Tools And Maintenance 172, Exhaust 167, Graphics 164, Engine 143, Suspension 140, Chain & Sprocket 139, Drive 127, Luggage And Racks 106, Brakes 91, Wheels And Rims 67, Vehicle Communication 60, Fuel System 54, Accessories 48, Air & Fuel 45, Lighting 35, Gauges 33, Batteries & Electrical 33, Bike Protection 30, Utv / Atv Parts 29, Skid Plates And Guards 25, Riding Gear 18, Farming And Hunting 13, Drive & Transmission 8, Intake 6, Body & Fairing 5, Filters 4, Helmets 3, Winch And Plow 2, Tire Accessories 1
 
-Top brands: Acerbis 147, Pro Taper 131, Motion Pro 119, Turner Performance Products 116, Cycra 115, Rugged Radios 105, ODI 83, Factory Effex 81, Renthal 79, RAM Mounts 74, RFX 65, D'COR Visuals 65, Trail Tech 62, DRC 58, Bolt 53, Quad Lock 53, SP Connect 51, Moose Racing 51, Polisport 49, Kriega 45, Fire Power 45, KTM PowerParts 43, Zeta 42, Bolt Hardware 41, Namz Custom Cycle 40
+Top brands: Acerbis 147, Pro Taper 131, Motion Pro 119, Turner Performance Products 116, Cycra 115, Rugged Radios 105, ODI 83, Factory Effex 81, Renthal 79, RAM Mounts 74, RFX 65, D'COR Visuals 65, Trail Tech 62, DRC 58, Quad Lock 53, Bolt 53, SP Connect 51, Moose Racing 51, Polisport 49, Fire Power 45, Kriega 45, KTM PowerParts 43, Zeta 42, Bolt Hardware 41, Namz Custom Cycle 40
 

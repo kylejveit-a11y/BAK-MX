@@ -1,13 +1,11 @@
 # Yamaha YZ250F 2027: aftermarket parts
 
-2537 listings whose stated fitment names this bike: 3 researched parts (with what they change and rider findings), 54 dealer and retailer listings specific to this bike, and 2480 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+2537 listings whose stated fitment names this bike: 1 researched parts (with what they change and rider findings), 56 dealer and retailer listings specific to this bike, and 2480 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
-| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25452-50-00 | Seller description: Yamaha 17D-25452-50-00 - Sprocket is a Yamaha Genuine accessory. This Yamaha Genuine sprocket is a direct replacement for the original sprocket on select YZ series off-road motorcy | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-17d-25452-50-00-sprocket) | medium |
-| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25448-50-00 | Seller description: Yamaha 17D-25448-50-00 - Sprocket is a Yamaha Genuine accessory. This Yamaha Genuine sprocket is a direct replacement for the original sprocket on select YZ series off-road motorcy | Fitment as listed by the dealer; confirm the part number against the Yamaha parts diagram for the bike. | [Yamaha Online Parts](https://yamahaonlineparts.com/products/yamaha-17d-25448-50-00-sprocket) | medium |
 | Rekluse | TorqDrive Clutch Pack - YAM 450F 23 | RMS-2807176 | Rekluse claims additional friction disks give 'an average of a 25% gain in torque capacity over stock', about 10% lower lever effort, and 'Virtually eliminates clutch fade.' | Not a replacement pack for RadiusX/RadiusCX/Core Manual TorqDrive. The YZ250F listing in its fitment tab conflicts with the product title; confirm before use. | [Rekluse](https://www.rekluse.com/product/manual-clutches/torq-drive-clutch-pack/torqdrive-clutch-pack-yam-450f-23/) | high |
 
 ## Dealer and retailer listings for this bike
@@ -90,6 +88,13 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Factory Effex | Factory Effex OEM Lower Fork Graphics - Yamaha | 17-40208, 17-40212, 17-40220, 17-40218, 17-40226, 23-40204, 26-40254 | 12.59 USD | [MotoSport](https://www.motosport.com/factory-effex-oem-lower-fork-graphics-yamaha) |
 | Factory Effex | Factory Effex Sponsored Lower Fork Graphics - Yamaha | 17-40262, 17-40270, 17-40268, 17-40278, 26-40256 | 13.99 USD | [MotoSport](https://www.motosport.com/factory-effex-sponsored-lower-fork-graphics-yamaha) |
 
+### Hard Parts (2)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25448-50-00 | 82.83 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25448-50-00-sprocket) |
+| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25452-50-00 | 87.07 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25452-50-00-sprocket) |
+
 ### Intake (4)
 
 | Brand | Part | Part numbers | Price | Sellers |
@@ -130,7 +135,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Controls 493, Lights And Electrical 381, Body 193, Tires 188, Tools And Maintenance 172, Graphics 164, Drive 122, Luggage And Racks 106, Engine 95, Exhaust 89, Suspension 83, Brakes 67, Wheels And Rims 66, Vehicle Communication 60, Fuel System 55, Accessories 48, Riding Gear 18, Skid Plates And Guards 18, Farming And Hunting 13, Chain & Sprocket 12, Handlebars & Controls 9, Uncategorised 8, Intake 7, Batteries & Electrical 6, Helmets 3, Winch And Plow 2, Filters 1, Utv / Atv Parts 1
+Controls 493, Lights And Electrical 381, Body 193, Tires 188, Tools And Maintenance 172, Graphics 164, Drive 122, Luggage And Racks 106, Engine 95, Exhaust 89, Suspension 83, Brakes 67, Wheels And Rims 66, Vehicle Communication 60, Fuel System 55, Accessories 48, Skid Plates And Guards 18, Riding Gear 18, Farming And Hunting 13, Chain & Sprocket 12, Handlebars & Controls 9, Uncategorised 8, Intake 7, Batteries & Electrical 6, Helmets 3, Winch And Plow 2, Filters 1, Utv / Atv Parts 1
 
-Top brands: Rugged Radios 105, Motion Pro 93, Acerbis 91, Turner Performance Products 89, RAM Mounts 72, Cycra 69, D'COR Visuals 65, Pro Taper 64, Factory Effex 60, Bolt 55, Quad Lock 53, Trail Tech 52, SP Connect 51, DRC 49, ODI 48, Kriega 43, KTM PowerParts 43, Namz Custom Cycle 40, Renthal 39, Ride Engineering 34, Giant Loop 32, RFX 32, Husqvarna Technical Accessories 31, Kenda 31, Shinko 30
+Top brands: Rugged Radios 105, Motion Pro 93, Acerbis 91, Turner Performance Products 89, RAM Mounts 72, Cycra 69, D'COR Visuals 65, Pro Taper 64, Factory Effex 60, Bolt 55, Quad Lock 53, Trail Tech 52, SP Connect 51, DRC 49, ODI 48, KTM PowerParts 43, Kriega 43, Namz Custom Cycle 40, Renthal 39, Ride Engineering 34, RFX 32, Giant Loop 32, Kenda 31, Husqvarna Technical Accessories 31, Shinko 30
 
