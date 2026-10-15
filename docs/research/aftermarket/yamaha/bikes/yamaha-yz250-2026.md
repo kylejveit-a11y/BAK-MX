@@ -6,8 +6,8 @@
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
-| FMF | Factory Fatty | 024056 | FMF claims it 'broadens and smoothes out the power curve' with 'more low-end, more mid, and increased over-rev'. | Sold out at capture. | [FMF](https://www.fmfracing.com/products/factory-fatty-024056) | high |
 | FMF | Gnarly Pipe | 024054 | FMF claims it focuses 'on increasing the lower RPM horsepower and torque' with 'bottom to mid range pull' (off-road oriented). | Sold out at capture; page compare-at price ($171.59) looks erroneous. | [FMF](https://www.fmfracing.com/products/gnarly-pipe-024054) | high |
+| FMF | Factory Fatty | 024056 | FMF claims it 'broadens and smoothes out the power curve' with 'more low-end, more mid, and increased over-rev'. | Sold out at capture. | [FMF](https://www.fmfracing.com/products/factory-fatty-024056) | high |
 | Pro Circuit | Works Champ Pipe | 0732525 | No claims on page. |  | [Pro Circuit](https://www.procircuit.com/works-yamaha) | high |
 
 ## Dealer and retailer listings for this bike
@@ -398,5 +398,5 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 Uncategorised 358, Handlebars & Controls 241, Chain & Sprocket 138, Exhaust 94, Batteries & Electrical 40, Gauges 37, Air & Fuel 36, Lighting 36, Bike Protection 33, Utv / Atv Parts 28, Suspension 27, Body & Fairing 8, Drive & Transmission 7, Filters 5, Tire Accessories 1
 
-Top brands: Pro Taper 66, Acerbis 62, Cycra 57, Bolt Hardware 55, Moose Racing 52, Renthal 49, ODI 46, Zeta 42, Fire Power 39, Helix Racing Products 31, RFX 30, RK 30, Factory Effex 26, Barkbusters 24, Namz 23, FMF 23, EK Chain 22, Motion Pro 21, Polisport 19, Koso 18, Motolis 17, Yoshimura 13, BBR Motorsports 13, K&N 13, Pro Grip 12
+Top brands: Pro Taper 66, Acerbis 62, Cycra 57, Bolt Hardware 55, Moose Racing 52, Renthal 49, ODI 46, Zeta 42, Fire Power 39, Helix Racing Products 31, RFX 30, RK 30, Factory Effex 26, Barkbusters 24, FMF 23, Namz 23, EK Chain 22, Motion Pro 21, Polisport 19, Koso 18, Motolis 17, Yoshimura 13, K&N 13, BBR Motorsports 13, BikeMaster 12
 

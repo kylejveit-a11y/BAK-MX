@@ -6,8 +6,8 @@
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
-| FMF | Factory Fatty | 024056 | FMF claims it 'broadens and smoothes out the power curve' with 'more low-end, more mid, and increased over-rev'. | Sold out at capture. | [FMF](https://www.fmfracing.com/products/factory-fatty-024056) | high |
 | FMF | Gnarly Pipe | 024054 | FMF claims it focuses 'on increasing the lower RPM horsepower and torque' with 'bottom to mid range pull' (off-road oriented). | Sold out at capture; page compare-at price ($171.59) looks erroneous. | [FMF](https://www.fmfracing.com/products/gnarly-pipe-024054) | high |
+| FMF | Factory Fatty | 024056 | FMF claims it 'broadens and smoothes out the power curve' with 'more low-end, more mid, and increased over-rev'. | Sold out at capture. | [FMF](https://www.fmfracing.com/products/factory-fatty-024056) | high |
 | Pro Circuit | Works Champ Pipe | 0732525 | No claims on page. |  | [Pro Circuit](https://www.procircuit.com/works-yamaha) | high |
 | Pro Circuit | Ti-2 Shorty Silencer (Ti/Blue Kevlar) |  | Not checked. | Pages seen only as search-result titles; part numbers and prices not seen. YZ125 page: https://procircuit.com/ti-2-blue-silencer-yz125-22-23.html | [source](https://www.procircuit.com/ti-2-blue-silencer-yz250-03-23.html) | medium |
 | Pro Circuit | Works Pipe | PY05250 | No claims on page. |  | [Pro Circuit](https://www.procircuit.com/works-yamaha) | high |
@@ -20,8 +20,8 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
-| Yamaha Genuine Accessories | Side Cover Insert / YZ250 | BCR-217R0-G0-00 | 184.99 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-bcr-217r0-g0-00-side-cover-insert) |
 | Yamaha Genuine Accessories | Side Cover Insert / YZ250 | BCR-217S0-G0-00 | 184.99 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-bcr-217s0-g0-00-side-cover-insert) |
+| Yamaha Genuine Accessories | Side Cover Insert / YZ250 | BCR-217R0-G0-00 | 184.99 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-bcr-217r0-g0-00-side-cover-insert) |
 
 ### Air & Fuel (8)
 
@@ -769,7 +769,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Controls 554, Lights And Electrical 381, Body 201, Tires 198, Tools And Maintenance 171, Graphics 167, Engine 146, Drive 127, Suspension 124, Luggage And Racks 106, Exhaust 101, Brakes 99, Wheels And Rims 68, Uncategorised 64, Vehicle Communication 60, Handlebars & Controls 60, Fuel System 54, Chain & Sprocket 49, Accessories 48, Skid Plates And Guards 26, Riding Gear 18, Farming And Hunting 13, Gauges 10, Utv / Atv Parts 6, Intake 6, Bike Protection 5, Batteries & Electrical 5, Helmets 3, Lighting 3, Air & Fuel 3, Drive & Transmission 2, Winch And Plow 2, Filters 1
+Controls 554, Lights And Electrical 381, Body 201, Tires 198, Tools And Maintenance 171, Graphics 167, Engine 146, Drive 127, Suspension 124, Luggage And Racks 106, Exhaust 101, Brakes 99, Wheels And Rims 68, Uncategorised 64, Handlebars & Controls 60, Vehicle Communication 60, Fuel System 54, Chain & Sprocket 49, Accessories 48, Skid Plates And Guards 26, Riding Gear 18, Farming And Hunting 13, Gauges 10, Utv / Atv Parts 6, Intake 6, Batteries & Electrical 5, Bike Protection 5, Air & Fuel 3, Lighting 3, Helmets 3, Drive & Transmission 2, Winch And Plow 2, Filters 1
 
-Top brands: Turner Performance Products 121, Acerbis 107, Rugged Radios 105, Motion Pro 102, Pro Taper 89, Cycra 74, RAM Mounts 72, D'COR Visuals 66, Factory Effex 60, ODI 59, Trail Tech 59, Renthal 55, DRC 54, Bolt 54, Quad Lock 53, SP Connect 51, KTM PowerParts 43, Kriega 43, Namz Custom Cycle 40, RFX 38, Polisport 38, Fastway 37, Ride Engineering 35, Giant Loop 32, Shinko 32
+Top brands: Turner Performance Products 121, Acerbis 107, Rugged Radios 105, Motion Pro 102, Pro Taper 89, Cycra 74, RAM Mounts 72, D'COR Visuals 66, Factory Effex 60, ODI 59, Trail Tech 59, Renthal 55, DRC 54, Bolt 54, Quad Lock 53, SP Connect 51, Kriega 43, KTM PowerParts 43, Namz Custom Cycle 40, RFX 38, Polisport 38, Fastway 37, Ride Engineering 35, Shinko 32, Giant Loop 32
 

@@ -6,8 +6,8 @@
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
-| Rekluse | TorqDrive Clutch Pack - YAM 450F 23 | RMS-2807176 | Rekluse claims additional friction disks give 'an average of a 25% gain in torque capacity over stock', about 10% lower lever effort, and 'Virtually eliminates clutch fade.' | Not a replacement pack for RadiusX/RadiusCX/Core Manual TorqDrive. The YZ250F listing in its fitment tab conflicts with the product title; confirm before use. | [Rekluse](https://www.rekluse.com/product/manual-clutches/torq-drive-clutch-pack/torqdrive-clutch-pack-yam-450f-23/) | high |
 | Rekluse | RadiusCX 4.0 - YZ450 | RMS-8907176 | Rekluse claims it 'Eliminates stalling, start and stop without engaging the clutch lever', with full lever override and TorqDrive pack for longer life. | 'Call for Availability'. 2026 YZ450F moved to Nissin hydraulic clutch (MXA); fitment page still lists 2026. | [Rekluse](https://www.rekluse.com/product/auto-clutches/radiuscx/radiuscx-clutches/radiuscx-4-0-yz450-23/) | high |
+| Rekluse | TorqDrive Clutch Pack - YAM 450F 23 | RMS-2807176 | Rekluse claims additional friction disks give 'an average of a 25% gain in torque capacity over stock', about 10% lower lever effort, and 'Virtually eliminates clutch fade.' | Not a replacement pack for RadiusX/RadiusCX/Core Manual TorqDrive. The YZ250F listing in its fitment tab conflicts with the product title; confirm before use. | [Rekluse](https://www.rekluse.com/product/manual-clutches/torq-drive-clutch-pack/torqdrive-clutch-pack-yam-450f-23/) | high |
 
 ## Dealer and retailer listings for this bike
 
@@ -305,5 +305,5 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 Controls 513, Lights And Electrical 381, Tires 219, Body 188, Tools And Maintenance 173, Graphics 161, Drive 120, Engine 118, Luggage And Racks 106, Exhaust 92, Suspension 87, Brakes 76, Wheels And Rims 63, Vehicle Communication 60, Fuel System 55, Accessories 48, Skid Plates And Guards 22, Riding Gear 18, Farming And Hunting 13, Intake 7, Helmets 3, Winch And Plow 2
 
-Top brands: Rugged Radios 105, Motion Pro 96, Acerbis 92, Turner Performance Products 83, RAM Mounts 72, Cycra 68, D'COR Visuals 65, Pro Taper 61, Factory Effex 57, Bolt 54, Quad Lock 53, Trail Tech 52, SP Connect 51, DRC 49, KTM PowerParts 43, ODI 43, Kriega 43, Namz Custom Cycle 40, Renthal 38, Ride Engineering 36, RFX 34, Shinko 34, Giant Loop 32, Kenda 31, Husqvarna Technical Accessories 31
+Top brands: Rugged Radios 105, Motion Pro 96, Acerbis 92, Turner Performance Products 83, RAM Mounts 72, Cycra 68, D'COR Visuals 65, Pro Taper 61, Factory Effex 57, Bolt 54, Quad Lock 53, Trail Tech 52, SP Connect 51, DRC 49, Kriega 43, ODI 43, KTM PowerParts 43, Namz Custom Cycle 40, Renthal 38, Ride Engineering 36, RFX 34, Shinko 34, Giant Loop 32, Kenda 31, Husqvarna Technical Accessories 31
 

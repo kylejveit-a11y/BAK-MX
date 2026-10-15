@@ -6,8 +6,8 @@
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
-| FMF | Factory Fatty | 024056 | FMF claims it 'broadens and smoothes out the power curve' with 'more low-end, more mid, and increased over-rev'. | Sold out at capture. | [FMF](https://www.fmfracing.com/products/factory-fatty-024056) | high |
 | FMF | Gnarly Pipe | 024054 | FMF claims it focuses 'on increasing the lower RPM horsepower and torque' with 'bottom to mid range pull' (off-road oriented). | Sold out at capture; page compare-at price ($171.59) looks erroneous. | [FMF](https://www.fmfracing.com/products/gnarly-pipe-024054) | high |
+| FMF | Factory Fatty | 024056 | FMF claims it 'broadens and smoothes out the power curve' with 'more low-end, more mid, and increased over-rev'. | Sold out at capture. | [FMF](https://www.fmfracing.com/products/factory-fatty-024056) | high |
 | Pro Circuit | Works Champ Pipe | 0732525 | No claims on page. |  | [Pro Circuit](https://www.procircuit.com/works-yamaha) | high |
 | Pro Circuit | Ti-2 Shorty Silencer (Ti/Blue Kevlar) |  | Not checked. | Pages seen only as search-result titles; part numbers and prices not seen. YZ125 page: https://procircuit.com/ti-2-blue-silencer-yz125-22-23.html | [source](https://www.procircuit.com/ti-2-blue-silencer-yz250-03-23.html) | medium |
 | Pro Circuit | Works Pipe | PY05250 | No claims on page. |  | [Pro Circuit](https://www.procircuit.com/works-yamaha) | high |
@@ -541,10 +541,10 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
 | Yamaha Genuine Accessories | Sprocket / WR400F, YZ250, YZ250X, YZ426F, YZ450F | 9383E-14215-00 | 23.99 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-938-3e142-15-00-sprocket) |
-| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25451-50-00 | 86.37 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25451-50-00-sprocket) |
 | Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25448-50-00 | 82.83 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25448-50-00-sprocket) |
 | Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25449-50-00 | 84.08 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25449-50-00-sprocket) |
 | Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25450-50-00 | 73.12 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25450-50-00-sprocket) |
+| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25451-50-00 | 86.37 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25451-50-00-sprocket) |
 | Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25452-50-00 | 87.07 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25452-50-00-sprocket) |
 
 ### Intake (9)
@@ -831,7 +831,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Controls 554, Lights And Electrical 381, Uncategorised 336, Handlebars & Controls 236, Body 204, Tires 198, Tools And Maintenance 172, Graphics 168, Exhaust 161, Engine 146, Suspension 146, Drive 126, Chain & Sprocket 120, Brakes 107, Luggage And Racks 106, Wheels And Rims 71, Vehicle Communication 60, Fuel System 54, Accessories 48, Air & Fuel 48, Batteries & Electrical 41, Lighting 37, Gauges 35, Bike Protection 34, Utv / Atv Parts 30, Skid Plates And Guards 26, Riding Gear 18, Farming And Hunting 13, Body & Fairing 8, Drive & Transmission 6, Intake 6, Filters 4, Helmets 3, Winch And Plow 2
+Controls 554, Lights And Electrical 381, Uncategorised 336, Handlebars & Controls 236, Body 204, Tires 198, Tools And Maintenance 172, Graphics 168, Exhaust 161, Engine 146, Suspension 146, Drive 126, Chain & Sprocket 120, Brakes 107, Luggage And Racks 106, Wheels And Rims 71, Vehicle Communication 60, Fuel System 54, Air & Fuel 48, Accessories 48, Batteries & Electrical 41, Lighting 37, Gauges 35, Bike Protection 34, Utv / Atv Parts 30, Skid Plates And Guards 26, Riding Gear 18, Farming And Hunting 13, Body & Fairing 8, Intake 6, Drive & Transmission 6, Filters 4, Helmets 3, Winch And Plow 2
 
-Top brands: Acerbis 153, Pro Taper 128, Turner Performance Products 124, Motion Pro 119, Cycra 118, Rugged Radios 105, ODI 85, Renthal 85, Factory Effex 84, RAM Mounts 74, RFX 66, Trail Tech 65, D'COR Visuals 65, DRC 59, Polisport 57, Bolt Hardware 54, Bolt 54, Moose Racing 54, Quad Lock 53, Fire Power 53, SP Connect 51, Zeta 44, KTM PowerParts 43, Kriega 43, Namz Custom Cycle 40
+Top brands: Acerbis 153, Pro Taper 128, Turner Performance Products 124, Motion Pro 119, Cycra 118, Rugged Radios 105, Renthal 85, ODI 85, Factory Effex 84, RAM Mounts 74, RFX 66, D'COR Visuals 65, Trail Tech 65, DRC 59, Polisport 57, Moose Racing 54, Bolt 54, Bolt Hardware 54, Quad Lock 53, Fire Power 53, SP Connect 51, Zeta 44, Kriega 43, KTM PowerParts 43, Namz Custom Cycle 40
 

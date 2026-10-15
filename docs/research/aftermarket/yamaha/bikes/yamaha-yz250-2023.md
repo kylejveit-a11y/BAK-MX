@@ -6,8 +6,8 @@
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
-| FMF | Factory Fatty | 024056 | FMF claims it 'broadens and smoothes out the power curve' with 'more low-end, more mid, and increased over-rev'. | Sold out at capture. | [FMF](https://www.fmfracing.com/products/factory-fatty-024056) | high |
 | FMF | Gnarly Pipe | 024054 | FMF claims it focuses 'on increasing the lower RPM horsepower and torque' with 'bottom to mid range pull' (off-road oriented). | Sold out at capture; page compare-at price ($171.59) looks erroneous. | [FMF](https://www.fmfracing.com/products/gnarly-pipe-024054) | high |
+| FMF | Factory Fatty | 024056 | FMF claims it 'broadens and smoothes out the power curve' with 'more low-end, more mid, and increased over-rev'. | Sold out at capture. | [FMF](https://www.fmfracing.com/products/factory-fatty-024056) | high |
 | Pro Circuit | Works Champ Pipe | 0732525 | No claims on page. |  | [Pro Circuit](https://www.procircuit.com/works-yamaha) | high |
 | Pro Circuit | Ti-2 Shorty Silencer (Ti/Blue Kevlar) |  | Not checked. | Pages seen only as search-result titles; part numbers and prices not seen. YZ125 page: https://procircuit.com/ti-2-blue-silencer-yz125-22-23.html | [source](https://www.procircuit.com/ti-2-blue-silencer-yz250-03-23.html) | medium |
 | Pro Circuit | Works Pipe | PY05250 | No claims on page. |  | [Pro Circuit](https://www.procircuit.com/works-yamaha) | high |
@@ -21,8 +21,8 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
 | Yamaha Genuine Accessories | Side Cover Insert Assembly 3 / YZ250 | BCR-217R0-J0-00 | 237.99 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-bcr-217r0-j0-00-side-cover-insert-assy-3) |
-| Yamaha Genuine Accessories | Side Cover Insert Assembly 4 / YZ250 | BCR-217S0-K0-00 | 104.57 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-bcr-217s0-k0-00-side-cover-insert-assy-4) |
 | Yamaha Genuine Accessories | Side Cover Insert Assembly 4 / YZ250 | BCR-217S0-J0-00 | 237.99 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-bcr-217s0-j0-00-side-cover-insert-assy-4) |
+| Yamaha Genuine Accessories | Side Cover Insert Assembly 4 / YZ250 | BCR-217S0-K0-00 | 104.57 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-bcr-217s0-k0-00-side-cover-insert-assy-4) |
 
 ### Air & Fuel (8)
 
@@ -477,5 +477,5 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 Uncategorised 328, Handlebars & Controls 235, Chain & Sprocket 139, Exhaust 84, Gauges 39, Batteries & Electrical 33, Lighting 33, Bike Protection 30, Air & Fuel 30, Utv / Atv Parts 19, Suspension 18, Body & Fairing 8, Drive & Transmission 7, Filters 5, Tire Accessories 1
 
-Top brands: Pro Taper 69, Acerbis 58, Bolt Hardware 51, Cycra 49, Renthal 45, Moose Racing 44, ODI 41, Fire Power 36, Zeta 35, Barkbusters 31, RFX 28, RK 28, Factory Effex 26, Helix Racing Products 25, EK Chain 22, FMF 22, Polisport 18, Motion Pro 18, Koso 17, Namz 17, Motolis 16, Pro Grip 15, DID Chain 15, Yoshimura 12, BikeMaster 11
+Top brands: Pro Taper 69, Acerbis 58, Bolt Hardware 51, Cycra 49, Renthal 45, Moose Racing 44, ODI 41, Fire Power 36, Zeta 35, Barkbusters 31, RFX 28, RK 28, Factory Effex 26, Helix Racing Products 25, FMF 22, EK Chain 22, Motion Pro 18, Polisport 18, Namz 17, Koso 17, Motolis 16, Pro Grip 15, DID Chain 15, Yoshimura 12, BikeMaster 11
 

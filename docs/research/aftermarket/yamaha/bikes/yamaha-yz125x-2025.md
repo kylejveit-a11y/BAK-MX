@@ -269,5 +269,5 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 Controls 542, Lights And Electrical 381, Tires 218, Body 194, Tools And Maintenance 171, Graphics 165, Engine 134, Drive 122, Suspension 113, Luggage And Racks 106, Exhaust 83, Brakes 82, Wheels And Rims 64, Vehicle Communication 60, Fuel System 54, Accessories 48, Skid Plates And Guards 26, Riding Gear 18, Farming And Hunting 13, Chain & Sprocket 12, Handlebars & Controls 9, Uncategorised 8, Batteries & Electrical 6, Intake 6, Helmets 3, Winch And Plow 2, Filters 1, Utv / Atv Parts 1
 
-Top brands: Turner Performance Products 106, Rugged Radios 105, Motion Pro 98, Acerbis 94, RAM Mounts 72, Cycra 66, D'COR Visuals 66, Pro Taper 65, Factory Effex 57, Trail Tech 55, Quad Lock 53, Bolt 53, DRC 52, SP Connect 51, ODI 48, KTM PowerParts 43, Kriega 43, Namz Custom Cycle 40, Renthal 38, Fastway 37, Shinko 34, RFX 33, Ride Engineering 33, Giant Loop 32, Kenda 32
+Top brands: Turner Performance Products 106, Rugged Radios 105, Motion Pro 98, Acerbis 94, RAM Mounts 72, D'COR Visuals 66, Cycra 66, Pro Taper 65, Factory Effex 57, Trail Tech 55, Quad Lock 53, Bolt 53, DRC 52, SP Connect 51, ODI 48, Kriega 43, KTM PowerParts 43, Namz Custom Cycle 40, Renthal 38, Fastway 37, Shinko 34, RFX 33, Ride Engineering 33, Kenda 32, Polisport 32
 

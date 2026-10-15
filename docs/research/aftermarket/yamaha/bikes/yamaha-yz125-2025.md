@@ -8,8 +8,8 @@
 |---|---|---|---|---|---|---|
 | FMF | Fatty Gold Series Pipe | 024076 | FMF claims 'more low-end, more mid, and increased over-rev' and 'More tractable power, improved throttle control.' |  | [FMF](https://www.fmfracing.com/products/fatty-024076) | high |
 | Pro Circuit | R-304 Silencer | 1132212 | No claims on page. |  | [Pro Circuit](https://www.procircuit.com/r-304-yz125-22-23) | high |
-| Pro Circuit | Ti-2 Shorty Silencer (Ti/Blue Kevlar) |  | Not checked. | Pages seen only as search-result titles; part numbers and prices not seen. YZ125 page: https://procircuit.com/ti-2-blue-silencer-yz125-22-23.html | [source](https://www.procircuit.com/ti-2-blue-silencer-yz250-03-23.html) | medium |
 | Pro Circuit | Platinum Pipe | 0832212 | No claims on page. | 2022 YZ125 got a new cylinder/engine; separate pipes exist for 2005-2021 YZ125 (and 2020-2022 YZ125X). | [Pro Circuit](https://www.procircuit.com/platinum-pipe-yz125-22.html) | high |
+| Pro Circuit | Ti-2 Shorty Silencer (Ti/Blue Kevlar) |  | Not checked. | Pages seen only as search-result titles; part numbers and prices not seen. YZ125 page: https://procircuit.com/ti-2-blue-silencer-yz125-22-23.html | [source](https://www.procircuit.com/ti-2-blue-silencer-yz250-03-23.html) | medium |
 | Pro Circuit | Works Pipe | 0732212 | No claims on page. |  | [Pro Circuit](https://www.procircuit.com/works-yamaha) | high |
 
 ## Dealer and retailer listings for this bike
@@ -594,7 +594,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Controls 550, Lights And Electrical 381, Uncategorised 323, Handlebars & Controls 252, Tires 218, Body 194, Tools And Maintenance 170, Graphics 168, Exhaust 167, Chain & Sprocket 142, Suspension 141, Engine 137, Drive 124, Luggage And Racks 106, Brakes 97, Wheels And Rims 67, Vehicle Communication 60, Fuel System 54, Accessories 48, Air & Fuel 48, Gauges 38, Lighting 36, Batteries & Electrical 35, Utv / Atv Parts 34, Bike Protection 32, Skid Plates And Guards 27, Riding Gear 18, Farming And Hunting 13, Body & Fairing 9, Drive & Transmission 7, Intake 6, Filters 4, Helmets 3, Winch And Plow 2, Tire Accessories 1
+Controls 550, Lights And Electrical 381, Uncategorised 323, Handlebars & Controls 252, Tires 218, Body 194, Tools And Maintenance 170, Graphics 168, Exhaust 167, Chain & Sprocket 142, Suspension 141, Engine 137, Drive 124, Luggage And Racks 106, Brakes 97, Wheels And Rims 67, Vehicle Communication 60, Fuel System 54, Air & Fuel 48, Accessories 48, Gauges 38, Lighting 36, Batteries & Electrical 35, Utv / Atv Parts 34, Bike Protection 32, Skid Plates And Guards 27, Riding Gear 18, Farming And Hunting 13, Body & Fairing 9, Drive & Transmission 7, Intake 6, Filters 4, Helmets 3, Winch And Plow 2, Tire Accessories 1
 
-Top brands: Acerbis 157, Pro Taper 129, Cycra 119, Turner Performance Products 116, Motion Pro 115, Rugged Radios 105, Renthal 86, ODI 84, Factory Effex 80, RAM Mounts 74, Trail Tech 66, D'COR Visuals 66, RFX 63, DRC 60, Fire Power 59, Moose Racing 56, Bolt 54, Quad Lock 53, Polisport 53, SP Connect 51, Bolt Hardware 49, Kriega 45, Zeta 44, KTM PowerParts 43, Namz Custom Cycle 40
+Top brands: Acerbis 157, Pro Taper 129, Cycra 119, Turner Performance Products 116, Motion Pro 115, Rugged Radios 105, Renthal 86, ODI 84, Factory Effex 80, RAM Mounts 74, D'COR Visuals 66, Trail Tech 66, RFX 63, DRC 60, Fire Power 59, Moose Racing 56, Bolt 54, Quad Lock 53, Polisport 53, SP Connect 51, Bolt Hardware 49, Kriega 45, Zeta 44, KTM PowerParts 43, Namz Custom Cycle 40
 

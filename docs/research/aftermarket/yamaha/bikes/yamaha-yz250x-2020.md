@@ -713,7 +713,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Controls 548, Lights And Electrical 381, Tires 219, Body 198, Tools And Maintenance 172, Graphics 164, Engine 144, Drive 126, Suspension 118, Luggage And Racks 106, Brakes 99, Exhaust 82, Wheels And Rims 68, Vehicle Communication 60, Fuel System 54, Accessories 48, Skid Plates And Guards 24, Chain & Sprocket 19, Handlebars & Controls 18, Riding Gear 18, Uncategorised 16, Farming And Hunting 13, Intake 6, Helmets 3, Utv / Atv Parts 2, Gauges 2, Winch And Plow 2, Bike Protection 2, Batteries & Electrical 2, Drive & Transmission 1
+Controls 548, Lights And Electrical 381, Tires 219, Body 198, Tools And Maintenance 172, Graphics 164, Engine 144, Drive 126, Suspension 118, Luggage And Racks 106, Brakes 99, Exhaust 82, Wheels And Rims 68, Vehicle Communication 60, Fuel System 54, Accessories 48, Skid Plates And Guards 24, Chain & Sprocket 19, Riding Gear 18, Handlebars & Controls 18, Uncategorised 16, Farming And Hunting 13, Intake 6, Helmets 3, Gauges 2, Bike Protection 2, Winch And Plow 2, Batteries & Electrical 2, Utv / Atv Parts 2, Drive & Transmission 1
 
-Top brands: Turner Performance Products 121, Rugged Radios 105, Motion Pro 98, Acerbis 93, Pro Taper 73, RAM Mounts 72, Cycra 68, D'COR Visuals 65, Factory Effex 59, Trail Tech 57, Bolt 54, Quad Lock 53, DRC 52, SP Connect 51, ODI 46, KTM PowerParts 43, Kriega 43, Renthal 42, Namz Custom Cycle 40, Fastway 37, Ride Engineering 36, Shinko 34, RFX 33, Giant Loop 32, Polisport 32
+Top brands: Turner Performance Products 121, Rugged Radios 105, Motion Pro 98, Acerbis 93, Pro Taper 73, RAM Mounts 72, Cycra 68, D'COR Visuals 65, Factory Effex 59, Trail Tech 57, Bolt 54, Quad Lock 53, DRC 52, SP Connect 51, ODI 46, Kriega 43, KTM PowerParts 43, Renthal 42, Namz Custom Cycle 40, Fastway 37, Ride Engineering 36, Shinko 34, RFX 33, Polisport 32, Giant Loop 32
 

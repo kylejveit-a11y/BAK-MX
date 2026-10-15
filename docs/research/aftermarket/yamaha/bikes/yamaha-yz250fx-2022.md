@@ -557,7 +557,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Controls 537, Lights And Electrical 384, Uncategorised 323, Tires 229, Handlebars & Controls 219, Body 202, Exhaust 183, Tools And Maintenance 173, Engine 173, Graphics 160, Suspension 134, Drive 125, Chain & Sprocket 122, Luggage And Racks 106, Brakes 89, Wheels And Rims 68, Vehicle Communication 60, Fuel System 55, Accessories 48, Air & Fuel 42, Batteries & Electrical 36, Gauges 32, Utv / Atv Parts 31, Skid Plates And Guards 30, Lighting 30, Bike Protection 27, Riding Gear 18, Farming And Hunting 13, Drive & Transmission 7, Body & Fairing 7, Intake 6, Filters 4, Helmets 3, Winch And Plow 2, Tire Accessories 1
+Controls 537, Lights And Electrical 384, Uncategorised 323, Tires 229, Handlebars & Controls 219, Body 202, Exhaust 183, Engine 173, Tools And Maintenance 173, Graphics 160, Suspension 134, Drive 125, Chain & Sprocket 122, Luggage And Racks 106, Brakes 89, Wheels And Rims 68, Vehicle Communication 60, Fuel System 55, Accessories 48, Air & Fuel 42, Batteries & Electrical 36, Gauges 32, Utv / Atv Parts 31, Lighting 30, Skid Plates And Guards 30, Bike Protection 27, Riding Gear 18, Farming And Hunting 13, Body & Fairing 7, Drive & Transmission 7, Intake 6, Filters 4, Helmets 3, Winch And Plow 2, Tire Accessories 1
 
 Top brands: Acerbis 140, Pro Taper 126, Motion Pro 120, Cycra 117, Turner Performance Products 114, Rugged Radios 105, Renthal 82, ODI 81, Factory Effex 79, RAM Mounts 74, D'COR Visuals 65, Trail Tech 64, DRC 60, Bolt 55, Quad Lock 53, Polisport 53, RFX 52, Moose Racing 52, Bolt Hardware 52, SP Connect 51, Fire Power 47, Kriega 45, Zeta 44, KTM PowerParts 43, Namz Custom Cycle 40
 

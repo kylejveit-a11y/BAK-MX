@@ -7,13 +7,13 @@
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
 | Moto-Master | Supermoto Racing Brake Kit, Front 320mm (Triumph TF) | 313097R | Converts to 320mm 2-piece floating disc with caliper, adapter, 12mm radial master cylinder, SS line, racing pads. | Seller note: 'for bikes with a headlight' - odd for X/C models; confirm. | [Ghost Bikes (UK)](https://www.ghostbikes.com/products/2528034-moto-master-supermoto-racing-brake-kit-for-triumph-tf250c-2026-front) | medium |
-| Rekluse | APEX-TD Clutch - Triumph TF250X | RMS-7412002 | Fixed-pin inner hub + pressure plate with TorqDrive friction; Rekluse pitches it against OEM hub oil-flow/slip issues. |  | [Rekluse](https://www.rekluse.com/product-category/manual-clutches/mk-triumph/) | high |
 | Rekluse | TorqDrive Clutch Pack - Triumph TF250X | RMS-2812002 | Drop-in friction pack inside OEM basket/hub; more friction area, longer life (maker). |  | [Rekluse](https://www.rekluse.com/product-category/manual-clutches/mk-triumph/) | high |
+| Rekluse | APEX-TD Clutch - Triumph TF250X | RMS-7412002 | Fixed-pin inner hub + pressure plate with TorqDrive friction; Rekluse pitches it against OEM hub oil-flow/slip issues. |  | [Rekluse](https://www.rekluse.com/product-category/manual-clutches/mk-triumph/) | high |
 | Pro-X Racing | Piston Kit Triumph 250, 78mm forged | 01.7354.A, 01.7354.C | OEM-replacement forged piston, 4 valve pockets. | Oro2u is trade-only; 'TF 250-E 2025' listed though E launched for 2026 elsewhere - check. | [Oro2u (UK B2B, retail price)](https://www.oro2u.com/piston-kit-triumph-250-78mm-prox-01-7354-a) | medium |
 | FMF Racing | Factory 4.1 RCT Slip-On (Triumph TF250X/C/E) | 045695 | FMF claims power gains through the rpm range and weight savings; RTS tuning, removable spark arrestor, 94 dB quiet insert; works with stock or FMF header. | Cycle Gear 'from' price depends on material. FMF's own page for 045695 not fetched. | [Cycle Gear](https://www.cyclegear.com/parts/fmf-factory-41-rct-slip-on-exhaust-triumph-tf250x-c-e-2024-2026) | medium |
+| Pro Circuit | T-6 Exhaust System (Triumph TF250X) | 01122525G | Budget stainless alternative to Ti-6; Pro Circuit claims same performance as Ti-6 with more durability. | Pro Circuit site not fetched; part number taken from Cycle Gear 'Manufacturer Product #'. MXA quoted $990.95 in its 2025 spotlight. A T-6 slip-on for TF250X is  | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-t-6-exhaust-system-triumph-tf250x) | medium |
 | Pro Circuit | Ti-6 Pro Titanium Exhaust System (Triumph TF250X) | 03122525FP | Retailer copy says it passes AMA/FIM sound rules, is lighter than stock and improves throttle response; closed-course only. | Pro Circuit site not fetched; part number taken from Cycle Gear 'Manufacturer Product #'. No dB figure published. | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-ti-6-pro-titanium-exhaust-system-triumph-tf250x) | medium |
 | Pro Circuit | Ti-6 Titanium Exhaust System (Triumph TF250X) | 03122525F | Pro Circuit says it improves performance across the rpm range; RC-4 resonance chamber, removable USFS spark arrestor. Meets AMA amateur sound limits, not FIM pro limits (per retailer copy). | Pro Circuit site not fetched; part number taken from Cycle Gear 'Manufacturer Product #'. MXA (2025 spotlight) quoted $1,269.95 for 2025 TF250X. | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-ti-6-titanium-exhaust-system-triumph-tf250x) | medium |
-| Pro Circuit | T-6 Exhaust System (Triumph TF250X) | 01122525G | Budget stainless alternative to Ti-6; Pro Circuit claims same performance as Ti-6 with more durability. | Pro Circuit site not fetched; part number taken from Cycle Gear 'Manufacturer Product #'. MXA quoted $990.95 in its 2025 spotlight. A T-6 slip-on for TF250X is  | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-t-6-exhaust-system-triumph-tf250x) | medium |
 | AXP Racing | Skid Plate with Linkage Guard, 8mm HDPE (Triumph TF 250-X / TF 250-E 2025-26) | AX1783 | Covers frame, water pump, cases, linkage; 30-40% lighter than aluminium, 1.5 kg (maker). |  | [DirtBikeSpec](https://dirtbikespec.com/product/axp-triumph-skid-plate-2025-26-tf-250-x-tf-250-e-with-linkage-guard-black-ax1783/) | medium |
 
 ## Dealer and retailer listings for this bike
@@ -131,8 +131,8 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
-| Triumph Genuine Accessories | Akrapovic Exhaust, Full System | A9601349 | 1931.25 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23365?catalogue=TF250-X&year=2026) |
 | Triumph Genuine Accessories | Akrapovic Exhaust, Full System | A9601360 | 1668.60 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23365?catalogue=TF250-X&year=2026) |
+| Triumph Genuine Accessories | Akrapovic Exhaust, Full System | A9601349 | 1931.25 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23365?catalogue=TF250-X&year=2026) |
 
 ### Protection (27)
 
@@ -196,7 +196,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Controls 464, Lights And Electrical 381, Tires 188, Body 174, Graphics 163, Tools And Maintenance 162, Luggage And Racks 106, Exhaust 97, Drive 95, Suspension 92, Brakes 81, Engine 78, Vehicle Communication 60, Fuel System 55, Accessories 48, Wheels And Rims 48, Riding Gear 18, Farming And Hunting 13, Handlebars & Controls 13, Skid Plates And Guards 12, Chain & Sprocket 10, Intake 6, Uncategorised 5, Helmets 3, Batteries & Electrical 2, Winch And Plow 2, Utv / Atv Parts 1
+Controls 464, Lights And Electrical 381, Tires 188, Body 174, Graphics 163, Tools And Maintenance 162, Luggage And Racks 106, Exhaust 97, Drive 95, Suspension 92, Brakes 81, Engine 78, Vehicle Communication 60, Fuel System 55, Wheels And Rims 48, Accessories 48, Riding Gear 18, Handlebars & Controls 13, Farming And Hunting 13, Skid Plates And Guards 12, Chain & Sprocket 10, Intake 6, Uncategorised 5, Helmets 3, Winch And Plow 2, Batteries & Electrical 2, Utv / Atv Parts 1
 
-Top brands: Rugged Radios 105, Motion Pro 95, Acerbis 84, Turner Performance Products 83, RAM Mounts 72, D'COR Visuals 65, Pro Taper 65, Factory Effex 58, Cycra 58, Quad Lock 53, Bolt 53, Trail Tech 52, SP Connect 51, DRC 48, ODI 46, Kriega 43, KTM PowerParts 43, Namz Custom Cycle 40, Renthal 39, Giant Loop 32, Husqvarna Technical Accessories 31, Kenda 31, Shinko 30, Ride Engineering 30, RFX 30
+Top brands: Rugged Radios 105, Motion Pro 95, Acerbis 84, Turner Performance Products 83, RAM Mounts 72, Pro Taper 65, D'COR Visuals 65, Factory Effex 58, Cycra 58, Bolt 53, Quad Lock 53, Trail Tech 52, SP Connect 51, DRC 48, ODI 46, KTM PowerParts 43, Kriega 43, Namz Custom Cycle 40, Renthal 39, Giant Loop 32, Kenda 31, Husqvarna Technical Accessories 31, Shinko 30, RFX 30, Ride Engineering 30
 
