@@ -942,3 +942,23 @@ body.sheet-open{overflow:hidden}
 .nav-sheet .sheet-foot .button{width:100%}
 @media(min-width:761px){.nav-sheet{height:min(86vh,820px)}}
 @media(max-width:760px){.nav-bar{padding:calc(10px + env(safe-area-inset-top)) 12px 2px}}
+
+/* How did it ride? (after BAK suggests setup changes), 2026-10-15 */
+.ride-check{margin-top:18px;padding:16px;border-radius:16px;background:rgba(255,255,255,.05);border:1px solid var(--line-strong)}
+.ride-check h4{margin:0 0 12px;font-size:15px;color:#f1f4f9}
+.rc-which{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.rc-which button{padding:7px 12px;border-radius:999px;background:rgba(255,255,255,.07);color:#dfe5ee;font-size:13px}
+.rc-which button.on{background:#e3e9f2;color:#0b0d12}
+.rc-results{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.rc-result{display:flex;flex-direction:column;align-items:center;gap:6px;padding:12px 6px;border-radius:12px;background:rgba(255,255,255,.07);color:#e6ecf4;font-size:14px;font-weight:600}
+.rc-result.on.better{background:rgba(120,200,150,.2);color:#b5ecca}
+.rc-result.on.no_change{background:#e3e9f2;color:#0b0d12}
+.rc-result.on.worse{background:rgba(240,150,160,.18);color:#f6c2c8}
+.rc-more{display:flex;flex-direction:column;gap:8px;margin-top:12px}
+.rc-more input,.rc-more textarea{background:rgba(255,255,255,.05);border:1px solid var(--line-strong);border-radius:10px;font-size:14px}
+.rc-more .button{width:100%}
+.ride-check.done{display:flex;flex-direction:column;gap:6px}
+.ride-check.done p{display:flex;gap:8px;margin:0;color:#c9d3e2;font-size:14px;line-height:1.5}
+.ride-check.done svg{color:#a9e2bf;flex-shrink:0;margin-top:3px}
+.ride-check.done b{color:#f1f4f9}
+@media(max-width:760px){.rc-more input,.rc-more textarea{font-size:16px}}

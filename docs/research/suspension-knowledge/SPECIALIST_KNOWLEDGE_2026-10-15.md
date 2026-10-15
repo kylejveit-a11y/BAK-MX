@@ -57,18 +57,27 @@ Confirmed by Kyle on 2026-10-15.
 
 ## Tester baselines (private reasoning context), 2026-10-15
 
-`specialist/baselines.json`: 156 published tester baseline settings (fork and shock spring or air, clickers, fork height, sag, with rider
-weight, pace and conditions where given) for 122 bike-years, mostly Keefer Inc Testing and MXA, with sources. Kyle's direction: use them for
+`specialist/baselines.json`: 195 published tester baseline settings (second pass added 39, mostly off-road and RX/X models) (fork and shock spring or air, clickers, fork height, sag, with rider
+weight, pace and conditions where given) for 148 bike-years, mostly Keefer Inc Testing and MXA, with sources. Kyle's direction: use them for
 knowledge and logic, not rider-facing. `scripts/suspension/build_tester_baselines.py` writes `server/tester-baselines.ts` without source
 names; Ask BAK receives the exact bike's entries (or the nearest model year, marked) as `tester_baselines_private`, is told never to state
-the numbers or attribute them, and a reply that names a tester or magazine is treated as a rule break and repaired. Gaps: 250/300 XC,
-250 XC-F, FC 350, FX 350, MC 125, MC 350F, CRF450RX, KX250X, TF 450-RC, and most 2027 bikes.
+the numbers or attribute them, and a reply that names a tester or magazine is treated as a rule break and repaired. Still missing: KTM 250/300 XC and Husqvarna FX 350 (any year); YZ250X, later YZ125X/YZ250FX, TX 300 after 2020,
+TC 125/250 2024+, most two-strokes beyond one year, full TF 450-RC/X clicker lists, and nearly all 2027 bikes. Many off-road entries
+are sag plus a relative change only. MXA blocks direct reads; Swapmoto shootouts, Dirt Bike full tests, Vital MX and Racer X are next.
 
 ## Guided handling-problem intake, 2026-10-15
 
 Ask BAK's start screen offers "Handling problem?": tap the complaint (front end, rear end, over bumps), the deciding question from that
 symptom guide, on or off the gas, where on the track and the dirt, then an optional note. Every step has "Type it myself"; the result is
 written into the message box in plain rider language for the rider to edit and send (`shared/triage.ts`, `src/Triage.tsx`).
+
+## How did it ride? (setup results loop), 2026-10-15
+
+Under every Ask BAK answer that suggests setup changes, the rider can pick which change they tried and tap Better, No change or
+Worse, with an optional track and note. It is saved to the bike's setup log (the same log as the Setup page), and Ask BAK
+(prompt mx-engineering-18) receives the last eight entries as `recent_setup_results`: it must not suggest again a change that
+made it worse, continues a change that helped only by a small step, treats no change as a sign the cause is elsewhere, and
+mentions the result so the rider sees it was remembered.
 
 ## Disagreements kept (selection)
 

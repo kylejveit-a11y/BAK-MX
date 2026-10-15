@@ -37,3 +37,10 @@ test('tester baselines reach the model privately, and naming a tester is a rule 
  const reply:any={kind:'answer',summary:'Keefer runs it slower.',answer:'x',claims:[],evidence_ids:[],specifications:[],confidence:'GENERAL',next_step:null,hypotheses:[],unknowns:[],setup_changes:[]};
  assert.ok(responseViolations(reply,[]).some(v=>/names a tester/.test(v)));
 });
+test('the rider\'s setup results reach Ask BAK, newest first',async()=>{
+ const {buildEngineeringInput}=await import('../server/engineering.ts');
+ const bike:any={id:'b',user_id:'u',manufacturer:'KTM',model:'450 SX-F',model_year:2025,variant:'standard',region:'US',configuration:{}};
+ const input:any=buildEngineeringInput(bike,[],[],'still kicks',[{recorded_at:'2026-10-14T12:00:00Z',track:'Dade City',conditions:'',change_made:'Shock HSC: 1/4 turn softer',result:'better',notes:''}]);
+ assert.equal(input.recent_setup_results[0].change,'Shock HSC: 1/4 turn softer');assert.equal(input.recent_setup_results[0].result,'better');
+ assert.equal(buildEngineeringInput(bike,[],[],'x').recent_setup_results,undefined);
+});

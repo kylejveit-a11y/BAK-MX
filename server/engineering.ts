@@ -25,14 +25,16 @@ export function testerBaselinesFor(bike:{manufacturer:string;model:string;model_
  *  3. answer   – one call writes the reply; every factual claim carries a confidence tier
  *  4. check    – code verifies citations and exact published values; one repair attempt, then an honest failure
  *  A backup model is tried when the provider fails. Model names come only from configuration. */
-export const PROMPT_VERSION='mx-engineering-17';
+export const PROMPT_VERSION='mx-engineering-18';
 
 /** How solid a claim is. PUBLISHED must cite retrieved evidence; nothing may be presented above its real tier. */
 export const TIERS=['PUBLISHED','RIDER_SAVED','ENGINEERING','GENERAL','COMMUNITY','UNKNOWN'] as const;
 
 export function applicableClaims(claims:Claim[],bike:Bike){return claims.filter(c=>c.status==='VERIFIED'&&!c.has_conflict&&sameBikeScope(c,bike)&&c.source_url&&c.source_locator);}
 
-export function buildEngineeringInput(bike:Bike|null,history:Message[],claims:Claim[],message:string){
+/** What the rider tried on this bike and how it rode, newest first: their own setup log, including results reported from BAK's suggestions. */
+export type SetupResultRow={recorded_at:string;track:string;conditions:string;change_made:string;result:string;notes:string};
+export function buildEngineeringInput(bike:Bike|null,history:Message[],claims:Claim[],message:string,setupHistory:SetupResultRow[]=[]){
  // Order matters for cost and speed: the parts that are identical on every request come first so the provider can reuse its cached prefix.
  return {
   evidence_boundary:'verified_claims holds the published evidence retrieved for this question for this exact bike, not the whole corpus. A published value that is absent here is not on file for this answer: say so in one line, never state it as published, and then still help from engineering and general knowledge, labelled as such.',
@@ -42,6 +44,7 @@ export function buildEngineeringInput(bike:Bike|null,history:Message[],claims:Cl
   bike:bike?{...bike,configuration:withoutBuildSheet(usConfiguration(bike.configuration))}:null,
   ...(bike&&installedPartsContext(bike.configuration)?{installed_parts:installedPartsContext(bike.configuration)}:{}),
   ...(bike&&testerBaselinesFor(bike)?{tester_baselines_private:testerBaselinesFor(bike)}:{}),
+  ...(setupHistory.length?{recent_setup_results:setupHistory.slice(0,8).map(r=>({date:r.recorded_at.slice(0,10),track:r.track||undefined,conditions:r.conditions||undefined,change:r.change_made||undefined,result:r.result.replace('_',' '),notes:r.notes?r.notes.slice(0,300):undefined}))}:{}),
   ...(bike&&manufacturerSetupGuidance(bike)?{manufacturer_setup_guidance:manufacturerSetupGuidance(bike)}:{}),
   ...(bike?{}:{no_build:'The rider chose to ask without a build. There is no saved bike and no published evidence for this question. Follow NO BUILD SELECTED.'}),
   reviewed_workshop:bike?workshopContext(bike,history,message):null,
@@ -156,6 +159,9 @@ data_gaps: list any published data that was missing and would have improved this
 SETUP REASONING
 For setup and handling questions reason from setup_knowledge the way a specialist suspension tuner does. Map the rider's words through its vocabulary and match the symptom guides by meaning, not exact words. The same feel often has different causes and opposite fixes: use the rider's own tell-tale details (on or off the gas, where in the corner, bars or pegs, first hit or a series, bounce off or sink, which way it kicks, rear high or low) to pick the cause. When those details are missing and the causes point in opposite directions, ask the guide's one separating question before prescribing, or give both branches briefly ("if it kicks straight up..., if it kicks sideways..."). Follow work_order: spring or air for the rider's weight and sag before balance, balance before clickers; say so when a fault is upstream of the clickers, and point out mechanical_mimics the symptom fits before any setting change. Recommend one change at a time, a small step from the rider's current setting, and how to test it (same section, a few laps, back to the baseline). When when_clickers_run_out applies, say the fix is springs, oil volume or valving, and use talking-to-the-tuner terms the rider can take to a shop. Use air_fork_rules for air forks and conditions for track type and weather. When manufacturer_setup_guidance is present it is the bike maker's own published symptom table for this exact bike: for stock suspension use it as the starting direction where it covers the symptom and say it comes from the owner's service manual; where the rider's tell-tale details point to a different cause (open_questions), follow the tell-tale, explain why in one line, and mention the maker's direction as the alternative. Present specialist knowledge as what suspension tuners and testers commonly find, never as a named person's or company's advice. Clicker positions are counted out from lightly seated; fewer clicks out means more damping. Do not state a total click range unless evidence gives one. authored_hypotheses are general mechanisms, not a verified diagnosis.
 
+SETUP HISTORY
+recent_setup_results is the rider's own log for this bike, newest first: what they changed and how it rode (better, worse, no change, not tested). Build on it. Do not suggest again a change that made it worse; after a change that helped, continue in that direction by a small step only if the symptom remains, or move to the next cause; after no change, treat that adjuster as not the answer at this size of step or the cause as elsewhere, and say so. Mention the relevant result in one line so the rider sees BAK remembered.
+
 TESTER BASELINES (PRIVATE)
 tester_baselines_private holds settings that experienced testers published for this bike (rider weight, pace and conditions where given). It is reasoning context only, never rider-facing: do not state its numbers, do not quote it, do not say a tester, magazine or person runs a setting, and do not present it as a recommendation or as published evidence. Use it to judge direction and size: whether the rider's current settings are far from where experienced riders run this bike, which direction testers commonly move from stock for a rider of similar weight and pace, and which adjusters testers found sensitive on this bike. Express that in your own words ("riders of your weight usually run this shock a little firmer than stock") and keep every concrete step a small move from the rider's own current setting. When its model year differs from the rider's, weigh it less.
 
@@ -267,9 +273,9 @@ export async function planSpecLookups(bike:Bike,history:Message[],message:string
 }
 
 /** Steps 3 and 4. `claims` is the retrieved exact-bike evidence. */
-export async function generateAnswer(bike:Bike|null,history:Message[],claims:Claim[],message:string,lookups:string[]=[],onDraft?:(draft:{summary:string;answer:string})=>void){
+export async function generateAnswer(bike:Bike|null,history:Message[],claims:Claim[],message:string,lookups:string[]=[],onDraft?:(draft:{summary:string;answer:string})=>void,setupHistory:SetupResultRow[]=[]){
  const started=Date.now();
- const input={...buildEngineeringInput(bike,history,claims,message),spec_lookups_performed:lookups};
+ const input={...buildEngineeringInput(bike,history,claims,message,setupHistory),spec_lookups_performed:lookups};
  const {wire:full,real}=toWire(input);
  // The provider caches the instructions block as a unit. The reference library is identical on every request, so it rides
  // there; only what changes per question (bike, conversation, retrieved evidence, message) is sent as input.
