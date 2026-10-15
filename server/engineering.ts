@@ -44,7 +44,7 @@ export function buildEngineeringInput(bike:Bike|null,history:Message[],claims:Cl
   setup_knowledge:setupKnowledge(),
   bike:bike?{...bike,configuration:withoutBuildSheet(usConfiguration(bike.configuration))}:null,
   ...(bike?{fuel_system:fuelSystemLabel(fuelSystem(bike.manufacturer,bike.model,bike.model_year))}:{}),
-  ...(bike&&installedPartsContext(bike.configuration)?{installed_parts:installedPartsContext(bike.configuration)}:{}),
+  ...(bike&&installedPartsContext(bike.configuration,bike)?{installed_parts:installedPartsContext(bike.configuration,bike)}:{}),
   ...(bike&&testerBaselinesFor(bike)?{tester_baselines_private:testerBaselinesFor(bike)}:{}),
   ...(setupHistory.length?{recent_setup_results:setupHistory.slice(0,8).map(r=>({date:r.recorded_at.slice(0,10),track:r.track||undefined,conditions:r.conditions||undefined,change:r.change_made||undefined,result:r.result.replace('_',' '),notes:r.notes?r.notes.slice(0,300):undefined}))}:{}),
   ...(bike&&manufacturerSetupGuidance(bike)?{manufacturer_setup_guidance:manufacturerSetupGuidance(bike)}:{}),

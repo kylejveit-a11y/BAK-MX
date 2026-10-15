@@ -120,3 +120,11 @@ test('parts catalogs carry no research bookkeeping in rider-facing notes',()=>{
   assert.doesNotMatch(t,/catalogue search example|see the [^".]{0,40} entry|search-result title|Part number format/i,f);}
  assert.ok(JSON.parse(readFileSync('public/parts-catalog/ktm-family.json','utf8')).brands.some((b:string)=>b==='JT Sprockets'));
 });
+
+test('a shop’s service notes reach BAK only for the bikes that shop lists',()=>{
+ const td=workProviders.find(p=>p.id==='tn-001')!;
+ assert.ok(td.models.length&&!td.models.includes('KTM|450 SX-F'));
+ const cfg={installed_parts:[{s:'tuning',b:'Twisted Development',n:'ECU flashed or remapped',r:'tn-001'}]};
+ assert.equal(installedPartsContext(cfg,{manufacturer:'KTM',model:'450 SX-F'})!.fitted[0].research,undefined);
+ assert.ok(installedPartsContext(cfg,{manufacturer:td.models[0].split('|')[0],model:td.models[0].split('|')[1]})!.fitted[0].research);
+});

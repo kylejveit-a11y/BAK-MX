@@ -63,7 +63,7 @@ function canonBrand(b:string){const t=b.trim();for(const [re,name] of CANON)if(r
 function cleanName(brand:string,name:string){
  let n=name;
  for(const w of [brand,'Akrapovič','Akrapovic','KTM PowerParts','KTM'])if(n.toLowerCase().startsWith(w.toLowerCase()+' '))n=n.slice(w.length+1);
- n=n.replace(/"/g,'').replace(/\b(19|20)\d{2}\s*-\s*(19|20)?\d{2}\b/g,'').replace(/\b\d{2}-\d{2}\b/g,'')
+ n=n.replace(/^(?:(?:KTM|Husqvarna|Husky|GAS ?GAS|GasGas)\s*[\/,&]?\s*)+(?=\S)/i,'').replace(/^[\/\s-]+/,'').replace(/"/g,'').replace(/\b(19|20)\d{2}\s*-\s*(19|20)?\d{2}\b/g,'').replace(/\b\d{2}-\d{2}\b/g,'')
   .replace(/\b\d{2,3}(\/\d{2,3})+\b/g,'').replace(/\b(SX-?F|XC-?F|XCF-W|EXC-?F|SMR|SX|XC|MX\/Enduro)(\/(SX-?F|XC-?F|XCF-W|EXC-?F|SMR|SX|XC))*\b/gi,'')
   .replace(/\s*,\s*(?=,|$)/g,'').replace(/\s{2,}/g,' ').replace(/[\s,\-/]+$/,'').trim();
  return n||name;
@@ -83,7 +83,7 @@ function providersFor(kind:WorkProvider['work'],make:string,model:string){
  const rank=(p:WorkProvider)=>p.models.includes(make+'|'+model)?2:p.makes.includes(make)?1:0;
  const m=new Map<string,WorkProvider>();
  for(const p of workProviders.filter(p=>p.work===kind&&(!p.makes.length||p.makes.includes(make))).sort((a,b)=>rank(b)-rank(a)))if(!m.has(p.brand))m.set(p.brand,p);
- return [...m.values()].map(p=>({...p,label:rank(p)===2?p.name:kind==='ecu'?'ECU flash and mapping':'Revalves and suspension service'}));
+ return [...m.values()].map(p=>({...p,exact:rank(p)===2||!p.models.length,label:rank(p)===2?p.name:kind==='ecu'?'ECU flash and mapping':'Revalves and suspension service'}));
 }
 type Choice={brand:string;name:string;pn:string;r?:string;verified:boolean;what:string;caution:string;testers:string[];type:string|null};
 type Screen={id:'home'}|{id:'type'}|{id:'work';work:Work}|{id:'detail';work:Work;who:string;r?:string}|{id:'brand';type:string|null}|{id:'product';type:string|null;brand:string}|{id:'custom';brand:string;type:string|null};
@@ -147,7 +147,7 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
       <h3 className="nav-section">ON YOUR BIKE</h3>
       <ul className="nav-list">
        {picked.map(p=>{const r=notesFor(p),k=key(p),has=!!(r&&(r.what||r.caution||r.testers.length))||!!p.p;return <li key={k} className="fitted">
-        <div className="fitted-top"><span className="nav-main"><small className="fitted-brand">{p.b||'Brand not set'}</small><b>{p.n}</b>{p.d&&<small>{p.d}</small>}</span><button className="fitted-remove" onClick={()=>setPicked(picked.filter(x=>key(x)!==k))} aria-label={`Remove ${partLabel(p)}`}>Remove</button></div>
+        <div className="fitted-top"><span className="nav-main"><small className="fitted-brand">{p.b||'Brand not set'}</small><b>{cleanName(p.b,p.n)}</b>{p.d&&<small>{p.d}</small>}</span><button className="fitted-remove" onClick={()=>setPicked(picked.filter(x=>key(x)!==k))} aria-label={`Remove ${partLabel(p)}`}>Remove</button></div>
         {has&&<details className="part-notes"><summary>{r&&(r.what||r.caution)?'What this part changes':'Details'}</summary>
          {r?.what&&<p><span>What it changes</span>{r.what}</p>}{r?.caution&&<p className="caution"><span>Heads up</span>{r.caution}</p>}{r?.testers.slice(0,1).map(x=><p key={x}><span>Testers found</span>{x}</p>)}{p.p&&<p><span>Part number</span>{p.p}</p>}
         </details>}
@@ -165,7 +165,7 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
     {screen.id==='type'&&system!=='tuning'&&workList}
     {screen.id==='work'&&(()=>{const w=screen.work,shops=w.kind?providersFor(w.kind,bike.manufacturer,bike.model):[],go=(who:string,r?:string)=>{setDetail('');push({id:'detail',work:w,who,...(r?{r}:{})})};return <>
      {shops.length>0&&<><h3 className="nav-section">{w.kind==='ecu'?'TUNERS':'SUSPENSION SHOPS'}</h3><ul className="nav-list">
-      {shops.map(p=><Row key={p.id} label={<><b>{p.brand}</b><small>{p.label}</small></>} onClick={()=>go(p.brand,p.id)}/>)}</ul></>}
+      {shops.map(p=><Row key={p.id} label={<><b>{p.brand}</b><small>{p.label}</small></>} onClick={()=>go(p.brand,p.exact?p.id:undefined)}/>)}</ul></>}
      <ul className="nav-list">
       <Row label={<b>Someone else</b>} detail="Type it" onClick={()=>{setCustom({b:'',n:w.label,p:''});push({id:'custom',brand:'',type:w.label})}}/>
       <Row label={<b>{w.kind==='ecu'?'My dealer':'My dealer or local shop'}</b>} onClick={()=>go(w.kind==='ecu'?'Dealer':'Local shop')}/>
