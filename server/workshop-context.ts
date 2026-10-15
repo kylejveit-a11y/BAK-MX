@@ -1,7 +1,10 @@
 import type {Bike,Message,AttributedReference} from '../shared/types.ts';
 import {proceduresForBike,type ReviewedProcedure} from '../shared/procedures.ts';
 
-const ignored=new Set(['the','and','with','this','that','stock','your','from','into','have','been','bike','guide','step','help','about','what','next','after']);
+// Position and job words ("rear", "rebuild") say nothing about which component a rider means: "rear kicks" is not a rear
+// brake job. Only component words select a procedure.
+const ignored=new Set(['the','and','with','this','that','stock','your','from','into','have','been','bike','guide','step','help','about','what','next','after',
+ 'rear','front','left','right','both','side','upper','lower','inner','outer','rebuild','service','restore','replace','check','inspect','install','remove','adjust','baseline','change','new','full','complete']);
 const words=(text:string)=>new Set((text.toLowerCase().match(/[a-z]+/g)??[]).filter(w=>w.length>3&&!ignored.has(w)));
 /** A retrieval lead selects reviewed content. It never establishes progress or fitted hardware. */
 export function workshopContext(bike:Bike,history:Message[],message:string){
@@ -10,6 +13,8 @@ export function workshopContext(bike:Bike,history:Message[],message:string){
  const score=(p:ReviewedProcedure)=>{
   const title=words(p.title+' '+p.component);
   let n=0;for(const w of title)n+=latest.has(w)?4:prior.has(w)?1:0;
+  // once a component matches, "rear" / "front" / "left" / "right" in the message pick the right one of a pair
+  if(n>0)for(const w of ['rear','front','left','right'])if(message.toLowerCase().includes(w)&&(p.title+' '+p.component).toLowerCase().includes(w))n+=2;
   if(message.toLowerCase().includes(p.id.toLowerCase()))n+=100;
   return n;
  };

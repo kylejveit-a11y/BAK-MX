@@ -44,3 +44,11 @@ test('the rider\'s setup results reach Ask BAK, newest first',async()=>{
  assert.equal(input.recent_setup_results[0].change,'Shock HSC: 1/4 turn softer');assert.equal(input.recent_setup_results[0].result,'better');
  assert.equal(buildEngineeringInput(bike,[],[],'x').recent_setup_results,undefined);
 });
+test('handling questions do not pull in unrelated workshop procedures',async()=>{
+ const {workshopContext}=await import('../server/workshop-context.ts');
+ const bike:any={manufacturer:'Yamaha',model:'YZ450F',model_year:2025,variant:'standard',region:'US',configuration:{}};
+ assert.equal(workshopContext(bike,[],'rear kicks on braking bumps').relevant_operations.length,0);
+ assert.equal(workshopContext(bike,[],'front pushes in flat corners').relevant_operations.length,0);
+ const brake=workshopContext(bike,[],'rebuild the rear brake caliper').relevant_operations;
+ if(brake.length)assert.match(brake[0].title,/rear/i);
+});
