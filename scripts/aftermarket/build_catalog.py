@@ -268,7 +268,13 @@ if APP_OUT:
         if k not in bidx: bidx[k]=len(brands); brands.append(b)
         return bidx[k]
     items=[];ikey={};bikes_out={}
-    def short(s,n): s=re.sub(r'\s+',' ',str(s or '')).strip().replace(' at capture',' when checked'); return s if len(s)<=n else s[:n-1].rsplit(' ',1)[0]+'…'
+    # testers and magazines are never named to riders: their findings read as "testers found"
+    NAMES=re.compile(r"\b(Kris Keefer|Keefer Inc\.? Testing|Keefer|Motocross Action \(MXA\)|Motocross Action|MXA|Vital MX|Dirt Bike Test|Dirt Bike magazine|Dirt Bike|Bones Bacon|Cycle News|Racer X|Swapmoto Live|Swapmoto|Transmoto|MotoOnline|Ultimate Motorcycling|Dirt Rider|Dirt Action|PulpMX)('s)?\b")
+    def anon(s):
+        s=re.sub(r'\s*\((?:[^)]*\b(?:pass-?\d|item|record|id)\b[^)]*)\)','',s,flags=re.I)   # internal research references
+        s=re.sub(r'\btesters?( testers?)+\b','testers',NAMES.sub('testers',s))
+        return re.sub(r'(^|[.!?]\s+)testers\b',lambda m:m.group(1)+'Testers',s)
+    def short(s,n): s=anon(re.sub(r'\s+',' ',str(s or '')).strip().replace(' at capture',' when checked')); return s if len(s)<=n else s[:n-1].rsplit(' ',1)[0]+'…'
     for (mk,model,y),ids in sorted(bike.items()):
         lst=set()
         for i in ids:
@@ -283,14 +289,14 @@ if APP_OUT:
             if src=='research':
                 it['r']=p['id']; it['n']=name; it['conf']=p.get('confidence')
                 it['w']=short(p.get('what_it_changes'),220); it['c']=short(' '.join((' '.join(map(str,x)) if isinstance(x,list) else str(x)) for x in (p.get('supporting_parts'),p.get('caveats')) if x),220)
-                fb=[f"{x.get('publication') or x.get('source_type')}: {short(x.get('observed'),160)}" for x in p.get('_feedback',[]) if x.get('observed')][:2]
+                fb=[short(x.get('observed'),160) for x in p.get('_feedback',[]) if x.get('observed')][:2]
                 if fb: it['t']=fb
                 if not it['p'] and pns: it['p']=' '.join(pns)[:80]
             code,base=SELL.get(src,('rs',''))
             w=(p.get('where_to_buy') or [{}])[0]; url=w.get('url') or p.get('fitment_source_url') or ''
             path=url[len(base):] if base and url.startswith(base) else url
             if src=='research' and path and len(it['u'])<2 and all(c!=code for c,_,_ in it['u']):
-                pr=w.get('price_if_stated'); it['u'].append((code,path,(str(pr)+' '+(w.get('currency') or '')).strip() if pr else ''))
+                pr=w.get('price_if_stated'); it['u'].append((code,path,anon((str(pr)+' '+(w.get('currency') or '')).strip()) if pr else ''))
             lst.add(ikey[key])
         srt=sorted(lst); bikes_out[f'{mk}|{model}|{y}']=[v-(srt[i-1] if i else 0) for i,v in enumerate(srt)]  # delta-encoded item indexes
     out_items=[]

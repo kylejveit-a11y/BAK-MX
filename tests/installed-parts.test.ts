@@ -52,3 +52,11 @@ test('published parts lists decode to roster bikes and carry no internal paths',
   for(const it of c.items){assert.ok(it.n&&typeof it.b==='number');if(it.r)assert.ok(researchedParts[it.r],it.r);}
  }
 });
+test('rider-facing parts notes name no tester or magazine and show no internal references',()=>{
+ for(const f of readdirSync(new URL('../public/parts-catalog/',import.meta.url))){
+  const c=JSON.parse(readFileSync(new URL('../public/parts-catalog/'+f,import.meta.url),'utf8'));
+  const text=JSON.stringify(c.items.map((i:any)=>[i.n,i.w,i.c,i.t,i.u]));
+  assert.doesNotMatch(text,/Keefer|Motocross Action|\bMXA\b|Vital MX|Dirt Bike Test|Bones Bacon/,f);
+  assert.doesNotMatch(text,/pass-?\d item|\.json|docs\//,f);
+ }
+});
