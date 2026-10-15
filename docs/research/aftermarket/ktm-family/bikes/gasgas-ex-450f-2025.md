@@ -1,6 +1,6 @@
 # GasGas EX 450F 2025: aftermarket parts
 
-1131 listings whose stated fitment names this bike: 10 researched parts (with what they change and rider findings), 189 dealer and retailer listings specific to this bike, and 932 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1131 listings whose stated fitment names this bike: 10 researched parts (with what they change and rider findings), 183 dealer and retailer listings specific to this bike, and 938 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -21,213 +21,252 @@
 
 Merged across sellers by brand and part number (or brand and name). Lings is a UK dealer (GBP prices, EU-market models).
 
-### Brakes (2)
+### Air & Fuel (6)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
-| EBC Brakes | EBC FA181R R Series Sintered Brake Pads | FA181R | 42.07 USD | [Cycle Gear](https://www.cyclegear.com/parts/ebc-fa181r-r-series-sintered-brake-pads) |
-| Moose Racing | Moose Racing M617 XCR Sintered Front Brake Pads | M617-S47 | 42.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-m617-xcr-sintered-front-brake-pads) |
+| FunnelWeb | FunnelWeb ProLine Air Filter KTM / Husqvarna / Gas Gas 125cc-500cc 2022-2027 | FWF PRO 7771 | 39.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/funnelweb-proline-air-filter-ktm-husqvarna-gas-gas-125cc-500cc-2022-2025) |
+| No Toil | No Toil Pre Oiled Air Filter KTM / Husqvarna / Gas Gas 2022-2027 | 1547 | 31.49 USD | [Cycle Gear](https://www.cyclegear.com/parts/no-toil-pre-oiled-air-filter-ktm-husqvarna-gas-gas-2022-2024) |
+| No Toil | No Toil Standard Air Filter KTM / Husqvarna / Gas Gas 125cc-450cc 2022-2027 | 150-47 | 30.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/no-toil-standard-air-filter-ktm-husqvarna-125cc-450cc-2022-2024) |
+| Twin Air | Twin Air Air Filter KTM / Husqvarna / Gas Gas 125cc-450cc 2022-2027 | 154118 | 37.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/twin-air-air-filter-ktm-husqvarna-125cc-450cc-2022-2023) |
+| Twin Air | Twin Air Factory Pre Oiled Air Filter KTM / Husqvarna / Gas Gas 125cc-501cc 2022-2027 | 154118X | 41.75 USD | [Cycle Gear](https://www.cyclegear.com/parts/twin-air-factory-pre-oiled-air-filter-ktm-husqvarna-gas-gas-125cc-501cc-2022-2025) |
+| Uni Filter | Uni Filter Multi Stage Competition Air Filter KTM / Husqvarna / Gas Gas 125cc-450cc 2022-2027 | NU-1425ST | 40.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/uni-filter-multi-stage-competition-air-filter-ktm-husqvarna-gas-gas-125cc-450cc-2022-2025) |
 
-### Handlebars & Controls (1)
+### Bike Protection (28)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
+| Acerbis | Acerbis Off-Road Skid Plate KTM / Husqvarna / Gas Gas 450cc-501cc 2022-2027 | 2979440001, 2979440003, 2979445226 | 82.76 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-off-road-skid-plate-ktm-husqvarna-450cc-501cc-2022-2024) |
+| Acerbis | Acerbis Teketmagnet Swingarm Protectors KTM / Husqvarna / Gas Gas 150cc-501cc 2025-2027 | 2986200001, 2986200003, 2986205226 | 75.56 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-teketmagnet-swingarm-protectors-ktm-husqvarna-gas-gas-250cc-501cc-2025) |
+| Acerbis | Acerbis X-Brake Disc Cover Mount KTM / Husqvarna / Gas Gas 2015-2027 | 2403110001, 2403110059 | 36.86 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-x-brake-disc-cover-mount-ktm-husqvarna-gas-gas-2015-2021) |
+| Acerbis | Acerbis X-Grip Frame Guards Gas Gas 125cc-500cc 2024-2027 | 2984761010, 2984761018, 2984761042 | 54.86 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-x-grip-frame-guards-gas-gas-125cc-500cc-2024-2025) |
+| Acerbis | Acerbis X-Power Clutch and Ignition Covers KTM / Husqvarna / Gas Gas 450cc-501cc 2022-2027 | 2979430001, 2979430003, 2979435226 | 69.26 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-x-power-clutch-and-ignition-covers-ktm-husqvarna-450cc-501cc-2022-2024) |
+| AltRider | AltRider Front And Rear Rotor Guards Set KTM / Husqvarna / Gas Gas 125cc-530cc 2004-2027 | KT22-6-1128 | 331.17 USD | [Cycle Gear](https://www.cyclegear.com/parts/altrider-front-and-rear-rotor-guards-set-ktm-husqvarna-gas-gas-125cc-530cc-2004-2026) |
+| AltRider | AltRider Front Rotor Guard KTM / Husqvarna / Gas Gas 125cc-501cc 2015-2027 | KT22-6-1127 | 178.76 USD | [Cycle Gear](https://www.cyclegear.com/parts/altrider-front-rotor-guard-ktm-husqvarna-gas-gas-125cc-501cc-2015-2023) |
+| AltRider | AltRider Linkage Guard KTM / Husqvarna / Gas Gas 2014-2027 | KT23-9-2202 | 41.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/altrider-linkage-guard-ktm-husqvarna-gas-gas-2014-2026) |
+| AltRider | AltRider Rear Rotor Guard KTM / Husqvarna / Gas Gas 125cc-530cc 2004-2027 | KT22-6-1126 | 178.76 USD | [Cycle Gear](https://www.cyclegear.com/parts/altrider-rear-rotor-guard-ktm-husqvarna-gas-gas-125cc-530cc-2004-2023) |
+| Cycra | Cycra Tri Flow Disc Cover Mount KTM / Husqvarna / Gas Gas 125cc-500cc 2015-2027 | 1CYC-1097-08 | 33.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/cycra-tri-flow-disc-cover-mount-ktm-husqvarna-125cc-500cc-2015-2023) |
+| E-Line | E-Line Carbon Fiber Skid Plate KTM / Husqvarna / Gas Gas 250cc-450cc 2022-2027 | MSP25023 | 199.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/e-line-carbon-fiber-skid-plate-ktm-husqvarna-gas-gas-250cc-450cc-2022-2024) |
+| Enduro Engineering | Enduro Engineering Billet Radiator Guards KTM / Husqvarna / Gas Gas 125cc-501cc 2016-2027 | 12-1116 | 176.36 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-billet-radiator-guards-ktm-husqvarna-gas-gas-125cc-501cc-2016-2022) |
+| Enduro Engineering | Enduro Engineering Clutch Slave Cylinder Guard KTM / Husqvarna / Gas Gas 250cc-501cc 2022-2027 | 13-1123 | 40.80 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-clutch-slave-cylinder-guard-ktm-husqvarna-250cc-450cc-2022-2023) |
+| Enduro Engineering | Enduro Engineering Front Brake Rotor Guard KTM / Husqvarna / Gas Gas / Sherco | 32-146 | 104.45 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-front-brake-rotor-guard-ktm-husqvarna-gas-gas-sherco) |
+| Enduro Engineering | Enduro Engineering Radiator Braces Husqvarna / Gas Gas / KTM 125cc-450cc 2023-2027 | 11-1023 | 104.45 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-radiator-braces-husqvarna-ktm-125cc-450cc-2023) |
+| Enduro Engineering | Enduro Engineering Rubber Mounted Xtreme Skid Plate KTM / Husqvarna / Gas Gas 250cc-450cc 2022-2027 | 24-1123X | 123.45 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-rubber-mounted-xtreme-skid-plate-ktm-husqvarna-gas-gas-250cc-450cc-2022-2024) |
+| Enduro Engineering | Enduro Engineering Skid Plate KTM / Husqvarna / Gas Gas 250cc-500cc 2022-2027 | 24-1123 | 123.45 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-skid-plate-ktm-husqvarna-gas-gas-250cc-500cc-2022-2024) |
+| Enduro Engineering | Enduro Engineering Skid Plate Mounted Linkage Guard KTM / Husqvarna / Gas Gas 125cc-501cc 2023-2027 | 31-1023 | 42.70 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-skid-plate-mounted-linkage-guard-ktm-husqvarna-125cc-450cc-2023) |
+| Flo Motorsports | Flo Motorsports High Flow Radiator Braces KTM / Husqvarna / Gas Gas 125cc-501cc 2015-2027 | FLO751BLK, FLO751BLU, FLO751ORG | 299.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-high-flow-radiator-braces-ktm-husqvarna-gas-gas-125cc-501cc-2015-2022) |
+| Moose Racing | Moose Racing Clutch Master Cylinder Guard KTM / Husqvarna / Gas Gas 250cc-501cc 2023-2027 | 13-1123 | 42.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-clutch-master-cylinder-guard-ktm-husqvarna-gas-gas-250cc-501cc-2023-2024) |
+| Moose Racing | Moose Racing Front Rotor Guard KTM / Husqvarna / Gas Gas | 32-146 | 109.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-front-rotor-guard-ktm-husqvarna-gas-gas) |
+| Moose Racing | Moose Racing Radiator Braces KTM / Husqvarna / Gas Gas 125cc-450cc 2022-2027 | 11-1023 | 109.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-radiator-braces-ktm-husqvarna-gas-gas-125cc-450cc-2022-2025) |
+| Moose Racing | Moose Racing Shark Fin Rear Disc Guard KTM / Husqvarna / Gas Gas 125cc-501cc 2022-2027 | 33-1022 | 109.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-shark-fin-rear-disc-guard-ktm-husqvarna-125cc-450cc-2022-2023) |
+| Moose Racing | Moose Racing Skid Plate KTM / Husqvarna / Gas Gas 250cc-501cc 2023-2027 | 344 | 173.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-skid-plate-ktm-husqvarna-gas-gas-250cc-501cc-2023-2025) |
+| P3 | P3 Carbon Fiber Hybrid Skid Plate KTM / Husqvarna / Gas Gas 450cc-500cc 2023-2027 | 301082 | 221.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/p3-carbon-fiber-hybrid-skid-plate-ktm-husqvarna-gas-gas-450cc-500cc-2023-2024) |
+| P3 | P3 Carbon Fiber Skid Plate KTM / Husqvarna / Gas Gas 450cc 2022-2027 | 301081 | 239.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/p3-carbon-fiber-skid-plate-ktm-husqvarna-gas-gas-450cc-2022-2024) |
+| Polisport | Polisport Front Disc Guard and Fork Protector Gas Gas / Husqvarna / KTM / Sherco 125cc-501cc | 8158500001, 8158500002, 8158500003, 8158500005 | 45.82 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-front-disc-guard-and-fork-protector-gas-gas-husqvarna-ktm-sherco-125cc-501cc) |
+| Polisport | Polisport Swingarm Protectors Gas Gas / Husqvarna / KTM 125cc-450cc 2023-2027 | 8499400001 | 43.20 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-swingarm-protectors-gas-gas-husqvarna-ktm-125cc-450cc-2023-2025) |
+
+### Brakes (45)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| BILT FACTORY | BILT FACTORY FA181R Sintered Front Brake Pads | YL-F073 | 27.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/bilt-factory-fa181r-sintered-front-brake-pads) |
+| BILT FACTORY | BILT FACTORY FA368R Sintered Rear Brake Pads | YL-F152 | 28.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/bilt-factory-fa368r-sintered-rear-brake-pads) |
+| Braking | Braking W Fix Rear Rotor KTM / Husqvarna / Husaberg / Gas Gas / Stark Varg | KT11RID | 114.48 USD | [Cycle Gear](https://www.cyclegear.com/parts/braking-w-fix-rear-rotor-ktm-husqvarna-husaberg-gas-gas-stark-varg) |
+| Brembo | Brembo Genuine Sinter Front Brake Pads 07BB0483 | 07BB0483 | 61.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/brembo-20-23-husqvarna-te-i-150-cc18-23-ktm-exc-tp) |
+| Brembo | Brembo SD Front Brake Pads 07BB04SD | 07BB04SD | 44.08 USD | [Cycle Gear](https://www.cyclegear.com/parts/brembo-sd-front-brake-pads-07bb04sd) |
+| Brembo | Brembo SD Rear Brake Pads 07BB27SD | 07BB27SD | 44.08 USD | [Cycle Gear](https://www.cyclegear.com/parts/brembo-sd-rear-brake-pads-07bb27sd) |
+| Brembo | Brembo SX Front Brake Pads 07BB04SX | 07BB04SX | 64.03 USD | [Cycle Gear](https://www.cyclegear.com/parts/brembo-sx-front-brake-pads-07bb04sx) |
+| Brembo | Brembo SX Rear Brake Pads 07BB27SX | 07BB27SX | 64.03 USD | [Cycle Gear](https://www.cyclegear.com/parts/brembo-sx-rear-brake-pads-07bb27sx) |
+| Brembo | Brembo Serie Oro Fixed Front Brake Disc 68B407B8 | 68B407B8 | 148.74 USD | [Cycle Gear](https://www.cyclegear.com/parts/brembo-serie-oro-fixed-front-brake-disc-68b407b8) |
+| Brembo | Brembo Serie Oro Fixed Rear Brake Disc 68B40752 | 68B40752 | 132.25 USD | [Cycle Gear](https://www.cyclegear.com/parts/brembo-serie-oro-fixed-rear-brake-disc-68b40752) |
+| DP Brakes | DP Brakes DP617 Sintered Front Brake Pads | DP617 | 52.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/dp-brakes-dp617-sintered-front-brake-pads) |
+| DP Brakes | DP Brakes DP935 Sintered Rear Brake Pads | DP935 | 52.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/dp-brakes-dp935-sintered-rear-brake-pads) |
+| DP Brakes | DP Brakes SDP617 Pro MX Front Brake Pads  | SDP617 | 59.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/dp-brakes-sdp617-pro-mx-front-brake-pads) |
+| DP Brakes | DP Brakes SDP935 Pro MX Rear Brake Pads | SDP935 | 59.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/dp-brakes-sdp935-pro-mx-rear-brake-pads) |
+| EBC Brakes | EBC D-Series Front Rotor KTM / Husqvarna / Gas Gas / Husaberg / Beta / Stark 125cc-530cc | MD6032D | 149.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/ebc-d-series-front-rotor-ktm-husqvarna-gas-gas-husaberg-beta-stark-125cc-530cc) |
+| EBC Brakes | EBC FA181R R Series Sintered Front Brake Pads | ebcFA181R-Front-Compound | 42.07 USD | [Cycle Gear](https://www.cyclegear.com/parts/ebc-ebc-fa181-r-r-series-sintered-front-brake-pads) |
+| EBC Brakes | EBC FA181X Carbon X Front Brake Pads | ebcFA181X-Front-Compound | 40.02 USD | [Cycle Gear](https://www.cyclegear.com/parts/ebc-ebc-fa181-x-carbon-x-front-brake-pads) |
+| EBC Brakes | EBC FA368R R Series Sintered Rear Brake Pads | FA368R | 39.54 USD | [Cycle Gear](https://www.cyclegear.com/parts/ebc-fa368r-r-series-sintered-rear-brake-pads) |
+| EBC Brakes | EBC FA368X Carbon X Rear Brake Pads | FA368X | 36.02 USD | [Cycle Gear](https://www.cyclegear.com/parts/ebc-fa368x-carbon-x-rear-brake-pads) |
+| EBC Brakes | EBC MXS181 Race Series Front Brake Pads | MXS181 | 46.06 USD | [Cycle Gear](https://www.cyclegear.com/parts/ebc-mxs181-race-series-front-brake-pads) |
+| EBC Brakes | EBC MXS368 Race Series Rear Brake Pads | MXS368 | 46.08 USD | [Cycle Gear](https://www.cyclegear.com/parts/ebc-mxs368-race-series-rear-brake-pads) |
+| Ferodo Brand | Ferodo FDB2018P Platinum Front Brake Pads | FDB2018P | 43.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/ferodo-fdb2018p-platinum-front-brake-pads) |
+| Ferodo Brand | Ferodo FDB2018SG SinterGrip Front Brake Pads | FDB2018SG | 51.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/ferodo-fdb2018sg-sintergrip-front-brake-pads) |
+| Ferodo Brand | Ferodo FDB2165SG SinterGrip Rear Brake Pads | FDB2165SG | 47.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/ferodo-fdb2165sg-sintergrip-rear-brake-pads) |
+| GBrakes | GBrakes Front Floating Wave Rotor GBD9035X | GBD9035X | 182.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-front-floating-wave-rotor-gbd9035x) |
+| GBrakes | GBrakes Front Solid Mount Tsunami Wave Rotor GBD061 | GBD061 | 141.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-front-solid-mount-tsunami-wave-rotor-gbd061) |
+| GBrakes | GBrakes Front Solid Mount Wave Rotor GBD9026X / GBD9022X | GBD9022X, GBD9026X | 121.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-front-solid-mount-wave-rotor-gbd9026x) |
+| GBrakes | GBrakes HH Sintered Rear Brake Pads GB0565-76 | GB0565-76 | 41.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-hh-sintered-rear-brake-pads-gb0565-76) |
+| GBrakes | GBrakes Rear Solid Mount Wave Rotor GBD9024X | GBD9024X | 109.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-rear-solid-mount-wave-rotor-gbd9024x) |
+| GBrakes | GBrakes Semi-Metallic Rear Brake Pads GB0565-69 | GB0565-69 | 38.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-semi-metallic-rear-brake-pads-gb0565-69) |
+| Moose Racing | Moose Racing RFX Front Rotor KTM / Husqvarna / Gas Gas / Husaberg / Stark 125cc-530cc | FXBD 50600 55NP | 127.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-rfx-front-rotor-ktm-husqvarna-gas-gas-husaberg-stark-125cc-530cc) |
+| Moose Racing | Moose Racing RFX Rear Rotor KTM / Husqvarna / Gas Gas / Stark / Husaberg 125cc-560cc 1991-2027 | FXBD 50605 55NP | 127.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-rfx-rear-rotor-ktm-husqvarna-gas-gas-stark-husaberg-125cc-560cc) |
+| Moose Racing | Moose Racing Solid Rear Rotor KTM / Husqvarna / Gas Gas / Stark / Husaberg 125cc-560cc 1991-2027 | 150-068S | 69.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-solid-rear-rotor-ktm-husqvarna-gas-gas-stark-husaberg-125cc-560cc-1991-2024) |
+| Moto-Master | Moto Master 93011 Sinter Pro Racing Front Brake Pads | 93011-PU | 30.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-93011-sinter-pro-racing-front-brake-pads) |
+| Moto-Master | Moto Master 93021 Nitro Front Brake Pads | 93021-PU | 24.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-93021-nitro-front-brake-pads) |
+| Moto-Master | Moto Master 94411 Sinter Pro Racing Rear Brake Pads | 94411-PU | 30.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-94411-sinter-pro-racing-rear-brake-pads) |
+| Moto-Master | Moto Master 94421 Nitro Rear Brake Pads | 94421-PU | 24.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-94421-nitro-rear-brake-pads) |
+| Moto-Master | Moto Master Flame 260mm Floating Front Rotor KTM / Husqvarna / Gas Gas / Husaberg 125cc-530cc | 111033-PU, 112145-PU, 112256-PU | 154.76 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-flame-260-floating-front-rotor-ktm-husqvarna-gas-gas-husaberg-125cc-530cc) |
+| Moto-Master | Moto Master Flame 270mm Floating Front Rotor KTM / Husqvarna / Gas Gas / Husaberg / Stark 125cc-530c | 112083-PU | 188.06 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-flame-270mm-floating-front-rotor-ktm-husqvarna-gas-gas-husaberg-stark-125cc-530cc) |
+| Moto-Master | Moto Master Flame Fixed Front Rotor KTM / Gas Gas / Stark / Husqvarna | 110298-PU | 123.26 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-flame-front-rotor-ktm-gas-gas-husqvarna) |
+| Moto-Master | Moto Master Flame Fixed Rear Rotor KTM / Husqvarna / Gas Gas / Stark / Husaberg 125cc-560cc | 110218-PU | 123.26 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-flame-fixed-rear-rotor-ktm-husqvarna-gas-gas-husaberg-125cc-560cc) |
+| Pro X | Pro X Offroad Front Brake Pads KTM 350cc 2012-2027 | 37.102202 | 30.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-x-offroad-front-brake-pads-ktm-350cc-2012-2025) |
+| Pro X | Pro X Offroad Rear Brake Pads KTM 350cc 2012-2027 | 37.202302 | 30.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-x-offroad-rear-brake-pads-ktm-350cc-2012-2025) |
+| Renthal | Renthal RC-1 Works BP-107 Front Brake Pads | BP-107 | 50.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/renthal-rc-1-works-bp-107-front-brake-pads) |
+| Renthal | Renthal RC-1 Works BP-108 Rear Brake Pads | BP-108 | 50.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/renthal-rc-1-works-bp-108-rear-brake-pads) |
+
+### Drive & Transmission (13)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Acerbis | Acerbis Chain Guide Block 2.0 KTM / Husqvarna / Gas Gas 125cc-501cc 2022-2027 | 2983180001, 2983180003, 2983180004, 2983185226 | 79.16 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-chain-guide-block-20-ktm-husqvarna-gas-gas-125cc-501cc-2022-2025) |
+| Acerbis | Acerbis Chain Guide KTM / Husqvarna / Gas Gas 125cc-450cc 2022-2027 | 2979380001 | 49.46 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-chain-guide-ktm-husqvarna-125cc-450cc-2022-2024) |
+| AXP Racing | AXP Racing Chain Guide KTM / Husqvarna / Gas Gas 125cc-501cc 2022-2027 | AX1664, AX1666, AX1667 | 108.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/axp-racing-chain-guide-ktm-husqvarna-gas-gas-125cc-501cc-2022-2025) |
+| Moose Racing | Moose Racing Pro Chain Guide KTM / Husqvarna / Gas Gas 125cc-501cc 2022-2027 | PX1664 | 99.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-pro-chain-guide-ktm-husqvarna-gas-gas-125cc-501cc-2022-2025) |
+| Rekluse | Rekluse Clutch Damper Kit KTM / Husqvarna / Gas Gas / Husaberg 250cc-501cc 2012-2027 | RMS-0213080 | 68.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-clutch-damper-kit-ktm-husqvarna-gas-gas-husaberg-250cc-501cc-2012-2024) |
+| Rekluse | Rekluse Core Manual TorqDrive Replacement Clutch Pack Kit KTM / Husqvarna / Gas Gas / Husaberg 250cc | 750-13080 | 299.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-core-manual-torqdrive-replacement-clutch-pack-kit-ktm-husqvarna-gas-gas-husaberg) |
+| Rekluse | Rekluse EXP 3.0 Clutch Service Kit KTM / Husqvarna / Gas Gas / Beta 250cc-500cc  | 782-215 | 197.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-exp-30-clutch-service-kit-ktm-husqvarna-gas-gas-beta-250cc-500cc) |
+| Rekluse | Rekluse Radius CX 3.0 To 4.0 Upgrade Kit KTM / Husqvarna / Gas Gas 450cc 2022-2027 | 770-8913198 | 649.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-radius-cx-30-to-40-upgrade-kit-ktm-husqvarna-gas-gas-450cc-2022-2025) |
+| Rekluse | Rekluse Radius CX 4.0 Clutch Kit KTM / Husqvarna / Gas Gas 450cc 2022-2027 | RMS-8913198 | 1649.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-450cc-2022-2025) |
+| Rekluse | Rekluse Torq Drive Clutch Pack KTM / Husqvarna / Gas Gas / Husaberg 250cc-501cc 2012-2027 | RMS-2813086 | 379.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-torq-drive-clutch-pack-ktm-husqvarna-gas-gas-husaberg-250cc-501cc-2012-2024) |
+| TM Designworks | TM Designworks Factory Edition FX Rear Chain Guide KTM / Husqvarna / Gas Gas 125cc-500cc 2022-2027 | RCG-KT5-BK, RCG-KT5-BL2, RCG-KT5-OR, RCG-KT5-RD | 117.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/tm-designworks-factory-edition-fx-rear-chain-guide-ktm-husqvarna-gas-gas-125cc-500cc-2022-2024) |
+| Works Connection | Works Connection Elite Axle Block Kit KTM / Husqvarna / Gas Gas 125cc-450cc 2022-2027 | 17-251, 17-256, 17-261, 17-264, 17-316 | 108.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-elite-axle-block-kit-ktm-husqvarna-125cc-450cc-2022-2023) |
+| Zeta | Zeta 3D Chain Guide Gas Gas 85cc-450cc 2024-2027 | ZE82-1412 | 137.26 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-3d-chain-guide-gas-gas-85cc-450cc-2024) |
+
+### Exhaust (5)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| P3 | P3 Carbon Fiber MAXCoverage Heat Shield Gas Gas 450cc | 204005 | 169.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/p3-carbon-fiber-maxcoverage-heat-shield-gas-gas-450cc) |
+| Pro Circuit | Pro Circuit T-6 Slip-On Exhaust KTM / Husqvarna / Gas Gas 450cc 2022-2027 | 0152245A | 759.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-t-6-slip-on-exhaust-ktm-husqvarna-450cc-2022-2023) |
+| Pro Circuit | Pro Circuit Ti-6 Pro Titanium Exhaust System KTM / Husqvarna / Gas Gas 450cc 2022-2027 | 0352245FP | 1327.10 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-ti-6-pro-titanium-exhaust-system-ktm-husqvarna-450cc-2022-2023) |
+| Pro Circuit | Pro Circuit Ti-6 Titanium Exhaust System KTM / Husqvarna / Gas Gas 450cc 2022-2027 | 0352245F | 1329.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-ti-6-titanium-exhaust-system-ktm-husqvarna-450cc-2022-2023) |
+| Yoshimura | Yoshimura RS-12 Slip-On Exhaust KTM / Husqvarna / Gas Gas 250cc-450cc 2023-2027 | 262542S320 | 749.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/yoshimura-rs-12-slip-on-exhaust-ktm-husqvarna-gas-gas-250cc-450cc-2023-2024) |
+
+### Filters (8)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Acerbis | Acerbis Fuel Tank Filter KTM / Husqvarna / Gas Gas 250cc-500cc 2011-2027 | 2856880002 | 33.26 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-fuel-tank-filter-ktm-husqvarna-gas-gas-250cc-500cc-2011-2027) |
+| HiFloFiltro | HiFloFiltro Premium Oil Filter HF652 | HF652 | 6.45 USD | [Cycle Gear](https://www.cyclegear.com/parts/hiflofiltro-premium-oil-filter-hf652) |
+| K&N | K&N Oil Filter KN-652 | KN-652 | 11.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/kn-oil-filter-kn-652) |
+| Maxima Lubricants | Maxima ProFilter Maxflow Oil Filter KTM / Husqvarna / Gas Gas / Husaberg 250cc-701cc 2008-2027 | PF-652 | 9.19 USD | [Cycle Gear](https://www.cyclegear.com/parts/maxima-profilter-maxflow-oil-filter-ktm-husqvarna-gas-gas-husaberg-250cc-701cc-2008-2026) |
+| Moose Racing | Moose Racing Oil Filter KTM / Husqvarna / Gas Gas / Husaberg 250cc-701cc 2008-2027 | DT-09-52 | 5.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-oil-filter-ktm-husqvarna-gas-gas-husaberg-250cc-701cc-2008-2026) |
+| Motolis | Motolis M-652 Oil Filter  | M-652 | 7.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/motolis-m-652-oil-filter) |
+| PC Racing | PC Racing FLO Stainless Steel Reusable Oil Filter KTM / Husqvarna / Gas Gas / Husaberg 250cc-701cc 2 | PC167 | 39.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/pc-racing-flo-stainless-steel-reusable-oil-filter-ktm-husqvarna-gas-gas-husaberg-250cc-701cc) |
+| Twin Air | Twin Air Oil Filter KTM / Husqvarna / Gas Gas / Husaberg 250cc-701cc 2008-2027 | 140019 | 12.30 USD | [Cycle Gear](https://www.cyclegear.com/parts/twin-air-oil-filter-ktm-husqvarna-gas-gas-husaberg-250cc-690c-2008-2026) |
+
+### Gauges (1)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Trail Tech | Trail Tech Striker Gauge Kit KTM / Husqvarna / Gas Gas 125cc-501cc 2019-2027 | 712-109 | 179.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/trail-tech-striker-gauge-kit-ktm-husqvarna-gas-gas-125cc-501cc-2019-2024) |
+
+### Handlebars & Controls (13)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Acerbis | Acerbis K-Linear Handguards Husqvarna / Gas Gas 250cc-501cc 2021-2027 | 2981380004, 2981381007, 2981381035 | 49.46 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-k-linear-handguards-husqvarna-gas-gas-250cc-501cc-2021-2024) |
+| AltRider | AltRider MAC BrakTec Brake Lever Husqvarna / Gas Gas 2021-2027 | BT23-2-2703 | 148.76 USD | [Cycle Gear](https://www.cyclegear.com/parts/altrider-mac-braktec-brake-lever-husqvarna-gas-gas-2021-2025) |
+| AltRider | AltRider MAC BrakTec Clutch And Brake Lever Combo Husqvarna / Gas Gas 2021-2027 | BT23-2-2704 | 277.52 USD | [Cycle Gear](https://www.cyclegear.com/parts/altrider-mac-braktec-clutch-and-brake-lever-combo-husqvarna-gas-gas-2021-2025) |
+| AltRider | AltRider MAC BrakTec Clutch Lever Husqvarna / Gas Gas 2021-2027 | BT23-2-2702 | 148.76 USD | [Cycle Gear](https://www.cyclegear.com/parts/altrider-mac-braktec-clutch-lever-husqvarna-gas-gas-2021-2025) |
+| Arc Levers | ARC Flex Clutch Lever For Braktec Master Cylinder Husqvarna / Gas Gas 150cc-501cc 2021-2027 | AC-CL-122, AC-CL-122-CT, CL-122-C/AC-CL-122-C, CL-S122-B, CL-S122-R | 78.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/arc-flex-clutch-lever-for-braktec-master-cylinder-husqvarna-gas-gas-150cc-501cc-2021-2025) |
+| Arc Levers | ARC Flex Front Brake Lever Husqvarna / Gas Gas 125cc-501cc 2021-2027 | AC-BR-122, AC-BR-122-CT, BR-122-B, BR-122-C/AC-BR-122-C, BR-122-R | 78.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/arc-flex-front-brake-lever-husqvarna-gas-gas-125cc-501cc-2021-2024) |
+| BILT FACTORY | BILT FACTORY Folding Lever Set KTM / Gas Gas / Husqvarna 125cc-501cc | 7283/8283-BLK, 7283/8283-ORG | 99.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/bilt-factory-folding-lever-set-ktm-gas-gas-husqvarna-125cc-501cc) |
+| Enduro Engineering | Enduro Engineering Roost Deflector Mounting Kit Husqvarna / Gas Gas 150cc-501cc 2021-2024 | 53-2122 | 66.45 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-roost-deflector-mounting-kit-husqvarna-gas-gas-150cc-501cc-2021-2024) |
+| Flo Motorsports | Flo Motorsports Pro 160 Brake Lever Husqvarna / Gas Gas 125cc-501cc 2021-2027 | BL-719 | 87.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-pro-160-brake-lever-husqvarna-gas-gas-125cc-501cc-2021-2024) |
+| Flo Motorsports | Flo Motorsports Pro 160 Clutch Lever Husqvarna / Gas Gas 125cc-501cc 2022-2027 | CL-729, SHORTCL-729 | 87.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-pro-160-clutch-lever-husqvarna-gas-gas-125cc-501cc-2022-2024) |
+| Moose Racing | Moose Racing Flex Forged Brake Lever Husqvarna / Gas Gas 125cc-501cc 2021-2027 | H07-5942 BS | 53.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-flex-forged-brake-lever-husqvarna-gas-gas-125cc-501cc-2021-2024) |
+| Moose Racing | Moose Racing Forged Clutch Lever Husqvarna / Gas Gas 125cc-501cc 2022-2027 | H07-5942CS | 59.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-forged-clutch-lever-husqvarna-gas-gas-125cc-501cc-2022-2024) |
 | Polisport | Polisport APT Unbreakable Lever Kit KTM / Husqvarna / Sherco / Gas Gas / Triumph 125cc-450cc | 91575 | 41.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-apt-unbreakable-lever-kit-ktm-husqvarna-sherco-gas-gas-triumph-125cc-450cc) |
 
-### Uncategorised (186)
+### Seats (1)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
-| Acerbis | Acerbis Chain Guide Block 2.0 KTM / Husqvarna / Gas Gas 125cc-501cc 2022-2027 |  | 79.16 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-chain-guide-block-20-ktm-husqvarna-gas-gas-125cc-501cc-2022-2025) |
-| Acerbis | Acerbis Chain Guide KTM / Husqvarna / Gas Gas 125cc-450cc 2022-2027 |  | 49.46 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-chain-guide-ktm-husqvarna-125cc-450cc-2022-2024) |
-| Acerbis | Acerbis Fuel Tank Filter KTM / Husqvarna / Gas Gas 250cc-500cc 2011-2027 |  | 33.26 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-fuel-tank-filter-ktm-husqvarna-gas-gas-250cc-500cc-2011-2027) |
-| Acerbis | Acerbis Fuel Tank Gas Gas 125cc-500cc 2024-2027 |  | 365.36 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-fuel-tank-gas-gas-125cc-500cc-2024-2025) |
-| Acerbis | Acerbis K-Linear Handguards Husqvarna / Gas Gas 250cc-501cc 2021-2027 |  | 49.46 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-k-linear-handguards-husqvarna-gas-gas-250cc-501cc-2021-2024) |
-| Acerbis | Acerbis Mud Flap KTM / Husqvarna / Gas Gas 125cc-450cc 2022-2027 |  | 29.66 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-mud-flap-ktm-husqvarna-125cc-450cc-2022-2024) |
-| Acerbis | Acerbis Off-Road Skid Plate KTM / Husqvarna / Gas Gas 450cc-501cc 2022-2027 |  | 82.76 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-off-road-skid-plate-ktm-husqvarna-450cc-501cc-2022-2024) |
-| Acerbis | Acerbis Teketmagnet Swingarm Protectors KTM / Husqvarna / Gas Gas 150cc-501cc 2025-2027 |  | 75.56 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-teketmagnet-swingarm-protectors-ktm-husqvarna-gas-gas-250cc-501cc-2025) |
-| Acerbis | Acerbis X-Brake Disc Cover Mount KTM / Husqvarna / Gas Gas 2015-2027 |  | 36.86 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-x-brake-disc-cover-mount-ktm-husqvarna-gas-gas-2015-2021) |
-| Acerbis | Acerbis X-Grip Frame Guards Gas Gas 125cc-500cc 2024-2027 |  | 54.86 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-x-grip-frame-guards-gas-gas-125cc-500cc-2024-2025) |
-| Acerbis | Acerbis X-Power Clutch and Ignition Covers KTM / Husqvarna / Gas Gas 450cc-501cc 2022-2027 |  | 69.26 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-x-power-clutch-and-ignition-covers-ktm-husqvarna-450cc-501cc-2022-2024) |
-| All Balls Racing | All Balls Racing Front Wheel Bearing Kit KTM / Husqvarna / Gas Gas / Beta 125cc-1290cc 2003-2027 |  | 35.78 USD | [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-front-wheel-bearing-kit-ktm-husqvarna-beta-125cc-1290cc-2003-2023) |
-| All Balls Racing | All Balls Racing Front Wheel Spacers Husqvarna / Gas Gas / KTM 125cc-501cc |  | 40.45 USD | [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-front-wheel-spacers-husqvarna-ktm-125cc-501cc) |
-| All Balls Racing | All Balls Racing Fuel Pump Kit Gas Gas / KTM / Husqvarna |  | 89.92 USD | [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-fuel-pump-kit-gas-gas-ktm-husqvarna) |
-| All Balls Racing | All Balls Racing Rear Wheel Bearing Kit 25-1404 |  | 30.87 USD | [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-rear-wheel-bearing-kit-25-1404) |
-| AltRider | AltRider Adjustable Aluminum Side Stand KTM /Husqvarna / Gas Gas 125cc-501cc 2023-2027 |  | 191.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/altrider-adjustable-aluminum-side-stand-ktm-husqvarna-gas-gas125cc-501cc-2023-2025) |
-| AltRider | AltRider Front And Rear Rotor Guards Set KTM / Husqvarna / Gas Gas 125cc-530cc 2004-2027 |  | 331.17 USD | [Cycle Gear](https://www.cyclegear.com/parts/altrider-front-and-rear-rotor-guards-set-ktm-husqvarna-gas-gas-125cc-530cc-2004-2026) |
-| AltRider | AltRider Front Rotor Guard KTM / Husqvarna / Gas Gas 125cc-501cc 2015-2027 |  | 178.76 USD | [Cycle Gear](https://www.cyclegear.com/parts/altrider-front-rotor-guard-ktm-husqvarna-gas-gas-125cc-501cc-2015-2023) |
-| AltRider | AltRider Linkage Guard KTM / Husqvarna / Gas Gas 2014-2027 |  | 41.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/altrider-linkage-guard-ktm-husqvarna-gas-gas-2014-2026) |
-| AltRider | AltRider MAC BrakTec Brake Lever Husqvarna / Gas Gas 2021-2027 |  | 148.76 USD | [Cycle Gear](https://www.cyclegear.com/parts/altrider-mac-braktec-brake-lever-husqvarna-gas-gas-2021-2025) |
-| AltRider | AltRider MAC BrakTec Clutch And Brake Lever Combo Husqvarna / Gas Gas 2021-2027 |  | 277.52 USD | [Cycle Gear](https://www.cyclegear.com/parts/altrider-mac-braktec-clutch-and-brake-lever-combo-husqvarna-gas-gas-2021-2025) |
-| AltRider | AltRider MAC BrakTec Clutch Lever Husqvarna / Gas Gas 2021-2027 |  | 148.76 USD | [Cycle Gear](https://www.cyclegear.com/parts/altrider-mac-braktec-clutch-lever-husqvarna-gas-gas-2021-2025) |
-| AltRider | AltRider Rear Rotor Guard KTM / Husqvarna / Gas Gas 125cc-530cc 2004-2027 |  | 178.76 USD | [Cycle Gear](https://www.cyclegear.com/parts/altrider-rear-rotor-guard-ktm-husqvarna-gas-gas-125cc-530cc-2004-2023) |
-| AltRider | AltRider Variable Height Suspension Lowering Linkage KTM / Husqvarna / Gas Gas 125cc-501cc 2022-2027 |  | 271.37 USD | [Cycle Gear](https://www.cyclegear.com/parts/altrider-variable-height-suspension-lowering-linkage-ktm-husqvarna-gas-gas-125cc-501cc-2022-2025) |
-| Arc Levers | ARC Flex Clutch Lever For Braktec Master Cylinder Husqvarna / Gas Gas 150cc-501cc 2021-2027 |  | 78.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/arc-flex-clutch-lever-for-braktec-master-cylinder-husqvarna-gas-gas-150cc-501cc-2021-2025) |
-| Arc Levers | ARC Flex Front Brake Lever Husqvarna / Gas Gas 125cc-501cc 2021-2027 |  | 78.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/arc-flex-front-brake-lever-husqvarna-gas-gas-125cc-501cc-2021-2024) |
-| AXP Racing | AXP Racing Chain Guide KTM / Husqvarna / Gas Gas 125cc-501cc 2022-2027 |  | 108.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/axp-racing-chain-guide-ktm-husqvarna-gas-gas-125cc-501cc-2022-2025) |
-| BILT FACTORY | BILT FACTORY FA181R Sintered Front Brake Pads |  | 27.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/bilt-factory-fa181r-sintered-front-brake-pads) |
-| BILT FACTORY | BILT FACTORY FA368R Sintered Rear Brake Pads |  | 28.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/bilt-factory-fa368r-sintered-rear-brake-pads) |
-| BILT FACTORY | BILT FACTORY Folding Lever Set KTM / Gas Gas / Husqvarna 125cc-501cc |  | 99.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/bilt-factory-folding-lever-set-ktm-gas-gas-husqvarna-125cc-501cc) |
-| Bolt Hardware | Bolt Hardware Oil Change Kit Gas Gas / Husqvarna / KTM |  | 7.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/bolt-hardware-oil-change-kit-gas-gas-husqvarna-ktm) |
-| Braking | Braking W Fix Rear Rotor KTM / Husqvarna / Husaberg / Gas Gas / Stark Varg |  | 114.48 USD | [Cycle Gear](https://www.cyclegear.com/parts/braking-w-fix-rear-rotor-ktm-husqvarna-husaberg-gas-gas-stark-varg) |
-| Brembo | Brembo Genuine Sinter Front Brake Pads 07BB0483 |  | 61.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/brembo-20-23-husqvarna-te-i-150-cc18-23-ktm-exc-tp) |
-| Brembo | Brembo SD Front Brake Pads 07BB04SD |  | 44.08 USD | [Cycle Gear](https://www.cyclegear.com/parts/brembo-sd-front-brake-pads-07bb04sd) |
-| Brembo | Brembo SD Rear Brake Pads 07BB27SD |  | 44.08 USD | [Cycle Gear](https://www.cyclegear.com/parts/brembo-sd-rear-brake-pads-07bb27sd) |
-| Brembo | Brembo SX Front Brake Pads 07BB04SX |  | 64.03 USD | [Cycle Gear](https://www.cyclegear.com/parts/brembo-sx-front-brake-pads-07bb04sx) |
-| Brembo | Brembo SX Rear Brake Pads 07BB27SX |  | 64.03 USD | [Cycle Gear](https://www.cyclegear.com/parts/brembo-sx-rear-brake-pads-07bb27sx) |
-| Brembo | Brembo Serie Oro Fixed Front Brake Disc 68B407B8 |  | 148.74 USD | [Cycle Gear](https://www.cyclegear.com/parts/brembo-serie-oro-fixed-front-brake-disc-68b407b8) |
-| Brembo | Brembo Serie Oro Fixed Rear Brake Disc 68B40752 |  | 132.25 USD | [Cycle Gear](https://www.cyclegear.com/parts/brembo-serie-oro-fixed-rear-brake-disc-68b40752) |
-| Cycra | Cycra Tri Flow Disc Cover Mount KTM / Husqvarna / Gas Gas 125cc-500cc 2015-2027 |  | 33.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/cycra-tri-flow-disc-cover-mount-ktm-husqvarna-125cc-500cc-2015-2023) |
-| DP Brakes | DP Brakes DP617 Sintered Front Brake Pads |  | 52.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/dp-brakes-dp617-sintered-front-brake-pads) |
-| DP Brakes | DP Brakes DP935 Sintered Rear Brake Pads |  | 52.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/dp-brakes-dp935-sintered-rear-brake-pads) |
-| DP Brakes | DP Brakes SDP617 Pro MX Front Brake Pads  |  | 59.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/dp-brakes-sdp617-pro-mx-front-brake-pads) |
-| DP Brakes | DP Brakes SDP935 Pro MX Rear Brake Pads |  | 59.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/dp-brakes-sdp935-pro-mx-rear-brake-pads) |
-| Duraboost | Duraboost DBL5L Lithium Ion Battery |  | 127.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/duraboost-dbl5l-lithium-ion-battery) |
-| E-Line | E-Line Carbon Fiber Skid Plate KTM / Husqvarna / Gas Gas 250cc-450cc 2022-2027 |  | 199.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/e-line-carbon-fiber-skid-plate-ktm-husqvarna-gas-gas-250cc-450cc-2022-2024) |
-| EBC Brakes | EBC D-Series Front Rotor KTM / Husqvarna / Gas Gas / Husaberg / Beta / Stark 125cc-530cc |  | 149.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/ebc-d-series-front-rotor-ktm-husqvarna-gas-gas-husaberg-beta-stark-125cc-530cc) |
-| EBC Brakes | EBC FA181R R Series Sintered Front Brake Pads |  | 42.07 USD | [Cycle Gear](https://www.cyclegear.com/parts/ebc-ebc-fa181-r-r-series-sintered-front-brake-pads) |
-| EBC Brakes | EBC FA181X Carbon X Front Brake Pads |  | 40.02 USD | [Cycle Gear](https://www.cyclegear.com/parts/ebc-ebc-fa181-x-carbon-x-front-brake-pads) |
-| EBC Brakes | EBC FA368R R Series Sintered Rear Brake Pads |  | 39.54 USD | [Cycle Gear](https://www.cyclegear.com/parts/ebc-fa368r-r-series-sintered-rear-brake-pads) |
-| EBC Brakes | EBC FA368X Carbon X Rear Brake Pads |  | 36.02 USD | [Cycle Gear](https://www.cyclegear.com/parts/ebc-fa368x-carbon-x-rear-brake-pads) |
-| EBC Brakes | EBC MXS181 Race Series Front Brake Pads |  | 46.06 USD | [Cycle Gear](https://www.cyclegear.com/parts/ebc-mxs181-race-series-front-brake-pads) |
-| EBC Brakes | EBC MXS368 Race Series Rear Brake Pads |  | 46.08 USD | [Cycle Gear](https://www.cyclegear.com/parts/ebc-mxs368-race-series-rear-brake-pads) |
-| Enduro Engineering | Enduro Engineering Billet Radiator Guards KTM / Husqvarna / Gas Gas 125cc-501cc 2016-2027 |  | 176.36 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-billet-radiator-guards-ktm-husqvarna-gas-gas-125cc-501cc-2016-2022) |
-| Enduro Engineering | Enduro Engineering Clutch Slave Cylinder Guard KTM / Husqvarna / Gas Gas 250cc-501cc 2022-2027 |  | 40.80 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-clutch-slave-cylinder-guard-ktm-husqvarna-250cc-450cc-2022-2023) |
-| Enduro Engineering | Enduro Engineering Front Axle Pull KTM / Husqvarna / Gas Gas 125cc-501cc 2015-2027 |  | 18.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-front-axle-pull-ktm-husqvarna-gas-gas-125cc-501cc-2015-2023) |
-| Enduro Engineering | Enduro Engineering Front Brake Rotor Guard KTM / Husqvarna / Gas Gas / Sherco |  | 104.45 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-front-brake-rotor-guard-ktm-husqvarna-gas-gas-sherco) |
-| Enduro Engineering | Enduro Engineering Handlebar Risers Husqvarna / KTM / Gas Gas 125cc-450cc |  | 44.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-handlebar-risers-husqvarna-ktm-gas-gas-125cc-450cc) |
-| Enduro Engineering | Enduro Engineering Radiator Braces Husqvarna / Gas Gas / KTM 125cc-450cc 2023-2027 |  | 104.45 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-radiator-braces-husqvarna-ktm-125cc-450cc-2023) |
-| Enduro Engineering | Enduro Engineering Rear Wheel Spacer / Seal Conversion Kit KTM / Husqvarna / Gas Gas 2023-2027 |  | 37.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-rear-wheel-spacer-seal-conversion-kit-ktm-husqvarna-2023-2024) |
-| Enduro Engineering | Enduro Engineering Rear Wheel Spacers Husqvarna / Gas Gas / KTM 125cc-450cc 2023-2027 |  | 24.65 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-rear-wheel-spacers-husqvarna-ktm-125cc-450cc-2023-2024) |
-| Enduro Engineering | Enduro Engineering Roost Deflector Mounting Kit Husqvarna / Gas Gas 150cc-501cc 2021-2024 |  | 66.45 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-roost-deflector-mounting-kit-husqvarna-gas-gas-150cc-501cc-2021-2024) |
-| Enduro Engineering | Enduro Engineering Rubber Mounted Xtreme Skid Plate KTM / Husqvarna / Gas Gas 250cc-450cc 2022-2027 |  | 123.45 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-rubber-mounted-xtreme-skid-plate-ktm-husqvarna-gas-gas-250cc-450cc-2022-2024) |
-| Enduro Engineering | Enduro Engineering Skid Plate KTM / Husqvarna / Gas Gas 250cc-500cc 2022-2027 |  | 123.45 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-skid-plate-ktm-husqvarna-gas-gas-250cc-500cc-2022-2024) |
-| Enduro Engineering | Enduro Engineering Skid Plate Mounted Linkage Guard KTM / Husqvarna / Gas Gas 125cc-501cc 2023-2027 |  | 42.70 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-skid-plate-mounted-linkage-guard-ktm-husqvarna-125cc-450cc-2023) |
-| Excel | Excel A60 Front Rim |  | 260.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/excel-a60-front-rim) |
-| Excel | Excel Takasago 1.60" x 21" Front Rim Honda / Yamaha / Kawasaki / Suzuki / KTM / Husqvarna / Gas Gas  |  | 165.64 USD | [Cycle Gear](https://www.cyclegear.com/parts/excel-takasago-160-x-21-front-rim-honda-yamaha-kawasaki-suzuki-ktm-husqvarna-gas-gas) |
-| Excel | Excel Takasago 1.85" x 18" Rear Rim Yamaha / Kawasaki / Suzuki / KTM / Husqvarna / Gas Gas 125cc-650 |  | 184.81 USD | [Cycle Gear](https://www.cyclegear.com/parts/excel-takasago-185-x-18-rear-rim-yamaha-kawasaki-suzuki-ktm-husqvarna-125cc-650cc-1989-2023) |
-| Excel | Excel Takasago 1.85" x 19" Rear Rim Suzuki / KTM / Husqvarna / Husaberg / Gas Gas / Sherco 125cc-530 |  | 173.33 USD | [Cycle Gear](https://www.cyclegear.com/parts/excel-takasago-185-x-19-rear-rim-suzuki-ktm-husqvarna-husaberg-gas-gas-sherco-125cc-530cc-2000-2023) |
-| Excel | Excel Takasago 2.15" x 18" Rear Rim Yamaha / Suzuki / KTM / Husqvarna / Husaberg / Gas Gas / Sherco  |  | 190.76 USD | [Cycle Gear](https://www.cyclegear.com/parts/excel-takasago-215-x-18-rear-rim-yamaha-suzuki-ktm-husqvarna-husaberg-gas-gas-sherco-beta) |
-| Excel | Excel Takasago 2.15" x 19" Rear Rim Yamaha / Suzuki / KTM / Husqvarna / Husaberg / Gas Gas / Sherco  |  | 195.91 USD | [Cycle Gear](https://www.cyclegear.com/parts/excel-takasago-215-x-19-rear-rim-yamaha-suzuki-ktm-husqvarna-husaberg-gas-gas-sherco-beta) |
-| Factory Effex | Factory Effex Dual Grip Seat Cover Gas Gas 125cc-500cc 2023-2027 |  | 79.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-effex-dual-grip-seat-cover-gas-gas-125cc-500cc-2023-2025) |
-| Factory Links | Factory Links Front and Rear Wheel Bearing Kit Beta / KTM / Husqvarna / Gas Gas 125cc-500cc 2011-202 |  | 66.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-links-front-and-rear-wheel-bearing-kit-beta-ktm-husqvarna-gas-gas-125cc-500cc-2011-2025) |
-| Ferodo Brand | Ferodo FDB2018P Platinum Front Brake Pads |  | 43.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/ferodo-fdb2018p-platinum-front-brake-pads) |
-| Ferodo Brand | Ferodo FDB2018SG SinterGrip Front Brake Pads |  | 51.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/ferodo-fdb2018sg-sintergrip-front-brake-pads) |
-| Ferodo Brand | Ferodo FDB2165SG SinterGrip Rear Brake Pads |  | 47.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/ferodo-fdb2165sg-sintergrip-rear-brake-pads) |
-| Fire Power | Fire Power Front Wheel KTM / Gas Gas / Husqvarna / Stark 250cc-501cc 2013-2027 |  | 445.46 USD | [Cycle Gear](https://www.cyclegear.com/parts/fire-power-front-wheel-ktm-gas-gas-husqvarna-stark-250cc-501cc-2013-2026) |
-| Fire Power | Fire Power Rear Wheel KTM / Gas Gas / Husqvarna / Stark 250cc-501cc 2013-2027 |  | 528.26 USD | [Cycle Gear](https://www.cyclegear.com/parts/fire-power-rear-wheel-ktm-gas-gas-husqvarna-stark-250cc-501cc-2013-2026) |
-| Fire Power | Fire Power Replacement Front Spokes Service Kit Sherco / Beta / Husqvarna / KTM / Sherco / Stark 125 |  | 29.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/fire-power-replacement-front-spokes-service-kit-sherco-beta-husqvarna-ktm-sherco-stark-125cc-500cc) |
-| Fire Power | Fire Power Replacement Rear Spokes Service Kit Sherco / Beta / Husqvarna / Gas Gas / Stark 125cc-500 |  | 29.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/fire-power-replacement-rear-spokes-service-kit-sherco-beta-husqvarna-gas-gas-stark-125cc-500cc) |
-| Flo Motorsports | Flo Motorsports Folding Tip Brake Pedal KTM / Husqvarna / Gas Gas 125cc-450cc 2023-2027 |  | 149.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-folding-tip-brake-pedal-ktm-husqvarna-gas-gas-125cc-450cc-2023-2024) |
-| Flo Motorsports | Flo Motorsports High Flow Radiator Braces KTM / Husqvarna / Gas Gas 125cc-501cc 2015-2027 |  | 299.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-high-flow-radiator-braces-ktm-husqvarna-gas-gas-125cc-501cc-2015-2022) |
-| Flo Motorsports | Flo Motorsports Pro 160 Brake Lever Husqvarna / Gas Gas 125cc-501cc 2021-2027 |  | 87.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-pro-160-brake-lever-husqvarna-gas-gas-125cc-501cc-2021-2024) |
-| Flo Motorsports | Flo Motorsports Pro 160 Clutch Lever Husqvarna / Gas Gas 125cc-501cc 2022-2027 |  | 87.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-pro-160-clutch-lever-husqvarna-gas-gas-125cc-501cc-2022-2024) |
-| Flo Motorsports | Flo Motorsports Shift Lever KTM / Husqvarna / Gas Gas 125cc-501cc 2012-2027 |  | 52.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-shift-lever-ktm-husqvarna-gas-gas-125cc-501cc-2012-2026) |
-| Flo Motorsports | Flo Motorsports Titanium Foot Pegs KTM / Husqvarna / Gas Gas 125cc-450cc 2023-2027 |  | 346.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-titanium-foot-pegs-ktm-husqvarna-gas-gas-125cc-450cc-2023-2024) |
-| FunnelWeb | FunnelWeb ProLine Air Filter KTM / Husqvarna / Gas Gas 125cc-500cc 2022-2027 |  | 39.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/funnelweb-proline-air-filter-ktm-husqvarna-gas-gas-125cc-500cc-2022-2025) |
-| GBrakes | GBrakes Front Floating Wave Rotor GBD9035X |  | 182.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-front-floating-wave-rotor-gbd9035x) |
-| GBrakes | GBrakes Front Solid Mount Tsunami Wave Rotor GBD061 |  | 141.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-front-solid-mount-tsunami-wave-rotor-gbd061) |
-| GBrakes | GBrakes Front Solid Mount Wave Rotor GBD9026X / GBD9022X |  | 121.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-front-solid-mount-wave-rotor-gbd9026x) |
-| GBrakes | GBrakes HH Sintered Rear Brake Pads GB0565-76 |  | 41.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-hh-sintered-rear-brake-pads-gb0565-76) |
-| GBrakes | GBrakes Rear Solid Mount Wave Rotor GBD9024X |  | 109.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-rear-solid-mount-wave-rotor-gbd9024x) |
-| GBrakes | GBrakes Semi-Metallic Rear Brake Pads GB0565-69 |  | 38.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-semi-metallic-rear-brake-pads-gb0565-69) |
-| HiFloFiltro | HiFloFiltro Premium Oil Filter HF652 |  | 6.45 USD | [Cycle Gear](https://www.cyclegear.com/parts/hiflofiltro-premium-oil-filter-hf652) |
-| Hinson | Hinson Billetproof Clutch Cover KTM / Husqvarna / Gas Gas 250cc-450cc 2023-2027 |  | 179.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/hinson-billetproof-clutch-cover-ktm-husqvarna-gas-gas-250cc-450cc-2023-2024) |
-| Hinson | Hinson Oil Filler Cap KTM / Husqvarna / Gas Gas 125cc-501cc 1998-2027 |  | 19.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/hinson-oil-filler-cap-ktm-husqvarna-gas-gas-125cc-501cc-1998-2024) |
-| IMS | IMS Fuel Tank Gas Gas 125cc-450cc 2024-2027 |  | 483.29 USD | [Cycle Gear](https://www.cyclegear.com/parts/ims-fuel-tank-gas-gas-125cc-450cc-2024-2026) |
-| K&N | K&N Oil Filter KN-652 |  | 11.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/kn-oil-filter-kn-652) |
-| Maxima Lubricants | Maxima ProFilter Maxflow Oil Filter KTM / Husqvarna / Gas Gas / Husaberg 250cc-701cc 2008-2027 |  | 9.19 USD | [Cycle Gear](https://www.cyclegear.com/parts/maxima-profilter-maxflow-oil-filter-ktm-husqvarna-gas-gas-husaberg-250cc-701cc-2008-2026) |
-| Moose Racing | Moose Racing Clutch Master Cylinder Guard KTM / Husqvarna / Gas Gas 250cc-501cc 2023-2027 |  | 42.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-clutch-master-cylinder-guard-ktm-husqvarna-gas-gas-250cc-501cc-2023-2024) |
-| Moose Racing | Moose Racing Fast Front Wheel Spacers KTM / Husqvarna / Gas Gas 125cc-500cc 2015-2027 |  | 35.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-fast-front-wheel-spacers-ktm-husqvarna-gas-gas-125cc-500cc-2015-2024) |
-| Moose Racing | Moose Racing Flex Forged Brake Lever Husqvarna / Gas Gas 125cc-501cc 2021-2027 |  | 53.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-flex-forged-brake-lever-husqvarna-gas-gas-125cc-501cc-2021-2024) |
-| Moose Racing | Moose Racing Forged Clutch Lever Husqvarna / Gas Gas 125cc-501cc 2022-2027 |  | 59.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-forged-clutch-lever-husqvarna-gas-gas-125cc-501cc-2022-2024) |
-| Moose Racing | Moose Racing Fork Seal / Wiper Kit KTM / Husqvarna / Gas Gas / Sherco 250cc-530cc 2014-2027 |  | 49.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-fork-seal-wiper-kit-ktm-husqvarna-gas-gas-sherco-250cc-530cc-2014-2022) |
-| Moose Racing | Moose Racing Front Rim KTM / Gas Gas / Husqvarna / Yamaha / Suzuki / Kawasaki / Beta 125cc-530cc |  | 139.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-front-rim-ktm-gas-gas-husqvarna-yamaha-suzuki-kawasaki-beta-125cc-530cc) |
-| Moose Racing | Moose Racing Front Rotor Guard KTM / Husqvarna / Gas Gas |  | 109.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-front-rotor-guard-ktm-husqvarna-gas-gas) |
-| Moose Racing | Moose Racing Front Wheel Bearing Kit KTM / Husqvarna / Gas Gas / Beta / Husaberg |  | 34.29 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-front-wheel-bearing-kit-ktm-husqvarna-beta-husaberg) |
-| Moose Racing | Moose Racing MX1 Front Wheel Spoke Set KTM / Husqvarna / Gas Gas 125cc-501cc |  | 49.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-mx1-front-wheel-spoke-set-ktm-husqvarna-125cc-501cc) |
-| Moose Racing | Moose Racing MX1 Rear Wheel Spoke Set KTM / Husqvarna / Gas Gas 125cc-501cc |  | 49.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-mx1-rear-wheel-spoke-set-ktm-husqvarna-125cc-501cc) |
-| Moose Racing | Moose Racing Machined Oil Pump Cover KTM / Husqvarna / Gas Gas 250cc-501cc 2017-2027 |  | 32.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-machined-oil-pump-cover-ktm-husqvarna-gas-gas-250cc-501cc-2017-2025) |
-| Moose Racing | Moose Racing Oil Filter KTM / Husqvarna / Gas Gas / Husaberg 250cc-701cc 2008-2027 |  | 5.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-oil-filter-ktm-husqvarna-gas-gas-husaberg-250cc-701cc-2008-2026) |
-| Moose Racing | Moose Racing Pro Chain Guide KTM / Husqvarna / Gas Gas 125cc-501cc 2022-2027 |  | 99.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-pro-chain-guide-ktm-husqvarna-gas-gas-125cc-501cc-2022-2025) |
-| Moose Racing | Moose Racing RFX Front Rotor KTM / Husqvarna / Gas Gas / Husaberg / Stark 125cc-530cc |  | 127.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-rfx-front-rotor-ktm-husqvarna-gas-gas-husaberg-stark-125cc-530cc) |
-| Moose Racing | Moose Racing RFX Rear Rotor KTM / Husqvarna / Gas Gas / Stark / Husaberg 125cc-560cc 1991-2027 |  | 127.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-rfx-rear-rotor-ktm-husqvarna-gas-gas-stark-husaberg-125cc-560cc) |
-| Moose Racing | Moose Racing Radiator Braces KTM / Husqvarna / Gas Gas 125cc-450cc 2022-2027 |  | 109.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-radiator-braces-ktm-husqvarna-gas-gas-125cc-450cc-2022-2025) |
-| Moose Racing | Moose Racing Rear Rim KTM / Husqvarna / Gas Gas / Yamaha / Suzuki / Beta 125cc-530cc |  | 134.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-rear-rim-ktm-husqvarna-yamaha-suzuki-beta-125cc-530cc) |
-| Moose Racing | Moose Racing SX-1 Complete Front Wheel KTM / Husqvarna / Gas Gas |  | 441.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-sx-1-complete-front-wheel-ktm-husqvarna-gas-gas) |
-| Moose Racing | Moose Racing SX-1 Complete Rear Wheel KTM / Husqvarna / Gas Gas 125cc-450cc |  | 484.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-sx-1-complete-rear-wheel-ktm-husqvarna-gas-gas-125cc-450cc) |
-| Moose Racing | Moose Racing SX-1 Front Wheel Spacers KTM / Husqvarna / Gas Gas |  | 16.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-sx-1-front-wheel-spacers-ktm-husqvarna-gas-gas) |
-| Moose Racing | Moose Racing SX-1 Rear Wheel Spacers KTM / Husqvarna / Gas Gas 125cc-450cc |  | 16.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-sx-1-rear-wheel-ktm-husqvarna-gas-gas-125cc-450cc) |
-| Moose Racing | Moose Racing Shark Fin Rear Disc Guard KTM / Husqvarna / Gas Gas 125cc-501cc 2022-2027 |  | 109.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-shark-fin-rear-disc-guard-ktm-husqvarna-125cc-450cc-2022-2023) |
-| Moose Racing | Moose Racing Skid Plate KTM / Husqvarna / Gas Gas 250cc-501cc 2023-2027 |  | 173.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-skid-plate-ktm-husqvarna-gas-gas-250cc-501cc-2023-2025) |
-| Moose Racing | Moose Racing Solid Rear Rotor KTM / Husqvarna / Gas Gas / Stark / Husaberg 125cc-560cc 1991-2027 |  | 69.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-solid-rear-rotor-ktm-husqvarna-gas-gas-stark-husaberg-125cc-560cc-1991-2024) |
-| Moose Racing | Moose Racing Stainless Steel Front Spoke Set KTM / Husqvarna / Gas Gas 125cc-501cc 1998-2027 |  | 69.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-stainless-steel-front-spoke-set-ktm-husqvarna-125cc-501cc-1998-2020) |
-| Moose Racing | Moose Racing Stainless Steel Rear Spoke Set KTM / Husqvarna / Gas Gas 125cc-501cc 2015-2027 |  | 69.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-stainless-steel-rear-spoke-set-ktm-husqvarna-125cc-501cc-2015-2020) |
-| Moto-Master | Moto Master 93011 Sinter Pro Racing Front Brake Pads |  | 30.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-93011-sinter-pro-racing-front-brake-pads) |
-| Moto-Master | Moto Master 93021 Nitro Front Brake Pads |  | 24.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-93021-nitro-front-brake-pads) |
-| Moto-Master | Moto Master 94411 Sinter Pro Racing Rear Brake Pads |  | 30.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-94411-sinter-pro-racing-rear-brake-pads) |
-| Moto-Master | Moto Master 94421 Nitro Rear Brake Pads |  | 24.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-94421-nitro-rear-brake-pads) |
-| Moto-Master | Moto Master Flame 260mm Floating Front Rotor KTM / Husqvarna / Gas Gas / Husaberg 125cc-530cc |  | 154.76 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-flame-260-floating-front-rotor-ktm-husqvarna-gas-gas-husaberg-125cc-530cc) |
-| Moto-Master | Moto Master Flame 270mm Floating Front Rotor KTM / Husqvarna / Gas Gas / Husaberg / Stark 125cc-530c |  | 188.06 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-flame-270mm-floating-front-rotor-ktm-husqvarna-gas-gas-husaberg-stark-125cc-530cc) |
-| Moto-Master | Moto Master Flame Fixed Front Rotor KTM / Gas Gas / Stark / Husqvarna |  | 123.26 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-flame-front-rotor-ktm-gas-gas-husqvarna) |
-| Moto-Master | Moto Master Flame Fixed Rear Rotor KTM / Husqvarna / Gas Gas / Stark / Husaberg 125cc-560cc |  | 123.26 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-flame-fixed-rear-rotor-ktm-husqvarna-gas-gas-husaberg-125cc-560cc) |
-| Motolis | Motolis M-652 Oil Filter  |  | 7.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/motolis-m-652-oil-filter) |
-| No Toil | No Toil Pre Oiled Air Filter KTM / Husqvarna / Gas Gas 2022-2027 |  | 31.49 USD | [Cycle Gear](https://www.cyclegear.com/parts/no-toil-pre-oiled-air-filter-ktm-husqvarna-gas-gas-2022-2024) |
-| No Toil | No Toil Standard Air Filter KTM / Husqvarna / Gas Gas 125cc-450cc 2022-2027 |  | 30.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/no-toil-standard-air-filter-ktm-husqvarna-125cc-450cc-2022-2024) |
-| P3 | P3 Carbon Fiber Hybrid Skid Plate KTM / Husqvarna / Gas Gas 450cc-500cc 2023-2027 |  | 221.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/p3-carbon-fiber-hybrid-skid-plate-ktm-husqvarna-gas-gas-450cc-500cc-2023-2024) |
-| P3 | P3 Carbon Fiber MAXCoverage Heat Shield Gas Gas 450cc |  | 169.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/p3-carbon-fiber-maxcoverage-heat-shield-gas-gas-450cc) |
-| P3 | P3 Carbon Fiber Skid Plate KTM / Husqvarna / Gas Gas 450cc 2022-2027 |  | 239.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/p3-carbon-fiber-skid-plate-ktm-husqvarna-gas-gas-450cc-2022-2024) |
-| PC Racing | PC Racing FLO Stainless Steel Reusable Oil Filter KTM / Husqvarna / Gas Gas / Husaberg 250cc-701cc 2 |  | 39.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/pc-racing-flo-stainless-steel-reusable-oil-filter-ktm-husqvarna-gas-gas-husaberg-250cc-701cc) |
-| Pivot Works | Pivot Works Front Wheel Bearing Kit KTM / Husqvarna / Gas Gas 125cc-701cc |  | 38.51 USD | [Cycle Gear](https://www.cyclegear.com/parts/pivot-works-front-wheel-bearing-kit-ktm-husqvarna-125cc-701cc) |
-| Pivot Works | Pivot Works Premium Front Wheel Bearing Kit KTM / Husqvarna / Gas Gas 125cc-701cc 2003-2027 |  | 51.25 USD | [Cycle Gear](https://www.cyclegear.com/parts/pivot-works-premium-front-wheel-bearing-kit-ktm-husqvarna-gas-gas-125cc-701cc-2003-2025) |
-| Polisport | Polisport Fork Guards KTM / Husqvarna / Gas Gas / Sherco 125cc-500cc 2015-2027 |  | 24.74 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-fork-guards-ktm-husqvarna-gas-gas-sherco-125cc-500cc-2015-2023) |
-| Polisport | Polisport Front Disc Guard and Fork Protector Gas Gas / Husqvarna / KTM / Sherco 125cc-501cc |  | 45.82 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-front-disc-guard-and-fork-protector-gas-gas-husqvarna-ktm-sherco-125cc-501cc) |
-| Polisport | Polisport Full Wrap Fork Guards KTM / Husqvarna / Gas Gas / Sherco 125cc-500cc 2015-2027 |  | 39.55 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-full-wrap-lower-fork-guards-ktm-husqvarna-gas-gas-sherco-125cc-500cc-2015-2023) |
-| Polisport | Polisport Swingarm Protectors Gas Gas / Husqvarna / KTM 125cc-450cc 2023-2027 |  | 43.20 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-swingarm-protectors-gas-gas-husqvarna-ktm-125cc-450cc-2023-2025) |
-| Pro Circuit | Pro Circuit T-6 Slip-On Exhaust KTM / Husqvarna / Gas Gas 450cc 2022-2027 |  | 759.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-t-6-slip-on-exhaust-ktm-husqvarna-450cc-2022-2023) |
-| Pro Circuit | Pro Circuit Ti-6 Pro Titanium Exhaust System KTM / Husqvarna / Gas Gas 450cc 2022-2027 |  | 1327.10 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-ti-6-pro-titanium-exhaust-system-ktm-husqvarna-450cc-2022-2023) |
-| Pro Circuit | Pro Circuit Ti-6 Titanium Exhaust System KTM / Husqvarna / Gas Gas 450cc 2022-2027 |  | 1329.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-ti-6-titanium-exhaust-system-ktm-husqvarna-450cc-2022-2023) |
-| Pro Taper | Pro Taper Titanium Footpegs KTM 125cc-450cc |  | 329.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-taper-titanium-footpegs-ktm-125cc-450cc) |
-| Pro Taper | Pro Taper VDS Bar Mounts KTM / Husqvarna / Gas Gas 125cc-450cc 2024-2027  |  | 199.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-taper-vds-bar-mounts-ktm-husqvarna-gas-gas-125cc-450cc-2024-2026) |
-| Pro X | Pro X Offroad Front Brake Pads KTM 350cc 2012-2027 |  | 30.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-x-offroad-front-brake-pads-ktm-350cc-2012-2025) |
-| Pro X | Pro X Offroad Rear Brake Pads KTM 350cc 2012-2027 |  | 30.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-x-offroad-rear-brake-pads-ktm-350cc-2012-2025) |
-| Pro X | Pro X Valve Shim Kit KTM / Husqvarna / Gas Gas / Husaberg / Sherco 250cc-890cc |  | 70.16 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-x-valve-shim-kit-ktm-husqvarna-gas-gas-husaberg-sherco-250cc-890cc) |
-| Raptor | Raptor Titanium Footpegs KTM / Husqvarna / Gas Gas / Stark 125cc-450cc 2023-2027 |  | 388.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/raptor-titanium-footpegs-ktm-husqvarna-gas-gas-stark-125cc-450cc-2023-2026) |
-| Rekluse | Rekluse Clutch Damper Kit KTM / Husqvarna / Gas Gas / Husaberg 250cc-501cc 2012-2027 |  | 68.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-clutch-damper-kit-ktm-husqvarna-gas-gas-husaberg-250cc-501cc-2012-2024) |
-| Rekluse | Rekluse Core Manual TorqDrive Replacement Clutch Pack Kit KTM / Husqvarna / Gas Gas / Husaberg 250cc |  | 299.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-core-manual-torqdrive-replacement-clutch-pack-kit-ktm-husqvarna-gas-gas-husaberg) |
-| Rekluse | Rekluse EXP 3.0 Clutch Service Kit KTM / Husqvarna / Gas Gas / Beta 250cc-500cc  |  | 197.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-exp-30-clutch-service-kit-ktm-husqvarna-gas-gas-beta-250cc-500cc) |
-| Rekluse | Rekluse Left Hand Rear Brake Kit KTM / Sherco / Gas Gas / Husqvarna / Alta / Husaberg 125cc-570cc |  | 529.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-left-hand-rear-brake-kit-ktm-sherco-gas-gas-husqvarna-alta-husaberg-125cc-570cc) |
-| Rekluse | Rekluse Radius CX 3.0 To 4.0 Upgrade Kit KTM / Husqvarna / Gas Gas 450cc 2022-2027 |  | 649.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-radius-cx-30-to-40-upgrade-kit-ktm-husqvarna-gas-gas-450cc-2022-2025) |
-| Rekluse | Rekluse Radius CX 4.0 Clutch Kit KTM / Husqvarna / Gas Gas 450cc 2022-2027 |  | 1649.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-450cc-2022-2025) |
-| Rekluse | Rekluse Standard Clutch Cover KTM / Husqvarna / Gas Gas 250cc-450cc 2022-2027 |  | 229.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-standard-clutch-cover-ktm-husqvarna-250cc-450cc-2022-2023) |
-| Rekluse | Rekluse Torq Drive Clutch Pack KTM / Husqvarna / Gas Gas / Husaberg 250cc-501cc 2012-2027 |  | 379.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-torq-drive-clutch-pack-ktm-husqvarna-gas-gas-husaberg-250cc-501cc-2012-2024) |
-| Renthal | Renthal RC-1 Works BP-107 Front Brake Pads |  | 50.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/renthal-rc-1-works-bp-107-front-brake-pads) |
-| Renthal | Renthal RC-1 Works BP-108 Rear Brake Pads |  | 50.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/renthal-rc-1-works-bp-108-rear-brake-pads) |
-| SKF | SKF Fork Mud Scraper Kit KTM / Husqvarna / Gas Gas / Sherco 125cc-530cc 2003-2027 |  | 41.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/skf-fork-mud-scraper-kit-ktm-husqvarna-gas-gas-sherco-125cc-530cc-2003-2022) |
-| TM Designworks | TM Designworks Factory Edition FX Rear Chain Guide KTM / Husqvarna / Gas Gas 125cc-500cc 2022-2027 |  | 117.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/tm-designworks-factory-edition-fx-rear-chain-guide-ktm-husqvarna-gas-gas-125cc-500cc-2022-2024) |
-| Trail Tech | Trail Tech Striker Gauge Kit KTM / Husqvarna / Gas Gas 125cc-501cc 2019-2027 |  | 179.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/trail-tech-striker-gauge-kit-ktm-husqvarna-gas-gas-125cc-501cc-2019-2024) |
-| Twin Air | Twin Air Air Filter KTM / Husqvarna / Gas Gas 125cc-450cc 2022-2027 |  | 37.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/twin-air-air-filter-ktm-husqvarna-125cc-450cc-2022-2023) |
-| Twin Air | Twin Air Factory Pre Oiled Air Filter KTM / Husqvarna / Gas Gas 125cc-501cc 2022-2027 |  | 41.75 USD | [Cycle Gear](https://www.cyclegear.com/parts/twin-air-factory-pre-oiled-air-filter-ktm-husqvarna-gas-gas-125cc-501cc-2022-2025) |
-| Twin Air | Twin Air Oil Filter KTM / Husqvarna / Gas Gas / Husaberg 250cc-701cc 2008-2027 |  | 12.30 USD | [Cycle Gear](https://www.cyclegear.com/parts/twin-air-oil-filter-ktm-husqvarna-gas-gas-husaberg-250cc-690c-2008-2026) |
-| Uni Filter | Uni Filter Multi Stage Competition Air Filter KTM / Husqvarna / Gas Gas 125cc-450cc 2022-2027 |  | 40.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/uni-filter-multi-stage-competition-air-filter-ktm-husqvarna-gas-gas-125cc-450cc-2022-2025) |
-| Works Connection | Works Connection Elite Axle Block Kit KTM / Husqvarna / Gas Gas 125cc-450cc 2022-2027 |  | 108.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-elite-axle-block-kit-ktm-husqvarna-125cc-450cc-2022-2023) |
-| Works Connection | Works Connection Front Brake Reservoir Cover KTM / Husqvarna / Stark / Gas Gas / Kawasaki 65cc-530cc |  | 36.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-front-brake-reservoir-cover-ktm-husqvarna-stark-gas-gas-kawasaki-65cc-530cc) |
-| Works Connection | Works Connection Oil Filter Cover KTM / Husqvarna / Gas Gas / Husaberg 250cc-501cc 2007-2027 |  | 59.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-oil-filter-cover-ktm-husqvarna-gas-gas-husaberg-250cc-501cc-2007-2022) |
-| Yoshimura | Yoshimura RS-12 Slip-On Exhaust KTM / Husqvarna / Gas Gas 250cc-450cc 2023-2027 |  | 749.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/yoshimura-rs-12-slip-on-exhaust-ktm-husqvarna-gas-gas-250cc-450cc-2023-2024) |
-| Zeta | Zeta 1-1/8" Riser Handlebar Top Clamp Stabilizer Gas Gas / Husqvarna / KTM 125cc-501cc |  | 83.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-1-18-riser-handlebar-top-clamp-stabilizer-gas-gas-husqvarna-ktm-125cc-501cc) |
-| Zeta | Zeta 3D Chain Guide Gas Gas 85cc-450cc 2024-2027 |  | 137.26 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-3d-chain-guide-gas-gas-85cc-450cc-2024) |
-| Zeta | Zeta Fork Guard Bolt Kit KTM / Husqvarna / Gas Gas 85cc-701cc 2000-2027 |  | 13.73 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-fork-guard-bolt-kit-ktm-husqvarna-gas-gas-85cc-701cc-2000-2023) |
-| Zeta | Zeta Lowering Link Gas Gas 125cc-450cc 2024-2027 |  | 259.89 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-lowering-link-gas-gas-125cc-450cc-2024-2025-1) |
-| Zeta | Zeta Magnetic Oil Drain Bolt KTM  |  | 13.67 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-magnetic-oil-drain-bolt-ktm) |
-| Zeta | Zeta Max Footpegs KTM / Husqvarna / Gas Gas 125cc-450cc 2023-2027 |  | 122.33 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-max-footpegs-ktm-husqvarna-gas-gas-125cc-450cc-2023-2025) |
-| Zeta | Zeta Oil Filter Cover KTM SX-F / XC-F / XC-W / EXC-F / SMR 250cc-530cc 2007-2027 |  | 109.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-oil-filter-cover-ktm-sx-f-xc-f-xc-w-exc-f-smr-250cc-530cc-2007-2021) |
-| Zeta | Zeta Preload Adjuster Joint KTM / Husqvarna / Gas Gas 125cc-450cc 2023-2027 |  | 58.36 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-preload-adjuster-joint-ktm-husqvarna-gas-gas-125cc-450cc-2023-2024) |
-| Zeta | Zeta Trigger Brake Pedal Gas Gas 250cc-450cc 2024-2027 |  | 156.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-trigger-brake-pedal-gas-gas-250cc-450cc-2024) |
-| Zeta | Zeta WP Shock Gas Valve Xact Shock KTM / Husqvarna / Gas Gas 125cc-450cc 2023-2027 |  | 77.30 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-wp-shock-gas-valve-xact-shock-ktm-husqvarna-gas-gas-125cc-450cc-2023-2025) |
+| Factory Effex | Factory Effex Dual Grip Seat Cover Gas Gas 125cc-500cc 2023-2027 | 28-28702 | 79.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-effex-dual-grip-seat-cover-gas-gas-125cc-500cc-2023-2025) |
+
+### Suspension (6)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| AltRider | AltRider Variable Height Suspension Lowering Linkage KTM / Husqvarna / Gas Gas 125cc-501cc 2022-2027 | KT23-6-2202 | 271.37 USD | [Cycle Gear](https://www.cyclegear.com/parts/altrider-variable-height-suspension-lowering-linkage-ktm-husqvarna-gas-gas-125cc-501cc-2022-2025) |
+| Moose Racing | Moose Racing Fork Seal / Wiper Kit KTM / Husqvarna / Gas Gas / Sherco 250cc-530cc 2014-2027 | 1.18888E+11 | 49.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-fork-seal-wiper-kit-ktm-husqvarna-gas-gas-sherco-250cc-530cc-2014-2022) |
+| SKF | SKF Fork Mud Scraper Kit KTM / Husqvarna / Gas Gas / Sherco 125cc-530cc 2003-2027 | KIT-MS48WP | 41.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/skf-fork-mud-scraper-kit-ktm-husqvarna-gas-gas-sherco-125cc-530cc-2003-2022) |
+| Zeta | Zeta Lowering Link Gas Gas 125cc-450cc 2024-2027 | ZE56-05862 | 259.89 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-lowering-link-gas-gas-125cc-450cc-2024-2025-1) |
+| Zeta | Zeta Preload Adjuster Joint KTM / Husqvarna / Gas Gas 125cc-450cc 2023-2027 | ZE56-13070 | 58.36 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-preload-adjuster-joint-ktm-husqvarna-gas-gas-125cc-450cc-2023-2024) |
+| Zeta | Zeta WP Shock Gas Valve Xact Shock KTM / Husqvarna / Gas Gas 125cc-450cc 2023-2027 | ZE56-51001 | 77.30 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-wp-shock-gas-valve-xact-shock-ktm-husqvarna-gas-gas-125cc-450cc-2023-2025) |
+
+### Uncategorised (56)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Acerbis | Acerbis Fuel Tank Gas Gas 125cc-500cc 2024-2027 | 2984820001, 2984820147, 2984840001, 2984840147 | 365.36 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-fuel-tank-gas-gas-125cc-500cc-2024-2025) |
+| Acerbis | Acerbis Mud Flap KTM / Husqvarna / Gas Gas 125cc-450cc 2022-2027 | 2979360001 | 29.66 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-mud-flap-ktm-husqvarna-125cc-450cc-2022-2024) |
+| All Balls Racing | All Balls Racing Front Wheel Bearing Kit KTM / Husqvarna / Gas Gas / Beta 125cc-1290cc 2003-2027 | 25-1402 | 35.78 USD | [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-front-wheel-bearing-kit-ktm-husqvarna-beta-125cc-1290cc-2003-2023) |
+| All Balls Racing | All Balls Racing Front Wheel Spacers Husqvarna / Gas Gas / KTM 125cc-501cc | 11-1103-1 | 40.45 USD | [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-front-wheel-spacers-husqvarna-ktm-125cc-501cc) |
+| All Balls Racing | All Balls Racing Fuel Pump Kit Gas Gas / KTM / Husqvarna | 47-2078 | 89.92 USD | [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-fuel-pump-kit-gas-gas-ktm-husqvarna) |
+| All Balls Racing | All Balls Racing Rear Wheel Bearing Kit 25-1404 | 300919 | 30.87 USD | [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-rear-wheel-bearing-kit-25-1404) |
+| AltRider | AltRider Adjustable Aluminum Side Stand KTM /Husqvarna / Gas Gas 125cc-501cc 2023-2027 | KT23-6-2301 | 191.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/altrider-adjustable-aluminum-side-stand-ktm-husqvarna-gas-gas125cc-501cc-2023-2025) |
+| Bolt Hardware | Bolt Hardware Oil Change Kit Gas Gas / Husqvarna / KTM | OILCHG-EUR | 7.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/bolt-hardware-oil-change-kit-gas-gas-husqvarna-ktm) |
+| Enduro Engineering | Enduro Engineering Front Axle Pull KTM / Husqvarna / Gas Gas 125cc-501cc 2015-2027 | 21-016 | 18.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-front-axle-pull-ktm-husqvarna-gas-gas-125cc-501cc-2015-2023) |
+| Enduro Engineering | Enduro Engineering Handlebar Risers Husqvarna / KTM / Gas Gas 125cc-450cc | 23-1024 | 44.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-handlebar-risers-husqvarna-ktm-gas-gas-125cc-450cc) |
+| Enduro Engineering | Enduro Engineering Rear Wheel Spacer / Seal Conversion Kit KTM / Husqvarna / Gas Gas 2023-2027 | 16-1123 | 37.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-rear-wheel-spacer-seal-conversion-kit-ktm-husqvarna-2023-2024) |
+| Enduro Engineering | Enduro Engineering Rear Wheel Spacers Husqvarna / Gas Gas / KTM 125cc-450cc 2023-2027 | 16-1023 | 24.65 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-rear-wheel-spacers-husqvarna-ktm-125cc-450cc-2023-2024) |
+| Excel | Excel Takasago 1.85" x 19" Rear Rim Suzuki / KTM / Husqvarna / Husaberg / Gas Gas / Sherco 125cc-530 | GDG422, GDK422, GDS422 | 173.33 USD | [Cycle Gear](https://www.cyclegear.com/parts/excel-takasago-185-x-19-rear-rim-suzuki-ktm-husqvarna-husaberg-gas-gas-sherco-125cc-530cc-2000-2023) |
+| Excel | Excel Takasago 2.15" x 18" Rear Rim Yamaha / Suzuki / KTM / Husqvarna / Husaberg / Gas Gas / Sherco  | FEB422, FEG422, FEK422, FES422 | 190.76 USD | [Cycle Gear](https://www.cyclegear.com/parts/excel-takasago-215-x-18-rear-rim-yamaha-suzuki-ktm-husqvarna-husaberg-gas-gas-sherco-beta) |
+| Excel | Excel Takasago 2.15" x 19" Rear Rim Yamaha / Suzuki / KTM / Husqvarna / Husaberg / Gas Gas / Sherco  | GEB422, GEG422, GEK422, GES422 | 195.91 USD | [Cycle Gear](https://www.cyclegear.com/parts/excel-takasago-215-x-19-rear-rim-yamaha-suzuki-ktm-husqvarna-husaberg-gas-gas-sherco-beta) |
+| Factory Links | Factory Links Front and Rear Wheel Bearing Kit Beta / KTM / Husqvarna / Gas Gas 125cc-500cc 2011-202 | KWK-T-002 | 66.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-links-front-and-rear-wheel-bearing-kit-beta-ktm-husqvarna-gas-gas-125cc-500cc-2011-2025) |
+| Fire Power | Fire Power Front Wheel KTM / Gas Gas / Husqvarna / Stark 250cc-501cc 2013-2027 | 568-7511-0000 | 445.46 USD | [Cycle Gear](https://www.cyclegear.com/parts/fire-power-front-wheel-ktm-gas-gas-husqvarna-stark-250cc-501cc-2013-2026) |
+| Fire Power | Fire Power Rear Wheel KTM / Gas Gas / Husqvarna / Stark 250cc-501cc 2013-2027 | 568-6518-0000, 568-6519-0000 | 528.26 USD | [Cycle Gear](https://www.cyclegear.com/parts/fire-power-rear-wheel-ktm-gas-gas-husqvarna-stark-250cc-501cc-2013-2026) |
+| Fire Power | Fire Power Replacement Front Spokes Service Kit Sherco / Beta / Husqvarna / KTM / Sherco / Stark 125 | FW-2116-M751F-SN | 29.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/fire-power-replacement-front-spokes-service-kit-sherco-beta-husqvarna-ktm-sherco-stark-125cc-500cc) |
+| Fire Power | Fire Power Replacement Rear Spokes Service Kit Sherco / Beta / Husqvarna / Gas Gas / Stark 125cc-500 | RW-18215-M651R-SN, RW-19215-M651R-SN | 29.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/fire-power-replacement-rear-spokes-service-kit-sherco-beta-husqvarna-gas-gas-stark-125cc-500cc) |
+| Flo Motorsports | Flo Motorsports Folding Tip Brake Pedal KTM / Husqvarna / Gas Gas 125cc-450cc 2023-2027 | MXBP-523 BLK, MXBP-523 BLU, MXBP-523 ORG, MXBP-523RED | 149.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-folding-tip-brake-pedal-ktm-husqvarna-gas-gas-125cc-450cc-2023-2024) |
+| Flo Motorsports | Flo Motorsports Shift Lever KTM / Husqvarna / Gas Gas 125cc-501cc 2012-2027 | SF-795BLK, SF-795BLU, SF-795ORG, SF-795R | 52.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-shift-lever-ktm-husqvarna-gas-gas-125cc-501cc-2012-2026) |
+| Flo Motorsports | Flo Motorsports Titanium Foot Pegs KTM / Husqvarna / Gas Gas 125cc-450cc 2023-2027 | TI-795-4JET | 346.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-titanium-foot-pegs-ktm-husqvarna-gas-gas-125cc-450cc-2023-2024) |
+| Hinson | Hinson Billetproof Clutch Cover KTM / Husqvarna / Gas Gas 250cc-450cc 2023-2027 | CA480-2301 | 179.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/hinson-billetproof-clutch-cover-ktm-husqvarna-gas-gas-250cc-450cc-2023-2024) |
+| Hinson | Hinson Oil Filler Cap KTM / Husqvarna / Gas Gas 125cc-501cc 1998-2027 | OC255 | 19.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/hinson-oil-filler-cap-ktm-husqvarna-gas-gas-125cc-501cc-1998-2024) |
+| IMS | IMS Fuel Tank Gas Gas 125cc-450cc 2024-2027 | 118807-BK1, 118807-N2 | 483.29 USD | [Cycle Gear](https://www.cyclegear.com/parts/ims-fuel-tank-gas-gas-125cc-450cc-2024-2026) |
+| Moose Racing | Moose Racing Fast Front Wheel Spacers KTM / Husqvarna / Gas Gas 125cc-500cc 2015-2027 | W16-5312GB, W16-5312L, W16-5312O | 35.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-fast-front-wheel-spacers-ktm-husqvarna-gas-gas-125cc-500cc-2015-2024) |
+| Moose Racing | Moose Racing Front Wheel Bearing Kit KTM / Husqvarna / Gas Gas / Beta / Husaberg | 25-1402 | 34.29 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-front-wheel-bearing-kit-ktm-husqvarna-beta-husaberg) |
+| Moose Racing | Moose Racing MX1 Front Wheel Spoke Set KTM / Husqvarna / Gas Gas 125cc-501cc | 24-301 | 49.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-mx1-front-wheel-spoke-set-ktm-husqvarna-125cc-501cc) |
+| Moose Racing | Moose Racing MX1 Rear Wheel Spoke Set KTM / Husqvarna / Gas Gas 125cc-501cc | 24-308, 24-309 | 49.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-mx1-rear-wheel-spoke-set-ktm-husqvarna-125cc-501cc) |
+| Moose Racing | Moose Racing Machined Oil Pump Cover KTM / Husqvarna / Gas Gas 250cc-501cc 2017-2027 | T04-5101B | 32.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-machined-oil-pump-cover-ktm-husqvarna-gas-gas-250cc-501cc-2017-2025) |
+| Moose Racing | Moose Racing Rear Rim KTM / Husqvarna / Gas Gas / Yamaha / Suzuki / Beta 125cc-530cc | GY-18X215BK, GY-18X215S, GY-19X185BK, GY-19X185BU, GY-19X185S, GY-19X215BK, GY-19X215BU, GY-19X215S | 134.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-rear-rim-ktm-husqvarna-yamaha-suzuki-beta-125cc-530cc) |
+| Moose Racing | Moose Racing SX-1 Complete Front Wheel KTM / Husqvarna / Gas Gas | MF-16021-BKBU, MF-16021-BKOR | 441.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-sx-1-complete-front-wheel-ktm-husqvarna-gas-gas) |
+| Moose Racing | Moose Racing SX-1 Complete Rear Wheel KTM / Husqvarna / Gas Gas 125cc-450cc | MR-21518-BKBU, MR-21518-BKOR, MR-21519-BKBU, MR21519-BKOR | 484.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-sx-1-complete-rear-wheel-ktm-husqvarna-gas-gas-125cc-450cc) |
+| Moose Racing | Moose Racing SX-1 Front Wheel Spacers KTM / Husqvarna / Gas Gas | MF15-WSP-KIT | 16.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-sx-1-front-wheel-spacers-ktm-husqvarna-gas-gas) |
+| Moose Racing | Moose Racing SX-1 Rear Wheel Spacers KTM / Husqvarna / Gas Gas 125cc-450cc | MR13-WSP-KIT | 16.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-sx-1-rear-wheel-ktm-husqvarna-gas-gas-125cc-450cc) |
+| Moose Racing | Moose Racing Stainless Steel Front Spoke Set KTM / Husqvarna / Gas Gas 125cc-501cc 1998-2027 | 1-22-301-S | 69.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-stainless-steel-front-spoke-set-ktm-husqvarna-125cc-501cc-1998-2020) |
+| Moose Racing | Moose Racing Stainless Steel Rear Spoke Set KTM / Husqvarna / Gas Gas 125cc-501cc 2015-2027 | 1-22-308-S, 1-22-309-S | 69.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-stainless-steel-rear-spoke-set-ktm-husqvarna-125cc-501cc-2015-2020) |
+| Pivot Works | Pivot Works Front Wheel Bearing Kit KTM / Husqvarna / Gas Gas 125cc-701cc | PWFWK-T11-521 | 38.51 USD | [Cycle Gear](https://www.cyclegear.com/parts/pivot-works-front-wheel-bearing-kit-ktm-husqvarna-125cc-701cc) |
+| Pivot Works | Pivot Works Premium Front Wheel Bearing Kit KTM / Husqvarna / Gas Gas 125cc-701cc 2003-2027 | 25-1402-P | 51.25 USD | [Cycle Gear](https://www.cyclegear.com/parts/pivot-works-premium-front-wheel-bearing-kit-ktm-husqvarna-gas-gas-125cc-701cc-2003-2025) |
+| Polisport | Polisport Fork Guards KTM / Husqvarna / Gas Gas / Sherco 125cc-500cc 2015-2027 | 8398600003, 8398600005, 8398600009, 8398600010, 8398600011, 8398600016 | 24.74 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-fork-guards-ktm-husqvarna-gas-gas-sherco-125cc-500cc-2015-2023) |
+| Polisport | Polisport Full Wrap Fork Guards KTM / Husqvarna / Gas Gas / Sherco 125cc-500cc 2015-2027 | 8399300001, 8399300002, 8399300003 | 39.55 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-full-wrap-lower-fork-guards-ktm-husqvarna-gas-gas-sherco-125cc-500cc-2015-2023) |
+| Pro Taper | Pro Taper Titanium Footpegs KTM 125cc-450cc | 022154 | 329.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-taper-titanium-footpegs-ktm-125cc-450cc) |
+| Pro Taper | Pro Taper VDS Bar Mounts KTM / Husqvarna / Gas Gas 125cc-450cc 2024-2027  | 022217 | 199.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-taper-vds-bar-mounts-ktm-husqvarna-gas-gas-125cc-450cc-2024-2026) |
+| Pro X | Pro X Valve Shim Kit KTM / Husqvarna / Gas Gas / Husaberg / Sherco 250cc-890cc | 29.VSA890 | 70.16 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-x-valve-shim-kit-ktm-husqvarna-gas-gas-husaberg-sherco-250cc-890cc) |
+| Raptor | Raptor Titanium Footpegs KTM / Husqvarna / Gas Gas / Stark 125cc-450cc 2023-2027 | RX008 10MM BACK, RX023 5MM BACK | 388.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/raptor-titanium-footpegs-ktm-husqvarna-gas-gas-stark-125cc-450cc-2023-2026) |
+| Rekluse | Rekluse Left Hand Rear Brake Kit KTM / Sherco / Gas Gas / Husqvarna / Alta / Husaberg 125cc-570cc | RMS-5300002 | 529.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-left-hand-rear-brake-kit-ktm-sherco-gas-gas-husqvarna-alta-husaberg-125cc-570cc) |
+| Rekluse | Rekluse Standard Clutch Cover KTM / Husqvarna / Gas Gas 250cc-450cc 2022-2027 | RMS-385 | 229.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-standard-clutch-cover-ktm-husqvarna-250cc-450cc-2022-2023) |
+| Works Connection | Works Connection Front Brake Reservoir Cover KTM / Husqvarna / Stark / Gas Gas / Kawasaki 65cc-530cc | 21-040, 21-045, 21-060, 21-065 | 36.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-front-brake-reservoir-cover-ktm-husqvarna-stark-gas-gas-kawasaki-65cc-530cc) |
+| Works Connection | Works Connection Oil Filter Cover KTM / Husqvarna / Gas Gas / Husaberg 250cc-501cc 2007-2027 | 27-090, 27-095, 27-100, 27-105 | 59.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-oil-filter-cover-ktm-husqvarna-gas-gas-husaberg-250cc-501cc-2007-2022) |
+| Zeta | Zeta 1-1/8" Riser Handlebar Top Clamp Stabilizer Gas Gas / Husqvarna / KTM 125cc-501cc | ZE33-3091 | 83.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-1-18-riser-handlebar-top-clamp-stabilizer-gas-gas-husqvarna-ktm-125cc-501cc) |
+| Zeta | Zeta Fork Guard Bolt Kit KTM / Husqvarna / Gas Gas 85cc-701cc 2000-2027 | ZE88-9502, ZE88-9503, ZE88-9506, ZE88-9509 | 13.73 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-fork-guard-bolt-kit-ktm-husqvarna-gas-gas-85cc-701cc-2000-2023) |
+| Zeta | Zeta Magnetic Oil Drain Bolt KTM  | ZE58-1517 | 13.67 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-magnetic-oil-drain-bolt-ktm) |
+| Zeta | Zeta Max Footpegs KTM / Husqvarna / Gas Gas 125cc-450cc 2023-2027 | ZE93-2620, ZE93-2625 | 122.33 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-max-footpegs-ktm-husqvarna-gas-gas-125cc-450cc-2023-2025) |
+| Zeta | Zeta Oil Filter Cover KTM SX-F / XC-F / XC-W / EXC-F / SMR 250cc-530cc 2007-2027 | ZE90-1447 | 109.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-oil-filter-cover-ktm-sx-f-xc-f-xc-w-exc-f-smr-250cc-530cc-2007-2021) |
+| Zeta | Zeta Trigger Brake Pedal Gas Gas 250cc-450cc 2024-2027 | ZE90-7442 | 156.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-trigger-brake-pedal-gas-gas-250cc-450cc-2024) |
+
+### Utv / Atv Parts (1)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Duraboost | Duraboost DBL5L Lithium Ion Battery | DBL5L | 127.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/duraboost-dbl5l-lithium-ion-battery) |
 
 ## Universal retailer listings (counted only)
 
-Uncategorised 293, Handlebars & Controls 223, Chain & Sprocket 125, Exhaust 64, Air & Fuel 45, Batteries & Electrical 32, Utv / Atv Parts 30, Gauges 30, Lighting 28, Bike Protection 25, Suspension 22, Body & Fairing 6, Drive & Transmission 5, Filters 3, Tire Accessories 1
+Uncategorised 297, Handlebars & Controls 223, Chain & Sprocket 125, Exhaust 64, Air & Fuel 45, Batteries & Electrical 32, Utv / Atv Parts 30, Gauges 30, Lighting 28, Bike Protection 25, Suspension 22, Body & Fairing 6, Drive & Transmission 5, Filters 3, Brakes 2, Tire Accessories 1
 
-Top brands: Pro Taper 59, Moose Racing 51, Cycra 49, Acerbis 48, Zeta 44, Bolt Hardware 38, ODI 36, Fire Power 35, Renthal 34, Barkbusters 32, Helix Racing Products 28, RK 25, K&N 22, EK Chain 21, RFX 19, Motion Pro 18, Polisport 18, FMF 18, Factory Effex 17, Namz 16, Motolis 16, Koso 16, BikeMaster 12, DID Chain 12, Enduro Engineering 10
+Top brands: Pro Taper 59, Moose Racing 53, Cycra 49, Acerbis 48, Zeta 44, Bolt Hardware 38, ODI 36, Fire Power 35, Renthal 34, Barkbusters 32, Helix Racing Products 28, RK 25, K&N 22, EK Chain 21, RFX 19, FMF 18, Polisport 18, Motion Pro 18, Factory Effex 17, Motolis 16, Koso 16, Namz 16, DID Chain 12, BikeMaster 12, Enduro Engineering 10
 

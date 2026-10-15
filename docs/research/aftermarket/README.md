@@ -26,7 +26,7 @@ the app needs a manufacturer-page fitment check per part (the evidence fields in
 |---|---|---|---|
 | KTM family | 1: newest platforms (2023-2027), breadth across all five slices | Done 2026-10-14 | 112 products, 54 rider/tester findings, 11 project builds; 217 of 224 in-scope bike-years have at least one mapped part |
 | KTM family | 2: manufacturer confirmation, missing brands and categories, 85 SX, more feedback | Done 2026-10-14 | 210 products (32 high, 123 medium, 55 unverified), 276 part numbers, 83 findings, 17 builds; all 224 in-scope bike-years have mapped parts |
-| KTM family | 3: full dealer and retailer catalogs (every brand), company registry | Wrapped up 2026-10-14 (partial, see below) | 8,738 listings: KTM Twins 968, Lings 1,463, Cycle Gear 2,729 unique parts across 192 bike-years (149 brands), MotoSport 3,368 across 60 bike-years 2025-2027 (229 brands); all in `ktm-family/parts.csv`; per-bike pages list bike-specific listings in full and count universal ones; 233-company registry |
+| KTM family | 3: full dealer and retailer catalogs (every brand), company registry | Wrapped up 2026-10-14 (partial, see below) | 8,738 listings: KTM Twins 968, Lings 1,463, Cycle Gear 2,790 parts across all 223 bike-years with a Cycle Gear page (150 brands, all with part numbers), MotoSport 3,368 across 60 bike-years 2025-2027 (230 brands, 2,652 with part numbers); all in `ktm-family/parts.csv`; per-bike pages list bike-specific listings in full and count universal ones; 233-company registry |
 | Triumph | 1: genuine accessories (official dealer catalog), aftermarket search, rider and tester feedback; Cycle Gear and MotoSport catalogs | Done 2026-10-14 | 125 products (76 Triumph genuine accessories from triumphpartstore.com, 49 aftermarket: 5 high, 35 medium, 9 unverified), 31 findings, 5 builds; all 9 TF bike-years mapped. Retailer catalogs: Cycle Gear 1,273 parts (121 brands, all with part numbers), MotoSport 2,431 (208 brands, 2,280 with part numbers); 3,829 listings in `triumph/parts.csv` |
 | Yamaha | 1: maker-confirmed parts, rider and tester feedback; Yamaha genuine and GYTR; Cycle Gear and MotoSport catalogs | Done 2026-10-15 | 5,992 listings in `yamaha/parts.csv`: 46 researched parts (about 22 maker-confirmed), 155 Yamaha genuine / GYTR (yamahaonlineparts.com), Cycle Gear 2,470 (148 brands), MotoSport 3,321 (232 brands); 34 findings, 5 builds; all 63 YZ bike-years mapped |
 | Honda | 1: maker-confirmed parts, rider and tester feedback; Cycle Gear and MotoSport catalogs | Done 2026-10-15 | 5,158 listings in `honda/parts.csv`: 27 researched parts (12 maker-confirmed), Cycle Gear 2,033 (145 brands), MotoSport 3,098 (227 brands); 35 findings, 6 builds; all 28 CRF-R / RX bike-years mapped. Honda genuine accessories not readable from here |
@@ -114,15 +114,14 @@ ECU tuners, sprockets, wheels, rotors, bars and controls, graphics, seats, and f
 
 Wrapped up at the owner's request so Triumph, Yamaha, Honda and Kawasaki can go next. What is in and what is left:
 
-- Cycle Gear: bike listings read for 192 of 223 KTM / Husqvarna / GasGas bike-years (all 2022-2027; 2021 partly, 2020 not
-  yet). Product pages (manufacturer part number per style, category, fitment notes) not read yet, so these listings carry
-  the retailer link, price and fitment but no part number, and show as "Uncategorised" on the bike pages.
-- MotoSport: bike listings read for 2025-2027 (60 bike-years). The store's plain ride pages are not filtered by bike; the
+- Cycle Gear: complete (2026-10-15): every KTM / Husqvarna / GasGas bike-year with a Cycle Gear page, and every product page
+  (manufacturer part number per style, category, fitment notes).
+- MotoSport: bike listings read for 2025-2027 (60 bike-years); 2020-2024 still to read (about 3 hours). Product pages
+  read for 2,849 of 3,368 listings (shared with the other makes). The store's plain ride pages are not filtered by bike; the
   crawler selects the ride with the store's own mmy parameter (codes from its ride selector). Product pages (part number
   table) not read yet.
-- To finish: `cyclegear_crawl.py` and `motosport_crawl.py` with the KTM-family targets (both resume from what is saved),
-  then `cyclegear_convert.py` / `motosport_convert.py` into `ktm-family/` and `build_catalog.py`. About 1 hour of product
-  pages per retailer, and about 4 hours for the remaining MotoSport bike listings, at one request per second.
+- To finish: `motosport_crawl.py` with the KTM-family targets (it resumes from what is saved), then
+  `motosport_convert.py` into `ktm-family/` and `build_catalog.py`.
 - Universal items (a listing that fits at least 40 % of the bike-years read from that retailer: oil, grips, batteries) are
   counted on each bike page rather than listed; every listing is in `parts.csv` with compact fitment.
 - The workspace stops when the session is idle, so long crawls only run while a session is active.

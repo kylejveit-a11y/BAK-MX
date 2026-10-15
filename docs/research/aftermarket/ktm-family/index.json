@@ -5005,7 +5005,6 @@
 ],
 "KTM|85 SX 17/14|2025": [
 "p2-bills-mx2-85-2025",
-"p2-kke-wheels-85sx-2025",
 "p2-pc-304-silencer-85-2025",
 "p2-pc-works-85-2025",
 "p2-renthal-ultralight-rear-85",
@@ -5032,7 +5031,6 @@
 ],
 "KTM|85 SX 19/16|2021": [
 "fmf-factory-fatty-85-2018",
-"kite-elite-mx-rear-16-85sx",
 "p2-pc-works-85-2018-2024",
 "p2-rekluse-apex-85",
 "p2-rekluse-cmtd-85-2014-2024",
@@ -5043,7 +5041,6 @@
 ],
 "KTM|85 SX 19/16|2022": [
 "fmf-factory-fatty-85-2018",
-"kite-elite-mx-rear-16-85sx",
 "p2-pc-works-85-2018-2024",
 "p2-rekluse-cmtd-85-2014-2024",
 "p2-renthal-ultralight-rear-85",
@@ -5053,7 +5050,6 @@
 ],
 "KTM|85 SX 19/16|2023": [
 "fmf-factory-fatty-85-2018",
-"kite-elite-mx-rear-16-85sx",
 "p2-pc-works-85-2018-2024",
 "p2-rekluse-cmtd-85-2014-2024",
 "p2-renthal-ultralight-rear-85",
@@ -5097,8 +5093,8 @@
 },
 "GasGas|EX 250|2023": {
 "Cycle Gear": 1295,
-"Lings": 184,
 "KTM Twins": 5,
+"Lings": 184,
 "research": 10
 },
 "GasGas|EX 250|2024": {
@@ -5107,8 +5103,8 @@
 "research": 17
 },
 "GasGas|EX 250|2025": {
-"MotoSport": 2564,
 "Cycle Gear": 1375,
+"MotoSport": 2564,
 "research": 15
 },
 "GasGas|EX 250F|2021": {
@@ -5129,8 +5125,8 @@
 "research": 17
 },
 "GasGas|EX 250F|2025": {
-"MotoSport": 2574,
 "Cycle Gear": 1243,
+"MotoSport": 2574,
 "research": 14
 },
 "GasGas|EX 300|2021": {
@@ -5145,8 +5141,8 @@
 },
 "GasGas|EX 300|2023": {
 "Cycle Gear": 1319,
-"Lings": 184,
 "KTM Twins": 5,
+"Lings": 184,
 "research": 10
 },
 "GasGas|EX 300|2024": {
@@ -5155,18 +5151,18 @@
 "research": 17
 },
 "GasGas|EX 300|2025": {
-"MotoSport": 2561,
 "Cycle Gear": 1330,
+"MotoSport": 2561,
 "research": 15
 },
 "GasGas|EX 300|2026": {
-"MotoSport": 2530,
 "Cycle Gear": 1220,
+"MotoSport": 2530,
 "research": 13
 },
 "GasGas|EX 300|2027": {
-"MotoSport": 2517,
 "Cycle Gear": 1315,
+"MotoSport": 2517,
 "research": 5
 },
 "GasGas|EX 350F|2021": {
@@ -5190,8 +5186,8 @@
 "research": 13
 },
 "GasGas|EX 350F|2025": {
-"MotoSport": 2554,
 "Cycle Gear": 1092,
+"MotoSport": 2554,
 "research": 10
 },
 "GasGas|EX 450F|2021": {
@@ -5218,21 +5214,21 @@
 },
 "GasGas|MC 125|2021": {
 "Cycle Gear": 1217,
+"KTM Twins": 7,
 "Lings": 195,
-"research": 7,
-"KTM Twins": 7
+"research": 7
 },
 "GasGas|MC 125|2022": {
-"research": 7,
 "Cycle Gear": 96,
 "Lings": 147,
-"KTM Twins": 7
+"KTM Twins": 7,
+"research": 7
 },
 "GasGas|MC 125|2023": {
 "Cycle Gear": 1089,
+"KTM Twins": 7,
 "Lings": 180,
-"research": 12,
-"KTM Twins": 7
+"research": 12
 },
 "GasGas|MC 125|2024": {
 "Cycle Gear": 1286,
@@ -5247,21 +5243,21 @@
 "KTM Twins": 1
 },
 "GasGas|MC 125|2026": {
-"MotoSport": 2543,
 "Cycle Gear": 1224,
+"MotoSport": 2543,
 "research": 11
 },
 "GasGas|MC 250|2022": {
-"research": 9,
 "Cycle Gear": 96,
 "Lings": 147,
-"KTM Twins": 5
+"KTM Twins": 5,
+"research": 9
 },
 "GasGas|MC 250|2023": {
 "Cycle Gear": 1437,
+"KTM Twins": 5,
 "Lings": 181,
-"research": 13,
-"KTM Twins": 5
+"research": 13
 },
 "GasGas|MC 250|2024": {
 "Cycle Gear": 1154,
@@ -5269,37 +5265,37 @@
 "research": 25
 },
 "GasGas|MC 250|2025": {
-"MotoSport": 2608,
 "Cycle Gear": 1203,
+"MotoSport": 2608,
 "research": 22
 },
 "GasGas|MC 250|2026": {
-"MotoSport": 2571,
 "Cycle Gear": 1264,
+"MotoSport": 2571,
 "research": 19
 },
 "GasGas|MC 250F|2021": {
 "Cycle Gear": 1313,
 "Lings": 201,
-"research": 18,
-"KTM Twins": 1
+"KTM Twins": 1,
+"research": 18
 },
 "GasGas|MC 250F|2022": {
 "Cycle Gear": 1285,
 "Lings": 153,
-"research": 19,
-"KTM Twins": 1
+"KTM Twins": 1,
+"research": 19
 },
 "GasGas|MC 250F|2023": {
 "Cycle Gear": 1315,
 "Lings": 185,
-"research": 32,
-"KTM Twins": 1
+"KTM Twins": 1,
+"research": 32
 },
 "GasGas|MC 250F|2024": {
 "Cycle Gear": 1278,
-"research": 43,
-"Lings": 192
+"Lings": 192,
+"research": 43
 },
 "GasGas|MC 250F|2025": {
 "Cycle Gear": 1306,
@@ -5312,14 +5308,14 @@
 "research": 25
 },
 "GasGas|MC 250F|2027": {
-"MotoSport": 2539,
 "Cycle Gear": 1181,
+"MotoSport": 2539,
 "research": 19
 },
 "GasGas|MC 350F|2022": {
-"research": 8,
 "Cycle Gear": 95,
-"Lings": 149
+"Lings": 149,
+"research": 8
 },
 "GasGas|MC 350F|2023": {
 "Cycle Gear": 1235,
@@ -5328,55 +5324,56 @@
 },
 "GasGas|MC 350F|2024": {
 "Cycle Gear": 1287,
-"research": 24,
-"Lings": 196
+"Lings": 196,
+"research": 24
 },
 "GasGas|MC 350F|2025": {
-"MotoSport": 2594,
 "Cycle Gear": 1200,
+"MotoSport": 2594,
 "research": 20
 },
 "GasGas|MC 450F|2021": {
 "Cycle Gear": 1320,
+"KTM Twins": 4,
 "Lings": 119,
-"research": 14,
-"KTM Twins": 4
+"research": 14
 },
 "GasGas|MC 450F|2022": {
 "Cycle Gear": 1298,
+"KTM Twins": 4,
 "Lings": 153,
-"research": 15,
-"KTM Twins": 4
+"research": 15
 },
 "GasGas|MC 450F|2023": {
+"Cycle Gear": 94,
 "Lings": 186,
-"research": 29,
-"Cycle Gear": 94
+"research": 29
 },
 "GasGas|MC 450F|2024": {
 "Cycle Gear": 1328,
-"research": 36,
-"Lings": 195
+"Lings": 195,
+"research": 36
 },
 "GasGas|MC 450F|2025": {
 "MotoSport": 2616,
-"research": 28,
-"Cycle Gear": 96
+"Cycle Gear": 96,
+"research": 28
 },
 "GasGas|MC 450F|2026": {
-"MotoSport": 2590,
 "Cycle Gear": 1242,
+"MotoSport": 2590,
 "research": 23
 },
 "GasGas|MC 450F|2027": {
-"MotoSport": 2574,
 "Cycle Gear": 1277,
+"MotoSport": 2574,
 "research": 15
 },
 "Husqvarna|FC 250|2020": {
+"Cycle Gear": 1349,
 "Lings": 198,
-"research": 21,
-"KTM Twins": 2
+"KTM Twins": 2,
+"research": 21
 },
 "Husqvarna|FC 250|2021": {
 "Cycle Gear": 1413,
@@ -5397,9 +5394,9 @@
 "KTM Twins": 3
 },
 "Husqvarna|FC 250|2024": {
-"research": 44,
 "Lings": 262,
 "Cycle Gear": 96,
+"research": 44,
 "KTM Twins": 4
 },
 "Husqvarna|FC 250|2025": {
@@ -5410,8 +5407,8 @@
 "KTM Twins": 2
 },
 "Husqvarna|FC 250|2026": {
-"MotoSport": 2550,
 "Cycle Gear": 1108,
+"MotoSport": 2550,
 "Lings": 274,
 "research": 24
 },
@@ -5421,6 +5418,7 @@
 "research": 26
 },
 "Husqvarna|FC 350|2020": {
+"Cycle Gear": 1386,
 "Lings": 195,
 "research": 14
 },
@@ -5445,17 +5443,18 @@
 "research": 38
 },
 "Husqvarna|FC 350|2025": {
-"MotoSport": 2781,
 "Cycle Gear": 1369,
+"MotoSport": 2781,
 "Lings": 273,
 "research": 36
 },
 "Husqvarna|FC 350|2027": {
-"MotoSport": 2749,
 "Cycle Gear": 1372,
+"MotoSport": 2749,
 "research": 22
 },
 "Husqvarna|FC 450|2020": {
+"Cycle Gear": 1259,
 "Lings": 196,
 "research": 16
 },
@@ -5476,29 +5475,30 @@
 "KTM Twins": 1
 },
 "Husqvarna|FC 450|2024": {
-"Cycle Gear": 1252,
 "Lings": 264,
+"Cycle Gear": 1252,
 "research": 45,
 "KTM Twins": 1
 },
 "Husqvarna|FC 450|2025": {
-"MotoSport": 2678,
 "Cycle Gear": 1286,
+"MotoSport": 2678,
 "Lings": 273,
 "research": 41
 },
 "Husqvarna|FC 450|2026": {
-"MotoSport": 2538,
 "Cycle Gear": 969,
+"MotoSport": 2538,
 "Lings": 276,
 "research": 26
 },
 "Husqvarna|FC 450|2027": {
-"MotoSport": 2668,
 "Cycle Gear": 1276,
+"MotoSport": 2668,
 "research": 24
 },
 "Husqvarna|FX 350|2020": {
+"Cycle Gear": 93,
 "Lings": 189,
 "research": 9,
 "KTM Twins": 1
@@ -5519,22 +5519,23 @@
 "research": 29
 },
 "Husqvarna|FX 350|2025": {
-"MotoSport": 2708,
 "Cycle Gear": 1160,
+"MotoSport": 2708,
 "Lings": 250,
 "research": 27
 },
 "Husqvarna|FX 350|2026": {
-"MotoSport": 2684,
 "Cycle Gear": 1303,
+"MotoSport": 2684,
 "research": 20
 },
 "Husqvarna|FX 350|2027": {
-"MotoSport": 2659,
 "Cycle Gear": 1199,
+"MotoSport": 2659,
 "research": 15
 },
 "Husqvarna|FX 450|2020": {
+"Cycle Gear": 1240,
 "Lings": 187,
 "research": 9
 },
@@ -5549,8 +5550,8 @@
 },
 "Husqvarna|FX 450|2023": {
 "Lings": 235,
-"research": 39,
-"Cycle Gear": 96
+"Cycle Gear": 96,
+"research": 39
 },
 "Husqvarna|FX 450|2024": {
 "Cycle Gear": 1195,
@@ -5561,19 +5562,20 @@
 "research": 25
 },
 "Husqvarna|FX 450|2027": {
-"MotoSport": 2633,
 "Cycle Gear": 1235,
+"MotoSport": 2633,
 "research": 14
 },
 "Husqvarna|TC 125|2020": {
+"Cycle Gear": 1298,
 "Lings": 187,
 "research": 7,
 "KTM Twins": 1
 },
 "Husqvarna|TC 125|2021": {
+"Cycle Gear": 94,
 "Lings": 185,
 "research": 7,
-"Cycle Gear": 94,
 "KTM Twins": 1
 },
 "Husqvarna|TC 125|2022": {
@@ -5612,6 +5614,7 @@
 "research": 7
 },
 "Husqvarna|TC 250|2020": {
+"Cycle Gear": 1297,
 "Lings": 185,
 "research": 8,
 "KTM Twins": 2
@@ -5641,23 +5644,24 @@
 "KTM Twins": 1
 },
 "Husqvarna|TC 250|2025": {
-"MotoSport": 2763,
 "Cycle Gear": 1337,
+"MotoSport": 2763,
 "Lings": 251,
 "research": 28
 },
 "Husqvarna|TC 250|2026": {
-"MotoSport": 2747,
 "Cycle Gear": 1316,
+"MotoSport": 2747,
 "research": 22
 },
 "Husqvarna|TC 300|2025": {
-"MotoSport": 2715,
 "Cycle Gear": 1332,
+"MotoSport": 2715,
 "Lings": 278,
 "research": 19
 },
 "Husqvarna|TX 300|2020": {
+"Cycle Gear": 1375,
 "research": 6
 },
 "Husqvarna|TX 300|2021": {
@@ -5679,22 +5683,23 @@
 "research": 17
 },
 "Husqvarna|TX 300|2025": {
-"research": 15,
-"Cycle Gear": 96
+"Cycle Gear": 96,
+"research": 15
 },
 "Husqvarna|TX 300|2026": {
-"MotoSport": 2682,
 "Cycle Gear": 1190,
+"MotoSport": 2682,
 "research": 13
 },
 "Husqvarna|TX 300|2027": {
-"MotoSport": 2665,
 "Cycle Gear": 1276,
+"MotoSport": 2665,
 "research": 7
 },
 "KTM|125 SX|2020": {
-"Lings": 225,
+"Cycle Gear": 1381,
 "KTM Twins": 220,
+"Lings": 225,
 "research": 12
 },
 "KTM|125 SX|2021": {
@@ -5710,32 +5715,32 @@
 "research": 12
 },
 "KTM|125 SX|2023": {
-"Lings": 268,
 "Cycle Gear": 1365,
-"research": 30,
-"KTM Twins": 16
+"Lings": 268,
+"KTM Twins": 16,
+"research": 30
 },
 "KTM|125 SX|2024": {
-"Lings": 251,
 "Cycle Gear": 1301,
+"Lings": 251,
 "research": 29,
 "KTM Twins": 11
 },
 "KTM|125 SX|2025": {
-"Lings": 286,
 "Cycle Gear": 1281,
-"research": 25,
-"KTM Twins": 14
+"Lings": 286,
+"KTM Twins": 14,
+"research": 25
 },
 "KTM|125 SX|2026": {
-"KTM Twins": 260,
 "Cycle Gear": 1270,
 "MotoSport": 2738,
+"KTM Twins": 260,
 "research": 18
 },
 "KTM|125 SX|2027": {
-"MotoSport": 2720,
 "Cycle Gear": 1290,
+"MotoSport": 2720,
 "research": 11
 },
 "KTM|125 XC|2021": {
@@ -5770,8 +5775,9 @@
 "research": 6
 },
 "KTM|150 SX|2020": {
-"Lings": 95,
+"Cycle Gear": 1377,
 "KTM Twins": 222,
+"Lings": 95,
 "research": 10
 },
 "KTM|150 SX|2021": {
@@ -5787,21 +5793,22 @@
 "research": 11
 },
 "KTM|150 SX|2025": {
-"Lings": 287,
 "Cycle Gear": 1311,
-"research": 18,
-"KTM Twins": 13
+"Lings": 287,
+"KTM Twins": 13,
+"research": 18
 },
 "KTM|250 SX|2020": {
-"Lings": 229,
+"Cycle Gear": 1417,
 "KTM Twins": 240,
+"Lings": 229,
 "research": 11
 },
 "KTM|250 SX|2021": {
 "Lings": 228,
+"Cycle Gear": 95,
 "KTM Twins": 23,
-"research": 11,
-"Cycle Gear": 95
+"research": 11
 },
 "KTM|250 SX|2022": {
 "Cycle Gear": 1435,
@@ -5810,22 +5817,22 @@
 "research": 12
 },
 "KTM|250 SX|2023": {
-"Lings": 276,
 "Cycle Gear": 1317,
-"research": 38,
-"KTM Twins": 25
+"Lings": 276,
+"KTM Twins": 25,
+"research": 38
 },
 "KTM|250 SX|2024": {
-"Lings": 279,
 "Cycle Gear": 1171,
+"Lings": 279,
 "research": 39,
 "KTM Twins": 20
 },
 "KTM|250 SX|2025": {
-"Lings": 288,
 "Cycle Gear": 1224,
-"research": 34,
-"KTM Twins": 16
+"Lings": 288,
+"KTM Twins": 16,
+"research": 34
 },
 "KTM|250 SX|2026": {
 "MotoSport": 2762,
@@ -5834,13 +5841,15 @@
 "KTM Twins": 3
 },
 "KTM|250 SX-F|2020": {
-"Lings": 246,
+"Cycle Gear": 1416,
 "KTM Twins": 237,
+"Lings": 246,
 "research": 23
 },
 "KTM|250 SX-F|2021": {
-"Lings": 245,
+"Cycle Gear": 1353,
 "KTM Twins": 237,
+"Lings": 245,
 "research": 23
 },
 "KTM|250 SX-F|2022": {
@@ -5850,41 +5859,43 @@
 "research": 28
 },
 "KTM|250 SX-F|2023": {
+"Cycle Gear": 1328,
 "KTM Twins": 311,
 "Lings": 270,
-"Cycle Gear": 1328,
 "research": 62
 },
 "KTM|250 SX-F|2024": {
+"Cycle Gear": 1354,
 "KTM Twins": 303,
 "Lings": 275,
-"Cycle Gear": 1354,
 "research": 56
 },
 "KTM|250 SX-F|2025": {
-"KTM Twins": 288,
-"Lings": 286,
 "Cycle Gear": 1122,
+"Lings": 286,
+"KTM Twins": 288,
 "research": 51
 },
 "KTM|250 SX-F|2026": {
 "MotoSport": 2760,
-"KTM Twins": 268,
-"Lings": 294,
 "Cycle Gear": 1269,
+"Lings": 294,
+"KTM Twins": 268,
 "research": 40
 },
 "KTM|250 SX-F|2027": {
-"MotoSport": 2741,
 "Cycle Gear": 1196,
+"MotoSport": 2741,
 "KTM Twins": 74,
 "research": 27
 },
 "KTM|250 XC|2020": {
+"Cycle Gear": 1214,
 "KTM Twins": 232,
 "research": 10
 },
 "KTM|250 XC|2021": {
+"Cycle Gear": 1383,
 "KTM Twins": 232,
 "research": 10
 },
@@ -5909,23 +5920,25 @@
 "research": 29
 },
 "KTM|250 XC|2026": {
-"MotoSport": 2737,
 "Cycle Gear": 1317,
+"MotoSport": 2737,
 "KTM Twins": 263,
 "research": 27
 },
 "KTM|250 XC|2027": {
-"MotoSport": 2704,
 "Cycle Gear": 1332,
+"MotoSport": 2704,
 "KTM Twins": 78,
 "research": 13
 },
 "KTM|250 XC-F|2020": {
+"Cycle Gear": 1310,
 "KTM Twins": 234,
 "Lings": 76,
 "research": 19
 },
 "KTM|250 XC-F|2021": {
+"Cycle Gear": 1494,
 "KTM Twins": 234,
 "Lings": 76,
 "research": 19
@@ -5937,68 +5950,70 @@
 },
 "KTM|250 XC-F|2023": {
 "KTM Twins": 312,
-"research": 46,
-"Cycle Gear": 53
+"Cycle Gear": 53,
+"research": 46
 },
 "KTM|250 XC-F|2024": {
-"KTM Twins": 302,
 "Cycle Gear": 1189,
+"KTM Twins": 302,
 "research": 41
 },
 "KTM|250 XC-F|2025": {
-"KTM Twins": 279,
 "Cycle Gear": 1172,
+"KTM Twins": 279,
 "research": 36
 },
 "KTM|250 XC-F|2026": {
+"Cycle Gear": 1260,
 "MotoSport": 2745,
 "KTM Twins": 265,
-"Cycle Gear": 1260,
 "research": 30
 },
 "KTM|250 XC-F|2027": {
-"MotoSport": 2715,
 "Cycle Gear": 1276,
+"MotoSport": 2715,
 "KTM Twins": 80,
 "research": 20
 },
 "KTM|300 SX|2023": {
-"Lings": 275,
 "Cycle Gear": 1150,
-"research": 40,
-"KTM Twins": 21
-},
-"KTM|300 SX|2024": {
-"Lings": 278,
-"Cycle Gear": 1220,
-"KTM Twins": 17,
+"KTM Twins": 21,
+"Lings": 275,
 "research": 40
 },
+"KTM|300 SX|2024": {
+"Cycle Gear": 1220,
+"Lings": 278,
+"research": 40,
+"KTM Twins": 17
+},
 "KTM|300 SX|2025": {
-"Lings": 284,
 "Cycle Gear": 1211,
-"research": 35,
-"KTM Twins": 13
+"Lings": 284,
+"KTM Twins": 13,
+"research": 35
 },
 "KTM|300 SX|2026": {
+"Cycle Gear": 1246,
 "MotoSport": 2690,
 "Lings": 291,
-"Cycle Gear": 1246,
 "research": 31,
 "KTM Twins": 2
 },
 "KTM|300 XC|2020": {
 "KTM Twins": 225,
+"Cycle Gear": 57,
 "research": 10
 },
 "KTM|300 XC|2021": {
 "KTM Twins": 221,
+"Cycle Gear": 95,
 "research": 10
 },
 "KTM|300 XC|2022": {
 "KTM Twins": 230,
-"research": 11,
-"Cycle Gear": 57
+"Cycle Gear": 57,
+"research": 11
 },
 "KTM|300 XC|2023": {
 "Cycle Gear": 1315,
@@ -6016,25 +6031,27 @@
 "research": 29
 },
 "KTM|300 XC|2026": {
-"MotoSport": 2740,
 "Cycle Gear": 1232,
+"MotoSport": 2740,
 "KTM Twins": 259,
 "research": 27
 },
 "KTM|300 XC|2027": {
-"MotoSport": 2709,
 "Cycle Gear": 1234,
+"MotoSport": 2709,
 "KTM Twins": 78,
 "research": 15
 },
 "KTM|350 SX-F|2020": {
-"Lings": 245,
+"Cycle Gear": 1488,
 "KTM Twins": 243,
+"Lings": 245,
 "research": 13
 },
 "KTM|350 SX-F|2021": {
-"Lings": 244,
+"Cycle Gear": 1524,
 "KTM Twins": 239,
+"Lings": 244,
 "research": 13
 },
 "KTM|350 SX-F|2022": {
@@ -6050,36 +6067,38 @@
 "Cycle Gear": 96
 },
 "KTM|350 SX-F|2024": {
+"Cycle Gear": 1244,
 "KTM Twins": 299,
 "Lings": 273,
-"Cycle Gear": 1244,
 "research": 47
 },
 "KTM|350 SX-F|2025": {
-"KTM Twins": 279,
-"Lings": 286,
 "Cycle Gear": 1392,
+"Lings": 286,
+"KTM Twins": 279,
 "research": 42
 },
 "KTM|350 SX-F|2026": {
-"MotoSport": 2728,
-"KTM Twins": 263,
-"Lings": 292,
 "Cycle Gear": 1319,
+"MotoSport": 2728,
+"Lings": 292,
+"KTM Twins": 263,
 "research": 32
 },
 "KTM|350 SX-F|2027": {
-"MotoSport": 2695,
 "Cycle Gear": 1339,
+"MotoSport": 2695,
 "KTM Twins": 68,
 "research": 18
 },
 "KTM|350 XC-F|2020": {
+"Cycle Gear": 1309,
 "KTM Twins": 237,
 "Lings": 76,
 "research": 12
 },
 "KTM|350 XC-F|2021": {
+"Cycle Gear": 1387,
 "KTM Twins": 235,
 "Lings": 76,
 "research": 12
@@ -6091,33 +6110,35 @@
 },
 "KTM|350 XC-F|2023": {
 "KTM Twins": 306,
-"research": 40,
-"Cycle Gear": 96
+"Cycle Gear": 96,
+"research": 40
 },
 "KTM|350 XC-F|2024": {
-"KTM Twins": 295,
 "Cycle Gear": 1289,
+"KTM Twins": 295,
 "research": 35
 },
 "KTM|350 XC-F|2025": {
-"KTM Twins": 267,
 "Cycle Gear": 1181,
+"KTM Twins": 267,
 "research": 31
 },
 "KTM|350 XC-F|2027": {
-"MotoSport": 2730,
 "Cycle Gear": 1256,
+"MotoSport": 2730,
 "KTM Twins": 73,
 "research": 14
 },
 "KTM|450 SX-F|2020": {
-"Lings": 243,
+"Cycle Gear": 1470,
 "KTM Twins": 248,
+"Lings": 243,
 "research": 16
 },
 "KTM|450 SX-F|2021": {
-"Lings": 242,
+"Cycle Gear": 1372,
 "KTM Twins": 246,
+"Lings": 242,
 "research": 16
 },
 "KTM|450 SX-F|2022": {
@@ -6127,27 +6148,27 @@
 "research": 26
 },
 "KTM|450 SX-F|2023": {
-"Lings": 271,
 "Cycle Gear": 1505,
 "KTM Twins": 314,
+"Lings": 271,
 "research": 70
 },
 "KTM|450 SX-F|2024": {
-"Lings": 275,
 "Cycle Gear": 1274,
 "KTM Twins": 302,
+"Lings": 275,
 "research": 61
 },
 "KTM|450 SX-F|2025": {
-"Lings": 287,
 "Cycle Gear": 1353,
+"Lings": 287,
 "KTM Twins": 282,
 "research": 49
 },
 "KTM|450 SX-F|2026": {
+"Cycle Gear": 1285,
 "MotoSport": 2736,
 "Lings": 292,
-"Cycle Gear": 1285,
 "KTM Twins": 264,
 "research": 38
 },
@@ -6157,11 +6178,13 @@
 "research": 21
 },
 "KTM|450 XC-F|2020": {
+"Cycle Gear": 1442,
 "KTM Twins": 236,
 "research": 13
 },
 "KTM|450 XC-F|2021": {
 "KTM Twins": 231,
+"Cycle Gear": 94,
 "research": 13
 },
 "KTM|450 XC-F|2022": {
@@ -6170,8 +6193,8 @@
 "research": 14
 },
 "KTM|450 XC-F|2023": {
-"Cycle Gear": 96,
 "KTM Twins": 303,
+"Cycle Gear": 96,
 "research": 47
 },
 "KTM|450 XC-F|2024": {
@@ -6185,103 +6208,107 @@
 "research": 35
 },
 "KTM|450 XC-F|2026": {
-"MotoSport": 2720,
 "Cycle Gear": 1271,
+"MotoSport": 2720,
 "KTM Twins": 260,
 "research": 29
 },
 "KTM|450 XC-F|2027": {
-"MotoSport": 2691,
 "Cycle Gear": 1181,
+"MotoSport": 2691,
 "KTM Twins": 77,
 "research": 17
 },
 "KTM|85 SX 17/14|2020": {
-"Lings": 96,
+"Cycle Gear": 1172,
 "KTM Twins": 30,
+"Lings": 96,
 "research": 8
 },
 "KTM|85 SX 17/14|2021": {
-"Lings": 100,
+"Cycle Gear": 1178,
 "KTM Twins": 27,
+"Lings": 100,
 "research": 9
 },
 "KTM|85 SX 17/14|2022": {
-"Cycle Gear": 1217,
+"Cycle Gear": 1215,
+"KTM Twins": 26,
 "Lings": 100,
-"KTM Twins": 27,
 "research": 8
 },
 "KTM|85 SX 17/14|2023": {
-"Cycle Gear": 1222,
-"Lings": 98,
+"Cycle Gear": 1155,
 "KTM Twins": 23,
+"Lings": 98,
 "research": 8
 },
 "KTM|85 SX 17/14|2024": {
-"Cycle Gear": 1375,
+"Cycle Gear": 1292,
 "Lings": 100,
 "KTM Twins": 14,
 "research": 8
 },
 "KTM|85 SX 17/14|2025": {
-"Cycle Gear": 1312,
-"Lings": 103,
+"Cycle Gear": 1091,
+"Lings": 102,
 "KTM Twins": 19,
-"research": 8
+"research": 7
 },
 "KTM|85 SX 17/14|2026": {
-"Cycle Gear": 1324,
+"Cycle Gear": 1041,
 "MotoSport": 2355,
 "research": 2
 },
 "KTM|85 SX 17/14|2027": {
-"Cycle Gear": 1301,
+"Cycle Gear": 1207,
 "MotoSport": 2345,
 "research": 1
 },
 "KTM|85 SX 19/16|2020": {
-"Lings": 96,
+"Cycle Gear": 1172,
 "KTM Twins": 30,
+"Lings": 96,
 "research": 8
 },
 "KTM|85 SX 19/16|2021": {
-"Lings": 100,
+"Cycle Gear": 1310,
 "KTM Twins": 27,
-"research": 9
+"Lings": 100,
+"research": 8
 },
 "KTM|85 SX 19/16|2022": {
-"Cycle Gear": 1217,
+"Cycle Gear": 94,
 "Lings": 100,
 "KTM Twins": 27,
-"research": 8
+"research": 7
 },
 "KTM|85 SX 19/16|2023": {
-"Cycle Gear": 1222,
+"Cycle Gear": 94,
 "Lings": 98,
 "KTM Twins": 23,
-"research": 8
+"research": 7
 },
 "KTM|85 SX 19/16|2024": {
-"Cycle Gear": 1375,
+"Cycle Gear": 1141,
 "Lings": 100,
 "KTM Twins": 14,
 "research": 8
 },
 "KTM|85 SX 19/16|2025": {
-"Cycle Gear": 1312,
+"Cycle Gear": 1077,
 "Lings": 103,
 "KTM Twins": 19,
 "research": 8
 },
 "KTM|85 SX 19/16|2026": {
-"Cycle Gear": 1324,
-"MotoSport": 2355,
+"Cycle Gear": 1151,
+"MotoSport": 2345,
 "research": 2
 },
 "KTM|85 SX 19/16|2027": {
-"Cycle Gear": 1301,
-"MotoSport": 2345,
+"Cycle Gear": 1103,
+"MotoSport": 2335,
 "research": 1
 }
 },
@@ -7015,20 +7042,20 @@
 "cg-pro-taper-sport-aluminum-atv-handlebars-78",
 "cg-pro-taper-brush-guard-kit",
 "cg-pro-taper-dual-density-full-diamond-grips",
+"cg-pro-taper-billet-throttle-tube-ktm-husqvarna-250cc-500cc-2016-2020",
 "cg-pro-taper-23-platform-footpegs-ktm-husqvarna-gas-gas-85cc-501cc-2015-2024",
+"cg-pro-taper-twister-throttle-tube-ktm-husqvarna-250cc-500cc-2015-2021",
+"cg-pro-taper-aluminum-shift-lever-ktm-husqvarna-250cc-350cc-2016-2021",
+"cg-pro-taper-footpeg-hardware-kit-ktm-husqvarna-65cc-560cc",
+"cg-pro-taper-titanium-footpegs-ktm-husqvarna-gas-gas-125cc-450cc-2017-2024",
 "cg-pro-taper-twister-throttle-tube-ktm-husqvarna-85cc-300cc-2017-2020",
 "cg-pro-taper-aluminum-shift-lever-ktm-husqvarna-85cc-150cc-2017-2020",
 "cg-pro-taper-billet-throttle-tube-ktm-husqvarna-85cc-300cc-2017-2020",
+"cg-pro-taper-xps-clutch-lever-ktm-husqvarna-125cc-505cc-2009-2021",
 "cg-pro-taper-vds-bar-mounts-ktm-husqvarna-gas-gas-125cc-450cc-2024-2026",
 "cg-pro-taper-aluminum-shift-lever-ktm-husqvarna-250cc-300cc",
-"cg-pro-taper-footpeg-hardware-kit-ktm-husqvarna-65cc-560cc",
-"cg-pro-taper-titanium-footpegs-ktm-husqvarna-gas-gas-125cc-450cc-2017-2024",
 "cg-pro-taper-race-spec-front-sprocket-ktm-husqvarna-85cc-105cc",
 "cg-pro-taper-race-spec-rear-aluminum-sprocket-ktm-husqvarna-gas-gas-85cc-105cc-2004-2022",
-"cg-pro-taper-billet-throttle-tube-ktm-husqvarna-250cc-500cc-2016-2020",
-"cg-pro-taper-xps-clutch-lever-ktm-husqvarna-125cc-505cc-2009-2021",
-"cg-pro-taper-twister-throttle-tube-ktm-husqvarna-250cc-500cc-2015-2021",
-"cg-pro-taper-aluminum-shift-lever-ktm-husqvarna-250cc-350cc-2016-2021",
 "protaper-husky-evo-bend",
 "ms-pro-taper-tire-combo",
 "ms-pro-taper-mxt-04-rear-tire",
@@ -7122,8 +7149,15 @@
 "cg-pro-circuit-ti-6-titanium-exhaust-system-ktm-husqvarna-450cc-2022-2023",
 "cg-pro-circuit-ti-6-pro-titanium-exhaust-system-ktm-husqvarna-450cc-2022-2023",
 "cg-pro-circuit-ti-6-bc-pro-exhaust-system-ktm-husqvarna-gas-gas-450cc",
+"cg-pro-circuit-t-6-slip-on-exhaust-ktm-husqvarna-gas-gas-350cc-2019-2022",
+"cg-pro-circuit-ti-6-pro-titanium-exhaust-system-ktm-husqvarna-gas-gas-350cc-2019-2022",
+"cg-pro-circuit-ti-6-titanium-exhaust-system-ktm-husqvarna-gas-gas-350cc-2019-2022",
+"cg-pro-circuit-t-6-exhaust-system-ktm-husqvarna-gas-gas-350cc-2019-2022",
 "cg-pro-circuit-304-silencer-ktm-husqvarna-gas-gas-125cc-150cc-2019-2022",
 "cg-pro-circuit-r-304-silencer-ktm-husqvarna-gas-gas-125cc-150cc-2019-2022",
+"cg-pro-circuit-platinum-pipe-husqvarna-ktm-gas-gas-125cc-150cc-2019-2022",
+"cg-pro-circuit-works-pipe-ktm-husqvarna-gas-gas-125cc-150cc-2019-2022",
+"cg-pro-circuit-type-296-sa-silencer-ktm-husqvarna-gas-gas-125cc-150cc-2019-2022",
 "cg-pro-circuit-r-304-silencer-ktm-husqvarna-gas-gas-250cc-300cc-2023-2024",
 "cg-pro-circuit-platinum-pipe-husqvarna-ktm-gas-gas-250cc-300cc-2023-2026",
 "cg-pro-circuit-works-pipe-ktm-husqvarna-gas-gas-250cc-300cc-2023-2026",
@@ -7160,13 +7194,6 @@
 "cg-pro-circuit-ti-6-bc-pro-exhaust-system-ktm-husqvarna-gas-gas-250cc-350cc",
 "cg-pro-circuit-platinum-pipe-ktm-husqvarna-gas-gas-250cc-300cc-2020-2022",
 "cg-pro-circuit-works-pipe-ktm-husqvarna-gas-gas-250cc-300cc-2020-2022",
-"cg-pro-circuit-t-6-slip-on-exhaust-ktm-husqvarna-gas-gas-350cc-2019-2022",
-"cg-pro-circuit-ti-6-pro-titanium-exhaust-system-ktm-husqvarna-gas-gas-350cc-2019-2022",
-"cg-pro-circuit-ti-6-titanium-exhaust-system-ktm-husqvarna-gas-gas-350cc-2019-2022",
-"cg-pro-circuit-t-6-exhaust-system-ktm-husqvarna-gas-gas-350cc-2019-2022",
-"cg-pro-circuit-platinum-pipe-husqvarna-ktm-gas-gas-125cc-150cc-2019-2022",
-"cg-pro-circuit-works-pipe-ktm-husqvarna-gas-gas-125cc-150cc-2019-2022",
-"cg-pro-circuit-type-296-sa-silencer-ktm-husqvarna-gas-gas-125cc-150cc-2019-2022",
 "pc-ti6-pro-450-2023-fp",
 "pc-ti6-pro-450-2023-bc",
 "pc-ti6-pro-350-2023",
@@ -7227,6 +7254,9 @@
 "cg-moto-master-front-sprocket-ktm-husqvarna-gas-gas-85cc",
 "cg-moto-master-flame-260mm-floating-front-rotor-ktm-husqvarna-gas-gas-85cc-250cc-2012-2024",
 "cg-moto-master-caliper-adapter-270-husqvarna-125cc-501cc",
+"cg-moto-master-nitro-front-brake-pads-gas-gas-husqvarna-ktm",
+"cg-moto-master-260mm-rotor-spacer-kit-ktm-husqvarna-85cc-2012-2020",
+"cg-moto-master-sinter-pro-racing-front-brake-pads-gas-gas-husqvarna-ktm",
 "motomaster-flame-270-ktm",
 "ms-motomaster-flame-fixed-rotor-rear",
 "ms-motomaster-front-brake-line",
@@ -7258,14 +7288,14 @@
 "cg-works-connection-pro-launch-start-device-ktm-125cc-450cc-2023-2025",
 "cg-works-connection-elite-axle-block-kit-ktm-husqvarna-125cc-450cc-2022-2023",
 "cg-works-connection-pro-launch-start-device-husqvarna-125cc-450cc-2023",
-"cg-works-connection-pro-launch-start-device-husqvarna-125cc-450cc-2017-2020",
+"cg-works-connection-pro-launch-start-device-ktm-sx-sx-f-xc-xc-f-125cc-450cc",
 "cg-works-connection-elite-axle-block-kit-ktm-husqvarna-gas-gas-125cc-450cc-2012-2023",
+"cg-works-connection-titanium-axle-adjuster-bolt-kit-ktm-husqvarna-125cc-530cc",
+"cg-works-connection-pro-launch-start-device-husqvarna-125cc-450cc-2017-2020",
 "cg-works-connection-pro-launch-kit-gas-gas-125cc-450cc-2021-2025",
 "cg-works-connection-pro-launch-start-device-ktm-85-sx-2020-2022",
 "cg-works-connection-pro-launch-kit-ktm-85-sx-2020-2024",
 "cg-works-connection-pro-launch-start-device-gas-gas-mc125-250f-450f-2021",
-"cg-works-connection-titanium-axle-adjuster-bolt-kit-ktm-husqvarna-125cc-530cc",
-"cg-works-connection-pro-launch-start-device-ktm-sx-sx-f-xc-xc-f-125cc-450cc",
 "ktt-works-connection-pro-launch-start-device-ktm-mx-enduro-models-2023-2025",
 "wc-pro-launch-ktm",
 "wc-axle-blocks-ktm-2023",
@@ -7305,21 +7335,21 @@
 "cg-works-connection-front-brake-reservoir-cover-ktm-husqvarna-stark-gas-gas-kawasaki-65cc-530",
 "cg-works-connection-oil-filter-cover-ktm-husqvarna-gas-gas-husaberg-250cc-501cc-2007-2022",
 "cg-works-connection-pro-launch-start-device-husqvarna-125cc-450cc-2023",
-"cg-works-connection-mx-skid-plate-gas-gas-mc125-husq-tc125-ktm-150-sx-125-sx-2019-2024",
-"cg-works-connection-pro-launch-start-device-husqvarna-125cc-450cc-2017-2020",
+"cg-works-connection-pro-launch-start-device-ktm-sx-sx-f-xc-xc-f-125cc-450cc",
 "cg-works-connection-elite-axle-block-kit-ktm-husqvarna-gas-gas-125cc-450cc-2012-2023",
+"cg-works-connection-engine-plug-kit-ktm-husqvarna-gas-gas-250cc-350cc-2011-2023",
+"cg-works-connection-mx-skid-plate-gas-gas-mc250f-husq-250fc-350fc-ktm-250cc-350cc-sx-f-fx-c-2",
+"cg-works-connection-air-fork-ez-fill-ktm-husqvarna-125cc-450cc-2020-2022",
+"cg-works-connection-titanium-axle-adjuster-bolt-kit-ktm-husqvarna-125cc-530cc",
 "cg-works-connection-oil-filler-plug-ktm-husqvarna-gas-gas-65cc-530cc",
 "cg-works-connection-steering-stem-nut-ktm-husqvarna-gas-gas-125cc-530cc",
+"cg-works-connection-mx-skid-plate-gas-gas-mc125-husq-tc125-ktm-150-sx-125-sx-2019-2024",
+"cg-works-connection-pro-launch-start-device-husqvarna-125cc-450cc-2017-2020",
 "cg-works-connection-clutch-master-cylinder-cover-husqvarna-125cc-501cc-2014-2024",
 "cg-works-connection-pro-launch-kit-gas-gas-125cc-450cc-2021-2025",
-"cg-works-connection-air-fork-ez-fill-ktm-husqvarna-125cc-450cc-2020-2022",
 "cg-works-connection-pro-launch-start-device-ktm-85-sx-2020-2022",
 "cg-works-connection-pro-launch-kit-ktm-85-sx-2020-2024",
 "cg-works-connection-pro-launch-start-device-gas-gas-mc125-250f-450f-2021",
-"cg-works-connection-engine-plug-kit-ktm-husqvarna-gas-gas-250cc-350cc-2011-2023",
-"cg-works-connection-mx-skid-plate-gas-gas-mc250f-husq-250fc-350fc-ktm-250cc-350cc-sx-f-fx-c-2",
-"cg-works-connection-titanium-axle-adjuster-bolt-kit-ktm-husqvarna-125cc-530cc",
-"cg-works-connection-pro-launch-start-device-ktm-sx-sx-f-xc-xc-f-125cc-450cc",
 "ktt-works-connection-pro-launch-start-device-ktm-mx-enduro-models-2023-2025",
 "wc-axle-blocks-ktm-2023",
 "ms-works-connection-oil-filler-plug",
@@ -7432,20 +7462,20 @@
 "cg-pro-taper-sport-aluminum-atv-handlebars-78",
 "cg-pro-taper-brush-guard-kit",
 "cg-pro-taper-dual-density-full-diamond-grips",
+"cg-pro-taper-billet-throttle-tube-ktm-husqvarna-250cc-500cc-2016-2020",
 "cg-pro-taper-23-platform-footpegs-ktm-husqvarna-gas-gas-85cc-501cc-2015-2024",
+"cg-pro-taper-twister-throttle-tube-ktm-husqvarna-250cc-500cc-2015-2021",
+"cg-pro-taper-aluminum-shift-lever-ktm-husqvarna-250cc-350cc-2016-2021",
+"cg-pro-taper-footpeg-hardware-kit-ktm-husqvarna-65cc-560cc",
+"cg-pro-taper-titanium-footpegs-ktm-husqvarna-gas-gas-125cc-450cc-2017-2024",
 "cg-pro-taper-twister-throttle-tube-ktm-husqvarna-85cc-300cc-2017-2020",
 "cg-pro-taper-aluminum-shift-lever-ktm-husqvarna-85cc-150cc-2017-2020",
 "cg-pro-taper-billet-throttle-tube-ktm-husqvarna-85cc-300cc-2017-2020",
+"cg-pro-taper-xps-clutch-lever-ktm-husqvarna-125cc-505cc-2009-2021",
 "cg-pro-taper-vds-bar-mounts-ktm-husqvarna-gas-gas-125cc-450cc-2024-2026",
 "cg-pro-taper-aluminum-shift-lever-ktm-husqvarna-250cc-300cc",
-"cg-pro-taper-footpeg-hardware-kit-ktm-husqvarna-65cc-560cc",
-"cg-pro-taper-titanium-footpegs-ktm-husqvarna-gas-gas-125cc-450cc-2017-2024",
 "cg-pro-taper-race-spec-front-sprocket-ktm-husqvarna-85cc-105cc",
 "cg-pro-taper-race-spec-rear-aluminum-sprocket-ktm-husqvarna-gas-gas-85cc-105cc-2004-2022",
-"cg-pro-taper-billet-throttle-tube-ktm-husqvarna-250cc-500cc-2016-2020",
-"cg-pro-taper-xps-clutch-lever-ktm-husqvarna-125cc-505cc-2009-2021",
-"cg-pro-taper-twister-throttle-tube-ktm-husqvarna-250cc-500cc-2015-2021",
-"cg-pro-taper-aluminum-shift-lever-ktm-husqvarna-250cc-350cc-2016-2021",
 "protaper-husky-evo-bend",
 "ms-pro-taper-tire-combo",
 "ms-pro-taper-mxt-04-rear-tire",
@@ -7530,19 +7560,19 @@
 "cg-hinson-billetproof-clutch-cover-ktm-husqvarna-gas-gas-125cc-150cc-2023-2024",
 "cg-hinson-billetproof-clutch-cover-ktm-husqvarna-gas-gas-250cc-450cc-2023-2024",
 "cg-hinson-hi-temp-clutch-spring-kit-ktm-gas-gas-husqvarna-250cc-500cc-2012-2023",
-"cg-hinson-fsc-clutch-plate-spring-kit-ktm-husqvarna-gas-gas-250cc-501cc",
+"cg-hinson-fsc-clutch-plate-spring-kit-ktm-husqvarna-gas-gas-250cc-350cc-2019-2024",
+"cg-hinson-billetproof-clutch-cover-ktm-husqvarna-gas-gas-250cc-350cc-2015-2022",
+"cg-hinson-complete-billetproof-conventional-clutch-kit-husqvarna-gas-gas-ktm-250cc-350cc-2019",
+"cg-hinson-fiber-clutch-plates-husqvarna-ktm-250cc-350cc-2015-2021",
+"cg-hinson-steel-clutch-plates-husqvarna-ktm-250cc-350cc-2015-2021",
 "cg-hinson-billetproof-clutch-cover-ktm-husqvarna-gas-gas-125cc-150cc-2019-2022",
+"cg-hinson-fsc-clutch-plate-spring-kit-ktm-husqvarna-gas-gas-250cc-501cc",
 "cg-hinson-billetproof-inner-hub-ktm-husqvarna-gas-gas-250cc-501cc-2016-2022",
 "cg-hinson-steel-clutch-plates-husqvarna-ktm-125cc-501cc-2004-2022",
 "cg-hinson-billetproof-inner-hub-husqvarna-ktm-gas-gas-85cc-2018-2022",
 "cg-hinson-billetproof-pressure-plate-ktm-husqvarna-gas-gas-85cc-2018-2022",
 "cg-hinson-billetproof-clutch-cover-ktm-husqvarna-gas-gas-450cc-500cc-2015-2022",
-"cg-hinson-fsc-clutch-plate-spring-kit-ktm-husqvarna-gas-gas-250cc-350cc-2019-2024",
-"cg-hinson-billetproof-clutch-cover-ktm-husqvarna-gas-gas-250cc-350cc-2015-2022",
-"cg-hinson-complete-billetproof-conventional-clutch-kit-husqvarna-gas-gas-ktm-250cc-350cc-2019",
 "cg-hinson-complete-billetproof-conventional-clutch-kit-ktm-husqvarna-gas-gas-250cc-350cc-2022",
-"cg-hinson-fiber-clutch-plates-husqvarna-ktm-250cc-350cc-2015-2021",
-"cg-hinson-steel-clutch-plates-husqvarna-ktm-250cc-350cc-2015-2021",
 "ktt-hinson-racing-clutch-cover-ktm-husqvarna-enduro-mx-models-2022-2024",
 "hinson-complete-billetproof-4t-2023",
 "hinson-outer-clutch-cover-a48030926000",
@@ -7616,6 +7646,11 @@
 "cg-moto-master-front-sprocket-ktm-husqvarna-gas-gas-85cc",
 "cg-moto-master-flame-260mm-floating-front-rotor-ktm-husqvarna-gas-gas-85cc-250cc-2012-2024",
 "cg-moto-master-caliper-adapter-270-husqvarna-125cc-501cc",
+"cg-moto-master-sinter-pro-racing-rear-brake-pads-gas-gas-husqvarna-ktm-65cc-85cc",
+"cg-moto-master-nitro-front-brake-pads-gas-gas-husqvarna-ktm",
+"cg-moto-master-260mm-rotor-spacer-kit-ktm-husqvarna-85cc-2012-2020",
+"cg-moto-master-nitro-rear-brake-pads-gas-gas-husqvarna-ktm-65cc-85cc",
+"cg-moto-master-sinter-pro-racing-front-brake-pads-gas-gas-husqvarna-ktm",
 "ms-motomaster-brake-pads-nitro-series",
 "ms-motomaster-brake-pads-racing-series",
 "ms-motomaster-flame-fixed-rotor-rear",
@@ -7656,13 +7691,20 @@
 "cg-rekluse-torq-drive-clutch-pack-ktm-husqvarna-gas-gas-husaberg-250cc-501cc-2012-2024",
 "cg-rekluse-apex-manual-clutch-kit-ktm-husqvarna-gas-gas-450cc-501cc-2022-2025",
 "cg-rekluse-core-manual-torqdrive-replacement-clutch-pack-kit-ktm-husqvarna-gas-gas-husaberg",
-"cg-rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-250cc-300cc-2017-2023",
-"cg-rekluse-clutch-damper-kit-ktm-husqvarna-gas-gas-husaberg-250cc-501cc-2012-2024",
-"cg-rekluse-manual-slave-cylinder-ktm-husqvarna-gas-gas-250cc-300cc-2017-2021",
+"cg-rekluse-standard-clutch-cover-ktm-husqvarna-gas-gas-250cc-350cc-2015-2021",
 "cg-rekluse-manual-slave-cylinder-ktm-husqvarna-gas-gas-85cc-350cc-2015-2021",
+"cg-rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-350cc-2019-2023",
+"cg-rekluse-core-manual-torq-drive-clutch-kit-ktm-husqvarna-gas-gas-250cc-350cc-2019-2021",
+"cg-rekluse-core-manual-clutch-kit-ktm-husqvarna-gas-gas-250cc-350cc-2019-2021",
+"cg-rekluse-torq-drive-clutch-pack-ktm-husqvarna-gas-gas-250cc-350cc-2019-2021",
+"cg-rekluse-friction-disc-kit-ktm-husqvarna-gas-gas-husaberg-250cc-501cc-2011-2021",
 "cg-rekluse-standard-clutch-cover-ktm-husqvarna-gas-gas-125cc-150cc-2016-2021",
 "cg-rekluse-torq-drive-clutch-pack-ktm-husqvarna-gas-gas-125cc-150cc-2019-2021",
 "cg-rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-125cc-150cc-2019-2023",
+"cg-rekluse-radius-cx-clutch-kit-ktm-husqvarna-gas-gas-125cc-150cc-2019-2021",
+"cg-rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-250cc-300cc-2017-2023",
+"cg-rekluse-clutch-damper-kit-ktm-husqvarna-gas-gas-husaberg-250cc-501cc-2012-2024",
+"cg-rekluse-manual-slave-cylinder-ktm-husqvarna-gas-gas-250cc-300cc-2017-2021",
 "cg-rekluse-radius-cx-clutch-kit-ktm-husqvarna-gas-gas-250cc-300cc-2023-2024",
 "cg-rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-250cc-350cc-2023-2025",
 "cg-rekluse-radius-x-40-clutch-kit-ktm-husqvarna-250cc-300cc-2023-2024",
@@ -7674,7 +7716,6 @@
 "cg-rekluse-standard-clutch-cover-ktm-husqvarna-gas-gas-250cc-300cc-2017-2021",
 "cg-rekluse-radius-x-40-clutch-kit-ktm-husqvarna-gas-gas-250cc-300cc-2017-2023",
 "cg-rekluse-core-manual-torq-drive-clutch-kit-ktm-husqvarna-gas-gas-250cc-300cc-2017-2021",
-"cg-rekluse-friction-disc-kit-ktm-husqvarna-gas-gas-husaberg-250cc-501cc-2011-2021",
 "cg-rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-450cc-2022-2025",
 "cg-rekluse-radius-cx-30-to-40-upgrade-kit-ktm-husqvarna-gas-gas-450cc-2022-2025",
 "cg-rekluse-core-manual-torq-drive-clutch-kit-ktm-husqvarna-gas-gas-85cc-2018-2021",
@@ -7686,15 +7727,9 @@
 "cg-rekluse-core-manual-clutch-kit-ktm-husqvarna-gas-gas-450cc-501cc-2015-2021",
 "cg-rekluse-core-manual-torq-drive-clutch-kit-ktm-husqvarna-gas-gas-450cc-501cc-2015-2021",
 "cg-rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-250cc-2019-2023",
-"cg-rekluse-core-manual-torq-drive-clutch-kit-ktm-husqvarna-gas-gas-250cc-350cc-2019-2021",
-"cg-rekluse-core-manual-clutch-kit-ktm-husqvarna-gas-gas-250cc-350cc-2019-2021",
 "cg-rekluse-radius-cx-clutch-kit-ktm-husqvarna-gas-gas-250cc-2019-2021",
 "cg-rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-350cc-2023-2025",
-"cg-rekluse-standard-clutch-cover-ktm-husqvarna-gas-gas-250cc-350cc-2015-2021",
-"cg-rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-350cc-2019-2023",
-"cg-rekluse-torq-drive-clutch-pack-ktm-husqvarna-gas-gas-250cc-350cc-2019-2021",
 "cg-rekluse-manual-slave-cylinder-ktm-husqvarna-gas-gas-450cc-701cc-2016-2024",
-"cg-rekluse-radius-cx-clutch-kit-ktm-husqvarna-gas-gas-125cc-150cc-2019-2021",
 "ktt-rms-8313186",
 "ktt-rekluse-radiuscx-4-0-clutch-kit-ktm-250-300-exc-sx-xc-xc-w-six-days-2017-2023-35",
 "ktt-rekluse-radiuscx-4-0-clutch-kit-2",
@@ -8094,13 +8129,20 @@
 "cg-rekluse-torq-drive-clutch-pack-ktm-husqvarna-gas-gas-husaberg-250cc-501cc-2012-2024",
 "cg-rekluse-apex-manual-clutch-kit-ktm-husqvarna-gas-gas-450cc-501cc-2022-2025",
 "cg-rekluse-core-manual-torqdrive-replacement-clutch-pack-kit-ktm-husqvarna-gas-gas-husaberg",
-"cg-rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-250cc-300cc-2017-2023",
-"cg-rekluse-clutch-damper-kit-ktm-husqvarna-gas-gas-husaberg-250cc-501cc-2012-2024",
-"cg-rekluse-manual-slave-cylinder-ktm-husqvarna-gas-gas-250cc-300cc-2017-2021",
+"cg-rekluse-standard-clutch-cover-ktm-husqvarna-gas-gas-250cc-350cc-2015-2021",
 "cg-rekluse-manual-slave-cylinder-ktm-husqvarna-gas-gas-85cc-350cc-2015-2021",
+"cg-rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-350cc-2019-2023",
+"cg-rekluse-core-manual-torq-drive-clutch-kit-ktm-husqvarna-gas-gas-250cc-350cc-2019-2021",
+"cg-rekluse-core-manual-clutch-kit-ktm-husqvarna-gas-gas-250cc-350cc-2019-2021",
+"cg-rekluse-torq-drive-clutch-pack-ktm-husqvarna-gas-gas-250cc-350cc-2019-2021",
+"cg-rekluse-friction-disc-kit-ktm-husqvarna-gas-gas-husaberg-250cc-501cc-2011-2021",
 "cg-rekluse-standard-clutch-cover-ktm-husqvarna-gas-gas-125cc-150cc-2016-2021",
 "cg-rekluse-torq-drive-clutch-pack-ktm-husqvarna-gas-gas-125cc-150cc-2019-2021",
 "cg-rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-125cc-150cc-2019-2023",
+"cg-rekluse-radius-cx-clutch-kit-ktm-husqvarna-gas-gas-125cc-150cc-2019-2021",
+"cg-rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-250cc-300cc-2017-2023",
+"cg-rekluse-clutch-damper-kit-ktm-husqvarna-gas-gas-husaberg-250cc-501cc-2012-2024",
+"cg-rekluse-manual-slave-cylinder-ktm-husqvarna-gas-gas-250cc-300cc-2017-2021",
 "cg-rekluse-radius-cx-clutch-kit-ktm-husqvarna-gas-gas-250cc-300cc-2023-2024",
 "cg-rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-250cc-350cc-2023-2025",
 "cg-rekluse-radius-x-40-clutch-kit-ktm-husqvarna-250cc-300cc-2023-2024",
@@ -8112,7 +8154,6 @@
 "cg-rekluse-standard-clutch-cover-ktm-husqvarna-gas-gas-250cc-300cc-2017-2021",
 "cg-rekluse-radius-x-40-clutch-kit-ktm-husqvarna-gas-gas-250cc-300cc-2017-2023",
 "cg-rekluse-core-manual-torq-drive-clutch-kit-ktm-husqvarna-gas-gas-250cc-300cc-2017-2021",
-"cg-rekluse-friction-disc-kit-ktm-husqvarna-gas-gas-husaberg-250cc-501cc-2011-2021",
 "cg-rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-450cc-2022-2025",
 "cg-rekluse-radius-cx-30-to-40-upgrade-kit-ktm-husqvarna-gas-gas-450cc-2022-2025",
 "cg-rekluse-core-manual-torq-drive-clutch-kit-ktm-husqvarna-gas-gas-85cc-2018-2021",
@@ -8124,15 +8165,9 @@
 "cg-rekluse-core-manual-clutch-kit-ktm-husqvarna-gas-gas-450cc-501cc-2015-2021",
 "cg-rekluse-core-manual-torq-drive-clutch-kit-ktm-husqvarna-gas-gas-450cc-501cc-2015-2021",
 "cg-rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-250cc-2019-2023",
-"cg-rekluse-core-manual-torq-drive-clutch-kit-ktm-husqvarna-gas-gas-250cc-350cc-2019-2021",
-"cg-rekluse-core-manual-clutch-kit-ktm-husqvarna-gas-gas-250cc-350cc-2019-2021",
 "cg-rekluse-radius-cx-clutch-kit-ktm-husqvarna-gas-gas-250cc-2019-2021",
 "cg-rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-350cc-2023-2025",
-"cg-rekluse-standard-clutch-cover-ktm-husqvarna-gas-gas-250cc-350cc-2015-2021",
-"cg-rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-350cc-2019-2023",
-"cg-rekluse-torq-drive-clutch-pack-ktm-husqvarna-gas-gas-250cc-350cc-2019-2021",
 "cg-rekluse-manual-slave-cylinder-ktm-husqvarna-gas-gas-450cc-701cc-2016-2024",
-"cg-rekluse-radius-cx-clutch-kit-ktm-husqvarna-gas-gas-125cc-150cc-2019-2021",
 "ktt-rms-8313186",
 "ktt-rekluse-radiuscx-4-0-clutch-kit-ktm-250-300-exc-sx-xc-xc-w-six-days-2017-2023-35",
 "ktt-rekluse-radiuscx-4-0-clutch-kit-2",
@@ -8220,11 +8255,18 @@
 "cg-rekluse-torq-drive-clutch-pack-ktm-husqvarna-gas-gas-husaberg-250cc-501cc-2012-2024",
 "cg-rekluse-apex-manual-clutch-kit-ktm-husqvarna-gas-gas-450cc-501cc-2022-2025",
 "cg-rekluse-core-manual-torqdrive-replacement-clutch-pack-kit-ktm-husqvarna-gas-gas-husaberg",
-"cg-rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-250cc-300cc-2017-2023",
-"cg-rekluse-clutch-damper-kit-ktm-husqvarna-gas-gas-husaberg-250cc-501cc-2012-2024",
+"cg-rekluse-standard-clutch-cover-ktm-husqvarna-gas-gas-250cc-350cc-2015-2021",
+"cg-rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-350cc-2019-2023",
+"cg-rekluse-core-manual-torq-drive-clutch-kit-ktm-husqvarna-gas-gas-250cc-350cc-2019-2021",
+"cg-rekluse-core-manual-clutch-kit-ktm-husqvarna-gas-gas-250cc-350cc-2019-2021",
+"cg-rekluse-torq-drive-clutch-pack-ktm-husqvarna-gas-gas-250cc-350cc-2019-2021",
+"cg-rekluse-friction-disc-kit-ktm-husqvarna-gas-gas-husaberg-250cc-501cc-2011-2021",
 "cg-rekluse-standard-clutch-cover-ktm-husqvarna-gas-gas-125cc-150cc-2016-2021",
 "cg-rekluse-torq-drive-clutch-pack-ktm-husqvarna-gas-gas-125cc-150cc-2019-2021",
 "cg-rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-125cc-150cc-2019-2023",
+"cg-rekluse-radius-cx-clutch-kit-ktm-husqvarna-gas-gas-125cc-150cc-2019-2021",
+"cg-rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-250cc-300cc-2017-2023",
+"cg-rekluse-clutch-damper-kit-ktm-husqvarna-gas-gas-husaberg-250cc-501cc-2012-2024",
 "cg-rekluse-radius-cx-clutch-kit-ktm-husqvarna-gas-gas-250cc-300cc-2023-2024",
 "cg-rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-250cc-350cc-2023-2025",
 "cg-rekluse-radius-x-40-clutch-kit-ktm-husqvarna-250cc-300cc-2023-2024",
@@ -8236,7 +8278,6 @@
 "cg-rekluse-standard-clutch-cover-ktm-husqvarna-gas-gas-250cc-300cc-2017-2021",
 "cg-rekluse-radius-x-40-clutch-kit-ktm-husqvarna-gas-gas-250cc-300cc-2017-2023",
 "cg-rekluse-core-manual-torq-drive-clutch-kit-ktm-husqvarna-gas-gas-250cc-300cc-2017-2021",
-"cg-rekluse-friction-disc-kit-ktm-husqvarna-gas-gas-husaberg-250cc-501cc-2011-2021",
 "cg-rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-450cc-2022-2025",
 "cg-rekluse-core-manual-torq-drive-clutch-kit-ktm-husqvarna-gas-gas-85cc-2018-2021",
 "cg-rekluse-torq-drive-clutch-pack-husqvarna-ktm-gas-gas-85cc-2018-2021",
@@ -8246,14 +8287,8 @@
 "cg-rekluse-core-manual-clutch-kit-ktm-husqvarna-gas-gas-450cc-501cc-2015-2021",
 "cg-rekluse-core-manual-torq-drive-clutch-kit-ktm-husqvarna-gas-gas-450cc-501cc-2015-2021",
 "cg-rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-250cc-2019-2023",
-"cg-rekluse-core-manual-torq-drive-clutch-kit-ktm-husqvarna-gas-gas-250cc-350cc-2019-2021",
-"cg-rekluse-core-manual-clutch-kit-ktm-husqvarna-gas-gas-250cc-350cc-2019-2021",
 "cg-rekluse-radius-cx-clutch-kit-ktm-husqvarna-gas-gas-250cc-2019-2021",
 "cg-rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-350cc-2023-2025",
-"cg-rekluse-standard-clutch-cover-ktm-husqvarna-gas-gas-250cc-350cc-2015-2021",
-"cg-rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-350cc-2019-2023",
-"cg-rekluse-torq-drive-clutch-pack-ktm-husqvarna-gas-gas-250cc-350cc-2019-2021",
-"cg-rekluse-radius-cx-clutch-kit-ktm-husqvarna-gas-gas-125cc-150cc-2019-2021",
 "ktt-rms-8313186",
 "ktt-rekluse-radiuscx-4-0-clutch-kit-ktm-250-300-exc-sx-xc-xc-w-six-days-2017-2023-35",
 "ktt-rekluse-radiuscx-4-0-clutch-kit-2",
