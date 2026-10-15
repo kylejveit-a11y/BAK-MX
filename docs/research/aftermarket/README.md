@@ -27,7 +27,7 @@ the app needs a manufacturer-page fitment check per part (the evidence fields in
 | KTM family | 1: newest platforms (2023-2027), breadth across all five slices | Done 2026-10-14 | 112 products, 54 rider/tester findings, 11 project builds; 217 of 224 in-scope bike-years have at least one mapped part |
 | KTM family | 2: manufacturer confirmation, missing brands and categories, 85 SX, more feedback | Done 2026-10-14 | 210 products (32 high, 123 medium, 55 unverified), 276 part numbers, 83 findings, 17 builds; all 224 in-scope bike-years have mapped parts |
 | KTM family | 3: full dealer and retailer catalogs (every brand), company registry | Wrapped up 2026-10-14 (partial, see below) | 8,738 listings: KTM Twins 968, Lings 1,463, Cycle Gear 2,729 unique parts across 192 bike-years (149 brands), MotoSport 3,368 across 60 bike-years 2025-2027 (229 brands); all in `ktm-family/parts.csv`; per-bike pages list bike-specific listings in full and count universal ones; 233-company registry |
-| Triumph | 1: genuine accessories (official dealer catalog), aftermarket search, rider and tester feedback | Done 2026-10-14 | 125 products (76 Triumph genuine accessories from triumphpartstore.com, 49 aftermarket: 5 high, 35 medium, 9 unverified), 31 findings, 5 builds; all 9 TF bike-years mapped. Cycle Gear TF listings follow in the crawl |
+| Triumph | 1: genuine accessories (official dealer catalog), aftermarket search, rider and tester feedback; Cycle Gear and MotoSport catalogs | Done 2026-10-14 | 125 products (76 Triumph genuine accessories from triumphpartstore.com, 49 aftermarket: 5 high, 35 medium, 9 unverified), 31 findings, 5 builds; all 9 TF bike-years mapped. Retailer catalogs: Cycle Gear 1,273 parts (121 brands, all with part numbers), MotoSport 2,431 (208 brands, 2,280 with part numbers); 3,829 listings in `triumph/parts.csv` |
 | Yamaha | 1 | Queued | |
 | Honda | 1 | Queued | |
 | Kawasaki | 1 | Queued | |
@@ -126,3 +126,8 @@ Wrapped up at the owner's request so Triumph, Yamaha, Honda and Kawasaki can go 
 - Universal items (a listing that fits at least 40 % of the bike-years read from that retailer: oil, grips, batteries) are
   counted on each bike page rather than listed; every listing is in `parts.csv` with compact fitment.
 - The workspace stops when the session is idle, so long crawls only run while a session is active.
+
+Universal items: a Cycle Gear or MotoSport listing carried for three or more make families (KTM group, Triumph, Yamaha,
+Honda, Kawasaki) is counted on the bike pages instead of listed. Until every family is crawled some universal items still
+show as bike-specific; the pages sharpen as Yamaha, Honda and Kawasaki finish. Product pages read for Triumph also filled in
+part numbers for the KTM-family listings they share (Cycle Gear 1,205, MotoSport 2,399).

@@ -4,9 +4,16 @@ usage: cyclegear_convert.py <crawl out dir> <make,make,...> <out.json>
 Fitment = every bike-year listing (the retailer's own "Parts for <year> <make> <model>" page) the product appears on.
 Part numbers = the manufacturer product number of each style on the product page (empty until the product page is read).
 Category = the product page's breadcrumb (first level "Motorcycle Parts" dropped). Fitment notes are kept as caveats.
-Confidence "medium" (retailer fitment)."""
+Confidence "medium" (retailer fitment).
+listed_families = how many make families (KTM group, Triumph, Yamaha, Honda, Kawasaki) the retailer lists the product for;
+build_catalog.py treats three or more as a universal item."""
 import json,os,re,sys,glob,collections
 cdir,makes,out_f=sys.argv[1],set(sys.argv[2].split(',')),sys.argv[3]
+FAMILY={'KTM':'KTM','Husqvarna':'KTM','GasGas':'KTM'}
+fam_of=collections.defaultdict(set)  # make families (KTM group, Triumph, Yamaha, Honda, Kawasaki) whose listings carry the product
+for f in glob.glob(os.path.join(cdir,'bikes','*.json')):
+    b=json.load(open(f))
+    for p in b['products']: fam_of[p['slug']].add(FAMILY.get(b['make'],b['make']))
 fits=collections.defaultdict(lambda:collections.defaultdict(set)); tile={}; bikes=0
 for f in glob.glob(os.path.join(cdir,'bikes','*.json')):
     b=json.load(open(f))
@@ -34,7 +41,7 @@ for slug,by in fits.items():
         'fitment_source_url':url,'what_it_changes':('Seller description: '+pg['description'][:260]) if pg.get('description') else '',
         'supporting_parts':'','where_to_buy':[{'seller':'Cycle Gear','url':url,'price_if_stated':(t.get('price') or '').replace(',','') or None,'currency':'USD','date':pg.get('retrieved') or '2026-10-14'}],
         'rider_feedback':fb,'caveats':(('Retailer fitment notes: '+pg['fitment_notes'][:300]+' ') if pg.get('fitment_notes') else '')+'Fitment as listed by the retailer.',
-        'confidence':'medium'})
+        'confidence':'medium','listed_families':len(fam_of[slug])})
 json.dump({'slice':'Cycle Gear retailer catalog (every brand listed for each bike-year)','source':'https://www.cyclegear.com (server-rendered bike and product pages)',
     'retrieved':'2026-10-14','bikes_read':bikes,'products':recs},open(out_f,'w'))
 c=collections.Counter(r['brand'] for r in recs)

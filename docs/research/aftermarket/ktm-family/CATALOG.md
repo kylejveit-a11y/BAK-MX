@@ -4,7 +4,7 @@ Research candidates gathered from public web sources (manufacturer pages, dealer
 
 Files: cg-ktm-family.json, dealer-ktmtwins.json, dealer-lings.json, ktm-chassis-controls-wheels.json, ktm-engine-clutch-cooling.json, ktm-exhaust-intake-fuel.json, ktm-oem-accessories.json, ktm-rider-feedback.json, ms-ktm-family.json, p2-confirmations.json, p2-controls-wheels-protection.json, p2-engine-clutch-oem.json, p2-exhaust-2stroke-85.json, p2-rider-feedback.json. Built by scripts/aftermarket/build_catalog.py.
 
-Counts: 8738 products, 3291 part numbers, 83 rider/tester findings, 17 project-bike builds, 224 of 224 in-scope bike-years with at least one mapped product.
+Counts: 8738 products, 19510 part numbers, 83 rider/tester findings, 17 project-bike builds, 224 of 224 in-scope bike-years with at least one mapped product.
 
 ## Platforms
 
@@ -61,8 +61,8 @@ Counts: 8738 products, 3291 part numbers, 83 rider/tester findings, 17 project-b
 |---|---|---|---|
 | KTM Twins (official KTM dealer, US) | 968 | 59 | 968 |
 | Lings (KTM/Husqvarna/GasGas dealer, UK) | 1463 | 3 | 1463 |
-| Cycle Gear (retailer, US) | 2729 | 149 | 0 |
-| MotoSport (retailer, US) | 3368 | 229 | 0 |
+| Cycle Gear (retailer, US) | 2729 | 149 | 1205 |
+| MotoSport (retailer, US) | 3368 | 231 | 2249 |
 
 ## Bodywork
 

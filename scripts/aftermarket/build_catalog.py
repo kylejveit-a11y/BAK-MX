@@ -146,13 +146,13 @@ os.makedirs(os.path.join(fam_dir,'bikes'),exist_ok=True)
 byid={p['id']:p for p in products}
 SRC={'ktt-':'KTM Twins','lng-':'Lings','tri-':'Triumph dealer','cg-':'Cycle Gear','ms-':'MotoSport'}
 src_of=lambda p:next((v for k,v in SRC.items() if str(p['id']).startswith(k)),'research')
-# A retailer listing that fits most of the bike-years that retailer was read for is a universal item (oil, grips, batteries):
-# counted on the bike pages and kept in parts.csv, but not listed row by row.
+# A retailer listing carried for three or more make families (KTM group, Triumph, Yamaha, Honda, Kawasaki) is a universal
+# item (oil, grips, batteries): counted on the bike pages and kept in parts.csv, but not listed row by row.
 read_by=collections.defaultdict(set)
 for (mk,model,y),ids in bike.items():
     for i in ids: read_by[src_of(byid[i])].add((mk,model,y))
 nfit=lambda p:sum(len(f.get('years') or []) for f in p.get('fits') or [])
-universal=lambda p:src_of(p) in ('Cycle Gear','MotoSport') and nfit(p)>=0.4*max(1,len(read_by[src_of(p)]))
+universal=lambda p:src_of(p) in ('Cycle Gear','MotoSport') and p.get('listed_families',1)>=3
 def yr(ys):
     ys=sorted(set(ys)); out=[]
     for y in ys:
