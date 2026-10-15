@@ -9,6 +9,7 @@ import {getMechanismLibrary} from '../shared/mechanisms.ts';
 import {setupKnowledge} from '../shared/setup-knowledge.ts';
 import {manufacturerSetupGuidance} from '../shared/manufacturer-setup-guidance.ts';
 import {installedPartsContext,withoutBuildSheet} from './installed-parts-context.ts';
+import {fuelSystem,fuelSystemLabel} from '../shared/fuel-system.ts';
 import {testerBaselines} from './tester-baselines.ts';
 
 /** Published tester settings for this exact bike, or the nearest model year of the same model (marked). Private reasoning context. */
@@ -25,7 +26,7 @@ export function testerBaselinesFor(bike:{manufacturer:string;model:string;model_
  *  3. answer   – one call writes the reply; every factual claim carries a confidence tier
  *  4. check    – code verifies citations and exact published values; one repair attempt, then an honest failure
  *  A backup model is tried when the provider fails. Model names come only from configuration. */
-export const PROMPT_VERSION='mx-engineering-18';
+export const PROMPT_VERSION='mx-engineering-19';
 
 /** How solid a claim is. PUBLISHED must cite retrieved evidence; nothing may be presented above its real tier. */
 export const TIERS=['PUBLISHED','RIDER_SAVED','ENGINEERING','GENERAL','COMMUNITY','UNKNOWN'] as const;
@@ -42,6 +43,7 @@ export function buildEngineeringInput(bike:Bike|null,history:Message[],claims:Cl
   authored_hypotheses:getMechanismLibrary(),
   setup_knowledge:setupKnowledge(),
   bike:bike?{...bike,configuration:withoutBuildSheet(usConfiguration(bike.configuration))}:null,
+  ...(bike?{fuel_system:fuelSystemLabel(fuelSystem(bike.manufacturer,bike.model,bike.model_year))}:{}),
   ...(bike&&installedPartsContext(bike.configuration)?{installed_parts:installedPartsContext(bike.configuration)}:{}),
   ...(bike&&testerBaselinesFor(bike)?{tester_baselines_private:testerBaselinesFor(bike)}:{}),
   ...(setupHistory.length?{recent_setup_results:setupHistory.slice(0,8).map(r=>({date:r.recorded_at.slice(0,10),track:r.track||undefined,conditions:r.conditions||undefined,change:r.change_made||undefined,result:r.result.replace('_',' '),notes:r.notes?r.notes.slice(0,300):undefined}))}:{}),
@@ -166,7 +168,8 @@ TESTER BASELINES (PRIVATE)
 tester_baselines_private holds settings that experienced testers published for this bike (rider weight, pace and conditions where given). It is reasoning context only, never rider-facing: do not state its numbers, do not quote it, do not say a tester, magazine or person runs a setting, and do not present it as a recommendation or as published evidence. Use it to judge direction and size: whether the rider's current settings are far from where experienced riders run this bike, which direction testers commonly move from stock for a rider of similar weight and pace, and which adjusters testers found sensitive on this bike. Express that in your own words ("riders of your weight usually run this shock a little firmer than stock") and keep every concrete step a small move from the rider's own current setting. When its model year differs from the rider's, weigh it less.
 
 INSTALLED PARTS
-installed_parts is the rider's build sheet: parts fitted by system, systems confirmed stock, and systems not recorded. A part changes what applies: stock maps, jetting, clicker baselines and spring advice may no longer fit a modified system, so say when your answer depends on a fitted part. A not_recorded system is unknown, not stock: ask about it only when the answer turns on it. research notes on a part are attributed research (maker claims, tester observations, caveats such as supporting parts, required maps or noise limits): use them, name them as maker claims or tester reports, and never present a claimed gain as measured fact or invent a spec the notes do not give. A part typed by the rider is their description, unverified.
+installed_parts is the rider's build sheet: parts fitted by system, systems confirmed stock, and systems not recorded. A part changes what applies: stock maps, jetting, clicker baselines and spring advice may no longer fit a modified system, so say when your answer depends on a fitted part. A not_recorded system is unknown, not stock: ask about it only when the answer turns on it. research notes on a part are attributed research (maker claims, tester observations, caveats such as supporting parts, required maps or noise limits): use them, name them as maker claims or tester reports, and never present a claimed gain as measured fact or invent a spec the notes do not give. A part typed by the rider is their description, unverified. rider_detail on a part or piece of work is the rider's own note (map name, valving, hours): use it, unverified. A fitted ECU flash, remap or aftermarket ECU means the stock maps and stock fuelling advice no longer apply; ask which map is loaded when it matters.
+fuel_system says whether this bike is fuel injected or carbureted. On a fuel-injected bike never suggest jetting, needle, float or carburetor changes: fuelling changes go through the map switch, the maker's tuning app or tool, an ECU flash or a tuner. On a carbureted bike never suggest ECU maps for fuelling. When it is not on file and the answer turns on it, ask.
 
 SAFETY
 The rider makes every change by hand. Diagnose a fault before tuning around it, and never blame technique while a fault remains unresolved. Do not recommend running a bike with abnormal mechanical noise, oil loss, unsafe brakes, uncontrolled throttle or severe overheating, and do not advise opening a hot pressurised cooling or fuel system. Lean two-stroke jetting that pings or detonates is a stop condition. Keep safety proportionate: one clear line when it matters, not a checklist.

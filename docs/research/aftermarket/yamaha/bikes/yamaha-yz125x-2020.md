@@ -1,6 +1,18 @@
 # Yamaha YZ125X 2020: aftermarket parts
 
-4104 listings whose stated fitment names this bike: 0 researched parts (with what they change and rider findings), 519 dealer and retailer listings specific to this bike, and 3585 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+4111 listings whose stated fitment names this bike: 7 researched parts (with what they change and rider findings), 519 dealer and retailer listings specific to this bike, and 3585 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+
+## Researched parts
+
+| Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
+|---|---|---|---|---|---|---|
+| Vertex | Cast Race Evolution Piston Kit (YZ125, YZ125X) | 24444A, 24444B | Vertex cast 'Race Evolution' two-stroke piston kit. Specs: Compression Ratio STD Cylinder Diameter 54 mm Displacement 125 cc Piston Diameter 53.930mm | Fitment parsed from maker store 'fits models' field; maker data for newest (2023+) KTM-group and 2024+ YZ450F/KX450 platforms not returned by queries. | [All Balls Racing Group (maker store for Hot Cams/Vertex/Cylinder Works)](https://www.allballsracinggroup.com/24444a-cast-race-evolution-piston-kit) | high |
+| FMF | Titanium PowerCore 2.1 silencer - YZ125, YZ125X | 024060 | FMF titanium version of the PowerCore 2.1 two-stroke silencer (lighter canister). | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/titanium-2-024060) | high |
+| FMF | PowerCore 2.1 silencer - YZ125, YZ125X | 024059 | FMF: race-tested smooth power curve, larger canister for tunability and packing life, lighter than stock; fits FMF or stock pipe. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/powercore-2-024059) | high |
+| FMF | Fatty pipe - YZ125, YZ125X | 024049 | FMF: broadens/smooths the curve with gains across the band (low, mid, over-rev); nickel-plated carbon steel; works with FMF or stock silencer unless noted. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/fatty-pipe-024049) | high |
+| FMF | Factory Fatty pipe - YZ125, YZ125X | 024052 | FMF: 'works'/cone-style pipe; broadens and smooths the power curve with more low-end, mid and over-rev; 20-ga body, hand-pounded seams. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/factory-fatty-24052) | high |
+| FMF | PowerCore 2 / Shorty silencer - YZ125, YZ125X | 024009, 024010 | FMF: Shorty has a shorter core and aluminum canister tuned to maximize bottom and mid rpm power (tight tracks/SX). | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/powercore-2-024010) | high |
+| FMF | TurbineCore 2.1 silencer - YZ125, YZ125X | 024061 | FMF: USFS-legal spark-arrestor silencer with Turbine Dampening System; straight-through, claimed unrestricted power. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/turbinecore-2-024061) | high |
 
 ## Dealer and retailer listings for this bike
 
@@ -423,11 +435,11 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
-| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25448-50-00 | 82.83 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25448-50-00-sprocket) |
 | Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25449-50-00 | 84.08 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25449-50-00-sprocket) |
+| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25448-50-00 | 82.83 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25448-50-00-sprocket) |
+| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25452-50-00 | 87.07 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25452-50-00-sprocket) |
 | Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25450-50-00 | 73.12 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25450-50-00-sprocket) |
 | Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25451-50-00 | 86.37 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25451-50-00-sprocket) |
-| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25452-50-00 | 87.07 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25452-50-00-sprocket) |
 
 ### Intake (7)
 
@@ -644,7 +656,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Controls 544, Lights And Electrical 381, Uncategorised 300, Tires 228, Handlebars & Controls 224, Body 194, Tools And Maintenance 171, Graphics 162, Exhaust 158, Engine 142, Suspension 137, Chain & Sprocket 127, Drive 122, Luggage And Racks 106, Brakes 100, Wheels And Rims 70, Vehicle Communication 60, Fuel System 54, Accessories 48, Air & Fuel 33, Batteries & Electrical 32, Utv / Atv Parts 28, Lighting 28, Gauges 28, Bike Protection 26, Skid Plates And Guards 23, Riding Gear 18, Farming And Hunting 13, Body & Fairing 7, Drive & Transmission 6, Intake 6, Filters 3, Helmets 3, Winch And Plow 2, Tire Accessories 1
+Controls 544, Lights And Electrical 381, Uncategorised 300, Tires 228, Handlebars & Controls 224, Body 194, Tools And Maintenance 171, Graphics 162, Exhaust 158, Engine 142, Suspension 137, Chain & Sprocket 127, Drive 122, Luggage And Racks 106, Brakes 100, Wheels And Rims 70, Vehicle Communication 60, Fuel System 54, Accessories 48, Air & Fuel 33, Batteries & Electrical 32, Utv / Atv Parts 28, Lighting 28, Gauges 28, Bike Protection 26, Skid Plates And Guards 23, Riding Gear 18, Farming And Hunting 13, Body & Fairing 7, Intake 6, Drive & Transmission 6, Filters 3, Helmets 3, Winch And Plow 2, Tire Accessories 1
 
-Top brands: Acerbis 144, Pro Taper 129, Turner Performance Products 119, Cycra 118, Motion Pro 116, Rugged Radios 105, Renthal 82, ODI 81, Factory Effex 80, RAM Mounts 73, D'COR Visuals 66, Trail Tech 63, RFX 58, DRC 58, Bolt 54, Quad Lock 53, Fire Power 52, SP Connect 51, Polisport 51, Moose Racing 46, Kriega 44, KTM PowerParts 43, Bolt Hardware 42, Namz Custom Cycle 40, Fastway 37
+Top brands: Acerbis 144, Pro Taper 129, Turner Performance Products 119, Cycra 118, Motion Pro 116, Rugged Radios 105, Renthal 82, ODI 81, Factory Effex 80, RAM Mounts 73, D'COR Visuals 66, Trail Tech 63, DRC 58, RFX 58, Bolt 54, Quad Lock 53, Fire Power 52, Polisport 51, SP Connect 51, Moose Racing 46, Kriega 44, KTM PowerParts 43, Bolt Hardware 42, Namz Custom Cycle 40, Zeta 37
 

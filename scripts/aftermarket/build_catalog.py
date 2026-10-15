@@ -6,6 +6,8 @@ rider-feedback file), normalises each fitment line to the app's bike list (docs/
 links rider feedback to products by brand and product words, and writes CATALOG.md and index.json in the same dir.
 Research candidates only: nothing here is verified evidence or loaded into the app."""
 import json,glob,os,re,sys,collections
+sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
+from textclean import anon,short,brand_name,CARB,INJECTION
 fam_dir,title,makes=sys.argv[1],sys.argv[2],sys.argv[3].split(',')
 root=os.path.dirname(os.path.abspath(fam_dir.rstrip('/')))
 ENDURO_MODELS=re.compile(r'(XC-W|XCF-W|^TE |^FE |^EC |^WR)')   # enduro / trail models are out of the aftermarket scope for now
@@ -52,7 +54,7 @@ def norm_fit(make,text):
         out.add((mk,model))
     return sorted(out)
 products=[];feedback=[];builds=[];gaps=[];notdone=[];platforms=[];updates=[]
-for f in sorted(glob.glob(os.path.join(fam_dir,'*.json'))):
+for f in sorted(glob.glob(os.path.join(fam_dir,'*.json')))+sorted(glob.glob(os.path.join(root,'specialty','*.json'))):
     if f.endswith('index.json'): continue
     d=json.load(open(f)); src=os.path.basename(f)
     for p in d.get('products',[]): p['_file']=src; products.append(p)
@@ -224,9 +226,11 @@ print(len(products),'products',len(feedback),'feedback',len(builds),'builds;',le
 APP_OUT=os.environ.get('APP_OUT')
 if APP_OUT:
     SYSTEMS=['exhaust','suspension','engine','clutch','tuning','intake','gearing','brakes','controls','chassis','wheels','protection','body']
-    JUNK=re.compile(r'\b(tool|tools|stand|lift|wrench|socket|torx|battery|batteries|charger|tender|light|lights|lamp|led|helmet|jersey|glove|gloves|boot|boots|goggle|goggles|decal|decals|graphic|graphics|sticker|backgrounds?|grease|lube|lubricant|cleaner|polish|wash|tie[- ]?downs?|ramp|bag|luggage|backpack|gps|phone|camera|hour ?meter|tach|speedometer|computer|radio|intercom|cover kit|bike cover|muffler plug|exhaust plug|packing|repack|wrap|manual|book|poster|key ?chain|mat|funnel|sealant|thread ?lock|loctite|zip ?ties?|fluid|coolant|oil(?! ?filter)|gift card|t-?shirt|hat|hoodie|sticker|tape(?! grip)|brush|towel|gauge|tie rod|winch|plow|rack|basket(?! clutch)|cooler|mirror|horn|turn signal|license|stand|umbrella)\b',re.I)
-    RULES=[('tuning',r'\b(ecu|e\.c\.u|ignition (?:box|module|curve)|map ?switch|map select|tuner|tuning|fuel controller|power commander|vortex|wi-?fi|connectivity|fi calibration|power tuner|launch control|traction control|engine control|fuel injection kit|injector|throttle body|fuel pump|carburetor|carb\b|jet kit|main jet|pilot jet|needle)'),
+    JUNK=re.compile(r'\b(testers?|diagnostic|timing (?:kit|light)|fuel pack|rotopax|fuel mixture|tool|tools|stand|lift|wrench|socket|torx|battery|batteries|charger|tender|light|lights|lamp|led|helmet|jersey|glove|gloves|boot|boots|goggle|goggles|decal|decals|graphic|graphics|sticker|backgrounds?|grease|lube|lubricant|cleaner|polish|wash|tie[- ]?downs?|ramp|bag|luggage|backpack|gps|phone|camera|hour ?meter|tach|speedometer|computer|radio|intercom|cover kit|bike cover|muffler plug|exhaust plug|packing|repack|wrap|manual|book|poster|key ?chain|mat|funnel|sealant|thread ?lock|loctite|zip ?ties?|fluid|coolant|oil(?! ?filter)|gift card|t-?shirt|hat|hoodie|sticker|tape(?! grip)|brush|towel|gauge|tie rod|winch|plow|rack|basket(?! clutch)|cooler|mirror|horn|turn signal|license|stand|umbrella)\b',re.I)
+    RULES=[('tuning',r'\b(ecu|e\.c\.u|ignition (?:box|module|curve)|map ?switch|map select|tuner|tuning|fuel controller|power commander|programmable ignition|ignition(?! covers?)|re-?flash|remap|wi-?fi|connectivity|fi calibration|power tuner|launch control|traction control|engine control|fuel injection kit|injector|throttle body|fuel pump|carburetor|carb\b|jet kit|main jet|pilot jet|needle)'),
            ('controls',r'\b(handlebars?|fat ?bar|bar pad|grips?|levers?|perch|throttle tube|throttle|foot ?pegs?|pegs?|bar mounts?|bar clamps?|handguards?|hand guards?|brush guards?|kill switch|start button|shift(?:er| lever)|gear lever|brake pedal|kick ?start(?:er)?|hot start|clutch cable|throttle cable|bar riser)\b'),
+           ('protection',r'\b(skid ?plates?|glide ?plates?|bash ?plates?|linkage guards?|link guards?)\b'),
+           ('clutch',r'\bclutch\b(?! (cables?|levers?|perch|perches|guards?|covers? guard))'),
            ('exhaust',r'\b(exhausts?|mufflers?|silencers?|slip-?ons?|head ?pipes?|header|expansion chamber|pipes?|megabomb|spark arrest(?:o|e)r|end ?cap|power ?bomb|tailpipe|resonator)\b'),
            ('suspension',r'\b(forks?|shocks?|springs?|linkage|link arm|pull rod|cartridge|preload|holeshot|start device|launch device|bleeders?|fork seals?|seal kit|dust seals?|suspension|valving|revalve|air fork|fork guard|clickers?|sag|shock bladder|piston kit fork)\b'),
            ('clutch',r'\b(clutch|pressure plate|friction plates?|steel plates?|clutch basket|inner hub|torqdrive|auto ?clutch|slave cylinder)\b'),
@@ -257,7 +261,7 @@ if APP_OUT:
         if brand and n.lower().startswith(str(brand).lower()+' '): n=n[len(brand)+1:]
         m=re.search(r'\s+(?:-\s+|for\s+|\|\s+)?'+MAKES+r'\b[\s/,&+-]*(?:'+MAKES+r'\b[\s/,&+-]*)*.*$',n)
         if m and m.start()>=6: n=n[:m.start()]
-        n=re.sub(r'\s*[-|,/]\s*$','',n).strip()
+        n=re.sub(r'\s*\([^)]*$','',n); n=re.sub(r'\s*[-|,/]\s*$','',n).strip()
         return n[:90] or str(name)[:90]
     SELL={'Cycle Gear':('cg','https://www.cyclegear.com/parts/'),'MotoSport':('ms','https://www.motosport.com/'),'KTM Twins':('kt','https://ktmtwins.com/products/'),
           'Lings':('lg','https://lings.com/products/'),'Triumph dealer':('tr',''),'Yamaha dealer':('ym','https://yamahaonlineparts.com/products/'),'research':('rs','')}
@@ -269,18 +273,13 @@ if APP_OUT:
         return bidx[k]
     items=[];ikey={};bikes_out={}
     # testers and magazines are never named to riders: their findings read as "testers found"
-    NAMES=re.compile(r"\b(Kris Keefer|Keefer Inc\.? Testing|Keefer|Motocross Action \(MXA\)|Motocross Action|MXA|Vital MX|Dirt Bike Test|Dirt Bike magazine|Dirt Bike|Bones Bacon|Cycle News|Racer X|Swapmoto Live|Swapmoto|Transmoto|MotoOnline|Ultimate Motorcycling|Dirt Rider|Dirt Action|PulpMX)('s)?\b")
-    def anon(s):
-        s=re.sub(r'\s*\((?:[^)]*\b(?:pass-?\d|item|record|id)\b[^)]*)\)','',s,flags=re.I)   # internal research references
-        s=re.sub(r'\btesters?( testers?)+\b','testers',NAMES.sub('testers',s))
-        return re.sub(r'(^|[.!?]\s+)testers\b',lambda m:m.group(1)+'Testers',s)
-    def short(s,n): s=anon(re.sub(r'\s+',' ',str(s or '')).strip().replace(' at capture',' when checked')); return s if len(s)<=n else s[:n-1].rsplit(' ',1)[0]+'…'
+    # testers and magazines are never named to riders (textclean.anon)
     for (mk,model,y),ids in sorted(bike.items()):
         lst=set()
         for i in ids:
             p=byid[i]; s=system_of(p)
             if not s: continue
-            src=src_of(p); b=bi(p.get('brand')); pns=sorted(p.get('part_numbers') or [])
+            src=src_of(p); b=bi(brand_name(p.get('brand')) if src=='research' else p.get('brand')); pns=sorted(p.get('part_numbers') or [])
             name=clean(brands[b],p.get('product'))
             key=(b,tuple(pns)) if pns else (b,re.sub(r'[^a-z0-9]','',name.lower()))
             if key not in ikey:
@@ -289,7 +288,7 @@ if APP_OUT:
             if src=='research':
                 it['r']=p['id']; it['n']=name; it['conf']=p.get('confidence')
                 it['w']=short(p.get('what_it_changes'),220); it['c']=short(' '.join((' '.join(map(str,x)) if isinstance(x,list) else str(x)) for x in (p.get('supporting_parts'),p.get('caveats')) if x),220)
-                fb=[short(x.get('observed'),160) for x in p.get('_feedback',[]) if x.get('observed')][:2]
+                fb=[short(x.get('observed'),160) for x in p.get('_feedback',[]) if x.get('observed')][:2] or [short(x,160) for x in (p.get('rider_feedback') or []) if isinstance(x,str) and x.strip()][:2]
                 if fb: it['t']=fb
                 if not it['p'] and pns: it['p']=' '.join(pns)[:80]
             code,base=SELL.get(src,('rs',''))
@@ -297,6 +296,9 @@ if APP_OUT:
             path=url[len(base):] if base and url.startswith(base) else url
             if src=='research' and path and len(it['u'])<2 and all(c!=code for c,_,_ in it['u']):
                 pr=w.get('price_if_stated'); it['u'].append((code,path,anon((str(pr)+' '+(w.get('currency') or '')).strip()) if pr else ''))
+            if p.get('is_service'): it['sv']=1
+            if s in ('tuning','intake','engine') and CARB.search(name+' '+str(p.get('subcategory') or '')) and not INJECTION.search(name): it['k']='c'
+            elif s=='tuning' and INJECTION.search(name+' '+str(p.get('subcategory') or '')): it['k']='i'
             lst.add(ikey[key])
         srt=sorted(lst); bikes_out[f'{mk}|{model}|{y}']=[v-(srt[i-1] if i else 0) for i,v in enumerate(srt)]  # delta-encoded item indexes
     out_items=[]
@@ -304,7 +306,7 @@ if APP_OUT:
         o={'b':it['b'],'n':it['n'],'s':it['s']}
         if it['p']:o['p']=it['p']
         if it['u']:o['u']=[[c,pth]+([pr] if pr else []) for c,pth,pr in it['u']]
-        for k in ('r','conf','w','c','t'):
+        for k in ('r','conf','w','c','t','sv','k'):
             if it.get(k):o[k]=it[k]
         out_items.append(o)
     fam=os.path.basename(fam_dir.rstrip('/'))

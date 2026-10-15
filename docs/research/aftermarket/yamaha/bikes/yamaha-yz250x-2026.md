@@ -1,12 +1,16 @@
 # Yamaha YZ250X 2026: aftermarket parts
 
-4044 listings whose stated fitment names this bike: 2 researched parts (with what they change and rider findings), 429 dealer and retailer listings specific to this bike, and 3613 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+4048 listings whose stated fitment names this bike: 6 researched parts (with what they change and rider findings), 429 dealer and retailer listings specific to this bike, and 3613 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
+| EBC | MXS755 Race Series Front Brake Pads | MXS755 | Listing: race-only sintered copper pad with sharp initial bite for fast riders. | Retailer list mixes Nissin- and Brembo-equipped bikes and differs from FA755R list; check EBC catalogue. | [J&P Cycles](https://www.jpcycles.com/product/ebc-mxs755-race-series-front-brake-pads) | medium |
+| FMF | TurbineCore 2.1 silencer - YZ250X | 024067, 024091 | FMF: USFS-legal spark-arrestor silencer with Turbine Dampening System; straight-through, claimed unrestricted power. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/titanium-powercore-2-1-024091) | high |
+| FMF | Gnarly pipe - YZ250, YZ250X | 024054 | FMF: built to add low-rpm horsepower and torque ('4-stroke tractor-like' pull) for off-road; 18-gauge steel, nickel plated. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/gnarly-pipe-024054) | high |
 | FMF | Gnarly Pipe | 024054 | FMF claims it focuses 'on increasing the lower RPM horsepower and torque' with 'bottom to mid range pull' (off-road oriented). | Sold out at capture; page compare-at price ($171.59) looks erroneous. | [FMF](https://www.fmfracing.com/products/gnarly-pipe-024054) | high |
+| Pro Circuit | Works Champ Pipe YZ250 '02-26 / YZ250X '23-26 | 0732525 | Pro Circuit describes Works pipes as having a raw 'Works Look' finish; no performance claim on page. | Silencer sold separately (304/R-304/Ti-2 options). | [Pro Circuit](https://www.procircuit.com/champ-pipe-yz250-02-26) | high |
 | Pro Circuit | Works Champ Pipe | 0732525 | No claims on page. |  | [Pro Circuit](https://www.procircuit.com/works-yamaha) | high |
 
 ## Dealer and retailer listings for this bike
@@ -552,5 +556,5 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 Controls 546, Lights And Electrical 381, Uncategorised 323, Handlebars & Controls 221, Tires 219, Body 190, Tools And Maintenance 172, Graphics 164, Exhaust 156, Engine 141, Suspension 134, Chain & Sprocket 123, Drive 123, Luggage And Racks 106, Brakes 90, Wheels And Rims 67, Vehicle Communication 60, Fuel System 54, Accessories 48, Air & Fuel 47, Batteries & Electrical 37, Utv / Atv Parts 33, Gauges 32, Lighting 30, Bike Protection 29, Skid Plates And Guards 25, Riding Gear 18, Farming And Hunting 13, Body & Fairing 8, Drive & Transmission 7, Intake 6, Filters 4, Helmets 3, Winch And Plow 2, Tire Accessories 1
 
-Top brands: Acerbis 143, Pro Taper 122, Motion Pro 118, Cycra 118, Turner Performance Products 115, Rugged Radios 105, Renthal 83, ODI 82, Factory Effex 80, RAM Mounts 73, D'COR Visuals 65, Trail Tech 64, DRC 58, Bolt Hardware 56, Fire Power 54, Quad Lock 53, Bolt 53, RFX 52, SP Connect 51, Moose Racing 49, Kriega 45, Polisport 45, KTM PowerParts 43, Zeta 42, Namz Custom Cycle 40
+Top brands: Acerbis 143, Pro Taper 122, Motion Pro 118, Cycra 118, Turner Performance Products 115, Rugged Radios 105, Renthal 83, ODI 82, Factory Effex 80, RAM Mounts 73, D'COR Visuals 65, Trail Tech 64, DRC 58, Bolt Hardware 56, Fire Power 54, Bolt 53, Quad Lock 53, RFX 52, SP Connect 51, Moose Racing 49, Kriega 45, Polisport 45, KTM PowerParts 43, Zeta 42, Namz Custom Cycle 40
 

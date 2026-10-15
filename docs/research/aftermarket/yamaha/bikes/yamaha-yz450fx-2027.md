@@ -1,11 +1,12 @@
 # Yamaha YZ450FX 2027: aftermarket parts
 
-3620 listings whose stated fitment names this bike: 1 researched parts (with what they change and rider findings), 62 dealer and retailer listings specific to this bike, and 3557 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+3621 listings whose stated fitment names this bike: 2 researched parts (with what they change and rider findings), 62 dealer and retailer listings specific to this bike, and 3557 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
+| Works Chassis Lab | Titanium Top Engine Hangers (Yamaha) |  | Test: calmer, flatter over decel chop with less rear pitch; tracks straighter under acceleration; better straight-line stability and cornering without major loss of nimbleness. | Open-ended year range ('2023+') truncated to 2027. Brand outside requested list. Article undated in capture. | [Works Chassis Lab (MSRP via DirtBikeTest)](https://dirtbiketest.com/product-tests/works-chassis-labs-yamaha-engine-mounts/) | medium |
 | Rekluse | TorqDrive Clutch Pack - YAM 450F 23 | RMS-2807176 | Rekluse claims additional friction disks give 'an average of a 25% gain in torque capacity over stock', about 10% lower lever effort, and 'Virtually eliminates clutch fade.' | Not a replacement pack for RadiusX/RadiusCX/Core Manual TorqDrive. The YZ250F listing in its fitment tab conflicts with the product title; confirm before use. | [Rekluse](https://www.rekluse.com/product/manual-clutches/torq-drive-clutch-pack/torqdrive-clutch-pack-yam-450f-23/) | high |
 
 ## Dealer and retailer listings for this bike
@@ -146,7 +147,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Controls 513, Lights And Electrical 381, Uncategorised 335, Handlebars & Controls 230, Tires 219, Body 186, Exhaust 178, Tools And Maintenance 173, Graphics 161, Chain & Sprocket 128, Drive 125, Engine 121, Suspension 107, Luggage And Racks 106, Brakes 67, Wheels And Rims 66, Vehicle Communication 60, Fuel System 55, Accessories 48, Air & Fuel 44, Batteries & Electrical 43, Lighting 34, Gauges 32, Utv / Atv Parts 31, Bike Protection 29, Skid Plates And Guards 21, Riding Gear 18, Farming And Hunting 13, Body & Fairing 9, Drive & Transmission 7, Intake 7, Filters 4, Helmets 3, Winch And Plow 2, Tire Accessories 1
+Controls 513, Lights And Electrical 381, Uncategorised 335, Handlebars & Controls 230, Tires 219, Body 186, Exhaust 178, Tools And Maintenance 173, Graphics 161, Chain & Sprocket 128, Drive 125, Engine 121, Suspension 107, Luggage And Racks 106, Brakes 67, Wheels And Rims 66, Vehicle Communication 60, Fuel System 55, Accessories 48, Air & Fuel 44, Batteries & Electrical 43, Lighting 34, Gauges 32, Utv / Atv Parts 31, Bike Protection 29, Skid Plates And Guards 21, Riding Gear 18, Farming And Hunting 13, Body & Fairing 9, Intake 7, Drive & Transmission 7, Filters 4, Helmets 3, Winch And Plow 2, Tire Accessories 1
 
-Top brands: Acerbis 144, Pro Taper 126, Cycra 118, Motion Pro 114, Rugged Radios 105, Turner Performance Products 88, Renthal 85, Factory Effex 82, ODI 78, RAM Mounts 74, RFX 66, D'COR Visuals 65, Trail Tech 61, Bolt Hardware 58, DRC 57, Fire Power 54, Bolt 54, Quad Lock 53, SP Connect 51, Moose Racing 49, Kriega 45, KTM PowerParts 43, Polisport 42, Zeta 42, Namz Custom Cycle 40
+Top brands: Acerbis 144, Pro Taper 126, Cycra 118, Motion Pro 114, Rugged Radios 105, Turner Performance Products 88, Renthal 85, Factory Effex 82, ODI 78, RAM Mounts 74, RFX 66, D'COR Visuals 65, Trail Tech 61, Bolt Hardware 58, DRC 57, Bolt 54, Fire Power 54, Quad Lock 53, SP Connect 51, Moose Racing 49, Kriega 45, KTM PowerParts 43, Polisport 42, Zeta 42, Namz Custom Cycle 40
 

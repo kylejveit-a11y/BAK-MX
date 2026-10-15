@@ -1,11 +1,14 @@
 # Yamaha YZ250X 2027: aftermarket parts
 
-2911 listings whose stated fitment names this bike: 1 researched parts (with what they change and rider findings), 295 dealer and retailer listings specific to this bike, and 2615 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+2914 listings whose stated fitment names this bike: 4 researched parts (with what they change and rider findings), 295 dealer and retailer listings specific to this bike, and 2615 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
+| EBC | MXS755 Race Series Front Brake Pads | MXS755 | Listing: race-only sintered copper pad with sharp initial bite for fast riders. | Retailer list mixes Nissin- and Brembo-equipped bikes and differs from FA755R list; check EBC catalogue. | [J&P Cycles](https://www.jpcycles.com/product/ebc-mxs755-race-series-front-brake-pads) | medium |
+| FMF | TurbineCore 2.1 silencer - YZ250X | 024067, 024091 | FMF: USFS-legal spark-arrestor silencer with Turbine Dampening System; straight-through, claimed unrestricted power. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/titanium-powercore-2-1-024091) | high |
+| FMF | Gnarly pipe - YZ250, YZ250X | 024054 | FMF: built to add low-rpm horsepower and torque ('4-stroke tractor-like' pull) for off-road; 18-gauge steel, nickel plated. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/gnarly-pipe-024054) | high |
 | FMF | Gnarly Pipe | 024054 | FMF claims it focuses 'on increasing the lower RPM horsepower and torque' with 'bottom to mid range pull' (off-road oriented). | Sold out at capture; page compare-at price ($171.59) looks erroneous. | [FMF](https://www.fmfracing.com/products/gnarly-pipe-024054) | high |
 
 ## Dealer and retailer listings for this bike
@@ -408,7 +411,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Controls 544, Lights And Electrical 381, Tires 219, Body 188, Tools And Maintenance 172, Graphics 164, Engine 141, Drive 122, Suspension 112, Luggage And Racks 106, Brakes 86, Exhaust 81, Wheels And Rims 67, Vehicle Communication 60, Fuel System 54, Accessories 48, Skid Plates And Guards 25, Riding Gear 18, Farming And Hunting 13, Intake 6, Helmets 3, Uncategorised 2, Winch And Plow 2, Bike Protection 1
+Controls 544, Lights And Electrical 381, Tires 219, Body 188, Tools And Maintenance 172, Graphics 164, Engine 141, Drive 122, Suspension 112, Luggage And Racks 106, Brakes 86, Exhaust 81, Wheels And Rims 67, Vehicle Communication 60, Fuel System 54, Accessories 48, Skid Plates And Guards 25, Riding Gear 18, Farming And Hunting 13, Intake 6, Helmets 3, Winch And Plow 2, Uncategorised 2, Bike Protection 1
 
-Top brands: Turner Performance Products 115, Rugged Radios 105, Motion Pro 96, Acerbis 86, RAM Mounts 72, D'COR Visuals 65, Cycra 65, Pro Taper 62, Factory Effex 58, Trail Tech 55, Quad Lock 53, Bolt 53, SP Connect 51, DRC 51, Kriega 43, ODI 43, KTM PowerParts 43, Namz Custom Cycle 40, Renthal 38, Fastway 37, Ride Engineering 35, Shinko 34, RFX 32, Giant Loop 32, Kenda 31
+Top brands: Turner Performance Products 115, Rugged Radios 105, Motion Pro 96, Acerbis 86, RAM Mounts 72, D'COR Visuals 65, Cycra 65, Pro Taper 62, Factory Effex 58, Trail Tech 55, Bolt 53, Quad Lock 53, DRC 51, SP Connect 51, Kriega 43, KTM PowerParts 43, ODI 43, Namz Custom Cycle 40, Renthal 38, Fastway 37, Ride Engineering 35, Shinko 34, RFX 32, Giant Loop 32, Husqvarna Technical Accessories 31
 

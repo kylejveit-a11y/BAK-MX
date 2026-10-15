@@ -1,12 +1,16 @@
 # Yamaha YZ250X 2023: aftermarket parts
 
-1157 listings whose stated fitment names this bike: 3 researched parts (with what they change and rider findings), 179 dealer and retailer listings specific to this bike, and 975 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1161 listings whose stated fitment names this bike: 7 researched parts (with what they change and rider findings), 179 dealer and retailer listings specific to this bike, and 975 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
+| EBC | MXS755 Race Series Front Brake Pads | MXS755 | Listing: race-only sintered copper pad with sharp initial bite for fast riders. | Retailer list mixes Nissin- and Brembo-equipped bikes and differs from FA755R list; check EBC catalogue. | [J&P Cycles](https://www.jpcycles.com/product/ebc-mxs755-race-series-front-brake-pads) | medium |
 | FMF | Gnarly Pipe | 024054 | FMF claims it focuses 'on increasing the lower RPM horsepower and torque' with 'bottom to mid range pull' (off-road oriented). | Sold out at capture; page compare-at price ($171.59) looks erroneous. | [FMF](https://www.fmfracing.com/products/gnarly-pipe-024054) | high |
+| FMF | TurbineCore 2.1 silencer - YZ250X | 024067, 024091 | FMF: USFS-legal spark-arrestor silencer with Turbine Dampening System; straight-through, claimed unrestricted power. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/titanium-powercore-2-1-024091) | high |
+| FMF | Gnarly pipe - YZ250, YZ250X | 024054 | FMF: built to add low-rpm horsepower and torque ('4-stroke tractor-like' pull) for off-road; 18-gauge steel, nickel plated. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/gnarly-pipe-024054) | high |
+| Pro Circuit | Works Champ Pipe YZ250 '02-26 / YZ250X '23-26 | 0732525 | Pro Circuit describes Works pipes as having a raw 'Works Look' finish; no performance claim on page. | Silencer sold separately (304/R-304/Ti-2 options). | [Pro Circuit](https://www.procircuit.com/champ-pipe-yz250-02-26) | high |
 | Pro Circuit | Works Champ Pipe | 0732525 | No claims on page. |  | [Pro Circuit](https://www.procircuit.com/works-yamaha) | high |
 | Pro Circuit | Works Pipe | PY05250 | No claims on page. |  | [Pro Circuit](https://www.procircuit.com/works-yamaha) | high |
 
@@ -253,7 +257,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Uncategorised 319, Handlebars & Controls 221, Chain & Sprocket 128, Exhaust 71, Air & Fuel 44, Batteries & Electrical 40, Lighting 34, Utv / Atv Parts 31, Gauges 29, Bike Protection 25, Suspension 18, Body & Fairing 7, Filters 4, Drive & Transmission 4
+Uncategorised 319, Handlebars & Controls 221, Chain & Sprocket 128, Exhaust 71, Air & Fuel 44, Batteries & Electrical 40, Lighting 34, Utv / Atv Parts 31, Gauges 29, Bike Protection 25, Suspension 18, Body & Fairing 7, Drive & Transmission 4, Filters 4
 
-Top brands: Pro Taper 65, Acerbis 55, Bolt Hardware 53, Cycra 49, Moose Racing 48, ODI 45, Zeta 43, Renthal 40, Fire Power 34, Helix Racing Products 31, RK 29, Barkbusters 24, Namz 23, Factory Effex 22, RFX 21, EK Chain 20, K&N 20, FMF 19, Polisport 17, Motion Pro 16, Koso 14, Motolis 12, DID Chain 12, Pro Grip 12, BikeMaster 11
+Top brands: Pro Taper 65, Acerbis 55, Bolt Hardware 53, Cycra 49, Moose Racing 48, ODI 45, Zeta 43, Renthal 40, Fire Power 34, Helix Racing Products 31, RK 29, Barkbusters 24, Namz 23, Factory Effex 22, RFX 21, EK Chain 20, K&N 20, FMF 19, Polisport 17, Motion Pro 16, Koso 14, Pro Grip 12, DID Chain 12, Motolis 12, BikeMaster 11
 

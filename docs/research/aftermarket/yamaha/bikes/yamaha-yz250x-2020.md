@@ -1,11 +1,13 @@
 # Yamaha YZ250X 2020: aftermarket parts
 
-3299 listings whose stated fitment names this bike: 2 researched parts (with what they change and rider findings), 582 dealer and retailer listings specific to this bike, and 2715 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+3301 listings whose stated fitment names this bike: 4 researched parts (with what they change and rider findings), 582 dealer and retailer listings specific to this bike, and 2715 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
+| FMF | TurbineCore 2.1 silencer - YZ250X | 024067, 024091 | FMF: USFS-legal spark-arrestor silencer with Turbine Dampening System; straight-through, claimed unrestricted power. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/titanium-powercore-2-1-024091) | high |
+| FMF | Gnarly pipe - YZ250, YZ250X | 024054 | FMF: built to add low-rpm horsepower and torque ('4-stroke tractor-like' pull) for off-road; 18-gauge steel, nickel plated. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/gnarly-pipe-024054) | high |
 | FMF | Gnarly Pipe | 024054 | FMF claims it focuses 'on increasing the lower RPM horsepower and torque' with 'bottom to mid range pull' (off-road oriented). | Sold out at capture; page compare-at price ($171.59) looks erroneous. | [FMF](https://www.fmfracing.com/products/gnarly-pipe-024054) | high |
 | Pro Circuit | Works Pipe | PY05250 | No claims on page. |  | [Pro Circuit](https://www.procircuit.com/works-yamaha) | high |
 
@@ -713,7 +715,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Controls 548, Lights And Electrical 381, Tires 219, Body 198, Tools And Maintenance 172, Graphics 164, Engine 144, Drive 126, Suspension 118, Luggage And Racks 106, Brakes 99, Exhaust 82, Wheels And Rims 68, Vehicle Communication 60, Fuel System 54, Accessories 48, Skid Plates And Guards 24, Chain & Sprocket 19, Riding Gear 18, Handlebars & Controls 18, Uncategorised 16, Farming And Hunting 13, Intake 6, Helmets 3, Gauges 2, Bike Protection 2, Winch And Plow 2, Batteries & Electrical 2, Utv / Atv Parts 2, Drive & Transmission 1
+Controls 548, Lights And Electrical 381, Tires 219, Body 198, Tools And Maintenance 172, Graphics 164, Engine 144, Drive 126, Suspension 118, Luggage And Racks 106, Brakes 99, Exhaust 82, Wheels And Rims 68, Vehicle Communication 60, Fuel System 54, Accessories 48, Skid Plates And Guards 24, Chain & Sprocket 19, Riding Gear 18, Handlebars & Controls 18, Uncategorised 16, Farming And Hunting 13, Intake 6, Helmets 3, Winch And Plow 2, Bike Protection 2, Gauges 2, Utv / Atv Parts 2, Batteries & Electrical 2, Drive & Transmission 1
 
 Top brands: Turner Performance Products 121, Rugged Radios 105, Motion Pro 98, Acerbis 93, Pro Taper 73, RAM Mounts 72, Cycra 68, D'COR Visuals 65, Factory Effex 59, Trail Tech 57, Bolt 54, Quad Lock 53, DRC 52, SP Connect 51, ODI 46, Kriega 43, KTM PowerParts 43, Renthal 42, Namz Custom Cycle 40, Fastway 37, Ride Engineering 36, Shinko 34, RFX 33, Polisport 32, Giant Loop 32
 

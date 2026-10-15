@@ -1,6 +1,13 @@
 # Yamaha YZ250FX 2027: aftermarket parts
 
-3861 listings whose stated fitment names this bike: 0 researched parts (with what they change and rider findings), 333 dealer and retailer listings specific to this bike, and 3528 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+3863 listings whose stated fitment names this bike: 2 researched parts (with what they change and rider findings), 333 dealer and retailer listings specific to this bike, and 3528 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+
+## Researched parts
+
+| Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
+|---|---|---|---|---|---|---|
+| EBC | MXS755 Race Series Front Brake Pads | MXS755 | Listing: race-only sintered copper pad with sharp initial bite for fast riders. | Retailer list mixes Nissin- and Brembo-equipped bikes and differs from FA755R list; check EBC catalogue. | [J&P Cycles](https://www.jpcycles.com/product/ebc-mxs755-race-series-front-brake-pads) | medium |
+| No Toil | Super Flo Replacement Air Filter - Yamaha YZ250F/YZ450F/FX |  | No Toil: 'more air for more horsepower'; flame-resistant inner lining, pre-oiled with Evolution oil. |  | [Cycle Gear](https://www.cyclegear.com/parts/no-toil-super-flo-replacement-air-filter-yamaha-wr250f-wr450f-yz250f-fx-yz450f-fx-2023-2025) | medium |
 
 ## Dealer and retailer listings for this bike
 
@@ -455,7 +462,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Controls 504, Lights And Electrical 381, Uncategorised 307, Tires 229, Handlebars & Controls 216, Body 194, Exhaust 177, Tools And Maintenance 173, Graphics 161, Engine 135, Chain & Sprocket 133, Suspension 118, Drive 116, Luggage And Racks 106, Brakes 81, Wheels And Rims 69, Vehicle Communication 60, Fuel System 54, Accessories 48, Air & Fuel 44, Batteries & Electrical 35, Lighting 31, Gauges 28, Bike Protection 25, Skid Plates And Guards 22, Utv / Atv Parts 21, Riding Gear 18, Farming And Hunting 13, Body & Fairing 7, Drive & Transmission 7, Intake 7, Helmets 3, Filters 2, Winch And Plow 2, Tire Accessories 1
+Controls 504, Lights And Electrical 381, Uncategorised 307, Tires 229, Handlebars & Controls 216, Body 194, Exhaust 177, Tools And Maintenance 173, Graphics 161, Engine 135, Chain & Sprocket 133, Suspension 118, Drive 116, Luggage And Racks 106, Brakes 81, Wheels And Rims 69, Vehicle Communication 60, Fuel System 54, Accessories 48, Air & Fuel 44, Batteries & Electrical 35, Lighting 31, Gauges 28, Bike Protection 25, Skid Plates And Guards 22, Utv / Atv Parts 21, Riding Gear 18, Farming And Hunting 13, Intake 7, Body & Fairing 7, Drive & Transmission 7, Helmets 3, Winch And Plow 2, Filters 2, Tire Accessories 1
 
-Top brands: Acerbis 146, Pro Taper 123, Motion Pro 114, Cycra 112, Rugged Radios 105, Turner Performance Products 102, Factory Effex 83, Renthal 80, ODI 76, RAM Mounts 74, D'COR Visuals 65, Trail Tech 61, DRC 58, Fire Power 56, Bolt 55, Quad Lock 53, Moose Racing 52, RFX 51, SP Connect 51, Bolt Hardware 51, Kriega 45, KTM PowerParts 43, Polisport 42, Namz Custom Cycle 40, FMF 37
+Top brands: Acerbis 146, Pro Taper 123, Motion Pro 114, Cycra 112, Rugged Radios 105, Turner Performance Products 102, Factory Effex 83, Renthal 80, ODI 76, RAM Mounts 74, D'COR Visuals 65, Trail Tech 61, DRC 58, Fire Power 56, Bolt 55, Quad Lock 53, Moose Racing 52, Bolt Hardware 51, RFX 51, SP Connect 51, Kriega 45, KTM PowerParts 43, Polisport 42, Namz Custom Cycle 40, Zeta 37
 

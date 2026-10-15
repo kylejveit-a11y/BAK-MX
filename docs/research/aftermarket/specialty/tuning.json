@@ -1,0 +1,2003 @@
+{
+  "slice": "specialty ecu and fuel tuning",
+  "products": [
+    {
+      "category": "tuning",
+      "part_numbers": [],
+      "variants": [],
+      "fits": [
+        {
+          "make": "KTM",
+          "model": "250 SX",
+          "years": [
+            2024
+          ],
+          "notes": "MXA test bike; mapped for stock pipe/silencer"
+        },
+        {
+          "make": "KTM",
+          "model": "300 SX",
+          "years": [
+            2023,
+            2024
+          ],
+          "notes": "2023 per Keefer test; 2024 per MXA test"
+        },
+        {
+          "make": "Husqvarna",
+          "model": "TC 250",
+          "years": [],
+          "notes": "MXA says 250 two-strokes from Husqvarna are covered; years not stated"
+        },
+        {
+          "make": "GasGas",
+          "model": "MC 250",
+          "years": [],
+          "notes": "MXA says 250 two-strokes from GasGas are covered; years not stated"
+        }
+      ],
+      "supporting_parts": "Map built for the rider's exhaust; maps offered for stock, FMF, Pro Circuit and DR.D pipes (MXA).",
+      "where_to_buy": [
+        {
+          "seller": "Twisted Development (phone 951-698-7222, sales@td-racing.com)",
+          "url": "https://motocrossactionmag.com/mxa-team-tested-tds-ktm-250-300-remapped-ecu",
+          "price_if_stated": "$349.50",
+          "currency": "USD",
+          "date": "2024-06-25"
+        },
+        {
+          "seller": "Twisted Development (per Keefer Inc. Testing)",
+          "url": "https://www.keeferinctesting.com/2023-ktm-300-sx-ecu-remap-tune",
+          "price_if_stated": "$299.99",
+          "currency": "USD",
+          "date": "2023-06-07"
+        }
+      ],
+      "rider_feedback": [
+        "MXA (2024-06-25): vet testers preferred white map, pros the green map; called it a 'no-brainer' for the price.",
+        "Keefer (2023-06-07): 'completely different' 300 SX character, still lugs like a four-stroke."
+      ],
+      "caveats": "Requires booking an appointment, then mailing the stock ECU; returned remapped. MXA says Jamie Ellis cracked the locked stock ECU, and that previously these bikes needed a Vortex ECU to remap. Twisted's own site (td-racing.com) could not be fetched, so details come from magazine tests.",
+      "is_service": true,
+      "subcategory": "ECU flash service",
+      "brand": "Twisted Development",
+      "product": "Stock ECU remap (KTM/Husqvarna/GasGas two-stroke TBI)",
+      "fitment_source_url": "https://motocrossactionmag.com/mxa-team-tested-tds-ktm-250-300-remapped-ecu",
+      "what_it_changes": "Per MXA: sharper throttle response and more mid-to-top pull while keeping low end easy; stock map button selects aggressive (green) or mellow (white) map. Per Keefer: crisper low-rpm response and stronger midrange on the 2023 300 SX.",
+      "confidence": "medium",
+      "id": "tn-001"
+    },
+    {
+      "category": "tuning",
+      "part_numbers": [],
+      "variants": [
+        "New Vortex ECU with custom 10-map setup: $1,059.99",
+        "Re-map of an existing Vortex ECU: $400"
+      ],
+      "fits": [
+        {
+          "make": "Kawasaki",
+          "model": "KX450",
+          "years": [
+            2024,
+            2025
+          ],
+          "notes": "MXA test bike; MXA says the ECU can be moved to later years/other brands, but Yamaha needs a special Vortex model"
+        }
+      ],
+      "supporting_parts": "Tell Twisted which exhaust is fitted; test bike used Pro Circuit Ti-6 (Map 6 recommended for it).",
+      "where_to_buy": [
+        {
+          "seller": "Twisted Development (td-racing.com, 951-698-7222)",
+          "url": "https://motocrossactionmag.com/mxa-team-tested-twisted-development-kx450-vortex-ecu",
+          "price_if_stated": "$1,059.99",
+          "currency": "USD",
+          "date": "2024-10-31"
+        }
+      ],
+      "rider_feedback": [
+        "MXA (2024-10-31): third gear became usable in corners; maps cannot be changed while riding."
+      ],
+      "caveats": "Map change only when stopped. Prices from MXA article, not Twisted's own site.",
+      "is_service": false,
+      "subcategory": "aftermarket ECU",
+      "brand": "Twisted Development / Vortex",
+      "product": "Vortex X10 ECU with Twisted Development custom mapping (Kawasaki KX450)",
+      "fitment_source_url": "https://motocrossactionmag.com/mxa-team-tested-twisted-development-kx450-vortex-ecu",
+      "what_it_changes": "Fuel and ignition timing via 10 custom maps chosen by dial (stock bar switch flashes current map); Lo/Mid/Hi fuel trims at ~2.5% per click. MXA estimated ~20% more power mostly off-bottom, cleaner delivery.",
+      "confidence": "medium",
+      "id": "tn-002"
+    },
+    {
+      "category": "tuning",
+      "part_numbers": [],
+      "variants": [
+        "Stock ECU remap: $250.00",
+        "Vortex ECU $699.95 + mapping $250 = $945.95"
+      ],
+      "fits": [
+        {
+          "make": "Kawasaki",
+          "model": "KX250",
+          "years": [
+            2020
+          ],
+          "notes": "MXA test bike"
+        }
+      ],
+      "supporting_parts": "",
+      "where_to_buy": [
+        {
+          "seller": "Twisted Development",
+          "url": "https://motocrossactionmag.com/mxa-team-tested-twisted-development-2020-kx250-mapping",
+          "price_if_stated": "$250.00 (remap) / $945.95 (with Vortex)",
+          "currency": "USD",
+          "date": "2020-07-28"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "2020 pricing; Twisted starts from a base map per bike and adjusts to rider, terrain and mods.",
+      "is_service": true,
+      "subcategory": "ECU flash service",
+      "brand": "Twisted Development",
+      "product": "Stock ECU remap and Vortex ECU mapping (Kawasaki KX250)",
+      "fitment_source_url": "https://motocrossactionmag.com/mxa-team-tested-twisted-development-2020-kx250-mapping",
+      "what_it_changes": "Stock remap: more bottom/midrange, less decompression braking. Vortex remap: stronger corner exits, sharper response, engine braking tuned per rider (MXA).",
+      "confidence": "medium",
+      "id": "tn-003"
+    },
+    {
+      "category": "tuning",
+      "part_numbers": [],
+      "variants": [],
+      "fits": [
+        {
+          "make": "Kawasaki",
+          "model": "KX450",
+          "years": [
+            2020
+          ],
+          "notes": "Keefer test bike"
+        }
+      ],
+      "supporting_parts": "Tested together with Pro Circuit Ti-6 exhaust.",
+      "where_to_buy": [
+        {
+          "seller": "Pro Circuit",
+          "url": "https://www.keeferinctesting.com/?p=13256",
+          "price_if_stated": "",
+          "currency": "USD",
+          "date": "2019-12-13"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Price, ordering process and other model coverage not stated; only one magazine mention found.",
+      "is_service": true,
+      "subcategory": "ECU flash service",
+      "brand": "Pro Circuit",
+      "product": "ECU re-map of stock ECU",
+      "fitment_source_url": "https://www.keeferinctesting.com/?p=13256",
+      "what_it_changes": "Per Keefer: softened second-gear hit for a torquier feel, better traction and more use of third gear.",
+      "confidence": "unverified",
+      "id": "tn-004"
+    },
+    {
+      "category": "tuning",
+      "part_numbers": [
+        "55-335-ECU-13"
+      ],
+      "variants": [],
+      "fits": [
+        {
+          "make": "Yamaha",
+          "model": "YZ450F",
+          "years": [
+            2026
+          ],
+          "notes": "Dealer listing title; select bike/year on page to confirm"
+        }
+      ],
+      "supporting_parts": "Reprogramming software and interface not included; uses stock handlebar switches.",
+      "where_to_buy": [
+        {
+          "seller": "TokyoMods",
+          "url": "https://tokyomods.com/vortex-x10-ecu-yamaha-yz450f-2026/",
+          "price_if_stated": "$799.95",
+          "currency": "USD",
+          "date": "2026-10-15"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Closed-course competition only. Page shows both 'available' and 'join waitlist'. MXA notes Yamaha needs a Yamaha-specific Vortex unit. 2026 YZ models add a factory ECU lock function (Yamaha); effect on aftermarket ECU not stated.",
+      "is_service": false,
+      "subcategory": "aftermarket ECU",
+      "brand": "Vortex",
+      "product": "Vortex X10 ECU - Yamaha YZ450F",
+      "fitment_source_url": "https://tokyomods.com/vortex-x10-ecu-yamaha-yz450f-2026/",
+      "what_it_changes": "Plug-in replacement ECU with 10 preloaded fuel/ignition maps, start and enduro traction maps, launch control, Dynamic Traction Control, raised rev limits; three fuel trim switches +12.5% to -10% across low/mid/high throttle (dealer description).",
+      "confidence": "medium",
+      "id": "tn-005"
+    },
+    {
+      "category": "tuning",
+      "part_numbers": [
+        "COVOR-041599-041603"
+      ],
+      "variants": [],
+      "fits": [
+        {
+          "make": "Honda",
+          "model": "CRF450R",
+          "years": [
+            2021,
+            2022,
+            2023,
+            2024
+          ],
+          "notes": "Dealer listing"
+        }
+      ],
+      "supporting_parts": "Optional handlebar switch and reprogramming software/interface not included; optional Twin Air filter kit 150231C.",
+      "where_to_buy": [
+        {
+          "seller": "CRFs Only",
+          "url": "https://www.crfsonly.com/crf450r21-24-fmf-41-titanium-full-exhaust-vortex-ecu-combo",
+          "price_if_stated": "$2,112.79 (list $2,223.99)",
+          "currency": "USD",
+          "date": "2026-10-15"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Closed-course only. This is FMF's only ECU-related offering found (a dealer bundle with a Vortex ECU); no FMF-branded ECU found.",
+      "is_service": false,
+      "subcategory": "aftermarket ECU",
+      "brand": "Vortex (with FMF exhaust)",
+      "product": "CRF450R '21-24 FMF 4.1 Titanium Full Exhaust & Vortex ECU Combo",
+      "fitment_source_url": "https://www.crfsonly.com/crf450r21-24-fmf-41-titanium-full-exhaust-vortex-ecu-combo",
+      "what_it_changes": "Vortex ECU plugs into stock harness with 10 fuel/spark maps ('Power' and 'Traction' types) and three fuel trim switches (+12.5% to -10%); FMF 4.1 Ti full system (dealer description).",
+      "confidence": "medium",
+      "id": "tn-006"
+    },
+    {
+      "category": "tuning",
+      "part_numbers": [
+        "5053CRF450RX2026"
+      ],
+      "variants": [],
+      "fits": [
+        {
+          "make": "Honda",
+          "model": "CRF450RX",
+          "years": [
+            2026
+          ],
+          "notes": "Seller's fitment data"
+        }
+      ],
+      "supporting_parts": "",
+      "where_to_buy": [
+        {
+          "seller": "TokyoMods",
+          "url": "https://tokyomods.com/tokyomods-ecu-reprogramming-crf450rx-2026/",
+          "price_if_stated": "$199.95",
+          "currency": "USD",
+          "date": "2026-10-15"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Send stock OEM ECU plus purchase receipt and list of engine/intake/exhaust mods. TokyoMods sells per-model reprogram SKUs; only this one was fetched.",
+      "is_service": true,
+      "subcategory": "ECU flash service",
+      "brand": "TokyoMods",
+      "product": "TokyoMods OEM ECU Reprogramming Service - Honda CRF450RX 2026",
+      "fitment_source_url": "https://tokyomods.com/tokyomods-ecu-reprogramming-crf450rx-2026/",
+      "what_it_changes": "Reflashes the stock ECU: Mode 2 gets a torque map, Mode 3 a motocross map; aims to calm low-speed throttle sensitivity and improve response/power.",
+      "confidence": "high",
+      "id": "tn-007"
+    },
+    {
+      "category": "tuning",
+      "part_numbers": [],
+      "variants": [],
+      "fits": [],
+      "supporting_parts": "",
+      "where_to_buy": [
+        {
+          "seller": "TokyoMods",
+          "url": "https://tokyomods.com/service",
+          "price_if_stated": "$199.95; $100 when bought with an FMF or Yoshimura exhaust from TokyoMods",
+          "currency": "USD",
+          "date": "2026-10-15"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Complete ECU form and mail ECU; next-day turnaround claimed. Page lists no makes/years (MX, SX, ATV, supermoto). A Vital MX rider (2025-08-18) said TokyoMods may be able to unlock/reflash locked stock ECUs - unconfirmed.",
+      "is_service": true,
+      "subcategory": "ECU flash service",
+      "brand": "TokyoMods",
+      "product": "ECU Reprogramming (general mail-in service)",
+      "fitment_source_url": "https://tokyomods.com/service",
+      "what_it_changes": "Fuel-injection performance maps loaded to the rider's ECU.",
+      "confidence": "medium",
+      "id": "tn-008"
+    },
+    {
+      "category": "tuning",
+      "part_numbers": [
+        "5018"
+      ],
+      "variants": [],
+      "fits": [],
+      "supporting_parts": "",
+      "where_to_buy": [
+        {
+          "seller": "TokyoMods",
+          "url": "https://tokyomods.com/tokyomods-ecu-reprogramming-vortex-ecu/",
+          "price_if_stated": "$199.95",
+          "currency": "USD",
+          "date": "2026-10-15"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Requires an existing working Vortex ECU shipped to San Juan Capistrano, CA with year/model, mods, elevation, fuel type and riding style. Page lists Honda, KTM, Husqvarna, GasGas, Yamaha, Suzuki, Kawasaki but also says 'universal fit'. Closed-course only.",
+      "is_service": true,
+      "subcategory": "ECU flash service",
+      "brand": "TokyoMods",
+      "product": "TokyoMods ECU Reprogramming - Vortex ECU",
+      "fitment_source_url": "https://tokyomods.com/tokyomods-ecu-reprogramming-vortex-ecu/",
+      "what_it_changes": "Updates Vortex firmware and loads a custom fuel/ignition map package matched to the rider's setup, plus TPS/setup recommendations.",
+      "confidence": "medium",
+      "id": "tn-009"
+    },
+    {
+      "category": "tuning",
+      "part_numbers": [
+        "BTM-KTM-450"
+      ],
+      "variants": [],
+      "fits": [
+        {
+          "make": "KTM",
+          "model": "450 SX-F",
+          "years": [
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025,
+            2026,
+            2027
+          ],
+          "notes": "Page says '20-27 KTM 450 (ALL)'; SX-F not named - confirm with seller"
+        },
+        {
+          "make": "KTM",
+          "model": "450 XC-F",
+          "years": [
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025,
+            2026,
+            2027
+          ],
+          "notes": "Page says '20-27 KTM 450 (ALL)'; XC-F not named - confirm with seller"
+        }
+      ],
+      "supporting_parts": "",
+      "where_to_buy": [
+        {
+          "seller": "BT Moto",
+          "url": "https://bt-moto.com/product/ktm-450-mail-in-ecu-tuning",
+          "price_if_stated": "$399.00 plus return shipping",
+          "currency": "USD",
+          "date": "2026-10-15"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Mail-in only; seller's handheld tuner does not support this ECU. Dyno figures are seller's own.",
+      "is_service": true,
+      "subcategory": "ECU flash service",
+      "brand": "BT Moto",
+      "product": "KTM 450 Mail-In ECU Tuning",
+      "fitment_source_url": "https://bt-moto.com/product/ktm-450-mail-in-ecu-tuning",
+      "what_it_changes": "Per seller: de-restricted throttle/fueling, smoother part throttle, ignition timing optimized, revised engine braking, adjusted rev and lambda limiters; white button = stock, green = tuned. Claims ~5 WHP peak gain (50 to 55 WHP on 93 octane).",
+      "confidence": "medium",
+      "id": "tn-010"
+    },
+    {
+      "category": "tuning",
+      "part_numbers": [],
+      "variants": [
+        "ECU reflash license (one per bike): $280",
+        "Remote reflash cable kit + license: $429.99",
+        "ECU Editor package: $150",
+        "Cable + editor: $579.99",
+        "License + editor: $430"
+      ],
+      "fits": [
+        {
+          "make": "KTM",
+          "model": "250 XC",
+          "years": [
+            2020,
+            2021,
+            2022,
+            2023
+          ],
+          "notes": "Seller lists KTM XC/XC-W 150/250/300 TPI 2018+; maps said to cover 2018-2023"
+        },
+        {
+          "make": "KTM",
+          "model": "300 XC",
+          "years": [
+            2020,
+            2021,
+            2022,
+            2023
+          ],
+          "notes": "As above; TPI models only"
+        },
+        {
+          "make": "Husqvarna",
+          "model": "TX 300",
+          "years": [
+            2020,
+            2021,
+            2022,
+            2023
+          ],
+          "notes": "Seller lists Husqvarna TE/TX 150i/250i/300i TPI 2019+; maps cover to 2023"
+        },
+        {
+          "make": "GasGas",
+          "model": "EX 250",
+          "years": [
+            2021,
+            2022,
+            2023
+          ],
+          "notes": "Seller lists GasGas EC/EX 150/250/300 TPI 2021+"
+        },
+        {
+          "make": "GasGas",
+          "model": "EX 300",
+          "years": [
+            2021,
+            2022,
+            2023
+          ],
+          "notes": "As above"
+        }
+      ],
+      "supporting_parts": "Seller recommends its performance head and idle screw; power valve set slightly in from flush.",
+      "where_to_buy": [
+        {
+          "seller": "R1 Industries Offroad",
+          "url": "https://r1industriesoffroad.com/products/ktm-husqvarna-gasgas-2-stroke-tpi-ecu-flash-2018",
+          "price_if_stated": "$280 license; $429.99 cable kit + license",
+          "currency": "USD",
+          "date": "2026-10-15"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "TPI (transfer port injection) two-strokes only - not the 2024+ TBI bikes. Flash at home with cable kit, or mail ECU to Silber Service, Park Rapids, MN. Off-road only; non-returnable.",
+      "is_service": true,
+      "subcategory": "ECU flash service",
+      "brand": "R1 Industries / Silber Turbos",
+      "product": "KTM, Husqvarna, GasGas 2-Stroke TPI ECU Flash (2018+)",
+      "fitment_source_url": "https://r1industriesoffroad.com/products/ktm-husqvarna-gasgas-2-stroke-tpi-ecu-flash-2018",
+      "what_it_changes": "Software reflash of stock ECU: smoother idle-to-half throttle, addresses lean running, more low/mid torque and top end, less decel popping, more oil injection; two maps (mild/aggressive) via bar switch or plug.",
+      "confidence": "high",
+      "id": "tn-011"
+    },
+    {
+      "category": "tuning",
+      "part_numbers": [],
+      "variants": [
+        "Second injector kit: $945.00",
+        "Kit + XPR-tuned Vortex ECU: $2,004.00",
+        "Remap of a non-XPR Vortex for the kit: $400 (free update for XPR-tuned Vortex)"
+      ],
+      "fits": [
+        {
+          "make": "KTM",
+          "model": "250 SX-F",
+          "years": [],
+          "notes": "MXA lists KTM/Husqvarna/GasGas 250F; no years stated"
+        },
+        {
+          "make": "Husqvarna",
+          "model": "FC 250",
+          "years": [],
+          "notes": "MXA test bike was a stock FC250; year not stated"
+        },
+        {
+          "make": "GasGas",
+          "model": "MC 250F",
+          "years": [],
+          "notes": "No years stated"
+        }
+      ],
+      "supporting_parts": "Requires a Vortex ECU programmed for the second injector; will not work on stock ECU. No fuel pump mentioned.",
+      "where_to_buy": [
+        {
+          "seller": "XPR Motorsports (xprmotorsports.com, 951-813-8873)",
+          "url": "https://motocrossactionmag.com/mxa-team-tested-xpr-ktm-husqvarna-gasgas-250f-second-injector-kit",
+          "price_if_stated": "$945.00",
+          "currency": "USD",
+          "date": "2025-01-29"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Professional install suggested (fuel line routing is hard).",
+      "is_service": false,
+      "subcategory": "fuel injector kit",
+      "brand": "XPR Motorsports",
+      "product": "XPR KTM/Husqvarna/GasGas 250F Second Injector Kit",
+      "fitment_source_url": "https://motocrossactionmag.com/mxa-team-tested-xpr-ktm-husqvarna-gasgas-250f-second-injector-kit",
+      "what_it_changes": "Adds a second injector in an OEM KTM air boot with fuel lines; MXA reported quicker pickup, better low end, stronger mid/over-rev.",
+      "confidence": "medium",
+      "id": "tn-012"
+    },
+    {
+      "category": "tuning",
+      "part_numbers": [],
+      "variants": [],
+      "fits": [
+        {
+          "make": "KTM",
+          "model": "350 SX-F",
+          "years": [
+            2023
+          ],
+          "notes": "Rider reports"
+        },
+        {
+          "make": "Husqvarna",
+          "model": "FC 350",
+          "years": [
+            2023
+          ],
+          "notes": "Rider report"
+        },
+        {
+          "make": "KTM",
+          "model": "250 SX-F",
+          "years": [],
+          "notes": "Rider report, year not stated"
+        }
+      ],
+      "supporting_parts": "",
+      "where_to_buy": [
+        {
+          "seller": "XPR Motorsports",
+          "url": "https://motocrossactionmag.com/mxa-team-tested-xpr-ktm-husqvarna-gasgas-250f-second-injector-kit",
+          "price_if_stated": "$400 Vortex remap (MXA, non-XPR unit)",
+          "currency": "USD",
+          "date": "2025-01-29"
+        }
+      ],
+      "rider_feedback": [
+        "Vital MX (Oct 2023-May 2024): about 2-week turnaround, setup for pump gas, owner sets up each bike.",
+        "Vital MX (2025-08-18): rider says XPR and Twisted can unlock and reflash stock ECU on some models."
+      ],
+      "caveats": "Service scope and pricing only from forum posts and MXA; XPR's own site not fetched.",
+      "is_service": true,
+      "subcategory": "ECU flash service",
+      "brand": "XPR Motorsports",
+      "product": "XPR Vortex ECU tuning / stock ECU reflash",
+      "fitment_source_url": "https://www.vitalmx.com/comment/5752786",
+      "what_it_changes": "Rider reports: cleaner running, better low-end lugging, less engine braking; TC and quickshift controls retained; maps for hard pack and deep loam listed on paperwork.",
+      "confidence": "unverified",
+      "id": "tn-013"
+    },
+    {
+      "category": "tuning",
+      "part_numbers": [],
+      "variants": [],
+      "fits": [
+        {
+          "make": "KTM",
+          "model": "350 SX-F",
+          "years": [
+            2022
+          ],
+          "notes": "Rider paid $110; rider later reported TZR said it can't remap 2023+ ECUs"
+        }
+      ],
+      "supporting_parts": "",
+      "where_to_buy": [],
+      "rider_feedback": [
+        "Vital MX 2025-12-01: $110 reflash on 2022 350 SX-F, rated excellent.",
+        "Vital MX 2026-01-16: TZR said it cannot remap 2023+ KTM ECUs."
+      ],
+      "caveats": "Forum-only evidence; TZR's own site not found. Signals 2023+ KTM ECUs are locked for some tuners.",
+      "is_service": true,
+      "subcategory": "ECU flash service",
+      "brand": "TZR",
+      "product": "Stock ECU reflash (TZR)",
+      "fitment_source_url": "https://www.vitalmx.com/comment/8464266",
+      "what_it_changes": "Rider estimated ~10% gain.",
+      "confidence": "unverified",
+      "id": "tn-014"
+    },
+    {
+      "category": "tuning",
+      "part_numbers": [
+        "GK-SX1PRO4T-0004 (KX450)",
+        "GK-SX1PRO4T-0008 (Husqvarna FC 450 2024-2025)",
+        "GK-SX1PRO4T-0001 (Honda CRF450R 2024)"
+      ],
+      "variants": [
+        "Kawasaki KX450 (Cycle Gear item P1121240): $1,093.95, discontinued",
+        "Husqvarna FC 450 2024-2025: $1,124.95",
+        "Honda CRF450R 2024: $1,124.95",
+        "Search-result titles also show 2024 GasGas MC 450F, 2024 GasGas MC450F Factory Edition, 2024 Husqvarna FC 450 Rockstar Edition kits (not fetched)"
+      ],
+      "fits": [
+        {
+          "make": "Kawasaki",
+          "model": "KX450",
+          "years": [],
+          "notes": "Cycle Gear fitment table names KX450 without years; description heading wrongly says CRF450R"
+        },
+        {
+          "make": "Husqvarna",
+          "model": "FC 450",
+          "years": [
+            2024,
+            2025
+          ],
+          "notes": "Sportbike Track Gear"
+        },
+        {
+          "make": "Honda",
+          "model": "CRF450R",
+          "years": [
+            2024
+          ],
+          "notes": "Sportbike Track Gear"
+        }
+      ],
+      "supporting_parts": "Kit includes SX1 Controller (bar switch) and SX1 Connect Wi-Fi module for the WiGET app.",
+      "where_to_buy": [
+        {
+          "seller": "Cycle Gear",
+          "url": "https://www.cyclegear.com/parts/get-sx1-pro-engine-control-kit-kawasaki-kx450",
+          "price_if_stated": "$1,093.95 (discontinued)",
+          "currency": "USD",
+          "date": "2026-10-15"
+        },
+        {
+          "seller": "Sportbike Track Gear",
+          "url": "https://www.sportbiketrackgear.com/get-2024-2025-husqvarna-fc-450-sx1-engine-control-kit/",
+          "price_if_stated": "$1,124.95",
+          "currency": "USD",
+          "date": "2026-10-15"
+        },
+        {
+          "seller": "Sportbike Track Gear",
+          "url": "https://www.sportbiketrackgear.com/get-2024-honda-crf450r-sx1-engine-control-kit/",
+          "price_if_stated": "$1,124.95",
+          "currency": "USD",
+          "date": "2026-10-15"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Plug-and-play on main harness. Competition use only. FC 450 page marked out of stock; KX450 kit discontinued at Cycle Gear.",
+      "is_service": false,
+      "subcategory": "aftermarket ECU",
+      "brand": "GET (Athena)",
+      "product": "GET SX1 Pro Engine Control Kit",
+      "fitment_source_url": "https://www.sportbiketrackgear.com/get-2024-2025-husqvarna-fc-450-sx1-engine-control-kit/",
+      "what_it_changes": "Replacement ECU with two race maps, GPA traction control at 10 levels per map, launch control, ignition/injection management for weather and altitude.",
+      "confidence": "medium",
+      "id": "tn-015"
+    },
+    {
+      "category": "tuning",
+      "part_numbers": [],
+      "variants": [],
+      "fits": [
+        {
+          "make": "KTM",
+          "model": "250 SX-F",
+          "years": [
+            2026,
+            2027
+          ],
+          "notes": "Enduro21: all 2026-27 KTM four-stroke off-road models"
+        },
+        {
+          "make": "KTM",
+          "model": "350 SX-F",
+          "years": [
+            2026,
+            2027
+          ],
+          "notes": "Enduro21: all 2026-27 KTM four-stroke off-road models"
+        },
+        {
+          "make": "KTM",
+          "model": "450 SX-F",
+          "years": [
+            2026,
+            2027
+          ],
+          "notes": "Enduro21: all 2026-27 KTM four-stroke off-road models"
+        },
+        {
+          "make": "KTM",
+          "model": "250 XC-F",
+          "years": [
+            2026,
+            2027
+          ],
+          "notes": "Enduro21: all 2026-27 KTM four-stroke off-road models"
+        },
+        {
+          "make": "KTM",
+          "model": "350 XC-F",
+          "years": [
+            2026,
+            2027
+          ],
+          "notes": "Enduro21: all 2026-27 KTM four-stroke off-road models"
+        },
+        {
+          "make": "KTM",
+          "model": "450 XC-F",
+          "years": [
+            2026,
+            2027
+          ],
+          "notes": "Enduro21: all 2026-27 KTM four-stroke off-road models"
+        },
+        {
+          "make": "Husqvarna",
+          "model": "FC 250",
+          "years": [
+            2026,
+            2027
+          ],
+          "notes": "Enduro21: all 2026-27 Husqvarna four-stroke off-road models"
+        },
+        {
+          "make": "Husqvarna",
+          "model": "FC 350",
+          "years": [
+            2026,
+            2027
+          ],
+          "notes": "Enduro21: all 2026-27 Husqvarna four-stroke off-road models"
+        },
+        {
+          "make": "Husqvarna",
+          "model": "FC 450",
+          "years": [
+            2026,
+            2027
+          ],
+          "notes": "Enduro21: all 2026-27 Husqvarna four-stroke off-road models"
+        },
+        {
+          "make": "Husqvarna",
+          "model": "FX 350",
+          "years": [
+            2026,
+            2027
+          ],
+          "notes": "Enduro21: all 2026-27 Husqvarna four-stroke off-road models"
+        },
+        {
+          "make": "Husqvarna",
+          "model": "FX 450",
+          "years": [
+            2026,
+            2027
+          ],
+          "notes": "Enduro21: all 2026-27 Husqvarna four-stroke off-road models"
+        },
+        {
+          "make": "GasGas",
+          "model": "MC 250F",
+          "years": [
+            2026,
+            2027
+          ],
+          "notes": "Enduro21: all 2026-27 GASGAS four-stroke off-road models"
+        },
+        {
+          "make": "GasGas",
+          "model": "MC 350F",
+          "years": [
+            2026,
+            2027
+          ],
+          "notes": "Enduro21: all 2026-27 GASGAS four-stroke off-road models"
+        },
+        {
+          "make": "GasGas",
+          "model": "MC 450F",
+          "years": [
+            2026,
+            2027
+          ],
+          "notes": "Enduro21: all 2026-27 GASGAS four-stroke off-road models"
+        },
+        {
+          "make": "GasGas",
+          "model": "EX 250F",
+          "years": [
+            2026,
+            2027
+          ],
+          "notes": "Enduro21: all 2026-27 GASGAS four-stroke off-road models"
+        },
+        {
+          "make": "GasGas",
+          "model": "EX 350F",
+          "years": [
+            2026,
+            2027
+          ],
+          "notes": "Enduro21: all 2026-27 GASGAS four-stroke off-road models"
+        },
+        {
+          "make": "GasGas",
+          "model": "EX 450F",
+          "years": [
+            2026,
+            2027
+          ],
+          "notes": "Enduro21: all 2026-27 GASGAS four-stroke off-road models"
+        },
+        {
+          "make": "KTM",
+          "model": "300 SX",
+          "years": [
+            2026,
+            2027
+          ],
+          "notes": "Enduro21: KTM Group injected 300cc two-strokes"
+        },
+        {
+          "make": "KTM",
+          "model": "300 XC",
+          "years": [
+            2026,
+            2027
+          ],
+          "notes": "Injected 300cc two-strokes"
+        },
+        {
+          "make": "Husqvarna",
+          "model": "TC 300",
+          "years": [
+            2026,
+            2027
+          ],
+          "notes": "Injected 300cc two-strokes"
+        },
+        {
+          "make": "Husqvarna",
+          "model": "TX 300",
+          "years": [
+            2026,
+            2027
+          ],
+          "notes": "Injected 300cc two-strokes"
+        },
+        {
+          "make": "GasGas",
+          "model": "EX 300",
+          "years": [
+            2026,
+            2027
+          ],
+          "notes": "Injected 300cc two-strokes"
+        }
+      ],
+      "supporting_parts": "SX1 Connect Wi-Fi module needed to adjust maps in the WiGET app.",
+      "where_to_buy": [
+        {
+          "seller": "Athena / GET dealers (athena.eu)",
+          "url": "https://enduro21.com/en/news/first-look-new-get-sx1-pro-ecu-unlocks-more-performance-for-ktm-husqvarna-and-gasgas",
+          "price_if_stated": "£967.99",
+          "currency": "GBP",
+          "date": "2026-08-13"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Model-by-model fitment expanded from a blanket statement ('all 2026-2027 four-stroke off-road models'); confirm exact model. Not road legal; Athena says meets FIM/AMA 109 dB rules.",
+      "is_service": false,
+      "subcategory": "aftermarket ECU",
+      "brand": "GET (Athena)",
+      "product": "GET SX1 PRO ECU (2026-2027 KTM Group)",
+      "fitment_source_url": "https://enduro21.com/en/news/first-look-new-get-sx1-pro-ecu-unlocks-more-performance-for-ktm-husqvarna-and-gasgas",
+      "what_it_changes": "Direct replacement ECU with revised mapping for power delivery/throttle response; two preset maps, traction control, launch control, quickshifter and overheat warning via SX1 Controller.",
+      "confidence": "medium",
+      "id": "tn-016"
+    },
+    {
+      "category": "tuning",
+      "part_numbers": [],
+      "variants": [],
+      "fits": [
+        {
+          "make": "KTM",
+          "model": "250 SX-F",
+          "years": [
+            2024
+          ],
+          "notes": "Athena shop"
+        },
+        {
+          "make": "Husqvarna",
+          "model": "FC 250",
+          "years": [
+            2024
+          ],
+          "notes": "Athena shop"
+        },
+        {
+          "make": "GasGas",
+          "model": "MC 250F",
+          "years": [
+            2024
+          ],
+          "notes": "Athena shop"
+        }
+      ],
+      "supporting_parts": "Second injector kit, SX1 Connect and SX1 Controller included; GPA switch, LC-GPA launch device and MAYA software sold separately; not compatible with older WiFiCOM.",
+      "where_to_buy": [
+        {
+          "seller": "Athena shop",
+          "url": "https://shop.athena.eu/en-us/sx1-pro-4t-control-unit-with-sx1-controller-sx1-connect-and-second-injector-kit-P295223.htm",
+          "price_if_stated": "",
+          "currency": "USD",
+          "date": "2026-10-15"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Race use only. Price and part number not shown.",
+      "is_service": false,
+      "subcategory": "aftermarket ECU",
+      "brand": "GET (Athena)",
+      "product": "SX1 PRO 4T Control Unit with SX1 Controller, SX1 Connect and Second Injector Kit (SX1 PRO FACTORY KIT)",
+      "fitment_source_url": "https://shop.athena.eu/en-us/sx1-pro-4t-control-unit-with-sx1-controller-sx1-connect-and-second-injector-kit-P295223.htm",
+      "what_it_changes": "ECU with GPA traction control; Map 1 for stock single injector, Map 2 for GET second injector; reprogrammable via WiGET app or MAYA software; data logging.",
+      "confidence": "high",
+      "id": "tn-017"
+    },
+    {
+      "category": "tuning",
+      "part_numbers": [],
+      "variants": [],
+      "fits": [
+        {
+          "make": "Yamaha",
+          "model": "YZ250F",
+          "years": [
+            2020
+          ],
+          "notes": "Athena lists YZ F 250 2019/2020; manual covers YZ250F 2019-2022 and YZ450F 2020-2022 but kit listed only for the 250"
+        }
+      ],
+      "supporting_parts": "LC-GPA launch control and GPA switch not included.",
+      "where_to_buy": [
+        {
+          "seller": "Athena shop",
+          "url": "https://shop.athena.eu/en-de/-P13629.htm",
+          "price_if_stated": "",
+          "currency": "USD",
+          "date": "2026-10-15"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Race use only. Price/part number not shown.",
+      "is_service": false,
+      "subcategory": "aftermarket ECU",
+      "brand": "GET (Athena)",
+      "product": "RX1 PRO Control Unit with WiFi-COM, Map Switch and Second Injector Kit (PRO FACTORY KIT)",
+      "fitment_source_url": "https://shop.athena.eu/en-de/-P13629.htm",
+      "what_it_changes": "Two maps (stock single injector / GET second injector), reprogrammable via WiGET (WiFiCOM included) or MAYA; GPA traction control; data logging.",
+      "confidence": "high",
+      "id": "tn-018"
+    },
+    {
+      "category": "tuning",
+      "part_numbers": [
+        "GK-WFCOM2-0002 (from a European dealer listing title)"
+      ],
+      "variants": [],
+      "fits": [
+        {
+          "make": "Honda",
+          "model": "CRF450R",
+          "years": [
+            2020,
+            2021,
+            2022,
+            2023,
+            2024
+          ],
+          "notes": "Firestorm (AU) listing title: CRF450R 2018-2024"
+        },
+        {
+          "make": "Honda",
+          "model": "CRF250R",
+          "years": [],
+          "notes": "Transmoto 2017 says CRF250R and CRF450R; 2020+ years not confirmed"
+        }
+      ],
+      "supporting_parts": "",
+      "where_to_buy": [
+        {
+          "seller": "Honda dealers (AU)",
+          "url": "https://transmoto.com.au/gets-honda-specific-tuning-tool",
+          "price_if_stated": "AU$395 RRP",
+          "currency": "AUD",
+          "date": "2017-03-09"
+        },
+        {
+          "seller": "Firestorm Motorcycles",
+          "url": "https://www.firestormmotorcycles.com.au/honda-crf450r-2018-2024-get-mx-wificom-for-ecu-con",
+          "price_if_stated": "",
+          "currency": "USD",
+          "date": "2026-10-15"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Price is 2017 Australian RRP. Dirtbiketest (2021) noted aftermarket tuning on 2021 CRF450R could only change maps 2 and 3 (built on map 1).",
+      "is_service": false,
+      "subcategory": "tuner device/app",
+      "brand": "GET (Athena)",
+      "product": "GET WiFi-COM2 for Honda (stock ECU tuning via WiGET app)",
+      "fitment_source_url": "https://www.firestormmotorcycles.com.au/honda-crf450r-2018-2024-get-mx-wificom-for-ecu-con",
+      "what_it_changes": "Edits the stock Honda ECU maps from a phone/tablet over Wi-Fi with the same parameters and range as the HRC tuning tool (Transmoto).",
+      "confidence": "medium",
+      "id": "tn-019"
+    },
+    {
+      "category": "tuning",
+      "part_numbers": [],
+      "variants": [],
+      "fits": [
+        {
+          "make": "KTM",
+          "model": "350 SX-F",
+          "years": [
+            2020
+          ],
+          "notes": "Listing title: KTM 350 SX-F 2016-2020"
+        },
+        {
+          "make": "Husqvarna",
+          "model": "FC 250",
+          "years": [
+            2020,
+            2021,
+            2022,
+            2023,
+            2024
+          ],
+          "notes": "Listing title: Husqvarna FC250 2018-2024 (truncated title)"
+        }
+      ],
+      "supporting_parts": "Needs a GET aftermarket ECU; not for stock ECUs.",
+      "where_to_buy": [
+        {
+          "seller": "Firestorm Motorcycles (AU)",
+          "url": "https://firestormmotorcycles.com.au/get-wifi-com-for-gp1-evo~732814",
+          "price_if_stated": "",
+          "currency": "USD",
+          "date": "2026-10-15"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Only search-result titles seen; price and part number not confirmed.",
+      "is_service": false,
+      "subcategory": "tuner device/app",
+      "brand": "GET (Athena)",
+      "product": "GET WiFi-COM for GP1 EVO / RX1 ECUs",
+      "fitment_source_url": "https://www.firestormmotorcycles.com.au/ktm-350-sx-f-2016-2020-get-wifi-com-for-gp1-evo",
+      "what_it_changes": "Wi-Fi calibration device for GET GP1 / EVO / RX1 EVO / RX1 PRO / ECULMB control units (listing title); maps edited in WiGET app.",
+      "confidence": "unverified",
+      "id": "tn-020"
+    },
+    {
+      "category": "tuning",
+      "part_numbers": [
+        "PV3-18-01"
+      ],
+      "variants": [],
+      "fits": [
+        {
+          "make": "KTM",
+          "model": "450 SX-F",
+          "years": [
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "notes": "Dealer: KTM 2017-2025 dirt bikes; Firestorm title names 450 SX-F 2017-2025"
+        },
+        {
+          "make": "KTM",
+          "model": "350 XC-F",
+          "years": [
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "notes": "Firestorm title names 350 XC-F 2017-2025"
+        },
+        {
+          "make": "Husqvarna",
+          "model": "FC 450",
+          "years": [],
+          "notes": "Dealer lists Husqvarna 2017-2025 dirt bikes without models"
+        },
+        {
+          "make": "GasGas",
+          "model": "MC 450F",
+          "years": [],
+          "notes": "Dealer lists GasGas 2021-2025 dirt bikes without models"
+        }
+      ],
+      "supporting_parts": "Adapter cable required for bikes with the red Euro5-style diagnostic port; Windows PC.",
+      "where_to_buy": [
+        {
+          "seller": "Fuel Moto USA",
+          "url": "https://www.fuelmotousa.com/i-23900609-dynojet-pv3-ktm-husqvarna-gasgas-dirtbike-models-pv3-18-01-power-vision-3.html",
+          "price_if_stated": "$529.99",
+          "currency": "USD",
+          "date": "2026-10-15"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Exact models not listed by dealer; Husqvarna/GasGas fit rows are placeholders for the brand-level statement. No note on 2023+ locked ECUs; riders report some tuners cannot flash 2023+ KTM ECUs. Dynojet's own fitment page not fetched.",
+      "is_service": false,
+      "subcategory": "tuner device/app",
+      "brand": "Dynojet",
+      "product": "Power Vision 3 - KTM/Husqvarna/GasGas Dirtbike Models",
+      "fitment_source_url": "https://www.fuelmotousa.com/i-23900609-dynojet-pv3-ktm-husqvarna-gasgas-dirtbike-models-pv3-18-01-power-vision-3.html",
+      "what_it_changes": "Handheld that flashes tunes to the factory ECU through the diagnostic connector; logs data; works with Dynojet wideband; tunable with C3 software; ships with preconfigured tunes.",
+      "confidence": "unverified",
+      "id": "tn-021"
+    },
+    {
+      "category": "tuning",
+      "part_numbers": [],
+      "variants": [],
+      "fits": [
+        {
+          "make": "Yamaha",
+          "model": "YZ250F",
+          "years": [
+            2026
+          ],
+          "notes": "Yamaha 2026 YZ250F features page"
+        },
+        {
+          "make": "Yamaha",
+          "model": "YZ450F",
+          "years": [
+            2023
+          ],
+          "notes": "2023 launch model for updated app (Yamaha/Powersports Business)"
+        }
+      ],
+      "supporting_parts": "",
+      "where_to_buy": [
+        {
+          "seller": "App Store / Google Play (free)",
+          "url": "https://powersportsbusiness.com/top-stories/2022/09/23/yamaha-launches-updated-power-tuner-app-for-2023-yz450f/",
+          "price_if_stated": "Free",
+          "currency": "USD",
+          "date": "2026-10-15"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Bikereview says app covers the YZ/WR four-stroke range but some functions are 2023 YZ450F-only; full year list not found. Sources do not name the bike-side Wi-Fi hardware. 2026 YZ250F adds an ECU lock (anti-theft) function.",
+      "is_service": false,
+      "subcategory": "tuner device/app",
+      "brand": "Yamaha",
+      "product": "Yamaha Power Tuner app",
+      "fitment_source_url": "https://yamahamotorsports.com/models/26-yz250f/features",
+      "what_it_changes": "Adjusts air/fuel mixture and ignition timing (grid by throttle and rpm), quick Smooth-Aggressive slider, selects 3-level traction control and launch control; two maps switchable from handlebar switch.",
+      "confidence": "high",
+      "id": "tn-022"
+    },
+    {
+      "category": "tuning",
+      "part_numbers": [],
+      "variants": [],
+      "fits": [
+        {
+          "make": "KTM",
+          "model": "250 SX-F",
+          "years": [
+            2023,
+            2024
+          ],
+          "notes": "Standard on 2024 SX-F; retrofit on 2023-2024 SX-F and XC-F"
+        },
+        {
+          "make": "KTM",
+          "model": "350 SX-F",
+          "years": [
+            2023,
+            2024
+          ],
+          "notes": "Standard on 2024 SX-F; retrofit on 2023-2024 SX-F and XC-F"
+        },
+        {
+          "make": "KTM",
+          "model": "450 SX-F",
+          "years": [
+            2023,
+            2024
+          ],
+          "notes": "Standard on 2024 SX-F; retrofit on 2023-2024 SX-F and XC-F"
+        },
+        {
+          "make": "KTM",
+          "model": "250 XC-F",
+          "years": [
+            2023,
+            2024
+          ],
+          "notes": "Standard on 2024 SX-F; retrofit on 2023-2024 SX-F and XC-F"
+        },
+        {
+          "make": "KTM",
+          "model": "350 XC-F",
+          "years": [
+            2023,
+            2024
+          ],
+          "notes": "Standard on 2024 SX-F; retrofit on 2023-2024 SX-F and XC-F"
+        },
+        {
+          "make": "KTM",
+          "model": "450 XC-F",
+          "years": [
+            2023,
+            2024
+          ],
+          "notes": "Standard on 2024 SX-F; retrofit on 2023-2024 SX-F and XC-F"
+        }
+      ],
+      "supporting_parts": "Two-piece unit behind number plate plus GPS on front fender; RIDER lap analysis is a paid subscription (from EUR 69.99/yr).",
+      "where_to_buy": [
+        {
+          "seller": "KTM dealers (PowerParts)",
+          "url": "https://enduro21.com/en/products-reviews/latest/quick-look-2023-2024-ktm-sx-f-and-xc-f-connectivity-unit-offroad",
+          "price_if_stated": "$249.99 / £216.60 RRP",
+          "currency": "USD",
+          "date": "2026-10-15"
+        }
+      ],
+      "rider_feedback": [
+        "Vital MX 2025-08-18: one rider said the CUO 'does very little' on a 2023 350 SX-F; another felt only minor engine-braking change."
+      ],
+      "caveats": "Part number not shown. Years after 2024 not stated in the sources found.",
+      "is_service": false,
+      "subcategory": "tuner device/app",
+      "brand": "KTM",
+      "product": "Connectivity Unit Offroad (CUO) with KTMConnect app",
+      "fitment_source_url": "https://www.ktm.com/ja-jp/tech-guide/connectivity-unit-offroad.html",
+      "what_it_changes": "Adjusts traction control level, engine braking, throttle response, launch control, quickshifter; track presets (sand, gravel, hard pack, dry, wet); reset to original mapping. Not described as fuel/ignition map editing.",
+      "confidence": "high",
+      "id": "tn-023"
+    },
+    {
+      "category": "tuning",
+      "part_numbers": [],
+      "variants": [],
+      "fits": [
+        {
+          "make": "Husqvarna",
+          "model": "FC 250",
+          "years": [
+            2023,
+            2024
+          ],
+          "notes": "Enduro21: 2023-2024 KTM, Husqvarna and GASGAS four-stroke MX and XC"
+        },
+        {
+          "make": "Husqvarna",
+          "model": "FC 350",
+          "years": [
+            2023,
+            2024
+          ],
+          "notes": "Enduro21: 2023-2024 KTM, Husqvarna and GASGAS four-stroke MX and XC"
+        },
+        {
+          "make": "Husqvarna",
+          "model": "FC 450",
+          "years": [
+            2023,
+            2024
+          ],
+          "notes": "Enduro21: 2023-2024 KTM, Husqvarna and GASGAS four-stroke MX and XC"
+        },
+        {
+          "make": "Husqvarna",
+          "model": "FX 350",
+          "years": [
+            2023,
+            2024
+          ],
+          "notes": "Enduro21: 2023-2024 KTM, Husqvarna and GASGAS four-stroke MX and XC"
+        },
+        {
+          "make": "Husqvarna",
+          "model": "FX 450",
+          "years": [
+            2023,
+            2024
+          ],
+          "notes": "Enduro21: 2023-2024 KTM, Husqvarna and GASGAS four-stroke MX and XC"
+        },
+        {
+          "make": "GasGas",
+          "model": "MC 250F",
+          "years": [
+            2023,
+            2024
+          ],
+          "notes": "Enduro21: 2023-2024 four-stroke MX and XC"
+        },
+        {
+          "make": "GasGas",
+          "model": "MC 350F",
+          "years": [
+            2023,
+            2024
+          ],
+          "notes": "Enduro21: 2023-2024 four-stroke MX and XC"
+        },
+        {
+          "make": "GasGas",
+          "model": "MC 450F",
+          "years": [
+            2023,
+            2024
+          ],
+          "notes": "Enduro21: 2023-2024 four-stroke MX and XC"
+        }
+      ],
+      "supporting_parts": "",
+      "where_to_buy": [
+        {
+          "seller": "Husqvarna / GASGAS dealers",
+          "url": "https://www.directmotocross.com/?p=48074",
+          "price_if_stated": "",
+          "currency": "USD",
+          "date": "2026-10-15"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Husqvarna 2025 release does not list compatible models. Brand-level statement expanded to models.",
+      "is_service": false,
+      "subcategory": "tuner device/app",
+      "brand": "Husqvarna / GasGas",
+      "product": "Connectivity Unit Offroad (Ride Husqvarna Motorcycles app / GASGAS)",
+      "fitment_source_url": "https://enduro21.com/en/products-reviews/latest/quick-look-2023-2024-ktm-sx-f-and-xc-f-connectivity-unit-offroad",
+      "what_it_changes": "Same CUO functions; Husqvarna 2025 release says riders can create and save multiple engine maps and suspension setups with the Ride Husqvarna Motorcycles app.",
+      "confidence": "medium",
+      "id": "tn-024"
+    },
+    {
+      "category": "tuning",
+      "part_numbers": [
+        "99999-0615"
+      ],
+      "variants": [],
+      "fits": [
+        {
+          "make": "Kawasaki",
+          "model": "KX250",
+          "years": [
+            2020,
+            2022,
+            2023,
+            2025,
+            2026
+          ],
+          "notes": "Kawasaki AU fitment list"
+        },
+        {
+          "make": "Kawasaki",
+          "model": "KX250X",
+          "years": [
+            2022,
+            2023,
+            2025,
+            2026
+          ],
+          "notes": "Kawasaki AU fitment list"
+        },
+        {
+          "make": "Kawasaki",
+          "model": "KX450",
+          "years": [
+            2020,
+            2023,
+            2024,
+            2025,
+            2026
+          ],
+          "notes": "Kawasaki AU list; includes KX450 50th Anniversary 2024"
+        },
+        {
+          "make": "Kawasaki",
+          "model": "KX450X",
+          "years": [
+            2022,
+            2023,
+            2024,
+            2025,
+            2026
+          ],
+          "notes": "Kawasaki AU fitment list"
+        }
+      ],
+      "supporting_parts": "KX450 (2019-25): sub harness 26011-0933 and tube clamp 92037-1794. KX250F (2013-25): sub harness 26011-0933 and bracket 11056-0505.",
+      "where_to_buy": [
+        {
+          "seller": "Kawasaki Australia (not sold online)",
+          "url": "https://kawasaki.com.au/en-au/shop/maintenance/15827/kx-fi-calibration-kit-(handheld)",
+          "price_if_stated": "MSRP $2,075.94",
+          "currency": "AUD",
+          "date": "2026-10-15"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Fitment bullets on page conflict (KX250F 13-25 vs 13-20). Kawasaki's 2024 KX450 press release says Rideology app replaces the accessory FI calibration kit on that model. US page exists (kawasaki.com) but failed to load.",
+      "is_service": false,
+      "subcategory": "tuner device/app",
+      "brand": "Kawasaki",
+      "product": "KX FI Calibration Kit (Handheld)",
+      "fitment_source_url": "https://kawasaki.com.au/en-au/shop/maintenance/15827/kx-fi-calibration-kit-(handheld)",
+      "what_it_changes": "Rewrites fuel injection volume and ignition timing by throttle position and rpm; 7 preset track-condition settings; shows live engine status.",
+      "confidence": "high",
+      "id": "tn-025"
+    },
+    {
+      "category": "tuning",
+      "part_numbers": [],
+      "variants": [],
+      "fits": [
+        {
+          "make": "Kawasaki",
+          "model": "KX450",
+          "years": [
+            2024,
+            2026
+          ],
+          "notes": "2024 press release; 2026 per motoonline"
+        },
+        {
+          "make": "Kawasaki",
+          "model": "KX450X",
+          "years": [
+            2024
+          ],
+          "notes": "2024 press release"
+        },
+        {
+          "make": "Kawasaki",
+          "model": "KX250",
+          "years": [
+            2026
+          ],
+          "notes": "Motoonline 2026 range article"
+        }
+      ],
+      "supporting_parts": "",
+      "where_to_buy": [
+        {
+          "seller": "App stores (free)",
+          "url": "https://content2.kawasaki.com/ContentStorage/KMC/PressReleases/734/fce21d08-20a4-4a1c-a25a-d6c9be58cba9.pdf",
+          "price_if_stated": "",
+          "currency": "USD",
+          "date": "2023-06-06"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "2025 KX450 and KX250X/KX450X beyond 2024 not confirmed in sources fetched.",
+      "is_service": false,
+      "subcategory": "tuner device/app",
+      "brand": "Kawasaki",
+      "product": "RIDEOLOGY THE APP (KX)",
+      "fitment_source_url": "https://content2.kawasaki.com/ContentStorage/KMC/PressReleases/734/fce21d08-20a4-4a1c-a25a-d6c9be58cba9.pdf",
+      "what_it_changes": "Bluetooth app to adjust power-mode mapping (fuel and ignition timing) and keep a maintenance log; not for use while riding. Handlebar switch sets KTRC, power mode and launch control.",
+      "confidence": "high",
+      "id": "tn-026"
+    },
+    {
+      "category": "tuning",
+      "part_numbers": [
+        "A9820130 (Wi-Fi Module Kit)"
+      ],
+      "variants": [],
+      "fits": [
+        {
+          "make": "Triumph",
+          "model": "TF 250-X",
+          "years": [],
+          "notes": "Triumph app page names TF 250-X"
+        },
+        {
+          "make": "Triumph",
+          "model": "TF 450-RC Edition",
+          "years": [
+            2025
+          ],
+          "notes": "Wi-Fi Module Kit included as standard (Dirt Rider)"
+        },
+        {
+          "make": "Triumph",
+          "model": "TF 450-X",
+          "years": [
+            2026
+          ],
+          "notes": "Wi-Fi module listed as accessory (Enduro21)"
+        }
+      ],
+      "supporting_parts": "Genuine Triumph Wifi Module Kit required; free iOS/Android app.",
+      "where_to_buy": [
+        {
+          "seller": "Triumph dealers / app stores (app free)",
+          "url": "https://www.triumphmotorcycles.com/owners/off-road/app",
+          "price_if_stated": "Free app; module price not shown",
+          "currency": "USD",
+          "date": "2026-10-15"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "TF 250-C / TF 450-C not mentioned. Bike uses an Athena ECU with GET Power Assist (Enduro21).",
+      "is_service": false,
+      "subcategory": "tuner device/app",
+      "brand": "Triumph",
+      "product": "MX Tune Pro app + Wifi Module Kit",
+      "fitment_source_url": "https://www.triumphmotorcycles.com/owners/off-road/app",
+      "what_it_changes": "Loads one of 10 factory engine maps (plus OE) into Map 2 (Map 1 stays full power), Akrapovic-specific maps, GPA traction and launch control per map, race/training mode, live rpm/throttle, error codes, service log.",
+      "confidence": "high",
+      "id": "tn-027"
+    },
+    {
+      "category": "tuning",
+      "part_numbers": [],
+      "variants": [],
+      "fits": [
+        {
+          "make": "Honda",
+          "model": "CRF450R",
+          "years": [
+            2020
+          ],
+          "notes": "Honda 20YM press release"
+        }
+      ],
+      "supporting_parts": "",
+      "where_to_buy": [],
+      "rider_feedback": [],
+      "caveats": "Stock equipment, not a purchasable part. Later years not checked.",
+      "is_service": false,
+      "subcategory": "map switch",
+      "brand": "Honda",
+      "product": "OEM Engine Mode Select Button (EMSB) and HRC Launch Control",
+      "fitment_source_url": "https://hondanews.eu/eu/cs/motorcycles/media/pressreleases/165970/20ym-honda-crf450r",
+      "what_it_changes": "Stock button selects Mode 1 Standard, 2 Smooth, 3 Aggressive; HRC Launch Control 3 levels (9,500 / 8,500 / 8,250 rpm); separate HSTC torque control.",
+      "confidence": "high",
+      "id": "tn-028"
+    },
+    {
+      "category": "tuning",
+      "part_numbers": [],
+      "variants": [],
+      "fits": [
+        {
+          "make": "Honda",
+          "model": "CRF450R",
+          "years": [
+            2021
+          ],
+          "notes": "Also 450RWE; author believed 450RX too"
+        },
+        {
+          "make": "Honda",
+          "model": "CRF450RX",
+          "years": [
+            2021
+          ],
+          "notes": "Author's belief only"
+        }
+      ],
+      "supporting_parts": "",
+      "where_to_buy": [
+        {
+          "seller": "Honda dealer",
+          "url": "https://dirtbiketest.com/fresh-dirt/notice-2021-crf450r-ecu-factory-reflash/",
+          "price_if_stated": "",
+          "currency": "USD",
+          "date": "2021-03-05"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Bulletin itself not published; cost not stated.",
+      "is_service": true,
+      "subcategory": "ECU flash service",
+      "brand": "Honda (dealer)",
+      "product": "Factory ECU reflash bulletin - 2021 CRF450R",
+      "fitment_source_url": "https://dirtbiketest.com/fresh-dirt/notice-2021-crf450r-ecu-factory-reflash/",
+      "what_it_changes": "Replaces map 1 to cure a low-rpm hesitation on wide-open throttle; maps 2 and 3 build on map 1 so they change too.",
+      "confidence": "medium",
+      "id": "tn-029"
+    },
+    {
+      "category": "tuning",
+      "part_numbers": [],
+      "variants": [],
+      "fits": [
+        {
+          "make": "GasGas",
+          "model": "MC 125",
+          "years": [
+            2024
+          ],
+          "notes": "gasgas.com: Map 1 hardpack/low traction, Map 2 sand/mud"
+        },
+        {
+          "make": "KTM",
+          "model": "125 SX",
+          "years": [
+            2023
+          ],
+          "notes": "MXA first look: map select switch, soft vs aggressive map"
+        },
+        {
+          "make": "KTM",
+          "model": "250 SX",
+          "years": [
+            2023
+          ],
+          "notes": "As above"
+        },
+        {
+          "make": "KTM",
+          "model": "300 SX",
+          "years": [
+            2023
+          ],
+          "notes": "As above"
+        }
+      ],
+      "supporting_parts": "",
+      "where_to_buy": [],
+      "rider_feedback": [],
+      "caveats": "Stock equipment. Tuners (e.g. Twisted) reflash the maps behind these buttons.",
+      "is_service": false,
+      "subcategory": "map switch",
+      "brand": "GasGas / KTM",
+      "product": "OEM Map Select Switch (TBI two-strokes)",
+      "fitment_source_url": "https://www.gasgas.com/en-pl/models/motocross/2-stroke/mc-125-2024.html",
+      "what_it_changes": "Handlebar button toggles two stock engine maps.",
+      "confidence": "high",
+      "id": "tn-030"
+    },
+    {
+      "category": "tuning",
+      "part_numbers": [
+        "51539974200 (listed as 515.39.974.100)"
+      ],
+      "variants": [],
+      "fits": [],
+      "supporting_parts": "",
+      "where_to_buy": [
+        {
+          "seller": "MotoSport",
+          "url": "https://www.motosport.com/ktm-powerparts-map-switch-2stroke",
+          "price_if_stated": "$103.99",
+          "currency": "USD",
+          "date": "2026-10-15"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "No models/years listed; owner's manual decides. Related four-stroke switch 77239974200 fits only 2011-2016 models, so not listed here.",
+      "is_service": false,
+      "subcategory": "map switch",
+      "brand": "KTM PowerParts",
+      "product": "Map Switch 2-stroke (ignition curve switch)",
+      "fitment_source_url": "https://www.motosport.com/ktm-powerparts-map-switch-2stroke",
+      "what_it_changes": "Handlebar switch to change ignition curve on KTM 2-strokes whose digital ignition box has preset curves.",
+      "confidence": "unverified",
+      "id": "tn-031"
+    },
+    {
+      "category": "tuning",
+      "part_numbers": [],
+      "variants": [],
+      "fits": [],
+      "supporting_parts": "",
+      "where_to_buy": [
+        {
+          "seller": "JD Jetting (per Dirtbiketest)",
+          "url": "https://dirtbiketest.com/product-tests/jd-jetting-ktm-high-performance-mikuni-jet-kit/",
+          "price_if_stated": "$84.95",
+          "currency": "USD",
+          "date": "2017"
+        }
+      ],
+      "rider_feedback": [],
+      "caveats": "Kits are bike- and sometimes year-specific; reviewed on a 2017 KTM 300 XC-W. Only for carbureted Mikuni-equipped KTM/Husqvarna two-strokes (e.g. KTM 250 SX up to 2022 used a Mikuni TMX carb). Must NOT be offered for 2023+ KTM SX, 2024+ GasGas MC, or TPI/TBI XC/TX/EX models. 2020+ fitment not verified.",
+      "is_service": false,
+      "subcategory": "carb jetting kit",
+      "brand": "JD Jetting",
+      "product": "JD Jetting KTM/Husky High Performance Jet Kit for Mikuni",
+      "fitment_source_url": "https://dirtbiketest.com/product-tests/jd-jetting-ktm-high-performance-mikuni-jet-kit/",
+      "what_it_changes": "Two multi-taper needles, spare clip, half-clip washer, main and pilot jets, slide cover bolts and altitude/temperature chart; leaner jets with new needles; trail vs race setting by needle swap.",
+      "confidence": "unverified",
+      "id": "tn-032"
+    }
+  ],
+  "fuel_system_by_bike": [
+    {
+      "make": "KTM",
+      "model": "125 SX",
+      "years": [
+        2025
+      ],
+      "fuel": "TBI",
+      "source_url": "https://www.ktm.com/en-lk/models/motocross/2-stroke/2025-ktm-125-sx/technical-specifications.html",
+      "note": "Keihin EFI, 39 mm throttle body"
+    },
+    {
+      "make": "KTM",
+      "model": "300 SX",
+      "years": [
+        2025
+      ],
+      "fuel": "TBI",
+      "source_url": "https://www.ktm.com/en-lk/models/motocross/2-stroke/2025-ktm-300-sx/technical-specifications.html",
+      "note": "Keihin EFI, 39 mm throttle body"
+    },
+    {
+      "make": "KTM",
+      "model": "125 SX",
+      "years": [
+        2023
+      ],
+      "fuel": "TBI",
+      "source_url": "https://motocrossactionmag.com/all-new-2023-ktm-fuel-injected-two-stroke-sx-models/",
+      "note": "KTM spec reprinted by MXA: Keihin EFI 39 mm throttle body"
+    },
+    {
+      "make": "KTM",
+      "model": "250 SX",
+      "years": [
+        2023
+      ],
+      "fuel": "TBI",
+      "source_url": "https://motocrossactionmag.com/all-new-2023-ktm-fuel-injected-two-stroke-sx-models/",
+      "note": "As above"
+    },
+    {
+      "make": "KTM",
+      "model": "300 SX",
+      "years": [
+        2023
+      ],
+      "fuel": "TBI",
+      "source_url": "https://motocrossactionmag.com/all-new-2023-ktm-fuel-injected-two-stroke-sx-models/",
+      "note": "As above; 150 SX dropped for 2023"
+    },
+    {
+      "make": "KTM",
+      "model": "250 SX",
+      "years": [
+        2022
+      ],
+      "fuel": "carburetor",
+      "source_url": "https://ultimatemotorcycling.com/2022/05/11/2023-ktm-sx-lineup-first-look-300-250-150-17-fast-facts-26-photos/",
+      "note": "2023 EFI 'replaces the Mikuni TMX carburetor'; 38 mm Mikuni per motorcycle.com spec"
+    },
+    {
+      "make": "GasGas",
+      "model": "MC 125",
+      "years": [
+        2024
+      ],
+      "fuel": "TBI",
+      "source_url": "https://www.gasgas.com/en-pl/models/motocross/2-stroke/mc-125-2024.html",
+      "note": "GasGas: 2024 2-stroke motors use 39 mm Keihin TBI"
+    },
+    {
+      "make": "GasGas",
+      "model": "MC 250",
+      "years": [
+        2024
+      ],
+      "fuel": "TBI",
+      "source_url": "https://www.gasgas.com/en-pl/models/motocross/2-stroke/mc-125-2024.html",
+      "note": "Inferred from GasGas statement covering all 2024 2-stroke motors"
+    },
+    {
+      "make": "GasGas",
+      "model": "EX 300",
+      "years": [
+        2024
+      ],
+      "fuel": "TBI",
+      "source_url": "https://www.dirtrider.com/dirt-bikes/gasgas-ex-300-technical-information/",
+      "note": "Switched from TPI to TBI for 2024 (magazine tech info)"
+    },
+    {
+      "make": "KTM",
+      "model": "300 XC",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "fuel": "TPI",
+      "source_url": "https://r1industriesoffroad.com/products/ktm-husqvarna-gasgas-2-stroke-tpi-ecu-flash-2018",
+      "note": "Tuner page lists XC TPI 2018+; maker spec not fetched - treat as medium"
+    },
+    {
+      "make": "Husqvarna",
+      "model": "TC 300",
+      "years": [
+        2025
+      ],
+      "fuel": "TBI",
+      "source_url": "https://www.directmotocross.com/?p=48074",
+      "note": "Husqvarna 2025 release: throttle body fuel injection on 2-stroke engines"
+    },
+    {
+      "make": "Yamaha",
+      "model": "YZ250",
+      "years": [
+        2026
+      ],
+      "fuel": "carburetor",
+      "source_url": "https://yamahamotorsports.com/models/26-yz250/specs",
+      "note": "Hitachi Astemo Keihin PWK38S"
+    },
+    {
+      "make": "Yamaha",
+      "model": "YZ250F",
+      "years": [
+        2026
+      ],
+      "fuel": "EFI",
+      "source_url": "https://yamahamotorsports.com/models/26-yz250f/features",
+      "note": "44 mm throttle body"
+    },
+    {
+      "make": "Honda",
+      "model": "CRF450R",
+      "years": [
+        2020
+      ],
+      "fuel": "EFI",
+      "source_url": "https://hondanews.eu/eu/cs/motorcycles/media/pressreleases/165970/20ym-honda-crf450r",
+      "note": "PGM-FI"
+    },
+    {
+      "make": "Kawasaki",
+      "model": "KX250",
+      "years": [
+        2020,
+        2022,
+        2023,
+        2025,
+        2026
+      ],
+      "fuel": "EFI",
+      "source_url": "https://kawasaki.com.au/en-au/shop/maintenance/15827/kx-fi-calibration-kit-(handheld)",
+      "note": "Kawasaki FI calibration kit fitment (fuel injection volume adjustment)"
+    },
+    {
+      "make": "Kawasaki",
+      "model": "KX250X",
+      "years": [
+        2022,
+        2023,
+        2025,
+        2026
+      ],
+      "fuel": "EFI",
+      "source_url": "https://kawasaki.com.au/en-au/shop/maintenance/15827/kx-fi-calibration-kit-(handheld)",
+      "note": "As above"
+    },
+    {
+      "make": "Kawasaki",
+      "model": "KX450",
+      "years": [
+        2020,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "fuel": "EFI",
+      "source_url": "https://kawasaki.com.au/en-au/shop/maintenance/15827/kx-fi-calibration-kit-(handheld)",
+      "note": "As above"
+    },
+    {
+      "make": "Kawasaki",
+      "model": "KX450X",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "fuel": "EFI",
+      "source_url": "https://kawasaki.com.au/en-au/shop/maintenance/15827/kx-fi-calibration-kit-(handheld)",
+      "note": "As above"
+    },
+    {
+      "make": "Triumph",
+      "model": "TF 450-RC Edition",
+      "years": [
+        2025
+      ],
+      "fuel": "EFI",
+      "source_url": "https://www.dirtrider.com/dirt-bikes/triumph-tf-450-rc-edition-technical-overview/",
+      "note": "Dell'Orto EFI 44 mm throttle body (magazine tech overview)"
+    },
+    {
+      "make": "Triumph",
+      "model": "TF 450-X",
+      "years": [
+        2026
+      ],
+      "fuel": "EFI",
+      "source_url": "https://enduro21.com/en/bikes/latest/first-look-2026-triumph-tf-450-x",
+      "note": "Dell'Orto 44 mm throttle body, Keihin injector"
+    }
+  ],
+  "gaps": [
+    "Twisted Development's own site (td-racing.com) and Vortex's own site could not be fetched (tool provenance limits); Twisted data comes from MXA/Keefer tests.",
+    "Jamie Ellis appears to be the tuner at Twisted Development (MXA, Vital); no separate 'Jamie Ellis Racing' business found.",
+    "Vortex X20 not found in any source; only X10 units appear.",
+    "No WMR or 'WTF' ECU tuning business found for these bikes.",
+    "PowerTronic results were street bikes only; no dirt-bike MX fitment found.",
+    "No FMF-branded ECU found; FMF appears only in a dealer combo with a Vortex ECU. Pro Circuit only as a stock-ECU remap in a 2019 Keefer test.",
+    "Yoshimura EMS / PIM-2 results were pre-2020 only; no 2020-2027 fitment found.",
+    "Honda HRC PGM-FI Setting Tool: maker pages list 2009-2017 models only; no 2020+ HRC tool or HRC race ECU found.",
+    "Yamaha GYTR competition ECU kits found only for WR models (out of scope); none for YZ.",
+    "Yamaha Power Tuner full model-year list not found; bike-side Wi-Fi hardware not named in sources.",
+    "No specialist aftermarket fuel pumps found; only note: Dirt Rider says all 2024 GasGas full-size bikes got updated fuel pumps. Second-injector kits from XPR and GET are the only fuel-hardware upgrades found.",
+    "Race fuel: only general notes (MXA 2017: VP U4.4 needs ~2 mains bigger on carbs; MR-PRO6 needs minimal changes). Vital riders report Twisted maps work on T4 and Pro 6 with trim tweaks.",
+    "Locked ECUs: forum reports say some tuners (TZR) cannot remap 2023+ KTM ECUs, while Twisted/XPR reportedly can; no maker statement found.",
+    "Fuel system not confirmed from maker for: KTM 150 SX, 125/250/300 XC (2024+), XC-F/SX-F, Husqvarna TC 125/250, TX 300, FC/FX, GasGas EX 250, Yamaha YZ125/YZ125X/YZ250X, Honda CRF250R/RX, Triumph TF 250-X/-C, TF 450-C.",
+    "JD Jetting fitment for 2020+ YZ125/YZ250/YZ125X/YZ250X and KTM/Husky carb models could not be confirmed (Rocky Mountain page blocked by bot protection)."
+  ],
+  "not_done": [
+    "Did not fetch td-racing.com, vortexignition, jdjetting.com, dynojet.com, athena.eu product pages directly (blocked or not surfaced).",
+    "Did not fetch GET SX1 kit pages for 2024 GasGas MC 450F, MC450F Factory Edition, FC 450 Rockstar Edition (titles only).",
+    "Did not check KTM/Husqvarna launch control as a separate item beyond CUO and SX1 descriptions.",
+    "Did not verify US pricing for Triumph Wi-Fi module or Kawasaki FI calibration kit (kawasaki.com US page errored)."
+  ]
+}

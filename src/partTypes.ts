@@ -13,8 +13,10 @@ export const partTypes:Partial<Record<PartSystem,PartType[]>>={
  suspension:[
   {label:'Fork springs',match:/\bfork\b.*\bsprings?\b|\bsprings?\b.*\bfork\b/i},
   {label:'Shock spring',match:/\bshock\b.*\bsprings?\b|\bsprings?\b.*\bshock\b/i},
+  {label:'Valving, bladder or perch kit',match:/\b(valving|revalve|bladder|perch(es)?|gold valve|mid-?valve|valve kit)\b/i},
   {label:'Fork (cartridge, conversion, kit)',match:/\b(fork|cartridge|conversion|cone valve)\b/i},
   {label:'Shock',match:/\bshock\b/i},
+  {label:'Preload adjuster',match:/\bpre-?load\b/i},
   {label:'Linkage',match:/\b(linkage|link|pull ?rod|dog ?bone)\b/i},
   {label:'Holeshot device',match:/\b(holeshot|start device|launch)\b/i}],
  engine:[
@@ -31,8 +33,9 @@ export const partTypes:Partial<Record<PartSystem,PartType[]>>={
   {label:'Clutch cover',match:/\bcover\b/i},
   {label:'Hydraulic clutch',match:/\b(hydraulic|slave|master)\b/i}],
  tuning:[
-  {label:'ECU or tuner',match:/\b(ecu|vortex|tuner|module|map|wifi|wi-fi|power ?tuner|calibration)\b/i},
-  {label:'Fuel system',match:/\b(fuel|injector|pump|throttle body|carb|jet|needle)\b/i}],
+  {label:'ECU, tuner or map switch',match:/\b(ecu|e\.c\.u|tuner|maps?|wifi|wi-fi|calibration|connectivity|ignition|flash|remap|control unit|controller)\b/i},
+  {label:'Fuel injection',match:/\b(injectors?|injection|throttle body|fuel pump|pump module)\b/i},
+  {label:'Carburetor and jetting',match:/\b(carb\w*|jets?|jetting|needles?|float|pwk|mikuni|accelerator pump)\b/i}],
  intake:[
   {label:'Air filter',match:/\bfilters?\b/i},
   {label:'Airbox or cover',match:/\b(air ?box|cover|boot|snorkel)\b/i},

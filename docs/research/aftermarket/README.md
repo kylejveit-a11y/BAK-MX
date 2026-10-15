@@ -169,3 +169,18 @@ height, gearing, price changes over time. Gaps: FMF pages, Kawasaki US accessori
 `companies/ALL_BRANDS.md` lists every brand with a part listed for any in-scope bike across all five families (390 brands;
 96 of them also profiled in the researched registry `companies/COMPANIES.md`), with listing counts, families, main categories
 and sources. Universal items are now judged against all five families.
+
+## Specialty pass (2026-10-15)
+
+`specialty/` holds direct-sale and specialist research that every family build reads: `suspension.json` (74: WP XACT Pro
+6500/7548/8950, REP, Luxon, Ride JBI, Race Tech, Pro Circuit, Öhlins, Showa A-kit, Xtrig, Enzo, MX-Tech and revalve shops),
+`tuning.json` (32: Twisted Development, Vortex, GET, TokyoMods, BT Moto, R1 Industries, XPR, Dynojet, maker apps and tools,
+plus `fuel_system_by_bike`), `engine.json` (257: FMF, Vertex, Cylinder Works, Hot Cams, Rekluse, Hinson, Barnett, Yoshimura,
+Pro Circuit, Akrapovič, Boyesen) and `chassis.json` (50: clamps, dampers, mounts, holeshot, controls, protection).
+Entries with `is_service` (revalves, ECU flashes) become the Garage "Who did it?" list (`shared/work-providers.ts`).
+Builder changes: Vortex is a brand, so its sprockets now sort as gearing; carburetor and jetting parts carry a flag and the
+picker hides them on fuel-injected bikes (`shared/fuel-system.ts`), and fuel-injection parts on carbureted ones.
+Still missing (next pass): Sunstar, JT, Talon, RK, Regina, Iris, Mishimoto, Fluidyne, CV4, HGS, Arrow, LeoVince, Doma,
+Bill's Pipes, Web Cams, Kibblewhite, Pro-X, more Wiseco; Galfer and Brembo; TM Designworks, Moose, Polisport, ProTaper, ODI,
+ARC, Motion Pro, IMS; Neken, Tag, Ride Engineering; Smart Performance, Cannon Racecraft. Hot Cams/Vertex/Cylinder Works for
+2023+ KTM group and 2024+ YZ450F/KX450 returned nothing; brake fitment is thin.

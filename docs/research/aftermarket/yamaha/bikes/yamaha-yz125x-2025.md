@@ -1,15 +1,20 @@
 # Yamaha YZ125X 2025: aftermarket parts
 
-2816 listings whose stated fitment names this bike: 4 researched parts (with what they change and rider findings), 170 dealer and retailer listings specific to this bike, and 2642 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+2821 listings whose stated fitment names this bike: 9 researched parts (with what they change and rider findings), 170 dealer and retailer listings specific to this bike, and 2642 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
+| EBC | MXS755 Race Series Front Brake Pads | MXS755 | Listing: race-only sintered copper pad with sharp initial bite for fast riders. | Retailer list mixes Nissin- and Brembo-equipped bikes and differs from FA755R list; check EBC catalogue. | [J&P Cycles](https://www.jpcycles.com/product/ebc-mxs755-race-series-front-brake-pads) | medium |
+| Vertex | Cast Race Evolution Piston Kit (YZ125, YZ125X) | 24444A, 24444B | Vertex cast 'Race Evolution' two-stroke piston kit. Specs: Compression Ratio STD Cylinder Diameter 54 mm Displacement 125 cc Piston Diameter 53.930mm | Fitment parsed from maker store 'fits models' field; maker data for newest (2023+) KTM-group and 2024+ YZ450F/KX450 platforms not returned by queries. | [All Balls Racing Group (maker store for Hot Cams/Vertex/Cylinder Works)](https://www.allballsracinggroup.com/24444a-cast-race-evolution-piston-kit) | high |
+| FMF | Fatty pipe - YZ125, YZ125X | 024076 | FMF: broadens/smooths the curve with gains across the band (low, mid, over-rev); nickel-plated carbon steel; works with FMF or stock silencer unless noted. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/fatty-024076) | high |
 | FMF | Fatty Gold Series Pipe | 024076 | FMF claims 'more low-end, more mid, and increased over-rev' and 'More tractable power, improved throttle control.' |  | [FMF](https://www.fmfracing.com/products/fatty-024076) | high |
-| Pro Circuit | R-304 Silencer | 1132212 | No claims on page. |  | [Pro Circuit](https://www.procircuit.com/r-304-yz125-22-23) | high |
-| Pro Circuit | Platinum Pipe | 0832212 | No claims on page. | 2022 YZ125 got a new cylinder/engine; separate pipes exist for 2005-2021 YZ125 (and 2020-2022 YZ125X). | [Pro Circuit](https://www.procircuit.com/platinum-pipe-yz125-22.html) | high |
+| FMF | PowerCore 2 / Shorty silencer - YZ125, YZ125X | 024079, 024080 | FMF: Shorty has a shorter core and aluminum canister tuned to maximize bottom and mid rpm power (tight tracks/SX). | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/shorty-024080) | high |
+| FMF | Factory Fatty pipe - YZ125, YZ125X | 024077 | FMF: 'works'/cone-style pipe; broadens and smooths the power curve with more low-end, mid and over-rev; 20-ga body, hand-pounded seams. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/factory-fatty-024077) | high |
 | Pro Circuit | Works Pipe | 0732212 | No claims on page. |  | [Pro Circuit](https://www.procircuit.com/works-yamaha) | high |
+| Pro Circuit | Platinum Pipe | 0832212 | No claims on page. | 2022 YZ125 got a new cylinder/engine; separate pipes exist for 2005-2021 YZ125 (and 2020-2022 YZ125X). | [Pro Circuit](https://www.procircuit.com/platinum-pipe-yz125-22.html) | high |
+| Pro Circuit | R-304 Silencer | 1132212 | No claims on page. |  | [Pro Circuit](https://www.procircuit.com/r-304-yz125-22-23) | high |
 
 ## Dealer and retailer listings for this bike
 
@@ -267,7 +272,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Controls 542, Lights And Electrical 381, Tires 218, Body 194, Tools And Maintenance 171, Graphics 165, Engine 134, Drive 122, Suspension 113, Luggage And Racks 106, Exhaust 83, Brakes 82, Wheels And Rims 64, Vehicle Communication 60, Fuel System 54, Accessories 48, Skid Plates And Guards 26, Riding Gear 18, Farming And Hunting 13, Chain & Sprocket 12, Handlebars & Controls 9, Uncategorised 8, Batteries & Electrical 6, Intake 6, Helmets 3, Winch And Plow 2, Filters 1, Utv / Atv Parts 1
+Controls 542, Lights And Electrical 381, Tires 218, Body 194, Tools And Maintenance 171, Graphics 165, Engine 134, Drive 122, Suspension 113, Luggage And Racks 106, Exhaust 83, Brakes 82, Wheels And Rims 64, Vehicle Communication 60, Fuel System 54, Accessories 48, Skid Plates And Guards 26, Riding Gear 18, Farming And Hunting 13, Chain & Sprocket 12, Handlebars & Controls 9, Uncategorised 8, Intake 6, Batteries & Electrical 6, Helmets 3, Winch And Plow 2, Utv / Atv Parts 1, Filters 1
 
-Top brands: Turner Performance Products 106, Rugged Radios 105, Motion Pro 98, Acerbis 94, RAM Mounts 72, D'COR Visuals 66, Cycra 66, Pro Taper 65, Factory Effex 57, Trail Tech 55, Quad Lock 53, Bolt 53, DRC 52, SP Connect 51, ODI 48, Kriega 43, KTM PowerParts 43, Namz Custom Cycle 40, Renthal 38, Fastway 37, Shinko 34, RFX 33, Ride Engineering 33, Kenda 32, Polisport 32
+Top brands: Turner Performance Products 106, Rugged Radios 105, Motion Pro 98, Acerbis 94, RAM Mounts 72, D'COR Visuals 66, Cycra 66, Pro Taper 65, Factory Effex 57, Trail Tech 55, Bolt 53, Quad Lock 53, DRC 52, SP Connect 51, ODI 48, Kriega 43, KTM PowerParts 43, Namz Custom Cycle 40, Renthal 38, Fastway 37, Shinko 34, RFX 33, Ride Engineering 33, Polisport 32, Kenda 32
 

@@ -1,17 +1,35 @@
 # Husqvarna TC 125 2020: aftermarket parts
 
-1493 listings whose stated fitment names this bike: 7 researched parts (with what they change and rider findings), 492 dealer and retailer listings specific to this bike, and 994 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1511 listings whose stated fitment names this bike: 25 researched parts (with what they change and rider findings), 492 dealer and retailer listings specific to this bike, and 994 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
+| Renthal | 932 Fatbar36 (McGrath / KTM SX bend) | 932-01-BK | Maker: one of Renthal's lowest off-road bends; opens the cockpit for freer movement and better front-wheel weighting; suits shorter/average riders. | Open-ended year ranges truncated to 2027; Fatbar36 needs 36mm bar mounts on non-KTM clamps. | [Renthal (UK)](https://www.renthal.com/moto/932-fb36) | high |
 | Bullet Proof Designs | Bullet Proof Designs Radiator Braces/Guards, KTM/Husqvarna/GasGas |  | 6061 billet frame-mounted guards; claims no adverse effect on airflow and compatible with fan kits. | A single SKU across 2017-2026 is doubtful given the 2023 chassis change; AOMC listing is '17-23' (possible SKU KTM-RG-19, not verified). 85 SX not covered. | [Dirt Bike Spec](https://dirtbikespec.com/product/bulletproof-designs-radiator-guards-ktm-husqvarna/) | unverified |
 | Moose Racing | Moose Racing Aluminum Magnetic Drain Plug KTM / Husqvarna 50cc-501cc | T14-5085S (M10 x 1.5 x 15 mm), T14-5084S (M12 x 1.5 x 12 mm) | 7075 aluminium, clear anodised, magnet pulls metal filings from the oil (manufacturer claim). Safety-wire drilled. | The captured list shows no KTM SX/SX-F MX models (only minis and 125 XC), and the page says 47 more vehicles exist. KTM SX-F fit is unconfirmed even though the  | [J&P Cycles (US)](https://www.jpcycles.com/product/moose-racing-aluminum-magnetic-drain-plug-ktm-husqvarna-50cc-501cc) | medium |
 | RFX | RFX Magnetic Drain Bolt Husqvarna / Gas Gas 125cc-501cc | FXDB 50100 99BU (blue), FXDB 50100 99RD (red) | Magnet catches ferrous debris in the oil (RFX claim). CNC 6061-T6, pre-drilled for safety wire. | Only one bolt per listing, and KTM / 4T engines have more than one drain plug, so which position it fits is not stated. KTM fitment is on a separate RFX listing | [Cycle Gear (US)](https://www.cyclegear.com/parts/rfx-magnetic-drain-bolt-husqvarna-gas-gas-125cc-501cc) | medium |
 | Slavens Racing (Mule) | Power Valve Tuning Kit (Legacy 3-spring and Mule Four 4-spring) |  | Seller: changes power delivery via power-valve spring rate. | Does NOT list 2023+ TBI SX/XC or 2023+ 125 SX; useful only for 2020-2022 MX bikes in scope. 2023+ TBI PV spring options remain a gap. | [Slavens Racing](https://slavensracing.com/shop/power-valve-tuning-kit/) | medium |
+| Vertex | Cast Race Evolution Piston Kit (125 SX, 125 XC, MC 125, TC 125) | 24445A, 24445B | Vertex cast 'Race Evolution' two-stroke piston kit. Specs: Compression Ratio STD Cylinder Diameter 54 mm Displacement 125 cc Piston Diameter 53.950mm | Fitment parsed from maker store 'fits models' field; maker data for newest (2023+) KTM-group and 2024+ YZ450F/KX450 platforms not returned by queries. | [All Balls Racing Group (maker store for Hot Cams/Vertex/Cylinder Works)](https://www.allballsracinggroup.com/24445b-cast-race-evolution-piston-kit) | high |
+| Vertex | Complete Engine Rebuild Kit (125 SX, 125 XC, MC 125, TC 125) | WR00079 | Vertex complete bottom/top end rebuild kit (crank, piston kit, gaskets, seals, bearings, water pump kit). Specs: Includes Crankshaft, Piston Kit, Complete Engine Gasket Kit, Oil Seal Kit, Main Bearing | Fitment parsed from maker store 'fits models' field; maker data for newest (2023+) KTM-group and 2024+ YZ450F/KX450 platforms not returned by queries. | [All Balls Racing Group (maker store for Hot Cams/Vertex/Cylinder Works)](https://www.allballsracinggroup.com/wr00079-complete-engine-rebuild-kit) | high |
+| Vertex | Cast Race Piston Kit (125 SX, 125 XC, MC 125, TC 125) | 24243A, 24243B, 24243C | Vertex cast race-replacement two-stroke piston kit. Specs: Compression Ratio STD Cylinder Diameter 54 mm Displacement 125 cc Piston Diameter 53.960mm | Fitment parsed from maker store 'fits models' field; maker data for newest (2023+) KTM-group and 2024+ YZ450F/KX450 platforms not returned by queries. | [All Balls Racing Group (maker store for Hot Cams/Vertex/Cylinder Works)](https://www.allballsracinggroup.com/24243c-cast-race-piston-kit) | high |
+| Vertex | Forged Pro Race Piston Kit (125 SX, 125 XC, MC 125, TC 125) | 24419B | Vertex forged two-stroke race piston kit. Specs: Compression Ratio STD Cylinder Diameter 54 mm Displacement 125 cc Piston Diameter 53.950mm | Fitment parsed from maker store 'fits models' field; maker data for newest (2023+) KTM-group and 2024+ YZ450F/KX450 platforms not returned by queries. | [All Balls Racing Group (maker store for Hot Cams/Vertex/Cylinder Works)](https://www.allballsracinggroup.com/24419b-forged-pro-race-piston-kit) | high |
+| FMF | Factory Fatty pipe - 125 SX, 125 XC, 150 SX, MC 125, TC 125 | 025239 | FMF: 'works'/cone-style pipe; broadens and smooths the power curve with more low-end, mid and over-rev; 20-ga body, hand-pounded seams. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/factory-fatty-025239) | high |
+| FMF | TurbineCore 2.1 silencer - 125 SX, 125 XC, 150 SX, MC 125, TC 125 | 025249 | FMF: USFS-legal spark-arrestor silencer with Turbine Dampening System; straight-through, claimed unrestricted power. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/turbinecore-2-025249) | high |
+| FMF | PowerCore 2.1 silencer - 125 SX, 125 XC, 150 SX, MC 125, TC 125 | 025247 | FMF: race-tested smooth power curve, larger canister for tunability and packing life, lighter than stock; fits FMF or stock pipe. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/powercore-2-025247) | high |
+| FMF | PowerCore 2 / Shorty silencer - 125 SX, 125 XC, 150 SX, MC 125, TC 125 | 025258 | FMF: Shorty has a shorter core and aluminum canister tuned to maximize bottom and mid rpm power (tight tracks/SX). | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/powercore-2-025258) | high |
+| FMF | Titanium PowerCore 2.1 silencer - 125 SX, 125 XC, 150 SX, MC 125, TC 125 | 025248 | FMF titanium version of the PowerCore 2.1 two-stroke silencer (lighter canister). | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/titanium-2-025248) | high |
+| FMF | Fatty pipe - 125 SX, 125 XC, 150 SX, MC 125, TC 125 | 025238 | FMF: broadens/smooths the curve with gains across the band (low, mid, over-rev); nickel-plated carbon steel; works with FMF or stock silencer unless noted. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/fatty-pipe-025238) | high |
+| Boyesen | Rad Valve - KTM/Husqvarna 125cc |  | Boyesen Rad Valve: high-flow reed valve for more air volume (retailer copy truncated). | Closeout; model list not detailed. | [RevZilla](https://www.revzilla.com/dirt-bike/boyesen-rad-valve-ktm-husqvarna-125cc-2017-2021) | unverified |
 | Acerbis | Linear front disc cover (KTM/Husqvarna/GasGas/Stark), max disc 280 mm | AC-26107BK (black; Bikeman JP code, 'AC-' likely retailer prefix), AC-26107OR16 (orange) and AC-26107WH (white) from Bikeman URLs | Protects disc, left fork bottom and caliper; vented; mounts on the axle nut with no extra mount kit. | Max disc 280 mm, so it should clear a 270 mm oversize kit (inference, not stated). Acerbis catalogue number not confirmed. | [Slavens Racing](https://slavensracing.com/shop/linear-disc-guard-for-ktm-hqv-gg-stark-by-acerbis/) | medium |
 | Bullet Proof Designs | Radiator guards KTM/Husqvarna/GasGas 125-501 | KTM-RG-19 | Frame-mounted aluminium guards for frontal/side impact; claimed no cooling restriction, fan-kit compatible, ~3 oz/side over stock louver. | Year range conflict on retailer page; confirm with BPD for 2023+ KTM/Husky and 2024+ GasGas. | [AOMC.mx](https://aomc.mx/KTM-RG-19.html) | unverified |
+| Luxon MX | Gen3 Pro Triple Clamps - KTM/Husqvarna/GasGas | LUX-KTM-SS-A0011 | Luxon: adjustable offset 21/22/23/24 mm (stock 22), split lower for plushness with optional braces to stiffen, 7075-T6 bores machined after anodising, Japanese-style stem with double nut; ~89 g lighte | Model list expanded from Luxon's family/offset table ('most KTM group off-road bikes'). | [Luxon MX](https://www.luxonmx.com/product-luxon-ktm-husqvarna-gasgas-triple-clamps-gen3-pro.html) | high |
+| Race Tech | FSCS Fork Spring Conversion System - WP AER 48 | W51150915, WC38050915 (Stealth), CK3805010 (Stealth retro kit) | Race Tech: converts air fork to SFF-style coil spring; drop-in, under an hour. Stealth version uses stock cap so fork looks stock ('AMA Stock Class Legal' per Race Tech). | Listed only through 2020; no 2021+ AER part shown. No price on page. | [Race Tech](https://racetech.com/fscs-fk-spr-conversion/) | unverified |
+| Ride JBI | JBI Suspension WP AER48 / XACT48 Pro Fork DIY Install Kit |  | JBI: pre-shimmed subvalve (adds shim control of low-speed bypass) and mid-valve with Ti leaf spring; lets AER run lower air pressure without going soft - more plushness. | JBI list omits KTM 125 SX/300 SX and lists '150 XC'/'FX 250' (not in BAK MX list). | [Ride JBI](https://ridejbi.com/jbi-suspension-wp-aer48-pro-fork-diy-kit) | high |
+| Ride JBI | JBI Spec WP Fork Revalves (send-in) |  | Custom valving to rider; send forks to JBI HQ. | Year ranges for AER48 revalve not on service page; mapped from DIY kit list. | [Ride JBI](https://www.ridejbi.com/jbi-suspension-ktm/) | medium |
+| Xtrig | ROCS Pro Triple Clamps (KTM / Husqvarna / GasGas) |  | Xtrig: opposing-clamp (ROCS) design holds tubes evenly with less bolt torque and less tube deformation; flex tuned per fork; adjustable offset on Pro. | Dealer fitment; 2T models expanded from '125-450' wording. | [Slavens Racing](https://slavensracing.com/shop/rocs-tech-triple-clamps-ktm-husqvarna-xtrig-copy/) | medium |
+| Öhlins | RXF 48 Front Fork MX & Enduro FFX 1201 | FFX 1201 | Öhlins: 48 mm fork with TTX22 cartridge, Ti-oxide inner tubes, anti-fade seals, check valve; coil spring replaces AER air fork. | Replaced FFX 0201 in 2023. 2024+ KTM-group fork part not identified. | [source](https://www.ohlins.eu/de/products/motorcycle/ffx-1201--7380/) | high |
 | Warp 9 | Elite wheel assembly, KTM/Husaberg/Husqvarna/GasGas (21x1.60 front, 18x2.15 rear) |  | Aftermarket complete wheel; the 18 in rear suits XC/cross-country use (MX SX/SX-F run 19 in). | Page does not mention the 22 mm rear axle; confirm hub bore for 2023+. No 19 in rear option shown on this listing. | [Slavens Racing](https://slavensracing.com/shop/complete-wheel-assembly-ktm-husaberg-warp-9/) | medium |
 
 ## Dealer and retailer listings for this bike
@@ -29,22 +47,22 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Husqvarna Technical Accessories | Bead Buddy | 29901500 | 25.32 GBP | [Lings](https://lings.com/products/husqvarna-bead-buddy-1) |
 | Husqvarna Technical Accessories | Bike Stand | 81329155000 | 54.28 GBP | [Lings](https://lings.com/products/husqvarna-bike-stand) |
 | Husqvarna Technical Accessories | Brake Caliper Protection | 77713975120 | 89.70 GBP | [Lings](https://lings.com/products/husqvarna-brake-caliper-protection) |
-| Husqvarna Technical Accessories | Brake Caliper Support | 78913914100 | 89.70 GBP | [Lings](https://lings.com/products/husqvarna-brake-caliper-support) |
 | Husqvarna Technical Accessories | Brake Caliper Support | 26113915000 | 89.70 GBP | [Lings](https://lings.com/products/husqvarna-brake-caliper-support-1) |
+| Husqvarna Technical Accessories | Brake Caliper Support | 78913914100 | 89.70 GBP | [Lings](https://lings.com/products/husqvarna-brake-caliper-support) |
 | Husqvarna Technical Accessories | Brake Caliper Support With Brake Disc Guard | 25113975044 | 162.24 GBP | [Lings](https://lings.com/products/husqvarna-brake-caliper-support-with-brake-disc-guard) |
 | Husqvarna Technical Accessories | Brake Disc | 58309060000 | 179.10 GBP | [Lings](https://lings.com/products/husqvarna-brake-disc) |
 | Husqvarna Technical Accessories | Brake Disc Guard | 8131100000000 | 77.04 GBP | [Lings](https://lings.com/products/husqvarna-brake-disc-guard) · [Lings](https://lings.com/products/husqvarna-supersprox-stealth-rear-sprocket) |
 | Husqvarna Technical Accessories | Brake Fluid Reservoir And Clutch Reservoir Cover | 81313903000 | 25.32 GBP | [Lings](https://lings.com/products/husqvarna-brake-fluid-reservoir-and-clutch-reservoir-cover) |
 | Husqvarna Technical Accessories | Brake Fluid Reservoir Cover | 8131400000000 | 18.12 GBP | [Lings](https://lings.com/products/husqvarna-brake-fluid-reservoir-cover-4) |
 | Husqvarna Technical Accessories | Brake Or Clutch Lever | 7800290000000 | 23.52 GBP | [Lings](https://lings.com/products/husqvarna-brake-or-clutch-lever) |
-| Husqvarna Technical Accessories | Brake Pads | 54813990100 | 27.12 GBP | [Lings](https://lings.com/products/husqvarna-brake-pads) |
-| Husqvarna Technical Accessories | Brake Pads | 59013930100 | 27.12 GBP | [Lings](https://lings.com/products/husqvarna-brake-pads-3) |
-| Husqvarna Technical Accessories | Brake Pads | 54813990200 | 36.24 GBP | [Lings](https://lings.com/products/husqvarna-brake-pads-1) |
 | Husqvarna Technical Accessories | Brake Pads | 59013930200 | 36.24 GBP | [Lings](https://lings.com/products/husqvarna-brake-pads-2) |
+| Husqvarna Technical Accessories | Brake Pads | 54813990200 | 36.24 GBP | [Lings](https://lings.com/products/husqvarna-brake-pads-1) |
+| Husqvarna Technical Accessories | Brake Pads | 59013930100 | 27.12 GBP | [Lings](https://lings.com/products/husqvarna-brake-pads-3) |
+| Husqvarna Technical Accessories | Brake Pads | 54813990100 | 27.12 GBP | [Lings](https://lings.com/products/husqvarna-brake-pads) |
 | Husqvarna Technical Accessories | C Spanner | 81319910000 | 27.12 GBP | [Lings](https://lings.com/products/husqvarna-c-spanner-1) |
 | Husqvarna Technical Accessories | C-Spanner | 79619910000 | 27.12 GBP | [Lings](https://lings.com/products/husqvarna-c-spanner) |
-| Husqvarna Technical Accessories | Chain | 78910065118 | 92.10 GBP | [Lings](https://lings.com/products/husqvarna-chain) |
 | Husqvarna Technical Accessories | Chain | 25010965118HA | 89.70 GBP | [Lings](https://lings.com/products/husqvarna-chain-2) |
+| Husqvarna Technical Accessories | Chain | 78910065118 | 92.10 GBP | [Lings](https://lings.com/products/husqvarna-chain) |
 | Husqvarna Technical Accessories | Chain | 50310165118 | 77.04 GBP | [Lings](https://lings.com/products/husqvarna-chain-1) |
 | Husqvarna Technical Accessories | Chain Breaker | 57929020000 | 48.12 GBP | [Lings](https://lings.com/products/husqvarna-chain-breaker) |
 | Husqvarna Technical Accessories | Chain Gauge | 00029920000HA | 18.12 GBP | [Lings](https://lings.com/products/husqvarna-chain-gauge) |
@@ -63,11 +81,11 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Husqvarna Technical Accessories | FMF Titan Powercore 2.1 Silencer | 50505979003 | 452.15 GBP | [Lings](https://lings.com/products/husqvarna-fmf-titan-powercore-2-1-silencer) |
 | Husqvarna Technical Accessories | Factory Adjuster Wheel | 2500190000000 | 18.12 GBP | [Lings](https://lings.com/products/husqvarna-factory-adjuster-wheel) |
 | Husqvarna Technical Accessories | Factory Control Cover | 24037905044 | 36.24 GBP | [Lings](https://lings.com/products/husqvarna-factory-control-cover) |
-| Husqvarna Technical Accessories | Factory Front Wheel 1.6 x 21" | 2500990000000 | 406.86 GBP | [Lings](https://lings.com/products/husqvarna-factory-front-wheel-1-6-x-22) |
 | Husqvarna Technical Accessories | Factory Front Wheel 1.6 x 21" | 7900990000000 | 406.86 GBP | [Lings](https://lings.com/products/husqvarna-factory-front-wheel-1-6-x-21) |
+| Husqvarna Technical Accessories | Factory Front Wheel 1.6 x 21" | 2500990000000 | 406.86 GBP | [Lings](https://lings.com/products/husqvarna-factory-front-wheel-1-6-x-22) |
 | Husqvarna Technical Accessories | Factory Fuel Cap | 80307908144 | 68.04 GBP | [Lings](https://lings.com/products/husqvarna-factory-fuel-cap) |
-| Husqvarna Technical Accessories | Factory Fuel Cap Vent | A54007930000C1 | 9.00 GBP | [Lings](https://lings.com/products/husqvarna-factory-fuel-cap-vent-1) |
 | Husqvarna Technical Accessories | Factory Fuel Cap Vent | 81307930000 | 9.00 GBP | [Lings](https://lings.com/products/husqvarna-factory-fuel-cap-vent) |
+| Husqvarna Technical Accessories | Factory Fuel Cap Vent | A54007930000C1 | 9.00 GBP | [Lings](https://lings.com/products/husqvarna-factory-fuel-cap-vent-1) |
 | Husqvarna Technical Accessories | Factory Piston | SXS16125907 I | 180.36 GBP | [Lings](https://lings.com/products/husqvarna-factory-piston-1) |
 | Husqvarna Technical Accessories | Factory Racing Brake Caliper | SXS07125712 | 859.92 GBP | [Lings](https://lings.com/products/husqvarna-factory-racing-brake-caliper-1) |
 | Husqvarna Technical Accessories | Factory Racing Brake Caliper | SXS09125512 | 995.82 GBP | [Lings](https://lings.com/products/husqvarna-factory-racing-brake-caliper) |
@@ -80,8 +98,8 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Husqvarna Technical Accessories | Factory Rear Wheel 2.15 x 19" | 2501090000000 | 497.46 GBP | [Lings](https://lings.com/products/husqvarna-factory-rear-wheel-2-15-x-21) |
 | Husqvarna Technical Accessories | Factory Seat | 25107240000 | 180.36 GBP | [Lings](https://lings.com/products/husqvarna-factory-seat) |
 | Husqvarna Technical Accessories | Factory Spark Plug | SXS02125071 | 53.52 GBP | [Lings](https://lings.com/products/husqvarna-factory-spark-plug) |
-| Husqvarna Technical Accessories | Factory Start Device | 81301996000 | 89.70 GBP | [Lings](https://lings.com/products/husqvarna-factory-start-device-1) |
 | Husqvarna Technical Accessories | Factory Start Device | 25101996000 | 89.70 GBP | [Lings](https://lings.com/products/husqvarna-factory-start-device) |
+| Husqvarna Technical Accessories | Factory Start Device | 81301996000 | 89.70 GBP | [Lings](https://lings.com/products/husqvarna-factory-start-device-1) |
 | Husqvarna Technical Accessories | Factory Steering Damper Bracket | 77012005544 | 62.58 GBP | [Lings](https://lings.com/products/husqvarna-factory-steering-damper-bracket-2) |
 | Husqvarna Technical Accessories | Feeler Gauge | 79129941000 | 18.12 GBP | [Lings](https://lings.com/products/husqvarna-feeler-gauge) |
 | Husqvarna Technical Accessories | First Aid Kit | 60412002200 | 14.46 GBP | [Lings](https://lings.com/products/husqvarna-first-aid-kit) |
@@ -100,20 +118,20 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Husqvarna Technical Accessories | Fork Pump Adaptor | T14086E | 68.94 GBP | [Lings](https://lings.com/products/husqvarna-fork-pump-adaptor) |
 | Husqvarna Technical Accessories | Fork Seal Doctor | 81329994000 | 26.33 GBP | [Lings](https://lings.com/products/husqvarna-fork-seal-doctor) |
 | Husqvarna Technical Accessories | Fork Shoe Protection Kit | 79601994000 | 27.12 GBP | [Lings](https://lings.com/products/husqvarna-fork-shoe-protection-kit) |
-| Husqvarna Technical Accessories | Frame Protection Set | 25103094000DB | 31.68 GBP | [Lings](https://lings.com/products/husqvarna-frame-protection-set-1) |
 | Husqvarna Technical Accessories | Frame Protection Set | 25103994000 | 36.24 GBP | [Lings](https://lings.com/products/husqvarna-frame-protection-set) |
+| Husqvarna Technical Accessories | Frame Protection Set | 25103094000DB | 31.68 GBP | [Lings](https://lings.com/products/husqvarna-frame-protection-set-1) |
 | Husqvarna Technical Accessories | Frame Protection Sticker Set | 2610400000000 | 23.52 GBP | [Lings](https://lings.com/products/husqvarna-frame-protection-sticker-set) |
+| Husqvarna Technical Accessories | Front Axle Puller | 7901000000000 | 25.32 GBP | [Lings](https://lings.com/products/husqvarna-front-axle-puller-3) · [Lings](https://lings.com/products/husqvarna-front-axle-puller-1) |
 | Husqvarna Technical Accessories | Front Axle Puller | 79009981060C1 | 25.32 GBP | [Lings](https://lings.com/products/husqvarna-front-axle-puller) |
-| Husqvarna Technical Accessories | Front Axle Puller | 7901000000000 | 25.32 GBP | [Lings](https://lings.com/products/husqvarna-front-axle-puller-1) · [Lings](https://lings.com/products/husqvarna-front-axle-puller-3) |
 | Husqvarna Technical Accessories | Front Fender | 25008010000AB | 30.60 GBP | [Lings](https://lings.com/products/husqvarna-front-fender-1) |
 | Husqvarna Technical Accessories | Front Wheel 3.5 x 16.5'' | 2610900000000 | 544.38 GBP | [Lings](https://lings.com/products/husqvarna-front-wheel-3-5-x-16-5) |
 | Husqvarna Technical Accessories | Gear Shift Lever Step Plate | 25534931044 | 44.46 GBP | [Lings](https://lings.com/products/husqvarna-gear-shift-lever-step-plate) |
 | Husqvarna Technical Accessories | Handguard Bushing Kit | 79702988044 | 18.12 GBP | [Lings](https://lings.com/products/husqvarna-handguard-bushing-kit) |
-| Husqvarna Technical Accessories | Handguard Kit | 78002079200AB | 44.52 GBP | [Lings](https://lings.com/products/husqvarna-handguard-kit) |
-| Husqvarna Technical Accessories | Handguard Kit | 25002979000AB | 44.46 GBP | [Lings](https://lings.com/products/husqvarna-handguard-kit-7) |
 | Husqvarna Technical Accessories | Handguard Kit | 7800210000000 | 53.52 GBP | [Lings](https://lings.com/products/husqvarna-handguard-kit-3) |
-| Husqvarna Technical Accessories | Handguard Kit | 60302179100AB | 58.92 GBP | [Lings](https://lings.com/products/husqvarna-handguard-kit-1) |
+| Husqvarna Technical Accessories | Handguard Kit | 78002079200AB | 44.52 GBP | [Lings](https://lings.com/products/husqvarna-handguard-kit) |
 | Husqvarna Technical Accessories | Handguard Kit | 6030220000000 | 58.92 GBP | [Lings](https://lings.com/products/husqvarna-handguard-kit-2) |
+| Husqvarna Technical Accessories | Handguard Kit | 25002979000AB | 44.46 GBP | [Lings](https://lings.com/products/husqvarna-handguard-kit-7) |
+| Husqvarna Technical Accessories | Handguard Kit | 60302179100AB | 58.92 GBP | [Lings](https://lings.com/products/husqvarna-handguard-kit-1) |
 | Husqvarna Technical Accessories | Handguard Sticker Set | 25002990100 | 9.00 GBP | [Lings](https://lings.com/products/husqvarna-handguard-sticker-set) |
 | Husqvarna Technical Accessories | Handlebar | 5480200000000 | 89.70 GBP | [Lings](https://lings.com/products/husqvarna-handlebar) |
 | Husqvarna Technical Accessories | Handlebar Ends | 27002904000 | 14.46 GBP | [Lings](https://lings.com/products/husqvarna-handlebar-ends) |
@@ -125,15 +143,15 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Husqvarna Technical Accessories | Hub Sticker Set | 25109998000 | 8.10 GBP | [Lings](https://lings.com/products/husqvarna-hub-sticker-set) |
 | Husqvarna Technical Accessories | Lashing Strap Set | 81312950000 | 44.46 GBP | [Lings](https://lings.com/products/husqvarna-lashing-strap-set) |
 | Husqvarna Technical Accessories | Lashing Strap Set | 26112950000 | 44.46 GBP | [Lings](https://lings.com/products/husqvarna-lashing-strap-set-1) |
-| Husqvarna Technical Accessories | Left Hand Air Filter Cover | 25106903000AB | 27.12 GBP | [Lings](https://lings.com/products/husqvarna-left-hand-air-filter-cover-1) |
-| Husqvarna Technical Accessories | Left Hand Air Filter Cover | 25106003000DB | 26.22 GBP | [Lings](https://lings.com/products/husqvarna-left-hand-air-filter-cover-2) |
 | Husqvarna Technical Accessories | Left Hand Air Filter Cover | 25106003000AB | 28.20 GBP | [Lings](https://lings.com/products/husqvarna-left-hand-air-filter-cover-3) |
-| Husqvarna Technical Accessories | Left Hand Side Fairing | 25106013000DB | 26.22 GBP | [Lings](https://lings.com/products/husqvarna-left-hand-side-fairing) |
+| Husqvarna Technical Accessories | Left Hand Air Filter Cover | 25106003000DB | 26.22 GBP | [Lings](https://lings.com/products/husqvarna-left-hand-air-filter-cover-2) |
+| Husqvarna Technical Accessories | Left Hand Air Filter Cover | 25106903000AB | 27.12 GBP | [Lings](https://lings.com/products/husqvarna-left-hand-air-filter-cover-1) |
 | Husqvarna Technical Accessories | Left Hand Side Fairing | 25106013000AB | 26.22 GBP | [Lings](https://lings.com/products/husqvarna-left-hand-side-fairing-1) |
+| Husqvarna Technical Accessories | Left Hand Side Fairing | 25106013000DB | 26.22 GBP | [Lings](https://lings.com/products/husqvarna-left-hand-side-fairing) |
 | Husqvarna Technical Accessories | Lift Stand | 81329955100 | 77.04 GBP | [Lings](https://lings.com/products/husqvarna-lift-stand) |
 | Husqvarna Technical Accessories | Lock On Grip Set | 26102924100 | 27.12 GBP | [Lings](https://lings.com/products/husqvarna-lock-on-grip-set-2) |
-| Husqvarna Technical Accessories | Lock On Grip Set | 26102923000 | 27.12 GBP | [Lings](https://lings.com/products/husqvarna-lock-on-grip-set) |
 | Husqvarna Technical Accessories | Lock On Grip Set | 79002923100 | 27.12 GBP | [Lings](https://lings.com/products/husqvarna-lock-on-grip-set-1) |
+| Husqvarna Technical Accessories | Lock On Grip Set | 26102923000 | 27.12 GBP | [Lings](https://lings.com/products/husqvarna-lock-on-grip-set) |
 | Husqvarna Technical Accessories | Lock On Grip Set - Jeff Emig | 26502924000 | 27.12 GBP | [Lings](https://lings.com/products/husqvarna-lock-on-grip-set-jeff-emig) |
 | Husqvarna Technical Accessories | Lower Section Of The Air Filter | 25106001100DB | 36.24 GBP | [Lings](https://lings.com/products/husqvarna-lower-section-of-the-air-filter) |
 | Husqvarna Technical Accessories | Measuring Cup | 26129963000 | 9.00 GBP | [Lings](https://lings.com/products/husqvarna-measuring-cup) |
@@ -157,36 +175,36 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Husqvarna Technical Accessories | Rear Brake Safety Wire | 54812063044 | 9.00 GBP | [Lings](https://lings.com/products/husqvarna-rear-brake-safety-wire) |
 | Husqvarna Technical Accessories | Rear Sprocket | 58210951048, 58210951049, 58210951050, 58210951051, 58210951052 | 27.12 GBP | [Lings](https://lings.com/products/husqvarna-rear-sprocket-1) |
 | Husqvarna Technical Accessories | Rear Wheel 5 x 17'' | 2611000000000 | 623.46 GBP | [Lings](https://lings.com/products/husqvarna-rear-wheel-5-x-17) |
-| Husqvarna Technical Accessories | Renthal Twinwall Handlebar | 2510290000000 | 181.20 GBP | [Lings](https://lings.com/products/husqvarna-renthal-twinwall-handlebar) |
 | Husqvarna Technical Accessories | Renthal Twinwall Handlebar | 79502901000C1 | 181.20 GBP | [Lings](https://lings.com/products/husqvarna-renthal-twinwall-handlebar-1) |
-| Husqvarna Technical Accessories | Right Hand Air Filter Cover | 25106004000AB | 28.20 GBP | [Lings](https://lings.com/products/husqvarna-right-hand-air-filter-cover-1) |
+| Husqvarna Technical Accessories | Renthal Twinwall Handlebar | 2510290000000 | 181.20 GBP | [Lings](https://lings.com/products/husqvarna-renthal-twinwall-handlebar) |
 | Husqvarna Technical Accessories | Right Hand Air Filter Cover | 25106004000DB | 26.22 GBP | [Lings](https://lings.com/products/husqvarna-right-hand-air-filter-cover) |
+| Husqvarna Technical Accessories | Right Hand Air Filter Cover | 25106004000AB | 28.20 GBP | [Lings](https://lings.com/products/husqvarna-right-hand-air-filter-cover-1) |
 | Husqvarna Technical Accessories | Right Hand Side Fairing | 25106014000AB | 26.22 GBP | [Lings](https://lings.com/products/husqvarna-right-hand-side-fairing-1) |
 | Husqvarna Technical Accessories | Rockstar Graphics Kit | 25108990000 | 144.12 GBP | [Lings](https://lings.com/products/husqvarna-rockstar-graphics-kit-1) |
 | Husqvarna Technical Accessories | Rockstar Graphics Kit | 26208990000 | 144.12 GBP | [Lings](https://lings.com/products/husqvarna-rockstar-graphics-kit) |
 | Husqvarna Technical Accessories | Safety Wire | 54812016000 | 34.38 GBP | [Lings](https://lings.com/products/husqvarna-safety-wire) |
 | Husqvarna Technical Accessories | Sag Scale | 29090200 | 49.86 GBP | [Lings](https://lings.com/products/husqvarna-sag-scale) |
 | Husqvarna Technical Accessories | Screw Pan | 7803000000000 | 22.62 GBP | [Lings](https://lings.com/products/husqvarna-screw-pan) |
-| Husqvarna Technical Accessories | Seat | 25107940200 | 135.06 GBP | [Lings](https://lings.com/products/husqvarna-seat-2) |
-| Husqvarna Technical Accessories | Seat | 25107940100 | 135.06 GBP | [Lings](https://lings.com/products/husqvarna-seat-3) |
 | Husqvarna Technical Accessories | Seat | 25107940000 | 135.06 GBP | [Lings](https://lings.com/products/husqvarna-seat-4) |
 | Husqvarna Technical Accessories | Seat | 25107940500 | 121.55 GBP | [Lings](https://lings.com/products/husqvarna-seat) |
+| Husqvarna Technical Accessories | Seat | 25107940100 | 135.06 GBP | [Lings](https://lings.com/products/husqvarna-seat-3) |
+| Husqvarna Technical Accessories | Seat | 25107940200 | 135.06 GBP | [Lings](https://lings.com/products/husqvarna-seat-2) |
 | Husqvarna Technical Accessories | Seat Pocket | 79407978000 | 10.80 GBP | [Lings](https://lings.com/products/husqvarna-seat-pocket) |
-| Husqvarna Technical Accessories | Skid Plate | 24003990000 | 89.70 GBP | [Lings](https://lings.com/products/husqvarna-skid-plate-1) |
 | Husqvarna Technical Accessories | Skid Plate | 24003990544 | 135.06 GBP | [Lings](https://lings.com/products/husqvarna-skid-plate-2) |
+| Husqvarna Technical Accessories | Skid Plate | 24003990000 | 89.70 GBP | [Lings](https://lings.com/products/husqvarna-skid-plate-1) |
 | Husqvarna Technical Accessories | Spark Plug Box | 78029064000H1 | 5.40 GBP | [Lings](https://lings.com/products/husqvarna-spark-plug-box) |
 | Husqvarna Technical Accessories | Spoiler Set | 25108054000AB | 53.52 GBP | [Lings](https://lings.com/products/husqvarna-spoiler-set) |
 | Husqvarna Technical Accessories | Spoke Wrench | 77212991100 | 14.46 GBP | [Lings](https://lings.com/products/husqvarna-spoke-wrench) |
 | Husqvarna Technical Accessories | Spring Hook | 50305017000C1 | 12.66 GBP | [Lings](https://lings.com/products/husqvarna-spring-hook) |
-| Husqvarna Technical Accessories | Start Number Backgrounds | 2660900000000 | 36.24 GBP | [Lings](https://lings.com/products/husqvarna-start-number-backgrounds-6) |
 | Husqvarna Technical Accessories | Start Number Backgrounds | 26608988100C1 | 36.24 GBP | [Lings](https://lings.com/products/husqvarna-start-number-backgrounds-2) |
 | Husqvarna Technical Accessories | Start Number Backgrounds | 26608988100AB | 36.24 GBP | [Lings](https://lings.com/products/husqvarna-start-number-backgrounds-3) |
+| Husqvarna Technical Accessories | Start Number Backgrounds | 2660900000000 | 36.24 GBP | [Lings](https://lings.com/products/husqvarna-start-number-backgrounds-6) |
 | Husqvarna Technical Accessories | Start Number Plate | 25108007000DB | 27.12 GBP | [Lings](https://lings.com/products/husqvarna-start-number-plate-1) |
 | Husqvarna Technical Accessories | Start Number Plate | 25108007000AB | 28.68 GBP | [Lings](https://lings.com/products/husqvarna-start-number-plate) |
 | Husqvarna Technical Accessories | Start Numbers | 322200, 322201, 322202, 322203, 322204, 322205, 322206, 322207, 322208, 322209 | 2.70 GBP | [Lings](https://lings.com/products/husqvarna-start-numbers-1) |
 | Husqvarna Technical Accessories | Start Numbers | 322100, 322101, 322102, 322103, 322104, 322105, 322106, 322107, 322108, 322109 | 2.70 GBP | [Lings](https://lings.com/products/husqvarna-start-numbers) |
-| Husqvarna Technical Accessories | Steering Damper Bracket | 79012960100 | 77.04 GBP | [Lings](https://lings.com/products/husqvarna-steering-damper-bracket-1) |
 | Husqvarna Technical Accessories | Steering Damper Bracket | 58512050544 | 62.58 GBP | [Lings](https://lings.com/products/husqvarna-steering-damper-bracket) |
+| Husqvarna Technical Accessories | Steering Damper Bracket | 79012960100 | 77.04 GBP | [Lings](https://lings.com/products/husqvarna-steering-damper-bracket-1) |
 | Husqvarna Technical Accessories | Steering Damper Counter Bearing | 79012970100 | 162.24 GBP | [Lings](https://lings.com/products/husqvarna-steering-damper-counter-bearing) |
 | Husqvarna Technical Accessories | Step Up Seat | 25107940400 | 135.06 GBP | [Lings](https://lings.com/products/husqvarna-step-up-seat) |
 | Husqvarna Technical Accessories | Swingarm Protection | 7720500000000 | 58.92 GBP | [Lings](https://lings.com/products/husqvarna-swingarm-protection) |
@@ -203,8 +221,8 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Husqvarna Technical Accessories | Wave Brake Disc | 25009960000 | 144.12 GBP | [Lings](https://lings.com/products/husqvarna-wave-brake-disc-1) |
 | Husqvarna Technical Accessories | Wheel Rim Sticker Kit | 25109999000 | 27.12 GBP | [Lings](https://lings.com/products/husqvarna-wheel-rim-sticker-kit-1) |
 | Husqvarna Technical Accessories | Wire Pliers | 29015100 | 53.52 GBP | [Lings](https://lings.com/products/husqvarna-wire-pliers-1) |
-| Husqvarna Technical Accessories | Wrap Around Handguard Kit | 25102085044 | 34.38 GBP | [Lings](https://lings.com/products/husqvarna-wrap-around-handguard-kit) |
 | Husqvarna Technical Accessories | Wrap Around Handguard Kit | 79102984000 | 53.52 GBP | [Lings](https://lings.com/products/husqvarna-wrap-around-handguard-kit-1) |
+| Husqvarna Technical Accessories | Wrap Around Handguard Kit | 25102085044 | 34.38 GBP | [Lings](https://lings.com/products/husqvarna-wrap-around-handguard-kit) |
 | Husqvarna Technical Accessories | X Ring Chain | 78010267118 | 92.10 GBP | [Lings](https://lings.com/products/husqvarna-x-ring-chain) |
 | Husqvarna Technical Accessories | XW Ring Chain | 26510965118HA | 126.00 GBP | [Lings](https://lings.com/products/husqvarna-xw-ring-chain) |
 
@@ -587,5 +605,5 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 Uncategorised 344, Handlebars & Controls 205, Chain & Sprocket 125, Exhaust 74, Batteries & Electrical 41, Air & Fuel 37, Lighting 34, Gauges 32, Utv / Atv Parts 31, Bike Protection 29, Suspension 24, Body & Fairing 7, Drive & Transmission 6, Filters 3, Brakes 1, Tire Accessories 1
 
-Top brands: Pro Taper 60, Bolt Hardware 58, Moose Racing 53, Acerbis 49, Cycra 49, Zeta 41, ODI 39, Renthal 38, Fire Power 34, RFX 32, Helix Racing Products 29, Factory Effex 28, RK 27, Namz 25, Barkbusters 21, Polisport 19, Motion Pro 19, EK Chain 18, Koso 18, Motolis 15, FMF 15, Pro Grip 14, K&N 14, BBR Motorsports 12, BikeMaster 12
+Top brands: Pro Taper 60, Bolt Hardware 58, Moose Racing 53, Acerbis 49, Cycra 49, Zeta 41, ODI 39, Renthal 38, Fire Power 34, RFX 32, Helix Racing Products 29, Factory Effex 28, RK 27, Namz 25, Barkbusters 21, Motion Pro 19, Polisport 19, EK Chain 18, Koso 18, FMF 15, Motolis 15, K&N 14, Pro Grip 14, BikeMaster 12, BBR Motorsports 12
 

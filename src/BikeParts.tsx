@@ -5,6 +5,8 @@ import {partSystems,readInstalled,writeInstalled,partLabel,MAX_PARTS,type Instal
 import {partsForBike,type CatalogPart} from './partsCatalog';
 import {api} from './client';
 import {partTypes,typeOf} from './partTypes';
+import {workProviders,type WorkProvider} from '../shared/work-providers';
+import {fuelSystem,fuelSystemLabel} from '../shared/fuel-system';
 
 const ICON:Record<PartSystem,typeof Flame>={exhaust:Flame,suspension:MoveVertical,engine:Cog,clutch:Disc,tuning:Cpu,intake:Wind,gearing:LinkIcon,brakes:Disc3,controls:Hand,chassis:Frame,wheels:CircleDot,protection:Shield,body:Layers};
 const NOTE_HINT:Partial<Record<PartSystem,string>>={suspension:'Who revalved it, spring rates, oil height, anything non-stock inside',exhaust:'Insert in or out, spark arrester, packing age',tuning:'Map name or tuner, fuel used',gearing:'Exact sprocket sizes if not listed above',engine:'Hours on the top end, compression, other work',wheels:'Tire model and pressures you run'};
@@ -60,13 +62,28 @@ function cleanName(brand:string,name:string){
   .replace(/\s*,\s*(?=,|$)/g,'').replace(/\s{2,}/g,' ').replace(/[\s,\-/]+$/,'').trim();
  return n||name;
 }
-/** Work that isn't a boxed part; picking one asks who did it. */
-const WORK:Partial<Record<PartSystem,string[]>>={suspension:['Fork revalved','Shock revalved','Fork serviced','Shock serviced'],engine:['Ported head','Rebuilt top end','Rebuilt bottom end'],tuning:['ECU remapped'],clutch:['Clutch rebuilt']};
+/** Work that isn't a boxed part; picking one asks who did it and what they did. */
+type Work={label:string;kind?:WorkProvider['work'];detail:string;example:string};
+const WORK:Partial<Record<PartSystem,Work[]>>={
+ suspension:[{label:'Fork revalved',kind:'suspension',detail:'Valving, springs, oil height',example:'e.g. stiffer mid-valve, 0.50 springs'},{label:'Shock revalved',kind:'suspension',detail:'Valving, spring rate',example:'e.g. more low-speed comp, 5.4 spring'},
+  {label:'Fork serviced',kind:'suspension',detail:'Hours since, oil used',example:'e.g. 20 hours ago, stock valving'},{label:'Shock serviced',kind:'suspension',detail:'Hours since',example:'e.g. 20 hours ago'}],
+ tuning:[{label:'ECU flashed or remapped',kind:'ecu',detail:'Map name or number, what it’s set up for',example:'e.g. green map, pump gas, FMF pipe'}],
+ engine:[{label:'Head ported',detail:'What was done',example:'e.g. ported and polished, new valves'},{label:'Top end rebuilt',detail:'Hours since, piston used',example:'e.g. 5 hours ago, Vertex high comp'},{label:'Bottom end rebuilt',detail:'Hours since',example:'e.g. 30 hours ago'}],
+ clutch:[{label:'Clutch rebuilt',detail:'Plates and springs used',example:'e.g. new plates, heavy springs'}],
+};
+/** Shops that list this exact model first, then this make, then shops with no bike list; one row per shop. The service name is
+ *  shown only when the shop lists this model, so a 300 SX never reads "KTM 450 mail-in tuning". */
+function providersFor(kind:WorkProvider['work'],make:string,model:string){
+ const rank=(p:WorkProvider)=>p.models.includes(make+'|'+model)?2:p.makes.includes(make)?1:0;
+ const m=new Map<string,WorkProvider>();
+ for(const p of workProviders.filter(p=>p.work===kind&&(!p.makes.length||p.makes.includes(make))).sort((a,b)=>rank(b)-rank(a)))if(!m.has(p.brand))m.set(p.brand,p);
+ return [...m.values()].map(p=>({...p,label:rank(p)===2?p.name:kind==='ecu'?'ECU flash and mapping':'Revalves and suspension service'}));
+}
 type Choice={brand:string;name:string;pn:string;r?:string;verified:boolean;what:string;caution:string;testers:string[];type:string|null};
-type Screen={id:'home'}|{id:'type'}|{id:'brand';type:string|null}|{id:'product';type:string|null;brand:string}|{id:'custom';brand:string;type:string|null};
+type Screen={id:'home'}|{id:'type'}|{id:'work';work:Work}|{id:'detail';work:Work;who:string;r?:string}|{id:'brand';type:string|null}|{id:'product';type:string|null;brand:string}|{id:'custom';brand:string;type:string|null};
 
 function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSystem;bike:Bike;value:Value;catalog:CatalogPart[]|null;busy:boolean;close:()=>void;save:(v:Value)=>void}){
- const meta=partSystems.find(s=>s.key===system)!;
+ const meta=partSystems.find(s=>s.key===system)!,fuel=fuelSystem(bike.manufacturer,bike.model,bike.model_year);
  const others=value.parts.filter(p=>p.s!==system);
  const [mode,setMode]=useState<'stock'|'changed'|'unknown'>(value.parts.some(p=>p.s===system)?'changed':value.stock.includes(system)?'stock':'unknown');
  const [picked,setPicked]=useState<InstalledPart[]>(value.parts.filter(p=>p.s===system));
@@ -77,13 +94,15 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
  useEffect(()=>{dialog.current?.querySelector('.sheet-body')?.scrollTo(0,0)},[stack.length]);
  // the listed parts for this bike and system, one row per brand and name, with small service parts kept out
  const choices=useMemo(()=>{const m=new Map<string,Choice>();
-  for(const c of catalog??[]){if(c.system!==system)continue;const brand=brandOf(c),name=cleanName(brand,c.name),type=typeOf(system,c.name);
+  for(const c of catalog??[]){if(c.system!==system||c.service||(fuel==='injected'&&c.fuel==='c')||(fuel==='carburetor'&&c.fuel==='i'))continue;const brand=brandOf(c),name=cleanName(brand,c.name),type=typeOf(system,c.name);
    const k=(brand+'|'+name).toLowerCase(),prev=m.get(k);
    if(!prev)m.set(k,{brand,name,pn:c.pn.split(/[\s,]+/)[0]??'',r:c.r,verified:c.verified,what:c.what,caution:c.caution,testers:c.testers,type});
    else if(c.r&&!prev.r)m.set(k,{...prev,r:c.r,verified:c.verified,what:c.what,caution:c.caution,testers:c.testers});}
-  return [...m.values()];},[catalog,system]);
+  return [...m.values()];},[catalog,system,fuel]);
  const main=choices.filter(c=>c.type||c.r);
  const types=(partTypes[system]??[]).map(t=>({label:t.label,count:main.filter(c=>c.type===t.label).length})).filter(t=>t.count>0||!catalog);
+ const firstStep=():Screen=>types.length||WORK[system]?{id:'type'}:{id:'brand',type:null};
+ const [detail,setDetail]=useState('');
  const inType=(type:string|null)=>type?main.filter(c=>c.type===type):choices;
  const brandsFor=(type:string|null)=>{const m=new Map<string,{n:number;r:number}>();for(const c of inType(type)){const v=m.get(c.brand)??{n:0,r:0};v.n++;if(c.r)v.r++;m.set(c.brand,v)}
   return [...m.entries()].sort((a,b)=>b[1].r-a[1].r||b[1].n-a[1].n||a[0].localeCompare(b[0]))};
@@ -98,10 +117,11 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
   const notes={...value.notes};if(note.trim()&&mode!=='unknown')notes[system]=note.trim();else delete notes[system];
   save({parts,stock,notes});
  }
- const title=screen.id==='home'?meta.label:screen.id==='type'?'What did you change?':screen.id==='brand'?'Which brand?':screen.id==='product'?screen.brand:'Add it yourself';
- const sub=screen.id==='home'?meta.hint:screen.id==='brand'?(screen.type??'Any '+meta.label.toLowerCase()+' part'):screen.id==='product'?(screen.type??meta.label):screen.id==='type'?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:'';
+ const title=screen.id==='home'?meta.label:screen.id==='type'?'What did you change?':screen.id==='work'?'Who did it?':screen.id==='detail'?screen.work.label:screen.id==='brand'?'Which brand?':screen.id==='product'?screen.brand:'Add it yourself';
+ const sub=screen.id==='home'?meta.hint:screen.id==='brand'?(screen.type??'Any '+meta.label.toLowerCase()+' part'):screen.id==='product'?(screen.type??meta.label):screen.id==='type'?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:screen.id==='work'?screen.work.label:screen.id==='detail'?(screen.who||'Who did it not recorded'):'';
  const Row=({label,detail,onClick,tag,chev=true,selected=false}:{label:ReactNode;detail?:ReactNode;onClick:()=>void;tag?:ReactNode;chev?:boolean;selected?:boolean})=>
   <li><button className={'nav-row'+(selected?' selected':'')} onClick={onClick}><span className="nav-main">{label}{tag}</span>{detail!==undefined&&<span className="nav-detail">{detail}</span>}{selected?<Check size={18} className="nav-check"/>:chev&&<ChevronRight size={18} className="nav-chev"/>}</button></li>;
+ const workList=WORK[system]?<><h3 className="nav-section">WORK DONE</h3><ul className="nav-list">{WORK[system]!.map(w=><Row key={w.label} label={<b>{w.label}</b>} detail={w.kind?'Who did it?':undefined} onClick={()=>push({id:'work',work:w})}/>)}</ul></>:null;
  const search=(placeholder:string)=><label className="search-field nav-search"><Search size={16}/><input value={query} onChange={e=>setQuery(e.target.value)} placeholder={placeholder} aria-label={placeholder}/></label>;
  return <div className="sheet-backdrop" onMouseDown={e=>{if(e.target===e.currentTarget)close()}}>
   <section className="sheet nav-sheet" role="dialog" aria-modal="true" aria-labelledby="sheet-title" tabIndex={-1} ref={dialog}>
@@ -114,25 +134,40 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
     {screen.id==='home'&&<>
      <ul className="nav-list">
       <Row label={<><b>Stock</b><small>Factory parts and setup</small></>} selected={mode==='stock'} chev={false} onClick={()=>setMode('stock')}/>
-      <Row label={<><b>Changed</b><small>Aftermarket parts or work</small></>} selected={mode==='changed'} chev={!picked.length&&mode!=='changed'} onClick={()=>{setMode('changed');if(!picked.length)push(types.length?{id:'type'}:{id:'brand',type:null});}}/>
+      <Row label={<><b>Changed</b><small>Aftermarket parts or work</small></>} selected={mode==='changed'} chev={!picked.length&&mode!=='changed'} onClick={()=>{setMode('changed');if(!picked.length)push(firstStep());}}/>
       <Row label={<><b>Not sure</b><small>BAK won’t assume anything here</small></>} selected={mode==='unknown'} chev={false} onClick={()=>setMode('unknown')}/>
      </ul>
      {mode==='changed'&&<>
       <h3 className="nav-section">ON YOUR BIKE</h3>
       <ul className="nav-list">
        {picked.map(p=>{const r=notesFor(p);return <li key={key(p)} className="fitted">
-        <div className="fitted-top"><span className="nav-main"><b>{[p.b,p.n].filter(Boolean).join(' ')}</b>{p.p&&<small>Part # {p.p}</small>}</span><button className="fitted-remove" onClick={()=>setPicked(picked.filter(x=>key(x)!==key(p)))} aria-label={`Remove ${partLabel(p)}`}>Remove</button></div>
+        <div className="fitted-top"><span className="nav-main"><b>{[p.b,p.n].filter(Boolean).join(' ')}</b>{p.d&&<small>{p.d}</small>}{p.p&&<small>Part # {p.p}</small>}</span><button className="fitted-remove" onClick={()=>setPicked(picked.filter(x=>key(x)!==key(p)))} aria-label={`Remove ${partLabel(p)}`}>Remove</button></div>
         {r&&(r.what||r.caution)&&<div className="part-notes">{r.what&&<p><span>What it changes</span>{r.what}</p>}{r.caution&&<p className="caution"><span>Heads up</span>{r.caution}</p>}{r.testers.slice(0,1).map(x=><p key={x}><span>Testers found</span>{x}</p>)}</div>}
        </li>})}
-       <Row label={<span className="nav-add"><Plus size={17}/>Add a part</span>} onClick={()=>push(types.length?{id:'type'}:{id:'brand',type:null})}/>
+       <Row label={<span className="nav-add"><Plus size={17}/>Add a part</span>} onClick={()=>push(firstStep())}/>
       </ul></>}
      {mode!=='unknown'&&<label className="field nav-note"><span>Anything else BAK should know? (optional)</span><textarea value={note} onChange={e=>setNote(e.target.value)} rows={2} maxLength={280} placeholder={NOTE_HINT[system]??'Condition, settings or work done'}/></label>}
     </>}
-    {screen.id==='type'&&<ul className="nav-list">
+    {screen.id==='type'&&system==='tuning'&&workList}
+    {screen.id==='type'&&system==='tuning'&&fuel&&<p className="legend">Your {bike.model} is {fuelSystemLabel(fuel)}, so {fuel==='injected'?'carburetor and jetting':'fuel-injection'} parts are hidden.</p>}
+    {screen.id==='type'&&(types.length>0||system!=='tuning')&&<>{system==='tuning'&&<h3 className="nav-section">PARTS</h3>}<ul className="nav-list">
      {types.map(t=><Row key={t.label} label={<b>{t.label}</b>} detail={t.count||undefined} onClick={()=>push({id:'brand',type:t.label})}/>)}
      <Row label={<b>Something else</b>} onClick={()=>push({id:'brand',type:null})}/>
-    </ul>}
-    {screen.id==='type'&&WORK[system]&&<><h3 className="nav-section">WORK DONE</h3><ul className="nav-list">{WORK[system]!.map(w=><Row key={w} label={<b>{w}</b>} detail="Who did it?" onClick={()=>{setCustom({b:'',n:w,p:''});push({id:'custom',brand:'',type:w})}}/>)}</ul></>}
+    </ul></>}
+    {screen.id==='type'&&system!=='tuning'&&workList}
+    {screen.id==='work'&&(()=>{const w=screen.work,shops=w.kind?providersFor(w.kind,bike.manufacturer,bike.model):[],go=(who:string,r?:string)=>{setDetail('');push({id:'detail',work:w,who,...(r?{r}:{})})};return <>
+     {shops.length>0&&<><h3 className="nav-section">{w.kind==='ecu'?'TUNERS':'SUSPENSION SHOPS'}</h3><ul className="nav-list">
+      {shops.map(p=><Row key={p.id} label={<><b>{p.brand}</b><small>{p.label}</small></>} onClick={()=>go(p.brand,p.id)}/>)}</ul></>}
+     <ul className="nav-list">
+      <Row label={<b>Someone else</b>} detail="Type it" onClick={()=>{setCustom({b:'',n:w.label,p:''});push({id:'custom',brand:'',type:w.label})}}/>
+      <Row label={<b>{w.kind==='ecu'?'My dealer':'My dealer or local shop'}</b>} onClick={()=>go(w.kind==='ecu'?'Dealer':'Local shop')}/>
+      <Row label={<b>I did it myself</b>} onClick={()=>go('Myself')}/>
+      <Row label={<b>Not sure who</b>} onClick={()=>go('')}/>
+     </ul></>})()}
+    {screen.id==='detail'&&<div className="nav-form">
+     <Labeled label={`${screen.work.detail} (optional)`}><textarea autoFocus rows={2} value={detail} onChange={e=>setDetail(e.target.value)} placeholder={screen.work.example} maxLength={120}/></Labeled>
+     <button className="button" onClick={()=>add({s:system,b:screen.who==='Myself'?'':screen.who,n:screen.work.label+(screen.who==='Myself'?' (myself)':''),...(detail.trim()?{d:detail.trim()}:{}),...(screen.r?{r:screen.r}:{x:true})})}>Add to my bike</button>
+    </div>}
     {screen.id==='brand'&&(()=>{const list=brandsFor(screen.type).filter(([b])=>match(b));return <>
      {brandsFor(screen.type).length>8&&search('Search brands')}
      <ul className="nav-list">
@@ -155,8 +190,8 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
      {list.some(c=>c.r)&&<p className="legend"><b>Confirmed fit</b>: the part maker lists your bike. <b>BAK knows it</b>: BAK has notes on what it changes.</p>}
      <ul className="nav-list"><Row label={<b>Not listed?</b>} detail="Type it" onClick={()=>{setCustom({b:screen.brand,n:query,p:''});push({id:'custom',brand:screen.brand,type:screen.type})}}/></ul></>})()}
     {screen.id==='custom'&&<div className="nav-form">
-     <Labeled label={WORK[system]?.includes(custom.n)?'Who did the work? (shop or tuner, optional)':'Brand'}><input value={custom.b} onChange={e=>setCustom({...custom,b:e.target.value})} placeholder="e.g. FMF" maxLength={60}/></Labeled>
-     <Labeled label="Part"><input autoFocus value={custom.n} onChange={e=>setCustom({...custom,n:e.target.value})} placeholder="e.g. Factory 4.1 RCT titanium slip-on" maxLength={90}/></Labeled>
+     <Labeled label={WORK[system]?.some(w=>w.label===custom.n)?'Who did the work? (shop or tuner)':'Brand'}><input autoFocus={WORK[system]?.some(w=>w.label===custom.n)} value={custom.b} onChange={e=>setCustom({...custom,b:e.target.value})} placeholder={WORK[system]?.some(w=>w.label===custom.n)?'e.g. the shop’s name':'e.g. FMF'} maxLength={60}/></Labeled>
+     <Labeled label={WORK[system]?.some(w=>w.label===custom.n)?'Work done':'Part'}><input autoFocus={!WORK[system]?.some(w=>w.label===custom.n)} value={custom.n} onChange={e=>setCustom({...custom,n:e.target.value})} placeholder="e.g. Factory 4.1 RCT titanium slip-on" maxLength={90}/></Labeled>
      <Labeled label="Part number (optional)"><input value={custom.p} onChange={e=>setCustom({...custom,p:e.target.value})} maxLength={48}/></Labeled>
      <button className="button" disabled={!custom.n.trim()&&!custom.b.trim()} onClick={()=>add({s:system,b:custom.b.trim(),n:custom.n.trim(),...(custom.p.trim()?{p:custom.p.trim()}:{}),x:true})}>Add to my bike</button>
     </div>}

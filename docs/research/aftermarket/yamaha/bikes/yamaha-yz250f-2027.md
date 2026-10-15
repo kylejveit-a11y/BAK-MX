@@ -1,12 +1,16 @@
 # Yamaha YZ250F 2027: aftermarket parts
 
-2537 listings whose stated fitment names this bike: 1 researched parts (with what they change and rider findings), 56 dealer and retailer listings specific to this bike, and 2480 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+2541 listings whose stated fitment names this bike: 5 researched parts (with what they change and rider findings), 56 dealer and retailer listings specific to this bike, and 2480 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
 | Rekluse | TorqDrive Clutch Pack - YAM 450F 23 | RMS-2807176 | Rekluse claims additional friction disks give 'an average of a 25% gain in torque capacity over stock', about 10% lower lever effort, and 'Virtually eliminates clutch fade.' | Not a replacement pack for RadiusX/RadiusCX/Core Manual TorqDrive. The YZ250F listing in its fitment tab conflicts with the product title; confirm before use. | [Rekluse](https://www.rekluse.com/product/manual-clutches/torq-drive-clutch-pack/torqdrive-clutch-pack-yam-450f-23/) | high |
+| FMF | Factory 4.1 RCT full system - YZ250F | 044499, 044500 | FMF: Resonance Chamber Technology inside and out, shorter length, muffler moved forward to centralize mass; claims 'massive' power gains across the rpm range and big weight savings; RTS quick-tuning. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/stainless-steel-alum-fact-4-1-rct-w-r-carbon-cap-full-system-044499) | high |
+| FMF | MegaBomb header - YZ250F | 044493, 044494 | FMF MegaBomb four-stroke header (resonance chamber 'bomb' near the port); used with FMF mid/muffler. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/titanium-megabomb-044494) | high |
+| FMF | Factory 4.1 RCT slip-on - YZ250F | 044497, 044498 | FMF: Resonance Chamber Technology inside and out, shorter length, muffler moved forward to centralize mass; claims 'massive' power gains across the rpm range and big weight savings; RTS quick-tuning. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/factory-4-1-rct-titanium-anodized-sl-slip-on-w-carbon-cap-044498) | high |
+| Ride JBI | JBI Yamaha Pro Fork & Shock Revalves |  | Custom KYB revalve; send in. | 'YZF' may also cover FX/X models - not stated. | [Ride JBI](https://www.ridejbi.com/jbi-suspension-yamaha/) | high |
 
 ## Dealer and retailer listings for this bike
 
@@ -135,7 +139,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Controls 493, Lights And Electrical 381, Body 193, Tires 188, Tools And Maintenance 172, Graphics 164, Drive 122, Luggage And Racks 106, Engine 95, Exhaust 89, Suspension 83, Brakes 67, Wheels And Rims 66, Vehicle Communication 60, Fuel System 55, Accessories 48, Riding Gear 18, Skid Plates And Guards 18, Farming And Hunting 13, Chain & Sprocket 12, Handlebars & Controls 9, Uncategorised 8, Intake 7, Batteries & Electrical 6, Helmets 3, Winch And Plow 2, Filters 1, Utv / Atv Parts 1
+Controls 493, Lights And Electrical 381, Body 193, Tires 188, Tools And Maintenance 172, Graphics 164, Drive 122, Luggage And Racks 106, Engine 95, Exhaust 89, Suspension 83, Brakes 67, Wheels And Rims 66, Vehicle Communication 60, Fuel System 55, Accessories 48, Riding Gear 18, Skid Plates And Guards 18, Farming And Hunting 13, Chain & Sprocket 12, Handlebars & Controls 9, Uncategorised 8, Intake 7, Batteries & Electrical 6, Helmets 3, Winch And Plow 2, Utv / Atv Parts 1, Filters 1
 
-Top brands: Rugged Radios 105, Motion Pro 93, Acerbis 91, Turner Performance Products 89, RAM Mounts 72, Cycra 69, D'COR Visuals 65, Pro Taper 64, Factory Effex 60, Bolt 55, Quad Lock 53, Trail Tech 52, SP Connect 51, DRC 49, ODI 48, Kriega 43, KTM PowerParts 43, Namz Custom Cycle 40, Renthal 39, Ride Engineering 34, Giant Loop 32, RFX 32, Kenda 31, Husqvarna Technical Accessories 31, Shinko 30
+Top brands: Rugged Radios 105, Motion Pro 93, Acerbis 91, Turner Performance Products 89, RAM Mounts 72, Cycra 69, D'COR Visuals 65, Pro Taper 64, Factory Effex 60, Bolt 55, Quad Lock 53, Trail Tech 52, SP Connect 51, DRC 49, ODI 48, Kriega 43, KTM PowerParts 43, Namz Custom Cycle 40, Renthal 39, Ride Engineering 34, RFX 32, Giant Loop 32, Husqvarna Technical Accessories 31, Kenda 31, Shinko 30
 

@@ -60,3 +60,57 @@ test('rider-facing parts notes name no tester or magazine and show no internal r
   assert.doesNotMatch(text,/pass-?\d item|\.json|docs\//,f);
  }
 });
+
+import {fuelSystem} from '../shared/fuel-system.ts';
+import {workProviders} from '../shared/work-providers.ts';
+import {typeOf} from '../src/partTypes.ts';
+import {buildEngineeringInput} from '../server/engineering.ts';
+
+test('fuel system: four-strokes and newer two-strokes are injected, older two-strokes and YZ two-strokes are carbureted',()=>{
+ assert.equal(fuelSystem('KTM','450 SX-F',2024),'injected');
+ assert.equal(fuelSystem('Honda','CRF450R',2020),'injected');
+ assert.equal(fuelSystem('Kawasaki','KX250X',2023),'injected');
+ assert.equal(fuelSystem('Triumph','TF 250-X',2025),'injected');
+ assert.equal(fuelSystem('KTM','300 SX',2024),'injected');
+ assert.equal(fuelSystem('KTM','250 SX',2022),'carburetor');
+ assert.equal(fuelSystem('Husqvarna','TC 250',2023),'injected');
+ assert.equal(fuelSystem('GasGas','MC 250',2023),'carburetor');
+ assert.equal(fuelSystem('GasGas','MC 125',2024),'injected');
+ assert.equal(fuelSystem('Yamaha','YZ250',2026),'carburetor');
+ assert.equal(fuelSystem('Yamaha','YZ250',2027),null);
+ assert.equal(fuelSystem('KTM','85 SX 17/14',2025),'carburetor');
+});
+
+test('parts catalogs: Vortex sprockets sort as gearing, carb parts are flagged, specialty research is present',()=>{
+ const c=JSON.parse(readFileSync('public/parts-catalog/ktm-family.json','utf8'));
+ const named=(re:RegExp)=>c.items.filter((i:{b:number;n:string})=>re.test(c.brands[i.b]+' '+i.n));
+ for(const i of named(/vortex.*sprocket|sprocket.*vortex/i))assert.equal(c.systems[i.s],'gearing',i.n);
+ for(const i of named(/\b(main|pilot) jet\b/i))assert.equal(i.k,'c',i.n);
+ assert.ok(named(/XACT PRO 6500/).some((i:{r?:string})=>i.r),'WP 6500 kit');
+ assert.ok(named(/^REP Suspension/).length>=3,'REP');
+ assert.ok(named(/^Luxon MX/).length>=3,'Luxon');
+ assert.ok(named(/^Twisted Development/).length>=1,'Twisted Development');
+ assert.equal(typeOf('gearing','Vortex Rear Sprocket'),'Rear sprocket');
+ assert.equal(typeOf('tuning','Vortex Rear Sprocket'),null);
+});
+
+test('work providers: revalve shops and ECU tuners, never named after a tester, with research notes the server can read',()=>{
+ assert.ok(workProviders.some(p=>p.work==='ecu'&&p.brand==='Twisted Development'));
+ assert.ok(workProviders.some(p=>p.work==='suspension'&&p.brand==='REP Suspension'));
+ for(const p of workProviders){assert.ok(researchedParts[p.id],p.id);assert.doesNotMatch(JSON.stringify([p,researchedParts[p.id]]),/\b(Keefer|MXA|Motocross Action|PulpMX|Vital MX)\b/);}
+});
+
+test('work detail is kept and reaches Ask BAK with the bike’s fuel system',()=>{
+ const v=readInstalled({installed_parts:[{s:'tuning',b:'Twisted Development',n:'ECU flashed or remapped',d:'green map, pump gas',r:workProviders.find(p=>p.work==='ecu')!.id}]});
+ assert.equal(v.parts[0].d,'green map, pump gas');
+ const bike={id:'b1',user_id:'u1',manufacturer:'KTM',model:'300 SX',model_year:2024,variant:'',region:'US',nickname:'',engine_hours:0,configuration:{installed_parts:v.parts}} as never;
+ const input=buildEngineeringInput(bike,[],[],'it bogs off the bottom') as Record<string,unknown>;
+ assert.equal(input.fuel_system,'fuel injected');
+ assert.match(JSON.stringify(input.installed_parts),/green map, pump gas/);
+});
+
+test('part types: a complete cone-valve fork is a fork, a gold valve kit is a valving kit',()=>{
+ assert.equal(typeOf('suspension','XACT PRO 7548 Cone Valve Fork'),'Fork (cartridge, conversion, kit)');
+ assert.equal(typeOf('suspension','Fork Compression Gold Valve Kit'),'Valving, bladder or perch kit');
+ assert.equal(typeOf('suspension','XACT PRO 6500 Fork Cartridge Kit'),'Fork (cartridge, conversion, kit)');
+});

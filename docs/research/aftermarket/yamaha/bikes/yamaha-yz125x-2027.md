@@ -1,12 +1,16 @@
 # Yamaha YZ125X 2027: aftermarket parts
 
-4148 listings whose stated fitment names this bike: 1 researched parts (with what they change and rider findings), 426 dealer and retailer listings specific to this bike, and 3721 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+4152 listings whose stated fitment names this bike: 5 researched parts (with what they change and rider findings), 426 dealer and retailer listings specific to this bike, and 3721 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
+| EBC | MXS755 Race Series Front Brake Pads | MXS755 | Listing: race-only sintered copper pad with sharp initial bite for fast riders. | Retailer list mixes Nissin- and Brembo-equipped bikes and differs from FA755R list; check EBC catalogue. | [J&P Cycles](https://www.jpcycles.com/product/ebc-mxs755-race-series-front-brake-pads) | medium |
+| FMF | Fatty pipe - YZ125, YZ125X | 024076 | FMF: broadens/smooths the curve with gains across the band (low, mid, over-rev); nickel-plated carbon steel; works with FMF or stock silencer unless noted. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/fatty-024076) | high |
 | FMF | Fatty Gold Series Pipe | 024076 | FMF claims 'more low-end, more mid, and increased over-rev' and 'More tractable power, improved throttle control.' |  | [FMF](https://www.fmfracing.com/products/fatty-024076) | high |
+| FMF | PowerCore 2 / Shorty silencer - YZ125, YZ125X | 024079, 024080 | FMF: Shorty has a shorter core and aluminum canister tuned to maximize bottom and mid rpm power (tight tracks/SX). | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/shorty-024080) | high |
+| FMF | Factory Fatty pipe - YZ125, YZ125X | 024077 | FMF: 'works'/cone-style pipe; broadens and smooths the power curve with more low-end, mid and over-rev; 20-ga body, hand-pounded seams. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/factory-fatty-024077) | high |
 
 ## Dealer and retailer listings for this bike
 
@@ -549,7 +553,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Controls 539, Lights And Electrical 380, Uncategorised 357, Handlebars & Controls 261, Tires 218, Body 192, Tools And Maintenance 171, Exhaust 168, Graphics 165, Chain & Sprocket 143, Suspension 137, Engine 133, Drive 122, Luggage And Racks 106, Brakes 79, Wheels And Rims 64, Vehicle Communication 60, Fuel System 54, Air & Fuel 50, Accessories 48, Batteries & Electrical 44, Lighting 38, Gauges 37, Utv / Atv Parts 34, Bike Protection 34, Skid Plates And Guards 25, Riding Gear 18, Farming And Hunting 13, Body & Fairing 9, Drive & Transmission 7, Intake 6, Filters 4, Helmets 3, Winch And Plow 2
+Controls 539, Lights And Electrical 380, Uncategorised 357, Handlebars & Controls 261, Tires 218, Body 192, Tools And Maintenance 171, Exhaust 168, Graphics 165, Chain & Sprocket 143, Suspension 137, Engine 133, Drive 122, Luggage And Racks 106, Brakes 79, Wheels And Rims 64, Vehicle Communication 60, Fuel System 54, Air & Fuel 50, Accessories 48, Batteries & Electrical 44, Lighting 38, Gauges 37, Bike Protection 34, Utv / Atv Parts 34, Skid Plates And Guards 25, Riding Gear 18, Farming And Hunting 13, Body & Fairing 9, Drive & Transmission 7, Intake 6, Filters 4, Helmets 3, Winch And Plow 2
 
-Top brands: Acerbis 155, Pro Taper 131, Cycra 124, Motion Pro 119, Turner Performance Products 106, Rugged Radios 105, ODI 88, Renthal 84, Factory Effex 84, RAM Mounts 74, D'COR Visuals 66, Trail Tech 64, RFX 61, Fire Power 58, DRC 58, Bolt Hardware 57, Moose Racing 56, Quad Lock 53, Bolt 53, Polisport 52, SP Connect 51, Zeta 47, Kriega 45, KTM PowerParts 43, Namz Custom Cycle 40
+Top brands: Acerbis 155, Pro Taper 131, Cycra 124, Motion Pro 119, Turner Performance Products 106, Rugged Radios 105, ODI 88, Factory Effex 84, Renthal 84, RAM Mounts 74, D'COR Visuals 66, Trail Tech 64, RFX 61, DRC 58, Fire Power 58, Bolt Hardware 57, Moose Racing 56, Bolt 53, Quad Lock 53, Polisport 52, SP Connect 51, Zeta 47, Kriega 45, KTM PowerParts 43, Namz Custom Cycle 40
 

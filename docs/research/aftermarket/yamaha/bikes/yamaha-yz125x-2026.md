@@ -1,12 +1,17 @@
 # Yamaha YZ125X 2026: aftermarket parts
 
-1196 listings whose stated fitment names this bike: 1 researched parts (with what they change and rider findings), 244 dealer and retailer listings specific to this bike, and 951 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1201 listings whose stated fitment names this bike: 6 researched parts (with what they change and rider findings), 244 dealer and retailer listings specific to this bike, and 951 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
+| EBC | MXS755 Race Series Front Brake Pads | MXS755 | Listing: race-only sintered copper pad with sharp initial bite for fast riders. | Retailer list mixes Nissin- and Brembo-equipped bikes and differs from FA755R list; check EBC catalogue. | [J&P Cycles](https://www.jpcycles.com/product/ebc-mxs755-race-series-front-brake-pads) | medium |
+| Vertex | Cast Race Evolution Piston Kit (YZ125, YZ125X) | 24444A, 24444B | Vertex cast 'Race Evolution' two-stroke piston kit. Specs: Compression Ratio STD Cylinder Diameter 54 mm Displacement 125 cc Piston Diameter 53.930mm | Fitment parsed from maker store 'fits models' field; maker data for newest (2023+) KTM-group and 2024+ YZ450F/KX450 platforms not returned by queries. | [All Balls Racing Group (maker store for Hot Cams/Vertex/Cylinder Works)](https://www.allballsracinggroup.com/24444a-cast-race-evolution-piston-kit) | high |
+| FMF | Factory Fatty pipe - YZ125, YZ125X | 024077 | FMF: 'works'/cone-style pipe; broadens and smooths the power curve with more low-end, mid and over-rev; 20-ga body, hand-pounded seams. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/factory-fatty-024077) | high |
+| FMF | Fatty pipe - YZ125, YZ125X | 024076 | FMF: broadens/smooths the curve with gains across the band (low, mid, over-rev); nickel-plated carbon steel; works with FMF or stock silencer unless noted. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/fatty-024076) | high |
 | FMF | Fatty Gold Series Pipe | 024076 | FMF claims 'more low-end, more mid, and increased over-rev' and 'More tractable power, improved throttle control.' |  | [FMF](https://www.fmfracing.com/products/fatty-024076) | high |
+| FMF | PowerCore 2 / Shorty silencer - YZ125, YZ125X | 024079, 024080 | FMF: Shorty has a shorter core and aluminum canister tuned to maximize bottom and mid rpm power (tight tracks/SX). | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/shorty-024080) | high |
 
 ## Dealer and retailer listings for this bike
 
@@ -317,7 +322,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Uncategorised 309, Handlebars & Controls 222, Chain & Sprocket 113, Exhaust 76, Air & Fuel 39, Lighting 33, Batteries & Electrical 30, Utv / Atv Parts 30, Gauges 30, Bike Protection 29, Suspension 21, Body & Fairing 9, Drive & Transmission 6, Filters 3, Tire Accessories 1
+Uncategorised 309, Handlebars & Controls 222, Chain & Sprocket 113, Exhaust 76, Air & Fuel 39, Lighting 33, Utv / Atv Parts 30, Gauges 30, Batteries & Electrical 30, Bike Protection 29, Suspension 21, Body & Fairing 9, Drive & Transmission 6, Filters 3, Tire Accessories 1
 
-Top brands: Cycra 57, Acerbis 55, Pro Taper 54, Moose Racing 50, Bolt Hardware 46, Zeta 44, Renthal 41, ODI 38, Fire Power 34, Helix Racing Products 24, Barkbusters 23, RFX 23, RK 23, FMF 23, EK Chain 20, Factory Effex 19, Polisport 19, Motion Pro 18, K&N 18, Koso 18, Namz 17, Motolis 13, BBR Motorsports 12, Pro Grip 12, BikeMaster 9
+Top brands: Cycra 57, Acerbis 55, Pro Taper 54, Moose Racing 50, Bolt Hardware 46, Zeta 44, Renthal 41, ODI 38, Fire Power 34, Helix Racing Products 24, FMF 23, RK 23, RFX 23, Barkbusters 23, EK Chain 20, Polisport 19, Factory Effex 19, Koso 18, Motion Pro 18, K&N 18, Namz 17, Motolis 13, Pro Grip 12, BBR Motorsports 12, Domino 9
 

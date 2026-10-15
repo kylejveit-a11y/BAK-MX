@@ -1,6 +1,6 @@
 # Triumph TF 250-C 2026: aftermarket parts
 
-3383 listings whose stated fitment names this bike: 3 researched parts (with what they change and rider findings), 63 dealer and retailer listings specific to this bike, and 3317 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+3386 listings whose stated fitment names this bike: 6 researched parts (with what they change and rider findings), 63 dealer and retailer listings specific to this bike, and 3317 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -8,6 +8,9 @@
 |---|---|---|---|---|---|---|
 | Moto-Master | Supermoto Racing Brake Kit, Front 320mm (Triumph TF) | 313097R | Converts to 320mm 2-piece floating disc with caliper, adapter, 12mm radial master cylinder, SS line, racing pads. | Seller note: 'for bikes with a headlight' - odd for X/C models; confirm. | [Ghost Bikes (UK)](https://www.ghostbikes.com/products/2528034-moto-master-supermoto-racing-brake-kit-for-triumph-tf250c-2026-front) | medium |
 | Pro-X Racing | Piston Kit Triumph 250, 78mm forged | 01.7354.A, 01.7354.C | OEM-replacement forged piston, 4 valve pockets. | Oro2u is trade-only; 'TF 250-E 2025' listed though E launched for 2026 elsewhere - check. | [Oro2u (UK B2B, retail price)](https://www.oro2u.com/piston-kit-triumph-250-78mm-prox-01-7354-a) | medium |
+| FMF | Factory 4.1 RCT full system - TF 250-C, TF 250-X | 045703, 045704 | FMF: Resonance Chamber Technology inside and out, shorter length, muffler moved forward to centralize mass; claims 'massive' power gains across the rpm range and big weight savings; RTS quick-tuning. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/factory-4-1-rct-titanium-anodized-full-system-w-carbon-end-cap-045704) | high |
+| FMF | Factory 4.1 RCT slip-on - TF 250-C, TF 250-X | 045694, 045695 | FMF: Resonance Chamber Technology inside and out, shorter length, muffler moved forward to centralize mass; claims 'massive' power gains across the rpm range and big weight savings; RTS quick-tuning. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/factory-4-1-rct-titanium-anodized-sl-slip-on-w-carbon-cap-045695) | high |
+| FMF | MegaBomb header - TF 250-C, TF 250-X | 045692, 045693 | FMF MegaBomb four-stroke header (resonance chamber 'bomb' near the port); used with FMF mid/muffler. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/titanium-megabomb-045693) | high |
 | FMF Racing | Factory 4.1 RCT Slip-On (Triumph TF250X/C/E) | 045695 | FMF claims power gains through the rpm range and weight savings; RTS tuning, removable spark arrestor, 94 dB quiet insert; works with stock or FMF header. | Cycle Gear 'from' price depends on material. FMF's own page for 045695 not fetched. | [Cycle Gear](https://www.cyclegear.com/parts/fmf-factory-41-rct-slip-on-exhaust-triumph-tf250x-c-e-2024-2026) | medium |
 
 ## Dealer and retailer listings for this bike
@@ -99,8 +102,8 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
-| Triumph Genuine Accessories | Akrapovic Exhaust, Full System | A9601360 | 1668.60 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23365?catalogue=TF250-X&year=2026) |
 | Triumph Genuine Accessories | Akrapovic Exhaust, Full System | A9601349 | 1931.25 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23365?catalogue=TF250-X&year=2026) |
+| Triumph Genuine Accessories | Akrapovic Exhaust, Full System | A9601360 | 1668.60 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23365?catalogue=TF250-X&year=2026) |
 
 ### Protection (27)
 
@@ -164,7 +167,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Controls 459, Lights And Electrical 381, Uncategorised 333, Handlebars & Controls 244, Tires 189, Exhaust 176, Body 161, Graphics 160, Tools And Maintenance 159, Chain & Sprocket 131, Suspension 110, Luggage And Racks 106, Drive 95, Engine 76, Brakes 62, Vehicle Communication 60, Fuel System 54, Accessories 48, Wheels And Rims 45, Batteries & Electrical 38, Lighting 34, Gauges 33, Air & Fuel 32, Utv / Atv Parts 32, Bike Protection 31, Riding Gear 18, Farming And Hunting 13, Skid Plates And Guards 10, Body & Fairing 8, Drive & Transmission 5, Intake 5, Filters 3, Helmets 3, Winch And Plow 2, Tire Accessories 1
+Controls 459, Lights And Electrical 381, Uncategorised 333, Handlebars & Controls 244, Tires 189, Exhaust 176, Body 161, Graphics 160, Tools And Maintenance 159, Chain & Sprocket 131, Suspension 110, Luggage And Racks 106, Drive 95, Engine 76, Brakes 62, Vehicle Communication 60, Fuel System 54, Accessories 48, Wheels And Rims 45, Batteries & Electrical 38, Lighting 34, Gauges 33, Air & Fuel 32, Utv / Atv Parts 32, Bike Protection 31, Riding Gear 18, Farming And Hunting 13, Skid Plates And Guards 10, Body & Fairing 8, Drive & Transmission 5, Intake 5, Helmets 3, Filters 3, Winch And Plow 2, Tire Accessories 1
 
-Top brands: Acerbis 130, Pro Taper 126, Motion Pro 114, Cycra 111, Rugged Radios 105, ODI 87, Factory Effex 82, Renthal 81, Turner Performance Products 74, RAM Mounts 74, D'COR Visuals 65, Trail Tech 60, Fire Power 57, RFX 55, Moose Racing 54, DRC 54, Bolt 53, Quad Lock 53, SP Connect 51, Bolt Hardware 49, Zeta 45, Kriega 45, KTM PowerParts 43, Polisport 42, Namz Custom Cycle 40
+Top brands: Acerbis 130, Pro Taper 126, Motion Pro 114, Cycra 111, Rugged Radios 105, ODI 87, Factory Effex 82, Renthal 81, Turner Performance Products 74, RAM Mounts 74, D'COR Visuals 65, Trail Tech 60, Fire Power 57, RFX 55, DRC 54, Moose Racing 54, Bolt 53, Quad Lock 53, SP Connect 51, Bolt Hardware 49, Zeta 45, Kriega 45, KTM PowerParts 43, Polisport 42, Namz Custom Cycle 40
 

@@ -1,12 +1,21 @@
 # Yamaha YZ125 2026: aftermarket parts
 
-1476 listings whose stated fitment names this bike: 1 researched parts (with what they change and rider findings), 341 dealer and retailer listings specific to this bike, and 1134 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1485 listings whose stated fitment names this bike: 10 researched parts (with what they change and rider findings), 341 dealer and retailer listings specific to this bike, and 1134 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
+| EBC | MXS755 Race Series Front Brake Pads | MXS755 | Listing: race-only sintered copper pad with sharp initial bite for fast riders. | Retailer list mixes Nissin- and Brembo-equipped bikes and differs from FA755R list; check EBC catalogue. | [J&P Cycles](https://www.jpcycles.com/product/ebc-mxs755-race-series-front-brake-pads) | medium |
+| Xtrig | Holeshot Kit for KYB/Showa 48mm forks (54mm outer tube) | 70100003 | Seller: preloads fork before the start to lower the centre of gravity and reduce front-wheel lift; single snap-in position. | Honda listing only to 2014/2016 (out of scope). | [MSliders (EU)](https://msliders.com/products/holeshot-all-kyb-showa-48mm) | medium |
+| Vertex | Cast Race Evolution Piston Kit (YZ125, YZ125X) | 24444A, 24444B | Vertex cast 'Race Evolution' two-stroke piston kit. Specs: Compression Ratio STD Cylinder Diameter 54 mm Displacement 125 cc Piston Diameter 53.930mm | Fitment parsed from maker store 'fits models' field; maker data for newest (2023+) KTM-group and 2024+ YZ450F/KX450 platforms not returned by queries. | [All Balls Racing Group (maker store for Hot Cams/Vertex/Cylinder Works)](https://www.allballsracinggroup.com/24444a-cast-race-evolution-piston-kit) | high |
+| FMF | Fatty pipe - YZ125, YZ125X | 024076 | FMF: broadens/smooths the curve with gains across the band (low, mid, over-rev); nickel-plated carbon steel; works with FMF or stock silencer unless noted. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/fatty-024076) | high |
 | FMF | Fatty Gold Series Pipe | 024076 | FMF claims 'more low-end, more mid, and increased over-rev' and 'More tractable power, improved throttle control.' |  | [FMF](https://www.fmfracing.com/products/fatty-024076) | high |
+| FMF | PowerCore 2 / Shorty silencer - YZ125, YZ125X | 024079, 024080 | FMF: Shorty has a shorter core and aluminum canister tuned to maximize bottom and mid rpm power (tight tracks/SX). | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/shorty-024080) | high |
+| FMF | Factory Fatty pipe - YZ125, YZ125X | 024077 | FMF: 'works'/cone-style pipe; broadens and smooths the power curve with more low-end, mid and over-rev; 20-ga body, hand-pounded seams. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/factory-fatty-024077) | high |
+| Luxon MX | Gen3 Pro Triple Clamps - Yamaha | LUX-YAM-SS-A0010-S54, LUX-YAM-SS-A0010-M54, LUX-YAM-SS-A0010-L54, LUX-YAM-SS-A0010-S56, LUX-YAM-SS-A0010-M56, LUX-YAM-SS-A0010-L56 | Luxon: adjustable offset 21-24 mm, split lower with optional braces, ~107 g lighter than stock 2023 YZ450. | YZ125X/YZ250X/YZ450FX not listed by Luxon. | [Luxon MX](https://www.luxonmx.com/product-luxon-yamaha-triple-clamps-gen3-pro.html) | high |
+| MX-Tech | MXT Blackjack Cartridge System | 02MXTC-0001, 02MXTC-0002, 02MXTC-0003, 02MXTC-0004, 02MXTC-0005, 02MXTC-0006, 02MXTC-0007, 02MXTC-0008 | MX-Tech: sealed 25 mm closed cartridge with spring-charged ICS piston, external huck valve for bottoming, spring-perch secondary damping, 360-degree repositionable compression adjuster; claims lightes | Maker fits by fork type, not bike model; also Showa/KYB 4-stroke versions. | [MX-Tech](https://mx-tech.com/mxt-blackjack-cartridge-system/) | unverified |
+| Ride JBI | JBI Yamaha Pro Fork & Shock Revalves |  | Custom KYB revalve; send in. | 'YZF' may also cover FX/X models - not stated. | [Ride JBI](https://www.ridejbi.com/jbi-suspension-yamaha/) | high |
 
 ## Dealer and retailer listings for this bike
 
@@ -426,5 +435,5 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 Uncategorised 365, Handlebars & Controls 256, Chain & Sprocket 144, Exhaust 89, Air & Fuel 50, Batteries & Electrical 44, Lighting 38, Gauges 36, Bike Protection 33, Utv / Atv Parts 31, Suspension 27, Body & Fairing 8, Drive & Transmission 8, Filters 4, Tire Accessories 1
 
-Top brands: Pro Taper 73, Acerbis 65, Bolt Hardware 57, Moose Racing 56, Cycra 54, Renthal 47, Zeta 46, ODI 43, Fire Power 35, Barkbusters 34, RK 33, Helix Racing Products 33, RFX 31, Factory Effex 28, Namz 25, Motion Pro 23, Polisport 22, FMF 22, K&N 22, EK Chain 21, Koso 18, DID Chain 15, Motolis 15, Pro Grip 14, Yoshimura 13
+Top brands: Pro Taper 73, Acerbis 65, Bolt Hardware 57, Moose Racing 56, Cycra 54, Renthal 47, Zeta 46, ODI 43, Fire Power 35, Barkbusters 34, Helix Racing Products 33, RK 33, RFX 31, Factory Effex 28, Namz 25, Motion Pro 23, Polisport 22, FMF 22, K&N 22, EK Chain 21, Koso 18, DID Chain 15, Motolis 15, Pro Grip 14, BBR Motorsports 13
 
