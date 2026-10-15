@@ -1,69 +1,240 @@
 # GasGas MC 350F 2025: aftermarket parts
 
-20 parts whose listed fitment names this bike. Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+3814 listings whose stated fitment names this bike: 20 researched parts (with what they change and rider findings), 196 dealer and retailer listings specific to this bike, and 3598 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
-## Brakes (2)
+## Researched parts
 
-| Brand | Part | Part numbers | Price (as listed) | Notes | Source | Confidence |
+| Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
-| ARC | Alloy brake lever for Braktec front brake (GasGas / Husqvarna) | BR-122 (retailer code AC-BR-122) | 169.99 NZD |  Shows that Braktec bikes need a different lever from the Brembo BR-214. Husqvarna FX/TX listing conflicts with pass 1 ARC Flex list (which i | [Johnstons Moto (NZ)](https://www.johnstonsmoto.co.nz/products/arc-brake-lever-alloy-gasgas-husq-braketec-ec-23-25-mc-24-25-ex-23-25-ec-21-23-te-tx-fe-fx-22-25) | medium |
-| Tusk | Brake lever, BrakTec, black (GasGas MC) | Replaces OEM A54013002044 | 29.85 USD | Title 2023-2025; URL says 2023-2024. 'For BrakTec systems'. No Tusk part number; marketplace listing. The OEM number A54013002044 is useful for cross-referencing Braktec levers. | [Walmart Marketplace](https://www.walmart.com/ip/5771566312) | medium |
+| ARC | Alloy brake lever for Braktec front brake (GasGas / Husqvarna) | BR-122 (retailer code AC-BR-122) | Folding, crash-resistant lever with reach adjust (ARC family claims, see pass 1 arc-brake-lever-br214). | Shows that Braktec bikes need a different lever from the Brembo BR-214. Husqvarna FX/TX listing conflicts with pass 1 ARC Flex list (which includes FX/TX 350/45 | [Johnstons Moto (NZ)](https://www.johnstonsmoto.co.nz/products/arc-brake-lever-alloy-gasgas-husq-braketec-ec-23-25-mc-24-25-ex-23-25-ec-21-23-te-tx-fe-fx-22-25) | medium |
+| Tusk | Brake lever, BrakTec, black (GasGas MC) | Replaces OEM A54013002044 | OEM-style replacement lever for Braktec masters. | No Tusk part number; marketplace listing. The OEM number A54013002044 is useful for cross-referencing Braktec levers. | [Walmart Marketplace](https://www.walmart.com/ip/5771566312) | medium |
+| Ride Engineering | Full Performance linkage (KTM/GasGas, 2024.5 FE and 2025+) |  | More linear damping curve for balance and less pitching under braking and acceleration. | No part number; fitment from magazine test, not RE fitment page. 2026-2027 not stated. | [Ride Engineering (price via MXA)](https://www.ride-engineering.com) | medium |
+| Scotts Performance (BRP mount) | Scotts steering stabilizer with metal SUB (under-bar) mount kit, KTM/Husky 23-25, GasGas 24-25 | SCO-DS-SUB-6125-01 (Shock Treatment SKU; appears to follow Scotts DS-xxxx-01 numbering) | Adds adjustable steering damping (head-shake control); SUB mount converts rubber-mounted bars to solid and raises bars ~24 mm (11-25 mm by model) with two fore-aft positions; Upshift listing notes 3 m | 2026-2027 fitment not listed. Bar height change may need a lower bend. | [Shock Treatment (AU)](https://www.shocktreatment.com.au/ktm-husky-23-25-gas-gas-24-25-metal-sub-kit) | medium |
+| Hinson | Hinson Complete Billetproof Conventional Clutch Kit KTM / Husky 250/350 '23- | HCA460-2301 | Hinson claims (via retailers): billet T-6 aluminium, hard-coated for 5x stock wear resistance with proper maintenance; spins truer, so less heat when disengaged; smoother engagement; less chatter; bet | This confirms the part number that pass 1 only saw in an image filename. 2025+ KTM/Husqvarna not listed. hinsonracing.com was not reached (the Hinson search ret | [Ghostbikes (UK)](https://www.ghostbikes.com/products/2430292-hinson-billetproof-clutch-kit-for-husqvarna-fc250-2023-2024) | medium |
+| Oberon | Oberon hydraulic clutch slave (pusher) cylinder CLU-7923 | CLU-7923 | Oberon claims (via retailer): improved plunger/piston design against leaks, smoother action, guided piston for less wear and softer lever feel, lower lever effort. CNC T6 aluminium, Viton U-profile se | The retailer's list has visible typos (e.g. 'EXC 250 2017-2014'). Husqvarna stops at 2022 while KTM and GasGas run to 2024/2025, which is odd for a shared part. | [Viejos Pistones (ES)](https://viejospistones.com/en/product/oberon-clu-7923-hydraulic-clutch-pusher-cylinder/) | medium |
+| Boyesen | Boyesen Spectra Supercooler Kit, KTM/Husqvarna/GasGas 250-350 4T | WPK-44CB, WPK-44CL, WPK-44CM | Boyesen claim: up to 26% more coolant flow than stock (no test conditions/baseline given); less cavitation. | Boyesen's own page for WPK-44AM (and WPK-44AB) lists KTM 250/350 SX-F and XC-F 2016-2022, Husqvarna FC350/FX350 to 2022 and GasGas MC 250F/350F 2021-2023, not 2 | [Cycle Gear](https://www.cyclegear.com/parts/boyesen-spectra-supercooler-kit-ktm-husqvarna-gas-gas-250cc-350cc-2023-2025) | medium |
+| Bullet Proof Designs | Bullet Proof Designs Radiator Braces/Guards, KTM/Husqvarna/GasGas |  | 6061 billet frame-mounted guards; claims no adverse effect on airflow and compatible with fan kits. | A single SKU across 2017-2026 is doubtful given the 2023 chassis change; AOMC listing is '17-23' (possible SKU KTM-RG-19, not verified). 85 SX not covered. | [Dirt Bike Spec](https://dirtbikespec.com/product/bulletproof-designs-radiator-guards-ktm-husqvarna/) | unverified |
+| Moose Racing (made by Samco Sport) | Moose Racing Radiator Hose Kit, KTM/Husqvarna/GasGas 250-350 4T 2022-2027 | KTM-129-RD | Silicone rated to 356 F, three-ply reinforcement; claims smoother flow and better insulation. | Factory Edition 2022 listed (FE used next-gen engine early). | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-radiator-hose-kit-ktm-husqvarna-gas-gas-250cc-350cc-2022-2025) | medium |
+| RFX | RFX Magnetic Drain Bolt Husqvarna / Gas Gas 125cc-501cc | FXDB 50100 99BU (blue), FXDB 50100 99RD (red) | Magnet catches ferrous debris in the oil (RFX claim). CNC 6061-T6, pre-drilled for safety wire. | Only one bolt per listing, and KTM / 4T engines have more than one drain plug, so which position it fits is not stated. KTM fitment is on a separate RFX listing | [Cycle Gear (US)](https://www.cyclegear.com/parts/rfx-magnetic-drain-bolt-husqvarna-gas-gas-125cc-501cc) | medium |
+| Wiseco | Wiseco Cam Chain, 23-25 KTM / FC 250-350 | CC069 | Replacement cam chain. Retailer says it is made by OE suppliers in premium steel. | The title names the KTM 450 SX but the fitment table has no 450, so 450 fit is unconfirmed. Backordered. | [Hurrey's Off Road (US)](https://hurreysoffroad.com/products/wiseco-23-25-ktm-450sx-23-24-fc250-350-camchain) | medium |
+| Akrapovič (KTM PowerParts) | Akrapovič Racing Line full system, 250/350 SX-F/XC-F | A46005901044 | Claimed wider usable rev range, better power delivery and finer throttle response. Complies with FIM and AMA noise rules (claim). | Competition use. Check the MY26+ airbox caveat (see A46005979000). | [KTM Direct (UK)](https://ktmdirect.co.uk/products/akrapovic-racing-line-a46005901044) | medium |
+| Akrapovič (sold as KTM PowerParts / Husqvarna / GasGas) | Akrapovič Slip-On Line (titanium), 350/450 SX-F/XC-F | A48005979000 | Titanium slip-on with welded brackets. Claimed weight saving and more performance (no figures given). Stated to comply with current FIM noise regulations. | Competition use. See the MY26/27 airbox caveat on the 250 slip-on (A46005979000); it may also apply to the 350/450 but is not confirmed on this page. | [KTM Direct (UK)](https://ktmdirect.co.uk/products/akrapovic-slip-on-line-exhaust-a48005979000) | medium |
+| FMF | Factory 4.1 RCT Titanium Anodized SL (Slip-On) w/ Carbon Cap, 250/350 | 045670 | FMF claim: power gains through the rpm range, weight savings, mass centralization. No dyno figures. | Pass 1 listed an FMF 250/350 silencer sold through the KTM dealer channel without a part number (fmf-factory41-rct-oem-2023); this is likely the FMF-direct equi | [FMF Racing](https://www.fmfracing.com/products/factory-4-1-rct-titanium-anodized-sl-slip-on-w-carbon-cap-045670) | high |
+| FMF | Factory 4.1 RCT Stainless SL (Slip-On) w/ Carbon End Cap, 250/350 | 045679 | FMF claim as above. No dyno figures. | Pass-1 note: US MY27 standard SX-F/XC-F (and EU MY26 / US MY26 Factory Edition) got a revised airbox/filter; KTM says its Akrapovic systems need MY25 intake par | [FMF Racing](https://www.fmfracing.com/products/factory-4-1-rct-stainless-sl-slip-on-w-carbon-end-cap-045679) | high |
+| FMF (sold via KTM/Husqvarna/GasGas dealer PowerParts channel) | FMF Factory 4.1 RCT Silencer 250/350 SX-F/XC-F 23-27 |  | Not stated. | No part number captured. It may be an FMF retail part rather than an OEM PowerPart, so overlap with the aftermarket slice is possible. | [AOMC (US)](https://aomc.mx/KTM-Powerparts-Akrapovic-Slip-On-Line-Muffler-250-SX-FXC-F-23-24-A46005979000.html) | unverified |
+| Twin Air | Twin Air air filter 154118 (KTM/Husqvarna/GasGas 2022-2025) | 154118 | Replacement foam filter. | Fit on MY26 FE / MY27 standard 4-strokes with the revised airbox/filter is unconfirmed (Cycle Gear lists 2027, but KTM says the filter changed). | [Oro2u (UK)](https://www.oro2u.com/air-filter-22-25-gasgas-husqvarna-ktm-twin-air-154118) | medium |
+| Twin Air | Powerflow Kit GasGas/Husqvarna/KTM 125cc-450cc 2023-2027 |  | High-flow intake kit developed with race teams (no figures). | Price unclear on the page (~$199.45 in structured data). Part number not captured. | [RevZilla](https://www.revzilla.com/motorcycle/twin-air-powerflow-kit-gas-gashusqvarnaktm-125cc-450cc-2023-2024) | unverified |
+| Acerbis | Linear front disc cover (KTM/Husqvarna/GasGas/Stark), max disc 280 mm | AC-26107BK (black; Bikeman JP code, 'AC-' likely retailer prefix), AC-26107OR16 (orange) and AC-26107WH (white) from Bikeman URLs | Protects disc, left fork bottom and caliper; vented; mounts on the axle nut with no extra mount kit. | Max disc 280 mm, so it should clear a 270 mm oversize kit (inference, not stated). Acerbis catalogue number not confirmed. | [Slavens Racing](https://slavensracing.com/shop/linear-disc-guard-for-ktm-hqv-gg-stark-by-acerbis/) | medium |
+| Warp 9 | Elite wheel assembly, KTM/Husaberg/Husqvarna/GasGas (21x1.60 front, 18x2.15 rear) |  | Aftermarket complete wheel; the 18 in rear suits XC/cross-country use (MX SX/SX-F run 19 in). | Page does not mention the 22 mm rear axle; confirm hub bore for 2023+. No 19 in rear option shown on this listing. | [Slavens Racing](https://slavensracing.com/shop/complete-wheel-assembly-ktm-husaberg-warp-9/) | medium |
 
-## Chassis (2)
+## Dealer and retailer listings for this bike
 
-| Brand | Part | Part numbers | Price (as listed) | Notes | Source | Confidence |
-|---|---|---|---|---|---|---|
-| Ride Engineering | Full Performance linkage (KTM/GasGas, 2024.5 FE and 2025+) |  | 474.90 (about 600 with spring, MXA estimate) USD |  No part number; fitment from magazine test, not RE fitment page. 2026-2027 not stated. | [Ride Engineering (price via MXA)](https://www.ride-engineering.com) | medium |
-| Scotts Performance (BRP mount) | Scotts steering stabilizer with metal SUB (under-bar) mount kit, KTM/Husky 23-25, GasGas 24-25 | SCO-DS-SUB-6125-01 (Shock Treatment SKU; appears to follow Scotts DS-xxxx-01 numbering) |   |  2026-2027 fitment not listed. Bar height change may need a lower bend. | [Shock Treatment (AU)](https://www.shocktreatment.com.au/ktm-husky-23-25-gas-gas-24-25-metal-sub-kit) | medium |
+Merged across sellers by brand and part number (or brand and name). Lings is a UK dealer (GBP prices, EU-market models).
 
-## Clutch (2)
+### Uncategorised (196)
 
-| Brand | Part | Part numbers | Price (as listed) | Notes | Source | Confidence |
-|---|---|---|---|---|---|---|
-| Hinson | Hinson Complete Billetproof Conventional Clutch Kit KTM / Husky 250/350 '23- | HCA460-2301 | 1001.99 GBP |  This confirms the part number that pass 1 only saw in an image filename. 2025+ KTM/Husqvarna not listed. hinsonracing.com was not reached (t | [Ghostbikes (UK)](https://www.ghostbikes.com/products/2430292-hinson-billetproof-clutch-kit-for-husqvarna-fc250-2023-2024) | medium |
-| Oberon | Oberon hydraulic clutch slave (pusher) cylinder CLU-7923 | CLU-7923 |   | MC 450F not listed The retailer's list has visible typos (e.g. 'EXC 250 2017-2014'). Husqvarna stops at 2022 while KTM and GasGas run to 2024/2025, which is od | [Viejos Pistones (ES)](https://viejospistones.com/en/product/oberon-clu-7923-hydraulic-clutch-pusher-cylinder/) | medium |
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Acerbis | Acerbis Fuel Tank Filter KTM / Husqvarna / Gas Gas 125cc-450cc 2013-2027 |  | 33.26 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-fuel-tank-filter-ktm-husqvarna-gas-gas-125cc-450cc-2013-2024) |
+| Acerbis | Acerbis Fuel Tank Gas Gas 125cc-500cc 2024-2027 |  | 365.36 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-fuel-tank-gas-gas-125cc-500cc-2024-2025) |
+| Acerbis | Acerbis K-Linear Handguards Husqvarna / Gas Gas 250cc-501cc 2021-2027 |  | 49.46 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-k-linear-handguards-husqvarna-gas-gas-250cc-501cc-2021-2024) |
+| Acerbis | Acerbis Off-Road Skid Plate KTM / Husqvarna / Gas Gas 250cc-350cc 2022-2027 |  | 82.76 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-off-road-skid-plate-ktm-husqvarna-250cc-350cc-2022-2024) |
+| Acerbis | Acerbis Tank Cover |  | 25.99 USD | [MotoSport](https://www.motosport.com/acerbis-tank-cover) |
+| Acerbis | Acerbis Teketmagnet Swingarm Protectors KTM / Husqvarna / Gas Gas 150cc-501cc 2025-2027 |  | 75.56 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-teketmagnet-swingarm-protectors-ktm-husqvarna-gas-gas-250cc-501cc-2025) |
+| Acerbis | Acerbis X-Grip Frame Guards Gas Gas 125cc-500cc 2024-2027 |  | 54.86 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-x-grip-frame-guards-gas-gas-125cc-500cc-2024-2025) |
+| Acerbis | Acerbis X-Power Clutch and Ignition Covers KTM / Husqvarna / Gas Gas 250cc-350cc 2022-2027 |  | 69.26 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-x-power-clutch-and-ignition-covers-ktm-husqvarna-250cc-350cc-2022-2024) |
+| All Balls | All Balls Quick Break O-Ring And Filter Kit |  | 36.81 USD | [MotoSport](https://www.motosport.com/all-balls-quick-break-oring-and-filter-kit) |
+| All Balls | All Balls Rear Brake Caliper Piston Kit |  | 26.57 USD | [MotoSport](https://www.motosport.com/all-balls-rear-brake-caliper-piston-kit) |
+| All Balls Racing | All Balls Racing Front Brake Master Cylinder Rebuild Kit 18-1132 |  | 45.05 USD | [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-front-brake-master-cylinder-rebuild-kit-18-1132) |
+| All Balls Racing | All Balls Racing Fuel Pump Kit Gas Gas / KTM / Husqvarna |  | 89.92 USD | [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-fuel-pump-kit-gas-gas-ktm-husqvarna) |
+| AltRider | AltRider MAC BrakTec Brake Lever Husqvarna / Gas Gas 2021-2027 |  | 148.76 USD | [Cycle Gear](https://www.cyclegear.com/parts/altrider-mac-braktec-brake-lever-husqvarna-gas-gas-2021-2025) |
+| AltRider | AltRider MAC BrakTec Clutch And Brake Lever Combo Husqvarna / Gas Gas 2021-2027 |  | 277.52 USD | [Cycle Gear](https://www.cyclegear.com/parts/altrider-mac-braktec-clutch-and-brake-lever-combo-husqvarna-gas-gas-2021-2025) |
+| AltRider | AltRider MAC BrakTec Clutch Lever Husqvarna / Gas Gas 2021-2027 |  | 148.76 USD | [Cycle Gear](https://www.cyclegear.com/parts/altrider-mac-braktec-clutch-lever-husqvarna-gas-gas-2021-2025) |
+| Arc Levers | ARC Flex Front Brake Lever Husqvarna / Gas Gas 125cc-501cc 2021-2027 |  | 78.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/arc-flex-front-brake-lever-husqvarna-gas-gas-125cc-501cc-2021-2024) |
+| Athena | Athena Exhaust Valve |  | 121.99 USD | [MotoSport](https://www.motosport.com/athena-exhaust-valve) |
+| Athena | Athena Intake Valve |  | 103.99 USD | [MotoSport](https://www.motosport.com/athena-intake-valve) |
+| Bolt Hardware | Bolt Hardware Oil Change Kit Gas Gas / Husqvarna / KTM |  | 7.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/bolt-hardware-oil-change-kit-gas-gas-husqvarna-ktm) |
+| Boyesen | Boyesen Spectra Supercooler Kit KTM / Husqvarna / Gas Gas 250cc-350cc 2022-2027 |  | 179.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/boyesen-spectra-supercooler-kit-ktm-husqvarna-gas-gas-250cc-350cc-2023-2025) |
+| Bullet Proof Designs | Bullet Proof Designs Fork Lug Guard |  | 79.00 USD | [MotoSport](https://www.motosport.com/bullet-proof-designs-fork-lug-guard) |
+| Dirt Tricks | Dirt Tricks Timing Chain Tensioner |  | 117.99 USD | [MotoSport](https://www.motosport.com/dirt-tricks-timing-chain-tensioner) |
+| DP Brakes | DP Brakes Clutch Kit KTM / Husqvarna / Gas Gas 250cc-350cc 2019-2027 |  | 258.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/dp-brakes-clutch-kit-ktm-husqvarna-gas-gas-250cc-350cc-2019-2023) |
+| DRC | DRC Radiator Hose Kit KTM / Husqvarna / Gas Gas 250cc-350cc 2022-2027 |  | 78.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/drc-radiator-hose-kit-ktm-husqvarna-gas-gas-250cc-350cc-2022-2024) |
+| Dunlop | Dunlop Geomax MX34 Factory Spec Rear Tire |  | 139.99 USD | [MotoSport](https://www.motosport.com/dunlop-geomax-mx34-factory-spec-rear-tire) |
+| D‘COR Visuals | D‘COR Visuals Gripper Seat Cover - Gas Gas |  | 74.95 USD | [MotoSport](https://www.motosport.com/dcor-visuals-gripper-seat-cover-gas-gas) |
+| E-Line | E-Line Carbon Fiber Heat Shield KTM / Husqvarna / Gas Gas 350cc 2023-2027 |  | 149.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/e-line-carbon-fiber-heat-shield-ktm-husqvarna-gas-gas-350cc-2023-2024) |
+| E-Line | E-Line Carbon Fiber Skid Plate KTM / Husqvarna / Gas Gas 250cc-450cc 2022-2027 |  | 199.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/e-line-carbon-fiber-skid-plate-ktm-husqvarna-gas-gas-250cc-450cc-2022-2024) |
+| E-Line | E-Line Heat Shield |  | 164.95 USD | [MotoSport](https://www.motosport.com/eline-heat-shield) |
+| Enduro Engineering | Enduro Engineering Clutch Slave Cylinder Guard KTM / Husqvarna / Gas Gas 250cc-501cc 2022-2027 |  | 40.80 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-clutch-slave-cylinder-guard-ktm-husqvarna-250cc-450cc-2022-2023) |
+| Enduro Engineering | Enduro Engineering Handlebar Risers Husqvarna / KTM / Gas Gas 125cc-450cc |  | 44.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-handlebar-risers-husqvarna-ktm-gas-gas-125cc-450cc) |
+| Enduro Engineering | Enduro Engineering Rear Disc Guard KTM / Husqvarna / Gas Gas 125cc-501cc 2022-2027 |  | 104.45 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-rear-disc-guard-ktm-husqvarna-125cc-450cc-2022-2023) |
+| Enduro Engineering | Enduro Engineering Roost Deflector Mounting Kit Husqvarna / Gas Gas 150cc-501cc 2021-2024 |  | 66.45 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-roost-deflector-mounting-kit-husqvarna-gas-gas-150cc-501cc-2021-2024) |
+| Enduro Engineering | Enduro Engineering Rubber Mounted Xtreme Skid Plate KTM / Husqvarna / Gas Gas 250cc-450cc 2022-2027 |  | 123.45 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-rubber-mounted-xtreme-skid-plate-ktm-husqvarna-gas-gas-250cc-450cc-2022-2024) |
+| Enduro Engineering | Enduro Engineering Skid Plate KTM / Husqvarna / Gas Gas 250cc-500cc 2022-2027 |  | 123.45 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-skid-plate-ktm-husqvarna-gas-gas-250cc-500cc-2022-2024) |
+| Enduro Engineering | Enduro Engineering Water Pump Cover Guard Gas Gas / Husqvarna / KTM 250cc-350cc 2023-2027 |  | 42.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-water-pump-cover-guard-gas-gas-husqvarna-ktm-250cc-350cc-2023-2024) |
+| Factory Effex | Factory Effex 2025 Team Replica Complete Graphic Kit Rockstar GasGas |  | 105.99 USD | [MotoSport](https://www.motosport.com/factory-effex-2025-team-replica-complete-graphic-kit-rockstar-gasgas) |
+| Factory Effex | Factory Effex Dual Grip Seat Cover Gas Gas 125cc-500cc 2023-2027 |  | 79.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-effex-dual-grip-seat-cover-gas-gas-125cc-500cc-2023-2025) |
+| Factory Effex | Factory Effex EVO 21 Series Shroud Graphic Kit - GasGas |  | 56.69 USD | [MotoSport](https://www.motosport.com/factory-effex-evo-21-series-shroud-graphic-kit-gasgas) |
+| Factory Effex | Factory Effex RS1 Seat Cover - GasGas |  | 56.69 USD | [MotoSport](https://www.motosport.com/factory-effex-rs1-seat-cover-gasgas) |
+| Flo Motorsports | Flo Motorsports Folding Tip Brake Pedal KTM / Husqvarna / Gas Gas 125cc-450cc 2023-2027 |  | 149.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-folding-tip-brake-pedal-ktm-husqvarna-gas-gas-125cc-450cc-2023-2024) |
+| Flo Motorsports | Flo Motorsports Pro 160 Brake Lever Husqvarna / Gas Gas 125cc-501cc 2021-2027 |  | 87.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-pro-160-brake-lever-husqvarna-gas-gas-125cc-501cc-2021-2024) |
+| Flo Motorsports | Flo Motorsports Pro 160 Clutch Lever Husqvarna / Gas Gas 125cc-501cc 2022-2027 |  | 87.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-pro-160-clutch-lever-husqvarna-gas-gas-125cc-501cc-2022-2024) |
+| GasGas Technical Accessories | GasGas Technical Accessories Adjuster Kit |  | 70.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-adjuster-kit) |
+| GasGas Technical Accessories | GasGas Technical Accessories Adjuster Rebound |  | 32.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-adjuster-rebound) |
+| GasGas Technical Accessories | GasGas Technical Accessories Air Filter Rain Cover |  | 19.79 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-air-filter-rain-cover) |
+| GasGas Technical Accessories | GasGas Technical Accessories Air Filter Sand Cover |  | 22.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-air-filter-sand-cover) |
+| GasGas Technical Accessories | GasGas Technical Accessories Airbox Wash Cover |  | 20.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-airbox-wash-cover) |
+| GasGas Technical Accessories | GasGas Technical Accessories Akrapovic Evolution Full System Exhaust |  | 1669.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-akrapovic-evolution-full-system-exhaust) |
+| GasGas Technical Accessories | GasGas Technical Accessories Akrapovic Racing Line Full System Exhaust |  | 1391.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-akrapovic-racing-line-full-system-exhaust) |
+| GasGas Technical Accessories | GasGas Technical Accessories Brake Lever |  | 91.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-brake-lever) |
+| GasGas Technical Accessories | GasGas Technical Accessories Clutch Lever |  | 91.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-clutch-lever) |
+| GasGas Technical Accessories | GasGas Technical Accessories Connectivity Unit GPS Fender Kit |  | 274.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-connectivity-unit-gps-fender-kit) |
+| GasGas Technical Accessories | GasGas Technical Accessories Connectivity Unit GPS Kit |  | 199.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-connectivity-unit-gps-kit) |
+| GasGas Technical Accessories | GasGas Technical Accessories Connectivity Unit Kit |  | 208.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-connectivity-unit-kit) |
+| GasGas Technical Accessories | GasGas Technical Accessories Digital Radiator Fan Kit |  | 329.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-digital-radiator-fan-kit) |
+| GasGas Technical Accessories | GasGas Technical Accessories Dual Compression Control Adjuster |  | 43.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-dual-compression-control-adjuster) |
+| GasGas Technical Accessories | GasGas Technical Accessories Dust Cover For Air Filter |  | 17.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-dust-cover-for-air-filter) |
+| GasGas Technical Accessories | GasGas Technical Accessories Enduro Engineering Radiator Guards |  | 179.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-enduro-engineering-radiator-guards) |
+| GasGas Technical Accessories | GasGas Technical Accessories Engine Brace Set |  | 86.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-engine-brace-set) |
+| GasGas Technical Accessories | GasGas Technical Accessories FMF Factory 4.1 RCT Muffler |  | 854.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-fmf-factory-41-rct-muffler) |
+| GasGas Technical Accessories | GasGas Technical Accessories FMF Megabomb Header |  | 474.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-fmf-megabomb-header) |
+| GasGas Technical Accessories | GasGas Technical Accessories FMF Powercore 4 Silencer |  | 449.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-fmf-powercore-4-silencer) |
+| GasGas Technical Accessories | GasGas Technical Accessories FMF Q4 Silencer |  | 499.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-fmf-q4-silencer) |
+| GasGas Technical Accessories | GasGas Technical Accessories Factory Oil Fill Plug |  | 22.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-factory-oil-fill-plug) |
+| GasGas Technical Accessories | GasGas Technical Accessories Factory Plastic Kit |  | 230.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-factory-plastic-kit) |
+| GasGas Technical Accessories | GasGas Technical Accessories Factory Racing Chain Guide |  | 290.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-factory-racing-chain-guide) |
+| GasGas Technical Accessories | GasGas Technical Accessories Factory Racing Fuel Tank |  | 243.20 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-factory-racing-fuel-tank) |
+| GasGas Technical Accessories | GasGas Technical Accessories Factory Racing Ignition Cover Plug |  | 34.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-factory-racing-ignition-cover-plug) |
+| GasGas Technical Accessories | GasGas Technical Accessories Factory Racing Seat |  | 197.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-factory-racing-seat) |
+| GasGas Technical Accessories | GasGas Technical Accessories Factory Racing Triple Clamp |  | 612.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-factory-racing-triple-clamp) |
+| GasGas Technical Accessories | GasGas Technical Accessories Factory Skid Plate |  | 98.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-factory-skid-plate) |
+| GasGas Technical Accessories | GasGas Technical Accessories Factory Start Device |  | 145.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-factory-start-device) |
+| GasGas Technical Accessories | GasGas Technical Accessories Flame Front Brake Rotor |  | 164.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-flame-front-brake-rotor) |
+| GasGas Technical Accessories | GasGas Technical Accessories Flame Front Brake Rotor Kit |  | 285.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-flame-front-brake-rotor-kit) |
+| GasGas Technical Accessories | GasGas Technical Accessories Frame Protection Decals |  | 29.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-frame-protection-decals) |
+| GasGas Technical Accessories | GasGas Technical Accessories Frame Protectors |  | 40.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-frame-protectors) |
+| GasGas Technical Accessories | GasGas Technical Accessories Front Brake / Clutch Reservoir Cap |  | 45.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-front-brake-clutch-reservoir-cap) |
+| GasGas Technical Accessories | GasGas Technical Accessories Front Brake Disc Guard |  | 242.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-front-brake-disc-guard) |
+| GasGas Technical Accessories | GasGas Technical Accessories Front Fender For CUO GPS Antenna |  | 45.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-front-fender-for-cuo-gps-antenna) |
+| GasGas Technical Accessories | GasGas Technical Accessories Handguard Kit |  | 59.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-handguard-kit) |
+| GasGas Technical Accessories | GasGas Technical Accessories High Seat |  | 164.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-high-seat) |
+| GasGas Technical Accessories | GasGas Technical Accessories Hinson Inner Clutch Hub |  | 377.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-hinson-inner-clutch-hub) |
+| GasGas Technical Accessories | GasGas Technical Accessories Hinson Outer Clutch Cover |  | 257.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-hinson-outer-clutch-cover) |
+| GasGas Technical Accessories | GasGas Technical Accessories Ignition Cover Plug |  | 34.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-ignition-cover-plug) |
+| GasGas Technical Accessories | GasGas Technical Accessories Ignition Curve Switch |  | 138.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-ignition-curve-switch) |
+| GasGas Technical Accessories | GasGas Technical Accessories Lock-On Grips |  | 36.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-lockon-grips) |
+| GasGas Technical Accessories | GasGas Technical Accessories PHDS Handlebar Mounts |  | 283.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-phds-handlebar-mounts) |
+| GasGas Technical Accessories | GasGas Technical Accessories Radiator Cap |  | 21.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-radiator-cap) |
+| GasGas Technical Accessories | GasGas Technical Accessories Rear Brake Reservoir Cap |  | 40.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-rear-brake-reservoir-cap) |
+| GasGas Technical Accessories | GasGas Technical Accessories Shift Lever Tip |  | 57.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-shift-lever-tip) |
+| GasGas Technical Accessories | GasGas Technical Accessories Shock Pre-Load Adjuster |  | 207.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-shock-preload-adjuster) |
+| GasGas Technical Accessories | GasGas Technical Accessories Steel Rear Sprocket |  | 43.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-steel-rear-sprocket) |
+| GasGas Technical Accessories | GasGas Technical Accessories Swing Arm Guard |  | 83.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-swing-arm-guard) |
+| GasGas Technical Accessories | GasGas Technical Accessories TM Designworks Chain Guide |  | 123.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-tm-designworks-chain-guide) |
+| GasGas Technical Accessories | GasGas Technical Accessories Tank Fuel Filter |  | 34.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-tank-fuel-filter) |
+| GasGas Technical Accessories | GasGas Technical Accessories Water Pump Cover |  | 131.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-water-pump-cover) |
+| GBrakes | GBrakes Caliper Relocation Bracket 270mm KTM / Husqvarna / Gas Gas 125cc-530cc 2009-2027 |  | 112.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-caliper-relocation-bracket-270mm-ktm-husqvarna-gas-gas-125cc-530cc-2009-2025) |
+| GBrakes | GBrakes Wave Floating Front Brake Rotor |  | 163.80 USD | [MotoSport](https://www.motosport.com/gbrakes-wave-floating-front-brake-rotor) |
+| Hammerhead Designs | Hammerhead Designs Forged Brake Pedal |  | 131.99 USD | [MotoSport](https://www.motosport.com/hammerhead-designs-forged-brake-pedal) |
+| Hammerhead Designs | Hammerhead Designs Forged Shift Lever |  | 46.99 USD | [MotoSport](https://www.motosport.com/hammerhead-designs-forged-shift-lever) |
+| Hinson | Hinson Billetproof Clutch Cover KTM / Husqvarna / Gas Gas 250cc-450cc 2023-2027 |  | 179.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/hinson-billetproof-clutch-cover-ktm-husqvarna-gas-gas-250cc-450cc-2023-2024) |
+| Hinson | Hinson Complete Billetproof Conventional Clutch Kit KTM / Husqvarna / Gas Gas 250cc-350cc 2022-2027 |  | 939.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/hinson-complete-billetproof-conventional-clutch-kit-ktm-husqvarna-gas-gas-250cc-350cc-2022-2024) |
+| IMS | IMS Coolant Recovery Tank |  | 112.22 USD | [MotoSport](https://www.motosport.com/ims-coolant-recovery-tank) |
+| IMS | IMS Core Enduro Footpegs KTM / Husqvarna / Gas Gas 125cc-450cc 2023-2027 |  | 215.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/ims-core-enduro-footpegs-ktm-husqvarna-gas-gas-125cc-450cc-2023-2024) |
+| IMS | IMS Fuel Tank Gas Gas 125cc-450cc 2024-2027 |  | 483.29 USD | [Cycle Gear](https://www.cyclegear.com/parts/ims-fuel-tank-gas-gas-125cc-450cc-2024-2026) |
+| Michelin | Michelin Starcross 6 Hard Rear Tire |  | 141.99 USD | [MotoSport](https://www.motosport.com/michelin-starcross-6-hard-rear-tire) |
+| Moose Racing | Moose Racing Clutch Master Cylinder Guard KTM / Husqvarna / Gas Gas 250cc-501cc 2023-2027 |  | 42.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-clutch-master-cylinder-guard-ktm-husqvarna-gas-gas-250cc-501cc-2023-2024) |
+| Moose Racing | Moose Racing Flex Forged Brake Lever Husqvarna / Gas Gas 125cc-501cc 2021-2027 |  | 53.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-flex-forged-brake-lever-husqvarna-gas-gas-125cc-501cc-2021-2024) |
+| Moose Racing | Moose Racing Forged Clutch Lever Husqvarna / Gas Gas 125cc-501cc 2022-2027 |  | 59.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-forged-clutch-lever-husqvarna-gas-gas-125cc-501cc-2022-2024) |
+| Moose Racing | Moose Racing Radiator Hose Kit KTM / Husqvarna / Gas Gas 250cc-350cc 2022-2027 |  | 164.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-radiator-hose-kit-ktm-husqvarna-gas-gas-250cc-350cc-2022-2025) |
+| Moose Racing | Moose Racing Skid Plate KTM / Husqvarna / Gas Gas 250cc-501cc 2023-2027 |  | 173.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-skid-plate-ktm-husqvarna-gas-gas-250cc-501cc-2023-2025) |
+| Moose Racing | Moose Racing Stainless Steel Braided Clutch Line Gas Gas 125cc-350cc 2024-2027 |  | 53.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-stainless-steel-braided-clutch-line-gas-gas-125cc-350cc-2024-2025) |
+| MotoSport | MotoSport Complete Factor Series Graphics Kit - GasGas |  | 144.99 USD | [MotoSport](https://www.motosport.com/motosport-complete-factor-series-graphics-kit-gasgas) |
+| MotoSport | MotoSport Factory Series Backgrounds - GasGas |  | 59.99 USD | [MotoSport](https://www.motosport.com/motosport-factory-series-backgrounds-gasgas) |
+| MotoSport | MotoSport Racer Series Backgrounds - GasGas |  | 49.99 USD | [MotoSport](https://www.motosport.com/motosport-racer-series-backgrounds-gasgas) |
+| MotoSport | MotoSport Standard Series Backgrounds - GasGas |  | 39.99 USD | [MotoSport](https://www.motosport.com/motosport-standard-series-backgrounds-gasgas) |
+| Nihilo | Nihilo Manual Cam Chain Tensioner |  | 99.99 USD | [MotoSport](https://www.motosport.com/nihilo-manual-cam-chain-tensioner) |
+| Nihilo | Nihilo Oil Filter Cover |  | 29.99 USD | [MotoSport](https://www.motosport.com/nihilo-oil-filter-cover) |
+| No Toil | No Toil Bike Wash Kit KTM / Husqvarna / Gas Gas 2022-2027 |  | 39.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/no-toil-bike-wash-kit-ktm-husqvarna-gas-gas-2022-2027) |
+| No Toil | No Toil Super Flo Filter Kit KTM / Husqvarna / Gas Gas 250cc-500cc 2023-2027 |  | 69.23 USD | [Cycle Gear](https://www.cyclegear.com/parts/no-toil-super-flo-filter-kit-ktm-husqvarna-gas-gas-250cc-500cc-2023-2026) |
+| No Toil | No Toil Super Flo Replacement Air Filter KTM / Husqvarna / Gas Gas 250cc-500cc 2023-2027 |  | 36.69 USD | [Cycle Gear](https://www.cyclegear.com/parts/no-toil-super-flo-replacement-air-filter-ktm-husqvarna-gas-gas-250cc-500cc-2023-2025) |
+| No Toil | No Toil Super Flo Replacement Air Filter KTM / Husqvarna / Gas Gas 250cc-500cc 2023-2027 [Blemished  |  | 29.35 USD | [Cycle Gear](https://www.cyclegear.com/parts/no-toil-super-flo-replacement-air-filter-ktm-husqvarna-gas-gas-250cc-500cc-2023-2025-1785440591) |
+| P3 | P3 Carbon Fiber MAXCoverage Heat Shield KTM / Husqvarna / Gas Gas 350cc 2023-2027 |  | 159.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/p3-carbon-fiber-maxcoverage-heat-shield-ktm-husqvarna-gas-gas-350cc-2023-2024) |
+| P3 | P3 Carbon Fiber Skid Plate KTM / Husqvarna / Gas Gas 250cc-350cc |  | 199.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/p3-carbon-fiber-skid-plate-ktm-husqvarna-gas-gas-250cc-350cc) |
+| P3 | P3 Enduro Skid Plate |  | 219.50 USD | [MotoSport](https://www.motosport.com/p3-enduro-skid-plate) |
+| P3 | P3 Heat Shield MAXCoverage |  | 149.95 USD | [MotoSport](https://www.motosport.com/p3-heat-shield-maxcoverage) |
+| Pirelli | Pirelli 2025 Scorpion MX32 Mid Soft Rear Tire |  | 151.99 USD | [MotoSport](https://www.motosport.com/pirelli-2025-scorpion-mx32-mid-soft-rear-tire) |
+| Pirelli | Pirelli Closeout Tire Combo |  | 152.00 USD | [MotoSport](https://www.motosport.com/pirelli-closeout-tire-combo) |
+| Pirelli | Pirelli Scorpion MX Stadium Mid Hard Rear Tire |  | 134.99 USD | [MotoSport](https://www.motosport.com/pirelli-scorpion-mx-stadium-mid-hard-rear-tire) |
+| Pivot Works | Pivot Works Shock Bearing Kit - Rear |  | 73.99 USD | [MotoSport](https://www.motosport.com/pivot-works-shock-bearing-kit-rear) |
+| Polisport | Polisport Engine Guard Kit KTM / Husqvarna / Gas Gas 250cc-350cc 2023-2027 |  | 69.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-engine-guard-kit-ktm-husqvarna-gas-gas-250cc-350cc-2023-2024) |
+| Polisport | Polisport Pivot Lever Set Husqvarna / Gas Gas 250cc-450cc 2022-2027 |  | 115.19 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-pivot-lever-set-husqvarna-gas-gas-250cc-450cc-2022-2024) |
+| Polisport | Polisport Swingarm Protectors Gas Gas / Husqvarna / KTM 125cc-450cc 2023-2027 |  | 43.20 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-swingarm-protectors-gas-gas-husqvarna-ktm-125cc-450cc-2023-2025) |
+| Pro Circuit | Pro Circuit T-6 Exhaust System KTM / Husqvarna / Gas Gas 250cc-350cc 2022-2027 |  | 1048.75 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-t-6-exhaust-system-ktm-husqvarna-250cc-350cc-2022-2023) |
+| Pro Circuit | Pro Circuit T-6 Slip-On Exhaust KTM / Husqvarna / Gas Gas 250cc-350cc 2022-2027 |  | 759.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-t-6-slip-on-exhaust-ktm-husqvarna-250cc-350cc-2022-2023) |
+| Pro Circuit | Pro Circuit Ti-6 Pro Complete Exhaust |  | 1326.99 USD | [MotoSport](https://www.motosport.com/pro-circuit-ti6-pro-complete-exhaust) |
+| Pro Circuit | Pro Circuit Ti-6 Pro Titanium Exhaust System KTM / Husqvarna / Gas Gas 350cc 2023-2027 |  | 1329.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-ti-6-pro-titanium-exhaust-system-ktm-husqvarna-350cc-2023-2024) |
+| Pro Circuit | Pro Circuit Ti-6 Titanium Exhaust System KTM / Husqvarna / Gas Gas 250cc 2022-2027 |  | 1329.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-ti-6-titanium-exhaust-system-ktm-husqvarna-gas-gas-250cc-2022-2024) |
+| Pro Taper | Pro Taper VDS Bar Mounts KTM / Husqvarna / Gas Gas 125cc-450cc 2024-2027  |  | 199.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-taper-vds-bar-mounts-ktm-husqvarna-gas-gas-125cc-450cc-2024-2026) |
+| Pro X | Pro X Cam Chain Gas Gas / Husqvarna / KTM 250cc-501cc 2023-2027 |  | 80.06 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-x-cam-chain-gas-gas-husqvarna-ktm-250cc-501cc-2023-2025) |
+| Pro X | Pro X Clutch Plate Set KTM / Husqvarna / Gas Gas 250cc-350cc 2019-2027 |  | 140.36 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-x-clutch-plate-set-ktm-husqvarna-gas-gas-250cc-350cc-2019-2025) |
+| Pro X | Pro X Complete Gasket Kit Gas Gas / Husqvarna / KTM 350cc 2023-2027 |  | 149.36 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-x-complete-gasket-kit-gas-gas-husqvarna-ktm-350cc-2023-2025) |
+| Pro X | Pro X Crankshaft Bearing And Seal Kit KTM / Husqvarna / Gas Gas 250cc-350cc 2016-2027 |  | 169.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-x-crankshaft-bearing-and-seal-kit-ktm-husqvarna-gas-gas-250cc-350cc-2016-2025) |
+| Pro X | Pro X Piston Kit Husqvarna / KTM / Gas Gas 150cc 2020-2027 |  | 209.66 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-x-piston-kit-husqvarna-ktm-gas-gas-150cc-2020-2025) |
+| Pro X | Pro X Titanium Intake Valve |  | 77.35 USD | [MotoSport](https://www.motosport.com/pro-x-titanium-intake-valve) |
+| Pro X | Pro X Top End Gasket Kit Gas Gas / Husqvarna / KTM 350cc 2023-2027 |  | 117.86 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-x-top-end-gasket-kit-gas-gas-husqvarna-ktm-350cc-2023-2025) |
+| Rekluse | Rekluse Clutch Damper Kit KTM / Husqvarna / Gas Gas / Husaberg 250cc-501cc 2012-2027 |  | 68.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-clutch-damper-kit-ktm-husqvarna-gas-gas-husaberg-250cc-501cc-2012-2024) |
+| Rekluse | Rekluse Core Manual Clutch Kit KTM / Husqvarna / Gas Gas 250cc-350cc 2022-2027 |  | 629.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-core-manual-clutch-kit-ktm-husqvarna-250cc-350cc-2022-2023) |
+| Rekluse | Rekluse Radius CX 4.0 Clutch Kit KTM / Husqvarna / Gas Gas 350cc 2023-2027 |  | 1549.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-350cc-2023-2025) |
+| Rekluse | Rekluse Standard Clutch Cover KTM / Husqvarna / Gas Gas 250cc-450cc 2022-2027 |  | 229.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-standard-clutch-cover-ktm-husqvarna-250cc-450cc-2022-2023) |
+| Rekluse | Rekluse Torq Drive Clutch Pack KTM / Husqvarna / Gas Gas / Husaberg 250cc-501cc 2012-2027 |  | 379.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-torq-drive-clutch-pack-ktm-husqvarna-gas-gas-husaberg-250cc-501cc-2012-2024) |
+| RFX | RFX Clutch Cover Gas Gas / KTM / Husqvarna 250c-501cc 2023-2025 |  | 209.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-clutch-cover-gas-gas-ktm-husqvarna-250c-501cc-2023-2025) |
+| RFX | RFX Engine Timing Plug Set Gas Gas 250cc-450cc |  | 24.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-engine-timing-plug-set-gas-gas-250cc-450cc) |
+| RFX | RFX Factory Shift Lever KTM / Gas Gas / Husqvarna 250cc-500cc |  | 129.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-factory-shift-lever-ktm-gas-gas-husqvarna-250cc-500cc) |
+| RFX | RFX Factory Titanium Footpegs KTM / Gas Gas / Husqvarna |  | 319.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-factory-titanium-footpegs-ktm-gas-gas-husqvarna) |
+| RFX | RFX Ignition Cover |  | 229.99 USD | [MotoSport](https://www.motosport.com/rfx-ignition-cover) |
+| RFX | RFX Magnetic Drain Bolt Husqvarna / Gas Gas 125cc-501cc |  | 12.49 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-magnetic-drain-bolt-husqvarna-gas-gas-125cc-501cc) |
+| RFX | RFX Oil Filter Cover KTM / Husqvarna / Gas Gas |  | 39.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-oil-filter-cover-ktm-husqvarna-gas-gas) |
+| RFX | RFX Pro Aluminum Footpegs Gas Gas 125cc-500cc |  | 209.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-pro-aluminum-footpegs-gas-gas-125cc-500cc) |
+| RFX | RFX Pro Flexi Tip Rear Brake Pedal Gas Gas 125cc-500cc 2024-2025 |  | 99.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-pro-flexi-tip-rear-brake-pedal-gas-gas-125cc-500cc-2024-2025) |
+| RFX | RFX Pro Ignition Cover Gas Gas / Husqvarna / KTM 250cc-350cc |  | 459.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-pro-ignition-cover-gas-gas-husqvarna-ktm-250cc-350cc) |
+| RFX | RFX Pro Solid Tip Rear Brake Pedal Gas Gas 250cc-450cc |  | 99.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-pro-solid-tip-rear-brake-pedal-gas-gas-250cc-450cc) |
+| RFX | RFX Pro Titanium/Aluminum Footpegs KTM / Gas Gas / Husqvarna 85cc-500cc 2023-2027 |  | 239.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-pro-titaniumaluminum-footpegs-ktm-gas-gas-husqvarna-85cc-500cc-2023-2026) |
+| RFX | RFX Race Shift Lever Gas Gas 250cc-450cc |  | 39.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-race-shift-lever-gas-gas-250cc-450cc) |
+| RFX | RFX Rear Axle Blocks Gas Gas 125cc-500cc |  | 59.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-rear-axle-blocks-gas-gas-125cc-500cc) |
+| RFX | RFX Rear Wheel Spacers |  | 29.99 USD | [MotoSport](https://www.motosport.com/rfx-rear-wheel-spacers) |
+| RFX | RFX Reservoir Cap Kit |  | 69.99 USD | [MotoSport](https://www.motosport.com/rfx-reservoir-cap-kit) |
+| RFX | RFX Steering Stem Nut |  | 19.99 USD | [MotoSport](https://www.motosport.com/rfx-steering-stem-nut) |
+| Samco | Samco Radiator Hose Clamp Kit KTM / Husqvarna / Gas Gas 250cc-350cc 2022-2027 |  | 42.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/samco-radiator-hose-clamp-kit-ktm-husqvarna-gas-gas-250cc-350cc-2022-2025) |
+| Throttle Syndicate | Throttle Syndicate Gas Gas Shroud Kit |  | 69.99 USD | [MotoSport](https://www.motosport.com/throttle-syndicate-gas-gas-shroud-kit) |
+| Throttle Syndicate | Throttle Syndicate TLD Gas Gas Team Kit - 2023 |  | 119.99 USD | [MotoSport](https://www.motosport.com/throttle-syndicate-tld-gas-gas-team-kit-2023) |
+| Trail Tech | Trail Tech Radiator Fan Kit KTM / Husqvarna / Gas Gas 50cc-450cc 2023-2027 |  | 219.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/trail-tech-radiator-fan-kit-ktm-husqvarna-gas-gas-50cc-450cc-2023-2026) |
+| Turner Performance Products | Turner Performance Products Billet Radiator Guard |  | 159.99 USD | [MotoSport](https://www.motosport.com/turner-performance-products-billet-radiator-guard) |
+| Turner Performance Products | Turner Performance Products Brake Master Cylinder Rebuild Kit |  | 45.05 USD | [MotoSport](https://www.motosport.com/turner-performance-products-brake-master-cylinder-rebuild-kit) |
+| Turner Performance Products | Turner Performance Products Quick Break O-Ring And Filter Kit |  | 36.81 USD | [MotoSport](https://www.motosport.com/turner-performance-products-quick-break-oring-and-filter-kit) |
+| Turner Performance Products | Turner Performance Products Water Pump Cover Guard |  | 39.99 USD | [MotoSport](https://www.motosport.com/turner-performance-products-water-pump-cover-guard) |
+| Twin Air | Twin Air Fuel Filter |  | 31.99 USD | [MotoSport](https://www.motosport.com/twin-air-fuel-filter) |
+| Twin Air | Twin Air Oil Cooling System |  | 424.96 USD | [MotoSport](https://www.motosport.com/twin-air-oil-cooling-system) |
+| Vertex | Vertex 4-Stroke Piston Kit KTM / Husqvarna / Gas Gas 350cc |  | 399.90 USD | [Cycle Gear](https://www.cyclegear.com/parts/vertex-4-stroke-piston-kit-ktm-husqvarna-gas-gas-350cc) |
+| Vertex | Vertex Clutch Cover Gasket Gas Gas / Husqvarna / KTM 250cc-501cc 2023-2025 |  | 7.13 USD | [Cycle Gear](https://www.cyclegear.com/parts/vertex-clutch-cover-gasket-gas-gas-husqvarna-ktm-250cc-501cc-2023-2025) |
+| Vertex | Vertex Water Pump Rebuild Kit Gas Gas / KTM / Husqvarna 250cc-350cc 2023-2025 |  | 48.75 USD | [Cycle Gear](https://www.cyclegear.com/parts/vertex-water-pump-rebuild-kit-gas-gas-ktm-husqvarna-250cc-350cc-2023-2025) |
+| Wiseco | Wiseco Valve Shim Kit |  | 73.99 USD | [MotoSport](https://www.motosport.com/wiseco-valve-shim-kit) |
+| Works Connection | Works Connection Elite Axle Block Kit KTM / Husqvarna / Gas Gas 125cc-450cc 2022-2027 |  | 108.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-elite-axle-block-kit-ktm-husqvarna-125cc-450cc-2022-2023) |
+| Works Connection | Works Connection Fork Guard Reinforcing Kit KTM / Gas Gas / Husqvarna 125cc-450cc 2023-2027 |  | 19.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-fork-guard-reinforcing-kit-ktm-gas-gas-husqvarna-125cc-450cc-2023-2025) |
+| Works Connection | Works Connection Front Brake Reservoir Cover KTM / Husqvarna / Stark / Gas Gas / Kawasaki 65cc-530cc |  | 36.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-front-brake-reservoir-cover-ktm-husqvarna-stark-gas-gas-kawasaki-65cc-530cc) |
+| Works Connection | Works Connection Pro Launch Kit Gas Gas 125cc-450cc 2021-2027 |  | 159.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-pro-launch-kit-gas-gas-125cc-450cc-2021-2025) |
+| XTrig | XTrig Pre-Load Adjuster For Ohlins Reverse Threaded Shock [Blemished - Good] |  | 142.79 USD | [Cycle Gear](https://www.cyclegear.com/parts/xtrig-pre-load-adjuster-for-ohlins-reverse-threaded-shock-1791998659) |
+| Yoshimura | Yoshimura RS-12 Exhaust System KTM / Husqvarna / Gas Gas 250cc-350cc 2022-2027 |  | 1149.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/yoshimura-rs-12-exhaust-system-ktm-husqvarna-gas-gas-250cc-350cc-2022-2024) |
+| Yoshimura | Yoshimura RS-12 Slip-On Exhaust KTM / Husqvarna / Gas Gas 250cc-450cc 2023-2027 |  | 749.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/yoshimura-rs-12-slip-on-exhaust-ktm-husqvarna-gas-gas-250cc-450cc-2023-2024) |
+| ZETA | ZETA Engine Plugs |  | 24.39 USD | [MotoSport](https://www.motosport.com/zeta-engine-plugs) |
+| ZETA | ZETA Lowering Link |  | 273.57 USD | [MotoSport](https://www.motosport.com/zeta-lowering-link) |
+| Zeta | Zeta 3D Chain Guide Gas Gas 85cc-450cc 2024-2027 |  | 137.26 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-3d-chain-guide-gas-gas-85cc-450cc-2024) |
+| Zeta | Zeta Lowering Link Gas Gas 125cc-450cc 2024-2027 |  | 259.89 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-lowering-link-gas-gas-125cc-450cc-2024-2025-1) |
+| Zeta | Zeta Rear Disc Guard KTM / Husqvarna / Gas Gas 125cc-501cc 2022-2027 |  | 154.31 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-rear-disc-guard-ktm-husqvarna-gas-gas-125cc-501cc-2022-2025) |
+| Zeta | Zeta Trigger Brake Pedal Gas Gas 250cc-450cc 2024-2027 |  | 156.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-trigger-brake-pedal-gas-gas-250cc-450cc-2024) |
 
-## Cooling (3)
+## Universal retailer listings (counted only)
 
-| Brand | Part | Part numbers | Price (as listed) | Notes | Source | Confidence |
-|---|---|---|---|---|---|---|
-| Boyesen | Boyesen Spectra Supercooler Kit, KTM/Husqvarna/GasGas 250-350 4T | WPK-44CB, WPK-44CL, WPK-44CM | 179.96 (was 199.95) USD |  Boyesen's own page for WPK-44AM (and WPK-44AB) lists KTM 250/350 SX-F and XC-F 2016-2022, Husqvarna FC350/FX350 to 2022 and GasGas MC 250F/3 | [Cycle Gear](https://www.cyclegear.com/parts/boyesen-spectra-supercooler-kit-ktm-husqvarna-gas-gas-250cc-350cc-2023-2025) | medium |
-| Bullet Proof Designs | Bullet Proof Designs Radiator Braces/Guards, KTM/Husqvarna/GasGas |  |   |  A single SKU across 2017-2026 is doubtful given the 2023 chassis change; AOMC listing is '17-23' (possible SKU KTM-RG-19, not verified). 85  | [Dirt Bike Spec](https://dirtbikespec.com/product/bulletproof-designs-radiator-guards-ktm-husqvarna/) | unverified |
-| Moose Racing (made by Samco Sport) | Moose Racing Radiator Hose Kit, KTM/Husqvarna/GasGas 250-350 4T 2022-2027 | KTM-129-RD | 164.95 USD |  Factory Edition 2022 listed (FE used next-gen engine early). | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-radiator-hose-kit-ktm-husqvarna-gas-gas-250cc-350cc-2022-2025) | medium |
+Uncategorised 3598
 
-## Engine (2)
-
-| Brand | Part | Part numbers | Price (as listed) | Notes | Source | Confidence |
-|---|---|---|---|---|---|---|
-| RFX | RFX Magnetic Drain Bolt Husqvarna / Gas Gas 125cc-501cc | FXDB 50100 99BU (blue), FXDB 50100 99RD (red) | 12.49 USD | Only 2023+ captured. Also MC 250F Factory Edition 2023-2024. Only one bolt per listing, and KTM / 4T engines have more than one drain plug, so which position it fits is not stated. KTM fitment is on a  | [Cycle Gear (US)](https://www.cyclegear.com/parts/rfx-magnetic-drain-bolt-husqvarna-gas-gas-125cc-501cc) | medium |
-| Wiseco | Wiseco Cam Chain, 23-25 KTM / FC 250-350 | CC069 | 88.99 (was 98.95) USD |  The title names the KTM 450 SX but the fitment table has no 450, so 450 fit is unconfirmed. Backordered. | [Hurrey's Off Road (US)](https://hurreysoffroad.com/products/wiseco-23-25-ktm-450sx-23-24-fc250-350-camchain) | medium |
-
-## Exhaust (5)
-
-| Brand | Part | Part numbers | Price (as listed) | Notes | Source | Confidence |
-|---|---|---|---|---|---|---|
-| Akrapovič (KTM PowerParts) | Akrapovič Racing Line full system, 250/350 SX-F/XC-F | A46005901044 | 1265.0 GBP |  Competition use. Check the MY26+ airbox caveat (see A46005979000). | [KTM Direct (UK)](https://ktmdirect.co.uk/products/akrapovic-racing-line-a46005901044) | medium |
-| Akrapovič (sold as KTM PowerParts / Husqvarna / GasGas) | Akrapovič Slip-On Line (titanium), 350/450 SX-F/XC-F | A48005979000 | 724.0 GBP | AOMC labels it 'KTM/HQV/GG ... 350/450 SX-F/XC-F 23-27'. Model-level list not retrieved. Competition use. See the MY26/27 airbox caveat on the 250 slip-on (A46005979000); it may also apply to the 350/450 but is not confirmed on t | [KTM Direct (UK)](https://ktmdirect.co.uk/products/akrapovic-slip-on-line-exhaust-a48005979000) | medium |
-| FMF | Factory 4.1 RCT Stainless SL (Slip-On) w/ Carbon End Cap, 250/350 | 045679 | 674.99 USD |  Pass-1 note: US MY27 standard SX-F/XC-F (and EU MY26 / US MY26 Factory Edition) got a revised airbox/filter; KTM says its Akrapovic systems  | [FMF Racing](https://www.fmfracing.com/products/factory-4-1-rct-stainless-sl-slip-on-w-carbon-end-cap-045679) | high |
-| FMF | Factory 4.1 RCT Titanium Anodized SL (Slip-On) w/ Carbon Cap, 250/350 | 045670 | 854.99 USD |  Pass 1 listed an FMF 250/350 silencer sold through the KTM dealer channel without a part number (fmf-factory41-rct-oem-2023); this is likely | [FMF Racing](https://www.fmfracing.com/products/factory-4-1-rct-titanium-anodized-sl-slip-on-w-carbon-cap-045670) | high |
-| FMF (sold via KTM/Husqvarna/GasGas dealer PowerParts channel) | FMF Factory 4.1 RCT Silencer 250/350 SX-F/XC-F 23-27 |  | 854.99 USD |  No part number captured. It may be an FMF retail part rather than an OEM PowerPart, so overlap with the aftermarket slice is possible. | [AOMC (US)](https://aomc.mx/KTM-Powerparts-Akrapovic-Slip-On-Line-Muffler-250-SX-FXC-F-23-24-A46005979000.html) | unverified |
-
-## Intake (2)
-
-| Brand | Part | Part numbers | Price (as listed) | Notes | Source | Confidence |
-|---|---|---|---|---|---|---|
-| Twin Air | Powerflow Kit GasGas/Husqvarna/KTM 125cc-450cc 2023-2027 |  |   |  Price unclear on the page (~$199.45 in structured data). Part number not captured. | [RevZilla](https://www.revzilla.com/motorcycle/twin-air-powerflow-kit-gas-gashusqvarnaktm-125cc-450cc-2023-2024) | unverified |
-| Twin Air | Twin Air air filter 154118 (KTM/Husqvarna/GasGas 2022-2025) | 154118 | 21.2 GBP |  Fit on MY26 FE / MY27 standard 4-strokes with the revised airbox/filter is unconfirmed (Cycle Gear lists 2027, but KTM says the filter chang | [Oro2u (UK)](https://www.oro2u.com/air-filter-22-25-gasgas-husqvarna-ktm-twin-air-154118) | medium |
-
-## Protection (1)
-
-| Brand | Part | Part numbers | Price (as listed) | Notes | Source | Confidence |
-|---|---|---|---|---|---|---|
-| Acerbis | Linear front disc cover (KTM/Husqvarna/GasGas/Stark), max disc 280 mm | AC-26107BK (black; Bikeman JP code, 'AC-' likely retailer prefix), AC-26107OR16 (orange) and AC-26107WH (white) from Bikeman URLs | 53.05 (was 58.95) USD |  Max disc 280 mm, so it should clear a 270 mm oversize kit (inference, not stated). Acerbis catalogue number not confirmed. | [Slavens Racing](https://slavensracing.com/shop/linear-disc-guard-for-ktm-hqv-gg-stark-by-acerbis/) | medium |
-
-## Wheels (1)
-
-| Brand | Part | Part numbers | Price (as listed) | Notes | Source | Confidence |
-|---|---|---|---|---|---|---|
-| Warp 9 | Elite wheel assembly, KTM/Husaberg/Husqvarna/GasGas (21x1.60 front, 18x2.15 rear) |  | 441.00-544.00 USD |  Page does not mention the 22 mm rear axle; confirm hub bore for 2023+. No 19 in rear option shown on this listing. | [Slavens Racing](https://slavensracing.com/shop/complete-wheel-assembly-ktm-husaberg-warp-9/) | medium |
+Top brands: Acerbis 145, Pro Taper 129, Cycra 112, Motion Pro 105, Rugged Radios 105, Turner Performance Products 93, Renthal 84, ODI 77, Factory Effex 77, RAM Mounts 73, Moose Racing 72, D‘COR Visuals 65, Fire Power 65, RFX 64, Trail Tech 63, DRC 58, Bolt 55, Quad Lock 53, SP Connect 51, Zeta 46, Kriega 45, Polisport 44, KTM PowerParts 44, Namz Custom Cycle 40, Ride Engineering 35
 

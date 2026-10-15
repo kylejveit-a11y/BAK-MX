@@ -111,7 +111,7 @@ feed=[p for p in products if isfeed(p)]
 if feed:
     L+=['','## Dealer and retailer catalogs','',f'{len(feed)} listings from dealer and retailer catalogs are summarised here and listed in full on the per-bike pages (bikes/) and in BRANDS.md.','',
         '| Source | Listings | Brands | With part numbers |','|---|---|---|---|']
-    for pre,name in (('ktt-','KTM Twins (official KTM dealer, US)'),('lng-','Lings (KTM/Husqvarna/GasGas dealer, UK)'),('tri-','Triumph Waukesha (official Triumph dealer, US)'),('cg-','Cycle Gear (retailer, US)')):
+    for pre,name in (('ktt-','KTM Twins (official KTM dealer, US)'),('lng-','Lings (KTM/Husqvarna/GasGas dealer, UK)'),('tri-','Triumph Waukesha (official Triumph dealer, US)'),('cg-','Cycle Gear (retailer, US)'),('ms-','MotoSport (retailer, US)')):
         ff=[p for p in feed if p['id'].startswith(pre)]
         if ff: L.append(f"| {name} | {len(ff)} | {len({p.get('brand') for p in ff})} | {sum(1 for p in ff if p.get('part_numbers'))} |")
 bycat=collections.defaultdict(list)
@@ -144,32 +144,72 @@ L+=['','## Gaps and work not done','']+[f'- ({s}) {esc(g)}' for s,g in gaps+notd
 open(os.path.join(fam_dir,'CATALOG.md'),'w').write('\n'.join(L)+'\n')
 os.makedirs(os.path.join(fam_dir,'bikes'),exist_ok=True)
 byid={p['id']:p for p in products}
+SRC={'ktt-':'KTM Twins','lng-':'Lings','tri-':'Triumph dealer','cg-':'Cycle Gear','ms-':'MotoSport'}
+src_of=lambda p:next((v for k,v in SRC.items() if str(p['id']).startswith(k)),'research')
+# A retailer listing that fits most of the bike-years that retailer was read for is a universal item (oil, grips, batteries):
+# counted on the bike pages and kept in parts.csv, but not listed row by row.
+read_by=collections.defaultdict(set)
 for (mk,model,y),ids in bike.items():
-    B=[f'# {mk} {model} {y}: aftermarket parts','',f'{len(ids)} parts whose listed fitment names this bike. Research candidates: check fitment on the maker\'s page before relying on a row. Back to [the family catalog](../CATALOG.md).','']
+    for i in ids: read_by[src_of(byid[i])].add((mk,model,y))
+nfit=lambda p:sum(len(f.get('years') or []) for f in p.get('fits') or [])
+universal=lambda p:src_of(p) in ('Cycle Gear','MotoSport') and nfit(p)>=0.4*max(1,len(read_by[src_of(p)]))
+def yr(ys):
+    ys=sorted(set(ys)); out=[]
+    for y in ys:
+        if out and y==out[-1][1]+1: out[-1][1]=y
+        else: out.append([y,y])
+    return ', '.join(f'{a}' if a==b else f'{a}-{b}' for a,b in out)
+import csv
+with open(os.path.join(fam_dir,'parts.csv'),'w',newline='') as fh:
+    w=csv.writer(fh); w.writerow(['source','brand','product','category','part_numbers','price','currency','url','fits','confidence','id'])
+    for p in sorted(products,key=lambda p:(str(p.get('brand')).lower(),str(p.get('product')))):
+        wb=(p.get('where_to_buy') or [{}])[0]
+        w.writerow([src_of(p),p.get('brand'),p.get('product'),' / '.join(x for x in (p.get('category'),p.get('subcategory')) if x),' '.join(p.get('part_numbers') or []),
+                    wb.get('price_if_stated') or '',wb.get('currency') or '',wb.get('url') or p.get('fitment_source_url') or '',
+                    '; '.join(f"{f.get('make')} {f.get('model')} {yr(f.get('years') or [])}".strip() for f in p.get('fits') or []),p.get('confidence'),p['id']])
+norm=lambda s:re.sub(r'[^a-z0-9]+',' ',str(s).lower()).strip()
+for (mk,model,y),ids in bike.items():
+    ps=[byid[i] for i in ids]
+    res=[p for p in ps if src_of(p)=='research']; uni=[p for p in ps if universal(p)]; spec=[p for p in ps if src_of(p)!='research' and not universal(p)]
+    B=[f'# {mk} {model} {y}: aftermarket parts','',
+       f'{len(ids)} listings whose stated fitment names this bike: {len(res)} researched parts (with what they change and rider findings), '
+       f'{len(spec)} dealer and retailer listings specific to this bike, and {len(uni)} universal retailer listings (oil, grips, batteries and the like, '
+       'counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker\'s page before relying on a row. '
+       'Back to [the family catalog](../CATALOG.md).','']
+    if res:
+        B+=['## Researched parts','','| Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |','|---|---|---|---|---|---|---|']
+        for p in sorted(res,key=lambda p:(str(p.get('category')),str(p.get('brand')))):
+            wb=(p.get('where_to_buy') or [{}])[0]
+            B.append(f"| {esc(p.get('brand'))} | {esc(p.get('product'))[:120]} | {esc(', '.join(p.get('part_numbers') or [])[:160])} | {esc(p.get('what_it_changes'))[:200]} | {esc(p.get('caveats'))[:160]} | [{esc(wb.get('seller') or 'source')}]({wb.get('url') or p.get('fitment_source_url')}) | {esc(p.get('confidence'))} |")
+        B.append('')
     cats=collections.defaultdict(list)
-    for i in ids: cats[str(byid[i].get('category') or 'Other').split(' > ')[-1].strip().title()].append(byid[i])
+    for p in spec: cats[str(p.get('category') or 'Other').split(' > ')[-1].strip().title()].append(p)
+    if spec: B+=['## Dealer and retailer listings for this bike','','Merged across sellers by brand and part number (or brand and name). Lings is a UK dealer (GBP prices, EU-market models).','']
     for c in sorted(cats):
-        B+=[f'## {c} ({len(cats[c])})','','| Brand | Part | Part numbers | Price (as listed) | Notes | Source | Confidence |','|---|---|---|---|---|---|---|']
+        B+=[f'### {c} ({len(cats[c])})','','| Brand | Part | Part numbers | Price | Sellers |','|---|---|---|---|---|']
         rows=collections.OrderedDict()
         for p in sorted(cats[c],key=lambda p:(str(p.get('brand')).lower(),str(p.get('product')))):
-            k=(str(p.get('brand')).lower(),tuple(sorted(p.get('part_numbers') or []))) if p.get('part_numbers') else p['id']
+            k=(norm(p.get('brand')),tuple(sorted(p.get('part_numbers') or []))) if p.get('part_numbers') else (norm(p.get('brand')),norm(p.get('product')))
             rows.setdefault(k,[]).append(p)
         for grp in rows.values():
-            p=grp[0]
-            w=dict((p.get('where_to_buy') or [{}])[0])
-            if len(grp)>1: w['seller']=' / '.join(dict.fromkeys(str((g.get('where_to_buy') or [{}])[0].get('seller')) for g in grp))
-            fitn='; '.join(esc(f.get('notes')) for f in p.get('fits') or [] if f.get('notes') and (f.get('model')==model or model in str(f.get('model'))))[:120]
-            B.append(f"| {esc(p.get('brand'))} | {esc(p.get('product'))[:120]} | {esc(', '.join(p.get('part_numbers') or [])[:160])} | {esc(w.get('price_if_stated') or '')} {esc(w.get('currency') or '') if w.get('price_if_stated') else ''} | {fitn} {esc(p.get('caveats'))[:140]} | [{esc(w.get('seller') or 'source')}]({w.get('url') or p.get('fitment_source_url')}) | {esc(p.get('confidence'))} |")
+            p=grp[0]; wb=(p.get('where_to_buy') or [{}])[0]
+            sellers=' · '.join(dict.fromkeys(f"[{src_of(g)}]({(g.get('where_to_buy') or [{}])[0].get('url') or g.get('fitment_source_url')})" for g in grp))
+            pns=sorted({x for g in grp for x in g.get('part_numbers') or []})
+            B.append(f"| {esc(p.get('brand'))} | {esc(p.get('product'))[:100]} | {esc(', '.join(pns)[:120])} | {esc(wb.get('price_if_stated') or '')} {esc(wb.get('currency') or '') if wb.get('price_if_stated') else ''} | {sellers} |")
         B.append('')
+    if uni:
+        uc=collections.Counter(str(p.get('category') or 'Other').title() for p in uni); ub=collections.Counter(str(p.get('brand')) for p in uni)
+        B+=['## Universal retailer listings (counted only)','',', '.join(f'{c} {n}' for c,n in uc.most_common()),'','Top brands: '+', '.join(f'{b} {n}' for b,n in ub.most_common(25)),'']
     open(os.path.join(fam_dir,'bikes',bslug(mk,model,y)+'.md'),'w').write('\n'.join(B)+'\n')
 br=collections.defaultdict(list)
 for p in products: br[str(p.get('brand') or 'Unknown').strip()].append(p)
 R=[f'# {title}: aftermarket brands','',f'{len(br)} brands with at least one part listed for these bikes, with the categories they cover and where the listings come from.','','| Brand | Parts | Categories | Sources |','|---|---|---|---|']
 for b in sorted(br,key=lambda b:(-len(br[b]),b.lower())):
     ps=br[b]; cats=collections.Counter(str(p.get('category') or 'Other').split(' > ')[-1].strip() for p in ps)
-    src=collections.Counter('KTM Twins' if p['id'].startswith('ktt-') else 'Lings' if p['id'].startswith('lng-') else 'Triumph dealer' if p['id'].startswith('tri-') else 'Cycle Gear' if p['id'].startswith('cg-') else 'research' for p in ps)
+    src=collections.Counter('KTM Twins' if p['id'].startswith('ktt-') else 'Lings' if p['id'].startswith('lng-') else 'Triumph dealer' if p['id'].startswith('tri-') else 'Cycle Gear' if p['id'].startswith('cg-') else 'MotoSport' if p['id'].startswith('ms-') else 'research' for p in ps)
     R.append(f"| {esc(b)} | {len(ps)} | {esc(', '.join(f'{c} ({n})' for c,n in cats.most_common(6)))} | {esc(', '.join(f'{k} {v}' for k,v in src.items()))} |")
 open(os.path.join(fam_dir,'BRANDS.md'),'w').write('\n'.join(R)+'\n')
-json.dump({'by_bike':{f'{a}|{b}|{c}':sorted(v) for (a,b,c),v in sorted(bike.items())},'unmapped':unmapped,
+json.dump({'by_bike':{f'{a}|{b}|{c}':sorted(i for i in v if src_of(byid[i])=='research') for (a,b,c),v in sorted(bike.items())},
+           'listing_counts':{f'{a}|{b}|{c}':dict(collections.Counter(src_of(byid[i]) for i in v)) for (a,b,c),v in sorted(bike.items())},'unmapped':unmapped,
            'feedback_links':{x.get('id'):x['_linked'] for x in feedback}},open(os.path.join(fam_dir,'index.json'),'w'),indent=0)
 print(len(products),'products',len(feedback),'feedback',len(builds),'builds;',len(bike),'of',len(roster),'bike-years mapped; unmapped',len(unmapped))

@@ -1,35 +1,15 @@
 # Husqvarna TX 300 2020: aftermarket parts
 
-6 parts whose listed fitment names this bike. Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+6 listings whose stated fitment names this bike: 6 researched parts (with what they change and rider findings), 0 dealer and retailer listings specific to this bike, and 0 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
-## Cooling (1)
+## Researched parts
 
-| Brand | Part | Part numbers | Price (as listed) | Notes | Source | Confidence |
+| Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
-| Bullet Proof Designs | Bullet Proof Designs Radiator Braces/Guards, KTM/Husqvarna/GasGas |  |   |  A single SKU across 2017-2026 is doubtful given the 2023 chassis change; AOMC listing is '17-23' (possible SKU KTM-RG-19, not verified). 85  | [Dirt Bike Spec](https://dirtbikespec.com/product/bulletproof-designs-radiator-guards-ktm-husqvarna/) | unverified |
-
-## Engine (1)
-
-| Brand | Part | Part numbers | Price (as listed) | Notes | Source | Confidence |
-|---|---|---|---|---|---|---|
-| Slavens Racing (Mule) | Power Valve Tuning Kit (Legacy 3-spring and Mule Four 4-spring) |  |   |  Does NOT list 2023+ TBI SX/XC or 2023+ 125 SX; useful only for 2020-2022 MX bikes in scope. 2023+ TBI PV spring options remain a gap. | [Slavens Racing](https://slavensracing.com/shop/power-valve-tuning-kit/) | medium |
-
-## Exhaust (1)
-
-| Brand | Part | Part numbers | Price (as listed) | Notes | Source | Confidence |
-|---|---|---|---|---|---|---|
-| FMF | Factory Fatty, KTM/Husqvarna/GasGas 250/300 2019-2023 | 025243 | 329.99 USD |  Does not fit 2023+ TBI SX/TC. | [FMF Racing](https://www.fmfracing.com/products/factory-fatty-025243) | high |
-
-## Protection (2)
-
-| Brand | Part | Part numbers | Price (as listed) | Notes | Source | Confidence |
-|---|---|---|---|---|---|---|
-| Acerbis | Linear front disc cover (KTM/Husqvarna/GasGas/Stark), max disc 280 mm | AC-26107BK (black; Bikeman JP code, 'AC-' likely retailer prefix), AC-26107OR16 (orange) and AC-26107WH (white) from Bikeman URLs | 53.05 (was 58.95) USD |  Max disc 280 mm, so it should clear a 270 mm oversize kit (inference, not stated). Acerbis catalogue number not confirmed. | [Slavens Racing](https://slavensracing.com/shop/linear-disc-guard-for-ktm-hqv-gg-stark-by-acerbis/) | medium |
-| Bullet Proof Designs | Radiator guards KTM/Husqvarna/GasGas 125-501 | KTM-RG-19 | 290.00 USD |  Year range conflict on retailer page; confirm with BPD for 2023+ KTM/Husky and 2024+ GasGas. | [AOMC.mx](https://aomc.mx/KTM-RG-19.html) | unverified |
-
-## Wheels (1)
-
-| Brand | Part | Part numbers | Price (as listed) | Notes | Source | Confidence |
-|---|---|---|---|---|---|---|
-| Warp 9 | Elite wheel assembly, KTM/Husaberg/Husqvarna/GasGas (21x1.60 front, 18x2.15 rear) |  | 441.00-544.00 USD |  Page does not mention the 22 mm rear axle; confirm hub bore for 2023+. No 19 in rear option shown on this listing. | [Slavens Racing](https://slavensracing.com/shop/complete-wheel-assembly-ktm-husaberg-warp-9/) | medium |
+| Bullet Proof Designs | Bullet Proof Designs Radiator Braces/Guards, KTM/Husqvarna/GasGas |  | 6061 billet frame-mounted guards; claims no adverse effect on airflow and compatible with fan kits. | A single SKU across 2017-2026 is doubtful given the 2023 chassis change; AOMC listing is '17-23' (possible SKU KTM-RG-19, not verified). 85 SX not covered. | [Dirt Bike Spec](https://dirtbikespec.com/product/bulletproof-designs-radiator-guards-ktm-husqvarna/) | unverified |
+| Slavens Racing (Mule) | Power Valve Tuning Kit (Legacy 3-spring and Mule Four 4-spring) |  | Seller: changes power delivery via power-valve spring rate. | Does NOT list 2023+ TBI SX/XC or 2023+ 125 SX; useful only for 2020-2022 MX bikes in scope. 2023+ TBI PV spring options remain a gap. | [Slavens Racing](https://slavensracing.com/shop/power-valve-tuning-kit/) | medium |
+| FMF | Factory Fatty, KTM/Husqvarna/GasGas 250/300 2019-2023 | 025243 | FMF claim: broader, smoother power curve with gains low, mid and over-rev. Weight 5.0 lb. | Does not fit 2023+ TBI SX/TC. | [FMF Racing](https://www.fmfracing.com/products/factory-fatty-025243) | high |
+| Acerbis | Linear front disc cover (KTM/Husqvarna/GasGas/Stark), max disc 280 mm | AC-26107BK (black; Bikeman JP code, 'AC-' likely retailer prefix), AC-26107OR16 (orange) and AC-26107WH (white) from Bikeman URLs | Protects disc, left fork bottom and caliper; vented; mounts on the axle nut with no extra mount kit. | Max disc 280 mm, so it should clear a 270 mm oversize kit (inference, not stated). Acerbis catalogue number not confirmed. | [Slavens Racing](https://slavensracing.com/shop/linear-disc-guard-for-ktm-hqv-gg-stark-by-acerbis/) | medium |
+| Bullet Proof Designs | Radiator guards KTM/Husqvarna/GasGas 125-501 | KTM-RG-19 | Frame-mounted aluminium guards for frontal/side impact; claimed no cooling restriction, fan-kit compatible, ~3 oz/side over stock louver. | Year range conflict on retailer page; confirm with BPD for 2023+ KTM/Husky and 2024+ GasGas. | [AOMC.mx](https://aomc.mx/KTM-RG-19.html) | unverified |
+| Warp 9 | Elite wheel assembly, KTM/Husaberg/Husqvarna/GasGas (21x1.60 front, 18x2.15 rear) |  | Aftermarket complete wheel; the 18 in rear suits XC/cross-country use (MX SX/SX-F run 19 in). | Page does not mention the 22 mm rear axle; confirm hub bore for 2023+. No 19 in rear option shown on this listing. | [Slavens Racing](https://slavensracing.com/shop/complete-wheel-assembly-ktm-husaberg-warp-9/) | medium |
 
