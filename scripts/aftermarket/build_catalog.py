@@ -17,6 +17,8 @@ def family(model):
         if f.replace('-','') in m.replace('-',''): return f
 def norm_fit(make,text):
     """Bikes in the roster named by one fitment line ("SX / SX-F", "250 SX-F", "TC / FC (per title)", "MC 450F")."""
+    exact=[(mk,model) for mk,model,y in roster if mk==make and re.sub(r'[^A-Z0-9]','',model.upper())==re.sub(r'[^A-Z0-9]','',text.upper())]
+    if exact: return sorted(set(exact))                      # a line that is exactly a roster model name (dealer and retailer feeds)
     if ENDURO.search(text) and not re.search(r'\b(SX|XC(?!-W)|TC|FC|TX|FX|MC|EX(?!C))\b',text.upper()): return []
     t=text.upper().replace('SXF','SX-F').replace('XCF','XC-F')
     nums=set(re.findall(r'(?<!\d)(85|125|150|250|300|350|450)(?!\d)',t))
@@ -43,7 +45,7 @@ def norm_fit(make,text):
             if re.search(r'\d{3}F|MC-F|MCF|EX-F|4-?STROKE|4T',t) and not re.search(r'\d{3}(?!F)\b|2-?STROKE|2T',t) and not four: continue
             if re.search(r'2-?STROKE|2T|TBI',t) and not re.search(r'\d{3}F|4-?STROKE',t) and four: continue
         else:
-            four=fam in ('SX-F','XC-F','FC','FX')
+            four=fam in ('SX-F','XC-F','FC','FX') or (mk in ('Yamaha','Honda') and re.search(r'\d{3}F',M) is not None) or (mk=='Kawasaki' and re.fullmatch(r'KX\d{3}X?',M) is not None and d in ('250','450'))
             if famtoks and fam not in famtoks: continue
             if not famtoks and not (nums or every): continue
             if stroke and four!=(stroke=='4'): continue

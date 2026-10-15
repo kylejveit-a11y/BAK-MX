@@ -28,7 +28,7 @@ the app needs a manufacturer-page fitment check per part (the evidence fields in
 | KTM family | 2: manufacturer confirmation, missing brands and categories, 85 SX, more feedback | Done 2026-10-14 | 210 products (32 high, 123 medium, 55 unverified), 276 part numbers, 83 findings, 17 builds; all 224 in-scope bike-years have mapped parts |
 | KTM family | 3: full dealer and retailer catalogs (every brand), company registry | Wrapped up 2026-10-14 (partial, see below) | 8,738 listings: KTM Twins 968, Lings 1,463, Cycle Gear 2,729 unique parts across 192 bike-years (149 brands), MotoSport 3,368 across 60 bike-years 2025-2027 (229 brands); all in `ktm-family/parts.csv`; per-bike pages list bike-specific listings in full and count universal ones; 233-company registry |
 | Triumph | 1: genuine accessories (official dealer catalog), aftermarket search, rider and tester feedback; Cycle Gear and MotoSport catalogs | Done 2026-10-14 | 125 products (76 Triumph genuine accessories from triumphpartstore.com, 49 aftermarket: 5 high, 35 medium, 9 unverified), 31 findings, 5 builds; all 9 TF bike-years mapped. Retailer catalogs: Cycle Gear 1,273 parts (121 brands, all with part numbers), MotoSport 2,431 (208 brands, 2,280 with part numbers); 3,829 listings in `triumph/parts.csv` |
-| Yamaha | 1 | Queued | |
+| Yamaha | 1: maker-confirmed parts, rider and tester feedback; Yamaha genuine and GYTR; Cycle Gear and MotoSport catalogs | Done 2026-10-15 | 5,992 listings in `yamaha/parts.csv`: 46 researched parts (about 22 maker-confirmed), 155 Yamaha genuine / GYTR (yamahaonlineparts.com), Cycle Gear 2,470 (148 brands), MotoSport 3,321 (232 brands); 34 findings, 5 builds; all 63 YZ bike-years mapped |
 | Honda | 1 | Queued | |
 | Kawasaki | 1 | Queued | |
 
@@ -131,3 +131,14 @@ Universal items: a Cycle Gear or MotoSport listing carried for three or more mak
 Honda, Kawasaki) is counted on the bike pages instead of listed. Until every family is crawled some universal items still
 show as bike-specific; the pages sharpen as Yamaha, Honda and Kawasaki finish. Product pages read for Triumph also filled in
 part numbers for the KTM-family listings they share (Cycle Gear 1,205, MotoSport 2,399).
+
+## Yamaha: what pass 1 found
+
+Maker-confirmed part numbers from Pro Circuit, FMF (two-stroke pipes), Yoshimura, Akrapovič, Rekluse and Wiseco; platform
+boundaries as sources describe them (YZ450F 2023 new platform, 2025 linkage and mounts, 2026 frame, shock, hydraulic clutch and
+locked ECU; YZ250F 2024 frame, 2027 all-new; YZ450FX on the YZ450F platform from 2024). Tester settings: Keefer baselines for
+YZ450F 2025-26 and YZ250F 2023-26; MXA measured the 2026 YZ450F at 56.7 hp against 59.5 hp for 2025 (GYTR sells the 2025
+airbox). Disagreements kept: YZ450F gearing (MXA taller, Keefer shorter), fork height, holeshot device height. GYTR listings
+whose page names a model but no years stay unmapped. Gaps: HGS, Arrow, Hinson, Vertex, JE, Pro-X, Hot Cams, GET, suspension
+tuners and the protection brands have no maker-confirmed numbers yet; YZ125X / YZ250X setup data is thin; 2026 YZ450F and
+2027 exhaust fitment is not maker-confirmed.

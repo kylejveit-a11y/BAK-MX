@@ -1,18 +1,12 @@
 # Triumph TF 450-X 2026: aftermarket parts
 
-3668 listings whose stated fitment names this bike: 8 researched parts (with what they change and rider findings), 2471 dealer and retailer listings specific to this bike, and 1189 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+3427 listings whose stated fitment names this bike: 2 researched parts (with what they change and rider findings), 2406 dealer and retailer listings specific to this bike, and 1019 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
-| Moto-Master | Supermoto Racing Brake Kit, Front 320mm (Triumph TF) | 313097R | Converts to 320mm 2-piece floating disc with caliper, adapter, 12mm radial master cylinder, SS line, racing pads. | Seller note: 'for bikes with a headlight' - odd for X/C models; confirm. | [Ghost Bikes (UK)](https://www.ghostbikes.com/products/2528034-moto-master-supermoto-racing-brake-kit-for-triumph-tf250c-2026-front) | medium |
 | Rekluse | TorqDrive Clutch Pack - Triumph TF450 | RMS-2812003 | Drop-in friction pack. | Sub-model mapping inferred from 'TF450 2024+'. | [Rekluse](https://www.rekluse.com/product-category/manual-clutches/mk-triumph/) | high |
-| FMF Racing | Factory 4.1 RCT Stainless Silencer (Triumph TF450RC) | 045699 | RCT core said to lower dB while keeping power; QuietCore 94 dB insert and spark arrestor included. | Seller notes it will NOT pass 2025 FIM sound regulation. Sold out at check. | [Ghost Bikes (UK)](https://www.ghostbikes.com/products/2503690-fmf-factory-41-rct-stainless-silencer-for-triumph-tf450rc-2025-2026) | medium |
-| FMF Racing | Factory 4.1 RCT (Ti anodized, titanium header, carbon cap) - Triumph TF 450-RC | 045706 | Appears to be the full titanium system version. | Full-system status and years inferred from fragmentary listing; verify with FMF. | [Happy Trail](https://www.happy-trail.com/fmf-racing-fmf-4-stroke-factory-4-1-rct-muffler-045706.html) | unverified |
-| Pro Circuit | Ti-6 BC Pro Exhaust System (Triumph TF450C / TF450RC) | 03122645BC | Passes AMA/FIM sound; machined mid-pipe joint for leak-free fit (retailer copy). | Pro Circuit site not fetched; part number taken from Cycle Gear 'Manufacturer Product #'. Meaning of 'BC' unknown. RevZilla photo shows a Yamaha. | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-ti-6-bc-pro-exhaust-system-triumph-tf450c-tf450rc) | medium |
-| Pro Circuit | T-6 Exhaust System (Triumph TF450C / TF450RC) | 01122645G | Economical stainless system; Pro Circuit says same performance as Ti-6; AMA amateur sound compliant; USFS spark arrestor. | Pro Circuit site not fetched; part number taken from Cycle Gear 'Manufacturer Product #'. Seller URL has typo 'TC450C'. | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-t-6-exhaust-system-triumph-tc450c-tf450rc) | medium |
-| Pro Circuit | Ti-6 Pro Titanium Exhaust System (Triumph TF450C / TF450RC) | 03122645F | Built for pro AMA racing; passes AMA/FIM sound rules per retailer copy; lighter than stock. | Pro Circuit site not fetched; part number taken from Cycle Gear 'Manufacturer Product #'. TF 450-X / TF 450-E 2026 not listed - confirm with Pro Circuit. | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-ti-6-pro-titanium-exhaust-system-triumph-tf450c-tf450rc) | medium |
 | Yoshimura | RS-12 Exhaust System (Triumph TF 450, 2025-2026) |  | Full RS-12 system; Yoshimura cites 3 years development. | No Yoshimura part number on page; price inferred from metadata. Sub-model fitment unclear. | [RevZilla](https://www.revzilla.com/motorcycle/yoshimura-rs-12-exhaust-system-triumph-tf-450-2025-2026) | medium |
 
 ## Dealer and retailer listings for this bike
@@ -91,7 +85,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Enduro Engineering | Enduro Engineering Skid Plate Triumph 450cc | 24-2125 | 123.45 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-skid-plate-triumph-450cc) |
 | RFX | RFX Frame Grip Tape Triumph 250cc-450cc | FXGT 60100 99BK, FXGT 60100 99GY | 59.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-frame-grip-tape-triumph-250cc-450cc) |
 
-### Body (174)
+### Body (173)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
@@ -169,7 +163,6 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Custom Dynamics | Custom Dynamics All-In-One License Plate Frame | TF04-B, TF05-B | 129.95 USD | [MotoSport](https://www.motosport.com/custom-dynamics-allinone-license-plate-frame) |
 | CV4 | CV4 Thermal Fuel Line Wrap | TCP-204.5G-3, TCP-204G-3, TCP-205G-3 | 22.46 USD | [MotoSport](https://www.motosport.com/cv4-thermal-fuel-line-wrap) |
 | CV4 | CV4 Woven Thermal Film | CVI-FILMGOLD-1, CVI-FILMSILVER-W-1 | 40.46 USD | [MotoSport](https://www.motosport.com/cv4-woven-thermal-film) |
-| Cycra | Cycra Fork Guard Set | 1CYC-6900-42, 1CYC-6901-42, 1CYC-6903-42, 1CYC-6904-42, 1CYC-6905-42, 1CYC-6907-42, 1CYC-6909-42, 1CYC-6910-30, 1CYC-691 | 41.99 USD | [MotoSport](https://www.motosport.com/cycra-fork-guard-set) |
 | Cycra | Cycra Fork Protector Pad Kit | 1CYC-0012-12, 1CYC-0012-22, 1CYC-0012-32, 1CYC-0012-55, 1CYC-0012-62, 1CYC-0012-72, 1CYC-0012-80 | 7.99 USD | [MotoSport](https://www.motosport.com/cycra-fork-protector-pad-kit) |
 | D'COR Visuals | D'COR Visuals Grip Tape Sheet | 40-80-093, 40-80-094, 40-80-095, 40-80-096, 40-80-097, 40-80-098, 40-80-099, 40-80-100, 40-80-101, 40-80-102 | 14.95 USD | [MotoSport](https://www.motosport.com/dcor-visuals-grip-tape-sheet) |
 | DEI | DEI Cool-Tape | 10408, 10416 | 15.39 USD | [MotoSport](https://www.motosport.com/dei-cooltape) |
@@ -366,7 +359,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Triumph Genuine Accessories | Gripper Seat Cover | A9700664 | 94.34 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23257?catalogue=TF250-X&year=2024) |
 | Triumph Genuine Accessories | Low Seat Cover Kit | A9700585 | 92.22 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23352?catalogue=TF250-X&year=2026) |
 
-### Controls (472)
+### Controls (466)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
@@ -411,12 +404,6 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | All Balls | All Balls Master Cylinder Rebuild Kit - Clutch | 18-1055, 18-4000, 18-4001, 18-4002, 18-4003, 18-4004, 18-4010, 18-4011, 18-4012, 18-4014, 18-4009, 18-4016, 18-4018, 18- | 29.73 USD | [MotoSport](https://www.motosport.com/all-balls-master-cylinder-rebuild-kit-clutch) |
 | ARC | ARC DC-8 Adjuster Kit | CP-542 | 38.99 USD | [MotoSport](https://www.motosport.com/arc-dc8-adjuster-kit) |
 | ARC | ARC DC-8 Perch Rebuild Kit | CP-541 | 32.99 USD | [MotoSport](https://www.motosport.com/arc-dc8-perch-rebuild-kit) |
-| ARC | ARC Folding Aluminum Lever Combo | BR-103-O, BR-122-B, BR-350-B, BR-501-B, BR-214, BR-224, BR-501, BR-601, BR-103, BR-301, BR-402, BR-350, BR-412, BR-122,  | 151.98 USD | [MotoSport](https://www.motosport.com/arc-folding-aluminum-lever-combo) |
-| ARC | ARC Folding Brake Lever | BR-103-O, BR-122-B, BR-350-B, BR-501-B, BR-214, BR-214-C, BR-214-CT, BR-224, BR-224-C, BR-224-CT, BR-311, BR-411, BR-511 | 79.99 USD | [MotoSport](https://www.motosport.com/arc-folding-brake-lever) |
-| ARC | ARC Folding Brake PowerLever | BR-224i-B, BR-402i-B, BR-412i-B, BR-402I-CT, BR-214I-CT, BR-224I-CT, BR-412I-CT, BR-601I, BR-402I, BR-214I, BR-412I, BR- | 109.99 USD | [MotoSport](https://www.motosport.com/arc-folding-brake-powerlever) |
-| ARC | ARC Folding Clutch Lever | CL-104-B, CL-S311-B, CL-S421-B, CL-104-O, CL-S104-O, CL-203-O, CL-105, CL-105-C, CL-105-CT, CL-203, CL-203-B, CL-301-B,  | 79.99 USD | [MotoSport](https://www.motosport.com/arc-folding-clutch-lever) |
-| ARC | ARC Folding Clutch PowerLever | CL-224I, CL-203I, CL-224I-C, CL-203I-C, CL-424I-C, CL-224I-CT, CL-203I-CT, CL-424I-CT, CL-424i, CL-S621i, CL-S203i, CL-S | 139.99 USD | [MotoSport](https://www.motosport.com/arc-folding-clutch-powerlever) |
-| ARC | ARC Folding Composite Lever Combo | BR-122, BR-214-C, BR-214-CT, BR-224-C, BR-224-CT, BR-350-CT, BR-501-CT, BR-601-CT, BR-103-CT, BR-301-CT, BR-402-CT, BR-4 | 142.99 USD | [MotoSport](https://www.motosport.com/arc-folding-composite-lever-combo) |
 | ARC | ARC Lever Pivot Bolt Kit | AP311 | 9.99 USD | [MotoSport](https://www.motosport.com/arc-lever-pivot-bolt-kit) |
 | ARC | ARC RC-8 Perch Only Assembly | CP-210 | 140.00 USD | [MotoSport](https://www.motosport.com/arc-rc8-perch-only-assembly) |
 | ARC | ARC RC-8 Perch Rebuild Kit | CP-511 | 32.99 USD | [MotoSport](https://www.motosport.com/arc-rc8-perch-rebuild-kit) |
@@ -947,13 +934,6 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Turner Performance Products | Turner Performance Products Works Aluminum Rear Sprocket |  | 51.99 USD | [MotoSport](https://www.motosport.com/turner-performance-products-works-aluminum-rear-sprocket) |
 | Vortex | Vortex Aluminum Sprocket - Rear | 110-34, 120-34, 144-34, 454-34, 775-34, 528C-34, 110-35, 120-35, 144-35, 454-35, 775-35, 435C-35, 528C-35, 110-36, 120-3 | 61.99 USD | [MotoSport](https://www.motosport.com/vortex-aluminum-sprocket-rear) |
 
-### Drive & Transmission (2)
-
-| Brand | Part | Part numbers | Price | Sellers |
-|---|---|---|---|---|
-| Acerbis | Acerbis Chain Slider Triumph 250cc-450cc | 2988010001 | 32.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-chain-slider-triumph-250cc-450cc) |
-| RFX | RFX Rear Axle Blocks Triumph 250cc-450cc | FXAB 60200 99BK, FXAB 60200 99HA | 44.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-rear-axle-blocks-triumph-250cc-450cc) |
-
 ### Engine (79)
 
 | Brand | Part | Part numbers | Price | Sellers |
@@ -1038,7 +1018,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Yamalube | Yamalube Yamabond 6B Hi-Temp Silicone | ACC-YAMAB-ND-6B | 27.99 USD | [MotoSport](https://www.motosport.com/yamalube-yamabond-6b-hitemp-silicone) |
 | ZETA | ZETA Oil Filler Plug | ZE89-2110, ZE89-2310, ZE89-2210, ZE89-2111, ZE89-2112, ZE89-2312, ZE89-2212, ZE89-2120, ZE89-2416 | 19.74 USD | [MotoSport](https://www.motosport.com/zeta-oil-filler-plug) |
 
-### Exhaust (103)
+### Exhaust (97)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
@@ -1080,9 +1060,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | FMF | FMF Megabomb Header - Stainless Steel | 041426, 043309, 042338, 042343, 041577, 043368, 045620, 045622, 045624, 044449, 041598, 042384, 042390, 045664, 045665,  | 336.99 USD | [MotoSport](https://www.motosport.com/fmf-megabomb-header-stainless-steel) |
 | FMF | FMF Megabomb Header - Titanium | 042379, 042400, 042408, 042423, 043310, 044450, 043369, 045621, 45623, 045625, 041599, 042391, 044476, 041607, 045689, 0 | 426.99 USD | [MotoSport](https://www.motosport.com/fmf-megabomb-header-titanium) |
 | FMF | FMF Powercore 4 HEX Slip-On Exhaust | 041489, 044396, 044397, 045553, 044423, 044404, 041514, 045589, 042308, 042309, 042310, 042327, 044434, 042345, 041569,  | 359.99 USD | [MotoSport](https://www.motosport.com/fmf-powercore-4-hex-slipon-exhaust) |
-| FMF | FMF Powercore 4 HEX Slip-On Exhaust Triumph TF 450 C / E / RC 2025-2026 | 45701 | 427.49 USD | [Cycle Gear](https://www.cyclegear.com/parts/fmf-powercore-4-hex-slip-on-exhaust-triumph-tf-450-c-e-rc-2025-2026) |
 | FMF | FMF Powercore 4 HEX Spark Arrestor Insert | 040670 | 26.99 USD | [MotoSport](https://www.motosport.com/fmf-powercore-4-hex-spark-arrestor-insert) |
-| FMF | FMF Q4 HEX S/A Slip-On Exhaust Triumph TF450 C / E / RC 2025-2026 | 45702 | 474.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/fmf-q4-hex-sa-slip-on-exhaust-triumph-tf450-c-e-rc-2025-2026) |
 | FMF | FMF Q4 Hex Spark Arrestor Slip-On Exhaust | 041486, 043326, 044426, 045556, 045590, 044435, 041568, 041570, 044442, 044452, 041578, 045627, 041544, 041601, 042388,  | 404.99 USD | [MotoSport](https://www.motosport.com/fmf-q4-hex-spark-arrestor-slipon-exhaust) |
 | FMF | FMF Turbinecore 2 Universal Spark Arrestor - 2-Stroke | 020302, 020303 | 197.99 USD | [MotoSport](https://www.motosport.com/fmf-turbinecore-2-universal-spark-arrestor-2stroke) |
 | Giant Loop | Giant Loop Hot Springs Heat Shield | HSHS3 | 28.95 USD | [MotoSport](https://www.motosport.com/giant-loop-hot-springs-heat-shield) |
@@ -1118,19 +1096,15 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Pro Circuit | Pro Circuit T-4 Silencer Sticker | DCT4S | 8.99 USD | [MotoSport](https://www.motosport.com/pro-circuit-t4-silencer-sticker) |
 | Pro Circuit | Pro Circuit T-4S Sticker Kit | DC09T4S | 14.99 USD | [MotoSport](https://www.motosport.com/pro-circuit-t4s-sticker-kit) |
 | Pro Circuit | Pro Circuit T-6 Complete Exhaust | 0111912F, 0112023F, 0111925F, 0122011F, 0132012F, 0132023F, 0121525H, 0131645G, 0141445G, 0141525G, 0121525G, 0131625G,  | 1034.99 USD | [MotoSport](https://www.motosport.com/pro-circuit-t6-complete-exhaust) |
-| Pro Circuit | Pro Circuit T-6 Exhaust System Triumph TC450C / TF450RC | 01122645G | 1035.45 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-t-6-exhaust-system-triumph-tc450c-tf450rc) |
 | Pro Circuit | Pro Circuit T-6 Slip-On Exhaust | 0141425A, 0131625A, 0131445A, 0151425A, 0151435A, 0111415A, 0151545A, 0121645A, 0121725A, 0141845A, 0131725A, 0131845A,  | 759.99 USD | [MotoSport](https://www.motosport.com/pro-circuit-t6-slipon-exhaust) |
-| Pro Circuit | Pro Circuit T-6 Slip-On Exhaust Triumph TF450C / TF450RC | 01122645A | 759.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-t-6-slip-on-exhaust-triumph-tf450c-tf450rc) |
 | Pro Circuit | Pro Circuit T4-GP Sticker Kit | DC09T4GP | 14.99 USD | [MotoSport](https://www.motosport.com/pro-circuit-t4gp-sticker-kit) |
 | Pro Circuit | Pro Circuit T4-GPR Sticker Kit | DC09T4GPR | 14.99 USD | [MotoSport](https://www.motosport.com/pro-circuit-t4gpr-sticker-kit) |
 | Pro Circuit | Pro Circuit TI-4 Silencer Sticker | DCTI4S | 8.99 USD | [MotoSport](https://www.motosport.com/pro-circuit-ti4-silencer-sticker) |
 | Pro Circuit | Pro Circuit TI-4GP Sticker Kit | DC09TI4GP | 14.99 USD | [MotoSport](https://www.motosport.com/pro-circuit-ti4gp-sticker-kit) |
 | Pro Circuit | Pro Circuit TI-4R Sticker Kit | DC09TI4R | 14.99 USD | [MotoSport](https://www.motosport.com/pro-circuit-ti4r-sticker-kit) |
 | Pro Circuit | Pro Circuit Ti-5 Carbon End Cap | PC4022-0003, PC40220001 | 125.99 USD | [MotoSport](https://www.motosport.com/pro-circuit-ti5-carbon-end-cap) |
-| Pro Circuit | Pro Circuit Ti-6 BC Pro Exhaust System Triumph TF450C / TF450RC | 03122645BC | 1406.90 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-ti-6-bc-pro-exhaust-system-triumph-tf450c-tf450rc) |
 | Pro Circuit | Pro Circuit Ti-6 Complete Exhaust | 0331645F, 0341445F, 0321525F, 0321545F, 0331625F, 0351535F, 0351725F, 0321645F, 0321725F, 0361745F, 0351635F, 0341525F,  | 1326.99 USD | [MotoSport](https://www.motosport.com/pro-circuit-ti6-complete-exhaust) |
 | Pro Circuit | Pro Circuit Ti-6 Pro BC Complete Exhaust | 03122525BC, 0312525BC, 0312545BC, 0322545BC, 0332545BC, 0352525BC, 0322525BC, 0332645BC, 0342525BC, 0342545BC, 0352545BC | 1402.99 USD | [MotoSport](https://www.motosport.com/pro-circuit-ti6-pro-bc-complete-exhaust) |
-| Pro Circuit | Pro Circuit Ti-6 Pro Titanium Exhaust System Triumph TF450C / TF450RC | 03122645F | 1329.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-ti-6-pro-titanium-exhaust-system-triumph-tf450c-tf450rc) |
 | R&G Racing | R&G Racing Exhaust Protector | EP0004BK.2 | 51.79 USD | [MotoSport](https://www.motosport.com/rg-racing-exhaust-protector) |
 | RFX | RFX Flat Sheet Exhaust Packing | FXSP 10000 55WH | 12.99 USD | [MotoSport](https://www.motosport.com/rfx-flat-sheet-exhaust-packing) |
 | RFX | RFX Loose Exhaust Packing | FXSP 30500 55WH, FXSP 31000 55WH | 25.99 USD | [MotoSport](https://www.motosport.com/rfx-loose-exhaust-packing) |
@@ -1398,12 +1372,6 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Throttle Syndicate | Throttle Syndicate Swingarm Decals | TS30-7000, TS30-7001, TS30-7002, TS30-7004, TS30-7005 | 13.99 USD | [MotoSport](https://www.motosport.com/throttle-syndicate-swingarm-decals) |
 | Throttle Syndicate | Throttle Syndicate Universal Badge Decals | TS30-1060, TS30-1061, TS30-1065, TS30-1076, TS30-1086 | 7.49 USD | [MotoSport](https://www.motosport.com/throttle-syndicate-universal-badge-decals) |
 | Throttle Syndicate | Throttle Syndicate Universal Decal Sheet | TS30-1058, TS30-1059, TS30-1064, TS30-1070, TS30-1071, TS30-1072, TS30-1073, TS30-1074, TS30-1077, TS30-1079, TS30-1080, | 9.99 USD | [MotoSport](https://www.motosport.com/throttle-syndicate-universal-decal-sheet) |
-
-### Handlebars & Controls (1)
-
-| Brand | Part | Part numbers | Price | Sellers |
-|---|---|---|---|---|
-| Enduro Engineering | Enduro Engineering Roost Deflector Mounting Kit KTM / Husqvarna / Gas Gas / Sherco / Triumph 65cc-50 | 53-1020 | 56.97 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-roost-deflector-mounting-kit-ktm-husqvarna-gas-gas-sherco-triumph-65cc-501cc-) |
 
 ### Helmets (3)
 
@@ -1922,16 +1890,14 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | USWE | USWE Folding Tool Pouch | 5101200801 | 19.99 USD | [MotoSport](https://www.motosport.com/uswe-folding-tool-pouch) |
 | Yakima | Yakima LoadWarrior Stretch Net | 8007072 | 65.00 USD | [MotoSport](https://www.motosport.com/yakima-loadwarrior-stretch-net) |
 
-### Performance (4)
+### Performance (2)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
 | Triumph Genuine Accessories | Akrapovic Exhaust, Full System | A9601361 | 1385.35 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23752?catalogue=TF450-X&year=2026) |
 | Triumph Genuine Accessories | Akrapovic Exhaust, Full System | A9601344 | 1931.25 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23752?catalogue=TF450-X&year=2026) |
-| Triumph Genuine Accessories | Akrapovic Exhaust, Silencer | A9601353 | 1086.65 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23567?catalogue=TF450-E&year=2026) |
-| Triumph Genuine Accessories | Akrapovic Exhaust, Silencer | A9601363 | 937.30 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23567?catalogue=TF450-E&year=2026) |
 
-### Protection (31)
+### Protection (25)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
@@ -1942,12 +1908,10 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Triumph Genuine Accessories | Air Filter Wash Cover | A9610150 | 22.40 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23347?catalogue=TF250-X&year=2026) |
 | Triumph Genuine Accessories | Brake Disc Guard Kit | A9620139 | 94.34 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23254?catalogue=TF250-X&year=2024) |
 | Triumph Genuine Accessories | Chain \u0026 Lock, 69XBT150 | A9810030 | 249.60 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23254?catalogue=TF250-X&year=2024) |
-| Triumph Genuine Accessories | Comb Battery Charger, 2A, AU | A9938"])</script><script>self.__next_f.push([1,"827 | 104.94 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23552?catalogue=TF450-E&year=2026) |
 | Triumph Genuine Accessories | Comb Battery Charger, 2A, CN | A9938829 | 1169.05 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23254?catalogue=TF250-X&year=2024) |
 | Triumph Genuine Accessories | Comb Battery Charger, 2A, EU | A9938825 | 1169.05 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23254?catalogue=TF250-X&year=2024) |
 | Triumph Genuine Accessories | Comb Battery Charger, 2A, IN | A9938828 | 1169.05 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23254?catalogue=TF250-X&year=2024) |
 | Triumph Genuine Accessories | Comb Battery Charger, 2A, JP | A9938830 | 104.94 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23254?catalogue=TF250-X&year=2024) |
-| Triumph Genuine Accessories | Comb Battery Charger, 2A, JP | A99388"])</script><script>self.__next_f.push([1,"30 | 104.94 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23448?catalogue=TF450-C&year=2026) |
 | Triumph Genuine Accessories | Comb Battery Charger, 2A, UK | A9930596 | 87.45 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23254?catalogue=TF250-X&year=2024) |
 | Triumph Genuine Accessories | Disc Lock, Alarm, 30 x BT14 | A9810027 | 208.00 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23254?catalogue=TF250-X&year=2024) |
 | Triumph Genuine Accessories | Disc Lock, CR5 | A9810022 | 140.40 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23254?catalogue=TF250-X&year=2024) |
@@ -1955,17 +1919,13 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Triumph Genuine Accessories | Fuel Filler Cap Assy | A9790190 | 104.00 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23254?catalogue=TF250-X&year=2024) |
 | Triumph Genuine Accessories | Garage Mat | A9930566 | 145.60 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23254?catalogue=TF250-X&year=2024) |
 | Triumph Genuine Accessories | Gripper Seat | A9700556 | 239.20 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23254?catalogue=TF250-X&year=2024) |
-| Triumph Genuine Accessories | Handguards Kit | A9630315 | 171.60 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23051?catalogue=TF250-C&year=2026) |
 | Triumph Genuine Accessories | Hole Shot Device | A9640242 | 114.40 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23254?catalogue=TF250-X&year=2024) |
 | Triumph Genuine Accessories | LC-GPA Module Kit | A9820204 | 339.90 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23254?catalogue=TF250-X&year=2024) |
-| Triumph Genuine Accessories | Linkage Protection Kit | A9700625 | 43.74 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23157?catalogue=TF250-E&year=2026) |
 | Triumph Genuine Accessories | Low Seat Kit | A9700584 | 192.40 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23347?catalogue=TF250-X&year=2026) |
-| Triumph Genuine Accessories | MX Tune Pro Module | A9820140 | 283.25 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23157?catalogue=TF250-E&year=2026) |
 | Triumph Genuine Accessories | MX Tune Pro Module, Gen 4 Kit | A9820130 | 288.40 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23254?catalogue=TF250-X&year=2024) |
 | Triumph Genuine Accessories | Muc-Off Cleaning Kit, EU, Bagged | A9930515 | 124.80 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23254?catalogue=TF250-X&year=2024) |
 | Triumph Genuine Accessories | Muc-Off Cleaning Kit, US, Bagged | A9930520 | 103.88 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23254?catalogue=TF250-X&year=2024) |
 | Triumph Genuine Accessories | Plastic Skid Plate Kit | A9700624 | 124.80 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23736?catalogue=TF450-X&year=2026) |
-| Triumph Genuine Accessories | Plastics Kit | A9703504 | 262.65 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23157?catalogue=TF250-E&year=2026) |
 
 ### Riding Gear (18)
 
@@ -2013,11 +1973,10 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Works Connection | Works Connection Skid Plate Foam | 50-015 | 9.95 USD | [MotoSport](https://www.motosport.com/works-connection-skid-plate-foam) |
 | Works Connection | Works Connection Titanium Disc Guard Bolt Kit | 70-606 | 17.95 USD | [MotoSport](https://www.motosport.com/works-connection-titanium-disc-guard-bolt-kit) |
 
-### Styling (3)
+### Styling (2)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
-| Triumph Genuine Accessories | Fuel Filler Cap Assembly | A9790165 | 98.58 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23284?catalogue=TF250-X&year=2024) |
 | Triumph Genuine Accessories | Plastics Kit, MX | A9700932 | 254.80 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23283?catalogue=TF250-X&year=2024) |
 | Triumph Genuine Accessories | Radiator Shroud Decal Kit | A9700933 | 44.82 USD | [Triumph dealer](https://www.triumphpartstore.com/us/catalog/assembly/23282?catalogue=TF250-X&year=2024) |
 
@@ -2119,14 +2078,13 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Yamalube | Yamalube Suspension Oil 1 Liter | 907-93380-49-00, 90793-38046-00 | 32.99 USD | [MotoSport](https://www.motosport.com/yamalube-suspension-oil-1-liter) |
 | ZETA | ZETA Rear Shock Lowering Kit | ZE56-32246, ZE56-32250 | 55.81 USD | [MotoSport](https://www.motosport.com/zeta-rear-shock-lowering-kit) |
 
-### Tires (234)
+### Tires (198)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
 | Artrax | Artrax Front Tire With Front Mousse Insert Combo |  | 155.98 USD | [MotoSport](https://www.motosport.com/artrax-front-tire-with-front-mousse-insert-combo) |
 | Artrax | Artrax MX-Pro Soft/Intermediate Terrain Front Tire |  | 55.99 USD | [MotoSport](https://www.motosport.com/artrax-mxpro-softintermediate-terrain-front-tire) |
 | Artrax | Artrax MX-Pro Soft/Intermediate Terrain Rear Tire |  | 64.99 USD | [MotoSport](https://www.motosport.com/artrax-mxpro-softintermediate-terrain-rear-tire) |
-| Artrax | Artrax Rear Tire With Rear Mousse Insert Combo |  | 174.00 USD | [MotoSport](https://www.motosport.com/artrax-rear-tire-with-rear-mousse-insert-combo) |
 | Artrax | Artrax SE3 "Sticky" Rear Tire |  | 58.77 USD | [MotoSport](https://www.motosport.com/artrax-se3-sticky-rear-tire) |
 | Artrax | Artrax SE3 Intermediate Terrain Rear Tire |  | 68.99 USD | [MotoSport](https://www.motosport.com/artrax-se3-intermediate-terrain-rear-tire) |
 | Artrax | Artrax SX1 Intermediate/Hard Terrain Front Tire |  | 50.99 USD | [MotoSport](https://www.motosport.com/artrax-sx1-intermediatehard-terrain-front-tire) |
@@ -2136,12 +2094,8 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Artrax | Artrax TG4 Soft/Intermediate Terrain Front Tire |  | 47.99 USD | [MotoSport](https://www.motosport.com/artrax-tg4-softintermediate-terrain-front-tire) |
 | Artrax | Artrax TG4 Soft/Intermediate Terrain Rear Tire |  | 69.99 USD | [MotoSport](https://www.motosport.com/artrax-tg4-softintermediate-terrain-rear-tire) |
 | Artrax | Artrax Tire Combo |  | 105.75 USD | [MotoSport](https://www.motosport.com/artrax-tire-combo) |
-| Artrax | Artrax Tire Combo With Mousse Inserts |  | 329.98 USD | [MotoSport](https://www.motosport.com/artrax-tire-combo-with-mousse-inserts) |
 | Artrax | Artrax Tire Combo With Tubes |  | 115.77 USD | [MotoSport](https://www.motosport.com/artrax-tire-combo-with-tubes) |
-| Artrax | Artrax XC Enduro "Sticky" Rear Tire |  | 89.99 USD | [MotoSport](https://www.motosport.com/artrax-xc-enduro-sticky-rear-tire) |
 | Artrax | Artrax XC Enduro Fat Front Tire |  | 53.99 USD | [MotoSport](https://www.motosport.com/artrax-xc-enduro-fat-front-tire) |
-| Artrax | Artrax XC Enduro Rear Tire |  | 75.99 USD | [MotoSport](https://www.motosport.com/artrax-xc-enduro-rear-tire) |
-| Artrax | Artrax XC Enduro Tire Combo |  | 127.98 USD | [MotoSport](https://www.motosport.com/artrax-xc-enduro-tire-combo) |
 | Avon Tire | Avon Tire TrailRider Rear Tire | 638377, 638382, 638401 | 205.99 USD | [MotoSport](https://www.motosport.com/avon-tire-trailrider-rear-tire) |
 | Avon Tire | Avon Tire TrekRider Front Tire | 640843, 640844, 640845 | 134.99 USD | [MotoSport](https://www.motosport.com/avon-tire-trekrider-front-tire) |
 | Avon Tire | Avon Tire TrekRider Rear Tire | 640846, 640847, 640848 | 209.99 USD | [MotoSport](https://www.motosport.com/avon-tire-trekrider-rear-tire) |
@@ -2167,18 +2121,11 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Continental | Continental TKC80 Front Tire | 02405650000, 02405660000, 02405670000 | 119.99 USD | [MotoSport](https://www.motosport.com/continental-tkc80-front-tire) |
 | Continental | Continental TKC80 Rear Tire | 02405690000, 02405700000, 02405710000, 02405720000, 02405730000 | 135.99 USD | [MotoSport](https://www.motosport.com/continental-tkc80-rear-tire) |
 | Continental | Continental TKC80 Tire Combo | 02405650000, 02405660000, 02405670000, 02405690000, 02405700000, 02405710000, 02405720000, 02405730000 | 254.00 USD | [MotoSport](https://www.motosport.com/continental-tkc80-tire-combo) |
-| Dunlop | Dunlop AT81EX Rear Tire | 45229521 | 145.99 USD | [MotoSport](https://www.motosport.com/dunlop-at81ex-rear-tire) |
 | Dunlop | Dunlop D606 Front Tire | 45162083 | 144.99 USD | [MotoSport](https://www.motosport.com/dunlop-d606-front-tire) |
-| Dunlop | Dunlop D606 Rear Tire | 45162233, 45162297, 45162910 | 169.99 USD | [MotoSport](https://www.motosport.com/dunlop-d606-rear-tire) |
-| Dunlop | Dunlop D606 Tire Combo | 45162083, 45162233, 45162297, 45162910 | 299.00 USD | [MotoSport](https://www.motosport.com/dunlop-d606-tire-combo) |
-| Dunlop | Dunlop D908 Rally Raid Rear Tire | 45052370 | 271.99 USD | [MotoSport](https://www.motosport.com/dunlop-d908-rally-raid-rear-tire) |
 | Dunlop | Dunlop Geomax AT82 Front Tire | 45261500, 45261501 | 128.99 USD | [MotoSport](https://www.motosport.com/dunlop-geomax-at82-front-tire) |
 | Dunlop | Dunlop Geomax AT82 Rear Tire | 45261502, 45261503, 45261504, 45261505 | 150.99 USD | [MotoSport](https://www.motosport.com/dunlop-geomax-at82-rear-tire) |
-| Dunlop | Dunlop Geomax EN91 Rear Tire | 45242351, 45242467 | 141.99 USD | [MotoSport](https://www.motosport.com/dunlop-geomax-en91-rear-tire) |
-| Dunlop | Dunlop Geomax EN91EX Rear Tire | 45272501 | 191.99 USD | [MotoSport](https://www.motosport.com/dunlop-geomax-en91ex-rear-tire) |
 | Dunlop | Dunlop Geomax MX14 Rear Tire | 45259500, 45259501, 45259502, 45259503, 45259504, 45259505, 45259506, 45259507 | 144.99 USD | [MotoSport](https://www.motosport.com/dunlop-geomax-mx14-rear-tire) |
 | Dunlop | Dunlop Geomax MX33 Front Tire | 45234870 | 118.99 USD | [MotoSport](https://www.motosport.com/dunlop-geomax-mx33-front-tire) |
-| Dunlop | Dunlop Geomax MX33 Rear Tire | 45234195 | 132.99 USD | [MotoSport](https://www.motosport.com/dunlop-geomax-mx33-rear-tire) |
 | Dunlop | Dunlop Geomax MX34 Factory Spec Rear Tire | U69FS20 | 139.99 USD | [MotoSport](https://www.motosport.com/dunlop-geomax-mx34-factory-spec-rear-tire) |
 | Dunlop | Dunlop Geomax MX34 Front Tire | 45273500, 45273501, 45273502, 45273503, 45273504, 45273505 | 114.99 USD | [MotoSport](https://www.motosport.com/dunlop-geomax-mx34-front-tire) |
 | Dunlop | Dunlop Geomax MX34 Rear Tire | 45273506, 45273507, 45273508, 45273509, 45273511, 45273512, 45273513, 45273514, 45273515, 45273516, 45273517 | 139.99 USD | [MotoSport](https://www.motosport.com/dunlop-geomax-mx34-rear-tire) |
@@ -2198,23 +2145,15 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Dunlop | Dunlop Trailmax Raid Tire Combo | 45260400, 45260401, 45260402, 45260403, 45260404, 45260405, 45260406, 45260407, 45260408 | 395.99 USD | [MotoSport](https://www.motosport.com/dunlop-trailmax-raid-tire-combo) |
 | Goldentyre | Goldentyre GT216AA "Fatty" Front Tire | GOP3176 | 130.99 USD | [MotoSport](https://www.motosport.com/goldentyre-gt216aa-quotfattyquot-front-tire) |
 | Goldentyre | Goldentyre GT216AA Front Tire | GOP3172AA, GOP3177 | 110.99 USD | [MotoSport](https://www.motosport.com/goldentyre-gt216aa-front-tire) |
-| Goldentyre | Goldentyre GT516X Rear Tire | GOP4200KX | 176.99 USD | [MotoSport](https://www.motosport.com/goldentyre-gt516x-rear-tire) |
 | Goldentyre | Goldentyre GT723RH Rally Raid Rear Tire | GOP4025RH | 234.99 USD | [MotoSport](https://www.motosport.com/goldentyre-gt723rh-rally-raid-rear-tire) |
 | IRC | IRC GP-21 Front Tire | T10331, T10506 | 84.99 USD | [MotoSport](https://www.motosport.com/irc-gp21-front-tire) |
-| IRC | IRC GP-22 Rear Tire | T10332 | 124.99 USD | [MotoSport](https://www.motosport.com/irc-gp22-rear-tire) |
 | IRC | IRC GX20 Front Tire | 108577 | 98.99 USD | [MotoSport](https://www.motosport.com/irc-gx20-front-tire) |
-| IRC | IRC GX20 GEKKOTA Rear Tire | T10624 | 148.99 USD | [MotoSport](https://www.motosport.com/irc-gx20-gekkota-rear-tire) |
 | IRC | IRC IX-09 GEKKOTA Front Tire | 107355 | 105.99 USD | [MotoSport](https://www.motosport.com/irc-ix09-gekkota-front-tire) |
-| IRC | IRC IX-09 GEKKOTA Rear Tire | 102652, 308558 | 118.99 USD | [MotoSport](https://www.motosport.com/irc-ix09-gekkota-rear-tire) |
-| IRC | IRC JX8 GEKKOTA Rear Tire | 113345, 113347, 310781 | 142.99 USD | [MotoSport](https://www.motosport.com/irc-jx8-gekkota-rear-tire) |
 | IRC | IRC M5B EVO Front Tire | T10636 | 82.99 USD | [MotoSport](https://www.motosport.com/irc-m5b-evo-front-tire) |
 | IRC | IRC M5B EVO Rear Tire | T10336, T10337, T10338, T10339, T10340, T10341 | 123.99 USD | [MotoSport](https://www.motosport.com/irc-m5b-evo-rear-tire) |
 | IRC | IRC VE-32 Front Tire | 102267 | 86.99 USD | [MotoSport](https://www.motosport.com/irc-ve32-front-tire) |
-| IRC | IRC VE-33 Gekkota Rear Tire | 113346, 113348 | 153.99 USD | [MotoSport](https://www.motosport.com/irc-ve33-gekkota-rear-tire) |
 | IRC | IRC VE-33 Rear Tire | T10161, T10174, T10175, T10314 | 122.99 USD | [MotoSport](https://www.motosport.com/irc-ve33-rear-tire) |
-| IRC | IRC VE-33S GEKKOTA Rear Tire | 102653 | 139.99 USD | [MotoSport](https://www.motosport.com/irc-ve33s-gekkota-rear-tire) |
 | IRC | IRC VE-35 Front Tire | T10180 | 79.99 USD | [MotoSport](https://www.motosport.com/irc-ve35-front-tire) |
-| IRC | IRC VE-37 Rear Tire | 102647 | 139.99 USD | [MotoSport](https://www.motosport.com/irc-ve37-rear-tire) |
 | IRC | IRC VX30 Front Tire | T10554, T10555 | 85.99 USD | [MotoSport](https://www.motosport.com/irc-vx30-front-tire) |
 | IRC | IRC VX30 Rear Tire | T10556, T10557, T10558, T10559 | 115.99 USD | [MotoSport](https://www.motosport.com/irc-vx30-rear-tire) |
 | IRC | IRC VX40 Front Tire | T10570, T10571 | 85.99 USD | [MotoSport](https://www.motosport.com/irc-vx40-front-tire) |
@@ -2234,7 +2173,6 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Kenda | Kenda Klassic K257D Front Tire | 042571636B0, 042572134C0, 042572136B0 | 65.99 USD | [MotoSport](https://www.motosport.com/kenda-klassic-k257d-front-tire) |
 | Kenda | Kenda Klassic K257D Rear Tire | 042571452B0, 042571764C0, 042571838B0, 042571852B0, 042571852C0, 042571858C0, 042571864C0, 042571866C0, 042571906C0 | 44.99 USD | [MotoSport](https://www.motosport.com/kenda-klassic-k257d-rear-tire) |
 | Kenda | Kenda Knarly K777F Front Tire | 04777219002 | 75.99 USD | [MotoSport](https://www.motosport.com/kenda-knarly-k777f-front-tire) |
-| Kenda | Kenda Knarly K778 Rear Tire | 04778182002, 04778184002 | 118.99 USD | [MotoSport](https://www.motosport.com/kenda-knarly-k778-rear-tire) |
 | Kenda | Kenda MX Tire Combo | 047751032C0S2, 047751232C0S2, 047751401C0S2, 047751702C0S2, 047751902C0S2, 047752130C0P, 047802103B0, 047852130B0, 04775 | 156.00 USD | [MotoSport](https://www.motosport.com/kenda-mx-tire-combo) |
 | Kenda | Kenda Millville II K785 Front Tire | 047851401B0, 047851702B0, 047851902B0, 047852104B0, 047852130B0 | 74.99 USD | [MotoSport](https://www.motosport.com/kenda-millville-ii-k785-front-tire) |
 | Kenda | Kenda Millville II K785 Rear Tire | 047851203B0, 047851404B0, 047851604B0, 047851811B0, 047851813B0, 047851906B0, 047851910B0, 047851923B0, 047851975B0 | 92.99 USD | [MotoSport](https://www.motosport.com/kenda-millville-ii-k785-rear-tire) |
@@ -2270,8 +2208,6 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Michelin | Michelin Anakee Wild Front Tire | 19143, 49369, 58061, 75639 | 181.99 USD | [MotoSport](https://www.motosport.com/michelin-anakee-wild-front-tire) |
 | Michelin | Michelin Anakee Wild Rear Tire | 01594, 04268, 04578, 10749, 14803, 28092, 32077, 84036, 98314 | 220.99 USD | [MotoSport](https://www.motosport.com/michelin-anakee-wild-rear-tire) |
 | Michelin | Michelin Anakee Wild Tire Combo | 01594, 04268, 04578, 10749, 14803, 19143, 28092, 32077, 49369, 58061, 75639, 84036, 98314 | 401.00 USD | [MotoSport](https://www.motosport.com/michelin-anakee-wild-tire-combo) |
-| Michelin | Michelin Desert Race Rear Tire | 02099 | 365.99 USD | [MotoSport](https://www.motosport.com/michelin-desert-race-rear-tire) |
-| Michelin | Michelin Enduro Rear Tire | 23772, 47016 | 162.99 USD | [MotoSport](https://www.motosport.com/michelin-enduro-rear-tire) |
 | Michelin | Michelin Starcross 6 Hard Front Tire | 17740 | 104.99 USD | [MotoSport](https://www.motosport.com/michelin-starcross-6-hard-front-tire) |
 | Michelin | Michelin Starcross 6 Hard Rear Tire | 52416 | 141.99 USD | [MotoSport](https://www.motosport.com/michelin-starcross-6-hard-rear-tire) |
 | Michelin | Michelin Starcross 6 Medium Hard Front Tire | 05951, 61893 | 105.99 USD | [MotoSport](https://www.motosport.com/michelin-starcross-6-medium-hard-front-tire) |
@@ -2286,16 +2222,9 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Pirelli | Pirelli 2025 Scorpion MX32 Mid Soft Front Tire | 4574700 | 122.99 USD | [MotoSport](https://www.motosport.com/pirelli-2025-scorpion-mx32-mid-soft-front-tire) |
 | Pirelli | Pirelli 2025 Scorpion MX32 Mid Soft Rear Tire | 4574800, 4574900, 4575100 | 151.99 USD | [MotoSport](https://www.motosport.com/pirelli-2025-scorpion-mx32-mid-soft-rear-tire) |
 | Pirelli | Pirelli Closeout Tire Combo | 2588500, 2588600, 2588300, 3556300 | 152.00 USD | [MotoSport](https://www.motosport.com/pirelli-closeout-tire-combo) |
-| Pirelli | Pirelli MT16 Rear Tire | 1418700 | 146.99 USD | [MotoSport](https://www.motosport.com/pirelli-mt16-rear-tire) |
 | Pirelli | Pirelli MT21 Front Tire | 3988700, 3990400 | 149.99 USD | [MotoSport](https://www.motosport.com/pirelli-mt21-front-tire) |
-| Pirelli | Pirelli MT21 Rear Tire | 3988300, 3988400, 3988500, 3988800, 3988900, 3989000, 3989100 | 170.99 USD | [MotoSport](https://www.motosport.com/pirelli-mt21-rear-tire) |
-| Pirelli | Pirelli MT21 Tire Combo | 3988300, 3988400, 3988500, 3988700, 3988800, 3988900, 3989000, 3989100, 3990400 | 295.00 USD | [MotoSport](https://www.motosport.com/pirelli-mt21-tire-combo) |
 | Pirelli | Pirelli MT43 Pro Trial Front Tire | 1414400 | 138.99 USD | [MotoSport](https://www.motosport.com/pirelli-mt43-pro-trial-front-tire) |
-| Pirelli | Pirelli MT43 Pro Trial Rear Tire | 1414500 | 151.99 USD | [MotoSport](https://www.motosport.com/pirelli-mt43-pro-trial-rear-tire) |
-| Pirelli | Pirelli MT43 Tire Combo | 1414400, 1414500 | 289.00 USD | [MotoSport](https://www.motosport.com/pirelli-mt43-tire-combo) |
 | Pirelli | Pirelli MT90AT Scorpion Front Tire | 1005100, 1417500, 3983100 | 175.99 USD | [MotoSport](https://www.motosport.com/pirelli-mt90at-scorpion-front-tire) |
-| Pirelli | Pirelli MT90AT Scorpion Rear Tire | 1421900, 3966400, 3967000, 3967100, 3983200 | 209.99 USD | [MotoSport](https://www.motosport.com/pirelli-mt90at-scorpion-rear-tire) |
-| Pirelli | Pirelli Scorpion MT90AT Tire Combo | 1005100, 1417500, 1421900, 3966400, 3967000, 3967100, 3983100, 3983200 | 336.00 USD | [MotoSport](https://www.motosport.com/pirelli-scorpion-mt90at-tire-combo) |
 | Pirelli | Pirelli Scorpion MX Extra X Front Tire | 2588600 | 64.99 USD | [MotoSport](https://www.motosport.com/pirelli-scorpion-mx-extra-x-front-tire) |
 | Pirelli | Pirelli Scorpion MX Extra X Rear Tire | 2588700, 2588800 | 72.99 USD | [MotoSport](https://www.motosport.com/pirelli-scorpion-mx-extra-x-rear-tire) |
 | Pirelli | Pirelli Scorpion MX Extra X Tire Combo | 2588600, 2588700, 2588800 | 136.00 USD | [MotoSport](https://www.motosport.com/pirelli-scorpion-mx-extra-x-tire-combo) |
@@ -2306,14 +2235,10 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Pirelli | Pirelli Scorpion MX32 Mid Soft Front Tire | 2588300, 3252600, 3841800, 3841900, 3842000, 4024400, 4108200 | 123.99 USD | [MotoSport](https://www.motosport.com/pirelli-scorpion-mx32-mid-soft-front-tire) |
 | Pirelli | Pirelli Scorpion MX32 Mid Soft Rear Tire | 2588400, 2588500, 3842200, 3842300, 3842400, 4238300 | 88.99 USD | [MotoSport](https://www.motosport.com/pirelli-scorpion-mx32-mid-soft-rear-tire) |
 | Pirelli | Pirelli Scorpion Rally Front Tire | 3870500, 3908400 | 128.99 USD | [MotoSport](https://www.motosport.com/pirelli-scorpion-rally-front-tire) |
-| Pirelli | Pirelli Scorpion Rally Rear Tire | 2439600, 3870300, 3870600 | 192.99 USD | [MotoSport](https://www.motosport.com/pirelli-scorpion-rally-rear-tire) |
 | Pirelli | Pirelli Scorpion Rally STR Front Tire | 2803600, 2865300, 3114900, 3246500, 3246600, 3838800, 3849300, 4574400 | 166.99 USD | [MotoSport](https://www.motosport.com/pirelli-scorpion-rally-str-front-tire) |
 | Pirelli | Pirelli Scorpion Rally STR Rear Tire | 2803500, 2803700, 2808200, 2865200, 2865400, 2865500, 3115000 | 224.99 USD | [MotoSport](https://www.motosport.com/pirelli-scorpion-rally-str-rear-tire) |
 | Pirelli | Pirelli Scorpion Rally STR Tire Combo | 2803500, 2803600, 2803700, 2808200, 2865200, 2865300, 2865400, 2865500, 3114900, 3115000, 3246500, 3246600, 3838800, 384 | 390.00 USD | [MotoSport](https://www.motosport.com/pirelli-scorpion-rally-str-tire-combo) |
-| Pirelli | Pirelli Scorpion Rally Tire Combo | 2439600, 3870300, 3870500, 3870600, 3908400 | 320.00 USD | [MotoSport](https://www.motosport.com/pirelli-scorpion-rally-tire-combo) |
 | Pirelli | Pirelli Scorpion XC Mid Hard Front Tire | 3107800 | 140.99 USD | [MotoSport](https://www.motosport.com/pirelli-scorpion-xc-mid-hard-front-tire) |
-| Pirelli | Pirelli Scorpion XC Mid Hard Rear Tire | 4253900 | 120.99 USD | [MotoSport](https://www.motosport.com/pirelli-scorpion-xc-mid-hard-rear-tire) |
-| Pirelli | Pirelli Scorpion XC Mid Soft Rear Tire | 3556600, 3556700 | 131.99 USD | [MotoSport](https://www.motosport.com/pirelli-scorpion-xc-mid-soft-rear-tire) |
 | Pirelli | Pirelli Tire Combo | 2588600, 3107800, 2588300, 3556300, 4574700, 2588700, 2588400, 2901500, 3107400, 2588800, 2588500, 3256900, 3842700, 457 | 136.00 USD | [MotoSport](https://www.motosport.com/pirelli-tire-combo) |
 | Pro Taper | Pro Taper MXT 04 Front Tire | 023300, 023318, 023319, 023321, 023322, 023326 | 79.99 USD | [MotoSport](https://www.motosport.com/pro-taper-mxt-04-front-tire) |
 | Pro Taper | Pro Taper MXT 04 Rear Tire | 023307, 023308, 023309, 023310, 023311, 023323, 023324, 023325 | 99.99 USD | [MotoSport](https://www.motosport.com/pro-taper-mxt-04-rear-tire) |
@@ -2324,7 +2249,6 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Shinko | Shinko 216 Series Front Tire | 87-4730, 87-4731, 87-4732 | 112.99 USD | [MotoSport](https://www.motosport.com/shinko-216-series-front-tire) |
 | Shinko | Shinko 216MX Enduro Rear Tire | 87-4740, 87-4742, 87-4743, 87-4744, 87-4745 | 146.99 USD | [MotoSport](https://www.motosport.com/shinko-216mx-enduro-rear-tire) |
 | Shinko | Shinko 216MX Fat Tyre Cheater | 87-4732S | 116.99 USD | [MotoSport](https://www.motosport.com/shinko-216mx-fat-tyre-cheater) |
-| Shinko | Shinko 216SX Rear Tire | 87-4741 | 131.71 USD | [MotoSport](https://www.motosport.com/shinko-216sx-rear-tire) |
 | Shinko | Shinko 421 Front/Rear Scooter Tire | SR421 3.00-10, SR421 3.50-10, SR421 3.50-8, SR421 4.00-8 | 45.99 USD | [MotoSport](https://www.motosport.com/shinko-421-frontrear-scooter-tire) · [MotoSport](https://www.motosport.com/shinko-421-scooter-tire-combo) |
 | Shinko | Shinko 504 Series Front Tire | 87-4355 | 94.31 USD | [MotoSport](https://www.motosport.com/shinko-504-series-front-tire) |
 | Shinko | Shinko 505 Series Rear Tire | 87-4360, 87-4361, 87-4362, 87-4364, 87-4366 | 145.31 USD | [MotoSport](https://www.motosport.com/shinko-505-series-rear-tire) |
@@ -2350,7 +2274,6 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Shinko | Shinko Mobber Front Tire | 87-4790 | 76.46 USD | [MotoSport](https://www.motosport.com/shinko-mobber-front-tire) |
 | Shinko | Shinko Mobber Rear Tire | 87-4791 | 81.56 USD | [MotoSport](https://www.motosport.com/shinko-mobber-rear-tire) |
 | Shinko | Shinko Mobber Tire Combo | 87-4790, 87-4791 | 158.02 USD | [MotoSport](https://www.motosport.com/shinko-mobber-tire-combo) |
-| Shinko | Shinko R505 Cheater Rear Tire | 87-4361 STICKY, 87-4366S | 139.99 USD | [MotoSport](https://www.motosport.com/shinko-r505-cheater-rear-tire) |
 | Shinko | Shinko R525 Cheater Rear Tire | 87-4326S, 87-4328S, 87-4381S, 87-4382S, 87-4383S | 150.99 USD | [MotoSport](https://www.motosport.com/shinko-r525-cheater-rear-tire) |
 | Shinko | Shinko SR241 Trials Tire | 87-4440, 87-4441, 87-4442, 87-4443, 87-4444, 87-4445, 87-4446, 87-4447, 87-4448, 87-4449, 87-4450, 87-4451, 87-4452, 87- | 61.99 USD | [MotoSport](https://www.motosport.com/shinko-sr241-trials-tire) |
 
@@ -2521,14 +2444,10 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | WPS | WPS Cargo Net 15X15 | 52151, 52152, 52153 | 11.66 USD | [MotoSport](https://www.motosport.com/wps-cargo-net-15x15) |
 | WPS | WPS Emgo Jumper Cables | 75100 | 40.46 USD | [MotoSport](https://www.motosport.com/wps-emgo-jumper-cables) |
 
-### Uncategorised (5)
+### Uncategorised (1)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
-| Acerbis | Acerbis Air Box Covers Triumph 250cc-450cc | 2987790001 | 35.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-air-box-covers-triumph-250cc-450cc) |
-| Acerbis | Acerbis Full Plastic Kit Triumph 250cc-450cc 2026 | 2987778212 | 181.56 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-full-plastic-kit-triumph-250cc-450cc-2026) |
-| Acerbis | Acerbis Side Panels Triumph TF250 / TF450 | 2987800002 | 43.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-side-panels-triumph-tf250-tf450) |
-| Acerbis | Acerbis Standard Plastic Kit Triumph 250cc-450cc 2026 | 2987768212 | 149.56 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-standard-plastic-kit-triumph-250cc-450cc-2026) |
 | RFX | RFX Side Panel Grip Tape Triumph 250cc-450cc | FXGT 61000 99CL | 59.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-side-panel-grip-tape-triumph-250cc-450cc) |
 
 ### Vehicle Communication (60)
@@ -2658,7 +2577,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Uncategorised 381, Handlebars & Controls 271, Chain & Sprocket 150, Exhaust 97, Air & Fuel 52, Batteries & Electrical 44, Lighting 39, Gauges 38, Utv / Atv Parts 36, Bike Protection 33, Suspension 26, Body & Fairing 9, Drive & Transmission 7, Filters 5, Tire Accessories 1
+Uncategorised 328, Handlebars & Controls 230, Chain & Sprocket 128, Exhaust 80, Batteries & Electrical 43, Lighting 38, Gauges 36, Air & Fuel 33, Utv / Atv Parts 31, Bike Protection 29, Suspension 21, Body & Fairing 9, Drive & Transmission 7, Filters 5, Tire Accessories 1
 
-Top brands: Pro Taper 75, Acerbis 66, Bolt Hardware 62, Moose Racing 59, Cycra 59, Renthal 51, Zeta 49, ODI 46, Fire Power 39, Barkbusters 36, Helix Racing Products 35, RK 33, RFX 32, Factory Effex 28, FMF 25, Namz 25, Motion Pro 24, K&N 22, EK Chain 22, Polisport 22, Koso 19, Motolis 18, DID Chain 15, Pro Grip 15, Yoshimura 13
+Top brands: Pro Taper 68, Acerbis 58, Cycra 55, Bolt Hardware 55, Moose Racing 50, Renthal 39, ODI 38, Fire Power 35, Zeta 35, RK 29, Helix Racing Products 29, RFX 29, Factory Effex 27, Barkbusters 26, Namz 25, FMF 23, EK Chain 21, Polisport 19, Koso 19, Motion Pro 18, Motolis 15, Pro Grip 15, BBR Motorsports 13, K&N 11, Enduro Engineering 11
 

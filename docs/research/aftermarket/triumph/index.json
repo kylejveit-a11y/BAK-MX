@@ -1,28 +1,16 @@
 {
 "by_bike": {
 "Triumph|TF 250-C|2026": [
-"tf-axp-ax1783",
 "tf-fmf-41rct-250",
-"tf-hinson-basket-250",
 "tf-motomaster-sm-front",
-"tf-pc-t6-250",
-"tf-pc-ti6-250",
-"tf-pc-ti6pro-250",
-"tf-prox-piston-250",
-"tf-rekluse-apextd-250",
-"tf-rekluse-torqdrive-250"
+"tf-prox-piston-250"
 ],
 "Triumph|TF 250-E|2026": [
 "tf-axp-ax1783",
 "tf-fmf-41rct-250",
 "tf-hinson-basket-250",
 "tf-motomaster-sm-front",
-"tf-pc-t6-250",
-"tf-pc-ti6-250",
-"tf-pc-ti6pro-250",
-"tf-prox-piston-250",
-"tf-rekluse-apextd-250",
-"tf-rekluse-torqdrive-250"
+"tf-prox-piston-250"
 ],
 "Triumph|TF 250-X|2024": [
 "tf-acerbis-peg-covers",
@@ -92,7 +80,6 @@
 "Triumph|TF 250-X|2026": [
 "tf-axp-ax1783",
 "tf-fmf-41rct-250",
-"tf-hinson-basket-250",
 "tf-motomaster-sm-front",
 "tf-pc-t6-250",
 "tf-pc-ti6-250",
@@ -102,24 +89,13 @@
 "tf-rekluse-torqdrive-250"
 ],
 "Triumph|TF 450-C|2026": [
-"tf-fmf-41rct-450-full",
-"tf-fmf-41rct-450-ss",
 "tf-motomaster-sm-front",
 "tf-pc-t6-450",
 "tf-pc-ti6bcpro-450",
-"tf-pc-ti6pro-450",
-"tf-rekluse-torqdrive-450",
-"tf-yosh-rs12-450"
+"tf-pc-ti6pro-450"
 ],
 "Triumph|TF 450-E|2026": [
-"tf-fmf-41rct-450-full",
-"tf-fmf-41rct-450-ss",
-"tf-motomaster-sm-front",
-"tf-pc-t6-450",
-"tf-pc-ti6bcpro-450",
-"tf-pc-ti6pro-450",
-"tf-rekluse-torqdrive-450",
-"tf-yosh-rs12-450"
+"tf-motomaster-sm-front"
 ],
 "Triumph|TF 450-RC Edition|2025": [
 "tf-ee-deflectors",
@@ -145,58 +121,52 @@
 "tf-yosh-rs12-450"
 ],
 "Triumph|TF 450-X|2026": [
-"tf-fmf-41rct-450-full",
-"tf-fmf-41rct-450-ss",
-"tf-motomaster-sm-front",
-"tf-pc-t6-450",
-"tf-pc-ti6bcpro-450",
-"tf-pc-ti6pro-450",
 "tf-rekluse-torqdrive-450",
 "tf-yosh-rs12-450"
 ]
 },
 "listing_counts": {
 "Triumph|TF 250-C|2026": {
-"Cycle Gear": 1222,
-"MotoSport": 2402,
-"Triumph dealer": 43,
-"research": 10
+"Cycle Gear": 1045,
+"MotoSport": 2298,
+"research": 3,
+"Triumph dealer": 37
 },
 "Triumph|TF 250-E|2026": {
-"Cycle Gear": 1222,
-"MotoSport": 2402,
-"Triumph dealer": 43,
-"research": 10
+"Cycle Gear": 1150,
+"MotoSport": 2298,
+"research": 5,
+"Triumph dealer": 33
 },
 "Triumph|TF 250-X|2024": {
 "MotoSport": 2366,
+"research": 31,
 "Cycle Gear": 71,
-"Triumph dealer": 54,
-"research": 31
+"Triumph dealer": 54
 },
 "Triumph|TF 250-X|2025": {
 "Cycle Gear": 1075,
 "MotoSport": 2372,
-"Triumph dealer": 54,
-"research": 30
+"research": 30,
+"Triumph dealer": 54
 },
 "Triumph|TF 250-X|2026": {
-"Cycle Gear": 1222,
-"MotoSport": 2402,
-"Triumph dealer": 43,
-"research": 10
+"MotoSport": 2365,
+"research": 9,
+"Cycle Gear": 55,
+"Triumph dealer": 36
 },
 "Triumph|TF 450-C|2026": {
-"Cycle Gear": 1218,
-"MotoSport": 2399,
-"Triumph dealer": 43,
-"research": 8
+"Cycle Gear": 974,
+"MotoSport": 2312,
+"research": 4,
+"Triumph dealer": 36
 },
 "Triumph|TF 450-E|2026": {
-"Cycle Gear": 1218,
-"MotoSport": 2399,
-"Triumph dealer": 43,
-"research": 8
+"MotoSport": 2306,
+"Cycle Gear": 47,
+"research": 1,
+"Triumph dealer": 35
 },
 "Triumph|TF 450-RC Edition|2025": {
 "Cycle Gear": 983,
@@ -205,10 +175,10 @@
 "research": 21
 },
 "Triumph|TF 450-X|2026": {
-"Cycle Gear": 1218,
-"MotoSport": 2399,
-"Triumph dealer": 43,
-"research": 8
+"Cycle Gear": 1035,
+"MotoSport": 2356,
+"Triumph dealer": 34,
+"research": 2
 }
 },
 "unmapped": [
