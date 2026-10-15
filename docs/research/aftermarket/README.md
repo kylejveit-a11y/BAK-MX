@@ -184,3 +184,16 @@ Still missing (next pass): Sunstar, JT, Talon, RK, Regina, Iris, Mishimoto, Flui
 Bill's Pipes, Web Cams, Kibblewhite, Pro-X, more Wiseco; Galfer and Brembo; TM Designworks, Moose, Polisport, ProTaper, ODI,
 ARC, Motion Pro, IMS; Neken, Tag, Ride Engineering; Smart Performance, Cannon Racecraft. Hot Cams/Vertex/Cylinder Works for
 2023+ KTM group and 2024+ YZ450F/KX450 returned nothing; brake fitment is thin.
+
+## Specialty pass 2 (2026-10-15)
+
+`specialty/drivetrain.json` (101: JT, Renthal and Supersprox per-bike sprocket part numbers from the makers' own catalogues;
+Vortex and Sunstar rear sprockets; D.I.D and RK chains), `engine2.json` (45: Akrapovič Evolution systems and KTM PowerParts
+Akrapovič, Wiseco/Vertex/Pro-X/CP/JE/Athena pistons, HGS and Pro Circuit two-stroke pipes, Big Gun, Twin Air/FunnelWeb/
+No Toil/Uni filters), `brakes_controls.json` (35: Galfer, EBC, Moto-Master, Braking, Brembo, ProTaper, ODI, ARC, IMS,
+P3 Carbon, Acerbis, Works Connection, Polisport, TM Designworks) and `chassis2.json` (26: Ride Engineering clamps and
+links, Works Connection Pro Launch, KTM/Husqvarna/GasGas factory start and damper, Factory Connection springs, Technical
+Touch and Dialed KYB conversions, Moose clamps).
+Not found or blocked: Mishimoto/Fluidyne/CV4 for 2020+ bikes; Arrow/Doma (no MX), LeoVince (enduro only), Bill's Pipes
+(minis only); Hot Cams/Web Cams/Kibblewhite for 2023+; Smart Performance, Cannon Racecraft, Tag, Emig, Neken (pre-2018 only),
+Applied; Regina, Iris, Talon, Tusk and Primary Drive kits; Galfer maker tables (redirect), Rocky Mountain (bot block).

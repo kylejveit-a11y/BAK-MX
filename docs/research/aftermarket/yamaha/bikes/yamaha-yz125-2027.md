@@ -1,16 +1,18 @@
 # Yamaha YZ125 2027: aftermarket parts
 
-2916 listings whose stated fitment names this bike: 5 researched parts (with what they change and rider findings), 278 dealer and retailer listings specific to this bike, and 2633 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+2918 listings whose stated fitment names this bike: 7 researched parts (with what they change and rider findings), 278 dealer and retailer listings specific to this bike, and 2633 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
 | EBC | MXS755 Race Series Front Brake Pads | MXS755 | Listing: race-only sintered copper pad with sharp initial bite for fast riders. | Retailer list mixes Nissin- and Brembo-equipped bikes and differs from FA755R list; check EBC catalogue. | [J&P Cycles](https://www.jpcycles.com/product/ebc-mxs755-race-series-front-brake-pads) | medium |
-| FMF | Fatty pipe - YZ125, YZ125X | 024076 | FMF: broadens/smooths the curve with gains across the band (low, mid, over-rev); nickel-plated carbon steel; works with FMF or stock silencer unless noted. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/fatty-024076) | high |
+| EBC | MXS Race Series Rear Brake Pads | MXS367 | EBC claims: sintered copper-alloy race pad with aggressive feel and sharp initial bite; high durability off-road. | Off-road race use only, not R90/TUV. Retailer list was truncated (258 vehicles claimed). YZ450FX 2024+ not shown. | [J&P Cycles](https://www.jpcycles.com/product/ebc-mxs367-mxs-race-series-rear-brake-pads) | medium |
 | FMF | Fatty Gold Series Pipe | 024076 | FMF claims 'more low-end, more mid, and increased over-rev' and 'More tractable power, improved throttle control.' |  | [FMF](https://www.fmfracing.com/products/fatty-024076) | high |
 | FMF | PowerCore 2 / Shorty silencer - YZ125, YZ125X | 024079, 024080 | FMF: Shorty has a shorter core and aluminum canister tuned to maximize bottom and mid rpm power (tight tracks/SX). | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/shorty-024080) | high |
+| FMF | Fatty pipe - YZ125, YZ125X | 024076 | FMF: broadens/smooths the curve with gains across the band (low, mid, over-rev); nickel-plated carbon steel; works with FMF or stock silencer unless noted. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/fatty-024076) | high |
 | FMF | Factory Fatty pipe - YZ125, YZ125X | 024077 | FMF: 'works'/cone-style pipe; broadens and smooths the power curve with more low-end, mid and over-rev; 20-ga body, hand-pounded seams. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/factory-fatty-024077) | high |
+| Vortex | 520 CAT5 Aluminum Rear Sprocket | 208 | Aluminium rear sprocket (CAT5 line), multiple anodised colours (ZK black, ZB blue, ZR red, plain silver) - lighter than steel. | Fitment is RevZilla's (retailer) list for this product page; tooth count per bike and stock gearing are not stated. Price not captured (could not isolate per-va | [RevZilla](https://www.revzilla.com/motorcycle/vortex-520-cat5-aluminum-rear-sprocket-honda-yamaha-125cc-450cc) | medium |
 
 ## Dealer and retailer listings for this bike
 
@@ -401,7 +403,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 ## Universal retailer listings (counted only)
 
-Controls 549, Lights And Electrical 380, Tires 218, Body 193, Tools And Maintenance 170, Graphics 168, Engine 136, Drive 124, Suspension 114, Luggage And Racks 106, Brakes 93, Exhaust 81, Wheels And Rims 66, Vehicle Communication 60, Fuel System 54, Accessories 48, Skid Plates And Guards 26, Riding Gear 18, Farming And Hunting 13, Intake 6, Helmets 3, Uncategorised 3, Winch And Plow 2, Bike Protection 1, Gauges 1
+Controls 549, Lights And Electrical 380, Tires 218, Body 193, Tools And Maintenance 170, Graphics 168, Engine 136, Drive 124, Suspension 114, Luggage And Racks 106, Brakes 93, Exhaust 81, Wheels And Rims 66, Vehicle Communication 60, Fuel System 54, Accessories 48, Skid Plates And Guards 26, Riding Gear 18, Farming And Hunting 13, Intake 6, Uncategorised 3, Helmets 3, Winch And Plow 2, Gauges 1, Bike Protection 1
 
-Top brands: Turner Performance Products 116, Rugged Radios 105, Motion Pro 97, Acerbis 93, RAM Mounts 72, D'COR Visuals 66, Cycra 65, Pro Taper 63, Factory Effex 57, Trail Tech 55, Bolt 54, Quad Lock 53, DRC 52, SP Connect 51, Kriega 43, KTM PowerParts 43, ODI 43, Namz Custom Cycle 40, Renthal 40, Fastway 36, RFX 35, Ride Engineering 35, Shinko 34, Kenda 32, Giant Loop 32
+Top brands: Turner Performance Products 116, Rugged Radios 105, Motion Pro 97, Acerbis 93, RAM Mounts 72, D'COR Visuals 66, Cycra 65, Pro Taper 63, Factory Effex 57, Trail Tech 55, Bolt 54, Quad Lock 53, DRC 52, SP Connect 51, KTM PowerParts 43, Kriega 43, ODI 43, Namz Custom Cycle 40, Renthal 40, Fastway 36, RFX 35, Ride Engineering 35, Shinko 34, Kenda 32, Giant Loop 32
 

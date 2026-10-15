@@ -962,3 +962,11 @@ body.sheet-open{overflow:hidden}
 .ride-check.done svg{color:#a9e2bf;flex-shrink:0;margin-top:3px}
 .ride-check.done b{color:#f1f4f9}
 @media(max-width:760px){.rc-more input,.rc-more textarea{font-size:16px}}
+/* build sheet: fitted parts read brand then model; research notes fold away until opened */
+.fitted .nav-main .fitted-brand{font-size:11px;letter-spacing:1px;text-transform:uppercase;color:#8d95a3;margin:0 0 2px}
+.fitted details.part-notes{display:block}
+.fitted details.part-notes summary{cursor:pointer;list-style:none;font-size:13px;font-weight:500;color:var(--accent,#9cc4ff);padding:2px 0}
+.fitted details.part-notes summary::-webkit-details-marker{display:none}
+.fitted details.part-notes summary::after{content:' ›';display:inline-block;transition:transform .15s}
+.fitted details[open].part-notes summary::after{transform:rotate(90deg)}
+.fitted details[open].part-notes p{margin-top:8px}

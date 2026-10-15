@@ -4,8 +4,13 @@ import re
 NAMES=re.compile(r"\b(Kris Keefer|Keefer Inc\.? Testing|Keefer|Motocross Action \(MXA\)|Motocross Action|MXA|Vital MX|Dirt Bike Test|Dirt Bike magazine|Dirt Bike|Bones Bacon|Cycle News|Racer X|Swapmoto Live|Swapmoto|Transmoto|MotoOnline|Ultimate Motorcycling|Dirt Rider|Dirt Action|PulpMX|Slavens|Teknik)('s)?\b")
 # "MXA (Dec 2022): ..." / "Swapmoto Live tester (2020 KTM 450 SX-F): ..." / "Keefer: ..." -> the finding only
 SOURCE_PREFIX=re.compile(r"^\s*(?:[A-Z][\w .&'-]{0,40}?)(?:\s*\([^)]{0,80}\))?\s*:\s+")
+# research bookkeeping that means nothing to a rider ("see the JT chain entry", "part number format follows ...")
+BOOKKEEPING=re.compile(r"\b(see the [^.;]* entry|catalogue search example|part number format|search-result titles?|this entry|the brief|in scope list|cycle gear item number)\b",re.I)
+def drop_bookkeeping(s):
+    parts=re.split(r'(?<=[.;])\s+(?=[A-Z0-9(])',str(s or ''))
+    return ' '.join(p for p in parts if not BOOKKEEPING.search(p)).strip()
 def anon(s):
-    s=str(s or '')
+    s=drop_bookkeeping(s)
     m=SOURCE_PREFIX.match(s)
     if m and (NAMES.search(m.group(0)) or re.search(r'\b(tester|forum|thread|owner|review|test)\b',m.group(0),re.I)): s=s[m.end():]
     s=re.sub(r'\s*\((?:[^)]*\b(?:pass-?\d|item|record|id)\b[^)]*)\)','',s,flags=re.I)   # internal research references

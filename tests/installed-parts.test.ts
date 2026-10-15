@@ -114,3 +114,9 @@ test('part types: a complete cone-valve fork is a fork, a gold valve kit is a va
  assert.equal(typeOf('suspension','Fork Compression Gold Valve Kit'),'Valving, bladder or perch kit');
  assert.equal(typeOf('suspension','XACT PRO 6500 Fork Cartridge Kit'),'Fork (cartridge, conversion, kit)');
 });
+
+test('parts catalogs carry no research bookkeeping in rider-facing notes',()=>{
+ for(const f of readdirSync('public/parts-catalog')){const t=readFileSync('public/parts-catalog/'+f,'utf8');
+  assert.doesNotMatch(t,/catalogue search example|see the [^".]{0,40} entry|search-result title|Part number format/i,f);}
+ assert.ok(JSON.parse(readFileSync('public/parts-catalog/ktm-family.json','utf8')).brands.some((b:string)=>b==='JT Sprockets'));
+});

@@ -1,0 +1,3147 @@
+{
+ "slice": "engine2: exhaust, pistons/top end, cams, cooling/intake gaps",
+ "products": [
+  {
+   "category": "exhaust",
+   "subcategory": "full exhaust system (four-stroke)",
+   "brand": "Akrapovič",
+   "product": "Evolution Line (Titanium) full system",
+   "part_numbers": [
+    "S-H4E1-FDHLT"
+   ],
+   "variants": [
+    "Titanium shell, stainless internals, stainless manifold"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2025,
+      2026
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.wrs.it/en/complete-exhaust-system/464476-akrapovic-titanium-evolution-line-complete-exhaust-system-honda-crf-450-r-rx-2025-2026-3831113517591.html",
+   "what_it_changes": "Maker claims via retailer: +1.8 kW (2.5 hp) at 10,300 rpm and +1.5 Nm at 7,900 rpm vs stock on Akrapovič's dyno; claimed 26.5% lighter than stock.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "WRS (Italy)",
+     "url": "https://www.wrs.it/en/complete-exhaust-system/464476-akrapovic-titanium-evolution-line-complete-exhaust-system-honda-crf-450-r-rx-2025-2026-3831113517591.html",
+     "price_if_stated": "1507.01",
+     "currency": "EUR",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Retailer description also mentions CRF450X, conflicting with its title; confirm. Closed-course competition use only. Retailer metadata lists 15.5 kg, which is likely shipping weight.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-001"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "full exhaust system (four-stroke)",
+   "brand": "Akrapovič",
+   "product": "Evolution Line (Titanium) full system",
+   "part_numbers": [
+    "S-H4MET16-FDHLTA"
+   ],
+   "variants": [
+    "Full titanium"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Retailer: all 2021-2024 models incl. 50th Anniversary"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Retailer lists 'American models'"
+    }
+   ],
+   "fitment_source_url": "https://www.ghostbikes.com/products/81966-akrapovic-evolution-line-full-exhaust-system-offroad-honda-crf450x",
+   "what_it_changes": "Maker claim: weight reduction and more engine performance; meets FIM noise limits. No figures given on the retailer page.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Ghostbikes (UK)",
+     "url": "https://www.ghostbikes.com/products/81966-akrapovic-evolution-line-full-exhaust-system-offroad-honda-crf450x",
+     "price_if_stated": "1559.69",
+     "currency": "GBP",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Page shows 3 in stock but also 'coming back soon'.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-002"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "full exhaust system (four-stroke)",
+   "brand": "Akrapovič",
+   "product": "Evolution Line (Titanium) full system",
+   "part_numbers": [
+    "S-Y4MET16-FDHLTA"
+   ],
+   "variants": [
+    "Full titanium"
+   ],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ450F",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://store.cmgmotorcycles.co.nz/products/full-ti-system-yz450f-2023-25-ak-s-y4met16-fdhlta",
+   "what_it_changes": "Maker claims via dealer: 0.9 kg (20.4%) lighter than stock; +1.8 kW (2.4 hp) at 10,600 rpm and +1.5 Nm at 10,500 rpm vs stock; plug-and-play, no remap needed; FIM noise compliant.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "CMG Motorcycles (NZ Yamaha dealer)",
+     "url": "https://store.cmgmotorcycles.co.nz/products/full-ti-system-yz450f-2023-25-ak-s-y4met16-fdhlta",
+     "price_if_stated": "3659.90",
+     "currency": "NZD",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Part number taken from the dealer's URL slug (ak-s-y4met16-fdhlta), not a labelled field. Racer X covered the launch in April 2023. Closed-course use only.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-003"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "full exhaust system (four-stroke)",
+   "brand": "Akrapovič (KTM PowerParts)",
+   "product": "Evolution Line",
+   "part_numbers": [
+    "A46005900044"
+   ],
+   "variants": [
+    "Full titanium"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Also Factory Edition 2022-2026, Adamo 2025"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "350 XC-F",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Factory Edition 2023-2026 also listed"
+    }
+   ],
+   "fitment_source_url": "https://ktmdirect.co.uk/products/akrapovic-evolution-line-a46005900044",
+   "what_it_changes": "KTM listing claims (unquantified): substantial weight saving, more usable power and finer throttle response, manifold routing matched to the production engine, FIM/AMA noise compliant.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "KTM Direct (UK dealer)",
+     "url": "https://ktmdirect.co.uk/products/akrapovic-evolution-line-a46005900044",
+     "price_if_stated": "1445.00",
+     "currency": "GBP",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "250/350 only; 450 Evolution not found this pass. Page shows both 'In Stock' and 'Coming soon'. Husqvarna/GasGas OEM-catalogue equivalents not checked.",
+   "confidence": "high",
+   "is_service": false,
+   "id": "en2-004"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "slip-on muffler (four-stroke)",
+   "brand": "Akrapovič (KTM PowerParts)",
+   "product": "Slip-On Line",
+   "part_numbers": [
+    "A46005979000"
+   ],
+   "variants": [
+    "Titanium"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Factory Edition 2022-2026, Adamo 2025 also listed"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://ktmdirect.co.uk/products/akrapovic-slip-on-line-exhaust-a46005979000",
+   "what_it_changes": "KTM listing claims: titanium for low weight, welded brackets, FIM noise compliant, more power and torque from optimised gas flow (no figures).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "KTM Direct (UK dealer)",
+     "url": "https://ktmdirect.co.uk/products/akrapovic-slip-on-line-exhaust-a46005979000",
+     "price_if_stated": "724.00",
+     "currency": "GBP",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Superseded for 2026 SX-F by A47005979000 per KTM Direct listings; 2026 overlap on this page needs checking.",
+   "confidence": "high",
+   "is_service": false,
+   "id": "en2-005"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "slip-on muffler (four-stroke)",
+   "brand": "Akrapovič (KTM PowerParts)",
+   "product": "Slip-On Line",
+   "part_numbers": [
+    "A48005979000"
+   ],
+   "variants": [
+    "Titanium"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "350 XC-F",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Factory Edition 2022-2026 also listed"
+    },
+    {
+     "make": "KTM",
+     "model": "450 XC-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://ktmdirect.co.uk/products/akrapovic-slip-on-line-exhaust-a48005979000",
+   "what_it_changes": "KTM listing claims: substantial weight saving and significantly more performance; FIM noise compliant. No figures.",
+   "supporting_parts": "KTM recommends Heat Protection A48005994000.",
+   "where_to_buy": [
+    {
+     "seller": "KTM Direct (UK dealer)",
+     "url": "https://ktmdirect.co.uk/products/akrapovic-slip-on-line-exhaust-a48005979000",
+     "price_if_stated": "724.00",
+     "currency": "GBP",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Also lists 450 SMR (out of scope).",
+   "confidence": "high",
+   "is_service": false,
+   "id": "en2-006"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "slip-on muffler (four-stroke)",
+   "brand": "Akrapovič (KTM PowerParts)",
+   "product": "Slip-On Line",
+   "part_numbers": [
+    "A47005979000"
+   ],
+   "variants": [
+    "Titanium"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2026
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://ktmdirect.co.uk/products/akrapovic-slip-on-line-exhaust-a47005979000-titanium",
+   "what_it_changes": "KTM listing claims: weight saving, gains across the rev range, sharper throttle response (no figures).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "KTM Direct (UK dealer)",
+     "url": "https://ktmdirect.co.uk/products/akrapovic-slip-on-line-exhaust-a47005979000-titanium",
+     "price_if_stated": "814.00",
+     "currency": "GBP",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "2026 SX-F models only (plus Factory Editions and 450 SMR). Dealer text says 'track and street use', which is doubtful for a competition muffler.",
+   "confidence": "high",
+   "is_service": false,
+   "id": "en2-007"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "full exhaust system (four-stroke)",
+   "brand": "Akrapovič",
+   "product": "Evolution Line (Titanium) full system",
+   "part_numbers": [
+    "S-K4MET8-BNTA"
+   ],
+   "variants": [
+    "1-into-1, titanium, titanium end cap, no spark arrestor"
+   ],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Retailer lists 2019-2020 as 'KX 450 F'"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450X",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://ghostbikes.com/products/81864-akrapovic-evolution-line-exhaust-system-kawasaki-kx450x-2021-2023",
+   "what_it_changes": "Maker claim: maximises engine performance and cuts weight; retailer lists 1.23 kg (no power figures).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Ghostbikes (UK)",
+     "url": "https://ghostbikes.com/products/81864-akrapovic-evolution-line-exhaust-system-kawasaki-kx450x-2021-2023",
+     "price_if_stated": "1188.49",
+     "currency": "GBP",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Listed as currently unavailable. No spark arrestor, so not for spark-arrestor-required trail riding.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-008"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "full exhaust system (four-stroke)",
+   "brand": "Akrapovič",
+   "product": "Evolution Line (Titanium) full system",
+   "part_numbers": [
+    "S-K4MET9-FDHLTA"
+   ],
+   "variants": [
+    "Titanium"
+   ],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "50th Anniversary 2024 and KX450SR 2026 also listed"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450X",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.jpcycles.com/product/akrapovic-evolution-exhaust-system-kawasaki-kx450-x-2024-2025",
+   "what_it_changes": "Maker claims shown by retailer: about 3.2 kg vs 4.5 kg stock (about 30% lighter); peak power 55.5 hp vs 54.1 hp stock, with a claimed best-point gain of +2.6 hp; torque 33.7 vs 32.4 lb-ft.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "J&P Cycles",
+     "url": "https://www.jpcycles.com/product/akrapovic-evolution-exhaust-system-kawasaki-kx450-x-2024-2025",
+     "price_if_stated": "1938.90",
+     "currency": "USD",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Retailer's claim table is garbled in places (rpm points swapped); check the Akrapovič dyno chart. Competition only. Stock status contradicts itself.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-009"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "full exhaust system (four-stroke)",
+   "brand": "Akrapovič",
+   "product": "Evolution Line (Titanium) full system",
+   "part_numbers": [
+    "S-Y2MET17-FDHLTA"
+   ],
+   "variants": [
+    "Titanium head pipe, titanium spark-arrested muffler"
+   ],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ250F",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Monster Energy and 70th Anniversary editions listed"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250FX",
+     "years": [
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Retailer also lists 2024, which is not in the app's YZ250FX year list"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/akrapovic-off-road-evolution-exhaust-system-yamaha-yz250f-yz250fx-wr250f-2024",
+   "what_it_changes": "Maker claims: 30-40% lighter than a stainless system; more performance across the rpm range (no figures); FIM noise compliant; spark arrester fitted.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/akrapovic-off-road-evolution-exhaust-system-yamaha-yz250f-yz250fx-wr250f-2024",
+     "price_if_stated": "1809.70",
+     "currency": "USD",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Also fits WR250F (out of scope). Competition use only.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-010"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "two-stroke pipe and silencer set",
+   "brand": "HGS",
+   "product": "Exhaust System (2-piece: pipe + silencer)",
+   "part_numbers": [],
+   "variants": [
+    "Maciag set no. SID169453 = pipe + silencer",
+    "Maciag SID158182 = pipe only",
+    "Maciag SID158665 = silencer only (aluminium, carbon end cap)"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "300 SX",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.maciag-offroad.com/hgs-exhaust-system-ktm-sx-250-300-23-husqvarna-tc-250-23-gas-gas-mc-250-24-2-piece-sid169453.html",
+   "what_it_changes": "Claims: pipe gives a noticeable gain in the mid-to-upper rpm range; silencer adds power while staying within dB limits. Pipe is untreated (raw) steel and reuses OEM mounting hardware.",
+   "supporting_parts": "Silencer uses the OEM exhaust bulb and brackets.",
+   "where_to_buy": [
+    {
+     "seller": "Maciag Offroad (DE)",
+     "url": "https://www.maciag-offroad.com/hgs-exhaust-system-ktm-sx-250-300-23-husqvarna-tc-250-23-gas-gas-mc-250-24-2-piece-sid169453.html",
+     "price_if_stated": "511.90",
+     "currency": "EUR",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "SID numbers are retailer product numbers, not HGS part numbers. Listed as sold out. Made in the Netherlands.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-011"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "two-stroke expansion chamber",
+   "brand": "HGS",
+   "product": "Werx 2-Stroke Expansion Chamber",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.firestormmotorcycles.com.au/ktm-125-sx-2023-2025-hgs-werx-2-stroke-expansion-c",
+   "what_it_changes": "No claims on the retailer page.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Firestorm Motorcycles (AU)",
+     "url": "https://www.firestormmotorcycles.com.au/ktm-125-sx-2023-2025-hgs-werx-2-stroke-expansion-c",
+     "price_if_stated": "",
+     "currency": "",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No part number or price shown (image file name XT-123-H00 is unconfirmed). Husqvarna TC 125 / GasGas MC 125 equivalents not checked.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-012"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "two-stroke expansion chamber",
+   "brand": "HGS",
+   "product": "Werx 2-Stroke Expansion Chamber",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Retailer range 2005-2025"
+    }
+   ],
+   "fitment_source_url": "https://www.firestormmotorcycles.com.au/yamaha-yz250-2005-2025-hgs-werx-2-stroke-expansion",
+   "what_it_changes": "No claims on the retailer page.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Firestorm Motorcycles (AU)",
+     "url": "https://www.firestormmotorcycles.com.au/yamaha-yz250-2005-2025-hgs-werx-2-stroke-expansion",
+     "price_if_stated": "",
+     "currency": "",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No part number or price shown (image file name YT-205-H00 is unconfirmed). Fitment for YZ250X not stated.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-013"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "two-stroke expansion chamber",
+   "brand": "Pro Circuit",
+   "product": "Works Pipe (raw)",
+   "part_numbers": [
+    "PC0752325"
+   ],
+   "variants": [
+    "Raw (unplated, oiled) finish"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.firestormmotorcycles.com.au/ktm-250-sx-2023-2025-pro-circuit-works-expansion-c",
+   "what_it_changes": "Maker claims: more horsepower and torque across the rev range; stamped AKDQ carbon steel, hand-welded seams, reinforced brackets; made in USA.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Firestorm Motorcycles (AU)",
+     "url": "https://www.firestormmotorcycles.com.au/ktm-250-sx-2023-2025-pro-circuit-works-expansion-c",
+     "price_if_stated": "579.95",
+     "currency": "",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Currency not stated (AU retailer, likely AUD). Raw finish rusts without oiling. Out of stock. 300 SX and Husqvarna/GasGas 250 fitment not stated on this page.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-014"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "two-stroke expansion chamber",
+   "brand": "Pro Circuit",
+   "product": "Works Pipe",
+   "part_numbers": [
+    "0752312"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://jj-motorsports.com/pro-circuit-works-pipe-0752312/",
+   "what_it_changes": "Seller claims: performance gains from optimised exhaust flow; AKDQ carbon steel, hand-welded seams, integrated stinger, bolt-on; made in USA. 5.8 lb shipping weight.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "JJ Motorsports",
+     "url": "https://jj-motorsports.com/pro-circuit-works-pipe-0752312/",
+     "price_if_stated": "337.95",
+     "currency": "USD",
+     "date": "2026-10-15"
+    },
+    {
+     "seller": "RevZilla",
+     "url": "https://www.revzilla.com/dirt-bike/pro-circuit-works-pipe-ktm-husqvarna-gas-gas-125cc-2023-2024",
+     "price_if_stated": "",
+     "currency": "",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "RevZilla titles the same pipe 'KTM / Husqvarna / Gas Gas 125cc 2023-2027' without a model list, so TC 125 / MC 125 and later years are unverified. Platinum (plated) version for these bikes was not found this pass.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-015"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "two-stroke silencer",
+   "brand": "DEP",
+   "product": "Silver Shorty 2-Stroke Silencer",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Retailer range 2002-2025"
+    }
+   ],
+   "fitment_source_url": "https://firestormmotorcycles.com.au/yamaha-yz250-2002-2025-dep-silver-shorty-2-stroke",
+   "what_it_changes": "No claims on the retailer page; a shorty silencer is generally fitted for weight and a freer top end, at the cost of noise.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Firestorm Motorcycles (AU)",
+     "url": "https://firestormmotorcycles.com.au/yamaha-yz250-2002-2025-dep-silver-shorty-2-stroke",
+     "price_if_stated": "",
+     "currency": "",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No part number or price shown (image file name suggests DEPY2216, unconfirmed). Check local sound limits.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-016"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "full exhaust system (four-stroke)",
+   "brand": "Big Gun",
+   "product": "EXO R Full System",
+   "part_numbers": [
+    "19-43823"
+   ],
+   "variants": [
+    "304 stainless header and mid-pipe, brushed aluminium hex muffler, carbon end cap"
+   ],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX250X",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/big-gun-exo-r-full-system-exhaust-kawasaki-kx250-kx250x-2021-2024",
+   "what_it_changes": "Maker claims: 'significant' horsepower and torque gains, deeper but tolerable tone, less heat. Handmade in USA.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/big-gun-exo-r-full-system-exhaust-kawasaki-kx250-kx250x-2021-2024",
+     "price_if_stated": "674.99",
+     "currency": "USD",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [
+    "Cycle Gear (2026-10-15): 5/5 average from 2 reviews, no text shown"
+   ],
+   "caveats": "Competition use only. Big Gun was not on the task list but filled the Bill's Pipes gap (Bill's Pipes only listed for mini bikes).",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-017"
+  },
+  {
+   "category": "engine",
+   "subcategory": "piston kit (four-stroke)",
+   "brand": "Wiseco",
+   "product": "Forged Piston Kit",
+   "part_numbers": [
+    "40306M09500B",
+    "40306M09500A"
+   ],
+   "variants": [
+    "40306M09500B = 94.95mm bore, 13.1:1",
+    "40306M09500A = size A (listed by same retailer; details not read)"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 450",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 450F",
+     "years": [
+      2024
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://oro2u.com/piston-kit-2023-25-sx-f450-wiseco-40306m09500b-95mm",
+   "what_it_changes": "Claims: forged high-silicon alloy piston for strength and longevity at stock-like 13.1:1 compression. Kit includes rings and circlips.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "ORO2U (UK)",
+     "url": "https://oro2u.com/piston-kit-2023-25-sx-f450-wiseco-40306m09500b-95mm",
+     "price_if_stated": "241.19",
+     "currency": "GBP",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Match the A/B size code to the cylinder grade. Also lists 450 SM-R and FS 450 (out of scope).",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-018"
+  },
+  {
+   "category": "engine",
+   "subcategory": "piston kit (four-stroke)",
+   "brand": "Wiseco",
+   "product": "Forged Piston Kit (ArmorGlide), 13.5:1",
+   "part_numbers": [
+    "40177M09600C"
+   ],
+   "variants": [
+    "96.00mm standard bore, 13.5:1"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.oro2u.com/piston-kit-crf450r-17-25-13-5-wiseco-40177m09600c-13-5-1-comp-armorglide-w40177m09600c",
+   "what_it_changes": "Claims: higher compression for torque and throttle response; ArmorGlide skirt coating to cut friction; pressure-seal ring groove. Kit has piston, rings, pin, circlips.",
+   "supporting_parts": "Replacement rings 9600ZV, pin 748-2050-16-93C, circlips CW19 (per retailer).",
+   "where_to_buy": [
+    {
+     "seller": "ORO2U (UK)",
+     "url": "https://www.oro2u.com/piston-kit-crf450r-17-25-13-5-wiseco-40177m09600c-13-5-1-comp-armorglide-w40177m09600c",
+     "price_if_stated": "263.28",
+     "currency": "GBP",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "High compression may need higher-octane fuel; check piston-to-valve clearance. Coyote Direct also lists a 2017-2020 13.5:1 kit WIS40177M09600.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-019"
+  },
+  {
+   "category": "engine",
+   "subcategory": "piston kit (four-stroke)",
+   "brand": "Wiseco",
+   "product": "Piston Kit 13.5:1",
+   "part_numbers": [
+    "PK1944"
+   ],
+   "variants": [
+    "13.5:1 compression"
+   ],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ450F",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "Incl. 2024 50th Anniversary and 2023 Monster Energy editions"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ450FX",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://coyotedirect.com/products/wiseco-23-24-yamaha-yz450f-13-5-1-piston-kit",
+   "what_it_changes": "Raises compression for more torque/response (Wiseco forged piston, tight-tolerance claims).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Coyote Direct",
+     "url": "https://coyotedirect.com/products/wiseco-23-24-yamaha-yz450f-13-5-1-piston-kit",
+     "price_if_stated": "301.99",
+     "currency": "USD",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Backordered. Bore not listed. Higher compression than stock; fuel choice matters.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-020"
+  },
+  {
+   "category": "engine",
+   "subcategory": "piston kit (four-stroke)",
+   "brand": "Wiseco",
+   "product": "Piston Kit 13.0:1",
+   "part_numbers": [
+    "PK1950"
+   ],
+   "variants": [
+    "13.0:1 compression"
+   ],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ450F",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://coyotedirect.com/products/wiseco-23-24-yamaha-yz450f-13-0-1-piston-kit",
+   "what_it_changes": "Forged replacement piston at near-stock compression (maker claims tight tolerances and strength).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Coyote Direct",
+     "url": "https://coyotedirect.com/products/wiseco-23-24-yamaha-yz450f-13-0-1-piston-kit",
+     "price_if_stated": "291.99",
+     "currency": "USD",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Backordered. Bore not listed. 2025+ YZ450F fitment not confirmed.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-021"
+  },
+  {
+   "category": "engine",
+   "subcategory": "piston kit (four-stroke)",
+   "brand": "Wiseco",
+   "product": "Piston Kit 13.5:1",
+   "part_numbers": [
+    "PK1953"
+   ],
+   "variants": [
+    "13.5:1; a 13.0:1 sibling PK1952 is also listed by Coyote Direct"
+   ],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ450F",
+     "years": [
+      2020,
+      2022
+     ],
+     "notes": "Retailer lists 2020 and 2022 only; 2021 is not listed"
+    }
+   ],
+   "fitment_source_url": "https://coyotedirect.com/products/wiseco-20-22-yamaha-yz450f-13-5-1-piston-kit",
+   "what_it_changes": "Raised-compression forged piston for more torque and response (maker claims).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Coyote Direct",
+     "url": "https://coyotedirect.com/products/wiseco-20-22-yamaha-yz450f-13-5-1-piston-kit",
+     "price_if_stated": "287.99",
+     "currency": "USD",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Backordered. 2021 gap in fitment list is odd and should be checked with Wiseco.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-022"
+  },
+  {
+   "category": "engine",
+   "subcategory": "piston kit (four-stroke)",
+   "brand": "Wiseco",
+   "product": "Piston Kit 13.5:1",
+   "part_numbers": [
+    "40230M09600"
+   ],
+   "variants": [
+    "13.5:1; a 12.5:1 sibling 40228M09600 is also listed"
+   ],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Retailer lists as KX450F 2019-2021"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450X",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://coyotedirect.com/products/wiseco-kawasaki-kx450-20-13-51-cr-piston-kit",
+   "what_it_changes": "Raised-compression forged piston (maker claims performance and strength).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Coyote Direct",
+     "url": "https://coyotedirect.com/products/wiseco-kawasaki-kx450-20-13-51-cr-piston-kit",
+     "price_if_stated": "259.99",
+     "currency": "USD",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Backordered. 2022-2023 KX450 (non-X) not listed on this page; 2024+ KX450 Wiseco kit not found.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-023"
+  },
+  {
+   "category": "engine",
+   "subcategory": "piston kit (four-stroke)",
+   "brand": "Wiseco",
+   "product": "Forged Piston Kit (ArmorGlide)",
+   "part_numbers": [
+    "40273M07800B",
+    "40273M07800A"
+   ],
+   "variants": [
+    "78.00mm standard bore, 14.1:1; A and B size codes"
+   ],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://oro2u.com/piston-kit-2022-22-kx250-kawasaki-78mm-wiseco-40273m07800b-armorglide",
+   "what_it_changes": "Claims: high compression for torque and throttle response, ArmorGlide skirt coating, pressure-seal groove.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "ORO2U (UK)",
+     "url": "https://oro2u.com/piston-kit-2022-22-kx250-kawasaki-78mm-wiseco-40273m07800b-armorglide",
+     "price_if_stated": "231.34",
+     "currency": "GBP",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Retailer page mixes the A and B numbers; title says 2022 only, description says 2021-2022.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-024"
+  },
+  {
+   "category": "engine",
+   "subcategory": "piston kit (four-stroke)",
+   "brand": "Wiseco",
+   "product": "Forged Piston Kit 14.4:1",
+   "part_numbers": [
+    "40144M07800A",
+    "40144M07800B"
+   ],
+   "variants": [
+    "78mm bore, 14.4:1; A and B size codes"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.oro2u.com/piston-kit-16-22-250-sx-f-14-4-wiseco-40144m07800a-78mm",
+   "what_it_changes": "Higher compression than stock for torque (maker claims). Includes ring set 7800YB, pin S677, clips W6883.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "ORO2U (UK)",
+     "url": "https://www.oro2u.com/piston-kit-16-22-250-sx-f-14-4-wiseco-40144m07800a-78mm",
+     "price_if_stated": "275.28",
+     "currency": "GBP",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Out of stock. Not for 2023+ 250 SX-F (new 81mm engine).",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-025"
+  },
+  {
+   "category": "engine",
+   "subcategory": "top end kit (four-stroke)",
+   "brand": "Wiseco",
+   "product": "Top End Kit",
+   "part_numbers": [
+    "PK1924"
+   ],
+   "variants": [
+    "Piston, rings, pin, clips, gasket kit"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 250F",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://aomc.mx/PK1924.html",
+   "what_it_changes": "Complete top-end rebuild in one box (forged piston plus gaskets).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "AOMC.mx",
+     "url": "https://aomc.mx/PK1924.html",
+     "price_if_stated": "373.95",
+     "currency": "USD",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Bore/compression not stated. Retailer text mentions a top-end bearing, which does not apply to four-strokes.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-026"
+  },
+  {
+   "category": "engine",
+   "subcategory": "cam chain",
+   "brand": "Wiseco",
+   "product": "Cam Chain",
+   "part_numbers": [
+    "WCC070"
+   ],
+   "variants": [
+    "OEM reference A46036013000"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "450 XC-F",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 450",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 450F",
+     "years": [
+      2024
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.oro2u.com/cam-chain-2023-25-ktm-450-sx-f-husqvarna-fc-450-2023-25-wiseco-wcc070-31-6443-a46036013000",
+   "what_it_changes": "OEM-spec replacement timing chain (maker claims consistent valve timing, OEM-or-better durability).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "ORO2U (UK)",
+     "url": "https://www.oro2u.com/cam-chain-2023-25-ktm-450-sx-f-husqvarna-fc-450-2023-25-wiseco-wcc070-31-6443-a46036013000",
+     "price_if_stated": "89.22",
+     "currency": "GBP",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Title says 2023-25 but fitment list says 450 SX-F to 2026.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-027"
+  },
+  {
+   "category": "engine",
+   "subcategory": "piston kit (four-stroke)",
+   "brand": "Vertex",
+   "product": "Pro Piston Kit (forged)",
+   "part_numbers": [
+    "24618B"
+   ],
+   "variants": [
+    "94.97mm (size B)"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "Retailer says 'KTM SXF'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2024
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.ghostbikes.com/93247-vertex-pro-piston-kit-24618b-94.97mm-ktm-sxf-and-husqvarna-fc450-2023-2024-gas-gas-mc450f-2024.html",
+   "what_it_changes": "Claims: forged, built above OEM spec, team tested. Includes rings, pin, clips.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Ghostbikes (UK)",
+     "url": "https://www.ghostbikes.com/93247-vertex-pro-piston-kit-24618b-94.97mm-ktm-sxf-and-husqvarna-fc450-2023-2024-gas-gas-mc450f-2024.html",
+     "price_if_stated": "195.29",
+     "currency": "GBP",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Compression not stated. Other size codes (A/C) not checked.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-028"
+  },
+  {
+   "category": "engine",
+   "subcategory": "piston kit (four-stroke)",
+   "brand": "Vertex",
+   "product": "Pro Piston Kit (forged)",
+   "part_numbers": [
+    "24615B"
+   ],
+   "variants": [
+    "80.97mm (size B)"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2024
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.ghostbikes.com/93345-vertex-pro-piston-kit-24615b-80.97mm-ktm-sxf-and-husqvarna-fc250-2023-2024-exc-ffe250-2024-gas-gas-mc-fec-f250-2024.html",
+   "what_it_changes": "Claims: forged, built above OEM spec, team tested.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Ghostbikes (UK)",
+     "url": "https://www.ghostbikes.com/93345-vertex-pro-piston-kit-24615b-80.97mm-ktm-sxf-and-husqvarna-fc250-2023-2024-exc-ffe250-2024-gas-gas-mc-fec-f250-2024.html",
+     "price_if_stated": "169.19",
+     "currency": "GBP",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Compression not stated. Also lists EXC-F/FE 250 and EC-F 250 2024 (out of scope). 250 XC-F not named.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-029"
+  },
+  {
+   "category": "engine",
+   "subcategory": "piston kit (four-stroke)",
+   "brand": "Pro-X",
+   "product": "Piston Kit (cast, OE-replacement)",
+   "part_numbers": [
+    "01.2453.A",
+    "01.2453.B",
+    "01.2453.C"
+   ],
+   "variants": [
+    "01.2453.A = 96.95mm",
+    "01.2453.B = 96.96mm (from Storm Motor listing title)",
+    "01.2453.C = 96.97mm (from Storm Motor listing title)"
+   ],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ450F",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ450FX",
+     "years": [
+      2024
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.mfgsupply.com/01-2453-a-pro-x-piston-kit-std-for-yamaha-yz450f-and-wr450f-2023-2025.html",
+   "what_it_changes": "OE-quality cast replacement made in Japan; cross-references Yamaha piston numbers. Budget rebuild rather than a performance upgrade.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "MFG Supply",
+     "url": "https://www.mfgsupply.com/01-2453-a-pro-x-piston-kit-std-for-yamaha-yz450f-and-wr450f-2023-2025.html",
+     "price_if_stated": "190.99",
+     "currency": "USD",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Retailer title and fitment list disagree on WR450F years. Pro-X also lists a 2023-2025 KTM/Husqvarna/GasGas 450 kit on RevZilla (no part numbers shown).",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-030"
+  },
+  {
+   "category": "engine",
+   "subcategory": "piston kit (four-stroke)",
+   "brand": "CP-Carrillo",
+   "product": "Piston Kit 13.3:1",
+   "part_numbers": [
+    "MX1112"
+   ],
+   "variants": [
+    "97mm std bore, 13.3:1, 449cc"
+   ],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ450F",
+     "years": [
+      2023
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.happy-trail.com/cp-pistons-2023-yamaha-yz450f-13-3-1-97mm-std-bore-449cc-piston-kit-mx1112.html",
+   "what_it_changes": "Forged race piston with slightly raised compression (no maker claims on the page).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Happy Trail",
+     "url": "https://www.happy-trail.com/cp-pistons-2023-yamaha-yz450f-13-3-1-97mm-std-bore-449cc-piston-kit-mx1112.html",
+     "price_if_stated": "375.97",
+     "currency": "USD",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Price from page metadata. Later YZ450F years not stated.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-031"
+  },
+  {
+   "category": "engine",
+   "subcategory": "piston kit (four-stroke)",
+   "brand": "CP-Carrillo",
+   "product": "Project X Pro Piston Kit",
+   "part_numbers": [
+    "MX9068-P"
+   ],
+   "variants": [
+    "81mm std bore, 14.5:1"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://tokyomods.com/shop/engine-parts/engine-parts-pistons/cp-carrillo-2023-2025-ktm-250sx-f-78mm-std-bore-14-51-project-x-pro-piston-kit-profiled-pin-bore-full-race-redesigned-for-more-power-and-durability-mx9068-p/",
+   "what_it_changes": "Claims: forged piston with a profiled pin bore to handle stress around the wrist pin in high-load race use.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Tokyo Mods",
+     "url": "https://tokyomods.com/shop/engine-parts/engine-parts-pistons/cp-carrillo-2023-2025-ktm-250sx-f-78mm-std-bore-14-51-project-x-pro-piston-kit-profiled-pin-bore-full-race-redesigned-for-more-power-and-durability-mx9068-p/",
+     "price_if_stated": "423.45",
+     "currency": "USD",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "URL says 78mm but page says 81mm (81mm matches the 2023+ engine). Page also lists Husqvarna FC 250 with unclear years. Seller advises checking piston-to-valve clearance.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-032"
+  },
+  {
+   "category": "engine",
+   "subcategory": "piston kit (four-stroke)",
+   "brand": "JE Pistons",
+   "product": "KTM 450SX-F Piston Kit",
+   "part_numbers": [
+    "JEP260955"
+   ],
+   "variants": [],
+   "fits": [],
+   "fitment_source_url": "https://coyotedirect.com/products/je-pistons-ktm-450sx-f-piston-kit",
+   "what_it_changes": "Forged piston made in the USA (maker marketing).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Coyote Direct",
+     "url": "https://coyotedirect.com/products/je-pistons-ktm-450sx-f-piston-kit",
+     "price_if_stated": "309.99",
+     "currency": "USD",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No model years, bore or compression listed, so fitment could not be mapped. JEP260955 is the retailer SKU. Page calls it an ATV piston.",
+   "confidence": "unverified",
+   "is_service": false,
+   "id": "en2-033"
+  },
+  {
+   "category": "engine",
+   "subcategory": "big bore cylinder kit",
+   "brand": "Athena",
+   "product": "Big Bore Cylinder Kit 290cc",
+   "part_numbers": [
+    "P400210100067"
+   ],
+   "variants": [
+    "85mm bore, up to 288cc"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.crfsonly.com/crf250r19-25-athena-big-bore-kit-290cc",
+   "what_it_changes": "Claims: more power and torque at low and mid rpm while staying manageable; no changes to engine cases needed. Kit includes cylinder, forged piston, pin, rings and gaskets.",
+   "supporting_parts": "Use Athena's spare gasket kit on every rebuild; maker warns not to use OE gaskets.",
+   "where_to_buy": [
+    {
+     "seller": "CRFs Only",
+     "url": "https://www.crfsonly.com/crf250r19-25-athena-big-bore-kit-290cc",
+     "price_if_stated": "1108.60",
+     "currency": "USD",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Displacement moves the bike out of the 250 class for racing. Compression and mapping needs not stated.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-034"
+  },
+  {
+   "category": "engine",
+   "subcategory": "camshaft",
+   "brand": "Hot Cams",
+   "product": "Stage 1 Intake Camshaft",
+   "part_numbers": [
+    "3306-1IN"
+   ],
+   "variants": [
+    "242° intake duration, 10.86mm lift"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://jj-motorsports.com/hot-cams-camshaft-3306-1in/",
+   "what_it_changes": "Claims: more mid-range torque and throttle response; drop-in with stock springs.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "JJ Motorsports",
+     "url": "https://jj-motorsports.com/hot-cams-camshaft-3306-1in/",
+     "price_if_stated": "726.95",
+     "currency": "USD",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Earlier pass covered Hot Cams to 2022; may be a duplicate. No 2023+ KTM Hot Cams found.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-035"
+  },
+  {
+   "category": "engine",
+   "subcategory": "camshaft",
+   "brand": "Hot Cams",
+   "product": "Stage 2 Intake Camshaft",
+   "part_numbers": [
+    "3308-2IN"
+   ],
+   "variants": [
+    "253° intake duration, 11.63mm lift"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://jj-motorsports.com/hot-cams-camshaft-3308-2in/",
+   "what_it_changes": "Claims: horsepower and torque gains (no figures); works with stock springs.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "JJ Motorsports",
+     "url": "https://jj-motorsports.com/hot-cams-camshaft-3308-2in/",
+     "price_if_stated": "679.95",
+     "currency": "USD",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "May duplicate the earlier pass. Usually needs a matching map to get the gain.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-036"
+  },
+  {
+   "category": "intake",
+   "subcategory": "air filter",
+   "brand": "Twin Air",
+   "product": "Air Filter (dual-stage foam)",
+   "part_numbers": [
+    "154118"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-F",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "300 XC",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "350 XC-F",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "450 XC-F",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 150",
+     "years": [
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 300",
+     "years": [
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TX 300",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 350",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 450",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 350F",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 250",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 250F",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 300",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 350F",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 450F",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.oro2u.com/air-filter-22-25-gasgas-husqvarna-ktm-twin-air-154118",
+   "what_it_changes": "Claims: coarse outer and fine inner foam fused together so dirt cannot pack between layers; thick greaseless sealing ring.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "ORO2U (UK)",
+     "url": "https://www.oro2u.com/air-filter-22-25-gasgas-husqvarna-ktm-twin-air-154118",
+     "price_if_stated": "21.20",
+     "currency": "GBP",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "GasGas MC 450F and KTM 300 SX are not in the retailer's list even though sister models are; check. Factory Edition 2022 models also listed.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-037"
+  },
+  {
+   "category": "intake",
+   "subcategory": "air filter",
+   "brand": "Twin Air",
+   "product": "Air Filter (dual-stage foam)",
+   "part_numbers": [],
+   "variants": [
+    "Cycle Gear item P1045680"
+   ],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ250F",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ450F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ450FX",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/twin-air-air-filter-yamaha-yz250f-yz450f-yz450fx-wr450f-2023-2024",
+   "what_it_changes": "Claims: bonded dual-layer foam; flow-bench tests cited for more airflow and less clogging.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/twin-air-air-filter-yamaha-yz250f-yz450f-yz450fx-wr450f-2023-2024",
+     "price_if_stated": "37.00",
+     "currency": "USD",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [
+    "Cycle Gear (2026-10-15): 4.5/5 average from 43 reviews, no text shown"
+   ],
+   "caveats": "Twin Air part number not shown on the page.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-038"
+  },
+  {
+   "category": "intake",
+   "subcategory": "air filter",
+   "brand": "Twin Air",
+   "product": "Air Filter (dual-stage foam)",
+   "part_numbers": [],
+   "variants": [
+    "Cycle Gear item P1109826"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2025,
+      2026
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/twin-air-air-filter-honda-250cc-450cc-2025-2026",
+   "what_it_changes": "Claims: fused dual-stage foam, greaseless sealing ring.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/twin-air-air-filter-honda-250cc-450cc-2025-2026",
+     "price_if_stated": "37.00",
+     "currency": "USD",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [
+    "Cycle Gear (2026-10-15): 4.5/5 average from 43 reviews (shared rating), no text shown"
+   ],
+   "caveats": "Twin Air part number not shown on the page.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-039"
+  },
+  {
+   "category": "intake",
+   "subcategory": "air filter kit (Powerflow)",
+   "brand": "Twin Air",
+   "product": "Powerflow Kit",
+   "part_numbers": [],
+   "variants": [
+    "Cycle Gear product P976921"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "450 XC-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 350",
+     "years": [
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 450",
+     "years": [
+      2023,
+      2024,
+      2027
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/twin-air-powerflow-kit-ktm-husqvarna-250cc-450cc-2022-2024",
+   "what_it_changes": "Claims: replaces the stock backfire screen with backfire-resistant foam and opens up airbox space for more airflow and power.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/twin-air-powerflow-kit-ktm-husqvarna-250cc-450cc-2022-2024",
+     "price_if_stated": "199.45",
+     "currency": "USD",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [
+    "Cycle Gear (2026-10-15): 4.5/5 average from 11 reviews, no text shown"
+   ],
+   "caveats": "GasGas MC-F is on a separate Twin Air kit page. Removing the backfire screen may matter for spark-arrester rules. Twin Air part number not shown.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-040"
+  },
+  {
+   "category": "intake",
+   "subcategory": "air filter",
+   "brand": "Uni Filter",
+   "product": "ProComp2 / O2Rush / O2Rush Race Ready",
+   "part_numbers": [
+    "AU1455ST",
+    "O2R1455",
+    "O2R41455RR"
+   ],
+   "variants": [
+    "AU1455ST = ProComp2 dual-stage (AUD 65.80 RRP)",
+    "O2R1455 = O2Rush single-stage (AUD 41.87)",
+    "O2R41455RR = O2Rush Race Ready pre-oiled (AUD 47.79)"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2023
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2023
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "300 SX",
+     "years": [
+      2023
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2023
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2023
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2023
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2023
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "300 XC",
+     "years": [
+      2023
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "350 XC-F",
+     "years": [
+      2023
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "450 XC-F",
+     "years": [
+      2023
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2023
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2023
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2023
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2023
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2023
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TX 300",
+     "years": [
+      2023
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 450",
+     "years": [
+      2023
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://transmoto.com.au/?p=79305",
+   "what_it_changes": "Claims: corrugated foam doubles filter surface area; soft-seal edge; Australian made.",
+   "supporting_parts": "Uni recommends its Filter Fix air filter oil.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "caveats": "Source is a 2023 press article ('2023 onwards'); only 2023 mapped (FX 350 also named but has no 2023 model year in app scope). AU part numbers; US Uni NU-series number not confirmed.",
+   "confidence": "unverified",
+   "is_service": false,
+   "id": "en2-041"
+  },
+  {
+   "category": "intake",
+   "subcategory": "air filter kit (cage + filter)",
+   "brand": "No Toil",
+   "product": "Super Flo Filter Kit",
+   "part_numbers": [
+    "SFK15047"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "350 XC-F",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "450 XC-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 450",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 350F",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 250F",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 350F",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 450F",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.jpcycles.com/product/no-toil-super-flo-filter-kit-ktm-husqvarna-gas-gas-250cc-500cc-2023-2026",
+   "what_it_changes": "Claims: replaces OEM filter and cage, removing the factory backfire screen for more airflow to the throttle body; polymer cage with built-in anti-backfire screen; heat-sealed two-stage foam.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "J&P Cycles",
+     "url": "https://www.jpcycles.com/product/no-toil-super-flo-filter-kit-ktm-husqvarna-gas-gas-250cc-500cc-2023-2026",
+     "price_if_stated": "69.23",
+     "currency": "USD",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Retailer shows model names but only 'mostly 2022-2027' style year ranges; years here follow the 2023-2026 title and are not per-model verified. Two-stroke models (TX 300, EX 250/300) also appear in the list for this four-stroke kit, which looks wrong.",
+   "confidence": "unverified",
+   "is_service": false,
+   "id": "en2-042"
+  },
+  {
+   "category": "intake",
+   "subcategory": "air filter",
+   "brand": "FunnelWeb",
+   "product": "ProLine Air Filter",
+   "part_numbers": [],
+   "variants": [
+    "Cycle Gear item P1097679"
+   ],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ250F",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ450F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ450FX",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/funnelweb-proline-air-filter-yamaha-yz250f-yz450f-yz450fx-wr450f-2023-2024",
+   "what_it_changes": "Claims: profile-cut single-density foam adds surface area, holds airflow longer between cleans. Ships unoiled.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/funnelweb-proline-air-filter-yamaha-yz250f-yz450f-yz450fx-wr450f-2023-2024",
+     "price_if_stated": "39.95",
+     "currency": "USD",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [
+    "Cycle Gear (2026-10-15): 4.5/5 average from 3 reviews, no text shown"
+   ],
+   "caveats": "FunnelWeb part number not shown.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-043"
+  },
+  {
+   "category": "intake",
+   "subcategory": "air filter",
+   "brand": "FunnelWeb",
+   "product": "ProLine Air Filter",
+   "part_numbers": [],
+   "variants": [
+    "Cycle Gear item P1097678"
+   ],
+   "fits": [
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 150",
+     "years": [
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 300",
+     "years": [
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 350",
+     "years": [
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 450",
+     "years": [
+      2023,
+      2024,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 350F",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 250",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 250F",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 300",
+     "years": [
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 350F",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 450F",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/funnelweb-proline-air-filter-ktm-husqvarna-gas-gas-125cc-500cc-2022-2025",
+   "what_it_changes": "Claims: profile-cut foam, more surface area, longer service intervals. Ships unoiled.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/funnelweb-proline-air-filter-ktm-husqvarna-gas-gas-125cc-500cc-2022-2025",
+     "price_if_stated": "39.95",
+     "currency": "USD",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "The KTM part of the fitment list was cut off on the page; 2023+ KTM SX/SX-F/XC almost certainly share this filter but are not mapped here. TX 300 not visible.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-044"
+  },
+  {
+   "category": "intake",
+   "subcategory": "carbon air intake kit",
+   "brand": "VHM",
+   "product": "Carbon Air Intake Kit (Short)",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.firestormmotorcycles.com.au/ktm-450-sx-f-2023-2024-vhm-carbon-air-intake-kit-p",
+   "what_it_changes": "Sold as a performance upgrade; no claims on the page.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Firestorm Motorcycles (AU)",
+     "url": "https://www.firestormmotorcycles.com.au/ktm-450-sx-f-2023-2024-vhm-carbon-air-intake-kit-p",
+     "price_if_stated": "",
+     "currency": "",
+     "date": "2026-10-15"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No part number or price shown. Turned up while searching for Lightspeed (which was not found).",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en2-045"
+  }
+ ],
+ "gaps": [
+  "Mishimoto: only 2010-2012-era YZ450F/KX450F radiators found on mishimoto.com; no 2020+ in-scope fitment.",
+  "Fluidyne: Slavens Racing KTM page lists only up to 2016 and says 'no longer available'; no 2020+ Fluidyne radiators found.",
+  "CV4 hose kits: Cycle Gear Y-kit lists only pre-2017 KTM/Kawasaki; JJ Motorsports CV4 pages (SFSMBC47R, SFSMBC55R) did not load their fitment lists.",
+  "Arrow: no motocross (SX/MX) exhaust found, only street and CFMoto/KTM road models.",
+  "Doma: no motocross listing found.",
+  "LeoVince: X3 Evo listings found only for EXC-F enduro (out of scope); no MX fitment found.",
+  "Bill's Pipes: only KLX110-type mini-bike systems found.",
+  "DEP: only YZ250 Silver Shorty (no part number or price); KTM 2023+ DEP not found.",
+  "Pro Circuit Platinum pipes for 2023+ KTM and current YZ125/YZ250: not found (RevZilla results were older models).",
+  "Akrapovič CRF450R/RX titanium slip-on (bikebiz.com.au): page shows no part number or years; not added.",
+  "Akrapovič 450 SX-F Evolution Line (full system) and Husqvarna/GasGas OEM-catalogue Akrapovič parts: not found this pass.",
+  "Wiseco 2023+ KTM/Husqvarna/GasGas two-stroke pistons, 2024+ KX450, 2025+ YZ450F, CRF250R and YZ250F: not found.",
+  "JE Pistons: only one KTM 450 SX-F kit with no years.",
+  "Hot Cams and Web Cams for 2023+ KTM group and newer Japanese bikes: not found.",
+  "Kibblewhite: Parts Europe 'Valve Spring Kit' 09260137 had no brand or fitment; not added.",
+  "Lightspeed: no intake or airbox products found."
+ ],
+ "not_done": [
+  "Arrow and Doma beyond one search each",
+  "Athena gasket kits and Athena 2-stroke kits",
+  "Vertex 2024+ YZ450F/KX450 pistons",
+  "Twin Air GasGas MC-F Powerflow page",
+  "No Toil standard filters per model"
+ ]
+}

@@ -1,5 +1,5 @@
 import {useEffect,useMemo,useRef,useState,type ReactNode} from 'react';
-import {BadgeCheck,Check,ChevronLeft,ChevronRight,CircleDot,Cog,Cpu,Disc,Disc3,Flame,Frame,Hand,Layers,Link as LinkIcon,MoveVertical,Plus,Search,Shield,Trash2,Wind,X} from 'lucide-react';
+import {Check,ChevronLeft,ChevronRight,CircleDot,Cog,Cpu,Disc,Disc3,Flame,Frame,Hand,Layers,Link as LinkIcon,MoveVertical,Plus,Search,Shield,Trash2,Wind,X} from 'lucide-react';
 import type {Bike} from '../shared/types';
 import {partSystems,readInstalled,writeInstalled,partLabel,MAX_PARTS,type InstalledPart,type PartSystem} from '../shared/installed-parts';
 import {partsForBike,type CatalogPart} from './partsCatalog';
@@ -50,9 +50,15 @@ const MAKERS=['Akrapovič','FMF','Pro Circuit','Yoshimura','Rekluse','Hinson','W
 /** One name per brand: Akrapovič sold through KTM is Akrapovič; an FMF muffler sold by KTM is FMF. */
 function brandOf(c:CatalogPart){
  if(/akrapovi/i.test(c.brand+' '+c.name))return 'Akrapovič';
- if(OEM.test(c.brand.trim())){const m=MAKERS.find(x=>new RegExp('\\b'+x.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\b','i').test(c.name));if(m)return m;return /^ktm/i.test(c.brand)?'KTM PowerParts':c.brand;}
- return c.brand.replace(/\s*\(.*\)$/,'');
+ if(OEM.test(c.brand.trim())){const m=MAKERS.find(x=>new RegExp('\\b'+x.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\b','i').test(c.name));if(m)return m;return /^ktm/i.test(c.brand)?'KTM PowerParts':canonBrand(c.brand);}
+ return canonBrand(c.brand.replace(/\s*\(.*\)$/,''));
 }
+/** Sellers spell the same maker several ways; riders should see one row per maker. */
+const CANON:[RegExp,string][]=[[/^moose( racing)?$/i,'Moose Racing'],[/^vortex( racing)?$/i,'Vortex'],[/^graves( motorsports)?$/i,'Graves Motorsports'],[/^helix( racing products)?$/i,'Helix Racing'],
+ [/^all balls( racing)?$/i,'All Balls Racing'],[/^scotts?( performance)?( \/ brp)?$|^brp$/i,'Scotts / BRP'],[/^raptor( titanium)?$/i,'Raptor'],[/^galfer( braking systems)?$/i,'Galfer'],[/^koubalinks?$/i,'KoubaLink'],
+ [/^jt( sprockets)?$/i,'JT Sprockets'],[/^supersprox$/i,'Supersprox'],[/^ebc( brakes)?$/i,'EBC'],[/^pro ?taper$/i,'ProTaper'],[/^pro[- ]?x$/i,'Pro-X'],[/^uni( filter)?$/i,'Uni Filter'],[/^ktm powerparts.*$/i,'KTM PowerParts'],
+ [/^husqvarna( technical accessories| motorcycles)?$/i,'Husqvarna Technical Accessories'],[/^gas ?gas( technical accessories| parts & accessories)?$/i,'GasGas Technical Accessories'],[/^d\.?i\.?d$/i,'D.I.D'],[/^xtrig$/i,'Xtrig']];
+function canonBrand(b:string){const t=b.trim();for(const [re,name] of CANON)if(re.test(t))return name;return t;}
 /** The part name without its brand and the fitment the shop pasted into it ("450/500 2023-2026", "350/450 SX-F/XC-F"). */
 function cleanName(brand:string,name:string){
  let n=name;
@@ -140,9 +146,11 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
      {mode==='changed'&&<>
       <h3 className="nav-section">ON YOUR BIKE</h3>
       <ul className="nav-list">
-       {picked.map(p=>{const r=notesFor(p);return <li key={key(p)} className="fitted">
-        <div className="fitted-top"><span className="nav-main"><b>{[p.b,p.n].filter(Boolean).join(' ')}</b>{p.d&&<small>{p.d}</small>}{p.p&&<small>Part # {p.p}</small>}</span><button className="fitted-remove" onClick={()=>setPicked(picked.filter(x=>key(x)!==key(p)))} aria-label={`Remove ${partLabel(p)}`}>Remove</button></div>
-        {r&&(r.what||r.caution)&&<div className="part-notes">{r.what&&<p><span>What it changes</span>{r.what}</p>}{r.caution&&<p className="caution"><span>Heads up</span>{r.caution}</p>}{r.testers.slice(0,1).map(x=><p key={x}><span>Testers found</span>{x}</p>)}</div>}
+       {picked.map(p=>{const r=notesFor(p),k=key(p),has=!!(r&&(r.what||r.caution||r.testers.length))||!!p.p;return <li key={k} className="fitted">
+        <div className="fitted-top"><span className="nav-main"><small className="fitted-brand">{p.b||'Brand not set'}</small><b>{p.n}</b>{p.d&&<small>{p.d}</small>}</span><button className="fitted-remove" onClick={()=>setPicked(picked.filter(x=>key(x)!==k))} aria-label={`Remove ${partLabel(p)}`}>Remove</button></div>
+        {has&&<details className="part-notes"><summary>{r&&(r.what||r.caution)?'What this part changes':'Details'}</summary>
+         {r?.what&&<p><span>What it changes</span>{r.what}</p>}{r?.caution&&<p className="caution"><span>Heads up</span>{r.caution}</p>}{r?.testers.slice(0,1).map(x=><p key={x}><span>Testers found</span>{x}</p>)}{p.p&&<p><span>Part number</span>{p.p}</p>}
+        </details>}
        </li>})}
        <Row label={<span className="nav-add"><Plus size={17}/>Add a part</span>} onClick={()=>push(firstStep())}/>
       </ul></>}
@@ -182,12 +190,9 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
      {all.length>8&&search(`Search ${screen.brand}`)}
      <ul className="nav-list">
       {list.map(c=>{const ip:InstalledPart={s:system,b:c.brand,n:c.name,...(c.pn?{p:c.pn}:{}),...(c.r?{r:c.r}:{})},on=pickedKeys.has(key(ip));return <Row key={c.name+c.pn} selected={on}
-       label={<><b>{c.name}</b>{c.pn&&<small>Part # {c.pn}</small>}</>}
-       tag={c.r?<span className={'r-tag'+(c.verified?' verified':'')}>{c.verified?<><BadgeCheck size={13}/>Confirmed fit</>:'BAK knows it'}</span>:undefined}
-       chev={false} onClick={()=>add(ip)}/>})}
+       label={<b>{c.name}</b>} chev={false} onClick={()=>add(ip)}/>})}
       {!list.length&&<li className="nav-empty">Nothing listed matches.</li>}
      </ul>
-     {list.some(c=>c.r)&&<p className="legend"><b>Confirmed fit</b>: the part maker lists your bike. <b>BAK knows it</b>: BAK has notes on what it changes.</p>}
      <ul className="nav-list"><Row label={<b>Not listed?</b>} detail="Type it" onClick={()=>{setCustom({b:screen.brand,n:query,p:''});push({id:'custom',brand:screen.brand,type:screen.type})}}/></ul></>})()}
     {screen.id==='custom'&&<div className="nav-form">
      <Labeled label={WORK[system]?.some(w=>w.label===custom.n)?'Who did the work? (shop or tuner)':'Brand'}><input autoFocus={WORK[system]?.some(w=>w.label===custom.n)} value={custom.b} onChange={e=>setCustom({...custom,b:e.target.value})} placeholder={WORK[system]?.some(w=>w.label===custom.n)?'e.g. the shop’s name':'e.g. FMF'} maxLength={60}/></Labeled>
