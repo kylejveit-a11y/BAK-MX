@@ -833,3 +833,7 @@ body.sheet-open{overflow:hidden}
 .quick-picks .eyebrow{margin-bottom:6px}
 .brand-chips.wrap{flex-wrap:wrap;overflow:visible;padding-top:4px}
 .brand-chips button:disabled{opacity:1;background:#e3e9f2;color:#0b0d12}
+.decider{border-left:2px solid var(--accent);padding-left:12px;color:#d6e2f3;font-size:13px}
+.tuner-guide ol,.tuner-guide ul{padding-left:18px;line-height:1.7;font-size:14px;color:#c9d3e2}
+.setup-guide .tabs{overflow-x:auto;scrollbar-width:none}
+.setup-guide .tabs button{white-space:nowrap}

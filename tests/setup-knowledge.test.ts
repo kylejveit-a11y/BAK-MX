@@ -1,9 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {adjusters,symptomGuides,beforeYouTune,setupKnowledge} from '../shared/setup-knowledge.ts';
+import {adjusters,symptomGuides,beforeYouTune,setupKnowledge,workOrder,triageQuestions,mechanicalMimics,airForkRules,whenClickersRunOut,conditions,vocabulary,talkingToYourTuner,openQuestions} from '../shared/setup-knowledge.ts';
 import {buildEngineeringInput} from '../server/engineering.ts';
 test('setup knowledge is direction-only: it carries no numbers that could pass as specifications',()=>{
- const text=JSON.stringify({adjusters,symptomGuides,beforeYouTune});
+ const text=JSON.stringify({adjusters,symptomGuides,beforeYouTune,workOrder,triageQuestions,mechanicalMimics,airForkRules,whenClickersRunOut,conditions,vocabulary,talkingToYourTuner,openQuestions});
  // No digits at all: clicker counts, sag targets, pressures, jet sizes and torque must come from verified claims.
  assert.equal(/\d/.test(text),false,'authored setup knowledge must not contain numeric values');
  assert.ok(adjusters.length>=10);assert.ok(symptomGuides.length>=10);
@@ -17,4 +17,13 @@ test('the model receives setup knowledge with its boundary, separate from verifi
  assert.equal(input.setup_knowledge.version,setupKnowledge().version);
  assert.match(input.setup_knowledge.boundary,/never cited as verified evidence/);
  assert.equal(input.verified_claims.length,0);
+});
+test('specialist knowledge separates causes that feel the same, without naming sources to riders',()=>{
+ const k=setupKnowledge(),text=JSON.stringify(k);
+ assert.equal(k.version,'mx-setup-2');
+ for(const g of symptomGuides)if(g.likely.length>=3)assert.ok(g.ask,`${g.id} needs the question that separates its causes`);
+ const kick=symptomGuides.find(g=>g.id==='rear-kick')!;
+ assert.ok(kick.likely.some(l=>/rebound too fast/i.test(l.cause))&&kick.likely.some(l=>/compression too firm/i.test(l.cause)));
+ assert.ok(openQuestions.some(q=>/rear grip/i.test(q.topic))&&openQuestions.some(q=>/rear kick/i.test(q.topic)));
+ assert.doesNotMatch(text,/Keefer|Race Tech|MXA|Motocross Action|Bones|Slavens|Enzo|Factory Connection|Pro Circuit|Teknik|Öhlins|REP|JBI/);
 });

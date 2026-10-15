@@ -2,7 +2,7 @@ import {Fragment,useEffect,useRef,useState,type FormEvent,type ReactNode} from '
 import {ArrowLeft,ArrowRight,CalendarDays,Check,Flag,Heart,MapPin,MessageCircle,MessageSquare,Plus,Send,ShieldOff,Trash2,UserRound,Users,X} from 'lucide-react';
 import type {Bike} from '../shared/types';
 import {api} from './client';
-import {adjusters,beforeYouTune,symptomGuides} from '../shared/setup-knowledge';
+import {adjusters,beforeYouTune,symptomGuides,mechanicalMimics,talkingToYourTuner,workOrder} from '../shared/setup-knowledge';
 import {COMMUNITY_RULES,EVENT_TYPE_LABELS,POST_CATEGORY_LABELS,SETUP_FIELDS,SETUP_RESULT_LABELS,riderName,setupDifferences,type EventType,yearRanges,type Part,type PartAssembly,type PartCatalog,type PartFit,type Post,type PostCategory,type PostComment,type Profile,type RideEvent,type RiderRef,type SetupLog,type SetupResult,type ThreadMessage,type ThreadSummary} from '../shared/rider-types';
 
 /* Rider surfaces for the web client: Community, Events, Messages, Profile, Feedback, Setup log, Parts.
@@ -319,14 +319,17 @@ function FitList({bike,rows}:{bike:Bike;rows:PartFit[]}){
 
 /* ------------------------------------------------------------------ Setup guide */
 export function SetupGuide({onAsk}:{onAsk?:(text:string)=>void}){
- const [view,setView]=useState<'feel'|'adjusters'>('feel'),[open,setOpen]=useState('');
+ const [view,setView]=useState<'feel'|'adjusters'|'faults'|'tuner'>('feel'),[open,setOpen]=useState('');
  return <section className="panel setup-guide">
   <div className="panel-title"><div><h2>Setup guide</h2><p className="subtle">What each adjustment does and where to start for what you’re feeling. Direction only — your bike’s published settings live in Specs.</p></div></div>
-  <div className="tabs"><button className={view==='feel'?'active':''} onClick={()=>{setView('feel');setOpen('');}}>By what you feel</button><button className={view==='adjusters'?'active':''} onClick={()=>{setView('adjusters');setOpen('');}}>By adjustment</button></div>
+  <div className="tabs"><button className={view==='feel'?'active':''} onClick={()=>{setView('feel');setOpen('');}}>By what you feel</button><button className={view==='adjusters'?'active':''} onClick={()=>{setView('adjusters');setOpen('');}}>By adjustment</button><button className={view==='faults'?'active':''} onClick={()=>{setView('faults');setOpen('');}}>Not a setting</button><button className={view==='tuner'?'active':''} onClick={()=>{setView('tuner');setOpen('');}}>Your tuner</button></div>
   {view==='feel'?<div className="assembly-list">{symptomGuides.map(g=><div key={g.id} className={'assembly'+(open===g.id?' open':'')}>
    <button className="assembly-head" aria-expanded={open===g.id} onClick={()=>setOpen(open===g.id?'':g.id)}><span>“{g.rider_says[0]}”<small className="subtle">{g.rider_says.slice(1,4).join(', ')}</small></span><ArrowRight size={15}/></button>
-   {open===g.id&&<div className="assembly-body guide-body"><p className="subtle">{g.where}</p><h4>Check first</h4><ul>{g.check_first.map((c,i)=><li key={i}>{c}</li>)}</ul><h4>Likely causes</h4>{g.likely.map((l,i)=><div className="hypothesis" key={i}><strong>{l.cause}</strong><p>{l.tell}</p><p><b>First change:</b> {l.first_change}</p></div>)}{onAsk&&<button className="text-button" onClick={()=>onAsk(`My bike ${g.rider_says[0]}. `)}>Ask BAK about this on my bike <ArrowRight size={14}/></button>}</div>}
-  </div>)}</div>:<div className="assembly-list">{adjusters.map(a=><div key={a.id} className={'assembly'+(open===a.id?' open':'')}>
+   {open===g.id&&<div className="assembly-body guide-body"><p className="subtle">{g.where}</p>{g.ask&&<p className="decider"><b>The question that decides:</b> {g.ask}</p>}<h4>Check first</h4><ul>{g.check_first.map((c,i)=><li key={i}>{c}</li>)}</ul><h4>Likely causes</h4>{g.likely.map((l,i)=><div className="hypothesis" key={i}><strong>{l.cause}</strong><p>{l.tell}</p><p><b>First change:</b> {l.first_change}</p></div>)}{g.note&&<p className="subtle"><b>Common wrong move:</b> {g.note}</p>}{onAsk&&<button className="text-button" onClick={()=>onAsk(`My bike ${g.rider_says[0]}. `)}>Ask BAK about this on my bike <ArrowRight size={14}/></button>}</div>}
+  </div>)}</div>:view==='faults'?<div className="assembly-list">{mechanicalMimics.map(m=><div key={m.fault} className={'assembly'+(open===m.fault?' open':'')}>
+   <button className="assembly-head" aria-expanded={open===m.fault} onClick={()=>setOpen(open===m.fault?'':m.fault)}><span>{m.fault}<small className="subtle">{m.feels_like}</small></span><ArrowRight size={15}/></button>
+   {open===m.fault&&<div className="assembly-body guide-body"><h4>How to check</h4><p>{m.check}</p></div>}
+  </div>)}</div>:view==='tuner'?<div className="guide-body tuner-guide"><h4>The order the pros work in</h4><ol>{workOrder.map((w,i)=><li key={i}>{w}</li>)}</ol><h4>Getting the most from your suspension tuner</h4><ul>{talkingToYourTuner.map((w,i)=><li key={i}>{w}</li>)}</ul></div>:<div className="assembly-list">{adjusters.map(a=><div key={a.id} className={'assembly'+(open===a.id?' open':'')}>
    <button className="assembly-head" aria-expanded={open===a.id} onClick={()=>setOpen(open===a.id?'':a.id)}><span>{a.name}</span><ArrowRight size={15}/></button>
    {open===a.id&&<div className="assembly-body guide-body"><p>{a.controls}</p><div className="guide-grid"><div><h4>Firmer / more</h4><p>{a.firmer_or_more}</p><p className="subtle"><b>Too much:</b> {a.too_much}</p></div><div><h4>Softer / less</h4><p>{a.softer_or_less}</p><p className="subtle"><b>Too little:</b> {a.too_little}</p></div></div><p className="subtle">{a.notes}</p></div>}
   </div>)}</div>}

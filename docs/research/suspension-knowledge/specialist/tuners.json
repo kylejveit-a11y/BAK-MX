@@ -1,0 +1,3622 @@
+{
+ "slice": "Second-hand specialist knowledge from suspension tuners and testers (Keefer Inc Testing, Pro Circuit/Bones Bacon, Enzo/Ross Maeda, Race Tech/Rob Brown, REP, Kreft, Factory Connection, JBI, PEPPER, ORS, MotoSR, Slavens, plus MXA, Dirt Rider, Dirt Bike Test, Transmoto, ADB, Vital MX)",
+ "sources": [
+  {
+   "id": "src-keefer-tips-2025",
+   "org": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "title": "Helpful Suspension Set Up Tips",
+   "url": "https://www.keeferinctesting.com/helpful-suspension-set-up-tips/",
+   "date": "2025-02-13",
+   "source_type": "tester",
+   "covers": "Pre-ride checklist, test method, clicker sensitivity by brand, 2-for-1 rule, symptom->fix, air fork pressure window",
+   "access": "free"
+  },
+  {
+   "id": "src-keefer-tips-2021",
+   "org": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "title": "Helpful Suspension Set Up Tips (2021 version)",
+   "url": "https://www.keeferinctesting.com/?p=194",
+   "date": "2021-10-07",
+   "source_type": "tester",
+   "covers": "Earlier version of the same tips; KYB 2-for-1 example, terrain settings, air fork temperature",
+   "access": "free"
+  },
+  {
+   "id": "src-keefer-adjguide-2021",
+   "org": "Keefer Inc Testing / PulpMX",
+   "author": "Kris Keefer",
+   "title": "Suspension Adjustment Guide",
+   "url": "https://www.keeferinctesting.com/?p=13314",
+   "date": "2021-04-30",
+   "source_type": "tester",
+   "covers": "Clicker definitions, test method, terrain (deep sand, hard pack), air forks within 1 psi of stock (also at https://pulpmx.com/?p=163323)",
+   "access": "free"
+  },
+  {
+   "id": "src-keefer-dummies-2024",
+   "org": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "title": "Suspension Guide For Dummies",
+   "url": "https://www.keeferinctesting.com/?p=27940",
+   "date": "2024-04-22",
+   "source_type": "tester",
+   "covers": "HSC vs sag for ride height, symptom->fix, test at a range of speeds",
+   "access": "free"
+  },
+  {
+   "id": "src-keefer-fork-ar-2021",
+   "org": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "title": "Action And Reaction (Fork)",
+   "url": "https://www.keeferinctesting.com/?p=13141",
+   "date": "2021-06-22",
+   "source_type": "tester",
+   "covers": "Each fork adjustment (air, compression, rebound, fork height) with what too much / too little feels like",
+   "access": "free"
+  },
+  {
+   "id": "src-keefer-enzo-yz450f-2022",
+   "org": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "title": "Enzo Racing 2022 Yamaha YZ450F Re-Valved Suspension",
+   "url": "https://www.keeferinctesting.com/?p=17321",
+   "date": "2022-01-31",
+   "source_type": "tester",
+   "covers": "Enzo (Ross, Yoshi) revalve of KYB coil fork and shock; LSC for pitch/dive; bladder cap; tester mis-diagnosis admitted",
+   "access": "free"
+  },
+  {
+   "id": "src-keefer-rep-2021",
+   "org": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "title": "The Makings Of A Great WP Pro Component Settings On The KTM 450 SX-F (With REP Suspension)",
+   "url": "https://keeferinctesting.com/?p=146",
+   "date": "2021-02-03",
+   "source_type": "tester",
+   "covers": "REP (Mark Johnson) WP coil conversion vs stock AER; shock length, pull rod, ride height on throttle",
+   "access": "free"
+  },
+  {
+   "id": "src-keefer-rep-pulp-2020",
+   "org": "PulpMX (Keefer Tested)",
+   "author": "Kris Keefer",
+   "title": "REP WP Pro Components Re-Valve (KTM 450 SX-F)",
+   "url": "https://pulpmx.com/2020/04/09/rep-wp-pro-components-re-valve-ktm-450-sx-f/",
+   "date": "2020-04-09",
+   "source_type": "tester",
+   "covers": "REP revalve; AER fork pushing mid-to-exit; shock HSC trade-off; tuner iteration",
+   "access": "free"
+  },
+  {
+   "id": "src-keefer-kreft-2020",
+   "org": "Keefer Inc Testing",
+   "author": "Michael Allen",
+   "title": "Kreft Suspension For Husqvarna TE300i (XPlor fork)",
+   "url": "https://www.keeferinctesting.com/?p=13271",
+   "date": "2020-05-29",
+   "source_type": "tester",
+   "covers": "Kreft revalve of XPlor fork / shock; oil volume vs adjuster for bottoming; HSC kick on decel bumps",
+   "access": "free"
+  },
+  {
+   "id": "src-keefer-crf450r-2019",
+   "org": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "title": "2020 Honda CRF450R Start Up/Baseline Settings/Tips/Tricks",
+   "url": "https://www.keeferinctesting.com/2019-9-16-2020-honda-crf450r-start-upbaseline-settingstipstricks/",
+   "date": "2019-09-16",
+   "source_type": "tester",
+   "covers": "Baseline settings for 2020 CRF450R (Showa coil) and what each change fixed",
+   "access": "free"
+  },
+  {
+   "id": "src-keefer-yz450f-2026",
+   "org": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "title": "2026 Yamaha YZ450F Baseline Suspension Settings",
+   "url": "https://www.keeferinctesting.com/2026-yamaha-yz450f-baseline-suspension-settings/",
+   "date": "2025-09-29",
+   "source_type": "tester",
+   "covers": "2026 YZ450F KYB baseline; going softer does not fix mid-stroke firmness; settings do not carry across model years",
+   "access": "free"
+  },
+  {
+   "id": "src-keefer-250-2026",
+   "org": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "title": "2026 250 MX Baseline Suspension Settings",
+   "url": "https://www.keeferinctesting.com/?p=29823",
+   "date": "2026-06-10",
+   "source_type": "tester",
+   "covers": "Baselines for CRF250R, KX250, YZ250F, KTM 250SX-F, MC250, FC250, Triumph TF 250-X; AER break-in",
+   "access": "free"
+  },
+  {
+   "id": "src-mxa-clickers-2023",
+   "org": "Motocross Action",
+   "author": "Jody Weisel (MXA)",
+   "title": "Ask the MXperts: The Realities of Clickers",
+   "url": "https://motocrossactionmag.com/ask-the-mxperts-the-realities-of-clickers/",
+   "date": "2023-11-16",
+   "source_type": "magazine",
+   "covers": "Why clicker numbers do not transfer between bikes; sag and air pressure before clickers",
+   "access": "free"
+  },
+  {
+   "id": "src-mxa-10things-2015",
+   "org": "Motocross Action",
+   "author": "MXA staff",
+   "title": "Ten Things You Need To Know About Setting Up Your Suspension",
+   "url": "https://motocrossactionmag.com/10-things-you-need-to-know-about-setting-up-your-suspension",
+   "date": "2015-03-10",
+   "source_type": "magazine",
+   "covers": "Go big with changes, seesaw effect, HSC/LSC definitions, free sag, four causes of rear kick",
+   "access": "free"
+  },
+  {
+   "id": "src-mxa-10things-2020",
+   "org": "Motocross Action",
+   "author": "Tom Hinz",
+   "title": "Ten Things About Dialing In Your Bike's Suspension",
+   "url": "https://motocrossactionmag.com/ten-things-about-dialing-in-your-suspension",
+   "date": "2020-06-27",
+   "source_type": "magazine",
+   "covers": "Balance tells (stinkbug/chopper), sag window, oil height, 'too soft feels stiff', fork height, HSC quarter turns",
+   "access": "free"
+  },
+  {
+   "id": "src-mxa-airapparent-2021",
+   "org": "Motocross Action",
+   "author": "Jody Weisel (MXA)",
+   "title": "Ask the MXperts: The Air Apparent Is So Apparent To Everyone",
+   "url": "https://motocrossactionmag.com/ask-the-mxperts-the-air-apparent-is-so-apparent-to-everyone",
+   "date": "2021-07-14",
+   "source_type": "magazine",
+   "covers": "Air pressure is the spring, not a tuning knob; tune air forks with damping",
+   "access": "free"
+  },
+  {
+   "id": "src-mxa-xact10-2019",
+   "org": "Motocross Action",
+   "author": "MXA staff",
+   "title": "Ten Things About The New Generation Of WP XACT Forks",
+   "url": "https://motocrossactionmag.com/ten-things-about-the-new-generation-of-wp-xact-forks",
+   "date": "2019-07-13",
+   "source_type": "magazine",
+   "covers": "XACT Air, Pro Air, Pro Spring (cone valve) construction and adjusters",
+   "access": "free"
+  },
+  {
+   "id": "src-mxa-breakin-2018",
+   "org": "Motocross Action",
+   "author": "Jody Weisel (MXA)",
+   "title": "Ask the MXperts: My Friend's Identical Forks Are Better Than Mine. Why?",
+   "url": "https://motocrossactionmag.com/ask-the-mxperts-my-friends-identical-forks-are-better-than-mine-why",
+   "date": "2018-12-02",
+   "source_type": "magazine",
+   "covers": "Break-in of new forks/shocks; do not revalve before break-in",
+   "access": "free"
+  },
+  {
+   "id": "src-mxa-jbi-2014",
+   "org": "Motocross Action",
+   "author": "Tom Hinz",
+   "title": "MXA Team Tested: Ride JBI Pro Perch Fork Mod",
+   "url": "https://motocrossactionmag.com/mxa-team-tested-ride-jbi-pro-perch",
+   "date": "2014-11-05",
+   "source_type": "magazine",
+   "covers": "Identifies JBI = Ride JBI (J.B. Covington); pressure-sensitive spring-seat valve for twin-chamber forks",
+   "access": "free"
+  },
+  {
+   "id": "src-mxa-pc-linkage-2006",
+   "org": "Motocross Action",
+   "author": "MXA staff",
+   "title": "MXA Product Test: Pro Circuit KX450F Linkage and Revalve",
+   "url": "https://motocrossactionmag.com/mxa-product-test-pro-circuit-kx450f-linkage-and-revalve/",
+   "date": "2006-06-27",
+   "source_type": "magazine",
+   "covers": "Linkage vs revalve vs spring-only: which part of the stroke each fixes (old bike, principle still useful)",
+   "access": "free"
+  },
+  {
+   "id": "src-mxa-ktm450-2021",
+   "org": "Motocross Action",
+   "author": "MXA staff",
+   "title": "MXA Race Test: The Real Test Of The 2021 KTM 450SXF",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-ktm-450sxf",
+   "date": "2021-03-12",
+   "source_type": "magazine",
+   "covers": "XACT air fork internals and MXA's pressure-by-skill table, sag-ring method",
+   "access": "free"
+  },
+  {
+   "id": "src-mxa-ktm450-advice-2024",
+   "org": "Motocross Action",
+   "author": "Jody Weisel (MXA)",
+   "title": "Ask the MXperts: 2023 KTM 450SXF Suspension Advice",
+   "url": "https://motocrossactionmag.com/ask-the-mxperts-2023-ktm-450sxf-suspension-advice",
+   "date": "2024-07-25",
+   "source_type": "magazine",
+   "covers": "Air fork bottoming: sag-ring check, pressure, compression; shock spring by weight; MXA adjusts HSC first",
+   "access": "free"
+  },
+  {
+   "id": "src-mxa-bones-air-2018",
+   "org": "Motocross Action (Bare Bones column)",
+   "author": "Jim 'Bones' Bacon (Pro Circuit)",
+   "title": "Bare Bones: Air Forks Or Spring Forks? Make Up Your Mind",
+   "url": "https://motocrossactionmag.com/bare-bones-air-forks-or-spring-forks-make-up-your-mind",
+   "date": "2018-03-19",
+   "source_type": "tuner",
+   "covers": "Pro Circuit tuner's view of air vs coil forks",
+   "access": "free"
+  },
+  {
+   "id": "src-mxa-bones-static-2021",
+   "org": "Motocross Action (Bare Bones column)",
+   "author": "Jim 'Bones' Bacon (Pro Circuit)",
+   "title": "Bare Bones: How Static Sag Can Help You Choose The Right Spring Rate",
+   "url": "https://motocrossactionmag.com/bare-bones-how-static-sag-can-help-you-choose-the-right-spring-rate",
+   "date": "2021-11-20",
+   "source_type": "tuner",
+   "covers": "Static (free) sag method to judge shock spring; too-stiff / too-soft tells; rider style",
+   "access": "free"
+  },
+  {
+   "id": "src-mxa-spring-2016",
+   "org": "Motocross Action",
+   "author": "MXA staff",
+   "title": "MX Education: How To Select The Correct Rear Shock Spring",
+   "url": "https://motocrossactionmag.com/mx-education-how-to-select-the-correct-rear-shock-spring",
+   "date": "2016-11-02",
+   "source_type": "magazine",
+   "covers": "Race sag then static sag procedure for shock spring choice",
+   "access": "free"
+  },
+  {
+   "id": "src-mxa-finetune-2022",
+   "org": "Motocross Action",
+   "author": "MXA staff",
+   "title": "10 Things About Fine Tuning Your Suspension",
+   "url": "https://motocrossactionmag.com/10-things-about-fine-tuning-your-suspension/",
+   "date": "2022-10-26",
+   "source_type": "magazine",
+   "covers": "Static sag, greasing, steering head, oil level, fork air bleed, axle alignment, axle position, softer-is-stiffer",
+   "access": "free"
+  },
+  {
+   "id": "src-dr-bones-2009",
+   "org": "Dirt Rider",
+   "author": "Jimmy Lewis with Jim 'Bones' Bacon (Pro Circuit)",
+   "title": "Dirt Bike Suspension Tuning Tips",
+   "url": "https://www.dirtrider.com/features/protips/riding/141_0702_suspension_tuning",
+   "date": "2009-02-24",
+   "source_type": "magazine",
+   "covers": "How a master tuner interrogates a rider and watches the bike; one change at a time",
+   "access": "free"
+  },
+  {
+   "id": "src-vital-maeda-2016a",
+   "org": "Vital MX forum Q&A",
+   "author": "Ross Maeda (Enzo Racing, ex-KYB test rider/engineer)",
+   "title": "Vital MX Forum QNA: Ross Maeda",
+   "url": "https://www.vitalmx.com/forums/Moto-Related,20/Vital-MX-Forum-QNA-Ross-Maeda,1301328",
+   "date": "2016-04-19",
+   "source_type": "tuner",
+   "covers": "Subtank/oil-lock behaviour, air vs coil opinion, rebuild testing, progressive springs",
+   "access": "free"
+  },
+  {
+   "id": "src-vital-maeda-2016b",
+   "org": "Vital MX forum Q&A",
+   "author": "Ross Maeda (Enzo Racing)",
+   "title": "Vital MX Forum QNA: Ross Maeda (later answers)",
+   "url": "https://www.vitalmx.com/comment/2555199",
+   "date": "2016-04-20",
+   "source_type": "tuner",
+   "covers": "Spring choice by weight, LSC/rebound interaction for chop harshness, 4T vs 2T rebound, OEM valving as baseline",
+   "access": "free"
+  },
+  {
+   "id": "src-vital-robbrown-2024",
+   "org": "Vital MX",
+   "author": "Jamie Guida (interview with Rob Brown, Race Tech R&D)",
+   "title": "Industry Insights ft. Rob Brown",
+   "url": "https://www.vitalmx.com/features/industry-insights-ft-rob-brown",
+   "date": "2024-07-03",
+   "source_type": "tuner",
+   "covers": "Race Tech R&D: counter-intuitive diagnosis, wheel control vs chassis control, tuners converge",
+   "access": "free"
+  },
+  {
+   "id": "src-vital-thede-2023",
+   "org": "Vital MX",
+   "author": "Jamie Guida",
+   "title": "Paul Thede's Race Tech Suspension Seminar",
+   "url": "https://vitalmx.com/features/paul-thedes-race-tech-suspension-seminar-vital-mx-editorial",
+   "date": "2023-11-21",
+   "source_type": "magazine",
+   "covers": "Seminar overview; little concrete tuning content; 'least compromise' philosophy",
+   "access": "free"
+  },
+  {
+   "id": "src-dbt-pc-yz250fx",
+   "org": "Dirt Bike Test",
+   "author": "Trevor Hunter",
+   "title": "Pro Circuit Suspension Mod for YZ250FX",
+   "url": "https://dirtbiketest.com/product-tests/pro-circuit-suspension-mod-for-yz250fx/",
+   "date": "2017 (photos June 2017; page modified 2021-10-11)",
+   "source_type": "tester",
+   "covers": "Pro Circuit off-road respring/revalve; sag range; iteration; oil breakdown",
+   "access": "free"
+  },
+  {
+   "id": "src-dbt-yz450fx-2025",
+   "org": "Dirt Bike Test",
+   "author": "Trevor Hunter",
+   "title": "2024-2025 YZ450FX Chassis Setup Tips",
+   "url": "https://dirtbiketest.com/fresh-dirt/2024-2025-yz450fx-chassis-setup-tips/",
+   "date": "2025-03-27",
+   "source_type": "tester",
+   "covers": "Sag with shortened shock, fork height, engine mount stiffness interacting with suspension feel",
+   "access": "free"
+  },
+  {
+   "id": "src-transmoto-sand-2019",
+   "org": "Transmoto (with WP Suspension)",
+   "author": "Transmoto / WP Suspension",
+   "title": "How-To: Set-Up Suspension For Sand",
+   "url": "https://transmoto.com.au/how-to-set-up-suspension-for-sand",
+   "date": "2019-06-17",
+   "source_type": "magazine",
+   "covers": "Sand: fork height, sag, preload, AER pressure, rear clickers",
+   "access": "free"
+  },
+  {
+   "id": "src-slavens-2019",
+   "org": "Slavens Racing",
+   "author": "Slavens Racing (shop)",
+   "title": "Handling Trouble Shooting",
+   "url": "https://slavensracing.com/help/handling-trouble-shooting/",
+   "date": "2019-04-10 (last modified)",
+   "source_type": "tuner",
+   "covers": "Symptom->cause tables for fork/shock incl. side-kick vs straight-up kick; terrain clicker moves",
+   "access": "free"
+  },
+  {
+   "id": "src-factorylinks-2026",
+   "org": "Factory Links (linkage parts maker)",
+   "author": "Factory Links",
+   "title": "Your Shock May Not Be the Problem. It Could Be Your Linkage Bearings.",
+   "url": "https://shopfactorylinks.com/blogs/tech-articles/when-rear-suspension-performance-feels-off-check-the-linkage-bearings",
+   "date": "2026-05-18",
+   "source_type": "tuner",
+   "covers": "Worn/dry linkage bearings mimic damping faults (vendor article)",
+   "access": "free"
+  },
+  {
+   "id": "src-adac-2026",
+   "org": "ADAC MX Masters",
+   "author": "ADAC (unnamed)",
+   "title": "The Suspension Whisperers: In Search Of The Perfect Set-Up",
+   "url": "https://www.adac-motorsport.de/en/adac-mx-masters/news/2026/the-suspension-whisperers-in-search-of-the-perfect-set-up/",
+   "date": "2026-07-29",
+   "source_type": "magazine",
+   "covers": "Pro tuners Hendrik Nolting (PEPPER Motorsport) and Marc Odenthal (ORS Suspension): order of work, questioning, service interval",
+   "access": "free"
+  },
+  {
+   "id": "src-bikesportnz-2015",
+   "org": "Bikesport NZ",
+   "author": "Bikesportnz editor (interview with Richie Ebbett, MotoSR)",
+   "title": "The Dark Science",
+   "url": "https://www.bikesportnz.com/?p=26309",
+   "date": "2015-01-16",
+   "source_type": "tuner",
+   "covers": "Spotting an unbalanced bike from trackside, worn parts, mud, discipline differences",
+   "access": "free"
+  },
+  {
+   "id": "src-adb-airfork-2020",
+   "org": "Australasian Dirt Bike",
+   "author": "ADB (tech ed Mat Boyd)",
+   "title": "How To Set Air Fork Pressure",
+   "url": "https://adbmag.com.au/editorial/how-to-set-air-fork-pressure/",
+   "date": "2020-10-09",
+   "source_type": "magazine",
+   "covers": "Procedure for checking air fork pressure without error; bleeding outer chambers",
+   "access": "free"
+  },
+  {
+   "id": "src-vital-jbi-2025",
+   "org": "Vital MX forum",
+   "author": "various users",
+   "title": "JBI DIY vs. Race Tech Spring Conversion for KTM",
+   "url": "https://www.vitalmx.com/comment/8117826",
+   "date": "2025-07-30",
+   "source_type": "forum",
+   "covers": "Owner reports on JBI DIY air-fork kit vs Race Tech spring conversion + Gold Valve on XACT AER48",
+   "access": "free"
+  },
+  {
+   "id": "src-vital-fc-aer-2018",
+   "org": "Vital MX forum",
+   "author": "various users (FC customers)",
+   "title": "Factory Connection AER 48",
+   "url": "https://www.vitalmx.com/forums/Moto-Related,20/Factory-connection-Aer-48,1333855",
+   "date": "2018",
+   "source_type": "forum",
+   "covers": "Factory Connection AER48 kit: extra oil volume lets lower air pressure; mixed user results",
+   "access": "free"
+  },
+  {
+   "id": "src-vital-aeo-rep-2022",
+   "org": "Vital MX forum",
+   "author": "various users incl. a self-declared AEO/REP tuner",
+   "title": "AEO/REP suspension",
+   "url": "https://www.vitalmx.com/forums/bike-builds/aeo-rep-suspension",
+   "date": "2022-12",
+   "source_type": "forum",
+   "covers": "AEO/REP shop background (Mark Johnson ex-WP factory); no setup specifics",
+   "access": "free"
+  },
+  {
+   "id": "src-vital-rmz-rebound",
+   "org": "Vital MX forum",
+   "author": "various users",
+   "title": "Shock rebound help",
+   "url": "https://www.vitalmx.com/comment/3862735",
+   "date": "c. 2020 (posts dated 11/4 and 11/6; 2020-model bike)",
+   "source_type": "forum",
+   "covers": "Rear kick on seat bounce: competing diagnoses (rebound, HSC, linkage grease, nitrogen) and a whoop test",
+   "access": "free"
+  },
+  {
+   "id": "src-vital-frontend-2019",
+   "org": "Vital MX forum",
+   "author": "various users",
+   "title": "Front suspension tuning",
+   "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Front-suspension-tuning,1361030",
+   "date": "2019-06-11",
+   "source_type": "forum",
+   "covers": "Front tuck on corner entry; fork height, front sag, body position, rear spring distorting diagnosis",
+   "access": "free"
+  },
+  {
+   "id": "src-mxa-bones-video-2021",
+   "org": "Motocross Action",
+   "author": "MXA team",
+   "title": "This Week in MXA: A Lesson in Suspension with Pro Circuit's Bones Bacon",
+   "url": "https://motocrossactionmag.com/amp/this-week-in-mxa-a-lesson-in-suspension-with-pro-circuits-bones-bacon/",
+   "date": "2021-11-19",
+   "source_type": "magazine",
+   "covers": "Only the page summary readable: Pro Circuit 250 team returned to coil forks after a triple-blind test; video not transcribed",
+   "access": "free"
+  },
+  {
+   "id": "src-ridejbi",
+   "org": "Ride JBI",
+   "author": "",
+   "title": "ridejbi.com home page",
+   "url": "https://ridejbi.com",
+   "date": "",
+   "source_type": "tuner",
+   "covers": "Not read: fetch was not permitted in this session",
+   "access": "blocked"
+  },
+  {
+   "id": "src-edr-jbi",
+   "org": "Electric Dirt Riders forum",
+   "author": "",
+   "title": "Suspension - JBI? Enzo?",
+   "url": "https://electricdirtriders.com/posts/55072/",
+   "date": "",
+   "source_type": "forum",
+   "covers": "Not read: page returned a human-verification wall",
+   "access": "blocked"
+  },
+  {
+   "id": "src-teknik-clickers",
+   "org": "Teknik Motorsport (from Transmoto)",
+   "author": "",
+   "title": "Suspension DIY: Using Your Clickers",
+   "url": "https://www.teknikmotorsport.com/suspension-diy-using-your-clickers",
+   "date": "",
+   "source_type": "magazine",
+   "covers": "Not read: article body did not render, only navigation",
+   "access": "blocked"
+  }
+ ],
+ "records": [
+  {
+   "id": "tu-001",
+   "kind": "test_method",
+   "topic": "Order before touching clickers",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Write down current clicker positions, go back to the owner's-manual stock settings as the baseline, set tire pressure for the terrain, confirm the spring rate suits the rider's weight, set sag, bleed the forks, and check air pressure on air forks. Only then start clicking.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "Tire pressure 12-14 psi given as a usual starting range (2025 version); 13-14 psi in the 2021 version (src-keefer-tips-2021).",
+   "source_id": "src-keefer-tips-2025",
+   "quote": "",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-002",
+   "kind": "test_method",
+   "topic": "Keefer's test loop",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Ride 2-4 laps per setting so first impressions don't drift, hit the same lines and the same bumps every lap, change only one circuit (compression or rebound, fork or shock) at a time by 1-2 clicks, and set aside a dedicated test day. Test across a range of speeds rather than riding slowly.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "2-4 laps per setting; 1-2 clicks per change",
+   "source_id": "src-keefer-dummies-2024",
+   "quote": "",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-003",
+   "kind": "test_method",
+   "topic": "Spring, then balance, then clickers",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Pro tuners PEPPER Motorsport (Nolting) and ORS (Odenthal) both start with spring rate chosen from body weight (Odenthal adjusts for height), then set sag so the bike sits in its working position, then balance, and only then clickers; without the right spring and balance clickers achieve little. Change only a few things at a time.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-adac-2026",
+   "quote": "First the spring, then the balance, and only then the clicks.",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-004",
+   "kind": "test_method",
+   "topic": "Interrogating the rider (Bones Bacon)",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Pro Circuit's Bones Bacon pins down where on the track the problem happens, then narrows it: for a kick, is it too stiff in compression or rebounding too fast; for an impact, does the bike hit and deflect or hit and sink into the stroke. Vague complaints are useless; lock-to-lock bar swapping and a light, jittery front end are different problems. If unclear, send the rider out again to focus on that spot, and watch the bike yourself.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [
+    "deflects off the bump (too stiff / harsh) vs sinks into the stroke (too soft / not enough support)",
+    "bar swapping lock-to-lock vs light, jittery front end"
+   ],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-dr-bones-2009",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-005",
+   "kind": "test_method",
+   "topic": "Riders describe, tuners prescribe",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Ross Maeda wants riders to describe what they feel rather than request a specific change; translating feel into adjustments is the tuner's job. Video and data help gather information but are not a setup guide. Riders who are sensitive to suspension are not necessarily the fastest.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-vital-maeda-2016b",
+   "quote": "",
+   "confidence": "opinion"
+  },
+  {
+   "id": "tu-006",
+   "kind": "test_method",
+   "topic": "Asking the right questions",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "PEPPER Motorsport's Nolting says riders often can't pinpoint their problem, so his main job is asking the right questions; ORS's Odenthal reviews how the previous event went and keeps detailed records, and adjusts through race day because tracks change lap to lap.",
+   "mechanism": "",
+   "conditions": "race day; changing track",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-adac-2026",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-007",
+   "kind": "test_method",
+   "topic": "Go big, then narrow down (MXA)",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "MXA says a single click is often too small to feel; make a change big enough to notice, then narrow down. Going the wrong way still teaches something. After a session, run a back-to-back against stock, because riders tend to over-adjust.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-mxa-10things-2015",
+   "quote": "",
+   "confidence": "opinion"
+  },
+  {
+   "id": "tu-008",
+   "kind": "test_method",
+   "topic": "Know what each adjuster does",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Maeda wants riders to experiment with sag and fork tube height to learn what each adjustment does, so between motos they know whether to go two clicks stiffer or ten.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-vital-maeda-2016a",
+   "quote": "whether to go 2 clicks stiffer or 10",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-009",
+   "kind": "test_method",
+   "topic": "Reading the bike from trackside",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock",
+     "linkage",
+     "chassis"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "MotoSR's Richie Ebbett says an experienced tuner can often spot a bike not working for its rider from the sidelines: poor front grip and instability often come from an unbalanced bike (rear too high or front too low), and worn parts (sloppy linkage, worn wheel bearings) must be ruled out.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [
+    "rear sits high / front low = balance problem, not damping"
+   ],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-bikesportnz-2015",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-010",
+   "kind": "test_method",
+   "topic": "Rebound test in rolling whoops (forum)",
+   "applies_to": {
+    "components": [
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "A forum rider's method: set sag and compression first, then tune rebound in big, slow rolling whoops at medium speed in a tall gear. Trouble keeping the bike straight suggests rebound too slow; trouble keeping the front end light suggests rebound too fast.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [
+    "can't keep bike straight in whoops -> rebound too slow",
+    "front won't stay light -> rebound too fast"
+   ],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-vital-rmz-rebound",
+   "quote": "",
+   "confidence": "opinion"
+  },
+  {
+   "id": "tu-011",
+   "kind": "test_method",
+   "topic": "Rebuild baseline",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Maeda: ride the bike before a rebuild, then retest after with clean oil and new parts to learn what the service alone changed.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-vital-maeda-2016a",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-012",
+   "kind": "adjuster_effect",
+   "topic": "What a clicker is",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Keefer describes clickers as bleed adjusters that control how much oil bypasses the valving stack, comparable to a carburetor fuel screw: they trim, they do not change the stack itself.",
+   "mechanism": "adjustable bypass around the shim stack",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-keefer-dummies-2024",
+   "quote": "",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-013",
+   "kind": "adjuster_effect",
+   "topic": "Shock LSC vs HSC (Keefer)",
+   "applies_to": {
+    "components": [
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Keefer: shock low-speed compression governs rolling whoops and acceleration bumps; high-speed compression governs g-outs and jump faces and also changes ride height, similar to sag.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-keefer-adjguide-2021",
+   "quote": "",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-014",
+   "kind": "adjuster_effect",
+   "topic": "HSC as ride-height tool",
+   "applies_to": {
+    "components": [
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Keefer uses shock HSC to change ride height without changing sag: add HSC if the rear sits low on g-outs or heavy loads; add spring preload if the rear is low out of corners (the page words this as 'higher sag', which is ambiguous); back HSC out to add plushness and lower the rear if it rides high off-throttle into jumps or bumps before corners.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [
+    "rear low on g-outs -> more HSC",
+    "rear low on corner exit -> more preload",
+    "rear high off-throttle -> less HSC"
+   ],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-keefer-dummies-2024",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-015",
+   "kind": "adjuster_effect",
+   "topic": "High speed means shaft speed",
+   "applies_to": {
+    "components": [
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "MXA (Tom Hinz) stresses that high-speed compression refers to shaft speed, not bike speed. Poor reaction to g-outs or square edges: turn HSC in a quarter turn (adds damping, slightly raises rear). Harsh on g-outs: turn it out (softer, rear slightly lower).",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "quarter-turn HSC steps",
+   "source_id": "src-mxa-10things-2020",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-016",
+   "kind": "adjuster_effect",
+   "topic": "Fork air pressure effect",
+   "applies_to": {
+    "components": [
+     "air_fork"
+    ],
+    "bikes": [
+     "KTM",
+     "Husqvarna",
+     "GasGas"
+    ],
+    "generic": true
+   },
+   "claim": "More air pressure acts like a stiffer spring and holds the fork up, but too much brings harshness, lost front traction and a high front that makes the rear feel low under acceleration. Less pressure adds plushness and grip, but too little brings dive under braking, rear kick over braking bumps, pitching and frequent bottoming.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [
+    "too much air: harsh, front rides high, rear feels low on throttle",
+    "too little air: dives on brakes, pitches, rear kicks on braking bumps, bottoms more than 2-3 times a lap"
+   ],
+   "direction": "",
+   "numbers": "bottoming more than 2-3 times per lap = too little support",
+   "source_id": "src-keefer-fork-ar-2021",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-017",
+   "kind": "adjuster_effect",
+   "topic": "Fork compression effect",
+   "applies_to": {
+    "components": [
+     "fork"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Stiffer fork compression gives support in soft terrain (loam, sand, mud) but too much gives harshness, headshake and lost front grip in corners. Softer adds plushness and grip but can bring dive, pitching, knifing mid-corner and bottoming.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-keefer-fork-ar-2021",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-018",
+   "kind": "adjuster_effect",
+   "topic": "Fork rebound effect",
+   "applies_to": {
+    "components": [
+     "fork"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Faster fork rebound improves traction over bumps and straight-line stability; too fast causes headshake, a busy front end and arm pump. Slower adds firmness and mid-corner front grip; too slow causes harshness, too much dive off jump faces and a low ride attitude.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [
+    "headshake + busy + arm pump -> rebound too fast",
+    "harsh + low + dives off jump faces -> rebound too slow"
+   ],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-keefer-fork-ar-2021",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-019",
+   "kind": "adjuster_effect",
+   "topic": "Click size differs by brand",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [
+     "KYB: Yamaha, Triumph",
+     "Showa: Honda, Kawasaki",
+     "WP: KTM, Husqvarna, GasGas"
+    ],
+    "generic": true
+   },
+   "claim": "Keefer finds one compression click on Showa (and, in his 2025 tips, WP) is enough to feel, while KYB often needs two clicks per change. His 2021 fork piece instead groups WP with KYB as needing two clicks. Rebound is changed one click at a time on every brand.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "Showa 1 click; KYB 2 clicks; WP 1 click (2025) or 2 clicks (2021, src-keefer-fork-ar-2021)",
+   "source_id": "src-keefer-tips-2025",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-020",
+   "kind": "adjuster_effect",
+   "topic": "2-for-1 rule",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Keefer's optional rule for bigger changes: for every two clicks of compression change, move rebound about one click in the compensating direction (e.g., two clicks stiffer compression, one click faster rebound).",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "2 compression clicks : 1 rebound click",
+   "source_id": "src-keefer-tips-2025",
+   "quote": "",
+   "confidence": "opinion"
+  },
+  {
+   "id": "tu-021",
+   "kind": "adjuster_effect",
+   "topic": "Rebound clicker also changes low-speed compression",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Maeda: harshness over chop can come from too much low-speed compression, which governs initial fork movement even on fast hits; opening fork rebound can cut initial harshness because it also reduces effective low-speed compression. Slavens similarly notes that on most shocks stiffening rebound also stiffens compression.",
+   "mechanism": "shared bleed circuit / adjuster interaction",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-vital-maeda-2016b",
+   "quote": "",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-022",
+   "kind": "adjuster_effect",
+   "topic": "Shock spring preload vs HSC",
+   "applies_to": {
+    "components": [
+     "shock",
+     "fork",
+     "chassis"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "MXA balance fixes: a stinkbug (rear high) or unstable-at-speed feel is fixed by lowering the rear (more sag), sliding the forks down in the clamps, or reducing HSC; a chopper feel / poor turning gets the opposite.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [
+    "stinkbug, unstable at speed -> rear too high",
+    "chopper, won't turn -> front too high"
+   ],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-mxa-10things-2020",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-023",
+   "kind": "adjuster_effect",
+   "topic": "Rear axle position",
+   "applies_to": {
+    "components": [
+     "shock",
+     "chassis"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "MXA: sliding the rear axle forward makes the shock feel stiffer, and back makes it feel softer; the blocks give over 20mm of fore/aft range.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "over 20mm axle block range (generic)",
+   "source_id": "src-mxa-finetune-2022",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-024",
+   "kind": "adjuster_effect",
+   "topic": "Fork oil height",
+   "applies_to": {
+    "components": [
+     "coil_fork"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Oil height is a clicker-independent tune: more oil shrinks the air space and firms the end/mid of the stroke; less oil softens it. For harsh mid-stroke MXA removes about 10cc and keeps lowering until a bottoming problem appears.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "about 10cc steps (generic)",
+   "source_id": "src-mxa-10things-2020",
+   "quote": "",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-025",
+   "kind": "adjuster_effect",
+   "topic": "Shock bladder volume",
+   "applies_to": {
+    "components": [
+     "shock"
+    ],
+    "bikes": [
+     "2022 Yamaha YZ450F (KYB)"
+    ],
+    "generic": true
+   },
+   "claim": "On the 2022 YZ450F Enzo fitted a smaller bladder cap (less nitrogen volume), which firmed the initial feel under load and improved drive traction, after which the shock valving was retuned for big hill bumps.",
+   "mechanism": "less gas volume raises the gas-spring contribution early in the stroke",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-keefer-enzo-yz450f-2022",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-026",
+   "kind": "symptom_cause",
+   "topic": "Rear kick: four candidate causes (MXA)",
+   "applies_to": {
+    "components": [
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "MXA lists four causes of a kicking rear: too little compression (blows through and bottoms), too much compression (packs), too much rebound damping (too slow, can't recover for the next bump), too little rebound damping (springs back). Their rule of thumb: try more compression before more rebound.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [
+    "kicks",
+    "bucks"
+   ],
+   "tells": [],
+   "direction": "try more compression first",
+   "numbers": "",
+   "source_id": "src-mxa-10things-2015",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-027",
+   "kind": "symptom_cause",
+   "topic": "Rear kick: Keefer usually blames compression",
+   "applies_to": {
+    "components": [
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Keefer: bucking/kicking over bumps is often compression that is too stiff, not rebound; try 1-2 clicks softer compression first, and if that fails check body position or try faster rebound.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [
+    "bucking",
+    "kicking"
+   ],
+   "tells": [],
+   "direction": "softer compression first",
+   "numbers": "",
+   "source_id": "src-keefer-tips-2025",
+   "quote": "",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-028",
+   "kind": "symptom_cause",
+   "topic": "Side kick vs straight-up kick",
+   "applies_to": {
+    "components": [
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Slavens separates kicks by direction: the rear kicking sideways and tracking poorly over square edges, rocks and roots is usually too much compression (especially high-speed), or rebound packing; the rear kicking straight up after a g-out, jump or big compression is usually too little rebound damping (or worn internals). Fix the straight-up kick by slowing rebound two clicks at a time.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [
+    "kicks sideways over square edges -> too much (HS) compression",
+    "kicks straight up after big compression -> rebound too fast"
+   ],
+   "direction": "",
+   "numbers": "rebound in 2-click steps; HSC in 1/4-1/2 turn steps",
+   "source_id": "src-slavens-2019",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-029",
+   "kind": "symptom_cause",
+   "topic": "Keefer on side kick",
+   "applies_to": {
+    "components": [
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Keefer: a rear that kicks to the side suggests settings are too stiff (rebound or compression); change one at a time.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [
+    "sideways kick -> too stiff"
+   ],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-keefer-adjguide-2021",
+   "quote": "",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-030",
+   "kind": "symptom_cause",
+   "topic": "Kick on off-throttle decel bumps",
+   "applies_to": {
+    "components": [
+     "shock"
+    ],
+    "bikes": [
+     "Husqvarna TE300i (Kreft revalve)"
+    ],
+    "generic": true
+   },
+   "claim": "On a Kreft-revalved TE300i, a slight kick on off-throttle deceleration bumps went away when rear HSC was opened; fully open it bottomed too much, so it was wound back in quarter turns to a balance.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [
+    "kick only on off-throttle decel bumps -> HSC too firm"
+   ],
+   "direction": "",
+   "numbers": "1/4-turn HSC steps",
+   "source_id": "src-keefer-kreft-2020",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-031",
+   "kind": "symptom_cause",
+   "topic": "Kick off the jump face (forum view)",
+   "applies_to": {
+    "components": [
+     "shock"
+    ],
+    "bikes": [
+     "2020 Suzuki RM-Z250"
+    ],
+    "generic": true
+   },
+   "claim": "A forum contributor argued that kicking off a jump face is more often too little high-speed compression (shock compresses too fast and rebounds before the lip) than rebound; return to stock and add HSC.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [
+    "kick at the lip of a jump face -> possibly too little HSC"
+   ],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-vital-rmz-rebound",
+   "quote": "",
+   "confidence": "opinion"
+  },
+  {
+   "id": "tu-032",
+   "kind": "symptom_cause",
+   "topic": "Heavier spring needs more rebound",
+   "applies_to": {
+    "components": [
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Forum advice when re-springing: a heavier spring pushes back faster, so rebound may need a large change, and springs more than two rates over stock may need a revalve.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "more than two rates over stock (forum rule of thumb)",
+   "source_id": "src-vital-rmz-rebound",
+   "quote": "",
+   "confidence": "opinion"
+  },
+  {
+   "id": "tu-033",
+   "kind": "symptom_cause",
+   "topic": "Feels stiff because it is too soft",
+   "applies_to": {
+    "components": [
+     "fork"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "MXA repeatedly says a fork that feels too stiff is often too soft: it skips the plush early stroke and rides deep in the firm part, so the fix is more compression to raise ride height; softening makes it worse. A travel indicator (o-ring/elastic band on the tube) shows where it sits.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [
+    "too stiff",
+    "harsh"
+   ],
+   "tells": [
+    "o-ring shows deep travel use while rider calls it stiff"
+   ],
+   "direction": "stiffer compression",
+   "numbers": "",
+   "source_id": "src-mxa-10things-2020",
+   "quote": "",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-034",
+   "kind": "symptom_cause",
+   "topic": "Front end pushes",
+   "applies_to": {
+    "components": [
+     "fork",
+     "chassis"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Keefer links mid-corner front-end push to forks that are too high in the clamps, too stiff, or too fast in rebound; knifing/oversteer to softer compression or forks raised in the clamps; pitching, brake dive and rear kick on braking bumps to a soft or low front.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [
+    "pushes",
+    "knifes",
+    "pitches"
+   ],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-keefer-fork-ar-2021",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-035",
+   "kind": "symptom_cause",
+   "topic": "Fork rebounds up and washes front",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [
+     "2026 Yamaha YZ250F (KYB)"
+    ],
+    "generic": true
+   },
+   "claim": "On the 2026 YZ250F the fork comes up too quickly when the front is loaded in corners, washing the front out; slowing fork rebound settled it, and slowing shock rebound calmed the chassis.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "slower rebound",
+   "numbers": "",
+   "source_id": "src-keefer-250-2026",
+   "quote": "washing the front end out",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-036",
+   "kind": "symptom_cause",
+   "topic": "Front pitch and dive need low-speed support",
+   "applies_to": {
+    "components": [
+     "coil_fork"
+    ],
+    "bikes": [
+     "2022 Yamaha YZ450F (KYB)"
+    ],
+    "generic": true
+   },
+   "claim": "On the KYB coil-fork 2022 YZ450F, Enzo added low-speed compression in the revalve to stop the front pitching under throttle while leaned and diving on decel bumps; mid-stroke over big braking bumps ended up plusher, not harsher.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [
+    "pitch on throttle when leaned",
+    "dive on decel bumps"
+   ],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-keefer-enzo-yz450f-2022",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-037",
+   "kind": "symptom_cause",
+   "topic": "Tester's own misdiagnosis",
+   "applies_to": {
+    "components": [
+     "shock"
+    ],
+    "bikes": [
+     "2022 Yamaha YZ450F"
+    ],
+    "generic": true
+   },
+   "claim": "Keefer admits he first judged the YZ450F shock too firm initially, but after firming the low-speed he concluded he had it backwards: a symptom that felt like too much damping was really too little support.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-keefer-enzo-yz450f-2022",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-038",
+   "kind": "symptom_cause",
+   "topic": "Wheelspin on acceleration bumps",
+   "applies_to": {
+    "components": [
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Rear wheel spin over acceleration bumps: soften low-speed compression or speed up rebound so the tire tracks the ground.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [
+    "spinning",
+    "no drive"
+   ],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-keefer-tips-2025",
+   "quote": "",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-039",
+   "kind": "symptom_cause",
+   "topic": "Loose / blows through on jump faces",
+   "applies_to": {
+    "components": [
+     "shock",
+     "fork"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "A loose, unstable feel or blowing through the stroke on jump faces calls for stiffer (slower) rebound according to Keefer.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-keefer-tips-2025",
+   "quote": "",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-040",
+   "kind": "symptom_cause",
+   "topic": "Bottoming tolerance",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Bottoming once or twice a lap is acceptable; more than that, stiffen compression (Keefer's 2025 text specifies low-speed compression).",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "1-2 bottoms per lap acceptable",
+   "source_id": "src-keefer-tips-2025",
+   "quote": "",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-041",
+   "kind": "symptom_cause",
+   "topic": "Fork harshness vs bottoming causes",
+   "applies_to": {
+    "components": [
+     "fork"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Slavens: front harshness/deflection is usually compression too stiff (rebound packing is possible but less common); bottoming is soft spring, too little low-speed compression, low oil level, worn internals or leaking seals - the last two need service, not clicks.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [
+    "harsh -> too much compression",
+    "bottoming with leaking seals/old oil -> service, not clickers"
+   ],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-slavens-2019",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-042",
+   "kind": "symptom_cause",
+   "topic": "Understeer vs oversteer (Slavens)",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock",
+     "chassis"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Understeer can come from too much fork preload, stiff fork spring, too much fork compression, high oil level or too little shock preload; oversteer from the opposite of each, or a broken fork spring.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-slavens-2019",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-043",
+   "kind": "symptom_cause",
+   "topic": "Shock too low under acceleration",
+   "applies_to": {
+    "components": [
+     "shock",
+     "chassis"
+    ],
+    "bikes": [
+     "2021 KTM 450 SX-F (WP coil fork conversion, REP shock)"
+    ],
+    "generic": true
+   },
+   "claim": "On the REP-built 2021 KTM 450 SX-F, the rear sat too low under acceleration and raising it with preload made corner exit harsh; a 1mm-longer shock shaft kept the rear higher and let sag return to the 103-105mm range.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "1mm longer shaft; sag 103-105mm (from 98mm); pull rod 149mm vs 148.2mm stock",
+   "source_id": "src-keefer-rep-2021",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-044",
+   "kind": "symptom_cause",
+   "topic": "Empty at end of shock stroke",
+   "applies_to": {
+    "components": [
+     "shock"
+    ],
+    "bikes": [
+     "2020 Honda CRF450R (Showa)"
+    ],
+    "generic": true
+   },
+   "claim": "On the 2020 CRF450R a soft, empty feel at the end of the shock stroke on heavy g-outs and steep jump faces was fixed with a quarter turn more HSC.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "1/4 turn HSC",
+   "source_id": "src-keefer-crf450r-2019",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-045",
+   "kind": "symptom_cause",
+   "topic": "Front loses traction after landings",
+   "applies_to": {
+    "components": [
+     "fork"
+    ],
+    "bikes": [
+     "Husqvarna TE300i (XPlor, Kreft revalve)"
+    ],
+    "generic": true
+   },
+   "claim": "On the Kreft TE300i, slowing front rebound three clicks stopped the front tire losing traction after hard landings.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "3 clicks slower",
+   "source_id": "src-keefer-kreft-2020",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-046",
+   "kind": "symptom_cause",
+   "topic": "Seesaw: fork problem felt at the shock",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "MXA: forks that are too stiff pass impacts into the shock, so riders stiffen the rear when softening the fork is the real fix; a shock problem can be a fork problem and vice versa.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-mxa-10things-2015",
+   "quote": "",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-047",
+   "kind": "symptom_cause",
+   "topic": "Front tuck on corner entry (forum)",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [
+     "2011 Kawasaki KX250F"
+    ],
+    "generic": true
+   },
+   "claim": "A rider whose bars tucked on corner entry was advised to add a few clicks of fork compression and reduce front sag, check outside-peg weighting, and verify the rear spring, because a wrong rear spring makes front-end diagnosis unreliable.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [
+    "lowering forks in clamps made it wash instead -> fork height is a live lever"
+   ],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-vital-frontend-2019",
+   "quote": "",
+   "confidence": "opinion"
+  },
+  {
+   "id": "tu-048",
+   "kind": "conditions",
+   "topic": "Soft terrain",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Soft terrain with tall soft bumps wants more compression damping; big, soft, widely spaced bumps that cause kick want slower rebound.",
+   "mechanism": "",
+   "conditions": "soft, loamy, tall bumps",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-keefer-tips-2025",
+   "quote": "",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-049",
+   "kind": "conditions",
+   "topic": "Hard pack / square edges",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Hard base with close-together, square-edged bumps wants softer, faster settings, especially at speed; on hard pack Keefer speeds up rebound first and then softens compression, while keeping bottoming control.",
+   "mechanism": "",
+   "conditions": "hard pack, square edges",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-keefer-dummies-2024",
+   "quote": "",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-050",
+   "kind": "conditions",
+   "topic": "Deep sand (Keefer)",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock",
+     "chassis"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Deep sand: stiffer compression and slower rebound than stock on both ends, and for stability raise the front / lower the rear (more sag).",
+   "mechanism": "",
+   "conditions": "deep sand",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-keefer-adjguide-2021",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-051",
+   "kind": "conditions",
+   "topic": "Sand (WP via Transmoto)",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock",
+     "air_fork",
+     "chassis"
+    ],
+    "bikes": [
+     "KTM/Husqvarna WP Xplor and AER (2019 era)"
+    ],
+    "generic": true
+   },
+   "claim": "WP's sand advice: drop the fork tubes 5mm through the clamps for more trail and stability; run more sag; stiffer springs for whooped sand; on Xplor forks add preload so the front sits higher; on AER add pressure plus a couple of clicks of rebound; for deep bumps and mini g-outs stiffen rear HSC, LSC and rebound.",
+   "mechanism": "",
+   "conditions": "sand",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "forks dropped 5mm; rider sag 112-116mm (WP rule for fast sandy tracks); Xplor preload 0 -> +3mm; AER +5 psi; rear HSC +2, LSC +4, rebound +2 clicks",
+   "source_id": "src-transmoto-sand-2019",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-052",
+   "kind": "conditions",
+   "topic": "Terrain moves (Slavens)",
+   "applies_to": {
+    "components": [
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Rear terrain moves: hard pack - soften compression only; rocks/roots - soften compression several clicks and rebound 2-4; medium loam - stiffen compression 2-4, leave rebound; sand/deep loam - stiffen compression several and rebound 2-3 so the bike rides on top and stays stable in whoops.",
+   "mechanism": "",
+   "conditions": "terrain-dependent",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "as listed (clicks)",
+   "source_id": "src-slavens-2019",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-053",
+   "kind": "conditions",
+   "topic": "Mud",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "MotoSR firms the suspension for thick, heavy mud to carry the extra weight.",
+   "mechanism": "",
+   "conditions": "heavy mud",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-bikesportnz-2015",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-054",
+   "kind": "conditions",
+   "topic": "Air pressure and temperature",
+   "applies_to": {
+    "components": [
+     "air_fork"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Air fork pressure rises as the fork heats during the day, so Keefer checks it only once the fork has cooled to ambient; MXA says pressure should only be re-adjusted to offset temperature, returning to your established number.",
+   "mechanism": "",
+   "conditions": "heat",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-keefer-tips-2025",
+   "quote": "",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-055",
+   "kind": "conditions",
+   "topic": "Why clicker numbers don't transfer",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "MXA: identical bikes respond differently to the same clicker numbers because of shock temperature during a moto, oil age (oil thins with use) and shim fatigue; the same 49mm Showa fork feels different across brands because of brand-specific valving.",
+   "mechanism": "temperature, oil degradation, shim fatigue, different valving",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-mxa-clickers-2023",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-056",
+   "kind": "conditions",
+   "topic": "Shock fade when hot",
+   "applies_to": {
+    "components": [
+     "shock"
+    ],
+    "bikes": [
+     "2021 KTM 450 SX-F"
+    ],
+    "generic": true
+   },
+   "claim": "Keefer used rear damping fading once the stock shock got hot as one of his tells on the 2021 KTM 450 SX-F before the REP build.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [
+    "damping fades late in a moto"
+   ],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-keefer-rep-2021",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-057",
+   "kind": "conditions",
+   "topic": "Off-road vs MX setup",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [
+     "2017 Yamaha YZ250FX"
+    ],
+    "generic": true
+   },
+   "claim": "Pro Circuit's off-road YZ250FX setup suited smoother, tighter terrain, but race speed on rough ground exposed fork softness; MotoSR says cross-country is essentially a motocross setup while enduro setups are more compliant and can be too soft.",
+   "mechanism": "",
+   "conditions": "off-road / GP",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-dbt-pc-yz250fx",
+   "quote": "",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-058",
+   "kind": "air_fork",
+   "topic": "2 psi is a spring rate",
+   "applies_to": {
+    "components": [
+     "air_fork"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Keefer says about 2 psi on any air fork equals one full spring rate, so he adjusts in bar and stays close to stock: within 0.2-0.4 bar (2025 text) or within 1 psi (2021/2024 texts) unless the rider is very light or heavy. He uses clickers for fine tuning.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "2 psi ~ one spring rate; window 0.2-0.4 bar or 1 psi of stock (versions differ)",
+   "source_id": "src-keefer-tips-2025",
+   "quote": "2 psi is one full spring rate on any air fork",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-059",
+   "kind": "air_fork",
+   "topic": "Air is the spring, not a tuning knob",
+   "applies_to": {
+    "components": [
+     "air_fork"
+    ],
+    "bikes": [
+     "KTM",
+     "GasGas",
+     "Husqvarna"
+    ],
+    "generic": true
+   },
+   "claim": "MXA: an air fork's pressure simply replaces the coil spring. Set it once for weight, speed and track, re-adjust only for temperature, and do the tuning with the damping clicker, fork height and fore/aft balance. KTM/GasGas/Husqvarna owners overvalue air pressure.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-mxa-airapparent-2021",
+   "quote": "It is just a replacement for the coil springs on a conventional fork.",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-060",
+   "kind": "air_fork",
+   "topic": "Clickers cannot fix wrong air",
+   "applies_to": {
+    "components": [
+     "air_fork"
+    ],
+    "bikes": [
+     "WP XACT"
+    ],
+    "generic": true
+   },
+   "claim": "MXA: too much air makes an XACT fork stiff, too little lets it hang down in the stroke, and clickers can't correct either.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-mxa-clickers-2023",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-061",
+   "kind": "air_fork",
+   "topic": "Sag-ring method for air pressure",
+   "applies_to": {
+    "components": [
+     "air_fork"
+    ],
+    "bikes": [
+     "2023 KTM 450 SX-F",
+     "2021 KTM 450 SX-F"
+    ],
+    "generic": true
+   },
+   "claim": "MXA sets XACT air pressure by travel used: slide the rubber sag ring up, ride, and check. If it reaches the bottom add a couple of psi; if it stops more than 3 inches from bottom, reduce. Best feel came with the ring about 1.5 inches from bottoming; then fine-tune with compression. The rings wear and slide on their own, so MXA uses a zip-tie.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "add ~2 psi if ring fully down; reduce if >3 in from bottom; target ~1.5 in from bottoming (src-mxa-ktm450-2021)",
+   "source_id": "src-mxa-ktm450-advice-2024",
+   "quote": "",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-062",
+   "kind": "air_fork",
+   "topic": "MXA pressure by skill",
+   "applies_to": {
+    "components": [
+     "air_fork"
+    ],
+    "bikes": [
+     "2021 KTM 450 SX-F",
+     "2023 KTM 450 SX-F"
+    ],
+    "generic": true
+   },
+   "claim": "MXA published XACT pressure by rider level for the 2021 KTM 450 SX-F and for the 2023 KTM 450 SX-F, rising with skill.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "2021: Pro 10.6 bar (154 psi)+, Int 10.3 (150), Fast Novice 10.0 (145), Novice/Vet 9.6 (140). 2023 (src-mxa-ktm450-advice-2024): Expert 158, Int 152, Vet 145, Novice 138 psi",
+   "source_id": "src-mxa-ktm450-2021",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-063",
+   "kind": "air_fork",
+   "topic": "XACT construction notes",
+   "applies_to": {
+    "components": [
+     "air_fork"
+    ],
+    "bikes": [
+     "WP XACT 2019+"
+    ],
+    "generic": true
+   },
+   "claim": "XACT Air: air in the left leg, damping in the right, one Schrader valve, no separate balance chamber - pressure from the collapsing side is routed to act as a negative spring against top-out. XACT Pro Air has main and balance chambers whose difference changes ride height and plushness. XACT Pro Spring is the cone-valve coil fork.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-mxa-xact10-2019",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-064",
+   "kind": "air_fork",
+   "topic": "XACT internals that soften the spike",
+   "applies_to": {
+    "components": [
+     "air_fork"
+    ],
+    "bikes": [
+     "2021+ KTM/Husqvarna/GasGas XACT"
+    ],
+    "generic": true
+   },
+   "claim": "MXA says the newer XACT air fork uses oil-bypass notches, bypass holes in the air seal, a trampoline mid-valve shim and a bump-stop rubber to reduce the end-stroke and mid-stroke spikes, giving more coil-like tracking.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-mxa-ktm450-2021",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-065",
+   "kind": "air_fork",
+   "topic": "Raising pressure can make harshness worse",
+   "applies_to": {
+    "components": [
+     "air_fork"
+    ],
+    "bikes": [
+     "2021 KTM 450 SX-F"
+    ],
+    "generic": true
+   },
+   "claim": "On the stock AER, more air made braking-bump harshness worse while less let the fork sit too low - neither fixed it, which is why REP converted it to a WP coil fork.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [
+    "harsh mid-stroke that pressure changes can't fix -> internal/valving issue"
+   ],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-keefer-rep-2021",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-066",
+   "kind": "air_fork",
+   "topic": "Oil volume lets lower pressure",
+   "applies_to": {
+    "components": [
+     "air_fork"
+    ],
+    "bikes": [
+     "KTM AER48 (2016-2018)"
+    ],
+    "generic": true
+   },
+   "claim": "Factory Connection customers report FC runs much more oil in the AER48 damping/air side than stock, which lets the fork run lower air pressure and ride deeper in the stroke, more like a spring fork; results were mixed.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "~270cc vs 200cc stock (user-reported); example 142 psi vs 156 psi stock (user-reported)",
+   "source_id": "src-vital-fc-aer-2018",
+   "quote": "",
+   "confidence": "opinion"
+  },
+  {
+   "id": "tu-067",
+   "kind": "air_fork",
+   "topic": "Bleeding and checking pressure",
+   "applies_to": {
+    "components": [
+     "air_fork",
+     "coil_fork"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Check pressure with the front wheel off the ground (a loaded fork reads high), disconnect the pump quickly to avoid loss, never use a compressor, make small changes, and bleed the outer chambers after each ride; Keefer and MXA also bleed spring forks.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-adb-airfork-2020",
+   "quote": "",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-068",
+   "kind": "air_fork",
+   "topic": "AER break-in",
+   "applies_to": {
+    "components": [
+     "air_fork"
+    ],
+    "bikes": [
+     "2026 KTM 250 SX-F",
+     "2026 GasGas MC250"
+    ],
+    "generic": true
+   },
+   "claim": "Keefer says 2026 WP AER forks need 6-7 engine hours to break in and feel stiff or harsh until then; he runs 0.1 bar less during break-in.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "6-7 h; 10.5 bar during break-in vs 10.6 bar after",
+   "source_id": "src-keefer-250-2026",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-069",
+   "kind": "spring_selection",
+   "topic": "Static sag tells spring rate",
+   "applies_to": {
+    "components": [
+     "shock_spring"
+    ],
+    "bikes": [
+     "125/250/450 MX bikes"
+    ],
+    "generic": true
+   },
+   "claim": "Bones Bacon: set race sag, then measure static (free) sag. On big bikes 30-40mm is the rule; over 40mm means the shock spring is too stiff, under 30mm too soft. This seems backwards but is right: a soft spring needs so much preload that it barely sags under the bike's own weight.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [
+    "too stiff: >40mm static, rear won't hook up, more bump through to rider",
+    "too soft: <30mm static, sits near top-out, tops out on light braking/downhills, loose and wallowy on flat-corner acceleration"
+   ],
+   "direction": "",
+   "numbers": "30-40mm static sag (big bikes); supercross often >40mm",
+   "source_id": "src-mxa-bones-static-2021",
+   "quote": "",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-070",
+   "kind": "spring_selection",
+   "topic": "Rider style shifts static sag",
+   "applies_to": {
+    "components": [
+     "shock_spring"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Bones notes heavier or taller riders may run less static sag, and style matters: a rider who sits far forward could run more, one who moves around and steers with the rear less.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-mxa-bones-static-2021",
+   "quote": "",
+   "confidence": "opinion"
+  },
+  {
+   "id": "tu-071",
+   "kind": "spring_selection",
+   "topic": "Wrong springs = biggest mistake",
+   "applies_to": {
+    "components": [
+     "spring"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Maeda: spring rate is set mainly by rider weight (harder riders sometimes go stiffer), and the most common mistake is heavy or light riders not buying springs for their weight. Preload, spring rate and too much compression can all cause harshness over small chop.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-vital-maeda-2016b",
+   "quote": "",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-072",
+   "kind": "spring_selection",
+   "topic": "OEM springs are a compromise",
+   "applies_to": {
+    "components": [
+     "spring"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "MXA: manufacturers choose spring rates for a range of rider weights, speeds and skill; a light rider on a 450 or a heavy rider on a 250 needs springs matched to weight and level.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-mxa-10things-2020",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-073",
+   "kind": "spring_selection",
+   "topic": "Spring alone trades compression for rebound",
+   "applies_to": {
+    "components": [
+     "shock_spring",
+     "linkage"
+    ],
+    "bikes": [
+     "2006 Kawasaki KX450F"
+    ],
+    "generic": true
+   },
+   "claim": "On the 2006 KX450F a stiffer shock spring alone reduced wallow and improved compression control but made rebound control worse and didn't stop bottoming; Pro Circuit fixed early-stroke with linkage and late-stroke/rebound with a revalve.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "5.7 kg/mm test spring",
+   "source_id": "src-mxa-pc-linkage-2006",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-074",
+   "kind": "spring_selection",
+   "topic": "Example tuner springs for weight",
+   "applies_to": {
+    "components": [
+     "spring"
+    ],
+    "bikes": [
+     "2017 Yamaha YZ250FX"
+    ],
+    "generic": true
+   },
+   "claim": "Pro Circuit sprung a YZ250FX for a 157 lb off-road expert with stiffer-than-stock springs because stock was too soft for race pace.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": ".48 kg/mm fork springs, 5.4 kg/mm shock spring, 157 lb rider",
+   "source_id": "src-dbt-pc-yz250fx",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-075",
+   "kind": "spring_selection",
+   "topic": "MXA shock spring split by weight",
+   "applies_to": {
+    "components": [
+     "shock_spring"
+    ],
+    "bikes": [
+     "2023 KTM 450 SX-F"
+    ],
+    "generic": true
+   },
+   "claim": "For the 2023 KTM 450 SX-F MXA recommends the 45 N/mm shock spring at 175 lb and up and 42 N/mm under 175 lb.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "45 N/mm >=175 lb; 42 N/mm <175 lb",
+   "source_id": "src-mxa-ktm450-advice-2024",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-076",
+   "kind": "spring_selection",
+   "topic": "Progressive springs (Maeda)",
+   "applies_to": {
+    "components": [
+     "fork_spring"
+    ],
+    "bikes": [
+     "1998 Kawasaki KX"
+    ],
+    "generic": true
+   },
+   "claim": "Maeda disliked the progressive fork springs on 1998 KX models because combined with the oil-level air spring the fork dived in the first half of travel.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-vital-maeda-2016a",
+   "quote": "",
+   "confidence": "opinion"
+  },
+  {
+   "id": "tu-077",
+   "kind": "chassis_balance",
+   "topic": "Twitchy -> raise front, lower rear",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock",
+     "chassis"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "For a twitchy chassis Keefer runs the front higher in its stroke and the rear lower (higher sag number). His wording 'drop your fork height' means lowering the tubes in the clamps, which raises the front.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "front up, rear down",
+   "numbers": "",
+   "source_id": "src-keefer-tips-2025",
+   "quote": "",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-078",
+   "kind": "chassis_balance",
+   "topic": "Fork height effects",
+   "applies_to": {
+    "components": [
+     "fork",
+     "chassis"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Tubes raised in the clamps (front lower) sharpen steering and lean-angle grip but reduce stability and can knife; lowering the tubes adds stability and mid-corner support but can push and may need more sag to rebalance. MXA adds that raising the tubes puts weight on the front, effectively softening the fork, and can help headshake.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-keefer-fork-ar-2021",
+   "quote": "",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-079",
+   "kind": "chassis_balance",
+   "topic": "Peg-push balance check",
+   "applies_to": {
+    "components": [
+     "coil_fork",
+     "shock",
+     "chassis"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "MXA: with the bike off the stand, push down on a footpeg; both ends should drop about equally. Only valid on spring forks.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-mxa-10things-2020",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-080",
+   "kind": "chassis_balance",
+   "topic": "Race sag numbers",
+   "applies_to": {
+    "components": [
+     "shock",
+     "chassis"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "MXA (Hinz) puts big-bike race sag typically at 100-105mm, does not go below 105mm itself, and says above 110mm geometry changes badly; Keefer runs 105mm on Japanese bikes and 102-103mm on 2026 KTM/GasGas/Husqvarna 250s; Pro Circuit's off-road range was 102-105mm.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "100-105mm typical; >110mm geometry concern (MXA 2020); 105mm (Keefer Honda/Yamaha/Kawasaki/2026); 102-103mm (Keefer 2026 WP 250s); 102-105mm (Pro Circuit YZ250FX)",
+   "source_id": "src-mxa-10things-2020",
+   "quote": "",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-081",
+   "kind": "chassis_balance",
+   "topic": "Small changes, big effect",
+   "applies_to": {
+    "components": [
+     "chassis",
+     "fork",
+     "shock"
+    ],
+    "bikes": [
+     "2024-2025 Yamaha YZ450FX"
+    ],
+    "generic": true
+   },
+   "claim": "Dirt Bike Test found 2-3mm of sag, 2mm of fork height or an engine-mount change had large effects on a YZ450FX; perceived suspension stiffness was partly chassis rigidity, and stiffening the chassis made the suspension feel firmer.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "best 100mm sag with the shortened stock shock (~106-108mm equivalent); fork height 5mm best stock, 3mm with mount mod",
+   "source_id": "src-dbt-yz450fx-2025",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-082",
+   "kind": "chassis_balance",
+   "topic": "Shock length",
+   "applies_to": {
+    "components": [
+     "shock",
+     "linkage",
+     "chassis"
+    ],
+    "bikes": [
+     "2021 KTM 450 SX-F",
+     "2022 Yamaha YZ450F"
+    ],
+    "generic": true
+   },
+   "claim": "REP lengthened the KTM 450 shock shaft 1mm to keep the rear higher on throttle and move the linkage into a softer part of its stroke; Keefer planned a 1mm-shorter shock on the YZ450F where the rear felt tall.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "+/-1mm shaft length",
+   "source_id": "src-keefer-rep-2021",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-083",
+   "kind": "chassis_balance",
+   "topic": "Steering head as damper",
+   "applies_to": {
+    "components": [
+     "steering_head"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "MXA: if the front flops over on its own, tighten the steering-head bearing until it needs a slight push - a cheap steering damper.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-mxa-finetune-2022",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-084",
+   "kind": "chassis_balance",
+   "topic": "Linkage changes ride height and leverage",
+   "applies_to": {
+    "components": [
+     "linkage"
+    ],
+    "bikes": [
+     "2006 Kawasaki KX450F"
+    ],
+    "generic": true
+   },
+   "claim": "Pro Circuit's KX450F linkage lowered the rear (shorter dog-bone) and rotated the bell-crank into a firmer part of its progression, holding the shock up longer in the first two-thirds of travel - MXA said it felt about a spring rate stiffer there.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "dog-bone 132.5 -> 131.5mm; rear 7mm lower",
+   "source_id": "src-mxa-pc-linkage-2006",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-085",
+   "kind": "chassis_balance",
+   "topic": "Engine character affects suspension",
+   "applies_to": {
+    "components": [
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "PEPPER's Nolting says an aggressive engine strongly affects suspension so he tunes the bike as a whole; Maeda found four-strokes like slightly more rebound damping than two-strokes because their power doesn't make the suspension lock up the same way.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-adac-2026",
+   "quote": "",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-086",
+   "kind": "revalve",
+   "topic": "Revalve only after break-in",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "MXA: don't send new suspension out after one ride; break it in first, both because stock may turn out better than expected and because you need a true baseline to judge a revalve, which is not always better.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-mxa-breakin-2018",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-087",
+   "kind": "revalve",
+   "topic": "Stock settings first, revalve if needed",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Bones Bacon: good shops start from optimum stock settings and only move to internal revalving if needed; tuning someone else's revalved suspension is hard because you don't know what changed (Maeda declined to diagnose a third-party revalve for the same reason).",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-dr-bones-2009",
+   "quote": "",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-088",
+   "kind": "revalve",
+   "topic": "OEM valving is a good baseline",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Maeda: OEM valving comes from long factory testing and is often a good baseline for a wide range of riders; spring perches and pistons change performance, coatings mainly add smoothness and are hard to justify below pro level.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-vital-maeda-2016b",
+   "quote": "",
+   "confidence": "opinion"
+  },
+  {
+   "id": "tu-089",
+   "kind": "revalve",
+   "topic": "What a revalve fixed that clickers couldn't",
+   "applies_to": {
+    "components": [
+     "fork"
+    ],
+    "bikes": [
+     "2022 Yamaha YZ450F"
+    ],
+    "generic": true
+   },
+   "claim": "On the 2022 YZ450F Enzo's revalve added low-speed support (less pitch and dive) while making mid-stroke plusher - a combination clickers can't produce, since clickers move the whole bleed rather than reshaping the stack.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-keefer-enzo-yz450f-2022",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-090",
+   "kind": "revalve",
+   "topic": "Mid-stroke firmness is internal",
+   "applies_to": {
+    "components": [
+     "coil_fork"
+    ],
+    "bikes": [
+     "2026 Yamaha YZ450F (KYB)"
+    ],
+    "generic": true
+   },
+   "claim": "On the 2026 YZ450F KYB fork, Keefer found going softer on the clicker did not fix mid-stroke firmness and only lost control early in the stroke - a sign the issue is in the valving, not the bleed.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [
+    "softer clicker loses top-stroke control but mid-stroke still firm -> valving issue"
+   ],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-keefer-yz450f-2026",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-091",
+   "kind": "revalve",
+   "topic": "Revalves take iteration",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Revalves usually need follow-up: REP needed two attempts on the KTM fork, Pro Circuit several rounds on the YZ250FX (the shock ran out of rebound adjustment before settling), and MotoSR says nine in ten riders come back to fine-tune at the next ride.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-keefer-rep-pulp-2020",
+   "quote": "",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-092",
+   "kind": "revalve",
+   "topic": "Adjuster centred after revalve",
+   "applies_to": {
+    "components": [
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "A goal of a revalve is to leave the clickers working mid-range: when a shock runs out of rebound adjustment (fully in and still too fast), that's a valving problem.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [
+    "clicker at end of range and still not right -> needs internal change"
+   ],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-dbt-pc-yz250fx",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-093",
+   "kind": "revalve",
+   "topic": "Linkage vs revalve split",
+   "applies_to": {
+    "components": [
+     "linkage",
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Linkage changes address the early part of the stroke; a revalve addresses the later stroke and rebound control (Pro Circuit KX450F, 2006).",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-mxa-pc-linkage-2006",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-094",
+   "kind": "revalve",
+   "topic": "JBI Pro Perch",
+   "applies_to": {
+    "components": [
+     "coil_fork"
+    ],
+    "bikes": [
+     "2014 Honda CRF250R (Showa)"
+    ],
+    "generic": true
+   },
+   "claim": "Ride JBI's Pro Perch replaces the spring seat in twin-chamber KYB, Showa and WP forks with four pressure-sensitive shims that open slowly for a plush early stroke and further on big hits for bottoming resistance; MXA found it fixed a CRF250's blowing through without more oil or springs.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "$350 (2014)",
+   "source_id": "src-mxa-jbi-2014",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-095",
+   "kind": "revalve",
+   "topic": "Spring conversion needs valving",
+   "applies_to": {
+    "components": [
+     "air_fork"
+    ],
+    "bikes": [
+     "2024 KTM SX-F (XACT AER48)"
+    ],
+    "generic": true
+   },
+   "claim": "Forum owners comparing JBI's DIY XACT air-fork kit with a Race Tech single-side spring conversion said a spring conversion alone changes little without valving; one JBI user still found top-stroke harsh.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-vital-jbi-2025",
+   "quote": "",
+   "confidence": "opinion"
+  },
+  {
+   "id": "tu-096",
+   "kind": "revalve",
+   "topic": "Tuners converge",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Race Tech's Rob Brown says a typical tuner builds 10-20 of one model a year while Race Tech gets feedback on hundreds to thousands, and most tuners end up with similar settings, varying mainly springs.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "10-20 per model per year (typical tuner)",
+   "source_id": "src-vital-robbrown-2024",
+   "quote": "",
+   "confidence": "opinion"
+  },
+  {
+   "id": "tu-097",
+   "kind": "revalve",
+   "topic": "Kreft balanced circuits",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [
+     "Husqvarna TE300i (WP XPlor)"
+    ],
+    "generic": true
+   },
+   "claim": "Kreft rebalanced the XPlor fork legs (stock left leg does most of the work) and the shock's low/high-speed circuits, saying balanced circuits make clicker changes more effective; extra 15 ml oil per leg was used for bottoming instead of the revalve knob, preserving plushness.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "15 ml per leg",
+   "source_id": "src-keefer-kreft-2020",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-098",
+   "kind": "maintenance_effect",
+   "topic": "Break-in",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [
+     "2018 KTM 350 SX-F example"
+    ],
+    "generic": true
+   },
+   "claim": "New forks and shocks need at least two hours to break in: tight seals, bushings and piston bands, fresh oil and assembly grease (which can clog the air bypass) make them stiff; copying a broken-in bike's settings won't match.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "at least 2 hours",
+   "source_id": "src-mxa-breakin-2018",
+   "quote": "Any fork needs at least two hours of riding time to break in.",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-099",
+   "kind": "maintenance_effect",
+   "topic": "Linkage bearings mimic damping faults",
+   "applies_to": {
+    "components": [
+     "linkage"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Dry or worn linkage bearings add stiction and binding that look like shock problems: small-bump harshness, poor traction, kick over chop, sticky rebound, notchy movement. Check them before clicking or revalving. A forum rider also flagged dry linkage when chasing rebound kick.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [
+    "creaks, notchy or free play at pivots",
+    "harshness that clicker changes don't move"
+   ],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-factorylinks-2026",
+   "quote": "",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-100",
+   "kind": "maintenance_effect",
+   "topic": "Grease the pivots",
+   "applies_to": {
+    "components": [
+     "linkage",
+     "steering_head"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "MXA: grease steering head, linkage and swingarm pivot periodically because pressure washing and mud get past seals.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-mxa-finetune-2022",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-101",
+   "kind": "maintenance_effect",
+   "topic": "Fork axle alignment",
+   "applies_to": {
+    "components": [
+     "fork"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "MXA: tighten the front axle by turning the axle into the held nut, then the pinch bolts, so the legs aren't bound - binding adds friction.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-mxa-finetune-2022",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-102",
+   "kind": "maintenance_effect",
+   "topic": "Oil breakdown",
+   "applies_to": {
+    "components": [
+     "fork"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Dirt Bike Test noted stock fork oil breaks down after about 50 hours and worsens feel; MXA notes oil thins with use.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "about 50 hours (stock YZ250FX fork oil)",
+   "source_id": "src-dbt-pc-yz250fx",
+   "quote": "",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-103",
+   "kind": "maintenance_effect",
+   "topic": "Service interval (pro tuner)",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock",
+     "linkage"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "PEPPER's Nolting recommends servicing roughly every 25-35 hours; ORS's Odenthal stresses keeping suspension clean and checking linkage, bearings and seals.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "25-35 hours",
+   "source_id": "src-adac-2026",
+   "quote": "",
+   "confidence": "opinion"
+  },
+  {
+   "id": "tu-104",
+   "kind": "maintenance_effect",
+   "topic": "Swingarm pivot torque",
+   "applies_to": {
+    "components": [
+     "chassis"
+    ],
+    "bikes": [
+     "2020 Honda CRF450R"
+    ],
+    "generic": true
+   },
+   "claim": "Keefer reduced the 2020 CRF450R swingarm pivot torque from 65 to 60 ft-lb, saying it changes rear feel and traction.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "65 -> 60 ft-lb",
+   "source_id": "src-keefer-crf450r-2019",
+   "quote": "",
+   "confidence": "opinion"
+  },
+  {
+   "id": "tu-105",
+   "kind": "maintenance_effect",
+   "topic": "Nitrogen / bladder",
+   "applies_to": {
+    "components": [
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "When chasing an odd rebound kick a forum contributor suggested re-setting shock nitrogen to spec and checking for a leaking bladder.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-vital-rmz-rebound",
+   "quote": "",
+   "confidence": "opinion"
+  },
+  {
+   "id": "tu-106",
+   "kind": "principle",
+   "topic": "Wheel control, not chassis control",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Rob Brown: riders adjust to stop the chassis bouncing, but the chassis moves because it's tied to the wheel; letting the wheel move (e.g., faster rebound) settles the chassis.",
+   "mechanism": "wheel that tracks the ground transmits less to the chassis",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-vital-robbrown-2024",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-107",
+   "kind": "principle",
+   "topic": "Trust the opposite instinct",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Rob Brown's most-repeated seminar advice: if you think rebound needs to be slower, it probably needs to be faster; if the bike feels too stiff, it probably needs to be softer.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-vital-robbrown-2024",
+   "quote": "If you think your rebound needs to be slower, it probably needs to be faster.",
+   "confidence": "opinion"
+  },
+  {
+   "id": "tu-108",
+   "kind": "principle",
+   "topic": "Least compromise",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Paul Thede frames setup as minimising compromise and teaches the why behind each adjustment rather than recipes.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-vital-thede-2023",
+   "quote": "We want to create the least amount of compromise with set-up.",
+   "confidence": "opinion"
+  },
+  {
+   "id": "tu-109",
+   "kind": "principle",
+   "topic": "Consistency over brilliance",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "MXA: the goal is consistent performance everywhere on the track, not great performance in one section; note where it works and where it falters.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-mxa-10things-2020",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-110",
+   "kind": "principle",
+   "topic": "Faster riders stiffer",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Keefer: faster riders generally prefer stiffer settings for control at speed and slower riders softer for comfort; MXA's numbers are medians of riders of mixed skill and faster/heavier riders and smoother tracks will move away from them.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-keefer-tips-2025",
+   "quote": "",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-111",
+   "kind": "principle",
+   "topic": "Good tuner matters as much as parts",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Keefer's takeaway from REP: buy kit parts through an authorised tuner rather than expecting an A-kit to work out of the box.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-keefer-rep-pulp-2020",
+   "quote": "",
+   "confidence": "opinion"
+  },
+  {
+   "id": "tu-112",
+   "kind": "baseline_philosophy",
+   "topic": "Keefer baselines are for a weight band",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [
+     "2026 Yamaha YZ450F"
+    ],
+    "generic": true
+   },
+   "claim": "Keefer's published baselines are tied to a rider weight band and a model year; he warns 2025 YZ450F settings should not be carried to 2026 because of frame changes.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "fork for riders >180 lb without gear (YZ450F 2026)",
+   "source_id": "src-keefer-yz450f-2026",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-113",
+   "kind": "baseline_philosophy",
+   "topic": "Keefer 2026 250 baselines",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [
+     "2026 CRF250R",
+     "2026 KX250",
+     "2026 YZ250F",
+     "2026 KTM 250SX-F",
+     "2026 GasGas MC250",
+     "2025/26 Husqvarna FC250",
+     "2026 Triumph TF 250-X"
+    ],
+    "generic": false
+   },
+   "claim": "Keefer's 2026 250 baselines (140-180 lb band for Honda/Kawasaki): CRF250R fork 4.8, height flush-3mm, comp 9-10, reb 11; shock 50, sag 105, HSC 1-1/3, LSC 8, reb 8. KX250 fork 5.0, 3mm, 7/8; shock 54, 105, HSC 2.5, LSC 10, reb 9. YZ250F fork 4.7, 3mm, 8/5-6; shock 54, 105, HSC 1.25, LSC 9, reb 8. KTM 250SX-F 10.6 bar, 5mm, 12/10; shock 42, sag 102, HSC 1.75, LSC 10, reb 11. TF 250-X fork 4.7, 3mm, 8/8; shock 56, sag 103, HSC 1, LSC 7, reb 10.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "as in claim; springs in N/mm (page prints N/m); clicks out from full in; HSC in turns out",
+   "source_id": "src-keefer-250-2026",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-114",
+   "kind": "baseline_philosophy",
+   "topic": "Keefer 2020 CRF450R baseline",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [
+     "2020 Honda CRF450R"
+    ],
+    "generic": false
+   },
+   "claim": "For 165-190 lb riders: fork height 3mm, comp 6 out, reb 8 out; shock sag 105mm, LSC 8 out, HSC 2-3/4 turns out, reb 7 out. Stock fork was fine at about 80% pace but lacked hold-up flat out.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "as in claim",
+   "source_id": "src-keefer-crf450r-2019",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-115",
+   "kind": "baseline_philosophy",
+   "topic": "Keefer 2026 YZ450F baseline",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [
+     "2026 Yamaha YZ450F"
+    ],
+    "generic": false
+   },
+   "claim": "Fork height 2mm, comp 10 out, reb 11 out; shock sag 105mm, LSC 9-10 out, HSC 1-1/2 turns out (stock 1-1/4), reb 11 out; back HSC out if the rear lacks traction or feels harsh.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "as in claim",
+   "source_id": "src-keefer-yz450f-2026",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-116",
+   "kind": "baseline_philosophy",
+   "topic": "MXA baseline numbers are medians",
+   "applies_to": {
+    "components": [
+     "fork",
+     "shock"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "MXA's recommended clicker settings are medians from test riders of varying skill; treat them as starting points.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-mxa-clickers-2023",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-117",
+   "kind": "component_behavior",
+   "topic": "Subtank / speed-sensitive air spring",
+   "applies_to": {
+    "components": [
+     "coil_fork"
+    ],
+    "bikes": [
+     "KYB SSS/AOS (Yamaha)"
+    ],
+    "generic": true
+   },
+   "claim": "Maeda: a fork subtank gives speed-sensitive air-spring behaviour - slow strokes act like low oil height, fast strokes like high oil height because flow between chambers is restricted. It mainly adds initial plushness, not bottoming resistance, and works less well on SSS/AOS forks where high oil makes the perch-based bottoming kick in too early.",
+   "mechanism": "restricted flow between chambers",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-vital-maeda-2016a",
+   "quote": "",
+   "confidence": "single_source"
+  },
+  {
+   "id": "tu-118",
+   "kind": "component_behavior",
+   "topic": "Perches and oil locks are secondary damping",
+   "applies_to": {
+    "components": [
+     "coil_fork"
+    ],
+    "bikes": [],
+    "generic": true
+   },
+   "claim": "Maeda calls spring perches and inner tubes secondary damping that works independently of the cartridge's primary damping; each design has its own character. JBI's Pro Perch and REP/WP cone spring perch exploit this for bottoming resistance with a softer top stroke.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "",
+   "source_id": "src-vital-maeda-2016b",
+   "quote": "",
+   "confidence": "several_sources"
+  },
+  {
+   "id": "tu-119",
+   "kind": "component_behavior",
+   "topic": "Cone valve",
+   "applies_to": {
+    "components": [
+     "coil_fork"
+    ],
+    "bikes": [
+     "WP XACT Pro 7548 / cone valve"
+    ],
+    "generic": true
+   },
+   "claim": "WP's cone-valve (XACT Pro Spring) replaces the mid-valve shim stack with a tapered cone on a coil spring, giving a wide flow range so the wheel tracks even at stiffer settings; WP sells cones of different tapers and REP added a 13-degree cone between WP's 15, 11 and 8-degree options.",
+   "mechanism": "",
+   "conditions": "",
+   "rider_words": [],
+   "tells": [],
+   "direction": "",
+   "numbers": "cones 15/13/11/8 degrees (src-keefer-rep-2021)",
+   "source_id": "src-mxa-xact10-2019",
+   "quote": "",
+   "confidence": "several_sources"
+  }
+ ],
+ "disagreements": [
+  {
+   "topic": "Which events are 'high-speed' compression",
+   "positions": [
+    {
+     "source_id": "src-mxa-10things-2015",
+     "says": "Jump faces, landings, medium bumps and rollers are low-speed events; small quick stutter bumps are high-speed."
+    },
+    {
+     "source_id": "src-keefer-dummies-2024",
+     "says": "HSC governs g-outs and jump faces and ride height; LSC governs rolling whoops and acceleration bumps."
+    },
+    {
+     "source_id": "src-mxa-10things-2020",
+     "says": "High speed means shaft speed; HSC is the tool for g-outs and square edges."
+    }
+   ]
+  },
+  {
+   "topic": "How big a clicker step to take",
+   "positions": [
+    {
+     "source_id": "src-mxa-10things-2015",
+     "says": "One click is often too small to feel; go big, then narrow down."
+    },
+    {
+     "source_id": "src-keefer-tips-2025",
+     "says": "1-2 clicks at a time, one circuit at a time; KYB may need 2 clicks to feel."
+    },
+    {
+     "source_id": "src-vital-maeda-2016a",
+     "says": "Learn the bike well enough to know whether 2 clicks or 10 are needed."
+    }
+   ]
+  },
+  {
+   "topic": "Bike feels too stiff: go softer or stiffer?",
+   "positions": [
+    {
+     "source_id": "src-mxa-10things-2020",
+     "says": "Often it is too soft and riding in the harsh part of the stroke; add compression."
+    },
+    {
+     "source_id": "src-mxa-finetune-2022",
+     "says": "'Softer is stiffer': stiff-feeling forks often need to be stiffer."
+    },
+    {
+     "source_id": "src-vital-robbrown-2024",
+     "says": "If the bike feels too stiff it probably needs to be softer; if rebound seems to need slowing, it probably needs speeding up."
+    }
+   ]
+  },
+  {
+   "topic": "First move for a kicking rear end",
+   "positions": [
+    {
+     "source_id": "src-mxa-10things-2015",
+     "says": "Try more compression before more rebound."
+    },
+    {
+     "source_id": "src-keefer-tips-2025",
+     "says": "Usually compression too stiff; try 1-2 clicks softer compression first, then body position or faster rebound."
+    },
+    {
+     "source_id": "src-slavens-2019",
+     "says": "Depends on direction: sideways kick = too much (HS) compression; straight-up kick after big hits = too little rebound."
+    },
+    {
+     "source_id": "src-vital-rmz-rebound",
+     "says": "Forum view: kick off jump faces often too little HSC; others blame dry linkage or nitrogen."
+    }
+   ]
+  },
+  {
+   "topic": "Role of air pressure in tuning air forks",
+   "positions": [
+    {
+     "source_id": "src-mxa-airapparent-2021",
+     "says": "Set and forget; pressure is the spring; tune with damping."
+    },
+    {
+     "source_id": "src-keefer-adjguide-2021",
+     "says": "Stay within ~1 psi of stock (2025 text: 0.2-0.4 bar); clickers are easier."
+    },
+    {
+     "source_id": "src-mxa-ktm450-advice-2024",
+     "says": "Find the right pressure first using the sag ring, adjust a couple of psi; MXA publishes pressures well spread by skill (138-158 psi)."
+    },
+    {
+     "source_id": "src-vital-fc-aer-2018",
+     "says": "FC customers run much lower pressure with more oil to make the fork ride deeper like a coil fork."
+    }
+   ]
+  },
+  {
+   "topic": "Air forks vs coil forks",
+   "positions": [
+    {
+     "source_id": "src-mxa-bones-air-2018",
+     "says": "Good concept but too complex and inconsistent for average riders; consumers revolted back to coil."
+    },
+    {
+     "source_id": "src-vital-maeda-2016a",
+     "says": "Personally likes KYB PSF air for tunability, but air forks don't belong on production bikes because the public won't do what's needed."
+    },
+    {
+     "source_id": "src-vital-robbrown-2024",
+     "says": "A trade-off: some riders hate checking pressure, heavy riders like not buying springs."
+    },
+    {
+     "source_id": "src-mxa-ktm450-2021",
+     "says": "The newer WP XACT air fork tracks like a coil fork with little lift-off."
+    },
+    {
+     "source_id": "src-keefer-rep-2021",
+     "says": "Keefer preferred REP's WP coil conversion over the stock AER, which pressure couldn't make both plush and supportive."
+    }
+   ]
+  },
+  {
+   "topic": "Bottoming: which compression circuit",
+   "positions": [
+    {
+     "source_id": "src-keefer-tips-2025",
+     "says": "More than 1-2 bottoms a lap: stiffen (low-speed) compression."
+    },
+    {
+     "source_id": "src-mxa-ktm450-advice-2024",
+     "says": "When unsure, MXA testers adjust high-speed compression rather than low-speed."
+    },
+    {
+     "source_id": "src-keefer-kreft-2020",
+     "says": "Used fork oil volume (+15 ml) instead of more damping to keep initial plushness."
+    }
+   ]
+  },
+  {
+   "topic": "Race sag target",
+   "positions": [
+    {
+     "source_id": "src-mxa-spring-2016",
+     "says": "About 100mm as a starting point."
+    },
+    {
+     "source_id": "src-mxa-10things-2020",
+     "says": "Typically 100-105mm; MXA doesn't go below 105mm; >110mm hurts geometry."
+    },
+    {
+     "source_id": "src-keefer-250-2026",
+     "says": "105mm on Japanese 250s, 102-103mm on WP-equipped 250s."
+    },
+    {
+     "source_id": "src-transmoto-sand-2019",
+     "says": "WP: 112-116mm for fast sandy tracks."
+    },
+    {
+     "source_id": "src-dbt-yz450fx-2025",
+     "says": "100mm best with the shortened FX shock, equivalent to 106-108mm on a standard shock."
+    }
+   ]
+  },
+  {
+   "topic": "How long break-in takes",
+   "positions": [
+    {
+     "source_id": "src-mxa-breakin-2018",
+     "says": "At least two hours for any fork and shock."
+    },
+    {
+     "source_id": "src-keefer-250-2026",
+     "says": "6-7 engine hours for 2026 WP AER forks."
+    }
+   ]
+  },
+  {
+   "topic": "Rider speed and stiffness",
+   "positions": [
+    {
+     "source_id": "src-keefer-tips-2025",
+     "says": "Faster riders prefer stiffer, slower riders softer."
+    },
+    {
+     "source_id": "src-vital-maeda-2016a",
+     "says": "Sensitivity to suspension doesn't track speed; he works out each rider individually."
+    }
+   ]
+  },
+  {
+   "topic": "Brand click sensitivity (Keefer vs Keefer)",
+   "positions": [
+    {
+     "source_id": "src-keefer-tips-2025",
+     "says": "Showa and WP: one compression click is enough; KYB needs two."
+    },
+    {
+     "source_id": "src-keefer-fork-ar-2021",
+     "says": "Showa one click; WP and KYB two clicks."
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "'Suspension 4Play / 4Play' could not be identified after four targeted searches; no shop of that name surfaced. Ask the owner for a URL, location or social handle.",
+  "JBI identified as Ride JBI (ridejbi.com, J.B. Covington) but its own site could not be fetched, so its current XACT air-fork DIY kit claims are only known second-hand from forum posts.",
+  "Race Tech primary tech articles (Paul Thede columns) not retrieved; the Vital seminar write-up has almost no tuning specifics, and old.racetech.com 'Shocking' is a 1994 road-bike piece (not recorded).",
+  "No first-party tech pages found for Factory Connection, Pro Circuit (beyond Bones columns), Technical Touch USA, Smart Performance, Cannon Racecraft, GPR, AEO (other than shop background), MX-Tech, PEP.",
+  "Keefer's 'Action And Reaction (Shock)' companion article not found.",
+  "Swapmoto Live (Ross Maeda) and This Week in MXA (Bones Bacon) are video-only; no transcripts read.",
+  "Dirt Bike magazine (dirtbikemagazine.com) setup columns, Dirt Action and Racer X tech pieces were not reached.",
+  "Little second-hand material on ruts specifically, on Showa coil (Honda/Kawasaki 2021+) internals, or on Triumph TF KYB behaviour beyond Keefer baselines.",
+  "Few tuner statements on temperature effects on shock damping beyond Keefer's shock-fade tell and air-pressure heat rise."
+ ],
+ "not_done": [
+  "Fetch ridejbi.com (blocked in this session) for JBI's own air-fork kit explanation.",
+  "Find Suspension 4Play with owner-supplied details.",
+  "Race Tech: racetech.com tech articles / Suspension Bible excerpts; Paul Thede Dirt Rider / Racer X columns.",
+  "Factory Connection, Technical Touch, Smart Performance, Cannon Racecraft, GPR, MX-Tech, PEP Suspension own blogs/FAQs.",
+  "Keefer 'Action And Reaction (Shock)', more Keefer revalve tests (Factory Connection, Pro Circuit, Technical Touch).",
+  "MXA 'Ask the MXperts' items on Showa coil forks (2021+ CRF450R/KX450) and on rear kick diagnosis.",
+  "Transcripts of Swapmoto Live / Bones Bacon video lessons."
+ ]
+}

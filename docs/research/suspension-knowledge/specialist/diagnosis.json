@@ -1,0 +1,513 @@
+{
+  "slice": "Differential diagnosis and test method for motocross / cross-country suspension (2020-2027 KTM, Husqvarna, GasGas, Yamaha, Honda, Kawasaki, Triumph TF). Drawn from tuners, testers, magazines and forums, not bike makers' manuals. Researched 2026-10-15. All text is paraphrased. Numbers appear only where a source stated them. Terminology note: when Keefer and MXA say 'sag too high' they mean the rear rides high (a smaller sag figure), and 'sag too low' means the rear rides low (a larger sag figure). The app should always speak in ride-height terms to avoid confusion.",
+  "sources": [
+    {"id": "src-keefer-onoff-2025", "org": "PulpMX (Keefer Tested)", "author": "Kris Keefer", "title": "On or Off Throttle? A Cheat Code To Diagnosing Suspension Issues", "url": "https://pulpmx.com/2025/06/02/on-or-off-throttle-a-cheat-code-to-diagnosing-suspension-issues/", "date": "2025-06-02", "source_type": "tester", "covers": "Symptom tables sorted by on/off throttle and by fork/shock, causes, fixes, order of checks, fork-height limit", "access": "free web"},
+    {"id": "src-keefer-tips-2025", "org": "Keefer Inc. Testing", "author": "Kris Keefer", "title": "Helpful Suspension Set Up Tips", "url": "https://www.keeferinctesting.com/helpful-suspension-set-up-tips/", "date": "2025-02-13", "source_type": "tester", "covers": "Test method (laps, lines, click size), symptoms, terrain, air fork pressure in bar, bleeding, tire pressure", "access": "free web"},
+    {"id": "src-keefer-guide-2021", "org": "Keefer Inc. Testing", "author": "Kris Keefer", "title": "Suspension Adjustment Guide", "url": "https://www.keeferinctesting.com/?p=13314", "date": "2021-04-30", "source_type": "tester", "covers": "Pre-adjustment checks, test method, symptoms by terrain, air fork guidance in psi", "access": "free web"},
+    {"id": "src-keefer-effect-2024", "org": "Keefer Inc. Testing", "author": "Kris Keefer", "title": "The Affect Of Change (Suspension)", "url": "https://www.keeferinctesting.com/?p=28041", "date": "2024-06-01", "source_type": "tester", "covers": "Action and reaction of every adjuster (shock LSC/HSC/rebound/sag; fork air/compression/rebound/height), corner areas 1-3, brand click sensitivity", "access": "free web"},
+    {"id": "src-keefer-shock-2021", "org": "Keefer Inc. Testing", "author": "Kris Keefer", "title": "Action And Reaction (Shock)", "url": "https://www.keeferinctesting.com/?p=183", "date": "2021-07-22", "source_type": "tester", "covers": "Shock adjuster effects and over-adjustment symptoms; sag ride-height effects", "access": "free web"},
+    {"id": "src-pulpmx-mechanics-2024", "org": "PulpMX", "author": "Byline 'Steve' (content mirrors Keefer's 2024 article)", "title": "The Mechanics Of Suspension Setting Changes", "url": "https://pulpmx.com/?p=172059", "date": "2024-06-03", "source_type": "tester", "covers": "Same action/reaction framework as src-keefer-effect-2024; treat as a duplicate, not independent confirmation", "access": "free web"},
+    {"id": "src-keefer-chain-2021", "org": "Keefer Inc. Testing", "author": "Kris Keefer", "title": "KTM 450 SX-F Chain And Axle Position Tips", "url": "https://keeferinctesting.com/?p=13328", "date": "2021-09-18", "source_type": "tester", "covers": "Back-to-back test of chain slack and axle position effects on shock feel, squat and front traction", "access": "free web"},
+    {"id": "src-keefer-tire-2025", "org": "Keefer Inc. Testing", "author": "Kris Keefer", "title": "Tire Pressure Settings Bible 2025", "url": "https://www.keeferinctesting.com/tire-pressure-settings-bible-2025/", "date": "2025-04-16", "source_type": "tester", "covers": "Tire pressures by brand and compound; heat rise; heavy-rider adjustment", "access": "free web"},
+    {"id": "src-slavens", "org": "Slavens Racing", "author": "not named", "title": "Handling Trouble Shooting", "url": "https://slavensracing.com/help/handling-trouble-shooting/", "date": "2019-04-10 (last modified, from page metadata)", "source_type": "tuner", "covers": "Front and rear symptom-cause tables, kick direction tells, terrain-based shock changes, adjustment step sizes", "access": "free web"},
+    {"id": "src-mxa-packing-2021", "org": "Motocross Action Magazine (Bare Bones column)", "author": "Bones Bacon (Pro Circuit suspension); page metadata lists Jody Weisel", "title": "Bare Bones: Why Your Suspension Is Packing & What To Do About It", "url": "https://motocrossactionmag.com/bare-bones-why-your-suspension-is-is-packing-what-to-do-about-it", "date": "2021-03-01", "source_type": "tuner", "covers": "What packing is, packing vs too soft vs too stiff, fix order", "access": "free web"},
+    {"id": "src-mxa-headshake-2025", "org": "Motocross Action Magazine", "author": "Bones Bacon; page metadata lists Jody Weisel", "title": "Bones Bacon On How To Deal With The Evils Of Head Shake", "url": "https://motocrossactionmag.com/bones-bacon-on-how-to-deal-with-the-evils-of-head-shake", "date": "2025-10-22", "source_type": "tuner", "covers": "Headshake causes split by acceleration vs braking; steering head bearing check; fix order", "access": "free web"},
+    {"id": "src-mxa-expert-2024", "org": "Motocross Action Magazine", "author": "Bones Bacon; page metadata lists Jody Weisel", "title": "Bare Bones: I Am An Expert (Or I Used To Be)", "url": "https://motocrossactionmag.com/bare-bones-i-am-an-expert-or-i-used-to-be", "date": "2024-09-04", "source_type": "tuner", "covers": "Matching setup to rider speed, confidence, age, weight; supercross vs outdoor setups", "access": "free web"},
+    {"id": "src-mxa-20steps-2013", "org": "Motocross Action Magazine", "author": "MXA wrecking crew", "title": "MXA Wrench Tech: How To Dial In Your Shock In 20 Easy Steps", "url": "https://motocrossactionmag.com/mxa-wrench-tech-how-to-dial-in-your-shock-in-20-easy-steps", "date": "2013-05-14", "source_type": "magazine", "covers": "Race and free sag measurement, compression-then-rebound test procedure, kicking, HSC ride height, heat/oil/spring changes", "access": "free web"},
+    {"id": "src-mxa-10sag", "org": "Motocross Action Magazine", "author": "not stated", "title": "Ten Things About Setting Race And Free Sag", "url": "https://motocrossactionmag.com/ten-things-about-race-and-free-sag", "date": "undated (photo captions reference 2019 and 2023)", "source_type": "magazine", "covers": "Sag measurement, effects of rear ride height on turning and stability, fork height, track-specific sag, shock break-in", "access": "free web"},
+    {"id": "src-mxa-finetune-2022", "org": "Motocross Action Magazine", "author": "MXA staff", "title": "10 Things About Fine Tuning Your Suspension", "url": "https://motocrossactionmag.com/10-things-about-fine-tuning-your-suspension/", "date": "2022-10-26", "source_type": "magazine", "covers": "Sag method, static sag spring check, greasing, steering head, tire pressure, fork air bleed, axle alignment, axle position, too-soft-feels-stiff", "access": "free web"},
+    {"id": "src-mxa-dialing-2020", "org": "Motocross Action Magazine", "author": "Tom Hinz", "title": "Ten Things About Dialing In Your Bike's Suspension", "url": "https://motocrossactionmag.com/ten-things-about-dialing-in-your-suspension", "date": "2020-06-27", "source_type": "magazine", "covers": "Balance (stinkbug/chopper), peg-press balance test, sag range, oil level, butterfly effect, too-soft-feels-stiff, fork height, HSC", "access": "free web"},
+    {"id": "src-mxa-setup-2015", "org": "Motocross Action Magazine", "author": "MXA staff", "title": "Ten Things You Need To Know About Setting Up Your Suspension", "url": "https://motocrossactionmag.com/10-things-you-need-to-know-about-setting-up-your-suspension", "date": "2015-03-10 (updated 2019-02-14)", "source_type": "magazine", "covers": "Seesaw effect, high vs low speed, stroke position, free sag, four causes of kicking, rebound judgement, back-to-back vs stock", "access": "free web"},
+    {"id": "src-mxa-clickers-2023", "org": "Motocross Action Magazine (Ask the MXperts)", "author": "Jody Weisel", "title": "Ask The MXperts: The Realities Of Clickers", "url": "https://motocrossactionmag.com/ask-the-mxperts-the-realities-of-clickers/", "date": "2023-11-16", "source_type": "magazine", "covers": "What clickers can and cannot fix; sag and air pressure come first; drift from heat, oil, shim fatigue", "access": "free web"},
+    {"id": "src-mxa-heat-2025", "org": "Motocross Action Magazine", "author": "MXA staff", "title": "10 Things You Need To Know About Heat Buildup", "url": "https://motocrossactionmag.com/10-things-you-need-to-know-about-heat-buildup", "date": "2025-08-20", "source_type": "magazine", "covers": "Shock oil overheating and fade; tire pressure rise from heat", "access": "free web"},
+    {"id": "src-mxa-airheat-2022", "org": "Motocross Action Magazine (Ask the MXperts)", "author": "Jody Weisel", "title": "Ask The MXperts: Air Forks & Shocks Get Stiffer When Heat Is Applied", "url": "https://motocrossactionmag.com/ask-the-mxperts-air-forks-shocks-get-stiffer-when-heat-is-applied", "date": "2022-08-11", "source_type": "magazine", "covers": "Fork air pressure rise with heat; compensating by setting low", "access": "free web"},
+    {"id": "src-mxa-oilheight-2018", "org": "Motocross Action Magazine", "author": "MXA staff", "title": "How To Fix Your Forks With Fork Oil Height Tricks", "url": "https://motocrossactionmag.com/how-to-fix-your-forks-with-fork-oil-height-tricks", "date": "2018-10-12", "source_type": "magazine", "covers": "Which part of the stroke oil height changes; mid-stroke harshness vs bottoming", "access": "free web"},
+    {"id": "src-mxa-forks-2020", "org": "Motocross Action Magazine", "author": "MXA staff", "title": "Ten Things About Motocross Forks", "url": "https://motocrossactionmag.com/ten-things-about-motocross-forks", "date": "2020-12-17", "source_type": "magazine", "covers": "Rebound symptom descriptions, too-soft forks riding low, bleeding trapped air, oil level, balance, tune stock before revalve", "access": "free web"},
+    {"id": "src-mxa-tire-2012", "org": "Motocross Action Magazine", "author": "MXA staff", "title": "10 Things You Need To Know About Tire Air Pressure", "url": "https://motocrossactionmag.com/10-things-you-need-to-know-about-tire-air-pressure", "date": "2012-01-26 (updated 2019-02-14)", "source_type": "magazine", "covers": "How tire pressure changes grip and wallow; rim-clean tell; terrain pressures; heat rise per lap", "access": "free web"},
+    {"id": "src-mxa-skf-2015", "org": "Motocross Action Magazine", "author": "Jody Weisel", "title": "Team Tested: SKF Fork Seals/Dust Wipers", "url": "https://motocrossactionmag.com/mxa-team-tested-skf-fork-sealsdust-wipers/", "date": "2015-05-10 (updated 2017-05-10)", "source_type": "magazine", "covers": "Seal stiction is worst on small bumps and light loads (product test, informal)", "access": "free web"},
+    {"id": "src-racetech-sag", "org": "Race Tech", "author": "not named", "title": "Setting Sag the Race Tech Way", "url": "https://racetech.com/sag", "date": "2024-01-20 (last modified)", "source_type": "tuner", "covers": "Three-measurement sag method that cancels friction; stiction zone as a linkage-health check; common measuring errors", "access": "free web"},
+    {"id": "src-racetech-forkinstall", "org": "Race Tech", "author": "not named", "title": "Fork Installation", "url": "https://racetech.com/fork-installation/", "date": "2024-02-03 (last modified); older copy at https://old.racetech.com/page/title/Fork Installation", "source_type": "tuner", "covers": "Fork alignment and axle pinch sequence, burr check, clamp torque, fork guard bolt length, misalignment as top cause of harshness", "access": "free web"},
+    {"id": "src-adb-airfork-2020", "org": "Australasian Dirt Bike Magazine (ADBMAG)", "author": "ADBMAG staff", "title": "How To Set Air Fork Pressure", "url": "https://adbmag.com.au/editorial/how-to-set-air-fork-pressure/", "date": "2020-10-09", "source_type": "magazine", "covers": "Air fork pressure check procedure, error from compressed fork, slow pump removal, bleeding outer chambers", "access": "free web"},
+    {"id": "src-transmoto-sand-2019", "org": "Transmoto (advice credited to WP Suspension)", "author": "Transmoto / WP Suspension", "title": "How-To: Set-Up Suspension For Sand", "url": "https://transmoto.com.au/how-to-set-up-suspension-for-sand", "date": "2019-06-17", "source_type": "magazine", "covers": "Sand setup: sag, fork height, preload, springs, air fork pressure, clicker changes", "access": "free web"},
+    {"id": "src-redbull-2023", "org": "Red Bull", "author": "Natalie Hamingson", "title": "Motocross suspension setup guide", "url": "https://redbull.com/us-en/motocross-suspension-setup-guide", "date": "2023-11-07", "source_type": "magazine", "covers": "General test method, headshake causes, axle position, hard-soil setup (general-audience, low depth)", "access": "free web"},
+    {"id": "src-racerx-ping-2019", "org": "Racer X Online (Ask Ping)", "author": "Steve Matthes", "title": "Ask Ping (sag, mud)", "url": "https://racerxonline.com/2019/08/27/ask-ping", "date": "2019-08-27", "source_type": "magazine", "covers": "Mud setup; consistency of sag measurement", "access": "free web"},
+    {"id": "src-racerx-ping-2017", "org": "Racer X Online (Ask Ping)", "author": "Steve Matthes", "title": "Ask Ping (clickers)", "url": "https://racerxonline.com/2017/07/07/ask-ping", "date": "2017-07-07", "source_type": "magazine", "covers": "Clicker test method; harsh fork often too soft; HSC as ride height", "access": "free web"},
+    {"id": "src-factorylinks-2026", "org": "Factory Links (linkage bearing vendor)", "author": "not named", "title": "When Rear Suspension Performance Feels Off, Check the Linkage Bearings", "url": "https://shopfactorylinks.com/blogs/tech-articles/when-rear-suspension-performance-feels-off-check-the-linkage-bearings", "date": "2026-05-18", "source_type": "maker", "covers": "What worn or dry linkage bearings feel like. The vendor sells bearings, so weigh it with that interest in mind.", "access": "free web"},
+    {"id": "src-dbt-bleeders-2021", "org": "Dirt Bike Test", "author": "Jimmy Lewis", "title": "Motion Pro Micro Bleeders", "url": "https://dirtbiketest.com/product-tests/motion-pro-micro-bleeders/", "date": "2021-10-11 (last modified)", "source_type": "tester", "covers": "Why spring forks build air pressure and feel harsh; bleed before every ride", "access": "free web"},
+    {"id": "src-bikerumor-2018", "org": "Bikerumor", "author": "Tyler Benedict", "title": "Suspension Tech: How Much Air Do You Lose Disconnecting a Shock Pump?", "url": "https://bikerumor.com/2018/10/11/suspension-tech-how-much-air-do-you-lose-disconnecting-a-shock-pump/", "date": "2018-10-11", "source_type": "magazine", "covers": "Gauge reading error from charging the hose. Mountain-bike context, applied by analogy.", "access": "free web"},
+    {"id": "src-vital-tuck-2020", "org": "Vital MX forum", "author": "lucas51 (OP), CarlinoJoeVideo, theycallmeebryan, Leeham, FFDan, AJ565 and others", "title": "Front end tuck", "url": "https://www.vitalmx.com/comment/3835500", "date": "2020-09-05 to 2020-09-20", "source_type": "forum", "covers": "Front tuck on a 2018 KTM 350SXF after the axle moved forward; competing fixes", "access": "free web"},
+    {"id": "src-vital-ruts-2018", "org": "Vital MX forum", "author": "Braaaphole (OP), SoCalMX70, jchek779, Skypig, Meister, KurtJ99 and others", "title": "Bike climbs out of ruts", "url": "https://www.vitalmx.com/forums/Moto-Related,20/Bike-climbs-out-of-ruts,1338496", "date": "2018-04-24", "source_type": "forum", "covers": "KTM 350 AER climbing out of ruts; technique vs rebound vs sag vs tires", "access": "free web"},
+    {"id": "src-vital-forks-2010", "org": "Vital MX forum", "author": "DrSweden (OP), nytsmaC, CamP, onenastynotch, Highsider, FIREfish148 and others", "title": "I went from loving to hating my forks (Showa 47mm)", "url": "https://www.vitalmx.com/forums/Race-Shop,42/I-went-from-loving-to-hating-my-forks-How-do-I-make-them-good-again-Showa-47-mm,1052202", "date": "2010-09-04 to 2010-09-27", "source_type": "forum", "covers": "Forks harsh after a crash: bent parts, clamp torque, pinch sequence, cartridge seal leak, oil", "access": "free web (page 1 of 2 read)"},
+    {"id": "src-vital-fc-2007", "org": "Vital MX (feature on Factory Connection)", "author": "Mark Rodgers, Factory Connection West Coast Sales Manager (interviewed)", "title": "Vital MX Insider: Factory Connection West", "url": "https://www.vitalmx.com/features/Vital-MX-Insider-Factory-Connection-West,1487", "date": "2007-06-07", "source_type": "tuner", "covers": "Service interval; heat from long motos and exhaust near the shock", "access": "free web"}
+  ],
+  "symptoms": [
+    {
+      "id": "dx-front-push",
+      "rider_words": ["front pushes", "front washes out", "won't turn in", "plows in flat turns", "front feels vague"],
+      "where": "Corner entry to mid-corner (Keefer's area 2), flat or slick turns, and on the gas at the exit",
+      "causes": [
+        {"cause": "Rear riding too low (soft shock HSC, or too much sag), which takes weight off the front", "tells": ["Pushes on the gas or when driving through the turn", "Rear feels low or squats out of corners", "Bike feels stable on straights but lazy to turn"], "first_change": "Stiffen shock high-speed compression slightly. If that is not enough, take a little sag out (more preload).", "why": "HSC holds the rear up under load, putting weight back on the front. Keefer usually tries HSC before sag.", "source_ids": ["src-keefer-onoff-2025", "src-keefer-effect-2024", "src-keefer-shock-2021", "src-mxa-10sag"]},
+        {"cause": "Fork too stiff (compression or air), so it rides high and does not settle into the turn", "tells": ["Push happens off the gas at entry (area 2)", "Fork also deflects and feels harsh through the bars", "Front feels high"], "first_change": "Soften fork compression (Keefer says two clicks for WP/KYB, one click for Showa), or lower air pressure slightly on an air fork", "why": "A softer fork sinks into the stroke at entry, which steepens the effective steering angle and loads the tire", "source_ids": ["src-keefer-effect-2024", "src-keefer-onoff-2025"]},
+        {"cause": "Forks set low in the clamps (dropped), which slows the steering", "tells": ["Stable on the gas and at speed, but slow side to side", "Pushes in area 2", "Front feels tall"], "first_change": "Raise the forks a few mm in the clamps", "why": "Raising the fork tubes steepens the head angle and moves weight forward", "source_ids": ["src-keefer-effect-2024", "src-mxa-dialing-2020"]},
+        {"cause": "Fork rebound too fast, so the front rises and climbs out of ruts", "tells": ["Front climbs out of ruts or pushes in area 2", "Busy front end", "Possible headshake on the gas"], "first_change": "Slow fork rebound one click at a time", "why": "Slower rebound keeps the front settled in the stroke through the turn", "source_ids": ["src-keefer-effect-2024", "src-vital-ruts-2018"]}
+      ],
+      "check_first": [
+        {"check": "Front tire pressure and wear. If pressure is low, the sidewall rolls and the front loses grip in turns. The tell is more than about 4mm of rim clean.", "why": "A tire fault reads as a fork or geometry problem", "source_ids": ["src-mxa-tire-2012", "src-mxa-finetune-2022"]},
+        {"check": "Measure rear sag correctly before touching any clicker", "why": "Clickers cannot fix the wrong ride height", "source_ids": ["src-mxa-clickers-2023", "src-keefer-onoff-2025"]}
+      ],
+      "common_wrong_move": "Making large fork-height changes to fix push. Keefer calls more than 5-7mm of fork-height change excessive, and Race Tech says lowering the front end usually does not improve turning.",
+      "source_ids": ["src-keefer-onoff-2025", "src-keefer-effect-2024", "src-mxa-10sag", "src-racetech-forkinstall"]
+    },
+    {
+      "id": "dx-front-tuck",
+      "rider_words": ["front tucks", "front knifes", "front falls in", "oversteer", "front bites too hard then lets go"],
+      "where": "Corner entry, during or just after braking, and on lean",
+      "causes": [
+        {"cause": "Fork too soft (low air or soft compression), so it dives under braking", "tells": ["Happens on the brakes at entry", "Front feels low", "Also bottoms or dives on braking bumps"], "first_change": "Stiffen fork compression first (or add air on an air fork). If the front still feels low, slide the forks down in the clamps a little.", "why": "Holds the fork up in its stroke so the steering does not steepen suddenly. Keefer's stated order is compression first, then fork height.", "source_ids": ["src-keefer-onoff-2025", "src-keefer-effect-2024", "src-vital-tuck-2020"]},
+        {"cause": "Shock LSC too soft, so the rear unloads abruptly when you chop the throttle and pitches the bike nose-down", "tells": ["Off throttle at entry", "Abrupt weight transfer when chopping throttle", "Rear kicks on braking bumps"], "first_change": "Stiffen shock low-speed compression", "why": "Slows the pitch from rear to front on deceleration", "source_ids": ["src-keefer-effect-2024", "src-keefer-shock-2021"]},
+        {"cause": "Rear riding too high (too little sag or shock HSC too stiff): a front-low, rear-high stinkbug attitude", "tells": ["Bike feels nose-down even on straights", "Rear harsh or deflects on square edges", "Lands nose-heavy off jumps"], "first_change": "Add sag (lower the rear) or soften shock HSC", "why": "Restores the front-to-rear balance and slows the steering", "source_ids": ["src-keefer-effect-2024", "src-mxa-dialing-2020", "src-mxa-10sag"]},
+        {"cause": "Forks raised too far in the clamps", "tells": ["Turns sharply but knifes", "Less stable at speed"], "first_change": "Slide the forks down a few mm", "why": "Slackens the steering geometry", "source_ids": ["src-keefer-effect-2024"]},
+        {"cause": "Grabby front brake bite or shortened wheelbase after a gearing or axle change (forum reports, disputed)", "tells": ["Started after a gearing or rear axle change, or happens only on hard initial brake application"], "first_change": "Return the axle to the previous position, or check the brake setup", "why": "Forum users reported that axle position and brake bite changed tuck. They disagreed on which way weight moves.", "source_ids": ["src-vital-tuck-2020"]}
+      ],
+      "check_first": [
+        {"check": "Confirm the spring or air rate suits the rider's weight, and measure sag correctly", "why": "An under-sprung front dives no matter where the clickers are set", "source_ids": ["src-vital-tuck-2020", "src-mxa-clickers-2023"]},
+        {"check": "Note whether the axle position or gearing changed recently", "why": "MXA says the rear axle position changes how stiff the shock feels and changes the chassis", "source_ids": ["src-mxa-finetune-2022", "src-vital-tuck-2020"]}
+      ],
+      "common_wrong_move": "Softening a fork that feels harsh while it dives. MXA and Ping both warn that a too-soft fork feels stiff because it rides deep in the stroke.",
+      "source_ids": ["src-keefer-onoff-2025", "src-keefer-effect-2024", "src-vital-tuck-2020", "src-mxa-finetune-2022"]
+    },
+    {
+      "id": "dx-headshake",
+      "rider_words": ["headshake", "bars shake", "front dances", "tank slapper", "nervous at speed"],
+      "where": "Fast straights through bumps, on the gas out of corners, or under braking into corners",
+      "causes": [
+        {"cause": "Loose steering head bearings", "tells": ["Happens everywhere, not tied to one zone", "With the front wheel off the ground, the bars fall to the stop on their own and bounce"], "first_change": "Adjust the head bearings (Bones: to the loosest acceptable setting; loosen the bottom clamp bolts, not the top ones, so fork height stays the same)", "why": "Free play lets the front oscillate", "source_ids": ["src-mxa-headshake-2025", "src-keefer-onoff-2025"]},
+        {"cause": "Fork too stiff, or fork rebound too slow, with a light front on acceleration", "tells": ["On the throttle", "Front wheel skips over bumps, then dances"], "first_change": "Soften fork compression or speed up fork rebound", "why": "Lets the front wheel follow the ground while it is lightly loaded", "source_ids": ["src-mxa-headshake-2025", "src-keefer-onoff-2025", "src-keefer-effect-2024", "src-redbull-2023"]},
+        {"cause": "Fork rebound too fast", "tells": ["On the throttle", "Busy front end"], "first_change": "Slow fork rebound", "why": "Keefer lists headshake on the gas among the effects of rebound that is too fast. This competes with the 'too slow' cause above, so the app should test both directions.", "source_ids": ["src-keefer-effect-2024"]},
+        {"cause": "Rear too low or soft, which makes the front light", "tells": ["Turning through bumps", "Rear feels low or squats"], "first_change": "Raise the rear (less sag) if the fork changes do not cure it", "why": "Puts weight back on the front", "source_ids": ["src-mxa-headshake-2025", "src-redbull-2023"]},
+        {"cause": "Rear too high, which puts too much weight on the front at speed", "tells": ["At speed on rough straights", "Rear feels high or stinkbug"], "first_change": "Add sag (lower the rear)", "why": "MXA says a high rear shifts weight forward and raises headshake risk at speed", "source_ids": ["src-mxa-10sag"]},
+        {"cause": "Fork dives under braking into the firm part of the stroke", "tells": ["On the brakes", "Fork low in the stroke"], "first_change": "Control dive (stiffer fork compression or support). Bones names the cause but gives no specific fix.", "why": "The steep head angle plus firm mid-stroke valving sets off the shake", "source_ids": ["src-mxa-headshake-2025"]}
+      ],
+      "check_first": [
+        {"check": "Steering head bearing drop test with the front wheel off the ground", "why": "This is the mechanical cause, and it is free to rule out", "source_ids": ["src-mxa-headshake-2025", "src-keefer-onoff-2025", "src-mxa-finetune-2022"]},
+        {"check": "Ask whether it happens on the gas or on the brakes", "why": "The answer splits the suspension causes into separate branches", "source_ids": ["src-mxa-headshake-2025"]}
+      ],
+      "common_wrong_move": "Over-tightening the head bearings as a steering damper without first finding out whether the shake is an acceleration problem or a braking problem",
+      "source_ids": ["src-mxa-headshake-2025", "src-keefer-onoff-2025"]
+    },
+    {
+      "id": "dx-rear-kick",
+      "rider_words": ["rear kicks", "rear bucks", "rear kicks sideways", "back end steps out", "kicks me over the bars"],
+      "where": "Braking bumps, jump faces and lips, G-outs, square edges, rocks, roots",
+      "causes": [
+        {"cause": "Rebound too fast", "tells": ["Kicks straight up", "After a G-out, a jump face or a big compression (the big single hit)"], "first_change": "Slow rebound, two clicks at a time", "why": "Controls how fast the stored spring energy is released", "source_ids": ["src-slavens", "src-mxa-20steps-2013"]},
+        {"cause": "Compression too stiff, especially HSC", "tells": ["Kicks sideways or tracks poorly", "On square edges, rocks and roots", "Harsh through the feet"], "first_change": "Soften compression (1-2 clicks first, per Keefer). Slavens says compression problems often need internal work.", "why": "The shock cannot absorb the hit, so the bump drives the chassis up instead", "source_ids": ["src-slavens", "src-keefer-tips-2025", "src-keefer-guide-2021", "src-keefer-effect-2024"]},
+        {"cause": "Rebound too slow (packing)", "tells": ["The first bump is fine, then it gets worse through a series", "Rear sits lower with each hit"], "first_change": "Speed up rebound a couple of clicks", "why": "The shock returns before the next bump", "source_ids": ["src-slavens", "src-mxa-setup-2015", "src-mxa-packing-2021"]},
+        {"cause": "Compression too soft, so it blows through the stroke and bounces off the bottom", "tells": ["Uses all its travel on the hit", "Also bottoms"], "first_change": "Add compression (MXA's rule of thumb: try more compression before more rebound)", "why": "Keeps the shock out of the end of its stroke", "source_ids": ["src-mxa-setup-2015"]},
+        {"cause": "Shock LSC too soft, or fork too soft (low front lets the rear kick on braking bumps)", "tells": ["Kicks on braking bumps while off the throttle", "Fork dives"], "first_change": "Stiffen shock LSC, or stiffen the fork (compression or air)", "why": "Keefer links a low front and a soft-LSC rear to rear kick on braking bumps", "source_ids": ["src-keefer-effect-2024", "src-keefer-shock-2021"]}
+      ],
+      "check_first": [
+        {"check": "Linkage bearing condition: notchiness, play, creaks", "why": "A vendor reports that worn bearings cause sideways kick over chop and square edges", "source_ids": ["src-factorylinks-2026"]},
+        {"check": "Have a helper watch the rear wheel over a jump or whoops", "why": "Telling 'too fast' from 'too slow' rebound often needs an outside observer", "source_ids": ["src-mxa-20steps-2013"]}
+      ],
+      "common_wrong_move": "Always slowing rebound. MXA lists four different causes of kick, and slow rebound kicks as much as fast rebound.",
+      "source_ids": ["src-slavens", "src-mxa-setup-2015", "src-mxa-20steps-2013", "src-keefer-tips-2025"]
+    },
+    {
+      "id": "dx-rear-squat",
+      "rider_words": ["rear squats", "rear wallows", "rear sits down out of corners", "low rear", "pitches a lot"],
+      "where": "Corner exits on the gas, rollers, acceleration bumps",
+      "causes": [
+        {"cause": "Shock HSC too soft", "tells": ["Low rear in motion", "Wallows through rollers and waves", "Front pushes"], "first_change": "Turn HSC in (MXA: a quarter turn)", "why": "HSC sets the rear ride height under load", "source_ids": ["src-mxa-20steps-2013", "src-mxa-dialing-2020", "src-keefer-effect-2024"]},
+        {"cause": "Shock LSC too soft", "tells": ["Pitches on and off throttle", "Wallows through rollers", "Bottoms more than 2-3 times a lap"], "first_change": "Stiffen LSC 1 click", "why": "A flatter ride with less pitching", "source_ids": ["src-keefer-effect-2024", "src-mxa-20steps-2013"]},
+        {"cause": "Rear riding too low (too much sag)", "tells": ["Rear feels low even at walking speed", "Harsh out of corners"], "first_change": "Raise the rear slightly (less sag)", "why": "Restores the ride height", "source_ids": ["src-keefer-onoff-2025"]},
+        {"cause": "Rebound too fast", "tells": ["Dives on acceleration bumps", "Moves side to side at slight lean"], "first_change": "Slow rebound", "why": "Keefer lists diving on acceleration bumps as a symptom of rebound that is too fast", "source_ids": ["src-keefer-effect-2024", "src-keefer-shock-2021"]},
+        {"cause": "Long wheelbase (axle far back)", "tells": ["Squats on acceleration and the front is light out of corners"], "first_change": "Shorten the wheelbase", "why": "In Keefer's KTM test, a shorter swingarm length reduced squat and improved front traction out of corners", "source_ids": ["src-keefer-chain-2021", "src-mxa-finetune-2022"]}
+      ],
+      "check_first": [
+        {"check": "Late in the moto? Suspect shock oil heat fade", "why": "A shock holds little oil and fades badly when hot", "source_ids": ["src-mxa-heat-2025", "src-mxa-20steps-2013"]},
+        {"check": "Rear tire pressure. If it is too low, the bike wallows through bumps.", "why": "A tire fault mimics soft damping", "source_ids": ["src-mxa-tire-2012"]}
+      ],
+      "common_wrong_move": "Adding preload to stop squat when the rear is only low under load. MXA and Keefer use HSC for ride height in motion.",
+      "source_ids": ["src-mxa-20steps-2013", "src-keefer-effect-2024", "src-keefer-onoff-2025"]
+    },
+    {
+      "id": "dx-stinkbug",
+      "rider_words": ["stinkbug", "rear rides high", "nose down", "unstable at speed", "rear feels tall"],
+      "where": "Straights at speed, braking zones, landings",
+      "causes": [
+        {"cause": "Too little sag (too much preload)", "tells": ["High rear while seated and while stopped", "Harsh or deflecting rear on square edges", "Oversteer"], "first_change": "Add sag", "why": "Lowers the rear and rebalances the bike", "source_ids": ["src-keefer-effect-2024", "src-mxa-dialing-2020", "src-keefer-onoff-2025"]},
+        {"cause": "Shock HSC too stiff", "tells": ["Rear high once moving but sag measures correct", "Kicks on deceleration", "Nose-heavy landings"], "first_change": "Turn HSC out", "why": "HSC sets the dynamic ride height", "source_ids": ["src-mxa-20steps-2013", "src-mxa-dialing-2020", "src-keefer-effect-2024"]},
+        {"cause": "Fork too low (soft fork or forks raised in the clamps)", "tells": ["Front dives on braking", "Front-low feel"], "first_change": "Slide the forks down or stiffen the fork", "why": "Balance depends on both ends together", "source_ids": ["src-mxa-dialing-2020", "src-keefer-onoff-2025"]},
+        {"cause": "New shock not yet broken in", "tells": ["A brand-new or freshly serviced shock"], "first_change": "Re-check sag after break-in (MXA: about two hours)", "why": "MXA says a new shock sits high until it is broken in", "source_ids": ["src-mxa-10sag"]},
+        {"cause": "Hot shock", "tells": ["Sag reads differently when hot than when cold"], "first_change": "Measure sag the same way each time; MXA suggests measuring after practice", "why": "MXA says a hot shock can sit higher", "source_ids": ["src-mxa-10sag", "src-mxa-20steps-2013"]}
+      ],
+      "check_first": [
+        {"check": "Peg-press balance test (spring forks): stand on one peg off the stand and push down. Both ends should compress about equally.", "why": "Shows quickly which end is out of balance", "source_ids": ["src-mxa-dialing-2020"]}
+      ],
+      "common_wrong_move": "Fixing only the rear when the fork is the end that is low. MXA calls this the butterfly or seesaw effect.",
+      "source_ids": ["src-mxa-dialing-2020", "src-mxa-setup-2015"]
+    },
+    {
+      "id": "dx-no-rear-traction",
+      "rider_words": ["no rear traction", "wheelspin", "rear won't hook up", "spins on acceleration bumps"],
+      "where": "Corner exits, acceleration chop, hard-pack, at lean",
+      "causes": [
+        {"cause": "Rear riding too high", "tells": ["Off throttle and on exits", "Rear feels tall"], "first_change": "Soften HSC to drop the rear slightly. Keefer tries this before changing sag.", "why": "Loads the rear tire", "source_ids": ["src-keefer-onoff-2025"]},
+        {"cause": "Shock LSC too stiff", "tells": ["Loses traction most at lean", "Rigid seat feel", "Harsh on bumps"], "first_change": "Soften LSC", "why": "Lets the rear follow small bumps", "source_ids": ["src-keefer-effect-2024", "src-keefer-tips-2025", "src-keefer-guide-2021"]},
+        {"cause": "Rebound too slow", "tells": ["Hard-pack acceleration chop", "Firm on acceleration"], "first_change": "Speed up rebound", "why": "The tire returns to the ground faster", "source_ids": ["src-keefer-effect-2024", "src-keefer-tips-2025"]},
+        {"cause": "Rear riding too low under load", "tells": ["Squats, and traction fades out of corners under power"], "first_change": "Raise the rear slightly", "why": "Keefer lists reduced traction out of corners as a symptom of a low rear", "source_ids": ["src-keefer-shock-2021", "src-keefer-effect-2024"]}
+      ],
+      "check_first": [
+        {"check": "Rear tire pressure. Too much causes wheelspin and leaves no rim clean, and pressure rises with heat during a moto.", "why": "This is the most common false suspension complaint", "source_ids": ["src-mxa-tire-2012", "src-mxa-finetune-2022", "src-keefer-tire-2025"]},
+        {"check": "Linkage bearings", "why": "Worn or dry bearings reduce traction and grip out of corners", "source_ids": ["src-factorylinks-2026", "src-mxa-finetune-2022"]}
+      ],
+      "common_wrong_move": "Changing sag first. Keefer tries HSC before sag for rear traction.",
+      "source_ids": ["src-keefer-onoff-2025", "src-keefer-effect-2024"]
+    },
+    {
+      "id": "dx-packing",
+      "rider_words": ["packs", "gets lower and lower in whoops", "rear sinks through braking bumps", "harsh by the end of the bump section"],
+      "where": "Series of bumps: braking bumps, acceleration chop, whoops",
+      "causes": [
+        {"cause": "Rebound too slow for the track speed", "tells": ["The first hits are fine, then it gets worse through the series", "Wheel loses contact progressively"], "first_change": "Speed up shock rebound a couple of clicks, then do the same at the fork", "why": "The wheel recovers before the next bump. This is Bones's stated order.", "source_ids": ["src-mxa-packing-2021", "src-mxa-setup-2015", "src-mxa-forks-2020"]},
+        {"cause": "Compression too soft, so the wheel goes deep and takes longer to recover", "tells": ["Also bottoms on landings, squats on the gas, dives on the brakes"], "first_change": "Add compression", "why": "Bones: make sure compression is in a reasonable range before blaming packing", "source_ids": ["src-mxa-packing-2021"]},
+        {"cause": "Compression too stiff (MXA lists this as a packing cause)", "tells": ["Harsh on the first hit", "Wheel skips across bumps"], "first_change": "Soften compression", "why": "A different first-hit signature from rebound packing", "source_ids": ["src-mxa-setup-2015", "src-mxa-packing-2021"]},
+        {"cause": "Chain too tight (mechanical)", "tells": ["Rear harsh under load with a packing sensation"], "first_change": "Set chain slack. Keefer's KTM figure is 65-68mm measured at the swingarm slider end.", "why": "In Keefer's back-to-back test, 60mm of slack felt harsh and packed, and 66mm felt freer", "source_ids": ["src-keefer-chain-2021"]}
+      ],
+      "check_first": [
+        {"check": "Note the first symptom felt in the section", "why": "Bones uses first-hit behavior to separate too soft, too stiff and packing", "source_ids": ["src-mxa-packing-2021"]},
+        {"check": "Chain slack", "why": "A too-tight chain mimics packing", "source_ids": ["src-keefer-chain-2021"]}
+      ],
+      "common_wrong_move": "Slowing rebound to stop kicking in bumps, which makes packing worse",
+      "source_ids": ["src-mxa-packing-2021", "src-mxa-setup-2015"]
+    },
+    {
+      "id": "dx-harsh-but-bottoms",
+      "rider_words": ["harsh but still bottoms", "fork feels stiff and bottoms", "harsh mid-stroke", "no matter how soft I go it's harsh"],
+      "where": "Braking bumps, landings, slap-downs",
+      "causes": [
+        {"cause": "Too soft, so the suspension rides deep in the firm part of the damping and the stroke", "tells": ["Feels harsher as you click softer", "Also dives or bottoms", "Travel indicator (o-ring or band) shows deep usage"], "first_change": "Add compression to raise the fork into the plusher part of the stroke", "why": "MXA, Ping and Keefer all describe a too-soft fork that feels stiff", "source_ids": ["src-mxa-finetune-2022", "src-mxa-dialing-2020", "src-mxa-setup-2015", "src-mxa-forks-2020", "src-racerx-ping-2017", "src-keefer-onoff-2025"]},
+        {"cause": "Oil height (air volume) wrong: too high gives a harsh mid-to-end stroke, too low lets it bottom", "tells": ["Clickers do not change the deep-stroke feel", "MXA says oil height has negligible effect on the first four inches of travel"], "first_change": "Change oil height in 10cc steps per leg (MXA); use bottoming as the gauge", "why": "Oil height changes the air spring from mid-stroke on", "source_ids": ["src-mxa-oilheight-2018", "src-mxa-dialing-2020", "src-mxa-forks-2020"]},
+        {"cause": "Mechanical: binding from misalignment, trapped air, or a leaking cartridge seal", "tells": ["Started after a service, crash or wheel change", "Feels sticky rather than damped"], "first_change": "Bleed the fork, then realign the fork (see mechanical_mimics)", "why": "Race Tech calls improper installation the top cause of harshness", "source_ids": ["src-racetech-forkinstall", "src-vital-forks-2010", "src-mxa-forks-2020"]}
+      ],
+      "check_first": [
+        {"check": "Fit a travel indicator to see where in the stroke the fork lives", "why": "Separates 'too soft, riding deep' from 'too stiff'", "source_ids": ["src-mxa-setup-2015"]},
+        {"check": "Fork air bleed when cold; on air forks, check pressure", "why": "Heat-built air pressure stiffens the stroke", "source_ids": ["src-mxa-forks-2020", "src-dbt-bleeders-2021"]}
+      ],
+      "common_wrong_move": "Backing the compression clickers out further, which makes the fork ride deeper and feel harsher",
+      "source_ids": ["src-mxa-finetune-2022", "src-mxa-dialing-2020"]
+    },
+    {
+      "id": "dx-deflection",
+      "rider_words": ["deflects", "bounces off roots", "glances off square edges", "front skates off rocks"],
+      "where": "Square edges, roots, rocks, braking bumps, on and off throttle",
+      "causes": [
+        {"cause": "Fork initial compression too stiff, or the fork over-sprung or with oil too high", "tells": ["On the gas with the front light", "Harsh bars as well"], "first_change": "Check sag, then soften fork compression. If the fork has already been resprung or revalved and the problem persists, suspect the spring is too stiff.", "why": "Keefer lists these causes and this order for fork deflection on the gas", "source_ids": ["src-keefer-onoff-2025", "src-slavens"]},
+        {"cause": "Rear riding too low, so the front rides high and light", "tells": ["Deflection on the gas", "Rear feels low"], "first_change": "Raise the rear (less sag, or more HSC)", "why": "A lower rear unloads the front", "source_ids": ["src-keefer-onoff-2025", "src-keefer-effect-2024"]},
+        {"cause": "Rebound too slow, or compression stiff, off the brakes", "tells": ["Deflection on the brakes"], "first_change": "Adjust fork compression or rebound", "why": "Keefer's off-throttle table", "source_ids": ["src-keefer-onoff-2025"]},
+        {"cause": "Shock HSC or LSC too stiff, or rear too high", "tells": ["Rear deflects on square edges", "Harsh through the feet"], "first_change": "Soften shock HSC or LSC, or add sag", "why": "Keefer lists rear deflection under these settings", "source_ids": ["src-keefer-effect-2024", "src-keefer-shock-2021"]}
+      ],
+      "check_first": [
+        {"check": "Tire pressures", "why": "Rocky tracks need more pressure (MXA); too much pressure costs grip", "source_ids": ["src-mxa-tire-2012"]},
+        {"check": "Linkage bearings and fork alignment", "why": "Both produce harsh, deflecting feedback on sharp hits", "source_ids": ["src-factorylinks-2026", "src-racetech-forkinstall"]}
+      ],
+      "common_wrong_move": "Softening the fork when the real cause is a low rear lifting the front",
+      "source_ids": ["src-keefer-onoff-2025", "src-slavens"]
+    },
+    {
+      "id": "dx-arm-pump-harsh-hands",
+      "rider_words": ["arm pump", "harsh through the bars", "hands get beat up", "fork is hard on my hands"],
+      "where": "Braking bumps, choppy straights, slap-down landings",
+      "causes": [
+        {"cause": "Fork compression too stiff, or air too high", "tells": ["Fork rides high", "Deflects", "Firm on chop and slap-downs"], "first_change": "Soften fork compression", "why": "More fork movement lets the fork absorb the hit", "source_ids": ["src-keefer-onoff-2025", "src-keefer-effect-2024"]},
+        {"cause": "Fork too soft, riding in the mid-stroke under braking", "tells": ["Harsh off throttle in braking bumps", "Front dives"], "first_change": "Stiffen the fork as a test. If comfort improves, the fork was too soft.", "why": "Keefer's off-throttle harshness test", "source_ids": ["src-keefer-onoff-2025", "src-mxa-finetune-2022"]},
+        {"cause": "Fork rebound too fast, so the front end is busy and the rider over-grips", "tells": ["Front feels busy and nervous", "Headshake on the gas"], "first_change": "Slow fork rebound", "why": "Keefer links a busy front from fast rebound to arm pump from over-gripping", "source_ids": ["src-keefer-effect-2024", "src-pulpmx-mechanics-2024"]},
+        {"cause": "Fork rebound too slow, so it does not return in time during braking", "tells": ["Gets harsher through a braking-bump series"], "first_change": "Speed up fork rebound", "why": "Keefer's off-throttle table", "source_ids": ["src-keefer-onoff-2025"]}
+      ],
+      "check_first": [
+        {"check": "Bleed the fork air, cold, with the front wheel off the ground", "why": "Built-up air makes the fork harsh", "source_ids": ["src-mxa-forks-2020", "src-dbt-bleeders-2021", "src-keefer-tips-2025"]},
+        {"check": "Fork alignment and clamp bolt torque", "why": "Binding produces harshness", "source_ids": ["src-racetech-forkinstall", "src-vital-forks-2010"]}
+      ],
+      "common_wrong_move": "Going softer on a fork that is already riding deep",
+      "source_ids": ["src-keefer-onoff-2025", "src-mxa-dialing-2020"]
+    },
+    {
+      "id": "dx-bottoming-landings",
+      "rider_words": ["bottoms on landings", "clangs on flat landings", "bottoms in G-outs"],
+      "where": "Jump landings, flat landings, G-outs, whoops",
+      "causes": [
+        {"cause": "Compression too soft", "tells": ["Bottoms more than once or twice a lap (Keefer accepts once or twice)"], "first_change": "Add compression, two clicks at a time, until bottoming stops (MXA shock procedure)", "why": "Slows the stroke", "source_ids": ["src-mxa-20steps-2013", "src-keefer-tips-2025", "src-slavens"]},
+        {"cause": "Spring, air or fork oil volume too low (end-of-stroke support)", "tells": ["Mid-stroke feels fine, but the end of the stroke is weak", "Clickers do not fix it"], "first_change": "Raise fork oil height (MXA says more oil works best for bottoming), or check air pressure and spring rate", "why": "End-stroke support comes from the air spring", "source_ids": ["src-mxa-oilheight-2018", "src-slavens", "src-mxa-clickers-2023"]},
+        {"cause": "Worn internals, leaking seals, or low oil", "tells": ["Bottoming that gets worse over time with no setting change", "Oil on the tubes"], "first_change": "Service the suspension", "why": "Slavens lists these as bottoming causes", "source_ids": ["src-slavens"]},
+        {"cause": "Hot shock oil (fade)", "tells": ["Late in the moto, on hot days"], "first_change": "Address heat (see conditions)", "why": "MXA says shocks fade badly when hot", "source_ids": ["src-mxa-heat-2025"]}
+      ],
+      "check_first": [
+        {"check": "Count bottoming per lap; once or twice is acceptable", "why": "Keeps the rider from over-stiffening", "source_ids": ["src-keefer-tips-2025", "src-keefer-guide-2021"]}
+      ],
+      "common_wrong_move": "Clicking compression all the way in to fix a spring or oil-volume problem",
+      "source_ids": ["src-mxa-20steps-2013", "src-mxa-oilheight-2018"]
+    },
+    {
+      "id": "dx-blows-through",
+      "rider_words": ["blows through the stroke", "stuck down", "loose feeling on jump faces", "no hold-up"],
+      "where": "Jump faces, G-outs, corner exits",
+      "causes": [
+        {"cause": "Rebound too fast or too light (loose, unstable)", "tells": ["Loose feel on jumps"], "first_change": "Try stiffer or slower rebound", "why": "Keefer's prescription for a loose feel or blowing through the stroke on jumps", "source_ids": ["src-keefer-tips-2025", "src-keefer-guide-2021"]},
+        {"cause": "Shock HSC too soft", "tells": ["No hold-up in G-outs or up jump faces", "Low rear on the gas"], "first_change": "Add HSC", "why": "HSC gives hold-up on big shaft-speed events", "source_ids": ["src-keefer-effect-2024", "src-keefer-shock-2021"]},
+        {"cause": "Rebound too slow, so the shock stays down", "tells": ["Feels stuck down through a series of hits"], "first_change": "Speed up rebound", "why": "Too much rebound keeps the suspension compressed for the next hit", "source_ids": ["src-mxa-forks-2020", "src-mxa-setup-2015"]}
+      ],
+      "check_first": [
+        {"check": "Ask whether it is a single big hit (compression or HSC) or a series (rebound)", "why": "This separates the two competing rebound diagnoses", "source_ids": ["src-mxa-setup-2015", "src-mxa-packing-2021"]}
+      ],
+      "common_wrong_move": "Adding rebound when the shock is already staying down",
+      "source_ids": ["src-mxa-setup-2015"]
+    },
+    {
+      "id": "dx-midstroke-wallow",
+      "rider_words": ["wallowy", "vague mid-stroke", "pitches", "boat-like over rollers"],
+      "where": "Rollers, waves, whoops, transitions on and off throttle",
+      "causes": [
+        {"cause": "Compression too soft (LSC, and HSC for ride height)", "tells": ["Pitches on and off throttle", "Wallows through rollers"], "first_change": "Turn compression in 1 click (MXA); HSC in for a low rear", "why": "Adds support in the mid-stroke", "source_ids": ["src-mxa-20steps-2013", "src-keefer-effect-2024"]},
+        {"cause": "Fork oil low (more air volume)", "tells": ["Fork is soft from mid-stroke on"], "first_change": "Add fork oil", "why": "MXA: more oil stiffens the fork from mid-stroke", "source_ids": ["src-mxa-oilheight-2018", "src-mxa-dialing-2020"]},
+        {"cause": "Tire pressure too low", "tells": ["Wallows through bumps, front grip fades, more than 4mm of rim clean"], "first_change": "Add tire pressure", "why": "Tire sidewall flex mimics soft damping", "source_ids": ["src-mxa-tire-2012"]}
+      ],
+      "check_first": [
+        {"check": "Tire pressure and rim clean", "why": "Cheap to rule out", "source_ids": ["src-mxa-tire-2012"]}
+      ],
+      "common_wrong_move": "Adding preload instead of damping",
+      "source_ids": ["src-mxa-20steps-2013"]
+    },
+    {
+      "id": "dx-harsh-small-chop",
+      "rider_words": ["harsh on small stuff", "chatter", "beat up on chop only", "fine on big hits, harsh on small"],
+      "where": "Small chop, stutter bumps, acceleration chop, rocks",
+      "causes": [
+        {"cause": "Low-speed compression too stiff", "tells": ["Harsh on bumps", "Less traction at lean", "Big hits are fine"], "first_change": "Soften LSC (shock) or fork compression", "why": "Lets the suspension move over small bumps", "source_ids": ["src-keefer-effect-2024", "src-keefer-shock-2021"]},
+        {"cause": "Rebound too slow", "tells": ["Firm on acceleration chop", "Gets worse through a series of bumps"], "first_change": "Speed up rebound", "why": "Faster rebound restores early-stroke plushness", "source_ids": ["src-keefer-effect-2024"]},
+        {"cause": "Seal stiction or dry or worn bearings (friction rather than damping)", "tells": ["Clicker changes do little", "Notchy or sticky feel by hand", "Large gap between the push and lift sag readings"], "first_change": "Service the seals or bearings", "why": "Stiction is strongest on small bumps and light loads (MXA). A vendor says worn bearings cause harshness on small bumps.", "source_ids": ["src-mxa-skf-2015", "src-factorylinks-2026", "src-racetech-sag"]},
+        {"cause": "Air pressure buildup in the fork", "tells": ["Gets harsher as the ride goes on"], "first_change": "Bleed when cold", "why": "Trapped air pressurizes with heat", "source_ids": ["src-mxa-forks-2020", "src-dbt-bleeders-2021"]}
+      ],
+      "check_first": [
+        {"check": "Use the Race Tech stiction-zone check during sag measurement; a gap over about 4-5mm points to the linkage", "why": "Separates friction from damping", "source_ids": ["src-racetech-sag"]}
+      ],
+      "common_wrong_move": "Using HSC for chop without first checking which shaft speed the bump makes. Sources disagree on whether stutter bumps are high- or low-speed events (see disagreements).",
+      "source_ids": ["src-keefer-effect-2024", "src-mxa-setup-2015"]
+    },
+    {
+      "id": "dx-swapping",
+      "rider_words": ["rear swaps side to side", "bike moves around under power", "rear steps out on throttle at lean"],
+      "where": "On the gas, at slight lean, in acceleration bumps",
+      "causes": [
+        {"cause": "Rear ride height wrong (too high or too low)", "tells": ["If the rear is high, it stinkbugs while seated", "If the rear is low, it is harsh out of corners"], "first_change": "Decide which by checking harshness out of corners and stinkbug feel, then adjust sag or HSC", "why": "Keefer's on-throttle table", "source_ids": ["src-keefer-onoff-2025"]},
+        {"cause": "Rebound too fast", "tells": ["Side-to-side movement on the throttle at slight lean"], "first_change": "Slow rebound", "why": "Keefer action/reaction list", "source_ids": ["src-keefer-effect-2024", "src-keefer-shock-2021"]}
+      ],
+      "check_first": [
+        {"check": "Measure sag", "why": "Separates the two ride-height branches", "source_ids": ["src-keefer-onoff-2025"]}
+      ],
+      "common_wrong_move": "Guessing the direction of the ride-height change without checking for stinkbug or harshness",
+      "source_ids": ["src-keefer-onoff-2025"]
+    }
+  ],
+  "same_result_different_reason": [
+    {"symptom": "Rear kicks", "fixes": [
+      {"fix": "Slow the rebound", "works_because": "It controls how fast the spring returns after a big single hit", "choose_when": "It kicks straight up after a G-out, a jump face or a big compression", "source_ids": ["src-slavens", "src-mxa-20steps-2013"]},
+      {"fix": "Soften compression or HSC", "works_because": "The shock absorbs the edge instead of transmitting it", "choose_when": "It kicks sideways on square edges, rocks or roots, or is harsh through the feet. Keefer tries 1-2 clicks softer compression first for bucking.", "source_ids": ["src-slavens", "src-keefer-tips-2025", "src-keefer-guide-2021"]},
+      {"fix": "Add compression", "works_because": "It stops the shock blowing through and rebounding off the bottom", "choose_when": "It also bottoms. MXA's rule of thumb is more compression before more rebound.", "source_ids": ["src-mxa-setup-2015"]},
+      {"fix": "Speed up the rebound", "works_because": "It stops packing in a series of bumps", "choose_when": "The kick builds through a bump series rather than on the first hit", "source_ids": ["src-mxa-setup-2015", "src-mxa-packing-2021"]}
+    ]},
+    {"symptom": "Front pushes", "fixes": [
+      {"fix": "Stiffen shock HSC", "works_because": "It holds the rear up under load, moving weight forward", "choose_when": "It pushes on the gas and the rear feels low. Keefer tries this before a sag change.", "source_ids": ["src-keefer-onoff-2025", "src-keefer-effect-2024"]},
+      {"fix": "Take out sag (more preload)", "works_because": "It raises the static rear ride height", "choose_when": "The rear is low even at walking speed or when sag measures high. It also suits tight tracks (MXA: 100mm rather than 105mm).", "source_ids": ["src-keefer-onoff-2025", "src-mxa-10sag", "src-keefer-effect-2024"]},
+      {"fix": "Soften fork compression or air", "works_because": "The fork settles into the turn and loads the front tire", "choose_when": "It pushes off the gas at entry and the fork also feels harsh or deflects", "source_ids": ["src-keefer-effect-2024"]},
+      {"fix": "Raise the forks in the clamps a few mm", "works_because": "It steepens the head angle and moves weight forward", "choose_when": "The bike is stable but slow to steer. Keep the total change within about 5-7mm.", "source_ids": ["src-mxa-dialing-2020", "src-keefer-effect-2024", "src-keefer-onoff-2025"]}
+    ]},
+    {"symptom": "Front feels low or dives under braking", "fixes": [
+      {"fix": "Stiffen fork compression", "works_because": "It holds the fork up dynamically", "choose_when": "Try this first (Keefer's order)", "source_ids": ["src-keefer-onoff-2025"]},
+      {"fix": "Slide the forks down in the clamps", "works_because": "It raises the static front ride height", "choose_when": "The front still feels low after the compression change", "source_ids": ["src-keefer-onoff-2025"]},
+      {"fix": "Add fork air (air fork)", "works_because": "It acts like a stiffer spring", "choose_when": "The fork also bottoms more than 2-3 times a lap, or the air pressure is below baseline", "source_ids": ["src-keefer-effect-2024"]}
+    ]},
+    {"symptom": "No rear traction", "fixes": [
+      {"fix": "Soften HSC", "works_because": "It lowers the rear dynamically", "choose_when": "The rear rides high. Keefer tries this before sag.", "source_ids": ["src-keefer-onoff-2025"]},
+      {"fix": "Add sag", "works_because": "It lowers the rear statically", "choose_when": "The rear is high at rest or sag measures low", "source_ids": ["src-keefer-onoff-2025"]},
+      {"fix": "Soften LSC or speed up rebound", "works_because": "The tire follows acceleration bumps", "choose_when": "There is wheelspin on acceleration bumps or hard-pack chop", "source_ids": ["src-keefer-tips-2025", "src-keefer-guide-2021", "src-keefer-effect-2024"]},
+      {"fix": "Lower rear tire pressure", "works_because": "It enlarges the footprint", "choose_when": "There is no rim clean, or pressure has risen with heat", "source_ids": ["src-mxa-tire-2012"]}
+    ]},
+    {"symptom": "Fork feels harsh", "fixes": [
+      {"fix": "Soften compression", "works_because": "There is less damping force on the hit", "choose_when": "The fork rides high, deflects, and the travel indicator shows little travel used", "source_ids": ["src-keefer-onoff-2025", "src-mxa-20steps-2013"]},
+      {"fix": "Stiffen compression", "works_because": "It lifts a too-soft fork out of the firm deep stroke", "choose_when": "The fork dives, the travel indicator shows deep use, or it gets harsher as you click softer", "source_ids": ["src-mxa-finetune-2022", "src-mxa-dialing-2020", "src-racerx-ping-2017"]},
+      {"fix": "Lower the oil height (10cc per leg)", "works_because": "It softens from mid-stroke on without changing the first part of the stroke", "choose_when": "Harshness is mid-to-end stroke and the fork is not bottoming", "source_ids": ["src-mxa-oilheight-2018", "src-mxa-dialing-2020"]},
+      {"fix": "Bleed the air, or realign the fork", "works_because": "It removes air-spring buildup or binding", "choose_when": "It gets harsher through the day, or started after a service or wheel removal", "source_ids": ["src-mxa-forks-2020", "src-racetech-forkinstall"]}
+    ]},
+    {"symptom": "Headshake on the gas", "fixes": [
+      {"fix": "Soften the fork or speed up fork rebound", "works_because": "The light front wheel tracks the ground", "choose_when": "First, per Bones, when the front skips then dances", "source_ids": ["src-mxa-headshake-2025"]},
+      {"fix": "Raise the rear (less sag)", "works_because": "It puts weight back on the front", "choose_when": "The fork changes did not cure it, or the rear feels low", "source_ids": ["src-mxa-headshake-2025"]}
+    ]},
+    {"symptom": "Unstable at speed or stinkbug", "fixes": [
+      {"fix": "Add sag", "works_because": "It lowers the rear statically", "choose_when": "Sag measures low, or on fast or sandy tracks", "source_ids": ["src-mxa-dialing-2020", "src-mxa-10sag"]},
+      {"fix": "Slide the forks down", "works_because": "It raises the front and slackens the geometry", "choose_when": "The rear setup is correct but the bike is nose-down", "source_ids": ["src-mxa-dialing-2020", "src-transmoto-sand-2019"]},
+      {"fix": "Reduce HSC", "works_because": "It lowers the rear in motion only", "choose_when": "Sag is correct but the rear rides high once moving", "source_ids": ["src-mxa-dialing-2020", "src-mxa-20steps-2013"]}
+    ]},
+    {"symptom": "Fork bottoming", "fixes": [
+      {"fix": "Add compression", "works_because": "It slows the whole stroke", "choose_when": "The fork also dives and feels soft overall", "source_ids": ["src-slavens", "src-keefer-tips-2025"]},
+      {"fix": "Raise the oil height", "works_because": "It stiffens only the end of the stroke", "choose_when": "The fork is plush early and only bottoms at the end", "source_ids": ["src-mxa-oilheight-2018"]},
+      {"fix": "Add air (air fork)", "works_because": "It acts as a stiffer spring", "choose_when": "Pressure is below baseline. Check it cold.", "source_ids": ["src-keefer-effect-2024", "src-keefer-tips-2025"]}
+    ]},
+    {"symptom": "Rear squats on exits or the front is light out of corners", "fixes": [
+      {"fix": "Stiffen HSC", "works_because": "It gives ride height under load", "choose_when": "First, because it is a clicker change", "source_ids": ["src-mxa-20steps-2013", "src-keefer-effect-2024"]},
+      {"fix": "Shorten the wheelbase (axle forward)", "works_because": "Keefer measured less squat and better front traction with a shorter swingarm length; MXA says the shock also feels stiffer", "choose_when": "The axle is far back in the adjuster, or the gearing changed", "source_ids": ["src-keefer-chain-2021", "src-mxa-finetune-2022"]}
+    ]},
+    {"symptom": "Front tucks after braking", "fixes": [
+      {"fix": "Stiffen fork compression or add air", "works_because": "It controls dive", "choose_when": "The fork is diving (several forum posters and Keefer)", "source_ids": ["src-vital-tuck-2020", "src-keefer-onoff-2025"]},
+      {"fix": "Reduce fork rebound damping", "works_because": "The fork recovers from braking before turn-in", "choose_when": "A forum suggestion (theycallmeebryan) for a fork held down by slow rebound", "source_ids": ["src-vital-tuck-2020"]},
+      {"fix": "Add sag (lower the rear)", "works_because": "It takes weight off the front", "choose_when": "The rear feels high (forum suggestion of moving from 103 to 105mm)", "source_ids": ["src-vital-tuck-2020"]}
+    ]}
+  ],
+  "mechanical_mimics": [
+    {"fault": "Loose steering head bearings", "feels_like": "Headshake, a nervous front", "how_to_check": "Front wheel off the ground: turn the bars about halfway to one side and let go. Bars that fall and bounce off the stop are too loose; correct bearings need a small push (Bones). Keefer: tap the bars lightly; if they swing to the stops, tighten.", "source_ids": ["src-mxa-headshake-2025", "src-keefer-onoff-2025", "src-mxa-finetune-2022"]},
+    {"fault": "Misaligned fork legs or a bound axle (wrong pinch-bolt sequence, burr on the axle step)", "feels_like": "Harsh fork, plus bushing and coating wear. Race Tech calls this the top cause of harshness.", "how_to_check": "Race Tech: check the axle step for burrs by sliding the reversed axle through the fork bottom; tighten the axle with the right pinch loose; spin the wheel, grab the brake or pump the fork, and confirm the fork bottom returns to the same spot each time; then tighten the pinch bolts. MXA: turn the axle (not the nut) with the 19mm Allen, then tighten the pinch bolts.", "source_ids": ["src-racetech-forkinstall", "src-mxa-finetune-2022"]},
+    {"fault": "Triple clamp bolts over-tightened (or loose)", "feels_like": "Harsh or sticky fork", "how_to_check": "Torque to the OEM specification. Race Tech cites typical values of about 16 ft-lb top and 14 ft-lb bottom but says to verify for the model. A forum user reported that his fork action returned once over-tight clamps were corrected (anecdote).", "source_ids": ["src-racetech-forkinstall", "src-vital-forks-2010"]},
+    {"fault": "Bent fork tube or axle after a crash", "feels_like": "Fork moves freely off the bike but feels stuck once clamped; harsh", "how_to_check": "Check axle runout with a dial indicator; suspect it if one leg slid in the clamp during the crash (forum)", "source_ids": ["src-vital-forks-2010"]},
+    {"fault": "Fork guard bolts too long", "feels_like": "Binding or harshness; can dent the inner tube", "how_to_check": "Use bolts of the original length", "source_ids": ["src-racetech-forkinstall"]},
+    {"fault": "Air pressure buildup in coil-spring forks", "feels_like": "Fork gets harsher through the ride", "how_to_check": "Bleed before every ride, with the forks cool and the front wheel off the ground", "source_ids": ["src-mxa-forks-2020", "src-dbt-bleeders-2021", "src-keefer-tips-2025", "src-mxa-finetune-2022"]},
+    {"fault": "Air fork outer-chamber buildup or pressure drift", "feels_like": "Fork feels stiffer than its air setting", "how_to_check": "Open the bleed screws on both caps until they hiss (ADB says after each ride); check main pressure with the wheel off the ground, since a partly compressed fork reads high", "source_ids": ["src-adb-airfork-2020", "src-keefer-tips-2025"]},
+    {"fault": "Air fork heat rise", "feels_like": "Fork stiffens late in the moto", "how_to_check": "Check pressure cold (Keefer). One MXA reader reported a 4 psi rise during a race and set 4 psi low to compensate.", "source_ids": ["src-mxa-airheat-2022", "src-keefer-tips-2025", "src-keefer-guide-2021"]},
+    {"fault": "Worn, dry or notchy linkage and swingarm bearings", "feels_like": "Harsh on small bumps, kicks sideways over chop or square edges, loses traction, uneven rebound", "how_to_check": "Look for play, creaks and notchy movement. In the Race Tech sag method, a gap between the lift and push readings over about 4-5mm means the linkage needs attention. Grease periodically (MXA).", "source_ids": ["src-factorylinks-2026", "src-racetech-sag", "src-mxa-finetune-2022"]},
+    {"fault": "Seal stiction", "feels_like": "Harsh on small bumps and under light loads", "how_to_check": "No formal test found. MXA's evidence was informal fleet observation.", "source_ids": ["src-mxa-skf-2015"]},
+    {"fault": "Leaking cartridge (inner rod) seal on Showa forks", "feels_like": "Harsh fork (oil migrates to the outer chamber)", "how_to_check": "Inspect at service (forum)", "source_ids": ["src-vital-forks-2010"]},
+    {"fault": "Worn internals, leaking seals, low oil", "feels_like": "Bottoming, kicking", "how_to_check": "Service the unit. Factory Connection recommends a full service every 40 hours.", "source_ids": ["src-slavens", "src-vital-fc-2007"]},
+    {"fault": "Old or overheated shock oil", "feels_like": "Shock feels faster and softer, and fades late in the moto", "how_to_check": "Notice whether the fault worsens as the moto goes on and on hot days; check service hours. MXA: hot oil makes damping softer, hot nitrogen makes compression firmer, and old oil loses viscosity.", "source_ids": ["src-mxa-20steps-2013", "src-mxa-heat-2025", "src-mxa-clickers-2023"]},
+    {"fault": "Spring sag over time, or a new shock not broken in", "feels_like": "Sag drifts; a new shock sits high", "how_to_check": "Re-check sag regularly; re-measure after about two hours on a new shock (MXA)", "source_ids": ["src-mxa-20steps-2013", "src-mxa-10sag"]},
+    {"fault": "Tire pressure wrong, or rising with heat", "feels_like": "Too low: wallowing and front grip loss in turns. Too high: wheelspin and poor grip. Heat: less contact-patch feel.", "how_to_check": "Set pressure before any suspension change. Read rim clean: more than about 4mm means too low, none means too high. MXA says pressure can rise up to 6 psi rear and 3 psi front over the first three laps.", "source_ids": ["src-mxa-tire-2012", "src-mxa-finetune-2022", "src-keefer-tire-2025", "src-keefer-guide-2021"]},
+    {"fault": "Chain too tight", "feels_like": "Harsh rear with a packing sensation under acceleration", "how_to_check": "Measure slack at the swingarm slider end. Keefer's KTM 450 SX-F figure is 65-68mm; 60mm felt harsh and packed.", "source_ids": ["src-keefer-chain-2021"]},
+    {"fault": "Rear axle position changed (gearing or chain)", "feels_like": "Axle forward makes the shock feel stiffer and changes front weight; Keefer saw noticeable chassis change at about 10mm or more from target", "how_to_check": "Measure swingarm pivot to axle center and log it with the setup", "source_ids": ["src-mxa-finetune-2022", "src-keefer-chain-2021", "src-vital-tuck-2020"]},
+    {"fault": "Grabby front brake bite", "feels_like": "Front tucks on initial brake application", "how_to_check": "Single forum report: a larger floating rotor kit reduced the bite. Unverified.", "source_ids": ["src-vital-tuck-2020"]}
+  ],
+  "test_method": [
+    {"id": "tm-baseline", "topic": "Baseline and logging", "claim": "Record every clicker, sag, fork height, air pressure and tire pressure before changing anything. Start from stock or baseline, and compare back to stock at the end of the day.", "steps": ["Write down the current clickers as clicks out from fully in (MXA)", "Start from the manufacturer's or a known baseline (Keefer)", "Log every change; MXA's crew writes setups on the fenders", "At the end of the session, ride stock back to back against your final setting. MXA says this can show that a day was wasted, often by overshooting."], "source_ids": ["src-keefer-tips-2025", "src-keefer-guide-2021", "src-mxa-20steps-2013", "src-mxa-dialing-2020", "src-mxa-setup-2015", "src-redbull-2023"]},
+    {"id": "tm-prechecks", "topic": "Do before any clicker test", "claim": "Fix the non-clicker variables first. Clickers cannot fix the wrong sag, the wrong air pressure or the wrong spring.", "steps": ["Tire pressure set for the terrain", "Spring rate suits the rider's weight and skill; set sag", "Bleed the forks cold (coil) or the outer chambers (air), and check air pressure", "Check the steering head and fork alignment", "Then start clicking"], "source_ids": ["src-keefer-guide-2021", "src-keefer-tips-2025", "src-mxa-clickers-2023", "src-mxa-finetune-2022"]},
+    {"id": "tm-one-change", "topic": "One change at a time and step size", "claim": "Change one adjuster at a time (compression or rebound, not both). Sources disagree on how big a step to take (see disagreements).", "steps": ["Keefer: 1-2 clicks per change, one adjuster only", "Keefer: KYB often needs two compression clicks to feel a difference; Showa and WP respond to one; rebound usually one click at a time", "Keefer: HSC about 1/6 turn on Showa and 1/4 turn on WP or KYB to feel a change", "Slavens: clickers in 2-click steps; HSC in 1/4 to 1/2 turn steps", "MXA 2015 and Ping: make big changes to find the direction, then fine-tune"], "source_ids": ["src-keefer-tips-2025", "src-keefer-guide-2021", "src-keefer-effect-2024", "src-slavens", "src-mxa-setup-2015", "src-racerx-ping-2017"]},
+    {"id": "tm-laps-section", "topic": "Laps and test section", "claim": "Ride a short block of laps per setting on the same lines, so impressions stay fresh and comparable.", "steps": ["Keefer: 2-4 laps per setting", "Ping: a couple of laps", "Use the same line every lap, including the rough bumps you are testing", "Use a jump plus whoops for compression and rebound checks (MXA)", "Note where on the track each setting works or fails. The goal is consistency across the whole track, not one section (MXA)."], "source_ids": ["src-keefer-tips-2025", "src-keefer-guide-2021", "src-racerx-ping-2017", "src-mxa-20steps-2013", "src-mxa-dialing-2020"]},
+    {"id": "tm-mxa-sequence", "topic": "MXA shock sequence (compression, then rebound, then compression again)", "claim": "Set compression against bottoming first, then rebound against kicking, then re-check compression because rebound changes affect compression.", "steps": ["Ride a jump and whoops; if it bottoms, turn compression in two clicks; repeat until it stops", "Full track: harsh means compression out one click; wallowy means in one click", "Have a helper watch the rear wheel over a jump or whoops at speed; if it kicks or skips, turn rebound in two clicks; test a range, because slow rebound can kick as much as fast", "Re-check compression", "Use HSC for ride height: rear low means in, rear high means out"], "source_ids": ["src-mxa-20steps-2013"]},
+    {"id": "tm-sag-racetech", "topic": "Measuring rider (race) sag with friction cancelled", "claim": "Race Tech's three-measurement method averages out linkage friction and should repeat within 1mm.", "steps": ["L1: bike on a stand, rear wheel off the ground, measure axle to a fixed mark, vertically", "Rider in full gear stands on the pegs (dirt bike), balancing on something without a helper holding the bike, without gripping with the knees and without loading the bars", "L2: push the rear down about 15mm and let it rise slowly; measure", "L3: lift the rear about 15mm and let it settle slowly; measure", "Sag = L1 minus the average of L2 and L3", "If L2 and L3 differ by more than about 4-5mm, service the linkage", "Errors: measuring with the bike on the ground, measuring at an angle, bouncing"], "source_ids": ["src-racetech-sag"]},
+    {"id": "tm-sag-mxa", "topic": "Measuring race sag the MXA way, and consistency", "claim": "MXA bounces the bike to settle the shock and stresses measuring the same way every time. Standing or seated, and warm or cold, vary by source.", "steps": ["Zero the sag tool from the axle to a fender point with the bike on the stand", "Rider in gear in the real riding position, feet on the pegs; MXA's helper steadies the bike", "Bounce to settle, then measure", "MXA 2022: measure standing, the same way every time", "MXA 2013: hot and cold shocks read differently, so set sag after practice when possible", "Typical MXA range: 97-105mm (sag article); 100-105mm big bikes, never below 105mm for MXA, and above 110mm hurts geometry (Hinz)"], "source_ids": ["src-mxa-10sag", "src-mxa-finetune-2022", "src-mxa-20steps-2013", "src-mxa-dialing-2020", "src-racerx-ping-2019"]},
+    {"id": "tm-free-sag", "topic": "Static or free sag as a spring-rate check", "claim": "After rider sag is set, measure how far the bike sags under its own weight. Too much means the spring is too stiff; too little means it is too soft.", "steps": ["Set rider sag first", "Measure free or static sag (MXA 2013: lift the fender on level ground and measure the movement before the wheel lifts)", "MXA 2013: over 35mm suggests too stiff; none suggests too soft", "MXA 2015/2022: target about 30-40mm on big bikes; over 40 is too stiff and under 30 too soft", "A firmer spring can feel softer at first because it needs less preload (MXA 2015)"], "source_ids": ["src-mxa-20steps-2013", "src-mxa-finetune-2022", "src-mxa-setup-2015"]},
+    {"id": "tm-balance-check", "topic": "Front-to-rear balance check", "claim": "With spring forks, stand on one peg off the stand and press down; both ends should compress about equally.", "steps": ["Off the stand, stand on one peg", "Push down and watch both ends", "If one end drops much more, investigate that end"], "source_ids": ["src-mxa-dialing-2020"]},
+    {"id": "tm-fork-height", "topic": "Fork height", "claim": "Fork height is the mm of fork tube above the top clamp. Both legs must match. A few mm is noticeable, and Keefer calls more than 5-7mm of change excessive.", "steps": ["Measure the tube height above the top clamp on both legs", "Start from the factory setting", "Change in small steps and log it", "When adjusting steering head bearings, loosen the bottom clamp bolts so fork height does not move (Bones)"], "source_ids": ["src-racetech-forkinstall", "src-mxa-10sag", "src-mxa-dialing-2020", "src-keefer-onoff-2025", "src-mxa-headshake-2025"]},
+    {"id": "tm-air-fork", "topic": "Air fork pressure check", "claim": "Check air pressure cold, with the front wheel off the ground, using a gauge. Account for gauge-hose effects and heat rise.", "steps": ["Bike on a stand, front wheel off the ground; a compressed fork reads high (ADB)", "Screw on the pump until seated, read, adjust, then unscrew quickly; slow removal leaks air (ADB)", "Reattaching the pump to re-check charges the hose and reads a few psi lower (Bikerumor, mountain-bike test)", "Check after the fork has cooled to ambient (Keefer)", "Keefer 2025: think in bar, since about 2 psi equals one spring-rate step", "Bleed the outer chambers after each ride (ADB)"], "source_ids": ["src-adb-airfork-2020", "src-bikerumor-2018", "src-keefer-tips-2025", "src-keefer-guide-2021", "src-mxa-airheat-2022"]},
+    {"id": "tm-travel-indicator", "topic": "See where the fork is in its stroke", "claim": "Use a travel indicator (an elastic band or o-ring on the fork tube) to see whether a harsh fork is riding deep or high.", "steps": ["Fit a band around the fork tube at the seal", "Ride a lap", "Read the maximum travel and use it with the too-soft-feels-stiff logic"], "source_ids": ["src-mxa-setup-2015"]},
+    {"id": "tm-when-to-stop", "topic": "When to stop clicking and change springs, oil or valving", "claim": "No source gives a numeric threshold. The signals they give are listed in the steps.", "steps": ["Sag cannot be reached with sensible preload, or free sag is outside the range: change the spring (MXA)", "Wrong air pressure: fix the air, not the clickers (MXA)", "The problem is in the mid-to-end stroke: change the fork oil height, not the clickers (MXA)", "The fork was already resprung or revalved and still deflects: suspect the spring is too stiff (Keefer)", "Slavens: rear compression problems usually need internal work", "Tune stock settings fully before paying for a revalve; it also gives a benchmark to judge the revalve (MXA forks)", "Expect drift from heat, oil wear and shim fatigue (MXA clickers)"], "source_ids": ["src-mxa-20steps-2013", "src-mxa-finetune-2022", "src-mxa-clickers-2023", "src-mxa-oilheight-2018", "src-keefer-onoff-2025", "src-slavens", "src-mxa-forks-2020"]},
+    {"id": "tm-two-for-one", "topic": "Compression and rebound coupling", "claim": "Keefer's rule of thumb for experienced riders: for about every two compression clicks, move rebound one click the opposite way. Slavens and MXA note that rebound changes also affect compression.", "steps": ["Change compression", "Consider a compensating rebound click", "Re-check compression after rebound changes"], "source_ids": ["src-keefer-tips-2025", "src-slavens", "src-mxa-20steps-2013"]},
+    {"id": "tm-on-off-throttle", "topic": "Diagnostic question tree", "claim": "Classify every complaint first by on or off throttle, then by front or rear, then by first hit or series of hits, then by corner area (entry, mid, exit).", "steps": ["Ask: on the gas or on the brakes? (Keefer, Bones)", "Which end do you feel it through: bars or pegs and seat?", "First hit, or does it build through a series? (Bones: note the first symptom)", "Corner area 1, 2 or 3? (Keefer)", "Does it get worse late in the moto or on hot days? (heat)"], "source_ids": ["src-keefer-onoff-2025", "src-mxa-headshake-2025", "src-mxa-packing-2021", "src-keefer-effect-2024", "src-mxa-heat-2025"]}
+  ],
+  "conditions": [
+    {"condition": "Sand (fast, whooped)", "change": "WP via Transmoto: rider sag 112-116mm; drop the forks 5mm in the clamps; WP Xplor preload +3mm; harder springs; AER +5 psi with a couple more rebound clicks; when deep bumps form mid-race, shock HSC +2, LSC +4, rebound +2. Keefer: stiffer than stock, front higher and rear lower. MXA: about 110mm sag for wide-open or sandy tracks. Slavens: stiffen rear compression several clicks and rebound 2-3.", "why": "Stability and hold-up in soft, deep, rolling terrain", "source_ids": ["src-transmoto-sand-2019", "src-keefer-guide-2021", "src-keefer-effect-2024", "src-mxa-10sag", "src-slavens"]},
+    {"condition": "Mud", "change": "Ping: stiffen compression two or three clicks. MXA tire: if mud slows the track, drop the rear to 10 psi or lower; in shallow mud with high speed, keep standard pressure. Ping says mud weight does not change sag enough to matter.", "why": "Keeps the suspension up in its stroke; adds tire footprint", "source_ids": ["src-racerx-ping-2019", "src-mxa-tire-2012"]},
+    {"condition": "Hard-pack", "change": "Softer and faster settings (Keefer). Slavens: soften rear compression only. Red Bull: possibly less damping.", "why": "Bumps are closer together with square edges; the tire needs to track", "source_ids": ["src-keefer-tips-2025", "src-keefer-guide-2021", "src-slavens", "src-redbull-2023"]},
+    {"condition": "Soft loam or intermediate", "change": "More compression. Slavens: stiffen rear compression 2-4 clicks and leave rebound. Keefer: widely spaced large bumps may need slower rebound.", "why": "Larger, rolling bumps", "source_ids": ["src-slavens", "src-keefer-tips-2025", "src-keefer-guide-2021"]},
+    {"condition": "Rocky or rooty", "change": "Slavens: soften rear compression several clicks and soften rebound 2-4 clicks. MXA: raise tire pressure on rocky tracks.", "why": "Square-edged hits; pinch-flat risk", "source_ids": ["src-slavens", "src-mxa-tire-2012"]},
+    {"condition": "Ruts", "change": "Fork rebound that is too fast lets the front climb out of ruts; rebound that is too slow packs and reduces front contact (Keefer). Forum posters also stressed technique (front brake drag, looking ahead).", "why": "The front needs to settle and stay down in the rut", "source_ids": ["src-keefer-effect-2024", "src-keefer-shock-2021", "src-vital-ruts-2018"]},
+    {"condition": "Tight, slow track", "change": "Less sag (MXA example: 100mm instead of 105mm); fork height raised a little", "why": "Quicker turning", "source_ids": ["src-mxa-10sag", "src-mxa-dialing-2020"]},
+    {"condition": "Fast, open track", "change": "More sag; forks down; stiffer, especially for faster riders", "why": "Straight-line stability", "source_ids": ["src-mxa-10sag", "src-keefer-effect-2024", "src-keefer-tips-2025"]},
+    {"condition": "Heat, long motos, late in the moto", "change": "Expect shock fade (hot oil softer, hot nitrogen firmer compression), air fork pressure rise (MXA example: set about 4 psi low), and tire pressure rise (MXA: up to 6 psi rear and 3 psi front in three laps; start rear at 10 psi to reach about 14). Factory Connection says oversized bladder caps help shock consistency. Check air and sag the same way each time.", "why": "Damping and air springs change with temperature", "source_ids": ["src-mxa-20steps-2013", "src-mxa-heat-2025", "src-mxa-airheat-2022", "src-mxa-tire-2012", "src-vital-fc-2007", "src-keefer-tips-2025"]},
+    {"condition": "Rider weight", "change": "Match the spring or air rate to weight first. Keefer: stay near the factory air setting unless very light or very heavy; riders over 220 lb may add 0.5-1 psi of tire pressure. MXA: free sag shows whether the spring suits.", "why": "Sag and the spring decide where in the stroke the damping works", "source_ids": ["src-keefer-tips-2025", "src-keefer-guide-2021", "src-keefer-tire-2025", "src-mxa-dialing-2020", "src-mxa-finetune-2022"]},
+    {"condition": "Rider skill and speed", "change": "Faster, more confident riders need stiffer settings; slower, older or less aggressive riders softer ones. A supercross setup is too stiff for a typical outdoor track. MXA's published clicker settings are medians from mixed-skill testers.", "why": "Speed changes shaft velocity and the size of the hits", "source_ids": ["src-mxa-expert-2024", "src-keefer-tips-2025", "src-keefer-guide-2021", "src-mxa-clickers-2023"]}
+  ],
+  "disagreements": [
+    {"topic": "Kicking: rebound or compression first?", "positions": [
+      {"source_id": "src-mxa-20steps-2013", "says": "Kicking comes from incorrect rebound, not compression"},
+      {"source_id": "src-mxa-setup-2015", "says": "Four possible causes; rule of thumb is to try more compression before more rebound"},
+      {"source_id": "src-keefer-tips-2025", "says": "Bucking is often from compression that is too stiff, so try softer compression first; kicking on jump tops is hard to diagnose, so test both faster and slower rebound"},
+      {"source_id": "src-slavens", "says": "Straight-up kick means rebound too fast; sideways kick means too much compression or packing"}
+    ]},
+    {"topic": "What is a high-speed vs low-speed event", "positions": [
+      {"source_id": "src-keefer-guide-2021", "says": "LSC handles slow movement such as rollers and acceleration bumps; HSC handles fast hits such as G-outs and jump faces, and sets ride height"},
+      {"source_id": "src-mxa-setup-2015", "says": "Jump faces, landings, medium bumps and rollers are low-speed shock movement; small stutter bumps drive high-speed movement"}
+    ]},
+    {"topic": "Clicker step size", "positions": [
+      {"source_id": "src-keefer-tips-2025", "says": "1-2 clicks, one adjuster at a time"},
+      {"source_id": "src-mxa-setup-2015", "says": "Go big enough to feel; one click is hard to notice; fine-tune later"},
+      {"source_id": "src-racerx-ping-2017", "says": "Make large changes to find the direction"},
+      {"source_id": "src-redbull-2023", "says": "2-3 clicks"},
+      {"source_id": "src-slavens", "says": "2 clicks; HSC 1/4 to 1/2 turn"}
+    ]},
+    {"topic": "Which end to tune first", "positions": [
+      {"source_id": "src-mxa-20steps-2013", "says": "Shock first, then forks"},
+      {"source_id": "src-redbull-2023", "says": "Front first"},
+      {"source_id": "src-racerx-ping-2017", "says": "Whichever end bothers you most"}
+    ]},
+    {"topic": "Free or static sag spring check range", "positions": [
+      {"source_id": "src-mxa-20steps-2013", "says": "More than 35mm suggests the spring is too stiff; none suggests too soft"},
+      {"source_id": "src-mxa-finetune-2022", "says": "30-40mm on big bikes; over 40 too stiff, under 30 too soft"},
+      {"source_id": "src-racetech-sag", "says": "Uses 'static sag' to mean sag with the rider on board and 'free sag' for bike only, which conflicts with MXA's use of 'static sag' for bike-only sag"}
+    ]},
+    {"topic": "Maximum useful rider sag", "positions": [
+      {"source_id": "src-mxa-dialing-2020", "says": "Sag above 110mm alters geometry undesirably; MXA does not go below 105mm"},
+      {"source_id": "src-transmoto-sand-2019", "says": "WP: 112-116mm for fast sandy tracks"},
+      {"source_id": "src-mxa-10sag", "says": "Typical 97-105mm; a sandy, open track might run 110mm"}
+    ]},
+    {"topic": "How to measure sag", "positions": [
+      {"source_id": "src-racetech-sag", "says": "Rider stands on the pegs, no helper holding the bike, no bouncing; average the push and lift readings"},
+      {"source_id": "src-mxa-10sag", "says": "Rider in riding position with a helper steadying the bike; bounce to settle"},
+      {"source_id": "src-mxa-finetune-2022", "says": "Measure standing; bounce first; be consistent"},
+      {"source_id": "src-redbull-2023", "says": "Rider sits in riding position and bounces"}
+    ]},
+    {"topic": "Measure sag warm or cold", "positions": [
+      {"source_id": "src-mxa-20steps-2013", "says": "Set race sag after practice when possible, because hot and cold read differently"},
+      {"source_id": "src-redbull-2023", "says": "Let the engine cool before measuring sag"}
+    ]},
+    {"topic": "Steering head bearing preload", "positions": [
+      {"source_id": "src-mxa-headshake-2025", "says": "Loosest acceptable setting; tighter as a steering damper is not required"},
+      {"source_id": "src-mxa-finetune-2022", "says": "Set it so the front needs a slight push to fall, using it as a mild damper"}
+    ]},
+    {"topic": "Air fork pressure handling", "positions": [
+      {"source_id": "src-keefer-guide-2021", "says": "Stay within about 1 psi of factory unless very light or heavy; check cold"},
+      {"source_id": "src-keefer-tips-2025", "says": "Work in bar; stay within about 0.2-0.4 bar of factory; about 2 psi is one spring step; check cold"},
+      {"source_id": "src-mxa-airheat-2022", "says": "Set about 4 psi below target cold so it reaches target hot, or start slightly under-sprung"}
+    ]},
+    {"topic": "Does fork height help turning?", "positions": [
+      {"source_id": "src-racetech-forkinstall", "says": "Lowering the front end usually does not improve turning"},
+      {"source_id": "src-mxa-dialing-2020", "says": "Raising the fork tubes steepens the head angle and quickens turning; a few mm is noticeable"},
+      {"source_id": "src-vital-ruts-2018", "says": "Forum poster KurtJ99: fork height makes little difference"}
+    ]},
+    {"topic": "Rear axle position and front weight", "positions": [
+      {"source_id": "src-vital-tuck-2020", "says": "Forum split: one poster says a shorter wheelbase moves weight forward and makes the fork feel softer; another says moving the wheel forward takes weight off the front"},
+      {"source_id": "src-keefer-chain-2021", "says": "A shorter swingarm length improved front traction out of corners and reduced squat"},
+      {"source_id": "src-mxa-finetune-2022", "says": "Axle forward makes the shock feel stiffer; back makes it feel softer"}
+    ]},
+    {"topic": "Baseline tire pressure", "positions": [
+      {"source_id": "src-mxa-tire-2012", "says": "Start the front at 14 psi on four-strokes and the rear at 12; or start the rear at 10 to reach about 14 by lap three"},
+      {"source_id": "src-keefer-tips-2025", "says": "12-14 psi is typical"},
+      {"source_id": "src-keefer-tire-2025", "says": "Brand- and compound-specific pressures, mostly 12-14 psi"},
+      {"source_id": "src-redbull-2023", "says": "13 or 14 psi"}
+    ]},
+    {"topic": "Headshake from fork rebound", "positions": [
+      {"source_id": "src-mxa-headshake-2025", "says": "Fork rebound too slow (with a stiff fork) causes headshake on the gas"},
+      {"source_id": "src-keefer-effect-2024", "says": "Fork rebound too fast causes headshake on the gas"}
+    ]}
+  ],
+  "gaps": [
+    "No motocross-specific source found on checking shock nitrogen pressure or what a low charge feels like (search hits were car and mountain-bike sources).",
+    "No source found on spoke tension or wheel bearing condition as a mimic of suspension faults.",
+    "No step-by-step check for fork bushing wear (play test) from a specialist source.",
+    "No source gives a numeric threshold for when to stop clicking and revalve; only qualitative signals.",
+    "There is little on cold-weather effects (thicker oil) for motocross; heat effects are better covered.",
+    "Triumph TF and Yamaha/Honda/Kawasaki-specific air or coil fork differences were not covered beyond brand click sensitivity (Showa vs WP/KYB).",
+    "Terminology risk: 'static sag' means rider sag at Race Tech but bike-only sag at MXA. 'Sag too high/low' in Keefer and MXA refers to rear ride height, not the mm number. The app should normalize terms.",
+    "Linkage-bearing symptom claims come from a bearing vendor (Factory Links), which has a commercial interest. The Transmoto linkage diagnosis article body was not accessible.",
+    "src-pulpmx-mechanics-2024 duplicates Keefer's framework; do not count it as independent agreement.",
+    "Several Keefer tables (on/off throttle and action/reaction) dominate the symptom mapping. More independent tuner sources (Enzo, GPR, Stillwell, Factory Connection technical staff, Race Tech book) would strengthen it.",
+    "Mud setup is thin: only Ping's compression advice and MXA's tire pressures."
+  ],
+  "not_done": [
+    "Race Tech's Motorcycle Suspension Bible (paid book) was not read; it likely holds the deepest symptom tables.",
+    "Bones Bacon's MXA video lesson (This Week in MXA ep. 47) was not transcribed; the page has no text content.",
+    "Transmoto 'How-To: Diagnose & Grease Linkage Bearings' full text not retrieved (intro only).",
+    "Vital MX threads not read: 'Help w/ Washing the Front End', 'SFF Tuning tips', 'Twitchy front end solutions', 'Whats the deal with fork sag'.",
+    "The WP suspension troubleshooting guide referenced on ukgser (adventure-bike context) was not read.",
+    "Penske nitrogen charging blog (road racing) was not read.",
+    "MXA 'Suspension Tech' index, 'Bathroom faucet principles', 'Head-shake & the poor man's steering damper' and 'Fork oil height is the magic bullet' were not read.",
+    "No ThumperTalk, Enzo, GPR, Stillwell, Pro Circuit or Factory Connection technical pages were found; searches for those tuners returned no relevant pages.",
+    "Search budget used: about 44 web searches plus 40 page fetches."
+  ]
+}
