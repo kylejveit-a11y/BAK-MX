@@ -29,7 +29,7 @@ the app needs a manufacturer-page fitment check per part (the evidence fields in
 | KTM family | 3: full dealer and retailer catalogs (every brand), company registry | Wrapped up 2026-10-14 (partial, see below) | 8,738 listings: KTM Twins 968, Lings 1,463, Cycle Gear 2,729 unique parts across 192 bike-years (149 brands), MotoSport 3,368 across 60 bike-years 2025-2027 (229 brands); all in `ktm-family/parts.csv`; per-bike pages list bike-specific listings in full and count universal ones; 233-company registry |
 | Triumph | 1: genuine accessories (official dealer catalog), aftermarket search, rider and tester feedback; Cycle Gear and MotoSport catalogs | Done 2026-10-14 | 125 products (76 Triumph genuine accessories from triumphpartstore.com, 49 aftermarket: 5 high, 35 medium, 9 unverified), 31 findings, 5 builds; all 9 TF bike-years mapped. Retailer catalogs: Cycle Gear 1,273 parts (121 brands, all with part numbers), MotoSport 2,431 (208 brands, 2,280 with part numbers); 3,829 listings in `triumph/parts.csv` |
 | Yamaha | 1: maker-confirmed parts, rider and tester feedback; Yamaha genuine and GYTR; Cycle Gear and MotoSport catalogs | Done 2026-10-15 | 5,992 listings in `yamaha/parts.csv`: 46 researched parts (about 22 maker-confirmed), 155 Yamaha genuine / GYTR (yamahaonlineparts.com), Cycle Gear 2,470 (148 brands), MotoSport 3,321 (232 brands); 34 findings, 5 builds; all 63 YZ bike-years mapped |
-| Honda | 1 | Queued | |
+| Honda | 1: maker-confirmed parts, rider and tester feedback; Cycle Gear and MotoSport catalogs | Done 2026-10-15 | 5,158 listings in `honda/parts.csv`: 27 researched parts (12 maker-confirmed), Cycle Gear 2,033 (145 brands), MotoSport 3,098 (227 brands); 35 findings, 6 builds; all 28 CRF-R / RX bike-years mapped. Honda genuine accessories not readable from here |
 | Kawasaki | 1 | Queued | |
 
 ## KTM family: what pass 1 found and what pass 2 must do
@@ -142,3 +142,14 @@ airbox). Disagreements kept: YZ450F gearing (MXA taller, Keefer shorter), fork h
 whose page names a model but no years stay unmapped. Gaps: HGS, Arrow, Hinson, Vertex, JE, Pro-X, Hot Cams, GET, suspension
 tuners and the protection brands have no maker-confirmed numbers yet; YZ125X / YZ250X setup data is thin; 2026 YZ450F and
 2027 exhaust fitment is not maker-confirmed.
+
+## Honda: what pass 1 found
+
+Maker-confirmed exhaust part numbers from Yoshimura and Pro Circuit, with the year splits they show (Yoshimura 2021-24 vs
+2025-26 CRF450R; Akrapovič 2021-23 vs 2025-26; Pro Circuit CRF250R slip-on 22-24 vs 25-27). The 2027 CRF450R is a new
+platform (new engine, about 70 % new frame, 160 mm sprocket mounting so older rear sprockets do not fit; Cycle News, Ultimate
+Motorcycling). Keefer baselines for CRF450R 2024-26 and CRF250R 2024-26, his reduced chassis torque values, map and traction
+control by condition, gearing (a 14T front is blocked by the clutch slave on the CRF450R). Disagreements kept: 2025 CRF450R
+dyno (MXA 55.34 hp vs Dirt Rider 51.1 hp), 2027 dimensions between sources. Gaps: FMF's own pages and several Keefer pages
+did not load; no HRC tuning tool for 2021+ found; no maker-confirmed pistons or cams for 2021+; no CRF250RX feedback; no
+confirmed 2027 aftermarket fitment.
