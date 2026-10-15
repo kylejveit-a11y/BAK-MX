@@ -195,7 +195,8 @@ export const talkingToYourTuner:string[]=[
  'If a change made no difference, say so.',
 ];
 
-/** Where specialists disagree, and how BAK handles it: ask the question that decides, then say there is another view. */
+/** Where specialists disagree, and how BAK handles it: ask the question that decides, then say there is another view.
+ *  The rear-kick and rear-grip readings were confirmed by Kyle on 2026-10-15. */
 export const openQuestions:{topic:string;sides:string;bak:string}[]=[
  {topic:'Rear kick over braking bumps',sides:'One maker table says rebound too fast; many tuners find high-speed compression too firm more often; others name packing or too-soft compression.',bak:'Ask which way it kicks and whether it builds through the bumps. Straight up after one big hit: slower rebound. Sideways off the edges: softer compression. Building through the series: faster rebound. Also bottoming: more compression.'},
  {topic:'Poor rear grip',sides:'One maker says the shock is too stiff and should go softer; another says faster rebound and firmer compression.',bak:'Ask whether the rear skips and chatters across the bumps (too stiff or riding high: softer, or more sag) or squats and wallows as traction fades (too soft or riding low: firmer compression), and whether grip fades through a series (rebound faster).'},

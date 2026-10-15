@@ -53,7 +53,22 @@ result for different reasons"):
   chatters, riding high = too firm (softer, high-speed first if it rides high, then sag); squats and wallows as grip fades = too soft
   (firmer); grip fading through a series = rebound too slow (faster); spins on smooth ground too = power delivery.
 
-Kyle to confirm these readings.
+Confirmed by Kyle on 2026-10-15.
+
+## Tester baselines (private reasoning context), 2026-10-15
+
+`specialist/baselines.json`: 156 published tester baseline settings (fork and shock spring or air, clickers, fork height, sag, with rider
+weight, pace and conditions where given) for 122 bike-years, mostly Keefer Inc Testing and MXA, with sources. Kyle's direction: use them for
+knowledge and logic, not rider-facing. `scripts/suspension/build_tester_baselines.py` writes `server/tester-baselines.ts` without source
+names; Ask BAK receives the exact bike's entries (or the nearest model year, marked) as `tester_baselines_private`, is told never to state
+the numbers or attribute them, and a reply that names a tester or magazine is treated as a rule break and repaired. Gaps: 250/300 XC,
+250 XC-F, FC 350, FX 350, MC 125, MC 350F, CRF450RX, KX250X, TF 450-RC, and most 2027 bikes.
+
+## Guided handling-problem intake, 2026-10-15
+
+Ask BAK's start screen offers "Handling problem?": tap the complaint (front end, rear end, over bumps), the deciding question from that
+symptom guide, on or off the gas, where on the track and the dirt, then an optional note. Every step has "Type it myself"; the result is
+written into the message box in plain rider language for the rider to edit and send (`shared/triage.ts`, `src/Triage.tsx`).
 
 ## Disagreements kept (selection)
 

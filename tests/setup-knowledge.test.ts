@@ -27,3 +27,13 @@ test('specialist knowledge separates causes that feel the same, without naming s
  assert.ok(openQuestions.some(q=>/rear grip/i.test(q.topic))&&openQuestions.some(q=>/rear kick/i.test(q.topic)));
  assert.doesNotMatch(text,/Keefer|Race Tech|MXA|Motocross Action|Bones|Slavens|Enzo|Factory Connection|Pro Circuit|Teknik|Öhlins|REP|JBI/);
 });
+test('tester baselines reach the model privately, and naming a tester is a rule break',async()=>{
+ const {buildEngineeringInput,responseViolations,testerBaselinesFor}=await import('../server/engineering.ts');
+ const bike:any={id:'b',user_id:'u',manufacturer:'Yamaha',model:'YZ450F',model_year:2025,variant:'standard',region:'US',configuration:{}};
+ const input:any=buildEngineeringInput(bike,[],[],'rear kicks on braking bumps');
+ assert.ok(input.tester_baselines_private?.settings?.length,'exact-bike baselines present');
+ assert.doesNotMatch(JSON.stringify(input.tester_baselines_private),/Keefer|MXA|Motocross Action/);
+ assert.match(String(testerBaselinesFor({manufacturer:'Yamaha',model:'YZ450F',model_year:2030})?.model_year??'none'),/none|not the rider/);
+ const reply:any={kind:'answer',summary:'Keefer runs it slower.',answer:'x',claims:[],evidence_ids:[],specifications:[],confidence:'GENERAL',next_step:null,hypotheses:[],unknowns:[],setup_changes:[]};
+ assert.ok(responseViolations(reply,[]).some(v=>/names a tester/.test(v)));
+});

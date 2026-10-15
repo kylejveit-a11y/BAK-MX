@@ -9,6 +9,15 @@ import {getMechanismLibrary} from '../shared/mechanisms.ts';
 import {setupKnowledge} from '../shared/setup-knowledge.ts';
 import {manufacturerSetupGuidance} from '../shared/manufacturer-setup-guidance.ts';
 import {installedPartsContext,withoutBuildSheet} from './installed-parts-context.ts';
+import {testerBaselines} from './tester-baselines.ts';
+
+/** Published tester settings for this exact bike, or the nearest model year of the same model (marked). Private reasoning context. */
+export function testerBaselinesFor(bike:{manufacturer:string;model:string;model_year:number}){
+ const exact=testerBaselines[`${bike.manufacturer}|${bike.model}|${bike.model_year}`];
+ if(exact)return {model_year:'same',settings:exact};
+ for(const d of [1,-1,2,-2]){const near=testerBaselines[`${bike.manufacturer}|${bike.model}|${bike.model_year+d}`];if(near)return {model_year:`${bike.model_year+d}, not the rider's year: chassis or valving may differ`,settings:near};}
+ return null;
+}
 
 /** Ask BAK answer path.
  *  1. plan     – a small call names the published facts to look up (never blocks the answer)
@@ -16,7 +25,7 @@ import {installedPartsContext,withoutBuildSheet} from './installed-parts-context
  *  3. answer   – one call writes the reply; every factual claim carries a confidence tier
  *  4. check    – code verifies citations and exact published values; one repair attempt, then an honest failure
  *  A backup model is tried when the provider fails. Model names come only from configuration. */
-export const PROMPT_VERSION='mx-engineering-16';
+export const PROMPT_VERSION='mx-engineering-17';
 
 /** How solid a claim is. PUBLISHED must cite retrieved evidence; nothing may be presented above its real tier. */
 export const TIERS=['PUBLISHED','RIDER_SAVED','ENGINEERING','GENERAL','COMMUNITY','UNKNOWN'] as const;
@@ -32,6 +41,7 @@ export function buildEngineeringInput(bike:Bike|null,history:Message[],claims:Cl
   setup_knowledge:setupKnowledge(),
   bike:bike?{...bike,configuration:withoutBuildSheet(usConfiguration(bike.configuration))}:null,
   ...(bike&&installedPartsContext(bike.configuration)?{installed_parts:installedPartsContext(bike.configuration)}:{}),
+  ...(bike&&testerBaselinesFor(bike)?{tester_baselines_private:testerBaselinesFor(bike)}:{}),
   ...(bike&&manufacturerSetupGuidance(bike)?{manufacturer_setup_guidance:manufacturerSetupGuidance(bike)}:{}),
   ...(bike?{}:{no_build:'The rider chose to ask without a build. There is no saved bike and no published evidence for this question. Follow NO BUILD SELECTED.'}),
   reviewed_workshop:bike?workshopContext(bike,history,message):null,
@@ -108,6 +118,7 @@ export function responseViolations(r:Parsed,claims:Claim[]):string[]{
  if(r.kind==='diagnosis'&&!r.next_step)found.push('A diagnosis must give one next step.');
  if(r.kind!=='diagnosis'&&!r.answer.trim())found.push('The answer was empty.');
  if(/\b[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\b/i.test(r.summary+' '+r.answer))found.push('The rider-facing text shows an internal identifier. Name the source in plain words instead.');
+ if(/\b(Keefer|Motocross Action|MXA|Bones Bacon|Slavens|Teknik)\b/i.test(JSON.stringify(r)))found.push('The rider-facing text names a tester, magazine or tuner. Say what suspension tuners and testers commonly find, in your own words, without names or their numbers.');
  return [...new Set(found)];
 }
 export function validateResponse(value:unknown,claims:Claim[]):EngineeringResponse{
@@ -144,6 +155,9 @@ data_gaps: list any published data that was missing and would have improved this
 
 SETUP REASONING
 For setup and handling questions reason from setup_knowledge the way a specialist suspension tuner does. Map the rider's words through its vocabulary and match the symptom guides by meaning, not exact words. The same feel often has different causes and opposite fixes: use the rider's own tell-tale details (on or off the gas, where in the corner, bars or pegs, first hit or a series, bounce off or sink, which way it kicks, rear high or low) to pick the cause. When those details are missing and the causes point in opposite directions, ask the guide's one separating question before prescribing, or give both branches briefly ("if it kicks straight up..., if it kicks sideways..."). Follow work_order: spring or air for the rider's weight and sag before balance, balance before clickers; say so when a fault is upstream of the clickers, and point out mechanical_mimics the symptom fits before any setting change. Recommend one change at a time, a small step from the rider's current setting, and how to test it (same section, a few laps, back to the baseline). When when_clickers_run_out applies, say the fix is springs, oil volume or valving, and use talking-to-the-tuner terms the rider can take to a shop. Use air_fork_rules for air forks and conditions for track type and weather. When manufacturer_setup_guidance is present it is the bike maker's own published symptom table for this exact bike: for stock suspension use it as the starting direction where it covers the symptom and say it comes from the owner's service manual; where the rider's tell-tale details point to a different cause (open_questions), follow the tell-tale, explain why in one line, and mention the maker's direction as the alternative. Present specialist knowledge as what suspension tuners and testers commonly find, never as a named person's or company's advice. Clicker positions are counted out from lightly seated; fewer clicks out means more damping. Do not state a total click range unless evidence gives one. authored_hypotheses are general mechanisms, not a verified diagnosis.
+
+TESTER BASELINES (PRIVATE)
+tester_baselines_private holds settings that experienced testers published for this bike (rider weight, pace and conditions where given). It is reasoning context only, never rider-facing: do not state its numbers, do not quote it, do not say a tester, magazine or person runs a setting, and do not present it as a recommendation or as published evidence. Use it to judge direction and size: whether the rider's current settings are far from where experienced riders run this bike, which direction testers commonly move from stock for a rider of similar weight and pace, and which adjusters testers found sensitive on this bike. Express that in your own words ("riders of your weight usually run this shock a little firmer than stock") and keep every concrete step a small move from the rider's own current setting. When its model year differs from the rider's, weigh it less.
 
 INSTALLED PARTS
 installed_parts is the rider's build sheet: parts fitted by system, systems confirmed stock, and systems not recorded. A part changes what applies: stock maps, jetting, clicker baselines and spring advice may no longer fit a modified system, so say when your answer depends on a fitted part. A not_recorded system is unknown, not stock: ask about it only when the answer turns on it. research notes on a part are attributed research (maker claims, tester observations, caveats such as supporting parts, required maps or noise limits): use them, name them as maker claims or tester reports, and never present a claimed gain as measured fact or invent a spec the notes do not give. A part typed by the rider is their description, unverified.
