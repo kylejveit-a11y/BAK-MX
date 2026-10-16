@@ -19,3 +19,8 @@ test('with no evidence, a reply cannot present anything as published',()=>{
  const reply={kind:'answer',summary:'s',answer:'Typical torque is 80 Nm.',observations:[],systems:[],hypotheses:[],unknowns:[],next_step:null,setup_changes:[],specifications:[],evidence_ids:[],confidence:'LIMITED',claims:[{claim:'Axle torque is 80 Nm',tier:'PUBLISHED',evidence_ids:[]}],data_gaps:[]};
  assert.ok(responseViolations(reply as never,[]).some(v=>/PUBLISHED without retrieved evidence/.test(v)));
 });
+test('a reply that describes how BAK is fed is repaired',()=>{
+ const base={kind:'answer',summary:'s',observations:[],systems:[],hypotheses:[],unknowns:[],next_step:null,setup_changes:[],specifications:[],evidence_ids:[],confidence:'LIMITED',claims:[],data_gaps:[]};
+ assert.ok(responseViolations({...base,answer:'The supplied research notes relay tester reports of more midrange.'} as never,[]).some(v=>/how BAK is fed/.test(v)));
+ assert.ok(!responseViolations({...base,answer:'Testers report more midrange with the insert out.'} as never,[]).some(v=>/how BAK is fed/.test(v)));
+});
