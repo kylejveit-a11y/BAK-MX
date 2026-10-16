@@ -4,12 +4,10 @@ import type {Bike} from '../shared/types';
 import {partSystems,readInstalled,writeInstalled,partLabel,MAX_PARTS,type InstalledPart,type PartSystem} from '../shared/installed-parts';
 import {partsForBike,type CatalogPart} from './partsCatalog';
 import {api} from './client';
-import {partTypes,typeOf} from './partTypes';
-import {workProviders,type WorkProvider} from '../shared/work-providers';
+import {NOTE_HINT,WORK,providersFor,cleanName,pickerChoices,typesWithCounts,choicesOfType,brandsIn,productsOf,type Work} from '../shared/parts-picker';
 import {fuelSystem,fuelSystemLabel} from '../shared/fuel-system';
 
 const ICON:Record<PartSystem,typeof Flame>={exhaust:Flame,suspension:MoveVertical,engine:Cog,clutch:Disc,tuning:Cpu,intake:Wind,gearing:LinkIcon,brakes:Disc3,controls:Hand,chassis:Frame,wheels:CircleDot,protection:Shield,body:Layers};
-const NOTE_HINT:Partial<Record<PartSystem,string>>={suspension:'Who revalved it, spring rates, oil height, anything non-stock inside',exhaust:'Insert in or out, spark arrester, packing age',tuning:'Map name or tuner, fuel used',gearing:'Exact sprocket sizes if not listed above',engine:'Hours on the top end, compression, other work',wheels:'Tire model and pressures you run'};
 type Value=ReturnType<typeof readInstalled>;
 /** Garage: what is fitted to this bike, system by system. Stock, changed, or not recorded yet. */
 export function BikeParts({bike,onSaved,onAsk}:{bike:Bike;onSaved:(b:Bike)=>void;onAsk?:(text:string)=>void}){
@@ -45,47 +43,6 @@ export function BikeParts({bike,onSaved,onAsk}:{bike:Bike;onSaved:(b:Bike)=>void
  </section>;
 }
 
-const OEM=/^(ktm|ktm powerparts|husqvarna|husqvarna technical accessories|gasgas|gas gas|gasgas technical accessories|yamaha|yamaha gytr|yamaha genuine accessories|gytr|honda|hrc|kawasaki|triumph|triumph genuine accessories)$/i;
-const MAKERS=['Akrapovič','FMF','Pro Circuit','Yoshimura','Rekluse','Hinson','WP','Xtrig','Renthal','Acerbis','Polisport','Brembo','Galfer','Twin Air','Neken','Hebo','Moto-Master','Factory Effex','Tusk','Moose Racing','Cycra'];
-/** One name per brand: Akrapovič sold through KTM is Akrapovič; an FMF muffler sold by KTM is FMF. */
-function brandOf(c:CatalogPart){
- if(/akrapovi/i.test(c.brand+' '+c.name))return 'Akrapovič';
- if(OEM.test(c.brand.trim())){const m=MAKERS.find(x=>new RegExp('\\b'+x.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\b','i').test(c.name));if(m)return m;return /^ktm/i.test(c.brand)?'KTM PowerParts':canonBrand(c.brand);}
- return canonBrand(c.brand.replace(/\s*\(.*\)$/,''));
-}
-/** Sellers spell the same maker several ways; riders should see one row per maker. */
-const CANON:[RegExp,string][]=[[/^moose( racing)?$/i,'Moose Racing'],[/^vortex( racing)?$/i,'Vortex'],[/^graves( motorsports)?$/i,'Graves Motorsports'],[/^helix( racing products)?$/i,'Helix Racing'],
- [/^all balls( racing)?$/i,'All Balls Racing'],[/^scotts?( performance)?( \/ brp)?$|^brp$/i,'Scotts / BRP'],[/^raptor( titanium)?$/i,'Raptor'],[/^galfer( braking systems)?$/i,'Galfer'],[/^koubalinks?$/i,'KoubaLink'],
- [/^jt( sprockets)?$/i,'JT Sprockets'],[/^supersprox$/i,'Supersprox'],[/^ebc( brakes)?$/i,'EBC'],[/^pro ?taper$/i,'ProTaper'],[/^pro[- ]?x$/i,'Pro-X'],[/^uni( filter)?$/i,'Uni Filter'],[/^ktm powerparts.*$/i,'KTM PowerParts'],
- [/^husqvarna( technical accessories| motorcycles)?$/i,'Husqvarna Technical Accessories'],[/^gas ?gas( technical accessories| parts & accessories)?$/i,'GasGas Technical Accessories'],[/^d\.?i\.?d$/i,'D.I.D'],[/^xtrig$/i,'Xtrig']];
-function canonBrand(b:string){const t=b.trim();for(const [re,name] of CANON)if(re.test(t))return name;return t;}
-/** The part name without its brand and the fitment the shop pasted into it ("450/500 2023-2026", "350/450 SX-F/XC-F"). */
-function cleanName(brand:string,name:string){
- let n=name;
- for(const w of [brand,'Akrapovič','Akrapovic','KTM PowerParts','KTM'])if(n.toLowerCase().startsWith(w.toLowerCase()+' '))n=n.slice(w.length+1);
- n=n.replace(/^(?:(?:KTM|Husqvarna|Husky|GAS ?GAS|GasGas)\s*[\/,&]?\s*)+(?=\S)/i,'').replace(/^[\/\s-]+/,'').replace(/"/g,'').replace(/\b(19|20)\d{2}\s*-\s*(19|20)?\d{2}\b/g,'').replace(/\b\d{2}-\d{2}\b/g,'')
-  .replace(/\b\d{2,3}(\/\d{2,3})+\b/g,'').replace(/\b(SX-?F|XC-?F|XCF-W|EXC-?F|SMR|SX|XC|MX\/Enduro)(\/(SX-?F|XC-?F|XCF-W|EXC-?F|SMR|SX|XC))*\b/gi,'')
-  .replace(/\s*,\s*(?=,|$)/g,'').replace(/\s{2,}/g,' ').replace(/[\s,\-/]+$/,'').trim();
- return n||name;
-}
-/** Work that isn't a boxed part; picking one asks who did it and what they did. */
-type Work={label:string;kind?:WorkProvider['work'];detail:string;example:string};
-const WORK:Partial<Record<PartSystem,Work[]>>={
- suspension:[{label:'Fork revalved',kind:'suspension',detail:'Valving, springs, oil height',example:'e.g. stiffer mid-valve, 0.50 springs'},{label:'Shock revalved',kind:'suspension',detail:'Valving, spring rate',example:'e.g. more low-speed comp, 5.4 spring'},
-  {label:'Fork serviced',kind:'suspension',detail:'Hours since, oil used',example:'e.g. 20 hours ago, stock valving'},{label:'Shock serviced',kind:'suspension',detail:'Hours since',example:'e.g. 20 hours ago'}],
- tuning:[{label:'ECU flashed or remapped',kind:'ecu',detail:'Map name or number, what it’s set up for',example:'e.g. green map, pump gas, FMF pipe'}],
- engine:[{label:'Head ported',detail:'What was done',example:'e.g. ported and polished, new valves'},{label:'Top end rebuilt',detail:'Hours since, piston used',example:'e.g. 5 hours ago, Vertex high comp'},{label:'Bottom end rebuilt',detail:'Hours since',example:'e.g. 30 hours ago'}],
- clutch:[{label:'Clutch rebuilt',detail:'Plates and springs used',example:'e.g. new plates, heavy springs'}],
-};
-/** Shops that list this exact model first, then this make, then shops with no bike list; one row per shop. The service name is
- *  shown only when the shop lists this model, so a 300 SX never reads "KTM 450 mail-in tuning". */
-function providersFor(kind:WorkProvider['work'],make:string,model:string){
- const rank=(p:WorkProvider)=>p.models.includes(make+'|'+model)?2:p.makes.includes(make)?1:0;
- const m=new Map<string,WorkProvider>();
- for(const p of workProviders.filter(p=>p.work===kind&&(!p.makes.length||p.makes.includes(make))).sort((a,b)=>rank(b)-rank(a)))if(!m.has(p.brand))m.set(p.brand,p);
- return [...m.values()].map(p=>({...p,exact:rank(p)===2||!p.models.length,label:rank(p)===2?p.name:kind==='ecu'?'ECU flash and mapping':'Revalves and suspension service'}));
-}
-type Choice={brand:string;name:string;pn:string;r?:string;verified:boolean;what:string;caution:string;testers:string[];type:string|null};
 type Screen={id:'home'}|{id:'type'}|{id:'work';work:Work}|{id:'detail';work:Work;who:string;r?:string}|{id:'brand';type:string|null}|{id:'product';type:string|null;brand:string}|{id:'custom';brand:string;type:string|null};
 
 function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSystem;bike:Bike;value:Value;catalog:CatalogPart[]|null;busy:boolean;close:()=>void;save:(v:Value)=>void}){
@@ -99,19 +56,12 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
  useEffect(()=>{dialog.current?.focus();const esc=(e:KeyboardEvent)=>{if(e.key==='Escape')closeRef.current()};addEventListener('keydown',esc);document.body.classList.add('sheet-open');return()=>{removeEventListener('keydown',esc);document.body.classList.remove('sheet-open')}},[]);
  useEffect(()=>{dialog.current?.querySelector('.sheet-body')?.scrollTo(0,0)},[stack.length]);
  // the listed parts for this bike and system, one row per brand and name, with small service parts kept out
- const choices=useMemo(()=>{const m=new Map<string,Choice>();
-  for(const c of catalog??[]){if(c.system!==system||c.service||(fuel==='injected'&&c.fuel==='c')||(fuel==='carburetor'&&c.fuel==='i'))continue;const brand=brandOf(c),name=cleanName(brand,c.name),type=typeOf(system,c.name);
-   const k=(brand+'|'+name).toLowerCase(),prev=m.get(k);
-   if(!prev)m.set(k,{brand,name,pn:c.pn.split(/[\s,]+/)[0]??'',r:c.r,verified:c.verified,what:c.what,caution:c.caution,testers:c.testers,type});
-   else if(c.r&&!prev.r)m.set(k,{...prev,r:c.r,verified:c.verified,what:c.what,caution:c.caution,testers:c.testers});}
-  return [...m.values()];},[catalog,system,fuel]);
- const main=choices.filter(c=>c.type||c.r);
- const types=(partTypes[system]??[]).map(t=>({label:t.label,count:main.filter(c=>c.type===t.label).length})).filter(t=>t.count>0||!catalog);
+ const choices=useMemo(()=>pickerChoices(catalog,system,fuel),[catalog,system,fuel]);
+ const types=typesWithCounts(choices,system,!!catalog);
  const firstStep=():Screen=>types.length||WORK[system]?{id:'type'}:{id:'brand',type:null};
  const [detail,setDetail]=useState('');
- const inType=(type:string|null)=>type?main.filter(c=>c.type===type):choices;
- const brandsFor=(type:string|null)=>{const m=new Map<string,{n:number;r:number}>();for(const c of inType(type)){const v=m.get(c.brand)??{n:0,r:0};v.n++;if(c.r)v.r++;m.set(c.brand,v)}
-  return [...m.entries()].sort((a,b)=>b[1].r-a[1].r||b[1].n-a[1].n||a[0].localeCompare(b[0]))};
+ const inType=(type:string|null)=>choicesOfType(choices,type);
+ const brandsFor=(type:string|null)=>brandsIn(inType(type));
  const key=(p:{b:string;n:string;p?:string})=>(p.b+'|'+(p.p||p.n)).toLowerCase();
  const pickedKeys=new Set(picked.map(key));
  const add=(p:InstalledPart)=>{if(picked.length+others.length>=MAX_PARTS||pickedKeys.has(key(p))){setStack([{id:'home'}]);return;}setPicked([...picked,p]);setMode('changed');setQuery('');setStack([{id:'home'}]);};
@@ -186,7 +136,7 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
       <Row label={<b>Another brand</b>} detail="Type it" onClick={()=>{setCustom({b:query,n:screen.type??'',p:''});push({id:'custom',brand:query,type:screen.type})}}/>
       {screen.type&&<Row label={<b>I don’t know the brand</b>} detail={`Add as “${screen.type}”`} chev={false} onClick={()=>add({s:system,b:'',n:screen.type!,x:true})}/>}
      </ul></>})()}
-    {screen.id==='product'&&(()=>{const all=inType(screen.type).filter(c=>c.brand===screen.brand),list=all.filter(c=>match(c.name+' '+c.pn)).sort((a,b)=>Number(!!b.r)-Number(!!a.r)||Number(b.verified)-Number(a.verified)||a.name.localeCompare(b.name));return <>
+    {screen.id==='product'&&(()=>{const all=productsOf(inType(screen.type),screen.brand),list=all.filter(c=>match(c.name+' '+c.pn));return <>
      {all.length>8&&search(`Search ${screen.brand}`)}
      <ul className="nav-list">
       {list.map(c=>{const ip:InstalledPart={s:system,b:c.brand,n:c.name,...(c.pn?{p:c.pn}:{}),...(c.r?{r:c.r}:{})},on=pickedKeys.has(key(ip));return <Row key={c.name+c.pn} selected={on}

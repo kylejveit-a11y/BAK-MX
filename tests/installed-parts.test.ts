@@ -63,7 +63,7 @@ test('rider-facing parts notes name no tester or magazine and show no internal r
 
 import {fuelSystem} from '../shared/fuel-system.ts';
 import {workProviders} from '../shared/work-providers.ts';
-import {typeOf} from '../src/partTypes.ts';
+import {typeOf} from '../shared/part-types.ts';
 import {buildEngineeringInput} from '../server/engineering.ts';
 
 test('fuel system: four-strokes and newer two-strokes are injected, older two-strokes and YZ two-strokes are carbureted',()=>{

@@ -1,4 +1,4 @@
-import type {PartSystem} from '../shared/installed-parts';
+import type {PartSystem} from './installed-parts.ts';
 /** What kind of change, per system, in rider words. A listed part belongs to the first type its name matches; small
  *  service bits (springs, end caps, stickers, bolts) match none and stay out of the picker unless the rider asks. */
 export type PartType={label:string;match:RegExp};
