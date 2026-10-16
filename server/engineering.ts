@@ -10,6 +10,8 @@ import {setupKnowledge} from '../shared/setup-knowledge.ts';
 import {manufacturerSetupGuidance} from '../shared/manufacturer-setup-guidance.ts';
 import {installedPartsContext,withoutBuildSheet} from './installed-parts-context.ts';
 import {partSystems} from '../shared/installed-parts.ts';
+import {cleanGarageUpdates} from '../shared/garage-updates.ts';
+import {allGarageFields} from '../shared/garage-fields.ts';
 import {fuelSystem,fuelSystemLabel} from '../shared/fuel-system.ts';
 import {testerBaselines} from './tester-baselines.ts';
 
@@ -27,7 +29,7 @@ export function testerBaselinesFor(bike:{manufacturer:string;model:string;model_
  *  3. answer   – one call writes the reply; every factual claim carries a confidence tier
  *  4. check    – code verifies citations and exact published values; one repair attempt, then an honest failure
  *  A backup model is tried when the provider fails. Model names come only from configuration. */
-export const PROMPT_VERSION='mx-engineering-22';
+export const PROMPT_VERSION='mx-engineering-23';
 
 /** How solid a claim is. PUBLISHED must cite retrieved evidence; nothing may be presented above its real tier. */
 export const TIERS=['PUBLISHED','RIDER_SAVED','ENGINEERING','GENERAL','COMMUNITY','UNKNOWN'] as const;
@@ -72,6 +74,7 @@ export const responseSchema=z.object({
  claims:z.array(z.object({claim:text,tier:z.enum(TIERS),evidence_ids:z.array(z.string()).max(10)}).strict()).max(12),
  data_gaps:z.array(z.string().min(1).max(300)).max(5),
  confidence:z.enum(['LIMITED','SUPPORTED']),
+ garage_updates:z.array(z.object({type:z.enum(['part','setting']),system:z.string().max(40),brand:z.string().max(60),name:z.string().max(90),field:z.string().max(40),value:z.string().max(120),current:z.string().max(120)}).strict()).max(8).default([]),
 }).strict();
 
 const str={type:'string'},arr={type:'array',items:str};
@@ -88,6 +91,7 @@ export const responseJsonSchema=obj({
  claims:{type:'array',items:obj({claim:str,tier:{type:'string',enum:[...TIERS]},evidence_ids:arr})},
  data_gaps:arr,
  confidence:{type:'string',enum:['LIMITED','SUPPORTED']},
+ garage_updates:{type:'array',items:obj({type:{type:'string',enum:['part','setting']},system:str,brand:str,name:str,field:str,value:str,current:str})},
 });
 
 type Parsed=z.infer<typeof responseSchema>;
@@ -125,7 +129,7 @@ export function responseViolations(r:Parsed,claims:Claim[]):string[]{
  if(r.kind!=='diagnosis'&&!r.answer.trim())found.push('The answer was empty.');
  if(/\b[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\b/i.test(r.summary+' '+r.answer))found.push('The rider-facing text shows an internal identifier. Name the source in plain words instead.');
  if(/\b(Keefer|Motocross Action|MXA|Bones Bacon|Slavens|Teknik)\b/i.test(JSON.stringify(r)))found.push('The rider-facing text names a tester, magazine or tuner. Say what suspension tuners and testers commonly find, in your own words, without names or their numbers.');
- if(/\b(research notes?|supplied (notes|data|research|context)|provided (notes|data|context)|installed_parts|tester_baselines|setup_knowledge|reviewed_workshop|verified_claims|authored_hypotheses)\b/i.test(JSON.stringify({a:r.answer,s:r.summary,c:r.setup_changes,n:r.next_step})))found.push('The rider-facing text describes how BAK is fed (research notes, supplied data, input field names). Speak plainly: "testers report", "the maker claims", "your build sheet shows".');
+ if(/\b(research notes?|supplied (notes|data|research|context)|provided (notes|data|context)|installed_parts|tester_baselines|setup_knowledge|reviewed_workshop|verified_claims|authored_hypotheses|garage_updates)\b/i.test(JSON.stringify({a:r.answer,s:r.summary,c:r.setup_changes,n:r.next_step})))found.push('The rider-facing text describes how BAK is fed (research notes, supplied data, input field names). Speak plainly: "testers report", "the maker claims", "your build sheet shows".');
  return [...new Set(found)];
 }
 export function validateResponse(value:unknown,claims:Claim[]):EngineeringResponse{
@@ -173,8 +177,15 @@ TESTER BASELINES (PRIVATE)
 tester_baselines_private holds settings that experienced testers published for this bike (rider weight, pace and conditions where given). It is reasoning context only, never rider-facing: do not state its numbers, do not quote it, do not say a tester, magazine or person runs a setting, and do not present it as a recommendation or as published evidence. Use it to judge direction and size: whether the rider's current settings are far from where experienced riders run this bike, which direction testers commonly move from stock for a rider of similar weight and pace, and which adjusters testers found sensitive on this bike. Express that in your own words ("riders of your weight usually run this shock a little firmer than stock") and keep every concrete step a small move from the rider's own current setting. When its model year differs from the rider's, weigh it less.
 
 INSTALLED PARTS
-installed_parts is the rider's build sheet: parts fitted by system, systems confirmed stock, and systems not recorded. A part changes what applies: stock maps, jetting, clicker baselines and spring advice may no longer fit a modified system, so say when your answer depends on a fitted part. A not_recorded system is unknown, not stock: ask about it only when the answer turns on it. research notes on a part are attributed research (maker claims, tester observations, caveats such as supporting parts, required maps or noise limits): use them, name them as maker claims or tester reports (never as research notes or supplied data), and never present a claimed gain as measured fact or invent a spec the notes do not give. A part typed by the rider is their description, unverified. The Garage build sheet groups parts as: ${partSystems.map(x=>x.label+' ('+x.hint+')').join('; ')}. When a rider wants something recorded, name the section it goes under; you cannot save to the Garage yourself. rider_detail on a part or piece of work is the rider's own note (map name, valving, hours): use it, unverified. A fitted ECU flash, remap or aftermarket ECU means the stock maps and stock fuelling advice no longer apply; ask which map is loaded when it matters.
+installed_parts is the rider's build sheet: parts fitted by system, systems confirmed stock, and systems not recorded. A part changes what applies: stock maps, jetting, clicker baselines and spring advice may no longer fit a modified system, so say when your answer depends on a fitted part. A not_recorded system is unknown, not stock: ask about it only when the answer turns on it. research notes on a part are attributed research (maker claims, tester observations, caveats such as supporting parts, required maps or noise limits): use them, name them as maker claims or tester reports (never as research notes or supplied data), and never present a claimed gain as measured fact or invent a spec the notes do not give. A part typed by the rider is their description, unverified. The Garage build sheet groups parts as: ${partSystems.map(x=>x.label+' ('+x.hint+')').join('; ')}. When a rider wants something recorded, name the section it goes under; propose it in garage_updates. rider_detail on a part or piece of work is the rider's own note (map name, valving, hours): use it, unverified. A fitted ECU flash, remap or aftermarket ECU means the stock maps and stock fuelling advice no longer apply; ask which map is loaded when it matters.
 fuel_system says whether this bike is fuel injected or carbureted. On a fuel-injected bike never suggest jetting, needle, float or carburetor changes: fuelling changes go through the map switch, the maker's tuning app or tool, an ECU flash or a tuner. On a carbureted bike never suggest ECU maps for fuelling. When it is not on file and the answer turns on it, ask.
+
+GARAGE UPDATES
+When the rider tells you something about their bike that belongs in the Garage, propose it in garage_updates so they can save it with one tap; you cannot save it yourself. Only propose what the rider stated in their own words in this message or this conversation, never a value you suggested or inferred. When bike is null, garage_updates is empty.
+- A part they fitted or work done: type "part", system one of ${partSystems.map(x=>x.key).join(', ')} (${partSystems.map(x=>x.key+' = '+x.hint).join('; ')}), brand and name as they said it, value = any detail they gave (map name, valving, rates), field "" and current "".
+- A setting: type "setting", field one of ${allGarageFields.map(f=>f.key).join(', ')}, value exactly as they stated it (clickers as they count them, e.g. "12 out"; numeric fields as a plain number in the field's unit), current = what the bike's configuration has saved now ("" if nothing).
+- If what they state differs from what the Garage has saved, say so in one line ("Your Garage has fork compression at 12; you said 14") and answer on what they said. If it matches what is saved, propose nothing.
+- Never propose a change because you recommend it: a setup_change is a suggestion to try, not a Garage update. Tell them they can save it with the button below your reply only when garage_updates is not empty.
 
 SAFETY
 The rider makes every change by hand. Diagnose a fault before tuning around it, and never blame technique while a fault remains unresolved. Do not recommend running a bike with abnormal mechanical noise, oil loss, unsafe brakes, uncontrolled throttle or severe overheating, and do not advise opening a hot pressurised cooling or fuel system. Lean two-stroke jetting that pings or detonates is a stop condition. Keep safety proportionate: one clear line when it matters, not a checklist.
@@ -305,6 +316,6 @@ export async function generateAnswer(bike:Bike|null,history:Message[],claims:Cla
   }catch{/* keep the first draft's verdict */}
  }
  if(!parsed.success||violations.length)throw new HttpError(502,violations[0]??'AI response was invalid');
- const response:EngineeringResponse={...parsed.data,references:bike?[...workshopReferences(bike,history,message),...relatedReferences(bike,message)]:[]};
+ const response:EngineeringResponse={...parsed.data,garage_updates:cleanGarageUpdates(parsed.data.garage_updates,!!bike),references:bike?[...workshopReferences(bike,history,message),...relatedReferences(bike,message)]:[]};
  return {response,raw:{...raw,bakmx_reviewed_workshop:input.reviewed_workshop,bakmx_spec_lookups:lookups,bakmx_model:first.model,bakmx_repaired:repaired,bakmx_answer_ms:Date.now()-started,bakmx_first_text_ms:firstText||null}};
 }

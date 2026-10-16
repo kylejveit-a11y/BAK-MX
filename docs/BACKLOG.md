@@ -2,7 +2,7 @@
 
 Items Kyle asked to keep on the list. Not started unless marked.
 
-## Ask BAK can update the Garage (requested 2026-10-15)
+## Ask BAK can update the Garage (requested 2026-10-15; built 2026-10-16 for web: BAK proposes, rider taps Save. Still to do: iPhone app)
 - The rider tells the chat what is on the bike instead of filling the build sheet: "add an FMF 4.1 slip-on to my 25 KTM 450",
   "my clickers are 12 comp, 14 rebound on the fork".
 - BAK confirms and writes it to the selected bike (build sheet parts, clicker settings) after the rider taps to accept.
