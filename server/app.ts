@@ -11,6 +11,7 @@ import {handleBilling,hasPaidAccess,consumeAiQuota,prepareAccountDeletion} from 
 import {handleMobileBilling} from './mobile-billing.ts';
 import {handleRiderSurfaces} from './rider-surfaces.ts';
 import {handleModeration} from './moderation.ts';
+import {handleEval} from './eval-access.ts';
 import {proceduresForBike} from '../shared/procedures.ts';
 import {exactBikeScope} from '../shared/bike-identity.ts';
 export function json(data:unknown,status=200){return new Response(JSON.stringify(data),{status,headers:{'Content-Type':'application/json','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});}
@@ -25,6 +26,7 @@ async function route(req:Request):Promise<Response>{const url=new URL(req.url),o
  if(path==='/api/health'&&method==='GET'){const ready=configured()&&Boolean(process.env.OPENAI_API_KEY&&process.env.OPENAI_MODEL);return json({status:ready?'configured':'not_ready',ready,live_dependencies_verified:false},ready?200:503);}
  if((path==='/api/billing/webhook'&&method==='POST')||(path==='/api/billing/price'&&method==='GET')){return await handleBilling(req,null,null)??json({error:'Not found'},404);}
  if(path==='/api/mobile/webhook'&&method==='POST')return await handleMobileBilling(req,null)??json({error:'Not found'},404);
+ if(path==='/api/eval/ask'&&method==='POST')return await handleEval(req);
  const {db,user,token}=await authenticate(req);
  if(path.startsWith('/api/mobile/'))return await handleMobileBilling(req,user)??json({error:'Not found'},404);
  if(path.startsWith('/api/billing/')){return await handleBilling(req,user,db)??json({error:'Not found'},404);}

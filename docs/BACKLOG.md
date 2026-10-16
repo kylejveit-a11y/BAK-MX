@@ -12,3 +12,9 @@ Items Kyle asked to keep on the list. Not started unless marked.
 
 ## Aftermarket data
 - Still missing after the 2026-10-15 passes: see docs/research/aftermarket/README.md (Specialty pass sections).
+
+## Test access to Ask BAK (built 2026-10-15)
+- POST /api/eval/ask with `Authorization: Bearer <token>`; body {bike, message, history?, setup_history?}. Runs the real
+  answer pipeline on the test bike in the request; never reads or writes rider accounts, chats or AI allowance.
+- Tokens: SHA-256 hashes in eval_access_tokens (30-day expiry, 200 runs/day). Every run is logged in eval_runs.
+- Shut it off: `update eval_access_tokens set revoked_at=now()` (one token or all). Runs bill the OpenAI account.
