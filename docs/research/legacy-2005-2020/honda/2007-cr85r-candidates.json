@@ -141,6 +141,287 @@
       "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
       "reviewer_id": "codex-source-inspection-20261016",
       "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr85r-engine-gearing-engine-bore",
+      "property": "dimensions",
+      "joint": "Engine / Bore",
+      "value": "47.5",
+      "unit": "mm",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr85r_rb.pdf",
+      "locator": "PDF page 111; printed page 107",
+      "document_sha256": "52cb61bfde894041ee977e83fb12a3861e8f999c0cb8c8c64bc3787c93b1866b",
+      "document_revision": "2007 Honda CR85R_RB Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:38.292752+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr85r-engine-gearing-engine-stroke",
+      "property": "dimensions",
+      "joint": "Engine / Stroke",
+      "value": "47.8",
+      "unit": "mm",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr85r_rb.pdf",
+      "locator": "PDF page 111; printed page 107",
+      "document_sha256": "52cb61bfde894041ee977e83fb12a3861e8f999c0cb8c8c64bc3787c93b1866b",
+      "document_revision": "2007 Honda CR85R_RB Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:38.292752+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr85r-engine-gearing-engine-displacement",
+      "property": "other",
+      "joint": "Engine / Displacement",
+      "value": "84.7",
+      "unit": "cm³",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr85r_rb.pdf",
+      "locator": "PDF page 111; printed page 107",
+      "document_sha256": "52cb61bfde894041ee977e83fb12a3861e8f999c0cb8c8c64bc3787c93b1866b",
+      "document_revision": "2007 Honda CR85R_RB Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:38.292752+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr85r-engine-gearing-engine-compression-ratio",
+      "property": "other",
+      "joint": "Engine / Compression ratio",
+      "value": "8.45:1",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr85r_rb.pdf",
+      "locator": "PDF page 111; printed page 107",
+      "document_sha256": "52cb61bfde894041ee977e83fb12a3861e8f999c0cb8c8c64bc3787c93b1866b",
+      "document_revision": "2007 Honda CR85R_RB Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:38.292752+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr85r-engine-gearing-drive-train-primary-reduction",
+      "property": "other",
+      "joint": "Drive train / Primary reduction",
+      "value": "4.117",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr85r_rb.pdf",
+      "locator": "PDF page 111; printed page 107",
+      "document_sha256": "52cb61bfde894041ee977e83fb12a3861e8f999c0cb8c8c64bc3787c93b1866b",
+      "document_revision": "2007 Honda CR85R_RB Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:38.292752+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr85r-engine-gearing-drive-train-gear-ratio-i",
+      "property": "other",
+      "joint": "Drive train / Gear ratio I",
+      "value": "2.267",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr85r_rb.pdf",
+      "locator": "PDF page 111; printed page 107",
+      "document_sha256": "52cb61bfde894041ee977e83fb12a3861e8f999c0cb8c8c64bc3787c93b1866b",
+      "document_revision": "2007 Honda CR85R_RB Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:38.292752+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr85r-engine-gearing-drive-train-gear-ratio-ii",
+      "property": "other",
+      "joint": "Drive train / Gear ratio II",
+      "value": "1.722",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr85r_rb.pdf",
+      "locator": "PDF page 111; printed page 107",
+      "document_sha256": "52cb61bfde894041ee977e83fb12a3861e8f999c0cb8c8c64bc3787c93b1866b",
+      "document_revision": "2007 Honda CR85R_RB Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:38.292752+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr85r-engine-gearing-drive-train-gear-ratio-iii",
+      "property": "other",
+      "joint": "Drive train / Gear ratio III",
+      "value": "1.400",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr85r_rb.pdf",
+      "locator": "PDF page 111; printed page 107",
+      "document_sha256": "52cb61bfde894041ee977e83fb12a3861e8f999c0cb8c8c64bc3787c93b1866b",
+      "document_revision": "2007 Honda CR85R_RB Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:38.292752+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr85r-engine-gearing-drive-train-gear-ratio-iv",
+      "property": "other",
+      "joint": "Drive train / Gear ratio IV",
+      "value": "1.174",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr85r_rb.pdf",
+      "locator": "PDF page 111; printed page 107",
+      "document_sha256": "52cb61bfde894041ee977e83fb12a3861e8f999c0cb8c8c64bc3787c93b1866b",
+      "document_revision": "2007 Honda CR85R_RB Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:38.292752+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr85r-engine-gearing-drive-train-gear-ratio-v",
+      "property": "other",
+      "joint": "Drive train / Gear ratio V",
+      "value": "1.042",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr85r_rb.pdf",
+      "locator": "PDF page 111; printed page 107",
+      "document_sha256": "52cb61bfde894041ee977e83fb12a3861e8f999c0cb8c8c64bc3787c93b1866b",
+      "document_revision": "2007 Honda CR85R_RB Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:38.292752+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr85r-engine-gearing-drive-train-gear-ratio-vi",
+      "property": "other",
+      "joint": "Drive train / Gear ratio VI",
+      "value": "0.920",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr85r_rb.pdf",
+      "locator": "PDF page 111; printed page 107",
+      "document_sha256": "52cb61bfde894041ee977e83fb12a3861e8f999c0cb8c8c64bc3787c93b1866b",
+      "document_revision": "2007 Honda CR85R_RB Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:38.292752+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr85r-engine-gearing-drive-train-final-reduction",
+      "property": "other",
+      "joint": "Drive train / Final reduction",
+      "value": "3.267",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr85r_rb.pdf",
+      "locator": "PDF page 111; printed page 107",
+      "document_sha256": "52cb61bfde894041ee977e83fb12a3861e8f999c0cb8c8c64bc3787c93b1866b",
+      "document_revision": "2007 Honda CR85R_RB Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:38.292752+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr85r-engine-gearing-frame-fuel-tank-capacity",
+      "property": "other",
+      "joint": "Frame / Fuel tank capacity",
+      "value": "5.1",
+      "unit": "L",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model.",
+        "Litre unit confirmed from the page image; text-layer R/x is a font mapping artifact."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr85r_rb.pdf",
+      "locator": "PDF page 111; printed page 107",
+      "document_sha256": "52cb61bfde894041ee977e83fb12a3861e8f999c0cb8c8c64bc3787c93b1866b",
+      "document_revision": "2007 Honda CR85R_RB Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:38.292752+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr85r-engine-gearing-dimension-trail-length",
+      "property": "dimensions",
+      "joint": "Dimension / Trail length",
+      "value": "76.7",
+      "unit": "mm",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr85r_rb.pdf",
+      "locator": "PDF page 111; printed page 107",
+      "document_sha256": "52cb61bfde894041ee977e83fb12a3861e8f999c0cb8c8c64bc3787c93b1866b",
+      "document_revision": "2007 Honda CR85R_RB Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:38.292752+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
     }
   ],
   "mappings": []

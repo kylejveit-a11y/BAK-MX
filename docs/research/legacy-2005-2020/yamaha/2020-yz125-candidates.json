@@ -142,6 +142,86 @@
       "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
       "reviewer_id": "codex-source-inspection-20261016",
       "approval_reference": null
+    },
+    {
+      "id": "yamaha-2020-yz125-engine-page-engine-displacement",
+      "property": "other",
+      "joint": "Engine / Displacement",
+      "value": "125",
+      "unit": "cm³",
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B0V-28199-11_02.pdf",
+      "locator": "PDF page 32; printed page 2-1",
+      "document_sha256": "6101b0090bca1208bb27b1e0b55ce2f473c50e01cbdb740cfa5c07355554d8cc",
+      "document_revision": "B0V-28199-11_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:37.222765+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2020-yz125-engine-page-engine-bore",
+      "property": "dimensions",
+      "joint": "Engine / Bore",
+      "value": "54.0",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B0V-28199-11_02.pdf",
+      "locator": "PDF page 32; printed page 2-1",
+      "document_sha256": "6101b0090bca1208bb27b1e0b55ce2f473c50e01cbdb740cfa5c07355554d8cc",
+      "document_revision": "B0V-28199-11_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:37.222765+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2020-yz125-engine-page-engine-stroke",
+      "property": "dimensions",
+      "joint": "Engine / Stroke",
+      "value": "54.5",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B0V-28199-11_02.pdf",
+      "locator": "PDF page 32; printed page 2-1",
+      "document_sha256": "6101b0090bca1208bb27b1e0b55ce2f473c50e01cbdb740cfa5c07355554d8cc",
+      "document_revision": "B0V-28199-11_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:37.222765+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2020-yz125-engine-page-engine-compression-ratio",
+      "property": "other",
+      "joint": "Engine / Compression ratio",
+      "value": "8.6–10.7:1",
+      "unit": null,
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B0V-28199-11_02.pdf",
+      "locator": "PDF page 32; printed page 2-1",
+      "document_sha256": "6101b0090bca1208bb27b1e0b55ce2f473c50e01cbdb740cfa5c07355554d8cc",
+      "document_revision": "B0V-28199-11_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:37.222765+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
     }
   ],
   "mappings": []

@@ -141,6 +141,266 @@
       "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
       "reviewer_id": "codex-source-inspection-20261016",
       "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf250r-engine-gearing-frame-fuel-tank-capacity",
+      "property": "other",
+      "joint": "Frame / Fuel tank capacity",
+      "value": "6.3",
+      "unit": "L",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31k95620_crf250r_rx.pdf",
+      "locator": "PDF page 180; printed page 175",
+      "document_sha256": "57a3fa62dd48d05665351b722336dcdcee1af59526a3b5324154c28bdb93cbcd",
+      "document_revision": "2020 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.250114+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf250r-engine-gearing-dimension-trail-length",
+      "property": "dimensions",
+      "joint": "Dimension / Trail length",
+      "value": "116",
+      "unit": "mm",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31k95620_crf250r_rx.pdf",
+      "locator": "PDF page 180; printed page 175",
+      "document_sha256": "57a3fa62dd48d05665351b722336dcdcee1af59526a3b5324154c28bdb93cbcd",
+      "document_revision": "2020 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.250114+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf250r-engine-gearing-drive-train-primary-reduction",
+      "property": "other",
+      "joint": "Drive train / Primary reduction",
+      "value": "3.473",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31k95620_crf250r_rx.pdf",
+      "locator": "PDF page 180; printed page 175",
+      "document_sha256": "57a3fa62dd48d05665351b722336dcdcee1af59526a3b5324154c28bdb93cbcd",
+      "document_revision": "2020 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.250114+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf250r-engine-gearing-drive-train-gear-ratio-i",
+      "property": "other",
+      "joint": "Drive train / Gear ratio I",
+      "value": "2.230",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31k95620_crf250r_rx.pdf",
+      "locator": "PDF page 180; printed page 175",
+      "document_sha256": "57a3fa62dd48d05665351b722336dcdcee1af59526a3b5324154c28bdb93cbcd",
+      "document_revision": "2020 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.250114+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf250r-engine-gearing-drive-train-gear-ratio-ii",
+      "property": "other",
+      "joint": "Drive train / Gear ratio II",
+      "value": "1.750",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31k95620_crf250r_rx.pdf",
+      "locator": "PDF page 180; printed page 175",
+      "document_sha256": "57a3fa62dd48d05665351b722336dcdcee1af59526a3b5324154c28bdb93cbcd",
+      "document_revision": "2020 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.250114+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf250r-engine-gearing-drive-train-gear-ratio-iii",
+      "property": "other",
+      "joint": "Drive train / Gear ratio III",
+      "value": "1.470",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31k95620_crf250r_rx.pdf",
+      "locator": "PDF page 180; printed page 175",
+      "document_sha256": "57a3fa62dd48d05665351b722336dcdcee1af59526a3b5324154c28bdb93cbcd",
+      "document_revision": "2020 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.250114+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf250r-engine-gearing-drive-train-gear-ratio-iv",
+      "property": "other",
+      "joint": "Drive train / Gear ratio IV",
+      "value": "1.227",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31k95620_crf250r_rx.pdf",
+      "locator": "PDF page 180; printed page 175",
+      "document_sha256": "57a3fa62dd48d05665351b722336dcdcee1af59526a3b5324154c28bdb93cbcd",
+      "document_revision": "2020 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.250114+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf250r-engine-gearing-drive-train-gear-ratio-v",
+      "property": "other",
+      "joint": "Drive train / Gear ratio V",
+      "value": "1.043",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31k95620_crf250r_rx.pdf",
+      "locator": "PDF page 180; printed page 175",
+      "document_sha256": "57a3fa62dd48d05665351b722336dcdcee1af59526a3b5324154c28bdb93cbcd",
+      "document_revision": "2020 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.250114+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf250r-engine-gearing-drive-train-final-reduction",
+      "property": "other",
+      "joint": "Drive train / Final reduction",
+      "value": "3.692",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31k95620_crf250r_rx.pdf",
+      "locator": "PDF page 180; printed page 175",
+      "document_sha256": "57a3fa62dd48d05665351b722336dcdcee1af59526a3b5324154c28bdb93cbcd",
+      "document_revision": "2020 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.250114+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf250r-engine-gearing-engine-bore",
+      "property": "dimensions",
+      "joint": "Engine / Bore",
+      "value": "79.000",
+      "unit": "mm",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31k95620_crf250r_rx.pdf",
+      "locator": "PDF page 180; printed page 175",
+      "document_sha256": "57a3fa62dd48d05665351b722336dcdcee1af59526a3b5324154c28bdb93cbcd",
+      "document_revision": "2020 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.250114+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf250r-engine-gearing-engine-stroke",
+      "property": "dimensions",
+      "joint": "Engine / Stroke",
+      "value": "50.887",
+      "unit": "mm",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31k95620_crf250r_rx.pdf",
+      "locator": "PDF page 180; printed page 175",
+      "document_sha256": "57a3fa62dd48d05665351b722336dcdcee1af59526a3b5324154c28bdb93cbcd",
+      "document_revision": "2020 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.250114+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf250r-engine-gearing-engine-displacement",
+      "property": "other",
+      "joint": "Engine / Displacement",
+      "value": "249.43",
+      "unit": "cm³",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31k95620_crf250r_rx.pdf",
+      "locator": "PDF page 180; printed page 175",
+      "document_sha256": "57a3fa62dd48d05665351b722336dcdcee1af59526a3b5324154c28bdb93cbcd",
+      "document_revision": "2020 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.250114+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf250r-engine-gearing-engine-compression-ratio",
+      "property": "other",
+      "joint": "Engine / Compression ratio",
+      "value": "13.9:1",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31k95620_crf250r_rx.pdf",
+      "locator": "PDF page 180; printed page 175",
+      "document_sha256": "57a3fa62dd48d05665351b722336dcdcee1af59526a3b5324154c28bdb93cbcd",
+      "document_revision": "2020 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.250114+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
     }
   ],
   "mappings": []

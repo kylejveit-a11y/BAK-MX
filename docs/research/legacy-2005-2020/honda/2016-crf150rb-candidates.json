@@ -141,6 +141,266 @@
       "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
       "reviewer_id": "codex-source-inspection-20261016",
       "approval_reference": null
+    },
+    {
+      "id": "honda-2016-crf150rb-engine-gearing-engine-bore",
+      "property": "dimensions",
+      "joint": "Engine / Bore",
+      "value": "66.0",
+      "unit": "mm",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2016_31kse670_crf150r_rb.pdf",
+      "locator": "PDF page 137; printed page 136",
+      "document_sha256": "fc8b610bf0a7a6d3830e096954fc56366ca1cbf3a994829bcfbd84fe6e4dc446",
+      "document_revision": "2016 Honda CRF150R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:45.916039+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2016-crf150rb-engine-gearing-engine-stroke",
+      "property": "dimensions",
+      "joint": "Engine / Stroke",
+      "value": "43.7",
+      "unit": "mm",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2016_31kse670_crf150r_rb.pdf",
+      "locator": "PDF page 137; printed page 136",
+      "document_sha256": "fc8b610bf0a7a6d3830e096954fc56366ca1cbf3a994829bcfbd84fe6e4dc446",
+      "document_revision": "2016 Honda CRF150R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:45.916039+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2016-crf150rb-engine-gearing-engine-displacement",
+      "property": "other",
+      "joint": "Engine / Displacement",
+      "value": "149.7",
+      "unit": "cm³",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2016_31kse670_crf150r_rb.pdf",
+      "locator": "PDF page 137; printed page 136",
+      "document_sha256": "fc8b610bf0a7a6d3830e096954fc56366ca1cbf3a994829bcfbd84fe6e4dc446",
+      "document_revision": "2016 Honda CRF150R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:45.916039+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2016-crf150rb-engine-gearing-engine-compression-ratio",
+      "property": "other",
+      "joint": "Engine / Compression ratio",
+      "value": "11.7:1",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2016_31kse670_crf150r_rb.pdf",
+      "locator": "PDF page 137; printed page 136",
+      "document_sha256": "fc8b610bf0a7a6d3830e096954fc56366ca1cbf3a994829bcfbd84fe6e4dc446",
+      "document_revision": "2016 Honda CRF150R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:45.916039+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2016-crf150rb-engine-gearing-drive-train-primary-reduction",
+      "property": "other",
+      "joint": "Drive train / Primary reduction",
+      "value": "4.117",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2016_31kse670_crf150r_rb.pdf",
+      "locator": "PDF page 137; printed page 136",
+      "document_sha256": "fc8b610bf0a7a6d3830e096954fc56366ca1cbf3a994829bcfbd84fe6e4dc446",
+      "document_revision": "2016 Honda CRF150R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:45.916039+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2016-crf150rb-engine-gearing-drive-train-gear-ratio-i",
+      "property": "other",
+      "joint": "Drive train / Gear ratio I",
+      "value": "2.214",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2016_31kse670_crf150r_rb.pdf",
+      "locator": "PDF page 137; printed page 136",
+      "document_sha256": "fc8b610bf0a7a6d3830e096954fc56366ca1cbf3a994829bcfbd84fe6e4dc446",
+      "document_revision": "2016 Honda CRF150R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:45.916039+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2016-crf150rb-engine-gearing-drive-train-gear-ratio-ii",
+      "property": "other",
+      "joint": "Drive train / Gear ratio II",
+      "value": "1.647",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2016_31kse670_crf150r_rb.pdf",
+      "locator": "PDF page 137; printed page 136",
+      "document_sha256": "fc8b610bf0a7a6d3830e096954fc56366ca1cbf3a994829bcfbd84fe6e4dc446",
+      "document_revision": "2016 Honda CRF150R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:45.916039+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2016-crf150rb-engine-gearing-drive-train-gear-ratio-iii",
+      "property": "other",
+      "joint": "Drive train / Gear ratio III",
+      "value": "1.318",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2016_31kse670_crf150r_rb.pdf",
+      "locator": "PDF page 137; printed page 136",
+      "document_sha256": "fc8b610bf0a7a6d3830e096954fc56366ca1cbf3a994829bcfbd84fe6e4dc446",
+      "document_revision": "2016 Honda CRF150R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:45.916039+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2016-crf150rb-engine-gearing-drive-train-gear-ratio-iv",
+      "property": "other",
+      "joint": "Drive train / Gear ratio IV",
+      "value": "1.105",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2016_31kse670_crf150r_rb.pdf",
+      "locator": "PDF page 137; printed page 136",
+      "document_sha256": "fc8b610bf0a7a6d3830e096954fc56366ca1cbf3a994829bcfbd84fe6e4dc446",
+      "document_revision": "2016 Honda CRF150R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:45.916039+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2016-crf150rb-engine-gearing-drive-train-gear-ratio-v",
+      "property": "other",
+      "joint": "Drive train / Gear ratio V",
+      "value": "0.956",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2016_31kse670_crf150r_rb.pdf",
+      "locator": "PDF page 137; printed page 136",
+      "document_sha256": "fc8b610bf0a7a6d3830e096954fc56366ca1cbf3a994829bcfbd84fe6e4dc446",
+      "document_revision": "2016 Honda CRF150R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:45.916039+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2016-crf150rb-engine-gearing-drive-train-final-reduction",
+      "property": "other",
+      "joint": "Drive train / Final reduction",
+      "value": "3.733",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2016_31kse670_crf150r_rb.pdf",
+      "locator": "PDF page 137; printed page 136",
+      "document_sha256": "fc8b610bf0a7a6d3830e096954fc56366ca1cbf3a994829bcfbd84fe6e4dc446",
+      "document_revision": "2016 Honda CRF150R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:45.916039+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2016-crf150rb-engine-gearing-frame-fuel-tank-capacity",
+      "property": "other",
+      "joint": "Frame / Fuel tank capacity",
+      "value": "4.3",
+      "unit": "L",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2016_31kse670_crf150r_rb.pdf",
+      "locator": "PDF page 137; printed page 136",
+      "document_sha256": "fc8b610bf0a7a6d3830e096954fc56366ca1cbf3a994829bcfbd84fe6e4dc446",
+      "document_revision": "2016 Honda CRF150R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:45.916039+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2016-crf150rb-engine-gearing-dimension-trail-length",
+      "property": "dimensions",
+      "joint": "Dimension / Trail length",
+      "value": "96",
+      "unit": "mm",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2016_31kse670_crf150r_rb.pdf",
+      "locator": "PDF page 137; printed page 136",
+      "document_sha256": "fc8b610bf0a7a6d3830e096954fc56366ca1cbf3a994829bcfbd84fe6e4dc446",
+      "document_revision": "2016 Honda CRF150R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:45.916039+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
     }
   ],
   "mappings": []

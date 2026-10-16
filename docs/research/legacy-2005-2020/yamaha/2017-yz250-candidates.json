@@ -142,6 +142,66 @@
       "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
       "reviewer_id": "codex-source-inspection-20261016",
       "approval_reference": null
+    },
+    {
+      "id": "yamaha-2017-yz250-engine-page-engine-displacement",
+      "property": "other",
+      "joint": "Engine / Displacement",
+      "value": "249",
+      "unit": "cm³",
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/1SS-28199-15_02.pdf",
+      "locator": "PDF page 32; printed page 2-1",
+      "document_sha256": "f2b75732f0bd146800a732825e935ae0a9426de1c973465f7ea9bf312b20d21f",
+      "document_revision": "1SS-28199-15_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.761353+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2017-yz250-engine-page-engine-bore",
+      "property": "dimensions",
+      "joint": "Engine / Bore",
+      "value": "66.4",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/1SS-28199-15_02.pdf",
+      "locator": "PDF page 32; printed page 2-1",
+      "document_sha256": "f2b75732f0bd146800a732825e935ae0a9426de1c973465f7ea9bf312b20d21f",
+      "document_revision": "1SS-28199-15_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.761353+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2017-yz250-engine-page-engine-stroke",
+      "property": "dimensions",
+      "joint": "Engine / Stroke",
+      "value": "72.0",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/1SS-28199-15_02.pdf",
+      "locator": "PDF page 32; printed page 2-1",
+      "document_sha256": "f2b75732f0bd146800a732825e935ae0a9426de1c973465f7ea9bf312b20d21f",
+      "document_revision": "1SS-28199-15_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.761353+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
     }
   ],
   "mappings": []

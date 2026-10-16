@@ -142,6 +142,190 @@
       "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
       "reviewer_id": "codex-source-inspection-20261016",
       "approval_reference": null
+    },
+    {
+      "id": "yamaha-2019-yz250f-engine-page-engine-displacement",
+      "property": "other",
+      "joint": "Engine / Displacement",
+      "value": "250",
+      "unit": "cm³",
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-10_02.pdf",
+      "locator": "PDF page 47; printed page 2-2",
+      "document_sha256": "058809affb7915aa597b13b45c40adc1e70251fc9e748322abb405d24fda01ce",
+      "document_revision": "B7B-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:37.115431+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2019-yz250f-engine-page-engine-bore",
+      "property": "dimensions",
+      "joint": "Engine / Bore",
+      "value": "77.0",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-10_02.pdf",
+      "locator": "PDF page 47; printed page 2-2",
+      "document_sha256": "058809affb7915aa597b13b45c40adc1e70251fc9e748322abb405d24fda01ce",
+      "document_revision": "B7B-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:37.115431+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2019-yz250f-engine-page-engine-stroke",
+      "property": "dimensions",
+      "joint": "Engine / Stroke",
+      "value": "53.6",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-10_02.pdf",
+      "locator": "PDF page 47; printed page 2-2",
+      "document_sha256": "058809affb7915aa597b13b45c40adc1e70251fc9e748322abb405d24fda01ce",
+      "document_revision": "B7B-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:37.115431+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2019-yz250f-engine-page-engine-compression-ratio",
+      "property": "other",
+      "joint": "Engine / Compression ratio",
+      "value": "13.8:1",
+      "unit": null,
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-10_02.pdf",
+      "locator": "PDF page 47; printed page 2-2",
+      "document_sha256": "058809affb7915aa597b13b45c40adc1e70251fc9e748322abb405d24fda01ce",
+      "document_revision": "B7B-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:37.115431+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2019-yz250f-engine-page-frame-fuel-tank-capacity",
+      "property": "other",
+      "joint": "Frame / Fuel tank capacity",
+      "value": "6.2",
+      "unit": "L",
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-10_02.pdf",
+      "locator": "PDF page 47; printed page 2-2",
+      "document_sha256": "058809affb7915aa597b13b45c40adc1e70251fc9e748322abb405d24fda01ce",
+      "document_revision": "B7B-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:37.115431+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2019-yz250f-engine-page-cooling-capacity-including-all-routes",
+      "property": "other",
+      "joint": "Cooling / Capacity including all routes",
+      "value": "0.93",
+      "unit": "L",
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending.",
+        "Includes all routes; not a radiator-only quantity. Follow the manufacturer filling and bleeding procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-10_02.pdf",
+      "locator": "PDF page 47; printed page 2-2",
+      "document_sha256": "058809affb7915aa597b13b45c40adc1e70251fc9e748322abb405d24fda01ce",
+      "document_revision": "B7B-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:37.115431+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2019-yz250f-engine-page-engine-oil-quantity-disassembled",
+      "property": "other",
+      "joint": "Engine oil / Quantity disassembled",
+      "value": "0.95",
+      "unit": "L",
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending.",
+        "Use only for the named service operation; specification-table quantity must be reconciled with the level-check procedure before use."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-10_02.pdf",
+      "locator": "PDF page 47; printed page 2-2",
+      "document_sha256": "058809affb7915aa597b13b45c40adc1e70251fc9e748322abb405d24fda01ce",
+      "document_revision": "B7B-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:37.115431+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2019-yz250f-engine-page-engine-oil-with-oil-filter-removal-or-replacement",
+      "property": "other",
+      "joint": "Engine oil / With oil filter removal or replacement",
+      "value": "0.75",
+      "unit": "L",
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending.",
+        "Use only for the named service operation; specification-table quantity must be reconciled with the level-check procedure before use."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-10_02.pdf",
+      "locator": "PDF page 47; printed page 2-2",
+      "document_sha256": "058809affb7915aa597b13b45c40adc1e70251fc9e748322abb405d24fda01ce",
+      "document_revision": "B7B-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:37.115431+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2019-yz250f-engine-page-engine-oil-oil-change-without-filter-replacement",
+      "property": "other",
+      "joint": "Engine oil / Oil change without filter replacement",
+      "value": "0.73",
+      "unit": "L",
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending.",
+        "Use only for the named service operation; specification-table quantity must be reconciled with the level-check procedure before use."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-10_02.pdf",
+      "locator": "PDF page 47; printed page 2-2",
+      "document_sha256": "058809affb7915aa597b13b45c40adc1e70251fc9e748322abb405d24fda01ce",
+      "document_revision": "B7B-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:37.115431+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
     }
   ],
   "mappings": []

@@ -142,6 +142,233 @@
       "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
       "reviewer_id": "codex-source-inspection-20261016",
       "approval_reference": null
+    },
+    {
+      "id": "yamaha-2020-yz85-engine-page-engine-displacement",
+      "property": "other",
+      "joint": "Engine / Displacement",
+      "value": "85",
+      "unit": "cm³",
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4B-28199-11_02.pdf",
+      "locator": "PDF page 78; printed page 9-1",
+      "document_sha256": "f6773e25306aaaa08780c743cd65a728d01724f1656f79001fbc12ae5a904667",
+      "document_revision": "B4B-28199-11_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:37.398807+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2020-yz85-engine-page-engine-bore",
+      "property": "dimensions",
+      "joint": "Engine / Bore",
+      "value": "47.5",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4B-28199-11_02.pdf",
+      "locator": "PDF page 78; printed page 9-1",
+      "document_sha256": "f6773e25306aaaa08780c743cd65a728d01724f1656f79001fbc12ae5a904667",
+      "document_revision": "B4B-28199-11_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:37.398807+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2020-yz85-engine-page-engine-stroke",
+      "property": "dimensions",
+      "joint": "Engine / Stroke",
+      "value": "47.8",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4B-28199-11_02.pdf",
+      "locator": "PDF page 78; printed page 9-1",
+      "document_sha256": "f6773e25306aaaa08780c743cd65a728d01724f1656f79001fbc12ae5a904667",
+      "document_revision": "B4B-28199-11_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:37.398807+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2020-yz85-engine-page-frame-fuel-tank-capacity",
+      "property": "other",
+      "joint": "Frame / Fuel tank capacity",
+      "value": "5.0",
+      "unit": "L",
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4B-28199-11_02.pdf",
+      "locator": "PDF page 78; printed page 9-1",
+      "document_sha256": "f6773e25306aaaa08780c743cd65a728d01724f1656f79001fbc12ae5a904667",
+      "document_revision": "B4B-28199-11_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:37.398807+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2020-yz85-engine-page-cooling-capacity-including-all-routes",
+      "property": "other",
+      "joint": "Cooling / Capacity including all routes",
+      "value": "0.55",
+      "unit": "L",
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending.",
+        "Includes all routes; not a radiator-only quantity. Follow the manufacturer filling and bleeding procedure."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4B-28199-11_02.pdf",
+      "locator": "PDF page 78; printed page 9-1",
+      "document_sha256": "f6773e25306aaaa08780c743cd65a728d01724f1656f79001fbc12ae5a904667",
+      "document_revision": "B4B-28199-11_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:37.398807+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2020-yz85-engine-page-drive-train-gear-ratio-1st",
+      "property": "other",
+      "joint": "Drive train / Gear ratio 1st",
+      "value": "2.455",
+      "unit": null,
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending.",
+        "Published rounded ratio; tooth counts 27/11."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4B-28199-11_02.pdf",
+      "locator": "PDF page 78; printed page 9-1",
+      "document_sha256": "f6773e25306aaaa08780c743cd65a728d01724f1656f79001fbc12ae5a904667",
+      "document_revision": "B4B-28199-11_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:37.398807+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2020-yz85-engine-page-drive-train-gear-ratio-2nd",
+      "property": "other",
+      "joint": "Drive train / Gear ratio 2nd",
+      "value": "1.882",
+      "unit": null,
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending.",
+        "Published rounded ratio; tooth counts 32/17."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4B-28199-11_02.pdf",
+      "locator": "PDF page 78; printed page 9-1",
+      "document_sha256": "f6773e25306aaaa08780c743cd65a728d01724f1656f79001fbc12ae5a904667",
+      "document_revision": "B4B-28199-11_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:37.398807+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2020-yz85-engine-page-drive-train-gear-ratio-3rd",
+      "property": "other",
+      "joint": "Drive train / Gear ratio 3rd",
+      "value": "1.529",
+      "unit": null,
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending.",
+        "Published rounded ratio; tooth counts 26/17."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4B-28199-11_02.pdf",
+      "locator": "PDF page 78; printed page 9-1",
+      "document_sha256": "f6773e25306aaaa08780c743cd65a728d01724f1656f79001fbc12ae5a904667",
+      "document_revision": "B4B-28199-11_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:37.398807+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2020-yz85-engine-page-drive-train-gear-ratio-4th",
+      "property": "other",
+      "joint": "Drive train / Gear ratio 4th",
+      "value": "1.294",
+      "unit": null,
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending.",
+        "Published rounded ratio; tooth counts 22/17."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4B-28199-11_02.pdf",
+      "locator": "PDF page 78; printed page 9-1",
+      "document_sha256": "f6773e25306aaaa08780c743cd65a728d01724f1656f79001fbc12ae5a904667",
+      "document_revision": "B4B-28199-11_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:37.398807+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2020-yz85-engine-page-drive-train-gear-ratio-5th",
+      "property": "other",
+      "joint": "Drive train / Gear ratio 5th",
+      "value": "1.130",
+      "unit": null,
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending.",
+        "Published rounded ratio; tooth counts 26/23."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4B-28199-11_02.pdf",
+      "locator": "PDF page 78; printed page 9-1",
+      "document_sha256": "f6773e25306aaaa08780c743cd65a728d01724f1656f79001fbc12ae5a904667",
+      "document_revision": "B4B-28199-11_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:37.398807+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2020-yz85-engine-page-drive-train-gear-ratio-6th",
+      "property": "other",
+      "joint": "Drive train / Gear ratio 6th",
+      "value": "1.000",
+      "unit": null,
+      "conditions": [
+        "Exact US stock motocross model and model-year only; X/LW variants excluded.",
+        "Selected specification-page value; independent review and procedure reconciliation pending.",
+        "Published rounded ratio; tooth counts 25/25."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4B-28199-11_02.pdf",
+      "locator": "PDF page 78; printed page 9-1",
+      "document_sha256": "f6773e25306aaaa08780c743cd65a728d01724f1656f79001fbc12ae5a904667",
+      "document_revision": "B4B-28199-11_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:37.398807+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected engine-page rows visually inspected against this exact PDF. No cross-year or cross-country inheritance.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
     }
   ],
   "mappings": []

@@ -141,6 +141,267 @@
       "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
       "reviewer_id": "codex-source-inspection-20261016",
       "approval_reference": null
+    },
+    {
+      "id": "honda-2009-crf250r-engine-gearing-frame-fuel-tank-capacity",
+      "property": "other",
+      "joint": "Frame / Fuel tank capacity",
+      "value": "7.3",
+      "unit": "L",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model.",
+        "Litre unit confirmed from the page image; text-layer R/x is a font mapping artifact."
+      ],
+      "source_url": "https://www.acura.com/assets/OWNERLINK-Temp/OWNERLINK/Model/own_man/powersports/motorcycle/2009/09_CRF250R.pdf",
+      "locator": "PDF page 151; printed page 147",
+      "document_sha256": "ac689961389653fad60890aa5dfc5f8a339519e65f8be9d5126173949ed71e26",
+      "document_revision": "2009 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:39.352789+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2009-crf250r-engine-gearing-dimension-trail-length",
+      "property": "dimensions",
+      "joint": "Dimension / Trail length",
+      "value": "125",
+      "unit": "mm",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://www.acura.com/assets/OWNERLINK-Temp/OWNERLINK/Model/own_man/powersports/motorcycle/2009/09_CRF250R.pdf",
+      "locator": "PDF page 151; printed page 147",
+      "document_sha256": "ac689961389653fad60890aa5dfc5f8a339519e65f8be9d5126173949ed71e26",
+      "document_revision": "2009 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:39.352789+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2009-crf250r-engine-gearing-engine-bore",
+      "property": "dimensions",
+      "joint": "Engine / Bore",
+      "value": "78.0",
+      "unit": "mm",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://www.acura.com/assets/OWNERLINK-Temp/OWNERLINK/Model/own_man/powersports/motorcycle/2009/09_CRF250R.pdf",
+      "locator": "PDF page 151; printed page 147",
+      "document_sha256": "ac689961389653fad60890aa5dfc5f8a339519e65f8be9d5126173949ed71e26",
+      "document_revision": "2009 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:39.352789+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2009-crf250r-engine-gearing-engine-stroke",
+      "property": "dimensions",
+      "joint": "Engine / Stroke",
+      "value": "52.2",
+      "unit": "mm",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://www.acura.com/assets/OWNERLINK-Temp/OWNERLINK/Model/own_man/powersports/motorcycle/2009/09_CRF250R.pdf",
+      "locator": "PDF page 151; printed page 147",
+      "document_sha256": "ac689961389653fad60890aa5dfc5f8a339519e65f8be9d5126173949ed71e26",
+      "document_revision": "2009 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:39.352789+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2009-crf250r-engine-gearing-engine-displacement",
+      "property": "other",
+      "joint": "Engine / Displacement",
+      "value": "249.4",
+      "unit": "cm³",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://www.acura.com/assets/OWNERLINK-Temp/OWNERLINK/Model/own_man/powersports/motorcycle/2009/09_CRF250R.pdf",
+      "locator": "PDF page 151; printed page 147",
+      "document_sha256": "ac689961389653fad60890aa5dfc5f8a339519e65f8be9d5126173949ed71e26",
+      "document_revision": "2009 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:39.352789+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2009-crf250r-engine-gearing-engine-compression-ratio",
+      "property": "other",
+      "joint": "Engine / Compression ratio",
+      "value": "13.0:1",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://www.acura.com/assets/OWNERLINK-Temp/OWNERLINK/Model/own_man/powersports/motorcycle/2009/09_CRF250R.pdf",
+      "locator": "PDF page 151; printed page 147",
+      "document_sha256": "ac689961389653fad60890aa5dfc5f8a339519e65f8be9d5126173949ed71e26",
+      "document_revision": "2009 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:39.352789+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2009-crf250r-engine-gearing-drive-train-primary-reduction",
+      "property": "other",
+      "joint": "Drive train / Primary reduction",
+      "value": "3.166",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://www.acura.com/assets/OWNERLINK-Temp/OWNERLINK/Model/own_man/powersports/motorcycle/2009/09_CRF250R.pdf",
+      "locator": "PDF page 151; printed page 147",
+      "document_sha256": "ac689961389653fad60890aa5dfc5f8a339519e65f8be9d5126173949ed71e26",
+      "document_revision": "2009 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:39.352789+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2009-crf250r-engine-gearing-drive-train-gear-ratio-i",
+      "property": "other",
+      "joint": "Drive train / Gear ratio I",
+      "value": "2.142",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://www.acura.com/assets/OWNERLINK-Temp/OWNERLINK/Model/own_man/powersports/motorcycle/2009/09_CRF250R.pdf",
+      "locator": "PDF page 151; printed page 147",
+      "document_sha256": "ac689961389653fad60890aa5dfc5f8a339519e65f8be9d5126173949ed71e26",
+      "document_revision": "2009 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:39.352789+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2009-crf250r-engine-gearing-drive-train-gear-ratio-ii",
+      "property": "other",
+      "joint": "Drive train / Gear ratio II",
+      "value": "1.750",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://www.acura.com/assets/OWNERLINK-Temp/OWNERLINK/Model/own_man/powersports/motorcycle/2009/09_CRF250R.pdf",
+      "locator": "PDF page 151; printed page 147",
+      "document_sha256": "ac689961389653fad60890aa5dfc5f8a339519e65f8be9d5126173949ed71e26",
+      "document_revision": "2009 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:39.352789+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2009-crf250r-engine-gearing-drive-train-gear-ratio-iii",
+      "property": "other",
+      "joint": "Drive train / Gear ratio III",
+      "value": "1.450",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://www.acura.com/assets/OWNERLINK-Temp/OWNERLINK/Model/own_man/powersports/motorcycle/2009/09_CRF250R.pdf",
+      "locator": "PDF page 151; printed page 147",
+      "document_sha256": "ac689961389653fad60890aa5dfc5f8a339519e65f8be9d5126173949ed71e26",
+      "document_revision": "2009 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:39.352789+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2009-crf250r-engine-gearing-drive-train-gear-ratio-iv",
+      "property": "other",
+      "joint": "Drive train / Gear ratio IV",
+      "value": "1.227",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://www.acura.com/assets/OWNERLINK-Temp/OWNERLINK/Model/own_man/powersports/motorcycle/2009/09_CRF250R.pdf",
+      "locator": "PDF page 151; printed page 147",
+      "document_sha256": "ac689961389653fad60890aa5dfc5f8a339519e65f8be9d5126173949ed71e26",
+      "document_revision": "2009 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:39.352789+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2009-crf250r-engine-gearing-drive-train-gear-ratio-v",
+      "property": "other",
+      "joint": "Drive train / Gear ratio V",
+      "value": "1.041",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://www.acura.com/assets/OWNERLINK-Temp/OWNERLINK/Model/own_man/powersports/motorcycle/2009/09_CRF250R.pdf",
+      "locator": "PDF page 151; printed page 147",
+      "document_sha256": "ac689961389653fad60890aa5dfc5f8a339519e65f8be9d5126173949ed71e26",
+      "document_revision": "2009 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:39.352789+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2009-crf250r-engine-gearing-drive-train-final-reduction",
+      "property": "other",
+      "joint": "Drive train / Final reduction",
+      "value": "3.923",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://www.acura.com/assets/OWNERLINK-Temp/OWNERLINK/Model/own_man/powersports/motorcycle/2009/09_CRF250R.pdf",
+      "locator": "PDF page 151; printed page 147",
+      "document_sha256": "ac689961389653fad60890aa5dfc5f8a339519e65f8be9d5126173949ed71e26",
+      "document_revision": "2009 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:39.352789+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
     }
   ],
   "mappings": []

@@ -141,6 +141,266 @@
       "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
       "reviewer_id": "codex-source-inspection-20261016",
       "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr250r-engine-gearing-frame-fuel-tank-capacity",
+      "property": "other",
+      "joint": "Frame / Fuel tank capacity",
+      "value": "7.7",
+      "unit": "L",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr250r.pdf",
+      "locator": "PDF page 128; printed page 123",
+      "document_sha256": "bbe9e6d0148397cc3c569f0aae9c9d477d1d5c06fda2fccbfb26542686f8e7d1",
+      "document_revision": "2007 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:38.035221+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr250r-engine-gearing-dimension-trail-length",
+      "property": "dimensions",
+      "joint": "Dimension / Trail length",
+      "value": "111.7",
+      "unit": "mm",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr250r.pdf",
+      "locator": "PDF page 128; printed page 123",
+      "document_sha256": "bbe9e6d0148397cc3c569f0aae9c9d477d1d5c06fda2fccbfb26542686f8e7d1",
+      "document_revision": "2007 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:38.035221+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr250r-engine-gearing-engine-bore",
+      "property": "dimensions",
+      "joint": "Engine / Bore",
+      "value": "66.4",
+      "unit": "mm",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr250r.pdf",
+      "locator": "PDF page 128; printed page 123",
+      "document_sha256": "bbe9e6d0148397cc3c569f0aae9c9d477d1d5c06fda2fccbfb26542686f8e7d1",
+      "document_revision": "2007 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:38.035221+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr250r-engine-gearing-engine-stroke",
+      "property": "dimensions",
+      "joint": "Engine / Stroke",
+      "value": "72.0",
+      "unit": "mm",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr250r.pdf",
+      "locator": "PDF page 128; printed page 123",
+      "document_sha256": "bbe9e6d0148397cc3c569f0aae9c9d477d1d5c06fda2fccbfb26542686f8e7d1",
+      "document_revision": "2007 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:38.035221+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr250r-engine-gearing-engine-displacement",
+      "property": "other",
+      "joint": "Engine / Displacement",
+      "value": "249.3",
+      "unit": "cm³",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr250r.pdf",
+      "locator": "PDF page 128; printed page 123",
+      "document_sha256": "bbe9e6d0148397cc3c569f0aae9c9d477d1d5c06fda2fccbfb26542686f8e7d1",
+      "document_revision": "2007 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:38.035221+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr250r-engine-gearing-engine-compression-ratio",
+      "property": "other",
+      "joint": "Engine / Compression ratio",
+      "value": "9.0:1",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr250r.pdf",
+      "locator": "PDF page 128; printed page 123",
+      "document_sha256": "bbe9e6d0148397cc3c569f0aae9c9d477d1d5c06fda2fccbfb26542686f8e7d1",
+      "document_revision": "2007 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:38.035221+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr250r-engine-gearing-drive-train-primary-reduction",
+      "property": "other",
+      "joint": "Drive train / Primary reduction",
+      "value": "3.000",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr250r.pdf",
+      "locator": "PDF page 128; printed page 123",
+      "document_sha256": "bbe9e6d0148397cc3c569f0aae9c9d477d1d5c06fda2fccbfb26542686f8e7d1",
+      "document_revision": "2007 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:38.035221+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr250r-engine-gearing-drive-train-gear-ratio-i",
+      "property": "other",
+      "joint": "Drive train / Gear ratio I",
+      "value": "1.800",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr250r.pdf",
+      "locator": "PDF page 128; printed page 123",
+      "document_sha256": "bbe9e6d0148397cc3c569f0aae9c9d477d1d5c06fda2fccbfb26542686f8e7d1",
+      "document_revision": "2007 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:38.035221+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr250r-engine-gearing-drive-train-gear-ratio-ii",
+      "property": "other",
+      "joint": "Drive train / Gear ratio II",
+      "value": "1.470",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr250r.pdf",
+      "locator": "PDF page 128; printed page 123",
+      "document_sha256": "bbe9e6d0148397cc3c569f0aae9c9d477d1d5c06fda2fccbfb26542686f8e7d1",
+      "document_revision": "2007 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:38.035221+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr250r-engine-gearing-drive-train-gear-ratio-iii",
+      "property": "other",
+      "joint": "Drive train / Gear ratio III",
+      "value": "1.210",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr250r.pdf",
+      "locator": "PDF page 128; printed page 123",
+      "document_sha256": "bbe9e6d0148397cc3c569f0aae9c9d477d1d5c06fda2fccbfb26542686f8e7d1",
+      "document_revision": "2007 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:38.035221+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr250r-engine-gearing-drive-train-gear-ratio-iv",
+      "property": "other",
+      "joint": "Drive train / Gear ratio IV",
+      "value": "1.000",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr250r.pdf",
+      "locator": "PDF page 128; printed page 123",
+      "document_sha256": "bbe9e6d0148397cc3c569f0aae9c9d477d1d5c06fda2fccbfb26542686f8e7d1",
+      "document_revision": "2007 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:38.035221+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr250r-engine-gearing-drive-train-gear-ratio-v",
+      "property": "other",
+      "joint": "Drive train / Gear ratio V",
+      "value": "0.869",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr250r.pdf",
+      "locator": "PDF page 128; printed page 123",
+      "document_sha256": "bbe9e6d0148397cc3c569f0aae9c9d477d1d5c06fda2fccbfb26542686f8e7d1",
+      "document_revision": "2007 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:38.035221+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr250r-engine-gearing-drive-train-final-reduction",
+      "property": "other",
+      "joint": "Drive train / Final reduction",
+      "value": "3.769",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr250r.pdf",
+      "locator": "PDF page 128; printed page 123",
+      "document_sha256": "bbe9e6d0148397cc3c569f0aae9c9d477d1d5c06fda2fccbfb26542686f8e7d1",
+      "document_revision": "2007 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:38.035221+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
     }
   ],
   "mappings": []
