@@ -17,3 +17,6 @@ __pycache__/
 
 # Stored gzipped (GitHub 100 MB limit); unpacked by scripts/ensure-captures.mjs
 /docs/research/parts/normalized-captures.json
+
+# Reproducible standalone bike viewer output
+/artifacts/bike-builder/

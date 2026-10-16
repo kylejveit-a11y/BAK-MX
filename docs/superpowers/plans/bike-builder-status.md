@@ -53,3 +53,15 @@ Kyle requested vendor dimensions. Added `public/bike-builder/vendor-dimensions.j
 Neken manufacturer table provides bend dimensions for R00182BK/SR, but an exact match to OEM 7900200100030 remains unconfirmed. Candidate dimensions are retained separately and not applied. Radiator and swingarm envelope dimensions were not verified in this pass. Do not derive them from bearing dimensions or product shipping fields. The ledger is downloadable from the studio.
 
 Next: verify OEM bar bend, find dimensioned radiator/exhaust/bodywork references, then refine front/top widths and compare all views. Browser/device QA and native implementation remain pending.
+
+## Checkpoint 3 — native viewer, rendering and geometry pass
+
+Implemented native Garage preview as an offline WebView using the same Three.js generator, exact-bike resolver and camera controls. Uses Expo 57's installed compatibility recommendation (`react-native-webview` 13.16.1), not the latest documentation's different version. Native preview is default-off: enable `EXPO_PUBLIC_BIKE_BUILDER_PREVIEW=true` in a development build. Adding WebView requires rebuilding the native client/binary. Model is bundled; no CDN, account data, build-sheet data or external navigation is required. Backgrounding closes the modal and releases the view.
+
+`npm run build:bike-native` regenerates the native HTML JSON and standalone `artifacts/bike-builder/offline-preview.html`. `npm run check:bike-native` verifies the checked-in bundle matches renderer sources. Regenerate before native exports whenever scene/model changes. Third-party license notices accompany the bundled runtime.
+
+Added retry/restart controls, web expanded-view fallback with Escape and scroll restoration, original studio reflection lighting, shaped seat/fender cross-sections, seat ribs, brake calipers and valve stems. Re-indexed batched geometry: GLB 940,856 bytes, 36 meshes, 36,758 rendered triangles, all 13 components retained. GLB validation: zero errors/warnings (instancing extension remains outside validator coverage).
+
+Validation: 207 root tests; root type check and production build; 12 native tests and native type check; iOS/Android Metro export. These are build-time checks, not simulator/physical-device certification. CPU side/top silhouette inspection confirms the model is still visibly simplified. It does not meet the HD OEM visual acceptance criterion. No approved graphics textures or verified detailed surface data have been added. Do not enable customer release or describe the complete build as finished.
+
+Remaining release gates: detailed OEM surfaces and graphics, interactive browser/real-device QA, measured frame rate and memory use, visual approval from all views. Additional-bike models and aftermarket mapping/assets are still pending. Source-code completion cannot substitute for those gates.

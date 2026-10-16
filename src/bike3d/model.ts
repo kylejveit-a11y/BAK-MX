@@ -1,5 +1,5 @@
 import * as T from 'three';
-import {mergeGeometries} from 'three/addons/utils/BufferGeometryUtils.js';
+import {mergeGeometries,mergeVertices} from 'three/addons/utils/BufferGeometryUtils.js';
 import {defaultBikeDimensions,parseBikeDimensions,visualComponents,type BikeDimensions} from '../../shared/bike-visual.ts';
 import {pilotGeometryAnchors as anchors} from '../../shared/bike-geometry-anchors.ts';
 type V=[number,number,number];
@@ -18,7 +18,17 @@ export function createBikeModel(input:BikeDimensions=defaultBikeDimensions){
  function disk(g:T.Group,p:V,r:number,width:number,mat:T.Material){const m=mesh(g,new T.CylinderGeometry(r,r,width,48),mat,p);m.rotation.x=Math.PI/2;return m;}
  function panel(points:number[][],side:number,mat:T.Material,g=groups.plastics,depth=.012){const s=new T.Shape();points.forEach(([x,y],i)=>i?s.lineTo(x,y):s.moveTo(x,y));s.closePath();const m=mesh(g,new T.ExtrudeGeometry(s,{depth,bevelEnabled:true,bevelSize:.009,bevelThickness:.005,bevelSegments:2,steps:1}),mat,[0,0,side]);return m;}
  // Cross sections are [x, center height, half width, thickness].
- function shell(g:T.Group,sections:number[][],mat:T.Material){const pos:number[]=[],indices:number[]=[];for(const [x,y,w,h] of sections)for(const [z,dy] of [[-w,0],[w,0],[w,-h],[-w,-h]])pos.push(x,y+dy,z);for(let i=0;i<sections.length-1;i++)for(let j=0;j<4;j++){const a=i*4+j,b=i*4+(j+1)%4,c=b+4,e=a+4;indices.push(a,b,c,a,c,e);}indices.push(0,3,2,0,2,1);const n=(sections.length-1)*4;indices.push(n,n+1,n+2,n,n+2,n+3);const geo=new T.BufferGeometry();geo.setAttribute('position',new T.Float32BufferAttribute(pos,3));geo.setIndex(indices);geo.computeVertexNormals();return mesh(g,geo,mat);}
+ function shell(g:T.Group,sections:number[][],mat:T.Material){
+  const pos:number[]=[],indices:number[]=[];
+  // Crown and shoulder rings give fenders and seat a shaped surface in front/top views.
+  const ring=[[-1,-.5],[-.84,0],[0,.12],[.84,0],[1,-.5],[.82,-1],[-.82,-1]];
+  for(const [x,y,w,h] of sections)for(const [z,dy] of ring)pos.push(x,y+dy*h,z*w);
+  const n=ring.length;
+  for(let i=0;i<sections.length-1;i++)for(let j=0;j<n;j++){const a=i*n+j,b=i*n+(j+1)%n,c=b+n,d=a+n;indices.push(a,b,c,a,c,d);}
+  for(let j=1;j<n-1;j++){indices.push(0,j+1,j);const k=(sections.length-1)*n;indices.push(k,k+j,k+j+1);}
+  const geo=new T.BufferGeometry();geo.setAttribute('position',new T.Float32BufferAttribute(pos,3));geo.setIndex(indices);geo.computeVertexNormals();return mesh(g,geo,mat);
+ }
+
  function wheel(id:string,x:number,r:number,width:number,front:boolean){const g=groups[id];g.position.set(x,r,0);g.userData.axle=[x,r,0];
   const tire=mesh(g,new T.TorusGeometry(r-.044,.044,12,64),mats.rubber);tire.scale.z=width/.088;
   mesh(g,new T.TorusGeometry((front?anchors.frontRimBeadSeatDiameter:anchors.rearRimBeadSeatDiameter)/2,.012,8,64),mats.silver);
@@ -28,6 +38,8 @@ export function createBikeModel(input:BikeDimensions=defaultBikeDimensions){
   const tread=new T.InstancedMesh(new T.BoxGeometry(.025,.016,.025),mats.rubber,56*3),dummy=new T.Object3D();
   for(let i=0;i<56;i++)for(let row=0;row<3;row++){const a=(i+(row===1?.5:0))*Math.PI*2/56;dummy.position.set(Math.cos(a)*(r-.004),Math.sin(a)*(r-.004),(row-1)*width*.28);dummy.rotation.z=a-Math.PI/2;dummy.updateMatrix();tread.setMatrixAt(i*3+row,dummy.matrix);}tread.castShadow=true;g.add(tread);
   const brake=mesh(g,new T.RingGeometry(front?.08:.07,(front?anchors.frontDiscDiameter:anchors.rearDiscDiameter)/2,48),mats.steel,[0,0,-width*.65]);brake.material=new T.MeshStandardMaterial({color:0x9ca4ac,metalness:.8,roughness:.3,side:T.DoubleSide});
+  box(g,[.075,.04,-width*.72],[.055,.085,.035],mats.black);
+  tube(g,[0,-(r-.10),0],[0,-(r-.065),0],.004,mats.steel);
   for(let i=0;i<8;i++){const a=i*Math.PI/4;tube(g,[Math.cos(a)*.04,Math.sin(a)*.04,-width*.65],[Math.cos(a+.2)*.09,Math.sin(a+.2)*.09,-width*.65],.006,mats.silver);}
  }
  const front=d.wheelbase/2,rear=-front,sy=d.seatHeight-.958;
@@ -66,6 +78,7 @@ export function createBikeModel(input:BikeDimensions=defaultBikeDimensions){
   panel([[-.31,.88],[.10,1.00+sy],[.46,.96],[.28,.82],[.22,.73],[.12,.71],[.11,.84]],side,mats.orange);
   panel([[-.31,.883],[.09,.954+sy],[.32,.943],[.16,.89]],side+(side>0?.019:-.019),mats.black);
  }
+ for(let i=0;i<9;i++){const x=-.55+i*.055;const y=.98-(x+.58)/.36*.04+sy;tube(groups.seat,[x,y+.004,-.08],[x,y+.004,.08],.003,mats.black);}
  const plate=box(groups.plastics,[.42,1.075,.0],[.025,.20,.19],mats.orange);plate.rotation.z=.33;
  path(groups.controls,[[.36,1.16,-.40],[.34,1.18,-.23],[.38,1.14,-.12],[.38,1.14,.12],[.34,1.18,.23],[.36,1.16,.40]],.011,mats.silver);
  tube(groups.controls,[.38,1.14,-.10],[.38,1.14,.10],anchors.handlebarClampDiameter/2,mats.silver);
@@ -73,7 +86,7 @@ export function createBikeModel(input:BikeDimensions=defaultBikeDimensions){
  path(groups.controls,[[.37,1.17,-.22],[.47,1.03,-.15],[.59,.73,-.12],[front,.38,-.08]],.004,mats.rubber);
  const drive=groups.drivetrain;disk(drive,[rear,.333,.085],.13,.008,mats.steel);
  path(drive,[[rear,.46,.10],[-.21,.53,.10],[-.15,.49,.10],[-.20,.44,.10],[rear,.205,.10],[rear-.13,.33,.10],[rear,.46,.10]],.009,mats.steel);
- root.userData.refinement='side-reference-pass-1';
+ root.userData.refinement='exterior-pass-2';
  consolidateComponents(root);root.updateMatrixWorld(true);return root;
 }
 export function disposeBikeModel(root:T.Object3D){const geometries=new Set<T.BufferGeometry>(),materials=new Set<T.Material>();root.traverse(o=>{if(o instanceof T.Mesh){geometries.add(o.geometry);for(const m of Array.isArray(o.material)?o.material:[o.material])materials.add(m);}});geometries.forEach(g=>g.dispose());materials.forEach(m=>m.dispose());}
@@ -91,7 +104,7 @@ function consolidateComponents(root:T.Group){
    const transformed=meshes.map(m=>{m.updateMatrix();const geometry=m.geometry.clone().applyMatrix4(m.matrix);const flat=geometry.index?geometry.toNonIndexed():geometry;if(flat!==geometry)geometry.dispose();flat.deleteAttribute('uv');return flat;});
    const merged=mergeGeometries(transformed,false);transformed.forEach(g=>g.dispose());
    if(!merged)continue;
-   const combined=new T.Mesh(merged,material);combined.name=group.name+'-surface';combined.castShadow=true;combined.receiveShadow=true;
+   const indexed=mergeVertices(merged,1e-6);merged.dispose();const combined=new T.Mesh(indexed,material);combined.name=group.name+'-surface';combined.castShadow=true;combined.receiveShadow=true;
    for(const m of meshes){group.remove(m);m.geometry.dispose();}group.add(combined);
   }
  }
