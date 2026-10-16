@@ -1,0 +1,147 @@
+{
+  "target": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2016,
+    "variant": "standard",
+    "region": "US"
+  },
+  "assemblies": [],
+  "parts": [],
+  "facts": [
+    {
+      "id": "honda-2016-crf250r-dimension-overall-length",
+      "property": "dimensions",
+      "joint": "Dimension / Overall length",
+      "value": "2181",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2016_31krn720_crf250r.pdf",
+      "locator": "PDF page 165; printed page 163",
+      "document_sha256": "57c6cd4b52fc33c3a65aa484df2e66253ad1e5936ba01298f7e05b1a47641062",
+      "document_revision": "2016 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:46.235913+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2016-crf250r-dimension-overall-width",
+      "property": "dimensions",
+      "joint": "Dimension / Overall width",
+      "value": "827",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2016_31krn720_crf250r.pdf",
+      "locator": "PDF page 165; printed page 163",
+      "document_sha256": "57c6cd4b52fc33c3a65aa484df2e66253ad1e5936ba01298f7e05b1a47641062",
+      "document_revision": "2016 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:46.235943+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2016-crf250r-dimension-overall-height",
+      "property": "dimensions",
+      "joint": "Dimension / Overall height",
+      "value": "1271",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2016_31krn720_crf250r.pdf",
+      "locator": "PDF page 165; printed page 163",
+      "document_sha256": "57c6cd4b52fc33c3a65aa484df2e66253ad1e5936ba01298f7e05b1a47641062",
+      "document_revision": "2016 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:46.235955+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2016-crf250r-dimension-wheelbase",
+      "property": "dimensions",
+      "joint": "Dimension / Wheelbase",
+      "value": "1489",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2016_31krn720_crf250r.pdf",
+      "locator": "PDF page 165; printed page 163",
+      "document_sha256": "57c6cd4b52fc33c3a65aa484df2e66253ad1e5936ba01298f7e05b1a47641062",
+      "document_revision": "2016 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:46.235961+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2016-crf250r-dimension-seat-height",
+      "property": "dimensions",
+      "joint": "Dimension / Seat height",
+      "value": "951",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2016_31krn720_crf250r.pdf",
+      "locator": "PDF page 165; printed page 163",
+      "document_sha256": "57c6cd4b52fc33c3a65aa484df2e66253ad1e5936ba01298f7e05b1a47641062",
+      "document_revision": "2016 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:46.235967+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2016-crf250r-dimension-footpeg-height",
+      "property": "dimensions",
+      "joint": "Dimension / Footpeg height",
+      "value": "418",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2016_31krn720_crf250r.pdf",
+      "locator": "PDF page 165; printed page 163",
+      "document_sha256": "57c6cd4b52fc33c3a65aa484df2e66253ad1e5936ba01298f7e05b1a47641062",
+      "document_revision": "2016 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:46.235973+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2016-crf250r-dimension-ground-clearance",
+      "property": "dimensions",
+      "joint": "Dimension / Ground clearance",
+      "value": "322",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2016_31krn720_crf250r.pdf",
+      "locator": "PDF page 165; printed page 163",
+      "document_sha256": "57c6cd4b52fc33c3a65aa484df2e66253ad1e5936ba01298f7e05b1a47641062",
+      "document_revision": "2016 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:46.235979+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    }
+  ],
+  "mappings": []
+}

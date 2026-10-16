@@ -1,0 +1,148 @@
+{
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ65",
+    "model_year": 2018,
+    "variant": "standard",
+    "region": "US"
+  },
+  "assemblies": [],
+  "parts": [],
+  "facts": [
+    {
+      "id": "yamaha-2018-yz65-dimension-overall-length",
+      "property": "dimensions",
+      "joint": "Dimension / Overall length",
+      "value": "1615",
+      "unit": "mm",
+      "conditions": [
+        "Exact US motocross model; excludes X cross-country variants."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR8-28199-10_02.pdf",
+      "locator": "PDF page 78; printed page 9-1",
+      "document_sha256": "286bbb3d7cecd0a07e42e2b43a28b311c18d42982c03fa60d4f697efe479c1e5",
+      "document_revision": "BR8-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.999057+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2018-yz65-dimension-overall-width",
+      "property": "dimensions",
+      "joint": "Dimension / Overall width",
+      "value": "760",
+      "unit": "mm",
+      "conditions": [
+        "Exact US motocross model; excludes X cross-country variants."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR8-28199-10_02.pdf",
+      "locator": "PDF page 78; printed page 9-1",
+      "document_sha256": "286bbb3d7cecd0a07e42e2b43a28b311c18d42982c03fa60d4f697efe479c1e5",
+      "document_revision": "BR8-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.999182+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2018-yz65-dimension-overall-height",
+      "property": "dimensions",
+      "joint": "Dimension / Overall height",
+      "value": "1000",
+      "unit": "mm",
+      "conditions": [
+        "Exact US motocross model; excludes X cross-country variants."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR8-28199-10_02.pdf",
+      "locator": "PDF page 78; printed page 9-1",
+      "document_sha256": "286bbb3d7cecd0a07e42e2b43a28b311c18d42982c03fa60d4f697efe479c1e5",
+      "document_revision": "BR8-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.999283+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2018-yz65-dimension-seat-height",
+      "property": "dimensions",
+      "joint": "Dimension / Seat height",
+      "value": "755",
+      "unit": "mm",
+      "conditions": [
+        "Exact US motocross model; excludes X cross-country variants."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR8-28199-10_02.pdf",
+      "locator": "PDF page 78; printed page 9-1",
+      "document_sha256": "286bbb3d7cecd0a07e42e2b43a28b311c18d42982c03fa60d4f697efe479c1e5",
+      "document_revision": "BR8-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.999381+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2018-yz65-dimension-wheelbase",
+      "property": "dimensions",
+      "joint": "Dimension / Wheelbase",
+      "value": "1140",
+      "unit": "mm",
+      "conditions": [
+        "Exact US motocross model; excludes X cross-country variants."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR8-28199-10_02.pdf",
+      "locator": "PDF page 78; printed page 9-1",
+      "document_sha256": "286bbb3d7cecd0a07e42e2b43a28b311c18d42982c03fa60d4f697efe479c1e5",
+      "document_revision": "BR8-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.999464+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2018-yz65-dimension-ground-clearance",
+      "property": "dimensions",
+      "joint": "Dimension / Ground clearance",
+      "value": "265",
+      "unit": "mm",
+      "conditions": [
+        "Exact US motocross model; excludes X cross-country variants."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR8-28199-10_02.pdf",
+      "locator": "PDF page 78; printed page 9-1",
+      "document_sha256": "286bbb3d7cecd0a07e42e2b43a28b311c18d42982c03fa60d4f697efe479c1e5",
+      "document_revision": "BR8-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.999625+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2018-yz65-weight-curb-weight",
+      "property": "other",
+      "joint": "Weight / Curb weight",
+      "value": "61",
+      "unit": "kg",
+      "conditions": [
+        "Exact US motocross model; excludes X cross-country variants.",
+        "Curb weight is not dry weight."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR8-28199-10_02.pdf",
+      "locator": "PDF page 78; printed page 9-1",
+      "document_sha256": "286bbb3d7cecd0a07e42e2b43a28b311c18d42982c03fa60d4f697efe479c1e5",
+      "document_revision": "BR8-28199-10_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.999724+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    }
+  ],
+  "mappings": []
+}

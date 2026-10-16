@@ -1,0 +1,148 @@
+{
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ250F",
+    "model_year": 2017,
+    "variant": "standard",
+    "region": "US"
+  },
+  "assemblies": [],
+  "parts": [],
+  "facts": [
+    {
+      "id": "yamaha-2017-yz250f-dimension-overall-length",
+      "property": "dimensions",
+      "joint": "Dimension / Overall length",
+      "value": "2165",
+      "unit": "mm",
+      "conditions": [
+        "Exact US motocross model; excludes X cross-country variants."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/1SM-28199-13_02.pdf",
+      "locator": "PDF page 38; printed page 2-1",
+      "document_sha256": "f1e685f441c90938e93d8a5996940e7839dfb3f580bf7ddd357f57df81c3d260",
+      "document_revision": "1SM-28199-13_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.785727+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2017-yz250f-dimension-overall-width",
+      "property": "dimensions",
+      "joint": "Dimension / Overall width",
+      "value": "825",
+      "unit": "mm",
+      "conditions": [
+        "Exact US motocross model; excludes X cross-country variants."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/1SM-28199-13_02.pdf",
+      "locator": "PDF page 38; printed page 2-1",
+      "document_sha256": "f1e685f441c90938e93d8a5996940e7839dfb3f580bf7ddd357f57df81c3d260",
+      "document_revision": "1SM-28199-13_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.785781+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2017-yz250f-dimension-overall-height",
+      "property": "dimensions",
+      "joint": "Dimension / Overall height",
+      "value": "1280",
+      "unit": "mm",
+      "conditions": [
+        "Exact US motocross model; excludes X cross-country variants."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/1SM-28199-13_02.pdf",
+      "locator": "PDF page 38; printed page 2-1",
+      "document_sha256": "f1e685f441c90938e93d8a5996940e7839dfb3f580bf7ddd357f57df81c3d260",
+      "document_revision": "1SM-28199-13_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.785795+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2017-yz250f-dimension-seat-height",
+      "property": "dimensions",
+      "joint": "Dimension / Seat height",
+      "value": "965",
+      "unit": "mm",
+      "conditions": [
+        "Exact US motocross model; excludes X cross-country variants."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/1SM-28199-13_02.pdf",
+      "locator": "PDF page 38; printed page 2-1",
+      "document_sha256": "f1e685f441c90938e93d8a5996940e7839dfb3f580bf7ddd357f57df81c3d260",
+      "document_revision": "1SM-28199-13_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.785807+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2017-yz250f-dimension-wheelbase",
+      "property": "dimensions",
+      "joint": "Dimension / Wheelbase",
+      "value": "1475",
+      "unit": "mm",
+      "conditions": [
+        "Exact US motocross model; excludes X cross-country variants."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/1SM-28199-13_02.pdf",
+      "locator": "PDF page 38; printed page 2-1",
+      "document_sha256": "f1e685f441c90938e93d8a5996940e7839dfb3f580bf7ddd357f57df81c3d260",
+      "document_revision": "1SM-28199-13_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.785816+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2017-yz250f-dimension-ground-clearance",
+      "property": "dimensions",
+      "joint": "Dimension / Ground clearance",
+      "value": "325",
+      "unit": "mm",
+      "conditions": [
+        "Exact US motocross model; excludes X cross-country variants."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/1SM-28199-13_02.pdf",
+      "locator": "PDF page 38; printed page 2-1",
+      "document_sha256": "f1e685f441c90938e93d8a5996940e7839dfb3f580bf7ddd357f57df81c3d260",
+      "document_revision": "1SM-28199-13_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.785854+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2017-yz250f-weight-curb-weight",
+      "property": "other",
+      "joint": "Weight / Curb weight",
+      "value": "105",
+      "unit": "kg",
+      "conditions": [
+        "Exact US motocross model; excludes X cross-country variants.",
+        "Curb weight is not dry weight."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/1SM-28199-13_02.pdf",
+      "locator": "PDF page 38; printed page 2-1",
+      "document_sha256": "f1e685f441c90938e93d8a5996940e7839dfb3f580bf7ddd357f57df81c3d260",
+      "document_revision": "1SM-28199-13_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:36.785866+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    }
+  ],
+  "mappings": []
+}

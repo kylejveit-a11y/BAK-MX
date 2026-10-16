@@ -1,0 +1,147 @@
+{
+  "target": {
+    "manufacturer": "Honda",
+    "model": "CRF150RB",
+    "model_year": 2014,
+    "variant": "standard",
+    "region": "US"
+  },
+  "assemblies": [],
+  "parts": [],
+  "facts": [
+    {
+      "id": "honda-2014-crf150rb-dimension-overall-length",
+      "property": "dimensions",
+      "joint": "Dimension / Overall length",
+      "value": "1900",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2014_31kse650_crf150r_rb.pdf",
+      "locator": "PDF page 140; printed page 136",
+      "document_sha256": "c30f143ca00a3fab0c76c01c0bdf99a4d451c3fd40cad824b2609f172df94ff2",
+      "document_revision": "2014 Honda CRF150R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:43.746191+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2014-crf150rb-dimension-overall-width",
+      "property": "dimensions",
+      "joint": "Dimension / Overall width",
+      "value": "770",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2014_31kse650_crf150r_rb.pdf",
+      "locator": "PDF page 140; printed page 136",
+      "document_sha256": "c30f143ca00a3fab0c76c01c0bdf99a4d451c3fd40cad824b2609f172df94ff2",
+      "document_revision": "2014 Honda CRF150R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:43.746214+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2014-crf150rb-dimension-overall-height",
+      "property": "dimensions",
+      "joint": "Dimension / Overall height",
+      "value": "1171",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2014_31kse650_crf150r_rb.pdf",
+      "locator": "PDF page 140; printed page 136",
+      "document_sha256": "c30f143ca00a3fab0c76c01c0bdf99a4d451c3fd40cad824b2609f172df94ff2",
+      "document_revision": "2014 Honda CRF150R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:43.746222+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2014-crf150rb-dimension-wheelbase",
+      "property": "dimensions",
+      "joint": "Dimension / Wheelbase",
+      "value": "1285",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2014_31kse650_crf150r_rb.pdf",
+      "locator": "PDF page 140; printed page 136",
+      "document_sha256": "c30f143ca00a3fab0c76c01c0bdf99a4d451c3fd40cad824b2609f172df94ff2",
+      "document_revision": "2014 Honda CRF150R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:43.746228+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2014-crf150rb-dimension-seat-height",
+      "property": "dimensions",
+      "joint": "Dimension / Seat height",
+      "value": "866",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2014_31kse650_crf150r_rb.pdf",
+      "locator": "PDF page 140; printed page 136",
+      "document_sha256": "c30f143ca00a3fab0c76c01c0bdf99a4d451c3fd40cad824b2609f172df94ff2",
+      "document_revision": "2014 Honda CRF150R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:43.746234+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2014-crf150rb-dimension-footpeg-height",
+      "property": "dimensions",
+      "joint": "Dimension / Footpeg height",
+      "value": "413",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2014_31kse650_crf150r_rb.pdf",
+      "locator": "PDF page 140; printed page 136",
+      "document_sha256": "c30f143ca00a3fab0c76c01c0bdf99a4d451c3fd40cad824b2609f172df94ff2",
+      "document_revision": "2014 Honda CRF150R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:43.746244+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2014-crf150rb-dimension-ground-clearance",
+      "property": "dimensions",
+      "joint": "Dimension / Ground clearance",
+      "value": "336",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2014_31kse650_crf150r_rb.pdf",
+      "locator": "PDF page 140; printed page 136",
+      "document_sha256": "c30f143ca00a3fab0c76c01c0bdf99a4d451c3fd40cad824b2609f172df94ff2",
+      "document_revision": "2014 Honda CRF150R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:43.746306+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    }
+  ],
+  "mappings": []
+}

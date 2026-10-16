@@ -2,97 +2,112 @@
   "scope": {
     "first_year": 2005,
     "last_year": 2020,
-    "order": "ascending"
+    "order": "ascending",
+    "first_unfinished_year": 2005
   },
-  "base_commit": "faa1beb0bef3a95349e0fb8bb0d63743b3a6049c",
+  "status": "INCOMPLETE",
+  "candidate_models": 90,
+  "candidate_facts": 892,
+  "acquired_documents": 76,
+  "complete_models": 0,
+  "live_imported": 0,
   "years": [
     {
       "year": 2005,
       "status": "PARTIAL",
-      "completed_models": 0
+      "candidate_models": 10,
+      "complete_models": 0
     },
     {
       "year": 2006,
-      "status": "NOT_STARTED",
-      "completed_models": 0
+      "status": "PARTIAL",
+      "candidate_models": 6,
+      "complete_models": 0
     },
     {
       "year": 2007,
-      "status": "NOT_STARTED",
-      "completed_models": 0
+      "status": "PARTIAL",
+      "candidate_models": 6,
+      "complete_models": 0
     },
     {
       "year": 2008,
-      "status": "NOT_STARTED",
-      "completed_models": 0
+      "status": "SOURCE_GAP",
+      "candidate_models": 0,
+      "complete_models": 0
     },
     {
       "year": 2009,
-      "status": "NOT_STARTED",
-      "completed_models": 0
+      "status": "PARTIAL",
+      "candidate_models": 2,
+      "complete_models": 0
     },
     {
       "year": 2010,
-      "status": "NOT_STARTED",
-      "completed_models": 0
+      "status": "PARTIAL",
+      "candidate_models": 2,
+      "complete_models": 0
     },
     {
       "year": 2011,
-      "status": "NOT_STARTED",
-      "completed_models": 0
+      "status": "PARTIAL",
+      "candidate_models": 2,
+      "complete_models": 0
     },
     {
       "year": 2012,
-      "status": "NOT_STARTED",
-      "completed_models": 0
+      "status": "PARTIAL",
+      "candidate_models": 4,
+      "complete_models": 0
     },
     {
       "year": 2013,
-      "status": "NOT_STARTED",
-      "completed_models": 0
+      "status": "PARTIAL",
+      "candidate_models": 4,
+      "complete_models": 0
     },
     {
       "year": 2014,
-      "status": "NOT_STARTED",
-      "completed_models": 0
+      "status": "PARTIAL",
+      "candidate_models": 4,
+      "complete_models": 0
     },
     {
       "year": 2015,
-      "status": "NOT_STARTED",
-      "completed_models": 0
+      "status": "PARTIAL",
+      "candidate_models": 4,
+      "complete_models": 0
     },
     {
       "year": 2016,
-      "status": "NOT_STARTED",
-      "completed_models": 0
+      "status": "PARTIAL",
+      "candidate_models": 8,
+      "complete_models": 0
     },
     {
       "year": 2017,
-      "status": "NOT_STARTED",
-      "completed_models": 0
+      "status": "PARTIAL",
+      "candidate_models": 9,
+      "complete_models": 0
     },
     {
       "year": 2018,
-      "status": "NOT_STARTED",
-      "completed_models": 0
+      "status": "PARTIAL",
+      "candidate_models": 10,
+      "complete_models": 0
     },
     {
       "year": 2019,
-      "status": "NOT_STARTED",
-      "completed_models": 0
+      "status": "PARTIAL",
+      "candidate_models": 9,
+      "complete_models": 0
     },
     {
       "year": 2020,
-      "status": "RECONCILE_EXISTING",
-      "completed_models": 0
+      "status": "PARTIAL",
+      "candidate_models": 10,
+      "complete_models": 0
     }
   ],
-  "current": {
-    "year": 2005,
-    "candidate_models": 4,
-    "candidate_facts": 185,
-    "complete_models": 0,
-    "live_imported": 0
-  },
-  "resume": "REVIEW.md"
+  "resume": "COLLECTION_STATUS.md"
 }

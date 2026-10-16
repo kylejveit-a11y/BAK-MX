@@ -1,0 +1,148 @@
+{
+  "target": {
+    "manufacturer": "Yamaha",
+    "model": "YZ85",
+    "model_year": 2018,
+    "variant": "standard",
+    "region": "US"
+  },
+  "assemblies": [],
+  "parts": [],
+  "facts": [
+    {
+      "id": "yamaha-2018-yz85-dimension-overall-length",
+      "property": "dimensions",
+      "joint": "Dimension / Overall length",
+      "value": "1820",
+      "unit": "mm",
+      "conditions": [
+        "Exact US motocross model; excludes X cross-country variants."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/1SN-28199-16_02.pdf",
+      "locator": "PDF page 73; printed page 9-1",
+      "document_sha256": "efc962c02d96778e0626b8d1d7298f65066a22eb81a9a2347a7b7ae563ef4974",
+      "document_revision": "1SN-28199-16_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:37.014845+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2018-yz85-dimension-overall-width",
+      "property": "dimensions",
+      "joint": "Dimension / Overall width",
+      "value": "760",
+      "unit": "mm",
+      "conditions": [
+        "Exact US motocross model; excludes X cross-country variants."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/1SN-28199-16_02.pdf",
+      "locator": "PDF page 73; printed page 9-1",
+      "document_sha256": "efc962c02d96778e0626b8d1d7298f65066a22eb81a9a2347a7b7ae563ef4974",
+      "document_revision": "1SN-28199-16_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:37.014878+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2018-yz85-dimension-overall-height",
+      "property": "dimensions",
+      "joint": "Dimension / Overall height",
+      "value": "1125",
+      "unit": "mm",
+      "conditions": [
+        "Exact US motocross model; excludes X cross-country variants."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/1SN-28199-16_02.pdf",
+      "locator": "PDF page 73; printed page 9-1",
+      "document_sha256": "efc962c02d96778e0626b8d1d7298f65066a22eb81a9a2347a7b7ae563ef4974",
+      "document_revision": "1SN-28199-16_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:37.014897+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2018-yz85-dimension-seat-height",
+      "property": "dimensions",
+      "joint": "Dimension / Seat height",
+      "value": "840",
+      "unit": "mm",
+      "conditions": [
+        "Exact US motocross model; excludes X cross-country variants."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/1SN-28199-16_02.pdf",
+      "locator": "PDF page 73; printed page 9-1",
+      "document_sha256": "efc962c02d96778e0626b8d1d7298f65066a22eb81a9a2347a7b7ae563ef4974",
+      "document_revision": "1SN-28199-16_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:37.014924+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2018-yz85-dimension-wheelbase",
+      "property": "dimensions",
+      "joint": "Dimension / Wheelbase",
+      "value": "1255",
+      "unit": "mm",
+      "conditions": [
+        "Exact US motocross model; excludes X cross-country variants."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/1SN-28199-16_02.pdf",
+      "locator": "PDF page 73; printed page 9-1",
+      "document_sha256": "efc962c02d96778e0626b8d1d7298f65066a22eb81a9a2347a7b7ae563ef4974",
+      "document_revision": "1SN-28199-16_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:37.014940+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2018-yz85-dimension-ground-clearance",
+      "property": "dimensions",
+      "joint": "Dimension / Ground clearance",
+      "value": "330",
+      "unit": "mm",
+      "conditions": [
+        "Exact US motocross model; excludes X cross-country variants."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/1SN-28199-16_02.pdf",
+      "locator": "PDF page 73; printed page 9-1",
+      "document_sha256": "efc962c02d96778e0626b8d1d7298f65066a22eb81a9a2347a7b7ae563ef4974",
+      "document_revision": "1SN-28199-16_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:37.014957+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "yamaha-2018-yz85-weight-curb-weight",
+      "property": "other",
+      "joint": "Weight / Curb weight",
+      "value": "71",
+      "unit": "kg",
+      "conditions": [
+        "Exact US motocross model; excludes X cross-country variants.",
+        "Curb weight is not dry weight."
+      ],
+      "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/1SN-28199-16_02.pdf",
+      "locator": "PDF page 73; printed page 9-1",
+      "document_sha256": "efc962c02d96778e0626b8d1d7298f65066a22eb81a9a2347a7b7ae563ef4974",
+      "document_revision": "1SN-28199-16_02.pdf",
+      "retrieved_at": "2026-10-16T15:41:37.014974+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected general-specification rows visually inspected. Exact year follows existing Yamaha US manual index; independent identity/conflict review pending. No other pages extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    }
+  ],
+  "mappings": []
+}

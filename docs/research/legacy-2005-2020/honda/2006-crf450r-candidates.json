@@ -1,0 +1,147 @@
+{
+  "target": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2006,
+    "variant": "standard",
+    "region": "US"
+  },
+  "assemblies": [],
+  "parts": [],
+  "facts": [
+    {
+      "id": "honda-2006-crf450r-dimension-overall-length",
+      "property": "dimensions",
+      "joint": "Dimension / Overall length",
+      "value": "2191",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2006/2006_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "44e8dd65c2ea470255b3824e03ebc2c3cb87a16eeda0869cd1b2c4f458acd198",
+      "document_revision": "2006 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.526166+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2006-crf450r-dimension-overall-width",
+      "property": "dimensions",
+      "joint": "Dimension / Overall width",
+      "value": "825",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2006/2006_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "44e8dd65c2ea470255b3824e03ebc2c3cb87a16eeda0869cd1b2c4f458acd198",
+      "document_revision": "2006 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.526189+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2006-crf450r-dimension-overall-height",
+      "property": "dimensions",
+      "joint": "Dimension / Overall height",
+      "value": "1262",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2006/2006_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "44e8dd65c2ea470255b3824e03ebc2c3cb87a16eeda0869cd1b2c4f458acd198",
+      "document_revision": "2006 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.526197+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2006-crf450r-dimension-wheelbase",
+      "property": "dimensions",
+      "joint": "Dimension / Wheelbase",
+      "value": "1492",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2006/2006_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "44e8dd65c2ea470255b3824e03ebc2c3cb87a16eeda0869cd1b2c4f458acd198",
+      "document_revision": "2006 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.526204+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2006-crf450r-dimension-seat-height",
+      "property": "dimensions",
+      "joint": "Dimension / Seat height",
+      "value": "955",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2006/2006_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "44e8dd65c2ea470255b3824e03ebc2c3cb87a16eeda0869cd1b2c4f458acd198",
+      "document_revision": "2006 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.526210+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2006-crf450r-dimension-footpeg-height",
+      "property": "dimensions",
+      "joint": "Dimension / Footpeg height",
+      "value": "432",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2006/2006_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "44e8dd65c2ea470255b3824e03ebc2c3cb87a16eeda0869cd1b2c4f458acd198",
+      "document_revision": "2006 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.526215+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2006-crf450r-dimension-ground-clearance",
+      "property": "dimensions",
+      "joint": "Dimension / Ground clearance",
+      "value": "339",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2006/2006_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "44e8dd65c2ea470255b3824e03ebc2c3cb87a16eeda0869cd1b2c4f458acd198",
+      "document_revision": "2006 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.526221+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    }
+  ],
+  "mappings": []
+}

@@ -1,0 +1,755 @@
+{
+  "target": {
+    "manufacturer": "Honda",
+    "model": "CR250R",
+    "model_year": 2005,
+    "variant": "standard",
+    "region": "US"
+  },
+  "assemblies": [],
+  "parts": [],
+  "facts": [
+    {
+      "id": "honda-2005-cr250r-spec-dimension-overall-length",
+      "property": "dimensions",
+      "joint": "Dimension / Overall length",
+      "value": "2185",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552689+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-dimension-overall-width",
+      "property": "dimensions",
+      "joint": "Dimension / Overall width",
+      "value": "821",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552714+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-dimension-overall-height",
+      "property": "dimensions",
+      "joint": "Dimension / Overall height",
+      "value": "1275",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552722+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-dimension-wheelbase",
+      "property": "dimensions",
+      "joint": "Dimension / Wheelbase",
+      "value": "1487",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552728+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-dimension-seat-height",
+      "property": "dimensions",
+      "joint": "Dimension / Seat height",
+      "value": "950",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552733+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-dimension-foot-peg-height",
+      "property": "dimensions",
+      "joint": "Dimension / Foot peg height",
+      "value": "429",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552739+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-dimension-ground-clearance",
+      "property": "dimensions",
+      "joint": "Dimension / Ground clearance",
+      "value": "347",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552745+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-dimension-dry-weight",
+      "property": "other",
+      "joint": "Dimension / Dry weight",
+      "value": "96.4",
+      "unit": "kg",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552751+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-frame-type",
+      "property": "other",
+      "joint": "Frame / Type",
+      "value": "Twin tube",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552757+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-frame-tire-type",
+      "property": "other",
+      "joint": "Frame / Tire type",
+      "value": "bias-ply, tube",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552766+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-frame-fuel-capacity",
+      "property": "other",
+      "joint": "Frame / Fuel capacity",
+      "value": "7.7",
+      "unit": "L",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552772+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-frame-caster-angle",
+      "property": "other",
+      "joint": "Frame / Caster angle",
+      "value": "27°08′",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552781+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-frame-trail-length",
+      "property": "dimensions",
+      "joint": "Frame / Trail length",
+      "value": "111.7",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552786+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-engine-type",
+      "property": "other",
+      "joint": "Engine / Type",
+      "value": "Liquid cooled, 2-stroke",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552793+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-engine-cylinder-arrangement",
+      "property": "other",
+      "joint": "Engine / Cylinder arrangement",
+      "value": "Single 9°inclined from vertical",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552800+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-engine-bore-and-stroke",
+      "property": "dimensions",
+      "joint": "Engine / Bore and stroke",
+      "value": "66.4×72.0",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552806+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-engine-displacement",
+      "property": "other",
+      "joint": "Engine / Displacement",
+      "value": "249.3",
+      "unit": "cm³",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552812+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-engine-compression-ratio",
+      "property": "other",
+      "joint": "Engine / Compression ratio",
+      "value": "9.0 :1",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552817+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-carburetor-type",
+      "property": "other",
+      "joint": "Carburetor / Type",
+      "value": "Piston valve",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552858+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-carburetor-identification-number",
+      "property": "other",
+      "joint": "Carburetor / Identification number",
+      "value": "TMX11A",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552863+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-carburetor-main-jet-standard",
+      "property": "other",
+      "joint": "Carburetor / Main jet (standard)",
+      "value": "#420",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552869+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-carburetor-slow-jet-standard",
+      "property": "other",
+      "joint": "Carburetor / Slow jet (standard)",
+      "value": "#40",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552873+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-carburetor-air-screw-opening",
+      "property": "other",
+      "joint": "Carburetor / Air screw opening",
+      "value": "2 turns out",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552879+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-carburetor-float-height",
+      "property": "dimensions",
+      "joint": "Carburetor / Float height",
+      "value": "7.5",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552884+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-drive-train-clutch-type",
+      "property": "other",
+      "joint": "Drive train / Clutch type",
+      "value": "Wet, multi-plate type",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552890+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-drive-train-transmission",
+      "property": "other",
+      "joint": "Drive train / Transmission",
+      "value": "5-speed, constant mesh",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552895+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-drive-train-primary-reduction",
+      "property": "other",
+      "joint": "Drive train / Primary reduction",
+      "value": "3.000",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552901+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-drive-train-gear-ratio-i",
+      "property": "other",
+      "joint": "Drive train / Gear ratio I",
+      "value": "1.800",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552906+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-drive-train-gear-ratio-ii",
+      "property": "other",
+      "joint": "Drive train / Gear ratio II",
+      "value": "1.470",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552912+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-drive-train-gear-ratio-iii",
+      "property": "other",
+      "joint": "Drive train / Gear ratio III",
+      "value": "1.210",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552917+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-drive-train-gear-ratio-iv",
+      "property": "other",
+      "joint": "Drive train / Gear ratio IV",
+      "value": "1.000",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552921+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-drive-train-gear-ratio-v",
+      "property": "other",
+      "joint": "Drive train / Gear ratio V",
+      "value": "0.869",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552926+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-drive-train-final-reduction",
+      "property": "other",
+      "joint": "Drive train / Final reduction",
+      "value": "3.769",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552932+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-drive-train-gear-shift-pattern",
+      "property": "other",
+      "joint": "Drive train / Gear shift pattern",
+      "value": "Left foot-operated return system 1-N-2-3-4-5",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552938+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-electrical-ignition",
+      "property": "other",
+      "joint": "Electrical / Ignition",
+      "value": "CDI",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552943+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-electrical-starting-system",
+      "property": "other",
+      "joint": "Electrical / Starting system",
+      "value": "Kickstarter",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552948+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-engine-transmission-oil-capacity-after-draining",
+      "property": "other",
+      "joint": "Engine / Transmission oil capacity / After draining",
+      "value": "0.65",
+      "unit": "L",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552956+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-engine-transmission-oil-capacity-after-disassembly",
+      "property": "other",
+      "joint": "Engine / Transmission oil capacity / After disassembly",
+      "value": "0.70",
+      "unit": "L",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552960+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr250r-spec-electrical-spark-plug-standard-ngk",
+      "property": "other",
+      "joint": "Electrical / Spark plug / Standard NGK",
+      "value": "BR9EG-N-8",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+      "locator": "PDF page 127; printed page 123",
+      "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+      "document_revision": "2005 Honda CR250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:37:53.552964+00:00",
+      "review_status": "PENDING",
+      "review_note": "Specification page visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    }
+  ],
+  "mappings": []
+}
