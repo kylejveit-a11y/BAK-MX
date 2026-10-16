@@ -177,5 +177,14 @@
     "model": "CR85RB",
     "page": 86,
     "issue": "Standard sag is 85 mm but text calls 90 mm a decrease. The tuning example is excluded; standard figure agrees with arithmetic example."
+  },
+  {
+    "model": "CRF250R",
+    "model_year": 2005,
+    "page": 145,
+    "printed_page": 141,
+    "label": "Upper engine hanger plate bolts (frame side), diagram item 13",
+    "issue": "Unit conflict: table prints 34 N·m and 25 lbf·ft but 3.0 kgf·m. Row withheld pending procedure reconciliation or manufacturer correction; no unit silently repaired.",
+    "status": "WITHHELD"
   }
 ]

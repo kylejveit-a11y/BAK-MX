@@ -2,11 +2,11 @@
 
 Updated 2026-10-16. Requested range: 2005–2020. **Incomplete; no model has a complete service-data record.**
 
-90 exact model-year targets; 892 PENDING candidate facts; 76 acquired source documents. No production import, promotion or deployment.
+90 exact model-year targets; 1151 PENDING candidate facts; 76 acquired source documents. No production import, promotion or deployment.
 
 | Make | Candidate model-years | Candidate facts |
 |---|---:|---:|
-| Honda | 60 | 644 |
+| Honda | 60 | 903 |
 | KTM | 4 | 66 |
 | Yamaha | 26 | 182 |
 
@@ -33,7 +33,7 @@ Updated 2026-10-16. Requested range: 2005–2020. **Incomplete; no model has a c
 
 ## What was actually extracted
 
-- Honda 2005: six models, 266 facts; broad specification rows and selected damping/sag for the original four. CR125R/CR250R add specification rows only.
+- Honda 2005: six models, 525 facts; broad specification rows, selected damping/sag, and 259 chassis torque candidates. Both frame-table pages were visually checked for each of the five source manuals; the shared mini manual covers CR85R and CR85RB. Fastener remark conditions are retained. Torque procedure reconciliation remains pending.
 - Honda 2006–2020: seven dimension rows per target; 2008 remains a source gap. CR85R/CR85RB and CRF150R/CRF150RB are separate targets. No RX or RWE target inferred from a shared manual.
 - Yamaha 2016–2020: seven dimension/curb-weight rows per target. Only model-years explicitly listed in the existing Yamaha US manual index were used; this is not a full production roster.
 - KTM 2005: selected engine, gearing, chassis dimensions, wheel travel and fork spring rates for 125 SX, 250 SX, 450 SX Racing and 525 SX Racing. The KTM-authored English manuals are dealer-hosted; source authenticity and exact market applicability still require independent review.
@@ -56,6 +56,8 @@ Every candidate carries its exact target, source URL, SHA-256, page locator and 
 
 The 2019 CRF450R PDF page 178 has missing glyphs in the printed footer. Its locator records the PDF page and explicitly marks the printed page unreadable. Honda 2014 CRF250R uses a distinct ruled-table layout; its seven dimensions use a bounded text-layer fallback checked against the page image. Shared Honda R/RX and Yamaha MX/X rows are selected explicitly.
 
+The CRF250R frame-side upper engine hanger torque row is withheld because its printed N·m/lbf·ft and kgf·m columns conflict. Two additional KTM mini owner-manual URL probes (6001E9_OM_EN.pdf and 6001E6_OM_EN.pdf) returned HTTP 403; neither was acquired or counted.
+
 The earlier issues in issues.json remain unresolved; see REVIEW.md for the original 185-fact checkpoint. Extractors deliberately omit unreviewed maintenance values. The current generic application schema still needs separate legacy-year integration assessment.
 
 ## Files and reproduction
@@ -66,6 +68,6 @@ The earlier issues in issues.json remain unresolved; see REVIEW.md for the origi
 - honda-dimension-jobs.json: exact dimension extraction inputs.
 - extract_*.py: bounded repeatable extractors; validate_all.py checks the complete candidate set.
 
-To reproduce, download each acquired-source-catalog.json URL to its local_filename in a temporary directory and verify SHA-256 before parsing. Copy source-discovery.json and honda-dimension-jobs.json there. Run the extractors with that directory as their argument, using PyMuPDF/pdfplumber. Do not feed PENDING files into runtime loaders.
+To reproduce, download each acquired-source-catalog.json URL to its local_filename in a temporary directory and verify SHA-256 before parsing. Copy source-discovery.json and honda-dimension-jobs.json there. Run the base extractors with that directory as their argument, using PyMuPDF/pdfplumber. Run extract_honda_2005_chassis_torques.py after the two base Honda 2005 extractors; it appends the visually transcribed chassis rows idempotently. Do not feed PENDING files into runtime loaders.
 
 No background collection is scheduled by these files. Remaining work above is still outstanding.
