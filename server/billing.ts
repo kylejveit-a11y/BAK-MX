@@ -72,9 +72,13 @@ export async function handleBilling(req:Request,user:{id:string;email?:string}|n
     }
     if(path==='/api/billing/plans'&&req.method==='GET'){
       // Only prices that are configured here AND active in Stripe are offered; nothing is shown that cannot be bought.
-      const s=stripe(),plans=[] as {tier:string;price_id:string;amount:number;currency:string;interval:string}[],packs=[] as {price_id:string;credits:number;amount:number;currency:string}[];
-      for(const [id,tier] of planPrices()){try{const p=await s.prices.retrieve(id);if(p.active&&p.recurring&&p.unit_amount!==null)plans.push({tier,price_id:id,amount:p.unit_amount/100,currency:p.currency,interval:p.recurring.interval});}catch{}}
-      for(const [id,credits] of creditPacks(process.env.STRIPE_CREDIT_PRICES)){try{const p=await s.prices.retrieve(id);if(p.active&&!p.recurring&&p.unit_amount!==null)packs.push({price_id:id,credits,amount:p.unit_amount/100,currency:p.currency});}catch{}}
+      const plans=[] as {tier:string;price_id:string;amount:number;currency:string;interval:string}[],packs=[] as {price_id:string;credits:number;amount:number;currency:string}[];
+      const configuredPlans=stripePlanPrices(),configuredPacks=creditPacks(process.env.STRIPE_CREDIT_PRICES);
+      // Before web billing is set up there is simply nothing on sale yet; that is not an outage.
+      if(!process.env.STRIPE_SECRET_KEY||(!configuredPlans.size&&!configuredPacks.size))return json({plans,packs});
+      const s=stripe();
+      for(const [id,tier] of configuredPlans){try{const p=await s.prices.retrieve(id);if(p.active&&p.recurring&&p.unit_amount!==null)plans.push({tier,price_id:id,amount:p.unit_amount/100,currency:p.currency,interval:p.recurring.interval});}catch{}}
+      for(const [id,credits] of configuredPacks){try{const p=await s.prices.retrieve(id);if(p.active&&!p.recurring&&p.unit_amount!==null)packs.push({price_id:id,credits,amount:p.unit_amount/100,currency:p.currency});}catch{}}
       return json({plans,packs});
     }
     if(path==='/api/billing/webhook'&&req.method==='POST'){
