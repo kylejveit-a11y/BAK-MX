@@ -1,37 +1,37 @@
 # Kawasaki KX250X 2023: aftermarket parts
 
-4212 listings whose stated fitment names this bike: 30 researched parts (with what they change and rider findings), 371 dealer and retailer listings specific to this bike, and 3811 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+4212 listings whose stated fitment names this bike: 30 researched parts (with what they change and rider findings), 356 dealer and retailer listings specific to this bike, and 3826 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
-| EBC | MXS Race Series Rear Brake Pads | MXS367 | EBC claims: sintered copper-alloy race pad with aggressive feel and sharp initial bite; high durability off-road. | Off-road race use only, not R90/TUV. Retailer list was truncated (258 vehicles claimed). YZ450FX 2024+ not shown. | [J&P Cycles](https://www.jpcycles.com/product/ebc-mxs367-mxs-race-series-rear-brake-pads) | medium |
 | EBC | MXS Race Series Front Brake Pads | MXS185 | EBC claims: sintered copper-alloy race compound made in EBC's US plant, sharp initial bite, high durability in mud and dust; diamond-ground surface for fast bed-in. | Off-road race use only, not R90/TUV approved. J&P fitment list was truncated after Kawasaki, so Yamaha/Suzuki entries were not seen. EBC's own product page (ebc | [J&P Cycles](https://www.jpcycles.com/product/ebc-mxs185-race-series-front-brake-pads) | medium |
+| EBC | MXS Race Series Rear Brake Pads | MXS367 | EBC claims: sintered copper-alloy race pad with aggressive feel and sharp initial bite; high durability off-road. | Off-road race use only, not R90/TUV. Retailer list was truncated (258 vehicles claimed). YZ450FX 2024+ not shown. | [J&P Cycles](https://www.jpcycles.com/product/ebc-mxs367-mxs-race-series-rear-brake-pads) | medium |
 | Pro Circuit | Kawasaki Triple Clamp Kit (KX450 '19-'25 / KX250 '21-'25) | 39219453 | Maker page gives no offset or description. | Offset not stated on maker page; shown as backorder. | [Pro Circuit](https://procircuit.com/triple-clamp-kit-kx450-19-23.html) | high |
 | Rekluse | RadiusX 4.0 - KAW KX250F KX250X | RMS-8304140 | Rekluse claims: eliminates stalling, EXP 4.0 auto engagement with external adjustment; 'Allows riders to run a gear taller'. | Year list comes from the page's selector; spans the 2025 KX250 platform change, confirm with Rekluse. | [Rekluse](https://www.rekluse.com/product/auto-clutches/radiusx/radiusx-clutches/radiusx-4-0-kaw-kx250f-kx250x/) | high |
 | Zeta | Forged Pivot Brake Lever (Kawasaki) |  | Listing: folds outward in a crash and springs back; 3-finger length with reach adjust; CNC knuckle fits OEM perch. | Retailer item P831645; title (2019-2024) conflicts with list. | [Cycle Gear](https://www.cyclegear.com/parts/zeta-forged-pivot-brake-lever-kawasaki-kx250-kx450-x-2019-2023) | medium |
 | Kawasaki (genuine) | KX FI Calibration Kit (Handheld) | 99999-0615 | Kawasaki Australia: handheld controller that lets riders 'adjust engine characteristics, by rewriting actual data maps'; adjusts fuel injection and ignition timing by throttle position and rpm; seven  | Page is internally inconsistent: description says fits KX250F 13-25 and KX450F 09-10/12-25, compatible-models list omits some years (e.g. KX250 2021, KX450 2021 | [Kawasaki Australia (MSRP, 'not sold online')](https://kawasaki.com.au/en-au/shop/maintenance/15827/kx-fi-calibration-kit-(handheld)) | high |
 | Kawasaki (genuine) | KX FI Calibration Kit (PC version) | 99999-0616 | Kawasaki Australia: handheld controller plugs into ECU, 'rewriting actual data maps'; seven preset settings incl. richer/leaner fuelling, advanced/retarded ignition, hard/soft surfaces, beginners. | US price cited by testers: $699.95 (Keefer 2022 KX250, MXA 2021 KX250); Ultimate Motorcycling 2023 KX250X cites $775. Not confirmed which kit version those pric | [Kawasaki Australia (MSRP, 'not sold online')](https://www.kawasaki.com.au/en-au/shop/maintenance/14529/kx-fi-calibration-kit) | high |
 | Cylinder Works | Big Bore Cylinder Kit - +3mm Big Bore Cylinder Kit (KX250, KX250X) | CW31017K01 | Cylinder Works: more displacement for more power; new cylinder (NSC-plated, diamond honed) with Vertex forged piston and top-end gaskets. Specs: Uses Vertex #24637 Compression Ratio 14.1:1 Cylinder Di | Fitment parsed from maker store 'fits models' field; maker data for newest (2023+) KTM-group and 2024+ YZ450F/KX450 platforms not returned by queries. | [All Balls Racing Group (maker store for Hot Cams/Vertex/Cylinder Works)](https://www.allballsracinggroup.com/cw31017k01-big-bore-cylinder-kit) | high |
-| Vertex | Forged Replica Piston Kit (KX250, KX250X) | 24628A, 24628B | Vertex forged piston matching OEM specs (replacement top end). Specs: Compression Ratio 14.1:1 Cylinder Diameter 78 mm Displacement 250 cc Piston Diameter 78.960mm | Fitment parsed from maker store 'fits models' field; maker data for newest (2023+) KTM-group and 2024+ YZ450F/KX450 platforms not returned by queries. | [All Balls Racing Group (maker store for Hot Cams/Vertex/Cylinder Works)](https://www.allballsracinggroup.com/24628b-forged-replica-piston-kit) | high |
 | Vertex | Forged Big Bore Piston Kit - +3mm Forged Big Bore Piston Kit (KX250, KX250X) | 24637A, 24637B | Vertex forged oversize piston for big-bore cylinders (more displacement). Specs: Compression Ratio 14.1:1 Cylinder Diameter 81 mm Displacement 270 cc Piston Diameter 80.960mm Size Over Standard 3.00mm | Fitment parsed from maker store 'fits models' field; maker data for newest (2023+) KTM-group and 2024+ YZ450F/KX450 platforms not returned by queries. | [All Balls Racing Group (maker store for Hot Cams/Vertex/Cylinder Works)](https://www.allballsracinggroup.com/24637b-forged-big-bore-piston-kit) | high |
+| Vertex | Forged Replica Piston Kit (KX250, KX250X) | 24628A, 24628B | Vertex forged piston matching OEM specs (replacement top end). Specs: Compression Ratio 14.1:1 Cylinder Diameter 78 mm Displacement 250 cc Piston Diameter 78.960mm | Fitment parsed from maker store 'fits models' field; maker data for newest (2023+) KTM-group and 2024+ YZ450F/KX450 platforms not returned by queries. | [All Balls Racing Group (maker store for Hot Cams/Vertex/Cylinder Works)](https://www.allballsracinggroup.com/24628b-forged-replica-piston-kit) | high |
 | Big Gun | EXO R Full System | 19-43823 | Maker claims: 'significant' horsepower and torque gains, deeper but tolerable tone, less heat. Handmade in USA. | Competition use only. Big Gun was not on the task list but filled the Bill's Pipes gap (Bill's Pipes only listed for mini bikes). | [Cycle Gear](https://www.cyclegear.com/parts/big-gun-exo-r-full-system-exhaust-kawasaki-kx250-kx250x-2021-2024) | medium |
 | FMF | PowerBomb header - KX250, KX250X | 042389 | FMF: PowerBomb module in the first stage of the header; FMF claims nearly 10% flow increase and acts as a pre-muffler to lower sound. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/s-s-powerbomb-header-042389) | high |
 | FMF | Factory 4.1 RCT slip-on - KX250, KX250X | 042394, 042396 | FMF: Resonance Chamber Technology inside and out, shorter length, muffler moved forward to centralize mass; claims 'massive' power gains across the rpm range and big weight savings; RTS quick-tuning. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/factory-4-1-rct-042396) | high |
 | FMF | MegaBomb header - KX250, KX250X | 042390, 042391 | FMF MegaBomb four-stroke header (resonance chamber 'bomb' near the port); used with FMF mid/muffler. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/megabomb-042391) | high |
-| JT Sprockets | Racelite Aluminium Rear Race Sprocket | JTA460BLK | Aluminium race rear sprocket: lighter than steel, wears faster. Gearing change. JT's own catalogue page states: 'Lower gear ratios allow for higher top speeds. Higher gear ratios increase torque for b | Part number format PN.teeth follows JT's catalogue search example ('JTF513.15'). 'Available Sizes' lists the tooth counts JT shows for that bike page; the tooth | [source](https://www.jtsprockets.com/catalogue/model/s2050) | high |
-| JT Sprockets | 520 HDS Super Heavy Duty Chain |  | JT's chain chart lists 520 HDS for motocross up to 600cc; non-sealed, solid bushes. Chains are sold by pitch and length; replace with sprockets as a set. | Link counts are from JT's per-bike catalogue pages, which state 'the chain shown in this listing is for size reference only. For the correct chain type and grad | [source](https://www.jtsprockets.com/chain/) | medium |
 | JT Sprockets | 520 X1R Heavy Duty X-Ring Chain |  | JT's chain chart lists 520 X1R for motocross 200-450cc; X-ring sealed. Chains are sold by pitch and length; replace with sprockets as a set. | Link counts are from JT's per-bike catalogue pages, which state 'the chain shown in this listing is for size reference only. For the correct chain type and grad | [source](https://www.jtsprockets.com/chain/) | medium |
-| JT Sprockets | Lightweight Self-Cleaning Front Sprocket | JTF1446SC | Lightweight self-cleaning countershaft sprocket. Gearing change. JT's own catalogue page states: 'Lower gear ratios allow for higher top speeds. Higher gear ratios increase torque for better accelerat | Part number format PN.teeth follows JT's catalogue search example ('JTF513.15'). 'Available Sizes' lists the tooth counts JT shows for that bike page; the tooth | [source](https://www.jtsprockets.com/catalogue/model/s2050) | high |
 | JT Sprockets | Lightweight Self-Cleaning Rear Sprocket | JTR460SC | Lightweight steel rear sprocket with JT's self-cleaning (mud-relief) design. Gearing change. JT's own catalogue page states: 'Lower gear ratios allow for higher top speeds. Higher gear ratios increase | Part number format PN.teeth follows JT's catalogue search example ('JTF513.15'). 'Available Sizes' lists the tooth counts JT shows for that bike page; the tooth | [source](https://www.jtsprockets.com/catalogue/model/s2050) | high |
 | JT Sprockets | Steel Front Sprocket | JTF1446 | Steel countershaft (front) sprocket. Gearing change. JT's own catalogue page states: 'Lower gear ratios allow for higher top speeds. Higher gear ratios increase torque for better acceleration' - i.e.  | Part number format PN.teeth follows JT's catalogue search example ('JTF513.15'). 'Available Sizes' lists the tooth counts JT shows for that bike page; the tooth | [source](https://www.jtsprockets.com/catalogue/model/s2050) | high |
+| JT Sprockets | Lightweight Self-Cleaning Front Sprocket | JTF1446SC | Lightweight self-cleaning countershaft sprocket. Gearing change. JT's own catalogue page states: 'Lower gear ratios allow for higher top speeds. Higher gear ratios increase torque for better accelerat | Part number format PN.teeth follows JT's catalogue search example ('JTF513.15'). 'Available Sizes' lists the tooth counts JT shows for that bike page; the tooth | [source](https://www.jtsprockets.com/catalogue/model/s2050) | high |
+| JT Sprockets | 520 HDS Super Heavy Duty Chain |  | JT's chain chart lists 520 HDS for motocross up to 600cc; non-sealed, solid bushes. Chains are sold by pitch and length; replace with sprockets as a set. | Link counts are from JT's per-bike catalogue pages, which state 'the chain shown in this listing is for size reference only. For the correct chain type and grad | [source](https://www.jtsprockets.com/chain/) | medium |
+| JT Sprockets | Racelite Aluminium Rear Race Sprocket | JTA460BLK | Aluminium race rear sprocket: lighter than steel, wears faster. Gearing change. JT's own catalogue page states: 'Lower gear ratios allow for higher top speeds. Higher gear ratios increase torque for b | Part number format PN.teeth follows JT's catalogue search example ('JTF513.15'). 'Available Sizes' lists the tooth counts JT shows for that bike page; the tooth | [source](https://www.jtsprockets.com/catalogue/model/s2050) | high |
 | JT Sprockets | Steel Rear Sprocket | JTR460 | Steel rear sprocket - the long-wearing replacement option. Gearing change. JT's own catalogue page states: 'Lower gear ratios allow for higher top speeds. Higher gear ratios increase torque for better | Part number format PN.teeth follows JT's catalogue search example ('JTF513.15'). 'Available Sizes' lists the tooth counts JT shows for that bike page; the tooth | [source](https://www.jtsprockets.com/catalogue/model/s2050) | high |
-| Renthal | Ultralight Rear Sprocket | 112U-520 | 7075-T6 aluminium rear sprocket (Renthal Ultralight) - lighter than steel; change tooth count to re-gear (more teeth = shorter gearing, harder acceleration, lower top speed per gear). | Fitment from Renthal's own Fit My Bike application data (renthal.com/apps/fit-my-bike API). The 'OE-size listing' in each note is the specific SKU Renthal's loo | [Renthal (renthal.com UK store)](https://renthal.com/products/rear-sprocket-112u-520) | high |
-| Renthal | 520 R1 MX Chain | C119, C121, C124, C125, C126, C127, C128 | Renthal's non-sealed 520 works MX chain. Chains are sold by pitch and length (link count). | Per-bike link counts are the chain SKU Renthal's Fit My Bike data lists for that bike (oe_chain / r1_chain / r3_chain fields); link count changes with sprocket  | [Renthal (renthal.com UK store)](https://renthal.com/products/520-r1-mx-chain) | high |
-| Renthal | Twinring Rear Sprocket | 1120-520 | Two-piece rear sprocket (hard-anodised aluminium centre with steel tooth ring) - aimed at steel-like wear life with lower weight than an all-steel sprocket. | Fitment from Renthal's Fit My Bike application data (twinring field). Prices from renthal.com UK store (GBP). | [Renthal (renthal.com UK store)](https://renthal.com/products/twinring-1120-520) | high |
 | Renthal | Ultralight Front Sprockets | 453U-520 | Countershaft (front) sprocket. One tooth on the front changes overall ratio roughly as much as ~3-4 teeth on the rear (general gearing arithmetic, not a Renthal claim). | Fitment from Renthal's own Fit My Bike application data. 'U' groups are Renthal Ultralight fronts; '--' groups are standard steel fronts. Prices from renthal.co | [Renthal (renthal.com UK store)](https://renthal.com/products/front-sprocket-453u-520) | high |
+| Renthal | Ultralight Rear Sprocket | 112U-520 | 7075-T6 aluminium rear sprocket (Renthal Ultralight) - lighter than steel; change tooth count to re-gear (more teeth = shorter gearing, harder acceleration, lower top speed per gear). | Fitment from Renthal's own Fit My Bike application data (renthal.com/apps/fit-my-bike API). The 'OE-size listing' in each note is the specific SKU Renthal's loo | [Renthal (renthal.com UK store)](https://renthal.com/products/rear-sprocket-112u-520) | high |
 | Renthal | Front Sprocket | 453--520 | Countershaft (front) sprocket. One tooth on the front changes overall ratio roughly as much as ~3-4 teeth on the rear (general gearing arithmetic, not a Renthal claim). | Fitment from Renthal's own Fit My Bike application data. 'U' groups are Renthal Ultralight fronts; '--' groups are standard steel fronts. Prices from renthal.co | [Renthal (renthal.com UK store)](https://renthal.com/products/front-sprocket-453-520) | high |
+| Renthal | Twinring Rear Sprocket | 1120-520 | Two-piece rear sprocket (hard-anodised aluminium centre with steel tooth ring) - aimed at steel-like wear life with lower weight than an all-steel sprocket. | Fitment from Renthal's Fit My Bike application data (twinring field). Prices from renthal.com UK store (GBP). | [Renthal (renthal.com UK store)](https://renthal.com/products/twinring-1120-520) | high |
+| Renthal | 520 R1 MX Chain | C119, C121, C124, C125, C126, C127, C128 | Renthal's non-sealed 520 works MX chain. Chains are sold by pitch and length (link count). | Per-bike link counts are the chain SKU Renthal's Fit My Bike data lists for that bike (oe_chain / r1_chain / r3_chain fields); link count changes with sprocket  | [Renthal (renthal.com UK store)](https://renthal.com/products/520-r1-mx-chain) | high |
 | Vortex | Steel Rear Sprocket | 422S | Steel rear sprocket (black) - durable replacement / re-gearing option. | Fitment is RevZilla's (retailer) list for this product page; tooth count per bike and stock gearing are not stated. Price not captured (could not isolate per-va | [RevZilla](https://www.revzilla.com/motorcycle/vortex-steel-rear-sprocket-kawasaki-suzuki-125cc-650cc-1985-2024) | medium |
 | Twin Air | Powerflow Kit - Kawasaki KX450/KX450X 2024-2026 and KX250/KX250X 2021-2024 |  |  | Two separate kits; titles only. | [RevZilla](https://www.revzilla.com/motorcycle/twin-air-powerflow-kit-kawasaki-kx450-x-2024-2026) | unverified |
 | Luxon MX | Gen3 Pro Triple Clamps - Kawasaki | LUX-KAW-SS-A0005 | Luxon: adjustable offset 21-24 mm (stock 23), split lower, ~295 g lighter than stock 2024 KX450. |  | [Luxon MX](https://www.luxonmx.com/product-luxon-kawasaki-triple-clamps-gen3-pro.html) | high |
@@ -80,17 +80,13 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Works Connection | Works Connection Radiator Braces Kawasaki KX250 / KX450 / X / SR 2019-2024 | 18-300, 18-B300 | 158.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-radiator-braces-kawasaki-kx250-kx450-x-sr-2019-2024) |
 | Works Connection | Works Connection Rear Caliper Guard Kawasaki / Suzuki 250cc-450cc 2004-2026 | 25-022 | 38.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-rear-caliper-guard-kawasaki-suzuki-250cc-450cc-2004-2020) |
 
-### Body (5)
+### Body (1)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
-| Acerbis | Acerbis MX Skid Plate | 2686035226, 2686590001, 2686030001, 2690690001, 2982500001, 2690690211, 2982500003, 2734920001, 2742671007 | 75.99 USD | [MotoSport](https://www.motosport.com/acerbis-mx-skid-plate) |
-| Cycra | Cycra Performance Front Fender | 1CYC-1500-12, 1CYC-1502-12, 1CYC-1542-12, 1CYC-1571-12, 1CYC-1531-12, 1CYC-1572-12, 1CYC-1503-12, 1CYC-1573-12, 1CYC-150 | 28.99 USD | [MotoSport](https://www.motosport.com/cycra-performance-front-fender) |
-| Cycra | Cycra Powerflow Front/Rear Fender Kit | 1CYC-1400-12, 1CYC-1401-12, 1CYC-1442-12, 1CYC-1441-12, 1CYC-1471-12, 1CYC-1462-12, 1CYC-1472-12, 1CYC-1400-33, 1CYC-140 | 70.99 USD | [MotoSport](https://www.motosport.com/cycra-powerflow-frontrear-fender-kit) |
 | P3 | P3 Fuel Tank Cover | 775050, 775070, 776070, 775071, 775051, 776071 | 124.95 USD | [MotoSport](https://www.motosport.com/p3-fuel-tank-cover) |
-| Polisport | Polisport Rear Shock Flap | 8906400001, 8906600001, 8906200001, 8907300001-CL77, 8907200002 | 12.99 USD | [MotoSport](https://www.motosport.com/polisport-rear-shock-flap) |
 
-### Brakes (44)
+### Brakes (43)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
@@ -109,7 +105,6 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | EBC Brakes | EBC FA367X Carbon X Rear Brake Pads | FA367X | 36.02 USD | [Cycle Gear](https://www.cyclegear.com/parts/ebc-fa367x-carbon-x-rear-brake-pads) |
 | EBC Brakes | EBC MXS185 Race Series Front Brake Pads  | MXS185 | 46.06 USD | [Cycle Gear](https://www.cyclegear.com/parts/ebc-mxs185-race-series-front-brake-pads) |
 | EBC Brakes | EBC MXS367 MXS Race Series Rear Brake Pads | MXS367 | 46.08 USD | [Cycle Gear](https://www.cyclegear.com/parts/ebc-mxs367-mxs-race-series-rear-brake-pads) |
-| Galfer | Galfer Semi-Metallic Brake Pads | FD086G1054, FD086G1054, FD117G1054, FD086G1054-CL77, FD117G1054, FD117G1054-CL77, FD179G1054, FD145G1054, FD145G1054, FD | 22.13 USD | [MotoSport](https://www.motosport.com/galfer-semimetallic-brake-pads) |
 | Galfer Braking Systems | Galfer HH Sintered Front Brake Pads FD164 | FD164G1396 | 30.0 USD | [Cycle Gear](https://www.cyclegear.com/parts/galfer-hh-sintered-front-brake-pads-fd164) |
 | Galfer Braking Systems | Galfer HH Sintered Rear Brake Pads FD286G1396 | FD286G1396 | 30.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/galfer-hh-sintered-rear-brake-pads-fd286g1396) |
 | Galfer Braking Systems | Galfer Semi-Metallic Front Brake Pads FD164  | FD164G1054 | 28.88 USD | [Cycle Gear](https://www.cyclegear.com/parts/galfer-semi-metallic-front-brake-pads-fd164) |
@@ -170,14 +165,11 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Vortex Racing | Vortex Front Sprocket Kawasaki KX250F / KX250 / KX250X 2006-2024 (13T) | 3250-13 | 36.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/vortex-front-sprocket-kawasaki-kx250f-kx250-kx250x-2006-2024) |
 | Vortex Racing | Vortex Steel Rear Sprocket Kawasaki / Suzuki 125cc-650cc 1985-2027 | 422S-48, 422S-49, 422S-50, 422S-51, 422S-52 | 65.50 USD | [Cycle Gear](https://www.cyclegear.com/parts/vortex-steel-rear-sprocket-kawasaki-suzuki-125cc-650cc-1985-2024) |
 
-### Controls (12)
+### Controls (9)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
-| Fastway | Fastway Evolution 4 Footpeg And Fit Kit Combo | 22-3-0031S, 22-3-2031S, 22-3-5031S, 22-3-8131S, 22-3-0131S, 22-3-3031S, 22-3-4031S, 22-3-5131S, 22-3-6031S, 22-3-6131S,  | 202.90 USD | [MotoSport](https://www.motosport.com/fastway-evolution-4-footpeg-and-fit-kit-combo) |
-| Fastway | Fastway Evolution Air Footpeg And Fit Kit Combo | 22-3-0031S, 22-3-2031S, 22-3-5031S, 22-3-8131S, 22-3-0131S, 22-3-3031S, 22-3-4031S, 22-3-5131S, 22-3-6031S, 22-3-6131S,  | 271.65 USD | [MotoSport](https://www.motosport.com/fastway-evolution-air-footpeg-and-fit-kit-combo) |
 | Pro Taper | Pro Taper Profile Pro Hydraulic Clutch Lever | 024045, 024046, 024048 | 139.99 USD | [MotoSport](https://www.motosport.com/pro-taper-profile-pro-hydraulic-clutch-lever) |
-| Pro Taper | Pro Taper Spi 2.3 Footpeg Hardware Kit | 11-161A, 11-162A | 13.99 USD | [MotoSport](https://www.motosport.com/pro-taper-spi-23-footpeg-hardware-kit) |
 | Ride Engineering | Ride Engineering Bar Mount Studs | CR-BMS00-SS, KX-BMS00-SS, CR-BMS10-SS | 21.95 USD | [MotoSport](https://www.motosport.com/ride-engineering-bar-mount-studs) |
 | Turner Performance Products | Turner Performance Products Oversized Bar Mounts With Fasst Flexx Handlebar Combo |  | 435.98 USD | [MotoSport](https://www.motosport.com/turner-performance-products-oversized-bar-mounts-with-fasst-flexx-handlebar-combo) |
 | Turner Performance Products | Turner Performance Products Oversized Bar Mounts With Pro Taper Contour Handlebar Combo |  | 107.99 USD | [MotoSport](https://www.motosport.com/turner-performance-products-oversized-bar-mounts-with-pro-taper-contour-handlebar-combo) |
@@ -187,11 +179,10 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Turner Performance Products | Turner Performance Products Oversized Mounts With Renthal Twinwall Handlebar Combo |  | 198.98 USD | [MotoSport](https://www.motosport.com/turner-performance-products-oversized-mounts-with-renthal-twinwall-handlebar-combo) |
 | Turner Performance Products | Turner Performance Products Universal Bar Mounts - Oversized 1-1/8 Bars |  | 39.99 USD | [MotoSport](https://www.motosport.com/turner-performance-products-universal-bar-mounts-oversized-118-bars) |
 
-### Drive (10)
+### Drive (9)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
-| All Balls | All Balls Counter Shaft Washer | 25-6004, 25-6005, 25-6007, 25-6008, 25-6009-CL77, 25-6012-CL77, 25-6001, 25-6002, 25-6014, 25-6015, 25-6016 | 31.07 USD | [MotoSport](https://www.motosport.com/all-balls-counter-shaft-washer) |
 | JT | JT Steel Chain And Sprocket Kit | 420-120, 428-120, 520-120, 520SRO6-120, 420NZ3G120RB, 520DZ2X120RB, C241, C267, C312, C128, C416, 420SR-130, 420X120RB,  | 83.01 USD | [MotoSport](https://www.motosport.com/jt-steel-chain-and-sprocket-kit) |
 | Nihilo | Nihilo Ny-Lock Axle Nut | NSLN12BLU, NSLN12GMG, NSLN12ORG, NSLN12RED, NSLN14EUBLK, NSLN14EUBLU, NSLN14EUORG, NSLN14EURED, NSLN14EUSILVER, NSLN20BL | 34.99 USD | [MotoSport](https://www.motosport.com/nihilo-nylock-axle-nut) |
 | Sunstar | Sunstar Aluminum Rear Sprocket | 5-357748BK, 5-361948BK, 5-367940, CL77-5-362643 | 78.49 USD | [MotoSport](https://www.motosport.com/sunstar-aluminum-rear-sprocket) |
@@ -226,11 +217,10 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Works Connection | Works Connection Elite Axle Blocks Kawasaki / Suzuki 125cc-450cc 2003-2027 | 17-235, 17-240, 17-245, 17-248, 17-310 | 76.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-elite-axle-blocks-kawasaki-suzuki-125cc-450cc-2003-2022) |
 | Zeta | Zeta 3D Chain Guide Kawasaki KX450 / KX450X / KX450SR 2019-2027 | ZE82-1110 | 119.67 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-3d-chain-guide-kawasaki-kx450-kx450x-kx450sr-2019-2027) |
 
-### Engine (10)
+### Engine (8)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
-| Cylinder Works | Cylinder Works Vertex Big Bore Replacement Piston | 22866200, 22871200, 22875200, 22880200, 22882200, 22958200, 23531B, 22973100, 23910B, 24026B, 22979200, 23119100, 231192 | 257.36 USD | [MotoSport](https://www.motosport.com/cylinder-works-vertex-big-bore-replacement-piston) |
 | Hammerhead Designs | Hammerhead Designs Oil Filler Plug | 33-0101-00-60, 33-0341-00-30, 33-0451-00-50, 33-0561-00-40, 33-0561-00-60, 33-0341-00-60 | 29.99 USD | [MotoSport](https://www.motosport.com/hammerhead-designs-oil-filler-plug) |
 | Moose | Moose Top End Gasket Set | 810677, 810840, 810849, 810850, 810868, 810875, 810880, 810886, 810904, 810916, 810921, 810926, 810923, 810924, 810801,  | 79.04 USD | [MotoSport](https://www.motosport.com/moose-top-end-gasket-set) |
 | Moose | Moose Water Pump Rebuild Kit | 821006mse, 821007mse, 821008mse, 821009mse, 821010mse, 821983mse, 8210008mse | 57.17 USD | [MotoSport](https://www.motosport.com/moose-water-pump-rebuild-kit) |
@@ -238,7 +228,6 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Pro Circuit | Pro Circuit Radiator Hose Kit | RHKH14250, RHKH16250, RHKK16450, RHKK02065, RHKS13250, RHKS15450, RHKY14250, RHKY02085, RHKK24450, RHKH22450, RHKK21250, | 139.49 USD | [MotoSport](https://www.motosport.com/pro-circuit-radiator-hose-kit) |
 | Pro Circuit | Pro Circuit Water Pump / Oil Filter Cover With Impeller | WPK04250, WPK21250, WPK25250 | 287.95 USD | [MotoSport](https://www.motosport.com/pro-circuit-water-pump-oil-filter-cover-with-impeller) |
 | Pro X | Pro X Inner Clutch Hub | 18.1337, 18.1290, 18.1490, 18.1397, 18.1227, 18.1340, 18.1348, 18.1409, 18.1411, 18.1413, 18.1417, 18.1421, 18.1405, 18. | 64.99 USD | [MotoSport](https://www.motosport.com/pro-x-inner-clutch-hub) |
-| Wiseco | Wiseco Main Bearing Kit | BK5008, BK5009, BK5010, BK5011, BK5024, BK5041, BK5059, BK5036, BK5000, BK5015, BK5001, BK5063, BK5026, BK5030, BK5031 | 46.99 USD | [MotoSport](https://www.motosport.com/wiseco-main-bearing-kit) |
 | Works Connection | Works Connection Radiator Plug | 24-630, 24-631, 24-632, 24-633, 24-634 | 22.95 USD | [MotoSport](https://www.motosport.com/works-connection-radiator-plug) |
 
 ### Exhaust (9)
@@ -351,26 +340,18 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Moose | Moose Pro Shark Fin With Brake Carrier | 13071, 13061, 13054, 13073 | 109.95 USD | [MotoSport](https://www.motosport.com/moose-pro-shark-fin-with-brake-carrier) |
 | P3 | P3 Front Brake Disc Guard | 502000, 519000, 515000, 511030, 518000, 517001, 514500, 516001, 514000 | 149.95 USD | [MotoSport](https://www.motosport.com/p3-front-brake-disc-guard) |
 
-### Suspension (11)
+### Suspension (9)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
 | All Balls Racing | All Balls Racing Lower Shock Bearing Kit Kawasaki / Suzuki 65cc-450cc | 29-1030 | 31.72 USD | [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-lower-shock-bearing-kit-kawasaki-suzuki-65cc-450cc) |
-| Devol | Devol Transformer Pull Rod | 0116-1201, 0116-1202, 0116-2502, 0116-4701, 0116-4702, 0116-5501, 0116-5502, 0116-3301, 0116-4703, 0116-2503, 0116-4705, | 220.99 USD | [MotoSport](https://www.motosport.com/devol-transformer-pull-rod) |
 | Factory Connection | Factory Connection Shock Spring Honda / Suzuki / Kawasaki / Yamaha 250cc-450cc | ALS-0047, ALS-0049, ALS-0051, ALS-0053, ALS-0055, ALS-0057, ALS-0059, ALS-0061, ALS-0063 | 149.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-connection-shock-spring-honda-suzuki-kawasaki-yamaha-250cc-450cc) |
 | Factory Links | Factory Links Linkage Bearing Kit Kawasaki KX250 / KX250X 2021-2023 | LRK-K-111 | 104.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-links-linkage-bearing-rebuild-kit-kawasaki-kx250-kx250x-2021-2023) |
-| Pro Circuit | Pro Circuit Complete Linkage System | HLS19450X, HLS23450, KLS09085-7.0, KLS09100-7.0, KLS09085-9.5, KLS09100-9.5, KLS09100-2.0, KLS13065-2.0, KLS20450, KLS24 | 465.00 USD | [MotoSport](https://www.motosport.com/pro-circuit-complete-linkage-system) |
 | Ride Engineering | Ride Engineering Linkage Assembly | KT-LKN16-BA, KT-LKN21-BA, KT-LKN16-GE, KT-LKN21-GE, KT-LKN16-MB, KT-LKN21-MB, KT-LKN25-GE, KT-LKN25-MB, KX-LKN19-BA, KT- | 426.95 USD | [MotoSport](https://www.motosport.com/ride-engineering-linkage-assembly) |
 | Tamer | Tamer Fork Guard Bracket Gas Gas / Husqvarna / Kawasaki / KTM | FGB-401 | 29.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/tamer-fork-guard-bracket-gas-gas-husqvarna-kawasaki-ktm) |
 | XTrig | XTrig Pre-Load Adjuster Kawasaki KX250 2021-2024 | 500010300601 | 199.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/xtrig-pre-load-adjuster-kawasaki-kx250-2021-2023) |
 | ZETA | ZETA Aluminum Free Piston | ZE56-40010, ZE56-40012 | 123.16 USD | [MotoSport](https://www.motosport.com/zeta-aluminum-free-piston) · [Cycle Gear](https://www.cyclegear.com/parts/zeta-free-piston-gas-gas-honda-kawasaki-yamaha-2006-2021) |
 | Zeta | Zeta Preload Adjuster Honda / Kawasaki / Yamaha / Sherco 250cc-450cc | ZE56-13016 | 180.98 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-preload-adjuster-honda-kawasaki-yamaha-sherco-250cc-450cc) |
-
-### Tools And Maintenance (1)
-
-| Brand | Part | Part numbers | Price | Sellers |
-|---|---|---|---|---|
-| No Toil | No Toil Super-Flo Starter Kit | FRF12046, FRF12051, FRF15044, FRF15043, FRF14046, FRF18044, FRF18051, FRF15046, FRF18053, FRF17045, FRF14050, FRF12006,  | 194.12 USD | [MotoSport](https://www.motosport.com/no-toil-superflo-starter-kit) |
 
 ### Uncategorised (126)
 
@@ -503,15 +484,9 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Zeta | Zeta Oil Filler Plug Husqvarna / Kawasaki / Suzuki | ZE89-2310, ZE89-2312 | 18.75 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-oil-filler-plug-husqvarna-kawasaki-suzuki) |
 | Zeta | Zeta Rubber Killer Solid Mount Kit Kawasaki KX250 / F / X / KX450 / F / X 2012-2024 | ZE37-0322 | 30.10 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-rubber-killer-solid-mount-kit-kawasaki-kx250-f-x-kx450-f-x-2012-2022) |
 
-### Wheels And Rims (1)
-
-| Brand | Part | Part numbers | Price | Sellers |
-|---|---|---|---|---|
-| Turner Performance Products | Turner Performance Products Front Wheel Bearing Kit |  | 8.77 USD | [MotoSport](https://www.motosport.com/turner-performance-products-front-wheel-bearing-kit) |
-
 ## Universal retailer listings (counted only)
 
-Controls 542, Lights And Electrical 385, Uncategorised 370, Handlebars & Controls 253, Body 203, Exhaust 195, Tires 189, Tools And Maintenance 173, Graphics 166, Engine 163, Suspension 136, Chain & Sprocket 135, Drive 129, Luggage And Racks 106, Brakes 99, Wheels And Rims 73, Vehicle Communication 60, Fuel System 55, Air & Fuel 52, Accessories 48, Batteries & Electrical 41, Gauges 40, Lighting 38, Bike Protection 35, Utv / Atv Parts 34, Skid Plates And Guards 24, Riding Gear 18, Farming And Hunting 13, Drive & Transmission 9, Body & Fairing 9, Intake 7, Filters 5, Helmets 3, Winch And Plow 2, Tire Accessories 1
+Controls 545, Lights And Electrical 385, Uncategorised 370, Handlebars & Controls 253, Body 207, Exhaust 195, Tires 189, Tools And Maintenance 174, Graphics 166, Engine 165, Suspension 138, Chain & Sprocket 135, Drive 130, Luggage And Racks 106, Brakes 100, Wheels And Rims 74, Vehicle Communication 60, Fuel System 55, Air & Fuel 52, Accessories 48, Batteries & Electrical 41, Gauges 40, Lighting 38, Bike Protection 35, Utv / Atv Parts 34, Skid Plates And Guards 24, Riding Gear 18, Farming And Hunting 13, Body & Fairing 9, Drive & Transmission 9, Intake 7, Filters 5, Helmets 3, Winch And Plow 2, Tire Accessories 1
 
-Top brands: Acerbis 160, Pro Taper 130, Cycra 124, Motion Pro 119, Turner Performance Products 108, Rugged Radios 105, Renthal 92, Factory Effex 88, ODI 82, RAM Mounts 74, Trail Tech 67, D'COR Visuals 65, Bolt Hardware 62, RFX 62, Fire Power 60, DRC 60, Moose Racing 57, Bolt 55, Quad Lock 53, Polisport 53, SP Connect 51, Zeta 48, Kriega 45, KTM PowerParts 43, FMF 40
+Top brands: Acerbis 161, Pro Taper 131, Cycra 126, Motion Pro 119, Turner Performance Products 109, Rugged Radios 105, Renthal 92, Factory Effex 88, ODI 82, RAM Mounts 74, Trail Tech 67, D'COR Visuals 65, RFX 62, Bolt Hardware 62, DRC 60, Fire Power 60, Moose Racing 57, Bolt 55, Polisport 54, Quad Lock 53, SP Connect 51, Zeta 48, Kriega 45, KTM PowerParts 43, Namz Custom Cycle 40
 

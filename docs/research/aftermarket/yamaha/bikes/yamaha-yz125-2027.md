@@ -1,6 +1,6 @@
 # Yamaha YZ125 2027: aftermarket parts
 
-2918 listings whose stated fitment names this bike: 7 researched parts (with what they change and rider findings), 278 dealer and retailer listings specific to this bike, and 2633 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+2918 listings whose stated fitment names this bike: 7 researched parts (with what they change and rider findings), 265 dealer and retailer listings specific to this bike, and 2646 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -8,10 +8,10 @@
 |---|---|---|---|---|---|---|
 | EBC | MXS755 Race Series Front Brake Pads | MXS755 | Listing: race-only sintered copper pad with sharp initial bite for fast riders. | Retailer list mixes Nissin- and Brembo-equipped bikes and differs from FA755R list; check EBC catalogue. | [J&P Cycles](https://www.jpcycles.com/product/ebc-mxs755-race-series-front-brake-pads) | medium |
 | EBC | MXS Race Series Rear Brake Pads | MXS367 | EBC claims: sintered copper-alloy race pad with aggressive feel and sharp initial bite; high durability off-road. | Off-road race use only, not R90/TUV. Retailer list was truncated (258 vehicles claimed). YZ450FX 2024+ not shown. | [J&P Cycles](https://www.jpcycles.com/product/ebc-mxs367-mxs-race-series-rear-brake-pads) | medium |
-| FMF | Fatty Gold Series Pipe | 024076 | FMF claims 'more low-end, more mid, and increased over-rev' and 'More tractable power, improved throttle control.' |  | [FMF](https://www.fmfracing.com/products/fatty-024076) | high |
-| FMF | PowerCore 2 / Shorty silencer - YZ125, YZ125X | 024079, 024080 | FMF: Shorty has a shorter core and aluminum canister tuned to maximize bottom and mid rpm power (tight tracks/SX). | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/shorty-024080) | high |
 | FMF | Fatty pipe - YZ125, YZ125X | 024076 | FMF: broadens/smooths the curve with gains across the band (low, mid, over-rev); nickel-plated carbon steel; works with FMF or stock silencer unless noted. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/fatty-024076) | high |
 | FMF | Factory Fatty pipe - YZ125, YZ125X | 024077 | FMF: 'works'/cone-style pipe; broadens and smooths the power curve with more low-end, mid and over-rev; 20-ga body, hand-pounded seams. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/factory-fatty-024077) | high |
+| FMF | PowerCore 2 / Shorty silencer - YZ125, YZ125X | 024079, 024080 | FMF: Shorty has a shorter core and aluminum canister tuned to maximize bottom and mid rpm power (tight tracks/SX). | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/shorty-024080) | high |
+| FMF | Fatty Gold Series Pipe | 024076 | FMF claims 'more low-end, more mid, and increased over-rev' and 'More tractable power, improved throttle control.' |  | [FMF](https://www.fmfracing.com/products/fatty-024076) | high |
 | Vortex | 520 CAT5 Aluminum Rear Sprocket | 208 | Aluminium rear sprocket (CAT5 line), multiple anodised colours (ZK black, ZB blue, ZR red, plain silver) - lighter than steel. | Fitment is RevZilla's (retailer) list for this product page; tooth count per bike and stock gearing are not stated. Price not captured (could not isolate per-va | [RevZilla](https://www.revzilla.com/motorcycle/vortex-520-cat5-aluminum-rear-sprocket-honda-yamaha-125cc-450cc) | medium |
 
 ## Dealer and retailer listings for this bike
@@ -42,7 +42,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Works Connection | Works Connection MX Skid Plate Yamaha YZ125 2006-2027 | 10-220 | 98.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-mx-skid-plate-yamaha-yz125-2006-2024) |
 | Zeta | Zeta Case Saver With Cover Kit Yamaha YZ125 / YZ125X 2006-2027 | ZE80-8306 | 78.62 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-case-saver-with-cover-kit-yamaha-yz125-yz125x-2006-2027) |
 
-### Body (16)
+### Body (15)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
@@ -57,13 +57,12 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Moose | Moose Skid Plate | 452, 451, 449, 440, 434, 431, 405, 251, 245, 240, 238, 236, 235, 234, 233, 228, 224, 220, 217, 216, 214, 105, 100, 246,  | 138.99 USD | [MotoSport](https://www.motosport.com/moose-skid-plate) |
 | MotoSport Rock | MotoSport Rock Tri Blade Gas Cap | AFC-402-T4-BK, AFC-403-T4-BK, AFC-404-T4-BK, AFC-408-T4-BK, AFC-402-T4-RD, AFC-403-T4-RD, AFC-408-T4-RD, AFC-402-T4-TI,  | 27.99 USD | [MotoSport](https://www.motosport.com/motosport-rock-tri-blade-gas-cap) |
 | Polisport | Polisport Complete Metal Flow Plastic Kit | 91131 | 105.99 USD | [MotoSport](https://www.motosport.com/polisport-complete-metal-flow-plastic-kit) |
-| Polisport | Polisport Front Sprocket Protector | 8467700001, 8467800001, 8468400001, 8486800001, 8486900001, 8468000001, 8467700002, 8467800002, 8468500002, 8486800002,  | 21.99 USD | [MotoSport](https://www.motosport.com/polisport-front-sprocket-protector) |
 | Polisport | Polisport Swingarm Protector | 8456500002, 8456500004, 8456600001, 8456800001, 8457000001, 8463400001, 8986000003-CL77, 8506200001, 8463400002, 8499400 | 32.99 USD | [MotoSport](https://www.motosport.com/polisport-swingarm-protector) |
 | Trail Tech | Trail Tech Kickstand | 5001-CR, 5011-CR, 5103-00, 5104-00, 5013-KTM, 5301-00, 5400-00, 5402-00, 5401-00, 5501-00, 5502-00, 5201-00, 5202-00, 50 | 159.95 USD | [MotoSport](https://www.motosport.com/trail-tech-kickstand) |
 | Turner Performance Products | Turner Performance Products Titanium Fork Guard Bolt Kit |  | 19.99 USD | [MotoSport](https://www.motosport.com/turner-performance-products-titanium-fork-guard-bolt-kit) |
 | UFO | UFO Mud Flap | HO02659-001, KA02740-001, SU02998-001, YA02819-001, YA03804-001, YA04816-001, YA04820-001, HO02621-001, HO04624280, HO03 | 13.95 USD | [MotoSport](https://www.motosport.com/ufo-mud-flap) |
 
-### Brakes (25)
+### Brakes (24)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
@@ -91,7 +90,6 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Pro Circuit | Pro Circuit Brake Hose Clamp | PC4014-0001 | 40.46 USD | [MotoSport](https://www.motosport.com/pro-circuit-brake-hose-clamp) |
 | Turner Performance Products | Turner Performance Products Blade Oversize Floating Front Brake Rotor |  | 117.35 USD | [MotoSport](https://www.motosport.com/turner-performance-products-blade-oversize-floating-front-brake-rotor) |
 | Turner Performance Products | Turner Performance Products Front Caliper Rebuild Kit |  | 30.99 USD | [MotoSport](https://www.motosport.com/turner-performance-products-front-caliper-rebuild-kit) |
-| ZETA | ZETA Billet Kit | ZE51-3072, ZE51-3042, ZE51-3032, ZE51-3316, ZE51-3306, ZE51-3256, ZE51-3356, ZE51-3433, ZE51-3403 | 215.77 USD | [MotoSport](https://www.motosport.com/zeta-billet-kit) |
 
 ### Chain & Sprocket (9)
 
@@ -107,7 +105,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Vortex Racing | Vortex 520 CAT5 Aluminum Rear Sprocket Honda / Yamaha 125cc-450cc | 208-36, 208-37, 208-38, 208-39, 208-40, 208-41, 208-42, 208-43, 208-44, 208-45, 208-46, 208-47, 208-48, 208-49, 208-50,  | 65.66 USD | [Cycle Gear](https://www.cyclegear.com/parts/vortex-520-cat5-aluminum-rear-sprocket-honda-yamaha-125cc-450cc) |
 | Vortex Racing | Vortex 520 CAT5 Aluminum Rear Sprocket Honda / Yamaha 125cc-450cc 49T / Black [Blemished - Good] | 2517649 | 52.53 USD | [Cycle Gear](https://www.cyclegear.com/parts/vortex-520-cat5-aluminum-rear-sprocket-honda-yamaha-125cc-450cc-1784724814) |
 
-### Controls (19)
+### Controls (16)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
@@ -116,11 +114,8 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | BikeMaster | BikeMaster Replacement Kill Switch | CTST-036A, 53-0600, 53-0601, 53-0603, 53-0617 | 16.99 USD | [MotoSport](https://www.motosport.com/bikemaster-replacement-kill-switch) |
 | Fasst Company | Fasst Company Rear Brake Clevis | BC-101H-RED, BC-105K-BLACK, BC-105K-BLUE | 44.99 USD | [MotoSport](https://www.motosport.com/fasst-company-rear-brake-clevis) |
 | Fastway | Fastway Adventure Footpeg And Fit Kit Combo | 22-3-0031S, 22-3-2031S, 22-3-5031S, 22-3-8131S, 22-3-0131S, 22-3-3031S, 22-3-4031S, 22-3-5131S, 22-3-6031S, 22-3-6131S,  | 349.95 USD | [MotoSport](https://www.motosport.com/fastway-adventure-footpeg-and-fit-kit-combo) |
-| Fastway | Fastway Evolution 4 Footpeg And Fit Kit Combo | 22-3-0031S, 22-3-2031S, 22-3-5031S, 22-3-8131S, 22-3-0131S, 22-3-3031S, 22-3-4031S, 22-3-5131S, 22-3-6031S, 22-3-6131S,  | 202.90 USD | [MotoSport](https://www.motosport.com/fastway-evolution-4-footpeg-and-fit-kit-combo) |
-| Fastway | Fastway Evolution Air Footpeg And Fit Kit Combo | 22-3-0031S, 22-3-2031S, 22-3-5031S, 22-3-8131S, 22-3-0131S, 22-3-3031S, 22-3-4031S, 22-3-5131S, 22-3-6031S, 22-3-6131S,  | 271.65 USD | [MotoSport](https://www.motosport.com/fastway-evolution-air-footpeg-and-fit-kit-combo) |
 | Fastway | Fastway Evolution EXT Footpeg And Fit Kit Combo | 22-3-0031S, 22-3-2031S, 22-3-5031S, 22-3-8131S, 22-3-0131S, 22-3-3031S, 22-3-4031S, 22-3-5131S, 22-3-6031S, 22-3-6131S,  | 281.80 USD | [MotoSport](https://www.motosport.com/fastway-evolution-ext-footpeg-and-fit-kit-combo) |
 | Fastway | Fastway Evolution EXT Footpegs - Pegs Only | 22-5-007, 22-5-009 | 260.10 USD | [MotoSport](https://www.motosport.com/fastway-evolution-ext-footpegs-pegs-only) |
-| Fastway | Fastway Handlebar Risers | 22-12-325, 22-12-525 | 178.70 USD | [MotoSport](https://www.motosport.com/fastway-handlebar-risers) |
 | Fastway | Fastway Steering Stabilizer Frame Clamp | ASS-FC-0201-CL77, ASS-FC-0203-CL77, ASS-FC-0204-CL77, ASS-FC-0304-CL77, ASS-FC-0501, ASS-FC-0502-CL77, ASS-FC-0507-CL77, | 69.77 USD | [MotoSport](https://www.motosport.com/fastway-steering-stabilizer-frame-clamp) |
 | Fire Power | Fire Power Gator Foot Pegs | 568-9020, 568-9021, 568-9040 | 154.99 USD | [MotoSport](https://www.motosport.com/fire-power-gator-foot-pegs) |
 | Flo Motorsports | Flo Motorsports Lowering Footpegs | LOW-793-2S, LOW-793S, LOW-795-2S, LOW-795-4S | 199.95 USD | [MotoSport](https://www.motosport.com/flo-motorsports-lowering-footpegs) |
@@ -131,7 +126,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | TMV | TMV Aluminum Brake Pedal | 1726310, 1726320, 1726325, 1726330, 1726333, 1726340, 1726354 | 94.95 USD | [MotoSport](https://www.motosport.com/tmv-aluminum-brake-pedal) |
 | Turner Performance Products | Turner Performance Products Clutch Cable |  | 8.96 USD | [MotoSport](https://www.motosport.com/turner-performance-products-clutch-cable) |
 
-### Drive (12)
+### Drive (9)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
@@ -139,9 +134,6 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | GYTR | GYTR Plastic Chain Guide | 17D-F21E0-V0-00, BHR-F21E0-V1-00 | 102.99 USD | [MotoSport](https://www.motosport.com/gytr-plastic-chain-guide) |
 | Polisport | Polisport Chain Guide | 8433400002, 8499600002, 8451900001, 8451200001, 8435900001, 8451700001, 8433400001, 8452500001, 8494000001, 8499600001,  | 13.99 USD | [MotoSport](https://www.motosport.com/polisport-chain-guide) |
 | Polisport | Polisport Chain Slider | 8450000001, 8453400001, 8451600001, 8453900001, 8451100001, 8453600001, 8476200001, 8453500006, 8493800002, 8985100005,  | 14.99 USD | [MotoSport](https://www.motosport.com/polisport-chain-slider) |
-| TM Designworks | TM Designworks Axle Block And Flag Holder | DBF-H01, DBF-H02, DBF-H06, DBF-KT2 | 46.95 USD | [MotoSport](https://www.motosport.com/tm-designworks-axle-block-and-flag-holder) |
-| TM Designworks | TM Designworks Dirt Cross Multi-Purpose Chain Slide-N-Guide Kit | DCK-KT4-BL2, DCK-KT4-OR, DCK-ORK-OR, DCK-OR1-BK, DCK-OR2-BK, DCK-OR3-BK, DCK-OR4-BK, YCP-OR1-BK, DCK-KT3-BK, DCK-OR1-RD, | 189.95 USD | [MotoSport](https://www.motosport.com/tm-designworks-dirt-cross-multipurpose-chain-slidenguide-kit) |
-| TM Designworks | TM Designworks Dirt Cross Super Chain Slider | DCS-H10-BK, DCS-H15-BK, DCS-S20-BK, DCS-Y30-BK, DCS-Y40-BK, DCS-KT3-BK, DCS-H20-BK, DCS-KX85-BK, DCS-H35-BK, DCS-BT2-BK, | 65.95 USD | [MotoSport](https://www.motosport.com/tm-designworks-dirt-cross-super-chain-slider) |
 | TM Designworks | TM Designworks Powerlip Race Chain Roller | PLR-211-BK, PLR-211-BU, PLR-211-RD, PLR-212-BK, PLR-215-BK, PLR-220-BK, PLR-220-GR, PLR-400-BK, PLR-400-RD, PLR-513-BK,  | 36.95 USD | [MotoSport](https://www.motosport.com/tm-designworks-powerlip-race-chain-roller) |
 | Turner Performance Products | Turner Performance Products Billet Axle Blocks |  | 29.99 USD | [MotoSport](https://www.motosport.com/turner-performance-products-billet-axle-blocks) |
 | Turner Performance Products | Turner Performance Products Lower Chain Roller |  | 17.33 USD | [MotoSport](https://www.motosport.com/turner-performance-products-lower-chain-roller) |
@@ -155,7 +147,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Barnett | Barnett Clutch Kit Yamaha YZ125 1993-2027 | 303-90-10050 | 250.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/barnett-clutch-kit-yamaha-yz125-1993-2023) |
 | TM Designworks | TM Designworks Axle Block Flag Holder Yamaha 125cc-450cc 2002-2027 | DBF-H02 | 46.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/tm-designworks-axle-block-flag-holder-yamaha-125cc-450cc-2002-2022) |
 
-### Engine (38)
+### Engine (37)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
@@ -168,7 +160,6 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Boyesen | Boyesen Ignition Cover | SC-01AB, SC-02AB, SC-02B, SC-03B, SC-14XB, SC-11AB, SC-12AB, SC-12B, SC-13B, SC-10AB, SC-21CB, SC-23B, SC-20B, SC-33AB,  | 83.55 USD | [MotoSport](https://www.motosport.com/boyesen-ignition-cover) |
 | Boyesen | Boyesen Ignition Cover Gasket | SCG-21A, SCG-01A, SCG-02, SCG-02A, SCG-03, SCG-10A, SCG-11A, SCG-12, SCG-20, SCG-21, SCG-23, SCG-30, SCG-31, SCG-33A, SC | 5.65 USD | [MotoSport](https://www.motosport.com/boyesen-ignition-cover-gasket) |
 | Boyesen | Boyesen Rad Valve Replacement Gasket | RG-30, RG-01A, RG-02, RG-02A, RG-03, RG-11, RG-12, RG-15, RG-20, RG-23, RG-25, RG-31, RG-33J, RG-40, RG-43, RG-10, RG-21 | 5.65 USD | [MotoSport](https://www.motosport.com/boyesen-rad-valve-replacement-gasket) |
-| EBC | EBC Clutch Springs | CSK10, CSK101, CL77-CSK102, CSK109, CSK11, CSK110, CSK111, CSK112, CSK114, CSK115, CSK117, CSK119, CL77-CSK12, CSK120, C | 12.99 USD | [MotoSport](https://www.motosport.com/ebc-clutch-springs) |
 | EBC | EBC Dirt Racer Carbon Fiber Clutch Kit | DRCF70, DRCF108, DRCF98, DRCF230, DRCF288, DRCF241, DRCF306 | 223.07 USD | [MotoSport](https://www.motosport.com/ebc-dirt-racer-carbon-fiber-clutch-kit) |
 | GET | GET CDI Control Unit | GK-CDI-0000, GK-CDI-0001, GK-CDI-0003, GK-CDI-0004, GK-CDI-0005, GK-CDI-0006, GK-CDI-0007, GK-CDI-0008, GK-CDI-0009, GK- | 615.95 USD | [MotoSport](https://www.motosport.com/get-cdi-control-unit) |
 | GYTR | GYTR Billet Clutch Basket | GYT-1C356-10-00, GYT-5PA56-10-01, GYT-5XF56-10-00, B7B-E63A0-V0-00, BR9-E63A0-V0-00 | 259.99 USD | [MotoSport](https://www.motosport.com/gytr-billet-clutch-basket) |
@@ -299,18 +290,17 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 |---|---|---|---|---|
 | Yamaha Genuine Accessories | Aluminum Stand / WR250F, WR400F, WR450F, YZ125, YZ125X, YZ250, YZ250F - See Description For Model Ap | QBY-ACC56-35-02 | 182.19 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-qby-acc56-35-02-a2-aluminum-stand) |
 | Yamaha Genuine Accessories | Lift Stand / WR250F, WR400F, WR450F, YZ125, YZ125X, YZ250, YZ250F, YZ250FX - See Description For Mod | QBY-ACC56-35-01 | 190.41 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-qby-acc56-35-01-ls1-lift-stand) |
-| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25448-50-00 | 82.83 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25448-50-00-sprocket) |
 | Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25452-50-00 | 87.07 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25452-50-00-sprocket) |
+| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25448-50-00 | 82.83 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25448-50-00-sprocket) |
 | Yamaha Genuine Accessories | Steel Stand / WR250F, WR400F, WR450F, YZ125, YZ125X, YZ250, YZ250F, YZ250FX - See Description For Mo | QBY-ACC56-35-00 | 111.23 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-qby-acc56-35-00-c2-steel-stand) |
 
-### Intake (7)
+### Intake (6)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
 | Boyesen | Boyesen Pro Series Carbon Fiber Dual Stage Reeds | PRO-01, PRO-07, PRO-111, PRO-112, PRO-113, PRO-114, PRO-123, PRO-124, PRO-126, PRO-134, PRO-139, PRO-141, PRO-144, PRO-1 | 59.80 USD | [MotoSport](https://www.motosport.com/boyesen-pro-series-carbon-fiber-dual-stage-reeds) |
 | Boyesen | Boyesen Rad Valve | RAD-01E, RAD-01J, RAD-03A, RAD-15, RAD-10E, RAD-20A, RAD-21J, RAD-24K, RAD-30C, RAD-34J, RAD-01A, RAD-01B, RAD-01F, RAD- | 170.95 USD | [MotoSport](https://www.motosport.com/boyesen-rad-valve) |
 | Loudmouth | Loudmouth Outerwears Pre-Filter | LM-BOUT | 31.99 USD | [MotoSport](https://www.motosport.com/loudmouth-outerwears-prefilter) |
-| Loudmouth | Loudmouth Wash Cap | CAP, N/A | 15.00 USD | [MotoSport](https://www.motosport.com/loudmouth-wash-cap) |
 | VForce | VForce 3 Replacement Reeds | 3P602H, 3P682H, 3P682M, 3P352H, 3P411H, 3P462H, 3P793A | 58.50 USD | [MotoSport](https://www.motosport.com/vforce-3-replacement-reeds) |
 | VForce | VForce 4 Replacement Reeds | 4P672H, 4P522, 4PR612M | 58.50 USD | [MotoSport](https://www.motosport.com/vforce-4-replacement-reeds) |
 | VForce | VForce Replacement Gasket | G381, G305, G383, G384, G307, G364, G385, G308, G382, G351, G306, G316, G485, G426-K, G311, G482, G404 | 5.36 USD | [MotoSport](https://www.motosport.com/vforce-replacement-gasket) |
@@ -324,7 +314,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Works Connection | Works Connection Aluminum Frame Guards | 15-342, 15-190, 15-227, 15-229, 15-233, 15-235, 15-272, 15-055, 15-135, 15-109, 15-341, 15-380, 15-486, 15-035, 15-015,  | 79.95 USD | [MotoSport](https://www.motosport.com/works-connection-aluminum-frame-guards) |
 | Works Connection | Works Connection Glide Plate | 10-036, 10-038, 10-090, 10-040, 10-008, 10-071, 10-093, 10-086, 10-148, 10-102, 10-109, 10-108, 10-334, 10-190, 10-218,  | 89.95 USD | [MotoSport](https://www.motosport.com/works-connection-glide-plate) |
 
-### Suspension (14)
+### Suspension (13)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
@@ -332,7 +322,6 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Athena | Athena Outer Fork Bushing | S41TI35M, S41TI36K, S41TI37S, S41TI43K, S41TI43W, S41TI43WO, S41TI45M, S41TI46K, S41TI47S, S41TI48K, S41TI48M, S41TI48S, | 12.99 USD | [MotoSport](https://www.motosport.com/athena-outer-fork-bushing) |
 | Bullet Proof Designs | Bullet Proof Designs Fork Lug Guard | HUQ-FG-15-SET-BLU, HUQ-FG-14-SET-BLU-CL77, HUQ-LFG-14-BLK-CL77, HUQ-LFG-14-SIL-CL77, GAS-LFG-21-SIL-CL77, KTM-FG-07-SET- | 59.00 USD | [MotoSport](https://www.motosport.com/bullet-proof-designs-fork-lug-guard) |
 | Factory Connection | Factory Connection High Speed Compression Adjuster Spring/Mods | HSSK09, HSSK04, HSSS09, HSSS | 19.99 USD | [MotoSport](https://www.motosport.com/factory-connection-high-speed-compression-adjuster-springmods) |
-| Factory Connection | Factory Connection Updated Shock Seal Kit | FCS-16U, FCS18U | 25.99 USD | [MotoSport](https://www.motosport.com/factory-connection-updated-shock-seal-kit) |
 | Pivot Works | Pivot Works Fork Rebuild Kit Yamaha 125cc-450cc 2015-2027 | PWFFK-Y15-000 | 118.02 USD | [Cycle Gear](https://www.cyclegear.com/parts/pivot-works-fork-rebuild-kit-yamaha-125cc-450cc-2015-2022) |
 | Pivot Works | Pivot Works Linkage/Shock Bearing Kit | PWLK-H41-000, PWLK-H42-000, PWLK-H43-000, PWLK-H44-000, PWLK-H45-000, PWLK-H46-000, PWLK-H47-000, PWLK-H49-000, PWLK-H50 | 91.94 USD | [MotoSport](https://www.motosport.com/pivot-works-linkageshock-bearing-kit) |
 | Pivot Works | Pivot Works Shock Repair Kit | PWSHR-H02-000, PWSHR-T03-000, PWSHR-T04-000, PWSHR-Y01-000, PWSHR-Y03-000, PWSHR-Y04-000, PWSHR-H03-000, PWSHR-H04-000,  | 105.00 USD | [MotoSport](https://www.motosport.com/pivot-works-shock-repair-kit) |
@@ -343,7 +332,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Zeta | Zeta Adjustable Lowering Link Yamaha 125cc-250cc 2006-2027 | ZE56-01616 | 326.54 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-adjustable-lowering-link-yamaha-125cc-250cc-2006-2022) |
 | Zeta | Zeta Fork Lowering Kit Gas Gas / Honda / Husqvarna / Kawasaki / Yamaha / Suzuki 2005-2027 | ZE56-31010, ZE56-31030 | 186.32 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-fork-lowering-kit-gas-gas-honda-husqvarna-kawasaki-yamaha-suzuki-2005-2022) |
 
-### Tools And Maintenance (7)
+### Tools And Maintenance (6)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
@@ -353,7 +342,6 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Loudmouth | Loudmouth High Performance Air Filter Intake Kit | QCH-24, QC150, QCH-9, QCH-13R, N/A, KTM, N/A, QCK-24, QCS-124, QCY-1224 | 189.99 USD | [MotoSport](https://www.motosport.com/loudmouth-high-performance-air-filter-intake-kit) |
 | Moose | Moose Air Filter | 38014, 34012, 32026, 32027, 38016, 27007, 37015, 34015, 38017, 34016, 31506, 38020, 32029, 31508, 31507, 33505, 31502, 3 | 29.95 USD | [MotoSport](https://www.motosport.com/moose-air-filter) |
 | Turner Performance Products | Turner Performance Products Billet Air Filter Bolt |  | 19.99 USD | [MotoSport](https://www.motosport.com/turner-performance-products-billet-air-filter-bolt) |
-| Twin Air | Twin Air Loudmouth Air Filter | 158935, 158936 | 37.99 USD | [MotoSport](https://www.motosport.com/twin-air-loudmouth-air-filter) |
 
 ### Uncategorised (34)
 
@@ -394,16 +382,15 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Zeta | Zeta Oil Filler Plug Honda / Kawasaki / Yamaha | ZE89-2110, ZE89-2111, ZE89-2112 | 18.75 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-oil-filler-plug-honda-kawasaki-yamaha) |
 | Zeta | Zeta Trigger Brake Pedal Yamaha YZ125 / X / YZ250 / X 1997-2027 | ZE90-7316 | 140.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-trigger-brake-pedal-yamaha-yz125-x-yz250-x-1997-2023) |
 
-### Wheels And Rims (2)
+### Wheels And Rims (1)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
 | Pivot Works | Pivot Works Premium Wheel Bearing Kit | 25-1402-P, 25-1092-P, 25-1083-P, 25-1108-P | 40.59 USD | [MotoSport](https://www.motosport.com/pivot-works-premium-wheel-bearing-kit) |
-| Turner Performance Products | Turner Performance Products Front Wheel Bearing Kit |  | 14.99 USD | [MotoSport](https://www.motosport.com/turner-performance-products-front-wheel-bearing-kit) |
 
 ## Universal retailer listings (counted only)
 
-Controls 549, Lights And Electrical 380, Tires 218, Body 193, Tools And Maintenance 170, Graphics 168, Engine 136, Drive 124, Suspension 114, Luggage And Racks 106, Brakes 93, Exhaust 81, Wheels And Rims 66, Vehicle Communication 60, Fuel System 54, Accessories 48, Skid Plates And Guards 26, Riding Gear 18, Farming And Hunting 13, Intake 6, Uncategorised 3, Helmets 3, Winch And Plow 2, Gauges 1, Bike Protection 1
+Controls 552, Lights And Electrical 380, Tires 218, Body 194, Tools And Maintenance 171, Graphics 168, Engine 137, Drive 127, Suspension 115, Luggage And Racks 106, Brakes 94, Exhaust 81, Wheels And Rims 67, Vehicle Communication 60, Fuel System 54, Accessories 48, Skid Plates And Guards 26, Riding Gear 18, Farming And Hunting 13, Intake 7, Helmets 3, Uncategorised 3, Winch And Plow 2, Bike Protection 1, Gauges 1
 
-Top brands: Turner Performance Products 116, Rugged Radios 105, Motion Pro 97, Acerbis 93, RAM Mounts 72, D'COR Visuals 66, Cycra 65, Pro Taper 63, Factory Effex 57, Trail Tech 55, Bolt 54, Quad Lock 53, DRC 52, SP Connect 51, KTM PowerParts 43, Kriega 43, ODI 43, Namz Custom Cycle 40, Renthal 40, Fastway 36, RFX 35, Ride Engineering 35, Shinko 34, Kenda 32, Giant Loop 32
+Top brands: Turner Performance Products 117, Rugged Radios 105, Motion Pro 97, Acerbis 93, RAM Mounts 72, D'COR Visuals 66, Cycra 65, Pro Taper 63, Factory Effex 57, Trail Tech 55, Bolt 54, Quad Lock 53, DRC 52, SP Connect 51, ODI 43, KTM PowerParts 43, Kriega 43, Namz Custom Cycle 40, Renthal 40, Fastway 39, RFX 35, Ride Engineering 35, Shinko 34, Kenda 32, Giant Loop 32
 

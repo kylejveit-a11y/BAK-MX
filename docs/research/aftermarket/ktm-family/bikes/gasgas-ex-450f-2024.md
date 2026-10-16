@@ -1,52 +1,52 @@
 # GasGas EX 450F 2024: aftermarket parts
 
-1405 listings whose stated fitment names this bike: 48 researched parts (with what they change and rider findings), 408 dealer and retailer listings specific to this bike, and 949 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+3996 listings whose stated fitment names this bike: 48 researched parts (with what they change and rider findings), 535 dealer and retailer listings specific to this bike, and 3413 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
 | Brand | Part | Part numbers | What it changes | Caveats | Source | Confidence |
 |---|---|---|---|---|---|---|
 | ARC | Alloy brake lever for Braktec front brake (GasGas / Husqvarna) | BR-122 (retailer code AC-BR-122) | Folding, crash-resistant lever with reach adjust (ARC family claims, see pass 1 arc-brake-lever-br214). | Shows that Braktec bikes need a different lever from the Brembo BR-214. Husqvarna FX/TX listing conflicts with pass 1 ARC Flex list (which includes FX/TX 350/45 | [Johnstons Moto (NZ)](https://www.johnstonsmoto.co.nz/products/arc-brake-lever-alloy-gasgas-husq-braketec-ec-23-25-mc-24-25-ex-23-25-ec-21-23-te-tx-fe-fx-22-25) | medium |
-| EBC | MXS755 Race Series Front Brake Pads | MXS755 | Listing: race-only sintered copper pad with sharp initial bite for fast riders. | Retailer list mixes Nissin- and Brembo-equipped bikes and differs from FA755R list; check EBC catalogue. | [J&P Cycles](https://www.jpcycles.com/product/ebc-mxs755-race-series-front-brake-pads) | medium |
 | EBC | MXS Race Series Front Brake Pads | MXS181 | EBC claims: sintered copper-alloy MX race compound, sharp initial bite, fade resistant, consistent across heat cycles. | Retailer fitment list cut off after Husqvarna FC450, so KTM, Husqvarna TC/TX/FX and others were not visible. MXS181 is the Brembo-pattern pad, but KTM fitment i | [J&P Cycles](https://www.jpcycles.com/product/ebc-mxs181-race-series-front-brake-pads) | medium |
+| EBC | MXS755 Race Series Front Brake Pads | MXS755 | Listing: race-only sintered copper pad with sharp initial bite for fast riders. | Retailer list mixes Nissin- and Brembo-equipped bikes and differs from FA755R list; check EBC catalogue. | [J&P Cycles](https://www.jpcycles.com/product/ebc-mxs755-race-series-front-brake-pads) | medium |
 | Galfer | Fixed Wave Rotor Front | DF606W | Maker claims: bolts in place of the OEM front rotor with no spacers; laser-cut 420 stainless, heat treated; vented slots for cooling and water clearing; 'drastically increase brake lever feel, modulat | Retailer fitment table, read on 2026-10-15. Year coverage is patchy for some models: Husqvarna FC 2026-2027, FX 450 2025+, GasGas MC 450F 2027 and 4-stroke MC/E | [Cycle Gear](https://www.cyclegear.com/parts/galfer-fixed-wave-rotor-front-df606w) | medium |
 | P3 Carbon | Hybrid Skid Plate, NO linkage guard, KTM/Husqvarna/GasGas 450/500 2023+ |  | P3: hand-made carbon fibre protection; no further detail on page. | URL slug says 'with-linkage-guard' but title says NO linkage guard; confirm the variant. No SKU shown. | [P3 Carbon (manufacturer)](https://p3carbon.com/products/p3-skid-plate-with-linkage-guard-ktm-sx-f-xc-f-450-husq-fc-fx-fs-450-2023-2026-see-fitment-tab/) | medium |
 | Ride Engineering | Full Performance linkage (KTM/GasGas, 2024.5 FE and 2025+) |  | More linear damping curve for balance and less pitching under braking and acceleration. | No part number; fitment from magazine test, not RE fitment page. 2026-2027 not stated. | [Ride Engineering (price via MXA)](https://www.ride-engineering.com) | medium |
 | Scotts Performance (BRP mount) | Scotts steering stabilizer with metal SUB (under-bar) mount kit, KTM/Husky 23-25, GasGas 24-25 | SCO-DS-SUB-6125-01 (Shock Treatment SKU; appears to follow Scotts DS-xxxx-01 numbering) | Adds adjustable steering damping (head-shake control); SUB mount converts rubber-mounted bars to solid and raises bars ~24 mm (11-25 mm by model) with two fore-aft positions; Upshift listing notes 3 m | 2026-2027 fitment not listed. Bar height change may need a lower bend. | [Shock Treatment (AU)](https://www.shocktreatment.com.au/ktm-husky-23-25-gas-gas-24-25-metal-sub-kit) | medium |
 | Scotts Performance / BRP | Adjustable Rubber SUB-Mount Steering Stabilizer Kit (KTM/Husqvarna/GasGas) |  | Seller: damper sits under the bar (SUB) out of crash damage; bar position about 1 inch taller (lower-bend bars can compensate); 3mm offset bar perches. | Sold out; listing moved to TMBR Moto. Title says 2023-24 but fit list runs to 2025. No part number shown. | [Upshift Online](https://upshiftonline.com/products/scotts-perf-adjust-rubber-sub-mount-kit-2023-24-ktm-husqvarna-gasgas) | medium |
-| Rekluse | Rekluse Core Manual TorqDrive Clutch Kit, KTM/Husqvarna/GasGas 450 | RMS-7113198 | Rekluse: fits up to four more friction discs than stock in the same space, raising torque capacity without stiffer springs; claims better drive, less fade, more consistent lever feel; lever pull can s | Maker model list is truncated behind 'Show All' and does not map models to years; listed 'Call for Availability'. | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-core-manual-torq-drive-clutch-kit-ktm-husqvarna-gas-gas-450cc-501cc-2022-2025) | high |
 | Rekluse | RadiusCX 4.0 Clutch Kit - KTM/Husqvarna/GasGas 450cc | Cycle Gear item P1069732 | Rekluse copy (via retailer): EXP 4.0 disc prevents stalls, TorqDrive discs last longer with less adjustment, more power transfer than OEM manual clutch, steel basket sleeves resist notching; manual ov | Retailer fitment list has gaps (e.g. FC 450 2026); verify on Rekluse fitment checker. Retailer price $100 above Rekluse direct price for sibling kits. | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-radius-cx-40-clutch-kit-ktm-husqvarna-gas-gas-450cc-2022-2025) | medium |
+| Rekluse | Rekluse Core Manual TorqDrive Clutch Kit, KTM/Husqvarna/GasGas 450 | RMS-7113198 | Rekluse: fits up to four more friction discs than stock in the same space, raising torque capacity without stiffer springs; claims better drive, less fade, more consistent lever feel; lever pull can s | Maker model list is truncated behind 'Show All' and does not map models to years; listed 'Call for Availability'. | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-core-manual-torq-drive-clutch-kit-ktm-husqvarna-gas-gas-450cc-501cc-2022-2025) | high |
 | Raptor | Titanium Footpegs (KTM/Husqvarna/GasGas) |  | Listing: ~410g/pair titanium, 57mm platform, 24 teeth, anti-clog. | Visible fit list shows only pre-2019 KTM/Husqvarna and truncated GasGas list; 2020+ KTM/Husqvarna fit not confirmed. | [Cycle Gear](https://www.cyclegear.com/parts/raptor-titanium-footpegs-ktm-husqvarna-gas-gas-85cc-501cc-2015-2024) | unverified |
 | Bullet Proof Designs | Bullet Proof Designs Radiator Braces/Guards, KTM/Husqvarna/GasGas |  | 6061 billet frame-mounted guards; claims no adverse effect on airflow and compatible with fan kits. | A single SKU across 2017-2026 is doubtful given the 2023 chassis change; AOMC listing is '17-23' (possible SKU KTM-RG-19, not verified). 85 SX not covered. | [Dirt Bike Spec](https://dirtbikespec.com/product/bulletproof-designs-radiator-guards-ktm-husqvarna/) | unverified |
 | KTM PowerParts | Connectivity Unit Offroad (CUO) / Connectivity Unit GPS Fender Kit | A46014986088EB | Bluetooth unit (between the fork and triple clamp, behind the number plate) plus a GPS receiver on the fender, paired with the free KTMconnect app. It adds engine settings (PRIME/ADVANCED modes, engin | Rider Coach needs a subscription after a 1-month trial (GBP 59.99/yr, KTM Direct). The dealer list stops at MY2025 SX-F and MY2024 XC-F, so check 2026+ with a d | [KTM Direct (UK)](https://ktmdirect.co.uk/products/connectivity-unit-gps-fender-kit-a46014986088eb) | medium |
-| Wiseco | Cam Chain | WCC070 | OEM-spec replacement timing chain (maker claims consistent valve timing, OEM-or-better durability). | Title says 2023-25 but fitment list says 450 SX-F to 2026. | [ORO2U (UK)](https://www.oro2u.com/cam-chain-2023-25-ktm-450-sx-f-husqvarna-fc-450-2023-25-wiseco-wcc070-31-6443-a46036013000) | medium |
 | Wiseco | Forged Piston Kit | 40306M09500B, 40306M09500A | Claims: forged high-silicon alloy piston for strength and longevity at stock-like 13.1:1 compression. Kit includes rings and circlips. | Match the A/B size code to the cylinder grade. Also lists 450 SM-R and FS 450 (out of scope). | [ORO2U (UK)](https://oro2u.com/piston-kit-2023-25-sx-f450-wiseco-40306m09500b-95mm) | medium |
+| Wiseco | Cam Chain | WCC070 | OEM-spec replacement timing chain (maker claims consistent valve timing, OEM-or-better durability). | Title says 2023-25 but fitment list says 450 SX-F to 2026. | [ORO2U (UK)](https://www.oro2u.com/cam-chain-2023-25-ktm-450-sx-f-husqvarna-fc-450-2023-25-wiseco-wcc070-31-6443-a46036013000) | medium |
 | Akrapovič (KTM PowerParts) | Akrapovič Heat Protection | A48005994000 | Heat guard for the Akrapovič silencer/header. | Model-level fitment list not retrieved. | [AOMC (US)](https://aomc.mx/KTM-Powerparts-Akrapovic-Slip-On-Line-Muffler-250-SX-FXC-F-23-24-A46005979000.html) | unverified |
-| FMF | Factory 4.1 RCT full system - 450 SX-F, 450 XC-F, EX 450F, FC 450, FX 450, MC 450F | 045673, 045686 | FMF: Resonance Chamber Technology inside and out, shorter length, muffler moved forward to centralize mass; claims 'massive' power gains across the rpm range and big weight savings; RTS quick-tuning. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/stainless-steel-alum-fact-4-1-rct-w-r-carbon-cap-full-system-45686) | high |
 | FMF | MegaBomb header - 450 SX-F, 450 XC-F, EX 450F, FC 450, FX 450, MC 450F | 045671, 045676 | FMF MegaBomb four-stroke header (resonance chamber 'bomb' near the port); used with FMF mid/muffler. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/stainless-megabomb-045676) | high |
 | FMF | Factory 4.1 RCT slip-on - 450 SX-F, 450 XC-F, EX 450F, FC 450, FX 450, MC 450F | 045669, 045680 | FMF: Resonance Chamber Technology inside and out, shorter length, muffler moved forward to centralize mass; claims 'massive' power gains across the rpm range and big weight savings; RTS quick-tuning. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/factory-4-1-rct-stainless-sl-slip-on-w-carbon-end-cap-045680) | high |
+| FMF | Factory 4.1 RCT full system - 450 SX-F, 450 XC-F, EX 450F, FC 450, FX 450, MC 450F | 045673, 045686 | FMF: Resonance Chamber Technology inside and out, shorter length, muffler moved forward to centralize mass; claims 'massive' power gains across the rpm range and big weight savings; RTS quick-tuning. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/stainless-steel-alum-fact-4-1-rct-w-r-carbon-cap-full-system-45686) | high |
 | FMF | Factory 4.1 RCT Titanium Anodized SL (Slip-On) w/ Carbon Cap | 045669 | FMF claim: power gains across the rpm range, weight savings, shorter muffler closer to the engine (mass centralization), RTS rapid tuning system. No dyno figures given. | Closed-course use only. Pass-1 note: US MY27 standard SX-F/XC-F (and EU MY26 / US MY26 Factory Edition) got a revised airbox/filter; KTM says its Akrapovic syst | [FMF Racing](https://www.fmfracing.com/products/factory-4-1-rct-titanium-anodized-sl-slip-on-w-carbon-cap-045669) | high |
 | FMF | Factory 4.1 RCT Stainless SL (Slip-On) w/ Carbon End Cap | 045680 | Same FMF claims as 045669 (power gains through the rpm range, mass centralization). No dyno figures. | Sold out on FMF site 2026-10-14. FMF page mixes 'titanium' wording with an aluminum/stainless spec. Pass-1 note: US MY27 standard SX-F/XC-F (and EU MY26 / US MY | [FMF Racing](https://www.fmfracing.com/products/factory-4-1-rct-stainless-sl-slip-on-w-carbon-end-cap-045680) | high |
 | KTM group (Husqvarna / GasGas Technical Accessories) | Connectivity Unit Offroad (CUO), Husqvarna and GasGas versions |  | Via the app: traction control levels, engine braking, throttle response, launch control, quickshift, track presets, sag assistant; lap data needs a subscription. | Husqvarna/GasGas part numbers not found. 4-stroke only. | [Authorised dealers (RRP per Enduro21)](https://enduro21.com/en/products-reviews/latest/quick-look-2023-2024-ktm-sx-f-and-xc-f-connectivity-unit-offroad) | unverified |
-| JT Sprockets | Racelite Aluminium Rear Race Sprocket | JTA897BLK | Aluminium race rear sprocket: lighter than steel, wears faster. Gearing change. JT's own catalogue page states: 'Lower gear ratios allow for higher top speeds. Higher gear ratios increase torque for b | Part number format PN.teeth follows JT's catalogue search example ('JTF513.15'). 'Available Sizes' lists the tooth counts JT shows for that bike page; the tooth | [source](https://www.jtsprockets.com/catalogue/model/s6498) | high |
-| JT Sprockets | Steel Rear Sprocket | JTR897 | Steel rear sprocket - the long-wearing replacement option. Gearing change. JT's own catalogue page states: 'Lower gear ratios allow for higher top speeds. Higher gear ratios increase torque for better | Part number format PN.teeth follows JT's catalogue search example ('JTF513.15'). 'Available Sizes' lists the tooth counts JT shows for that bike page; the tooth | [source](https://www.jtsprockets.com/catalogue/model/s6498) | high |
-| JT Sprockets | Steel Front Sprocket | JTF1901 | Steel countershaft (front) sprocket. Gearing change. JT's own catalogue page states: 'Lower gear ratios allow for higher top speeds. Higher gear ratios increase torque for better acceleration' - i.e.  | Part number format PN.teeth follows JT's catalogue search example ('JTF513.15'). 'Available Sizes' lists the tooth counts JT shows for that bike page; the tooth | [source](https://www.jtsprockets.com/catalogue/model/s5663) | high |
-| JT Sprockets | 520 HDS Super Heavy Duty Chain |  | JT's chain chart lists 520 HDS for motocross up to 600cc; non-sealed, solid bushes. Chains are sold by pitch and length; replace with sprockets as a set. | Link counts are from JT's per-bike catalogue pages, which state 'the chain shown in this listing is for size reference only. For the correct chain type and grad | [source](https://www.jtsprockets.com/chain/) | medium |
-| JT Sprockets | Heat-Induction Hardened Zinc Black Rear Sprocket | JTR897ZBK | Heat-induction hardened steel rear sprocket with zinc-black finish. Gearing change. JT's own catalogue page states: 'Lower gear ratios allow for higher top speeds. Higher gear ratios increase torque f | Part number format PN.teeth follows JT's catalogue search example ('JTF513.15'). 'Available Sizes' lists the tooth counts JT shows for that bike page; the tooth | [source](https://www.jtsprockets.com/catalogue/model/s6498) | high |
-| JT Sprockets | Lightweight Self-Cleaning Rear Sprocket | JTR897SC | Lightweight steel rear sprocket with JT's self-cleaning (mud-relief) design. Gearing change. JT's own catalogue page states: 'Lower gear ratios allow for higher top speeds. Higher gear ratios increase | Part number format PN.teeth follows JT's catalogue search example ('JTF513.15'). 'Available Sizes' lists the tooth counts JT shows for that bike page; the tooth | [source](https://www.jtsprockets.com/catalogue/model/s6498) | high |
-| JT Sprockets | Lightweight Self-Cleaning Front Sprocket | JTF1901SC | Lightweight self-cleaning countershaft sprocket. Gearing change. JT's own catalogue page states: 'Lower gear ratios allow for higher top speeds. Higher gear ratios increase torque for better accelerat | Part number format PN.teeth follows JT's catalogue search example ('JTF513.15'). 'Available Sizes' lists the tooth counts JT shows for that bike page; the tooth | [source](https://www.jtsprockets.com/catalogue/model/s5663) | high |
 | JT Sprockets | OE Type Rubber Cushioned Front Sprocket | JTF1901RB | Rubber-cushioned countershaft sprocket, OE type (quieter running). Gearing change. JT's own catalogue page states: 'Lower gear ratios allow for higher top speeds. Higher gear ratios increase torque fo | Part number format PN.teeth follows JT's catalogue search example ('JTF513.15'). 'Available Sizes' lists the tooth counts JT shows for that bike page; the tooth | [source](https://www.jtsprockets.com/catalogue/model/s5663) | high |
+| JT Sprockets | Steel Rear Sprocket | JTR897 | Steel rear sprocket - the long-wearing replacement option. Gearing change. JT's own catalogue page states: 'Lower gear ratios allow for higher top speeds. Higher gear ratios increase torque for better | Part number format PN.teeth follows JT's catalogue search example ('JTF513.15'). 'Available Sizes' lists the tooth counts JT shows for that bike page; the tooth | [source](https://www.jtsprockets.com/catalogue/model/s6498) | high |
+| JT Sprockets | 520 HDS Super Heavy Duty Chain |  | JT's chain chart lists 520 HDS for motocross up to 600cc; non-sealed, solid bushes. Chains are sold by pitch and length; replace with sprockets as a set. | Link counts are from JT's per-bike catalogue pages, which state 'the chain shown in this listing is for size reference only. For the correct chain type and grad | [source](https://www.jtsprockets.com/chain/) | medium |
+| JT Sprockets | Steel Front Sprocket | JTF1901 | Steel countershaft (front) sprocket. Gearing change. JT's own catalogue page states: 'Lower gear ratios allow for higher top speeds. Higher gear ratios increase torque for better acceleration' - i.e.  | Part number format PN.teeth follows JT's catalogue search example ('JTF513.15'). 'Available Sizes' lists the tooth counts JT shows for that bike page; the tooth | [source](https://www.jtsprockets.com/catalogue/model/s5663) | high |
+| JT Sprockets | Lightweight Self-Cleaning Rear Sprocket | JTR897SC | Lightweight steel rear sprocket with JT's self-cleaning (mud-relief) design. Gearing change. JT's own catalogue page states: 'Lower gear ratios allow for higher top speeds. Higher gear ratios increase | Part number format PN.teeth follows JT's catalogue search example ('JTF513.15'). 'Available Sizes' lists the tooth counts JT shows for that bike page; the tooth | [source](https://www.jtsprockets.com/catalogue/model/s6498) | high |
 | JT Sprockets | 520 X1R Heavy Duty X-Ring Chain |  | JT's chain chart lists 520 X1R for motocross 200-450cc; X-ring sealed. Chains are sold by pitch and length; replace with sprockets as a set. | Link counts are from JT's per-bike catalogue pages, which state 'the chain shown in this listing is for size reference only. For the correct chain type and grad | [source](https://www.jtsprockets.com/chain/) | medium |
-| Renthal | 520 R3-3 Off-Road Chain | C413, C414, C415, C416 | Renthal's sealed (SRS ring) 520 off-road chain - longer life between adjustments than a non-sealed MX chain. Chains are sold by pitch and length (link count). | Per-bike link counts are the chain SKU Renthal's Fit My Bike data lists for that bike (oe_chain / r1_chain / r3_chain fields); link count changes with sprocket  | [Renthal (renthal.com UK store)](https://renthal.com/products/offroad-chain-r3-3-520) | high |
-| Renthal | Ultralight Rear Sprocket | 224U-520 | 7075-T6 aluminium rear sprocket (Renthal Ultralight) - lighter than steel; change tooth count to re-gear (more teeth = shorter gearing, harder acceleration, lower top speed per gear). | Fitment from Renthal's own Fit My Bike application data (renthal.com/apps/fit-my-bike API). The 'OE-size listing' in each note is the specific SKU Renthal's loo | [Renthal (renthal.com UK store)](https://renthal.com/products/rear-sprocket-224u-520) | high |
+| JT Sprockets | Lightweight Self-Cleaning Front Sprocket | JTF1901SC | Lightweight self-cleaning countershaft sprocket. Gearing change. JT's own catalogue page states: 'Lower gear ratios allow for higher top speeds. Higher gear ratios increase torque for better accelerat | Part number format PN.teeth follows JT's catalogue search example ('JTF513.15'). 'Available Sizes' lists the tooth counts JT shows for that bike page; the tooth | [source](https://www.jtsprockets.com/catalogue/model/s5663) | high |
+| JT Sprockets | Heat-Induction Hardened Zinc Black Rear Sprocket | JTR897ZBK | Heat-induction hardened steel rear sprocket with zinc-black finish. Gearing change. JT's own catalogue page states: 'Lower gear ratios allow for higher top speeds. Higher gear ratios increase torque f | Part number format PN.teeth follows JT's catalogue search example ('JTF513.15'). 'Available Sizes' lists the tooth counts JT shows for that bike page; the tooth | [source](https://www.jtsprockets.com/catalogue/model/s6498) | high |
+| JT Sprockets | Racelite Aluminium Rear Race Sprocket | JTA897BLK | Aluminium race rear sprocket: lighter than steel, wears faster. Gearing change. JT's own catalogue page states: 'Lower gear ratios allow for higher top speeds. Higher gear ratios increase torque for b | Part number format PN.teeth follows JT's catalogue search example ('JTF513.15'). 'Available Sizes' lists the tooth counts JT shows for that bike page; the tooth | [source](https://www.jtsprockets.com/catalogue/model/s6498) | high |
 | Renthal | 520 R1 MX Chain | C119, C121, C124, C125, C126, C127, C128 | Renthal's non-sealed 520 works MX chain. Chains are sold by pitch and length (link count). | Per-bike link counts are the chain SKU Renthal's Fit My Bike data lists for that bike (oe_chain / r1_chain / r3_chain fields); link count changes with sprocket  | [Renthal (renthal.com UK store)](https://renthal.com/products/520-r1-mx-chain) | high |
 | Renthal | Front Sprocket | 292--520 | Countershaft (front) sprocket. One tooth on the front changes overall ratio roughly as much as ~3-4 teeth on the rear (general gearing arithmetic, not a Renthal claim). | Fitment from Renthal's own Fit My Bike application data. 'U' groups are Renthal Ultralight fronts; '--' groups are standard steel fronts. Prices from renthal.co | [Renthal (renthal.com UK store)](https://renthal.com/products/front-sprocket-292-520) | high |
+| Renthal | 520 R3-3 Off-Road Chain | C413, C414, C415, C416 | Renthal's sealed (SRS ring) 520 off-road chain - longer life between adjustments than a non-sealed MX chain. Chains are sold by pitch and length (link count). | Per-bike link counts are the chain SKU Renthal's Fit My Bike data lists for that bike (oe_chain / r1_chain / r3_chain fields); link count changes with sprocket  | [Renthal (renthal.com UK store)](https://renthal.com/products/offroad-chain-r3-3-520) | high |
 | Renthal | Ultralight Front Sprockets | 292U-520 | Countershaft (front) sprocket. One tooth on the front changes overall ratio roughly as much as ~3-4 teeth on the rear (general gearing arithmetic, not a Renthal claim). | Fitment from Renthal's own Fit My Bike application data. 'U' groups are Renthal Ultralight fronts; '--' groups are standard steel fronts. Prices from renthal.co | [Renthal (renthal.com UK store)](https://renthal.com/products/front-sprocket-292u-520) | high |
 | Renthal | Twinring Rear Sprocket | 2240-520 | Two-piece rear sprocket (hard-anodised aluminium centre with steel tooth ring) - aimed at steel-like wear life with lower weight than an all-steel sprocket. | Fitment from Renthal's Fit My Bike application data (twinring field). Prices from renthal.com UK store (GBP). | [Renthal (renthal.com UK store)](https://renthal.com/products/twinring-2240-520) | high |
+| Renthal | Ultralight Rear Sprocket | 224U-520 | 7075-T6 aluminium rear sprocket (Renthal Ultralight) - lighter than steel; change tooth count to re-gear (more teeth = shorter gearing, harder acceleration, lower top speed per gear). | Fitment from Renthal's own Fit My Bike application data (renthal.com/apps/fit-my-bike API). The 'OE-size listing' in each note is the specific SKU Renthal's loo | [Renthal (renthal.com UK store)](https://renthal.com/products/rear-sprocket-224u-520) | high |
 | FunnelWeb | ProLine Air Filter |  | Claims: profile-cut foam, more surface area, longer service intervals. Ships unoiled. | The KTM part of the fitment list was cut off on the page; 2023+ KTM SX/SX-F/XC almost certainly share this filter but are not mapped here. TX 300 not visible. | [Cycle Gear](https://www.cyclegear.com/parts/funnelweb-proline-air-filter-ktm-husqvarna-gas-gas-125cc-500cc-2022-2025) | medium |
 | No Toil | Super Flo Filter Kit | SFK15047 | Claims: replaces OEM filter and cage, removing the factory backfire screen for more airflow to the throttle body; polymer cage with built-in anti-backfire screen; heat-sealed two-stage foam. | Retailer shows model names but only 'mostly 2022-2027' style year ranges; years here follow the 2023-2026 title and are not per-model verified. Two-stroke model | [J&P Cycles](https://www.jpcycles.com/product/no-toil-super-flo-filter-kit-ktm-husqvarna-gas-gas-250cc-500cc-2023-2026) | unverified |
-| Twin Air | Air Filter (dual-stage foam) | 154118 | Claims: coarse outer and fine inner foam fused together so dirt cannot pack between layers; thick greaseless sealing ring. | GasGas MC 450F and KTM 300 SX are not in the retailer's list even though sister models are; check. Factory Edition 2022 models also listed. | [ORO2U (UK)](https://www.oro2u.com/air-filter-22-25-gasgas-husqvarna-ktm-twin-air-154118) | medium |
 | Twin Air | Powerflow Kit GasGas/Husqvarna/KTM 125cc-450cc 2023-2027 |  | High-flow intake kit developed with race teams (no figures). | Price unclear on the page (~$199.45 in structured data). Part number not captured. | [RevZilla](https://www.revzilla.com/motorcycle/twin-air-powerflow-kit-gas-gashusqvarnaktm-125cc-450cc-2023-2024) | unverified |
+| Twin Air | Air Filter (dual-stage foam) | 154118 | Claims: coarse outer and fine inner foam fused together so dirt cannot pack between layers; thick greaseless sealing ring. | GasGas MC 450F and KTM 300 SX are not in the retailer's list even though sister models are; check. Factory Edition 2022 models also listed. | [ORO2U (UK)](https://www.oro2u.com/air-filter-22-25-gasgas-husqvarna-ktm-twin-air-154118) | medium |
 | Acerbis | Linear front disc cover (KTM/Husqvarna/GasGas/Stark), max disc 280 mm | AC-26107BK (black; Bikeman JP code, 'AC-' likely retailer prefix), AC-26107OR16 (orange) and AC-26107WH (white) from Bikeman URLs | Protects disc, left fork bottom and caliper; vented; mounts on the axle nut with no extra mount kit. | Max disc 280 mm, so it should clear a 270 mm oversize kit (inference, not stated). Acerbis catalogue number not confirmed. | [Slavens Racing](https://slavensracing.com/shop/linear-disc-guard-for-ktm-hqv-gg-stark-by-acerbis/) | medium |
 | P3 Carbon | Carbon Fiber Skid Plate |  | Maker claims: one-piece moulded carbon/biaxial glass/Kevlar blend with epoxy finish for impact resistance; lighter than aluminium plates. | For 2022 it fits only Factory/Rockstar Edition models. Listed years have gaps (FC 450 2026, FX 450 2025-2026). No MFR part number (item P1057592). Out of stock. | [Cycle Gear](https://www.cyclegear.com/parts/p3-carbon-fiber-skid-plate-ktm-husqvarna-gas-gas-450cc-2022-2024) | medium |
 | TM Designworks | FX Slide-n-Guide Kit | FXK-KHG3-BLACK, FXK-KHG3-RED, FXK-KHG3-ORANGE | Maker claims: front slider lasts 'up to 3 times longer' than others; inner guide wing keeps the chain aligned and cuts tire buzz; damping pads reduce chain slap; Powerlip lower pad reduces drag; low-p | Dealer page also says 'No vehicle fitment set for this product yet'. Also lists 2022-2025 KTM 250/450 SX-F Factory Edition, 2022 Husqvarna Rockstar and 2023 Gas | [Triple Clamp Moto (Canada)](https://tripleclampmoto.ca/products/tmdesigns-fx-slide-n-guide-kit) | unverified |
@@ -64,23 +64,23 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
 | GasGas Technical Accessories | AIR FILTER BOX FRONT PART | A59006001010AB | 11.76 GBP | [Lings](https://lings.com/products/gasgas-air-filter-box-front-part-white) |
-| GasGas Technical Accessories | AIR FILTER BOX FRONT PART | A59006001010C1 | 11.76 GBP | [Lings](https://lings.com/products/gasgas-air-filter-box-front-part-black) |
 | GasGas Technical Accessories | AIR FILTER BOX FRONT PART | A59006001010FB | 12.48 GBP | [Lings](https://lings.com/products/gasgas-air-filter-box-front-part-red) |
+| GasGas Technical Accessories | AIR FILTER BOX FRONT PART | A59006001010C1 | 11.76 GBP | [Lings](https://lings.com/products/gasgas-air-filter-box-front-part-black) |
 | GasGas Technical Accessories | AIR FILTER COVER | A46006998000 | 18.12 GBP | [Lings](https://lings.com/products/gasgas-air-filter-cover-4) |
 | GasGas Technical Accessories | AIR FILTER DUST PROTECTION | A46006920000 | 14.46 GBP | [Lings](https://lings.com/products/gasgas-air-filter-dust-protection-2) |
 | GasGas Technical Accessories | AIR FILTER PANEL | A59006003000AB | 36.24 GBP | [Lings](https://lings.com/products/gasgas-air-filter-panel-white-1) |
+| GasGas Technical Accessories | AIR FILTER PANEL | A59006003000C1 | 36.24 GBP | [Lings](https://lings.com/products/gasgas-air-filter-panel-black-1) |
 | GasGas Technical Accessories | AIR FILTER PANEL | A59006004000C1 | 36.24 GBP | [Lings](https://lings.com/products/gasgas-air-filter-panel-black) |
 | GasGas Technical Accessories | AIR FILTER PANEL | A59006004000FB | 36.24 GBP | [Lings](https://lings.com/products/gasgas-air-filter-panel-red) |
-| GasGas Technical Accessories | AIR FILTER PANEL | A59006003000FB | 36.24 GBP | [Lings](https://lings.com/products/gasgas-air-filter-panel-red-1) |
 | GasGas Technical Accessories | AIR FILTER PANEL | A59006004000AB | 40.74 GBP | [Lings](https://lings.com/products/gasgas-air-filter-panel-white) |
-| GasGas Technical Accessories | AIR FILTER PANEL | A59006003000C1 | 36.24 GBP | [Lings](https://lings.com/products/gasgas-air-filter-panel-black-1) |
+| GasGas Technical Accessories | AIR FILTER PANEL | A59006003000FB | 36.24 GBP | [Lings](https://lings.com/products/gasgas-air-filter-panel-red-1) |
 | GasGas Technical Accessories | AIR FILTER SAND PROTECTION | A46006922000 | 18.12 GBP | [Lings](https://lings.com/products/gasgas-air-filter-sand-protection-1) |
 | GasGas Technical Accessories | AIR FILTER WATER PROTECTION | A46006921000 | 14.46 GBP | [Lings](https://lings.com/products/gasgas-air-filter-water-protection-1) |
 | GasGas Technical Accessories | AKRAPOVIƒå "EVOLUTION LINE" | A48005900044 | 1448.82 GBP | [Lings](https://lings.com/products/gasgas-akrapovic-evolution-line) |
 | GasGas Technical Accessories | AKRAPOVIƒå "RACING LINE" | A48005901044 | 1267.62 GBP | [Lings](https://lings.com/products/gasgas-akrapovic-racing-line) |
-| GasGas Technical Accessories | Auxiliary Wiring Harness | 77711979000 | 14.46 GBP | [Lings](https://lings.com/products/gasgas-auxiliary-wiring-harness) |
 | GasGas Technical Accessories | Auxiliary Wiring Harness | 77711979044 | 31.68 GBP | [Lings](https://lings.com/products/gasgas-auxiliary-wiring-harness-2) |
 | GasGas Technical Accessories | Auxiliary Wiring Harness | 77711979010 | 8.10 GBP | [Lings](https://lings.com/products/gasgas-auxiliary-wiring-harness-1) |
+| GasGas Technical Accessories | Auxiliary Wiring Harness | 77711979000 | 14.46 GBP | [Lings](https://lings.com/products/gasgas-auxiliary-wiring-harness) |
 | GasGas Technical Accessories | BATTERY CHARGING AND TESTING UNIT | A61029974000 | 217.38 GBP | [Lings](https://lings.com/products/gasgas-battery-charging-and-testing-unit-2) |
 | GasGas Technical Accessories | BATTERY CHARGING AND TESTING UNIT | A61029974244 | 226.44 GBP | [Lings](https://lings.com/products/gasgas-battery-charging-and-testing-unit-1) |
 | GasGas Technical Accessories | BRAKE CALIPER SUPPORT | A46013975044 | 107.88 GBP | [Lings](https://lings.com/products/gasgas-brake-caliper-support-2) |
@@ -89,45 +89,45 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | GasGas Technical Accessories | Bleeder Valve | 79101900100 | 16.26 GBP | [Lings](https://lings.com/products/gasgas-bleeder-valve-1) |
 | GasGas Technical Accessories | Brake Caliper Protection | 77713975120 | 89.70 GBP | [Lings](https://lings.com/products/gasgas-brake-caliper-protection) |
 | GasGas Technical Accessories | Brake Disc Guard | 79109961000 | 68.04 GBP | [Lings](https://lings.com/products/gasgas-brake-disc-guard) |
-| GasGas Technical Accessories | Brake Pads | 59013930200 | 36.24 GBP | [Lings](https://lings.com/products/gasgas-brake-pads-3) |
 | GasGas Technical Accessories | Brake Pads | 54813990200 | 36.24 GBP | [Lings](https://lings.com/products/gasgas-brake-pads-1) |
-| GasGas Technical Accessories | Brake Pads | 54813990100 | 27.12 GBP | [Lings](https://lings.com/products/gasgas-brake-pads) |
+| GasGas Technical Accessories | Brake Pads | 59013930200 | 36.24 GBP | [Lings](https://lings.com/products/gasgas-brake-pads-3) |
 | GasGas Technical Accessories | Brake Pads | 59013930100 | 27.12 GBP | [Lings](https://lings.com/products/gasgas-brake-pads-2) |
+| GasGas Technical Accessories | Brake Pads | 54813990100 | 27.12 GBP | [Lings](https://lings.com/products/gasgas-brake-pads) |
 | GasGas Technical Accessories | C Spanner | 77719910100 | 27.12 GBP | [Lings](https://lings.com/products/gasgas-c-spanner) |
 | GasGas Technical Accessories | CLUTCH SLAVE CYLINDER PROTECTION | A46032975044FAA | 49.74 GBP | [Lings](https://lings.com/products/gasgas-clutch-slave-cylinder-protection-1) |
 | GasGas Technical Accessories | COMBINATION SWITCH | A46039974044 | 107.88 GBP | [Lings](https://lings.com/products/gasgas-combination-switch-1) |
 | GasGas Technical Accessories | CRASH BUNG KIT | A46010945000 | 40.74 GBP | [Lings](https://lings.com/products/gasgas-crash-bung-kit-2) |
-| GasGas Technical Accessories | Chain | 50310165118 | 77.04 GBP | [Lings](https://lings.com/products/gasgas-chain-1) |
 | GasGas Technical Accessories | Chain | 78910065118 | 92.10 GBP | [Lings](https://lings.com/products/gasgas-chain) |
+| GasGas Technical Accessories | Chain | 50310165118 | 77.04 GBP | [Lings](https://lings.com/products/gasgas-chain-1) |
 | GasGas Technical Accessories | Chain Breaker | 57929020000 | 48.12 GBP | [Lings](https://lings.com/products/gasgas-chain-breaker) |
 | GasGas Technical Accessories | Crash Bung Kit | A46009945000 | 45.30 GBP | [Lings](https://lings.com/products/gasgas-crash-bung-kit-1) |
 | GasGas Technical Accessories | DIRT SCRAPER | A49001997000 | 31.68 GBP | [Lings](https://lings.com/products/gasgas-dirt-scraper) |
 | GasGas Technical Accessories | ENGINE BRACE SET | A46003012044C1 | 67.92 GBP | [Lings](https://lings.com/products/gasgas-engine-brace-set) |
 | GasGas Technical Accessories | FACTORY FRONT WHEEL 1.6 X 21" | A46009901044FA | 406.86 GBP | [Lings](https://lings.com/products/gasgas-factory-front-wheel-1-6x21-1) |
-| GasGas Technical Accessories | FACTORY RACING CHAIN GUIDE | A46004970044 | 243.78 GBP | [Lings](https://lings.com/products/gasgas-factory-racing-chain-guide-2) |
 | GasGas Technical Accessories | FACTORY RACING CHAIN GUIDE | A39004970000FB | 117.78 GBP | [Lings](https://lings.com/products/gasgas-factory-racing-chain-guide-1) |
+| GasGas Technical Accessories | FACTORY RACING CHAIN GUIDE | A46004970044 | 243.78 GBP | [Lings](https://lings.com/products/gasgas-factory-racing-chain-guide-2) |
 | GasGas Technical Accessories | FACTORY RACING FRAME PROTECTION SET | A59003994000FB1 | 44.46 GBP | [Lings](https://lings.com/products/gasgas-factory-racing-frame-protection-set) |
 | GasGas Technical Accessories | FACTORY RACING FRONT WHEEL 1.6 X 21" | A46009901544C1A | 452.16 GBP | [Lings](https://lings.com/products/gasgas-factory-racing-front-wheel-1-6x21) |
 | GasGas Technical Accessories | FACTORY RACING OIL PUMP COVER | A48038904044FA | 27.12 GBP | [Lings](https://lings.com/products/gasgas-factory-racing-oil-pump-cover) |
 | GasGas Technical Accessories | FACTORY RACING REAR WHEEL 2.15 X 18" | A49010901544C1A | 542.76 GBP | [Lings](https://lings.com/products/gasgas-factory-racing-rear-wheel-2-15x18) |
 | GasGas Technical Accessories | FACTORY RACING REAR WHEEL 2.15 X 19" | A46010901544C1A | 542.76 GBP | [Lings](https://lings.com/products/gasgas-factory-racing-rear-wheel-2-15x19) |
 | GasGas Technical Accessories | FACTORY RACING SEAT COVER | A54107940050FBA | 65.22 GBP | [Lings](https://lings.com/products/gasgas-factory-racing-seat-cover-2) |
-| GasGas Technical Accessories | FACTORY RACING TRIPLE CLAMP | A46001999021C1A | 497.46 GBP | [Lings](https://lings.com/products/gasgas-factory-racing-triple-clamp-3) |
 | GasGas Technical Accessories | FACTORY RACING TRIPLE CLAMP | A46001999021FAA | 497.46 GBP | [Lings](https://lings.com/products/gasgas-factory-racing-triple-clamp-2) |
+| GasGas Technical Accessories | FACTORY RACING TRIPLE CLAMP | A46001999021C1A | 497.46 GBP | [Lings](https://lings.com/products/gasgas-factory-racing-triple-clamp-3) |
 | GasGas Technical Accessories | FACTORY REAR WHEEL 2.15 X 18" | A49010901044FA | 497.46 GBP | [Lings](https://lings.com/products/gasgas-factory-rear-wheel-2-15x18) |
 | GasGas Technical Accessories | FACTORY REAR WHEEL 2.15 X 19" | A46010901044FA | 497.46 GBP | [Lings](https://lings.com/products/gasgas-factory-rear-wheel-2-15x19) |
 | GasGas Technical Accessories | FACTORY SEAT | A59007040000FBA | 160.68 GBP | [Lings](https://lings.com/products/gasgas-factory-seat-2) |
 | GasGas Technical Accessories | FACTORY SEAT COVER | A59007040050FBA | 65.22 GBP | [Lings](https://lings.com/products/gasgas-factory-seat-cover) |
 | GasGas Technical Accessories | FACTORY SKID PLATE WITH LINKAGE PROTECTION | A46003990544 | 198.48 GBP | [Lings](https://lings.com/products/gasgas-factory-skid-plate-with-linkage-protection) |
 | GasGas Technical Accessories | FEELER GAUGE | 79129941100 | 18.12 GBP | [Lings](https://lings.com/products/gasgas-feeler-gauge-1) |
-| GasGas Technical Accessories | FENDER | A59008010000FB | 30.60 GBP | [Lings](https://lings.com/products/gasgas-fender-red) |
 | GasGas Technical Accessories | FENDER | A59008010000C1 | 36.24 GBP | [Lings](https://lings.com/products/gasgas-fender-black) |
+| GasGas Technical Accessories | FENDER | A59008010000FB | 30.60 GBP | [Lings](https://lings.com/products/gasgas-fender-red) |
 | GasGas Technical Accessories | FENDER | A59008010000AB | 36.24 GBP | [Lings](https://lings.com/products/gasgas-fender-white) |
 | GasGas Technical Accessories | FLAME BRAKE DISC | 78910960100 | 89.70 GBP | [Lings](https://lings.com/products/gasgas-flame-brake-disc-2) |
 | GasGas Technical Accessories | FORK PROTECTOR | A46001996000 | 26.34 GBP | [Lings](https://lings.com/products/gasgas-fork-protector-2) |
-| GasGas Technical Accessories | FORK PROTECTOR KIT | A46001094000C1 | 31.68 GBP | [Lings](https://lings.com/products/gasgas-fork-protector-kit-black) |
 | GasGas Technical Accessories | FORK PROTECTOR KIT | A46001094000FB | 29.64 GBP | [Lings](https://lings.com/products/gasgas-fork-protector-kit-red) |
 | GasGas Technical Accessories | FORK PROTECTOR KIT | A46001094000AB | 31.68 GBP | [Lings](https://lings.com/products/gasgas-fork-protector-kit-white) |
+| GasGas Technical Accessories | FORK PROTECTOR KIT | A46001094000C1 | 31.68 GBP | [Lings](https://lings.com/products/gasgas-fork-protector-kit-black) |
 | GasGas Technical Accessories | FRAME PROTECTION SET BLACK | A59003094000C1 | 31.68 GBP | [Lings](https://lings.com/products/gasgas-frame-protection-set-black) |
 | GasGas Technical Accessories | FRAME PROTECTION SET RED | A59003094000FB | 31.68 GBP | [Lings](https://lings.com/products/gasgas-frame-protection-set-red) |
 | GasGas Technical Accessories | FRAME PROTECTION STICKER SET | A44003994000FB | 22.62 GBP | [Lings](https://lings.com/products/gasgas-frame-protection-sticker-set-red) |
@@ -160,19 +160,19 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | GasGas Technical Accessories | HINSON Clutch Pressure Plate | 79432903000 | 261.90 GBP | [Lings](https://lings.com/products/gasgas-hinson-clutch-pressure-plate) |
 | GasGas Technical Accessories | HINSON-OUTER CLUTCH COVER | A59030926000 | 207.54 GBP | [Lings](https://lings.com/products/gasgas-hinson-outer-clutch-cover-2) |
 | GasGas Technical Accessories | Handguard Bushing Kit | 79702988044 | 18.12 GBP | [Lings](https://lings.com/products/gasgas-handguard-bushing-kit) |
-| GasGas Technical Accessories | Handguard Kit | 7970300000000 | 126.00 GBP | [Lings](https://lings.com/products/gasgas-handguard-kit-6) |
-| GasGas Technical Accessories | Handguard Kit | 60302179100AB | 58.92 GBP | [Lings](https://lings.com/products/gasgas-handguard-kit-1) |
-| GasGas Technical Accessories | Handguard Kit | 78002079200AB | 53.52 GBP | [Lings](https://lings.com/products/gasgas-handguard-kit) |
 | GasGas Technical Accessories | Handguard Kit | 79702979000FB1 | 126.00 GBP | [Lings](https://lings.com/products/gasgas-handguard-kit-4) |
 | GasGas Technical Accessories | Handguard Kit | 7800210000000 | 53.52 GBP | [Lings](https://lings.com/products/gasgas-handguard-kit-2) |
+| GasGas Technical Accessories | Handguard Kit | 78002079200AB | 53.52 GBP | [Lings](https://lings.com/products/gasgas-handguard-kit) |
 | GasGas Technical Accessories | Handguard Kit | 6030220000000 | 58.92 GBP | [Lings](https://lings.com/products/gasgas-handguard-kit-3) |
+| GasGas Technical Accessories | Handguard Kit | 60302179100AB | 58.92 GBP | [Lings](https://lings.com/products/gasgas-handguard-kit-1) |
 | GasGas Technical Accessories | Handguard Kit | 79702979000AB | 126.00 GBP | [Lings](https://lings.com/products/gasgas-handguard-kit-5) |
+| GasGas Technical Accessories | Handguard Kit | 7970300000000 | 126.00 GBP | [Lings](https://lings.com/products/gasgas-handguard-kit-6) |
 | GasGas Technical Accessories | Handlebar Ends | 54802005000FAA | 14.46 GBP | [Lings](https://lings.com/products/gasgas-handlebar-ends) |
 | GasGas Technical Accessories | Hourmeter | A54012920000 | 62.58 GBP | [Lings](https://lings.com/products/gasgas-hourmeter) |
 | GasGas Technical Accessories | INTAKE SNORKEL | A48006040044 | 27.13 GBP | [Lings](https://lings.com/products/gasgas-intake-snorkel) |
-| GasGas Technical Accessories | LOCK-ON GRIP SET | A46002921500BJ | 29.88 GBP | [Lings](https://lings.com/products/gasgas-lock-on-grip-set-3) |
-| GasGas Technical Accessories | LOCK-ON GRIP SET | A46002921500C1 | 27.12 GBP | [Lings](https://lings.com/products/gasgas-lock-on-grip-set-2) |
 | GasGas Technical Accessories | LOCK-ON GRIP SET | A46002921000BJ | 29.88 GBP | [Lings](https://lings.com/products/gasgas-lock-on-grip-set-4) |
+| GasGas Technical Accessories | LOCK-ON GRIP SET | A46002921500C1 | 27.12 GBP | [Lings](https://lings.com/products/gasgas-lock-on-grip-set-2) |
+| GasGas Technical Accessories | LOCK-ON GRIP SET | A46002921500BJ | 29.88 GBP | [Lings](https://lings.com/products/gasgas-lock-on-grip-set-3) |
 | GasGas Technical Accessories | LOWER SECTION OF THE AIR FILTER | A54106001000AB | 35.28 GBP | [Lings](https://lings.com/products/gasgas-lower-section-of-the-air-filter-white) |
 | GasGas Technical Accessories | LOWER SECTION OF THE AIR FILTER | A54106001000FB | 35.28 GBP | [Lings](https://lings.com/products/gasgas-lower-section-of-the-air-filter-red) |
 | GasGas Technical Accessories | LOWER SECTION OF THE AIR FILTER | A54106001000C1 | 35.28 GBP | [Lings](https://lings.com/products/gasgas-lower-section-of-the-air-filter-black) |
@@ -203,18 +203,18 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | GasGas Technical Accessories | Renthal GP Sprocket | A46010951044C1, A46010951045C1, A46010951046C1, A46010951047C1, A46010951048C1, A46010951049C1, A46010951050C1, A4601095 | 63.36 GBP | [Lings](https://lings.com/products/gasgas-renthal-gp-sprocket) |
 | GasGas Technical Accessories | Renthal Twinwall Handlebar | 79502901000C1 | 181.20 GBP | [Lings](https://lings.com/products/gasgas-renthal-twinwall-handlebar) |
 | GasGas Technical Accessories | SAG Scale | 29090200 | 49.86 GBP | [Lings](https://lings.com/products/gasgas-sag-scale) |
-| GasGas Technical Accessories | SEAT | A59007940000 | 135.06 GBP | [Lings](https://lings.com/products/gasgas-seat-2) |
-| GasGas Technical Accessories | SEAT | A59007940300 | 135.06 GBP | [Lings](https://lings.com/products/gasgas-seat-4) |
 | GasGas Technical Accessories | SEAT | A59007940200 | 135.06 GBP | [Lings](https://lings.com/products/gasgas-seat-3) |
+| GasGas Technical Accessories | SEAT | A59007940300 | 135.06 GBP | [Lings](https://lings.com/products/gasgas-seat-4) |
+| GasGas Technical Accessories | SEAT | A59007940000 | 135.06 GBP | [Lings](https://lings.com/products/gasgas-seat-2) |
 | GasGas Technical Accessories | SKID PLATE | A46003090044 | 77.04 GBP | [Lings](https://lings.com/products/gasgas-skid-plate-10) |
 | GasGas Technical Accessories | SKID PLATE WITH LINKAGE PROTECTION | A46003090544 | 89.70 GBP | [Lings](https://lings.com/products/gasgas-skid-plate-with-linkage-protection) |
 | GasGas Technical Accessories | SPACER SET | A46010916044 | 27.12 GBP | [Lings](https://lings.com/products/gasgas-spacer-set) |
+| GasGas Technical Accessories | SPOILER SET | A59008054000C1 | 58.92 GBP | [Lings](https://lings.com/products/gasgas-spoiler-set-black) |
 | GasGas Technical Accessories | SPOILER SET | A59008054000AB | 58.92 GBP | [Lings](https://lings.com/products/gasgas-spoiler-set-white) |
 | GasGas Technical Accessories | SPOILER SET | A59008054000FB | 58.92 GBP | [Lings](https://lings.com/products/gasgas-spoiler-set-red) |
-| GasGas Technical Accessories | SPOILER SET | A59008054000C1 | 58.92 GBP | [Lings](https://lings.com/products/gasgas-spoiler-set-black) |
 | GasGas Technical Accessories | START NUMBER PLATE | A54108007000FB | 25.92 GBP | [Lings](https://lings.com/products/gasgas-start-number-plate-red) |
-| GasGas Technical Accessories | START NUMBER PLATE | A54108007000AB | 25.92 GBP | [Lings](https://lings.com/products/gasgas-start-number-plate-white) |
 | GasGas Technical Accessories | START NUMBER PLATE | A54108007000C1 | 25.92 GBP | [Lings](https://lings.com/products/gasgas-start-number-plate-black) |
+| GasGas Technical Accessories | START NUMBER PLATE | A54108007000AB | 25.92 GBP | [Lings](https://lings.com/products/gasgas-start-number-plate-white) |
 | GasGas Technical Accessories | STEERING DAMPER KIT | A46002922044 | 452.16 GBP | [Lings](https://lings.com/products/gasgas-steering-damper-kit) |
 | GasGas Technical Accessories | SWINGARM PROTECTION | A46004946044 | 58.92 GBP | [Lings](https://lings.com/products/gasgas-swingarm-protection-1) |
 | GasGas Technical Accessories | Safety Wire | 54812016000 | 34.38 GBP | [Lings](https://lings.com/products/gasgas-safety-wire) |
@@ -243,10 +243,10 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | GasGas Technical Accessories | WHEEL RIM STICKER KIT | A54109998000 | 27.12 GBP | [Lings](https://lings.com/products/gasgas-wheel-rim-sticker-kit) |
 | GasGas Technical Accessories | Wave Brake Disc | 25010960000 | 89.70 GBP | [Lings](https://lings.com/products/gasgas-wave-brake-disc) |
 | GasGas Technical Accessories | Wire Pliers | 29015100 | 53.52 GBP | [Lings](https://lings.com/products/gasgas-wire-pliers) |
+| GasGas Technical Accessories | Wrap Around Handguard Kit | 79102979000FB1 | 58.92 GBP | [Lings](https://lings.com/products/gasgas-wrap-around-handguard-kit-3) |
+| GasGas Technical Accessories | Wrap Around Handguard Kit | 7910300000000 | 58.92 GBP | [Lings](https://lings.com/products/gasgas-wrap-around-handguard-kit-5) |
 | GasGas Technical Accessories | Wrap Around Handguard Kit | 79702984044 | 89.70 GBP | [Lings](https://lings.com/products/gasgas-wrap-around-handguard-kit-1) |
 | GasGas Technical Accessories | Wrap Around Handguard Kit | 79102979000AB | 58.92 GBP | [Lings](https://lings.com/products/gasgas-wrap-around-handguard-kit-4) |
-| GasGas Technical Accessories | Wrap Around Handguard Kit | 7910300000000 | 58.92 GBP | [Lings](https://lings.com/products/gasgas-wrap-around-handguard-kit-5) |
-| GasGas Technical Accessories | Wrap Around Handguard Kit | 79102979000FB1 | 58.92 GBP | [Lings](https://lings.com/products/gasgas-wrap-around-handguard-kit-3) |
 | GasGas Technical Accessories | Wrap Around Handguard Kit | 79102984000 | 53.52 GBP | [Lings](https://lings.com/products/gasgas-wrap-around-handguard-kit) |
 | GasGas Technical Accessories | X-Ring Chain | 78010267118 | 92.10 GBP | [Lings](https://lings.com/products/gasgas-x-ring-chain) |
 
@@ -298,7 +298,17 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Polisport | Polisport Front Disc Guard and Fork Protector Gas Gas / Husqvarna / KTM / Sherco 125cc-501cc | 8158500001, 8158500002, 8158500003, 8158500005 | 45.82 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-front-disc-guard-and-fork-protector-gas-gas-husqvarna-ktm-sherco-125cc-501cc) |
 | Polisport | Polisport Swingarm Protectors Gas Gas / Husqvarna / KTM 125cc-450cc 2023-2027 | 8499400001 | 43.20 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-swingarm-protectors-gas-gas-husqvarna-ktm-125cc-450cc-2023-2025) |
 
-### Brakes (45)
+### Body (5)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| D'COR Visuals | D'COR Visuals Gripper Seat Cover - Gas Gas | 30-65-001, 30-65-003, 30-65-004, 30-65-006, 30-65-101, 30-65-002, 30-65-102, 30-65-005 | 74.95 USD | [MotoSport](https://www.motosport.com/dcor-visuals-gripper-seat-cover-gas-gas) |
+| Factory Effex | Factory Effex RS1 Seat Cover - GasGas | 25-29720, 27-29730 | 56.69 USD | [MotoSport](https://www.motosport.com/factory-effex-rs1-seat-cover-gasgas) |
+| Polisport | Polisport Swingarm Protector | 8456500002, 8456500004, 8456600001, 8456800001, 8457000001, 8463400001, 8986000003-CL77, 8506200001, 8463400002, 8499400 | 30.99 USD | [MotoSport](https://www.motosport.com/polisport-swingarm-protector) |
+| Trail Tech | Trail Tech KTM OEM Replacement Kickstand | 5310-00, 5311-00 | 109.95 USD | [MotoSport](https://www.motosport.com/trail-tech-ktm-oem-replacement-kickstand) |
+| Turner Performance Products | Turner Performance Products Titanium Fork Guard Bolt Kit |  | 19.99 USD | [MotoSport](https://www.motosport.com/turner-performance-products-titanium-fork-guard-bolt-kit) |
+
+### Brakes (52)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
@@ -316,6 +326,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | DP Brakes | DP Brakes DP935 Sintered Rear Brake Pads | DP935 | 52.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/dp-brakes-dp935-sintered-rear-brake-pads) |
 | DP Brakes | DP Brakes SDP617 Pro MX Front Brake Pads  | SDP617 | 59.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/dp-brakes-sdp617-pro-mx-front-brake-pads) |
 | DP Brakes | DP Brakes SDP935 Pro MX Rear Brake Pads | SDP935 | 59.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/dp-brakes-sdp935-pro-mx-rear-brake-pads) |
+| EBC | EBC Extreme Pro Brake Pads | EPFA229HH, EPFA231HH, EPFA231HH, EPFA197HH, EPFA254HH, EPFA409HH, EPFA458HH, EPFA88HH, EPFA296HH, EPFA400HH, EPFA457HH,  | 92.63 USD | [MotoSport](https://www.motosport.com/ebc-extreme-pro-brake-pads) |
 | EBC Brakes | EBC D-Series Front Rotor KTM / Husqvarna / Gas Gas / Husaberg / Beta / Stark 125cc-530cc | MD6032D | 149.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/ebc-d-series-front-rotor-ktm-husqvarna-gas-gas-husaberg-beta-stark-125cc-530cc) |
 | EBC Brakes | EBC FA181R R Series Sintered Front Brake Pads | ebcFA181R-Front-Compound | 42.07 USD | [Cycle Gear](https://www.cyclegear.com/parts/ebc-ebc-fa181-r-r-series-sintered-front-brake-pads) |
 | EBC Brakes | EBC FA181X Carbon X Front Brake Pads | ebcFA181X-Front-Compound | 40.02 USD | [Cycle Gear](https://www.cyclegear.com/parts/ebc-ebc-fa181-x-carbon-x-front-brake-pads) |
@@ -326,12 +337,17 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Ferodo Brand | Ferodo FDB2018P Platinum Front Brake Pads | FDB2018P | 43.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/ferodo-fdb2018p-platinum-front-brake-pads) |
 | Ferodo Brand | Ferodo FDB2018SG SinterGrip Front Brake Pads | FDB2018SG | 51.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/ferodo-fdb2018sg-sintergrip-front-brake-pads) |
 | Ferodo Brand | Ferodo FDB2165SG SinterGrip Rear Brake Pads | FDB2165SG | 47.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/ferodo-fdb2165sg-sintergrip-rear-brake-pads) |
+| GasGas Technical Accessories | GasGas Technical Accessories Flame Front Brake Rotor | A46009960000 | 164.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-flame-front-brake-rotor) |
+| GasGas Technical Accessories | GasGas Technical Accessories Flame Front Brake Rotor Kit | 00010000384 | 285.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-flame-front-brake-rotor-kit) |
+| GasGas Technical Accessories | GasGas Technical Accessories Front Brake / Clutch Reservoir Cap | A54002933000FAA | 45.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-front-brake-clutch-reservoir-cap) |
+| GasGas Technical Accessories | GasGas Technical Accessories Rear Brake Reservoir Cap | A54013959000FAA | 40.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-rear-brake-reservoir-cap) |
 | GBrakes | GBrakes Front Floating Wave Rotor GBD9035X | GBD9035X | 182.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-front-floating-wave-rotor-gbd9035x) |
 | GBrakes | GBrakes Front Solid Mount Tsunami Wave Rotor GBD061 | GBD061 | 141.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-front-solid-mount-tsunami-wave-rotor-gbd061) |
 | GBrakes | GBrakes Front Solid Mount Wave Rotor GBD9026X / GBD9022X | GBD9022X, GBD9026X | 121.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-front-solid-mount-wave-rotor-gbd9026x) |
 | GBrakes | GBrakes HH Sintered Rear Brake Pads GB0565-76 | GB0565-76 | 41.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-hh-sintered-rear-brake-pads-gb0565-76) |
 | GBrakes | GBrakes Rear Solid Mount Wave Rotor GBD9024X | GBD9024X | 109.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-rear-solid-mount-wave-rotor-gbd9024x) |
 | GBrakes | GBrakes Semi-Metallic Rear Brake Pads GB0565-69 | GB0565-69 | 38.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-semi-metallic-rear-brake-pads-gb0565-69) |
+| Moose | Moose Brake Caliper Rebuild Kit | 08501M, 08503M-CL77, 08551M, 08601M, 08602M, 08702M, 08802M, 08803M, 08-506M, 08-805M, 08-806M, 18-3332, 18-3336, 08551M | 30.95 USD | [MotoSport](https://www.motosport.com/moose-brake-caliper-rebuild-kit) |
 | Moose Racing | Moose Racing RFX Front Rotor KTM / Husqvarna / Gas Gas / Husaberg / Stark 125cc-530cc | FXBD 50600 55NP | 127.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-rfx-front-rotor-ktm-husqvarna-gas-gas-husaberg-stark-125cc-530cc) |
 | Moose Racing | Moose Racing RFX Rear Rotor KTM / Husqvarna / Gas Gas / Stark / Husaberg 125cc-560cc 1991-2027 | FXBD 50605 55NP | 127.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-rfx-rear-rotor-ktm-husqvarna-gas-gas-stark-husaberg-125cc-560cc) |
 | Moose Racing | Moose Racing Solid Rear Rotor KTM / Husqvarna / Gas Gas / Stark / Husaberg 125cc-560cc 1991-2027 | 150-068S | 69.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-solid-rear-rotor-ktm-husqvarna-gas-gas-stark-husaberg-125cc-560cc-1991-2024) |
@@ -347,6 +363,46 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Pro X | Pro X Offroad Rear Brake Pads KTM 350cc 2012-2027 | 37.202302 | 30.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-x-offroad-rear-brake-pads-ktm-350cc-2012-2025) |
 | Renthal | Renthal RC-1 Works BP-107 Front Brake Pads | BP-107 | 50.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/renthal-rc-1-works-bp-107-front-brake-pads) |
 | Renthal | Renthal RC-1 Works BP-108 Rear Brake Pads | BP-108 | 50.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/renthal-rc-1-works-bp-108-rear-brake-pads) |
+| Turner Performance Products | Turner Performance Products Front Brake Disc Guard |  | 79.99 USD | [MotoSport](https://www.motosport.com/turner-performance-products-front-brake-disc-guard) |
+
+### Controls (16)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Acerbis | Acerbis Vented Linear Handguards - Limited Edition | 2987610026, 2987611254 | 48.99 USD | [MotoSport](https://www.motosport.com/acerbis-vented-linear-handguards-limited-edition) |
+| Bullet Proof Designs | Bullet Proof Designs Footpegs | BPD-FP-17-BLK, BPD-FP-23-BLK | 159.99 USD | [MotoSport](https://www.motosport.com/bullet-proof-designs-footpegs) |
+| Bullet Proof Designs | Bullet Proof Designs Rear Brake Lever/Pedal | BPD-RBL | 149.99 USD | [MotoSport](https://www.motosport.com/bullet-proof-designs-rear-brake-leverpedal) |
+| Bullet Proof Designs | Bullet Proof Designs Shift Lever | BPD-SL-23 | 119.95 USD | [MotoSport](https://www.motosport.com/bullet-proof-designs-shift-lever) |
+| Bullet Proof Designs | Bullet Proof Designs Throttle Housing | KTM-TH-23-BLK, KTM-TH-23-BLU, KTM-TH-23-ORG, KTM-TH-23-RED, KTM-TH-23-SIL | 159.99 USD | [MotoSport](https://www.motosport.com/bullet-proof-designs-throttle-housing) |
+| DRC | DRC Revolver Shift Lever | ZE90-3412, ZE90-3419, ZE90-3439 | 75.46 USD | [MotoSport](https://www.motosport.com/drc-revolver-shift-lever) |
+| Flo Motorsports | Flo Motorsports Lowering Footpegs | LOW-793-2S, LOW-793S, LOW-795-2S, LOW-795-4S | 199.95 USD | [MotoSport](https://www.motosport.com/flo-motorsports-lowering-footpegs) |
+| G2 Ergonomics | G2 Ergonomics Stock Ratio Aluminum Throttle Tube | 40-330, 40-350 | 29.95 USD | [MotoSport](https://www.motosport.com/g2-ergonomics-stock-ratio-aluminum-throttle-tube) |
+| GasGas Technical Accessories | GasGas Technical Accessories Brake Lever | A54013901044FAA | 91.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-brake-lever) |
+| GasGas Technical Accessories | GasGas Technical Accessories Handguard Kit | A54102979000AB, A49002979000AB, A54102979000C1, A49002979000C1, A54102979000FB, A49002979000FB | 59.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-handguard-kit) |
+| GasGas Technical Accessories | GasGas Technical Accessories Shift Lever Tip | 79434931044FA | 57.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-shift-lever-tip) |
+| Nihilo | Nihilo Bar Mounts | NBMYZ651, NBMYZ657, NBM78 | 74.99 USD | [MotoSport](https://www.motosport.com/nihilo-bar-mounts) |
+| Nihilo | Nihilo Start / Stop Button | NC2BCS, NC2BCS-TRIUM | 112.99 USD | [MotoSport](https://www.motosport.com/nihilo-start-stop-button) |
+| Ride Engineering | Ride Engineering Billet Compression Dials | KT-WP023-KT | 39.99 USD | [MotoSport](https://www.motosport.com/ride-engineering-billet-compression-dials) |
+| Ride Engineering | Ride Engineering Billet Engine Start/Stop Switch | MX-DS00B-AS | 98.99 USD | [MotoSport](https://www.motosport.com/ride-engineering-billet-engine-startstop-switch) |
+| Ride Engineering | Ride Engineering Lower Stabilizer Bracket | KT-SHLSB-03 | 26.95 USD | [MotoSport](https://www.motosport.com/ride-engineering-lower-stabilizer-bracket) |
+
+### Drive (13)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Acerbis | Acerbis Chain Guide Replacement Insert | 2284570001, 2688780001, 2983190001, 2284570036, 2983190003, 2983190004, 2983195226 | 22.99 USD | [MotoSport](https://www.motosport.com/acerbis-chain-guide-replacement-insert) |
+| Bullet Proof Designs | Bullet Proof Designs Rear Axle Blocks | KTM-AB-04-20MM-BLK, KTM-AB-04-20MM-BLU, HUQ-AB-14-20MM-BLU, KTM-AB-04-20MM-ORG, KTM-AB-13-25MM-BLK, HUQ-AB-14-25MM-BLK,  | 49.95 USD | [MotoSport](https://www.motosport.com/bullet-proof-designs-rear-axle-blocks) |
+| GasGas Technical Accessories | GasGas Technical Accessories Steel Rear Sprocket | 58210951042, 58210951045, 58210951048, 58210951049, 58210951050, 58210951051, 58210951052 | 43.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-steel-rear-sprocket) |
+| JT | JT Aluminum Rear Sprocket | JTA1308.42BLK, JTA1793.42BLK, JTA897.42BLK, JTA75.42BLK, JTA703.42BLK, JTA1308.43BLK, JTA478.43BLK, JTA486.43BLK, JTA75. | 27.32 USD | [MotoSport](https://www.motosport.com/jt-aluminum-rear-sprocket) |
+| KTM PowerParts | KTM PowerParts Supersprox 2K Rear Sprocket | 5841005103804, 5841005104004, 5841005104204, 5841005104404, 5841005104604, 5841005104804, 5841005104904, 5841005105004,  | 118.99 USD | [MotoSport](https://www.motosport.com/ktm-powerparts-supersprox-2k-rear-sprocket) |
+| Polisport | Polisport Chain Guide | 8433400002, 8499600002, 8451900001, 8451200001, 8435900001, 8451700001, 8433400001, 8452500001, 8494000001, 8499600001,  | 17.99 USD | [MotoSport](https://www.motosport.com/polisport-chain-guide) |
+| Pro Taper | Pro Taper Chain And Sprocket Kit | 023101, 033180, 033181, 033228, 033230, 033294, 033231, 033291, 033276, 033232, 033233, 033295, 033234, 033235, 033296,  | 146.01 USD | [MotoSport](https://www.motosport.com/pro-taper-chain-and-sprocket-kit) |
+| Pro Taper | Pro Taper Front Sprocket | 1323-14, 033343, 546-14 | 29.99 USD | [MotoSport](https://www.motosport.com/pro-taper-front-sprocket) |
+| Sunstar | Sunstar Steel Rear Sprocket | 2-100837, 2-142348, 2-143244, 2-301422, 2-312332, 2-312939, 2-345939, 2-334130, 2-334136, 2-367941, 2-367942, 2-354742,  | 43.94 USD | [MotoSport](https://www.motosport.com/sunstar-steel-rear-sprocket) |
+| Supersprox | Supersprox Aluminum Rear Sprocket | RAL-214-37-BLK, RAL-990-48-ORG, RAL-990-50-BLK, RAL-990-50-ORG, RAL-990-51-ORG | 62.96 USD | [MotoSport](https://www.motosport.com/supersprox-aluminum-rear-sprocket) |
+| Supersprox | Supersprox Stealth Rear Sprocket | RST-1306-42-GLD, RST-1800-42-GLD, RST-1306-43-GLD, RST-1334-43-GLD, RST-1800-43-GLD, RST-302-43-GLD, RST-488-43-GLD, RST | 107.96 USD | [MotoSport](https://www.motosport.com/supersprox-stealth-rear-sprocket) |
+| Supersprox | Supersprox Steel Rear Sprocket | RFE-1303-41-BLK, RFE-1308-41-BLK, RFE-1303-43-BLK, RFE-1308-43-BLK, RFE-486-43-BLK, RFE-1304-41-BLK, RFE-1489-41-BLK, RF | 40.46 USD | [MotoSport](https://www.motosport.com/supersprox-steel-rear-sprocket) |
+| TM Designworks | TM Designworks Factory Edition FX Rear Chain Guide | RCG-KT5-BK, RCG-BT3-BK, RCG-KT5-BL2, RCG-KT5-OR, RCG-KT5-RD, RCG-BT3-RD | 117.95 USD | [MotoSport](https://www.motosport.com/tm-designworks-factory-edition-fx-rear-chain-guide) |
 
 ### Drive & Transmission (18)
 
@@ -371,10 +427,36 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Works Connection | Works Connection Elite Axle Block Kit KTM / Husqvarna / Gas Gas 125cc-450cc 2022-2027 | 17-251, 17-256, 17-261, 17-264, 17-316 | 108.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-elite-axle-block-kit-ktm-husqvarna-125cc-450cc-2022-2023) |
 | Zeta | Zeta 3D Chain Guide Gas Gas 85cc-450cc 2024-2027 | ZE82-1412 | 137.26 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-3d-chain-guide-gas-gas-85cc-450cc-2024) |
 
-### Exhaust (5)
+### Engine (19)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
+| Athena | Athena Water Pump Gasket Kit | P400210470001, P400210470003, P400210470004, P400210470005, P400210470007, P400210470008, P400210470011, P400250470002,  | 36.99 USD | [MotoSport](https://www.motosport.com/athena-water-pump-gasket-kit) |
+| Bullet Proof Designs | Bullet Proof Designs Clutch Cover | 99-YZ2T-CC-BLK, BPD-CC-17-SIL, BPD-CC-23-SIL, 99-YZ2T-CC-SIL, BPD-CC-23-HCA, BPD-CC-17-HCN | 212.00 USD | [MotoSport](https://www.motosport.com/bullet-proof-designs-clutch-cover) |
+| Bullet Proof Designs | Bullet Proof Designs Oil Fill Cap | KTM-OFC-07-BLK, KTM-OFC-07-BLU, KTM-OFC-07-ORG | 19.99 USD | [MotoSport](https://www.motosport.com/bullet-proof-designs-oil-fill-cap) |
+| Flo Motorsports | Flo Motorsports High Flow Radiator Braces | FLO750BLK, FLO751BLK, FLO 753BLK, FLO750BLU, FLO751BLU, FLO756BLU, FLO750ORG, FLO751ORG | 299.95 USD | [MotoSport](https://www.motosport.com/flo-motorsports-high-flow-radiator-braces) |
+| GasGas Technical Accessories | GasGas Technical Accessories Digital Radiator Fan Kit | A46035941044, 55735941044, A49035941044 | 329.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-digital-radiator-fan-kit) |
+| GasGas Technical Accessories | GasGas Technical Accessories Enduro Engineering Radiator Guards | U7125850 | 179.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-enduro-engineering-radiator-guards) |
+| GasGas Technical Accessories | GasGas Technical Accessories Factory Oil Fill Plug | 79430920044FA | 22.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-factory-oil-fill-plug) |
+| Hammerhead Designs | Hammerhead Designs Oil Filler Plug | 33-0101-00-60, 33-0341-00-30, 33-0451-00-50, 33-0561-00-40, 33-0561-00-60, 33-0341-00-60 | 29.99 USD | [MotoSport](https://www.motosport.com/hammerhead-designs-oil-filler-plug) |
+| HP Tools | HP Tools Oil Drain Tool |  | 12.99 USD | [MotoSport](https://www.motosport.com/hp-tools-oil-drain-tool) |
+| Moose | Moose Clutch Cover Gasket | 09342094, 816046, 816061, 816102, 816132, 816135, 816167, 816202, 816217, 817009, 817565, 817679, 817680, 816227, 816230 | 6.99 USD | [MotoSport](https://www.motosport.com/moose-clutch-cover-gasket) |
+| Moose | Moose Inner Clutch Cover Gasket | 816029mse, 816083mse, 816382mse, 816385mse, 817243mse, 817248mse, 817267mse, 817449mse, 817472mse, 817479mse, 817491mse, | 10.90 USD | [MotoSport](https://www.motosport.com/moose-inner-clutch-cover-gasket) |
+| Nihilo | Nihilo Billet Clutch Cover | NCSC5013BLK, NCSC8518BLK, NCSCYZ65BLK, NCSC65BLK, NCSC12516BLK, NCSCYZ125BLK, NCCCBIGBIKE24BLK, NCSC25016BLK, NCSC45016B | 204.99 USD | [MotoSport](https://www.motosport.com/nihilo-billet-clutch-cover) |
+| Nihilo | Nihilo High Pressure 2.0 Bar Radiator Cap | NHPRC-23 | 34.99 USD | [MotoSport](https://www.motosport.com/nihilo-high-pressure-20-bar-radiator-cap) |
+| Nihilo | Nihilo Oil Fill Plug | NOFPBLK, NOFPBLU, NYZOFPBLU, NOFPORG, NOFPRED, NRM85OFPRED, NRM85OFPYLW | 22.99 USD | [MotoSport](https://www.motosport.com/nihilo-oil-fill-plug) |
+| Nihilo | Nihilo Oil Filter Cover | NOFILCKXF450BLK, NOFILC-BLK, NOFILCKXF450BLU, NOFILCKXF450GRN | 29.99 USD | [MotoSport](https://www.motosport.com/nihilo-oil-filter-cover) |
+| Rekluse | Rekluse Clutch Damper Kit | RMS-0207072, RMS-0213080 | 68.00 USD | [MotoSport](https://www.motosport.com/rekluse-clutch-damper-kit) |
+| Rekluse | Rekluse Slave Cylinder Guard | RMS-206D, RMS-210D, RMS-213, RMS-214, RMS-215, RMS-216, RMS-218, RMS-219, RMS-220, RMS-221, RMS-225, RMS-226, RMS-227 | 99.00 USD | [MotoSport](https://www.motosport.com/rekluse-slave-cylinder-guard) |
+| Rick's Motorsport Electrics | Rick's Motorsport Electrics Stator | 21-009, 21-0097, 21-169, 21-171, 21-432, 21-0094H, 21-0099H, 21-054, 21-051, 21-050, 21-053, 21-059, 21-628, 21-633, 21- | 179.95 USD | [MotoSport](https://www.motosport.com/ricks-motorsport-electrics-stator) |
+| Turner Performance Products | Turner Performance Products Clutch Slave Cylinder Guard |  | 39.99 USD | [MotoSport](https://www.motosport.com/turner-performance-products-clutch-slave-cylinder-guard) |
+
+### Exhaust (7)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Big Gun | Big Gun Exo R Series Slip on Exhaust | 19-32412, 19-11262, 19-14552, 19-32312, 19-42532 | 489.50 USD | [MotoSport](https://www.motosport.com/big-gun-exo-r-series-slip-on-exhaust) |
+| GasGas Technical Accessories | GasGas Technical Accessories Akrapovic Evolution Full System Exhaust | A48005900044, A46005900044, 79105900044 | 1364.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-akrapovic-evolution-full-system-exhaust) |
 | P3 | P3 Carbon Fiber MAXCoverage Heat Shield Gas Gas 450cc | 204005 | 169.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/p3-carbon-fiber-maxcoverage-heat-shield-gas-gas-450cc) |
 | Pro Circuit | Pro Circuit T-6 Slip-On Exhaust KTM / Husqvarna / Gas Gas 450cc 2022-2027 | 0152245A | 759.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-t-6-slip-on-exhaust-ktm-husqvarna-450cc-2022-2023) |
 | Pro Circuit | Pro Circuit Ti-6 Pro Titanium Exhaust System KTM / Husqvarna / Gas Gas 450cc 2022-2027 | 0352245FP | 1327.10 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-ti-6-pro-titanium-exhaust-system-ktm-husqvarna-450cc-2022-2023) |
@@ -394,11 +476,34 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | PC Racing | PC Racing FLO Stainless Steel Reusable Oil Filter KTM / Husqvarna / Gas Gas / Husaberg 250cc-701cc 2 | PC167 | 39.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/pc-racing-flo-stainless-steel-reusable-oil-filter-ktm-husqvarna-gas-gas-husaberg-250cc-701cc) |
 | Twin Air | Twin Air Oil Filter KTM / Husqvarna / Gas Gas / Husaberg 250cc-701cc 2008-2027 | 140019 | 12.30 USD | [Cycle Gear](https://www.cyclegear.com/parts/twin-air-oil-filter-ktm-husqvarna-gas-gas-husaberg-250cc-690c-2008-2026) |
 
+### Fuel System (6)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Acerbis | Acerbis Fuel Tank Filter | 2980470002, 2856870002, 2856880002 | 33.99 USD | [MotoSport](https://www.motosport.com/acerbis-fuel-tank-filter) |
+| All Balls | All Balls Quick Break O-Ring And Filter Kit | 47-3024 | 36.81 USD | [MotoSport](https://www.motosport.com/all-balls-quick-break-oring-and-filter-kit) |
+| Bullet Proof Designs | Bullet Proof Designs Fuel Pump Nipple Guard | BPD-FPG-23 | 39.00 USD | [MotoSport](https://www.motosport.com/bullet-proof-designs-fuel-pump-nipple-guard) |
+| Nihilo | Nihilo Fuel Pump Saver | NCFPS | 59.99 USD | [MotoSport](https://www.motosport.com/nihilo-fuel-pump-saver) |
+| Nihilo | Nihilo Fuel Transfer Pump | NCFTPK, NCFTPK-L | 199.99 USD | [MotoSport](https://www.motosport.com/nihilo-fuel-transfer-pump) |
+| Turner Performance Products | Turner Performance Products Quick Break O-Ring And Filter Kit |  | 36.81 USD | [MotoSport](https://www.motosport.com/turner-performance-products-quick-break-oring-and-filter-kit) |
+
 ### Gauges (1)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
 | Trail Tech | Trail Tech Striker Gauge Kit KTM / Husqvarna / Gas Gas 125cc-501cc 2019-2027 | 712-109 | 179.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/trail-tech-striker-gauge-kit-ktm-husqvarna-gas-gas-125cc-501cc-2019-2024) |
+
+### Graphics (7)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Factory Effex | Factory Effex 2025 Team Replica Complete Graphic Kit Rockstar GasGas | 28-09710, 28-09720, 28-09730, 28-09740, 28-09750 | 105.99 USD | [MotoSport](https://www.motosport.com/factory-effex-2025-team-replica-complete-graphic-kit-rockstar-gasgas) |
+| Factory Effex | Factory Effex EVO 21 Series Shroud Graphic Kit - GasGas | 28-01730, 28-02700, 28-02702, 28-02704, 28-02706, 28-02712, 28-02720, 28-02730, 28-02708 | 56.69 USD | [MotoSport](https://www.motosport.com/factory-effex-evo-21-series-shroud-graphic-kit-gasgas) |
+| MotoSport | MotoSport Complete Factor Series Graphics Kit - GasGas |  | 144.99 USD | [MotoSport](https://www.motosport.com/motosport-complete-factor-series-graphics-kit-gasgas) |
+| MotoSport | MotoSport Factory Series Backgrounds - GasGas |  | 59.99 USD | [MotoSport](https://www.motosport.com/motosport-factory-series-backgrounds-gasgas) |
+| MotoSport | MotoSport Racer Series Backgrounds - GasGas |  | 49.99 USD | [MotoSport](https://www.motosport.com/motosport-racer-series-backgrounds-gasgas) |
+| MotoSport | MotoSport Standard Series Backgrounds - GasGas |  | 39.99 USD | [MotoSport](https://www.motosport.com/motosport-standard-series-backgrounds-gasgas) |
+| Throttle Syndicate | Throttle Syndicate TLD Gas Gas Team Kit - 2023 | TS40-7018, TS40-7019, TS40-7020, TS40-7021, TS40-7022 | 119.99 USD | [MotoSport](https://www.motosport.com/throttle-syndicate-tld-gas-gas-team-kit-2023) |
 
 ### Handlebars & Controls (13)
 
@@ -418,29 +523,67 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Moose Racing | Moose Racing Forged Clutch Lever Husqvarna / Gas Gas 125cc-501cc 2022-2027 | H07-5942CS | 59.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-forged-clutch-lever-husqvarna-gas-gas-125cc-501cc-2022-2024) |
 | Polisport | Polisport APT Unbreakable Lever Kit KTM / Husqvarna / Sherco / Gas Gas / Triumph 125cc-450cc | 91575 | 41.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/polisport-apt-unbreakable-lever-kit-ktm-husqvarna-sherco-gas-gas-triumph-125cc-450cc) |
 
+### Lights And Electrical (3)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| GasGas Technical Accessories | GasGas Technical Accessories Ignition Curve Switch | A46039974044, 79039974144 | 195.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-ignition-curve-switch) |
+| Trail Tech | Trail Tech Voyager GPS Kit | 912-110, 912-113, 912-116, 912-117, 912-120, 912-121, 912-109 | 339.95 USD | [MotoSport](https://www.motosport.com/trail-tech-voyager-gps-kit) |
+| Trail Tech | Trail Tech Voyager Pro GPS Kit | 922-129, 922-127, 922-126, 922-128, 922-131 | 669.95 USD | [MotoSport](https://www.motosport.com/trail-tech-voyager-pro-gps-kit) |
+
 ### Seats (1)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
 | Factory Effex | Factory Effex Dual Grip Seat Cover Gas Gas 125cc-500cc 2023-2027 | 28-28702 | 79.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-effex-dual-grip-seat-cover-gas-gas-125cc-500cc-2023-2025) |
 
-### Suspension (11)
+### Skid Plates And Guards (5)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Bullet Proof Designs | Bullet Proof Designs Case Guard Sprocket Cover | BPD-C2-23-BLK, BPD-C2-23-BLU, BPD-C4-23-BLU, BPD-C2-23-ORG, BPD-C4-23-ORG | 49.00 USD | [MotoSport](https://www.motosport.com/bullet-proof-designs-case-guard-sprocket-cover) |
+| Bullet Proof Designs | Bullet Proof Designs Rear Brake Caliper Guard | BPD-BCG-04-BLK, BPD-BCG-04-BLU, BPD-BCG-04-ORG, BPD-BCG-04-SIL | 74.00 USD | [MotoSport](https://www.motosport.com/bullet-proof-designs-rear-brake-caliper-guard) |
+| E-Line | E-Line Extreme Front Disc Guard | UDG-B, SHTDG, UDG-S | 186.95 USD | [MotoSport](https://www.motosport.com/eline-extreme-front-disc-guard) |
+| GasGas Technical Accessories | GasGas Technical Accessories Front Brake Disc Guard | 79109961000, 79109961100 | 242.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-front-brake-disc-guard) |
+| P3 | P3 Carbon Solid Rear Brake Rotor Guard Kit | 501013, 501014 | 199.95 USD | [MotoSport](https://www.motosport.com/p3-carbon-solid-rear-brake-rotor-guard-kit) |
+
+### Suspension (25)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
 | AltRider | AltRider Variable Height Suspension Lowering Linkage KTM / Husqvarna / Gas Gas 125cc-501cc 2022-2027 | KT23-6-2202 | 271.37 USD | [Cycle Gear](https://www.cyclegear.com/parts/altrider-variable-height-suspension-lowering-linkage-ktm-husqvarna-gas-gas-125cc-501cc-2022-2025) |
+| Bullet Proof Designs | Bullet Proof Designs Linkage Guard | KTM-LG-17-BLK, KTM-LG-23-BLK, KTM-LG-17-ORG, KTM-LG-23-BLU, KTM-LG-23-SIL | 90.00 USD | [MotoSport](https://www.motosport.com/bullet-proof-designs-linkage-guard) |
 | Factory Links | Factory Links Linkage Bearing Kit KTM / Husqvarna / Gas Gas 125cc-450cc 2023-2024 | LRK-T-033 | 109.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-links-linkage-bearing-kit-ktm-husqvarna-gas-gas-125cc-450cc-2023-2024) |
 | Factory Links | Factory Links Lower Shock Bearing Kit KTM / Husqvarna / Gas Gas 125cc-450cc 2023-2024 | LSA-T-005 | 29.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-links-lower-shock-bearing-kit-ktm-husqvarna-gas-gas-125cc-450cc-2023-2024) |
 | Factory Links | Factory Links Steering Bearing Kit KTM / Husqvarna / Gas Gas 125cc-500cc 2023-2024 | SSK-T-070 | 50.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-links-steering-bearing-kit-ktm-husqvarna-gas-gas-125cc-500cc-2023-2024) |
+| Fastway | Fastway Pro Linkage Guard | 22-LG-200, 22-LGS-301BK, 22-LGS-500BK, 22-LGS-307BK, 22-LGS-308BK, 22-LGS-309BK, 22-LGS-301BL, 22-LGS-307BL, 22-LGS-308B | 305.50 USD | [MotoSport](https://www.motosport.com/fastway-pro-linkage-guard) |
+| GasGas Technical Accessories | GasGas Technical Accessories Adjuster Rebound | A46004925033 | 32.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-adjuster-rebound) |
+| GasGas Technical Accessories | GasGas Technical Accessories Bleeder Valve | 79101900100 | 21.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-bleeder-valve) |
+| GasGas Technical Accessories | GasGas Technical Accessories Dual Compression Control Adjuster | A46004925066 | 43.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-dual-compression-control-adjuster) |
+| GasGas Technical Accessories | GasGas Technical Accessories Factory Start Device | A54001996000FAA, A54001996500FAA | 145.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-factory-start-device) |
+| HP Tools | HP Tools Fork Cap Tool |  | 14.99 USD | [MotoSport](https://www.motosport.com/hp-tools-fork-cap-tool) |
+| Moose | Moose Linkage Bearing Kit | 271093, 271121, 271150, 27-1217 | 118.95 USD | [MotoSport](https://www.motosport.com/moose-linkage-bearing-kit) |
 | Moose Racing | Moose Racing Fork Seal / Wiper Kit KTM / Husqvarna / Gas Gas / Sherco 250cc-530cc 2014-2027 | 1.18888E+11 | 49.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-fork-seal-wiper-kit-ktm-husqvarna-gas-gas-sherco-250cc-530cc-2014-2022) |
 | Moose Racing | Moose Racing Shock Piston Bushing Kit KTM / Husqvarna / Gas Gas 125cc-501cc 2023-2027 | 13140862 | 19.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-shock-piston-bushing-kit-ktm-husqvarna-gas-gas-125cc-501cc-2023-2025) |
+| Pivot Works | Pivot Works Shock Bearing Kit - Rear | PWSHK-H40-000, PWSHK-S06-021, PWSHK-S24-400, PWSHK-Y20-000, PWSHK-Y21-000, PWSHK-Y22-040, PWSHK-Y23-000, PWSHK-S11-021,  | 73.99 USD | [MotoSport](https://www.motosport.com/pivot-works-shock-bearing-kit-rear) |
+| Pivot Works | Pivot Works Shock Repair Kit | PWSHR-H02-000, PWSHR-T03-000, PWSHR-T04-000, PWSHR-Y01-000, PWSHR-Y03-000, PWSHR-Y04-000, PWSHR-H03-000, PWSHR-H04-000,  | 105.00 USD | [MotoSport](https://www.motosport.com/pivot-works-shock-repair-kit) |
+| Ride Engineering | Ride Engineering Billet Shock Bottom Collar | KT-WPB23-BA, KT-WPB23-RA | 35.99 USD | [MotoSport](https://www.motosport.com/ride-engineering-billet-shock-bottom-collar) |
+| Ride Engineering | Ride Engineering Billet Shock Collar | KT-WP023-RA | 53.99 USD | [MotoSport](https://www.motosport.com/ride-engineering-billet-shock-collar) |
+| Ride Engineering | Ride Engineering WP XACT Lug Conversion Kit for KYB Fork Internals | KT-KYB00-KT | 149.95 USD | [MotoSport](https://www.motosport.com/ride-engineering-wp-xact-lug-conversion-kit-for-kyb-fork-internals) |
 | SKF | SKF Fork Mud Scraper Kit KTM / Husqvarna / Gas Gas / Sherco 125cc-530cc 2003-2027 | KIT-MS48WP | 41.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/skf-fork-mud-scraper-kit-ktm-husqvarna-gas-gas-sherco-125cc-530cc-2003-2022) |
 | Tamer | Tamer Fork Guard Bracket KTM / Husqvarna / Gas Gas | FGB-404 | 44.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/tamer-fork-guard-bracket-ktm-husqvarna-gas-gas) |
+| Turner Performance Products | Turner Performance Products Lower Right Leg Fork Guard |  | 39.99 USD | [MotoSport](https://www.motosport.com/turner-performance-products-lower-right-leg-fork-guard) |
 | Zeta | Zeta Lowering Link Gas Gas 125cc-450cc 2024-2027 | ZE56-05862 | 259.89 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-lowering-link-gas-gas-125cc-450cc-2024-2025-1) |
 | Zeta | Zeta Preload Adjuster Joint KTM / Husqvarna / Gas Gas 125cc-450cc 2023-2027 | ZE56-13070 | 58.36 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-preload-adjuster-joint-ktm-husqvarna-gas-gas-125cc-450cc-2023-2024) |
 | Zeta | Zeta WP Shock Gas Valve Xact Shock KTM / Husqvarna / Gas Gas 125cc-450cc 2023-2027 | ZE56-51001 | 77.30 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-wp-shock-gas-valve-xact-shock-ktm-husqvarna-gas-gas-125cc-450cc-2023-2025) |
 
-### Uncategorised (81)
+### Tires (1)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Maxtrax | Maxtrax MaxTrax Lite |  | 159.99 USD | [MotoSport](https://www.motosport.com/maxtrax-lite) |
+
+### Uncategorised (107)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
@@ -475,6 +618,31 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Flo Motorsports | Flo Motorsports Folding Tip Brake Pedal KTM / Husqvarna / Gas Gas 125cc-450cc 2023-2027 | MXBP-523 BLK, MXBP-523 BLU, MXBP-523 ORG, MXBP-523RED | 149.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-folding-tip-brake-pedal-ktm-husqvarna-gas-gas-125cc-450cc-2023-2024) |
 | Flo Motorsports | Flo Motorsports Shift Lever KTM / Husqvarna / Gas Gas 125cc-501cc 2012-2027 | SF-795BLK, SF-795BLU, SF-795ORG, SF-795R | 52.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-shift-lever-ktm-husqvarna-gas-gas-125cc-501cc-2012-2026) |
 | Flo Motorsports | Flo Motorsports Titanium Foot Pegs KTM / Husqvarna / Gas Gas 125cc-450cc 2023-2027 | TI-795-4JET | 346.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-titanium-foot-pegs-ktm-husqvarna-gas-gas-125cc-450cc-2023-2024) |
+| GasGas Technical Accessories | GasGas Technical Accessories Air Filter Rain Cover |  | 19.79 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-air-filter-rain-cover) |
+| GasGas Technical Accessories | GasGas Technical Accessories Air Filter Sand Cover |  | 22.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-air-filter-sand-cover) |
+| GasGas Technical Accessories | GasGas Technical Accessories Airbox Wash Cover |  | 20.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-airbox-wash-cover) |
+| GasGas Technical Accessories | GasGas Technical Accessories Akrapovic Racing Line Full System Exhaust |  | 1391.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-akrapovic-racing-line-full-system-exhaust) |
+| GasGas Technical Accessories | GasGas Technical Accessories Dust Cover For Air Filter |  | 17.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-dust-cover-for-air-filter) |
+| GasGas Technical Accessories | GasGas Technical Accessories Engine Brace Set |  | 86.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-engine-brace-set) |
+| GasGas Technical Accessories | GasGas Technical Accessories FMF Factory 4.1 RCT Muffler |  | 854.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-fmf-factory-41-rct-muffler) |
+| GasGas Technical Accessories | GasGas Technical Accessories FMF Megabomb Header |  | 474.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-fmf-megabomb-header) |
+| GasGas Technical Accessories | GasGas Technical Accessories FMF Powercore 4 Silencer |  | 449.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-fmf-powercore-4-silencer) |
+| GasGas Technical Accessories | GasGas Technical Accessories FMF Q4 Silencer |  | 499.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-fmf-q4-silencer) |
+| GasGas Technical Accessories | GasGas Technical Accessories Factory Racing Chain Guide |  | 290.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-factory-racing-chain-guide) |
+| GasGas Technical Accessories | GasGas Technical Accessories Factory Racing Seat |  | 197.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-factory-racing-seat) |
+| GasGas Technical Accessories | GasGas Technical Accessories Factory Racing Triple Clamp |  | 612.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-factory-racing-triple-clamp) |
+| GasGas Technical Accessories | GasGas Technical Accessories Factory Skid Plate |  | 98.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-factory-skid-plate) |
+| GasGas Technical Accessories | GasGas Technical Accessories Frame Protection Decals |  | 29.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-frame-protection-decals) |
+| GasGas Technical Accessories | GasGas Technical Accessories Frame Protectors |  | 40.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-frame-protectors) |
+| GasGas Technical Accessories | GasGas Technical Accessories High Seat |  | 164.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-high-seat) |
+| GasGas Technical Accessories | GasGas Technical Accessories Hinson Outer Clutch Cover |  | 257.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-hinson-outer-clutch-cover) |
+| GasGas Technical Accessories | GasGas Technical Accessories Lock-On Grips |  | 36.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-lockon-grips) |
+| GasGas Technical Accessories | GasGas Technical Accessories PHDS Handlebar Mounts |  | 283.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-phds-handlebar-mounts) |
+| GasGas Technical Accessories | GasGas Technical Accessories Radiator Cap |  | 21.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-radiator-cap) |
+| GasGas Technical Accessories | GasGas Technical Accessories Shock Pre-Load Adjuster |  | 207.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-shock-preload-adjuster) |
+| GasGas Technical Accessories | GasGas Technical Accessories Swing Arm Guard |  | 83.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-swing-arm-guard) |
+| GasGas Technical Accessories | GasGas Technical Accessories TM Designworks Chain Guide |  | 123.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-tm-designworks-chain-guide) |
+| GasGas Technical Accessories | GasGas Technical Accessories Tank Fuel Filter |  | 34.99 USD | [MotoSport](https://www.motosport.com/gasgas-technical-accessories-tank-fuel-filter) |
 | Guts | Guts Complete Ribbed Seat Gas Gas 125cc-450cc | 4168R21S21T21-CSM, 4168R29S21T21-CSM, 4168R29S29T29-CSM, 4178R21S21T21-CSM, 4178R29S21T21-CSM, 4178R29S29T29-CSM | 268.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/guts-complete-ribbed-seat-gas-gas-125cc-450cc) |
 | Guts | Guts Complete Seat Gas Gas 250cc-450cc | 4056-21-CSM, 4056-29-CSM, 4166-21-CSM, 4166-29-CSM, 4176-21-CSM, 4176-29-CSM | 268.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/guts-complete-seat-gas-gas-250cc-450cc) |
 | Hinson | Hinson Billetproof Clutch Cover KTM / Husqvarna / Gas Gas 250cc-450cc 2023-2027 | CA480-2301 | 179.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/hinson-billetproof-clutch-cover-ktm-husqvarna-gas-gas-250cc-450cc-2023-2024) |
@@ -514,6 +682,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Rekluse | Rekluse Left Hand Rear Brake Kit KTM / Sherco / Gas Gas / Husqvarna / Alta / Husaberg 125cc-570cc | RMS-5300002 | 529.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-left-hand-rear-brake-kit-ktm-sherco-gas-gas-husqvarna-alta-husaberg-125cc-570cc) |
 | Rekluse | Rekluse Standard Clutch Cover KTM / Husqvarna / Gas Gas 250cc-450cc 2022-2027 | RMS-385 | 229.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-standard-clutch-cover-ktm-husqvarna-250cc-450cc-2022-2023) |
 | RFX | RFX Magnetic Drain Bolt Husqvarna / Gas Gas 125cc-501cc | FXDB 50100 99BU, FXDB 50100 99RD | 12.49 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-magnetic-drain-bolt-husqvarna-gas-gas-125cc-501cc) |
+| Throttle Syndicate | Throttle Syndicate Gas Gas Shroud Kit |  | 69.99 USD | [MotoSport](https://www.motosport.com/throttle-syndicate-gas-gas-shroud-kit) |
 | Vertex | Vertex Clutch Cover Gasket Gas Gas / Husqvarna / KTM 250cc-501cc 2023-2025 | 819267 | 7.13 USD | [Cycle Gear](https://www.cyclegear.com/parts/vertex-clutch-cover-gasket-gas-gas-husqvarna-ktm-250cc-501cc-2023-2025) |
 | Vertex | Vertex Complete Gasket Set With Oil Seals KTM / Husqvarna / Gas Gas 450cc 2022-2025 | 8110065 | 170.48 USD | [Cycle Gear](https://www.cyclegear.com/parts/vertex-complete-gasket-set-with-oil-seals-ktm-husqvarna-gas-gas-450cc-2022-2025) |
 | Vertex | Vertex Water Pump Rebuild Kit KTM / Husqvarna / Gas Gas 450cc-501cc 2023-2025 | 821011 | 64.60 USD | [Cycle Gear](https://www.cyclegear.com/parts/vertex-water-pump-rebuild-kit-ktm-husqvarna-gas-gas-450cc-501cc-2023-2025) |
@@ -532,9 +701,22 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 |---|---|---|---|---|
 | Duraboost | Duraboost DBL5L Lithium Ion Battery | DBL5L | 127.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/duraboost-dbl5l-lithium-ion-battery) |
 
+### Wheels And Rims (2)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Pivot Works | Pivot Works Premium Wheel Bearing Kit | 25-1402-P, 25-1092-P, 25-1083-P, 25-1108-P | 44.99 USD | [MotoSport](https://www.motosport.com/pivot-works-premium-wheel-bearing-kit) |
+| Turner Performance Products | Turner Performance Products Rear Wheel Bearing Kit |  | 22.97 USD | [MotoSport](https://www.motosport.com/turner-performance-products-rear-wheel-bearing-kit) |
+
+### Winch And Plow (1)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Maxtrax | Maxtrax MKII Recovery Boards |  | 269.99 USD | [MotoSport](https://www.motosport.com/maxtrax-mkii-recovery-boards) |
+
 ## Universal retailer listings (counted only)
 
-Uncategorised 292, Handlebars & Controls 229, Chain & Sprocket 116, Exhaust 77, Air & Fuel 41, Lighting 32, Batteries & Electrical 30, Gauges 30, Utv / Atv Parts 29, Bike Protection 27, Suspension 25, Body & Fairing 7, Drive & Transmission 6, Filters 5, Brakes 2, Tire Accessories 1
+Controls 476, Lights And Electrical 383, Uncategorised 292, Handlebars & Controls 229, Tires 219, Tools And Maintenance 172, Body 171, Graphics 165, Exhaust 164, Engine 128, Chain & Sprocket 116, Drive 114, Suspension 108, Luggage And Racks 106, Brakes 72, Wheels And Rims 63, Vehicle Communication 60, Fuel System 57, Accessories 48, Air & Fuel 41, Lighting 32, Batteries & Electrical 30, Gauges 30, Utv / Atv Parts 29, Bike Protection 27, Skid Plates And Guards 19, Riding Gear 18, Farming And Hunting 13, Intake 7, Body & Fairing 7, Drive & Transmission 6, Filters 5, Helmets 3, Winch And Plow 2, Tire Accessories 1
 
-Top brands: Moose Racing 54, Acerbis 50, Pro Taper 50, Cycra 46, Zeta 45, Bolt Hardware 44, Renthal 44, ODI 37, Fire Power 35, Barkbusters 31, RFX 28, RK 26, Helix Racing Products 22, Polisport 22, K&N 21, Motion Pro 21, Factory Effex 21, FMF 17, Namz 15, EK Chain 15, Koso 14, DID Chain 14, Motolis 12, Trail Tech 10, BBR Motorsports 10
+Top brands: Acerbis 134, Motion Pro 111, Pro Taper 110, Rugged Radios 105, Cycra 103, Turner Performance Products 87, Renthal 82, ODI 80, Factory Effex 80, RAM Mounts 73, D'COR Visuals 65, Trail Tech 63, RFX 58, DRC 57, Fire Power 56, Bolt 55, Moose Racing 54, Quad Lock 53, SP Connect 51, Polisport 46, Kriega 45, Zeta 45, Bolt Hardware 44, KTM PowerParts 43, Namz Custom Cycle 40
 

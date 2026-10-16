@@ -116,7 +116,8 @@ Wrapped up at the owner's request so Triumph, Yamaha, Honda and Kawasaki can go 
 
 - Cycle Gear: complete (2026-10-15): every KTM / Husqvarna / GasGas bike-year with a Cycle Gear page, and every product page
   (manufacturer part number per style, category, fitment notes).
-- MotoSport: bike listings read for 2025-2027 (60 bike-years); 2020-2024 still to read (about 3 hours). Product pages
+- MotoSport: complete (2026-10-16): all 218 KTM / Husqvarna / GasGas bike-years read, 3,732 products, 3,679 product
+  pages (3,432 with manufacturer part numbers). Earlier note: listings for 2025-2027 were read first. Product pages
   read for 2,849 of 3,368 listings (shared with the other makes). The store's plain ride pages are not filtered by bike; the
   crawler selects the ride with the store's own mmy parameter (codes from its ride selector). Product pages (part number
   table) not read yet.
@@ -197,3 +198,9 @@ Touch and Dialed KYB conversions, Moose clamps).
 Not found or blocked: Mishimoto/Fluidyne/CV4 for 2020+ bikes; Arrow/Doma (no MX), LeoVince (enduro only), Bill's Pipes
 (minis only); Hot Cams/Web Cams/Kibblewhite for 2023+; Smart Performance, Cannon Racecraft, Tag, Emig, Neken (pre-2018 only),
 Applied; Regina, Iris, Talon, Tusk and Primary Drive kits; Galfer maker tables (redirect), Rocky Mountain (bot block).
+
+## Pass 2026-10-16: data items closed
+
+- MotoSport KTM family 2020-2024 finished (218 bike-years total); all five families re-converted with the new product pages.
+- Kawasaki 2026 KX250 / KX250X / KX450 / KX450X: 244 published facts loaded (docs/research/expansion/kawasaki/my2026/).
+- Tester baselines: 157 bike-years (10 more); most two-strokes have no published numeric setups.

@@ -1,6 +1,6 @@
 # Yamaha YZ250F 2027: aftermarket parts
 
-2548 listings whose stated fitment names this bike: 12 researched parts (with what they change and rider findings), 56 dealer and retailer listings specific to this bike, and 2480 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+2548 listings whose stated fitment names this bike: 12 researched parts (with what they change and rider findings), 52 dealer and retailer listings specific to this bike, and 2484 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -11,23 +11,22 @@
 | FMF | MegaBomb header - YZ250F | 044493, 044494 | FMF MegaBomb four-stroke header (resonance chamber 'bomb' near the port); used with FMF mid/muffler. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/titanium-megabomb-044494) | high |
 | FMF | Factory 4.1 RCT slip-on - YZ250F | 044497, 044498 | FMF: Resonance Chamber Technology inside and out, shorter length, muffler moved forward to centralize mass; claims 'massive' power gains across the rpm range and big weight savings; RTS quick-tuning. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/factory-4-1-rct-titanium-anodized-sl-slip-on-w-carbon-cap-044498) | high |
 | FMF | Factory 4.1 RCT full system - YZ250F | 044499, 044500 | FMF: Resonance Chamber Technology inside and out, shorter length, muffler moved forward to centralize mass; claims 'massive' power gains across the rpm range and big weight savings; RTS quick-tuning. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/stainless-steel-alum-fact-4-1-rct-w-r-carbon-cap-full-system-044499) | high |
-| Renthal | Ultralight Rear Sprocket | 150U-520 | 7075-T6 aluminium rear sprocket (Renthal Ultralight) - lighter than steel; change tooth count to re-gear (more teeth = shorter gearing, harder acceleration, lower top speed per gear). | Fitment from Renthal's own Fit My Bike application data (renthal.com/apps/fit-my-bike API). The 'OE-size listing' in each note is the specific SKU Renthal's loo | [Renthal (renthal.com UK store)](https://renthal.com/products/rear-sprocket-150u-520) | high |
-| Renthal | Twinring Rear Sprocket | 1500-520 | Two-piece rear sprocket (hard-anodised aluminium centre with steel tooth ring) - aimed at steel-like wear life with lower weight than an all-steel sprocket. | Fitment from Renthal's Fit My Bike application data (twinring field). Prices from renthal.com UK store (GBP). | [Renthal (renthal.com UK store)](https://renthal.com/products/twinring-1500-520) | high |
-| Renthal | Ultralight Front Sprockets | 289U-520 | Countershaft (front) sprocket. One tooth on the front changes overall ratio roughly as much as ~3-4 teeth on the rear (general gearing arithmetic, not a Renthal claim). | Fitment from Renthal's own Fit My Bike application data. 'U' groups are Renthal Ultralight fronts; '--' groups are standard steel fronts. Prices from renthal.co | [Renthal (renthal.com UK store)](https://renthal.com/products/front-sprocket-289u-520) | high |
-| Renthal | 520 R1 MX Chain | C119, C121, C124, C125, C126, C127, C128 | Renthal's non-sealed 520 works MX chain. Chains are sold by pitch and length (link count). | Per-bike link counts are the chain SKU Renthal's Fit My Bike data lists for that bike (oe_chain / r1_chain / r3_chain fields); link count changes with sprocket  | [Renthal (renthal.com UK store)](https://renthal.com/products/520-r1-mx-chain) | high |
-| Renthal | 520 R3-3 Off-Road Chain | C413, C414, C415, C416 | Renthal's sealed (SRS ring) 520 off-road chain - longer life between adjustments than a non-sealed MX chain. Chains are sold by pitch and length (link count). | Per-bike link counts are the chain SKU Renthal's Fit My Bike data lists for that bike (oe_chain / r1_chain / r3_chain fields); link count changes with sprocket  | [Renthal (renthal.com UK store)](https://renthal.com/products/offroad-chain-r3-3-520) | high |
 | Renthal | Front Sprocket | 289--520 | Countershaft (front) sprocket. One tooth on the front changes overall ratio roughly as much as ~3-4 teeth on the rear (general gearing arithmetic, not a Renthal claim). | Fitment from Renthal's own Fit My Bike application data. 'U' groups are Renthal Ultralight fronts; '--' groups are standard steel fronts. Prices from renthal.co | [Renthal (renthal.com UK store)](https://renthal.com/products/front-sprocket-289-520) | high |
+| Renthal | 520 R1 MX Chain | C119, C121, C124, C125, C126, C127, C128 | Renthal's non-sealed 520 works MX chain. Chains are sold by pitch and length (link count). | Per-bike link counts are the chain SKU Renthal's Fit My Bike data lists for that bike (oe_chain / r1_chain / r3_chain fields); link count changes with sprocket  | [Renthal (renthal.com UK store)](https://renthal.com/products/520-r1-mx-chain) | high |
+| Renthal | Ultralight Front Sprockets | 289U-520 | Countershaft (front) sprocket. One tooth on the front changes overall ratio roughly as much as ~3-4 teeth on the rear (general gearing arithmetic, not a Renthal claim). | Fitment from Renthal's own Fit My Bike application data. 'U' groups are Renthal Ultralight fronts; '--' groups are standard steel fronts. Prices from renthal.co | [Renthal (renthal.com UK store)](https://renthal.com/products/front-sprocket-289u-520) | high |
+| Renthal | Twinring Rear Sprocket | 1500-520 | Two-piece rear sprocket (hard-anodised aluminium centre with steel tooth ring) - aimed at steel-like wear life with lower weight than an all-steel sprocket. | Fitment from Renthal's Fit My Bike application data (twinring field). Prices from renthal.com UK store (GBP). | [Renthal (renthal.com UK store)](https://renthal.com/products/twinring-1500-520) | high |
+| Renthal | 520 R3-3 Off-Road Chain | C413, C414, C415, C416 | Renthal's sealed (SRS ring) 520 off-road chain - longer life between adjustments than a non-sealed MX chain. Chains are sold by pitch and length (link count). | Per-bike link counts are the chain SKU Renthal's Fit My Bike data lists for that bike (oe_chain / r1_chain / r3_chain fields); link count changes with sprocket  | [Renthal (renthal.com UK store)](https://renthal.com/products/offroad-chain-r3-3-520) | high |
+| Renthal | Ultralight Rear Sprocket | 150U-520 | 7075-T6 aluminium rear sprocket (Renthal Ultralight) - lighter than steel; change tooth count to re-gear (more teeth = shorter gearing, harder acceleration, lower top speed per gear). | Fitment from Renthal's own Fit My Bike application data (renthal.com/apps/fit-my-bike API). The 'OE-size listing' in each note is the specific SKU Renthal's loo | [Renthal (renthal.com UK store)](https://renthal.com/products/rear-sprocket-150u-520) | high |
 | Ride JBI | JBI Yamaha Pro Fork & Shock Revalves |  | Custom KYB revalve; send in. | 'YZF' may also cover FX/X models - not stated. | [Ride JBI](https://www.ridejbi.com/jbi-suspension-yamaha/) | high |
 
 ## Dealer and retailer listings for this bike
 
 Merged across sellers by brand and part number (or brand and name). Lings is a UK dealer (GBP prices, EU-market models).
 
-### Body (6)
+### Body (5)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
-| Acerbis | Acerbis MX Skid Plate | 2686035226, 2686590001, 2686030001, 2690690001, 2982500001, 2690690211, 2982500003, 2734920001, 2742671007 | 75.99 USD | [MotoSport](https://www.motosport.com/acerbis-mx-skid-plate) |
 | Acerbis | Acerbis Tank Cover - Yamaha | 2171791035, 2685907297, 2685907440, 2685907441, 2911500001, 2979520001, 2911500003, 2979520211, 2979520002, 2979527836 | 44.99 USD | [MotoSport](https://www.motosport.com/acerbis-tank-cover-yamaha) |
 | D'COR Visuals | D'COR Visuals Star Replica Gripper Seat Cover - Yamaha | 30-50-132, 30-50-480, 30-50-510, 30-50-144, 30-50-104, 30-50-455, 30-50-456, 30-50-462, 30-50-129, 30-50-485, 30-50-488, | 69.95 USD | [MotoSport](https://www.motosport.com/dcor-visuals-star-replica-gripper-seat-cover-yamaha) |
 | Factory Effex | Factory Effex RS1 Seat Cover - Yamaha | 18-29214, 18-29226, 18-29220, 18-29232, 18-29228, 25-29216, 26-29254 | 56.69 USD | [MotoSport](https://www.motosport.com/factory-effex-rs1-seat-cover-yamaha) |
@@ -55,15 +54,13 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | IMS | IMS Shift Lever | 312216, 312226, 312220, 312212, 315516, 313116, 313119, 313120, 315515, 317314, 312219, 312224, 313114, 317320, 312223,  | 54.95 USD | [MotoSport](https://www.motosport.com/ims-shift-lever) |
 | Ride Engineering | Ride Engineering Offset Bases | YZ-BMB06-00-CL77 | 27.77 USD | [MotoSport](https://www.motosport.com/ride-engineering-offset-bases) |
 
-### Drive (7)
+### Drive (5)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
 | Dirt Tricks | Dirt Tricks Rear Sprocket | CR85-53-420, CR85-55-420, HV-46, YZ-46 | 111.99 USD | [MotoSport](https://www.motosport.com/dirt-tricks-rear-sprocket) |
 | GYTR | GYTR Billet Offset Axle Blocks | 33D-F53M0-V0-00 | 49.99 USD | [MotoSport](https://www.motosport.com/gytr-billet-offset-axle-blocks) |
 | GYTR | GYTR Plastic Chain Guide | 17D-F21E0-V0-00, BHR-F21E0-V1-00 | 102.99 USD | [MotoSport](https://www.motosport.com/gytr-plastic-chain-guide) |
-| TM Designworks | TM Designworks Dirt Cross Multi-Purpose Chain Slide-N-Guide Kit | DCK-KT4-BL2, DCK-KT4-OR, DCK-ORK-OR, DCK-OR1-BK, DCK-OR2-BK, DCK-OR3-BK, DCK-OR4-BK, YCP-OR1-BK, DCK-KT3-BK, DCK-OR1-RD, | 189.95 USD | [MotoSport](https://www.motosport.com/tm-designworks-dirt-cross-multipurpose-chain-slidenguide-kit) |
-| TM Designworks | TM Designworks Dirt Cross Super Chain Slider | DCS-H10-BK, DCS-H15-BK, DCS-S20-BK, DCS-Y30-BK, DCS-Y40-BK, DCS-KT3-BK, DCS-H20-BK, DCS-KX85-BK, DCS-H35-BK, DCS-BT2-BK, | 65.95 USD | [MotoSport](https://www.motosport.com/tm-designworks-dirt-cross-super-chain-slider) |
 | TM Designworks | TM Designworks Factory Edition 1 Rear Chain Guide | RCG-HUQ-BK, RCG-YZ4-BK, RCG-RMZ-BK, RCG-HUQ-RD, RCG-KX2-GR, RCG-SMX-YL, RCG-RMZ-YL, RCG-YZ4-BU | 102.95 USD | [MotoSport](https://www.motosport.com/tm-designworks-factory-edition-1-rear-chain-guide) |
 | Vortex | Vortex Steel Rear Sprocket | 193AS-45, 245AS-45, 491AS-45, 193AS-46, 491AS-46, 193S-47, 247S-47, 526S-47, 435CS-47, 642CS-47, 195AS-44, 195AS-47, 203 | 54.36 USD | [MotoSport](https://www.motosport.com/vortex-steel-rear-sprocket) |
 
@@ -103,8 +100,8 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
-| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25448-50-00 | 82.83 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25448-50-00-sprocket) |
 | Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25452-50-00 | 87.07 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25452-50-00-sprocket) |
+| Yamaha Genuine Accessories | Sprocket / YZ125, YZ125X, YZ250, YZ250F, YZ250FX, YZ250X, YZ450F, YZ450FX | 17D-25448-50-00 | 82.83 USD | [Yamaha dealer](https://yamahaonlineparts.com/products/yamaha-17d-25448-50-00-sprocket) |
 
 ### Intake (4)
 
@@ -137,16 +134,15 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 |---|---|---|---|---|
 | GYTR | GYTR Two-Stage Foam Air Filter | GYT-4EW95-00-00, GYT-5TJ95-00-00, BHR-E41C0-V0-00, 2HC-E41C0-V0-00, B4B-E41C0-V0-00 | 32.99 USD | [MotoSport](https://www.motosport.com/gytr-twostage-foam-air-filter) |
 
-### Wheels And Rims (2)
+### Wheels And Rims (1)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
 | Hammerhead Designs | Hammerhead Designs Rear Wheel Spacers | 45-0562-00-20, 45-0221-00-20, 45-0561-00-20, 45-0562-00-40, 45-0562-00-60 | 35.99 USD | [MotoSport](https://www.motosport.com/hammerhead-designs-rear-wheel-spacers) |
-| Turner Performance Products | Turner Performance Products Front Wheel Bearing Kit |  | 14.99 USD | [MotoSport](https://www.motosport.com/turner-performance-products-front-wheel-bearing-kit) |
 
 ## Universal retailer listings (counted only)
 
-Controls 493, Lights And Electrical 381, Body 193, Tires 188, Tools And Maintenance 172, Graphics 164, Drive 122, Luggage And Racks 106, Engine 95, Exhaust 89, Suspension 83, Brakes 67, Wheels And Rims 66, Vehicle Communication 60, Fuel System 55, Accessories 48, Skid Plates And Guards 18, Riding Gear 18, Farming And Hunting 13, Chain & Sprocket 12, Handlebars & Controls 9, Uncategorised 8, Intake 7, Batteries & Electrical 6, Helmets 3, Winch And Plow 2, Utv / Atv Parts 1, Filters 1
+Controls 493, Lights And Electrical 381, Body 194, Tires 188, Tools And Maintenance 172, Graphics 164, Drive 124, Luggage And Racks 106, Engine 95, Exhaust 89, Suspension 83, Brakes 67, Wheels And Rims 67, Vehicle Communication 60, Fuel System 55, Accessories 48, Skid Plates And Guards 18, Riding Gear 18, Farming And Hunting 13, Chain & Sprocket 12, Handlebars & Controls 9, Uncategorised 8, Intake 7, Batteries & Electrical 6, Helmets 3, Winch And Plow 2, Filters 1, Utv / Atv Parts 1
 
-Top brands: Rugged Radios 105, Motion Pro 93, Acerbis 91, Turner Performance Products 89, RAM Mounts 72, Cycra 69, D'COR Visuals 65, Pro Taper 64, Factory Effex 60, Bolt 55, Quad Lock 53, Trail Tech 52, SP Connect 51, DRC 49, ODI 48, KTM PowerParts 43, Kriega 43, Namz Custom Cycle 40, Renthal 39, Ride Engineering 34, RFX 32, Giant Loop 32, Kenda 31, Husqvarna Technical Accessories 31, Shinko 30
+Top brands: Rugged Radios 105, Motion Pro 93, Acerbis 92, Turner Performance Products 90, RAM Mounts 72, Cycra 69, D'COR Visuals 65, Pro Taper 64, Factory Effex 60, Bolt 55, Quad Lock 53, Trail Tech 52, SP Connect 51, DRC 49, ODI 48, KTM PowerParts 43, Kriega 43, Namz Custom Cycle 40, Renthal 39, Ride Engineering 34, RFX 32, Giant Loop 32, Husqvarna Technical Accessories 31, Kenda 31, Shinko 30
 
