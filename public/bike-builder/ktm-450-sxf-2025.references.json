@@ -1,0 +1,3025 @@
+{
+  "schema_version": 1,
+  "target": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2025,
+    "variant": "standard",
+    "region": "US"
+  },
+  "status": "BLOCKOUT_NOT_OEM_VERIFIED",
+  "retrieved_at": "2026-10-16",
+  "source_inventory": "docs/research/parts/inventory.json",
+  "catalog_groups": 42,
+  "catalog_occurrences": 1167,
+  "dimensions": [
+    {
+      "id": "ktm25-owner-steering-angle",
+      "joint": "Steering head angle",
+      "property": "other",
+      "value": "63.9",
+      "unit": "degrees",
+      "conditions": [
+        "OEM angle convention; do not relabel as rake from vertical."
+      ],
+      "printed_page": 152,
+      "domain": "chassis",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained.",
+      "source": {
+        "url": "https://powaypowersports.com/cdn/shop/files/2025-ktm-450sx-f-factory-owners-manual.pdf?v=679135179847397228",
+        "sha256": "a24efdc2f908cc4c3764ee133bcdf6957b6caaebfee4587e847f3b2fe2456a33",
+        "revision": "3240045en / 2025-01-22",
+        "publisher": "KTM",
+        "host": "Poway Powersports",
+        "review_method": "Rendered PDF pages visually checked, including table columns, market headings and tolerance superscripts."
+      }
+    },
+    {
+      "id": "ktm25-owner-wheelbase",
+      "joint": "Wheelbase",
+      "property": "other",
+      "value": "1493 +/- 10",
+      "unit": "mm",
+      "conditions": [
+        "OEM technical table."
+      ],
+      "printed_page": 153,
+      "domain": "chassis",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained.",
+      "source": {
+        "url": "https://powaypowersports.com/cdn/shop/files/2025-ktm-450sx-f-factory-owners-manual.pdf?v=679135179847397228",
+        "sha256": "a24efdc2f908cc4c3764ee133bcdf6957b6caaebfee4587e847f3b2fe2456a33",
+        "revision": "3240045en / 2025-01-22",
+        "publisher": "KTM",
+        "host": "Poway Powersports",
+        "review_method": "Rendered PDF pages visually checked, including table columns, market headings and tolerance superscripts."
+      }
+    },
+    {
+      "id": "ktm25-owner-ground-clearance",
+      "joint": "Ground clearance",
+      "property": "other",
+      "value": "343",
+      "unit": "mm",
+      "conditions": [
+        "Unloaded."
+      ],
+      "printed_page": 153,
+      "domain": "chassis",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained.",
+      "source": {
+        "url": "https://powaypowersports.com/cdn/shop/files/2025-ktm-450sx-f-factory-owners-manual.pdf?v=679135179847397228",
+        "sha256": "a24efdc2f908cc4c3764ee133bcdf6957b6caaebfee4587e847f3b2fe2456a33",
+        "revision": "3240045en / 2025-01-22",
+        "publisher": "KTM",
+        "host": "Poway Powersports",
+        "review_method": "Rendered PDF pages visually checked, including table columns, market headings and tolerance superscripts."
+      }
+    },
+    {
+      "id": "ktm25-owner-seat-height",
+      "joint": "Seat height",
+      "property": "other",
+      "value": "958",
+      "unit": "mm",
+      "conditions": [
+        "Unloaded."
+      ],
+      "printed_page": 153,
+      "domain": "chassis",
+      "review_details": "Owner PDF rendered and visually checked; exact US standard model applicability retained.",
+      "source": {
+        "url": "https://powaypowersports.com/cdn/shop/files/2025-ktm-450sx-f-factory-owners-manual.pdf?v=679135179847397228",
+        "sha256": "a24efdc2f908cc4c3764ee133bcdf6957b6caaebfee4587e847f3b2fe2456a33",
+        "revision": "3240045en / 2025-01-22",
+        "publisher": "KTM",
+        "host": "Poway Powersports",
+        "review_method": "Rendered PDF pages visually checked, including table columns, market headings and tolerance superscripts."
+      }
+    }
+  ],
+  "components": [
+    {
+      "id": "frame",
+      "geometry_status": "ESTIMATED_NOT_VERIFIED",
+      "scope": "VISIBLE_EXTERIOR_ONLY",
+      "assemblies": [
+        {
+          "id": "ktm-450-2025:official-3",
+          "name": "FRAME",
+          "source": {
+            "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/70477?modelidentifier=1003417574&isEngine=False",
+            "locator": "Assembly catalog index; acquisition file ktm-450-2025.json"
+          }
+        }
+      ],
+      "reference_parts": [
+        {
+          "occurrence_id": "ktm-450-2025:row-75",
+          "part_number": "A46003001200C1",
+          "callout": "1",
+          "description": "Frame"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-76",
+          "part_number": "A46003002000",
+          "callout": "2",
+          "description": "Subframe"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-77",
+          "part_number": "79111013010",
+          "callout": "3",
+          "description": "Cover control head sheet"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-78",
+          "part_number": "09000008016U0",
+          "callout": "4",
+          "description": "Special screw M8x16 ISA45 self"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-79",
+          "part_number": "79003003000",
+          "callout": "5",
+          "description": "Special screw M8X18 TORX45 SL"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-80",
+          "part_number": "A4600301310001",
+          "callout": "6",
+          "description": "Engine brace left"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-81",
+          "part_number": "A4600301410001",
+          "callout": "7",
+          "description": "Engine brace right"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-82",
+          "part_number": "0035080206S",
+          "callout": "8",
+          "description": "SHCS M8x20 TX45"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-83",
+          "part_number": "A46007012100",
+          "callout": "9",
+          "description": "Fuel tank rubber"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-84",
+          "part_number": "A46003099020",
+          "callout": "10",
+          "description": "Cable bracket/throttle cable g"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-85",
+          "part_number": "0081050141",
+          "callout": "11",
+          "description": "EJOT PT screw K50x14"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-86",
+          "part_number": "A49003099030",
+          "callout": "12",
+          "description": "Cable protection"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-87",
+          "part_number": "59003013000",
+          "callout": "15",
+          "description": "Enginebrac. screw M10X123 WS=1"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-88",
+          "part_number": "A46003053000",
+          "callout": "16",
+          "description": "Chain slider below"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-89",
+          "part_number": "0025080206",
+          "callout": "18",
+          "description": "HH collar screw M8x20"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-90",
+          "part_number": "0025060456",
+          "callout": "19",
+          "description": "HH COLLAR SCREW M6X45 TX30"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-91",
+          "part_number": "A46003140000",
+          "callout": "21",
+          "description": "Footpeg left"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-92",
+          "part_number": "A46003141000",
+          "callout": "22",
+          "description": "Footpeg right"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-93",
+          "part_number": "0125100003",
+          "callout": "23",
+          "description": "washer DIN 125 A 10.5"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-94",
+          "part_number": "A46003045000",
+          "callout": "24",
+          "description": "Footrest spring right"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-95",
+          "part_number": "54803044000",
+          "callout": "25",
+          "description": "PIN FOR FOOT PED 51.5X9.8 MM"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-96",
+          "part_number": "A46003044000",
+          "callout": "26",
+          "description": "Footrest spring left"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-97",
+          "part_number": "0094032253",
+          "callout": "27",
+          "description": "PIN DIN0094-3,2X25 STEEL"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-98",
+          "part_number": "A46003137033",
+          "callout": "28",
+          "description": "Footpeg set"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-99",
+          "part_number": "0025050106",
+          "callout": "29",
+          "description": "HH collar screw M5x10 TX30"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-100",
+          "part_number": "54803092060",
+          "callout": "30",
+          "description": "Bush f. frame protection 03"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-101",
+          "part_number": "44011076200",
+          "callout": "31",
+          "description": "Cable tie 200/4.6mm black"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-102",
+          "part_number": "44011076140",
+          "callout": "32",
+          "description": "CABLE TIE 140/2,5MM BLACK"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-103",
+          "part_number": "A46003094000C1",
+          "callout": "33",
+          "description": "Frame protection set"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-104",
+          "part_number": "A46003099010",
+          "callout": "35",
+          "description": "Cable bracket"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-105",
+          "part_number": "79107013010",
+          "callout": "36",
+          "description": "wire holder / fuel ventilation"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-106",
+          "part_number": "79711013010",
+          "callout": "37",
+          "description": "Cable bracket d8"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-107",
+          "part_number": "0025080206",
+          "callout": "38",
+          "description": "HH collar screw M8x20"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-108",
+          "part_number": "A46003096000",
+          "callout": "39",
+          "description": "Front sprocket cover"
+        }
+      ],
+      "note": "Assembly membership is a modeling reference; not every catalog row is visible or installed."
+    },
+    {
+      "id": "engine",
+      "geometry_status": "ESTIMATED_NOT_VERIFIED",
+      "scope": "VISIBLE_EXTERIOR_ONLY",
+      "assemblies": [
+        {
+          "id": "ktm-450-2025:official-23",
+          "name": "ENGINE CASE",
+          "source": {
+            "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/58123?modelidentifier=1003417574&isEngine=True",
+            "locator": "Assembly catalog index; acquisition file ktm-450-2025.json"
+          }
+        },
+        {
+          "id": "ktm-450-2025:official-24",
+          "name": "CLUTCH COVER",
+          "source": {
+            "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/58153?modelidentifier=1003417574&isEngine=True",
+            "locator": "Assembly catalog index; acquisition file ktm-450-2025.json"
+          }
+        },
+        {
+          "id": "ktm-450-2025:official-26",
+          "name": "CYLINDER",
+          "source": {
+            "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/58161?modelidentifier=1003417574&isEngine=True",
+            "locator": "Assembly catalog index; acquisition file ktm-450-2025.json"
+          }
+        },
+        {
+          "id": "ktm-450-2025:official-37",
+          "name": "CYLINDER HEAD",
+          "source": {
+            "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/58190?modelidentifier=1003417574&isEngine=True",
+            "locator": "Assembly catalog index; acquisition file ktm-450-2025.json"
+          }
+        },
+        {
+          "id": "ktm-450-2025:official-39",
+          "name": "IGNITION SYSTEM",
+          "source": {
+            "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/58188?modelidentifier=1003417574&isEngine=True",
+            "locator": "Assembly catalog index; acquisition file ktm-450-2025.json"
+          }
+        }
+      ],
+      "reference_parts": [
+        {
+          "occurrence_id": "ktm-450-2025:row-793",
+          "part_number": "A48030000044",
+          "callout": "1",
+          "description": "engine case cpl."
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-794",
+          "part_number": "60030063070",
+          "callout": "3",
+          "description": "oil jet 70 M5"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-795",
+          "part_number": "58030010200",
+          "callout": "4",
+          "description": "SCREW IN NOZZLE M20X1,5"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-796",
+          "part_number": "79230010000",
+          "callout": "5",
+          "description": "Housing bush"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-797",
+          "part_number": "54830027100",
+          "callout": "6",
+          "description": "Dowel, 21x12"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-798",
+          "part_number": "59030023100",
+          "callout": "7",
+          "description": "Dowel, 6x8x11.5"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-799",
+          "part_number": "54630027000",
+          "callout": "8",
+          "description": "DOWEL BUSHING 13,8X11X12"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-800",
+          "part_number": "0770035020",
+          "callout": "9",
+          "description": "O-RING 3,5X2,00 NBR"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-801",
+          "part_number": "81230064000",
+          "callout": "10",
+          "description": "OIL JET ANGLED 70"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-802",
+          "part_number": "0912040103S",
+          "callout": "11",
+          "description": "Cylinder screw DIN 912-M4x10-8"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-803",
+          "part_number": "58038022000",
+          "callout": "12",
+          "description": "CU-seal ring DIN7603-12X18X1.5"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-804",
+          "part_number": "58030021100",
+          "callout": "13",
+          "description": "oildrain plug with magnet"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-805",
+          "part_number": "0906100100",
+          "callout": "14",
+          "description": "pipe plug DIN 906 M10x1"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-806",
+          "part_number": "59030296000",
+          "callout": "15",
+          "description": "SCREW PLUG"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-807",
+          "part_number": "0019050121S",
+          "callout": "18",
+          "description": "INT. TORX FLAT HEAD M5X12 T25"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-808",
+          "part_number": "75030085100",
+          "callout": "19",
+          "description": "Retaining bracket crankshaft b"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-809",
+          "part_number": "0025060656",
+          "callout": "20",
+          "description": "HH COLLAR SCREW M6X65 TX30"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-810",
+          "part_number": "0025060806",
+          "callout": "22",
+          "description": "HH COLLAR SCREW M6X80 TX30"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-811",
+          "part_number": "59030058000",
+          "callout": "24",
+          "description": "JET 100 BING(44-031/180) M4"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-812",
+          "part_number": "A48030099000",
+          "callout": "99",
+          "description": "engine gasket kit MX 450"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-813",
+          "part_number": "A48030001044",
+          "callout": "1",
+          "description": "clutch cover cpl."
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-814",
+          "part_number": "A48030026000C1",
+          "callout": "2",
+          "description": "Clutch cover outside"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-815",
+          "part_number": "A48030027000",
+          "callout": "3",
+          "description": "Clutch cover gasket external"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-816",
+          "part_number": "A48030025000",
+          "callout": "4",
+          "description": "Inner clutch cover gasket"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-817",
+          "part_number": "59030019200",
+          "callout": "5",
+          "description": "OIL SIGHT GLASS"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-818",
+          "part_number": "61030019050",
+          "callout": "6",
+          "description": "CIRCLIP OIL LEVEL GLASS 03"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-819",
+          "part_number": "0760142460",
+          "callout": "7",
+          "description": "radial shaft seal 14x24x6 B"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-820",
+          "part_number": "0472024120",
+          "callout": "8",
+          "description": "CIRCLIP DIN0472-24X1.2"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-821",
+          "part_number": "0760123073",
+          "callout": "9",
+          "description": "SHAFT SEAL RING 12X30X7 PTFE"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-822",
+          "part_number": "79430057010",
+          "callout": "10",
+          "description": "FRICTION BEAR. BUSH BALANC.SH."
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-823",
+          "part_number": "79430020033",
+          "callout": "11",
+          "description": "Oil filler cap cmpl. M24x3"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-824",
+          "part_number": "0770191015",
+          "callout": "12",
+          "description": "O-RING 19,00X3,00 NBR"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-825",
+          "part_number": "0603082131",
+          "callout": "13",
+          "description": "COPPER Gask.DIN7603- 8.2X13X1"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-826",
+          "part_number": "0000150802000",
+          "callout": "14",
+          "description": "Screw, M8x20 SW=8 8.8"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-827",
+          "part_number": "0603061001",
+          "callout": "16",
+          "description": "CU-SEAL RING DIN7603-6X10X1"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-828",
+          "part_number": "0402040980",
+          "callout": "17",
+          "description": "Needle roll.DIN5402 NRB 4X9.8"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-829",
+          "part_number": "59030296000",
+          "callout": "18",
+          "description": "SCREW PLUG"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-830",
+          "part_number": "0025060206S",
+          "callout": "19",
+          "description": "HH collar screw M6x20 TX30"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-831",
+          "part_number": "0025060256",
+          "callout": "20",
+          "description": "HH collar screw M6x25 TX30"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-832",
+          "part_number": "0025060206",
+          "callout": "22",
+          "description": "HH collar screw M6x20 TX30"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-833",
+          "part_number": "0025060456",
+          "callout": "23",
+          "description": "HH COLLAR SCREW M6X45 TX30"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-834",
+          "part_number": "0025060556",
+          "callout": "24",
+          "description": "HH collar screw M6x55 TX30"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-838",
+          "part_number": "A48030038000",
+          "callout": "1",
+          "description": "cylinder & piston"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-839",
+          "part_number": "0402050980",
+          "callout": "2",
+          "description": "needle roller DIN 5402 5x9.8"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-840",
+          "part_number": "79430035000",
+          "callout": "3",
+          "description": "CYLINDER BASE GASKET"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-841",
+          "part_number": "58530014100",
+          "callout": "4",
+          "description": "dowl sleeve 10.2x12.5x10"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1056",
+          "part_number": "A48036020044",
+          "callout": "1",
+          "description": "cylinder head cpl."
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1057",
+          "part_number": "79430036010",
+          "callout": "2",
+          "description": "CYLINDER HEAD GASKET (DN95)"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1058",
+          "part_number": "A48036052000C1",
+          "callout": "3",
+          "description": "Valve cover"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1059",
+          "part_number": "A48036053000",
+          "callout": "4",
+          "description": "Valve cover seal"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1060",
+          "part_number": "79136054000",
+          "callout": "5",
+          "description": "Valve cover screw"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1061",
+          "part_number": "79136054050",
+          "callout": "6",
+          "description": "Rubber seal for collar screw"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1062",
+          "part_number": "79536044000",
+          "callout": "7",
+          "description": "rubber sleeve"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1063",
+          "part_number": "0025060166S",
+          "callout": "8",
+          "description": "HH collar screw M6x16 TX30 SL"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1064",
+          "part_number": "78136139100",
+          "callout": "9",
+          "description": "Exhaust system flange"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1065",
+          "part_number": "79536041000",
+          "callout": "10",
+          "description": "Exhaust gasket"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1066",
+          "part_number": "58030010200",
+          "callout": "11",
+          "description": "SCREW IN NOZZLE M20X1,5"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1067",
+          "part_number": "79536053150",
+          "callout": "12",
+          "description": "valve cover gasket"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1068",
+          "part_number": "60030063070",
+          "callout": "14",
+          "description": "oil jet 70 M5"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1069",
+          "part_number": "79536025001",
+          "callout": "16",
+          "description": "Valve Guide intake"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1070",
+          "part_number": "79530044000",
+          "callout": "17",
+          "description": "Cylinder head bolt"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1071",
+          "part_number": "77336089010",
+          "callout": "18",
+          "description": "washer 19x10.5x2.5"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1072",
+          "part_number": "0025060756",
+          "callout": "19",
+          "description": "HH COLLAR SCREW M6X75 TX30"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1073",
+          "part_number": "59030296000",
+          "callout": "20",
+          "description": "SCREW PLUG"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1074",
+          "part_number": "61036047000",
+          "callout": "24",
+          "description": "Hose clamp GEMI 63mm 05"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1075",
+          "part_number": "77236048000",
+          "callout": "25",
+          "description": "Hose clip GEMI 58"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1076",
+          "part_number": "79435047000",
+          "callout": "27",
+          "description": "water temperature sensor"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1077",
+          "part_number": "58431082300",
+          "callout": "28",
+          "description": "CLAMP YDNAC 10173 (18MM)"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1078",
+          "part_number": "79030087000",
+          "callout": "29",
+          "description": "Engine vent hose"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1079",
+          "part_number": "A48030097000",
+          "callout": "99",
+          "description": "gasket kit cylinder MX 450"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1117",
+          "part_number": "A48030002000C1",
+          "callout": "1",
+          "description": "Ignition cover"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1118",
+          "part_number": "A48030040000",
+          "callout": "2",
+          "description": "Ignition cover gasket"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1119",
+          "part_number": "0402040980",
+          "callout": "3",
+          "description": "Needle roll.DIN5402 NRB 4X9.8"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1120",
+          "part_number": "79239004200",
+          "callout": "4",
+          "description": "Stator"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1121",
+          "part_number": "0012050253S",
+          "callout": "5",
+          "description": "Bolt DIN 6912 - M5x25 SS"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1122",
+          "part_number": "77339010100",
+          "callout": "6",
+          "description": "FLYWHEEL SCREW"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1123",
+          "part_number": "79439005100",
+          "callout": "8",
+          "description": "Rotor"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1124",
+          "part_number": "0888030037",
+          "callout": "9",
+          "description": "WOODRUFF KEY DIN6888-3X3,7"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1125",
+          "part_number": "A46030002050",
+          "callout": "10",
+          "description": "Cable retainer"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1126",
+          "part_number": "0912050163S",
+          "callout": "11",
+          "description": "Cap head screw DIN912 - M5x16"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1127",
+          "part_number": "79539090000",
+          "callout": "12",
+          "description": "Spark plug connector"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1128",
+          "part_number": "77839093000",
+          "callout": "13",
+          "description": "spark plug"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1129",
+          "part_number": "58439006000",
+          "callout": "14",
+          "description": "Ignition coil"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1130",
+          "part_number": "0025060206",
+          "callout": "15",
+          "description": "HH collar screw M6x20 TX30"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1131",
+          "part_number": "0025060256",
+          "callout": "16",
+          "description": "HH collar screw M6x25 TX30"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1132",
+          "part_number": "0603061001",
+          "callout": "17",
+          "description": "CU-SEAL RING DIN7603-6X10X1"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1133",
+          "part_number": "07700240251",
+          "callout": "18",
+          "description": "o-ring 24.00x2.50 Viton"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1134",
+          "part_number": "7723000216030",
+          "callout": "19",
+          "description": "SCREW PLUG M24X1,5"
+        }
+      ],
+      "note": "Assembly membership is a modeling reference; not every catalog row is visible or installed."
+    },
+    {
+      "id": "front-wheel",
+      "geometry_status": "ESTIMATED_NOT_VERIFIED",
+      "scope": "VISIBLE_EXTERIOR_ONLY",
+      "assemblies": [
+        {
+          "id": "ktm-450-2025:official-14",
+          "name": "FRONT WHEEL",
+          "source": {
+            "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/59849?modelidentifier=1003417574&isEngine=False",
+            "locator": "Assembly catalog index; acquisition file ktm-450-2025.json"
+          }
+        },
+        {
+          "id": "ktm-450-2025:official-19",
+          "name": "FRONT BRAKE CALIPER",
+          "source": {
+            "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/10680?modelidentifier=1003417574&isEngine=False",
+            "locator": "Assembly catalog index; acquisition file ktm-450-2025.json"
+          }
+        }
+      ],
+      "reference_parts": [
+        {
+          "occurrence_id": "ktm-450-2025:row-254",
+          "part_number": "7900900144430",
+          "callout": "1",
+          "description": "FRONT WHEEL CMPL. 1.6X21''EXCE"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-255",
+          "part_number": "77709010144",
+          "callout": "2",
+          "description": "FRONT WHEEL HUB CPL."
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-256",
+          "part_number": "54809011000",
+          "callout": "3",
+          "description": "BEA.SPACERTUBE 35X2 L=79,4 03"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-257",
+          "part_number": "0625069068",
+          "callout": "4",
+          "description": "Grooved ball bearing 6906"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-258",
+          "part_number": "77709015000",
+          "callout": "5",
+          "description": "wheel bearing repair kit"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-259",
+          "part_number": "0760354771",
+          "callout": "6",
+          "description": "Radial shaft seal 35X47X7 TC"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-260",
+          "part_number": "77709012000",
+          "callout": "8",
+          "description": "SPACER BUSHING F. FR. WHEEL"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-261",
+          "part_number": "7710907122630",
+          "callout": "10",
+          "description": "SPOKE M4,5X226- 21'' BLACK 12"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-262",
+          "part_number": "77109072000",
+          "callout": "11",
+          "description": "Spoke nipple M4.5 AL"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-263",
+          "part_number": "7910907000030",
+          "callout": "12",
+          "description": "Front Rim 21x1.60"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-264",
+          "part_number": "50309073000",
+          "callout": "13",
+          "description": "Tube protector 21\""
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-265",
+          "part_number": "78109090200",
+          "callout": "16",
+          "description": "Tyre locker 1,60\""
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-266",
+          "part_number": "77110090050",
+          "callout": "17",
+          "description": "NUT FOR WHEEL HOLDER"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-267",
+          "part_number": "79009060000",
+          "callout": "20",
+          "description": "BRAKE DISC FRONT 260MM 16"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-268",
+          "part_number": "59009062013",
+          "callout": "21",
+          "description": "SPECIAL SCREW M6X13 WS=8 10.9"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-269",
+          "part_number": "79109081033",
+          "callout": "30",
+          "description": "Wheel spindle front cmpl, 2019"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-270",
+          "part_number": "A46009082000",
+          "callout": "32",
+          "description": "Collar screw M20x1.5 SW17 Al"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-271",
+          "part_number": "55003135000",
+          "callout": "38",
+          "description": "PLUG FOR RIM"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-272",
+          "part_number": "7770908107055",
+          "callout": "40",
+          "description": "AUXILIARY SCREW FRONT"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-368",
+          "part_number": "7701301500101",
+          "callout": "1",
+          "description": "CALIPER NAT. WITHOUT PADS"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-369",
+          "part_number": "77013014000",
+          "callout": "2",
+          "description": "BRAKE CALIPER SUPPORT FRONT 09"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-370",
+          "part_number": "77013021000",
+          "callout": "5",
+          "description": "REP. KIT SEALS 24MM"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-371",
+          "part_number": "77013019000",
+          "callout": "6",
+          "description": "REP. KIT PISTON 24MM"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-372",
+          "part_number": "77013017000",
+          "callout": "7",
+          "description": "BOLT CPL. 09"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-373",
+          "part_number": "77013018000",
+          "callout": "8",
+          "description": "RETAINING PLATE SET BREMBO"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-374",
+          "part_number": "77713030000",
+          "callout": "9",
+          "description": "Brake pad front"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-375",
+          "part_number": "61013020100",
+          "callout": "10",
+          "description": "BLEEDER SCREW WITH CAP"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-376",
+          "part_number": "54613218000",
+          "callout": "12",
+          "description": "CUP SET SHORT"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-377",
+          "part_number": "0025080306S",
+          "callout": "15",
+          "description": "HH COLLAR SCREW M8X30 TX40"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-378",
+          "part_number": "59013010000",
+          "callout": "21",
+          "description": "Brakeho. Front 1235mm 2000"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-379",
+          "part_number": "0603100141",
+          "callout": "30",
+          "description": "sealing ring DIN 7603 10x14x1"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-380",
+          "part_number": "50213025000",
+          "callout": "35",
+          "description": "HOLLOW SCREW M10X1X19"
+        }
+      ],
+      "note": "Assembly membership is a modeling reference; not every catalog row is visible or installed."
+    },
+    {
+      "id": "rear-wheel",
+      "geometry_status": "ESTIMATED_NOT_VERIFIED",
+      "scope": "VISIBLE_EXTERIOR_ONLY",
+      "assemblies": [
+        {
+          "id": "ktm-450-2025:official-15",
+          "name": "REAR WHEEL",
+          "source": {
+            "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/60087?modelidentifier=1003417574&isEngine=False",
+            "locator": "Assembly catalog index; acquisition file ktm-450-2025.json"
+          }
+        },
+        {
+          "id": "ktm-450-2025:official-20",
+          "name": "REAR BRAKE CALIPER",
+          "source": {
+            "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/58280?modelidentifier=1003417574&isEngine=False",
+            "locator": "Assembly catalog index; acquisition file ktm-450-2025.json"
+          }
+        }
+      ],
+      "reference_parts": [
+        {
+          "occurrence_id": "ktm-450-2025:row-273",
+          "part_number": "A4601000104430",
+          "callout": "1",
+          "description": "Rear wheel cmpl. 2.15x19\" EXCE"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-274",
+          "part_number": "A46010010044",
+          "callout": "2",
+          "description": "Rear wheel hub cmpl."
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-275",
+          "part_number": "A46010011000",
+          "callout": "3",
+          "description": "Bearing spacer tube 121.5mm"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-276",
+          "part_number": "0625060058",
+          "callout": "4",
+          "description": "Grooved ball bear.6005 DDU2CG2"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-277",
+          "part_number": "0472047175",
+          "callout": "5",
+          "description": "CIRCLIP DIN0472-47X1,75"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-278",
+          "part_number": "0760354771",
+          "callout": "6",
+          "description": "Radial shaft seal 35X47X7 TC"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-279",
+          "part_number": "A46010016000",
+          "callout": "7",
+          "description": "Spacing tube rear wheel"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-280",
+          "part_number": "7901007120530",
+          "callout": "8",
+          "description": "SPOKE M4,5X205-19'' BLACK 1"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-281",
+          "part_number": "79109072000",
+          "callout": "9",
+          "description": "Spoke nipple M4.5"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-282",
+          "part_number": "7911007000030",
+          "callout": "10",
+          "description": "Rear rim 19x2.15"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-283",
+          "part_number": "79010060000",
+          "callout": "11",
+          "description": "BRAKE DISC REAR 220MM 16"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-284",
+          "part_number": "59009062013",
+          "callout": "12",
+          "description": "SPECIAL SCREW M6X13 WS=8 10.9"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-285",
+          "part_number": "50310073200",
+          "callout": "13",
+          "description": "Tube protector 18\" and 19\""
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-286",
+          "part_number": "7771015105130",
+          "callout": "19",
+          "description": "Rear sprocket 51-t"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-287",
+          "part_number": "0019080266S",
+          "callout": "21",
+          "description": "COUNTER-SUNK SCREW ISA45 M8X26"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-288",
+          "part_number": "06923080003",
+          "callout": "22",
+          "description": "Hex. nut DIN EN 1661 M8 WS13"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-289",
+          "part_number": "50310165118",
+          "callout": "23",
+          "description": "CHAIN 5/8X1/4'' MX"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-290",
+          "part_number": "50310166000",
+          "callout": "24",
+          "description": "Connecting link for 5031016511"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-291",
+          "part_number": "78110090200",
+          "callout": "33",
+          "description": "Tyre locker 2,15\""
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-292",
+          "part_number": "77110090050",
+          "callout": "34",
+          "description": "NUT FOR WHEEL HOLDER"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-293",
+          "part_number": "55003135000",
+          "callout": "38",
+          "description": "PLUG FOR RIM"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-294",
+          "part_number": "A46010085044",
+          "callout": "40",
+          "description": "Wheel spindle rear wheel cmpl."
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-295",
+          "part_number": "A46010084000",
+          "callout": "41",
+          "description": "Chain tension adjuster right"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-296",
+          "part_number": "50304040100",
+          "callout": "42",
+          "description": "screw M10x1.25x50 WS10"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-297",
+          "part_number": "58414030000",
+          "callout": "43",
+          "description": "HH COLLAR NUT M10X1,25 WS=13"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-298",
+          "part_number": "A46010086000",
+          "callout": "44",
+          "description": "Collar nut M22x1.5 WS=30"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-299",
+          "part_number": "A46010015010",
+          "callout": "97",
+          "description": "wheel bearing repair kit"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-300",
+          "part_number": "SPAA13U51AM1186",
+          "callout": "98",
+          "description": "Drivetrain set SX 13T/51T"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-381",
+          "part_number": "A46013080001",
+          "callout": "1",
+          "description": "Rear brake caliper PF 26 b cmp"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-382",
+          "part_number": "50313081200",
+          "callout": "2",
+          "description": "REPAIR KIT SEALING RINGS 26MM"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-383",
+          "part_number": "54813082000",
+          "callout": "3",
+          "description": "Bolt set for brake caliper 03"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-384",
+          "part_number": "54813090300",
+          "callout": "4",
+          "description": "BRAKE PAD SET REAR TOYO"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-385",
+          "part_number": "79013090000",
+          "callout": "4",
+          "description": "BRAKE PAD REAR TOYO B204"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-386",
+          "part_number": "77713083000",
+          "callout": "5",
+          "description": "BRAKE PISTON 26MM 2013"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-387",
+          "part_number": "54813018000",
+          "callout": "6",
+          "description": "Retaining spring set 2003"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-388",
+          "part_number": "A46013075000",
+          "callout": "7",
+          "description": "Brake caliper support"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-389",
+          "part_number": "54613218100",
+          "callout": "8",
+          "description": "CUP SET SHORT"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-390",
+          "part_number": "77213070300",
+          "callout": "10",
+          "description": "Rear Brakehose"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-391",
+          "part_number": "62513020000",
+          "callout": "11",
+          "description": "BLEEDER SCREW CPL. 05"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-392",
+          "part_number": "0603100141",
+          "callout": "12",
+          "description": "sealing ring DIN 7603 10x14x1"
+        }
+      ],
+      "note": "Assembly membership is a modeling reference; not every catalog row is visible or installed."
+    },
+    {
+      "id": "fork",
+      "geometry_status": "ESTIMATED_NOT_VERIFIED",
+      "scope": "VISIBLE_EXTERIOR_ONLY",
+      "assemblies": [
+        {
+          "id": "ktm-450-2025:official-0",
+          "name": "FRONT FORK, TRIPLE CLAMP",
+          "source": {
+            "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/72523?modelidentifier=1003417574&isEngine=False",
+            "locator": "Assembly catalog index; acquisition file ktm-450-2025.json"
+          }
+        }
+      ],
+      "reference_parts": [
+        {
+          "occurrence_id": "ktm-450-2025:row-1",
+          "part_number": null,
+          "callout": "1",
+          "description": "Non orderable part A460C159Y406000"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-2",
+          "part_number": "A46001035001",
+          "callout": "2",
+          "description": "Rubber bushing"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-3",
+          "part_number": "0025080256",
+          "callout": "3",
+          "description": "HH collar screw M8x25"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-4",
+          "part_number": "0025080406",
+          "callout": "4",
+          "description": "HH COLLAR SCREW M8X40 TX40"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-5",
+          "part_number": "0015080256S",
+          "callout": "5",
+          "description": "HH COLLAR SCREW M8X25 WS=10"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-6",
+          "part_number": "0035100509S",
+          "callout": "6",
+          "description": "AH collar screw M10x50 ISA45"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-7",
+          "part_number": "83001040000",
+          "callout": "7",
+          "description": "RUBBER BUSH"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-8",
+          "part_number": "0017060206",
+          "callout": "9",
+          "description": "SCREW F. PLASTIC K60X20AL SW6"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-9",
+          "part_number": "A46001039034",
+          "callout": "10",
+          "description": "Handlebar support, lower part"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-10",
+          "part_number": "0025080506",
+          "callout": "11",
+          "description": "HH collar screw M8x50 TX40"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-11",
+          "part_number": "A46001132022C1",
+          "callout": "30",
+          "description": "Bottom triple clamp, cmpl. X=2"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-12",
+          "part_number": "A46001134022C1",
+          "callout": "32",
+          "description": "Triple clamp top X=22mm"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-13",
+          "part_number": "A46009082000",
+          "callout": "36",
+          "description": "Collar screw M20x1.5 SW17 Al"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-14",
+          "part_number": "79001038000",
+          "callout": "38",
+          "description": "HANDLEBAR CLAMP 28MM"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-15",
+          "part_number": "A48001039036",
+          "callout": "39",
+          "description": "Handlebar mount D28 mm-H36 mm"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-16",
+          "part_number": "54201081100",
+          "callout": "81",
+          "description": "TAPERED ROLLER BEARING CPL. 06"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-17",
+          "part_number": "77701084000",
+          "callout": "82",
+          "description": "O-RING SUPPORT W. SEALING LIP"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-18",
+          "part_number": "A46001086000",
+          "callout": "84",
+          "description": "Steering head seal"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-19",
+          "part_number": "77701085100EB",
+          "callout": "85",
+          "description": "Clamp for brake line"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-20",
+          "part_number": "59001092050",
+          "callout": "91",
+          "description": "SPECIAL SCREW M6X12,5 WS=8"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-21",
+          "part_number": "A46001094000EBH",
+          "callout": "92",
+          "description": "fork protector kit MX 2025 with decal"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-22",
+          "part_number": "A48001039010",
+          "callout": "98",
+          "description": "handlebar mount kit D28mm-H36m"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-23",
+          "part_number": "A46001081044",
+          "callout": "99",
+          "description": "Repair Kit steering head beari"
+        }
+      ],
+      "note": "Assembly membership is a modeling reference; not every catalog row is visible or installed."
+    },
+    {
+      "id": "shock",
+      "geometry_status": "ESTIMATED_NOT_VERIFIED",
+      "scope": "VISIBLE_EXTERIOR_ONLY",
+      "assemblies": [
+        {
+          "id": "ktm-450-2025:official-4",
+          "name": "SHOCK ABSORBER",
+          "source": {
+            "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/69024?modelidentifier=1003417574&isEngine=False",
+            "locator": "Assembly catalog index; acquisition file ktm-450-2025.json"
+          }
+        }
+      ],
+      "reference_parts": [
+        {
+          "occurrence_id": "ktm-450-2025:row-109",
+          "part_number": "A460C459Y408000",
+          "callout": "1",
+          "description": "Strut KTM 450 SX-F US/Fact. Mo"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-110",
+          "part_number": "77204089000",
+          "callout": "2",
+          "description": "HH collar screw M10x52 WS13"
+        }
+      ],
+      "note": "Assembly membership is a modeling reference; not every catalog row is visible or installed."
+    },
+    {
+      "id": "swingarm",
+      "geometry_status": "ESTIMATED_NOT_VERIFIED",
+      "scope": "VISIBLE_EXTERIOR_ONLY",
+      "assemblies": [
+        {
+          "id": "ktm-450-2025:official-6",
+          "name": "PRO LEVER LINKING",
+          "source": {
+            "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/70692?modelidentifier=1003417574&isEngine=False",
+            "locator": "Assembly catalog index; acquisition file ktm-450-2025.json"
+          }
+        },
+        {
+          "id": "ktm-450-2025:official-7",
+          "name": "SWING ARM",
+          "source": {
+            "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/70473?modelidentifier=1003417574&isEngine=False",
+            "locator": "Assembly catalog index; acquisition file ktm-450-2025.json"
+          }
+        }
+      ],
+      "reference_parts": [
+        {
+          "occurrence_id": "ktm-450-2025:row-144",
+          "part_number": "A46004080244",
+          "callout": "1",
+          "description": "Triangle cantilever cmpl."
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-145",
+          "part_number": "A46004083244",
+          "callout": "2",
+          "description": "Pull rod cmpl."
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-146",
+          "part_number": "54603081000",
+          "callout": "3",
+          "description": "Bushing sleeve 15x20x48"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-147",
+          "part_number": "54603097000",
+          "callout": "4",
+          "description": "Needle bushing HK 2016 / 20x26"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-148",
+          "part_number": "54603036000",
+          "callout": "5",
+          "description": "STOP DISK 22,2X31,7X1"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-149",
+          "part_number": "0760253271",
+          "callout": "6",
+          "description": "Radial shaft seal 25x32x7"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-150",
+          "part_number": "77204080130",
+          "callout": "7",
+          "description": "Bucket f. shaft seal ring 25X1"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-151",
+          "part_number": "77204080010",
+          "callout": "8",
+          "description": "Bearing sleeve 10x18x25.5"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-152",
+          "part_number": "0618182416",
+          "callout": "9",
+          "description": "NEEDLE BUSH HN1816 RS 18/24/16"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-153",
+          "part_number": "50180604",
+          "callout": "10",
+          "description": "Shim 29.75x19x0.4"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-154",
+          "part_number": "0760243051",
+          "callout": "11",
+          "description": "Radial shaft seal 24x30x5"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-155",
+          "part_number": "77204080020",
+          "callout": "12",
+          "description": "Bucket f. shaft seal ring 24x6"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-156",
+          "part_number": "0760222842",
+          "callout": "13",
+          "description": "Radial shaft seal G22x28x4"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-157",
+          "part_number": "0618222820",
+          "callout": "14",
+          "description": "NEEDLE BEARING HK2220 22X28X20"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-158",
+          "part_number": "79004084010",
+          "callout": "15",
+          "description": "Bearing sleeve for pull rod 16"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-159",
+          "part_number": "A48004084000",
+          "callout": "16",
+          "description": "Pin pull rod M14x1.5"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-160",
+          "part_number": "77404084120",
+          "callout": "17",
+          "description": "Hex. nut M14x1.5 WS17"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-161",
+          "part_number": "A48004085000",
+          "callout": "18",
+          "description": "Triangle cantilever pin M14x1."
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-162",
+          "part_number": "77204087000",
+          "callout": "19",
+          "description": "hex nut M14x1.5 WS17"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-163",
+          "part_number": "A46004180020",
+          "callout": "97",
+          "description": "Repair kit triangle lever"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-164",
+          "part_number": "A46004180010",
+          "callout": "98",
+          "description": "Repair kit triangle lever"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-165",
+          "part_number": "A46004183010",
+          "callout": "99",
+          "description": "Repair kit pull rod"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-166",
+          "part_number": "A46004230144",
+          "callout": "2",
+          "description": "Swingarm cpl"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-167",
+          "part_number": "A46004066100",
+          "callout": "3",
+          "description": "Chain slider"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-168",
+          "part_number": "77304066150",
+          "callout": "4",
+          "description": "Chain slider bushing"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-169",
+          "part_number": "0025060166S",
+          "callout": "5",
+          "description": "HH collar screw M6x16 TX30 SL"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-170",
+          "part_number": "A46004042000",
+          "callout": "6",
+          "description": "Brake line guide"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-171",
+          "part_number": "77704034000",
+          "callout": "8",
+          "description": "Support f. shaft seal ring 16"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-172",
+          "part_number": "0760253270",
+          "callout": "9",
+          "description": "radial shaft seal 25x32x7"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-173",
+          "part_number": "59404032000",
+          "callout": "10",
+          "description": "Bearing sleeve 17x22x38.7 03"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-174",
+          "part_number": "0618222812",
+          "callout": "11",
+          "description": "Needle bushing HK2212V 22/28/1"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-175",
+          "part_number": "54603036000",
+          "callout": "12",
+          "description": "STOP DISK 22,2X31,7X1"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-176",
+          "part_number": "A46004070000",
+          "callout": "14",
+          "description": "Chainguide SX"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-177",
+          "part_number": "0025060456",
+          "callout": "16",
+          "description": "HH COLLAR SCREW M6X45 TX30"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-178",
+          "part_number": "58414030000",
+          "callout": "17",
+          "description": "HH COLLAR NUT M10X1,25 WS=13"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-179",
+          "part_number": "50304040100",
+          "callout": "18",
+          "description": "screw M10x1.25x50 WS10"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-180",
+          "part_number": "A46004037000",
+          "callout": "25",
+          "description": "Swingarm pivot"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-181",
+          "part_number": "54804038000",
+          "callout": "26",
+          "description": "Nut with flange M16X1,5 WS=19"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-182",
+          "part_number": "A46004041000",
+          "callout": "27",
+          "description": "Locking cap swingarm"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-183",
+          "part_number": "54603055051",
+          "callout": "29",
+          "description": "PRESS IN NUT M6 STEEL ZINC"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-184",
+          "part_number": "79004030110",
+          "callout": "99",
+          "description": "Repair kit swingarm bearing"
+        }
+      ],
+      "note": "Assembly membership is a modeling reference; not every catalog row is visible or installed."
+    },
+    {
+      "id": "exhaust",
+      "geometry_status": "ESTIMATED_NOT_VERIFIED",
+      "scope": "VISIBLE_EXTERIOR_ONLY",
+      "assemblies": [
+        {
+          "id": "ktm-450-2025:official-8",
+          "name": "EXHAUST SYSTEM",
+          "source": {
+            "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/72521?modelidentifier=1003417574&isEngine=False",
+            "locator": "Assembly catalog index; acquisition file ktm-450-2025.json"
+          }
+        }
+      ],
+      "reference_parts": [
+        {
+          "occurrence_id": "ktm-450-2025:row-185",
+          "part_number": "A47005079133",
+          "callout": "1",
+          "description": "Silencer SXF USA 350/450 preas"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-186",
+          "part_number": "77205068000",
+          "callout": "2",
+          "description": "DAMP. COMPON. BLACK"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-187",
+          "part_number": "77205169000",
+          "callout": "3",
+          "description": "BUSHING 7.5x12x28x8.3 11"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-188",
+          "part_number": "50233041000",
+          "callout": "5",
+          "description": "Pair of washers M6 NORDLOCK"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-189",
+          "part_number": "0025060306",
+          "callout": "6",
+          "description": "HH collar screw M6x30 TX30"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-190",
+          "part_number": "0770800021",
+          "callout": "7",
+          "description": "O-RING 80,00X2,00 VITON"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-191",
+          "part_number": "A47005079060",
+          "callout": "8",
+          "description": "endcap cpl."
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-192",
+          "part_number": "78105081010",
+          "callout": "9",
+          "description": "SCREW TORX M5X10"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-193",
+          "part_number": "79305078520",
+          "callout": "10",
+          "description": "Rockwool preformed"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-194",
+          "part_number": "A46005078080",
+          "callout": "11",
+          "description": "Rockwool preformed"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-195",
+          "part_number": "79105098000",
+          "callout": "12",
+          "description": "exhaust spacer"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-196",
+          "part_number": "50305016200",
+          "callout": "20",
+          "description": "Tension spring L=65 mm"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-197",
+          "part_number": "A48005007033",
+          "callout": "40",
+          "description": "Header KTM 450 SXF"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-198",
+          "part_number": "0025080256",
+          "callout": "41",
+          "description": "HH collar screw M8x25"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-199",
+          "part_number": "77805069000",
+          "callout": "42",
+          "description": "BUSHING 8.5x12x28x8.3"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-200",
+          "part_number": "79105068000",
+          "callout": "43",
+          "description": "Damper gray"
+        }
+      ],
+      "note": "Assembly membership is a modeling reference; not every catalog row is visible or installed."
+    },
+    {
+      "id": "plastics",
+      "geometry_status": "ESTIMATED_NOT_VERIFIED",
+      "scope": "VISIBLE_EXTERIOR_ONLY",
+      "assemblies": [
+        {
+          "id": "ktm-450-2025:official-9",
+          "name": "AIR FILTER",
+          "source": {
+            "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/72520?modelidentifier=1003417574&isEngine=False",
+            "locator": "Assembly catalog index; acquisition file ktm-450-2025.json"
+          }
+        },
+        {
+          "id": "ktm-450-2025:official-12",
+          "name": "MASK, FENDERS",
+          "source": {
+            "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/62504?modelidentifier=1003417574&isEngine=False",
+            "locator": "Assembly catalog index; acquisition file ktm-450-2025.json"
+          }
+        },
+        {
+          "id": "ktm-450-2025:official-13",
+          "name": "DECAL",
+          "source": {
+            "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/72525?modelidentifier=1003417574&isEngine=False",
+            "locator": "Assembly catalog index; acquisition file ktm-450-2025.json"
+          }
+        }
+      ],
+      "reference_parts": [
+        {
+          "occurrence_id": "ktm-450-2025:row-201",
+          "part_number": "A46006001000EB",
+          "callout": "1",
+          "description": "Lower section of the air filte"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-202",
+          "part_number": "A46006004000EB",
+          "callout": "2",
+          "description": "Air filter panel"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-203",
+          "part_number": "A46006003000EB",
+          "callout": "3",
+          "description": "Air filter cover"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-204",
+          "part_number": "A46006005000EB",
+          "callout": "4",
+          "description": "Side fairing"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-205",
+          "part_number": "A46006001010EB",
+          "callout": "5",
+          "description": "Air filter box front part"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-206",
+          "part_number": "0025060206",
+          "callout": "7",
+          "description": "HH collar screw M6x20 TX30"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-207",
+          "part_number": "0017060206",
+          "callout": "9",
+          "description": "SCREW F. PLASTIC K60X20AL SW6"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-208",
+          "part_number": "77304066150",
+          "callout": "10",
+          "description": "Chain slider bushing"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-209",
+          "part_number": "79105098000",
+          "callout": "11",
+          "description": "exhaust spacer"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-210",
+          "part_number": "78006027000",
+          "callout": "12",
+          "description": "HOSE CLAMP 45-65MM"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-211",
+          "part_number": "A48006026100",
+          "callout": "13",
+          "description": "Air boot"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-212",
+          "part_number": "A46006017000",
+          "callout": "14",
+          "description": "Air filter holding bracket"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-213",
+          "part_number": "A46006016000",
+          "callout": "15",
+          "description": "Air filter support"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-214",
+          "part_number": "A46006015000",
+          "callout": "16",
+          "description": "Air filter"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-215",
+          "part_number": "47106003160",
+          "callout": "19",
+          "description": "quick release rubber grommet"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-216",
+          "part_number": "A46004050000",
+          "callout": "23",
+          "description": "Splash protection"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-217",
+          "part_number": "0081050141",
+          "callout": "24",
+          "description": "EJOT PT screw K50x14"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-218",
+          "part_number": "79003003000",
+          "callout": "26",
+          "description": "Special screw M8X18 TORX45 SL"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-219",
+          "part_number": "83008000012",
+          "callout": "27",
+          "description": "special screw M6x12x3"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-245",
+          "part_number": "A46008007000EB",
+          "callout": "1",
+          "description": "Startnumber plate"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-246",
+          "part_number": "0017060206",
+          "callout": "2",
+          "description": "SCREW F. PLASTIC K60X20AL SW6"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-247",
+          "part_number": "A46008010000EB",
+          "callout": "3",
+          "description": "Fender"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-248",
+          "part_number": "0025060166",
+          "callout": "4",
+          "description": "HH collar screw M6x16 TX30"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-249",
+          "part_number": "A46008013000EBC",
+          "callout": "5",
+          "description": "Rear fender with decal"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-250",
+          "part_number": "83008000012",
+          "callout": "6",
+          "description": "special screw M6x12x3"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-251",
+          "part_number": "79608052000",
+          "callout": "7",
+          "description": "BUSH 6X11X16X5 MM"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-252",
+          "part_number": "A46008091000",
+          "callout": "1",
+          "description": "Number plate"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-253",
+          "part_number": "A46008078026",
+          "callout": "2",
+          "description": "Displacement label set 450 SX-"
+        }
+      ],
+      "note": "Assembly membership is a modeling reference; not every catalog row is visible or installed."
+    },
+    {
+      "id": "seat",
+      "geometry_status": "ESTIMATED_NOT_VERIFIED",
+      "scope": "VISIBLE_EXTERIOR_ONLY",
+      "assemblies": [
+        {
+          "id": "ktm-450-2025:official-10",
+          "name": "TANK, SEAT",
+          "source": {
+            "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/70476?modelidentifier=1003417574&isEngine=False",
+            "locator": "Assembly catalog index; acquisition file ktm-450-2025.json"
+          }
+        }
+      ],
+      "reference_parts": [
+        {
+          "occurrence_id": "ktm-450-2025:row-220",
+          "part_number": "A46007113000",
+          "callout": "1",
+          "description": "Fuel tank"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-221",
+          "part_number": "79107011000",
+          "callout": "2",
+          "description": "Seat holder screw"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-222",
+          "part_number": "77707008144C1",
+          "callout": "3",
+          "description": "Fuel tank cap cmpl."
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-223",
+          "part_number": "A46007014000",
+          "callout": "4",
+          "description": "Fuel tank role"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-224",
+          "part_number": "79107013010",
+          "callout": "6",
+          "description": "wire holder / fuel ventilation"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-225",
+          "part_number": "78007100270",
+          "callout": "7",
+          "description": "Vent hose 5.6 x 10 x 270"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-226",
+          "part_number": "A46008054100EBB",
+          "callout": "8",
+          "description": "spoiler set MX/Enduro 2025"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-227",
+          "part_number": "0025060126",
+          "callout": "10",
+          "description": "HH collar screw M6x12 TX30"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-228",
+          "part_number": "0025060256",
+          "callout": "11",
+          "description": "HH collar screw M6x25 TX30"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-229",
+          "part_number": "0017060206",
+          "callout": "12",
+          "description": "SCREW F. PLASTIC K60X20AL SW6"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-230",
+          "part_number": "A46007040000C1",
+          "callout": "13",
+          "description": "Seat"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-231",
+          "part_number": "A46007040050C1",
+          "callout": "14",
+          "description": "Seat cover"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-232",
+          "part_number": "A46007046000",
+          "callout": "15",
+          "description": "Seat installation"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-233",
+          "part_number": "0004711200100",
+          "callout": "16",
+          "description": "Lock ring DIN471 12x1"
+        }
+      ],
+      "note": "Assembly membership is a modeling reference; not every catalog row is visible or installed."
+    },
+    {
+      "id": "controls",
+      "geometry_status": "ESTIMATED_NOT_VERIFIED",
+      "scope": "VISIBLE_EXTERIOR_ONLY",
+      "assemblies": [
+        {
+          "id": "ktm-450-2025:official-2",
+          "name": "HANDLEBAR, CONTROLS",
+          "source": {
+            "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/59885?modelidentifier=1003417574&isEngine=False",
+            "locator": "Assembly catalog index; acquisition file ktm-450-2025.json"
+          }
+        },
+        {
+          "id": "ktm-450-2025:official-17",
+          "name": "FRONT BRAKE CONTROL",
+          "source": {
+            "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/15055?modelidentifier=1003417574&isEngine=False",
+            "locator": "Assembly catalog index; acquisition file ktm-450-2025.json"
+          }
+        },
+        {
+          "id": "ktm-450-2025:official-29",
+          "name": "CLUTCH CONTROL",
+          "source": {
+            "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/60028?modelidentifier=1003417574&isEngine=True",
+            "locator": "Assembly catalog index; acquisition file ktm-450-2025.json"
+          }
+        }
+      ],
+      "reference_parts": [
+        {
+          "occurrence_id": "ktm-450-2025:row-64",
+          "part_number": "7900200100030",
+          "callout": "1",
+          "description": "HANDLEBAR D=28MM"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-65",
+          "part_number": "A46002002044C1A",
+          "callout": "2",
+          "description": "Handlebar pad cmpl."
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-66",
+          "part_number": "A46011074000",
+          "callout": "4",
+          "description": "Start/stop button"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-67",
+          "part_number": "A46039074000",
+          "callout": "5",
+          "description": "Combination switch"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-68",
+          "part_number": "0081050181",
+          "callout": "9",
+          "description": "SCREW FOR PLASTIC K50X18 T20"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-69",
+          "part_number": "A46002010025",
+          "callout": "13",
+          "description": "Housing throttle twist grip cp"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-70",
+          "part_number": "0025060206",
+          "callout": "14",
+          "description": "HH collar screw M6x20 TX30"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-71",
+          "part_number": "A46002921000C1",
+          "callout": "17",
+          "description": "Grip set black"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-72",
+          "part_number": "44011076200",
+          "callout": "18",
+          "description": "Cable tie 200/4.6mm black"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-73",
+          "part_number": "44011076140",
+          "callout": "18",
+          "description": "CABLE TIE 140/2,5MM BLACK"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-74",
+          "part_number": "A46002091000",
+          "callout": "92",
+          "description": "Throttle cable complete 4 stro"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-333",
+          "part_number": "77713001044",
+          "callout": "1",
+          "description": "HAND BRAKE CYLIND. CPL. SX 201"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-334",
+          "part_number": "77713003000",
+          "callout": "9",
+          "description": "HAND BRAKE CYL. COVER"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-335",
+          "part_number": "77713008000",
+          "callout": "10",
+          "description": "REPAIR KIT PISTON SX 2014"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-336",
+          "part_number": "54802005100",
+          "callout": "11",
+          "description": "CLAMP CPL. 06"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-337",
+          "part_number": "0025060256",
+          "callout": "12",
+          "description": "HH collar screw M6x25 TX30"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-338",
+          "part_number": "77713006000",
+          "callout": "15",
+          "description": "LEVER SCREW"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-339",
+          "part_number": "77713002000",
+          "callout": "20",
+          "description": "Hand brake lever + spring SX 1 SX WITH SPRING, EXC WITHOUT SP"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-340",
+          "part_number": "77713007000",
+          "callout": "21",
+          "description": "PUSH ROD CPL. SX 2014"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-341",
+          "part_number": "77713004000",
+          "callout": "23",
+          "description": "Protection cap, hand brake cyl"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-342",
+          "part_number": "59013010000",
+          "callout": "30",
+          "description": "Brakeho. Front 1235mm 2000"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-343",
+          "part_number": "54813020100",
+          "callout": "31",
+          "description": "banjo bolt M10x1x19 black"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-344",
+          "part_number": "0603100141",
+          "callout": "32",
+          "description": "sealing ring DIN 7603 10x14x1"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-345",
+          "part_number": "54802051000",
+          "callout": "34",
+          "description": "VALVE"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-346",
+          "part_number": "00062030000",
+          "callout": "80",
+          "description": "Brake fluid DOT5.1 0,25L"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-885",
+          "part_number": "79202030044",
+          "callout": "1",
+          "description": "MASTER CYLINDER CPL."
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-886",
+          "part_number": "54802031000",
+          "callout": "2",
+          "description": "Clutch lever cmpl. BREMBO 06"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-887",
+          "part_number": "54802032000",
+          "callout": "3",
+          "description": "REP. KIT PISTON 06"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-888",
+          "part_number": "5480200310030",
+          "callout": "4",
+          "description": "COVER HYD. CLUTCH CPL. 2014"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-889",
+          "part_number": "54802051000",
+          "callout": "5",
+          "description": "VALVE"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-890",
+          "part_number": "54802052000",
+          "callout": "6",
+          "description": "BOLT KPL."
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-891",
+          "part_number": "54802037000",
+          "callout": "7",
+          "description": "PROTECTION CAP 06"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-892",
+          "part_number": "54802038100",
+          "callout": "8",
+          "description": "Lever screw cmpl. 06"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-893",
+          "part_number": "54802046000",
+          "callout": "9",
+          "description": "Push rod cmpl."
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-894",
+          "part_number": "54802005100",
+          "callout": "10",
+          "description": "CLAMP CPL. 06"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-895",
+          "part_number": "00062030000",
+          "callout": "15",
+          "description": "Brake fluid DOT5.1 0,25L"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-896",
+          "part_number": "79232061044",
+          "callout": "20",
+          "description": "OUTPUT CYLINDER CPL."
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-897",
+          "part_number": "0770300015",
+          "callout": "21",
+          "description": "O-ring 30x1.5 NBR 70"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-898",
+          "part_number": "79032064000",
+          "callout": "23",
+          "description": "BLEEDER SCREW CPL."
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-899",
+          "part_number": "0603082121",
+          "callout": "24",
+          "description": "SEAL RING CU DIN7603- 8X12X1"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-900",
+          "part_number": "A49032063000",
+          "callout": "25",
+          "description": "clutch hose"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-901",
+          "part_number": "0025060406",
+          "callout": "28",
+          "description": "HH collar screw M6x40 TX30"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-902",
+          "part_number": "0025060166",
+          "callout": "29",
+          "description": "HH collar screw M6x16 TX30"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-903",
+          "part_number": "50329050000",
+          "callout": "30",
+          "description": "VENT INJEKTION HYDR. CLUTCH"
+        }
+      ],
+      "note": "Assembly membership is a modeling reference; not every catalog row is visible or installed."
+    },
+    {
+      "id": "cooling",
+      "geometry_status": "ESTIMATED_NOT_VERIFIED",
+      "scope": "VISIBLE_EXTERIOR_ONLY",
+      "assemblies": [
+        {
+          "id": "ktm-450-2025:official-34",
+          "name": "COOLING SYSTEM",
+          "source": {
+            "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/58194?modelidentifier=1003417574&isEngine=True",
+            "locator": "Assembly catalog index; acquisition file ktm-450-2025.json"
+          }
+        }
+      ],
+      "reference_parts": [
+        {
+          "occurrence_id": "ktm-450-2025:row-989",
+          "part_number": "A46035007000",
+          "callout": "1",
+          "description": "Radiator left"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-990",
+          "part_number": "A46035008000",
+          "callout": "2",
+          "description": "Radiator right"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-991",
+          "part_number": "A46035009000",
+          "callout": "3",
+          "description": "Radiator cap"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-992",
+          "part_number": "A46035025000",
+          "callout": "4",
+          "description": "Pre-formed hose radiator left/"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-993",
+          "part_number": "0310000902900",
+          "callout": "5",
+          "description": "Hose clip 18-29"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-994",
+          "part_number": "A46035071044",
+          "callout": "6",
+          "description": "Y-piece cmpl."
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-995",
+          "part_number": "50335030001",
+          "callout": "9",
+          "description": "PVC-HOSE 6X9"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-996",
+          "part_number": "A48035024000",
+          "callout": "11",
+          "description": "Pre-formed hose, engine/radiat"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-997",
+          "part_number": "A48035023000",
+          "callout": "12",
+          "description": "Pre-formed hose, engine/riser"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-998",
+          "part_number": "A46035073033",
+          "callout": "13",
+          "description": "Screw-in nozzle"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-999",
+          "part_number": "A46035036044C1",
+          "callout": "14",
+          "description": "Radiator protection set, black"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1000",
+          "part_number": "0900000601203",
+          "callout": "15",
+          "description": "HH ISR collar screw M6x12-10.9"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-1001",
+          "part_number": "0310000903200",
+          "callout": "16",
+          "description": "Hose clip 20-32"
+        }
+      ],
+      "note": "Assembly membership is a modeling reference; not every catalog row is visible or installed."
+    },
+    {
+      "id": "drivetrain",
+      "geometry_status": "ESTIMATED_NOT_VERIFIED",
+      "scope": "VISIBLE_EXTERIOR_ONLY",
+      "assemblies": [
+        {
+          "id": "ktm-450-2025:official-15",
+          "name": "REAR WHEEL",
+          "source": {
+            "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/60087?modelidentifier=1003417574&isEngine=False",
+            "locator": "Assembly catalog index; acquisition file ktm-450-2025.json"
+          }
+        },
+        {
+          "id": "ktm-450-2025:official-31",
+          "name": "TRANSMISSION II - COUNTERSHAFT",
+          "source": {
+            "url": "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/68022?modelidentifier=1003417574&isEngine=True",
+            "locator": "Assembly catalog index; acquisition file ktm-450-2025.json"
+          }
+        }
+      ],
+      "reference_parts": [
+        {
+          "occurrence_id": "ktm-450-2025:row-273",
+          "part_number": "A4601000104430",
+          "callout": "1",
+          "description": "Rear wheel cmpl. 2.15x19\" EXCE"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-274",
+          "part_number": "A46010010044",
+          "callout": "2",
+          "description": "Rear wheel hub cmpl."
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-275",
+          "part_number": "A46010011000",
+          "callout": "3",
+          "description": "Bearing spacer tube 121.5mm"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-276",
+          "part_number": "0625060058",
+          "callout": "4",
+          "description": "Grooved ball bear.6005 DDU2CG2"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-277",
+          "part_number": "0472047175",
+          "callout": "5",
+          "description": "CIRCLIP DIN0472-47X1,75"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-278",
+          "part_number": "0760354771",
+          "callout": "6",
+          "description": "Radial shaft seal 35X47X7 TC"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-279",
+          "part_number": "A46010016000",
+          "callout": "7",
+          "description": "Spacing tube rear wheel"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-280",
+          "part_number": "7901007120530",
+          "callout": "8",
+          "description": "SPOKE M4,5X205-19'' BLACK 1"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-281",
+          "part_number": "79109072000",
+          "callout": "9",
+          "description": "Spoke nipple M4.5"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-282",
+          "part_number": "7911007000030",
+          "callout": "10",
+          "description": "Rear rim 19x2.15"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-283",
+          "part_number": "79010060000",
+          "callout": "11",
+          "description": "BRAKE DISC REAR 220MM 16"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-284",
+          "part_number": "59009062013",
+          "callout": "12",
+          "description": "SPECIAL SCREW M6X13 WS=8 10.9"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-285",
+          "part_number": "50310073200",
+          "callout": "13",
+          "description": "Tube protector 18\" and 19\""
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-286",
+          "part_number": "7771015105130",
+          "callout": "19",
+          "description": "Rear sprocket 51-t"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-287",
+          "part_number": "0019080266S",
+          "callout": "21",
+          "description": "COUNTER-SUNK SCREW ISA45 M8X26"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-288",
+          "part_number": "06923080003",
+          "callout": "22",
+          "description": "Hex. nut DIN EN 1661 M8 WS13"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-289",
+          "part_number": "50310165118",
+          "callout": "23",
+          "description": "CHAIN 5/8X1/4'' MX"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-290",
+          "part_number": "50310166000",
+          "callout": "24",
+          "description": "Connecting link for 5031016511"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-291",
+          "part_number": "78110090200",
+          "callout": "33",
+          "description": "Tyre locker 2,15\""
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-292",
+          "part_number": "77110090050",
+          "callout": "34",
+          "description": "NUT FOR WHEEL HOLDER"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-293",
+          "part_number": "55003135000",
+          "callout": "38",
+          "description": "PLUG FOR RIM"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-294",
+          "part_number": "A46010085044",
+          "callout": "40",
+          "description": "Wheel spindle rear wheel cmpl."
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-295",
+          "part_number": "A46010084000",
+          "callout": "41",
+          "description": "Chain tension adjuster right"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-296",
+          "part_number": "50304040100",
+          "callout": "42",
+          "description": "screw M10x1.25x50 WS10"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-297",
+          "part_number": "58414030000",
+          "callout": "43",
+          "description": "HH COLLAR NUT M10X1,25 WS=13"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-298",
+          "part_number": "A46010086000",
+          "callout": "44",
+          "description": "Collar nut M22x1.5 WS=30"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-299",
+          "part_number": "A46010015010",
+          "callout": "97",
+          "description": "wheel bearing repair kit"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-300",
+          "part_number": "SPAA13U51AM1186",
+          "callout": "98",
+          "description": "Drivetrain set SX 13T/51T"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-921",
+          "part_number": "79333010000",
+          "callout": "1",
+          "description": "Countershaft"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-922",
+          "part_number": "0405242812",
+          "callout": "2",
+          "description": "NEDDLE BEAR. K24X28X11,9 DIV."
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-923",
+          "part_number": "79333512000",
+          "callout": "3",
+          "description": "Idler gear 2nd."
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-924",
+          "part_number": "79333043000",
+          "callout": "4",
+          "description": "Stop disk"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-925",
+          "part_number": "77033022100",
+          "callout": "5",
+          "description": "Retaining ring 25x1,65"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-926",
+          "part_number": "79333514000",
+          "callout": "6",
+          "description": "Sliding gear 4th"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-927",
+          "part_number": "59033030000",
+          "callout": "7",
+          "description": "STOP DISC 25,2X32X1,5"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-928",
+          "part_number": "0405222613",
+          "callout": "8",
+          "description": "NEEDLE BEAR. K 22X26X13 TN"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-929",
+          "part_number": "79333513000",
+          "callout": "9",
+          "description": "Idler gear 3rd"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-930",
+          "part_number": "79333515000",
+          "callout": "10",
+          "description": "Sliding gear 5th"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-931",
+          "part_number": "59033080000",
+          "callout": "11",
+          "description": "Shim 20x31.9x1"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-932",
+          "part_number": "0405202413",
+          "callout": "12",
+          "description": "NEEDLE BEAR. K20X24X13"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-933",
+          "part_number": "79333511000",
+          "callout": "13",
+          "description": "Idler gear 1 st."
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-934",
+          "part_number": "56033030000",
+          "callout": "14",
+          "description": "STOP DISC 17,2X30X1"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-935",
+          "part_number": "49030023000",
+          "callout": "15",
+          "description": "cylindrical roller bearing NJ2"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-936",
+          "part_number": "0760324571",
+          "callout": "16",
+          "description": "SHAFT SEAL RING 32X45X7 BSLNBR"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-937",
+          "part_number": "0770020220",
+          "callout": "17",
+          "description": "O-RING 25,12X1,78 NBR70"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-938",
+          "part_number": "78133014000",
+          "callout": "18",
+          "description": "SPACER SLEEVE COUNTER"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-939",
+          "part_number": "A46033029013",
+          "callout": "19",
+          "description": "Front sprocket 13 teeth"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-940",
+          "part_number": "59033034044",
+          "callout": "20",
+          "description": "SCREW 10.9+SPRING WASHER"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-941",
+          "part_number": "0625062038",
+          "callout": "21",
+          "description": "Ballbearing NTN 6203JR2CM21"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-942",
+          "part_number": "75030085100",
+          "callout": "22",
+          "description": "Retaining bracket crankshaft b"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-943",
+          "part_number": "0019050121S",
+          "callout": "23",
+          "description": "INT. TORX FLAT HEAD M5X12 T25"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-944",
+          "part_number": "0471170015",
+          "callout": "24",
+          "description": "CIRCLIP DIN 0471-17X1, 5"
+        },
+        {
+          "occurrence_id": "ktm-450-2025:row-945",
+          "part_number": "00050000941",
+          "callout": "99",
+          "description": "COUNTER SHAFT REP.KIT 4 STROKE"
+        }
+      ],
+      "note": "Assembly membership is a modeling reference; not every catalog row is visible or installed."
+    }
+  ],
+  "public_visual_references": [
+    {
+      "view": "right",
+      "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/PHO_BIKE_90_RE_MY25-KTM-450-SX-F-90-right-Studio_%23SALL_%23AEPI_%23V1.png",
+      "usage": "REFERENCE_ONLY_NOT_REDISTRIBUTED"
+    },
+    {
+      "view": "left",
+      "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/PHO_BIKE_90_LI_MY25-KTM-450-SX-F-90-left-Studio_%23SALL_%23AEPI_%23V1.png",
+      "usage": "REFERENCE_ONLY_NOT_REDISTRIBUTED"
+    },
+    {
+      "view": "front-right",
+      "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/PHO_BIKE_90_REVO_MY25-KTM-450-SX-F-90-front-right-Studio_%23SALL_%23AEPI_%23V1.png",
+      "usage": "REFERENCE_ONLY_NOT_REDISTRIBUTED"
+    }
+  ],
+  "remaining": [
+    "Photographic contour comparison",
+    "Engine casting shape",
+    "OEM graphics authored with appropriate rights",
+    "Radiator and cable routing",
+    "Native integration and physical-device performance"
+  ]
+}

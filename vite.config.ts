@@ -5,6 +5,6 @@ import {defineConfig,loadEnv} from 'vite';
 export default defineConfig(({mode})=>{
  const env={...loadEnv(mode,process.cwd(),''),...process.env};
  const pick=(a:string,b:string)=>JSON.stringify(env[a]||env[b]||'');
- return {server:{host:'0.0.0.0',proxy:{'/api':'http://127.0.0.1:3001'}},build:{outDir:'dist'},
+ return {server:{host:'0.0.0.0',proxy:{'/api':'http://127.0.0.1:3001'}},build:{outDir:'dist',rollupOptions:{input:{app:'index.html',bikeBuilder:'bike-builder.html'}}},
   define:{'import.meta.env.VITE_SUPABASE_URL':pick('VITE_SUPABASE_URL','SUPABASE_URL'),'import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY':pick('VITE_SUPABASE_PUBLISHABLE_KEY','SUPABASE_PUBLISHABLE_KEY')}};
 });
