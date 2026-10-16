@@ -33,3 +33,11 @@ test('older saved replies without garage_updates still parse, and BAK is told it
  assert.deepEqual(responseSchema.parse(base).garage_updates,[]);
  assert.match(instructions,/GARAGE UPDATES/);assert.match(instructions,/never a value you suggested/);
 });
+import {mergeGarageDraft} from '../shared/garage-updates.ts';
+test('an open Garage edit keeps what the rider typed and picks up changes saved from chat',()=>{
+ const base={fork_compression:'12',geared_weight_lb:220,nickname_note:'x'};
+ const draft={...base,geared_weight_lb:205};                    // rider is editing weight on the phone
+ const server={...base,fork_compression:'14 out',installed_parts:[{s:'suspension',b:'Pro Circuit',n:'Linkage'}]}; // saved from chat meanwhile
+ const merged=mergeGarageDraft(draft,base,server);
+ assert.equal(merged.geared_weight_lb,205);assert.equal(merged.fork_compression,'14 out');assert.ok(Array.isArray(merged.installed_parts));
+});

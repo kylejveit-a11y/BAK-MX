@@ -39,3 +39,13 @@ export function applyGarageUpdates(configuration:Record<string,unknown>|null|und
  }
  return c;
 }
+/** A Garage edit open on one device while the same bike changed elsewhere (a save from chat, the web build sheet): keep the
+ *  fields the rider has edited in the open form, take everything else from the newer saved bike. */
+export function mergeGarageDraft(draft:Record<string,unknown>,base:Record<string,unknown>,server:Record<string,unknown>):Record<string,unknown>{
+ const out:Record<string,unknown>={...server},same=(a:unknown,b:unknown)=>JSON.stringify(a)===JSON.stringify(b);
+ for(const k of new Set([...Object.keys(draft),...Object.keys(base)])){
+  if(same(draft[k],base[k]))continue;
+  if(draft[k]===undefined)delete out[k];else out[k]=draft[k];
+ }
+ return out;
+}

@@ -5,6 +5,11 @@ export function bikeScope(bike:Bike|undefined):string {
   return bike ? JSON.stringify([bike.id,bike.updated_at,bike.manufacturer,bike.model,bike.model_year,bike.variant,bike.region,bike.configuration]) : 'none';
 }
 
+/** A chat belongs to the bike, not one version of its Garage: saving a part or a setting from the chat keeps the conversation. */
+export function chatScope(bike:Bike|undefined):string {
+  return bike ? JSON.stringify([bike.id,bike.manufacturer,bike.model,bike.model_year,bike.variant,bike.region]) : 'none';
+}
+
 export function createRequestGate(){
   let generation=0;
   return {
