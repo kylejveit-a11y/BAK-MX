@@ -5,7 +5,7 @@ import {readInstalled,writeInstalled,partSystemKeys,MAX_PARTS,type InstalledPart
 export type GarageUpdate={type:'part'|'setting';system:string;brand:string;name:string;field:string;value:string;current:string};
 const fields=new Map(allGarageFields.map(f=>[f.key,f]));
 const clip=(v:unknown,n:number)=>String(v??'').replace(/\s+/g,' ').trim().slice(0,n);
-export const garageFieldLabel=(key:string)=>fields.get(key)?.label.replace(/\s*\(.*\)$/,'')??key;
+export const garageFieldLabel=(key:string)=>fields.get(key)?.label.replace(/\s*\(.*\)$/,'').replace(/\s+settings?$/i,'')??key;
 /** Keep only well-formed proposals: a known Garage field with a value, or a part in a known build-sheet section. */
 export function cleanGarageUpdates(updates:unknown,hasBike:boolean):GarageUpdate[]{
  if(!hasBike||!Array.isArray(updates))return [];
