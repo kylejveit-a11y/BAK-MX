@@ -41,3 +41,12 @@ test('an open Garage edit keeps what the rider typed and picks up changes saved 
  const merged=mergeGarageDraft(draft,base,server);
  assert.equal(merged.geared_weight_lb,205);assert.equal(merged.fork_compression,'14 out');assert.ok(Array.isArray(merged.installed_parts));
 });
+import {aiConsentPoints,aiConsentKey} from '../shared/ai-consent.ts';
+import {readFileSync as rf} from 'node:fs';
+test('Ask BAK asks permission before sending anything to the AI provider, on web and iPhone',()=>{
+ const text=aiConsentPoints.join(' ');
+ assert.match(text,/OpenAI/);assert.match(text,/question/);assert.match(text,/Garage/);assert.match(text,/does not send your email/);
+ assert.match(aiConsentKey('u1'),/u1$/);
+ assert.match(rf('src/App.tsx','utf8'),/!aiOk\?<AiConsent/);
+ assert.match(rf('apps/mobile/src/App.tsx','utf8'),/\{!aiOk\?<Card>/);
+});

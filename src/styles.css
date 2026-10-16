@@ -981,3 +981,8 @@ body.sheet-open{overflow:hidden}
 .garage-updates .gu-text span{font-size:13px;color:#b5bfcd}
 .garage-updates .gu-text s{color:#8d95a3}
 .garage-updates.done{display:flex;gap:8px;align-items:center;font-size:13px;color:#b5bfcd}
+/* Ask BAK: one-time AI data-sharing consent in place of the question box */
+.ai-consent{display:grid;gap:12px}
+.ai-consent h3{margin:0;font-size:17px}
+.ai-consent ul{margin:0;padding-left:18px;display:grid;gap:6px;color:#b5bfcd;font-size:14px;line-height:1.5}
+.chat .ai-consent,.ai-consent{margin:12px 16px 16px;padding:18px;border:1px solid var(--line-strong);border-radius:16px;background:var(--panel,#121418)}
