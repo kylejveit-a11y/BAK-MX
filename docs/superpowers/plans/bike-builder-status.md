@@ -39,3 +39,17 @@ Source links identify public OEM reference material, not reusable licensed textu
 4. Verify gestures, full screen, hidden/background behavior and context recovery in a reachable browser/device build before enabling Garage preview.
 
 Do not mark the bike HD or OEM-verified until reference comparisons and device QA pass. Budget, native support, whole-inventory coverage, automatic photo-to-mesh generation and aftermarket visualization are not completed by this checkpoint.
+
+## Checkpoint 2 — side-reference refinement and part measurements
+
+The first checkpoint was uploaded using the GitHub connector (shell Git had no credentials). Its remote commit is `25273ddbb3c53db925b95309bcc9936a6d0e9ce7`; tree `42531ba70f93fa98eca07a8396350a20d155fd90` exactly matches local checkpoint `a205171`.
+
+Replaced round swingarm beams with tapered sections, replaced the engine's main box with a contoured case, refined side panel outlines from the recorded official right-side photograph, and aligned the exhaust outlet with the silencer. These are still artistic estimates, not measured OEM surfaces.
+
+Combined same-material geometry within each component: 277 mesh objects reduced to 33 before the nominal bar-clamp addition. All 13 component groups survive GLB export/reimport. This reduces potential draw overhead but does not constitute a measured frame-rate improvement. Export increased from about 1.67 MB to about 2.04 MB because batching expands indexed geometry; compression/index optimization remains open.
+
+Kyle requested vendor dimensions. Added `public/bike-builder/vendor-dimensions.json` and shared geometry anchors. Exact pilot inventory confirms 260/220 mm brake discs, 21/19-inch nominal rim diameters and 28 mm nominal handlebar clamp diameter. Model now consumes named anchors rather than unexplained numeric literals. Rim bead-seat dimensions do not establish tire envelopes or rim flange profile.
+
+Neken manufacturer table provides bend dimensions for R00182BK/SR, but an exact match to OEM 7900200100030 remains unconfirmed. Candidate dimensions are retained separately and not applied. Radiator and swingarm envelope dimensions were not verified in this pass. Do not derive them from bearing dimensions or product shipping fields. The ledger is downloadable from the studio.
+
+Next: verify OEM bar bend, find dimensioned radiator/exhaust/bodywork references, then refine front/top widths and compare all views. Browser/device QA and native implementation remain pending.

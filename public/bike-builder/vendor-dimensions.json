@@ -1,0 +1,127 @@
+{
+  "target": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2025,
+    "variant": "standard",
+    "region": "US"
+  },
+  "retrieved_at": "2026-10-16",
+  "policy": "Use actual component dimensions, not shipping package measurements. Cross-model dimensions require exact part-number or manufacturer fitment confirmation. Nominal dimensions do not verify complete mesh shape.",
+  "accepted_anchors": [
+    {
+      "part_number": "79009060000",
+      "component": "front-wheel",
+      "property": "outside_diameter",
+      "value": 260,
+      "unit": "mm",
+      "status": "EXACT_PILOT_CATALOG_NOMINAL",
+      "source_description": "BRAKE DISC FRONT 260MM 16",
+      "occurrence_id": "ktm-450-2025:row-267",
+      "source_urls": [
+        "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/59849?modelidentifier=1003417574&isEngine=False",
+        "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/10680?modelidentifier=1003417574&isEngine=False"
+      ],
+      "used_by": "frontDiscDiameter"
+    },
+    {
+      "part_number": "79010060000",
+      "component": "drivetrain",
+      "property": "outside_diameter",
+      "value": 220,
+      "unit": "mm",
+      "status": "EXACT_PILOT_CATALOG_NOMINAL",
+      "source_description": "BRAKE DISC REAR 220MM 16",
+      "occurrence_id": "ktm-450-2025:row-283",
+      "source_urls": [
+        "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/60087?modelidentifier=1003417574&isEngine=False",
+        "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/68022?modelidentifier=1003417574&isEngine=True"
+      ],
+      "used_by": "rearDiscDiameter"
+    },
+    {
+      "part_number": "7910907000030",
+      "component": "front-wheel",
+      "property": "nominal_rim_size",
+      "value": [
+        21,
+        1.6
+      ],
+      "unit": "inch",
+      "status": "EXACT_PILOT_CATALOG_NOMINAL",
+      "source_description": "Front Rim 21x1.60",
+      "occurrence_id": "ktm-450-2025:row-263",
+      "source_urls": [
+        "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/59849?modelidentifier=1003417574&isEngine=False",
+        "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/10680?modelidentifier=1003417574&isEngine=False"
+      ],
+      "used_by": "frontRimBeadSeatDiameter"
+    },
+    {
+      "part_number": "7911007000030",
+      "component": "drivetrain",
+      "property": "nominal_rim_size",
+      "value": [
+        19,
+        2.15
+      ],
+      "unit": "inch",
+      "status": "EXACT_PILOT_CATALOG_NOMINAL",
+      "source_description": "Rear rim 19x2.15",
+      "occurrence_id": "ktm-450-2025:row-282",
+      "source_urls": [
+        "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/60087?modelidentifier=1003417574&isEngine=False",
+        "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/68022?modelidentifier=1003417574&isEngine=True"
+      ],
+      "used_by": "rearRimBeadSeatDiameter"
+    },
+    {
+      "part_number": "7900200100030",
+      "component": "controls",
+      "property": "nominal_clamp_diameter",
+      "value": 28,
+      "unit": "mm",
+      "status": "EXACT_PILOT_CATALOG_NOMINAL",
+      "source_description": "HANDLEBAR D=28MM",
+      "occurrence_id": "ktm-450-2025:row-64",
+      "source_urls": [
+        "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/59885?modelidentifier=1003417574&isEngine=False",
+        "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/15055?modelidentifier=1003417574&isEngine=False",
+        "https://sparepartsfinder.ktm.com/ComponentGroupTemplate/Index/60028?modelidentifier=1003417574&isEngine=True"
+      ],
+      "used_by": "handlebarClampDiameter"
+    }
+  ],
+  "candidates": [
+    {
+      "part": "Neken R00182BK / R00182SR",
+      "source": "https://www.nk-neken.com/en/radical-standard-handlebars",
+      "dimensions_mm": {
+        "width": 817,
+        "height_A": 112,
+        "sweep_A": 70,
+        "height_B": 82,
+        "sweep_B": 82
+      },
+      "status": "MANUFACTURER_DIMENSIONS_OEM_MATCH_UNCONFIRMED",
+      "note": "Preserve manufacturer A/B conventions. Exact equivalence to KTM 7900200100030 is not established; no bend dimensions applied to OEM model."
+    }
+  ],
+  "unresolved": [
+    {
+      "part_number": "A46035007000",
+      "part": "Left radiator",
+      "status": "NO_VERIFIED_ENVELOPE_DIMENSIONS_FOUND"
+    },
+    {
+      "part_number": "A46035008000",
+      "part": "Right radiator",
+      "status": "NO_VERIFIED_ENVELOPE_DIMENSIONS_FOUND"
+    },
+    {
+      "part_number": "A46004230144",
+      "part": "Swingarm",
+      "status": "NO_VERIFIED_ENVELOPE_DIMENSIONS_FOUND"
+    }
+  ]
+}
