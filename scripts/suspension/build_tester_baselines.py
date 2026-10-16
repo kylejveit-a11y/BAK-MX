@@ -8,7 +8,7 @@ import json,os,re
 root=os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 d=json.load(open(os.path.join(root,'docs','research','suspension-knowledge','specialist','baselines.json')))
 def clean(o):
-    if isinstance(o,str): return re.sub(r"\b(Kris Keefer|Keefer|Motocross Action|MXA|Gardner Tarlow|Michael Allen|Kenny Day|Steve Havlicek|Drey Dircks|PulpMX)('s)?\b",'a tester',o)
+    if isinstance(o,str): return re.sub(r"\b(Kris Keefer|Keefer|Motocross Action|MXA|Gardner Tarlow|Michael Allen|Kenny Day|Steve Havlicek|Drey Dircks|PulpMX|Swapmoto Live|Swapmoto|Vital MX|Dirt Bike magazine|Dirt Bike|Racer X|Cycle News|Transmoto|Dirt Rider)('s)?\b",'a tester',o)
     if isinstance(o,dict): return {k:clean(v) for k,v in o.items() if v not in (None,'',[],{}) and clean(v) not in ('',{},[])}
     return o
 out={}

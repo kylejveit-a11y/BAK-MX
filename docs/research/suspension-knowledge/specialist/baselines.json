@@ -1,7 +1,7 @@
 {
  "slice": "tester baselines",
  "generated": "2026-10-15",
- "notes": "Values transcribed as printed (units, clicker convention, typos preserved, flagged '(as written)'). Keefer pages read via the site's public WordPress JSON API/HTML; MXA pages read via a page-reading fetch tool with verbatim-quote instructions. 'stock X' inside a value means the page itself stated the stock value. Variant bikes (Factory Edition, RWE, KX450SR) are filed under the base model with a 'variant' field. Relative-to-stock entries (e.g. '2 clicks softer') are kept as relative text.",
+ "notes": "Values transcribed as printed (units, clicker convention, typos preserved, flagged '(as written)'). Keefer pages read via the site's public WordPress JSON API/HTML; MXA pages read via a page-reading fetch tool with verbatim-quote instructions. 'stock X' inside a value means the page itself stated the stock value. Variant bikes (Factory Edition, RWE, KX450SR) are filed under the base model with a 'variant' field. Relative-to-stock entries (e.g. '2 clicks softer') are kept as relative text. Pass 2026-10-16 added 10 baselines for 9 bike-years; most two-stroke gaps have no published numeric settings.",
  "sources": [
   {
    "id": "src-kit-2026-250mx",
@@ -978,6 +978,78 @@
    "title": "2024 Cross-Country Battle! Honda CRF450RX vs. Kawasaki KX450X",
    "url": "https://motocrossactionmag.com/2024-cross-country-battle-honda-crf450rx-vs-kawasaki-kx450x",
    "date": "2024-05-28"
+  },
+  {
+   "id": "src-mxa-2021-yz250",
+   "publisher": "Motocross Action",
+   "title": "MXA RACE TEST: THE REAL TEST OF THE 2021 YAMAHA YZ250 TWO-STROKE",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-yamaha-yz250-two-stroke/",
+   "date": "2021-06-11",
+   "kind": "magazine test"
+  },
+  {
+   "id": "src-mxa-2025-yz125-yz250",
+   "publisher": "Motocross Action",
+   "title": "MXA RACE TEST: 2025 YAMAHA'S LEGACY TWO-STROKES: 2025 YZ125 & YZ250",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2025-yamahas-legacy-two-strokes-2025-yz125-yz250/",
+   "date": "2025-06-25",
+   "kind": "magazine test"
+  },
+  {
+   "id": "src-keefer-2026-450mx",
+   "publisher": "Keefer Inc Testing",
+   "title": "2026 450 MX Baseline Suspension Settings",
+   "url": "https://www.keeferinctesting.com/?p=29670",
+   "date": "2026-03-30",
+   "kind": "tester setup"
+  },
+  {
+   "id": "src-keefer-2026-250mx",
+   "publisher": "Keefer Inc Testing",
+   "title": "2026 250 MX Baseline Suspension Settings",
+   "url": "https://www.keeferinctesting.com/2026-250-mx-baseline-suspension-settings/",
+   "date": "2026-06-10",
+   "kind": "tester setup"
+  },
+  {
+   "id": "src-mxa-2022-350sxf",
+   "publisher": "Motocross Action",
+   "title": "MXA RACE TEST: THE REAL TEST OF THE 2022 KTM 350SXF",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-350sxf/",
+   "date": "2022-04-22",
+   "kind": "magazine test"
+  },
+  {
+   "id": "src-mxa-2020-midsize-shootout",
+   "publisher": "Motocross Action",
+   "title": "2020 MXA MIDSIZE SHOOTOUT: TWO MIDDLEWEIGHTS & ONE WELTERWEIGHT",
+   "url": "https://motocrossactionmag.com/2020-mxa-midsize-shootout-two-middleweights-one-welterweight/",
+   "date": "2020-04-04",
+   "kind": "magazine test"
+  },
+  {
+   "id": "src-dirtbike-2025-tf450rc",
+   "publisher": "Dirt Bike Magazine",
+   "title": "TRIUMPH TF450-RC EDITION REVISITED",
+   "url": "https://dirtbikemagazine.com/?p=100006",
+   "date": "2025-07-16",
+   "kind": "magazine test"
+  },
+  {
+   "id": "src-dirtbiketest-2025-tf450rc",
+   "publisher": "Dirt Bike Test",
+   "title": "2025 Triumph TF450-RC - Dirt Bike Test (20-hour test)",
+   "url": "https://dirtbiketest.com/bike-tests/20-hour-test-triumph-tf450-rc/",
+   "date": "",
+   "kind": "magazine test"
+  },
+  {
+   "id": "src-dirtrider-2025-tc150",
+   "publisher": "Dirt Rider",
+   "title": "2025 Husqvarna TC 150 Technical Overview",
+   "url": "https://dirtrider.com/dirt-bikes/husqvarna-tc-150-technical-overview",
+   "date": "2025-01-22",
+   "kind": "magazine test"
   }
  ],
  "baselines": [
@@ -7427,6 +7499,336 @@
    },
    "other": "",
    "reasons": "Bike felt pitchy with weight transfer; changes fixed it. Some testers liked up to 108mm sag."
+  },
+  {
+   "id": "bl2-001",
+   "make": "Yamaha",
+   "model": "YZ250",
+   "year": 2021,
+   "source_id": "src-mxa-2021-yz250",
+   "rider": {
+    "weight_lb": null,
+    "height": "",
+    "speed": "MXA test riders (hardcore racing setup)",
+    "notes": ""
+   },
+   "conditions": "",
+   "fork": {
+    "spring_or_air": "0.43 kg/mm",
+    "compression": "13 clicks out",
+    "rebound": "14 clicks out",
+    "height": "5mm up (10mm up)",
+    "oil": "",
+    "notes": "Kayaba SSS. Stock values in parentheses where the page gives them; no stock fork compression/rebound listed."
+   },
+   "shock": {
+    "spring": "4.7 kg/mm",
+    "rider_sag": "105mm",
+    "static_sag": "",
+    "hsc": "1-3/4 turns out (1-1/2 turns out)",
+    "lsc": "8 clicks out (13 clicks out)",
+    "rebound": "8 clicks out (12 clicks out)",
+    "notes": "Stock values in parentheses."
+   },
+   "other": "",
+   "reasons": "Full MXA setup-specs box for the model year."
+  },
+  {
+   "id": "bl2-002",
+   "make": "Yamaha",
+   "model": "YZ250",
+   "year": 2025,
+   "source_id": "src-mxa-2025-yz125-yz250",
+   "rider": {
+    "weight_lb": null,
+    "height": "",
+    "speed": "Whole skill range (per MXA)",
+    "notes": ""
+   },
+   "conditions": "",
+   "fork": {
+    "spring_or_air": "",
+    "compression": "a couple of clicks out",
+    "rebound": "",
+    "height": "",
+    "oil": "",
+    "notes": "Source: 'the Kayaba forks just need a couple of clicks out on compression to make them fit the whole skill range.' No absolute values."
+   },
+   "shock": {
+    "spring": "",
+    "rider_sag": "",
+    "static_sag": "",
+    "hsc": "",
+    "lsc": "",
+    "rebound": "",
+    "notes": ""
+   },
+   "other": "",
+   "reasons": "Single relative fork change only; no fork height, sag or shock clickers on the page."
+  },
+  {
+   "id": "bl2-003",
+   "make": "Husqvarna",
+   "model": "FC 450",
+   "year": 2026,
+   "source_id": "src-keefer-2026-450mx",
+   "rider": {
+    "weight_lb": null,
+    "height": "",
+    "speed": "",
+    "notes": "Over 190 lb: 48 N/m shock spring recommended."
+   },
+   "conditions": "",
+   "fork": {
+    "spring_or_air": "10.9 Bar or 158 PSI",
+    "compression": "12 clicks out",
+    "rebound": "13 clicks out",
+    "height": "3mm",
+    "oil": "",
+    "notes": "Stock triple clamp. With aftermarket triple clamp: Height 3mm, Air Pressure 10.9 Bar, Compression 14 clicks out, Rebound 13 clicks out."
+   },
+   "shock": {
+    "spring": "45 N/m",
+    "rider_sag": "102mm",
+    "static_sag": "",
+    "hsc": "1.25 out",
+    "lsc": "8 clicks out",
+    "rebound": "9 clicks out",
+    "notes": "If over 190 pounds a 48 N/m is best."
+   },
+   "other": "",
+   "reasons": "Source says: 'There isn't a Husqvarna FC450 for 2026 so below is a repeat of 2025 for you.' Recorded for 2026 because the page lists it as the 2026 FC450 entry; settings are the 2025 carry-over."
+  },
+  {
+   "id": "bl2-004",
+   "make": "Husqvarna",
+   "model": "FC 250",
+   "year": 2026,
+   "source_id": "src-keefer-2026-250mx",
+   "rider": {
+    "weight_lb": null,
+    "height": "",
+    "speed": "",
+    "notes": "KTM/Husqvarna/Gas Gas group settings stated for 150-180 lb riders; no separate range for the Husqvarna."
+   },
+   "conditions": "",
+   "fork": {
+    "spring_or_air": "10.7 bar",
+    "compression": "14 clicks out",
+    "rebound": "9 clicks out",
+    "height": "5mm",
+    "oil": "",
+    "notes": "AER fork."
+   },
+   "shock": {
+    "spring": "42 N/m",
+    "rider_sag": "102mm",
+    "static_sag": "",
+    "hsc": "1.5-1.75",
+    "lsc": "10 clicks out",
+    "rebound": "11 clicks out",
+    "notes": ""
+   },
+   "other": "",
+   "reasons": "Source says: 'Husqvarna doesn't make a 2026 model so these comments roll over into 2025.' Settings are the 2025 carry-over listed on the 2026 page. Same article as existing source src-kit-2026-250mx; dedupe if needed."
+  },
+  {
+   "id": "bl2-005",
+   "make": "KTM",
+   "model": "350 SX-F",
+   "year": 2022,
+   "source_id": "src-mxa-2022-350sxf",
+   "rider": {
+    "weight_lb": null,
+    "height": "",
+    "speed": "Average rider, hardcore racing",
+    "notes": ""
+   },
+   "conditions": "",
+   "fork": {
+    "spring_or_air": "Pros (10.6 bar, 155 psi), intermediates (10.3 bar, 150 psi), fast novices (10.0 bar), novices; vets (9.6 bar, 140 psi)",
+    "compression": "15 clicks out (12 clicks out stock)",
+    "rebound": "10 clicks out (12 clicks out stock)",
+    "height": "Third line",
+    "oil": "",
+    "notes": "WP XACT air fork. Bleed outer chambers at regular intervals; reset air pressure between motos after forks cool."
+   },
+   "shock": {
+    "spring": "45 N/mm",
+    "rider_sag": "105mm",
+    "static_sag": "",
+    "hsc": "1-1/4 turns out (1-1/2 turns out stock)",
+    "lsc": "15 clicks out",
+    "rebound": "10 clicks out (15 clicks out stock)",
+    "notes": "HSC turned in 1/4 turn to lessen G-outs; LSC kept near stock 15 out."
+   },
+   "other": "",
+   "reasons": "Full MXA setup-specs box."
+  },
+  {
+   "id": "bl2-006",
+   "make": "Husqvarna",
+   "model": "FC 350",
+   "year": 2020,
+   "source_id": "src-mxa-2020-midsize-shootout",
+   "rider": {
+    "weight_lb": null,
+    "height": "",
+    "speed": "",
+    "notes": "Husqvarna aimed the 2020 setup at Vet racers (per MXA)."
+   },
+   "conditions": "",
+   "fork": {
+    "spring_or_air": "155 psi (recommended; up 3 psi from 152 psi)",
+    "compression": "",
+    "rebound": "",
+    "height": "",
+    "oil": "oil height raised by 20cc (factory change)",
+    "notes": "These are Husqvarna's own 2020 factory changes as reported by MXA, not an MXA tuning recommendation."
+   },
+   "shock": {
+    "spring": "42 N/mm (stock)",
+    "rider_sag": "",
+    "static_sag": "",
+    "hsc": "",
+    "lsc": "",
+    "rebound": "",
+    "notes": "Lighter than the KTM 350SXF's 45 N/mm."
+   },
+   "other": "",
+   "reasons": "Stock/factory spec only; no clicker, sag or fork-height values."
+  },
+  {
+   "id": "bl2-007",
+   "make": "Triumph",
+   "model": "TF 450-RC Edition",
+   "year": 2025,
+   "source_id": "src-dirtbike-2025-tf450rc",
+   "rider": {
+    "weight_lb": 170,
+    "height": "",
+    "speed": "Intermediate",
+    "notes": ""
+   },
+   "conditions": "",
+   "fork": {
+    "spring_or_air": "",
+    "compression": "",
+    "rebound": "",
+    "height": "",
+    "oil": "",
+    "notes": "KYB felt softer than expected; front sits high in its travel, allowing more rear preload."
+   },
+   "shock": {
+    "spring": "",
+    "rider_sag": "100mm",
+    "static_sag": "",
+    "hsc": "",
+    "lsc": "",
+    "rebound": "",
+    "notes": "'Most test riders liked it right at 100mm of sag.'"
+   },
+   "other": "",
+   "reasons": "Sag only; no clicker values on page."
+  },
+  {
+   "id": "bl2-008",
+   "make": "Triumph",
+   "model": "TF 450-RC Edition",
+   "year": 2025,
+   "source_id": "src-dirtbiketest-2025-tf450rc",
+   "rider": {
+    "weight_lb": null,
+    "height": "",
+    "speed": "",
+    "notes": "Vet riders preferred 104mm sag; faster riders 101mm. Fork oil change was for a 200-lb rider."
+   },
+   "conditions": "",
+   "fork": {
+    "spring_or_air": "",
+    "compression": "a little stiffer",
+    "rebound": "slowed a few clicks",
+    "height": "",
+    "oil": "raised oil height, added 10cc per leg (200-lb rider)",
+    "notes": ""
+   },
+   "shock": {
+    "spring": "",
+    "rider_sag": "101mm-104mm",
+    "static_sag": "",
+    "hsc": "",
+    "lsc": "",
+    "rebound": "slowed a few clicks",
+    "notes": "'we did go a little stiffer on compression and slowed down the rebound front and rear a few clicks.'"
+   },
+   "other": "",
+   "reasons": "Relative changes only; no absolute clicker values. Page has no publication date."
+  },
+  {
+   "id": "bl2-009",
+   "make": "Husqvarna",
+   "model": "TC 150",
+   "year": 2025,
+   "source_id": "src-dirtrider-2025-tc150",
+   "rider": {
+    "weight_lb": null,
+    "height": "",
+    "speed": "",
+    "notes": ""
+   },
+   "conditions": "",
+   "fork": {
+    "spring_or_air": "",
+    "compression": "",
+    "rebound": "",
+    "height": "",
+    "oil": "",
+    "notes": "Baseline air pressure is on a sticker on the right fork leg; value not given."
+   },
+   "shock": {
+    "spring": "39 Nm (stock)",
+    "rider_sag": "",
+    "static_sag": "",
+    "hsc": "",
+    "lsc": "",
+    "rebound": "",
+    "notes": "Unit as printed by source."
+   },
+   "other": "",
+   "reasons": "Stock shock spring rate only."
+  },
+  {
+   "id": "bl2-010",
+   "make": "Husqvarna",
+   "model": "TC 125",
+   "year": 2025,
+   "source_id": "src-dirtrider-2025-tc150",
+   "rider": {
+    "weight_lb": null,
+    "height": "",
+    "speed": "",
+    "notes": ""
+   },
+   "conditions": "",
+   "fork": {
+    "spring_or_air": "",
+    "compression": "",
+    "rebound": "",
+    "height": "",
+    "oil": "",
+    "notes": ""
+   },
+   "shock": {
+    "spring": "39 Nm (stock)",
+    "rider_sag": "",
+    "static_sag": "",
+    "hsc": "",
+    "lsc": "",
+    "rebound": "",
+    "notes": "Source: 'Shock spring rate on Husqvarna's two smallest-displacement full-size motocrossers (the TC 125 and TC 150) is 39 Nm.'"
+   },
+   "other": "",
+   "reasons": "Stock shock spring rate only; source explicitly states it applies to the TC 125."
   }
  ],
  "gaps": [
@@ -7488,7 +7890,46 @@
   "Yamaha YZ250X 2021+, YZ125X 2022+, YZ250FX 2022+: still nothing found with numbers (Cycle News 2024 YZ250X review: none).",
   "MXA 2023 GasGas MC125 test update and 2023 Husqvarna TC125 test update: no numeric settings (checked). Transmoto 2023 Husqvarna MX range test: none.",
   "MXA 2024 CRF450RX vs KX450X: CRF450RX has no numbers (only 'drop forks flush' alongside a Ride Engineering 23.5mm clamp recommendation) - not recorded; KX450X 105mm sag / 2mm fork height recorded.",
-  "Skipped as duplicates of already-recorded values: Keefer 2023 CRF250R set-up specs post (same as 2023 250 bible) and 2023 KTM 350 SX-F 'Church of 350' post (same clickers as recorded, sag 103 vs 106)."
+  "Skipped as duplicates of already-recorded values: Keefer 2023 CRF250R set-up specs post (same as 2023 250 bible) and 2023 KTM 350 SX-F 'Church of 350' post (same clickers as recorded, sag 103 vs 106).",
+  "GasGas MC 125 2022: No published setup found within search budget.",
+  "GasGas MC 125 2023: MXA 2023 test update and 125 shootout give no numeric settings.",
+  "GasGas MC 125 2024: No published setup found within search budget.",
+  "GasGas MC 125 2025: No published setup found within search budget.",
+  "GasGas MC 125 2026: No published setup found within search budget.",
+  "GasGas MC 250 2024: Keefer's 2024 250 MX baseline 'Gas Gas MC250' is the four-stroke MC 250F; not usable for the two-stroke.",
+  "GasGas MC 250 2025: Keefer's 2025 250 MX baseline 'Gas Gas MC250' is the four-stroke MC 250F; not usable for the two-stroke.",
+  "GasGas MC 250 2026: Keefer's 2026 250 MX baseline 'Gas Gas MC250' is the four-stroke MC 250F; not usable for the two-stroke.",
+  "GasGas MC 250F 2027: No published setup found within search budget.",
+  "GasGas MC 350F 2022: No published setup found within search budget.",
+  "GasGas MC 350F 2024: MXA 2024 350 shootout gives only a 42 N/mm shock spring statement; no setup.",
+  "GasGas MC 350F 2025: MXA 2025 MC350F race test has no setup specs (specs chart is an image).",
+  "GasGas MC 450F 2027: Keefer 2026 450 MX baseline covers MC450 but not labeled 2027; not copied.",
+  "Husqvarna FC 250 2027: No published setup found within search budget.",
+  "Husqvarna FC 350 2024: MXA 2024 FC350 race test and 2024 350 shootout give no numeric settings. Keefer 2025 KTM 350 SX-F baseline explicitly says it does not work on the FC350.",
+  "Husqvarna FC 350 2025: No published setup found within search budget.",
+  "Husqvarna FC 350 2027: No published setup found within search budget.",
+  "Husqvarna FC 450 2027: No published setup found within search budget.",
+  "Husqvarna TC 125 2021: No published setup found within search budget.",
+  "Husqvarna TC 125 2023: No published setup found within search budget.",
+  "Husqvarna TC 125 2024: No published setup found within search budget.",
+  "Husqvarna TC 125 2026: No published setup found within search budget.",
+  "Husqvarna TC 250 2022: No published setup found within search budget.",
+  "Husqvarna TC 250 2024: No published setup found within search budget.",
+  "Husqvarna TC 250 2025: Dirt Rider 2025 TC 250 Heritage first ride has no settings in fetched text.",
+  "Husqvarna TC 250 2026: No published setup found within search budget.",
+  "Husqvarna TC 300 2025: No published setup found within search budget.",
+  "KTM 250 SX-F 2027: No published setup found within search budget.",
+  "KTM 350 SX-F 2020: MXA 2020 midsize shootout gives only stock 45 N/mm shock spring; not recorded.",
+  "KTM 350 SX-F 2026: No published setup found within search budget.",
+  "KTM 350 SX-F 2027: No published setup found within search budget.",
+  "KTM 450 SX-F 2027: Keefer 2026 450 MX baseline and 2026 450 Factory Edition settings not labeled 2027; not copied.",
+  "Yamaha YZ125 2021: MXA 2021 race test page has no setup-specs box.",
+  "Yamaha YZ125 2023: MXA 2023 test update and 125 shootout give only spring-rate change history (4.2 to 4.3 fork, 46 to 48 shock), no setup.",
+  "Yamaha YZ125 2026: No published setup found within search budget.",
+  "Yamaha YZ125 2027: No published setup found within search budget.",
+  "Yamaha YZ250 2020: MXA 2020 race test and Cahuilla test pages have no setup specs.",
+  "Yamaha YZ250 2026: No published setup found within search budget.",
+  "Yamaha YZ250 2027: No published setup found within search budget."
  ],
  "not_done": [
   "MXA race tests that likely carry setup specs but could not be reached: search engine did not surface 2021 KTM 300SX/125SX, 2021-2023 KTM 250/300XC, 2021-2023 YZ125X/YZ250X, 2022-2024 YZ250FX, 2021-2023 TX300, 2021 KX250X, 2020-2021 CRF450RX/CRF250RX race tests; MXA blocks direct fetch (403 to curl) and guessed URLs are refused by the page-reading tool, so a URL must come from search first.",
