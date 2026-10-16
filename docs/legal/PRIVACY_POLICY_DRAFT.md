@@ -25,7 +25,7 @@ comments, likes, events you create and RSVPs, direct messages with other riders,
 
 **Feedback** you send us.
 
-**Purchases.** Subscription status, product, store and renewal dates. App Store purchases are processed by Apple and managed
+**Purchases.** Plan, subscription status, product, store and renewal dates; credit packs bought, free question sets started, and your question and credit balance. App Store purchases are processed by Apple and managed
 through RevenueCat; web purchases are processed by Stripe. We do not receive or store your card number.
 
 We do not use advertising SDKs, do not track you across other companies' apps or websites, and do not sell personal

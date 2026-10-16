@@ -7,7 +7,9 @@ import type {Bike,Claim,Message} from '../shared/types.ts';
 import {authenticate,adminDb,checked,configured} from './database.ts';
 import {HttpError,readJson,bikeSchema,serviceSchema,conversationSchema,chatSchema,uuid} from './validation.ts';
 import {applicableClaims,generateAnswer,planSpecLookups,PROMPT_VERSION} from './engineering.ts';
-import {handleBilling,hasPaidAccess,consumeAiQuota,prepareAccountDeletion} from './billing.ts';
+import {handleBilling,hasPaidAccess,prepareAccountDeletion} from './billing.ts';
+import {resolveTier,usageFor,reserveQuestion,ensureTrial,startNextTrialSet} from './plans.ts';
+import {limitMessage} from '../shared/plans.ts';
 import {handleMobileBilling} from './mobile-billing.ts';
 import {handleRiderSurfaces} from './rider-surfaces.ts';
 import {handleModeration} from './moderation.ts';
@@ -24,7 +26,7 @@ async function route(req:Request):Promise<Response>{const url=new URL(req.url),o
  if(path==='/api/service-events'&&method==='DELETE')path+='/'+uuid.parse(url.searchParams.get('id'));
  if(path==='/api/conversations'&&method==='DELETE')path+='/'+uuid.parse(url.searchParams.get('id'));
  if(path==='/api/health'&&method==='GET'){const ready=configured()&&Boolean(process.env.OPENAI_API_KEY&&process.env.OPENAI_MODEL);return json({status:ready?'configured':'not_ready',ready,live_dependencies_verified:false},ready?200:503);}
- if((path==='/api/billing/webhook'&&method==='POST')||(path==='/api/billing/price'&&method==='GET')){return await handleBilling(req,null,null)??json({error:'Not found'},404);}
+ if((path==='/api/billing/webhook'&&method==='POST')||(path==='/api/billing/price'&&method==='GET')||(path==='/api/billing/plans'&&method==='GET')){return await handleBilling(req,null,null)??json({error:'Not found'},404);}
  if(path==='/api/mobile/webhook'&&method==='POST')return await handleMobileBilling(req,null)??json({error:'Not found'},404);
  if(path==='/api/eval/ask'&&method==='POST')return await handleEval(req);
  const {db,user,token}=await authenticate(req);
@@ -57,6 +59,15 @@ async function route(req:Request):Promise<Response>{const url=new URL(req.url),o
   if(native?.status==='active'&&native.current_period_end&&Date.parse(native.current_period_end)>Date.now())return json({...native,cancel_at_period_end:false,billing_provider:'store'});
   return json({...website??{status:'none',current_period_end:null,cancel_at_period_end:false},billing_provider:'web'});
  }
+ if(path==='/api/usage'&&method==='GET'){
+  // Plan, today's included questions and credit balance. Paid status is refreshed from the provider first when it is stale.
+  const tier=await hasPaidAccess(owner)?await resolveTier(owner):'free',mode=aiAccessMode();await ensureTrial(owner,tier);return json({...await usageFor(owner,tier,mode),access_mode:mode});
+ }
+ if(path==='/api/usage/next-set'&&method==='POST'){
+  const tier=await hasPaidAccess(owner)?await resolveTier(owner):'free';if(tier!=='free')throw new HttpError(409,'Free question sets are part of the Free plan.');
+  const n=await startNextTrialSet(owner);if(n===-1)throw new HttpError(409,'You still have questions left in this set.');if(n===0)throw new HttpError(409,"You've used all your free sets. Add a credit pack or choose a plan to keep asking BAK.");
+  return json({...await usageFor(owner,tier,aiAccessMode()),started_set:n});
+ }
  if(path==='/api/chat'&&method==='POST'){
   const data=chatSchema.parse(await readJson(req));const admin=adminDb();
   checked(await admin.from('ai_requests').update({state:'failed',error_code:'worker_timeout',completed_at:new Date().toISOString()}).eq('user_id',owner).eq('state','processing').lt('created_at',new Date(Date.now()-300000).toISOString()));
@@ -65,7 +76,8 @@ async function route(req:Request):Promise<Response>{const url=new URL(req.url),o
   // A request recorded as failed produced no answer, so the same rider sending the same question again is a retry, not a duplicate. It is re-run under the same ID.
   const rerun=Boolean(existing);
   if(!process.env.OPENAI_API_KEY||!process.env.OPENAI_MODEL)throw new HttpError(503,'AI is not configured');
-  if(aiAccessMode()==='subscription'&&!await hasPaidAccess(owner))throw new HttpError(402,'An active subscription is required for Ask BAK');
+  // Plan rules: Free riders use their trial sets and any credits; Premium and Pro get their daily allowance, then credits.
+  const paid=await hasPaidAccess(owner),tier=paid?await resolveTier(owner):'free',mode=aiAccessMode();await ensureTrial(owner,tier);
   const conversation=checked(await db.from('conversations').select('*').eq('id',data.conversation_id).eq('user_id',owner).maybeSingle());if(!conversation)throw new HttpError(404,'Conversation not found');
   // A conversation without a build is a general question: no saved bike, no published-value lookup.
   const bike=conversation.bike_id?checked(await db.from('bikes').select('*').eq('id',conversation.bike_id).eq('user_id',owner).single()) as Bike:null;
@@ -76,7 +88,7 @@ async function route(req:Request):Promise<Response>{const url=new URL(req.url),o
   if(lock.error){if(lock.error.code==='23505')throw new HttpError(409,'A request is already processing for this conversation');throw new HttpError(503,'Could not reserve request');}
   type Emit=(event:Record<string,unknown>)=>void;
   const run=async(emit:Emit)=>{
-   /* A re-run was already counted against the allowance when it first ran. */if(!await consumeAiQuota(owner,data.request_id)&&!rerun)throw new HttpError(429,'Daily AI allowance reached');
+   /* A re-run was already counted against the allowance when it first ran ('duplicate'). */const reserved=await reserveQuestion(owner,data.request_id,tier,mode);if(reserved==='limit'||(reserved==='duplicate'&&!rerun))throw new HttpError(429,reserved==='limit'?limitMessage((await usageFor(owner,tier,mode))):'Daily AI allowance reached');
    emit({type:'status',stage:'specs'});
    const t0=Date.now();const lookups=bike?await planSpecLookups(bike,history,data.message):[];const t1=Date.now();const claims=bike?await searchBikeClaims(db,bike,lookups):[];const t2=Date.now();
    checked(await admin.from('ai_requests').update({claims_snapshot:claims}).eq('request_id',data.request_id).eq('user_id',owner).eq('state','processing'));

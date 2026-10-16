@@ -18,3 +18,9 @@ Items Kyle asked to keep on the list. Not started unless marked.
   answer pipeline on the test bike in the request; never reads or writes rider accounts, chats or AI allowance.
 - Tokens: SHA-256 hashes in eval_access_tokens (30-day expiry, 200 runs/day). Every run is logged in eval_runs.
 - Shut it off: `update eval_access_tokens set revoked_at=now()` (one token or all). Runs bill the OpenAI account.
+
+## Plans and credits (built 2026-10-16; goes live when AI_ACCESS_MODE=subscription)
+- Free: one-time 7 sets of 20 questions (first set ready on day one, rider starts each next set). Premium 100/day. Pro unlimited (fair use 300/day). Credit packs never expire, used after included questions.
+- Proposed prices (awaiting Kyle): Premium $7.99/mo or $59.99/yr; Pro $14.99/mo or $119.99/yr; credits 25 for $2.99, 100 for $9.99.
+- Owner setup before launch: App Store Connect subscriptions (Premium, Pro; monthly and yearly) and consumables (credit packs); RevenueCat entitlements `bakmx_premium`, `bakmx_pro` and an offering with all packages; Stripe prices; env vars per .env.example.
+- Known gap: deleting an account and signing up again gets a new free trial (one trial per account, not per person).

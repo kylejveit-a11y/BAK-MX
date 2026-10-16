@@ -25,13 +25,21 @@ maintenance. [OWNER/COUNSEL: limitation-of-liability and assumption-of-risk word
 You must provide a valid email and keep your password secure. You can delete your account at any time in the app.
 [OWNER: minimum age.]
 
-## 4. Membership
+## 4. Plans, credits and billing
 
-Ask BAK requires a paid membership. On iPhone, it is sold as an auto-renewing subscription through Apple: payment is charged to
-your Apple ID, it renews automatically unless cancelled at least 24 hours before the end of the period, and you manage or
-cancel it in your Apple ID subscription settings. On the web, it is billed by Stripe and can be cancelled in the account
-screen. Ask BAK has a daily usage limit [OWNER: state the limit, default 40 questions per day]. Prices and plans are shown
-before purchase. [OWNER: refunds policy; App Store refunds are handled by Apple.]
+- **Free:** a new account gets 7 sets of 20 Ask BAK questions, one time. When a set is used up you can start the next set
+  whenever you choose. After the last set, Ask BAK needs credits or a paid plan; your Garage, logs and community stay free.
+- **Premium:** 100 Ask BAK questions per day.
+- **Pro:** unlimited Ask BAK questions for personal use, subject to fair use. To protect the service we may limit unusually
+  heavy or automated use (currently above 300 questions in a day).
+- **Credits:** sold in packs, do not expire, and are used only after your plan's included questions for the day. Credits have
+  no cash value and are not transferable. Unused free sets and credits end if you delete your account.
+- Daily allowances reset at midnight UTC.
+
+On iPhone, plans and credits are sold through Apple: payment is charged to your Apple ID, subscriptions renew automatically
+unless cancelled at least 24 hours before the end of the period, and you manage or cancel them in your Apple ID subscription
+settings. On the web, they are billed by Stripe; manage or cancel in the account screen. Prices are shown before purchase.
+[OWNER: refunds policy for web purchases; App Store refunds are handled by Apple.]
 
 ## 5. Community rules
 
