@@ -1,0 +1,1013 @@
+{
+  "target": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2005,
+    "variant": "standard",
+    "region": "US"
+  },
+  "assemblies": [],
+  "parts": [],
+  "facts": [
+    {
+      "id": "honda-2005-crf450r-spec-dimension-overall-length",
+      "property": "dimensions",
+      "joint": "Dimension / Overall length",
+      "value": "2191",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-dimension-overall-width",
+      "property": "dimensions",
+      "joint": "Dimension / Overall width",
+      "value": "821",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-dimension-overall-height",
+      "property": "dimensions",
+      "joint": "Dimension / Overall height",
+      "value": "1274",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-dimension-wheelbase",
+      "property": "dimensions",
+      "joint": "Dimension / Wheelbase",
+      "value": "1493",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-dimension-seat-height",
+      "property": "dimensions",
+      "joint": "Dimension / Seat height",
+      "value": "959",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-dimension-footpeg-height",
+      "property": "dimensions",
+      "joint": "Dimension / Footpeg height",
+      "value": "432",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-dimension-ground-clearance",
+      "property": "dimensions",
+      "joint": "Dimension / Ground clearance",
+      "value": "344",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-dimension-dry-weight",
+      "property": "dimensions",
+      "joint": "Dimension / Dry weight",
+      "value": "103.3",
+      "unit": "kg",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-frame-type",
+      "property": "other",
+      "joint": "Frame / Type",
+      "value": "Twin tube",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-frame-fuel-capacity",
+      "property": "other",
+      "joint": "Frame / Fuel capacity",
+      "value": "7.2",
+      "unit": "L",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-frame-caster-angle",
+      "property": "other",
+      "joint": "Frame / Caster angle",
+      "value": "26˚58’",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-frame-trail-length",
+      "property": "dimensions",
+      "joint": "Frame / Trail length",
+      "value": "110.5",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-engine-type",
+      "property": "other",
+      "joint": "Engine / Type",
+      "value": "Liquid cooled, 4-stroke",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-engine-cylinder-arrangement",
+      "property": "other",
+      "joint": "Engine / Cylinder arrangement",
+      "value": "Single 6˚ inclined from vertical",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-engine-bore-and-stroke",
+      "property": "dimensions",
+      "joint": "Engine / Bore and stroke",
+      "value": "96.0 x 62.1",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-engine-displacement",
+      "property": "other",
+      "joint": "Engine / Displacement",
+      "value": "449.4",
+      "unit": "cm³",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-engine-compression-ratio",
+      "property": "other",
+      "joint": "Engine / Compression ratio",
+      "value": "12.0 : 1",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-carburetor-type",
+      "property": "other",
+      "joint": "Carburetor / Type",
+      "value": "Piston valve",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-carburetor-identification-number",
+      "property": "other",
+      "joint": "Carburetor / Identification number",
+      "value": "FCR00D",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-carburetor-main-jet-standard",
+      "property": "other",
+      "joint": "Carburetor / Main jet (standard)",
+      "value": "# 168",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-carburetor-jet-needle-standard",
+      "property": "other",
+      "joint": "Carburetor / Jet needle (standard)",
+      "value": "NGGQ",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-carburetor-needle-clip-position-standard",
+      "property": "other",
+      "joint": "Carburetor / Needle clip position (standard)",
+      "value": "4th groove",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-carburetor-slow-jet-standard",
+      "property": "other",
+      "joint": "Carburetor / Slow jet (standard)",
+      "value": "# 42",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-carburetor-pilot-screw-opening",
+      "property": "other",
+      "joint": "Carburetor / Pilot screw opening",
+      "value": "1 7/8 turns out",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-carburetor-float-level",
+      "property": "dimensions",
+      "joint": "Carburetor / Float level",
+      "value": "8.0",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-drive-train-clutch-type",
+      "property": "other",
+      "joint": "Drive train / Clutch type",
+      "value": "Wet, multi-plate type",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-drive-train-transmission",
+      "property": "other",
+      "joint": "Drive train / Transmission",
+      "value": "5-speed, constant mesh",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-drive-train-primary-reduction",
+      "property": "other",
+      "joint": "Drive train / Primary reduction",
+      "value": "2.739",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-drive-train-gear-ratio-i",
+      "property": "other",
+      "joint": "Drive train / Gear ratio I",
+      "value": "1.800",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-drive-train-gear-ratio-ii",
+      "property": "other",
+      "joint": "Drive train / Gear ratio II",
+      "value": "1.470",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-drive-train-gear-ratio-iii",
+      "property": "other",
+      "joint": "Drive train / Gear ratio III",
+      "value": "1.235",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-drive-train-gear-ratio-iv",
+      "property": "other",
+      "joint": "Drive train / Gear ratio IV",
+      "value": "1.050",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-drive-train-gear-ratio-v",
+      "property": "other",
+      "joint": "Drive train / Gear ratio V",
+      "value": "0.909",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-drive-train-final-reduction",
+      "property": "other",
+      "joint": "Drive train / Final reduction",
+      "value": "3.692",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-drive-train-gear-shift-pattern",
+      "property": "other",
+      "joint": "Drive train / Gear shift pattern",
+      "value": "Left foot-operated return system 1-N-2-3-4-5",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-electrical-ignition",
+      "property": "other",
+      "joint": "Electrical / Ignition",
+      "value": "ICM",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-electrical-starting-system",
+      "property": "other",
+      "joint": "Electrical / Starting system",
+      "value": "Kickstarter",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-engine-engine-oil-capacity-after-draining",
+      "property": "other",
+      "joint": "Engine / Engine oil capacity / After draining",
+      "value": "660",
+      "unit": "cm³",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-engine-engine-oil-capacity-after-draining-and-oil-filter-change",
+      "property": "other",
+      "joint": "Engine / Engine oil capacity / After draining and oil filter change",
+      "value": "690",
+      "unit": "cm³",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-engine-engine-oil-capacity-after-disassembly",
+      "property": "other",
+      "joint": "Engine / Engine oil capacity / After disassembly",
+      "value": "850",
+      "unit": "cm³",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-engine-transmission-oil-capacity-after-draining",
+      "property": "other",
+      "joint": "Engine / Transmission oil capacity / After draining",
+      "value": "590",
+      "unit": "cm³",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-engine-transmission-oil-capacity-after-disassembly",
+      "property": "other",
+      "joint": "Engine / Transmission oil capacity / After disassembly",
+      "value": "670",
+      "unit": "cm³",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-electrical-spark-plug-standard-ngk",
+      "property": "other",
+      "joint": "Electrical / Spark plug / Standard NGK",
+      "value": "IFR8H11",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-electrical-spark-plug-standard-denso",
+      "property": "other",
+      "joint": "Electrical / Spark plug / Standard DENSO",
+      "value": "VK24PRZ11",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-electrical-spark-plug-extended-high-speed-ngk",
+      "property": "other",
+      "joint": "Electrical / Spark plug / Extended high speed NGK",
+      "value": "IFR9H11",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-electrical-spark-plug-extended-high-speed-denso",
+      "property": "other",
+      "joint": "Electrical / Spark plug / Extended high speed DENSO",
+      "value": "VK27PRZ11",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 147; printed page 143",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-suspension-front-rebound-damping-std",
+      "property": "other",
+      "joint": "Suspension / Front rebound damping STD",
+      "value": "7",
+      "unit": "click",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Counterclockwise out from gently seated full-hard position; retain factory range where given.",
+        "Set both fork legs equally for front settings; align shock adjuster punch marks for rear settings."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 102; printed page 98",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-suspension-front-compression-damping-std",
+      "property": "other",
+      "joint": "Suspension / Front compression damping STD",
+      "value": "10",
+      "unit": "click",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Counterclockwise out from gently seated full-hard position; retain factory range where given.",
+        "Set both fork legs equally for front settings; align shock adjuster punch marks for rear settings."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 102; printed page 98",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-suspension-rear-high-speed-compression-std",
+      "property": "other",
+      "joint": "Suspension / Rear high speed compression STD",
+      "value": "1.5–2",
+      "unit": "turn",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Counterclockwise out from gently seated full-hard position; retain factory range where given.",
+        "Set both fork legs equally for front settings; align shock adjuster punch marks for rear settings."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 116; printed page 112",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-suspension-rear-low-speed-compression-std",
+      "property": "other",
+      "joint": "Suspension / Rear low speed compression STD",
+      "value": "6",
+      "unit": "click",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Counterclockwise out from gently seated full-hard position; retain factory range where given.",
+        "Set both fork legs equally for front settings; align shock adjuster punch marks for rear settings."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 116; printed page 112",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-suspension-rear-rebound-damping-std",
+      "property": "other",
+      "joint": "Suspension / Rear rebound damping STD",
+      "value": "7–10",
+      "unit": "click",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Counterclockwise out from gently seated full-hard position; retain factory range where given.",
+        "Set both fork legs equally for front settings; align shock adjuster punch marks for rear settings."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 116; printed page 112",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf450r-spec-suspension-standard-race-sag",
+      "property": "dimensions",
+      "joint": "Suspension / Standard race sag",
+      "value": "100",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Normal racing weight including fuel and fluids; rider wearing normal protective gear; use the manual measurement procedure."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+      "locator": "PDF page 117; printed page 113",
+      "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+      "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    }
+  ],
+  "mappings": []
+}

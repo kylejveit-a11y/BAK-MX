@@ -1,0 +1,98 @@
+{
+  "scope": {
+    "first_year": 2005,
+    "last_year": 2020,
+    "order": "ascending"
+  },
+  "base_commit": "faa1beb0bef3a95349e0fb8bb0d63743b3a6049c",
+  "years": [
+    {
+      "year": 2005,
+      "status": "PARTIAL",
+      "completed_models": 0
+    },
+    {
+      "year": 2006,
+      "status": "NOT_STARTED",
+      "completed_models": 0
+    },
+    {
+      "year": 2007,
+      "status": "NOT_STARTED",
+      "completed_models": 0
+    },
+    {
+      "year": 2008,
+      "status": "NOT_STARTED",
+      "completed_models": 0
+    },
+    {
+      "year": 2009,
+      "status": "NOT_STARTED",
+      "completed_models": 0
+    },
+    {
+      "year": 2010,
+      "status": "NOT_STARTED",
+      "completed_models": 0
+    },
+    {
+      "year": 2011,
+      "status": "NOT_STARTED",
+      "completed_models": 0
+    },
+    {
+      "year": 2012,
+      "status": "NOT_STARTED",
+      "completed_models": 0
+    },
+    {
+      "year": 2013,
+      "status": "NOT_STARTED",
+      "completed_models": 0
+    },
+    {
+      "year": 2014,
+      "status": "NOT_STARTED",
+      "completed_models": 0
+    },
+    {
+      "year": 2015,
+      "status": "NOT_STARTED",
+      "completed_models": 0
+    },
+    {
+      "year": 2016,
+      "status": "NOT_STARTED",
+      "completed_models": 0
+    },
+    {
+      "year": 2017,
+      "status": "NOT_STARTED",
+      "completed_models": 0
+    },
+    {
+      "year": 2018,
+      "status": "NOT_STARTED",
+      "completed_models": 0
+    },
+    {
+      "year": 2019,
+      "status": "NOT_STARTED",
+      "completed_models": 0
+    },
+    {
+      "year": 2020,
+      "status": "RECONCILE_EXISTING",
+      "completed_models": 0
+    }
+  ],
+  "current": {
+    "year": 2005,
+    "candidate_models": 4,
+    "candidate_facts": 185,
+    "complete_models": 0,
+    "live_imported": 0
+  },
+  "resume": "REVIEW.md"
+}

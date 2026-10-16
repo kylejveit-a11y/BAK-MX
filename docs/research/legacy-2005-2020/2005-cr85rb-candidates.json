@@ -1,0 +1,815 @@
+{
+  "target": {
+    "manufacturer": "Honda",
+    "model": "CR85RB",
+    "model_year": 2005,
+    "variant": "standard",
+    "region": "US"
+  },
+  "assemblies": [],
+  "parts": [],
+  "facts": [
+    {
+      "id": "honda-2005-cr85rb-spec-engine-type",
+      "property": "other",
+      "joint": "Engine / Type",
+      "value": "Liquid cooled, 2-stroke",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-engine-cylinder-arrangement",
+      "property": "other",
+      "joint": "Engine / Cylinder arrangement",
+      "value": "Single 15°inclined from vertical",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-engine-bore-and-stroke",
+      "property": "dimensions",
+      "joint": "Engine / Bore and stroke",
+      "value": "47.5 ×47.8",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-engine-displacement",
+      "property": "other",
+      "joint": "Engine / Displacement",
+      "value": "84.7",
+      "unit": "cm³",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-engine-compression-ratio",
+      "property": "other",
+      "joint": "Engine / Compression ratio",
+      "value": "8.45 :1",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-carburetor-type",
+      "property": "other",
+      "joint": "Carburetor / Type",
+      "value": "Piston valve",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-carburetor-identification-number",
+      "property": "other",
+      "joint": "Carburetor / Identification number",
+      "value": "PWK10A",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-carburetor-main-jet-standard",
+      "property": "other",
+      "joint": "Carburetor / Main jet (standard)",
+      "value": "#142",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-carburetor-slow-jet-standard",
+      "property": "other",
+      "joint": "Carburetor / Slow jet (standard)",
+      "value": "#45",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-carburetor-air-screw-opening",
+      "property": "other",
+      "joint": "Carburetor / Air screw opening",
+      "value": "2 turns out",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-carburetor-float-height",
+      "property": "dimensions",
+      "joint": "Carburetor / Float height",
+      "value": "19",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-drive-train-clutch-type",
+      "property": "other",
+      "joint": "Drive train / Clutch type",
+      "value": "Wet, multi-plate type",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-drive-train-transmission",
+      "property": "other",
+      "joint": "Drive train / Transmission",
+      "value": "6-speed, constant mesh",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-drive-train-primary-reduction",
+      "property": "other",
+      "joint": "Drive train / Primary reduction",
+      "value": "4.117",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-drive-train-gear-ratio-i",
+      "property": "other",
+      "joint": "Drive train / Gear ratio I",
+      "value": "2.267",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-drive-train-gear-ratio-ii",
+      "property": "other",
+      "joint": "Drive train / Gear ratio II",
+      "value": "1.722",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-drive-train-gear-ratio-iii",
+      "property": "other",
+      "joint": "Drive train / Gear ratio III",
+      "value": "1.400",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-drive-train-gear-ratio-iv",
+      "property": "other",
+      "joint": "Drive train / Gear ratio IV",
+      "value": "1.174",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-drive-train-gear-ratio-v",
+      "property": "other",
+      "joint": "Drive train / Gear ratio V",
+      "value": "1.042",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-drive-train-gear-ratio-vi",
+      "property": "other",
+      "joint": "Drive train / Gear ratio VI",
+      "value": "0.920",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-drive-train-final-reduction",
+      "property": "other",
+      "joint": "Drive train / Final reduction",
+      "value": "3.667",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-drive-train-gear-shift-pattern",
+      "property": "other",
+      "joint": "Drive train / Gear shift pattern",
+      "value": "Left foot-operated return system 1-N-2-3-4-5-6",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-electrical-ignition",
+      "property": "other",
+      "joint": "Electrical / Ignition",
+      "value": "ICM",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-electrical-starting-system",
+      "property": "other",
+      "joint": "Electrical / Starting system",
+      "value": "Kickstarter",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-dimension-overall-length",
+      "property": "dimensions",
+      "joint": "Dimension / Overall length",
+      "value": "1881",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-dimension-overall-width",
+      "property": "dimensions",
+      "joint": "Dimension / Overall width",
+      "value": "769",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-dimension-overall-height",
+      "property": "dimensions",
+      "joint": "Dimension / Overall height",
+      "value": "1170",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-dimension-wheelbase",
+      "property": "dimensions",
+      "joint": "Dimension / Wheelbase",
+      "value": "1289",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-dimension-seat-height",
+      "property": "dimensions",
+      "joint": "Dimension / Seat height",
+      "value": "864",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-dimension-foot-peg-height",
+      "property": "dimensions",
+      "joint": "Dimension / Foot peg height",
+      "value": "417",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-dimension-ground-clearance",
+      "property": "dimensions",
+      "joint": "Dimension / Ground clearance",
+      "value": "353",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-dimension-dry-weight",
+      "property": "dimensions",
+      "joint": "Dimension / Dry weight",
+      "value": "72",
+      "unit": "kg",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-frame-type",
+      "property": "other",
+      "joint": "Frame / Type",
+      "value": "Semi double cradle",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-frame-fuel-capacity",
+      "property": "other",
+      "joint": "Frame / Fuel capacity",
+      "value": "5.3",
+      "unit": "L",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-frame-caster-angle",
+      "property": "other",
+      "joint": "Frame / Caster angle",
+      "value": "27°25′",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-frame-trail-length",
+      "property": "dimensions",
+      "joint": "Frame / Trail length",
+      "value": "92.3",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-engine-transmission-oil-capacity-after-draining",
+      "property": "other",
+      "joint": "Engine / Transmission oil capacity / After draining",
+      "value": "550",
+      "unit": "cm³",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-engine-transmission-oil-capacity-at-disassembly",
+      "property": "other",
+      "joint": "Engine / Transmission oil capacity / At disassembly",
+      "value": "600",
+      "unit": "cm³",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-electrical-spark-plug-standard",
+      "property": "other",
+      "joint": "Electrical / Spark plug / Standard",
+      "value": "NGK BR10EG",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-suspension-rear-compression-damping-std",
+      "property": "other",
+      "joint": "Suspension / Rear compression damping STD",
+      "value": "0.75",
+      "unit": "turn",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Approximate turns counterclockwise from gently seated full-hard position; align punch and reference marks."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 85; printed page 81",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-suspension-rear-rebound-damping-std",
+      "property": "other",
+      "joint": "Suspension / Rear rebound damping STD",
+      "value": "0.5",
+      "unit": "turn",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Approximate turns counterclockwise from gently seated full-hard position; align punch and reference marks."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 85; printed page 81",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-cr85rb-spec-suspension-standard-race-sag",
+      "property": "dimensions",
+      "joint": "Suspension / Standard race sag",
+      "value": "85",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Normal racing weight; rider in protective gear. Standard figure only; contradictory tuning example excluded."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+      "locator": "PDF page 86; printed page 82",
+      "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+      "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    }
+  ],
+  "mappings": []
+}
