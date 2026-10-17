@@ -1,0 +1,36 @@
+[
+  {
+    "target": {
+      "manufacturer": "Honda",
+      "model": "CR125R",
+      "model_year": 2005,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "2005-cr125r-candidates.json",
+    "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr125r.pdf",
+    "document_sha256": "75d48a03b5a0ee35fc797da0862f3afdb318c5dbf3bbd01b052154a9b4aa4e9b",
+    "pdf_pages": 148,
+    "facts": 85,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "Honda",
+      "model": "CR250R",
+      "model_year": 2005,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "2005-cr250r-candidates.json",
+    "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr250r.pdf",
+    "document_sha256": "99853046b7b56b211a50135b49daad554a875abdca46c33b98c9bbe53b5882d5",
+    "pdf_pages": 148,
+    "facts": 83,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  }
+]
