@@ -38,6 +38,7 @@ for f in sorted(glob.glob(os.path.join(root,'docs/research/knowledge/*.json'))):
         dom,tier,conf=r.get('domain'),r.get('tier'),r.get('confidence','medium')
         if dom not in DOMAINS or tier not in TIERS or conf not in CONF or not str(r.get('statement','')).strip():skipped['invalid']+=1;continue
         a=r.get('applies_to') or {};rmake=a.get('make') or make
+        if isinstance(rmake,list):rmake=rmake[0] if rmake else make  # multi-brand record: bare model names belong to the first brand; sister bikes carry their own prefix
         hit=0
         # 'general' records (principles that hold for every engine in the file) apply to all of the file's platform models.
         models=[m for x in (a.get('models') or []) for m in ((d['platform'].get('models') or []) if x=='general' else [x])]
@@ -61,7 +62,7 @@ for f in sorted(glob.glob(os.path.join(root,'docs/research/knowledge/*.json'))):
                 src=r.get('source') or {}
                 rows.append({'id':rid,'manufacturer':mk,'model':model,'model_year':y,'domain':dom,'topic':anon(r.get('topic',''),r.get('source'))[:120],
                   'statement':anon(r['statement'],r.get('source'))[:1200],'vals':r.get('values') or {},'tier':tier,'confidence':conf,'notes':anon(r.get('notes',''),r.get('source'))[:800],
-                  'source':{'type':src.get('type',''),'name':src.get('name',''),'url':src.get('url',''),'date':src.get('date','')},'research_id':r['id'],'status':'APPROVED'})
+                  'source':{'type':src.get('type',''),'name':src.get('name',''),'url':src.get('url',''),'date':src.get('date','')},'research_id':r['id'],'status':'HELD' if r.get('status')=='HELD' else 'APPROVED'})  # HELD: unverified fitment years etc.
         if not hit:skipped['no roster bike']+=1
 json.dump(rows,open(sys.argv[1],'w'),ensure_ascii=False)
 print(len(rows),'rows',dict(collections.Counter(r['domain'] for r in rows)),dict(collections.Counter(r['tier'] for r in rows)),'skipped',dict(skipped))
