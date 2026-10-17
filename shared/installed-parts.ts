@@ -43,7 +43,7 @@ export function readInstalled(configuration:Record<string,unknown>|null|undefine
 /** Write the picker's result back into a configuration object (other keys untouched). */
 export function writeInstalled(configuration:Record<string,unknown>,value:{parts:InstalledPart[];stock:PartSystem[];notes:Partial<Record<PartSystem,string>>;plastics?:string}):Record<string,unknown>{
  const clean=readInstalled({installed_parts:value.parts,stock_systems:value.stock,parts_notes:value.notes});
- return {...configuration,installed_parts:clean.parts,stock_systems:clean.stock,parts_notes:clean.notes,plastics_color:value.plastics??null};
+ return {...configuration,installed_parts:clean.parts,stock_systems:clean.stock,parts_notes:clean.notes,...(Object.hasOwn(value,'plastics')?{plastics_color:readInstalled({plastics_color:value.plastics}).plastics??null}:{})};
 }
 /** How many systems the rider has accounted for (parts fitted or confirmed stock). */
 export function systemsRecorded(configuration:Record<string,unknown>|null|undefined){const {parts,stock}=readInstalled(configuration);return new Set([...parts.map(p=>p.s),...stock]).size;}

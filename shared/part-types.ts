@@ -90,7 +90,9 @@ const NOT_THE_PART:Partial<Record<PartSystem,RegExp>>={
 /** The type a listed part belongs to, or null for small service parts and accessories. */
 export function typeOf(system:PartSystem,name:string):string|null{
  // springs and seals are the part itself for suspension and clutch work
- const probe=['suspension','clutch'].includes(system)?name.replace(/\b(springs?|seal kit|bushings?)\b/gi,''):name;
+ let probe=['suspension','clutch'].includes(system)?name.replace(/\b(springs?|seal kit|bushings?)\b/gi,''):name;
+ // A complete slip-on can include a carbon cap; a replacement cap remains a service part.
+ if(system==='exhaust'&&/\bslip-?on\b/i.test(name)&&!/\breplacement\b/i.test(name))probe=probe.replace(/\b(?:w\/|with)\s+(?:carbon(?:\s+fiber)?\s+)?(?:end\s+)?cap\b/gi,'');
  const small=(SMALL.test(probe)&&!/\b(system|full|complete)\b/i.test(name))||!!NOT_THE_PART[system]?.test(name);
  for(const t of partTypes[system]??[])if(t.match.test(name)&&!small)return t.label;
  return null;

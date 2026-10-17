@@ -1,6 +1,8 @@
 import * as T from 'three';
 import type {VisualBuild,PartColor} from '../../shared/build-visual.ts';
 import {disposeBikeModel} from './model.ts';
+import {representativeAssets} from '../../shared/bike-asset-contract.ts';
+import {createRepresentativeAsset} from './representative-assets.ts';
 function finish(mat:T.MeshStandardMaterial,c?:PartColor){
  if(!mat.userData.stockFinish)mat.userData.stockFinish={color:mat.color.getHex(),metalness:mat.metalness,roughness:mat.roughness};
  const stock=mat.userData.stockFinish;mat.color.setHex(stock.color);mat.metalness=stock.metalness;mat.roughness=stock.roughness;
@@ -9,6 +11,9 @@ function finish(mat:T.MeshStandardMaterial,c?:PartColor){
  if(c.finish==='gloss'){mat.metalness=0;mat.roughness=.25;}
 }
 export function applyVisualBuild(root:T.Group,plan:VisualBuild){
+ const accessories:T.Object3D[]=[];root.traverse(o=>{if(o.userData.visualAccessory)accessories.push(o);});
+ for(const o of accessories){o.removeFromParent();disposeBikeModel(o);}
+ root.traverse(o=>{if(o.userData.hiddenByBuild){o.visible=true;delete o.userData.hiddenByBuild;}});
  const exhaust=root.getObjectByName('exhaust')!;
  const prior=exhaust.getObjectByName('generic-full-exhaust');if(prior){exhaust.remove(prior);disposeBikeModel(prior);}
  for(const child of exhaust.children)child.visible=true;
@@ -25,4 +30,18 @@ export function applyVisualBuild(root:T.Group,plan:VisualBuild){
   const body=new T.Mesh(new T.CylinderGeometry(.047,.06,.32,12),muffler);body.position.set(-.70,.04,.08);body.rotation.z=Math.PI/2+.16;g.add(body);exhaust.add(g);
  }
  root.userData.visualLabels=plan.parts.map(p=>p.label);root.updateMatrixWorld(true);
+ for(const part of plan.parts){
+  if(!part.asset||part.asset==='generic-full-exhaust')continue;
+  const contract=representativeAssets[part.asset],anchor=root.userData.hardpoints[contract.hardpoint] as number[]|undefined;
+  const parent=root.getObjectByName(contract.parent);if(!anchor||!parent||contract.target!==part.target||contract.hardpoint!==part.hardpoint)continue;
+  if(part.asset==='generic-slip-on'){const stock=root.getObjectByName('stock-muffler');if(stock){stock.visible=false;stock.userData.hiddenByBuild=true;}}
+  let stockMaterial:T.MeshStandardMaterial|undefined;
+  const stockSource=part.target==='exhaust-muffler'?root.getObjectByName('stock-muffler')??root:root;
+  const stockTarget=part.target==='exhaust-muffler'?'exhaust':part.target;
+  stockSource.traverse(o=>{if(o instanceof T.Mesh&&o.material instanceof T.MeshStandardMaterial&&o.material.name===stockTarget)stockMaterial=o.material;});
+  const material=stockMaterial?stockMaterial.clone():new T.MeshStandardMaterial({color:0x72777b,roughness:.4,metalness:0});finish(material,part.color);
+  root.traverse(o=>{if(o instanceof T.Mesh&&!Array.isArray(o.material)&&o.material.name===part.target){o.visible=false;o.userData.hiddenByBuild=true;}});
+  const asset=createRepresentativeAsset(part.asset,material);asset.position.set(anchor[0],anchor[1],anchor[2]);asset.userData={...asset.userData,visualAccessory:true,label:part.label,hardpoint:part.hardpoint};parent.add(asset);
+ }
+ root.updateMatrixWorld(true);
 }
