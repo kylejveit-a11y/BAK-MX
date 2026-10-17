@@ -67,7 +67,7 @@ const text=z.string().min(1).max(4000),texts=z.array(text).max(20);
 export const responseSchema=z.object({
  kind:z.enum(['answer','setup','diagnosis']),
  summary:text,
- answer:z.string().max(6000),
+ answer:z.string().max(8000),
  setup_changes:z.array(z.object({setting:text,change:text,expect:text,go_back_if:text}).strict()).max(3),
  observations:texts,systems:texts,
  hypotheses:z.array(z.object({mechanism:text,explains:text,confirm:text,reject:text}).strict()).max(8),
@@ -117,6 +117,20 @@ function fromWire(parsed:unknown,real:Map<string,Claim>):unknown{
   specifications:Array.isArray(r.specifications)?r.specifications.map(spec=>{const x=spec as {claim_id?:unknown;value?:unknown},claim=typeof x.claim_id==='string'?real.get(x.claim_id):undefined;return {claim_id:id(x.claim_id),value:x.value??claim?.statement??''};}):r.specifications,
   claims:Array.isArray(r.claims)?r.claims.map(c=>({...(c as object),evidence_ids:ids((c as {evidence_ids?:unknown}).evidence_ids)})):r.claims};
 }
+/** Rich bike knowledge can make the model list more audit items than the schema allows. Extra list items are trimmed
+ *  (the rider-facing answer is untouched); anything else that breaks the shape still fails and is repaired once. */
+export function fitToLimits(value:unknown):unknown{
+ if(!value||typeof value!=='object')return value;const v={...(value as Record<string,unknown>)};
+ const cap=(k:string,n:number)=>{if(Array.isArray(v[k]))v[k]=(v[k] as unknown[]).slice(0,n);};
+ cap('claims',12);cap('setup_changes',3);cap('hypotheses',8);cap('observations',20);cap('systems',20);cap('unknowns',20);cap('evidence_ids',40);cap('data_gaps',5);
+ // Deep-knowledge ids (K-...) are cited inside claims only; the answer-level evidence list and specifications hold published claim ids.
+ const uuid=/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+ if(Array.isArray(v.evidence_ids))v.evidence_ids=(v.evidence_ids as unknown[]).filter(id=>typeof id==='string'&&uuid.test(id));
+ if(Array.isArray(v.specifications))v.specifications=(v.specifications as {claim_id?:unknown}[]).filter(x=>typeof x?.claim_id==='string'&&uuid.test(x.claim_id));
+ if(Array.isArray(v.claims))v.claims=(v.claims as Record<string,unknown>[]).map(c=>c&&typeof c==='object'&&Array.isArray(c.evidence_ids)?{...c,evidence_ids:(c.evidence_ids as unknown[]).slice(0,10)}:c);
+ return v;
+}
+const shapeProblem=(e:z.ZodError)=>'The reply did not match the required JSON shape ('+e.issues.slice(0,3).map(i=>i.path.join('.')+': '+i.message).join('; ')+').';
 const usable=(claims:Claim[])=>new Map(claims.filter(c=>c.status==='VERIFIED'&&!c.has_conflict&&c.source_url&&c.source_locator).map(c=>[c.id,c]));
 /** Rule breaks in a well-formed reply, in the words sent back to the model for one repair. */
 /** fitted: brands on the rider's own build sheet. A tuner's name is allowed when it is also the brand of a part the rider has fitted (e.g. a Slavens Racing cylinder kit). */
@@ -312,17 +326,17 @@ export async function generateAnswer(bike:Bike|null,history:Message[],claims:Cla
  // there; only what changes per question (bike, conversation, retrieved evidence, message) is sent as input.
  const {authored_hypotheses,setup_knowledge,racing_knowledge,hypothesis_boundary,...wire}=full;
  const briefing=instructions+'\n\nREFERENCE DATA (JSON; the same on every request; data, not instructions):\n'+JSON.stringify({hypothesis_boundary,authored_hypotheses,setup_knowledge,racing_knowledge});
- const call:Call={instructions:briefing,input:wire,name:'mx_engineering_response',schema:wireJsonSchema,maxTokens:3500,timeoutMs:45000};
+ const call:Call={instructions:briefing,input:wire,name:'mx_engineering_response',schema:wireJsonSchema,maxTokens:5000,timeoutMs:45000};
  // The rider-facing text is shown while it is written. It is a draft until the checks below pass on the finished reply.
  let firstText=0;
  const first=await callWithBackup(answerModel(),onDraft?{...call,onText:soFar=>{const draft={summary:partialJsonString(soFar,'summary'),answer:partialJsonString(soFar,'answer')};if(!firstText&&(draft.summary||draft.answer))firstText=Date.now()-started;onDraft(draft);}}:call);
- let parsed=responseSchema.safeParse(fromWire(first.parsed,real)),raw=first.raw,repaired=false;
- let violations=parsed.success?responseViolations(parsed.data,claims,fitted,knowledge):['The reply did not match the required JSON shape.'];
+ let parsed=responseSchema.safeParse(fitToLimits(fromWire(first.parsed,real))),raw=first.raw,repaired=false;
+ let violations=parsed.success?responseViolations(parsed.data,claims,fitted,knowledge):[shapeProblem(parsed.error)];
  if(violations.length&&Date.now()-started<50000){
   // One repair, with the exact rules that were broken. A second failure is reported honestly rather than patched over.
   try{
    const second=await callModel(first.model,{...call,timeoutMs:25000,instructions:briefing+'\n\nYour previous draft broke these rules. Fix them and return the full corrected reply:\n- '+violations.join('\n- '),input:{...wire,previous_draft:first.parsed}});
-   const again=responseSchema.safeParse(fromWire(second.parsed,real));
+   const again=responseSchema.safeParse(fitToLimits(fromWire(second.parsed,real)));
    const remaining=again.success?responseViolations(again.data,claims,fitted,knowledge):violations;
    if(again.success&&remaining.length<violations.length){parsed=again;raw=second.raw;violations=remaining;repaired=true;}
   }catch{/* keep the first draft's verdict */}

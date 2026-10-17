@@ -32,6 +32,11 @@ for f in sorted(glob.glob(os.path.join(root,'docs/research/knowledge/*.json'))):
         hit=0
         # 'general' records (principles that hold for every engine in the file) apply to all of the file's platform models.
         models=[m for x in (a.get('models') or []) for m in ((d['platform'].get('models') or []) if x=='general' else [x])]
+        # A fact that names another model of the same file (e.g. a YZ250X record comparing it with the YZ250) also belongs to that model.
+        text=str(r.get('statement',''))+' '+str(r.get('topic',''))
+        for pm in d['platform'].get('models') or []:
+            short=re.sub(r'^(KTM|Husqvarna|GasGas|Yamaha|Honda|Kawasaki|Triumph) ','',pm)
+            if pm not in models and re.search(r'(?<![A-Za-z0-9])'+re.escape(short)+r'(?![A-Za-z0-9-])',text):models.append(pm)
         for model0 in models:
             mk,model=rmake,model0
             # Sister bikes listed by model name only (e.g. 'FC 450' in a KTM file) belong to their own brand.

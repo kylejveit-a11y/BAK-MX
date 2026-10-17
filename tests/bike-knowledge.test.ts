@@ -18,3 +18,10 @@ test('deep knowledge supports a claim only at its own tier',()=>{
  assert.deepEqual(v([{claim:'ratio',tier:'ENGINEERING',evidence_ids:['K-4']}]),[]);
  assert.ok(v([{claim:'made up',tier:'COMMUNITY',evidence_ids:['K-99']}]).length>0);
 });
+test('knowledge ids never break the answer shape',async()=>{
+ const {fitToLimits,responseSchema}=await import('../server/engineering.ts');
+ const {references:_r,...shape}=base as Record<string,unknown>;const raw={...shape,data_gaps:[],evidence_ids:['K-yz45-001|Yamaha|YZ450F|2025'],specifications:[{claim_id:'K-x',value:'55 hp'}],claims:Array.from({length:15},(_,i)=>({claim:'c'+i,tier:'COMMUNITY',evidence_ids:['K-1']}))};
+ assert.equal(responseSchema.safeParse(raw).success,false);
+ const fixed=responseSchema.safeParse(fitToLimits(raw));assert.ok(fixed.success);
+ if(fixed.success){assert.equal(fixed.data.claims.length,12);assert.deepEqual(fixed.data.evidence_ids,[]);}
+});
