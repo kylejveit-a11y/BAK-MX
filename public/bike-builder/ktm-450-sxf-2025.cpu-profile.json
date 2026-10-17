@@ -1,0 +1,15 @@
+{
+  "scope": "Node CPU construction only; not WebGL/iPhone performance",
+  "runtime": "v24.19.0",
+  "cpu": "AMD EPYC 9V74 80-Core Processor",
+  "platform": "linux",
+  "architecture": "x64",
+  "construction_ms": [
+    1239.5,
+    1110.1,
+    1015.3
+  ],
+  "meshes": 123,
+  "rendered_triangles": 292570,
+  "geometry_bytes": 7598108
+}

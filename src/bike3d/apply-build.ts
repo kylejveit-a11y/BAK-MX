@@ -25,9 +25,13 @@ export function applyVisualBuild(root:T.Group,plan:VisualBuild){
   const anchor=root.userData.hardpoints[full.hardpoint] as number[];g.position.set(anchor[0],anchor[1],anchor[2]);
   const header=new T.MeshStandardMaterial({color:0xa8a4a0,metalness:.8,roughness:.35});
   const muffler=new T.MeshStandardMaterial({color:0xb7bec6,metalness:.8,roughness:.33});finish(muffler,full.color);
-  const points=[[0,0,0],[.12,-.09,.05],[.10,-.20,.08],[-.08,-.17,.10],[-.38,-.03,.08],[-.56,.01,.08]].map(p=>new T.Vector3(...p));
+  const mount=root.userData.hardpoints['muffler-mount'] as number[];
+  const inlet=root.userData.hardpoints['muffler-inlet'] as number[]|undefined;
+  const relative=(point:number[])=>new T.Vector3(point[0]-anchor[0],point[1]-anchor[1],point[2]-anchor[2]);
+  const bodyCenter=relative(mount),bodyInlet=bodyCenter.clone().add(new T.Vector3(.144,-.069,0));
+  const points=[new T.Vector3(),new T.Vector3(.06,-.07,.015),new T.Vector3(.07,-.17,.055),new T.Vector3(.015,-.11,.12),new T.Vector3(-.12,-.01,.10),new T.Vector3(-.30,-.04,.025),...(inlet?[relative(inlet)]:[]),bodyInlet];
   g.add(new T.Mesh(new T.TubeGeometry(new T.CatmullRomCurve3(points),40,.025,12,false),header));
-  const body=new T.Mesh(new T.CylinderGeometry(.047,.06,.32,12),muffler);body.position.set(-.70,.04,.08);body.rotation.z=Math.PI/2+.16;g.add(body);exhaust.add(g);
+  const body=new T.Mesh(new T.CylinderGeometry(.047,.06,.32,20),muffler);body.position.copy(bodyCenter);body.rotation.z=Math.PI/2-.45;g.add(body);exhaust.add(g);
  }
  root.userData.visualLabels=plan.parts.map(p=>p.label);root.updateMatrixWorld(true);
  for(const part of plan.parts){
@@ -38,10 +42,12 @@ export function applyVisualBuild(root:T.Group,plan:VisualBuild){
   let stockMaterial:T.MeshStandardMaterial|undefined;
   const stockSource=part.target==='exhaust-muffler'?root.getObjectByName('stock-muffler')??root:root;
   const stockTarget=part.target==='exhaust-muffler'?'exhaust':part.target;
-  stockSource.traverse(o=>{if(o instanceof T.Mesh&&o.material instanceof T.MeshStandardMaterial&&o.material.name===stockTarget)stockMaterial=o.material;});
+  stockSource.traverse(o=>{if(o instanceof T.Mesh&&o.material instanceof T.MeshStandardMaterial&&o.material.name===stockTarget&&(!stockMaterial?.userData.representativeFinish||o.material.userData.representativeFinish))stockMaterial=o.material;});
   const material=stockMaterial?stockMaterial.clone():new T.MeshStandardMaterial({color:0x72777b,roughness:.4,metalness:0});finish(material,part.color);
   root.traverse(o=>{if(o instanceof T.Mesh&&!Array.isArray(o.material)&&o.material.name===part.target){o.visible=false;o.userData.hiddenByBuild=true;}});
-  const asset=createRepresentativeAsset(part.asset,material);asset.position.set(anchor[0],anchor[1],anchor[2]);asset.userData={...asset.userData,visualAccessory:true,label:part.label,hardpoint:part.hardpoint};parent.add(asset);
+  const joint=root.userData.hardpoints['muffler-inlet'] as number[]|undefined;
+  const inlet=part.asset==='generic-slip-on'&&joint?joint.map((value,i)=>value-anchor[i]) as [number,number,number]:undefined;
+  const asset=createRepresentativeAsset(part.asset,material,{inlet});asset.position.set(anchor[0],anchor[1],anchor[2]);asset.userData={...asset.userData,visualAccessory:true,label:part.label,hardpoint:part.hardpoint};parent.add(asset);
  }
  root.updateMatrixWorld(true);
 }

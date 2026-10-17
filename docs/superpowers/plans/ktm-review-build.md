@@ -1,39 +1,90 @@
-# KTM 450 SX-F 2025 review build
+# 2025 KTM 450 SX-F standard US — visual recovery
 
-Scope: finish the existing KTM experience. This pass improves the original mesh and viewer. It does not meet the accurate-HD visual acceptance requirement; contours and mount coordinates are still estimated.
+Updated 2026-10-17. **The convincing HD OEM visual milestone is not complete.** The rejected four-view image is preserved separately. This reconstruction is substantial, but it is still an estimated exterior study. It must not be represented as an accepted or verified OEM asset.
 
-## Changes
+## What changed
 
-- Non-planar molded shrouds, side panels and airbox covers, with closed thickness and outward faces.
-- Tapered rounded number plate aligned to the fork rake, asymmetric engine covers, water-pump exterior and shift lever.
-- Drilled brake discs, catalog-supported black spokes, fuel-tank exterior and cap, narrower radiators, revised exhaust route and muffler proportions.
-- Retained separate plastics meshes, material channels, stock restoration and generic accessory labels.
-- Low-angle orbit, floor shadows, reduced light intensity, supported Three shadow mode and explicit shadow-resource cleanup.
-- Reproducible four-view CPU geometry renderer. This checks geometry only; it does not validate browser lighting, gestures or frame rate.
+The original single-file primitive assembly has been replaced with editable, photo-contoured surface authoring in `src/bike3d/ktm-bodywork.ts`, `ktm-chassis.ts`, and `ktm-powertrain.ts`, with reusable mesh construction in `authoring.ts`. The runtime still creates the same Three.js component hierarchy, so web and the self-contained mobile viewer use the same geometry and visual-build application code. No runtime model download is required.
 
-## Review fixes
+- Tires now have rounded carcasses, shaped tread blocks, detailed rim sections, crossed spokes and nipples. The swingarm has recessed pockets and an axle assembly; brake rotors have real openings. Chain drive remains rider-left, rear brake rider-right, with the catalog-supported 51-tooth rear sprocket.
+- Frame, shock/linkage, controls, cables and cooling assemblies were reconstructed around the photo-derived stance.
+- Bodywork uses traced outlines, closed thickness, bowed surfaces, a crowned seat/tank, channeled fenders, a faceted number plate with lower wings, and open-backed fork guards. The left number panel is separately traced rather than mirroring the smaller right panel.
+- Engine cases and head have asymmetric cast contours, assembly seams and exterior fittings. The stock header has a formed chamber; the stock muffler has a black tapered shell and silver outlet cap. These remain authored estimates.
+- OEM shroud marks are fixed geometry. No graphics designer or free color selector was introduced. The supported plastics presets and existing parts/finish mappings are unchanged.
+- Full-exhaust and slip-on representatives now use the updated asset hardpoints. The slip-on inlet meets the retained stock header. The black stock muffler shell supplies its unknown-finish fallback.
 
-Fresh independent review identified a gap between the retained stock header and replacement slip-on, and inverted panel triangles at the supported seat-height minimum. Both received failing regression tests before correction. The slip-on now has an inlet connector whose world-space endpoint matches the header outlet. Body panels deform with a common affine transform so cap winding remains valid at both dimension limits. Also fixed the deprecated shadow constant and shadow disposal.
+## Visual references and inspection
 
-The previous deferred sprocket-test weakness is addressed: raycasts pass through the center and cut-out, and hit the solid annulus. Panel exterior normals are checked.
+`public/bike-builder/ktm-450-sxf-2025.visual-references.json` records exact-year KTM studio sources plus US dealer front, rear, elevated and component-detail photos. Documented specifications are distinguished from traced contours and estimated widths. The existing component/measurement evidence manifest remains intact.
 
-## Where to open
+There is no orthographic top reference. Top widths are estimated from elevated rear and three-quarter photos. Dealer cameras are tilted and perspective; they are not dimensioned drawings. The side images support stronger silhouette comparisons. Source photography is not packaged into the model or redistributed in the repository.
 
-- Web authoring preview: `/bike-builder.html` on a build of this branch; `npm run dev` locally.
-- Garage: set `VITE_BIKE_BUILDER_PREVIEW=true` for the web build and select the exact standard-US 2025 KTM 450 SX-F.
-- iPhone development build: `EXPO_PUBLIC_BIKE_BUILDER_PREVIEW=true`; regenerated offline viewer is checked into `apps/mobile/src/generated/bike-preview.json`.
-- `npm run build:bike-native` also creates `artifacts/bike-builder/offline-preview.html`, a standalone viewer for a desktop browser, with no external requests.
-- `node --experimental-strip-types scripts/export-bike-blockout.mjs` regenerates the editable GLB.
-- `node --experimental-strip-types scripts/render-bike-review.mjs | python scripts/render-bike-review.py artifacts/bike-builder/ktm-review.png` regenerates the contact sheet (Python requires NumPy and Pillow).
+- [Six-view mesh/reference comparison](../../../public/bike-builder/ktm-450-sxf-2025-comparison.html)
+- [Current actual mesh contact sheet](../../../public/bike-builder/ktm-450-sxf-2025-review.png)
+- [Rejected baseline](../../../public/bike-builder/ktm-450-sxf-2025-rejected-baseline.png)
+- Individual right, left, front, rear, top and three-quarter images: `public/bike-builder/ktm-450-sxf-2025-views/`.
 
-![Actual mesh: right, front, top and three-quarter](../../../public/bike-builder/ktm-450-sxf-2025-review.png)
+The CPU renderer now uses per-vertex normals, depth testing, actual back-face culling and antialiasing. These images show the actual exported geometry. They do not show Three.js PBR environment reflections, shadows, browser behavior or physical-device performance.
 
-## Readiness
+## Preserved contracts and reviewed corrections
 
-Final validation: 232/232 root tests, web typecheck/production build, 12/12 mobile tests and typecheck, native viewer freshness, and successful iOS/Android Expo exports. No critical or important review findings remain unaddressed; both important findings were reproduced and fixed, and both minor shadow findings were fixed.
+Meters; +X forward, +Y up, +Z rider-right. Existing component groups, stock-header/stock-muffler boundaries, seven separate plastics pieces, independent finish targets, generic accessory labels and unknown-product fallback are retained. Removing a part restores stock. Saved configuration schemas and the catalog were not changed.
 
-Stock export: 1,766,168 bytes, 63 mesh objects, 47,578 rendered triangles; GLB validator reports zero errors and warnings. The validator does not support GPU-instancing validation. Native offline HTML is approximately 730 KB. Shadow rendering adds GPU work and requires physical-device performance checks.
+Independent review found and verified fixes for three newly introduced defects:
 
-Unverified: real iPhone gestures/restart/performance, rendered WebGL appearance, and exact OEM likeness. Four-view CPU inspection is complete; Kyle's visual approval is outstanding. Feature remains behind the existing development flags. No production deployment or merge.
+1. Master cylinders shared the selectable clamps material, causing clamp replacement to hide them. They now have a fixed black finish. A ray-based regression checks the actual master-body surfaces remain visible and unchanged.
+2. Hub materials leaked onto nipples, rim marks, axle and brake hardware. Selectable hub geometry now stays within the actual central hub envelope; other hardware uses fixed finishes. A geometry-based regression covers the scope.
+3. Fan-triangulated concave loft caps produced overlapping and reversed faces. Caps now use projected polygon triangulation with recovered 3D winding. Regression coverage checks open channels, area and outward normals in multiple orientations and both ring orders.
 
-Ruling: preserve the existing estimated-geometry designation until the visual acceptance criterion is met. Cost: this is a runnable review build, not a completed HD production model.
+Review also checked full → slip-on → stock transitions and connector alignment, panel winding at all supported seat-reference limits, and the number plate/wing exterior faces. These establish software and geometry correctness, not OEM likeness.
+
+## Reproduce
+
+```sh
+npm run check
+npm run check:mobile
+npm run build:bike-native
+npm run check:bike-native
+EXPO_OFFLINE=1 EXPO_NO_TELEMETRY=1 EXPO_PUBLIC_BIKE_BUILDER_PREVIEW=true npm --prefix apps/mobile run export -- --max-workers 2
+node --experimental-strip-types scripts/export-bike-blockout.mjs public/bike-builder/ktm-450-sxf-2025.glb
+node --experimental-strip-types scripts/render-bike-review.mjs > /tmp/ktm-mesh.json
+python scripts/render-bike-review.py public/bike-builder/ktm-450-sxf-2025-review.png --views-dir public/bike-builder/ktm-450-sxf-2025-views --width 1000 --height 680 --supersample 2 < /tmp/ktm-mesh.json
+node --experimental-strip-types scripts/profile-bike-model.mjs
+```
+
+Expo packaging runs in the installed CLI’s offline mode with telemetry disabled. Automatic approval review blocked an earlier export because of possible project telemetry to `cdp.expo.dev`; the offline/telemetry flags remove that external contact. The installed CLI explicitly returns no telemetry client when either flag is set.
+
+The renderer requires NumPy and Pillow. The authored TypeScript is the editable source; the GLB is a reproducible interchange export, not the source of truth. `scripts/blender-import-bike.py` remains available for a Blender-capable environment.
+
+Web development page: `/bike-builder.html`. Garage integration remains behind `VITE_BIKE_BUILDER_PREVIEW=true`, and mobile behind `EXPO_PUBLIC_BIKE_BUILDER_PREVIEW=true`. Native generation writes both the checked-in `apps/mobile/src/generated/bike-preview.json` and a self-contained `artifacts/bike-builder/offline-preview.html` for local inspection.
+
+## Validation and performance
+
+| Gate | Result and scope |
+| --- | --- |
+| Root checks | 235/235 tests; TypeScript and production web build passed |
+| Mobile checks | 12/12 tests and TypeScript passed |
+| Offline viewer | Regenerated and freshness check passed; HTML 771,020 bytes |
+| Expo packaging | iOS and Android exports passed with networking and telemetry disabled |
+| Stock GLB | 7,761,880 bytes; validator 0 errors / 0 warnings |
+| Validator limitation | GPU instancing is unsupported by the validator; remaining informational messages concern that extension and unused attributes |
+| Mesh | 123 mesh objects; 292,570 rendered triangles; 7,598,108 geometry bytes |
+| CPU construction | 1239.5 ms, 1110.1 ms, 1015.3 ms in three fresh assemblies on the available Linux/Node CPU; not a device/GPU benchmark |
+| Visual target | **Not met** |
+| WebGL / iPhone | **Not verified** |
+
+Saved fitted finish and plastics selections pass serialization coverage. Mobile persistence/continuity tests use mocked storage and cover restoration and interrupted writes. They are not an end-to-end Garage save/reload or an iPhone process-kill/restart test.
+
+The available machine is an x64 Linux container with Node 24 and an AMD EPYC CPU. CPU construction measurements are reported by `profile-bike-model.mjs`; they are not FPS, GPU timings or an iPhone performance result. Tread geometry was simplified after the first reconstruction while preserving visible block shape. A higher triangle count than the rejected asset is a performance cost, not evidence of visual quality.
+
+## Exact remaining issues / unfulfilled gates
+
+1. **Visual fidelity remains below the requested convincing HD OEM standard.** Molded plastics still need more accurate sectional curvature, returns and junctions against multi-angle references. Top widths and hidden connections remain estimated. The latest front/rear fender and plate surfaces improve the silhouettes but do not establish an exact molded OEM surface.
+2. **Powertrain likeness remains approximate.** Cast-case depth transitions, head/valve-cover contours, port necks and stepped recesses are simplified. The revised header and muffler still need closer multi-angle contour and clearance verification.
+3. **Fine OEM surface appearance is incomplete.** Seat grain, cast-metal texture, fine fastener recesses, small fixed branding and other close-up surface marks are not finished. Fixed shroud polygons are photo-derived artwork estimates, not an OEM CAD/texture asset.
+4. **Actual WebGL rendering and interaction are unverified.** No Blender executable or local Chrome/Chromium was available. The cloud browser could not reach the local Vite server, and browser policy blocked loading the shared offline file URL. No browser-policy workaround was attempted. The practical available workflow was authored Three.js surfaces, CPU geometry rendering and GLB export; it cannot close this gate.
+5. **Physical iPhone gestures, restart behavior and performance are unverified.** No physical iPhone or accessible target WebView was available. Successful Expo exports do not resolve this gate.
+6. **End-to-end saved-build reload/restart was not exercised in an actual Garage session.** Data serialization, stock restoration and mocked continuity tests passed within the stated scope only.
+7. **Kyle's visual acceptance has not occurred.** The current result is not submitted as a finished visual milestone. `BLOCKOUT_NOT_OEM_VERIFIED` remains in the model and export.
+
+No paid asset/service was acquired. No catalog expansion, database change, production deployment or merge was performed. The authorized feature-branch upload preserves the work, without treating the visual milestone as passed.

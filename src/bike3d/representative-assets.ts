@@ -1,13 +1,14 @@
 import * as T from 'three';
 import type {RepresentativeAssetId} from '../../shared/bike-asset-contract.ts';
 /** Original unbranded shapes. Never use these meshes as evidence of product fit or exact geometry. */
-export function createRepresentativeAsset(id:RepresentativeAssetId,material:T.MeshStandardMaterial){
+export function createRepresentativeAsset(id:RepresentativeAssetId,material:T.MeshStandardMaterial,options:{inlet?:[number,number,number]}={}){
  const group=new T.Group();group.name=id;group.userData={tier:2,geometryStatus:'REPRESENTATIVE'};
  function box(p:number[],size:[number,number,number]){const m=new T.Mesh(new T.BoxGeometry(...size),material);m.position.set(p[0],p[1],p[2]);group.add(m);return m;}
  function path(points:number[][],radius:number){const m=new T.Mesh(new T.TubeGeometry(new T.CatmullRomCurve3(points.map(p=>new T.Vector3(p[0],p[1],p[2]))),32,radius,10,false),material);group.add(m);return m;}
  if(id==='generic-slip-on'){
-  const body=new T.Mesh(new T.CylinderGeometry(.047,.06,.32,16),material);body.rotation.z=Math.PI/2-.25;group.add(body);
-  path([[.16,-.08,0],[.16,-.06,0],[.15,-.038,0]],.027).name='slip-on-inlet';
+  const body=new T.Mesh(new T.CylinderGeometry(.047,.06,.32,20),material);body.rotation.z=Math.PI/2-.45;group.add(body);
+  const entry=options.inlet??[.16,-.08,0];
+  path([entry,[.18,-.10,entry[2]*.4],[.144,-.069,0]],.021).name='slip-on-inlet';
  }else if(id==='generic-fatbar'||id==='generic-crossbar'){
   path([[-.02,.02,-.40],[-.04,.04,-.23],[0,0,-.12],[0,0,.12],[-.04,.04,.23],[-.02,.02,.40]],id==='generic-fatbar'?.014:.011);
   if(id==='generic-crossbar')path([[-.035,.035,-.23],[-.035,.035,.23]],.009);

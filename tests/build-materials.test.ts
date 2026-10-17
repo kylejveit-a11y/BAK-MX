@@ -1,5 +1,5 @@
 import test from 'node:test';import assert from 'node:assert/strict';
-import {Mesh,MeshStandardMaterial} from 'three';
+import {Mesh,MeshStandardMaterial,Object3D,Raycaster,Vector3} from 'three';
 import {createBikeModel,disposeBikeModel} from '../src/bike3d/model.ts';
 import {applyVisualBuild} from '../src/bike3d/apply-build.ts';
 import {resolveVisualBuild} from '../shared/build-visual.ts';
@@ -23,6 +23,49 @@ test('rim finish changes only rim materials and restores exactly on removal',()=
  const bike=createBikeModel(),before=colors(bike);applyVisualBuild(bike,resolveVisualBuild({installed_parts:[{s:'wheels',b:'Excel',n:'Takasago 1.60" x 21" Front Rim',color:'gold'}]}));const after=colors(bike);
  assert.notDeepEqual(before['front-rim'],after['front-rim']);for(const k of Object.keys(before))if(k!=='front-rim')assert.deepEqual(before[k],after[k]);
  applyVisualBuild(bike,resolveVisualBuild({}));assert.deepEqual(colors(bike),before);disposeBikeModel(bike);
+});
+test('clamp replacement and finish preserve both hydraulic master-cylinder bodies',()=>{
+ const bike=createBikeModel(),controls=bike.getObjectByName('controls')!;
+ // Probe the front face of each hydraulic reservoir, clear of its lid, lever
+ // and handlebar. This checks physical parts even after material batching.
+ const visible=(object:Object3D):boolean=>object.visible&&(!object.parent||visible(object.parent));
+ const rays=[-1,1].map(side=>new Raycaster(new Vector3(.6,1.196,side*.252),new Vector3(-1,0,0)));
+ const bodies=rays.map(ray=>{
+  const hit=ray.intersectObject(controls,true).find(hit=>visible(hit.object));
+  assert.ok(hit&&hit.object instanceof Mesh&&hit.object.material instanceof MeshStandardMaterial,'Master-cylinder front face must exist');
+  assert.ok(hit.point.x>.37,'Probe must hit the reservoir rather than the handlebar behind it');
+  return {object:hit.object,point:hit.point.clone(),color:hit.object.material.color.getHex()};
+ });
+ try{
+  applyVisualBuild(bike,{parts:[{mappingId:'test',asset:'generic-clamps',target:'clamps',hardpoint:'steering-stem',label:'test',color:{id:'blue',name:'Blue',hex:'#124ace',finish:'anodized',status:'APPROXIMATE',source:'test'}}]});
+  rays.forEach((ray,i)=>{
+   const hit=ray.intersectObject(controls,true).find(hit=>visible(hit.object));
+   assert.ok(hit,'Clamp replacement must leave each master-cylinder body visible');
+   assert.equal(hit.object,bodies[i].object,'Clamp replacement must not expose a different component behind the reservoir');
+   assert.ok(hit.point.distanceTo(bodies[i].point)<1e-7);
+   assert.equal((bodies[i].object.material as MeshStandardMaterial).color.getHex(),bodies[i].color,'Clamp finish must not recolor the reservoirs');
+  });
+ }finally{disposeBikeModel(bike);}
+});
+test('hub finish targets stay inside the hub and exclude peripheral wheel hardware',()=>{
+ const bike=createBikeModel();
+ try{
+  for(const end of ['front','rear']){
+   const wheel=bike.getObjectByName(`${end}-wheel`)!;let vertices=0;
+   wheel.traverse(object=>{
+    if(!(object instanceof Mesh&&object.material instanceof MeshStandardMaterial&&object.material.name===`${end}-hub`))return;
+    const position=object.geometry.getAttribute('position');
+    for(let i=0;i<position.count;i++){
+     const point=wheel.worldToLocal(object.localToWorld(new Vector3().fromBufferAttribute(position,i)));vertices++;
+     // A hub occupies the center and flange envelope. Nipples, rim marks,
+     // caliper/carrier details and axle end hardware are separate components.
+     assert.ok(Math.hypot(point.x,point.y)<=.060,`${end} hub finish reaches peripheral wheel hardware`);
+     assert.ok(Math.abs(point.z)<=.064,`${end} hub finish reaches external axle hardware`);
+    }
+   });
+   assert.ok(vertices>0,`${end} hub must retain its selectable finish`);
+  }
+ }finally{disposeBikeModel(bike);}
 });
 test('representative accessories attach, replace only their slot, and remove cleanly',()=>{
  for(const [asset,target,hardpoint] of [['generic-fatbar','bars','bar-clamp'],['generic-crossbar','bars','bar-clamp'],['generic-clamps','clamps','steering-stem'],['generic-skid-plate','skid-plate','engine-cradle'],['generic-frame-guards','frame-guards','frame-pivot'],['generic-radiator-braces','radiator-braces','radiator-mount'],['generic-hand-guards','hand-guards','bar-clamp']] as const){
@@ -56,7 +99,8 @@ test('slip-on preserves the OEM header and restores the OEM muffler on removal',
 });
 test('unknown slip-on finish inherits stock muffler appearance',()=>{
  const bike=createBikeModel();let stock:MeshStandardMaterial|undefined;
- bike.getObjectByName('stock-muffler')!.traverse(o=>{if(o instanceof Mesh&&o.material instanceof MeshStandardMaterial&&o.material.name==='exhaust')stock=o.material;});
+ bike.getObjectByName('stock-muffler')!.traverse(o=>{if(o instanceof Mesh&&o.material instanceof MeshStandardMaterial&&o.material.userData.representativeFinish)stock=o.material;});
+ assert.ok(stock,'The black stock muffler shell supplies the fallback finish');
  applyVisualBuild(bike,resolveVisualBuild({installed_parts:[{s:'exhaust',b:'FMF',n:'Factory 4.1 RCT Titanium Anodized SL (Slip-On) w/ Carbon Cap'}]}));
  const body=bike.getObjectByName('generic-slip-on')!.children[0] as Mesh;
  const mat=body.material as MeshStandardMaterial;
