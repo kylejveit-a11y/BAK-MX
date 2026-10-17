@@ -1,11 +1,12 @@
 import type {SupabaseClient} from '@supabase/supabase-js';
 import type {Bike} from '../shared/types.ts';
 import {exactBikeScope} from '../shared/bike-identity.ts';
+import {garageModels,garageModelInfo,garageModelYears} from '../shared/garage-models.ts';
 
 /** Deep bike knowledge (docs/research/BIKE_KNOWLEDGE_STANDARD.md): power and feel, dynos, ECU maps, engine architecture,
  *  porting, mods, known issues and setups, each with its source tier. Selected per question for the exact bike. */
 export type KnowledgeTier='OEM'|'MEASURED'|'TUNER'|'DERIVED'|'COMMUNITY';
-export type Knowledge={id:string;domain:string;topic:string;statement:string;tier:KnowledgeTier;values:Record<string,unknown>;notes:string;confidence:string};
+export type Knowledge={bike?:string;id:string;domain:string;topic:string;statement:string;tier:KnowledgeTier;values:Record<string,unknown>;notes:string;confidence:string};
 const MAX_ROWS=28;
 const DOMAIN_HINTS:[RegExp,string][]=[
  [/\b(map|maps|mapping|power tuner|ecu|ignition|fuel(ing)?|traction control|launch|quickshift|tc\b|mode|app)\b/i,'ecu_electronics'],
@@ -34,3 +35,30 @@ export async function bikeKnowledge(db:SupabaseClient,bike:Bike,message:string,l
 }
 /** Which answer tier each knowledge tier may support. */
 export const knowledgeClaimTier:Record<KnowledgeTier,'PUBLISHED'|'COMMUNITY'|'ENGINEERING'>={OEM:'PUBLISHED',MEASURED:'COMMUNITY',TUNER:'COMMUNITY',COMMUNITY:'COMMUNITY',DERIVED:'ENGINEERING'};
+
+const disp=(model:string)=>(model.match(/\d{2,3}/)?.[0])??'';
+/** Other bikes the rider names ("vs the Yamaha", "my buddy's CRF450R", "KX450"): an exact model name wins; a bare make
+ *  means that make's motocross bike of the same displacement and stroke. Same model year, or the nearest year on file. */
+export function mentionedBikes(message:string,bike:Pick<Bike,'manufacturer'|'model'|'model_year'>):{manufacturer:string;model:string;model_year:number}[]{
+ const out=new Map<string,{manufacturer:string;model:string;model_year:number}>(),text=' '+message+' ',mine=garageModelInfo[bike.manufacturer+'|'+bike.model];
+ const add=(make:string,model:string)=>{if(make===bike.manufacturer&&model===bike.model)return;const years=garageModelYears(make,model);if(!years.length)return;
+  const y=years.includes(bike.model_year)?bike.model_year:years.reduce((a,b)=>Math.abs(b-bike.model_year)<Math.abs(a-bike.model_year)?b:a);out.set(make+'|'+model,{manufacturer:make,model,model_year:y});};
+ for(const [make,models] of Object.entries(garageModels))for(const model of models){const re=new RegExp('(?<![A-Za-z0-9])'+model.replace(/[-\s]/g,'[- ]?')+'(?![A-Za-z0-9])','i');if(re.test(text))add(make,model);}
+ if(!out.size)for(const make of Object.keys(garageModels)){
+  if(make===bike.manufacturer||!new RegExp('(?<![A-Za-z])'+(make==='GasGas'?'gas ?gas':make)+'(?![A-Za-z])','i').test(text))continue;
+  const match=garageModels[make].find(m=>disp(m)===disp(bike.model)&&garageModelInfo[make+'|'+m]?.discipline==='motocross'&&garageModelInfo[make+'|'+m]?.engine===mine?.engine);
+  if(match)add(make,match);
+ }
+ return [...out.values()].slice(0,2);
+}
+/** Knowledge for bikes the rider compares against, labelled with the bike so BAK never mixes them up with the rider's own. */
+export async function comparisonKnowledge(db:SupabaseClient,bike:Bike,message:string):Promise<Knowledge[]>{
+ const out:Knowledge[]=[];
+ for(const other of mentionedBikes(message,bike)){
+  const {data,error}=await db.from('bike_knowledge').select('id,domain,topic,statement,tier,vals,notes,confidence').eq('manufacturer',other.manufacturer).eq('model',other.model).eq('model_year',other.model_year).eq('status','APPROVED').limit(400);
+  if(error||!Array.isArray(data))continue;
+  const label=`${other.model_year} ${other.manufacturer} ${other.model}`;
+  out.push(...rankKnowledge(data.map(r=>({bike:label,id:'K-'+r.id,domain:r.domain,topic:r.topic,statement:r.statement,tier:r.tier,values:r.vals??{},notes:r.notes??'',confidence:r.confidence})) as Knowledge[],message,12));
+ }
+ return out;
+}

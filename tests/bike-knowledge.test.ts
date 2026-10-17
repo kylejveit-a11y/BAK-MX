@@ -25,3 +25,10 @@ test('knowledge ids never break the answer shape',async()=>{
  const fixed=responseSchema.safeParse(fitToLimits(raw));assert.ok(fixed.success);
  if(fixed.success){assert.equal(fixed.data.claims.length,12);assert.deepEqual(fixed.data.evidence_ids,[]);}
 });
+test('bikes the rider names to compare are found by model name or by make',async()=>{
+ const {mentionedBikes}=await import('../server/knowledge.ts');
+ assert.deepEqual(mentionedBikes('how does it compare to the Yamaha?',{manufacturer:'KTM',model:'450 SX-F',model_year:2025}).map(b=>b.model),['YZ450F']);
+ assert.deepEqual(mentionedBikes('my buddy has a CRF450R',{manufacturer:'KTM',model:'450 SX-F',model_year:2025}).map(b=>b.model),['CRF450R']);
+ assert.deepEqual(mentionedBikes('is my bike fast?',{manufacturer:'KTM',model:'450 SX-F',model_year:2025}),[]);
+ assert.equal(mentionedBikes('vs the yz250',{manufacturer:'KTM',model:'250 SX',model_year:2024})[0]?.model,'YZ250');
+});

@@ -13,15 +13,20 @@ TIERS={'OEM','MEASURED','TUNER','DERIVED','COMMUNITY'};CONF={'high','medium','lo
 MAG=r"MXA|Motocross Action|Dirt Rider|Dirt Bike(?: Magazine)?|Vital(?: MX)?|Racer X|Cycle News|Cycle World|ADB|Australasian Dirt Bike|Swapmoto|Ultimate Motorcycling|MotoOnline|Transworld Motocross|Moto Related|MX Large|Motorcycle\.com"
 TUN=r"Pro Circuit|Race Tech|Twisted Development|Twisted|XPR|Slavens|Factory Connection|REP|Enzo|GYTR tuners?"
 PER=r"Keefer|Stevie|Jeff Emig|Ricky Carmichael|Travis Preston"
-def anon(t):
+def anon(t,src=None):
     t=str(t)
+    # Whatever name the row's own source carries is hidden too (shops and channels not in the lists above).
+    for n in [x.strip() for x in re.split(r'[;/,()]| and | - | by | for | via ',str((src or {}).get('name','')))]:
+        if len(n)>=4 and n.lower() not in ('owner','owners','forum','yamaha','ktm','honda','kawasaki','husqvarna','gasgas','triumph'):
+            word={'magazine':'a magazine','tuner':'a tuner','race team':'a race team','forum':'owners','dealer':'a dealer'}.get(str((src or {}).get('type','')),'a tester')
+            t=re.sub(r"\b"+re.escape(n)+r"(?:'s)?\b",word,t)
     for pat,word in ((MAG,'a magazine'),(TUN,'a tuner'),(PER,'a tester')):
         t=re.sub(r"\b(?:the )?(?:"+pat+r")(?:'s)?\b",word,t)
     t=re.sub(r"\b(a|an) a (magazine|tuner|tester)\b",r"a \2",t)
     t=re.sub(r"\ba (magazine|tuner)( and a \1)+\b",r"\1s",t)
     t=re.sub(r"\b[Aa] magazine (testers|editors|riders)\b",r"magazine \1",t)
     t=re.sub(r"\bfrom a tuner\)",'from a tuner)',t)
-    return re.sub(r"(^|[.!?]\s+)a (magazine|tuner|tester)",lambda m:m.group(1)+'A '+m.group(2),t)
+    return re.sub(r"(^|[.!?]\s+)a (magazine|tuner|tester|dealer|race team)",lambda m:m.group(1)+"A "+m.group(2),t)
 rows=[];skipped=collections.Counter();seen=set()
 for f in sorted(glob.glob(os.path.join(root,'docs/research/knowledge/*.json'))):
     d=json.load(open(f));make=d['platform']['make']
@@ -50,8 +55,8 @@ for f in sorted(glob.glob(os.path.join(root,'docs/research/knowledge/*.json'))):
                 if rid in seen:continue
                 seen.add(rid);hit+=1
                 src=r.get('source') or {}
-                rows.append({'id':rid,'manufacturer':mk,'model':model,'model_year':y,'domain':dom,'topic':anon(r.get('topic',''))[:120],
-                  'statement':anon(r['statement'])[:1200],'vals':r.get('values') or {},'tier':tier,'confidence':conf,'notes':anon(r.get('notes',''))[:800],
+                rows.append({'id':rid,'manufacturer':mk,'model':model,'model_year':y,'domain':dom,'topic':anon(r.get('topic',''),r.get('source'))[:120],
+                  'statement':anon(r['statement'],r.get('source'))[:1200],'vals':r.get('values') or {},'tier':tier,'confidence':conf,'notes':anon(r.get('notes',''),r.get('source'))[:800],
                   'source':{'type':src.get('type',''),'name':src.get('name',''),'url':src.get('url',''),'date':src.get('date','')},'research_id':r['id'],'status':'APPROVED'})
         if not hit:skipped['no roster bike']+=1
 json.dump(rows,open(sys.argv[1],'w'),ensure_ascii=False)

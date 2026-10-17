@@ -1,7 +1,7 @@
 import {createInput,createRecord} from './create-record.ts';
 import {aiAccessMode} from './ai-access.ts';
 import {getBikeClaims,searchBikeClaims} from './claims.ts';
-import {bikeKnowledge} from './knowledge.ts';
+import {bikeKnowledge,comparisonKnowledge} from './knowledge.ts';
 import {collectPages} from './pagination.ts';
 import {ZodError} from 'zod';
 import type {Bike,Claim,Message} from '../shared/types.ts';
@@ -91,7 +91,7 @@ async function route(req:Request):Promise<Response>{const url=new URL(req.url),o
   const run=async(emit:Emit)=>{
    /* A re-run was already counted against the allowance when it first ran ('duplicate'). */const reserved=await reserveQuestion(owner,data.request_id,tier,mode);if(reserved==='limit'||(reserved==='duplicate'&&!rerun))throw new HttpError(429,reserved==='limit'?limitMessage((await usageFor(owner,tier,mode))):'Daily AI allowance reached');
    emit({type:'status',stage:'specs'});
-   const t0=Date.now();const lookups=bike?await planSpecLookups(bike,history,data.message):[];const t1=Date.now();const claims=bike?await searchBikeClaims(db,bike,lookups):[];const knowledge=bike?await bikeKnowledge(db,bike,data.message,lookups):[];const t2=Date.now();
+   const t0=Date.now();const lookups=bike?await planSpecLookups(bike,history,data.message):[];const t1=Date.now();const claims=bike?await searchBikeClaims(db,bike,lookups):[];const knowledge=bike?[...await bikeKnowledge(db,bike,data.message,lookups),...await comparisonKnowledge(db,bike,data.message)]:[];const t2=Date.now();
    checked(await admin.from('ai_requests').update({claims_snapshot:claims}).eq('request_id',data.request_id).eq('user_id',owner).eq('state','processing'));
    emit({type:'status',stage:'writing',published:claims.length});
    let sent=0;
