@@ -21,7 +21,8 @@ export const partSystemKeys=partSystems.map(s=>s.key) as PartSystem[];
 export const systemLabel=(k:string)=>partSystems.find(s=>s.key===k)?.label??k;
 /** One fitted part or piece of work. r links a researched part or service (its notes are added server-side); x marks a part the
  *  rider typed in; d is the rider's detail on work done (map name, valving, oil height). */
-export type InstalledPart={s:PartSystem;b:string;n:string;p?:string;r?:string;x?:boolean;d?:string};
+/** k: the colour the rider chose from the maker's listed colours. */
+export type InstalledPart={s:PartSystem;b:string;n:string;p?:string;r?:string;x?:boolean;d?:string;k?:string};
 export const MAX_PARTS=40;
 const clip=(v:unknown,n:number)=>String(v??'').replace(/\s+/g,' ').trim().slice(0,n);
 /** Clean whatever is stored (older builds, other clients) into the current shape. */
@@ -30,7 +31,7 @@ export function readInstalled(configuration:Record<string,unknown>|null|undefine
  for(const raw of Array.isArray(c.installed_parts)?c.installed_parts:[]){
   if(!raw||typeof raw!=='object')continue;const o=raw as Record<string,unknown>,s=String(o.s) as PartSystem;
   if(!partSystemKeys.includes(s))continue;const n=clip(o.n,90),b=clip(o.b,60);if(!n&&!b)continue;
-  const part:InstalledPart={s,b,n};const p=clip(o.p,48);if(p)part.p=p;const r=clip(o.r,40);if(r&&/^[a-z0-9-]+$/i.test(r))part.r=r;if(o.x)part.x=true;const d=clip(o.d,120);if(d)part.d=d;
+  const part:InstalledPart={s,b,n};const p=clip(o.p,48);if(p)part.p=p;const r=clip(o.r,40);if(r&&/^[a-z0-9-]+$/i.test(r))part.r=r;if(o.x)part.x=true;const d=clip(o.d,120);if(d)part.d=d;const k=clip(o.k,30);if(k)part.k=k;
   parts.push(part);if(parts.length>=MAX_PARTS)break;
  }
  const fitted=new Set(parts.map(p=>p.s));
@@ -46,4 +47,4 @@ export function writeInstalled(configuration:Record<string,unknown>,value:{parts
 }
 /** How many systems the rider has accounted for (parts fitted or confirmed stock). */
 export function systemsRecorded(configuration:Record<string,unknown>|null|undefined){const {parts,stock}=readInstalled(configuration);return new Set([...parts.map(p=>p.s),...stock]).size;}
-export const partLabel=(p:InstalledPart)=>[p.b,p.n].filter(Boolean).join(' ');
+export const partLabel=(p:InstalledPart)=>[p.b,p.n].filter(Boolean).join(' ')+(p.k?` (${p.k})`:'');

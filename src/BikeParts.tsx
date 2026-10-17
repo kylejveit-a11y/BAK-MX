@@ -4,7 +4,7 @@ import type {Bike} from '../shared/types';
 import {partSystems,readInstalled,writeInstalled,partLabel,MAX_PARTS,type InstalledPart,type PartSystem} from '../shared/installed-parts';
 import {partsForBike,type CatalogPart} from './partsCatalog';
 import {api} from './client';
-import {NOTE_HINT,WORK,providersFor,cleanName,pickerChoices,typesWithCounts,choicesOfType,brandsIn,productsOf,type Work} from '../shared/parts-picker';
+import {NOTE_HINT,WORK,providersFor,cleanName,pickerChoices,typesWithCounts,choicesOfType,brandsIn,productsOf,type Work,type PartColor} from '../shared/parts-picker';
 import {fuelSystem,fuelSystemLabel} from '../shared/fuel-system';
 
 const ICON:Record<PartSystem,typeof Flame>={exhaust:Flame,suspension:MoveVertical,engine:Cog,clutch:Disc,tuning:Cpu,intake:Wind,gearing:LinkIcon,brakes:Disc3,controls:Hand,chassis:Frame,wheels:CircleDot,protection:Shield,body:Layers};
@@ -43,7 +43,7 @@ export function BikeParts({bike,onSaved,onAsk}:{bike:Bike;onSaved:(b:Bike)=>void
  </section>;
 }
 
-type Screen={id:'home'}|{id:'type'}|{id:'work';work:Work}|{id:'detail';work:Work;who:string;r?:string}|{id:'brand';type:string|null}|{id:'product';type:string|null;brand:string}|{id:'custom';brand:string;type:string|null};
+type Screen={id:'home'}|{id:'type'}|{id:'work';work:Work}|{id:'detail';work:Work;who:string;r?:string}|{id:'brand';type:string|null}|{id:'product';type:string|null;brand:string}|{id:'custom';brand:string;type:string|null}|{id:'color';ip:InstalledPart;colors:PartColor[]};
 
 function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSystem;bike:Bike;value:Value;catalog:CatalogPart[]|null;busy:boolean;close:()=>void;save:(v:Value)=>void}){
  const meta=partSystems.find(s=>s.key===system)!,fuel=fuelSystem(bike.manufacturer,bike.model,bike.model_year);
@@ -73,8 +73,8 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
   const notes={...value.notes};if(note.trim()&&mode!=='unknown')notes[system]=note.trim();else delete notes[system];
   save({parts,stock,notes});
  }
- const title=screen.id==='home'?meta.label:screen.id==='type'?'What did you change?':screen.id==='work'?'Who did it?':screen.id==='detail'?screen.work.label:screen.id==='brand'?'Which brand?':screen.id==='product'?screen.brand:'Add it yourself';
- const sub=screen.id==='home'?meta.hint:screen.id==='brand'?(screen.type??'Any '+meta.label.toLowerCase()+' part'):screen.id==='product'?(screen.type??meta.label):screen.id==='type'?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:screen.id==='work'?screen.work.label:screen.id==='detail'?(screen.who||'Who did it not recorded'):'';
+ const title=screen.id==='home'?meta.label:screen.id==='type'?'What did you change?':screen.id==='work'?'Who did it?':screen.id==='detail'?screen.work.label:screen.id==='brand'?'Which brand?':screen.id==='product'?screen.brand:screen.id==='color'?'Which color?':'Add it yourself';
+ const sub=screen.id==='home'?meta.hint:screen.id==='brand'?(screen.type??'Any '+meta.label.toLowerCase()+' part'):screen.id==='product'?(screen.type??meta.label):screen.id==='color'?cleanName(screen.ip.b,screen.ip.n):screen.id==='type'?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:screen.id==='work'?screen.work.label:screen.id==='detail'?(screen.who||'Who did it not recorded'):'';
  const Row=({label,detail,onClick,tag,chev=true,selected=false}:{label:ReactNode;detail?:ReactNode;onClick:()=>void;tag?:ReactNode;chev?:boolean;selected?:boolean})=>
   <li><button className={'nav-row'+(selected?' selected':'')} onClick={onClick}><span className="nav-main">{label}{tag}</span>{detail!==undefined&&<span className="nav-detail">{detail}</span>}{selected?<Check size={18} className="nav-check"/>:chev&&<ChevronRight size={18} className="nav-chev"/>}</button></li>;
  const workList=WORK[system]?<><h3 className="nav-section">WORK DONE</h3><ul className="nav-list">{WORK[system]!.map(w=><Row key={w.label} label={<b>{w.label}</b>} detail={w.kind?'Who did it?':undefined} onClick={()=>push({id:'work',work:w})}/>)}</ul></>:null;
@@ -97,7 +97,7 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
       <h3 className="nav-section">ON YOUR BIKE</h3>
       <ul className="nav-list">
        {picked.map(p=>{const r=notesFor(p),k=key(p),has=!!(r&&(r.what||r.caution||r.testers.length))||!!p.p;return <li key={k} className="fitted">
-        <div className="fitted-top"><span className="nav-main"><small className="fitted-brand">{p.b||'Brand not set'}</small><b>{cleanName(p.b,p.n)}</b>{p.d&&<small>{p.d}</small>}</span><button className="fitted-remove" onClick={()=>setPicked(picked.filter(x=>key(x)!==k))} aria-label={`Remove ${partLabel(p)}`}>Remove</button></div>
+        <div className="fitted-top"><span className="nav-main"><small className="fitted-brand">{p.b||'Brand not set'}</small><b>{cleanName(p.b,p.n)}</b>{(p.k||p.d)&&<small>{[p.k,p.d].filter(Boolean).join(' · ')}</small>}</span><button className="fitted-remove" onClick={()=>setPicked(picked.filter(x=>key(x)!==k))} aria-label={`Remove ${partLabel(p)}`}>Remove</button></div>
         {has&&<details className="part-notes"><summary>{r&&(r.what||r.caution)?'What this part changes':'Details'}</summary>
          {r?.what&&<p><span>What it changes</span>{r.what}</p>}{r?.caution&&<p className="caution"><span>Heads up</span>{r.caution}</p>}{r?.testers.slice(0,1).map(x=><p key={x}><span>Testers found</span>{x}</p>)}{p.p&&<p><span>Part number</span>{p.p}</p>}
         </details>}
@@ -136,11 +136,15 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
       <Row label={<b>Another brand</b>} detail="Type it" onClick={()=>{setCustom({b:query,n:screen.type??'',p:''});push({id:'custom',brand:query,type:screen.type})}}/>
       {screen.type&&<Row label={<b>I don’t know the brand</b>} detail={`Add as “${screen.type}”`} chev={false} onClick={()=>add({s:system,b:'',n:screen.type!,x:true})}/>}
      </ul></>})()}
+    {screen.id==='color'&&<ul className="nav-list">
+     {screen.colors.map(c=><Row key={c.name} label={<b>{c.name}</b>} detail={c.finish&&c.finish!=='stock'?c.finish:undefined} chev={false} onClick={()=>add({...screen.ip,k:c.name})}/>)}
+     <Row label={<b>Not sure</b>} detail="Add without a color" chev={false} onClick={()=>add(screen.ip)}/>
+    </ul>}
     {screen.id==='product'&&(()=>{const all=productsOf(inType(screen.type),screen.brand),list=all.filter(c=>match(c.name+' '+c.pn));return <>
      {all.length>8&&search(`Search ${screen.brand}`)}
      <ul className="nav-list">
-      {list.map(c=>{const ip:InstalledPart={s:system,b:c.brand,n:c.name,...(c.pn?{p:c.pn}:{}),...(c.r?{r:c.r}:{})},on=pickedKeys.has(key(ip));return <Row key={c.name+c.pn} selected={on}
-       label={<b>{c.name}</b>} chev={false} onClick={()=>add(ip)}/>})}
+      {list.map(c=>{const ip:InstalledPart={s:system,b:c.brand,n:c.name,...(c.pn?{p:c.pn}:{}),...(c.r?{r:c.r}:{})},on=pickedKeys.has(key(ip)),cols=c.colors??[];return <Row key={c.name+c.pn} selected={on}
+       label={<b>{c.name}</b>} detail={cols.length>1?`${cols.length} colors`:undefined} chev={cols.length>1} onClick={()=>cols.length>1&&!on?push({id:'color',ip,colors:cols}):add(cols.length===1?{...ip,k:cols[0].name}:ip)}/>})}
       {!list.length&&<li className="nav-empty">Nothing listed matches.</li>}
      </ul>
      <ul className="nav-list"><Row label={<b>Not listed?</b>} detail="Type it" onClick={()=>{setCustom({b:screen.brand,n:query,p:''});push({id:'custom',brand:screen.brand,type:screen.type})}}/></ul></>})()}

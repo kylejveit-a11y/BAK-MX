@@ -291,6 +291,9 @@ if APP_OUT:
                 fb=[short(x.get('observed'),160) for x in p.get('_feedback',[]) if x.get('observed')][:2] or [short(x,160) for x in (p.get('rider_feedback') or []) if isinstance(x,str) and x.strip()][:2]
                 if fb: it['t']=fb
                 if not it['p'] and pns: it['p']=' '.join(pns)[:80]
+                # Colours the maker lists for this product (only verified ones): the build sheet asks which one is fitted.
+                cl=[];[cl.append([short(c.get('name'),30),str(c.get('finish') or '')[:12]]) for c in (p.get('colors') or []) if isinstance(c,dict) and c.get('status')=='VERIFIED' and c.get('name') and all(short(c.get('name'),30).lower()!=x[0].lower() for x in cl)]
+                if cl and not it.get('cl'): it['cl']=cl[:12]
             code,base=SELL.get(src,('rs',''))
             w=(p.get('where_to_buy') or [{}])[0]; url=w.get('url') or p.get('fitment_source_url') or ''
             path=url[len(base):] if base and url.startswith(base) else url
@@ -306,7 +309,7 @@ if APP_OUT:
         o={'b':it['b'],'n':it['n'],'s':it['s']}
         if it['p']:o['p']=it['p']
         if it['u']:o['u']=[[c,pth]+([pr] if pr else []) for c,pth,pr in it['u']]
-        for k in ('r','conf','w','c','t','sv','k'):
+        for k in ('r','conf','w','c','t','sv','k','cl'):
             if it.get(k):o[k]=it[k]
         out_items.append(o)
     fam=os.path.basename(fam_dir.rstrip('/'))

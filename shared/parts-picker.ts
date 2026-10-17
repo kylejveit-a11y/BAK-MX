@@ -6,8 +6,10 @@ import {partTypes,typeOf} from './part-types.ts';
 import type {FuelSystem} from './fuel-system.ts';
 export {partTypes,typeOf};
 /** One part a rider can pick for their bike. r marks a researched part (it carries what it changes and tester notes). */
-export type CatalogPart={brand:string;name:string;system:PartSystem;pn:string;r?:string;verified:boolean;what:string;caution:string;testers:string[];service:boolean;fuel?:'c'|'i';links:{seller:string;url:string;price:string}[]};
-export type FamilyFile={v:number;systems:PartSystem[];sellers:Record<string,string>;brands:string[];items:{b:number;n:string;s:number;p?:string;u?:string[][];r?:string;conf?:string;w?:string;c?:string;t?:string[];sv?:number;k?:'c'|'i'}[];bikes:Record<string,number[]>};
+export type CatalogPart={brand:string;name:string;system:PartSystem;pn:string;r?:string;verified:boolean;what:string;caution:string;testers:string[];service:boolean;fuel?:'c'|'i';colors?:PartColor[];links:{seller:string;url:string;price:string}[]};
+/** A colour the maker lists for a product (name as printed, finish such as anodized or matte). */
+export type PartColor={name:string;finish:string};
+export type FamilyFile={v:number;systems:PartSystem[];sellers:Record<string,string>;brands:string[];items:{b:number;n:string;s:number;p?:string;u?:string[][];r?:string;conf?:string;w?:string;c?:string;t?:string[];sv?:number;k?:'c'|'i';cl?:[string,string][]}[];bikes:Record<string,number[]>};
 const SELLER:Record<string,string>={cg:'Cycle Gear',ms:'MotoSport',kt:'KTM Twins',lg:'Lings',tr:'Triumph dealer',ym:'Yamaha dealer',rs:'Source'};
 export const familyOf=(make:string)=>['KTM','Husqvarna','GasGas'].includes(make)?'ktm-family':make==='Triumph'?'triumph':make==='Yamaha'?'yamaha':make==='Honda'?'honda':make==='Kawasaki'?'kawasaki':null;
 /** Every listed part for this exact bike in a family file, or null when the bike has no list there. */
@@ -16,7 +18,7 @@ export function decodeFamily(f:FamilyFile|null,make:string,model:string,year:num
  if(!f||!list)return null;
  const out:CatalogPart[]=[];let idx=0;
  for(const d of list){idx+=d;const it=f.items[idx];if(!it)continue;
-  out.push({brand:f.brands[it.b]??'',name:it.n,system:f.systems[it.s],pn:it.p??'',r:it.r,verified:it.conf==='high',what:it.w??'',caution:it.c??'',testers:it.t??[],service:!!it.sv,...(it.k?{fuel:it.k}:{}),
+  out.push({brand:f.brands[it.b]??'',name:it.n,system:f.systems[it.s],pn:it.p??'',r:it.r,verified:it.conf==='high',what:it.w??'',caution:it.c??'',testers:it.t??[],service:!!it.sv,...(it.k?{fuel:it.k}:{}),...(it.cl?.length?{colors:it.cl.map(([name,finish])=>({name,finish}))}:{}),
    links:(it.u??[]).map(([code,path,price])=>({seller:SELLER[code]??'Source',url:(f.sellers[code]??'')+path,price:price??''})).filter(l=>/^https:\/\//.test(l.url))});
  }
  return out;
@@ -62,15 +64,16 @@ export function providersFor(kind:WorkProvider['work'],make:string,model:string)
  for(const p of workProviders.filter(p=>p.work===kind&&(!p.makes.length||p.makes.includes(make))).sort((a,b)=>rank(b)-rank(a)))if(!m.has(p.brand))m.set(p.brand,p);
  return [...m.values()].map(p=>({...p,exact:rank(p)===2||!p.models.length,label:rank(p)===2?p.name:kind==='ecu'?'ECU flash and mapping':'Revalves and suspension service'}));
 }
-export type Choice={brand:string;name:string;pn:string;r?:string;verified:boolean;what:string;caution:string;testers:string[];type:string|null};
+export type Choice={brand:string;name:string;pn:string;r?:string;verified:boolean;what:string;caution:string;testers:string[];type:string|null;colors?:PartColor[]};
 /** The listed parts for one system, one row per maker and name: services, small service bits and parts for the other fuel
  *  system are kept out (no carb jets on an injected bike). */
 export function pickerChoices(catalog:CatalogPart[]|null,system:PartSystem,fuel:FuelSystem|null):Choice[]{
  const m=new Map<string,Choice>();
  for(const c of catalog??[]){if(c.system!==system||c.service||(fuel==='injected'&&c.fuel==='c')||(fuel==='carburetor'&&c.fuel==='i'))continue;const brand=brandOf(c),name=cleanName(brand,c.name),type=typeOf(system,c.name);
   const k=(brand+'|'+name).toLowerCase(),prev=m.get(k);
-  if(!prev)m.set(k,{brand,name,pn:c.pn.split(/[\s,]+/)[0]??'',r:c.r,verified:c.verified,what:c.what,caution:c.caution,testers:c.testers,type});
-  else if(c.r&&!prev.r)m.set(k,{...prev,r:c.r,verified:c.verified,what:c.what,caution:c.caution,testers:c.testers});}
+  if(!prev)m.set(k,{brand,name,pn:c.pn.split(/[\s,]+/)[0]??'',r:c.r,verified:c.verified,what:c.what,caution:c.caution,testers:c.testers,type,...(c.colors?{colors:c.colors}:{})});
+  else if(c.r&&!prev.r)m.set(k,{...prev,r:c.r,verified:c.verified,what:c.what,caution:c.caution,testers:c.testers});
+  const cur=m.get(k)!;if(c.colors?.length&&!cur.colors?.length)m.set(k,{...cur,colors:c.colors});}
  return [...m.values()];
 }
 /** Part types that have listed parts (or every type when there is no list), with counts. */

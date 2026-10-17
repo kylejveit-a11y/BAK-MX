@@ -128,3 +128,11 @@ test('a shop’s service notes reach BAK only for the bikes that shop lists',()=
  assert.equal(installedPartsContext(cfg,{manufacturer:'KTM',model:'450 SX-F'})!.fitted[0].research,undefined);
  assert.ok(installedPartsContext(cfg,{manufacturer:td.models[0].split('|')[0],model:td.models[0].split('|')[1]})!.fitted[0].research);
 });
+test('part colours: catalog colours reach the picker and the rider\'s choice is stored with the part',async()=>{
+ const {decodeFamily,pickerChoices}=await import('../shared/parts-picker.ts');const {readInstalled,partLabel}=await import('../shared/installed-parts.ts');
+ const fam={v:2,systems:['controls'],sellers:{},brands:['Renthal'],items:[{b:0,n:'Fatbar',s:0,p:'605-01',cl:[['Black','anodized'],['Red','anodized']]}],bikes:{'KTM|450 SX-F|2025':[0]}} as never;
+ const parts=decodeFamily(fam,'KTM','450 SX-F',2025)!;assert.deepEqual(parts[0].colors,[{name:'Black',finish:'anodized'},{name:'Red',finish:'anodized'}]);
+ assert.equal(pickerChoices(parts,'controls' as never,'injected')[0].colors?.length,2);
+ const {parts:stored}=readInstalled({installed_parts:[{s:'controls',b:'Renthal',n:'Fatbar',k:'  Black  '},{s:'controls',b:'ODI',n:'Grips',k:''}]});
+ assert.equal(stored[0].k,'Black');assert.equal(stored[1].k,undefined);assert.equal(partLabel(stored[0]),'Renthal Fatbar (Black)');
+});

@@ -2,13 +2,13 @@ import React,{useEffect,useMemo,useState} from 'react';
 import {Modal,View,Text,Pressable,ScrollView,TextInput,ActivityIndicator,KeyboardAvoidingView,Platform} from 'react-native';
 import type {Bike} from '../../../shared/types';
 import {partSystems,readInstalled,writeInstalled,partLabel,MAX_PARTS,type InstalledPart,type PartSystem} from '../../../shared/installed-parts';
-import {decodeFamily,familyOf,NOTE_HINT,WORK,providersFor,cleanName,pickerChoices,typesWithCounts,choicesOfType,brandsIn,productsOf,type CatalogPart,type FamilyFile,type Work,type Choice} from '../../../shared/parts-picker';
+import {decodeFamily,familyOf,NOTE_HINT,WORK,providersFor,cleanName,pickerChoices,typesWithCounts,choicesOfType,brandsIn,productsOf,type CatalogPart,type FamilyFile,type Work,type Choice,type PartColor} from '../../../shared/parts-picker';
 import {fuelSystem,fuelSystemLabel} from '../../../shared/fuel-system';
 import {api,apiOrigin} from './api';
 import {Button,Card,Copy,Notice,colors} from './ui';
 
 type Value=ReturnType<typeof readInstalled>;
-type Screen={id:'home'}|{id:'type'}|{id:'work';work:Work}|{id:'detail';work:Work;who:string;r?:string}|{id:'brand';type:string|null}|{id:'product';type:string|null;brand:string}|{id:'custom';brand:string;type:string|null};
+type Screen={id:'home'}|{id:'type'}|{id:'work';work:Work}|{id:'detail';work:Work;who:string;r?:string}|{id:'brand';type:string|null}|{id:'product';type:string|null;brand:string}|{id:'custom';brand:string;type:string|null}|{id:'color';ip:InstalledPart;colors:PartColor[]};
 const families=new Map<string,Promise<FamilyFile|null>>();
 /** The public parts list for a bike family, from the same files the website uses. */
 function loadFamily(name:string){
@@ -76,8 +76,8 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
   const notes={...value.notes};if(note.trim()&&mode!=='unknown')notes[system]=note.trim();else delete notes[system];
   save({parts,stock,notes});
  }
- const title=screen.id==='home'?meta.label:screen.id==='type'?'What did you change?':screen.id==='work'?'Who did it?':screen.id==='detail'?screen.work.label:screen.id==='brand'?'Which brand?':screen.id==='product'?screen.brand:'Add it yourself';
- const sub=screen.id==='home'?meta.hint:screen.id==='brand'?(screen.type??`Any ${meta.label.toLowerCase()} part`):screen.id==='product'?(screen.type??meta.label):screen.id==='type'?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:screen.id==='work'?screen.work.label:screen.id==='detail'?(screen.who||'Who did it not recorded'):'';
+ const title=screen.id==='home'?meta.label:screen.id==='type'?'What did you change?':screen.id==='work'?'Who did it?':screen.id==='detail'?screen.work.label:screen.id==='brand'?'Which brand?':screen.id==='product'?screen.brand:screen.id==='color'?'Which color?':'Add it yourself';
+ const sub=screen.id==='home'?meta.hint:screen.id==='brand'?(screen.type??`Any ${meta.label.toLowerCase()} part`):screen.id==='product'?(screen.type??meta.label):screen.id==='color'?cleanName(screen.ip.b,screen.ip.n):screen.id==='type'?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:screen.id==='work'?screen.work.label:screen.id==='detail'?(screen.who||'Who did it not recorded'):'';
  const workList=WORK[system]?<><Section title="WORK DONE"/><Group>{WORK[system]!.map(w=><Row key={w.label} label={w.label} detail={w.kind?'Who did it?':undefined} onPress={()=>push({id:'work',work:w})}/>)}</Group></>:null;
  const search=(placeholder:string)=><TextInput value={query} onChangeText={setQuery} placeholder={placeholder} placeholderTextColor="#7c858e" accessibilityLabel={placeholder} autoCorrect={false} style={st.search}/>;
  return <Modal visible animationType="slide" presentationStyle="pageSheet" onRequestClose={close}>
@@ -99,7 +99,7 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
       <Group>
        {picked.map(p=>{const r=notesFor(p),k=key(p),has=!!(r&&(r.what||r.caution||r.testers.length))||!!p.p;return <View key={k} style={st.fitted}>
         <View style={{flexDirection:'row',gap:12,alignItems:'flex-start'}}>
-         <View style={{flex:1,gap:2}}><Text style={st.brand}>{p.b||'BRAND NOT SET'}</Text><Text style={st.rowTitle}>{cleanName(p.b,p.n)}</Text>{!!p.d&&<Text style={st.small}>{p.d}</Text>}</View>
+         <View style={{flex:1,gap:2}}><Text style={st.brand}>{p.b||'BRAND NOT SET'}</Text><Text style={st.rowTitle}>{cleanName(p.b,p.n)}</Text>{!!(p.k||p.d)&&<Text style={st.small}>{[p.k,p.d].filter(Boolean).join(' · ')}</Text>}</View>
          <Pressable accessibilityRole="button" accessibilityLabel={`Remove ${partLabel(p)}`} onPress={()=>setPicked(picked.filter(x=>key(x)!==k))} hitSlop={8}><Text style={{color:'#f0a8b0',fontSize:15}}>Remove</Text></Pressable>
         </View>
         {has&&<Pressable accessibilityRole="button" onPress={()=>setOpenNotes(openNotes===k?null:k)}><Text style={{color:colors.accent,fontSize:14,fontWeight:'600'}}>{r&&(r.what||r.caution)?'What this part changes':'Details'} {openNotes===k?'⌄':'›'}</Text></Pressable>}
@@ -142,9 +142,10 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
       <Row label="Another brand" detail="Type it" onPress={()=>{setCustom({b:query,n:screen.type??'',p:''});push({id:'custom',brand:query,type:screen.type});}}/>
       {screen.type&&<Row label="I don’t know the brand" detail={`Add as “${screen.type}”`} chev={false} onPress={()=>add({s:system,b:'',n:screen.type!,x:true})}/>}
      </Group></>;})()}
+    {screen.id==='color'&&<Group>{screen.colors.map(c=><Row key={c.name} label={c.name} detail={c.finish&&c.finish!=='stock'?c.finish:undefined} chev={false} onPress={()=>add({...screen.ip,k:c.name})}/>)}<Row label="Not sure" detail="Add without a color" chev={false} onPress={()=>add(screen.ip)}/></Group>}
     {screen.id==='product'&&(()=>{const all=productsOf(choicesOfType(choices,screen.type),screen.brand),list=all.filter(c=>match(c.name+' '+c.pn));return <>
      {all.length>8&&search(`Search ${screen.brand}`)}
-     <Group>{list.map((c:Choice)=>{const ip:InstalledPart={s:system,b:c.brand,n:c.name,...(c.pn?{p:c.pn}:{}),...(c.r?{r:c.r}:{})};return <Row key={c.name+c.pn} label={c.name} selected={pickedKeys.has(key(ip))} chev={false} onPress={()=>add(ip)}/>;})}{!list.length&&<Text style={[st.small,{padding:16}]}>Nothing listed matches.</Text>}</Group>
+     <Group>{list.map((c:Choice)=>{const ip:InstalledPart={s:system,b:c.brand,n:c.name,...(c.pn?{p:c.pn}:{}),...(c.r?{r:c.r}:{})},on=pickedKeys.has(key(ip)),cols=c.colors??[];return <Row key={c.name+c.pn} label={c.name} detail={cols.length>1?`${cols.length} colors`:undefined} selected={on} chev={cols.length>1} onPress={()=>cols.length>1&&!on?push({id:'color',ip,colors:cols}):add(cols.length===1?{...ip,k:cols[0].name}:ip)}/>;})}{!list.length&&<Text style={[st.small,{padding:16}]}>Nothing listed matches.</Text>}</Group>
      <Group><Row label="Not listed?" detail="Type it" onPress={()=>{setCustom({b:screen.brand,n:query,p:''});push({id:'custom',brand:screen.brand,type:screen.type});}}/></Group></>;})()}
     {screen.id==='custom'&&<View style={{gap:12}}>
      <Text style={st.small}>{isWork(custom.n)?'Who did the work? (shop or tuner)':'Brand'}</Text>
