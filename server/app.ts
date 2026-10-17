@@ -1,6 +1,7 @@
 import {createInput,createRecord} from './create-record.ts';
 import {aiAccessMode} from './ai-access.ts';
 import {getBikeClaims,searchBikeClaims} from './claims.ts';
+import {bikeKnowledge} from './knowledge.ts';
 import {collectPages} from './pagination.ts';
 import {ZodError} from 'zod';
 import type {Bike,Claim,Message} from '../shared/types.ts';
@@ -90,13 +91,13 @@ async function route(req:Request):Promise<Response>{const url=new URL(req.url),o
   const run=async(emit:Emit)=>{
    /* A re-run was already counted against the allowance when it first ran ('duplicate'). */const reserved=await reserveQuestion(owner,data.request_id,tier,mode);if(reserved==='limit'||(reserved==='duplicate'&&!rerun))throw new HttpError(429,reserved==='limit'?limitMessage((await usageFor(owner,tier,mode))):'Daily AI allowance reached');
    emit({type:'status',stage:'specs'});
-   const t0=Date.now();const lookups=bike?await planSpecLookups(bike,history,data.message):[];const t1=Date.now();const claims=bike?await searchBikeClaims(db,bike,lookups):[];const t2=Date.now();
+   const t0=Date.now();const lookups=bike?await planSpecLookups(bike,history,data.message):[];const t1=Date.now();const claims=bike?await searchBikeClaims(db,bike,lookups):[];const knowledge=bike?await bikeKnowledge(db,bike,data.message,lookups):[];const t2=Date.now();
    checked(await admin.from('ai_requests').update({claims_snapshot:claims}).eq('request_id',data.request_id).eq('user_id',owner).eq('state','processing'));
    emit({type:'status',stage:'writing',published:claims.length});
    let sent=0;
    // what the rider tried and how it rode; a log that cannot be read never blocks the answer
    const setupHistory=bike?((await db.from('setup_logs').select('recorded_at,track,conditions,change_made,result,notes').eq('bike_id',bike.id).eq('user_id',owner).order('recorded_at',{ascending:false}).limit(8)).data??[]):[];
-   const {response,raw}=await generateAnswer(bike,history,claims,data.message,lookups,draft=>{const size=draft.summary.length+draft.answer.length;if(size-sent<24)return;sent=size;emit({type:'draft',summary:draft.summary,answer:draft.answer});},setupHistory);
+   const {response,raw}=await generateAnswer(bike,history,claims,data.message,lookups,draft=>{const size=draft.summary.length+draft.answer.length;if(size-sent<24)return;sent=size;emit({type:'draft',summary:draft.summary,answer:draft.answer});},setupHistory,knowledge);
    emit({type:'status',stage:'checking'});
    checked(await admin.rpc('complete_ai_request',{p_user_id:owner,p_request_id:data.request_id,p_response:response,p_raw_output:{...raw,bakmx_plan_ms:t1-t0,bakmx_search_ms:t2-t1,bakmx_streamed:emit!==quiet}}));
    if(bike&&response.data_gaps?.length){const scope=exactBikeScope(bike);/* Best effort: a logging failure must not cost the rider a saved answer. */await admin.from('data_gaps').insert(response.data_gaps.map(gap=>({request_id:data.request_id,user_id:owner,...scope,gap:gap.slice(0,300)}))).then(()=>{},()=>{});}

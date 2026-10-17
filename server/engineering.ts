@@ -11,6 +11,7 @@ import {manufacturerSetupGuidance} from '../shared/manufacturer-setup-guidance.t
 import {installedPartsContext,withoutBuildSheet} from './installed-parts-context.ts';
 import {partSystems,readInstalled} from '../shared/installed-parts.ts';
 import {disciplinesKnowledge} from '../shared/disciplines.ts';
+import {knowledgeClaimTier,type Knowledge} from './knowledge.ts';
 import {cleanGarageUpdates} from '../shared/garage-updates.ts';
 import {allGarageFields} from '../shared/garage-fields.ts';
 import {fuelSystem,fuelSystemLabel} from '../shared/fuel-system.ts';
@@ -30,7 +31,7 @@ export function testerBaselinesFor(bike:{manufacturer:string;model:string;model_
  *  3. answer   – one call writes the reply; every factual claim carries a confidence tier
  *  4. check    – code verifies citations and exact published values; one repair attempt, then an honest failure
  *  A backup model is tried when the provider fails. Model names come only from configuration. */
-export const PROMPT_VERSION='mx-engineering-26';
+export const PROMPT_VERSION='mx-engineering-27';
 
 /** How solid a claim is. PUBLISHED must cite retrieved evidence; nothing may be presented above its real tier. */
 export const TIERS=['PUBLISHED','RIDER_SAVED','ENGINEERING','GENERAL','COMMUNITY','UNKNOWN'] as const;
@@ -39,7 +40,7 @@ export function applicableClaims(claims:Claim[],bike:Bike){return claims.filter(
 
 /** What the rider tried on this bike and how it rode, newest first: their own setup log, including results reported from BAK's suggestions. */
 export type SetupResultRow={recorded_at:string;track:string;conditions:string;change_made:string;result:string;notes:string};
-export function buildEngineeringInput(bike:Bike|null,history:Message[],claims:Claim[],message:string,setupHistory:SetupResultRow[]=[]){
+export function buildEngineeringInput(bike:Bike|null,history:Message[],claims:Claim[],message:string,setupHistory:SetupResultRow[]=[],knowledge:Knowledge[]=[]){
  // Order matters for cost and speed: the parts that are identical on every request come first so the provider can reuse its cached prefix.
  return {
   evidence_boundary:'verified_claims holds the published evidence retrieved for this question for this exact bike, not the whole corpus. A published value that is absent here is not on file for this answer: say so in one line, never state it as published, and then still help from engineering and general knowledge, labelled as such.',
@@ -56,6 +57,7 @@ export function buildEngineeringInput(bike:Bike|null,history:Message[],claims:Cl
   ...(bike?{}:{no_build:'The rider chose to ask without a build. There is no saved bike and no published evidence for this question. Follow NO BUILD SELECTED.'}),
   reviewed_workshop:bike?workshopContext(bike,history,message):null,
   conversation:history.map(m=>({role:m.role,content:m.response??m.content})),
+  ...(bike&&knowledge.length?{bike_knowledge:knowledge}:{}),
   verified_claims:bike?applicableClaims(claims,bike):[],
   message,
  };
@@ -118,13 +120,15 @@ function fromWire(parsed:unknown,real:Map<string,Claim>):unknown{
 const usable=(claims:Claim[])=>new Map(claims.filter(c=>c.status==='VERIFIED'&&!c.has_conflict&&c.source_url&&c.source_locator).map(c=>[c.id,c]));
 /** Rule breaks in a well-formed reply, in the words sent back to the model for one repair. */
 /** fitted: brands on the rider's own build sheet. A tuner's name is allowed when it is also the brand of a part the rider has fitted (e.g. a Slavens Racing cylinder kit). */
-export function responseViolations(r:Parsed,claims:Claim[],fitted:string[]=[]):string[]{
- const byId=usable(claims),found:string[]=[];
+export function responseViolations(r:Parsed,claims:Claim[],fitted:string[]=[],knowledge:Knowledge[]=[]):string[]{
+ const byId=usable(claims),found:string[]=[],known=new Map(knowledge.map(k=>[k.id,k]));
  if(r.evidence_ids.some(id=>!byId.has(id)))found.push('The answer cited unavailable evidence: cite only ids present in verified_claims.');
  for(const spec of r.specifications){const c=byId.get(spec.claim_id);if(!c||!r.evidence_ids.includes(c.id)||spec.value!==c.statement)found.push('A specification was not an exact verified claim: each specifications value must be the complete statement of a claim in verified_claims, with its claim_id also in evidence_ids.');}
  for(const c of r.claims){
-  if(c.evidence_ids.some(id=>!byId.has(id)))found.push(`A claim cited unavailable evidence: "${c.claim.slice(0,80)}".`);
-  if(c.tier==='PUBLISHED'&&!c.evidence_ids.some(id=>byId.has(id)))found.push(`A claim was tiered PUBLISHED without retrieved evidence: "${c.claim.slice(0,80)}". Cite the claim id or lower the tier to what it really is.`);
+  if(c.evidence_ids.some(id=>!byId.has(id)&&!known.has(id)))found.push(`A claim cited unavailable evidence: "${c.claim.slice(0,80)}".`);
+  // Deep knowledge supports a claim only at its own tier: OEM may be PUBLISHED, measured/tuner/community is COMMUNITY, BAK calculations are ENGINEERING.
+  for(const id of c.evidence_ids){const k=known.get(id);if(k&&c.tier==='PUBLISHED'&&knowledgeClaimTier[k.tier]!=='PUBLISHED')found.push(`A claim was tiered PUBLISHED on ${k.tier.toLowerCase()} data: "${c.claim.slice(0,80)}". Measured, tuner and community data is COMMUNITY; BAK calculations are ENGINEERING.`);}
+  if(c.tier==='PUBLISHED'&&!c.evidence_ids.some(id=>byId.has(id)||known.get(id)?.tier==='OEM'))found.push(`A claim was tiered PUBLISHED without retrieved evidence: "${c.claim.slice(0,80)}". Cite the claim id or lower the tier to what it really is.`);
   if(c.tier==='PUBLISHED'&&c.evidence_ids.some(id=>byId.has(id)&&!r.evidence_ids.includes(id)))found.push(`A published claim's cited evidence was omitted from the answer-level evidence list: "${c.claim.slice(0,80)}". Include all published citations in evidence_ids.`);
  }
  if(!r.evidence_ids.length&&r.confidence==='SUPPORTED')found.push('Supported confidence requires cited verified evidence.');
@@ -133,11 +137,11 @@ export function responseViolations(r:Parsed,claims:Claim[],fitted:string[]=[]):s
  if(/\b[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\b/i.test(r.summary+' '+r.answer))found.push('The rider-facing text shows an internal identifier. Name the source in plain words instead.');
  const own=fitted.join(' ').toLowerCase(),named=(JSON.stringify(r).match(/\b(Keefer|Motocross Action|MXA|Bones Bacon|Slavens|Teknik)\b/gi)??[]).filter(n=>!own.includes(n.toLowerCase()));
  if(named.length)found.push('The rider-facing text names a tester, magazine or tuner. Say what suspension tuners and testers commonly find, in your own words, without names or their numbers.');
- if(/\b(research notes?|supplied (notes|data|research|context)|provided (notes|data|context)|installed_parts|tester_baselines|setup_knowledge|racing_knowledge|reviewed_workshop|verified_claims|authored_hypotheses|garage_updates)\b/i.test(JSON.stringify({a:r.answer,s:r.summary,c:r.setup_changes,n:r.next_step})))found.push('The rider-facing text describes how BAK is fed (research notes, supplied data, input field names). Speak plainly: "testers report", "the maker claims", "your build sheet shows".');
+ if(/\b(research notes?|supplied (notes|data|research|context)|provided (notes|data|context)|installed_parts|tester_baselines|setup_knowledge|racing_knowledge|bike_knowledge|reviewed_workshop|verified_claims|authored_hypotheses|garage_updates)\b/i.test(JSON.stringify({a:r.answer,s:r.summary,c:r.setup_changes,n:r.next_step})))found.push('The rider-facing text describes how BAK is fed (research notes, supplied data, input field names). Speak plainly: "testers report", "the maker claims", "your build sheet shows".');
  return [...new Set(found)];
 }
-export function validateResponse(value:unknown,claims:Claim[],fitted:string[]=[]):EngineeringResponse{
- const r=responseSchema.parse(value),violations=responseViolations(r,claims,fitted);
+export function validateResponse(value:unknown,claims:Claim[],fitted:string[]=[],knowledge:Knowledge[]=[]):EngineeringResponse{
+ const r=responseSchema.parse(value),violations=responseViolations(r,claims,fitted,knowledge);
  if(violations.length)throw new HttpError(502,violations[0]);
  return r;
 }
@@ -172,6 +176,7 @@ Do not show claim ids (c1, c2 ...) or any internal identifier to the rider; name
 data_gaps: list any published data that was missing and would have improved this reply, one short line each. Empty when nothing was missing.
 
 SETUP REASONING
+BIKE KNOWLEDGE: bike_knowledge holds deep facts about this exact bike beyond the spec sheet: dyno numbers, how the power feels by rpm and why, ECU maps and app settings, engine architecture, porting, what mods do, known problems, chassis character and setups that work. Each row has a tier. OEM rows are the manufacturer's own word. MEASURED rows are independent measurements (magazine or tuner dynos, scales): give the number and say it was measured on a dyno or scale, and that different dynos read differently. TUNER rows are what engine and suspension builders and race teams report: give the numbers (including full map values) as a tuner-tested starting point, never as the manufacturer's setting. DERIVED rows are BAK calculations: say "worked out from" the inputs. COMMUNITY rows are repeated owner reports. Never name the magazine, tester, tuner or team. When sources disagree, give the spread. In claims, cite the row id with tier PUBLISHED only for OEM rows, COMMUNITY for MEASURED/TUNER/COMMUNITY rows and ENGINEERING for DERIVED rows. Explain WHY the engine behaves as it does when the rows support it. If bike_knowledge has nothing for the question, say BAK doesn't have it on file for this bike yet; do not fill the gap from memory with numbers.
 PHOTOS: BAK MX cannot receive photos, videos or files; riders can only type. If a rider mentions a photo, say you can't see photos in BAK and ask them to describe what they see (color, deposits, where). Never tell them to upload or attach anything.
 GARAGE SETTINGS FROM A CHANGE: only offer a Garage setting update when the rider gives the absolute position ("10 out", "12 clicks"). A relative change ("I went 2 clicks softer") is not a setting: ask where it is now, counted out from seated, if you need it.
 RACING TYPES: racing_knowledge describes supercross, arenacross, outdoor motocross, MXGP, cross-country (GNCC, hare scrambles), enduro/EnduroCross and desert racing at pro and amateur level, and how each shifts setup and parts. Use it whenever the rider names a racing type, series or class, describes the kind of track, or the bike's discipline field is set, and let it set the direction of a setup change (for example more hold-up for supercross-style jumps, more compliance for roots and rocks). Know the difference between pro and amateur needs: never hand an amateur a pro supercross setup, and say so when a rider asks to copy one. When the rider asks for a race-specific build, follow race_build_rules: confirm or ask for the missing inputs (discipline, weight in gear, skill/speed, terrain, budget) in one short question if they are not in the Garage; otherwise give a prioritized plan by system with what each step changes and what to skip for that racing type. Name a specific product only when it is on the rider's build sheet or in the parts research supplied; otherwise name the category. Racing rules (classes, ages, sound, fuel, equipment) change every year: give the general rule and tell the rider to check the current rulebook. racing_knowledge is general knowledge, never a published specification for the bike.
@@ -299,9 +304,9 @@ export async function planSpecLookups(bike:Bike,history:Message[],message:string
 }
 
 /** Steps 3 and 4. `claims` is the retrieved exact-bike evidence. */
-export async function generateAnswer(bike:Bike|null,history:Message[],claims:Claim[],message:string,lookups:string[]=[],onDraft?:(draft:{summary:string;answer:string})=>void,setupHistory:SetupResultRow[]=[]){
+export async function generateAnswer(bike:Bike|null,history:Message[],claims:Claim[],message:string,lookups:string[]=[],onDraft?:(draft:{summary:string;answer:string})=>void,setupHistory:SetupResultRow[]=[],knowledge:Knowledge[]=[]){
  const started=Date.now(),fitted=bike?readInstalled(bike.configuration).parts.map(p=>p.b).filter(Boolean):[];
- const input={...buildEngineeringInput(bike,history,claims,message,setupHistory),spec_lookups_performed:lookups};
+ const input={...buildEngineeringInput(bike,history,claims,message,setupHistory,knowledge),spec_lookups_performed:lookups};
  const {wire:full,real}=toWire(input);
  // The provider caches the instructions block as a unit. The reference library is identical on every request, so it rides
  // there; only what changes per question (bike, conversation, retrieved evidence, message) is sent as input.
@@ -312,13 +317,13 @@ export async function generateAnswer(bike:Bike|null,history:Message[],claims:Cla
  let firstText=0;
  const first=await callWithBackup(answerModel(),onDraft?{...call,onText:soFar=>{const draft={summary:partialJsonString(soFar,'summary'),answer:partialJsonString(soFar,'answer')};if(!firstText&&(draft.summary||draft.answer))firstText=Date.now()-started;onDraft(draft);}}:call);
  let parsed=responseSchema.safeParse(fromWire(first.parsed,real)),raw=first.raw,repaired=false;
- let violations=parsed.success?responseViolations(parsed.data,claims,fitted):['The reply did not match the required JSON shape.'];
+ let violations=parsed.success?responseViolations(parsed.data,claims,fitted,knowledge):['The reply did not match the required JSON shape.'];
  if(violations.length&&Date.now()-started<50000){
   // One repair, with the exact rules that were broken. A second failure is reported honestly rather than patched over.
   try{
    const second=await callModel(first.model,{...call,timeoutMs:25000,instructions:briefing+'\n\nYour previous draft broke these rules. Fix them and return the full corrected reply:\n- '+violations.join('\n- '),input:{...wire,previous_draft:first.parsed}});
    const again=responseSchema.safeParse(fromWire(second.parsed,real));
-   const remaining=again.success?responseViolations(again.data,claims,fitted):violations;
+   const remaining=again.success?responseViolations(again.data,claims,fitted,knowledge):violations;
    if(again.success&&remaining.length<violations.length){parsed=again;raw=second.raw;violations=remaining;repaired=true;}
   }catch{/* keep the first draft's verdict */}
  }

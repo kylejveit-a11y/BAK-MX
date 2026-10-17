@@ -1,0 +1,20 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {rankKnowledge,type Knowledge} from '../server/knowledge.ts';
+import {responseViolations} from '../server/engineering.ts';
+const k=(id:string,domain:string,topic:string,tier:Knowledge['tier'],statement='x'):Knowledge=>({id,domain,topic,statement,tier,values:{},notes:'',confidence:'high'});
+const rows=[k('K-1','ecu_electronics','Power Tuner fuel grid','TUNER','Smoother arenacross map'),k('K-2','power_feel','peak horsepower','MEASURED','55 hp on a dyno'),k('K-3','chassis','rake','OEM','27 degrees'),k('K-4','engine_architecture','bore and stroke ratio','DERIVED','oversquare')];
+test('knowledge is ranked by what the rider asked',()=>{
+ assert.equal(rankKnowledge(rows,'What Power Tuner map for arenacross?')[0].id,'K-1');
+ assert.equal(rankKnowledge(rows,'how much horsepower does it make on the dyno')[0].id,'K-2');
+ assert.deepEqual(rankKnowledge(rows,'my grips are worn'),[]);
+});
+const base={kind:'answer',summary:'s',answer:'a',setup_changes:[],observations:[],systems:[],hypotheses:[],unknowns:[],next_step:null,specifications:[],evidence_ids:[],references:[],confidence:'LIMITED',garage_updates:[]};
+const v=(claims:object[])=>responseViolations({...base,claims} as never,[],[],rows);
+test('deep knowledge supports a claim only at its own tier',()=>{
+ assert.deepEqual(v([{claim:'tuner map',tier:'COMMUNITY',evidence_ids:['K-1']}]),[]);
+ assert.ok(v([{claim:'tuner map',tier:'PUBLISHED',evidence_ids:['K-1']}]).length>0);
+ assert.deepEqual(v([{claim:'rake',tier:'PUBLISHED',evidence_ids:['K-3']}]),[]);
+ assert.deepEqual(v([{claim:'ratio',tier:'ENGINEERING',evidence_ids:['K-4']}]),[]);
+ assert.ok(v([{claim:'made up',tier:'COMMUNITY',evidence_ids:['K-99']}]).length>0);
+});

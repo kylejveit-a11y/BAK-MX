@@ -4,6 +4,7 @@ import type {Bike,Message} from '../shared/types.ts';
 import {adminDb,checked} from './database.ts';
 import {HttpError,readJson} from './validation.ts';
 import {searchBikeClaims} from './claims.ts';
+import {bikeKnowledge} from './knowledge.ts';
 import {generateAnswer,planSpecLookups,PROMPT_VERSION} from './engineering.ts';
 /** Test access to Ask BAK for automated evaluation (POST /api/eval/ask), approved by Kyle 2026-10-15. Gated by a bearer
  *  token whose SHA-256 is in eval_access_tokens (expiring, revocable, capped per day). The bike, prior turns and ride results
@@ -37,7 +38,8 @@ export async function handleEval(req:Request):Promise<Response>{
  try{
   const lookups=bike?await planSpecLookups(bike,history,data.message):[];
   const claims=bike?await searchBikeClaims(admin,bike,lookups):[];
-  const {response}=await generateAnswer(bike,history,claims,data.message,lookups,()=>{},data.setup_history as never);
+  const knowledge=bike?await bikeKnowledge(admin,bike,data.message,lookups):[];
+  const {response}=await generateAnswer(bike,history,claims,data.message,lookups,()=>{},data.setup_history as never,knowledge);
   await log(true);
   return new Response(JSON.stringify({prompt_version:PROMPT_VERSION,model:process.env.OPENAI_MODEL,ms:Date.now()-t0,published_claims:claims.length,lookups,response}),{headers:{'content-type':'application/json','cache-control':'no-store'}});
  }catch(e){await log(false,String((e as Error)?.message??e));throw e;}
