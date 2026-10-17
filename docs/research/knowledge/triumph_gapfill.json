@@ -1,0 +1,2088 @@
+{
+ "slice": "Triumph TF range gap fill + 2020 Honda CRF450R/CRF450RX/CRF250R/CRF250RX and Kawasaki KX450/KX250",
+ "platform": {
+  "make": "Triumph",
+  "models": [
+   "TF 250-X",
+   "TF 450-RC Edition",
+   "TF 450-X",
+   "TF 250-C",
+   "TF 450-C",
+   "TF 250-E",
+   "TF 450-E",
+   "CRF450R",
+   "CRF450RX",
+   "CRF250RX",
+   "KX450",
+   "KX250"
+  ],
+  "years": [
+   2020,
+   2024,
+   2025,
+   2026
+  ]
+ },
+ "records": [
+  {
+   "id": "tg-001",
+   "domain": "known_issues",
+   "topic": "TF 450 cylinder head recall (US, CPSC 26-763)",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-RC Edition",
+     "TF 450-X",
+     "TF 450-C",
+     "TF 450-E"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "All 2025-2026 TF 450 models (RC Edition, X, C, E) are recalled in the US because the exhaust rocker arm can seize or stick and the exhaust valves can stay open or break, causing a progressive loss of power and a crash risk. Owners are told to stop riding immediately; dealers inspect the engine and replace the cylinder head free.",
+   "values": {
+    "recall_no": "CPSC 26-763",
+    "date": "2026-09-10",
+    "us_units": "about 1,560",
+    "vin_range": "...CD4981 to ...CP1597 (last 6 characters)",
+    "reports": "12 seized/sticking exhaust rocker shaft or damaged exhaust valves",
+    "injuries": "1 (broken bone)",
+    "sold": "Jan 2025 - Jul 2026",
+    "remedy": "inspect engine, replace cylinder head"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "US CPSC Recall 26-763: Triumph TF450 closed course competition motorcycles",
+    "url": "https://www.cpsc.gov/Recalls/2026/Triumph-Motorcycles-Recalls-Closed-Course-Competition-Motorcycles-Due-to-Risk-of-Serious-Injury-or-Death-from-Crash-Hazard",
+    "date": "2026-09"
+   },
+   "confidence": "high",
+   "notes": "Fast Track recall. Early warning sign: power loss that gets progressively worse. Check VIN at triumphmotorcycles.com/owners/recalls or 888-284-6288."
+  },
+  {
+   "id": "tg-002",
+   "domain": "known_issues",
+   "topic": "TF 450 cylinder head recall (Canada)",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-RC Edition",
+     "TF 450-X",
+     "TF 450-C",
+     "TF 450-E"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Transport Canada recall 2026378 covers the 2025 TF 450-RC and 2026 TF 450-X, TF 450-C and TF 450-E: an engine problem can make the engine stall while riding, and the fix is a replacement cylinder head.",
+   "values": {
+    "recall_no": "Transport Canada 2026378",
+    "published": "2026-08-03",
+    "updated": "2026-08-13",
+    "canada_units": "about 171 (per CPSC)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Transport Canada recall 2026378 (Triumph TF 450)",
+    "url": "https://recalls-rappels.canada.ca/en/alert-recall/transport-canada-recall-2026378-triumph",
+    "date": "2026-08"
+   },
+   "confidence": "high",
+   "notes": "Canadian notice does not state root cause; unit count comes from the joint CPSC notice."
+  },
+  {
+   "id": "tg-003",
+   "domain": "known_issues",
+   "topic": "TF 450 recall root cause and revised head",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-RC Edition",
+     "TF 450-X",
+     "TF 450-C",
+     "TF 450-E"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Recall notices cite too little clearance between the exhaust rocker arm and its shaft, which causes excessive friction; the shaft can stiffen or seize. The replacement is a revised complete cylinder head assembly. Germany's authority lists 1,311 bikes worldwide built 13 February to 1 November 2025.",
+   "values": {
+    "KBA_ref": "17075R",
+    "manufacturer_code": "SRAN644",
+    "germany_units": "50 (all TF 450-E)",
+    "worldwide_units_KBA": "1,311",
+    "production_window_KBA": "2025-02-13 to 2025-11-01",
+    "KBA_date": "2026-09-30"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "motorcycles.news: Triumph TF 450-E recall, cylinder head (KBA 17075R)",
+    "url": "https://www.motorcycles.news/en/triumph-tf-450-e-recall-cylinder-head/",
+    "date": "2026-10"
+   },
+   "confidence": "medium",
+   "notes": "Second-hand report of KBA and Triumph recall wording. North American counts (about 1,560 US + 171 Canada) exceed the KBA worldwide figure; no official explanation. 250 models are not reported as affected."
+  },
+  {
+   "id": "tg-004",
+   "domain": "known_issues",
+   "topic": "TF 450 recall scope by early report",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-RC Edition",
+     "TF 450-X",
+     "TF 450-C",
+     "TF 450-E"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Early coverage of the Canadian notice said rocker-arm friction beyond tolerance can cause gradual or sudden power loss, and that the TF 250 models and 2025 450s other than the RC Edition did not appear to be affected.",
+   "values": {
+    "failure_mode": "gradual or sudden power loss, stall"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "RideApart: Triumph TF 450 cylinder head recall",
+    "url": "https://www.rideapart.com/news/805013/triumph-tf-450-cylinder-head-recall/",
+    "date": "2026-08"
+   },
+   "confidence": "medium",
+   "notes": "Magazine reading of the Transport Canada notice, August 2026. The later US notice covers 2025 and 2026 TF 450 models."
+  },
+  {
+   "id": "tg-005",
+   "domain": "known_issues",
+   "topic": "CPSC 25-144 status and incidents",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "The TF 250-X switch-cube recall (CPSC 25-144, 20 Feb 2025) followed 16 reports of the right switch cube cracking, 7 of which made the bike start unexpectedly; no injuries. As of October 2026 neither the CPSC page nor Triumph's US recall page shows any update or closure, so it remains an open, listed recall.",
+   "values": {
+    "recall_no": "CPSC 25-144",
+    "reports": "16 cracked cubes",
+    "unexpected_starts": "7",
+    "injuries": "0",
+    "owner_action": "stop riding, disconnect battery, dealer replaces right switch cube"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "US CPSC Recall 25-144: Triumph TF250-X",
+    "url": "https://www.cpsc.gov/Recalls/2025/Triumph-TF250-X-Off-Road-Motorcycles-Recalled-Due-to-Injury-Hazard-Imported-by-Triumph-Motorcycles-America",
+    "date": "2025-02"
+   },
+   "confidence": "high",
+   "notes": "Status checked 2026-10 on cpsc.gov and triumphmotorcycles.com/owners/recalls/cpsc-recalls (lists 25-144 and 26-763 with no status column)."
+  },
+  {
+   "id": "tg-006",
+   "domain": "ecu_electronics",
+   "topic": "MX Tune Pro factory maps: engine braking and traction level",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X",
+     "TF 450-RC Edition",
+     "TF 450-X",
+     "TF 250-C",
+     "TF 450-C",
+     "TF 250-E",
+     "TF 450-E"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Each of Triumph's 10 app maps loads into Map 2 (Map 1 stays full power) with its own engine braking and traction-control level: Novice mid braking/TC 4, Intermediate mid-low/5, Expert low/6, Hard Pack Dry mid-low/4, Hard Pack Wet mid-high/4, Loam Dry mid-low/5, Loam Wet low-mid/5, Sand Dry low-mid/5, Sand Wet minimal/6. OE Factory resets Map 2, traction and launch control to stock.",
+   "values": {
+    "Novice": "smooth power, soft throttle, engine braking mid, GPA 4",
+    "Intermediate": "progressive, punchy throttle, mid-low, GPA 5",
+    "Expert": "hard-hitting, aggressive throttle, low, GPA 6",
+    "Hard Pack Dry": "soft power, progressive throttle, mid-low, GPA 4",
+    "Hard Pack Wet": "very soft, mid-high, GPA 4",
+    "Loam Dry": "aggressive, mid-low, GPA 5",
+    "Loam Wet": "mid-hit, sharp throttle, low-mid, GPA 5",
+    "Sand Dry": "mid-aggressive, sharp, low-mid, GPA 5",
+    "Sand Wet": "hard-hitting, fast-revving, minimal, GPA 6"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Triumph USA: MX Tune Pro app page",
+    "url": "https://www.triumphmotorcycles.com/owners/off-road/app",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "GPA = Athena traction control. Traction and launch control can be set per map; an LC-GPA accessory switches between race and training mode. Fuel/ignition offsets are shown only as directions (more fuel or less timing at low throttle softens response), no numbers."
+  },
+  {
+   "id": "tg-007",
+   "domain": "ecu_electronics",
+   "topic": "Akrapovic map set and app diagnostics",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X",
+     "TF 450-RC Edition",
+     "TF 450-X",
+     "TF 250-C",
+     "TF 450-C",
+     "TF 250-E",
+     "TF 450-E"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Bikes with the Akrapovic exhaust get a base Akrapovic map plus nine downloadable versions; unlike the stock maps these also change Map 1 fuelling. The app also shows live rpm and throttle %, error codes, engine run-time and a service schedule tracked against engine hours.",
+   "values": {
+    "akrapovic_maps": "1 base + 9",
+    "changes_map1": "yes (fuelling)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Triumph USA: MX Tune Pro app page",
+    "url": "https://www.triumphmotorcycles.com/owners/off-road/app",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "Requires the genuine Triumph Wi-Fi module. One owner says the Akrapovic map 'wakes up' a stock 250 (forum, single report)."
+  },
+  {
+   "id": "tg-008",
+   "domain": "ecu_electronics",
+   "topic": "traction control range and use in mud",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-C",
+     "TF 450-RC Edition"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Traction control is adjustable from 1 to 10 in the app. On clay, an off-road tester raised it from the default 3 to 6 with the Soft/Mud map, which limited rear-wheel slip and kept the rear in check; an MX tester found it let him put power down with little slip out of corners.",
+   "values": {
+    "tc_range": "1-10",
+    "C_default": "3",
+    "tester_setting": "6 (Soft/Mud map, clay)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling: 2026 Triumph TF 450-C Review",
+    "url": "https://ultimatemotorcycling.com/2025/11/04/2026-triumph-tf-450-c-review-testing-in-trails-heaven-wv/",
+    "date": "2025-11"
+   },
+   "confidence": "medium",
+   "notes": "Range from Bike Review AU RC launch test and Ultimate Motorcycling 450-C review. Conflicts in tone with tf-050 where MX testers left TC off because it dulled power."
+  },
+  {
+   "id": "tg-009",
+   "domain": "ecu_electronics",
+   "topic": "C model map options",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-C",
+     "TF 450-C"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The cross-country C models ship with Full Power and Softened Power maps; the app adds off-road maps named Desert, Fast Woods, Single Track and Soft/Mud.",
+   "values": {
+    "handlebar_maps": "Full Power, Softened",
+    "app_maps": "Desert, Fast Woods, Single Track, Soft/Mud"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling: 2026 Triumph TF 450-C Review",
+    "url": "https://ultimatemotorcycling.com/2025/11/04/2026-triumph-tf-450-c-review-testing-in-trails-heaven-wv/",
+    "date": "2025-11"
+   },
+   "confidence": "medium",
+   "notes": "As listed by the magazine from Triumph material; launch control and the other maps were not tested."
+  },
+  {
+   "id": "tg-010",
+   "domain": "ecu_electronics",
+   "topic": "RC Edition holeshot device and map character",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-RC Edition"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The RC Edition's launch control works with a holeshot device fitted only to the RC. A 165 lb tester found the standard full-power map snappy and abrupt off the bottom, while the Carmichael map was more controllable and linear and the Loam-Wet map had the softest hit for mud.",
+   "values": {
+    "holeshot_device": "RC Edition only",
+    "preferred_maps": "Carmichael (general), Loam-Wet (slick/mud)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling: 2025 Triumph TF 450-RC Edition Review",
+    "url": "https://ultimatemotorcycling.com/2024/11/19/2025-triumph-tf-450-rc-edition-review-goat-developed/",
+    "date": "2024-11"
+   },
+   "confidence": "medium",
+   "notes": "Single-day launch test. Another launch tester called the Carmichael map stronger low down (see conflicts)."
+  },
+  {
+   "id": "tg-011",
+   "domain": "ecu_electronics",
+   "topic": "E model traction control and maps in use",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-E",
+     "TF 450-E"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "On the E models traction control trims wheelspin rather than cutting power; testers recommend the soft map plus traction control in slippery mud, especially on the 450-E. Another tester preferred full-power Map 1 on the 450-E in the wet because traction control kept slip low.",
+   "values": {
+    "map2_indicator": "solid blue light",
+    "wifi_module_price_AU": "about A$370"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "MOTORRAD: Triumph TF 250-E/450-E erster Fahrtest",
+    "url": "https://www.motorradonline.de/enduro/triumph-tf-250e-450e-erster-fahrtest-well-done-aber-so-was-von/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Combined from MOTORRAD and Bike Review AU launch tests. One review says the soft-vs-aggressive map difference is noticeable but not extreme (1000PS)."
+  },
+  {
+   "id": "tg-012",
+   "domain": "ecu_electronics",
+   "topic": "E model quickshifter behaviour",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-E",
+     "TF 450-E"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Testers found the E models' upshift quickshifter works best at high revs and full throttle; under hard acceleration it sometimes failed to engage the next gear, though it helped on hill climbs.",
+   "values": {
+    "range": "2nd-6th"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "1000PS: Triumph TF 250-E and TF 450-E Review 2025",
+    "url": "https://www.1000ps.com/en-gb/amp/articledetail/3012584",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "1000PS and MOTORRAD agree on high-rpm preference; Bike Review AU found it useful on climbs."
+  },
+  {
+   "id": "tg-013",
+   "domain": "power_feel",
+   "topic": "250-E feel on climbs and low revs",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-E"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The 250-E pulls smoothly from low revs without stalling or popping, has a strong midrange and keeps revving on top; on long steep climbs one tester needed a couple of stops where the 450-E went up easily.",
+   "values": {
+    "claimed_power": "32 kW @ 12,800 rpm",
+    "claimed_torque": "27.8 Nm @ 8,000 rpm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "MOTORRAD: Triumph TF 250-E/450-E erster Fahrtest",
+    "url": "https://www.motorradonline.de/enduro/triumph-tf-250e-450e-erster-fahrtest-well-done-aber-so-was-von/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Claims as printed by Bike Review AU; feel from MOTORRAD and Bike Review AU."
+  },
+  {
+   "id": "tg-014",
+   "domain": "power_feel",
+   "topic": "450-E feel",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-E"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Testers describe the 450-E as responding early, softly and precisely, with linear delivery and flywheel momentum that make it feel light, closer to a 350, yet able to punch hard when asked.",
+   "values": {
+    "claimed_power_BikeReview": "42 kW @ 9,750 rpm",
+    "claimed_torque": "49 Nm @ 7,000 rpm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "MOTORRAD: Triumph TF 250-E/450-E erster Fahrtest",
+    "url": "https://www.motorradonline.de/enduro/triumph-tf-250e-450e-erster-fahrtest-well-done-aber-so-was-von/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Claimed figures vary by outlet (see conflicts)."
+  },
+  {
+   "id": "tg-015",
+   "domain": "setups",
+   "topic": "450-C tester setup (woods, 180 lb)",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-C"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "A 180 lb tester in fast, clay woods used the Soft/Mud map with traction control at 6, 102 mm rear race sag with stock clickers, and Dunlop Geomax AT82 tyres at 12 psi front / 11 psi rear; the fork resisted bottoming on fast drop-offs and the shock used full stroke.",
+   "values": {
+    "rider_weight": "180 lb",
+    "race_sag": "102 mm",
+    "clickers": "stock",
+    "tyre_pressure": "12 psi F / 11 psi R",
+    "map": "Soft/Mud",
+    "tc": "6"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling: 2026 Triumph TF 450-C Review",
+    "url": "https://ultimatemotorcycling.com/2025/11/04/2026-triumph-tf-450-c-review-testing-in-trails-heaven-wv/",
+    "date": "2025-11"
+   },
+   "confidence": "medium",
+   "notes": "Stock C additions: 2.2 gal tank, flag hand guards, plastic skid plate with linkage guard, tool-less filter access, kickstand, 18-inch rear."
+  },
+  {
+   "id": "tg-016",
+   "domain": "suspension",
+   "topic": "E model suspension baseline",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-E",
+     "TF 450-E"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "One launch test found the E baseline firm but not harsh, suiting light fast riders or heavier slower ones, and praised the KYB fork's sensitivity and progression; another found the 450-E fork set soft enough to reach its limits on rough ground.",
+   "values": {
+    "fork_travel": "300 mm",
+    "fork_length_vs_MX": "10 mm shorter",
+    "swingarm_vs_MX": "10 mm longer"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "MOTORRAD: Triumph TF 250-E/450-E erster Fahrtest",
+    "url": "https://www.motorradonline.de/enduro/triumph-tf-250e-450e-erster-fahrtest-well-done-aber-so-was-von/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "MOTORRAD (firm baseline) vs 1000PS (soft 450-E fork); tf-073 also reports fork diving on the 450-E."
+  },
+  {
+   "id": "tg-017",
+   "domain": "drivetrain",
+   "topic": "E model clutch feel",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-E",
+     "TF 450-E"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "One launch test rated the E clutch excellent, able to lug the 250-E up a hill with one finger; another earlier test noted a heavy clutch pull. Neutral-finding and shifting were rated only passable.",
+   "values": {
+    "clutch": "Exedy wet multi-plate, Belleville spring"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "MOTORRAD: Triumph TF 250-E/450-E erster Fahrtest",
+    "url": "https://www.motorradonline.de/enduro/triumph-tf-250e-450e-erster-fahrtest-well-done-aber-so-was-von/",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": "Conflicts with tf-083 (heavy pull)."
+  },
+  {
+   "id": "tg-018",
+   "domain": "known_issues",
+   "topic": "450 stock clutch life and fix",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-RC Edition"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "One long-term tester found the 450-RC stock clutch light and vague with weak bite, and reported stock plates lasting about 10 hours; an aftermarket plate and stiffer spring kit gave a firmer pull and more engagement feel.",
+   "values": {
+    "stock_plate_life": "about 10 h (tester report)",
+    "kit": "Hinson FSC106-8-2501",
+    "kit_price": "$299.99"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing: Hinson clutch pack for Triumph TF-450 RC Edition",
+    "url": "https://keeferinctesting.com/?p=28824",
+    "date": "2025-04"
+   },
+   "confidence": "low",
+   "notes": "Single tester; 2026 450-X got a higher-capacity Exedy hub and new Belleville spring (tf-005)."
+  },
+  {
+   "id": "tg-019",
+   "domain": "known_issues",
+   "topic": "250-X clutch failures (vendor report)",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "A clutch maker reports TF 250-X owners seeing notchy engagement, slip under acceleration and dragging, and in extreme cases fibre plates disintegrating, blamed on too little oil flow through the stock clutch centre; Triumph's recall work fits a new centre hub and plates.",
+   "values": {
+    "symptoms": "notchy, slipping, dragging, fibre disintegration",
+    "cause_cited": "low oil flow through OEM clutch centre"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "tuner",
+    "name": "Rekluse blog: Common Triumph TF 250-X clutch problems",
+    "url": "https://www.rekluse.com/blog/common-triumph-tf-250-x-clutch-problems-and-how-rekluse-can-help/",
+    "date": "2025-08"
+   },
+   "confidence": "low",
+   "notes": "Vendor blog selling clutch products; no hour figures. Matches tf-078 (recall add-on clutch centre)."
+  },
+  {
+   "id": "tg-020",
+   "domain": "identity",
+   "topic": "2027 TF 250-X extra changes",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Beyond the valve guides, clutch and shift drum changes already noted, the 2027 TF 250-X adds Neken 7075-T6 triple clamps for front feel, tool-free clicker adjustment, a reworked chain guide and fork guards and a relocated start-stop switch; claimed power stays 48 hp at 13,500 rpm.",
+   "values": {
+    "triple_clamps": "Neken 7075-T6",
+    "claimed_power": "48 hp @ 13,500 rpm (unchanged)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "1000PS: Triumph TF 250-X 2027 updates from the MX2 World Championship",
+    "url": "https://www.1000ps.com/en-gb/amp/articledetail/3014730",
+    "date": "2026-09"
+   },
+   "confidence": "medium",
+   "notes": "Context for 2026 owners: the new clamps and drum may retrofit, unconfirmed."
+  },
+  {
+   "id": "tg-021",
+   "domain": "identity",
+   "topic": "2026 MX2 world title and factory electronics",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Triumph Factory Racing won the 2026 FIM MX2 world title with Guillem Farres (Camden McLellan second) plus the MX2 manufacturers' title. The GP team runs Motec electronics, while the US team uses Athena GET electronics with its own GET display.",
+   "values": {
+    "rider_title": "Guillem Farres",
+    "manufacturer_title": "MX2 2026",
+    "GP_ecu": "Motec",
+    "US_ecu": "GET"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Powersports Business: Triumph takes home its first-ever MX2 World Championship",
+    "url": "https://powersportsbusiness.com/news/triumph/2026/09/22/triumph-takes-home-its-first-ever-mx2-world-championship/",
+    "date": "2026-09"
+   },
+   "confidence": "medium",
+   "notes": "Electronics detail from Vital MX Pit Bits, 2026 Motocross of Nations. No published factory-vs-production engine or suspension spec found."
+  },
+  {
+   "id": "tg-022",
+   "domain": "setups",
+   "topic": "250-X tester setup (early 2024)",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "One experienced tester set the shock to 102 mm race sag with high-speed compression 7/8 turn out to lift the rear under throttle, raised the fork 3 mm and went 2 clicks stiffer on fork compression to balance the bike; he ran the Pirelli tyres at 14 psi and would fit a 110 rear.",
+   "values": {
+    "race_sag": "102 mm",
+    "shock_HSC": "7/8 turn out",
+    "fork_height": "3 mm up",
+    "fork_comp": "2 clicks in",
+    "tyre_pressure": "14 psi",
+    "rear_tyre": "110 preferred (100 stock saves about 1 lb)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "PulpMX: Triumph TF 250-X test notes (Keefer)",
+    "url": "https://pulpmx.com/?p=171223",
+    "date": "2024-07"
+   },
+   "confidence": "medium",
+   "notes": "Tester notes the shock needs more end-stroke damping (adding high-speed compression helps)."
+  },
+  {
+   "id": "tg-023",
+   "domain": "chassis",
+   "topic": "250-X mid-corner stand-up",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The 250-X tends to stand up mid-corner in tight turns, which one tester puts down partly to the 100-section rear tyre and partly to stiffness around the head tube and clamps; the stock Pirelli MX32 carcass wears out before the knobs and then rolls under load.",
+   "values": {
+    "stock_rear": "100 section"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "PulpMX: Triumph TF 250-X test notes (Keefer)",
+    "url": "https://pulpmx.com/?p=171223",
+    "date": "2024-07"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "tg-024",
+   "domain": "known_issues",
+   "topic": "250-X owner reports",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "Owner reports are mixed: one rider had repeated stalls (once off a jump face) even after raising idle; owners complain about stock tyres and hard-to-find aftermarket parts; two to three riders felt the engine goes flat on top while two others rated its low end close to a 2024 YZ250F.",
+   "values": {
+    "owners_with_hours": "about 3",
+    "stalling_reports": "1"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum: Triumph TF250X worth it?",
+    "url": "https://www.vitalmx.com/forums/moto-related/triumph-tf250x-worth-it?page=1",
+    "date": "2024-11"
+   },
+   "confidence": "low",
+   "notes": "Small sample, late 2024; some impressions from demo rides."
+  },
+  {
+   "id": "tg-025",
+   "domain": "setups",
+   "topic": "450 owner map and gearing choices",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-RC Edition",
+     "TF 450-X"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Two of two owners who posted changed the 450's gearing (13/50 with 116-link chain; 13/52 with two extra links and axle back), and favoured sand-oriented maps (Sand-Wet or a deep-sand map) with Expert or the RC map suggested; a 240 lb owner fitted 0.52 kg/mm fork springs.",
+   "values": {
+    "gearing": "13/50 (116L) or 13/52",
+    "maps": "Sand-Wet, deep sand, Expert, RC",
+    "heavy_rider_fork": "0.52 kg/mm (5.2 N/mm), maybe 0.54"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum: Triumph TF450 reviews and setup tips",
+    "url": "https://www.vitalmx.com/forums/moto-related/triumph-tf450-reviews-and-setup-tips",
+    "date": "2025-11"
+   },
+   "confidence": "low",
+   "notes": "Supplements tf-075."
+  },
+  {
+   "id": "tg-026",
+   "domain": "setups",
+   "topic": "450-RC launch setup (165 lb)",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-RC Edition"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "A 165 lb tester ran stock clickers and 100 mm sag; he found the fork a little soft on jump landings and the front pushing in corners, and suggested adding fork compression clicks and raising the fork 1-2 mm. Carmichael himself runs the fork 6 mm up and wanted 7 mm.",
+   "values": {
+    "rider_weight": "165 lb",
+    "race_sag": "100 mm",
+    "fork_height_Carmichael": "6 mm (wanted 7 mm)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling: 2025 Triumph TF 450-RC Edition Review",
+    "url": "https://ultimatemotorcycling.com/2024/11/19/2025-triumph-tf-450-rc-edition-review-goat-developed/",
+    "date": "2024-11"
+   },
+   "confidence": "medium",
+   "notes": "Single day of testing."
+  },
+  {
+   "id": "tg-027",
+   "domain": "engine_mods",
+   "topic": "exhaust options for TF 250",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X",
+     "TF 250-C",
+     "TF 250-E"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Aftermarket systems now on sale include a titanium system ($1,269.95, with a sound-limit 'Pro' version), a stainless/aluminium version ($990.95) and an FMF Megabomb header for the 250-X, C and E; none has published dyno gains.",
+   "values": {
+    "Pro_Circuit_Ti-6": "$1,269.95",
+    "Pro_Circuit_T-6": "$990.95",
+    "FMF_Megabomb": "fits TF250X/C/E 2024-2026"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: Product spotlight Pro Circuit Ti-6 Triumph TF250X exhaust",
+    "url": "https://motocrossactionmag.com/mxa-product-spotlight-pro-circuits-ti-6-triumph-tf250x-exhaust-system",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Brands kept in values only. No before/after dyno published; see not_found."
+  },
+  {
+   "id": "tg-028",
+   "domain": "power_feel",
+   "topic": "2026 250-X shootout result",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "In one 2026 seven-bike 250 shootout the TF 250-X finished fourth, the same place as the year before; the magazine judged the 2026 changes not enough to move it up.",
+   "values": {
+    "placing": "4th of 7"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: Best Motocross Bike 4th Place - 2026 Triumph TF 250-X",
+    "url": "https://www.dirtrider.com/tests/triumph-tf-250-x-best-motocross-bike-4th-place-2026/",
+    "date": "2026-03"
+   },
+   "confidence": "medium",
+   "notes": "Article body (dyno, weights) not readable; only the summary."
+  },
+  {
+   "id": "tg-029",
+   "domain": "identity",
+   "topic": "2020 CRF450R changes",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "For 2020 the CRF450R got the battery 28 mm lower in a new airbox (better filter airflow), fork valving revised to ride higher, three-level Honda Selectable Torque Control (traction control) on the bar, new rear brake pads and a revised rear rotor guard; the engine was nearly unchanged apart from mapping.",
+   "values": {
+    "battery_lowered": "28 mm",
+    "HSTC_levels": "3 + off",
+    "maps": "3 (1 flash standard, 2 mellow, 3 aggressive)",
+    "launch_control": "3 levels"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2020 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-2020-honda-crf450/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": "Honda changes as reported by MXA and ADB; ADB says the rotor guard was redesigned for cooling, MXA says removed."
+  },
+  {
+   "id": "tg-030",
+   "domain": "power_feel",
+   "topic": "2020 CRF450R dyno (Dynojet, in-house)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "On a magazine in-house Dynojet rear-wheel dyno the 2020 CRF450R made 53.3 hp at 9,800 rpm and 32.2 lb-ft at 6,900 rpm.",
+   "values": {
+    "peak_hp": "53.3 hp @ 9,800 rpm",
+    "peak_torque": "32.2 lb-ft @ 6,900 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2020 Honda CRF450R Dyno Test",
+    "url": "https://dirtrider.com/2020-honda-crf450r-dyno-test",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider Dynojet; stock; map not stated."
+  },
+  {
+   "id": "tg-031",
+   "domain": "power_feel",
+   "topic": "2020 CRF450R dyno (FMF Dynojet, shootout)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "On a Dynojet at an exhaust maker's shop in a 2020 450 shootout the CRF450R made 56.63 hp at 9,700 rpm and 34.28 lb-ft at 7,200 rpm, more than the KX450 on the same day.",
+   "values": {
+    "peak_hp": "56.63 hp @ 9,700 rpm",
+    "peak_torque": "34.28 lb-ft @ 7,200 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX: 2020 450 Shootout full test",
+    "url": "https://www.vitalmx.com/features/2020-Vital-MX-450-Shootout-FULL-TEST,6707",
+    "date": "2019"
+   },
+   "confidence": "high",
+   "notes": "Bikes run back to back on FMF's Dynojet; stock."
+  },
+  {
+   "id": "tg-032",
+   "domain": "power_feel",
+   "topic": "2020 CRF450R dyno vs 2019",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "On another magazine's dyno the 2020 CRF450R peaked at 59.74 hp at 9,600 rpm against 60.21 hp at 9,500 rpm for the 2019, which made more power at almost every point up to the 11,600 rpm sign-off; the 2020 led only above about 9,600 rpm and was still the most powerful 450 of 2020.",
+   "values": {
+    "peak_hp_2020": "59.74 hp @ 9,600 rpm",
+    "peak_hp_2019": "60.21 hp @ 9,500 rpm",
+    "sign_off": "11,600 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2020 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-2020-honda-crf450/",
+    "date": "2019"
+   },
+   "confidence": "high",
+   "notes": "MXA dyno, type not stated. Below 9,600 rpm the KTM 450 SX-F made more."
+  },
+  {
+   "id": "tg-033",
+   "domain": "power_feel",
+   "topic": "2020 CRF450R measured weight",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Measured weights for the 2020 CRF450R: 238 lb without fuel (same as 2018-2019) on one scale and 247.9 lb with a full tank on another.",
+   "values": {
+    "no_fuel": "238 lb",
+    "full_tank": "247.9 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2020 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-2020-honda-crf450/",
+    "date": "2019"
+   },
+   "confidence": "high",
+   "notes": "Full-tank figure from Vital MX 2020 450 shootout scale."
+  },
+  {
+   "id": "tg-034",
+   "domain": "power_feel",
+   "topic": "2020 CRF450R feel by rpm",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Testers found the 2020 CRF450R 'stagey' low down (snappy, then calm, then revvy) with a very strong midrange that lugs third gear in slow turns; broader and less scary than the 2019 but still the hardest-hitting 450 of its year, which some riders found abrupt on rough tracks.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2020 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-2020-honda-crf450/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": "MXA and Vital MX shootout testers agree it was the strongest/most aggressive 2020 450."
+  },
+  {
+   "id": "tg-035",
+   "domain": "ecu_electronics",
+   "topic": "2020 CRF450R HSTC and map behaviour",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "HSTC level 1 is the least intrusive and level 3 the most; it acts only when the rear spins. One tester found level 1 worked well on slippery hardpack while levels 2-3 held the bike back, and liked the aggressive map with HSTC 1; another magazine found the aggressive map crisper but about 1 hp down everywhere.",
+   "values": {
+    "HSTC": "1 least - 3 most intrusive",
+    "aggressive_map": "about -1 hp vs standard (one dyno)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "ADB: 2020 Honda CRF450R review",
+    "url": "https://adbmag.com.au/editorial/2020-honda-crf450r-review/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": "ADB and MXA."
+  },
+  {
+   "id": "tg-036",
+   "domain": "ecu_electronics",
+   "topic": "2020 CRF450R launch control",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Launch control has three rev-limit levels rather than retarding ignition, and is armed through the starter button; some testers used traction control instead for starts.",
+   "values": {
+    "levels": "3 (rev-limit based)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2020 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-2020-honda-crf450/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "tg-037",
+   "domain": "setups",
+   "topic": "2020 CRF450R magazine race setup",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Magazine race setup: fork 5.0 N/mm, compression 6 out (pro) / 12 (intermediate) / 13 (vet), rebound 10 out (stock 12), flush; shock 56 N/mm, 107 mm race sag, high-speed 2 3/4 turns out (stock 3), low-speed 10 out (stock 9), rebound 7 out (stock 9). Stock 13/49 gearing is close; some ran 13/48.",
+   "values": {
+    "fork_spring": "5.0 N/mm",
+    "fork_comp": "6/12/13 out",
+    "fork_reb": "10 out",
+    "shock_spring": "56 N/mm",
+    "race_sag": "107 mm",
+    "HSC": "2.75 turns out",
+    "LSC": "10 out",
+    "shock_reb": "7 out",
+    "gearing": "13/49 (13/48 option)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2020 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-2020-honda-crf450/",
+    "date": "2019"
+   },
+   "confidence": "high",
+   "notes": "One 240 lb shootout tester ran 105 mm sag and moved the fork 2 mm to balance a shock that overpowered the fork (Vital)."
+  },
+  {
+   "id": "tg-038",
+   "domain": "known_issues",
+   "topic": "2020 CRF450R known issues",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Known 2020 complaints: weak clutch with a judder spring (fix: remove it and add a full-size friction plate), radiator boil-over (higher-pressure cap), soft fork bottoming on landings, shock harsh on square edges, an inconsistent rough-track feel, and 117.5 dB on the 2-metre max sound test (115 dB limit).",
+   "values": {
+    "sound_2m_max": "117.5 dB"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2020 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-2020-honda-crf450/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": "No 2020 CRF450R recall found; Honda's drive-chain recall (CPSC 21-741) covers 2021 only."
+  },
+  {
+   "id": "tg-039",
+   "domain": "setups",
+   "topic": "2020 CRF450RX desert race setup",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450RX"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Race-prepped for a desert GP, a 2020 CRF450RX got a 14-tooth countershaft (stock 13), a 2.4 gal tank (stock 2.2 gal), heavy-duty tubes, standard map and HSTC level 2; stock clickers worked for a heavier tester at about 118 mm sag, with one hard fork bottoming.",
+   "values": {
+    "countershaft": "14T (stock 13T)",
+    "tank": "2.4 gal aftermarket (stock 2.2)",
+    "map": "standard",
+    "HSTC": "2",
+    "race_sag": "about 118 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: 2020 Honda CRF450RX first ride (Ridgecrest GP)",
+    "url": "https://dirtbikemagazine.com/?p=53154",
+    "date": "2019-10"
+   },
+   "confidence": "medium",
+   "notes": "Mild map too soft for fast course; aggressive map strong bottom but lost top. Two flats despite heavy-duty tubes."
+  },
+  {
+   "id": "tg-040",
+   "domain": "power_feel",
+   "topic": "2020 CRF250RX dyno",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF250RX"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "On a magazine in-house rear-wheel dyno the 2020 CRF250RX made 38.2 hp at 11,900 rpm and 17.9 lb-ft at 9,300 rpm.",
+   "values": {
+    "peak_hp": "38.2 hp @ 11,900 rpm",
+    "peak_torque": "17.9 lb-ft @ 9,300 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2020 Honda CRF250RX Dyno Test",
+    "url": "https://dirtrider.com/story/tests/2020-honda-crf250rx-dyno-test",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider in-house dyno (same outlet's CRF250R test used a Dynojet: 39.4 hp @ 12,300)."
+  },
+  {
+   "id": "tg-041",
+   "domain": "identity",
+   "topic": "2020 CRF250RX vs CRF250R",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF250RX"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "The 2020 CRF250RX shares the R's 2020 engine changes (later exhaust cam, new chamber, per-gear ignition) but has a 2.25 gal tank vs 1.6, an 18-inch rear wheel, O-ring chain, kickstand, softer suspension and softer standard map; its Map 3 equals the MX bike's standard map. For 2020 it also got a taller second gear and a clutch with 18% more friction area and stiffer springs.",
+   "values": {
+    "tank": "2.25 gal (R 1.6)",
+    "rear_wheel": "18 in",
+    "clutch": "+18% friction area, stiffer springs"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: 2020 Honda CRF250RX full test",
+    "url": "https://dirtbikemagazine.com/honda-crf250rx-full-test-2",
+    "date": "2020"
+   },
+   "confidence": "medium",
+   "notes": "Honda changes as reported by Dirt Bike; it also mentions a less rigid frame and swingarm, larger filter and left radiator."
+  },
+  {
+   "id": "tg-042",
+   "domain": "power_feel",
+   "topic": "2020 CRF250RX weight and feel",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF250RX"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Weighed without fuel the 2020 CRF250RX was 235 lb, about 8 lb more than the MX bike. Power is smooth and linear; low end is better than 2019 but still weak, so it must be revved. Map 2 softens the top without adding bottom; Map 3 adds top end.",
+   "values": {
+    "no_fuel": "235 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: 2020 Honda CRF250RX full test",
+    "url": "https://dirtbikemagazine.com/honda-crf250rx-full-test-2",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "An aftermarket exhaust added some low end (no dyno)."
+  },
+  {
+   "id": "tg-043",
+   "domain": "known_issues",
+   "topic": "2020 CRF250RX known issues",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF250RX"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Testers noted the RX runs hot with boil-over risk on warm days with heavy clutch use, and in a muddy race the clutch faded badly and the bike stalled a few times; it has no stock spark arrestors and a full tank makes it feel top-heavy.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News: 2020 Honda CRF250RX Review",
+    "url": "https://www.cyclenews.com/2020/02/article/2020-honda-crf250rx-review/",
+    "date": "2020-02"
+   },
+   "confidence": "medium",
+   "notes": "Dirt Bike and Cycle News."
+  },
+  {
+   "id": "tg-044",
+   "domain": "identity",
+   "topic": "2020 KX450 changes",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "The 2020 KX450 was mechanically unchanged from the all-new 2019 bike; only graphics changed, and the 2019 bike's weak points carried over.",
+   "values": {
+    "msrp": "$9,299"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2020 Kawasaki KX450",
+    "url": "https://motocrossactionmag.com/mxa-2020-kawasaki-kx450",
+    "date": "2019"
+   },
+   "confidence": "high",
+   "notes": "Confirmed by Dirt Rider ('no mechanical changes for 2020')."
+  },
+  {
+   "id": "tg-045",
+   "domain": "power_feel",
+   "topic": "2020 KX450 dyno (rear-wheel, in-house)",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "On a magazine in-house rear-wheel dyno the 2020 KX450 made 51.9 hp at 9,200 rpm and 32.9 lb-ft at 6,800 rpm.",
+   "values": {
+    "peak_hp": "51.9 hp @ 9,200 rpm",
+    "peak_torque": "32.9 lb-ft @ 6,800 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2020 Kawasaki KX450 Dyno Test",
+    "url": "https://dirtrider.com/story/tests/2020-kawasaki-kx450-dyno-test",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider (Dynojet-equipped outlet; type not restated on page); stock, green coupler assumed."
+  },
+  {
+   "id": "tg-046",
+   "domain": "power_feel",
+   "topic": "2020 KX450 dyno (FMF Dynojet, shootout)",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "On a Dynojet in a 2020 450 shootout the KX450 made 54.71 hp at 9,400 rpm and 33.87 lb-ft at 7,100 rpm.",
+   "values": {
+    "peak_hp": "54.71 hp @ 9,400 rpm",
+    "peak_torque": "33.87 lb-ft @ 7,100 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX: 2020 450 Shootout full test",
+    "url": "https://www.vitalmx.com/features/2020-Vital-MX-450-Shootout-FULL-TEST,6707",
+    "date": "2019"
+   },
+   "confidence": "high",
+   "notes": "Same dyno/day as CRF450R 56.63 hp."
+  },
+  {
+   "id": "tg-047",
+   "domain": "power_feel",
+   "topic": "2020 KX450 dyno vs 2018",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "On another magazine dyno the 2020 KX450 peaked at 55.8 hp at 9,500 rpm, against 56.4 hp at 8,800 rpm for the 2018 KX450F, which made about 1.5 lb-ft more torque from 5,000 to 9,400 rpm; about 4 hp less than the 2020 CRF450R.",
+   "values": {
+    "peak_hp": "55.8 hp @ 9,500 rpm",
+    "2018_peak": "56.4 hp @ 8,800 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2020 Kawasaki KX450",
+    "url": "https://motocrossactionmag.com/mxa-2020-kawasaki-kx450",
+    "date": "2019"
+   },
+   "confidence": "high",
+   "notes": "MXA dyno, type not stated."
+  },
+  {
+   "id": "tg-048",
+   "domain": "power_feel",
+   "topic": "2020 KX450 weight and feel",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Weighed without fuel the 2020 KX450 was 233 lb (lightest Japanese 450 of 2020; 242.8 lb full tank on another scale). Testers describe a quick-hitting, fast-revving bottom, steady midrange build and a strong surge above about 9,400 rpm: throttle response over peak power.",
+   "values": {
+    "no_fuel": "233 lb",
+    "full_tank": "242.8 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2020 Kawasaki KX450",
+    "url": "https://motocrossactionmag.com/mxa-2020-kawasaki-kx450",
+    "date": "2019"
+   },
+   "confidence": "high",
+   "notes": "Full-tank weight from Vital MX shootout."
+  },
+  {
+   "id": "tg-049",
+   "domain": "ecu_electronics",
+   "topic": "2020 KX450 couplers",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Green (stock) coupler is the best all-round map; black is softer and loses about 1-2 hp from 6,000 to 11,500 rpm; white is crisper with the same peak. Custom maps loaded with Kawasaki's calibration tool override the coupler.",
+   "values": {
+    "black_vs_green": "-1 to -2 hp, 6,000-11,500 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2020 Kawasaki KX450",
+    "url": "https://motocrossactionmag.com/mxa-2020-kawasaki-kx450",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": "Magazine's own maps advance midrange-up ignition and richen midrange fuel."
+  },
+  {
+   "id": "tg-050",
+   "domain": "setups",
+   "topic": "2020 KX450 magazine race setup",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Magazine race setup: fork 5.1 N/mm (one 5.2 and one 5.0 spring; 5.0 light, 5.2 fast riders), compression 14 out, rebound 12 out, 2 mm up (flush on stock springs); shock 54 N/mm (52 for riders under 150 lb), high-speed 1 1/4 turns out, low-speed 18 out, rebound 12 out, 105 mm race sag.",
+   "values": {
+    "fork_spring": "5.1 N/mm (mixed)",
+    "fork_comp": "14 out",
+    "fork_reb": "12 out",
+    "fork_height": "2 mm up",
+    "shock_spring": "54 N/mm",
+    "HSC": "1.25 turns",
+    "LSC": "18 out",
+    "shock_reb": "12 out",
+    "race_sag": "105 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2020 Kawasaki KX450",
+    "url": "https://motocrossactionmag.com/mxa-2020-kawasaki-kx450",
+    "date": "2019"
+   },
+   "confidence": "high",
+   "notes": "Light riders: add fork oil in 5 cc steps to cut bottoming."
+  },
+  {
+   "id": "tg-051",
+   "domain": "known_issues",
+   "topic": "2020 KX450 known issues",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Known 2020 KX450 issues: touchy rear brake that locks on corner entry (chamfer pads, shorten master-cylinder rod), overheating in heat/sand/long motos (2.0 kg/cm2 radiator cap), soft fork for fast riders, fast clutch-plate wear and incomplete disengagement, quick-wearing lower chain roller and guide, and cracking fork guards.",
+   "values": {
+    "radiator_cap_fix": "2.0 kg/cm2"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2020 Kawasaki KX450",
+    "url": "https://motocrossactionmag.com/mxa-2020-kawasaki-kx450",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": "Vital MX shootout testers also named the soft fork as the main complaint (3rd of 7 overall)."
+  },
+  {
+   "id": "tg-052",
+   "domain": "identity",
+   "topic": "2020 KX250 changes",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "The 2020 KX250 got a reworked engine: bore/stroke 78.0 x 52.2 mm (was 77.0 x 53.6), compression 14.2:1 (was 13.4), finger-follower valvetrain, 32 mm intake / 26.5 mm exhaust valves (was 31/25), 44 mm throttle body (was 43), relocated injectors, airbox vents on both sides and a 30 mm shorter header. Showa SFF fork and shock were replaced by a KYB 48 mm coil fork and KYB shock with a longer link, and the rear rotor grew to 250 mm.",
+   "values": {
+    "bore_x_stroke": "78.0 x 52.2 mm",
+    "compression": "14.2:1",
+    "valves": "32 / 26.5 mm",
+    "throttle_body": "44 mm",
+    "fork": "KYB 48 mm coil",
+    "rear_rotor": "250 mm",
+    "msrp": "$7,799"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2020 Kawasaki KX250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-kawasaki-kx250/",
+    "date": "2019-11"
+   },
+   "confidence": "high",
+   "notes": "Kawasaki specs as reported by MXA and Dirt Bike (also ~5% stiffer effective spring rates, reshaped engine mounts). No electric start until 2021."
+  },
+  {
+   "id": "tg-053",
+   "domain": "engine_architecture",
+   "topic": "2020 KX250 bore/stroke ratio and piston speed",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Worked out from 78.0 x 52.2 mm, the 2020 KX250 is 1.49:1 oversquare, and mean piston speed at the roughly 13,500 rpm rev ceiling is about 23.5 m/s.",
+   "values": {
+    "bore_stroke_ratio": "1.49",
+    "mean_piston_speed": "23.5 m/s @ 13,500 rpm"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation from published bore/stroke",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "high",
+   "notes": "78.0/52.2 = 1.494; 2 x 52.2 mm x 13,500 / 60,000 = 23.49 m/s. Rev ceiling ~13,500 rpm per Dirt Bike."
+  },
+  {
+   "id": "tg-054",
+   "domain": "power_feel",
+   "topic": "2020 KX250 feel and weight",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Testers found the 2020 KX250 weaker down low than the 2019 but much stronger on top, pulling right to its roughly 13,500 rpm ceiling instead of flattening at 10,000; it matched a YZ250F on top but exited corners slower. It weighed 223 lb without fuel.",
+   "values": {
+    "no_fuel": "223 lb",
+    "rev_ceiling": "about 13,500 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: 2020 Kawasaki KX250 full test",
+    "url": "https://dirtbikemagazine.com/2020-kawasaki-kx250-full-test/",
+    "date": "2019"
+   },
+   "confidence": "high",
+   "notes": "Weight Dirt Bike scale; feel from Dirt Bike and MXA."
+  },
+  {
+   "id": "tg-055",
+   "domain": "ecu_electronics",
+   "topic": "2020 KX250 couplers and launch control",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Pros preferred the white (aggressive) coupler, vets and novices the green (standard); the black (mild) made the soft low end softer and none raised the rev ceiling. Launch control was seen as little use because the engine lacks bottom power.",
+   "values": {
+    "FI_kit_price": "$699.95 (MXA) / $720 (Dirt Bike)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2020 Kawasaki KX250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-kawasaki-kx250/",
+    "date": "2019-11"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "tg-056",
+   "domain": "setups",
+   "topic": "2020 KX250 magazine race setup",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Magazine race setup: fork 5.0 N/mm (4.8 or 4.4 for light riders), compression 13 out, rebound 10 out, standard height (2 mm up if it stands up mid-corner); shock 54 N/mm, high-speed 1.5 turns out, low-speed 7 out, rebound 17 out, 105 mm race sag. Stock 50-tooth rear; most went to 51, 49 for tight hardpack.",
+   "values": {
+    "fork_spring": "5.0 N/mm",
+    "fork_comp": "13 out",
+    "fork_reb": "10 out",
+    "shock_spring": "54 N/mm",
+    "HSC": "1.5 turns",
+    "LSC": "7 out",
+    "shock_reb": "17 out",
+    "race_sag": "105 mm",
+    "rear_sprocket": "50 stock; 51 or 49"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2020 Kawasaki KX250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-kawasaki-kx250/",
+    "date": "2019-11"
+   },
+   "confidence": "high",
+   "notes": "Another magazine ran about 100 mm sag (vs 106 mm recommended) to help the front bite (Dirt Bike)."
+  },
+  {
+   "id": "tg-057",
+   "domain": "known_issues",
+   "topic": "2020 KX250 known issues",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "2020 KX250 issues: no electric start and hard hot starting (7-8 kicks), fast clutch wear, chain guide worn out in about 15 hours, a harsh spot about three-quarters into fork travel, close shift points, and extra noise with both airbox vents open.",
+   "values": {
+    "chain_guide_life": "about 15 h"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2020 Kawasaki KX250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-kawasaki-kx250/",
+    "date": "2019-11"
+   },
+   "confidence": "medium",
+   "notes": ""
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "TF 450 recall unit counts",
+   "values": {
+    "CPSC US": "about 1,560",
+    "Transport Canada (via CPSC)": "about 171",
+    "KBA worldwide": "1,311 (built 2025-02-13 to 2025-11-01)"
+   },
+   "spread": "North America 1,731 vs worldwide 1,311",
+   "note": "No official explanation; KBA window may cover only part of production."
+  },
+  {
+   "topic": "Carmichael (RC) map character",
+   "values": {
+    "tf-048 / Bike Review AU": "sharper, stronger low-down torque",
+    "Ultimate Motorcycling": "more controllable and linear off the bottom, tames the standard map's hit"
+   },
+   "spread": "qualitative",
+   "note": "Both say it is preferred; they disagree on whether it adds or softens bottom hit."
+  },
+  {
+   "topic": "TF 450-E claimed output",
+   "values": {
+    "Triumph via tf-018": "57.8 hp / 35.6 lb-ft",
+    "1000PS": "59.3 hp / 49.3 Nm",
+    "MOTORRAD": "58.6 PS / 49.3 Nm",
+    "Bike Review AU": "42 kW @ 9,750 / 49 Nm @ 7,000"
+   },
+   "spread": "56.3-59.3 hp equivalent",
+   "note": "Mixed hp/PS/kW units in press."
+  },
+  {
+   "topic": "TF 250 claimed peak rpm",
+   "values": {
+    "Triumph C media kit": "13,250 rpm",
+    "1000PS / most press": "13,500 rpm",
+    "Powersports Business": "47.3 PS @ 13,750 rpm"
+   },
+   "spread": "13,250-13,750 rpm"
+  },
+  {
+   "topic": "TF E clutch feel",
+   "values": {
+    "tf-083 testers": "heavy pull",
+    "MOTORRAD": "excellent, one-finger lugging"
+   },
+   "spread": "qualitative"
+  },
+  {
+   "topic": "2020 CRF450R peak power",
+   "values": {
+    "Dirt Rider in-house Dynojet": "53.3 hp @ 9,800",
+    "Vital/FMF Dynojet": "56.63 hp @ 9,700",
+    "MXA (type not stated)": "59.74 hp @ 9,600"
+   },
+   "spread": "53.3-59.74 hp",
+   "note": "Different dynos; compare only within one."
+  },
+  {
+   "topic": "2020 KX450 peak power",
+   "values": {
+    "Dirt Rider": "51.9 hp @ 9,200",
+    "Vital/FMF Dynojet": "54.71 hp @ 9,400",
+    "MXA": "55.8 hp @ 9,500"
+   },
+   "spread": "51.9-55.8 hp"
+  },
+  {
+   "topic": "Kawasaki KX FI calibration kit price (2020)",
+   "values": {
+    "MXA": "$699.95",
+    "Dirt Bike": "$720"
+   },
+   "spread": "$20"
+  }
+ ],
+ "not_found": [
+  {
+   "item": "2020 KX250 dyno numbers",
+   "searched": "Dirt Rider 2020 KX250 dyno page (body not served), MXA race test (no 2020 figure), Vital 2020 250 shootout (forum only), Swapmoto 2020 shootout index, generic 2020 250 dyno search",
+   "note": "Only 2019 KX250 39.45 hp (MXA) mentioned."
+  },
+  {
+   "item": "Measured dynos for TF 250-C, TF 450-C, TF 250-E, TF 450-E",
+   "searched": "C/E dyno searches, Ultimate Motorcycling, 1000PS, MOTORRAD, Bike Review AU",
+   "note": "Still only claims."
+  },
+  {
+   "item": "Triumph factory race-bike engine/suspension specs vs production",
+   "searched": "factory TF 250/450 bike-check searches, MXoN Pit Bits, Powersports Business title story",
+   "note": "Only ECU brand (Motec GP, GET US) found."
+  },
+  {
+   "item": "2026 250 shootout body (Dirt Rider 4th place) and Swapmoto 2026 250 TF page",
+   "searched": "Dirt Rider fetch (summary only), Swapmoto fetch failed (site error)",
+   "note": "Placing only."
+  },
+  {
+   "item": "Before/after dyno for any TF exhaust (Pro Circuit, FMF, Akrapovic)",
+   "searched": "exhaust dyno searches, MXA product spotlight",
+   "note": "No numbers published."
+  },
+  {
+   "item": "Launch control rpm/settings values on TF models",
+   "searched": "Triumph app page, RC launch tests",
+   "note": "App shows LC adjustable per map but no values."
+  },
+  {
+   "item": "TF 450 recall engineering detail (new part numbers, clearance values)",
+   "searched": "CPSC 26-763, Transport Canada 2026378, KBA reports via press",
+   "note": "Only 'insufficient clearance' and 'revised head'."
+  },
+  {
+   "item": "2020 Honda CRF450R/CRF250R/CRF250RX/CRF450RX recalls",
+   "searched": "CPSC Honda recall search",
+   "note": "None found for 2020; 21-741 chain recall is 2021 CRF450R only."
+  },
+  {
+   "item": "2020 CRF450RX stock clicker settings and measured weight",
+   "searched": "Dirt Bike first ride, general RX search",
+   "note": "Not in found tests."
+  },
+  {
+   "item": "Triumph TF service bulletins (non-recall)",
+   "searched": "recall/bulletin searches, owner forums",
+   "note": "None published publicly."
+  }
+ ],
+ "sources": [
+  {
+   "type": "manufacturer",
+   "name": "US CPSC Recall 26-763: Triumph TF450 closed course competition motorcycles",
+   "url": "https://www.cpsc.gov/Recalls/2026/Triumph-Motorcycles-Recalls-Closed-Course-Competition-Motorcycles-Due-to-Risk-of-Serious-Injury-or-Death-from-Crash-Hazard",
+   "date": "2026-09"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Transport Canada recall 2026378 (Triumph TF 450)",
+   "url": "https://recalls-rappels.canada.ca/en/alert-recall/transport-canada-recall-2026378-triumph",
+   "date": "2026-08"
+  },
+  {
+   "type": "magazine",
+   "name": "motorcycles.news: Triumph TF 450-E recall, cylinder head (KBA 17075R)",
+   "url": "https://www.motorcycles.news/en/triumph-tf-450-e-recall-cylinder-head/",
+   "date": "2026-10"
+  },
+  {
+   "type": "magazine",
+   "name": "RideApart: Triumph TF 450 cylinder head recall",
+   "url": "https://www.rideapart.com/news/805013/triumph-tf-450-cylinder-head-recall/",
+   "date": "2026-08"
+  },
+  {
+   "type": "manufacturer",
+   "name": "US CPSC Recall 25-144: Triumph TF250-X",
+   "url": "https://www.cpsc.gov/Recalls/2025/Triumph-TF250-X-Off-Road-Motorcycles-Recalled-Due-to-Injury-Hazard-Imported-by-Triumph-Motorcycles-America",
+   "date": "2025-02"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Triumph USA: MX Tune Pro app page",
+   "url": "https://www.triumphmotorcycles.com/owners/off-road/app",
+   "date": "2026"
+  },
+  {
+   "type": "magazine",
+   "name": "Ultimate Motorcycling: 2026 Triumph TF 450-C Review",
+   "url": "https://ultimatemotorcycling.com/2025/11/04/2026-triumph-tf-450-c-review-testing-in-trails-heaven-wv/",
+   "date": "2025-11"
+  },
+  {
+   "type": "magazine",
+   "name": "Ultimate Motorcycling: 2025 Triumph TF 450-RC Edition Review",
+   "url": "https://ultimatemotorcycling.com/2024/11/19/2025-triumph-tf-450-rc-edition-review-goat-developed/",
+   "date": "2024-11"
+  },
+  {
+   "type": "magazine",
+   "name": "MOTORRAD: Triumph TF 250-E/450-E erster Fahrtest",
+   "url": "https://www.motorradonline.de/enduro/triumph-tf-250e-450e-erster-fahrtest-well-done-aber-so-was-von/",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "1000PS: Triumph TF 250-E and TF 450-E Review 2025",
+   "url": "https://www.1000ps.com/en-gb/amp/articledetail/3012584",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Keefer Inc. Testing: Hinson clutch pack for Triumph TF-450 RC Edition",
+   "url": "https://keeferinctesting.com/?p=28824",
+   "date": "2025-04"
+  },
+  {
+   "type": "tuner",
+   "name": "Rekluse blog: Common Triumph TF 250-X clutch problems",
+   "url": "https://www.rekluse.com/blog/common-triumph-tf-250-x-clutch-problems-and-how-rekluse-can-help/",
+   "date": "2025-08"
+  },
+  {
+   "type": "magazine",
+   "name": "1000PS: Triumph TF 250-X 2027 updates from the MX2 World Championship",
+   "url": "https://www.1000ps.com/en-gb/amp/articledetail/3014730",
+   "date": "2026-09"
+  },
+  {
+   "type": "magazine",
+   "name": "Powersports Business: Triumph takes home its first-ever MX2 World Championship",
+   "url": "https://powersportsbusiness.com/news/triumph/2026/09/22/triumph-takes-home-its-first-ever-mx2-world-championship/",
+   "date": "2026-09"
+  },
+  {
+   "type": "magazine",
+   "name": "PulpMX: Triumph TF 250-X test notes (Keefer)",
+   "url": "https://pulpmx.com/?p=171223",
+   "date": "2024-07"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum: Triumph TF250X worth it?",
+   "url": "https://www.vitalmx.com/forums/moto-related/triumph-tf250x-worth-it?page=1",
+   "date": "2024-11"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum: Triumph TF450 reviews and setup tips",
+   "url": "https://www.vitalmx.com/forums/moto-related/triumph-tf450-reviews-and-setup-tips",
+   "date": "2025-11"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: Product spotlight Pro Circuit Ti-6 Triumph TF250X exhaust",
+   "url": "https://motocrossactionmag.com/mxa-product-spotlight-pro-circuits-ti-6-triumph-tf250x-exhaust-system",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: Best Motocross Bike 4th Place - 2026 Triumph TF 250-X",
+   "url": "https://www.dirtrider.com/tests/triumph-tf-250-x-best-motocross-bike-4th-place-2026/",
+   "date": "2026-03"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA Race Test 2020 Honda CRF450",
+   "url": "https://motocrossactionmag.com/mxa-2020-honda-crf450/",
+   "date": "2019"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2020 Honda CRF450R Dyno Test",
+   "url": "https://dirtrider.com/2020-honda-crf450r-dyno-test",
+   "date": "2020"
+  },
+  {
+   "type": "magazine",
+   "name": "Vital MX: 2020 450 Shootout full test",
+   "url": "https://www.vitalmx.com/features/2020-Vital-MX-450-Shootout-FULL-TEST,6707",
+   "date": "2019"
+  },
+  {
+   "type": "magazine",
+   "name": "ADB: 2020 Honda CRF450R review",
+   "url": "https://adbmag.com.au/editorial/2020-honda-crf450r-review/",
+   "date": "2019"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Magazine: 2020 Honda CRF450RX first ride (Ridgecrest GP)",
+   "url": "https://dirtbikemagazine.com/?p=53154",
+   "date": "2019-10"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2020 Honda CRF250RX Dyno Test",
+   "url": "https://dirtrider.com/story/tests/2020-honda-crf250rx-dyno-test",
+   "date": "2020"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Magazine: 2020 Honda CRF250RX full test",
+   "url": "https://dirtbikemagazine.com/honda-crf250rx-full-test-2",
+   "date": "2020"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News: 2020 Honda CRF250RX Review",
+   "url": "https://www.cyclenews.com/2020/02/article/2020-honda-crf250rx-review/",
+   "date": "2020-02"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA Race Test 2020 Kawasaki KX450",
+   "url": "https://motocrossactionmag.com/mxa-2020-kawasaki-kx450",
+   "date": "2019"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2020 Kawasaki KX450 Dyno Test",
+   "url": "https://dirtrider.com/story/tests/2020-kawasaki-kx450-dyno-test",
+   "date": "2020"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA Race Test 2020 Kawasaki KX250",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-kawasaki-kx250/",
+   "date": "2019-11"
+  },
+  {
+   "type": "calculation",
+   "name": "BAK MX calculation from published bore/stroke",
+   "url": "",
+   "date": "2026-10"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Magazine: 2020 Kawasaki KX250 full test",
+   "url": "https://dirtbikemagazine.com/2020-kawasaki-kx250-full-test/",
+   "date": "2019"
+  },
+  {
+   "type": "magazine",
+   "name": "Vital MX Pit Bits: 2026 Motocross of Nations, Ernee",
+   "url": "https://www.vitalmx.com/features/vital-mx-pit-bits-2026-motocross-nations-ernee-france",
+   "date": "2026-10"
+  },
+  {
+   "type": "magazine",
+   "name": "Bike Review AU: Triumph TF 250-E and TF 450-E enduro launch",
+   "url": "https://bikereview.com.au/bike-review-triumph-tf-250-e-and-tf-450-e-enduro-launch/",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Bike Review AU: 2025 Triumph TF 450-RC launch test",
+   "url": "https://bikereview.com.au/bike-review-2025-triumph-tf-450-rc-launch-test/",
+   "date": "2024-11"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News: Triumph Issues Recall On TF 450 Models",
+   "url": "https://www.cyclenews.com/2026/09/article/triumph-issues-recall-on-tf-450-models/",
+   "date": "2026-09"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Triumph USA: CPSC recalls page",
+   "url": "https://www.triumphmotorcycles.com/owners/recalls/cpsc-recalls",
+   "date": "2026-10"
+  },
+  {
+   "type": "manufacturer",
+   "name": "US CPSC Recall 21-741: 2021 Honda CRF450R drive chain",
+   "url": "https://www.cpsc.gov/Recalls/2021/off-road-motorcycles-recalled-by-american-honda-due-to-crash-and-injury-hazards-recall",
+   "date": "2021-04"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: The real 2020 450 four-stroke shootout",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-2020-450-four-stroke-shootout",
+   "date": "2020"
+  }
+ ]
+}

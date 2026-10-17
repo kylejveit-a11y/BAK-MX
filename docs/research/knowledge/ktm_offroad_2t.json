@@ -1,0 +1,3663 @@
+{
+ "slice": "KTM-family off-road two-strokes (KTM XC/XC-W, Husqvarna TE/TX, GasGas EX/EC) and KTM 85 SX, 2020-2026 - how the off-road bikes differ from the SX/TC/MC motocross two-strokes",
+ "platform": {
+  "make": "KTM",
+  "models": [
+   "125 XC",
+   "250 XC",
+   "300 XC",
+   "150 XC-W",
+   "250 XC-W",
+   "300 XC-W",
+   "85 SX 17/14",
+   "85 SX 19/16",
+   "Husqvarna TE 150",
+   "Husqvarna TE 250",
+   "Husqvarna TE 300",
+   "Husqvarna TX 300",
+   "GasGas EX 250",
+   "GasGas EX 300",
+   "GasGas EC 250",
+   "GasGas EC 300"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ]
+ },
+ "records": [
+  {
+   "id": "ko2-001",
+   "domain": "identity",
+   "topic": "fuel system timeline - XC-W enduro",
+   "applies_to": {
+    "models": [
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 250 and 300 XC-W used transfer port injection (TPI) with oil injection through 2023; the 150 XC-W got TPI for 2020, replacing its carburetor. For 2024 all three moved to a 39 mm Keihin throttle body (TBI) with an electronic power valve, keeping oil injection.",
+   "values": {
+    "TPI_years_250_300": "2018-2023",
+    "TPI_years_150": "2020-2023",
+    "TBI_years": "2024-on",
+    "throttle_body": "39 mm Keihin"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2024 KTM 300 XC-W Review",
+    "url": "https://www.cyclenews.com/2023/06/article/2024-ktm-300-xc-w-review/",
+    "date": "2023-06"
+   },
+   "confidence": "high",
+   "notes": "2023 XC-W still TPI per Cycle News 2023 300 XC review; 150 TPI start year from Dirt Bike 150XC-W TPI test (2020 model, replaced carbureted 2019). TPI throttle body was a 39 mm Dell'Orto (Dirt Bike TPI test)."
+  },
+  {
+   "id": "ko2-002",
+   "domain": "identity",
+   "topic": "fuel system timeline - XC cross-country",
+   "applies_to": {
+    "models": [
+     "125 XC",
+     "250 XC",
+     "300 XC"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 250 and 300 XC were TPI with oil injection in 2020-2022 and the 125 XC stayed carbureted through 2022. For 2023 all XC two-strokes got the SX-style 39 mm Keihin TBI engine, electronic power valve and new chassis, and went back to premix (60:1 for the 300, 40:1 for the 125).",
+   "values": {
+    "premix_300XC_TBI": "60:1",
+    "premix_125XC_TBI": "40:1",
+    "TBI_from": "2023"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - KTM's 2023 two-strokes: big changes",
+    "url": "https://dirtbikemagazine.com/ktms-2023-two-strokes-big-changes/",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Premix ratios are KTM spec quoted by Dirt Bike. 125 XC carburetor status 2022 from Enduro21 2022 first look; 'oil injection is gone on the XC' for 2023 from Cycle News 2023 300 XC review."
+  },
+  {
+   "id": "ko2-003",
+   "domain": "identity",
+   "topic": "2022 125 XC change",
+   "applies_to": {
+    "models": [
+     "125 XC"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "The 2022 125 XC stayed carbureted and got a 50-tooth rear sprocket to raise top speed, the only notable change.",
+   "values": {
+    "rear_sprocket": "50 T"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21 - First look 2022 KTM cross-country and motocross models",
+    "url": "https://enduro21.com/en/bikes/latest/first-look-2022-ktm-cross-country-and-motocross-models",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Enduro21 cites KTM saying the change came from customer feedback."
+  },
+  {
+   "id": "ko2-004",
+   "domain": "identity",
+   "topic": "2024 XC spring fork and standard map switch",
+   "applies_to": {
+    "models": [
+     "125 XC",
+     "250 XC",
+     "300 XC"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "For 2024 the XC two-strokes swapped the SX air fork for a new 48 mm WP XACT closed-cartridge coil-spring fork (940 mm long, 300 mm travel, hydro stop in the last 68 mm) and got a standard handlebar map switch.",
+   "values": {
+    "fork": "WP XACT 48 mm closed cartridge, coil spring",
+    "fork_length": "940 mm",
+    "travel": "300 mm",
+    "hydrostop_zone": "last 68 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - 2024 KTM two- and four-stroke cross-country models: all-new WP spring fork",
+    "url": "https://dirtbikemagazine.com/2024-ktm-two-four-stroke-cross-country-models-all-new-wp-spring-fork-revealed/",
+    "date": "2023-04"
+   },
+   "confidence": "high",
+   "notes": "2023 XC used the WP XACT air fork shared with the SX (Dirt Bike 2023 two-strokes). 2025 Dirt Rider guide also lists the coil XACT fork and map switch as standard on the 300 XC."
+  },
+  {
+   "id": "ko2-005",
+   "domain": "identity",
+   "topic": "2025 XC updates",
+   "applies_to": {
+    "models": [
+     "300 XC",
+     "250 XC",
+     "125 XC"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The 2025 XC got the updated SX-generation frame, revised suspension and new linkage, plus new bodywork; claimed weight without fuel for the 300 XC is 224 lb.",
+   "values": {
+    "weight_no_fuel_300XC": "224 lb",
+    "msrp_300XC": "$11,499"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider - 2025 KTM 300 XC buyer's guide",
+    "url": "https://dirtrider.com/ktm/300-xc",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Dirt Rider buyer's guide quoting KTM; frame details match SX 2025 changes in ktm_two_strokes.json (k2t-010)."
+  },
+  {
+   "id": "ko2-006",
+   "domain": "identity",
+   "topic": "2024 XC-W new generation chassis",
+   "applies_to": {
+    "models": [
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W",
+     "Husqvarna TE 300"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "KTM calls the 2024 XC-W about 95% new: a new chromoly frame without the old backbone tube, two-piece aluminium-reinforced polyamide subframe, hollow die-cast swingarm, forged clamps, a closed-cartridge 48 mm WP XACT coil fork replacing the open-cartridge XPLOR, and a lighter, shorter PDS shock; the 150 shares the 250/300 chassis.",
+   "values": {
+    "steering_head": "26.1 deg",
+    "offset": "22 mm",
+    "wheelbase": "1,489 mm (58.6 in)",
+    "ground_clearance": "374 mm (14.7 in)",
+    "seat_height": "963 mm (37.9 in)",
+    "travel": "300 mm front / 310 mm rear"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - New 2024 KTM XC-W two-stroke off-road model specs",
+    "url": "https://cyclenews.com/2023/05/article/new-2024-ktm-xc-w-two-stroke-off-road-model-specs",
+    "date": "2023-05"
+   },
+   "confidence": "high",
+   "notes": "Cycle News 2024 300 XC-W review says the 150 has its own frame; KTM spec list shows identical chassis dimensions for 150/250/300. Husqvarna TE got the same new frame but with linkage rear (MotoOnline)."
+  },
+  {
+   "id": "ko2-007",
+   "domain": "identity",
+   "topic": "2024 reed case flaps",
+   "applies_to": {
+    "models": [
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W",
+     "Husqvarna TE 150",
+     "Husqvarna TE 250",
+     "Husqvarna TE 300",
+     "GasGas EC 250",
+     "GasGas EC 300"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2024 enduro TBI engines added plastic flaps on the outside of the reed case to improve intake sealing and stop excess fuel collecting on steep climbs and descents.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - New 2024 KTM XC-W two-stroke off-road model specs",
+    "url": "https://cyclenews.com/2023/05/article/new-2024-ktm-xc-w-two-stroke-off-road-model-specs",
+    "date": "2023-05"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ko2-008",
+   "domain": "identity",
+   "topic": "2024 Off-road Control Unit and lighting",
+   "applies_to": {
+    "models": [
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W",
+     "Husqvarna TE 150",
+     "Husqvarna TE 250",
+     "Husqvarna TE 300",
+     "GasGas EC 250",
+     "GasGas EC 300"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "From 2024 an Off-road Control Unit under the seat replaces fuses and relays and shows red/green status lights, and the LED headlight is claimed 300% brighter.",
+   "values": {
+    "headlight_gain": "300% (claimed)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2024 KTM 300 XC-W Review",
+    "url": "https://www.cyclenews.com/2023/06/article/2024-ktm-300-xc-w-review/",
+    "date": "2023-06"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ko2-009",
+   "domain": "identity",
+   "topic": "2025 XC-W updates",
+   "applies_to": {
+    "models": [
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "For 2025 the XC-W range got updated shock settings for better internal pressure balance, a new headlight mask with clamp roost protection and no rubber straps, and a revised rider triangle with better knee contact when standing.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM USA - 2025 KTM 300 XC-W Factory Edition",
+    "url": "https://www.ktm.com/en-us/models/enduro/2-stroke/2025-ktm-300-xc-wfactoryedition.html",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "From the KTM Factory Edition page describing the 2025 XC-W range."
+  },
+  {
+   "id": "ko2-010",
+   "domain": "identity",
+   "topic": "2025 300 XC-W Factory Edition",
+   "applies_to": {
+    "models": [
+     "300 XC-W"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The 2025 300 XC-W Factory Edition adds a WP XPLOR PRO 7548 cone-valve fork (30 compression, 30 rebound clicks, 10 mm spring preload), a standard map switch, a titanium aftermarket-brand silencer, factory clamps, wheels and seat, and a fan skid plate.",
+   "values": {
+    "msrp": "$13,999",
+    "silencer": "FMF Titanium Powercore 2.1",
+    "fork": "WP XPLOR PRO 7548",
+    "fork_clicks": "30 comp / 30 reb",
+    "fork_preload": "10 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM USA - 2025 KTM 300 XC-W Factory Edition",
+    "url": "https://www.ktm.com/en-us/models/enduro/2-stroke/2025-ktm-300-xc-wfactoryedition.html",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ko2-011",
+   "domain": "identity",
+   "topic": "2024 Hardenduro edition",
+   "applies_to": {
+    "models": [
+     "300 XC-W"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The 2024 300 XC-W Hardenduro adds a standard fan, map switch, machined clamps, safety-wired solid rear disc and protection parts; KTM claims 49 hp and 43.8 Nm and 106.1 kg without fuel.",
+   "values": {
+    "claimed_power": "49 hp",
+    "claimed_torque": "43.8 Nm",
+    "weight_no_fuel": "106.1 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM - 2024 KTM 300 XC-W Hardenduro",
+    "url": "https://ktm.com/en-id/models/enduro/2-stroke/2024-ktm-300-xc-whardenduro.html",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Rear is the WP XPLOR PDS shock, 380 g lighter than the previous one, with hand high/low-speed compression."
+  },
+  {
+   "id": "ko2-012",
+   "domain": "identity",
+   "topic": "2026 KTM enduro two-stroke changes",
+   "applies_to": {
+    "models": [
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "For 2026 the XC-W XACT closed-cartridge fork got new damping, lighter and shorter springs, a reworked pressure reservoir and a one-piece hydro stop (about 200 g lighter); the radiator cap got a standard thread and the fuel connector a sealing cover. In North America the range is 150, 250 and 300 XC-W.",
+   "values": {
+    "fork_weight_saving": "about 200 g"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21 - First look 2026 KTM enduro models",
+    "url": "https://enduro21.com/en/bikes/latest/first-look-2026-ktm-enduro-models-redefined-range-sees-more-competition-only-models-new-forks-and-fans",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "In Europe the 125/150/250 become XC-W competition models and only the 300 keeps the EXC name (Euro 5+). A fan is standard on the 300 EXC; not listed for the 150/250."
+  },
+  {
+   "id": "ko2-013",
+   "domain": "identity",
+   "topic": "2026 300 XC-W Hardenduro",
+   "applies_to": {
+    "models": [
+     "300 XC-W"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The 2026 Hardenduro adds a preload-adjustable base valve on the XACT fork, standard fan, map switch, closed handguards, skid plate, factory wheels and a Supersprox rear sprocket.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - KTM introduces 2026 300XC-W Hardenduro",
+    "url": "https://dirtbikemagazine.com/?p=100943",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Dealers from October 2025."
+  },
+  {
+   "id": "ko2-014",
+   "domain": "identity",
+   "topic": "GasGas EX/EC lineage",
+   "applies_to": {
+    "models": [
+     "GasGas EX 250",
+     "GasGas EX 300",
+     "GasGas EC 250",
+     "GasGas EC 300"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The KTM-based GasGas EC (enduro, oil-injected) and EX (cross-country) 250/300 were TPI in 2021-2023. For 2024 both got the TBI engine; the EX dropped oil injection and went to premix, while the EC kept the oil tank.",
+   "values": {
+    "TPI_years": "2021-2023",
+    "TBI_from": "2024"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - 2024 GasGas EX300 off-road video test",
+    "url": "https://dirtbikemagazine.com/2024-gas-gas-ex300-off-road-video-test-some-riders-love-it/",
+    "date": "2024-03"
+   },
+   "confidence": "medium",
+   "notes": "TPI years from Slavens power-valve kit fitment list (21-23 EC/EX 250/300). Oil injection dropped on EX per Dirt Bike 2024 EX300 test; EC keeps it per Cycle News 2024 EC 300 review. Tier set MEASURED because it is a tester's account, not an OEM document."
+  },
+  {
+   "id": "ko2-015",
+   "domain": "identity",
+   "topic": "2025 GasGas EX updates",
+   "applies_to": {
+    "models": [
+     "GasGas EX 250",
+     "GasGas EX 300"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The 2025 EX got a new frame, swingarm and linkage with material removed around the shock tower and steering stem for more flex, new engine mounts, lower-friction XACT shock seals, a stronger chain slider and rear brake pedal.",
+   "values": {
+    "msrp_EX300": "$10,749"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2025 GasGas EX300",
+    "url": "https://dirtbiketest.com/bike-tests/2025-gasgas-ex300/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Changes described in a magazine test."
+  },
+  {
+   "id": "ko2-016",
+   "domain": "identity",
+   "topic": "2025 Husqvarna TE 300 Pro",
+   "applies_to": {
+    "models": [
+     "Husqvarna TE 300"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The 2025 TE 300 Pro (the only Pro two-stroke in North America) has XACT closed-cartridge forks with a new preload-adjustable base valve for better high-speed compression, Brembo clutch and brakes instead of Braktec, a map switch, factory wheels and a ProTaper bar.",
+   "values": {
+    "price_usd": "$13,499"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21 - First look 2025 Husqvarna Pro edition enduro models",
+    "url": "https://enduro21.com/en/bikes/latest/first-look-2025-husqvarna-pro-edition-enduro-models",
+    "date": "2024-09"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ko2-017",
+   "domain": "identity",
+   "topic": "Husqvarna TX 300i TPI (cross-country)",
+   "applies_to": {
+    "models": [
+     "Husqvarna TX 300"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "The TX 300i is the Husqvarna cross-country model: TPI with oil injection, the motocross chassis with linkage rear and an XACT air fork with off-road valving, no headlight, and electric start only.",
+   "values": {
+    "weight": "223 lb",
+    "msrp_2020": "$10,099"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - Husqvarna TX300i full test",
+    "url": "https://dirtbikemagazine.com/husqvarna-tx300i-full-test/",
+    "date": "2020"
+   },
+   "confidence": "medium",
+   "notes": "Year range 2020-2022 TPI assumed from the 2020 test plus a 2023 'TX 300' (no i) listing on Vital MX; 2023+ TX 300 TBI not verified with a test."
+  },
+  {
+   "id": "ko2-018",
+   "domain": "engine_architecture",
+   "topic": "TPI injection layout",
+   "applies_to": {
+    "models": [
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W",
+     "GasGas EC 250",
+     "GasGas EC 300",
+     "Husqvarna TE 250",
+     "Husqvarna TE 300",
+     "250 XC",
+     "300 XC",
+     "Husqvarna TX 300",
+     "GasGas EX 250",
+     "GasGas EX 300"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "TPI sprays fuel from two injectors in domes on the cylinder into the rear transfer ports, with a 39 mm Dell'Orto throttle body, open-loop control (no lambda sensor), an ambient pressure sensor for altitude and about 50 psi fuel pressure; oil is sprayed into the intake between the butterfly and the reeds.",
+   "values": {
+    "fuel_pressure": "50 psi",
+    "throttle_body": "39 mm Dell'Orto"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - KTM 300XC-W TPI 2-stroke full test",
+    "url": "https://dirtbikemagazine.com/ktm-300xc-w-tpi-2-stroke-full-test",
+    "date": "2018-11"
+   },
+   "confidence": "high",
+   "notes": "Combined from Dirt Bike TPI full test and Mr Know-It-All FI column; Dell'Orto and injector firing up to 20 times/s also in the TX300i test."
+  },
+  {
+   "id": "ko2-019",
+   "domain": "engine_architecture",
+   "topic": "TBI vs TPI fuel path",
+   "applies_to": {
+    "models": [
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W",
+     "Husqvarna TE 150",
+     "Husqvarna TE 250",
+     "Husqvarna TE 300",
+     "GasGas EC 250",
+     "GasGas EC 300",
+     "125 XC",
+     "250 XC",
+     "300 XC",
+     "GasGas EX 250",
+     "GasGas EX 300"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "TBI injects into the throttle body, giving fuel more time to mix with air before it reaches the cylinder, which makes low-speed fuelling easier and avoids the TPI habit of washing oil off the bore when the mixture was wrong.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Australasian Dirt Bike - Enduro test 2024 GasGas EC 300",
+    "url": "https://adbmag.com.au/editorial/enduro-test-2024-gasgas-ec-300/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Tester explanation, consistent with KTM claims of cleaner running."
+  },
+  {
+   "id": "ko2-020",
+   "domain": "engine_architecture",
+   "topic": "XC-W TBI engine vs XC engine",
+   "applies_to": {
+    "models": [
+     "300 XC-W",
+     "300 XC"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The 2024 300 XC-W appears to share the 300 XC bottom end, but its cylinder, head and mapping are different, giving a much mellower delivery.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - 2024 KTM 300XC-W long-term review (The Weekly Feed)",
+    "url": "https://dirtbikemagazine.com/2024-ktm-300xc-w-long-term-review-the-weekly-feed/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Long-term tester observation; KTM has not published the port/head differences."
+  },
+  {
+   "id": "ko2-021",
+   "domain": "engine_architecture",
+   "topic": "150 XC-W TPI engine",
+   "applies_to": {
+    "models": [
+     "150 XC-W"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "The 150 XC-W TPI is a 144 cc (58 x 54.5 mm) case-reed power-valve engine with two injector domes feeding the rear transfers, a redesigned power valve and exhaust port, and a 250-style pipe and silencer.",
+   "values": {
+    "displacement": "144 cc",
+    "bore_x_stroke": "58 x 54.5 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - KTM 150XC-W TPI 2-stroke full test",
+    "url": "https://dirtbikemagazine.com/ktm-150xc-w-tpi-2-stroke-full-test",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": "Dirt Bike's spec list printed bore/stroke reversed (54.5 x 58); KTM 2024 spec is 58/54.5 mm."
+  },
+  {
+   "id": "ko2-022",
+   "domain": "ecu_electronics",
+   "topic": "TBI map switch and power valve opening",
+   "applies_to": {
+    "models": [
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W",
+     "125 XC",
+     "250 XC",
+     "300 XC"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "On the 250/300 TBI off-road bikes map 1 (white, linear) lets the electronic power valve open to only 80%, while map 2 (green, sharper) opens it to 100%; the difference is mostly felt on top and many riders found it hard to notice.",
+   "values": {
+    "map1_pv_max": "80%",
+    "map2_pv_max": "100%"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2024 KTM 300 XC-W",
+    "url": "https://dirtbiketest.com/bike-tests/2024-ktm-300-xc-w",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "125 TBI maps change fuel/ignition only (see two_stroke_porting 2t-010). Testers wanted app access to the power valve like Yamaha/Kawasaki."
+  },
+  {
+   "id": "ko2-023",
+   "domain": "ecu_electronics",
+   "topic": "2024 XC-W map switch is optional",
+   "applies_to": {
+    "models": [
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The 2024 XC-W ECU holds both maps but the handlebar switch was an optional extra (about $150); without it the bike runs the standard map, and testers advised buying the switch.",
+   "values": {
+    "switch_price": "about $150"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - 2024 KTM 300XC-W 2-Stroke",
+    "url": "https://dirtbikemagazine.com/2024-ktm-300xc-w-2-stroke/",
+    "date": "2023-07"
+   },
+   "confidence": "medium",
+   "notes": "Cycle News says two standard maps exist; KTM lists the switch as standard on Hardenduro and Factory Edition. See conflicts."
+  },
+  {
+   "id": "ko2-024",
+   "domain": "ecu_electronics",
+   "topic": "GasGas has no map switch",
+   "applies_to": {
+    "models": [
+     "GasGas EC 250",
+     "GasGas EC 300",
+     "GasGas EX 250",
+     "GasGas EX 300"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "GasGas EC and EX TBI bikes ship without a map switch, running KTM's mellow map; the optional two-way switch plugs straight in because the ECU already carries both maps. Testers suggested white for rock crawling and green for mud, soft ground and open trail.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2024 GasGas EC 300 Review",
+    "url": "https://www.cyclenews.com/2023/08/article/2024-gasgas-ec-300-review/",
+    "date": "2023-08"
+   },
+   "confidence": "high",
+   "notes": "EX300 also lacks handguards and skid plate (Dirt Bike 2024 EX300 test)."
+  },
+  {
+   "id": "ko2-025",
+   "domain": "ecu_electronics",
+   "topic": "TPI map plug and handlebar switch",
+   "applies_to": {
+    "models": [
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W",
+     "Husqvarna TE 150",
+     "Husqvarna TE 250",
+     "Husqvarna TE 300",
+     "GasGas EC 250",
+     "GasGas EC 300"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "TPI bikes carry two ECU maps selected by a plug or optional switch; on Six Days and Husqvarna TE models the handlebar switch moves to a milder ignition curve for slick ground. Testers mostly ran the standard map and wished the two were more distinct.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2020 KTM 300XC-W",
+    "url": "https://dirtbiketest.com/bike-tests/2020-ktm-300xc-w/",
+    "date": "2020"
+   },
+   "confidence": "medium",
+   "notes": "Ignition-curve description from Dirt Bike Mr Know-It-All FI column."
+  },
+  {
+   "id": "ko2-026",
+   "domain": "ecu_electronics",
+   "topic": "TPI altitude recalibration",
+   "applies_to": {
+    "models": [
+     "250 XC-W",
+     "300 XC-W"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "On 2020 TPI bikes, climbing or descending a lot without stopping made the engine run lean or rich until it was restarted; KTM issued a software update that dealers flashed to new and early bikes.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2020 KTM 300XC-W",
+    "url": "https://dirtbiketest.com/bike-tests/2020-ktm-300xc-w/",
+    "date": "2020"
+   },
+   "confidence": "medium",
+   "notes": "Despite a new external ambient pressure sensor for 2020."
+  },
+  {
+   "id": "ko2-027",
+   "domain": "ecu_electronics",
+   "topic": "TPI ECU and oil pump not adjustable stock",
+   "applies_to": {
+    "models": [
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W",
+     "GasGas EC 250",
+     "GasGas EC 300",
+     "Husqvarna TE 150",
+     "Husqvarna TE 250",
+     "Husqvarna TE 300"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "On the stock TPI ECU the throttle position sensor and oil pump rate cannot be adjusted; an aftermarket replacement ECU allows both, with a wake-up dongle for TPS reset.",
+   "values": {
+    "aftermarket_ECU_price": "about $984 (2018, Athena GET)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - KTM 300XC-W TPI 2-stroke full test",
+    "url": "https://dirtbikemagazine.com/ktm-300xc-w-tpi-2-stroke-full-test",
+    "date": "2018-11"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ko2-028",
+   "domain": "ecu_electronics",
+   "topic": "TBI remap gains (tuner claim)",
+   "applies_to": {
+    "models": [
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W",
+     "Husqvarna TE 150",
+     "Husqvarna TE 250",
+     "Husqvarna TE 300",
+     "GasGas EC 250",
+     "GasGas EC 300",
+     "125 XC",
+     "250 XC",
+     "300 XC",
+     "GasGas EX 250",
+     "GasGas EX 300"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "A tuner reports its handheld ECU reflash adds about 1.0-2.0 hp and 1.0-1.5 lb-ft on 2024+ TBI engines, mainly making power more consistent; on TPI 300s the claim is 2.0-3.0 hp and 1.5-2.2 lb-ft.",
+   "values": {
+    "TBI_gain": "+1.0-2.0 hp, +1.0-1.5 lb-ft",
+    "TPI_300_gain": "+2.0-3.0 hp, +1.5-2.2 lb-ft",
+    "TPI_250_gain": "+1.5-2.5 hp, +1.0-1.8 lb-ft",
+    "price": "$500-530"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Slavens Racing - What performance gains can the TSP ERM deliver?",
+    "url": "https://slavensracing.com/what-performance-gains-can-the-tsp-erm-deliver",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": "Dealer selling the TSP ERM; dyno type, baseline and models not stated."
+  },
+  {
+   "id": "ko2-029",
+   "domain": "ecu_electronics",
+   "topic": "dealer remap for TPI",
+   "applies_to": {
+    "models": [
+     "300 XC-W"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "KTM dealers could reflash the TPI ECU with a 'Sport rider' map update that strengthens the midrange for heavy loads such as long sand climbs and suits engines with added compression.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - KTM 300 XC-W TPI hop-up parts test",
+    "url": "https://dirtbikemagazine.com/?p=51252",
+    "date": "2019-09"
+   },
+   "confidence": "low",
+   "notes": "Article dated 2019, mentions KTM 2020 mapping."
+  },
+  {
+   "id": "ko2-030",
+   "domain": "power_feel",
+   "topic": "dyno - 2024 GasGas EX 300",
+   "applies_to": {
+    "models": [
+     "GasGas EX 300"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "On a rear-wheel Dynojet 250i the 2024 GasGas EX 300 made 50.1 hp and 33.1 lb-ft, about the same peak as the 300 SX measured on the same type of dyno.",
+   "values": {
+    "peak_hp": "50.1 hp",
+    "peak_torque": "33.1 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider - 2024 GasGas EX 300 dyno test",
+    "url": "https://dirtrider.com/tests/gasgas-ex-300-dyno-test-2024",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Dynojet 250i, rpm, fuel and map not stated, presumably stock. Same publication measured 2023 300 SX 48.8 hp and 2025 300 SX 49.1 hp (ktm_two_strokes / two_stroke_porting)."
+  },
+  {
+   "id": "ko2-031",
+   "domain": "power_feel",
+   "topic": "dyno - 2024 GasGas EX 250",
+   "applies_to": {
+    "models": [
+     "GasGas EX 250"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The 2024 GasGas EX 250 made 43.2 hp and 29.0 lb-ft at the rear wheel; the test rider called it strong but controllable with plenty of top end.",
+   "values": {
+    "peak_hp": "43.2 hp",
+    "peak_torque": "29.0 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider - 2024 GasGas EX 250 dyno test",
+    "url": "https://dirtrider.com/tests/gasgas-ex-250-dyno-test-2024",
+    "date": "2024-08"
+   },
+   "confidence": "high",
+   "notes": "Publication's in-house rear-wheel dyno (Dynojet 250i on its other tests); rpm, fuel, map not stated."
+  },
+  {
+   "id": "ko2-032",
+   "domain": "power_feel",
+   "topic": "dyno - 2025 KTM 125 XC",
+   "applies_to": {
+    "models": [
+     "125 XC"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The 2025 125 XC made 33.0 hp and 15.8 lb-ft at the rear wheel.",
+   "values": {
+    "peak_hp": "33.0 hp",
+    "peak_torque": "15.8 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider - 2025 KTM 125 XC dyno test",
+    "url": "https://www.dirtrider.com/tests/ktm-125-xc-dyno-test-2025",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "In-house dyno, rpm/fuel/map not stated. Same publication measured the TBI 125 SX at 30.9 hp (Dynojet 250i, 2023); different years, so not a clean XC-vs-SX comparison."
+  },
+  {
+   "id": "ko2-033",
+   "domain": "power_feel",
+   "topic": "dyno - 2020 Husqvarna TE 300i TPI",
+   "applies_to": {
+    "models": [
+     "Husqvarna TE 300"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "The 2020 TE 300i TPI made 43.8 hp at 8,500 rpm and 27.4 lb-ft at 8,400 rpm on a rear-wheel dyno.",
+   "values": {
+    "peak_hp": "43.8 hp @ 8,500 rpm",
+    "peak_torque": "27.4 lb-ft @ 8,400 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider - 2020 Husqvarna TE 300i dyno test",
+    "url": "https://dirtrider.com/story/tests/2020-husqvarna-te-300i-dyno-test",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Rear-wheel dyno, brand not stated; fuel/map not stated."
+  },
+  {
+   "id": "ko2-034",
+   "domain": "power_feel",
+   "topic": "dyno - 2022 Husqvarna TE 300i TPI",
+   "applies_to": {
+    "models": [
+     "Husqvarna TE 300"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "The stock 2022 TE 300i TPI made 40 hp at 8,600 rpm and 25.4 lb-ft at 6,800 rpm; power climbs fairly linearly to the peak, drops sharply to about 10,000 rpm, then stays flat to about 10,900.",
+   "values": {
+    "peak_hp": "40 hp @ 8,600 rpm",
+    "peak_torque": "25.4 lb-ft @ 6,800 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider - 2022 Husqvarna TE 300i dyno test",
+    "url": "https://dirtrider.com/story/tests/2022-husqvarna-te-300i-dyno-test",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "In-house dyno, stock; fuel/map not stated."
+  },
+  {
+   "id": "ko2-035",
+   "domain": "power_feel",
+   "topic": "TPI vs TBI 300 peak (same publication)",
+   "applies_to": {
+    "models": [
+     "Husqvarna TE 300",
+     "GasGas EX 300"
+    ],
+    "years": [
+     2020,
+     2022,
+     2024
+    ]
+   },
+   "statement": "On one magazine's rear-wheel dyno, the TPI TE 300i made 40-43.8 hp while the TBI EX 300 made 50.1 hp, roughly 6-10 hp more for the TBI engine in the premix cross-country tune.",
+   "values": {
+    "TPI_TE300i": "40.0-43.8 hp",
+    "TBI_EX300": "50.1 hp",
+    "difference": "6.3-10.1 hp"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider - 2024 GasGas EX 300 dyno test",
+    "url": "https://dirtrider.com/tests/gasgas-ex-300-dyno-test-2024",
+    "date": "2024"
+   },
+   "confidence": "low",
+   "notes": "50.1-43.8=6.3; 50.1-40.0=10.1. Different years, models (enduro TE vs cross-country EX) and possibly different dyno units; treat as indicative only."
+  },
+  {
+   "id": "ko2-036",
+   "domain": "power_feel",
+   "topic": "TBI XC-W feel by rpm",
+   "applies_to": {
+    "models": [
+     "300 XC-W",
+     "Husqvarna TE 300",
+     "GasGas EC 300"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The TBI 300 XC-W lugs at very low rpm without bogging, loading up or stalling, is smooth with strong low-end torque tapering as revs rise, and feels slower than it is; testers put its 'fast' sensation between a carb bike and a TPI bike.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2024 KTM 300 XC-W",
+    "url": "https://dirtbiketest.com/bike-tests/2024-ktm-300-xc-w",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Vibration described as essentially absent."
+  },
+  {
+   "id": "ko2-037",
+   "domain": "power_feel",
+   "topic": "TBI XC-W vs TPI by rpm",
+   "applies_to": {
+    "models": [
+     "300 XC-W"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Compared with the TPI bike, the 2024 TBI 300 XC-W is mellow down low even on the green map, far stronger in the midrange and revs out much further; one tester called it noticeably more 'bark' than the TPI.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - 2024 KTM 300XC-W 2-Stroke",
+    "url": "https://dirtbikemagazine.com/2024-ktm-300xc-w-2-stroke/",
+    "date": "2023-07"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ko2-038",
+   "domain": "power_feel",
+   "topic": "XC-W sits between the 2023 XC maps",
+   "applies_to": {
+    "models": [
+     "300 XC-W",
+     "300 XC"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "The 2023 300 XC green map was abrupt and hard to control in technical terrain and its white map a big step down; the 2024 300 XC-W delivery sits between the two.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - 2024 KTM 300XC-W 2-Stroke",
+    "url": "https://dirtbikemagazine.com/2024-ktm-300xc-w-2-stroke/",
+    "date": "2023-07"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ko2-039",
+   "domain": "power_feel",
+   "topic": "TBI XC-W hill-climb weakness at altitude",
+   "applies_to": {
+    "models": [
+     "300 XC-W"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "A long-term TBI 300 XC-W could not reliably pull third gear up steep, sandy high-desert climbs that the TPI bike handled; gearbox ratios are the same, so the difference is the powerband.",
+   "values": {
+    "stock_gearing": "13/45"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - 2024 KTM 300XC-W long-term review (The Weekly Feed)",
+    "url": "https://dirtbikemagazine.com/2024-ktm-300xc-w-long-term-review-the-weekly-feed/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ko2-040",
+   "domain": "power_feel",
+   "topic": "TBI enduro feel vs TPI and carb",
+   "applies_to": {
+    "models": [
+     "GasGas EC 300",
+     "Husqvarna TE 300"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Testers found the TBI enduro 300 can crawl at almost closed throttle without stalling, is linear and broader through the mid and top, and no longer coughs or lean-pops after long high-rpm runs as TPI bikes did; older carb bikes still hit harder off the bottom.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Australasian Dirt Bike - Enduro test 2024 GasGas EC 300",
+    "url": "https://adbmag.com.au/editorial/enduro-test-2024-gasgas-ec-300/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ko2-041",
+   "domain": "power_feel",
+   "topic": "TE 150/250/300 TBI character",
+   "applies_to": {
+    "models": [
+     "Husqvarna TE 150",
+     "Husqvarna TE 250",
+     "Husqvarna TE 300"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The TBI TE 150 has strong, four-stroke-like bottom end and a two-stroke snap with a clutch flick; the TE 250 is snappy from the start and about 11 hp up on the 150; the TE 300 has a milder bottom and stronger midrange than the 250.",
+   "values": {
+    "TE250_vs_TE150": "about +11 hp (tester figure)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "MotoOnline - Tested: 2024 Husqvarna TE range",
+    "url": "https://www.motoonline.com/au/tested-2024-husqvarna-te-range/",
+    "date": "2023-06"
+   },
+   "confidence": "medium",
+   "notes": "Launch ride; 11 hp figure is the tester's, not measured on a stated dyno."
+  },
+  {
+   "id": "ko2-042",
+   "domain": "power_feel",
+   "topic": "EC 300 TBI feel",
+   "applies_to": {
+    "models": [
+     "GasGas EC 300"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The TBI EC 300 has a stout bottom end in slow sections, a crisp midrange needing little clutch, and smooth four-stroke-like power that lacks some carburetor snap.",
+   "values": {
+    "claimed_power": "49 hp"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2024 GasGas EC 300 Review",
+    "url": "https://www.cyclenews.com/2023/08/article/2024-gasgas-ec-300-review/",
+    "date": "2023-08"
+   },
+   "confidence": "medium",
+   "notes": "Short launch ride."
+  },
+  {
+   "id": "ko2-043",
+   "domain": "power_feel",
+   "topic": "EX 300 TBI feel",
+   "applies_to": {
+    "models": [
+     "GasGas EX 300"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "The TBI EX 300 pulls from very low revs and can be lugged almost to idle; most power is bottom to mid with a lighter flywheel feel as revs build, and third is the most useful gear. The previous TPI's lean surge low in the rev range is mostly gone.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2025 GasGas EX300",
+    "url": "https://dirtbiketest.com/bike-tests/2025-gasgas-ex300/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Combined Dirt Bike Test 2025 and Dirt Bike 2024 EX300 impressions; testers felt the power valve tune was conservative."
+  },
+  {
+   "id": "ko2-044",
+   "domain": "power_feel",
+   "topic": "TBI XC character",
+   "applies_to": {
+    "models": [
+     "300 XC"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "The 2023 300 XC TBI tractors through slow technical sections like a four-stroke and turns crisp and pipey on top; third gear is long and versatile.",
+   "values": {
+    "claimed_weight_no_fuel": "222.8 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2023 KTM 300 XC Review",
+    "url": "https://www.cyclenews.com/2022/11/article/2023-ktm-300-xc-review/",
+    "date": "2022-11"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ko2-045",
+   "domain": "power_feel",
+   "topic": "300 XC TBI vs XC-W TPI character",
+   "applies_to": {
+    "models": [
+     "300 XC",
+     "300 XC-W"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "Ridden back to back, the TPI 300 XC-W is mellow and friendly but lacks low-end grunt and mid pull compared with older carb 300s, while the TBI 300 XC is bold and barky with more torque and power than any earlier 300.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - Project bike shootout KTM 300 TPI vs KTM 300 TBI",
+    "url": "https://dirtbikemagazine.com/project-bike-shootout-ktm-300tpi-vs-ktm-300tbi/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "High-altitude owner-tester (6,300-12,000 ft)."
+  },
+  {
+   "id": "ko2-046",
+   "domain": "power_feel",
+   "topic": "TPI XC feel",
+   "applies_to": {
+    "models": [
+     "300 XC",
+     "250 XC"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "The TPI 300 XC shared the XC-W's engine tune: very smooth but lethargic and wheezy off the bottom, with what sounded like low-rpm detonation; race fuel in the mix and a power-valve tool made it livelier.",
+   "values": {
+    "weight_wet": "241 lb",
+    "msrp_2021": "$10,199"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2021 KTM 300 XC TPI Review",
+    "url": "https://cyclenews.com/2021/02/article/2021-ktm-300-xc-tpi-review",
+    "date": "2021-02"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ko2-047",
+   "domain": "power_feel",
+   "topic": "TPI XC-W feel by rpm",
+   "applies_to": {
+    "models": [
+     "250 XC-W",
+     "300 XC-W"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "The TPI 300 XC-W is silky and immediate off the bottom with strong bottom-to-mid pull, then has a weak lean spot in the midrange before pulling long and hard on top; the stock map runs rich at very low rpm and lean above.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - KTM 300XC-W TPI 2-stroke full test",
+    "url": "https://dirtbikemagazine.com/ktm-300xc-w-tpi-2-stroke-full-test",
+    "date": "2018-11"
+   },
+   "confidence": "medium",
+   "notes": "Tested on an early (2019 model) TPI bike; the 2020 remap was described as slightly more aggressive."
+  },
+  {
+   "id": "ko2-048",
+   "domain": "power_feel",
+   "topic": "2020 TPI XC-W remap feel",
+   "applies_to": {
+    "models": [
+     "300 XC-W"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "The 2020 TPI 300 XC-W has a long, smooth powerband with strong bottom-end pull and slightly more aggressive mapping than before; light detonation was heard on trailing throttle, more on 87 octane.",
+   "values": {
+    "weight_with_fuel": "241 lb (2.2 gal)",
+    "top_speed": "about 90 mph"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2020 KTM 300XC-W",
+    "url": "https://dirtbiketest.com/bike-tests/2020-ktm-300xc-w/",
+    "date": "2020"
+   },
+   "confidence": "medium",
+   "notes": "Head and cylinder showed no detonation damage after 15 hours."
+  },
+  {
+   "id": "ko2-049",
+   "domain": "power_feel",
+   "topic": "150 XC-W TPI feel",
+   "applies_to": {
+    "models": [
+     "150 XC-W"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "The 150 XC-W TPI comes on sooner with much more bottom-end torque and strong midrange than the carb 150, but signs off early on top, the opposite of the screaming 150 motocrosser.",
+   "values": {
+    "weight_no_fuel": "215 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - KTM 150XC-W TPI 2-stroke full test",
+    "url": "https://dirtbikemagazine.com/ktm-150xc-w-tpi-2-stroke-full-test",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ko2-050",
+   "domain": "power_feel",
+   "topic": "125 XC on the trail",
+   "applies_to": {
+    "models": [
+     "125 XC"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "In a GNCC race the carbureted 125 XC pulled well in 2nd or 3rd even when lugged and never felt narrow, and needed less clutch than expected.",
+   "values": {
+    "weight_vs_250XCF": "about 25 lb lighter"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2021 KTM 125XC race test review",
+    "url": "https://dirtbiketest.com/fresh-dirt/2021-ktm-125xc-race-test-review/",
+    "date": "2020-10"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ko2-051",
+   "domain": "power_feel",
+   "topic": "TPI vs carb fuel economy",
+   "applies_to": {
+    "models": [
+     "250 XC-W",
+     "300 XC-W",
+     "Husqvarna TE 250",
+     "Husqvarna TE 300"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "Injection improved fuel mileage about 7% at sea level and over 20% around 6,000 ft compared with carb versions, and cut oil cost to about a quarter.",
+   "values": {
+    "economy_sea_level": "+7%",
+    "economy_6000ft": "+20%+",
+    "oil_cost": "about 1/4 of premix"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - Riding the Husqvarna TE300i (The Wrap)",
+    "url": "https://dirtbikemagazine.com/?p=41451",
+    "date": "2019-02"
+   },
+   "confidence": "medium",
+   "notes": "Back-to-back 250 tests; a 2018 test measured 1.58 vs 1.70 gal on a 30-mile loop."
+  },
+  {
+   "id": "ko2-052",
+   "domain": "power_feel",
+   "topic": "TBI XC-W fuel economy",
+   "applies_to": {
+    "models": [
+     "300 XC-W"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Testers got 22-32 mpg on the TBI 300 XC-W in normal trail riding; the TPI bikes had better range.",
+   "values": {
+    "mpg": "22-32",
+    "tank": "2.37 gal"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2024 KTM 300 XC-W",
+    "url": "https://dirtbiketest.com/bike-tests/2024-ktm-300-xc-w",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "TPI 2020 test: 33-40 mpg, about 50 miles racing / 60-65 trail per tank (Dirt Bike Test 2020). Range comparison from Dirt Bike long-term."
+  },
+  {
+   "id": "ko2-053",
+   "domain": "power_feel",
+   "topic": "TPI XC-W fuel range",
+   "applies_to": {
+    "models": [
+     "300 XC-W"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "The 2020 TPI 300 XC-W returned 33-40 mpg, about 50 miles per tank racing and 60-65 miles trail riding.",
+   "values": {
+    "mpg": "33-40",
+    "range_race": "about 50 mi",
+    "range_trail": "60-65 mi"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2020 KTM 300XC-W",
+    "url": "https://dirtbiketest.com/bike-tests/2020-ktm-300xc-w/",
+    "date": "2020"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ko2-054",
+   "domain": "engine_architecture",
+   "topic": "TPI oil injection ratio",
+   "applies_to": {
+    "models": [
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W",
+     "Husqvarna TE 150",
+     "Husqvarna TE 250",
+     "Husqvarna TE 300",
+     "GasGas EC 250",
+     "GasGas EC 300",
+     "250 XC",
+     "300 XC",
+     "Husqvarna TX 300",
+     "GasGas EX 250",
+     "GasGas EX 300"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "The TPI oil pump (Mikuni-made, ECU-controlled) varies the mix with rpm from about 150:1 at idle to about 30:1 at high rpm, from a 0.7 L tank that lasts five to six tanks of fuel.",
+   "values": {
+    "ratio_idle": "about 150:1",
+    "ratio_high_rpm": "about 30:1",
+    "oil_tank": "0.7 L"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - KTM 300XC-W TPI 2-stroke full test",
+    "url": "https://dirtbikemagazine.com/ktm-300xc-w-tpi-2-stroke-full-test",
+    "date": "2018-11"
+   },
+   "confidence": "medium",
+   "notes": "Figures from an engine tuner quoted by Dirt Bike. A 2020 test estimated 100:1 low, 40:1 high, about 80:1 average. See conflicts."
+  },
+  {
+   "id": "ko2-055",
+   "domain": "maintenance",
+   "topic": "TPI oil system: no premix, priming",
+   "applies_to": {
+    "models": [
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W",
+     "Husqvarna TE 150",
+     "Husqvarna TE 250",
+     "Husqvarna TE 300",
+     "GasGas EC 250",
+     "GasGas EC 300"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "Do not add premix to a TPI oil-injected bike: the oil never reaches the skirts or bearings and has clogged fuel filters. After removing the throttle body, prime the oil line by holding the throttle wide open, plugging in the wake-up dongle for at least 5 seconds, then waiting for the pump clicking to stop.",
+   "values": {
+    "prime_hold": "at least 5 s"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - What you should know about fuel-injected 2-strokes (Mr. Know-It-All)",
+    "url": "https://dirtbikemagazine.com/what-you-should-know-about-fuel-injected-2-strokes-mr-know-it-all/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": "Reported failures were blamed on dealers not initialising the system, owners not filling the tank, or non-synthetic oil (Dirt Bike Test 2020)."
+  },
+  {
+   "id": "ko2-056",
+   "domain": "engine_architecture",
+   "topic": "TBI enduro keeps oil injection",
+   "applies_to": {
+    "models": [
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W",
+     "Husqvarna TE 150",
+     "Husqvarna TE 250",
+     "Husqvarna TE 300",
+     "GasGas EC 250",
+     "GasGas EC 300"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The TBI XC-W, TE and EC kept electronic oil injection (filler ahead of the gas cap), so no premix is needed; the oil tank needs refilling roughly every four tanks of fuel.",
+   "values": {
+    "refill_interval": "about every 4 fuel tanks"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2024 GasGas EC 300 Review",
+    "url": "https://www.cyclenews.com/2023/08/article/2024-gasgas-ec-300-review/",
+    "date": "2023-08"
+   },
+   "confidence": "high",
+   "notes": "KTM considered premix for the XC-W but kept injection (Cycle News 2024 300 XC-W)."
+  },
+  {
+   "id": "ko2-057",
+   "domain": "engine_architecture",
+   "topic": "TBI XC/EX/TX premix",
+   "applies_to": {
+    "models": [
+     "125 XC",
+     "250 XC",
+     "300 XC",
+     "GasGas EX 250",
+     "GasGas EX 300"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The TBI cross-country bikes (XC and from 2024 GasGas EX) have no oil injection: KTM specifies 60:1 premix for the 300 XC and 40:1 for the 125 XC. Testers ran an EX 300 on 91 pump fuel at 50:1 with injector-type premix oil with no issues.",
+   "values": {
+    "300XC": "60:1",
+    "125XC": "40:1",
+    "tester_EX300": "50:1, 91 octane"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - KTM's 2023 two-strokes: big changes",
+    "url": "https://dirtbikemagazine.com/ktms-2023-two-strokes-big-changes/",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Some testers had pinging on TBI two-strokes using regular premix oil without 50/50 race gas (Dirt Bike Test 2025 EX300)."
+  },
+  {
+   "id": "ko2-058",
+   "domain": "power_feel",
+   "topic": "TBI XC-W oil consumption",
+   "applies_to": {
+    "models": [
+     "300 XC-W"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Testers measured 100-150 mL of oil per two gallons of fuel on the TBI 300 XC-W, which works out to about 50:1 to 76:1 on average.",
+   "values": {
+    "oil_per_2gal": "100-150 mL",
+    "effective_ratio": "about 50:1-76:1"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2024 KTM 300 XC-W",
+    "url": "https://dirtbiketest.com/bike-tests/2024-ktm-300-xc-w",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "2 US gal = 7,571 mL; 7,571/150 = 50.5:1; 7,571/100 = 75.7:1."
+  },
+  {
+   "id": "ko2-059",
+   "domain": "engine_mods",
+   "topic": "TPI power valve adjustment",
+   "applies_to": {
+    "models": [
+     "250 XC-W",
+     "300 XC-W",
+     "250 XC",
+     "300 XC",
+     "Husqvarna TE 250",
+     "Husqvarna TE 300",
+     "Husqvarna TX 300",
+     "GasGas EC 250",
+     "GasGas EC 300",
+     "GasGas EX 250",
+     "GasGas EX 300"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "TPI 250/300 bikes keep the mechanical power valve with a preload adjuster; KTM's stock setting is the yellow marks lined up and the manual advises against changing it or the springs. Green springs open more slowly for softer power, yellow is stock, red opens faster for a harder hit.",
+   "values": {
+    "stock": "yellow marks aligned, yellow spring"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21 - First look: S3Parts KTM TPI exhaust valve adjustor",
+    "url": "https://enduro21.com/en/products-reviews/latest/first-look-s3parts-ktm-tpi-exhaust-valve-adjustor",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "OEM position as reported by Enduro21. Tuners say adjusting TPI is no different from earlier years, but fuelling cannot be re-jetted to match, so big changes can run lean."
+  },
+  {
+   "id": "ko2-060",
+   "domain": "engine_mods",
+   "topic": "aftermarket PV springs and dials (TPI)",
+   "applies_to": {
+    "models": [
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W",
+     "GasGas EC 250",
+     "GasGas EC 300",
+     "GasGas EX 250",
+     "GasGas EX 300",
+     "Husqvarna TE 150",
+     "Husqvarna TE 250",
+     "Husqvarna TE 300"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "Tuner spring kits for TPI power valves offer green (mild, linear), yellow (stock 250/300), red (hard hit) and a progressive steel spring that starts like red then mellows like yellow; a quick-turn adjuster knob is also sold for trail changes.",
+   "values": {
+    "kit_price": "$10.95-24.90"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Slavens Racing - Power valve tuning kit",
+    "url": "https://slavensracing.com/shop/power-valve-tuning-kit/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "No spring rates or opening rpm published."
+  },
+  {
+   "id": "ko2-061",
+   "domain": "engine_mods",
+   "topic": "PV tweak changes fuelling needs",
+   "applies_to": {
+    "models": [
+     "300 XC-W"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Testers note that changing the power valve on the TPI 300 may need fuel changes as on carb bikes; they used an inline fuel tuner, both against KTM advice.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2020 KTM 300XC-W",
+    "url": "https://dirtbiketest.com/bike-tests/2020-ktm-300xc-w/",
+    "date": "2020"
+   },
+   "confidence": "low",
+   "notes": ""
+  },
+  {
+   "id": "ko2-062",
+   "domain": "ecu_electronics",
+   "topic": "TBI electronic power valve - no adjuster",
+   "applies_to": {
+    "models": [
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W",
+     "Husqvarna TE 150",
+     "Husqvarna TE 250",
+     "Husqvarna TE 300",
+     "GasGas EC 250",
+     "GasGas EC 300",
+     "125 XC",
+     "250 XC",
+     "300 XC",
+     "GasGas EX 250",
+     "GasGas EX 300"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "TBI bikes replace the centrifugal power valve with an ECU-driven motor set by rpm and throttle position, so there is no rider adjuster; testers find the stock tune conservative and owners report resetting (re-teaching) the valve about every 25-30 hours.",
+   "values": {
+    "owner_reset_interval": "25-30 h"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum - 2025 TBI 300sx nothing but issues",
+    "url": "https://www.vitalmx.com/comment/8973221",
+    "date": "2026-05"
+   },
+   "confidence": "low",
+   "notes": "Reset interval is one owner's advice on an SX thread; KTM requires re-teach after cylinder removal (two_stroke_porting 2t-014)."
+  },
+  {
+   "id": "ko2-063",
+   "domain": "chassis",
+   "topic": "XC vs XC-W differences (TBI)",
+   "applies_to": {
+    "models": [
+     "300 XC",
+     "300 XC-W"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The XC uses the SX-style frame with a linkage XACT shock, premix, 14/49 gearing and 354 mm clearance, while the XC-W uses PDS (no linkage), oil injection, a headlight, 13/45 gearing and 374 mm clearance; both use 18-inch rear wheels and a 48 mm XACT coil fork from 2024.",
+   "values": {
+    "XC_clearance": "354 mm",
+    "XCW_clearance": "374 mm",
+    "XC_gearing": "14/49",
+    "XCW_gearing": "13/45",
+    "XC_weight_no_fuel_2023": "100.1 kg",
+    "XCW_weight_no_fuel": "104.6 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - New 2024 KTM XC-W two-stroke off-road model specs",
+    "url": "https://cyclenews.com/2023/05/article/new-2024-ktm-xc-w-two-stroke-off-road-model-specs",
+    "date": "2023-05"
+   },
+   "confidence": "high",
+   "notes": "XC figures from Dirt Bike 2023 two-strokes (KTM spec); XC-W from Cycle News 2024 spec."
+  },
+  {
+   "id": "ko2-064",
+   "domain": "chassis",
+   "topic": "XC vs SX",
+   "applies_to": {
+    "models": [
+     "125 XC",
+     "250 XC",
+     "300 XC"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The XC is an SX with an 18-inch rear wheel (110/100-18 AT81), 8.5 L tank vs 7.2 L, six speeds on the 250/300 (SX five), kickstand, handguards, skid plate, softer suspension and cross-country mapping; it weighs about 0.7 kg more.",
+   "values": {
+    "tank": "8.5 L vs 7.2 L",
+    "rear_rim": "2.15 x 18 vs 2.15 x 19",
+    "weight_300": "100.1 vs 99.4 kg",
+    "weight_125": "93.1 vs 92.4 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - KTM's 2023 two-strokes: big changes",
+    "url": "https://dirtbikemagazine.com/ktms-2023-two-strokes-big-changes/",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ko2-065",
+   "domain": "chassis",
+   "topic": "125 XC carb vs 125 SX",
+   "applies_to": {
+    "models": [
+     "125 XC"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "The carbureted 125 XC adds a 2.4-gal translucent tank (SX 1.98), 18-inch rear wheel, pegs 6 mm higher, off-road XACT valving, handguards and electric start with kickstart backup.",
+   "values": {
+    "tank": "2.4 gal",
+    "pegs": "+6 mm",
+    "msrp_2021": "$7,599"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2021 KTM 125XC race test review",
+    "url": "https://dirtbiketest.com/fresh-dirt/2021-ktm-125xc-race-test-review/",
+    "date": "2020-10"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ko2-066",
+   "domain": "chassis",
+   "topic": "TBI XC-W frame feel",
+   "applies_to": {
+    "models": [
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2024 frame is laterally stiffer and racier; at low speed both ends feel unsettled and deflect more over rocks than the old bike, while at speed it is more planted and stable.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - 2024 KTM 300XC-W long-term review (The Weekly Feed)",
+    "url": "https://dirtbikemagazine.com/2024-ktm-300xc-w-long-term-review-the-weekly-feed/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Forged clamps add flex and reduce feedback to the hands (Dirt Bike Test)."
+  },
+  {
+   "id": "ko2-067",
+   "domain": "chassis",
+   "topic": "GasGas EC vs KTM XC-W",
+   "applies_to": {
+    "models": [
+     "GasGas EC 250",
+     "GasGas EC 300"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2024 EC shares the XC-W frame, swingarm and engine but uses an open-cartridge WP XPLOR fork and a linkage XACT shock (KTM: closed-cartridge XACT fork, PDS), Braktec brakes and clutch, forged clamps, Excel rims and Neken bars; it sits 0.8 in lower and weighs 237.2 lb without fuel.",
+   "values": {
+    "weight_no_fuel": "237.2 lb",
+    "msrp": "$10,699",
+    "clearance_diff": "-0.8 in"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2024 GasGas EC 300 Review",
+    "url": "https://www.cyclenews.com/2023/08/article/2024-gasgas-ec-300-review/",
+    "date": "2023-08"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ko2-068",
+   "domain": "chassis",
+   "topic": "GasGas EX vs KTM XC",
+   "applies_to": {
+    "models": [
+     "GasGas EX 250",
+     "GasGas EX 300"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The EX matches the XC's engine and chassis but uses Braktec brakes and clutch, forged clamps without multiple bar positions, and has no map switch, handguards or skid plate; its larger airbox cover is tied to the radiator shroud and is harder to remove.",
+   "values": {
+    "msrp_EX300_2024": "$10,599 (about $700 under 300 XC)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2025 GasGas EX300",
+    "url": "https://dirtbiketest.com/bike-tests/2025-gasgas-ex300/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ko2-069",
+   "domain": "chassis",
+   "topic": "Husqvarna TE vs KTM XC-W",
+   "applies_to": {
+    "models": [
+     "Husqvarna TE 150",
+     "Husqvarna TE 250",
+     "Husqvarna TE 300"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Unlike the KTM XC-W's linkless PDS, the TBI Husqvarna TE uses a linkage XACT shock with an XACT closed-cartridge fork, a hybrid composite subframe and Braktec brakes and clutch; the kickstart mount is deleted.",
+   "values": {
+    "TE150_weight_no_fuel": "100.2 kg",
+    "TE250_weight_no_fuel": "107 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "MotoOnline - Tested: 2024 Husqvarna TE range",
+    "url": "https://www.motoonline.com/au/tested-2024-husqvarna-te-range/",
+    "date": "2023-06"
+   },
+   "confidence": "medium",
+   "notes": "TPI TE also used linkage (Dirt Bike TE300i Wrap 2019). Airbox differences for 2024 not found."
+  },
+  {
+   "id": "ko2-070",
+   "domain": "suspension",
+   "topic": "XACT coil fork vs old XPLOR",
+   "applies_to": {
+    "models": [
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2024 XC-W XACT closed-cartridge fork is symmetrical (both legs damp), with compression and rebound clickers on each leg and a hydro stop in the last 2.5 in; it is plush to mid-stroke and more stable under braking with less stiction, but about 10 mm shorter than the air fork so the front can sit low.",
+   "values": {
+    "fork_length": "940 mm (old XPLOR 928 mm)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - 2024 KTM 300XC-W 2-Stroke",
+    "url": "https://dirtbikemagazine.com/2024-ktm-300xc-w-2-stroke/",
+    "date": "2023-07"
+   },
+   "confidence": "high",
+   "notes": "Fork length comparison from Dirt Bike Test."
+  },
+  {
+   "id": "ko2-071",
+   "domain": "suspension",
+   "topic": "PDS shock straight-rate spring",
+   "applies_to": {
+    "models": [
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2024 PDS shock uses a straight-rate spring (earlier PDS used progressive), with hand clickers including the bottom rebound adjuster; it rides higher and stiffer than before.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - 2024 KTM 300XC-W 2-Stroke",
+    "url": "https://dirtbikemagazine.com/2024-ktm-300xc-w-2-stroke/",
+    "date": "2023-07"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ko2-072",
+   "domain": "suspension",
+   "topic": "GasGas EC XPLOR fork weakness",
+   "applies_to": {
+    "models": [
+     "GasGas EC 300",
+     "GasGas EC 250"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The EC's open-cartridge XPLOR fork was less consistent and plush over small bumps than the KTM's XACT, and bottomed often when pushed; fine for casual riding.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2024 GasGas EC 300 Review",
+    "url": "https://www.cyclenews.com/2023/08/article/2024-gasgas-ec-300-review/",
+    "date": "2023-08"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ko2-073",
+   "domain": "suspension",
+   "topic": "TPI XC-W stock suspension",
+   "applies_to": {
+    "models": [
+     "250 XC-W",
+     "300 XC-W"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "The XPLOR open-cartridge fork (compression left, rebound right, 30 clicks each) and progressive-spring PDS shock are plush at low speed but dive under braking, wallow and bottom; they are sprung for about 170-180 lb riders.",
+   "values": {
+    "fork_clicks": "30 comp / 30 reb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - KTM 300XC-W TPI 2-stroke full test",
+    "url": "https://dirtbikemagazine.com/ktm-300xc-w-tpi-2-stroke-full-test",
+    "date": "2018-11"
+   },
+   "confidence": "medium",
+   "notes": "Pre-2020 test; 2020 refined fork valving to ride higher and a revised shock valving to reduce bottoming (Dirt Bike Test 2020)."
+  },
+  {
+   "id": "ko2-074",
+   "domain": "suspension",
+   "topic": "150 XC-W TPI soft suspension",
+   "applies_to": {
+    "models": [
+     "150 XC-W"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "The 150 XC-W TPI suspension is set soft for 140-160 lb trail riders; riders over 150 lb who ride fast need stiffer springs at both ends.",
+   "values": {
+    "target_rider": "140-160 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - KTM 150XC-W TPI 2-stroke full test",
+    "url": "https://dirtbikemagazine.com/ktm-150xc-w-tpi-2-stroke-full-test",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ko2-075",
+   "domain": "suspension",
+   "topic": "TPI XC air fork compliance",
+   "applies_to": {
+    "models": [
+     "300 XC",
+     "250 XC"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "The TPI XC used the SX-spec XACT AER air fork with off-road settings; testers preferred a spring fork's softer initial stroke for hidden rocks.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2021 KTM 300 XC TPI Review",
+    "url": "https://cyclenews.com/2021/02/article/2021-ktm-300-xc-tpi-review",
+    "date": "2021-02"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ko2-076",
+   "domain": "setups",
+   "topic": "tester setup - 2024 300 XC-W",
+   "applies_to": {
+    "models": [
+     "300 XC-W"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "One tester ran shock low-speed compression 2, high-speed 1.25, rebound 20 and fork compression 10, rebound 19, with about 110 mm sag to lift a low-feeling front; riders under 170 lb needed few changes, over 200 lb need heavier springs.",
+   "values": {
+    "shock_LSC": "2",
+    "shock_HSC": "1.25",
+    "shock_reb": "20",
+    "fork_comp": "10",
+    "fork_reb": "19",
+    "sag": "about 110 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2024 KTM 300 XC-W",
+    "url": "https://dirtbiketest.com/bike-tests/2024-ktm-300-xc-w",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Clicker counting direction not stated (assume out from full stiff)."
+  },
+  {
+   "id": "ko2-077",
+   "domain": "setups",
+   "topic": "tester setup - 2025 GasGas EX 300",
+   "applies_to": {
+    "models": [
+     "GasGas EX 300"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Testers shortened the shock 1-3 mm internally to cut sag from 107-108 mm to 100-105 mm and set the fork flush or slightly below in the clamps; dropping it below the second line cost front grip.",
+   "values": {
+    "sag_before": "107-108 mm",
+    "sag_after": "100-105 mm",
+    "shock_shortened": "1-3 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2025 GasGas EX300",
+    "url": "https://dirtbiketest.com/bike-tests/2025-gasgas-ex300/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Coil XACT fork is 10 mm shorter than the air fork."
+  },
+  {
+   "id": "ko2-078",
+   "domain": "setups",
+   "topic": "gearing - GasGas EX 300",
+   "applies_to": {
+    "models": [
+     "GasGas EX 300"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Stock EX 300 gearing is 14/48; testers used 14/49 for faster terrain and 14/50 to 14/52 for most other riding.",
+   "values": {
+    "stock": "14/48",
+    "fast": "14/49",
+    "general": "14/50-14/52"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2025 GasGas EX300",
+    "url": "https://dirtbiketest.com/bike-tests/2025-gasgas-ex300/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ko2-079",
+   "domain": "setups",
+   "topic": "gearing - TBI 300 XC-W",
+   "applies_to": {
+    "models": [
+     "300 XC-W"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "A 48-tooth rear sprocket (stock 13/45) tightened the ratio gaps but made first and second very low.",
+   "values": {
+    "stock": "13/45",
+    "tested": "13/48"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - 2024 KTM 300XC-W long-term review (The Weekly Feed)",
+    "url": "https://dirtbikemagazine.com/2024-ktm-300xc-w-long-term-review-the-weekly-feed/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ko2-080",
+   "domain": "setups",
+   "topic": "gearing - TPI 300 XC-W",
+   "applies_to": {
+    "models": [
+     "300 XC-W"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "Stock TPI 300 XC-W gearing is 13/50; first is rarely used, second and third are the trail gears and sixth is overdrive.",
+   "values": {
+    "stock": "13/50"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - KTM 300XC-W TPI 2-stroke full test",
+    "url": "https://dirtbikemagazine.com/ktm-300xc-w-tpi-2-stroke-full-test",
+    "date": "2018-11"
+   },
+   "confidence": "medium",
+   "notes": "2024 TBI changed to 13/45 (KTM spec)."
+  },
+  {
+   "id": "ko2-081",
+   "domain": "setups",
+   "topic": "TPI suspension rework baseline",
+   "applies_to": {
+    "models": [
+     "300 XC-W"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "A suspension tuner recommends about 115 mm rear sag on the reworked PDS 300 XC-W; testers ran 108-110 mm for better cornering, with a quarter turn of high-speed compression added to stop blow-through on logs.",
+   "values": {
+    "sag_recommended": "115 mm",
+    "sag_used": "108-110 mm",
+    "spring_example": "60/63/66 N/mm progressive"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - KTM 300XC-W TPI suspension mods",
+    "url": "https://dirtbikemagazine.com/?p=37972",
+    "date": "2019"
+   },
+   "confidence": "low",
+   "notes": "Tuner advises mild progression like OEM, not extreme progressive springs. Bike year not stated (about 2019)."
+  },
+  {
+   "id": "ko2-082",
+   "domain": "setups",
+   "topic": "hard enduro TPI kit (head, map, flywheel)",
+   "applies_to": {
+    "models": [
+     "300 XC-W",
+     "Husqvarna TE 300"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "A hard-enduro kit used by top teams pairs a two-piece high-compression head, a reflashed ECU (map 1 full power, map 2 less advance and more fuel) and a 150 g flywheel weight; testers found smoother part throttle, fewer stalls on climbs and no lean over-run.",
+   "values": {
+    "flywheel_weight": "150 g",
+    "kit_price": "about 500"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21 - Tested: Two Stroke Performance power kits for the TPI",
+    "url": "https://enduro21.com/en/products-reviews/latest/tested-two-stroke-performance-power-kits-for-the-tpi",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "No dyno figures given. Head comes in low/medium/high/very-high compression."
+  },
+  {
+   "id": "ko2-083",
+   "domain": "setups",
+   "topic": "altitude TPI build",
+   "applies_to": {
+    "models": [
+     "300 XC-W"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "A high-altitude owner (6,300-12,000 ft) ran a high-compression head with the mountain insert plus ECU remap to fix lean running, and noted about 20% less effective compression at 6,300 ft than at sea level.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - Project bike shootout KTM 300 TPI vs KTM 300 TBI",
+    "url": "https://dirtbikemagazine.com/project-bike-shootout-ktm-300tpi-vs-ktm-300tbi/",
+    "date": "2023"
+   },
+   "confidence": "low",
+   "notes": "Compression loss figure is the owner's statement."
+  },
+  {
+   "id": "ko2-084",
+   "domain": "setups",
+   "topic": "125 XC race setup",
+   "applies_to": {
+    "models": [
+     "125 XC"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "For a GNCC race the 125 XC was raced with only sag set; levers, bars and clickers stayed stock.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2021 KTM 125XC race test review",
+    "url": "https://dirtbiketest.com/fresh-dirt/2021-ktm-125xc-race-test-review/",
+    "date": "2020-10"
+   },
+   "confidence": "low",
+   "notes": ""
+  },
+  {
+   "id": "ko2-085",
+   "domain": "setups",
+   "topic": "TBI XC hare-scramble mods",
+   "applies_to": {
+    "models": [
+     "300 XC"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "A long-term TBI 300 XC owner added an auto-clutch and slower-turning throttle cam for control, ordered flywheel weights, and found the stiff stock chassis and settings harsh on rocky Colorado trails.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - Project bike shootout KTM 300 TPI vs KTM 300 TBI",
+    "url": "https://dirtbikemagazine.com/project-bike-shootout-ktm-300tpi-vs-ktm-300tbi/",
+    "date": "2023"
+   },
+   "confidence": "low",
+   "notes": ""
+  },
+  {
+   "id": "ko2-086",
+   "domain": "engine_mods",
+   "topic": "TPI hop-up parts effects",
+   "applies_to": {
+    "models": [
+     "300 XC-W"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "On a TPI 300 XC-W a billet head with tighter squish gave immediate low-end gain and stronger mid and peak while running cooler; an aftermarket pipe gave a better roll-on with mid and peak close to stock; a throttle-body wing smoothed roll-on to midrange.",
+   "values": {
+    "head_price": "$325",
+    "pipe_price": "$209.99",
+    "wing_price": "$125"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - KTM 300 XC-W TPI hop-up parts test",
+    "url": "https://dirtbikemagazine.com/?p=51252",
+    "date": "2019-09"
+   },
+   "confidence": "low",
+   "notes": "Seat-of-pants only; no dyno."
+  },
+  {
+   "id": "ko2-087",
+   "domain": "engine_mods",
+   "topic": "TBI 300 pipe on TE",
+   "applies_to": {
+    "models": [
+     "Husqvarna TE 300"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Fitting an aftermarket pipe and silencer made the TBI TE 300 crisper with more bottom-end feel.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "MotoOnline - Tested: 2024 Husqvarna TE range",
+    "url": "https://www.motoonline.com/au/tested-2024-husqvarna-te-range/",
+    "date": "2023-06"
+   },
+   "confidence": "low",
+   "notes": "Launch impression only."
+  },
+  {
+   "id": "ko2-088",
+   "domain": "engine_mods",
+   "topic": "Factory Edition silencer",
+   "applies_to": {
+    "models": [
+     "300 XC-W"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The 300 XC-W Factory Edition comes with a titanium silencer and a header shaped for more ground clearance.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM USA - 2025 KTM 300 XC-W Factory Edition",
+    "url": "https://www.ktm.com/en-us/models/enduro/2-stroke/2025-ktm-300-xc-wfactoryedition.html",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "No published power change."
+  },
+  {
+   "id": "ko2-089",
+   "domain": "known_issues",
+   "topic": "TBI XC-W overheating",
+   "applies_to": {
+    "models": [
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W",
+     "Husqvarna TE 150",
+     "Husqvarna TE 250",
+     "Husqvarna TE 300",
+     "GasGas EC 250",
+     "GasGas EC 300"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The TBI 300 XC-W runs hot and overheated often within minutes of slow technical riding, which the TPI bike never did without a fan; the thermostat was suspected but not confirmed. KTM fits a fan as standard on the Hardenduro and Factory/2026 300 models.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - 2024 KTM 300XC-W long-term review (The Weekly Feed)",
+    "url": "https://dirtbikemagazine.com/2024-ktm-300xc-w-long-term-review-the-weekly-feed/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Fan standard: 2024/2026 Hardenduro, 2025 Factory Edition fan skid plate, 2026 300 EXC."
+  },
+  {
+   "id": "ko2-090",
+   "domain": "known_issues",
+   "topic": "radiator cap hard to remove",
+   "applies_to": {
+    "models": [
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W",
+     "Husqvarna TE 150",
+     "Husqvarna TE 250",
+     "Husqvarna TE 300",
+     "GasGas EC 250",
+     "GasGas EC 300",
+     "125 XC",
+     "250 XC",
+     "300 XC",
+     "GasGas EX 250",
+     "GasGas EX 300"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "The 2024-2025 plastic radiator cap is very hard to remove by hand; 2026 models got a cap with a standard thread.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21 - First look 2026 KTM enduro models",
+    "url": "https://enduro21.com/en/bikes/latest/first-look-2026-ktm-enduro-models-redefined-range-sees-more-competition-only-models-new-forks-and-fans",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Problem reported by Dirt Bike long-term and Dirt Bike Test 2024."
+  },
+  {
+   "id": "ko2-091",
+   "domain": "known_issues",
+   "topic": "fuel pickup high in tank",
+   "applies_to": {
+    "models": [
+     "300 XC-W",
+     "GasGas EX 300"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "The fuel pump sits high in the tank, so on smooth roads fuel can slosh away and the bike runs out with fuel still in the tank.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2024 KTM 300 XC-W",
+    "url": "https://dirtbiketest.com/bike-tests/2024-ktm-300-xc-w",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Reported on both 2024 300 XC-W and 2025 EX300 tests."
+  },
+  {
+   "id": "ko2-092",
+   "domain": "known_issues",
+   "topic": "oil light and running out of oil",
+   "applies_to": {
+    "models": [
+     "300 XC-W"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "On one test TBI 300 XC-W the oil-level light worked intermittently and the bike ran out of oil, needing a new piston and rings; the oil tank level is hard to see.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2024 KTM 300 XC-W",
+    "url": "https://dirtbiketest.com/bike-tests/2024-ktm-300-xc-w",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Single report; check oil level visually every ride."
+  },
+  {
+   "id": "ko2-093",
+   "domain": "known_issues",
+   "topic": "TPS recalibration",
+   "applies_to": {
+    "models": [
+     "GasGas EX 300",
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W",
+     "Husqvarna TE 150",
+     "Husqvarna TE 250",
+     "Husqvarna TE 300",
+     "GasGas EC 250",
+     "GasGas EC 300"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers needed to recalibrate the throttle position sensor on a TBI EX 300 even without other work and suggest checking it every 15-20 hours with the plug supplied with the bike.",
+   "values": {
+    "check_interval": "15-20 h"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2025 GasGas EX300",
+    "url": "https://dirtbiketest.com/bike-tests/2025-gasgas-ex300/",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": ""
+  },
+  {
+   "id": "ko2-094",
+   "domain": "known_issues",
+   "topic": "water in TPS connector",
+   "applies_to": {
+    "models": [
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W",
+     "Husqvarna TE 150",
+     "Husqvarna TE 250",
+     "Husqvarna TE 300",
+     "GasGas EC 250",
+     "GasGas EC 300",
+     "125 XC",
+     "250 XC",
+     "300 XC",
+     "GasGas EX 250",
+     "GasGas EX 300"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "One TBI 300 owner cured fouled plugs, bogging and cutting out in the air by sealing water out of the throttle position sensor connector with dielectric grease; owners advise not pressure-washing switches and connectors.",
+   "values": {},
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum - 2025 TBI 300sx nothing but issues",
+    "url": "https://www.vitalmx.com/comment/8973221",
+    "date": "2026-05"
+   },
+   "confidence": "low",
+   "notes": "Reported on a 300 SX that shares the TBI electronics; another owner estimated about 2 serious cases among 40-50 TBI owners known to him."
+  },
+  {
+   "id": "ko2-095",
+   "domain": "known_issues",
+   "topic": "fuel pump causing cut-out",
+   "applies_to": {
+    "models": [
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W",
+     "Husqvarna TE 150",
+     "Husqvarna TE 250",
+     "Husqvarna TE 300",
+     "GasGas EC 250",
+     "GasGas EC 300",
+     "125 XC",
+     "250 XC",
+     "300 XC",
+     "GasGas EX 250",
+     "GasGas EX 300"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "A TBI 250 that lost power and died about 15 minutes into a ride turned out to have a faulty fuel pump; clogged inline filters, the map switch getting wet and tank venting are other suspects owners check.",
+   "values": {},
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum - 2024 TC250 losing power and shutting off after 15 minutes",
+    "url": "https://www.vitalmx.com/comment/6574481",
+    "date": "2024-05"
+   },
+   "confidence": "low",
+   "notes": "Single owner report on a TC 250 sharing the TBI fuel system."
+  },
+  {
+   "id": "ko2-096",
+   "domain": "known_issues",
+   "topic": "crankcase pressure sensor tube clog",
+   "applies_to": {
+    "models": [
+     "300 XC-W",
+     "250 XC-W",
+     "Husqvarna TE 150",
+     "Husqvarna TE 250",
+     "Husqvarna TE 300",
+     "GasGas EC 250",
+     "GasGas EC 300"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "On TPI bikes a sudden plug-fouling, won't-clear running problem can come from carbon blocking the crankcase pressure sensor's black tube; cleaning tube and sensor with contact cleaner and air is suggested as periodic maintenance.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - TPI crankcase pressure sensor issues (Mr. Know-It-All)",
+    "url": "https://dirtbikemagazine.com/tpi-crankcase-pressure-sensor-issues-mr-know-it-all/",
+    "date": "2023-06"
+   },
+   "confidence": "low",
+   "notes": "Columnist's best guess on a 2023 300 XC-W with about 120 hours; not a confirmed diagnosis."
+  },
+  {
+   "id": "ko2-097",
+   "domain": "known_issues",
+   "topic": "TPI cold seizure and running hot",
+   "applies_to": {
+    "models": [
+     "250 XC-W",
+     "300 XC-W"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "The most common TPI seizure comes from riding hard before the engine reaches 175-185 F; the lean stock map also runs hot, and slow first/second-gear climbs can overheat it, so tuners fit a fan set to about 188 F.",
+   "values": {
+    "operating_temp": "175-185 F",
+    "fan_on": "188 F"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - What you should know about fuel-injected 2-strokes (Mr. Know-It-All)",
+    "url": "https://dirtbikemagazine.com/what-you-should-know-about-fuel-injected-2-strokes-mr-know-it-all/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ko2-098",
+   "domain": "known_issues",
+   "topic": "150 TPI cleanout after idling",
+   "applies_to": {
+    "models": [
+     "150 XC-W"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "The 150 XC-W TPI needed cleaning out like a carb bike after idling more than a minute or two, until the ECU caught up.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - KTM 150XC-W TPI 2-stroke full test",
+    "url": "https://dirtbikemagazine.com/ktm-150xc-w-tpi-2-stroke-full-test",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": "Also notes no spark arrestor stock and a vulnerable oil gauge."
+  },
+  {
+   "id": "ko2-099",
+   "domain": "known_issues",
+   "topic": "TPI low-rpm detonation",
+   "applies_to": {
+    "models": [
+     "300 XC",
+     "300 XC-W"
+    ],
+    "years": [
+     2020,
+     2021
+    ]
+   },
+   "statement": "Testers heard what sounded like detonation at low rpm and on trailing throttle on TPI 300s, worse on 87 octane; some mixed in race fuel.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2021 KTM 300 XC TPI Review",
+    "url": "https://cyclenews.com/2021/02/article/2021-ktm-300-xc-tpi-review",
+    "date": "2021-02"
+   },
+   "confidence": "medium",
+   "notes": "2020 XC-W head showed no damage after 15 h (Dirt Bike Test)."
+  },
+  {
+   "id": "ko2-100",
+   "domain": "known_issues",
+   "topic": "TPI fuel pump weak point",
+   "applies_to": {
+    "models": [
+     "Husqvarna TX 300"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "The in-tank fuel pump was called the TX 300i's weakest link, with occasional failures.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - Husqvarna TX300i full test",
+    "url": "https://dirtbikemagazine.com/husqvarna-tx300i-full-test/",
+    "date": "2020"
+   },
+   "confidence": "low",
+   "notes": ""
+  },
+  {
+   "id": "ko2-101",
+   "domain": "known_issues",
+   "topic": "small parts on TBI enduro",
+   "applies_to": {
+    "models": [
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W",
+     "GasGas EX 300"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers reported a push-button light switch that won't stay on, a rebound adjuster sticking after mud, a seat bolt that can fall out (safety-wire it), and Braktec brakes on GasGas that fade faster than Brembo, especially the rear.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2025 GasGas EX300",
+    "url": "https://dirtbiketest.com/bike-tests/2025-gasgas-ex300/",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": "Combined from Dirt Bike long-term (light switch), Dirt Bike Test 2024 (rebound adjuster) and Dirt Bike Test 2025 EX300."
+  },
+  {
+   "id": "ko2-102",
+   "domain": "engine_architecture",
+   "topic": "85 SX carburetor and jetting",
+   "applies_to": {
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "The 85 SX uses a 28 mm Keihin PWK carburetor; a tester baseline is 142 main, 48 pilot, NRKC needle in the 3rd clip and air screw 2 turns out, adjusted for climate.",
+   "values": {
+    "carb": "Keihin PWK 28 mm",
+    "main": "142",
+    "pilot": "48",
+    "needle": "NRKC clip 3",
+    "air_screw": "2 turns out"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2018 KTM 85SX",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2018-ktm-85sx",
+    "date": "2018-07"
+   },
+   "confidence": "medium",
+   "notes": "Tested on the 2018 model, which introduced the cylinder/power valve carried through 2024. 2025 has 'updated carburetor settings' not published."
+  },
+  {
+   "id": "ko2-103",
+   "domain": "engine_mods",
+   "topic": "85 SX power valve adjuster",
+   "applies_to": {
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "The 85 SX power valve is set with a dial on the right of the engine using a Robertson (square) wrench; testers changed it in 1/8-turn steps either side of stock and rode between changes.",
+   "values": {
+    "step": "1/8 turn"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2018 KTM 85SX",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2018-ktm-85sx",
+    "date": "2018-07"
+   },
+   "confidence": "medium",
+   "notes": "Direction-to-feel not stated in source."
+  },
+  {
+   "id": "ko2-104",
+   "domain": "power_feel",
+   "topic": "85 SX feel and peak",
+   "applies_to": {
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "The 85 SX has little bottom end but explodes into its midrange, with peak power about 21.5 hp.",
+   "values": {
+    "peak_hp": "about 21.5 hp"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2018 KTM 85SX",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2018-ktm-85sx",
+    "date": "2018-07"
+   },
+   "confidence": "medium",
+   "notes": "2018 model; dyno type not stated."
+  },
+  {
+   "id": "ko2-105",
+   "domain": "identity",
+   "topic": "2025 85 SX new generation",
+   "applies_to": {
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2025 85 SX got a new cylinder head (BRISK M10 plug) for more low-mid power, a Hidria digital CDI, new exhaust, 120 g lighter cases, coated shift drum, all-new chromoly frame, die-cast swingarm 300 g lighter, 20 mm rear axle and a new PDS XACT shock with travel cut from 305 to 289 mm.",
+   "values": {
+    "head_angle": "63.5 deg (0.5 deg flatter)",
+    "steering_head_shift": "6 mm rearward",
+    "steering_lock": "35 deg",
+    "swingarm": "2.8 kg (was 3.1)",
+    "rear_travel": "289 mm (was 305)",
+    "fork_travel": "278 mm",
+    "tank": "5.4 L"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM - 2025 KTM 85 SX media kit",
+    "url": "https://ktm.com/en-int/85-sx-media-kit.html",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Engine rotated 3 deg upward and swingarm 2.3 deg flatter (Enduro21/KTM)."
+  },
+  {
+   "id": "ko2-106",
+   "domain": "suspension",
+   "topic": "2025 85 SX fork pressure",
+   "applies_to": {
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 43 mm XACT AER air fork carries over for 2025 with standard pressure cut from 5.0 to 4.8 bar.",
+   "values": {
+    "std_pressure": "4.8 bar (was 5.0)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21 - First look 2025 KTM SX 85",
+    "url": "https://enduro21.com/en/bikes/latest/first-look-2025-ktm-sx-85-big-updates-for-the-orange-off-road-stepping-stone",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "4.8 bar = 69.6 psi; 5.0 bar = 72.5 psi."
+  },
+  {
+   "id": "ko2-107",
+   "domain": "setups",
+   "topic": "85 SX tester setup",
+   "applies_to": {
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "Tester race setup: fork 73 psi, compression and rebound 12 clicks out, stock height; shock 40 N/mm spring, 120 mm race sag, high-speed compression 2 turns out, low-speed 15 out, rebound 15 out. Bleed fork air before riding and use a zip-tie to aim for about 1 in from bottoming.",
+   "values": {
+    "fork_air": "73 psi",
+    "fork_comp": "12 out",
+    "fork_reb": "12 out",
+    "shock_spring": "40 N/mm",
+    "race_sag": "120 mm",
+    "HSC": "2 turns out",
+    "LSC": "15 out",
+    "reb": "15 out"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2018 KTM 85SX",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2018-ktm-85sx",
+    "date": "2018-07"
+   },
+   "confidence": "medium",
+   "notes": "2018 bike, same fork type through 2024; the air fork suited both lighter and heavier kids. Source printed spring as '40 N/m'."
+  },
+  {
+   "id": "ko2-108",
+   "domain": "setups",
+   "topic": "85 SX big wheel vs small wheel",
+   "applies_to": {
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 85 SX 17/14 seat is 845 mm and the 19/16 is 871 mm; a dealer guide pitches the small wheel for about 7-12-year-olds stepping up from a 65 and the big wheel for 9-15-year-olds, and says to pick the smaller bike if between sizes, aiming for the balls of both feet on the ground.",
+   "values": {
+    "seat_17_14": "845 mm (33.3 in)",
+    "seat_19_16": "871 mm (34.3 in)",
+    "age_17_14": "7-12",
+    "age_19_16": "9-15"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "dealer",
+    "name": "AOMC - KTM seat height chart",
+    "url": "https://aomc.mx/resources/ktm-seat-height-chart.html",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Dealer guide; inseam matters more than age. Seat heights from KTM current spec."
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "TBI off-road 300 peak power",
+   "values": {
+    "KTM claim 300 XC-W Hardenduro 2024": "49 hp / 43.8 Nm",
+    "GasGas claim EC 300 2024": "49 hp",
+    "Dirt Rider Dynojet 250i EX 300 2024": "50.1 hp / 33.1 lb-ft",
+    "Cycle News 2024 300 XC-W text": "57 hp (ambiguous, may be mixed with 450)"
+   },
+   "spread": "49-57 hp",
+   "note": "Claims are crank-ish OEM figures, dyno is rear wheel; Cycle News text likely mixed up."
+  },
+  {
+   "topic": "Husqvarna TE 300i TPI peak power",
+   "values": {
+    "Dirt Rider 2020 rear-wheel dyno": "43.8 hp @ 8,500 / 27.4 lb-ft @ 8,400",
+    "Dirt Rider 2022 in-house dyno": "40 hp @ 8,600 / 25.4 lb-ft @ 6,800"
+   },
+   "spread": "40.0-43.8 hp",
+   "note": "Same publication, different years; conditions not stated."
+  },
+  {
+   "topic": "TPI oil injection ratio",
+   "values": {
+    "Tuner via Dirt Bike": "about 150:1 idle, 30:1 high rpm",
+    "Dirt Bike Test 2020 estimate": "about 100:1 low, 40:1 high, 80:1 average"
+   },
+   "spread": "30-40:1 high, 100-150:1 low"
+  },
+  {
+   "topic": "Oil tank refill interval",
+   "values": {
+    "KTM engineers (2018)": "7 fuel tanks",
+    "KTM estimate (2020)": "5 tanks",
+    "Dirt Bike Test 2020": "6-7 tanks",
+    "Dirt Bike TPI test": "5-6 tanks",
+    "TX300i low-oil light": "about 4 tanks",
+    "Cycle News EC 300 TBI 2024": "about 4 tanks"
+   },
+   "spread": "4-7 tanks"
+  },
+  {
+   "topic": "2024 XC-W map switch fitment",
+   "values": {
+    "Cycle News": "two standard maps (switch not mentioned as optional)",
+    "Dirt Bike": "no switch included; buy one",
+    "Dirt Bike Test": "optional, about $150",
+    "KTM": "standard on Hardenduro and Factory Edition"
+   },
+   "spread": "standard vs optional",
+   "note": "ECU carries both maps on all; switch hardware is the question."
+  },
+  {
+   "topic": "2024 300 XC-W rear suspension description",
+   "values": {
+    "Cycle News spec table": "WP Xplor monoshock 'with linkage'",
+    "Cycle News text / Dirt Bike / KTM": "linkless PDS"
+   },
+   "spread": "linkage vs PDS",
+   "note": "PDS is correct per KTM; spec table error."
+  },
+  {
+   "topic": "150 XC-W bore x stroke",
+   "values": {
+    "KTM 2024 spec": "58 x 54.5 mm",
+    "Dirt Bike 150 TPI spec list": "54.5 x 58.0 mm"
+   },
+   "spread": "transposed",
+   "note": "Dirt Bike body text gives 58 mm bore."
+  },
+  {
+   "topic": "TBI XC-W fuel range vs TPI",
+   "values": {
+    "Dirt Bike Test 2024 TBI": "22-32 mpg",
+    "Dirt Bike Test 2020 TPI": "33-40 mpg"
+   },
+   "spread": "22-40 mpg",
+   "note": "Different testers/terrain; Dirt Bike long-term also says TPI had better range."
+  }
+ ],
+ "not_found": [
+  "Dyno numbers for the TBI 300 XC-W, 250 XC-W, 150 XC-W, Husqvarna TE 150/250/300 TBI, GasGas EC 250/300, 250 XC and 300 XC (2023-2026): searched Dirt Rider, Dirt Bike, MXA, Cycle News; only EX 250/300 and 125 XC found. Cycle News 'open-class two-stroke showdown' (2023 issue 18) page returned no article text.",
+  "Any recall or service bulletin for 2024-2026 TBI off-road two-strokes: searched NHTSA/Transport Canada results and forums; none found (off-road bikes generally outside NHTSA).",
+  "Electronic power valve opening rpm/position maps for the TBI XC-W/XC: not published by KTM or testers.",
+  "Hard-enduro tester setups for TBI XC-W/TE/EC with spring rates, clickers and flywheel weight grams: none found; only TPI-era kit (150 g flywheel) and generic Hardenduro edition equipment.",
+  "KTM 85 SX setups by child rider weight (fork psi / shock spring chart): searched; only parts-catalogue pages returned. 2025 85 SX carburetor settings and dyno: not published ('updated carburettor settings' only).",
+  "Husqvarna TX 300 TBI (2023+) road test: none found; only Vital MX listing that a 2023 TX 300 exists.",
+  "2024 Husqvarna TE 300 official spec page: fetch returned the 2027 lineup page without per-model data; TE airbox/subframe differences vs KTM for TBI generation not confirmed.",
+  "Ignition curve differences between XC and XC-W (TBI): KTM does not publish; testers only say cylinder, head and mapping differ.",
+  "125 XC TBI (2023-2026) ride impressions beyond the dyno figure: not found within search budget."
+ ],
+ "sources": [
+  {
+   "type": "magazine",
+   "name": "Cycle News - 2024 KTM 300 XC-W Review",
+   "url": "https://www.cyclenews.com/2023/06/article/2024-ktm-300-xc-w-review/",
+   "date": "2023-06"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike - KTM's 2023 two-strokes: big changes",
+   "url": "https://dirtbikemagazine.com/ktms-2023-two-strokes-big-changes/",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21 - First look 2022 KTM cross-country and motocross models",
+   "url": "https://enduro21.com/en/bikes/latest/first-look-2022-ktm-cross-country-and-motocross-models",
+   "date": "2021"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike - 2024 KTM two- and four-stroke cross-country models: all-new WP spring fork",
+   "url": "https://dirtbikemagazine.com/2024-ktm-two-four-stroke-cross-country-models-all-new-wp-spring-fork-revealed/",
+   "date": "2023-04"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider - 2025 KTM 300 XC buyer's guide",
+   "url": "https://dirtrider.com/ktm/300-xc",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News - New 2024 KTM XC-W two-stroke off-road model specs",
+   "url": "https://cyclenews.com/2023/05/article/new-2024-ktm-xc-w-two-stroke-off-road-model-specs",
+   "date": "2023-05"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM USA - 2025 KTM 300 XC-W Factory Edition",
+   "url": "https://www.ktm.com/en-us/models/enduro/2-stroke/2025-ktm-300-xc-wfactoryedition.html",
+   "date": "2024"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM - 2024 KTM 300 XC-W Hardenduro",
+   "url": "https://ktm.com/en-id/models/enduro/2-stroke/2024-ktm-300-xc-whardenduro.html",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21 - First look 2026 KTM enduro models",
+   "url": "https://enduro21.com/en/bikes/latest/first-look-2026-ktm-enduro-models-redefined-range-sees-more-competition-only-models-new-forks-and-fans",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike - KTM introduces 2026 300XC-W Hardenduro",
+   "url": "https://dirtbikemagazine.com/?p=100943",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike - 2024 GasGas EX300 off-road video test",
+   "url": "https://dirtbikemagazine.com/2024-gas-gas-ex300-off-road-video-test-some-riders-love-it/",
+   "date": "2024-03"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Test - 2025 GasGas EX300",
+   "url": "https://dirtbiketest.com/bike-tests/2025-gasgas-ex300/",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21 - First look 2025 Husqvarna Pro edition enduro models",
+   "url": "https://enduro21.com/en/bikes/latest/first-look-2025-husqvarna-pro-edition-enduro-models",
+   "date": "2024-09"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike - Husqvarna TX300i full test",
+   "url": "https://dirtbikemagazine.com/husqvarna-tx300i-full-test/",
+   "date": "2020"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike - KTM 300XC-W TPI 2-stroke full test",
+   "url": "https://dirtbikemagazine.com/ktm-300xc-w-tpi-2-stroke-full-test",
+   "date": "2018-11"
+  },
+  {
+   "type": "magazine",
+   "name": "Australasian Dirt Bike - Enduro test 2024 GasGas EC 300",
+   "url": "https://adbmag.com.au/editorial/enduro-test-2024-gasgas-ec-300/",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike - 2024 KTM 300XC-W long-term review (The Weekly Feed)",
+   "url": "https://dirtbikemagazine.com/2024-ktm-300xc-w-long-term-review-the-weekly-feed/",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike - KTM 150XC-W TPI 2-stroke full test",
+   "url": "https://dirtbikemagazine.com/ktm-150xc-w-tpi-2-stroke-full-test",
+   "date": "2019"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Test - 2024 KTM 300 XC-W",
+   "url": "https://dirtbiketest.com/bike-tests/2024-ktm-300-xc-w",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike - 2024 KTM 300XC-W 2-Stroke",
+   "url": "https://dirtbikemagazine.com/2024-ktm-300xc-w-2-stroke/",
+   "date": "2023-07"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News - 2024 GasGas EC 300 Review",
+   "url": "https://www.cyclenews.com/2023/08/article/2024-gasgas-ec-300-review/",
+   "date": "2023-08"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Test - 2020 KTM 300XC-W",
+   "url": "https://dirtbiketest.com/bike-tests/2020-ktm-300xc-w/",
+   "date": "2020"
+  },
+  {
+   "type": "tuner",
+   "name": "Slavens Racing - What performance gains can the TSP ERM deliver?",
+   "url": "https://slavensracing.com/what-performance-gains-can-the-tsp-erm-deliver",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike - KTM 300 XC-W TPI hop-up parts test",
+   "url": "https://dirtbikemagazine.com/?p=51252",
+   "date": "2019-09"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider - 2024 GasGas EX 300 dyno test",
+   "url": "https://dirtrider.com/tests/gasgas-ex-300-dyno-test-2024",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider - 2024 GasGas EX 250 dyno test",
+   "url": "https://dirtrider.com/tests/gasgas-ex-250-dyno-test-2024",
+   "date": "2024-08"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider - 2025 KTM 125 XC dyno test",
+   "url": "https://www.dirtrider.com/tests/ktm-125-xc-dyno-test-2025",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider - 2020 Husqvarna TE 300i dyno test",
+   "url": "https://dirtrider.com/story/tests/2020-husqvarna-te-300i-dyno-test",
+   "date": "2020"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider - 2022 Husqvarna TE 300i dyno test",
+   "url": "https://dirtrider.com/story/tests/2022-husqvarna-te-300i-dyno-test",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "MotoOnline - Tested: 2024 Husqvarna TE range",
+   "url": "https://www.motoonline.com/au/tested-2024-husqvarna-te-range/",
+   "date": "2023-06"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News - 2023 KTM 300 XC Review",
+   "url": "https://www.cyclenews.com/2022/11/article/2023-ktm-300-xc-review/",
+   "date": "2022-11"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike - Project bike shootout KTM 300 TPI vs KTM 300 TBI",
+   "url": "https://dirtbikemagazine.com/project-bike-shootout-ktm-300tpi-vs-ktm-300tbi/",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News - 2021 KTM 300 XC TPI Review",
+   "url": "https://cyclenews.com/2021/02/article/2021-ktm-300-xc-tpi-review",
+   "date": "2021-02"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Test - 2021 KTM 125XC race test review",
+   "url": "https://dirtbiketest.com/fresh-dirt/2021-ktm-125xc-race-test-review/",
+   "date": "2020-10"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike - Riding the Husqvarna TE300i (The Wrap)",
+   "url": "https://dirtbikemagazine.com/?p=41451",
+   "date": "2019-02"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike - What you should know about fuel-injected 2-strokes (Mr. Know-It-All)",
+   "url": "https://dirtbikemagazine.com/what-you-should-know-about-fuel-injected-2-strokes-mr-know-it-all/",
+   "date": "2019"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21 - First look: S3Parts KTM TPI exhaust valve adjustor",
+   "url": "https://enduro21.com/en/products-reviews/latest/first-look-s3parts-ktm-tpi-exhaust-valve-adjustor",
+   "date": "2021"
+  },
+  {
+   "type": "tuner",
+   "name": "Slavens Racing - Power valve tuning kit",
+   "url": "https://slavensracing.com/shop/power-valve-tuning-kit/",
+   "date": "2025"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum - 2025 TBI 300sx nothing but issues",
+   "url": "https://www.vitalmx.com/comment/8973221",
+   "date": "2026-05"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike - KTM 300XC-W TPI suspension mods",
+   "url": "https://dirtbikemagazine.com/?p=37972",
+   "date": "2019"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21 - Tested: Two Stroke Performance power kits for the TPI",
+   "url": "https://enduro21.com/en/products-reviews/latest/tested-two-stroke-performance-power-kits-for-the-tpi",
+   "date": "2021"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum - 2024 TC250 losing power and shutting off after 15 minutes",
+   "url": "https://www.vitalmx.com/comment/6574481",
+   "date": "2024-05"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike - TPI crankcase pressure sensor issues (Mr. Know-It-All)",
+   "url": "https://dirtbikemagazine.com/tpi-crankcase-pressure-sensor-issues-mr-know-it-all/",
+   "date": "2023-06"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Race test 2018 KTM 85SX",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2018-ktm-85sx",
+   "date": "2018-07"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM - 2025 KTM 85 SX media kit",
+   "url": "https://ktm.com/en-int/85-sx-media-kit.html",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21 - First look 2025 KTM SX 85",
+   "url": "https://enduro21.com/en/bikes/latest/first-look-2025-ktm-sx-85-big-updates-for-the-orange-off-road-stepping-stone",
+   "date": "2024"
+  },
+  {
+   "type": "dealer",
+   "name": "AOMC - KTM seat height chart",
+   "url": "https://aomc.mx/resources/ktm-seat-height-chart.html",
+   "date": "2025"
+  }
+ ]
+}

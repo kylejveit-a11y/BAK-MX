@@ -10,19 +10,23 @@ roster={(a,b,c) for a,b,c in json.load(open(os.path.join(root,'docs/research/aft
 DOMAINS={'identity','engine_architecture','power_feel','ecu_electronics','engine_mods','chassis','suspension','drivetrain','maintenance','known_issues','setups'}
 TIERS={'OEM','MEASURED','TUNER','DERIVED','COMMUNITY'};CONF={'high','medium','low'}
 # Rider-facing text never names testers, magazines or tuners (the source field keeps them for audit).
-MAG=r"MXA|Motocross Action|Dirt Rider|Dirt Bike(?: Magazine)?|Vital(?: MX)?|Racer X|Cycle News|Cycle World|ADB|Australasian Dirt Bike|Swapmoto|Ultimate Motorcycling|MotoOnline|Transworld Motocross|Moto Related|MX Large|Motorcycle\.com"
+MAG=r"MXA|Motocross Action|Dirt Rider|Dirt Bike(?: Magazine)?|Vital(?: MX)?|Racer X|Cycle News|Cycle World|ADB|Australasian Dirt Bike|Swapmoto|Ultimate Motorcycling|MotoOnline|Transworld Motocross|Moto Related|MX Large|Motorcycle\.com|Enduro21|MCNews|MCN|Bike Review|PulpMX|Transmoto|1000PS|Off-Road\.cc|Dirt Bike Test|BikeSocial|Motorcyclist"
 TUN=r"Pro Circuit|Race Tech|Twisted Development|Twisted|XPR|Slavens|Factory Connection|REP|Enzo|GYTR tuners?"
-PER=r"Keefer|Stevie|Jeff Emig|Ricky Carmichael|Travis Preston"
+PER=r"Keefer|Stevie|Jeff Emig|Travis Preston"
+# Official manufacturer collaborations are product facts, not tester attributions (Triumph's RC Edition and Carmichael map).
+KEEP=re.compile(r"Carmichael",re.I)
 def anon(t,src=None):
     t=str(t)
     # Whatever name the row's own source carries is hidden too (shops and channels not in the lists above).
     for n in [x.strip() for x in re.split(r'[;/,()]| and | - | by | for | via ',str((src or {}).get('name','')))]:
-        if len(n)>=4 and n.lower() not in ('owner','owners','forum','yamaha','ktm','honda','kawasaki','husqvarna','gasgas','triumph'):
+        if str((src or {}).get('type','')) in ('calculation','manufacturer'):break  # our own working and OEM names are not testers
+        if len(n)>=4 and n[:1].isupper() and not KEEP.search(n) and n.lower() not in ('owner','owners','forum','yamaha','ktm','honda','kawasaki','husqvarna','gasgas','triumph'):
             word={'magazine':'a magazine','tuner':'a tuner','race team':'a race team','forum':'owners','dealer':'a dealer'}.get(str((src or {}).get('type','')),'a tester')
             t=re.sub(r"\b"+re.escape(n)+r"(?:'s)?\b",word,t)
     for pat,word in ((MAG,'a magazine'),(TUN,'a tuner'),(PER,'a tester')):
         t=re.sub(r"\b(?:the )?(?:"+pat+r")(?:'s)?\b",word,t)
     t=re.sub(r"\b(a|an) a (magazine|tuner|tester)\b",r"a \2",t)
+    t=re.sub(r"\b([Aa]) (magazine|tuner|tester)((?: dyno| test)?) (?:a|A) \2\b",r"\1 \2\3",t)
     t=re.sub(r"\ba (magazine|tuner)( and a \1)+\b",r"\1s",t)
     t=re.sub(r"\b[Aa] magazine (testers|editors|riders)\b",r"magazine \1",t)
     t=re.sub(r"\bfrom a tuner\)",'from a tuner)',t)

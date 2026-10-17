@@ -1,0 +1,3078 @@
+{
+ "slice": "Yamaha YZ450F 2018-2022 generation; YZ450FX 2019-2026; WR250F and WR450F 2020-2026 (off-road differences, US restrictions, uncorking)",
+ "platform": {
+  "make": "Yamaha",
+  "models": [
+   "YZ450F",
+   "YZ450FX",
+   "WR250F",
+   "WR450F"
+  ],
+  "years": [
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ]
+ },
+ "records": [
+  {
+   "id": "ywr-001",
+   "domain": "identity",
+   "topic": "platform generation",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2018,
+     2019,
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "The 2018-2022 YZ450F is the first electric-start, Wi-Fi-tunable generation of Yamaha's reversed-head 450: all-new for 2018, minor updates for 2019, a new cylinder head, brakes and frame details for 2020, then mostly carried over for 2021 and 2022 before the 2023 redesign.",
+   "values": {
+    "generation_years": "2018-2022",
+    "major_updates": "2018 (new), 2020 (head, piston, rod, brakes, frame)",
+    "carryover_years": "2019 (minor), 2021, 2022 (rear hub)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2021 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2021-yamaha-yz450f",
+    "date": "2020-12"
+   },
+   "confidence": "high",
+   "notes": "Assembled from Yamaha change lists as reported in the 2018 and 2021 race tests and Dirt Rider/Racer X model-year coverage."
+  },
+  {
+   "id": "ywr-002",
+   "domain": "identity",
+   "topic": "2018 model year changes (engine and bodywork)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2018
+    ]
+   },
+   "statement": "For 2018 Yamaha added electric start, a longer head pipe with lower head stays, a 29% larger airbox with one fastener, narrower radiator wings (about 1 in), and a smaller tank (1.9 to 1.6 gal).",
+   "values": {
+    "airbox_volume": "+29% vs 2017",
+    "fuel_tank": "1.6 gal (2017: 1.9 gal)",
+    "shrouds": "about 1 in narrower",
+    "start": "electric"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2018 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2018-yamaha-yz450f1",
+    "date": "2017"
+   },
+   "confidence": "high",
+   "notes": "Cylinder angle change reported as 'tilted forward 2 degrees' in this source; see conflicts."
+  },
+  {
+   "id": "ywr-003",
+   "domain": "identity",
+   "topic": "2018 model year changes (chassis)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2018
+    ]
+   },
+   "statement": "The 2018 chassis sits lower and flatter: rear lowered 19 mm, trail up from 118 to 121 mm, swingarm pivot forging 10 mm wider, seat 8 mm lower in the middle and 19 mm lower at the rear, 22 mm offset clamps standard.",
+   "values": {
+    "rear_ride_height": "-19 mm",
+    "trail": "121 mm (2017: 118 mm)",
+    "swingarm_pivot_forging": "+10 mm wider",
+    "seat_height": "-8 mm middle, -19 mm rear",
+    "clamp_offset": "22 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2018 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2018-yamaha-yz450f1",
+    "date": "2017"
+   },
+   "confidence": "high",
+   "notes": "Bars raised 5 mm on the 2018 mounts per the same source."
+  },
+  {
+   "id": "ywr-004",
+   "domain": "identity",
+   "topic": "2018 model year changes (clutch and suspension)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2018
+    ]
+   },
+   "statement": "For 2018 the clutch steel plates are ground on both sides and the pressure plate is stiffer; the fork damping cartridge grew from 24 to 25 mm and the shock spring went from 56 to 58 N/mm.",
+   "values": {
+    "fork_cartridge": "25 mm (2017: 24 mm)",
+    "shock_spring": "58 N/mm (2017: 56 N/mm)",
+    "clutch": "double-side ground steel plates, stiffer pressure plate"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2018 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2018-yamaha-yz450f1",
+    "date": "2017"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ywr-005",
+   "domain": "ecu_electronics",
+   "topic": "2018 Wi-Fi tuning debut",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2018
+    ]
+   },
+   "statement": "2018 was the first YZ450F tuned by phone over Wi-Fi: 16-cell fuel and ignition grids (the old handheld tuner had 9), with fuel in 2% steps and ignition in 1-degree steps; the older handheld GYTR Power Tuner does not work on it.",
+   "values": {
+    "grid_cells": "16 (handheld: 9)",
+    "fuel_step": "2%",
+    "ignition_step": "1 degree",
+    "old_handheld_tuner": "not compatible"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2018 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2018-yamaha-yz450f1",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": "Step sizes as reported by the magazine; another record (ypt-011) quotes about 3% per fuel step for the first app. See conflicts."
+  },
+  {
+   "id": "ywr-006",
+   "domain": "identity",
+   "topic": "2019 model year changes",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2019
+    ]
+   },
+   "statement": "2019 was nearly a carryover: more contact area between the front wheel spacers and fork for front-end rigidity, slightly stiffer suspension, denser seat foam under the rider, and a 49-tooth rear sprocket instead of 48.",
+   "values": {
+    "rear_sprocket": "49T (2018: 48T)",
+    "seat_foam": "denser (+16% per later race test)",
+    "engine": "unchanged"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike, 2019 Yamaha YZ450F full test",
+    "url": "https://dirtbikemagazine.com/2019-yamaha-yz450f-full-test/",
+    "date": "2019"
+   },
+   "confidence": "high",
+   "notes": "Seat-foam percentage from the 2021 race test (mxa21)."
+  },
+  {
+   "id": "ywr-007",
+   "domain": "identity",
+   "topic": "2020 model year changes (engine)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "For 2020 the head is 10 mm shorter with a steeper valve angle, the cams sit 14 mm closer together and 6 mm lower, compression rises to 13.0:1 with a new piston, the rod is 1.5 mm longer, and the head pipe is 3.2 mm larger in diameter.",
+   "values": {
+    "head_height": "-10 mm",
+    "cam_spacing": "-14 mm, 6 mm lower",
+    "head_weight": "-0.67 lb",
+    "compression": "13.0:1 (2018-2019: 12.8:1)",
+    "conrod": "+1.5 mm longer",
+    "header_diameter": "+3.2 mm",
+    "throttle_body": "44 mm Mikuni"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike, 2020 Yamaha YZ450F full test",
+    "url": "https://dirtbikemagazine.com/2020-yamaha-yz450f-full-test",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "New air filter and rectifier/capacitor unit also listed. Compression of 12.8:1 for 2018-2019 from mxa18c and dbt21fx."
+  },
+  {
+   "id": "ywr-008",
+   "domain": "identity",
+   "topic": "2020 model year changes (chassis and brakes)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "2020 brought thinner inner frame-rail walls, revised engine mounts, a more flexible top clamp, bar mounts 5 mm lower (16.5 mm further forward than 2019), 10% stiffer seat foam, a front caliper piston up from 22.65 to 25.4 mm with 29.2% larger pads, and a rear disc down from 245 to 240 mm.",
+   "values": {
+    "front_caliper_piston": "25.4 mm (2019: 22.65 mm)",
+    "front_pad_area": "+29.2%",
+    "front_rotor_area": "+16%",
+    "rear_disc": "240 mm (2019: 245 mm)",
+    "bar_mount": "5 mm lower, 16.5 mm forward",
+    "seat_foam": "+10% firmer"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2021 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2021-yamaha-yz450f",
+    "date": "2020-12"
+   },
+   "confidence": "high",
+   "notes": "Older rear wheels need the smaller rotor to fit (db20). Front axle inner-diameter change described inconsistently; see conflicts."
+  },
+  {
+   "id": "ywr-009",
+   "domain": "identity",
+   "topic": "2021 model year",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "The 2021 YZ450F had no engine, chassis or suspension changes, only new graphics and a Monster Energy edition; US prices were $9,399 standard and $9,599 Monster Energy.",
+   "values": {
+    "msrp_standard": "USD 9,399",
+    "msrp_monster": "USD 9,599",
+    "mechanical_changes": "none"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2021 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2021-yamaha-yz450f",
+    "date": "2020-12"
+   },
+   "confidence": "high",
+   "notes": "Racer X (rx21) also found no major 2021 changes."
+  },
+  {
+   "id": "ywr-010",
+   "domain": "identity",
+   "topic": "2022 model year",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "For 2022 the YZ450F got a lighter, thinner rear hub with cross-3 spoke lacing and new graphics at $9,599; sources disagree on whether suspension settings changed.",
+   "values": {
+    "msrp": "USD 9,599",
+    "rear_hub": "lighter, three-cross spokes"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, first look 2022 Yamaha four-stroke models",
+    "url": "https://dirtbiketest.com/fresh-dirt/first-look-2022-yamaha-four-stroke-models/",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "One race test measured no real weight saving because the longer spokes offset the lighter hub (mxa22). See conflicts on suspension settings."
+  },
+  {
+   "id": "ywr-011",
+   "domain": "power_feel",
+   "topic": "peak power 2018 vs 2017",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2018
+    ]
+   },
+   "statement": "On a magazine dyno the 2018 made 57.55 hp at 9,700 rpm versus 56.85 hp for the 2017, with 0.6 ft-lb less torque; the 2017 was slightly stronger from 5,000 to 8,000 rpm and the 2018 stronger from 8,000 to 11,000 rpm.",
+   "values": {
+    "peak_hp": "57.55 hp @ 9,700 rpm",
+    "hp_2017": "56.85 hp",
+    "torque_change": "-0.60 ft-lb vs 2017",
+    "stronger_band": "8,000-11,000 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2018 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2018-yamaha-yz450f1",
+    "date": "2017"
+   },
+   "confidence": "high",
+   "notes": "Dyno brand not stated; stock map; repeated two days later with the same result. Yamaha had claimed +3 hp; not borne out."
+  },
+  {
+   "id": "ywr-012",
+   "domain": "power_feel",
+   "topic": "peak power 2018 (six-bike shootout)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2018
+    ]
+   },
+   "statement": "In a 2018 six-bike shootout the YZ450F made 52.3 hp at 9,900 rpm and 32.0 lb-ft at 7,800 rpm, fourth in power and tied last in torque.",
+   "values": {
+    "peak_hp": "52.3 hp @ 9,900 rpm",
+    "peak_torque": "32.0 lb-ft @ 7,800 rpm",
+    "rank": "4th of 6 hp, tied last torque"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirtbikes.com, 2018 450cc motocross shootout",
+    "url": "https://dirtbikes.com/2018-450cc-motocross-shootout-whos-the-best/2",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": "Rear-wheel dyno, brand not stated; fuel and map not stated. Despite the numbers, testers rated its engine best in class on the track."
+  },
+  {
+   "id": "ywr-013",
+   "domain": "power_feel",
+   "topic": "peak power 2019",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2019
+    ]
+   },
+   "statement": "On an in-house Dynojet in third gear the 2019 made 50.09 hp at 9,650 rpm and 30.78 lb-ft at 7,510 rpm.",
+   "values": {
+    "peak_hp": "50.09 hp @ 9,650 rpm",
+    "peak_torque": "30.78 lb-ft @ 7,510 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle World / Dirt Rider, 2019 Yamaha YZ450F dyno",
+    "url": "https://www.cycleworld.com/2019-yamaha-yz450f-dyno",
+    "date": "2019"
+   },
+   "confidence": "high",
+   "notes": "Dynojet rear-wheel dyno, third gear; stock; fuel not stated. Also published at dirtrider.com/2019-yamaha-yz450f-dyno."
+  },
+  {
+   "id": "ywr-014",
+   "domain": "power_feel",
+   "topic": "peak power 2020",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "On a magazine rear-wheel dyno the 2020 made 48.9 hp at 9,700 rpm and 29.3 lb-ft at 7,100 rpm, the lowest peak power and torque of the six 450s tested.",
+   "values": {
+    "peak_hp": "48.9 hp @ 9,700 rpm",
+    "peak_torque": "29.3 lb-ft @ 7,100 rpm",
+    "rank": "6th of 6"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider, 2020 Yamaha YZ450F dyno test",
+    "url": "https://www.dirtrider.com/story/tests/2020-yamaha-yz450f-dyno-test",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Rear-wheel dyno, brand not stated on the page (same outlet used a Dynojet 250i for other tests). Stock."
+  },
+  {
+   "id": "ywr-015",
+   "domain": "power_feel",
+   "topic": "2020-2021 curve vs 2019",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2020,
+     2021
+    ]
+   },
+   "statement": "A magazine dyno showed the 2020/2021 engine below the 2019 at every rpm, with its biggest gains from about 9,000 to 11,200 rpm; from 6,000 rpm to the high midrange it ranked near the bottom of the class and became competitive near 10,000 rpm.",
+   "values": {
+    "strong_band": "9,000-11,200 rpm",
+    "weak_band": "6,000 rpm to high midrange (vs rivals)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2021 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2021-yamaha-yz450f",
+    "date": "2020-12"
+   },
+   "confidence": "medium",
+   "notes": "No absolute numbers published in the text; dyno brand not stated; 2021 engine identical to 2020."
+  },
+  {
+   "id": "ywr-016",
+   "domain": "power_feel",
+   "topic": "peak power 2022",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "A magazine dyno gave the 2022 a class-leading 58.56 hp peak, reached about 500 rpm higher than the KTM or Honda, but it was fifth at 6,000 rpm, sixth at 7,000 rpm (almost 4 hp behind the CRF450) and ahead only of the KX450 at 8,000 rpm.",
+   "values": {
+    "peak_hp": "58.56 hp",
+    "rank_6000rpm": "5th",
+    "rank_7000rpm": "6th (about 4 hp below CRF450)",
+    "peak_rpm_vs_rivals": "about +500 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2022 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-yamaha-yz450f",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Dyno brand, fuel and map not stated; stock. Do not compare with other outlets' numbers."
+  },
+  {
+   "id": "ywr-017",
+   "domain": "ecu_electronics",
+   "topic": "test-rider map effect on the dyno (2018)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2018
+    ]
+   },
+   "statement": "A Yamaha test rider's map (TP map) added up to 2 hp in the midrange and up to 0.9 ft-lb of torque over the stock map, and moved peak power from 9,700 to 9,200 rpm.",
+   "values": {
+    "midrange_gain": "up to +2 hp",
+    "torque_gain": "up to +0.90 ft-lb",
+    "peak_rpm": "9,200 rpm (stock map: 9,700 rpm)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2018 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2018-yamaha-yz450f1",
+    "date": "2017"
+   },
+   "confidence": "high",
+   "notes": "Testers found the stock 2018 map lean and flat down low; the three app maps did not help. Map is Yamaha's 'TP' preset (named after test rider Travis Preston). Grid values not in the article."
+  },
+  {
+   "id": "ywr-018",
+   "domain": "power_feel",
+   "topic": "power character 2018",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2018
+    ]
+   },
+   "statement": "The 2018 engine lost the 2017's dead spot between 6,000 and 7,000 rpm and its surge at 7,000, giving one long usable powerband; shootout riders called its throttle response the best in class and less abrupt than the 2017.",
+   "values": {
+    "low": "strong, crisp response",
+    "6000-7000rpm": "no dead spot (2017 had one)",
+    "top": "strong, smooth"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2018 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2018-yamaha-yz450f1",
+    "date": "2017"
+   },
+   "confidence": "high",
+   "notes": "Shootout feel from dbk18."
+  },
+  {
+   "id": "ywr-019",
+   "domain": "power_feel",
+   "topic": "power character 2019",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2019
+    ]
+   },
+   "statement": "Testers describe the 2019 as having massive low-end power and huge top end with the most linear delivery in the class, though it revs less quickly than the Honda or Kawasaki.",
+   "values": {
+    "low": "massive",
+    "mid": "linear",
+    "top": "very strong",
+    "rev_speed": "slower than CRF450R/KX450"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike, 2019 Yamaha YZ450F full test",
+    "url": "https://dirtbikemagazine.com/2019-yamaha-yz450f-full-test/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": "Test-rider (TP) map adds a sharper midrange hit."
+  },
+  {
+   "id": "ywr-020",
+   "domain": "power_feel",
+   "topic": "power character 2020-2022",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "The 2020-2022 engine is smooth and linear with no flat spots but an abrupt, jerky first crack of throttle; below about 9,000 rpm it feels mellow, above 9,000 it does its best work, and engine braking is lighter so it coasts more into corners.",
+   "values": {
+    "off_idle": "abrupt, jerky",
+    "below_9000rpm": "mellow, no surge",
+    "above_9000rpm": "strongest",
+    "engine_braking": "reduced decompression braking"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2021 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2021-yamaha-yz450f",
+    "date": "2020-12"
+   },
+   "confidence": "high",
+   "notes": "Same picture in the 2022 race test (mxa22) and Dirt Bike 2020 (db20: smooth, no dead zones, no longer fastest on top). Dirt Rider 2022 (dbt22): jerky bottom in a low gear at high rpm, smoother mid-top. Yamaha's stated aim for the 2020 head/map was more controlled acceleration at small throttle openings (dr21fx)."
+  },
+  {
+   "id": "ywr-021",
+   "domain": "power_feel",
+   "topic": "why the 2020 feels softer",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "Testers credit the softer 2020-on character to the new head and a new standard map aimed at controlled small-throttle response; riding one gear high further softens the hit and engine braking and avoids stalling.",
+   "values": {
+    "tip": "run one gear higher"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike, 2020 Yamaha YZ450F full test",
+    "url": "https://dirtbikemagazine.com/2020-yamaha-yz450f-full-test",
+    "date": "2020"
+   },
+   "confidence": "medium",
+   "notes": "Gear-high tip repeated by dbt22 for experienced riders on the stock map."
+  },
+  {
+   "id": "ywr-022",
+   "domain": "power_feel",
+   "topic": "measured weight 2018",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2018
+    ]
+   },
+   "statement": "A magazine scale put the 2018 at 239 lb with electric start, 1 lb more than the 2017 and 17 lb more than the KTM 450 SX-F.",
+   "values": {
+    "weight": "239 lb",
+    "2017": "238 lb",
+    "KTM_450SXF": "222 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2018 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2018-yamaha-yz450f1",
+    "date": "2017"
+   },
+   "confidence": "high",
+   "notes": "Fuel condition not stated (this outlet usually weighs without fuel)."
+  },
+  {
+   "id": "ywr-023",
+   "domain": "power_feel",
+   "topic": "measured weight 2019-2020",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2019,
+     2020
+    ]
+   },
+   "statement": "A magazine scale put both the 2019 and 2020 at 239 lb without fuel.",
+   "values": {
+    "weight_2019": "239 lb no fuel",
+    "weight_2020": "239 lb no fuel"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike, 2020 Yamaha YZ450F full test",
+    "url": "https://dirtbikemagazine.com/2020-yamaha-yz450f-full-test",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "2019 figure from db19 (same outlet and scale)."
+  },
+  {
+   "id": "ywr-024",
+   "domain": "power_feel",
+   "topic": "measured weight 2021-2022",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "A magazine scale put the 2021 and 2022 at 238 lb, 15 lb more than a 223 lb KTM 450 SX-F.",
+   "values": {
+    "weight": "238 lb",
+    "KTM_450SXF": "223 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2021 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2021-yamaha-yz450f",
+    "date": "2020-12"
+   },
+   "confidence": "high",
+   "notes": "Same figure in mxa22."
+  },
+  {
+   "id": "ywr-025",
+   "domain": "chassis",
+   "topic": "handling 2018-2019",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2018,
+     2019
+    ]
+   },
+   "statement": "The 2018 turns in very accurately but feels loose on corner exit and twitchy at speed, with less straight-line stability than the KTM; on the 2019 riders who load the front hard on entry disliked the feedback while riders who back it in had no trouble.",
+   "values": {
+    "turn_in": "very accurate",
+    "exit": "loose",
+    "high_speed": "twitchy"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2018 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2018-yamaha-yz450f1",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": "2019 notes from db19. A later test called the 2018-2019 chassis very stable; see conflicts."
+  },
+  {
+   "id": "ywr-026",
+   "domain": "chassis",
+   "topic": "handling 2020-2022",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "From 2020 the chassis feels more precise, agile and lighter than the 2018-2019, still steered mainly with the rear; the lower, more forward bar position makes it easier to load the front wheel.",
+   "values": {
+    "vs_2018_2019": "more precise and agile, feels lighter"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, 2022 Yamaha YZ450F - same bike, new reputation",
+    "url": "https://dirtbiketest.com/fresh-dirt/2022-yamaha-yz450f-same-bike-new-reputation/",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "db20: modest improvement, steer with rear. mxa21: handles better partly because of the mellower power."
+  },
+  {
+   "id": "ywr-027",
+   "domain": "chassis",
+   "topic": "ergonomics 2018-2022",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2018,
+     2019,
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "Testers' main gripe across this generation is ergonomics: bars too high and seat too low on the 2018-2019 (pushing the rider rearward), a firm, cupped seat that packs down, and a cramped cockpit for tall riders; a taller GYTR seat helps riders over 6 ft.",
+   "values": {
+    "bar_mounts": "4 positions; 2020 standard = second most forward",
+    "tall_riders": "GYTR tall seat"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2021 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2021-yamaha-yz450f",
+    "date": "2020-12"
+   },
+   "confidence": "high",
+   "notes": "2018: testers went back to 2017 bar mounts (mxa18). 2019: bars high, seat low (db19). 2022: position 3 suits most but short riders found it a reach (dbt22)."
+  },
+  {
+   "id": "ywr-028",
+   "domain": "suspension",
+   "topic": "fork and shock hardware 2018-2022",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2018,
+     2019,
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "The 2018-2022 runs KYB SSS coil-spring forks with 5.0 N/mm springs and 290 cc oil, and a 58 N/mm shock spring with 100 mm stock race sag.",
+   "values": {
+    "fork_spring": "5.0 N/mm",
+    "fork_oil": "290 cc",
+    "shock_spring": "58 N/mm",
+    "stock_race_sag": "100 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2021 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2021-yamaha-yz450f",
+    "date": "2020-12"
+   },
+   "confidence": "high",
+   "notes": "Stock settings as listed in the race-test setup tables (mxa18, mxa21, mxa22). Fork compression: one click equals about two clicks of other brands' forks."
+  },
+  {
+   "id": "ywr-029",
+   "domain": "setups",
+   "topic": "2018 race-test suspension setup",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2018
+    ]
+   },
+   "statement": "Race-test setup for the 2018: fork compression 9 out (stock 8), rebound 8 out (stock 10), forks 5 mm up; shock 105 mm race sag, high-speed compression 1 turn out, low-speed 12 out, rebound 11 out.",
+   "values": {
+    "fork_comp": "9 out (stock 8)",
+    "fork_reb": "8 out (stock 10)",
+    "fork_height": "5 mm",
+    "race_sag": "105 mm",
+    "shock_hsc": "1 turn out",
+    "shock_lsc": "12 out",
+    "shock_reb": "11 out"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2018 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2018-yamaha-yz450f1",
+    "date": "2017"
+   },
+   "confidence": "high",
+   "notes": "Stock springs; MX use."
+  },
+  {
+   "id": "ywr-030",
+   "domain": "setups",
+   "topic": "2019 test setup",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2019
+    ]
+   },
+   "statement": "A 2019 test ran fork compression at 12 clicks out (8 stock), one click more rebound, and more than the recommended 100 mm sag; the previous year they used a taller seat and shorter bar pedestals.",
+   "values": {
+    "fork_comp": "12 out (stock 8)",
+    "fork_reb": "+1 click",
+    "sag": ">100 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike, 2019 Yamaha YZ450F full test",
+    "url": "https://dirtbikemagazine.com/2019-yamaha-yz450f-full-test/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ywr-031",
+   "domain": "setups",
+   "topic": "2020 test setup",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "A 2020 test found the fork worked for riders from about 150 lb to over 200 lb and ran about 105 mm of sag.",
+   "values": {
+    "sag": "about 105 mm",
+    "rider_weight_range": "150-200+ lb on stock springs"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike, 2020 Yamaha YZ450F full test",
+    "url": "https://dirtbikemagazine.com/2020-yamaha-yz450f-full-test",
+    "date": "2020"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ywr-032",
+   "domain": "setups",
+   "topic": "2021 race-test suspension setup",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Race-test setup for the 2021: fork compression 9 out, rebound 8 out (stock 9), forks 5 mm up; shock 105 mm race sag, high-speed compression 1 turn out, low-speed 12 out, rebound 11 out; the 58 N/mm spring still gave usable sag for 130 lb riders.",
+   "values": {
+    "fork_comp": "9 out",
+    "fork_reb": "8 out (stock 9)",
+    "fork_height": "5 mm",
+    "race_sag": "105 mm",
+    "shock_hsc": "1 turn out",
+    "shock_lsc": "12 out",
+    "shock_reb": "11 out"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2021 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2021-yamaha-yz450f",
+    "date": "2020-12"
+   },
+   "confidence": "high",
+   "notes": "A 56 N/mm spring was carried for light riders but not needed."
+  },
+  {
+   "id": "ywr-033",
+   "domain": "setups",
+   "topic": "2022 race-test suspension setup",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Race-test setup for the 2022: fork compression 11 out (stock 9), rebound 8 out (stock 9), forks 5 mm up; shock 105 mm race sag, high-speed compression 10 clicks out, low-speed 12 out, rebound 11 out.",
+   "values": {
+    "fork_comp": "11 out (stock 9)",
+    "fork_reb": "8 out (stock 9)",
+    "fork_height": "5 mm",
+    "race_sag": "105 mm (stock 100)",
+    "shock_hsc": "10 out",
+    "shock_lsc": "12 out",
+    "shock_reb": "11 out"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2022 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-yamaha-yz450f",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Shock high-speed listed in clicks in this year's table versus turns in 2018/2021."
+  },
+  {
+   "id": "ywr-034",
+   "domain": "setups",
+   "topic": "heavier riders: stiffer compression felt softer",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "On the 2022, heavier testers found that adding compression made the bike feel softer because it rode higher and stopped reaching the stiff deep-stroke valving.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, 2022 Yamaha YZ450F - same bike, new reputation",
+    "url": "https://dirtbiketest.com/fresh-dirt/2022-yamaha-yz450f-same-bike-new-reputation/",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ywr-035",
+   "domain": "setups",
+   "topic": "lowering for shorter riders (2018)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2018
+    ]
+   },
+   "statement": "A suspension shop lowered a 2018 for shorter riders with a 9 mm fork damper-rod limiter, a 0.110 in shock limiter and an adjustable pull rod at 143 mm (stock 142 mm), lowering the rear 13 mm in total; it turned better and the front felt less vague.",
+   "values": {
+    "fork_limiter": "9 mm",
+    "shock_limiter": "0.110 in",
+    "pull_rod": "143 mm (stock 142 mm)",
+    "rear_drop": "13 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, problem-solving 2018 YZ450F build (Cycra/FTI)",
+    "url": "https://motocrossactionmag.com/mxa-rides-cycra-racings-problem-solving-2018-yamaha-yz450f",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": "Valving left stock."
+  },
+  {
+   "id": "ywr-036",
+   "domain": "engine_mods",
+   "topic": "high-compression piston build (2018)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2018
+    ]
+   },
+   "statement": "A tuner build raised compression from 12.8:1 to 14.0:1 with a forged piston, added aftermarket valves and a full exhaust, and kept stock gearing because the extra low-mid power fixed the quick-revving second and sluggish third gear.",
+   "values": {
+    "compression": "14.0:1 (stock 12.8:1)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, problem-solving 2018 YZ450F build (Cycra/FTI)",
+    "url": "https://motocrossactionmag.com/mxa-rides-cycra-racings-problem-solving-2018-yamaha-yz450f",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": "No dyno sheet published. Same build used an auto/torque-drive clutch with softer springs to reduce slip and lighten pull."
+  },
+  {
+   "id": "ywr-037",
+   "domain": "drivetrain",
+   "topic": "gearing 2018-2019",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2018,
+     2019
+    ]
+   },
+   "statement": "Testers disliked the 2018's stock 48-tooth rear sprocket and preferred a 49 on tight and fast tracks; Yamaha fitted a 49 from 2019. Second, third and fourth gears are 1 mm wider for 2018 with unchanged ratios.",
+   "values": {
+    "2018_rear": "48T",
+    "preferred": "49T",
+    "2019_rear": "49T"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2018 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2018-yamaha-yz450f1",
+    "date": "2017"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ywr-038",
+   "domain": "drivetrain",
+   "topic": "clutch 2018-2022",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2018,
+     2019,
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "Testers praised the 2018-2022 cable clutch as the best non-hydraulic clutch in the class with an easy pull; one off-road test got about 42 hours from the FX version before a precautionary change.",
+   "values": {
+    "type": "cable",
+    "fx_durability": "about 42 h before precautionary change"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2021 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2021-yamaha-yz450f",
+    "date": "2020-12"
+   },
+   "confidence": "medium",
+   "notes": "Praise in mxa18, db19, db20, mxa21. 2022 race test listed the lack of a hydraulic clutch as a dislike, not a failure. Durability figure from dbt21fx (YZ450FX)."
+  },
+  {
+   "id": "ywr-039",
+   "domain": "known_issues",
+   "topic": "high-speed instability (2018)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2018,
+     2019
+    ]
+   },
+   "statement": "The 2018 felt twitchy and loose at speed and on corner exit; testers fixed part of it by going back to the 2017 bar mounts and running forks 5 mm up, and Yamaha stiffened the front-wheel spacer contact for 2019 and lowered the bars for 2020.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2018 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2018-yamaha-yz450f1",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": "No source found describing a widespread head-shake failure on 2018-2019; see conflicts."
+  },
+  {
+   "id": "ywr-040",
+   "domain": "known_issues",
+   "topic": "brakes (2018-2019)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2018,
+     2019
+    ]
+   },
+   "statement": "The 2018's larger rotors on the old master cylinders and calipers gave weak initial bite and then grabbed; Yamaha redesigned both calipers for 2020.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2018 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2018-yamaha-yz450f1",
+    "date": "2017"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ywr-041",
+   "domain": "known_issues",
+   "topic": "air filter and backfire screen",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2018,
+     2019,
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "The flat foam filter sits on the backfire screen, dries out there and lets dirt through; testers use an aftermarket filter with a spacer or cage.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2021 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2021-yamaha-yz450f",
+    "date": "2020-12"
+   },
+   "confidence": "high",
+   "notes": "Also flagged in mxa18 and mxa22. Same complaint on the 2023-2024 (yz45-068)."
+  },
+  {
+   "id": "ywr-042",
+   "domain": "known_issues",
+   "topic": "hot restarts and idle heat",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "Testers report sluggish hot restarts after a stall on the 2022 (not fixed by battery or map changes; a correct idle setting helps) and that the 2020 overheats quickly when idling.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, 2022 Yamaha YZ450F - same bike, new reputation",
+    "url": "https://dirtbiketest.com/fresh-dirt/2022-yamaha-yz450f-same-bike-new-reputation/",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Overheating at idle from db20. Testers describe slow hot restart as common to the YZ four-stroke line."
+  },
+  {
+   "id": "ywr-043",
+   "domain": "known_issues",
+   "topic": "service annoyances",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2018,
+     2019,
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "The wrap-around exhaust pipe is hard to remove, intake noise is loud, and fork compression clickers are hard to reach.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2022 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-yamaha-yz450f",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Pipe removal also in mxa18; intake noise in db20."
+  },
+  {
+   "id": "ywr-044",
+   "domain": "ecu_electronics",
+   "topic": "map switch and stock maps 2020-2022",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "From 2020 riders can switch between two maps on the fly; the 2022 shipped with the same stock map in both switch positions, and testers usually loaded Yamaha's TP-3 preset to smooth low-throttle response (TP-5 and GC-1 also used).",
+   "values": {
+    "switch_positions": "2",
+    "stock_2022": "identical map in both",
+    "tester_choice": "TP-3"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2022 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-yamaha-yz450f",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "2021 usage from mxa21. db20 preferred the new 2020 stock map over Yamaha's test map on loose, good-traction tracks."
+  },
+  {
+   "id": "ywr-045",
+   "domain": "ecu_electronics",
+   "topic": "preset maps that tame the bottom (2022)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "On the 2022, Yamaha's 'Magic Map' preset smoothed the bottom for young aggressive riders while still pulling tall gears; experienced riders preferred the stock map one gear high, and a hill-track map felt tame on a flat track.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, 2022 Yamaha YZ450F - same bike, new reputation",
+    "url": "https://dirtbiketest.com/fresh-dirt/2022-yamaha-yz450f-same-bike-new-reputation/",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Map names: Magic Map; a tester-made map developed at Glen Helen."
+  },
+  {
+   "id": "ywr-046",
+   "domain": "identity",
+   "topic": "YZ450FX generations",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The YZ450FX was all-new for 2019 on the 2018 YZ450F's electric-start platform (kick-start removed), took the 2020 YZ450F head and brake updates one year later in 2021, and was redone for 2024 on the 2023 YZ450F platform.",
+   "values": {
+    "gen_A": "2019-2023",
+    "gen_B": "2024-2026",
+    "major_update": "2021"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, 2019 Yamaha YZ450FX riding impression",
+    "url": "https://dirtbiketest.com/fresh-dirt/2019-yamaha-yz450fx-riding-impression",
+    "date": "2018-09"
+   },
+   "confidence": "high",
+   "notes": "2021 detail from rx21 and dbt21fx; 2024 from dbt24fx."
+  },
+  {
+   "id": "ywr-047",
+   "domain": "identity",
+   "topic": "2021 YZ450FX changes",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "The 2021 YZ450FX got a lower, compact head, new cams and ports, compression up from 12.8 to 13.0:1, a 1.5 mm longer rod, a steel upper and aluminium lower engine mount (swapped materials), a flexier top clamp, larger front caliper pistons, a 240 mm rear disc (from 245), bars 5 mm lower and Dunlop MX33 tires.",
+   "values": {
+    "compression": "13.0:1 (was 12.8:1)",
+    "conrod": "+1.5 mm",
+    "rear_disc": "240 mm (was 245 mm)",
+    "front_axle": "1.4 mm smaller inner diameter, about 20% less rigid",
+    "tires": "Dunlop MX33 (was MX3S)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, 2021 Yamaha YZ450FX test",
+    "url": "https://dirtbiketest.com/bike-tests/2021-yamaha-yz450fx/",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Racer X lists the same plus a refined 5-speed and better crankcase breather (rx21). Front-axle direction conflicts with the YZ450F 2020 report; see conflicts."
+  },
+  {
+   "id": "ywr-048",
+   "domain": "identity",
+   "topic": "2022-2023 YZ450FX",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2022,
+     2023
+    ]
+   },
+   "statement": "The 2022 and 2023 YZ450FX were minor updates after the 2021 overhaul; the 2022 listed at $9,899.",
+   "values": {
+    "msrp_2022": "USD 9,899"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, first look 2022 Yamaha four-stroke models",
+    "url": "https://dirtbiketest.com/fresh-dirt/first-look-2022-yamaha-four-stroke-models/",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Specific 2022 change garbled in source."
+  },
+  {
+   "id": "ywr-049",
+   "domain": "identity",
+   "topic": "2024 YZ450FX changes",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The 2024 YZ450FX uses the 2023 YZ450F engine and frame with a new wide-ratio tri-shaft 5-speed, off-road ECU maps, three-level traction control in the app, unique clutch friction plates, off-road lower engine mounts and 10 mm shorter suspension; Yamaha claims 251 lb wet, about 3 lb lighter.",
+   "values": {
+    "claimed_wet_weight": "251 lb",
+    "msrp": "USD 10,199",
+    "traction_control": "3 levels (app)",
+    "gearbox": "wide-ratio 5-speed, tri-shaft"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2024 Yamaha YZ450FX cross-country",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz450fx-cross-country",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Weight claim from dbt24fx."
+  },
+  {
+   "id": "ywr-050",
+   "domain": "identity",
+   "topic": "2025 YZ450FX",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The 2025 YZ450FX changed only graphics.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, 2025 Yamaha YZ450FX test",
+    "url": "https://dirtbiketest.com/bike-tests/2025-yamaha-yz450fx/",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ywr-051",
+   "domain": "identity",
+   "topic": "2026 YZ450FX changes",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Yamaha lists for the 2026 YZ450FX an anti-theft ECU lock, four-level traction control in the Power Tuner app, updated switchgear and a hand-adjustable fork compression knob.",
+   "values": {
+    "traction_control": "4 levels",
+    "ecu_lock": "yes"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA, 2026 YZ450FX features page",
+    "url": "https://www.yamahamotorsports.com/models/26-yz450fx/features",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Feature page does not mention the 2026 YZ450F's new frame or hydraulic clutch for the FX."
+  },
+  {
+   "id": "ywr-052",
+   "domain": "drivetrain",
+   "topic": "FX gearbox vs YZ450F (2024+)",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Compared with the YZ450F gearbox, the 2024+ FX first gear is like adding 14 teeth to the rear sprocket, second like 6 teeth, third like 1 tooth, fourth like removing half a tooth and fifth like removing 5 teeth.",
+   "values": {
+    "1st": "~+14T equivalent",
+    "2nd": "~+6T",
+    "3rd": "~+1T",
+    "4th": "~-0.5T",
+    "5th": "~-5T"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2024 Yamaha YZ450FX cross-country",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz450fx-cross-country",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Tester's sprocket-equivalent comparison, not published ratios."
+  },
+  {
+   "id": "ywr-053",
+   "domain": "suspension",
+   "topic": "FX vs YZ450F suspension and chassis (2024+)",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2024+ FX uses 4.8 fork springs and a 56 shock spring (YZ450F: 5.0 and 58), forks 10 mm shorter (300 mm travel), a shock with 9 mm less stroke, seat over 10 mm lower, a 2.1 gal tank (YZ: 1.6), 18 in rear wheel, kickstand, skid plate and O-ring chain.",
+   "values": {
+    "fork_spring": "4.8 N/mm (YZ450F 5.0)",
+    "shock_spring": "56 N/mm (YZ450F 58)",
+    "fork_travel": "300 mm",
+    "tank": "2.1 gal",
+    "rear_wheel": "18 in",
+    "chain": "D.I.D 520MXV5 O-ring"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2024 Yamaha YZ450FX cross-country",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz450fx-cross-country",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Shrouds 50 mm narrower than the previous FX, pegs 5 mm lower and back."
+  },
+  {
+   "id": "ywr-054",
+   "domain": "identity",
+   "topic": "FX vs YZ450F (2019-2023)",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "The 2019-2023 FX differs from the YZ450F by its semi-wide gearbox (lower 1st and 2nd, taller 4th and 5th), off-road suspension settings and mapping, a larger tank, 18 in rear wheel, O-ring chain, kickstand, skid plate and different clutch friction plates and lever ratio.",
+   "values": {
+    "tank": "2.2 gal (about 0.56 gal more than YZ)",
+    "rear_wheel": "18 in"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, 2021 Yamaha YZ450FX test",
+    "url": "https://dirtbiketest.com/bike-tests/2021-yamaha-yz450fx/",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Clutch plates and lever ratio from dbt19fx."
+  },
+  {
+   "id": "ywr-055",
+   "domain": "identity",
+   "topic": "FX vs WR450F",
+   "applies_to": {
+    "models": [
+     "YZ450FX",
+     "WR450F"
+    ],
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "The WR450F adds a headlight, taillight, speedometer and cooling fan, a quiet spark-arrestor muffler with a removable restrictor, a steel rear sprocket, softer trail valving and a different ECU, exhaust and flywheel/stator; the FX has none of the lighting and stiffer, MX-oriented suspension.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, This or that? YZ450FX vs WR450F (2019)",
+    "url": "https://dirtbiketest.com/fresh-dirt/this-or-that-yz450fx-vs-wr450f/",
+    "date": "2019"
+   },
+   "confidence": "high",
+   "notes": "Flywheel/stator difference from dbt21fx."
+  },
+  {
+   "id": "ywr-056",
+   "domain": "power_feel",
+   "topic": "YZ450FX dyno 2021",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "On a magazine dyno the 2021 YZ450FX made 53.0 hp at 9,600 rpm and 32.9 lb-ft at 7,100 rpm.",
+   "values": {
+    "peak_hp": "53.0 hp @ 9,600 rpm",
+    "peak_torque": "32.9 lb-ft @ 7,100 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider, 2021 Yamaha YZ450FX dyno test",
+    "url": "https://dirtrider.com/story/tests/2021-yamaha-yz450fx-dyno-test",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "In-house dyno (same outlet uses a Dynojet 250i); map and fuel not stated; stock. 2022-2023 mechanically similar."
+  },
+  {
+   "id": "ywr-057",
+   "domain": "power_feel",
+   "topic": "FX power character 2019-2020",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2019,
+     2020
+    ]
+   },
+   "statement": "The 2019 FX is strong and smooth off the bottom and hard to stall, then lively and free-revving through the mid and top; map 2 is an internal softer setting with a traction-control-like feel.",
+   "values": {
+    "low": "strong, smooth, stall-resistant",
+    "mid_top": "lively, free-revving"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, 2019 Yamaha YZ450FX riding impression",
+    "url": "https://dirtbiketest.com/fresh-dirt/2019-yamaha-yz450fx-riding-impression",
+    "date": "2018-09"
+   },
+   "confidence": "medium",
+   "notes": "Test bike's idle was set too low."
+  },
+  {
+   "id": "ywr-058",
+   "domain": "power_feel",
+   "topic": "FX power character 2021-2023",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "The 2021-2023 FX makes smooth torque down low and lugs deep without much clutch, builds a little slower than a KTM with no big surges; stock map 1 felt too aggressive and jerky off the bottom.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, 2021 Yamaha YZ450FX test",
+    "url": "https://dirtbiketest.com/bike-tests/2021-yamaha-yz450fx/",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Testers say it stalls less than rivals."
+  },
+  {
+   "id": "ywr-059",
+   "domain": "power_feel",
+   "topic": "FX power character 2024-2025",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "The 2024-2025 FX has crisp, sometimes unsettling low-rpm response, a robust midrange into the top end and about 500 rpm more rev range; it lugs without stalling, first gear is so low it is rarely used and third is the key gear.",
+   "values": {
+    "rev_range": "about +500 rpm (tester)",
+    "key_gear": "3rd"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, 2024 Yamaha YZ450FX test",
+    "url": "https://dirtbiketest.com/bike-tests/2024-yamaha-yz450fx/",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Rev-range note and 'almost unusable' first gear from mxa24fx."
+  },
+  {
+   "id": "ywr-060",
+   "domain": "chassis",
+   "topic": "FX handling by generation",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Testers called the 2019-2020 FX plush and stable, the 2021-2023 more agile and precise but with longer, heavier steering in tight trees, and the 2024+ much lighter-feeling and more precise with a little front squirm under hard braking and less bump compliance.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, 2024 Yamaha YZ450FX test",
+    "url": "https://dirtbiketest.com/bike-tests/2024-yamaha-yz450fx/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "2021 comparison from dbt21fx."
+  },
+  {
+   "id": "ywr-061",
+   "domain": "setups",
+   "topic": "FX sprint-enduro setup (2019)",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2019,
+     2020
+    ]
+   },
+   "statement": "For a sprint enduro on the 2019 FX, testers took a little fork compression out, added a little shock high-speed compression and kept rear ride height from sitting too low; one tooth smaller rear sprocket helps in tight going.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, 2019 Yamaha YZ450FX riding impression",
+    "url": "https://dirtbiketest.com/fresh-dirt/2019-yamaha-yz450fx-riding-impression",
+    "date": "2018-09"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ywr-062",
+   "domain": "setups",
+   "topic": "FX cross-country setup (2021)",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "On the 2021 FX testers ran about 105 mm sag, heavier riders added compression or springs, stock 13/50 gearing suited most terrain with a 48 for desert, and the 2.2 gal tank gave about 50 miles.",
+   "values": {
+    "sag": "about 105 mm",
+    "gearing": "13/50 stock; 13/48 desert",
+    "range": "about 50 miles"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, 2021 Yamaha YZ450FX test",
+    "url": "https://dirtbiketest.com/bike-tests/2021-yamaha-yz450fx/",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ywr-063",
+   "domain": "setups",
+   "topic": "FX fast GP/desert setup (2024-2025)",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "For fast GP and desert on the 2024-2025 FX, testers ran 100 mm sag, forks at 5 mm (stock 8) with fork compression 10 out, or 3 mm with the softer engine-mount mod plus 2-3 clicks more compression and 1-2 slower rebound; gearing 14/52 for light riders and 14/53 for heavy riders.",
+   "values": {
+    "sag": "100 mm",
+    "fork_height": "5 mm (stock 8); 3 mm with mount mod",
+    "fork_comp": "10 out at 5 mm",
+    "shock_hsc": "1 5/8 turns out",
+    "gearing": "14/52 light, 14/53 heavy (stock 13/50)",
+    "mount_mod_bolt": "YZ450F bolt 187155035925, outer plate removed"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, 2024-2025 YZ450FX chassis setup tips",
+    "url": "https://dirtbiketest.com/fresh-dirt/2024-2025-yz450fx-chassis-setup-tips/",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Shock shortened 3 mm internally (about 10 mm less wheel travel). Maps all zeros. Steering damper fitted. A race test fixed slight head-shake in chop with 2 clicks more fork compression (mxa24fx)."
+  },
+  {
+   "id": "ywr-064",
+   "domain": "ecu_electronics",
+   "topic": "FX app power slider in tight terrain",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "In tight terrain testers set the app's 1-5 power slider to 2 on map 1 and 3 on map 2; faster riders kept the all-zero stock map.",
+   "values": {
+    "map1_slider": "2",
+    "map2_slider": "3",
+    "scale": "1 mellow - 5 aggressive"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, 2025 Yamaha YZ450FX test",
+    "url": "https://dirtbiketest.com/bike-tests/2025-yamaha-yz450fx/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Veteran riders preferred a tester-made map (JL GH)."
+  },
+  {
+   "id": "ywr-065",
+   "domain": "known_issues",
+   "topic": "FX gripes",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "FX testers complain of no stock handguards, harsh grips, a cable clutch, a domed filter that still passes dirt, and on the 2019 a clutch that loses bite on sudden release; a 2024 kill/map switch failed after a crash.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, MXA race test: 2024 Yamaha YZ450FX cross-country",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz450fx-cross-country",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "2019 clutch bite and low idle from dbt19fx; switch failure from dbt24fx."
+  },
+  {
+   "id": "ywr-066",
+   "domain": "identity",
+   "topic": "WR450F generations",
+   "applies_to": {
+    "models": [
+     "WR450F"
+    ],
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The WR450F was redone for 2019 on the 2018 YZ450F platform, updated for 2021 with the 2020 YZ450F head, piston, rod and brakes, carried over for 2022-2023, then all-new for 2024 on the 2023 YZ450F platform with only seat, graphics and ECU-lock changes for 2025-2026.",
+   "values": {
+    "gen_A": "2019-2023",
+    "gen_B": "2024-2026"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider, 2021 Yamaha enduro motorcycles revealed",
+    "url": "https://dirtrider.com/story/dirt-bikes/2021-yamaha-enduro-motorcycles-revealed",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "2022 carryover from dr22en; 2024 from dbt24wr; 2025 from e21_25; 2026 from cap26."
+  },
+  {
+   "id": "ywr-067",
+   "domain": "identity",
+   "topic": "2021 WR450F changes",
+   "applies_to": {
+    "models": [
+     "WR450F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "The 2021 WR450F got a compact head with steeper valve angles, a higher-compression piston (13.0:1), longer rod, refined wide-ratio 5-speed, revised frame flex, mounts, top clamp and axle, new front caliper, disc and pads, and a new LCD meter with fuel consumption and low-fuel light; $9,799.",
+   "values": {
+    "msrp": "USD 9,799",
+    "compression": "13.0:1"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider, 2021 Yamaha enduro motorcycles revealed",
+    "url": "https://dirtrider.com/story/dirt-bikes/2021-yamaha-enduro-motorcycles-revealed",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Compression from um21wr. 2022: no mechanical change, USD 9,899 (dr22en)."
+  },
+  {
+   "id": "ywr-068",
+   "domain": "identity",
+   "topic": "2024 WR450F changes",
+   "applies_to": {
+    "models": [
+     "WR450F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The 2024 WR450F gets 39 mm intake valves, a new piston and rod, a tri-shaft wide-ratio 5-speed, a model-specific ECU, three-level traction control, KYB springs both ends 10 mm lower with hand-adjustable fork compression, a 2.0 gal tank (down 0.2), lithium battery and 18 in rear wheel; $10,199.",
+   "values": {
+    "intake_valves": "39 mm",
+    "tank": "2.0 gal",
+    "traction_control": "High/Low/Off",
+    "engine_weight": "-2.4 lb",
+    "total_saving": ">4 lb",
+    "msrp": "USD 10,199"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, first look: all-new 2024 Yamaha WR450F",
+    "url": "https://dirtbiketest.com/fresh-dirt/first-look-all-new-2024-yamaha-wr450f/",
+    "date": "2023-09"
+   },
+   "confidence": "high",
+   "notes": "Weight and battery from mcom24wr. Australian spec: 117 kg wet, 2 kg lighter, 7.4 L (mcn24wr)."
+  },
+  {
+   "id": "ywr-069",
+   "domain": "identity",
+   "topic": "2025-2026 WR450F",
+   "applies_to": {
+    "models": [
+     "WR450F"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2025 WR450F added the motocross models' seamless seat and new graphics; 2026 adds a blue gripper seat, graphics and the Power Tuner ECU lock.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21, first look 2025 Yamaha WR range",
+    "url": "https://enduro21.com/en/news/first-look-2025-yamaha-wr-range-heavy-focus-on-the-wr250f",
+    "date": "2024-07"
+   },
+   "confidence": "medium",
+   "notes": "2026 from a dealer page (cap26)."
+  },
+  {
+   "id": "ywr-070",
+   "domain": "ecu_electronics",
+   "topic": "US WR450F restrictions (2019-2023)",
+   "applies_to": {
+    "models": [
+     "WR450F"
+    ],
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "The US WR450F keeps a throttle stop and an inner exhaust baffle, has a locked, encrypted ECU with no Power Tuner access unless the GYTR communication unit is added, but has no air pump, charcoal canister or O2 sensor.",
+   "values": {
+    "throttle_stop": "yes",
+    "exhaust_insert": "yes",
+    "ecu": "locked",
+    "app": "needs GYTR CCU"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike, riding the 2021 Yamaha WR450F - the wrap",
+    "url": "https://dirtbikemagazine.com/riding-the-2021-yamaha-wr450f-the-wrap/",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "A last-minute evaporative-emissions rule (charcoal canister) cost the 2019 its California green sticker; it is a red-sticker bike (dbtfxwr; um21wr says Yamaha dropped green-sticker compliance for performance)."
+  },
+  {
+   "id": "ywr-071",
+   "domain": "engine_mods",
+   "topic": "WR450F uncorking steps",
+   "applies_to": {
+    "models": [
+     "WR450F"
+    ],
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "Testers' uncorking steps for the WR450F: remove the throttle stop, remove the airbox intake restrictor, remove the small muffler restrictor or fit an aftermarket exhaust, and install the GYTR competition ECU; together they make the engine package nearly the same as the YZ450FX.",
+   "values": {
+    "steps": "throttle stop, airbox restrictor, muffler restrictor/exhaust, GYTR comp ECU"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, This or that? YZ450FX vs WR450F (2019)",
+    "url": "https://dirtbiketest.com/fresh-dirt/this-or-that-yz450fx-vs-wr450f/",
+    "date": "2019"
+   },
+   "confidence": "high",
+   "notes": "Closed-course use only. ECU kit parts covered in ypt-058/059/060/061."
+  },
+  {
+   "id": "ywr-072",
+   "domain": "engine_mods",
+   "topic": "WR450F uncorked gain",
+   "applies_to": {
+    "models": [
+     "WR450F"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "With the GYTR competition ECU (YZ450FX-equivalent mapping) and a slip-on, testers say the WR gains almost 20 horsepower and runs better than the FX, with a smoother low-end transition.",
+   "values": {
+    "claimed_gain": "almost 20 hp",
+    "kit_price": "USD 150",
+    "slip_on": "USD 537",
+    "ccu": "USD 300",
+    "total_added": "about USD 800"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike, riding the 2021 Yamaha WR450F - the wrap",
+    "url": "https://dirtbikemagazine.com/riding-the-2021-yamaha-wr450f-the-wrap/",
+    "date": "2021"
+   },
+   "confidence": "low",
+   "notes": "Tester statement; no dyno sheet published. Consistent with a restricted 2021 WR at 48.9 hp vs an FX at 53.0 hp only if the stock WR test was restricted; see conflicts."
+  },
+  {
+   "id": "ywr-073",
+   "domain": "power_feel",
+   "topic": "WR450F dyno 2021",
+   "applies_to": {
+    "models": [
+     "WR450F"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "On a magazine dyno the 2021 WR450F made 48.9 hp at 9,000 rpm and 31.8 lb-ft at 7,200 rpm.",
+   "values": {
+    "peak_hp": "48.9 hp @ 9,000 rpm",
+    "peak_torque": "31.8 lb-ft @ 7,200 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider, 2021 Yamaha WR450F dyno test",
+    "url": "https://dirtrider.com/story/tests/2021-yamaha-wr450f-dyno-test",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "In-house dyno, Dunlop D404 street tire; article describes the EPA-compliant muffler and ECU, so likely in US-restricted form but not stated."
+  },
+  {
+   "id": "ywr-074",
+   "domain": "power_feel",
+   "topic": "WR450F stock feel (2021)",
+   "applies_to": {
+    "models": [
+     "WR450F"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "The stock 2021 WR450F is docile and torquey to about 5,000 rpm, pulls hard above that with more than a 250 but no 450 hit, tapers near 8,000 and holds to the 11,000 rpm redline; it is great on slow, tight trails and struggles in sand, hills and open terrain.",
+   "values": {
+    "usable_band": "about 2,500-11,000 rpm",
+    "pull": "strongest 5,000-8,000 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling, 2021 Yamaha WR450F review",
+    "url": "https://ultimatemotorcycling.com/2021/08/17/2021-yamaha-wr450f-review-18-fast-facts-from-the-trail/",
+    "date": "2021-08"
+   },
+   "confidence": "medium",
+   "notes": "Sand/hill struggle and tight-trail strength from db21wr."
+  },
+  {
+   "id": "ywr-075",
+   "domain": "known_issues",
+   "topic": "WR450F low-rpm cough and stall",
+   "applies_to": {
+    "models": [
+     "WR450F"
+    ],
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "Stock 2021 WR450Fs can stumble, cough and sometimes die when leaned over at low rpm; mapping through the GYTR communication unit cured it even with the stock quiet pipe.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike, riding the 2021 Yamaha WR450F - the wrap",
+    "url": "https://dirtbikemagazine.com/riding-the-2021-yamaha-wr450f-the-wrap/",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Another 2021 test reported no stalling (um21wr). Older (2017) WR long-term tests also cured climb stalls with a map change and auto clutch."
+  },
+  {
+   "id": "ywr-076",
+   "domain": "power_feel",
+   "topic": "WR450F feel (2019, Australian spec)",
+   "applies_to": {
+    "models": [
+     "WR450F"
+    ],
+    "years": [
+     2019,
+     2020
+    ]
+   },
+   "statement": "An Australian-spec 2019 WR450F felt strong in deep sand but too aggressive and tiring on hardpack and rocks; the softer handlebar map did not calm it enough, while app maps made it far less aggressive in tight terrain.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Australasian Dirt Bike, Yamaha WR450F GYTR review (MY19)",
+    "url": "https://adbmag.com.au/editorial/yamaha-wr450f-gytr-review/",
+    "date": "2019-10"
+   },
+   "confidence": "medium",
+   "notes": "Australian bikes come with the CCU in a free competition kit."
+  },
+  {
+   "id": "ywr-077",
+   "domain": "power_feel",
+   "topic": "WR450F feel (2024)",
+   "applies_to": {
+    "models": [
+     "WR450F"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "Testers find the 2024 WR450F punchy from mid to top with better low-speed traction; the app can dial it back to roughly 250-like output for beginners, and one tester said it rides like a 350 enduro.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "MCNews (Australia), 2024 Yamaha WR450F review",
+    "url": "https://www.mcnews.com.au/?p=465596",
+    "date": "2024-03"
+   },
+   "confidence": "medium",
+   "notes": "A UK tester estimated about 45 bhp (no dyno) and wanted a sixth gear (mcnuk24wr)."
+  },
+  {
+   "id": "ywr-078",
+   "domain": "suspension",
+   "topic": "WR450F suspension character",
+   "applies_to": {
+    "models": [
+     "WR450F"
+    ],
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "WR450F suspension uses the same KYB hardware as the FX with softer trail valving, soft early in the stroke and progressive deeper; the 2024's stock settings felt firm and testers softened them with the new fork compression knobs.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, This or that? YZ450FX vs WR450F (2019)",
+    "url": "https://dirtbiketest.com/fresh-dirt/this-or-that-yz450fx-vs-wr450f/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": "2024 firmness from mcn24wr and mcnuk24wr. Firm up for fast desert (um21wr)."
+  },
+  {
+   "id": "ywr-079",
+   "domain": "known_issues",
+   "topic": "WR450F 2024 clutch pull",
+   "applies_to": {
+    "models": [
+     "WR450F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The 2024 WR450F's clutch pull felt heavy at first; moving the lever perch outward on the bar gave better leverage and a lighter pull.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "MCNews (Australia), 2024 Yamaha WR450F review",
+    "url": "https://www.mcnews.com.au/?p=465596",
+    "date": "2024-03"
+   },
+   "confidence": "low",
+   "notes": "Single tester."
+  },
+  {
+   "id": "ywr-080",
+   "domain": "ecu_electronics",
+   "topic": "GYTR competition ECU sleep mode",
+   "applies_to": {
+    "models": [
+     "WR450F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "With the GYTR competition ECU fitted, a long press of the kill button after shutdown puts it into sleep mode, turning off the taillight, odometer and map-switch light.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, first ride 2023 Yamaha WR450F",
+    "url": "https://dirtbiketest.com/fresh-dirt/first-ride-2023-yamaha-wr450f/",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ywr-081",
+   "domain": "chassis",
+   "topic": "WR450F fuel range",
+   "applies_to": {
+    "models": [
+     "WR450F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Range claims of up to 80 miles from the 2023 WR450F's tank need very gentle throttle; in sand it ran dry at 35 miles. An Australian tester estimated 80-90 km from the 2024's 7.4 L.",
+   "values": {
+    "best_case": "about 80 miles",
+    "sand": "35 miles",
+    "2024_AU_estimate": "80-90 km"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, first ride 2023 Yamaha WR450F",
+    "url": "https://dirtbiketest.com/fresh-dirt/first-ride-2023-yamaha-wr450f/",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "2024 estimate from mcn24wr."
+  },
+  {
+   "id": "ywr-082",
+   "domain": "known_issues",
+   "topic": "Australian noise-label recall",
+   "applies_to": {
+    "models": [
+     "WR450F",
+     "WR250F"
+    ],
+    "years": [
+     2016,
+     2017,
+     2018,
+     2019,
+     2020
+    ]
+   },
+   "statement": "Yamaha Australia recalled WR450F (2016-2020) and WR250F (2018-2019) bikes because the noise label showed the wrong decibel level; dealers replace the label free.",
+   "values": {
+    "WR450F_2016_2018": "CJ19W 000019-007530",
+    "WR450F_2019_2020": "CJ25W 000311-003062",
+    "WR250F_2018_2019": "CG36W 005415-007474",
+    "units": "6,599"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor Australia customer notification: WR250F/WR450F noise label",
+    "url": "https://www.yamaha-motor.com.au/ownership/support/customer-notifications/yamaha-wr250f-wr450f-noise-label",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Unit count from the government recall listing (accc). Australia only; no US recall found."
+  },
+  {
+   "id": "ywr-083",
+   "domain": "identity",
+   "topic": "WR250F generations",
+   "applies_to": {
+    "models": [
+     "WR250F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The WR250F was all-new for 2020 on the YZ250F platform, cosmetic for 2021, updated for 2022 (cams, intake port, shift cam, frame, 270 mm disc, cockpit parts), then all-new again for 2025 with only seat, graphics and ECU-lock changes for 2026.",
+   "values": {
+    "gen_A": "2020-2024",
+    "gen_B": "2025-2026",
+    "msrp_2021": "USD 8,599",
+    "msrp_2022": "USD 8,799",
+    "msrp_2025": "USD 9,099"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider, 2022 Yamaha enduro motorcycles first look",
+    "url": "https://dirtrider.com/story/dirt-bikes/2022-yamaha-enduro-motorcycles-first-look-preview",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "2021 from dr21en; 2025 from e21_25 and up25wr2; 2026 from cap26."
+  },
+  {
+   "id": "ywr-084",
+   "domain": "identity",
+   "topic": "2020 WR250F changes",
+   "applies_to": {
+    "models": [
+     "WR250F"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "The 2020 WR250F got a high-compression forged piston (13.8:1), revised valve angle, exhaust cam timing and balance factor, a lighter clutch with lighter pull, a lighter starter (one-way clutch load cut about 60%), a 350 g lighter shock, a 7.9 L tank and a two-map bar switch; Yamaha Australia claims 115 kg wet, 3 kg less.",
+   "values": {
+    "compression": "13.8:1",
+    "bore_x_stroke": "77.0 x 53.6 mm",
+    "tank": "7.9 L",
+    "claimed_wet": "115 kg (AU)",
+    "gearbox": "wide-ratio 6-speed"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "MCNews (Australia), Yamaha WR250F all new for 2020",
+    "url": "https://www.mcnews.com.au/?p=277869",
+    "date": "2019"
+   },
+   "confidence": "high",
+   "notes": "Australian-market launch coverage."
+  },
+  {
+   "id": "ywr-085",
+   "domain": "identity",
+   "topic": "2025 WR250F changes",
+   "applies_to": {
+    "models": [
+     "WR250F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The 2025 WR250F gets the YZ250F's wider cam chain, a rear-breathing airbox, a new frame with tank rail and tension pipe 15 mm lower, 10 mm less fork stroke with a compression knob, a 22 mm rear axle, 50 mm slimmer shrouds, a 2.0 gal tank, lithium battery and four-level traction control in the app.",
+   "values": {
+    "traction_control": "4 levels",
+    "fork_travel": "300 mm",
+    "tank": "2.0 gal / 7.4 L",
+    "claimed_wet_AU": "113 kg",
+    "wet_US": "249 lb"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21, first look 2025 Yamaha WR range",
+    "url": "https://enduro21.com/en/news/first-look-2025-yamaha-wr-range-heavy-focus-on-the-wr250f",
+    "date": "2024-07"
+   },
+   "confidence": "high",
+   "notes": "Weights from mcn25wr2 (AU, 2 kg lighter) and up25wr2 (US)."
+  },
+  {
+   "id": "ywr-086",
+   "domain": "power_feel",
+   "topic": "WR250F dyno 2021",
+   "applies_to": {
+    "models": [
+     "WR250F"
+    ],
+    "years": [
+     2020,
+     2021
+    ]
+   },
+   "statement": "On a Dynojet 250i the 2021 WR250F made 36.1 hp at 12,000 rpm and 17.9 lb-ft at 8,100 rpm, 2.9 hp and 0.1 lb-ft less than the YZ250F.",
+   "values": {
+    "peak_hp": "36.1 hp @ 12,000 rpm",
+    "peak_torque": "17.9 lb-ft @ 8,100 rpm",
+    "vs_YZ250F": "-2.9 hp, -0.1 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider, 2021 Yamaha WR250F dyno test",
+    "url": "https://www.dirtrider.com/story/tests/2021-yamaha-wr250f-dyno-test",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Dynojet 250i rear-wheel; restriction state not stated (bike described with USFS spark arrestor, red-sticker eligible, not green-sticker)."
+  },
+  {
+   "id": "ywr-087",
+   "domain": "engine_mods",
+   "topic": "WR250F uncorking steps (2020-2025)",
+   "applies_to": {
+    "models": [
+     "WR250F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Owners uncork the US WR250F by removing the security-Torx throttle stop screw and plugging the hole with a short 5 mm bolt, drilling two rivets to remove the muffler restrictor, and snapping off the white intake restrictor behind the backfire screen; removing the tail pipe or spark arrestor runs it lean and should be paired with the competition ECU and about +2 fuel.",
+   "values": {
+    "throttle_stop_bit": "Torx CR-VT25 security",
+    "exhaust_restrictor": "2 rivets, 1/8 in drill",
+    "lean_risk": "start +2 fuel if tail pipe/arrestor removed"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Owner technical site (robrobinette.com), WR250F uncork",
+    "url": "https://robrobinette.com/WR250F_Uncork.htm",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Owner write-up; the throttle stop limiting opening to about 1/3 and the muffler restrictor are corroborated by a magazine kit test on the earlier generation (dbtkit). No dyno numbers. The 2025 uses a different traction-control ECU and the 2020-2024 competition ECU probably does not fit."
+  },
+  {
+   "id": "ywr-088",
+   "domain": "engine_mods",
+   "topic": "WR250F competition ECU effect",
+   "applies_to": {
+    "models": [
+     "WR250F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "The competition ECU made an already-uncorked WR250F run stronger but did not change off-idle response; adding the communication unit allowed a softer map with up to -9 ignition and extra low-rpm fuel for a trail feel.",
+   "values": {
+    "comp_ecu_price": "about USD 130",
+    "ccu_price": "about USD 390",
+    "ignition_retard_max": "-9"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Owner technical site (robrobinette.com), WR250F uncork",
+    "url": "https://robrobinette.com/WR250F_Uncork.htm",
+    "date": "2024"
+   },
+   "confidence": "low",
+   "notes": "Single owner, no dyno. On the earlier generation a magazine found leaning fuel cut stalling and advancing ignition sharpened response (dbtkit)."
+  },
+  {
+   "id": "ywr-089",
+   "domain": "setups",
+   "topic": "WR250F gearing and exhaust (2020)",
+   "applies_to": {
+    "models": [
+     "WR250F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "A 2020 WR250F test went from 13/50 to 13/48 to hold second through slower corners, paired with an aftermarket slip-on and header that sharpened response and saved about 1 kg but cost grip in slick going.",
+   "values": {
+    "gearing": "13/48 (stock 13/50)",
+    "exhaust_saving": "about 1 kg"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Transmoto, 2020 WR250F 12 bang-for-buck mods",
+    "url": "https://transmoto.com.au/2020-wr250f-12-bang-for-buck-mods/",
+    "date": "2020"
+   },
+   "confidence": "medium",
+   "notes": "Australian-spec bike."
+  },
+  {
+   "id": "ywr-090",
+   "domain": "power_feel",
+   "topic": "WR250F feel (2025)",
+   "applies_to": {
+    "models": [
+     "WR250F"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers find the 2025 WR250F lively with a bigger midrange kick than before; the second handlebar map is softer, flattens the midrange and adds some traction control. The fork can feel stiff on slow technical trails.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21, tested 2025 Yamaha WR250F",
+    "url": "https://enduro21.com/en/news/tested-2025-yamaha-wr250f-agile-racy-the-best-wr250f-yet",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Fork stiffness from up25wr2. Full custom mapping on the US bike needs the GYTR competition ECU (up25wr2)."
+  },
+  {
+   "id": "ywr-091",
+   "domain": "known_issues",
+   "topic": "WR250F hot restart (2025)",
+   "applies_to": {
+    "models": [
+     "WR250F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On the 2025 WR250F hot restarts can take several seconds instead of under one, worse after a stall on a hill.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21, tested 2025 Yamaha WR250F",
+    "url": "https://enduro21.com/en/news/tested-2025-yamaha-wr250f-agile-racy-the-best-wr250f-yet",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": "Similar slow hot-restart complaint on the 2022 YZ450F (dbt22)."
+  },
+  {
+   "id": "ywr-092",
+   "domain": "ecu_electronics",
+   "topic": "UK/EU map changes dealer-only",
+   "applies_to": {
+    "models": [
+     "WR250F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "UK owners of the 2025 WR250F cannot change maps themselves in the app; a dealer must do it under EU/UK rules.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21, tested 2025 Yamaha WR250F",
+    "url": "https://enduro21.com/en/news/tested-2025-yamaha-wr250f-agile-racy-the-best-wr250f-yet",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": ""
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "2018 YZ450F cylinder angle",
+   "records": [
+    "ywr-002",
+    "ywr-054"
+   ],
+   "spread": "One race test says the 2018 cylinder was tilted forward 2 degrees; the 2019 YZ450FX impression (same engine) says tilted 2 degrees rearward.",
+   "note": "Unresolved; check Yamaha press kit."
+  },
+  {
+   "topic": "first-app fuel step size",
+   "records": [
+    "ywr-005"
+   ],
+   "spread": "2% per step (2018 and 2021 race tests) vs about 3% per step (ypt-011).",
+   "note": "Possibly different tool generations."
+  },
+  {
+   "topic": "2022 YZ450F suspension changes",
+   "records": [
+    "ywr-010",
+    "ywr-033"
+   ],
+   "spread": "Race test: identical to 2021 except rear wheel; another test: slightly stiffer valving; Dirt Bike first look: updated settings.",
+   "note": "Clicker baselines in the 2022 race test (comp 9 stock) differ from the 2018 stock (8)."
+  },
+  {
+   "topic": "2018-2019 YZ450F high-speed stability",
+   "records": [
+    "ywr-025",
+    "ywr-039"
+   ],
+   "spread": "2018 race test: twitchy, loose, less stable than KTM; 2022 retrospective: 2018/2019 chassis very stable and adaptable.",
+   "note": "Different tracks and riders."
+  },
+  {
+   "topic": "YZ450F 2018-2022 peak power",
+   "records": [
+    "ywr-011",
+    "ywr-012",
+    "ywr-013",
+    "ywr-014",
+    "ywr-016"
+   ],
+   "spread": "57.55 hp (2018, brand not stated), 52.3 hp (2018 shootout), 50.09 hp (2019 Dynojet), 48.9 hp (2020), 58.56 hp (2022, brand not stated).",
+   "note": "Different dynos and correction; never compare across outlets."
+  },
+  {
+   "topic": "2020-2021 front axle inner diameter",
+   "records": [
+    "ywr-008",
+    "ywr-047"
+   ],
+   "spread": "YZ450F 2020 test: larger inside diameter; YZ450FX 2021 test: 1.4 mm smaller, about 20% less rigid.",
+   "note": "Both say outer diameter unchanged."
+  },
+  {
+   "topic": "YZ450FX gearbox type",
+   "records": [
+    "ywr-052",
+    "ywr-054"
+   ],
+   "spread": "Most sources: wide or semi-wide 5-speed; one 2021 WR review calls the FX gearbox close-ratio vs the WR's wide ratio.",
+   "note": "Likely the reviewer comparing the FX to the WR."
+  },
+  {
+   "topic": "WR450F 2021 stock vs FX output",
+   "records": [
+    "ywr-056",
+    "ywr-072",
+    "ywr-073"
+   ],
+   "spread": "Restricted WR 48.9 hp vs FX 53.0 hp on the same outlet's dyno (4.1 hp), but a tester claims uncorking gains almost 20 hp.",
+   "note": "The 20 hp claim is unmeasured or from a more restricted baseline (throttle stop in)."
+  },
+  {
+   "topic": "WR450F 2021 low-rpm stalling",
+   "records": [
+    "ywr-074"
+   ],
+   "spread": "One test: stumbles and dies leaned over at low rpm; another: no stalling even at very low rpm.",
+   "note": "Terrain and restriction state may differ."
+  }
+ ],
+ "not_found": [
+  {
+   "item": "2018-2019 YZ450F clutch complaints",
+   "searched": "race tests 2018-2022, Vital MX, forum search for clutch slipping/fade",
+   "note": "Every test praised the 2018-2022 cable clutch; only one forum thread (2018, third-gear skipping, cause unknown, single owner) found. Not recorded as a known issue."
+  },
+  {
+   "item": "US recalls or service bulletins for YZ450F 2018-2022, YZ450FX, WR250F, WR450F 2020-2026",
+   "searched": "CPSC recall search terms, Yamaha recall queries",
+   "note": "Only the Australian WR noise-label recall found."
+  },
+  {
+   "item": "Dynos for YZ450FX 2019-2020 and 2022-2026, WR450F 2024+, WR250F 2022+",
+   "searched": "magazine dyno queries",
+   "note": "Only 2021 FX/WR dynos found; a 2018 FX Dynojet run (50.5 hp @ 9,250, 32.4 lb-ft @ 6,940) is outside this slice (previous FX generation)."
+  },
+  {
+   "item": "Measured before/after dyno of uncorked WR450F or WR250F",
+   "searched": "GYTR kit, throttle stop, exhaust insert dyno queries",
+   "note": "Only subjective or claimed gains published."
+  },
+  {
+   "item": "WR cold-start problems 2020-2026",
+   "searched": "WR450F/WR250F stalling cold start queries",
+   "note": "No credible repeated reports; only hot-restart and low-rpm stall reports recorded."
+  },
+  {
+   "item": "Measured weights for YZ450FX and WR models 2019-2026",
+   "searched": "tests above",
+   "note": "Only claimed weights published (FX 251 lb, WR450F 262 lb wet 2021 tester-quoted spec, WR250F 249 lb)."
+  },
+  {
+   "item": "2026 YZ450FX frame/hydraulic clutch status",
+   "searched": "Yamaha 2026 FX feature page",
+   "note": "Not mentioned on the feature page."
+  },
+  {
+   "item": "Absolute dyno numbers for 2021 YZ450F race test",
+   "searched": "race test text",
+   "note": "Only curve comparison in text; chart not machine-readable."
+  }
+ ],
+ "sources": [
+  {
+   "type": "magazine",
+   "name": "Motocross Action, MXA race test: 2018 Yamaha YZ450F",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2018-yamaha-yz450f1",
+   "date": "2017"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action, problem-solving 2018 YZ450F build (Cycra/FTI)",
+   "url": "https://motocrossactionmag.com/mxa-rides-cycra-racings-problem-solving-2018-yamaha-yz450f",
+   "date": "2018"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike, 2019 Yamaha YZ450F full test",
+   "url": "https://dirtbikemagazine.com/2019-yamaha-yz450f-full-test/",
+   "date": "2019"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike, 2020 Yamaha YZ450F full test",
+   "url": "https://dirtbikemagazine.com/2020-yamaha-yz450f-full-test",
+   "date": "2020"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider, 2020 Yamaha YZ450F dyno test",
+   "url": "https://www.dirtrider.com/story/tests/2020-yamaha-yz450f-dyno-test",
+   "date": "2020"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle World / Dirt Rider, 2019 Yamaha YZ450F dyno",
+   "url": "https://www.cycleworld.com/2019-yamaha-yz450f-dyno",
+   "date": "2019"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirtbikes.com, 2018 450cc motocross shootout",
+   "url": "https://dirtbikes.com/2018-450cc-motocross-shootout-whos-the-best/2",
+   "date": "2018"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action, MXA race test: 2021 Yamaha YZ450F",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2021-yamaha-yz450f",
+   "date": "2020-12"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action, MXA race test: 2022 Yamaha YZ450F",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2022-yamaha-yz450f",
+   "date": "2021"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Test, 2022 Yamaha YZ450F - same bike, new reputation",
+   "url": "https://dirtbiketest.com/fresh-dirt/2022-yamaha-yz450f-same-bike-new-reputation/",
+   "date": "2021"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Test, first look 2022 Yamaha four-stroke models",
+   "url": "https://dirtbiketest.com/fresh-dirt/first-look-2022-yamaha-four-stroke-models/",
+   "date": "2021"
+  },
+  {
+   "type": "magazine",
+   "name": "Racer X, insight: new 2021 Yamahas",
+   "url": "https://racerxonline.com/2020/07/09/insight-new-yamahas",
+   "date": "2020-07"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Test, 2019 Yamaha YZ450FX riding impression",
+   "url": "https://dirtbiketest.com/fresh-dirt/2019-yamaha-yz450fx-riding-impression",
+   "date": "2018-09"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Test, 2021 Yamaha YZ450FX test",
+   "url": "https://dirtbiketest.com/bike-tests/2021-yamaha-yz450fx/",
+   "date": "2021"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider, 2021 Yamaha YZ450FX dyno test",
+   "url": "https://dirtrider.com/story/tests/2021-yamaha-yz450fx-dyno-test",
+   "date": "2021"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action, MXA race test: 2024 Yamaha YZ450FX cross-country",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz450fx-cross-country",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Test, 2024 Yamaha YZ450FX test",
+   "url": "https://dirtbiketest.com/bike-tests/2024-yamaha-yz450fx/",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Test, 2025 Yamaha YZ450FX test",
+   "url": "https://dirtbiketest.com/bike-tests/2025-yamaha-yz450fx/",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Test, 2024-2025 YZ450FX chassis setup tips",
+   "url": "https://dirtbiketest.com/fresh-dirt/2024-2025-yz450fx-chassis-setup-tips/",
+   "date": "2025"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Yamaha Motor USA, 2026 YZ450FX features page",
+   "url": "https://www.yamahamotorsports.com/models/26-yz450fx/features",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Test, This or that? YZ450FX vs WR450F (2019)",
+   "url": "https://dirtbiketest.com/fresh-dirt/this-or-that-yz450fx-vs-wr450f/",
+   "date": "2019"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider, 2021 Yamaha WR450F dyno test",
+   "url": "https://dirtrider.com/story/tests/2021-yamaha-wr450f-dyno-test",
+   "date": "2021"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider, 2021 Yamaha enduro motorcycles revealed",
+   "url": "https://dirtrider.com/story/dirt-bikes/2021-yamaha-enduro-motorcycles-revealed",
+   "date": "2020"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider, 2022 Yamaha enduro motorcycles first look",
+   "url": "https://dirtrider.com/story/dirt-bikes/2022-yamaha-enduro-motorcycles-first-look-preview",
+   "date": "2021"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike, riding the 2021 Yamaha WR450F - the wrap",
+   "url": "https://dirtbikemagazine.com/riding-the-2021-yamaha-wr450f-the-wrap/",
+   "date": "2021"
+  },
+  {
+   "type": "magazine",
+   "name": "Ultimate Motorcycling, 2021 Yamaha WR450F review",
+   "url": "https://ultimatemotorcycling.com/2021/08/17/2021-yamaha-wr450f-review-18-fast-facts-from-the-trail/",
+   "date": "2021-08"
+  },
+  {
+   "type": "magazine",
+   "name": "Australasian Dirt Bike, Yamaha WR450F GYTR review (MY19)",
+   "url": "https://adbmag.com.au/editorial/yamaha-wr450f-gytr-review/",
+   "date": "2019-10"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Test, first look: all-new 2024 Yamaha WR450F",
+   "url": "https://dirtbiketest.com/fresh-dirt/first-look-all-new-2024-yamaha-wr450f/",
+   "date": "2023-09"
+  },
+  {
+   "type": "magazine",
+   "name": "MCNews (Australia), 2024 Yamaha WR450F review",
+   "url": "https://www.mcnews.com.au/?p=465596",
+   "date": "2024-03"
+  },
+  {
+   "type": "magazine",
+   "name": "Motorcycle News (UK), 2024 Yamaha WR450F review",
+   "url": "https://motorcyclenews.com/bike-reviews/yamaha/wr450f",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Motorcycle.com, Yamaha announces revamped WR450F",
+   "url": "https://www.motorcycle.com/bikes/news/yamaha-announces-revamped-wr450f-44594662",
+   "date": "2023-09"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Test, first ride 2023 Yamaha WR450F",
+   "url": "https://dirtbiketest.com/fresh-dirt/first-ride-2023-yamaha-wr450f/",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21, first look 2025 Yamaha WR range",
+   "url": "https://enduro21.com/en/news/first-look-2025-yamaha-wr-range-heavy-focus-on-the-wr250f",
+   "date": "2024-07"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21, tested 2025 Yamaha WR250F",
+   "url": "https://enduro21.com/en/news/tested-2025-yamaha-wr250f-agile-racy-the-best-wr250f-yet",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "MCNews (Australia), 2025 Yamaha WR250F announcement",
+   "url": "https://www.mcnews.com.au/?p=486076",
+   "date": "2024-07"
+  },
+  {
+   "type": "magazine",
+   "name": "Upshift, 2025 Yamaha WR250F tested in Idaho",
+   "url": "https://upshiftonline.com/blogs/content/2025-yamaha-wr250f-tested-in-idahos-high-country",
+   "date": "2025"
+  },
+  {
+   "type": "dealer",
+   "name": "Capital Moto, 2026 Yamaha WR range",
+   "url": "https://www.capitalmoto.com/2026-yamaha-wr-range/",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "MCNews (Australia), Yamaha WR250F all new for 2020",
+   "url": "https://www.mcnews.com.au/?p=277869",
+   "date": "2019"
+  },
+  {
+   "type": "magazine",
+   "name": "Transmoto, 2025 WR250F: tracking its model evolution",
+   "url": "https://transmoto.com.au/2025-wr250f-we-track-its-25-model-evolution",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Transmoto, 2020 WR250F 12 bang-for-buck mods",
+   "url": "https://transmoto.com.au/2020-wr250f-12-bang-for-buck-mods/",
+   "date": "2020"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider, 2021 Yamaha WR250F dyno test",
+   "url": "https://www.dirtrider.com/story/tests/2021-yamaha-wr250f-dyno-test",
+   "date": "2021"
+  },
+  {
+   "type": "forum",
+   "name": "Owner technical site (robrobinette.com), WR250F uncork",
+   "url": "https://robrobinette.com/WR250F_Uncork.htm",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Test, Yamaha GYTR Competition Kit for WR250F",
+   "url": "https://dirtbiketest.com/product-tests/yamaha-gytr-competition-kit-wr250f",
+   "date": "2015"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Yamaha Motor Australia customer notification: WR250F/WR450F noise label",
+   "url": "https://www.yamaha-motor.com.au/ownership/support/customer-notifications/yamaha-wr250f-wr450f-noise-label",
+   "date": "2020"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Australian Government vehicle recalls, REC-001652 (Yamaha WR450F/WR250F)",
+   "url": "https://vehiclerecalls.gov.au/recalls/rec-001652",
+   "date": "2020"
+  }
+ ]
+}

@@ -1,0 +1,2920 @@
+{
+ "slice": "KTM-family off-road four-strokes 2020-2026 (KTM 250/350/450 XC-F, 450 XCF-W; Husqvarna FX 350/450, FE 450; GasGas EX 250F/350F/450F, EC 450F) - differences from SX-F/FC/MC, generations, dynos, electronics, setups, issues",
+ "platform": {
+  "make": "KTM",
+  "models": [
+   "250 XC-F",
+   "350 XC-F",
+   "450 XC-F",
+   "450 XCF-W",
+   "Husqvarna FX 350",
+   "Husqvarna FX 450",
+   "Husqvarna FE 450",
+   "GasGas EX 250F",
+   "GasGas EX 350F",
+   "GasGas EX 450F",
+   "GasGas EC 450F"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ]
+ },
+ "records": [
+  {
+   "id": "ko4-001",
+   "domain": "identity",
+   "topic": "how the XC-F differs from the SX-F",
+   "applies_to": {
+    "models": [
+     "250 XC-F",
+     "350 XC-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The XC-F cross-country bikes use the SX-F motocross engine, frame and electronics but add an 18-inch rear wheel, a bigger fuel tank (2.25 vs 1.9 gal), a kickstand, skid plate, handguards and an O-ring chain, and from 2024 a spring fork instead of the SX-F air fork. Motor, mapping, exhaust and sound level are the same as the SX-F per this test.",
+   "values": {
+    "tank_xcf": "2.25 gal",
+    "tank_sxf": "1.9 gal",
+    "rear_wheel": "18 in",
+    "fork_2024_on": "WP XACT closed-cartridge spring (SX-F: XACT air)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: Riding the 2025 KTM 450XC-F (The Wrap)",
+    "url": "https://dirtbikemagazine.com/riding-the-2025-ktm-450xc-f-the-wrap/",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Magazine reporting of KTM spec. 'Unchanged' list (motor, mapping, gear ratios, exhaust, sound, 13-51 gearing) is stated relative to the SX-F for the 450; for 250/350 the XC-F has a 6-speed gearbox instead of the SX-F 5-speed (see drivetrain records)."
+  },
+  {
+   "id": "ko4-002",
+   "domain": "identity",
+   "topic": "2020-2022 generation",
+   "applies_to": {
+    "models": [
+     "250 XC-F",
+     "350 XC-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "The 2020-2022 XC-F bikes share the 2019-generation SX-F frame and engines and use the WP XACT air fork (310 mm / 12.2 in travel). 2020 changes were limited to new fork and shock settings, a new fork piston and a new shock compression adjuster. The 2020 350 XC-F listed at $10,499 with a claimed 222 lb dry weight.",
+   "values": {
+    "msrp_2020_350xcf": "$10,499",
+    "claimed_dry_weight_350xcf": "222 lb",
+    "fork_travel": "12.2 in",
+    "tank": "2.25 gal",
+    "gearbox_350": "6-speed"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider buyer's guide: 2020 KTM 350 XC-F",
+    "url": "https://www.dirtrider.com/story/buyers-guide/2020-ktm-350-xc-f",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": "Buyer's guide reprint of KTM data. Generation boundary (2019-2022) from 2023 new-generation coverage."
+  },
+  {
+   "id": "ko4-003",
+   "domain": "identity",
+   "topic": "2023 new generation",
+   "applies_to": {
+    "models": [
+     "250 XC-F",
+     "350 XC-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "For 2023 the XC-F moved to the new SX-F platform: new cylinder head and crankcases, engine tilted back 2 degrees with the countershaft sprocket 3 mm lower, a die-cast swingarm 190 g lighter, a 22 mm rear axle (old 25 mm wheels will not fit), a 15 mm shorter WP XACT shock, a polyamide/aluminium subframe, a new fuel pump that empties the tank further and compact switches with map, traction control and quickshift buttons. It kept the XACT air fork. The 450 XC-F was $11,649 and weighed 246 lb wet on the magazine scale, 6 lb more than before.",
+   "values": {
+    "msrp_450xcf": "$11,649",
+    "measured_wet_weight_450xcf": "246 lb",
+    "weight_change": "+6 lb",
+    "swingarm_saving": "190 g",
+    "rear_axle": "22 mm",
+    "shock_length_change": "-15 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2023 KTM 450 XC-F Technical Information",
+    "url": "https://dirtrider.com/story/dirt-bikes/ktm-450-xc-f-technical-information-2023",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Weight is Dirt Rider measured; most other items are KTM press data reported by Dirt Rider."
+  },
+  {
+   "id": "ko4-004",
+   "domain": "identity",
+   "topic": "2024 model year changes",
+   "applies_to": {
+    "models": [
+     "250 XC-F",
+     "350 XC-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "For 2024 every XC-F got a WP XACT closed-cartridge spring fork in place of the air fork, with a hydro-stop in the last 68 mm and a new mid-valve piston; travel dropped 10 mm to 300 mm. A clutchless upshift quickshifter became standard (2nd-5th on the 450, 2nd-6th on the 250/350), and 2023 six-speed owners can add it with a software update.",
+   "values": {
+    "fork_travel": "300 mm (11.8 in), was 310 mm",
+    "hydrostop_zone": "last 68 mm",
+    "fork_length": "940 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: First Look 2024 KTM off-road models",
+    "url": "https://motocrossactionmag.com/first-look-2024-ktm-off-road-models-450xcf-300xc-350xcf-125xc-250xc-250xcf",
+    "date": "2023-05"
+   },
+   "confidence": "high",
+   "notes": "KTM press info via MXA first look; travel change and QS ranges confirmed by Ultimate Motorcycling first look. One Cycle News 2025 article also lists the spring fork as replacing the air fork, which reads as a repeat of the 2024 change."
+  },
+  {
+   "id": "ko4-005",
+   "domain": "identity",
+   "topic": "2025 model year changes",
+   "applies_to": {
+    "models": [
+     "250 XC-F",
+     "350 XC-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "2025 XC-F bikes got the frame first used on the 2024.5 Factory Edition SX-F (cut-outs and changed wall thickness at the head tube, engine mount and shock mount, about 300 g lighter and more flexible), a swingarm with a machined chain slider, linkage with smaller bolts and new seals, new fork and shock settings, a stiffer one-piece air inlet sleeve and snorkel, bi-composite shrouds and a stronger rear brake pedal. The Connectivity Unit Offroad became an optional kit. 450 XC-F MSRP $12,199.",
+   "values": {
+    "frame_saving": "about 300 g",
+    "msrp_450xcf": "$12,199"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Racer X: KTM touts advancements for 2025 XC cross-country bikes",
+    "url": "https://racerxonline.com/2024/04/18/ktm-touts-advancements-for-2025-xc-cross-country-bikes",
+    "date": "2024-04"
+   },
+   "confidence": "high",
+   "notes": "KTM press data via Racer X; MSRP from Dirt Bike Magazine 2025 test."
+  },
+  {
+   "id": "ko4-006",
+   "domain": "identity",
+   "topic": "2026 line-up and changes",
+   "applies_to": {
+    "models": [
+     "250 XC-F",
+     "450 XC-F",
+     "350 XC-F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "For 2026 KTM sold only the 250 XC-F and 450 XC-F as standard four-stroke XC models; the 350 XC-F came only as a Factory Edition. Shared updates were a threaded radiator cap, a protective cap on the fuel-line connector, Dunlop AT82 tyres and new graphics; the XC tank is listed at 9 L (2.37 gal).",
+   "values": {
+    "tank": "9 L (2.37 gal)",
+    "tyres": "Dunlop Geomax AT82"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21: First look 2026 KTM XC off-road line-up",
+    "url": "https://enduro21.com/en/news/first-look-2026-ktm-xc-two-and-four-stroke-off-road-line-up-no-350-f",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "KTM press data via Enduro21; Dirt Bike Test 2026 first look confirms no standard 350 XC-F and the same small changes."
+  },
+  {
+   "id": "ko4-007",
+   "domain": "identity",
+   "topic": "2026 350 XC-F Factory Edition",
+   "applies_to": {
+    "models": [
+     "350 XC-F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The 2026 350 XC-F Factory Edition ($13,549) adds an FMF muffler, factory triple clamps, wheels, seat and skid plate, a start device, semi-floating front disc, Hinson clutch cover and a standard Connectivity Unit Offroad with GPS sensor, on top of the XC-F spring fork and six-speed Pankl gearbox.",
+   "values": {
+    "msrp": "$13,549"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "RideApart: KTM 2026 350 XC-F Factory Edition",
+    "url": "https://www.rideapart.com/news/775789/ktm-2026-xcf-factory-edition-dirt-bike-update-specs-price/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "KTM press data via RideApart. A 2023 350 XC-F Factory Edition also existed (Dirt Rider tech page, details not rendered)."
+  },
+  {
+   "id": "ko4-008",
+   "domain": "identity",
+   "topic": "450 XCF-W return for 2023",
+   "applies_to": {
+    "models": [
+     "450 XCF-W"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "The 450 XCF-W returned for 2023 as an off-road competition model replacing the emissions-limited 500 XCF-W. Compared with the EXC-F it has no reed valve in the intake boot, no evaporative system, a more open exhaust and its own map. It kept the older (pre-2023) frame with a WP XPLOR coil fork and linkless PDS shock, and cost $11,649.",
+   "values": {
+    "msrp": "$11,649"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: 2023 KTM 450XCF-W Full Test",
+    "url": "https://dirtbikemagazine.com/2023-ktm-450xcf-w-full-test/",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Cycle News 2023 range announcement also describes it as an 'uncorked' version with improved airflow, no airbox reed system, more open exhaust and unique map. Imported as closed-course; not marketed as dual-sport."
+  },
+  {
+   "id": "ko4-009",
+   "domain": "identity",
+   "topic": "450 XCF-W 2024 new generation",
+   "applies_to": {
+    "models": [
+     "450 XCF-W"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "For 2024 the 450 XCF-W moved to the new-generation chassis and engine (frame, polyamide subframe and swingarm new, engine tilted 2 degrees back, sprocket 3 mm lower). It got a WP XACT closed-cartridge spring fork (300 mm) and a new WP XPLOR PDS shock (310 mm), a 6-speed wide-ratio gearbox, a 42 mm throttle body and an LED headlight about 300% brighter. KTM claims 107.4 kg without fuel; MSRP $11,999.",
+   "values": {
+    "claimed_weight_no_fuel": "107.4 kg (236.7 lb)",
+    "fork_travel": "300 mm",
+    "shock_travel": "310 mm",
+    "throttle_body": "42 mm",
+    "tank": "8.5 L (2.24 gal)",
+    "msrp": "$11,999"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News: New 2024 KTM 450 XCF-W Four-Stroke Model Specs",
+    "url": "https://www.cyclenews.com/2023/05/article/new-2024-ktm-450-xcf-w-four-stroke-model-specs/",
+    "date": "2023-05"
+   },
+   "confidence": "high",
+   "notes": "MSRP from Ultimate Motorcycling 2024 review."
+  },
+  {
+   "id": "ko4-010",
+   "domain": "identity",
+   "topic": "450 XCF-W 2025-2026 changes",
+   "applies_to": {
+    "models": [
+     "450 XCF-W"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "2025 brought a revised swingarm and new XPLOR shock settings ($12,149). For 2026 the fork got shorter, lighter main springs (about 200 g lighter overall), a new pressure reservoir and a one-piece hydrostop, with shock settings revised to match, plus a strapless headlight mask, a threaded radiator cap and a firmer tank mount.",
+   "values": {
+    "msrp_2025": "$12,149",
+    "fork_weight_saving_2026": "about 200 g"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM USA 2026 450 XCF-W model page",
+    "url": "https://www.ktm.com/en-us/models/enduro/4-stroke/2026-ktm-450-xcfw.html",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "2025 details from Cycle World buyer's guide; 2026 from KTM US model page."
+  },
+  {
+   "id": "ko4-011",
+   "domain": "identity",
+   "topic": "Husqvarna FX 2023 generation",
+   "applies_to": {
+    "models": [
+     "Husqvarna FX 350",
+     "Husqvarna FX 450"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "The 2023 Husqvarna FX 350 and FX 450 moved to the new FC platform with the same changes as KTM (die-cast swingarm 0.4 lb lighter, 22 mm axle, hybrid subframe). The FX 450 has a 5-speed with standard quickshift and still used the XACT air fork in 2023. It weighed 243 lb wet on the magazine scale and listed at $11,649.",
+   "values": {
+    "measured_wet_weight_fx450": "243 lb",
+    "msrp_fx450": "$11,649",
+    "rear_sprocket": "52T (was 48T)",
+    "fork_travel": "12.2 in"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2023 Husqvarna FX 450 Technical Information",
+    "url": "https://dirtrider.com/dirt-bikes/husqvarna-fx-450-technical-information-2023",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Weight measured by Dirt Rider; other items are Husqvarna data."
+  },
+  {
+   "id": "ko4-012",
+   "domain": "identity",
+   "topic": "Husqvarna FX 2024-2025 changes",
+   "applies_to": {
+    "models": [
+     "Husqvarna FX 350",
+     "Husqvarna FX 450"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "For 2024 the FX bikes got the WP XACT closed-cartridge spring fork and the FX 350 gained a standard quickshifter (2023 FX 350 owners can add it by software update). For 2025 they got the more flexible frame and Brembo brakes returned; the FX 350 was $12,049. The FX keeps the FC engine, mapping and exhaust and has a lower seat height than the KTM.",
+   "values": {
+    "msrp_fx350_2025": "$12,049"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: 2025 Husqvarna FX350 Full Test",
+    "url": "https://dirtbikemagazine.com/2025-husqvarna-fx350-full-test/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "2024 items from Enduro21 first look (Husqvarna data); 2025 items and feel from Dirt Bike Magazine test."
+  },
+  {
+   "id": "ko4-013",
+   "domain": "identity",
+   "topic": "Husqvarna FX 450 gap year",
+   "applies_to": {
+    "models": [
+     "Husqvarna FX 350",
+     "Husqvarna FX 450"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Husqvarna did not offer the FX 450 for 2026 (only the FX 350, with AT82 tyres, a threaded radiator cap and a fuel-line cap); the FX 450 returned for 2027.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21: Quick Look 2027 Husqvarna cross-country range - FX 450 returns",
+    "url": "https://enduro21.com/en/news/quick-look-2027-husqvarna-cross-country-range-fx-450-returns-to-the-line-up",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "Dirt Bike Magazine 2026 Husqvarna line-up also lists only the FX 350."
+  },
+  {
+   "id": "ko4-014",
+   "domain": "identity",
+   "topic": "Husqvarna FE 450 (competition enduro) 2023",
+   "applies_to": {
+    "models": [
+     "Husqvarna FE 450"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "The 2023 Husqvarna FE 450 returned after three years as the off-road competition enduro, based on the FC 450 with a 12.75:1 engine, 42 mm throttle body, Pankl 6-speed with per-gear mapping, two maps plus traction control, a 2.4 gal tank and a claimed 251 lb curb weight. It uses a linkage WP XACT shock, not KTM's PDS.",
+   "values": {
+    "compression": "12.75:1",
+    "throttle_body": "42 mm",
+    "tank": "2.4 gal",
+    "claimed_curb_weight": "251 lb",
+    "rake": "26.5 deg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling: 2023 Husqvarna FE 450 First Look",
+    "url": "https://ultimatemotorcycling.com/2022/05/04/2023-husqvarna-fe-450-first-look-6-fast-facts-new-model/",
+    "date": "2022-05"
+   },
+   "confidence": "medium",
+   "notes": "Husqvarna data via Ultimate Motorcycling first look."
+  },
+  {
+   "id": "ko4-015",
+   "domain": "identity",
+   "topic": "Husqvarna FE 450 2024 new generation",
+   "applies_to": {
+    "models": [
+     "Husqvarna FE 450"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "The 2024 FE 450 got the new chromoly frame and hybrid subframe, a WP XACT closed-cartridge fork replacing the XPLOR fork, a linkage XACT shock, Braktec brakes and clutch, a fuse-less off-road control unit and pegs with 27% more area set 3 mm lower. Claimed weight 109.8 kg without fuel with an 8 L tank. 2025 MSRP $12,249.",
+   "values": {
+    "claimed_weight_no_fuel": "109.8 kg",
+    "tank": "8 L",
+    "msrp_2025": "$12,249",
+    "footpeg_area": "+27%"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "MotoOnline: Tested 2024 Husqvarna FE range",
+    "url": "https://www.motoonline.com/au/tested-2024-husqvarna-fe-range/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Australian launch data; US price from Cycle World 2025 XCF-W page competitor list."
+  },
+  {
+   "id": "ko4-016",
+   "domain": "identity",
+   "topic": "GasGas EX first generation vs KTM",
+   "applies_to": {
+    "models": [
+     "GasGas EX 250F",
+     "GasGas EX 350F",
+     "GasGas EX 450F"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "The first GasGas EX four-strokes (2021) used the KTM XC-F engine, frame, suspension, wheels and brakes but with forged instead of billet triple clamps, a softer rounder seat, no resonance chamber on the mid-pipe, no hour meter, no map switch fitted and a lower price ($9,999 vs $10,699 for the KTM 350 XC-F).",
+   "values": {
+    "msrp_ex350f_2021": "$9,999",
+    "msrp_ktm350xcf_2021": "$10,699",
+    "map_switch_kit": "$160"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: Race Test of the 2021 GasGas EX 350F cross-country",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-gasgas-ex-350f",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Magazine test. 2023 EX models are assumed to keep this generation (GasGas's 2024 range brought the new frame); not separately confirmed."
+  },
+  {
+   "id": "ko4-017",
+   "domain": "identity",
+   "topic": "GasGas EX 2024 changes and differences from MC",
+   "applies_to": {
+    "models": [
+     "GasGas EX 250F",
+     "GasGas EX 350F",
+     "GasGas EX 450F"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "For 2024 the GasGas EX got the new frame with an aluminium subframe (KTM/Husqvarna use polyamide hybrids), Braktec brakes, a 9 L tank (+0.5 L) with integrated pump, an 18-inch rear wheel, sidestand, off-road race mapping and a WP XACT closed-cartridge spring fork where the MC has an air fork. The map switch (2 maps, traction control, quickshifter) is an optional accessory, unlike the standard switch on the KTM XC-F.",
+   "values": {
+    "tank": "9 L",
+    "claimed_weight_ex450f_no_fuel": "105.8 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas Canada: 2024 EX 450F model page",
+    "url": "https://www.gasgas.com/en-ca/models/cross-country/4-stroke/ex-450f-2024.html",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Combined from GasGas Canada page and Vital MX launch report."
+  },
+  {
+   "id": "ko4-018",
+   "domain": "identity",
+   "topic": "GasGas EX and EC 450F dropped for 2026",
+   "applies_to": {
+    "models": [
+     "GasGas EX 250F",
+     "GasGas EX 350F",
+     "GasGas EX 450F",
+     "GasGas EC 450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "GasGas dropped the EX 250F, EX 350F, EX 450F and EC 450F for 2026; the EX 300 two-stroke was its only cross-country model, and enduro four-strokes were the EC 350F and EC 500F.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21: First look 2026 GasGas off-road range",
+    "url": "https://enduro21.com/en/news/first-look-2026-gasgas-off-road-range-black-rims-and-fan-450-enduro-model-ditched",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Cycle News 2026 GasGas specs article also lists only the EX 300 cross-country model."
+  },
+  {
+   "id": "ko4-019",
+   "domain": "identity",
+   "topic": "GasGas EC 450F (competition enduro)",
+   "applies_to": {
+    "models": [
+     "GasGas EC 450F"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "The GasGas EC 450F (US from October 2023) is the GasGas version of the KTM 450 XCF-W and Husqvarna FE 450: 12.75:1 compression, 42 mm throttle body, Pankl 6-speed with a map per gear, a WP XPLOR open-cartridge fork and linkage WP XACT shock, a 2.4 gal tank and an LED headlight. Claimed 244 lb without fuel; MSRP $11,399.",
+   "values": {
+    "compression": "12.75:1",
+    "throttle_body": "42 mm",
+    "tank": "2.4 gal",
+    "claimed_weight_no_fuel": "244 lb",
+    "msrp": "$11,399"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2024 GasGas Enduro Bikes First Look",
+    "url": "https://dirtrider.com/dirt-bikes/gasgas-enduro-bikes-first-look-2024",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "GasGas data via Dirt Rider first look."
+  },
+  {
+   "id": "ko4-020",
+   "domain": "engine_architecture",
+   "topic": "450 XC-F engine",
+   "applies_to": {
+    "models": [
+     "450 XC-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 450 XC-F engine is the SX-F SOHC unit: 95 x 63.4 mm, 13.1:1 compression, 44 mm Keihin throttle body, 40 mm intake and 33 mm exhaust valves with DLC-coated rocker arms; KTM quotes 59 lb engine weight.",
+   "values": {
+    "bore_stroke": "95 x 63.4 mm",
+    "compression": "13.1:1",
+    "throttle_body": "44 mm",
+    "intake_valve": "40 mm",
+    "exhaust_valve": "33 mm",
+    "engine_weight": "59 lb"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2024 450 XC-F model page",
+    "url": "https://www.ktm.com/es-ve/models/cross-country/4-tiempos/2024-ktm-450-xc-f.html",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "13.1:1 also in Dirt Rider 2023/2025 data."
+  },
+  {
+   "id": "ko4-021",
+   "domain": "engine_architecture",
+   "topic": "enduro 450 vs XC-F 450 engine spec",
+   "applies_to": {
+    "models": [
+     "450 XCF-W",
+     "Husqvarna FE 450",
+     "GasGas EC 450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The enduro 450s (KTM 450 XCF-W, Husqvarna FE 450, GasGas EC 450F) run 12.75:1 compression and a 42 mm throttle body, against 13.1:1 and 44 mm on the 450 XC-F/FX 450/EX 450F, and use a wide-ratio 6-speed instead of the XC-F's 5-speed.",
+   "values": {
+    "compression_enduro": "12.75:1",
+    "compression_xcf": "13.1:1",
+    "tb_enduro": "42 mm",
+    "tb_xcf": "44 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle World: 2025 KTM 450 XCF-W",
+    "url": "https://cycleworld.com/ktm/450-xcf-w",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Cycle World (KTM data) for XCF-W; Husqvarna/GasGas figures from Ultimate Motorcycling and Dirt Rider first looks. Dirt Bike Magazine said the 2023 XCF-W shared the 2022 450 XC-F compression and valve sizes, which disagrees with the 12.75:1 figure."
+  },
+  {
+   "id": "ko4-022",
+   "domain": "engine_architecture",
+   "topic": "XC-F 250/350 compression and layout",
+   "applies_to": {
+    "models": [
+     "250 XC-F",
+     "350 XC-F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "KTM lists the 350 XC-F at 88 x 57.5 mm, DOHC, 14.6:1, and the 250 XC-F at 81 x 48.5 mm, DOHC, 14.5:1.",
+   "values": {
+    "350_bore_stroke": "88 x 57.5 mm",
+    "350_compression": "14.6:1",
+    "250_bore_stroke": "81 x 48.5 mm",
+    "250_compression": "14.5:1"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling: 2024 KTM Cross Country Lineup First Look",
+    "url": "https://ultimatemotorcycling.com/2023/05/01/2024-ktm-cross-country-lineup-first-look-xc-and-xc-f/",
+    "date": "2023-05"
+   },
+   "confidence": "medium",
+   "notes": "The article labels the 250 lines '250 SX-F' (likely a copy error). Dirt Rider listed the 2022 350 XC-F at 14.2:1 (previous generation)."
+  },
+  {
+   "id": "ko4-023",
+   "domain": "engine_architecture",
+   "topic": "450 XCF-W intake and exhaust",
+   "applies_to": {
+    "models": [
+     "450 XCF-W"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 450 XCF-W intake boot has no reed valve (the EXC-F and old XCF-W used one) and the evaporative system is gone. KTM fits a two-piece header close to the engine and a short aluminium silencer with spark arrestor; the bike is much quieter than the competition models and gives up some power to the exhaust. The 2026 airbox adds an enduro splash protector underneath.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: 2023 KTM 450XCF-W Full Test",
+    "url": "https://dirtbikemagazine.com/2023-ktm-450xcf-w-full-test/",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Combined from Dirt Bike Magazine 2023 test, Cycle News 2023 announcement and KTM 2026 page. No dB figure found."
+  },
+  {
+   "id": "ko4-024",
+   "domain": "engine_architecture",
+   "topic": "GasGas EX exhaust header",
+   "applies_to": {
+    "models": [
+     "GasGas EX 250F",
+     "GasGas EX 350F"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "Early GasGas EX four-strokes use a straight-tube header with no resonance chamber, where the KTM uses a resonance-chamber header; testers count this as one reason the EX made less peak power.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2021 GasGas EX 250F Dyno Test",
+    "url": "https://dirtrider.com/story/tests/2021-gasgas-ex-250f-dyno-test",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "MXA 2021 EX 350F test also notes no resonance chamber on the mid-pipe."
+  },
+  {
+   "id": "ko4-025",
+   "domain": "power_feel",
+   "topic": "peak horsepower and torque (rear wheel)",
+   "applies_to": {
+    "models": [
+     "450 XC-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "On a magazine rear-wheel dyno the 2023 450 XC-F made 54.6 hp at 9,500 rpm and 33.0 lb-ft at 7,000 rpm. That is 2.5 hp more and 0.8 lb-ft less than the 2019 model.",
+   "values": {
+    "peak_hp": "54.6 @ 9,500 rpm",
+    "peak_torque": "33.0 @ 7,000 rpm",
+    "dyno": "Dynojet 250i (rear wheel)",
+    "vs_2019": "+2.5 hp, -0.8 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2023 KTM 450 XC-F Dyno Test",
+    "url": "https://dirtrider.com/story/tests/ktm-450-xc-f-dyno-test-2023",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider in-house Dynojet 250i, stock bike, fuel and map not stated. Compare only with other Dirt Rider Dynojet numbers."
+  },
+  {
+   "id": "ko4-026",
+   "domain": "power_feel",
+   "topic": "peak horsepower and torque (rear wheel)",
+   "applies_to": {
+    "models": [
+     "450 XC-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On a magazine rear-wheel dyno the 2025 450 XC-F made 54.2 hp and 33.6 lb-ft.",
+   "values": {
+    "peak_hp": "54.2",
+    "peak_torque": "33.6",
+    "dyno": "Dynojet 250i (rear wheel)",
+    "vs_2023": "-0.4 hp, +0.6 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: How Much Power Does the 2025 KTM 450 XC-F Make?",
+    "url": "https://dirtrider.com/tests/ktm-450-xc-f-dyno-test-2025",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider in-house Dynojet 250i, stock bike, fuel and map not stated. Rpm points not stated."
+  },
+  {
+   "id": "ko4-027",
+   "domain": "power_feel",
+   "topic": "peak horsepower and torque (rear wheel)",
+   "applies_to": {
+    "models": [
+     "450 XCF-W"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "On a magazine rear-wheel dyno the 2023 450 XCF-W made 48.3 hp at 9,200 rpm and 31.9 lb-ft at 7,400 rpm.",
+   "values": {
+    "peak_hp": "48.3 @ 9,200 rpm",
+    "peak_torque": "31.9 @ 7,400 rpm",
+    "dyno": "Dynojet 250i (rear wheel)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2023 KTM 450 XCF-W Dyno Test",
+    "url": "https://www.dirtrider.com/tests/ktm-450-xcf-w-dyno-test-2023",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider in-house Dynojet 250i, stock bike, fuel and map not stated. Dunlop D404 street tyre on the rear. 2023 XCF-W is the old-frame model; tester praised delivery over peak numbers."
+  },
+  {
+   "id": "ko4-028",
+   "domain": "power_feel",
+   "topic": "peak horsepower and torque (rear wheel)",
+   "applies_to": {
+    "models": [
+     "250 XC-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "On a magazine rear-wheel dyno the 2023 250 XC-F made 40.5 hp at 13,000 rpm and 19.0 lb-ft at 9,800 rpm.",
+   "values": {
+    "peak_hp": "40.5 @ 13,000 rpm",
+    "peak_torque": "19.0 @ 9,800 rpm",
+    "dyno": "Dynojet 250i (rear wheel)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2023 KTM 250 XC-F Dyno Test",
+    "url": "https://dirtrider.com/story/tests/ktm-250-xc-f-dyno-test-2023",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider in-house Dynojet 250i, stock bike, fuel and map not stated. "
+  },
+  {
+   "id": "ko4-029",
+   "domain": "power_feel",
+   "topic": "peak horsepower and torque (rear wheel)",
+   "applies_to": {
+    "models": [
+     "350 XC-F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "On a magazine rear-wheel dyno the 2022 350 XC-F made 50.3 hp at 12,000 rpm and 26.8 lb-ft at 8,600 rpm.",
+   "values": {
+    "peak_hp": "50.3 @ 12,000 rpm",
+    "peak_torque": "26.8 @ 8,600 rpm",
+    "dyno": "Dynojet 250i (rear wheel)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2022 KTM 350 XC-F Dyno Test",
+    "url": "https://dirtrider.com/story/tests/2022-ktm-350-xc-f-dyno-test",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider in-house dyno (model not named in this article, Dynojet 250i in others), Dunlop D404 street tyre, stock. Said to equal the 2022 RM-Z450 peak."
+  },
+  {
+   "id": "ko4-030",
+   "domain": "power_feel",
+   "topic": "peak horsepower and torque (rear wheel)",
+   "applies_to": {
+    "models": [
+     "Husqvarna FX 350"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "On a magazine rear-wheel dyno the 2020 Husqvarna FX 350 made 49.1 hp at 11,700 rpm and 25.5 lb-ft at 8,700 rpm.",
+   "values": {
+    "peak_hp": "49.1 @ 11,700 rpm",
+    "peak_torque": "25.5 @ 8,700 rpm",
+    "dyno": "Dynojet 250i (rear wheel)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2020 Husqvarna FX 350 Dyno Test",
+    "url": "https://dirtrider.com/story/tests/2020-husqvarna-fx-350-dyno-test",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider in-house Dynojet 250i, stock bike, fuel and map not stated. "
+  },
+  {
+   "id": "ko4-031",
+   "domain": "power_feel",
+   "topic": "peak horsepower and torque (rear wheel)",
+   "applies_to": {
+    "models": [
+     "Husqvarna FX 350"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "On a magazine rear-wheel dyno the 2023 Husqvarna FX 350 made 50.9 hp at 11,400 rpm and 26.8 lb-ft at 8,800 rpm.",
+   "values": {
+    "peak_hp": "50.9 @ 11,400 rpm",
+    "peak_torque": "26.8 @ 8,800 rpm",
+    "dyno": "Dynojet 250i (rear wheel)",
+    "vs_previous_gen": "+1.8 hp, +1.3 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: How Much Power Does the 2023 Husqvarna FX 350 Make?",
+    "url": "https://dirtrider.com/tests/husqvarna-fx-350-dyno-test-2023",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider in-house Dynojet 250i, stock bike, fuel and map not stated. "
+  },
+  {
+   "id": "ko4-032",
+   "domain": "power_feel",
+   "topic": "peak horsepower and torque (rear wheel)",
+   "applies_to": {
+    "models": [
+     "Husqvarna FX 350"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On a magazine rear-wheel dyno the 2025 Husqvarna FX 350 made 51.0 hp and 27.0 lb-ft.",
+   "values": {
+    "peak_hp": "51.0",
+    "peak_torque": "27.0",
+    "dyno": "Dynojet 250i (rear wheel)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2025 Husqvarna FX 350 Dyno Test",
+    "url": "https://dirtrider.com/tests/husqvarna-fx-350-dyno-test-2025",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider in-house Dynojet 250i, stock bike, fuel and map not stated. Rpm points not stated. Tester called it closer to a mellow 450 than a 250F."
+  },
+  {
+   "id": "ko4-033",
+   "domain": "power_feel",
+   "topic": "peak horsepower and torque (rear wheel)",
+   "applies_to": {
+    "models": [
+     "Husqvarna FX 450"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "On a magazine rear-wheel dyno the 2020 Husqvarna FX 450 made 51.1 hp at 10,000 rpm and 32.2 lb-ft at 7,600 rpm.",
+   "values": {
+    "peak_hp": "51.1 @ 10,000 rpm",
+    "peak_torque": "32.2 @ 7,600 rpm",
+    "dyno": "Dynojet 250i (rear wheel)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2020 Husqvarna FX 450 Dyno Test",
+    "url": "https://www.dirtrider.com/story/tests/2020-husqvarna-fx-450-dyno-test",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider in-house Dynojet 250i, stock bike, fuel and map not stated. "
+  },
+  {
+   "id": "ko4-034",
+   "domain": "power_feel",
+   "topic": "peak horsepower and torque (rear wheel)",
+   "applies_to": {
+    "models": [
+     "Husqvarna FX 450"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "On a magazine rear-wheel dyno the 2021 Husqvarna FX 450 made 51.5 hp at 9,300 rpm and 32.9 lb-ft at 7,300 rpm.",
+   "values": {
+    "peak_hp": "51.5 @ 9,300 rpm",
+    "peak_torque": "32.9 @ 7,300 rpm",
+    "dyno": "Dynojet 250i (rear wheel)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2021 Husqvarna FX 450 Dyno Test",
+    "url": "https://www.dirtrider.com/story/tests/2021-husqvarna-fx-450-dyno-test",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider in-house Dynojet 250i, stock bike, fuel and map not stated. D404 street tyre."
+  },
+  {
+   "id": "ko4-035",
+   "domain": "power_feel",
+   "topic": "peak horsepower and torque (rear wheel)",
+   "applies_to": {
+    "models": [
+     "Husqvarna FX 450"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "On a magazine rear-wheel dyno the 2023 Husqvarna FX 450 made 53.3 hp at 10,400 rpm and 32.2 lb-ft at 7,500 rpm.",
+   "values": {
+    "peak_hp": "53.3 @ 10,400 rpm",
+    "peak_torque": "32.2 @ 7,500 rpm",
+    "dyno": "Dynojet 250i (rear wheel)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: How Much Power Does the 2023 Husqvarna FX 450 Make?",
+    "url": "https://dirtrider.com/tests/husqvarna-fx-450-dyno-test-2023",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider in-house Dynojet 250i, stock bike, fuel and map not stated. Tester described linear, controllable delivery."
+  },
+  {
+   "id": "ko4-036",
+   "domain": "power_feel",
+   "topic": "peak horsepower and torque (rear wheel)",
+   "applies_to": {
+    "models": [
+     "GasGas EX 350F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "On a magazine rear-wheel dyno the 2021 GasGas EX 350F made 48.9 hp at 11,800 rpm and 25.3 lb-ft at 8,800 rpm.",
+   "values": {
+    "peak_hp": "48.9 @ 11,800 rpm",
+    "peak_torque": "25.3 @ 8,800 rpm",
+    "dyno": "Dynojet 250i (rear wheel)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2021 GasGas EX 350F Dyno Test",
+    "url": "https://dirtrider.com/story/tests/2021-gasgas-ex-350f-dyno-test",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider in-house Dynojet 250i, stock bike, fuel and map not stated. D404 street tyre; 0.2 hp and 0.2 lb-ft below the 2020 FX 350 per the article."
+  },
+  {
+   "id": "ko4-037",
+   "domain": "power_feel",
+   "topic": "peak horsepower and torque (rear wheel)",
+   "applies_to": {
+    "models": [
+     "GasGas EX 250F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "On a magazine rear-wheel dyno the 2021 GasGas EX 250F made 39.3 hp at 13,300 rpm and 18.8 lb-ft at 9,200 rpm. Power and torque dipped clearly between 4,300 and 4,700 rpm on every pull, then rose steeply from 5,300 rpm and stayed linear. It made 1.8 hp less than the 2021 250 SX-F, blamed on no vented airbox cover, no map 2 and the straight header.",
+   "values": {
+    "peak_hp": "39.3 @ 13,300 rpm",
+    "peak_torque": "18.8 @ 9,200 rpm",
+    "dyno": "Dynojet 250i (rear wheel)",
+    "dip": "4,300-4,700 rpm",
+    "vs_2021_250sxf": "-1.8 hp, -0.3 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2021 GasGas EX 250F Dyno Test",
+    "url": "https://dirtrider.com/story/tests/2021-gasgas-ex-250f-dyno-test",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider in-house Dynojet 250i, stock bike, fuel and map not stated. No map switch fitted, so map 1 only."
+  },
+  {
+   "id": "ko4-038",
+   "domain": "power_feel",
+   "topic": "peak horsepower and torque (rear wheel)",
+   "applies_to": {
+    "models": [
+     "GasGas EX 250F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "On a magazine rear-wheel dyno the 2024 GasGas EX 250F made 41.9 hp and 20.0 lb-ft. The tester described long, linear power with no hard hit that still revs out, which suits the wide-ratio 6-speed.",
+   "values": {
+    "peak_hp": "41.9",
+    "peak_torque": "20.0",
+    "dyno": "Dynojet 250i (rear wheel)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2024 GasGas EX 250F Dyno Test",
+    "url": "https://www.dirtrider.com/tests/gasgas-ex-250f-dyno-test-2024",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider in-house Dynojet 250i, stock bike, fuel and map not stated. Rpm points not stated."
+  },
+  {
+   "id": "ko4-039",
+   "domain": "power_feel",
+   "topic": "XCF-W vs XC-F power gap",
+   "applies_to": {
+    "models": [
+     "450 XCF-W",
+     "450 XC-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Worked out from the same magazine dyno, the 2023 450 XCF-W made 6.3 hp (about 12%) and 1.1 lb-ft less than the 2023 450 XC-F, with peak power 300 rpm lower.",
+   "values": {
+    "hp_gap": "-6.3 hp (-11.5%)",
+    "torque_gap": "-1.1 lb-ft (-3.3%)",
+    "peak_rpm_gap": "-300 rpm"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2023 KTM 450 XCF-W Dyno Test",
+    "url": "https://www.dirtrider.com/tests/ktm-450-xcf-w-dyno-test-2023",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "48.3 - 54.6 = -6.3 hp; -6.3/54.6 = -11.5%. 31.9 - 33.0 = -1.1 lb-ft; -1.1/33.0 = -3.3%. 9,200 - 9,500 = -300 rpm. Both Dirt Rider Dynojet 250i 2023; the 2023 XCF-W is the old-generation engine/chassis, so part of the gap may be generation, not just intake/exhaust/map."
+  },
+  {
+   "id": "ko4-040",
+   "domain": "power_feel",
+   "topic": "350 vs 450 cross-country gap",
+   "applies_to": {
+    "models": [
+     "Husqvarna FX 350",
+     "Husqvarna FX 450"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Worked out from the same magazine dyno, the 2023 FX 350 made only 2.4 hp less peak power than the FX 450 but 5.4 lb-ft (17%) less torque, peaking 1,000 rpm higher. That matches testers saying the 350 is about 3 hp short of a 450 but needs revs.",
+   "values": {
+    "hp_gap": "-2.4 hp",
+    "torque_gap": "-5.4 lb-ft (-16.8%)",
+    "peak_rpm_gap": "+1,000 rpm"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: How Much Power Does the 2023 Husqvarna FX 350 Make?",
+    "url": "https://dirtrider.com/tests/husqvarna-fx-350-dyno-test-2023",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "FX 350 50.9 hp @ 11,400 / 26.8 lb-ft; FX 450 53.3 hp @ 10,400 / 32.2 lb-ft (both Dirt Rider Dynojet 250i 2023). 26.8-32.2 = -5.4; -5.4/32.2 = -16.8%."
+  },
+  {
+   "id": "ko4-041",
+   "domain": "power_feel",
+   "topic": "FX 450 vs 450 XC-F same-year dyno",
+   "applies_to": {
+    "models": [
+     "Husqvarna FX 450",
+     "450 XC-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Worked out from the same magazine dyno, the 2023 FX 450 made 1.3 hp and 0.8 lb-ft less than the 2023 450 XC-F and peaked 900 rpm higher, despite sharing the engine; the difference is within what unit-to-unit and airbox/exhaust differences can produce.",
+   "values": {
+    "hp_gap": "-1.3 hp",
+    "torque_gap": "-0.8 lb-ft",
+    "peak_rpm_gap": "+900 rpm"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: How Much Power Does the 2023 Husqvarna FX 450 Make?",
+    "url": "https://dirtrider.com/tests/husqvarna-fx-450-dyno-test-2023",
+    "date": "2023"
+   },
+   "confidence": "low",
+   "notes": "53.3-54.6 = -1.3; 32.2-33.0 = -0.8; 10,400-9,500 = +900. Single samples; do not treat as a brand difference."
+  },
+  {
+   "id": "ko4-042",
+   "domain": "power_feel",
+   "topic": "450 XCF-W delivery",
+   "applies_to": {
+    "models": [
+     "450 XCF-W"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Testers call the 450 XCF-W the smoothest KTM four-stroke from bottom to top, with no coughing or decel popping; it lugs to very low rpm and finds traction where a motocross bike spins. Peak power sits between the dual-sport and the XC-F.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: 2023 KTM 450XCF-W Full Test",
+    "url": "https://dirtbikemagazine.com/2023-ktm-450xcf-w-full-test/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Tester impression, stock bike. Dirt Rider dyno tester likewise said it builds from the lowest rpm and never feels like too much."
+  },
+  {
+   "id": "ko4-043",
+   "domain": "power_feel",
+   "topic": "450 XCF-W delivery and maps",
+   "applies_to": {
+    "models": [
+     "450 XCF-W"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "On the 2024 XCF-W low rpm is tame, the midrange ramps up strongly and it revs to about 11,000 rpm; torque lets you hold a high gear without bogging. Map 2 is sharp but not abrupt and suits skilled riders.",
+   "values": {
+    "rev_out": "about 11,000 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling: 2024 KTM 450 XCF-W Review (GNCC tested)",
+    "url": "https://ultimatemotorcycling.com/2023/06/05/2024-ktm-450-xcf-w-review-15-fast-facts/",
+    "date": "2023-06"
+   },
+   "confidence": "medium",
+   "notes": "Tester impression with optional map switch fitted, GNCC-style course."
+  },
+  {
+   "id": "ko4-044",
+   "domain": "power_feel",
+   "topic": "450 XC-F character",
+   "applies_to": {
+    "models": [
+     "450 XC-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Testers say the 450 XC-F has as much peak power as any production 450 yet stays manageable, but it stalls more easily than the 350 in tight going and the spinning mass makes it more work at low speed.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: Riding the 2025 KTM 450XC-F (The Wrap)",
+    "url": "https://dirtbikemagazine.com/riding-the-2025-ktm-450xc-f-the-wrap/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Tester impression, stock."
+  },
+  {
+   "id": "ko4-045",
+   "domain": "power_feel",
+   "topic": "350 XC-F character",
+   "applies_to": {
+    "models": [
+     "350 XC-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Testers describe strong bottom-end pull, a good midrange and more pull on top; it can be ridden like a 450 but rewards revving. In slow, rocky, technical sections the throttle response felt jerky.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing: 2025 KTM 350 XC-F review",
+    "url": "https://www.keeferinctesting.com/?p=28428",
+    "date": "2024-11"
+   },
+   "confidence": "medium",
+   "notes": "185 lb tester, stock engine, both maps tried."
+  },
+  {
+   "id": "ko4-046",
+   "domain": "power_feel",
+   "topic": "FX 350 character",
+   "applies_to": {
+    "models": [
+     "Husqvarna FX 350"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The FX 350 is only about 3 hp short of a 450, pulls a long way, and can be short-shifted when tired; off-road it is ridden lower in the rpm than on a motocross track (mostly under 9,000 rpm), and it stalls less than a 450.",
+   "values": {
+    "typical_trail_rpm": "below 9,000 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: 2025 Husqvarna FX350 Full Test",
+    "url": "https://dirtbikemagazine.com/2025-husqvarna-fx350-full-test/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Tester impression."
+  },
+  {
+   "id": "ko4-047",
+   "domain": "power_feel",
+   "topic": "GasGas EX vs EC character",
+   "applies_to": {
+    "models": [
+     "GasGas EX 250F",
+     "GasGas EX 350F",
+     "GasGas EX 450F",
+     "GasGas EC 450F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The EX bikes keep the motocross engine character: free-revving with strong mid-to-top pull, but less bottom-end tractability and a less smooth throttle off idle than the EC enduro models.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Transmoto: 2024 GasGas Cross-Country Weapons",
+    "url": "https://transmoto.com.au/2024-gasgas-ex-weapons-are-they-made-for-you",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Tester comparison at the 2024 launch."
+  },
+  {
+   "id": "ko4-048",
+   "domain": "power_feel",
+   "topic": "Husqvarna FE 450 character",
+   "applies_to": {
+    "models": [
+     "Husqvarna FE 450"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The 2024 FE 450 is smooth and easy to ride with strong low-end grunt and good climbing, pulling from corners in 2nd-4th; it feels heavier and needs more effort in tight sections than the FE 250/350 and sometimes pushed the front.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "ADB Magazine: Enduro Test 2024 Husqvarna FE 450",
+    "url": "https://adbmag.com.au/editorial/enduro-test-2024-husqvarna-fe-450/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Australian enduro test; MotoOnline launch report agrees on weight in slow sections."
+  },
+  {
+   "id": "ko4-049",
+   "domain": "power_feel",
+   "topic": "GasGas EX 350F vs SX-F",
+   "applies_to": {
+    "models": [
+     "GasGas EX 350F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "The 2021 EX 350F felt weaker than the 350 SX-F and would not pull 3rd cleanly out of a tight uphill turn; testers traced it to the airbox, not the engine.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: Race Test of the 2021 GasGas EX 350F cross-country",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-gasgas-ex-350f",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Tester impression; see engine_mods for the airbox fix."
+  },
+  {
+   "id": "ko4-050",
+   "domain": "ecu_electronics",
+   "topic": "XC-F map switch, traction and launch control",
+   "applies_to": {
+    "models": [
+     "250 XC-F",
+     "350 XC-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The XC-F has a standard bar switch with two maps (Map 1 more linear, Map 2 sharper throttle response) and a traction control toggle. Launch control is engaged by pressing the traction control and quickshift buttons together, and the quickshifter works 2nd-5th on the 450 (2nd-6th on the 250/350).",
+   "values": {
+    "maps": "2",
+    "qs_range_450": "2nd-5th",
+    "qs_range_250_350": "2nd-6th"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2024 450 XC-F model page",
+    "url": "https://www.ktm.com/es-ve/models/cross-country/4-tiempos/2024-ktm-450-xc-f.html",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "QS ranges from MXA 2024 first look. Map lights: white = map 1, green = map 2."
+  },
+  {
+   "id": "ko4-051",
+   "domain": "ecu_electronics",
+   "topic": "how traction control works",
+   "applies_to": {
+    "models": [
+     "250 XC-F",
+     "350 XC-F",
+     "450 XC-F",
+     "450 XCF-W",
+     "Husqvarna FX 350",
+     "Husqvarna FX 450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "KTM-group traction control has no wheel-speed sensor. It compares throttle input with how fast engine rpm rises and cuts power when rpm climbs too quickly. It still allows deliberate slides on consistent ground and mainly steps in on slick rock or wet clay; it works with either map, giving four combinations, and keeps its setting after a stall.",
+   "values": {
+    "combinations": "4 (2 maps x TC on/off)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM USA 2026 450 XCF-W model page",
+    "url": "https://www.ktm.com/en-us/models/enduro/4-stroke/2026-ktm-450-xcfw.html",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Mechanism from the KTM 2026 XCF-W page; behaviour and orange TC light from Transmoto 2017 test of the same system."
+  },
+  {
+   "id": "ko4-052",
+   "domain": "ecu_electronics",
+   "topic": "450 XCF-W optional switch",
+   "applies_to": {
+    "models": [
+     "450 XCF-W"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "On the 450 XCF-W the map switch, traction control and quickshifter (2nd-6th) are optional, unlocked by a PowerParts switch expected to cost under $200; they are standard on the XC-F. The map light is hard to see in direct sun and the TC and QS buttons sit close together.",
+   "values": {
+    "switch_price": "under $200 (expected)",
+    "qs_range": "2nd-6th"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling: 2024 KTM 450 XCF-W Review (GNCC tested)",
+    "url": "https://ultimatemotorcycling.com/2023/06/05/2024-ktm-450-xcf-w-review-15-fast-facts/",
+    "date": "2023-06"
+   },
+   "confidence": "medium",
+   "notes": "KTM 2026 page confirms the switch is optional."
+  },
+  {
+   "id": "ko4-053",
+   "domain": "ecu_electronics",
+   "topic": "GasGas EX map switch",
+   "applies_to": {
+    "models": [
+     "GasGas EX 250F",
+     "GasGas EX 350F",
+     "GasGas EX 450F"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "GasGas EX bikes ship without the map switch: the stock map matches Map 1 of the KTM SX-F, and Map 2, traction control, launch control and (from 2024) the quickshifter are in the ECU but need the plug-in switch ($160 in 2021).",
+   "values": {
+    "switch_price_2021": "$160"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: Race Test of the 2021 GasGas EX 350F cross-country",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-gasgas-ex-350f",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "GasGas 2024 EX 450F page confirms the switch is an optional accessory."
+  },
+  {
+   "id": "ko4-054",
+   "domain": "ecu_electronics",
+   "topic": "per-gear mapping",
+   "applies_to": {
+    "models": [
+     "450 XCF-W",
+     "Husqvarna FE 450",
+     "GasGas EC 450F",
+     "GasGas EX 450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "The enduro 450s (and the GasGas EX 450F per GasGas) use a gear-position sensor on the shift drum so the ECU runs a separate map in each gear.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2024 GasGas Enduro Bikes First Look",
+    "url": "https://dirtrider.com/dirt-bikes/gasgas-enduro-bikes-first-look-2024",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Husqvarna FE 450 per-gear mapping from Ultimate Motorcycling 2023 first look."
+  },
+  {
+   "id": "ko4-055",
+   "domain": "ecu_electronics",
+   "topic": "quickshifter retrofit for 2023 six-speeds",
+   "applies_to": {
+    "models": [
+     "250 XC-F",
+     "350 XC-F",
+     "Husqvarna FX 350"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "2023 six-speed XC-F and FX 350 owners can get the quickshifter by a dealer software update.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: First Look 2024 KTM off-road models",
+    "url": "https://motocrossactionmag.com/first-look-2024-ktm-off-road-models-450xcf-300xc-350xcf-125xc-250xc-250xcf",
+    "date": "2023-05"
+   },
+   "confidence": "high",
+   "notes": "Enduro21 2024 Husqvarna first look confirms for FX 350."
+  },
+  {
+   "id": "ko4-056",
+   "domain": "ecu_electronics",
+   "topic": "Connectivity Unit Offroad (CUO)",
+   "applies_to": {
+    "models": [
+     "250 XC-F",
+     "350 XC-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The Connectivity Unit Offroad bolts behind the number plate with a GPS sensor in the front fender and pairs with the KTMconnect app. It can retrofit 2024-2025 XC-F bikes (standard on 350 XC-F Factory Edition) and adjusts engine braking, throttle response, traction control, launch control and quickshifter, with presets for sand, gravel, hard pack, dry and wet. The rider subscription is 69.99 euro a year; testers put the hardware at about $250.",
+   "values": {
+    "subscription": "EUR 69.99/yr or EUR 11.99/month",
+    "hardware": "about $250 (magazine figure)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM tech guide: Connectivity Unit Offroad",
+    "url": "https://www.ktm.com/en-int/tech-guide/connectivity-unit-offroad.html",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Hardware price from Dirt Bike Magazine 2025 450 XC-F test. KTM does not list the XCF-W as compatible. Numeric parameter ranges not published."
+  },
+  {
+   "id": "ko4-057",
+   "domain": "ecu_electronics",
+   "topic": "traction control stalling on soft map",
+   "applies_to": {
+    "models": [
+     "350 XC-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "One tester found that running the softer map with traction control on in tight single track caused repeated coughing and stalling; turning traction control off helped but did not cure the slow-speed throttle response.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing: 2025 KTM 350 XC-F review",
+    "url": "https://www.keeferinctesting.com/?p=28428",
+    "date": "2024-11"
+   },
+   "confidence": "low",
+   "notes": "Single tester report."
+  },
+  {
+   "id": "ko4-058",
+   "domain": "engine_mods",
+   "topic": "vented airbox cover",
+   "applies_to": {
+    "models": [
+     "GasGas EX 350F"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "A vented KTM airbox cover (winglet removed) noticeably improved pull out of tight uphill turns on the EX 350F, and with no cover it pulled 3rd cleanly; testers concluded the stock EX airbox starves the engine of air.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: Race Test of the 2021 GasGas EX 350F cross-country",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-gasgas-ex-350f",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Back-to-back seat-of-pants test, no dyno numbers. No-cover running suggested only for dry, non-race use."
+  },
+  {
+   "id": "ko4-059",
+   "domain": "engine_mods",
+   "topic": "450 XCF-W power upgrades",
+   "applies_to": {
+    "models": [
+     "450 XCF-W"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Testers say an aftermarket exhaust recovers about half of the extra power racers want from the XCF-W; remapping and cam changes make up the rest.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: 2023 KTM 450XCF-W Full Test",
+    "url": "https://dirtbikemagazine.com/2023-ktm-450xcf-w-full-test/",
+    "date": "2023"
+   },
+   "confidence": "low",
+   "notes": "Qualitative; no dyno numbers given."
+  },
+  {
+   "id": "ko4-060",
+   "domain": "engine_mods",
+   "topic": "adding 6th gear to the 450 XC-F",
+   "applies_to": {
+    "models": [
+     "450 XC-F",
+     "Husqvarna FX 450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 450 XC-F and FX 450 cases accept a sixth gear: OEM parts (6th gear pair, shift drum) cost about $300 and the job takes about 3 hours with the engine out and cases split. Desert racers fit it, often with 14/48 sprockets, because the 5-speed runs out of gear on fast terrain.",
+   "values": {
+    "parts_cost": "about $300",
+    "labour": "about 3 h",
+    "gearing_with_6th": "14/48"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: Tech Tip - KTM 450 XC-F 6th gear install",
+    "url": "https://dirtbiketest.com/fresh-dirt/dbt-tech-tip-ktm-450-xc-f-6th-gear-install",
+    "date": "n.d."
+   },
+   "confidence": "medium",
+   "notes": "Dirt Bike Magazine 2025 test says many desert racers install the six-speed gearbox from the 500 XC-W. Top speed after the swap not measured."
+  },
+  {
+   "id": "ko4-061",
+   "domain": "engine_mods",
+   "topic": "clutch overheating fix",
+   "applies_to": {
+    "models": [
+     "350 XC-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Riders who use the clutch heavily in tight single track can overheat it; testers suggest an auto-clutch, a lower gearing or a smoother low-speed map.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing: 2025 KTM 350 XC-F review",
+    "url": "https://www.keeferinctesting.com/?p=28428",
+    "date": "2024-11"
+   },
+   "confidence": "medium",
+   "notes": "Dirt Bike Magazine 2025 450 XC-F test also warns intermediate riders can overheat the clutch."
+  },
+  {
+   "id": "ko4-062",
+   "domain": "drivetrain",
+   "topic": "gearbox by model",
+   "applies_to": {
+    "models": [
+     "250 XC-F",
+     "350 XC-F",
+     "450 XC-F",
+     "Husqvarna FX 350",
+     "Husqvarna FX 450",
+     "GasGas EX 250F",
+     "GasGas EX 350F",
+     "GasGas EX 450F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 450 XC-F and FX 450 use the same 5-speed as the SX-F/FC 450; the 250 and 350 XC-F/FX/EX use a 6-speed (the SX-F/FC/MC 250 and 350 have 5). For 2023 KTM kept the 2022 XC ratios: a semi-close set with an added 6th, not the wide enduro set.",
+   "values": {
+    "450_xcf": "5-speed",
+    "250_350_xc": "6-speed"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: Inside scoop on 2023 KTMs",
+    "url": "https://dirtbiketest.com/fresh-dirt/inside-scoop-on-2023-ktms/",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Vital MX 2024 GasGas report says the EX 450F also uses the MC 5-speed; see conflicts."
+  },
+  {
+   "id": "ko4-063",
+   "domain": "drivetrain",
+   "topic": "enduro 450 gearbox",
+   "applies_to": {
+    "models": [
+     "450 XCF-W",
+     "Husqvarna FE 450",
+     "GasGas EC 450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 450 XCF-W uses a wide-ratio 6-speed shared with the 500 EXC-F, which testers found useful in every gear; primary 29:72, final 13:52.",
+   "values": {
+    "primary": "29:72",
+    "final": "13:52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News: New 2024 KTM 450 XCF-W Four-Stroke Model Specs",
+    "url": "https://www.cyclenews.com/2023/05/article/new-2024-ktm-450-xcf-w-four-stroke-model-specs/",
+    "date": "2023-05"
+   },
+   "confidence": "high",
+   "notes": "Gearbox sharing from Dirt Bike Magazine 2023 test."
+  },
+  {
+   "id": "ko4-064",
+   "domain": "drivetrain",
+   "topic": "EX 350F gear spacing vs MX",
+   "applies_to": {
+    "models": [
+     "GasGas EX 350F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Compared with the MX 5-speed, the EX 350F 6-speed has a much lower 1st, slightly taller 2nd and noticeably taller 3rd-5th; 6th is unusable on an MX track. Stock gearing is 14/51; testers used 14/52 or 13/50 for MX to make 3rd usable.",
+   "values": {
+    "stock": "14/51 (3.643)",
+    "mx_options": "14/52 (3.714), 13/50 (3.846)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: Race Test of the 2021 GasGas EX 350F cross-country",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-gasgas-ex-350f",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ko4-065",
+   "domain": "drivetrain",
+   "topic": "350 XC-F gearing test",
+   "applies_to": {
+    "models": [
+     "350 XC-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Stock 350 XC-F gearing is 14/50. A 14/51 rear pulled 3rd better through corners and eased clutch use but made 2nd feel too short and the throttle more on/off, so the tester went back to stock.",
+   "values": {
+    "stock": "14/50",
+    "tested": "14/51"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing: 2025 KTM 350 XC-F review",
+    "url": "https://www.keeferinctesting.com/?p=28428",
+    "date": "2024-11"
+   },
+   "confidence": "medium",
+   "notes": "Single tester, 185 lb."
+  },
+  {
+   "id": "ko4-066",
+   "domain": "chassis",
+   "topic": "frame stiffness across generations",
+   "applies_to": {
+    "models": [
+     "250 XC-F",
+     "350 XC-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Testers felt the 2023-2024 XC-F frame was too rigid; the 2025 frame with cut-outs is more compliant and rides better almost everywhere.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: Riding the 2025 KTM 450XC-F (The Wrap)",
+    "url": "https://dirtbikemagazine.com/riding-the-2025-ktm-450xc-f-the-wrap/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Dirt Bike Magazine 2025 FX350 test says the same of the Husqvarna 2025 frame (no break-in needed)."
+  },
+  {
+   "id": "ko4-067",
+   "domain": "chassis",
+   "topic": "measured seat height FX 450 vs 450 XC-F",
+   "applies_to": {
+    "models": [
+     "Husqvarna FX 450",
+     "450 XC-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Measured by the same magazine, the 2023 FX 450 seat was 37.2 in against 37.8 in on the 2023 450 XC-F, so the Husqvarna sits about 0.6 in (15 mm) lower.",
+   "values": {
+    "fx450_seat": "37.2 in",
+    "450xcf_seat": "37.8 in",
+    "difference": "0.6 in (15 mm)"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2023 Husqvarna FX 450 Technical Information",
+    "url": "https://dirtrider.com/dirt-bikes/husqvarna-fx-450-technical-information-2023",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "37.8-37.2 = 0.6 in x 25.4 = 15 mm. Both Dirt Rider measured 2023. Husqvarna lowers the FC/FX through suspension settings."
+  },
+  {
+   "id": "ko4-068",
+   "domain": "chassis",
+   "topic": "PDS rear on the XCF-W",
+   "applies_to": {
+    "models": [
+     "450 XCF-W"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The XCF-W's linkless PDS shock gives more ground clearance and nothing to snag on logs and rocks. With the soft 2023 setup the bike felt pitchy and divey at high speed and was happiest under 30-40 mph.",
+   "values": {
+    "best_speed_range_2023": "under 30-40 mph"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: 2023 KTM 450XCF-W Full Test",
+    "url": "https://dirtbikemagazine.com/2023-ktm-450xcf-w-full-test/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Cycle World also cites the snag-free PDS benefit."
+  },
+  {
+   "id": "ko4-069",
+   "domain": "chassis",
+   "topic": "GasGas front-end push fix",
+   "applies_to": {
+    "models": [
+     "GasGas EX 250F",
+     "GasGas EX 350F",
+     "GasGas EX 450F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Testers fixed front-end push on the GasGas by torquing the top triple clamp bolts to 20 Nm and the bottom to 15 Nm, the figures they got from KTM's test department, instead of the 17/12 Nm they had been using.",
+   "values": {
+    "top_clamp": "20 Nm",
+    "bottom_clamp": "15 Nm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: Race Test of the 2021 GasGas EX 350F cross-country",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-gasgas-ex-350f",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Source writes N/mm, read here as Nm torque."
+  },
+  {
+   "id": "ko4-070",
+   "domain": "suspension",
+   "topic": "suspension hardware by family",
+   "applies_to": {
+    "models": [
+     "250 XC-F",
+     "350 XC-F",
+     "450 XC-F",
+     "Husqvarna FX 350",
+     "Husqvarna FX 450",
+     "GasGas EX 250F",
+     "GasGas EX 350F",
+     "GasGas EX 450F",
+     "450 XCF-W",
+     "Husqvarna FE 450",
+     "GasGas EC 450F"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "From 2024 the cross-country XC-F, FX and EX use a WP XACT closed-cartridge spring fork with a linkage XACT shock (300 mm each end). The enduro 450s differ: the KTM 450 XCF-W pairs the XACT closed-cartridge fork with a linkless WP XPLOR PDS shock (310 mm), the Husqvarna FE 450 uses the XACT fork with a linkage shock, and the GasGas EC 450F uses a WP XPLOR open-cartridge fork with a linkage XACT shock. Before 2024 the XC-F/FX/EX ran the XACT air fork (310 mm).",
+   "values": {
+    "xc_fork": "XACT CC spring 48 mm, 300 mm",
+    "xcfw_shock": "XPLOR PDS, 310 mm",
+    "ec450f_fork": "XPLOR open cartridge",
+    "pre2024_xc_fork": "XACT air, 310 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Transmoto: 2024 GasGas Cross-Country Weapons",
+    "url": "https://transmoto.com.au/2024-gasgas-ex-weapons-are-they-made-for-you",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Compiled from KTM, GasGas, Husqvarna press data (Cycle World, Dirt Rider, MotoOnline, Transmoto)."
+  },
+  {
+   "id": "ko4-071",
+   "domain": "suspension",
+   "topic": "XC-F suspension feel",
+   "applies_to": {
+    "models": [
+     "450 XC-F",
+     "350 XC-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The XC-F shock has the same spring as the SX-F but is valved softer, like a soft MX setting; it suits WORCS-style racing but is too stiff in desert rock fields, and the fork is slightly stiff picking through boulders in 1st.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: Riding the 2025 KTM 450XC-F (The Wrap)",
+    "url": "https://dirtbikemagazine.com/riding-the-2025-ktm-450xc-f-the-wrap/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Tester impression."
+  },
+  {
+   "id": "ko4-072",
+   "domain": "suspension",
+   "topic": "XACT spring fork vs XPLOR on the trail",
+   "applies_to": {
+    "models": [
+     "GasGas EX 350F",
+     "Husqvarna FE 450",
+     "GasGas EC 450F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Testers find the XACT closed-cartridge fork racier: it handles big hits, braking bumps and ruts well but is harsher on roots and loose rock than the EC's XPLOR fork, which in turn is too soft on big hits. The FE 450's switch from XPLOR to XACT made it firmer and less prone to bottoming.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Transmoto: 2024 GasGas Cross-Country Weapons",
+    "url": "https://transmoto.com.au/2024-gasgas-ex-weapons-are-they-made-for-you",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "ADB 2024 EX 350F and FE 450 tests agree."
+  },
+  {
+   "id": "ko4-073",
+   "domain": "suspension",
+   "topic": "450 XCF-W fork softness",
+   "applies_to": {
+    "models": [
+     "450 XCF-W"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "The 2023 XCF-W's XPLOR fork was softer than a motocross setup and may be too soft even for hard trail riders; the 2024 XACT closed-cartridge fork was seen as a big improvement.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: 2023 KTM 450XCF-W Full Test",
+    "url": "https://dirtbikemagazine.com/2023-ktm-450xcf-w-full-test/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Cycle World calls the 2024 fork change 'a major improvement'."
+  },
+  {
+   "id": "ko4-074",
+   "domain": "setups",
+   "topic": "350 XC-F tester setup (185 lb, vet B)",
+   "applies_to": {
+    "models": [
+     "350 XC-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "A 185 lb vet tester ran the fork 5 clicks out compression, 12 out rebound, tubes at the second line, and the shock at 11 out low-speed compression, 1 turn out high-speed, 12 out rebound with 105 mm sag on stock 14/50 gearing and the green map. For fast desert he suggests dropping the fork to the first line or flush.",
+   "values": {
+    "fork_comp": "5 out",
+    "fork_reb": "12 out",
+    "fork_height": "2nd line",
+    "shock_lsc": "11 out",
+    "shock_hsc": "1 turn out",
+    "shock_reb": "12 out",
+    "sag": "105 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing: 2025 KTM 350 XC-F review",
+    "url": "https://www.keeferinctesting.com/?p=28428",
+    "date": "2024-11"
+   },
+   "confidence": "medium",
+   "notes": "Stock springs; tester notes bigger/faster riders need a shock spring and revalve."
+  },
+  {
+   "id": "ko4-075",
+   "domain": "setups",
+   "topic": "EX 350F hardcore racing setup",
+   "applies_to": {
+    "models": [
+     "GasGas EX 350F"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "A magazine MX/cross-country setup for the air-fork EX 350F: 9.8 bar (142 psi), 12 out compression, 18 out rebound, tubes at the second line; shock 42 N/mm spring (45 N/mm over 185 lb), 105 mm sag, high-speed 1.5 turns out (stock 2), low-speed 15 out, rebound 15 out.",
+   "values": {
+    "fork_air": "9.8 bar (142 psi)",
+    "fork_comp": "12 out",
+    "fork_reb": "18 out",
+    "shock_spring": "42 N/mm (45 N/mm >185 lb)",
+    "sag": "105 mm",
+    "shock_hsc": "1.5 turns out",
+    "shock_lsc": "15 out",
+    "shock_reb": "15 out"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: Race Test of the 2021 GasGas EX 350F cross-country",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-gasgas-ex-350f",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Applies to air-fork years (2021-2023). Check air daily and bleed the fork."
+  },
+  {
+   "id": "ko4-076",
+   "domain": "setups",
+   "topic": "450 XCF-W GNCC setup",
+   "applies_to": {
+    "models": [
+     "450 XCF-W"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "A 160 lb tester raced the 2024 XCF-W on stock suspension (sag correct out of the box) with Map 2 and traction control off on the open grass sections, and recommends Map 1 for technical woods.",
+   "values": {
+    "rider_weight": "160 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling: 2024 KTM 450 XCF-W Review (GNCC tested)",
+    "url": "https://ultimatemotorcycling.com/2023/06/05/2024-ktm-450-xcf-w-review-15-fast-facts/",
+    "date": "2023-06"
+   },
+   "confidence": "medium",
+   "notes": "Dunlop MX33/AT81 stock tyres."
+  },
+  {
+   "id": "ko4-077",
+   "domain": "setups",
+   "topic": "Vegas to Reno 450 XC-F desert build",
+   "applies_to": {
+    "models": [
+     "450 XC-F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "A desert race team ran a 450 XC-F with an added 6th gear, 14/48 gearing (stock 13T front), an FMF slip-on for more bottom-to-mid, a 3.2 gal tank (about 70 fast miles per tank), revalved suspension, 100-110 mm sag and fork air at 135-141 psi.",
+   "values": {
+    "gearing": "14/48",
+    "tank": "3.2 gal (about 70 miles)",
+    "sag": "100-110 mm",
+    "fork_air": "135-141 psi"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "race team",
+    "name": "Dirt Bike Test: Inside the race bike - Vegas to Reno KTM 450XC-F (3Bros Racing)",
+    "url": "https://dirtbiketest.com/fresh-dirt/inside-the-race-bike-vegas-to-reno-ktm-450xc-f/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": "The bike was a 2019, the same generation as 2020-2022."
+  },
+  {
+   "id": "ko4-078",
+   "domain": "setups",
+   "topic": "FX 350 setup",
+   "applies_to": {
+    "models": [
+     "Husqvarna FX 350"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Stock settings suit most vet tracks; on faster tracks add at least a few clicks of fork compression, and the rear is usually fine.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: 2025 Husqvarna FX350 Full Test",
+    "url": "https://dirtbikemagazine.com/2025-husqvarna-fx350-full-test/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ko4-079",
+   "domain": "setups",
+   "topic": "450 XC-F desert vs WORCS",
+   "applies_to": {
+    "models": [
+     "450 XC-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The stock soft setting suits WORCS-style racing; desert racers need firmer settings for rocks, and many add a 6th gear because the 5-speed is the bike's main shortcoming for western racing.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: Riding the 2025 KTM 450XC-F (The Wrap)",
+    "url": "https://dirtbikemagazine.com/riding-the-2025-ktm-450xc-f-the-wrap/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ko4-080",
+   "domain": "known_issues",
+   "topic": "rear brake caliper recall (CPSC 26-710)",
+   "applies_to": {
+    "models": [
+     "Husqvarna FX 350",
+     "Husqvarna FX 450",
+     "Husqvarna FE 450",
+     "GasGas EX 250F",
+     "GasGas EX 350F",
+     "GasGas EX 450F",
+     "GasGas EC 450F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "In August 2026 KTM North America recalled about 21,040 Husqvarna and GasGas off-road bikes in the US (plus about 4,140 in Canada) because the rear brake caliper can crack or break. In this slice it covers the 2023 FX 350, FX 450 and FE 450, the 2023-2024 GasGas EX 250F/350F/450F and the 2024 EC 450F. Stop riding and get the free dealer repair. KTM-brand models are not on the list.",
+   "values": {
+    "recall_no": "26-710",
+    "units_us": "about 21,040",
+    "units_canada": "about 4,140"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "US CPSC recall 26-710: KTM North America recalls off-road motorcycles (rear brake caliper)",
+    "url": "https://www.cpsc.gov/Recalls/2026/KTM-North-America-Recalls-Off-Road-Motorcycles-Due-to-Risk-of-Serious-Injury-or-Death-from-Crash-Hazard",
+    "date": "2026-08"
+   },
+   "confidence": "high",
+   "notes": "2024 Husqvarna FX and FE 450 are not listed (2024 FE 350w/501w are). No incidents reported."
+  },
+  {
+   "id": "ko4-081",
+   "domain": "known_issues",
+   "topic": "fuel pump failures",
+   "applies_to": {
+    "models": [
+     "250 XC-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Some owners report the fuel pump fuse blowing or the pump dying (one at 70 hours), sometimes after long idling with little fuel. Owners fixed it by replacing the pump and fuel filter and keeping enough fuel to cover the pump.",
+   "values": {
+    "hours_at_failure": "70 h (one report)"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum: 2023 KTM 250 XC-F fuel pump failure? Is this common?",
+    "url": "https://www.vitalmx.com/comment/8773896",
+    "date": "2024"
+   },
+   "confidence": "low",
+   "notes": "Few reports; others in the thread had no issues. Not a bulletin."
+  },
+  {
+   "id": "ko4-082",
+   "domain": "known_issues",
+   "topic": "450 runs out of gear in the desert",
+   "applies_to": {
+    "models": [
+     "450 XC-F",
+     "Husqvarna FX 450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 5-speed 450 XC-F/FX 450 runs out of gear on dry lakes and fast desert; a 6th gear or taller gearing is the usual fix, and testers say a 6-speed 350 XC-F can be faster at the top.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: Tech Tip - KTM 450 XC-F 6th gear install",
+    "url": "https://dirtbiketest.com/fresh-dirt/dbt-tech-tip-ktm-450-xc-f-6th-gear-install",
+    "date": "n.d."
+   },
+   "confidence": "medium",
+   "notes": "Top-speed claim not measured."
+  },
+  {
+   "id": "ko4-083",
+   "domain": "known_issues",
+   "topic": "clutch overheating in tight terrain",
+   "applies_to": {
+    "models": [
+     "350 XC-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Clutch-heavy riders can overheat the clutch in tight single track; one tester boiled coolant twice on a 350 XC-F.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing: 2025 KTM 350 XC-F review",
+    "url": "https://www.keeferinctesting.com/?p=28428",
+    "date": "2024-11"
+   },
+   "confidence": "medium",
+   "notes": "Dirt Bike Magazine 2025 450 XC-F test gives the same warning."
+  },
+  {
+   "id": "ko4-084",
+   "domain": "known_issues",
+   "topic": "GasGas EX niggles",
+   "applies_to": {
+    "models": [
+     "GasGas EX 350F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Testers found the rim-lock spoke loosens quickly, the plastic shock preload ring gets chewed up, the bayonet fuel cap clogs with dirt, and the fork bleed screws are Torx.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: Race Test of the 2021 GasGas EX 350F cross-country",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-gasgas-ex-350f",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": ""
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "GasGas EX 450F gearbox (2024)",
+   "values": {
+    "Vital MX launch report": "5-speed (same as MC)",
+    "GasGas Canada spec table": "5-speed",
+    "GasGas Canada feature text": "6-speed Pankl"
+   },
+   "spread": "5 vs 6 speeds",
+   "note": "KTM 450 XC-F and FX 450 are 5-speed, so 5 is most likely."
+  },
+  {
+   "topic": "450 enduro compression ratio",
+   "values": {
+    "Cycle World / Ultimate Motorcycling / Dirt Rider (XCF-W, FE 450, EC 450F)": "12.75:1",
+    "Dirt Bike Magazine 2023 XCF-W test": "same as 2022 450 XC-F",
+    "450 XC-F (KTM)": "13.1:1"
+   },
+   "spread": "12.75-13.1:1",
+   "note": "OEM figure 12.75:1 preferred."
+  },
+  {
+   "topic": "350 XC-F compression ratio",
+   "values": {
+    "Dirt Rider 2022": "14.2:1",
+    "Ultimate Motorcycling 2024 (KTM data)": "14.6:1"
+   },
+   "spread": "14.2-14.6:1",
+   "note": "Different generations; may be a real change."
+  },
+  {
+   "topic": "450 XCF-W ground clearance",
+   "values": {
+    "KTM USA 2025 spec": "347 mm",
+    "Cycle News 2024": "374 mm",
+    "Cycle World 2025": "14.7 in (373 mm)"
+   },
+   "spread": "347-374 mm",
+   "note": "Possibly a transposed digit at KTM USA."
+  },
+  {
+   "topic": "450 XCF-W weight",
+   "values": {
+    "KTM claimed no fuel": "107.4-107.5 kg (237 lb)",
+    "Ultimate Motorcycling 2024": "250 lb wet"
+   },
+   "spread": "237-250 lb",
+   "note": "Different conditions (no fuel vs wet)."
+  },
+  {
+   "topic": "450 cross-country rear sprocket",
+   "values": {
+    "Dirt Bike Magazine 2025 450 XC-F": "13/51",
+    "Dirt Rider 2023 FX 450": "52T rear",
+    "Cycle News 2024 450 XCF-W": "13/52"
+   },
+   "spread": "51-52T",
+   "note": "Different models/brands; may all be correct."
+  },
+  {
+   "topic": "peak horsepower, 450 cross-country (Dirt Rider Dynojet 250i)",
+   "values": {
+    "2020 FX 450": "51.1",
+    "2021 FX 450": "51.5",
+    "2023 FX 450": "53.3",
+    "2023 450 XC-F": "54.6",
+    "2025 450 XC-F": "54.2",
+    "2023 450 XCF-W": "48.3"
+   },
+   "spread": "48.3-54.6 hp",
+   "note": "Same dyno, different bikes and years; single samples."
+  },
+  {
+   "topic": "peak horsepower, 350 cross-country (Dirt Rider)",
+   "values": {
+    "2020 FX 350": "49.1",
+    "2021 EX 350F": "48.9",
+    "2022 350 XC-F": "50.3",
+    "2023 FX 350": "50.9",
+    "2025 FX 350": "51.0"
+   },
+   "spread": "48.9-51.0 hp",
+   "note": "Same magazine dyno."
+  }
+ ],
+ "not_found": [
+  {
+   "item": "dyno numbers for 2024+ 250/350 XC-F, 2024+ 450 XCF-W, Husqvarna FE 450, GasGas EC 450F, GasGas EX 350F/450F 2022+",
+   "searched": "Dirt Rider dyno test pages by model/year, general web search",
+   "note": "Not published in what was searchable."
+  },
+  {
+   "item": "ECU calibration differences XC-F vs SX-F (fuel/ignition values) and XCF-W map details",
+   "searched": "KTM pages, magazine tests",
+   "note": "Only described qualitatively."
+  },
+  {
+   "item": "measured before/after dyno of vented airbox, slip-on or ECU flash on XC-F/FX/EX",
+   "searched": "web search for slip-on dyno gains on 350/450 XC-F",
+   "note": "Only seat-of-pants reports."
+  },
+  {
+   "item": "sound level (dB) XCF-W vs XC-F",
+   "searched": "KTM spec pages, tests",
+   "note": "Only 'much quieter'."
+  },
+  {
+   "item": "CUO parameter ranges and number of levels",
+   "searched": "KTM CUO tech guide",
+   "note": "Not published."
+  },
+  {
+   "item": "full article bodies",
+   "searched": "Dirt Rider 2023 and 2024 450 XCF-W reviews, Dirt Rider 2023 350 XC-F Factory Edition page",
+   "note": "Pages returned only navigation/metadata."
+  },
+  {
+   "item": "XC-F vs SX-F spring rates and valving numbers",
+   "searched": "not searched (owner's manuals held by BAK)",
+   "note": "Per brief, left to manuals."
+  },
+  {
+   "item": "bulletins for KTM-brand XC-F/XCF-W 2020-2026",
+   "searched": "CPSC recall search",
+   "note": "Only the Husqvarna/GasGas caliper recall found."
+  }
+ ],
+ "sources": [
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Magazine: Riding the 2025 KTM 450XC-F (The Wrap)",
+   "url": "https://dirtbikemagazine.com/riding-the-2025-ktm-450xc-f-the-wrap/",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: First Look 2024 KTM off-road models",
+   "url": "https://motocrossactionmag.com/first-look-2024-ktm-off-road-models-450xcf-300xc-350xcf-125xc-250xc-250xcf",
+   "date": "2023-05"
+  },
+  {
+   "type": "magazine",
+   "name": "Ultimate Motorcycling: 2024 KTM Cross Country Lineup First Look",
+   "url": "https://ultimatemotorcycling.com/2023/05/01/2024-ktm-cross-country-lineup-first-look-xc-and-xc-f/",
+   "date": "2023-05"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2023 KTM 450 XC-F Technical Information",
+   "url": "https://dirtrider.com/story/dirt-bikes/ktm-450-xc-f-technical-information-2023",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider buyer's guide: 2020 KTM 350 XC-F",
+   "url": "https://www.dirtrider.com/story/buyers-guide/2020-ktm-350-xc-f",
+   "date": "2019"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News: KTM Announces 2025 XC Model Lineup",
+   "url": "https://www.cyclenews.com/2024/04/article/ktm-announces-2025-xc-model-lineup/",
+   "date": "2024-04"
+  },
+  {
+   "type": "magazine",
+   "name": "Racer X: KTM touts advancements for 2025 XC cross-country bikes",
+   "url": "https://racerxonline.com/2024/04/18/ktm-touts-advancements-for-2025-xc-cross-country-bikes",
+   "date": "2024-04"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21: First look 2026 KTM XC off-road line-up",
+   "url": "https://enduro21.com/en/news/first-look-2026-ktm-xc-two-and-four-stroke-off-road-line-up-no-350-f",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Test: First Look 2026 KTM Motocross and Cross-Country Models",
+   "url": "https://dirtbiketest.com/fresh-dirt/first-look-2026-ktm-motocross-and-cross-country-models/",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "RideApart: KTM 2026 350 XC-F Factory Edition",
+   "url": "https://www.rideapart.com/news/775789/ktm-2026-xcf-factory-edition-dirt-bike-update-specs-price/",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Magazine: 2023 KTM 450XCF-W Full Test",
+   "url": "https://dirtbikemagazine.com/2023-ktm-450xcf-w-full-test/",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News: New KTM Off-Roaders Revealed (2023 W/EXC-F range)",
+   "url": "https://www.cyclenews.com/2022/04/article/new-ktm-off-roaders-revealed/",
+   "date": "2022-04"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News: New 2024 KTM 450 XCF-W Four-Stroke Model Specs",
+   "url": "https://www.cyclenews.com/2023/05/article/new-2024-ktm-450-xcf-w-four-stroke-model-specs/",
+   "date": "2023-05"
+  },
+  {
+   "type": "magazine",
+   "name": "Ultimate Motorcycling: 2024 KTM 450 XCF-W Review (GNCC tested)",
+   "url": "https://ultimatemotorcycling.com/2023/06/05/2024-ktm-450-xcf-w-review-15-fast-facts/",
+   "date": "2023-06"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle World: 2025 KTM 450 XCF-W",
+   "url": "https://cycleworld.com/ktm/450-xcf-w",
+   "date": "2024"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM USA 2025 450 XCF-W technical specifications",
+   "url": "https://www.ktm.com/en-us/models/enduro/4-stroke/2025-ktm-450-xcfw/technical-specifications.html",
+   "date": "2024"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM USA 2026 450 XCF-W model page",
+   "url": "https://www.ktm.com/en-us/models/enduro/4-stroke/2026-ktm-450-xcfw.html",
+   "date": "2025"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM 2024 450 XC-F model page",
+   "url": "https://www.ktm.com/es-ve/models/cross-country/4-tiempos/2024-ktm-450-xc-f.html",
+   "date": "2023"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM tech guide: Connectivity Unit Offroad",
+   "url": "https://www.ktm.com/en-int/tech-guide/connectivity-unit-offroad.html",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2023 KTM 450 XC-F Dyno Test",
+   "url": "https://dirtrider.com/story/tests/ktm-450-xc-f-dyno-test-2023",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: How Much Power Does the 2025 KTM 450 XC-F Make?",
+   "url": "https://dirtrider.com/tests/ktm-450-xc-f-dyno-test-2025",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2023 KTM 450 XCF-W Dyno Test",
+   "url": "https://www.dirtrider.com/tests/ktm-450-xcf-w-dyno-test-2023",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2023 KTM 250 XC-F Dyno Test",
+   "url": "https://dirtrider.com/story/tests/ktm-250-xc-f-dyno-test-2023",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2022 KTM 350 XC-F Dyno Test",
+   "url": "https://dirtrider.com/story/tests/2022-ktm-350-xc-f-dyno-test",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2020 Husqvarna FX 350 Dyno Test",
+   "url": "https://dirtrider.com/story/tests/2020-husqvarna-fx-350-dyno-test",
+   "date": "2020"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: How Much Power Does the 2023 Husqvarna FX 350 Make?",
+   "url": "https://dirtrider.com/tests/husqvarna-fx-350-dyno-test-2023",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2025 Husqvarna FX 350 Dyno Test",
+   "url": "https://dirtrider.com/tests/husqvarna-fx-350-dyno-test-2025",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2020 Husqvarna FX 450 Dyno Test",
+   "url": "https://www.dirtrider.com/story/tests/2020-husqvarna-fx-450-dyno-test",
+   "date": "2020"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2021 Husqvarna FX 450 Dyno Test",
+   "url": "https://www.dirtrider.com/story/tests/2021-husqvarna-fx-450-dyno-test",
+   "date": "2021"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: How Much Power Does the 2023 Husqvarna FX 450 Make?",
+   "url": "https://dirtrider.com/tests/husqvarna-fx-450-dyno-test-2023",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2023 Husqvarna FX 450 Technical Information",
+   "url": "https://dirtrider.com/dirt-bikes/husqvarna-fx-450-technical-information-2023",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2021 GasGas EX 350F Dyno Test",
+   "url": "https://dirtrider.com/story/tests/2021-gasgas-ex-350f-dyno-test",
+   "date": "2021"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2021 GasGas EX 250F Dyno Test",
+   "url": "https://dirtrider.com/story/tests/2021-gasgas-ex-250f-dyno-test",
+   "date": "2021"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2024 GasGas EX 250F Dyno Test",
+   "url": "https://www.dirtrider.com/tests/gasgas-ex-250f-dyno-test-2024",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: Race Test of the 2021 GasGas EX 350F cross-country",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-gasgas-ex-350f",
+   "date": "2021"
+  },
+  {
+   "type": "magazine",
+   "name": "ADB Magazine: Enduro Test 2024 GasGas EX 350F",
+   "url": "https://adbmag.com.au/editorial/enduro-test-2024-gasgas-ex-350f/",
+   "date": "2024-05"
+  },
+  {
+   "type": "magazine",
+   "name": "Transmoto: 2024 GasGas Cross-Country Weapons",
+   "url": "https://transmoto.com.au/2024-gasgas-ex-weapons-are-they-made-for-you",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Vital MX: Tested - GasGas 2024 model launch",
+   "url": "https://www.vitalmx.com/features/tested-get-gas-gasgas-2024-model-launch",
+   "date": "2023"
+  },
+  {
+   "type": "manufacturer",
+   "name": "GasGas Canada: 2024 EX 450F model page",
+   "url": "https://www.gasgas.com/en-ca/models/cross-country/4-stroke/ex-450f-2024.html",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2024 GasGas Enduro Bikes First Look",
+   "url": "https://dirtrider.com/dirt-bikes/gasgas-enduro-bikes-first-look-2024",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News: New 2026 GasGas Off-Roaders Specs",
+   "url": "https://www.cyclenews.com/2025/08/article/new-2026-gasgas-off-roaders-specs/",
+   "date": "2025-08"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21: First look 2026 GasGas off-road range",
+   "url": "https://enduro21.com/en/news/first-look-2026-gasgas-off-road-range-black-rims-and-fan-450-enduro-model-ditched",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21: First look 2024 Husqvarna cross-country and motocross model updates",
+   "url": "https://enduro21.com/en/news/first-look-2024-husqvarna-cross-country-and-motocross-model-updates",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Magazine: 2025 Husqvarna FX350 Full Test",
+   "url": "https://dirtbikemagazine.com/2025-husqvarna-fx350-full-test/",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Magazine: Husqvarna reveals 2026 motocross and cross-country line-up",
+   "url": "https://dirtbikemagazine.com/?p=100175",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21: Quick Look 2027 Husqvarna cross-country range - FX 450 returns",
+   "url": "https://enduro21.com/en/news/quick-look-2027-husqvarna-cross-country-range-fx-450-returns-to-the-line-up",
+   "date": "2026"
+  },
+  {
+   "type": "magazine",
+   "name": "Ultimate Motorcycling: 2023 Husqvarna FE 450 First Look",
+   "url": "https://ultimatemotorcycling.com/2022/05/04/2023-husqvarna-fe-450-first-look-6-fast-facts-new-model/",
+   "date": "2022-05"
+  },
+  {
+   "type": "magazine",
+   "name": "ADB Magazine: Enduro Test 2024 Husqvarna FE 450",
+   "url": "https://adbmag.com.au/editorial/enduro-test-2024-husqvarna-fe-450/",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "MotoOnline: Tested 2024 Husqvarna FE range",
+   "url": "https://www.motoonline.com/au/tested-2024-husqvarna-fe-range/",
+   "date": "2023"
+  },
+  {
+   "type": "manufacturer",
+   "name": "US CPSC recall 26-710: KTM North America recalls off-road motorcycles (rear brake caliper)",
+   "url": "https://www.cpsc.gov/Recalls/2026/KTM-North-America-Recalls-Off-Road-Motorcycles-Due-to-Risk-of-Serious-Injury-or-Death-from-Crash-Hazard",
+   "date": "2026-08"
+  },
+  {
+   "type": "magazine",
+   "name": "The Brake Report: KTM recalls 21,040 GasGas, Husqvarna off-road motorcycles",
+   "url": "https://thebrakereport.com/ktm-gasgas-husqvarna-off-road-brake-recall/",
+   "date": "2026-08"
+  },
+  {
+   "type": "magazine",
+   "name": "Transmoto: 2017 KTM/Husky traction control",
+   "url": "https://transmoto.com.au/2017-ktmhusky-traction-control",
+   "date": "2016"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Test: Tech Tip - KTM 450 XC-F 6th gear install",
+   "url": "https://dirtbiketest.com/fresh-dirt/dbt-tech-tip-ktm-450-xc-f-6th-gear-install",
+   "date": "n.d."
+  },
+  {
+   "type": "race team",
+   "name": "Dirt Bike Test: Inside the race bike - Vegas to Reno KTM 450XC-F (3Bros Racing)",
+   "url": "https://dirtbiketest.com/fresh-dirt/inside-the-race-bike-vegas-to-reno-ktm-450xc-f/",
+   "date": "2019"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Test: Inside scoop on 2023 KTMs",
+   "url": "https://dirtbiketest.com/fresh-dirt/inside-scoop-on-2023-ktms/",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Keefer Inc. Testing: 2025 KTM 350 XC-F review",
+   "url": "https://www.keeferinctesting.com/?p=28428",
+   "date": "2024-11"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum: 2023 KTM 250 XC-F fuel pump failure? Is this common?",
+   "url": "https://www.vitalmx.com/comment/8773896",
+   "date": "2024"
+  }
+ ]
+}
