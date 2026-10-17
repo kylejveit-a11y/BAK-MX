@@ -1,0 +1,2361 @@
+{
+ "slice": "chains, sprockets, wheels and hubs (Regina, Iris, Talon Engineering)",
+ "products": [
+  {
+   "id": "cw-001",
+   "category": "gearing",
+   "subcategory": "rear sprocket",
+   "brand": "Talon Engineering",
+   "product": "TR130RL Radialite Rear Sprocket (KTM Husqvarna Gas Gas)",
+   "part_numbers": [
+    "TR130RL"
+   ],
+   "variants": [
+    "TR130RL = 520 pitch, 38-56T (every tooth count 38 to 56 listed)",
+    "TR130RL = colour options Black, Blue, Gold, Green, Mag, Orange, Pink, Purple, Red, Silver, Titan"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'SX 125 (1995–2021)' (https://talon-eng.co.uk/product/tr130rl-radialite-rear-sprocket-ktm-husqvarna-gas-gas/)"
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'SX 150 (2017–2021)' (https://talon-eng.co.uk/product/tr130rl-radialite-rear-sprocket-ktm-husqvarna-gas-gas/)"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'SX 250 (1997–2021)' (https://talon-eng.co.uk/product/tr130rl-radialite-rear-sprocket-ktm-husqvarna-gas-gas/)"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'SX-F 250 (2006–2021)' (https://talon-eng.co.uk/product/tr130rl-radialite-rear-sprocket-ktm-husqvarna-gas-gas/)"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'SX-F 350 (2011–2021)' (https://talon-eng.co.uk/product/tr130rl-radialite-rear-sprocket-ktm-husqvarna-gas-gas/)"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'SX-F 450 (2007–2021)' (https://talon-eng.co.uk/product/tr130rl-radialite-rear-sprocket-ktm-husqvarna-gas-gas/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'TC 125 (2014–2021)' (https://talon-eng.co.uk/product/tr130rl-radialite-rear-sprocket-ktm-husqvarna-gas-gas/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'TC 250 (2014–2021)' (https://talon-eng.co.uk/product/tr130rl-radialite-rear-sprocket-ktm-husqvarna-gas-gas/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FE 450",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'FE 450 (2014–2021)' (https://talon-eng.co.uk/product/tr130rl-radialite-rear-sprocket-ktm-husqvarna-gas-gas/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TE 150",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'TE 150i (2020–2021)' (https://talon-eng.co.uk/product/tr130rl-radialite-rear-sprocket-ktm-husqvarna-gas-gas/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TE 250",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'TE 250i (2018–2021)' (https://talon-eng.co.uk/product/tr130rl-radialite-rear-sprocket-ktm-husqvarna-gas-gas/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TE 300",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'TE 300i (2018–2021)' (https://talon-eng.co.uk/product/tr130rl-radialite-rear-sprocket-ktm-husqvarna-gas-gas/)"
+    },
+    {
+     "make": "GasGas",
+     "model": "EC 250",
+     "years": [
+      2021
+     ],
+     "notes": "Talon fitment list 'EC 250 (2020–2021)' (https://talon-eng.co.uk/product/tr130rl-radialite-rear-sprocket-ktm-husqvarna-gas-gas/); roster starts 2021"
+    },
+    {
+     "make": "GasGas",
+     "model": "EC 300",
+     "years": [
+      2021
+     ],
+     "notes": "Talon fitment list 'EC 300 (2020–2021)' (https://talon-eng.co.uk/product/tr130rl-radialite-rear-sprocket-ktm-husqvarna-gas-gas/); roster starts 2021"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2021
+     ],
+     "notes": "Talon fitment list 'MC 125 (2020–2021)' (https://talon-eng.co.uk/product/tr130rl-radialite-rear-sprocket-ktm-husqvarna-gas-gas/); roster starts 2021"
+    }
+   ],
+   "fitment_source_url": "https://talon-eng.co.uk/product/tr130rl-radialite-rear-sprocket-ktm-husqvarna-gas-gas/",
+   "what_it_changes": "Aluminium 'Radialite' rear sprocket (lightweight alloy). Changing the rear tooth count changes final-drive gearing: more rear teeth = shorter gearing (harder pull, lower top speed per gear); fewer = taller gearing. Talon's product pages carry only a spec table (pitch, teeth, colours, fitment) and no further description.",
+   "supporting_parts": "520-pitch chain and a matching countershaft (front) sprocket; replace chain and both sprockets together. Talon lists matching Groovelite/standard front sprockets (see TG entries). Sprocket bolts sold separately (Talon 'Sprocket Bolts' category).",
+   "caveats": "Talon's list stops at 2021 for every KTM-group model; 2022+ KTM/Husqvarna/GasGas use the same rear sprocket pattern in practice but Talon does not list them, so they are not included. The list omits Husqvarna FC 250/350/450, KTM XC/XC-F/XC-W and Husqvarna FX/TX even though Talon's TG328 front-sprocket page (same bike group) lists them - treat as an incomplete fitment table. GasGas 'MC 450F (2020)' is listed but falls before the roster years. Prices not recorded.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "high",
+   "is_service": false,
+   "colors": [
+    {
+     "name": "Black",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr130rl-radialite-rear-sprocket-ktm-husqvarna-gas-gas/"
+    },
+    {
+     "name": "Blue",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr130rl-radialite-rear-sprocket-ktm-husqvarna-gas-gas/"
+    },
+    {
+     "name": "Gold",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr130rl-radialite-rear-sprocket-ktm-husqvarna-gas-gas/"
+    },
+    {
+     "name": "Green",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr130rl-radialite-rear-sprocket-ktm-husqvarna-gas-gas/"
+    },
+    {
+     "name": "Mag",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr130rl-radialite-rear-sprocket-ktm-husqvarna-gas-gas/"
+    },
+    {
+     "name": "Orange",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr130rl-radialite-rear-sprocket-ktm-husqvarna-gas-gas/"
+    },
+    {
+     "name": "Pink",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr130rl-radialite-rear-sprocket-ktm-husqvarna-gas-gas/"
+    },
+    {
+     "name": "Purple",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr130rl-radialite-rear-sprocket-ktm-husqvarna-gas-gas/"
+    },
+    {
+     "name": "Red",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr130rl-radialite-rear-sprocket-ktm-husqvarna-gas-gas/"
+    },
+    {
+     "name": "Silver",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr130rl-radialite-rear-sprocket-ktm-husqvarna-gas-gas/"
+    },
+    {
+     "name": "Titan",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr130rl-radialite-rear-sprocket-ktm-husqvarna-gas-gas/"
+    }
+   ]
+  },
+  {
+   "id": "cw-002",
+   "category": "gearing",
+   "subcategory": "rear sprocket",
+   "brand": "Talon Engineering",
+   "product": "TR339RL Radialite Rear Sprocket (Yamaha YZ YZF WRF)",
+   "part_numbers": [
+    "TR339RL"
+   ],
+   "variants": [
+    "TR339RL = 520 pitch; teeth offered 38, 39, 40, 41, 42, 43, 46, 47, 48, 49, 50, 51, 52, 55, 56",
+    "TR339RL = colour options Black, Blue, Gold, Mag, Purple, Red, Silver, Titan"
+   ],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ125",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Talon fitment list 'YZ125 (1999–2026)' (https://talon-eng.co.uk/product/tr339rl-radialite-rear-sprocket-yamaha-yz-wrf-wr-yzf/)"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Talon fitment list 'YZ250 (1999–2026)' (https://talon-eng.co.uk/product/tr339rl-radialite-rear-sprocket-yamaha-yz-wrf-wr-yzf/)"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Talon fitment list 'YZ250F (2014–2026)' (https://talon-eng.co.uk/product/tr339rl-radialite-rear-sprocket-yamaha-yz-wrf-wr-yzf/)"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ450F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'YZ450F (2003–2025)' (https://talon-eng.co.uk/product/tr339rl-radialite-rear-sprocket-yamaha-yz-wrf-wr-yzf/)"
+    },
+    {
+     "make": "Yamaha",
+     "model": "WR250F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'WR250F (2002–2025)' (https://talon-eng.co.uk/product/tr339rl-radialite-rear-sprocket-yamaha-yz-wrf-wr-yzf/)"
+    },
+    {
+     "make": "Yamaha",
+     "model": "WR450F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'WR450F (2003–2025)' (https://talon-eng.co.uk/product/tr339rl-radialite-rear-sprocket-yamaha-yz-wrf-wr-yzf/)"
+    }
+   ],
+   "fitment_source_url": "https://talon-eng.co.uk/product/tr339rl-radialite-rear-sprocket-yamaha-yz-wrf-wr-yzf/",
+   "what_it_changes": "Aluminium 'Radialite' rear sprocket (lightweight alloy). Changing the rear tooth count changes final-drive gearing: more rear teeth = shorter gearing (harder pull, lower top speed per gear); fewer = taller gearing. Talon's product pages carry only a spec table (pitch, teeth, colours, fitment) and no further description.",
+   "supporting_parts": "520-pitch chain and a matching countershaft (front) sprocket; replace chain and both sprockets together. Talon lists matching Groovelite/standard front sprockets (see TG entries). Sprocket bolts sold separately (Talon 'Sprocket Bolts' category).",
+   "caveats": "No 44T, 45T, 53T or 54T offered for this pattern. YZ125X/YZ250X/YZ250FX/YZ450FX are not named on Talon's list (same hub pattern is likely but unproven, so omitted). YZ450F/WR models listed only to 2025.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "high",
+   "is_service": false,
+   "colors": [
+    {
+     "name": "Black",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr339rl-radialite-rear-sprocket-yamaha-yz-wrf-wr-yzf/"
+    },
+    {
+     "name": "Blue",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr339rl-radialite-rear-sprocket-yamaha-yz-wrf-wr-yzf/"
+    },
+    {
+     "name": "Gold",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr339rl-radialite-rear-sprocket-yamaha-yz-wrf-wr-yzf/"
+    },
+    {
+     "name": "Mag",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr339rl-radialite-rear-sprocket-yamaha-yz-wrf-wr-yzf/"
+    },
+    {
+     "name": "Purple",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr339rl-radialite-rear-sprocket-yamaha-yz-wrf-wr-yzf/"
+    },
+    {
+     "name": "Red",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr339rl-radialite-rear-sprocket-yamaha-yz-wrf-wr-yzf/"
+    },
+    {
+     "name": "Silver",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr339rl-radialite-rear-sprocket-yamaha-yz-wrf-wr-yzf/"
+    },
+    {
+     "name": "Titan",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr339rl-radialite-rear-sprocket-yamaha-yz-wrf-wr-yzf/"
+    }
+   ]
+  },
+  {
+   "id": "cw-003",
+   "category": "gearing",
+   "subcategory": "rear sprocket",
+   "brand": "Talon Engineering",
+   "product": "TR113RL Radialite Rear Sprocket (Honda CR CRF)",
+   "part_numbers": [
+    "TR113RL"
+   ],
+   "variants": [
+    "TR113RL = 520 pitch, 36-56T (every tooth count 36 to 56 listed)",
+    "TR113RL = colour options Black, Blue, Gold, Green, Mag, Orange, Pink, Purple, Red, Silver, Titan"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'CRF 250 RX (2019–2021)' (https://talon-eng.co.uk/product/tr113rl-radialite-rear-sprocket-honda-cr-crf/)"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'CRF 450 R (2004–2021)' (https://talon-eng.co.uk/product/tr113rl-radialite-rear-sprocket-honda-cr-crf/)"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'CRF 450 RX (2017–2021)' (https://talon-eng.co.uk/product/tr113rl-radialite-rear-sprocket-honda-cr-crf/)"
+    }
+   ],
+   "fitment_source_url": "https://talon-eng.co.uk/product/tr113rl-radialite-rear-sprocket-honda-cr-crf/",
+   "what_it_changes": "Aluminium 'Radialite' rear sprocket (lightweight alloy). Changing the rear tooth count changes final-drive gearing: more rear teeth = shorter gearing (harder pull, lower top speed per gear); fewer = taller gearing. Talon's product pages carry only a spec table (pitch, teeth, colours, fitment) and no further description.",
+   "supporting_parts": "520-pitch chain and a matching countershaft (front) sprocket; replace chain and both sprockets together. Talon lists matching Groovelite/standard front sprockets (see TG entries). Sprocket bolts sold separately (Talon 'Sprocket Bolts' category).",
+   "caveats": "Talon lists CRF 250 R only for 2004–2017, so the 2020+ CRF250R is not included even though the CRF250RX (same chassis family) is listed to 2021. Nothing listed after 2021 for any Honda.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "high",
+   "is_service": false,
+   "colors": [
+    {
+     "name": "Black",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr113rl-radialite-rear-sprocket-honda-cr-crf/"
+    },
+    {
+     "name": "Blue",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr113rl-radialite-rear-sprocket-honda-cr-crf/"
+    },
+    {
+     "name": "Gold",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr113rl-radialite-rear-sprocket-honda-cr-crf/"
+    },
+    {
+     "name": "Green",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr113rl-radialite-rear-sprocket-honda-cr-crf/"
+    },
+    {
+     "name": "Mag",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr113rl-radialite-rear-sprocket-honda-cr-crf/"
+    },
+    {
+     "name": "Orange",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr113rl-radialite-rear-sprocket-honda-cr-crf/"
+    },
+    {
+     "name": "Pink",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr113rl-radialite-rear-sprocket-honda-cr-crf/"
+    },
+    {
+     "name": "Purple",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr113rl-radialite-rear-sprocket-honda-cr-crf/"
+    },
+    {
+     "name": "Red",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr113rl-radialite-rear-sprocket-honda-cr-crf/"
+    },
+    {
+     "name": "Silver",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr113rl-radialite-rear-sprocket-honda-cr-crf/"
+    },
+    {
+     "name": "Titan",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr113rl-radialite-rear-sprocket-honda-cr-crf/"
+    }
+   ]
+  },
+  {
+   "id": "cw-004",
+   "category": "gearing",
+   "subcategory": "rear sprocket",
+   "brand": "Talon Engineering",
+   "product": "TR107RL Radialite Rear Sprocket (Kawasaki KX KXF)",
+   "part_numbers": [
+    "TR107RL"
+   ],
+   "variants": [
+    "TR107RL = 520 pitch; order menu offers 38, 39, 42-55T (spec table says 38-56T)",
+    "TR107RL = order-menu colours Black, Blue, Gold, Green, Mag, Red, Silver"
+   ],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'KXF 250 (2004–2025)' (https://talon-eng.co.uk/product/tr107rl-radialite-rear-sprocket-kawaski-kx-kxf/); Talon uses the old 'KXF 250' name for the four-stroke KX250"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'KXF 450 (2006–2025)' (https://talon-eng.co.uk/product/tr107rl-radialite-rear-sprocket-kawaski-kx-kxf/); Talon uses the old 'KXF 450' name for the four-stroke KX450"
+    }
+   ],
+   "fitment_source_url": "https://talon-eng.co.uk/product/tr107rl-radialite-rear-sprocket-kawaski-kx-kxf/",
+   "what_it_changes": "Aluminium 'Radialite' rear sprocket (lightweight alloy). Changing the rear tooth count changes final-drive gearing: more rear teeth = shorter gearing (harder pull, lower top speed per gear); fewer = taller gearing. Talon's product pages carry only a spec table (pitch, teeth, colours, fitment) and no further description.",
+   "supporting_parts": "520-pitch chain and a matching countershaft (front) sprocket; replace chain and both sprockets together. Talon lists matching Groovelite/standard front sprockets (see TG entries). Sprocket bolts sold separately (Talon 'Sprocket Bolts' category).",
+   "caveats": "Page conflict: the order menu lists colours Black, Blue, Gold, Green, Mag, Red, Silver and teeth 38, 39, 42-55, while the spec table lists all 11 colours and 38-56T; colours below use the order menu. KX250X/KX450X not named. Mapping 'KXF 250/450' to the roster KX250/KX450 is an interpretation of Talon's naming (medium confidence).",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": [
+    {
+     "name": "Black",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr107rl-radialite-rear-sprocket-kawaski-kx-kxf/"
+    },
+    {
+     "name": "Blue",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr107rl-radialite-rear-sprocket-kawaski-kx-kxf/"
+    },
+    {
+     "name": "Gold",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr107rl-radialite-rear-sprocket-kawaski-kx-kxf/"
+    },
+    {
+     "name": "Green",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr107rl-radialite-rear-sprocket-kawaski-kx-kxf/"
+    },
+    {
+     "name": "Mag",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr107rl-radialite-rear-sprocket-kawaski-kx-kxf/"
+    },
+    {
+     "name": "Red",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr107rl-radialite-rear-sprocket-kawaski-kx-kxf/"
+    },
+    {
+     "name": "Silver",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/tr107rl-radialite-rear-sprocket-kawaski-kx-kxf/"
+    }
+   ]
+  },
+  {
+   "id": "cw-005",
+   "category": "gearing",
+   "subcategory": "front sprocket",
+   "brand": "Talon Engineering",
+   "product": "TG328GL Groovelite Front Sprocket",
+   "part_numbers": [
+    "TG328GL"
+   ],
+   "variants": [
+    "TG328GL = 520 pitch; 12T, 13T, 14T, 15T"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'SX 125 (1995–2021)' (https://talon-eng.co.uk/product/tg328gl-groovelite-front-sprocket/)"
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'SX 150 (2017–2021)' (https://talon-eng.co.uk/product/tg328gl-groovelite-front-sprocket/)"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'SX 250 (1997–2021)' (https://talon-eng.co.uk/product/tg328gl-groovelite-front-sprocket/)"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'SX-F 250 (2006–2021)' (https://talon-eng.co.uk/product/tg328gl-groovelite-front-sprocket/)"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'SX-F 350 (2011–2021)' (https://talon-eng.co.uk/product/tg328gl-groovelite-front-sprocket/)"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'SX-F 450 (2007–2021)' (https://talon-eng.co.uk/product/tg328gl-groovelite-front-sprocket/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'TC 125 (2014–2021)' (https://talon-eng.co.uk/product/tg328gl-groovelite-front-sprocket/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'TC 250 (2014–2021)' (https://talon-eng.co.uk/product/tg328gl-groovelite-front-sprocket/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FE 450",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'FE 450 (2014–2021)' (https://talon-eng.co.uk/product/tg328gl-groovelite-front-sprocket/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TE 150",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'TE 150i (2020–2021)' (https://talon-eng.co.uk/product/tg328gl-groovelite-front-sprocket/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TE 250",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'TE 250i (2018–2021)' (https://talon-eng.co.uk/product/tg328gl-groovelite-front-sprocket/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TE 300",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'TE 300i (2018–2021)' (https://talon-eng.co.uk/product/tg328gl-groovelite-front-sprocket/)"
+    },
+    {
+     "make": "GasGas",
+     "model": "EC 250",
+     "years": [
+      2021
+     ],
+     "notes": "Talon fitment list 'EC 250 (2020–2021)' (https://talon-eng.co.uk/product/tg328gl-groovelite-front-sprocket/)"
+    },
+    {
+     "make": "GasGas",
+     "model": "EC 300",
+     "years": [
+      2021
+     ],
+     "notes": "Talon fitment list 'EC 300 (2020–2021)' (https://talon-eng.co.uk/product/tg328gl-groovelite-front-sprocket/)"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2021
+     ],
+     "notes": "Talon fitment list 'MC 125 (2020–2021)' (https://talon-eng.co.uk/product/tg328gl-groovelite-front-sprocket/)"
+    }
+   ],
+   "fitment_source_url": "https://talon-eng.co.uk/product/tg328gl-groovelite-front-sprocket/",
+   "what_it_changes": "Steel countershaft (front) sprocket. 'Groovelite' versions are Talon's lightened/grooved design. Fewer front teeth = shorter gearing (more pull), more teeth = taller gearing. Talon's pages carry only a spec table and fitment list.",
+   "supporting_parts": "520-pitch chain and matching Talon rear sprocket; replace chain and both sprockets together.",
+   "caveats": "Fitment list is identical to the TR130RL rear page and stops at 2021; it omits FC/XC/FX models that the standard TG328 page lists. No colour options printed (steel part).",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "high",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "cw-006",
+   "category": "gearing",
+   "subcategory": "front sprocket",
+   "brand": "Talon Engineering",
+   "product": "TG328 Standard Front Sprocket",
+   "part_numbers": [
+    "TG328"
+   ],
+   "variants": [
+    "TG328 = 520 pitch; 12T, 13T, 14T, 15T, 16T"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'SX 125 (1995–2021)' (https://talon-eng.co.uk/product/tg328-standard-front-sprocket/)"
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'SX 150 (2017–2021)' (https://talon-eng.co.uk/product/tg328-standard-front-sprocket/)"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'SX 250 (1997–2021)' (https://talon-eng.co.uk/product/tg328-standard-front-sprocket/)"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'SX-F 250 (2006–2021)' (https://talon-eng.co.uk/product/tg328-standard-front-sprocket/)"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'SX-F 350 (2011–2021)' (https://talon-eng.co.uk/product/tg328-standard-front-sprocket/)"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'SX-F 450 (2007–2021)' (https://talon-eng.co.uk/product/tg328-standard-front-sprocket/)"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'XC TPI 250 (2020–2021)' (https://talon-eng.co.uk/product/tg328-standard-front-sprocket/)"
+    },
+    {
+     "make": "KTM",
+     "model": "300 XC",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'XC TPI 300 (2020–2021)' (https://talon-eng.co.uk/product/tg328-standard-front-sprocket/)"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-F",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'XC-F 250 (2007–2021)' (https://talon-eng.co.uk/product/tg328-standard-front-sprocket/)"
+    },
+    {
+     "make": "KTM",
+     "model": "350 XC-F",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'XC-F 350 (2018–2021)' (https://talon-eng.co.uk/product/tg328-standard-front-sprocket/)"
+    },
+    {
+     "make": "KTM",
+     "model": "450 XC-F",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'XC-F 450 (2013–2021)' (https://talon-eng.co.uk/product/tg328-standard-front-sprocket/)"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-W",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'XC-W TPI 250 (2018–2021)' (https://talon-eng.co.uk/product/tg328-standard-front-sprocket/)"
+    },
+    {
+     "make": "KTM",
+     "model": "300 XC-W",
+     "years": [
+      2020
+     ],
+     "notes": "Talon fitment list 'XC-W TPI 300 (2019–2020)' (https://talon-eng.co.uk/product/tg328-standard-front-sprocket/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'FC 250 (2014–2021)' (https://talon-eng.co.uk/product/tg328-standard-front-sprocket/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'FC 350 (2014–2021)' (https://talon-eng.co.uk/product/tg328-standard-front-sprocket/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'FC 450 (2014–2021)' (https://talon-eng.co.uk/product/tg328-standard-front-sprocket/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FE 450",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'FE 450 (2014–2021)' (https://talon-eng.co.uk/product/tg328-standard-front-sprocket/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 350",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'FX 350 (2017–2021)' (https://talon-eng.co.uk/product/tg328-standard-front-sprocket/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 450",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'FX 450 (2017–2021)' (https://talon-eng.co.uk/product/tg328-standard-front-sprocket/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'TC 125 (2014–2021)' (https://talon-eng.co.uk/product/tg328-standard-front-sprocket/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'TC 250 (2014–2021)' (https://talon-eng.co.uk/product/tg328-standard-front-sprocket/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TE 150",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'TE 150i (2020–2021)' (https://talon-eng.co.uk/product/tg328-standard-front-sprocket/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TE 250",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'TE 250i (2018–2021)' (https://talon-eng.co.uk/product/tg328-standard-front-sprocket/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TE 300",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'TE 300i (2018–2021)' (https://talon-eng.co.uk/product/tg328-standard-front-sprocket/)"
+    },
+    {
+     "make": "GasGas",
+     "model": "EC 250",
+     "years": [
+      2021
+     ],
+     "notes": "Talon fitment list 'EC 250 (2020–2021)' (https://talon-eng.co.uk/product/tg328-standard-front-sprocket/)"
+    },
+    {
+     "make": "GasGas",
+     "model": "EC 300",
+     "years": [
+      2021
+     ],
+     "notes": "Talon fitment list 'EC 300 (2020–2021)' (https://talon-eng.co.uk/product/tg328-standard-front-sprocket/)"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2021
+     ],
+     "notes": "Talon fitment list 'MC 125 (2020–2021)' (https://talon-eng.co.uk/product/tg328-standard-front-sprocket/)"
+    }
+   ],
+   "fitment_source_url": "https://talon-eng.co.uk/product/tg328-standard-front-sprocket/",
+   "what_it_changes": "Steel countershaft (front) sprocket, standard (non-grooved) design. Fewer front teeth = shorter gearing, more teeth = taller gearing.",
+   "supporting_parts": "520-pitch chain and matching Talon rear sprocket; replace chain and both sprockets together.",
+   "caveats": "Page says 'Please contact us to order this product' (not cart-orderable online). Mapping 'XC TPI 250/300' and 'XC-W TPI 250/300' to the roster 250 XC/300 XC/250 XC-W/300 XC-W follows KTM's US naming. Husqvarna TX 300 listed only 2017–2019 (out of range). List stops at 2021.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "high",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "cw-007",
+   "category": "gearing",
+   "subcategory": "front sprocket",
+   "brand": "Talon Engineering",
+   "product": "TG320GL Groovelite Front Sprocket",
+   "part_numbers": [
+    "TG320GL"
+   ],
+   "variants": [
+    "TG320GL = 520 pitch; 12T, 13T, 14T, 15T"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'CRF 450 R (2004–2021)' (https://talon-eng.co.uk/product/tg320gl-groovelite-front-sprocket/)"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Talon fitment list 'CRF 450 RX (2017–2021)' (https://talon-eng.co.uk/product/tg320gl-groovelite-front-sprocket/)"
+    }
+   ],
+   "fitment_source_url": "https://talon-eng.co.uk/product/tg320gl-groovelite-front-sprocket/",
+   "what_it_changes": "Steel countershaft (front) sprocket. 'Groovelite' versions are Talon's lightened/grooved design. Fewer front teeth = shorter gearing (more pull), more teeth = taller gearing. Talon's pages carry only a spec table and fitment list.",
+   "supporting_parts": "520-pitch chain and matching Talon rear sprocket; replace chain and both sprockets together.",
+   "caveats": "CRF250R/CRF250RX not on this page; no Talon page found listing a 2020+ CRF250R front sprocket. List stops at 2021.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "high",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "cw-008",
+   "category": "gearing",
+   "subcategory": "front sprocket",
+   "brand": "Talon Engineering",
+   "product": "Yamaha Groovelite Front Sprocket",
+   "part_numbers": [
+    "TG439"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ125",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Talon 'Fits to Bike' list 'YZ 125 2005-2023' (https://talon-eng.co.uk/product/groovelite-front-sprocket-yamaha-2/)"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Talon 'Fits to Bike' list 'YZ 250 1999-2023' (https://talon-eng.co.uk/product/groovelite-front-sprocket-yamaha-2/)"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Talon 'Fits to Bike' list 'YZF 250 2005-2023' (https://talon-eng.co.uk/product/groovelite-front-sprocket-yamaha-2/)"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ450F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Talon 'Fits to Bike' list 'YZF 450 2003-2023' (https://talon-eng.co.uk/product/groovelite-front-sprocket-yamaha-2/)"
+    },
+    {
+     "make": "Yamaha",
+     "model": "WR450F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Talon 'Fits to Bike' list 'WRF 450 1999-2023' (https://talon-eng.co.uk/product/groovelite-front-sprocket-yamaha-2/)"
+    }
+   ],
+   "fitment_source_url": "https://talon-eng.co.uk/product/groovelite-front-sprocket-yamaha-2/",
+   "what_it_changes": "Steel countershaft (front) sprocket. 'Groovelite' versions are Talon's lightened/grooved design. Fewer front teeth = shorter gearing (more pull), more teeth = taller gearing. Talon's pages carry only a spec table and fitment list. Talon: 'Our popular front sprockets have been used by professional race teams all over the globe.'",
+   "supporting_parts": "520-pitch chain and matching Talon rear sprocket; replace chain and both sprockets together.",
+   "caveats": "LOW: this page was read once via WebFetch on 2026-10-17 but returned 'Page Not Found' when rechecked the same day (likely delisted). Pitch, tooth sizes and colours were blank on the page. It also conflicts with Talon's live 'TG439 Standard Front Sprocket' page, which lists YZ250 only 2005–2019 and YZ450F 1999–2017 (https://talon-eng.co.uk/product/tg439-standard-front-sprocket/). Confirm with Talon before use.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "low",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "cw-009",
+   "category": "gearing",
+   "subcategory": "front sprocket",
+   "brand": "Talon Engineering",
+   "product": "Kawasaki Groovelite Front Sprocket",
+   "part_numbers": [
+    "TG573"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Talon product title 'KX250 (18-25)' (https://talon-eng.co.uk/product/groovelite-front-sprocket-kawasaki/)"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX250X",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Talon product title 'KX250X (21-25)' (https://talon-eng.co.uk/product/groovelite-front-sprocket-kawasaki/)"
+    }
+   ],
+   "fitment_source_url": "https://talon-eng.co.uk/product/groovelite-front-sprocket-kawasaki/",
+   "what_it_changes": "Steel countershaft (front) sprocket. 'Groovelite' versions are Talon's lightened/grooved design. Fewer front teeth = shorter gearing (more pull), more teeth = taller gearing. Talon's pages carry only a spec table and fitment list.",
+   "supporting_parts": "520-pitch chain and matching Talon rear sprocket; replace chain and both sprockets together.",
+   "caveats": "LOW: page read once via WebFetch on 2026-10-17 but returned 'Page Not Found' on recheck. The title fitment (KX250 18-25, KXF250 06-17, KX250X 21-25, KX450 2019) disagrees with the page's 'Fits to Bike' box (KXF 250 2006-2023 only). Pitch/teeth/colours blank. KX450 2019 is before roster years.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "low",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "cw-010",
+   "category": "wheels",
+   "subcategory": "front hub",
+   "brand": "Talon Engineering",
+   "product": "Front Pro-Billet Hub (22mm axle) - KTM, Husqvarna, Gas Gas",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Talon hub fitment 'SX 125 2015–2024' (https://talon-eng.co.uk/product/tw914a-front-pro-billet-hub-ktm-exc-exc-f-sx-sxf-xc-xcf-husqvarna-fc-fe-fc-fe-tc-te-gas-gas-ec-mc-2/)"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Talon hub fitment 'SX 250 2015–2024' (https://talon-eng.co.uk/product/tw914a-front-pro-billet-hub-ktm-exc-exc-f-sx-sxf-xc-xcf-husqvarna-fc-fe-fc-fe-tc-te-gas-gas-ec-mc-2/)"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Talon hub fitment 'SX-F 250 2015–2024' (https://talon-eng.co.uk/product/tw914a-front-pro-billet-hub-ktm-exc-exc-f-sx-sxf-xc-xcf-husqvarna-fc-fe-fc-fe-tc-te-gas-gas-ec-mc-2/)"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Talon hub fitment 'XC 250 2015–2024' (https://talon-eng.co.uk/product/tw914a-front-pro-billet-hub-ktm-exc-exc-f-sx-sxf-xc-xcf-husqvarna-fc-fe-fc-fe-tc-te-gas-gas-ec-mc-2/)"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Talon hub fitment 'XC-F 250 2015–2024' (https://talon-eng.co.uk/product/tw914a-front-pro-billet-hub-ktm-exc-exc-f-sx-sxf-xc-xcf-husqvarna-fc-fe-fc-fe-tc-te-gas-gas-ec-mc-2/)"
+    },
+    {
+     "make": "KTM",
+     "model": "300 XC",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Talon hub fitment 'XC 300 2015–2024' (https://talon-eng.co.uk/product/tw914a-front-pro-billet-hub-ktm-exc-exc-f-sx-sxf-xc-xcf-husqvarna-fc-fe-fc-fe-tc-te-gas-gas-ec-mc-2/)"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Talon hub fitment 'SX-F 350 2015–2024' (https://talon-eng.co.uk/product/tw914a-front-pro-billet-hub-ktm-exc-exc-f-sx-sxf-xc-xcf-husqvarna-fc-fe-fc-fe-tc-te-gas-gas-ec-mc-2/)"
+    },
+    {
+     "make": "KTM",
+     "model": "350 XC-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Talon hub fitment 'XC-F 350 2015–2024' (https://talon-eng.co.uk/product/tw914a-front-pro-billet-hub-ktm-exc-exc-f-sx-sxf-xc-xcf-husqvarna-fc-fe-fc-fe-tc-te-gas-gas-ec-mc-2/)"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Talon hub fitment 'SX-F 450 2015–2024' (https://talon-eng.co.uk/product/tw914a-front-pro-billet-hub-ktm-exc-exc-f-sx-sxf-xc-xcf-husqvarna-fc-fe-fc-fe-tc-te-gas-gas-ec-mc-2/)"
+    },
+    {
+     "make": "KTM",
+     "model": "450 XC-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Talon hub fitment 'XC-F 450 2015–2024' (https://talon-eng.co.uk/product/tw914a-front-pro-billet-hub-ktm-exc-exc-f-sx-sxf-xc-xcf-husqvarna-fc-fe-fc-fe-tc-te-gas-gas-ec-mc-2/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Talon hub fitment 'TC 125 2015–2024' (https://talon-eng.co.uk/product/tw914a-front-pro-billet-hub-ktm-exc-exc-f-sx-sxf-xc-xcf-husqvarna-fc-fe-fc-fe-tc-te-gas-gas-ec-mc-2/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Talon hub fitment 'FC 250 2015–2024' (https://talon-eng.co.uk/product/tw914a-front-pro-billet-hub-ktm-exc-exc-f-sx-sxf-xc-xcf-husqvarna-fc-fe-fc-fe-tc-te-gas-gas-ec-mc-2/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Talon hub fitment 'TC 250 2015–2024' (https://talon-eng.co.uk/product/tw914a-front-pro-billet-hub-ktm-exc-exc-f-sx-sxf-xc-xcf-husqvarna-fc-fe-fc-fe-tc-te-gas-gas-ec-mc-2/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TE 250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Talon hub fitment 'TE 250 2016–2024' (https://talon-eng.co.uk/product/tw914a-front-pro-billet-hub-ktm-exc-exc-f-sx-sxf-xc-xcf-husqvarna-fc-fe-fc-fe-tc-te-gas-gas-ec-mc-2/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TE 300",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Talon hub fitment 'TE 300 2016–2024' (https://talon-eng.co.uk/product/tw914a-front-pro-billet-hub-ktm-exc-exc-f-sx-sxf-xc-xcf-husqvarna-fc-fe-fc-fe-tc-te-gas-gas-ec-mc-2/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Talon hub fitment 'FC 350 2015–2024' (https://talon-eng.co.uk/product/tw914a-front-pro-billet-hub-ktm-exc-exc-f-sx-sxf-xc-xcf-husqvarna-fc-fe-fc-fe-tc-te-gas-gas-ec-mc-2/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Talon hub fitment 'FC 450 2015–2024' (https://talon-eng.co.uk/product/tw914a-front-pro-billet-hub-ktm-exc-exc-f-sx-sxf-xc-xcf-husqvarna-fc-fe-fc-fe-tc-te-gas-gas-ec-mc-2/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FE 450",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Talon hub fitment 'FE 450 2021–2024' (https://talon-eng.co.uk/product/tw914a-front-pro-billet-hub-ktm-exc-exc-f-sx-sxf-xc-xcf-husqvarna-fc-fe-fc-fe-tc-te-gas-gas-ec-mc-2/)"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Talon hub fitment 'MC 125 2021–2024' (https://talon-eng.co.uk/product/tw914a-front-pro-billet-hub-ktm-exc-exc-f-sx-sxf-xc-xcf-husqvarna-fc-fe-fc-fe-tc-te-gas-gas-ec-mc-2/)"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Talon hub fitment 'MC 250 2021–2024' (https://talon-eng.co.uk/product/tw914a-front-pro-billet-hub-ktm-exc-exc-f-sx-sxf-xc-xcf-husqvarna-fc-fe-fc-fe-tc-te-gas-gas-ec-mc-2/); roster starts 2022"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Talon hub fitment 'MC 450 2021–2024' (https://talon-eng.co.uk/product/tw914a-front-pro-billet-hub-ktm-exc-exc-f-sx-sxf-xc-xcf-husqvarna-fc-fe-fc-fe-tc-te-gas-gas-ec-mc-2/); Talon writes 'MC 450'"
+    },
+    {
+     "make": "GasGas",
+     "model": "EC 450F",
+     "years": [
+      2024
+     ],
+     "notes": "Talon hub fitment 'EC-F 450 2021–2024' (https://talon-eng.co.uk/product/tw914a-front-pro-billet-hub-ktm-exc-exc-f-sx-sxf-xc-xcf-husqvarna-fc-fe-fc-fe-tc-te-gas-gas-ec-mc-2/); roster EC 450F starts 2024"
+    }
+   ],
+   "fitment_source_url": "https://talon-eng.co.uk/product/tw914a-front-pro-billet-hub-ktm-exc-exc-f-sx-sxf-xc-xcf-husqvarna-fc-fe-fc-fe-tc-te-gas-gas-ec-mc-2/",
+   "what_it_changes": "CNC-machined billet aluminium wheel hub ('The Pro-billet hub is the mainstay of the Talon range'). Replaces the OEM hub when building a stronger/custom-colour wheel; it is laced to a rim with a matching spoke set.",
+   "supporting_parts": "Front rim (21in), Talon front spoke set, bearings/spacers (Talon sells hub kits such as 602KIT/616KIT/627KIT/642KIT with spacers and bearings) and the OEM brake rotor.",
+   "caveats": "LOW: read once via WebFetch on 2026-10-17 but the URL returned 'Page Not Found' on recheck the same day. No SKU printed (URL slug says 'tw914a'). Page says hubs are 'available from stock in a variety of colours' but names none. Page has typos (EXC-F 250 '2016-204'). EC-F 250/EC-F 300 listed but not roster models.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "low",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "cw-011",
+   "category": "wheels",
+   "subcategory": "front hub",
+   "brand": "Talon Engineering",
+   "product": "Yamaha front Pro-Billet Hub (WRF 250/450 2020 on, YZF 250/450 2014 on, YZFX 2016 on)",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ250F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Talon hub fitment 'YZF 250 2014-2024' (https://talon-eng.co.uk/product/tw912a-front-pro-billet-hub-yamaha-wr-wrf-yzf-yzfx/)"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ450F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Talon hub fitment 'YZF 450 2014-2024' (https://talon-eng.co.uk/product/tw912a-front-pro-billet-hub-yamaha-wr-wrf-yzf-yzfx/)"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250FX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Talon hub fitment 'YZFX 250 2016-2024' (https://talon-eng.co.uk/product/tw912a-front-pro-billet-hub-yamaha-wr-wrf-yzf-yzfx/)"
+    },
+    {
+     "make": "Yamaha",
+     "model": "WR250F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Talon hub fitment 'WRF 250 2020-2024' (https://talon-eng.co.uk/product/tw912a-front-pro-billet-hub-yamaha-wr-wrf-yzf-yzfx/)"
+    },
+    {
+     "make": "Yamaha",
+     "model": "WR450F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Talon hub fitment 'WRF 450 2019-2024' (https://talon-eng.co.uk/product/tw912a-front-pro-billet-hub-yamaha-wr-wrf-yzf-yzfx/)"
+    }
+   ],
+   "fitment_source_url": "https://talon-eng.co.uk/product/tw912a-front-pro-billet-hub-yamaha-wr-wrf-yzf-yzfx/",
+   "what_it_changes": "CNC-machined billet aluminium wheel hub ('The Pro-billet hub is the mainstay of the Talon range'). Replaces the OEM hub when building a stronger/custom-colour wheel; it is laced to a rim with a matching spoke set.",
+   "supporting_parts": "21in front rim, Talon Yamaha front spoke set (page says order spoke set with the hub), bearings/spacers, OEM rotor.",
+   "caveats": "LOW: read once via WebFetch on 2026-10-17 but the URL returned 'Page Not Found' on recheck. No SKU printed (URL slug 'tw912a'). Hub colour selector present but colour names not shown. YZ450FX not listed.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "low",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "cw-012",
+   "category": "wheels",
+   "subcategory": "wheel set",
+   "brand": "Talon Engineering",
+   "product": "Talon Pro Billet Wheel Set KTM SX SX-F EXC EXC-F Husqvarna Gas Gas",
+   "part_numbers": [
+    "Talon838"
+   ],
+   "variants": [
+    "Talon838 = rear rim 18 X 2.15",
+    "Talon838 = rear rim 19 X 2.15",
+    "Talon838 = Mag Pro Billet Hubs, Black Talon Rims, Stainless Spokes, Mag Nipples"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'SX 125 (2023–2025)' (https://talon-eng.co.uk/product/talon-pro-billet-wheel-set-ktm-sx-sx-f-exc-exc-f-husqvarna-gas-gas/)"
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2025
+     ],
+     "notes": "Talon fitment list 'SX 150 (2023–2025)' (https://talon-eng.co.uk/product/talon-pro-billet-wheel-set-ktm-sx-sx-f-exc-exc-f-husqvarna-gas-gas/)"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'SX 250 (2023–2025)' (https://talon-eng.co.uk/product/talon-pro-billet-wheel-set-ktm-sx-sx-f-exc-exc-f-husqvarna-gas-gas/)"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'SX-F 250 (2023–2025)' (https://talon-eng.co.uk/product/talon-pro-billet-wheel-set-ktm-sx-sx-f-exc-exc-f-husqvarna-gas-gas/)"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2022,
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'SX-F 350 (2022), SX-F 350 (2024–2025)' (https://talon-eng.co.uk/product/talon-pro-billet-wheel-set-ktm-sx-sx-f-exc-exc-f-husqvarna-gas-gas/); 2023 not listed on this page"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'SX-F 450 (2023–2025)' (https://talon-eng.co.uk/product/talon-pro-billet-wheel-set-ktm-sx-sx-f-exc-exc-f-husqvarna-gas-gas/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'FC 250 (2023–2025)' (https://talon-eng.co.uk/product/talon-pro-billet-wheel-set-ktm-sx-sx-f-exc-exc-f-husqvarna-gas-gas/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'FC 350 (2023–2025)' (https://talon-eng.co.uk/product/talon-pro-billet-wheel-set-ktm-sx-sx-f-exc-exc-f-husqvarna-gas-gas/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'FC 450 (2023–2025)' (https://talon-eng.co.uk/product/talon-pro-billet-wheel-set-ktm-sx-sx-f-exc-exc-f-husqvarna-gas-gas/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FE 450",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'FE 450 (2023–2025)' (https://talon-eng.co.uk/product/talon-pro-billet-wheel-set-ktm-sx-sx-f-exc-exc-f-husqvarna-gas-gas/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'TC 125 (2023–2025)' (https://talon-eng.co.uk/product/talon-pro-billet-wheel-set-ktm-sx-sx-f-exc-exc-f-husqvarna-gas-gas/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'TC 250 (2023–2025)' (https://talon-eng.co.uk/product/talon-pro-billet-wheel-set-ktm-sx-sx-f-exc-exc-f-husqvarna-gas-gas/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TE 300",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'TE 300 (2024–2025)' (https://talon-eng.co.uk/product/talon-pro-billet-wheel-set-ktm-sx-sx-f-exc-exc-f-husqvarna-gas-gas/)"
+    },
+    {
+     "make": "GasGas",
+     "model": "EC 250",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'EC 250 (2024–2025)' (https://talon-eng.co.uk/product/talon-pro-billet-wheel-set-ktm-sx-sx-f-exc-exc-f-husqvarna-gas-gas/)"
+    },
+    {
+     "make": "GasGas",
+     "model": "EC 300",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'EC 300 (2024–2025)' (https://talon-eng.co.uk/product/talon-pro-billet-wheel-set-ktm-sx-sx-f-exc-exc-f-husqvarna-gas-gas/)"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'MC 125 (2024–2025)' (https://talon-eng.co.uk/product/talon-pro-billet-wheel-set-ktm-sx-sx-f-exc-exc-f-husqvarna-gas-gas/)"
+    }
+   ],
+   "fitment_source_url": "https://talon-eng.co.uk/product/talon-pro-billet-wheel-set-ktm-sx-sx-f-exc-exc-f-husqvarna-gas-gas/",
+   "what_it_changes": "Complete ready-built wheel set from Talon (billet hubs laced to rims with spokes and nipples). Replaces the stock wheels as a stronger/lighter, custom-colour pair; no performance figures given by Talon.",
+   "supporting_parts": "Tyres, tubes/mousse, rim locks, brake rotors, sprocket and sprocket bolts transfer or are bought separately (the Excel A60 set includes Talon billet rim locks).",
+   "caveats": "'Talon838' is printed under the title (not labelled SKU). Single colour build. The odd KTM 350 SX-F year gap (2022, 2024-2025) is as printed; Talon's sister listing gives 2023-2025. 18in rear is an enduro size; MX bikes normally run 19in.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "high",
+   "is_service": false,
+   "colors": [
+    {
+     "name": "Mag (hub)",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/talon-pro-billet-wheel-set-ktm-sx-sx-f-exc-exc-f-husqvarna-gas-gas/"
+    },
+    {
+     "name": "Black (rim)",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/talon-pro-billet-wheel-set-ktm-sx-sx-f-exc-exc-f-husqvarna-gas-gas/"
+    }
+   ]
+  },
+  {
+   "id": "cw-013",
+   "category": "wheels",
+   "subcategory": "wheel set",
+   "brand": "Talon Engineering",
+   "product": "Talon Pro Billet Wheels KTM SX SX-F EXC EXC-F HUSQVARNA TC GAS GAS (19in and 21in)",
+   "part_numbers": [],
+   "variants": [
+    "Listing '-2' = Black Pro Billet Hubs, Black Excel One Rims, Stainless Spokes, Stainless Nipples",
+    "Listing '-copy' = Gold Pro Billet Hubs, Black Excel One Rims, Stainless Spokes, Gold Nipples"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'SX 125 (2023–2025)' (https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-2/; same list on https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-copy/)"
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2025
+     ],
+     "notes": "Talon fitment list 'SX 150 (2023–2025)' (https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-2/; same list on https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-copy/)"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'SX 250 (2023–2025)' (https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-2/; same list on https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-copy/)"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'SX-F 250 (2023–2025)' (https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-2/; same list on https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-copy/)"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'SX-F 350 (2023–2025)' (https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-2/; same list on https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-copy/)"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'SX-F 450 (2023–2025)' (https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-2/; same list on https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-copy/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'FC 250 (2023–2025)' (https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-2/; same list on https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-copy/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'FC 350 (2023–2025)' (https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-2/; same list on https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-copy/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'FC 450 (2023–2025)' (https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-2/; same list on https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-copy/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'TC 125 (2023–2025)' (https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-2/; same list on https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-copy/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'TC 250 (2023–2025)' (https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-2/; same list on https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-copy/)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TE 300",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'TE 300 (2024–2025)' (https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-2/; same list on https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-copy/)"
+    },
+    {
+     "make": "GasGas",
+     "model": "EC 250",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'EC 250 (2024–2025)' (https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-2/; same list on https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-copy/)"
+    },
+    {
+     "make": "GasGas",
+     "model": "EC 300",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'EC 300 (2024–2025)' (https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-2/; same list on https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-copy/)"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'MC 125 (2024–2025)' (https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-2/; same list on https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-copy/)"
+    }
+   ],
+   "fitment_source_url": "https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-2/",
+   "what_it_changes": "Complete ready-built wheel set from Talon (billet hubs laced to rims with spokes and nipples). Replaces the stock wheels as a stronger/lighter, custom-colour pair; no performance figures given by Talon.",
+   "supporting_parts": "Tyres, tubes/mousse, rim locks, brake rotors, sprocket and sprocket bolts transfer or are bought separately (the Excel A60 set includes Talon billet rim locks).",
+   "caveats": "Two separate ready-built listings with identical names and fitment, differing only in hub/nipple colour; no SKU printed on either.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "high",
+   "is_service": false,
+   "colors": [
+    {
+     "name": "Black (hub)",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-2/"
+    },
+    {
+     "name": "Gold (hub)",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-copy/"
+    },
+    {
+     "name": "Black (Excel One rim)",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/talon-pro-billet-wheels-ktm-sx-sx-f-exc-exc-f-husqvarna-tc-gas-gas-2/"
+    }
+   ]
+  },
+  {
+   "id": "cw-014",
+   "category": "wheels",
+   "subcategory": "wheel set",
+   "brand": "Talon Engineering",
+   "product": "Talon Pro Billet Wheels Yamaha YZ125 YZ250 08-26 YZ250F YZ450F 07-08",
+   "part_numbers": [],
+   "variants": [
+    "19in + 21in; Black Pro Billet Hub, Black Talon Rim, Stainless Spokes, Stainless Nipples"
+   ],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ125",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Talon product title 'YZ125 YZ250 08-26' (https://talon-eng.co.uk/product/talon-pro-billet-wheels-yamaha-yz125-yz250-08-26-yz250f-yz450f-07-08/)"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Talon product title 'YZ125 YZ250 08-26' (https://talon-eng.co.uk/product/talon-pro-billet-wheels-yamaha-yz125-yz250-08-26-yz250f-yz450f-07-08/)"
+    }
+   ],
+   "fitment_source_url": "https://talon-eng.co.uk/product/talon-pro-billet-wheels-yamaha-yz125-yz250-08-26-yz250f-yz450f-07-08/",
+   "what_it_changes": "Complete ready-built wheel set from Talon (billet hubs laced to rims with spokes and nipples). Replaces the stock wheels as a stronger/lighter, custom-colour pair; no performance figures given by Talon.",
+   "supporting_parts": "Tyres, tubes/mousse, rim locks, brake rotors, sprocket and sprocket bolts transfer or are bought separately (the Excel A60 set includes Talon billet rim locks).",
+   "caveats": "Fitment is only in the product title (no fitment table); the title pairs YZ250F/YZ450F with 07-08 only, so 2020+ four-strokes are not covered. No SKU printed.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": [
+    {
+     "name": "Black (hub)",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/talon-pro-billet-wheels-yamaha-yz125-yz250-08-26-yz250f-yz450f-07-08/"
+    },
+    {
+     "name": "Black (rim)",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/talon-pro-billet-wheels-yamaha-yz125-yz250-08-26-yz250f-yz450f-07-08/"
+    }
+   ]
+  },
+  {
+   "id": "cw-015",
+   "category": "wheels",
+   "subcategory": "wheel set",
+   "brand": "Talon Engineering",
+   "product": "Talon Wheels KTM EXC EXC-F SX SX-F Pro Billet Hubs Excel A60 Rims",
+   "part_numbers": [],
+   "variants": [
+    "22mm axle 21in front + 20mm axle 18in rear; Orange Talon Pro-Billet Hubs, Black Spokes, Orange Nipples, Excel A60 rims; includes a free set of Talon billet rim locks"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Talon fitment list 'SX 125 (2015–2022)' (https://talon-eng.co.uk/product/talon-wheels-ktm-exc-exc-f-sx-sx-f-pro-billet-hubs-excel-a60-rims/)"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Talon fitment list 'SX 250 (2016–2022)' (https://talon-eng.co.uk/product/talon-wheels-ktm-exc-exc-f-sx-sx-f-pro-billet-hubs-excel-a60-rims/)"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Talon fitment list 'SX-F 250 (2015–2022)' (https://talon-eng.co.uk/product/talon-wheels-ktm-exc-exc-f-sx-sx-f-pro-billet-hubs-excel-a60-rims/)"
+    }
+   ],
+   "fitment_source_url": "https://talon-eng.co.uk/product/talon-wheels-ktm-exc-exc-f-sx-sx-f-pro-billet-hubs-excel-a60-rims/",
+   "what_it_changes": "Complete ready-built wheel set from Talon (billet hubs laced to rims with spokes and nipples). Replaces the stock wheels as a stronger/lighter, custom-colour pair; no performance figures given by Talon.",
+   "supporting_parts": "Tyres, tubes/mousse, rim locks, brake rotors, sprocket and sprocket bolts transfer or are bought separately (the Excel A60 set includes Talon billet rim locks).",
+   "caveats": "Rear is 18in (enduro size) although SX models are listed; MX racers normally need 19in. Rim colour not stated. No SKU printed.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "high",
+   "is_service": false,
+   "colors": [
+    {
+     "name": "Orange (hub)",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/talon-wheels-ktm-exc-exc-f-sx-sx-f-pro-billet-hubs-excel-a60-rims/"
+    },
+    {
+     "name": "Black (spokes)",
+     "finish": "stock",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/talon-wheels-ktm-exc-exc-f-sx-sx-f-pro-billet-hubs-excel-a60-rims/"
+    },
+    {
+     "name": "Orange (nipples)",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/talon-wheels-ktm-exc-exc-f-sx-sx-f-pro-billet-hubs-excel-a60-rims/"
+    }
+   ]
+  },
+  {
+   "id": "cw-016",
+   "category": "wheels",
+   "subcategory": "wheel set",
+   "brand": "Talon Engineering",
+   "product": "Talon Pro Billet Wheel Set Honda CRF250 CRF450 13-25",
+   "part_numbers": [],
+   "variants": [
+    "19in + 21in; Red Pro Billet Hub, Gold Excel Rims, Stainless Spokes, Red Nipples"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'CRF 250 R (2014–2025)' (https://talon-eng.co.uk/product/honda-crf250-crf450-13-25-talon-wheels-gold-excel-rims-red-talon-pro-billet-hubs/)"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'CRF 250 RX (2018–2025)' (https://talon-eng.co.uk/product/honda-crf250-crf450-13-25-talon-wheels-gold-excel-rims-red-talon-pro-billet-hubs/)"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'CRF 450 R (2013–2025)' (https://talon-eng.co.uk/product/honda-crf250-crf450-13-25-talon-wheels-gold-excel-rims-red-talon-pro-billet-hubs/)"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Talon fitment list 'CRF 450 RX (2017–2025)' (https://talon-eng.co.uk/product/honda-crf250-crf450-13-25-talon-wheels-gold-excel-rims-red-talon-pro-billet-hubs/)"
+    }
+   ],
+   "fitment_source_url": "https://talon-eng.co.uk/product/honda-crf250-crf450-13-25-talon-wheels-gold-excel-rims-red-talon-pro-billet-hubs/",
+   "what_it_changes": "Complete ready-built wheel set from Talon (billet hubs laced to rims with spokes and nipples). Replaces the stock wheels as a stronger/lighter, custom-colour pair; no performance figures given by Talon.",
+   "supporting_parts": "Tyres, tubes/mousse, rim locks, brake rotors, sprocket and sprocket bolts transfer or are bought separately (the Excel A60 set includes Talon billet rim locks).",
+   "caveats": "Single colour build; no SKU printed. Fitment ends 2025 (2026 CRF not listed).",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "high",
+   "is_service": false,
+   "colors": [
+    {
+     "name": "Red (hub)",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/honda-crf250-crf450-13-25-talon-wheels-gold-excel-rims-red-talon-pro-billet-hubs/"
+    },
+    {
+     "name": "Gold (Excel rim)",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/honda-crf250-crf450-13-25-talon-wheels-gold-excel-rims-red-talon-pro-billet-hubs/"
+    },
+    {
+     "name": "Red (nipples)",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://talon-eng.co.uk/product/honda-crf250-crf450-13-25-talon-wheels-gold-excel-rims-red-talon-pro-billet-hubs/"
+    }
+   ]
+  },
+  {
+   "id": "cw-017",
+   "category": "drivetrain",
+   "subcategory": "chain",
+   "brand": "Regina",
+   "product": "520 RX3 (135 RX3) Cross Supermotard chain",
+   "part_numbers": [
+    "135 RX3"
+   ],
+   "variants": [
+    "520 / 135 RX3 = 520 pitch (15.875 mm), inner width 6.35 mm, roller 10.16 mm, 2.0 mm plates, avg tensile 34,000 N, connecting link type 26 (slip-fit clip)"
+   ],
+   "fits": [],
+   "fitment_source_url": "https://www.reginachain.net/business-unit/motorcycle/professional/",
+   "what_it_changes": "Non-sealed 520 off-road race chain. Regina: shaped bushings (full pin contact to cut wear) and chromized pins for wear and shock resistance, bevelled plates for sprocket engagement, built for 'severe impulsive stresses caused by Off-Road riding'.",
+   "supporting_parts": "Front and rear 520 sprockets (replace together); Regina type 26 clip link.",
+   "caveats": "Regina publishes no per-bike lengths for 2020+ bikes: its 'Motorcycle application list' (https://www.reginachain.net/motorcycle/catalogues/Fitment-list.pdf) is undated and its MX entries are open-ended (e.g. KTM 'SX-F 450 14-', 'XC W 12-', Husqvarna 'FC 450 14-', Honda 'CRF 450RX 17-', Yamaha 'WR 450 F 13- 114 links'), so no fits are recorded. Sold in fixed link counts; cut to length. Finish named in catalogue as 'G/B = Gold/Black' (2024); the 2020 catalogue coded the same chains 'G = Gold'.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": [
+    {
+     "name": "Gold/Black",
+     "finish": "gloss",
+     "status": "VERIFIED",
+     "source": "https://www.reginachain.net/motorcycle/catalogues/00-General-Catalogue-2024.pdf"
+    }
+   ]
+  },
+  {
+   "id": "cw-018",
+   "category": "drivetrain",
+   "subcategory": "chain",
+   "brand": "Regina",
+   "product": "520 RH2 (135 RH2) Cross Supermotard chain",
+   "part_numbers": [
+    "135 RH2"
+   ],
+   "variants": [
+    "520 / 135 RH2 = 520 pitch, inner width 6.35 mm, roller 10.23 mm, 2.0 mm plates, avg tensile 33,400 N, link type 26"
+   ],
+   "fits": [],
+   "fitment_source_url": "https://www.reginachain.net/business-unit/motorcycle/professional/",
+   "what_it_changes": "Non-sealed 520 off-road chain, Regina's step below RX3 (no shaped bushing/chromized-pin spec); extended bushings, solid rollers, shot-peened plates.",
+   "supporting_parts": "520 sprockets; type 26 clip link.",
+   "caveats": "Regina publishes no per-bike lengths for 2020+ bikes: its 'Motorcycle application list' (https://www.reginachain.net/motorcycle/catalogues/Fitment-list.pdf) is undated and its MX entries are open-ended (e.g. KTM 'SX-F 450 14-', 'XC W 12-', Husqvarna 'FC 450 14-', Honda 'CRF 450RX 17-', Yamaha 'WR 450 F 13- 114 links'), so no fits are recorded. Sold in fixed link counts; cut to length. Finish named in catalogue as 'G/B = Gold/Black' (2024); the 2020 catalogue coded the same chains 'G = Gold'.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": [
+    {
+     "name": "Gold/Black",
+     "finish": "gloss",
+     "status": "VERIFIED",
+     "source": "https://www.reginachain.net/motorcycle/catalogues/00-General-Catalogue-2024.pdf"
+    }
+   ]
+  },
+  {
+   "id": "cw-019",
+   "category": "drivetrain",
+   "subcategory": "chain",
+   "brand": "Regina",
+   "product": "520 GPXV (135 GPXV) Cross MXGP/MX2/SM chain",
+   "part_numbers": [
+    "135 GPXV"
+   ],
+   "variants": [
+    "520 / 135 GPXV = 520 pitch, inner width 6.35 mm, roller 10.16 mm, 2.0 mm plates, avg tensile 35,000 N, connecting links 19 (rivet) + 26 (clip)"
+   ],
+   "fits": [],
+   "fitment_source_url": "https://www.reginachain.net/motorcycle/catalogues/00-General-Catalogue-2024.pdf",
+   "what_it_changes": "Regina's top non-sealed racing chain, listed in the catalogue 'Specialties' section for MXGP/MX2/supermoto racing; highest tensile of Regina's 520 cross chains.",
+   "supporting_parts": "520 sprockets; rivet (19) or clip (26) link.",
+   "caveats": "Regina publishes no per-bike lengths for 2020+ bikes: its 'Motorcycle application list' (https://www.reginachain.net/motorcycle/catalogues/Fitment-list.pdf) is undated and its MX entries are open-ended (e.g. KTM 'SX-F 450 14-', 'XC W 12-', Husqvarna 'FC 450 14-', Honda 'CRF 450RX 17-', Yamaha 'WR 450 F 13- 114 links'), so no fits are recorded. Sold in fixed link counts; cut to length. Finish named in catalogue as 'G/B = Gold/Black' (2024); the 2020 catalogue coded the same chains 'G = Gold'. Not shown on Regina's 'Professional' web page; catalogue only.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": [
+    {
+     "name": "Gold/Black",
+     "finish": "gloss",
+     "status": "VERIFIED",
+     "source": "https://www.reginachain.net/motorcycle/catalogues/00-General-Catalogue-2024.pdf"
+    }
+   ]
+  },
+  {
+   "id": "cw-020",
+   "category": "drivetrain",
+   "subcategory": "chain",
+   "brand": "Regina",
+   "product": "520 ZSE (135 ZSE) Enduro chain",
+   "part_numbers": [
+    "135 ZSE"
+   ],
+   "variants": [
+    "520 / 135 ZSE = 520 pitch, inner width 6.35 mm, roller 10.23 mm, 2.0 mm plates, avg tensile 33,800 N, Z-Ring seal, links 19+42+44"
+   ],
+   "fits": [],
+   "fitment_source_url": "https://www.reginachain.net/business-unit/motorcycle/professional/",
+   "what_it_changes": "Narrow Z-ring sealed 520 chain developed with enduro teams to cut friction while lasting longer; sealed lube suits cross-country/enduro bikes (XC, XC-W, FX, TE/FE, EC, WR). Regina says several OEMs fit it as original equipment on enduro ranges.",
+   "supporting_parts": "520 sprockets; Regina 19/42/44 connecting links.",
+   "caveats": "Regina publishes no per-bike lengths for 2020+ bikes: its 'Motorcycle application list' (https://www.reginachain.net/motorcycle/catalogues/Fitment-list.pdf) is undated and its MX entries are open-ended (e.g. KTM 'SX-F 450 14-', 'XC W 12-', Husqvarna 'FC 450 14-', Honda 'CRF 450RX 17-', Yamaha 'WR 450 F 13- 114 links'), so no fits are recorded. Sold in fixed link counts; cut to length. Finish named in catalogue as 'G/B = Gold/Black' (2024); the 2020 catalogue coded the same chains 'G = Gold'.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": [
+    {
+     "name": "Gold/Black",
+     "finish": "gloss",
+     "status": "VERIFIED",
+     "source": "https://www.reginachain.net/motorcycle/catalogues/00-General-Catalogue-2024.pdf"
+    }
+   ]
+  },
+  {
+   "id": "cw-021",
+   "category": "drivetrain",
+   "subcategory": "chain",
+   "brand": "Regina",
+   "product": "428 RX3 (126 RX3) Cross Supermotard chain",
+   "part_numbers": [
+    "126 RX3"
+   ],
+   "variants": [
+    "428 / 126 RX3 = 428 pitch (12.70 mm), inner width 7.75 mm, roller 8.51 mm, 1.8 mm plates, avg tensile 23,000 N, link type 26"
+   ],
+   "fits": [],
+   "fitment_source_url": "https://www.reginachain.net/business-unit/motorcycle/professional/",
+   "what_it_changes": "428-pitch version of the RX3 off-road chain (same shaped-bushing/chromized-pin design) for small-bore bikes.",
+   "supporting_parts": "428 sprockets; type 26 clip link.",
+   "caveats": "Regina publishes no per-bike lengths for 2020+ bikes: its 'Motorcycle application list' (https://www.reginachain.net/motorcycle/catalogues/Fitment-list.pdf) is undated and its MX entries are open-ended (e.g. KTM 'SX-F 450 14-', 'XC W 12-', Husqvarna 'FC 450 14-', Honda 'CRF 450RX 17-', Yamaha 'WR 450 F 13- 114 links'), so no fits are recorded. Sold in fixed link counts; cut to length. Finish named in catalogue as 'G/B = Gold/Black' (2024); the 2020 catalogue coded the same chains 'G = Gold'. Relevant to the KTM 85 SX class only if the bike uses 428 pitch; Regina gives no 85 SX year entry.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "low",
+   "is_service": false,
+   "colors": [
+    {
+     "name": "Gold/Black",
+     "finish": "gloss",
+     "status": "VERIFIED",
+     "source": "https://www.reginachain.net/motorcycle/catalogues/00-General-Catalogue-2024.pdf"
+    }
+   ]
+  },
+  {
+   "id": "cw-022",
+   "category": "drivetrain",
+   "subcategory": "chain",
+   "brand": "Iris Chains",
+   "product": "RXP chain",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [],
+   "fitment_source_url": "https://www.iris-chains.com/en/motorcycle-chains/rxp-chain/",
+   "what_it_changes": "Iris's motocross chain: 'especially designed and manufactured for Motocross', light weight with good resistance to stretching; aimed at amateur riders, 125cc to 500cc.",
+   "supporting_parts": "Matching-pitch sprockets; replace together.",
+   "caveats": "Iris Chains' site prints no pitch, lengths, order codes or vehicle applications for this chain (no chain finder found); no fits recorded.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "low",
+   "is_service": false,
+   "colors": [
+    {
+     "name": "Gold",
+     "finish": "gloss",
+     "status": "VERIFIED",
+     "source": "https://www.iris-chains.com/en/motorcycle-chains/rxp-chain/"
+    }
+   ]
+  },
+  {
+   "id": "cw-023",
+   "category": "drivetrain",
+   "subcategory": "chain",
+   "brand": "Iris Chains",
+   "product": "RX chain",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [],
+   "fitment_source_url": "https://www.iris-chains.com/en/motorcycle-chains/rx-chain/",
+   "what_it_changes": "'Super Reinforced' non-sealed chain (no ring seal) for on- and off-road use; listed by Iris under motocross chains.",
+   "supporting_parts": "Matching-pitch sprockets.",
+   "caveats": "Iris Chains' site prints no pitch, lengths, order codes or vehicle applications for this chain (no chain finder found); no fits recorded.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "low",
+   "is_service": false,
+   "colors": [
+    {
+     "name": "Silver",
+     "finish": "stock",
+     "status": "VERIFIED",
+     "source": "https://www.iris-chains.com/en/motorcycle-chains/rx-chain/"
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "Talon: no 2022+ KTM/Husqvarna/GasGas or 2022+ Honda sprocket fitment published (TR130RL/TG328/TR113RL/TG320GL lists stop at 2021); Honda CRF250R 2020+ not listed for any Talon sprocket.",
+  "Talon: Triumph TF 250/450, Husqvarna TC 150/TC 300 (2025), KTM 300 SX, KTM 450 XCF-W, Yamaha X/FX two-strokes and YZ450FX, Kawasaki KX450X have no Talon fitment found.",
+  "Talon hubs: individual rear Pro-Billet/carbon hub pages for KTM (rear carbon-centred hub), Honda (TW801A/TW753A), Yamaha (TW650A/TW731A), Kawasaki (TW928A) and KTM 85 SX junior hubs/wheels are indexed by search but return 404 on talon-eng.co.uk; hub colour names are not printed on any hub page (only 'variety of colours').",
+  "Talon hub kits 602KIT/616KIT/627KIT/642KIT (bearings+spacers) have no bike fitment on their pages.",
+  "Regina: maker application list (Fitment-list.pdf) has only open-ended pre-2020 ranges for MX bikes (e.g. KTM SX-F 450 '14-', Yamaha WR 450 F '13-' 114 links, Honda CRF 450RX '17-'); no explicit 2020-2027 lengths, so no fits recorded.",
+  "Iris: maker site lists RX and RXP motocross chains with colour only; no pitch, lengths, codes or bike applications. The German 'IRIS 520 XR G&B' (gold & black) chains seen on shops are road chains with no maker fitment page found.",
+  "Talon USA site (talonengineeringusa.com) has newer per-bike sprocket/hub pages (e.g. Honda Groovelite front, KTM Radialite rear incl. Stark Varg) but is robots-blocked for fetching."
+ ],
+ "not_done": [
+  "talonengineeringusa.com: WebFetch refused (robots disallowed) for category and product pages.",
+  "Regina and Iris home pages (reginachain.net root, iris-chains.com root) and talon-eng.co.uk root were blocked by unanswered permission prompts; Regina deep pages and PDFs were reached instead. iris-chains.com/moto/products robots-disallowed; iris RXL page permission-blocked.",
+  "Rocky Mountain ATV/MC Regina RX3 page blocked by bot protection (Incapsula); Parts Europe pages need JavaScript for fitment.",
+  "No named-publication rider tests found for Talon sprockets/wheels or Regina/Iris chains (Vital MX product guide page had no reviews).",
+  "No prices recorded (per brief).",
+  "5 fitment years outside the BAK MX roster were left out when merged (2026-10-17)."
+ ]
+}

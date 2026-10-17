@@ -1,0 +1,1963 @@
+{
+ "slice": "bars, clamps and cockpit",
+ "products": [
+  {
+   "id": "bk-001",
+   "category": "controls",
+   "subcategory": "handlebar",
+   "brand": "Renthal",
+   "product": "839 Fatbar (CRF 2018- / Kawasaki KX 2021+)",
+   "part_numbers": [
+    "0601-4696",
+    "0601-4697",
+    "0601-4698"
+   ],
+   "variants": [
+    "0601-4696 = Black",
+    "0601-4697 = Titanium",
+    "0601-4698 = Red",
+    "Renthal SKU style 839-01-<colour> (e.g. 839-01-BK)"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Renthal 2021 recommendations page: 'Honda models from 2019 onward come equipped with the 839 Fatbar' (https://renthal.com/moto/2021-recommendations); 2020 Renthal catalogue bend name 'CRF 2018-' (https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf)"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Same: OE 839 Fatbar from 2019 on per https://renthal.com/moto/2021-recommendations"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Renthal: 'The 250 and 450 switched to the 839 Fatbar in 2021' (https://renthal.com/moto/2021-recommendations)"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Same, https://renthal.com/moto/2021-recommendations"
+    }
+   ],
+   "fitment_source_url": "https://renthal.com/moto/2021-recommendations",
+   "what_it_changes": "Renthal Fatbar: braceless 7010-T6 aluminium 1-1/8\" (28.6 mm) bar, tapers to standard 22 mm control ends; braceless design gives 'a comfortable level of flexibility' (Renthal catalogue). Swapping bend changes rider position: width, rise, sweep and pullback set where the hands sit. This is the OEM-equivalent bend for these bikes, so it is a like-for-like replacement (e.g. after a crash) or a colour change. Dims: width 802, height 91, rise 51, sweep 51 mm.",
+   "supporting_parts": "Stock 1-1/8\" bar mounts are retained on these bikes. Grips, bar pad (included).",
+   "caveats": "Open-ended maker year range ('2016+', '13-', '2018-') mapped to roster years through 2026 only; 2027 left out because no source dated late enough to cover it. Part numbers 0601-xxxx are Parts Europe / LeMans catalogue numbers from Renthal's 2020 catalogue. CRF250RX/450RX and KX250X/450X not named by Renthal.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "high",
+   "is_service": false,
+   "colors": [
+    {
+     "name": "Black",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf"
+    },
+    {
+     "name": "Titanium",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf"
+    },
+    {
+     "name": "Red",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf"
+    }
+   ]
+  },
+  {
+   "id": "bk-002",
+   "category": "controls",
+   "subcategory": "handlebar",
+   "brand": "Renthal",
+   "product": "821 Fatbar (McGrath / KTM SX125-450 2016+ / Suzuki 2018+)",
+   "part_numbers": [
+    "0601-1442",
+    "0601-1443",
+    "0601-4955",
+    "821-01-HA"
+   ],
+   "variants": [
+    "0601-1442 = Black",
+    "0601-1443 = Titanium",
+    "0601-4955 = Orange",
+    "821-01-HA = Limited Edition Hard Anodized (renthal.com, out of stock when checked)"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "renthal.com title 'MCGRATH / KTM SX125-450 2016+' (https://www.renthal.com/moto/821-01-HA); catalogue bend 'McGrath / KTM 2016-' (https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf)"
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2025
+     ],
+     "notes": "renthal.com title 'MCGRATH / KTM SX125-450 2016+' (https://www.renthal.com/moto/821-01-HA); catalogue bend 'McGrath / KTM 2016-' (https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf)"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "renthal.com title 'MCGRATH / KTM SX125-450 2016+' (https://www.renthal.com/moto/821-01-HA); catalogue bend 'McGrath / KTM 2016-' (https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf)"
+    },
+    {
+     "make": "KTM",
+     "model": "300 SX",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "renthal.com title 'MCGRATH / KTM SX125-450 2016+' (https://www.renthal.com/moto/821-01-HA); catalogue bend 'McGrath / KTM 2016-' (https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf)"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "renthal.com title 'MCGRATH / KTM SX125-450 2016+' (https://www.renthal.com/moto/821-01-HA); catalogue bend 'McGrath / KTM 2016-' (https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf)"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "renthal.com title 'MCGRATH / KTM SX125-450 2016+' (https://www.renthal.com/moto/821-01-HA); catalogue bend 'McGrath / KTM 2016-' (https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf)"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "renthal.com title 'MCGRATH / KTM SX125-450 2016+' (https://www.renthal.com/moto/821-01-HA); catalogue bend 'McGrath / KTM 2016-' (https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf)"
+    }
+   ],
+   "fitment_source_url": "https://www.renthal.com/moto/821-01-HA",
+   "what_it_changes": "Renthal Fatbar: braceless 7010-T6 aluminium 1-1/8\" (28.6 mm) bar, tapers to standard 22 mm control ends; braceless design gives 'a comfortable level of flexibility' (Renthal catalogue). Swapping bend changes rider position: width, rise, sweep and pullback set where the hands sit. Low, flat bend (rise 42 mm, width 813, sweep 54) - the KTM OE-style shape. Renthal's 2021 recommendations list 821 as the standard Fatbar choice for KTM SX-F, Husqvarna FC and GasGas MC.",
+   "supporting_parts": "KTM stock bar mounts take 28.6 mm bars. Grips, bar pad (included).",
+   "caveats": "Open-ended maker year range ('2016+', '13-', '2018-') mapped to roster years through 2026 only; 2027 left out because no source dated late enough to cover it. Husqvarna/GasGas use the same bend per Renthal's recommendations page but no year-by-model fitment was printed for them (see gaps).",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "high",
+   "is_service": false,
+   "colors": [
+    {
+     "name": "Black",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf"
+    },
+    {
+     "name": "Titanium",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf"
+    },
+    {
+     "name": "Orange",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf"
+    },
+    {
+     "name": "Hard Anodized",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://www.renthal.com/moto/821-01-HA"
+    }
+   ]
+  },
+  {
+   "id": "bk-003",
+   "category": "controls",
+   "subcategory": "handlebar",
+   "brand": "Renthal",
+   "product": "932 Fatbar36 (McGrath / KTM SX125-450 2016+)",
+   "part_numbers": [
+    "932-01-BK"
+   ],
+   "variants": [
+    "932-01-BK = Black"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "renthal.com: 'used as the OE bend on KTM (2016 >), Husqvarna (2016 >) and Gas Gas (2020 >) bikes'; title 'MCGRATH / KTMSX125-450 2016+' (https://www.renthal.com/moto/932-fb36)"
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2025
+     ],
+     "notes": "renthal.com: 'used as the OE bend on KTM (2016 >), Husqvarna (2016 >) and Gas Gas (2020 >) bikes'; title 'MCGRATH / KTMSX125-450 2016+' (https://www.renthal.com/moto/932-fb36)"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "renthal.com: 'used as the OE bend on KTM (2016 >), Husqvarna (2016 >) and Gas Gas (2020 >) bikes'; title 'MCGRATH / KTMSX125-450 2016+' (https://www.renthal.com/moto/932-fb36)"
+    },
+    {
+     "make": "KTM",
+     "model": "300 SX",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "renthal.com: 'used as the OE bend on KTM (2016 >), Husqvarna (2016 >) and Gas Gas (2020 >) bikes'; title 'MCGRATH / KTMSX125-450 2016+' (https://www.renthal.com/moto/932-fb36)"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "renthal.com: 'used as the OE bend on KTM (2016 >), Husqvarna (2016 >) and Gas Gas (2020 >) bikes'; title 'MCGRATH / KTMSX125-450 2016+' (https://www.renthal.com/moto/932-fb36)"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "renthal.com: 'used as the OE bend on KTM (2016 >), Husqvarna (2016 >) and Gas Gas (2020 >) bikes'; title 'MCGRATH / KTMSX125-450 2016+' (https://www.renthal.com/moto/932-fb36)"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "renthal.com: 'used as the OE bend on KTM (2016 >), Husqvarna (2016 >) and Gas Gas (2020 >) bikes'; title 'MCGRATH / KTMSX125-450 2016+' (https://www.renthal.com/moto/932-fb36)"
+    }
+   ],
+   "fitment_source_url": "https://www.renthal.com/moto/932-fb36",
+   "what_it_changes": "Renthal Fatbar36 (R-Works): 36 mm clamp diameter in Zarilium alloy, ends taper to 22 mm for standard controls; Renthal states it keeps Fatbar strength while being about 36% lighter than the 28.6 mm Fatbar. KTM OE bend in the 36 mm platform: width 813, rise 38, sweep 54 mm.",
+   "supporting_parts": "Requires 36 mm (36Tech) bar mounts - Renthal: 'It is essential that 36mm diameter bar mounts are used.' KTM SX 2020-2022: Renthal CL060; KTM SX-F 2023+: CL063 (see bar mount records).",
+   "caveats": "Open-ended maker year range ('2016+', '13-', '2018-') mapped to roster years through 2026 only; 2027 left out because no source dated late enough to cover it. Husqvarna and GasGas stated as OE bend users without model names - in gaps.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "high",
+   "is_service": false,
+   "colors": [
+    {
+     "name": "Black",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://www.renthal.com/moto/932-fb36"
+    }
+   ]
+  },
+  {
+   "id": "bk-004",
+   "category": "controls",
+   "subcategory": "handlebar",
+   "brand": "Renthal",
+   "product": "999 Twinwall (McGrath / KTM 16+)",
+   "part_numbers": [
+    "R99901BK",
+    "R9991HA",
+    "0601-4962"
+   ],
+   "variants": [
+    "R99901BK = Black",
+    "R9991HA = Titanium (hard anodized)",
+    "0601-4962 = Orange",
+    "Renthal retail SKU 999-01-BK-07-185 (seen in retailer listings)"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "2020 Renthal catalogue Twinwall bend 'McGrath / KTM 16+' (https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf); model list per Renthal's matching 821/932 titles 'KTM SX125-450 2016+'"
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2025
+     ],
+     "notes": "2020 Renthal catalogue Twinwall bend 'McGrath / KTM 16+' (https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf); model list per Renthal's matching 821/932 titles 'KTM SX125-450 2016+'"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "2020 Renthal catalogue Twinwall bend 'McGrath / KTM 16+' (https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf); model list per Renthal's matching 821/932 titles 'KTM SX125-450 2016+'"
+    },
+    {
+     "make": "KTM",
+     "model": "300 SX",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "2020 Renthal catalogue Twinwall bend 'McGrath / KTM 16+' (https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf); model list per Renthal's matching 821/932 titles 'KTM SX125-450 2016+'"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "2020 Renthal catalogue Twinwall bend 'McGrath / KTM 16+' (https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf); model list per Renthal's matching 821/932 titles 'KTM SX125-450 2016+'"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "2020 Renthal catalogue Twinwall bend 'McGrath / KTM 16+' (https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf); model list per Renthal's matching 821/932 titles 'KTM SX125-450 2016+'"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "2020 Renthal catalogue Twinwall bend 'McGrath / KTM 16+' (https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf); model list per Renthal's matching 821/932 titles 'KTM SX125-450 2016+'"
+    }
+   ],
+   "fitment_source_url": "https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf",
+   "what_it_changes": "Renthal Twinwall: two aluminium tubes one inside the other (7010-T73 outer, 7010-T6 inner), braced-look 1-1/8\" clamp area with 22 mm control ends; Renthal describes it as built for resistance to mechanical damage (crash strength). Bend sets hand position. KTM OE-style low bend: width 813, rise 42, sweep 54 mm.",
+   "supporting_parts": "Stock 28.6 mm KTM bar mounts.",
+   "caveats": "Open-ended maker year range ('2016+', '13-', '2018-') mapped to roster years through 2026 only; 2027 left out because no source dated late enough to cover it. Catalogue says 'KTM 16+' without listing models; SX 125-450 inferred from Renthal's own 821/932 titles.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": [
+    {
+     "name": "Black",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf"
+    },
+    {
+     "name": "Titanium",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf"
+    },
+    {
+     "name": "Orange",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf"
+    }
+   ]
+  },
+  {
+   "id": "bk-005",
+   "category": "controls",
+   "subcategory": "handlebar",
+   "brand": "Renthal",
+   "product": "604 Fatbar (RC / CRF 04-18 / KXF 06-20)",
+   "part_numbers": [
+    "R60401BK",
+    "R60401TT",
+    "0601-4949",
+    "0601-0234",
+    "0601-0231",
+    "0601-3120",
+    "604-01-BK"
+   ],
+   "variants": [
+    "R60401BK / 604-01-BK = Black",
+    "R60401TT = Titanium",
+    "0601-4949 = Orange",
+    "0601-0234 = Blue",
+    "0601-0231 = Red",
+    "0601-3120 = Green"
+   ],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2020
+     ],
+     "notes": "Catalogue bend name 'RC / CRF 04-18 / KXF 06-20' (https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf); renthal.com lists 'Kawasaki KX/KXF 06-13' (https://renthal.com/moto/rc-honda-cr-crf-04-13kawasaki-kx-kxf-06-13-1)"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2020
+     ],
+     "notes": "Same catalogue bend name 'KXF 06-20'"
+    }
+   ],
+   "fitment_source_url": "https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf",
+   "what_it_changes": "Renthal Fatbar: braceless 7010-T6 aluminium 1-1/8\" (28.6 mm) bar, tapers to standard 22 mm control ends; braceless design gives 'a comfortable level of flexibility' (Renthal catalogue). Swapping bend changes rider position: width, rise, sweep and pullback set where the hands sit. Mid-height 'RC' bend: width 804, rise 64, sweep 54 mm - 'fitting almost perfectly in the middle of the Renthal range of bends' (renthal.com). Renthal's 2021 recommendations name 604 the tall-rider Fatbar for Honda CRF250R/450R and Kawasaki KX250/450 (taller than the 839 OE bend).",
+   "supporting_parts": "Stock 1-1/8\" bar mounts. Fatbar36 equivalent 930, Twinwall equivalent 997.",
+   "caveats": "Only the 2020 KX is inside both the bend-name years and the roster; for 2020+ Honda and 2021+ KX it is a taller alternative to the OE 839, not the OE bend.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": [
+    {
+     "name": "Black",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://renthal.com/moto/rc-honda-cr-crf-04-13kawasaki-kx-kxf-06-13-1"
+    },
+    {
+     "name": "Red",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://renthal.com/moto/rc-honda-cr-crf-04-13kawasaki-kx-kxf-06-13-1"
+    },
+    {
+     "name": "Blue",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://renthal.com/moto/rc-honda-cr-crf-04-13kawasaki-kx-kxf-06-13-1"
+    },
+    {
+     "name": "Green",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://renthal.com/moto/rc-honda-cr-crf-04-13kawasaki-kx-kxf-06-13-1"
+    },
+    {
+     "name": "Tanium",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://renthal.com/moto/rc-honda-cr-crf-04-13kawasaki-kx-kxf-06-13-1"
+    },
+    {
+     "name": "Orange",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://renthal.com/moto/rc-honda-cr-crf-04-13kawasaki-kx-kxf-06-13-1"
+    },
+    {
+     "name": "Gold",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://renthal.com/moto/rc-honda-cr-crf-04-13kawasaki-kx-kxf-06-13-1"
+    },
+    {
+     "name": "Purple",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://renthal.com/moto/rc-honda-cr-crf-04-13kawasaki-kx-kxf-06-13-1"
+    }
+   ]
+  },
+  {
+   "id": "bk-006",
+   "category": "controls",
+   "subcategory": "handlebar",
+   "brand": "Renthal",
+   "product": "930 Fatbar36 (RC / Honda)",
+   "part_numbers": [
+    "930-01-BK",
+    "0601-5247"
+   ],
+   "variants": [
+    "930-01-BK = Black (renthal.com)",
+    "0601-5247 = Parts Europe number (2020 catalogue)"
+   ],
+   "fits": [],
+   "fitment_source_url": "https://www.renthal.com/moto/handlebars/fatbar36/930-fb36",
+   "what_it_changes": "Renthal Fatbar36 (R-Works): 36 mm clamp diameter in Zarilium alloy, ends taper to 22 mm for standard controls; Renthal states it keeps Fatbar strength while being about 36% lighter than the 28.6 mm Fatbar. RC/Honda bend: width 804, rise 60, sweep 54 mm; Fatbar equivalent 604, Twinwall 997. Renthal 2021 recommendations: tall-rider Fatbar36 for Honda CRF250R/450R and Kawasaki KX250/450.",
+   "supporting_parts": "Requires 36 mm (36Tech) bar mounts - Renthal: 'It is essential that 36mm diameter bar mounts are used.' Honda: CL051 (5 mm offset) or CL052 (zero offset); Kawasaki: CL059.",
+   "caveats": "Recommendation page gives no years, so no fits recorded.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": [
+    {
+     "name": "Black",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://www.renthal.com/moto/handlebars/fatbar36/930-fb36"
+    }
+   ]
+  },
+  {
+   "id": "bk-007",
+   "category": "controls",
+   "subcategory": "handlebar",
+   "brand": "Renthal",
+   "product": "672 Fatbar (KTM 09-12 / RMZ 06-13 / YZF 18-20)",
+   "part_numbers": [
+    "R67201BK"
+   ],
+   "variants": [
+    "R67201BK = Black"
+   ],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ250F",
+     "years": [
+      2020
+     ],
+     "notes": "Catalogue bend name 'KTM 09-12 / RMZ 06-13 / YZF 18-20' (https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf)"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ450F",
+     "years": [
+      2020
+     ],
+     "notes": "Same"
+    }
+   ],
+   "fitment_source_url": "https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf",
+   "what_it_changes": "Renthal Fatbar: braceless 7010-T6 aluminium 1-1/8\" (28.6 mm) bar, tapers to standard 22 mm control ends; braceless design gives 'a comfortable level of flexibility' (Renthal catalogue). Swapping bend changes rider position: width, rise, sweep and pullback set where the hands sit. Lowish bend: width 806, rise 51, sweep 56 mm. Fatbar36 equivalent is 934.",
+   "supporting_parts": "Stock 1-1/8\" Yamaha bar mounts.",
+   "caveats": "'YZF' not split into YZ250F/YZ450F/YZ250FX/YZ450FX/WR in the catalogue; only the MX YZ-F models recorded.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": [
+    {
+     "name": "Black",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf"
+    }
+   ]
+  },
+  {
+   "id": "bk-008",
+   "category": "controls",
+   "subcategory": "handlebar",
+   "brand": "Renthal",
+   "product": "602 Fatbar (YZ 07-20 / YZF 04-17)",
+   "part_numbers": [
+    "0601-4946",
+    "0601-4948",
+    "0601-4947"
+   ],
+   "variants": [
+    "0601-4946 = Black",
+    "0601-4948 = Titanium",
+    "0601-4947 = Blue"
+   ],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ125",
+     "years": [
+      2020
+     ],
+     "notes": "Catalogue bend name 'YZ 07-20 / YZF 04-17' (https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf)"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250",
+     "years": [
+      2020
+     ],
+     "notes": "Same"
+    }
+   ],
+   "fitment_source_url": "https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf",
+   "what_it_changes": "Renthal Fatbar: braceless 7010-T6 aluminium 1-1/8\" (28.6 mm) bar, tapers to standard 22 mm control ends; braceless design gives 'a comfortable level of flexibility' (Renthal catalogue). Swapping bend changes rider position: width, rise, sweep and pullback set where the hands sit. Yamaha two-stroke bend: width 801, rise 59, sweep 56 mm.",
+   "supporting_parts": "YZ two-strokes need 28.6 mm mounts if still on 7/8\" mounts; Renthal CL018 (Yam YZ 2017-22, 5 mm offset).",
+   "caveats": "'YZ' not split into YZ125/YZ250/YZ125X/YZ250X; X models left out.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": [
+    {
+     "name": "Black",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf"
+    },
+    {
+     "name": "Titanium",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf"
+    },
+    {
+     "name": "Blue",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf"
+    }
+   ]
+  },
+  {
+   "id": "bk-009",
+   "category": "controls",
+   "subcategory": "handlebar",
+   "brand": "Renthal",
+   "product": "827 Fatbar (Villopoto / Stewart)",
+   "part_numbers": [
+    "0601-1965",
+    "0601-1966",
+    "0601-4956"
+   ],
+   "variants": [
+    "0601-1965 = Black",
+    "0601-1966 = Titanium",
+    "0601-4956 = Orange"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2021
+     ],
+     "notes": "Renthal Recommends 2021: standard-rider Fatbar for CRF250R/CRF450R (https://renthal.com/moto/2021-recommendations) - recommendation, not OE"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2021
+     ],
+     "notes": "Same, https://renthal.com/moto/2021-recommendations"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250F",
+     "years": [
+      2021
+     ],
+     "notes": "Renthal Recommends 2021: standard Fatbar for YZ450F/YZ250F (https://renthal.com/moto/2021-recommendations)"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ450F",
+     "years": [
+      2021
+     ],
+     "notes": "Same, https://renthal.com/moto/2021-recommendations"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2021
+     ],
+     "notes": "Renthal Recommends 2021: standard Fatbar for KX250/KX450 (https://renthal.com/moto/2021-recommendations)"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2021
+     ],
+     "notes": "Same, https://renthal.com/moto/2021-recommendations"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2021
+     ],
+     "notes": "Renthal Recommends 2021: tall-rider Fatbar for 250SX-F/450SX-F (https://renthal.com/moto/2021-recommendations)"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2021
+     ],
+     "notes": "Same, https://renthal.com/moto/2021-recommendations"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2021
+     ],
+     "notes": "Renthal Recommends 2021: tall-rider Fatbar for FC250/FC450 (https://renthal.com/moto/2021-recommendations)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2021
+     ],
+     "notes": "Same, https://renthal.com/moto/2021-recommendations"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2021
+     ],
+     "notes": "Renthal Recommends 2021: tall-rider Fatbar for MC250F/MC450F (https://renthal.com/moto/2021-recommendations)"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2021
+     ],
+     "notes": "Same, https://renthal.com/moto/2021-recommendations"
+    }
+   ],
+   "fitment_source_url": "https://renthal.com/moto/2021-recommendations",
+   "what_it_changes": "Renthal Fatbar: braceless 7010-T6 aluminium 1-1/8\" (28.6 mm) bar, tapers to standard 22 mm control ends; braceless design gives 'a comfortable level of flexibility' (Renthal catalogue). Swapping bend changes rider position: width, rise, sweep and pullback set where the hands sit. Villopoto/Stewart bend: width 811, rise 52, sweep 52 mm. Fatbar36 equivalent 933, Twinwall 996.",
+   "supporting_parts": "Stock 1-1/8\" bar mounts on all listed bikes.",
+   "caveats": "Renthal 'recommends' this bend; it is a rider-position choice, not the OEM shape. Year 2021 taken from the page title 'Renthal Recommends 2021'; the page itself lists models without years.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "low",
+   "is_service": false,
+   "colors": [
+    {
+     "name": "Black",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf"
+    },
+    {
+     "name": "Titanium",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf"
+    },
+    {
+     "name": "Orange",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf"
+    }
+   ]
+  },
+  {
+   "id": "bk-010",
+   "category": "controls",
+   "subcategory": "handlebar",
+   "brand": "Renthal",
+   "product": "996 Twinwall (Villopoto / Stewart)",
+   "part_numbers": [
+    "996-01-BK-07-185",
+    "R99601BK",
+    "R9961HA",
+    "0601-0226",
+    "0601-4959",
+    "0601-0221"
+   ],
+   "variants": [
+    "996-01-BK-07-185 / R99601BK = Black",
+    "R9961HA = Titanium",
+    "0601-0226 = Blue",
+    "0601-4959 = Orange",
+    "0601-0221 = Red"
+   ],
+   "fits": [],
+   "fitment_source_url": "https://www.renthal.com/moto/handlebars/twinwall/villopoto-stewart-4",
+   "what_it_changes": "Renthal Twinwall: two aluminium tubes one inside the other (7010-T73 outer, 7010-T6 inner), braced-look 1-1/8\" clamp area with 22 mm control ends; Renthal describes it as built for resistance to mechanical damage (crash strength). Bend sets hand position. Width 811, rise 53, sweep 49 mm. Renthal 2021 recommendations: standard Twinwall for Honda CRF250R/450R, Yamaha YZ250F/450F, Kawasaki KX250/450; tall-rider Twinwall for KTM SX-F, Husqvarna FC, GasGas MC.",
+   "supporting_parts": "1-1/8\" bar mounts.",
+   "caveats": "Recommendation without years; fits left empty (see 827 record for the same bend in Fatbar).",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": [
+    {
+     "name": "Black",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://www.renthal.com/moto/handlebars/twinwall/villopoto-stewart-4"
+    },
+    {
+     "name": "Red",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://www.renthal.com/moto/handlebars/twinwall/villopoto-stewart-4"
+    },
+    {
+     "name": "Blue",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://www.renthal.com/moto/handlebars/twinwall/villopoto-stewart-4"
+    },
+    {
+     "name": "Green",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://www.renthal.com/moto/handlebars/twinwall/villopoto-stewart-4"
+    },
+    {
+     "name": "Tanium",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://www.renthal.com/moto/handlebars/twinwall/villopoto-stewart-4"
+    },
+    {
+     "name": "Orange",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://www.renthal.com/moto/handlebars/twinwall/villopoto-stewart-4"
+    },
+    {
+     "name": "Purple",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://www.renthal.com/moto/handlebars/twinwall/villopoto-stewart-4"
+    }
+   ]
+  },
+  {
+   "id": "bk-011",
+   "category": "controls",
+   "subcategory": "handlebar",
+   "brand": "Renthal",
+   "product": "605 Fatbar (CR High / Ricky Johnson)",
+   "part_numbers": [
+    "605-01-BK",
+    "R60501BK"
+   ],
+   "variants": [
+    "605-01-BK = Black (renthal.com SKU)"
+   ],
+   "fits": [],
+   "fitment_source_url": "https://renthal.com/moto/cr-high-4",
+   "what_it_changes": "Renthal Fatbar: braceless 7010-T6 aluminium 1-1/8\" (28.6 mm) bar, tapers to standard 22 mm control ends; braceless design gives 'a comfortable level of flexibility' (Renthal catalogue). Swapping bend changes rider position: width, rise, sweep and pullback set where the hands sit. Tall, high-sweep bend: width 805, height 97, rise 64, sweep 65 mm - more upright riding position.",
+   "supporting_parts": "1-1/8\" bar mounts.",
+   "caveats": "No bike/year fitment printed; recorded for its colours and dims only.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": [
+    {
+     "name": "Black",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://renthal.com/moto/cr-high-4"
+    },
+    {
+     "name": "Red",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://renthal.com/moto/cr-high-4"
+    },
+    {
+     "name": "Blue",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://renthal.com/moto/cr-high-4"
+    },
+    {
+     "name": "Tanium",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://renthal.com/moto/cr-high-4"
+    },
+    {
+     "name": "Grey",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://renthal.com/moto/cr-high-4"
+    }
+   ]
+  },
+  {
+   "id": "bk-012",
+   "category": "controls",
+   "subcategory": "handlebar",
+   "brand": "Renthal",
+   "product": "831 Fatbar (SX/TC 85 13-)",
+   "part_numbers": [
+    "0601-2435",
+    "0601-4957"
+   ],
+   "variants": [
+    "0601-2435 = Black",
+    "0601-4957 = Orange"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX 17/14",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Catalogue bend name 'SX/TC 85 13-' (https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf)"
+    },
+    {
+     "make": "KTM",
+     "model": "85 SX 19/16",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Same"
+    }
+   ],
+   "fitment_source_url": "https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf",
+   "what_it_changes": "Renthal Fatbar: braceless 7010-T6 aluminium 1-1/8\" (28.6 mm) bar, tapers to standard 22 mm control ends; braceless design gives 'a comfortable level of flexibility' (Renthal catalogue). Swapping bend changes rider position: width, rise, sweep and pullback set where the hands sit. 85cc-sized bend: width 779, rise 53, sweep 50 mm.",
+   "supporting_parts": "Stock 28.6 mm KTM 85 bar mounts.",
+   "caveats": "Open-ended maker year range ('2016+', '13-', '2018-') mapped to roster years through 2026 only; 2027 left out because no source dated late enough to cover it.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": [
+    {
+     "name": "Black",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf"
+    },
+    {
+     "name": "Orange",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://pageflips.partseurope.eu/data/catalogs/renthal/2020/blaetterkatalog/pdf/complete.pdf"
+    }
+   ]
+  },
+  {
+   "id": "bk-013",
+   "category": "controls",
+   "subcategory": "handlebar",
+   "brand": "Renthal",
+   "product": "993 Twinwall Mini MX (KTM SX 85 2013+ / Husq TE85 2017+)",
+   "part_numbers": [
+    "993-01-BK-16-294"
+   ],
+   "variants": [
+    "993-01-BK-16-294 = Black"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX 17/14",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "renthal.com title '993 KTM SX 85 2013+ / HUSQ TE85 2017+'; 'Replicated and fitted to Austrian made 85cc machines since 2013' (https://www.renthal.com/moto/993-twinwall)"
+    },
+    {
+     "make": "KTM",
+     "model": "85 SX 19/16",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Same"
+    }
+   ],
+   "fitment_source_url": "https://www.renthal.com/moto/993-twinwall",
+   "what_it_changes": "Renthal Twinwall: two aluminium tubes one inside the other (7010-T73 outer, 7010-T6 inner), braced-look 1-1/8\" clamp area with 22 mm control ends; Renthal describes it as built for resistance to mechanical damage (crash strength). Bend sets hand position. OE-style 85cc bend: width 779, rise 53, sweep 50 mm.",
+   "supporting_parts": "Stock 28.6 mm bar mounts.",
+   "caveats": "Open-ended maker year range ('2016+', '13-', '2018-') mapped to roster years through 2026 only; 2027 left out because no source dated late enough to cover it.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "high",
+   "is_service": false,
+   "colors": [
+    {
+     "name": "Black",
+     "finish": "anodized",
+     "status": "VERIFIED",
+     "source": "https://www.renthal.com/moto/993-twinwall"
+    }
+   ]
+  },
+  {
+   "id": "bk-014",
+   "category": "controls",
+   "subcategory": "bar mount",
+   "brand": "Renthal",
+   "product": "28.6mm Bar Mounts, 5mm offset (CL001) / zero offset (CL002)",
+   "part_numbers": [
+    "CL001",
+    "CL002",
+    "CL014"
+   ],
+   "variants": [
+    "CL001 = 5 mm offset",
+    "CL002 = zero offset",
+    "CL014 = replacement bolt kit M12 x 77 mm"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "renthal.com bar-mount listing names 'Hon 2k-22' without model; applied to roster Honda CR-CRF models (2020 catalogue: 'HONDA CR-CRF 00-20' / 'CR/CRF (all)') (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "renthal.com bar-mount listing names 'Hon 2k-22' without model; applied to roster Honda CR-CRF models (2020 catalogue: 'HONDA CR-CRF 00-20' / 'CR/CRF (all)') (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "renthal.com bar-mount listing names 'Hon 2k-22' without model; applied to roster Honda CR-CRF models (2020 catalogue: 'HONDA CR-CRF 00-20' / 'CR/CRF (all)') (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "renthal.com bar-mount listing names 'Hon 2k-22' without model; applied to roster Honda CR-CRF models (2020 catalogue: 'HONDA CR-CRF 00-20' / 'CR/CRF (all)') (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250F",
+     "years": [
+      2020
+     ],
+     "notes": "Listing 'Yam YZF 2014-20' (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ450F",
+     "years": [
+      2020
+     ],
+     "notes": "Listing 'Yam YZF 2014-20' (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing 'Kaw 2014-22' (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing 'Kaw 2014-22' (https://renthal.com/collections/bar-mounts)"
+    }
+   ],
+   "fitment_source_url": "https://renthal.com/collections/bar-mounts",
+   "what_it_changes": "Replacement 1-1/8\" (28.6 mm) bar clamps for oversize bars. The 5 mm offset version moves the bar 5 mm (forward or back depending on orientation) versus zero offset; changes reach to the bars.",
+   "supporting_parts": "1-1/8\" handlebar.",
+   "caveats": "Kawasaki years on this listing (2014-22) differ from CL019 'Kaw 2009-22'; check Renthal Fit my Bike. Yamaha listing title says YZF 2014-20 only.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "bk-015",
+   "category": "controls",
+   "subcategory": "bar mount",
+   "brand": "Renthal",
+   "product": "28.6mm Bar Mounts Yam YZ 2017-22, 5mm offset (CL018)",
+   "part_numbers": [
+    "CL018",
+    "CL020"
+   ],
+   "variants": [
+    "CL018 = 5 mm offset",
+    "CL020 = replacement bolt kit M12 x 68 mm"
+   ],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ125",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing '28.6mm Bar Mounts / Yam YZ 2017-22, 5mm Offset' (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing '28.6mm Bar Mounts / Yam YZ 2017-22, 5mm Offset' (https://renthal.com/collections/bar-mounts)"
+    }
+   ],
+   "fitment_source_url": "https://renthal.com/collections/bar-mounts",
+   "what_it_changes": "Lets YZ two-strokes run a 1-1/8\" oversize bar (stock YZ125/250 use 7/8\") with 5 mm offset adjustment.",
+   "supporting_parts": "1-1/8\" handlebar (e.g. 602 Fatbar).",
+   "caveats": "YZ125X/YZ250X not named.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "bk-016",
+   "category": "controls",
+   "subcategory": "bar mount",
+   "brand": "Renthal",
+   "product": "28.6mm Bar Mounts Kaw 2009-22 (CL019)",
+   "part_numbers": [
+    "CL019",
+    "CL020"
+   ],
+   "variants": [
+    "CL019 = mounts",
+    "CL020 = replacement bolt kit M12 x 68 mm"
+   ],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing '28.6mm Bar Mounts Kaw 2009-22' (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing '28.6mm Bar Mounts Kaw 2009-22' (https://renthal.com/collections/bar-mounts)"
+    }
+   ],
+   "fitment_source_url": "https://renthal.com/collections/bar-mounts",
+   "what_it_changes": "Replacement 1-1/8\" bar clamps for Kawasaki KX.",
+   "supporting_parts": "1-1/8\" handlebar.",
+   "caveats": "Offset not stated in listing; 2020 catalogue lists a KXF 09-20 5 mm mount (0603-0303).",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "bk-017",
+   "category": "controls",
+   "subcategory": "bar mount",
+   "brand": "Renthal",
+   "product": "36mm (36Tech) Bar Mounts KTM SX&F 2016-22 / Husq 2020-22 FC/TC (CL060)",
+   "part_numbers": [
+    "CL060",
+    "CL021",
+    "0602-0927"
+   ],
+   "variants": [
+    "CL060 = mounts",
+    "CL021 = replacement bolt kit M10 x 42 mm",
+    "0602-0927 = Parts Europe number, 2020 catalogue 'KTM SX,SX-F 2017-20 / Husqvarna FC, TC, TX 2018-20 - utilizes OE spacer nut 79001037034'"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing 'KTM SX&F 2016-22' (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing 'KTM SX&F 2016-22' (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing 'KTM SX&F 2016-22' (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing 'KTM SX&F 2016-22' (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing 'KTM SX&F 2016-22' (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing 'KTM SX&F 2016-22' (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing 'Husq 2020-22 FC/TC' (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing 'Husq 2020-22 FC/TC' (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing 'Husq 2020-22 FC/TC' (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing 'Husq 2020-22 FC/TC' (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing 'Husq 2020-22 FC/TC' (https://renthal.com/collections/bar-mounts)"
+    }
+   ],
+   "fitment_source_url": "https://renthal.com/collections/bar-mounts",
+   "what_it_changes": "Lets the bike run a Renthal Fatbar36 (36 mm) bar in place of the stock 28.6 mm bar.",
+   "supporting_parts": "Fatbar36 handlebar (e.g. 932). Reuses OE spacer nut 79001037034 (2020 catalogue).",
+   "caveats": "TX (2020 catalogue) not in 2016-22 listing; left out.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "bk-018",
+   "category": "controls",
+   "subcategory": "bar mount",
+   "brand": "Renthal",
+   "product": "36mm (36Tech) Bar Mounts KTM SX-F / Husq TC-FC 2023+ (CL063)",
+   "part_numbers": [
+    "CL063"
+   ],
+   "variants": [
+    "CL063 = mounts; replaces OEM KTM/Husq mount A48001039010 or A48001039036"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "renthal.com 'KTM SX-F / Husq TC-FC 2023 ---->' (https://www.renthal.com/moto/cl063)"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "renthal.com 'KTM SX-F / Husq TC-FC 2023 ---->' (https://www.renthal.com/moto/cl063)"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "renthal.com 'KTM SX-F / Husq TC-FC 2023 ---->' (https://www.renthal.com/moto/cl063)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Same listing 'Husq TC-FC 2023 ---->'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Same listing 'Husq TC-FC 2023 ---->'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Same listing 'Husq TC-FC 2023 ---->'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Same listing 'Husq TC-FC 2023 ---->'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Same listing 'Husq TC-FC 2023 ---->'"
+    }
+   ],
+   "fitment_source_url": "https://www.renthal.com/moto/cl063",
+   "what_it_changes": "Replaces the OEM 2023+ KTM/Husqvarna bar mount so a 36 mm Fatbar36 can be fitted.",
+   "supporting_parts": "Fatbar36 handlebar.",
+   "caveats": "Open-ended '2023 ---->' mapped to 2023-2026. KTM two-stroke SX not named in title (only SX-F), so left out.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "high",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "bk-019",
+   "category": "controls",
+   "subcategory": "bar mount",
+   "brand": "Renthal",
+   "product": "36mm (36Tech) Bar Mounts Husq FE/TE 2018-22 / GasGas 2022 / KTM EXC/XC 2012-22 (CL061)",
+   "part_numbers": [
+    "CL061",
+    "CL021"
+   ],
+   "variants": [
+    "CL061 = mounts (tram-rail style per 2020 catalogue)",
+    "CL021 = replacement bolt kit M10 x 42 mm"
+   ],
+   "fits": [
+    {
+     "make": "Husqvarna",
+     "model": "FE 450",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing 'Husq FE/TE 2018-22' (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TE 150",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing 'Husq FE/TE 2018-22' (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TE 250",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing 'Husq FE/TE 2018-22' (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TE 300",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing 'Husq FE/TE 2018-22' (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "KTM",
+     "model": "125 XC",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "Listing 'KTM EXC/XC 2012-22' (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing 'KTM EXC/XC 2012-22' (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "KTM",
+     "model": "300 XC",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing 'KTM EXC/XC 2012-22' (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing 'KTM EXC/XC 2012-22' (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "KTM",
+     "model": "350 XC-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing 'KTM EXC/XC 2012-22' (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "KTM",
+     "model": "450 XC-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing 'KTM EXC/XC 2012-22' (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "KTM",
+     "model": "150 XC-W",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing 'KTM EXC/XC 2012-22' (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-W",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing 'KTM EXC/XC 2012-22' (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "KTM",
+     "model": "300 XC-W",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing 'KTM EXC/XC 2012-22' (https://renthal.com/collections/bar-mounts)"
+    }
+   ],
+   "fitment_source_url": "https://renthal.com/collections/bar-mounts",
+   "what_it_changes": "Lets KTM XC/XC-W and Husqvarna FE/TE run a 36 mm Fatbar36 bar.",
+   "supporting_parts": "Fatbar36 handlebar.",
+   "caveats": "'GasGas 2022' printed without models - in gaps. 'KTM EXC/XC' assumed to include XC-W and XC-F off-road models; US models are named XC/XC-W/XC-F.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "bk-020",
+   "category": "controls",
+   "subcategory": "bar mount",
+   "brand": "Renthal",
+   "product": "36mm (36Tech) Bar Mounts Honda / Yamaha YZF, 5mm offset (CL051) / zero offset (CL052)",
+   "part_numbers": [
+    "CL051",
+    "CL052",
+    "CL014",
+    "0603-0923",
+    "0603-0924"
+   ],
+   "variants": [
+    "CL051 = 5 mm offset",
+    "CL052 = zero offset",
+    "CL014 = bolt kit M12 x 77 mm",
+    "0603-0923 / 0603-0924 = Parts Europe numbers (2020 catalogue, 5 mm / zero)"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "renthal.com bar-mount listing names 'Hon 2k-22' without model; applied to roster Honda CR-CRF models (2020 catalogue: 'HONDA CR-CRF 00-20' / 'CR/CRF (all)') (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "renthal.com bar-mount listing names 'Hon 2k-22' without model; applied to roster Honda CR-CRF models (2020 catalogue: 'HONDA CR-CRF 00-20' / 'CR/CRF (all)') (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "renthal.com bar-mount listing names 'Hon 2k-22' without model; applied to roster Honda CR-CRF models (2020 catalogue: 'HONDA CR-CRF 00-20' / 'CR/CRF (all)') (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "renthal.com bar-mount listing names 'Hon 2k-22' without model; applied to roster Honda CR-CRF models (2020 catalogue: 'HONDA CR-CRF 00-20' / 'CR/CRF (all)') (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing 'Yam YZF 2014-22' (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ450F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing 'Yam YZF 2014-22' (https://renthal.com/collections/bar-mounts)"
+    }
+   ],
+   "fitment_source_url": "https://renthal.com/collections/bar-mounts",
+   "what_it_changes": "Lets Honda CRF and Yamaha YZ-F run 36 mm Fatbar36 bars; offset choice moves bar position 5 mm.",
+   "supporting_parts": "Fatbar36 handlebar (e.g. 930).",
+   "caveats": "2020 catalogue says YZ450F 2018-19 with conical rubbers needs a different part (0603-0929) and lists YZ450F only for 2017 & 2020 on this mount - conflicts with current '2014-22' title; check Fit my Bike.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "bk-021",
+   "category": "controls",
+   "subcategory": "bar mount",
+   "brand": "Renthal",
+   "product": "36mm (36Tech) Bar Mounts Kaw 2009-22 (CL059)",
+   "part_numbers": [
+    "CL059",
+    "CL020"
+   ],
+   "variants": [
+    "CL059 = mounts",
+    "CL020 = bolt kit M12 x 68 mm"
+   ],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing '36mm Bar Mounts Kaw 2009-22' (https://renthal.com/collections/bar-mounts)"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Listing '36mm Bar Mounts Kaw 2009-22' (https://renthal.com/collections/bar-mounts)"
+    }
+   ],
+   "fitment_source_url": "https://renthal.com/collections/bar-mounts",
+   "what_it_changes": "Lets Kawasaki KX run 36 mm Fatbar36 bars.",
+   "supporting_parts": "Fatbar36 handlebar.",
+   "caveats": "",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "bk-022",
+   "category": "controls",
+   "subcategory": "handlebar",
+   "brand": "Neken",
+   "product": "SFH (Smooth Feeling Handlebar)",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [],
+   "fitment_source_url": "",
+   "what_it_changes": "1-1/8\" oversize at the clamp, tapering to 22 mm and then to 18 mm over the last ~6 in. at the controls, with thicker grips of the same outer diameter; aimed at less vibration and hand fatigue (per MXA test).",
+   "supporting_parts": "Neken's thick-wall grips and downsized 18 mm throttle tube (sold with/for the SFH).",
+   "caveats": "Maker site (neken.com) not reachable; Parts Europe pages need JavaScript. No bend-to-bike fitment, part numbers or maker colour list captured.",
+   "where_to_buy": [],
+   "rider_feedback": [
+    {
+     "source": "Motocross Action",
+     "url": "https://motocrossactionmag.com/mxa-team-tested-neken-sfh-handlebars-ultra-thick-grips",
+     "says": "Testers were sceptical but found less vibration and hand fatigue; bars offered in bends for all modern bikes in two-tone colours."
+    }
+   ],
+   "confidence": "low",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "bk-023",
+   "category": "controls",
+   "subcategory": "handlebar",
+   "brand": "Tag Metals",
+   "product": "T2 Handlebar",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [],
+   "fitment_source_url": "",
+   "what_it_changes": "Cold-forged 7049-T6 aluminium bar, 1-1/8\" at the clamp tapering to 7/8\" at the grips so standard controls fit (per MotoOnline review).",
+   "supporting_parts": "1-1/8\" bar mounts on bikes that came with 7/8\" bars.",
+   "caveats": "Maker site not reachable; no maker bend chart or per-bike fitment captured. Retailer listings name bends such as 'T2 Low Yamaha/Honda' but are not proof.",
+   "where_to_buy": [],
+   "rider_feedback": [
+    {
+     "source": "MotoOnline (AU)",
+     "url": "https://www.motoonline.com/au/reviewed-tag-metals-t2-handlebars/",
+     "says": "On an RM-Z250 the CR Low bend gave easier cornering and more front-end feel; black anodized finish."
+    }
+   ],
+   "confidence": "low",
+   "is_service": false,
+   "colors": []
+  }
+ ],
+ "gaps": [
+  "Renthal 932 Fatbar36 page says OE bend on Husqvarna (2016>) and GasGas (2020>) but names no models; Husqvarna/GasGas bar fitment not recorded.",
+  "Renthal 2021 recommendations give bends per model without years for Fatbar36 (933/934/930/931) and Twinwall (996/997/998/999); only Fatbar 827 recorded with year 2021, low confidence.",
+  "Honda CRF250RX/450RX and Kawasaki KX250X/450X not named for the 839 OE bend; Yamaha X/FX/WR and Triumph TF models not covered by any Renthal page seen.",
+  "Renthal CL061 bar mount lists 'GasGas 2022' without models; 2023+ fitment for most bar mounts (other than CL063) not printed on the listing.",
+  "Renthal 798 7/8\" KTM SX85 and 826/822 'KTM High/Low' bends have no years; 604 renthal.com fitment text predates roster years.",
+  "No 2027 models covered: open-ended '+' ranges capped at 2026."
+ ],
+ "not_done": [
+  "Tag Metals (tagmetals.com): fetch permission not granted; no maker pages in search results. Only a MotoOnline review used.",
+  "Emig Racing (emigracing.com): fetch permission not granted; search returned only ODI Emig grips, no Emig bars/clamps pages.",
+  "Neken (neken.com): fetch permission not granted; Parts Europe Neken pages require JavaScript (no data).",
+  "Applied Racing (appliedracing.com): fetch permission not granted; maker site not indexed; only a 2007 MXA article (2008 CRF) and a Vital MX guide without fitment found. No triple clamps recorded.",
+  "ProTaper: protaper.com product page (022155 EVO Windham SX) returned no specs, colours or fitment; no bend chart found. No ProTaper records.",
+  "Renthal individual product pages for 839, bar mounts (CL001/CL060/CL061) and Fit my Bike: blocked (permission prompts not answered) or JavaScript-only; used the bar-mount collection listing and the Renthal 2020 catalogue PDF hosted by Parts Europe instead.",
+  "Triple clamps from any brand: none recorded (Applied Racing unreachable).",
+  "7 fitment years outside the BAK MX roster were left out when merged (2026-10-17)."
+ ]
+}

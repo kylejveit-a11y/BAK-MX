@@ -204,3 +204,18 @@ Applied; Regina, Iris, Talon, Tusk and Primary Drive kits; Galfer maker tables (
 - MotoSport KTM family 2020-2024 finished (218 bike-years total); all five families re-converted with the new product pages.
 - Kawasaki 2026 KX250 / KX250X / KX450 / KX450X: 244 published facts loaded (docs/research/expansion/kawasaki/my2026/).
 - Tester baselines: 157 bike-years (10 more); most two-strokes have no published numeric setups.
+
+## Specialty pass 3 (2026-10-17): brand gaps and part colours
+
+New files in `specialty/`, all with a `colors` field (maker-listed colours only; status VERIFIED with the source page):
+`house_brands.json` (23: Moose Racing skid plates, disc guards, levers, handguards; fitment from Cycle Gear's per-item tables,
+medium confidence), `chains_wheels.json` (23: Talon Radialite sprockets with 11 anodized colours, Talon wheel sets, Regina and
+Iris chains; chains have no per-bike fitment published), `bars_clamps.json` (23, ids bk-: Renthal bars by bend with colours
+and clamp size, Renthal bar mounts; Neken/Tag design notes only), `cooling_valvetrain.json` (15: Pro-X, Kibblewhite, Hot Cams
+valvetrain, Enduro Engineering braces) and `engine_services.json` (27: Moto Tassinari reeds via the maker's finder, Boyesen
+reeds/water pumps/covers with colours, Slavens TBI cylinder and head kits plus head-mod service, Cannon Racecraft springs).
+Fitment years outside the roster were dropped when merged. Spot check: Talon TR130RL colours match the maker page.
+Not reachable or not found: Tusk and Primary Drive (Rocky Mountain bot protection, PDFs too); Tag, Emig, Neken, Applied,
+hotcams.com, cv4.com, mishimoto.com (site approval not given in time); Mishimoto/Fluidyne/CV4/Psychic have no 2020+ MX
+cooling parts; "Smart Performance" is not a motocross parts maker; Eric Gorr site is parked; no 2020+ porting services with
+explicit bike lists except Slavens.
