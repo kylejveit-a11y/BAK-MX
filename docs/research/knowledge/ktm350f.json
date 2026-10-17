@@ -1,0 +1,3357 @@
+{
+ "slice": "KTM 350 SX-F, Husqvarna FC 350, GasGas MC 350F 2023-2026 (current generation; with 2020-2022 summary and 2023 changes; notes for KTM 350 XC-F, Husqvarna FX 350, GasGas EX 350F)",
+ "platform": {
+  "make": "KTM",
+  "models": [
+   "KTM 350 SX-F",
+   "Husqvarna FC 350",
+   "GasGas MC 350F",
+   "KTM 350 XC-F",
+   "Husqvarna FX 350",
+   "GasGas EX 350F"
+  ],
+  "years": [
+   2023,
+   2024,
+   2025,
+   2026
+  ]
+ },
+ "records": [
+  {
+   "id": "k35-001",
+   "domain": "identity",
+   "topic": "platform generation",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The current 350 SX-F / FC 350 generation arrived for 2023 with a new engine, frame, swingarm, shock, bodywork and handlebar switchgear; 2024 to 2026 are evolutions of it.",
+   "values": {
+    "generation_start": "2023",
+    "previous_generation": "2019-2022"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2023 KTM 350SXF race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-ktm-350sxf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Magazine description of the 2023 changes; OEM spec pages agree on carried-over engine dimensions 2023-2027."
+  },
+  {
+   "id": "k35-002",
+   "domain": "identity",
+   "topic": "2023 model-year changes",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "For 2023 the engine was tilted back 2 degrees with the countershaft sprocket about 3 mm lower, the hydroformed chromoly frame dropped the backbone-to-shock connection, the swingarm became a hollow die-cast part with a 22 mm axle, the shock and spring got 15 mm shorter and all clickers became hand-adjustable.",
+   "values": {
+    "engine_tilt": "2 deg rearward",
+    "countershaft_drop": "3 mm",
+    "rear_axle": "22 mm",
+    "shock_length_change": "-15 mm",
+    "shock_spring": "45 N/mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2023 KTM 350SXF race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-ktm-350sxf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Magazine race test summary of KTM changes. Price $10,699."
+  },
+  {
+   "id": "k35-003",
+   "domain": "identity",
+   "topic": "2023 cylinder head and engine size",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "The 2023 250/350 engines got a fully redesigned cylinder head with new porting, valve timing and cams, and the engine is 8 mm shorter than before.",
+   "values": {
+    "engine_length_change": "-8 mm",
+    "throttle_body": "44 mm (unchanged)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21 - Tested: 2023 KTM SX-F range",
+    "url": "https://enduro21.com/en/news/tested-2023-ktm-sx-f-range-riding-impressions-and-clues-to-the-24-enduro-range",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Press-launch report; no cam or port numbers published. Fuel tank went from 7.5 to 7.2 L."
+  },
+  {
+   "id": "k35-004",
+   "domain": "identity",
+   "topic": "2023 compression increase",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Compression rose to 14.6:1 for 2023 (from 14:1), aimed at more mid-range.",
+   "values": {
+    "compression_2023": "14.6:1",
+    "compression_2019_2022": "14.0:1"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - First look 2023 KTM 450/350/250SXF",
+    "url": "https://motocrossactionmag.com/2023-ktm-450sxf-350sxf-250sxf-motocross-models",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "First-look article quoting KTM spec; 2019-2022 figure from the 2019 first look (record k35 compression conflict)."
+  },
+  {
+   "id": "k35-005",
+   "domain": "identity",
+   "topic": "2023 electronics and switchgear",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "New 2023 switchgear put two maps, traction control, quickshifter and launch control (TC + QS pressed together) on the left bar, and the new hour meter doubles as the fuel-injection warning light.",
+   "values": {
+    "maps": "2",
+    "launch_control": "TC + QS buttons together",
+    "quickshifter_gears": "2nd-5th"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2023 KTM 350SXF race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-ktm-350sxf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k35-006",
+   "domain": "identity",
+   "topic": "2024 model-year changes",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "2024 was a refinement year: new graphics, fork compression shim stack revised for a smoother mid-stroke, and the shock high-speed compression adjuster went from 15 to 23 positions, halving the change per click.",
+   "values": {
+    "shock_hsc_positions": "15 -> 23",
+    "price": "$10,899"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2024 KTM 350SXF race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-ktm-350sxf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "No engine changes listed for 2024."
+  },
+  {
+   "id": "k35-007",
+   "domain": "identity",
+   "topic": "2024 Factory Edition lineup",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "There is no 350 SX-F Factory Edition: KTM's 2024 SX-F Factory Editions were the 250 and 450 only (orange frame with the flex changes later used on the 2025 standard bikes, Akrapovic titanium exhaust, CUO).",
+   "values": {
+    "350_sx_f_factory_edition": "none"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "RideApart - 2024 KTM SX-F Factory Editions",
+    "url": "https://www.rideapart.com/news/701587/2024-ktm-sx-factory-launch-announcement/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "The 350 Factory Edition exists only in the XC-F (off-road) line."
+  },
+  {
+   "id": "k35-008",
+   "domain": "identity",
+   "topic": "2025 model-year changes",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "For 2025 the frame got new cut-outs and wall thicknesses around the shock mount and front, saving about 300 g and adding flex, plus revised WP fork and shock settings, smaller linkage bolts and seals, a new silencer, a simpler map switch, one-piece intake snorkel, new shrouds and Dunlop MX34 tires.",
+   "values": {
+    "frame_weight_saving": "300 g",
+    "tires": "Dunlop Geomax MX34"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2025 350 SX-F model page",
+    "url": "https://www.ktm.com/en-cy/models/motocross/4-stroke/2025-ktm-350-sx-f.html",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "KTM says the new silencer gives crisper response with the map switch and a slightly quieter note; an Australian launch report says 'torquier mid-range'."
+  },
+  {
+   "id": "k35-009",
+   "domain": "identity",
+   "topic": "2026 model-year changes",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "2026 is a carry-over with a new threaded radiator cap that opens with less force and revised wiring-harness routing to reduce wear.",
+   "values": {
+    "msrp_usd": "$11,449"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM USA 2026 350 SX-F model page",
+    "url": "https://www.ktm.com/en-us/models/motocross/4-stroke/2026-ktm-350-sx-f.html",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "No engine or chassis changes listed by KTM."
+  },
+  {
+   "id": "k35-010",
+   "domain": "identity",
+   "topic": "2027 claimed weight",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "KTM lists the 2027 350 SX-F at 102.4 kg without fuel, up from the 101.9 kg listed for 2023-2026; no other changes are described on the spec page.",
+   "values": {
+    "weight_no_fuel_2027": "102.4 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2027 350 SX-F technical specifications",
+    "url": "https://www.ktm.com/en-nl/models/motocross/4-stroke/2027-ktm-350-sx-f/technical-specifications.html",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "Reason for the 0.5 kg increase not stated."
+  },
+  {
+   "id": "k35-011",
+   "domain": "identity",
+   "topic": "Husqvarna FC 350 generation and US availability",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The Husqvarna FC 350 moved to the same new generation as the KTM in 2023; for 2026 Husqvarna USA did not offer the FC 250/350/450, with new models promised for 2027.",
+   "values": {
+    "new_gen_from": "2023",
+    "us_2026": "not offered"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Husqvarna tests category (2026 FC models missing in USA)",
+    "url": "https://motocrossactionmag.com/category/bike-tests/husqvarna-tests",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "US-market statement; other markets may differ. A 2025 FC 350 'Heritage' edition was tested in the US."
+  },
+  {
+   "id": "k35-012",
+   "domain": "identity",
+   "topic": "Husqvarna FC 350 2025 changes",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The 2025 FC range got the same frame material removal around the upper shock mount and front, new engine mounts, revised swingarm chain slider, new WP settings, new linkage seals and bolts, a slightly higher and wider seat, and Brembo brakes and clutch.",
+   "values": {
+    "brakes": "Brembo",
+    "clutch": "Brembo hydraulic"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "MotoOnline - Detailed: 2025 Husqvarna FC and TC range",
+    "url": "https://www.motoonline.com/au/detailed-2025-husqvarna-fc-and-tc-range/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Range-wide press summary, not FC 350-specific."
+  },
+  {
+   "id": "k35-013",
+   "domain": "identity",
+   "topic": "GasGas MC 350F generation lag",
+   "applies_to": {
+    "models": [
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The GasGas MC 350F stayed on the previous-generation frame and engine through 2023 and moved to the new-generation platform for 2024.",
+   "values": {
+    "old_platform_years": "2021-2023",
+    "new_platform_from": "2024"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2023 GasGas MC350F race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-gasgas-mc350f",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Australian test of the 2024 MC 350F also calls it a top-to-bottom new generation."
+  },
+  {
+   "id": "k35-014",
+   "domain": "identity",
+   "topic": "previous generation summary 2019-2022",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "The 2019-2022 350 had a head 200 g lighter than 2018, titanium valves, a 14:1 piston, DS diaphragm-spring clutch, Pankl 5-speed, new chromoly frame and WP AER air fork; 2020-2022 were nearly identical, with 2022 only changing the balancer-shaft needle bearing to a plain bushing.",
+   "values": {
+    "head_weight_saving_2019": "200 g",
+    "compression": "14:1",
+    "rev_limit_claim": "13,400 rpm",
+    "2022_change": "balancer shaft bushing"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - First look 2019 KTM 250/350/450SXF",
+    "url": "https://motocrossactionmag.com/first-look-2019-ktm-250sxf-350sxf-450sxf-four-strokes",
+    "date": "2018"
+   },
+   "confidence": "high",
+   "notes": "2022 change from the 2022 MXA race test."
+  },
+  {
+   "id": "k35-015",
+   "domain": "identity",
+   "topic": "what changed between 2022 and 2023 (summary)",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2022,
+     2023
+    ]
+   },
+   "statement": "Going from 2022 to 2023 riders get more low-to-mid pull, higher compression, a stiffer heavier chassis that needs break-in, a lower countershaft for less squat, hand-adjustable clickers, quickshifter and launch control as standard, and about 2 lb more weight.",
+   "values": {
+    "weight_2022": "222 lb",
+    "weight_2023": "224 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2023 KTM 350SXF race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-ktm-350sxf",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Weights are one magazine's figures across the two tests; feel claims are repeated by several testers."
+  },
+  {
+   "id": "k35-016",
+   "domain": "identity",
+   "topic": "XC-F / FX / EX off-road siblings",
+   "applies_to": {
+    "models": [
+     "KTM 350 XC-F",
+     "Husqvarna FX 350",
+     "GasGas EX 350F"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 350 XC-F shares the 349.7 cc 88 x 57.5 mm engine and chassis but adds a 6-speed gearbox, 18-inch rear wheel, 8.5 L tank, kickstand, skid plate, hand guards, softer suspension and (from 2025) a WP XACT coil-spring fork instead of the air fork.",
+   "values": {
+    "gearbox": "6-speed",
+    "rear_wheel": "18 in",
+    "tank": "8.5 L / 2.24 gal",
+    "fork": "WP XACT 48 mm closed-cartridge coil spring (2025)",
+    "weight_no_fuel": "104.2 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Canada 2025 350 XC-F model page",
+    "url": "https://ktm.com/en-ca/models/cross-country/4-stroke/2025-ktm-350-xc-f.html",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider confirms coil fork, 6-speed, 18-in rear and compression 14.6:1 for 2025 XC-F. Husqvarna FX 350 and GasGas EX 350F follow the same recipe within their brands; their exact parts lists were not checked."
+  },
+  {
+   "id": "k35-017",
+   "domain": "engine_architecture",
+   "topic": "displacement, bore and stroke",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350",
+     "GasGas MC 350F",
+     "KTM 350 XC-F",
+     "Husqvarna FX 350",
+     "GasGas EX 350F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The engine is a 349.7 cc DOHC four-valve single with an 88 mm bore and 57.5 mm stroke.",
+   "values": {
+    "displacement": "349.7 cc",
+    "bore": "88 mm",
+    "stroke": "57.5 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - First look 2023 KTM 450/350/250SXF",
+    "url": "https://motocrossactionmag.com/2023-ktm-450sxf-350sxf-250sxf-motocross-models",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Bore/stroke carried from 2016 through 2027 (2016 Dirt Bike test lists the same)."
+  },
+  {
+   "id": "k35-018",
+   "domain": "engine_architecture",
+   "topic": "compression ratio",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350",
+     "KTM 350 XC-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Compression ratio is 14.6:1 on the current generation.",
+   "values": {
+    "compression": "14.6:1"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider - Important things to know about the 2024 Husqvarna FC 350",
+    "url": "https://www.dirtrider.com/dirt-bikes/husqvarna-fc-350-everything-you-need-to-know",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Also stated in the 2023 KTM first-look and the 2025 350 XC-F spec listing."
+  },
+  {
+   "id": "k35-019",
+   "domain": "engine_architecture",
+   "topic": "valves and valvetrain",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "KTM 350 XC-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Two overhead cams operate four valves through DLC-coated finger followers, with 36.3 mm intake and 29.1 mm exhaust valves and a single oil spray jet for piston cooling.",
+   "values": {
+    "intake_valve": "36.3 mm (x2)",
+    "exhaust_valve": "29.1 mm (x2)",
+    "followers": "DLC-coated finger followers"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Canada 2025 350 XC-F model page",
+    "url": "https://ktm.com/en-ca/models/cross-country/4-stroke/2025-ktm-350-xc-f.html",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Valve sizes on the 2025 XC-F page; same sizes listed for 2019 SX-F (titanium valves) in the 2019 first look."
+  },
+  {
+   "id": "k35-020",
+   "domain": "engine_architecture",
+   "topic": "valve material",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "The 2019-2022 engine uses titanium valves.",
+   "values": {
+    "valve_material": "titanium (intake and exhaust)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - First look 2019 KTM 250/350/450SXF",
+    "url": "https://motocrossactionmag.com/first-look-2019-ktm-250sxf-350sxf-450sxf-four-strokes",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": "Current-generation (2023+) valve material not confirmed in the sources found."
+  },
+  {
+   "id": "k35-021",
+   "domain": "engine_architecture",
+   "topic": "throttle body and EMS",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350",
+     "GasGas MC 350F",
+     "KTM 350 XC-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Fuel is metered by Keihin EFI through a 44 mm throttle body with a Keihin EMS.",
+   "values": {
+    "throttle_body": "44 mm",
+    "ems": "Keihin"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM USA 2026 350 SX-F technical specifications",
+    "url": "https://www.ktm.com/en-us/models/motocross/4-stroke/2026-ktm-350-sx-f/technical-specifications.html",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k35-022",
+   "domain": "engine_architecture",
+   "topic": "engine weight",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "KTM 350 XC-F"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "KTM gives the 350 powerplant weight as 27.5 kg (60.6 lb).",
+   "values": {
+    "engine_weight": "27.5 kg / 60.6 lb"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2025 350 SX-F model page",
+    "url": "https://www.ktm.com/en-cy/models/motocross/4-stroke/2025-ktm-350-sx-f.html",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k35-023",
+   "domain": "engine_architecture",
+   "topic": "rev limit (2023 test)",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "The 2023 bike revs to a 13,400 rpm limiter.",
+   "values": {
+    "rev_limit": "13,400 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2023 KTM 350SXF race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-ktm-350sxf",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Magazine statement; method not stated. Same figure KTM quoted for 2019."
+  },
+  {
+   "id": "k35-024",
+   "domain": "engine_architecture",
+   "topic": "rev limit (2024 test)",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The 2024 bike is described as revving to 13,000 rpm.",
+   "values": {
+    "rev_limit": "13,000 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2024 KTM 350SXF race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-ktm-350sxf",
+    "date": "2024"
+   },
+   "confidence": "low",
+   "notes": "Conflicts with 13,400 rpm given by the same magazine for 2023 and in its 2024 350 shootout; no engine change for 2024."
+  },
+  {
+   "id": "k35-025",
+   "domain": "engine_architecture",
+   "topic": "clutch and primary drive",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The clutch is a wet multi-disc DS (diaphragm spring) clutch with Brembo hydraulics, driven by a 24:72 primary.",
+   "values": {
+    "primary": "24:72",
+    "clutch": "DS diaphragm-steel, Brembo hydraulic"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM USA 2026 350 SX-F technical specifications",
+    "url": "https://www.ktm.com/en-us/models/motocross/4-stroke/2026-ktm-350-sx-f/technical-specifications.html",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "GasGas from late 2023/2024 uses BrakTec clutch hydraulics; Husqvarna 2025 lists Brembo."
+  },
+  {
+   "id": "k35-026",
+   "domain": "engine_architecture",
+   "topic": "lubrication and gearbox",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Lubrication is pressure-fed by two oil pumps and the SX-F/FC use a 5-speed gearbox.",
+   "values": {
+    "oil_pumps": "2",
+    "gearbox": "5-speed (SX-F/FC/MC), 6-speed (XC-F/FX/EX)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - First look 2023 KTM 450/350/250SXF",
+    "url": "https://motocrossactionmag.com/2023-ktm-450sxf-350sxf-250sxf-motocross-models",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k35-027",
+   "domain": "engine_architecture",
+   "topic": "bore/stroke ratio",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350",
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "With an 88 mm bore and 57.5 mm stroke the engine is very oversquare at about 1.53 to 1, between the 250 (about 1.67) and the 450 (about 1.50).",
+   "values": {
+    "bore_stroke_ratio": "1.530",
+    "250_SX-F": "1.670",
+    "450_SX-F": "1.498"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation from published inputs",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "high",
+   "notes": "88 / 57.5 = 1.530. 250 SX-F 2023+: 81 / 48.5 = 1.670 (bore/stroke from Cycle News 2023 review). 450 SX-F: 95 / 63.4 = 1.498."
+  },
+  {
+   "id": "k35-028",
+   "domain": "engine_architecture",
+   "topic": "displacement check",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350",
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "An 88 mm bore and 57.5 mm stroke work out to 349.7 cc, matching KTM's figure.",
+   "values": {
+    "calculated_displacement": "349.7 cc"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation from published inputs",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "high",
+   "notes": "pi/4 x 8.8^2 x 5.75 = 0.7854 x 77.44 x 5.75 = 349.7 cc."
+  },
+  {
+   "id": "k35-029",
+   "domain": "engine_architecture",
+   "topic": "mean piston speed",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350",
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Mean piston speed is about 24.3 m/s at a 12,700 rpm power peak, 24.9 m/s at 13,000 rpm and 25.7 m/s at the 13,400 rpm limiter.",
+   "values": {
+    "at_12700": "24.3 m/s",
+    "at_13000": "24.9 m/s",
+    "at_13400": "25.7 m/s"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation from published inputs",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "high",
+   "notes": "Mean piston speed = 2 x stroke(mm) x rpm / 60000. 2 x 57.5 x 12700 / 60000 = 24.34; x13000 = 24.92; x13400 = 25.68. For comparison the 450 SX-F (63.4 mm stroke) at 11,400 rpm is 24.1 m/s, so the 350 runs higher piston speeds at its limiter."
+  },
+  {
+   "id": "k35-030",
+   "domain": "engine_architecture",
+   "topic": "valve area vs bore",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "KTM 350 XC-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Two 36.3 mm intake valves give about 2,070 mm2 of head area, roughly 34% of the 6,082 mm2 bore area; the two 29.1 mm exhaust valves give about 1,330 mm2 (22%).",
+   "values": {
+    "intake_valve_area": "2070 mm2",
+    "exhaust_valve_area": "1330 mm2",
+    "bore_area": "6082 mm2",
+    "intake_ratio": "0.340",
+    "exhaust_ratio": "0.219"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation from published inputs",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "high",
+   "notes": "Area = 2 x pi/4 x d^2. Intake 2 x 0.7854 x 36.3^2 = 2069.9; exhaust 2 x 0.7854 x 29.1^2 = 1330.2; bore pi/4 x 88^2 = 6082.1."
+  },
+  {
+   "id": "k35-031",
+   "domain": "engine_architecture",
+   "topic": "specific output",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350",
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "At the 51-54 hp that magazines measure, the 350 makes roughly 146-154 hp per litre, far above a 450's specific output, which is why it needs revs.",
+   "values": {
+    "hp_per_litre_low": "146 hp/L (51 hp)",
+    "hp_per_litre_high": "154 hp/L (54 hp)"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation from published inputs",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "medium",
+   "notes": "51 / 0.3497 = 145.8; 54 / 0.3497 = 154.4. Inputs are rear-wheel magazine dyno numbers from different dynos (see power_feel records)."
+  },
+  {
+   "id": "k35-032",
+   "domain": "power_feel",
+   "topic": "claimed peak power",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "KTM claims about 57 hp for the 350 SX-F, 10 hp more than the 250 and 6 hp less than the 450.",
+   "values": {
+    "claimed_peak": "57 hp",
+    "vs_250": "+10 hp",
+    "vs_450": "-6 hp"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2024 KTM 350 SX-F review",
+    "url": "https://www.cyclenews.com/2024/02/article/2024-ktm-350-sx-f-review/",
+    "date": "2024-02"
+   },
+   "confidence": "medium",
+   "notes": "Claim reported by Cycle News ('KTM power department') and Enduro21; crankshaft figure, not rear wheel."
+  },
+  {
+   "id": "k35-033",
+   "domain": "power_feel",
+   "topic": "dyno 2022 (previous gen)",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "On a magazine in-house dyno the 2022 350 SX-F made 50.4 hp at 12,300 rpm and 25.9 lb-ft at 8,900 rpm.",
+   "values": {
+    "peak_hp": "50.4 hp @ 12,300 rpm",
+    "peak_torque": "25.9 lb-ft @ 8,900 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider - 2022 KTM 350 SX-F dyno test",
+    "url": "https://dirtrider.com/story/tests/2022-ktm-350-sx-f-dyno-test",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "In-house dyno (later articles identify it as a Dynojet 250i rear-wheel dyno); Dunlop D404 street tire on rear; fuel and map not stated; stock."
+  },
+  {
+   "id": "k35-034",
+   "domain": "power_feel",
+   "topic": "dyno 2022 vs 250 and 450 (same dyno)",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "On the same dyno the 2022 350 made 4.4 hp and 8.7 lb-ft less than the 450 SX-F and 9.3 hp and 6.8 lb-ft more than the 250 SX-F: closer to the 450 in peak power but closer to the 250 in torque.",
+   "values": {
+    "vs_450_hp": "-4.4 hp",
+    "vs_450_torque": "-8.7 lb-ft",
+    "vs_250_hp": "+9.3 hp",
+    "vs_250_torque": "+6.8 lb-ft",
+    "implied_450": "54.8 hp / 34.6 lb-ft",
+    "implied_250": "41.1 hp / 19.1 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider - 2022 KTM 350 SX-F dyno test",
+    "url": "https://dirtrider.com/story/tests/2022-ktm-350-sx-f-dyno-test",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Implied 250/450 numbers are subtraction from the stated differences (50.4 +/- and 25.9 +/-)."
+  },
+  {
+   "id": "k35-035",
+   "domain": "power_feel",
+   "topic": "dyno 2022 MXA",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Another magazine measured the 2022 350 SX-F at 54.6 hp and 29.4 lb-ft.",
+   "values": {
+    "peak_hp": "54.6 hp",
+    "peak_torque": "29.4 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2022 KTM 350SXF race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-350sxf/",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Dyno brand, rpm, fuel and map not stated. Reads about 4 hp higher than the other magazine's dyno: do not compare across dynos."
+  },
+  {
+   "id": "k35-036",
+   "domain": "power_feel",
+   "topic": "dyno 2022 Husqvarna FC 350 by rpm band",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "The 2022 FC 350 measured 50 hp in the mid-range and 54.4 hp at peak, against 39/44.4 hp for the FC 250 and 54/58.4 hp for the FC 450.",
+   "values": {
+    "midrange_hp": "50 hp",
+    "peak_hp": "54.4 hp",
+    "FC250": "39 / 44.4 hp",
+    "FC450": "54 / 58.4 hp"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2022 Husqvarna FC350 race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-husqvarna-fc350",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Dyno brand and the rpm defining 'midrange' not stated."
+  },
+  {
+   "id": "k35-037",
+   "domain": "power_feel",
+   "topic": "dyno 2022 KTM 350 XC-F",
+   "applies_to": {
+    "models": [
+     "KTM 350 XC-F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "The 2022 350 XC-F made 50.3 hp at 12,000 rpm and 26.8 lb-ft at 8,600 rpm on a magazine in-house dyno.",
+   "values": {
+    "peak_hp": "50.3 hp @ 12,000 rpm",
+    "peak_torque": "26.8 lb-ft @ 8,600 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider - 2022 KTM 350 XC-F dyno test",
+    "url": "https://dirtrider.com/story/tests/2022-ktm-350-xc-f-dyno-test",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Same in-house dyno as the 2022 SX-F test (50.4 hp); D404 street tire; stock."
+  },
+  {
+   "id": "k35-038",
+   "domain": "power_feel",
+   "topic": "dyno 2023 Husqvarna FC 350",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "On a Dynojet 250i rear-wheel dyno the 2023 FC 350 made 51.2 hp at 11,400 rpm and 27.0 lb-ft at 8,900 rpm, 0.8 hp and 1.1 lb-ft more than the 2022 KTM 350 SX-F on the same dyno.",
+   "values": {
+    "peak_hp": "51.2 hp @ 11,400 rpm",
+    "peak_torque": "27.0 lb-ft @ 8,900 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider - 2023 Husqvarna FC 350 dyno test",
+    "url": "https://www.dirtrider.com/story/tests/husqvarna-fc-350-dyno-test-2023",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Dynojet 250i; fuel and map not stated; stock. No published 2023 KTM 350 SX-F number from this dyno was found."
+  },
+  {
+   "id": "k35-039",
+   "domain": "power_feel",
+   "topic": "dyno 2024 Husqvarna FC 350",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The 2024 FC 350 measured 51.5 hp at 12,700 rpm and 27.2 lb-ft at 8,900 rpm.",
+   "values": {
+    "peak_hp": "51.5 hp @ 12,700 rpm",
+    "peak_torque": "27.2 lb-ft @ 8,900 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider - Important things to know about the 2024 Husqvarna FC 350",
+    "url": "https://www.dirtrider.com/dirt-bikes/husqvarna-fc-350-everything-you-need-to-know",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Same magazine as the Dynojet 250i tests; dyno not named in this article; map not stated; stock. Measured wet weight 240 lb."
+  },
+  {
+   "id": "k35-040",
+   "domain": "power_feel",
+   "topic": "dyno 2023 GasGas MC 350F (old platform)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "The 2023 MC 350F, still on the previous platform, measured 54.5 hp peak.",
+   "values": {
+    "peak_hp": "54.5 hp"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2023 GasGas MC350F race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-gasgas-mc350f",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Dyno brand, rpm, torque and map not stated; stock with its only (mellow) map."
+  },
+  {
+   "id": "k35-041",
+   "domain": "power_feel",
+   "topic": "dyno 2024 three-brand comparison",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350",
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "In a three-bike 2024 comparison the KTM, Husqvarna and GasGas 350s all made about 54 hp at 13,400 rpm and nearly the same power near 11,000 rpm; the KTM felt barkier off the bottom while the Husqvarna and GasGas had muted low-end response.",
+   "values": {
+    "peak_hp": "54 hp @ 13,400 rpm (all three)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2024 350 shootout MC350F vs FC350 vs 350SXF",
+    "url": "https://motocrossactionmag.com/2024-mxa-350-shootout-gasgas-mc350f-vs-husqvarna-fc350-vs-ktm-350sxf",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Dyno brand not stated; torque not given. The peak rpm is the same as the stated rev limit, which suggests the curve is still rising at the limiter."
+  },
+  {
+   "id": "k35-042",
+   "domain": "power_feel",
+   "topic": "dyno 2024 stock vs modified",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "A stock 2024 350 SX-F measured 54 hp; a fully built engine reached 60 hp and 31 lb-ft, the same peak as a lightly modified 450 SX-F but with 6 lb-ft less torque (37 lb-ft).",
+   "values": {
+    "stock_peak": "54 hp",
+    "modified_peak": "60 hp",
+    "modified_torque": "31 lb-ft",
+    "modified_450": "60 hp / 37 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 60-horsepower KTM 350 vs 60-horsepower 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-video-we-built-a-60-horsepower-ktm-350-monster/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Dyno type and rpm not stated. Build by an engine tuner (factory-service 350 package, remapped for ETS MX-21 race fuel, Pro Circuit Ti-6 Pro exhaust per companion article). Exact internal parts not published."
+  },
+  {
+   "id": "k35-043",
+   "domain": "power_feel",
+   "topic": "dyno 2025 peak position vs 450s",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The 2025 350 SX-F makes roughly 1 to 4 hp less than most 450s at peak and needs about 1,400 to 2,400 rpm more to get there.",
+   "values": {
+    "vs_450_peak": "-1 to -4 hp",
+    "extra_rpm_to_peak": "1,400-2,400 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider - 2025 KTM 350 SX-F horsepower and torque",
+    "url": "https://www.dirtrider.com/tests/ktm-350-sx-f-dyno-test-2025/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "From the article summary; the body with exact numbers would not load (see not_found). Dyno is the magazine's Dynojet 250i."
+  },
+  {
+   "id": "k35-044",
+   "domain": "power_feel",
+   "topic": "dyno 2025 Dirt Bike",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Peak output is around 51 hp, similar to some 450s, but it peaks above 11,000 rpm where 450s peak near 9,500 rpm.",
+   "values": {
+    "peak_hp": "about 51 hp",
+    "peak_rpm": "above 11,000 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - Riding the 2025 KTM 350SX-F: the wrap",
+    "url": "https://dirtbikemagazine.com/riding-the-2025-ktm-350sx-f-the-wrap/",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": "Approximate; dyno brand not stated; testers rode a 2024 bike for the 2025 story."
+  },
+  {
+   "id": "k35-045",
+   "domain": "power_feel",
+   "topic": "dyno 2025 Husqvarna FX 350",
+   "applies_to": {
+    "models": [
+     "Husqvarna FX 350"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The 2025 FX 350 made 51.0 hp and 27.0 lb-ft on a Dynojet 250i, 2.0 hp and 5.7 lb-ft less than the FC 450 measured by the same magazine.",
+   "values": {
+    "peak_hp": "51.0 hp",
+    "peak_torque": "27.0 lb-ft",
+    "vs_FC450": "-2.0 hp / -5.7 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider - 2025 Husqvarna FX 350 dyno test",
+    "url": "https://dirtrider.com/tests/husqvarna-fx-350-dyno-test-2025",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Dynojet 250i rear-wheel dyno with 18-inch rear wheel; rpm not given; stock."
+  },
+  {
+   "id": "k35-046",
+   "domain": "power_feel",
+   "topic": "power by rpm band (current gen)",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers say the current 350 picks up quickly off the bottom, pulls harder through the mid-range than the 2019-2022 bike, and makes its best power right at the top, so it should be revved to the limiter rather than short-shifted.",
+   "values": {
+    "bottom": "quick pickup, mellower than a 450",
+    "mid": "strong, stronger than 2022",
+    "top": "peak near limiter"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2023 KTM 350SXF race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-ktm-350sxf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Consensus of 2023 and 2024 race tests, plus a 2023 press launch (Cycle News) and an owner thread."
+  },
+  {
+   "id": "k35-047",
+   "domain": "power_feel",
+   "topic": "why it needs revs",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350",
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The short 57.5 mm stroke and big 88 mm bore let it rev past 13,000 rpm, but each combustion event is small, so torque is low (about 26-29 lb-ft versus 34-37 for a 450) and the power arrives late; peak torque sits near 8,900 rpm and peak power at 11,400-13,400 rpm.",
+   "values": {
+    "peak_torque_rpm": "8,900 rpm (2023-2024 FC 350)",
+    "peak_power_rpm": "11,400-13,400 rpm"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation from published inputs",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "medium",
+   "notes": "Architecture-to-feel reasoning from bore/stroke and the measured curves (Dynojet 250i FC 350 tests; MXA 2024 shootout). Torque comparison uses the same-magazine numbers in this file."
+  },
+  {
+   "id": "k35-048",
+   "domain": "power_feel",
+   "topic": "350 versus 250 and 450: feel",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350",
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers describe the 350 as pulling like a 450 out of corners while revving like a 250F; it has more torque than a 250 off the bottom and more over-rev, but less low-end grunt than a 450 and cannot pull taller gears the way a 450 does.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2024 KTM 350 SX-F review",
+    "url": "https://www.cyclenews.com/2024/02/article/2024-ktm-350-sx-f-review/",
+    "date": "2024-02"
+   },
+   "confidence": "high",
+   "notes": "Repeated across Cycle News 2024, MXA 2023/2024, MotoOnline 2024 GasGas test (2nd gear punchy but revs out, cannot pull 3rd/4th like a 450)."
+  },
+  {
+   "id": "k35-049",
+   "domain": "power_feel",
+   "topic": "who the 350 suits",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350",
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers see the 350 as the best all-round bike for the widest range of riders, especially vets, novices and tight tracks; on fast tracks and at the top pro level the 450's torque and starts win.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Racing the AMA 450 Nationals: 350SXF vs 450SXF",
+    "url": "https://motocrossactionmag.com/racing-the-ama-450-nationals-350sxf-vs-450sxf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "A test rider raced a modified 350 at AMA 450 Nationals: faster lap pace and easier to ride, but worse starts and the 450s pulled harder out of deep ruts. Cycle News also notes some racers may be bumped to the 450/Open class."
+  },
+  {
+   "id": "k35-050",
+   "domain": "power_feel",
+   "topic": "fatigue and handling feel vs 450",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350",
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Riders report less fatigue and a lighter, more flickable feel than a 450 even though claimed weights are within about a pound; one magazine attributes this mainly to the softer power delivery and less rotating mass rather than weight.",
+   "values": {
+    "weight_gap_claimed": "about 1 lb lighter than 450 SX-F"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - Riding the 2025 KTM 350SX-F: the wrap",
+    "url": "https://dirtbikemagazine.com/riding-the-2025-ktm-350sx-f-the-wrap/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Cycle News 2024 cites less rotating mass."
+  },
+  {
+   "id": "k35-051",
+   "domain": "power_feel",
+   "topic": "starts",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350",
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "On a short start straight (under about 400 ft) a 350 can match a 450 for the holeshot; past about 500 ft the 450 pulls away.",
+   "values": {
+    "match_distance": "< ~400 ft",
+    "outpowered_after": "~500 ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - KTM 350SX-F full test (2017)",
+    "url": "https://dirtbikemagazine.com/ktm-350sx-f-full-test",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": "From a 2017 test; current testers still report weaker starts than a 450."
+  },
+  {
+   "id": "k35-052",
+   "domain": "power_feel",
+   "topic": "measured weight 2022 and 2023",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2022,
+     2023
+    ]
+   },
+   "statement": "The 2022 KTM 350 SX-F weighed 222 lb and the 2023 version 224 lb.",
+   "values": {
+    "weight_2022": "222 lb",
+    "weight_2023": "224 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2023 KTM 350SXF race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-ktm-350sxf",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Fuel state not stated; 2022 figure from the 2022 race test. Claimed is 101.9 kg (224.6 lb) without fuel."
+  },
+  {
+   "id": "k35-053",
+   "domain": "power_feel",
+   "topic": "measured weight Husqvarna FC 350",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "One magazine weighed the 2023 FC 350 at 228.7 lb without fuel (about the same as the FC 450); another measured the 2024 FC 350 at 240 lb wet.",
+   "values": {
+    "2023_no_fuel": "228.7 lb",
+    "2024_wet": "240 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - 2023 Husqvarna FC350 full test",
+    "url": "https://dirtbikemagazine.com/2023-husqvarna-fc350-full-test/",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Second figure from the 2024 Dirt Rider article."
+  },
+  {
+   "id": "k35-054",
+   "domain": "power_feel",
+   "topic": "measured weight GasGas MC 350F (old platform)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "The 2023 MC 350F on the old platform weighed 219 lb, about 5-6 lb lighter than the KTM or Husqvarna.",
+   "values": {
+    "weight": "219 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2023 GasGas MC350F race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-gasgas-mc350f",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Fuel state not stated; article inconsistent (five vs six pounds)."
+  },
+  {
+   "id": "k35-055",
+   "domain": "power_feel",
+   "topic": "claimed weight",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "KTM claims 101.9 kg (224.6 lb) without fuel for 2023-2026.",
+   "values": {
+    "weight_no_fuel": "101.9 kg / 224.6 lb"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM USA 2026 350 SX-F technical specifications",
+    "url": "https://www.ktm.com/en-us/models/motocross/4-stroke/2026-ktm-350-sx-f/technical-specifications.html",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "GasGas MC 350F 2024 listed at 102.5 kg without fuel (Australia)."
+  },
+  {
+   "id": "k35-056",
+   "domain": "ecu_electronics",
+   "topic": "map switch: map 1 vs map 2 (OEM)",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Map 1 gives a more linear power curve; map 2 gives more aggressive throttle response and stronger power.",
+   "values": {
+    "map1": "linear",
+    "map2": "aggressive"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2025 350 SX-F model page",
+    "url": "https://www.ktm.com/en-cy/models/motocross/4-stroke/2025-ktm-350-sx-f.html",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k35-057",
+   "domain": "ecu_electronics",
+   "topic": "map preference by testers",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Most testers ran map 2 for a snappier, more 450-like feel and extra pull in deep conditions; the standard map suits novices, vets and slick hard-pack.",
+   "values": {
+    "preferred": "map 2"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2023 KTM 350SXF race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-ktm-350sxf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Also Cycle News 2023 and 2024 and MXA 2022 FC350. On a slick hard-pack test of the 2024 MC 350F one tester preferred the mellow map; the aggressive map had more punch down low but less mid-range torque."
+  },
+  {
+   "id": "k35-058",
+   "domain": "ecu_electronics",
+   "topic": "map 2 character disagreement",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Testers disagree on what map 2 actually does: some describe it as harder-hitting off the bottom, others say it is smoother off the bottom with less engine braking, or that it peaks later rather than harder.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2024 KTM 350SXF race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-ktm-350sxf",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "MXA 2024 says map 2 is smoother off the bottom with less engine braking; MXA 2023 says snappier off the bottom; Dirt Bike 2023 FC350 says the green map peaks later. Listed in conflicts."
+  },
+  {
+   "id": "k35-059",
+   "domain": "ecu_electronics",
+   "topic": "traction control",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Traction control is switched on the bar and watches for runaway rpm rather than wheel speed, so it only helps in mud, rain or rock-hard slick conditions and rarely engages on loam or sand.",
+   "values": {
+    "method": "rpm rise rate (no wheel-speed sensor)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2023 KTM 350SXF race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-ktm-350sxf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Same description in Dirt Bike 2017 and MXA 2022 FC350 (retards ignition on runaway revs)."
+  },
+  {
+   "id": "k35-060",
+   "domain": "ecu_electronics",
+   "topic": "launch control",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Launch control is armed by pressing the TC and quickshifter buttons together and limits power to the rear wheel off the start.",
+   "values": {
+    "activation": "TC + QS together"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2025 350 SX-F model page",
+    "url": "https://www.ktm.com/en-cy/models/motocross/4-stroke/2025-ktm-350-sx-f.html",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "On the previous generation it stayed active until 3rd gear or throttle-off (MXA 2022 FC350), and testers called it awkward to arm."
+  },
+  {
+   "id": "k35-061",
+   "domain": "ecu_electronics",
+   "topic": "quickshifter",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The quickshifter allows clutchless upshifts from 2nd to 5th (2nd to 6th on the XC-F) using gear-position and throttle-position sensors; testers like it on long fast starts but find it causes a boggy, quirky feel at half throttle or on jump faces and often turn it off.",
+   "values": {
+    "gears": "2nd-5th (SX-F), 2nd-6th (XC-F)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2024 KTM 350SXF race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-ktm-350sxf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Sensor description from Enduro21 2023 launch. Dirt Bike 2023 FC350 testers also often turned it off."
+  },
+  {
+   "id": "k35-062",
+   "domain": "ecu_electronics",
+   "topic": "GasGas MC 350F electronics",
+   "applies_to": {
+    "models": [
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The US-market MC 350F ships with only the mellow map active; its ECU already contains the aggressive map, traction control, launch control and quickshifter, unlocked by a PowerParts map switch (about $170-180).",
+   "values": {
+    "switch_cost": "$170-180"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2025 GasGas MC350F race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-gasgas-mc350f",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "The 2021-2023 old-platform MC 350F had no QS/TC/LC or second map without the switch (MXA 2023). Australian 2024 MC 350F lists TC and launch control as standard."
+  },
+  {
+   "id": "k35-063",
+   "domain": "ecu_electronics",
+   "topic": "stock ECU locked",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The stock ECU cannot be remapped by owners from 2022 on; getting more tuning range means a reflash where available or a replacement ECU.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2022 KTM 350SXF race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-350sxf/",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "MXA 2022: ECU is locked, mapping requires a Vortex ignition. One owner reports a common reflash shop could not work on 2023+ ECUs."
+  },
+  {
+   "id": "k35-064",
+   "domain": "ecu_electronics",
+   "topic": "Connectivity Unit Offroad (CUO)",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350",
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "KTM's optional Connectivity Unit Offroad and app let riders change engine behaviour and get suggested suspension settings; testers found only engine-braking adjustment and the acceleration-rate map tool useful.",
+   "values": {
+    "cuo_price": "$249.99",
+    "litpro_subscription": "$69.99/year"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2025 GasGas MC350F race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-gasgas-mc350f",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Needs a special GPS fender per the GasGas test."
+  },
+  {
+   "id": "k35-065",
+   "domain": "ecu_electronics",
+   "topic": "aftermarket ECU: Vortex",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "A Vortex replacement ECU mapped by a tuner for the exhaust and fuel gave a tester more low-end torque feel, crisper response, stronger mid-range and more over-rev, and ran clean without popping; it costs about $1,000-1,100.",
+   "values": {
+    "cost": "about $1,000-1,100"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc Testing - Mods on personal KTM 350 SX-F",
+    "url": "https://www.keeferinctesting.com/race-test-the-mods-that-i-have-done-to-my-personal-ktm-350-sx-f-machine/",
+    "date": "2023-08"
+   },
+   "confidence": "medium",
+   "notes": "Mapped for FMF 4.1 full system and ETS MX18 fuel. No dyno numbers published."
+  },
+  {
+   "id": "k35-066",
+   "domain": "ecu_electronics",
+   "topic": "aftermarket ECU: owner reports",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Many owners on 2023+ 350s report a Vortex ECU added bottom-end snap and mid-range, removed decel popping and cut engine braking; a minority felt it was not worth the cost over a stock-ECU reflash (about $110 where available).",
+   "values": {
+    "vortex_cost": "about $1,100",
+    "reflash_cost": "about $110"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX - Vortex ECU on 23+ KTM 350SXF",
+    "url": "https://www.vitalmx.com/comment/7630131",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "About 10 of 18 posters endorse; complaint that one tuner's quickshifter calibration was too sensitive (bogs/cuts from light boot contact). Reflash cost from the companion thread."
+  },
+  {
+   "id": "k35-067",
+   "domain": "engine_mods",
+   "topic": "full titanium exhaust",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "A full titanium aftermarket exhaust (FMF 4.1) gave more mid-rpm response and mid-range pull, a slightly better top end with stock-like over-rev, and saved about 2 lb.",
+   "values": {
+    "weight_saving": "about 2 lb"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc Testing - Mods on personal KTM 350 SX-F",
+    "url": "https://www.keeferinctesting.com/race-test-the-mods-that-i-have-done-to-my-personal-ktm-350-sx-f-machine/",
+    "date": "2023-08"
+   },
+   "confidence": "medium",
+   "notes": "Repack muffler every 10-12 engine hours. With the stock ECU the same tester found the FMF muffler gave slightly less rpm response but better torque out of corners (2023 baseline article). No dyno numbers."
+  },
+  {
+   "id": "k35-068",
+   "domain": "engine_mods",
+   "topic": "race fuel with mapping",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "ETS MX18 race fuel, once mapped by an ECU tuner, gave better low-end response and mid-range than pump fuel or VP T4.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc Testing - Mods on personal KTM 350 SX-F",
+    "url": "https://www.keeferinctesting.com/race-test-the-mods-that-i-have-done-to-my-personal-ktm-350-sx-f-machine/",
+    "date": "2023-08"
+   },
+   "confidence": "low",
+   "notes": "Must be mapped; no dyno numbers."
+  },
+  {
+   "id": "k35-069",
+   "domain": "engine_mods",
+   "topic": "fuel octane",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The stock engine is set up for 91-octane pump fuel; use higher octane if the engine is modified.",
+   "values": {
+    "octane": "91 (stock)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2023 KTM 350SXF race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-ktm-350sxf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k35-070",
+   "domain": "engine_mods",
+   "topic": "vented airbox cover",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350",
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The vented airbox cover (in the KTM buy-pack) improves low-to-mid throttle response; Husqvarna side vents are molded shut and the GasGas has only a tiny vent, so testers drill or cut them or buy vented covers.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2023 KTM 350SXF race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-ktm-350sxf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "MXA 2024 shootout and 2023 GasGas test (UFO vented covers)."
+  },
+  {
+   "id": "k35-071",
+   "domain": "engine_mods",
+   "topic": "GasGas exhaust restriction",
+   "applies_to": {
+    "models": [
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "The GasGas head pipe has no resonance chamber and the muffler has a restrictor; a slip-on or a KTM stock pipe sharpens throttle response, though one magazine says peak power is not affected.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2024 350 shootout MC350F vs FC350 vs 350SXF",
+    "url": "https://motocrossactionmag.com/2024-mxa-350-shootout-gasgas-mc350f-vs-husqvarna-fc350-vs-ktm-350sxf",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "MXA 2025 GasGas test says the missing resonance chamber does not seem to affect peak power."
+  },
+  {
+   "id": "k35-072",
+   "domain": "engine_mods",
+   "topic": "gearing",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350",
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Stock gearing is 14/52 on the KTM; many testers add one tooth (some two) at the rear for more low-to-mid thrust, and a 51-tooth was suggested on the GasGas only to make second gear less abrupt.",
+   "values": {
+    "stock": "14/52",
+    "common_change": "14/53 (or 14/54)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2024 KTM 350SXF race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-ktm-350sxf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Keefer considered 14/53 to use 3rd more in corners. MotoOnline 2024 GasGas test suggests 51T. Older FC 350 came with 14/51."
+  },
+  {
+   "id": "k35-073",
+   "domain": "engine_mods",
+   "topic": "built 350 example (60 hp)",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "A tuner-built 2024 350 SX-F with a factory-service engine package, race-fuel map and titanium exhaust made 60 hp and 31 lb-ft and was raced at a pro national.",
+   "values": {
+    "peak_hp": "60 hp",
+    "torque": "31 lb-ft"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Racing the AMA 450 Nationals: 350SXF vs 450SXF",
+    "url": "https://motocrossactionmag.com/racing-the-ama-450-nationals-350sxf-vs-450sxf",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Twisted Development build; KTM Factory Service 350 package, remapped for ETS MX-21 fuel, Pro Circuit Ti-6 Pro exhaust, Psychic clutch plates, Redline 10W40. Reliability cost not published."
+  },
+  {
+   "id": "k35-074",
+   "domain": "engine_mods",
+   "topic": "throttle tube and cam",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "Swapping the stock long-throw throttle cam for the supplied quick-turn cam, or fitting a slimmer aftermarket throttle tube, sharpens throttle feel and reduces arm pump.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2022 KTM 350SXF race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-350sxf/",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Keefer uses a milled ZRT throttle tube."
+  },
+  {
+   "id": "k35-075",
+   "domain": "engine_mods",
+   "topic": "Husqvarna airbox and filter cage",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "On the 2022 FC 350 the backfire screen was too restrictive; testers cut it out or fitted a KTM 250 SX two-stroke cage.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2022 Husqvarna FC350 race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-husqvarna-fc350",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Previous generation."
+  },
+  {
+   "id": "k35-076",
+   "domain": "chassis",
+   "topic": "geometry",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Steering head angle is 26.1 degrees with 22 mm triple-clamp offset and a 1,493 mm (58.7 in) wheelbase; seat height 958 mm and ground clearance 343 mm.",
+   "values": {
+    "head_angle": "26.1 deg",
+    "offset": "22 mm",
+    "wheelbase": "1493 +/- 10 mm",
+    "seat_height": "958 mm",
+    "ground_clearance": "343 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - First look 2023 KTM 450/350/250SXF",
+    "url": "https://motocrossactionmag.com/2023-ktm-450sxf-350sxf-250sxf-motocross-models",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Values quoted from KTM spec in the first-look article."
+  },
+  {
+   "id": "k35-077",
+   "domain": "chassis",
+   "topic": "frame character 2023-2024",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "The 2023-2024 chromoly frame is stiffer and heavier than before; it feels harsh until about 10 hours of break-in and testers often soften the fork to compensate, but it is stable under braking and tracks straight.",
+   "values": {
+    "break_in": "about 10 hours"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2024 KTM 350 SX-F review",
+    "url": "https://www.cyclenews.com/2024/02/article/2024-ktm-350-sx-f-review/",
+    "date": "2024-02"
+   },
+   "confidence": "high",
+   "notes": "Also MXA 2023/2024 and Dirt Bike 2023 FC350."
+  },
+  {
+   "id": "k35-078",
+   "domain": "chassis",
+   "topic": "frame character 2025+",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2025 frame removes material around the top shock mount and steering head to reduce stiffness; testers found it more comfortable and compliant than 2024 with unchanged geometry.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - Riding the 2025 KTM 350SX-F: the wrap",
+    "url": "https://dirtbikemagazine.com/riding-the-2025-ktm-350sx-f-the-wrap/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "k35-079",
+   "domain": "chassis",
+   "topic": "triple clamp offset option",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "A tuner found 23.5 mm offset clamps calmed straight-line nervousness and improved front-end feel in ruts on the 2023 bike.",
+   "values": {
+    "offset_tested": "23.5 mm (stock 22 mm)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc Testing - 2023 KTM 350 SX-F baseline settings/tips/tricks",
+    "url": "https://www.keeferinctesting.com/2023-ktm-350-sx-f-baseline-settings-tips-tricks/",
+    "date": "2022-08"
+   },
+   "confidence": "medium",
+   "notes": "Not required; Ride Engineering split clamps or similar."
+  },
+  {
+   "id": "k35-080",
+   "domain": "chassis",
+   "topic": "swingarm pivot torque",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350",
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Lowering swingarm pivot bolt torque to 95 Nm settles the rear and keeps the bike straighter off throttle over acceleration bumps.",
+   "values": {
+    "pivot_torque": "95 Nm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc Testing - 2024 KTM 350 SX-F baseline suspension settings",
+    "url": "https://www.keeferinctesting.com/2024-ktm-350-sx-f-baseline-suspension-settings/",
+    "date": "2023-08"
+   },
+   "confidence": "medium",
+   "notes": "Tuner practice, below factory spec; also check the pivot nut, which can back out."
+  },
+  {
+   "id": "k35-081",
+   "domain": "chassis",
+   "topic": "Husqvarna FC 350 differences",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The FC 350 shares the engine, frame and most chassis parts but sits lower: forks 10 mm shorter set higher in the clamps, a different bell crank and longer pull rods drop the rear almost an inch, with its own bodywork, polyamide/aluminium subframe-airbox, ProTaper bar and DID DirtStar rims.",
+   "values": {
+    "seat_lower_by": "about 1 in (19 mm per another test)",
+    "fork_shorter": "10 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2024 350 shootout MC350F vs FC350 vs 350SXF",
+    "url": "https://motocrossactionmag.com/2024-mxa-350-shootout-gasgas-mc350f-vs-husqvarna-fc350-vs-ktm-350sxf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Dirt Bike 2023 FC350 gives seat 19 mm lower. Testers rate it best for handling, comfort and touching the ground on the line."
+  },
+  {
+   "id": "k35-082",
+   "domain": "chassis",
+   "topic": "GasGas MC 350F differences",
+   "applies_to": {
+    "models": [
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The MC 350F uses the same KTM frame, engine, wheels and transmission but has softer fork and shock damping with a 42 N/mm shock spring, forged (not billet) clamps, red bodywork, bars 12 mm taller than KTM's and BrakTec brakes.",
+   "values": {
+    "shock_spring": "42 N/mm",
+    "bar_height": "+12 mm vs KTM"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2025 GasGas MC350F race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-gasgas-mc350f",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "MXA 2025: fork damping stiffer than 2021-2024 but slightly softer than the KTM; brakes lack modulation and have had recalls."
+  },
+  {
+   "id": "k35-083",
+   "domain": "setups",
+   "topic": "magazine setup 2023",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Race setup: fork 155 psi (pro) / 150 (intermediate) / 145 (fast novice) / 140 (vet), compression and rebound 15 clicks out, forks at third line; shock 45 N/mm spring, 105 mm race sag, HSC 1-1/4 turns out, LSC 15 out, rebound 10 out.",
+   "values": {
+    "fork_air": "140-155 psi",
+    "fork_c": "15 out (stock 12)",
+    "fork_r": "15 out (stock 12)",
+    "sag": "105 mm",
+    "shock_hsc": "1-1/4 turns out",
+    "shock_lsc": "15 out",
+    "shock_r": "10 out (stock 15)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2023 KTM 350SXF race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-ktm-350sxf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Set air with a zip-tie so the fork stops about 1-1/2 in from bottoming; tune spring with air, not clickers."
+  },
+  {
+   "id": "k35-084",
+   "domain": "setups",
+   "topic": "magazine setup 2024",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Race setup: fork 158 psi expert / 152 intermediate / 145 vet / 138 novice, compression 14 out, rebound 15 out, third line; shock 45 N/mm for riders 175 lb and up or 42 N/mm below, 105 mm sag, HSC 1-1/2 turns out, LSC 15 out, rebound 15 out.",
+   "values": {
+    "fork_air": "138-158 psi",
+    "spring_175lb_plus": "45 N/mm",
+    "spring_under_175lb": "42 N/mm",
+    "sag": "105 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2024 KTM 350SXF race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-ktm-350sxf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "A Pro Circuit linkage with a 5.0 N/mm shock spring is suggested for end-stroke support."
+  },
+  {
+   "id": "k35-085",
+   "domain": "setups",
+   "topic": "tuner baseline 2023",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "For 175-200 lb riders after 8 hours of break-in: fork 5 mm height, 10.8 bar, C 14 out, R 16 out; shock 106 mm sag, LSC 12 out, HSC 1.5 out, R 16 out.",
+   "values": {
+    "fork_air": "10.8 bar",
+    "sag": "106 mm",
+    "rider_weight": "175-200 lb"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc Testing - 2023 KTM 350 SX-F baseline settings/tips/tricks",
+    "url": "https://www.keeferinctesting.com/2023-ktm-350-sx-f-baseline-settings-tips-tricks/",
+    "date": "2022-08"
+   },
+   "confidence": "high",
+   "notes": "Runs 14/52 gearing and 68-70 mm chain slack."
+  },
+  {
+   "id": "k35-086",
+   "domain": "setups",
+   "topic": "tuner baseline 2024",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "For 175-200 lb riders: fork 5 mm height, 10.8 bar, C 14 out, R 16 out; shock 103 mm sag, LSC 12 out, HSC 1.5 out, R 16 out; suspension needs 7-9 hours to break in.",
+   "values": {
+    "fork_air": "10.8 bar",
+    "sag": "103 mm",
+    "break_in": "7-9 h"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc Testing - 2024 KTM 350 SX-F baseline suspension settings",
+    "url": "https://www.keeferinctesting.com/2024-ktm-350-sx-f-baseline-suspension-settings/",
+    "date": "2023-08"
+   },
+   "confidence": "high",
+   "notes": "The FC 350 has different valving, so these do not transfer to the Husqvarna."
+  },
+  {
+   "id": "k35-087",
+   "domain": "setups",
+   "topic": "Husqvarna FC 350 hard-pack setup",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "On hard-pack testers ran 105 mm sag, shock LSC 18 clicks (from a 15 baseline), HSC 1.5 turns out, and the stock 10.6 bar fork air, tuning mainly with clickers.",
+   "values": {
+    "fork_air": "10.6 bar",
+    "sag": "105 mm",
+    "lsc": "18"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - 2023 Husqvarna FC350 full test",
+    "url": "https://dirtbikemagazine.com/2023-husqvarna-fc350-full-test/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "k35-088",
+   "domain": "setups",
+   "topic": "GasGas MC 350F setup (old platform)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Race setup for the 2023 MC 350F: fork 151 psi intermediate / 145 fast novice / 140 vet-novice, C and R 12 out, second line; shock 42 N/mm (45 for heavy/fast riders), 105 mm sag, HSC 1-1/4 out, LSC 15 out, rebound 12 out.",
+   "values": {
+    "fork_air": "140-151 psi",
+    "shock_spring": "42 N/mm",
+    "sag": "105 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2023 GasGas MC350F race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-gasgas-mc350f",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k35-089",
+   "domain": "setups",
+   "topic": "pro-national setup",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "A pro-national 350 ran WP Cone Valve spring forks and a 350-specific Trax shock, Luxon clamps at 22 mm offset, Maxxis MX-SI tires at 14 psi front and 13 psi rear, and a holeshot device.",
+   "values": {
+    "clamp_offset": "22 mm",
+    "tire_pressure": "14 front / 13 rear psi"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Racing the AMA 450 Nationals: 350SXF vs 450SXF",
+    "url": "https://motocrossactionmag.com/racing-the-ama-450-nationals-350sxf-vs-450sxf",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Heavily modified bike; reference only."
+  },
+  {
+   "id": "k35-090",
+   "domain": "suspension",
+   "topic": "stock suspension hardware",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Front is a 48 mm WP XACT AER air fork with 310 mm travel and hydrostop bottoming cones; rear is a WP XACT shock on a linkage with 300 mm travel and tool-free high/low-speed compression.",
+   "values": {
+    "fork": "WP XACT AER 48 mm",
+    "travel_front": "310 mm",
+    "travel_rear": "300 mm",
+    "shock_spring": "45 N/mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM USA 2026 350 SX-F technical specifications",
+    "url": "https://www.ktm.com/en-us/models/motocross/4-stroke/2026-ktm-350-sx-f/technical-specifications.html",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k35-091",
+   "domain": "known_issues",
+   "topic": "shock bottoming / end-stroke support",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Fast riders find the shock lacks end-stroke support and bottoms harshly; fixes are an aftermarket linkage, stiffer bumpers, more low-speed compression or a revalve focused on the last 25% of travel.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2024 KTM 350SXF race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-ktm-350sxf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Also flagged in 2023 test. Linkages named: Pro Circuit, AEO/REP, Luxon MX."
+  },
+  {
+   "id": "k35-092",
+   "domain": "known_issues",
+   "topic": "shock linkage needle bearings",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Linkage needle bearings can walk out of the bell crank and make the rear feel dead; one fix is KTM caged bearing 58033097000.",
+   "values": {
+    "part_number": "58033097000"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2023 KTM 350SXF race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-ktm-350sxf",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "One owner found no problem after inspection; check for binding and correct chain slack first."
+  },
+  {
+   "id": "k35-093",
+   "domain": "known_issues",
+   "topic": "chain slack and swingarm buffer",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The current bikes need about 70 mm of chain slack (four fingers); too little chews the swingarm buffer pad and can load the suspension.",
+   "values": {
+    "chain_slack": "about 70 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2024 KTM 350SXF race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-ktm-350sxf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Keefer runs 68-70 mm (KTM spec). The 2022 bike was measured differently (55 mm from back of chain slider)."
+  },
+  {
+   "id": "k35-094",
+   "domain": "known_issues",
+   "topic": "decel popping",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350",
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Many owners report backfire popping on closed throttle; reported fixes are raising TPS voltage slightly (e.g. 0.52 to 0.56 V), checking header seals, an exhaust/airbox change or a remap/Vortex ECU.",
+   "values": {
+    "tps_example": "0.52 -> 0.56 V"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX - 2023 KTM 350sx-f decel pop",
+    "url": "https://www.vitalmx.com/comment/6213546",
+    "date": "2023-2024"
+   },
+   "confidence": "medium",
+   "notes": "About 7-9 owners report it; no confirmed root cause."
+  },
+  {
+   "id": "k35-095",
+   "domain": "known_issues",
+   "topic": "low-rpm stalling and flame-outs",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "Owners report stalling in slow sections or out of corners; common fixes are the in-tank fuel filter or pump assembly, raising idle to about 1,800-2,200 rpm, setting the TPS, and in some cases a Vortex ECU.",
+   "values": {
+    "idle_suggested": "1,800-2,200 rpm"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX - KTM 350 stalling",
+    "url": "https://www.vitalmx.com/comment/5240291",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "A 2023 FC 350 owner reported rich blubbering at 1/4 throttle and 30+ stalls in a two-hour harescramble (vit_fcmap); not universal."
+  },
+  {
+   "id": "k35-096",
+   "domain": "known_issues",
+   "topic": "spokes",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350",
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Spokes loosen, starting with those near the rear rim lock; check and tighten regularly.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2024 KTM 350SXF race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-ktm-350sxf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Reported on KTM, Husqvarna and GasGas tests across years."
+  },
+  {
+   "id": "k35-097",
+   "domain": "known_issues",
+   "topic": "radiator cap",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "The small plastic radiator cap can come loose after long motos or be hard to open; KTM fitted a threaded cap for 2026.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2023 KTM 350SXF race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-ktm-350sxf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k35-098",
+   "domain": "known_issues",
+   "topic": "neutral and kill switch",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350",
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Neutral is hard to find on the start line (rev with the clutch in, then select neutral as revs drop), and the kill button sits on the right.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2024 KTM 350SXF race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-ktm-350sxf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k35-099",
+   "domain": "known_issues",
+   "topic": "other wear items",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Other wear items include the chain buffer (Slide-N-Guide), fork orange O-rings falling down the legs, brake-pedal tips bending, a sticking gas cap, and fork guards contacting the front fender at full travel.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2023 KTM 350SXF race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-ktm-350sxf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k35-100",
+   "domain": "known_issues",
+   "topic": "swingarm pivot nut",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350",
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "The swingarm pivot nut can back out from vibration, hidden by the frame guards; use blue thread locker or check it to avoid bearing damage.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc Testing - 2024 KTM 350 SX-F baseline suspension settings",
+    "url": "https://www.keeferinctesting.com/2024-ktm-350-sx-f-baseline-suspension-settings/",
+    "date": "2023-08"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "k35-101",
+   "domain": "known_issues",
+   "topic": "GasGas brakes",
+   "applies_to": {
+    "models": [
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "The BrakTec brakes on the GasGas give strong stopping but less modulation than Brembo and have been subject to recalls.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2025 GasGas MC350F race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-gasgas-mc350f",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "An Australian tester found them as good as Brembo; recall details not retrieved."
+  },
+  {
+   "id": "k35-102",
+   "domain": "known_issues",
+   "topic": "previous-generation issues (2022)",
+   "applies_to": {
+    "models": [
+     "KTM 350 SX-F",
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "On 2019-2022 bikes: starter wire pulling out of its junction box, FI light falling out, preload ring chipping, bar mounts twisting, rear brake pedal springs breaking, and Husqvarna subframes cracking at the lower right bolt hole.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2022 KTM 350SXF race test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-350sxf/",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Subframe crack from MXA 2022 FC350 test."
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "peak horsepower (stock, current generation)",
+   "values": {
+    "Dirt Rider Dynojet 250i 2023 FC 350": "51.2 hp @ 11,400 rpm",
+    "Dirt Rider 2024 FC 350": "51.5 hp @ 12,700 rpm",
+    "Dirt Rider Dynojet 250i 2025 FX 350": "51.0 hp",
+    "Dirt Bike 2025 KTM": "about 51 hp",
+    "MXA 2024 three-brand shootout": "54 hp @ 13,400 rpm",
+    "MXA 2024 stock KTM (60-hp build story)": "54 hp",
+    "MXA 2023 GasGas (old platform)": "54.5 hp",
+    "KTM claim": "57 hp"
+   },
+   "spread": "51.0-54.5 hp measured; 57 hp claimed",
+   "note": "Different dynos; MXA consistently reads about 3 hp higher than Dirt Rider's Dynojet. Do not average."
+  },
+  {
+   "topic": "rev limit",
+   "values": {
+    "MXA 2023 KTM test / 2019 KTM claim / MXA 2024 shootout": "13,400 rpm",
+    "MXA 2024 KTM test": "13,000 rpm",
+    "Dirt Bike 2016-2017 tests (previous gen)": "about 14,000 rpm redline"
+   },
+   "spread": "13,000-14,000 rpm",
+   "note": "No published 2023+ limiter from KTM found."
+  },
+  {
+   "topic": "compression ratio",
+   "values": {
+    "2019-2022 (MXA 2019 first look)": "14.0:1",
+    "2023+ (KTM via MXA first look, Dirt Rider)": "14.6:1"
+   },
+   "spread": "14.0-14.6:1",
+   "note": "Not a disagreement for the same year; the 2023 engine raised compression. Listed so the two numbers are not mixed."
+  },
+  {
+   "topic": "map 2 character",
+   "values": {
+    "KTM OEM": "aggressive throttle response, explosive power",
+    "MXA 2023": "snappier off the bottom",
+    "MXA 2024": "smoother off the bottom, less engine braking, linear mid",
+    "Dirt Bike 2017 / 2023 FC350": "peaks later rather than harder",
+    "MotoOnline 2024 GasGas": "more punch low, less mid torque"
+   },
+   "spread": "qualitative",
+   "note": "Testers on different tracks report different effects."
+  },
+  {
+   "topic": "Husqvarna FC 350 seat height vs KTM",
+   "values": {
+    "MXA": "about 1 in lower at the rear of the seat",
+    "Dirt Bike 2023": "19 mm lower"
+   },
+   "spread": "19-25 mm"
+  },
+  {
+   "topic": "KTM 350 XC-F gearbox vs SX-F",
+   "values": {
+    "KTM OEM and Dirt Rider": "XC-F 6-speed, SX-F 5-speed",
+    "one Vital MX owner": "transmission gears identical"
+   },
+   "spread": "-",
+   "note": "OEM source preferred; forum claim is single and unverified."
+  },
+  {
+   "topic": "torque (stock)",
+   "values": {
+    "Dirt Rider 2022 KTM (in-house)": "25.9 lb-ft @ 8,900",
+    "Dirt Rider Dynojet 2023 FC 350": "27.0 lb-ft @ 8,900",
+    "Dirt Rider 2024 FC 350": "27.2 lb-ft @ 8,900",
+    "MXA 2022 KTM": "29.4 lb-ft"
+   },
+   "spread": "25.9-29.4 lb-ft",
+   "note": "Different dynos."
+  }
+ ],
+ "not_found": [
+  {
+   "item": "Dyno numbers (peak hp/torque with rpm) for the 2023, 2024 and 2026 KTM 350 SX-F specifically",
+   "searched": "MXA 2023/2024 race tests (qualitative only), Dirt Rider dyno test URLs, Dirt Bike, Cycle News, ADB, MotoOnline, extended web search",
+   "note": "Only Husqvarna FC 350 numbers for 2023-2024 and an approximate 2025 figure were found; same engine."
+  },
+  {
+   "item": "Full body of the 2025 KTM 350 SX-F Dirt Rider dyno test",
+   "searched": "https://www.dirtrider.com/tests/ktm-350-sx-f-dyno-test-2025/ (page body did not render; only meta summary)",
+   "note": "Likely has exact Dynojet 250i peak and rpm."
+  },
+  {
+   "item": "MXA 2025 Husqvarna FC350 Heritage race test",
+   "searched": "https://motocrossactionmag.com/mxa-race-test-2025-husqvarna-fc350-heritage/",
+   "note": "Fetch blocked by permission timeout; not retried."
+  },
+  {
+   "item": "MXA race tests for 2025 and 2026 KTM 350SXF",
+   "searched": "web search 'MXA race test 2025/2026 KTM 350SXF' returned only KTM pages"
+  },
+  {
+   "item": "Cam lift/duration, valve timing, port dimensions, rod length, injector specs",
+   "searched": "KTM spec pages, MXA/Enduro21/Cycle News 2023 launch coverage, Husqvarna media information search",
+   "note": "2023 head described as new porting, valve timing and cams with no numbers."
+  },
+  {
+   "item": "Current-generation valve material (titanium confirmed only for 2019-2022)",
+   "searched": "KTM 2025 XC-F page, 2023 first-look articles"
+  },
+  {
+   "item": "Measured dyno before/after for single bolt-ons (exhaust, Vortex ECU) on 2023+ 350",
+   "searched": "Keefer mods article, Vital MX ECU threads",
+   "note": "Only seat-of-pants descriptions."
+  },
+  {
+   "item": "GasGas EX 350F and Husqvarna FX 350 specific parts differences (airbox, exhaust, maps) vs KTM 350 XC-F",
+   "searched": "Dirt Rider FX 350 dyno test (no detail); no GasGas EX 350F test searched due to budget"
+  },
+  {
+   "item": "Recall/service bulletin numbers for GasGas BrakTec brakes and 350 platform",
+   "searched": "general known-issues search; not pursued further"
+  },
+  {
+   "item": "Husqvarna media information PDF for FC 350 (press kit with engine details)",
+   "searched": "'FC 350 Husqvarna media information pdf' searches returned dealer listings only"
+  }
+ ],
+ "sources": [
+  {
+   "type": "magazine",
+   "name": "Motocross Action - 2023 KTM 350SXF race test",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-ktm-350sxf",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21 - Tested: 2023 KTM SX-F range",
+   "url": "https://enduro21.com/en/news/tested-2023-ktm-sx-f-range-riding-impressions-and-clues-to-the-24-enduro-range",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - First look 2023 KTM 450/350/250SXF",
+   "url": "https://motocrossactionmag.com/2023-ktm-450sxf-350sxf-250sxf-motocross-models",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - 2024 KTM 350SXF race test",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2024-ktm-350sxf",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "RideApart - 2024 KTM SX-F Factory Editions",
+   "url": "https://www.rideapart.com/news/701587/2024-ktm-sx-factory-launch-announcement/",
+   "date": "2024"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM 2025 350 SX-F model page",
+   "url": "https://www.ktm.com/en-cy/models/motocross/4-stroke/2025-ktm-350-sx-f.html",
+   "date": "2024"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM USA 2026 350 SX-F model page",
+   "url": "https://www.ktm.com/en-us/models/motocross/4-stroke/2026-ktm-350-sx-f.html",
+   "date": "2025"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM 2027 350 SX-F technical specifications",
+   "url": "https://www.ktm.com/en-nl/models/motocross/4-stroke/2027-ktm-350-sx-f/technical-specifications.html",
+   "date": "2026"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Husqvarna tests category (2026 FC models missing in USA)",
+   "url": "https://motocrossactionmag.com/category/bike-tests/husqvarna-tests",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "MotoOnline - Detailed: 2025 Husqvarna FC and TC range",
+   "url": "https://www.motoonline.com/au/detailed-2025-husqvarna-fc-and-tc-range/",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - 2023 GasGas MC350F race test",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-gasgas-mc350f",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - First look 2019 KTM 250/350/450SXF",
+   "url": "https://motocrossactionmag.com/first-look-2019-ktm-250sxf-350sxf-450sxf-four-strokes",
+   "date": "2018"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM Canada 2025 350 XC-F model page",
+   "url": "https://ktm.com/en-ca/models/cross-country/4-stroke/2025-ktm-350-xc-f.html",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider - Important things to know about the 2024 Husqvarna FC 350",
+   "url": "https://www.dirtrider.com/dirt-bikes/husqvarna-fc-350-everything-you-need-to-know",
+   "date": "2024"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM USA 2026 350 SX-F technical specifications",
+   "url": "https://www.ktm.com/en-us/models/motocross/4-stroke/2026-ktm-350-sx-f/technical-specifications.html",
+   "date": "2025"
+  },
+  {
+   "type": "calculation",
+   "name": "BAK MX calculation from published inputs",
+   "url": "",
+   "date": "2026-10"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News - 2024 KTM 350 SX-F review",
+   "url": "https://www.cyclenews.com/2024/02/article/2024-ktm-350-sx-f-review/",
+   "date": "2024-02"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider - 2022 KTM 350 SX-F dyno test",
+   "url": "https://dirtrider.com/story/tests/2022-ktm-350-sx-f-dyno-test",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - 2022 KTM 350SXF race test",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-350sxf/",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - 2022 Husqvarna FC350 race test",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2022-husqvarna-fc350",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider - 2022 KTM 350 XC-F dyno test",
+   "url": "https://dirtrider.com/story/tests/2022-ktm-350-xc-f-dyno-test",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider - 2023 Husqvarna FC 350 dyno test",
+   "url": "https://www.dirtrider.com/story/tests/husqvarna-fc-350-dyno-test-2023",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - 2024 350 shootout MC350F vs FC350 vs 350SXF",
+   "url": "https://motocrossactionmag.com/2024-mxa-350-shootout-gasgas-mc350f-vs-husqvarna-fc350-vs-ktm-350sxf",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - 60-horsepower KTM 350 vs 60-horsepower 450SXF",
+   "url": "https://motocrossactionmag.com/mxa-video-we-built-a-60-horsepower-ktm-350-monster/",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider - 2025 KTM 350 SX-F horsepower and torque",
+   "url": "https://www.dirtrider.com/tests/ktm-350-sx-f-dyno-test-2025/",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike - Riding the 2025 KTM 350SX-F: the wrap",
+   "url": "https://dirtbikemagazine.com/riding-the-2025-ktm-350sx-f-the-wrap/",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider - 2025 Husqvarna FX 350 dyno test",
+   "url": "https://dirtrider.com/tests/husqvarna-fx-350-dyno-test-2025",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Racing the AMA 450 Nationals: 350SXF vs 450SXF",
+   "url": "https://motocrossactionmag.com/racing-the-ama-450-nationals-350sxf-vs-450sxf",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike - KTM 350SX-F full test (2017)",
+   "url": "https://dirtbikemagazine.com/ktm-350sx-f-full-test",
+   "date": "2016"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike - 2023 Husqvarna FC350 full test",
+   "url": "https://dirtbikemagazine.com/2023-husqvarna-fc350-full-test/",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - 2025 GasGas MC350F race test",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-gasgas-mc350f",
+   "date": "2025"
+  },
+  {
+   "type": "tuner",
+   "name": "Keefer Inc Testing - Mods on personal KTM 350 SX-F",
+   "url": "https://www.keeferinctesting.com/race-test-the-mods-that-i-have-done-to-my-personal-ktm-350-sx-f-machine/",
+   "date": "2023-08"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX - Vortex ECU on 23+ KTM 350SXF",
+   "url": "https://www.vitalmx.com/comment/7630131",
+   "date": "2024"
+  },
+  {
+   "type": "tuner",
+   "name": "Keefer Inc Testing - 2023 KTM 350 SX-F baseline settings/tips/tricks",
+   "url": "https://www.keeferinctesting.com/2023-ktm-350-sx-f-baseline-settings-tips-tricks/",
+   "date": "2022-08"
+  },
+  {
+   "type": "tuner",
+   "name": "Keefer Inc Testing - 2024 KTM 350 SX-F baseline suspension settings",
+   "url": "https://www.keeferinctesting.com/2024-ktm-350-sx-f-baseline-suspension-settings/",
+   "date": "2023-08"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX - 2023 KTM 350sx-f decel pop",
+   "url": "https://www.vitalmx.com/comment/6213546",
+   "date": "2023-2024"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX - KTM 350 stalling",
+   "url": "https://www.vitalmx.com/comment/5240291",
+   "date": "2023"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX - 23 Husqvarna FC350 stock mapping",
+   "url": "https://www.vitalmx.com/comment/5505866",
+   "date": "2023"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX - 2023 KTM 350 SX-F owners thread (page 14)",
+   "url": "https://www.vitalmx.com/forums/Moto-Related,20/2023-KTM-350-SX-F,1403858?page=14",
+   "date": "2023"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX - 2024 KTM 350 SXF stock remap vs Vortex ECU",
+   "url": "https://www.vitalmx.com/comment/8464266",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike - Full test Husqvarna FC350 (2016)",
+   "url": "https://dirtbikemagazine.com/full-test-husqvarna-fc350",
+   "date": "2016"
+  },
+  {
+   "type": "magazine",
+   "name": "MotoOnline - Tested: 2024 GasGas MC 350F",
+   "url": "https://www.motoonline.com/au/tested-2024-gasgas-mc-350f/",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News - 2024 KTM 350 XC-F Factory Edition specs",
+   "url": "https://www.cyclenews.com/2023/10/article/new-2024-ktm-350-xc-f-factory-edition-specs/",
+   "date": "2023-10"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider - 2025 KTM 350 XC-F / Factory Edition",
+   "url": "https://www.dirtrider.com/ktm/350-xc-f-factory-edition",
+   "date": "2025"
+  }
+ ]
+}

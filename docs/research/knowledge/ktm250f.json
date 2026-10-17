@@ -1,0 +1,3326 @@
+{
+ "slice": "KTM 250 SX-F, Husqvarna FC 250, GasGas MC 250F 2023-2026 (current generation) with 2020-2022 summary; notes for KTM 250 XC-F and GasGas EX 250F (no Husqvarna FX 250 in the US)",
+ "platform": {
+  "make": "KTM",
+  "models": [
+   "KTM 250 SX-F",
+   "KTM 250 SX-F Factory Edition",
+   "Husqvarna FC 250",
+   "Husqvarna FC 250 Rockstar Edition",
+   "Husqvarna FC 250 Factory Edition",
+   "GasGas MC 250F",
+   "GasGas MC 250F Factory Edition",
+   "KTM 250 XC-F",
+   "GasGas EX 250F"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ]
+ },
+ "records": [
+  {
+   "id": "k25-001",
+   "domain": "identity",
+   "topic": "platform generation",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250",
+     "KTM 250 SX-F Factory Edition"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2023 KTM 250 SX-F and Husqvarna FC 250 started the current generation: a new short-stroke engine (81 x 48.5 mm instead of 78 x 52.3 mm), the new hydroformed chromoly frame shared with the 450, a new die-cast swingarm, a new WP shock and standard quickshifter. 2024-2026 are evolutions of that bike.",
+   "values": {
+    "generation_start": "MY2023",
+    "previewed_by": "2022-1/2 KTM 250 SX-F Factory Edition",
+    "bore_x_stroke_new": "81 x 48.5 mm",
+    "bore_x_stroke_old": "78.0 x 52.3 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 KTM 250SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-ktm-250sxf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Bore/stroke and frame details are KTM data repeated by the magazine; tier MEASURED used because the generation summary combines tester findings. Generation shared with Husqvarna FC 250 from 2023 and GasGas MC 250F from 2024."
+  },
+  {
+   "id": "k25-002",
+   "domain": "identity",
+   "topic": "2022-1/2 Factory Edition previewed the 2023 bike",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F Factory Edition"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "The mid-2022 KTM 250 SX-F Factory Edition was the first bike with the new engine and frame: 81 x 48.5 mm, compression up from 14.4 to 14.5:1, exhaust valves up from 26.5 to 27.5 mm, a lighter head, engine tilted 2 degrees back, 8 mm shorter engine, 3 mm lower countershaft sprocket, 22 mm rear axle (was 25 mm), new WP shock and quickshift.",
+   "values": {
+    "compression_old_new": "14.4:1 -> 14.5:1",
+    "exhaust_valve_old_new": "26.5 -> 27.5 mm",
+    "rear_axle_old_new": "25 -> 22 mm",
+    "engine_height_change": "-8 mm",
+    "countershaft_drop": "3 mm",
+    "engine_tilt": "2 deg rearward"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022-1/2 KTM 250SXF Factory Edition",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-1-2-ktm-250sxf-factory-edition",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Magazine repeats KTM data. The article calls the old engine the '2013 engine'; the 78 x 52.3 mm engine actually ran 2016-2022 (MXA 2022 race test says the engine premiered in 2016)."
+  },
+  {
+   "id": "k25-003",
+   "domain": "identity",
+   "topic": "2023 model year changes",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "For 2023 nearly every engine part changed: bigger bore and shorter stroke allowing bigger ports, a lighter head, DOHC with DLC-coated finger followers, titanium valves (32.5 mm intake, 27.5 mm exhaust), a new 44 mm throttle body, an engine 8 mm shorter and tilted 2 degrees back, and new frame, swingarm, subframe, shock and bodywork shared with the 450.",
+   "values": {
+    "intake_valves": "2 x 32.5 mm titanium",
+    "exhaust_valves": "2 x 27.5 mm titanium",
+    "throttle_body": "44 mm",
+    "engine_height": "-8 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike: 2023 KTM 250SX-F Full Test",
+    "url": "https://dirtbikemagazine.com/2023-ktm-250sx-f-full-test/",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Valve sizes also in KTM 250 XC-F press text. Weight rose from 218 lb (2022) to 224-226 lb depending on scale."
+  },
+  {
+   "id": "k25-004",
+   "domain": "identity",
+   "topic": "2023 GasGas MC 250F stayed on old platform",
+   "applies_to": {
+    "models": [
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "The 2023 GasGas MC 250F kept the 2022 frame, subframe and 78 x 52.3 mm engine; it moved to the new-generation engine and chassis for 2024. That made the 2023 GasGas the lightest bike in the class at 217 lb.",
+   "values": {
+    "engine_2023": "78.0 x 52.3 mm (previous generation)",
+    "new_gen_from": "MY2024",
+    "weight_2023": "217 lb (empty tank)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: 2023 250 Four-Stroke Shootout",
+    "url": "https://motocrossactionmag.com/mxas-2023-250-four-stroke-shootout-the-final-word-on-the-2023-crop",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Weight on calibrated beam scale, empty fuel tank, all other fluids."
+  },
+  {
+   "id": "k25-005",
+   "domain": "identity",
+   "topic": "2024 model year changes",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "2024 was a carry-over year: new graphics, slightly smoother fork mid-valve compression, and the shock's high-speed compression shim stack grew from 15 to 23 shims, roughly halving the damping change per click. Husqvarna also got a redesigned shock preload collar and the KTM subframe design.",
+   "values": {
+    "shock_hsc_shims": "15 -> 23",
+    "fork_change": "mid-valve compression shims revised"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 KTM 250SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-ktm-250sxf",
+    "date": "2023-11"
+   },
+   "confidence": "high",
+   "notes": "Same changes listed for Husqvarna in the 2024 FC250 race test. KTM also lists a simplified map/TC switch and flatter seat."
+  },
+  {
+   "id": "k25-006",
+   "domain": "identity",
+   "topic": "2024-1/2 Factory and Rockstar Editions",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F Factory Edition",
+     "Husqvarna FC 250 Rockstar Edition",
+     "GasGas MC 250F Factory Edition"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The mid-2024 Factory/Rockstar Editions previewed the 2025 frame (relief holes in the forged shock tower, hollowed head stays). The FC 250 Rockstar Edition had an FMF Factory 4.1 RCT titanium slip-on and the MC 250F Factory Edition an Akrapovic titanium slip-on, both with a one-piece intake sleeve and snorkel.",
+   "values": {
+    "FC250_Rockstar_muffler": "FMF Factory 4.1 RCT titanium",
+    "MC250F_FE_muffler": "Akrapovic Slip-On Line titanium"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 KTM 250SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test2025-ktm-250sxf",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Frame preview from the 2025 KTM race test; muffler details from Dirt Rider Rockstar and MC 250F FE dyno tests."
+  },
+  {
+   "id": "k25-007",
+   "domain": "identity",
+   "topic": "2025 model year changes",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "For 2025 the frame kept its geometry but lost material for more flex: relief holes in the forged shock tower, hollowed head stays, thinner backbone plates and thinner-wall long tubes. The linkage arms got shorter and thinner with smaller bolts (17 to 15 mm and 17 to 14 mm), shock valving got slightly stiffer with low-stiction seals, the swingarm top was lowered with a raised buffer pad, traction control was improved and the rear brake pedal tip was strengthened.",
+   "values": {
+    "linkage_bolts": "17->15 mm (bell crank), 17->14 mm (other end)",
+    "frame": "same geometry, thinner walls/cut-outs",
+    "tires": "Dunlop Geomax MX34"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 KTM 250SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test2025-ktm-250sxf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "2023-2024 aftermarket linkages do not fit 2025. 2024 radiator graphics do not fit 2025 shrouds. Testers felt the softer frame most in acceleration chop. MXA says KTM did not announce any mapping changes."
+  },
+  {
+   "id": "k25-008",
+   "domain": "identity",
+   "topic": "2026 model year changes",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "2026 changes to the standard 250 SX-F are minor: new in-mould graphics with a black powder-coated frame and black seat, an easier-to-open radiator cap, and a protector cap on the fuel-line quick connector. No engine, mapping or suspension changes were announced for the 250 SX-F.",
+   "values": {
+    "MSRP_US": "$10,699",
+    "UK_price": "GBP 9,599"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21: First Look 2026 KTM SX and SX-F",
+    "url": "https://enduro21.com/en/bikes/latest/first-look-2026-ktm-sx-and-sx-f-motocross-models",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Price from Dirt Rider 2026 technical overview. KTM's 2026 Factory Edition page lists more (frame backbone change, linkage geometry, footpegs, chain guide) but those are described on the Factory Edition page only."
+  },
+  {
+   "id": "k25-009",
+   "domain": "identity",
+   "topic": "2026 Factory Edition",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F Factory Edition"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The 2026 KTM 250 SX-F Factory Edition comes with WP XACT PRO 7548 closed-cartridge coil-spring forks and an XACT PRO 8950 shock, an updated Akrapovic titanium muffler with revised intake and mapping, a standard CUO connectivity unit, WP start device, factory triple clamps and wheels. KTM lists 105 kg without fuel and $12,599.",
+   "values": {
+    "fork": "WP XACT PRO 7548 48 mm closed cartridge",
+    "shock": "WP XACT PRO 8950, 50 mm piston",
+    "weight_no_fuel": "105 kg",
+    "MSRP_US": "$12,599 + $690 freight"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM USA 2026 250 SX-F Factory Edition page",
+    "url": "https://www.ktm.com/en-us/models/motocross/4-stroke/2026-ktm-250-sx-ffactoryedition.html",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Standard 2026 250 SX-F keeps the WP XACT air fork (AER)."
+  },
+  {
+   "id": "k25-010",
+   "domain": "identity",
+   "topic": "prices by year",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "US list prices: KTM 250 SX-F about $9,999-10,000 (2023), $10,199 (2024), $10,399 (2025), $10,699 (2026); Husqvarna FC 250 $10,099 (2023), $10,299 (2024), $10,499 (2025); GasGas MC 250F $9,599 (2025).",
+   "values": {
+    "KTM_2023": "$9,999",
+    "KTM_2024": "$10,199",
+    "KTM_2025": "$10,399",
+    "KTM_2026": "$10,699",
+    "FC_2023": "$10,099",
+    "FC_2024": "$10,299",
+    "FC_2025": "$10,499",
+    "MC_2025": "$9,599"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: 2025 250 Shootout",
+    "url": "https://motocrossactionmag.com/2025-motocross-action-250-shootout-suzuki-triumph-kawasaki-honda-yamaha-gasgas-husqvarna-ktm",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Collected from MXA race tests/shootouts and Dirt Rider 2026 overview. Prices are MSRP without freight."
+  },
+  {
+   "id": "k25-011",
+   "domain": "identity",
+   "topic": "2020-2022 generation summary",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "The previous engine (78 x 52.3 mm, 14.4:1) ran from 2016 to 2022 and revved to about 14,000 rpm; stock gearing was 14/51 from 2017. 2020 brought WP XACT air forks and an optional vented airbox cover; 2022 swapped the counterbalancer needle bearing for a plain bushing and was otherwise a carry-over. It weighed 218 lb, among the lightest 250Fs.",
+   "values": {
+    "bore_x_stroke": "78.0 x 52.3 mm",
+    "compression": "14.4:1",
+    "rev_ceiling": "about 14,000 rpm",
+    "stock_gearing": "14/51",
+    "weight": "218 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 KTM 250SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-250sxf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Combined from MXA 2020 and 2022 race tests. The engine won MXA's 250 shootout five times in six years (the 2021 loss was to the Husqvarna FC 250 with the same engine)."
+  },
+  {
+   "id": "k25-012",
+   "domain": "engine_architecture",
+   "topic": "bore, stroke, displacement, compression",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F",
+     "KTM 250 XC-F",
+     "GasGas EX 250F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The engine is 81.0 x 48.5 mm for 249.9 cc with 14.5:1 compression, a DOHC four-valve head, Keihin EFI with a 44 mm throttle body, a 5-speed gearbox (6-speed on XC-F/EX 250F) and an electric starter.",
+   "values": {
+    "bore": "81.0 mm",
+    "stroke": "48.5 mm",
+    "displacement": "249.9 cc",
+    "compression": "14.5:1",
+    "throttle_body": "44 mm Keihin",
+    "valvetrain": "DOHC, 4 titanium valves, finger followers"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2024 250 SX-F model page",
+    "url": "https://ktm.com/models/motocross/4-stroke/2024-ktm-250-sx-f",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Same on Husqvarna FC 250 (Motorcycle.com/Dirt Rider) and GasGas MC/EX 250F (Dirt Rider). KTM page claims 'over 47 hp' (crank figure, not wheel)."
+  },
+  {
+   "id": "k25-013",
+   "domain": "engine_architecture",
+   "topic": "rev limit",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250",
+     "KTM 250 XC-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "KTM gives the maximum engine speed as 14,000 rpm. Testers say the engine revs to about 14,000 rpm and that the limiter is less abrupt than on the old engine.",
+   "values": {
+    "rev_limit": "14,000 rpm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2023 250 XC-F press text (reprinted by Total Motorcycle)",
+    "url": "https://www.totalmotorcycle.com/motorcycles/2023/2023-ktm-250-xcf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider 2024 tech info also states 'up to 14,000 rpm'; Dirt Bike 2023 says it revs 'well over 13,000' with a softer limiter."
+  },
+  {
+   "id": "k25-014",
+   "domain": "engine_architecture",
+   "topic": "valves and cam followers",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F",
+     "KTM 250 XC-F",
+     "GasGas EX 250F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The head uses DLC-coated finger followers and titanium valves: 32.5 mm intake and 27.5 mm exhaust. Finger followers are light, which lets the engine use aggressive cam profiles and rev high without the valves floating.",
+   "values": {
+    "intake_valve": "32.5 mm titanium",
+    "exhaust_valve": "27.5 mm titanium (new for 2023, was 26.5 mm)",
+    "followers": "DLC-coated finger followers"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2023 250 XC-F press text (reprinted by Total Motorcycle)",
+    "url": "https://www.totalmotorcycle.com/motorcycles/2023/2023-ktm-250-xcf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Valve sizes confirmed by Dirt Bike 2023 test and Dirt Rider 2024 tech info. Exhaust valve growth from MXA 2022.5 FE test."
+  },
+  {
+   "id": "k25-015",
+   "domain": "engine_architecture",
+   "topic": "piston, crank, counterbalancer, clutch",
+   "applies_to": {
+    "models": [
+     "KTM 250 XC-F",
+     "KTM 250 SX-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "KTM lists a forged bridged-box piston by CP, a lightened crankshaft with a counterbalancer shaft, and a DS (diaphragm-steel) clutch with a one-piece steel basket and Brembo hydraulics.",
+   "values": {
+    "piston": "CP forged bridged-box",
+    "crank": "lightened, with balancer shaft",
+    "clutch": "DS diaphragm spring, Brembo hydraulic"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2023 250 XC-F press text (reprinted by Total Motorcycle)",
+    "url": "https://www.totalmotorcycle.com/motorcycles/2023/2023-ktm-250-xcf",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Source is the 250 XC-F press text; the SX-F shares the engine. GasGas uses a Braktec hydraulic clutch actuation with the same internals."
+  },
+  {
+   "id": "k25-016",
+   "domain": "engine_architecture",
+   "topic": "throttle body and injection",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F",
+     "KTM 250 XC-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "From 2023 the 44 mm throttle body has a double-injector layout and the throttle cable connects directly, without a throttle linkage.",
+   "values": {
+    "throttle_body": "44 mm",
+    "injectors": "2 (dual-injector layout)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2023 250 XC-F press text (reprinted by Total Motorcycle)",
+    "url": "https://www.totalmotorcycle.com/motorcycles/2023/2023-ktm-250-xcf",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Vortex ECU listing also mentions dual injector driver support for 2023+ 250s."
+  },
+  {
+   "id": "k25-017",
+   "domain": "engine_architecture",
+   "topic": "engine packaging",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The engine is tilted 2 degrees backward, is 8 mm shorter, and the countershaft sprocket sits 3 mm lower than before, which KTM says reduces squat under acceleration.",
+   "values": {
+    "tilt": "2 deg rearward",
+    "height_change": "-8 mm",
+    "countershaft_drop": "3 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2024 250 SX-F model page",
+    "url": "https://ktm.com/models/motocross/4-stroke/2024-ktm-250-sx-f",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k25-018",
+   "domain": "engine_architecture",
+   "topic": "airbox differences between brands",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "All three use the same engine and ECU but breathe differently: the KTM has open vents in the subframe under the seat and an optional vented airbox cover, the Husqvarna has the vents moulded shut, and the GasGas has the most closed-off airbox cover. GasGas also has an extra baffle/restrictor in the muffler.",
+   "values": {
+    "KTM": "open subframe vents, optional vented cover",
+    "Husqvarna": "vents moulded shut, optional vented cover",
+    "GasGas": "most closed airbox, muffler restrictor"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: 2025 250 Shootout",
+    "url": "https://motocrossactionmag.com/2025-motocross-action-250-shootout-suzuki-triumph-kawasaki-honda-yamaha-gasgas-husqvarna-ktm",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "MXA says KTM deliberately limits the Husqvarna's breathing to keep the brands distinct. The closed airboxes cost throttle response more than dyno peak numbers."
+  },
+  {
+   "id": "k25-019",
+   "domain": "engine_architecture",
+   "topic": "bore/stroke ratio (DERIVED)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Worked out from KTM's bore and stroke, the engine is strongly oversquare at 1.67:1, up from 1.49:1 on the 2016-2022 engine. A shorter stroke lets the engine spin faster for the same piston speed.",
+   "values": {
+    "ratio_2023_on": "1.67:1",
+    "ratio_2016_2022": "1.49:1"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation from published bore, stroke, rpm and dyno figures",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "high",
+   "notes": "81.0 / 48.5 = 1.670; 78.0 / 52.3 = 1.491."
+  },
+  {
+   "id": "k25-020",
+   "domain": "engine_architecture",
+   "topic": "mean piston speed (DERIVED)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Worked out from the 48.5 mm stroke, mean piston speed is about 22.6 m/s at the 14,000 rpm limit and about 22.1 m/s at a 13,700 rpm power peak. The old 52.3 mm stroke engine reached about 24.4 m/s at the same 14,000 rpm, so the new engine is under less stress at the same revs.",
+   "values": {
+    "at_14000rpm": "22.6 m/s",
+    "at_13700rpm": "22.1 m/s",
+    "at_13000rpm": "21.0 m/s",
+    "old_engine_at_14000rpm": "24.4 m/s"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation from published bore, stroke, rpm and dyno figures",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "high",
+   "notes": "Mean piston speed = 2 x stroke(mm) x rpm / 60000. 2 x 48.5 x 14000 / 60000 = 22.63; 2 x 48.5 x 13700 / 60000 = 22.15; 2 x 48.5 x 13000 / 60000 = 21.02; 2 x 52.3 x 14000 / 60000 = 24.41."
+  },
+  {
+   "id": "k25-021",
+   "domain": "engine_architecture",
+   "topic": "valve area vs bore area (DERIVED)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Worked out from the published valve sizes, the two intake valve heads cover about 32% of the bore area and the two exhaust valves about 23%, which is the kind of large valve area that supports high-rpm breathing.",
+   "values": {
+    "intake_valve_area": "1,659 mm2 (2 x 32.5 mm)",
+    "exhaust_valve_area": "1,188 mm2 (2 x 27.5 mm)",
+    "bore_area": "5,153 mm2",
+    "intake_pct_of_bore": "32.2%",
+    "exhaust_pct_of_bore": "23.1%"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation from published bore, stroke, rpm and dyno figures",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "medium",
+   "notes": "Area = pi/4 x d^2. Uses valve head diameter, not throat or curtain area, so it is only a rough breathing indicator."
+  },
+  {
+   "id": "k25-022",
+   "domain": "engine_architecture",
+   "topic": "specific output (DERIVED)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Worked out from the highest rear-wheel figure recorded (45.2 hp), the engine makes about 181 hp per litre at the wheel.",
+   "values": {
+    "specific_output": "about 181 hp/litre (rear wheel)"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation from published bore, stroke, rpm and dyno figures",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "medium",
+   "notes": "45.20 hp / 0.2499 L = 180.9 hp/L. Based on the MXA 2023-2024 dyno (Pro Circuit dyno for shootouts); other dynos read lower."
+  },
+  {
+   "id": "k25-023",
+   "domain": "power_feel",
+   "topic": "dyno 2023 KTM vs 2022 (race test)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F"
+    ],
+    "years": [
+     2022,
+     2023
+    ]
+   },
+   "statement": "On a magazine dyno the 2023 KTM 250 SX-F made 44.4 hp at 13,700 rpm versus 44.2 hp for the 2022, both peaking at 13,700 rpm. Up to 9,500 rpm they were within 0.3-0.5 hp; above 9,500 rpm the 2023 was about 1 hp stronger to the limiter.",
+   "values": {
+    "peak_hp_2023": "44.4 hp @ 13,700 rpm",
+    "peak_hp_2022": "44.2 hp @ 13,700 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 KTM 250SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-ktm-250sxf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Dyno not named in the race test (MXA's shootouts use Pro Circuit's dyno). Stock bikes; map not stated."
+  },
+  {
+   "id": "k25-024",
+   "domain": "power_feel",
+   "topic": "dyno 2022-1/2 Factory Edition",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F Factory Edition",
+     "KTM 250 SX-F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "On a magazine dyno the 2022-1/2 Factory Edition (new engine) made 44.36 hp at 13,700 rpm and the standard 2022 made 44.24 hp; both made 20.9 lb-ft of torque.",
+   "values": {
+    "FE_peak_hp": "44.36 hp @ 13,700 rpm",
+    "std_2022_peak_hp": "44.24 hp",
+    "peak_torque_both": "20.9 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022-1/2 KTM 250SXF Factory Edition",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-1-2-ktm-250sxf-factory-edition",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Dyno not named. The same article also quotes 43.8 hp for the 2022 in an earlier comparison."
+  },
+  {
+   "id": "k25-025",
+   "domain": "power_feel",
+   "topic": "dyno 2023 shootout (Pro Circuit dyno)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "In a 2023 seven-bike shootout on one dyno, the KTM 250 SX-F made 45.20 hp, the Husqvarna FC 250 44.76 hp and the old-engine GasGas MC 250F 43.45 hp with the most torque (21.26 lb-ft). The Kawasaki KX250 made 44.66 hp, Yamaha YZ250F 42.11 hp @ 12,500, Honda CRF250R about 41.7 hp @ 12,000 and Suzuki RM-Z250 about 39.3 hp.",
+   "values": {
+    "KTM_250SXF": "45.20 hp",
+    "FC250": "44.76 hp",
+    "MC250F_2023_old_engine": "43.45 hp / 21.26 lb-ft",
+    "KX250": "44.66 hp",
+    "YZ250F": "42.11 hp @ 12,500",
+    "CRF250R": "41.71-41.72 hp @ 12,000",
+    "RMZ250": "39.22-39.33 hp / 18.86 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: 2023 250 Four-Stroke Shootout",
+    "url": "https://motocrossactionmag.com/mxas-2023-250-four-stroke-shootout-the-final-word-on-the-2023-crop",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Pro Circuit dyno, same day and operator. KTM/FC rpm not given in text (chart is an image)."
+  },
+  {
+   "id": "k25-026",
+   "domain": "power_feel",
+   "topic": "dyno 2023 Husqvarna FC 250 vs 2022",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2022,
+     2023
+    ]
+   },
+   "statement": "On a magazine dyno the 2023 Husqvarna FC 250 made 44.6 hp versus 44.3 hp for the 2022, and both made 21.0 lb-ft. It was slightly stronger up to 9,500 rpm and about 1 hp stronger from 9,500 to 13,800 rpm.",
+   "values": {
+    "peak_hp_2023": "44.6 hp",
+    "peak_hp_2022": "44.3 hp",
+    "peak_torque": "21.0 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 Husqvarna FC250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-husqvarna-fc250",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Dyno not named; stock."
+  },
+  {
+   "id": "k25-027",
+   "domain": "power_feel",
+   "topic": "dyno 2024 KTM (race test/shootout)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "On a magazine dyno the 2024 KTM 250 SX-F made 45.20 hp at 13,100 rpm and 21.17 lb-ft at 9,600 rpm, about 2-3 hp ahead of the Yamaha YZ250F across the curve. It led Honda, Kawasaki, Suzuki and Yamaha at 7,000-9,000 and 12,000-13,000 rpm; only the Kawasaki beat it at 10,000-11,000 rpm.",
+   "values": {
+    "peak_hp": "45.20 hp @ 13,100 rpm",
+    "peak_torque": "21.17 lb-ft @ 9,600 rpm",
+    "gap_to_YZ250F": "about 2-3 hp across the curve"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 KTM 250SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-ktm-250sxf",
+    "date": "2023-11"
+   },
+   "confidence": "high",
+   "notes": "Dyno not named in the race test; MXA's 2024 shootout used Pro Circuit's dyno and found the KX250 about 45 hp, top of class. KTM/FC were run with vented airbox covers in map 2."
+  },
+  {
+   "id": "k25-028",
+   "domain": "power_feel",
+   "topic": "dyno 2024 Husqvarna FC 250",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "On a magazine dyno the 2024 Husqvarna FC 250 made 44.78 hp at 13,280 rpm and about 21.03 lb-ft, third in peak power behind the Kawasaki and KTM but strongest in class at 7,000 and 8,000 rpm.",
+   "values": {
+    "peak_hp": "44.78 hp @ 13,280 rpm",
+    "peak_torque": "21.03 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 Husqvarna FC250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-husqvarna-fc250",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Dyno not named; vented airbox cover and map 2 per the GasGas test notes."
+  },
+  {
+   "id": "k25-029",
+   "domain": "power_feel",
+   "topic": "dyno 2024 GasGas MC 250F",
+   "applies_to": {
+    "models": [
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "On a magazine dyno the 2024 GasGas MC 250F matched the KTM and Husqvarna to about 8,000 rpm, then ran 1-2 hp behind, peaking at 43.25 hp at 13,800 rpm.",
+   "values": {
+    "peak_hp": "43.25 hp @ 13,800 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 GasGas MC250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-gasgas-mc250f",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "GasGas tested in map 1 with its stock closed airbox; KTM and Husqvarna tested with vented covers in map 2, so the comparison is not like-for-like."
+  },
+  {
+   "id": "k25-030",
+   "domain": "power_feel",
+   "topic": "dyno 2025 KTM vs YZ250F",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On a magazine dyno the 2025 KTM 250 SX-F made 45 hp at 13,000 rpm and 20.8 lb-ft at 9,400 rpm, against 42.6 hp at 12,700 rpm and 19.6 lb-ft at 10,500 rpm for the 2025 Yamaha YZ250F.",
+   "values": {
+    "KTM_peak_hp": "45 hp @ 13,000 rpm",
+    "KTM_peak_torque": "20.8 lb-ft @ 9,400 rpm",
+    "YZ250F_peak_hp": "42.6 hp @ 12,700 rpm",
+    "YZ250F_peak_torque": "19.6 lb-ft @ 10,500 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 KTM 250SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test2025-ktm-250sxf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Dyno not named; MXA's 2025 shootout used Pro Circuit's dyno."
+  },
+  {
+   "id": "k25-031",
+   "domain": "power_feel",
+   "topic": "dyno 2025 three Austrian bikes (magazine)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On one magazine dyno in 2025 the GasGas MC 250F made 45.47 hp, the KTM 45.24 hp and the Husqvarna 45.13 hp; the GasGas led the KTM by 0.23 hp and 0.21 lb-ft, which the testers called negligible.",
+   "values": {
+    "MC250F": "45.47 hp",
+    "KTM_250SXF": "45.24 hp",
+    "FC250": "45.13 hp"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 GasGas MC250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-gasgas-mc250f",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "No rpm or absolute torque given. The closed GasGas airbox barely shows on the dyno but blunts response on track."
+  },
+  {
+   "id": "k25-032",
+   "domain": "power_feel",
+   "topic": "dyno 2025 eight-bike shootout (Pro Circuit dyno)",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 250",
+     "KTM 250 SX-F",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On one dyno in 2025: Husqvarna FC 250 45.21 hp @ 13,330 / 21.03 lb-ft @ 9,230; KTM 250 SX-F 45.06 hp @ 13,470 / 21.05 lb-ft @ 9,210; GasGas MC 250F 44.81 hp @ 13,160 / 21.45 lb-ft @ 9,280. Rivals: KX250 43.49 @ 12,470; Triumph TF 250-X 42.94 @ 13,340; YZ250F 41.62 @ 12,880; CRF250R 41.51 @ 12,010; RM-Z250 40.04 @ 11,830.",
+   "values": {
+    "FC250": "45.21 hp @ 13,330 / 21.03 lb-ft @ 9,230",
+    "KTM_250SXF": "45.06 hp @ 13,470 / 21.05 lb-ft @ 9,210",
+    "MC250F": "44.81 hp @ 13,160 / 21.45 lb-ft @ 9,280",
+    "KX250": "43.49 hp @ 12,470 / 20.72 @ 9,240",
+    "TF250X": "42.94 hp @ 13,340 / 20.36 @ 9,160",
+    "YZ250F": "41.62 hp @ 12,880 / 19.49 @ 10,100",
+    "CRF250R": "41.51 hp @ 12,010 / 19.92 @ 9,530",
+    "RMZ250": "40.04 hp @ 11,830 / 20.05 @ 9,190"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike: 250 Motocross Bikes on the Dyno - The Wrap (2025)",
+    "url": "https://dirtbikemagazine.com/250-motocross-bikes-on-the-dyno-the-wrap/",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Pro Circuit dyno, full-throttle runs, best run per bike. Units assumed hp and lb-ft. Map 1 vs map 2 made no difference to peak numbers on the KTM-engined bikes."
+  },
+  {
+   "id": "k25-033",
+   "domain": "power_feel",
+   "topic": "dyno (Dynojet 250i rear-wheel): 2020 KTM",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "On a Dynojet 250i rear-wheel dyno the 2020 KTM 250 SX-F made 40.8 hp at 13,400 rpm and 19.3 lb-ft at 9,200 rpm.",
+   "values": {
+    "peak_hp": "40.8 hp @ 13,400 rpm",
+    "peak_torque": "19.3 lb-ft @ 9,200 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2020 KTM 250 SX-F Dyno Test",
+    "url": "https://dirtrider.com/story/tests/2020-ktm-250-sx-f-dyno-test",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "In-house Dynojet; this dyno reads several hp lower than the Pro Circuit dyno, so do not compare across sources."
+  },
+  {
+   "id": "k25-034",
+   "domain": "power_feel",
+   "topic": "dyno (Dynojet 250i rear-wheel): 2022 KTM",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "On a Dynojet 250i rear-wheel dyno the 2022 KTM 250 SX-F made 39.8 hp at 13,400 rpm and 19.1 lb-ft at 8,700 rpm, the most of the standard 2022 250Fs.",
+   "values": {
+    "peak_hp": "39.8 hp @ 13,400 rpm",
+    "peak_torque": "19.1 lb-ft @ 8,700 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2022 KTM 250 SX-F Dyno Test",
+    "url": "https://dirtrider.com/story/tests/ktm-250-sx-f-dyno-test-2022",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Dyno brand not stated on this page but Dirt Rider's in-house dyno is a Dynojet 250i; stock assumed."
+  },
+  {
+   "id": "k25-035",
+   "domain": "power_feel",
+   "topic": "dyno (Dynojet 250i rear-wheel): 2024 KTM",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "On a Dynojet 250i rear-wheel dyno the 2024 KTM 250 SX-F made 42.8 hp at 12,800 rpm and 19.8 lb-ft at 9,300 rpm, second in peak power among 2024 250Fs on that dyno.",
+   "values": {
+    "peak_hp": "42.8 hp @ 12,800 rpm",
+    "peak_torque": "19.8 lb-ft @ 9,300 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: How Much Power Does the 2024 KTM 250 SX-F Make?",
+    "url": "https://dirtrider.com/tests/ktm-250-sx-f-dyno-test-2024",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "RPM from Dirt Rider 2024 tech-info page. Fuel/map not stated."
+  },
+  {
+   "id": "k25-036",
+   "domain": "power_feel",
+   "topic": "dyno (Dynojet 250i rear-wheel): 2025 KTM",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On a Dynojet 250i rear-wheel dyno the 2025 KTM 250 SX-F made 40.2 hp and 18.6 lb-ft, with a linear curve.",
+   "values": {
+    "peak_hp": "40.2 hp",
+    "peak_torque": "18.6 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: How Much Power Does the 2025 KTM 250 SX-F Make?",
+    "url": "https://dirtrider.com/tests/ktm-250-sx-f-dyno-test-2025",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "RPM not stated. 2.6 hp lower than the same magazine's 2024 test with no announced engine change, so run-to-run/day-to-day variation is large."
+  },
+  {
+   "id": "k25-037",
+   "domain": "power_feel",
+   "topic": "dyno (Dynojet 250i rear-wheel): Husqvarna FC 250",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 250",
+     "Husqvarna FC 250 Rockstar Edition",
+     "Husqvarna FC 250 Factory Edition"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "On a Dynojet 250i rear-wheel dyno: 2024 FC 250 42.9 hp (about 13,000 rpm) and 20.2 lb-ft, best in class from 7,000-7,750 and 8,500-11,500 rpm; 2024 FC 250 Rockstar Edition 40.6 hp / 19.5 lb-ft; 2025 FC 250 40.4 hp @ 12,700 / 18.9 lb-ft @ 9,200; 2025 FC 250 Factory Edition 40.7 hp / 19.4 lb-ft.",
+   "values": {
+    "FC250_2024": "42.9 hp / 20.2 lb-ft",
+    "FC250_Rockstar_2024": "40.6 hp / 19.5 lb-ft",
+    "FC250_2025": "40.4 hp @ 12,700 / 18.9 lb-ft @ 9,200",
+    "FC250_FE_2025": "40.7 hp / 19.4 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: How Much Power Does the 2024 Husqvarna FC 250 Make?",
+    "url": "https://dirtrider.com/tests/husqvarna-fc-250-dyno-test-2024",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Sources: DRFC24, DRFCR24, DRFC25, DRFCFE25. The Rockstar Edition's FMF titanium slip-on did not show a gain over the standard bike on this dyno (tested on different days)."
+  },
+  {
+   "id": "k25-038",
+   "domain": "power_feel",
+   "topic": "dyno (Dynojet 250i rear-wheel): GasGas MC 250F",
+   "applies_to": {
+    "models": [
+     "GasGas MC 250F",
+     "GasGas MC 250F Factory Edition"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "On a Dynojet 250i rear-wheel dyno: 2023 MC 250F (old engine) 40.3 hp @ 13,600 / 19.2 lb-ft @ 9,000 with a dip between about 3,400 and 5,800 rpm; 2024 MC 250F 41.9 hp / 19.8 lb-ft with no low-rpm dip; 2024 Factory Edition 40.2 hp / 19.5 lb-ft; 2025 MC 250F 39.5 hp / 18.8 lb-ft.",
+   "values": {
+    "MC250F_2023": "40.3 hp @ 13,600 / 19.2 lb-ft @ 9,000",
+    "MC250F_2024": "41.9 hp / 19.8 lb-ft",
+    "MC250F_FE_2024": "40.2 hp / 19.5 lb-ft",
+    "MC250F_2025": "39.5 hp / 18.8 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: How Much Power Does the 2024 GasGas MC 250F Make?",
+    "url": "https://dirtrider.com/tests/gasgas-mc-250f-dyno-test-2024",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Sources: DRMC23, DRMC24, DRMCFE24, DRMC25. Dunlop D404 street tyre on rear roller. 2024 was +1.6 hp / +0.6 lb-ft over 2021-2023 bikes."
+  },
+  {
+   "id": "k25-039",
+   "domain": "power_feel",
+   "topic": "dyno (Dynojet 250i rear-wheel): KTM 250 XC-F and GasGas EX 250F",
+   "applies_to": {
+    "models": [
+     "KTM 250 XC-F",
+     "GasGas EX 250F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "On a Dynojet 250i rear-wheel dyno the 2023 KTM 250 XC-F made 40.5 hp at 13,000 rpm and 19.0 lb-ft at 9,800 rpm, and the 2024 GasGas EX 250F made 41.9 hp and 20.0 lb-ft, with long linear power and no hard hit.",
+   "values": {
+    "XCF_2023": "40.5 hp @ 13,000 / 19.0 lb-ft @ 9,800",
+    "EX250F_2024": "41.9 hp / 20.0 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2023 KTM 250 XC-F Dyno Test",
+    "url": "https://dirtrider.com/story/tests/ktm-250-xc-f-dyno-test-2023",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "EX 250F figures from DREX24. Same engine as the SX-F; cross-country models have a 6-speed box."
+  },
+  {
+   "id": "k25-040",
+   "domain": "power_feel",
+   "topic": "dyno spread across sources",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Rear-wheel peak figures for the same KTM 250 SX-F range from about 40 hp on one in-house Dynojet to about 45 hp on a race-shop dyno. Compare bikes only within one source and one test day.",
+   "values": {
+    "range_peak_hp": "39.8-45.24 hp (2022-2025, all sources)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike: 250 Motocross Bikes on the Dyno - The Wrap (2025)",
+    "url": "https://dirtbikemagazine.com/250-motocross-bikes-on-the-dyno-the-wrap/",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "See conflicts. Differences come from dyno type, correction, tyre, temperature and fuel load."
+  },
+  {
+   "id": "k25-041",
+   "domain": "power_feel",
+   "topic": "feel by rpm band (current engine)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers describe a quiet, very linear engine: the bottom end feels less exciting than a Yamaha or Honda, it builds through a strong midrange, does its best work above about 11,000 rpm and keeps pulling to about 14,000 rpm where rivals have signed off. Because it is smooth and quiet it feels slower than the dyno shows.",
+   "values": {
+    "best_zone": "above about 11,000 rpm",
+    "rev_ceiling": "about 14,000 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 KTM 250SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test2025-ktm-250sxf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Same picture in MXA 2023/2024 race tests and 2023-2025 shootouts, Dirt Rider 2024-2025 ('shines at high rpm'), Dirt Bike 2023 ('very linear', 'rev it out')."
+  },
+  {
+   "id": "k25-042",
+   "domain": "power_feel",
+   "topic": "why it feels the way it does",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The short 48.5 mm stroke, light finger-follower valvetrain and big titanium valves let the engine breathe and rev to 14,000 rpm. Peak torque arrives around 9,200-9,600 rpm but peak power not until about 13,000-13,500 rpm, so power keeps rising for over 4,000 rpm after the torque peak. On the YZ250F that gap is under 2,800 rpm, which is why the Yamaha feels punchy and then signs off while the KTM feels flat but keeps pulling.",
+   "values": {
+    "KTM_torque_to_power_peak_gap": "4,260 rpm (9,210 -> 13,470)",
+    "YZ250F_gap": "2,780 rpm (10,100 -> 12,880)"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation from published bore, stroke, rpm and dyno figures",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "medium",
+   "notes": "Gap computed from the 2025 Pro Circuit dyno figures (Dirt Bike): KTM 13,470 - 9,210 = 4,260 rpm; YZ250F 12,880 - 10,100 = 2,780 rpm. Architecture explanation combines KTM data (finger followers, valve sizes, 14,000 rpm) with testers' descriptions; the link between them is BAK's engineering reading."
+  },
+  {
+   "id": "k25-043",
+   "domain": "power_feel",
+   "topic": "2023 engine vs 2022 feel",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Most testers found the 2023 engine slightly less snappy off the bottom than the 2022 but stronger through the midrange and on top; one review instead found it noticeably punchier off the bottom in map 2. It still needs revs.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 KTM 250SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-ktm-250sxf",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Cycle News 2023 first ride called it punchier with a 'Japanese hit'; MXA and Dirt Bike called it similar or less snappy down low. Kept as a disagreement."
+  },
+  {
+   "id": "k25-044",
+   "domain": "power_feel",
+   "topic": "throttle size needed",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "One tester found the engine needs a big throttle opening: it out-ran the 2022 YZ250F at wide-open throttle but not at quarter or half throttle.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike: 2023 KTM 250SX-F Full Test",
+    "url": "https://dirtbikemagazine.com/2023-ktm-250sx-f-full-test/",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "k25-045",
+   "domain": "power_feel",
+   "topic": "versus rivals on track",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "Back-to-back, the Yamaha YZ250F feels stronger off the bottom because it is louder and pulls harder low down, the Honda CRF250R is livelier low but fades, the Kawasaki KX250 has a narrower window, and the Triumph TF 250-X has a low-midrange lull and a bog on a fast throttle opening. The Austrian 250s have the widest usable power window and pull away at the top of straights.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: 2025 250 Shootout",
+    "url": "https://motocrossactionmag.com/2025-motocross-action-250-shootout-suzuki-triumph-kawasaki-honda-yamaha-gasgas-husqvarna-ktm",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Combined from MXA 2024 and 2025 shootouts and Cycle News 2025 shootout."
+  },
+  {
+   "id": "k25-046",
+   "domain": "power_feel",
+   "topic": "Husqvarna FC 250 feel",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The Husqvarna has the same engine but its closed airbox makes it slightly softer and smoother off the bottom; the KTM feels snappier on track. Once on the pipe it pulls hard from midrange and wants to be revved very high.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 Husqvarna FC250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-husqvarna-fc250",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "MXA 2023 found the Husky better than the KTM in some low-mid situations; Cycle News 2025 called its roll-on more manageable."
+  },
+  {
+   "id": "k25-047",
+   "domain": "power_feel",
+   "topic": "GasGas MC 250F feel",
+   "applies_to": {
+    "models": [
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "The GasGas has a mellower bottom end and less excitement on top in stock form because of its closed airbox, muffler restrictor and single map. Some testers still found it the most fun of the three, coming alive quickly off the bottom with a connected midrange.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 GasGas MC250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-gasgas-mc250f",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Cycle News 2025 shootout voted it the most fun Austrian engine; MXA calls it 'sabotaged' by intake and exhaust restrictions. Kept as differing opinions."
+  },
+  {
+   "id": "k25-048",
+   "domain": "power_feel",
+   "topic": "measured weight",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "On a beam scale with an empty tank the KTM 250 SX-F weighed 218 lb in 2022 and 224 lb in 2023-2024 (about 1 lb less in 2025). The Husqvarna weighed 224 lb (2023-2024). The GasGas weighed 217 lb on the old platform (2023) and 225 lb from 2024.",
+   "values": {
+    "KTM_2022": "218 lb",
+    "KTM_2023_2024": "224 lb",
+    "KTM_2025": "about 223 lb",
+    "FC250_2023_2024": "224 lb",
+    "MC250F_2023": "217 lb",
+    "MC250F_2024_2025": "225 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: 2025 250 Shootout",
+    "url": "https://motocrossactionmag.com/2025-motocross-action-250-shootout-suzuki-triumph-kawasaki-honda-yamaha-gasgas-husqvarna-ktm",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Empty fuel tank, all other fluids. Other scales: Dirt Bike 226 lb without fuel (2023); Dirt Rider 237 lb full tank (2024); Cycle News 2025 wet: KTM 236, FC 235, MC 238 lb."
+  },
+  {
+   "id": "k25-049",
+   "domain": "power_feel",
+   "topic": "engine braking and over-rev on cross-country models",
+   "applies_to": {
+    "models": [
+     "GasGas EX 250F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The GasGas EX 250F's wide-ratio 6-speed makes the gaps between gears less noticeable; the power is described as long and linear with no hard hit, and slightly smoother than the MC 250F.",
+   "values": {
+    "gearbox": "wide-ratio 6-speed"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2024 GasGas EX 250F Dyno Test",
+    "url": "https://www.dirtrider.com/tests/gasgas-ex-250f-dyno-test-2024",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Engine braking behaviour not described by any source found."
+  },
+  {
+   "id": "k25-050",
+   "domain": "ecu_electronics",
+   "topic": "map switch: map 1 vs map 2 (OEM)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250",
+     "KTM 250 XC-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "A left-bar switch selects two maps: map 1 has a more linear power curve and map 2 is more aggressive. The same switch turns traction control and the quickshifter on and off, and both buttons together arm launch control.",
+   "values": {
+    "map_1": "linear",
+    "map_2": "aggressive"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2024 250 SX-F model page",
+    "url": "https://ktm.com/models/motocross/4-stroke/2024-ktm-250-sx-f",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "A gear-position sensor lets the ECU run gear-specific maps (KTM 250 XC-F press text)."
+  },
+  {
+   "id": "k25-051",
+   "domain": "ecu_electronics",
+   "topic": "map preference by testers",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Most testers race in the aggressive map (map 2, shown with a green light) because a 250 should not be detuned; the mellow map suits very light riders, novices or slick tracks. In 2023 the two maps were more different than before; earlier testers felt they were too similar.",
+   "values": {
+    "tester_choice": "map 2 (green) for racing"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 Husqvarna FC250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-husqvarna-fc250",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "MXA 2023 KTM/FC tests, Cycle News 2025 (green map preferred; FC testers preferred map 2) and MotoOnline 2024 all favour the aggressive map. MXA's 2024 KTM test labels the green map as 'map 1' - see conflicts."
+  },
+  {
+   "id": "k25-052",
+   "domain": "ecu_electronics",
+   "topic": "GasGas has no map switch",
+   "applies_to": {
+    "models": [
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "The standard US GasGas MC 250F has the same ECU and maps but no switch: it runs only map 1 with no traction control or quickshift until a Power Parts switch (about $180-200) is fitted.",
+   "values": {
+    "switch_price": "about $180-$200"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 GasGas MC250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-gasgas-mc250f",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "The 2024 Australian-market MC 250F tested by MotoOnline had the switch with two maps, TC and quickshift fitted, so equipment differs by market."
+  },
+  {
+   "id": "k25-053",
+   "domain": "ecu_electronics",
+   "topic": "traction control: how it works",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Traction control watches how fast rpm rises; if revs climb too quickly (wheelspin) it retards ignition and cuts power. KTM suggests it for wet or muddy conditions.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2023 250 XC-F press text (reprinted by Total Motorcycle)",
+    "url": "https://www.totalmotorcycle.com/motorcycles/2023/2023-ktm-250-xcf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Mechanism detail (ignition retard on runaway revs) from MXA 'what happens when I press the buttons' (2017 KTM), which describes it as closer to a third, hard-pack map than a factory-level TC system."
+  },
+  {
+   "id": "k25-054",
+   "domain": "ecu_electronics",
+   "topic": "traction control on the 250: tester advice",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "On the 2023-2024 250s testers found traction control cut power by roughly 25%, made the engine sound rough or rich and was nearly unusable; most leave it off. The pre-2023 version was occasionally useful.",
+   "values": {
+    "felt_power_cut": "about 25%"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 Husqvarna FC250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-husqvarna-fc250",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "MXA 2023 KTM, 2023 FC, 2024 KTM, 2024 FC race tests all agree."
+  },
+  {
+   "id": "k25-055",
+   "domain": "ecu_electronics",
+   "topic": "traction control 2025 update",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Traction control was improved for 2025. Testers still rarely use it but say it helps on wet, muddy or rock-hard tracks, or for a light (about 130 lb) rider who wants calmer power.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 KTM 250SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test2025-ktm-250sxf",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "k25-056",
+   "domain": "ecu_electronics",
+   "topic": "launch control",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Launch control is armed at idle by pressing the traction control and quickshift buttons together; it limits rear-wheel power off the start. On the older system, letting revs drop more than about 30% cancelled it until the engine was restarted.",
+   "values": {
+    "arming": "TC + QS buttons together at idle",
+    "cancel_condition_older_system": "revs drop more than about 30%"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM USA 2026 250 SX-F Factory Edition page",
+    "url": "https://www.ktm.com/en-us/models/motocross/4-stroke/2026-ktm-250-sx-ffactoryedition.html",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "The 30% figure comes from MXA describing a 2017 KTM; not confirmed for the 2023+ system. Testers rarely use launch control on dirt starts but do on concrete."
+  },
+  {
+   "id": "k25-057",
+   "domain": "ecu_electronics",
+   "topic": "quickshifter",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The quickshifter allows clutchless full-throttle upshifts from 2nd to 5th by briefly cutting ignition. Most testers leave it off on the track and use it mainly for long, fast starts; it can be switched off with its button.",
+   "values": {
+    "gears": "2nd-5th upshifts"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2024 250 SX-F model page",
+    "url": "https://ktm.com/models/motocross/4-stroke/2024-ktm-250-sx-f",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Tester advice from MXA 2023-2024 KTM/FC race tests. The 450 gained two quickshifter reaction speeds for 2025; not confirmed for the 250."
+  },
+  {
+   "id": "k25-058",
+   "domain": "ecu_electronics",
+   "topic": "Connectivity Unit Offroad (CUO)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F Factory Edition",
+     "KTM 250 SX-F"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Factory Editions come with the CUO module, which links to the KTMconnect app to adjust ECU behaviour, show engine data and lap times and suggest suspension settings. GPS/transponder parts were sold separately for $249.99 in 2025 and fit 2023-2025 bikes.",
+   "values": {
+    "GPS_kit_price_2025": "$249.99"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 KTM 250SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test2025-ktm-250sxf",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Standard on the 2026 Factory Edition per KTM. Adjustable parameters not listed for the 250 specifically; see ktm450sxf.json for the CUO parameter list."
+  },
+  {
+   "id": "k25-059",
+   "domain": "ecu_electronics",
+   "topic": "stock ECU locked (2023)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "At launch the 2023 KTM 250 SX-F ECU was locked, so it could not be remapped by the usual flash services.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: 2023 250 Four-Stroke Shootout",
+    "url": "https://motocrossactionmag.com/mxas-2023-250-four-stroke-shootout-the-final-word-on-the-2023-crop",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Listed as a negative in MXA's 2023 shootout. Later remap availability unclear (see Taco Moto record)."
+  },
+  {
+   "id": "k25-060",
+   "domain": "ecu_electronics",
+   "topic": "aftermarket ECU: Vortex",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "KTM 250 XC-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "A Vortex plug-in ECU is sold for 2023-2025 KTM 250 SX-F/XC-F, Husqvarna FC 250 and 2024-2025 GasGas MC 250F, with 10 base maps and support for the stock switch, traction control, launch control and quickshift; listed at $799.95 (was $1,049.95).",
+   "values": {
+    "price": "$799.95-$1,049.95",
+    "base_maps": "10"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "dealer",
+    "name": "MX Locker listing: Vortex ECU 2023-2025 KTM 250 SX-F / Husqvarna FC 250 (Dynamic Engine Factory)",
+    "url": "https://mxlocker.com/product/2023-2024-ktm-250sxf-2023-2024-husqvarna-fc250-vortex-ecu-ne-k9Zh3",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Seller's claims (more bottom end, higher rev limit, better over-rev) are unverified; no dyno data found. Fitment table on the listing is inconsistent across years. Owners report older Vortex units may not support the 2023+ switch unless reprogrammed by XPR or Twisted Development (Vital MX, 350/450 owners)."
+  },
+  {
+   "id": "k25-061",
+   "domain": "ecu_electronics",
+   "topic": "aftermarket ECU: stock-ECU remap services",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "One stock-ECU remap service ($359, raises rev limit 500 rpm, gear-specific fuel and ignition) lists 2023+ 250 SX-F/FC 250/MC 250F only as 'coming soon'. The GET RX1 ECU listing covers enduro models but not the 250 SX-F.",
+   "values": {
+    "remap_price": "$359",
+    "rev_limit_raise_claimed": "+500 rpm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Taco Moto: KTM/Husqvarna/GasGas stock ECU ship-in remapping service",
+    "url": "https://tacomoto.co/products/ktm-husqvarna-gasgas-stock-ecu-remapping-service",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": "As of the 2025 page check, no confirmed stock-ECU remap for the 2023+ 250 SX-F was found. GET RX1 fitment from Rottweiler listing."
+  },
+  {
+   "id": "k25-062",
+   "domain": "engine_mods",
+   "topic": "vented airbox cover",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers recommend KTM's optional vented airbox cover for sharper throttle response on the KTM and Husqvarna. On the 2020 bike it added only about 0.05 hp at peak but filled an 8,500-11,000 rpm dip.",
+   "values": {
+    "peak_gain_2020": "about 0.05 hp",
+    "fills": "8,500-11,000 rpm (2020)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2020 KTM 250SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-ktm-250sxf",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": "2023-2025 race tests repeat the advice ('free power')."
+  },
+  {
+   "id": "k25-063",
+   "domain": "engine_mods",
+   "topic": "GasGas: undoing the restrictions",
+   "applies_to": {
+    "models": [
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "To bring a GasGas MC 250F up to KTM feel: fit the map switch for map 2/TC/QS, drill or swap the airbox cover for more airflow, and replace the restricted muffler (an FMF muffler is suggested).",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 GasGas MC250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-gasgas-mc250f",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "No before/after dyno published for these mods."
+  },
+  {
+   "id": "k25-064",
+   "domain": "engine_mods",
+   "topic": "gearing for more low-end",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Adding one tooth to the rear sprocket gives more low-rpm pull for riders who do not like to rev the engine; riders who stay high in the revs may not need it.",
+   "values": {
+    "change": "+1 tooth rear"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 KTM 250SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test2025-ktm-250sxf",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "On the 2020-2022 engine testers ran a 13-tooth countershaft (similar to +3 rear teeth) to cure sluggish turn exits. GasGas comes with one tooth more (52) than KTM."
+  },
+  {
+   "id": "k25-065",
+   "domain": "engine_mods",
+   "topic": "exhaust: Yoshimura RS-12 (350 data only)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "A Yoshimura RS-12 titanium system ($1,299) listed for the 2023 KTM 250 SX-F was only track-tested on a 350; no 250 dyno data was published.",
+   "values": {
+    "price": "$1,299"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Swapmoto Live: 2023 KTM 250 SX-F Yoshimura RS-12 titanium exhaust track test",
+    "url": "https://www.swapmotolive.com/?p=150044",
+    "date": "2023"
+   },
+   "confidence": "low",
+   "notes": "Included so the gap is visible; see not_found for 250 exhaust dynos."
+  },
+  {
+   "id": "k25-066",
+   "domain": "engine_mods",
+   "topic": "factory slip-ons on special editions",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 250 Rockstar Edition",
+     "GasGas MC 250F Factory Edition",
+     "Husqvarna FC 250 Factory Edition"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "Special editions with titanium slip-ons (FMF Factory 4.1 RCT on the FC 250 Rockstar, Akrapovic on the MC 250F Factory Edition) did not show more peak power than standard bikes on one dyno: 40.6 hp and 40.2 hp versus 42.9 hp and 41.9 hp for the standard 2024 FC 250 and MC 250F.",
+   "values": {
+    "FC_Rockstar_2024": "40.6 hp",
+    "FC_std_2024": "42.9 hp",
+    "MC_FE_2024": "40.2 hp",
+    "MC_std_2024": "41.9 hp"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2024 Husqvarna FC 250 Rockstar Edition Dyno Test",
+    "url": "https://www.dirtrider.com/tests/husqvarna-fc-250-rockstar-edition-dyno-test-2024",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Same Dynojet 250i but different test days, so not a controlled before/after test."
+  },
+  {
+   "id": "k25-067",
+   "domain": "chassis",
+   "topic": "geometry and dimensions (KTM)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "KTM lists a 63.9 degree steering head angle, 1,493 mm wheelbase, 958 mm seat height and 359 mm ground clearance, with a central double-cradle 25CrMo4 steel frame and aluminium-reinforced polyamide subframe.",
+   "values": {
+    "steering_head_angle": "63.9 deg",
+    "wheelbase": "1,493 mm",
+    "seat_height": "958 mm",
+    "ground_clearance": "359 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2024 250 SX-F model page",
+    "url": "https://ktm.com/models/motocross/4-stroke/2024-ktm-250-sx-f",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "KTM's 2026 spec page lists 343 mm ground clearance and 101 kg without fuel; see conflicts. Triple clamp offset not found."
+  },
+  {
+   "id": "k25-068",
+   "domain": "chassis",
+   "topic": "2026 KTM published specs",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "KTM lists the 2026 250 SX-F at 101 kg without fuel, 958 mm seat height, 343 mm ground clearance, 7.2 L tank, 310 mm front and 300 mm rear travel, WP XACT AER 48 mm air fork, 24:72 primary drive and non-sealed 520 chain.",
+   "values": {
+    "weight_no_fuel": "101 kg",
+    "seat_height": "958 mm",
+    "ground_clearance": "343 mm",
+    "tank": "7.2 L",
+    "travel_f_r": "310 / 300 mm",
+    "primary": "24:72"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM USA 2026 250 SX-F technical specifications",
+    "url": "https://www.ktm.com/en-us/models/motocross/4-stroke/2026-ktm-250-sx-f/technical-specifications.html",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k25-069",
+   "domain": "chassis",
+   "topic": "Husqvarna FC 250 lowered chassis",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The Husqvarna sits about 1 inch lower than the KTM: forks 10 mm shorter, longer shock linkage arms and a taller shock seal head, with less rear travel (about 293 mm). It also has CNC triple clamps, ProTaper bars and its own plastics and frame colour.",
+   "values": {
+    "fork_tube_difference": "-10 mm",
+    "measured_seat_drop_vs_KTM": "about 1 in",
+    "rear_travel": "293 mm (11.5 in)",
+    "front_travel": "305 mm (12 in)",
+    "seat_height": "939 mm (37 in)",
+    "wheelbase": "1,485 mm (58.5 in)",
+    "rake": "26.1 deg"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 Husqvarna FC250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-husqvarna-fc250",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Travel/seat/wheelbase from Motorcycle.com spec database (2024 FC 250); rake from Dirt Rider 2025 overview. Husqvarna officially says 10 mm lower."
+  },
+  {
+   "id": "k25-070",
+   "domain": "chassis",
+   "topic": "GasGas MC 250F chassis differences",
+   "applies_to": {
+    "models": [
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "The GasGas uses the same frame (red) but forged aluminium triple clamps that flex more than KTM's CNC clamps, unbranded Neken bars 12 mm taller (Renthal 928-like bend), a slightly larger tank, its own subframe panels and seat mount, Braktec brakes and clutch hydraulics, Maxxis MX-ST tyres and a 52-tooth rear sprocket.",
+   "values": {
+    "bar_height_vs_KTM": "+12 mm",
+    "rear_sprocket": "52T (KTM 51T)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 GasGas MC250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-gasgas-mc250f",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k25-071",
+   "domain": "chassis",
+   "topic": "handling character",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2023+ frame squats less under power and pitches less under braking, absorbs braking and acceleration bumps better and is very stable, but felt stiff and harsh until about 8-10 hours of riding. The KTM suits faster riders and jumpy tracks; the lower Husqvarna turns tighter and suits shorter, lighter and novice-to-vet riders.",
+   "values": {
+    "chassis_break_in": "about 8-10 hours",
+    "fork_break_in": "about 5 hours"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 Husqvarna FC250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-husqvarna-fc250",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "2025 frame cut-outs reduced the harshness in chop."
+  },
+  {
+   "id": "k25-072",
+   "domain": "chassis",
+   "topic": "frame changes by year",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2023,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Frame history: 2023 new hydroformed chromoly frame with the backbone disconnected from the top shock mount and forged shock towers; 2025 relief holes in the shock tower, hollowed head stays and thinner tubes for more flex; 2026 Factory Edition gets a changed backbone and revised linkage geometry for ground clearance.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 KTM 250SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test2025-ktm-250sxf",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "2026 FE detail from KTM's Factory Edition page."
+  },
+  {
+   "id": "k25-073",
+   "domain": "suspension",
+   "topic": "stock hardware",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "All three use the 48 mm WP XACT AER air fork (hydrostops from 2023) and a WP XACT shock with tool-free high/low-speed compression; the shock rebound adjuster is hard to reach and needs a flat screwdriver. Stock shock spring is 42 N/mm.",
+   "values": {
+    "fork": "WP XACT AER 48 mm air",
+    "shock_spring": "42 N/mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 KTM 250SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-ktm-250sxf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "KTM 250 XC-F and GasGas EX 250F use a coil-spring XACT fork with softer settings (Dirt Rider 2025 XC-F)."
+  },
+  {
+   "id": "k25-074",
+   "domain": "suspension",
+   "topic": "fork air pressure behaviour",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The air fork's spring rate is set with a pump (stock about 10.7 bar / 155 psi). Pressure rises in the sun and while riding, so set it cold before riding and bleed the air screws each morning; a 5 psi change is clearly noticeable.",
+   "values": {
+    "stock_pressure": "about 10.7 bar (155 psi)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 KTM 250SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-ktm-250sxf",
+    "date": "2023-11"
+   },
+   "confidence": "high",
+   "notes": "5 psi sensitivity from MotoOnline 2024 GasGas test."
+  },
+  {
+   "id": "k25-075",
+   "domain": "suspension",
+   "topic": "valving differences between brands",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "The GasGas has softer valving with less hold-up than the KTM; it works on rough tracks for vets and novices, but faster riders on jumpy tracks prefer KTM valving. Husqvarna valving was judged too soft for serious racers in 2023.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 GasGas MC250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-gasgas-mc250f",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "k25-076",
+   "domain": "suspension",
+   "topic": "shock end-of-stroke",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Testers felt the 2023 shock's rising rate was not firm enough at the very end of the stroke; adding low-speed compression controls it. If the shock picks up speed at the end of its stroke, add low-speed compression.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 Husqvarna FC250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-husqvarna-fc250",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "k25-077",
+   "domain": "suspension",
+   "topic": "air-to-coil conversion options",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers say air forks do things cartridge kits cannot and come free, while coil-spring kits give better hand comfort and ground-following and need no pressure checks. Options named include Dal Soggio Sphere FSR-48, Ohlins RXF 48S, WP 6500 cartridge and Kayaba coil kits at about $2,000-7,000.",
+   "values": {
+    "cost_range": "$2,000-$7,000"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 KTM 250SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test2025-ktm-250sxf",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "k25-078",
+   "domain": "known_issues",
+   "topic": "shock linkage needle bearings",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Needle bearings can walk out of the linkage bell crank and bind it, making the rear feel dead (2 of 6 test bikes in one test). Check each slot; the fix is caged bearing KTM part 58033097000.",
+   "values": {
+    "fix_part": "KTM 58033097000"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 Husqvarna FC250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-husqvarna-fc250",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Also in MXA 2023 KTM race test."
+  },
+  {
+   "id": "k25-079",
+   "domain": "known_issues",
+   "topic": "spokes loosening",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Spokes loosen quickly during break-in (up to about 6 hours to settle), starting with the ones next to the rear rim lock. Torque them before the first moto and check after every moto; check sprocket bolts too.",
+   "values": {
+    "settle_time": "up to about 6 hours"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 KTM 250SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-ktm-250sxf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Reported every year 2020-2025."
+  },
+  {
+   "id": "k25-080",
+   "domain": "known_issues",
+   "topic": "plastic radiator cap",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "The plastic minicycle-style radiator cap is hard to remove, has come off in a crash and is reported to leak; the factory team runs the older-style cap and a removal tool is sold. KTM changed the closure for 2026 to open with less force.",
+   "values": {
+    "changed": "MY2026"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 KTM 250SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test2025-ktm-250sxf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k25-081",
+   "domain": "known_issues",
+   "topic": "chain buffer / slider wear",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "With the lower countershaft sprocket the chain wears the swingarm buffer pad quickly; testers fit a TM Designworks pad. For 2025 the pad was raised and the swingarm top lowered. Keep chain slack around 65-70 mm at the buffer pad, which looks loose.",
+   "values": {
+    "chain_slack": "about 65-70 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 KTM 250SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test2025-ktm-250sxf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "In 2022 KTM engineers told MXA 70 mm despite a 58 mm manual figure."
+  },
+  {
+   "id": "k25-082",
+   "domain": "known_issues",
+   "topic": "rear brake pedal and buttons",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "The rear brake pedal tip bent or broke in crashes on 2023-2024 bikes (fixed for 2025). The low-profile start/stop and map buttons are hard to press with gloves; aftermarket kits relocate the kill button.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 KTM 250SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-ktm-250sxf",
+    "date": "2023-11"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k25-083",
+   "domain": "known_issues",
+   "topic": "Braktec brake recall (GasGas)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Front Braktec brakes on 2022-2025 GasGas models are under recall. Testers also find Braktec brakes less precise than Brembo, and the Braktec clutch can surge when fanned or held at high rpm.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 GasGas MC250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-gasgas-mc250f",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Recall scope as reported by MXA; check the official recall notice by VIN."
+  },
+  {
+   "id": "k25-084",
+   "domain": "known_issues",
+   "topic": "GasGas airbox side panel",
+   "applies_to": {
+    "models": [
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "The one-piece GasGas airbox side panel fits loosely and has fallen off on the track when caught by a boot.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 GasGas MC250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-gasgas-mc250f",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "k25-085",
+   "domain": "known_issues",
+   "topic": "piston ring sticking / hard starting",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Some owners report 2023+ 250s that become hard to start cold, blamed on a stuck piston ring (usually fixed with a new piston and ring) or tightening valve clearances; a leak-down test is advised over a compression test because of the auto-decompressor.",
+   "values": {
+    "example_hours": "40 h (KTM), 74 h (FC 250)"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum: 23 KTM 250 SXF compression test",
+    "url": "https://www.vitalmx.com/forums/tech-helprace-shop/23-ktm-250-sxf-compression-test",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": "Few reports; one owner says 2023 250s are 'notorious' for it. One FC 250 at 74 h read 50 psi on a compression test (conditions unknown). Not confirmed by any magazine or bulletin."
+  },
+  {
+   "id": "k25-086",
+   "domain": "known_issues",
+   "topic": "pre-2023 items",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "On the 2020-2022 bikes the counterbalancer needle bearing could walk out (changed to a bushing for 2022), and sprocket bolts, head-stay bolts, lower subframe bolts and the linkage nut could loosen.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 KTM 250SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-250sxf",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "k25-087",
+   "domain": "setups",
+   "topic": "baseline 2023 KTM 250 SX-F (150-180 lb)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "One tester's baseline: fork 10.6 bar (10.5 for break-in), 5 mm fork height, 12 clicks out compression (or 15 out at 10.7 bar), 10 out rebound; shock 42 N/mm, 102 mm sag, 1.75 turns out high-speed, 10 out low-speed compression, 11 out rebound. Riders under 150 lb try about 10.3 bar.",
+   "values": {
+    "fork_pressure": "10.6 bar",
+    "fork_height": "5 mm",
+    "fork_comp": "12 out",
+    "fork_reb": "10 out",
+    "shock_spring": "42 N/mm",
+    "sag": "102 mm",
+    "HSC": "1.75 turns out",
+    "LSC": "10 out",
+    "shock_reb": "11 out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Testing: 2023 250 MX Baseline Settings",
+    "url": "https://www.keeferinctesting.com/?p=24087",
+    "date": "2022-12"
+   },
+   "confidence": "high",
+   "notes": "Fork needs 6-7 engine hours to break in."
+  },
+  {
+   "id": "k25-088",
+   "domain": "setups",
+   "topic": "baseline 2023 Husqvarna FC 250",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "One tester's baseline: fork 10.7 bar, 5 mm height, 14 out compression, 9 out rebound; shock 42 N/mm, 102 mm sag, 1.5-1.75 turns out high-speed, 10 out low-speed, 11 out rebound. Set slightly stiffer than the KTM because the Husqvarna sits lower; 1.75 turns on high-speed helps front-end bite.",
+   "values": {
+    "fork_pressure": "10.7 bar",
+    "fork_comp": "14 out",
+    "fork_reb": "9 out",
+    "sag": "102 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Testing: 2023 250 MX Baseline Settings",
+    "url": "https://www.keeferinctesting.com/?p=24087",
+    "date": "2022-12"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k25-089",
+   "domain": "setups",
+   "topic": "baseline 2023 GasGas MC 250F",
+   "applies_to": {
+    "models": [
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "One tester's baseline (old-platform 2023 bike): fork 10.6 bar, 5 mm height, 12 out compression, 10 out rebound; shock 42 N/mm, 102-103 mm sag, 1.75-2 turns out high-speed, 11 out low-speed, 11 out rebound.",
+   "values": {
+    "fork_pressure": "10.6 bar",
+    "sag": "102-103 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Testing: 2023 250 MX Baseline Settings",
+    "url": "https://www.keeferinctesting.com/?p=24087",
+    "date": "2022-12"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "k25-090",
+   "domain": "setups",
+   "topic": "race setup 2023 KTM 250 SX-F",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "One magazine's race setup: fork 155 psi (stock 10.7 bar), 12 out compression, 18 out rebound, second line; shock 45 N/mm for riders 175 lb and over or 42 N/mm under 175 lb, 105 mm race sag (100-108 mm used), 12 out low-speed, 1.5 turns out high-speed, 14 out rebound. Set a fork zip tie about 1.5 in from bottoming.",
+   "values": {
+    "fork_pressure": "155 psi",
+    "fork_comp": "12 out",
+    "fork_reb": "18 out",
+    "fork_height": "2nd line",
+    "shock_spring": "45 N/mm (175+ lb) / 42 N/mm",
+    "sag": "105 mm",
+    "LSC": "12 out",
+    "HSC": "1.5 turns out",
+    "shock_reb": "14 out"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 KTM 250SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-ktm-250sxf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Tier MEASURED as magazine tester setup."
+  },
+  {
+   "id": "k25-091",
+   "domain": "setups",
+   "topic": "race setup 2023 Husqvarna FC 250",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "One magazine's race setup: fork 156 psi (10.8 bar), 9 out compression (stock 12), 16 out rebound (stock 18), second line; shock 45 N/mm for 175 lb+ or 42 N/mm, 105 mm sag, 8 out low-speed (stock 12), 1.5 turns high-speed, 14 out rebound.",
+   "values": {
+    "fork_pressure": "156 psi",
+    "fork_comp": "9 out",
+    "fork_reb": "16 out",
+    "LSC": "8 out",
+    "sag": "105 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 Husqvarna FC250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-husqvarna-fc250",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Stiffer low-speed used to control end-stroke drop. Same numbers given for the 2022-1/2 KTM FE."
+  },
+  {
+   "id": "k25-092",
+   "domain": "setups",
+   "topic": "race setup 2022 and 2020 KTM (previous generation)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F"
+    ],
+    "years": [
+     2020,
+     2022
+    ]
+   },
+   "statement": "Previous-generation race setups: 2022 fork 152 psi, 10 out compression, 15 out rebound, third line; shock 45 N/mm, 106 mm sag, 2 turns high-speed, 15 out low-speed and rebound. 2020: fork 149 psi, 15 out both, third line; shock 42 N/mm, 105 mm sag, 2 turns high-speed, 15 out low-speed and rebound.",
+   "values": {
+    "2022_fork": "152 psi, 10/15 out",
+    "2022_shock": "45 N/mm, 106 mm sag",
+    "2020_fork": "149 psi, 15/15 out",
+    "2020_shock": "42 N/mm, 105 mm sag"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 KTM 250SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-250sxf",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "2020 numbers from MXA20."
+  },
+  {
+   "id": "k25-093",
+   "domain": "setups",
+   "topic": "gearing used by testers (previous generation)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F"
+    ],
+    "years": [
+     2020,
+     2022
+    ]
+   },
+   "statement": "On the 2020-2022 bike (stock 14/51) fast testers ran 14/53 or 13/50, novice and vet testers preferred 14/52, and a 13-tooth countershaft cured the sluggish feel out of tight turns.",
+   "values": {
+    "stock": "14/51",
+    "fast_riders": "14/53 or 13/50",
+    "novice_vet": "14/52"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2020 KTM 250SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-ktm-250sxf",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "k25-094",
+   "domain": "setups",
+   "topic": "spring rate by rider weight",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The stock 42 N/mm shock spring suits riders under about 175 lb; heavier intermediate and pro riders should go to 45 N/mm.",
+   "values": {
+    "under_175lb": "42 N/mm",
+    "175lb_plus": "45 N/mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 KTM 250SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-ktm-250sxf",
+    "date": "2023-11"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k25-095",
+   "domain": "setups",
+   "topic": "what testers change first",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "Typical tester recipe: race the aggressive map with traction control off, fit the vented airbox cover, rev the engine rather than short-shift (or add a rear tooth if you will not), start from stock clickers with 105 mm sag, check fork air before every ride and tighten spokes after every moto during break-in.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 KTM 250SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-ktm-250sxf",
+    "date": "2023-11"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k25-096",
+   "domain": "power_feel",
+   "topic": "shootout rankings 2023-2025",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "In one magazine's shootouts the KTM 250 SX-F won three years running (2023-2025) with the Husqvarna FC 250 second each year; the GasGas was 4th (2023) and 3rd (2024-2025). Another 2025 shootout put the YZ250F first, KTM 2nd, TF 250-X 3rd, CRF250R 4th, Husqvarna 5th and GasGas 6th, marking the Austrians down on price, the lowered Husqvarna chassis and GasGas brakes and suspension.",
+   "values": {
+    "shootout_A_2023": "KTM 1, FC 2, YZ 3, MC 4, KX 5, CRF 6, RMZ 7",
+    "shootout_A_2024": "KTM 1, FC 2, MC 3, YZ 4, KX 5, CRF 6, RMZ 7",
+    "shootout_A_2025": "KTM 1, FC 2, MC 3, YZ 4, CRF 5, KX 6, TF 7, RMZ 8",
+    "shootout_B_2025": "YZ 1, KTM 2, TF 3, CRF 4, FC 5, MC 6, KX 7, RMZ 8",
+    "shootout_C_2024": "KTM 2nd"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: 2025 250 Shootout",
+    "url": "https://motocrossactionmag.com/2025-motocross-action-250-shootout-suzuki-triumph-kawasaki-honda-yamaha-gasgas-husqvarna-ktm",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Sources MXASO23, MXASO24, MXASO25, CNSO25, SWAP24."
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "which map is the aggressive 'green' map",
+   "values": {
+    "KTM OEM": "map 1 linear, map 2 aggressive",
+    "MXA 2023 KTM and FC race tests": "map 2 (green) is the faster map",
+    "MXA 2024 KTM race test": "calls green 'map 1' and white 'map 2'",
+    "Cycle News 2025": "green map preferred"
+   },
+   "spread": "map number vs colour labelling",
+   "note": "Likely a labelling error in one article; OEM and most testers agree the aggressive map is map 2."
+  },
+  {
+   "topic": "peak rear-wheel horsepower, KTM 250 SX-F 2023-2025",
+   "values": {
+    "MXA 2023 race test": "44.4 hp @ 13,700",
+    "MXA 2023 shootout (Pro Circuit)": "45.20 hp",
+    "MXA 2024": "45.20 hp @ 13,100",
+    "MXA 2025": "45 hp @ 13,000 / 45.24 hp",
+    "Dirt Bike 2025 (Pro Circuit)": "45.06 hp @ 13,470",
+    "Dirt Rider 2024 (Dynojet 250i)": "42.8 hp @ 12,800",
+    "Dirt Rider 2025 (Dynojet 250i)": "40.2 hp"
+   },
+   "spread": "40.2-45.24 hp",
+   "note": "Different dynos and days; never average. Dirt Rider's Dynojet reads 3-5 hp lower than the race-shop dyno."
+  },
+  {
+   "topic": "peak-power rpm",
+   "values": {
+    "MXA 2023": "13,700 rpm",
+    "MXA 2024": "13,100 rpm",
+    "MXA 2025": "13,000 rpm",
+    "Dirt Bike 2025": "13,470 rpm",
+    "Dirt Rider 2024": "12,800 rpm"
+   },
+   "spread": "12,800-13,700 rpm",
+   "note": ""
+  },
+  {
+   "topic": "KTM weight",
+   "values": {
+    "MXA (empty tank)": "224 lb (2023-2024)",
+    "Dirt Bike 2023 (no fuel)": "226 lb",
+    "Dirt Rider 2024 (full tank)": "237 lb",
+    "Cycle News 2025 (wet)": "236 lb",
+    "KTM 2026 spec (no fuel)": "101 kg (222.7 lb)"
+   },
+   "spread": "222.7-237 lb",
+   "note": "Different fuel states and scales."
+  },
+  {
+   "topic": "ground clearance",
+   "values": {
+    "KTM 2024 page": "359 mm",
+    "KTM 2026 spec page": "343 mm"
+   },
+   "spread": "16 mm",
+   "note": "No geometry change announced between 2024 and 2026 standard model."
+  },
+  {
+   "topic": "stock gearing KTM 2023+",
+   "values": {
+    "MXA 2024-2025 GasGas tests": "KTM 14/51, GasGas 14/52",
+    "Dirt Rider 2025 FC 250 overview": "13/51 for FC 250 and KTM"
+   },
+   "spread": "13 vs 14 tooth countershaft",
+   "note": "Check owner's manual (BAK has manuals)."
+  },
+  {
+   "topic": "2023 engine low-end feel vs 2022",
+   "values": {
+    "MXA 2023": "slightly less snappy off the bottom",
+    "Cycle News 2023 first ride": "noticeably punchier, 'Japanese hit'",
+    "Dirt Bike 2023": "character largely unchanged"
+   },
+   "spread": "opinion",
+   "note": ""
+  },
+  {
+   "topic": "2025 shootout rankings",
+   "values": {
+    "MXA 2025": "1 KTM, 2 Husqvarna, 3 GasGas, 4 YZ250F, 5 CRF250R, 6 KX250, 7 TF 250-X, 8 RM-Z250",
+    "Cycle News 2025": "1 YZ250F, 2 KTM, 3 TF 250-X, 4 CRF250R, 5 Husqvarna, 6 GasGas, 7 KX250, 8 RM-Z250"
+   },
+   "spread": "KTM 1st vs 2nd; Husqvarna 2nd vs 5th",
+   "note": "Earlier MXA shootouts: 2023 KTM, FC, YZ, MC, KX, CRF, RMZ; 2024 KTM, FC, MC, YZ, KX, CRF, RMZ. Swapmoto 2024 had KTM 2nd."
+  }
+ ],
+ "not_found": [
+  {
+   "item": "Dirt Rider 2023 KTM 250 SX-F dyno figures",
+   "searched": "dirtrider.com 2023 KTM 250 SX-F dyno test page (body not returned), standard searches",
+   "note": "Page only gave metadata (Dynojet 250i, 'stronger than ever')."
+  },
+  {
+   "item": "2026 dyno numbers and 2026 shootout rankings (any source)",
+   "searched": "MXA/Dirt Rider/Dirt Bike 2026 250SXF race test and shootout searches",
+   "note": "No 2026 KTM 250 SX-F race test or 2026 250 shootout found."
+  },
+  {
+   "item": "aftermarket exhaust before/after dyno on 2023+ 250 SX-F/FC 250/MC 250F",
+   "searched": "FMF, Akrapovic, Yoshimura, Pro Circuit 2023+ 250 SX-F dyno searches; Swapmoto Yoshimura RS-12 (tested on 350 only)",
+   "note": ""
+  },
+  {
+   "item": "aftermarket ECU dyno/feel results for 2023+ 250 SX-F",
+   "searched": "Vortex/XPR/Twisted Development/GET 2023 250 SXF remap searches, extended search",
+   "note": "Only seller listings and 350/450 owner threads found."
+  },
+  {
+   "item": "triple clamp offset, trail",
+   "searched": "KTM 2024/2026 spec pages, Husqvarna spec databases",
+   "note": "Steering head angle 63.9 deg and wheelbase published; offset/trail not on pages read."
+  },
+  {
+   "item": "cam lift/duration, valve timing, rod length",
+   "searched": "KTM press texts, magazine tech articles",
+   "note": "Not published in sources found."
+  },
+  {
+   "item": "detailed quickshifter/launch-control parameters for 2023+ 250 (launch rpm, QS cut time)",
+   "searched": "KTM pages, MXA button explainer (2017 KTM only)",
+   "note": ""
+  },
+  {
+   "item": "2026 Husqvarna FC 250 US availability and changes",
+   "searched": "Not reached within search budget",
+   "note": "450 research found no 2026 FC 450 in the US; status for FC 250 unknown."
+  },
+  {
+   "item": "KTM 2026 standard 250 SX-F model page",
+   "searched": "WebFetch of ktm.com en-us 2026 250 SX-F page",
+   "note": "Fetch blocked (permission request not answered); used tech-spec page and Enduro21 instead."
+  },
+  {
+   "item": "official service bulletins/recalls for KTM/Husqvarna 250 SX-F/FC 250 2023-2026",
+   "searched": "community problem searches",
+   "note": "Only the GasGas Braktec front brake recall (reported by MXA) found."
+  }
+ ],
+ "sources": [
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA Race Test 2020 KTM 250SXF",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-ktm-250sxf",
+   "date": "2019"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA Race Test 2022 KTM 250SXF",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-250sxf",
+   "date": "2021"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA Race Test 2022-1/2 KTM 250SXF Factory Edition",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-1-2-ktm-250sxf-factory-edition",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA Race Test 2023 KTM 250SXF",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2023-ktm-250sxf",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA Race Test 2024 KTM 250SXF",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-ktm-250sxf",
+   "date": "2023-11"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA Race Test 2025 KTM 250SXF",
+   "url": "https://motocrossactionmag.com/mxa-race-test2025-ktm-250sxf",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA Race Test 2023 Husqvarna FC250",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-husqvarna-fc250",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA Race Test 2024 Husqvarna FC250",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2024-husqvarna-fc250",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA Race Test 2024 GasGas MC250F",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-gasgas-mc250f",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA Race Test 2025 GasGas MC250F",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-gasgas-mc250f",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: 2023 250 Four-Stroke Shootout",
+   "url": "https://motocrossactionmag.com/mxas-2023-250-four-stroke-shootout-the-final-word-on-the-2023-crop",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: 2024 250 Four-Stroke Shootout",
+   "url": "https://motocrossactionmag.com/2024-mxa-250-four-stroke-shootout-suzuki-honda-kawasaki-yamaha-gasgas-husqvarna-ktm",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: 2025 250 Shootout",
+   "url": "https://motocrossactionmag.com/2025-motocross-action-250-shootout-suzuki-triumph-kawasaki-honda-yamaha-gasgas-husqvarna-ktm",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: Ask the MXperts - what really happens when I press the buttons",
+   "url": "https://motocrossactionmag.com/ask-the-mxperts-what-really-happens-when-i-press-the-buttons",
+   "date": "2017"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News: 2023 KTM Four-Stroke Motocrossers Review",
+   "url": "https://cyclenews.com/2022/06/article/2023-ktm-four-stroke-motocrossers-review",
+   "date": "2022-06"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News: 2025 250cc 4-Stroke Motocross Shootout",
+   "url": "https://www.cyclenews.com/2024/12/article/2025-250cc-4-stroke-motocross-shootout/",
+   "date": "2024-12"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike: 2023 KTM 250SX-F Full Test",
+   "url": "https://dirtbikemagazine.com/2023-ktm-250sx-f-full-test/",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike: 250 Motocross Bikes on the Dyno - The Wrap (2025)",
+   "url": "https://dirtbikemagazine.com/250-motocross-bikes-on-the-dyno-the-wrap/",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2020 KTM 250 SX-F Dyno Test",
+   "url": "https://dirtrider.com/story/tests/2020-ktm-250-sx-f-dyno-test",
+   "date": "2020"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2022 KTM 250 SX-F Dyno Test",
+   "url": "https://dirtrider.com/story/tests/ktm-250-sx-f-dyno-test-2022",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2023 KTM 250 SX-F Dyno Test",
+   "url": "https://www.dirtrider.com/tests/ktm-250-sx-f-dyno-test-2023",
+   "date": "2023-04"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2023 KTM 250 XC-F Dyno Test",
+   "url": "https://dirtrider.com/story/tests/ktm-250-xc-f-dyno-test-2023",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: How Much Power Does the 2024 KTM 250 SX-F Make?",
+   "url": "https://dirtrider.com/tests/ktm-250-sx-f-dyno-test-2024",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2024 KTM 250 SX-F Technical Information",
+   "url": "https://dirtrider.com/dirt-bikes/ktm-250-sx-f-technical-information-2024",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: How Much Power Does the 2025 KTM 250 SX-F Make?",
+   "url": "https://dirtrider.com/tests/ktm-250-sx-f-dyno-test-2025",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2026 KTM 250 SX-F Technical Overview",
+   "url": "https://dirtrider.com/dirt-bikes/ktm-250-sx-f-technical-information",
+   "date": "2026-02"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: How Much Power Does the 2024 Husqvarna FC 250 Make?",
+   "url": "https://dirtrider.com/tests/husqvarna-fc-250-dyno-test-2024",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2024 Husqvarna FC 250 Rockstar Edition Dyno Test",
+   "url": "https://www.dirtrider.com/tests/husqvarna-fc-250-rockstar-edition-dyno-test-2024",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2025 Husqvarna FC 250 Technical Overview",
+   "url": "https://www.dirtrider.com/dirt-bikes/husqvarna-fc-250-technical-overview/",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2025 Husqvarna FC 250 Factory Edition Dyno Test",
+   "url": "https://dirtrider.com/tests/husqvarna-fc-250-factory-edition-dyno-test-2025",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: How Much Power Does the 2023 GasGas MC 250F Make?",
+   "url": "https://dirtrider.com/tests/gasgas-mc-250f-dyno-test-2023",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: How Much Power Does the 2024 GasGas MC 250F Make?",
+   "url": "https://dirtrider.com/tests/gasgas-mc-250f-dyno-test-2024",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2024 GasGas MC 250F Factory Edition Dyno Test",
+   "url": "https://dirtrider.com/tests/gasgas-mc-250f-factory-edition-dyno-test-2024",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: How Much Power Does the 2025 GasGas MC 250F Make?",
+   "url": "https://dirtrider.com/tests/gasgas-mc-250f-dyno-test-2025",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2024 GasGas EX 250F Dyno Test",
+   "url": "https://www.dirtrider.com/tests/gasgas-ex-250f-dyno-test-2024",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2025 KTM 250 XC-F overview",
+   "url": "https://dirtrider.com/ktm/250-xc-f",
+   "date": "2025"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM 2024 250 SX-F model page",
+   "url": "https://ktm.com/models/motocross/4-stroke/2024-ktm-250-sx-f",
+   "date": "2023"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM USA 2026 250 SX-F technical specifications",
+   "url": "https://www.ktm.com/en-us/models/motocross/4-stroke/2026-ktm-250-sx-f/technical-specifications.html",
+   "date": "2025"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM USA 2026 250 SX-F Factory Edition page",
+   "url": "https://www.ktm.com/en-us/models/motocross/4-stroke/2026-ktm-250-sx-ffactoryedition.html",
+   "date": "2025"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM 2023 250 XC-F press text (reprinted by Total Motorcycle)",
+   "url": "https://www.totalmotorcycle.com/motorcycles/2023/2023-ktm-250-xcf",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Motorcycle.com spec database: 2024 Husqvarna FC 250",
+   "url": "https://www.motorcycle.com/specs/husqvarna/off-road/2024/fc/250/detail.html",
+   "date": "2023"
+  },
+  {
+   "type": "tuner",
+   "name": "Keefer Inc. Testing: 2023 250 MX Baseline Settings",
+   "url": "https://www.keeferinctesting.com/?p=24087",
+   "date": "2022-12"
+  },
+  {
+   "type": "magazine",
+   "name": "Swapmoto Live: 2024 250 MX Shootout (KTM page)",
+   "url": "https://www.swapmotolive.com/2024-250-mx-shootout-gas-gas-vs-honda-vs-husqvarna-vs-kawasaki-vs-ktm-vs-yamaha/shootout/2024-250-shootout/6/",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "MotoOnline (Australia): Tested 2024 GasGas MC 250F",
+   "url": "https://www.motoonline.com/au/tested-2024-gasgas-mc-250f/",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21: First Look 2026 KTM SX and SX-F",
+   "url": "https://enduro21.com/en/bikes/latest/first-look-2026-ktm-sx-and-sx-f-motocross-models",
+   "date": "2025"
+  },
+  {
+   "type": "dealer",
+   "name": "MX Locker listing: Vortex ECU 2023-2025 KTM 250 SX-F / Husqvarna FC 250 (Dynamic Engine Factory)",
+   "url": "https://mxlocker.com/product/2023-2024-ktm-250sxf-2023-2024-husqvarna-fc250-vortex-ecu-ne-k9Zh3",
+   "date": "2025"
+  },
+  {
+   "type": "tuner",
+   "name": "Taco Moto: KTM/Husqvarna/GasGas stock ECU ship-in remapping service",
+   "url": "https://tacomoto.co/products/ktm-husqvarna-gasgas-stock-ecu-remapping-service",
+   "date": "2025"
+  },
+  {
+   "type": "dealer",
+   "name": "Rottweiler Performance: GET RX1 ECU KTM/HQV listing",
+   "url": "https://shop.rottweilerperformance.com/get-rx1-ecu-ktm-hqv-250-501-2020-2023/",
+   "date": "2024"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum: 23 KTM 250 SXF compression test",
+   "url": "https://www.vitalmx.com/forums/tech-helprace-shop/23-ktm-250-sxf-compression-test",
+   "date": "2025"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum: 2023+ KTM map switch with Vortex",
+   "url": "https://www.vitalmx.com/comment/7327811",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Swapmoto Live: 2023 KTM 250 SX-F Yoshimura RS-12 titanium exhaust track test",
+   "url": "https://www.swapmotolive.com/?p=150044",
+   "date": "2023"
+  }
+ ]
+}

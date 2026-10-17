@@ -1,0 +1,2618 @@
+{
+ "slice": "KTM 125/150/250/300 SX, Husqvarna TC 125/150/250/300, GasGas MC 125/250, 2020-2026 - bike-level knowledge",
+ "platform": {
+  "make": "KTM / Husqvarna / GasGas",
+  "models": [
+   "KTM 125 SX",
+   "KTM 150 SX",
+   "KTM 250 SX",
+   "KTM 300 SX",
+   "Husqvarna TC 125",
+   "Husqvarna TC 150",
+   "Husqvarna TC 250",
+   "Husqvarna TC 300",
+   "GasGas MC 125",
+   "GasGas MC 250"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ]
+ },
+ "records": [
+  {
+   "id": "k2t-001",
+   "domain": "identity",
+   "topic": "2020 model-year changes",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "KTM 125 SX",
+     "KTM 150 SX"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "2020 brought new graphics, WP AER air forks renamed WP XACT with revised damping and small internal changes, and new shock shims with a revised compression adjuster; the 2019 engine and frame carried over.",
+   "values": {
+    "msrp_250SX": "$8,299 (+$100 vs 2019)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2020 KTM 250SX two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-ktm-250sx-two-stroke",
+    "date": "2020-07"
+   },
+   "confidence": "high",
+   "notes": "Reported by magazine from KTM info; 2019 was the start of this frame generation per the 2022 150SX test ('no engine or chassis changes since 2019')."
+  },
+  {
+   "id": "k2t-002",
+   "domain": "identity",
+   "topic": "2021 model-year changes",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "KTM 150 SX",
+     "KTM 250 SX",
+     "Husqvarna TC 125",
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "For 2021 the XACT air fork got oil-bypass notches, an air seal with extra bypass holes, a bigger cross-over bleed, a rubber bump-stop and a hand rebound clicker; two-stroke forks gained a mid-valve float shim. A roller-type throttle, thicker clutch-basket tangs and Dunlop MX33 tires also arrived.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2021 Husqvarna TC250 two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-husqvarna-tc250-two-stroke",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Clutch basket detail from the 2022 150SX test."
+  },
+  {
+   "id": "k2t-003",
+   "domain": "identity",
+   "topic": "2021 Husqvarna rear end lowered",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 125",
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "From 2021 the Husqvarna TC got longer linkage arms and a new bell crank, a 6 mm longer shock seal head (shock stroke 140 to 134 mm) and 10 mm less fork travel, sitting lower than the KTM but matching its rising rate.",
+   "values": {
+    "shock_stroke": "134 mm (was 140 mm)",
+    "fork_travel_change": "-10 mm",
+    "seal_head": "+6 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2021 Husqvarna TC250 two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-husqvarna-tc250-two-stroke",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k2t-004",
+   "domain": "identity",
+   "topic": "GasGas MC introduced (KTM-based)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 125",
+     "GasGas MC 250"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "The GasGas MC 125 and MC 250 (from 2021) use the carbureted KTM engine and frame with softer suspension valving, forged (not billet) triple clamps, bars bolted solid to the clamps, a closed airbox cover, Maxxis MX-ST tires and no hour meter, priced about $600 below the KTM.",
+   "values": {
+    "msrp_MC250_2022": "$8,199",
+    "weight_MC250_2022": "~210 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2022 GasGas MC 250 two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-gasgas-mc-250-two-stroke",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Weight is magazine-measured, no fuel."
+  },
+  {
+   "id": "k2t-005",
+   "domain": "identity",
+   "topic": "2022 model-year changes",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "KTM 150 SX",
+     "KTM 250 SX"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "2022 KTM SX two-strokes were cosmetic only: orange frame, blue seat, new graphics; a vented airbox cover became an optional part. Price rose $100.",
+   "values": {
+    "msrp_250SX": "$8,499"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2022 KTM 250SX two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-250sx-two-stroke",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k2t-006",
+   "domain": "identity",
+   "topic": "2023 TBI generation (KTM/Husqvarna)",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "KTM 250 SX",
+     "KTM 300 SX",
+     "Husqvarna TC 125",
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "In 2023 KTM and Husqvarna moved the 125/250 to throttle-body injection, electric start and an ECU-driven power valve, in a new frame, swingarm and anti-squat shock linkage; the 300 SX returned. The 150 SX was not offered in 2023-2024.",
+   "values": {
+    "price_TC250": "$9,049 (was $8,599)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2023 Husqvarna TC250 two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-husqvarna-tc250-two-stroke/",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "150 SX absence inferred from its 2025 'return' (um25) and the 2024 125SX test saying a 150 kit was only just appearing in PowerParts."
+  },
+  {
+   "id": "k2t-007",
+   "domain": "identity",
+   "topic": "GasGas stayed carbureted in 2023",
+   "applies_to": {
+    "models": [
+     "GasGas MC 125",
+     "GasGas MC 250"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "For 2023 the GasGas MC 125/250 kept the 38 mm Mikuni carburetor, spring power valve and the previous frame, swingarm and linkage, making the MC 250 about 7 lb lighter and $600 cheaper than the TBI KTM.",
+   "values": {
+    "weight_MC250": "212 lb",
+    "weight_250SX": "219 lb",
+    "msrp_MC250": "$8,349",
+    "msrp_250SX": "$8,949",
+    "weight_MC125": "194 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2023 GasGas MC250 two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-gasgas-mc250-two-stroke",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Weights magazine-measured without fuel."
+  },
+  {
+   "id": "k2t-008",
+   "domain": "identity",
+   "topic": "2024 GasGas TBI generation",
+   "applies_to": {
+    "models": [
+     "GasGas MC 125",
+     "GasGas MC 250"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "For 2024 GasGas got the 39 mm Keihin TBI engine, electronic power valve and electric start, the new-generation steel frame with anti-squat, an aluminium subframe, new bodywork, forged clamps with tuned flex, Braktec brakes and hydraulic clutch, and a shorter, lighter shock with 300 mm travel.",
+   "values": {
+    "throttle_body": "39 mm Keihin",
+    "claimed_dry_weight_MC250": "100.1 kg",
+    "claimed_weight_MC125": "93.1 kg (no fuel)",
+    "wheelbase_MC250": "1,493 mm",
+    "seat_height_MC250": "956 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "ADB Magazine - Motocross test 2024 GasGas MC250",
+    "url": "https://adbmag.com.au/editorial/motocross-test-2024-gasgas-mc250/",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Specs as printed by the magazine from GasGas data."
+  },
+  {
+   "id": "k2t-009",
+   "domain": "identity",
+   "topic": "2024 KTM/Husqvarna changes",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "KTM 250 SX",
+     "KTM 300 SX",
+     "Husqvarna TC 125",
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "2024 KTM two-strokes were nearly identical to 2023: small fork shim changes for smoother mid-valve action and new shock high-speed compression settings with smaller steps per click; no ECU mapping change.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2024 KTM 125SX two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-ktm-125sx-two-stroke",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Testers said they could not feel the suspension change."
+  },
+  {
+   "id": "k2t-010",
+   "domain": "identity",
+   "topic": "2025 updates and 150 SX return",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "KTM 150 SX",
+     "KTM 250 SX",
+     "KTM 300 SX"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "2025 brought a revised chromoly frame (wall thickness, front triangle, shock mount; about 11 oz lighter), new engine mounts, new linkage and shock settings with more damping, matching fork settings, a one-piece snorkel, new tank shrouds and a sturdier brake pedal. The 150 SX returned with the TBI engine.",
+   "values": {
+    "bore_x_stroke_150": "58 x 54.4 mm (144 cc)",
+    "wet_weight_300_250": "231 lb",
+    "wet_weight_150": "216 lb",
+    "wet_weight_125": "215 lb"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling - 2025 KTM SX lineup first look: 300, 250, 150, 125",
+    "url": "https://ultimatemotorcycling.com/2024/04/13/2025-ktm-sx-lineup-first-look-300-250-150-125-10-fast-facts",
+    "date": "2024-04"
+   },
+   "confidence": "high",
+   "notes": "Weights are claimed wet. Another source gives the 150 stroke as 54.5 mm (dr_tc150tech)."
+  },
+  {
+   "id": "k2t-011",
+   "domain": "identity",
+   "topic": "2025 Husqvarna TC 150 and TC 300 added",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 150",
+     "Husqvarna TC 300",
+     "Husqvarna TC 125",
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Husqvarna added the TC 150 (bigger-bore TC 125) and TC 300 (bigger-bore TC 250) for 2025, with a revised frame, new linkage seals and smaller linkage bolt, a seat 5 mm higher and wider, and Dunlop MX34 tires.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21 - First look 2025 Husqvarna TC and FC range (new 150 and 300 two-strokes)",
+    "url": "https://enduro21.com/en/news/first-look-2025-husqvarna-tc-and-fc-model-range-new-150-and-300cc-two-strokes",
+    "date": "2024-05"
+   },
+   "confidence": "high",
+   "notes": "The new engine mounts on Husqvarna were listed for the FC four-strokes only."
+  },
+  {
+   "id": "k2t-012",
+   "domain": "identity",
+   "topic": "2026 KTM changes",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "KTM 150 SX",
+     "KTM 250 SX",
+     "KTM 300 SX"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "2026 KTM SX two-strokes are detail updates: a fuel-connector protector cap, threaded radiator cap, re-routed wiring harness, new linkage seals and Dunlop MX34 tires.",
+   "values": {
+    "claimed_weight_250": "99.4 kg without fuel",
+    "engine_weight_250": "23.9 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM - 2026 KTM 250 SX model page",
+    "url": "https://www.ktm.com/en-nl/models/motocross/2-stroke/2026-ktm-250-sx.html",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k2t-013",
+   "domain": "identity",
+   "topic": "2026 GasGas changes",
+   "applies_to": {
+    "models": [
+     "GasGas MC 125",
+     "GasGas MC 250"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "2026 GasGas MC 125/250 changes are a one-piece die-cast swingarm (as listed), a fuel-line protector cap, re-routed two-stroke wiring harness, black seat cover, black rims and bars, a new bar pad and graphics. No MC 150 or MC 300 was announced.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - First look 2026 GasGas two- and four-stroke motocross models",
+    "url": "https://motocrossactionmag.com/first-look-2026-gas-gas-two-and-four-stroke-motocross-models",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "First-look article; not all items are confirmed as new for 2026."
+  },
+  {
+   "id": "k2t-014",
+   "domain": "chassis",
+   "topic": "Husqvarna vs KTM 125/250 (carb era)",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 125",
+     "Husqvarna TC 250",
+     "KTM 125 SX",
+     "KTM 250 SX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "Husqvarna TC models use a plastic/carbon composite subframe and airbox that breathe less than KTM's aluminium subframe and airbox, giving softer throttle response; they also sit about an inch lower with softer valving and a handlebar map switch.",
+   "values": {
+    "seat_height_vs_KTM": "~1 in lower",
+    "TC250_weight_2021": "211 lb",
+    "TC250_msrp_2021": "$8,499"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2021 Husqvarna TC250 two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-husqvarna-tc250-two-stroke",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k2t-015",
+   "domain": "chassis",
+   "topic": "Husqvarna TC 125 TBI vs KTM",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 125",
+     "KTM 125 SX"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "The TBI TC 125 has forks 10 mm shorter than the KTM's, a longer seal head and changed linkage to lower seat height, with softer fork action.",
+   "values": {
+    "fork_length_vs_KTM": "-10 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Test update 2023 Husqvarna TC125 two-stroke",
+    "url": "https://motocrossactionmag.com/test-update-2023-husqvarna-tc125-two-stroke-the-dream-bike-for-a-niche-group",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k2t-016",
+   "domain": "chassis",
+   "topic": "Husqvarna TC 250 TBI vs KTM",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 250",
+     "KTM 250 SX"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "The TBI TC 250 sits about an inch lower than the KTM, is valved for novice and vet riders, and has a closed airbox that slightly dulls the first crack of throttle.",
+   "values": {
+    "ride_height_vs_KTM": "~1 in lower"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2023 Husqvarna TC250 two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-husqvarna-tc250-two-stroke/",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k2t-017",
+   "domain": "chassis",
+   "topic": "Husqvarna TC 150 vs KTM 150 SX",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 150",
+     "KTM 150 SX"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The TC 150 forks look the same as the KTM's but the tubes are 10 mm shorter, the shock is lowered through the linkage, and the subframe rear is closed off, cutting airflow to the engine.",
+   "values": {
+    "fork_tubes_vs_KTM": "-10 mm",
+    "measured_wet_weight": "216 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider - 2025 Husqvarna TC 150 technical overview",
+    "url": "https://dirtrider.com/dirt-bikes/husqvarna-tc-150-technical-overview",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k2t-018",
+   "domain": "engine_architecture",
+   "topic": "TC 150 vs TC 125 engine and gearing",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 150",
+     "Husqvarna TC 125"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The TC 150 is a TC 125 with a 4 mm bigger bore (58.0 x 54.5 mm, 144 cc), the same pipe and silencer, and gearing two teeth shorter on the rear sprocket (13/48).",
+   "values": {
+    "bore_x_stroke": "58.0 x 54.5 mm",
+    "displacement": "144 cc",
+    "gearing": "13/48"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider - 2025 Husqvarna TC 150 technical overview",
+    "url": "https://dirtrider.com/dirt-bikes/husqvarna-tc-150-technical-overview",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Gearing stated as 'two teeth smaller' than the TC 125."
+  },
+  {
+   "id": "k2t-019",
+   "domain": "chassis",
+   "topic": "GasGas clamps and suspension (125/250)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 125",
+     "GasGas MC 250"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "The GasGas forged triple clamps flex more than KTM/Husqvarna billet clamps, causing oversteer on corner entry and understeer on exit; suspension is plusher and softer, aimed at novice and vet riders.",
+   "values": {
+    "tip_clamp_torque": "20 N-m top, 15 N-m bottom (tighter than KTM spec)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Inside scoop on the 2021 125 two-stroke shootout",
+    "url": "https://motocrossactionmag.com/inside-scoop-on-motocross-actions-125-two-stroke-shootout",
+    "date": "2021-06"
+   },
+   "confidence": "high",
+   "notes": "Clamp torque tip from the 2023 MC250 test (mxa23_mc250)."
+  },
+  {
+   "id": "k2t-020",
+   "domain": "chassis",
+   "topic": "Shock differences GasGas vs KTM (2023)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 250",
+     "KTM 250 SX"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "The 2023 GasGas MC 250 shock is 15 mm longer, tool-adjusted and softer, while the KTM has hand-adjustable clickers.",
+   "values": {
+    "shock_length_diff": "+15 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2023 GasGas MC250 two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-gasgas-mc250-two-stroke",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k2t-021",
+   "domain": "chassis",
+   "topic": "TBI frame behaviour",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "KTM 250 SX",
+     "KTM 300 SX",
+     "Husqvarna TC 125",
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "The 2023-on chromoly frame, shock, subframe and swingarm reduce squat under acceleration and raise ride height; testers rated handling as excellent and found the softer two-stroke valving suited the frame better than on the 450.",
+   "values": {
+    "weight_125SX_TBI": "204.5 lb (about 10.5 lb more than 2022 carb)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2024 KTM 125SX two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-ktm-125sx-two-stroke",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Weight magazine-measured, no fuel."
+  },
+  {
+   "id": "k2t-022",
+   "domain": "chassis",
+   "topic": "2019-2022 frame feel",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "KTM 125 SX",
+     "KTM 150 SX"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "The stiffer 2019-2022 frame suits fast riders but passes track roughness through to slower riders.",
+   "values": {
+    "weight_250SX": "212 lb (no fuel), 7 lb lighter than YZ250"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2020 KTM 250SX two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-ktm-250sx-two-stroke",
+    "date": "2020-07"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "k2t-023",
+   "domain": "chassis",
+   "topic": "2024 GasGas chassis on track",
+   "applies_to": {
+    "models": [
+     "GasGas MC 250"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The anti-squat rear felt odd at first on corner exits but let the rider get on the throttle harder; the shock was forgiving, and the air fork handled big landings but felt harsh on small high-speed bumps.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "ADB Magazine - Motocross test 2024 GasGas MC250",
+    "url": "https://adbmag.com.au/editorial/motocross-test-2024-gasgas-mc250/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Launch-event test, 178 cm rider."
+  },
+  {
+   "id": "k2t-024",
+   "domain": "power_feel",
+   "topic": "250 SX carb vs YZ250 by rpm",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "The carbureted 250 SX made 49.23 hp against 46.08 for the YZ250, leading by about 2 hp at 6,000 rpm, 4 hp at 7,000 and 2.6 hp at 8,000; the YZ passes it about 8,800 rpm and the KTM falls off sharply by about 9,500.",
+   "values": {
+    "peak_250SX": "49.23 hp",
+    "peak_YZ250": "46.08 hp",
+    "lead_6000": "~2 hp",
+    "lead_7000": "~4 hp",
+    "lead_8000": "~2.6 hp",
+    "crossover": "~8,800 rpm",
+    "signoff": "~9,500 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2020 KTM 250SX two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-ktm-250sx-two-stroke",
+    "date": "2020-07"
+   },
+   "confidence": "high",
+   "notes": "Magazine dyno, brand not stated; stock bikes. The 2022 test repeats 49.23 hp (about 3 hp over YZ250)."
+  },
+  {
+   "id": "k2t-025",
+   "domain": "power_feel",
+   "topic": "250 SX carb feel and why",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX"
+    ],
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "Power is strongest bottom to mid with an aggressive hit when it comes on, then little top end; the 2019-2022 engine is less explosive than 2017-2018, mostly because the airbox restricts airflow.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2020 KTM 250SX two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-ktm-250sx-two-stroke",
+    "date": "2020-07"
+   },
+   "confidence": "high",
+   "notes": "Fix suggested: one tooth smaller rear sprocket; drill airbox cover (re-jet)."
+  },
+  {
+   "id": "k2t-026",
+   "domain": "power_feel",
+   "topic": "TC 250 carb feel vs KTM and YZ",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "The carbureted TC 250 is concentrated bottom-to-mid and needs more shifting; the KTM is snappier off the bottom, the YZ250 focuses mid-to-high and pulls further. Map 1 is aggressive, map 2 rolls on softer for traction.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2021 Husqvarna TC250 two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-husqvarna-tc250-two-stroke",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Venting the cover (1-1/4 in holes) added throttle snap; fast testers liked it, slow ones did not."
+  },
+  {
+   "id": "k2t-027",
+   "domain": "power_feel",
+   "topic": "MC 250 carb feel",
+   "applies_to": {
+    "models": [
+     "GasGas MC 250"
+    ],
+    "years": [
+     2022,
+     2023
+    ]
+   },
+   "statement": "The carbureted MC 250 hits hard from the bottom and pulls harder into the midrange than the YZ250 but signs off early, so it needs short-shifting; one tooth taller gearing (14/48) calms the bottom and spreads the gears.",
+   "values": {
+    "stock_gearing": "14/49",
+    "suggested": "14/48"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2023 GasGas MC250 two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-gasgas-mc250-two-stroke",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k2t-028",
+   "domain": "power_feel",
+   "topic": "TC 250 TBI map gap and curve",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "On the green map with the valve fully open, the TBI TC 250 makes about 46 hp at 7,500 rpm, dips slightly, then climbs to 52.12 hp at 8,600; it is about 3 hp up on the 2022 carb bike. The white map is several hp weaker, unlike the KTM whose maps were close.",
+   "values": {
+    "7500": "~46 hp",
+    "peak": "52.12 hp @ 8,600 rpm",
+    "peak_torque": "32.40 lb-ft",
+    "gain_vs_2022": "~3 hp"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2023 Husqvarna TC250 two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-husqvarna-tc250-two-stroke/",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Magazine dyno, brand not stated; green map. Same peak also in 2t-044."
+  },
+  {
+   "id": "k2t-029",
+   "domain": "power_feel",
+   "topic": "TBI 250/300 dyno with torque",
+   "applies_to": {
+    "models": [
+     "KTM 300 SX",
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Stock 300 SX: 54.96 hp at 8,560 rpm and 35.38 lb-ft at 7,450 rpm, fading after about 7,500. Stock TC 250: 52.12 hp at 8,600 rpm, 32.17 lb-ft at 8,150, with a slight dip at 7,600-8,000 rpm.",
+   "values": {
+    "300SX_peak": "54.96 hp @ 8,560",
+    "300SX_torque": "35.38 lb-ft @ 7,450",
+    "TC250_peak": "52.12 hp @ 8,600",
+    "TC250_torque": "32.17 lb-ft @ 8,150"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Team tested FMF 2023 KTM 250/300SX pipe/silencer",
+    "url": "https://motocrossactionmag.com/mxa-team-tested-fmf-2023-ktm-250-300sx-pipe-silencer",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Green map; dyno brand not named."
+  },
+  {
+   "id": "k2t-030",
+   "domain": "power_feel",
+   "topic": "125 SX TBI vs carb siblings",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "Husqvarna TC 125",
+     "GasGas MC 125"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "In 2023 the carbureted MC 125 made 38.25 hp at 11,400 rpm and 17.87 lb-ft at 11,200, against 37.21 hp at 11,200 for the TBI 125 SX and 37.09 hp at 11,200 for the TBI TC 125. All three match from 7,500 to about 10,800 rpm, then the carb bike keeps climbing while the TBI bikes taper.",
+   "values": {
+    "MC125_carb": "38.25 hp @ 11,400 / 17.87 lb-ft @ 11,200",
+    "125SX_TBI": "37.21 hp @ 11,200",
+    "TC125_TBI": "37.09 hp @ 11,200",
+    "split_rpm": "~10,800 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Test update 2023 KTM 125SX two-stroke (first-year quibbles)",
+    "url": "https://motocrossactionmag.com/test-update-2023-ktm-125sx-two-stroke-a-first-year-model-with-quibbles",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Same magazine dyno across bikes; brand not stated. TC figure from mxa23_tc125."
+  },
+  {
+   "id": "k2t-031",
+   "domain": "power_feel",
+   "topic": "125 TBI feel and why",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "Husqvarna TC 125"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "The TBI 125 is slightly slower off the crack than the carb bike but rolls into power more easily, needs less effort to keep on the pipe, and the smoother delivery helps rear traction; it suits novices more than top racers.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Test update 2023 KTM 125SX two-stroke (first-year quibbles)",
+    "url": "https://motocrossactionmag.com/test-update-2023-ktm-125sx-two-stroke-a-first-year-model-with-quibbles",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k2t-032",
+   "domain": "power_feel",
+   "topic": "GasGas MC 125 carb feel (closed airbox)",
+   "applies_to": {
+    "models": [
+     "GasGas MC 125"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "The carbureted MC 125 has a strong midrange and good top-end pull, but its closed airbox cover blunts initial throttle response.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Test update 2023 GasGas MC125 two-stroke",
+    "url": "https://motocrossactionmag.com/test-update-2023-gasgas-mc125-two-stroke-faithful-fast-for-the-125-class",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Fix: vented aftermarket cover or drilled stock cover."
+  },
+  {
+   "id": "k2t-033",
+   "domain": "power_feel",
+   "topic": "150 SX carb vs 125 SX feel",
+   "applies_to": {
+    "models": [
+     "KTM 150 SX",
+     "KTM 125 SX"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "The carbureted 150 SX just tops 40 hp, about 3 hp more than the 125, but hits hard in the mid and signs off fast; it shares the 125's cases, intake and exhaust with only a bigger piston, so the 125 feels smoother and can be held near 11,200 rpm.",
+   "values": {
+    "peak_claim": ">40 hp",
+    "vs_125SX": "~+3 hp"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2022 KTM 150SX two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-150sx-two-stroke-2",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Peak stated in text, no dyno chart published."
+  },
+  {
+   "id": "k2t-034",
+   "domain": "power_feel",
+   "topic": "150 SX carb cylinder update",
+   "applies_to": {
+    "models": [
+     "KTM 150 SX"
+    ],
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "A 2019 cylinder and exhaust update added almost 1 hp to the 150 SX; holding a gear too long shifts weight forward and unsettles the chassis.",
+   "values": {
+    "2019_gain": "~1 hp"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2021 KTM 150SX",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-ktm-150sx",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "k2t-035",
+   "domain": "power_feel",
+   "topic": "TC 150 TBI dyno",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 150",
+     "KTM 125 SX"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The TC 150 made 36.2 hp at 11,200 rpm and 17.1 lb-ft at 10,800 rpm at the rear wheel, 3.0 hp and 1.0 lb-ft more than the 2024 KTM 125 SX on the same dyno.",
+   "values": {
+    "peak_hp": "36.2 hp @ 11,200 rpm",
+    "peak_torque": "17.1 lb-ft @ 10,800 rpm",
+    "implied_2024_125SX": "~33.2 hp / ~16.1 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider - How much power does the 2025 Husqvarna TC 150 make?",
+    "url": "https://dirtrider.com/tests/husqvarna-tc-150-dyno-test-2025",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "In-house dyno (this outlet uses a Dynojet 250i in other tests). 125 SX value DERIVED by subtraction: 36.2-3.0 and 17.1-1.0. rpm figures from dr_tc150tech."
+  },
+  {
+   "id": "k2t-036",
+   "domain": "power_feel",
+   "topic": "150 SX TBI stock feel",
+   "applies_to": {
+    "models": [
+     "KTM 150 SX"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The stock TBI 150 SX felt dull at the bottom, strongest in the midrange but flattening, and faded on top so riders short-shifted; the injection tames its two-stroke character toward a four-stroke feel.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX - FMF Powercore 2.1 and Factory Fatty pipe 2025 KTM 150 SX review",
+    "url": "https://www.vitalmx.com/features/fmf-powercore-2-1-and-factory-fatty-pipe-2025-ktm-150-sx-review",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Single reviewer."
+  },
+  {
+   "id": "k2t-037",
+   "domain": "power_feel",
+   "topic": "TC 300 owner feel",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 300"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Owners describe the TC 300 as smooth, linear and luggable, smoother than a YZ250; some say it runs out of steam early stock, and a remap is commonly recommended for more over-rev.",
+   "values": {},
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX - 2025 Husqvarna TC300 reviews?",
+    "url": "https://www.vitalmx.com/comment/8511866",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": "Few TC-specific owners in thread."
+  },
+  {
+   "id": "k2t-038",
+   "domain": "power_feel",
+   "topic": "MC 125/250 TBI feel",
+   "applies_to": {
+    "models": [
+     "GasGas MC 125",
+     "GasGas MC 250"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The TBI MC 125 feels more predictable and four-stroke-like with fewer peaks and dips when a shift is missed; the MC 250 has very strong low-end torque and pulls third gear in slow sections.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "MotoOnline - Tested: 2024 GasGas MC range",
+    "url": "https://www.motoonline.com/au/tested-2024-gasgas-mc-range/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "k2t-039",
+   "domain": "power_feel",
+   "topic": "300 SX stock vs piped feel",
+   "applies_to": {
+    "models": [
+     "KTM 300 SX"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Stock on the green map the 300 SX has a short midrange ramp and short over-rev that forces quick shifts; the white map is easier to ride.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - Pro Circuit KTM 300SX exhaust product review",
+    "url": "https://dirtbikemagazine.com/pro-circuit-ktm300sx-exhaust-product-review/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "k2t-040",
+   "domain": "power_feel",
+   "topic": "2021 125 shootout result",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "Husqvarna TC 125",
+     "GasGas MC 125"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "2021 125 shootout order: KTM 125 SX (37.52 hp at 11,200), Husqvarna TC 125, GasGas MC 125, Yamaha YZ125 (33.99 hp at 11,700), TM. The Husky handled best but its airbox hurt response; the GasGas was 0.5-1.5 s a lap off the KTM.",
+   "values": {
+    "125SX": "37.52 hp @ 11,200",
+    "TC125": "~37.6 hp (derived: 3.61 hp over YZ)",
+    "YZ125": "33.99 hp @ 11,700",
+    "ranking": "KTM, Husqvarna, GasGas, Yamaha, TM"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Inside scoop on the 2021 125 two-stroke shootout",
+    "url": "https://motocrossactionmag.com/inside-scoop-on-motocross-actions-125-two-stroke-shootout",
+    "date": "2021-06"
+   },
+   "confidence": "high",
+   "notes": "Same magazine dyno; MC 125 figure not given."
+  },
+  {
+   "id": "k2t-041",
+   "domain": "power_feel",
+   "topic": "2022 125 shootout result",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "Husqvarna TC 125",
+     "GasGas MC 125"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "2022 125 shootout order: KTM 125 SX first, GasGas MC 125 and Husqvarna TC 125 tied second, Yamaha YZ125 fourth. Pro testers were up to 2 s a lap slower on the Husky because of its muted throttle; the GasGas airbox shape helped it.",
+   "values": {
+    "weights": "KTM 194 lb, TC 195 lb, MC 194 lb, YZ 199 lb",
+    "msrp": "KTM $7,499, TC $7,599, MC $6,899, YZ $6,899"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2022 125 two-stroke shootout",
+    "url": "https://motocrossactionmag.com/the-must-read-motocross-action-2022-125-two-stroke-shootout",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Dyno numbers already in 2t-049."
+  },
+  {
+   "id": "k2t-042",
+   "domain": "power_feel",
+   "topic": "250 SX vs 300 SX choice",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "KTM 300 SX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The 300 SX shares the 250 bottom end with a 72 mm bore; it pulls hard in the midrange so it can be lugged in 2nd and 3rd with fewer shifts, while the 250 revs through the gears quicker.",
+   "values": {
+    "300_bore_x_stroke": "72 x 72 mm (293 cc)",
+    "250_bore_x_stroke": "66.4 x 72 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2024 KTM 250/300SX two-strokes",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-ktm-250-300sx-two-strokes",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "The 300 is Open class, not AMA 450-class legal."
+  },
+  {
+   "id": "k2t-043",
+   "domain": "ecu_electronics",
+   "topic": "carb map connector (KTM/GasGas)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "KTM 125 SX",
+     "KTM 150 SX",
+     "GasGas MC 250",
+     "GasGas MC 125"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "On carbureted KTM and GasGas bikes, unplugging the white connector under the left side of the tank selects the mellow ignition map; plugged in is the stock performance map.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2022 GasGas MC 250 two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-gasgas-mc-250-two-stroke",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k2t-044",
+   "domain": "ecu_electronics",
+   "topic": "carb Husqvarna handlebar map switch",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 250",
+     "Husqvarna TC 125"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "Carbureted Husqvarna TC models have a handlebar map switch (map 1 aggressive, map 2 mellow) that testers found hidden under the throttle cables and hard to read.",
+   "values": {
+    "map1": "aggressive",
+    "map2": "mellow"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2021 Husqvarna TC250 two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-husqvarna-tc250-two-stroke",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Numbering is opposite to the TBI bikes where map 2 (green) is stronger."
+  },
+  {
+   "id": "k2t-045",
+   "domain": "ecu_electronics",
+   "topic": "TBI map switch, no TC or launch",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "KTM 300 SX",
+     "Husqvarna TC 250",
+     "GasGas MC 250",
+     "KTM 125 SX",
+     "Husqvarna TC 125",
+     "GasGas MC 125"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "TBI two-strokes have a two-position map switch (map 1 white linear, map 2 green sharper) but, unlike the four-strokes, no traction control, launch control or quickshifter.",
+   "values": {
+    "traction_control": "no",
+    "launch_control": "no",
+    "quickshifter": "no"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2023 Husqvarna TC250 two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-husqvarna-tc250-two-stroke/",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "GasGas specs also list no TC/launch (mo_gg24)."
+  },
+  {
+   "id": "k2t-046",
+   "domain": "ecu_electronics",
+   "topic": "GasGas map switch optional",
+   "applies_to": {
+    "models": [
+     "GasGas MC 250",
+     "GasGas MC 125"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "On the 2024 GasGas the handlebar map switch was an optional accessory on the test bike and the tester's first suggested upgrade; standard map suits hard-pack, the green map suits sand.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "ADB Magazine - Motocross test 2024 GasGas MC250",
+    "url": "https://adbmag.com.au/editorial/motocross-test-2024-gasgas-mc250/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Market: Australia. Check US standard equipment."
+  },
+  {
+   "id": "k2t-047",
+   "domain": "ecu_electronics",
+   "topic": "125/150 TBI map meaning",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 150",
+     "Husqvarna TC 125",
+     "KTM 125 SX"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "On the 125/150 TBI the white map is the leaner one and green the richer one, chosen by track surface; testers found the green 'safety' map bogged randomly and advised avoiding it.",
+   "values": {
+    "white": "lean",
+    "green": "rich"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider - 2025 Husqvarna TC 150 technical overview",
+    "url": "https://dirtrider.com/dirt-bikes/husqvarna-tc-150-technical-overview",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Bog report from mxa23_125/mxa23_tc125."
+  },
+  {
+   "id": "k2t-048",
+   "domain": "ecu_electronics",
+   "topic": "locked ECU at launch",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "Husqvarna TC 125",
+     "KTM 250 SX",
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "The 2023 TBI Continental ECU was locked: no aftermarket ECU existed and only one Florida shop (WMR Motorsports) had cracked the remap; testers wanted it richer and used 50/50 pump/race gas when lean.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Test update 2023 Husqvarna TC125 two-stroke",
+    "url": "https://motocrossactionmag.com/test-update-2023-husqvarna-tc125-two-stroke-the-dream-bike-for-a-niche-group",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Vortex reportedly had not built a two-stroke ECU because hardware/software differ from the four-strokes (mxa23_125)."
+  },
+  {
+   "id": "k2t-049",
+   "domain": "ecu_electronics",
+   "topic": "ECU flash options (TBI)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "KTM 300 SX",
+     "Husqvarna TC 250",
+     "Husqvarna TC 300",
+     "GasGas MC 250"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Remap services owners name for TBI 250/300 include WMR, TPi tuning and Twisted Development; mostly bought for more over-rev, often with a 49-tooth sprocket.",
+   "values": {},
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX - 2025 Husqvarna TC300 reviews?",
+    "url": "https://www.vitalmx.com/comment/8511866",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": "Twisted Development details are in 2t-024."
+  },
+  {
+   "id": "k2t-050",
+   "domain": "ecu_electronics",
+   "topic": "BT Moto mail-in flash",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "KTM 300 SX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "A mail-in bench flash for the 250/300 SX gives a switchable stock/tuned map with changed fuel, ignition, throttle and a raised rev limiter, priced at $399.",
+   "values": {
+    "price": "$399",
+    "rev_limit": "raised (no figure)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "BT Moto - 2020+ KTM 250SX/300SX Stage 1 mail-in ECU flash",
+    "url": "https://bt-moto.com/product/2020-ktm-300sx-stage-1-mail-in-ecu-flash",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": "Listing also mentions oil-injection mapping, which SX TBI models do not have, so fitment to TBI SX bikes is unclear. No dyno data."
+  },
+  {
+   "id": "k2t-051",
+   "domain": "ecu_electronics",
+   "topic": "Slavens EZ reflash discontinued",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "KTM 300 SX"
+    ],
+    "years": [
+     2018,
+     2019,
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "The Slavens mail-in reflash covered TPI enduro bikes only (not SX TBI) and was discontinued in January 2024 in favour of the Two Stroke Performance module.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Slavens Racing - Mule EZ ECU tuning reflash (TPI)",
+    "url": "https://slavensracing.com/?p=395526",
+    "date": "2024-01"
+   },
+   "confidence": "medium",
+   "notes": "Included so riders do not buy it for an SX."
+  },
+  {
+   "id": "k2t-052",
+   "domain": "setups",
+   "topic": "jetting - 250 SX 2020",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Tester jetting for the 2020 250 SX 38 mm Mikuni TMX: 450 main, 35 pilot, 6BFY43-71 needle in the 3rd clip, air screw 1-1/2 turns out.",
+   "values": {
+    "main": "450",
+    "pilot": "35",
+    "needle": "6BFY43-71",
+    "clip": "3",
+    "air_screw": "1.5 turns"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2020 KTM 250SX two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-ktm-250sx-two-stroke",
+    "date": "2020-07"
+   },
+   "confidence": "high",
+   "notes": "Southern California sea level conditions; premix 40:1."
+  },
+  {
+   "id": "k2t-053",
+   "domain": "setups",
+   "topic": "jetting - 250 SX / TC 250 / MC 250 2021-2023",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "Husqvarna TC 250",
+     "GasGas MC 250"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "Tester jetting for the carbureted 250 (KTM 2022, Husqvarna 2021, GasGas 2022-2023): 450 main, 35 pilot, 6BFY42-71 needle 3rd clip, air screw 1-1/2 turns; stock jetting worked well.",
+   "values": {
+    "main": "450",
+    "pilot": "35",
+    "needle": "6BFY42-71",
+    "clip": "3",
+    "air_screw": "1.5 turns"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2022 KTM 250SX two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-250sx-two-stroke",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "SoCal, 40:1 Maxima K2. Same table in mxa21_tc250, mxa22_mc250, mxa23_mc250. Needle differs from the 2020 test (43 vs 42)."
+  },
+  {
+   "id": "k2t-054",
+   "domain": "setups",
+   "topic": "jetting - 150 SX",
+   "applies_to": {
+    "models": [
+     "KTM 150 SX"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "Tester jetting for the carbureted 150 SX: 500 main, 35 pilot, 6BFY43-71 needle 2nd clip, air screw 2-1/2 turns out.",
+   "values": {
+    "main": "500",
+    "pilot": "35",
+    "needle": "6BFY43-71",
+    "clip": "2",
+    "air_screw": "2.5 turns"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2022 KTM 150SX two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-150sx-two-stroke-2",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Same in 2021 and 2022 tests. SoCal conditions."
+  },
+  {
+   "id": "k2t-055",
+   "domain": "setups",
+   "topic": "air screw method",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "Husqvarna TC 250",
+     "GasGas MC 250"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "For bottom-end hesitation, set the air screw with the engine held near 1,800 rpm, turning it to where idle speed peaks.",
+   "values": {
+    "set_rpm": "~1,800 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2021 Husqvarna TC250 two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-husqvarna-tc250-two-stroke",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k2t-056",
+   "domain": "setups",
+   "topic": "owner jetting reports (125/150)",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "KTM 150 SX"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Owners posted 125/150 settings around 480-540 main, 32.5 pilot, 42-74 needle and slide 5.0; a 125 on 540/32.5 clip 3 still ran lean and hot, and a 480 main was called a touch lean at sea level.",
+   "values": {
+    "125SX_report": "540 main / 32.5 pilot / 42-74 clip 3 / AS 1.5",
+    "150SX_report": "480 main / 32.5 pilot / 42-74 clip 2 / AS 1.75 (ported)"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX - 125/150/250/300 KTM/HUS/GG jetting thread",
+    "url": "https://www.vitalmx.com/comment/6523246",
+    "date": "2022"
+   },
+   "confidence": "low",
+   "notes": "Carb type not always stated; some may be Keihin swaps. Use only as a direction, not a baseline."
+  },
+  {
+   "id": "k2t-057",
+   "domain": "setups",
+   "topic": "power valve settings by rider (carb)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "Husqvarna TC 250",
+     "GasGas MC 250"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "Tester power-valve starting point is fully out then 1-1/2 turns in; pros ran fully out on good traction, vets went to 2-1/2 turns in to soften the bottom.",
+   "values": {
+    "start": "1.5 turns in",
+    "pro": "0 turns (fully out)",
+    "vet": "2.5 turns in"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2021 Husqvarna TC250 two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-husqvarna-tc250-two-stroke",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k2t-058",
+   "domain": "setups",
+   "topic": "power valve setting 150 SX",
+   "applies_to": {
+    "models": [
+     "KTM 150 SX"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "On the 150 SX, testers backed the adjuster fully out then turned it in half a turn to reduce bottom hit and extend over-rev.",
+   "values": {
+    "setting": "0.5 turn in from fully out"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2021 KTM 150SX",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-ktm-150sx",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Contradicts the usual 'in = smoother' rule as stated; recorded as published."
+  },
+  {
+   "id": "k2t-059",
+   "domain": "setups",
+   "topic": "gearing 150 SX",
+   "applies_to": {
+    "models": [
+     "KTM 150 SX"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "Stock 150 SX gearing is 13/48 (3.692); pros preferred 14/49 (3.500) and tight tracks or less-skilled riders 14/50 (3.571).",
+   "values": {
+    "stock": "13/48",
+    "pro": "14/49",
+    "tight": "14/50"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2022 KTM 150SX two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-150sx-two-stroke-2",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k2t-060",
+   "domain": "setups",
+   "topic": "tester setup - 250 SX 2020",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Fork 144 psi (stock 148), compression 20 out, rebound 12 out, 2nd line; shock 42 N/mm, HSC 2 turns out, LSC 15 out, rebound 14 out, 105 mm race sag.",
+   "values": {
+    "fork_air": "144 psi",
+    "shock_spring": "42 N/mm",
+    "race_sag": "105 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2020 KTM 250SX two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-ktm-250sx-two-stroke",
+    "date": "2020-07"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k2t-061",
+   "domain": "setups",
+   "topic": "tester setup - 250 SX 2022",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Fork 148 psi, compression and rebound 12 out (16 for slower riders), 2nd line; shock 42 N/mm, HSC 1-1/2 out, LSC 15 out, rebound 15 out, 105 mm sag.",
+   "values": {
+    "fork_air": "148 psi (10.2 bar; 151 also printed)",
+    "shock_spring": "42 N/mm",
+    "race_sag": "105 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2022 KTM 250SX two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-250sx-two-stroke",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k2t-062",
+   "domain": "setups",
+   "topic": "tester setup - TC 250 2021",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Fork 150 psi, compression 12 out, rebound 12 out, 2nd line; shock 42 N/mm, HSC 1-1/2 out, LSC 15 out, rebound 15 out, 105 mm sag.",
+   "values": {
+    "fork_air": "150 psi",
+    "shock_spring": "42 N/mm",
+    "race_sag": "105 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2021 Husqvarna TC250 two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-husqvarna-tc250-two-stroke",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k2t-063",
+   "domain": "setups",
+   "topic": "tester setup - MC 250 2022-2023",
+   "applies_to": {
+    "models": [
+     "GasGas MC 250"
+    ],
+    "years": [
+     2022,
+     2023
+    ]
+   },
+   "statement": "Fork 151 psi, compression 8 out, rebound 10 out (12/18 for slower riders), 2nd line; shock 42 N/mm (45 for fast/heavy), HSC 1-1/2 out, LSC 14 out, rebound 14 out, 105 mm sag.",
+   "values": {
+    "fork_air": "151 psi",
+    "shock_spring": "42 N/mm stock, 45 N/mm fast/heavy",
+    "race_sag": "105 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2023 GasGas MC250 two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-gasgas-mc250-two-stroke",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k2t-064",
+   "domain": "setups",
+   "topic": "tester setup - TC 250 TBI 2023",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Fork 152/157/159 psi for novice/intermediate/pro, compression 8 out, rebound 10 out, forks flush; shock 45 N/mm, HSC 1 turn out, LSC 8 out, rebound 10 out, 105 mm sag (static sag 30-40 mm).",
+   "values": {
+    "fork_air": "152 / 157 / 159 psi",
+    "shock_spring": "45 N/mm",
+    "race_sag": "105 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2023 Husqvarna TC250 two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-husqvarna-tc250-two-stroke/",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Slower riders: comp 12, reb 18, 2nd line; shock HSC 1.5, LSC 12, reb 16."
+  },
+  {
+   "id": "k2t-065",
+   "domain": "setups",
+   "topic": "tester setup - 150 SX",
+   "applies_to": {
+    "models": [
+     "KTM 150 SX"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "Fork 120-151 psi, compression 12 out, rebound 18 out; shock 39 N/mm, 106 mm race sag, LSC 12 out, rebound 15 out.",
+   "values": {
+    "fork_air": "151 psi (2021), 120 psi (2022)",
+    "shock_spring": "39 N/mm",
+    "race_sag": "106 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2022 KTM 150SX two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-150sx-two-stroke-2",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "2021 figure from mxa21_150."
+  },
+  {
+   "id": "k2t-066",
+   "domain": "setups",
+   "topic": "tester setup - MC 250 TBI",
+   "applies_to": {
+    "models": [
+     "GasGas MC 250"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "A 74 kg rider ran 140-145 psi in the fork (155 felt too stiff) and raised sag from 110 to about 103 mm for sharper steering at the cost of stability downhill.",
+   "values": {
+    "fork_air": "140-145 psi",
+    "rider_weight": "74 kg",
+    "race_sag": "~103 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "MotoOnline - Tested: 2024 GasGas MC range",
+    "url": "https://www.motoonline.com/au/tested-2024-gasgas-mc-range/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "k2t-067",
+   "domain": "suspension",
+   "topic": "TBI stock suspension character",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "KTM 300 SX"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Stock 250/300 SX suspension is well balanced but soft for heavy or fast riders and deep sand or loam; set sag to 105 mm then tune fork air for weight. The shock rebound clicker needs a screwdriver.",
+   "values": {
+    "race_sag": "105 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2024 KTM 250/300SX two-strokes",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-ktm-250-300sx-two-strokes",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k2t-068",
+   "domain": "engine_mods",
+   "topic": "FMF Factory Fatty + Powercore 2.1 (300 SX)",
+   "applies_to": {
+    "models": [
+     "KTM 300 SX"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "An FMF Factory Fatty pipe and Powercore 2.1 silencer raised the 300 SX from 54.96 to 58.08 hp (8,800 rpm) and torque to 36.10 lb-ft at 7,750, losing a little at 5,800-6,700 rpm; riders felt more snap and could use 3rd in corners.",
+   "values": {
+    "peak": "58.08 hp @ 8,800 rpm",
+    "gain": "~+3.1 hp",
+    "torque": "36.10 lb-ft @ 7,750",
+    "loss_band": "5,800-6,700 rpm",
+    "price": "pipe $299.99, silencer $229.99 / Ti $449.99"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Team tested FMF 2023 KTM 250/300SX pipe/silencer",
+    "url": "https://motocrossactionmag.com/mxa-team-tested-fmf-2023-ktm-250-300sx-pipe-silencer",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Green map, stock ECU, dyno brand not named."
+  },
+  {
+   "id": "k2t-069",
+   "domain": "engine_mods",
+   "topic": "FMF Factory Fatty + Powercore 2.1 (TC 250)",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 250",
+     "KTM 250 SX"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "On the TC 250 the FMF system raised peak from 52.12 to 53.38 hp at 8,800 rpm and removed the 7,600-8,000 rpm dip; silencer only gave less bottom snap but more mid and top.",
+   "values": {
+    "peak": "53.38 hp @ 8,800 rpm",
+    "gain": "~+1.3 hp",
+    "torque": "32.40 lb-ft @ 8,250"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Team tested FMF 2023 KTM 250/300SX pipe/silencer",
+    "url": "https://motocrossactionmag.com/mxa-team-tested-fmf-2023-ktm-250-300sx-pipe-silencer",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Stock ECU; fits 2023 KTM 250/300 SX/XC and Husqvarna TC250/TX300."
+  },
+  {
+   "id": "k2t-070",
+   "domain": "engine_mods",
+   "topic": "Pro Circuit pipe + R304 (300 SX)",
+   "applies_to": {
+    "models": [
+     "KTM 300 SX"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "A Pro Circuit Works pipe and R304 silencer made the 300 SX come on at lower rpm, with slightly more midrange and a longer over-rev giving more room to shift.",
+   "values": {
+    "price": "pipe $334.95, silencer $171.95"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - Pro Circuit KTM 300SX exhaust product review",
+    "url": "https://dirtbikemagazine.com/pro-circuit-ktm300sx-exhaust-product-review/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Rider impression only, no dyno. With a remap, a PC pipe let testers use 3rd in tight turns (mxa24_250)."
+  },
+  {
+   "id": "k2t-071",
+   "domain": "engine_mods",
+   "topic": "FMF system on 150 SX TBI",
+   "applies_to": {
+    "models": [
+     "KTM 150 SX"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "An FMF Factory Fatty and Powercore 2.1 gave the 150 SX clearly better bottom-end response, slightly more midrange and a much longer over-rev, removing the need to short-shift.",
+   "values": {
+    "price": "~$750 total"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX - FMF Powercore 2.1 and Factory Fatty pipe 2025 KTM 150 SX review",
+    "url": "https://www.vitalmx.com/features/fmf-powercore-2-1-and-factory-fatty-pipe-2025-ktm-150-sx-review",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "No dyno, no remap mentioned."
+  },
+  {
+   "id": "k2t-072",
+   "domain": "engine_mods",
+   "topic": "pipe on 125 TBI causes detonation",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "Husqvarna TC 125"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "A Pro Circuit pipe and silencer added a lot of power on the TBI 125 but made detonation worse, even on race gas, so it needs a remap.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Test update 2023 Husqvarna TC125 two-stroke",
+    "url": "https://motocrossactionmag.com/test-update-2023-husqvarna-tc125-two-stroke-the-dream-bike-for-a-niche-group",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k2t-073",
+   "domain": "engine_mods",
+   "topic": "airbox venting",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "KTM 125 SX",
+     "KTM 150 SX",
+     "Husqvarna TC 250",
+     "GasGas MC 250",
+     "GasGas MC 125"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "The optional KTM vented airbox cover (or drilled holes kept away from the filter, or a UFO vented cover on GasGas) adds bottom-end power and throttle response on the carbureted bikes; re-check jetting after.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2022 KTM 250SX two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-250sx-two-stroke",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k2t-074",
+   "domain": "known_issues",
+   "topic": "125 TBI detonation",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "Husqvarna TC 125"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "The 2023-2024 TBI 125 detonated repeatedly on pump gas in testing, worse with an aftermarket pipe; the 2024 model got no mapping fix.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2024 KTM 125SX two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-ktm-125sx-two-stroke",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k2t-075",
+   "domain": "known_issues",
+   "topic": "TBI cut-outs / stalling",
+   "applies_to": {
+    "models": [
+     "KTM 300 SX",
+     "KTM 250 SX"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "A few 2023 250/300 SX owners reported the engine briefly cutting out under load or in the air; suspects were the throttle position sensor, fuel pickup or filter, and a blocked tank vent. No bulletin was found.",
+   "values": {
+    "tps_pigtail_cost": "~$40"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX - 2023 KTM SX 250/300 stall / shut off issue",
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/2023-ktm-sx-250-300-stall-shut-off-issue,1408548",
+    "date": "2022"
+   },
+   "confidence": "low",
+   "notes": "Dealer could not reproduce on the original case."
+  },
+  {
+   "id": "k2t-076",
+   "domain": "known_issues",
+   "topic": "TBI no-start / plug fouling",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "KTM 150 SX"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "One dealer saw 2025 125/150 SX TBI bikes that would not start or fouled plugs; cycling the fuel pump with the diagnostic tool, fresh fuel and the specified 40:1 premix got them running. Owners suggest waiting for the light to go out before pressing start.",
+   "values": {},
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX - 2025 KTM TBI starting issues",
+    "url": "https://www.vitalmx.com/comment/7813416",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": "Cause unconfirmed."
+  },
+  {
+   "id": "k2t-077",
+   "domain": "known_issues",
+   "topic": "TBI rev limiter abrupt",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "KTM 300 SX",
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "The TBI rev limiter is abrupt, mostly when revving with the clutch in or in the air; it rarely triggers with the wheel loaded.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2024 KTM 250/300SX two-strokes",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-ktm-250-300sx-two-strokes",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Remap reduces limiter hits."
+  },
+  {
+   "id": "k2t-078",
+   "domain": "known_issues",
+   "topic": "TBI electric start technique",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 250",
+     "KTM 250 SX"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Keep the throttle closed when pressing the start button, then add a little throttle.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2023 Husqvarna TC250 two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-husqvarna-tc250-two-stroke/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "k2t-079",
+   "domain": "known_issues",
+   "topic": "spokes, brake spring, oil check (carb era)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "KTM 125 SX",
+     "KTM 150 SX",
+     "GasGas MC 250",
+     "GasGas MC 125",
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "Spokes next to the rim lock loosen quickly in break-in; the rear brake pedal spring falls off or breaks (turn it round or fit a Honda spring); there is no oil sight glass, so check via the 8 mm weep bolt behind the brake spring.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2022 KTM 250SX two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-250sx-two-stroke",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k2t-080",
+   "domain": "known_issues",
+   "topic": "small-part complaints (TBI)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "KTM 300 SX",
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Plastic radiator cap is hard to remove (2026 got a threaded cap), side panels need the seat and 6-bolt rear fender off, and lower subframe bolts strip easily; check sprocket bolts in break-in.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2024 KTM 250/300SX two-strokes",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-ktm-250-300sx-two-strokes",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "2026 cap change per ktm26."
+  },
+  {
+   "id": "k2t-081",
+   "domain": "known_issues",
+   "topic": "fork break-in (carb era)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "New XACT air forks are harsh until broken in over several hours; bleed excess air often during break-in. Air pressure rises as the day heats up.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2022 KTM 250SX two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-250sx-two-stroke",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "TBI KTM 125 SX peak power",
+   "values": {
+    "MXA 2023 (dyno n/s)": "37.21 hp @ 11,200",
+    "MXA 2024": "37.2 hp @ 11,200",
+    "Dirt Rider 2023 Dynojet 250i": "30.9 hp @ 10,800",
+    "Dirt Rider 2025 test, 2024 bike (derived)": "~33.2 hp",
+    "Dirt Bike 2024 Pro Circuit dyno": "35.94 hp @ 11,430"
+   },
+   "spread": "30.9-37.2 hp",
+   "note": "Different dynos read differently; do not compare across."
+  },
+  {
+   "topic": "TBI TC 250 peak power",
+   "values": {
+    "MXA 2023": "52.12 hp @ 8,600",
+    "Dirt Rider 2025 Heritage Dynojet 250i": "43.0 hp"
+   },
+   "spread": "43.0-52.12 hp",
+   "note": "Different dynos and years."
+  },
+  {
+   "topic": "2022 carb KTM 125 SX peak",
+   "values": {
+    "MXA 2022 shootout": "38.5 hp @ 11,200",
+    "MXA 2024 test (2022 reference)": "38.2 hp @ 11,400"
+   },
+   "spread": "0.3 hp",
+   "note": "Same magazine, different runs."
+  },
+  {
+   "topic": "Carb 250 needle (tester table)",
+   "values": {
+    "MXA 2020 250SX": "6BFY43-71",
+    "MXA 2021-2023 250 tests": "6BFY42-71"
+   },
+   "spread": "one needle step",
+   "note": "May be a year change or typo."
+  },
+  {
+   "topic": "150 SX stroke",
+   "values": {
+    "Ultimate Motorcycling 2025": "54.4 mm",
+    "Dirt Rider TC 150": "54.5 mm (same as 125)"
+   },
+   "spread": "0.1 mm",
+   "note": "Bore 58 mm both."
+  },
+  {
+   "topic": "Carb power-valve adjuster location",
+   "values": {
+    "MXA 2020 250SX": "right side below water pump",
+    "MXA 2022 150SX": "left side of cases"
+   },
+   "spread": "n/a",
+   "note": "May differ genuinely between 125/150 and 250 engines."
+  },
+  {
+   "topic": "Power-valve adjuster direction on 150 SX",
+   "values": {
+    "MXA 2022 150SX": "clockwise smooths",
+    "MXA 2021 150SX": "0.5 turn in from fully out reduces bottom and extends over-rev"
+   },
+   "spread": "n/a",
+   "note": "2021 statement reads opposite to the usual rule."
+  }
+ ],
+ "not_found": [
+  "Traction control or launch control on any KTM/Husqvarna/GasGas TBI two-stroke: none found in any source; GasGas specs list neither.",
+  "Published dyno for GasGas MC 125/MC 250 TBI (2024-2026): searched MXA, Dirt Rider, ADB, MotoOnline; none found.",
+  "Dyno for Husqvarna TC 300 and KTM 150 SX TBI: not found (TC 150 found).",
+  "Dyno for KTM 250 SX TBI from Dirt Rider/Dirt Bike: not found in searches.",
+  "2023-2026 TBI 250/300 MXA shootout vs Yamaha YZ250: no recent shootout found; only 2020/2022 single-test comparisons.",
+  "Carb jetting tables for KTM 125 SX / TC 125 / MC 125 2020-2022 from testers: magazines said stock 'worked great' but printed no numbers.",
+  "Stock carb jetting values (OEM) for 2020-2022: not printed in tester articles (BAK has manuals).",
+  "KTM service bulletin or ECU update for TBI detonation or cut-outs: none found.",
+  "Rev limiter rpm for TBI models: not published.",
+  "Aftermarket ECU dyno before/after for TBI SX bikes: none found.",
+  "Cycle News 2024 KTM 250 SX vs 250 SX-F comparison: page content not readable."
+ ],
+ "sources": [
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Race test 2020 KTM 250SX two-stroke",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-ktm-250sx-two-stroke",
+   "date": "2020-07"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Race test 2021 Husqvarna TC250 two-stroke",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-husqvarna-tc250-two-stroke",
+   "date": "2021"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Race test 2021 KTM 150SX",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-ktm-150sx",
+   "date": "2021"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Inside scoop on the 2021 125 two-stroke shootout",
+   "url": "https://motocrossactionmag.com/inside-scoop-on-motocross-actions-125-two-stroke-shootout",
+   "date": "2021-06"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Race test 2022 KTM 250SX two-stroke",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-250sx-two-stroke",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Race test 2022 KTM 150SX two-stroke",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-150sx-two-stroke-2",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Race test 2022 GasGas MC 250 two-stroke",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2022-gasgas-mc-250-two-stroke",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - 2022 125 two-stroke shootout",
+   "url": "https://motocrossactionmag.com/the-must-read-motocross-action-2022-125-two-stroke-shootout",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Race test 2023 GasGas MC250 two-stroke",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-gasgas-mc250-two-stroke",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Test update 2023 GasGas MC125 two-stroke",
+   "url": "https://motocrossactionmag.com/test-update-2023-gasgas-mc125-two-stroke-faithful-fast-for-the-125-class",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Test update 2023 Husqvarna TC125 two-stroke",
+   "url": "https://motocrossactionmag.com/test-update-2023-husqvarna-tc125-two-stroke-the-dream-bike-for-a-niche-group",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Test update 2023 KTM 125SX two-stroke (first-year quibbles)",
+   "url": "https://motocrossactionmag.com/test-update-2023-ktm-125sx-two-stroke-a-first-year-model-with-quibbles",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Race test 2023 Husqvarna TC250 two-stroke",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2023-husqvarna-tc250-two-stroke/",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Team tested FMF 2023 KTM 250/300SX pipe/silencer",
+   "url": "https://motocrossactionmag.com/mxa-team-tested-fmf-2023-ktm-250-300sx-pipe-silencer",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Race test 2024 KTM 250/300SX two-strokes",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-ktm-250-300sx-two-strokes",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Race test 2024 KTM 125SX two-stroke",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2024-ktm-125sx-two-stroke",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - First look 2026 GasGas two- and four-stroke motocross models",
+   "url": "https://motocrossactionmag.com/first-look-2026-gas-gas-two-and-four-stroke-motocross-models",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike - Pro Circuit KTM 300SX exhaust product review",
+   "url": "https://dirtbikemagazine.com/pro-circuit-ktm300sx-exhaust-product-review/",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider - How much power does the 2025 Husqvarna TC 150 make?",
+   "url": "https://dirtrider.com/tests/husqvarna-tc-150-dyno-test-2025",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider - 2025 Husqvarna TC 150 technical overview",
+   "url": "https://dirtrider.com/dirt-bikes/husqvarna-tc-150-technical-overview",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Vital MX - FMF Powercore 2.1 and Factory Fatty pipe 2025 KTM 150 SX review",
+   "url": "https://www.vitalmx.com/features/fmf-powercore-2-1-and-factory-fatty-pipe-2025-ktm-150-sx-review",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Ultimate Motorcycling - 2025 KTM SX lineup first look: 300, 250, 150, 125",
+   "url": "https://ultimatemotorcycling.com/2024/04/13/2025-ktm-sx-lineup-first-look-300-250-150-125-10-fast-facts",
+   "date": "2024-04"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21 - First look 2025 Husqvarna TC and FC range (new 150 and 300 two-strokes)",
+   "url": "https://enduro21.com/en/news/first-look-2025-husqvarna-tc-and-fc-model-range-new-150-and-300cc-two-strokes",
+   "date": "2024-05"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM - 2026 KTM 250 SX model page",
+   "url": "https://www.ktm.com/en-nl/models/motocross/2-stroke/2026-ktm-250-sx.html",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "ADB Magazine - Motocross test 2024 GasGas MC250",
+   "url": "https://adbmag.com.au/editorial/motocross-test-2024-gasgas-mc250/",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "MotoOnline - Tested: 2024 GasGas MC range",
+   "url": "https://www.motoonline.com/au/tested-2024-gasgas-mc-range/",
+   "date": "2023"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX - 2023 KTM SX 250/300 stall / shut off issue",
+   "url": "https://www.vitalmx.com/forums/Moto-Related,20/2023-ktm-sx-250-300-stall-shut-off-issue,1408548",
+   "date": "2022"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX - 2025 KTM TBI starting issues",
+   "url": "https://www.vitalmx.com/comment/7813416",
+   "date": "2025"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX - 2025 Husqvarna TC300 reviews?",
+   "url": "https://www.vitalmx.com/comment/8511866",
+   "date": "2025"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX - 125/150/250/300 KTM/HUS/GG jetting thread",
+   "url": "https://www.vitalmx.com/comment/6523246",
+   "date": "2022"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX - GasGas MC250 vs KTM 250SX vs Husky TC250 differences",
+   "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Gasgas-MC250-vs-KTM-250SX-vs-Husky-TC250-differences,1399187",
+   "date": "2021"
+  },
+  {
+   "type": "tuner",
+   "name": "BT Moto - 2020+ KTM 250SX/300SX Stage 1 mail-in ECU flash",
+   "url": "https://bt-moto.com/product/2020-ktm-300sx-stage-1-mail-in-ecu-flash",
+   "date": "2025"
+  },
+  {
+   "type": "tuner",
+   "name": "Slavens Racing - Mule EZ ECU tuning reflash (TPI)",
+   "url": "https://slavensracing.com/?p=395526",
+   "date": "2024-01"
+  }
+ ]
+}

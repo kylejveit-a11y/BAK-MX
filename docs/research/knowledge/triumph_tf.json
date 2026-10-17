@@ -1,0 +1,2957 @@
+{
+ "slice": "Triumph TF 250-X (2024-2026), TF 450-RC Edition and TF 450-X (2025-2026), and 2026 cross-country / enduro TF 250-C, TF 450-C, TF 250-E, TF 450-E",
+ "platform": {
+  "make": "Triumph",
+  "models": [
+   "TF 250-X",
+   "TF 450-RC Edition",
+   "TF 450-X",
+   "TF 250-C",
+   "TF 450-C",
+   "TF 250-E",
+   "TF 450-E"
+  ],
+  "years": [
+   2024,
+   2025,
+   2026
+  ]
+ },
+ "records": [
+  {
+   "id": "tf-001",
+   "domain": "identity",
+   "topic": "platform generation",
+   "applies_to": {
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The TF 250-X is Triumph's first motocross bike, a clean-sheet design (engine, aluminium chassis and electronics) announced in November 2023 for model year 2024, with US deliveries from late spring 2024. It is built in Triumph's Thailand plant.",
+   "values": {
+    "announced": "2023-11",
+    "first_model_year": "2024",
+    "launch_msrp_us": "$9,995"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: Details released 2024 Triumph TF250-X",
+    "url": "https://motocrossactionmag.com/details-released-2024-triumph-tf-250-x-four-stroke",
+    "date": "2023-11"
+   },
+   "confidence": "high",
+   "notes": "Thailand build from CPSC recall notice and Dirt Bike Magazine. MCN: Triumph called it '100% Triumph', developed from a blank sheet."
+  },
+  {
+   "id": "tf-002",
+   "domain": "identity",
+   "topic": "2025 model year changes",
+   "applies_to": {
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "For 2025 the TF 250-X got new ECU maps for more consistent fuelling and power across speed, load and hot/cold conditions, new graphics and a lower US price; 2024 bikes can get the new maps at a Triumph off-road dealer. Mechanically it is otherwise the 2024 bike.",
+   "values": {
+    "msrp_us": "$9,495",
+    "announced": "2024-11-05"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Triumph USA: MY25 TF 250-X reveal",
+    "url": "https://triumphmotorcycles.com/for-the-ride/news/motorcycles/my25-tf-250-x-reveal",
+    "date": "2024-11"
+   },
+   "confidence": "high",
+   "notes": "MXA 2025 shootout: 'same bike as 2024 with new graphics' apart from mapping."
+  },
+  {
+   "id": "tf-003",
+   "domain": "identity",
+   "topic": "2026 model year changes",
+   "applies_to": {
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "For 2026 the TF 250-X got a new airbox and silencer to meet FIM/AMA sound rules, a new Exedy clutch with more torque capacity, revised engine mapping, retuned KYB settings for mid-stroke control, a new battery tray and a redesigned oil sight glass. The header pipe is unchanged from 2024-2025.",
+   "values": {
+    "msrp_us": "$9,795 (Dirt Rider)",
+    "announced": "2025-07-15"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Visordown: Triumph TF 250-X gets improved power delivery (2026 update)",
+    "url": "https://www.visordown.com/news/triumph-tf-250-x-gets-improved-power-delivery-and-throttle-response",
+    "date": "2025-07"
+   },
+   "confidence": "high",
+   "notes": "Header pipe carry-over and price from Dirt Rider 2026 technical overview; Triumph gave no numbers for the mapping or suspension changes."
+  },
+  {
+   "id": "tf-004",
+   "domain": "identity",
+   "topic": "TF 450-RC Edition introduction",
+   "applies_to": {
+    "models": [
+     "TF 450-RC Edition"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The TF 450-RC Edition was Triumph's first 450, a launch edition developed with Ricky Carmichael: SOHC 449.5 cc engine in the same aluminium chassis family as the 250, with a Carmichael engine map, Wi-Fi tuning module, holeshot device, ODI RC4 bars, Hinson clutch cover, gripper seat and Dunlop MX34 tyres standard. On sale February 2025.",
+   "values": {
+    "msrp_us": "$10,995",
+    "msrp_uk": "GBP 10,695",
+    "on_sale": "2025-02"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21: First look Triumph TF 450-RC Edition",
+    "url": "https://enduro21.com/en/bikes/latest/first-look-triumph-motorcycles-launches-the-tf-450-rc-edition",
+    "date": "2024-10"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tf-005",
+   "domain": "identity",
+   "topic": "2026 TF 450-X vs TF 450-RC Edition",
+   "applies_to": {
+    "models": [
+     "TF 450-X"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The 2026 TF 450-X is the standard version of the RC: same engine, mapping, chassis and KYB settings, but with a new higher-capacity Exedy clutch hub, new Belleville spring, new gearbox selector star and revised engine mounts. It drops the RC extras (Wi-Fi module, holeshot device, Hinson cover, ODI bars, Dunlop tyres) and uses ProTaper ACF bars, Neken clamps, Pirelli MX32 tyres and 13/49 gearing.",
+   "values": {
+    "msrp_uk": "GBP 9,995",
+    "msrp_us": "$10,695 (Dirt Rider) / $10,395 (Dirt Bike)",
+    "final_drive": "13/49"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Triumph media kit: Triumph launches new TF 450-X for 2026",
+    "url": "https://triumph-mediakits.com/en/news-articles/triumph-launches-new-tf-450-x-for-2026-pure.-focused.-performance.html",
+    "date": "2025-09"
+   },
+   "confidence": "high",
+   "notes": "Gearing and rear tyre per ADB launch test; Dirt Bike says clutch and selector changes are mainly for durability."
+  },
+  {
+   "id": "tf-006",
+   "domain": "identity",
+   "topic": "cross-country C models",
+   "applies_to": {
+    "models": [
+     "TF 250-C",
+     "TF 450-C"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The 2026 TF 250-C and TF 450-C are cross-country versions of the X bikes: same frame, engine and 5-speed gearbox, but with cross-country mapping and KYB settings, an 18-inch rear wheel with Dunlop Geomax AT82 tyres, an 8.3 L tank, side stand, handguards and bash guard. Sold in US, Canada, France and New Zealand from October 2025 (competition-only in North America).",
+   "values": {
+    "tank": "8.3 L (2.2 US gal)",
+    "rear_wheel": "18 in",
+    "gearing": "13/48",
+    "msrp_us": "250-C $9,695 / 450-C $10,695 (media kit); $9,995 / $10,995 (Triumph USA page)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Triumph media kit: 2026 TF 250-C and TF 450-C",
+    "url": "https://triumph-mediakits.com/en/all-motorcycles/motocross-and-enduro/2026-tf-250-c-and-tf-450-c.html",
+    "date": "2025-09"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tf-007",
+   "domain": "identity",
+   "topic": "enduro E models",
+   "applies_to": {
+    "models": [
+     "TF 250-E",
+     "TF 450-E"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The 2026 TF 250-E and TF 450-E are enduro bikes developed in parallel with the MX bikes: enduro cams and heavier cranks (about 30% more inertia), a 6-speed gearbox, a 10 mm shorter fork, a 10 mm longer swingarm, 18-inch rear wheel, radiator fan, LED lights, spark arrestor and larger tank. Deliveries from June 2025; competition use only in the US and Canada.",
+   "values": {
+    "msrp_us": "250-E $9,795 / 450-E $10,795",
+    "gearbox": "6-speed",
+    "inertia": "about +30% vs MX"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Roadracing World: Triumph launches 250cc and 450cc enduro racebikes",
+    "url": "https://www.roadracingworld.com/news/triumph-launches-250cc-and-450cc-enduro-racebikes/",
+    "date": "2025-03"
+   },
+   "confidence": "high",
+   "notes": "Inertia and fork/swingarm figures from Vital MX and Enduro21; 450-E ported head and enduro cams per Dirt Rider."
+  },
+  {
+   "id": "tf-008",
+   "domain": "identity",
+   "topic": "2027 update (context)",
+   "applies_to": {
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Triumph's 2027 TF 250-X update (after the platform won the 2026 MX2 title) adds new valve guides for durability, a new selector drum and detent wheel for shift precision, a new clutch pack and bearing, revised mapping and KYB settings and new Neken clamps. These point at the areas owners of 2024-2026 bikes have watched.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "MCNews.com.au: 2027 Triumph TF 250-X update",
+    "url": "https://www.mcnews.com.au/2027-triumph-tf-250-x/",
+    "date": "2026-09"
+   },
+   "confidence": "medium",
+   "notes": "2027 is outside this slice; recorded so 2024-2026 owners know which parts were later revised. Triumph did not describe these as fixes for faults."
+  },
+  {
+   "id": "tf-009",
+   "domain": "engine_architecture",
+   "topic": "250 engine layout",
+   "applies_to": {
+    "models": [
+     "TF 250-X",
+     "TF 250-C",
+     "TF 250-E"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 250 is a DOHC four-valve single of 249.95 cc, 78.0 mm bore x 52.3 mm stroke, 14.4:1 compression, with a Dell'Orto 44 mm throttle body, single Keihin injector and Athena engine management.",
+   "values": {
+    "bore": "78.0 mm",
+    "stroke": "52.3 mm",
+    "displacement": "249.95 cc",
+    "compression": "14.4:1",
+    "throttle_body": "Dell'Orto 44 mm",
+    "injector": "Keihin (single)",
+    "ecu": "Athena"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2024 Triumph TF 250-X Technical Overview",
+    "url": "https://www.dirtrider.com/dirt-bikes/triumph-tf-250-x-technical-overview-2024/",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Injector from ADB test. E/C share bore, stroke and compression per Motorcycle.com and Triumph C media kit."
+  },
+  {
+   "id": "tf-010",
+   "domain": "engine_architecture",
+   "topic": "250 valve train",
+   "applies_to": {
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 250 head uses finger followers to cut valve-train mass, with Del West titanium valves; Triumph lists DLC low-friction coatings and a forged König piston, and the rod has a plain-bearing big end.",
+   "values": {
+    "cam_followers": "finger followers",
+    "valves": "Del West titanium",
+    "piston": "forged Konig aluminium",
+    "rod_big_end": "plain bearing"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2024 Triumph TF 250-X Technical Overview",
+    "url": "https://www.dirtrider.com/dirt-bikes/triumph-tf-250-x-technical-overview-2024/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Tier set to MEASURED/press since finger followers are reported by Dirt Rider and ADB, not on Triumph's own pages. Triumph does not say which parts carry the DLC coating, so 'DLC finger followers' is not confirmed."
+  },
+  {
+   "id": "tf-011",
+   "domain": "engine_architecture",
+   "topic": "250 rev limit",
+   "applies_to": {
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The TF 250-X rev limiter is set at 14,000 rpm.",
+   "values": {
+    "rev_limit": "14,000 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2024 Triumph TF 250-X Technical Overview",
+    "url": "https://www.dirtrider.com/dirt-bikes/triumph-tf-250-x-technical-overview-2024/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Also stated by ADB 2024 test. Not published on Triumph's own spec pages."
+  },
+  {
+   "id": "tf-012",
+   "domain": "engine_architecture",
+   "topic": "250 intake and exhaust design",
+   "applies_to": {
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 250 uses a vertical Helmholtz-type resonance chamber on a stepped centre-port header and a repackable silencer, and a pre-oiled Twin Air filter removable without tools; vented and non-vented airbox covers are offered.",
+   "values": {
+    "resonator": "Helmholtz chamber in header",
+    "airbox_cover": "vented / non-vented"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2024 Triumph TF 250-X Technical Overview",
+    "url": "https://www.dirtrider.com/dirt-bikes/triumph-tf-250-x-technical-overview-2024/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "2026 adds new airbox and silencer (sound rules); header unchanged."
+  },
+  {
+   "id": "tf-013",
+   "domain": "engine_architecture",
+   "topic": "claimed peak power 250-X/250-C",
+   "applies_to": {
+    "models": [
+     "TF 250-X",
+     "TF 250-C"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Triumph claims 47.3 PS (46.7 hp, 34.8 kW) at 13,250 rpm and 28.3 Nm (20.9 lb-ft) at about 9,000-9,250 rpm for the 250 MX/XC engine.",
+   "values": {
+    "peak_power": "47.3 PS / 46.67 hp @ 13,250 rpm",
+    "peak_torque": "28.3 Nm @ 9,000-9,250 rpm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Triumph media kit: 2026 TF 250-C and TF 450-C",
+    "url": "https://triumph-mediakits.com/en/all-motorcycles/motocross-and-enduro/2026-tf-250-c-and-tf-450-c.html",
+    "date": "2025-09"
+   },
+   "confidence": "medium",
+   "notes": "Crankshaft figures. Other outlets quote 47-48 hp/PS at 13,500 rpm - see conflicts."
+  },
+  {
+   "id": "tf-014",
+   "domain": "engine_architecture",
+   "topic": "claimed peak power 250-E",
+   "applies_to": {
+    "models": [
+     "TF 250-E"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Triumph claims 42.3 PS (41.7 hp) and 27.8 Nm (20.5 lb-ft) for the TF 250-E, with power peaking at 12,800 rpm, lower than the MX engine because of enduro cams, crank and mapping.",
+   "values": {
+    "peak_power": "42.3 PS / 41.7 hp @ 12,800 rpm",
+    "peak_torque": "27.8 Nm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Roadracing World: Triumph launches 250cc and 450cc enduro racebikes",
+    "url": "https://www.roadracingworld.com/news/triumph-launches-250cc-and-450cc-enduro-racebikes/",
+    "date": "2025-03"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tf-015",
+   "domain": "engine_architecture",
+   "topic": "450 engine layout",
+   "applies_to": {
+    "models": [
+     "TF 450-RC Edition",
+     "TF 450-X",
+     "TF 450-C"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 450 is a SOHC four-valve single of 449.5 cc, 95 mm bore x 63.4 mm stroke, 13.1:1 compression, with the same Dell'Orto 44 mm throttle body as the 250 (own mapping and ignition), a Keihin injector and Athena EMS.",
+   "values": {
+    "bore": "95 mm",
+    "stroke": "63.4 mm",
+    "displacement": "449.5 cc",
+    "compression": "13.1:1",
+    "throttle_body": "Dell'Orto 44 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Triumph media kit: Triumph launches new TF 450-X for 2026",
+    "url": "https://triumph-mediakits.com/en/news-articles/triumph-launches-new-tf-450-x-for-2026-pure.-focused.-performance.html",
+    "date": "2025-09"
+   },
+   "confidence": "high",
+   "notes": "Shared throttle body per Dirt Bike Test."
+  },
+  {
+   "id": "tf-016",
+   "domain": "engine_architecture",
+   "topic": "450 valve train",
+   "applies_to": {
+    "models": [
+     "TF 450-RC Edition",
+     "TF 450-X",
+     "TF 450-C"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 450 head is single-cam with rockers (not finger followers): Triumph lists DLC-coated rockers and cams, Del West titanium valves, a forged König piston, a DLC-coated upper rod pin, plain lower rod bearing and a 3-axis CNC-machined combustion chamber and ports.",
+   "values": {
+    "cam": "SOHC",
+    "rockers": "DLC-coated",
+    "valves": "Del West titanium",
+    "piston": "forged Konig"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Triumph media kit: Triumph launches new TF 450-X for 2026",
+    "url": "https://triumph-mediakits.com/en/news-articles/triumph-launches-new-tf-450-x-for-2026-pure.-focused.-performance.html",
+    "date": "2025-09"
+   },
+   "confidence": "high",
+   "notes": "Rod pin and bearing from Dirt Bike Test; machined chamber from Enduro21."
+  },
+  {
+   "id": "tf-017",
+   "domain": "engine_architecture",
+   "topic": "claimed peak power 450",
+   "applies_to": {
+    "models": [
+     "TF 450-RC Edition",
+     "TF 450-X",
+     "TF 450-C"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Triumph claims 62.4 PS (45.9 kW, about 61.5 hp) at 9,500 rpm and 49.9 Nm (36.8 lb-ft) at 7,000 rpm for the 450 MX/XC engine.",
+   "values": {
+    "peak_power": "62.4 PS @ 9,500 rpm",
+    "peak_torque": "49.9 Nm @ 7,000 rpm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Triumph media kit: Triumph launches new TF 450-X for 2026",
+    "url": "https://triumph-mediakits.com/en/news-articles/triumph-launches-new-tf-450-x-for-2026-pure.-focused.-performance.html",
+    "date": "2025-09"
+   },
+   "confidence": "high",
+   "notes": "Crankshaft claim. US releases quote 61.5-61.6 hp."
+  },
+  {
+   "id": "tf-018",
+   "domain": "engine_architecture",
+   "topic": "450-E engine differences",
+   "applies_to": {
+    "models": [
+     "TF 450-E"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The TF 450-E runs enduro cam profiles, a ported head, a heavier rebalanced crank and lower 12.8:1 compression; Triumph claims 57.8 hp and 35.6 lb-ft. Testers saw a listed maximum of 10,500 rpm.",
+   "values": {
+    "compression": "12.8:1",
+    "claimed_power": "57.8 hp",
+    "claimed_torque": "35.6 lb-ft",
+    "max_rpm": "10,500 rpm (Vital MX)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2026 Triumph TF 450-E Technical Overview",
+    "url": "https://dirtrider.com/dirt-bikes/triumph-tf-450-e-technical-overview",
+    "date": "2025-07"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tf-019",
+   "domain": "engine_architecture",
+   "topic": "450 bore and stroke vs KTM",
+   "applies_to": {
+    "models": [
+     "TF 450-RC Edition",
+     "TF 450-X",
+     "TF 450-C",
+     "TF 450-E"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "The Triumph 450 shares exactly the 95 x 63.4 mm bore and stroke of the KTM 450 SX-F, though testers say the engine resembles the KTM only superficially and Triumph's head is its own design.",
+   "values": {
+    "bore_stroke_ratio": "1.498 (both)"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX KTM 450 SX-F knowledge file (ktm450sxf.json, KTM published bore 95 mm, ratio 1.498)",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "high",
+   "notes": "Comparison of Triumph published 95 x 63.4 mm with KTM published 95 mm bore / 1.498 ratio (ktm450sxf.json). Dirt Bike Magazine (TF450-RC Revisited) called the KTM-copy criticism unfounded."
+  },
+  {
+   "id": "tf-020",
+   "domain": "engine_architecture",
+   "topic": "bore/stroke ratio 250",
+   "applies_to": {
+    "models": [
+     "TF 250-X",
+     "TF 250-C",
+     "TF 250-E"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Worked out from Triumph's figures, the 250 is 1.49:1 oversquare (78 / 52.3), less oversquare than the KTM-family 250s, which suits a strong mid with a high but not extreme rev ceiling.",
+   "values": {
+    "bore_stroke_ratio": "1.491",
+    "displacement_check": "249.9 cc"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation from Triumph bore/stroke",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "high",
+   "notes": "78.0 / 52.3 = 1.491. Displacement = pi/4 x 7.8^2 x 5.23 = 249.9 cc. KTM 250 SX-F comparison (81 x 48.5 = 1.67) from KTM published specs."
+  },
+  {
+   "id": "tf-021",
+   "domain": "engine_architecture",
+   "topic": "mean piston speed 250",
+   "applies_to": {
+    "models": [
+     "TF 250-X",
+     "TF 250-C"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Worked out from the 52.3 mm stroke, mean piston speed is about 23.5 m/s at the 13,500 rpm power peak and 24.4 m/s at the 14,000 rpm limiter.",
+   "values": {
+    "at_13500": "23.5 m/s",
+    "at_14000": "24.4 m/s",
+    "at_13250_claimed_peak": "23.1 m/s"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "high",
+   "notes": "Mean piston speed = 2 x stroke x rpm / 60000 = 2 x 52.3 x 14000 / 60000 = 24.41 m/s; x13500 = 23.54; x13250 = 23.10."
+  },
+  {
+   "id": "tf-022",
+   "domain": "engine_architecture",
+   "topic": "mean piston speed 450",
+   "applies_to": {
+    "models": [
+     "TF 450-RC Edition",
+     "TF 450-X",
+     "TF 450-C",
+     "TF 450-E"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Worked out from the 63.4 mm stroke, mean piston speed is about 20.1 m/s at the claimed 9,500 rpm power peak and about 22 m/s at the 10,400-10,500 rpm where magazine dynos saw peak power.",
+   "values": {
+    "at_9500": "20.1 m/s",
+    "at_10400": "22.0 m/s",
+    "at_10500": "22.2 m/s"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "high",
+   "notes": "2 x 63.4 x 9500 / 60000 = 20.08; x10400 = 21.98; x10500 = 22.19 m/s. 450 MX rev limit not published."
+  },
+  {
+   "id": "tf-023",
+   "domain": "power_feel",
+   "topic": "dyno 2024 TF 250-X (Dynojet)",
+   "applies_to": {
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "On a magazine Dynojet 250i rear-wheel dyno the 2024 TF 250-X made 37.8 hp and 17.4 lb-ft.",
+   "values": {
+    "peak_hp": "37.8 hp",
+    "peak_torque": "17.4 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: Triumph TF 250-X dyno test 2024",
+    "url": "https://www.dirtrider.com/tests/triumph-tf-250-x-dyno-test-2024",
+    "date": "2024-10"
+   },
+   "confidence": "high",
+   "notes": "Dynojet 250i; rpm, map and fuel not stated; stock. Dynojet reads lower than the Pro Circuit dyno - do not compare directly."
+  },
+  {
+   "id": "tf-024",
+   "domain": "power_feel",
+   "topic": "dyno 2025 TF 250-X (Dynojet)",
+   "applies_to": {
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On the same magazine Dynojet 250i the 2025 TF 250-X made 39.9 hp and 18.7 lb-ft, up 2.1 hp on the 2024 bike after the new maps.",
+   "values": {
+    "peak_hp": "39.9 hp",
+    "peak_torque": "18.7 lb-ft",
+    "gain_vs_2024": "+2.1 hp, +1.3 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: Triumph TF 250-X dyno test 2025",
+    "url": "https://www.dirtrider.com/tests/triumph-tf-250-x-dyno-test-2025",
+    "date": "2024-11"
+   },
+   "confidence": "high",
+   "notes": "Map not stated; stock."
+  },
+  {
+   "id": "tf-025",
+   "domain": "power_feel",
+   "topic": "dyno 2026 TF 250-X (Dynojet)",
+   "applies_to": {
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "On the same magazine rear-wheel dyno the 2026 TF 250-X made 40.8 hp at 13,500 rpm and 18.8 lb-ft at 9,100 rpm.",
+   "values": {
+    "peak_hp": "40.8 hp @ 13,500 rpm",
+    "peak_torque": "18.8 lb-ft @ 9,100 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2026 Triumph TF 250-X Technical Overview",
+    "url": "https://dirtrider.com/dirt-bikes/triumph-tf-250-x-technical-overview",
+    "date": "2026-02"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider in-house dyno (Dynojet 250i in earlier tests); map not stated."
+  },
+  {
+   "id": "tf-026",
+   "domain": "power_feel",
+   "topic": "dyno 2024 TF 250-X vs KTM 250 SX-F",
+   "applies_to": {
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "On a magazine dyno the 2024 TF 250-X peaked at 42.67 hp and 19.65 lb-ft against 44.98 hp and 20.81 lb-ft for the KTM 250 SX-F; the KTM led by 1.5-4 hp at every 1,000 rpm step from 8,000 to 13,000 rpm.",
+   "values": {
+    "peak_hp": "42.67 hp",
+    "peak_torque": "19.65 lb-ft",
+    "ktm_250sxf_peak": "44.98 hp / 20.81 lb-ft",
+    "deficit_at_10000": "about 4 hp"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 Triumph TF250-X",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-triumph-tf250-x",
+    "date": "2024-10"
+   },
+   "confidence": "high",
+   "notes": "Dyno brand not stated (MXA). Map 1 (light off) gave the strongest midrange; Map 2 reached similar peak with slightly less torque; both curves rough."
+  },
+  {
+   "id": "tf-027",
+   "domain": "power_feel",
+   "topic": "dyno 2025 TF 250-X in eight-bike 250 shootout",
+   "applies_to": {
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On a tuner's dyno in a 2025 eight-bike 250 test, the TF 250-X made 42.94 hp at 13,340 rpm and 20.36 lb-ft at 9,160 rpm, fifth of eight: behind Husqvarna (45.21), KTM (45.06), GasGas (44.81) and Kawasaki (43.49), ahead of Yamaha (41.62), Honda (41.51) and Suzuki (40.04).",
+   "values": {
+    "peak_hp": "42.94 hp @ 13,340 rpm",
+    "peak_torque": "20.36 lb-ft @ 9,160 rpm",
+    "rank": "5 of 8",
+    "Husqvarna FC 250": "45.21 hp",
+    "KTM 250 SX-F": "45.06 hp",
+    "GasGas MC 250F": "44.81 hp",
+    "Kawasaki KX250": "43.49 hp",
+    "Yamaha YZ250F": "41.62 hp",
+    "Honda CRF250R": "41.51 hp",
+    "Suzuki RM-Z250": "40.04 hp"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: 250 motocross bikes on the dyno - the Wrap (2025 250 shootout)",
+    "url": "https://dirtbikemagazine.com/250-motocross-bikes-on-the-dyno-the-wrap/",
+    "date": "2024-12"
+   },
+   "confidence": "high",
+   "notes": "Pro Circuit dyno, full-throttle runs, best run of all maps printed; stock bikes."
+  },
+  {
+   "id": "tf-028",
+   "domain": "power_feel",
+   "topic": "early dyno impression 2024 TF 250-X",
+   "applies_to": {
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "A tuner's dyno run on a brand-new 2024 test bike showed it soft down low and average on top for the class; numbers were withheld because the engine was not broken in.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: Finally, Triumph TF250X test bike - the Wrap",
+    "url": "https://dirtbikemagazine.com/finally-triumph-tf250x-test-bike-the-wrap/",
+    "date": "2024-07"
+   },
+   "confidence": "medium",
+   "notes": "Pro Circuit; no figures published."
+  },
+  {
+   "id": "tf-029",
+   "domain": "power_feel",
+   "topic": "dyno 2025 TF 450-RC Edition (rear-wheel, in-house)",
+   "applies_to": {
+    "models": [
+     "TF 450-RC Edition"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On a magazine in-house rear-wheel dyno the TF 450-RC made 55.8 hp at 10,500 rpm and 32.1 lb-ft at 6,600 rpm.",
+   "values": {
+    "peak_hp": "55.8 hp @ 10,500 rpm",
+    "peak_torque": "32.1 lb-ft @ 6,600 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2025 Triumph TF 450-RC Edition Technical Information",
+    "url": "https://www.dirtrider.com/triumph/tf-450-rc/",
+    "date": "2025-06"
+   },
+   "confidence": "high",
+   "notes": "Dyno type not named on the page (Dirt Rider uses a Dynojet 250i); map not stated."
+  },
+  {
+   "id": "tf-030",
+   "domain": "power_feel",
+   "topic": "dyno 2026 TF 450-X (rear-wheel, in-house)",
+   "applies_to": {
+    "models": [
+     "TF 450-X"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "On the same magazine rear-wheel dyno the 2026 TF 450-X made 55.7 hp at 10,400 rpm and 32.9 lb-ft at 6,800 rpm, effectively the same as the RC.",
+   "values": {
+    "peak_hp": "55.7 hp @ 10,400 rpm",
+    "peak_torque": "32.9 lb-ft @ 6,800 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2026 Triumph TF 450-X Technical Overview",
+    "url": "https://www.dirtrider.com/dirt-bikes/triumph-tf-450-x-technical-overview/",
+    "date": "2025-12"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tf-031",
+   "domain": "power_feel",
+   "topic": "dyno 2026 TF 450-X in 12-bike shootout",
+   "applies_to": {
+    "models": [
+     "TF 450-X"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "On a tuner's dyno in a 12-bike 2026 450 test, the TF 450-X made 58.6 hp at 9,200 rpm and 36.0 lb-ft at 6,700 rpm, third behind Husqvarna FC 450 (60.2) and KTM 450 SX-F (59.5), and ahead of GasGas (57.9), Kawasaki (57.7), Ducati (57.3), Yamaha (56.7), Suzuki (56.6), TM (55.6), Honda (55.3), Beta (54.6) and Kove (50.8).",
+   "values": {
+    "peak_hp": "58.6 hp @ 9,200 rpm",
+    "peak_torque": "36.0 lb-ft @ 6,700 rpm",
+    "rank": "3 of 12",
+    "Husqvarna FC 450": "60.2 hp",
+    "KTM 450 SX-F": "59.5 hp",
+    "GasGas MC 450F": "57.9 hp",
+    "Kawasaki KX450": "57.7 hp",
+    "Yamaha YZ450F": "56.7 hp",
+    "Honda CRF450R": "55.3 hp"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: Twelve 450 motocross bikes on the dyno - the Wrap (2026 450 shootout)",
+    "url": "https://dirtbikemagazine.com/?p=101733",
+    "date": "2025-11"
+   },
+   "confidence": "high",
+   "notes": "Pro Circuit dyno, standard map, corrected for air density; stock."
+  },
+  {
+   "id": "tf-032",
+   "domain": "power_feel",
+   "topic": "dyno 2026 TF 450-X in 8-bike shootout",
+   "applies_to": {
+    "models": [
+     "TF 450-X"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "On a suspension/engine shop dyno in an eight-bike 2026 450 test, the TF 450-X made the most power and torque of the group: 56.98 hp at 10,300 rpm and 34.9 lb-ft at 7,200 rpm, ahead of Ducati (54.82), GasGas and Kawasaki (54.38), KTM (53.67), Husqvarna (53.63), Yamaha (53.62) and Honda (51.54).",
+   "values": {
+    "peak_hp": "56.98 hp @ 10,300 rpm",
+    "peak_torque": "34.9 lb-ft @ 7,200 rpm",
+    "rank": "1 of 8 on dyno",
+    "KTM 450 SX-F": "53.67 hp",
+    "Husqvarna FC 450": "53.63 hp",
+    "GasGas MC 450F": "54.38 hp",
+    "Kawasaki KX450": "54.38 hp",
+    "Yamaha YZ450F": "53.62 hp",
+    "Honda CRF450R": "51.54 hp"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX: 2026 450 Motocross Shootout",
+    "url": "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+    "date": "2025-11"
+   },
+   "confidence": "high",
+   "notes": "All bikes run same day at Race Tech; map and fuel not stated. Despite topping the dyno it finished last overall in that test."
+  },
+  {
+   "id": "tf-033",
+   "domain": "power_feel",
+   "topic": "measured weight 250-X",
+   "applies_to": {
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Measured weights for the TF 250-X: 221 lb without fuel (lightest 250 in two magazine tests), 229 lb without fuel on another scale, and 230 lb (2024) / 233 lb (2026) wet. Triumph claims 104 kg (229 lb) wet.",
+   "values": {
+    "no_fuel_Dirt_Bike_MXA": "221 lb",
+    "no_fuel_Dirt_Bike_Test": "229 lb",
+    "wet_2024_DR": "230 lb",
+    "wet_2026_DR": "233 lb",
+    "claimed_wet": "104 kg"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: Finally, Triumph TF250X test bike - the Wrap",
+    "url": "https://dirtbikemagazine.com/finally-triumph-tf250x-test-bike-the-wrap/",
+    "date": "2024-07"
+   },
+   "confidence": "high",
+   "notes": "Dirt Bike: 221 lb vs 2025 Honda 219 lb and 2025 KTM 250 SX-F 225 lb. One record kept for brevity; sources listed in conflicts."
+  },
+  {
+   "id": "tf-034",
+   "domain": "power_feel",
+   "topic": "measured weight 450",
+   "applies_to": {
+    "models": [
+     "TF 450-RC Edition",
+     "TF 450-X"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Measured weights for the 450: RC 233 lb and X 231.3 lb without fuel (KTM/Husqvarna 229, Yamaha about 232, Kawasaki/Suzuki 239 on the same scale); 235 lb full tank (lightest of eight, 115 front / 120 rear); 242 lb (RC) and 240 lb (X) wet on another scale. Triumph claims 108.3-108.6 kg wet.",
+   "values": {
+    "RC_no_fuel": "233 lb",
+    "X_no_fuel": "231.3 lb",
+    "X_full_tank_Vital": "235 lb (115 F / 120 R)",
+    "RC_wet_DR": "242 lb",
+    "X_wet_DR": "240 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: Ron's Wrap 2026 Triumph TF450-X",
+    "url": "https://dirtbikemagazine.com/?p=101824",
+    "date": "2025-12"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tf-035",
+   "domain": "power_feel",
+   "topic": "250-X feel by rpm (2024)",
+   "applies_to": {
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Testers found the 2024 250 snappy right off idle but prone to a bog on a hard throttle snap, then a surge and a dip into the mid; the main power comes in the upper mid to lower top, and it signs off earlier than a KTM, with riders bouncing off the limiter. Low-end and mid were rated its weakest areas against Honda and KTM.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 Triumph TF250-X",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-triumph-tf250-x",
+    "date": "2024-10"
+   },
+   "confidence": "high",
+   "notes": "Consistent across MXA, Dirt Bike Test and Dirt Bike Magazine. Why: lean throttle-snap mapping (MXA calls it mapping, not electrical), tall 13/48 gearing and wide 2-3 and 3-4 gaps."
+  },
+  {
+   "id": "tf-036",
+   "domain": "power_feel",
+   "topic": "250-X feel by rpm (2025-2026)",
+   "applies_to": {
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "With the 2025 maps testers describe strong low-to-mid pull, a smooth pull up top and strong over-rev, like a mix of Yamaha YZ250F and KTM 250 SX-F, with throttle response in the first 10% slightly behind the Yamaha. Another 2025 test still felt a slight bog low, a flat top and then over-rev.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX: 2025 Triumph TF-250X Review",
+    "url": "https://www.vitalmx.com/features/2025-triumph-tf-250x-review",
+    "date": "2025-02"
+   },
+   "confidence": "medium",
+   "notes": "Second view from Dirt Rider 2025 dyno test. MXA 2025 shootout said the sputter was fixed but the bog remained."
+  },
+  {
+   "id": "tf-037",
+   "domain": "power_feel",
+   "topic": "250 high-rpm character and riding technique",
+   "applies_to": {
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Power sits high in the range, so testers had to learn to rev it toward the 14,000 rpm limiter instead of short-shifting; the gaps between gears make this more necessary. Several suggest one or two more rear sprocket teeth.",
+   "values": {
+    "suggested_gearing": "13/49-13/50"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "ADB Magazine: Aussie Test 2024 Triumph TF 250-X",
+    "url": "https://adbmag.com.au/?p=48204",
+    "date": "2024-07"
+   },
+   "confidence": "high",
+   "notes": "ADB, MCNews (50-51T), Dirt Bike (+2T using a KTM sprocket), Dirt Bike Test (49T, +2 links)."
+  },
+  {
+   "id": "tf-038",
+   "domain": "power_feel",
+   "topic": "450 feel by rpm",
+   "applies_to": {
+    "models": [
+     "TF 450-RC Edition",
+     "TF 450-X"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers describe the 450 as smooth and linear rather than a brute: slightly soft off the bottom in the standard map, a strong midrange, and a top end that tapers or signs off early, with nothing gained by over-revving. It is milder than a Yamaha or KTM and feels closer to a Honda, Kawasaki or Suzuki; it works best shifted earlier than most 450s.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: Triumph TF450-RC Edition Revisited",
+    "url": "https://dirtbikemagazine.com/?p=100006",
+    "date": "2025-07"
+   },
+   "confidence": "high",
+   "notes": "Dirt Bike RC and X; ADB compares it to a CRF450R/KX. Why: long 63.4 mm stroke, smooth mapping and tall gearing; a smooth curve feels slower than its dyno peak, so riders rated it mid-pack for power despite top-3 dyno numbers."
+  },
+  {
+   "id": "tf-039",
+   "domain": "power_feel",
+   "topic": "450 feel - critical view (2026 shootout)",
+   "applies_to": {
+    "models": [
+     "TF 450-X"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "In one 2026 eight-bike shootout all three testers ranked the TF 450-X last, citing weak, disconnected initial throttle and low end, a strong midrange, and a rough, choked over-rev near the limiter.",
+   "values": {
+    "overall_rank": "8 of 8"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX: 2026 450 Motocross Shootout",
+    "url": "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+    "date": "2025-11"
+   },
+   "confidence": "high",
+   "notes": "Final order: KTM, Yamaha, Honda, Kawasaki, GasGas, Husqvarna, Ducati, Triumph."
+  },
+  {
+   "id": "tf-040",
+   "domain": "power_feel",
+   "topic": "450 feel - first ride",
+   "applies_to": {
+    "models": [
+     "TF 450-RC Edition"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "At the RC launch, testers found good pull from just above idle across the range, usable both revved and lugged a gear high; less aggressive than a Yamaha and livelier than a stock KX450.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: World Debut 2025 Triumph TF450-RC First Impression",
+    "url": "https://dirtbiketest.com/fresh-dirt/world-debut-2025-triumph-tx450-rc-first-impression/",
+    "date": "2024-11"
+   },
+   "confidence": "medium",
+   "notes": "One day on a wet, sticky Georgia track."
+  },
+  {
+   "id": "tf-041",
+   "domain": "power_feel",
+   "topic": "shootout rankings",
+   "applies_to": {
+    "models": [
+     "TF 250-X",
+     "TF 450-X"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Overall shootout results: 2025 eight-bike 250 test - TF 250-X seventh (ahead of only Suzuki) because of shifting, bogging and a mellow powerband despite being lightest; 2026 eight-bike 450 test - TF 450-X last; a 2026 YZ450F vs TF 450-X head-to-head gave no winner (lap times within 1-1.5 s, split by rider).",
+   "values": {
+    "MXA_2025_250": "7 of 8 (KTM, Husqvarna, GasGas, Yamaha, Honda, Kawasaki, Triumph, Suzuki)",
+    "Vital_2026_450": "8 of 8",
+    "ADB_2026_YZ450F_vs_TF450X": "no winner"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: 2025 MXA 250 Shootout",
+    "url": "https://motocrossactionmag.com/2025-motocross-action-250-shootout-suzuki-triumph-kawasaki-honda-yamaha-gasgas-husqvarna-ktm",
+    "date": "2024-12"
+   },
+   "confidence": "high",
+   "notes": "Vital and ADB in separate records/sources. A 2025 RC test said it would have finished near the front of that magazine's 2025 450 shootout."
+  },
+  {
+   "id": "tf-042",
+   "domain": "power_feel",
+   "topic": "450 vs Yamaha YZ450F",
+   "applies_to": {
+    "models": [
+     "TF 450-X"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Against a YZ450F the Triumph is linear and progressive with predictable drive and a softer, more forgiving chassis that suits vets and less aggressive riders; the Yamaha hits harder all at once. The Triumph's gearing felt taller and needed more clutch on tight tracks.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "ADB Magazine: MX Comparo Yamaha YZ450F v Triumph TF 450-X",
+    "url": "https://adbmag.com.au/editorial/mx-comparo-yamaha-yz450f-v-triumph-tf-450-x/",
+    "date": "2026-06"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tf-043",
+   "domain": "power_feel",
+   "topic": "E model feel",
+   "applies_to": {
+    "models": [
+     "TF 250-E",
+     "TF 450-E"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The enduro 250 pulls with more midrange than expected and revs to about 12,500 rpm; the 450-E lugs well with a broad torque spread (third gear most of the day), pulls harder in the midrange than a typical trail bike, reaches about 100 mph in sixth, but has an abrupt rev limiter that buzzes the pegs and bars.",
+   "values": {
+    "250E_rev": "about 12,500 rpm",
+    "450E_top_speed": "about 100 mph"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX: 2026 Triumph TF 450-E Tested",
+    "url": "https://www.vitalmx.com/features/2026-triumph-tf-450-e-dual-sport-or-xc-race-bike-vital-mx-tested",
+    "date": "2025-07"
+   },
+   "confidence": "high",
+   "notes": "250 details from Enduro21 test. Why: about 30% more crank inertia and enduro cams vs MX engine."
+  },
+  {
+   "id": "tf-044",
+   "domain": "power_feel",
+   "topic": "450-C feel",
+   "applies_to": {
+    "models": [
+     "TF 450-C"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "On tight, greasy woods trails the TF 450-C had little bottom end, so it needed revs and momentum; the midrange was its strength, with an ultra-linear, connected roll-on.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News: 2026 Triumph TF 450-C Review",
+    "url": "https://www.cyclenews.com/2026/02/article/2026-triumph-tf-450-c-review/",
+    "date": "2026-02"
+   },
+   "confidence": "medium",
+   "notes": "Single test in wet West Virginia clay."
+  },
+  {
+   "id": "tf-045",
+   "domain": "ecu_electronics",
+   "topic": "handlebar switches and two maps",
+   "applies_to": {
+    "models": [
+     "TF 250-X",
+     "TF 450-RC Edition",
+     "TF 450-X",
+     "TF 250-C",
+     "TF 450-C"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "All MX and XC models have a left-bar button cluster for launch control, quickshift, traction control and a map switch with two maps: Map 1 (light off) is the standard, stronger map and Map 2 (light on) is softer. A right-side start/stop module and an hour meter are fitted.",
+   "values": {
+    "maps_on_bike": "2",
+    "map1": "standard/full (light off)",
+    "map2": "softer (light on)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: Ron's Wrap 2026 Triumph TF450-X",
+    "url": "https://dirtbikemagazine.com/?p=101824",
+    "date": "2025-12"
+   },
+   "confidence": "high",
+   "notes": "MXA 2024 250 test confirms light-off = most aggressive."
+  },
+  {
+   "id": "tf-046",
+   "domain": "ecu_electronics",
+   "topic": "MX Tune Pro app and Wi-Fi module",
+   "applies_to": {
+    "models": [
+     "TF 250-X",
+     "TF 450-RC Edition",
+     "TF 450-X",
+     "TF 250-C",
+     "TF 450-C",
+     "TF 250-E",
+     "TF 450-E"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Triumph's MX Tune Pro app connects to the ECU through an accessory Wi-Fi module and loads one of 10 factory maps into Map 2 (OE, Novice, Intermediate, Expert, Hard Pack Dry/Wet, Loam Dry/Wet, Sand Dry/Wet); Map 1 always stays full power. It also sets traction-control and launch-control levels, shows error codes, live rpm and throttle, and logs engine hours and services. Akrapovic-specific map sets exist.",
+   "values": {
+    "factory_maps": "10 (+ Akrapovic set)",
+    "map_slot_changed": "Map 2 only",
+    "adjustable": "TC (GPA) level, LC level, LC-GPA race/training mode"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Triumph USA: MX Tune Pro app page",
+    "url": "https://www.triumphmotorcycles.com/owners/off-road/app",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Wi-Fi module standard on TF 450-RC only; paid accessory on 250-X, 450-X, C and E. User fuel/ignition table editing is not offered (Dirt Bike Test, Vital, ADB note presets only)."
+  },
+  {
+   "id": "tf-047",
+   "domain": "ecu_electronics",
+   "topic": "no user fuel/ignition tuning",
+   "applies_to": {
+    "models": [
+     "TF 250-X",
+     "TF 450-RC Edition",
+     "TF 450-X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Unlike Yamaha's or Kawasaki's apps, riders cannot edit fuel or ignition values; they can only load Triumph's preset maps, which testers saw as a limitation.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: 2024 Triumph TF 250-X",
+    "url": "https://dirtbiketest.com/bike-tests/2024-triumph-tf-250-x/",
+    "date": "2024-10"
+   },
+   "confidence": "high",
+   "notes": "Also Vital 2025 250 review and ADB RC notes."
+  },
+  {
+   "id": "tf-048",
+   "domain": "ecu_electronics",
+   "topic": "RC Carmichael map",
+   "applies_to": {
+    "models": [
+     "TF 450-RC Edition"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The RC Edition carries a Carmichael-developed map preset in Map 2; testers found it sharper, especially low in the revs, and preferred it to the standard map.",
+   "values": {
+    "map2_preset": "RC signature map"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: Triumph TF450-RC Edition Revisited",
+    "url": "https://dirtbikemagazine.com/?p=100006",
+    "date": "2025-07"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider confirms the RC map is preset in map 2. 2026 X keeps the RC mapping per Triumph."
+  },
+  {
+   "id": "tf-049",
+   "domain": "ecu_electronics",
+   "topic": "2025 TF 250-X map update",
+   "applies_to": {
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "Triumph's 2025 maps target more consistent fuelling in hot and cold conditions and can be flashed onto 2024 bikes by dealers; the 2025 recall work also included a new tune to improve low-speed running, especially when cold.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Triumph USA: MY25 TF 250-X reveal",
+    "url": "https://triumphmotorcycles.com/for-the-ride/news/motorcycles/my25-tf-250-x-reveal",
+    "date": "2024-11"
+   },
+   "confidence": "high",
+   "notes": "Recall tune details from Visordown."
+  },
+  {
+   "id": "tf-050",
+   "domain": "ecu_electronics",
+   "topic": "traction control and launch control",
+   "applies_to": {
+    "models": [
+     "TF 250-X",
+     "TF 450-RC Edition",
+     "TF 450-X",
+     "TF 250-C",
+     "TF 450-C",
+     "TF 250-E",
+     "TF 450-E"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Traction control (Athena GET 'GPA') softens delivery; MX testers mostly left it off because it dulled power, while off-road testers found it useful on slippery clay. Launch control is on the bar; one tester felt it dulled launches. An Athena LC-GPA launch module is an accessory.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "ADB Magazine: Aussie Test 2024 Triumph TF 250-X",
+    "url": "https://adbmag.com.au/?p=48204",
+    "date": "2024-07"
+   },
+   "confidence": "high",
+   "notes": "Dirt Bike (2024 250): no tester defended TC. Cycle News 450-C: TC cut wheelspin on greasy clay. Enduro21 450-E: one stall on a climb with TC + soft map in 2nd."
+  },
+  {
+   "id": "tf-051",
+   "domain": "ecu_electronics",
+   "topic": "quickshifter",
+   "applies_to": {
+    "models": [
+     "TF 250-X",
+     "TF 450-RC Edition",
+     "TF 450-X",
+     "TF 250-C",
+     "TF 450-C",
+     "TF 250-E",
+     "TF 450-E"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "All models have an upshift quickshifter (2nd to 5th on MX/XC, 2nd to 6th on E) that cuts ignition when the lever is lifted. Opinions split: some rate it best in class and it helps the stiff gearbox; others found the ignition cut distracting, that it disengages if the lever isn't fully lifted, or that it hesitates at full throttle, so some turn it off after the start.",
+   "values": {
+    "range_MX": "2nd-5th",
+    "range_E": "2nd-6th"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 Triumph TF250-X",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-triumph-tf250-x",
+    "date": "2024-10"
+   },
+   "confidence": "high",
+   "notes": "Sources: MXA, ADB, Dirt Bike RC/X, Vital 2026 shootout (best in class), Vital 450-E (better than KTM), MX1Onboard (irregular), Dirt Bike Test (light pressure can upshift unexpectedly)."
+  },
+  {
+   "id": "tf-052",
+   "domain": "ecu_electronics",
+   "topic": "map choices by testers",
+   "applies_to": {
+    "models": [
+     "TF 250-X",
+     "TF 450-X",
+     "TF 450-C",
+     "TF 450-E"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Map preferences vary: on the 2024 250 one magazine's testers all preferred the softer Map 2, another preferred standard; on the 450-X some riders prefer the mild map, which smooths the midrange hit; off-road testers used the soft map in wet conditions and the standard map as it dried; the 450-E tester found the mellow map too soft low down.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: Ron's Wrap 2026 Triumph TF450-X",
+    "url": "https://dirtbikemagazine.com/?p=101824",
+    "date": "2025-12"
+   },
+   "confidence": "medium",
+   "notes": "Dirt Bike 250 wrap, ADB 250, Cycle News 450-C, Vital 450-E."
+  },
+  {
+   "id": "tf-053",
+   "domain": "ecu_electronics",
+   "topic": "E and C model electronics",
+   "applies_to": {
+    "models": [
+     "TF 250-E",
+     "TF 450-E",
+     "TF 250-C",
+     "TF 450-C"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "E models get enduro switch cubes with illuminated buttons, a display with speed, trip, gear, temperature and warnings, a 1450-lumen LED headlight, horn and radiator fan; C models keep the MX display. Both keep two bar-switch maps, TC, launch and quickshift; Triumph mentions three cross-country maps via the app for the C.",
+   "values": {
+    "headlight": "1450 lm LED (E)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2026 Triumph TF 450-E Technical Overview",
+    "url": "https://dirtrider.com/dirt-bikes/triumph-tf-450-e-technical-overview",
+    "date": "2025-07"
+   },
+   "confidence": "high",
+   "notes": "C map count conflicts on Triumph's own page (three app maps vs dual maps)."
+  },
+  {
+   "id": "tf-054",
+   "domain": "engine_mods",
+   "topic": "Akrapovic titanium exhaust",
+   "applies_to": {
+    "models": [
+     "TF 250-X",
+     "TF 450-RC Edition",
+     "TF 450-X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Triumph sells a full titanium Akrapovic system with its own map set; a magazine test says it adds power between about 9,000 and 13,000 rpm on the 250.",
+   "values": {
+    "gain_band_250": "about 9,000-13,000 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "ADB Magazine: Aussie Test 2024 Triumph TF 250-X",
+    "url": "https://adbmag.com.au/?p=48204",
+    "date": "2024-07"
+   },
+   "confidence": "medium",
+   "notes": "No published dyno figures found."
+  },
+  {
+   "id": "tf-055",
+   "domain": "engine_mods",
+   "topic": "FMF 4.1 system on TF 450-RC",
+   "applies_to": {
+    "models": [
+     "TF 450-RC Edition"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "An FMF full system on the 450-RC (no dyno) mellowed the initial crack off idle but gave more low-end pull, a longer and stronger midrange out of corners in 2nd and 3rd, slightly more top and no extra over-rev; it saves just over 1 lb.",
+   "values": {
+    "price": "muffler $899.99 + Megabomb header $474.99",
+    "weight_saving": "just over 1 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing: FMF 4.1 muffler system for Triumph TF 450 RC Edition",
+    "url": "https://www.keeferinctesting.com/fmf-4-1-muffler-system-for-triumph-tf-450-rc-edition/",
+    "date": "2025-06"
+   },
+   "confidence": "medium",
+   "notes": "Seat-of-pants test; 13/49 gearing; spark screen left in."
+  },
+  {
+   "id": "tf-056",
+   "domain": "engine_mods",
+   "topic": "Yoshimura RS-12 on TF 450",
+   "applies_to": {
+    "models": [
+     "TF 450-RC Edition",
+     "TF 450-X",
+     "TF 450-C",
+     "TF 450-E"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Yoshimura claims its RS-12 full system adds 11.3% power and 10.8% torque at 5,000 rpm on the TF 450 range.",
+   "values": {
+    "hp_gain": "+11.3% @ 5,000 rpm",
+    "torque_gain": "+10.8% @ 5,000 rpm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Yoshimura R&D: TF450 RS-12 stainless full exhaust product page",
+    "url": "https://www.yoshimura-rd.com/products/tf450-rs-12-stainless-full-exhaust-w-aluminum-muffler-274500s320",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": "Manufacturer claim, no baseline numbers or dyno type."
+  },
+  {
+   "id": "tf-057",
+   "domain": "engine_mods",
+   "topic": "gearing changes",
+   "applies_to": {
+    "models": [
+     "TF 250-X",
+     "TF 450-RC Edition",
+     "TF 450-X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Stock gearing (13/48 on the 250-X and RC, 13/49 on the 450-X) feels tall; testers went to 13/49-13/50 on the 250 and 13/50 with a 116-link chain on the 450, which improved both engine and chassis feel. One heavy owner runs 13/52.",
+   "values": {
+    "250_stock": "13/48",
+    "RC_stock": "13/48",
+    "450X_stock": "13/49",
+    "450_suggested": "13/50, 116-link chain"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2025 Triumph TF 450-RC Edition Technical Information",
+    "url": "https://www.dirtrider.com/triumph/tf-450-rc/",
+    "date": "2025-06"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider RC; ADB 450-X; owner 13/52 from Vital forum."
+  },
+  {
+   "id": "tf-058",
+   "domain": "engine_mods",
+   "topic": "shift lever and gearbox polishing",
+   "applies_to": {
+    "models": [
+     "TF 250-X",
+     "TF 450-RC Edition",
+     "TF 450-X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "To ease stiff shifting, one magazine recommends a longer Yamaha-pattern aftermarket shift lever; one owner cured false neutrals and notchiness by smoothing and polishing the gear dogs and shift-fork shafts, noting DLC-coated shift shafts worked better.",
+   "values": {
+    "lever": "Pro Circuit YSL19250"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum: Possible FIX for Triumph TF transmissions",
+    "url": "https://www.vitalmx.com/comment/8904346",
+    "date": "2026-04"
+   },
+   "confidence": "low",
+   "notes": "Lever from MXA 2025 shootout; dog polishing is a single owner report (2026-04) with no wider confirmation."
+  },
+  {
+   "id": "tf-059",
+   "domain": "chassis",
+   "topic": "frame and geometry (MX/XC)",
+   "applies_to": {
+    "models": [
+     "TF 250-X",
+     "TF 450-RC Edition",
+     "TF 450-X",
+     "TF 250-C",
+     "TF 450-C"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "MX and XC models use a hand TIG-welded aluminium spine frame with twin cradles and a hydroformed aluminium swingarm, with 27.4 deg rake, 116 mm trail, 1,492 mm wheelbase and 960 mm seat height.",
+   "values": {
+    "rake": "27.4 deg",
+    "trail": "116 mm (4.57 in)",
+    "wheelbase": "1,492 mm",
+    "seat_height": "960 mm",
+    "bar_width": "836 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Triumph media kit: 2026 TF 250-C and TF 450-C",
+    "url": "https://triumph-mediakits.com/en/all-motorcycles/motocross-and-enduro/2026-tf-250-c-and-tf-450-c.html",
+    "date": "2025-09"
+   },
+   "confidence": "high",
+   "notes": "Measured seat height 37.0-38.1 in (Dirt Rider)."
+  },
+  {
+   "id": "tf-060",
+   "domain": "chassis",
+   "topic": "250 vs 450 chassis differences",
+   "applies_to": {
+    "models": [
+     "TF 250-X",
+     "TF 450-RC Edition",
+     "TF 450-X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 250 and 450 chassis are nearly identical, sharing frame, swingarm and suspension hardware; the 450 differs in engine hangers, fork springs and valving, and machined triple-clamp pockets.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: World Debut 2025 Triumph TF450-RC First Impression",
+    "url": "https://dirtbiketest.com/fresh-dirt/world-debut-2025-triumph-tx450-rc-first-impression/",
+    "date": "2024-11"
+   },
+   "confidence": "high",
+   "notes": "Dirt Bike confirms 'virtually identical apart from engine mounts and suspension settings'."
+  },
+  {
+   "id": "tf-061",
+   "domain": "chassis",
+   "topic": "E model geometry",
+   "applies_to": {
+    "models": [
+     "TF 250-E",
+     "TF 450-E"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The E models use the same main frame with enduro mounts, a 10 mm longer swingarm and 10 mm shorter fork, giving 26.8 deg rake, about 4.4-4.5 in trail, 1,488 mm wheelbase and 955 mm seat height.",
+   "values": {
+    "rake": "26.8 deg",
+    "trail": "4.4-4.5 in",
+    "wheelbase": "1,488 mm",
+    "seat_height": "955 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motorcycle.com: 2026 Triumph TF 450-E and TF 250-E First Look",
+    "url": "https://www.motorcycle.com/bikes/manufacturer/triumph/2026-triumph-tf-450-e-and-tf-250-e-off-road-models-first-look-44619676",
+    "date": "2025-03"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider says unique frame/swingarm; Enduro21 says shared main frame."
+  },
+  {
+   "id": "tf-062",
+   "domain": "chassis",
+   "topic": "handling character MX",
+   "applies_to": {
+    "models": [
+     "TF 250-X",
+     "TF 450-RC Edition",
+     "TF 450-X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers consistently praise the handling: stable at speed and under braking, light and nimble, good in ruts, outstanding in corners and one of the best straight-line 450s. On the 250, timid riders may find it stands up in corners, and the front can feel busy into fast, rough turns.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: Ron's Wrap 2026 Triumph TF450-X",
+    "url": "https://dirtbikemagazine.com/?p=101824",
+    "date": "2025-12"
+   },
+   "confidence": "high",
+   "notes": "Dirt Bike, MXA ('most fun in stock trim'), ADB, Dirt Bike Test, Vital shootout (chassis the best trait)."
+  },
+  {
+   "id": "tf-063",
+   "domain": "chassis",
+   "topic": "frame stiffness feel",
+   "applies_to": {
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "One tester felt the 250 chassis resembles a 2009 YZ250F, harsh on big landings and rough high-speed sections, and suspected the front is less rigid than the rear; engine mounts or clamps were suggested as fixes.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX: 2025 Triumph TF-250X Review",
+    "url": "https://www.vitalmx.com/features/2025-triumph-tf-250x-review",
+    "date": "2025-02"
+   },
+   "confidence": "low",
+   "notes": "Single tester opinion."
+  },
+  {
+   "id": "tf-064",
+   "domain": "chassis",
+   "topic": "ergonomics",
+   "applies_to": {
+    "models": [
+     "TF 250-X",
+     "TF 450-RC Edition",
+     "TF 450-X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The cockpit is flat, slim and neutral, close to a previous-generation KTM and easy to grip with the knees; it suits riders about 5 ft 7 in to 6 ft 1 in. The footpegs pack with mud and one owner found their camber wore boot soles.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: 2025 MXA 250 Shootout",
+    "url": "https://motocrossactionmag.com/2025-motocross-action-250-shootout-suzuki-triumph-kawasaki-honda-yamaha-gasgas-husqvarna-ktm",
+    "date": "2024-12"
+   },
+   "confidence": "medium",
+   "notes": "Dirt Bike Test height range; owner boot wear from Vital forum."
+  },
+  {
+   "id": "tf-065",
+   "domain": "suspension",
+   "topic": "KYB hardware",
+   "applies_to": {
+    "models": [
+     "TF 250-X",
+     "TF 450-RC Edition",
+     "TF 450-X",
+     "TF 250-C",
+     "TF 450-C",
+     "TF 250-E",
+     "TF 450-E"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "All models use a KYB 48 mm closed-cartridge coil fork with Air-Oil Separation (AOS) and a KYB three-way piggyback shock with high/low-speed compression, rebound and preload adjustment. MX/XC travel is 310 mm front and 305 mm rear; the E fork is 10 mm shorter.",
+   "values": {
+    "fork": "KYB 48 mm AOS coil, 310 mm",
+    "shock": "KYB piggyback, 305 mm",
+    "E_travel": "300 mm F / 313 mm R (Motorcycle.com)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Triumph media kit: Triumph launches new TF 450-X for 2026",
+    "url": "https://triumph-mediakits.com/en/news-articles/triumph-launches-new-tf-450-x-for-2026-pure.-focused.-performance.html",
+    "date": "2025-09"
+   },
+   "confidence": "high",
+   "notes": "Fork is Triumph's own spec, not the Yamaha unit (Dirt Bike Test)."
+  },
+  {
+   "id": "tf-066",
+   "domain": "suspension",
+   "topic": "250-X stock springs and sag",
+   "applies_to": {
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The TF 250-X comes with 4.7 N/mm fork springs (4.5, 4.6, 4.8, 4.9 optional) and a 56 N/mm shock spring aimed at about 165-185 lb riders, with 5 mm fork height and a 105 mm handbook race sag.",
+   "values": {
+    "fork_spring": "4.7 N/mm",
+    "shock_spring": "56 N/mm",
+    "rider_weight": "165-185 lb",
+    "race_sag": "105 mm",
+    "fork_height": "5 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2024 Triumph TF 250-X Technical Overview",
+    "url": "https://www.dirtrider.com/dirt-bikes/triumph-tf-250-x-technical-overview-2024/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Dirt Rider lists springs as 'Nm' (N/mm intended). Sag from Dirt Rider RC article (handbook)."
+  },
+  {
+   "id": "tf-067",
+   "domain": "suspension",
+   "topic": "450 stock springs and clickers",
+   "applies_to": {
+    "models": [
+     "TF 450-RC Edition",
+     "TF 450-X"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 450-RC uses 5.0 N/mm fork springs and a 58 N/mm shock spring; fork compression 14 and rebound 12 clicks out; shock high-speed compression 1.25 turns, low-speed 14 and rebound 12 clicks; 102 mm race sag and 5 mm fork height. The 2026 X carries the RC settings over.",
+   "values": {
+    "fork_spring": "5.0 N/mm",
+    "shock_spring": "58 N/mm",
+    "fork_C_R": "14 / 12 clicks out",
+    "shock_HSC": "1.25 turns",
+    "shock_LSC_R": "14 / 12 clicks",
+    "race_sag": "102 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2025 Triumph TF 450-RC Edition Technical Information",
+    "url": "https://www.dirtrider.com/triumph/tf-450-rc/",
+    "date": "2025-06"
+   },
+   "confidence": "high",
+   "notes": "From owner's handbook per Dirt Rider. 450-E: 4.4 N/mm fork, 58 N/mm shock with enduro valving."
+  },
+  {
+   "id": "tf-068",
+   "domain": "suspension",
+   "topic": "suspension character",
+   "applies_to": {
+    "models": [
+     "TF 250-X",
+     "TF 450-RC Edition",
+     "TF 450-X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Stock KYB settings are soft and plush, aimed at a roughly 170-175 lb novice/intermediate; faster or heavier riders use up the travel (shock bottoming on big landings, fork diving or bottoming mid-to-late stroke). The front rides high, which lets riders run more rear preload.",
+   "values": {
+    "target_rider": "about 170-175 lb novice/intermediate"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: Triumph TF450-RC Edition Revisited",
+    "url": "https://dirtbikemagazine.com/?p=100006",
+    "date": "2025-07"
+   },
+   "confidence": "high",
+   "notes": "Dirt Bike RC/X, MXA (155-175 lb), Vital 250 review, Dirt Bike Test."
+  },
+  {
+   "id": "tf-069",
+   "domain": "suspension",
+   "topic": "suspension criticism (2026 450 shootout)",
+   "applies_to": {
+    "models": [
+     "TF 450-X"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "In one 2026 shootout all three testers called the 450-X fork harsh and inconsistent and the shock dead, and two days of fork testing on the RC did not fix it.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX: 2026 450 Motocross Shootout",
+    "url": "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+    "date": "2025-11"
+   },
+   "confidence": "high",
+   "notes": "Contrasts with other magazines rating the same settings plush and well balanced - see conflicts."
+  },
+  {
+   "id": "tf-070",
+   "domain": "suspension",
+   "topic": "tester clicker changes 250-X",
+   "applies_to": {
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "A 170 lb tester stiffened the soft fork 4 clicks of compression and slowed rebound 3 clicks; on the shock, high-speed compression +1/4 turn, low-speed +2 clicks and rebound 2 clicks slower.",
+   "values": {
+    "fork": "C +4, R -3 (slower)",
+    "shock": "HSC +1/4 turn, LSC +2, R -2 (slower)",
+    "rider": "5 ft 10 in, 170 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX: 2025 Triumph TF-250X Review",
+    "url": "https://www.vitalmx.com/features/2025-triumph-tf-250x-review",
+    "date": "2025-02"
+   },
+   "confidence": "high",
+   "notes": "Fox Raceway; stock tyres."
+  },
+  {
+   "id": "tf-071",
+   "domain": "suspension",
+   "topic": "tester spring and sag changes 250-X",
+   "applies_to": {
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "One test preferred medium springs (for 80-90 kg riders) with 36 mm static sag and 102 mm ride height; the standard 40 mm static / 105 mm race sag felt low at the rear and slow to turn. Others ran 100-102 mm race sag, added 2-3 fork compression clicks for fast riders, and dropped the fork 3 mm in the clamps on fast tracks.",
+   "values": {
+    "springs_tested": "production 70-80 kg, medium 80-90 kg, hard 90+ kg",
+    "preferred_static_sag": "36 mm",
+    "preferred_race_sag": "100-102 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "ADB Magazine: Aussie Test 2024 Triumph TF 250-X",
+    "url": "https://adbmag.com.au/?p=48204",
+    "date": "2024-07"
+   },
+   "confidence": "high",
+   "notes": "Dirt Bike Test, MCNews (105 to 102 mm), Dirt Bike (about 100 mm)."
+  },
+  {
+   "id": "tf-072",
+   "domain": "suspension",
+   "topic": "tester sag on 450",
+   "applies_to": {
+    "models": [
+     "TF 450-RC Edition",
+     "TF 450-X",
+     "TF 450-C"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "On the 450, testers settled around 100-104 mm race sag (104 mm on the 2026 X, which was sensitive to measuring errors); the 450-C tester ran 102 mm instead of the 105 mm standard to put more weight on the front for tight trail turns.",
+   "values": {
+    "RC": "about 100 mm",
+    "X": "104 mm",
+    "450C": "102 mm (std 105)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: Ron's Wrap 2026 Triumph TF450-X",
+    "url": "https://dirtbikemagazine.com/?p=101824",
+    "date": "2025-12"
+   },
+   "confidence": "high",
+   "notes": "Dirt Bike RC/X; Cycle News 450-C; Dirt Bike Test 100-102."
+  },
+  {
+   "id": "tf-073",
+   "domain": "suspension",
+   "topic": "450-E suspension and changes",
+   "applies_to": {
+    "models": [
+     "TF 450-E"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The 450-E is plush on small bumps and rocks but the fork is softer than the shock and dives on hard braking; the tester moved sag from 100 to 105 mm, stiffened the fork 2 clicks and slowed its rebound 2, and on the shock slowed rebound 3 clicks and added 1 click of low-speed compression.",
+   "values": {
+    "sag": "105 mm",
+    "fork": "C +2, R -2",
+    "shock": "R -3, LSC +1"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX: 2026 Triumph TF 450-E Tested",
+    "url": "https://www.vitalmx.com/features/2026-triumph-tf-450-e-dual-sport-or-xc-race-bike-vital-mx-tested",
+    "date": "2025-07"
+   },
+   "confidence": "high",
+   "notes": "Changes made with a KYB technician; California desert."
+  },
+  {
+   "id": "tf-074",
+   "domain": "suspension",
+   "topic": "250-E suspension",
+   "applies_to": {
+    "models": [
+     "TF 250-E"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "On the 250-E, a KYB technician added a couple of compression clicks and set 40 mm static sag, which calmed the handling.",
+   "values": {
+    "static_sag": "40 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21: Tested Triumph TF 250-E & TF 450-E",
+    "url": "https://enduro21.com/en/news/tested-triumph-enduro-models-everything-you-need-to-know",
+    "date": "2025-05"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "tf-075",
+   "domain": "setups",
+   "topic": "owner 450 setups",
+   "applies_to": {
+    "models": [
+     "TF 450-RC Edition",
+     "TF 450-X"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Owner setups for the 450: a 185 lb rider stayed near stock (fork C15/R14; shock HS 7/8 turn, LS 14, R 11; 100-102 mm sag; fork 2.5 mm up); a 95 kg rider went one fork spring rate up (5.2 N/mm) with revalve and two shock rates up at 102-104 mm sag; a 240 lb rider settled on 0.52 kg/mm fork springs.",
+   "values": {},
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum: Triumph TF450 reviews and setup tips",
+    "url": "https://www.vitalmx.com/comment/9137496",
+    "date": "2025-11"
+   },
+   "confidence": "low",
+   "notes": "Small number of owners; maps they used: Deep Sand, Sand Wet, Expert, RC Signature."
+  },
+  {
+   "id": "tf-076",
+   "domain": "setups",
+   "topic": "magazine tyre and bar setups",
+   "applies_to": {
+    "models": [
+     "TF 250-X",
+     "TF 450-X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers disliked the stock Pirelli MX32 on the 250 (100/90-19 on a narrow 1.85 rim) and fitted Dunlop MX34 with a 110 rear; 450 owners swapped to MX3S front tyres and Renthal Fatbars.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: 2024 Triumph TF 250-X",
+    "url": "https://dirtbiketest.com/bike-tests/2024-triumph-tf-250-x/",
+    "date": "2024-10"
+   },
+   "confidence": "medium",
+   "notes": "MXA, Vital 250 (tyres fold), Dirt Bike; owner items from Vital forum."
+  },
+  {
+   "id": "tf-077",
+   "domain": "known_issues",
+   "topic": "right switch cube recall",
+   "applies_to": {
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "About 690 US TF 250-X bikes (VINs BP6028-CC7868, built 20 July 2023 to 8 August 2024) were recalled because the right switch cube can crack (brake fluid, water and dirt) and start the engine unexpectedly; 16 cracks and 7 unexpected starts were reported. Dealers replace the cube free.",
+   "values": {
+    "recall": "CPSC 25-144 (2025-02-20)",
+    "units_us": "about 690",
+    "incidents": "16 cracks, 7 unexpected starts"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "US CPSC Recall 25-144: Triumph TF250-X",
+    "url": "https://www.cpsc.gov/Recalls/2025/Triumph-TF250-X-Off-Road-Motorcycles-Recalled-Due-to-Injury-Hazard-Imported-by-Triumph-Motorcycles-America",
+    "date": "2025-02"
+   },
+   "confidence": "high",
+   "notes": "Also Transport Canada 2025063 and Australian recall."
+  },
+  {
+   "id": "tf-078",
+   "domain": "known_issues",
+   "topic": "recall add-on upgrades",
+   "applies_to": {
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "With the switch-cube recall Triumph also fitted a new clutch centre with more oil flow, new clutch plates, a new ECU tune for better low-speed and cold running, fuelling tweaks and a new fuel-tank mounting washer.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Visordown: Recalled Triumph TF 250-X models also get performance upgrades",
+    "url": "https://www.visordown.com/news/recalled-triumph-tf-250-x-models-also-get-performance-upgrades",
+    "date": "2025-02"
+   },
+   "confidence": "medium",
+   "notes": "Reported by Visordown from Triumph statement."
+  },
+  {
+   "id": "tf-079",
+   "domain": "known_issues",
+   "topic": "2024 bog and fuelling",
+   "applies_to": {
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "The 2024 250 bogged and could die when the throttle was snapped; an interim remap made it too rich and sputtery out of corners. The 2025 map fixed the sputter, but one magazine still found the bog.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: 2025 MXA 250 Shootout",
+    "url": "https://motocrossactionmag.com/2025-motocross-action-250-shootout-suzuki-triumph-kawasaki-honda-yamaha-gasgas-husqvarna-ktm",
+    "date": "2024-12"
+   },
+   "confidence": "high",
+   "notes": "Vital 2025 says hesitation/dip were removed - see conflicts."
+  },
+  {
+   "id": "tf-080",
+   "domain": "known_issues",
+   "topic": "stiff, notchy gearbox",
+   "applies_to": {
+    "models": [
+     "TF 250-X",
+     "TF 450-RC Edition",
+     "TF 450-X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Stiff, notchy shifting is the most repeated complaint on both engines, especially into third on the 250 and under power on the 450, with occasional false neutrals; it eases with break-in. Triumph fitted a new selector star for 2026 450-X and a new selector drum/detent wheel for the 2027 250.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 Triumph TF250-X",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-triumph-tf250-x",
+    "date": "2024-10"
+   },
+   "confidence": "high",
+   "notes": "MXA, Dirt Bike, MX1Onboard, ADB comparo, Vital owners (2-3 of about 7 posters), Vital transmission thread."
+  },
+  {
+   "id": "tf-081",
+   "domain": "known_issues",
+   "topic": "450 fuelling and flame-out",
+   "applies_to": {
+    "models": [
+     "TF 450-RC Edition",
+     "TF 450-X",
+     "TF 450-C"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "One 450 owner reports a slight rich stutter off the bottom; a 450-C tester had the engine flame out at low speed under heavy throttle late in the day, with slow restarts, and suspected rich mapping.",
+   "values": {},
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News: 2026 Triumph TF 450-C Review",
+    "url": "https://www.cyclenews.com/2026/02/article/2026-triumph-tf-450-c-review/",
+    "date": "2026-02"
+   },
+   "confidence": "low",
+   "notes": "Owner report from Vital forum; not confirmed widely."
+  },
+  {
+   "id": "tf-082",
+   "domain": "known_issues",
+   "topic": "minor early-bike issues",
+   "applies_to": {
+    "models": [
+     "TF 250-X",
+     "TF 450-RC Edition",
+     "TF 450-X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Other early-bike notes: water-pump whine on new 450s that fades after break-in and the first oil change; spokes needing frequent checks in the first 10 hours; a rear brake pedal spring coming loose; an exposed oil cap; footpegs packing with mud; Torx fasteners throughout; hard-to-reach radiator cap; hydraulic clutch hard to modulate for some; and Quickshift dropping out if the lever isn't fully lifted.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2025 Triumph TF 450-RC Edition Technical Information",
+    "url": "https://www.dirtrider.com/triumph/tf-450-rc/",
+    "date": "2025-06"
+   },
+   "confidence": "medium",
+   "notes": "Dirt Rider (water pump), Vital owners (spokes, pedal spring), MXA (oil cap, pegs, Torx), Vital 250 (clutch)."
+  },
+  {
+   "id": "tf-083",
+   "domain": "known_issues",
+   "topic": "E model issues",
+   "applies_to": {
+    "models": [
+     "TF 250-E",
+     "TF 450-E"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "E-model testers noted a heavy clutch pull, an abrupt and buzzy rev limiter on the 450-E, a short second gear with noticeable engine braking, and wheelspin in loose desert with the stock tyre.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX: 2026 Triumph TF 450-E Tested",
+    "url": "https://www.vitalmx.com/features/2026-triumph-tf-450-e-dual-sport-or-xc-race-bike-vital-mx-tested",
+    "date": "2025-07"
+   },
+   "confidence": "medium",
+   "notes": "Clutch pull from Enduro21."
+  },
+  {
+   "id": "tf-084",
+   "domain": "maintenance",
+   "topic": "top-end service interval claim",
+   "applies_to": {
+    "models": [
+     "TF 250-X",
+     "TF 450-RC Edition",
+     "TF 450-X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Triumph quotes a 45-hour piston/top-end service interval for its MX engines, against about 15 hours from most rivals.",
+   "values": {
+    "top_end_interval": "45 h"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "MCNews.com.au: Triumph TF 250-X Review",
+    "url": "https://www.mcnews.com.au/triumph-tf-250-x-review-test-tf250x/",
+    "date": "2024-06"
+   },
+   "confidence": "medium",
+   "notes": "Quoted by MCNews (250) and 1000PS (450). Enduro21 mentions a 90-hour figure for E models without saying what it covers."
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "TF 250 claimed peak power",
+   "values": {
+    "Triumph C media kit": "47.3 PS / 46.67 hp @ 13,250 rpm",
+    "MCNews AU": "47 hp (35 kW) @ 13,500 rpm",
+    "ADB": "48 hp @ 13,500 rpm",
+    "Visordown": "47.3 bhp @ 13,500 rpm",
+    "TMX News": "48 PS @ 13,500 rpm"
+   },
+   "spread": "46.7-48 hp/PS; 13,250-13,500 rpm",
+   "note": "All are crank claims; units (PS vs hp) are mixed by the press."
+  },
+  {
+   "topic": "TF 250 claimed torque",
+   "values": {
+    "Triumph C media kit": "28.3 Nm @ 9,000 rpm (table) / 9,250 rpm (text)",
+    "MCNews": "28 Nm @ 9,000 rpm",
+    "ADB": "29 Nm"
+   },
+   "spread": "28-29 Nm"
+  },
+  {
+   "topic": "TF 250-X peak power on dynos",
+   "values": {
+    "Dirt Rider Dynojet 2024": "37.8 hp",
+    "Dirt Rider 2025": "39.9 hp",
+    "Dirt Rider 2026": "40.8 hp @ 13,500",
+    "MXA 2024": "42.67 hp",
+    "Dirt Bike / Pro Circuit 2025": "42.94 hp @ 13,340"
+   },
+   "spread": "37.8-42.94 hp",
+   "note": "Different dynos; Dynojet 250i reads several hp lower than Pro Circuit. Compare only within one dyno."
+  },
+  {
+   "topic": "Triumph 450 peak power on dynos",
+   "values": {
+    "Dirt Rider RC 2025": "55.8 hp @ 10,500",
+    "Dirt Rider X 2026": "55.7 hp @ 10,400",
+    "Vital / Race Tech X 2026": "56.98 hp @ 10,300",
+    "Dirt Bike / Pro Circuit X 2026": "58.6 hp @ 9,200"
+   },
+   "spread": "55.7-58.6 hp; peak rpm 9,200-10,500",
+   "note": "Rank vs rivals also differs: 1st of 8 (Race Tech), 3rd of 12 (Pro Circuit)."
+  },
+  {
+   "topic": "TF 450 claimed power",
+   "values": {
+    "Triumph media kit": "62.4 PS @ 9,500 rpm (body text calls it 62.4 hp)",
+    "Triumph US / Dirt Bike": "61.5 hp",
+    "Triumph C page": "61.6 hp",
+    "1000PS": "over 62 hp"
+   },
+   "spread": "61.5-62.4",
+   "note": "Same figure in PS vs hp."
+  },
+  {
+   "topic": "TF 250-X weight",
+   "values": {
+    "Triumph claim": "104 kg wet",
+    "MXA / Dirt Bike": "221 lb no fuel",
+    "Dirt Bike Test": "229 lb no fuel",
+    "Dirt Rider 2024": "230 lb wet",
+    "Dirt Rider 2026": "233 lb wet",
+    "MX1Onboard": "100 kg"
+   },
+   "spread": "221-233 lb depending on fuel and scale"
+  },
+  {
+   "topic": "Triumph 450 weight",
+   "values": {
+    "Triumph claim": "108.6 kg (RC) / 108.3 kg (X) wet",
+    "Dirt Bike": "233 lb RC, 231.3 lb X no fuel",
+    "Vital": "235 lb X full tank",
+    "Dirt Rider": "242 lb RC, 240 lb X wet"
+   },
+   "spread": "231-242 lb"
+  },
+  {
+   "topic": "2025 TF 250-X low-end fix",
+   "values": {
+    "MXA 2025 shootout": "sputter fixed but bog remained",
+    "Vital 2025 review": "hesitation and midrange dip removed",
+    "Dirt Rider 2025": "almost a bog down low"
+   },
+   "spread": "partial to full fix"
+  },
+  {
+   "topic": "450 suspension quality",
+   "values": {
+    "Dirt Bike / ADB": "plush, good hold-up, balanced for 175 lb novice",
+    "Vital 2026 shootout": "fork harsh and inconsistent, shock dead (all three testers)"
+   },
+   "spread": "opposite verdicts on the same settings"
+  },
+  {
+   "topic": "2026 TF 450-X rear tyre and price",
+   "values": {
+    "Triumph media kit": "110/90-19 Pirelli MX32",
+    "ADB launch": "100/90-19",
+    "Dirt Rider": "$10,695",
+    "Dirt Bike": "$10,395"
+   },
+   "spread": "100 vs 110 section; $300 price gap"
+  },
+  {
+   "topic": "Quickshift on 250-X",
+   "values": {
+    "Dirt Rider, MXA, ADB, MCNews": "quickshift standard",
+    "Triumph NZ page": "described as holeshot assist for clutchless throttle-pinned shifts 2nd-5th"
+   },
+   "spread": "same feature, different naming"
+  },
+  {
+   "topic": "TF 450-E rake and rear tyre",
+   "values": {
+    "Dirt Rider": "26.8 deg / 4.4 in, 140/80-18",
+    "Motorcycle.com": "26.8 deg / 4.5 in, 140/90-18"
+   },
+   "spread": "0.1 in trail; tyre aspect 80 vs 90"
+  },
+  {
+   "topic": "TF 250-C / 450-C price",
+   "values": {
+    "Triumph media kit / Enduro21": "$9,695 / $10,695",
+    "Triumph USA cross-country page": "$9,995 / $10,995"
+   },
+   "spread": "$300"
+  },
+  {
+   "topic": "C model map count",
+   "values": {
+    "Triumph page intro": "three cross-country maps via MX Tune Pro module",
+    "Triumph page electronics": "dual engine maps"
+   },
+   "spread": "2 on bar; app adds more"
+  }
+ ],
+ "not_found": [
+  {
+   "item": "DLC coating on TF 250-X finger followers",
+   "searched": "Triumph spec pages (US, NZ), Triumph media kits, MXA details, MCN, Dirt Rider, ADB, MCNews, extended web search",
+   "note": "Finger followers confirmed by Dirt Rider and ADB; Triumph says only 'DLC coatings' without naming the parts. 450 lists DLC rockers and cams."
+  },
+  {
+   "item": "TF 450 MX rev limit",
+   "searched": "Triumph pages and media kits, Dirt Rider RC/X, Dirt Bike, ADB, 1000PS, Enduro21, standard search",
+   "note": "Only the 450-E listed max of 10,500 rpm (Vital) found."
+  },
+  {
+   "item": "Valve sizes, cam lift/duration, rod length, injector flow",
+   "searched": "Triumph spec pages, media kits, magazine technical overviews",
+   "note": "Not published."
+  },
+  {
+   "item": "Dyno numbers for TF 250-C, TF 450-C, TF 250-E, TF 450-E",
+   "searched": "Cycle News, Vital, Dirt Rider, Enduro21, Ultimate Motorcycling search results",
+   "note": "Only manufacturer claims found."
+  },
+  {
+   "item": "MXA dyno/test of the TF 450-RC or TF 450-X and MXA 2026 shootout placings",
+   "searched": "MXA-targeted searches (2)",
+   "note": "Not surfaced by search."
+  },
+  {
+   "item": "2026 250 shootout results (any magazine) including TF 250-X",
+   "searched": "Dirt Bike, MXA, Vital searches",
+   "note": "Not found; only 2025 shootouts."
+  },
+  {
+   "item": "Measured dyno before/after for Akrapovic, FMF, Pro Circuit or Yoshimura systems",
+   "searched": "exhaust dyno searches for TF 250-X and TF 450",
+   "note": "Only seat-of-pants (FMF) and manufacturer % claims (Yoshimura)."
+  },
+  {
+   "item": "Aftermarket ECU or reflash services for Triumph TF",
+   "searched": "MX Tune Pro / Athena searches",
+   "note": "None found; users limited to Triumph preset maps."
+  },
+  {
+   "item": "Crank inertia figures (absolute) and E/C spring rates for 250",
+   "searched": "Dirt Rider, Vital, Enduro21, Triumph media",
+   "note": "Only '+30% inertia' and 450-E springs (4.4 N/mm / 58 N/mm) found."
+  },
+  {
+   "item": "Swapmoto 2025 250 shootout Triumph details",
+   "searched": "fetched page",
+   "note": "Page is a video teaser with no text data."
+  }
+ ],
+ "sources": [
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2024 Triumph TF 250-X Technical Overview",
+   "url": "https://www.dirtrider.com/dirt-bikes/triumph-tf-250-x-technical-overview-2024/",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2026 Triumph TF 250-X Technical Overview",
+   "url": "https://dirtrider.com/dirt-bikes/triumph-tf-250-x-technical-overview",
+   "date": "2026-02"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: Triumph TF 250-X dyno test 2024",
+   "url": "https://www.dirtrider.com/tests/triumph-tf-250-x-dyno-test-2024",
+   "date": "2024-10"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: Triumph TF 250-X dyno test 2025",
+   "url": "https://www.dirtrider.com/tests/triumph-tf-250-x-dyno-test-2025",
+   "date": "2024-11"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2025 Triumph TF 450-RC Edition Technical Information",
+   "url": "https://www.dirtrider.com/triumph/tf-450-rc/",
+   "date": "2025-06"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2026 Triumph TF 450-X Technical Overview",
+   "url": "https://www.dirtrider.com/dirt-bikes/triumph-tf-450-x-technical-overview/",
+   "date": "2025-12"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2026 Triumph TF 450-E Technical Overview",
+   "url": "https://dirtrider.com/dirt-bikes/triumph-tf-450-e-technical-overview",
+   "date": "2025-07"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA Race Test 2024 Triumph TF250-X",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2024-triumph-tf250-x",
+   "date": "2024-10"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: 2025 MXA 250 Shootout",
+   "url": "https://motocrossactionmag.com/2025-motocross-action-250-shootout-suzuki-triumph-kawasaki-honda-yamaha-gasgas-husqvarna-ktm",
+   "date": "2024-12"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: Details released 2024 Triumph TF250-X",
+   "url": "https://motocrossactionmag.com/details-released-2024-triumph-tf-250-x-four-stroke",
+   "date": "2023-11"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Magazine: Finally, Triumph TF250X test bike - the Wrap",
+   "url": "https://dirtbikemagazine.com/finally-triumph-tf250x-test-bike-the-wrap/",
+   "date": "2024-07"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Magazine: 250 motocross bikes on the dyno - the Wrap (2025 250 shootout)",
+   "url": "https://dirtbikemagazine.com/250-motocross-bikes-on-the-dyno-the-wrap/",
+   "date": "2024-12"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Magazine: Twelve 450 motocross bikes on the dyno - the Wrap (2026 450 shootout)",
+   "url": "https://dirtbikemagazine.com/?p=101733",
+   "date": "2025-11"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Magazine: Ron's Wrap 2026 Triumph TF450-X",
+   "url": "https://dirtbikemagazine.com/?p=101824",
+   "date": "2025-12"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Magazine: Triumph TF450-RC Edition Revisited",
+   "url": "https://dirtbikemagazine.com/?p=100006",
+   "date": "2025-07"
+  },
+  {
+   "type": "magazine",
+   "name": "Vital MX: 2025 Triumph TF-250X Review",
+   "url": "https://www.vitalmx.com/features/2025-triumph-tf-250x-review",
+   "date": "2025-02"
+  },
+  {
+   "type": "magazine",
+   "name": "Vital MX: 2026 450 Motocross Shootout",
+   "url": "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+   "date": "2025-11"
+  },
+  {
+   "type": "magazine",
+   "name": "Vital MX: 2026 Triumph TF 450-E Tested",
+   "url": "https://www.vitalmx.com/features/2026-triumph-tf-450-e-dual-sport-or-xc-race-bike-vital-mx-tested",
+   "date": "2025-07"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum: Possible FIX for Triumph TF transmissions",
+   "url": "https://www.vitalmx.com/comment/8904346",
+   "date": "2026-04"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum: Triumph TF450 reviews and setup tips",
+   "url": "https://www.vitalmx.com/comment/9137496",
+   "date": "2025-11"
+  },
+  {
+   "type": "magazine",
+   "name": "ADB Magazine: Aussie Test 2024 Triumph TF 250-X",
+   "url": "https://adbmag.com.au/?p=48204",
+   "date": "2024-07"
+  },
+  {
+   "type": "magazine",
+   "name": "ADB Magazine: Motocross Launch 2026 Triumph TF 450-X",
+   "url": "https://adbmag.com.au/editorial/motocross-launch-2026-triumph-tf-450-x/",
+   "date": "2026-02"
+  },
+  {
+   "type": "magazine",
+   "name": "ADB Magazine: MX Comparo Yamaha YZ450F v Triumph TF 450-X",
+   "url": "https://adbmag.com.au/editorial/mx-comparo-yamaha-yz450f-v-triumph-tf-450-x/",
+   "date": "2026-06"
+  },
+  {
+   "type": "magazine",
+   "name": "MCNews.com.au: Triumph TF 250-X Review",
+   "url": "https://www.mcnews.com.au/triumph-tf-250-x-review-test-tf250x/",
+   "date": "2024-06"
+  },
+  {
+   "type": "magazine",
+   "name": "MCNews.com.au: 2027 Triumph TF 250-X update",
+   "url": "https://www.mcnews.com.au/2027-triumph-tf-250-x/",
+   "date": "2026-09"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Test: 2024 Triumph TF 250-X",
+   "url": "https://dirtbiketest.com/bike-tests/2024-triumph-tf-250-x/",
+   "date": "2024-10"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Test: World Debut 2025 Triumph TF450-RC First Impression",
+   "url": "https://dirtbiketest.com/fresh-dirt/world-debut-2025-triumph-tx450-rc-first-impression/",
+   "date": "2024-11"
+  },
+  {
+   "type": "magazine",
+   "name": "MX1Onboard: We test the best six 250 bikes of 2025",
+   "url": "https://mx1onboard.com/we-test-the-best-six-250-bikes-of-2025/",
+   "date": "2025-04"
+  },
+  {
+   "type": "magazine",
+   "name": "1000PS: Triumph TF 450 RC Test 2025",
+   "url": "https://www.1000ps.com/en-gb/amp/articledetail/3012142",
+   "date": "2024-11"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21: First look Triumph TF 450-RC Edition",
+   "url": "https://enduro21.com/en/bikes/latest/first-look-triumph-motorcycles-launches-the-tf-450-rc-edition",
+   "date": "2024-10"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21: Tested Triumph TF 250-E & TF 450-E",
+   "url": "https://enduro21.com/en/news/tested-triumph-enduro-models-everything-you-need-to-know",
+   "date": "2025-05"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21: First look Triumph TF 250-C & TF 450-C",
+   "url": "https://enduro21.com/en/news/first-look-triumph-tf-250-c-tf-450-c-cross-country-models",
+   "date": "2025-09"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21: First look 2026 Triumph TF 250-X",
+   "url": "https://enduro21.com/en/news/first-look-2026-triumph-tf-250-x-power-handling-and-end-user-changes-for-2026",
+   "date": "2025-07"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News: 2026 Triumph TF 450-C Review",
+   "url": "https://www.cyclenews.com/2026/02/article/2026-triumph-tf-450-c-review/",
+   "date": "2026-02"
+  },
+  {
+   "type": "magazine",
+   "name": "Roadracing World: Triumph launches 250cc and 450cc enduro racebikes",
+   "url": "https://www.roadracingworld.com/news/triumph-launches-250cc-and-450cc-enduro-racebikes/",
+   "date": "2025-03"
+  },
+  {
+   "type": "magazine",
+   "name": "Motorcycle.com: 2026 Triumph TF 450-E and TF 250-E First Look",
+   "url": "https://www.motorcycle.com/bikes/manufacturer/triumph/2026-triumph-tf-450-e-and-tf-250-e-off-road-models-first-look-44619676",
+   "date": "2025-03"
+  },
+  {
+   "type": "magazine",
+   "name": "Keefer Inc. Testing: FMF 4.1 muffler system for Triumph TF 450 RC Edition",
+   "url": "https://www.keeferinctesting.com/fmf-4-1-muffler-system-for-triumph-tf-450-rc-edition/",
+   "date": "2025-06"
+  },
+  {
+   "type": "tuner",
+   "name": "Yoshimura R&D: TF450 RS-12 stainless full exhaust product page",
+   "url": "https://www.yoshimura-rd.com/products/tf450-rs-12-stainless-full-exhaust-w-aluminum-muffler-274500s320",
+   "date": "2025"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Triumph USA: TF 450-RC Edition (MY25) model page",
+   "url": "https://www.triumphmotorcycles.com/bikes/off-road/motocross/tf-450-rc-edition-2025",
+   "date": "2024"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Triumph NZ: TF 250-X 2025 model page",
+   "url": "https://www.triumphmotorcycles.co.nz/motorcycles/off-road/motocross/tf-250-x-2025",
+   "date": "2024"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Triumph media kit: Triumph launches new TF 450-X for 2026",
+   "url": "https://triumph-mediakits.com/en/news-articles/triumph-launches-new-tf-450-x-for-2026-pure.-focused.-performance.html",
+   "date": "2025-09"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Triumph media kit: 2026 TF 250-C and TF 450-C",
+   "url": "https://triumph-mediakits.com/en/all-motorcycles/motocross-and-enduro/2026-tf-250-c-and-tf-450-c.html",
+   "date": "2025-09"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Triumph USA: Cross Country launch news",
+   "url": "https://www.triumphmotorcycles.com/for-the-ride/news/motorcycles/cross-country-launch",
+   "date": "2025-09"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Triumph USA: MX Tune Pro app page",
+   "url": "https://www.triumphmotorcycles.com/owners/off-road/app",
+   "date": "2025"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Triumph USA: MY25 TF 250-X reveal",
+   "url": "https://triumphmotorcycles.com/for-the-ride/news/motorcycles/my25-tf-250-x-reveal",
+   "date": "2024-11"
+  },
+  {
+   "type": "manufacturer",
+   "name": "US CPSC Recall 25-144: Triumph TF250-X",
+   "url": "https://www.cpsc.gov/Recalls/2025/Triumph-TF250-X-Off-Road-Motorcycles-Recalled-Due-to-Injury-Hazard-Imported-by-Triumph-Motorcycles-America",
+   "date": "2025-02"
+  },
+  {
+   "type": "magazine",
+   "name": "Visordown: Recalled Triumph TF 250-X models also get performance upgrades",
+   "url": "https://www.visordown.com/news/recalled-triumph-tf-250-x-models-also-get-performance-upgrades",
+   "date": "2025-02"
+  },
+  {
+   "type": "magazine",
+   "name": "Visordown: Triumph TF 250-X gets improved power delivery (2026 update)",
+   "url": "https://www.visordown.com/news/triumph-tf-250-x-gets-improved-power-delivery-and-throttle-response",
+   "date": "2025-07"
+  },
+  {
+   "type": "magazine",
+   "name": "TMX News: Triumph TF 250-X refined for 2026",
+   "url": "https://tmxnews.co.uk/news/motocross/triumph-tf-250-x-refined-for-2026",
+   "date": "2025-07"
+  },
+  {
+   "type": "magazine",
+   "name": "MCN: Full details on Triumph's TF 250-X ahead of 2024 debut",
+   "url": "https://motorcyclenews.com/news/new-bikes/2023/november/triumph-tf-250-x-motocross-bike",
+   "date": "2023-11"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Magazine: 2026 Triumph TF 450-X announcement",
+   "url": "https://dirtbikemagazine.com/?p=100896",
+   "date": "2025-09"
+  },
+  {
+   "type": "calculation",
+   "name": "BAK MX KTM 450 SX-F knowledge file (ktm450sxf.json, KTM published bore 95 mm, ratio 1.498)",
+   "url": "",
+   "date": "2026-10"
+  }
+ ]
+}
