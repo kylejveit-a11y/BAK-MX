@@ -1,0 +1,2814 @@
+{
+ "slice": "Yamaha YZ250F/YZ250FX 2024-2026 (plus 2019-2023 YZ250F summary) and Yamaha two-strokes YZ125, YZ250, YZ125X, YZ250X 2020-2026 at bike level",
+ "platform": {
+  "make": "Yamaha",
+  "models": [
+   "YZ250F",
+   "YZ250FX",
+   "YZ125",
+   "YZ250",
+   "YZ125X",
+   "YZ250X"
+  ],
+  "years": [
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026,
+   2027
+  ]
+ },
+ "records": [
+  {
+   "id": "yz25-001",
+   "domain": "identity",
+   "topic": "platform generation",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2024 YZ250F is a new generation in chassis, intake and electronics (frame based on the 2023 YZ450F, new airbox, new ECU), but the engine core is the 2019-on 77.0 x 53.6 mm reverse-head engine with a wider cam chain. 2025 and 2026 are evolutions of the 2024 bike.",
+   "values": {
+    "generation_start": "2024",
+    "engine_core_since": "2019 (head/intake updated 2021)",
+    "bore_x_stroke": "77.0 x 53.6 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2024 Yamaha YZ250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz250f",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "MXA: engine layout unchanged from 2023, updates to intake, cam chain and ECU mapping. Owners on Vital MX make the same point (only cam chain, intake and ECU/harness changed). Yamaha markets it as all-new; the 'all-new' label applies to chassis/bodywork/intake, not the engine internals."
+  },
+  {
+   "id": "yz25-002",
+   "domain": "identity",
+   "topic": "2024 model year changes",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "For 2024 Yamaha fitted a 10-piece aluminum bilateral beam frame from the YZ450F, a new lower airbox with a 56% larger dome filter, a rubber intake boot, a wider cam chain (8.25 to 10.2 mm), the YZ450F's ECU hardware, three-mode traction control, tool-less fork compression knobs, slimmer bodywork and new ergonomics. It is about 3 lb lighter than 2023.",
+   "values": {
+    "cam_chain_width": "8.25 mm to 10.2 mm",
+    "filter_area": "+56%",
+    "clean_side_boot_volume": "+30%",
+    "airbox_height": "15 mm lower",
+    "weight_saving": "about 3 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2024 Yamaha YZ250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz250f",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Change list as reported by MXA from Yamaha's tech brief. ADB reports the same cam chain change as '1.95 mm wider', which matches 10.2 - 8.25 = 1.95 mm."
+  },
+  {
+   "id": "yz25-003",
+   "domain": "identity",
+   "topic": "2024 model year changes (detail)",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Detail of the 2024 update: air ducts in the shrouds removed (air enters around the seat, shrouds and tank); ECU 15 mm shorter; shorter, lighter wiring harness; tank-rail joint and tension pipe lowered 15 mm; engine brackets 3 mm thinner but stepped; subframe 135 g lighter; rear axle 20 to 20.5 mm; aluminum footpeg brackets; shrouds 50 mm narrower; tank 6 mm narrower; seat 15 mm flatter and 5 mm taller; pegs 5 mm lower and 5 mm back.",
+   "values": {
+    "ecu": "15 mm shorter",
+    "subframe_saving": "135 g",
+    "rear_axle": "20 mm to 20.5 mm",
+    "shroud_width": "-50 mm",
+    "tank_width": "-6 mm",
+    "seat": "15 mm flatter, 5 mm taller",
+    "footpegs": "5 mm lower, 5 mm rearward"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Australasian Dirt Bike, launch test of the 2024 Yamaha YZ250F",
+    "url": "https://adbmag.com.au/editorial/motocross-launch-2024-yamaha-yz250f/",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "ADB launch report from Yamaha's brief; MXA lists the same seat/peg/axle numbers."
+  },
+  {
+   "id": "yz25-004",
+   "domain": "identity",
+   "topic": "2024 price and editions",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The 2024 YZ250F listed at $8,899 in Team Yamaha Blue, with a 50th Anniversary Edition at $200 more.",
+   "values": {
+    "MSRP": "$8,899",
+    "MSRP_50th_anniversary": "$9,099"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling, 2024 Yamaha YZ250F first look and specs",
+    "url": "https://ultimatemotorcycling.com/2023/07/26/2024-yamaha-yz250f-first-look-8-fast-facts-20-photos-specs/",
+    "date": "2023-07"
+   },
+   "confidence": "high",
+   "notes": "US pricing as published at launch."
+  },
+  {
+   "id": "yz25-005",
+   "domain": "identity",
+   "topic": "2025 model year changes",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "For 2025 the YZ250F got a revised shock linkage with new shock settings, matching fork settings with delta-shaped piston shims, a switchbox with a raised rib so gloved riders hit the right button, and a new lighter aluminum footpeg bracket. The engine is unchanged apart from revised mapping.",
+   "values": {
+    "rear_spring_rate": "56 to 54 N/mm (with new linkage)",
+    "fork_shims": "delta-shaped piston shims"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA, 2025 YZ250F features page",
+    "url": "https://www.yamahamotorsports.com/models/25-yz250f/features",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Spring change from PulpMX 2026 baseline article; 'engine unchanged except mapping' from Cycle News 2025 review. Dirt Bike Test describes the linkage as stiffer with a lighter spring."
+  },
+  {
+   "id": "yz25-006",
+   "domain": "identity",
+   "topic": "2026 model year changes",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The only mechanical change for 2026 is an ECU lock to deter theft; the rest is graphics, lighter blue fork guards and a 70th Anniversary Edition ($9,099 vs $8,899 standard) that differs in appearance only.",
+   "values": {
+    "MSRP": "$8,899",
+    "MSRP_70th_anniversary": "$9,099",
+    "new_feature": "ECU lock"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider, 2026 Yamaha YZ250F technical overview",
+    "url": "https://www.dirtrider.com/dirt-bikes/yamaha-yz250f-technical-overview/",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "PulpMX (2026 baseline) also says 2025 and 2026 are the same motorcycle. Dirt Rider notes the YZ250F shock low-speed compression still needs a flat-blade screwdriver while the 2026 YZ450F got a hand adjuster."
+  },
+  {
+   "id": "yz25-007",
+   "domain": "identity",
+   "topic": "next generation (2027)",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "The 2027 YZ250F ends this platform: Yamaha calls it a completely new engine with compression up from 13.8:1 to 14.1:1, rev limit up 700 rpm, R1-derived intake tappet/rocker system with dual intake valve springs, 8% more flywheel inertia, dry-sump oiling, new gear ratios, a hydraulic clutch, and the YZ450F frame, suspension and bodywork.",
+   "values": {
+    "compression": "14.1:1 (was 13.8:1)",
+    "rev_limit_change": "+700 rpm",
+    "flywheel_inertia": "+8%",
+    "rear_disc": "220 mm (was 240 mm)",
+    "clutch": "hydraulic"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21, first look at the 2027 Yamaha off-road competition range",
+    "url": "https://enduro21.com/en/news/first-look-2027-yamaha-off-road-competition-range-all-new-yz250f-leads-the-updates",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "Yamaha Europe launch content via Enduro21. Bore/stroke for 2027 not stated. Listed here so the 2024-2026 records are not applied to 2027."
+  },
+  {
+   "id": "yz25-008",
+   "domain": "engine_architecture",
+   "topic": "bore, stroke, compression, throttle body",
+   "applies_to": {
+    "models": [
+     "YZ250F",
+     "YZ250FX"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Yamaha lists 77.0 mm bore x 53.6 mm stroke (250 cc), 13.8:1 compression, DOHC 4 titanium valves and Mikuni fuel injection with a 44 mm throttle body.",
+   "values": {
+    "bore": "77.0 mm",
+    "stroke": "53.6 mm",
+    "displacement": "250 cc",
+    "compression": "13.8:1",
+    "throttle_body": "44 mm Mikuni"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling, 2024 Yamaha YZ250F first look and specs",
+    "url": "https://ultimatemotorcycling.com/2023/07/26/2024-yamaha-yz250f-first-look-8-fast-facts-20-photos-specs/",
+    "date": "2023-07"
+   },
+   "confidence": "high",
+   "notes": "Same figures on Dirt Rider 2024/2025/2026 pages and on the 2025 YZ250FX spec (Ultimate Motorcycling). Titanium valves stated on the FX spec."
+  },
+  {
+   "id": "yz25-009",
+   "domain": "engine_architecture",
+   "topic": "reverse cylinder head layout",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The YZ250F uses Yamaha's reversed layout introduced in 2014: the cylinder is slanted rearward, the intake is a straight downdraft port fed from the front, and the exhaust exits the back of the head and wraps around the cylinder. The cylinder is offset from the crank to cut friction.",
+   "values": {
+    "layout_since": "2014",
+    "intake": "forward-positioned straight downdraft",
+    "exhaust": "rear exit, wraparound",
+    "cylinder": "offset"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA, 2025 YZ250F features page",
+    "url": "https://www.yamahamotorsports.com/models/25-yz250f/features",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Yamaha 2025 features page: forward straight downdraft intake, symmetrical intake ports, offset cylinder, wraparound rear exhaust. MXA's 2014 introduction gives the reasons: mass centralization, a straight intake for power, and less friction from the offset cylinder. No slant angle is published."
+  },
+  {
+   "id": "yz25-010",
+   "domain": "engine_architecture",
+   "topic": "fuel injector and fuel pump",
+   "applies_to": {
+    "models": [
+     "YZ250F",
+     "YZ250FX"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Fuel is delivered by a high-pressure electric pump through a 12-hole Denso injector into the 44 mm throttle body.",
+   "values": {
+    "injector": "12-hole Denso",
+    "throttle_body": "44 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA, 2025 YZ250F features page",
+    "url": "https://www.yamahamotorsports.com/models/25-yz250f/features",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "2019 sources describe the 12-hole injector arriving with the Mikuni throttle body (Keihin before 2019)."
+  },
+  {
+   "id": "yz25-011",
+   "domain": "engine_architecture",
+   "topic": "airbox and intake (2024 on)",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "From 2024 the airbox holds about 30% more volume on the clean side, sits 15 mm lower, uses a dome filter with 56% more area and a rubber (not plastic) intake boot; the intake matches the YZ450F except for a longer boot.",
+   "values": {
+    "clean_side_volume": "+30%",
+    "filter_area": "+56%",
+    "position": "15 mm lower"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2024 Yamaha YZ250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz250f",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Engine tuners link this larger, slower-velocity airbox to the weaker low end of the 2024 (see power_feel records)."
+  },
+  {
+   "id": "yz25-012",
+   "domain": "engine_architecture",
+   "topic": "cam chain (2024 on)",
+   "applies_to": {
+    "models": [
+     "YZ250F",
+     "YZ250FX"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2024-on cam chain is 10.2 mm wide instead of 8.25 mm and changes from a 4x3 to a 3x2 link construction; cam and crank sprockets are 1.5 mm wider and the tensioner and guides are widened.",
+   "values": {
+    "width": "10.2 mm (was 8.25 mm)",
+    "sprocket_width": "+1.5 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2024 Yamaha YZ250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz250f",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "MXA 2024 shootout says this addresses past cam-chain issues. The 2025 YZ250FX shares the beefier chain (MXA GNCC test)."
+  },
+  {
+   "id": "yz25-013",
+   "domain": "engine_architecture",
+   "topic": "bore/stroke ratio and mean piston speed",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The engine is very oversquare (bore 1.44 times the stroke). At the 12,700-13,000 rpm where it makes peak power the piston averages about 22.7-23.2 m/s.",
+   "values": {
+    "bore_stroke_ratio": "1.44",
+    "mean_piston_speed_12700": "22.7 m/s",
+    "mean_piston_speed_13000": "23.2 m/s"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling, 2024 Yamaha YZ250F first look and specs",
+    "url": "https://ultimatemotorcycling.com/2023/07/26/2024-yamaha-yz250f-first-look-8-fast-facts-20-photos-specs/",
+    "date": "2023-07"
+   },
+   "confidence": "high",
+   "notes": "77.0/53.6 = 1.437. Mean piston speed = 2 x stroke x rpm / 60000 = 2 x 53.6 x 12,700 / 60000 = 22.7 m/s; at 13,000 rpm = 23.2 m/s. Peak rpm from MXA (12,700) and Dirt Rider (13,000) 2024 dynos."
+  },
+  {
+   "id": "yz25-014",
+   "domain": "engine_architecture",
+   "topic": "clutch",
+   "applies_to": {
+    "models": [
+     "YZ250F",
+     "YZ250FX"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The clutch is a cable-operated, large-diameter 15-plate wet clutch; testers say it gets hot and needs free-play adjustment during a moto.",
+   "values": {
+    "plates": "15",
+    "actuation": "cable"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA, 2025 YZ250F features page",
+    "url": "https://www.yamahamotorsports.com/models/25-yz250f/features",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Heat/free-play note from ADB 2024 launch and MXA 2021 race test. 2027 moves to hydraulic."
+  },
+  {
+   "id": "yz25-015",
+   "domain": "power_feel",
+   "topic": "dyno - 2024 vs 2023",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "On a magazine dyno the 2024 made 42.58 hp at 12,700 rpm vs 42.11 hp for the 2023. The 2024 is slower off the bottom, equal from 6,200-6,800 rpm, nearly 1 hp down until 8,400, dips again, then passes the 2023 from 10,200 rpm up.",
+   "values": {
+    "peak_hp_2024": "42.58 hp @ 12,700 rpm",
+    "peak_hp_2023": "42.11 hp",
+    "crossover": "10,200 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2024 Yamaha YZ250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz250f",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Dyno brand not stated in text. Stock bikes. The 2023 curve is smoother; the 2024 curve has several dips. No torque numbers given."
+  },
+  {
+   "id": "yz25-016",
+   "domain": "power_feel",
+   "topic": "dyno - 2024 (Dynojet)",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "On a Dynojet 250i rear-wheel dyno the 2024 YZ250F made 39.2 hp at 13,000 rpm and 17.9 lb-ft at 10,200 rpm.",
+   "values": {
+    "peak_hp": "39.2 hp @ 13,000 rpm",
+    "peak_torque": "17.9 lb-ft @ 10,200 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider, 2024 Yamaha YZ250F dyno test",
+    "url": "https://www.dirtrider.com/tests/yamaha-yz250f-dyno-test-2024/",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "In-house Dynojet 250i; map and fuel not stated; Dunlop D404 street tire on the rear for testing. Do not compare directly with other dynos."
+  },
+  {
+   "id": "yz25-017",
+   "domain": "power_feel",
+   "topic": "dyno - 2025 (Dynojet)",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The 2025 YZ250F made 38.3 hp and 18.0 lb-ft on the same in-house rear-wheel dyno.",
+   "values": {
+    "peak_hp": "38.3 hp",
+    "peak_torque": "18.0 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider, 2025 Yamaha YZ250F dyno test",
+    "url": "https://dirtrider.com/tests/yamaha-yz250f-dyno-test-2025",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "RPM not stated. Same magazine dyno as the 2024 test (Dynojet 250i per other pages). Engine described as carryover."
+  },
+  {
+   "id": "yz25-018",
+   "domain": "power_feel",
+   "topic": "dyno - 2025/2026 (technical overview figure)",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "The magazine's technical overview quotes 39.5 hp at 12,800 rpm and 18.4 lb-ft at 10,000 rpm at the rear wheel.",
+   "values": {
+    "peak_hp": "39.5 hp @ 12,800 rpm",
+    "peak_torque": "18.4 lb-ft @ 10,000 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider, 2026 Yamaha YZ250F technical overview",
+    "url": "https://www.dirtrider.com/dirt-bikes/yamaha-yz250f-technical-overview/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Model year of the dyno run not stated in the overview; could be a 2025 or 2026 unit."
+  },
+  {
+   "id": "yz25-019",
+   "domain": "power_feel",
+   "topic": "dyno - 2025 eight-bike comparison",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On a tuner's dyno in a 2025 eight-bike test the YZ250F made 41.62 hp at 12,880 rpm and 19.49 lb-ft at 10,100 rpm: 6th of 8 on power, lowest torque, and its torque peak came later than any rival (others 9,160-9,530 rpm).",
+   "values": {
+    "peak_hp": "41.62 hp @ 12,880 rpm",
+    "peak_torque": "19.49 lb-ft @ 10,100 rpm",
+    "FC250": "45.21",
+    "250SX-F": "45.06",
+    "MC250F": "44.81",
+    "KX250": "43.49",
+    "TF250-X": "42.94",
+    "CRF250R": "41.51",
+    "RM-Z250": "40.04"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike magazine, 2025 250 MX shootout dyno wrap (Pro Circuit dyno)",
+    "url": "https://dirtbikemagazine.com/250-motocross-bikes-on-the-dyno-the-wrap/",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Pro Circuit dyno, stock bikes. Units not printed but are hp and lb-ft by context. The magazine notes the YZ's part-throttle response on track is not reflected in full-throttle dyno pulls."
+  },
+  {
+   "id": "yz25-020",
+   "domain": "power_feel",
+   "topic": "how the 2024 engine feels by rpm",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Testers found the 2024 has a lag off the bottom and weaker low-rpm response than the 2023, a slightly stronger and more exciting midrange, and slightly more top end that comes very high and revs out quickly. It is louder with the bigger airbox.",
+   "values": {
+    "low": "weaker than 2023",
+    "mid": "slightly stronger",
+    "top": "slightly stronger, very high in the rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2024 Yamaha YZ250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz250f",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "A 50 to 49 tooth rear sprocket helped but did not fix the low-end lull. Heavy deceleration (engine braking) feel linked by testers to the new intake."
+  },
+  {
+   "id": "yz25-021",
+   "domain": "power_feel",
+   "topic": "how the 2024 engine feels (second test)",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "A second test found the 2024 slow to rev at low rpm, more of a traditional 250F that wants to be revved in the mid, and the best over-rev Yamaha has made on this engine; it needs more shifting and corner speed and leaves a gap between 2nd and 3rd.",
+   "values": {
+    "low": "slow to rev",
+    "top": "best over-rev of this engine design"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, 2024 Yamaha YZ250F first impression",
+    "url": "https://dirtbiketest.com/fresh-dirt/2024-yamaha-yz250f-first-impression/",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Testers suggested one tooth of rear sprocket change to lengthen 2nd (not tested)."
+  },
+  {
+   "id": "yz25-022",
+   "domain": "power_feel",
+   "topic": "why the 2024 lost low end",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Engine tuners attribute the 2024's weaker low end mainly to the larger, lower airbox: the bigger clean-side volume slows intake air speed, which dulls throttle response at low rpm and adds engine braking, while helping the top end.",
+   "values": {
+    "airbox_volume": "+30%"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2024 Yamaha YZ250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz250f",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "MXA quotes Pro Circuit's view that the larger airbox costs power and needs a mapping fix; Twisted Development says the YZ450F box has more velocity and less capacity (Keefer Inc). MXA 2024 shootout: larger airbox slowed intake speed, reduced response and added engine braking."
+  },
+  {
+   "id": "yz25-023",
+   "domain": "power_feel",
+   "topic": "2024 shootout placing",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "In a seven-bike 2024 250F shootout the YZ250F placed 4th: it traded some low-end bark for better top end but still could not match the KTM, Husqvarna, Kawasaki or GasGas at high rpm, and riders needed extra clutch to get into the power.",
+   "values": {
+    "placing": "4th of 7"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, 2024 250 four-stroke shootout",
+    "url": "https://motocrossactionmag.com/2024-mxa-250-four-stroke-shootout-suzuki-honda-kawasaki-yamaha-gasgas-husqvarna-ktm",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Dyno chart is an image; no YZ numbers in text."
+  },
+  {
+   "id": "yz25-024",
+   "domain": "power_feel",
+   "topic": "how the 2025 engine feels by rpm",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On the 2025, testers found strong mid and high-rpm power with a screaming top end, best for fast or experienced riders; the bottom is weaker than the 2023 and slower riders clutched to get into the power, with a slight low-rpm bog if in too tall a gear.",
+   "values": {
+    "low": "weaker than 2023",
+    "mid_top": "strong, screaming top"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, 2025 Yamaha YZ250F first impression",
+    "url": "https://dirtbiketest.com/fresh-dirt/words-2025-yamaha-yz250f-first-impression/",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Testers 165 lb and 195 lb."
+  },
+  {
+   "id": "yz25-025",
+   "domain": "power_feel",
+   "topic": "feel compared with 2024 (map)",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "One tester felt a brief flat spot just after cracking the throttle on the 2024 standard map; the 2025 standard map feels essentially like the 2024 'Response' preset that fixed it.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News, 2025 Yamaha YZ250F review",
+    "url": "https://cyclenews.com/2024/10/article/2025-yamaha-yz250f-review",
+    "date": "2024-10"
+   },
+   "confidence": "medium",
+   "notes": "Single tester impression."
+  },
+  {
+   "id": "yz25-026",
+   "domain": "power_feel",
+   "topic": "measured weight 2024",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Testers put the 2024 at 224 lb, about 3 lb lighter than the 2023 and equal to the KTM 250 SX-F.",
+   "values": {
+    "weight": "224 lb",
+    "saving_vs_2023": "about 3 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2024 Yamaha YZ250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz250f",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Fuel state not given; Yamaha's claimed curb weight is 231 lb (with fuel). Dirt Bike Test says 'over 2 lb lighter'."
+  },
+  {
+   "id": "yz25-027",
+   "domain": "power_feel",
+   "topic": "noise",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers on several magazines call the 2024-on YZ250F loud and raspy when revved, with intake noise from the bigger airbox; one launch tester found the airbox quieter than before at lower revs.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, testing and racing the 2025 YZ250FX at the Ironman GNCC",
+    "url": "https://motocrossactionmag.com/test-racing-the-2025-yamaha-yz250fx-at-the-ironman-gncc",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "MXA (2024 race test, 2025 FX test), Dirt Bike Test 2024 (earplugs a necessity), Cycle News 2025 ('loud'); ADB disagrees on intake noise. The FX silencer adds a baffle."
+  },
+  {
+   "id": "yz25-028",
+   "domain": "ecu_electronics",
+   "topic": "ECU hardware (2024 on)",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "From 2024 the YZ250F uses the YZ450F's ECU hardware (15 mm shorter than before) with YZ250F-specific settings, adjustable through the Power Tuner app.",
+   "values": {
+    "ecu": "YZ450F hardware, 250F calibration"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2024 Yamaha YZ250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz250f",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "See yamaha_power_tuner.json for the app itself."
+  },
+  {
+   "id": "yz25-029",
+   "domain": "ecu_electronics",
+   "topic": "traction control levels (YZ250FX)",
+   "applies_to": {
+    "models": [
+     "YZ250FX"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2025-on YZ250FX has four selectable traction control levels, set in the Power Tuner app and not switchable on the fly.",
+   "values": {
+    "tc_levels": "4"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling, 2025 Yamaha YZ250FX first look and specs",
+    "url": "https://ultimatemotorcycling.com/2024/07/15/2025-yamaha-yz250fx-first-look-9-fast-facts/",
+    "date": "2024-07"
+   },
+   "confidence": "high",
+   "notes": "Enduro21 also reports a new four-level system. YZ250F has HIGH/LOW/OFF (see yamaha_power_tuner.json ypt-045)."
+  },
+  {
+   "id": "yz25-030",
+   "domain": "ecu_electronics",
+   "topic": "2026 ECU lock",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The 2026 YZ250F adds an ECU lock, set through the app, to deter theft.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider, 2026 Yamaha YZ250F technical overview",
+    "url": "https://www.dirtrider.com/dirt-bikes/yamaha-yz250f-technical-overview/",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "App 2.4.0 added ECU Lock for 2026 models (see yamaha_power_tuner.json ypt-003)."
+  },
+  {
+   "id": "yz25-031",
+   "domain": "ecu_electronics",
+   "topic": "tester map for 2026",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "A tester map for the 2025-2026 YZ250F reduces engine-braking feel and adds drive out of corners; traction control must be turned off before loading it.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "PulpMX, 2026 Yamaha YZ250F baseline suspension settings and optional ECU map",
+    "url": "https://pulpmx.com/2026/01/06/2026-yamaha-yz250f-baseline-suspension-settings-optional-ecu-map/",
+    "date": "2026-01"
+   },
+   "confidence": "medium",
+   "notes": "Map published only as an image; no grid values in text."
+  },
+  {
+   "id": "yz25-032",
+   "domain": "ecu_electronics",
+   "topic": "preset maps on the 2024",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "On the 2024, testers found the 'Responsive' preset brought back the older model's character (letting revs drop and using 3rd in corners) and a Yamaha test-rider map cleaned up power everywhere but still wanted more bottom.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, 2024 Yamaha YZ250F first impression",
+    "url": "https://dirtbiketest.com/fresh-dirt/2024-yamaha-yz250f-first-impression/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Owner reports in yamaha_power_tuner.json ypt-030 agree."
+  },
+  {
+   "id": "yz25-033",
+   "domain": "engine_mods",
+   "topic": "YZ450F airbox swap with aftermarket ECU",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "An engine builder's kit fits a 2023-24 YZ450F airbox to the 2024 YZ250F with a remapped aftermarket ECU on pump fuel ($1,300). Testers felt better low-end pickup and recovery, faster climb through the mid, more pull in 2nd-4th and could carry 3rd in corners, but throttle response was slightly softer than a dual-injector setup.",
+   "values": {
+    "price": "$1,300",
+    "fuel": "pump"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing, Twisted Development airbox mod for the 2024 YZ250F",
+    "url": "https://www.keeferinctesting.com/twisted-development-airbox-mod-2024-yamaha-yz250f",
+    "date": "2023-12"
+   },
+   "confidence": "medium",
+   "notes": "Twisted Development Air Boot Kit with Vortex ECU. No dyno numbers published. Unclear whether the ECU is included in the price."
+  },
+  {
+   "id": "yz25-034",
+   "domain": "engine_mods",
+   "topic": "gearing for the 2024 low-end lull",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Going from the stock 50-tooth to a 49-tooth rear sprocket lengthened each gear and helped the 2024's low-end lull but did not fix it.",
+   "values": {
+    "rear_sprocket": "50T to 49T"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2024 Yamaha YZ250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz250f",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "yz25-035",
+   "domain": "engine_mods",
+   "topic": "air filter",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers found the stock 2024 filter let dirt into the intake and fitted an aftermarket filter cage/filter kit; owners confirm aftermarket filters fit if seated correctly.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2024 Yamaha YZ250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz250f",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "MXA used a Twin Air Power Flow kit. Owner thread on Vital MX: an apparent fit problem was user error."
+  },
+  {
+   "id": "yz25-036",
+   "domain": "chassis",
+   "topic": "geometry and dimensions (2024 on)",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Yamaha lists 26.9 degrees rake, 4.7 in trail, 58.1 in wheelbase, 38.2 in seat height, 13.8 in ground clearance, 1.6 gal fuel and 231 lb curb weight.",
+   "values": {
+    "rake": "26.9 deg",
+    "trail": "4.7 in",
+    "wheelbase": "58.1 in",
+    "seat_height": "38.2 in",
+    "ground_clearance": "13.8 in",
+    "fuel": "1.6 gal",
+    "curb_weight": "231 lb"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling, 2024 Yamaha YZ250F first look and specs",
+    "url": "https://ultimatemotorcycling.com/2023/07/26/2024-yamaha-yz250f-first-look-8-fast-facts-20-photos-specs/",
+    "date": "2023-07"
+   },
+   "confidence": "high",
+   "notes": "2024 spec; Cycle News quotes 231 lb wet for 2025."
+  },
+  {
+   "id": "yz25-037",
+   "domain": "chassis",
+   "topic": "frame construction (2024 on)",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2024-on frame is a 10-piece aluminum bilateral beam based on the YZ450F; engine mounts changed from 8 mm aluminum to 5 mm stepped steel plates and two 8 x 135 mm through-bolts make the engine a stressed member; the subframe lower rail is 1.5 mm instead of 1.8 mm.",
+   "values": {
+    "pieces": "10",
+    "engine_mounts": "5 mm stepped steel (was 8 mm aluminum)",
+    "subframe_rail": "1.5 mm (was 1.8 mm)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2024 Yamaha YZ250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz250f",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "ADB adds: more rigidity at the down tube, swingarm pivot and footpeg cross members."
+  },
+  {
+   "id": "yz25-038",
+   "domain": "chassis",
+   "topic": "handling character (2024)",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Testers say the 2024 corners better, feels slim and light, tips into ruts very easily and gives more frame feedback, but it is stiffer and less comfortable than the old chassis; some found the front end busy and twitchy on fast rough straights.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Australasian Dirt Bike, launch test of the 2024 Yamaha YZ250F",
+    "url": "https://adbmag.com.au/editorial/motocross-launch-2024-yamaha-yz250f/",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "MXA 2024 race test and shootout: soft forks dive, busy front end, quick-turning, less user-friendly than 2023. Dirt Bike Test: nimble, no stability issues at Perris."
+  },
+  {
+   "id": "yz25-039",
+   "domain": "chassis",
+   "topic": "handling change 2025",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The 2025 linkage and settings made the bike calmer: testers report less fork dive, less sitting low in the stroke, better hold-up, and a more planted rear that hooks up better.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, 2025 Yamaha YZ250F first impression",
+    "url": "https://dirtbiketest.com/fresh-dirt/words-2025-yamaha-yz250f-first-impression/",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Cycle News 2025 agrees (more balanced, less nervous at the front)."
+  },
+  {
+   "id": "yz25-040",
+   "domain": "chassis",
+   "topic": "ergonomics (2024 on)",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The handlebar sits in the rear clamp holes by default on four-position mounts, one position rearward of 2023; the cockpit is roomier with the flatter seat and lower, rearward pegs.",
+   "values": {
+    "bar_mounts": "4 positions"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2024 Yamaha YZ250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz250f",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Cycle News: more throttle-tube spacing for 2025 to reduce thumb blisters."
+  },
+  {
+   "id": "yz25-041",
+   "domain": "suspension",
+   "topic": "fork and shock hardware",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The YZ250F uses a KYB Speed-Sensitive System coil-spring fork (12.2 in travel) with tool-less compression knobs from 2024, and a fully adjustable KYB linkage shock (12.3 in travel).",
+   "values": {
+    "fork": "KYB SSS coil, 12.2 in",
+    "shock": "KYB, 12.3 in"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling, 2024 Yamaha YZ250F first look and specs",
+    "url": "https://ultimatemotorcycling.com/2023/07/26/2024-yamaha-yz250f-first-look-8-fast-facts-20-photos-specs/",
+    "date": "2023-07"
+   },
+   "confidence": "high",
+   "notes": "MXA found the 2024 knobs hard to turn; Works Connection sells an easier replacement."
+  },
+  {
+   "id": "yz25-042",
+   "domain": "suspension",
+   "topic": "spring rates (2024 vs 2025 on)",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Stock springs are 4.7 N/mm in the fork; the shock spring went from 56 N/mm (2024) to 54 N/mm (2025-on) with the new linkage.",
+   "values": {
+    "fork_spring": "4.7 N/mm",
+    "shock_spring_2024": "56 N/mm",
+    "shock_spring_2025_on": "54 N/mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "PulpMX, 2026 Yamaha YZ250F baseline suspension settings and optional ECU map",
+    "url": "https://pulpmx.com/2026/01/06/2026-yamaha-yz250f-baseline-suspension-settings-optional-ecu-map/",
+    "date": "2026-01"
+   },
+   "confidence": "high",
+   "notes": "Tester baseline article; 2024 rate also in the 2024 baseline."
+  },
+  {
+   "id": "yz25-043",
+   "domain": "suspension",
+   "topic": "fork character (2024)",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Testers and owners found the 2024 fork soft, diving in corners and blowing through on big hits; fixes included 2-3 clicks more compression, raising the fork tubes about 2.5 mm, or a revalve (one owner paid $280).",
+   "values": {
+    "compression_change": "+2 to 3 clicks",
+    "revalve_cost": "$280"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, '2024 YZ 250F Review' owner thread",
+    "url": "https://www.vitalmx.com/comment/5867866",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Matches MXA (soft forks dive) and Dirt Bike Test (+3 clicks fixed dive)."
+  },
+  {
+   "id": "yz25-044",
+   "domain": "setups",
+   "topic": "tester baseline 2024 (riders under 160 lb)",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "A tester baseline for lighter riders: fork 4.7 N/mm, 3 mm up, compression 8 out, rebound 5-6 out; shock 56 N/mm, 105 mm sag, high-speed compression 1.5 turns out, low-speed 12-14 out, rebound 9 out. Slower rebound calms a fork that rises too fast in corners.",
+   "values": {
+    "fork_spring": "4.7 N/mm",
+    "fork_height": "3 mm",
+    "fork_comp": "8 out",
+    "fork_reb": "5-6 out",
+    "shock_spring": "56 N/mm",
+    "sag": "105 mm",
+    "hsc": "1.5 turns out",
+    "lsc": "12-14 out",
+    "shock_reb": "9 out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "PulpMX, 2024 250 motocross baseline suspension settings",
+    "url": "https://pulpmx.com/?p=170184",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "yz25-045",
+   "domain": "setups",
+   "topic": "tester baseline 2026 (2025-2026)",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Tester baseline: fork 4.7 N/mm, flush -2 mm, compression 8 out, rebound 6 out; shock 54 N/mm, 105 mm sag, high-speed compression 1.25 turns out, low-speed 9 out, rebound 8 out. Riders under 160 lb should soften high-speed compression so the rear squats on exits.",
+   "values": {
+    "fork_spring": "4.7 N/mm",
+    "fork_height": "flush -2 mm",
+    "fork_comp": "8 out",
+    "fork_reb": "6 out",
+    "shock_spring": "54 N/mm",
+    "sag": "105 mm",
+    "hsc": "1.25 turns out",
+    "lsc": "9 out",
+    "shock_reb": "8 out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "PulpMX, 2026 Yamaha YZ250F baseline suspension settings and optional ECU map",
+    "url": "https://pulpmx.com/2026/01/06/2026-yamaha-yz250f-baseline-suspension-settings-optional-ecu-map/",
+    "date": "2026-01"
+   },
+   "confidence": "high",
+   "notes": "New KYB feels harsh at first and loosens after a couple of hours."
+  },
+  {
+   "id": "yz25-046",
+   "domain": "setups",
+   "topic": "launch test setup 2024",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "A launch tester ran 105 mm rear sag and slid the fork tubes down a few millimetres in the clamps to stop the front tipping in too quickly.",
+   "values": {
+    "sag": "105 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Australasian Dirt Bike, launch test of the 2024 Yamaha YZ250F",
+    "url": "https://adbmag.com.au/editorial/motocross-launch-2024-yamaha-yz250f/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "yz25-047",
+   "domain": "setups",
+   "topic": "2025 test adjustments",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On the 2025, testers (165 and 195 lb) stiffened the fork 1-2 clicks and slowed rebound; the heavier rider stiffened the rear and the faster rider opened high-speed compression 1/8 to 1/4 turn to stop the rear kicking on square edges.",
+   "values": {
+    "fork_comp": "+1 to 2 clicks",
+    "hsc": "open 1/8 to 1/4 turn"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, 2025 Yamaha YZ250F first impression",
+    "url": "https://dirtbiketest.com/fresh-dirt/words-2025-yamaha-yz250f-first-impression/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "yz25-048",
+   "domain": "known_issues",
+   "topic": "cam chain history",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "Some owners of 2019-2020 bikes reported cam chain failures (one at about 30 hours that bent exhaust valves, about $800 to repair); Yamaha changed the chain surface treatment and tensioner spring for 2021 and fitted a much wider chain from 2024.",
+   "values": {
+    "failure_hours": "about 30 h (single report)",
+    "repair_cost": "about $800"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, '2020 YZ250F cam chain problems' thread",
+    "url": "https://www.vitalmx.com/comment/4039439",
+    "date": "2021"
+   },
+   "confidence": "low",
+   "notes": "Small sample; only one detailed failure. 2021 changes per MXA 2021 race test; 2024 wider chain per MXA. MXA 2024 shootout says the change addresses past cam-chain issues."
+  },
+  {
+   "id": "yz25-049",
+   "domain": "known_issues",
+   "topic": "2024-2025 reliability reports",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "Owner reports on 2024-2025 bikes show no pattern of engine failures; one 2025 at about 30 hours had not yet needed a valve adjustment.",
+   "values": {
+    "hours_without_valve_adjust": "about 30 h"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, '25 YZ250F Reliability' thread",
+    "url": "https://www.vitalmx.com/comment/7609446",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": "Five commenters; most data from earlier years."
+  },
+  {
+   "id": "yz25-050",
+   "domain": "known_issues",
+   "topic": "clutch heat and free play",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The cable clutch heats up with hard use and needs free-play adjusted during or between motos.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2021 Yamaha YZ250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-yamaha-yz250f",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "MXA 2021 and 2024; ADB 2024 launch."
+  },
+  {
+   "id": "yz25-051",
+   "domain": "known_issues",
+   "topic": "Australian recall: balancer gears",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": []
+   },
+   "statement": "Yamaha Motor Australia recalled 50 YZ250Fs because the balancer weight gear and balancer shaft drive gear were made from out-of-specification material; the parts are replaced.",
+   "values": {
+    "units": "50"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Australian Government vehicle recalls, Yamaha Motor Australia YZ250F recall REC-003591",
+    "url": "https://www.vehiclerecalls.gov.au/recalls/rec-003591",
+    "date": ""
+   },
+   "confidence": "medium",
+   "notes": "Model year not shown on the recall page; applies_to.years left empty for that reason."
+  },
+  {
+   "id": "yz25-052",
+   "domain": "identity",
+   "topic": "YZ250FX generation and 2025 update",
+   "applies_to": {
+    "models": [
+     "YZ250FX"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "The YZ250FX got its new generation for 2025 (one year after the YZ250F): new frame based on the YZ250F with its own engine mounts and subframe, new intake and ECU settings, two on-the-fly maps, four-level traction control, tool-less fork compression, about 2 lb lighter, rake 0.2 degree steeper and wheelbase 0.4 in shorter, $9,099.",
+   "values": {
+    "weight_change": "about -2 lb",
+    "MSRP": "$9,099",
+    "wheelbase_change": "-0.4 in",
+    "rake_change": "-0.2 deg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling, 2025 Yamaha YZ250FX first look and specs",
+    "url": "https://ultimatemotorcycling.com/2024/07/15/2025-yamaha-yz250fx-first-look-9-fast-facts/",
+    "date": "2024-07"
+   },
+   "confidence": "high",
+   "notes": "2024 YZ250FX is the previous generation."
+  },
+  {
+   "id": "yz25-053",
+   "domain": "identity",
+   "topic": "YZ250FX vs YZ250F differences",
+   "applies_to": {
+    "models": [
+     "YZ250FX"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "The FX differs from the YZ250F with a two-piece airbox with a longer venturi stack, off-road ECU mapping, wide-ratio 6-speed, 18-inch rear wheel, kickstand, skid plate, 2.1 gal tank (vs 1.6), suspension 10 mm shorter and seat 15 mm lower, front engine mounts 8 mm thick (vs 5 mm), a baffled silencer, and it weighs about 3 lb more.",
+   "values": {
+    "tank": "2.1 gal",
+    "rear_wheel": "18 in",
+    "gearbox": "6-speed wide-ratio",
+    "front_engine_mount": "8 mm (YZ250F 5 mm)",
+    "weight_vs_YZ250F": "+3 lb (claimed)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, testing and racing the 2025 YZ250FX at the Ironman GNCC",
+    "url": "https://motocrossactionmag.com/test-racing-the-2025-yamaha-yz250fx-at-the-ironman-gncc",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Low-fuel light comes on at about 12 miles of range."
+  },
+  {
+   "id": "yz25-054",
+   "domain": "chassis",
+   "topic": "YZ250FX geometry",
+   "applies_to": {
+    "models": [
+     "YZ250FX"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Yamaha lists the 2025 YZ250FX at 27 degrees rake, 4.8 in trail, 57.9 in wheelbase, 37.6 in seat height, 13.0 in ground clearance, 11.8/12.0 in travel and 243 lb wet.",
+   "values": {
+    "rake": "27 deg",
+    "trail": "4.8 in",
+    "wheelbase": "57.9 in",
+    "seat_height": "37.6 in",
+    "ground_clearance": "13.0 in",
+    "travel_front_rear": "11.8 / 12.0 in",
+    "wet_weight": "243 lb"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling, 2025 Yamaha YZ250FX first look and specs",
+    "url": "https://ultimatemotorcycling.com/2024/07/15/2025-yamaha-yz250fx-first-look-9-fast-facts/",
+    "date": "2024-07"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "yz25-055",
+   "domain": "power_feel",
+   "topic": "YZ250FX feel",
+   "applies_to": {
+    "models": [
+     "YZ250FX"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "A GNCC race tester found the 2025 FX has a longer, more linear powerband with a strong bottom-end hit, credited to the longer intake stack, off-road ECU and mapping; suspension held up in fast grass without being harsh over roots and rocks.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, testing and racing the 2025 YZ250FX at the Ironman GNCC",
+    "url": "https://motocrossactionmag.com/test-racing-the-2025-yamaha-yz250fx-at-the-ironman-gncc",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Tester also had trouble starting in gear and started in neutral instead."
+  },
+  {
+   "id": "yz25-056",
+   "domain": "identity",
+   "topic": "2019-2023 generation summary",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "The 2019 YZ250F was all-new: compression 13.5 to 13.8:1, more intake valve lift, revised exhaust port and cam, Mikuni 44 mm throttle body with 12-hole injector, electric start with a 2.4 Ah lithium battery, handlebar map switch, new frame, and 4.7 N/mm fork / 56 N/mm shock springs. 2020 was carryover; 2021 got a new intake port and exhaust cam; 2022-2023 were largely carryover; 2023 has no traction control.",
+   "values": {
+    "compression": "13.8:1 (was 13.5:1)",
+    "battery": "2.4 Ah lithium, 1.5 lb",
+    "fork_spring": "4.7 N/mm",
+    "shock_spring": "56 N/mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "PulpMX, 10 things about the 2019 Yamaha YZ250F",
+    "url": "https://pulpmx.com/?p=141813",
+    "date": "2018"
+   },
+   "confidence": "high",
+   "notes": "Traction control absence on 2023 from yamaha_power_tuner.json ypt-045. 2022/2023 carryover status inferred from MXA/owner statements that 2021-2023 share the engine; not separately researched."
+  },
+  {
+   "id": "yz25-057",
+   "domain": "identity",
+   "topic": "2021 engine changes",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "For 2021 the intake port became straighter and 3 mm wider (9% more volume), the exhaust cam lost 8 degrees of duration with lobe center moved 5 degrees and 0.3 mm less lift, the muffler grew 70 mm (340 cc more volume), and the cam chain, tensioner spring, water pump and clutch basket were strengthened.",
+   "values": {
+    "intake_port": "+3 mm wide, +9% volume",
+    "exhaust_cam": "-8 deg duration, +5 deg lobe center, -0.3 mm lift",
+    "muffler": "+70 mm, +340 cc"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2021 Yamaha YZ250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-yamaha-yz250f",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "yz25-058",
+   "domain": "power_feel",
+   "topic": "2019-2023 dynos (several sources)",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "Magazine dynos for this generation: 2019 41.76 hp at 12,900 rpm (one magazine) and 37.45 hp at 12,390 / 18.53 lb-ft at 8,440 (another, rear-wheel dyno in 3rd gear); 2020 38.2 hp at 12,500 / 18.5 lb-ft at 8,500 (Dynojet); 2022 42.56 hp at 13,670 / 19.49 lb-ft at 9,850 (tuner's Dynojet); 2023 39.5 hp / 18.0 lb-ft (Dynojet 250i).",
+   "values": {
+    "2019_mxa": "41.76 hp @ 12,900",
+    "2019_dr": "37.45 hp @ 12,390; 18.53 lb-ft @ 8,440",
+    "2020_dr": "38.2 hp @ 12,500; 18.5 lb-ft @ 8,500",
+    "2022_db": "42.56 hp @ 13,670; 19.49 lb-ft @ 9,850",
+    "2023_dr": "39.5 hp; 18.0 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2019 Yamaha YZ250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2019-yamaha-yz250f",
+    "date": "2019"
+   },
+   "confidence": "high",
+   "notes": "Sources: MXA 2019 race test; Dirt Rider 2019, 2020, 2023 dyno tests; Dirt Bike 2022 dyno wrap (Pro Circuit Dynojet). Different dynos - do not compare across sources. MXA 2019: +1.20 hp over 2018 at peak, 2018 up to 4 hp stronger at 4,500-5,000 rpm."
+  },
+  {
+   "id": "yz25-059",
+   "domain": "power_feel",
+   "topic": "2019-2023 feel",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "This generation was the class's low-to-mid specialist: strong, almost 450-like bottom and midrange, but it signs off earlier than the KTM-group bikes, so riders shift more. The 2021 revs faster and hits harder low-mid; its stock maps felt too abrupt for average riders.",
+   "values": {
+    "rev_feel": "power falls off near 13,000 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2021 Yamaha YZ250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-yamaha-yz250f",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "MXA 2019 implies an effective rev cut around 13,000 rpm (about 1,000 below KTM's 14,000) but no figure is published. Dirt Rider 2019 calls it almost 450-like."
+  },
+  {
+   "id": "yz25-060",
+   "domain": "setups",
+   "topic": "tester setup 2019 and 2021",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "Race setups from one magazine: 2019 fork 4.7 N/mm, compression 9 out, rebound 9 out, 5 mm up; shock 55 N/mm, 105 mm sag, HSC 1 turn, LSC 10, rebound 8. 2021 fork compression 17 out, rebound 11 out, 7 mm up; shock 56 N/mm, 105 mm sag, HSC 7/8 turn, LSC 10, rebound 10.",
+   "values": {
+    "2019_fork": "4.7 N/mm, C9 R9, 5 mm up",
+    "2019_shock": "55 N/mm, 105 mm, HSC 1, LSC 10, R8",
+    "2021_fork": "4.7 N/mm, C17 R11, 7 mm up",
+    "2021_shock": "56 N/mm, 105 mm, HSC 7/8, LSC 10, R10"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2021 Yamaha YZ250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-yamaha-yz250f",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "2019 settings from MXA 2019 race test; 2021 from MXA 2021 race test. Lighter riders: 4.6 N/mm fork spring."
+  },
+  {
+   "id": "yz25-061",
+   "domain": "identity",
+   "topic": "YZ125 2022 redesign (summary)",
+   "applies_to": {
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2022 YZ125 got a new engine (new cylinder with larger exhaust and transfer ports, 8 mm longer rod, taller chamber with lower compression, revised YPVS, V-Force reed block, Keihin PWK38S with power jet replacing the Mikuni, 3D-map CDI, 21% more flywheel inertia) plus the new bodywork and brakes; 2023-2025 are carryovers.",
+   "values": {
+    "rod": "+8 mm",
+    "flywheel_inertia": "+21%",
+    "carb": "Keihin PWK38S (was 38 mm Mikuni TMX)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2022 Yamaha YZ125",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-yamaha-yz125",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Detail in two_stroke_porting.json 2t-029 to 2t-034."
+  },
+  {
+   "id": "yz25-062",
+   "domain": "identity",
+   "topic": "YZ125 and YZ250 2025 changes",
+   "applies_to": {
+    "models": [
+     "YZ125",
+     "YZ250"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "For 2025 the YZ125 and YZ250 got minor updates: tool-free compression adjusters on top of each fork leg, a fork mid-speed valve with a leaf spring, plus a new bar pad and front panels.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Transmoto, first look at the 2025 Yamaha YZ two-strokes",
+    "url": "https://transmoto.com.au/first-look-2025-yamaha-yz-two-strokes",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Australian launch report; MXA says the leaf-spring mid-valve already appeared on the 2022 YZ250, so only the tool-free adjusters may be new."
+  },
+  {
+   "id": "yz25-063",
+   "domain": "identity",
+   "topic": "YZ125 2026 changes",
+   "applies_to": {
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "For 2026 Yamaha changed the YZ125's CDI settings for more linear delivery, redesigned the air intake and intake boot, and rejetted the carburetor; the engine internals and chassis are unchanged. MSRP $7,199 (70th Anniversary +$200).",
+   "values": {
+    "MSRP": "$7,199"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA, 2026 YZ125 features page",
+    "url": "https://www.yamahamotorsports.com/models/26-yz125/features",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Price and 'engine otherwise unchanged' from Ultimate Motorcycling 2026 first look."
+  },
+  {
+   "id": "yz25-064",
+   "domain": "identity",
+   "topic": "YZ250 updates 2020-2026",
+   "applies_to": {
+    "models": [
+     "YZ250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The YZ250 engine has been essentially unchanged since 2006. 2022 brought new bodywork, subframe, tank (about 1.8 gal) and seat, a 15% lower-resistance airbox, bigger front caliper pistons (22.6 to 25.4 mm), a 240 mm rear disc and stiffer springs (fork 4.3 to 4.4 N/mm, shock 48 to 50 N/mm). 2023 and 2024 are carryovers; 2025 got the fork adjuster update.",
+   "values": {
+    "fork_spring": "4.4 N/mm (was 4.3)",
+    "shock_spring": "50 N/mm (was 48)",
+    "front_caliper_piston": "25.4 mm (was 22.6)",
+    "airbox_resistance": "-15%"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2023 Yamaha YZ250 two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz250-two-stroke",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Dirt Bike 2022 full test gives the same spring change. No 2024 technical change found (2024 = 50th Anniversary graphics). MXA 2025 video: largely unchanged since 2006."
+  },
+  {
+   "id": "yz25-065",
+   "domain": "identity",
+   "topic": "YZ250 2026 price and 2027",
+   "applies_to": {
+    "models": [
+     "YZ250"
+    ],
+    "years": [
+     2026,
+     2027
+    ]
+   },
+   "statement": "The 2026 YZ250 lists at $8,099 (Monster Energy Edition $8,299); for 2027 only colours change.",
+   "values": {
+    "MSRP": "$8,099",
+    "MSRP_Monster": "$8,299"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA, 2026 YZ250 features page",
+    "url": "https://www.yamahamotorsports.com/models/26-yz250/features",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "2027 from Enduro21 first look."
+  },
+  {
+   "id": "yz25-066",
+   "domain": "engine_architecture",
+   "topic": "YZ250 engine package",
+   "applies_to": {
+    "models": [
+     "YZ250",
+     "YZ250X"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The YZ250 is a 249 cc reed-valve two-stroke with Yamaha's YPVS power valve, carbon-fiber reed petals, a 38 mm Keihin PWK38S carburetor with power jet, digital CDI and a 5-speed gearbox.",
+   "values": {
+    "carb": "Keihin PWK38S 38 mm",
+    "reeds": "carbon fiber",
+    "gearbox": "5-speed"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA, 2026 YZ250 features page",
+    "url": "https://www.yamahamotorsports.com/models/26-yz250/features",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Bore/stroke 66.4 x 72 mm and power valve operation in two_stroke_porting.json 2t-027, 2t-035."
+  },
+  {
+   "id": "yz25-067",
+   "domain": "engine_architecture",
+   "topic": "YZ125 engine package (2026)",
+   "applies_to": {
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Yamaha lists the YZ125 at 54.0 x 54.5 mm with 10.1 to 8.2:1 compression, YPVS power valve, Keihin PWK38S, digital CDI and a close-ratio 6-speed.",
+   "values": {
+    "bore_x_stroke": "54.0 x 54.5 mm",
+    "compression": "10.1-8.2:1",
+    "gearbox": "6-speed"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling, 2026 Yamaha YZ125 first look and specs",
+    "url": "https://ultimatemotorcycling.com/2025/06/30/2026-yamaha-yz125-first-look-including-70th-anniversary-edition",
+    "date": "2025-06"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "yz25-068",
+   "domain": "chassis",
+   "topic": "YZ125 dimensions (2026)",
+   "applies_to": {
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Yamaha lists the 2026 YZ125 at 26 degrees rake, 4.3 in trail, 56.9 in wheelbase, 38.6 in seat height, 14.4 in ground clearance, 11.8/12.4 in travel and 212 lb wet, on Bridgestone Battlecross X20 tires.",
+   "values": {
+    "rake": "26 deg",
+    "trail": "4.3 in",
+    "wheelbase": "56.9 in",
+    "seat_height": "38.6 in",
+    "ground_clearance": "14.4 in",
+    "wet_weight": "212 lb"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling, 2026 Yamaha YZ125 first look and specs",
+    "url": "https://ultimatemotorcycling.com/2025/06/30/2026-yamaha-yz125-first-look-including-70th-anniversary-edition",
+    "date": "2025-06"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "yz25-069",
+   "domain": "power_feel",
+   "topic": "YZ250 dyno - 2026 stock and modified",
+   "applies_to": {
+    "models": [
+     "YZ250"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "On a tuner's dyno a stock 2026 YZ250 made 43.7 hp and 31.3 lb-ft; with a higher-compression head, CDI change and aftermarket exhaust it made 47.5 hp and 34.4 lb-ft.",
+   "values": {
+    "stock": "43.7 hp / 31.3 lb-ft",
+    "modified": "47.5 hp / 34.4 lb-ft"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, 2026 Beta 250 RX vs 2026 Yamaha YZ250 dyno tests (VHM Racing dyno)",
+    "url": "https://www.vitalmx.com/comment/9156611",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "VHM Racing dyno; rpm, dyno brand and fuel not stated. Same as two_stroke_porting.json 2t-055. Older MXA stock figure 46.85 hp (2013) is a different dyno."
+  },
+  {
+   "id": "yz25-070",
+   "domain": "power_feel",
+   "topic": "YZ250 feel 2022-2023",
+   "applies_to": {
+    "models": [
+     "YZ250"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers describe the YZ250 as clean off idle with a hard-hitting midrange that needs a careful throttle into turns; it pulls steadily to about 8,800 rpm and is easy to keep in the meat, while the KTM 250 SX is much stronger low-mid but signs off sooner.",
+   "values": {
+    "pull_to": "about 8,800 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2023 Yamaha YZ250 two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz250-two-stroke",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Dirt Bike 2022: hits harder than the KTM, which ramps earlier and revs higher. Another tester (PulpMX 2022) found it smooth and manageable rather than abrupt - the feel depends on comparison bike."
+  },
+  {
+   "id": "yz25-071",
+   "domain": "power_feel",
+   "topic": "YZ250 measured weight",
+   "applies_to": {
+    "models": [
+     "YZ250"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers weighed the 2022 YZ250 at 217 lb without fuel, about 10 lb lighter than a YZ250F.",
+   "values": {
+    "weight_no_fuel": "217 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike magazine, 2022 Yamaha YZ250 two-stroke full test",
+    "url": "https://dirtbikemagazine.com/2022-yamaha-yz250-2-stroke-full-test",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "yz25-072",
+   "domain": "engine_mods",
+   "topic": "YZ250 jetting recommendation",
+   "applies_to": {
+    "models": [
+     "YZ250"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "A magazine recommends 178 main, 50 pilot, N3EW needle on the 2nd clip and the air screw 1 turn out (very sensitive between 1/2 and 1 turn); with a pipe or engine work go to a 180 main or cut fuel 50/50 with race gas.",
+   "values": {
+    "main": "178",
+    "pilot": "50",
+    "needle": "N3EW clip 2",
+    "air_screw": "1 turn out",
+    "modified_main": "180"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2023 Yamaha YZ250 two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz250-two-stroke",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "N3EW needle unchanged since 2007. Stock main jet not printed. Jetting unchanged for the 2022 airbox (Dirt Bike, PulpMX)."
+  },
+  {
+   "id": "yz25-073",
+   "domain": "setups",
+   "topic": "YZ250 tester baselines",
+   "applies_to": {
+    "models": [
+     "YZ250"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "Tester baselines: (1) fork 4.4 N/mm, 5 mm up, compression 9 out, rebound 14 out; shock 50 N/mm, 104 mm sag, LSC 9, HSC 1-1/8 turns, rebound 8; for 155-175 lb riders go to 4.6 N/mm fork and 52 N/mm shock springs. (2) fork compression 10 out, rebound 6 out, 5 mm up; shock 105 mm sag, HSC 1-1/8, LSC 9, rebound 8.",
+   "values": {
+    "pulp_fork": "4.4 N/mm, 5 mm, C9 R14",
+    "pulp_shock": "50 N/mm, 104 mm, LSC 9, HSC 1-1/8, R8",
+    "heavier_springs": "4.6 / 52 N/mm",
+    "mxa_fork": "C10 R6, 5 mm up",
+    "mxa_shock": "105 mm, HSC 1-1/8, LSC 9, R8"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "PulpMX, 2022 Yamaha YZ250 review and baseline settings",
+    "url": "https://pulpmx.com/2022/01/04/2022-yamaha-yz250-review-baseline-settings/",
+    "date": "2022-01"
+   },
+   "confidence": "high",
+   "notes": "Second set from MXA 2023 race test (stock fork 14 C / 9 R)."
+  },
+  {
+   "id": "yz25-074",
+   "domain": "known_issues",
+   "topic": "YZ250 airbox water entry and stiff suspension",
+   "applies_to": {
+    "models": [
+     "YZ250"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2022-on rear-facing airbox scoops let water in when washing (use an airbox cover); the stiffer 2022 suspension feels harsh for vets, novices and light riders, the fork dives under hard braking after break-in, and the 22 mm swingarm axle limits wheel swaps.",
+   "values": {
+    "rear_axle": "22 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2023 Yamaha YZ250 two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz250-two-stroke",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "yz25-075",
+   "domain": "engine_mods",
+   "topic": "YZ125 race bike (tuner build)",
+   "applies_to": {
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "A tuner's 2023 YZ125 race bike runs a ported cylinder and head, aftermarket piston, 62 pilot / 165 main / Y3 needle clip 3, a two-map ignition, a reworked pipe and short silencer, on race fuel; the power window is slightly wider and higher than stock, and the smoother map has more bottom.",
+   "values": {
+    "pilot": "62",
+    "main": "165",
+    "needle": "Yamaha Y3 clip 3",
+    "link_arm": "146.5 mm (stock 145 mm)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, riding Pro Circuit's 2023 YZ125 race bike",
+    "url": "https://motocrossactionmag.com/we-ride-pro-circuits-2023-yamaha-yz125-race-bike",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Pro Circuit build; no dyno numbers given. Longer link stiffened the initial rear curve."
+  },
+  {
+   "id": "yz25-076",
+   "domain": "engine_mods",
+   "topic": "YZ125 stock jetting by year (owner-reported)",
+   "applies_to": {
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2023,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Owners report stock YZ125 jetting of 165 main, 72 pilot, NYDF needle, 35 power jet (2023); 160 main, 75 pilot, NYDF clip 2, air screw 2-5/8 turns, 35 power jet, 6.5 mm float (2025); and 172 main, 65 pilot, N3EW clip 2, 95 power jet, #7 slide, 2.5 turns, 5.5 mm float in the 2026 manual.",
+   "values": {
+    "2023": "165 / 72 / NYDF / PJ 35",
+    "2025": "160 / 75 / NYDF-2 / 2-5/8 turns / PJ 35",
+    "2026": "172 / 65 / N3EW-2 / PJ 95 / slide 7 / 2.5 turns"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, '2023 YZ125 - Jetting Fix' thread",
+    "url": "https://www.vitalmx.com/comment/8161871",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": "Owner posts quoting OEM specs; not verified against Yamaha manuals. One owner ran the 2026 spec (90 PJ) on a 2024 YZ125X at 80-90 F and said it ran clean; others warn the 2026 CDI and intake differ from 2022-2025."
+  },
+  {
+   "id": "yz25-077",
+   "domain": "known_issues",
+   "topic": "YZ125 2022-on rich jetting and plug fouling",
+   "applies_to": {
+    "models": [
+     "YZ125",
+     "YZ125X"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Many 2022-2025 YZ125 owners report a rich low-to-mid (plug fouling every 30-60 minutes on trails, burble on coast-down, weak roll-on) and lean bogs around 4,500-5,500 rpm with some aftermarket kits; common fixes go leaner on the pilot (50-55), use needles such as CCL or Y4, and set the air screw about 1.5 turns out.",
+   "values": {
+    "leaner_pilot": "50-55",
+    "air_screw": "about 1.5 turns"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, '22 YZ125 fouling plugs' thread",
+    "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/22-YZ125-fouling-plugs,1404714?page=0",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Fouling thread (2022) and jetting-fix thread (2023-2026). About 5-6 members recommend leaner settings; no single confirmed fix. Yamaha rejetted the 2026."
+  },
+  {
+   "id": "yz25-078",
+   "domain": "identity",
+   "topic": "YZ125X and YZ250X 2023 update",
+   "applies_to": {
+    "models": [
+     "YZ125X",
+     "YZ250X"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "For 2023 the YZ125X got the 2022 YZ125 engine with YPVS, exhaust timing and compression set for low-mid, 3D CDI, VForce4 reeds and new 6-speed ratios; the YZ250X got the YZ250's 2022 bodywork, straighter intake, new brakes, revised KYB SSS fork/shock and heat-resistant clutch friction. Both have an 18-inch rear and kickstand. MSRP $7,099 (125X) and $7,999 (250X). 2024 was graphics only.",
+   "values": {
+    "MSRP_125X": "$7,099",
+    "MSRP_250X": "$7,999"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News, 2023 Yamaha YZ125X and YZ250X first look",
+    "url": "https://www.cyclenews.com/2022/08/article/2023-yamaha-yz125x-and-yz250x-first-look/",
+    "date": "2022-08"
+   },
+   "confidence": "high",
+   "notes": "2024 carryover from Cycle News 2024 YZ250X review."
+  },
+  {
+   "id": "yz25-079",
+   "domain": "engine_architecture",
+   "topic": "YZ250X vs YZ250 engine",
+   "applies_to": {
+    "models": [
+     "YZ250X"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The YZ250X is softened with a bigger head volume (23.6 vs 21.5 cc, compression 7.9 vs 8.9:1), an exhaust port 0.5 mm higher with matched valve, retarded mid-to-high CDI timing and a governor set to open the power valve earlier; first and second gears match the YZ250, third is slightly lower and fourth and fifth taller.",
+   "values": {
+    "head_volume": "23.6 cc (YZ250 21.5 cc)",
+    "compression": "7.9:1 (YZ250 8.9:1)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, Ask the MXperts: the X factor versus the non-X factor",
+    "url": "https://motocrossactionmag.com/ask-the-mxperts-the-x-factor-versus-the-non-x-factor",
+    "date": ""
+   },
+   "confidence": "medium",
+   "notes": "Gearing description from Cycle News 2024 YZ250X review. Head data also in two_stroke_porting.json 2t-039."
+  },
+  {
+   "id": "yz25-080",
+   "domain": "power_feel",
+   "topic": "YZ250X feel",
+   "applies_to": {
+    "models": [
+     "YZ250X"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Testers describe the YZ250X as smooth with strong low-end torque that works in tight woods and on an MX track, with less abrupt on/off delivery but still revving like a 250 two-stroke; claimed curb weight 229 lb.",
+   "values": {
+    "curb_weight": "229 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News, 2024 Yamaha YZ250X review",
+    "url": "https://www.cyclenews.com/2024/04/article/2024-yamaha-yz250x-review/",
+    "date": "2024-04"
+   },
+   "confidence": "medium",
+   "notes": "Stock suspension is softer than the YZ250 and suited East Coast woods."
+  },
+  {
+   "id": "yz25-081",
+   "domain": "power_feel",
+   "topic": "YZ125 dyno 2024 (tuner's dyno)",
+   "applies_to": {
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "In a four-bike 125 dyno test the YZ125 made 35.78 hp at 11,670 rpm and 16.47 lb-ft, the lowest of the group (rivals 35.94-37.02 hp).",
+   "values": {
+    "peak_hp": "35.78 hp @ 11,670 rpm",
+    "peak_torque": "16.47 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike magazine, 125 two-strokes on the dyno: the wrap (Pro Circuit dyno)",
+    "url": "https://dirtbikemagazine.com/125-2-strokes-on-the-dyno-the-wrap/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Pro Circuit dyno. Carried from two_stroke_porting.json 2t-048 for bike-level completeness; not re-fetched this round."
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "2024 YZ250F peak horsepower",
+   "records": [
+    "yz25-015",
+    "yz25-016"
+   ],
+   "spread": "42.58 hp @ 12,700 rpm (MXA, dyno not named) vs 39.2 hp @ 13,000 rpm (Dirt Rider Dynojet 250i)",
+   "note": "Different dynos; 3.4 hp spread. Do not average."
+  },
+  {
+   "topic": "2025 YZ250F peak horsepower and torque",
+   "records": [
+    "yz25-017",
+    "yz25-018",
+    "yz25-019"
+   ],
+   "spread": "38.3 hp / 18.0 lb-ft (Dirt Rider) vs 39.5 hp @ 12,800 / 18.4 lb-ft @ 10,000 (Dirt Rider overview, year unclear) vs 41.62 hp @ 12,880 / 19.49 lb-ft @ 10,100 (Dirt Bike, Pro Circuit dyno)",
+   "note": "Three numbers; two from the same magazine dyno disagree by 1.2 hp, likely different units or years."
+  },
+  {
+   "topic": "2019 YZ250F peak horsepower",
+   "records": [
+    "yz25-058"
+   ],
+   "spread": "41.76 hp @ 12,900 (MXA) vs 37.45 hp @ 12,390 (Dirt Rider)",
+   "note": "Different dynos."
+  },
+  {
+   "topic": "2024 YZ250F weight saving vs 2023",
+   "records": [
+    "yz25-002",
+    "yz25-026"
+   ],
+   "spread": "about 3 lb (MXA) vs 'over 2 lb' (Dirt Bike Test); 224 lb (MXA) vs 231 lb curb claimed (Yamaha)",
+   "note": "Fuel state differs; not a true contradiction."
+  },
+  {
+   "topic": "YZ125 stock main/pilot jet 2022-2025",
+   "records": [
+    "yz25-076"
+   ],
+   "spread": "2023: 165 main / 72 pilot; 2025: 160 main / 75 pilot (both owner-quoted OEM specs)",
+   "note": "May be a real running change or a misquote; not verified against manuals."
+  },
+  {
+   "topic": "YZ250F 2019 shock spring",
+   "records": [
+    "yz25-056",
+    "yz25-060"
+   ],
+   "spread": "56 N/mm (PulpMX, MXA update section) vs 55 N/mm (MXA setup section)",
+   "note": "MXA itself is inconsistent; 56 N/mm is the likely stock rate, 55 may be MXA's choice."
+  },
+  {
+   "topic": "Intake noise on 2024 YZ250F",
+   "records": [
+    "yz25-027"
+   ],
+   "spread": "ADB: airbox much quieter; MXA/Dirt Bike Test/Cycle News: louder and raspy",
+   "note": "ADB may refer to intake sucking noise at lower revs; others to overall noise when revved."
+  }
+ ],
+ "not_found": [
+  {
+   "item": "YZ250F rev limit (rpm) for 2019-2026",
+   "searched": "WebSearch for YZ250F rev limit / rev limiter; Yamaha US feature pages; MXA 2019, 2021, 2024 tests; Dirt Rider overview",
+   "note": "Not published. MXA 2019 implies about 13,000 rpm; Yamaha says only that 2027 raises it by 700 rpm."
+  },
+  {
+   "item": "YZ250F valve sizes, cam lift/duration (2019-2026), cylinder slant angle",
+   "searched": "PulpMX 2019, MXA 2014/2021, Yamaha features pages",
+   "note": "Only relative changes published (2021 exhaust cam -8 deg duration, -0.3 mm lift)."
+  },
+  {
+   "item": "Yamaha USA 2026 YZ250F features page",
+   "searched": "https://www.yamahamotorsports.com/models/26-yz250f/features",
+   "note": "Fetch blocked (permission request not answered). 2026 changes taken from Dirt Rider and PulpMX."
+  },
+  {
+   "item": "Dyno curves by rpm for 2024-2026 YZ250F and torque from MXA",
+   "searched": "MXA, Dirt Rider, Dirt Bike, Keefer Inc",
+   "note": "Charts are images only; text gives peaks and a few crossover points."
+  },
+  {
+   "item": "Before/after dyno for YZ250F 2019-2026 exhausts, cams, head work, or the YZ450F-airbox kit",
+   "searched": "WebSearch for YZ250F exhaust dyno 2024-2025 and cam/head dyno; Keefer, MXA, dirtbikes.com",
+   "note": "Only retail listings and qualitative tests found."
+  },
+  {
+   "item": "YZ250FX 2024 and 2026 details, YZ250FX dyno, and traction control on-track impressions",
+   "searched": "Ultimate Motorcycling, Enduro21, MXA, Cycle News (video only)",
+   "note": "Cycle News review is video-only."
+  },
+  {
+   "item": "YZ125X / YZ250X dyno numbers and 2020-2022 YZ125X details",
+   "searched": "Cycle News 2023 first look, 2024 YZ250X review",
+   "note": "None published in text."
+  },
+  {
+   "item": "Official stock jetting for YZ250 2020-2026 and YZ125 2022-2026 from Yamaha manuals",
+   "searched": "Pro Circuit jetting pages (fetched page showed 1996-1998 only), Vital MX threads",
+   "note": "Only owner-quoted OEM specs found; YZ250 stock main not printed in MXA."
+  },
+  {
+   "item": "Year of the Australian YZ250F balancer-gear recall",
+   "searched": "vehiclerecalls.gov.au REC-003591",
+   "note": "Date and model year fields blank."
+  },
+  {
+   "item": "YZ250 2024 update",
+   "searched": "Searches for 2024 YZ250 changes; MXA 2025 video; Cycle News",
+   "note": "No technical 2024 change found; the brief's '2024 YZ250 update' appears to be graphics/50th Anniversary only."
+  },
+  {
+   "item": "Port timing, pipe dimensions and power valve details for YZ125/YZ250",
+   "searched": "See two_stroke_porting.json not_found",
+   "note": "Not re-searched this round."
+  }
+ ],
+ "sources": [
+  {
+   "type": "magazine",
+   "name": "Motocross Action, race test of the 2024 Yamaha YZ250F",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz250f",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider, 2024 Yamaha YZ250F dyno test",
+   "url": "https://www.dirtrider.com/tests/yamaha-yz250f-dyno-test-2024/",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider, 2025 Yamaha YZ250F dyno test",
+   "url": "https://dirtrider.com/tests/yamaha-yz250f-dyno-test-2025",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider, 2023 Yamaha YZ250F dyno test",
+   "url": "https://www.dirtrider.com/tests/yamaha-yz250f-dyno-test-2023",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider, 2020 Yamaha YZ250F dyno test",
+   "url": "https://dirtrider.com/story/tests/2020-yamaha-yz250f-dyno-test",
+   "date": "2020"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider, 2019 Yamaha YZ250F dyno test",
+   "url": "https://dirtrider.com/2019-yamaha-yz250f-dyno-test",
+   "date": "2019"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider, 2026 Yamaha YZ250F technical overview",
+   "url": "https://www.dirtrider.com/dirt-bikes/yamaha-yz250f-technical-overview/",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike magazine, 2025 250 MX shootout dyno wrap (Pro Circuit dyno)",
+   "url": "https://dirtbikemagazine.com/250-motocross-bikes-on-the-dyno-the-wrap/",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike magazine, 2022 250 MX bikes on the dyno (Pro Circuit Dynojet)",
+   "url": "https://dirtbikemagazine.com/2022-250-mx-bikes-on-the-dyno-the-wrap/",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Australasian Dirt Bike, launch test of the 2024 Yamaha YZ250F",
+   "url": "https://adbmag.com.au/editorial/motocross-launch-2024-yamaha-yz250f/",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Ultimate Motorcycling, 2024 Yamaha YZ250F first look and specs",
+   "url": "https://ultimatemotorcycling.com/2023/07/26/2024-yamaha-yz250f-first-look-8-fast-facts-20-photos-specs/",
+   "date": "2023-07"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21, first look at the 2027 Yamaha off-road competition range",
+   "url": "https://enduro21.com/en/news/first-look-2027-yamaha-off-road-competition-range-all-new-yz250f-leads-the-updates",
+   "date": "2026"
+  },
+  {
+   "type": "magazine",
+   "name": "PulpMX, 2026 Yamaha YZ250F baseline suspension settings and optional ECU map",
+   "url": "https://pulpmx.com/2026/01/06/2026-yamaha-yz250f-baseline-suspension-settings-optional-ecu-map/",
+   "date": "2026-01"
+  },
+  {
+   "type": "magazine",
+   "name": "PulpMX, 2024 250 motocross baseline suspension settings",
+   "url": "https://pulpmx.com/?p=170184",
+   "date": "2024"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Yamaha Motor USA, 2025 YZ250F features page",
+   "url": "https://www.yamahamotorsports.com/models/25-yz250f/features",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Ultimate Motorcycling, 2025 Yamaha YZ250FX first look and specs",
+   "url": "https://ultimatemotorcycling.com/2024/07/15/2025-yamaha-yz250fx-first-look-9-fast-facts/",
+   "date": "2024-07"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21, first look at Yamaha's 2025 off-road range (WR250F and YZ250FX)",
+   "url": "https://enduro21.com/en/news/first-look-yamaha-s-2025-off-road-range-wr250f-and-yz250fx-updates",
+   "date": "2024-07"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action, testing and racing the 2025 YZ250FX at the Ironman GNCC",
+   "url": "https://motocrossactionmag.com/test-racing-the-2025-yamaha-yz250fx-at-the-ironman-gncc",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News, 2025 Yamaha YZ250FX review and race test (video page)",
+   "url": "https://www.cyclenews.com/2024/11/article/video-2025-yamaha-yz250fx-review-race-test/",
+   "date": "2024-11"
+  },
+  {
+   "type": "magazine",
+   "name": "PulpMX, 10 things about the 2019 Yamaha YZ250F",
+   "url": "https://pulpmx.com/?p=141813",
+   "date": "2018"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action, race test of the 2019 Yamaha YZ250F",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2019-yamaha-yz250f",
+   "date": "2019"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action, race test of the 2021 Yamaha YZ250F",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-yamaha-yz250f",
+   "date": "2021"
+  },
+  {
+   "type": "magazine",
+   "name": "Keefer Inc. Testing, Twisted Development airbox mod for the 2024 YZ250F",
+   "url": "https://www.keeferinctesting.com/twisted-development-airbox-mod-2024-yamaha-yz250f",
+   "date": "2023-12"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, '25 YZ250F Reliability' thread",
+   "url": "https://www.vitalmx.com/comment/7609446",
+   "date": "2025"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, '2020 YZ250F cam chain problems' thread",
+   "url": "https://www.vitalmx.com/comment/4039439",
+   "date": "2021"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Australian Government vehicle recalls, Yamaha Motor Australia YZ250F recall REC-003591",
+   "url": "https://www.vehiclerecalls.gov.au/recalls/rec-003591",
+   "date": ""
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Test, 2024 Yamaha YZ250F first impression",
+   "url": "https://dirtbiketest.com/fresh-dirt/2024-yamaha-yz250f-first-impression/",
+   "date": "2023"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, '2024 YZ 250F Review' owner thread",
+   "url": "https://www.vitalmx.com/comment/5867866",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action, 2024 250 four-stroke shootout",
+   "url": "https://motocrossactionmag.com/2024-mxa-250-four-stroke-shootout-suzuki-honda-kawasaki-yamaha-gasgas-husqvarna-ktm",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News, 2025 Yamaha YZ250F review",
+   "url": "https://cyclenews.com/2024/10/article/2025-yamaha-yz250f-review",
+   "date": "2024-10"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Test, 2025 Yamaha YZ250F first impression",
+   "url": "https://dirtbiketest.com/fresh-dirt/words-2025-yamaha-yz250f-first-impression/",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action, 2014 Yamaha YZ250F engine introduction",
+   "url": "https://motocrossactionmag.com/amp/2014-yamaha-yz250f-believe-it-or-not-the-trusty-but-rusty-yz250f-engine-has-joined-the-new-generation/",
+   "date": "2013"
+  },
+  {
+   "type": "magazine",
+   "name": "Transmoto, first look at the 2025 Yamaha YZ two-strokes",
+   "url": "https://transmoto.com.au/first-look-2025-yamaha-yz-two-strokes",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Ultimate Motorcycling, 2026 Yamaha YZ125 first look and specs",
+   "url": "https://ultimatemotorcycling.com/2025/06/30/2026-yamaha-yz125-first-look-including-70th-anniversary-edition",
+   "date": "2025-06"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Yamaha Motor USA, 2026 YZ125 features page",
+   "url": "https://www.yamahamotorsports.com/models/26-yz125/features",
+   "date": "2025"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Yamaha Motor USA, 2026 YZ250 features page",
+   "url": "https://www.yamahamotorsports.com/models/26-yz250/features",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News, 2023 Yamaha YZ125X and YZ250X first look",
+   "url": "https://www.cyclenews.com/2022/08/article/2023-yamaha-yz125x-and-yz250x-first-look/",
+   "date": "2022-08"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News, 2024 Yamaha YZ250X review",
+   "url": "https://www.cyclenews.com/2024/04/article/2024-yamaha-yz250x-review/",
+   "date": "2024-04"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike magazine, 2022 Yamaha YZ250 two-stroke full test",
+   "url": "https://dirtbikemagazine.com/2022-yamaha-yz250-2-stroke-full-test",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action, race test of the 2023 Yamaha YZ250 two-stroke",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz250-two-stroke",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "PulpMX, 2022 Yamaha YZ250 review and baseline settings",
+   "url": "https://pulpmx.com/2022/01/04/2022-yamaha-yz250-review-baseline-settings/",
+   "date": "2022-01"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, 2026 Beta 250 RX vs 2026 Yamaha YZ250 dyno tests (VHM Racing dyno)",
+   "url": "https://www.vitalmx.com/comment/9156611",
+   "date": "2026"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, '2023 YZ125 - Jetting Fix' thread",
+   "url": "https://www.vitalmx.com/comment/8161871",
+   "date": "2025"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, '2023 YZ125 - Jetting Fix' thread (later pages)",
+   "url": "https://www.vitalmx.com/comment/9144166",
+   "date": "2026"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, '22 YZ125 fouling plugs' thread",
+   "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/22-YZ125-fouling-plugs,1404714?page=0",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action, riding Pro Circuit's 2023 YZ125 race bike",
+   "url": "https://motocrossactionmag.com/we-ride-pro-circuits-2023-yamaha-yz125-race-bike",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action, race test of the 2022 Yamaha YZ125",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-yamaha-yz125",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21, first look at Yamaha's 2022 YZ range (YZ125)",
+   "url": "https://enduro21.com/en/news/first-look-yamaha-s-new-2022-yz-range-goes-big-on-the-two-stroke-125",
+   "date": "2021"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action, video test of the 2025 Yamaha YZ250 two-stroke",
+   "url": "https://motocrossactionmag.com/mxa-video-2025-yamaha-yz250-two-stroke-test",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action, Ask the MXperts: the X factor versus the non-X factor",
+   "url": "https://motocrossactionmag.com/ask-the-mxperts-the-x-factor-versus-the-non-x-factor",
+   "date": ""
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike magazine, 125 two-strokes on the dyno: the wrap (Pro Circuit dyno)",
+   "url": "https://dirtbikemagazine.com/125-2-strokes-on-the-dyno-the-wrap/",
+   "date": "2024"
+  }
+ ]
+}

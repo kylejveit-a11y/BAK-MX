@@ -1,0 +1,4230 @@
+{
+ "slice": "Kawasaki KX450 / KX450X / KX250 / KX250X 2021-2026 - identity and year changes, engine architecture, power and feel (multi-source dynos), ECU/electronics (couplers, FI kit, Rideology, KTRC, launch), engine mods, chassis, suspension, known issues and recalls, tester setups",
+ "platform": {
+  "make": "Kawasaki",
+  "models": [
+   "KX450",
+   "KX450X",
+   "KX250",
+   "KX250X"
+  ],
+  "years": [
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ]
+ },
+ "records": [
+  {
+   "id": "kx-001",
+   "domain": "identity",
+   "topic": "platform generations 2021-2026",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X",
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The KX450 and KX450X ran the 2019-generation engine and frame through 2023, then got an all-new engine top end, frame, Showa suspension revisions and handlebar electronics for 2024, carried over through 2026. The KX250 and KX250X got a big engine update plus the KX450 frame for 2021 (carried to 2024), then a new head, the 2024 KX450-style frame, Showa suspension and handlebar electronics for 2025, carried over for 2026.",
+   "values": {
+    "KX450_gen_A": "2019-2023",
+    "KX450_gen_B": "2024-2026",
+    "KX250_gen_A": "2021-2024 (2023 mid-update)",
+    "KX250_gen_B": "2025-2026"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki Motors Corp. USA press release: 2026 KX lineup",
+    "url": "https://content2.kawasaki.com/ContentStorage/KMC/PressReleases/817/a0b84daf-46fa-4183-97cf-704d91f35d47.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Synthesised from Kawasaki press releases (2021 KX250 press kit, 2024 KX450, 2025 KX250, 2026 lineup) and magazine first looks listed in sources."
+  },
+  {
+   "id": "kx-002",
+   "domain": "identity",
+   "topic": "2021 model year changes",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "For 2021 the KX450 got a Belleville (coned disc spring) hydraulic clutch with larger plates and an added plate, a dry-film-coated piston skirt, a 1-1/8 in Renthal Fatbar mounted lower and closer, and in-mold shroud graphics; engine was described as updated for more power.",
+   "values": {
+    "msrp_2021": "$9,399"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: First Look all-new 2021 KX250 & updated KX450",
+    "url": "https://motocrossactionmag.com/first-look-all-new-2021-kawasaki-kx250-updated-kx450-dirt-bikes",
+    "date": "2020-07"
+   },
+   "confidence": "medium",
+   "notes": "Magazine first look of Kawasaki's announcement; eighth clutch plate detail from the 2022 KX450 race test."
+  },
+  {
+   "id": "kx-003",
+   "domain": "identity",
+   "topic": "2022-2023 KX450 carry-over",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2022,
+     2023
+    ]
+   },
+   "statement": "The 2022 and 2023 KX450 were mechanically unchanged from 2021; only graphics changed. MSRP was $9,599 in 2023.",
+   "values": {
+    "msrp_2023": "$9,599"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News: 2023 Kawasaki KX250 and KX450 first look",
+    "url": "https://www.cyclenews.com/2022/05/article/2023-kawasaki-kx250-and-kx450-first-look/",
+    "date": "2022-05"
+   },
+   "confidence": "high",
+   "notes": "Confirmed by 2022 and 2023 race tests."
+  },
+  {
+   "id": "kx-004",
+   "domain": "identity",
+   "topic": "2024 model year changes",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "2024 was the first full KX450 generation change since 2019: new cylinder head with a straight downdraft intake and centre-port exhaust, 5 mm longer connecting rod, new aluminium frame, shorter Showa shock with new linkage, lower-friction fork, Brembo front brake, and handlebar buttons for two power modes, traction control and launch control plus Bluetooth smartphone tuning that replaces the plug-in couplers.",
+   "values": {
+    "msrp_KX450": "$10,399",
+    "msrp_50th_anniversary": "$10,699",
+    "msrp_KX450X": "$10,599"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motorcycle & Powersports News: 2024 Kawasaki KX450, KX450X and 50th Anniversary (Kawasaki press release)",
+    "url": "https://www.motorcyclepowersportsnews.com/2024-kawasaki-kx450-kx450x-kx-50th-anniversary-edition-motorcycles/",
+    "date": "2023-06"
+   },
+   "confidence": "high",
+   "notes": "Kawasaki press release text as published by MPN. Other sources list KX450 at $10,499 and KX450X at $10,699 (see conflicts)."
+  },
+  {
+   "id": "kx-005",
+   "domain": "identity",
+   "topic": "2024 50th Anniversary edition",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "A KX 50th Anniversary edition of the 2024 KX450 was sold with retro graphics at $10,699, $300 over the standard bike, mechanically the same.",
+   "values": {
+    "msrp": "$10,699"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motorcycle & Powersports News: 2024 Kawasaki KX450, KX450X and 50th Anniversary (Kawasaki press release)",
+    "url": "https://www.motorcyclepowersportsnews.com/2024-kawasaki-kx450-kx450x-kx-50th-anniversary-edition-motorcycles/",
+    "date": "2023-06"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kx-006",
+   "domain": "identity",
+   "topic": "2025 KX450 carry-over",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The 2025 KX450 was mechanically unchanged from 2024; dyno results were close to the 2024.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: How much power does the 2025 Kawasaki KX450 make?",
+    "url": "https://dirtrider.com/tests/kawasaki-kx450-dyno-test-2025",
+    "date": "2024-09"
+   },
+   "confidence": "medium",
+   "notes": "Dirt Rider states no engine changes for 2025."
+  },
+  {
+   "id": "kx-007",
+   "domain": "identity",
+   "topic": "2026 KX450 changes",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "For 2026 the KX450 got only new blue graphics; the smartphone app's mapping adjustment range was widened, and all 2026 bikes carry the updated crankshaft primary-gear coating from the 2025 recall. KX450 MSRP $10,499, KX450X $10,699.",
+   "values": {
+    "msrp_KX450": "$10,499",
+    "msrp_KX450X": "$10,699"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News: 2026 Kawasaki KX450 review",
+    "url": "https://www.cyclenews.com/2025/10/article/2026-kawasaki-kx450-review/",
+    "date": "2025-10"
+   },
+   "confidence": "medium",
+   "notes": "MSRPs per Kawasaki 2026 press release. Another magazine lists $10,599 for the KX450. App range change and recall note come from a magazine review, not Kawasaki."
+  },
+  {
+   "id": "kx-008",
+   "domain": "identity",
+   "topic": "KX450SR special edition",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Kawasaki also sells a KX450SR special edition on the same frame and swingarm: polished intake ports, its own aggressive ECU settings, a titanium full exhaust, Kashima-coated Showa suspension with its own valving (Kayaba in 2022, Showa from 2023), billet-style triple clamps with bar damping, black rims and a gold chain. 2023 MSRP was $12,699.",
+   "values": {
+    "msrp_2023": "$12,699",
+    "msrp_2022": "about $12,399"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: First look 2023 Kawasaki KX450 Special Racer with Showa suspension",
+    "url": "https://motocrossactionmag.com/first-look-2023-kawasaki-kx450-special-racer-now-with-showa-suspension",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "SR is outside this slice's model list; included because it shares the KX450 frame/engine and its ECU/exhaust are a known upgrade path. 2025 parts list confirmed by DirtBikeTest."
+  },
+  {
+   "id": "kx-009",
+   "domain": "identity",
+   "topic": "2021 KX250 changes",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "2021 brought a heavily updated KX250 engine (finger-follower valve train, new cams, ports, piston, 3 mm longer rod, rev limit up 350 rpm to 14,500) plus electric start, hydraulic clutch, the KX450 frame and swingarm, and launch control. Kawasaki claimed about 1.4 PS more peak power.",
+   "values": {
+    "peak_power_gain_claim": "+1.0 kW (1.4 PS)",
+    "rev_limit": "14,500 rpm",
+    "msrp": "$8,299"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki 2021 KX250 Model Information (press kit PDF)",
+    "url": "https://www.enduro.de/wp-content/uploads/2020/07/21_KX250_Model-Information.pdf",
+    "date": "2020-07"
+   },
+   "confidence": "high",
+   "notes": "MSRP from Motocross Action first look."
+  },
+  {
+   "id": "kx-010",
+   "domain": "identity",
+   "topic": "2022 KX250 carry-over",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "The 2022 KX250 was unchanged from 2021.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing: 2022 Kawasaki KX250 review / suspension settings",
+    "url": "https://www.keeferinctesting.com/2021-11-15-2022-kawasaki-kx250-reviewsuspension-settings/",
+    "date": "2021-11"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kx-011",
+   "domain": "identity",
+   "topic": "2023 KX250 changes",
+   "applies_to": {
+    "models": [
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "For 2023 the KX250 got 1 mm smaller intake valves on a 1.5 mm narrower pitch, a new piston crown (still 14.1:1), a 100 mm longer header, advanced ignition timing, the upstream injector moved below the intake duct, a longer first gear, revised suspension, wider and lighter footpegs, and a 110/90-19 rear tyre. MSRP $8,499.",
+   "values": {
+    "intake_valve_change": "-1 mm",
+    "header_length_change": "+100 mm",
+    "msrp": "$8,499"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News: 2023 Kawasaki KX250 and KX450 first look",
+    "url": "https://www.cyclenews.com/2022/05/article/2023-kawasaki-kx250-and-kx450-first-look/",
+    "date": "2022-05"
+   },
+   "confidence": "high",
+   "notes": "Magazine report of Kawasaki's change list. KX250X received many of the same updates."
+  },
+  {
+   "id": "kx-012",
+   "domain": "identity",
+   "topic": "2024 KX250 carry-over",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The 2024 KX250 had no performance changes, only graphics, an all-green seat cover and green fork guards.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2024 Kawasaki KX250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-kawasaki-kx250",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kx-013",
+   "domain": "identity",
+   "topic": "2025 KX250 changes",
+   "applies_to": {
+    "models": [
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The 2025 KX250 got a redesigned head with symmetric centre-port exhaust, the 2024 KX450-style frame, a 32 mm shorter Showa shock and Showa fork (replacing Kayaba), handlebar Mode and traction-control buttons, launch control and Bluetooth app tuning. MSRP $8,999 (KX250X $9,099).",
+   "values": {
+    "msrp_KX250": "$8,999",
+    "msrp_KX250X": "$9,099"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki Motors Corp. USA press release: 2025 KX250 and KX250X",
+    "url": "https://content2.kawasaki.com/ContentStorage/KMC/PressReleases/783/3d16fe3d-06e3-49b6-961d-f773c3e69f05.pdf",
+    "date": "2024-06"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "kx-014",
+   "domain": "identity",
+   "topic": "2026 KX250 carry-over",
+   "applies_to": {
+    "models": [
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The 2026 KX250 and KX250X are carry-overs of the 2025 platform at the same prices ($8,999 / $9,099).",
+   "values": {
+    "msrp_KX250": "$8,999",
+    "msrp_KX250X": "$9,099"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki Motors Corp. USA press release: 2026 KX lineup",
+    "url": "https://content2.kawasaki.com/ContentStorage/KMC/PressReleases/817/a0b84daf-46fa-4183-97cf-704d91f35d47.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "kx-015",
+   "domain": "identity",
+   "topic": "X versus MX model differences (KX450X)",
+   "applies_to": {
+    "models": [
+     "KX450X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The KX450X is the KX450 with an 18 in rear wheel, Dunlop AT81 off-road tyres, a kickstand, an O-ring chain (2024+), and softer suspension. It keeps the same small fuel tank (6.2 L) and, from 2024, the same ECU maps and gearing as the MX bike. Price is about $200 more.",
+   "values": {
+    "rear_wheel": "18 in",
+    "price_delta": "+$200"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: 2024 cross-country battle Honda CRF450RX vs Kawasaki KX450X",
+    "url": "https://motocrossactionmag.com/2024-cross-country-battle-honda-crf450rx-vs-kawasaki-kx450x",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "2021-2023 X differences (softer springs, 51T sprocket, black coupler, 240 mm rear rotor, skid plate) are separate records. Kawasaki says 2024 X has 'optimized engine tuning', but the magazine found the same mapping as the MX model."
+  },
+  {
+   "id": "kx-016",
+   "domain": "identity",
+   "topic": "X versus MX model differences (KX250X)",
+   "applies_to": {
+    "models": [
+     "KX250X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The KX250X uses the KX250 engine with a 21/18 in wheel pair, Dunlop AT81 tyres, a kickstand, a sealed chain (2025+), off-road suspension settings and its own engine tuning. 2021 versions also had a 51T rear sprocket, black (mild) coupler fitted, a plastic skid plate and water-pump/rotor guards. No bigger tank or handguards.",
+   "values": {
+    "msrp_2021": "$8,399",
+    "msrp_2025": "$9,099"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki Motors Corp. USA press release: 2025 KX250 and KX250X",
+    "url": "https://content2.kawasaki.com/ContentStorage/KMC/PressReleases/783/3d16fe3d-06e3-49b6-961d-f773c3e69f05.pdf",
+    "date": "2024-06"
+   },
+   "confidence": "high",
+   "notes": "2021 specifics from Motorcycle.com 2021 KX250X review."
+  },
+  {
+   "id": "kx-017",
+   "domain": "engine_architecture",
+   "topic": "bore, stroke and compression (450)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The KX450 is a 449 cc DOHC four-valve single with a 96.0 mm bore and 62.1 mm stroke and 12.5:1 compression, unchanged through 2026.",
+   "values": {
+    "bore": "96.0 mm",
+    "stroke": "62.1 mm",
+    "compression": "12.5:1",
+    "displacement": "449 cc"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki UK: KX450 2026 model page",
+    "url": "https://www.kawasaki.co.uk/en/Motorcycles/Motocross-Enduro/KX450_2026.html",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Same figures in 2019 Kawasaki data and 2024-2026 spec sheets."
+  },
+  {
+   "id": "kx-018",
+   "domain": "engine_architecture",
+   "topic": "bore/stroke ratio and displacement check (450)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Worked out from Kawasaki's bore and stroke, the KX450 is strongly oversquare at about 1.55:1, and the swept volume checks out at about 449.5 cc.",
+   "values": {
+    "bore_stroke_ratio": "1.546",
+    "calc_displacement": "449.5 cc"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki UK: KX450 2026 model page",
+    "url": "https://www.kawasaki.co.uk/en/Motorcycles/Motocross-Enduro/KX450_2026.html",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Ratio = 96.0 / 62.1 = 1.546. Displacement = pi/4 x 9.60^2 x 6.21 cm = 0.7854 x 92.16 x 6.21 = 449.5 cc."
+  },
+  {
+   "id": "kx-019",
+   "domain": "engine_architecture",
+   "topic": "valve train 2019-2023 (450)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "The 2019-2023 KX450 uses finger-follower rocker arms with DLC coating on titanium valves: 40 mm intake (lift 11.0 mm) and 33 mm exhaust (lift 9.5 mm). Moving from tappets to finger followers cut intake valve-train mass 4.2% and exhaust 7.9%.",
+   "values": {
+    "intake_valve": "40 mm Ti, 11.0 mm lift",
+    "exhaust_valve": "33 mm Ti, 9.5 mm lift",
+    "mass_reduction_in": "4.2%",
+    "mass_reduction_ex": "7.9%"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Bike Review (AU): Model update 2019 Kawasaki KX450F (Kawasaki technical data)",
+    "url": "https://bikereview.com.au/model-update-2019-kawasaki-kx450f/",
+    "date": "2018"
+   },
+   "confidence": "high",
+   "notes": "Kawasaki 2019 technical data; carried to 2023."
+  },
+  {
+   "id": "kx-020",
+   "domain": "engine_architecture",
+   "topic": "intake and fuel injection 2019-2023 (450)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "The 2019-2023 KX450 has a 44 mm throttle body, a 12-hole injector, a downdraft intake at a 20 degree approach angle, a 243 g bridged-box piston, plain big-end bearing, and an engine tilted 3 degrees forward with 8.5 mm cylinder offset.",
+   "values": {
+    "throttle_body": "44 mm",
+    "injector": "12-hole, 478.3 cc flow",
+    "intake_angle": "20 deg",
+    "piston_mass": "243 g",
+    "cylinder_offset": "8.5 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Bike Review (AU): Model update 2019 Kawasaki KX450F (Kawasaki technical data)",
+    "url": "https://bikereview.com.au/model-update-2019-kawasaki-kx450f/",
+    "date": "2018"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "kx-021",
+   "domain": "engine_architecture",
+   "topic": "2024 cylinder head and intake (450)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "For 2024 Kawasaki made the intake and exhaust symmetric with a centre-port exhaust, steepened the downdraft intake from 20 to 40 degrees, used smaller 38 mm titanium intake valves (down from 40 mm), raised the intake cam 7 mm, and kept the 44 mm throttle body and finger followers.",
+   "values": {
+    "intake_valve": "38 mm Ti",
+    "intake_angle": "20 -> 40 deg",
+    "intake_cam_raise": "7 mm",
+    "throttle_body": "44 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motorcycle & Powersports News: 2024 Kawasaki KX450, KX450X and 50th Anniversary (Kawasaki press release)",
+    "url": "https://www.motorcyclepowersportsnews.com/2024-kawasaki-kx450-kx450x-kx-50th-anniversary-edition-motorcycles/",
+    "date": "2023-06"
+   },
+   "confidence": "high",
+   "notes": "Intake cam raise from Motocross Action race test; one Australian review says the intake was made '20 deg steeper', consistent with 20->40."
+  },
+  {
+   "id": "kx-022",
+   "domain": "engine_architecture",
+   "topic": "2024 bottom end (450)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2024 KX450 connecting rod is 5 mm longer with a 5 mm taller cylinder, a larger big-end bearing and a thicker top ring; bore and stroke stay the same. The longer rod lowers piston side-thrust on the cylinder wall.",
+   "values": {
+    "rod_length_change": "+5 mm",
+    "cylinder_height_change": "+5 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2024 Kawasaki KX450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-kawasaki-kx450",
+    "date": "2024-03"
+   },
+   "confidence": "high",
+   "notes": "Big-end and ring details from Bike Review AU launch report."
+  },
+  {
+   "id": "kx-023",
+   "domain": "engine_architecture",
+   "topic": "rev limit (450, 2024+)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2024-on KX450 rev ceiling is reported as 11,700 rpm.",
+   "values": {
+    "rev_limit": "11,700 rpm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Bike Review (AU): Kawasaki KX450 review, 2024 model launch test",
+    "url": "https://bikereview.com.au/kawasaki-kx450-review-2024-model-launch-test/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "From an Australian launch report spec list; not found in a Kawasaki US document."
+  },
+  {
+   "id": "kx-024",
+   "domain": "engine_architecture",
+   "topic": "mean piston speed at rev limit (450)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Worked out from the 62.1 mm stroke and the reported 11,700 rpm ceiling, mean piston speed at the limiter is about 24.2 m/s; at the typical 9,500 rpm power peak it is about 19.7 m/s.",
+   "values": {
+    "mps_at_11700": "24.2 m/s",
+    "mps_at_9500": "19.7 m/s"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "magazine",
+    "name": "Bike Review (AU): Kawasaki KX450 review, 2024 model launch test",
+    "url": "https://bikereview.com.au/kawasaki-kx450-review-2024-model-launch-test/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Mean piston speed = 2 x 62.1 mm x rpm / 60000. 2 x 62.1 x 11700 / 60000 = 24.22; 2 x 62.1 x 9500 / 60000 = 19.67."
+  },
+  {
+   "id": "kx-025",
+   "domain": "engine_architecture",
+   "topic": "2024 exhaust layout (450)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2024 centre-port header tucks closer to the frame; the resonance chamber was flattened and moved 54 mm inward (no heat shield needed) and the muffler moved 85 mm forward.",
+   "values": {
+    "resonator_move": "54 mm inward",
+    "muffler_move": "85 mm forward"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2024 Kawasaki KX450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-kawasaki-kx450",
+    "date": "2024-03"
+   },
+   "confidence": "medium",
+   "notes": "Another release gives the muffler move as about 3.5 in."
+  },
+  {
+   "id": "kx-026",
+   "domain": "engine_architecture",
+   "topic": "airbox (450, 2024+)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2024-on KX450 airbox is small, shares space with the battery and rectifier, and uses a flat slide-in foam filter with tool-free access. Bikes were delivered with an undocumented rubber plug (about 4.5 x 2.5 in) blocking an airbox opening.",
+   "values": {
+    "plug_size": "about 4.5 x 2.5 in"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2024 Kawasaki KX450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-kawasaki-kx450",
+    "date": "2024-03"
+   },
+   "confidence": "medium",
+   "notes": "Magazine inspection. Purpose of the plug is unknown (possibly sound or intake-noise related)."
+  },
+  {
+   "id": "kx-027",
+   "domain": "engine_architecture",
+   "topic": "bore, stroke, compression (250)",
+   "applies_to": {
+    "models": [
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The KX250 is a 249 cc DOHC single with a 78.0 mm bore and 52.2 mm stroke. Compression is 14.1:1 for 2021-2024 and 14.0:1 from 2025 (flatter piston crown).",
+   "values": {
+    "bore": "78.0 mm",
+    "stroke": "52.2 mm",
+    "compression_2021_2024": "14.1:1",
+    "compression_2025_2026": "14.0:1"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki 2021 KX250 Model Information (press kit PDF)",
+    "url": "https://www.enduro.de/wp-content/uploads/2020/07/21_KX250_Model-Information.pdf",
+    "date": "2020-07"
+   },
+   "confidence": "high",
+   "notes": "2025 compression from Motocross Action race test and Ultimate Motorcycling spec list; Kawasaki's 2025 release only says compression was 'slightly reduced'."
+  },
+  {
+   "id": "kx-028",
+   "domain": "engine_architecture",
+   "topic": "bore/stroke ratio and displacement check (250)",
+   "applies_to": {
+    "models": [
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Worked out from Kawasaki's figures, the KX250 is oversquare at about 1.49:1 and the swept volume is about 249.4 cc.",
+   "values": {
+    "bore_stroke_ratio": "1.494",
+    "calc_displacement": "249.4 cc"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki 2021 KX250 Model Information (press kit PDF)",
+    "url": "https://www.enduro.de/wp-content/uploads/2020/07/21_KX250_Model-Information.pdf",
+    "date": "2020-07"
+   },
+   "confidence": "high",
+   "notes": "78.0 / 52.2 = 1.494. pi/4 x 7.80^2 x 5.22 = 0.7854 x 60.84 x 5.22 = 249.4 cc."
+  },
+  {
+   "id": "kx-029",
+   "domain": "engine_architecture",
+   "topic": "valve train 2021 (250)",
+   "applies_to": {
+    "models": [
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "From 2021 the KX250 uses DLC-coated finger followers (World Superbike-derived) on titanium valves, 32 mm intake (10.3 mm lift) and 26.5 mm exhaust (9.1 mm lift), with stiffer springs, more aggressive cams and exhaust cam timing retarded 3 degrees. Valve-train mass fell 3.5% (intake) and 4.3% (exhaust). For 2023 the intake valves shrank 1 mm.",
+   "values": {
+    "intake_valve_2021_2022": "32 mm Ti, 10.3 mm lift",
+    "exhaust_valve": "26.5 mm Ti, 9.1 mm lift",
+    "exhaust_cam_retard": "3 deg",
+    "intake_valve_2023_2024": "about 31 mm (32 - 1, derived)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki 2021 KX250 Model Information (press kit PDF)",
+    "url": "https://www.enduro.de/wp-content/uploads/2020/07/21_KX250_Model-Information.pdf",
+    "date": "2020-07"
+   },
+   "confidence": "high",
+   "notes": "2023 change from Kawasaki change list (Cycle News); 31 mm is BAK arithmetic."
+  },
+  {
+   "id": "kx-030",
+   "domain": "engine_architecture",
+   "topic": "intake and injection (250, 2021-2024)",
+   "applies_to": {
+    "models": [
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "The 2021-2024 KX250 uses a 44 mm throttle body and two injectors: a downstream one for crisp low-speed response and an upstream one near the airbox for high-rpm power, with a downdraft intake at 32.5 degrees.",
+   "values": {
+    "throttle_body": "44 mm",
+    "injectors": "2 (upstream + downstream)",
+    "intake_angle": "32.5 deg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki 2021 KX250 Model Information (press kit PDF)",
+    "url": "https://www.enduro.de/wp-content/uploads/2020/07/21_KX250_Model-Information.pdf",
+    "date": "2020-07"
+   },
+   "confidence": "high",
+   "notes": "Upstream injector relocated below the duct for 2023."
+  },
+  {
+   "id": "kx-031",
+   "domain": "engine_architecture",
+   "topic": "bottom end (250, 2021+)",
+   "applies_to": {
+    "models": [
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "The 2021 KX250 rod is 3 mm longer, the cylinder is offset 3 mm forward, the bore is plateau-honed and the piston is a short-skirt bridged-box design with dry-film skirt coating.",
+   "values": {
+    "rod_length_change": "+3 mm",
+    "cylinder_offset": "3 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki 2021 KX250 Model Information (press kit PDF)",
+    "url": "https://www.enduro.de/wp-content/uploads/2020/07/21_KX250_Model-Information.pdf",
+    "date": "2020-07"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "kx-032",
+   "domain": "engine_architecture",
+   "topic": "rev limit (250, 2021-2024)",
+   "applies_to": {
+    "models": [
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "The 2021-2024 KX250 rev limit is 14,500 rpm (raised 350 rpm for 2021).",
+   "values": {
+    "rev_limit": "14,500 rpm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki 2021 KX250 Model Information (press kit PDF)",
+    "url": "https://www.enduro.de/wp-content/uploads/2020/07/21_KX250_Model-Information.pdf",
+    "date": "2020-07"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "kx-033",
+   "domain": "engine_architecture",
+   "topic": "mean piston speed at rev limit (250)",
+   "applies_to": {
+    "models": [
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "Worked out from the 52.2 mm stroke, mean piston speed at the 14,500 rpm limiter is about 25.2 m/s.",
+   "values": {
+    "mps_at_14500": "25.2 m/s"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki 2021 KX250 Model Information (press kit PDF)",
+    "url": "https://www.enduro.de/wp-content/uploads/2020/07/21_KX250_Model-Information.pdf",
+    "date": "2020-07"
+   },
+   "confidence": "high",
+   "notes": "2 x 52.2 x 14500 / 60000 = 25.23 m/s."
+  },
+  {
+   "id": "kx-034",
+   "domain": "engine_architecture",
+   "topic": "2025 cylinder head and intake (250)",
+   "applies_to": {
+    "models": [
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2025 KX250 head has symmetric intake/exhaust ports with a straight centre-port exhaust, a valve angle 1 degree narrower, the intake cam raised 10 mm, a 34 degree downdraft intake over the shock, a new reversed 44 mm throttle body, the main injector 11 mm closer to the cylinder, chromium-nitride cam lobes and a 7.5 mm longer spark plug.",
+   "values": {
+    "intake_angle": "34 deg",
+    "intake_cam_raise": "10 mm",
+    "valve_angle_change": "-1 deg",
+    "injector_move": "11 mm closer",
+    "throttle_body": "44 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki Motors Corp. USA press release: 2025 KX250 and KX250X",
+    "url": "https://content2.kawasaki.com/ContentStorage/KMC/PressReleases/783/3d16fe3d-06e3-49b6-961d-f773c3e69f05.pdf",
+    "date": "2024-06"
+   },
+   "confidence": "high",
+   "notes": "Spark plug length from Motocross Action race test."
+  },
+  {
+   "id": "kx-035",
+   "domain": "engine_architecture",
+   "topic": "2025 cylinder, crank and balancer (250)",
+   "applies_to": {
+    "models": [
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "For 2025 the KX250 cylinder is tilted 5 degrees forward and offset 3 mm, the rod is redesigned to cut side-thrust, a single-shaft primary balancer is used, and the starter motor and button were reinforced.",
+   "values": {
+    "cylinder_tilt": "5 deg forward"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki Motors Corp. USA press release: 2025 KX250 and KX250X",
+    "url": "https://content2.kawasaki.com/ContentStorage/KMC/PressReleases/783/3d16fe3d-06e3-49b6-961d-f773c3e69f05.pdf",
+    "date": "2024-06"
+   },
+   "confidence": "high",
+   "notes": "Starter details from Motocross Action."
+  },
+  {
+   "id": "kx-036",
+   "domain": "engine_architecture",
+   "topic": "2025 exhaust (250)",
+   "applies_to": {
+    "models": [
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2025 KX250 centre-port exhaust exits through the front of the frame with the muffler moved about 50 mm forward.",
+   "values": {
+    "muffler_move": "about 50 mm forward"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2025 Kawasaki KX250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-kawasaki-kx250",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kx-037",
+   "domain": "power_feel",
+   "topic": "peak power, 2021 (rear wheel)",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "On a magazine dyno the 2021 KX450 made 52.4 hp at 9,600 rpm and 32.6 lb-ft at 7,000 rpm, less than the Honda, Husqvarna and KTM from 6,000 rpm up.",
+   "values": {
+    "peak_hp": "52.4 hp @ 9,600 rpm",
+    "peak_torque": "32.6 lb-ft @ 7,000 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2021 Kawasaki KX450 dyno test",
+    "url": "https://dirtrider.com/story/tests/2021-kawasaki-kx450-dyno-test",
+    "date": "2020-12"
+   },
+   "confidence": "medium",
+   "notes": "Dyno brand, fuel and coupler not stated."
+  },
+  {
+   "id": "kx-038",
+   "domain": "power_feel",
+   "topic": "peak power, 2022 (rear wheel, source A)",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "On one magazine dyno the 2022 KX450 made 52.2 hp at 9,500 rpm, tying for the lowest peak torque in the 450 class.",
+   "values": {
+    "peak_hp": "52.2 hp @ 9,500 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2022 Kawasaki KX450 dyno test",
+    "url": "https://dirtrider.com/story/tests/2022-kawasaki-kx450-dyno-test",
+    "date": "2022-03"
+   },
+   "confidence": "medium",
+   "notes": "Dyno type not stated (this outlet uses a Dynojet 250i in later years)."
+  },
+  {
+   "id": "kx-039",
+   "domain": "power_feel",
+   "topic": "peak power, 2022 (rear wheel, source B)",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2022,
+     2023
+    ]
+   },
+   "statement": "On another magazine dyno the 2022 and 2023 KX450 made 56.9 hp at 9,500 rpm on the green coupler, versus 58.1-58.5 hp for the Honda, KTM, Husqvarna and Yamaha.",
+   "values": {
+    "peak_hp": "56.9 hp @ 9,500 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2022 Kawasaki KX450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-kawasaki-kx450",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Dyno type not stated; same figure printed in the 2023 race test. Not comparable to other outlets' dynos."
+  },
+  {
+   "id": "kx-040",
+   "domain": "power_feel",
+   "topic": "peak power, 2023 (rear wheel, Dynojet 250i)",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "On a Dynojet 250i rear-wheel dyno the 2023 KX450 made 51.9 hp and 32.6 lb-ft.",
+   "values": {
+    "peak_hp": "51.9 hp",
+    "peak_torque": "32.6 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2023 Kawasaki KX450 dyno test",
+    "url": "https://dirtrider.com/tests/kawasaki-kx450-dyno-test-2023",
+    "date": "2023-02"
+   },
+   "confidence": "medium",
+   "notes": "Fuel, map and rpm not stated."
+  },
+  {
+   "id": "kx-041",
+   "domain": "power_feel",
+   "topic": "peak power, 2024 (source A)",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "On one magazine dyno the 2024 KX450 made 58.27 hp with the airbox rubber plug removed, fifth of seven 450s; the stock bike with the plug in felt noticeably slow.",
+   "values": {
+    "peak_hp": "58.27 hp (airbox plug removed)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2024 Kawasaki KX450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-kawasaki-kx450",
+    "date": "2024-03"
+   },
+   "confidence": "medium",
+   "notes": "Dyno type and rpm not stated. Same outlet printed 57.4 hp / 35.5 lb-ft stock in a later comparison, and 57.3 hp in an exhaust test, and 58.01 hp in an ECU test."
+  },
+  {
+   "id": "kx-042",
+   "domain": "power_feel",
+   "topic": "peak power, 2024 (source A, stock comparison)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "In a later comparison the stock 2024 KX450 engine was listed at 57.4 hp and 35.5 lb-ft.",
+   "values": {
+    "peak_hp": "57.4 hp",
+    "peak_torque": "35.5 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: 2024 cross-country battle Honda CRF450RX vs Kawasaki KX450X",
+    "url": "https://motocrossactionmag.com/2024-cross-country-battle-honda-crf450rx-vs-kawasaki-kx450x",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Dyno type not stated."
+  },
+  {
+   "id": "kx-043",
+   "domain": "power_feel",
+   "topic": "peak power, 2025 (Dynojet 250i)",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On a Dynojet 250i rear-wheel dyno the stock 2025 KX450 made 53.5 hp and 33.0 lb-ft, about 1.6 hp more than this outlet's 2023 figure.",
+   "values": {
+    "peak_hp": "53.5 hp",
+    "peak_torque": "33.0 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: How much power does the 2025 Kawasaki KX450 make?",
+    "url": "https://dirtrider.com/tests/kawasaki-kx450-dyno-test-2025",
+    "date": "2024-09"
+   },
+   "confidence": "medium",
+   "notes": "rpm, fuel and map not stated."
+  },
+  {
+   "id": "kx-044",
+   "domain": "power_feel",
+   "topic": "peak power, 2026 (Dynojet 250i)",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "On a Dynojet 250i rear-wheel dyno the 2026 KX450 made 53.1 hp at 9,600 rpm and 33.1 lb-ft at 6,800 rpm.",
+   "values": {
+    "peak_hp": "53.1 hp @ 9,600 rpm",
+    "peak_torque": "33.1 lb-ft @ 6,800 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2026 Kawasaki KX450 technical overview",
+    "url": "https://www.dirtrider.com/dirt-bikes/kawasaki-kx450-technical-information/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Dyno brand inferred from this outlet's standard practice; not restated on the page."
+  },
+  {
+   "id": "kx-045",
+   "domain": "power_feel",
+   "topic": "peak power, 2026 (tuner-shop dyno)",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "On a tuner's dyno used for a 12-bike shootout, the 2026 KX450 made 57.7 hp at 9,400 rpm and 34.8 lb-ft at 6,900 rpm on the standard map, fifth of twelve for peak power.",
+   "values": {
+    "peak_hp": "57.7 hp @ 9,400 rpm",
+    "peak_torque": "34.8 lb-ft @ 6,900 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike: Twelve 450 motocross bikes on the dyno, the wrap (2026 shootout)",
+    "url": "https://dirtbikemagazine.com/?p=101733",
+    "date": "2025-11"
+   },
+   "confidence": "medium",
+   "notes": "Pro Circuit dyno, full-throttle runs, standard map. Rank computed by BAK from the published table."
+  },
+  {
+   "id": "kx-046",
+   "domain": "power_feel",
+   "topic": "KX450SR dyno versus KX450",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On the same Dynojet 250i, the 2025 KX450SR (polished ports, titanium exhaust, its own ECU map) made 55.3 hp and 34.5 lb-ft, 1.8 hp and 1.5 lb-ft more than the standard KX450, and more power from 6,400 rpm to the limiter.",
+   "values": {
+    "peak_hp": "55.3 hp",
+    "peak_torque": "34.5 lb-ft",
+    "gain_vs_KX450": "+1.8 hp, +1.5 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: How much power does the 2025 Kawasaki KX450SR make?",
+    "url": "https://dirtrider.com/tests/kawasaki-kx450sr-dyno-test-2025",
+    "date": "2025-01"
+   },
+   "confidence": "medium",
+   "notes": "Factory-built SR, compared with stock KX450 on the same dyno."
+  },
+  {
+   "id": "kx-047",
+   "domain": "power_feel",
+   "topic": "power character 2021-2023 (450)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "Testers describe the 2021-2023 KX450 as smooth and very usable rather than the strongest: a slightly jerky hit right off idle, the best pull between about 6,000 and 9,000 rpm, and power falling off above about 9,500 rpm. Another tester found it linear with snappy low end, more engine braking than some rivals, and a slight dip from mid to top.",
+   "values": {
+    "strongest_band": "6,000-9,000 rpm",
+    "falls_off_above": "9,500 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2023 Kawasaki KX450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-kawasaki-kx450",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Paraphrase of two magazine tests (MXA 2022/2023, Keefer 2022)."
+  },
+  {
+   "id": "kx-048",
+   "domain": "power_feel",
+   "topic": "power character 2024+ (450)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers describe the 2024-on KX450 as milder than before: smooth and linear, soft off the bottom, with strong mid-to-top pull, best ridden like a big 250. Several found it short on punch for starts, hills, deep sand and corner exits in stock form, and the stock 'standard' map was called sluggish.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2024 Kawasaki KX450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-kawasaki-kx450",
+    "date": "2024-03"
+   },
+   "confidence": "medium",
+   "notes": "Consensus across MXA 2024, Dirt Rider 2025, Ultimate Motorcycling 2024, Bike Review AU 2024 and Cycle News 2026. An Australian launch reported the bike shipped in the mild map by default."
+  },
+  {
+   "id": "kx-049",
+   "domain": "power_feel",
+   "topic": "why the 2024+ 450 feels milder",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2024 head traded the 40 mm intake valves for 38 mm ones and a straighter, steeper port, and the rod got 5 mm longer, which favours smooth, broad delivery over hit; the small airbox, the factory rubber plug and a restrictive stock muffler add to the soft throttle response that testers report.",
+   "values": {
+    "intake_valve_change": "40 -> 38 mm",
+    "rod_change": "+5 mm"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2024 Kawasaki KX450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-kawasaki-kx450",
+    "date": "2024-03"
+   },
+   "confidence": "medium",
+   "notes": "BAK reasoning from Kawasaki's architecture changes plus magazine observations that intake and stock exhaust are the main limits (MXA exhaust test) and that opening the airbox improves response. Not a manufacturer statement."
+  },
+  {
+   "id": "kx-050",
+   "domain": "power_feel",
+   "topic": "measured weight 2021-2023 (450)",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2022,
+     2023
+    ]
+   },
+   "statement": "The 2022-2023 KX450 weighed 234 lb without fuel on a magazine scale.",
+   "values": {
+    "weight_no_fuel": "234 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2023 Kawasaki KX450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-kawasaki-kx450",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kx-051",
+   "domain": "power_feel",
+   "topic": "measured weight 2024+ (450)",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2024 KX450 weighed 239 lb without fuel on one magazine scale (5 lb more than 2023), and 250 lb wet on another. Kawasaki claims 248.2 lb wet (113 kg curb).",
+   "values": {
+    "weight_no_fuel": "239 lb",
+    "weight_wet_measured": "250 lb",
+    "claimed_wet": "248.2 lb / 113 kg"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2024 Kawasaki KX450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-kawasaki-kx450",
+    "date": "2024-03"
+   },
+   "confidence": "medium",
+   "notes": "250 lb wet from Dirt Rider 2026 technical overview; claim from Kawasaki UK / Cycle News."
+  },
+  {
+   "id": "kx-052",
+   "domain": "power_feel",
+   "topic": "peak power 2022 (250, Dynojet at a tuner shop)",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "On a Dynojet at a tuner's shop, the 2022 KX250 made 43.70 hp at 13,330 rpm and 20.65 lb-ft at 9,430 rpm, fourth of six 250Fs.",
+   "values": {
+    "peak_hp": "43.70 hp @ 13,330 rpm",
+    "peak_torque": "20.65 lb-ft @ 9,430 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike: 2022 250 MX bikes on the dyno, the wrap",
+    "url": "https://dirtbikemagazine.com/2022-250-mx-bikes-on-the-dyno-the-wrap/",
+    "date": "2021-10"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kx-053",
+   "domain": "power_feel",
+   "topic": "peak power 2022 (250, magazine in-house dyno)",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "On a magazine's own dyno the 2022 KX250 made 39.5 hp at 13,700 rpm and 18.5 lb-ft at 9,700 rpm; the rider called it very linear and smooth and quick-revving (white coupler mentioned).",
+   "values": {
+    "peak_hp": "39.5 hp @ 13,700 rpm",
+    "peak_torque": "18.5 lb-ft @ 9,700 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2022 Kawasaki KX250 dyno test",
+    "url": "https://dirtrider.com/story/tests/kawasaki-kx250-dyno-test-2022",
+    "date": "2022-04"
+   },
+   "confidence": "medium",
+   "notes": "Dyno brand not named."
+  },
+  {
+   "id": "kx-054",
+   "domain": "power_feel",
+   "topic": "peak power 2024 (250, Dynojet 250i)",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "On a Dynojet 250i the 2024 KX250 made 41.0 hp and 18.7 lb-ft; it peaked at the highest rpm of the 250F shootout and made peak torque at the lowest rpm.",
+   "values": {
+    "peak_hp": "41.0 hp",
+    "peak_torque": "18.7 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2024 Kawasaki KX250 dyno test",
+    "url": "https://Dirtrider.com/tests/kawasaki-kx250-dyno-test-2024/",
+    "date": "2024-02"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kx-055",
+   "domain": "power_feel",
+   "topic": "peak power 2024 (250, source B)",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "On another magazine's dyno the 2023-2024 KX250 made about 45.1-45.2 hp, roughly level with the KTM 250 SX-F (45.22) and ahead of the Husqvarna FC 250 (44.76); peak came at 13,300 rpm with 21.0 lb-ft at 9,000 rpm.",
+   "values": {
+    "peak_hp": "45.20 hp (race test) / 45.11 hp @ 13,300 rpm (2025 comparison)",
+    "peak_torque": "21.0 lb-ft @ 9,000 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2024 Kawasaki KX250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-kawasaki-kx250",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Same outlet printed 45.20 in the 2024 race test and 45.11 @ 13,300 in the 2025 race test comparison. Dyno type not stated."
+  },
+  {
+   "id": "kx-056",
+   "domain": "power_feel",
+   "topic": "peak power 2025 (250, source B)",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On the same magazine dyno the 2025 KX250 made 43.7 hp at 12,500 rpm and 20.48 lb-ft at 9,200 rpm, weaker than the 2024 at every point from 6,500 rpm (about 2 hp less at 10,000 rpm) and falling off sharply after peak.",
+   "values": {
+    "peak_hp": "43.7 hp @ 12,500 rpm",
+    "peak_torque": "20.48 lb-ft @ 9,200 rpm",
+    "deficit_vs_2024_at_10000": "about 2 hp"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2025 Kawasaki KX250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-kawasaki-kx250",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kx-057",
+   "domain": "power_feel",
+   "topic": "peak power 2025 (250, Dynojet 250i)",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On a Dynojet 250i the 2025 KX250 made 39.3 hp and 18.4 lb-ft, with better midrange roll-on but slightly less over-rev than 2024.",
+   "values": {
+    "peak_hp": "39.3 hp",
+    "peak_torque": "18.4 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: How much power does the 2025 Kawasaki KX250 make?",
+    "url": "https://dirtrider.com/tests/kawasaki-kx250-dyno-test-2025",
+    "date": "2024-10"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kx-058",
+   "domain": "power_feel",
+   "topic": "peak power 2025 (250, tuner-shop dyno)",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On a tuner's dyno in a 250 shootout, the 2025 KX250 made 43.49 hp at 12,470 rpm and 20.72 lb-ft at 9,240 rpm, fourth of eight, but riders found it hard to ride with little low-end feel.",
+   "values": {
+    "peak_hp": "43.49 @ 12,470 rpm",
+    "peak_torque": "20.72 @ 9,240 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike: 250 motocross bikes on the dyno, the wrap (2025 shootout)",
+    "url": "https://dirtbikemagazine.com/250-motocross-bikes-on-the-dyno-the-wrap/",
+    "date": "2024-12"
+   },
+   "confidence": "medium",
+   "notes": "Units not printed (hp and lb-ft assumed by BAK). Full-throttle runs only."
+  },
+  {
+   "id": "kx-059",
+   "domain": "power_feel",
+   "topic": "power character 2021-2024 (250)",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "Testers describe the 2021-2024 KX250 as a top-end engine: strong mid and top, revving to 14,500 rpm, but weak initial response and low-end torque that hurts corner exits; it rewards being ridden at high rpm like a 125 two-stroke.",
+   "values": {
+    "rev_limit": "14,500 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2024 Kawasaki KX250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-kawasaki-kx250",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Consistent across MXA 2024, Cycle News 2021, Keefer 2022."
+  },
+  {
+   "id": "kx-060",
+   "domain": "power_feel",
+   "topic": "power character 2025+ (250)",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers split on the 2025 KX250: some found more usable low-to-mid power and easier starts, while others found it heavy off the bottom, with a narrow powerband, little recovery after a mistake and less over-rev than 2024, sometimes needing first gear where 2024 used second. Novice and vet riders tended to prefer 2025; faster riders the 2024 engine.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2025 Kawasaki KX250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-kawasaki-kx250",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Positive view from Cycle News 2025 review and Ultimate Motorcycling first ride; negative from MXA race test and Dirt Bike shootout."
+  },
+  {
+   "id": "kx-061",
+   "domain": "power_feel",
+   "topic": "measured weight (250)",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "The 2021-2024 KX250 weighed 228 lb without fuel on a magazine scale; the 2025 is listed at 232 lb (heaviest 250F in that test), and Kawasaki claims 240.7 lb wet for 2025.",
+   "values": {
+    "weight_2024_no_fuel": "228 lb",
+    "weight_2025": "232 lb",
+    "claimed_wet_2025": "240.7 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2024 Kawasaki KX250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-kawasaki-kx250",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "2025 figures from MXA 2025 race test (spec) and Cycle News 2025 review (claim)."
+  },
+  {
+   "id": "kx-062",
+   "domain": "power_feel",
+   "topic": "vibration (250, 2025)",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Testers rated the 2025 KX250 as having the most vibration of the 250 four-strokes despite its new balancer.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2025 Kawasaki KX250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-kawasaki-kx250",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": ""
+  },
+  {
+   "id": "kx-063",
+   "domain": "ecu_electronics",
+   "topic": "DFI plug-in couplers (450, 2019-2023)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "The 2019-2023 KX450 selects maps with 4-pin plug-in couplers on the right side of the head pipe: green is the stock map, white is aggressive (same peak, crisper throttle, less over-rev), and black is mellow (about 1-2 hp less from 6,000 to 11,500 rpm). Maps can be changed with the engine running.",
+   "values": {
+    "green": "standard",
+    "white": "aggressive / hard",
+    "black": "mellow / soft",
+    "black_loss": "1-2 hp, 6,000-11,500 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2023 Kawasaki KX450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-kawasaki-kx450",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Coupler location and 'standard/hard/soft' naming from Kawasaki 2019 data."
+  },
+  {
+   "id": "kx-064",
+   "domain": "ecu_electronics",
+   "topic": "DFI plug-in couplers (250, 2021-2024)",
+   "applies_to": {
+    "models": [
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "The 2021-2024 KX250 uses the same three couplers: green standard, white aggressive (livelier with better over-rev), and black mellow (smooth bottom-to-mid transition, suited to slick hardpack). There is no handlebar map switch.",
+   "values": {
+    "green": "standard",
+    "white": "aggressive",
+    "black": "mellow"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News: 2021 Kawasaki KX250 review",
+    "url": "https://www.cyclenews.com/2020/10/article/2021-kawasaki-kx250-review/",
+    "date": "2020-10"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "kx-065",
+   "domain": "ecu_electronics",
+   "topic": "KX FI Calibration Kit (pre-2024)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X",
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "Before the app, custom maps needed Kawasaki's handheld KX FI Calibration Kit (about $700) which edits fuel and ignition, stores up to seven custom maps and includes preset sample maps; it works without a PC.",
+   "values": {
+    "price": "$699.95",
+    "custom_maps": "up to 7"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News: 2021 Kawasaki KX250 review",
+    "url": "https://www.cyclenews.com/2020/10/article/2021-kawasaki-kx250-review/",
+    "date": "2020-10"
+   },
+   "confidence": "medium",
+   "notes": "Applies to KX450 2021-2023 and KX250 2021-2024. One magazine said '10 preset maps'. Grid size and adjustment ranges not found."
+  },
+  {
+   "id": "kx-066",
+   "domain": "ecu_electronics",
+   "topic": "mixed coupler map trick (250)",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "Engine tuners commonly build a KX250 map that combines the white coupler's ignition with the black coupler's fuel; it adds modest midrange torque and carries power further up the rpm range.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing: 2022 Kawasaki KX250 review / suspension settings",
+    "url": "https://www.keeferinctesting.com/2021-11-15-2022-kawasaki-kx250-reviewsuspension-settings/",
+    "date": "2021-11"
+   },
+   "confidence": "medium",
+   "notes": "Requires the calibration kit to build."
+  },
+  {
+   "id": "kx-067",
+   "domain": "ecu_electronics",
+   "topic": "launch control 2019-2023 (450) and 2021-2024 (250)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X",
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "Launch control on the coupler-era bikes is a separate map that retards ignition, cutting up to about 4 hp above 7,000 rpm. It is armed by holding the left-bar button for 2 seconds in neutral, first or second, and drops out when third gear is selected.",
+   "values": {
+    "power_cut": "up to 4 hp above 7,000 rpm",
+    "arm": "hold button 2 s"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2022 Kawasaki KX450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-kawasaki-kx450",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "kx-068",
+   "domain": "ecu_electronics",
+   "topic": "power modes (450, 2024+)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "From 2024 the KX450 has a Mode (M) button on the left bar with two maps: map 1 Normal (light off, full power) and map 2 Mild (blue light). They replace the couplers.",
+   "values": {
+    "map1": "Normal (no light)",
+    "map2": "Mild (blue light)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki UK: KX450 2026 model page",
+    "url": "https://www.kawasaki.co.uk/en/Motorcycles/Motocross-Enduro/KX450_2026.html",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Light colours from Ultimate Motorcycling extended test."
+  },
+  {
+   "id": "kx-069",
+   "domain": "ecu_electronics",
+   "topic": "power modes (250, 2025+)",
+   "applies_to": {
+    "models": [
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "From 2025 the KX250 Mode button selects Normal or Aggressive maps (unlike the 450, whose second map is milder). Kawasaki provides no other pre-built maps, so further tuning is done in the app.",
+   "values": {
+    "maps": "Normal, Aggressive"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki Motors Corp. USA press release: 2025 KX250 and KX250X",
+    "url": "https://content2.kawasaki.com/ContentStorage/KMC/PressReleases/783/3d16fe3d-06e3-49b6-961d-f773c3e69f05.pdf",
+    "date": "2024-06"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "kx-070",
+   "domain": "ecu_electronics",
+   "topic": "traction control (KTRC)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X",
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "KTRC (KX450 2024+, KX250 2025+) has Weak and Strong levels plus off, set with the T button; Weak shows a solid green light, Strong a blinking light. It retards ignition when rear-wheel speed rises too quickly.",
+   "values": {
+    "levels": "Weak, Strong, Off",
+    "method": "ignition retard"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motorcycle & Powersports News: 2024 Kawasaki KX450, KX450X and 50th Anniversary (Kawasaki press release)",
+    "url": "https://www.motorcyclepowersportsnews.com/2024-kawasaki-kx450-kx450x-kx-50th-anniversary-edition-motorcycles/",
+    "date": "2023-06"
+   },
+   "confidence": "high",
+   "notes": "Light pattern from MXA 2024 race test and Cycle News 2025 KX250 review. Applies to KX250/KX250X from 2025 only."
+  },
+  {
+   "id": "kx-071",
+   "domain": "ecu_electronics",
+   "topic": "traction control feel",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers found KTRC useful on dry hard-pack under loose dirt and on uphills, but it did little on a smooth, dry day; one planned Mild map with KTRC on for mud.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling: 2024 Kawasaki KX450 extended test",
+    "url": "https://ultimatemotorcycling.com/2024/05/22/2024-kawasaki-kx450-extended-test-14-fast-facts/",
+    "date": "2024-05"
+   },
+   "confidence": "low",
+   "notes": "Not tested in mud by either source (Ultimate Motorcycling, Bike Review AU)."
+  },
+  {
+   "id": "kx-072",
+   "domain": "ecu_electronics",
+   "topic": "launch control (2024+ 450, 2025+ 250)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X",
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "On the new bikes launch control is armed by pressing M and T together (purple light on the 450). It uses its own traction-control, ignition and fuel maps, works in the first two gears, and returns to the previous mode on the shift to third.",
+   "values": {
+    "arm": "M + T together",
+    "active": "1st-2nd gear"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki UK: KX450 2026 model page",
+    "url": "https://www.kawasaki.co.uk/en/Motorcycles/Motocross-Enduro/KX450_2026.html",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Applies to KX250/KX250X from 2025."
+  },
+  {
+   "id": "kx-073",
+   "domain": "ecu_electronics",
+   "topic": "Rideology The App KX",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X",
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The smartphone app (via a Bluetooth unit on the left rear frame rail) edits fuel volume and ignition timing on a 6 x 6 grid for both maps, shows live rpm, throttle position, intake pressure, coolant and air temperature and ignition offset, and keeps maintenance and setup logs. It is for use only when stopped.",
+   "values": {
+    "grid": "6 x 6 (fuel and ignition, both maps)",
+    "monitoring": "rpm, TPS, intake pressure, coolant temp, air temp, ignition offset"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki Motors Corp. USA press release: 2025 KX250 and KX250X",
+    "url": "https://content2.kawasaki.com/ContentStorage/KMC/PressReleases/783/3d16fe3d-06e3-49b6-961d-f773c3e69f05.pdf",
+    "date": "2024-06"
+   },
+   "confidence": "high",
+   "notes": "KX450 from 2024, KX250 from 2025. The app does not show engine hours (magazine complaint)."
+  },
+  {
+   "id": "kx-074",
+   "domain": "ecu_electronics",
+   "topic": "map-slot overwrite behaviour",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "A custom map saved to the KX450's light-on (map 2) slot is detuned by the ECU by about 15%, and saving to the light-off slot overwrites the stock map.",
+   "values": {
+    "map2_detune": "about 15%"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2024 Kawasaki KX450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-kawasaki-kx450",
+    "date": "2024-03"
+   },
+   "confidence": "low",
+   "notes": "Single magazine report; not confirmed by Kawasaki."
+  },
+  {
+   "id": "kx-075",
+   "domain": "ecu_electronics",
+   "topic": "app adjustment range by year",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2024 KX450 ECU allows less adjustment in the app than 2025-2026 units; one review says the range was widened for 2026. Several riders say the stock-ECU changes make only a small difference.",
+   "values": {},
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum: kx 450 = 350? mapping",
+    "url": "https://www.vitalmx.com/comment/9077186",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": "Forum reports plus Cycle News 2026 review; exact ranges not published."
+  },
+  {
+   "id": "kx-076",
+   "domain": "ecu_electronics",
+   "topic": "aftermarket ECU: Vortex X10 (450, 2024+)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "A Vortex X10 ECU with tuner mapping for the 2024-2025 KX450 gives 10 dial-selected maps plus low/mid/high-throttle fuel trims of 2.5% per click; it reports the map number through the stock bar switch. On track it felt about 20% stronger, mostly off the bottom, and made third gear usable in corners. Price about $1,060 new, $400 to remap.",
+   "values": {
+    "maps": "10",
+    "fuel_trim_step": "2.5% per click",
+    "price": "$1,059.99"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: Team tested Twisted Development KX450 Vortex ECU",
+    "url": "https://motocrossactionmag.com/mxa-team-tested-twisted-development-kx450-vortex-ecu",
+    "date": "2024-10"
+   },
+   "confidence": "medium",
+   "notes": "Track impression, not dyno. Tested with a titanium full exhaust and a 51T rear sprocket. Trim bands: Lo ~5-25% throttle, Mid 33-66%, Hi 75-100%."
+  },
+  {
+   "id": "kx-077",
+   "domain": "ecu_electronics",
+   "topic": "aftermarket ECU options (2019-2023 450 and 250)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX250"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "Owners of coupler-era KX450s commonly reflash the stock ECU (around $350) or fit a Vortex ECU; reflashing is called the cheapest effective upgrade, though some riders say remaps mostly soften the initial hit.",
+   "values": {
+    "reflash_price": "about $350"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum: 19-23 KX450 how to get more power",
+    "url": "https://www.vitalmx.com/comment/8027416",
+    "date": "2024"
+   },
+   "confidence": "low",
+   "notes": ""
+  },
+  {
+   "id": "kx-078",
+   "domain": "ecu_electronics",
+   "topic": "aftermarket ECU (250, 2025+)",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "For the 2025 KX250 tuners offer a stock-ECU reflash or a mapped Vortex X10, claimed to improve throttle response and 2nd-3rd gear midrange pull and add over-rev for later shifts.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing / PulpMX: 2025 Kawasaki KX250 mods that work",
+    "url": "https://www.keeferinctesting.com/?p=29072",
+    "date": "2025-07"
+   },
+   "confidence": "low",
+   "notes": "No dyno figures published."
+  },
+  {
+   "id": "kx-079",
+   "domain": "engine_mods",
+   "topic": "aftermarket slip-on muffler (450, 2024)",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "In a magazine dyno test an aftermarket stainless/titanium slip-on on the 2024 KX450 made about 3 hp more than stock at 7,500 rpm and kept pulling to a 9,200 rpm peak; peak power stayed the same at 57.3 hp, torque rose from 35.6 to 36.8 lb-ft. Low end did not improve noticeably; removing the insert gave more top.",
+   "values": {
+    "gain_at_7500": "about +3 hp",
+    "peak_hp": "57.3 hp (same as stock)",
+    "torque": "35.6 -> 36.8 lb-ft",
+    "price": "$674.99 SS / $899.99 Ti"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: Team tested FMF Racing 2024 KX450 slip-on muffler",
+    "url": "https://motocrossactionmag.com/mxa-team-tested-fmf-racing-2024-kx450-slip-on-muffler",
+    "date": "2024-07"
+   },
+   "confidence": "medium",
+   "notes": "Product: FMF slip-on. Dyno type not stated. The stock curve was described as climbing to about 6,700 rpm then fading."
+  },
+  {
+   "id": "kx-080",
+   "domain": "engine_mods",
+   "topic": "titanium full exhaust (450, 2024)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "An aftermarket titanium full exhaust raised the 2024 KX450 from 57.4 hp / 35.5 lb-ft to 58.5 hp / 37.2 lb-ft on a magazine dyno, mostly in the midrange.",
+   "values": {
+    "stock": "57.4 hp / 35.5 lb-ft",
+    "with_pipe": "58.5 hp / 37.2 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: 2024 cross-country battle Honda CRF450RX vs Kawasaki KX450X",
+    "url": "https://motocrossactionmag.com/2024-cross-country-battle-honda-crf450rx-vs-kawasaki-kx450x",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Product: Pro Circuit Ti-6. Dyno type not stated."
+  },
+  {
+   "id": "kx-081",
+   "domain": "engine_mods",
+   "topic": "Akrapovic exhaust claim (450, 2024+)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Kawasaki's accessory Akrapovic exhaust is claimed to add 1.9 kW (2.6 hp) at 7,500 rpm and 2.5 Nm at 7,600 rpm and save 1.3 kg.",
+   "values": {
+    "power_gain": "+1.9 kW (2.6 hp) @ 7,500 rpm",
+    "torque_gain": "+2.5 Nm @ 7,600 rpm",
+    "weight_saving": "1.3 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki UK: KX450 2026 model page",
+    "url": "https://www.kawasaki.co.uk/en/Motorcycles/Motocross-Enduro/KX450_2026.html",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Manufacturer accessory claim, European market."
+  },
+  {
+   "id": "kx-082",
+   "domain": "engine_mods",
+   "topic": "airbox opening (450, 2024+)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers recommend removing the factory airbox rubber plug and drilling the airbox cover (about five holes) with a cage-and-domed-filter kit; it improves throttle response and bottom-end pull. The plug is very hard to refit.",
+   "values": {
+    "cover_holes": "about 5"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: 2024 cross-country battle Honda CRF450RX vs Kawasaki KX450X",
+    "url": "https://motocrossactionmag.com/2024-cross-country-battle-honda-crf450rx-vs-kawasaki-kx450x",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "No dyno data; combined with other mods in tests."
+  },
+  {
+   "id": "kx-083",
+   "domain": "engine_mods",
+   "topic": "gearing (450, 2024+)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Stock gearing is 13/50; going to a 51T rear sprocket was the single biggest improvement in one magazine's 2024 test, making third gear more usable in corners.",
+   "values": {
+    "stock": "13/50",
+    "common_change": "13/51"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: Team tested FMF Racing 2024 KX450 slip-on muffler",
+    "url": "https://motocrossactionmag.com/mxa-team-tested-fmf-racing-2024-kx450-slip-on-muffler",
+    "date": "2024-07"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kx-084",
+   "domain": "engine_mods",
+   "topic": "owner mod consensus (450, 2019-2023)",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "Owners of 2019-2023 KX450s most often recommend an ECU remap, a 51-52T rear sprocket, and a slip-on with the stock header for low-end; head skimming or a 13-13.5:1 piston is a last resort over the stock 12.5:1.",
+   "values": {
+    "stock_compression": "12.5:1",
+    "piston_option": "13.0-13.5:1"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum: 19-23 KX450 how to get more power",
+    "url": "https://www.vitalmx.com/comment/8027416",
+    "date": "2024"
+   },
+   "confidence": "low",
+   "notes": ""
+  },
+  {
+   "id": "kx-085",
+   "domain": "engine_mods",
+   "topic": "mods that work (250, 2025+)",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers report that on the 2025 KX250 a full titanium exhaust (one brand stronger low, another stronger mid) saves 2-3 lb, a high-compression piston adds bottom torque but needs at least VP T4-class fuel, an open air kit sharpens response, and a 51T rear sprocket helps low-end pull.",
+   "values": {
+    "exhaust_weight_saving": "2-3 lb",
+    "sprocket": "51T"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing / PulpMX: 2025 Kawasaki KX250 mods that work",
+    "url": "https://www.keeferinctesting.com/?p=29072",
+    "date": "2025-07"
+   },
+   "confidence": "low",
+   "notes": "No dyno figures."
+  },
+  {
+   "id": "kx-086",
+   "domain": "engine_mods",
+   "topic": "flywheel weight (450, 2024+)",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Some owners add a 10 oz flywheel weight to calm the 2024 KX450's delivery.",
+   "values": {
+    "weight": "10 oz"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum: kx 450 = 350? mapping",
+    "url": "https://www.vitalmx.com/comment/9077186",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": "Single report."
+  },
+  {
+   "id": "kx-087",
+   "domain": "chassis",
+   "topic": "geometry 2019-2023 (450)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "The 2019-2023 KX450 frame has 27.6 degrees of rake, 122 mm of trail and a 1,485 mm wheelbase.",
+   "values": {
+    "rake": "27.6 deg",
+    "trail": "122 mm",
+    "wheelbase": "1,485 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Bike Review (AU): Model update 2019 Kawasaki KX450F (Kawasaki technical data)",
+    "url": "https://bikereview.com.au/model-update-2019-kawasaki-kx450f/",
+    "date": "2018"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "kx-088",
+   "domain": "chassis",
+   "topic": "geometry 2024+ (450)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2024-on KX450 frame is one degree steeper at 26.6 degrees of rake with 115 mm of trail, a 1,480 mm wheelbase, 960 mm seat height and 345 mm ground clearance.",
+   "values": {
+    "rake": "26.6 deg",
+    "trail": "115 mm",
+    "wheelbase": "1,480 mm",
+    "seat_height": "960 mm",
+    "ground_clearance": "345 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki UK: KX450 2026 model page",
+    "url": "https://www.kawasaki.co.uk/en/Motorcycles/Motocross-Enduro/KX450_2026.html",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Some US sources list 27.0 deg / 4.6 in (see conflicts)."
+  },
+  {
+   "id": "kx-089",
+   "domain": "chassis",
+   "topic": "2024 frame changes (450)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2024 frame was redesigned around the new engine: the downtube Y-joint was raised 125 mm, the shock tower lowered, the rear hub widened from 46 to 58 mm, and four-hole engine-mount brackets let riders fit optional softer or stiffer head stays to tune rigidity.",
+   "values": {
+    "y_joint_raise": "125 mm",
+    "rear_hub": "46 -> 58 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motorcycle & Powersports News: 2024 Kawasaki KX450, KX450X and 50th Anniversary (Kawasaki press release)",
+    "url": "https://www.motorcyclepowersportsnews.com/2024-kawasaki-kx450-kx450x-kx-50th-anniversary-edition-motorcycles/",
+    "date": "2023-06"
+   },
+   "confidence": "high",
+   "notes": "Head-stay detail from MXA race test and Bike Review AU."
+  },
+  {
+   "id": "kx-090",
+   "domain": "chassis",
+   "topic": "handling character 2021-2023 (450)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "Testers rate the 2019-2023 KX450 aluminium frame as the most forgiving of the aluminium frames: nimble, laying down easily into ruts and with good rear bite, best when the soft fork is firmed up; it can feel long once in a rut.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2023 Kawasaki KX450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-kawasaki-kx450",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Also Keefer 2022 baseline."
+  },
+  {
+   "id": "kx-091",
+   "domain": "chassis",
+   "topic": "handling character 2024+ (450)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2024-on KX450 turns in far more sharply than before but can oversteer and shake its head at speed. Fixes testers use: slide the forks down until the caps are flush, add a chain link and move the wheel back, and stiffen fork compression. It can feel top-heavy in flat turns.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2024 Kawasaki KX450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-kawasaki-kx450",
+    "date": "2024-03"
+   },
+   "confidence": "medium",
+   "notes": "Agreed by Ultimate Motorcycling, Dirt Bike and Cycle News tests."
+  },
+  {
+   "id": "kx-092",
+   "domain": "chassis",
+   "topic": "ergonomic adjustment",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X",
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Footpegs can be lowered 5 mm and the bar mounts give four positions (35 mm range on the 2025 KX250; the 2021 KX250 positions were 25 and 15 mm forward, stock, and 10 mm back). Rubber bar-mount inserts are soft and twist in crashes.",
+   "values": {
+    "peg_drop": "5 mm",
+    "bar_positions": "4"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki 2021 KX250 Model Information (press kit PDF)",
+    "url": "https://www.enduro.de/wp-content/uploads/2020/07/21_KX250_Model-Information.pdf",
+    "date": "2020-07"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "kx-093",
+   "domain": "chassis",
+   "topic": "geometry (250)",
+   "applies_to": {
+    "models": [
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2021-2024 KX250 has 28.0 degrees rake, 118 mm trail and a 1,485 mm wheelbase; the 2025 frame is about one degree steeper (27.1 degrees, 4.7 in trail per one review) and 8.8 oz lighter.",
+   "values": {
+    "rake_2021_2024": "28.0 deg",
+    "trail_2021_2024": "118 mm",
+    "wheelbase": "1,485 mm",
+    "rake_2025": "27.1 deg (reported)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki 2021 KX250 Model Information (press kit PDF)",
+    "url": "https://www.enduro.de/wp-content/uploads/2020/07/21_KX250_Model-Information.pdf",
+    "date": "2020-07"
+   },
+   "confidence": "high",
+   "notes": "2025 figures from Ultimate Motorcycling spec list, not Kawasaki."
+  },
+  {
+   "id": "kx-094",
+   "domain": "chassis",
+   "topic": "handling character (250)",
+   "applies_to": {
+    "models": [
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2021-2024 KX250 tends to understeer on entry (the 250 engine sits far back in the 450 frame and the Kayaba fork rides high); a 22 mm offset clamp helps. The 2025 frame turns more easily but feels stiffer and slightly less stable; testers run it long and with the forks flush.",
+   "values": {
+    "clamp_offset_stock": "23 mm",
+    "clamp_offset_fix": "22 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2024 Kawasaki KX250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-kawasaki-kx250",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "2025 notes from MXA 2025 race test and Keefer 2026 settings."
+  },
+  {
+   "id": "kx-095",
+   "domain": "suspension",
+   "topic": "Showa coil fork 2019-2023 (450)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "The 2019-2023 KX450 uses a 49 mm Showa coil-spring fork with a 5.0 N/mm stock spring; testers find it too soft, bottoming and bouncing on rebound, and say adding compression only makes it harsh, so a stiffer spring or revalve is preferred.",
+   "values": {
+    "fork": "49 mm Showa coil",
+    "stock_spring": "5.0 N/mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2022 Kawasaki KX450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-kawasaki-kx450",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kx-096",
+   "domain": "suspension",
+   "topic": "shock 2019-2023 (450)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "The 2019-2023 KX450 Showa shock has separate high/low-speed compression; stock spring 52-54 N/mm with optional 49-55 N/mm rates, and the preload ring is hard to reach.",
+   "values": {
+    "stock_spring": "54 N/mm (tests) / 52 N/mm (Kawasaki 2019 data)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Bike Review (AU): Model update 2019 Kawasaki KX450F (Kawasaki technical data)",
+    "url": "https://bikereview.com.au/model-update-2019-kawasaki-kx450f/",
+    "date": "2018"
+   },
+   "confidence": "medium",
+   "notes": "Kawasaki 2019 data lists 52 N/mm stock; magazine tests of 2022-2023 list 54 N/mm stock."
+  },
+  {
+   "id": "kx-097",
+   "domain": "suspension",
+   "topic": "2024 fork and shock changes (450)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "For 2024 the 49 mm Showa coil fork got 25 mm damping pistons, a shorter free piston and new O-rings Kawasaki claims cut friction 80%, while the Showa shock was shortened 32 mm (486 to 454 mm) with the same stroke, honed for 25% less stiction, with the reservoir moved to the left. Travel is 305 mm front and 307 mm rear.",
+   "values": {
+    "fork_friction_claim": "-80%",
+    "shock_length": "486 -> 454 mm",
+    "shock_stiction_claim": "-25%",
+    "travel_f_r": "305 / 307 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motorcycle & Powersports News: 2024 Kawasaki KX450, KX450X and 50th Anniversary (Kawasaki press release)",
+    "url": "https://www.motorcyclepowersportsnews.com/2024-kawasaki-kx450-kx450x-kx-50th-anniversary-edition-motorcycles/",
+    "date": "2023-06"
+   },
+   "confidence": "high",
+   "notes": "Friction/stiction claims via MXA and Ultimate Motorcycling."
+  },
+  {
+   "id": "kx-098",
+   "domain": "suspension",
+   "topic": "fork character 2024+ (450)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers find the 2024-on fork soft and pitchy, with too soft an initial stroke so it rides in the midstroke and dives under braking; the shock needs more hold-up.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing: 2025 450 MX baseline suspension settings",
+    "url": "https://www.keeferinctesting.com/?p=28578",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kx-099",
+   "domain": "suspension",
+   "topic": "Kayaba suspension (250, 2021-2024)",
+   "applies_to": {
+    "models": [
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "The 2021-2024 KX250 uses a 48 mm KYB coil fork with 25 mm damping pistons and Kashima-coated tubes (314 mm travel) and a KYB shock with separate high/low compression (316 mm travel). Testers found the fork very stiff and riding high, with full travel hard to reach.",
+   "values": {
+    "fork": "48 mm KYB coil",
+    "travel_f_r": "314 / 316 mm",
+    "stock_fork_spring": "4.9 N/mm",
+    "stock_shock_spring": "54 N/mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki 2021 KX250 Model Information (press kit PDF)",
+    "url": "https://www.enduro.de/wp-content/uploads/2020/07/21_KX250_Model-Information.pdf",
+    "date": "2020-07"
+   },
+   "confidence": "high",
+   "notes": "Stock springs and character from MXA 2024 race test."
+  },
+  {
+   "id": "kx-100",
+   "domain": "suspension",
+   "topic": "Showa suspension (250, 2025+)",
+   "applies_to": {
+    "models": [
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "From 2025 the KX250 switched to a Showa coil fork with 25 mm damping pistons and Kashima-coated outer tubes and a 32 mm shorter Showa shock (454 mm) with the reservoir on the left. Testers call it more comfortable than the old Kayaba but soft, sitting low for heavier or faster riders.",
+   "values": {
+    "fork": "48 mm Showa coil (Kawasaki)",
+    "shock_length": "454 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki Motors Corp. USA press release: 2025 KX250 and KX250X",
+    "url": "https://content2.kawasaki.com/ContentStorage/KMC/PressReleases/783/3d16fe3d-06e3-49b6-961d-f773c3e69f05.pdf",
+    "date": "2024-06"
+   },
+   "confidence": "high",
+   "notes": "Fork diameter: Kawasaki release and one review say 48 mm, another says 49 mm (see conflicts)."
+  },
+  {
+   "id": "kx-101",
+   "domain": "suspension",
+   "topic": "X model suspension (2021-2023 KX450X)",
+   "applies_to": {
+    "models": [
+     "KX450X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "The 2021-2023 KX450X runs softer springs and valving than the MX bike: 4.8 N/mm fork (vs 5.0) and 52 N/mm shock (vs 54).",
+   "values": {
+    "fork_spring": "4.8 N/mm",
+    "shock_spring": "52 N/mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2021 Kawasaki KX450X cross-country",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2021-kawasaki-kx450x-cross-country",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "kx-102",
+   "domain": "suspension",
+   "topic": "X model suspension (2024+ KX450X)",
+   "applies_to": {
+    "models": [
+     "KX450X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2024-on KX450X keeps the MX spring rates with softer valving; testers found it stiffer with more hold-up than its main rival, good on fast courses but harder work in tight rocks and roots.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: 2024 cross-country battle Honda CRF450RX vs Kawasaki KX450X",
+    "url": "https://motocrossactionmag.com/2024-cross-country-battle-honda-crf450rx-vs-kawasaki-kx450x",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kx-103",
+   "domain": "suspension",
+   "topic": "X model suspension (KX250X)",
+   "applies_to": {
+    "models": [
+     "KX250X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2021 KX250X has a one-step softer 4.7 N/mm fork spring with off-road valving and the same 54 N/mm shock spring; the 2025 KX250X has softer Showa springs and valving, plush in slow terrain but low and harsh on deceleration at speed.",
+   "values": {
+    "fork_spring_2021": "4.7 N/mm",
+    "shock_spring_2021": "54 N/mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motorcycle.com: 2021 Kawasaki KX250X review",
+    "url": "https://www.motorcycle.com/features/2021-kawasaki-kx250x-review.html",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "2025 from DirtBikeTest first impression."
+  },
+  {
+   "id": "kx-104",
+   "domain": "known_issues",
+   "topic": "crankshaft primary gear recall (2025)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Kawasaki recalled about 3,400 2025 KX450, KX450SR and KX450X bikes because the crankshaft primary gear can fail (its surface treatment was not durable enough); owners must stop riding and have the gear replaced free. 2026 bikes have the updated coating.",
+   "values": {
+    "units_us": "about 3,400",
+    "recall_no": "CPSC 25-238",
+    "date": "2025-04-24",
+    "vin_KX450": "JKAKXGMCSA008598 - JKAKXGMCSA011475",
+    "vin_KX450X": "JKAKXGNCSA002194 - JKAKXGNCSA003159"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "US CPSC recall 25-238: Kawasaki MY2025 competition and cross-country motorcycles",
+    "url": "https://www.cpsc.gov/Recalls/2025/Kawasaki-Motors-USA-Recalls-Model-Year-2025-Competition-and-Cross-Country-Motorcycles-Due-to-Crash-Hazard",
+    "date": "2025-04"
+   },
+   "confidence": "high",
+   "notes": "Cause wording from Australian recall PRA 2025/20520. No incidents reported. 2026 coating note from Cycle News 2026 review."
+  },
+  {
+   "id": "kx-105",
+   "domain": "known_issues",
+   "topic": "fuel pump recall (2022)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX250"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "2022 KX450 and KX250 bikes were recalled for an improperly made fuel pump that can cause hard starting and stalling; dealers check and replace the pump. Owners reported hard hot starts before the fix.",
+   "values": {
+    "au_recall": "PRA 2023/19769"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "ACCC Product Safety Australia recall PRA 2023/19769: KX252 (KX250) and KX450 manufactured 2022, fuel pump",
+    "url": "https://www.productsafety.gov.au/search-consumer-product-recalls/kawasaki-motorcycle-models-kx252cnfnndnfnn-and-kx450jnfnnknfnn-manufactured-in-2022",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Australian notice lists KX252 (KX250) and KX450 manufactured in 2022. US owners received letters (forum)."
+  },
+  {
+   "id": "kx-106",
+   "domain": "known_issues",
+   "topic": "right side-case oil leak (450, 2024-2025)",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "Some 2024-2025 KX450s leak oil from the right side-case gasket just under the cylinder; replacing the gasket is the fix. Kawasaki said it had not seen the issue before.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: Ask the MXperts, mysterious 2024-2025 KX450 oil leak",
+    "url": "https://motocrossactionmag.com/ask-the-mxperts-mysterious-2024-2025-kawasaki-kx450-oil-leak",
+    "date": "2024-12"
+   },
+   "confidence": "low",
+   "notes": "Two magazine test bikes plus one racer; one bike had crashed on its right side."
+  },
+  {
+   "id": "kx-107",
+   "domain": "known_issues",
+   "topic": "ignition cover damage (450, 2024)",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "A test 2024 KX450 had its ignition cover damaged and leaking oil; a full-coverage skid plate is advised.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2024 Kawasaki KX450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-kawasaki-kx450",
+    "date": "2024-03"
+   },
+   "confidence": "low",
+   "notes": ""
+  },
+  {
+   "id": "kx-108",
+   "domain": "known_issues",
+   "topic": "early engine failures (450, 2024)",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "A few owners reported 2024 KX450 engine failures at very low hours (one seizure at 8.5 hours attributed to an oil-pump gear, one at 4.5 hours, one with copper in the oil suggesting rod bearing wear); others report no problems.",
+   "values": {
+    "reported_hours": "4.5-8.5 h"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum: 2024 Kawasaki KX450 and KX450X thread",
+    "url": "https://www.vitalmx.com/comment/6340871",
+    "date": "2024-03"
+   },
+   "confidence": "low",
+   "notes": "Isolated forum reports; not linked to a bulletin."
+  },
+  {
+   "id": "kx-109",
+   "domain": "known_issues",
+   "topic": "clutch plates (450, 2024+)",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "A few owners report worn or broken clutch plates and a grooved hub around 20 hours on newer KX450s; some fit an aftermarket clutch kit.",
+   "values": {
+    "reported_hours": "about 20 h"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum: 2024 Kawasaki KX450 and KX450X thread (later pages)",
+    "url": "https://www.vitalmx.com/comment/8524141",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": ""
+  },
+  {
+   "id": "kx-110",
+   "domain": "known_issues",
+   "topic": "heat (450 and 450X)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers recommend a higher-pressure 2.0 kg/cm2 radiator cap on the KX450, and the 2024 KX450X ran hot on tight technical trails.",
+   "values": {
+    "cap": "2.0 kg/cm2"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2023 Kawasaki KX450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-kawasaki-kx450",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "KX450X heat from Dirt Bike 2024 KX450X review."
+  },
+  {
+   "id": "kx-111",
+   "domain": "known_issues",
+   "topic": "rear brake and small parts (450, 2021-2023)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "On the 2019-2023 KX450 the 250 mm rear rotor is grabby (the 240 mm KX250/X rotor fixes it); fork guards and number plates crack, the lower chain roller wears fast, the airbox lower bolt strips the subframe threads, and there are three different clutch plate part numbers.",
+   "values": {
+    "rear_rotor": "250 mm (240 mm swap)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2022 Kawasaki KX450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-kawasaki-kx450",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kx-112",
+   "domain": "known_issues",
+   "topic": "small parts (250)",
+   "applies_to": {
+    "models": [
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "KX250 testers report brittle plastics, airbox bolts that strip, a seat T-plate that falls out, a weak stock radiator cap (1.1 replaced with 1.8 by Kawasaki on test bikes), soft bar-mount inserts, and on the 2025 a restrictive airbox, hard-to-seat filter and stiff shifting under load.",
+   "values": {
+    "stock_cap": "1.1 kg/cm2",
+    "upgrade_cap": "1.8 kg/cm2"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2024 Kawasaki KX250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-kawasaki-kx250",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "2025 items from MXA 2025 race test."
+  },
+  {
+   "id": "kx-113",
+   "domain": "known_issues",
+   "topic": "fork cartridge defect report (450, 2024)",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "One 2024 KX450 owner found a damaged cartridge part in the right fork leg that he believed was a factory defect.",
+   "values": {},
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum: 2024 Kawasaki KX450 and KX450X thread",
+    "url": "https://www.vitalmx.com/comment/6340871",
+    "date": "2024-03"
+   },
+   "confidence": "low",
+   "notes": "Single report."
+  },
+  {
+   "id": "kx-114",
+   "domain": "setups",
+   "topic": "race setup 2022-2023 (450)",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2022,
+     2023
+    ]
+   },
+   "statement": "One magazine's KX450 race setup: fork 5.1 N/mm spring (5.0 light, 5.2 fast), compression and rebound 12 clicks out, forks 2 mm up; shock 54 N/mm (52 under 150 lb, 56 heavy/fast), high-speed compression 1-1/4 turns out, low-speed 18 out, rebound 12 out, 105 mm race sag.",
+   "values": {
+    "fork_spring": "5.1 N/mm",
+    "fork_clicks": "C12 / R12 out",
+    "fork_height": "2 mm",
+    "shock_spring": "54 N/mm",
+    "shock_hsc": "1.25 turns out",
+    "shock_lsc": "18 out",
+    "shock_reb": "12 out",
+    "sag": "105 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2023 Kawasaki KX450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-kawasaki-kx450",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kx-115",
+   "domain": "setups",
+   "topic": "baseline 2021-2022 (450)",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "A tester baseline for the 2021-2022 KX450: fork 5.1 N/mm (5.2 for B riders over 200 lb), compression 10-11 out, rebound 9-10 out, 3 mm height; shock 54 N/mm (56 at 190 lb+), low-speed 13 out, high-speed 1-1/8 turns out, rebound 10 out. Black coupler smooths low end without losing mid-top.",
+   "values": {
+    "fork_spring": "5.1 N/mm",
+    "fork_clicks": "C10-11 / R9-10",
+    "fork_height": "3 mm",
+    "shock_spring": "54 N/mm",
+    "shock_lsc": "13 out",
+    "shock_hsc": "1.125 turns",
+    "shock_reb": "10 out"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing: 2022 Kawasaki KX450 baseline settings",
+    "url": "https://www.keeferinctesting.com/2021-10-18-2022-kawasaki-kx450-baseline-settings/",
+    "date": "2021-10"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kx-116",
+   "domain": "setups",
+   "topic": "baseline 2024 (450)",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "A tester baseline for the 2024 KX450 (160-200 lb riders): fork 5.0 N/mm, 3 mm height, compression 10 out, rebound 11 out; shock 54 N/mm (56 at 190 lb+), 105 mm sag, low-speed 12 out, high-speed 1-1/4 turns out, rebound 11 out.",
+   "values": {
+    "fork_spring": "5.0 N/mm",
+    "fork_height": "3 mm",
+    "fork_clicks": "C10 / R11",
+    "shock_spring": "54 N/mm",
+    "sag": "105 mm",
+    "shock_lsc": "12 out",
+    "shock_hsc": "1.25 turns",
+    "shock_reb": "11 out"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing: 2024 450 MX baseline suspension settings",
+    "url": "https://www.keeferinctesting.com/?p=27510",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kx-117",
+   "domain": "setups",
+   "topic": "baseline 2025 (450)",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "A tester baseline for the 2024-2025 KX450: fork 5.1 N/mm with one 5.2 N/mm leg, 2-3 mm height, compression 10 out, rebound 9 out; shock 54 N/mm (56 over 190 lb), 105 mm sag, low-speed 10 out, high-speed 1-1/4 turns out, rebound 12 out.",
+   "values": {
+    "fork_spring": "5.1 + 5.2 N/mm",
+    "fork_height": "2-3 mm",
+    "fork_clicks": "C10 / R9",
+    "shock_spring": "54 N/mm",
+    "sag": "105 mm",
+    "shock_lsc": "10 out",
+    "shock_hsc": "1.25 turns",
+    "shock_reb": "12 out"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing: 2025 450 MX baseline suspension settings",
+    "url": "https://www.keeferinctesting.com/?p=28578",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Applies to 2026 as the bike is unchanged."
+  },
+  {
+   "id": "kx-118",
+   "domain": "setups",
+   "topic": "track setup tweaks 2024+ (450)",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers running the 2024-on KX450 typically set about 102-105 mm sag (105 can feel heavy at the rear), drop the forks 1 mm or until flush, add a few clicks of fork compression, add a chain link, and go to a 51T rear sprocket.",
+   "values": {
+    "sag": "102-105 mm",
+    "sprocket": "51T"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling: 2024 Kawasaki KX450 extended test",
+    "url": "https://ultimatemotorcycling.com/2024/05/22/2024-kawasaki-kx450-extended-test-14-fast-facts/",
+    "date": "2024-05"
+   },
+   "confidence": "medium",
+   "notes": "Combined from Ultimate Motorcycling, MXA and Cycle News."
+  },
+  {
+   "id": "kx-119",
+   "domain": "setups",
+   "topic": "cross-country setup (KX450X)",
+   "applies_to": {
+    "models": [
+     "KX450X"
+    ],
+    "years": [
+     2021,
+     2024
+    ]
+   },
+   "statement": "Tester setups for the KX450X: 2021 fork 4.8 N/mm with compression 8 out, rebound 6 out, on the first line; shock 52 N/mm, 105 mm sag, high-speed 9 out, low-speed 1.5 turns out, rebound 7 out. 2024: rear wheel back about 12 mm, 2 mm fork showing, 105 mm sag, 51T sprocket.",
+   "values": {
+    "fork_2021": "4.8 N/mm, C8 / R6",
+    "shock_2021": "52 N/mm, 105 mm sag",
+    "sprocket_2024": "51T"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2021 Kawasaki KX450X cross-country",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2021-kawasaki-kx450x-cross-country",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "2021 shock clicker labels as printed by the source (HSC in clicks, LSC in turns), possibly swapped. 2024 from MXA 2024 comparison."
+  },
+  {
+   "id": "kx-120",
+   "domain": "setups",
+   "topic": "race setup 2024 (250)",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "One magazine's KX250 setup for the stiff Kayaba fork: 4.7 N/mm springs (stock 4.9), compression and rebound 12 out, 5 mm fork height, drain 30 cc oil per leg (stock 290 cc); shock 54 N/mm, 100-102 mm sag, low-speed 12 out, high-speed 1-7/8 turns out, rebound 13 out.",
+   "values": {
+    "fork_spring": "4.7 N/mm",
+    "fork_oil": "290 cc stock, -30 cc",
+    "fork_height": "5 mm",
+    "shock_spring": "54 N/mm",
+    "sag": "100-102 mm",
+    "shock_hsc": "1.875 turns",
+    "shock_lsc": "12 out",
+    "shock_reb": "13 out"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA race test 2024 Kawasaki KX250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-kawasaki-kx250",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kx-121",
+   "domain": "setups",
+   "topic": "baseline by rider weight (250, 2022-2024)",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "Tester baselines for the Kayaba KX250: 140-170 lb riders use a 4.9 N/mm fork (4.7 for a 140 lb novice), 3-4 mm height, compression 11-12 out, rebound 9-10 out, and a 54 N/mm shock at 103 mm sag; 175-200 lb riders use 4.9-5.0 N/mm fork and a 56 N/mm shock at 102-104 mm sag.",
+   "values": {
+    "light_fork": "4.9 N/mm",
+    "light_shock": "54 N/mm, 103 mm",
+    "heavy_fork": "4.9-5.0 N/mm",
+    "heavy_shock": "56 N/mm, 102-104 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing: 2024 Kawasaki KX250 settings and map",
+    "url": "https://www.keeferinctesting.com/?p=27401",
+    "date": "2023-10"
+   },
+   "confidence": "medium",
+   "notes": "From 2022 and 2024 baselines by the same tester."
+  },
+  {
+   "id": "kx-122",
+   "domain": "setups",
+   "topic": "baseline 2025-2026 (250)",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "A tester baseline for the Showa KX250: fork 5.0 N/mm, flush in the clamps, compression 8 out, rebound 9 out; shock 54 N/mm, 104 mm sag, high-speed 2 turns out, low-speed 11 out, rebound 10 out. Running the forks flush reduces oversteer.",
+   "values": {
+    "fork_spring": "5.0 N/mm",
+    "fork_height": "flush",
+    "fork_clicks": "C8 / R9",
+    "shock_spring": "54 N/mm",
+    "sag": "104 mm",
+    "shock_hsc": "2 turns",
+    "shock_lsc": "11 out",
+    "shock_reb": "10 out"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing: 2026 Kawasaki KX250 baseline settings",
+    "url": "https://www.keeferinctesting.com/?p=29429",
+    "date": "2025-12"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kx-123",
+   "domain": "setups",
+   "topic": "launch-day tweaks (250, 2025)",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Launch testers dropped the 2025 KX250 forks 3 mm for stability, added a click of fork compression for braking bumps and turned rear high-speed compression a quarter turn, at 105 mm sag.",
+   "values": {
+    "fork_drop": "3 mm",
+    "sag": "105 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News: 2025 Kawasaki KX250 review",
+    "url": "https://www.cyclenews.com/2024/11/article/2025-kawasaki-kx250-review/",
+    "date": "2024-11"
+   },
+   "confidence": "low",
+   "notes": ""
+  },
+  {
+   "id": "kx-124",
+   "domain": "drivetrain",
+   "topic": "hydraulic clutch",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X",
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "All these KX models use a Nissin hydraulic clutch with a single coned (Belleville) disc spring instead of coil springs; the KX450 got larger plates and an extra plate for 2021, and the KX250 got it new for 2021 with offset-segment friction plates. Testers report a light, consistent pull.",
+   "values": {
+    "spring": "single coned disc",
+    "kx250_adopted": "2021"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki 2021 KX250 Model Information (press kit PDF)",
+    "url": "https://www.enduro.de/wp-content/uploads/2020/07/21_KX250_Model-Information.pdf",
+    "date": "2020-07"
+   },
+   "confidence": "high",
+   "notes": ""
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "2024 KX450 MSRP",
+   "values": {
+    "Kawasaki release via MPN / MXA / Visordown": "$10,399",
+    "Ultimate Motorcycling extended test": "$10,499"
+   },
+   "spread": "$10,399-10,499",
+   "note": "Possibly a mid-year price change."
+  },
+  {
+   "topic": "2024 KX450X MSRP",
+   "values": {
+    "Kawasaki release via MPN": "$10,599",
+    "MXA, Dirt Bike": "$10,699"
+   },
+   "spread": "$10,599-10,699",
+   "note": ""
+  },
+  {
+   "topic": "2026 KX450 MSRP",
+   "values": {
+    "Kawasaki 2026 release, Cycle News": "$10,499",
+    "Dirt Rider technical overview": "$10,599"
+   },
+   "spread": "$10,499-10,599",
+   "note": ""
+  },
+  {
+   "topic": "2024+ KX450 rake / trail",
+   "values": {
+    "Kawasaki UK, Bike Review AU": "26.6 deg / 115 mm",
+    "Ultimate Motorcycling": "26.6 deg / 4.5 in (114 mm)",
+    "Dirt Rider 2026": "27.0 deg / 4.6 in (117 mm)",
+    "1000PS 2024 (likely old data)": "trail 122 mm"
+   },
+   "spread": "26.6-27.0 deg; 114-122 mm",
+   "note": "122 mm is the 2019-2023 figure."
+  },
+  {
+   "topic": "2025 KX250 fork diameter",
+   "values": {
+    "Kawasaki press release, Ultimate Motorcycling": "48 mm Showa",
+    "Cycle News specs and review": "49 mm Showa"
+   },
+   "spread": "48-49 mm",
+   "note": "OEM release says 48 mm."
+  },
+  {
+   "topic": "KX450 peak power 2021-2023 (rear wheel)",
+   "values": {
+    "Dirt Rider 2021": "52.4 hp @ 9,600",
+    "Dirt Rider 2022": "52.2 hp @ 9,500",
+    "Dirt Rider 2023 (Dynojet 250i)": "51.9 hp",
+    "MXA 2022/2023": "56.9 hp @ 9,500"
+   },
+   "spread": "51.9-56.9 hp",
+   "note": "Different dynos; not comparable across outlets."
+  },
+  {
+   "topic": "KX450 peak power 2024-2026 (rear wheel)",
+   "values": {
+    "MXA 2024 (plug removed)": "58.27 hp",
+    "MXA comparison stock": "57.4 hp / 35.5 lb-ft",
+    "MXA FMF test stock": "57.3 hp / 35.6 lb-ft",
+    "MXA Vortex test stock": "58.01 hp",
+    "Dirt Rider 2025 (Dynojet 250i)": "53.5 hp / 33.0 lb-ft",
+    "Dirt Rider 2026": "53.1 hp @ 9,600 / 33.1 lb-ft @ 6,800",
+    "Dirt Bike 2026 (Pro Circuit dyno)": "57.7 hp @ 9,400 / 34.8 lb-ft @ 6,900"
+   },
+   "spread": "53.1-58.27 hp",
+   "note": "Different dynos and conditions."
+  },
+  {
+   "topic": "KX250 peak power 2021-2024",
+   "values": {
+    "Dirt Bike 2022 (Dynojet at Pro Circuit)": "43.70 hp @ 13,330",
+    "Dirt Rider 2022": "39.5 hp @ 13,700",
+    "Dirt Rider 2024 (Dynojet 250i)": "41.0 hp",
+    "MXA 2024": "45.20 hp / 45.11 hp @ 13,300"
+   },
+   "spread": "39.5-45.20 hp",
+   "note": "Different dynos."
+  },
+  {
+   "topic": "KX250 peak power 2025",
+   "values": {
+    "MXA": "43.7 hp @ 12,500 / 20.48 lb-ft",
+    "Dirt Rider (Dynojet 250i)": "39.3 hp / 18.4 lb-ft",
+    "Dirt Bike (Pro Circuit dyno)": "43.49 @ 12,470 / 20.72 @ 9,240"
+   },
+   "spread": "39.3-43.7 hp",
+   "note": "MXA measured 2025 below 2024; Keefer/PulpMX say dyno numbers favour 2025 over 2024 (their dyno, figures not published)."
+  },
+  {
+   "topic": "KX450 measured / claimed weight 2024+",
+   "values": {
+    "MXA no fuel": "239 lb",
+    "Dirt Rider wet measured": "250 lb",
+    "Kawasaki claimed wet": "248.2 lb (113 kg curb)",
+    "Bike Review AU": "108.1 kg no fuel / 112.6 kg with fuel"
+   },
+   "spread": "239 lb dry - 250 lb wet",
+   "note": "Different fuel states."
+  },
+  {
+   "topic": "FMF exhaust effect on KX450 low end",
+   "values": {
+    "MXA slip-on dyno/track (2024)": "no meaningful low-end gain; +3 hp at 7,500",
+    "Swapmoto (slip-on 2024, full 4.1 system 2025)": "noticeable low-end gain"
+   },
+   "spread": "qualitative",
+   "note": "Different products (slip-on vs full system) and testers."
+  },
+  {
+   "topic": "2019-2023 KX450 stock shock spring",
+   "values": {
+    "Kawasaki 2019 technical data": "52 N/mm",
+    "MXA 2022 race test": "54 N/mm"
+   },
+   "spread": "52-54 N/mm",
+   "note": "May reflect a running change after 2019."
+  },
+  {
+   "topic": "KX450 2024+ second map behaviour",
+   "values": {
+    "Kawasaki": "Mild map in slot 2",
+    "MXA": "custom map saved to slot 2 detuned ~15%"
+   },
+   "spread": "n/a",
+   "note": "Unverified MXA claim."
+  }
+ ],
+ "not_found": [
+  {
+   "item": "KX450 rev limit 2021-2023",
+   "searched": "Kawasaki 2019 data (bikereview), Dirt Rider 2021-2023 dyno pages, MXA 2022/2023 race tests, web search 'KX450 rev limit'",
+   "note": "Black coupler data runs to 11,500 rpm; 2024+ ceiling reported as 11,700 rpm by one AU source only."
+  },
+  {
+   "item": "KX250 rev limit 2025-2026",
+   "searched": "Kawasaki 2025 release, Cycle News, Ultimate Motorcycling, MXA race test, web search",
+   "note": "Not published; MXA says it falls off sharply after 12,500 rpm."
+  },
+  {
+   "item": "2024+ KX450 exhaust valve size, cam lift/duration",
+   "searched": "Kawasaki 2024 release (MPN), Visordown, MXA race test, bikereview AU",
+   "note": "Only 38 mm intake valve and 7 mm cam raise published."
+  },
+  {
+   "item": "2025 KX250 valve sizes and lift",
+   "searched": "Kawasaki 2025 release PDF, Cycle News, MXA",
+   "note": "Only valve angle (-1 deg) and cam height (+10 mm) published."
+  },
+  {
+   "item": "Rideology app 6x6 grid axis breakpoints and adjustment ranges (fuel %, ignition deg)",
+   "searched": "Kawasaki UK page, Kawasaki US accessory page (server error), Vital MX threads, MXA 17-step FI article (2009 KX450F only), Ultimate Motorcycling",
+   "note": "Grid size confirmed; axis rpm/throttle points and limits not published. Keefer and Kawasaki 'race' map values circulated only as images/email."
+  },
+  {
+   "item": "KTRC intervention thresholds and retard amounts per level",
+   "searched": "Kawasaki releases, MXA, Ultimate Motorcycling, Bike Review AU",
+   "note": "Only 'retards ignition when rear wheel speed rises too quickly'."
+  },
+  {
+   "item": "Kawasaki US spec-sheet PDFs (2025 KX450, 2025 KX450SR, 2025 KX250)",
+   "searched": "content.kawasaki.com (robots disallowed), kawasaki.com.au PDF (binary, unreadable), kawasaki.com SR PDF (server error)",
+   "note": "Blocked or unreadable via WebFetch."
+  },
+  {
+   "item": "Vital MX 2021 250 shootout (KX250 dyno/weight)",
+   "searched": "https://www.vitalmx.com/features/2021-Vital-MX-250-Shootout-Full-Test,7187",
+   "note": "Permission/provenance block; not retried."
+  },
+  {
+   "item": "Dirt Rider 2023 KX450 dyno (first URL variant)",
+   "searched": "https://dirtrider.com/kawasaki-kx450-dyno-test-2023",
+   "note": "Blocked; the /tests/ URL variant was read instead."
+  },
+  {
+   "item": "Measured dyno before/after for KX450 aftermarket ECU (Vortex) and for any 2025 KX250 mod",
+   "searched": "MXA Vortex test, Keefer/PulpMX 2025 KX250 mods, web search for KX250 exhaust dyno",
+   "note": "Only track impressions published."
+  },
+  {
+   "item": "Official Kawasaki service bulletins (non-recall) for KX450/KX250 2021-2026",
+   "searched": "Kawasaki recall page, CPSC, ACCC, Vital MX threads, MXA",
+   "note": "Only the 2022 fuel pump and 2025 primary gear recalls found; oil-leak and early-failure reports have no bulletin."
+  },
+  {
+   "item": "KX250X 2025-2026 specific spring rates and weight",
+   "searched": "Kawasaki 2025 release, DirtBikeTest first impression, web search",
+   "note": "Described only as 'softer'."
+  }
+ ],
+ "sources": [
+  {
+   "type": "manufacturer",
+   "name": "Kawasaki 2021 KX250 Model Information (press kit PDF)",
+   "url": "https://www.enduro.de/wp-content/uploads/2020/07/21_KX250_Model-Information.pdf",
+   "date": "2020-07"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: First Look all-new 2021 KX250 & updated KX450",
+   "url": "https://motocrossactionmag.com/first-look-all-new-2021-kawasaki-kx250-updated-kx450-dirt-bikes",
+   "date": "2020-07"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News: New 2024 Kawasaki KX450 and KX450X models",
+   "url": "https://cyclenews.com/2023/06/article/new-2024-kawasaki-kx450-and-kx450x-models-specs",
+   "date": "2023-06"
+  },
+  {
+   "type": "magazine",
+   "name": "Motorcycle & Powersports News: 2024 Kawasaki KX450, KX450X and 50th Anniversary (Kawasaki press release)",
+   "url": "https://www.motorcyclepowersportsnews.com/2024-kawasaki-kx450-kx450x-kx-50th-anniversary-edition-motorcycles/",
+   "date": "2023-06"
+  },
+  {
+   "type": "magazine",
+   "name": "Visordown: 2024 Kawasaki KX450 launches with chassis, engine, electronic updates",
+   "url": "https://www.visordown.com/news/moto/2024-kawasaki-kx450-launches-chassis-engine-electronic-updates",
+   "date": "2023-06"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: How much power does the 2025 Kawasaki KX450 make?",
+   "url": "https://dirtrider.com/tests/kawasaki-kx450-dyno-test-2025",
+   "date": "2024-09"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: How much power does the 2025 Kawasaki KX450SR make?",
+   "url": "https://dirtrider.com/tests/kawasaki-kx450sr-dyno-test-2025",
+   "date": "2025-01"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2023 Kawasaki KX450 dyno test",
+   "url": "https://dirtrider.com/tests/kawasaki-kx450-dyno-test-2023",
+   "date": "2023-02"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2022 Kawasaki KX450 dyno test",
+   "url": "https://dirtrider.com/story/tests/2022-kawasaki-kx450-dyno-test",
+   "date": "2022-03"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2021 Kawasaki KX450 dyno test",
+   "url": "https://dirtrider.com/story/tests/2021-kawasaki-kx450-dyno-test",
+   "date": "2020-12"
+  },
+  {
+   "type": "magazine",
+   "name": "Ultimate Motorcycling: 2024 Kawasaki KX450 extended test",
+   "url": "https://ultimatemotorcycling.com/2024/05/22/2024-kawasaki-kx450-extended-test-14-fast-facts/",
+   "date": "2024-05"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA race test 2024 Kawasaki KX450",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2024-kawasaki-kx450",
+   "date": "2024-03"
+  },
+  {
+   "type": "magazine",
+   "name": "Bike Review (AU): Model update 2019 Kawasaki KX450F (Kawasaki technical data)",
+   "url": "https://bikereview.com.au/model-update-2019-kawasaki-kx450f/",
+   "date": "2018"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA race test 2023 Kawasaki KX450",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-kawasaki-kx450",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA race test 2022 Kawasaki KX450",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2022-kawasaki-kx450",
+   "date": "2022"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum: 19-23 KX450 how to get more power",
+   "url": "https://www.vitalmx.com/comment/8027416",
+   "date": "2024"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Kawasaki Motors Corp. USA press release: 2025 KX250 and KX250X",
+   "url": "https://content2.kawasaki.com/ContentStorage/KMC/PressReleases/783/3d16fe3d-06e3-49b6-961d-f773c3e69f05.pdf",
+   "date": "2024-06"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News: 2025 Kawasaki KX250 price and specs",
+   "url": "https://www.cyclenews.com/2024/06/article/2025-kawasaki-kx250-price-and-specs/",
+   "date": "2024-06"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Kawasaki Motors Corp. USA press release: 2026 KX lineup",
+   "url": "https://content2.kawasaki.com/ContentStorage/KMC/PressReleases/817/a0b84daf-46fa-4183-97cf-704d91f35d47.pdf",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News: 2026 Kawasaki KX450 review",
+   "url": "https://www.cyclenews.com/2025/10/article/2026-kawasaki-kx450-review/",
+   "date": "2025-10"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA race test 2025 Kawasaki KX250",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2025-kawasaki-kx250",
+   "date": "2025"
+  },
+  {
+   "type": "manufacturer",
+   "name": "US CPSC recall 25-238: Kawasaki MY2025 competition and cross-country motorcycles",
+   "url": "https://www.cpsc.gov/Recalls/2025/Kawasaki-Motors-USA-Recalls-Model-Year-2025-Competition-and-Cross-Country-Motorcycles-Due-to-Crash-Hazard",
+   "date": "2025-04"
+  },
+  {
+   "type": "manufacturer",
+   "name": "ACCC Product Safety Australia recall PRA 2025/20520: Kawasaki KX450 / KX450X",
+   "url": "https://www.productsafety.gov.au/search-consumer-product-recalls/kawasaki-kx450-kawasaki-kx450x",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2024 Kawasaki KX250 dyno test",
+   "url": "https://Dirtrider.com/tests/kawasaki-kx250-dyno-test-2024/",
+   "date": "2024-02"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: How much power does the 2025 Kawasaki KX250 make?",
+   "url": "https://dirtrider.com/tests/kawasaki-kx250-dyno-test-2025",
+   "date": "2024-10"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike: 250 motocross bikes on the dyno, the wrap (2025 shootout)",
+   "url": "https://dirtbikemagazine.com/250-motocross-bikes-on-the-dyno-the-wrap/",
+   "date": "2024-12"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA race test 2024 Kawasaki KX250",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2024-kawasaki-kx250",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Keefer Inc. Testing: 2022 Kawasaki KX250 review / suspension settings",
+   "url": "https://www.keeferinctesting.com/2021-11-15-2022-kawasaki-kx250-reviewsuspension-settings/",
+   "date": "2021-11"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum: kx 450 = 350? mapping",
+   "url": "https://www.vitalmx.com/comment/9077186",
+   "date": "2025"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum: 2024 Kawasaki KX450 and KX450X thread",
+   "url": "https://www.vitalmx.com/comment/6340871",
+   "date": "2024-03"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum: 2024 Kawasaki KX450 and KX450X thread (later pages)",
+   "url": "https://www.vitalmx.com/comment/8524141",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike: Twelve 450 motocross bikes on the dyno, the wrap (2026 shootout)",
+   "url": "https://dirtbikemagazine.com/?p=101733",
+   "date": "2025-11"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2026 Kawasaki KX450 technical overview",
+   "url": "https://www.dirtrider.com/dirt-bikes/kawasaki-kx450-technical-information/",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News: 2023 Kawasaki KX250 and KX450 first look",
+   "url": "https://www.cyclenews.com/2022/05/article/2023-kawasaki-kx250-and-kx450-first-look/",
+   "date": "2022-05"
+  },
+  {
+   "type": "magazine",
+   "name": "Motorcycle.com: 2021 Kawasaki KX250X review",
+   "url": "https://www.motorcycle.com/features/2021-kawasaki-kx250x-review.html",
+   "date": "2021"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: 2024 cross-country battle Honda CRF450RX vs Kawasaki KX450X",
+   "url": "https://motocrossactionmag.com/2024-cross-country-battle-honda-crf450rx-vs-kawasaki-kx450x",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA race test 2021 Kawasaki KX450X cross-country",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2021-kawasaki-kx450x-cross-country",
+   "date": "2021"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: Team tested Twisted Development KX450 Vortex ECU",
+   "url": "https://motocrossactionmag.com/mxa-team-tested-twisted-development-kx450-vortex-ecu",
+   "date": "2024-10"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: Team tested FMF Racing 2024 KX450 slip-on muffler",
+   "url": "https://motocrossactionmag.com/mxa-team-tested-fmf-racing-2024-kx450-slip-on-muffler",
+   "date": "2024-07"
+  },
+  {
+   "type": "magazine",
+   "name": "Swapmoto Live: FMF Factory 4.1 system on 2025 KX450",
+   "url": "https://swapmotolive.com/?p=178920",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Keefer Inc. Testing: 2024 Kawasaki KX250 settings and map",
+   "url": "https://www.keeferinctesting.com/?p=27401",
+   "date": "2023-10"
+  },
+  {
+   "type": "magazine",
+   "name": "Keefer Inc. Testing: 2026 Kawasaki KX250 baseline settings",
+   "url": "https://www.keeferinctesting.com/?p=29429",
+   "date": "2025-12"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News: 2025 Kawasaki KX250 review",
+   "url": "https://www.cyclenews.com/2024/11/article/2025-kawasaki-kx250-review/",
+   "date": "2024-11"
+  },
+  {
+   "type": "magazine",
+   "name": "Keefer Inc. Testing: 2024 450 MX baseline suspension settings",
+   "url": "https://www.keeferinctesting.com/?p=27510",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Keefer Inc. Testing: 2022 Kawasaki KX450 baseline settings",
+   "url": "https://www.keeferinctesting.com/2021-10-18-2022-kawasaki-kx450-baseline-settings/",
+   "date": "2021-10"
+  },
+  {
+   "type": "magazine",
+   "name": "Keefer Inc. Testing: 2025 450 MX baseline suspension settings",
+   "url": "https://www.keeferinctesting.com/?p=28578",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: Ask the MXperts, mysterious 2024-2025 KX450 oil leak",
+   "url": "https://motocrossactionmag.com/ask-the-mxperts-mysterious-2024-2025-kawasaki-kx450-oil-leak",
+   "date": "2024-12"
+  },
+  {
+   "type": "manufacturer",
+   "name": "ACCC Product Safety Australia recall PRA 2023/19769: KX252 (KX250) and KX450 manufactured 2022, fuel pump",
+   "url": "https://www.productsafety.gov.au/search-consumer-product-recalls/kawasaki-motorcycle-models-kx252cnfnndnfnn-and-kx450jnfnnknfnn-manufactured-in-2022",
+   "date": "2023"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum: 2022 KX250 and KX450 recall",
+   "url": "https://www.vitalmx.com/comment/5025386",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike: 2024 Kawasaki KX450X full review",
+   "url": "https://dirtbikemagazine.com/2024-kawasaki-kx450x-full-review/",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News: 2021 Kawasaki KX250 review",
+   "url": "https://www.cyclenews.com/2020/10/article/2021-kawasaki-kx250-review/",
+   "date": "2020-10"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Kawasaki UK: KX450 2026 model page",
+   "url": "https://www.kawasaki.co.uk/en/Motorcycles/Motocross-Enduro/KX450_2026.html",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Bike Review (AU): Kawasaki KX450 review, 2024 model launch test",
+   "url": "https://bikereview.com.au/kawasaki-kx450-review-2024-model-launch-test/",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "DirtBikeTest: First impression 2025 Kawasaki KX250X",
+   "url": "https://dirtbiketest.com/fresh-dirt/first-impression-2025-kawasaki-kx250x/",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: First look 2023 Kawasaki KX450 Special Racer with Showa suspension",
+   "url": "https://motocrossactionmag.com/first-look-2023-kawasaki-kx450-special-racer-now-with-showa-suspension",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "DirtBikeTest: Just released 2025 Kawasaki KX450SR",
+   "url": "https://dirtbiketest.com/fresh-dirt/just-released-2025-kawasaki-kx450sr-special-racer/",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Ultimate Motorcycling: 2025 Kawasaki KX250 review, first ride at Washougal",
+   "url": "https://ultimatemotorcycling.com/2024/10/12/2025-kawasaki-kx250-review-first-ride-at-washougal-mx-park/",
+   "date": "2024-10"
+  },
+  {
+   "type": "magazine",
+   "name": "Keefer Inc. Testing / PulpMX: 2025 Kawasaki KX250 mods that work",
+   "url": "https://www.keeferinctesting.com/?p=29072",
+   "date": "2025-07"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike: 2022 250 MX bikes on the dyno, the wrap",
+   "url": "https://dirtbikemagazine.com/2022-250-mx-bikes-on-the-dyno-the-wrap/",
+   "date": "2021-10"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2022 Kawasaki KX250 dyno test",
+   "url": "https://dirtrider.com/story/tests/kawasaki-kx250-dyno-test-2022",
+   "date": "2022-04"
+  }
+ ]
+}

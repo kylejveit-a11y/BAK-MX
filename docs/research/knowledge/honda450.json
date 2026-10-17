@@ -1,0 +1,4033 @@
+{
+ "slice": "Honda CRF450R and CRF450RX 2021-2026 (2021-2024 chassis and 2025-2026 updated chassis) - identity, engine architecture, power and feel, ECU/electronics, engine mods, chassis, suspension, known issues, setups; with RX vs R differences",
+ "platform": {
+  "make": "Honda",
+  "models": [
+   "CRF450R",
+   "CRF450RX"
+  ],
+  "years": [
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ]
+ },
+ "records": [
+  {
+   "id": "h45-001",
+   "domain": "identity",
+   "topic": "platform generations",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Honda's 2021-2026 CRF450R covers two chassis generations on one engine family: an all-new 2021 frame, swingarm and bodywork (2021-2024), then a frame with about 70% new parts plus new linkage and suspension for 2025-2026. The 96 x 62.1 mm Unicam engine dates back to the 2017 redesign and was refined in 2021, 2023 and 2025.",
+   "values": {
+    "gen_A": "MY2021-2024",
+    "gen_B": "MY2025-2026",
+    "engine_family": "2017-on Unicam 449.7/449.8 cc"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda Canada press release: 2021 Honda CRF450R",
+    "url": "https://hondanews.ca/en-CA/hci-power/releases/release-d0fda2b79d2ee0aaa3164695841470b1054380cf-2021-honda-crf450r",
+    "date": "2020-07"
+   },
+   "confidence": "high",
+   "notes": "Honda's own history: 2017 ground-up redesign, 2018 electric start, 2019 HRC head + launch control, 2020 HSTC, 2021 new chassis. 2025 frame detail from Honda 2025 Features & Benefits. A new-generation 2027 CRF450R (new engine and frame) is outside this slice."
+  },
+  {
+   "id": "h45-002",
+   "domain": "identity",
+   "topic": "2021 model year changes",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "For 2021 Honda redid everything except the wheels and the engine's core: a new frame 700 g lighter with 20% less lateral rigidity, a narrower swingarm, a hydraulic clutch with 8 plates, a single exhaust replacing the twin mufflers (1.24 kg lighter), a 4.1 L airbox, a 46 mm throttle body with a 60-degree injector, 70 mm slimmer bodywork, and 5 mm more fork stroke. Claimed curb weight fell 1.5 kg to 110.5 kg.",
+   "values": {
+    "frame_weight": "8.4 kg (-0.7 kg)",
+    "lateral_rigidity": "-20%",
+    "exhaust_weight": "3.84 kg vs 5.08 kg",
+    "airbox": "4.1 L clean side (+1.8 L)",
+    "throttle_body": "46 mm",
+    "curb_weight": "110.5 kg (243.6 lb)",
+    "fork_stroke": "310 mm (+5 mm)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda Canada press release: 2021 Honda CRF450R",
+    "url": "https://hondanews.ca/en-CA/hci-power/releases/release-d0fda2b79d2ee0aaa3164695841470b1054380cf-2021-honda-crf450r",
+    "date": "2020-07"
+   },
+   "confidence": "high",
+   "notes": "Honda Canada press release, specs marked provisional."
+  },
+  {
+   "id": "h45-003",
+   "domain": "identity",
+   "topic": "2021 claimed geometry change",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Honda steepened the 2021 rake from 27.4 to 27.1 degrees and cut trail from 116 to 114 mm, with a 1,481 mm wheelbase, 336 mm ground clearance (+8 mm) and a seat 10 mm lower at the rear.",
+   "values": {
+    "rake": "27.1 deg (was 27.4)",
+    "trail": "114 mm (was 116)",
+    "wheelbase": "1,481 mm",
+    "ground_clearance": "336 mm",
+    "seat_height": "965 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda Canada press release: 2021 Honda CRF450R",
+    "url": "https://hondanews.ca/en-CA/hci-power/releases/release-d0fda2b79d2ee0aaa3164695841470b1054380cf-2021-honda-crf450r",
+    "date": "2020-07"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "h45-004",
+   "domain": "identity",
+   "topic": "2022 model year changes",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "2022 was a carry-over with the corrected mid-2021 ECU mapping made standard and firmer fork and shock valving; the RX fork oil dropped from 388 to 380 cc and shock spring preload rose from 6.1 to 6.5 mm.",
+   "values": {
+    "rx_fork_oil": "380 cc (was 388)",
+    "rx_shock_preload": "6.5 mm / 325 N (was 6.1 mm / 305 N)",
+    "rx_shock_oil": "422 cc"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21: First look 2022 Honda CRF450RX",
+    "url": "https://enduro21.com/en/bikes/latest/first-look-2022-honda-crf450rx",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "R-side changes from Motocross Action 2022 race test and 2021 mapping-glitch article; RX numbers from Enduro21 first look (Honda Europe data)."
+  },
+  {
+   "id": "h45-005",
+   "domain": "identity",
+   "topic": "2023 model year changes",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "For 2023 Honda aimed the engine at low-end torque: the throttle body shrank from 46 to 44 mm, the intake port narrowed, the intake funnel and air boot got longer, the cam and valve springs changed, and the ECU was remapped. Honda claims 10.7% more torque at 5,000 rpm with peak power down 5%. The frame got thicker sections, steel head stays replaced aluminium, and the shock spring went up.",
+   "values": {
+    "throttle_body": "44 mm (was 46)",
+    "torque_at_5000rpm": "+10.7% (claim)",
+    "peak_power": "-5% (claim)",
+    "head_stays": "steel (was aluminium)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21: First look 2023 Honda CRF450RX",
+    "url": "https://enduro21.com/en/bikes/latest/first-look-2023-honda-crf450rx",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Enduro21 first look relays Honda Europe press data; shared by R and RX."
+  },
+  {
+   "id": "h45-006",
+   "domain": "identity",
+   "topic": "2023 50th Anniversary Edition",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "A 2023 50th Anniversary CRF450R copied 1980s-90s CR styling (blue seat, white plates, gold rims and bar, grey clamps) with the same performance as the standard bike, at $9,899 versus $9,599.",
+   "values": {
+    "msrp_anniversary": "$9,899",
+    "msrp_standard": "$9,599"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-honda-crf450",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Prices as listed by MXA; cosmetics from Cycle News First Look."
+  },
+  {
+   "id": "h45-007",
+   "domain": "identity",
+   "topic": "2024 model year changes",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "2024 was a carry-over of the 2023 engine and chassis; the US standard bike rose to $9,699 and the RX to $9,999.",
+   "values": {
+    "msrp_r": "$9,699",
+    "msrp_rx": "$9,999",
+    "msrp_works_edition": "$12,499"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-honda-crf450",
+    "date": "2023-11"
+   },
+   "confidence": "high",
+   "notes": "Magazine reporting of Honda pricing. Honda's 2024 Features page also mentions a new handlebar map switch and one-piece shrouds."
+  },
+  {
+   "id": "h45-008",
+   "domain": "identity",
+   "topic": "2025 model year changes",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "For 2025 Honda fitted a frame with about 70% new parts (+8% torsional rigidity, +4% vertical), relocated subframe mounts, new triple clamps, fork tubes and front axle, a one-piece linkage 11% stiffer, new fork and shock internals, a re-routed airbox, a longer, straighter header and new ECU maps. Removing the shock no longer needs the subframe off.",
+   "values": {
+    "frame_new_parts": "70%",
+    "torsional_rigidity": "+8%",
+    "vertical_rigidity": "+4%",
+    "torsional_lateral_ratio": "+5%",
+    "linkage_rigidity": "+11%"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "American Honda: 2025 Honda CRF450R Features & Benefits",
+    "url": "https://hondanews.com/en-US/releases/release-70527d767f112a34ec2e42bfb5060b28-2025-honda-crf450r",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "American Honda Features & Benefits. European release (TMX) also mentions a redesigned, more rigid crankshaft with lower inertia; US release does not."
+  },
+  {
+   "id": "h45-009",
+   "domain": "identity",
+   "topic": "2026 model year",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The 2026 CRF450R and CRF450RX carry over the 2025 bikes unchanged apart from graphics; the R stayed at $9,699 and the Works Edition was $12,599.",
+   "values": {
+    "msrp_r_2026": "$9,699",
+    "msrp_works_edition_2026": "$12,599"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda Powersports CRF450R model page (2026/2027 pricing)",
+    "url": "https://powersports.honda.com/motorcycle/motocross/crf450r/2025/crf450r",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "Carry-over status from Motocross Action (2026 called a clone of the 2025). Pricing from Honda's site."
+  },
+  {
+   "id": "h45-010",
+   "domain": "identity",
+   "topic": "next generation (2027)",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The 2026 is the last year of this generation: the 2027 CRF450R is a new design claimed nearly 10 lb lighter, with about 6 lb taken from the engine, a 1.9-gallon tank and a new Unicam head with rockers on a common axis.",
+   "values": {
+    "weight_change_2027": "about -10 lb",
+    "engine_weight_change": "about -6 lb",
+    "tank_2027": "1.9 gal",
+    "msrp_2027": "$10,099"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News: Video - 2027 Honda CRF450R First Ride Test",
+    "url": "https://www.cyclenews.com/2026/08/article/video-2027-honda-crf450r-first-ride-test/",
+    "date": "2026-08"
+   },
+   "confidence": "medium",
+   "notes": "Context only, 2027 is outside this slice. Head detail and price from Honda site."
+  },
+  {
+   "id": "h45-011",
+   "domain": "identity",
+   "topic": "Works Edition variant (CRF450RWE)",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "A Works Edition of the CRF450R is sold each year with hand-polished ports, its own ECU settings, a factory-fitted aftermarket titanium full exhaust, an aftermarket clutch basket and (2025) an aftermarket air filter, for about $2,800-2,900 more than the standard bike.",
+   "values": {
+    "price_premium_2023": "about $2,800",
+    "msrp_2025_2026": "$12,599"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: How much power does the 2025 Honda CRF450RWE make?",
+    "url": "https://dirtrider.com/tests/honda-crf450rwe-dyno-test-2025",
+    "date": "2025-01"
+   },
+   "confidence": "high",
+   "notes": "Parts: Yoshimura RS-12, Hinson basket/cover, Twin Air filter. Recorded under CRF450R because the slice model list has no RWE. Europe got the RWE for 2025 with unique start-mode settings (TMX)."
+  },
+  {
+   "id": "h45-012",
+   "domain": "identity",
+   "topic": "recall: 2021 drive chain",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Honda recalled certain 2021 CRF450Rs in April 2021 because the drive chain could break; dealers replace the chain free.",
+   "values": {
+    "recall_date": "2021-04-07",
+    "remedy": "drive chain replacement"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "American Honda: Honda Announces Recall of 2021 CRF450R",
+    "url": "https://hondanews.com/en-US/releases/release-32797eaea7316f1bed4bfcd27904228e-honda-announces-recall-of-2021-crf450r",
+    "date": "2021-04"
+   },
+   "confidence": "high",
+   "notes": "Unit count and VIN range not published in the release."
+  },
+  {
+   "id": "h45-013",
+   "domain": "identity",
+   "topic": "recall: 2025-2026 handlebar clamp",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "US recall 26-458 (April 2026) covers about 12,600 2025-2026 CRF250R/RX/RWE and CRF450R/RX/RWE bikes because the handlebar clamp can let the bar rotate; owners should stop riding until a dealer inspects and, if needed, replaces the clamp.",
+   "values": {
+    "recall_number": "CPSC 26-458",
+    "units_us": "about 12,600 (all affected 250/450 models)",
+    "date": "2026-04-30",
+    "incidents": "1 crash, no injuries"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "US CPSC Recall 26-458: American Honda off-road motorcycles (handlebar clamp)",
+    "url": "https://cpsc.gov/Recalls/2026/American-Honda-Motor-Recalls-Off-Road-Motorcycles-Due-to-Risk-of-Serious-Injury-or-Death-Due-to-Crash-Hazard",
+    "date": "2026-04"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "h45-014",
+   "domain": "identity",
+   "topic": "service bulletin: 2021 ECU reflash",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Honda issued a dealer bulletin with a free ECU reflash for 2021 CRF450R, RX and Works Edition bikes that popped, spat and flamed out, mostly in maps 2 and 3; it takes under 5 minutes with Honda's dealer tool.",
+   "values": {
+    "labour_allowance": "0.2 h",
+    "cost_to_owner": "free"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: Tech Spec - A brief history of the 2021 Honda CRF450 mapping glitch",
+    "url": "https://motocrossactionmag.com/mxa-tech-spec-a-brief-history-of-the-2021-honda-crf450-mapping-glitch",
+    "date": "2021-06"
+   },
+   "confidence": "high",
+   "notes": "Magazine report of Honda's dealer bulletin; bulletin number not published. Map 1 base map was changed and maps 2/3 follow from it."
+  },
+  {
+   "id": "h45-015",
+   "domain": "engine_architecture",
+   "topic": "bore, stroke and displacement",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The engine is a 96.0 x 62.1 mm single of 449.7-449.8 cc, unchanged across 2021-2026.",
+   "values": {
+    "bore": "96.0 mm",
+    "stroke": "62.1 mm",
+    "displacement": "449.7 cc (2021 spec) / 449.8 cc (2024-2025 spec)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "American Honda: 2024 Honda CRF450R Specifications",
+    "url": "https://hondanews.com/en-US/powersports/releases/2024-honda-crf450r-specifications",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Honda lists 449.7 cc in 2021 and 449.8 cc from 2024 with identical bore/stroke; rounding difference."
+  },
+  {
+   "id": "h45-016",
+   "domain": "engine_architecture",
+   "topic": "bore/stroke ratio",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Worked out from Honda's bore and stroke, the bore is 1.55 times the stroke, a very oversquare layout that favours revs.",
+   "values": {
+    "bore_stroke_ratio": "1.546"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation from published inputs",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "high",
+   "notes": "96.0 / 62.1 = 1.546."
+  },
+  {
+   "id": "h45-017",
+   "domain": "engine_architecture",
+   "topic": "displacement check",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Worked out from bore and stroke, the swept volume is about 449.5 cc, matching Honda's 449.7-449.8 cc within rounding.",
+   "values": {
+    "calculated_displacement": "449.5 cc"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation from published inputs",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "high",
+   "notes": "pi/4 x 9.60^2 x 6.21 cm = 72.38 x 6.21 = 449.5 cc."
+  },
+  {
+   "id": "h45-018",
+   "domain": "engine_architecture",
+   "topic": "compression ratio",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Honda lists a 13.5:1 compression ratio for every year 2021-2026.",
+   "values": {
+    "compression_ratio": "13.5:1"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "American Honda: 2024 Honda CRF450R Specifications",
+    "url": "https://hondanews.com/en-US/powersports/releases/2024-honda-crf450r-specifications",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "h45-019",
+   "domain": "engine_architecture",
+   "topic": "valvetrain layout and valve material",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "It is a Unicam single-overhead-cam four-valve head with 38 mm titanium intake valves and 31 mm steel exhaust valves; the decompressor counterweight sits on the left end of the cam.",
+   "values": {
+    "intake_valves": "2 x 38 mm titanium",
+    "exhaust_valves": "2 x 31 mm steel",
+    "cam": "single overhead (Unicam)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "American Honda: 2024 Honda CRF450R Specifications",
+    "url": "https://hondanews.com/en-US/powersports/releases/2024-honda-crf450r-specifications",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Same valve sizes listed in 2021 and 2024 Honda spec sheets."
+  },
+  {
+   "id": "h45-020",
+   "domain": "engine_architecture",
+   "topic": "how Unicam works and why",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "In Honda's Unicam one low camshaft works the intake valves through finger followers and the exhaust valves through a rocker, keeping the head short and light so it fits under the frame spars and allowing a narrow valve angle and compact chamber.",
+   "values": {
+    "cam_count": "1"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Motofomo: Honda Unicam explained",
+    "url": "https://motofomo.com/honda-unicam-engine-design/",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": "General explainer, not a Honda document; the 2017+ CRF450R intake finger-follower detail is stated generally ('later CRF450R engines use a finger rocker on the intake side'). Honda 2017 features release was blocked (permission timeout)."
+  },
+  {
+   "id": "h45-021",
+   "domain": "engine_architecture",
+   "topic": "throttle body",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The throttle body is 46 mm on 2021-2022 bikes and 44 mm from 2023 on, a change made for smoother low-speed delivery.",
+   "values": {
+    "throttle_body_2021_2022": "46 mm",
+    "throttle_body_2023_2026": "44 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "American Honda: 2021 Honda CRF450R Specifications",
+    "url": "https://hondanews.com/en-US/powersports/releases/release-6bb3522506340b3cd1e6369a9f011e40-2021-honda-crf450r-specifications",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "2024 spec sheet lists 44 mm."
+  },
+  {
+   "id": "h45-022",
+   "domain": "engine_architecture",
+   "topic": "intake and airbox",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The downdraft intake uses a 4.1-litre clean-side air boot, a narrow intake port with a long funnel (narrower and longer from 2023), and an injector aimed at 60 degrees toward the throttle butterfly; for 2025 the airbox was redesigned with a straighter path and a triangular filter replacing the upside-down filter.",
+   "values": {
+    "airbox_clean_volume": "4.1 L",
+    "injector_angle": "60 deg (was 30 deg before 2021)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "American Honda: 2025 Honda CRF450R Features & Benefits",
+    "url": "https://hondanews.com/en-US/releases/release-70527d767f112a34ec2e42bfb5060b28-2025-honda-crf450r",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Upside-down filter replacement for 2025 from Motocross Action 2025 race test."
+  },
+  {
+   "id": "h45-023",
+   "domain": "engine_architecture",
+   "topic": "exhaust layout",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Since 2021 the engine uses a single oval, centrally placed exhaust port and one header and muffler (the twin-muffler system was dropped); the 2025 header is longer and straighter and the muffler has dual resonators in A6061-T6 aluminium.",
+   "values": {
+    "system_weight_2021": "3.84 kg",
+    "muffler_material": "A6061-T6 aluminium"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "American Honda: 2025 Honda CRF450R Features & Benefits",
+    "url": "https://hondanews.com/en-US/releases/release-70527d767f112a34ec2e42bfb5060b28-2025-honda-crf450r",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "2021 weight from Honda Canada 2021 release."
+  },
+  {
+   "id": "h45-024",
+   "domain": "engine_architecture",
+   "topic": "2023 cam and valve springs",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2023 update brought a new cam profile (mainly intake lobe) and new valve springs with revised valve timing aimed at low-end torque. Lift and duration figures were not published.",
+   "values": {
+    "cam_change": "intake-focused lobe profile, revised valve timing"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21: First look 2023 Honda CRF450RX",
+    "url": "https://enduro21.com/en/bikes/latest/first-look-2023-honda-crf450rx",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Intake-lobe emphasis per Motocross Action 2023 race test."
+  },
+  {
+   "id": "h45-025",
+   "domain": "engine_architecture",
+   "topic": "2025 crankshaft",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Honda Europe says the 2025 crank is stiffer around the crank pin with a revised moment of inertia so it spins up faster; Honda's US release does not mention a crank change.",
+   "values": {
+    "crank_change": "more rigid at crank pin, revised inertia (EU claim)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "TMX News: Honda launches 2025 CRF range",
+    "url": "https://tmxnews.co.uk/news/enduro/honda-launches-2025-crf-range",
+    "date": "2024-05"
+   },
+   "confidence": "low",
+   "notes": "Conflicting coverage; one US magazine photo caption says only exhaust, airbox and mapping changed."
+  },
+  {
+   "id": "h45-026",
+   "domain": "engine_architecture",
+   "topic": "lubrication",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The piston is cooled by a five-hole oil jet and the engine uses a dual 12 mm drum-type scavenge pump.",
+   "values": {
+    "piston_oil_jet": "5 holes",
+    "scavenge_pump": "dual 12 mm drum"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "American Honda: 2024 Honda CRF450R Features & Benefits",
+    "url": "https://hondanews.com/en-US/powersports/releases/2024-honda-crf450r-features-benefits",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "h45-027",
+   "domain": "engine_architecture",
+   "topic": "rev limit",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On a magazine dyno the 2025 Works Edition revved to about 11,500 rpm; Honda does not publish a rev limit for the CRF450R.",
+   "values": {
+    "approx_rev_limit": "about 11,500 rpm (Works Edition, dyno)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: How much power does the 2025 Honda CRF450RWE make?",
+    "url": "https://dirtrider.com/tests/honda-crf450rwe-dyno-test-2025",
+    "date": "2025-01"
+   },
+   "confidence": "low",
+   "notes": "Stock R limit not stated; Works Edition has its own ECU settings."
+  },
+  {
+   "id": "h45-028",
+   "domain": "engine_architecture",
+   "topic": "mean piston speed",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Worked out from the 62.1 mm stroke, mean piston speed is about 18.8 m/s at the 9,100 rpm power peak and about 23.8 m/s at an 11,500 rpm limit.",
+   "values": {
+    "at_9100rpm": "18.8 m/s",
+    "at_11500rpm": "23.8 m/s"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation from published inputs",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "medium",
+   "notes": "2 x 62.1 mm x rpm / 60,000. 9,100 rpm is a measured 2023 power peak; 11,500 rpm is the Works Edition dyno limit, not an OEM figure."
+  },
+  {
+   "id": "h45-029",
+   "domain": "engine_architecture",
+   "topic": "clutch",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The hydraulic clutch introduced in 2021 has 8 plates (was 7) and 6 springs, 27% more capacity, a 10% lighter pull and 85% less slip at peak power than the old cable clutch.",
+   "values": {
+    "plates": "8",
+    "springs": "6",
+    "capacity": "+27%",
+    "lever_effort": "-10%"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda Canada press release: 2021 Honda CRF450R",
+    "url": "https://hondanews.ca/en-CA/hci-power/releases/release-d0fda2b79d2ee0aaa3164695841470b1054380cf-2021-honda-crf450r",
+    "date": "2020-07"
+   },
+   "confidence": "high",
+   "notes": "Spring count from Cycle News 2025 RX spec and MXA."
+  },
+  {
+   "id": "h45-030",
+   "domain": "power_feel",
+   "topic": "dyno 2021 Works Edition",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "On a magazine dyno the 2021 Works Edition made 56.7 hp at 9,600 rpm and 34.8 lb-ft at 7,100 rpm, the most peak power of any 450 tested that year.",
+   "values": {
+    "peak_hp": "56.7 hp @ 9,600 rpm",
+    "peak_torque": "34.8 lb-ft @ 7,100 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2021 Honda CRF450RWE Dyno Test",
+    "url": "https://dirtrider.com/story/tests/2021-honda-crf450rwe-dyno-test",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider in-house dyno (Dynojet 250i per their 2023 tests). Works Edition variant of the CRF450R."
+  },
+  {
+   "id": "h45-031",
+   "domain": "power_feel",
+   "topic": "dyno 2021 shootout",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "In a 2021 shootout dyno session the CRF450R made 57.54 hp at 9,500 rpm and 35.8 lb-ft at 7,500 rpm, the highest of five 450s.",
+   "values": {
+    "peak_hp": "57.54 hp @ 9,500 rpm",
+    "peak_torque": "35.8 lb-ft @ 7,500 rpm",
+    "measured_wet_weight": "242 lb (119 front / 123 rear)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX: 2021 Vital MX 450 Shootout Full Test",
+    "url": "https://vitalmx.com/features/Vital-MX-450-Shootout-Full-Test,7152",
+    "date": "2020-10"
+   },
+   "confidence": "high",
+   "notes": "Vital MX shootout, dyno at Race Tech Corona, dyno model not named. Pre-reflash 2021 map."
+  },
+  {
+   "id": "h45-032",
+   "domain": "power_feel",
+   "topic": "dyno 2021 CRF450RX",
+   "applies_to": {
+    "models": [
+     "CRF450RX"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "On a magazine dyno the 2021 CRF450RX made 53.2 hp at 9,400 rpm and 34.3 lb-ft at 7,000 rpm, about 0.5 hp less but 1.1 lb-ft more than the 2020 RX.",
+   "values": {
+    "peak_hp": "53.2 hp @ 9,400 rpm",
+    "peak_torque": "34.3 lb-ft @ 7,000 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2021 Honda CRF450RX Dyno Test",
+    "url": "https://dirtrider.com/story/tests/2021-honda-crf450rx-dyno-test",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider in-house dyno, Dunlop D404 street tire on rear. The 2021 standard R dyno article body did not render."
+  },
+  {
+   "id": "h45-033",
+   "domain": "power_feel",
+   "topic": "dyno 2022",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "On a magazine Dynojet the 2022 CRF450R made 53.8 hp at 9,300 rpm and 34.1 lb-ft at 7,200 rpm, third in peak power behind the KTM and GasGas.",
+   "values": {
+    "peak_hp": "53.8 hp @ 9,300 rpm",
+    "peak_torque": "34.1 lb-ft @ 7,200 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2022 Honda CRF450R Dyno Test",
+    "url": "https://dirtrider.com/story/tests/2022-honda-crf450r-dyno-test",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider in-house dyno; map not stated (assume standard)."
+  },
+  {
+   "id": "h45-034",
+   "domain": "power_feel",
+   "topic": "dyno 2022 (second source)",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "A different magazine dyno measured the 2022 CRF450R at 58.20 hp at 9,300 rpm and the 2022 Works Edition at 60.01 hp at 9,600 rpm.",
+   "values": {
+    "peak_hp_r": "58.20 hp @ 9,300 rpm",
+    "peak_hp_works_edition": "60.01 hp @ 9,600 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-honda-crf450",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Motocross Action dyno (type not named); figures quoted in its 2023 race test for comparison."
+  },
+  {
+   "id": "h45-035",
+   "domain": "power_feel",
+   "topic": "dyno 2023",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "On a magazine Dynojet 250i the 2023 CRF450R made 52.5 hp at 9,100 rpm and 35.1 lb-ft at 6,600 rpm: fifth in peak power but first in peak torque among the 450s tested.",
+   "values": {
+    "peak_hp": "52.5 hp @ 9,100 rpm",
+    "peak_torque": "35.1 lb-ft @ 6,600 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2023 Honda CRF450R Dyno Test",
+    "url": "https://dirtrider.com/tests/honda-crf450r-dyno-test-2023",
+    "date": "2023-02"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider Dynojet 250i rear-wheel dyno, D404 street tire; map not stated."
+  },
+  {
+   "id": "h45-036",
+   "domain": "power_feel",
+   "topic": "dyno 2023 by map",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "A second magazine dyno measured the 2023 CRF450R at 56.3 hp at 9,100 rpm, with map peaks of 56.88 hp (Standard), 55.97 hp (Smooth) and 56.24 hp (Aggressive). It beat the 2022 from 4,500 to 7,000 rpm, matched it to 8,200 and fell behind above 8,300 rpm.",
+   "values": {
+    "peak_hp": "56.3 hp @ 9,100 rpm",
+    "map1_standard": "56.88 hp",
+    "map2_smooth": "55.97 hp",
+    "map3_aggressive": "56.24 hp",
+    "vs_2022": "stronger 4,500-7,000 rpm, weaker above 8,300 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-honda-crf450",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Motocross Action dyno, type not named; the headline 56.3 and map peaks are unreconciled in the source."
+  },
+  {
+   "id": "h45-037",
+   "domain": "power_feel",
+   "topic": "dyno 2023 CRF450RX",
+   "applies_to": {
+    "models": [
+     "CRF450RX"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "On a magazine dyno the 2023 CRF450RX made 51.0 hp at 9,300 rpm and 34.1 lb-ft at 6,800 rpm, 2.2 hp and 0.2 lb-ft below the 2021 RX.",
+   "values": {
+    "peak_hp": "51.0 hp @ 9,300 rpm",
+    "peak_torque": "34.1 lb-ft @ 6,800 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2023 Honda CRF450RX Dyno Test",
+    "url": "https://www.dirtrider.com/tests/honda-crf450rx-dyno-test-2023",
+    "date": "2023-09"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider in-house dyno; map not stated."
+  },
+  {
+   "id": "h45-038",
+   "domain": "power_feel",
+   "topic": "dyno 2023 Works Edition",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "On a magazine Dynojet 250i the 2023 Works Edition made 54.7 hp and 34.7 lb-ft, about 2.2 hp more and 0.4 lb-ft less than the standard 2023 bike.",
+   "values": {
+    "peak_hp": "54.7 hp",
+    "peak_torque": "34.7 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: How much power does the 2023 Honda CRF450RWE make?",
+    "url": "https://dirtrider.com/tests/honda-crf450rwe-dyno-test-2023",
+    "date": "2023-11"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider Dynojet 250i, D404 tire. Works Edition variant."
+  },
+  {
+   "id": "h45-039",
+   "domain": "power_feel",
+   "topic": "dyno 2024 by map",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "A magazine dyno measured the 2024 CRF450R at 56.9 hp at 9,100 rpm in the Standard map; the Smooth map gave up about 1 hp across the range and the Aggressive map made less power everywhere.",
+   "values": {
+    "peak_hp_standard": "56.9 hp @ 9,100 rpm",
+    "peak_hp_smooth": "55.97 hp"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-honda-crf450",
+    "date": "2023-11"
+   },
+   "confidence": "medium",
+   "notes": "Motocross Action dyno, type not named. Smooth figure repeats the 2023 number exactly."
+  },
+  {
+   "id": "h45-040",
+   "domain": "power_feel",
+   "topic": "dyno 2025",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On a magazine dyno the 2025 CRF450R made 51.1 hp and 32.9 lb-ft, not the peak leader but praised for one of the most usable deliveries in the class.",
+   "values": {
+    "peak_hp": "51.1 hp",
+    "peak_torque": "32.9 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: How much power does the 2025 Honda CRF450R make?",
+    "url": "https://dirtrider.com/tests/honda-crf450r-dyno-test-2025",
+    "date": "2024-09"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider in-house dyno; rpm and map not stated."
+  },
+  {
+   "id": "h45-041",
+   "domain": "power_feel",
+   "topic": "dyno 2025 (second source)",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "A second magazine dyno measured the 2025 CRF450R at 55.34 hp, the lowest peak of the 2025 450s it tested.",
+   "values": {
+    "peak_hp": "55.34 hp"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf450",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Motocross Action dyno, type not named."
+  },
+  {
+   "id": "h45-042",
+   "domain": "power_feel",
+   "topic": "dyno 2025 CRF450RX",
+   "applies_to": {
+    "models": [
+     "CRF450RX"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On a magazine dyno the 2025 CRF450RX made 52.1 hp and 34.5 lb-ft, 1.1 hp and 0.4 lb-ft more than the previous RX.",
+   "values": {
+    "peak_hp": "52.1 hp",
+    "peak_torque": "34.5 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: How much power does the 2025 Honda CRF450RX make?",
+    "url": "https://dirtrider.com/tests/honda-crf450rx-dyno-test-2025",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider in-house dyno; same dyno read the 2025 R at 51.1 hp."
+  },
+  {
+   "id": "h45-043",
+   "domain": "power_feel",
+   "topic": "dyno 2025 Works Edition",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On a magazine dyno the 2025 Works Edition made 54.6 hp and 34.4 lb-ft, out-pulling the standard bike from 3,000-3,400 rpm and from 4,200 rpm to the roughly 11,500 rpm limit.",
+   "values": {
+    "peak_hp": "54.6 hp",
+    "peak_torque": "34.4 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: How much power does the 2025 Honda CRF450RWE make?",
+    "url": "https://dirtrider.com/tests/honda-crf450rwe-dyno-test-2025",
+    "date": "2025-01"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider in-house dyno. Works Edition variant."
+  },
+  {
+   "id": "h45-044",
+   "domain": "power_feel",
+   "topic": "dyno 2026 12-bike shootout",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "On a tuner's dyno in a 12-bike shootout the CRF450R made 55.3 hp at 8,700 rpm and 36.5 lb-ft at 7,000 rpm: mid-to-low on peak power but tied for the most torque, with the lowest power-peak rpm of all twelve.",
+   "values": {
+    "peak_hp": "55.3 hp @ 8,700 rpm",
+    "peak_torque": "36.5 lb-ft @ 7,000 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: Twelve 450 motocross bikes on the dyno - the wrap",
+    "url": "https://dirtbikemagazine.com/?p=101733",
+    "date": "2025-11"
+   },
+   "confidence": "high",
+   "notes": "Dirt Bike Magazine shootout on Pro Circuit's dyno (model not named), standard map, air-density corrected. Published Nov 2025, assumed MY2026 (2026 = 2025 carry-over)."
+  },
+  {
+   "id": "h45-045",
+   "domain": "power_feel",
+   "topic": "same-dyno comparisons",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Worked out from one magazine's Dynojet runs: from 2022 to 2023 peak power fell 1.3 hp while peak torque rose 1.0 lb-ft and arrived 600 rpm sooner; in 2025 the Works Edition made 3.5 hp more than the standard R and the RX made 1.0 hp more than the R.",
+   "values": {
+    "2023_vs_2022_hp": "-1.3 hp",
+    "2023_vs_2022_torque": "+1.0 lb-ft, peak 7,200 -> 6,600 rpm",
+    "2025_works_vs_r": "+3.5 hp, +1.5 lb-ft",
+    "2025_rx_vs_r": "+1.0 hp, +1.6 lb-ft"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation from published inputs",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "medium",
+   "notes": "Dirt Rider figures: 2022 53.8 hp/34.1; 2023 52.5/35.1; 2025 R 51.1/32.9; RWE 54.6/34.4; RX 52.1/34.5. Only same-dyno values compared."
+  },
+  {
+   "id": "h45-046",
+   "domain": "power_feel",
+   "topic": "power at torque peak",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Worked out from the 2023 Dynojet result, the engine is already making about 44 hp at its 6,600 rpm torque peak, so most of its usable shove sits between 6,000 and 9,000 rpm.",
+   "values": {
+    "hp_at_6600": "about 44.1 hp"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation from published inputs",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "medium",
+   "notes": "hp = lb-ft x rpm / 5,252 = 35.1 x 6,600 / 5,252 = 44.1."
+  },
+  {
+   "id": "h45-047",
+   "domain": "power_feel",
+   "topic": "2021-2022 character",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "Testers found the 2021-2022 engine strong and fast-revving from early on and among the strongest on top, but with a low-rpm stumble or gurgle (worse in map 1 before the reflash) and a steep surge around 7,000 rpm that some found hard to manage.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: Rating the 2021 450 MX bikes so far - the wrap",
+    "url": "https://dirtbikemagazine.com/amp/rating-the-2021-450-mx-bikes-so-far-the-wrap/",
+    "date": "2020-10"
+   },
+   "confidence": "medium",
+   "notes": "Combined from Dirt Bike 2021 wrap, Vital MX 2021 shootout comments and Dirt Bike 2023 shootout (describing the 2022). Ratings: peak power 5/5, low-end 3/5."
+  },
+  {
+   "id": "h45-048",
+   "domain": "power_feel",
+   "topic": "2023-2024 character",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "From 2023 the engine became more linear and torque-led: throttle control at low rpm is precise, low-to-mid is stronger, and the top is less frantic, trading some peak power for usability; it still revs hard when held open.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-honda-crf450",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Same picture from Dirt Bike 2023 shootout (most bottom-end torque) and Dirt Rider 2023 dyno test."
+  },
+  {
+   "id": "h45-049",
+   "domain": "power_feel",
+   "topic": "why the 2023 engine feels torquier",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Worked out from Honda's changes: a 44 mm throttle body, narrower port and longer funnel raise intake air speed at low rpm and a torque-biased cam shifts valve timing toward the bottom, so torque rises (+10.7% at 5,000 rpm claimed) while the smaller intake costs top-end flow (-5% peak claimed).",
+   "values": {
+    "torque_5000rpm": "+10.7% (claim)",
+    "peak_power": "-5% (claim)"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation from published inputs",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "medium",
+   "notes": "Engineering reasoning from published Honda changes (Enduro21/Honda Europe data); matches the magazine dyno shift of torque peak from 7,200 to 6,600 rpm."
+  },
+  {
+   "id": "h45-050",
+   "domain": "power_feel",
+   "topic": "2025-2026 character",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers describe the 2025 engine as very linear and usable, strongest of its year from low to mid, cleaner with no flame-outs, and able to pull third gear in corners where earlier bikes needed second; gears two and three feel longer.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf450",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Combined from Motocross Action 2025, Cycle News 2025 and PulpMX 2025."
+  },
+  {
+   "id": "h45-051",
+   "domain": "power_feel",
+   "topic": "track vs dyno",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers repeatedly say the Honda is much better on the track than its peak dyno number suggests because its power arrives low and connects to the rear wheel.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: Twelve 450 motocross bikes on the dyno - the wrap",
+    "url": "https://dirtbikemagazine.com/?p=101733",
+    "date": "2025-11"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "h45-052",
+   "domain": "power_feel",
+   "topic": "CRF450RX character",
+   "applies_to": {
+    "models": [
+     "CRF450RX"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Off-road testers call the RX a torque-first engine; the new 2025 airbox softened its hit, fueling is cleaner and it stalls less at low rpm, and the Smooth map trades some bottom and mid punch for easier racing over 45 minutes.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News: 2025 Honda CRF450RX Review",
+    "url": "https://www.cyclenews.com/2025/03/article/2025-honda-crf450rx-review/",
+    "date": "2025-03"
+   },
+   "confidence": "high",
+   "notes": "Also Dirt Bike 2023 RX test ('torque king')."
+  },
+  {
+   "id": "h45-053",
+   "domain": "power_feel",
+   "topic": "measured weight",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2021,
+     2023
+    ]
+   },
+   "statement": "Scale weights: 233 lb without fuel (2021 and 2023, lightest Japanese 450), and 242 lb wet in a 2021 shootout (119 lb front, 123 lb rear).",
+   "values": {
+    "no_fuel_2021_2023": "233 lb",
+    "wet_2021": "242 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: 2023 450 MX Shootout Full Test",
+    "url": "https://dirtbikemagazine.com/2023-450-mx-shootout-full-test/",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Dirt Bike scale (no fuel); Vital MX scale (wet)."
+  },
+  {
+   "id": "h45-054",
+   "domain": "power_feel",
+   "topic": "claimed weight",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Honda claims 244 lb curb weight for the 2021 R and 245 lb for 2024-2025; the RX is claimed at 256 lb wet (2025), about 7 lb more than the R once its larger tank and off-road kit are counted.",
+   "values": {
+    "r_2021": "244 lb",
+    "r_2024_2025": "245 lb",
+    "rx_2025": "256 lb",
+    "rx_2023_wet": "113.6 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "American Honda: 2024 Honda CRF450R Specifications",
+    "url": "https://hondanews.com/en-US/powersports/releases/2024-honda-crf450r-specifications",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Cycle News 2025 R review lists 249 lb claimed (conflict)."
+  },
+  {
+   "id": "h45-055",
+   "domain": "power_feel",
+   "topic": "measured vs claimed weight",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Worked out from Honda's 244 lb curb claim minus about 10.3 lb of fuel (6.3 L), the bike should weigh about 234 lb without fuel, matching the 233 lb magazine scale weight.",
+   "values": {
+    "calc_no_fuel": "about 233.7 lb",
+    "measured_no_fuel": "233 lb"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation from published inputs",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "medium",
+   "notes": "6.3 L x 0.745 kg/L = 4.69 kg = 10.3 lb; 244 - 10.3 = 233.7 lb."
+  },
+  {
+   "id": "h45-056",
+   "domain": "ecu_electronics",
+   "topic": "engine maps (EMSB)",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "A handlebar button picks one of three maps, shown by blue LED flashes: Mode 1 Standard, Mode 2 Smooth and Mode 3 Aggressive. The RX has its own off-road-focused versions of these maps.",
+   "values": {
+    "mode_1": "Standard",
+    "mode_2": "Smooth",
+    "mode_3": "Aggressive"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "American Honda: 2025 Honda CRF450R Features & Benefits",
+    "url": "https://hondanews.com/en-US/releases/release-70527d767f112a34ec2e42bfb5060b28-2025-honda-crf450r",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "RX-specific mapping per TMX 2025 and Cycle News 2025 RX review."
+  },
+  {
+   "id": "h45-057",
+   "domain": "ecu_electronics",
+   "topic": "gear-position ignition maps",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "A gear-position sensor lets the ECU run separate ignition maps for 1st-2nd, 3rd-4th and 5th gear inside each mode.",
+   "values": {
+    "ignition_map_groups": "1-2 / 3-4 / 5"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "American Honda: 2024 Honda CRF450R Features & Benefits",
+    "url": "https://hondanews.com/en-US/powersports/releases/2024-honda-crf450r-features-benefits",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "h45-058",
+   "domain": "ecu_electronics",
+   "topic": "map character on the track",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Most testers prefer the Standard map for its broadest power; Smooth is softer and loses about 1 hp, and Aggressive is sharper off the bottom but makes less peak power and can ping on hot days.",
+   "values": {
+    "smooth_loss": "about 1 hp",
+    "aggressive_peak": "below Standard"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-honda-crf450",
+    "date": "2023-11"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "h45-059",
+   "domain": "ecu_electronics",
+   "topic": "map character 2021 (pre-reflash)",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "On early 2021 bikes Map 1 was preferred despite a low-end hiccup, Map 2 created a hole in low-end torque, and Map 3 kept the hiccup but had much better low-end response.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: Rating the 2021 450 MX bikes so far - the wrap",
+    "url": "https://dirtbikemagazine.com/amp/rating-the-2021-450-mx-bikes-so-far-the-wrap/",
+    "date": "2020-10"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "h45-060",
+   "domain": "ecu_electronics",
+   "topic": "HSTC traction control",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Honda Selectable Torque Control has three levels plus off. It has no wheel-speed sensor: when engine rpm rises faster than a threshold it retards ignition and trims fuel. Level 1 intervenes lightest and latest, Level 2 is in between, Level 3 is quickest and strongest for slippery or muddy tracks.",
+   "values": {
+    "levels": "1 / 2 / 3 / off",
+    "detection": "rpm rise rate (no wheel sensor)",
+    "intervention": "ignition retard + PGM-FI control"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda Canada press release: 2021 Honda CRF450R",
+    "url": "https://hondanews.ca/en-CA/hci-power/releases/release-d0fda2b79d2ee0aaa3164695841470b1054380cf-2021-honda-crf450r",
+    "date": "2020-07"
+   },
+   "confidence": "high",
+   "notes": "Button on left switch, hold 0.5 s to cycle; green LED flashes 1-3 times; last setting restored at start-up."
+  },
+  {
+   "id": "h45-061",
+   "domain": "ecu_electronics",
+   "topic": "HSTC use off-road",
+   "applies_to": {
+    "models": [
+     "CRF450RX"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Off-road testers found traction control helpful on flat, dry, rocky ground, but it can make the bike go flat on loose hills.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: 2023 Honda CRF450RX Full Test",
+    "url": "https://dirtbikemagazine.com/2023-honda-crf450rx-full-test/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Source states one flash is the most intervention, the reverse of Honda's description (see conflicts)."
+  },
+  {
+   "id": "h45-062",
+   "domain": "ecu_electronics",
+   "topic": "HRC launch control",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "HRC launch control holds a fixed rpm while the clutch is pulled: Level 1 9,500 rpm (good traction, expert), Level 2 8,500 rpm (good traction, average), Level 3 8,250 rpm (slippery or novice). It is engaged by pulling the clutch and pressing the start button.",
+   "values": {
+    "level_1": "9,500 rpm",
+    "level_2": "8,500 rpm",
+    "level_3": "8,250 rpm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "American Honda: 2025 Honda CRF450R Features & Benefits",
+    "url": "https://hondanews.com/en-US/releases/release-70527d767f112a34ec2e42bfb5060b28-2025-honda-crf450r",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Purple LED flashes 1-3 times for the level. Not intended for dead-engine off-road starts."
+  },
+  {
+   "id": "h45-063",
+   "domain": "ecu_electronics",
+   "topic": "map and traction pairings",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Engine tuners report Map 1 with traction level 1 for afternoon loose-over-hard conditions and Map 1 with level 3 for late-day hard-pack, which feels heavier down low and softens 2nd and 3rd gear roll-on; Map 2 with traction 1-2 felt heavy and disconnected.",
+   "values": {
+    "loose_afternoon": "Map 1 + HSTC 1",
+    "hardpack_late": "Map 1 + HSTC 3"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Testing: 2023 Honda CRF450R baseline settings/tips",
+    "url": "https://www.keeferinctesting.com/2023-honda-crf450r-baseline-settings-tips/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "h45-064",
+   "domain": "ecu_electronics",
+   "topic": "Smooth map with maximum traction (RX)",
+   "applies_to": {
+    "models": [
+     "CRF450RX"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On the RX, the Smooth map with the strongest traction level makes the bike feel dramatically milder, which testers likened to a 350.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News: 2025 Honda CRF450RX Review",
+    "url": "https://www.cyclenews.com/2025/03/article/2025-honda-crf450rx-review/",
+    "date": "2025-03"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "h45-065",
+   "domain": "ecu_electronics",
+   "topic": "HRC/Honda setting tool",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Honda's PC-based PGM-FI Setting Tool (USB interface 38880-N1C-770) adjusts fuel and ignition by throttle opening and rpm in the Smooth and Aggressive maps, but it was last updated for 2017 models; for 2021+ bikes there is no consumer Honda tool, and Map 1 cannot be changed.",
+   "values": {
+    "interface_part": "38880-N1C-770",
+    "software_cd": "38772-NX7-040",
+    "editable_maps": "2 and 3 only"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda Racing Corporation: CRF450R/RX PGM-FI Setting Tool page",
+    "url": "https://www.hondaracingcorporation.com/?p=899",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": "'Not updated since 2017' and 'no consumer tool for 2021' from Motocross Action (2021 glitch article) and Keefer 2021. Maps are not interchangeable between model years or between R and RX."
+  },
+  {
+   "id": "h45-066",
+   "domain": "ecu_electronics",
+   "topic": "aftermarket wireless tuning tool",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "An aftermarket wireless tuning tool sold through Honda dealers offered the same parameters as Honda's setting tool via a phone app for $395 RRP (Australia), confirmed only for 2017-era bikes; fit on 2021-2026 bikes is unconfirmed.",
+   "values": {
+    "price": "AUD 395 RRP"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Transmoto: GET's Honda-specific tuning tool (WiFi-COM2)",
+    "url": "https://transmoto.com.au/gets-honda-specific-tuning-tool",
+    "date": "2017-03"
+   },
+   "confidence": "low",
+   "notes": "GET WiFi-COM2. 2021+ compatibility not confirmed in the source."
+  },
+  {
+   "id": "h45-067",
+   "domain": "ecu_electronics",
+   "topic": "stock ECU reflash services",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Tuners reflash the stock ECU's maps 2 and 3 (Map 1 is locked) for about $150-200, typically a torque-biased map 2 and a motocross map 3, to clean up the rich, hesitant low-rpm response of stock maps.",
+   "values": {
+    "price_range": "$149.95-$200",
+    "editable": "maps 2 and 3"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News: TokyoMods ECU reprogramming review",
+    "url": "https://cyclenews.com/2021/02/article/tokyomods-ecu-reprogramming-review",
+    "date": "2021-02"
+   },
+   "confidence": "high",
+   "notes": "Sources: TokyoMods ($149.95, 2021; $199.95 for 2026 RX), Twisted Development ($200, per Keefer 2021)."
+  },
+  {
+   "id": "h45-068",
+   "domain": "ecu_electronics",
+   "topic": "reflash effect on feel",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Engine tuners report a reflashed map 2 pulls harder than stock while staying linear, with cleaner low-rpm cornering and more rear bite; a reflashed map 3 adds bottom-to-mid snap with less over-rev, suited to soft or loamy tracks.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "PulpMX / Keefer Inc.: 2021 Honda CRF450R Initial Baseline Settings/Mods",
+    "url": "https://pulpmx.com/?p=161922",
+    "date": "2020-10"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "h45-069",
+   "domain": "ecu_electronics",
+   "topic": "plug-in aftermarket ECU",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "A plug-in aftermarket ECU for the CRF450R/RX replaces the stock unit with 10 fuel and spark maps, traction and launch control from the stock switches, and three trim switches giving +12.5% to -10% fuel in low, mid and high throttle bands; price about $850.",
+   "values": {
+    "price": "$849.95",
+    "maps": "10",
+    "fuel_trim": "+12.5% to -10% (3 bands)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "dealer",
+    "name": "CRF's Only: Vortex X10 ECU for Honda CRF450R (ECU-8H2-450R)",
+    "url": "https://www.crfsonly.com/catalog/product_info.php/products_id/7920",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "Vortex X10 (ECU-8H2-450R), listed for 2017-2026 CRF450R; separate listing covers 2021-22 R/WE and RX. Power claims are the maker's, no dyno numbers published."
+  },
+  {
+   "id": "h45-070",
+   "domain": "ecu_electronics",
+   "topic": "ECU location 2025",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "For 2025 the ECU moved behind the left side panel.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf450",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "h45-071",
+   "domain": "ecu_electronics",
+   "topic": "2023 ECU response",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Engine tuners found the 2023 ECU gave cleaner throttle response and more rear-wheel connection than 2022, though some lean popping on deceleration remained.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Testing: 2023 Honda CRF450R baseline settings/tips",
+    "url": "https://www.keeferinctesting.com/2023-honda-crf450r-baseline-settings-tips/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "h45-072",
+   "domain": "engine_mods",
+   "topic": "full titanium exhaust",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "A full titanium aftermarket system on a 2021 CRF450R was reported to raise peak power about 4.7% on the dyno, weigh 1.3 lb less than stock and give more usable bottom and stronger mid response, while staying as quiet as stock.",
+   "values": {
+    "peak_hp_change": "+4.7% (reported)",
+    "weight_change": "-1.3 lb",
+    "price": "$1,259"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News: Yoshimura RS-12 titanium full exhaust review",
+    "url": "https://www.cyclenews.com/2021/07/article/yoshimura-rs-12-titanium-full-exhaust-with-titanium-muffler",
+    "date": "2021-07"
+   },
+   "confidence": "medium",
+   "notes": "Yoshimura RS-12. The test bike also had an ECU flash, so the gain is not exhaust-only; dyno type not stated."
+  },
+  {
+   "id": "h45-073",
+   "domain": "engine_mods",
+   "topic": "Works Edition package effect",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2023,
+     2025
+    ]
+   },
+   "statement": "The factory Works Edition package (ported, own ECU settings, aftermarket full system, aftermarket filter) is worth about 2.2-3.5 hp at peak on the same magazine dyno, with gains from about 4,200 rpm to the limiter.",
+   "values": {
+    "gain_2023": "+2.2 hp, -0.4 lb-ft",
+    "gain_2025": "+3.5 hp, +1.5 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: How much power does the 2025 Honda CRF450RWE make?",
+    "url": "https://dirtrider.com/tests/honda-crf450rwe-dyno-test-2025",
+    "date": "2025-01"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider dyno; 2025 gain calculated 54.6 - 51.1."
+  },
+  {
+   "id": "h45-074",
+   "domain": "engine_mods",
+   "topic": "slip-on muffler",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Engine tuners found a prototype aftermarket muffler cut high-rpm vibration, broadened low-end and smoothed roll-on, and added midrange and slight top-end in 2nd and 3rd gear.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "PulpMX / Keefer Inc.: 2021 Honda CRF450R Initial Baseline Settings/Mods",
+    "url": "https://pulpmx.com/?p=161922",
+    "date": "2020-10"
+   },
+   "confidence": "low",
+   "notes": "FMF 4.1 test unit, not production; no dyno numbers."
+  },
+  {
+   "id": "h45-075",
+   "domain": "engine_mods",
+   "topic": "built race engine target",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "A magazine project bike set a target of about 63 hp from the stock 55 hp with a full engine build, aftermarket ignition and full exhaust; no before/after dyno run was published.",
+   "values": {
+    "target_hp": "about 63 hp",
+    "stock_reference": "55 hp"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: Countdown to a race-ready 2025 Honda CRF450",
+    "url": "https://motocrossactionmag.com/tick-tock-countdown-to-a-race-ready-2025-crf450",
+    "date": "2025-04"
+   },
+   "confidence": "low",
+   "notes": "XPR engine build with Vortex ignition, Yoshimura RS12, VP Pro6 fuel. Target, not a measurement."
+  },
+  {
+   "id": "h45-076",
+   "domain": "engine_mods",
+   "topic": "fuel for aggressive map",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Because the Aggressive map can ping under hard use on hot days, testers suggest mixing race fuel with pump fuel if you run it.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-honda-crf450",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "h45-077",
+   "domain": "engine_mods",
+   "topic": "gearing",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Stock R gearing is 13/49; many testers go to 13/50 to pull third gear better and avoid first in tight turns, which is the RX's stock gearing.",
+   "values": {
+    "stock_r": "13/49",
+    "common_change": "13/50"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-honda-crf450",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "h45-078",
+   "domain": "chassis",
+   "topic": "2021 frame philosophy",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "Honda built the 2021 frame with narrower spars and 20% less lateral rigidity at the same torsional rigidity, a narrower swingarm pivot and more flexible triple clamps, all aimed at sharper cornering.",
+   "values": {
+    "lateral_rigidity": "-20%",
+    "torsional_rigidity": "unchanged",
+    "frame_weight": "8.4 kg",
+    "subframe_weight": "910 g"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda Canada press release: 2021 Honda CRF450R",
+    "url": "https://hondanews.ca/en-CA/hci-power/releases/release-d0fda2b79d2ee0aaa3164695841470b1054380cf-2021-honda-crf450r",
+    "date": "2020-07"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "h45-079",
+   "domain": "chassis",
+   "topic": "2021-2024 handling character",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "Testers consistently praise the 2021-2024 bike's turn-in and tight-corner precision but report a loose rear on corner exit, head shake at speed in rough ground and a hard-to-find fore/aft balance; it works best on smooth or supercross-style tracks and below about 80% of its limit.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-honda-crf450",
+    "date": "2023-11"
+   },
+   "confidence": "high",
+   "notes": "Same pattern in Motocross Action 2022, 2023 and 2024 race tests and Vital MX 2021 comments."
+  },
+  {
+   "id": "h45-080",
+   "domain": "chassis",
+   "topic": "2021-2024 stiffness debate",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "Testers and owners describe the 2021-2024 chassis as harsh or rigid feeling, but disagree on why: one view blames an overly rigid aluminium frame, while Honda argued for 2025 that the old frame was among the softest in the class and that the harshness came from it flexing over bumps.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News: 2025 Honda CRF450R Review",
+    "url": "https://www.cyclenews.com/2024/08/article/2025-honda-crf450r-review/",
+    "date": "2024-08"
+   },
+   "confidence": "medium",
+   "notes": "Rigid-frame view: Motocross Action 2022-2024. Honda's view as reported by Cycle News 2025 review. See conflicts."
+  },
+  {
+   "id": "h45-081",
+   "domain": "chassis",
+   "topic": "2023 frame reinforcement",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "For 2023 the forged bridge strut and the shock-mount area were thickened (4 to 6 mm and +2 mm) and the head stays went from aluminium to steel, which testers said improved rear stability in corners but added little overall stiffness.",
+   "values": {
+    "bridge_strut": "4 -> 6 mm",
+    "shock_tower": "+2 mm",
+    "head_stays": "steel"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-honda-crf450",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Enduro21 (Honda Europe) describes the same change as downtube/cradle joint and upper shock mount walls 4 -> 6 mm."
+  },
+  {
+   "id": "h45-082",
+   "domain": "chassis",
+   "topic": "2025 frame and handling",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "The stiffer 2025 frame (70% new parts, +8% torsional) with relocated subframe mounts made the bike feel softer and more planted: less vibration and harsh slap-down, much better high-speed stability and a more neutral, less front-heavy cornering feel, while keeping the sharp turn-in.",
+   "values": {
+    "torsional_rigidity": "+8%"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News: 2025 Honda CRF450R Review",
+    "url": "https://www.cyclenews.com/2024/08/article/2025-honda-crf450r-review/",
+    "date": "2024-08"
+   },
+   "confidence": "high",
+   "notes": "Agreement across Cycle News, PulpMX and Motocross Action 2025 tests ('best Honda handling since 2008')."
+  },
+  {
+   "id": "h45-083",
+   "domain": "chassis",
+   "topic": "2025 remaining rear harshness",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Some owners still report a sharp, kicking feel through the rear of the 2025 chassis on hard, edgy tracks that suspension changes only partly reduce; stiffer springs, a heavier rear spring and chassis bolt torque changes are the commonly tried fixes.",
+   "values": {
+    "suggested_rear_spring_180lb": "5.5-5.7 kg/mm"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum: Honda CRF chassis harshness",
+    "url": "https://www.vitalmx.com/comment/7302631",
+    "date": "2025-01"
+   },
+   "confidence": "low",
+   "notes": "Small number of posters (about four agree on stiffer setup); no fix confirmed to cure it."
+  },
+  {
+   "id": "h45-084",
+   "domain": "chassis",
+   "topic": "geometry 2021-2026 (R)",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Honda lists 27.1 degrees rake, 114 mm trail, a 58.3 in wheelbase, 38.0 in seat height and 13.2 in ground clearance for the R across 2021-2025.",
+   "values": {
+    "rake": "27.1 deg",
+    "trail": "114 mm",
+    "wheelbase": "58.3 in (1,481 mm)",
+    "seat_height": "38.0 in",
+    "ground_clearance": "13.2 in"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "American Honda: 2024 Honda CRF450R Specifications",
+    "url": "https://hondanews.com/en-US/powersports/releases/2024-honda-crf450r-specifications",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Cycle World 2025 lists the same figures; Cycle News 2025 review lists 58.4 in and 37.8 in."
+  },
+  {
+   "id": "h45-085",
+   "domain": "chassis",
+   "topic": "geometry CRF450RX",
+   "applies_to": {
+    "models": [
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The RX's 18-inch rear wheel changes geometry: Honda Europe lists 27.2 degrees, 115 mm trail and a 1,477 mm wheelbase for 2022-2023, while the 2025 US spec lists 27.5 degrees, 116 mm, 58.2 in and a 37.7 in seat.",
+   "values": {
+    "rake_2022_2023": "27.2 deg",
+    "trail_2022_2023": "115 mm",
+    "wheelbase_2022_2023": "1,477 mm",
+    "rake_2025": "27.5 deg",
+    "trail_2025": "116 mm",
+    "seat_2025": "37.7 in"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21: First look 2023 Honda CRF450RX",
+    "url": "https://enduro21.com/en/bikes/latest/first-look-2023-honda-crf450rx",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "2025 from Cycle News spec table (Honda data)."
+  },
+  {
+   "id": "h45-086",
+   "domain": "chassis",
+   "topic": "fork height tuning",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Stock forks sit 5 mm up in the clamps; nearly every tester slides them down to 2.5 mm or flush, which slackens the head angle and calms head shake without hurting the strong turn-in.",
+   "values": {
+    "stock": "5 mm up",
+    "common": "2.5 mm to flush"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: Team Tested AHM 2023 Honda 450 fork & shock re-valve",
+    "url": "https://motocrossactionmag.com/mxa-team-tested-ahm-2023-honda-450-fork-shock-re-valve",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "h45-087",
+   "domain": "chassis",
+   "topic": "handlebar positions",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The top clamp has two bar-mount positions 26 mm apart and the mounts rotate 180 degrees for an extra 10 mm, giving four positions with a standard Fatbar.",
+   "values": {
+    "positions": "4",
+    "range": "26 mm + 10 mm offset"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda Canada press release: 2021 Honda CRF450R",
+    "url": "https://hondanews.ca/en-CA/hci-power/releases/release-d0fda2b79d2ee0aaa3164695841470b1054380cf-2021-honda-crf450r",
+    "date": "2020-07"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "h45-088",
+   "domain": "chassis",
+   "topic": "chassis bolt torque tuning",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Engine tuners loosen selected chassis bolts slightly below Honda's spec (with thread locker) to improve bump compliance, for example axle 120 vs 128 Nm, swingarm pivot 81 vs 88 Nm and head-hanger bolts 51 vs 54 Nm.",
+   "values": {
+    "rear_axle": "120 Nm (stock 128)",
+    "swingarm_pivot": "81 Nm (stock 88)",
+    "head_hanger_bolts": "51 Nm (stock 54)",
+    "top_clamp": "19 Nm (stock 22)",
+    "bottom_clamp": "16-17 Nm (stock 20)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Testing: 2023 Honda CRF450R baseline settings/tips",
+    "url": "https://www.keeferinctesting.com/2023-honda-crf450r-baseline-settings-tips/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Tuner practice, not Honda guidance."
+  },
+  {
+   "id": "h45-089",
+   "domain": "chassis",
+   "topic": "ergonomics",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2021-on bike is 70 mm slimmer than 2020 and testers praise its rider triangle as fitting most body sizes, though the shift lever is about 17 mm shorter than a KTM's and harder to get a boot under.",
+   "values": {
+    "slimmer_vs_2020": "70 mm",
+    "shift_lever": "about 17 mm shorter than KTM"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf450",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "h45-090",
+   "domain": "suspension",
+   "topic": "suspension hardware",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Both models use a 49 mm Showa coil-spring inverted fork (310 mm stroke since 2021) and a Showa shock on Pro-Link; travel is 12.2 in front and 12.4 in rear on the R.",
+   "values": {
+    "fork": "Showa 49 mm coil, 310 mm stroke",
+    "rear_travel_r": "12.4 in",
+    "front_travel": "12.2 in"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "American Honda: 2024 Honda CRF450R Specifications",
+    "url": "https://hondanews.com/en-US/powersports/releases/2024-honda-crf450r-specifications",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "RX 2025 rear travel listed as 12.1 in."
+  },
+  {
+   "id": "h45-091",
+   "domain": "suspension",
+   "topic": "stock spring rates by year",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Stock R springs: fork 5.0 N/mm throughout; shock 54 N/mm in 2021-2022, 56 N/mm in 2023-2024 and 52 N/mm from 2025. Honda offers 54, 56 and 58 N/mm shock springs.",
+   "values": {
+    "fork": "5.0 N/mm",
+    "shock_2021_2022": "54 N/mm",
+    "shock_2023_2024": "56 N/mm",
+    "shock_2025_2026": "52 N/mm",
+    "optional": "54/56/58 N/mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf450",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Compiled from Motocross Action 2022, 2023, 2024 and 2025 race tests and Dirt Bike 2021."
+  },
+  {
+   "id": "h45-092",
+   "domain": "suspension",
+   "topic": "2025 suspension changes",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2025 fork got new springs, bending-control valves, seals and oil, thicker upper tubes and 310 cc oil; the shock got a new 16 mm shaft, reservoir and seal, and the one-piece linkage has 0.5 mm longer pull rods and a stiffer rising rate for less pitching and better bottoming resistance.",
+   "values": {
+    "fork_oil": "310 cc",
+    "shock_shaft": "16 mm",
+    "pull_rods": "+0.5 mm",
+    "linkage_rigidity": "+11%"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf450",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Honda describes the same items without numbers; oil figure as given by the magazine."
+  },
+  {
+   "id": "h45-093",
+   "domain": "suspension",
+   "topic": "2021-2022 suspension character",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "The 2021 setup was unbalanced and soft, blowing through the rear in ruts; the firmer 2022 fork was better mid-stroke but harsh in the last 4 inches, and the shock felt stagey, wallowing in small bumps yet bottoming in whoops.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-honda-crf450",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "2021 notes from Vital MX shootout and Dirt Bike 2021 wrap."
+  },
+  {
+   "id": "h45-094",
+   "domain": "suspension",
+   "topic": "2023-2024 suspension character",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "The 2023-2024 fork holds up higher but is soft initially and harsh mid-stroke, and the shock is slow-valved and stagey; testers call the rear the more promising end.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-honda-crf450",
+    "date": "2023-11"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "h45-095",
+   "domain": "suspension",
+   "topic": "2025-2026 suspension character",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2025 fork is much plusher with no harsh spot, and the softer 52 N/mm shock suits lighter and slower riders; fast intermediates, pros and riders over about 180-220 lb find both ends too soft on big jumps.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf450",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Agreement across Motocross Action, PulpMX and Cycle News 2025."
+  },
+  {
+   "id": "h45-096",
+   "domain": "suspension",
+   "topic": "CRF450RX suspension",
+   "applies_to": {
+    "models": [
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The RX runs its own settings with slightly softer springs than the R, so it settles further into the stroke and soaks up chatter; it is a bit soft for big motocross jumps.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News: 2025 Honda CRF450RX Review",
+    "url": "https://www.cyclenews.com/2025/03/article/2025-honda-crf450rx-review/",
+    "date": "2025-03"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "h45-097",
+   "domain": "suspension",
+   "topic": "CRF450RX adjuster ranges 2023",
+   "applies_to": {
+    "models": [
+     "CRF450RX"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Honda Europe lists the 2023 RX fork with 396 cc oil, 13 rebound and 15 compression positions, and the shock with 421 cc oil, 11 rebound positions and 6 high/low compression positions.",
+   "values": {
+    "fork_oil": "396 cc",
+    "fork_rebound_positions": "13",
+    "fork_comp_positions": "15",
+    "shock_oil": "421 cc"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21: First look 2023 Honda CRF450RX",
+    "url": "https://enduro21.com/en/bikes/latest/first-look-2023-honda-crf450rx",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "h45-098",
+   "domain": "suspension",
+   "topic": "re-valve cost and effect",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "A shop re-valve of the 2023 fork and shock (about $800 base) gave a more consistently plush fork and a less loose feel at speed in magazine testing.",
+   "values": {
+    "price": "about $800 base"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: Team Tested AHM 2023 Honda 450 fork & shock re-valve",
+    "url": "https://motocrossactionmag.com/mxa-team-tested-ahm-2023-honda-450-fork-shock-re-valve",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "AHM re-valve; internals not disclosed."
+  },
+  {
+   "id": "h45-099",
+   "domain": "drivetrain",
+   "topic": "final drive R vs RX",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The R runs 13/49 and the RX 13/50 on a 520 chain; worked out, the RX is about 2% lower geared.",
+   "values": {
+    "r": "13/49 (3.769)",
+    "rx": "13/50 (3.846)",
+    "difference": "+2.0% lower on RX"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation from published inputs",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "high",
+   "notes": "49/13 = 3.769; 50/13 = 3.846; 3.846/3.769 = 1.020. Sprockets from Honda spec (R) and Cycle News 2025 RX spec."
+  },
+  {
+   "id": "h45-100",
+   "domain": "drivetrain",
+   "topic": "transmission",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Both models use a five-speed gearbox; off-road testers wish the RX had six speeds.",
+   "values": {
+    "gears": "5"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News: New 2025 Honda CRF450RX & CRF250RX specs and prices",
+    "url": "https://cyclenews.com/2024/05/article/new-2025-honda-crf450rx-crf250rx-off-road-models-specs-and-prices",
+    "date": "2024-05"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "h45-101",
+   "domain": "identity",
+   "topic": "CRF450RX vs CRF450R differences",
+   "applies_to": {
+    "models": [
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The RX shares the R's engine, frame and suspension hardware but adds its own ECU maps, an 8-litre (2.1 gal) plastic tank instead of the R's 6.3-litre titanium tank, an 18-inch rear wheel on off-road tyres, a forged aluminium kickstand, hand guards, a sealed chain, softer suspension settings and 13/50 gearing; it weighs about 7 lb more and costs $300 more.",
+   "values": {
+    "tank_rx": "8 L / 2.1 gal plastic",
+    "tank_r": "6.3 L / 1.7 gal titanium",
+    "rear_wheel_rx": "18 in",
+    "gearing_rx": "13/50",
+    "weight_diff": "+7 lb",
+    "price_diff": "+$300"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News: 2025 Honda CRF450RX Review",
+    "url": "https://www.cyclenews.com/2025/03/article/2025-honda-crf450rx-review/",
+    "date": "2025-03"
+   },
+   "confidence": "high",
+   "notes": "Tank/kickstand from TMX 2025 Honda release; rest from Cycle News 2025 RX review and spec."
+  },
+  {
+   "id": "h45-102",
+   "domain": "known_issues",
+   "topic": "2021 mapping glitch",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Early 2021 bikes ran dirty and rich at low rpm, and maps 2 and 3 popped, spat and flamed out; Honda's free dealer reflash fixed it and the corrected map became standard for 2022.",
+   "values": {
+    "fix": "free dealer ECU reflash"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: Tech Spec - A brief history of the 2021 Honda CRF450 mapping glitch",
+    "url": "https://motocrossactionmag.com/mxa-tech-spec-a-brief-history-of-the-2021-honda-crf450-mapping-glitch",
+    "date": "2021-06"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "h45-103",
+   "domain": "known_issues",
+   "topic": "radiators boiling",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers report the radiators boil over quickly in hard use; the common fix is a higher-pressure cap (1.8 bar instead of the stock 1.1 bar).",
+   "values": {
+    "stock_cap": "1.1 bar",
+    "common_replacement": "1.8 bar"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf450",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Reported in Motocross Action 2022, 2023, 2024 and 2025 tests."
+  },
+  {
+   "id": "h45-104",
+   "domain": "known_issues",
+   "topic": "exhaust flange studs",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "The exhaust flange studs can back out of the head when the header is removed; testers secure them with thread locker.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-honda-crf450",
+    "date": "2023-11"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "h45-105",
+   "domain": "known_issues",
+   "topic": "air filter (2021-2024)",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "The upside-down air filter of 2021-2024 gets dirty quickly and is awkward to service; Honda replaced it with a new airbox and triangular filter for 2025, which testers find small.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-honda-crf450",
+    "date": "2023-11"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "h45-106",
+   "domain": "known_issues",
+   "topic": "front brake fade 2021",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Some testers had the 2021 front brake overheat within a few laps with the lever pulling toward the bar; Honda revised the front caliper pistons and seal grooves for 2025 for better hot braking.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX: 2021 Vital MX 450 Shootout Full Test",
+    "url": "https://vitalmx.com/features/Vital-MX-450-Shootout-Full-Test,7152",
+    "date": "2020-10"
+   },
+   "confidence": "medium",
+   "notes": "One tester in the Vital shootout; 2025 caliper change from Honda."
+  },
+  {
+   "id": "h45-107",
+   "domain": "known_issues",
+   "topic": "clutch durability",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "Testers say the hydraulic clutch has a light, consistent pull but is not bulletproof under hard racing.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-honda-crf450",
+    "date": "2021"
+   },
+   "confidence": "low",
+   "notes": ""
+  },
+  {
+   "id": "h45-108",
+   "domain": "known_issues",
+   "topic": "seat foam and grips",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2022,
+     2024
+    ]
+   },
+   "statement": "Testers report that the seat foam breaks down quickly and the stock grips are hard.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-honda-crf450",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "h45-109",
+   "domain": "known_issues",
+   "topic": "complex electronics",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Many riders find the map, traction and launch buttons and flash codes confusing, with three settings per function.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf450",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "h45-110",
+   "domain": "setups",
+   "topic": "tester race settings 2022",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "A magazine hardcore race setup for the 2022 R: fork 5.0 N/mm, compression 10 out, rebound 20 out, forks flush; shock 56 N/mm (up from stock 54), 100 mm sag, low-speed compression 8 out, high-speed 2-1/8 turns out, rebound 8 out.",
+   "values": {
+    "fork_comp": "10 out",
+    "fork_reb": "20 out",
+    "shock_spring": "56 N/mm",
+    "sag": "100 mm",
+    "shock_lsc": "8 out",
+    "shock_hsc": "2-1/8 turns out",
+    "shock_reb": "8 out"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-honda-crf450",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "h45-111",
+   "domain": "setups",
+   "topic": "tester race settings 2023",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "A magazine race setup for 2023: fork 5.0 N/mm, compression 2 out (pro), 6 out (intermediate) or 10 out (vet), rebound 20 out, forks flush; shock 56 N/mm, 100 mm sag, low-speed 12 out, high-speed 1-5/8 turns out, rebound 8 out.",
+   "values": {
+    "fork_comp": "2/6/10 out by level",
+    "fork_reb": "20 out",
+    "sag": "100 mm",
+    "shock_lsc": "12 out",
+    "shock_hsc": "1-5/8 turns out",
+    "shock_reb": "8 out"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-honda-crf450",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Stock was fork comp 10 out, rebound 15 out; shock LSC 6, HSC 2 turns, rebound 13."
+  },
+  {
+   "id": "h45-112",
+   "domain": "setups",
+   "topic": "tuner baseline 2021",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "Engine tuners' 2021 baseline for riders over about 180 lb: fork 5.1 N/mm, 2 mm up, compression 11-12 out, rebound 11 out; shock 56 N/mm, 106 mm sag, low-speed 12 out, high-speed 2-3/4 out, rebound 10 out.",
+   "values": {
+    "fork_spring": "5.1 N/mm",
+    "fork_height": "2 mm",
+    "shock_spring": "56 N/mm",
+    "sag": "106 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "PulpMX / Keefer Inc.: 2021 Honda CRF450R Initial Baseline Settings/Mods",
+    "url": "https://pulpmx.com/?p=161922",
+    "date": "2020-10"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "h45-113",
+   "domain": "setups",
+   "topic": "tuner baseline 2023",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Tuners' 2023 baseline for 170-200 lb: fork 5.1 N/mm, flush to 2 mm, compression 9 out, rebound 11-12 out; shock 56 N/mm, 105 mm sag, low-speed 9 out, high-speed 2-1/4 out, rebound 11 out. For 200-225 lb use a 58 N/mm spring with low-speed 13 out and high-speed 2-3/4 out.",
+   "values": {
+    "fork_spring": "5.1 N/mm",
+    "shock_spring_170_200": "56 N/mm",
+    "shock_spring_200_225": "58 N/mm",
+    "sag": "105 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Testing: 2023 Honda CRF450R baseline settings/tips",
+    "url": "https://www.keeferinctesting.com/2023-honda-crf450r-baseline-settings-tips/",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "h45-114",
+   "domain": "setups",
+   "topic": "tuner baseline 2025",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Tuners' 2025 baseline: fork 5.1 N/mm (stock 5.0), flush to 2 mm up, compression 9 out, rebound 10 out; shock 52 N/mm (54 N/mm over 190 lb), 106 mm sag, low-speed 8 out, high-speed 1.5 turns out, rebound 12 out.",
+   "values": {
+    "fork_spring": "5.1 N/mm",
+    "shock_spring": "52 N/mm (54 over 190 lb)",
+    "sag": "106 mm",
+    "shock_lsc": "8 out",
+    "shock_hsc": "1.5 turns out",
+    "shock_reb": "12 out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Testing: 2025 450 MX baseline suspension settings",
+    "url": "https://www.keeferinctesting.com/?p=28578",
+    "date": "2025-01"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "h45-115",
+   "domain": "setups",
+   "topic": "2025 big-jump track fix",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "For big jumps with short landings, testers and Honda technicians on the 2025 dropped the forks to about 2.5 mm, added 2-3 clicks of fork compression, and firmed shock high-speed compression by half a turn.",
+   "values": {
+    "fork_height": "2.5 mm",
+    "fork_comp": "+2-3 clicks",
+    "shock_hsc": "+1/2 turn"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "PulpMX: Five things about the 2025 Honda CRF450R",
+    "url": "https://pulpmx.com/2024/07/17/five-things-about-the-2025-honda-crf450r/",
+    "date": "2024-07"
+   },
+   "confidence": "medium",
+   "notes": "Cycle News 2025 reports Honda techs' advice: drop forks and add two clicks compression."
+  },
+  {
+   "id": "h45-116",
+   "domain": "setups",
+   "topic": "sag range",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Testers run 100-108 mm race sag depending on speed and weight, starting from Honda's 105 mm; faster riders go lower.",
+   "values": {
+    "range": "100-108 mm",
+    "baseline": "105 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 Honda CRF450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-honda-crf450",
+    "date": "2023-11"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "h45-117",
+   "domain": "setups",
+   "topic": "off-road map choice (RX)",
+   "applies_to": {
+    "models": [
+     "CRF450RX"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Off-road testers raced the 2025 RX in the Smooth map on tight single-track and a cross-country race, and used Standard or Aggressive for loamy, sandy or soft ground.",
+   "values": {
+    "tight_trail": "Map 2 Smooth",
+    "soft_ground": "Map 1/3"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News: 2025 Honda CRF450RX Review",
+    "url": "https://www.cyclenews.com/2025/03/article/2025-honda-crf450rx-review/",
+    "date": "2025-03"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "h45-118",
+   "domain": "setups",
+   "topic": "community suspension fixes 2025",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Owners around 180-200 lb report better chassis feel with a 5.5-5.7 kg/mm shock spring, about 108 mm sag and fork oil raised from 313 to about 345-350 ml.",
+   "values": {
+    "shock_spring": "5.5-5.7 kg/mm",
+    "sag": "108 mm",
+    "fork_oil": "345-350 ml (stock 313)"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum: Honda CRF chassis harshness",
+    "url": "https://www.vitalmx.com/comment/7302631",
+    "date": "2025-01"
+   },
+   "confidence": "low",
+   "notes": "Few riders; individual experiences."
+  },
+  {
+   "id": "h45-119",
+   "domain": "maintenance",
+   "topic": "shock removal 2025",
+   "applies_to": {
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "On 2025-2026 bikes the shock comes out after removing the side covers, muffler and ECU, without taking off the subframe, which Honda says halves removal time.",
+   "values": {
+    "removal_time": "-50%"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "American Honda: 2025 Honda CRF450R Features & Benefits",
+    "url": "https://hondanews.com/en-US/releases/release-70527d767f112a34ec2e42bfb5060b28-2025-honda-crf450r",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "peak horsepower (rear wheel, stock)",
+   "values": {
+    "Dirt Rider 2021 RX": "53.2 hp @ 9,400",
+    "Vital MX/Race Tech 2021 R": "57.54 hp @ 9,500",
+    "Dirt Rider 2021 RWE": "56.7 hp @ 9,600",
+    "Dirt Rider 2022 R": "53.8 hp @ 9,300",
+    "MXA 2022 R": "58.20 hp @ 9,300",
+    "Dirt Rider 2023 R": "52.5 hp @ 9,100",
+    "MXA 2023 R": "56.3 hp @ 9,100 (map peaks 55.97-56.88)",
+    "Dirt Rider 2023 RX": "51.0 hp @ 9,300",
+    "MXA 2024 R": "56.9 hp @ 9,100",
+    "Dirt Rider 2025 R": "51.1 hp",
+    "MXA 2025 R": "55.34 hp",
+    "Dirt Rider 2025 RX": "52.1 hp",
+    "Dirt Bike/Pro Circuit (2026)": "55.3 hp @ 8,700"
+   },
+   "spread": "51.0-58.2 hp (standard R/RX)",
+   "note": "Different dynos and conditions; compare only within one source. Dirt Rider reads lowest; Dirt Rider uses a Dynojet 250i."
+  },
+  {
+   "topic": "peak torque",
+   "values": {
+    "Dirt Rider 2022": "34.1 lb-ft @ 7,200",
+    "Dirt Rider 2023": "35.1 lb-ft @ 6,600",
+    "Dirt Rider 2025": "32.9 lb-ft",
+    "Vital 2021": "35.8 lb-ft @ 7,500",
+    "Dirt Bike/Pro Circuit 2026": "36.5 lb-ft @ 7,000"
+   },
+   "spread": "32.9-36.5 lb-ft",
+   "note": "Different dynos."
+  },
+  {
+   "topic": "HSTC level numbering",
+   "values": {
+    "Honda (2021, 2024, 2025 releases), MXA": "Level 1 = lightest/latest, Level 3 = strongest/quickest",
+    "Dirt Bike 2023 CRF450RX test": "one flash = most intervention, three = least"
+   },
+   "spread": "opposite order",
+   "note": "Honda's description is primary; the RX test may have mis-stated it, or RX may differ (not confirmed)."
+  },
+  {
+   "topic": "launch control rev limits",
+   "values": {
+    "Honda": "3 levels: 9,500 / 8,500 / 8,250 rpm",
+    "MXA 2024 and 2025 race tests": "four limits: 8,250 / 9,500 / 9,800 / 10,700 rpm"
+   },
+   "spread": "3 vs 4 levels",
+   "note": "MXA list likely copied from another brand or an HRC kit ECU; Honda's three levels used in records."
+  },
+  {
+   "topic": "cause of 2021-2024 chassis harshness",
+   "values": {
+    "MXA 2022-2024": "overly rigid aluminium frame plus suspension imbalance",
+    "Honda via Cycle News 2025": "2024 frame was among the softest; harshness came from flex",
+    "Honda 2021 release": "lateral rigidity cut 20% for 2021"
+   },
+   "spread": "rigid vs flexible",
+   "note": "Both camps agree on symptoms (harsh, loose at speed, head shake); 2025 stiffer frame was reported to feel softer."
+  },
+  {
+   "topic": "2023 frame reinforcement location",
+   "values": {
+    "MXA": "forged bridge strut 4 -> 6 mm, shock tower +2 mm",
+    "Enduro21 (Honda Europe)": "downtube/cradle joint and upper shock mount walls 4 -> 6 mm"
+   },
+   "spread": "location wording",
+   "note": "Likely the same parts described differently."
+  },
+  {
+   "topic": "2025 crankshaft change",
+   "values": {
+    "Honda Europe via TMX": "redesigned, more rigid crank with improved inertia",
+    "American Honda 2025 F&B": "not mentioned",
+    "MXA photo caption": "only exhaust, airbox and mapping changed"
+   },
+   "spread": "changed vs not",
+   "note": "May be a Europe-only description or omission in US material."
+  },
+  {
+   "topic": "claimed curb weight 2025 R",
+   "values": {
+    "Honda spec/Cycle World": "245 lb",
+    "Cycle News 2025 review": "249 lb"
+   },
+   "spread": "245-249 lb",
+   "note": ""
+  },
+  {
+   "topic": "displacement",
+   "values": {
+    "Honda 2021 spec": "449.7 cc",
+    "Honda 2024/2025 spec": "449.8 cc",
+    "BAK calculation": "449.5 cc"
+   },
+   "spread": "449.5-449.8 cc",
+   "note": "Rounding; bore/stroke identical."
+  },
+  {
+   "topic": "CRF450RX geometry",
+   "values": {
+    "Enduro21 2022-2023": "27.2 deg / 115 mm / 1,477 mm",
+    "Cycle News 2025 spec": "27.5 deg / 116 mm / 58.2 in (1,478 mm)"
+   },
+   "spread": "0.3 deg, 1 mm",
+   "note": "May reflect the 2025 frame change or market spec differences."
+  },
+  {
+   "topic": "stock fork spring vs recommended",
+   "values": {
+    "Stock (MXA)": "5.0 N/mm",
+    "Keefer 2021/2023/2025": "5.1 N/mm"
+   },
+   "spread": "0.1 N/mm",
+   "note": "Not a data conflict; tuner preference."
+  }
+ ],
+ "not_found": [
+  {
+   "item": "cam lift and duration (stock and 2023 cam)",
+   "searched": "Honda 2021/2023/2025 releases, Enduro21, MXA race tests",
+   "note": "Only qualitative ('intake lobe revised for torque')."
+  },
+  {
+   "item": "OEM rev limit",
+   "searched": "Honda spec sheets and features pages",
+   "note": "Only ~11,500 rpm from a Works Edition dyno chart."
+  },
+  {
+   "item": "valve angles, rod length, injector flow, piston details",
+   "searched": "Honda releases; 2017 Honda features release was blocked (permission timeout)",
+   "note": "URL: hondanews.com 2017 CRF450R features and specifications."
+  },
+  {
+   "item": "Dirt Rider 2021 CRF450R (standard) dyno numbers",
+   "searched": "dirtrider.com 2021 CRF450R dyno test (two URLs)",
+   "note": "Article body did not render; only RX and RWE 2021 numbers obtained."
+  },
+  {
+   "item": "MXA Race Test 2026 Honda CRF450",
+   "searched": "motocrossactionmag.com/mxa-race-test-2026-honda-crf450/",
+   "note": "Fetch blocked (permission request timed out). 2026 dyno and settings from that test missing."
+  },
+  {
+   "item": "dyno rpm points (hp at 6,000/8,000/10,000) and full curves",
+   "searched": "Dirt Rider, MXA, Dirt Bike text",
+   "note": "Curves are images only."
+  },
+  {
+   "item": "measured 2025-2026 weight",
+   "searched": "MXA 2025, Cycle News 2025, Dirt Rider 2025",
+   "note": "Not published in fetched text."
+  },
+  {
+   "item": "measured before/after dyno for exhaust, cams or head work on 2021+",
+   "searched": "exhaust and cam dyno searches",
+   "note": "Only a reported +4.7% for a full titanium system with ECU flash; no cam/head data for 2021+ (Hot Cams listings are for 2017-2020)."
+  },
+  {
+   "item": "Honda ECU setting tool for 2021+ models",
+   "searched": "HRC site, MXA, Keefer",
+   "note": "Honda tool last updated for 2017; no consumer tool for 2021+ found."
+  },
+  {
+   "item": "2025 CRF450RX first ride (Dirt Rider)",
+   "searched": "dirtrider.com/tests/honda-crf450rx-first-ride-review",
+   "note": "Body did not render."
+  },
+  {
+   "item": "CRF450RX stock clicker settings and tester RX setups with numbers",
+   "searched": "RX baseline search, Dirt Bike 2023 RX, Cycle News 2025 RX",
+   "note": "Only adjuster ranges (2023) and preload/oil changes (2022)."
+  },
+  {
+   "item": "factory race team (HRC) setups",
+   "searched": "not searched (budget)",
+   "note": "Factory bikes differ from production."
+  },
+  {
+   "item": "2021 drive chain recall unit count",
+   "searched": "Honda release, RideApart",
+   "note": "'Certain' units only."
+  },
+  {
+   "item": "gear ratios, capacities, torque table, service intervals",
+   "searched": "not searched per brief",
+   "note": "Available in Honda manuals BAK holds."
+  }
+ ],
+ "sources": [
+  {
+   "type": "manufacturer",
+   "name": "Honda Canada press release: 2021 Honda CRF450R",
+   "url": "https://hondanews.ca/en-CA/hci-power/releases/release-d0fda2b79d2ee0aaa3164695841470b1054380cf-2021-honda-crf450r",
+   "date": "2020-07"
+  },
+  {
+   "type": "manufacturer",
+   "name": "American Honda: 2021 Honda CRF450R Specifications",
+   "url": "https://hondanews.com/en-US/powersports/releases/release-6bb3522506340b3cd1e6369a9f011e40-2021-honda-crf450r-specifications",
+   "date": "2020"
+  },
+  {
+   "type": "manufacturer",
+   "name": "American Honda: 2024 Honda CRF450R Specifications",
+   "url": "https://hondanews.com/en-US/powersports/releases/2024-honda-crf450r-specifications",
+   "date": "2023"
+  },
+  {
+   "type": "manufacturer",
+   "name": "American Honda: 2024 Honda CRF450R Features & Benefits",
+   "url": "https://hondanews.com/en-US/powersports/releases/2024-honda-crf450r-features-benefits",
+   "date": "2023"
+  },
+  {
+   "type": "manufacturer",
+   "name": "American Honda: 2025 Honda CRF450R Features & Benefits",
+   "url": "https://hondanews.com/en-US/releases/release-70527d767f112a34ec2e42bfb5060b28-2025-honda-crf450r",
+   "date": "2024"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Honda Powersports CRF450R model page (2026/2027 pricing)",
+   "url": "https://powersports.honda.com/motorcycle/motocross/crf450r/2025/crf450r",
+   "date": "2026"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Honda Racing Corporation: CRF450R/RX PGM-FI Setting Tool page",
+   "url": "https://www.hondaracingcorporation.com/?p=899",
+   "date": "2017"
+  },
+  {
+   "type": "manufacturer",
+   "name": "American Honda: Honda Announces Recall of 2021 CRF450R",
+   "url": "https://hondanews.com/en-US/releases/release-32797eaea7316f1bed4bfcd27904228e-honda-announces-recall-of-2021-crf450r",
+   "date": "2021-04"
+  },
+  {
+   "type": "manufacturer",
+   "name": "US CPSC Recall 26-458: American Honda off-road motorcycles (handlebar clamp)",
+   "url": "https://cpsc.gov/Recalls/2026/American-Honda-Motor-Recalls-Off-Road-Motorcycles-Due-to-Risk-of-Serious-Injury-or-Death-Due-to-Crash-Hazard",
+   "date": "2026-04"
+  },
+  {
+   "type": "magazine",
+   "name": "TMX News: Honda launches 2025 CRF range",
+   "url": "https://tmxnews.co.uk/news/enduro/honda-launches-2025-crf-range",
+   "date": "2024-05"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News: 2023 Honda CRF450 First Look",
+   "url": "https://cyclenews.com/2022/05/article/2023-honda-crf450-first-look",
+   "date": "2022-05"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21: First look 2023 Honda CRF450RX",
+   "url": "https://enduro21.com/en/bikes/latest/first-look-2023-honda-crf450rx",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21: First look 2022 Honda CRF450RX",
+   "url": "https://enduro21.com/en/bikes/latest/first-look-2022-honda-crf450rx",
+   "date": "2021"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA Race Test 2022 Honda CRF450",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2022-honda-crf450",
+   "date": "2021"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA Race Test 2023 Honda CRF450",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2023-honda-crf450",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA Race Test 2024 Honda CRF450",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2024-honda-crf450",
+   "date": "2023-11"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA Race Test 2025 Honda CRF450",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf450",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: First Look 2026 Honda motocross models",
+   "url": "https://motocrossactionmag.com/first-look-2026-honda-motocross-models-crf250-crf450-2",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: Living with the 2026 Honda CRF450 (video page)",
+   "url": "https://motocrossactionmag.com/mxas-first-ride-video-living-with-the-2026-honda-crf450",
+   "date": "2025-09"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: Tech Spec - A brief history of the 2021 Honda CRF450 mapping glitch",
+   "url": "https://motocrossactionmag.com/mxa-tech-spec-a-brief-history-of-the-2021-honda-crf450-mapping-glitch",
+   "date": "2021-06"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: Team Tested AHM 2023 Honda 450 fork & shock re-valve",
+   "url": "https://motocrossactionmag.com/mxa-team-tested-ahm-2023-honda-450-fork-shock-re-valve",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: Countdown to a race-ready 2025 Honda CRF450",
+   "url": "https://motocrossactionmag.com/tick-tock-countdown-to-a-race-ready-2025-crf450",
+   "date": "2025-04"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2021 Honda CRF450RX Dyno Test",
+   "url": "https://dirtrider.com/story/tests/2021-honda-crf450rx-dyno-test",
+   "date": "2020"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2021 Honda CRF450RWE Dyno Test",
+   "url": "https://dirtrider.com/story/tests/2021-honda-crf450rwe-dyno-test",
+   "date": "2020"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2022 Honda CRF450R Dyno Test",
+   "url": "https://dirtrider.com/story/tests/2022-honda-crf450r-dyno-test",
+   "date": "2021"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2023 Honda CRF450R Dyno Test",
+   "url": "https://dirtrider.com/tests/honda-crf450r-dyno-test-2023",
+   "date": "2023-02"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: How much power does the 2023 Honda CRF450RWE make?",
+   "url": "https://dirtrider.com/tests/honda-crf450rwe-dyno-test-2023",
+   "date": "2023-11"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2023 Honda CRF450RX Dyno Test",
+   "url": "https://www.dirtrider.com/tests/honda-crf450rx-dyno-test-2023",
+   "date": "2023-09"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: How much power does the 2025 Honda CRF450R make?",
+   "url": "https://dirtrider.com/tests/honda-crf450r-dyno-test-2025",
+   "date": "2024-09"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: How much power does the 2025 Honda CRF450RWE make?",
+   "url": "https://dirtrider.com/tests/honda-crf450rwe-dyno-test-2025",
+   "date": "2025-01"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: How much power does the 2025 Honda CRF450RX make?",
+   "url": "https://dirtrider.com/tests/honda-crf450rx-dyno-test-2025",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Vital MX: 2021 Vital MX 450 Shootout Full Test",
+   "url": "https://vitalmx.com/features/Vital-MX-450-Shootout-Full-Test,7152",
+   "date": "2020-10"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Magazine: Rating the 2021 450 MX bikes so far - the wrap",
+   "url": "https://dirtbikemagazine.com/amp/rating-the-2021-450-mx-bikes-so-far-the-wrap/",
+   "date": "2020-10"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Magazine: 2023 450 MX Shootout Full Test",
+   "url": "https://dirtbikemagazine.com/2023-450-mx-shootout-full-test/",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Magazine: 2023 Honda CRF450RX Full Test",
+   "url": "https://dirtbikemagazine.com/2023-honda-crf450rx-full-test/",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Magazine: Twelve 450 motocross bikes on the dyno - the wrap",
+   "url": "https://dirtbikemagazine.com/?p=101733",
+   "date": "2025-11"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News: 2025 Honda CRF450R Review",
+   "url": "https://www.cyclenews.com/2024/08/article/2025-honda-crf450r-review/",
+   "date": "2024-08"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News: 2025 Honda CRF450RX Review",
+   "url": "https://www.cyclenews.com/2025/03/article/2025-honda-crf450rx-review/",
+   "date": "2025-03"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News: New 2025 Honda CRF450RX & CRF250RX specs and prices",
+   "url": "https://cyclenews.com/2024/05/article/new-2025-honda-crf450rx-crf250rx-off-road-models-specs-and-prices",
+   "date": "2024-05"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News: TokyoMods ECU reprogramming review",
+   "url": "https://cyclenews.com/2021/02/article/tokyomods-ecu-reprogramming-review",
+   "date": "2021-02"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News: Yoshimura RS-12 titanium full exhaust review",
+   "url": "https://www.cyclenews.com/2021/07/article/yoshimura-rs-12-titanium-full-exhaust-with-titanium-muffler",
+   "date": "2021-07"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News: Video - 2027 Honda CRF450R First Ride Test",
+   "url": "https://www.cyclenews.com/2026/08/article/video-2027-honda-crf450r-first-ride-test/",
+   "date": "2026-08"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle World: 2025 Honda CRF450R buyer's guide",
+   "url": "https://cycleworld.com/honda/crf450r",
+   "date": "2024"
+  },
+  {
+   "type": "tuner",
+   "name": "PulpMX / Keefer Inc.: 2021 Honda CRF450R Initial Baseline Settings/Mods",
+   "url": "https://pulpmx.com/?p=161922",
+   "date": "2020-10"
+  },
+  {
+   "type": "tuner",
+   "name": "Keefer Inc. Testing: 2021 Honda CRF450R Initial Baseline Settings/Mods",
+   "url": "https://www.keeferinctesting.com/?p=13287",
+   "date": "2020-10"
+  },
+  {
+   "type": "tuner",
+   "name": "Keefer Inc. Testing: 2023 Honda CRF450R baseline settings/tips",
+   "url": "https://www.keeferinctesting.com/2023-honda-crf450r-baseline-settings-tips/",
+   "date": "2023"
+  },
+  {
+   "type": "tuner",
+   "name": "Keefer Inc. Testing: 2025 450 MX baseline suspension settings",
+   "url": "https://www.keeferinctesting.com/?p=28578",
+   "date": "2025-01"
+  },
+  {
+   "type": "magazine",
+   "name": "PulpMX: Five things about the 2025 Honda CRF450R",
+   "url": "https://pulpmx.com/2024/07/17/five-things-about-the-2025-honda-crf450r/",
+   "date": "2024-07"
+  },
+  {
+   "type": "dealer",
+   "name": "CRF's Only: Vortex X10 ECU for Honda CRF450R (ECU-8H2-450R)",
+   "url": "https://www.crfsonly.com/catalog/product_info.php/products_id/7920",
+   "date": "2026"
+  },
+  {
+   "type": "dealer",
+   "name": "TokyoMods: Vortex X10 ECU Honda CRF450R/WE 2021-22",
+   "url": "https://tokyomods.com/shop/vortex/vortex-ecus/ecus/vortex-x10-ecu-honda-crf450r-we-2021/",
+   "date": "2026"
+  },
+  {
+   "type": "tuner",
+   "name": "TokyoMods: ECU reprogramming CRF450RX 2026",
+   "url": "https://tokyomods.com/tokyomods-ecu-reprogramming-crf450rx-2026/",
+   "date": "2026"
+  },
+  {
+   "type": "magazine",
+   "name": "Transmoto: GET's Honda-specific tuning tool (WiFi-COM2)",
+   "url": "https://transmoto.com.au/gets-honda-specific-tuning-tool",
+   "date": "2017-03"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum: Honda CRF chassis harshness",
+   "url": "https://www.vitalmx.com/comment/7302631",
+   "date": "2025-01"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum: 2025 CRF450R feedback?",
+   "url": "https://www.vitalmx.com/comment/7238631",
+   "date": "2024-12"
+  },
+  {
+   "type": "magazine",
+   "name": "Motofomo: Honda Unicam explained",
+   "url": "https://motofomo.com/honda-unicam-engine-design/",
+   "date": "2025"
+  },
+  {
+   "type": "calculation",
+   "name": "BAK MX calculation from published inputs",
+   "url": "",
+   "date": "2026-10"
+  }
+ ]
+}
