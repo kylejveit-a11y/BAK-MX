@@ -1,0 +1,1949 @@
+{
+ "slice": "KTM / Husqvarna / GasGas suspension, setups and engine mods 2020-2026",
+ "platform": {
+  "make": "KTM",
+  "models": [
+   "125 SX",
+   "150 SX",
+   "250 SX",
+   "300 SX",
+   "250 SX-F",
+   "350 SX-F",
+   "450 SX-F",
+   "125 XC",
+   "250 XC",
+   "300 XC",
+   "250 XC-F",
+   "350 XC-F",
+   "450 XC-F",
+   "150 XC-W",
+   "250 XC-W",
+   "300 XC-W",
+   "450 XCF-W",
+   "Husqvarna FC 250",
+   "Husqvarna FC 350",
+   "Husqvarna FC 450",
+   "Husqvarna TC 125",
+   "Husqvarna TC 250",
+   "Husqvarna FX 350",
+   "Husqvarna FX 450",
+   "Husqvarna TE 300",
+   "GasGas MC 250F",
+   "GasGas MC 350F",
+   "GasGas MC 450F",
+   "GasGas MC 125",
+   "GasGas MC 250",
+   "GasGas EX 300"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ]
+ },
+ "records": [
+  {
+   "id": "ks5-001",
+   "domain": "suspension",
+   "topic": "fork air pressure (OEM standard)",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "KTM sets the 2025 450 SX-F air fork at 10.5 bar (152 psi) for US bikes and 10.4 bar (151 psi) for EU/BR bikes, for a standard rider of 75-85 kg (165-187 lb). Change it in 0.2 bar (3 psi) steps, staying within 7-12 bar (102-174 psi).",
+   "values": {
+    "air_pressure_US": "10.5 bar (152 psi)",
+    "air_pressure_EU_BR": "10.4 bar (151 psi)",
+    "standard_rider_weight": "75-85 kg (165-187 lb)",
+    "adjust_step": "0.2 bar (3 psi)",
+    "allowed_range": "7-12 bar (102-174 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2025 450 SX-F / 450 XC-F (3240045en)",
+    "url": "https://www.ktmshop.se/bike-manuals/25_3240045_en_OM.pdf",
+    "date": "2024-05"
+   },
+   "confidence": "high",
+   "notes": "KTM's manual gives one standard pressure plus the step size, not a pressure-by-weight table. Set cold, before riding."
+  },
+  {
+   "id": "ks5-002",
+   "domain": "setups",
+   "topic": "shock spring rate by rider weight (OEM chart)",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "KTM's chart for the 2025 450 SX-F and 450 XC-F: 42 N/mm for 65-75 kg (143-165 lb), 45 N/mm (stock) for 75-85 kg (165-187 lb) and 48 N/mm for 85-95 kg (187-209 lb).",
+   "values": {
+    "65-75 kg (143-165 lb)": "42 N/mm (240 lb/in)",
+    "75-85 kg (165-187 lb)": "45 N/mm (257 lb/in)",
+    "85-95 kg (187-209 lb)": "48 N/mm (274 lb/in)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2025 450 SX-F / 450 XC-F (3240045en)",
+    "url": "https://www.ktmshop.se/bike-manuals/25_3240045_en_OM.pdf",
+    "date": "2024-05"
+   },
+   "confidence": "high",
+   "notes": "Same chart for SX-F EU/US/BR and XC-F US. Rider weight in riding gear."
+  },
+  {
+   "id": "ks5-003",
+   "domain": "setups",
+   "topic": "comfort / standard / sport clicker settings (OEM)",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "KTM gives three clicker presets, counted out from fully closed. Fork compression is 17 (comfort), 12 (standard) or 7 (sport). Fork rebound is 23/18/13 on US SX-F and XC-F bikes (17/12/7 on EU). Shock low-speed compression is 17/15/13 clicks, high-speed compression 2/1.5/1 turns and rebound 17/15/13 clicks.",
+   "values": {
+    "fork_compression_comfort_std_sport": "17 / 12 / 7 clicks",
+    "fork_rebound_US_comfort_std_sport": "23 / 18 / 13 clicks",
+    "fork_rebound_EU_BR": "17 / 12 / 7 clicks",
+    "shock_LSC": "17 / 15 / 13 clicks",
+    "shock_HSC": "2 / 1.5 / 1 turns",
+    "shock_rebound": "17 / 15 / 13 clicks"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2025 450 SX-F / 450 XC-F (3240045en)",
+    "url": "https://www.ktmshop.se/bike-manuals/25_3240045_en_OM.pdf",
+    "date": "2024-05"
+   },
+   "confidence": "high",
+   "notes": "Counted from fully clockwise (closed)."
+  },
+  {
+   "id": "ks5-004",
+   "domain": "setups",
+   "topic": "sag and fork position (OEM)",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "KTM specifies 35 mm static sag and 105 mm riding sag. The fork's second milled groove from the top sits flush with the top of the upper clamp, and the XC-F shock spring preload is 8 mm.",
+   "values": {
+    "static_sag": "35 mm (1.38 in)",
+    "riding_sag": "105 mm (4.13 in)",
+    "fork_position": "2nd groove flush with upper clamp",
+    "XC-F_spring_preload": "8 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2025 450 SX-F / 450 XC-F (3240045en)",
+    "url": "https://www.ktmshop.se/bike-manuals/25_3240045_en_OM.pdf",
+    "date": "2024-05"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ks5-005",
+   "domain": "setups",
+   "topic": "2023 250 SX-F / 250 XC-F OEM settings and spring chart",
+   "applies_to": {
+    "models": [
+     "250 SX-F",
+     "250 XC-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "For the 2023 250 SX-F, KTM lists fork air of 10.5 bar (152 psi) on US bikes, 10.3 bar on EU bikes and 9.8 bar (142 psi) on the US 250 XC-F air fork. The shock spring chart is 39 N/mm for 65-75 kg, 42 N/mm for 75-85 kg and 45 N/mm for 85-95 kg, with 105 mm riding sag.",
+   "values": {
+    "air_SX-F_US": "10.5 bar (152 psi)",
+    "air_SX-F_EU": "10.3 bar (149 psi)",
+    "air_XC-F_US": "9.8 bar (142 psi)",
+    "spring_65-75kg": "39 N/mm",
+    "spring_75-85kg": "42 N/mm",
+    "spring_85-95kg": "45 N/mm",
+    "fork_comp_comfort_std_sport": "17 / 12 / 7",
+    "fork_reb_US_comfort_std_sport": "23 / 18 / 13",
+    "shock_LSC": "17 / 15 / 13",
+    "shock_HSC": "2 / 1.5 / 1 turns",
+    "riding_sag": "105 mm",
+    "static_sag": "35 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2023 250 SX-F / 250 XC-F (3214640en)",
+    "url": "https://www.ktmshop.se/bike-manuals/23_3214640_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "The 2023 250 XC-F still had the air fork; from 2024 the XC-F uses the XACT closed-cartridge spring fork."
+  },
+  {
+   "id": "ks5-006",
+   "domain": "setups",
+   "topic": "tuner baseline 2025 KTM 450 SX-F (motocross)",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Motocross baseline with stock clamps: fork 10.8 bar (156 psi), 3 mm up in the clamps, compression 10 clicks, rebound 15 out. Shock: 45 N/mm spring (48 N/mm over 195 lb), 102 mm sag, low-speed 10 out, high-speed 1.25 turns out, rebound 12 out.",
+   "values": {
+    "fork_air": "10.8 bar (156 psi)",
+    "fork_height": "3 mm",
+    "fork_compression": "10 clicks",
+    "fork_rebound": "15 out",
+    "shock_spring": "45 N/mm (48 over 195 lb)",
+    "sag": "102 mm",
+    "LSC": "10 out",
+    "HSC": "1.25 turns out",
+    "rebound": "12 out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Tested - 2025 450 MX Baseline Suspension Settings",
+    "url": "https://www.keeferinctesting.com/?p=28578",
+    "date": "2025-01"
+   },
+   "confidence": "high",
+   "notes": "Discipline motocross (Southern California tracks). No rider weight given beyond the spring threshold. Recheck settings after 6-7 engine hours of break-in."
+  },
+  {
+   "id": "ks5-007",
+   "domain": "setups",
+   "topic": "aftermarket triple clamp settings 2025-2026 KTM 450 SX-F",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "With aftermarket clamps the same tuner raises fork air to 10.9 bar (158 psi), keeps 3 mm fork height and runs compression 14 out and rebound 14 out; the stiffer clamp lets the fork run more air with softer compression.",
+   "values": {
+    "fork_air": "10.9 bar (158 psi)",
+    "fork_height": "3 mm",
+    "fork_compression": "14 out",
+    "fork_rebound": "14 out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Tested - 2025 450 MX Baseline Suspension Settings",
+    "url": "https://www.keeferinctesting.com/?p=28578",
+    "date": "2025-01"
+   },
+   "confidence": "high",
+   "notes": "Clamps named in source: KTM Factory hard parts or Ride Engineering. Same values repeated in the 2026 article."
+  },
+  {
+   "id": "ks5-008",
+   "domain": "setups",
+   "topic": "tuner baseline 2026 KTM 450 SX-F (carry-over)",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "For 2026 the motocross baseline is unchanged from 2025: fork 10.8 bar, 3 mm, compression 10, rebound 15 out; shock 45 N/mm (48 over 195 lb), 102 mm sag, LSC 10 out, HSC 1.25 out, rebound 12 out.",
+   "values": {
+    "fork_air": "10.8 bar (156 psi)",
+    "fork_height": "3 mm",
+    "fork_compression": "10",
+    "fork_rebound": "15 out",
+    "shock_spring": "45 N/mm",
+    "sag": "102 mm",
+    "LSC": "10 out",
+    "HSC": "1.25 out",
+    "rebound": "12 out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Tested - 2026 450 MX Baseline Suspension Settings",
+    "url": "https://www.keeferinctesting.com/?p=29670",
+    "date": "2026-03"
+   },
+   "confidence": "high",
+   "notes": "Published March 2026."
+  },
+  {
+   "id": "ks5-009",
+   "domain": "setups",
+   "topic": "tuner baseline 2025-2026 Husqvarna FC 450",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Motocross baseline for the FC 450: fork 10.9 bar (158 psi), 3 mm, compression 12 out, rebound 13 out (14 out compression with aftermarket clamps). Shock: 45 N/mm (48 over 190 lb), 102 mm sag, LSC 8 out, HSC 1.25 out, rebound 9 out.",
+   "values": {
+    "fork_air": "10.9 bar (158 psi)",
+    "fork_height": "3 mm",
+    "fork_compression": "12 out (14 with aftermarket clamps)",
+    "fork_rebound": "13 out",
+    "shock_spring": "45 N/mm (48 over 190 lb)",
+    "sag": "102 mm",
+    "LSC": "8 out",
+    "HSC": "1.25 out",
+    "rebound": "9 out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Tested - 2025 450 MX Baseline Suspension Settings",
+    "url": "https://www.keeferinctesting.com/?p=28578",
+    "date": "2025-01"
+   },
+   "confidence": "high",
+   "notes": "2026 article says the FC 450 settings repeat 2025. The FC 450 runs more air and slower rebound than the KTM because it sits about 1 in lower (10 mm shorter forks, different linkage)."
+  },
+  {
+   "id": "ks5-010",
+   "domain": "setups",
+   "topic": "tuner baseline 2025-2026 GasGas MC 450F",
+   "applies_to": {
+    "models": [
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Motocross baseline for the MC 450F: fork 10.9 bar, 3 mm, compression 13 out, rebound 12 out. With aftermarket clamps run 11 bar, compression 11 out and rebound 10 out. Shock: 45 N/mm (48 over 190 lb), 103 mm sag, LSC 10 out, HSC 1.25 out, rebound 8-9 out.",
+   "values": {
+    "fork_air": "10.9 bar (11 bar with aftermarket clamps)",
+    "fork_height": "3 mm",
+    "fork_compression": "13 out (11 with aftermarket clamps)",
+    "fork_rebound": "12 out (10 with aftermarket clamps)",
+    "shock_spring": "45 N/mm (48 over 190 lb)",
+    "sag": "103 mm",
+    "LSC": "10 out",
+    "HSC": "1.25 out",
+    "rebound": "8-9 out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Tested - 2025 450 MX Baseline Suspension Settings",
+    "url": "https://www.keeferinctesting.com/?p=28578",
+    "date": "2025-01"
+   },
+   "confidence": "high",
+   "notes": "GasGas has softer valving and forged clamps, so it runs more air than the KTM. 2026 article lists stock-clamp values only."
+  },
+  {
+   "id": "ks5-011",
+   "domain": "setups",
+   "topic": "tuner baseline 2024 KTM 450 SX-F (160-200 lb)",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "For 160-200 lb motocross riders: fork 10.9 bar (158 psi), 3 mm, compression 12 out (14 out with aftermarket clamps), rebound 14 out. Shock: 102 mm sag, LSC 9 out, HSC 1.25 out, rebound 11 out. The tuner found KTM's recommendation of 10.7 bar, compression 12 and rebound 18 too soft.",
+   "values": {
+    "rider_weight": "160-200 lb",
+    "fork_air": "10.9 bar (158 psi)",
+    "fork_height": "3 mm",
+    "fork_compression": "12 out (14 with aftermarket clamps)",
+    "fork_rebound": "14 out",
+    "sag": "102 mm",
+    "LSC": "9 out",
+    "HSC": "1.25 out",
+    "rebound": "11 out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Tested - 2024 450 MX Baseline Suspension Settings",
+    "url": "https://www.keeferinctesting.com/?p=27510",
+    "date": "2023-11"
+   },
+   "confidence": "high",
+   "notes": "Published November 2023. No spring rates given."
+  },
+  {
+   "id": "ks5-012",
+   "domain": "setups",
+   "topic": "tuner baseline 2024 Husqvarna FC 450",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "For 160-200 lb riders: fork 10.9 bar, 3 mm, compression 12 out, rebound 13 out (11 bar and compression 14 out with aftermarket clamps). Shock: 102 mm sag, LSC 8 out, HSC 1.25 out, rebound 9 out. The tester found the stock shock spring too soft for a fast rider and suggests a stiffer spring as the real fix.",
+   "values": {
+    "rider_weight": "160-200 lb",
+    "fork_air": "10.9 bar (11 with aftermarket clamps)",
+    "fork_compression": "12 out (14 with aftermarket clamps)",
+    "fork_rebound": "13 out",
+    "sag": "102 mm",
+    "LSC": "8 out",
+    "HSC": "1.25 out",
+    "rebound": "9 out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Tested - 2024 450 MX Baseline Suspension Settings",
+    "url": "https://www.keeferinctesting.com/?p=27510",
+    "date": "2023-11"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ks5-013",
+   "domain": "setups",
+   "topic": "tuner baseline 2024 GasGas MC 450F",
+   "applies_to": {
+    "models": [
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "For 160-200 lb riders: fork 10.9 bar, 3 mm, compression 13 out, rebound 12 out (11 bar, compression 11 out, rebound 10 out with aftermarket clamps). Shock: 103 mm sag, LSC 10 out, HSC 1.25 out, rebound 8-9 out.",
+   "values": {
+    "rider_weight": "160-200 lb",
+    "fork_air": "10.9 bar (11 with aftermarket clamps)",
+    "fork_compression": "13 out (11)",
+    "fork_rebound": "12 out (10)",
+    "sag": "103 mm",
+    "LSC": "10 out",
+    "HSC": "1.25 out",
+    "rebound": "8-9 out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Tested - 2024 450 MX Baseline Suspension Settings",
+    "url": "https://www.keeferinctesting.com/?p=27510",
+    "date": "2023-11"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ks5-014",
+   "domain": "setups",
+   "topic": "2024 450 SX-F Factory Edition fork oil-height setup",
+   "applies_to": {
+    "models": [
+     "450 SX-F Factory Edition"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "On the 2024 Factory Edition one tester raised fork oil from 240 to 250 ml and dropped air to 10.2 bar (10.3 if landings feel soft), with compression 10 out and rebound 16 out. More oil plus less air gave more hold-up and better slap-down absorption without the harshness of simply adding air. Shock: 102 mm sag, rebound 14.",
+   "values": {
+    "fork_oil": "250 ml (stock 240 ml)",
+    "fork_air": "10.2 bar (10.3 optional)",
+    "fork_compression": "10 out",
+    "fork_rebound": "16 out",
+    "sag": "102 mm",
+    "shock_LSC_HSC_as_printed": "LSC 1.25 turns, HSC 12 clicks",
+    "shock_rebound": "14"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Tested - 2024 KTM 450 SX-F Factory Edition",
+    "url": "https://www.keeferinctesting.com/?p=27864",
+    "date": "2024-03"
+   },
+   "confidence": "medium",
+   "notes": "Ridden on firm, bumpy tracks in Georgia and Florida; rider weight not given. The source lists LSC as 1.25 turns and HSC as 12 clicks, which looks swapped (HSC is the turns adjuster); read as HSC 1.25 turns, LSC 12 clicks."
+  },
+  {
+   "id": "ks5-015",
+   "domain": "setups",
+   "topic": "2026 450 SX-F Factory Edition (XACT PRO coil) baseline",
+   "applies_to": {
+    "models": [
+     "450 SX-F Factory Edition"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "For the 2026 Factory Edition's WP XACT PRO coil fork and shock: fork spring 5.0 N/mm (4.8 for riders under 195 lb), 2.5 mm height, compression 15-16 out, rebound 23 out. Shock spring 45 N/mm (48 over 200 lb), 102 mm sag (try 100 mm if the rear sits low on acceleration), high-speed compression 17 out, low-speed compression 16 out, high-speed rebound 11 out, low-speed rebound 22 out.",
+   "values": {
+    "fork_spring": "5.0 N/mm (4.8 under 195 lb)",
+    "fork_height": "2.5 mm",
+    "fork_compression": "15-16 out",
+    "fork_rebound": "23 out",
+    "shock_spring": "45 N/mm (48 over 200 lb)",
+    "sag": "102 mm (100 optional)",
+    "HSC": "17 out",
+    "LSC": "16 out",
+    "HSR": "11 out",
+    "LSR": "22 out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Tested - 2026 KTM 450 SX-F Factory Edition settings",
+    "url": "https://www.keeferinctesting.com/?p=29725",
+    "date": "2026-04"
+   },
+   "confidence": "high",
+   "notes": "Source writes the shock spring as 0.45/0.48 N/m; read as 45/48 N/mm. The XACT PRO 8950 shock has separate high- and low-speed rebound adjusters, unlike the standard shock."
+  },
+  {
+   "id": "ks5-016",
+   "domain": "suspension",
+   "topic": "fork travel indicator: when to change air",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Use the fork's rubber travel ring: if it is pushed all the way down after a ride, add a couple of psi; if it stops more than 3 inches from the bottom, lower the pressure. If the fork bottoms at stock pressure, first try a couple of clicks more compression; on doubt about compression, change shock high-speed compression first.",
+   "values": {
+    "ring_at_bottom": "add ~2 psi",
+    "ring_more_than_3_in_up": "lower pressure",
+    "bottoming_at_stock_air": "add a couple clicks compression"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Ask the MXperts: 2023 KTM 450SXF suspension advice",
+    "url": "https://motocrossactionmag.com/ask-the-mxperts-2023-ktm-450sxf-suspension-advice",
+    "date": "2024-07"
+   },
+   "confidence": "medium",
+   "notes": "Same article gives the race settings already held in k45-098 (158/152/145/138 psi expert/intermediate/vet/novice; shock 45 N/mm for 175 lb and up, 42 N/mm under 175 lb, 105 mm sag). Tier MEASURED used for magazine test-rider practice; it is a method, not a measurement."
+  },
+  {
+   "id": "ks5-017",
+   "domain": "suspension",
+   "topic": "tuner revalve and linkage for faster riders (2021-2022)",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "One aftermarket tuner's package for the AER-fork 450 SX-F adds a stiffer mid-valve and a low-speed stack in place of the stock bleed hole (more initial control and hold-up), a bladder conversion for the shock (less friction, more nitrogen volume), and a linkage that is softer early and ramps up deeper. It fixed a setup that was too soft for fast riders on rough tracks, at some cost to initial plushness.",
+   "values": {
+    "fork_revalve": "$164.95",
+    "shock_revalve": "$164.95",
+    "shock_bladder_kit": "$265.54",
+    "linkage": "$445.00",
+    "aluminium_shock_collar": "$69.95"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Team Tested: Pro Circuit KTM 450SXF fork, shock & linkage mods",
+    "url": "https://motocrossactionmag.com/mxa-team-tested-pro-circuit-ktm-450sxf-fork-shock-linkage-mods",
+    "date": "2022-06"
+   },
+   "confidence": "medium",
+   "notes": "Previous-generation frame (2019-2022). The linkage needs a stiffer shock spring. No settings published."
+  },
+  {
+   "id": "ks5-018",
+   "domain": "suspension",
+   "topic": "XACT PRO conversion and revalve (2020)",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "On a 2020 450 SX-F, WP XACT PRO coil fork and shock revalved by a former factory tuner fixed a rigid, harsh front and a shock that felt empty on jump faces; the tuner set the fork 7 mm up in the clamps, and the first valving was too stiff and was softened.",
+   "values": {
+    "fork_height": "7 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "PulpMX - REP / WP Pro Components re-valve KTM 450 SX-F",
+    "url": "https://pulpmx.com/?p=159710",
+    "date": "2020-04"
+   },
+   "confidence": "medium",
+   "notes": "Previous-generation chassis. No clicker, spring or rider-weight numbers published."
+  },
+  {
+   "id": "ks5-019",
+   "domain": "suspension",
+   "topic": "WP XACT PRO 7548 fork and 8950 shock",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "125 SX",
+     "250 SX",
+     "300 SX"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "WP's XACT PRO 7548 Cone Valve fork has coil springs and damping in both legs, a pressurised cartridge and external preload adjustment; the XACT PRO 8950 shock adds linked damping, a drop-out bypass that speeds rebound when the wheel leaves the ground, and separate high-speed rebound. Launch prices were $3,649 for the fork and $2,349 for the shock.",
+   "values": {
+    "fork_price": "$3,649",
+    "shock_price": "$2,349",
+    "fork": "48 mm closed cartridge, coil both legs",
+    "shock": "linked damping, SuperTrax drop-out bypass, TXN high-speed rebound"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Product Spotlight: XACT Pro components for 2023 KTM motocross bikes",
+    "url": "https://motocrossactionmag.com/mxa-product-spotlight-xact-pro-components-for-the-ktm-2023-motocross-bikes",
+    "date": "2022-05"
+   },
+   "confidence": "medium",
+   "notes": "Four-stroke versions May 2022, two-stroke September 2022. Same hardware is stock on the 2026 SX-F Factory Editions. Specifications as reported by a magazine from WP launch material."
+  },
+  {
+   "id": "ks5-020",
+   "domain": "suspension",
+   "topic": "2026 Factory Edition suspension hardware",
+   "applies_to": {
+    "models": [
+     "450 SX-F Factory Edition",
+     "250 SX-F Factory Edition"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The 2026 SX-F Factory Editions come with the WP XACT PRO 7548 48 mm closed-cartridge coil fork and the XACT PRO 8950 shock (50 mm piston, 240 mm spring), plus a WP start device that holds the fork down for starts.",
+   "values": {
+    "fork": "WP XACT PRO 7548, 48 mm, closed cartridge",
+    "shock": "WP XACT PRO 8950, 50 mm piston, 240 mm spring",
+    "fork_spring_options": "15 selectable rates (dealer claim)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM - 2026 KTM 450 SX-F Factory Edition model page",
+    "url": "https://www.ktm.com/models/motocross/4-stroke/2026-ktm-450-sx-ffactoryedition",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "The 15 spring-rate options come from a dealer article (Lings) and are low confidence; KTM's page does not state them."
+  },
+  {
+   "id": "ks5-021",
+   "domain": "suspension",
+   "topic": "coil cartridge conversion (WP 6500 kit)",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Replacing the AER air cartridge with WP's 6500 coil cartridge kit gave a base setting softer but more compliant than stock; further tuner valving improved comfort and traction more.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Tested - 8 Ways To Get Less Rigidity Out Of Your 2023/2024 KTM 450 SX-F",
+    "url": "https://www.keeferinctesting.com/8-ways-to-get-less-rigidity-out-of-your-2023-2024-ktm-450-sx-f/",
+    "date": "2023-05"
+   },
+   "confidence": "medium",
+   "notes": "No spring or clicker numbers given. Owners on forums report similar comfort gains from other coil kits."
+  },
+  {
+   "id": "ks5-022",
+   "domain": "chassis",
+   "topic": "KTM factory triple clamp offset options",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "125 SX",
+     "250 SX",
+     "300 SX",
+     "250 XC",
+     "300 XC",
+     "250 XC-F",
+     "350 XC-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "KTM's Factory Racing CNC triple clamp (A4600199902104A) can be set to 20 mm or 22 mm offset: the shorter offset adds straight-line stability and the longer one turns quicker. It costs about 497 GBP.",
+   "values": {
+    "part_number": "A4600199902104A",
+    "offset_options": "20 mm / 22 mm",
+    "price": "497 GBP"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "KTM Direct (UK) - KTM Factory Racing Triple Clamp A4600199902104A",
+    "url": "https://ktmdirect.co.uk/products/factory-racing-triple-clamp-a4600199902104a",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "Dealer listing of a KTM PowerParts item (fitment list includes SX-F 2023-2026, SX 2023/2024-2026, XC 2023-2026, XC-F 2023-2026, XC-W 125 2025-2026, 300 XC-W 2024-2026). Stock offset is 22 mm."
+  },
+  {
+   "id": "ks5-023",
+   "domain": "chassis",
+   "topic": "aftermarket offset clamps 2023-2024",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "23.5 mm offset split clamps make the bike feel more planted leaning in off-throttle, reduce front-end tuck in flat corners and cut vibration to the hands; 24 mm offset clamps with a rubber-mounted bar are an alternative.",
+   "values": {
+    "split_clamp_offset": "23.5 mm",
+    "alternative_offset": "24 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Tested - 8 Ways To Get Less Rigidity Out Of Your 2023/2024 KTM 450 SX-F",
+    "url": "https://www.keeferinctesting.com/8-ways-to-get-less-rigidity-out-of-your-2023-2024-ktm-450-sx-f/",
+    "date": "2023-05"
+   },
+   "confidence": "high",
+   "notes": "Brands named in source: Ride Engineering (23.5 mm), X-Trig ROCS (24 mm)."
+  },
+  {
+   "id": "ks5-024",
+   "domain": "chassis",
+   "topic": "engine mounts to reduce rigidity",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Medium-flex aftermarket engine mounts reduced harsh slap-down and peg vibration and improved lean-angle grip; with them sag went from 103 to 105 mm. Soft mounts suit fast desert tracks with no jumps. Cutting the middle out of the stock top mount is a cheap way to absorb small bumps better.",
+   "values": {
+    "sag_before": "103 mm",
+    "sag_after_medium_mounts": "105 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Tested - 8 Ways To Get Less Rigidity Out Of Your 2023/2024 KTM 450 SX-F",
+    "url": "https://www.keeferinctesting.com/8-ways-to-get-less-rigidity-out-of-your-2023-2024-ktm-450-sx-f/",
+    "date": "2023-05"
+   },
+   "confidence": "medium",
+   "notes": "Brand in source: Works Chassis Lab (medium and soft). The 2025 frame and black mounts address the same stiffness from the factory."
+  },
+  {
+   "id": "ks5-025",
+   "domain": "chassis",
+   "topic": "swingarm pivot torque and chain slack",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Lowering the swingarm pivot bolt torque to 95 Nm reduces side-to-side deflection over braking and acceleration bumps; use blue thread-lock or check the nut often. Keeping chain slack at 65-70 mm (a figure attributed to KTM development) lets the suspension move freely.",
+   "values": {
+    "pivot_torque": "95 Nm",
+    "chain_slack": "65-70 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Tested - 8 Ways To Get Less Rigidity Out Of Your 2023/2024 KTM 450 SX-F",
+    "url": "https://www.keeferinctesting.com/8-ways-to-get-less-rigidity-out-of-your-2023-2024-ktm-450-sx-f/",
+    "date": "2023-05"
+   },
+   "confidence": "high",
+   "notes": "The same pivot-torque trick is held for the 350 in k35-080; the 2025 350 baseline repeats it and says it also applies to Husqvarna and GasGas."
+  },
+  {
+   "id": "ks5-026",
+   "domain": "chassis",
+   "topic": "other rigidity tweaks",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Other tweaks: a flex-friendly bar cut to 803 mm, floating rear axle blocks that let the wheel move a few millimetres for plusher square edges, shimming the engine mounts behind the frame bolt holes to calm braking bumps, and a titanium front engine bolt to restore front-end feel if cut or soft mounts make it vague.",
+   "values": {
+    "bar_width": "803 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Tested - 8 Ways To Get Less Rigidity Out Of Your 2023/2024 KTM 450 SX-F",
+    "url": "https://www.keeferinctesting.com/8-ways-to-get-less-rigidity-out-of-your-2023-2024-ktm-450-sx-f/",
+    "date": "2023-05"
+   },
+   "confidence": "medium",
+   "notes": "Suggested for riders about 5 ft 8 in to 6 ft 0 in."
+  },
+  {
+   "id": "ks5-027",
+   "domain": "engine_mods",
+   "topic": "Yoshimura RS-12 titanium full system",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "A $1,299 titanium full system softened the 450's big low-end hit, making corner exits easier while it still pulled hard from mid to top and revved very far; on one tight track the tester felt the low end was tamed too much.",
+   "values": {
+    "price": "$1,299"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Swapmoto Live - Yoshimura RS-12 titanium full system, 2023 KTM 450 SX-F",
+    "url": "https://www.swapmotolive.com/?p=153259",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Track test only; no dyno numbers published. Stock dynos for 2023-2026 are already held in ktm450sxf.json."
+  },
+  {
+   "id": "ks5-028",
+   "domain": "engine_mods",
+   "topic": "2026 Factory Edition engine and exhaust",
+   "applies_to": {
+    "models": [
+     "450 SX-F Factory Edition",
+     "250 SX-F Factory Edition"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The 2026 Factory Editions use an Akrapovic titanium slip-on built to meet the FIM 109 dB limit, plus updated intake and mapping. KTM is quoted claiming 63 hp for the 450 and 47 hp for the 250.",
+   "values": {
+    "exhaust": "Akrapovic titanium slip-on",
+    "sound_limit": "109 dB (FIM)",
+    "claimed_hp_450": "63 hp",
+    "claimed_hp_250": "47 hp"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Lings - 2026 KTM SX-F Factory Editions",
+    "url": "https://lings.com/blogs/news/2026-ktm-sx-f-factory-editions-factory-precision-for-every-rider",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Horsepower claims come via a dealer article; KTM's own page confirms the slip-on and the intake/mapping update. Engine-only claim, not rear-wheel dyno."
+  },
+  {
+   "id": "ks5-029",
+   "domain": "engine_mods",
+   "topic": "tuner-built 350 SX-F (head, piston, ECU, exhaust)",
+   "applies_to": {
+    "models": [
+     "350 SX-F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "One tuner build: ported cylinder head decked for more compression with a CNC valve job ($1,100), matching high-compression piston ($475), high-flow intake venturi ($35), aftermarket ECU with 10 maps ($1,059) and a titanium full exhaust ($1,299). The higher compression needs race fuel. The bottom end stayed stock.",
+   "values": {
+    "head_work": "$1,100",
+    "piston": "$475",
+    "ecu": "$1,059 (10 maps)",
+    "exhaust": "$1,299 titanium full system",
+    "fuel": "VP Pro 6 race fuel required"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Swapmoto Live - 2024 KTM 350 SX-F Dream Build",
+    "url": "https://www.swapmotolive.com/?p=165184",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "No dyno figures published; the stock map switch, traction control and quickshifter still work. Suspension was converted to a KYB-cartridge spring fork kit and the shock revalved for the rider."
+  },
+  {
+   "id": "ks5-030",
+   "domain": "setups",
+   "topic": "tuner baseline 2024-2026 KTM 250 SX-F (150-180 lb)",
+   "applies_to": {
+    "models": [
+     "250 SX-F"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "For 150-180 lb motocross riders: fork 10.6 bar (10.5 during break-in), 5 mm, compression 12 out (or 15 out at 10.7 bar), rebound 10 out. Shock 42 N/mm, 102 mm sag, HSC 1.75 out, LSC 10 out, rebound 11 out. Riders under 150 lb should run about 10.3 bar with the same clickers.",
+   "values": {
+    "rider_weight": "150-180 lb",
+    "fork_air": "10.6 bar (10.5 break-in; ~10.3 under 150 lb)",
+    "fork_height": "5 mm",
+    "fork_compression": "12 out (15 out at 10.7 bar)",
+    "fork_rebound": "10 out",
+    "shock_spring": "42 N/mm",
+    "sag": "102 mm",
+    "HSC": "1.75 out",
+    "LSC": "10 out",
+    "rebound": "11 out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Tested - 2025 250 MX Baseline Suspension Settings",
+    "url": "https://www.keeferinctesting.com/?p=28690",
+    "date": "2025-02"
+   },
+   "confidence": "high",
+   "notes": "Same values published for 2024 (Nov 2023), 2025 (Feb 2025) and 2026 (June 2026). The AER fork needs 6-7 engine hours to break in and feels stiff before that."
+  },
+  {
+   "id": "ks5-031",
+   "domain": "setups",
+   "topic": "tuner baseline 2024-2026 GasGas MC 250F",
+   "applies_to": {
+    "models": [
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Same fork baseline as the KTM (10.6 bar, 5 mm, compression 12 out or 15 at 10.7 bar, rebound 10 out). Shock 42 N/mm, 102-103 mm sag (103-104 mm in 2024), HSC 1.75-2 turns out, LSC 11 out, rebound 11 out.",
+   "values": {
+    "fork_air": "10.6 bar",
+    "fork_height": "5 mm",
+    "fork_compression": "12 out",
+    "fork_rebound": "10 out",
+    "shock_spring": "42 N/mm",
+    "sag": "102-103 mm (2024: 103-104)",
+    "HSC": "1.75-2 out",
+    "LSC": "11 out",
+    "rebound": "11 out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Tested - 2025 250 MX Baseline Suspension Settings",
+    "url": "https://www.keeferinctesting.com/?p=28690",
+    "date": "2025-02"
+   },
+   "confidence": "high",
+   "notes": "For 150-180 lb riders."
+  },
+  {
+   "id": "ks5-032",
+   "domain": "setups",
+   "topic": "tuner baseline 2024-2025 Husqvarna FC 250",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "Fork 10.7 bar, 5 mm, compression 14 out, rebound 9 out; shock 42 N/mm, 102 mm sag, HSC 1.5-1.75 out, LSC 10 out, rebound 11 out. It runs stiffer than the KTM because the Husqvarna sits lower; open HSC to 1.75 out for more front-end steering and grip in corners.",
+   "values": {
+    "fork_air": "10.7 bar",
+    "fork_height": "5 mm",
+    "fork_compression": "14 out",
+    "fork_rebound": "9 out",
+    "shock_spring": "42 N/mm",
+    "sag": "102 mm",
+    "HSC": "1.5-1.75 out",
+    "LSC": "10 out",
+    "rebound": "11 out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Tested - 2025 250 MX Baseline Suspension Settings",
+    "url": "https://www.keeferinctesting.com/?p=28690",
+    "date": "2025-02"
+   },
+   "confidence": "high",
+   "notes": "For 150-180 lb riders. There was no 2026 FC 250; the 2026 article repeats 2025."
+  },
+  {
+   "id": "ks5-033",
+   "domain": "setups",
+   "topic": "junior race setup, deep loam (130 lb)",
+   "applies_to": {
+    "models": [
+     "250 SX-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "A 130 lb (without gear) 15-year-old amateur raced a revalved 250 SX-F in deep loam with the fork at 10 bar, compression 15, rebound 11, 5 mm height, and the shock at 104 mm sag, LSC 12, HSC 1.25, rebound 12. Raising air to 10 bar cut fork dive on deceleration; HSC was then turned in 1/8 turn because the rear sat low on acceleration. Gearing went from 14/51 to 14/52 for the deep dirt.",
+   "values": {
+    "rider_weight": "130 lb (no gear)",
+    "fork_air": "10 bar",
+    "fork_compression": "15",
+    "fork_rebound": "11",
+    "fork_height": "5 mm",
+    "sag": "104 mm",
+    "LSC": "12",
+    "HSC": "1.25 (then in 1/8 turn)",
+    "rebound": "12",
+    "gearing": "14/52 (stock 14/51)",
+    "holeshot_device": "120 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Tested - The Weekend Race Set Up (Fox Raceway amateur day)",
+    "url": "https://www.keeferinctesting.com/?p=13320",
+    "date": "2021-06"
+   },
+   "confidence": "medium",
+   "notes": "Previous-generation 250 SX-F with custom-valved suspension (tuner spec codes), so clickers do not transfer directly to stock. An FMF 4.1 system gave stronger low end and weaker top end than the stock exhaust."
+  },
+  {
+   "id": "ks5-034",
+   "domain": "setups",
+   "topic": "tuner baseline 2025 KTM 350 SX-F (175-200 lb)",
+   "applies_to": {
+    "models": [
+     "350 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "For 175-200 lb riders: fork 10.8 bar, 2-3 mm up, compression 14 out, rebound 15-16 out. Shock: 103 mm sag, LSC 12 out, HSC 1.5 turns out, rebound 16 out. Lower the swingarm pivot torque to 95 Nm. Allow 6-8 hours of suspension break-in.",
+   "values": {
+    "rider_weight": "175-200 lb",
+    "fork_air": "10.8 bar",
+    "fork_height": "2-3 mm",
+    "fork_compression": "14 out",
+    "fork_rebound": "15-16 out",
+    "sag": "103 mm",
+    "LSC": "12 out",
+    "HSC": "1.5 out",
+    "rebound": "16 out",
+    "pivot_torque": "95 Nm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Tested - 2025 KTM 350 SX-F Baseline Suspension Settings",
+    "url": "https://www.keeferinctesting.com/?p=29243",
+    "date": "2025-09"
+   },
+   "confidence": "high",
+   "notes": "Fork sits 2 mm lower than the 2024 baseline (5 mm). Not valid for the Husqvarna FC 350, which has different suspension specs."
+  },
+  {
+   "id": "ks5-035",
+   "domain": "setups",
+   "topic": "sand setting from the KTM app (85 kg B rider)",
+   "applies_to": {
+    "models": [
+     "350 SX-F"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "An owner reported that the KTM app's sand setting for an 85 kg intermediate (B) rider is fork 10.7 bar (about 155 psi), compression 5 clicks, rebound 14, fork tubes with no rings showing, and shock LSC 8, HSC 1 turn, rebound 8.",
+   "values": {
+    "rider_weight": "85 kg (~187 lb) + ~10 lb gear",
+    "skill": "B / intermediate",
+    "fork_air": "10.7 bar (~155 psi)",
+    "fork_compression": "5",
+    "fork_rebound": "14",
+    "fork_height": "0 rings",
+    "LSC": "8",
+    "HSC": "1 turn",
+    "rebound": "8"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX - '22 AER48 KTM 350 SXF clickers/fork air for deep sand tracks",
+    "url": "https://www.vitalmx.com/comment/4909856",
+    "date": "2023-02"
+   },
+   "confidence": "low",
+   "notes": "Second-hand report of KTM app output, not checked against the app. Sag not given; posters advise against sag as low as 98 mm in sand."
+  },
+  {
+   "id": "ks5-036",
+   "domain": "setups",
+   "topic": "deep-sand changes from owners",
+   "applies_to": {
+    "models": [
+     "350 SX-F",
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "Owners on deep sand: a 200 lb C rider dropped from 152 to 140 psi with compression in the mid-20s out, then added about 4 psi, 2-4 clicks of compression and raised sag to 103-105 mm for sand. A 150 lb GasGas MC 350F rider ran 140 psi, compression 14 out, HSC 1.75, LSC 15 and 104 mm sag. Several riders run 105-110 mm sag at sand tracks to ride on top of the sand.",
+   "values": {
+    "200lb_C_fork": "140 psi, comp 26-28 out; sand +4 psi, +2-4 clicks",
+    "200lb_C_sag": "100 -> 103-105 mm",
+    "150lb_MC350F": "140 psi, comp 14 out, HSC 1.75, LSC 15, sag 104 mm",
+    "sand_sag_range": "105-110 mm"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX - '22 AER48 KTM 350 SXF clickers/fork air for deep sand tracks",
+    "url": "https://www.vitalmx.com/comment/4909856",
+    "date": "2023-02"
+   },
+   "confidence": "low",
+   "notes": "Several agreeing rider reports, Feb-Mar 2023, on 2021-2022 AER-fork bikes. Opening HSC to 2 turns made the GasGas wallow under acceleration but helped square edges."
+  },
+  {
+   "id": "ks5-037",
+   "domain": "setups",
+   "topic": "heavier rider shock spring on FC 350",
+   "applies_to": {
+    "models": [
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "For a 190 lb C rider on a stock FC 350 (42 N/mm shock spring, 154 psi fork), owners suggested going up one step to 45 N/mm, or even 48 N/mm.",
+   "values": {
+    "stock_spring": "42 N/mm",
+    "suggested": "45 N/mm (48 possible)",
+    "stock_fork_air": "154 psi",
+    "rider": "190 lb, C"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX - FC 350 air fork base settings",
+    "url": "https://www.vitalmx.com/comment/4062315",
+    "date": "2021-10"
+   },
+   "confidence": "low",
+   "notes": "Suggestions only; no tested outcome reported."
+  },
+  {
+   "id": "ks5-038",
+   "domain": "setups",
+   "topic": "setting fork air by travel (owners)",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Owners commonly set air so the fork stops about 1 to 1.5 inches from bottoming on the biggest regular hits (checked with a zip tie or O-ring), then tune with clickers and leave the air alone; aim for 103-105 mm shock sag. A rider of 245-255 lb with gear chose a 5.8 kg/mm shock spring.",
+   "values": {
+    "travel_reserve": "1-1.5 in from bottoming",
+    "sag": "103-105 mm",
+    "heavy_rider_spring": "5.8 kg/mm (~57 N/mm) at 245-255 lb with gear"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX - '23+ KTM SX-F Suspension Setup Tips",
+    "url": "https://www.vitalmx.com/comment/7074936",
+    "date": "2024-10"
+   },
+   "confidence": "low",
+   "notes": "Thread Oct 2024. Spring units as posted (kg/mm, from an aftermarket chart: 5.4 for 231-254 lb, 5.8 for 254-276 lb); the poster did not say which bike the chart covers. Posters note that the 2025 engine mounts can be fitted to 2023-2024 bikes for about $80, and that a shock-linkage knuckle change lets the shock run softer compression without bottoming."
+  },
+  {
+   "id": "ks5-039",
+   "domain": "setups",
+   "topic": "fork air reported by heavier riders (AER 48)",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "250 SX-F",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2018,
+     2019,
+     2020
+    ]
+   },
+   "statement": "Riders around 200 lb reported running about 160 psi in the AER 48 fork, and a 220 lb FC 450 rider varied between about 10.5 and 11.1 bar (152-161 psi) by track.",
+   "values": {
+    "200_lb": "~160 psi",
+    "210-215_lb_with_gear": "155-170 psi suggested",
+    "220_lb_FC450": "10.5-11.1 bar"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX - WP AER 48 forks: correct pressure for my weight?",
+    "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/WP-AER-48-Forks-Whats-the-correct-pressure-for-my-weight,1377704",
+    "date": "2020-06"
+   },
+   "confidence": "low",
+   "notes": "June 2020 thread; most posters did not give bike years. Earlier fork generation (pre-2023 hydrostop), so treat as a rough guide only."
+  },
+  {
+   "id": "ks5-040",
+   "domain": "setups",
+   "topic": "tuner baseline 2023 KTM 300 SX (170-190 lb)",
+   "applies_to": {
+    "models": [
+     "300 SX"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "For 170-190 lb riders: fork 10.7 bar, compression 14 out, rebound 14 out, 4-5 mm up. Shock 45 N/mm, 103 mm sag, LSC 10-11 out, HSC 1.25 out, rebound 11-12 out. Over 185 lb, fit a 48 N/mm spring and run LSC 15 out, HSC 1.5 out, rebound 12 out.",
+   "values": {
+    "rider_weight": "170-190 lb",
+    "fork_air": "10.7 bar",
+    "fork_compression": "14 out",
+    "fork_rebound": "14 out",
+    "fork_height": "4-5 mm",
+    "shock_spring": "45 N/mm (48 over 185 lb)",
+    "sag": "103 mm",
+    "LSC": "10-11 out (15 with 48 spring)",
+    "HSC": "1.25 out (1.5 with 48 spring)",
+    "rebound": "11-12 out (12 with 48 spring)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Tested - 2023 KTM 300SX Baseline Settings",
+    "url": "https://www.keeferinctesting.com/?p=25688",
+    "date": "2023-02"
+   },
+   "confidence": "high",
+   "notes": "Motocross, including loamy and sandy tracks."
+  },
+  {
+   "id": "ks5-041",
+   "domain": "setups",
+   "topic": "race setup 2023 KTM 300 SX",
+   "applies_to": {
+    "models": [
+     "300 SX"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Magazine race setup: fork 10.5 bar (154 psi), compression 12 out (16 for slower or lighter riders), rebound 12 out (14 for slower riders), second line. Shock 45 N/mm (riders under 155 lb or over 190 lb may need another spring), HSC 1.5 turns out (stock 2), LSC 14 out, rebound 14 out, 105 mm race sag. Testers raced in the full power-valve map (map 2).",
+   "values": {
+    "fork_air": "10.5 bar (154 psi)",
+    "fork_compression": "12 out (16 slower/lighter)",
+    "fork_rebound": "12 out (14 slower/lighter)",
+    "fork_height": "2nd line",
+    "shock_spring": "45 N/mm",
+    "HSC": "1.5 out (stock 2)",
+    "LSC": "14 out",
+    "rebound": "14 out",
+    "sag": "105 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race Test 2023 KTM 300SX",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-ktm-300sx-two-stroke/",
+    "date": "2023-04"
+   },
+   "confidence": "medium",
+   "notes": "Setting method: bleed both fork caps, set sag, then adjust air with a zip tie until the fork stops about 1.5 in from bottoming; recheck on hot days. 150 lb testers could have used 42 N/mm."
+  },
+  {
+   "id": "ks5-042",
+   "domain": "engine_mods",
+   "topic": "exhaust and setup changes on the TBI 300 SX",
+   "applies_to": {
+    "models": [
+     "300 SX"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "On the 2023 300 SX one tester found an aftermarket pipe and silencer gave the most mid-range torque and a strong top end, while another popular pipe with its matching silencer gave good response and low end but a flatter top. Going from 13/49 to 13/50 improved third-gear roll-on in loose dirt, and the closed airbox side cover gave crisper throttle response on that bike.",
+   "values": {
+    "best_pipe": "Bills pipe + silencer: most mid-range, strong top",
+    "alternative": "FMF Fatty + 2.1: good low end, flatter top",
+    "gearing": "13/50 (stock 13/49)",
+    "premix": "40:1 with VP T2 (KTM recommends 60:1)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Tested - 2023 KTM 300SX Baseline Settings",
+    "url": "https://www.keeferinctesting.com/?p=25688",
+    "date": "2023-02"
+   },
+   "confidence": "medium",
+   "notes": "Track impressions, no dyno. ECU was locked at the time. FMF dyno numbers for this pipe are in k2t-068."
+  },
+  {
+   "id": "ks5-043",
+   "domain": "engine_mods",
+   "topic": "ECU remap for TBI 250 SX / 300 SX",
+   "applies_to": {
+    "models": [
+     "250 SX",
+     "300 SX",
+     "Husqvarna TC 250",
+     "GasGas MC 250"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "A $349.50 remap of the locked stock ECU keeps the easy, luggable bottom end but sharpens throttle response and adds mid-to-top pull so the engine stops hitting the rev limiter. On a 300 SX with an aftermarket pipe and the stock silencer, a second map let riders use third gear in tight corners.",
+   "values": {
+    "price": "$349.50",
+    "stock_claim_300SX": "55 hp @ 8,500 rpm",
+    "stock_claim_250SX": "52.1 hp @ 8,600 rpm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Team Tested: Twisted Development KTM 250/300 remapped ECU",
+    "url": "https://motocrossactionmag.com/mxa-team-tested-tds-ktm-250-300-remapped-ecu",
+    "date": "2024-06"
+   },
+   "confidence": "medium",
+   "notes": "No dyno numbers published for the remap. Previously a Vortex ignition was needed to remap these bikes. Stock figures are from the magazine's 2024 race test, not labelled as dyno results. Vets preferred the white (80% power valve) map, pros the green (full) map."
+  },
+  {
+   "id": "ks5-044",
+   "domain": "engine_mods",
+   "topic": "125 SX TBI fuel, maps and pipe",
+   "applies_to": {
+    "models": [
+     "125 SX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The 2024 125 SX runs 40:1 premix on 91-octane pump fuel. The green map is richer, for deep sand, hard use or detonation, but bogged at random on the test bike, so testers used the white map. An aftermarket pipe made detonation worse even on race fuel, so it needs a remap.",
+   "values": {
+    "premix": "40:1",
+    "fuel": "91 octane pump",
+    "dyno_2024": "37.2 hp @ 11,200 rpm",
+    "dyno_2022_carb": "38.2 hp @ 11,400 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race Test 2024 KTM 125SX",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-ktm-125sx-two-stroke",
+    "date": "2024-06"
+   },
+   "confidence": "medium",
+   "notes": "The magazine's dyno showed identical curves to about 10,800 rpm. Dyno type not stated. A 150 cc big-bore kit was available in PowerParts."
+  },
+  {
+   "id": "ks5-045",
+   "domain": "engine_mods",
+   "topic": "owner ECU reflash on TBI 250/300 SX",
+   "applies_to": {
+    "models": [
+     "250 SX",
+     "300 SX"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Owners report having 2023 250 SX ECUs flashed with KTM's latest (2025) maps, and a 300 SX flashed after about 40 hours for a smoother hit; others pair a high-compression head insert with an aftermarket pipe. Several say the TBI 250 makes less power and weighs more than the 2022 carbureted 250 SX.",
+   "values": {},
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX - KTM SX 250 2025 vs 2022",
+    "url": "https://www.vitalmx.com/forums/moto-related/ktm-sx-250-2025-vs-2022",
+    "date": "2025-12"
+   },
+   "confidence": "low",
+   "notes": "Forum reports, June and December 2025. No dyno numbers."
+  },
+  {
+   "id": "ks5-046",
+   "domain": "suspension",
+   "topic": "XACT closed-cartridge spring fork (2024 XC/XC-F)",
+   "applies_to": {
+    "models": [
+     "125 XC",
+     "250 XC",
+     "300 XC",
+     "250 XC-F",
+     "350 XC-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "From 2024 the XC and XC-F use a 48 mm WP XACT closed-cartridge coil fork with a new mid-valve piston to cut oil foaming, a hydrostop in the last 68 mm of stroke, 940 mm length (10 mm shorter than the air fork) and 300 mm travel, with hand clickers at both ends.",
+   "values": {
+    "diameter": "48 mm",
+    "length": "940 mm (air fork 950 mm)",
+    "travel": "300 mm",
+    "hydrostop": "last 68 mm of stroke"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - 2024 KTM two- and four-stroke cross-country models, new WP spring fork",
+    "url": "https://dirtbikemagazine.com/2024-ktm-two-four-stroke-cross-country-models-all-new-wp-spring-fork-revealed/",
+    "date": "2023-04"
+   },
+   "confidence": "medium",
+   "notes": "Magazine reporting of KTM's launch information. Spring rates by weight were not published there."
+  },
+  {
+   "id": "ks5-047",
+   "domain": "setups",
+   "topic": "2024 350 XC-F test setup and gearing",
+   "applies_to": {
+    "models": [
+     "350 XC-F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Testers ran about 105-106 mm sag with the spring fork flush (more stable) or at the stock second line (better cornering). The fork felt softer than the shock, so the bike pitched under hard braking and blew through on big hits; stock valving is soft for an average rider. Gearing 14/52 (stock 14/47) made third usable in corners.",
+   "values": {
+    "sag": "105-106 mm",
+    "fork_height": "flush to 2nd line",
+    "gearing": "14/52 (stock 14/47)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2024 KTM 350 XC-F Review",
+    "url": "https://dirtbiketest.com/bike-tests/2024-ktm-350-xc-f/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Southern California trails, East Coast-style woods and intermediate desert speeds; rider weights not given. Suggested upgrades: medium-flex engine mounts, 23.5 mm clamps, revalve and springs for weight."
+  },
+  {
+   "id": "ks5-048",
+   "domain": "setups",
+   "topic": "trail-built 2024 350 XC-F",
+   "applies_to": {
+    "models": [
+     "350 XC-F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "A trail build ran revalved stock suspension at 105 mm sag with forks flush, which gave controlled, comfortable slow-speed bump absorption and only occasional controlled bottoming. Gearing went to 14/49 (stock 14/47) for more low-end, with a shorter 250F header, aftermarket silencer and custom ECU map for cleaner running and less stalling.",
+   "values": {
+    "sag": "105 mm",
+    "fork_height": "flush",
+    "gearing": "14/49",
+    "clutch_master": "10 mm piston from 450 SX-F (stock 9 mm)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - Tuned: 2024 KTM 350 XC-F project bike",
+    "url": "https://dirtbiketest.com/fresh-dirt/tuned-jay-clarks-2024-ktm-350-xc-f-project-bike/",
+    "date": "2024-06"
+   },
+   "confidence": "medium",
+   "notes": "Discipline: single track and off-road loops. Rider weight not given. The 450 SX-F clutch master cylinder reduced clutch fade."
+  },
+  {
+   "id": "ks5-049",
+   "domain": "suspension",
+   "topic": "2026 450 XC-F spring fork character",
+   "applies_to": {
+    "models": [
+     "450 XC-F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Testers found the 2026 450 XC-F spring fork softer and lower-riding than the rear, giving a nose-down feel. It is comfortable and controlled at slow speed but bottoms in fast terrain; the setup suits hare scrambles best, and some testers still prefer the older air fork.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - First Impression: 2026 KTM 450 XC-F",
+    "url": "https://dirtbiketest.com/fresh-dirt/first-impression-2026-ktm-450-xc-f/",
+    "date": "2026-04"
+   },
+   "confidence": "medium",
+   "notes": "No clicker or sag numbers published."
+  },
+  {
+   "id": "ks5-050",
+   "domain": "setups",
+   "topic": "300 XC-W rider-weight guidance",
+   "applies_to": {
+    "models": [
+     "300 XC-W"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Riders under about 170 lb needed few clicker changes on the 2024 300 XC-W, but riders over 200 lb found the shock too soft and need stiffer springs. To lift a low front end, run about 110 mm sag rather than moving the fork. Lowering swingarm pivot torque by 5-10% reduces rear stiffness.",
+   "values": {
+    "light_rider": "<170 lb: few changes",
+    "heavy_rider": "200+ lb: stiffer springs",
+    "sag": "~110 mm",
+    "pivot_torque": "-5 to -10%"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2024 KTM 300 XC-W Review",
+    "url": "https://dirtbiketest.com/bike-tests/2024-ktm-300-xc-w/",
+    "date": "2024-04"
+   },
+   "confidence": "medium",
+   "notes": "Desert and mountain trails. Clicker settings from the same test are in ko2-076."
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "stock / recommended fork air, 2024-2025 450 SX-F",
+   "spread": "10.5 bar (KTM 2025 US manual) vs 10.7 bar (factory recommendation quoted by a tuner for 2024) vs 10.8-10.9 bar (tuner baselines)",
+   "records": [
+    "ks5-001",
+    "ks5-011",
+    "ks5-006"
+   ],
+   "note": "Tuners run 0.3-0.4 bar more than KTM's US standard."
+  },
+  {
+   "topic": "shock spring for heavier 450 riders",
+   "spread": "48 N/mm from 85 kg/187 lb (KTM chart) vs over 195 lb (tuner, KTM) or over 190 lb (tuner, FC/MC) vs 45 N/mm for everyone 175 lb and up (magazine, k45-098)",
+   "records": [
+    "ks5-002",
+    "ks5-006",
+    "ks5-009"
+   ],
+   "note": "Different thresholds for the same 45-to-48 N/mm step."
+  },
+  {
+   "topic": "race sag 450 SX-F",
+   "spread": "102 mm (tuner) vs 105 mm (KTM manual and magazine)",
+   "records": [
+    "ks5-004",
+    "ks5-006"
+   ],
+   "note": ""
+  },
+  {
+   "topic": "XACT closed-cartridge fork hydrostop length",
+   "spread": "last 68 mm (launch report) vs last 2.5 in / ~64 mm (ko2-070)",
+   "records": [
+    "ks5-046"
+   ],
+   "note": "Small difference; may be rounding."
+  },
+  {
+   "topic": "shock spring 300 SX for light riders",
+   "spread": "tuner: 45 N/mm for 170-185 lb; magazine: 45 N/mm stock with 42 N/mm possible for 150 lb and different spring needed under 155 or over 190 lb",
+   "records": [
+    "ks5-040",
+    "ks5-041"
+   ],
+   "note": ""
+  }
+ ],
+ "not_found": [
+  {
+   "item": "KTM's own fork air-pressure-by-rider-weight table for the 2023+ XACT AER fork",
+   "searched": "2023 250 SX-F and 2025 450 SX-F owner's manuals; web searches for WP/KTM pressure charts",
+   "result": "Manuals give one standard pressure (10.4/10.5 bar) for a 75-85 kg rider and 0.2 bar steps; no weight table published. The KTM app's suggestions are only seen second-hand on forums."
+  },
+  {
+   "item": "Published tuner pressure-by-weight chart for the AER fork",
+   "searched": "WP XACT psi by rider weight searches; suspension-shop spring pages",
+   "result": "None found; only forum anecdotes and tester weight bands."
+  },
+  {
+   "item": "Before/after dyno numbers for exhausts, ECU flashes, cams or head work on the 2023-2026 450 SX-F, FC 450, MC 450F",
+   "searched": "exhaust dyno, ECU flash dyno, built-engine dyno searches; magazine exhaust category pages",
+   "result": "Only track impressions (Yoshimura RS-12) and parts lists; no measured gains found. The MXA FMF 2023 450SXF exhaust test page could not be fetched (permission not answered)."
+  },
+  {
+   "item": "Supercross, arenacross and hardpack-specific clicker setups for the 2023+ 450 SX-F",
+   "searched": "supercross/arenacross setup searches",
+   "result": "Not found; published setups are general motocross baselines."
+  },
+  {
+   "item": "Tester clicker setups for the 2024-2026 TBI 125 SX, 250 SX, Husqvarna TC 125/TC 250, GasGas MC 125/MC 250",
+   "searched": "magazine race tests and tuner baseline searches",
+   "result": "2024 magazine race tests gave no clicker numbers; only the 2023 300 SX had full setups."
+  },
+  {
+   "item": "XACT closed-cartridge spring fork spring rates by rider weight for 2024+ XC, XC-F, XC-W",
+   "searched": "spring chart searches, suspension parts sites, 2025 450 XC-F owner's manual",
+   "result": "Not in the fetched manual text or parts pages; testers only say heavier riders need stiffer springs."
+  },
+  {
+   "item": "GNCC- and desert-specific setups by rider weight for 2025-2026 XC/XC-F/XC-W",
+   "searched": "GNCC setup, XC-F review setups",
+   "result": "Only general test-rider guidance found."
+  },
+  {
+   "item": "Blocked pages",
+   "searched": "motocrossactionmag.com FMF 2023 KTM 450SXF exhaust test; Twisted Development 450SXF exhaust flange; 2025 Husqvarna 125/150 Scalvini pipe",
+   "result": "WebFetch permission request not answered; skipped."
+  }
+ ],
+ "sources": [
+  {
+   "type": "dealer",
+   "name": "Greenland MX - KTM Factory Racing Triple Clamp",
+   "url": "https://www.greenlandmx.com/int/en/ktm_sx%2Fsx-f_23-24_ktm_exc%2Fexc-f_24-.._factory_racing_triple_clamp/A4600199902104A.html?cgid=AMMM",
+   "date": "2026"
+  },
+  {
+   "type": "dealer",
+   "name": "KTM Direct (UK) - KTM Factory Racing Triple Clamp A4600199902104A",
+   "url": "https://ktmdirect.co.uk/products/factory-racing-triple-clamp-a4600199902104a",
+   "date": "2026"
+  },
+  {
+   "type": "dealer",
+   "name": "Lings - 2026 KTM SX-F Factory Editions",
+   "url": "https://lings.com/blogs/news/2026-ktm-sx-f-factory-editions-factory-precision-for-every-rider",
+   "date": "2025"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX - '22 AER48 KTM 350 SXF clickers/fork air for deep sand tracks",
+   "url": "https://www.vitalmx.com/comment/4909856",
+   "date": "2023-02"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX - '23+ KTM SX-F Suspension Setup Tips",
+   "url": "https://www.vitalmx.com/comment/7074936",
+   "date": "2024-10"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX - FC 350 air fork base settings",
+   "url": "https://www.vitalmx.com/comment/4062315",
+   "date": "2021-10"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX - KTM SX 250 2025 vs 2022",
+   "url": "https://www.vitalmx.com/forums/moto-related/ktm-sx-250-2025-vs-2022",
+   "date": "2025-12"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX - WP AER 48 forks: correct pressure for my weight?",
+   "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/WP-AER-48-Forks-Whats-the-correct-pressure-for-my-weight,1377704",
+   "date": "2020-06"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Magazine - 2024 KTM two- and four-stroke cross-country models, new WP spring fork",
+   "url": "https://dirtbikemagazine.com/2024-ktm-two-four-stroke-cross-country-models-all-new-wp-spring-fork-revealed/",
+   "date": "2023-04"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Test - 2024 KTM 300 XC-W Review",
+   "url": "https://dirtbiketest.com/bike-tests/2024-ktm-300-xc-w/",
+   "date": "2024-04"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Test - 2024 KTM 350 XC-F Review",
+   "url": "https://dirtbiketest.com/bike-tests/2024-ktm-350-xc-f/",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Test - First Impression: 2026 KTM 450 XC-F",
+   "url": "https://dirtbiketest.com/fresh-dirt/first-impression-2026-ktm-450-xc-f/",
+   "date": "2026-04"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Test - Tuned: 2024 KTM 350 XC-F project bike",
+   "url": "https://dirtbiketest.com/fresh-dirt/tuned-jay-clarks-2024-ktm-350-xc-f-project-bike/",
+   "date": "2024-06"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Ask the MXperts: 2023 KTM 450SXF suspension advice",
+   "url": "https://motocrossactionmag.com/ask-the-mxperts-2023-ktm-450sxf-suspension-advice",
+   "date": "2024-07"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Product Spotlight: XACT Pro components for 2023 KTM motocross bikes",
+   "url": "https://motocrossactionmag.com/mxa-product-spotlight-xact-pro-components-for-the-ktm-2023-motocross-bikes",
+   "date": "2022-05"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Race Test 2023 KTM 300SX",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2023-ktm-300sx-two-stroke/",
+   "date": "2023-04"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Race Test 2024 KTM 125SX",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2024-ktm-125sx-two-stroke",
+   "date": "2024-06"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Race Test 2024 KTM 250/300SX two-strokes",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-ktm-250-300sx-two-strokes",
+   "date": "2024-07"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Team Tested: Pro Circuit KTM 450SXF fork, shock & linkage mods",
+   "url": "https://motocrossactionmag.com/mxa-team-tested-pro-circuit-ktm-450sxf-fork-shock-linkage-mods",
+   "date": "2022-06"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Team Tested: Twisted Development KTM 250/300 remapped ECU",
+   "url": "https://motocrossactionmag.com/mxa-team-tested-tds-ktm-250-300-remapped-ecu",
+   "date": "2024-06"
+  },
+  {
+   "type": "magazine",
+   "name": "PulpMX - REP / WP Pro Components re-valve KTM 450 SX-F",
+   "url": "https://pulpmx.com/?p=159710",
+   "date": "2020-04"
+  },
+  {
+   "type": "magazine",
+   "name": "Swapmoto Live - 2024 KTM 350 SX-F Dream Build",
+   "url": "https://www.swapmotolive.com/?p=165184",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Swapmoto Live - Yoshimura RS-12 titanium full system, 2023 KTM 450 SX-F",
+   "url": "https://www.swapmotolive.com/?p=153259",
+   "date": "2023"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM - 2026 KTM 450 SX-F Factory Edition model page",
+   "url": "https://www.ktm.com/models/motocross/4-stroke/2026-ktm-450-sx-ffactoryedition",
+   "date": "2025"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM Owner's Manual 2023 250 SX-F / 250 XC-F (3214640en)",
+   "url": "https://www.ktmshop.se/bike-manuals/23_3214640_en_OM.pdf",
+   "date": "2022"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM Owner's Manual 2025 450 SX-F / 450 XC-F (3240045en)",
+   "url": "https://www.ktmshop.se/bike-manuals/25_3240045_en_OM.pdf",
+   "date": "2024-05"
+  },
+  {
+   "type": "tuner",
+   "name": "Keefer Inc. Tested - 2023 KTM 300SX Baseline Settings",
+   "url": "https://www.keeferinctesting.com/?p=25688",
+   "date": "2023-02"
+  },
+  {
+   "type": "tuner",
+   "name": "Keefer Inc. Tested - 2024 250 MX Baseline Suspension Settings",
+   "url": "https://www.keeferinctesting.com/?p=27453",
+   "date": "2023-11"
+  },
+  {
+   "type": "tuner",
+   "name": "Keefer Inc. Tested - 2024 450 MX Baseline Suspension Settings",
+   "url": "https://www.keeferinctesting.com/?p=27510",
+   "date": "2023-11"
+  },
+  {
+   "type": "tuner",
+   "name": "Keefer Inc. Tested - 2024 KTM 450 SX-F Factory Edition",
+   "url": "https://www.keeferinctesting.com/?p=27864",
+   "date": "2024-03"
+  },
+  {
+   "type": "tuner",
+   "name": "Keefer Inc. Tested - 2025 250 MX Baseline Suspension Settings",
+   "url": "https://www.keeferinctesting.com/?p=28690",
+   "date": "2025-02"
+  },
+  {
+   "type": "tuner",
+   "name": "Keefer Inc. Tested - 2025 450 MX Baseline Suspension Settings",
+   "url": "https://www.keeferinctesting.com/?p=28578",
+   "date": "2025-01"
+  },
+  {
+   "type": "tuner",
+   "name": "Keefer Inc. Tested - 2025 KTM 350 SX-F Baseline Suspension Settings",
+   "url": "https://www.keeferinctesting.com/?p=29243",
+   "date": "2025-09"
+  },
+  {
+   "type": "tuner",
+   "name": "Keefer Inc. Tested - 2026 250 MX Baseline Suspension Settings",
+   "url": "https://www.keeferinctesting.com/?p=29823",
+   "date": "2026-06"
+  },
+  {
+   "type": "tuner",
+   "name": "Keefer Inc. Tested - 2026 450 MX Baseline Suspension Settings",
+   "url": "https://www.keeferinctesting.com/?p=29670",
+   "date": "2026-03"
+  },
+  {
+   "type": "tuner",
+   "name": "Keefer Inc. Tested - 2026 KTM 450 SX-F Factory Edition settings",
+   "url": "https://www.keeferinctesting.com/?p=29725",
+   "date": "2026-04"
+  },
+  {
+   "type": "tuner",
+   "name": "Keefer Inc. Tested - 8 Ways To Get Less Rigidity Out Of Your 2023/2024 KTM 450 SX-F",
+   "url": "https://www.keeferinctesting.com/8-ways-to-get-less-rigidity-out-of-your-2023-2024-ktm-450-sx-f/",
+   "date": "2023-05"
+  },
+  {
+   "type": "tuner",
+   "name": "Keefer Inc. Tested - The Weekend Race Set Up (Fox Raceway amateur day)",
+   "url": "https://www.keeferinctesting.com/?p=13320",
+   "date": "2021-06"
+  }
+ ]
+}

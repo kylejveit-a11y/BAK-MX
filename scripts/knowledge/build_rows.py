@@ -10,7 +10,7 @@ roster={(a,b,c) for a,b,c in json.load(open(os.path.join(root,'docs/research/aft
 DOMAINS={'identity','engine_architecture','power_feel','ecu_electronics','engine_mods','chassis','suspension','drivetrain','maintenance','known_issues','setups'}
 TIERS={'OEM','MEASURED','TUNER','DERIVED','COMMUNITY'};CONF={'high','medium','low'}
 # Rider-facing text never names testers, magazines or tuners (the source field keeps them for audit).
-MAG=r"MXA|Motocross Action|Dirt Rider|Dirt Bike(?: Magazine)?|Vital(?: MX)?|Racer X|Cycle News|Cycle World|ADB|Australasian Dirt Bike|Swapmoto|Ultimate Motorcycling|MotoOnline|Transworld Motocross|Moto Related|MX Large|Motorcycle\.com|Enduro21|MCNews|MCN|Bike Review|PulpMX|Transmoto|1000PS|Off-Road\.cc|Dirt Bike Test|BikeSocial|Motorcyclist"
+MAG=r"MXA|Motocross Action|Dirt Rider|Dirt Bike(?: Magazine)?|Vital(?: MX)?|Racer X|Cycle News|Cycle World|ADB|Australasian Dirt Bike|Swapmoto|Ultimate Motorcycling|MotoOnline|Transworld Motocross|Moto Related|MX Large|Motorcycle\.com|Enduro21|MCNews|MCN|Bike Review|PulpMX|Transmoto|1000PS|Off-Road\.cc|Dirt Bike Test|BikeSocial|Motorcyclist|RideApart|Cycle Trader|Motorcycle Cruiser"
 TUN=r"Pro Circuit|Race Tech|Twisted Development|Twisted|XPR|Slavens|Factory Connection|REP|Enzo|GYTR tuners?"
 PER=r"Keefer|Stevie|Jeff Emig|Travis Preston"
 # Official manufacturer collaborations are product facts, not tester attributions (Triumph's RC Edition and Carmichael map).

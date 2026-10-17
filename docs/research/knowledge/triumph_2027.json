@@ -1,0 +1,1441 @@
+{
+ "slice": "Triumph TF suspension/setups/chassis depth + 2027 model-year changes for KTM, Husqvarna, GasGas and Triumph",
+ "platform": {
+  "make": "Triumph",
+  "models": [
+   "TF 250-X",
+   "TF 450-RC Edition",
+   "TF 450-X",
+   "TF 250-C",
+   "TF 450-C",
+   "TF 250-E",
+   "TF 450-E",
+   "125 SX",
+   "250 SX",
+   "250 SX-F",
+   "350 SX-F",
+   "450 SX-F",
+   "250 XC-F",
+   "350 XC-F",
+   "450 XC-F",
+   "250 XC",
+   "300 XC",
+   "150 XC-W",
+   "250 XC-W",
+   "300 XC-W",
+   "450 XCF-W",
+   "85 SX 17/14",
+   "85 SX 19/16",
+   "Husqvarna FC 250",
+   "Husqvarna FC 350",
+   "Husqvarna FC 450",
+   "Husqvarna FX 350",
+   "Husqvarna FX 450",
+   "Husqvarna TE 150",
+   "Husqvarna TE 300",
+   "Husqvarna TX 300",
+   "GasGas MC 250F",
+   "GasGas MC 450F",
+   "GasGas EX 300",
+   "GasGas EC 300"
+  ],
+  "years": [
+   2024,
+   2025,
+   2026,
+   2027
+  ]
+ },
+ "records": [
+  {
+   "id": "tr5-001",
+   "domain": "setups",
+   "topic": "250-X tester MX baseline settings",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "A long-time tester's motocross baseline for the TF 250-X keeps the stock 4.7 N/mm fork springs and 56 N/mm shock spring, with the fork 3 mm up, fork compression and rebound 8 clicks out, 103 mm race sag, shock high-speed compression 1 turn out, low-speed 7 out and rebound 10 out. It aims for a bit more hold-up at both ends than stock while keeping comfort.",
+   "values": {
+    "fork_spring": "4.7 N/mm",
+    "fork_height": "3 mm",
+    "fork_comp": "8 clicks out",
+    "fork_reb": "8 clicks out",
+    "shock_spring": "56 N/mm",
+    "race_sag": "103 mm",
+    "shock_HSC": "1 turn out",
+    "shock_LSC": "7 clicks out",
+    "shock_reb": "10 clicks out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc Tested: 2026 250 MX Baseline Suspension Settings",
+    "url": "https://www.keeferinctesting.com/?p=29823",
+    "date": "2026-06"
+   },
+   "confidence": "medium",
+   "notes": "Identical settings were published in the 2025 edition (Feb 2025) and repeated for 2026 (Jun 2026). Tester weight not stated. Source describes the 250-X as well balanced out of the box and needing less tuning than its class rivals. Clicker counts are from full stiff."
+  },
+  {
+   "id": "tr5-002",
+   "domain": "setups",
+   "topic": "450-X tester MX baseline settings",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-X"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "A tester's 2026 450 baseline for the TF 450-X runs a 4.8 N/mm fork spring with the fork flush to 2 mm up, compression 8-9 out and rebound 11 out; the shock keeps the 58 N/mm spring with low-speed compression 9 out, high-speed 1.5 turns out and rebound 11 out. The bike is described as soft and comfortable but needing stiffening to feel balanced off the throttle.",
+   "values": {
+    "fork_spring": "4.8 N/mm",
+    "fork_height": "flush to 2 mm",
+    "fork_comp": "8-9 clicks out",
+    "fork_reb": "11 clicks out",
+    "shock_spring": "58 N/mm",
+    "shock_LSC": "9 clicks out",
+    "shock_HSC": "1.5 turns out",
+    "shock_reb": "11 clicks out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc Tested: 2026 450 MX Baseline Suspension Settings",
+    "url": "https://www.keeferinctesting.com/?p=29670",
+    "date": "2026-03"
+   },
+   "confidence": "medium",
+   "notes": "Sag not listed for the Triumph in this table. 4.8 N/mm differs from the 5.0 N/mm stock rate reported for the RC (see conflicts): it may be the tester's choice rather than the stock rate. Same article suggests aftermarket clamps to improve off-throttle front-end feel. Southern California tracks."
+  },
+  {
+   "id": "tr5-003",
+   "domain": "chassis",
+   "topic": "aftermarket clamps for front feel",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-X",
+     "TF 450-RC Edition",
+     "TF 250-X"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers repeatedly point to aftermarket triple clamps as the main chassis fix for the TF's front end: the 450-X is called soft and hard to feel off the throttle, and stiffer or split clamps are suggested; one tester also found the front harder to lean into corners than he wanted, while praising straight-line predictability.",
+   "values": {
+    "stock_clamp_torque": "25 N·m bottom / 30 N·m top (OEM figure quoted by tester)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc Tested: 2026 450 MX Baseline Suspension Settings",
+    "url": "https://www.keeferinctesting.com/?p=29670",
+    "date": "2026-03"
+   },
+   "confidence": "medium",
+   "notes": "Combined from the 2026 450 baseline article and a March 2025 clamp test on the TF 250-X/TF 450-RC (same author). The clamp test kept standard offset and reported no fork slip at normal torque. The same tester noted more vibration than most Japanese 450s except the KX450."
+  },
+  {
+   "id": "tr5-004",
+   "domain": "chassis",
+   "topic": "aftermarket clamp offset",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X",
+     "TF 250-E"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Aftermarket one-piece clamps for the TF 250-X (2024-2026) and TF 250-E (2025-2026) are sold in a fixed 22 mm offset, presented as a balance of high-speed stability and quick corner entry; Triumph does not publish the stock clamp offset.",
+   "values": {
+    "aftermarket_offset": "22 mm fixed"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "dealer",
+    "name": "Motostorm: XTRIG ROCS Tech fixed offset 22mm steering plates Triumph TF 250-X",
+    "url": "https://www.motostorm.it/en/offroad/mx-plastics/xtrig-rocs-tech-fixed-offset-22mm-steering-plates-triumph-tf-250-x-24-black.html",
+    "date": "2026"
+   },
+   "confidence": "low",
+   "notes": "Stock offset not found in any Triumph spec sheet or magazine technical overview searched; a tester running a standard-offset aftermarket clamp did not change offset. Product description from a European retailer."
+  },
+  {
+   "id": "tr5-005",
+   "domain": "chassis",
+   "topic": "2027 TF 250-X clamps and adjusters",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "For 2027 the TF 250-X gets updated Neken triple clamps forged and machined from 7075-T6 aluminium, aimed at better front-end feel and tracking, plus new tool-free suspension adjusters; frame, swingarm and wheels are carried over.",
+   "values": {
+    "clamps": "Neken, forged + machined 7075-T6",
+    "adjusters": "tool-free (new)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Triumph press release via Motor Sports NewsWire: 2027 race-proven refinements for TF 250-X",
+    "url": "https://motorsportsnewswire.com/2026/10/01/triumph-announces-2027-race-proven-refinements-for-world-championship-winning-tf-250-x/",
+    "date": "2026-10"
+   },
+   "confidence": "high",
+   "notes": "Offset not stated. Carry-over of frame/swingarm/wheels from autoevolution (2026-09)."
+  },
+  {
+   "id": "tr5-006",
+   "domain": "suspension",
+   "topic": "2027 TF 250-X KYB settings",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Triumph revised the 2027 TF 250-X KYB fork and shock settings for balance, damping control and feedback to match the updated engine and clutch, but publishes no clicker or spring values; hardware (48 mm AOS coil fork, 310 mm; piggyback shock, 305 mm) is unchanged.",
+   "values": {
+    "fork": "KYB 48 mm AOS coil, 310 mm",
+    "shock": "KYB piggyback, 305 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Triumph press release via Motor Sports NewsWire: 2027 race-proven refinements for TF 250-X",
+    "url": "https://motorsportsnewswire.com/2026/10/01/triumph-announces-2027-race-proven-refinements-for-world-championship-winning-tf-250-x/",
+    "date": "2026-10"
+   },
+   "confidence": "high",
+   "notes": "No numbers published; check the 2027 owner's handbook for stock clickers."
+  },
+  {
+   "id": "tr5-007",
+   "domain": "suspension",
+   "topic": "2026 KYB change: mid-stroke",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Triumph's 2026 TF 250-X KYB update targeted mid-stroke control to improve chassis balance and cornering stability; no clicker or valving detail was given.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21: First look 2026 Triumph TF 250-X",
+    "url": "https://enduro21.com/en/bikes/latest/first-look-2026-triumph-tf-250-x-power-handling-and-end-user-changes-for-2026",
+    "date": "2025-07"
+   },
+   "confidence": "medium",
+   "notes": "Quoted from Triumph statement in launch coverage. Direction/amount of valving change not published."
+  },
+  {
+   "id": "tr5-008",
+   "domain": "setups",
+   "topic": "sand track rear height (450-RC)",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-RC Edition"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On a deep, watered sand track an 80 kg tester found the stock 450-RC rear sat high and twitchy on sandy downhills; backing rear preload off a couple of turns to about 40 mm static sag and 102 mm race sag fixed it, with stock clickers. He warned that mid-30s static sag is not enough for this chassis.",
+   "values": {
+    "rider_weight": "about 80 kg",
+    "static_sag": "about 40 mm",
+    "race_sag": "about 102 mm",
+    "clickers": "stock"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "ADB Magazine: MX Aussie launch Triumph TF 450-RC",
+    "url": "https://adbmag.com.au/?p=51643",
+    "date": "2025-05"
+   },
+   "confidence": "medium",
+   "notes": "Smooth sand track with no chatter, so clickers were not tested. Media launch (Ride Park, Victoria, Australia)."
+  },
+  {
+   "id": "tr5-009",
+   "domain": "setups",
+   "topic": "250-X spring choice for a 90 kg rider",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "A 90 kg tester found the stock springs (built for 70-80 kg) too soft, the medium (80-90 kg) set still a little soft, and the hard (90 kg+) springs let him push properly, with no clicker changes needed.",
+   "values": {
+    "rider_weight": "90 kg",
+    "stock_spring_band": "70-80 kg",
+    "medium_band": "80-90 kg",
+    "hard_band": "90 kg+"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "MotoOnline: Tested 2024 Triumph TF 250-X",
+    "url": "https://www.motoonline.com/au/tested-2024-triumph-tf-250-x/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Soft loamy, well-watered private track (Australia). Spring rates for medium/hard sets not given in N/mm."
+  },
+  {
+   "id": "tr5-010",
+   "domain": "setups",
+   "topic": "250-X fast-rider and heavy-rider tips",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Testers running 100-102 mm race sag found the stock fork soft: faster riders added 2-3 compression clicks, heavier (190 lb+) vet riders left built-up air in the fork as a temporary stiffener, and lighter riders softened the fork to match the shock. Lowering the fork 3 mm in the clamps calmed a busy front in fast rough corners at some cost to mid-corner precision.",
+   "values": {
+    "race_sag": "100-102 mm",
+    "fork_comp": "+2-3 clicks (fast riders)",
+    "fork_height": "3 mm change on fast tracks",
+    "heavy_rider": "190 lb+"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: 2024 Triumph TF 250-X",
+    "url": "https://dirtbiketest.com/bike-tests/2024-triumph-tf-250-x/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Southern California tracks incl. Perris. Also fitted a 49T rear sprocket (stock 48). 'Leaving air in' means not bleeding the fork caps; it is a temporary fix, not a spring substitute."
+  },
+  {
+   "id": "tr5-011",
+   "domain": "chassis",
+   "topic": "balance sensitivity vs KTM",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Compared with the KTM's steel frame and WP air fork, the TF 250-X's aluminium chassis feels livelier and breaks traction a bit more, the spring fork puts more weight on the front, and the bike reacts more to fork height, sag and shock high-speed compression changes. Stock settings suit novice/intermediate riders around 165 lb, and testers ended up near stock clickers.",
+   "values": {
+    "target_rider": "about 165 lb novice/intermediate"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 Triumph TF250-X",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-triumph-tf250-x/",
+    "date": "2025-06"
+   },
+   "confidence": "medium",
+   "notes": "Paraphrased tester comparison; described as a difference in feel, not a flaw. Also recommends 49T (pro/intermediate) or 50T (novice) rear sprocket and says the 1.85 rear rim can be replaced by 2.15 with a 110 tyre."
+  },
+  {
+   "id": "tr5-012",
+   "domain": "chassis",
+   "topic": "corner flex character",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "In a six-bike 250 shootout, testers rated the TF 250-X, with the Honda, as the most flexible (forgiving) chassis in corners, with exceptional handling and corner stability; they found it light and agile.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "MX1 Onboard: We test the best six 250 bikes of 2025",
+    "url": "https://mx1onboard.com/we-test-the-best-six-250-bikes-of-2025/",
+    "date": "2025-04"
+   },
+   "confidence": "low",
+   "notes": "Spanish shootout (La Farm, Lleida). Frame stiffness not measured; subjective. Same test criticised gearbox effort and quickshift irregularities."
+  },
+  {
+   "id": "tr5-013",
+   "domain": "suspension",
+   "topic": "450 owner fork oil and spring change",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-RC Edition",
+     "TF 450-X"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "One 180 lb vet-expert owner reports stock 450 fork springs of 0.51 kg/mm (about 5.0 N/mm) and 310 cc of outer-chamber oil; he tried 0.48 kg/mm springs with 350 cc outer oil, fork 2 mm up and compression 15 out (stock 13), rebound 10 out, then planned to return to 0.51 kg/mm with a revalve.",
+   "values": {
+    "stock_fork_spring": "0.51 kg/mm (owner)",
+    "stock_outer_oil": "310 cc (owner)",
+    "tested_outer_oil": "350 cc",
+    "tested_spring": "0.48 kg/mm",
+    "fork_comp": "15 out (stock 13)",
+    "fork_reb": "10 out",
+    "fork_height": "2 mm up"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum: Some Chassis and suspension work on the Triumph TF450",
+    "url": "https://www.vitalmx.com/comment/8996096",
+    "date": "2026-05"
+   },
+   "confidence": "low",
+   "notes": "Single owner report (May 2026). He used 0W-16 motor oil in the outers, which is not a recommendation. Stock compression of 13 out conflicts with 14 out in a magazine technical article (see conflicts)."
+  },
+  {
+   "id": "tr5-014",
+   "domain": "setups",
+   "topic": "450 owner mixed-terrain setup",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-RC Edition",
+     "TF 450-X"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "The same 180 lb owner, riding sand, loam and hardpack tracks, ran 105 mm race sag (axle about 5 mm back, about 103-104 mm with a centred axle), shock low-speed compression 16 out, high-speed 1 turn out and rebound 12 out on stock valving.",
+   "values": {
+    "rider_weight": "180 lb",
+    "race_sag": "105 mm (axle 5 mm back)",
+    "shock_LSC": "16 clicks out",
+    "shock_HSC": "1 turn out",
+    "shock_reb": "12 clicks out"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum: Some Chassis and suspension work on the Triumph TF450",
+    "url": "https://www.vitalmx.com/comment/8996096",
+    "date": "2026-05"
+   },
+   "confidence": "low",
+   "notes": "New York tracks (Compound MX, Broome Tioga, Jacksons MX). Shock spring rate not stated."
+  },
+  {
+   "id": "tr5-015",
+   "domain": "chassis",
+   "topic": "450 chassis-part mods (owner)",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-RC Edition",
+     "TF 450-X"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "One owner fitted aftermarket steering-head race cups, which changed the head angle and cut high-speed chatter on fast straights without hurting cornering (settings had to be retuned), and aftermarket head stays, which improved comfort on square-edged bumps with slightly less vibration above idle but more at idle; titanium pivot and engine-mount bolts showed no clear benefit.",
+   "values": {
+    "cost": "about $1,500 in parts (per thread reply)"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum: Some Chassis and suspension work on the Triumph TF450",
+    "url": "https://www.vitalmx.com/comment/8996096",
+    "date": "2026-05"
+   },
+   "confidence": "low",
+   "notes": "Single owner, stock valving, partly cut-short test. The front still was not as planted as a Honda in his view."
+  },
+  {
+   "id": "tr5-016",
+   "domain": "chassis",
+   "topic": "450-X vs RC chassis parts",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-X",
+     "TF 450-RC Edition"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2026 TF 450-X differs from the 450-RC Edition in head stays, tyres, handlebar, seat cover and clutch cover, plus the new Exedy clutch hub, Belleville spring and selector star; rake 27.4 deg, trail 4.6 in and wheelbase 58.7 in are shared.",
+   "values": {
+    "rake": "27.4 deg",
+    "trail": "4.6 in",
+    "wheelbase": "58.7 in"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2026 Triumph TF 450-X Technical Overview",
+    "url": "https://www.dirtrider.com/dirt-bikes/triumph-tf-450-x-technical-overview/",
+    "date": "2025-09"
+   },
+   "confidence": "medium",
+   "notes": "Magazine technical overview based on Triumph info. Triumph's own media kit calls the mount change 'revised engine mounts' (tf-005)."
+  },
+  {
+   "id": "tr5-017",
+   "domain": "chassis",
+   "topic": "E model clamps and springs",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-E",
+     "TF 450-E"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The TF 250-E uses the same Neken triple clamps as the TF 250-X, while the TF 450-E has its own clamps; both E models get softer springs and enduro damping, a 10 mm shorter fork (300 mm travel) and a 10 mm longer swingarm with an 18-inch rear wheel.",
+   "values": {
+    "fork_travel": "300 mm",
+    "swingarm": "+10 mm vs MX"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "1000PS: Triumph TF 250-E and TF 450-E Review 2025",
+    "url": "https://www.1000ps.com/en-gb/amp/articledetail/3012584",
+    "date": "2025-05"
+   },
+   "confidence": "medium",
+   "notes": "Press launch review (May 2025, bikes sold as 2026 in US). A second launch test (MOTORRAD) found the 250-E base setting firm but not harsh and said most riders can skip a suspension shop."
+  },
+  {
+   "id": "tr5-018",
+   "domain": "identity",
+   "topic": "2027 TF 250-X changes (Triumph release)",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Triumph's 2027 TF 250-X adds new valve guides for durability, a new clutch bearing and clutch pack with updated plates for the Exedy Belleville clutch, a new selector drum and detent wheel, revised mapping, revised KYB settings, tool-free adjusters, 7075-T6 Neken clamps, a revised chain guide, new switchgear with a separate stop/start switch, and all-black bodywork with new fork guards. Claimed 48 PS at 13,500 rpm and 104 kg wet are unchanged.",
+   "values": {
+    "claimed_power": "48 PS @ 13,500 rpm",
+    "wet_weight": "104.0 kg (229 lb)",
+    "price_uk": "from GBP 8,395"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Triumph press release via Motor Sports NewsWire: 2027 race-proven refinements for TF 250-X",
+    "url": "https://motorsportsnewswire.com/2026/10/01/triumph-announces-2027-race-proven-refinements-for-world-championship-winning-tf-250-x/",
+    "date": "2026-10"
+   },
+   "confidence": "high",
+   "notes": "Builds on tf-008 and tg-020; this is the full Triumph press text. Released after the 2026 MX2 title."
+  },
+  {
+   "id": "tr5-019",
+   "domain": "identity",
+   "topic": "2027 TF 250-X price cut",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "The 2027 TF 250-X is cheaper than the 2026 bike: US $9,195 (2026: $9,795) and UK from GBP 8,395 (2026: from GBP 9,395).",
+   "values": {
+    "msrp_us_2027": "$9,195",
+    "msrp_us_2026": "$9,795",
+    "msrp_uk_2027": "GBP 8,395",
+    "msrp_uk_2026": "GBP 9,395"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Gear Patrol: 2027 Triumph TF 250-X updates",
+    "url": "https://www.gearpatrol.com/motorcycles/2027-triumph-tf-250-x-motorcycle-updates/",
+    "date": "2026-09"
+   },
+   "confidence": "high",
+   "notes": "US 2027 price from Gear Patrol and autoevolution; UK 2027 from Triumph release; 2026 prices from Dirt Rider (US) and Enduro21 (UK)."
+  },
+  {
+   "id": "tr5-020",
+   "domain": "identity",
+   "topic": "2027 status of TF 450 and C/E models",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-X",
+     "TF 450-RC Edition",
+     "TF 250-C",
+     "TF 450-C",
+     "TF 250-E",
+     "TF 450-E"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "As of October 2026 Triumph had announced 2027 changes only for the TF 250-X; the TF 450-X, TF 450-RC Edition, TF 250-C, TF 450-C, TF 250-E and TF 450-E were still being sold as 2025/2026 model-year bikes with no 2027 update published.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "autoevolution: Triumph updates the TF 250-X motocrosser",
+    "url": "https://www.autoevolution.com/news/triumph-updates-the-tf-250-x-motocrosser-to-make-it-an-even-more-unstoppable-racer-276535.html",
+    "date": "2026-09"
+   },
+   "confidence": "low",
+   "notes": "Absence of announcement, not a confirmed carry-over. The TF 450 cylinder-head recall (tg-001) applies to 2025-2026 450s. Recheck when Triumph announces the 450 range."
+  },
+  {
+   "id": "tr5-021",
+   "domain": "identity",
+   "topic": "2027 KTM SX-F range changes",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX-F",
+     "350 SX-F",
+     "450 SX-F"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "KTM calls the 2027 250, 350 and 450 SX-F largely unchanged: new in-mould graphics with a touch of red, and engine updates for rideability and the latest FIM/AMA sound rules. Claimed wet weights are 234 lb (250), 236 lb (350) and 238 lb (450); WP XACT AER 48 mm fork (310 mm) and XACT shock (300 mm) carry over.",
+   "values": {
+    "wet_weight_250": "234 lb",
+    "wet_weight_350": "236 lb",
+    "wet_weight_450": "238 lb",
+    "compression": "14.5:1 / 14.6:1 / 13.1:1",
+    "rake": "26.1 deg",
+    "offset": "22 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling: 2027 KTM SX-F Lineup First Look",
+    "url": "https://ultimatemotorcycling.com/2026/04/30/2027-ktm-sx-f-lineup-first-look-450-350-and-250-return/",
+    "date": "2026-04"
+   },
+   "confidence": "high",
+   "notes": "Manufacturer claims via magazine first look. This source prints the 450 bore as 94 mm; KTM and Husqvarna list 95 mm (see conflicts). See k45-010 for 450 detail (re-routed harness, frame wording)."
+  },
+  {
+   "id": "tr5-022",
+   "domain": "identity",
+   "topic": "2027 KTM SX two-strokes",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "125 SX",
+     "250 SX"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "All 2027 KTM SX two-strokes are fuel-injected and get the new orange/red in-mould graphics. KTM's 2027 250 SX page lists frame updates (rear shock mount area and front frame wall thickness), updated engine mounts, a revised threaded radiator cap and new wiring-harness fixing points, with 99.4 kg claimed without fuel.",
+   "values": {
+    "weight_250SX": "99.4 kg without fuel",
+    "fork": "WP XACT AER 48 mm",
+    "maps": "2 (switch)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM: 2027 KTM 250 SX model page",
+    "url": "https://www.ktm.com/fr-mu/models/motocross/2-temps/2027-ktm-250-sx.html",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "The frame/engine-mount wording matches KTM's description of earlier frame updates, so some items may be carried-over copy rather than 2027-new. The 1-year Premium Manufacturer's Warranty applies from MY2027. 300 SX also continues."
+  },
+  {
+   "id": "tr5-023",
+   "domain": "identity",
+   "topic": "2027 KTM 85 SX",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "The 2027 KTM 85 SX (17/14 and 19/16) is part of the refreshed SX range but no model-specific changes beyond new graphics were published.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "ADB Magazine: KTM unveils 2027 SX motocross range",
+    "url": "https://adbmag.com.au/editorial/ktm-unveils-2027-sx-motocross-range/",
+    "date": "2026-05"
+   },
+   "confidence": "low",
+   "notes": "Range-level press coverage only (ADB, RideApart)."
+  },
+  {
+   "id": "tr5-024",
+   "domain": "identity",
+   "topic": "2027 KTM XC and XC-F range",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 XC",
+     "300 XC",
+     "250 XC-F",
+     "350 XC-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "KTM's 2027 cross-country range is mostly unchanged: new red tank shrouds with in-mould graphics on the same chromoly frames, six-speed gearboxes and WP XACT closed-cartridge spring forks. The 350 XC-F and 125 XC return to the line-up, and the XC-F models work with the optional Connectivity Unit Offroad.",
+   "values": {
+    "fork": "WP XACT closed-cartridge spring",
+    "gearbox": "6-speed"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21: Quick Look 2027 KTM XC and XC-F range",
+    "url": "https://enduro21.com/en/news/quick-look-2027-ktm-xc-and-xc-f-range-125-and-350-return-to-the-line-up",
+    "date": "2026-05"
+   },
+   "confidence": "high",
+   "notes": "Australian release notes 125 XC and 450 XC-F as Australia-only there; US line-up per market may differ."
+  },
+  {
+   "id": "tr5-025",
+   "domain": "identity",
+   "topic": "2027 KTM XC-W and XCF-W",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W",
+     "450 XCF-W"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "KTM's 2027 US enduro bikes (150, 250 and 300 XC-W and 450 XCF-W) get a graphics update and unspecified 'refined engine packages'; no chassis or suspension changes were named. The 2027 450 XCF-W lists 107.5 kg without fuel, a WP XACT 48 mm fork (300 mm), a WP XPLOR PDS shock (310 mm), 963 mm seat height and an 8.5 L tank.",
+   "values": {
+    "weight_450XCFW": "107.5 kg without fuel",
+    "fork": "WP XACT 48 mm, 300 mm",
+    "shock": "WP XPLOR PDS, 310 mm",
+    "seat_height": "963 mm",
+    "tank": "8.5 L"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Powersports Business: KTM refreshes enduro range for 2027 model year",
+    "url": "https://powersportsbusiness.com/news/ktm/2026/06/24/ktm-refreshes-enduro-range-for-2027-model-year/",
+    "date": "2026-06"
+   },
+   "confidence": "medium",
+   "notes": "Weights/specs from KTM USA spec page. A 300 XC-W Hard Enduro is also listed for 2027 in the US. European coverage (Visordown, 2026-06) calls the EXC range changes subtle and mainly cosmetic."
+  },
+  {
+   "id": "tr5-026",
+   "domain": "identity",
+   "topic": "2027 Husqvarna FC range",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 250",
+     "Husqvarna FC 350",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "The 2027 Husqvarna FC 250, FC 350 and FC 450 return to the US after a missed 2026 year with white powder-coated chromoly frames, new Swedish-inspired graphics and engine updates for rideability and the latest sound rules; the platform is otherwise unchanged. US prices are $10,799, $11,199 and $11,749, with claimed weights of 224.2, 225.9 and 227.7 lb without fuel.",
+   "values": {
+    "msrp_FC250": "$10,799",
+    "msrp_FC350": "$11,199",
+    "msrp_FC450": "$11,749",
+    "weight_no_fuel": "224.2 / 225.9 / 227.7 lb",
+    "travel": "305 mm F / 293 mm R (as printed)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News: 2027 Husqvarna FC Motocrossers Specs and Prices",
+    "url": "https://www.cyclenews.com/2026/05/article/2027-husqvarna-fc-motocrossers-specs-and-prices/",
+    "date": "2026-05"
+   },
+   "confidence": "high",
+   "notes": "Versus KTM SX-F: Husqvarna uses its own polyamide subframe/bodywork, ProTaper bars and a different silencer; quickshifter, traction control and launch control are standard on the 4-strokes. Cycle News lists FC 450 compression as 13.6:1 versus KTM's 13.1:1 (see conflicts)."
+  },
+  {
+   "id": "tr5-027",
+   "domain": "identity",
+   "topic": "2027 Husqvarna FX 350, FX 450, TX 300",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FX 350",
+     "Husqvarna FX 450",
+     "Husqvarna TX 300"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Husqvarna's 2027 cross-country range is the TX 300, FX 350 and the returning FX 450 (absent for 2026), all with new white powder-coated frames; the FX models keep quickshifter, traction control, launch control and two maps, and the TX 300 keeps throttle-body injection.",
+   "values": {
+    "frame": "white powder-coated chromoly",
+    "fork": "WP XACT 48 mm closed cartridge"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21: Quick Look 2027 Husqvarna cross-country range - FX 450 returns",
+    "url": "https://enduro21.com/en/news/quick-look-2027-husqvarna-cross-country-range-fx-450-returns-to-the-line-up",
+    "date": "2026-05"
+   },
+   "confidence": "high",
+   "notes": "No mechanical changes named beyond frame finish. See ko4-013 for the 2026 FX 450 gap."
+  },
+  {
+   "id": "tr5-028",
+   "domain": "identity",
+   "topic": "2027 Husqvarna TE enduro range",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TE 150",
+     "Husqvarna TE 300"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Husqvarna's 2027 enduro range is a light-touch update with no announced engine, chassis or suspension changes: new yellow fork guards and shroud graphics, plus a new 12-month warranty programme. Australian coverage adds white powder-coated frames.",
+   "values": {
+    "warranty": "12 months (new)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21: First look 2027 Husqvarna enduro range",
+    "url": "https://enduro21.com/en/news/first-look-2027-husqvarna-enduro-range-revealed-with-12-months-warranty-and-no-price-hikes",
+    "date": "2026-06"
+   },
+   "confidence": "medium",
+   "notes": "European/Australian coverage; TE 150 is not in the European list but is listed as a 2027 US model (Motorcycle.com spec page). Transmoto (2026-07) reports white frames for the enduro range too."
+  },
+  {
+   "id": "tr5-029",
+   "domain": "identity",
+   "topic": "2027 GasGas US line-up",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 250F",
+     "GasGas MC 450F",
+     "GasGas EX 300",
+     "GasGas EC 300"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "GasGas USA lists 2027 MC 450F, MC 250F, MC 125, MC 85 (17/14 and 19/16), MC 65, MC 50, EX 300 and EC 300 models, with no 'new for 2027' text on its motocross page. Dealers describe the 2027 changes as new graphics, with updated bodywork and seat covers on the MC 250F.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS USA: Motocross models page",
+    "url": "https://www.gasgas.com/en-us/models/motocross.html",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "UK dealer (Craigs, 2026-09) mentions unspecified 'mechanical refinements'. No 2027 MC 350F or EX 350F/450F seen on the US motocross page at fetch time."
+  },
+  {
+   "id": "tr5-030",
+   "domain": "identity",
+   "topic": "2027 GasGas MC 250F vs KTM 250 SX-F",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "The 2027 GasGas MC 250F keeps a WP XACT 48 mm air fork and an unchanged shock, but unlike the KTM its traction control, quickshifter, launch control and two maps only work with the optional map-select switch; it uses Maxxis MaxxCross MX-ST tyres and Braktec brakes instead of Dunlop MX34 and Brembo. US price is $9,899 and claimed weight 102 kg without fuel; the airbox and exhaust were last updated for 2026 sound rules.",
+   "values": {
+    "msrp": "$9,899",
+    "weight": "102 kg without fuel",
+    "fork": "WP XACT AER 48 mm",
+    "tyres": "Maxxis MX-ST",
+    "brakes": "Braktec 260/220 mm",
+    "redline": "14,000 rpm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS USA: MC 250F 2027 model page",
+    "url": "https://www.gasgas.com/en-us/models/motocross/4-stroke/mc-250f-2027.html",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "Manufacturer model page."
+  },
+  {
+   "id": "tr5-031",
+   "domain": "identity",
+   "topic": "2027 GasGas MC 450F",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "The 2027 GasGas MC 450F carries over with new graphics; a spec listing gives $10,849 MSRP, 13.1:1 compression and 228.4 lb dry.",
+   "values": {
+    "msrp": "$10,849",
+    "compression": "13.1:1",
+    "dry_weight": "228.4 lb"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motorcycle.com: 2027 GASGAS MC 450F specs",
+    "url": "https://www.motorcycle.com/specs/gasgas/off-road/2027/mc/450f/detail.html",
+    "date": "2026"
+   },
+   "confidence": "low",
+   "notes": "Spec-database figures; the same listing shows a 300 mm fork with preload/rebound adjustment only, which looks like a data error for a WP XACT air fork. No 2027 change list found."
+  },
+  {
+   "id": "tr5-032",
+   "domain": "identity",
+   "topic": "2027 GasGas EX 300",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas EX 300"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "GasGas's 2027 EX 300 page lists a WP XACT closed-cartridge spring fork with internals revised against oil foaming, an unchanged shock, a frame 300 g lighter (slimmer upper shock mount, thinner front walls, lighter engine mounts), 39 mm Keihin throttle-body injection with electronic exhaust control, and the map switch as an option. Price is $11,099 and claimed weight 102.3 kg without fuel.",
+   "values": {
+    "msrp": "$11,099",
+    "weight": "102.3 kg without fuel",
+    "throttle_body": "39 mm Keihin",
+    "gearing": "14/48",
+    "tyres": "Dunlop Geomax AT82 80/100-21, 110/100-18"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS USA: EX 300 2027 model page",
+    "url": "https://www.gasgas.com/en-us/models/cross-country/2-stroke/ex-300-2027.html",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "The page says EEC was 'introduced last year', so much of this copy describes 2025-2026 updates carried into 2027 rather than 2027-new changes."
+  },
+  {
+   "id": "tr5-033",
+   "domain": "identity",
+   "topic": "2027 GasGas EC 300",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas EC 300"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "The 2027 GasGas EC 300 (and race-focused EC 300 GP) are listed in the 2027 enduro range with no specific changes published.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "PERRY: 2027 GASGAS Motocross, Enduro & Cross Country range has arrived",
+    "url": "https://www.perrybikes.co.za/blogs/news/2027-gasgas-motocross-enduro-amp-cross-country-range-has-arrived-at-perry",
+    "date": "2026-07"
+   },
+   "confidence": "low",
+   "notes": "Dealer announcement; no change list found."
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "TF 450 stock fork spring rate",
+   "values": {
+    "Dirt Rider RC technical (tf-067)": "5.0 N/mm",
+    "Vital MX owner (tr5-013)": "0.51 kg/mm (about 5.0 N/mm)",
+    "Tester 2026 450-X baseline (tr5-002)": "4.8 N/mm"
+   },
+   "spread": "4.8-5.0 N/mm",
+   "note": "4.8 may be the tester's chosen rate, not stock; the 2026 X is said to carry RC settings."
+  },
+  {
+   "topic": "TF 450 stock fork compression",
+   "values": {
+    "Dirt Rider RC technical": "14 clicks out",
+    "Vital MX owner": "13 clicks out"
+   },
+   "spread": "13-14 clicks out",
+   "note": "Could be counting method or a running change."
+  },
+  {
+   "topic": "TF 250-X race sag",
+   "values": {
+    "Handbook via Dirt Rider": "105 mm",
+    "Tester baseline (Keefer)": "103 mm",
+    "Dirt Bike Test": "100-102 mm",
+    "ADB": "102 mm (36 mm static, medium springs)"
+   },
+   "spread": "100-105 mm",
+   "note": "Testers consistently run less sag than the handbook."
+  },
+  {
+   "topic": "2027 TF 250-X claimed power",
+   "values": {
+    "Triumph release": "48 PS @ 13,500 rpm",
+    "Visordown / Gear Patrol": "47.4 bhp",
+    "autoevolution": "47 hp @ 13,500 rpm, 29 Nm @ 9,000 rpm"
+   },
+   "spread": "47-48 hp/PS",
+   "note": "All crank claims; units mixed."
+  },
+  {
+   "topic": "KTM 450 SX-F bore (2027)",
+   "values": {
+    "Ultimate Motorcycling 2027 first look": "94 mm",
+    "KTM / Cycle News (FC 450)": "95 mm"
+   },
+   "spread": "94-95 mm",
+   "note": "95 mm x 63.4 mm matches 449.9 cc; 94 mm is likely a typo."
+  },
+  {
+   "topic": "450 compression ratio (KTM vs Husqvarna 2027)",
+   "values": {
+    "KTM 450 SX-F (Ultimate Motorcycling / KTM)": "13.1:1",
+    "Husqvarna FC 450 (Cycle News 2027)": "13.6:1"
+   },
+   "spread": "13.1-13.6:1",
+   "note": "Same engine family; 13.6 may be a press-sheet error or a different measuring basis. Verify with Husqvarna spec sheet."
+  }
+ ],
+ "not_found": [
+  {
+   "item": "Stock triple-clamp offset for any Triumph TF model",
+   "searched": "Dirt Rider 2024/2026 technical overviews, X-Trig clamp test, retailer listings, offset-specific searches",
+   "note": "Only aftermarket 22 mm offset clamps found."
+  },
+  {
+   "item": "TF 250-X stock clicker settings (fork C/R, shock HSC/LSC/R)",
+   "searched": "owner's-manual searches, Vital, Dirt Rider, Cycle News, Dirt Bike Test",
+   "note": "Only relative tester changes and tester baselines found."
+  },
+  {
+   "item": "Spring rates (N/mm) for the TF 250-X 'medium' and 'hard' Australian launch spring sets",
+   "searched": "ADB, MotoOnline",
+   "note": "Only rider-weight bands given."
+  },
+  {
+   "item": "Factory/race-team suspension (SX, arenacross, MXGP) setups for Triumph",
+   "searched": "factory bike-check and team-interview searches (standard and extended)",
+   "note": "No published clicker, spring or valving data; only ECU brands known (tg-021)."
+  },
+  {
+   "item": "Arenacross-specific Triumph setups",
+   "searched": "supercross/arenacross setup searches",
+   "note": "Nothing found."
+  },
+  {
+   "item": "Tuner revalve specs or spring charts for TF models (Factory Connection, Enzo, Race Tech, Teknik)",
+   "searched": "revalve and spring-chart searches; Teknik category pages",
+   "note": "Category listings only, no rates or rider-weight charts."
+  },
+  {
+   "item": "KYB fork oil grade/level spec for TF models",
+   "searched": "fork oil level searches",
+   "note": "Only one owner figure (310 cc outer stock on 450)."
+  },
+  {
+   "item": "Frame stiffness measurements for the TF aluminium frame",
+   "searched": "chassis/flex searches",
+   "note": "Only subjective tester remarks."
+  },
+  {
+   "item": "2027 TF 450-X, TF 450-RC, TF 250-C, TF 450-C, TF 250-E, TF 450-E announcements",
+   "searched": "Triumph 2027 searches (standard + extended), autoevolution, Gear Patrol, Visordown",
+   "note": "Not announced as of 2026-10-17."
+  },
+  {
+   "item": "2027 KTM per-model engine change details (what the 'rideability/sound' updates are)",
+   "searched": "ADB, Ultimate Motorcycling, RideApart, KTM pages",
+   "note": "KTM gives no specifics."
+  },
+  {
+   "item": "2027 GasGas change list by model and US prices for MC 450F/EC 300",
+   "searched": "GasGas US site, dealer pages, extended search",
+   "note": "No official 'what's new' list; MC 450F price only from a spec database."
+  },
+  {
+   "item": "2027 KTM XC/XC-W US prices",
+   "searched": "Powersports Business, KTM US pages",
+   "note": "Not on fetched pages."
+  },
+  {
+   "item": "motorcyclepowersportsnews 2027 KTM XC page",
+   "searched": "WebFetch",
+   "note": "Fetch error; not retried via mirrors."
+  }
+ ],
+ "sources": [
+  {
+   "type": "magazine",
+   "name": "Keefer Inc Tested: 2026 250 MX Baseline Suspension Settings",
+   "url": "https://www.keeferinctesting.com/?p=29823",
+   "date": "2026-06"
+  },
+  {
+   "type": "magazine",
+   "name": "Keefer Inc Tested: 2025 250 MX Baseline Suspension Settings",
+   "url": "https://www.keeferinctesting.com/?p=28690",
+   "date": "2025-02"
+  },
+  {
+   "type": "magazine",
+   "name": "Keefer Inc Tested: 2026 450 MX Baseline Suspension Settings",
+   "url": "https://www.keeferinctesting.com/?p=29670",
+   "date": "2026-03"
+  },
+  {
+   "type": "magazine",
+   "name": "Keefer Inc Tested: X-Trig ROCS Tech Triple Clamps (Triumph TF-250-X/TF-450 RC Edition)",
+   "url": "https://www.keeferinctesting.com/?p=28782",
+   "date": "2025-03"
+  },
+  {
+   "type": "dealer",
+   "name": "Motostorm: XTRIG ROCS Tech fixed offset 22mm steering plates Triumph TF 250-X",
+   "url": "https://www.motostorm.it/en/offroad/mx-plastics/xtrig-rocs-tech-fixed-offset-22mm-steering-plates-triumph-tf-250-x-24-black.html",
+   "date": "2026"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum: Some Chassis and suspension work on the Triumph TF450",
+   "url": "https://www.vitalmx.com/comment/8996096",
+   "date": "2026-05"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum: Triumph TF450 reviews and setup tips",
+   "url": "https://www.vitalmx.com/forums/moto-related/triumph-tf450-reviews-and-setup-tips",
+   "date": "2025-11"
+  },
+  {
+   "type": "magazine",
+   "name": "ADB Magazine: MX Aussie launch Triumph TF 450-RC",
+   "url": "https://adbmag.com.au/?p=51643",
+   "date": "2025-05"
+  },
+  {
+   "type": "magazine",
+   "name": "ADB Magazine: Aussie Test 2024 Triumph TF 250-X",
+   "url": "https://adbmag.com.au/?p=48204",
+   "date": "2024-07"
+  },
+  {
+   "type": "magazine",
+   "name": "MotoOnline: Tested 2024 Triumph TF 250-X",
+   "url": "https://www.motoonline.com/au/tested-2024-triumph-tf-250-x/",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Test: 2024 Triumph TF 250-X",
+   "url": "https://dirtbiketest.com/bike-tests/2024-triumph-tf-250-x/",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA Race Test 2025 Triumph TF250-X",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2025-triumph-tf250-x/",
+   "date": "2025-06"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2026 Triumph TF 450-X Technical Overview",
+   "url": "https://www.dirtrider.com/dirt-bikes/triumph-tf-450-x-technical-overview/",
+   "date": "2025-09"
+  },
+  {
+   "type": "magazine",
+   "name": "1000PS: Triumph TF 250-E and TF 450-E Review 2025",
+   "url": "https://www.1000ps.com/en-gb/amp/articledetail/3012584",
+   "date": "2025-05"
+  },
+  {
+   "type": "magazine",
+   "name": "MOTORRAD: Triumph TF 250-E/450-E erster Fahrtest",
+   "url": "https://www.motorradonline.de/enduro/triumph-tf-250e-450e-erster-fahrtest-well-done-aber-so-was-von/",
+   "date": "2025-05"
+  },
+  {
+   "type": "magazine",
+   "name": "MX1 Onboard: We test the best six 250 bikes of 2025",
+   "url": "https://mx1onboard.com/we-test-the-best-six-250-bikes-of-2025/",
+   "date": "2025-04"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Triumph press release via Motor Sports NewsWire: 2027 race-proven refinements for TF 250-X",
+   "url": "https://motorsportsnewswire.com/2026/10/01/triumph-announces-2027-race-proven-refinements-for-world-championship-winning-tf-250-x/",
+   "date": "2026-10"
+  },
+  {
+   "type": "magazine",
+   "name": "Gear Patrol: 2027 Triumph TF 250-X updates",
+   "url": "https://www.gearpatrol.com/motorcycles/2027-triumph-tf-250-x-motorcycle-updates/",
+   "date": "2026-09"
+  },
+  {
+   "type": "magazine",
+   "name": "Visordown: Triumph launches updated TF 250-X following maiden MX2 title win",
+   "url": "https://www.visordown.com/news/triumph-launches-updated-tf-250-x-following-maiden-mx2-title-win",
+   "date": "2026-09"
+  },
+  {
+   "type": "magazine",
+   "name": "autoevolution: Triumph updates the TF 250-X motocrosser",
+   "url": "https://www.autoevolution.com/news/triumph-updates-the-tf-250-x-motocrosser-to-make-it-an-even-more-unstoppable-racer-276535.html",
+   "date": "2026-09"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21: First look 2026 Triumph TF 250-X",
+   "url": "https://enduro21.com/en/bikes/latest/first-look-2026-triumph-tf-250-x-power-handling-and-end-user-changes-for-2026",
+   "date": "2025-07"
+  },
+  {
+   "type": "magazine",
+   "name": "Ultimate Motorcycling: 2027 KTM SX-F Lineup First Look",
+   "url": "https://ultimatemotorcycling.com/2026/04/30/2027-ktm-sx-f-lineup-first-look-450-350-and-250-return/",
+   "date": "2026-04"
+  },
+  {
+   "type": "magazine",
+   "name": "ADB Magazine: KTM unveils 2027 SX motocross range",
+   "url": "https://adbmag.com.au/editorial/ktm-unveils-2027-sx-motocross-range/",
+   "date": "2026-05"
+  },
+  {
+   "type": "magazine",
+   "name": "RideApart: 2027 KTM SX line-up unveiled",
+   "url": "https://www.rideapart.com/news/794621/2027-ktm-sx-motorcycle-line-up-unveiled-specs-features-price/",
+   "date": "2026-04"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM: 2027 KTM 250 SX model page",
+   "url": "https://www.ktm.com/fr-mu/models/motocross/2-temps/2027-ktm-250-sx.html",
+   "date": "2026"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21: Quick Look 2027 KTM XC and XC-F range",
+   "url": "https://enduro21.com/en/news/quick-look-2027-ktm-xc-and-xc-f-range-125-and-350-return-to-the-line-up",
+   "date": "2026-05"
+  },
+  {
+   "type": "magazine",
+   "name": "ADB Magazine: KTM unveils 2027 XC and XC-F cross country range",
+   "url": "https://adbmag.com.au/editorial/ktm-unveils-2027-xc-and-xc-f-cross-country-range/",
+   "date": "2026-05"
+  },
+  {
+   "type": "magazine",
+   "name": "Powersports Business: KTM refreshes enduro range for 2027 model year",
+   "url": "https://powersportsbusiness.com/news/ktm/2026/06/24/ktm-refreshes-enduro-range-for-2027-model-year/",
+   "date": "2026-06"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM USA: 2027 KTM 450 XCF-W technical specifications",
+   "url": "https://www.ktm.com/en-us/models/enduro/4-stroke/2027-ktm-450-xcfw/technical-specifications.html",
+   "date": "2026"
+  },
+  {
+   "type": "magazine",
+   "name": "Visordown: KTM unveils seven models as part of refreshed 2027 enduro range",
+   "url": "https://www.visordown.com/news/ktm-unveils-seven-models-part-refreshed-2027-enduro-range",
+   "date": "2026-06"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News: 2027 Husqvarna FC Motocrossers Specs and Prices",
+   "url": "https://www.cyclenews.com/2026/05/article/2027-husqvarna-fc-motocrossers-specs-and-prices/",
+   "date": "2026-05"
+  },
+  {
+   "type": "magazine",
+   "name": "MXLarge: Husky 2027 - the bikes",
+   "url": "https://www.mxlarge.com/news/husky-2027-the-bikes",
+   "date": "2026-05"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21: Quick Look 2027 Husqvarna cross-country range - FX 450 returns",
+   "url": "https://enduro21.com/en/news/quick-look-2027-husqvarna-cross-country-range-fx-450-returns-to-the-line-up",
+   "date": "2026-05"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21: First look 2027 Husqvarna enduro range",
+   "url": "https://enduro21.com/en/news/first-look-2027-husqvarna-enduro-range-revealed-with-12-months-warranty-and-no-price-hikes",
+   "date": "2026-06"
+  },
+  {
+   "type": "magazine",
+   "name": "Transmoto: Husqvarna 2027 enduro range",
+   "url": "https://transmoto.com.au/husqvarna-2027-enduro-range/",
+   "date": "2026-07"
+  },
+  {
+   "type": "manufacturer",
+   "name": "GASGAS USA: Motocross models page",
+   "url": "https://www.gasgas.com/en-us/models/motocross.html",
+   "date": "2026"
+  },
+  {
+   "type": "manufacturer",
+   "name": "GASGAS USA: MC 250F 2027 model page",
+   "url": "https://www.gasgas.com/en-us/models/motocross/4-stroke/mc-250f-2027.html",
+   "date": "2026"
+  },
+  {
+   "type": "manufacturer",
+   "name": "GASGAS USA: EX 300 2027 model page",
+   "url": "https://www.gasgas.com/en-us/models/cross-country/2-stroke/ex-300-2027.html",
+   "date": "2026"
+  },
+  {
+   "type": "dealer",
+   "name": "Craigs Motorcycles: GasGas 2027 off-road range arrives",
+   "url": "https://www.craigsmotorcycles.com/news/gasgas-2027-off-road-range-arrives-at-craigs-motorcycles",
+   "date": "2026-09"
+  },
+  {
+   "type": "dealer",
+   "name": "PERRY: 2027 GASGAS Motocross, Enduro & Cross Country range has arrived",
+   "url": "https://www.perrybikes.co.za/blogs/news/2027-gasgas-motocross-enduro-amp-cross-country-range-has-arrived-at-perry",
+   "date": "2026-07"
+  },
+  {
+   "type": "magazine",
+   "name": "Motorcycle.com: 2027 GASGAS MC 450F specs",
+   "url": "https://www.motorcycle.com/specs/gasgas/off-road/2027/mc/450f/detail.html",
+   "date": "2026"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News: 2026 Triumph TF 450-C Review",
+   "url": "https://www.cyclenews.com/2026/02/article/2026-triumph-tf-450-c-review/",
+   "date": "2026-02"
+  },
+  {
+   "type": "magazine",
+   "name": "Vital MX: 2025 Triumph TF-250X Review",
+   "url": "https://www.vitalmx.com/features/2025-triumph-tf-250x-review",
+   "date": "2025-02"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News: 2024 Triumph TF 250-X Review",
+   "url": "https://www.cyclenews.com/2024/03/article/2024-triumph-tf-250x-review/",
+   "date": "2024-03"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2024 Triumph TF 250-X Technical Overview",
+   "url": "https://www.dirtrider.com/dirt-bikes/triumph-tf-250-x-technical-overview-2024/",
+   "date": "2024"
+  }
+ ]
+}

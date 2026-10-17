@@ -1,0 +1,2225 @@
+{
+ "slice": "wk5 weak models: Yamaha X/FX, Husqvarna off-road, and 2027 Yamaha/Honda/Kawasaki",
+ "platform": {
+  "make": "Yamaha",
+  "models": [
+   "YZ125X",
+   "YZ250X",
+   "YZ250FX",
+   "YZ250F",
+   "YZ450F",
+   "YZ125",
+   "YZ250",
+   "YZ450FX",
+   "WR250F",
+   "WR450F",
+   "Husqvarna TX 300",
+   "Husqvarna TE 150",
+   "Husqvarna TE 250",
+   "Husqvarna TE 300",
+   "Husqvarna FE 450",
+   "Husqvarna FX 350",
+   "Husqvarna FX 450",
+   "CRF450R",
+   "CRF450RX",
+   "CRF250R",
+   "CRF250RX",
+   "KX450",
+   "KX250"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026,
+   2027
+  ]
+ },
+ "records": [
+  {
+   "id": "wk5-001",
+   "domain": "power_feel",
+   "topic": "peak horsepower and torque (rear wheel)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250FX"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "On a magazine rear-wheel dyno the 2021 YZ250FX made 37.8 hp at 12,200 rpm and 18.3 lb-ft at 8,400 rpm.",
+   "values": {
+    "peak_hp": "37.8 hp @ 12,200 rpm",
+    "peak_torque": "18.3 lb-ft @ 8,400 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider - 2021 Yamaha YZ250FX dyno test",
+    "url": "https://www.dirtrider.com/story/tests/2021-yamaha-yz250fx-dyno-test",
+    "date": "2021-03"
+   },
+   "confidence": "high",
+   "notes": "Dynojet 250i rear-wheel dyno, Dunlop D404 street tyre on the rear. Fuel and map not stated; appears stock. 2021 changes were cosmetic only, so this applies to the 2020 engine too. Only compare with other runs from the same dyno."
+  },
+  {
+   "id": "wk5-002",
+   "domain": "power_feel",
+   "topic": "peak horsepower and torque (rear wheel)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250FX"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "On a magazine rear-wheel dyno the 2022 YZ250FX made 37.9 hp at 12,100 rpm and 18.3 lb-ft at 8,800 rpm: 0.1 hp more than the 2021 with the same peak torque arriving 400 rpm higher.",
+   "values": {
+    "peak_hp": "37.9 hp @ 12,100 rpm",
+    "peak_torque": "18.3 lb-ft @ 8,800 rpm",
+    "vs_2021": "+0.1 hp; torque peak +400 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider - 2022 Yamaha YZ250FX dyno test",
+    "url": "https://www.dirtrider.com/story/tests/yamaha-yz250fx-dyno-test-2022",
+    "date": "2022-06"
+   },
+   "confidence": "high",
+   "notes": "Same publication's in-house rear-wheel dyno (model not named this time; 2021 test used a Dynojet 250i) with a Dunlop D404 rear. Fuel/map not stated; described as the updated off-road bike, assumed stock. 2022 brought a new intake and exhaust cam."
+  },
+  {
+   "id": "wk5-003",
+   "domain": "identity",
+   "topic": "YZ250FX 2020 generation update",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250FX"
+    ],
+    "years": [
+     2020,
+     2021
+    ]
+   },
+   "statement": "The 2020 YZ250FX got the then-new YZ250F engine with compression raised from 13.5:1 to 13.8:1, off-road ECU mapping and valving, a 6-speed wide-ratio gearbox, a 2.2 gal tank (0.6 gal more than the YZ250F), 18-inch rear wheel, O-ring chain, kickstand and skid plate; 2021 was unchanged. MSRP was $8,499.",
+   "values": {
+    "compression": "13.5:1 -> 13.8:1",
+    "fuel_tank": "2.2 gal",
+    "msrp_2020": "$8,499"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2020/2021 Yamaha YZ250FX test",
+    "url": "https://dirtbiketest.com/bike-tests/2020-yamaha-yz250fx/",
+    "date": "2021-09"
+   },
+   "confidence": "medium",
+   "notes": "Manufacturer specs as reported in a magazine test. Testers also noted louder intake noise from the forward-mounted airbox."
+  },
+  {
+   "id": "wk5-004",
+   "domain": "power_feel",
+   "topic": "YZ250FX 2020-2021 feel",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250FX"
+    ],
+    "years": [
+     2020,
+     2021
+    ]
+   },
+   "statement": "Testers found a strong bottom end, no mid-to-top drop-off so each gear can be held longer, and top-end pull 'very close' to the hardest-pulling 250F, though it is not the quickest-revving bike in its class.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2020/2021 Yamaha YZ250FX test",
+    "url": "https://dirtbiketest.com/bike-tests/2020-yamaha-yz250fx/",
+    "date": "2021-09"
+   },
+   "confidence": "medium",
+   "notes": "Tester impressions, stock bike."
+  },
+  {
+   "id": "wk5-005",
+   "domain": "ecu_electronics",
+   "topic": "YZ250FX map switch and app maps used",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250FX"
+    ],
+    "years": [
+     2020,
+     2021
+    ]
+   },
+   "statement": "A handlebar button switches between map 1 and a milder map 2. Testers liked an app map built for snappier, faster-revving MX-style power with more rear-wheel connection on fast tracks, and a smoother torque-oriented map for slick or rutted ground and riding a gear high.",
+   "values": {
+    "handlebar_maps": "2"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2020/2021 Yamaha YZ250FX test",
+    "url": "https://dirtbiketest.com/bike-tests/2020-yamaha-yz250fx/",
+    "date": "2021-09"
+   },
+   "confidence": "medium",
+   "notes": "Maps were loaded through Yamaha's Power Tuner app (then GYTR Power Tuner); the exact fuel/ignition values were not published."
+  },
+  {
+   "id": "wk5-006",
+   "domain": "setups",
+   "topic": "YZ250FX 2020-2021 suspension and gearing setup",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250FX"
+    ],
+    "years": [
+     2020,
+     2021
+    ]
+   },
+   "statement": "Stock suspension is soft and suited to East Coast roots and rocks; testers stiffened both ends, which helped but was still not enough for fast aggressive riders. For MX or GP tracks add 1-2 teeth to the rear sprocket because riders hunted between 2nd-3rd and 3rd-4th.",
+   "values": {
+    "rear_sprocket_change": "+1 to +2 teeth for MX/GP"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2020/2021 Yamaha YZ250FX test",
+    "url": "https://dirtbiketest.com/bike-tests/2020-yamaha-yz250fx/",
+    "date": "2021-09"
+   },
+   "confidence": "medium",
+   "notes": "No clicker numbers or sag published. Bottoming on big jumps and braking bumps was not violent."
+  },
+  {
+   "id": "wk5-007",
+   "domain": "known_issues",
+   "topic": "YZ250FX hard hot starting",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250FX"
+    ],
+    "years": [
+     2020,
+     2021
+    ]
+   },
+   "statement": "The test 2020 YZ250FX was hard to start, especially on hot restarts and after a stall; a battery swap did not change it. Shifting improved after about 20 hours and a few oil changes.",
+   "values": {
+    "shift_break_in": "about 20 h"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2020/2021 Yamaha YZ250FX test",
+    "url": "https://dirtbiketest.com/bike-tests/2020-yamaha-yz250fx/",
+    "date": "2021-09"
+   },
+   "confidence": "medium",
+   "notes": "Single test bike; cause not found. Compare with 2025 reports of the FX starting poorly in gear."
+  },
+  {
+   "id": "wk5-008",
+   "domain": "known_issues",
+   "topic": "YZ250FX starts poorly in gear (2025)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250FX"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Two separate 2025 YZ250FX test bikes were hard to start unless in neutral, even when warm, so riders restarted in neutral; clutch drag was suspected.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling - 2025 Yamaha YZ250FX Review: 11 Fast Facts From the Trails",
+    "url": "https://ultimatemotorcycling.com/2025/07/28/2025-yamaha-yz250fx-review-11-fast-facts-from-the-trails/",
+    "date": "2025-07"
+   },
+   "confidence": "medium",
+   "notes": "Also reported in the GNCC race test (Motocross Action, 2025-04). Two testers agree; cause not confirmed by Yamaha."
+  },
+  {
+   "id": "wk5-009",
+   "domain": "known_issues",
+   "topic": "crank failure after head/cam kit and limiter use",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250FX"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "On a long-term 2020 YZ250FX the crank failed soon after a ported head and cam kit and fresh piston were fitted at about 80 hours, blamed on long stretches on or near the rev limiter in a desert hare and hounds.",
+   "values": {
+    "hours_at_failure": "about 80-85 h"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - Long Haul Update: 2020 Yamaha YZ250FX Update #2",
+    "url": "https://dirtbiketest.com/fresh-dirt/long-haul-update-2020-yamaha-yz250fx-update-2/",
+    "date": "2021-11"
+   },
+   "confidence": "medium",
+   "notes": "Single long-term bike, modified engine. Treat as a reliability cost of more rpm/power plus sustained limiter use rather than a stock-engine defect."
+  },
+  {
+   "id": "wk5-010",
+   "domain": "maintenance",
+   "topic": "long-term wear findings (desert use)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250FX"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "A desert-raced 2020 YZ250FX needed throttle cables and front wheel bearings at about 60 hours, clutch plates at 75 hours (basket notching), and a top end with timing chain at about 80 hours; cylinder showed some wear but blow-by was minimal.",
+   "values": {
+    "throttle_cables": "~60 h",
+    "front_wheel_bearings": "~60 h",
+    "clutch_plates": "75 h",
+    "top_end": "~80 h"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - Long Haul Update: 2020 Yamaha YZ250FX Update #2",
+    "url": "https://dirtbiketest.com/fresh-dirt/long-haul-update-2020-yamaha-yz250fx-update-2/",
+    "date": "2021-11"
+   },
+   "confidence": "medium",
+   "notes": "Oil changed every 6-7 h (occasionally 10 h). Rims dented and seat foam soft after 100+ h."
+  },
+  {
+   "id": "wk5-011",
+   "domain": "engine_mods",
+   "topic": "ported head and cam kit",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250FX"
+    ],
+    "years": [
+     2020,
+     2021
+    ]
+   },
+   "statement": "A factory-accessory ported cylinder head and camshaft kit was fitted at the 80-hour top end on a long-term YZ250FX; the higher-output engine plus long limiter use preceded a crank failure.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - Long Haul Update: 2020 Yamaha YZ250FX Update #2",
+    "url": "https://dirtbiketest.com/fresh-dirt/long-haul-update-2020-yamaha-yz250fx-update-2/",
+    "date": "2021-11"
+   },
+   "confidence": "low",
+   "notes": "No before/after dyno published. Suspension was also revalved and resprung by a tuner (no numbers)."
+  },
+  {
+   "id": "wk5-012",
+   "domain": "identity",
+   "topic": "YZ250FX 2022 update",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250FX"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "For 2022 the YZ250FX got a new, more direct intake, a new exhaust camshaft, YZ-style brakes (stronger front, lighter rear with a 5 mm smaller rotor) and the YZ250F frame with off-road engine mounts; testers felt it more nimble with slightly less stability.",
+   "values": {
+    "rear_rotor": "5 mm smaller"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - First Impression: 2022 Yamaha YZ250FX",
+    "url": "https://dirtbiketest.com/fresh-dirt/first-impression-2022-yamaha-yz250fx/",
+    "date": "2022-03"
+   },
+   "confidence": "medium",
+   "notes": "Manufacturer changes as reported in a first-impression test."
+  },
+  {
+   "id": "wk5-013",
+   "domain": "power_feel",
+   "topic": "YZ250FX 2022 feel",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250FX"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "Testers found strong low-end torque that lets it lug and recover from too high a gear, mid-range among the strongest in class, and top end competitive with the highest-revving 250Fs; 3rd-6th gaps were improved so it needs less revving.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - First Impression: 2022 Yamaha YZ250FX",
+    "url": "https://dirtbiketest.com/fresh-dirt/first-impression-2022-yamaha-yz250fx/",
+    "date": "2022-03"
+   },
+   "confidence": "medium",
+   "notes": "Stock bike, first impression."
+  },
+  {
+   "id": "wk5-014",
+   "domain": "setups",
+   "topic": "YZ250FX 2022 suspension notes",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250FX"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "The 2022 fork felt firm early and rode high in the stroke; softening it with the clickers helped. The shock felt softer than the fork, and clicker plus high-speed compression changes improved the balance.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - First Impression: 2022 Yamaha YZ250FX",
+    "url": "https://dirtbiketest.com/fresh-dirt/first-impression-2022-yamaha-yz250fx/",
+    "date": "2022-03"
+   },
+   "confidence": "medium",
+   "notes": "No clicker counts or sag published."
+  },
+  {
+   "id": "wk5-015",
+   "domain": "ecu_electronics",
+   "topic": "YZ250FX 2025 maps, rev limit and traction control",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250FX"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "With the blue light off the 2025 FX runs its aggressive map (revs out easily, suits desert and hills); with it on, a milder map that is docile low down. The app can lower the rev limit in 500 rpm steps, has fuel and ignition tables with 16 settings each, and offers three traction control levels plus off, set only in the app.",
+   "values": {
+    "handlebar_maps": "2",
+    "rev_limit_step": "500 rpm",
+    "map_table_settings": "16 fuel + 16 ignition",
+    "traction_control": "3 levels + off"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling - 2025 Yamaha YZ250FX Review: 11 Fast Facts From the Trails",
+    "url": "https://ultimatemotorcycling.com/2025/07/28/2025-yamaha-yz250fx-review-11-fast-facts-from-the-trails/",
+    "date": "2025-07"
+   },
+   "confidence": "medium",
+   "notes": "Tester description of OEM functions. Conflicts with an earlier first-look record describing four selectable TC levels (see conflicts)."
+  },
+  {
+   "id": "wk5-016",
+   "domain": "setups",
+   "topic": "YZ250FX 2025 trail setup",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250FX"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "A 170 lb tester ran stock clickers: plush, resisted bottoming in rocks, whoops and roots. Travel is 11.8 in front and 12.0 in rear, half an inch less than before; he sometimes wanted a lower first and taller sixth.",
+   "values": {
+    "rider_weight": "170 lb",
+    "fork_travel": "11.8 in",
+    "shock_travel": "12.0 in"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling - 2025 Yamaha YZ250FX Review: 11 Fast Facts From the Trails",
+    "url": "https://ultimatemotorcycling.com/2025/07/28/2025-yamaha-yz250fx-review-11-fast-facts-from-the-trails/",
+    "date": "2025-07"
+   },
+   "confidence": "medium",
+   "notes": "No air or spring changes needed; no quickshifter. Low-fuel light left about 10 miles."
+  },
+  {
+   "id": "wk5-017",
+   "domain": "identity",
+   "topic": "YZ250FX 2025 vs YZ250F numbers",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250FX"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Versus the 2025 YZ250F, the FX has suspension lowered 10 mm (seat 15 mm lower), front engine mounts thickened from 5 to 8 mm, an extra muffler baffle, a 2.1 gal tank (1.6 on the YZ) with a low-fuel light at about 12 miles, and is claimed about 3 lb heavier. MSRP $9,099.",
+   "values": {
+    "suspension_lower": "10 mm",
+    "seat_lower": "15 mm",
+    "front_mount": "5 -> 8 mm",
+    "tank": "2.1 gal vs 1.6 gal",
+    "weight_delta": "+3 lb (claim)",
+    "msrp": "$9,099"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Testing & racing the 2025 Yamaha YZ250FX at the Ironman GNCC",
+    "url": "https://motocrossactionmag.com/test-racing-the-2025-yamaha-yz250fx-at-the-ironman-gncc",
+    "date": "2025-04"
+   },
+   "confidence": "medium",
+   "notes": "Yamaha claims reported in a race test. Low-fuel range given as ~10 miles in another test (see conflicts)."
+  },
+  {
+   "id": "wk5-018",
+   "domain": "identity",
+   "topic": "YZ125X 2020 vs YZ125",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125X"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "The 2020 YZ125X used a modified head (lower compression, reported 7.4:1 vs 8.6:1) and a reshaped power valve that effectively lowers the exhaust port and opens slower and later, its own CDI, slightly changed jetting, 13/50 gearing (YZ 13/48), softer valving on the same springs, an 18x2.15 rear rim, reserve petcock, O-ring chain and kickstand, with the YZ125 gearbox and pipe.",
+   "values": {
+    "compression": "7.4:1 (X) vs 8.6:1 (YZ)",
+    "gearing": "13/50 vs 13/48",
+    "rear_rim": "18 x 2.15 in"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - First Impression: 2020 Yamaha YZ125X",
+    "url": "https://dirtbiketest.com/fresh-dirt/first-impression-2020-yamaha-yz125x",
+    "date": "2019-11"
+   },
+   "confidence": "medium",
+   "notes": "Compression figures as reported by the magazine (convention not stated; Yamaha's later figures quote PV-closed/open values). No handguards, skid plate or big tank stock."
+  },
+  {
+   "id": "wk5-019",
+   "domain": "power_feel",
+   "topic": "YZ125X 2020 feel",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125X"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "Testers found the YZ125X smooth and torquey low down for a 125 with less hit than the YZ, most power arriving mid to top, slower-revving and less exciting but easier to recover when a gear too high.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - First Impression: 2020 Yamaha YZ125X",
+    "url": "https://dirtbiketest.com/fresh-dirt/first-impression-2020-yamaha-yz125x",
+    "date": "2019-11"
+   },
+   "confidence": "medium",
+   "notes": "Stock bike on GNCC-style terrain."
+  },
+  {
+   "id": "wk5-020",
+   "domain": "setups",
+   "topic": "YZ125X GNCC setup",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125X"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "A 157 lb tester left the clickers stock and cut sag from about 110 mm to 107 mm, which gave the front more traction in tight turns; at 110 mm it felt vague over chop. It bottomed occasionally on hard MX-style hits.",
+   "values": {
+    "rider_weight": "157 lb",
+    "sag": "107 mm (from ~110 mm)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - First Impression: 2020 Yamaha YZ125X",
+    "url": "https://dirtbiketest.com/fresh-dirt/first-impression-2020-yamaha-yz125x",
+    "date": "2019-11"
+   },
+   "confidence": "medium",
+   "notes": "Sag measured with mud packed on."
+  },
+  {
+   "id": "wk5-021",
+   "domain": "identity",
+   "topic": "YZ125X 2023 vs YZ125 engine and suspension",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125X"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2023-on YZ125X has a 7% bigger combustion chamber, 10.21:1 compression with the power valve closed (5% lower than the YZ) and 7.81:1 open (1% higher), a governor that opens the valve sooner, its own ignition map and slightly leaner jetting in most zones. Springs match the YZ125 (stiffer than the old X) with softer valving, and it runs a 50-tooth rear sprocket vs 49.",
+   "values": {
+    "chamber_volume": "+7%",
+    "compression_pv_closed": "10.21:1",
+    "compression_pv_open": "7.81:1",
+    "rear_sprocket": "50T (YZ 49T)",
+    "msrp_2023": "$7,099"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - Riding the 2023 Yamaha YZ125X (The Wrap)",
+    "url": "https://dirtbikemagazine.com/riding-the-2023-yamaha-yz125x-the-wrap/",
+    "date": "2023-05"
+   },
+   "confidence": "medium",
+   "notes": "Manufacturer data as reported in a magazine. Tank, gearbox, pipe and silencer are the same as the YZ125."
+  },
+  {
+   "id": "wk5-022",
+   "domain": "power_feel",
+   "topic": "YZ125X 2023 feel vs YZ125",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125X"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers found the 2023 X has considerably more low-end than the motocross YZ125 (which lost low-end with its 2022 engine) but a weaker top end; it is slower than the YZ125, which is itself slower than the Austrian 125s.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - Riding the 2023 Yamaha YZ125X (The Wrap)",
+    "url": "https://dirtbikemagazine.com/riding-the-2023-yamaha-yz125x-the-wrap/",
+    "date": "2023-05"
+   },
+   "confidence": "medium",
+   "notes": "Stock bike. No dyno published."
+  },
+  {
+   "id": "wk5-023",
+   "domain": "power_feel",
+   "topic": "YZ250X 2024 feel and intake",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250X"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The rear-entry intake with rerouted air channels reduces the on/off light-switch feel in the bottom to mid-range, yet the engine still revs to a classic two-stroke rush on top.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2024 Yamaha YZ250X Review",
+    "url": "https://www.cyclenews.com/2024/04/article/2024-yamaha-yz250x-review/",
+    "date": "2024-04"
+   },
+   "confidence": "medium",
+   "notes": "Stock bike, woods loop and MX track."
+  },
+  {
+   "id": "wk5-024",
+   "domain": "drivetrain",
+   "topic": "YZ250X gearbox vs YZ250",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250X"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The YZ250X 5-speed shares 1st and 2nd with the YZ250, has a slightly lower 3rd, and taller 4th and 5th.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2024 Yamaha YZ250X Review",
+    "url": "https://www.cyclenews.com/2024/04/article/2024-yamaha-yz250x-review/",
+    "date": "2024-04"
+   },
+   "confidence": "medium",
+   "notes": "Qualitative; ratios are in Yamaha's manual."
+  },
+  {
+   "id": "wk5-025",
+   "domain": "setups",
+   "topic": "YZ250X woods and MX setup",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250X"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Stock settings are softer than the YZ250 and absorbed roots and acceleration bumps without bottoming on an MX track; the tester switched between woods and MX without touching the clickers and suggests going stiffer for fast western terrain.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2024 Yamaha YZ250X Review",
+    "url": "https://www.cyclenews.com/2024/04/article/2024-yamaha-yz250x-review/",
+    "date": "2024-04"
+   },
+   "confidence": "medium",
+   "notes": "No clicker counts published. Claimed 229 lb, 1.8 gal tank, kick-start only, handguards not stock, MSRP $8,099."
+  },
+  {
+   "id": "wk5-026",
+   "domain": "identity",
+   "topic": "Husqvarna TX 300 2023 (TBI)",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TX 300"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "The 2023 TX 300 moved from TPI to throttle-body injection (39 mm Keihin) with electric start, an electronically controlled exhaust valve, two maps (standard linear, aggressive sharper), a rollover sensor, new frame, engine mounts, swingarm and bodywork, a Pankl 6-speed with hydraulic clutch, claimed 100.3 kg without fuel, MSRP $11,199.",
+   "values": {
+    "throttle_body": "39 mm",
+    "dry_weight_claim": "100.3 kg",
+    "maps": "2",
+    "msrp": "$11,199"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX - 2023 Husqvarna TX 300 bike guide and member review",
+    "url": "https://vitalmx.com/product/guide/bikes/husqvarna/tx-300-7936",
+    "date": "2023-07"
+   },
+   "confidence": "medium",
+   "notes": "Spec list on a bike-guide page. Brakes listed as 260/220 mm."
+  },
+  {
+   "id": "wk5-027",
+   "domain": "known_issues",
+   "topic": "Husqvarna TX 300 2023 owner complaints",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TX 300"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "One owner praised the 2023 TX 300 engine but listed weak stator output for lights or a fan at low speed, a flywheel too light for some riders, weaker brakes than Brembo/Magura units and fuel-pickup placement as weak points, and said the suspension needs tuning out of the crate.",
+   "values": {},
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX - 2023 Husqvarna TX 300 bike guide and member review",
+    "url": "https://vitalmx.com/product/guide/bikes/husqvarna/tx-300-7936",
+    "date": "2023-07"
+   },
+   "confidence": "low",
+   "notes": "Single member review; not yet corroborated. The owner recommended waiting for the 2024 chassis (heavier flywheel, Brembo brakes) for hard enduro."
+  },
+  {
+   "id": "wk5-028",
+   "domain": "identity",
+   "topic": "Husqvarna TX 300 2024 changes",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TX 300",
+     "Husqvarna FX 350",
+     "Husqvarna FX 450"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "For 2024 the cross-country Husqvarnas got a new 48 mm WP XACT closed-cartridge spring fork with a mid-valve piston for less foaming and a hydrostop over the last 68 mm; the shock carried over. The TX 300 kept TBI and a 6-speed, with Brembo hydraulic clutch, 2.0 Ah Li-ion battery, DirtStar rims and MX33/AT81 tyres.",
+   "values": {
+    "fork": "48 mm WP XACT closed cartridge",
+    "hydrostop": "last 68 mm",
+    "battery": "2.0 Ah Li-ion"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21 - First look 2024 Husqvarna cross-country and motocross model updates",
+    "url": "https://enduro21.com/en/bikes/latest/first-look-2024-husqvarna-cross-country-and-motocross-model-updates",
+    "date": "2023-04"
+   },
+   "confidence": "medium",
+   "notes": "Manufacturer launch info."
+  },
+  {
+   "id": "wk5-029",
+   "domain": "identity",
+   "topic": "Husqvarna cross-country 2027",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TX 300",
+     "Husqvarna FX 350",
+     "Husqvarna FX 450"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "For 2027 the cross-country range is TX 300 (TBI), FX 350 and the returning FX 450, all with a white frame and AT82 tyres; both four-strokes have a quickshifter, traction control, launch control and two maps. The range lists the XACT closed-cartridge fork and a shock with a CFD-optimised main piston.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21 - Quick Look: 2027 Husqvarna cross-country range",
+    "url": "https://enduro21.com/en/bikes/latest/quick-look-2027-husqvarna-cross-country-range-fx-450-returns-to-the-line-up",
+    "date": "2026-06"
+   },
+   "confidence": "medium",
+   "notes": "Source does not say which suspension updates apply to which model. Available from June 2026."
+  },
+  {
+   "id": "wk5-030",
+   "domain": "ecu_electronics",
+   "topic": "TBI TE map switch colours",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TE 150",
+     "Husqvarna TE 250",
+     "Husqvarna TE 300"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "On the TBI TE models the handlebar map switch also changes the electronic exhaust-valve control: green is the more aggressive map and white the milder; a tester used green on the TE 150 for slow technical turns.",
+   "values": {
+    "aggressive_map": "green",
+    "mild_map": "white"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "MotoOnline - Tested: 2024 Husqvarna TE range",
+    "url": "https://motoonline.com.au/?p=180349",
+    "date": "2023-06"
+   },
+   "confidence": "medium",
+   "notes": "Tester description of OEM switch."
+  },
+  {
+   "id": "wk5-031",
+   "domain": "power_feel",
+   "topic": "Husqvarna TE 300 TBI feel (2024)",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TE 300"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "A tester found the TBI TE 300 strong right off the bottom and pulling all the way through, with instant but not abrupt response and no coughing at low revs; he still wanted more bottom-end snap.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Australasian Dirt Bike - 2024 Husqvarna TE 300 test",
+    "url": "https://adbmag.com.au/?p=44310",
+    "date": "2023-10"
+   },
+   "confidence": "medium",
+   "notes": "Test bike fitted with an aftermarket pipe and silencer. Fork still softer than an MX setup; footpegs 3 mm lower and shock 15 mm shorter than before."
+  },
+  {
+   "id": "wk5-032",
+   "domain": "engine_mods",
+   "topic": "TE 300 bottom-end snap",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TE 300"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Riders wanting carb-style snap from the TBI TE 300 are pointed to a remap or a more aggressive exhaust.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Australasian Dirt Bike - 2024 Husqvarna TE 300 test",
+    "url": "https://adbmag.com.au/?p=44310",
+    "date": "2023-10"
+   },
+   "confidence": "low",
+   "notes": "Suggestion only; no before/after numbers."
+  },
+  {
+   "id": "wk5-033",
+   "domain": "power_feel",
+   "topic": "Husqvarna TE 250 TBI feel (2024)",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TE 250"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The TBI TE 250 is very linear and easy to manage; it revs more freely than the TE 300 and needs more input to stay in the meat of the power, but caused less arm pump. The engine is about 1.2 kg lighter than before.",
+   "values": {
+    "engine_weight_change": "-1.2 kg"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Australasian Dirt Bike - Enduro test 2024 Husqvarna TE 250",
+    "url": "https://adbmag.com.au/editorial/enduro-test-2024-husqvarna-te-250/",
+    "date": "2024-07"
+   },
+   "confidence": "medium",
+   "notes": "Stock bike. The source misprints bore x stroke as 72 x 66.4 mm (correct: 66.4 x 72)."
+  },
+  {
+   "id": "wk5-034",
+   "domain": "suspension",
+   "topic": "Husqvarna TE 250 XACT behaviour",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TE 250"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The XACT closed-cartridge fork sits high in the stroke, handles bigger hits and still works at slow trail pace; the linkage XACT shock balances it and removes the wallowing of older models. The tester changed nothing.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Australasian Dirt Bike - Enduro test 2024 Husqvarna TE 250",
+    "url": "https://adbmag.com.au/editorial/enduro-test-2024-husqvarna-te-250/",
+    "date": "2024-07"
+   },
+   "confidence": "medium",
+   "notes": "Stock clickers."
+  },
+  {
+   "id": "wk5-035",
+   "domain": "identity",
+   "topic": "Husqvarna enduro 2026 changes",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TE 250",
+     "Husqvarna TE 300",
+     "Husqvarna FE 450"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "For 2026 all Husqvarna enduro models got internal XACT updates, a threaded radiator cap, transparent tank and fuel-line protection; the FE 450 adds a standard radiator fan, quickshifter and on-the-fly traction control, a revised fork (springs, pressure reservoir, one-piece hydrostop, settings) and shock with new valving and tool-free adjusters.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21 - First look 2026 Husqvarna enduro range technical updates",
+    "url": "https://enduro21.com/en/bikes/latest/first-look-2026-husqvarna-enduro-range-technical-updates",
+    "date": "2025-06"
+   },
+   "confidence": "medium",
+   "notes": "Global (European) launch info. The TE 300 is the only Euro 5+ homologated two-stroke there. TE 150 not mentioned in the source."
+  },
+  {
+   "id": "wk5-036",
+   "domain": "engine_architecture",
+   "topic": "2027 YZ250F lubrication and clutch",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "The 2027 YZ250F switches to a dry-sump oil system like the YZ450F and a hydraulic clutch from the YZ450F with a 250-specific hose and higher spring load; a disc spring replaces the coil springs and the primary gear and basket are one steel unit.",
+   "values": {
+    "lubrication": "dry sump",
+    "clutch": "hydraulic, disc spring"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA - YZ250F (2027) features page",
+    "url": "https://yamahamotorsports.com/models/yz250f/features",
+    "date": "2026-06"
+   },
+   "confidence": "high",
+   "notes": "Disc spring and combined primary/basket detail from PulpMX launch report. No spring-load figure published."
+  },
+  {
+   "id": "wk5-037",
+   "domain": "drivetrain",
+   "topic": "2027 YZ250F gearbox",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "The 2027 YZ250F keeps a 5-speed but with new ratios, wider gears and more engagement dogs, in a tri-shaft layout.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21 - First Look: 2027 Yamaha off-road competition range",
+    "url": "https://enduro21.com/en/bikes/latest/first-look-2027-yamaha-off-road-competition-range-all-new-yz250f-leads-the-updates",
+    "date": "2026-06"
+   },
+   "confidence": "medium",
+   "notes": "Tri-shaft detail from PulpMX. Ratios in the manual."
+  },
+  {
+   "id": "wk5-038",
+   "domain": "chassis",
+   "topic": "2027 YZ250F frame and bodywork",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "The 2027 YZ250F uses the YZ450F aluminium bilateral-beam frame and geometry with new inner/outer structure, a thinner front downtube and reshaped, re-thickened engine mounts, plus the YZ450F compact number plate, two-piece side panels and honeycomb seat.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "PulpMX - 2027 Yamaha YZ250F details and specs",
+    "url": "https://pulpmx.com/2026/06/03/2027-yamaha-yz250f-details-specs/",
+    "date": "2026-06"
+   },
+   "confidence": "medium",
+   "notes": "No rake/trail figures published at launch."
+  },
+  {
+   "id": "wk5-039",
+   "domain": "suspension",
+   "topic": "2027 YZ250F suspension",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "The 2027 YZ250F gets YZ450F KYB components with 250 settings: the shock has a different base valve, more damping force and a new tool-free low-speed compression clicker. Travel is 310 mm front and 312 mm rear.",
+   "values": {
+    "fork_travel": "310 mm",
+    "shock_travel": "312 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21 - First Look: 2027 Yamaha off-road competition range",
+    "url": "https://enduro21.com/en/bikes/latest/first-look-2027-yamaha-off-road-competition-range-all-new-yz250f-leads-the-updates",
+    "date": "2026-06"
+   },
+   "confidence": "medium",
+   "notes": "Travel from the Australian test spec list."
+  },
+  {
+   "id": "wk5-040",
+   "domain": "chassis",
+   "topic": "2027 YZ250F rear brake",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "The 2027 YZ250F rear disc shrinks from 240 to 220 mm with smaller master-cylinder and caliper pistons, and the pedal tip is bolted instead of riveted.",
+   "values": {
+    "rear_disc": "240 -> 220 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21 - First Look: 2027 Yamaha off-road competition range",
+    "url": "https://enduro21.com/en/bikes/latest/first-look-2027-yamaha-off-road-competition-range-all-new-yz250f-leads-the-updates",
+    "date": "2026-06"
+   },
+   "confidence": "high",
+   "notes": "Same rear brake change as the 2027 YZ450F."
+  },
+  {
+   "id": "wk5-041",
+   "domain": "ecu_electronics",
+   "topic": "2027 YZ250F electronics",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "The 2027 YZ250F has three-level traction control and adjustable launch control set in the Power Tuner app, a new Quick Setting slide bar and an ECU lock that needs a password to start. Intake, exhaust and airbox were revised to meet FIM/AMA noise limits; the 44 mm Mikuni throttle body and 77.0 x 53.6 mm bore/stroke carry over.",
+   "values": {
+    "traction_control": "3 levels",
+    "throttle_body": "44 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA - YZ250F (2027) features page",
+    "url": "https://yamahamotorsports.com/models/yz250f/features",
+    "date": "2026-06"
+   },
+   "confidence": "high",
+   "notes": "Quick Setting and noise detail from PulpMX launch report."
+  },
+  {
+   "id": "wk5-042",
+   "domain": "identity",
+   "topic": "2027 YZ250F price and weight",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "The 2027 YZ250F lists at $9,099 ($9,299 Monster Energy Edition) in the US and A$15,049 in Australia, where it is quoted at 107 kg wet.",
+   "values": {
+    "msrp_us": "$9,099",
+    "msrp_me": "$9,299",
+    "wet_weight_au": "107 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA - YZ250F (2027) features page",
+    "url": "https://yamahamotorsports.com/models/yz250f/features",
+    "date": "2026-06"
+   },
+   "confidence": "high",
+   "notes": "Weight and AU price from Australian test."
+  },
+  {
+   "id": "wk5-043",
+   "domain": "power_feel",
+   "topic": "2027 YZ250F first-ride feel",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "A heavier tester found the 2027 YZ250F a touch soft right off the bottom but pulling harder and longer as revs rise, past where riders expect the limiter; the accessory airbox intake and a more aggressive app map sharpened the bottom. It turned in willingly and held lines; stock suspension felt soft over braking bumps for his weight.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "MotoOnline - Tested: 2027 Yamaha YZ250F",
+    "url": "https://www.motoonline.com/au/tested-2027-yamaha-yz250f/",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "Launch ride, stock and with accessory intake/map. No dyno yet (see not_found)."
+  },
+  {
+   "id": "wk5-044",
+   "domain": "identity",
+   "topic": "2027 YZ450FX update",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "The 2027 YZ450FX gets cam timing and a new magneto rotor for smoother low-rpm torque, a hydraulic clutch with 15% lighter pull and flatter lever stroke, a 51-tooth rear sprocket, a new YZ450F-derived frame with redesigned mounts, softer-initial KYB settings for rocks and roots, and AT82 tyres.",
+   "values": {
+    "clutch_pull": "-15%",
+    "rear_sprocket": "51T"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - First Look: 2027 Yamaha YZ450FX",
+    "url": "https://dirtbiketest.com/fresh-dirt/first-look-2027-yamaha-yz450fx/",
+    "date": "2026-06"
+   },
+   "confidence": "medium",
+   "notes": "No price or weight in source."
+  },
+  {
+   "id": "wk5-045",
+   "domain": "identity",
+   "topic": "2027 WR450F update",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "WR450F"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "The 2027 WR450F gets a revised intake port and cam timing, more magneto inertia for stall resistance, a 51-tooth sprocket (was 50), a new frame with revised downtube, a new KYB shock piston with a hand low-speed compression clicker, a hydraulic clutch, and a smaller rear brake saving 180 g. MSRP $10,499, October 2026.",
+   "values": {
+    "rear_sprocket": "50 -> 51T",
+    "rear_brake_saving": "180 g",
+    "msrp": "$10,499"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha press release via GlobeNewswire - Yamaha Unveils New 2027 WR450F",
+    "url": "https://www.globenewswire.com/news-release/2026/09/10/3359680/0/en/yamaha-unveils-new-2027-wr450f.html",
+    "date": "2026-09"
+   },
+   "confidence": "high",
+   "notes": "Engine tuning and launch control still need the GYTR competition ECU kit; app has TC, lap timer, ECU lock."
+  },
+  {
+   "id": "wk5-046",
+   "domain": "identity",
+   "topic": "2027 WR250F",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "WR250F"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "The WR250F returns unchanged for 2027 at $9,199, available October 2026.",
+   "values": {
+    "msrp": "$9,199"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha press release via GlobeNewswire - Yamaha Unveils New 2027 WR450F",
+    "url": "https://www.globenewswire.com/news-release/2026/09/10/3359680/0/en/yamaha-unveils-new-2027-wr450f.html",
+    "date": "2026-09"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "wk5-047",
+   "domain": "identity",
+   "topic": "2027 YZ125 and YZ250",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125",
+     "YZ250"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "For 2027 the YZ125 and YZ250 get only new colours and a Monster Energy edition; no technical changes are listed.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21 - First Look: 2027 Yamaha off-road competition range",
+    "url": "https://enduro21.com/en/bikes/latest/first-look-2027-yamaha-off-road-competition-range-all-new-yz250f-leads-the-updates",
+    "date": "2026-06"
+   },
+   "confidence": "medium",
+   "notes": "European launch info."
+  },
+  {
+   "id": "wk5-048",
+   "domain": "engine_architecture",
+   "topic": "2027 CRF450R engine",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Honda lists the 2027 CRF450R at 97.0 x 60.8 mm (bore up from 96.0 mm), 13.8:1 compression, Unicam SOHC with rocker shafts on a common axis, intake valves 2 mm and exhaust 1 mm larger, and a 46 mm throttle body with a double-spray injector. The crank is now round with roller bearings, and the oil ring is DLC coated.",
+   "values": {
+    "bore_stroke": "97.0 x 60.8 mm",
+    "compression": "13.8:1",
+    "throttle_body": "46 mm",
+    "intake_valve": "+2 mm",
+    "exhaust_valve": "+1 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "American Honda - 2027 CRF450R specifications page",
+    "url": "https://powersports.honda.com/motorcycle/motocross/crf450r/2027/crf450r",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "Crank, bearing, valve and DLC detail from first-look report. One report gives compression as 13.75:1 (see conflicts). Intake is steeper and shorter with a new airbox."
+  },
+  {
+   "id": "wk5-049",
+   "domain": "engine_architecture",
+   "topic": "2027 CRF450R bore/stroke ratio and displacement",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Worked out from Honda's figures, the 2027 engine is more oversquare: bore/stroke 1.60 vs about 1.55 before, for 449.3 cc.",
+   "values": {
+    "bore_stroke_ratio": "1.595",
+    "displacement": "449.3 cc"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "manufacturer",
+    "name": "American Honda - 2027 CRF450R specifications page",
+    "url": "https://powersports.honda.com/motorcycle/motocross/crf450r/2027/crf450r",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "97.0/60.8 = 1.595; pi/4 x 9.70^2 x 6.08 = 449.3 cc. Previous 96.0 x 62.1 mm gives 1.546."
+  },
+  {
+   "id": "wk5-050",
+   "domain": "power_feel",
+   "topic": "2027 CRF450R power claim",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Honda claims 10.3% more peak power and 3.7% more peak torque than the 2026, over 60 hp, with gains in the mid-range and over-rev.",
+   "values": {
+    "peak_power_gain": "+10.3% (claim)",
+    "peak_torque_gain": "+3.7% (claim)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - First Look: 2027 Honda CRF450R",
+    "url": "https://dirtbiketest.com/fresh-dirt/first-look-2027-honda-crf450r/",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "Manufacturer claim; no independent dyno found yet. Over-60-hp claim from Cycle News."
+  },
+  {
+   "id": "wk5-051",
+   "domain": "drivetrain",
+   "topic": "2027 CRF450R clutch",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "The 2027 hydraulic clutch has a 7 mm smaller basket, a ring-type primary gear and a rubber-damper back-torque limiter that acts like a slipper; Honda claims 10% lighter lever pull than a cable. A tester found it cut rear kicking and pitching under braking.",
+   "values": {
+    "basket_diameter": "-7 mm",
+    "lever_pull": "-10% vs cable"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "American Honda - 2027 CRF450R specifications page",
+    "url": "https://powersports.honda.com/motorcycle/motocross/crf450r/2027/crf450r",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "Design detail from first-look report; feel from Cycle News test."
+  },
+  {
+   "id": "wk5-052",
+   "domain": "identity",
+   "topic": "2027 CRF450R weight",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Honda claims the 2027 is 9.9 lb lighter: engine 6.0 lb, gearbox 1.1 lb, swingarm 1.1 lb, starter about 1 lb (five parts down to four). Curb weight is 238 lb (225 lb dry) with a 1.9 gal titanium tank, up from 1.7 gal.",
+   "values": {
+    "weight_saving": "9.9 lb",
+    "curb_weight": "238 lb",
+    "dry_weight": "225 lb",
+    "fuel": "1.9 gal"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "American Honda - 2027 CRF450R specifications page",
+    "url": "https://powersports.honda.com/motorcycle/motocross/crf450r/2027/crf450r",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "Breakdown from first-look report."
+  },
+  {
+   "id": "wk5-053",
+   "domain": "chassis",
+   "topic": "2027 CRF450R frame and geometry",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "The 2027 frame is about 70% new with 10% more main-frame rigidity and aluminium head stays; the D-section swingarm is 1.1 lb lighter. Honda lists 27.3 deg rake, 4.6 in trail, 58.7 in wheelbase (+0.3 in), 37.5 in seat and 13.1 in clearance; the rear axle sits 0.5 in higher and pegs 5 mm further back.",
+   "values": {
+    "rake": "27.3 deg",
+    "trail": "4.6 in",
+    "wheelbase": "58.7 in",
+    "seat_height": "37.5 in",
+    "ground_clearance": "13.1 in"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "American Honda - 2027 CRF450R specifications page",
+    "url": "https://powersports.honda.com/motorcycle/motocross/crf450r/2027/crf450r",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "One report gives 27.5 deg rake (see conflicts)."
+  },
+  {
+   "id": "wk5-054",
+   "domain": "suspension",
+   "topic": "2027 CRF450R suspension",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "The 2027 49 mm Showa fork gets a new piston band and a 5.2 N/mm spring; the shock has a new body, upper-mount collar and seal housing, stiffer compression damping spring and HRC-style bladder, with new linkage to cut kickback.",
+   "values": {
+    "fork_spring": "5.2 N/mm",
+    "fork_travel": "12.2 in",
+    "shock_travel": "12.0 in"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2027 Honda CRF450R Review",
+    "url": "https://www.cyclenews.com/2026/08/article/2027-honda-crf450r-review/",
+    "date": "2026-08"
+   },
+   "confidence": "medium",
+   "notes": "Shock detail from first-look report."
+  },
+  {
+   "id": "wk5-055",
+   "domain": "ecu_electronics",
+   "topic": "2027 CRF450R maps",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "The 2027 has Standard, Smooth and Aggressive maps plus three traction-control levels at the bar. A tester preferred Standard: Smooth felt too soft in deep ground and Aggressive faded sooner than expected. There is no smartphone app.",
+   "values": {
+    "maps": "3",
+    "traction_control": "3 levels"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2027 Honda CRF450R Review",
+    "url": "https://www.cyclenews.com/2026/08/article/2027-honda-crf450r-review/",
+    "date": "2026-08"
+   },
+   "confidence": "medium",
+   "notes": "Single launch day."
+  },
+  {
+   "id": "wk5-056",
+   "domain": "power_feel",
+   "topic": "2027 CRF450R feel",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Testers found the 2027 smoother and more linear from the first crack, quieter, with less vibration and less engine braking; taller gearing let him ride a whole track in 2nd with mid-to-top pull kept. It turns in with more effort than the 2026 but is more planted and less pitchy.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2027 Honda CRF450R Review",
+    "url": "https://www.cyclenews.com/2026/08/article/2027-honda-crf450r-review/",
+    "date": "2026-08"
+   },
+   "confidence": "medium",
+   "notes": "Launch test at one track. Final drive 13/51, taller internal ratios."
+  },
+  {
+   "id": "wk5-057",
+   "domain": "known_issues",
+   "topic": "2027 CRF450R early complaints",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Early 2027 complaints are harsh grips, a slippery seat cover and no skid plate (only a plastic water-pump cover protects the cases).",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2027 Honda CRF450R Review",
+    "url": "https://www.cyclenews.com/2026/08/article/2027-honda-crf450r-review/",
+    "date": "2026-08"
+   },
+   "confidence": "low",
+   "notes": "Launch test; not long-term."
+  },
+  {
+   "id": "wk5-058",
+   "domain": "identity",
+   "topic": "2027 CRF450RX",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450RX"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "The 2027 CRF450RX gets all the CRF450R changes plus an 18-inch rear wheel, kickstand and its own suspension settings, with the same narrower 1.9 gal titanium tank. MSRP $10,399, August.",
+   "values": {
+    "msrp": "$10,399",
+    "fuel": "1.9 gal"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - First Look: 2027 Honda CRF450R",
+    "url": "https://dirtbiketest.com/fresh-dirt/first-look-2027-honda-crf450r/",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "Price from US dealer summary."
+  },
+  {
+   "id": "wk5-059",
+   "domain": "identity",
+   "topic": "2027 Honda prices",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "US 2027 prices: CRF450R $10,099 (up $400, July), CRF450R HRC Works Edition $12,999 (October), CRF250R $8,599 (July), CRF250R HRC Works Edition $11,199 (November).",
+   "values": {
+    "CRF450R": "$10,099",
+    "CRF450R_WE": "$12,999",
+    "CRF250R": "$8,599",
+    "CRF250R_WE": "$11,199"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Upshift - Honda announces updated 2027 off-road models",
+    "url": "https://upshiftonline.com/blogs/content/hondas-announces-updated-2027-off-road-models",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "Dealer summary of Honda release; CRF450R price confirmed on Honda's page."
+  },
+  {
+   "id": "wk5-060",
+   "domain": "identity",
+   "topic": "2027 CRF250R",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF250R"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "In the US the 2027 CRF250R gets suspension revisions for consistency and a revised intake and exhaust for lower sound; in Europe it gets only new graphics and the Works Edition renamed HRC-WE, carrying the 2025 platform (79 x 50.9 mm, 13.9:1, 107 kg wet).",
+   "values": {
+    "bore_stroke": "79 x 50.9 mm",
+    "compression": "13.9:1",
+    "wet_weight_eu": "107 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda Motor Europe press release - 27YM Honda CRF250R",
+    "url": "https://hondanews.eu/gb/en/motorcycles/media/pressreleases/578083/27ym-honda-crf250r",
+    "date": "2026-05"
+   },
+   "confidence": "medium",
+   "notes": "US changes from dealer summary of Honda USA release; no numbers published."
+  },
+  {
+   "id": "wk5-061",
+   "domain": "identity",
+   "topic": "2027 KX450 chassis",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "The 2027 KX450 gets a new frame and swingarm with a longer wheelbase for rear traction, a single set of engine-hanger mounting points (two before), revised suspension settings, slimmer bodywork and full Brembo brakes with braided lines.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki UK - 2027 Kawasaki KX250F, KX450F and youth range unveiled",
+    "url": "https://www.kawasaki.co.uk/en/news/2026/june/2027-kawasaki-kx250f--kx450f-and-youth-range-unveiled.html",
+    "date": "2026-06"
+   },
+   "confidence": "medium",
+   "notes": "No wheelbase figure published. Hanger detail from Dirt Bike Test first look. UK availability December 2026."
+  },
+  {
+   "id": "wk5-062",
+   "domain": "engine_mods",
+   "topic": "2027 KX450 intake, exhaust and FI",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Kawasaki revised the 2027 KX450 intake, exhaust (longer muffler) and fuel-injection settings for stronger low-end and more mid-to-high power.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki UK - 2027 Kawasaki KX250F, KX450F and youth range unveiled",
+    "url": "https://www.kawasaki.co.uk/en/news/2026/june/2027-kawasaki-kx250f--kx450f-and-youth-range-unveiled.html",
+    "date": "2026-06"
+   },
+   "confidence": "medium",
+   "notes": "No power figures. Muffler length note from first look."
+  },
+  {
+   "id": "wk5-063",
+   "domain": "ecu_electronics",
+   "topic": "2027 KX450 electronics",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "The 2027 KX450 has a Power Mode button for two maps, a bar switch for two traction-control modes, launch control with a new rev-limit function and three levels, all tunable in the updated app.",
+   "values": {
+    "maps": "2",
+    "traction_control": "2 modes + off",
+    "launch_control": "3 levels"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki UK - 2027 Kawasaki KX250F, KX450F and youth range unveiled",
+    "url": "https://www.kawasaki.co.uk/en/news/2026/june/2027-kawasaki-kx250f--kx450f-and-youth-range-unveiled.html",
+    "date": "2026-06"
+   },
+   "confidence": "medium",
+   "notes": "Three LC levels from first look."
+  },
+  {
+   "id": "wk5-064",
+   "domain": "identity",
+   "topic": "2027 KX450X",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "The 2027 off-road KX450X gets the KX450 changes plus a 1.98 gal translucent tank, 21/18 wheels and cross-country settings.",
+   "values": {
+    "fuel": "1.98 gal"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - First Look: New 2027 KX450F(X) & KX250F(X)",
+    "url": "https://dirtbiketest.com/fresh-dirt/first-look-new-2027-kx450fx-kx250fx/",
+    "date": "2026-06"
+   },
+   "confidence": "medium",
+   "notes": "Model name KX450X; listed under KX450 for garage matching."
+  },
+  {
+   "id": "wk5-065",
+   "domain": "engine_architecture",
+   "topic": "2027 KX250 engine",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "The 2027 KX250 gets a more hemispherical combustion chamber, a longer header with smaller silencer and new FI settings; Kawasaki claims +0.5 kW peak power and +0.3 Nm peak torque. The hydraulic clutch is larger with 15% more spring load.",
+   "values": {
+    "peak_power_gain": "+0.5 kW (claim)",
+    "peak_torque_gain": "+0.3 Nm (claim)",
+    "clutch_spring_load": "+15%"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki UK - 2027 Kawasaki KX250F, KX450F and youth range unveiled",
+    "url": "https://www.kawasaki.co.uk/en/news/2026/june/2027-kawasaki-kx250f--kx450f-and-youth-range-unveiled.html",
+    "date": "2026-06"
+   },
+   "confidence": "high",
+   "notes": "UK availability August 2026. Suspension internals revised, no values."
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "YZ250FX 2025-26 traction control levels",
+   "models": [
+    "YZ250FX"
+   ],
+   "years": [
+    2025,
+    2026
+   ],
+   "values": {
+    "earlier first-look record (yz25-029)": "four selectable levels",
+    "2025 trail review (wk5)": "three levels plus off"
+   },
+   "note": "Probably the same thing counted differently (3 + off = 4 settings)."
+  },
+  {
+   "topic": "YZ250FX 2025 low-fuel light range",
+   "models": [
+    "YZ250FX"
+   ],
+   "years": [
+    2025
+   ],
+   "values": {
+    "trail review": "about 10 miles",
+    "GNCC race test": "about 12 miles"
+   },
+   "spread": "2 miles"
+  },
+  {
+   "topic": "2027 CRF450R compression",
+   "models": [
+    "CRF450R"
+   ],
+   "years": [
+    2027
+   ],
+   "values": {
+    "Honda USA spec page": "13.8:1",
+    "first-look report": "13.75:1"
+   },
+   "spread": "0.05"
+  },
+  {
+   "topic": "2027 CRF450R rake",
+   "models": [
+    "CRF450R"
+   ],
+   "years": [
+    2027
+   ],
+   "values": {
+    "Honda USA spec page / Cycle News": "27.3 deg",
+    "first-look report": "27.5 deg (+0.2)"
+   },
+   "spread": "0.2 deg"
+  },
+  {
+   "topic": "Husqvarna enduro Off-road Control Unit introduction year",
+   "models": [
+    "Husqvarna FE 450",
+    "Husqvarna TE 300"
+   ],
+   "years": [
+    2024,
+    2026
+   ],
+   "values": {
+    "2024 tests and ko2-008": "2024",
+    "2026 enduro launch report": "new for 2026"
+   },
+   "note": "Likely an updated unit for 2026; unresolved."
+  },
+  {
+   "topic": "2027 YZ450F changes",
+   "models": [
+    "YZ450F"
+   ],
+   "years": [
+    2027
+   ],
+   "values": {
+    "European launch report": "colours only",
+    "existing US record (yz450f_engine)": "new smaller rear brake (220 mm disc)"
+   },
+   "note": "Market or reporting difference."
+  },
+  {
+   "topic": "YZ125X compression figures",
+   "models": [
+    "YZ125X"
+   ],
+   "years": [
+    2020,
+    2023
+   ],
+   "values": {
+    "2020 report": "7.4:1 (vs YZ 8.6:1)",
+    "2023 report": "10.21:1 PV closed / 7.81:1 PV open"
+   },
+   "note": "Different conventions and generations; not directly comparable."
+  }
+ ],
+ "not_found": [
+  {
+   "item": "YZ125X dyno (any year 2020-2026)",
+   "searched": "YZ125X dyno horsepower review; 125 two-stroke dyno shootouts (YZ125 only)"
+  },
+  {
+   "item": "YZ250X dyno",
+   "searched": "YZ250X dyno horsepower torque test; only YZ250 dynos found"
+  },
+  {
+   "item": "YZ250FX dynos 2020, 2023-2026",
+   "searched": "YZ250FX dyno test, 2025 YZ250FX dyno; only 2021 and 2022 Dirt Rider runs found"
+  },
+  {
+   "item": "Husqvarna TE 150 / TE 250 / TE 300 TBI dynos",
+   "searched": "Husqvarna TE 300 dyno 2024 TBI; TE 150 dyno; no Husqvarna-badged TBI dyno found (GasGas EX 300 TBI dyno exists in ko2-035)"
+  },
+  {
+   "item": "Husqvarna FE 450 dyno 2020-2026",
+   "searched": "Husqvarna FE 450 dyno horsepower; only a 2019 run found (out of scope)"
+  },
+  {
+   "item": "Husqvarna FX 450 2024-2025 and TX 300 2023+ dynos",
+   "searched": "2025 Husqvarna FX 450 test review; TX 300 TBI test review"
+  },
+  {
+   "item": "Clicker-level tester setups for YZ250FX, YZ250X, TE, FE",
+   "searched": "GNCC/woods reviews; tests give qualitative changes only"
+  },
+  {
+   "item": "2027 YZ250F dyno, compression value on US page, geometry and US weight",
+   "searched": "2027 YZ250F dyno test; Yamaha USA features page"
+  },
+  {
+   "item": "2027 CRF450R independent dyno",
+   "searched": "2027 Honda CRF450R dyno horsepower first ride"
+  },
+  {
+   "item": "2027 CRF250RX details",
+   "searched": "2027 Honda CRF250R changes; US summary only says targeted updates"
+  },
+  {
+   "item": "2027 KX450/KX250 US prices, weights, wheelbase",
+   "searched": "Kawasaki UK release, Dirt Bike Test and MotoOnline 2027 KX articles"
+  },
+  {
+   "item": "2027 YZ250FX, YZ125X, YZ250X changes",
+   "searched": "2027 Yamaha off-road lineup press coverage; not described (2027 YZ250X listed at dealers)"
+  },
+  {
+   "item": "Full review texts",
+   "searched": "Dirt Rider 2024 YZ125X and 2024 TE 250 reviews returned headline only; Cycle News 2025 YZ250FX is video only; motorcyclepowersportsnews 2027 Yamaha lineup page failed to fetch"
+  }
+ ],
+ "sources": [
+  {
+   "name": "American Honda - 2027 CRF450R specifications page",
+   "url": "https://powersports.honda.com/motorcycle/motocross/crf450r/2027/crf450r",
+   "type": "manufacturer",
+   "date": "2026"
+  },
+  {
+   "name": "Australasian Dirt Bike - 2024 Husqvarna TE 300 test",
+   "url": "https://adbmag.com.au/?p=44310",
+   "type": "magazine",
+   "date": "2023-10"
+  },
+  {
+   "name": "Australasian Dirt Bike - Enduro test 2024 Husqvarna TE 250",
+   "url": "https://adbmag.com.au/editorial/enduro-test-2024-husqvarna-te-250/",
+   "type": "magazine",
+   "date": "2024-07"
+  },
+  {
+   "name": "Cycle News - 2024 Yamaha YZ250X Review",
+   "url": "https://www.cyclenews.com/2024/04/article/2024-yamaha-yz250x-review/",
+   "type": "magazine",
+   "date": "2024-04"
+  },
+  {
+   "name": "Cycle News - 2027 Honda CRF450R Review",
+   "url": "https://www.cyclenews.com/2026/08/article/2027-honda-crf450r-review/",
+   "type": "magazine",
+   "date": "2026-08"
+  },
+  {
+   "name": "Dirt Bike - Riding the 2023 Yamaha YZ125X (The Wrap)",
+   "url": "https://dirtbikemagazine.com/riding-the-2023-yamaha-yz125x-the-wrap/",
+   "type": "magazine",
+   "date": "2023-05"
+  },
+  {
+   "name": "Dirt Bike Test - 2020/2021 Yamaha YZ250FX test",
+   "url": "https://dirtbiketest.com/bike-tests/2020-yamaha-yz250fx/",
+   "type": "magazine",
+   "date": "2021-09"
+  },
+  {
+   "name": "Dirt Bike Test - First Impression: 2020 Yamaha YZ125X",
+   "url": "https://dirtbiketest.com/fresh-dirt/first-impression-2020-yamaha-yz125x",
+   "type": "magazine",
+   "date": "2019-11"
+  },
+  {
+   "name": "Dirt Bike Test - First Impression: 2022 Yamaha YZ250FX",
+   "url": "https://dirtbiketest.com/fresh-dirt/first-impression-2022-yamaha-yz250fx/",
+   "type": "magazine",
+   "date": "2022-03"
+  },
+  {
+   "name": "Dirt Bike Test - First Look: 2027 Honda CRF450R",
+   "url": "https://dirtbiketest.com/fresh-dirt/first-look-2027-honda-crf450r/",
+   "type": "magazine",
+   "date": "2026"
+  },
+  {
+   "name": "Dirt Bike Test - First Look: 2027 Yamaha YZ450FX",
+   "url": "https://dirtbiketest.com/fresh-dirt/first-look-2027-yamaha-yz450fx/",
+   "type": "magazine",
+   "date": "2026-06"
+  },
+  {
+   "name": "Dirt Bike Test - First Look: New 2027 KX450F(X) & KX250F(X)",
+   "url": "https://dirtbiketest.com/fresh-dirt/first-look-new-2027-kx450fx-kx250fx/",
+   "type": "magazine",
+   "date": "2026-06"
+  },
+  {
+   "name": "Dirt Bike Test - Long Haul Update: 2020 Yamaha YZ250FX Update #2",
+   "url": "https://dirtbiketest.com/fresh-dirt/long-haul-update-2020-yamaha-yz250fx-update-2/",
+   "type": "magazine",
+   "date": "2021-11"
+  },
+  {
+   "name": "Dirt Rider - 2021 Yamaha YZ250FX dyno test",
+   "url": "https://www.dirtrider.com/story/tests/2021-yamaha-yz250fx-dyno-test",
+   "type": "magazine",
+   "date": "2021-03"
+  },
+  {
+   "name": "Dirt Rider - 2022 Yamaha YZ250FX dyno test",
+   "url": "https://www.dirtrider.com/story/tests/yamaha-yz250fx-dyno-test-2022",
+   "type": "magazine",
+   "date": "2022-06"
+  },
+  {
+   "name": "Enduro21 - First Look: 2027 Yamaha off-road competition range",
+   "url": "https://enduro21.com/en/bikes/latest/first-look-2027-yamaha-off-road-competition-range-all-new-yz250f-leads-the-updates",
+   "type": "magazine",
+   "date": "2026-06"
+  },
+  {
+   "name": "Enduro21 - First look 2024 Husqvarna cross-country and motocross model updates",
+   "url": "https://enduro21.com/en/bikes/latest/first-look-2024-husqvarna-cross-country-and-motocross-model-updates",
+   "type": "magazine",
+   "date": "2023-04"
+  },
+  {
+   "name": "Enduro21 - First look 2026 Husqvarna enduro range technical updates",
+   "url": "https://enduro21.com/en/bikes/latest/first-look-2026-husqvarna-enduro-range-technical-updates",
+   "type": "magazine",
+   "date": "2025-06"
+  },
+  {
+   "name": "Enduro21 - Quick Look: 2027 Husqvarna cross-country range",
+   "url": "https://enduro21.com/en/bikes/latest/quick-look-2027-husqvarna-cross-country-range-fx-450-returns-to-the-line-up",
+   "type": "magazine",
+   "date": "2026-06"
+  },
+  {
+   "name": "Honda Motor Europe press release - 27YM Honda CRF250R",
+   "url": "https://hondanews.eu/gb/en/motorcycles/media/pressreleases/578083/27ym-honda-crf250r",
+   "type": "manufacturer",
+   "date": "2026-05"
+  },
+  {
+   "name": "Kawasaki UK - 2027 Kawasaki KX250F, KX450F and youth range unveiled",
+   "url": "https://www.kawasaki.co.uk/en/news/2026/june/2027-kawasaki-kx250f--kx450f-and-youth-range-unveiled.html",
+   "type": "manufacturer",
+   "date": "2026-06"
+  },
+  {
+   "name": "MotoOnline - Detailed: 2027 Kawasaki KX range",
+   "url": "https://www.motoonline.com/us/detailed-2027-kawasaki-kx-range/",
+   "type": "magazine",
+   "date": "2026-06"
+  },
+  {
+   "name": "MotoOnline - Tested: 2024 Husqvarna TE range",
+   "url": "https://motoonline.com.au/?p=180349",
+   "type": "magazine",
+   "date": "2023-06"
+  },
+  {
+   "name": "MotoOnline - Tested: 2027 Yamaha YZ250F",
+   "url": "https://www.motoonline.com/au/tested-2027-yamaha-yz250f/",
+   "type": "magazine",
+   "date": "2026"
+  },
+  {
+   "name": "Motocross Action - Testing & racing the 2025 Yamaha YZ250FX at the Ironman GNCC",
+   "url": "https://motocrossactionmag.com/test-racing-the-2025-yamaha-yz250fx-at-the-ironman-gncc",
+   "type": "magazine",
+   "date": "2025-04"
+  },
+  {
+   "name": "Powersports Business - Yamaha updates several YZ models for 2027",
+   "url": "https://powersportsbusiness.com/news/yamaha/2026/06/04/yamaha-updates-several-yz-models-returning-atvs-get-new-colorways/",
+   "type": "magazine",
+   "date": "2026-06"
+  },
+  {
+   "name": "PulpMX - 2027 Yamaha YZ250F details and specs",
+   "url": "https://pulpmx.com/2026/06/03/2027-yamaha-yz250f-details-specs/",
+   "type": "magazine",
+   "date": "2026-06"
+  },
+  {
+   "name": "Ultimate Motorcycling - 2025 Yamaha YZ250FX Review: 11 Fast Facts From the Trails",
+   "url": "https://ultimatemotorcycling.com/2025/07/28/2025-yamaha-yz250fx-review-11-fast-facts-from-the-trails/",
+   "type": "magazine",
+   "date": "2025-07"
+  },
+  {
+   "name": "Upshift - Honda announces updated 2027 off-road models",
+   "url": "https://upshiftonline.com/blogs/content/hondas-announces-updated-2027-off-road-models",
+   "type": "dealer",
+   "date": "2026"
+  },
+  {
+   "name": "Vital MX - 2023 Husqvarna TX 300 bike guide and member review",
+   "url": "https://vitalmx.com/product/guide/bikes/husqvarna/tx-300-7936",
+   "type": "forum",
+   "date": "2023-07"
+  },
+  {
+   "name": "Yamaha Motor USA - YZ250F (2027) features page",
+   "url": "https://yamahamotorsports.com/models/yz250f/features",
+   "type": "manufacturer",
+   "date": "2026-06"
+  },
+  {
+   "name": "Yamaha press release via GlobeNewswire - Yamaha Unveils New 2027 WR450F",
+   "url": "https://www.globenewswire.com/news-release/2026/09/10/3359680/0/en/yamaha-unveils-new-2027-wr450f.html",
+   "type": "manufacturer",
+   "date": "2026-09"
+  }
+ ]
+}

@@ -1,0 +1,2610 @@
+{
+ "slice": "Japanese MX suspension, setups and engine mods 2020-2026 (YZ450F, YZ250F, YZ125, YZ250, CRF450R, CRF250R, KX450, KX250)",
+ "platform": {
+  "make": "Yamaha",
+  "models": [
+   "YZ450F",
+   "YZ250F",
+   "YZ125",
+   "YZ250",
+   "CRF450R",
+   "CRF250R",
+   "KX450",
+   "KX250"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ]
+ },
+ "records": [
+  {
+   "id": "jp5-001",
+   "domain": "suspension",
+   "topic": "fork spring rate by rider weight and discipline",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "A suspension spring maker recommends 4.9 N/mm fork springs for 155-170 lb motocross riders, stock 5.0 N/mm for 170-185 lb, 5.1 for 185-200 lb, 5.2 for 200-215 lb and 5.4 for 230 lb and up; off-road riders go one or two steps softer.",
+   "values": {
+    "fork_motocross": "120-135 lb 4.7; 135-155 lb 4.8; 155-170 lb 4.9; 170-185 lb 5.0 (stock); 185-200 lb 5.1; 200-215 lb 5.2; 215-230 lb 5.3; 230-245 lb 5.4; 245-275 lb 5.4",
+    "fork_soft_moto_desert": "120-135 lb 4.6; 135-155 lb 4.7; 155-170 lb 4.8; 170-185 lb 4.9; 185-200 lb 5.0 (stock); 200-215 lb 5.1; 215-230 lb 5.2; 230-245 lb 5.3; 245-275 lb 5.3",
+    "fork_flowy_singletrack": "120-135 lb 4.6; 135-155 lb 4.7; 155-170 lb 4.8; 170-185 lb 4.9; 185-200 lb 5.0 (stock); 200-215 lb 5.1; 215-230 lb 5.2; 230-245 lb 5.3; 245-275 lb 5.3",
+    "fork_technical_hard_enduro": "120-135 lb 4.5; 135-155 lb 4.6; 155-170 lb 4.7; 170-185 lb 4.8; 185-200 lb 4.9; 200-215 lb 5.0 (stock); 215-230 lb 5.1; 230-245 lb 5.2; 245-275 lb 5.2",
+    "stock_fork_spring": "120-135 lb 5; 135-155 lb .; 155-170 lb 0; 170-185 lb  ; 185-200 lb N; 200-215 lb /; 215-230 lb m; 230-245 lb m; 245-275 lb  "
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Ride JBI Suspension - 2025-2026 Yamaha YZ450F spring rate chart",
+    "url": "https://www.ridejbi.com/2025-2026-yamaha-yz450f/",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Weights are the rider in everyday clothes; the chart already allows for riding gear. Applies to stock or modified valving. Columns: motocross; soft moto/open desert; flowy single track; technical single track/hard enduro. Rates in N/mm. The same table is published for 2026-2027."
+  },
+  {
+   "id": "jp5-002",
+   "domain": "suspension",
+   "topic": "shock spring rate by rider weight and discipline",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "For motocross the same chart puts 155-170 lb riders on a 54 N/mm shock spring, 170-185 lb on the stock 56 N/mm, 185-200 lb on 57, 200-215 lb on 58, 215-230 lb on 60 and 230-245 lb on 62 N/mm.",
+   "values": {
+    "shock_motocross": "120-135 lb 51; 135-155 lb 52; 155-170 lb 54; 170-185 lb 56 (stock); 185-200 lb 57; 200-215 lb 58; 215-230 lb 60; 230-245 lb 62; 245-275 lb 63-64",
+    "shock_soft_moto_desert": "120-135 lb 51; 135-155 lb 52; 155-170 lb 54; 170-185 lb 56 (stock); 185-200 lb 57; 200-215 lb 58; 215-230 lb 60; 230-245 lb 62; 245-275 lb 63-64",
+    "shock_flowy_singletrack": "120-135 lb 50; 135-155 lb 52; 155-170 lb 54; 170-185 lb 56 (stock); 185-200 lb 56 (stock); 200-215 lb 57; 215-230 lb 58; 230-245 lb 60; 245-275 lb 61-62",
+    "shock_technical_hard_enduro": "120-135 lb 50; 135-155 lb 52; 155-170 lb 54; 170-185 lb 54; 185-200 lb 56 (stock); 200-215 lb 57; 215-230 lb 58; 230-245 lb 60; 245-275 lb 61",
+    "stock_shock_spring": "120-135 lb 5; 135-155 lb 6; 155-170 lb  ; 170-185 lb N; 185-200 lb /; 200-215 lb m; 215-230 lb m; 230-245 lb  ; 245-275 lb ("
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Ride JBI Suspension - 2025-2026 Yamaha YZ450F spring rate chart",
+    "url": "https://www.ridejbi.com/2025-2026-yamaha-yz450f/",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Weights are the rider in everyday clothes; the chart already allows for riding gear. Applies to stock or modified valving. Columns: motocross; soft moto/open desert; flowy single track; technical single track/hard enduro. Rates in N/mm. Shock is KYB 16 mm shaft / 50 mm piston; 2025 brought a new linkage ratio. The 2026-2027 page lists identical shock rates and notes the 2026 shock added a hand low-speed compression adjuster."
+  },
+  {
+   "id": "jp5-003",
+   "domain": "setups",
+   "topic": "baseline settings 2021 (160-195 lb)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "A tester baseline for 160-195 lb riders on stock valving and springs: fork 4 mm up, compression 6-7 out, rebound 7-8 out; shock 104 mm sag, low-speed 8 out, high-speed 3/4 turn out, rebound 7-8 out.",
+   "values": {
+    "rider_weight": "160-195 lb (no gear)",
+    "fork_height": "4 mm",
+    "fork_compression": "6-7 clicks out",
+    "fork_rebound": "7-8 clicks out",
+    "sag": "104 mm",
+    "shock_lsc": "8 clicks out",
+    "shock_hsc": "3/4 turn out",
+    "shock_rebound": "7-8 clicks out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - 2021 450 MX baseline settings",
+    "url": "https://keeferinctesting.com/?p=13303",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Motocross, tester's own level (fast vet/ex-pro). Stock setup described as slightly soft on big high-speed bumps. Discipline: general outdoor MX."
+  },
+  {
+   "id": "jp5-004",
+   "domain": "setups",
+   "topic": "baseline settings 2023",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "A tester baseline for the 2023 on stock valving after about 18 hours: fork 4 mm up, compression 12 out, rebound 9 out; shock 104 mm sag, low-speed 11 out, high-speed 1-1/4 turns out, rebound 12 out.",
+   "values": {
+    "fork_height": "4 mm",
+    "fork_compression": "12 clicks out",
+    "fork_rebound": "9 clicks out",
+    "sag": "104 mm",
+    "shock_lsc": "11 clicks out",
+    "shock_hsc": "1.25 turns out",
+    "shock_rebound": "12 clicks out",
+    "break_in": "about 5 h suggested; settings tested at about 18 h"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - 2023 450 MX baseline settings",
+    "url": "https://www.keeferinctesting.com/?p=24664",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Outdoor MX, Southern California tracks; rider weight range for this article set is about 160-200 lb. Springs stock (5.0 fork / 58 shock)."
+  },
+  {
+   "id": "jp5-005",
+   "domain": "setups",
+   "topic": "baseline settings 2024",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "A tester baseline for the 2024 aimed at 160-200 lb riders: fork 3 mm up, compression 11 out, rebound 10-11 out; shock 105 mm sag, low-speed 12 out, high-speed 1-1/4 turns out, rebound 11 out.",
+   "values": {
+    "rider_weight": "about 160-200 lb",
+    "fork_height": "3 mm",
+    "fork_compression": "11 clicks out",
+    "fork_rebound": "10-11 clicks out",
+    "sag": "105 mm",
+    "shock_lsc": "12 clicks out",
+    "shock_hsc": "1.25 turns out",
+    "shock_rebound": "11 clicks out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - 2024 450 MX Suspension Baseline Settings",
+    "url": "https://www.keeferinctesting.com/?p=27510",
+    "date": "2023-11"
+   },
+   "confidence": "medium",
+   "notes": "Outdoor MX (fast, rough tracks). Stock springs."
+  },
+  {
+   "id": "jp5-006",
+   "domain": "setups",
+   "topic": "baseline settings 2025 (launch)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "At the 2025 launch a tester's baseline was fork 2 mm up, compression 8 out, rebound 10 out; shock 105 mm sag, low-speed 11 out, high-speed 1-1/2 turns out, rebound 12 out.",
+   "values": {
+    "fork_height": "2 mm",
+    "fork_compression": "8 clicks out",
+    "fork_rebound": "10 clicks out",
+    "sag": "105 mm",
+    "shock_lsc": "11 clicks out",
+    "shock_hsc": "1.5 turns out",
+    "shock_rebound": "12 clicks out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - 2025 Yamaha YZ450F Baseline Suspension Settings/Tips/Maps",
+    "url": "https://www.keeferinctesting.com/?p=28255",
+    "date": "2024-09"
+   },
+   "confidence": "medium",
+   "notes": "Stock 2025 bike, stock springs (5.0 fork / 56 shock). Article also offers a smoother Power Tuner map (values only in images) for rear traction on corner exit. Rider weight not stated in this article (tester about 172-175 lb in other articles)."
+  },
+  {
+   "id": "jp5-007",
+   "domain": "setups",
+   "topic": "baseline settings 2025 (after more testing)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "A later 2025 baseline from the same tester: fork 5.0 N/mm, 2 mm up, compression 12 out, rebound 9 out; shock 56 N/mm, 105 mm sag, low-speed 11 out, high-speed 1-1/4 to 1-1/2 turns out, rebound 10 out.",
+   "values": {
+    "fork_spring": "5.0 N/mm",
+    "fork_height": "2 mm",
+    "fork_compression": "12 clicks out",
+    "fork_rebound": "9 clicks out",
+    "shock_spring": "56 N/mm",
+    "sag": "105 mm",
+    "shock_lsc": "11 clicks out",
+    "shock_hsc": "1.25-1.5 turns out",
+    "shock_rebound": "10 clicks out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - 2025 450 MX Baseline Suspension Settings",
+    "url": "https://www.keeferinctesting.com/?p=28578",
+    "date": "2025-01"
+   },
+   "confidence": "medium",
+   "notes": "Outdoor MX, Southern California. Fork compression is 4 clicks stiffer than the same tester's launch baseline (see conflicts)."
+  },
+  {
+   "id": "jp5-008",
+   "domain": "setups",
+   "topic": "baseline settings 2026",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "A tester baseline for the 2026: fork 5.0 N/mm, flush to 2 mm up, compression 9 out, rebound 10 out; shock 56 N/mm, 105 mm sag, low-speed 12 out, high-speed 1-1/2 turns out, rebound 10-11 out.",
+   "values": {
+    "fork_spring": "5.0 N/mm",
+    "fork_height": "flush-2 mm",
+    "fork_compression": "9 clicks out",
+    "fork_rebound": "10 clicks out",
+    "shock_spring": "56 N/mm",
+    "sag": "105 mm",
+    "shock_lsc": "12 clicks out",
+    "shock_hsc": "1.5 turns out",
+    "shock_rebound": "10-11 clicks out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - 2026 450 MX baseline suspension settings",
+    "url": "https://www.keeferinctesting.com/?p=29670",
+    "date": "2026-01"
+   },
+   "confidence": "medium",
+   "notes": "Outdoor MX. Flush fork height for hard Southern California tracks, 2 mm for rutty/soft tracks (tester's general rule in this article set)."
+  },
+  {
+   "id": "jp5-009",
+   "domain": "setups",
+   "topic": "2026 settings for riders over 180 lb",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "For riders over about 180 lb (without gear) on the 2026, a tester suggests fork 2 mm up, compression 10 out, rebound 11 out; shock 105 mm sag, low-speed 9-10 out, high-speed 1-1/2 turns out (stock 1-1/4), rebound 11 out.",
+   "values": {
+    "rider_weight": "over 180 lb without gear",
+    "fork_height": "2 mm",
+    "fork_compression": "10 clicks out",
+    "fork_rebound": "11 clicks out",
+    "sag": "105 mm",
+    "shock_lsc": "9-10 clicks out",
+    "shock_hsc": "1.5 turns out (stock 1.25)",
+    "shock_rebound": "11 clicks out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - 2026 Yamaha YZ450F baseline suspension settings",
+    "url": "https://www.keeferinctesting.com/?p=29306",
+    "date": "2025-09"
+   },
+   "confidence": "medium",
+   "notes": "Developed over four tracks. The fork is soft initially and firms mid-stroke. If the rear lacks traction or feels harsh, open HSC to 1-1/2 turns. Warns that 2025 KYB parts will not behave the same on the 2026 frame."
+  },
+  {
+   "id": "jp5-010",
+   "domain": "setups",
+   "topic": "2026 soft, rutty (East Coast) track setup",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "For soft, grabby, deeply rutted dirt a tester ran the 2026 fork flush to 1 mm, compression 8 out, rebound 11 out, and the shock at 106 mm sag, low-speed 11 out, high-speed 1-1/4, rebound 12 out, with stock 5.0 / 56 N/mm springs.",
+   "values": {
+    "fork_spring": "5.0 N/mm",
+    "fork_height": "flush-1 mm",
+    "fork_compression": "8 clicks out",
+    "fork_rebound": "11 clicks out",
+    "shock_spring": "56 N/mm",
+    "sag": "106 mm",
+    "shock_lsc": "11 clicks out",
+    "shock_hsc": "1.25 turns out",
+    "shock_rebound": "12 clicks out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - 2026 Yamaha YZ450F East/West Coast settings",
+    "url": "https://www.keeferinctesting.com/?p=29641",
+    "date": "2026-03"
+   },
+   "confidence": "medium",
+   "notes": "Tested in Georgia. Lower fork and added compression balance the bike off-throttle on corner entry. If the track firms up, back out shock LSC a couple of clicks. The bike prefers rebound faster than stock. Rider weight not stated (tester about 172-175 lb elsewhere)."
+  },
+  {
+   "id": "jp5-011",
+   "domain": "setups",
+   "topic": "2026 hardpack (West Coast) track setup",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "For harder, lower-traction tracks the same tester ran the fork flush, compression 10 out, rebound 12 out, and the shock at 104 mm sag, low-speed 14 out, high-speed 1-1/8 to 1-1/4, rebound 13 out, prioritising traction and comfort.",
+   "values": {
+    "fork_spring": "5.0 N/mm",
+    "fork_height": "flush",
+    "fork_compression": "10 clicks out",
+    "fork_rebound": "12 clicks out",
+    "shock_spring": "56 N/mm",
+    "sag": "104 mm",
+    "shock_lsc": "14 clicks out",
+    "shock_hsc": "1.125-1.25 turns out",
+    "shock_rebound": "13 clicks out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - 2026 Yamaha YZ450F East/West Coast settings",
+    "url": "https://www.keeferinctesting.com/?p=29641",
+    "date": "2026-03"
+   },
+   "confidence": "medium",
+   "notes": "Tested in California. Flush fork helps the front track; a softer-compound front tyre suggested for bite. One freer-feeling ECU map recommended for both coasts (values only in an image)."
+  },
+  {
+   "id": "jp5-012",
+   "domain": "setups",
+   "topic": "2023 race setup (sandy morning, hardpack afternoon)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "A 172 lb tester raced a 2023 on tuner-revalved suspension at fork 2 mm up, compression 12, rebound 11; shock 104 mm sag, low-speed 10, high-speed 1-1/4, rebound 12, with 13/49 gearing, an aftermarket muffler and reflashed stock-tune ECU.",
+   "values": {
+    "rider_weight": "172 lb without gear",
+    "fork_height": "2 mm",
+    "fork_compression": "12",
+    "fork_rebound": "11",
+    "sag": "104 mm",
+    "shock_lsc": "10",
+    "shock_hsc": "1.25",
+    "shock_rebound": "12",
+    "gearing": "13/49",
+    "tyre_pressure": "13.5 psi front / 12.5 psi rear",
+    "holeshot_device": "140 mm",
+    "engine_hours": "10.6 h"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - Weekend race set up 2023 Yamaha YZ450F",
+    "url": "https://www.keeferinctesting.com/weekend-race-set-up-2023-yamaha-yz450f/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Race at Fox Raceway, sandy topsoil AM / hard pack PM, grate start. Suspension was a tuner spec (KK2551BF/BS), springs not listed. Engine: Akrapovic Evolution muffler, GET ECU (stock tune), Twin Air PowerFlow filter, ETS MX18 fuel; Hinson 9-plate clutch pack. Bars at +1 setting, offset footpeg mounts. Skill: fast vet/ex-pro."
+  },
+  {
+   "id": "jp5-013",
+   "domain": "setups",
+   "topic": "2026 vet race setup (sand over hard base)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "For a vet race on sandy topsoil over a hard base, a tester ran 105 mm sag, shock low-speed 15, high-speed 1-1/4, rebound 12, fork 1 mm up with compression 14 and rebound 12, 13/51 gearing, a full aftermarket exhaust, aftermarket ECU on race fuel and a 596 mm swingarm length.",
+   "values": {
+    "sag": "105 mm",
+    "shock_lsc": "15",
+    "shock_hsc": "1.25",
+    "shock_rebound": "12",
+    "fork_height": "1 mm",
+    "fork_compression": "14",
+    "fork_rebound": "12",
+    "fork_air_assist": "37.5 psi (test fork)",
+    "gearing": "13/51",
+    "swingarm_pivot_to_axle": "596 mm",
+    "tyre_pressure": "13.5 front / 12.5 rear (psi)",
+    "holeshot_device": "135 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - The weekend race set up: World Vet (2026 YZ450F)",
+    "url": "https://www.keeferinctesting.com/the-weekend-race-set-up-world-vet/",
+    "date": "2025-10"
+   },
+   "confidence": "medium",
+   "notes": "2025 World Vet, Glen Helen. Enzo test fork and shock (specs KK244F/KK245S), not stock valving; fork listed with 37.5 psi air. Engine: Vortex ECU mapped by XPR on VP RX96 (slightly touchier at 10-20% throttle than VP T4), Akrapovic Evolution full system (notes also mention an FMF 4.1, page is inconsistent), Twin Air Power Flow kit. 18.6 engine hours. Rider weight not listed on page."
+  },
+  {
+   "id": "jp5-014",
+   "domain": "chassis",
+   "topic": "swingarm length by gearing with matching sag and fork height",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "A tester's measured pivot-to-axle lengths: stock 13/49 with 114 links gives 585.4 mm (run with 105 mm sag, forks 3 mm up); 13/50 gives 581.1 mm (106 mm sag, forks flush); 14/52 with 116 links gives 584.7 mm (105 mm sag, forks 2 mm up).",
+   "values": {
+    "13/49_114_links": "585.4 mm (range 585.4-586.8), sag 105 mm, fork 3 mm",
+    "13/48": "589.8 mm",
+    "13/50_114_links": "581.1 mm (range 581.1-582.6), sag 106 mm, fork flush",
+    "14/52_116_links": "584.7 mm (range 584.7-586.0), sag 105 mm, fork 2 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - 2023-2025 Yamaha YZ450F Optimal Swingarm Measurements",
+    "url": "https://www.keeferinctesting.com/?p=28394",
+    "date": "2024-10"
+   },
+   "confidence": "medium",
+   "notes": "Units not stated on page but values are pivot-to-axle in mm. 14/52 helped traction on harder pack, no noticeable gain on softer soil. Starting measurements credited to a suspension shop."
+  },
+  {
+   "id": "jp5-015",
+   "domain": "chassis",
+   "topic": "triple clamp offset options (2025)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Aftermarket clamps for the 2025 offer 21, 22 (stock), 23 and 24 mm offset; all of one magazine's testers felt 23 mm calmed the steering and tracked straighter.",
+   "values": {
+    "stock_offset": "22 mm",
+    "aftermarket_options": "21 / 22 / 23 / 24 mm",
+    "preferred": "23 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - MXA Race Test: 2025 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-yamaha-yz450f/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Luxon Gen3 Pro clamps. Other head-shake fixes listed: slide forks down in the clamps, slightly tighten the steering-stem nut."
+  },
+  {
+   "id": "jp5-016",
+   "domain": "setups",
+   "topic": "race-test changes 2025",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Testers on the 2025 ran a much mellower map than Yamaha's mellow presets, a 48-tooth rear sprocket (stock 49) to stretch second gear, forks slid down for stability, a 1.8 radiator cap (stock 1.1) and a holeshot device at 130 mm (160 mm on a metal grate).",
+   "values": {
+    "rear_sprocket": "48T (stock 49T)",
+    "radiator_cap": "1.8 (stock 1.1)",
+    "holeshot_device": "130 mm; 160 mm on metal grate",
+    "clamp_offset": "23 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - MXA Race Test: 2025 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-yamaha-yz450f/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Other recommendations: hydraulic clutch kit (GYTR) preferred by most testers, aftermarket air filter kit (slightly faster revving, more midrange pull, no backfire screen), aftermarket exhaust for smoother, more linear power (test riders split between two brands), flatter seat. Rider weights not stated."
+  },
+  {
+   "id": "jp5-017",
+   "domain": "suspension",
+   "topic": "2025 fork pressure spring change (rate)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "For 2025 Yamaha fitted a softer 20 N/mm fork pressure spring (22 N/mm in 2024) with about three times the preload, and a softer 56 N/mm shock spring (58 N/mm in 2024).",
+   "values": {
+    "fork_pressure_spring_2025": "20 N/mm",
+    "fork_pressure_spring_2024": "22 N/mm",
+    "preload": "about tripled",
+    "shock_spring": "56 N/mm (2024: 58 N/mm)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - MXA Race Test: 2025 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-yamaha-yz450f/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Magazine description of the factory change."
+  },
+  {
+   "id": "jp5-018",
+   "domain": "suspension",
+   "topic": "2025 fork pressure spring change (length and preload)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Another tester reports the 2025 fork pressure spring free length grew from 107 to 112 mm and its preload from 2 to 7 mm, with a new delta-shaped rebound shim.",
+   "values": {
+    "pressure_spring_free_length": "107 mm -> 112 mm",
+    "pressure_spring_preload": "2 mm -> 7 mm",
+    "rebound_shim": "new delta shape"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - 2025 Yamaha YZ450F Baseline Suspension Settings/Tips/Maps",
+    "url": "https://www.keeferinctesting.com/?p=28255",
+    "date": "2024-09"
+   },
+   "confidence": "medium",
+   "notes": "Also lists one-piece 8 mm lower engine mounts and shaved footpeg mounts for 2025."
+  },
+  {
+   "id": "jp5-019",
+   "domain": "chassis",
+   "topic": "mixing 2024 and 2025 parts",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "Fitting the 2024 linkage to a 2025 needs a lighter shock spring and valving changes, and fitting the 2025 lower engine mounts to a 2024 may need fork clicker and sag changes.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - 2025 Yamaha YZ450F Baseline Suspension Settings/Tips/Maps",
+    "url": "https://www.keeferinctesting.com/?p=28255",
+    "date": "2024-09"
+   },
+   "confidence": "medium",
+   "notes": "Tester's author race bike for 2024 used aftermarket one-piece engine mounts, which he says gave more front-end traction."
+  },
+  {
+   "id": "jp5-020",
+   "domain": "suspension",
+   "topic": "aftermarket linkage between 2024 and 2025 curves",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Yamaha stiffened the whole 2025 linkage curve and dropped the shock spring from 58 to 56 N/mm; an aftermarket $450 linkage that starts slightly stiffer than 2024 and ends a little softer than 2025 improved rear traction and comfort, with sag reset to 104-105 mm.",
+   "values": {
+    "spring_2023_2024": "58 N/mm",
+    "spring_2025": "56 N/mm",
+    "aftermarket_linkage_price": "$450",
+    "sag_with_linkage": "104-105 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - REP Linkage (2023-2025 Yamaha YZ450F)",
+    "url": "https://www.keeferinctesting.com/?p=28593",
+    "date": "2025-01"
+   },
+   "confidence": "medium",
+   "notes": "REP Suspension linkage. 2023-2024: stock spring works with it; less squat, rear no longer feels empty under load. 2025: more compliance over chop, rear no longer overpowers the fork off-throttle, but may need to go back up one spring rate. No ratio numbers published."
+  },
+  {
+   "id": "jp5-021",
+   "domain": "suspension",
+   "topic": "fork and shock revalve effects (2022)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "On a 175 lb tester's 2022, a revalve adding fork low-speed compression cut corner-entry pitching and gave more support in braking bumps, and a smaller shock bladder cap (less nitrogen volume) made the shock firmer initially for better drive out of corners.",
+   "values": {
+    "rider_weight": "175 lb",
+    "sag": "105 mm",
+    "springs": "stock"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - Enzo Racing 2022 Yamaha YZ450F re-valved suspension",
+    "url": "https://www.keeferinctesting.com/?p=17321",
+    "date": "2022-01"
+   },
+   "confidence": "medium",
+   "notes": "Enzo Racing revalve. A later shock retune after the bladder change added comfort on big hills/bumps. Kashima fork tubes judged cosmetic. No clicker numbers given."
+  },
+  {
+   "id": "jp5-022",
+   "domain": "suspension",
+   "topic": "premium aftermarket suspension package cost",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "A complete aftermarket fork and shock package with offset-adjustable triple clamps and a titanium axle cost $7,600 on a 2024 test bike.",
+   "values": {
+    "package_price": "$7,600",
+    "clamp_offsets": "four positions via two steering stems"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - We put $7600 suspension on our YZ450F",
+    "url": "https://motocrossactionmag.com/this-week-in-mxa-with-josh-mosiman-we-put-7600-suspension-on-our-yz450f/",
+    "date": "2023-12"
+   },
+   "confidence": "low",
+   "notes": "MX-Tech: Blackjack forks, National shock, Luxon MX Gen 3 Pro clamps, tuned for rider speed and size. No results or settings published in the article."
+  },
+  {
+   "id": "jp5-023",
+   "domain": "setups",
+   "topic": "shootout tester changes 2026 (175 lb pro, 200 lb expert)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "A 175 lb pro raised the 2026 forks from 2 to 5 mm, softened fork compression 4 clicks and slowed rebound 2; on the shock he went 1/4 turn softer on high-speed, 2 clicks stiffer on low-speed and 2 slower on rebound. A 200 lb expert also raised the forks a few mm and opened fork compression.",
+   "values": {
+    "rider_1": "175 lb, 5'10\", Pro",
+    "fork_height": "2 mm -> 5 mm",
+    "fork_compression": "-4 clicks (softer)",
+    "fork_rebound": "+2 clicks slower",
+    "shock_hsc": "1/4 turn softer",
+    "shock_lsc": "+2 clicks stiffer",
+    "shock_rebound": "+2 clicks slower",
+    "rider_2": "200 lb, 5'8\", 30+ Expert"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX - 2026 450 Motocross Shootout",
+    "url": "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Shootout protocol: two days stock with a neutral agreed sag, then technician adjustments. One tester mentions a 49T to 51T rear sprocket discussion; gearing details unclear in the text. A third tester (185 lb pro) also raised the forks and softened the front."
+  },
+  {
+   "id": "jp5-024",
+   "domain": "engine_mods",
+   "topic": "titanium full exhaust claim",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "The maker of an aftermarket titanium full exhaust for the 2023-2025 claims +2.4 hp (1.8 kW) at 10,600 rpm and +1.5 Nm at 10,500 rpm over stock, and 0.9 kg (20.4%) less weight.",
+   "values": {
+    "power_gain": "+1.8 kW (2.4 hp) @ 10,600 rpm",
+    "torque_gain": "+1.5 Nm @ 10,500 rpm",
+    "weight_saving": "0.9 kg (20.4%)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "manufacturer",
+    "name": "Akrapovic Evolution Full Ti System YZ450F 2023-24 (dealer listing of maker claim)",
+    "url": "https://timaruyamaha.co.nz/products/full-ti-system-yz450f-2023-24-ak-s-y4met16-fdhlta",
+    "date": "2024"
+   },
+   "confidence": "low",
+   "notes": "Akrapovic Evolution Line Ti full system (part S-Y4MET16-FDHLTA), maker's in-house dyno, back-to-back vs stock; fuel, map and correction not stated. Manufacturer claim, not independent."
+  },
+  {
+   "id": "jp5-025",
+   "domain": "setups",
+   "topic": "heavy rider (about 230 lb) advice",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Owners about 230 lb on the 2026 say it needs proper springs at that weight, though one rode it stock from 200 to 235 lb and found it acceptable apart from harshness in corners; the common rule is 100-110 mm race sag with 30-40 mm static sag, else a stiffer shock spring.",
+   "values": {
+    "race_sag": "100-110 mm (about 105 ideal)",
+    "static_sag_target": "30-40 mm",
+    "recheck_after": "5-7 h break-in"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum - Suspension setup/upgrade (2026 YZ450F, 230 lb rider)",
+    "url": "https://www.vitalmx.com/comment/8819881",
+    "date": "2026"
+   },
+   "confidence": "low",
+   "notes": "Forum thread; several owners agree springs are needed around 230 lb. A too-soft spring can also feel harsh because it rides low in the stroke."
+  },
+  {
+   "id": "jp5-026",
+   "domain": "suspension",
+   "topic": "spring rates by rider weight and discipline (2025-2026)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "A spring maker recommends motocross fork springs of 4.9 N/mm at 155-170 lb, stock 5.0 at 170-185 lb, 5.1 at 185-200 lb and 5.2 at 200-215 lb, with shock springs of 52 N/mm (stock) at 155-170 lb, 54 at 170-185 lb, 56 at 185-200 lb and 57 at 200-215 lb.",
+   "values": {
+    "fork_motocross": "120-135 lb 4.7; 135-155 lb 4.8; 155-170 lb 4.9; 170-185 lb 5.0 (stock); 185-200 lb 5.1; 200-215 lb 5.2; 215-230 lb 5.3; 230-245 lb 5.4; 245-275 lb 5.4",
+    "fork_soft_moto_desert": "120-135 lb 4.6; 135-155 lb 4.7; 155-170 lb 4.8; 170-185 lb 4.9; 185-200 lb 5.0 (stock); 200-215 lb 5.1; 215-230 lb 5.2; 230-245 lb 5.3; 245-275 lb 5.3",
+    "fork_flowy_singletrack": "120-135 lb 4.5; 135-155 lb 4.6; 155-170 lb 4.7; 170-185 lb 4.8; 185-200 lb 4.9; 200-215 lb 5.0 (stock); 215-230 lb 5.1; 230-245 lb 5.2; 245-275 lb 5.3",
+    "fork_technical_hard_enduro": "120-135 lb 4.4; 135-155 lb 4.5; 155-170 lb 4.6; 170-185 lb 4.7; 185-200 lb 4.8; 200-215 lb 4.9; 215-230 lb 5.0 (stock); 230-245 lb 5.1; 245-275 lb 5.2",
+    "shock_motocross": "120-135 lb 50; 135-155 lb 51; 155-170 lb 52 (stock); 170-185 lb 54; 185-200 lb 56; 200-215 lb 57; 215-230 lb 58; 230-245 lb 60; 245-275 lb 62",
+    "shock_soft_moto_desert": "120-135 lb 50; 135-155 lb 51; 155-170 lb 52 (stock); 170-185 lb 54; 185-200 lb 56; 200-215 lb 57; 215-230 lb 58; 230-245 lb 60; 245-275 lb 62",
+    "shock_flowy_singletrack": "120-135 lb 48; 135-155 lb 50; 155-170 lb 51; 170-185 lb 52 (stock); 185-200 lb 54; 200-215 lb 56; 215-230 lb 57; 230-245 lb 58; 245-275 lb 60",
+    "shock_technical_hard_enduro": "120-135 lb 48; 135-155 lb 50; 155-170 lb 51; 170-185 lb 52 (stock); 185-200 lb 54; 200-215 lb 56; 215-230 lb 57; 230-245 lb 58; 245-275 lb 60",
+    "stock": "120-135 lb f; 135-155 lb o; 155-170 lb r; 170-185 lb k; 185-200 lb  ; 200-215 lb 5; 215-230 lb .; 230-245 lb 0; 245-275 lb  "
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Ride JBI Suspension - 2025-2026 Honda CRF450R spring rate chart",
+    "url": "https://ridejbi.com/2025-honda-crf450r",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Weights are the rider in everyday clothes; the chart already allows for riding gear. Applies to stock or modified valving. Columns: motocross; soft moto/open desert; flowy single track; technical single track/hard enduro. Rates in N/mm."
+  },
+  {
+   "id": "jp5-027",
+   "domain": "suspension",
+   "topic": "spring rates by rider weight and discipline (2021-2024)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "For 2021-2024 the same maker lists the stock 54 N/mm shock spring for 155-170 lb motocross riders, 56 for 170-185 lb, 57 for 185-200 lb, 58 for 200-215 lb and 60 for 215-230 lb; fork rates match the 2025 chart with stock 5.0 N/mm at 170-185 lb.",
+   "values": {
+    "fork_motocross": "120-135 lb 4.7; 135-155 lb 4.8; 155-170 lb 4.9; 170-185 lb 5.0 (stock); 185-200 lb 5.1; 200-215 lb 5.2; 215-230 lb 5.3; 230-245 lb 5.4; 245-275 lb 5.4",
+    "fork_technical_hard_enduro": "120-135 lb 4.4; 135-155 lb 4.5; 155-170 lb 4.6; 170-185 lb 4.7; 185-200 lb 4.8; 200-215 lb 4.9; 215-230 lb 5.0 (stock); 230-245 lb 5.1; 245-275 lb 5.2",
+    "shock_motocross": "120-135 lb 51; 135-155 lb 52; 155-170 lb 54 (stock); 170-185 lb 56; 185-200 lb 57; 200-215 lb 58; 215-230 lb 60; 230-245 lb 62; 245-275 lb 62",
+    "shock_flowy_singletrack": "120-135 lb 50; 135-155 lb 51; 155-170 lb 52; 170-185 lb 54 (stock); 185-200 lb 56; 200-215 lb 57; 215-230 lb 58; 230-245 lb 60; 245-275 lb 62",
+    "stock": "120-135 lb f; 135-155 lb o; 155-170 lb r; 170-185 lb k; 185-200 lb  ; 200-215 lb 5; 215-230 lb .; 230-245 lb 0; 245-275 lb  "
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Ride JBI Suspension - 2021-2024 Honda CRF450R spring rate chart",
+    "url": "https://www.ridejbi.com/2021-2024-honda-crf450r/",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Weights are the rider in everyday clothes; the chart already allows for riding gear. Applies to stock or modified valving. Columns: motocross; soft moto/open desert; flowy single track; technical single track/hard enduro. Rates in N/mm. Soft-moto column equals motocross for the shock and is one step softer for the fork; only two columns per end reproduced here. Note the 2023-2024 bike shipped with a 56 N/mm shock spring per other sources; this page lists 54 for 2021-2024."
+  },
+  {
+   "id": "jp5-028",
+   "domain": "setups",
+   "topic": "race sag by rider height",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "A spring maker suggests 102-105 mm race sag for riders 6 ft or taller and 104-107 mm for 5 ft 11 in or shorter on 2021-2024 bikes, and 2 mm less (100-103 and 102-105 mm) on 2025-2026, with 6-10 mm of spring preload.",
+   "values": {
+    "2021-2024_6ft_plus": "102-105 mm",
+    "2021-2024_5ft11_or_less": "104-107 mm",
+    "2025-2026_6ft_plus": "100-103 mm",
+    "2025-2026_5ft11_or_less": "102-105 mm",
+    "spring_preload": "6-10 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Ride JBI Suspension - 2025-2026 Honda CRF450R spring rate chart",
+    "url": "https://ridejbi.com/2025-honda-crf450r",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "2021-2024 values from the 2021-2024 page; 2025-2026 values from the 2025-2026 page."
+  },
+  {
+   "id": "jp5-029",
+   "domain": "setups",
+   "topic": "baseline 2023",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "A tester baseline for the 2023: fork 5.1 N/mm (one 5.2 spring in one leg), flush to 2 mm, compression 12 out, rebound 11 out; stock 56 N/mm shock spring, 105 mm sag, low-speed 10 out, high-speed 2 out, rebound 11 out.",
+   "values": {
+    "fork_spring": "5.1 N/mm (one leg 5.2)",
+    "fork_height": "flush-2 mm",
+    "fork_compression": "12 clicks out",
+    "fork_rebound": "11 clicks out",
+    "shock_spring": "56 N/mm (stock)",
+    "sag": "105 mm",
+    "shock_lsc": "10 clicks out",
+    "shock_hsc": "2 out",
+    "shock_rebound": "11 clicks out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - 2023 450 MX baseline settings",
+    "url": "https://www.keeferinctesting.com/?p=24664",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Stock fork may be soft for riders over 180 lb. Outdoor MX, Southern California; article rider range about 160-200 lb."
+  },
+  {
+   "id": "jp5-030",
+   "domain": "setups",
+   "topic": "baseline 2024",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "A tester baseline for the 2024: fork 5.1 N/mm (one 5.2 leg), flush to 2 mm, compression 10 out, rebound 12 out; shock 56 N/mm, 106 mm sag, low-speed 8 out, high-speed 2 out, rebound 12 out.",
+   "values": {
+    "fork_spring": "5.1 N/mm (one leg 5.2)",
+    "fork_height": "flush-2 mm",
+    "fork_compression": "10 clicks out",
+    "fork_rebound": "12 clicks out",
+    "shock_spring": "56 N/mm",
+    "sag": "106 mm",
+    "shock_lsc": "8 clicks out",
+    "shock_hsc": "2 out",
+    "shock_rebound": "12 clicks out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - 2024 450 MX Suspension Baseline Settings",
+    "url": "https://www.keeferinctesting.com/?p=27510",
+    "date": "2023-11"
+   },
+   "confidence": "medium",
+   "notes": "About 160-200 lb riders; fork soft over 180 lb. Outdoor MX."
+  },
+  {
+   "id": "jp5-031",
+   "domain": "setups",
+   "topic": "baseline by rider weight 2024 (170-225 lb)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "For 170-200 lb riders a tester runs the 2024 fork at 5.1 N/mm, flush, compression 8 out, rebound 11-12 out, with the stock 56 N/mm shock at 105 mm sag, low-speed 10, high-speed 2-1/4, rebound 12; for 200-225 lb he fits a 58 N/mm spring with low-speed 13, high-speed 2-3/4, rebound 10.",
+   "values": {
+    "170-200lb_fork": "5.1 N/mm, flush, C 8 out, R 11-12 out",
+    "170-200lb_shock": "56 N/mm, 105 mm sag, LSC 10, HSC 2-1/4, R 12",
+    "200-225lb_shock": "58 N/mm, 105 mm sag, LSC 13, HSC 2-3/4, R 10",
+    "stock_fork_limit": "5.0 N/mm may be soft above 210 lb",
+    "over_220lb": "58 N/mm shock"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - 2024 Honda CRF450R baseline settings / mods that work",
+    "url": "https://www.keeferinctesting.com/2024-honda-crf450r-baseline-settings-mods-that-work",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Tester weighs 175 lb and says the stock shock spring suits him. Outdoor MX."
+  },
+  {
+   "id": "jp5-032",
+   "domain": "setups",
+   "topic": "map and traction control by track condition (2024)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "A tester runs map 1 with traction control 1 on loose afternoon dirt with acceleration chop for more rear grip and a less harsh rear, and map 1 with traction control 3 on blown-out or hard-pack tracks for a heavier, chuggier bottom end and earlier roll-on in corners.",
+   "values": {
+    "loose_or_fresh_dirt": "Map 1 / TC 1",
+    "hardpack_or_blown_out": "Map 1 / TC 3"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - 2024 Honda CRF450R baseline settings / mods that work",
+    "url": "https://www.keeferinctesting.com/2024-honda-crf450r-baseline-settings-mods-that-work",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Map 1/TC1 costs a bit of throttle response."
+  },
+  {
+   "id": "jp5-033",
+   "domain": "chassis",
+   "topic": "aftermarket offset clamps (2024)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "23.5 or 24 mm offset clamps calmed the 2024 at speed and improved straight-line stability and vibration with no loss in turning; the tester ran the forks 3-4 mm higher in them than flush in the stock clamps.",
+   "values": {
+    "stock_offset": "22 mm",
+    "aftermarket_offset": "23.5 mm or 24 mm",
+    "fork_height_change": "3-4 mm higher than stock flush"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - 2024 Honda CRF450R baseline settings / mods that work",
+    "url": "https://www.keeferinctesting.com/2024-honda-crf450r-baseline-settings-mods-that-work",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Ride Engineering 23.5 mm and X-Trig 24 mm. Slightly stiffer feel on slap-down landings. Lower-vibration aftermarket handlebar also recommended."
+  },
+  {
+   "id": "jp5-034",
+   "domain": "engine_mods",
+   "topic": "aftermarket muffler feel (2024)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "An aftermarket muffler on the 2024 smoothed low-rpm roll-on, reduced engine braking and off-throttle pitching, and gave a longer midrange pull with less hit, which also eased fork harshness on deceleration bumps.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - 2024 Honda CRF450R baseline settings / mods that work",
+    "url": "https://www.keeferinctesting.com/2024-honda-crf450r-baseline-settings-mods-that-work",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Akrapovic Evolution muffler; felt, not dynoed."
+  },
+  {
+   "id": "jp5-035",
+   "domain": "setups",
+   "topic": "Works Edition baseline 2025 (stock and heavier springs)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On the 2025 Works Edition a tester's baseline was fork flush to 2 mm, compression 8-9 out and rebound 8 out on stock 5.0 N/mm springs, or 5.1 N/mm (one 5.2 leg) with compression 11 and rebound 9 for riders over 180 lb; shock 106 mm sag, low-speed 9, high-speed 1.75, rebound 10.",
+   "values": {
+    "fork_stock_spring": "5.0 N/mm, flush-2 mm, C 8-9 out, R 8 out",
+    "fork_heavier_spring": "5.1 N/mm (one leg 5.2), C 11 out, R 9 out (riders over 180 lb)",
+    "shock_spring": "56 N/mm (as listed)",
+    "sag": "106 mm",
+    "shock_lsc": "9 clicks out",
+    "shock_hsc": "1.75",
+    "shock_rebound": "10 clicks out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - 2025 Honda CRF450RWE Baseline Suspension Settings",
+    "url": "https://www.keeferinctesting.com/?p=28625",
+    "date": "2025-01"
+   },
+   "confidence": "medium",
+   "notes": "Works Edition (CRF450RWE). The 18 mm shock shaft gives a firmer on-throttle feel out of corners. Shock spring listed 56 N/mm here but 52 N/mm in the same tester's May 2025 update (see conflicts)."
+  },
+  {
+   "id": "jp5-036",
+   "domain": "setups",
+   "topic": "Works Edition baseline 2025 (update)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The tester's later Works Edition baseline: fork 5.1 N/mm (one 5.2 leg), flush (hard tracks) to 2 mm (rutty tracks), compression 10 out, rebound 9 out; shock 52 N/mm (54 over 190 lb), 106 mm sag, low-speed 7, high-speed 1.5 turns, rebound 9.",
+   "values": {
+    "fork_spring": "5.1 N/mm (one leg 5.2)",
+    "fork_height": "flush (hard SoCal) to 2 mm (rutty/soft)",
+    "fork_compression": "10 clicks out",
+    "fork_rebound": "9 clicks out",
+    "shock_spring": "52 N/mm; 54 N/mm over 190 lb",
+    "sag": "106 mm",
+    "shock_lsc": "7 clicks out",
+    "shock_hsc": "1.5 turns out",
+    "shock_rebound": "9 clicks out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - 2025 Honda CRF450RWE Baseline Suspension Settings and Torque Values",
+    "url": "https://www.keeferinctesting.com/?p=28903",
+    "date": "2025-05"
+   },
+   "confidence": "medium",
+   "notes": "Works Edition (CRF450RWE)."
+  },
+  {
+   "id": "jp5-037",
+   "domain": "chassis",
+   "topic": "Works Edition reduced bolt torques (2025)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "A tester lowers several 2025 Works Edition chassis torques for more compliance: rear axle 128 to 120 Nm, top clamp pinch bolts 22 to 19 Nm, bottom pinch bolts 20 to 16-17 Nm, swingarm pivot 88 to 81 Nm and upper shock bolt 44 to 42 Nm, using blue thread locker.",
+   "values": {
+    "rear_axle_nut": "128 -> 120 Nm",
+    "top_clamp_pinch": "22 -> 19 Nm",
+    "bottom_clamp_pinch": "20 -> 16-17 Nm",
+    "swingarm_pivot": "88 -> 81 Nm",
+    "front_engine_hanger_bolts": "26 -> 24 Nm",
+    "front_engine_hanger_nut": "54 -> 51 Nm",
+    "head_hanger_bolts": "54 -> 51 Nm",
+    "head_hanger_plate_bolts": "32 -> 29 Nm",
+    "shock_upper_bolt": "44 -> 42 Nm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - 2025 Honda CRF450RWE Baseline Suspension Settings and Torque Values",
+    "url": "https://www.keeferinctesting.com/?p=28903",
+    "date": "2025-05"
+   },
+   "confidence": "medium",
+   "notes": "Below Honda spec; tester's preference, use thread locker; other fasteners at OEM spec."
+  },
+  {
+   "id": "jp5-038",
+   "domain": "suspension",
+   "topic": "Works Edition suspension hardware and sag (2025)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The 2025 Works Edition adds Kashima-coated fork tubes, coated lowers, an 18 mm coated shock shaft and stiffer valving; testers ran 105 mm sag (107-108 mm on the 2024) and forks 2 or 5 mm up, and felt it sat a little taller.",
+   "values": {
+    "shock_shaft": "18 mm titanium-oxide coated",
+    "sag": "105 mm (2024: 107-108 mm)",
+    "fork_height": "2 mm or 5 mm showing"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - MXA Race Test: 2025 Honda CRF450 Works Edition",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-honda-crf450-works-edition/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Softer initial stroke, strong bottoming resistance, no mid-stroke harshness. Article states the stock 2025 shock spring went from 56 to 50 N/mm, which conflicts with other sources (52 N/mm)."
+  },
+  {
+   "id": "jp5-039",
+   "domain": "setups",
+   "topic": "shootout tester changes 2026",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "A 175 lb pro lowered the 2026 forks slightly in the clamps and added a few clicks of fork compression to balance the front with the shock; a 185 lb pro found the stock suspension too soft.",
+   "values": {
+    "rider_1": "175 lb, 5'10\", Pro",
+    "rider_2": "185 lb, 5'10\", 25+ Pro"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX - 2026 450 Motocross Shootout",
+    "url": "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": "No exact click counts given."
+  },
+  {
+   "id": "jp5-040",
+   "domain": "suspension",
+   "topic": "spring rates by rider weight and discipline (2024-2026)",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "A spring maker lists stock 5.0 N/mm fork springs for 170-185 lb motocross riders (5.1 at 185-200, 5.2 at 200-215) and the stock 54 N/mm shock spring for 155-170 lb (56 at 170-185, 57 at 185-200, 58 at 200-215, 60 at 215-230 lb).",
+   "values": {
+    "fork_motocross": "120-135 lb 4.7; 135-155 lb 4.8; 155-170 lb 4.9; 170-185 lb 5.0 (stock); 185-200 lb 5.1; 200-215 lb 5.2; 215-230 lb 5.3; 230-245 lb 5.4; 245-275 lb 5.4",
+    "fork_soft_moto_desert": "120-135 lb 4.6; 135-155 lb 4.7; 155-170 lb 4.8; 170-185 lb 4.9; 185-200 lb 5.0 (stock); 200-215 lb 5.1; 215-230 lb 5.2; 230-245 lb 5.3; 245-275 lb 5.3",
+    "fork_flowy_singletrack": "120-135 lb 4.5; 135-155 lb 4.6; 155-170 lb 4.7; 170-185 lb 4.8; 185-200 lb 4.9; 200-215 lb 5.0 (stock); 215-230 lb 5.1; 230-245 lb 5.2; 245-275 lb 5.3",
+    "fork_technical_hard_enduro": "120-135 lb 4.4; 135-155 lb 4.5; 155-170 lb 4.6; 170-185 lb 4.7; 185-200 lb 4.8; 200-215 lb 4.9; 215-230 lb 5.0 (stock); 230-245 lb 5.1; 245-275 lb 5.2",
+    "shock_motocross": "120-135 lb 51; 135-155 lb 52; 155-170 lb 54 (stock); 170-185 lb 56; 185-200 lb 57; 200-215 lb 58; 215-230 lb 60; 230-245 lb 62; 245-275 lb 63",
+    "shock_soft_moto_desert": "120-135 lb 51; 135-155 lb 52; 155-170 lb 54 (stock); 170-185 lb 56; 185-200 lb 57; 200-215 lb 58; 215-230 lb 60; 230-245 lb 62; 245-275 lb 63",
+    "shock_flowy_singletrack": "120-135 lb 50; 135-155 lb 51; 155-170 lb 52; 170-185 lb 54 (stock); 185-200 lb 56; 200-215 lb 57; 215-230 lb 58; 230-245 lb 60; 245-275 lb 62",
+    "shock_technical_hard_enduro": "120-135 lb 50; 135-155 lb 51; 155-170 lb 52; 170-185 lb 54 (stock); 185-200 lb 56; 200-215 lb 57; 215-230 lb 58; 230-245 lb 60; 245-275 lb 62",
+    "stock": "120-135 lb f; 135-155 lb o; 155-170 lb r; 170-185 lb k; 185-200 lb  ; 200-215 lb 5; 215-230 lb .; 230-245 lb 0; 245-275 lb  ",
+    "race_sag": "120-135 lb 6; 135-155 lb  ; 155-170 lb f; 170-185 lb t; 185-200 lb +; 200-215 lb :; 215-230 lb  ; 230-245 lb 1; 245-275 lb 0"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Ride JBI Suspension - 2024-2026 Kawasaki KX450 spring rate chart",
+    "url": "https://www.ridejbi.com/2024-2026-kawasaki-kx450/",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Weights are the rider in everyday clothes; the chart already allows for riding gear. Applies to stock or modified valving. Columns: motocross; soft moto/open desert; flowy single track; technical single track/hard enduro. Rates in N/mm. Page says the KX250 and KX450 share the same shock for 2025-2026."
+  },
+  {
+   "id": "jp5-041",
+   "domain": "setups",
+   "topic": "baseline 2021 (160-200 lb)",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "A tester baseline for 160-200 lb riders on the 2021: fork 5.1 N/mm (5.2 for B riders over 200 lb), compression 11-12 out, rebound 10-11 out, 2-3 mm up; shock 54 N/mm (56 at 190 lb+), 104-105 mm sag, low-speed 16 out, high-speed 1-1/8 turns, rebound 10-11 out.",
+   "values": {
+    "rider_weight": "about 160-200 lb",
+    "fork_spring": "5.1 N/mm (stock 5.0); 5.2 for B riders over 200 lb",
+    "fork_compression": "11-12 out (12 with 5.2)",
+    "fork_rebound": "10-11 out",
+    "fork_height": "2-3 mm",
+    "fork_oil": "standard level",
+    "shock_spring": "54 N/mm; 56 for 190 lb+",
+    "sag": "104-105 mm",
+    "shock_lsc": "16 out",
+    "shock_hsc": "1-1/8 turns out",
+    "shock_rebound": "10-11 out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - 2021 450 MX baseline settings",
+    "url": "https://keeferinctesting.com/?p=13303",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Outdoor MX."
+  },
+  {
+   "id": "jp5-042",
+   "domain": "setups",
+   "topic": "baseline 2023 (160-200 lb)",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "A tester baseline for 160-200 lb riders on the 2023: fork 5.1 N/mm (5.2 for B riders over 200 lb), compression 11-12 out (13 with 5.2), rebound 10-11 out, 3 mm up; shock 54 N/mm (56 at 190 lb+), 105 mm sag, low-speed 15 out, high-speed 1-1/8 turns, rebound 11 out.",
+   "values": {
+    "rider_weight": "about 160-200 lb",
+    "fork_spring": "5.1 N/mm (stock 5.0); 5.2 for B riders over 200 lb",
+    "fork_compression": "11-12 out (13 with 5.2)",
+    "fork_rebound": "10-11 out",
+    "fork_height": "3 mm",
+    "shock_spring": "54 N/mm; 56 for 190 lb+",
+    "sag": "105 mm",
+    "shock_lsc": "15 out",
+    "shock_hsc": "1-1/8 turns out",
+    "shock_rebound": "11 out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - 2023 450 MX baseline settings",
+    "url": "https://www.keeferinctesting.com/?p=24664",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Outdoor MX."
+  },
+  {
+   "id": "jp5-043",
+   "domain": "suspension",
+   "topic": "revalve on the 2024 (what it fixed)",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "A shop revalve on a tester's 2024 gave the fork more braking-bump support with the same ground-following feel (run 3 mm higher in the clamps) and the shock better high-speed control and hold-up on acceleration and slap-down landings, at the stock 105 mm sag.",
+   "values": {
+    "fork_height": "raised 3 mm",
+    "sag": "105 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - 2024 KX450 Update And Mods That Have Worked",
+    "url": "https://www.keeferinctesting.com/?p=27722",
+    "date": "2024-02"
+   },
+   "confidence": "medium",
+   "notes": "REP Suspension second-spec valving. About 30 engine hours. Rider weight not stated (tester about 175 lb in other articles)."
+  },
+  {
+   "id": "jp5-044",
+   "domain": "engine_mods",
+   "topic": "aftermarket ECU with exhaust and airbox (2024)",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "With an aftermarket ECU mapped for an aftermarket muffler, opened airbox and race fuel, a tester's 2024 made almost 4 hp more on the dyno than with the stock ECU, which the tuner found very rich.",
+   "values": {
+    "gain_vs_stock_ecu": "almost +4 hp"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - 2024 KX450 Update And Mods That Have Worked",
+    "url": "https://www.keeferinctesting.com/?p=27722",
+    "date": "2024-02"
+   },
+   "confidence": "medium",
+   "notes": "Vortex ECU mapped by Twisted Development for a Pro Circuit Ti-6 Pro muffler (insert screen cut), airbox grommet removed and side panels drilled, ETS MX18 fuel. Dyno type not stated. Also: 13/51 hurt second-gear pull with little gain in third so tester returned to stock 13/50; aftermarket clutch kit widened engagement."
+  },
+  {
+   "id": "jp5-045",
+   "domain": "setups",
+   "topic": "race-test changes 2025",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "To stop bottoming testers added 10 cc of oil per fork leg (or stiffer springs) and more compression, ran the forks flush or 2 mm up, added four chain links with the wheel all the way back for stability, and fitted a 51-tooth rear sprocket (stock 50).",
+   "values": {
+    "fork_oil": "+10 cc per leg",
+    "fork_height": "flush or 2 mm",
+    "chain": "+4 links, wheel fully back",
+    "rear_sprocket": "51T (stock 50T)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - MXA Race Test: 2025 Kawasaki KX450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-kawasaki-kx450/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Also: aftermarket exhaust plus remapped aftermarket ignition (Vortex by Twisted Development) called one of the best power mods; aftermarket engine mounts and head stays for vibration. Rider weights not stated."
+  },
+  {
+   "id": "jp5-046",
+   "domain": "setups",
+   "topic": "race-test changes 2026",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "On the soft 2026 fork testers added 2-3 clicks of compression or fitted stiffer springs (or one stiffer spring), moved the rear wheel back for stability, and ran a 51-tooth sprocket for snap or a 49 to use second gear longer.",
+   "values": {
+    "fork_compression": "+2-3 clicks",
+    "fork_spring_option": "5.2 N/mm or mixed stock/5.2 (article prints 52 kg/mm)",
+    "rear_sprocket": "51T (118-link chain) or 49T",
+    "bar_mounts": "rear holes, bars swivelled forward"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - MXA Race Test: 2026 Kawasaki KX450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2026-kawasaki-kx450/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Shock spring said to suit a wide weight range; shock not revalved for sportsman riders. Airbox cover drilled and trimmed; aftermarket ECU mapping recommended."
+  },
+  {
+   "id": "jp5-047",
+   "domain": "suspension",
+   "topic": "Special Racer version (2025)",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Kawasaki's $13,599 KX450 Special Racer keeps stock spring rates but has stiffer race valving, 4 cc extra oil per fork leg and coated tubes; testers found it firm and racer-only, and when a longer chain made the fork harsh they set it 2 mm up and stiffened the legs 1-2 clicks.",
+   "values": {
+    "price": "$13,599 (stock KX450 $10,499)",
+    "fork_oil": "+4 cc per leg",
+    "chain": "114 -> 116 links",
+    "fork_height": "2 mm",
+    "fork_compression": "+1 click one leg, +2 the other"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - MXA Race Test: 2025 Kawasaki KX450 Special Racer",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-kawasaki-kx450-special-racer/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Also has a titanium full exhaust (about 1.5 lb lighter), custom map, aftermarket clamps. Swapping to different aftermarket clamps improved comfort about 20% without hurting turn-in (tester estimate). Chatters on acceleration bumps."
+  },
+  {
+   "id": "jp5-048",
+   "domain": "setups",
+   "topic": "shootout tester changes 2026",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "A 175 lb pro stiffened the 2026 fork clickers and dropped the forks from 5 to 2.5 mm; a 200 lb expert usually runs the KX shock slightly softer with a bit more sag and the forks out a couple of millimetres.",
+   "values": {
+    "rider_1": "175 lb, 5'10\", Pro: fork height 5 -> 2.5 mm",
+    "rider_2": "200 lb, 5'8\", 30+ Expert"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX - 2026 450 Motocross Shootout",
+    "url": "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": "The 200 lb tester estimated an aftermarket ECU, pipe and opened airbox are worth roughly 6-7 hp (feel, not dyno)."
+  },
+  {
+   "id": "jp5-049",
+   "domain": "suspension",
+   "topic": "spring rates by rider weight and discipline (2025-2026)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "A spring maker lists the stock 4.7 N/mm fork spring and 54 N/mm shock spring for 155-170 lb motocross riders, then 4.8/56 at 170-185 lb, 4.9/57 at 185-200 lb and 5.0/58 at 200-215 lb.",
+   "values": {
+    "fork_motocross": "120-135 lb 4.5; 135-155 lb 4.6; 155-170 lb 4.7 (stock); 170-185 lb 4.8; 185-200 lb 4.9; 200-215 lb 5.0; 215-230 lb 5.1; 230-245 lb 5.2; 245-275 lb 5.3",
+    "fork_soft_moto_desert": "120-135 lb 4.4; 135-155 lb 4.5; 155-170 lb 4.6; 170-185 lb 4.7 (stock); 185-200 lb 4.8; 200-215 lb 4.9; 215-230 lb 5.0; 230-245 lb 5.1; 245-275 lb 5.2",
+    "fork_flowy_singletrack": "120-135 lb 4.4; 135-155 lb 4.5; 155-170 lb 4.6; 170-185 lb 4.7 (stock); 185-200 lb 4.8; 200-215 lb 4.9; 215-230 lb 5.0; 230-245 lb 5.1; 245-275 lb 5.2",
+    "fork_technical_hard_enduro": "120-135 lb 4.3; 135-155 lb 4.4; 155-170 lb 4.5; 170-185 lb 4.6; 185-200 lb 4.7 (stock); 200-215 lb 4.8; 215-230 lb 4.9; 230-245 lb 5.0; 245-275 lb 5.0",
+    "shock_motocross": "120-135 lb 50; 135-155 lb 52; 155-170 lb 54 (stock); 170-185 lb 56; 185-200 lb 57; 200-215 lb 58; 215-230 lb 60; 230-245 lb 61; 245-275 lb 62",
+    "shock_soft_moto_desert": "120-135 lb 50; 135-155 lb 52; 155-170 lb 54 (stock); 170-185 lb 56; 185-200 lb 57; 200-215 lb 58; 215-230 lb 60; 230-245 lb 61; 245-275 lb 62",
+    "shock_flowy_singletrack": "120-135 lb 48; 135-155 lb 50; 155-170 lb 52; 170-185 lb 54 (stock); 185-200 lb 56; 200-215 lb 57; 215-230 lb 58; 230-245 lb 60; 245-275 lb 62",
+    "shock_technical_hard_enduro": "120-135 lb 48; 135-155 lb 50; 155-170 lb 52; 170-185 lb 54 (stock); 185-200 lb 56; 200-215 lb 57; 215-230 lb 58; 230-245 lb 60; 245-275 lb 61",
+    "stock": "120-135 lb f; 135-155 lb o; 155-170 lb r; 170-185 lb k; 185-200 lb  ; 200-215 lb 4; 215-230 lb .; 230-245 lb 7; 245-275 lb  ",
+    "race_sag": "120-135 lb 6; 135-155 lb  ; 155-170 lb f; 170-185 lb t; 185-200 lb +; 200-215 lb :; 215-230 lb  ; 230-245 lb 1; 245-275 lb 0"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Ride JBI Suspension - 2025-2026 Yamaha YZ250F spring rate chart",
+    "url": "https://www.ridejbi.com/2025-2026-yamaha-yz250f/",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Weights are the rider in everyday clothes; the chart already allows for riding gear. Applies to stock or modified valving. Columns: motocross; soft moto/open desert; flowy single track; technical single track/hard enduro. Rates in N/mm."
+  },
+  {
+   "id": "jp5-050",
+   "domain": "setups",
+   "topic": "baseline 2022 (150-180 lb)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "A tester baseline for 150-180 lb riders on the 2022: fork 4.7 N/mm, 4 mm up, compression 8 out, rebound 10 out; shock 56 N/mm, 104 mm sag, high-speed 7/8-1 turn out, low-speed 8 out, rebound 9 out; riders over about 180-185 lb should fit 4.8 N/mm fork springs.",
+   "values": {
+    "rider_weight": "150-180 lb",
+    "fork_spring": "4.7 N/mm (4.8 over 180-185 lb)",
+    "fork_height": "4 mm",
+    "fork_compression": "8 out",
+    "fork_rebound": "10 out",
+    "shock_spring": "56 N/mm",
+    "sag": "104 mm",
+    "shock_hsc": "7/8-1 turn out",
+    "shock_lsc": "8 out",
+    "shock_rebound": "9 out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - 2022 250 MX Suspension Baseline Settings",
+    "url": "https://www.keeferinctesting.com/2022-250-mx-suspension-baseline-settings/",
+    "date": "2022-03"
+   },
+   "confidence": "medium",
+   "notes": "Same numbers in the tester's 2022 YZ250F review (PulpMX, Sept 2021), which gives 185 lb as the 4.8 threshold."
+  },
+  {
+   "id": "jp5-051",
+   "domain": "setups",
+   "topic": "race setup 2022-2023",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2022,
+     2023
+    ]
+   },
+   "statement": "A magazine race setup for the 2022-2023: fork 4.7 N/mm (4.6 for light riders), compression 17 out (stock 10), rebound 11 out (stock 7), forks 7 mm up; shock 56 N/mm (55 if free sag is under 30 mm), 104-105 mm sag, high-speed 7/8 turn, low-speed 8, rebound 10.",
+   "values": {
+    "fork_spring": "4.7 N/mm (4.6 for lighter riders)",
+    "fork_compression": "17 out (stock 10)",
+    "fork_rebound": "11 out (stock 7)",
+    "fork_height": "7 mm up",
+    "shock_spring": "56 N/mm (55 if free sag < 30 mm)",
+    "sag": "104 mm (2022) / 105 mm (2023); testers split 100-105",
+    "shock_hsc": "7/8 turn out",
+    "shock_lsc": "8 out",
+    "shock_rebound": "10 out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - MXA Race Test: 2023 Yamaha YZ250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz250f/",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "2022 article lists identical clickers with 104 mm sag. Faster riders kept the stiffer fork compression for less pitching. Custom Power Tuner maps were published only as images."
+  },
+  {
+   "id": "jp5-052",
+   "domain": "engine_mods",
+   "topic": "slip-on: keep the spark arrestor insert (2022)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "A tester found an aftermarket titanium slip-on on the 2022 worked best with its spark arrestor insert in place; removing it cost bottom-end power.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "PulpMX (Kris Keefer) - 2022 Yamaha YZ250F settings",
+    "url": "https://pulpmx.com/?p=164560",
+    "date": "2021-09"
+   },
+   "confidence": "medium",
+   "notes": "FMF 4.1 titanium slip-on. Also suggested two Power Tuner presets for less engine braking or more mid-top."
+  },
+  {
+   "id": "jp5-053",
+   "domain": "suspension",
+   "topic": "revalve on the 2024 (what it fixed)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "A shop revalve with stiffer valving for intermediate/pro riders ($800 base) stopped the 2024 fork diving under braking, removed shock wallow and fore-aft pitching and added hold-up, but vet-level testers preferred stock.",
+   "values": {
+    "price": "$800 base (wear parts extra)",
+    "skill": "intermediate/pro setting"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Team Tested: AHM Suspension YZ250F re-valve",
+    "url": "https://motocrossactionmag.com/mxa-team-tested-ahm-suspension-yz250f-suspension-re-valve/",
+    "date": "2024-10"
+   },
+   "confidence": "medium",
+   "notes": "AHM Suspension. Springs and clicker settings not published."
+  },
+  {
+   "id": "jp5-054",
+   "domain": "engine_mods",
+   "topic": "titanium full exhaust claim (2024 on)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The maker of an aftermarket titanium full system for the 2024 claims +0.7 hp (0.5 kW) at 12,500 rpm and +0.5 Nm at 12,000 rpm over stock, with 0.8 kg (19.7%) less weight.",
+   "values": {
+    "power_gain": "+0.5 kW (0.7 hp) @ 12,500 rpm",
+    "torque_gain": "+0.5 Nm @ 12,000 rpm",
+    "weight_saving": "0.8 kg (19.7%)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "manufacturer",
+    "name": "Akrapovic Full Ti System YZ250F 2024 (dealer listing of maker claim)",
+    "url": "https://timaruyamaha.co.nz/products/full-ti-system-yz250f-2024-ak-s-y2met17-fdhlta",
+    "date": "2024"
+   },
+   "confidence": "low",
+   "notes": "Akrapovic Full Ti System (S-Y2MET17-FDHLTA), maker's in-house dyno vs stock; conditions not stated. Manufacturer claim."
+  },
+  {
+   "id": "jp5-055",
+   "domain": "suspension",
+   "topic": "spring rates by rider weight and discipline (2025-2026)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF250R"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "A spring maker lists the stock 4.8 N/mm fork spring for 155-170 lb motocross riders (4.9 at 170-185, 5.0 at 185-200 lb) and the stock 50 N/mm shock spring for 135-155 lb (51 at 155-170, 52 at 170-185, 54 at 185-200, 56 at 200-215 lb).",
+   "values": {
+    "fork_motocross": "120-135 lb 4.6; 135-155 lb 4.7; 155-170 lb 4.8 (stock); 170-185 lb 4.9; 185-200 lb 5.0; 200-215 lb 5.1; 215-230 lb 5.2; 230-245 lb 5.3; 245-275 lb 5.4",
+    "fork_soft_moto_desert": "120-135 lb 4.5; 135-155 lb 4.6; 155-170 lb 4.7; 170-185 lb 4.8 (stock); 185-200 lb 4.9; 200-215 lb 5.0; 215-230 lb 5.1; 230-245 lb 5.2; 245-275 lb 5.3",
+    "fork_flowy_singletrack": "120-135 lb 4.4; 135-155 lb 4.5; 155-170 lb 4.6; 170-185 lb 4.7; 185-200 lb 4.8 (stock); 200-215 lb 4.9; 215-230 lb 5.0; 230-245 lb 5.1; 245-275 lb 5.2",
+    "fork_technical_hard_enduro": "120-135 lb 4.3; 135-155 lb 4.4; 155-170 lb 4.5; 170-185 lb 4.6; 185-200 lb 4.7; 200-215 lb 4.8 (stock); 215-230 lb 4.9; 230-245 lb 5.0; 245-275 lb 5.1",
+    "shock_motocross": "120-135 lb 48; 135-155 lb 50 (stock); 155-170 lb 51; 170-185 lb 52; 185-200 lb 54; 200-215 lb 56; 215-230 lb 57; 230-245 lb 58; 245-275 lb 60",
+    "shock_soft_moto_desert": "120-135 lb 48; 135-155 lb 50 (stock); 155-170 lb 51; 170-185 lb 52; 185-200 lb 54; 200-215 lb 56; 215-230 lb 57; 230-245 lb 58; 245-275 lb 60",
+    "shock_flowy_singletrack": "120-135 lb 48; 135-155 lb 48; 155-170 lb 50 (stock); 170-185 lb 51; 185-200 lb 52; 200-215 lb 54; 215-230 lb 56; 230-245 lb 57; 245-275 lb 58",
+    "shock_technical_hard_enduro": "120-135 lb 48; 135-155 lb 48; 155-170 lb 50 (stock); 170-185 lb 51; 185-200 lb 52; 200-215 lb 54; 215-230 lb 56; 230-245 lb 57; 245-275 lb 58",
+    "stock": "120-135 lb f; 135-155 lb o; 155-170 lb r; 170-185 lb k; 185-200 lb  ; 200-215 lb 4; 215-230 lb .; 230-245 lb 8; 245-275 lb  ",
+    "race_sag": "120-135 lb 6; 135-155 lb  ; 155-170 lb f; 170-185 lb t; 185-200 lb +; 200-215 lb :; 215-230 lb  ; 230-245 lb 1; 245-275 lb 0"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Ride JBI Suspension - 2025-2026 Honda CRF250R spring rate chart",
+    "url": "https://www.ridejbi.com/2025-2026-honda-crf250r/",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Weights are the rider in everyday clothes; the chart already allows for riding gear. Applies to stock or modified valving. Columns: motocross; soft moto/open desert; flowy single track; technical single track/hard enduro. Rates in N/mm."
+  },
+  {
+   "id": "jp5-056",
+   "domain": "setups",
+   "topic": "baseline 2022 (140-170 lb)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF250R"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "A tester baseline for 140-170 lb riders on the 2022: fork 4.8 N/mm, 3 mm up, compression 11 out, rebound 12 out, oil 5 cc below stock (380 cc); shock 50 N/mm, 105-106 mm sag, high-speed 2-1/6, low-speed 5 out, rebound 9 out.",
+   "values": {
+    "rider_weight": "140-170 lb",
+    "fork_spring": "4.8 N/mm",
+    "fork_height": "3 mm",
+    "fork_compression": "11 out",
+    "fork_rebound": "12 out",
+    "fork_oil": "-5 cc (380 cc)",
+    "shock_spring": "50 N/mm",
+    "sag": "105-106 mm",
+    "shock_hsc": "2-1/6",
+    "shock_lsc": "5 out",
+    "shock_rebound": "9 out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - 2022 250 MX Suspension Baseline Settings",
+    "url": "https://www.keeferinctesting.com/2022-250-mx-suspension-baseline-settings/",
+    "date": "2022-03"
+   },
+   "confidence": "medium",
+   "notes": "Fork feels firm over 170 lb; lighter riders may take another 5 cc out."
+  },
+  {
+   "id": "jp5-057",
+   "domain": "setups",
+   "topic": "baseline 2022 (150-180 lb)",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "A tester baseline for the 2022 Kayaba-equipped bike: fork 4.9 N/mm, 4 mm up, compression 9 out, rebound 10 out; shock 54 N/mm, 102-103 mm sag, high-speed 1-1/4 turns, low-speed 9, rebound 11; over 180 lb fit 5.0 N/mm fork and 56 N/mm shock springs and soften compression two clicks each end.",
+   "values": {
+    "rider_weight": "150-180 lb",
+    "fork_spring": "4.9 N/mm (5.0 over 180 lb)",
+    "fork_height": "4 mm",
+    "fork_compression": "9 out",
+    "fork_rebound": "10 out",
+    "shock_spring": "54 N/mm (56 over 180 lb)",
+    "sag": "102-103 mm",
+    "shock_hsc": "1.25 turns out",
+    "shock_lsc": "9 out",
+    "shock_rebound": "11 out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - 2022 250 MX Suspension Baseline Settings",
+    "url": "https://www.keeferinctesting.com/2022-250-mx-suspension-baseline-settings/",
+    "date": "2022-03"
+   },
+   "confidence": "medium",
+   "notes": "Outdoor MX."
+  },
+  {
+   "id": "jp5-058",
+   "domain": "setups",
+   "topic": "baseline 2025-2026 (Showa, launch spec)",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "A tester's first Showa-era baseline: fork 5.0 N/mm, 3 mm up, compression 7 out, rebound 8 out; shock 54 N/mm, 105 mm sag, high-speed 2-1/2 turns out, low-speed 10 out, rebound 9 out, for 140-180 lb riders.",
+   "values": {
+    "rider_weight": "140-180 lb (2026 article)",
+    "fork_spring": "5.0 N/mm",
+    "fork_height": "3 mm",
+    "fork_compression": "7 out",
+    "fork_rebound": "8 out",
+    "shock_spring": "54 N/mm",
+    "sag": "105 mm",
+    "shock_hsc": "2.5 turns out",
+    "shock_lsc": "10 out",
+    "shock_rebound": "9 out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - 2025 250 MX baseline settings",
+    "url": "https://www.keeferinctesting.com/?p=28690",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Same values repeated in the 2026 250 baseline article. Fork can feel soft after break-in, so going slightly stiffer may help. A separate later KX250-only baseline from the same tester uses flush/8/9 and 104 mm sag, HSC 2 turns."
+  },
+  {
+   "id": "jp5-059",
+   "domain": "suspension",
+   "topic": "revalve and linkage on the 2025 (what it fixed)",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "A shop fork and shock revalve with springs ($900) plus a 139 mm aftermarket linkage ($465) gave the 2025 a plush initial stroke, firm mid-stroke and better bottoming resistance up front and a more planted, connected rear; with the linkage, fit a shock spring about 0.1 kg/mm stiffer.",
+   "values": {
+    "revalve_price": "$900 (parts extra)",
+    "linkage": "139 mm, $465",
+    "shock_spring_with_linkage": "about +0.1 kg/mm (e.g. 5.5 -> 5.6)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Team Tested: Pro Circuit 2025 KX250 suspension re-valve",
+    "url": "https://motocrossactionmag.com/mxa-team-tested-pro-circuit-2025-kx250-suspension-re-valve/",
+    "date": "2025-06"
+   },
+   "confidence": "medium",
+   "notes": "Pro Circuit. Stock 2025 fork and shock described as comfortable but too soft for heavier or faster riders; stock big-bike setups target about a 165 lb novice (article's statement)."
+  },
+  {
+   "id": "jp5-060",
+   "domain": "suspension",
+   "topic": "revalve and resprings on the 2022 (what it fixed)",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "On a 2022 ridden by someone above the stock target weight, stiffer springs and a revalve removed about 85-90% of the fork's harsh mid-stroke spot and stopped the shock wallowing in rollers and on jump faces.",
+   "values": {
+    "fork_harshness_reduction": "about 85-90% (tester estimate)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX - Tested: Race Tech Kawasaki KX250 project bike",
+    "url": "https://www.vitalmx.com/features/Tested-Race-Tech-Kawasaki-KX250,7911",
+    "date": "2022-04"
+   },
+   "confidence": "medium",
+   "notes": "Race Tech Gold Valves and springs; rates not published."
+  },
+  {
+   "id": "jp5-061",
+   "domain": "engine_mods",
+   "topic": "head work and ECU (2022)",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Head porting with new valve seats, titanium valves and springs ($850 for the head work) plus a custom ECU map ($275) and a titanium full exhaust made a 2022 pull harder low and mid while keeping its top end, letting some corners go from second to third gear.",
+   "values": {
+    "head_work_price": "$850",
+    "ecu_map_price": "$275"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX - Tested: Race Tech Kawasaki KX250 project bike",
+    "url": "https://www.vitalmx.com/features/Tested-Race-Tech-Kawasaki-KX250,7911",
+    "date": "2022-04"
+   },
+   "confidence": "medium",
+   "notes": "Race Tech build: copper beryllium seats, one-piece Ti valves, Vortex ECU mapped for VP T4 / Pro6, FMF 4.1 RCT full Ti with Megabomb header. No dyno numbers published."
+  },
+  {
+   "id": "jp5-062",
+   "domain": "engine_mods",
+   "topic": "owner bolt-on results (2025-2026)",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Owners running a full exhaust, intake kit, remapped aftermarket ECU on race fuel and a 51-tooth sprocket on 2025-2026 bikes say response improves but it still feels slow-revving and down on power compared with the 2021-2024 bike, and suggest a high-compression piston next.",
+   "values": {
+    "common_package": "full exhaust + intake kit + aftermarket ECU map + 51T"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum - 2025/2026 KX 250 with Vortex, airbox and exhaust",
+    "url": "https://www.vitalmx.com/forums/moto-related/20252026-kx-250-vortex-airbox-and-exhaust",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": "Two owners with modified bikes agree; no dyno numbers."
+  },
+  {
+   "id": "jp5-063",
+   "domain": "setups",
+   "topic": "race setup 2022",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "A magazine race setup for the 2022: fork 4.2 N/mm (listed stock 4.3), compression 10 out, rebound 11 out, 5 mm up; stock 48 N/mm shock at 100 mm sag, high-speed 1-1/2 turns, low-speed 12, rebound 10. It suits most adults over 160 lb; 155 lb testers found the stock settings too stiff, 175-190 lb riders liked them.",
+   "values": {
+    "fork_spring": "4.2 N/mm (article lists stock as 4.3)",
+    "fork_compression": "10 out",
+    "fork_rebound": "11 out",
+    "fork_height": "5 mm",
+    "shock_spring": "48 N/mm (stock)",
+    "sag": "100 mm",
+    "shock_hsc": "1.5 turns out",
+    "shock_lsc": "12 out",
+    "shock_rebound": "10 out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - MXA Race Test: 2022 Yamaha YZ125",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-yamaha-yz125/",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Novice and vet riders should go out on compression and open rebound. 160-175 lb testers comfortable on stock shock settings."
+  },
+  {
+   "id": "jp5-064",
+   "domain": "engine_mods",
+   "topic": "jetting 2022-2025",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2022,
+     2025
+    ]
+   },
+   "statement": "A magazine runs the 2022-2025 YZ125 on a 162 main (stock 160), 72 pilot (stock 75), stock NYDF needle on the top clip and the air screw 3-1/2 turns out, and fits a 13/49 sprocket (13/48 before 2022) for quicker acceleration.",
+   "values": {
+    "main_jet": "162 (stock 160)",
+    "pilot_jet": "72 (stock 75)",
+    "needle": "NYDF, clip 1 from top (stock clip 2)",
+    "air_screw": "3.5 turns out",
+    "gearing": "13/49"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - MXA Race Test: 2025 YZ125 & YZ250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-yamahas-legacy-two-strokes-2025-yz125-yz250/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Same jetting printed in the 2022 and 2025 race tests. Jetting called finicky; a leaner NYEF needle was tried and rejected."
+  },
+  {
+   "id": "jp5-065",
+   "domain": "setups",
+   "topic": "baseline 2024 (150-170 lb)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "A tester baseline for 150-170 lb riders: fork 4.2 N/mm, 3 mm up, compression 8 out, rebound 10 out; shock 48 N/mm, 102 mm sag, high-speed 1-1/4 turns, low-speed 11, rebound 11; riders over 170 lb or aggressive riders should go up one spring rate.",
+   "values": {
+    "rider_weight": "150-170 lb",
+    "fork_spring": "4.2 N/mm",
+    "fork_height": "3 mm",
+    "fork_compression": "8 out",
+    "fork_rebound": "10 out",
+    "shock_spring": "48 N/mm",
+    "sag": "102 mm",
+    "shock_hsc": "1.25 turns out",
+    "shock_lsc": "11 out",
+    "shock_rebound": "11 out",
+    "jetting": "168 main, 62 pilot, aftermarket Y3 needle clip 2 (0-4,000 ft); 165 main on pump gas"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested - 2024 Yamaha YZ125 baseline settings",
+    "url": "https://www.keeferinctesting.com/?p=27807",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Stock jetting slightly rich (bog off jump faces). Jetting tested with stock and aftermarket pipe; best on race fuel (VP T2 / C12). 2024 unchanged from 2023."
+  },
+  {
+   "id": "jp5-066",
+   "domain": "suspension",
+   "topic": "2025 spring and valving change",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "For 2025 the YZ125 fork spring went from 4.2 to 4.3 N/mm and the shock spring from 4.6 to 4.8 kg/mm with stiffer valving, yet faster and heavier testers still found it soft.",
+   "values": {
+    "fork_spring": "4.2 -> 4.3 N/mm",
+    "shock_spring": "4.6 -> 4.8 (kg/mm, units not printed)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - MXA Race Test: 2025 YZ125 & YZ250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-yamahas-legacy-two-strokes-2025-yz125-yz250/",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": "Article does not print units; 4.6-4.8 kg/mm is about 45-47 N/mm, which does not match the 48 N/mm stock shock spring other sources give for 2022-2024 (see conflicts)."
+  },
+  {
+   "id": "jp5-067",
+   "domain": "setups",
+   "topic": "sag and lowering for short riders",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2022,
+     2023
+    ]
+   },
+   "statement": "For a short rider whose rear felt high even with a longer aftermarket link, experts advised going from 100 mm to 105 mm race sag (they have run up to 108 mm), moving the forks in the clamps for balance and a lower seat, not a stiffer shock spring.",
+   "values": {
+    "sag": "100 -> 105 mm (up to 108 mm used)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Ask the MXperts: YZ125 chassis ideas",
+    "url": "https://motocrossactionmag.com/ask-the-mxperts-tin-foil-hat-yz125-chassis-ideas/",
+    "date": "2023-11"
+   },
+   "confidence": "low",
+   "notes": "Change the shock spring only if free sag is well off."
+  },
+  {
+   "id": "jp5-068",
+   "domain": "engine_mods",
+   "topic": "tuner engine and suspension build (2021)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "A tuner's 2021 YZ125 on pump gas (ported cylinder, aftermarket piston, raised compression, revised port timing and squish, aftermarket pipe) gave strong midrange but less low end than stock, and its revalved Kayaba suspension was rated best of three 125 builds; stock made 34 hp on the magazine's dyno.",
+   "values": {
+    "stock_peak": "34 hp (magazine dyno)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 125 hot-rod project bike shootout",
+    "url": "https://motocrossactionmag.com/mxas-125-hot-rod-project-bike-shootout-the-three-best-tuners-kick-out-the-jams/",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Twisted Development engine with Wiseco piston and FMF pipe; TBT/Wrench 42 suspension. Modified peak not published; it made the least power of the three builds (vs a 42 hp Husqvarna TC125 build)."
+  },
+  {
+   "id": "jp5-069",
+   "domain": "suspension",
+   "topic": "spring rates by rider weight and discipline (2022-2026)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "A spring maker lists the stock 4.4 N/mm fork and 50 N/mm shock springs for 135-155 lb motocross riders, then 4.5/52 at 155-170 lb, 4.6/54 at 170-185 lb, 4.7/56 at 185-200 lb and 4.8/58 at 200-215 lb.",
+   "values": {
+    "fork_motocross": "120-135 lb 4.3; 135-155 lb 4.4 (stock); 155-170 lb 4.5; 170-185 lb 4.6; 185-200 lb 4.7; 200-215 lb 4.8; 215-230 lb 4.9; 230-245 lb 5.0; 245-275 lb 5.0",
+    "fork_soft_moto_desert": "120-135 lb 4.3; 135-155 lb 4.4 (stock); 155-170 lb 4.5; 170-185 lb 4.6; 185-200 lb 4.7; 200-215 lb 4.8; 215-230 lb 4.9; 230-245 lb 5.0; 245-275 lb 5.0",
+    "fork_flowy_singletrack": "120-135 lb 4.2; 135-155 lb 4.3; 155-170 lb 4.4 (stock); 170-185 lb 4.5; 185-200 lb 4.6; 200-215 lb 4.7; 215-230 lb 4.8; 230-245 lb 4.9; 245-275 lb 4.9",
+    "fork_technical_hard_enduro": "120-135 lb 4.1; 135-155 lb 4.2; 155-170 lb 4.3; 170-185 lb 4.4 (stock); 185-200 lb 4.5; 200-215 lb 4.6; 215-230 lb 4.7; 230-245 lb 4.8; 245-275 lb 4.8",
+    "shock_motocross": "120-135 lb 48; 135-155 lb 50 (stock); 155-170 lb 52; 170-185 lb 54; 185-200 lb 56; 200-215 lb 58; 215-230 lb 60; 230-245 lb 62; 245-275 lb 62",
+    "shock_soft_moto_desert": "120-135 lb 48; 135-155 lb 50 (stock); 155-170 lb 52; 170-185 lb 54; 185-200 lb 56; 200-215 lb 58; 215-230 lb 60; 230-245 lb 62; 245-275 lb 62",
+    "shock_flowy_singletrack": "120-135 lb 46; 135-155 lb 48; 155-170 lb 50 (stock); 170-185 lb 52; 185-200 lb 54; 200-215 lb 56; 215-230 lb 58; 230-245 lb 60; 245-275 lb 62",
+    "shock_technical_hard_enduro": "120-135 lb 46; 135-155 lb 48; 155-170 lb 50 (stock); 170-185 lb 52; 185-200 lb 54; 200-215 lb 56; 215-230 lb 58; 230-245 lb 60; 245-275 lb 62",
+    "stock": "120-135 lb f; 135-155 lb o; 155-170 lb r; 170-185 lb k; 185-200 lb  ; 200-215 lb 4; 215-230 lb .; 230-245 lb 4; 245-275 lb  "
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Ride JBI Suspension - 2022-2026 Yamaha YZ250 spring rate chart",
+    "url": "https://www.ridejbi.com/2022-2026-yamaha-yz250/",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Weights are the rider in everyday clothes; the chart already allows for riding gear. Applies to stock or modified valving. Columns: motocross; soft moto/open desert; flowy single track; technical single track/hard enduro. Rates in N/mm. Shock: KYB 18 mm shaft, 46 mm piston."
+  },
+  {
+   "id": "jp5-070",
+   "domain": "setups",
+   "topic": "2022 settings with stock springs (155-175 lb)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "If you keep stock springs, a tester softens the 2022 to fork 3 mm up, compression 5 out, rebound 12 out and shock 104 mm sag, low-speed 6, high-speed 1 turn, rebound 7; his preferred fix is 4.6 N/mm fork and 52 N/mm shock springs at the standard clicker settings.",
+   "values": {
+    "rider_weight": "about 155-175 lb",
+    "fork_height": "3 mm",
+    "fork_compression": "5 out (standard 9)",
+    "fork_rebound": "12 out (standard 14)",
+    "sag": "104 mm",
+    "shock_lsc": "6 out (standard 9)",
+    "shock_hsc": "1 turn out (standard 1-1/8)",
+    "shock_rebound": "7 out (standard 8)",
+    "suggested_springs": "4.6 N/mm fork / 52 N/mm shock"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "PulpMX (Kris Keefer) - 2022 Yamaha YZ250 review / baseline settings",
+    "url": "https://pulpmx.com/2022/01/04/2022-yamaha-yz250-review-baseline-settings/",
+    "date": "2022-01"
+   },
+   "confidence": "medium",
+   "notes": "Standard settings: fork 5 mm, C9, R14; shock 104 mm, LSC 9, HSC 1-1/8, R8. Jetting unchanged from 2021."
+  },
+  {
+   "id": "jp5-071",
+   "domain": "setups",
+   "topic": "race setup 2023 (160-190 lb)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "A magazine race setup for the 2023: fork 4.4 N/mm, compression 10 out (stock 14), rebound 6 out (stock 9), 5 mm up; shock 50 N/mm, 105 mm sag, high-speed 1-1/8 turns, low-speed 9, rebound 8. 160-190 lb testers slowed fork compression and rebound to cut pitching; light riders ran the fork softer than stock.",
+   "values": {
+    "fork_spring": "4.4 N/mm",
+    "fork_compression": "10 out (stock 14)",
+    "fork_rebound": "6 out (stock 9)",
+    "fork_height": "5 mm",
+    "shock_spring": "50 N/mm",
+    "sag": "105 mm",
+    "shock_hsc": "1-1/8 turns out",
+    "shock_lsc": "9 out",
+    "shock_rebound": "8 out",
+    "jetting": "178 main, 50 pilot, N3EW clip 2, air screw 1 turn (180 main with pipe/porting)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - MXA Race Test: 2023 Yamaha YZ250 two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz250-two-stroke/",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Lighter, slower and older riders found the 2022-on settings firm; 2021 settings suit them better (2021 forks, shock and linkage bolt on)."
+  },
+  {
+   "id": "jp5-072",
+   "domain": "suspension",
+   "topic": "revalve and springs for a 195 lb intermediate (2022)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "For a 195 lb intermediate, a shop fitted 5.0 N/mm fork springs (stock 4.4) and a 5.4 kg/mm shock spring with stiffer valving ($649 revalve, $909 with springs), curing the stock bike's fast-moving, knifing front and harsh mid-stroke while staying plush.",
+   "values": {
+    "rider": "195 lb intermediate",
+    "fork_spring": "5.0 N/mm (stock 4.4)",
+    "shock_spring": "5.4 kg/mm (about 53 N/mm; stock 50 N/mm)",
+    "price": "$649 revalve, $909 with springs"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Team Tested: N2Dirt 2022 Yamaha YZ250 suspension mods",
+    "url": "https://motocrossactionmag.com/mxa-team-tested-n2dirt-2022-yamaha-yz250-suspension-mods/",
+    "date": "2022-08"
+   },
+   "confidence": "medium",
+   "notes": "N2Dirt. For rougher, drier tracks the rider added 3 clicks of compression and 2 of rebound. About 1 h break-in recommended."
+  },
+  {
+   "id": "jp5-073",
+   "domain": "suspension",
+   "topic": "2025 settings stiffened",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "A magazine says Yamaha stiffened the 2025 YZ250's valving and spring rates, suiting intermediate and pro riders, and suggests a couple of clicks out on fork compression for novice, vet and play riders.",
+   "values": {
+    "fork_compression": "a couple of clicks out for slower riders"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - MXA Race Test: 2025 YZ125 & YZ250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-yamahas-legacy-two-strokes-2025-yz125-yz250/",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": "No rates printed; a spring maker lists the same 4.4/50 N/mm stock springs for 2022-2026 (see conflicts)."
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "CRF450R Works Edition 2025 stock shock spring",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "values": {
+    "tester Jan 2025 (kf_crfwe_jan25)": "56 N/mm",
+    "same tester May 2025 (kf_crfwe_may25)": "52 N/mm",
+    "magazine WE test (mxa_crfwe_25)": "standard 2025 went 56 -> 50 N/mm",
+    "magazine standard CRF450 test + spring maker": "52 N/mm"
+   },
+   "spread": "50-56 N/mm",
+   "note": "Majority (spring maker, standard-bike tests, tester update) say 52 N/mm for 2025; WE-specific rate unconfirmed."
+  },
+  {
+   "topic": "YZ450F 2025 baseline fork compression",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "values": {
+    "launch baseline Sept 2024": "8 clicks out",
+    "450 baseline Jan 2025": "12 clicks out"
+   },
+   "spread": "4 clicks",
+   "note": "Same tester; later figure after more hours."
+  },
+  {
+   "topic": "YZ125 stock fork spring 2022-2025",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "values": {
+    "magazine 2022 test": "stock 4.3 N/mm (ran 4.2)",
+    "tester 2024 baseline": "4.2 N/mm",
+    "magazine 2025 test": "changed 4.2 -> 4.3 for 2025"
+   },
+   "spread": "4.2-4.3 N/mm",
+   "note": "Check owner's manual for the year."
+  },
+  {
+   "topic": "YZ125 2025 shock spring",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "values": {
+    "magazine 2025 test": "4.6 -> 4.8 (units not printed)",
+    "2022-2024 tester/magazine": "48 N/mm stock"
+   },
+   "spread": "unclear units",
+   "note": "Likely kg/mm (4.8 kg/mm = 47 N/mm) or a misprint."
+  },
+  {
+   "topic": "YZ250 2025 spring rates",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "values": {
+    "magazine 2025 test": "stiffer spring rates and valving for 2025",
+    "spring maker": "stock 4.4 / 50 N/mm unchanged 2022-2026"
+   },
+   "spread": "changed vs unchanged",
+   "note": "Unresolved; check 2025 owner's manual."
+  },
+  {
+   "topic": "KX450 2024+ rear sprocket",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "values": {
+    "tester 2024 (kf_kx450_24mods)": "13/51 hurt 2nd-gear pull; back to stock 13/50",
+    "magazine 2025/2026": "51T recommended (49T for some)",
+    "existing kx-083": "51T biggest improvement"
+   },
+   "spread": "50T vs 51T",
+   "note": "Track and rider dependent."
+  },
+  {
+   "topic": "CRF450R 2021-2024 stock shock spring",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "values": {
+    "spring maker 2021-2024 page": "54 N/mm",
+    "tester baselines 2023-2024 and existing h45-091": "56 N/mm for 2023-2024"
+   },
+   "spread": "54-56 N/mm",
+   "note": "Spring maker groups 2021-2024 under the 2021 rate."
+  }
+ ],
+ "not_found": [
+  {
+   "item": "Independent dyno before/after for aftermarket exhausts, ECUs or cams on the 2023-2026 YZ450F",
+   "searched": "MXA exhaust shootout (2024, feel only, no dyno), ADB 2024 dyno (map only), Dirt Rider dyno tests (stock), general 'YZ450F exhaust dyno' searches",
+   "result": "Only exhaust-maker claims and feel reports found"
+  },
+  {
+   "item": "GYTR high-compression piston / head / cam parts for 2023+ YZ450F with fitment and measured gains",
+   "searched": "Yamaha Canada GYTR page (14:1 kit, 100 octane min, fitment not listed), GYTR searches",
+   "result": "Fitment for 2023+ not confirmed; no measured effect"
+  },
+  {
+   "item": "Supercross / arenacross specific suspension setups (spring rates, clickers) for Japanese 450s and 250s",
+   "searched": "amateur supercross / arenacross setup searches, tester sites",
+   "result": "No numeric discipline-specific setups published"
+  },
+  {
+   "item": "Sand-specific setups for Japanese MX bikes",
+   "searched": "sand setup searches (only WP/KTM general advice found)",
+   "result": "Closest: 2023 YZ450F race setup on sandy topsoil and 2026 vet race on sand over hard base (recorded)"
+  },
+  {
+   "item": "Spring charts for YZ450F 2023-2024, YZ250F 2020-2024, YZ125, CRF250R 2020-2024 from the same spring maker",
+   "searched": "ridejbi.com Yamaha and bike-spec index pages",
+   "result": "Not listed on the site"
+  },
+  {
+   "item": "KX250 2025-2026 spring chart",
+   "searched": "https://www.ridejbi.com/2025-2026-kawasaki-kx250/",
+   "result": "Fetch blocked (permission request timed out); not retried"
+  },
+  {
+   "item": "Magazine race-test clicker settings for 2025 YZ450F, 2025 YZ250F, 2025-2026 KX450, 2025 KX250",
+   "searched": "MXA race test pages",
+   "result": "Text gives no numeric settings (settings in images or not published)"
+  },
+  {
+   "item": "Numeric Power Tuner / map values from tester setups (2025-2026 YZ450F, 2022-2023 YZ250F, 2026 YZ250F)",
+   "searched": "tester and magazine pages",
+   "result": "Maps published only as images; values not extractable"
+  }
+ ],
+ "sources": [
+  "https://keeferinctesting.com/?p=13303",
+  "https://motocrossactionmag.com/ask-the-mxperts-tin-foil-hat-yz125-chassis-ideas/",
+  "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf450/",
+  "https://motocrossactionmag.com/mxa-race-test-2025-kawasaki-kx450/",
+  "https://motocrossactionmag.com/mxa-race-test-2025-yamaha-yz450f/",
+  "https://motocrossactionmag.com/mxa-race-test-2025-yamahas-legacy-two-strokes-2025-yz125-yz250/",
+  "https://motocrossactionmag.com/mxa-race-test-2026-kawasaki-kx450/",
+  "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-yamaha-yz125/",
+  "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-yamaha-yz250f/",
+  "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz250-two-stroke/",
+  "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz250f/",
+  "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-honda-crf450-works-edition/",
+  "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-kawasaki-kx450-special-racer/",
+  "https://motocrossactionmag.com/mxa-team-tested-ahm-suspension-yz250f-suspension-re-valve/",
+  "https://motocrossactionmag.com/mxa-team-tested-n2dirt-2022-yamaha-yz250-suspension-mods/",
+  "https://motocrossactionmag.com/mxa-team-tested-pro-circuit-2025-kx250-suspension-re-valve/",
+  "https://motocrossactionmag.com/mxas-125-hot-rod-project-bike-shootout-the-three-best-tuners-kick-out-the-jams/",
+  "https://motocrossactionmag.com/this-week-in-mxa-with-josh-mosiman-we-put-7600-suspension-on-our-yz450f/",
+  "https://pulpmx.com/2022/01/04/2022-yamaha-yz250-review-baseline-settings/",
+  "https://pulpmx.com/?p=164560",
+  "https://ridejbi.com/2025-honda-crf450r",
+  "https://timaruyamaha.co.nz/products/full-ti-system-yz250f-2024-ak-s-y2met17-fdhlta",
+  "https://timaruyamaha.co.nz/products/full-ti-system-yz450f-2023-24-ak-s-y4met16-fdhlta",
+  "https://www.keeferinctesting.com/2022-250-mx-suspension-baseline-settings/",
+  "https://www.keeferinctesting.com/2024-honda-crf450r-baseline-settings-mods-that-work",
+  "https://www.keeferinctesting.com/?p=17321",
+  "https://www.keeferinctesting.com/?p=24664",
+  "https://www.keeferinctesting.com/?p=27510",
+  "https://www.keeferinctesting.com/?p=27722",
+  "https://www.keeferinctesting.com/?p=27807",
+  "https://www.keeferinctesting.com/?p=28255",
+  "https://www.keeferinctesting.com/?p=28394",
+  "https://www.keeferinctesting.com/?p=28578",
+  "https://www.keeferinctesting.com/?p=28593",
+  "https://www.keeferinctesting.com/?p=28625",
+  "https://www.keeferinctesting.com/?p=28690",
+  "https://www.keeferinctesting.com/?p=28903",
+  "https://www.keeferinctesting.com/?p=29306",
+  "https://www.keeferinctesting.com/?p=29641",
+  "https://www.keeferinctesting.com/?p=29670",
+  "https://www.keeferinctesting.com/?p=29823",
+  "https://www.keeferinctesting.com/the-weekend-race-set-up-world-vet/",
+  "https://www.keeferinctesting.com/weekend-race-set-up-2023-yamaha-yz450f/",
+  "https://www.ridejbi.com/2021-2024-honda-crf450r/",
+  "https://www.ridejbi.com/2022-2026-yamaha-yz250/",
+  "https://www.ridejbi.com/2024-2026-kawasaki-kx450/",
+  "https://www.ridejbi.com/2025-2026-honda-crf250r/",
+  "https://www.ridejbi.com/2025-2026-yamaha-yz250f/",
+  "https://www.ridejbi.com/2025-2026-yamaha-yz450f/",
+  "https://www.ridejbi.com/2027-yamaha-yz450f/",
+  "https://www.vitalmx.com/comment/8819881",
+  "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+  "https://www.vitalmx.com/features/Tested-Race-Tech-Kawasaki-KX250,7911",
+  "https://www.vitalmx.com/forums/moto-related/20252026-kx-250-vortex-airbox-and-exhaust"
+ ]
+}
