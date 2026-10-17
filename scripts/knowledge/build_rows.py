@@ -30,7 +30,9 @@ for f in sorted(glob.glob(os.path.join(root,'docs/research/knowledge/*.json'))):
         if dom not in DOMAINS or tier not in TIERS or conf not in CONF or not str(r.get('statement','')).strip():skipped['invalid']+=1;continue
         a=r.get('applies_to') or {};rmake=a.get('make') or make
         hit=0
-        for model0 in a.get('models') or []:
+        # 'general' records (principles that hold for every engine in the file) apply to all of the file's platform models.
+        models=[m for x in (a.get('models') or []) for m in ((d['platform'].get('models') or []) if x=='general' else [x])]
+        for model0 in models:
             mk,model=rmake,model0
             # Sister bikes listed by model name only (e.g. 'FC 450' in a KTM file) belong to their own brand.
             if re.match(r'(FC|FE|FX|TC|TE|TX) ',model0):mk='Husqvarna'

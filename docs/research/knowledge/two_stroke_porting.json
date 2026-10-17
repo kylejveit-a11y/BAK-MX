@@ -1,0 +1,3569 @@
+{
+ "slice": "Two-stroke engines: porting, power valves, port timing, and how to change the power - KTM/Husqvarna/GasGas TBI 125/150/250/300 (2023-2026, plus carbureted 2020-2022 125/150/250 SX and TC/MC) and Yamaha YZ125/YZ250 (2020-2026)",
+ "platform": {
+  "make": "KTM / Husqvarna / GasGas; Yamaha",
+  "models": [
+   "KTM 125 SX",
+   "KTM 150 SX",
+   "KTM 250 SX",
+   "KTM 300 SX",
+   "Husqvarna TC 125",
+   "Husqvarna TC 250",
+   "GasGas MC 125",
+   "GasGas MC 250",
+   "Yamaha YZ125",
+   "Yamaha YZ250"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ]
+ },
+ "records": [
+  {
+   "id": "2t-001",
+   "domain": "engine_architecture",
+   "topic": "bore and stroke",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "Husqvarna TC 250",
+     "GasGas MC 250"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 250 TBI two-stroke has a 66.4 mm bore and 72 mm stroke for 249 cc.",
+   "values": {
+    "bore": "66.4 mm",
+    "stroke": "72 mm",
+    "displacement": "249 cc"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - First look 2023 KTM fuel-injected two-strokes",
+    "url": "https://motocrossactionmag.com/all-new-2023-ktm-fuel-injected-two-stroke-sx-models/",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "KTM spec as reproduced by MXA; same figures in Dirt Bike, Ultimate Motorcycling and MCNews. Carbureted 2020-2022 250 SX/TC250 share 66.4 x 72."
+  },
+  {
+   "id": "2t-002",
+   "domain": "engine_architecture",
+   "topic": "bore and stroke",
+   "applies_to": {
+    "models": [
+     "KTM 300 SX"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 300 SX is the 250 SX with a bigger cylinder and piston: 72 mm bore x 72 mm stroke for 293.2 cc, on the 250's bottom end.",
+   "values": {
+    "bore": "72 mm",
+    "stroke": "72 mm",
+    "displacement": "293.2 cc"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2024 KTM 250/300SX",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-ktm-250-300sx-two-strokes",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "MXA states the 300SX shares the 250SX bottom end; Twisted Development test also says the two differ only in cylinder and piston."
+  },
+  {
+   "id": "2t-003",
+   "domain": "engine_architecture",
+   "topic": "bore and stroke",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "Husqvarna TC 125",
+     "GasGas MC 125"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 125 TBI two-stroke has a 54 mm bore and 54.5 mm stroke for 124.8 cc.",
+   "values": {
+    "bore": "54 mm",
+    "stroke": "54.5 mm",
+    "displacement": "124.8 cc"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - First look 2023 KTM fuel-injected two-strokes",
+    "url": "https://motocrossactionmag.com/all-new-2023-ktm-fuel-injected-two-stroke-sx-models/",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Also 54 x 54.5 on carbureted 2020-2022 125 SX/TC125."
+  },
+  {
+   "id": "2t-004",
+   "domain": "engine_architecture",
+   "topic": "bore and stroke",
+   "applies_to": {
+    "models": [
+     "KTM 150 SX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "The carbureted 150 SX uses a 58 mm bore on the 125's 54.5 mm stroke for 143.9 cc, fed by a 38 mm Mikuni carburetor, kick start only.",
+   "values": {
+    "bore": "58 mm",
+    "stroke": "54.5 mm",
+    "displacement": "143.9 cc",
+    "carburetor": "Mikuni 38 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motorcycle.com - 2022 KTM SX 150 specifications",
+    "url": "https://www.motorcycle.com/specs/ktm/off-road/2022/sx/150/detail.html",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Ultimate Motorcycling reports the 150 SX was dropped for MY2023 when the TBI range arrived."
+  },
+  {
+   "id": "2t-005",
+   "domain": "engine_architecture",
+   "topic": "fuel system - carbureted generation",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "KTM 150 SX",
+     "KTM 250 SX",
+     "Husqvarna TC 125",
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "The 2020-2022 KTM/Husqvarna SX/TC two-strokes used a 38 mm Mikuni TMX carburetor, which the 2023 throttle body replaced.",
+   "values": {
+    "carburetor": "Mikuni TMX 38 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "MCNews - 2023 KTM SX two-strokes",
+    "url": "https://mcnews.com.au/?p=382397",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "MXA 2020 YZ125 vs 125SX test notes the 2020 YZ125 and KTM 125SX used the same carburetor."
+  },
+  {
+   "id": "2t-006",
+   "domain": "engine_architecture",
+   "topic": "throttle body injection",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "KTM 250 SX",
+     "KTM 300 SX",
+     "Husqvarna TC 125",
+     "Husqvarna TC 250",
+     "GasGas MC 125",
+     "GasGas MC 250",
+     "KTM 250 XC",
+     "KTM 300 XC",
+     "KTM 125 XC"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "From 2023 the SX/TC two-strokes use a 39 mm Keihin throttle body with two injectors, one before and one after the throttle butterfly. This is not transfer-port injection.",
+   "values": {
+    "throttle_body": "39 mm Keihin",
+    "injectors": "2 (upstream and downstream of butterfly)",
+    "premix": "60:1 (250/300), 40:1 (125)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2023 KTM 300SX",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-ktm-300sx-two-stroke",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Dual-injector placement from MXA 2023 300SX and 2024 125SX tests. Premix ratios from MXA first look. GasGas MC models adopt the platform from MY2024 per VHM application tables."
+  },
+  {
+   "id": "2t-007",
+   "domain": "engine_architecture",
+   "topic": "throttle body injection - enduro TBI",
+   "applies_to": {
+    "models": [
+     "KTM 150 XC-W",
+     "KTM 250 XC-W",
+     "KTM 300 XC-W"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "From 2024 the XC-W enduro two-strokes moved from TPI to a 39 mm Keihin throttle body with two staged injectors, oil injection, a new plastic-flap reed case and an electronically controlled, self-calibrating power valve.",
+   "values": {
+    "throttle_body": "39 mm Keihin",
+    "bore_x_stroke_150": "58 x 54 mm (as printed)",
+    "lubrication": "oil injection"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling - 2024 KTM XC-W lineup first look",
+    "url": "https://ultimatemotorcycling.com/2023/05/26/2024-ktm-xc-w-lineup-first-look-20-fast-facts-41-photos/",
+    "date": "2023-05"
+   },
+   "confidence": "medium",
+   "notes": "Article lists 150 XC-W stroke as 54 mm; the SX 150 stroke is 54.5 mm, likely rounding. Off-road models are outside the MX focus but share cylinder architecture."
+  },
+  {
+   "id": "2t-008",
+   "domain": "ecu_electronics",
+   "topic": "electronic power valve actuator",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "KTM 250 SX",
+     "KTM 300 SX",
+     "Husqvarna TC 125",
+     "Husqvarna TC 250",
+     "GasGas MC 125",
+     "GasGas MC 250"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The TBI bikes replaced the centrifugal ball-ramp power valve with an electric-motor, gear-driven valve that the ECU opens according to rpm and throttle position.",
+   "values": {
+    "actuation": "electric motor via gears",
+    "inputs": "rpm + throttle position"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2023 KTM 300SX",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-ktm-300sx-two-stroke",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Dirt Bike first look describes the replaced system as a centrifugal ball-ramp mechanism; Dirt Bike TC250 test says exhaust port timing now depends on rpm and throttle opening."
+  },
+  {
+   "id": "2t-009",
+   "domain": "ecu_electronics",
+   "topic": "map switch effect on power valve (250/300)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "KTM 300 SX",
+     "Husqvarna TC 250",
+     "GasGas MC 250"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "On the 250/300 TBI, map 1 (white) only lets the power valve open about 80%, which mutes power; map 2 (green) opens it fully.",
+   "values": {
+    "map1_pv_opening": "about 80%",
+    "map2_pv_opening": "100%"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2023 KTM 300SX",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-ktm-300sx-two-stroke",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Reported by MXA in 2023 300SX and 2024 250/300SX tests (not a published KTM spec). On MXA's dyno the 300SX maps were identical to 6,700 rpm, then map 2 pulled ahead: 55.0 vs 54.19 hp peak."
+  },
+  {
+   "id": "2t-010",
+   "domain": "ecu_electronics",
+   "topic": "map switch effect (125)",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "Husqvarna TC 125",
+     "GasGas MC 125"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "On the 125 TBI the two maps change fuel and ignition only; the power valve is not used to separate the maps. The green map is a rich 'safety' map that MXA testers found bogged randomly.",
+   "values": {
+    "map_white": "standard",
+    "map_green": "rich / detonation safety"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2024 KTM 125SX",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-ktm-125sx-two-stroke",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "MXA report; KTM does not publish map contents."
+  },
+  {
+   "id": "2t-011",
+   "domain": "engine_architecture",
+   "topic": "torque chamber in exhaust port",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "KTM 300 SX"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 250/300 TBI engines have a 'torque chamber' at the exhaust port that is opened at low rpm and closed at high rpm, adding volume to the exhaust at low speed.",
+   "values": {
+    "behaviour": "open at low rpm, closed at high rpm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2024 KTM 250/300SX",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-ktm-250-300sx-two-strokes",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Volume and switching rpm not published. Two Stroke Performance sells a larger power-valve cover claimed to add low-rpm torque (3,000-5,000 rpm) by increasing this chamber volume."
+  },
+  {
+   "id": "2t-012",
+   "domain": "engine_architecture",
+   "topic": "engine packaging",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "KTM 250 SX",
+     "KTM 300 SX"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "For 2023 KTM rotated the two-stroke engines rearward by 2 degrees and fitted new cylinder heads; KTM claims under 24 kg for the 300 engine and under 18 kg for the 125 engine.",
+   "values": {
+    "engine_rotation": "2 deg rearward",
+    "engine_weight_300": "<24 kg (claimed)",
+    "engine_weight_125": "<18 kg (claimed)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - First look 2023 KTM fuel-injected two-strokes",
+    "url": "https://motocrossactionmag.com/all-new-2023-ktm-fuel-injected-two-stroke-sx-models/",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Weights from MCNews; KTM's 2026 250 SX page gives 23.9 kg engine weight."
+  },
+  {
+   "id": "2t-013",
+   "domain": "power_feel",
+   "topic": "claimed peak power",
+   "applies_to": {
+    "models": [
+     "KTM 300 SX"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM claimed more than 57 hp for the 300 SX at launch.",
+   "values": {
+    "claimed_peak": ">57 hp (crank, unspecified)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "MCNews - 2023 KTM SX two-strokes",
+    "url": "https://mcnews.com.au/?p=382397",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Manufacturer claim, measurement basis not stated; magazine rear-wheel dynos read 48.8-55.0 hp (see conflicts)."
+  },
+  {
+   "id": "2t-014",
+   "domain": "maintenance",
+   "topic": "power valve calibration after top-end work",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "KTM 250 SX",
+     "KTM 300 SX",
+     "Husqvarna TC 125",
+     "Husqvarna TC 250",
+     "GasGas MC 125",
+     "GasGas MC 250"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The electronic power valve must be re-taught its end stops after the cylinder is removed: plug in the brand's wake-up dongle with throttle held at half for 10 seconds, then release so the valve cycles. Skipping it can make the bike bog or not rev.",
+   "values": {
+    "hold_time": "10 s at half throttle"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "ADB Magazine - How to reset a KTM TBI power valve",
+    "url": "https://adbmag.com.au/editorial/how-to-reset-a-ktm-tbi-power-valve/",
+    "date": "undated"
+   },
+   "confidence": "medium",
+   "notes": "Procedure as described by ADB from dealer practice; each brand (KTM/Husqvarna/GasGas) uses its own dongle."
+  },
+  {
+   "id": "2t-015",
+   "domain": "maintenance",
+   "topic": "power valve wear (TBI)",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "KTM 250 SX",
+     "KTM 300 SX",
+     "Husqvarna TC 125",
+     "Husqvarna TC 250",
+     "GasGas MC 125",
+     "GasGas MC 250"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Owners report the electronic power valve can stick and wear as hours build, with an occasional metal burr in the first valve-shaft hole.",
+   "values": {},
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX - Feedback on new fuel-injected KTM two-strokes?",
+    "url": "https://www.vitalmx.com/comment/8773196",
+    "date": "2024/2026"
+   },
+   "confidence": "low",
+   "notes": "Single unnamed forum post; treat as an early-warning sign to inspect, not a known failure rate."
+  },
+  {
+   "id": "2t-016",
+   "domain": "engine_architecture",
+   "topic": "mechanical power valve - opening point",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "Husqvarna TC 250",
+     "GasGas MC 250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "The carbureted KTM 250 power valve starts opening at about 5,600 rpm with stock preload and is fully open at about 7,900 rpm with the stock yellow inner spring. Each full turn of the preload screw moves the opening point about 150 rpm.",
+   "values": {
+    "opening_start": "5,600 rpm (stock preload)",
+    "fully_open": "7,900 rpm (yellow spring)",
+    "per_turn": "150 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - This much we know: making the most of the power valve on your KTM 250/300",
+    "url": "https://motocrossactionmag.com/this-much-we-know-making-the-most-of-the-power-valve-on-your-ktm-250300-two-stroke",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": "MXA figures; ADB Magazine gives identical numbers. Article covers KTM 250SX/300 (carbureted, pre-2023); mechanical design shared by Husqvarna and GasGas 250s. Likely the same figures are reprinted from KTM's own guidance."
+  },
+  {
+   "id": "2t-017",
+   "domain": "engine_mods",
+   "topic": "power valve preload screw - direction and feel",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "Husqvarna TC 250",
+     "GasGas MC 250",
+     "KTM 125 SX",
+     "KTM 150 SX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "Turning the preload screw clockwise (in) gives smoother power and broader bottom end; counterclockwise (out) gives more hit and maximum top end. Adjust in 1/8 turns; total range is six turns.",
+   "values": {
+    "increment": "1/8 turn",
+    "range": "6 turns",
+    "tool": "Robertson (square) head"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Ask the MXperts: fine-tuning the KTM 250SX two-stroke",
+    "url": "https://motocrossactionmag.com/ask-the-mxperts-fine-tuning-the-ktm-250sx-two-stroke",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": "CONFLICT on direction: MXA 'This much we know' and ADB say one turn out opens the valve 150 rpm sooner (smoother) and in opens later (more hit), the opposite of MXA's Ask the MXperts text. See conflicts. Do not loosen the two screws holding the brass adjuster body."
+  },
+  {
+   "id": "2t-018",
+   "domain": "engine_mods",
+   "topic": "power valve inner (auxiliary) springs",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "Husqvarna TC 250",
+     "GasGas MC 250",
+     "KTM 125 SX",
+     "KTM 150 SX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "Three colour-coded inner springs set how fast the valve opens and where it is fully open: yellow is stock, red snaps it open quicker (more aggressive), green opens it slower (softer).",
+   "values": {
+    "stock": "yellow",
+    "faster": "red",
+    "slower": "green"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Ask the MXperts: fine-tuning the KTM 250SX two-stroke",
+    "url": "https://motocrossactionmag.com/ask-the-mxperts-fine-tuning-the-ktm-250sx-two-stroke",
+    "date": "2019"
+   },
+   "confidence": "high",
+   "notes": "No spring rates published. MXA testers usually stay on yellow."
+  },
+  {
+   "id": "2t-019",
+   "domain": "engine_mods",
+   "topic": "power valve main spring wire size",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "KTM 150 SX",
+     "KTM 250 SX",
+     "Husqvarna TC 125",
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "Owners report the stock primary power-valve spring is 2.0 mm wire on the 125/150/250/300; a 1.8 mm wire spring (KTM part 54637072000) is used to open the valve earlier for more midrange.",
+   "values": {
+    "stock_wire": "2.0 mm",
+    "option_wire": "1.8 mm",
+    "part_number": "54637072000"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX - 2015 SX250/TC250 suggested mods",
+    "url": "https://www.vitalmx.com/comment/3526228",
+    "date": "2019"
+   },
+   "confidence": "low",
+   "notes": "Forum posts by 15tc150 and Husky_250 (2019). Not verified against KTM parts data."
+  },
+  {
+   "id": "2t-020",
+   "domain": "ecu_electronics",
+   "topic": "ignition map connector (carbureted)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "KTM 125 SX",
+     "KTM 150 SX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "On carbureted SX models a white connector near the fuel tank selects the ignition map: unplugged is the soft map, plugged together is the stock performance map. Some models have a handlebar switch (1 mellow, 2 aggressive).",
+   "values": {
+    "unplugged": "soft map",
+    "plugged": "performance (stock)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - This much we know: making the most of the power valve on your KTM 250/300",
+    "url": "https://motocrossactionmag.com/this-much-we-know-making-the-most-of-the-power-valve-on-your-ktm-250300-two-stroke",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": "Husqvarna TC250 handlebar switches reportedly work on the KTM."
+  },
+  {
+   "id": "2t-021",
+   "domain": "engine_mods",
+   "topic": "Kreft PowerDial",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "Husqvarna TC 250",
+     "GasGas MC 250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "The Kreft PowerDial replaces the preload screw with a hand dial; MXA's starting point was fully counterclockwise then 1.5 turns clockwise, adjusting in quarter turns. MXA called half-turn changes very noticeable.",
+   "values": {
+    "price": "$49.95 (3.0) / $89.95 (earlier Power Dial)",
+    "start_setting": "1.5 turns in from fully out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Team tested Kreft PowerDial power valve adjuster",
+    "url": "https://motocrossactionmag.com/mxa-team-tested-kreft-powerdial-2-0-power-valve-adjuster",
+    "date": "undated"
+   },
+   "confidence": "medium",
+   "notes": "Only for mechanical (carbureted-era) power valves; TBI bikes have no preload screw."
+  },
+  {
+   "id": "2t-022",
+   "domain": "setups",
+   "topic": "150 SX power valve settings used by owners",
+   "applies_to": {
+    "models": [
+     "KTM 150 SX"
+    ],
+    "years": [
+     2019,
+     2020
+    ]
+   },
+   "statement": "Owners of the 150 SX report running the stock yellow spring with the preload screw 1.75 to 2.5 turns in from fully out; one moved from 5 turns in to 2 turns in and found it much better but still narrow.",
+   "values": {
+    "settings_reported": "1.75, 2, 2.5 turns in"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX - 2019 KTM 150SX questions",
+    "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/2019-KTM-150sx-questions,1375227",
+    "date": "2020"
+   },
+   "confidence": "low",
+   "notes": "Forum reports, 2020."
+  },
+  {
+   "id": "2t-023",
+   "domain": "engine_mods",
+   "topic": "ignition timing changes (carbureted KTM)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "Husqvarna TC 250",
+     "KTM 150 SX"
+    ],
+    "years": [
+     2015,
+     2016,
+     2017,
+     2018,
+     2019,
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "Rotating the stator: retarding 1-2 degrees smooths the hit and lengthens the pull, advancing sharpens throttle; owners warn never to go beyond 3 degrees either way.",
+   "values": {
+    "limit": "+/-3 deg",
+    "typical_change": "1-2 deg"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX - 2015 SX250/TC250 suggested mods",
+    "url": "https://www.vitalmx.com/comment/3526228",
+    "date": "2019"
+   },
+   "confidence": "low",
+   "notes": "Forum post (15tc150, 2019); three 8 mm bolts move the stator plate."
+  },
+  {
+   "id": "2t-024",
+   "domain": "ecu_electronics",
+   "topic": "ECU remap - Twisted Development",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "KTM 300 SX",
+     "Husqvarna TC 250",
+     "GasGas MC 250"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Stock TBI mapping is conservative and runs flat into the rev limiter; a Twisted Development remap kept the easy bottom end, added throttle response and mid-to-top pull, and reduced limiter hits. Pipe-specific maps exist (FMF, Pro Circuit, DR.D).",
+   "values": {
+    "price": "$349.50 (2024 MXA)",
+    "price_2023": "$299.99 (Keefer)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Team tested Twisted Development KTM 250/300 remapped ECU",
+    "url": "https://motocrossactionmag.com/mxa-team-tested-tds-ktm-250-300-remapped-ecu",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "No dyno numbers published. Keefer (2023 300SX) described stock as rich and lethargic and the remap as adding low-rpm response and 2nd/3rd gear pull. Tuners such as WMR and Jamie Ellis cracked the locked ECU."
+  },
+  {
+   "id": "2t-025",
+   "domain": "ecu_electronics",
+   "topic": "TSP ECU Reflash Module",
+   "applies_to": {
+    "models": [
+     "KTM 250 XC-W",
+     "KTM 300 XC-W"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "Two Stroke Performance's handheld ECU Reflash Module switches between stock and a TSP map and can change fuel, ignition, oil delivery and power-valve settings; claimed smoother curve and less pipe bang, no dyno data.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "dealer",
+    "name": "Slavens Racing blog - TSP parts for TBI KTM two-strokes (Brooks Tomblin)",
+    "url": "https://slavensracing.com/?p=513258",
+    "date": "2025-02"
+   },
+   "confidence": "low",
+   "notes": "Dealer blog; Enduro21 (2023) notes a TBI version was announced after the TPI one."
+  },
+  {
+   "id": "2t-026",
+   "domain": "ecu_electronics",
+   "topic": "aftermarket tuning need after mods",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "KTM 250 SX",
+     "KTM 300 SX",
+     "Husqvarna TC 125",
+     "Husqvarna TC 250",
+     "GasGas MC 125",
+     "GasGas MC 250"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The TBI ECU has no closed-loop fuel correction for engine changes, so head work, porting or a pipe can make it run lean; tuners say any pipe or head change needs a matching remap.",
+   "values": {},
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX - 2023 KTM 125SX deep dive: EFI, tune, mods",
+    "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/2023-KTM-125SX-deep-dive-EFI-tune-mods-exploring-the-tech,1408609",
+    "date": "2022-11"
+   },
+   "confidence": "medium",
+   "notes": "JBoneMotorworks (2022) and lumpy790 (2024) on Vital MX; consistent with Twisted Development offering pipe-specific maps."
+  },
+  {
+   "id": "2t-027",
+   "domain": "engine_architecture",
+   "topic": "bore, stroke and compression",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Yamaha lists the YZ250 at 66.4 x 72 mm, 249 cc, compression ratio 8.9 to 10.6:1, with a Keihin PWK38S carburetor with power jet and a 5-speed gearbox.",
+   "values": {
+    "bore": "66.4 mm",
+    "stroke": "72 mm",
+    "displacement": "249 cc",
+    "compression_ratio": "8.9-10.6:1",
+    "carburetor": "Keihin PWK38S w/ power jet + TPS"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA - 2024 YZ250 50th Anniversary specifications",
+    "url": "https://www.yamahamotorsports.com/models/yz250-50th-anniversary-edition/specs",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Yamaha does not say how the two compression figures are measured. MXA quotes the YZ250 as 8.9:1 with a 21.5 cc head, so the low figure is the one tuners quote."
+  },
+  {
+   "id": "2t-028",
+   "domain": "engine_architecture",
+   "topic": "bore, stroke and compression",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ125"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Yamaha lists the 2022-on YZ125 at 54 x 54.5 mm, 125 cc, compression ratio 8.2 to 10.1:1, with a Keihin PWK38S carburetor with power jet and TPS and a 6-speed gearbox.",
+   "values": {
+    "bore": "54 mm",
+    "stroke": "54.5 mm",
+    "compression_ratio": "8.2-10.1:1",
+    "carburetor": "Keihin PWK38S w/ power jet + TPS"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA - 2023 YZ125 specifications",
+    "url": "https://yamahamotorsports.com/models/23-yz125/specs",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "2t-029",
+   "domain": "engine_architecture",
+   "topic": "2022 YZ125 redesign - combustion chamber and compression",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ125"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2022 YZ125 chamber is 1.6 mm taller with 2.4% more volume, dropping compression from 8.57 to 8.20:1.",
+   "values": {
+    "chamber_height_change": "+1.6 mm",
+    "chamber_volume_change": "+2.4%",
+    "compression_2021": "8.57:1",
+    "compression_2022": "8.20:1"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2022 Yamaha YZ125",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-yamaha-yz125",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Yamaha figures as reported by MXA."
+  },
+  {
+   "id": "2t-030",
+   "domain": "engine_architecture",
+   "topic": "2022 YZ125 redesign - ports and cylinder",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ125"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2022 YZ125 got a larger exhaust port and bigger, lower, wider transfer ports; the cylinder base was enlarged and the front studs moved 3 mm forward to fit them. The exhaust duct is shorter and the intake port larger.",
+   "values": {
+    "front_stud_shift": "3 mm forward"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2022 Yamaha YZ125",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-yamaha-yz125",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Enduro21 (Yamaha Europe) adds 'shorter exhaust port'. No port heights or timings published."
+  },
+  {
+   "id": "2t-031",
+   "domain": "engine_architecture",
+   "topic": "2022 YZ125 redesign - rotating assembly",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ125"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2022 YZ125 rod is 8 mm longer, crankcase 8 mm taller at the cylinder joint, crank inertia up 2.7% and flywheel inertia up 21%.",
+   "values": {
+    "rod_length_change": "+8 mm",
+    "crank_inertia": "+2.70%",
+    "flywheel_inertia": "+21%",
+    "intake_angle": "+4%"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2022 Yamaha YZ125",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-yamaha-yz125",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Absolute rod length not published in sources found."
+  },
+  {
+   "id": "2t-032",
+   "domain": "engine_architecture",
+   "topic": "2022 YZ125 redesign - power valve, intake and exhaust",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ125"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Yamaha changed YPVS shape, maximum lift and opening/closing timing for 2022, fitted a V-Force reed block and a 15% lower-resistance intake, narrowed the pipe belly and shortened the silencer about 50 mm (to 17 in).",
+   "values": {
+    "intake_resistance": "-15%",
+    "silencer_length": "17 in",
+    "silencer_change": "-50 mm (about 2 in)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21 - First look: Yamaha's new 2022 YZ range (YZ125)",
+    "url": "https://enduro21.com/en/news/first-look-yamaha-s-new-2022-yz-range-goes-big-on-the-two-stroke-125",
+    "date": "2021-07"
+   },
+   "confidence": "high",
+   "notes": "Combined from Enduro21 (Yamaha Europe release) and MXA."
+  },
+  {
+   "id": "2t-033",
+   "domain": "engine_architecture",
+   "topic": "carburetor and power jet",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ125"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "From 2022 the YZ125 uses a Keihin PWK38S with a solenoid power jet that adds fuel between 5,000 and 9,500 rpm above half throttle, replacing the 38 mm Mikuni TMX.",
+   "values": {
+    "power_jet_window": "5,000-9,500 rpm, >1/2 throttle",
+    "previous_carb": "Mikuni TMX 38 mm (2020-2021)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2022 Yamaha YZ125",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-yamaha-yz125",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "2t-034",
+   "domain": "ecu_electronics",
+   "topic": "3D-map CDI",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ125"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2022-on YZ125 CDI uses throttle position plus rpm (a 3D map) to set ignition timing.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2022 Yamaha YZ125 review",
+    "url": "https://www.cyclenews.com/2022/01/article/2022-yamaha-yz125-review/",
+    "date": "2022-01"
+   },
+   "confidence": "high",
+   "notes": "Map values not published."
+  },
+  {
+   "id": "2t-035",
+   "domain": "engine_architecture",
+   "topic": "YZ250 YPVS layout",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The YZ250 power valve is driven by a crank-gear centrifugal governor and has three pieces: a center valve that opens in the first half of control-rod rotation and two side valves that open in the second half, held by torsion springs that default it closed.",
+   "values": {
+    "pieces": "3 (center + 2 side)",
+    "drive": "centrifugal governor"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "US Patent 9,797,275 B1 - Motorcycle engine power valve control upgrade kit (Timothy B. King)",
+    "url": "https://patents.google.com/patent/US9797275",
+    "date": "2017-10"
+   },
+   "confidence": "medium",
+   "notes": "Description from US patent 9,797,275 (aftermarket inventor describing the stock 1999-on design). The patent attributes the YZ250's mid-rpm 'hit' to the center valve reaching its stop, where friction and spring force cause hesitation then surge."
+  },
+  {
+   "id": "2t-036",
+   "domain": "engine_architecture",
+   "topic": "YZ250 reed petals",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Yamaha fits carbon-fibre reed petals to the YZ250.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA - 2024 YZ250 50th Anniversary features",
+    "url": "https://www.yamahamotorsports.com/models/yz250-50th-anniversary-edition/features",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "2t-037",
+   "domain": "identity",
+   "topic": "YZ250 engine generation",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "MXA describes the YZ250 as largely unchanged since 2006, with the last notable update in 2022 being bodywork, seat and subframe; it remains carbureted with a mechanical power valve and kick start.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Video: 2025 Yamaha YZ250 two-stroke test",
+    "url": "https://motocrossactionmag.com/mxa-video-2025-yamaha-yz250-two-stroke-test",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "MXA 2020 race test notes a 2011 change: silencer lengthened 75 mm and compression revised so the bike runs a wider range of US/European fuels."
+  },
+  {
+   "id": "2t-038",
+   "domain": "engine_architecture",
+   "topic": "YZ250 head volume and squish (stock)",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Owners measure the stock YZ250 head at about 21.5 cc with squish around 0.072-0.075 in (1.8-1.9 mm); heads vary by code: 5UP 21.0 cc, 5CU 22.0 cc, 5WM 21.5 cc, YZ250X head 23.5 cc.",
+   "values": {
+    "head_volume": "~21.5 cc",
+    "squish_stock": "0.072-0.075 in",
+    "5UP": "21.0 cc",
+    "5CU": "22.0 cc",
+    "5WM": "21.5 cc",
+    "250X": "23.5 cc"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX - 2013 YZ250 (2-stroke) head questions",
+    "url": "https://www.vitalmx.com/comment/8672966",
+    "date": "2019/2026"
+   },
+   "confidence": "medium",
+   "notes": "Forum measurements (cwtoyota, slipdog, digger). MXA independently quotes 21.5 cc for the YZ250 and 23.6 cc for the YZ250X."
+  },
+  {
+   "id": "2t-039",
+   "domain": "engine_architecture",
+   "topic": "YZ250 vs YZ250X engine differences",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250",
+     "Yamaha YZ250X"
+    ],
+    "years": [
+     2016,
+     2017,
+     2018,
+     2019,
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "Yamaha softened the YZ250X by raising head volume from 21.5 to 23.6 cc (compression 8.9 to 7.9:1), raising the exhaust port 0.5 mm with a matching valve shape, retarding the CDI in the mid-to-high range, and setting the governor spring/preload to open the valve sooner; the pipe is 35 mm narrower.",
+   "values": {
+    "head_cc_YZ": "21.5 cc",
+    "head_cc_X": "23.6 cc",
+    "CR_YZ": "8.9:1",
+    "CR_X": "7.9:1",
+    "exhaust_port": "+0.5 mm",
+    "pipe_width": "-35 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Ask the MXperts: the X factor versus the non-X factor",
+    "url": "https://motocrossactionmag.com/ask-the-mxperts-the-x-factor-versus-the-non-x-factor",
+    "date": "2016"
+   },
+   "confidence": "high",
+   "notes": "Yamaha changes as reported by MXA. Result: milder hit, tractable to 6,500 rpm, dip at 7,000 picking up at 7,400, same peak around 8,800 rpm, more over-rev. A real-world example of how head volume, port height, ignition and PV timing move a two-stroke's power."
+  },
+  {
+   "id": "2t-040",
+   "domain": "power_feel",
+   "topic": "dyno - 300SX 2023 (MXA)",
+   "applies_to": {
+    "models": [
+     "KTM 300 SX"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "MXA measured the 2023 300SX at 55.0 hp at 8,500 rpm in map 2 and 54.19 hp in map 1; about 27 hp at 5,000, 34 at 6,000, 39 at 6,500, 45 at 7,000 and just over 50 at 7,500 rpm.",
+   "values": {
+    "peak_map2": "55.0 hp @ 8,500 rpm",
+    "peak_map1": "54.19 hp",
+    "5000": "27 hp",
+    "6000": "34 hp",
+    "6500": "39 hp",
+    "7000": "45 hp",
+    "7500": ">50 hp"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2023 KTM 300SX",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-ktm-300sx-two-stroke",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Dyno type not stated (MXA). Stock bike, premix. Maps identical until 6,700 rpm."
+  },
+  {
+   "id": "2t-041",
+   "domain": "power_feel",
+   "topic": "dyno - 300SX 2023 (Dirt Rider)",
+   "applies_to": {
+    "models": [
+     "KTM 300 SX"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Dirt Rider's Dynojet 250i measured the 2023 300 SX at 48.8 hp at 8,100 rpm and 32.2 lb-ft at 7,500 rpm.",
+   "values": {
+    "peak_hp": "48.8 hp @ 8,100 rpm",
+    "peak_torque": "32.2 lb-ft @ 7,500 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider - How much power does the 2023 KTM 300 SX make? (Andrew Oldar)",
+    "url": "https://dirtrider.com/tests/ktm-300-sx-dyno-test-2023",
+    "date": "2023-10"
+   },
+   "confidence": "high",
+   "notes": "Dynojet 250i, rear wheel. Map not stated. Not comparable with MXA's dyno."
+  },
+  {
+   "id": "2t-042",
+   "domain": "power_feel",
+   "topic": "dyno - 300SX 2025 (Dirt Rider)",
+   "applies_to": {
+    "models": [
+     "KTM 300 SX"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Dirt Rider's Dynojet 250i measured the 2025 300 SX at 49.1 hp and 32.3 lb-ft at the rear wheel.",
+   "values": {
+    "peak_hp": "49.1 hp",
+    "peak_torque": "32.3 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider - How much power does the 2025 KTM 300 SX make? (Andrew Oldar)",
+    "url": "https://dirtrider.com/tests/ktm-300-sx-dyno-test-2025",
+    "date": "2024-09"
+   },
+   "confidence": "high",
+   "notes": "Dynojet 250i; rpm and map not stated. 5.7 lb-ft more than the 2025 350 SX-F on the same dyno."
+  },
+  {
+   "id": "2t-043",
+   "domain": "power_feel",
+   "topic": "dyno - 250SX/300SX 2024 (MXA)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "KTM 300 SX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "MXA measured the 2024 250SX at about 52.1 hp at 8,600 rpm and the 300SX at about 55 hp at 8,500 rpm.",
+   "values": {
+    "250SX_peak": "52.1 hp @ 8,600 rpm",
+    "300SX_peak": "~55 hp @ 8,500 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2024 KTM 250/300SX",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-ktm-250-300sx-two-strokes",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Dyno type not stated."
+  },
+  {
+   "id": "2t-044",
+   "domain": "power_feel",
+   "topic": "dyno - TC250 2023 (MXA)",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "MXA's dyno showed the 2023 Husqvarna TC250 TBI peaking at 52.12 hp at 8,600 rpm.",
+   "values": {
+    "peak_hp": "52.12 hp @ 8,600 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2023 KTM 300SX",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-ktm-300sx-two-stroke",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Quoted for comparison in MXA's 2023 300SX test; dyno type not stated."
+  },
+  {
+   "id": "2t-045",
+   "domain": "power_feel",
+   "topic": "dyno - TC250 2025 (Dirt Rider)",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Dirt Rider's Dynojet 250i measured the 2025 TC 250 Heritage at 43.0 hp and 29.6 lb-ft.",
+   "values": {
+    "peak_hp": "43.0 hp",
+    "peak_torque": "29.6 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider - How much power does the 2025 Husqvarna TC 250 Heritage make? (Andrew Oldar)",
+    "url": "https://dirtrider.com/tests/husqvarna-tc-250-dyno-test-2025",
+    "date": "2025-02"
+   },
+   "confidence": "high",
+   "notes": "Dynojet 250i; rpm and map not stated."
+  },
+  {
+   "id": "2t-046",
+   "domain": "power_feel",
+   "topic": "dyno - 125 SX TBI (Dirt Rider)",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Dirt Rider's Dynojet 250i measured the TBI 125 SX at 30.9 hp at 10,800 rpm and 15.3 lb-ft at 10,700 rpm.",
+   "values": {
+    "peak_hp": "30.9 hp @ 10,800 rpm",
+    "peak_torque": "15.3 lb-ft @ 10,700 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider - KTM 125 SX dyno test (Andrew Oldar)",
+    "url": "https://dirtrider.com/tests/ktm-125-sx-dyno-test-2023",
+    "date": "2023-09"
+   },
+   "confidence": "medium",
+   "notes": "Published Sept 2023 under a '2023' URL; likely the 2024 model. Spec table lists a 44 mm throttle body, conflicting with KTM's 39 mm."
+  },
+  {
+   "id": "2t-047",
+   "domain": "power_feel",
+   "topic": "dyno - 125SX TBI vs carb (MXA)",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX"
+    ],
+    "years": [
+     2022,
+     2024
+    ]
+   },
+   "statement": "MXA measured the 2024 TBI 125SX at 37.2 hp at 11,200 rpm vs 38.2 hp at 11,400 rpm for the 2022 carbureted bike; the curves match to about 10,800 rpm, then the TBI bike falls off, and it is slightly slower off the bottom.",
+   "values": {
+    "2024_peak": "37.2 hp @ 11,200 rpm",
+    "2022_peak": "38.2 hp @ 11,400 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2024 KTM 125SX",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-ktm-125sx-two-stroke",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Dyno type not stated. MXA says port timing and compression were unchanged 2022 to 2024."
+  },
+  {
+   "id": "2t-048",
+   "domain": "power_feel",
+   "topic": "dyno - 125 four-way (Dirt Bike 2024)",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 125",
+     "GasGas MC 125",
+     "KTM 125 SX",
+     "Yamaha YZ125"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "On Pro Circuit's dyno: TC125 37.02 hp @ 11,430, MC125 36.51 @ 11,530, 125SX 35.94 @ 11,430, YZ125 35.78 @ 11,670 rpm; torque 17.18, 16.91, 16.88 and 16.47 lb-ft, all near 10,950-11,060 rpm.",
+   "values": {
+    "TC125": "37.02 hp @ 11,430 / 17.18 lb-ft @ 10,950",
+    "MC125": "36.51 hp @ 11,530 / 16.91 lb-ft @ 11,060",
+    "125SX": "35.94 hp @ 11,430 / 16.88 lb-ft @ 10,960",
+    "YZ125": "35.78 hp @ 11,670 / 16.47 lb-ft @ 10,940"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - 125 2-strokes on the dyno (Pro Circuit dyno)",
+    "url": "https://dirtbikemagazine.com/125-2-strokes-on-the-dyno-the-wrap/",
+    "date": "2024-02"
+   },
+   "confidence": "high",
+   "notes": "Pro Circuit dyno (Dynojet per Dirt Bike's earlier dyno articles). Stock status not stated; model years assumed 2024 (article Feb 2024)."
+  },
+  {
+   "id": "2t-049",
+   "domain": "power_feel",
+   "topic": "dyno - 125 shootout 2022 (MXA)",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "Husqvarna TC 125",
+     "GasGas MC 125",
+     "Yamaha YZ125"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "MXA measured carbureted 2022 125s: KTM 125SX 38.5 hp, GasGas MC125 37.8, Husqvarna TC125 37.7 (all at 11,200 rpm) and YZ125 35.9 hp at 11,600 rpm.",
+   "values": {
+    "125SX": "38.5 hp @ 11,200",
+    "MC125": "37.8 hp @ 11,200",
+    "TC125": "37.7 hp @ 11,200",
+    "YZ125": "35.9 hp @ 11,600"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2022 125 two-stroke shootout",
+    "url": "https://motocrossactionmag.com/the-must-read-motocross-action-2022-125-two-stroke-shootout",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Dyno type not stated."
+  },
+  {
+   "id": "2t-050",
+   "domain": "power_feel",
+   "topic": "dyno - YZ125 2022 vs 2021 (MXA)",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ125"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "MXA measured the 2022 YZ125 at 34.44 hp at 11,300 rpm vs 33.38 hp for the 2021; the 2022 is up to 1.5 hp down at 6,500 rpm, crosses near 7,500 and leads from 10,000 rpm to peak.",
+   "values": {
+    "2022_peak": "34.44 hp @ 11,300 rpm",
+    "2021_peak": "33.38 hp",
+    "loss_6500": "-1.5 hp",
+    "crossover": "~7,500 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2022 Yamaha YZ125",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-yamaha-yz125",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Same dyno, same day; type not stated. Reference engines in the same article: KTM 125SX 37.52 hp, Pro Circuit replica 38.32 hp."
+  },
+  {
+   "id": "2t-051",
+   "domain": "power_feel",
+   "topic": "dyno - YZ125 2021 vs KTM (MXA)",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ125",
+     "KTM 125 SX"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "MXA measured the 2021 YZ125 at 33.53 hp and the KTM 125SX at 37.50 hp, both peaking at 11,500 rpm; the YZ makes more below 7,800 rpm and the KTM leads by 2.5 hp from 7,900 to peak.",
+   "values": {
+    "YZ125": "33.53 hp @ 11,500",
+    "125SX": "37.50 hp @ 11,500"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2021 Yamaha YZ125",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2021-yamaha-yz125",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Same day; dyno type not stated."
+  },
+  {
+   "id": "2t-052",
+   "domain": "power_feel",
+   "topic": "dyno - YZ125 vs 125SX 2020 (MXA)",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ125",
+     "KTM 125 SX"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "MXA measured the 2020 YZ125 at 34.50 hp and KTM 125SX at 37.50 hp (11,200 rpm); torque 16.29 lb-ft @ 11,000 vs 17.69 @ 11,100. The YZ made more below 8,000 rpm, the KTM was up about 3 hp at 11,000.",
+   "values": {
+    "YZ125": "34.50 hp (also printed 34.84)",
+    "125SX": "37.50 hp",
+    "YZ_torque": "16.29 lb-ft @ 11,000",
+    "KTM_torque": "17.69 lb-ft @ 11,100"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2020 KTM 125SX vs 2020 Yamaha YZ125 unshootout",
+    "url": "https://motocrossactionmag.com/mxas-2020-ktm-125sx-vs-2020-yamaha-yz125-unshootout",
+    "date": "2020"
+   },
+   "confidence": "medium",
+   "notes": "Article prints two YZ peaks; dyno type not stated; both bikes on the same 38 mm Mikuni TMX."
+  },
+  {
+   "id": "2t-053",
+   "domain": "power_feel",
+   "topic": "dyno - YZ125 2023 (MXA)",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ125"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "MXA measured the 2023 YZ125 at 35.64 hp, revving to about 11,700 rpm, about 1.5 hp behind the KTM/Husky and almost 3 hp behind the GasGas MC125.",
+   "values": {
+    "peak_hp": "35.64 hp",
+    "rev_to": "~11,700 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Test update 2023 Yamaha YZ125",
+    "url": "https://motocrossactionmag.com/test-update-2023-yamaha-yz125-two-stroke-trustworty-timeless-true",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Dyno type not stated."
+  },
+  {
+   "id": "2t-054",
+   "domain": "power_feel",
+   "topic": "dyno - YZ250 (MXA 2013 baseline)",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250"
+    ],
+    "years": [
+     2013
+    ]
+   },
+   "statement": "MXA's stock YZ250 made 46.85 hp at 8,700 rpm and 30.33 lb-ft at 7,600, holding over 44 hp from 7,900 to 9,100 rpm: 21.81 hp at 5,000, 30.95 at 6,000, 39.61 at 7,000, 44.32 at 8,000, 45.92 at 9,000.",
+   "values": {
+    "peak": "46.85 hp @ 8,700",
+    "torque": "30.33 lb-ft @ 7,600",
+    "5000": "21.81 hp",
+    "6000": "30.95 hp",
+    "7000": "39.61 hp",
+    "8000": "44.32 hp",
+    "9000": "45.92 hp"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Searching for the ultimate YZ250 two-stroke pipe (2013)",
+    "url": "https://motocrossactionmag.com/searching-for-the-ultimate-2013-yz250-two-stroke-exhaust-pipe-dyno-charts-test-rider-comments-ratings-by-pros-intermediates-and-novices",
+    "date": "2013"
+   },
+   "confidence": "medium",
+   "notes": "2013 model on 91-octane pump gas with Yamalube R; dyno model not stated. Engine is largely unchanged through 2026 per MXA, so this is the best published curve shape for the current engine, but not a 2020-2026 measurement."
+  },
+  {
+   "id": "2t-055",
+   "domain": "power_feel",
+   "topic": "dyno - YZ250 2026 stock and modified (VHM)",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "VHM Racing measured a stock 2026 YZ250 at 43.7 hp and 31.3 lb-ft; with a higher-compression head, CDI change and HGS exhaust it made 47.5 hp and 34.4 lb-ft (+3.8 hp, +3.1 lb-ft).",
+   "values": {
+    "stock": "43.7 hp / 31.3 lb-ft",
+    "modified": "47.5 hp / 34.4 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX - 2026 Beta 250 RX vs 2026 Yamaha YZ250 dyno tests (VHM Racing data posted by Tokyo_Tiddler)",
+    "url": "https://www.vitalmx.com/comment/9156611",
+    "date": "2026-07"
+   },
+   "confidence": "medium",
+   "notes": "Shop dyno data posted second-hand on Vital MX; dyno brand, rpm, fuel not stated. A 2026 Beta 250 RX on the same dyno (other day) made 46.2 hp stock."
+  },
+  {
+   "id": "2t-056",
+   "domain": "power_feel",
+   "topic": "dyno - 250SX 300 kit (Dick's Racing)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Dick's Racing's 300 conversion (KTM PowerParts kit, 1 mm higher port timing, head machined 1 mm, 36 mm Keihin bored to 39 mm, Scalvini pipe) made 53.2 hp, about 4.2 hp more than the stock 250SX; it was never within 2 hp of it anywhere.",
+   "values": {
+    "modified_peak": "53.2 hp",
+    "gain": "+4.2 hp"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - We ride Dick's Racing's massaged KTM 300SX",
+    "url": "https://motocrossactionmag.com/we-ride-dicks-racings-massaged-ktm-300sx-two-stroke",
+    "date": "2021-07"
+   },
+   "confidence": "medium",
+   "notes": "Carbureted 2021 base bike; dyno type not stated."
+  },
+  {
+   "id": "2t-057",
+   "domain": "power_feel",
+   "topic": "feel - 300SX TBI",
+   "applies_to": {
+    "models": [
+     "KTM 300 SX"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Testers describe smooth, linear roll-on with no bog, a strong lug-able midrange (2nd and 3rd in turns) and power that keeps building to about 8,500 rpm, but an abrupt rev limiter, most intrusive in the air or with the clutch pulled.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2023 KTM 300SX",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-ktm-300sx-two-stroke",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Paraphrased tester impressions (MXA 2023 and 2024)."
+  },
+  {
+   "id": "2t-058",
+   "domain": "power_feel",
+   "topic": "feel - 250SX TBI",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The 250SX TBI is smooth and connected off the bottom, needs more shifting than the 300 in the midrange and revs through the gears quicker, but runs flat near the top and hits the limiter early.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2024 KTM 250/300SX",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-ktm-250-300sx-two-strokes",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "2t-059",
+   "domain": "power_feel",
+   "topic": "feel - TC250 TBI and maps",
+   "applies_to": {
+    "models": [
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Dirt Bike found the TBI TC250 stronger down low than any 250 two-stroke they had tested, with a big surge at peak but little excitement on top; the aggressive map is worth more than 1 hp in parts of the curve. White map feels close to a four-stroke.",
+   "values": {
+    "map_gain": ">1 hp in parts of curve (Pro Circuit dyno)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - Riding the 2023 Husky TC250 2-stroke",
+    "url": "https://dirtbikemagazine.com/riding-the-2023-husky-tc250-2-stroke-the-wrap/",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "MotoOnline describes the same white/green map character."
+  },
+  {
+   "id": "2t-060",
+   "domain": "power_feel",
+   "topic": "feel - 125SX TBI vs carb",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The TBI 125SX rolls on smoother with less on/off hit and less clutch work than the 2022 carbureted bike, is fast in the middle and pulls hard on top but has an abrupt limiter; testers shift early.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2024 KTM 125SX",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-ktm-125sx-two-stroke",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Dirt Bike 2024 testers said the Austrian TBI 125s feel more enduro-like and respond less to clutch work."
+  },
+  {
+   "id": "2t-061",
+   "domain": "power_feel",
+   "topic": "feel - YZ125 2022-on vs 2021",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ125"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Since 2022 the YZ125 is weaker off the bottom and slower to come on the pipe than the 2021, but stronger from about 7,500 rpm to its 11,300 rpm peak; pros liked it, beginners struggled and riders clutch more out of turns.",
+   "values": {
+    "power_arrives": "~7,500 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2022 Yamaha YZ125",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-yamaha-yz125",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Dirt Bike 2024 riders still rated the YZ125 strongest in the midrange despite the dyno, crediting low flywheel effect."
+  },
+  {
+   "id": "2t-062",
+   "domain": "power_feel",
+   "topic": "feel - YZ125 vs KTM 125 crossover",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ125",
+     "KTM 125 SX"
+    ],
+    "years": [
+     2020,
+     2021
+    ]
+   },
+   "statement": "Pre-2022 YZ125s pulled harder than the KTM 125SX below about 7,800-8,000 rpm and were easier to keep on the pipe; above 8,000 the KTM was described as night-and-day faster.",
+   "values": {
+    "crossover": "7,800-8,000 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2020 KTM 125SX vs 2020 Yamaha YZ125 unshootout",
+    "url": "https://motocrossactionmag.com/mxas-2020-ktm-125sx-vs-2020-yamaha-yz125-unshootout",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "2t-063",
+   "domain": "power_feel",
+   "topic": "feel - YZ250 stock",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "In MXA's 2020 test the YZ250 made its best power higher in the rpm and did not like being lugged, needing clutch out of corners, while the KTM/Husky 250s were better low-to-mid; the YZ was slower but easier to ride.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2020 Yamaha YZ250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-yamaha-yz250",
+    "date": "2020"
+   },
+   "confidence": "medium",
+   "notes": "Conflicts with MXA's 2015/2016 shootout which called the YZ250 broad with enough low-end torque; see conflicts."
+  },
+  {
+   "id": "2t-064",
+   "domain": "power_feel",
+   "topic": "feel - YZ250 power valve stutter",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250"
+    ],
+    "years": [
+     2013
+    ]
+   },
+   "statement": "On the stock pipe, MXA riders felt a stutter when the YZ250 power valve opens and a flat spot from about 7,000 to 8,500 rpm.",
+   "values": {
+    "flat_spot": "7,000-8,500 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Searching for the ultimate YZ250 two-stroke pipe (2013)",
+    "url": "https://motocrossactionmag.com/searching-for-the-ultimate-2013-yz250-two-stroke-exhaust-pipe-dyno-charts-test-rider-comments-ratings-by-pros-intermediates-and-novices",
+    "date": "2013"
+   },
+   "confidence": "medium",
+   "notes": "Consistent with the governor 'hitch' described in US patent 9,797,275 and the community governor mods."
+  },
+  {
+   "id": "2t-065",
+   "domain": "engine_mods",
+   "topic": "pipe - DR.D NS2 on YZ250",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250"
+    ],
+    "years": [
+     2013
+    ]
+   },
+   "statement": "The DR.D NS2 pipe on a stock YZ250 made 47.44 hp @ 7,900 and 32.17 lb-ft @ 7,500 versus stock 46.85 hp; change by rpm: 5000 -1.05, 6000 +0.38, 7000 +1.94, 8000 +3.02, 9000 -3.04 hp. Strongest midrange, pulls very hard in the middle but does not want to rev; flat above ~8,000.",
+   "values": {
+    "peak": "47.44 hp @ 7,900",
+    "torque": "32.17 lb-ft @ 7,500",
+    "delta_by_rpm": "5000 -1.05, 6000 +0.38, 7000 +1.94, 8000 +3.02, 9000 -3.04 hp",
+    "above_44hp": "7,300-8,800 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Searching for the ultimate YZ250 two-stroke pipe (2013)",
+    "url": "https://motocrossactionmag.com/searching-for-the-ultimate-2013-yz250-two-stroke-exhaust-pipe-dyno-charts-test-rider-comments-ratings-by-pros-intermediates-and-novices",
+    "date": "2013"
+   },
+   "confidence": "medium",
+   "notes": "MXA 2013 test, same dyno, same day, 91 pump gas, stock silencer. Engine design carries through 2026 but pipe part numbers may differ for current frames."
+  },
+  {
+   "id": "2t-066",
+   "domain": "engine_mods",
+   "topic": "pipe - Pro Circuit Works on YZ250",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250"
+    ],
+    "years": [
+     2013
+    ]
+   },
+   "statement": "The Pro Circuit Works pipe on a stock YZ250 made 49.33 hp @ 8,600 and 31.67 lb-ft @ 7,800 versus stock 46.85 hp; change by rpm: 5000 -0.38, 6000 -0.46, 7000 +0.06, 8000 +3.46, 9000 -0.21 hp. Average or worse below ~7,600, best above: a mid-and-up pipe.",
+   "values": {
+    "peak": "49.33 hp @ 8,600",
+    "torque": "31.67 lb-ft @ 7,800",
+    "delta_by_rpm": "5000 -0.38, 6000 -0.46, 7000 +0.06, 8000 +3.46, 9000 -0.21 hp",
+    "above_44hp": "7,400-9,000 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Searching for the ultimate YZ250 two-stroke pipe (2013)",
+    "url": "https://motocrossactionmag.com/searching-for-the-ultimate-2013-yz250-two-stroke-exhaust-pipe-dyno-charts-test-rider-comments-ratings-by-pros-intermediates-and-novices",
+    "date": "2013"
+   },
+   "confidence": "medium",
+   "notes": "MXA 2013 test, same dyno, same day, 91 pump gas, stock silencer. Engine design carries through 2026 but pipe part numbers may differ for current frames."
+  },
+  {
+   "id": "2t-067",
+   "domain": "engine_mods",
+   "topic": "pipe - FMF Fatty on YZ250",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250"
+    ],
+    "years": [
+     2013
+    ]
+   },
+   "statement": "The FMF Fatty pipe on a stock YZ250 made 47.71 hp @ 8,700 and 31.90 lb-ft @ 7,800 versus stock 46.85 hp; change by rpm: 5000 -0.56, 6000 -0.26, 7000 +0.72, 8000 +3.01, 9000 -0.92 hp. Most balanced; riders wanted more top.",
+   "values": {
+    "peak": "47.71 hp @ 8,700",
+    "torque": "31.90 lb-ft @ 7,800",
+    "delta_by_rpm": "5000 -0.56, 6000 -0.26, 7000 +0.72, 8000 +3.01, 9000 -0.92 hp",
+    "above_44hp": "7,400-9,000 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Searching for the ultimate YZ250 two-stroke pipe (2013)",
+    "url": "https://motocrossactionmag.com/searching-for-the-ultimate-2013-yz250-two-stroke-exhaust-pipe-dyno-charts-test-rider-comments-ratings-by-pros-intermediates-and-novices",
+    "date": "2013"
+   },
+   "confidence": "medium",
+   "notes": "MXA 2013 test, same dyno, same day, 91 pump gas, stock silencer. Engine design carries through 2026 but pipe part numbers may differ for current frames."
+  },
+  {
+   "id": "2t-068",
+   "domain": "engine_mods",
+   "topic": "pipe - Pro Circuit on 2022 YZ125",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ125"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "A Pro Circuit Works pipe and 304 silencer took the 2022 YZ125 from 34.4 hp at 11,500 to 35.8 hp at 11,600 rpm; no change below 9,500 rpm, then faster build, broader top and more over-rev.",
+   "values": {
+    "stock": "34.4 hp @ 11,500",
+    "modified": "35.8 hp @ 11,600",
+    "gain": "+1.4 hp",
+    "pipe_price": "$292.46"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Team tested Pro Circuit 2022 YZ125 pipe and silencer",
+    "url": "https://motocrossactionmag.com/mxa-team-tested-pro-circuit-2022-yz125-pipe-silencer",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Jetting used: main 162, pilot 72, clip up, air screw 3.5 out. Pre-2022 YZ125 pipes do not fit the 2022 engine."
+  },
+  {
+   "id": "2t-069",
+   "domain": "engine_mods",
+   "topic": "YZ125 hop-up guidance (MXA)",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ125"
+    ],
+    "years": [
+     2005,
+     2021
+    ]
+   },
+   "statement": "MXA says aftermarket pipes add about 2 hp to the YZ125; porting works best combined with raised compression, which means milling the cylinder base (lowering all ports) and re-chambering the head, and usually race gas. Pro Circuit's standard pipe favors top end, its RV pipe low-mid.",
+   "values": {
+    "pipe_gain": "~2 hp"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2021 Yamaha YZ125",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2021-yamaha-yz125",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Reeds: Boyesen Rad Valve for mid-to-top, Moto Tassinari VForce4 to broaden the midrange. GYTR flywheel weights fill the powerband and extend top end."
+  },
+  {
+   "id": "2t-070",
+   "domain": "engine_mods",
+   "topic": "YZ250 DR.D pipe and Boyesen RAD valve",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250"
+    ],
+    "years": [
+     2015
+    ]
+   },
+   "statement": "MXA's 2015 YZ250 build with a DR.D pipe, Boyesen RAD power-valve cover and Power X-Wing gained bottom-end and midrange pull, letting the rider carry 3rd gear and lug corners without stalling.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Two-stroke files: we built a full-race Yamaha YZ250 (2015)",
+    "url": "https://motocrossactionmag.com/yamaha-yz250",
+    "date": "2015"
+   },
+   "confidence": "medium",
+   "notes": "No dyno numbers given."
+  },
+  {
+   "id": "2t-071",
+   "domain": "engine_mods",
+   "topic": "YZ250 big bore (L.A. Sleeve 270)",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250"
+    ],
+    "years": [
+     2007
+    ]
+   },
+   "statement": "An L.A. Sleeve 270 cc big bore (domed Wiseco piston, head milled, power valve clearanced, main jet up one size) added torque and low-to-mid power but nothing on top and gave up some peak.",
+   "values": {
+    "kit_cost": "$654.84 (2007)",
+    "main_jet": "180"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - We build an L.A. Sleeve Yamaha YZ270",
+    "url": "https://motocrossactionmag.com/we-build-an-l-a-sleeve-yamaha-yz270",
+    "date": "2007"
+   },
+   "confidence": "medium",
+   "notes": "2007 YZ250; cylinder shares the 1999-on architecture."
+  },
+  {
+   "id": "2t-072",
+   "domain": "engine_mods",
+   "topic": "YZ250 bored to 300",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Robbie Wageman's 2026 race YZ is bored from 66.4 to 72 mm (293.2 cc) on the stock 72 mm stroke with a modified three-piece power valve, reworked head and ports, V-Force 4 reeds and FMF exhaust.",
+   "values": {
+    "bore": "72 mm",
+    "displacement": "293.2 cc"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - Robbie Wageman team 2026 YZ250-based YZ300 race bike",
+    "url": "https://dirtbikemagazine.com/?p=103212",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "Race Tech dyno-tuned jetting and ignition; numbers not published."
+  },
+  {
+   "id": "2t-073",
+   "domain": "engine_mods",
+   "topic": "YZ250 governor re-time (washer mod)",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250",
+     "Yamaha YZ250X"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Owners re-time the YZ250 governor by swapping two 1.0 mm thrust washers for 0.8 mm YZ250X washers and removing one, cutting spring preload by about 1.4 mm so the valve opens earlier; it fills the off-idle dip but needs a leaner power jet (#35 reported).",
+   "values": {
+    "preload_change": "-1.4 mm",
+    "washer_pn_X": "90201-154F5-00",
+    "power_jet": "#35 (reported)"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX - Re-timing the YZ250 PV governor",
+    "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Re-timing-the-YZ250-pv-governor,1380968",
+    "date": "2020-08"
+   },
+   "confidence": "low",
+   "notes": "Spring data quoted in thread: stock YZ spring 0.640 in installed, ~18 lb preload, 40 lb at full compression; YZ250X spring 0.672 in, 19-20 lb preload, 52-53 lb."
+  },
+  {
+   "id": "2t-074",
+   "domain": "engine_mods",
+   "topic": "YZ250 aftermarket PV spring",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250",
+     "Yamaha YZ250X"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Cisco's Race Tuning sells a YZ250/YZ250X power-valve spring claimed to smooth delivery, improve low-to-mid response and reduce the hard hit.",
+   "values": {
+    "price": "$29.95"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "dealer",
+    "name": "Slavens Racing - Yamaha power valve spring by Cisco's Race Tuning",
+    "url": "https://slavensracing.com/shop/yamaha-power-valve-spring-by-ciscos-race-tuning/",
+    "date": "undated"
+   },
+   "confidence": "low",
+   "notes": "Seller claim; no rate or dyno data."
+  },
+  {
+   "id": "2t-075",
+   "domain": "engine_mods",
+   "topic": "YZ250 porting (TMR)",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250"
+    ],
+    "years": [
+     2022,
+     2023
+    ]
+   },
+   "statement": "An owner reports a Tom Morgan Racing head and port job (pump-gas spec) gave stronger midrange and top end and better part throttle, letting him use 3rd instead of 2nd in turns.",
+   "values": {
+    "fuel": "25% VP C12 / 75% 91 octane"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX - YZ250 Tom Morgan engine",
+    "url": "https://www.vitalmx.com/comment/4997521",
+    "date": "2023-03"
+   },
+   "confidence": "low",
+   "notes": "Single owner; no dyno data."
+  },
+  {
+   "id": "2t-076",
+   "domain": "engine_mods",
+   "topic": "VHM head inserts - KTM 250 TBI",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "Husqvarna TC 250",
+     "GasGas MC 250"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "VHM's head for the 250 TBI uses 1.6 mm squish with inserts of 21.40 cc (105 RON, bottom/mid), 21.80 cc (standard, 98-102 RON), 22.20 cc (98 RON, top end) and 22.60 cc (98 RON, over-rev).",
+   "values": {
+    "21.40cc": "105 RON, high compression",
+    "21.80cc": "98-102 RON, VHM standard",
+    "22.20cc": "98 RON",
+    "22.60cc": "98 RON",
+    "squish": "1.60 mm",
+    "piston_height": "+3.70 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "dealer",
+    "name": "InnTeck USA (VHM) - Insert KTM 250SX 2023-2026 21.80cc standard",
+    "url": "https://innteck-usa.com/?p=237319",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "VHM head AA33209 only; inserts do not fit OEM heads. Smaller volume = more compression = more bottom/mid, needs more octane."
+  },
+  {
+   "id": "2t-077",
+   "domain": "engine_mods",
+   "topic": "VHM head insert - KTM 300 TBI",
+   "applies_to": {
+    "models": [
+     "KTM 300 SX"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "VHM lists a 25.50 cc high-compression insert for the 300 TBI with 1.9 mm squish, sold for more bottom and mid-range.",
+   "values": {
+    "volume": "25.50 cc",
+    "squish": "1.90 mm",
+    "piston_height": "0.00 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "dealer",
+    "name": "InnTeck USA (VHM) - Insert KTM 300SX 2023-2025 25.50cc",
+    "url": "https://innteck-usa.com/?p=237325",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "VHM head AA33210."
+  },
+  {
+   "id": "2t-078",
+   "domain": "engine_mods",
+   "topic": "VHM head inserts - KTM 125 TBI",
+   "applies_to": {
+    "models": [
+     "KTM 125 SX",
+     "Husqvarna TC 125",
+     "GasGas MC 125"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "VHM's 125 TBI head uses 0.9 mm squish with inserts of 11.00 cc (105 RON, bottom/mid), 11.20 cc (105 RON), 11.40 cc (98+ RON) and 11.60 cc (98 RON, top/over-rev).",
+   "values": {
+    "11.00cc": "105 RON",
+    "11.20cc": "105 RON",
+    "11.40cc": "98+ RON",
+    "11.60cc": "98 RON",
+    "squish": "0.90 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "dealer",
+    "name": "InnTeck USA (VHM) - Insert KTM 125SX 2023-2026 11.40cc 98+ RON",
+    "url": "https://innteck-usa.com/?p=237313",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "VHM head AA33208; some inserts specify a 12-degree VHM piston."
+  },
+  {
+   "id": "2t-079",
+   "domain": "engine_mods",
+   "topic": "VHM head inserts - YZ125 2022-on",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ125"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "VHM's head for the 2022-on YZ125 uses 1.0 mm squish with an 11.40 cc standard insert and an 11.60 cc option for over-rev.",
+   "values": {
+    "standard": "11.40 cc",
+    "option": "11.60 cc",
+    "squish": "1.00 mm",
+    "piston_height": "-0.10 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "dealer",
+    "name": "InnTeck USA (VHM) - Insert Yamaha YZ125 2022-2026 11.40cc standard",
+    "url": "https://innteck-usa.com/?p=237297",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Octane not stated."
+  },
+  {
+   "id": "2t-080",
+   "domain": "engine_mods",
+   "topic": "head work on YZ250 for pump fuel",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Owners cut the YZ250 squish from about 0.075 in to about 0.045 in at 21.5 cc for pump fuel, and advise not going below about 20 cc total even on race fuel.",
+   "values": {
+    "target_squish": "0.045 in (1.14 mm)",
+    "min_volume": "20 cc"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX - 2013 YZ250 (2-stroke) head questions",
+    "url": "https://www.vitalmx.com/comment/8672966",
+    "date": "2019/2026"
+   },
+   "confidence": "low",
+   "notes": ""
+  },
+  {
+   "id": "2t-081",
+   "domain": "engine_mods",
+   "topic": "TSP high-compression head and PV cover (TBI)",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "KTM 300 SX",
+     "KTM 125 SX"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Two Stroke Performance sells a two-piece head with tighter-than-stock squish in medium (91 octane, sea level), high, and very-high (above 4,900 ft) compression, plus a larger power-valve cover claimed to add pull from 3,000 to 5,000 rpm.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "dealer",
+    "name": "Slavens Racing blog - TSP parts for TBI KTM two-strokes (Brooks Tomblin)",
+    "url": "https://slavensracing.com/?p=513258",
+    "date": "2025-02"
+   },
+   "confidence": "low",
+   "notes": "Claims without published dyno data."
+  },
+  {
+   "id": "2t-082",
+   "domain": "engine_mods",
+   "topic": "hop-up priority (tuner view)",
+   "applies_to": {
+    "models": [
+     "general"
+    ],
+    "years": []
+   },
+   "statement": "Derek Harris ranks the pipe as the single most important part, then scavenging (keeping the charge in the cylinder), then matching pipe to ignition curve and compression; carburetor and case work matter less.",
+   "values": {
+    "125_without_pipe": "~15-16 hp (his figure)",
+    "best_effort_250": "~55-57 hp SX / 60 hp outdoors"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX - Hierarchy of two-stroke hop-ups (Derek Harris reply)",
+    "url": "https://www.vitalmx.com/comment/3127417",
+    "date": "2018-02"
+   },
+   "confidence": "low",
+   "notes": "Forum post by a known engine builder; figures are his estimates."
+  },
+  {
+   "id": "2t-083",
+   "domain": "engine_mods",
+   "topic": "principle - port open time",
+   "applies_to": {
+    "models": [
+     "general"
+    ],
+    "years": []
+   },
+   "statement": "A port open for a fixed number of crank degrees is open for less time as rpm rises: time = degrees / (6 x rpm). A 190-degree exhaust port is open 3.7 ms at 8,600 rpm but 7.9 ms at 4,000 rpm, which is why a tall port suits high rpm and wastes charge at low rpm.",
+   "values": {
+    "190deg_at_8600": "3.68 ms",
+    "190deg_at_4000": "7.92 ms"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle World - Tuned exhaust for the two-stroke (Gordon H. Jennings)",
+    "url": "https://issues.cycleworld.com/article/1964/11/1/tuned-exhaust-for-the-two-stroke",
+    "date": "1964-11"
+   },
+   "confidence": "high",
+   "notes": "t = theta/(6N): 190/(6*8600) = 0.00368 s; 190/(6*4000) = 0.00792 s. Formula from Jennings 1964. 190 deg is an illustrative duration, not a measured figure for any bike here."
+  },
+  {
+   "id": "2t-084",
+   "domain": "engine_mods",
+   "topic": "principle - port time-area targets",
+   "applies_to": {
+    "models": [
+     "general"
+    ],
+    "years": []
+   },
+   "statement": "Jennings' handbook sizes ports by time-area (port area x open time per cc of swept volume): about 0.00014-0.00015 s-cm2/cm3 for exhaust, 0.00008-0.00010 for transfers and 0.00014-0.00016 for piston-port intake. Motocross engines run less exhaust and more transfer time-area than road racers for smoother power.",
+   "values": {
+    "exhaust": "0.00014-0.00015",
+    "transfer": "0.00008-0.00010",
+    "intake_piston_port": "0.00014-0.00016"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "forum",
+    "name": "Ring Ding Riders blog - Analysis of the port timing section from Jennings' Two-Stroke Tuner's Handbook",
+    "url": "https://ringdingriders.blogspot.com/2025/02/analysis-of-port-timing-section-from.html",
+    "date": "2025-02"
+   },
+   "confidence": "medium",
+   "notes": "Second-hand summary of Gordon Jennings, Two-Stroke Tuner's Handbook (1973). Specific time-area = mean port area x (degrees/(6N)) / swept volume."
+  },
+  {
+   "id": "2t-085",
+   "domain": "engine_mods",
+   "topic": "principle - raise vs widen the exhaust port",
+   "applies_to": {
+    "models": [
+     "general"
+    ],
+    "years": []
+   },
+   "statement": "Raising the exhaust port opens it earlier, adding duration and time-area: peak power moves up the rpm range but the band narrows and bottom end is lost. Widening adds area without adding duration, so it gains top end while keeping the band broader.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "forum",
+    "name": "Ring Ding Riders blog - Analysis of the port timing section from Jennings' Two-Stroke Tuner's Handbook",
+    "url": "https://ringdingriders.blogspot.com/2025/02/analysis-of-port-timing-section-from.html",
+    "date": "2025-02"
+   },
+   "confidence": "medium",
+   "notes": "Jennings via summary; dt125r tuner thread (Calum) also notes raising the barrel lowers trapped compression and changes every port's timing, so it needs head and ignition rework. Yamaha's YZ250X (+0.5 mm exhaust plus lower compression) gains over-rev and loses hit."
+  },
+  {
+   "id": "2t-086",
+   "domain": "engine_mods",
+   "topic": "principle - blowdown",
+   "applies_to": {
+    "models": [
+     "general"
+    ],
+    "years": []
+   },
+   "statement": "Blowdown is the crank angle between the exhaust opening and the transfers opening; it lets cylinder pressure fall before fresh charge enters. Because port timings are symmetric about BDC, exhaust duration = transfer duration + 2 x blowdown.",
+   "values": {
+    "example": "exhaust 90 deg ATDC, transfers 115 deg ATDC = 25 deg blowdown"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "forum",
+    "name": "Marty's Garage - Two-stroke port duration reference",
+    "url": "https://martysgarage.info/reference/two-stroke-port-duration/",
+    "date": "undated"
+   },
+   "confidence": "medium",
+   "notes": "Identity follows from symmetric piston-port timing. Marty's Garage table (moped-oriented) suggests about 19 deg blowdown at 6,000 rpm rising to 32 deg at 10,000; KDX200 example: exhaust 188, transfers 126, blowdown 32 deg. Treat the rpm table as rough guidance, not MX data."
+  },
+  {
+   "id": "2t-087",
+   "domain": "engine_mods",
+   "topic": "principle - what a power valve does",
+   "applies_to": {
+    "models": [
+     "general"
+    ],
+    "years": []
+   },
+   "statement": "A fixed exhaust port height only works over a narrow rpm range. The power valve lowers the effective port top at low rpm (shorter duration, more trapped compression, pipe working better) and raises it at high rpm (more duration and time-area), widening the usable band.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "calculation",
+    "name": "Wikipedia - Two-stroke power valve system",
+    "url": "https://en.wikipedia.org/wiki/Two-stroke_power_valve_system",
+    "date": "accessed 2026-10"
+   },
+   "confidence": "medium",
+   "notes": "Yamaha's SAE paper 810922 (1981) says varying exhaust timing with speed raised output by improving delivery ratio and trapping efficiency. Historical YPVS example (RD350 street bike): about 180 deg closed below 6,000 rpm to 200 deg fully open by 8,000 rpm (rd350lc.net, citing the service manual)."
+  },
+  {
+   "id": "2t-088",
+   "domain": "engine_mods",
+   "topic": "principle - power valve opening rpm and feel",
+   "applies_to": {
+    "models": [
+     "general"
+    ],
+    "years": []
+   },
+   "statement": "Opening the valve earlier smooths the hit and fills the low-mid dip but can lose some punch; opening it later or snapping it open faster makes a harder, more aggressive hit and more top end.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Ask the MXperts: fine-tuning the KTM 250SX two-stroke",
+    "url": "https://motocrossactionmag.com/ask-the-mxperts-fine-tuning-the-ktm-250sx-two-stroke",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": "Supported by KTM spring/preload guidance (MXA, ADB), YZ250X governor setting (MXA) and YZ250 governor mods (Vital)."
+  },
+  {
+   "id": "2t-089",
+   "domain": "engine_mods",
+   "topic": "principle - expansion chamber waves",
+   "applies_to": {
+    "models": [
+     "general"
+    ],
+    "years": []
+   },
+   "statement": "The pipe's diverging cone sends a suction wave back that pulls exhaust out and draws fresh charge through the transfers; the converging (baffle) cone then sends a pressure wave that pushes escaping charge back in before the port closes. Both waves only arrive at the right time in a band of rpm.",
+   "values": {
+    "wave_speed_hot": "~3,500 ft/s near port",
+    "wave_speed_main": "~1,700 ft/s"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle World - Tuned exhaust for the two-stroke (Gordon H. Jennings)",
+    "url": "https://issues.cycleworld.com/article/1964/11/1/tuned-exhaust-for-the-two-stroke",
+    "date": "1964-11"
+   },
+   "confidence": "high",
+   "notes": "Gordon Jennings, Cycle World 1964."
+  },
+  {
+   "id": "2t-090",
+   "domain": "engine_mods",
+   "topic": "principle - pipe length vs rpm",
+   "applies_to": {
+    "models": [
+     "general"
+    ],
+    "years": []
+   },
+   "statement": "Wave travel time is fixed by length and gas temperature, so the tuned rpm moves inversely with pipe length: shortening the tuned length about 4.4% moves the tuned rpm from 8,600 to about 9,000 rpm.",
+   "values": {
+    "length_change_for_8600_to_9000": "-4.4%"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX engineering calculation",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "medium",
+   "notes": "L = Vs x t / 2 with t = theta/(6N) (Jennings 1964), so L is proportional to 1/N at fixed wave speed and crank angle: 8,600/9,000 = 0.956, i.e. 4.4% shorter."
+  },
+  {
+   "id": "2t-091",
+   "domain": "engine_mods",
+   "topic": "principle - pipe temperature",
+   "applies_to": {
+    "models": [
+     "general"
+    ],
+    "years": []
+   },
+   "statement": "Hotter exhaust gas raises wave speed, so the same pipe tunes to a higher rpm: going from about 500 to 600 deg C raises wave speed about 6%, shifting the tuned rpm roughly 6% higher. Leaner jetting, retarded ignition and smaller stingers run the pipe hotter.",
+   "values": {
+    "wave_speed_change_500_to_600C": "+6.3%"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "forum",
+    "name": "Moped Army wiki - Expansion chamber",
+    "url": "https://www.mopedarmy.com/wiki/Expansion_chamber",
+    "date": "undated"
+   },
+   "confidence": "medium",
+   "notes": "Speed of sound proportional to sqrt(T_abs): sqrt(873/773) = 1.063. Moped Army wiki lists heat wrap, smaller stinger and later ignition as ways to raise temperature and water injection as lowering it."
+  },
+  {
+   "id": "2t-092",
+   "domain": "engine_mods",
+   "topic": "principle - pipe section jobs",
+   "applies_to": {
+    "models": [
+     "general"
+    ],
+    "years": []
+   },
+   "statement": "Header holds wave energy during blowdown; the diffuser (about 6-12 degrees) makes the suction wave; the belly diameter trades scavenging suction against port-plugging; the baffle cone makes the plugging wave; the stinger's inside diameter sets chamber pressure. Gentler cones broaden the band but lower the peak.",
+   "values": {
+    "diffuser_angle": "6-12 deg"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "forum",
+    "name": "Moped Army wiki - Expansion chamber",
+    "url": "https://www.mopedarmy.com/wiki/Expansion_chamber",
+    "date": "undated"
+   },
+   "confidence": "medium",
+   "notes": "Matches MXA's YZ250 pipe test: different shapes on the same engine moved gains between 7,000 and 9,000 rpm by up to 3 hp either way."
+  },
+  {
+   "id": "2t-093",
+   "domain": "engine_mods",
+   "topic": "principle - squish clearance",
+   "applies_to": {
+    "models": [
+     "general"
+    ],
+    "years": []
+   },
+   "statement": "Squish effectiveness falls off above about 1.2-1.25 mm; builders target roughly 0.8-1.0 mm on small bores, with the band angle about 1 degree steeper than the piston crown. Tighter squish and higher compression need more octane.",
+   "values": {
+    "effective_below": "~1.2 mm",
+    "typical_target": "0.8-1.0 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "forum",
+    "name": "KDXRider.net - Modifying heads for proper squish height, squish area/velocity and dome cc (Chuck78)",
+    "url": "https://kdxrider.net/forums/viewtopic.php?p=225305",
+    "date": "undated"
+   },
+   "confidence": "medium",
+   "notes": "Forum author Chuck78 (KDXRider). VHM uses 0.9 mm on the KTM 125 and 1.0 mm on the YZ125, but 1.6 mm (250) and 1.9 mm (300) on larger bores."
+  },
+  {
+   "id": "2t-094",
+   "domain": "engine_mods",
+   "topic": "principle - compression vs insert volume",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "Husqvarna TC 250",
+     "GasGas MC 250"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "On the VHM 250 TBI head, going from the 22.6 cc to the 21.4 cc insert raises full-stroke compression by roughly 0.6 of a ratio point, which is why the smaller insert calls for 105 RON fuel.",
+   "values": {
+    "geometric_CR_21.4cc": "~12.6:1",
+    "geometric_CR_22.6cc": "~12.0:1"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX engineering calculation",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "low",
+   "notes": "CR = (249 + Vc)/Vc: (249+21.4)/21.4 = 12.64; (249+22.6)/22.6 = 12.02. Assumes VHM insert volume is the whole clearance volume, which it may not be (squish gap and gasket not included), so absolute ratios are indicative only. Trapped (exhaust-closed) compression is much lower and needs port height, which is unpublished."
+  },
+  {
+   "id": "2t-095",
+   "domain": "engine_architecture",
+   "topic": "bore/stroke ratio and piston speed",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "Yamaha YZ250",
+     "KTM 300 SX",
+     "KTM 125 SX",
+     "Yamaha YZ125"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 250s are undersquare (66.4/72 = 0.92), the 300 is square (1.00) and the 125s are near square (0.99). At their measured peaks, all run about 20.4-20.9 m/s mean piston speed: 250SX 20.6 m/s at 8,600, YZ250 20.9 at 8,700, 300SX 20.4 at 8,500, KTM 125 20.3 at 11,200, YZ125 20.5 at 11,300 rpm.",
+   "values": {
+    "250_ratio": "0.922",
+    "300_ratio": "1.000",
+    "125_ratio": "0.991",
+    "150_ratio": "1.064",
+    "250SX_8600": "20.64 m/s",
+    "YZ250_8700": "20.88 m/s",
+    "300SX_8500": "20.40 m/s",
+    "125SX_11200": "20.35 m/s",
+    "YZ125_11300": "20.53 m/s"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX engineering calculation",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "high",
+   "notes": "Mean piston speed = 2 x stroke(mm) x rpm / 60000. Peak rpm from MXA dynos (2024 250SX, 2013 YZ250, 2023 300SX, 2021 KTM 125SX, 2022 YZ125). Similar piston speeds at peak suggest both brands tune ports/pipes to similar gas-flow limits; the 125s peak higher purely because of their shorter stroke."
+  },
+  {
+   "id": "2t-096",
+   "domain": "engine_mods",
+   "topic": "principle - KTM preload span",
+   "applies_to": {
+    "models": [
+     "KTM 250 SX",
+     "Husqvarna TC 250",
+     "GasGas MC 250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "With about 150 rpm per turn and six turns of range, the KTM mechanical power-valve preload screw can move the opening point by roughly 900 rpm in total.",
+   "values": {
+    "span": "~900 rpm"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX engineering calculation",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "low",
+   "notes": "6 turns x 150 rpm/turn = 900 rpm (MXA/ADB inputs). Assumes the 150 rpm/turn rate is linear across the whole range, which no source confirms."
+  },
+  {
+   "id": "2t-097",
+   "domain": "engine_mods",
+   "topic": "principle - flywheel inertia",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ125"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "More flywheel inertia smooths delivery and helps traction but slows how fast the engine revs; Yamaha added 21% flywheel inertia to the 2022 YZ125 to match its higher output, and tuners use GYTR flywheel weights to fill the powerband.",
+   "values": {
+    "flywheel_inertia_2022": "+21%"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2021 Yamaha YZ125",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2021-yamaha-yz125",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Dirt Bike credits the YZ125's quick-revving midrange feel to low flywheel effect."
+  },
+  {
+   "id": "2t-098",
+   "domain": "engine_mods",
+   "topic": "principle - ignition timing and power valve on feel (Yamaha example)",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250X"
+    ],
+    "years": [
+     2016,
+     2017,
+     2018,
+     2019,
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "Yamaha's own softening recipe for the YZ250X combines mid-to-high rpm ignition retard, earlier power-valve opening and lower compression; the result is a milder hit and broader pull with the same peak, showing how these three levers interact.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Ask the MXperts: the X factor versus the non-X factor",
+    "url": "https://motocrossactionmag.com/ask-the-mxperts-the-x-factor-versus-the-non-x-factor",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": "Interpretation of Yamaha's documented changes; see 2t record on YZ250 vs YZ250X."
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "KTM 125 SX TBI throttle body size",
+   "values": [
+    "39 mm (KTM via MXA, Dirt Bike, Ultimate Motorcycling, MCNews)",
+    "44 mm (Dirt Rider spec table)"
+   ],
+   "spread": "5 mm",
+   "note": "39 mm is consistent across four sources and KTM's 250 SX spec; 44 mm is probably a Dirt Rider error."
+  },
+  {
+   "topic": "KTM 300 SX peak power",
+   "values": [
+    "55.0 hp @ 8,500 (MXA 2023, map 2)",
+    "~55 hp @ 8,500 (MXA 2024)",
+    "48.8 hp @ 8,100 (Dirt Rider Dynojet 250i, 2023)",
+    "49.1 hp (Dirt Rider, 2025)",
+    ">57 hp (KTM claim, basis unstated)"
+   ],
+   "spread": "48.8-57 hp",
+   "note": "Different dynos and correction methods; compare only within one source."
+  },
+  {
+   "topic": "Husqvarna TC 250 TBI peak power",
+   "values": [
+    "52.12 hp @ 8,600 (MXA 2023)",
+    "43.0 hp (Dirt Rider 2025, Dynojet 250i)"
+   ],
+   "spread": "9.1 hp",
+   "note": "Different dynos and years."
+  },
+  {
+   "topic": "KTM 125 SX peak power",
+   "values": [
+    "38.5 hp (MXA 2022 shootout, carb)",
+    "37.52 hp (MXA 2022 YZ125 test)",
+    "38.2 hp (MXA 2022 carb, quoted in 2024 test)",
+    "37.2 hp (MXA 2024 TBI)",
+    "35.94 hp (Dirt Bike/Pro Circuit 2024)",
+    "30.9 hp (Dirt Rider Dynojet 250i)",
+    "37.50 hp (MXA 2020, 2021)"
+   ],
+   "spread": "30.9-38.5 hp",
+   "note": "Dirt Rider's Dynojet reads far lower than MXA and Pro Circuit."
+  },
+  {
+   "topic": "YZ125 2022-on peak power",
+   "values": [
+    "34.44 hp @ 11,300 (MXA race test)",
+    "34.4 hp @ 11,500 (MXA PC pipe test)",
+    "35.9 hp @ 11,600 (MXA shootout)",
+    "35.64 hp (MXA 2023)",
+    "35.78 hp @ 11,670 (Dirt Bike 2024)"
+   ],
+   "spread": "34.4-35.9 hp",
+   "note": "Same model across tests; unit-to-unit, jetting and weather variation."
+  },
+  {
+   "topic": "YZ250 stock peak power",
+   "values": [
+    "46.85 hp @ 8,700 (MXA, 2013 model)",
+    "48.64 hp (MXA later baseline, same article)",
+    "43.7 hp (VHM shop dyno, 2026 model)"
+   ],
+   "spread": "43.7-48.64 hp",
+   "note": "Different dynos, years and baselines."
+  },
+  {
+   "topic": "KTM preload screw direction",
+   "values": [
+    "One turn out = opens 150 rpm sooner = smoother (MXA 'This much we know', ADB)",
+    "Counterclockwise = more hit and top end; clockwise = smoother and broader low end (MXA Ask the MXperts, MXA Kreft test)"
+   ],
+   "spread": "opposite effect stated",
+   "note": "Unresolved; BAK should tell riders to count turns from a known stop and test one direction at a time."
+  },
+  {
+   "topic": "YZ250 low-end character",
+   "values": [
+    "Best power higher, doesn't like lugging, KTM/Husky better low-mid (MXA 2020 race test)",
+    "Power across the curve with enough low-end torque (MXA 2015/2016 shootout)",
+    "Strong low-to-mid with a flat spot 7,000-8,500 (MXA 2013 pipe test riders)"
+   ],
+   "spread": "qualitative",
+   "note": "Depends on comparison bikes (carbureted vs earlier KTM) and test track."
+  },
+  {
+   "topic": "KTM TBI ECU supplier",
+   "values": [
+    "Vitesco Technologies (Dirt Bike, MXA first look)",
+    "Keihin EMS (MXA first look, KTM spec)",
+    "Continental (MXA 2023 300SX test)"
+   ],
+   "spread": "naming",
+   "note": "Vitesco was Continental's powertrain spin-off; Keihin supplies the throttle body/EFI hardware."
+  },
+  {
+   "topic": "YZ125 2022 power valve actuation",
+   "values": [
+    "'electric exhaust valve' (Motorionline)",
+    "mechanical YPVS, no rider adjustment (MXA 2022 shootout lists no adjustable PV on the Yamaha; Yamaha describes YPVS without servo)"
+   ],
+   "spread": "description",
+   "note": "Motorionline wording likely a translation error; not confirmed by Yamaha text found."
+  },
+  {
+   "topic": "2020 YZ125 peak power within one article",
+   "values": [
+    "34.50 hp",
+    "34.84 hp"
+   ],
+   "spread": "0.34 hp",
+   "note": "MXA 2020 unshootout prints both."
+  }
+ ],
+ "not_found": [
+  {
+   "item": "Stock exhaust and transfer port timing (degrees) or port heights for KTM/Husqvarna/GasGas 125/150/250/300 (carb or TBI) and Yamaha YZ125/YZ250 2020-2026",
+   "searched": "WebSearch standard and extended for KTM 250 SX / YZ250 / YZ125 port timing, exhaust duration, port height from deck; Vital MX, ThumperTalk, Kiwibiker ESE thread, moped/chainsaw porting sites",
+   "result": "No published or measured figures found. Two ThumperTalk threads ('YZ250 port timing', 'YZ250 timing thread', 'Port timing or cylinder measurements on YZ125') returned fetch errors. A Vital MX post computed 120/180 deg for a 2015 TC250 from an assumed port height, not a measurement, so it was not recorded."
+  },
+  {
+   "item": "Port layout (number of transfer ports, boost ports, bridged exhaust, auxiliary exhaust ports) for these engines",
+   "searched": "Manufacturer pages, press releases, magazine first looks",
+   "result": "Not published; Yamaha only says 2022 YZ125 transfers are bigger, lower, wider."
+  },
+  {
+   "item": "Connecting rod lengths",
+   "searched": "YZ125 2022 (+8 mm known), KTM 250/300 rod length",
+   "result": "Search budget ran out before this was found; absolute lengths not recorded."
+  },
+  {
+   "item": "KTM TBI electronic power-valve opening map (rpm vs position) and ignition advance curves",
+   "searched": "MXA, ADB, Vital MX deep-dive thread, Twisted Development and TSP tests",
+   "result": "Not published; only map 1 ~80% / map 2 100% opening reported by MXA."
+  },
+  {
+   "item": "KTM compression ratio and OEM head volumes",
+   "searched": "KTM spec pages, Dirt Rider spec tables (list N/A), KTM Infodesk manual",
+   "result": "KTM does not publish; owner's/repair manuals not accessible as text."
+  },
+  {
+   "item": "How Yamaha measures its two compression figures (e.g. 8.9-10.6:1)",
+   "searched": "Yamaha spec pages, extended search",
+   "result": "Not explained by Yamaha; MXA uses the low figure. Not reconcilable with community head volumes using simple trapped-volume math, so no DERIVED port height was produced."
+  },
+  {
+   "item": "Reed block details for KTM TBI (petal material, stages) and YZ125 V-Force spec",
+   "searched": "First-look articles",
+   "result": "Only 'new reed case' (KTM) and 'V-Force reed' (YZ125) / 'carbon fibre petals' (YZ250) found."
+  },
+  {
+   "item": "Exhaust pipe dimensions (header length, cone angles, belly diameter) for any of these bikes",
+   "searched": "OEM and magazine pages",
+   "result": "Not published beyond 'narrower belly' (YZ125 2022) and YZ250X pipe 35 mm narrower."
+  },
+  {
+   "item": "Magazine dyno numbers for 2020-2026 YZ250 and for GasGas MC 250",
+   "searched": "MXA, Dirt Rider, Dirt Bike dyno pages",
+   "result": "Only VHM shop dyno (2026) and MXA 2013 baseline found; MXA 2025 YZ250 is a video page without numbers."
+  },
+  {
+   "item": "Before/after dyno for porting jobs on these exact engines",
+   "searched": "MXA builds, Vital builds, tuner pages",
+   "result": "Only Dick's Racing 300 kit (53.2 hp, +4.2) and VHM head/CDI/pipe on 2026 YZ250 (+3.8 hp). Tuners (Twisted, TSP, TMR, Pro Circuit) publish no numbers."
+  },
+  {
+   "item": "KTM 150 SX TBI (2025) existence and specs",
+   "searched": "Mentioned by a 2026 Vital MX owner post",
+   "result": "Not verified; no record created."
+  },
+  {
+   "item": "Cycle News 2024 KTM 250 SX two-stroke comparison and open-class two-stroke showdown",
+   "searched": "magazine.cyclenews.com issue pages",
+   "result": "Fetch returned only issue metadata, no article text."
+  },
+  {
+   "item": "Search budget",
+   "searched": "",
+   "result": "The shared WebSearch limit was reached late in the task; remaining gaps (rod lengths, more port-timing sources) need a follow-up session."
+  }
+ ],
+ "sources": [
+  {
+   "type": "magazine",
+   "name": "Motocross Action - First look 2023 KTM fuel-injected two-strokes",
+   "url": "https://motocrossactionmag.com/all-new-2023-ktm-fuel-injected-two-stroke-sx-models/",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Race test 2024 KTM 250/300SX",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-ktm-250-300sx-two-strokes",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Motorcycle.com - 2022 KTM SX 150 specifications",
+   "url": "https://www.motorcycle.com/specs/ktm/off-road/2022/sx/150/detail.html",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "MCNews - 2023 KTM SX two-strokes",
+   "url": "https://mcnews.com.au/?p=382397",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Race test 2023 KTM 300SX",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2023-ktm-300sx-two-stroke",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Ultimate Motorcycling - 2024 KTM XC-W lineup first look",
+   "url": "https://ultimatemotorcycling.com/2023/05/26/2024-ktm-xc-w-lineup-first-look-20-fast-facts-41-photos/",
+   "date": "2023-05"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Race test 2024 KTM 125SX",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2024-ktm-125sx-two-stroke",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "ADB Magazine - How to reset a KTM TBI power valve",
+   "url": "https://adbmag.com.au/editorial/how-to-reset-a-ktm-tbi-power-valve/",
+   "date": "undated"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX - Feedback on new fuel-injected KTM two-strokes?",
+   "url": "https://www.vitalmx.com/comment/8773196",
+   "date": "2024/2026"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - This much we know: making the most of the power valve on your KTM 250/300",
+   "url": "https://motocrossactionmag.com/this-much-we-know-making-the-most-of-the-power-valve-on-your-ktm-250300-two-stroke",
+   "date": "2017"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Ask the MXperts: fine-tuning the KTM 250SX two-stroke",
+   "url": "https://motocrossactionmag.com/ask-the-mxperts-fine-tuning-the-ktm-250sx-two-stroke",
+   "date": "2019"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX - 2015 SX250/TC250 suggested mods",
+   "url": "https://www.vitalmx.com/comment/3526228",
+   "date": "2019"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Team tested Kreft PowerDial power valve adjuster",
+   "url": "https://motocrossactionmag.com/mxa-team-tested-kreft-powerdial-2-0-power-valve-adjuster",
+   "date": "undated"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX - 2019 KTM 150SX questions",
+   "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/2019-KTM-150sx-questions,1375227",
+   "date": "2020"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Team tested Twisted Development KTM 250/300 remapped ECU",
+   "url": "https://motocrossactionmag.com/mxa-team-tested-tds-ktm-250-300-remapped-ecu",
+   "date": "2024"
+  },
+  {
+   "type": "dealer",
+   "name": "Slavens Racing blog - TSP parts for TBI KTM two-strokes (Brooks Tomblin)",
+   "url": "https://slavensracing.com/?p=513258",
+   "date": "2025-02"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX - 2023 KTM 125SX deep dive: EFI, tune, mods",
+   "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/2023-KTM-125SX-deep-dive-EFI-tune-mods-exploring-the-tech,1408609",
+   "date": "2022-11"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Yamaha Motor USA - 2024 YZ250 50th Anniversary specifications",
+   "url": "https://www.yamahamotorsports.com/models/yz250-50th-anniversary-edition/specs",
+   "date": "2023"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Yamaha Motor USA - 2023 YZ125 specifications",
+   "url": "https://yamahamotorsports.com/models/23-yz125/specs",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Race test 2022 Yamaha YZ125",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-yamaha-yz125",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21 - First look: Yamaha's new 2022 YZ range (YZ125)",
+   "url": "https://enduro21.com/en/news/first-look-yamaha-s-new-2022-yz-range-goes-big-on-the-two-stroke-125",
+   "date": "2021-07"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News - 2022 Yamaha YZ125 review",
+   "url": "https://www.cyclenews.com/2022/01/article/2022-yamaha-yz125-review/",
+   "date": "2022-01"
+  },
+  {
+   "type": "manufacturer",
+   "name": "US Patent 9,797,275 B1 - Motorcycle engine power valve control upgrade kit (Timothy B. King)",
+   "url": "https://patents.google.com/patent/US9797275",
+   "date": "2017-10"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Yamaha Motor USA - 2024 YZ250 50th Anniversary features",
+   "url": "https://www.yamahamotorsports.com/models/yz250-50th-anniversary-edition/features",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Video: 2025 Yamaha YZ250 two-stroke test",
+   "url": "https://motocrossactionmag.com/mxa-video-2025-yamaha-yz250-two-stroke-test",
+   "date": "2025"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX - 2013 YZ250 (2-stroke) head questions",
+   "url": "https://www.vitalmx.com/comment/8672966",
+   "date": "2019/2026"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Ask the MXperts: the X factor versus the non-X factor",
+   "url": "https://motocrossactionmag.com/ask-the-mxperts-the-x-factor-versus-the-non-x-factor",
+   "date": "2016"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider - How much power does the 2023 KTM 300 SX make? (Andrew Oldar)",
+   "url": "https://dirtrider.com/tests/ktm-300-sx-dyno-test-2023",
+   "date": "2023-10"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider - How much power does the 2025 KTM 300 SX make? (Andrew Oldar)",
+   "url": "https://dirtrider.com/tests/ktm-300-sx-dyno-test-2025",
+   "date": "2024-09"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider - How much power does the 2025 Husqvarna TC 250 Heritage make? (Andrew Oldar)",
+   "url": "https://dirtrider.com/tests/husqvarna-tc-250-dyno-test-2025",
+   "date": "2025-02"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider - KTM 125 SX dyno test (Andrew Oldar)",
+   "url": "https://dirtrider.com/tests/ktm-125-sx-dyno-test-2023",
+   "date": "2023-09"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike - 125 2-strokes on the dyno (Pro Circuit dyno)",
+   "url": "https://dirtbikemagazine.com/125-2-strokes-on-the-dyno-the-wrap/",
+   "date": "2024-02"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - 2022 125 two-stroke shootout",
+   "url": "https://motocrossactionmag.com/the-must-read-motocross-action-2022-125-two-stroke-shootout",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Race test 2021 Yamaha YZ125",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2021-yamaha-yz125",
+   "date": "2021"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - 2020 KTM 125SX vs 2020 Yamaha YZ125 unshootout",
+   "url": "https://motocrossactionmag.com/mxas-2020-ktm-125sx-vs-2020-yamaha-yz125-unshootout",
+   "date": "2020"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Test update 2023 Yamaha YZ125",
+   "url": "https://motocrossactionmag.com/test-update-2023-yamaha-yz125-two-stroke-trustworty-timeless-true",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Searching for the ultimate YZ250 two-stroke pipe (2013)",
+   "url": "https://motocrossactionmag.com/searching-for-the-ultimate-2013-yz250-two-stroke-exhaust-pipe-dyno-charts-test-rider-comments-ratings-by-pros-intermediates-and-novices",
+   "date": "2013"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX - 2026 Beta 250 RX vs 2026 Yamaha YZ250 dyno tests (VHM Racing data posted by Tokyo_Tiddler)",
+   "url": "https://www.vitalmx.com/comment/9156611",
+   "date": "2026-07"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - We ride Dick's Racing's massaged KTM 300SX",
+   "url": "https://motocrossactionmag.com/we-ride-dicks-racings-massaged-ktm-300sx-two-stroke",
+   "date": "2021-07"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike - Riding the 2023 Husky TC250 2-stroke",
+   "url": "https://dirtbikemagazine.com/riding-the-2023-husky-tc250-2-stroke-the-wrap/",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Race test 2020 Yamaha YZ250",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-yamaha-yz250",
+   "date": "2020"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Team tested Pro Circuit 2022 YZ125 pipe and silencer",
+   "url": "https://motocrossactionmag.com/mxa-team-tested-pro-circuit-2022-yz125-pipe-silencer",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Two-stroke files: we built a full-race Yamaha YZ250 (2015)",
+   "url": "https://motocrossactionmag.com/yamaha-yz250",
+   "date": "2015"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - We build an L.A. Sleeve Yamaha YZ270",
+   "url": "https://motocrossactionmag.com/we-build-an-l-a-sleeve-yamaha-yz270",
+   "date": "2007"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike - Robbie Wageman team 2026 YZ250-based YZ300 race bike",
+   "url": "https://dirtbikemagazine.com/?p=103212",
+   "date": "2026"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX - Re-timing the YZ250 PV governor",
+   "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Re-timing-the-YZ250-pv-governor,1380968",
+   "date": "2020-08"
+  },
+  {
+   "type": "dealer",
+   "name": "Slavens Racing - Yamaha power valve spring by Cisco's Race Tuning",
+   "url": "https://slavensracing.com/shop/yamaha-power-valve-spring-by-ciscos-race-tuning/",
+   "date": "undated"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX - YZ250 Tom Morgan engine",
+   "url": "https://www.vitalmx.com/comment/4997521",
+   "date": "2023-03"
+  },
+  {
+   "type": "dealer",
+   "name": "InnTeck USA (VHM) - Insert KTM 250SX 2023-2026 21.80cc standard",
+   "url": "https://innteck-usa.com/?p=237319",
+   "date": "2025"
+  },
+  {
+   "type": "dealer",
+   "name": "InnTeck USA (VHM) - Insert KTM 300SX 2023-2025 25.50cc",
+   "url": "https://innteck-usa.com/?p=237325",
+   "date": "2025"
+  },
+  {
+   "type": "dealer",
+   "name": "InnTeck USA (VHM) - Insert KTM 125SX 2023-2026 11.40cc 98+ RON",
+   "url": "https://innteck-usa.com/?p=237313",
+   "date": "2025"
+  },
+  {
+   "type": "dealer",
+   "name": "InnTeck USA (VHM) - Insert Yamaha YZ125 2022-2026 11.40cc standard",
+   "url": "https://innteck-usa.com/?p=237297",
+   "date": "2025"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX - Hierarchy of two-stroke hop-ups (Derek Harris reply)",
+   "url": "https://www.vitalmx.com/comment/3127417",
+   "date": "2018-02"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle World - Tuned exhaust for the two-stroke (Gordon H. Jennings)",
+   "url": "https://issues.cycleworld.com/article/1964/11/1/tuned-exhaust-for-the-two-stroke",
+   "date": "1964-11"
+  },
+  {
+   "type": "forum",
+   "name": "Ring Ding Riders blog - Analysis of the port timing section from Jennings' Two-Stroke Tuner's Handbook",
+   "url": "https://ringdingriders.blogspot.com/2025/02/analysis-of-port-timing-section-from.html",
+   "date": "2025-02"
+  },
+  {
+   "type": "forum",
+   "name": "Marty's Garage - Two-stroke port duration reference",
+   "url": "https://martysgarage.info/reference/two-stroke-port-duration/",
+   "date": "undated"
+  },
+  {
+   "type": "calculation",
+   "name": "Wikipedia - Two-stroke power valve system",
+   "url": "https://en.wikipedia.org/wiki/Two-stroke_power_valve_system",
+   "date": "accessed 2026-10"
+  },
+  {
+   "type": "calculation",
+   "name": "BAK MX engineering calculation",
+   "url": "",
+   "date": "2026-10"
+  },
+  {
+   "type": "forum",
+   "name": "Moped Army wiki - Expansion chamber",
+   "url": "https://www.mopedarmy.com/wiki/Expansion_chamber",
+   "date": "undated"
+  },
+  {
+   "type": "forum",
+   "name": "KDXRider.net - Modifying heads for proper squish height, squish area/velocity and dome cc (Chuck78)",
+   "url": "https://kdxrider.net/forums/viewtopic.php?p=225305",
+   "date": "undated"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM - 2023 KTM 250 SX technical specifications",
+   "url": "https://www.ktm.com/en-ca/models/motocross/2-stroke/ktm-250-sx-2023/technical-specifications.html",
+   "date": "2022"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM - 2026 KTM 250 SX model page",
+   "url": "https://www.ktm.com/en-au/models/motocross/2-stroke/2026-ktm-250-sx.html",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike - KTM's 2023 two-strokes: big changes",
+   "url": "https://dirtbikemagazine.com/ktms-2023-two-strokes-big-changes/",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Ultimate Motorcycling - 2023 KTM SX lineup first look",
+   "url": "https://ultimatemotorcycling.com/2022/05/11/2023-ktm-sx-lineup-first-look-300-250-150-17-fast-facts-26-photos/",
+   "date": "2022-05"
+  },
+  {
+   "type": "manufacturer",
+   "name": "SAE 810922 - Improvement of two-stroke engine performance with the Yamaha Power Valve System (Hata, Iio)",
+   "url": "https://saemobilus.sae.org/content/810922/",
+   "date": "1981-09"
+  },
+  {
+   "type": "forum",
+   "name": "rd350lc.net - Yamaha Power Valve System page",
+   "url": "https://rd350lc.net/pageYPVS.htm",
+   "date": "undated"
+  },
+  {
+   "type": "forum",
+   "name": "dt125r.co.uk - Port height thread (Calum)",
+   "url": "https://dt125r.co.uk/post/16820",
+   "date": "2018-07"
+  },
+  {
+   "type": "magazine",
+   "name": "MotoOnline - Tested: 2023 Husqvarna TC range",
+   "url": "https://www.motoonline.com/au/tested-2023-husqvarna-tc-range/",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Motorionline - Yamaha 2022 off-road competition range and new YZ125",
+   "url": "https://moto.motorionline.com/en/yamaha-motor-range-off-road-competition-2022-new-yz125-models-features/",
+   "date": "2021"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - 250 two-stroke shootout: Husky, KTM and Yamaha (2015/2016)",
+   "url": "https://motocrossactionmag.com/mxa-250-two-stroke-shootout-husky-ktm-yamaha",
+   "date": "2016"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21 - Quick look: Two Stroke Performance ECU Reflash Module",
+   "url": "https://enduro21.com/en/news/quick-look-new-two-stroke-performance-ecu-reflash-module",
+   "date": "2023-07"
+  },
+  {
+   "type": "tuner",
+   "name": "Keefer Inc. Testing - 2023 KTM 300 SX ECU remap/tune (Twisted Development)",
+   "url": "https://www.keeferinctesting.com/?p=27070",
+   "date": "2023-06"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM Infodesk 2025 (EMS manual, 250 SX-F) - used only to confirm KTM EMS manuals carry no two-stroke port data",
+   "url": "https://www.ktmshop.se/bike-manuals/25_3240101_en_ID.pdf",
+   "date": "2024-05"
+  }
+ ]
+}
