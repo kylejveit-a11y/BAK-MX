@@ -28,14 +28,15 @@ export function mountBikeScene(host:HTMLElement,dimensions:BikeDimensions,onErro
  cleanup.push(()=>{renderer.dispose();renderer.forceContextLoss();renderer.domElement.remove();});
  const room=new RoomEnvironment(),pmrem=new T.PMREMGenerator(renderer);
  try{const environment=pmrem.fromScene(room,.04);scene.environment=environment.texture;cleanup.push(()=>environment.dispose());}finally{room.dispose();pmrem.dispose();}
- renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.outputColorSpace=T.SRGBColorSpace;renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=1.5;
+ renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.outputColorSpace=T.SRGBColorSpace;renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=1.15;
+ renderer.shadowMap.enabled=true;renderer.shadowMap.type=T.PCFShadowMap;
  renderer.domElement.setAttribute('aria-label','Interactive exterior bike prototype');renderer.domElement.style.touchAction='none';host.append(renderer.domElement);
- const controls=new OrbitControls(camera,renderer.domElement);controls.target.set(0,.65,0);controls.minDistance=1.3;controls.maxDistance=20;controls.enablePan=false;controls.maxPolarAngle=Math.PI*.49;controls.minPolarAngle=.03;
+ const controls=new OrbitControls(camera,renderer.domElement);controls.target.set(0,.65,0);controls.minDistance=1.3;controls.maxDistance=20;controls.enablePan=false;controls.maxPolarAngle=Math.PI-.03;controls.minPolarAngle=.03;
  cleanup.push(()=>controls.dispose());
- scene.add(new T.HemisphereLight(0xe7f3ff,0x56505a,3));
- for(const [x,y,z,power] of [[2,4,3,5],[-2,3,-3,4],[0,3,0,2]]){const light=new T.DirectionalLight(0xffffff,power);light.position.set(x,y,z);scene.add(light);}
- const floor=new T.Mesh(new T.CircleGeometry(4,64),new T.MeshStandardMaterial({color:0x202c32,roughness:.95}));floor.rotation.x=-Math.PI/2;floor.position.y=-.015;scene.add(floor);
- const grid=new T.GridHelper(6,30,0x344149,0x26343b);grid.position.y=-.012;scene.add(grid);
+ scene.add(new T.HemisphereLight(0xe7f3ff,0x56505a,1.5));
+ for(const [x,y,z,power] of [[2,4,3,3],[-2,3,-3,2],[0,3,0,1]]){const light=new T.DirectionalLight(0xffffff,power);light.position.set(x,y,z);if(x===2){light.castShadow=true;light.shadow.mapSize.set(1024,1024);Object.assign(light.shadow.camera,{left:-2,right:2,top:2,bottom:-2,near:.1,far:10});light.shadow.bias=-.0003;light.shadow.normalBias=.015;}scene.add(light);}
+ scene.traverse(object=>{if(object instanceof T.DirectionalLight)cleanup.push(()=>object.shadow.dispose());});
+ const floor=new T.Mesh(new T.CircleGeometry(4,64),new T.MeshStandardMaterial({color:0x202c32,roughness:.95}));floor.rotation.x=-Math.PI/2;floor.position.y=-.015;floor.receiveShadow=true;scene.add(floor);
  let bike=createBikeModel(dimensions);scene.add(bike);let configuration:Record<string,unknown>={};
  let disposed=false,visible=true,paused=false,frame=0;
  function render(){frame=0;if(!disposed&&visible&&!paused&&!document.hidden){try{renderer.render(scene,camera);}catch{onError('The 3D preview could not render. Close and reopen the viewer.');}}}

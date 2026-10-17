@@ -38,6 +38,15 @@ test('plastics have separate named kit pieces and exhaust replacement restores s
  applyVisualBuild(bike,resolveVisualBuild({plastics_color:'white',installed_parts:[{s:'exhaust',b:'FMF',n:'Factory 4.1 RCT Titanium Anodized Full System w/ Carbon End Cap'}]}));
  assert.ok(bike.getObjectByName('generic-full-exhaust'));applyVisualBuild(bike,resolveVisualBuild({}));assert.equal(bike.getObjectByName('generic-full-exhaust'),undefined);disposeBikeModel(bike);
 });
+test('slip-on inlet joins the retained OEM header',()=>{
+ const bike=createBikeModel();
+ applyVisualBuild(bike,{parts:[{mappingId:'test',asset:'generic-slip-on',target:'exhaust-muffler',hardpoint:'muffler-mount',label:'test'}]});bike.updateMatrixWorld(true);
+ const header=bike.getObjectByName('stock-header')!.children[0] as Mesh;
+ const inlet=bike.getObjectByName('slip-on-inlet') as Mesh;assert.ok(inlet);
+ const outlet=header.localToWorld((header.geometry as import('three').TubeGeometry).parameters.path.getPoint(1));
+ const entry=inlet.localToWorld((inlet.geometry as import('three').TubeGeometry).parameters.path.getPoint(0));
+ assert.ok(outlet.distanceTo(entry)<1e-6);disposeBikeModel(bike);
+});
 test('slip-on preserves the OEM header and restores the OEM muffler on removal',()=>{
  const bike=createBikeModel();
  applyVisualBuild(bike,resolveVisualBuild({installed_parts:[{s:'exhaust',b:'FMF',n:'Factory 4.1 RCT Titanium Anodized SL (Slip-On) w/ Carbon Cap',color:'blue-anodized'}]}));

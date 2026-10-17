@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {Mesh,Box3,Vector3} from 'three';
+import {Mesh,Box3,Vector3,Raycaster} from 'three';
 import {createBikeModel,disposeBikeModel} from '../src/bike3d/model.ts';
 test('OEM study keeps chain drive left and rear brake right',()=>{
  const bike=createBikeModel();
@@ -15,6 +15,29 @@ test('OEM rear sprocket carries the catalog 51 teeth with real cut-out geometry'
  assert.ok(sprocket.geometry.getAttribute('position').count>1000);
  const size=new Box3().setFromObject(sprocket).getSize(new Vector3());
  assert.ok(size.x>.25&&size.x<.28);disposeBikeModel(bike);
+});
+test('sprocket cut-outs are open and molded plastics face outward',()=>{
+ const bike=createBikeModel(),gear=bike.getObjectByName('rear-sprocket-mesh') as Mesh;
+ for(const [x,y] of [[0,0],[.075,0]]){
+  const origin=gear.localToWorld(new Vector3(x,y,.1));
+  assert.equal(new Raycaster(origin,new Vector3(0,0,-1)).intersectObject(gear).length,0);
+ }
+ assert.ok(new Raycaster(gear.localToWorld(new Vector3(.11,0,.1)),new Vector3(0,0,-1)).intersectObject(gear).length>0);
+ const shrouds=bike.getObjectByName('shrouds')!;
+ for(const child of shrouds.children){if(!(child instanceof Mesh))continue;const p=child.geometry.getAttribute('position'),n=child.geometry.getAttribute('normal');assert.ok(p.getZ(0)*n.getZ(0)>0,'outer ridge must face the rider-facing exterior');}
+ disposeBikeModel(bike);
+});
+test('molded panels retain outward triangles throughout supported seat adjustment',()=>{
+ for(const seatHeight of [.85,1.1]){
+  const bike=createBikeModel({wheelbase:1.493,seatHeight});
+  for(const id of ['shrouds','side-panels','airbox-cover'])for(const child of bike.getObjectByName(id)!.children){
+   if(!(child instanceof Mesh)||!child.geometry.index)continue;
+   const p=child.geometry.getAttribute('position'),idx=child.geometry.index;
+   // Molded cap triangles each start at the ridge; skip the separate fasteners.
+   if(p.count!==16&&p.count!==10)continue;
+   for(let i=0;i<idx.count;i+=12){const a=new Vector3().fromBufferAttribute(p,idx.getX(i)),b=new Vector3().fromBufferAttribute(p,idx.getX(i+1)),c=new Vector3().fromBufferAttribute(p,idx.getX(i+2));assert.ok(b.sub(a).cross(c.sub(a)).z*p.getZ(0)>0,`${id} at ${seatHeight}`);}
+  }disposeBikeModel(bike);
+ }
 });
 test('model has finite original geometry with removable exterior groups',()=>{
  const bike=createBikeModel();
