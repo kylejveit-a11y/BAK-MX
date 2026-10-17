@@ -1,0 +1,3622 @@
+{
+ "slice": "KTM 450 SX-F 2023-2026 (current generation; includes 2027) - identity, engine architecture, power and feel, ECU/electronics, drivetrain, chassis, known issues; with Husqvarna FC 450 and GasGas MC 450F differences",
+ "platform": {
+  "make": "KTM",
+  "models": [
+   "450 SX-F",
+   "450 SX-F Factory Edition",
+   "Husqvarna FC 450",
+   "GasGas MC 450F"
+  ],
+  "years": [
+   2023,
+   2024,
+   2025,
+   2026,
+   2027
+  ]
+ },
+ "records": [
+  {
+   "id": "k45-001",
+   "domain": "identity",
+   "topic": "platform generation",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "450 SX-F Factory Edition"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "The 2023 KTM 450 SX-F started a new generation with a new frame, a redesigned SOHC engine tilted 2 degrees back, a new swingarm, a polyamide/aluminium subframe, a new Pankl gearbox and a standard quickshifter. 2024-2027 are evolutions of that platform.",
+   "values": {
+    "generation_start": "MY2023 (released May/June 2022)",
+    "engine_tilt": "2 deg rearward",
+    "gearbox": "Pankl 5-speed"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: First Look 2023 KTM 450SXF/350SXF/250SXF",
+    "url": "https://motocrossactionmag.com/2023-ktm-450sxf-350sxf-250sxf-motocross-models",
+    "date": "2022-05"
+   },
+   "confidence": "high",
+   "notes": "Generation shared with Husqvarna FC 450 (2023+) and GasGas MC 450F from 2024 (the 2023 MC 450F kept the 2022 engine and frame)."
+  },
+  {
+   "id": "k45-002",
+   "domain": "identity",
+   "topic": "2023 model year changes",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "For 2023 KTM changed nearly everything: new hydroformed chromoly frame with a forged shock mount and reworked stiffness, engine rotated 2 degrees back so the countershaft sprocket sits 3 mm lower, higher compression, new airbox, hollow die-cast swingarm, shorter and lighter WP XACT shock (15 mm shorter, about 100 g lighter), fork Hydrostops, quickshifter, and bigger die-cast footpegs moved inward.",
+   "values": {
+    "shock_length_change": "-15 mm",
+    "shock_weight_change": "about -100 g",
+    "sprocket_drop": "3 mm",
+    "footpeg_size": "+26% (Enduro21)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: First Look 2023 KTM 450SXF/350SXF/250SXF",
+    "url": "https://motocrossactionmag.com/2023-ktm-450sxf-350sxf-250sxf-motocross-models",
+    "date": "2022-05"
+   },
+   "confidence": "high",
+   "notes": "Shock length/weight from MXA 2023 race test; footpeg size from Enduro21; rest from MXA First Look (KTM press data)."
+  },
+  {
+   "id": "k45-003",
+   "domain": "identity",
+   "topic": "2023.5 Factory Edition",
+   "applies_to": {
+    "models": [
+     "450 SX-F Factory Edition"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "The 2023 450 SX-F Factory Edition (released mid-season) added an Akrapovic slip-on, factory triple clamps, an orange frame, factory seat and wheels, semi-floating front disc, Hinson clutch cover, holeshot device, vented airbox cover and gold chain. Price was $12,099.",
+   "values": {
+    "msrp": "$12,099",
+    "claimed_weight_no_fuel": "103.5 kg (228.2 lb)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX bike guide: 2023 KTM 450 SX-F Factory Edition",
+    "url": "https://www.vitalmx.com/product/guide/bikes/ktm/450-sx-f-factory-edition-7476",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Vital MX bike guide listing (manufacturer data)."
+  },
+  {
+   "id": "k45-004",
+   "domain": "identity",
+   "topic": "2024 model year changes",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "2024 was a carry-over year: new graphics with purple accents, fork and shock valving taken from the 2023.5 Factory Edition, shock high-speed compression shim stack grown from 15 to 23 shims for finer adjustment, a better-sealed start/stop switch, and a one-piece air inlet sleeve/snorkel. MSRP $11,099.",
+   "values": {
+    "msrp": "$11,099",
+    "shock_hsc_shims": "15 -> 23"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-ktm-450sxf",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "MXA race test (magazine reporting of KTM changes); one-piece snorkel listed in Vital 2024 FE guide."
+  },
+  {
+   "id": "k45-005",
+   "domain": "identity",
+   "topic": "2024 Factory Edition (previewed 2025 frame)",
+   "applies_to": {
+    "models": [
+     "450 SX-F Factory Edition"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The 2024 Factory Edition (January 2024) introduced the frame with cut-outs and changed wall thicknesses, black 'race' engine mounts, a lighter and stiffer factory shock linkage with smaller linkage bolt, a standard Connectivity Unit Offroad (CUO), Akrapovic slip-on, Hinson clutch cover and factory wheels. MSRP $12,449.",
+   "values": {
+    "msrp": "$12,449",
+    "claimed_weight_no_fuel": "103.9 kg (229.1 lb)",
+    "uk_price": "GBP 11,449"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX bike guide: 2024 KTM 450 SX-F Factory Edition",
+    "url": "https://www.vitalmx.com/product/guide/bikes/ktm/450-sx-f-factory-edition-15036",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Also MCN Dec 2023. These parts became standard on the 2025 base bike."
+  },
+  {
+   "id": "k45-006",
+   "domain": "identity",
+   "topic": "2025 model year changes",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The 2025 450 SX-F got the Factory Edition frame (cut-outs and thinner walls at the head tube, engine mounts and shock tower, about 300 g lighter), shorter and slimmer shock linkage arms with smaller bolts and new seals, reworked fork settings, revised shock geometry for more linkage ground clearance, a swingarm with a lowered top and thicker/machined chain slider, a new silencer, new bi-composite tank shrouds, a one-piece stiffer air inlet sleeve, a stronger rear brake pedal, a new chain guide, and Dunlop Geomax MX34 tyres.",
+   "values": {
+    "frame_weight_saving": "about 300 g",
+    "msrp": "$11,299"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2025 450 SX-F model page",
+    "url": "https://ktm.com/en-gr/models/motocross/4-stroke/2025-ktm-450-sx-f.html",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Combined from KTM model page, MotoOnline/Bikesales range reports and Dirt Rider tech page (MSRP)."
+  },
+  {
+   "id": "k45-007",
+   "domain": "identity",
+   "topic": "2025 engine-side updates",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Testers report that 2025 engine changes were mostly ECU, quickshifter, throttle-body and reliability tweaks plus a new silencer that KTM says sharpens response with the map switch and is slightly quieter; the quickshifter gained two reaction speeds.",
+   "values": {
+    "quickshifter_reaction_speeds": "2"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-ktm-450sxf",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "MXA describes the changes without part-level detail; KTM page confirms silencer claim."
+  },
+  {
+   "id": "k45-008",
+   "domain": "identity",
+   "topic": "2026 model year changes",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "2026 changes were minimal: a threaded radiator cap that opens with less force, a protection cap on the CPC fuel connector, new graphics, and (per MXA) a black powder-coated frame and black seat. MSRP $11,649.",
+   "values": {
+    "msrp": "$11,649"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2026 KTM 450 SX-F Technical Overview",
+    "url": "https://www.dirtrider.com/dirt-bikes/ktm-450-sx-f-technical-information",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "MXA First Look 2026 lists the frame colour; Dirt Rider lists price and changes."
+  },
+  {
+   "id": "k45-009",
+   "domain": "identity",
+   "topic": "2026 Factory Edition",
+   "applies_to": {
+    "models": [
+     "450 SX-F Factory Edition"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The 2026 Factory Edition has WP XACT PRO 7548 forks and an XACT PRO 8950 shock, Akrapovic titanium slip-on, orange factory triple clamps, standard CUO, D.I.D DirtStar rims, Hinson clutch cover, carbon skid plate and a WP start device. KTM lists 106.4 kg without fuel and $13,699 MSRP.",
+   "values": {
+    "msrp": "$13,699",
+    "claimed_weight_no_fuel": "106.4 kg",
+    "shock": "WP XACT PRO 8950, 50 mm piston, approx 139 mm stroke"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM USA 2026 450 SX-F Factory Edition page",
+    "url": "https://www.ktm.com/en-us/models/motocross/4-stroke/2026-ktm-450-sx-ffactoryedition.html",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "106.4 kg is notably higher than earlier FE claims (103.5-103.9 kg); likely a changed weighing basis or heavier PRO suspension - not explained by KTM."
+  },
+  {
+   "id": "k45-010",
+   "domain": "identity",
+   "topic": "2027 model year changes",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "KTM calls the 2027 450 SX-F largely unchanged: in-mould graphics with red, re-routed wiring harness with new fixing points to reduce wear, unspecified engine updates for rideability and to meet the latest FIM/AMA sound rules, and frame wording about shock-mount, engine-mount and wall-thickness optimisation. US bikes arrive late spring 2026.",
+   "values": {
+    "claimed_weight_no_fuel": "103.1 kg (KTM ZA)",
+    "claimed_wet_weight": "238 lb (Ultimate Motorcycling)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM South Africa 2027 450 SX-F page",
+    "url": "https://www.ktm.com/en-za/models/motocross/4-stroke/2027-ktm-450-sx-f.html",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "The frame text may repeat the 2025 frame description rather than describe a new frame; no 2027 dyno or test data found yet."
+  },
+  {
+   "id": "k45-011",
+   "domain": "identity",
+   "topic": "Husqvarna FC 450 US availability 2026",
+   "applies_to": {
+    "models": [
+     "FC 450"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "MXA reported that no 2026 Husqvarna FC 450s would be sold in the USA; dealers received 2025 models instead.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: 450 Test Rider Report Cards (2025 450s)",
+    "url": "https://motocrossactionmag.com/450-test-rider-report-cards",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Magazine reporting, not a Husqvarna statement."
+  },
+  {
+   "id": "k45-012",
+   "domain": "identity",
+   "topic": "GasGas MC 450F generation lag",
+   "applies_to": {
+    "models": [
+     "MC 450F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "The 2023 GasGas MC 450F kept the 2022 engine, frame, shock and linkage. It moved to the new-generation engine and frame for 2024, with the 3 mm lower countershaft sprocket.",
+   "values": {
+    "2024_weight_change": "219 lb (2023) -> 225 lb (2024), MXA"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 GasGas MC450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-gasgas-mc450f",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k45-013",
+   "domain": "engine_architecture",
+   "topic": "displacement, bore and stroke",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450",
+     "MC 450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "The 450 SX-F is a 449.9 cc single with a 95 mm bore and 63.4 mm stroke.",
+   "values": {
+    "displacement": "449.9 cc",
+    "bore": "95 mm",
+    "stroke": "63.4 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM India 450 SX-F specifications",
+    "url": "https://www.ktmindia.com/ktm-bikes/motocross/ktm-450-sx-f/specifications",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Same on FC 450 (Husqvarna press kit) and 2024+ MC 450F."
+  },
+  {
+   "id": "k45-014",
+   "domain": "engine_architecture",
+   "topic": "valvetrain layout",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450",
+     "MC 450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "The 450 uses a single overhead cam (SOHC) with four valves worked by a DLC-coated rocker arm. The 250 and 350 SX-F are DOHC with finger followers.",
+   "values": {
+    "cam": "SOHC",
+    "valves": "4",
+    "rocker": "DLC-coated rocker arm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Media Information 2024 FC 450 (press kit PDF)",
+    "url": "https://www.husqvarna-motorcycles.com/language-masters/en/media-information-motocross/2024/Media-Information-2024-FC-450.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k45-015",
+   "domain": "engine_architecture",
+   "topic": "valve sizes",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450",
+     "MC 450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Intake valves are 40 mm and exhaust valves 33 mm.",
+   "values": {
+    "intake_valve": "40 mm",
+    "exhaust_valve": "33 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Media Information 2024 FC 450 (press kit PDF)",
+    "url": "https://www.husqvarna-motorcycles.com/language-masters/en/media-information-motocross/2024/Media-Information-2024-FC-450.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Valve material is not stated in any source found (KTM only says 'lightweight')."
+  },
+  {
+   "id": "k45-016",
+   "domain": "engine_architecture",
+   "topic": "compression ratio (KTM)",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "KTM and most US magazines list 13.1:1 compression for the 450 SX-F.",
+   "values": {
+    "compression": "13.1:1"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM India 450 SX-F specifications",
+    "url": "https://www.ktmindia.com/ktm-bikes/motocross/ktm-450-sx-f/specifications",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "See conflicts: Husqvarna press kit and Cycle World list 13.6:1 for the same engine; MXA quoted 14.1:1."
+  },
+  {
+   "id": "k45-017",
+   "domain": "engine_architecture",
+   "topic": "compression ratio (Husqvarna)",
+   "applies_to": {
+    "models": [
+     "FC 450",
+     "450 SX-F Factory Edition"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "Husqvarna's press kit lists 13.6:1 for the FC 450, and Cycle World lists 13.6:1 for the KTM Factory Edition.",
+   "values": {
+    "compression": "13.6:1"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Media Information 2024 FC 450 (press kit PDF)",
+    "url": "https://www.husqvarna-motorcycles.com/language-masters/en/media-information-motocross/2024/Media-Information-2024-FC-450.pdf",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Same hardware as KTM per Husqvarna; the difference to KTM's 13.1:1 is unexplained."
+  },
+  {
+   "id": "k45-018",
+   "domain": "engine_architecture",
+   "topic": "piston",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450",
+     "MC 450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "The piston is a forged CP bridged-box design weighing 327 g with anodised ring grooves.",
+   "values": {
+    "piston_mass": "327 g",
+    "type": "CP forged bridged-box"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Media Information 2024 FC 450 (press kit PDF)",
+    "url": "https://www.husqvarna-motorcycles.com/language-masters/en/media-information-motocross/2024/Media-Information-2024-FC-450.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k45-019",
+   "domain": "engine_architecture",
+   "topic": "crank and big end",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450",
+     "MC 450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "The crankshaft uses a plain (shell) big-end bearing with two pressed-in shells and has a 90-hour service interval; a balancer shaft reduces vibration.",
+   "values": {
+    "big_end": "plain bearing, 2 shells",
+    "crank_service_interval": "90 h"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Media Information 2024 FC 450 (press kit PDF)",
+    "url": "https://www.husqvarna-motorcycles.com/language-masters/en/media-information-motocross/2024/Media-Information-2024-FC-450.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Balancer shaft from Total Motorcycle 450 XC-F description (same engine family)."
+  },
+  {
+   "id": "k45-020",
+   "domain": "engine_architecture",
+   "topic": "lubrication",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450",
+     "MC 450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Pressure lubrication with two oil pumps; a steel oil-pump gear and oil jet raise oil pressure, and the clutch shaft sits above oil level.",
+   "values": {
+    "oil_pumps": "2"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Media Information 2024 FC 450 (press kit PDF)",
+    "url": "https://www.husqvarna-motorcycles.com/language-masters/en/media-information-motocross/2024/Media-Information-2024-FC-450.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k45-021",
+   "domain": "engine_architecture",
+   "topic": "throttle body and EMS",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450",
+     "MC 450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Fuel is fed through a 44 mm Keihin throttle body managed by a Keihin EMS.",
+   "values": {
+    "throttle_body": "44 mm Keihin",
+    "ems": "Keihin"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM USA 2025 450 SX-F technical specifications",
+    "url": "https://www.ktm.com/en-us/models/motocross/4-stroke/2025-ktm-450-sx-f/technical-specifications.html",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k45-022",
+   "domain": "engine_architecture",
+   "topic": "injectors",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Total Motorcycle's description of the same-generation 450 XC-F says the new 44 mm throttle body uses a 'double-injector pattern' and a direct-mounted throttle cable with no linkage; no SX-F-specific injector count was found.",
+   "values": {
+    "injector_layout": "double-injector pattern (XC-F description)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Total Motorcycle: 2023 KTM 450 XC-F guide",
+    "url": "https://www.totalmotorcycle.com/motorcycles/2023/2023-ktm-450-xcf",
+    "date": "2022"
+   },
+   "confidence": "low",
+   "notes": "Source is a reseller of KTM marketing text for the XC-F; not confirmed for the SX-F. Injector flow not published."
+  },
+  {
+   "id": "k45-023",
+   "domain": "engine_architecture",
+   "topic": "engine weight",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "KTM claims the engine weighs 26.8 kg (59.1 lb), about 300 g less than the previous generation.",
+   "values": {
+    "engine_weight": "26.8 kg / 59.1 lb"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2025 450 SX-F model page",
+    "url": "https://ktm.com/en-gr/models/motocross/4-stroke/2025-ktm-450-sx-f.html",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k45-024",
+   "domain": "engine_architecture",
+   "topic": "cylinder head design",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450",
+     "MC 450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "The 2023 head is compact and short with the camshaft close to the centre of gravity, redesigned intake ports for more flow, a two-screw valve cover with one oil-spray jet, and cam-chain lock positions for service.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Media Information 2024 FC 450 (press kit PDF)",
+    "url": "https://www.husqvarna-motorcycles.com/language-masters/en/media-information-motocross/2024/Media-Information-2024-FC-450.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k45-025",
+   "domain": "engine_architecture",
+   "topic": "claimed peak power",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "KTM and Husqvarna claim over 63 hp peak for the 450 (crank figure, no rpm given).",
+   "values": {
+    "claimed_peak": ">63 hp"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM NZ 2023 450 SX-F model page",
+    "url": "https://www.ktm.com/en-nz/models/motocross/4-stroke/ktm-450-sx-f-2023.html",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Rear-wheel magazine dynos read 53-61 hp; see power_feel."
+  },
+  {
+   "id": "k45-026",
+   "domain": "engine_architecture",
+   "topic": "rev limit (MXA)",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "MXA's dyno run of the 2023 bike shows power signing off at about 11,400 rpm.",
+   "values": {
+    "sign_off": "about 11,400 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-ktm-450sxf",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "KTM does not publish a rev limit."
+  },
+  {
+   "id": "k45-027",
+   "domain": "engine_architecture",
+   "topic": "rev limit (ADB)",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "ADB's dyno shows power dropping sharply after an 11,000 rpm rev ceiling.",
+   "values": {
+    "rev_ceiling": "about 11,000 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "ADB Magazine: Dyno test 2023 KTM 450 SX-F vs 300 SX",
+    "url": "https://adbmag.com.au/editorial/dyno-test-2023-ktm-450-sx-f-vs-300-sx/",
+    "date": "2023-08"
+   },
+   "confidence": "medium",
+   "notes": "Dyno brand not stated."
+  },
+  {
+   "id": "k45-028",
+   "domain": "engine_architecture",
+   "topic": "battery",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Electric start runs off a 12.8 V, 2 Ah lithium battery.",
+   "values": {
+    "battery": "12.8 V 2 Ah Li-ion"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: First Look 2023 KTM 450SXF/350SXF/250SXF",
+    "url": "https://motocrossactionmag.com/2023-ktm-450sxf-350sxf-250sxf-motocross-models",
+    "date": "2022-05"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k45-029",
+   "domain": "engine_architecture",
+   "topic": "bore/stroke ratio",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450",
+     "MC 450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "With a 95 mm bore and 63.4 mm stroke the engine is strongly oversquare, about 1.50 to 1.",
+   "values": {
+    "bore_stroke_ratio": "1.498"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation from published inputs",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "high",
+   "notes": "95 / 63.4 = 1.498."
+  },
+  {
+   "id": "k45-030",
+   "domain": "engine_architecture",
+   "topic": "displacement check",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Working from 95 x 63.4 mm gives 449.4 cc, close to KTM's 449.9 cc (the gap comes from rounding of the published stroke).",
+   "values": {
+    "calculated_displacement": "449.4 cc"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation from published inputs",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "high",
+   "notes": "pi/4 x 9.5^2 x 6.34 = 0.7854 x 90.25 x 6.34 = 449.4 cc."
+  },
+  {
+   "id": "k45-031",
+   "domain": "engine_architecture",
+   "topic": "mean piston speed",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450",
+     "MC 450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Mean piston speed is about 19.9 m/s at the 9,400 rpm power peak, 23.2 m/s at 11,000 rpm and 24.1 m/s at the 11,400 rpm sign-off MXA measured.",
+   "values": {
+    "at_9400": "19.9 m/s",
+    "at_11000": "23.2 m/s",
+    "at_11400": "24.1 m/s"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation from published inputs",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "high",
+   "notes": "Mean piston speed = 2 x stroke(mm) x rpm / 60000. 2 x 63.4 x 9400 / 60000 = 19.87; x11000 = 23.25; x11400 = 24.09."
+  },
+  {
+   "id": "k45-032",
+   "domain": "engine_architecture",
+   "topic": "intake valve area vs bore",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450",
+     "MC 450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Two 40 mm intake valves give about 2,513 mm2 of head area, roughly 35% of the 7,088 mm2 bore area.",
+   "values": {
+    "intake_valve_area": "2513 mm2",
+    "bore_area": "7088 mm2",
+    "ratio": "0.355"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation from published inputs",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "medium",
+   "notes": "2 x pi/4 x 40^2 = 2513; pi/4 x 95^2 = 7088; 2513/7088 = 0.355. Curtain area needs valve lift, which is not published."
+  },
+  {
+   "id": "k45-033",
+   "domain": "power_feel",
+   "topic": "MXA dyno 2023 map 2",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "MXA measured 59.85 hp at 9,400 rpm and 37.01 lb-ft at 7,100 rpm in map 2.",
+   "values": {
+    "peak_hp": "59.85 hp @ 9,400 rpm",
+    "peak_torque": "37.01 lb-ft @ 7,100 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-ktm-450sxf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "MXA in-house dyno, brand not stated; stock bike, map 2; fuel not stated."
+  },
+  {
+   "id": "k45-034",
+   "domain": "power_feel",
+   "topic": "MXA dyno 2023 map 1 vs map 2",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "In map 1 MXA's 2023 bike peaked at 56.79 hp. Map 1 ran a couple of hp behind map 2 from 5,000 to 8,700 rpm, about 2 hp down at 9,400 and 3 hp down by 11,000 rpm.",
+   "values": {
+    "map1_peak": "56.79 hp",
+    "map2_peak": "59.85 hp",
+    "gap_5000_8700": "about 2 hp",
+    "gap_11000": "about 3 hp"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-ktm-450sxf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Same dyno and bike as map-2 run."
+  },
+  {
+   "id": "k45-035",
+   "domain": "power_feel",
+   "topic": "MXA dyno 2024",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "MXA measured 59.94 hp at 9,400 rpm on the 2024 bike, with power building steadily from about 5,000 rpm.",
+   "values": {
+    "peak_hp": "59.94 hp @ 9,400 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-ktm-450sxf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "MXA dyno; map not stated (testers favoured map 2); torque not given."
+  },
+  {
+   "id": "k45-036",
+   "domain": "power_feel",
+   "topic": "MXA dyno 2025",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "MXA measured 59.20 hp at 9,400 rpm on the 2025 bike, building steadily from about 5,000 rpm.",
+   "values": {
+    "peak_hp": "59.20 hp @ 9,400 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-ktm-450sxf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "MXA dyno; map not stated."
+  },
+  {
+   "id": "k45-037",
+   "domain": "power_feel",
+   "topic": "Dirt Rider dyno 2023",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Dirt Rider's Dynojet measured 54.3 hp and 33.8 lb-ft on the 2023 bike, 0.7 hp and 0.5 lb-ft below the 2022, but stronger from idle to 4,300 rpm and from 10,400 to 11,200 rpm.",
+   "values": {
+    "peak_hp": "54.3 hp",
+    "peak_torque": "33.8 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2023 KTM 450 SX-F Dyno Test",
+    "url": "https://www.dirtrider.com/tests/ktm-450-sx-f-dyno-test-2023",
+    "date": "2023-02"
+   },
+   "confidence": "high",
+   "notes": "In-house Dynojet rear-wheel dyno; rpm of peaks, map and fuel not stated."
+  },
+  {
+   "id": "k45-038",
+   "domain": "power_feel",
+   "topic": "Dirt Rider dyno 2024",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Dirt Rider measured 56.4 hp at 9,600 rpm and 34.6 lb-ft at 7,500 rpm on the 2024 bike, the most of any standard 450 they tested that year.",
+   "values": {
+    "peak_hp": "56.4 hp @ 9,600 rpm",
+    "peak_torque": "34.6 lb-ft @ 7,500 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2024 KTM 450 SX-F Technical Information",
+    "url": "https://www.dirtrider.com/dirt-bikes/ktm-450-sx-f-technical-information-2024",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "In-house dyno (Dynojet in other DR tests); rpm values from DR tech page; map not stated."
+  },
+  {
+   "id": "k45-039",
+   "domain": "power_feel",
+   "topic": "Dirt Rider dyno 2025",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Dirt Rider's Dynojet 250i measured 53.2 hp at 9,300 rpm and 32.9 lb-ft at 7,100 rpm on the 2025 bike.",
+   "values": {
+    "peak_hp": "53.2 hp @ 9,300 rpm",
+    "peak_torque": "32.9 lb-ft @ 7,100 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2025 KTM 450 SX-F Technical Information",
+    "url": "https://www.dirtrider.com/dirt-bikes/2025-ktm-450-sx-f-technical-information/",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Dynojet 250i; stock; map/fuel not stated. The GasGas MC 450F made 0.3 hp less on the same dyno."
+  },
+  {
+   "id": "k45-040",
+   "domain": "power_feel",
+   "topic": "Dirt Rider dyno 2026",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Dirt Rider measured 56.7 hp at 9,400 rpm and 34.5 lb-ft at 7,700 rpm on the 2026 bike.",
+   "values": {
+    "peak_hp": "56.7 hp @ 9,400 rpm",
+    "peak_torque": "34.5 lb-ft @ 7,700 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2026 KTM 450 SX-F Technical Overview",
+    "url": "https://www.dirtrider.com/dirt-bikes/ktm-450-sx-f-technical-information",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider in-house dyno; map not stated."
+  },
+  {
+   "id": "k45-041",
+   "domain": "power_feel",
+   "topic": "Dirt Bike dyno 2026 shootout",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "On Pro Circuit's dyno for Dirt Bike's 2026 shootout the KTM made 59.5 hp at 9,300 rpm and 36.3 lb-ft at 7,600 rpm, second only to the Husqvarna FC 450 among 12 bikes.",
+   "values": {
+    "peak_hp": "59.5 hp @ 9,300 rpm",
+    "peak_torque": "36.3 lb-ft @ 7,600 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: Twelve 450 Motocross Bikes on the Dyno - The Wrap (2026 shootout)",
+    "url": "https://dirtbikemagazine.com/?p=101733",
+    "date": "2025-11"
+   },
+   "confidence": "high",
+   "notes": "Pro Circuit dyno (model not stated), standard map."
+  },
+  {
+   "id": "k45-042",
+   "domain": "power_feel",
+   "topic": "ADB dyno 2023",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "ADB measured 56.3 hp at about 9,500 rpm and 48 Nm (about 35.4 lb-ft) just before 7,000 rpm. The curve is steep with a slight dip between 7,000 and 8,500 rpm and loses up to about 2 hp past peak before the 11,000 rpm ceiling.",
+   "values": {
+    "peak_hp": "56.3 hp @ ~9,500 rpm",
+    "peak_torque": "48 Nm @ just under 7,000 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "ADB Magazine: Dyno test 2023 KTM 450 SX-F vs 300 SX",
+    "url": "https://adbmag.com.au/editorial/dyno-test-2023-ktm-450-sx-f-vs-300-sx/",
+    "date": "2023-08"
+   },
+   "confidence": "high",
+   "notes": "Dyno brand, map and fuel not stated. Nm to lb-ft: 48 x 0.7376 = 35.4."
+  },
+  {
+   "id": "k45-043",
+   "domain": "power_feel",
+   "topic": "modified 450 SX-F on MXA dyno",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "MXA's 'tastefully modded' 2024 450 SX-F made 60 hp and 37 lb-ft.",
+   "values": {
+    "peak_hp": "60 hp",
+    "peak_torque": "37 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: 60-hp KTM 350 vs 60-hp KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-video-we-built-a-60-horsepower-ktm-350-monster/",
+    "date": "2024"
+   },
+   "confidence": "low",
+   "notes": "Modifications not itemised; rpm not stated; compare only with MXA's own stock runs (59.94 hp)."
+  },
+  {
+   "id": "k45-044",
+   "domain": "power_feel",
+   "topic": "power delivery by rpm (MXA)",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "MXA says map 2 is smooth off the bottom with little engine braking, turns very linear and takes off in the middle, and is exceptionally strong from about 8,500 rpm to the sign-off. It pulls harder out of corners and further on top than pre-2023 models, which were down low-to-mid.",
+   "values": {
+    "strong_band": "about 8,500 rpm to sign-off"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-ktm-450sxf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Tester descriptions, 2023 and 2024 race tests."
+  },
+  {
+   "id": "k45-045",
+   "domain": "power_feel",
+   "topic": "power delivery by rpm (2025-2026)",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "MXA describes the 2025-2026 engine as broad, linear and very manageable - tractor-like down low and very strong mid to top - usable in fifth gear or in tight second-gear turns. It ranked it the second-most exciting 450 engine after the Yamaha.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-ktm-450sxf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "MXA 2025/2026 race tests and 2025 report cards."
+  },
+  {
+   "id": "k45-046",
+   "domain": "power_feel",
+   "topic": "low-end vs Japanese bikes",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Dirt Rider's tester said the 2024 KTM lacks low-end intensity compared with the Japanese 450s but has stronger bottom-to-mid than the Husqvarna FC 450 and GasGas MC 450F.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2024 KTM 450 SX-F Dyno Test",
+    "url": "https://dirtrider.com/tests/ktm-450-sx-f-dyno-test-2024",
+    "date": "2024-07"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "k45-047",
+   "domain": "power_feel",
+   "topic": "rideability",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Dirt Rider's 2025 tester called it very powerful but extremely rideable, with smooth delivery that makes corner exits easy.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2025 KTM 450 SX-F Dyno Test",
+    "url": "https://dirtrider.com/tests/ktm-450-sx-f-dyno-test-2025",
+    "date": "2024-09"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "k45-048",
+   "domain": "power_feel",
+   "topic": "engine braking and vibration",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Swapmoto Live testers found strong engine braking that took adjustment and excessive vibration at high rpm transmitted through stiff handlebars.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Swapmoto Live: 2025 450 MX Bike Shootout In Depth (KTM page)",
+    "url": "https://swapmotolive.com/2025-450-mx-bike-shootout-in-depth/shootout/2025-450-shootout/6",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Dirt Bike's 2024 notes also mention engine vibration on the KTM."
+  },
+  {
+   "id": "k45-049",
+   "domain": "power_feel",
+   "topic": "off-idle response (stock ECU)",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Keefer found the stock 2023 map disconnected and jerky off idle when rolling corners at low rpm, and a hard hit that could upset balance in deep ruts.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing: 2023 KTM 450 SX-F suspension baseline / chassis tips",
+    "url": "https://www.keeferinctesting.com/2023-ktm-450-sx-f-suspension-baseline-settings-chassis-tips-tricks/",
+    "date": "2022-08"
+   },
+   "confidence": "medium",
+   "notes": "Pre-production/early 2023 impressions (Aug 2022)."
+  },
+  {
+   "id": "k45-050",
+   "domain": "power_feel",
+   "topic": "feel vs 2022",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Australian testers found the 2023 bike extremely fast and needing time to adapt to; it likes a taller gear and a smooth throttle. MXA testers called map 2 'scary fast' at first but most switched to it by the end of day one.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "MotoOnline: Tested 2023 KTM 450 SX-F",
+    "url": "https://www.motoonline.com/au/tested-2023-ktm-450-sx-f/",
+    "date": "2022-05"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "k45-051",
+   "domain": "power_feel",
+   "topic": "shootout placings",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "The KTM tied for second with the Honda in Swapmoto Live's 2025 450 shootout and finished third in Dirt Rider's 2026 450 shootout, its usual top-three result since 2016.",
+   "values": {
+    "swapmoto_2025": "T-2nd",
+    "dirt_rider_2026": "3rd"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: Best Motocross Bike 3rd Place, 2026 KTM 450 SX-F",
+    "url": "https://www.dirtrider.com/tests/ktm-450-sx-f-best-motocross-bike-3rd-place-2026/",
+    "date": "2026-01"
+   },
+   "confidence": "medium",
+   "notes": "Swapmoto result from swap25."
+  },
+  {
+   "id": "k45-052",
+   "domain": "power_feel",
+   "topic": "Husqvarna FC 450 power character",
+   "applies_to": {
+    "models": [
+     "FC 450"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "The FC 450 has the same engine internals but a closed-off airbox, so testers find it smoother and mellower low-to-mid than the brisker, harder-hitting KTM, with strong mid-to-top pull.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 Husqvarna FC450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-husqvarna-fc450",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k45-053",
+   "domain": "power_feel",
+   "topic": "Husqvarna FC 450 dynos",
+   "applies_to": {
+    "models": [
+     "FC 450"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Measured FC 450 numbers: MXA 59.30 hp and 36.33 lb-ft (2024); MXA 61.2 hp (2025, highest 450); Dirt Rider 55.6 hp at 9,900 rpm and 33.9 lb-ft at 7,200 rpm (2024); Dirt Bike/Pro Circuit 60.2 hp at 9,400 rpm and 36.5 lb-ft at 7,100 rpm (2026 shootout).",
+   "values": {
+    "mxa_2024": "59.30 hp / 36.33 lb-ft",
+    "mxa_2025": "61.2 hp",
+    "dr_2024": "55.6 hp @ 9,900 / 33.9 lb-ft @ 7,200",
+    "dbm_2026": "60.2 hp @ 9,400 / 36.5 lb-ft @ 7,100"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 Husqvarna FC450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-husqvarna-fc450",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Different dynos; compare only within one source. MXA 2025 from report cards; DR from dr24hq; DBM from dbm26."
+  },
+  {
+   "id": "k45-054",
+   "domain": "power_feel",
+   "topic": "GasGas MC 450F dynos",
+   "applies_to": {
+    "models": [
+     "MC 450F"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Measured MC 450F numbers: MXA 59.35 hp (2024); MXA 57.9 hp and 35.6 lb-ft in its only stock map (2025); Dirt Rider 52.9 hp and 33.5 lb-ft (2025); Dirt Bike/Pro Circuit 57.9 hp at 9,200 rpm and 35.9 lb-ft at 6,900 rpm (2026).",
+   "values": {
+    "mxa_2024": "59.35 hp",
+    "mxa_2025": "57.9 hp / 35.6 lb-ft (map 1)",
+    "dr_2025": "52.9 hp / 33.5 lb-ft",
+    "dbm_2026": "57.9 hp @ 9,200 / 35.9 lb-ft @ 6,900"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 GasGas MC450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-gasgas-mc450f",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Different dynos; DR 2025 GasGas (52.9) vs KTM (53.2) is a valid same-dyno comparison."
+  },
+  {
+   "id": "k45-055",
+   "domain": "power_feel",
+   "topic": "GasGas MC 450F character",
+   "applies_to": {
+    "models": [
+     "MC 450F"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "MXA found the MC 450F mellow and fun with good power everywhere and a kick on top, less snappy than the KTM; testers often rode it harder than the stronger KTM or Husqvarna.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 GasGas MC450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-gasgas-mc450f",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "k45-056",
+   "domain": "power_feel",
+   "topic": "measured wet weight (Dirt Rider)",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Dirt Rider weighed the 450 SX-F at 240 lb wet in 2024, 2025 and 2026.",
+   "values": {
+    "wet_weight": "240 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2026 KTM 450 SX-F Technical Overview",
+    "url": "https://www.dirtrider.com/dirt-bikes/ktm-450-sx-f-technical-information",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Full tank of fuel. Husqvarna FC 450 2024 weighed 241 lb wet on DR's scale."
+  },
+  {
+   "id": "k45-057",
+   "domain": "power_feel",
+   "topic": "measured weight without fuel (Dirt Bike)",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450",
+     "MC 450F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Dirt Bike weighed the 2024 KTM and Husqvarna at 229 lb and the GasGas at 228 lb without fuel.",
+   "values": {
+    "ktm": "229 lb",
+    "husqvarna": "229 lb",
+    "gasgas": "228 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: 2024 450 Shootout Notes - The Wrap",
+    "url": "https://dirtbikemagazine.com/2024-450-shootout-notes-the-wrap/",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "No fuel."
+  },
+  {
+   "id": "k45-058",
+   "domain": "power_feel",
+   "topic": "weight vs 2022",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "MXA says the new generation is about 5-6 lb heavier than the 2022 450 SX-F, mostly at the front, but still lighter than the Japanese 450s.",
+   "values": {
+    "gain_vs_2022": "about 5-6 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-ktm-450sxf",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "2023 test says about 6 lb; 2024 test says 5 lb."
+  },
+  {
+   "id": "k45-059",
+   "domain": "power_feel",
+   "topic": "claimed weight",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "KTM claims 102.6 kg (226.2 lb) without fuel for the 2023-2026 standard bike.",
+   "values": {
+    "claimed_no_fuel": "102.6 kg / 226.2 lb"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM USA 2025 450 SX-F technical specifications",
+    "url": "https://www.ktm.com/en-us/models/motocross/4-stroke/2025-ktm-450-sx-f/technical-specifications.html",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "2027: 103.1 kg (KTM ZA). KTM India lists 107 kg kerb weight."
+  },
+  {
+   "id": "k45-060",
+   "domain": "power_feel",
+   "topic": "claimed vs measured weight",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Removing about 11.4 lb of fuel from Dirt Rider's 240 lb wet weight leaves about 228.6 lb, roughly 2.4 lb over KTM's 226.2 lb claim and close to Dirt Bike's 229 lb no-fuel scale reading.",
+   "values": {
+    "est_no_fuel": "about 228.6 lb"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation from published inputs",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "medium",
+   "notes": "7.2 L = 1.9 gal; petrol about 6.0 lb/gal -> 11.4 lb. 240 - 11.4 = 228.6."
+  },
+  {
+   "id": "k45-061",
+   "domain": "ecu_electronics",
+   "topic": "map switch: map 1 vs map 2 (OEM)",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "The left-bar map switch selects two maps: map 1 is the more linear standard map and map 2 is more aggressive. The same switch toggles traction control and the quickshifter.",
+   "values": {
+    "maps": "2",
+    "map1": "linear/standard",
+    "map2": "aggressive"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2025 450 SX-F model page",
+    "url": "https://ktm.com/en-gr/models/motocross/4-stroke/2025-ktm-450-sx-f.html",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider identifies map 2 by a green indicator; MXA calls map 1 the 'white' map."
+  },
+  {
+   "id": "k45-062",
+   "domain": "ecu_electronics",
+   "topic": "map preference by testers",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Tester preferences split: MXA's 2023-2024 riders mostly chose map 2 (green), Dirt Rider's 2024 tester preferred map 2, but MXA's 2025-2026 riders mostly preferred the white map 1 and MotoOnline found map 1 the most consistent and map 2 too strong.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2026 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2026-ktm-450sxf/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Shift toward map 1 after the 2025 silencer/ECU update."
+  },
+  {
+   "id": "k45-063",
+   "domain": "ecu_electronics",
+   "topic": "per-gear mapping",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450",
+     "MC 450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "A gear-position sensor in the gearbox lets the ECU run a specific map for each gear.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Media Information 2024 FC 450 (press kit PDF)",
+    "url": "https://www.husqvarna-motorcycles.com/language-masters/en/media-information-motocross/2024/Media-Information-2024-FC-450.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k45-064",
+   "domain": "ecu_electronics",
+   "topic": "traction control",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Traction control is switched on and off with a button. It watches throttle input and how fast rpm rises; if revs climb too fast (wheelspin) it cuts power to the rear wheel. KTM suggests it for wet or muddy conditions.",
+   "values": {
+    "type": "rpm-rate based, on/off"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: First Look 2023 KTM SX & XC models",
+    "url": "https://dirtbiketest.com/fresh-dirt/first-look-2023-ktm-sx-xc-models/",
+    "date": "2022-05"
+   },
+   "confidence": "high",
+   "notes": "MXA's older (2017) explanation says the ECU retards ignition to slow the engine; method on the 2023+ ECU not confirmed."
+  },
+  {
+   "id": "k45-065",
+   "domain": "ecu_electronics",
+   "topic": "traction control use",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "MXA riders used traction control mainly on hard, slippery or wet tracks and found it of little value in loam; some owners never use it.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: Ask the MXperts - what really happens when I press the buttons",
+    "url": "https://motocrossactionmag.com/ask-the-mxperts-what-really-happens-when-i-press-the-buttons",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": "MXA comment dates from the pre-2023 generation; Vital forum owners echo it for 2023+."
+  },
+  {
+   "id": "k45-066",
+   "domain": "ecu_electronics",
+   "topic": "launch control",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Launch control is armed at idle by pressing the traction-control and quickshifter buttons together; it limits rear-wheel power off the start.",
+   "values": {
+    "activation": "TC + QS buttons together"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2025 450 SX-F model page",
+    "url": "https://ktm.com/en-gr/models/motocross/4-stroke/2025-ktm-450-sx-f.html",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "MXA (2017-era explanation): an indicator flashes, power is cut by retarded ignition, and it switches off if revs drop more than 30%; not confirmed for 2023+."
+  },
+  {
+   "id": "k45-067",
+   "domain": "ecu_electronics",
+   "topic": "quickshifter function",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "The quickshifter allows clutchless upshifts from 2nd to 5th. A sensor on the shift drum detects the shift and the ECU briefly cuts ignition; it is switched on/off with the QS button.",
+   "values": {
+    "gears": "2nd-5th upshifts only"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Media Information 2024 FC 450 (press kit PDF)",
+    "url": "https://www.husqvarna-motorcycles.com/language-masters/en/media-information-motocross/2024/Media-Information-2024-FC-450.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k45-068",
+   "domain": "ecu_electronics",
+   "topic": "quickshifter reaction speeds",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "MXA reports the 2025 quickshifter has two reaction speeds, one for the 3rd-4th shift and one for the 4th-5th shift.",
+   "values": {
+    "reaction_speeds": "2"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-ktm-450sxf",
+    "date": "2024"
+   },
+   "confidence": "low",
+   "notes": "MXA wording; KTM does not publish the values. CUO allows quickshifter sensitivity changes."
+  },
+  {
+   "id": "k45-069",
+   "domain": "ecu_electronics",
+   "topic": "quickshifter in use",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers like the quickshifter on long, fast starts but find it quirky at half throttle, especially on jump faces; some riders leave it off out of habit.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-ktm-450sxf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "MXA 2023-2024 KTM and Husqvarna tests; MotoOnline 2023."
+  },
+  {
+   "id": "k45-070",
+   "domain": "ecu_electronics",
+   "topic": "Connectivity Unit Offroad (CUO)",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "The CUO is a two-piece module (unit behind the number plate, GPS on the fender) that links to the KTMconnect app. It adjusts engine braking, throttle response, traction control, launch control and quickshifter engagement, and has sand, gravel, hard-pack, dry and wet presets.",
+   "values": {
+    "hardware_price_us": "$249.99 (MXA)",
+    "rider_subscription": "$69.99/yr US; EUR 69.99/yr or 11.99/month"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM tech guide: Connectivity Unit Offroad",
+    "url": "https://www.ktm.com/tech-guide/connectivity-unit-offroad",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Standard on 2024+ Factory Editions; retrofit for 2024-2025 SX-F per KTM (2023 not listed). Number of levels per parameter not published."
+  },
+  {
+   "id": "k45-071",
+   "domain": "ecu_electronics",
+   "topic": "Husqvarna FC 450 electronics",
+   "applies_to": {
+    "models": [
+     "FC 450"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The FC 450 has the same map switch, traction control, launch control and quickshifter as the KTM.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 Husqvarna FC450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-husqvarna-fc450",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k45-072",
+   "domain": "ecu_electronics",
+   "topic": "GasGas MC 450F electronics",
+   "applies_to": {
+    "models": [
+     "MC 450F"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The standard MC 450F comes with only the mellow map; the switch for the aggressive map, traction control and quickshifter is missing and is a PowerParts accessory (about $180).",
+   "values": {
+    "map_switch_price": "about $180"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: 450 Test Rider Report Cards (2025 450s)",
+    "url": "https://motocrossactionmag.com/450-test-rider-report-cards",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Quickshift hardware present; switch absent. 2024.5 MC 450F Factory Edition has the switch and GASGAS+ connectivity unit."
+  },
+  {
+   "id": "k45-073",
+   "domain": "ecu_electronics",
+   "topic": "stock ECU locked",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Keefer reported the stock 2023 ECU was locked and could not be remapped at launch.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing: 2023 KTM 450 SX-F suspension baseline / chassis tips",
+    "url": "https://www.keeferinctesting.com/2023-ktm-450-sx-f-suspension-baseline-settings-chassis-tips-tricks/",
+    "date": "2022-08"
+   },
+   "confidence": "medium",
+   "notes": "Later, some tuners offered stock-ECU remaps (see community records)."
+  },
+  {
+   "id": "k45-074",
+   "domain": "ecu_electronics",
+   "topic": "aftermarket ECU: AIM Taipan and Vortex",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Keefer preferred an AIM Taipan ECU: per-gear mapping gave a longer-pulling second gear, smoother low end and stronger mid-to-top with better exit traction. A Vortex unit mapped with XPR also beat stock. Both let him ride a gear higher with less engine braking.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing: 2023 KTM 450 SX-F suspension baseline / chassis tips",
+    "url": "https://www.keeferinctesting.com/2023-ktm-450-sx-f-suspension-baseline-settings-chassis-tips-tricks/",
+    "date": "2022-08"
+   },
+   "confidence": "medium",
+   "notes": "No dyno numbers published."
+  },
+  {
+   "id": "k45-075",
+   "domain": "ecu_electronics",
+   "topic": "aftermarket ECU: owner reports",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Owners report XPR and Twisted Development reprogramming Vortex units for 2023+ KTMs (about $1,100 from Twisted), Twisted remaps of stock ECUs, and that older Vortex units may not support the stock map switch, traction control or quickshift. One tuner reportedly said it cannot work on 2023+ ECUs.",
+   "values": {
+    "vortex_price": "about $1,100 (owner report)"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum: 2024 KTM 350 SXF stock remap vs Vortex ECU",
+    "url": "https://www.vitalmx.com/comment/8464266",
+    "date": "2025-11"
+   },
+   "confidence": "low",
+   "notes": "Vital MX threads Jan 2025 and Nov 2025-Jan 2026; mostly 350 SX-F owners, same ECU family. Results mixed."
+  },
+  {
+   "id": "k45-076",
+   "domain": "engine_mods",
+   "topic": "aftermarket exhaust (FMF)",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Keefer found an FMF system gave more midrange and top-end pull with a slight loss of low-end response; he kept the insert in.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing: 2023 KTM 450 SX-F suspension baseline / chassis tips",
+    "url": "https://www.keeferinctesting.com/2023-ktm-450-sx-f-suspension-baseline-settings-chassis-tips-tricks/",
+    "date": "2022-08"
+   },
+   "confidence": "medium",
+   "notes": "No dyno numbers."
+  },
+  {
+   "id": "k45-077",
+   "domain": "engine_mods",
+   "topic": "vented airbox cover",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450",
+     "MC 450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "A vented airbox cover is included or optional; on the Husqvarna (side vents moulded shut) and GasGas (most restricted airbox) it is the main fix for slow throttle response, and MXA testers drilled the GasGas cover.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 GasGas MC450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-gasgas-mc450f",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "KTM includes a vented cover in the 2023 by-pack per KTM NZ."
+  },
+  {
+   "id": "k45-078",
+   "domain": "engine_mods",
+   "topic": "GasGas exhaust restriction",
+   "applies_to": {
+    "models": [
+     "MC 450F"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "The GasGas muffler has a restrictor screen and its head pipe has no resonance chamber, which MXA says costs midrange compared with the KTM and Husqvarna systems.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 GasGas MC450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-gasgas-mc450f",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k45-079",
+   "domain": "drivetrain",
+   "topic": "primary drive ratio",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450",
+     "MC 450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Primary drive is 29:72.",
+   "values": {
+    "primary": "29:72"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Media Information 2024 FC 450 (press kit PDF)",
+    "url": "https://www.husqvarna-motorcycles.com/language-masters/en/media-information-motocross/2024/Media-Information-2024-FC-450.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "KTM spec lists 72 teeth on the clutch; MXA First Look and Vital list 29:72."
+  },
+  {
+   "id": "k45-080",
+   "domain": "drivetrain",
+   "topic": "final drive",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Stock gearing is 13/51 on a 520 (5/8 x 1/4 in) non-sealed chain.",
+   "values": {
+    "sprockets": "13/51",
+    "chain": "520 non-sealed"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX bike guide: 2023 KTM 450 SX-F",
+    "url": "https://www.vitalmx.com/product/guide/bikes/ktm/450-sx-f-7471",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "UltimateSpecs lists an X-ring chain - see conflicts."
+  },
+  {
+   "id": "k45-081",
+   "domain": "drivetrain",
+   "topic": "final drive ratio",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "13/51 is a 3.923 final ratio; with the 2.483 primary the overall reduction before the gearbox is 9.74 to 1.",
+   "values": {
+    "final_ratio": "3.923",
+    "primary_ratio": "2.483",
+    "primary_x_final": "9.740"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation from published inputs",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "high",
+   "notes": "51/13 = 3.923; 72/29 = 2.483; product 9.740."
+  },
+  {
+   "id": "k45-082",
+   "domain": "drivetrain",
+   "topic": "gearing changes used by testers",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "MXA riders who found map 2 too much went to 13/50 (3.846), and vets ran 14/52 (3.714). Keefer stayed at 13/51 and considered 14/53 (3.786).",
+   "values": {
+    "13_50": "3.846",
+    "14_52": "3.714",
+    "14_53": "3.786"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-ktm-450sxf",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Ratios: 50/13 = 3.846; 52/14 = 3.714; 53/14 = 3.786."
+  },
+  {
+   "id": "k45-083",
+   "domain": "drivetrain",
+   "topic": "gearbox",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450",
+     "MC 450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "The 5-speed gearbox is made by Pankl, with a lighter shift shaft for lower shift effort and a gear sensor.",
+   "values": {
+    "speeds": "5"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Media Information 2024 FC 450 (press kit PDF)",
+    "url": "https://www.husqvarna-motorcycles.com/language-masters/en/media-information-motocross/2024/Media-Information-2024-FC-450.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Keefer notes the new gear ratios make second gear shorter than 2022; individual ratios not found."
+  },
+  {
+   "id": "k45-084",
+   "domain": "drivetrain",
+   "topic": "clutch",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "The clutch is a wet DDS multi-disc with a single diaphragm steel spring, an integrated damper, a one-piece CNC steel basket, pressure lubrication and Brembo hydraulic actuation.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Media Information 2024 FC 450 (press kit PDF)",
+    "url": "https://www.husqvarna-motorcycles.com/language-masters/en/media-information-motocross/2024/Media-Information-2024-FC-450.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "GasGas uses BrakTec clutch hydraulics."
+  },
+  {
+   "id": "k45-085",
+   "domain": "drivetrain",
+   "topic": "chain slack",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Set chain slack to about 68-70 mm; looser chains whip and wear the chain buffer.",
+   "values": {
+    "slack": "68-70 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing: 2023 KTM 450 SX-F suspension baseline / chassis tips",
+    "url": "https://www.keeferinctesting.com/2023-ktm-450-sx-f-suspension-baseline-settings-chassis-tips-tricks/",
+    "date": "2022-08"
+   },
+   "confidence": "high",
+   "notes": "MXA gives 70 mm."
+  },
+  {
+   "id": "k45-086",
+   "domain": "chassis",
+   "topic": "steering geometry",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Rake is 26.1 degrees (a 63.9 degree steering head angle) with 22 mm triple-clamp offset.",
+   "values": {
+    "rake": "26.1 deg",
+    "steering_head_angle": "63.9 deg",
+    "offset": "22 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: First Look 2023 KTM 450SXF/350SXF/250SXF",
+    "url": "https://motocrossactionmag.com/2023-ktm-450sxf-350sxf-250sxf-motocross-models",
+    "date": "2022-05"
+   },
+   "confidence": "high",
+   "notes": "Trail is not published (Dirt Rider lists NA)."
+  },
+  {
+   "id": "k45-087",
+   "domain": "chassis",
+   "topic": "wheelbase",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Claimed wheelbase is 1,493 mm (58.7 in), plus or minus 10 mm depending on chain adjustment.",
+   "values": {
+    "wheelbase": "1,493 mm +/-10 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX bike guide: 2023 KTM 450 SX-F",
+    "url": "https://www.vitalmx.com/product/guide/bikes/ktm/450-sx-f-7471",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Dirt Rider lists 58.7-58.8 in; some spec databases carry the old 1,485 mm."
+  },
+  {
+   "id": "k45-088",
+   "domain": "chassis",
+   "topic": "seat height and ground clearance",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "KTM claims 958 mm (37.7 in) seat height and 343 mm (13.5 in) ground clearance. Dirt Rider measured 37.8 in (2024), 37.9 in (2025) and 37.6 in (2026).",
+   "values": {
+    "claimed_seat": "958 mm",
+    "ground_clearance": "343 mm",
+    "measured_seat": "37.6-37.9 in"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM USA 2025 450 SX-F technical specifications",
+    "url": "https://www.ktm.com/en-us/models/motocross/4-stroke/2025-ktm-450-sx-f/technical-specifications.html",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k45-089",
+   "domain": "chassis",
+   "topic": "frame 2023-2024",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "The 2023 frame is a hydroformed 25CrMo4 chromoly double cradle with forged head-tube brackets and engine mounts directly to the frame; the shock top no longer bolts to the backbone, sending loads into the strongest part of the frame.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-ktm-450sxf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k45-090",
+   "domain": "chassis",
+   "topic": "frame 2025+",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450",
+     "MC 450F"
+    ],
+    "years": [
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "The 2025 frame has relief holes in the shock tower, thinner head-tube plates, thinner tube walls and machined openings in the head stays, saving about 300 g and adding flex for comfort.",
+   "values": {
+    "weight_saving": "about 300 g"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-ktm-450sxf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Introduced on 2024 Factory Edition / 2024.5 GasGas FE."
+  },
+  {
+   "id": "k45-091",
+   "domain": "chassis",
+   "topic": "subframe and swingarm",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "The subframe is a polyamide/aluminium hybrid (under 2 kg claimed) and the swingarm is a hollow die-cast part.",
+   "values": {
+    "subframe_weight": "<2 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21: First look 2023 KTM motocross range",
+    "url": "https://enduro21.com/en/bikes/latest/first-look-2023-ktm-motocross-range-new-fuel-injected-two-strokes-including-a-300-sx-model",
+    "date": "2022-05"
+   },
+   "confidence": "medium",
+   "notes": "GasGas uses its own aluminium subframe (MXA 2024)."
+  },
+  {
+   "id": "k45-092",
+   "domain": "chassis",
+   "topic": "handling 2023-2024",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "MXA found the 2023-2024 bike super accurate with no oversteer or understeer once broken in, but the stiffer frame needs 8-10 hours to settle, feels heavier at the front, and less squat helps in whoops. Keefer found it stiffer from the pivot back with more deflection over braking bumps and slower initial turn-in than 2022.",
+   "values": {
+    "break_in": "8-10 h"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-ktm-450sxf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Dirt Bike 2024: very rigid frame and harsh overall feel, but best suspension of the Austrian trio."
+  },
+  {
+   "id": "k45-093",
+   "domain": "chassis",
+   "topic": "handling 2025-2026",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "MXA says the 2025 frame, linkage and mount changes cured the harsh, stiff feel: stable, accurate, no head shake, more compliant in rough ground. Swapmoto testers found it planted, nimble and with excellent rear traction.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-ktm-450sxf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k45-094",
+   "domain": "chassis",
+   "topic": "split triple clamps",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Keefer found 23.5 mm offset split clamps from Ride Engineering improved front-end feel and reduced deflection over braking bumps.",
+   "values": {
+    "offset": "23.5 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing: 2023 KTM 450 SX-F suspension baseline / chassis tips",
+    "url": "https://www.keeferinctesting.com/2023-ktm-450-sx-f-suspension-baseline-settings-chassis-tips-tricks/",
+    "date": "2022-08"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "k45-095",
+   "domain": "chassis",
+   "topic": "Husqvarna FC 450 chassis differences",
+   "applies_to": {
+    "models": [
+     "FC 450"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The FC 450 sits about 1 inch lower: forks are 10 mm shorter, a new bell crank and longer link arms lower the rear, and the shock seal-head cap is 9.5 mm taller. It uses ProTaper bars, different shrouds, tank and side panels.",
+   "values": {
+    "ride_height": "about -1 in",
+    "fork_length": "-10 mm",
+    "seal_head_cap": "9.5 mm (from 6 mm)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 Husqvarna FC450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-husqvarna-fc450",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Same valving and 45 N/mm spring as KTM. Dirt Rider measured 37.3 in seat height (2024)."
+  },
+  {
+   "id": "k45-096",
+   "domain": "chassis",
+   "topic": "GasGas MC 450F chassis differences",
+   "applies_to": {
+    "models": [
+     "MC 450F"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The MC 450F shares the KTM frame and engine but uses forged (not CNC) triple clamps, 12 mm taller Neken bars, BrakTec brakes, Maxxis MX-ST tyres and softer suspension valving.",
+   "values": {
+    "bar_height": "+12 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: 450 Test Rider Report Cards (2025 450s)",
+    "url": "https://motocrossactionmag.com/450-test-rider-report-cards",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k45-097",
+   "domain": "suspension",
+   "topic": "stock shock spring",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The stock shock spring is 45 N/mm (KTM dropped it from 48 N/mm); MXA suggests 42 N/mm for riders under 175 lb.",
+   "values": {
+    "stock_spring": "45 N/mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2026 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2026-ktm-450sxf/",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "GasGas 2023 used 42 N/mm."
+  },
+  {
+   "id": "k45-098",
+   "domain": "setups",
+   "topic": "MXA suspension settings",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "MXA's race settings: fork air 158/152/145/138 psi (expert/intermediate/vet/novice), compression 14 out, rebound 15 out, forks at third line; shock race sag 105 mm, high-speed compression 1.5 turns out, low-speed 10-17 out, rebound 15 out.",
+   "values": {
+    "fork_air_expert": "158 psi",
+    "race_sag": "105 mm",
+    "hsc": "1.5 turns out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2026 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2026-ktm-450sxf/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Low-speed compression: 10 out (2023), 15 out (2024), 17 out (2026)."
+  },
+  {
+   "id": "k45-099",
+   "domain": "setups",
+   "topic": "Keefer baseline",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Keefer's baseline for 175-200 lb riders: fork 5 mm up, 10.9 bar, compression 15 out, rebound 16 out; shock sag 106 mm, low-speed 12 out, high-speed 1.25 turns out, rebound 16 out, after 8 hours of break-in.",
+   "values": {
+    "fork_air": "10.9 bar",
+    "sag": "106 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing: 2023 KTM 450 SX-F suspension baseline / chassis tips",
+    "url": "https://www.keeferinctesting.com/2023-ktm-450-sx-f-suspension-baseline-settings-chassis-tips-tricks/",
+    "date": "2022-08"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "k45-100",
+   "domain": "known_issues",
+   "topic": "chassis and fork break-in",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450",
+     "MC 450F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Forks feel harsh for the first 2-5 hours and the frame needs about 8-10 hours before it settles; 2025 frame changes reduced the harshness.",
+   "values": {
+    "fork_break_in": "2-5 h",
+    "frame_break_in": "8-10 h"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-ktm-450sxf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k45-101",
+   "domain": "known_issues",
+   "topic": "shock linkage bearings",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Needle bearings in the shock linkage can walk out and bind. MXA recommends caged bearing KTM part 58033097000.",
+   "values": {
+    "part_number": "58033097000"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-ktm-450sxf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Linkage redesigned for 2025 with new seals and smaller bolts."
+  },
+  {
+   "id": "k45-102",
+   "domain": "known_issues",
+   "topic": "start/stop switch water",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "On 2023 models water in the start/stop switch could short the ECU; KTM sealed it better for 2024.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-ktm-450sxf",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Kill button is on the right bar; Nihilo Concepts and Ride Engineering sell left-side kits."
+  },
+  {
+   "id": "k45-103",
+   "domain": "known_issues",
+   "topic": "spokes loosening",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450",
+     "MC 450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Spoke nipples loosen often, especially near the rear rim lock; check before every ride.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2026 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2026-ktm-450sxf/",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Reported every year 2023-2026."
+  },
+  {
+   "id": "k45-104",
+   "domain": "known_issues",
+   "topic": "chain buffer wear",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "With chain slack under 70 mm the chain eats the swingarm buffer pad; 2025 got a lowered swingarm top and thicker/machined chain slider.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-ktm-450sxf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k45-105",
+   "domain": "known_issues",
+   "topic": "rear brake pedal",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450",
+     "MC 450F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "The rear brake pedal tip bends or breaks easily in crashes; KTM fitted a stronger pedal for 2025.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-ktm-450sxf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k45-106",
+   "domain": "known_issues",
+   "topic": "shock bottoming",
+   "applies_to": {
+    "models": [
+     "450 SX-F",
+     "FC 450"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "The 2023 shock bottoms hard at the end of its stroke; MXA wanted more rising rate. On the Husqvarna, five more clicks of low-speed compression helped.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2023-ktm-450sxf",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "k45-107",
+   "domain": "known_issues",
+   "topic": "small issues",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Repeated tester complaints: neutral hard to find at the gate, sticky gas cap, hard-to-remove plastic radiator cap (threaded cap from 2026), low-profile buttons hard to press with gloves, tall seat, side panels hide shock clickers, and older spare rear wheels need new seals and spacer.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-ktm-450sxf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "k45-108",
+   "domain": "known_issues",
+   "topic": "wiring harness and fuel connector",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2026,
+     2027
+    ]
+   },
+   "statement": "KTM added a cap to protect the CPC fuel connector from damage and accidental disconnects for 2026 and re-routed the wiring harness with new fixing points to reduce wear for 2027.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM South Africa 2027 450 SX-F page",
+    "url": "https://www.ktm.com/en-za/models/motocross/4-stroke/2027-ktm-450-sx-f.html",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "Implies harness wear/fuel-connector damage on earlier bikes; KTM did not call it a defect."
+  },
+  {
+   "id": "k45-109",
+   "domain": "known_issues",
+   "topic": "intermittent cutting out",
+   "applies_to": {
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "One owner's 2023 450 bogged and cut out after many parts were swapped; the cause was a spark plug boot cracked under the seal. Others suggested checking grounds, pushed-back pins and water in connectors.",
+   "values": {},
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum: 2023 KTM450 problems (single-owner thread)",
+    "url": "https://www.vitalmx.com/comment/6334066",
+    "date": "2024-04"
+   },
+   "confidence": "low",
+   "notes": "Single owner, harness had been lent out; not a pattern."
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "compression ratio",
+   "values": {
+    "KTM/Dirt Rider/Vital": "13.1:1",
+    "Husqvarna press kit, Dirt Rider FC 450, Cycle World FE": "13.6:1",
+    "MXA 2023 race test": "14.1:1 (up from 13.75)",
+    "Motorcycle.com database": "12.8:1"
+   },
+   "spread": "12.8-14.1:1",
+   "note": "Same engine across brands; OEM sources disagree (13.1 vs 13.6)."
+  },
+  {
+   "topic": "peak horsepower (rear wheel)",
+   "values": {
+    "MXA 2023 map 2": "59.85",
+    "MXA 2024": "59.94",
+    "MXA 2025": "59.20",
+    "DBM/Pro Circuit 2026": "59.5",
+    "ADB 2023": "56.3",
+    "Dirt Rider 2023": "54.3",
+    "Dirt Rider 2024": "56.4",
+    "Dirt Rider 2025": "53.2",
+    "Dirt Rider 2026": "56.7"
+   },
+   "spread": "53.2-59.94 hp",
+   "note": "Different dynos and conditions; not comparable across sources."
+  },
+  {
+   "topic": "peak torque",
+   "values": {
+    "MXA 2023": "37.01 lb-ft @ 7,100",
+    "DBM 2026": "36.3 lb-ft @ 7,600",
+    "ADB 2023": "48 Nm (35.4 lb-ft) @ <7,000",
+    "DR 2024": "34.6 @ 7,500",
+    "DR 2026": "34.5 @ 7,700",
+    "DR 2023": "33.8",
+    "DR 2025": "32.9 @ 7,100"
+   },
+   "spread": "32.9-37.01 lb-ft",
+   "note": "Dyno differences."
+  },
+  {
+   "topic": "bore",
+   "values": {
+    "KTM, all magazines": "95 mm",
+    "Ultimate Motorcycling 2027 first look": "94 mm"
+   },
+   "spread": "94-95 mm",
+   "note": "94 mm is almost certainly a typo; 94 x 63.4 would give 440 cc."
+  },
+  {
+   "topic": "wheelbase",
+   "values": {
+    "KTM via MXA/Vital": "1,493 mm +/-10",
+    "Dirt Rider": "58.7-58.8 in",
+    "Motorcycle.com/UltimateSpecs": "1,485 mm"
+   },
+   "spread": "1,485-1,493 mm",
+   "note": "1,485 mm appears to be the pre-2023 figure carried in databases."
+  },
+  {
+   "topic": "rev limit",
+   "values": {
+    "MXA dyno": "about 11,400 rpm",
+    "ADB dyno": "about 11,000 rpm"
+   },
+   "spread": "11,000-11,400 rpm",
+   "note": "No OEM figure."
+  },
+  {
+   "topic": "number of maps",
+   "values": {
+    "KTM": "2 (switch)",
+    "MotoOnline 2023 test": "3"
+   },
+   "spread": "2-3",
+   "note": "MotoOnline likely counted TC or a CUO preset; KTM lists two."
+  },
+  {
+   "topic": "chain type",
+   "values": {
+    "KTM USA spec": "520 non-sealed",
+    "UltimateSpecs/Total Motorcycle (XC-F)": "X-ring"
+   },
+   "spread": "",
+   "note": "X-ring applies to XC-F; SX-F is non-sealed per KTM."
+  },
+  {
+   "topic": "claimed weight",
+   "values": {
+    "KTM std 2023-26": "102.6 kg no fuel",
+    "KTM 2027 ZA": "103.1 kg",
+    "KTM India": "107 kg kerb",
+    "FE 2023": "103.5 kg",
+    "FE 2024": "103.9 kg",
+    "FE 2026": "106.4 kg"
+   },
+   "spread": "102.6-107 kg",
+   "note": "Different bases (no fuel vs kerb) and editions."
+  },
+  {
+   "topic": "map preference",
+   "values": {
+    "MXA 2023-24, Dirt Rider 2024": "map 2",
+    "MXA 2025-26, MotoOnline 2023": "map 1"
+   },
+   "spread": "",
+   "note": "Rider preference, not a fact conflict."
+  }
+ ],
+ "not_found": [
+  {
+   "item": "individual gear ratios (1st-5th)",
+   "searched": "KTM/Husqvarna spec pages, Husqvarna 2024 press kit, Vital/UltimateSpecs/Motorcycle.com, ManualsLib/manua.ls owner's manual (page not rendered), extended web search",
+   "note": "So speed per gear could not be derived. Owner's manual p.147 (Technical Data - Engine) should hold them."
+  },
+  {
+   "item": "speed per gear (DERIVED)",
+   "searched": "Needs gear ratios",
+   "note": "Primary 29:72 and final 13:51 known; overall pre-gearbox reduction 9.74."
+  },
+  {
+   "item": "valve material",
+   "searched": "KTM pages, Husqvarna press kit, first-look articles",
+   "note": "Described only as 'lightweight'."
+  },
+  {
+   "item": "cam lift/duration/timing, rod length",
+   "searched": "Press kits, magazines",
+   "note": "Not published."
+  },
+  {
+   "item": "OEM rev limit",
+   "searched": "KTM pages and magazines",
+   "note": "Only dyno sign-off (11,000-11,400 rpm)."
+  },
+  {
+   "item": "injector count/flow for SX-F",
+   "searched": "KTM pages, press coverage",
+   "note": "Only an XC-F reseller description mentions a double-injector pattern."
+  },
+  {
+   "item": "trail",
+   "searched": "KTM spec pages, Dirt Rider (lists NA)",
+   "note": "Not published."
+  },
+  {
+   "item": "recalls/service bulletins 2023-2027",
+   "searched": "KTM safety page search results (not opened), NHTSA query",
+   "note": "None found; KTM safety page not checked in detail."
+  },
+  {
+   "item": "GET ECU or other published tuner maps for 2023+ 450 SX-F",
+   "searched": "GET RX1 listings (found only EXC-F/older SX-F), Vortex/Twisted threads",
+   "note": "No published map tables or dyno before/after."
+  },
+  {
+   "item": "launch-control and traction-control parameters (rpm limits, levels)",
+   "searched": "KTM tech guide, MXA, owner's manual TOC",
+   "note": "Owner's manual pp.30-32 cover them but page text was not reachable."
+  },
+  {
+   "item": "2027 tests and dynos",
+   "searched": "2027 first-look articles",
+   "note": "Only first-look data available as of Oct 2026."
+  },
+  {
+   "item": "Vital MX, Racer X, Cycle News, Swapmoto dyno charts 2023-2026",
+   "searched": "Partial; web search budget ran out",
+   "note": "Follow-up search would likely add more dyno sources."
+  }
+ ],
+ "sources": [
+  {
+   "type": "manufacturer",
+   "name": "KTM 2025 450 SX-F model page",
+   "url": "https://ktm.com/en-gr/models/motocross/4-stroke/2025-ktm-450-sx-f.html",
+   "date": "2024"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM USA 2025 450 SX-F technical specifications",
+   "url": "https://www.ktm.com/en-us/models/motocross/4-stroke/2025-ktm-450-sx-f/technical-specifications.html",
+   "date": "2024"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM NZ 2023 450 SX-F model page",
+   "url": "https://www.ktm.com/en-nz/models/motocross/4-stroke/ktm-450-sx-f-2023.html",
+   "date": "2022"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM NZ 2023 450 SX-F technical specifications",
+   "url": "https://www.ktm.com/en-nz/models/motocross/4-stroke/ktm-450-sx-f-2023/technical-specifications.html",
+   "date": "2022"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM India 450 SX-F specifications",
+   "url": "https://www.ktmindia.com/ktm-bikes/motocross/ktm-450-sx-f/specifications",
+   "date": "2024"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM USA 2026 450 SX-F Factory Edition page",
+   "url": "https://www.ktm.com/en-us/models/motocross/4-stroke/2026-ktm-450-sx-ffactoryedition.html",
+   "date": "2025"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM South Africa 2027 450 SX-F page",
+   "url": "https://www.ktm.com/en-za/models/motocross/4-stroke/2027-ktm-450-sx-f.html",
+   "date": "2026"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM tech guide: Connectivity Unit Offroad",
+   "url": "https://www.ktm.com/tech-guide/connectivity-unit-offroad",
+   "date": "2025"
+  },
+  {
+   "type": "manufacturer",
+   "name": "KTM tech guide: Quickshifter",
+   "url": "https://www.ktm.com/tech-guide/quickshifter",
+   "date": "2025"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Husqvarna Media Information 2024 FC 450 (press kit PDF)",
+   "url": "https://www.husqvarna-motorcycles.com/language-masters/en/media-information-motocross/2024/Media-Information-2024-FC-450.pdf",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: First Look 2023 KTM 450SXF/350SXF/250SXF",
+   "url": "https://motocrossactionmag.com/2023-ktm-450sxf-350sxf-250sxf-motocross-models",
+   "date": "2022-05"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA Race Test 2023 KTM 450SXF",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2023-ktm-450sxf",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA Race Test 2024 KTM 450SXF",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2024-ktm-450sxf",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA Race Test 2025 KTM 450SXF",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2025-ktm-450sxf",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA Race Test 2026 KTM 450SXF",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2026-ktm-450sxf/",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: First Look 2026 KTM 250/350/450 SXF",
+   "url": "https://motocrossactionmag.com/first-look-2o26-ktm-250-sxf-350sxf-450-sxf-models/",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA Race Test 2023 Husqvarna FC450",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-husqvarna-fc450",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA Race Test 2024 Husqvarna FC450",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2024-husqvarna-fc450",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: MXA Race Test 2024 GasGas MC450F",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2024-gasgas-mc450f",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: 450 Test Rider Report Cards (2025 450s)",
+   "url": "https://motocrossactionmag.com/450-test-rider-report-cards",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: Ask the MXperts - what really happens when I press the buttons",
+   "url": "https://motocrossactionmag.com/ask-the-mxperts-what-really-happens-when-i-press-the-buttons",
+   "date": "2017"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action: 60-hp KTM 350 vs 60-hp KTM 450SXF",
+   "url": "https://motocrossactionmag.com/mxa-video-we-built-a-60-horsepower-ktm-350-monster/",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2023 KTM 450 SX-F Dyno Test",
+   "url": "https://www.dirtrider.com/tests/ktm-450-sx-f-dyno-test-2023",
+   "date": "2023-02"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2024 KTM 450 SX-F Dyno Test",
+   "url": "https://dirtrider.com/tests/ktm-450-sx-f-dyno-test-2024",
+   "date": "2024-07"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2024 KTM 450 SX-F Technical Information",
+   "url": "https://www.dirtrider.com/dirt-bikes/ktm-450-sx-f-technical-information-2024",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2025 KTM 450 SX-F Dyno Test",
+   "url": "https://dirtrider.com/tests/ktm-450-sx-f-dyno-test-2025",
+   "date": "2024-09"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2025 KTM 450 SX-F Technical Information",
+   "url": "https://www.dirtrider.com/dirt-bikes/2025-ktm-450-sx-f-technical-information/",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2026 KTM 450 SX-F Technical Overview",
+   "url": "https://www.dirtrider.com/dirt-bikes/ktm-450-sx-f-technical-information",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: Best Motocross Bike 3rd Place, 2026 KTM 450 SX-F",
+   "url": "https://www.dirtrider.com/tests/ktm-450-sx-f-best-motocross-bike-3rd-place-2026/",
+   "date": "2026-01"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2024 Husqvarna FC 450 Technical Information",
+   "url": "https://www.dirtrider.com/dirt-bikes/husqvarna-fc-450-technical-information-2024/",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider: 2025 GasGas MC 450F Dyno Test",
+   "url": "https://dirtrider.com/tests/gasgas-mc-450f-dyno-test-2025",
+   "date": "2024-09"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Magazine: Twelve 450 Motocross Bikes on the Dyno - The Wrap (2026 shootout)",
+   "url": "https://dirtbikemagazine.com/?p=101733",
+   "date": "2025-11"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Magazine: 2024 450 Shootout Notes - The Wrap",
+   "url": "https://dirtbikemagazine.com/2024-450-shootout-notes-the-wrap/",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "ADB Magazine: Dyno test 2023 KTM 450 SX-F vs 300 SX",
+   "url": "https://adbmag.com.au/editorial/dyno-test-2023-ktm-450-sx-f-vs-300-sx/",
+   "date": "2023-08"
+  },
+  {
+   "type": "magazine",
+   "name": "ADB Magazine: KTM unveils 2027 SX motocross range",
+   "url": "https://adbmag.com.au/editorial/ktm-unveils-2027-sx-motocross-range/",
+   "date": "2026"
+  },
+  {
+   "type": "magazine",
+   "name": "Ultimate Motorcycling: 2027 KTM SX-F Lineup First Look",
+   "url": "https://ultimatemotorcycling.com/2026/04/30/2027-ktm-sx-f-lineup-first-look-450-350-and-250-return/",
+   "date": "2026-04"
+  },
+  {
+   "type": "magazine",
+   "name": "MotoOnline: Tested 2023 KTM 450 SX-F",
+   "url": "https://www.motoonline.com/au/tested-2023-ktm-450-sx-f/",
+   "date": "2022-05"
+  },
+  {
+   "type": "magazine",
+   "name": "MotoOnline: Detailed 2025 KTM SX-F and SX range",
+   "url": "https://www.motoonline.com/au/detailed-2025-ktm-sx-f-and-sx-range/",
+   "date": "2024-04"
+  },
+  {
+   "type": "magazine",
+   "name": "Bikesales: KTM motocross 2025 update",
+   "url": "https://www.bikesales.com.au/editorial/details/ktm-motocross-2025-update-more-than-just-bold-new-graphics-145386",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Test: First Look 2023 KTM SX & XC models",
+   "url": "https://dirtbiketest.com/fresh-dirt/first-look-2023-ktm-sx-xc-models/",
+   "date": "2022-05"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News: 2023 KTM SX and SX-F First Looks",
+   "url": "https://www.cyclenews.com/2022/05/article/2023-ktm-sx-and-sx-f-first-looks/",
+   "date": "2022-05"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News: New 2024.5 GasGas MC 250F and MC 450F specs",
+   "url": "https://www.cyclenews.com/2023/12/article/new-2024-5-gasgas-mc-250f-and-mc-450f-specs/",
+   "date": "2023-12"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21: First look 2023 KTM motocross range",
+   "url": "https://enduro21.com/en/bikes/latest/first-look-2023-ktm-motocross-range-new-fuel-injected-two-strokes-including-a-300-sx-model",
+   "date": "2022-05"
+  },
+  {
+   "type": "magazine",
+   "name": "Total Motorcycle: 2023 KTM 450 XC-F guide",
+   "url": "https://www.totalmotorcycle.com/motorcycles/2023/2023-ktm-450-xcf",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Vital MX bike guide: 2023 KTM 450 SX-F",
+   "url": "https://www.vitalmx.com/product/guide/bikes/ktm/450-sx-f-7471",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Vital MX bike guide: 2023 KTM 450 SX-F Factory Edition",
+   "url": "https://www.vitalmx.com/product/guide/bikes/ktm/450-sx-f-factory-edition-7476",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Vital MX bike guide: 2024 KTM 450 SX-F Factory Edition",
+   "url": "https://www.vitalmx.com/product/guide/bikes/ktm/450-sx-f-factory-edition-15036",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "MCN: 2024 KTM 450 SX-F Factory Edition",
+   "url": "https://motorcyclenews.com/news/new-bikes/2023/december/ktm-450-mx-bike",
+   "date": "2023-12"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle World buyer's guide: 2025 KTM 450 SX-F / Factory Edition",
+   "url": "https://cycleworld.com/ktm/450-sx-f-factory-edition",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Swapmoto Live: 2025 450 MX Bike Shootout In Depth (KTM page)",
+   "url": "https://swapmotolive.com/2025-450-mx-bike-shootout-in-depth/shootout/2025-450-shootout/6",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Keefer Inc. Testing: 2023 KTM 450 SX-F suspension baseline / chassis tips",
+   "url": "https://www.keeferinctesting.com/2023-ktm-450-sx-f-suspension-baseline-settings-chassis-tips-tricks/",
+   "date": "2022-08"
+  },
+  {
+   "type": "dealer",
+   "name": "Motorcycle.com spec database: 2023 KTM SX 450 F",
+   "url": "https://www.motorcycle.com/specs/ktm/off-road/2023/sx/450-f/detail.html",
+   "date": "2023"
+  },
+  {
+   "type": "dealer",
+   "name": "UltimateSpecs: 2023 KTM 450 SX-F",
+   "url": "https://www.ultimatespecs.com/motorcycles-specs/ktm/ktm-450-sx-f-2023",
+   "date": "2023"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum: 2023+ KTM Map Switch With Vortex",
+   "url": "https://www.vitalmx.com/comment/7327811",
+   "date": "2025-01"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum: 2024 KTM 350 SXF stock remap vs Vortex ECU",
+   "url": "https://www.vitalmx.com/comment/8464266",
+   "date": "2025-11"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum: 2023 KTM450 problems (single-owner thread)",
+   "url": "https://www.vitalmx.com/comment/6334066",
+   "date": "2024-04"
+  }
+ ]
+}

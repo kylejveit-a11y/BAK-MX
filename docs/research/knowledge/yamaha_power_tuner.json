@@ -1,0 +1,2306 @@
+{
+ "slice": "Yamaha Power Tuner app and YZ450F/YZ250F electronics, 2023-2026",
+ "platform": {
+  "make": "Yamaha",
+  "models": [
+   "YZ450F",
+   "YZ250F",
+   "YZ450FX",
+   "YZ250FX",
+   "WR450F",
+   "WR250F"
+  ],
+  "years": [
+   2023,
+   2024,
+   2025,
+   2026
+  ]
+ },
+ "records": [
+  {
+   "id": "ypt-001",
+   "domain": "ecu_electronics",
+   "topic": "Power Tuner app: what it is and how it talks to the bike",
+   "applies_to": {
+    "models": [
+     "YZ450F",
+     "YZ250F",
+     "YZ450FX",
+     "YZ250FX"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The Power Tuner app is free for iOS and Android and connects wirelessly (Wi-Fi from the bike's Communication Control Unit, CCU) to the bike's CAN-bus. It adjusts air/fuel mixture and ignition timing, sets traction and launch control, runs a lap timer, keeps a race log and shows diagnostics, maintenance and engine run time.",
+   "values": {
+    "cost": "free",
+    "platforms": "iOS and Android",
+    "link": "Wi-Fi to on-bike CCU, CAN-bus network"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA, 2025 YZ450F features page",
+    "url": "https://yamahamotorsports.com/models/25-yz450f/features",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Yamaha US 2025 YZ450F page. CCU named on Yamaha's Power Tuner page (placement of CCU affects signal). WR models in the US need a GYTR CCU accessory (see GYTR records)."
+  },
+  {
+   "id": "ypt-002",
+   "domain": "ecu_electronics",
+   "topic": "Power Tuner app history",
+   "applies_to": {
+    "models": [
+     "YZ450F",
+     "YZ250F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Yamaha's GYTR Power Tuner started as a plug-in handheld (introduced 2009 for 2010 YZ450F); the first smartphone app came with the 2018 YZ450F (2017 launch); a heavily revised app (v2.0.0) launched in September 2022 with the 2023 YZ450F.",
+   "values": {
+    "handheld_tool": "2009 (2010 YZ450F)",
+    "first_app": "2017 for 2018 YZ450F",
+    "major_rewrite": "v2.0.0, 2022-09-21"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Powersports Business, Yamaha launches updated Power Tuner App for 2023 YZ450F (Yamaha press release)",
+    "url": "https://powersportsbusiness.com/top-stories/2022/09/23/yamaha-launches-updated-power-tuner-app-for-2023-yz450f/",
+    "date": "2022-09"
+   },
+   "confidence": "high",
+   "notes": "Press release text via Powersports Business; version date from App Store history."
+  },
+  {
+   "id": "ypt-003",
+   "domain": "identity",
+   "topic": "Power Tuner app version history (model-year support)",
+   "applies_to": {
+    "models": [
+     "YZ450F",
+     "YZ250F",
+     "YZ450FX",
+     "YZ250FX",
+     "WR450F",
+     "WR250F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "App 2.0.0 (21 Sep 2022) added Simple Tuning, lap timer, set-up guide and enhanced monitor; 2.1.0 (Dec 2022) added 2023 models, 2.2.0 (Sep 2023) 2024 models, 2.3.0 (Jul 2024) 2025 models, 2.4.0 (Jun 2025) 2026 models plus ECU Lock, 2.5.0 (Jun 2026) 2027 models.",
+   "values": {
+    "2.0.0": "2022-09-21 Simple tuning, lap timer, FAQ set-up guide, enhanced monitor, 7 languages",
+    "2.1.0": "2022-12-21 2023 models",
+    "2.2.0": "2023-09-25 2024 models",
+    "2.3.0": "2024-07-11 2025 models",
+    "2.4.0": "2025-06-25 ECU Lock + 2026 models",
+    "2.5.0": "2026-06-04 2027 models",
+    "min_iOS": "iOS 16.0 (2026 listing)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Apple App Store listing, POWER TUNER App (Yamaha Motor Co., Ltd.), incl. version history",
+    "url": "https://apps.apple.com/us/app/power-tuner-app/id1235945328",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "Version-note pairing was inferred from the listing layout; consistent with model-year timing. 2.5.0 year assumed 2026 (listed as 'Jun 4')."
+  },
+  {
+   "id": "ypt-004",
+   "domain": "ecu_electronics",
+   "topic": "Connecting phone to bike (Wi-Fi procedure)",
+   "applies_to": {
+    "models": [
+     "YZ450F",
+     "YZ250F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "To connect, the bike's CCU must be powered (owners report pressing the start button), then join the bike's Wi-Fi network on the phone using the password printed on the CCU label, and accept the 'no internet' warning. The label is reached by removing the left side panel/number plate and pulling out the Wi-Fi box.",
+   "values": {
+    "network_name_reported": "GYTRTUNER (2018 owner report)",
+    "password_location": "label on CCU (Wi-Fi box) behind left side panel / left number plate"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, Yamaha Power Tuner app - can't connect",
+    "url": "https://www.vitalmx.com/comment/3984905",
+    "date": "2018-10 to 2024-11"
+   },
+   "confidence": "medium",
+   "notes": "Owner reports 2018-2024. MXA's 2023 YZ250F race test independently describes the password under the serial number on the Wi-Fi box behind the left side panel. Fixes reported: allow app local-network permission, allow networks without internet, try another phone, on iPhone set a manual IP; a missing CCU means no network."
+  },
+  {
+   "id": "ypt-005",
+   "domain": "ecu_electronics",
+   "topic": "Building and loading a custom map (MXA procedure)",
+   "applies_to": {
+    "models": [
+     "YZ250F",
+     "YZ450F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "MXA's procedure: connect to the bike's Wi-Fi, open Map List in the app, add a new map, type in the fuel and ignition grids, then send it to the bike with the up-arrow button. MXA found the process harder than it should be.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, Race Test: 2023 Yamaha YZ250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz250f",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Magazine procedure description, 2023 YZ250F."
+  },
+  {
+   "id": "ypt-006",
+   "domain": "ecu_electronics",
+   "topic": "Power Tuner fuel/ignition grid size (app listing)",
+   "applies_to": {
+    "models": [
+     "YZ450F",
+     "YZ250F",
+     "YZ450FX",
+     "YZ250FX",
+     "WR450F",
+     "WR250F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Yamaha's app listing says fuel injection and ignition can be fine-tuned on a 4x4 grid (16 cells each) of engine speed versus throttle opening, as two separate grids (FI and IG).",
+   "values": {
+    "grids": "2 (fuel FI, ignition IG)",
+    "cells_per_grid": "16 (4 rpm x 4 throttle)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Apple App Store listing, POWER TUNER App (Yamaha Motor Co., Ltd.), incl. version history",
+    "url": "https://apps.apple.com/us/app/power-tuner-app/id1235945328",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "Listing text applies to the current app (2026). Grid breakpoints for 2023+ bikes are not stated by Yamaha; see the throttle-axis and breakpoint records."
+  },
+  {
+   "id": "ypt-007",
+   "domain": "ecu_electronics",
+   "topic": "Power Tuner grid layout on the first app (2018 YZ450F)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2018
+    ]
+   },
+   "statement": "On the 2018 YZ450F app each of the two grids had 16 squares, throttle position on the vertical axis and rpm on the horizontal, from 5% throttle at 2,000 rpm (bottom left) to 75% throttle at 10,000 rpm (top right), each square adjustable in 15 steps starting from 0.",
+   "values": {
+    "cells": "16 per grid (4x4)",
+    "throttle_axis": "5% to 75%",
+    "rpm_axis": "2,000 to 10,000 rpm",
+    "steps": "15 per cell (equivalent to -7..+7)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Australian Motorcycle News, Smartphone-based engine tuning app (2018 YZ450F)",
+    "url": "https://amcn.com.au/editorial/smartphone-based-engine-tuning-app/",
+    "date": "2017"
+   },
+   "confidence": "medium",
+   "notes": "Previous platform generation (2018-2022); given here as the baseline that the 2023 app widened. Magazine reporting of Yamaha's launch briefing."
+  },
+  {
+   "id": "ypt-008",
+   "domain": "ecu_electronics",
+   "topic": "Throttle-axis breakpoints are adjustable (2023+ app)",
+   "applies_to": {
+    "models": [
+     "YZ450F",
+     "YZ250F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "On the 2023-on app the throttle-opening values on the grid's vertical axis (the TH% column on the left of the map screen) can themselves be changed, and testers say this makes a big difference; shared maps include their own TH% values, which must be copied too.",
+   "values": {
+    "axis": "TH% throttle opening, vertical, user-editable"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike, Riding the 2024 Yamaha YZ450F long term: the wrap",
+    "url": "https://dirtbikemagazine.com/riding-the-2024-yamaha-yz450f-long-term-the-wrap/",
+    "date": "2023-10"
+   },
+   "confidence": "medium",
+   "notes": "Dirt Bike photo caption on Jamie Ellis (Twisted Development) map, 2024 YZ450F; Vital forum owner (2024 YZ250F) also says to change TH% on the left side when copying a map. Exact default TH% and rpm breakpoints not published in text."
+  },
+  {
+   "id": "ypt-009",
+   "domain": "ecu_electronics",
+   "topic": "Example grid cells used in Yamaha test-rider guidance",
+   "applies_to": {
+    "models": [
+     "YZ450F",
+     "YZ250F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "A Yamaha test rider's how-to uses grid points at 3,000 rpm/5% throttle, 10,000 rpm/5% throttle and 12,000 rpm/80% throttle, showing the 2023-on grid spans higher rpm and throttle than the 2018 grid (2,000-10,000 rpm, 5-75%).",
+   "values": {
+    "example_points": "3k rpm/5%, 10k rpm/5%, 12k rpm/80%"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX, How to use the Yamaha Power Tuner app in detail (Steven Tokarski)",
+    "url": "https://www.vitalmx.com/features/how-use-yamaha-power-tuner-app-detail",
+    "date": "2025-08"
+   },
+   "confidence": "medium",
+   "notes": "Author Steven Tokarski is a Yamaha test rider (creator of the 'Stevie' map). Whether these are default breakpoints or adjusted TH% values is not stated."
+  },
+  {
+   "id": "ypt-010",
+   "domain": "ecu_electronics",
+   "topic": "Fuel adjustment step size (2023+ app)",
+   "applies_to": {
+    "models": [
+     "YZ450F",
+     "YZ250F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Each fuel point is a 2% change in fuel (plus = richer, minus = leaner) in that cell.",
+   "values": {
+    "fuel_step": "2% per point"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX, How to use the Yamaha Power Tuner app in detail (Steven Tokarski)",
+    "url": "https://www.vitalmx.com/features/how-use-yamaha-power-tuner-app-detail",
+    "date": "2025-08"
+   },
+   "confidence": "medium",
+   "notes": "Yamaha test rider's 2025 article. Conflicts with ~3% per step quoted for the older GYTR tool and the 2018 app (see conflicts)."
+  },
+  {
+   "id": "ypt-011",
+   "domain": "ecu_electronics",
+   "topic": "Fuel adjustment step size (older tools)",
+   "applies_to": {
+    "models": [
+     "YZ450F",
+     "YZ250F"
+    ],
+    "years": [
+     2018,
+     2019,
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "On the old GYTR handheld and the first app, owners and magazines quoted about 3% fuel per step, so +2 was about 6% richer.",
+   "values": {
+    "fuel_step": "about 3% per step"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, Yamaha Power Tuner app - what the numbers mean",
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Yamaha-Power-Tuner-app-anyone-have-instructions-or-understand-what-the-numbers-mean,1346987",
+    "date": "2018-09"
+   },
+   "confidence": "low",
+   "notes": "Forum (2018) and MXA (2010-13 handheld: -7..+7, +7 about 21% richer). Not confirmed by Yamaha for 2023+."
+  },
+  {
+   "id": "ypt-012",
+   "domain": "ecu_electronics",
+   "topic": "Ignition adjustment step size",
+   "applies_to": {
+    "models": [
+     "YZ450F",
+     "YZ250F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Each ignition point is 1 degree of timing: plus advances, minus retards.",
+   "values": {
+    "ignition_step": "1 degree per point"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX, How to use the Yamaha Power Tuner app in detail (Steven Tokarski)",
+    "url": "https://www.vitalmx.com/features/how-use-yamaha-power-tuner-app-detail",
+    "date": "2025-08"
+   },
+   "confidence": "high",
+   "notes": "Same 1-degree step is reported for the 2010-13 GYTR handheld (MXA), the 2018 app (forum) and 2023+ (Vital 2025)."
+  },
+  {
+   "id": "ypt-013",
+   "domain": "ecu_electronics",
+   "topic": "Adjustment range per cell (2023+ app)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "On a 2023 YZ450F the app allows each fuel and ignition cell to go to plus or minus 10 steps; Yamaha says the FI and IG adjustment range was 'significantly increased' for the 2023 app.",
+   "values": {
+    "range_per_cell": "-10 to +10 (fuel and ignition)",
+    "implied_fuel_range": "about -20% to +20% if 2% per step",
+    "implied_ignition_range": "-10 to +10 degrees if 1 degree per step"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "YouTube, mxengineer1: 2023 YZ450F turned into YZ350F with Yamaha Power Tuner",
+    "url": "https://www.youtube.com/watch?v=mON6mUvOFBk",
+    "date": "2023-02"
+   },
+   "confidence": "medium",
+   "notes": "Single owner video (Feb 2023) reading the app's limits; widened-range claim from Yamaha release (PSB/ADB 2022). Implied % and degrees are DERIVED: steps x step size. Older tools were -7..+7 (15 steps)."
+  },
+  {
+   "id": "ypt-014",
+   "domain": "ecu_electronics",
+   "topic": "Adjustment range on older GYTR handheld tool",
+   "applies_to": {
+    "models": [
+     "YZ450F",
+     "YZ250F",
+     "YZ450FX",
+     "YZ250FX"
+    ],
+    "years": [
+     2014,
+     2015,
+     2016,
+     2017
+    ]
+   },
+   "statement": "The old plug-in GYTR Power Tuner stored 9 maps on a 3x3 grid (low/mid/high rpm by 1/8, 3/8, 3/4 throttle); fuel moved 3% per step over 42% total (21% richer or leaner) and ignition 1 degree per step from 4 degrees advance to 9 degrees retard.",
+   "values": {
+    "grid": "3x3 (9 cells)",
+    "throttle_points": "1/8, 3/8, 3/4",
+    "fuel": "3%/step, +/-21%",
+    "ignition": "+4 to -9 degrees"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, GYTR Power Tuner product test",
+    "url": "https://dirtbiketest.com/product-tests/gytr-power-tuner/",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": "Historical context only; not the 2023-2026 app."
+  },
+  {
+   "id": "ypt-015",
+   "domain": "ecu_electronics",
+   "topic": "Simple Tuning slide bar",
+   "applies_to": {
+    "models": [
+     "YZ450F",
+     "YZ250F",
+     "YZ450FX",
+     "YZ250FX"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The Simple Tuning (Quick Setting) slide bar offers seven preset power characters from 1 (smooth) through 4 (standard) to 7 (aggressive), without touching the grids.",
+   "values": {
+    "positions": "7",
+    "1": "smooth",
+    "4": "standard",
+    "7": "aggressive"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Powersports Business, Yamaha launches updated Power Tuner App for 2023 YZ450F (Yamaha press release)",
+    "url": "https://powersportsbusiness.com/top-stories/2022/09/23/yamaha-launches-updated-power-tuner-app-for-2023-yz450f/",
+    "date": "2022-09"
+   },
+   "confidence": "high",
+   "notes": "Seven options per Yamaha release; 1/4/7 labelling from MXA (Apr 2023). Dirt Bike (2024) calls it too simple because it cannot treat low, mid and top separately."
+  },
+  {
+   "id": "ypt-016",
+   "domain": "ecu_electronics",
+   "topic": "Handlebar map switch and number of maps",
+   "applies_to": {
+    "models": [
+     "YZ450F",
+     "YZ250F",
+     "YZ450FX",
+     "YZ250FX"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The ECU holds two maps selectable on the fly with the left handlebar map button (light off = map 1, light lit = map 2); the app ships with three preloaded engine maps and any saved map can be sent into either slot.",
+   "values": {
+    "maps_on_bike": "2",
+    "preloaded_in_app": "3",
+    "indicator": "map 1 light off, map 2 light on"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Powersports Business, Yamaha launches updated Power Tuner App for 2023 YZ450F (Yamaha press release)",
+    "url": "https://powersportsbusiness.com/top-stories/2022/09/23/yamaha-launches-updated-power-tuner-app-for-2023-yz450f/",
+    "date": "2022-09"
+   },
+   "confidence": "high",
+   "notes": "YZ250F got new push-button map switchgear for 2024; YZ450F 2023."
+  },
+  {
+   "id": "ypt-017",
+   "domain": "ecu_electronics",
+   "topic": "Stock map 1 vs map 2 content",
+   "applies_to": {
+    "models": [
+     "YZ450FX",
+     "YZ250FX"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "Yamaha says on the FX models map 1 is the more responsive, quicker-revving map and map 2 is smoother and slower-revving for low traction.",
+   "values": {
+    "map1": "responsive, quicker revving",
+    "map2": "smoother, slower revving, low traction"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA, 2024 YZ450FX features page",
+    "url": "https://yamahamotorsports.com/models/24-yz450fx/features",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "YZ250FX 2024 page gives the same split (aggressive/high traction vs smoother/low traction)."
+  },
+  {
+   "id": "ypt-018",
+   "domain": "ecu_electronics",
+   "topic": "Stock map 2 on the 2023 YZ450FX",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Testers found the 2023 YZ450FX's map 2 (light on) is pre-programmed mellower than map 1 even when both grids read all zeros; map 1 felt too aggressive and jerky off the bottom for most of them.",
+   "values": {
+    "map2_at_zero": "mellower than map1 at zero"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, 2023 Yamaha YZ450FX test",
+    "url": "https://dirtbiketest.com/bike-tests/2023-yamaha-yz450fx/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Implies a different base calibration behind each slot on the FX."
+  },
+  {
+   "id": "ypt-019",
+   "domain": "ecu_electronics",
+   "topic": "Stock map 2 on the 2023 YZ250F",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "MXA reported that on its 2023 YZ250F both stock map positions (light off and blue light) held the same map, and suggested Yamaha load one of its Power Tuner maps into the second slot.",
+   "values": {
+    "map1_vs_map2": "identical (MXA)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, Race Test: 2023 Yamaha YZ250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz250f",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ypt-020",
+   "domain": "ecu_electronics",
+   "topic": "Stock map 2 on the 2023 YZ450F",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "On the 2023 YZ450F, MXA treated the blue-light position as Yamaha's optional 'Smooth Linear' map; another reviewer found map 2 (light on) the more linear, smoother choice and used it most of the day.",
+   "values": {
+    "map2": "Smooth Linear / more linear"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, Race Test: 2023 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz450f",
+    "date": "2023-03"
+   },
+   "confidence": "medium",
+   "notes": "Ultimate Motorcycling 2023 review agrees map 2 is more linear."
+  },
+  {
+   "id": "ypt-021",
+   "domain": "ecu_electronics",
+   "topic": "Preloaded maps in the app (2025 YZ450F)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The app's three preloaded maps for the 2025 YZ450F are Smooth Linear, Hard-Hitting and Linear Torque, with a chart of how each changes delivery; Dirt Bike's testers mostly chose Smooth Linear and kept it.",
+   "values": {
+    "presets": "Smooth Linear; Hard-Hitting; Linear Torque"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike, Riding the 2025 Yamaha YZ450F: the wrap",
+    "url": "https://dirtbikemagazine.com/riding-the-2025-yamaha-yz450f-the-wrap/",
+    "date": "2024-08"
+   },
+   "confidence": "high",
+   "notes": "Grid values of presets not published in text."
+  },
+  {
+   "id": "ypt-022",
+   "domain": "ecu_electronics",
+   "topic": "Yamaha downloadable preset map library (Power Tuner profiles)",
+   "applies_to": {
+    "models": [
+     "YZ450F",
+     "YZ250F",
+     "WR450F"
+    ],
+    "years": [
+     2018,
+     2019,
+     2020,
+     2021
+    ]
+   },
+   "statement": "Yamaha's Power Tuner page offers downloadable preset maps: Hard Hitting, Good Control, Magic Map, TP5, Strong Pulling Low-to-High RPM 1 and 2, Connected Response, TP Map 2018-19 and TP Map v20 (YZ450F); Exciting Power and TP Map 2019 (YZ250F); Aggressive, Hard Terrain and Standard Exhaust (WR450F).",
+   "values": {
+    "YZ450F": "Hard Hitting, Good Control, Magic Map, TP5, Strong Pulling Low-to-High RPM 1, Strong Pulling Low-to-High RPM 2, Connected Response, TP Map 2018-19, TP Map v20",
+    "YZ250F": "Exciting Power, TP Map 2019",
+    "WR450F": "Aggressive, Hard Terrain, Standard Exhaust"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA, Power Tuner App page",
+    "url": "https://yamahamotorsports.com/power-tuner-app",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "Names reference 2018-2021 bikes; whether they suit the 2023+ engine/grid is not stated. Grid values are inside the downloads, not on the page."
+  },
+  {
+   "id": "ypt-023",
+   "domain": "ecu_electronics",
+   "topic": "Yamaha R&D 'Control Torque' map (2023 YZ450F)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Yamaha R&D's Control Torque map gives a smoother roll-on and makes the engine feel less free-revving exiting corners; the tester found it helpful when the track gets rough.",
+   "values": {
+    "grid_values": "published as screenshot only"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested, 2023 Yamaha YZ450F Optional Power Tuner Maps",
+    "url": "https://www.keeferinctesting.com/?p=24385",
+    "date": "2023-01"
+   },
+   "confidence": "medium",
+   "notes": "Map values in image only; not transcribed."
+  },
+  {
+   "id": "ypt-024",
+   "domain": "ecu_electronics",
+   "topic": "'Keefer Exciting Connect' map (2023 YZ450F)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "A tester map that adds low-end excitement to fill the gap before the strong mid-range hit, smoothing the bottom-to-mid transition and helping second-gear mid-range roll-on without the bike running away 50-100 ft out of a corner.",
+   "values": {
+    "grid_values": "published as screenshot only"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested, 2023 Yamaha YZ450F Optional Power Tuner Maps",
+    "url": "https://www.keeferinctesting.com/?p=24385",
+    "date": "2023-01"
+   },
+   "confidence": "medium",
+   "notes": "Map values in image only."
+  },
+  {
+   "id": "ypt-025",
+   "domain": "ecu_electronics",
+   "topic": "MXA mellower map (2023-2024 YZ450F)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "MXA's answer to the 450's barky low end is a map that adds fuel between 2,000 and 5,000 rpm to take away crispness off idle; Yamaha's optional Smooth Linear map did not tame the low end enough for MXA. MXA pairs it with a 48-tooth rear sprocket (stock 49).",
+   "values": {
+    "change": "richer 2,000-5,000 rpm",
+    "gearing": "48T rear (stock 49T)",
+    "grid_values": "published as chart image only"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, Ask the MXperts: Does MXA have any updated 2023-2024 YZ450F maps?",
+    "url": "https://motocrossactionmag.com/ask-the-mxperts-does-mxa-have-any-updated-2023-2024-yz450f-maps",
+    "date": "2024-08"
+   },
+   "confidence": "high",
+   "notes": "Same richer-low-rpm approach in MXA's March 2023 race test. MXA says it tested three maps on the 2025 YZ450F and was not satisfied with any yet (Aug 2024). Chart image URL could not be fetched."
+  },
+  {
+   "id": "ypt-026",
+   "domain": "ecu_electronics",
+   "topic": "MXA 2023 YZ250F maps",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "MXA published two fuel/ignition map pairs for the 2023 YZ250F: one for smoother, broader power and one for aggressive, quick power. Mapping reduced but did not remove a jerky hesitation at the crack of the throttle in slow rutted corners.",
+   "values": {
+    "maps": "smooth/broad pair; aggressive/quick pair",
+    "grid_values": "charts in image only"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, Race Test: 2023 Yamaha YZ250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz250f",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ypt-027",
+   "domain": "ecu_electronics",
+   "topic": "Yamaha R&D 'Top End/Rev' map (2022-2023 YZ250F)",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "A Yamaha R&D map that adds pulling power when shifting through second, third and fourth gears.",
+   "values": {
+    "grid_values": "image only"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested, 2023 Yamaha YZ250F Optional Yamaha Power Tuner Maps",
+    "url": "https://www.keeferinctesting.com/2023-yamaha-yz250f-optional-yamaha-power-tuner-maps/",
+    "date": "2023-01"
+   },
+   "confidence": "medium",
+   "notes": "Stated for 2022-2023 YZ250F (same engine)."
+  },
+  {
+   "id": "ypt-028",
+   "domain": "ecu_electronics",
+   "topic": "'Keefer Free Feeling' map (YZ250F)",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "A tester map with less engine braking and a more balanced chassis feel off the throttle; owners of 2024 bikes report it adds bottom and top and is very similar to the Stevie map.",
+   "values": {
+    "grid_values": "image only"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested, 2023 Yamaha YZ250F Optional Yamaha Power Tuner Maps",
+    "url": "https://www.keeferinctesting.com/2023-yamaha-yz250f-optional-yamaha-power-tuner-maps/",
+    "date": "2023-01"
+   },
+   "confidence": "medium",
+   "notes": "2024 owner comments from Vital forum (COMMUNITY)."
+  },
+  {
+   "id": "ypt-029",
+   "domain": "ecu_electronics",
+   "topic": "'Stevie' map by Yamaha test rider (2024 YZ250F)",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Yamaha test rider Steve Tokarski's map cleans up the rich feel at low rpm and adds excitement from the crack of the throttle into the low-mid; it was run with traction control off.",
+   "values": {
+    "traction_control": "OFF",
+    "grid_values": "image only"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "PulpMX, Ten things about the 2024 Yamaha YZ250F on track",
+    "url": "https://pulpmx.com/2023/09/26/ten-things-about-the-2024-yamaha-yz250f-on-track/",
+    "date": "2023-09"
+   },
+   "confidence": "medium",
+   "notes": "Owners say it is very similar to Keefer Free Feeling with slightly more engine braking (Vital forum, Nov 2023)."
+  },
+  {
+   "id": "ypt-030",
+   "domain": "ecu_electronics",
+   "topic": "Owner comparison of 2024 YZ250F maps",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Owners report the 2024 YZ250F stock map has less bottom and more mid/top than 2022; the 'Responsive' map gets the low end back but hits harder; 'Stevie' and 'Keefer Free Feeling' add bottom and top.",
+   "values": {},
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, 2024 YZ 250F Review thread",
+    "url": "https://www.vitalmx.com/comment/5875766",
+    "date": "2023-11"
+   },
+   "confidence": "low",
+   "notes": "Small number of owners; no values."
+  },
+  {
+   "id": "ypt-031",
+   "domain": "ecu_electronics",
+   "topic": "Keefer 2026 YZ450F map (less engine braking)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The tester found the 2026 YZ450F has more engine braking than 2024-2025, making it hard to roll corners and upsetting the chassis; his map relaxes the engine on deceleration to fix corner-entry balance.",
+   "values": {
+    "grid_values": "image only"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested, 2026 Yamaha YZ450F Optional Yamaha Power Tuner Map",
+    "url": "https://www.keeferinctesting.com/?p=29402",
+    "date": "2025-11"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ypt-032",
+   "domain": "ecu_electronics",
+   "topic": "Twisted Development / Jamie Ellis map (2024 YZ450F)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Dirt Bike's test bike ran a map from Jamie Ellis of Twisted Development to make the 450 manageable for average riders, noting the throttle-opening (TH%) settings on the vertical axis make a big difference.",
+   "values": {
+    "grid_values": "image only"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike, Riding the 2024 Yamaha YZ450F long term: the wrap",
+    "url": "https://dirtbikemagazine.com/riding-the-2024-yamaha-yz450f-long-term-the-wrap/",
+    "date": "2023-10"
+   },
+   "confidence": "medium",
+   "notes": "Dirt Bike says the 450 needs detuning, not hot-rodding, for most riders; biggest power gain 7,500-10,000 rpm."
+  },
+  {
+   "id": "ypt-033",
+   "domain": "ecu_electronics",
+   "topic": "YZ450FX tester maps (Magic Map, JL Smooth)",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "On the 2023 YZ450FX, Yamaha's 'Magic Map' softened the initial hit while keeping pull (some said it revved like a 350) and suited motocross and fast terrain but was abrupt in tight, low-traction ground; the tester-made 'JL Smooth' map was preferred for tight terrain and let riders lug it with little clutch.",
+   "values": {
+    "grid_values": "not published"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, 2023 Yamaha YZ450FX test",
+    "url": "https://dirtbiketest.com/bike-tests/2023-yamaha-yz450fx/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ypt-034",
+   "domain": "ecu_electronics",
+   "topic": "YZ450FX maps and traction control in mud",
+   "applies_to": {
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "On the 2024 YZ450FX the tester ran the mellow map 2 most of the day in muddy, tight terrain, softened both maps further and added traction control through the app.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, 2024 Yamaha YZ450FX off-road racer first impression",
+    "url": "https://dirtbiketest.com/fresh-dirt/2024-yamaha-yz450fx-off-road-racer-first-impression/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "TC level not stated."
+  },
+  {
+   "id": "ypt-035",
+   "domain": "ecu_electronics",
+   "topic": "Two stock maps on 2025 YZ250F",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Testers preferred the standard map on the 2025 YZ250F; the performance map adds mid and top but takes away too much bottom in places.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, 2025 Yamaha YZ250F first impression",
+    "url": "https://dirtbiketest.com/fresh-dirt/words-2025-yamaha-yz250f-first-impression/",
+    "date": "2024-10"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ypt-036",
+   "domain": "ecu_electronics",
+   "topic": "Most-detuned map (fuel -10 / ignition -10)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "An owner set every cell to -10 fuel and -10 ignition on a 2023 YZ450F; the rpm built more slowly and power dropped, making the bike feel like a 350 on one map and a full 450 on the other.",
+   "values": {
+    "fuel_all_cells": "-10",
+    "ignition_all_cells": "-10"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "YouTube, mxengineer1: 2023 YZ450F turned into YZ350F with Yamaha Power Tuner",
+    "url": "https://www.youtube.com/watch?v=mON6mUvOFBk",
+    "date": "2023-02"
+   },
+   "confidence": "low",
+   "notes": "Single owner video. Note: in this app minus fuel is leaner, which normally sharpens response; the owner's result is reported as-is."
+  },
+  {
+   "id": "ypt-037",
+   "domain": "ecu_electronics",
+   "topic": "What fuel and ignition changes do to the feel (Yamaha test rider guidance)",
+   "applies_to": {
+    "models": [
+     "YZ450F",
+     "YZ250F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "More fuel gives a smoother response and slower rpm rise; less fuel gives quicker response and faster rpm rise. More ignition advance sharpens response and adds a little perceived power; retard softens it. More fuel plus more advance gives slower revving with a stronger torque feel.",
+   "values": {
+    "+fuel": "smoother, slower rpm rise",
+    "-fuel": "quicker response, faster rpm rise",
+    "+ignition": "sharper, slightly more perceived power",
+    "-ignition": "softer, less perceived power"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX, How to use the Yamaha Power Tuner app in detail (Steven Tokarski)",
+    "url": "https://www.vitalmx.com/features/how-use-yamaha-power-tuner-app-detail",
+    "date": "2025-08"
+   },
+   "confidence": "high",
+   "notes": "Change one region at a time and switch back to the other map to confirm the feel."
+  },
+  {
+   "id": "ypt-038",
+   "domain": "ecu_electronics",
+   "topic": "Map regions in rider terms",
+   "applies_to": {
+    "models": [
+     "YZ450F",
+     "YZ250F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The grid is read in rider terms as low-end, mid, top, over-rev and engine-braking regions; engine braking lives in the high-rpm, near-closed-throttle cells.",
+   "values": {
+    "regions": "low-end, mid, top, over-rev, engine braking"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX, How to use the Yamaha Power Tuner app in detail (Steven Tokarski)",
+    "url": "https://www.vitalmx.com/features/how-use-yamaha-power-tuner-app-detail",
+    "date": "2025-08"
+   },
+   "confidence": "medium",
+   "notes": "Exact cell boundaries per region not published in text."
+  },
+  {
+   "id": "ypt-039",
+   "domain": "ecu_electronics",
+   "topic": "Example changes by region (Yamaha test rider)",
+   "applies_to": {
+    "models": [
+     "YZ450F",
+     "YZ250F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Less engine braking: 10,000 rpm/5% throttle +2 fuel, -3 ignition. More low-end power and quicker response: 3,000 rpm/5% throttle 0 to -2 fuel, +3 ignition. Stronger pull to peak: 12,000 rpm/80% throttle -1 fuel, +1 ignition.",
+   "values": {
+    "less_engine_braking": "10k rpm / 5%: fuel +2, ign -3",
+    "more_low_end": "3k rpm / 5%: fuel 0 to -2, ign +3",
+    "stronger_pull_to_peak": "12k rpm / 80%: fuel -1, ign +1"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX, How to use the Yamaha Power Tuner app in detail (Steven Tokarski)",
+    "url": "https://www.vitalmx.com/features/how-use-yamaha-power-tuner-app-detail",
+    "date": "2025-08"
+   },
+   "confidence": "high",
+   "notes": "Examples only; results vary by model year and bike."
+  },
+  {
+   "id": "ypt-040",
+   "domain": "ecu_electronics",
+   "topic": "Starting point for taming power",
+   "applies_to": {
+    "models": [
+     "YZ450F",
+     "YZ250F",
+     "YZ450FX"
+    ],
+    "years": [
+     2019
+    ]
+   },
+   "statement": "A veteran off-road tester's starting point for taming a Yamaha four-stroke: add +2 fuel and take -3 ignition in every cell, then refine.",
+   "values": {
+    "all_cells": "fuel +2, ignition -3"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, GYTR Power Tuner product test",
+    "url": "https://dirtbiketest.com/product-tests/gytr-power-tuner/",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": "Jimmy Lewis comment, Jan 2019, on GYTR Power Tuner page; pre-2023 step sizes."
+  },
+  {
+   "id": "ypt-041",
+   "domain": "ecu_electronics",
+   "topic": "Fuel vs ignition rule of thumb",
+   "applies_to": {
+    "models": [
+     "YZ450F",
+     "YZ250F",
+     "YZ450FX",
+     "YZ250FX"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers summarize that fuel mostly affects traction/torque feel and ignition mostly affects throttle response; the tool changes power character more than peak power.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, GYTR Power Tuner product test",
+    "url": "https://dirtbiketest.com/product-tests/gytr-power-tuner/",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": "Same 'fuel = torque, ignition = responsiveness' heuristic repeated by owners on Vital (2025)."
+  },
+  {
+   "id": "ypt-042",
+   "domain": "ecu_electronics",
+   "topic": "Safety limits: lean mixtures and too much advance",
+   "applies_to": {
+    "models": [
+     "YZ450F",
+     "YZ250F",
+     "YZ450FX",
+     "YZ250FX"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Going too far either way can make the engine run rich, lean or sluggish, or cause detonation (too much advance/too lean). Yamaha builds protections into the app against overly aggressive settings, and the per-cell limits cap how far a rider can go.",
+   "values": {
+    "protections": "built-in limits on aggressive settings (per MXA)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test, GYTR Power Tuner product test",
+    "url": "https://dirtbiketest.com/product-tests/gytr-power-tuner/",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": "MXA (Apr 2023) reports the built-in protections. No Yamaha statement on octane/fuel requirements for advanced maps was found."
+  },
+  {
+   "id": "ypt-043",
+   "domain": "power_feel",
+   "topic": "Dyno effect of Power Tuner maps (2024 YZ450F)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "On a Dyno Dynamics dyno the stock 2024 YZ450F made 56.4 hp at 9,500 rpm; about two hours of leaner fuel and more advance gained only 0.6 hp with more torque across most of the range (too much advance made it too aggressive to ride), while maximum fuel and maximum retard cut peak to 51.4 hp with a much gentler, slower-revving feel that still revved past 11,000 rpm.",
+   "values": {
+    "stock_peak": "56.4 hp @ 9,500 rpm",
+    "torque_stock": ">45 Nm 6,000-9,000 rpm",
+    "tuned_peak": "about 57.0 hp (+0.6 hp)",
+    "detuned_peak": "51.4 hp (-5.0 hp)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Australasian Dirt Bike, 2024 Yamaha YZ450F dyno test",
+    "url": "https://adbmag.com.au/editorial/2024-yamaha-yz450f-dyno-test/",
+    "date": "2024-03"
+   },
+   "confidence": "high",
+   "notes": "Dyno Tech (Melbourne), Dyno Dynamics dyno; stock exhaust and air filter; fuel not stated. Article notes US Dynojets usually read higher. Tuned peak is DERIVED (56.4 + 0.6)."
+  },
+  {
+   "id": "ypt-044",
+   "domain": "ecu_electronics",
+   "topic": "Traction control introduction and levels (YZ450F)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Traction control was new on the 2023 YZ450F with three settings selected in the app: HIGH, LOW and OFF. It reads wheel slip and trims engine output to keep rear-wheel traction.",
+   "values": {
+    "introduced": "2023",
+    "levels": "HIGH, LOW, OFF"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA, 2023 YZ450F features page",
+    "url": "https://yamahamotorsports.com/models/23-yz450f/features",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Yamaha pages 2023, 2024, 2025 and the 2027 page all say three levels. MXA (2023) says the system monitors crankshaft rpm for runaway revs rather than a wheel-speed comparison."
+  },
+  {
+   "id": "ypt-045",
+   "domain": "ecu_electronics",
+   "topic": "Traction control introduction and levels (YZ250F)",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The YZ250F gained the three-level (HIGH, LOW, OFF) traction control for 2024; the 2023 YZ250F has none.",
+   "values": {
+    "introduced": "2024",
+    "levels": "HIGH, LOW, OFF"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA, 2024 YZ250F features page",
+    "url": "https://www.yamahamotorsports.com/models/24-yz250f/features",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Cycle News 2024 YZ250F agrees."
+  },
+  {
+   "id": "ypt-046",
+   "domain": "ecu_electronics",
+   "topic": "Traction control on YZ450FX and WR450F",
+   "applies_to": {
+    "models": [
+     "YZ450FX",
+     "WR450F"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "The YZ450FX got three-level traction control (HIGH, LOW, OFF) through the app for 2024, and the 2025 WR450F lists the same three levels; it is not part of the stock map and is switched on in the app.",
+   "values": {
+    "YZ450FX": "2024+, HIGH/LOW/OFF",
+    "WR450F": "2025 page, HIGH/LOW/OFF"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA, 2024 YZ450FX features page",
+    "url": "https://yamahamotorsports.com/models/24-yz450fx/features",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "The 2024 YZ450FX page lists three-level TC among new app features. YZ250FX TC not confirmed (its 2024 page does not mention TC)."
+  },
+  {
+   "id": "ypt-047",
+   "domain": "ecu_electronics",
+   "topic": "Possible fourth traction control level ('Extra High')",
+   "applies_to": {
+    "models": [
+     "YZ450F",
+     "YZ250F"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "A 2025 how-to by a Yamaha test rider lists traction control as Low, High, Extra High or Off, and Yamaha's app listing says traction control has 3-4 intervention levels, which suggests some models or app versions add a fourth level.",
+   "values": {
+    "levels": "Low, High, Extra High, Off (Vital 2025)",
+    "app_listing": "3-4 levels"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX, How to use the Yamaha Power Tuner app in detail (Steven Tokarski)",
+    "url": "https://www.vitalmx.com/features/how-use-yamaha-power-tuner-app-detail",
+    "date": "2025-08"
+   },
+   "confidence": "low",
+   "notes": "Conflicts with Yamaha US model pages (three levels). Which models/years get Extra High was not found."
+  },
+  {
+   "id": "ypt-048",
+   "domain": "ecu_electronics",
+   "topic": "No handlebar traction-control button",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The handlebar has a launch control button but no traction control button; TC is set only in the app.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike, 2025 Yamaha YZ450F full test",
+    "url": "https://dirtbikemagazine.com/2025-yamaha-yz450f-full-test",
+    "date": "2024-12"
+   },
+   "confidence": "high",
+   "notes": "Dirt Bike found this odd."
+  },
+  {
+   "id": "ypt-049",
+   "domain": "ecu_electronics",
+   "topic": "Launch control rev limit (YZ450F)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "YZ450F launch control keeps traction control active and adds an rpm limit set in the app from 6,000 to 11,000 rpm in 500 rpm steps.",
+   "values": {
+    "range": "6,000-11,000 rpm",
+    "step": "500 rpm",
+    "settings": "11"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA, 2025 YZ450F features page",
+    "url": "https://yamahamotorsports.com/models/25-yz450f/features",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Number of settings DERIVED: (11,000-6,000)/500 + 1 = 11. Ultimate Motorcycling (2022) instead reported 7,000-12,000 rpm (conflict)."
+  },
+  {
+   "id": "ypt-050",
+   "domain": "ecu_electronics",
+   "topic": "Launch control rev limit (YZ250F)",
+   "applies_to": {
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "From 2024 the YZ250F launch control rpm limit adjusts from 6,000 to 14,000 rpm in 500 rpm steps.",
+   "values": {
+    "range": "6,000-14,000 rpm",
+    "step": "500 rpm",
+    "settings": "17"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA, 2024 YZ250F features page",
+    "url": "https://www.yamahamotorsports.com/models/24-yz250f/features",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Settings count DERIVED: (14,000-6,000)/500 + 1 = 17."
+  },
+  {
+   "id": "ypt-051",
+   "domain": "ecu_electronics",
+   "topic": "Launch control functions and exit",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "MXA describes three launch functions: a rev limit, launch control with ignition delay, and launch control with its own traction control; the system returns to the normal map once the bike reaches third gear.",
+   "values": {
+    "exit": "third gear"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, Ten Things About the New Yamaha Power Tuner App",
+    "url": "https://motocrossactionmag.com/ten-things-about-the-new-yamaha-power-tuner-app",
+    "date": "2023-04"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ypt-052",
+   "domain": "ecu_electronics",
+   "topic": "Lap timer",
+   "applies_to": {
+    "models": [
+     "YZ450F",
+     "YZ250F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The lap timer is started and stopped with the left handlebar multi-function switch, laps are stored in the ECU and read in the app; assigning the lap timer to the mode switch disables on-the-fly map switching.",
+   "values": {
+    "control": "left handlebar switch",
+    "storage": "ECU",
+    "tradeoff": "disables map switching when assigned"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Powersports Business, Yamaha launches updated Power Tuner App for 2023 YZ450F (Yamaha press release)",
+    "url": "https://powersportsbusiness.com/top-stories/2022/09/23/yamaha-launches-updated-power-tuner-app-for-2023-yz450f/",
+    "date": "2022-09"
+   },
+   "confidence": "high",
+   "notes": "Map-switch tradeoff from Vital 2025 (Yamaha test rider)."
+  },
+  {
+   "id": "ypt-053",
+   "domain": "ecu_electronics",
+   "topic": "Maintenance log and engine hours",
+   "applies_to": {
+    "models": [
+     "YZ450F",
+     "YZ250F",
+     "YZ450FX",
+     "YZ250FX"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The app tracks engine run time and has programmable service reminders for engine oil, oil filter and piston, with intervals the owner can edit.",
+   "values": {
+    "items": "engine oil, oil filter, piston",
+    "intervals": "user-editable",
+    "engine_hours": "yes"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX, How to use the Yamaha Power Tuner app in detail (Steven Tokarski)",
+    "url": "https://www.vitalmx.com/features/how-use-yamaha-power-tuner-app-detail",
+    "date": "2025-08"
+   },
+   "confidence": "medium",
+   "notes": "Yamaha confirms maintenance monitoring, engine run time and programmable reminders; item list from Vital 2025. The 2018 app had multiple running-hour trip meters (AMCN)."
+  },
+  {
+   "id": "ypt-054",
+   "domain": "ecu_electronics",
+   "topic": "Real-time monitor channels",
+   "applies_to": {
+    "models": [
+     "YZ450F",
+     "YZ250F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The live monitor shows speed, throttle position, engine rpm, fuel consumption, coolant temperature, intake air temperature, battery voltage, phone battery and time, plus fault diagnostics.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Powersports Business, Yamaha launches updated Power Tuner App for 2023 YZ450F (Yamaha press release)",
+    "url": "https://powersportsbusiness.com/top-stories/2022/09/23/yamaha-launches-updated-power-tuner-app-for-2023-yz450f/",
+    "date": "2022-09"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ypt-055",
+   "domain": "ecu_electronics",
+   "topic": "Race log and set-up guides",
+   "applies_to": {
+    "models": [
+     "YZ450F",
+     "YZ250F",
+     "YZ450FX",
+     "YZ250FX"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The race log saves settings with track conditions; FAQ-style engine and suspension guides (suspension guide developed with KYB) suggest changes from a chosen symptom.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Powersports Business, Yamaha launches updated Power Tuner App for 2023 YZ450F (Yamaha press release)",
+    "url": "https://powersportsbusiness.com/top-stories/2022/09/23/yamaha-launches-updated-power-tuner-app-for-2023-yz450f/",
+    "date": "2022-09"
+   },
+   "confidence": "high",
+   "notes": "Yamaha global page describes picking simple prompts to narrow a problem and getting a suggested fix."
+  },
+  {
+   "id": "ypt-056",
+   "domain": "ecu_electronics",
+   "topic": "Map sharing",
+   "applies_to": {
+    "models": [
+     "YZ450F",
+     "YZ250F",
+     "YZ450FX",
+     "YZ250FX"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Maps can be saved, shared with other app users and downloaded as presets; riders also share maps as screenshots on forums, which means copying fuel, ignition and TH% values by hand.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA, Power Tuner App page",
+    "url": "https://yamahamotorsports.com/power-tuner-app",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "Dirt Bike 2025 notes community maps on ThumperTalk, Vital and Reddit, e.g. one for Mammoth Mountain at 8,000 ft."
+  },
+  {
+   "id": "ypt-057",
+   "domain": "ecu_electronics",
+   "topic": "ECU Lock (anti-theft)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "From 2026 the YZ450F has a password-protected ECU lock set in the app that blocks unauthorized engine starts (added in app 2.4.0, June 2025).",
+   "values": {
+    "introduced": "2026 model year",
+    "app_version": "2.4.0 (2025-06-25)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News, New 2026 Yamaha YZ450F and YZ250F specs and price",
+    "url": "https://www.cyclenews.com/2025/06/article/new-2026-yamaha-yz450f-and-yz250f-specs-and-price",
+    "date": "2025-06"
+   },
+   "confidence": "high",
+   "notes": "Cycle News calls it industry-first. Also on 2027 YZ450F page."
+  },
+  {
+   "id": "ypt-058",
+   "domain": "ecu_electronics",
+   "topic": "GYTR WR450F Competition Kit (2020-2023)",
+   "applies_to": {
+    "models": [
+     "WR450F",
+     "WR250F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "Yamaha's GYTR Competition Kit BDB-E9500-V0-00 replaces the stock WR ECU and adds a modified throttle stop for full-throttle, unrestricted closed-course performance; it lists for WR450F 2020-2023 and WR250F 2021.",
+   "values": {
+    "part": "BDB-E9500-V0-00",
+    "price": "USD 279.99 list (237.45 sale)",
+    "contents": "ECU + modified throttle stop, '21-'22 WR450F GYTR ECU map file"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Yamaha Online Parts, BDB-E9500-V0-00 GYTR WR450F Competition Kit",
+    "url": "https://yamahaonlineparts.com/products/yamaha-bdb-e9500-v0-00-gytr-wr450f-competition-kit",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "Dealer listing of genuine part; closed-course only."
+  },
+  {
+   "id": "ypt-059",
+   "domain": "ecu_electronics",
+   "topic": "GYTR WR450F Competition ECU Kit (2024-2026)",
+   "applies_to": {
+    "models": [
+     "WR450F"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "GYTR Competition ECU Kit BNK-E9500-V0-00 for the 2024-2026 WR450F unlocks the full performance capability and Power Tuner app use (the description compares it to the YZ450FX).",
+   "values": {
+    "part": "BNK-E9500-V0-00",
+    "price": "USD 209.99"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Yamaha Online Parts, BNK-E9500-V0-00 GYTR WR450F Competition ECU Kit",
+    "url": "https://yamahaonlineparts.com/products/yamaha-bnk-e9500-v0-00-gytr-wr450f-competition-kit",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "Contents not listed on the dealer page."
+  },
+  {
+   "id": "ypt-060",
+   "domain": "ecu_electronics",
+   "topic": "What a GYTR competition ECU kit unlocks",
+   "applies_to": {
+    "models": [
+     "WR450F",
+     "WR250F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Yamaha Canada says its GYTR Competition ECU Kit includes a replacement ECU and modified throttle stop for full-throttle operation and lets the rider choose between 2 pre-programmed ECU maps in the Power Tuner app; it needs the GYTR Communication Control Unit to use the app.",
+   "values": {
+    "part_example": "BAK-E9500-V0-00",
+    "unlocks": "full throttle; 2 pre-programmed maps selectable in app",
+    "requires": "GYTR CCU"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor Canada, GYTR Competition ECU Kit BAK-E9500-V0-00",
+    "url": "https://yamaha-motor.ca/en/accessories/motorcycles/performance/gytr-competition-ecu-kit/BAK-E9500-V0-00",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "Fitment not shown on the page. No GYTR replacement race ECU for the YZ450F/YZ250F was found; the YZ already has full app access."
+  },
+  {
+   "id": "ypt-061",
+   "domain": "ecu_electronics",
+   "topic": "GYTR Communication Control Unit for WR",
+   "applies_to": {
+    "models": [
+     "WR450F",
+     "WR250F"
+    ],
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "The WR needs the GYTR Communication Control Unit (B7R-H59C0-V0-00) to talk to the Power Tuner app; listed for WR250F 2020-2024 and WR450F 2019-2023.",
+   "values": {
+    "part": "B7R-H59C0-V0-00",
+    "price": "USD 429.99"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "AOMC, Yamaha GYTR Communication Control Unit B7R-H59C0-V0-00 (WR)",
+    "url": "https://aomc.mx/B7R-H59C0-V0-00.html",
+    "date": "2026"
+   },
+   "confidence": "low",
+   "notes": "Dealer page description is muddled (calls it a handlebar control); purpose inferred from the Yamaha Canada ECU kit page, which says the GYTR CCU is needed for the app. YZ models have the CCU stock."
+  },
+  {
+   "id": "ypt-062",
+   "domain": "ecu_electronics",
+   "topic": "Vortex X10 aftermarket ECU (YZ450F)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The Vortex X10 plug-in ECU for the YZ450F has 10 pre-programmed fuel/ignition maps, raised (or lowered) rev limits, Start and Enduro traction maps with Dynamic Traction Control, advanced launch control, fuel trim of +12.5% to -10% by low/mid/high throttle band, dual-injector capability and a voltage-boost spark feature, all run through the stock handlebar switches.",
+   "values": {
+    "price": "USD 799.95",
+    "maps": "10",
+    "fuel_trim": "+12.5% to -10%",
+    "sku": "55-335-ECU-13"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "dealer",
+    "name": "Tokyo Mods, Vortex X10 ECU Yamaha YZ450F 2026 (55-335-ECU-13)",
+    "url": "https://tokyomods.com/vortex-x10-ecu-yamaha-yz450f-2026/",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "Retailer listing for the 2026 fitment; closed-course only, reprogramming software/hardware sold separately. Other 2023-2025 Vortex fitments not confirmed in this search."
+  },
+  {
+   "id": "ypt-063",
+   "domain": "ecu_electronics",
+   "topic": "Yamaha's WR mapping ideas (soft / medium / aggressive)",
+   "applies_to": {
+    "models": [
+     "WR250F",
+     "WR450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Yamaha Australia's WR guide: a Soft map adds fuel at low rpm and retards ignition (with higher traction control) for beginners and slippery or technical trails; Medium adjusts fuel through the midrange for drive; Aggressive leans slightly and advances ignition with TC off for open terrain and experienced riders. Testers liked Medium best on the WR450F.",
+   "values": {
+    "soft": "+fuel low rpm, ignition retarded, TC higher",
+    "medium": "midrange fuel tuned, ignition softened in key areas",
+    "aggressive": "slightly leaner, advanced ignition, TC off",
+    "grid_values": "not published"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor Australia, How To: Yamaha WR Power Tuner App mapping ideas",
+    "url": "https://www.yamaha-motor.com.au/buying/buyers-guides/freedom/products-pages/wr_mapping_ideas",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Qualitative only. Applies to WR but the fuel/ignition logic carries over to YZ."
+  },
+  {
+   "id": "ypt-064",
+   "domain": "setups",
+   "topic": "Map plus gearing to tame the 2023-2024 YZ450F",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "For riders who find the 450 too abrupt, MXA's setup is a richer map below 5,000 rpm plus a 48-tooth rear sprocket; the taller second gear softens corner exits and pulls longer before third.",
+   "values": {
+    "map": "richer 2,000-5,000 rpm",
+    "rear_sprocket": "48T (stock 49T)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, Race Test: 2023 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz450f",
+    "date": "2023-03"
+   },
+   "confidence": "high",
+   "notes": "MXA race test March 2023, repeated Aug 2024."
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "Fuel step size per point",
+   "spread": "2% per point (Vital 2025, Yamaha test rider, 2023+ app) vs about 3% per step (2018 forum; MXA and Dirt Bike Test for the old GYTR handheld)",
+   "records": [
+    "ypt-010",
+    "ypt-011"
+   ],
+   "note": "Could be a real change with the 2023 app's wider range; not confirmed by Yamaha."
+  },
+  {
+   "topic": "Per-cell adjustment range",
+   "spread": "15 steps / -7..+7 (2018 app, AMCN; 2010-13 handheld, MXA) vs -10..+10 (2023 YZ450F owner video); Yamaha only says 'significantly increased'",
+   "records": [
+    "ypt-007",
+    "ypt-013",
+    "ypt-014"
+   ]
+  },
+  {
+   "topic": "Grid breakpoints",
+   "spread": "2018 app 2,000-10,000 rpm and 5-75% throttle (AMCN) vs 2025 test-rider examples at 3,000, 10,000, 12,000 rpm and 80% throttle; App Store still says 4x4 grid; throttle (TH%) axis reported user-editable",
+   "records": [
+    "ypt-006",
+    "ypt-007",
+    "ypt-008",
+    "ypt-009"
+   ]
+  },
+  {
+   "topic": "YZ450F launch control rpm range",
+   "spread": "6,000-11,000 rpm (Yamaha US 2023-2025 pages, Cycle News, PulpMX, bikesales) vs 7,000-12,000 rpm (Ultimate Motorcycling first look, Aug 2022)",
+   "records": [
+    "ypt-049"
+   ]
+  },
+  {
+   "topic": "Traction control levels",
+   "spread": "3 (HIGH/LOW/OFF) on every Yamaha US page 2023-2027 vs 4 incl. 'Extra High' (Vital 2025) and '3-4 levels' (App Store listing)",
+   "records": [
+    "ypt-044",
+    "ypt-047"
+   ]
+  },
+  {
+   "topic": "What sits in stock map slot 2",
+   "spread": "identical to map 1 (MXA, 2023 YZ250F) vs Smooth Linear / more linear (MXA and Ultimate Motorcycling, 2023 YZ450F) vs a mellower base map even at zeros (2023 YZ450FX; Yamaha FX pages)",
+   "records": [
+    "ypt-017",
+    "ypt-018",
+    "ypt-019",
+    "ypt-020"
+   ]
+  },
+  {
+   "topic": "How traction control senses slip",
+   "spread": "Yamaha: 'communicates wheel slip to the ECU' vs MXA: monitors crank rpm for runaway revs",
+   "records": [
+    "ypt-044"
+   ]
+  }
+ ],
+ "not_found": [
+  {
+   "item": "Full numeric grid values for any 2023-2026 YZ450F/YZ250F map (MXA mellower 450 map, MXA 2023 YZ250F smooth/aggressive pairs, Keefer Control Torque, Exciting Connect, Top End/Rev, Free Feeling, Keefer 2026 450 map, Stevie map, Twisted Development map, Yamaha presets Smooth Linear/Hard-Hitting/Linear Torque)",
+   "searched": "MXA, Keefer Inc, PulpMX, Dirt Bike, Dirt Bike Test, Vital MX features and forums, ADB, Transmoto",
+   "reason": "Every publication posts maps as screenshots/chart images only; text pages hold no values. MXA chart image (motocrossactionmag.com/wp-content/uploads/2023/03/MXperts_pg115-Charts-a-scaled.jpg) was refused by the fetch tool (provenance), so it could not be transcribed."
+  },
+  {
+   "item": "Default rpm and TH% breakpoints of the 2023+ grid",
+   "searched": "Yamaha US/AU/global pages, App Store, press releases, MXA, Vital, AMCN",
+   "reason": "Not published in text; only example points (Vital 2025) and the 2018 layout (AMCN)."
+  },
+  {
+   "item": "Yamaha owner's manual text on Power Tuner / TC / launch",
+   "searched": "2023-2025 YZ450F owner's manual PDF searches; manualslib (old GYTR handheld manual only)",
+   "reason": "No 2023+ owner's manual page found."
+  },
+  {
+   "item": "Yamaha guidance on fuel octane/quality or detonation limits for advanced maps",
+   "searched": "Yamaha pages, app descriptions, magazines",
+   "reason": "Only general tester warnings and MXA's note that the app has built-in protections."
+  },
+  {
+   "item": "Which models/years have the 'Extra High' traction control level; YZ250FX TC availability",
+   "searched": "Yamaha US model feature pages 2023-2027, Vital, App Store",
+   "reason": "Not stated by Yamaha."
+  },
+  {
+   "item": "Traction control feel/level recommendations by condition (sand, hardpack, slick) from testers",
+   "searched": "MXA, Dirt Bike, Keefer, bikesales, Ultimate Motorcycling",
+   "reason": "Tests mention TC exists but give no level-by-condition advice; one map (Stevie) run with TC off."
+  },
+  {
+   "item": "Racer X and Vital MX published maps for 2023-2026",
+   "searched": "Racer X Twisted Development 2024 YZ450F feature; Vital product guides",
+   "reason": "No map values; Racer X TP map article is for 2018-19 (previous generation, different grid)."
+  },
+  {
+   "item": "Dirt Bike Test 2024 YZ250F first impression (Responsive/Stevie maps)",
+   "searched": "URL from Vital forum",
+   "reason": "Fetch refused (URL provenance); swapmotolive version had no map content."
+  },
+  {
+   "item": "GYTR race ECU or flash service for YZ450F/YZ250F; Vortex fitments for 2023-2025 and YZ250F",
+   "searched": "Yamaha parts listings, Tokyo Mods",
+   "reason": "Only WR GYTR ECU kits and the 2026 YZ450F Vortex X10 listing found. Session web-search budget ran out before further searches."
+  }
+ ],
+ "sources": [
+  {
+   "date": "2013",
+   "name": "Motocross Action, Wrench Tech: How to reprogram your 2010-2013 YZ450F EFI maps",
+   "type": "magazine",
+   "url": "https://motocrossactionmag.com/mxa-wrench-tech-how-to-reprogram-your-2010-thru-2013-yamaha-yz450f-efi-maps"
+  },
+  {
+   "date": "2016",
+   "name": "Dirt Bike Test, GYTR Power Tuner product test",
+   "type": "magazine",
+   "url": "https://dirtbiketest.com/product-tests/gytr-power-tuner/"
+  },
+  {
+   "date": "2017",
+   "name": "Australian Motorcycle News, Smartphone-based engine tuning app (2018 YZ450F)",
+   "type": "magazine",
+   "url": "https://amcn.com.au/editorial/smartphone-based-engine-tuning-app/"
+  },
+  {
+   "date": "2018-09",
+   "name": "Vital MX forum, Yamaha Power Tuner app - what the numbers mean",
+   "type": "forum",
+   "url": "https://www.vitalmx.com/forums/Moto-Related,20/Yamaha-Power-Tuner-app-anyone-have-instructions-or-understand-what-the-numbers-mean,1346987"
+  },
+  {
+   "date": "2018-10 to 2024-11",
+   "name": "Vital MX forum, Yamaha Power Tuner app - can't connect",
+   "type": "forum",
+   "url": "https://www.vitalmx.com/comment/3984905"
+  },
+  {
+   "date": "2022",
+   "name": "Yamaha Motor USA, 2023 YZ450F features page",
+   "type": "manufacturer",
+   "url": "https://yamahamotorsports.com/models/23-yz450f/features"
+  },
+  {
+   "date": "2022",
+   "name": "Yamaha Motor global technology page: Power Tuner",
+   "type": "manufacturer",
+   "url": "https://global.yamaha-motor.com/business/mc/mc-tech/standard-technology/powertuner.html"
+  },
+  {
+   "date": "2022-08",
+   "name": "Ultimate Motorcycling, 2023 Yamaha YZ450F first look",
+   "type": "magazine",
+   "url": "https://ultimatemotorcycling.com/2022/08/12/2023-yamaha-yz450f-first-look-18-fast-facts-45-photos/"
+  },
+  {
+   "date": "2022-09",
+   "name": "Australasian Dirt Bike, Yamaha Power Tuner App update (Yamaha release)",
+   "type": "magazine",
+   "url": "https://adbmag.com.au/?p=41396"
+  },
+  {
+   "date": "2022-09",
+   "name": "Powersports Business, Yamaha launches updated Power Tuner App for 2023 YZ450F (Yamaha press release)",
+   "type": "magazine",
+   "url": "https://powersportsbusiness.com/top-stories/2022/09/23/yamaha-launches-updated-power-tuner-app-for-2023-yz450f/"
+  },
+  {
+   "date": "2022-10",
+   "name": "Cycle News, Yamaha Power Tuner App for 2023 YZ450F",
+   "type": "magazine",
+   "url": "https://www.cyclenews.com/2022/10/article/yamaha-power-tuner-app-for-2023-yz450f/"
+  },
+  {
+   "date": "2022-11",
+   "name": "bikesales.com.au, 2023 Yamaha YZ450F launch review",
+   "type": "magazine",
+   "url": "https://www.bikesales.com.au/editorial/details/2023-yamaha-yz450f-launch-review-138538/"
+  },
+  {
+   "date": "2023",
+   "name": "Dirt Bike Test, 2023 Yamaha YZ450FX test",
+   "type": "magazine",
+   "url": "https://dirtbiketest.com/bike-tests/2023-yamaha-yz450fx/"
+  },
+  {
+   "date": "2023",
+   "name": "Dirt Bike Test, 2024 Yamaha YZ450FX off-road racer first impression",
+   "type": "magazine",
+   "url": "https://dirtbiketest.com/fresh-dirt/2024-yamaha-yz450fx-off-road-racer-first-impression/"
+  },
+  {
+   "date": "2023",
+   "name": "Motocross Action, Race Test: 2023 Yamaha YZ250F",
+   "type": "magazine",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz250f"
+  },
+  {
+   "date": "2023",
+   "name": "Yamaha Motor USA, 2024 YZ250F features page",
+   "type": "manufacturer",
+   "url": "https://www.yamahamotorsports.com/models/24-yz250f/features"
+  },
+  {
+   "date": "2023",
+   "name": "Yamaha Motor USA, 2024 YZ250FX features page",
+   "type": "manufacturer",
+   "url": "https://yamahamotorsports.com/models/24-yz250fx/features"
+  },
+  {
+   "date": "2023",
+   "name": "Yamaha Motor USA, 2024 YZ450F features page",
+   "type": "manufacturer",
+   "url": "https://yamahamotorsports.com/models/24-yz450f/features"
+  },
+  {
+   "date": "2023",
+   "name": "Yamaha Motor USA, 2024 YZ450FX features page",
+   "type": "manufacturer",
+   "url": "https://yamahamotorsports.com/models/24-yz450fx/features"
+  },
+  {
+   "date": "2023-01",
+   "name": "Keefer Inc. Tested, 2023 Yamaha YZ250F Optional Yamaha Power Tuner Maps",
+   "type": "magazine",
+   "url": "https://www.keeferinctesting.com/2023-yamaha-yz250f-optional-yamaha-power-tuner-maps/"
+  },
+  {
+   "date": "2023-01",
+   "name": "Keefer Inc. Tested, 2023 Yamaha YZ450F Optional Power Tuner Maps",
+   "type": "magazine",
+   "url": "https://www.keeferinctesting.com/?p=24385"
+  },
+  {
+   "date": "2023-02",
+   "name": "Ultimate Motorcycling, 2023 Monster Energy Yamaha Racing Edition YZ450F review",
+   "type": "magazine",
+   "url": "https://ultimatemotorcycling.com/2023/02/10/2023-monster-energy-yamaha-racing-edition-yz450f-review/"
+  },
+  {
+   "date": "2023-02",
+   "name": "YouTube, mxengineer1: 2023 YZ450F turned into YZ350F with Yamaha Power Tuner",
+   "type": "forum",
+   "url": "https://www.youtube.com/watch?v=mON6mUvOFBk"
+  },
+  {
+   "date": "2023-03",
+   "name": "Motocross Action, Race Test: 2023 Yamaha YZ450F",
+   "type": "magazine",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz450f"
+  },
+  {
+   "date": "2023-04",
+   "name": "Motocross Action, Ten Things About the New Yamaha Power Tuner App",
+   "type": "magazine",
+   "url": "https://motocrossactionmag.com/ten-things-about-the-new-yamaha-power-tuner-app"
+  },
+  {
+   "date": "2023-07",
+   "name": "Cycle News, New 2024 Yamaha YZ250F model specs and details",
+   "type": "magazine",
+   "url": "https://cyclenews.com/2023/07/article/new-2024-yamaha-yz250f-model-specs-and-details"
+  },
+  {
+   "date": "2023-09",
+   "name": "PulpMX, Ten things about the 2024 Yamaha YZ250F on track",
+   "type": "magazine",
+   "url": "https://pulpmx.com/2023/09/26/ten-things-about-the-2024-yamaha-yz250f-on-track/"
+  },
+  {
+   "date": "2023-10",
+   "name": "Dirt Bike, Riding the 2024 Yamaha YZ450F long term: the wrap",
+   "type": "magazine",
+   "url": "https://dirtbikemagazine.com/riding-the-2024-yamaha-yz450f-long-term-the-wrap/"
+  },
+  {
+   "date": "2023-11",
+   "name": "Vital MX forum, 2024 YZ 250F Review thread",
+   "type": "forum",
+   "url": "https://www.vitalmx.com/comment/5875766"
+  },
+  {
+   "date": "2024",
+   "name": "Yamaha Motor Australia, How To: Yamaha WR Power Tuner App mapping ideas",
+   "type": "manufacturer",
+   "url": "https://www.yamaha-motor.com.au/buying/buyers-guides/freedom/products-pages/wr_mapping_ideas"
+  },
+  {
+   "date": "2024",
+   "name": "Yamaha Motor USA, 2025 WR450F features page",
+   "type": "manufacturer",
+   "url": "https://yamahamotorsports.com/models/25-wr450f/features"
+  },
+  {
+   "date": "2024",
+   "name": "Yamaha Motor USA, 2025 YZ450F features page",
+   "type": "manufacturer",
+   "url": "https://yamahamotorsports.com/models/25-yz450f/features"
+  },
+  {
+   "date": "2024",
+   "name": "Yamaha Motor USA, 2025 YZ450FX features page",
+   "type": "manufacturer",
+   "url": "https://yamahamotorsports.com/models/25-yz450fx/features"
+  },
+  {
+   "date": "2024-01",
+   "name": "Dirt Bike, 2024 Yamaha YZ450F full test",
+   "type": "magazine",
+   "url": "https://dirtbikemagazine.com/2024-yamaha-yz450f-full-test/"
+  },
+  {
+   "date": "2024-03",
+   "name": "Australasian Dirt Bike, 2024 Yamaha YZ450F dyno test",
+   "type": "magazine",
+   "url": "https://adbmag.com.au/editorial/2024-yamaha-yz450f-dyno-test/"
+  },
+  {
+   "date": "2024-08",
+   "name": "Dirt Bike, Riding the 2025 Yamaha YZ450F: the wrap",
+   "type": "magazine",
+   "url": "https://dirtbikemagazine.com/riding-the-2025-yamaha-yz450f-the-wrap/"
+  },
+  {
+   "date": "2024-08",
+   "name": "Motocross Action, Ask the MXperts: Does MXA have any updated 2023-2024 YZ450F maps?",
+   "type": "magazine",
+   "url": "https://motocrossactionmag.com/ask-the-mxperts-does-mxa-have-any-updated-2023-2024-yz450f-maps"
+  },
+  {
+   "date": "2024-10",
+   "name": "Dirt Bike Test, 2025 Yamaha YZ250F first impression",
+   "type": "magazine",
+   "url": "https://dirtbiketest.com/fresh-dirt/words-2025-yamaha-yz250f-first-impression/"
+  },
+  {
+   "date": "2024-12",
+   "name": "Dirt Bike, 2025 Yamaha YZ450F full test",
+   "type": "magazine",
+   "url": "https://dirtbikemagazine.com/2025-yamaha-yz450f-full-test"
+  },
+  {
+   "date": "2025-06",
+   "name": "Cycle News, New 2026 Yamaha YZ450F and YZ250F specs and price",
+   "type": "magazine",
+   "url": "https://www.cyclenews.com/2025/06/article/new-2026-yamaha-yz450f-and-yz250f-specs-and-price"
+  },
+  {
+   "date": "2025-08",
+   "name": "Vital MX, How to use the Yamaha Power Tuner app in detail (Steven Tokarski)",
+   "type": "magazine",
+   "url": "https://www.vitalmx.com/features/how-use-yamaha-power-tuner-app-detail"
+  },
+  {
+   "date": "2025-11",
+   "name": "Keefer Inc. Tested, 2026 Yamaha YZ450F Optional Yamaha Power Tuner Map",
+   "type": "magazine",
+   "url": "https://www.keeferinctesting.com/?p=29402"
+  },
+  {
+   "date": "2026",
+   "name": "AOMC, Yamaha GYTR Communication Control Unit B7R-H59C0-V0-00 (WR)",
+   "type": "dealer",
+   "url": "https://aomc.mx/B7R-H59C0-V0-00.html"
+  },
+  {
+   "date": "2026",
+   "name": "Apple App Store listing, POWER TUNER App (Yamaha Motor Co., Ltd.), incl. version history",
+   "type": "manufacturer",
+   "url": "https://apps.apple.com/us/app/power-tuner-app/id1235945328"
+  },
+  {
+   "date": "2026",
+   "name": "Tokyo Mods, Vortex X10 ECU Yamaha YZ450F 2026 (55-335-ECU-13)",
+   "type": "dealer",
+   "url": "https://tokyomods.com/vortex-x10-ecu-yamaha-yz450f-2026/"
+  },
+  {
+   "date": "2026",
+   "name": "Yamaha Motor Canada, GYTR Competition ECU Kit BAK-E9500-V0-00",
+   "type": "manufacturer",
+   "url": "https://yamaha-motor.ca/en/accessories/motorcycles/performance/gytr-competition-ecu-kit/BAK-E9500-V0-00"
+  },
+  {
+   "date": "2026",
+   "name": "Yamaha Motor USA, Power Tuner App page",
+   "type": "manufacturer",
+   "url": "https://yamahamotorsports.com/power-tuner-app"
+  },
+  {
+   "date": "2026",
+   "name": "Yamaha Motor USA, current (2027) YZ450F features page",
+   "type": "manufacturer",
+   "url": "https://www.yamahamotorsports.com/models/yz450f/features"
+  },
+  {
+   "date": "2026",
+   "name": "Yamaha Online Parts, BDB-E9500-V0-00 GYTR WR450F Competition Kit",
+   "type": "dealer",
+   "url": "https://yamahaonlineparts.com/products/yamaha-bdb-e9500-v0-00-gytr-wr450f-competition-kit"
+  },
+  {
+   "date": "2026",
+   "name": "Yamaha Online Parts, BNK-E9500-V0-00 GYTR WR450F Competition ECU Kit",
+   "type": "dealer",
+   "url": "https://yamahaonlineparts.com/products/yamaha-bnk-e9500-v0-00-gytr-wr450f-competition-kit"
+  }
+ ]
+}

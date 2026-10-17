@@ -1,0 +1,2521 @@
+{
+ "slice": "Yamaha YZ450F 2023-2026 (current generation; include 2027 if released): identity/generations, engine architecture, power and feel, drivetrain, chassis, known issues",
+ "platform": {
+  "make": "Yamaha",
+  "models": [
+   "YZ450F"
+  ],
+  "years": [
+   2023,
+   2024,
+   2025,
+   2026,
+   2027
+  ]
+ },
+ "records": [
+  {
+   "id": "yz45-001",
+   "domain": "identity",
+   "topic": "platform generation",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "The 2023 YZ450F was an all-new generation (new engine internals, frame, airbox, clutch, electronics). 2024-2027 are evolutions of that 2023 platform with the same 97.0 x 60.8 mm engine.",
+   "values": {
+    "generation_start": "2023",
+    "bore_x_stroke": "97.0 x 60.8 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motorcycle.com (reprint of Yamaha USA 2023 press release)",
+    "url": "https://www.motorcycle.com/2022/08/10/manufacturers/yamaha/yamaha-announces-new-2023-yz450f-yz125x-and-yz250x/",
+    "date": "2022-08"
+   },
+   "confidence": "high",
+   "notes": "Bore/stroke unchanged through 2026 per Yamaha USA spec pages; 2027 AU spec sheet lists same 450cc DOHC 4-valve layout."
+  },
+  {
+   "id": "yz45-002",
+   "domain": "identity",
+   "topic": "2023 model year changes",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "All-new for 2023: new cylinder head ports, larger titanium intake valves, forged piston, new cylinder, crank and balancer, dry-sump lubrication, rev limit up 500 rpm, new airbox and filter, disc-spring clutch, tri-shaft gearbox, new aluminum bilateral beam frame (10+ welded pieces), traction control, launch control, handlebar map switch, about 5 lb lighter.",
+   "values": {
+    "weight_saving": "about 5 lb",
+    "rev_limit_change": "+500 rpm",
+    "MSRP_blue": "$9,899",
+    "MSRP_Monster": "$10,099"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motorcycle.com (reprint of Yamaha USA 2023 press release)",
+    "url": "https://www.motorcycle.com/2022/08/10/manufacturers/yamaha/yamaha-announces-new-2023-yz450f-yz125x-and-yz250x/",
+    "date": "2022-08"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "yz45-003",
+   "domain": "identity",
+   "topic": "2024 model year changes",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "2024 was essentially a carryover of 2023 with new graphics and seat color; a white 50th Anniversary Edition was added. MSRP rose to $9,999 ($10,199 anniversary).",
+   "values": {
+    "MSRP": "$9,999",
+    "MSRP_50th": "$10,199"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2024 YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz450f",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "MXA calls it a clone of the 2023. DirtBikeTest first look also notes only graphics/seat color for the 450."
+  },
+  {
+   "id": "yz45-004",
+   "domain": "identity",
+   "topic": "2025 model year changes",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "For 2025 Yamaha revised the rear linkage and shock settings, updated fork settings (delta-shaped piston shims), changed the front engine mounts, increased clutch-plate oil holes from 6 to 18, added a raised-rib handlebar switchbox, and fitted lighter aluminum footpeg brackets.",
+   "values": {
+    "clutch_oil_holes": "6 -> 18"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA 2025 YZ450F features page",
+    "url": "https://www.yamahamotorsports.com/models/25-yz450f/features",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "yz45-005",
+   "domain": "identity",
+   "topic": "2025 model year changes (tester detail)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Testers report the 2025 front engine mounts went back to a single piece after two years of two thinner pieces, the throttle tube was moved out 10 mm to reduce blisters, and the MSRP stayed $9,999.",
+   "values": {
+    "throttle_tube_offset": "+10 mm",
+    "MSRP": "$9,999"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News, 2025 Yamaha YZ450F review",
+    "url": "https://www.cyclenews.com/2024/09/article/2025-yamaha-yz450f-review/",
+    "date": "2024-09"
+   },
+   "confidence": "medium",
+   "notes": "MXA describes the 2025 linkage as stiffer and the spring rate softer, with new ECU map settings (mxa25v). Yamaha's 2025 US spec page later showed $10,299 MSRP; Cycle News reported $9,999 at launch."
+  },
+  {
+   "id": "yz45-006",
+   "domain": "identity",
+   "topic": "2026 model year changes",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "2026 brought a redesigned intake port (stronger tumble, more linear low-mid response), new intake and exhaust resonators for noise rules, a new frame with a thinner front downtube, a new KYB shock with hand-adjustable low-speed compression, revised fork settings, a standard hydraulic clutch with new inner hub, and a password ECU lock in the Power Tuner app.",
+   "values": {
+    "MSRP_blue": "$10,299",
+    "MSRP_70th": "$10,499"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "GateDrop, 2026 YZ450F revealed (Yamaha USA release)",
+    "url": "https://gatedrop.com/?p=185735",
+    "date": "2025-06"
+   },
+   "confidence": "high",
+   "notes": "Cycle News lists the hydraulic clutch under the YZ250F section, but the Yamaha USA release text (GateDrop) and Yamaha Australia (MCNews) confirm it for the YZ450F."
+  },
+  {
+   "id": "yz45-007",
+   "domain": "identity",
+   "topic": "2026 model year changes (tester detail)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Dirt Bike Magazine reports the 2026 engine also got a new cam, flywheel inertia up 8%, a head-pipe resonator and new muffler; clutch spring tension up 10%; and stock rear sprocket changed from 49 to 51 teeth. Frame: more lateral rigidity at the forged downtube, softer engine cradle, changed engine hangers, top shock mount less vertically rigid; geometry unchanged.",
+   "values": {
+    "flywheel_inertia": "+8%",
+    "clutch_spring_tension": "+10%",
+    "rear_sprocket": "49T -> 51T"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine, 2026 Yamaha YZ450F full test",
+    "url": "https://dirtbikemagazine.com/?p=101518",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Magazine-reported technical briefing details; not found in Yamaha USA public spec pages."
+  },
+  {
+   "id": "yz45-008",
+   "domain": "identity",
+   "topic": "2026 model year changes (Australian launch detail)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Australian launch info lists 2026 shock main-valve ports up from 4 to 6, base valve piston enlarged from 24 mm to 28 mm with two-way oil passages, a piston cooler, a new magneto, front engine mount thickness 6 mm and asymmetric rear engine mounts.",
+   "values": {
+    "shock_main_valve_ports": "4 -> 6",
+    "shock_base_valve": "24 mm -> 28 mm",
+    "front_engine_mount": "6 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "BikeReview.com.au, 2026 YZ450F launch test",
+    "url": "https://bikereview.com.au/bike-review-launch-2026-yamaha-yz450f-motocrosser-test/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "BikeReview's spec table also says 'cable clutch actuation' while its text describes the hydraulic clutch; spec table appears copied from an older sheet."
+  },
+  {
+   "id": "yz45-009",
+   "domain": "identity",
+   "topic": "2027 model year",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "The 2027 YZ450F is announced (June 2026) at $10,299 ($10,499 Monster Energy Edition). The only change found is a new rear brake: smaller caliper, smaller master-cylinder piston and a 220 mm rear disc (was 240 mm), claimed 180 g lighter.",
+   "values": {
+    "MSRP": "$10,299",
+    "MSRP_Monster": "$10,499",
+    "rear_disc": "220 mm (was 240 mm)",
+    "rear_brake_saving": "180 g"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor Australia 2027 YZ450F spec sheet",
+    "url": "https://www.yamaha-motor.com.au/-/media/files/spec-sheets/motorcycle/2027/2027_yz450f.ashx",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "220 mm rear disc and 109 kg wet from Yamaha Australia 2027 spec sheet; caliper/master cylinder and 180 g claim from Yamaha copy on a US dealer listing (at27); prices from Motorcycle & Powersports News (mpn27). No engine change was published."
+  },
+  {
+   "id": "yz45-010",
+   "domain": "identity",
+   "topic": "special editions",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Editions: 2023 and 2025 Monster Energy Yamaha Racing Edition, 2024 50th Anniversary Edition (white, throwback graphics), 2026 70th Anniversary Edition (white/red speed block), 2027 Monster Energy Edition. Editions are graphics/color only.",
+   "values": {
+    "2024_50th_MSRP": "$10,199",
+    "2026_70th_MSRP": "$10,499"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "GateDrop, 2026 YZ450F revealed (Yamaha USA release)",
+    "url": "https://gatedrop.com/?p=185735",
+    "date": "2025-06"
+   },
+   "confidence": "medium",
+   "notes": "Compiled from pr23, mxa24, gd26, mpn27."
+  },
+  {
+   "id": "yz45-011",
+   "domain": "engine_architecture",
+   "topic": "bore, stroke, displacement, compression",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Yamaha publishes a 97.0 mm bore and 60.8 mm stroke (450cc) with 13.0:1 compression for every year 2023-2026.",
+   "values": {
+    "bore": "97.0 mm",
+    "stroke": "60.8 mm",
+    "displacement": "450 cc",
+    "compression": "13.0:1"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA 2023 YZ450F specs page",
+    "url": "https://yamahamotorsports.com/models/23-yz450f/specs",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Same values on 2025 and 2026 US spec pages (ym25, ym26). MCNews notes 13.0:1 matches recent predecessors."
+  },
+  {
+   "id": "yz45-012",
+   "domain": "engine_architecture",
+   "topic": "bore/stroke ratio",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Worked out from Yamaha's bore and stroke, the bore/stroke ratio is 1.60, a strongly oversquare short-stroke layout.",
+   "values": {
+    "bore_stroke_ratio": "1.595"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "high",
+   "notes": "97.0 / 60.8 = 1.595. Displacement check: pi/4 x 9.70^2 x 6.08 cm = 449.3 cc."
+  },
+  {
+   "id": "yz45-013",
+   "domain": "engine_architecture",
+   "topic": "rev limit",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "On the 2023 the rev limiter was raised 500 rpm to 11,700 rpm, per Motocross Action.",
+   "values": {
+    "rev_limit": "11,700 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2023 YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz450f",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Yamaha itself publishes only '+500 rpm' versus 2022, no absolute figure. ADB saw the softened Power Tuner map still revving past 11,000 rpm on the 2024."
+  },
+  {
+   "id": "yz45-014",
+   "domain": "engine_architecture",
+   "topic": "mean piston speed at rev limit",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Worked out from Yamaha's 60.8 mm stroke, mean piston speed is about 23.7 m/s at the 11,700 rpm limiter and about 19.9 m/s at the 9,800 rpm power peak.",
+   "values": {
+    "mps_at_11700": "23.7 m/s",
+    "mps_at_9800": "19.9 m/s",
+    "mps_at_9600": "19.5 m/s"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "medium",
+   "notes": "Mean piston speed = 2 x stroke x rpm / 60000 = 2 x 60.8 x 11700 / 60000 = 23.71 m/s. Rev limit is MXA-reported (MEASURED), not OEM-published, so confidence medium."
+  },
+  {
+   "id": "yz45-015",
+   "domain": "engine_architecture",
+   "topic": "valves",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Four titanium valves; for 2023 the two intake valves grew to 39 mm, which Yamaha says gives 9% more intake air volume at maximum lift.",
+   "values": {
+    "intake_valve_dia": "39 mm (x2)",
+    "valve_material": "titanium",
+    "intake_air_volume_gain": "+9% at max lift"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Hub UK, 2023 YZ450F introduction (Yamaha Europe info)",
+    "url": "https://www.dirthub.co.uk/introducing-the-all-new-2023-yamaha-yz450f-and-full-2023-yamaha-off-road-range/",
+    "date": "2022-08"
+   },
+   "confidence": "high",
+   "notes": "39 mm also on Yamaha USA 2025 features page ('39 mm titanium valves'). MXP gives the old size as 37 mm (37 -> 39). Exhaust valve diameter not published."
+  },
+  {
+   "id": "yz45-016",
+   "domain": "engine_architecture",
+   "topic": "intake valve area vs bore",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Worked out from published sizes, two 39 mm intake valves give about 2,389 mm2 of valve head area, about 32% of the 97 mm bore area.",
+   "values": {
+    "intake_valve_area": "2,389 mm2",
+    "bore_area": "7,390 mm2",
+    "ratio": "0.32"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "medium",
+   "notes": "Valve area = 2 x pi/4 x 39^2 = 2389 mm2; bore area = pi/4 x 97^2 = 7390 mm2. With MXP's 37 mm prior size, area grew about 11% (2 x pi/4 x 37^2 = 2150 mm2)."
+  },
+  {
+   "id": "yz45-017",
+   "domain": "engine_architecture",
+   "topic": "cylinder head layout (reversed head)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The YZ450F keeps Yamaha's rearward-slanted cylinder with a reversed head: intake at the front fed from an airbox ahead of the fuel tank, a downdraft straight intake port, and the exhaust exiting rearward and wrapping around.",
+   "values": {
+    "layout": "reversed head, front intake, rear exhaust, rearward-slanted cylinder"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2023 YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz450f",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Yamaha Europe info (dh23) confirms front intake/rear exhaust and a straighter 2023 intake port."
+  },
+  {
+   "id": "yz45-018",
+   "domain": "engine_architecture",
+   "topic": "intake path and airbox 2023",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "From 2023 fresh air enters between the tank, frame, seat and side panels (no more radiator-shroud ducts) into a vortex airbox that spins dust out before a round 3D filter. The airbox cover sits 15 mm lower and the domed filter has 56% more surface area.",
+   "values": {
+    "filter_area": "+56%",
+    "airbox_cover_height": "-15 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2023 YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz450f",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Vortex/centrifugal separation and intake route per Yamaha Europe info (dh23, adb23r)."
+  },
+  {
+   "id": "yz45-019",
+   "domain": "engine_architecture",
+   "topic": "intake port 2026",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "For 2026 the intake port was reshaped to create stronger tumble in the chamber, aimed at more torque and a more linear low-to-mid response; a new intake resonator and duct were added.",
+   "values": {
+    "change": "new intake port, stronger tumble, intake resonator"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "GateDrop, 2026 YZ450F revealed (Yamaha USA release)",
+    "url": "https://gatedrop.com/?p=185735",
+    "date": "2025-06"
+   },
+   "confidence": "high",
+   "notes": "No tumble ratio or flow numbers published."
+  },
+  {
+   "id": "yz45-020",
+   "domain": "engine_architecture",
+   "topic": "throttle body and fuel injection",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Fuel injection is Mikuni with a 44 mm throttle body.",
+   "values": {
+    "throttle_body": "44 mm Mikuni"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA 2023 YZ450F specs page",
+    "url": "https://yamahamotorsports.com/models/23-yz450f/specs",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Injector part details (hole count, flow, pressure) not published."
+  },
+  {
+   "id": "yz45-021",
+   "domain": "engine_architecture",
+   "topic": "piston, crank and balancer 2023",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "2023 got a new forged piston and lighter cylinder, a crank with 6 mm larger outer diameter (117 to 123 mm), 25 g lighter web holes, a 4 mm larger big-end pin, a plain bearing in place of the needle bearing, and a single-weight balancer on a hollow shaft 115 g lighter.",
+   "values": {
+    "crank_web_od": "117 -> 123 mm",
+    "crank_weight_saving": "25 g",
+    "big_end_pin": "+4 mm",
+    "balancer_saving": "115 g",
+    "big_end_bearing": "plain (was needle roller)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "MXP Magazine, Introducing the all-new 2023 YZ450F",
+    "url": "https://www.mxpmag.com/introducing-the-all-new-2023-yz450f-new-bike-with-countless-new-features/",
+    "date": "2022-08"
+   },
+   "confidence": "medium",
+   "notes": "Crank/balancer numbers from MXP's launch report; plain bearing and hollow balancer shaft from Yamaha Europe info (dh23). Rod length not published."
+  },
+  {
+   "id": "yz45-022",
+   "domain": "engine_architecture",
+   "topic": "cam and timing chain",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "2023 got a lighter camshaft driven by a new low-friction timing chain and tensioner.",
+   "values": {
+    "cam": "lighter, new chain and tensioner"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "MCNews.com.au, 2023 YZ450F release",
+    "url": "https://mcnews.com.au/?p=394181",
+    "date": "2022-08"
+   },
+   "confidence": "medium",
+   "notes": "Cam lift and duration are not published. Dirt Bike Magazine reports a new cam for 2026 (db26)."
+  },
+  {
+   "id": "yz45-023",
+   "domain": "engine_architecture",
+   "topic": "lubrication",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Yamaha's 2023 release says lubrication changed from wet sump to dry sump; the oil tank is hidden in the ignition-side cover.",
+   "values": {
+    "lubrication": "dry sump"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motorcycle.com (reprint of Yamaha USA 2023 press release)",
+    "url": "https://www.motorcycle.com/2022/08/10/manufacturers/yamaha/yamaha-announces-new-2023-yz450f-yz125x-and-yz250x/",
+    "date": "2022-08"
+   },
+   "confidence": "medium",
+   "notes": "Oil tank location per MXA (mxa23). Oil capacities belong in the maintenance slice."
+  },
+  {
+   "id": "yz45-024",
+   "domain": "engine_architecture",
+   "topic": "2026 flywheel and magneto",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "For 2026 flywheel inertia was raised 8% (new magneto), which smooths and slightly softens how quickly the engine revs.",
+   "values": {
+    "flywheel_inertia": "+8%"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine, 2026 Yamaha YZ450F full test",
+    "url": "https://dirtbikemagazine.com/?p=101518",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "BikeReview (br26) also lists a new magneto and a piston cooler."
+  },
+  {
+   "id": "yz45-025",
+   "domain": "power_feel",
+   "topic": "Yamaha power claim 2023",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Yamaha claims about 5% more power across the range for the 2023 engine, with a 500 rpm higher rev limit.",
+   "values": {
+    "power_gain_claim": "about +5%"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Hub UK, 2023 YZ450F introduction (Yamaha Europe info)",
+    "url": "https://www.dirthub.co.uk/introducing-the-all-new-2023-yamaha-yz450f-and-full-2023-yamaha-off-road-range/",
+    "date": "2022-08"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "yz45-026",
+   "domain": "power_feel",
+   "topic": "peak power 2023 (Dirt Rider)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "On Dirt Rider's Dynojet 250i the 2023 made 54.4 hp and 32.7 lb-ft at the rear wheel, up 1.6 hp and 0.3 lb-ft on the 2022.",
+   "values": {
+    "peak_hp": "54.4 hp",
+    "peak_torque": "32.7 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider, 2023 Yamaha YZ450F dyno test",
+    "url": "https://dirtrider.com/tests/yamaha-yz450f-dyno-test-2023",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Dynojet 250i, Dunlop D404 street tire; rpm of peaks, map and fuel not stated. Stock."
+  },
+  {
+   "id": "yz45-027",
+   "domain": "power_feel",
+   "topic": "peak power 2023 (Motocross Action)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "On Motocross Action's dyno the 2023 made 58.95 hp at 9,800 rpm and 35.37 lb-ft, versus 59.29 hp and 36.07 lb-ft for the 2022.",
+   "values": {
+    "peak_hp": "58.95 hp @ 9,800 rpm",
+    "peak_torque": "35.37 lb-ft",
+    "2022_peak_hp": "59.29 hp",
+    "2022_peak_torque": "36.07 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2023 YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz450f",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Dyno brand not stated. Stock. MXA lists rivals on the same basis: KTM 450SXF 59.94, Husqvarna FC450 59.30, GasGas 57.07, KX450 56.37, CRF450 56.31 hp, RM-Z450 under 55; all rivals except Suzuki made 1-2 lb-ft more torque."
+  },
+  {
+   "id": "yz45-028",
+   "domain": "power_feel",
+   "topic": "low-rpm jump 2023",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "MXA's 2023 curve jumps from 12.33 hp at 4,300 rpm to 20.31 hp at 4,400 rpm (about 8 hp in 100 rpm), then gains about 1 hp per 100 rpm for the next 2,500 rpm with no dips.",
+   "values": {
+    "hp_4300": "12.33 hp",
+    "hp_4400": "20.31 hp"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2023 YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz450f",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Stock map. Explains the sharp first-crack-of-throttle feel."
+  },
+  {
+   "id": "yz45-029",
+   "domain": "power_feel",
+   "topic": "peak power 2024 (MXA)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "MXA lists the 2024 at 58.95 hp (same as its 2023 figure); the 2024 Husqvarna FC450 led the class at 61.18 hp.",
+   "values": {
+    "peak_hp": "58.95 hp",
+    "FC450_2024": "61.18 hp"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2024 YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz450f",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Identical to 2023 figure; 2024 was mechanically unchanged, so the number may be carried over rather than re-run."
+  },
+  {
+   "id": "yz45-030",
+   "domain": "power_feel",
+   "topic": "peak power 2024 (ADB, Power Tuner maps)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "On an Australian Dyno Dynamics dyno the stock 2024 made 56.4 hp at 9,500 rpm with torque above 45 Nm from 6,000 to 9,000 rpm. The best Power Tuner remap added only 0.6 hp; a fully softened map cut it to 51.4 hp.",
+   "values": {
+    "stock_peak_hp": "56.4 hp @ 9,500 rpm",
+    "torque_band": ">45 Nm 6,000-9,000 rpm",
+    "best_remap": "+0.6 hp (~57.0 hp)",
+    "soft_map": "51.4 hp"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Australasian Dirt Bike, 2024 YZ450F dyno test (Power Tuner maps)",
+    "url": "https://adbmag.com.au/editorial/2024-yamaha-yz450f-dyno-test/",
+    "date": "2024-03"
+   },
+   "confidence": "high",
+   "notes": "Dyno Dynamics 'Dyno Tech'; stock exhaust and filter. Tester notes the stock map is on the rich side; leaning and advancing helped slightly, too lean dropped power sharply. Tester says Dynojets usually read higher."
+  },
+  {
+   "id": "yz45-031",
+   "domain": "power_feel",
+   "topic": "peak power 2025 (Dirt Rider)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On Dirt Rider's Dynojet 250i the 2025 made 55.3 hp and 33.0 lb-ft at the rear wheel, 1.8 hp more than the KX450; the GasGas MC 450F made 0.5 lb-ft more torque.",
+   "values": {
+    "peak_hp": "55.3 hp",
+    "peak_torque": "33.0 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider, 2025 Yamaha YZ450F dyno test",
+    "url": "https://www.dirtrider.com/tests/yamaha-yz450f-dyno-test-2025",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Dynojet 250i. rpm, map, fuel not stated. Stock."
+  },
+  {
+   "id": "yz45-032",
+   "domain": "power_feel",
+   "topic": "peak power 2026 (Dirt Bike shootout)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "On the dyno at Pro Circuit (Dirt Bike Magazine 2026 shootout) the 2026 YZ450F made 56.7 hp at 9,600 rpm and 35.1 lb-ft at 7,500 rpm.",
+   "values": {
+    "peak_hp": "56.7 hp @ 9,600 rpm",
+    "peak_torque": "35.1 lb-ft @ 7,500 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine, 2026 450 shootout dyno wrap (Pro Circuit dyno)",
+    "url": "https://dirtbikemagazine.com/?p=101733",
+    "date": "2025-11"
+   },
+   "confidence": "high",
+   "notes": "Same session: KTM 450SX-F 59.5 hp/36.3 lb-ft, Husqvarna FC450 60.2/36.5, Triumph TF450X 58.6/36.0, GasGas MC450F 57.9/35.9, KX450 57.7/34.8, RM-Z450 56.6/35.2, CRF450R 55.3/36.5. Dyno brand not stated. Stock."
+  },
+  {
+   "id": "yz45-033",
+   "domain": "power_feel",
+   "topic": "peak power 2026 (Vital MX shootout)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "On Race Tech's dyno for Vital MX the 2026 made 53.62 hp at 9,500 rpm (7th of 8) and 33.0 lb-ft at 7,400 rpm (last of 8).",
+   "values": {
+    "peak_hp": "53.62 hp @ 9,500 rpm",
+    "peak_torque": "33.0 lb-ft @ 7,400 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX, 2026 450 shootout",
+    "url": "https://www.vitalmx.com/comment/8453606",
+    "date": "2025-11"
+   },
+   "confidence": "high",
+   "notes": "Race Tech dyno, brand not stated. Stock. One tester felt the restricted 2026 exhaust made it feel slightly choked."
+  },
+  {
+   "id": "yz45-034",
+   "domain": "power_feel",
+   "topic": "power character 2023-2024",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Testers describe the 2023-2024 as very sharp and sensitive in the first bit of throttle (pops out of ruts, wheelies), then very linear through the mid and top, with a high power peak and long over-rev.",
+   "values": {
+    "bottom": "very sharp, sensitive",
+    "mid": "linear, no dips",
+    "top/over-rev": "strong, extended"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2023 YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz450f",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Dirt Bike 2024 test: 'shockingly fast', most rapid gain 7,500-10,000 rpm, most riders need detuning (db24). Australian launch: strong bottom, cracking top, long broad delivery (br23)."
+  },
+  {
+   "id": "yz45-035",
+   "domain": "power_feel",
+   "topic": "power character 2025",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Testers call the 2025 a very strong engine with strong bottom-to-mid pull and gearing that lets you hold 2nd and 3rd longer than most rivals; the standard map is the aggressive one.",
+   "values": {
+    "bottom-mid": "strong",
+    "character": "aggressive standard map"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News, 2025 Yamaha YZ450F review",
+    "url": "https://www.cyclenews.com/2024/09/article/2025-yamaha-yz450f-review/",
+    "date": "2024-09"
+   },
+   "confidence": "medium",
+   "notes": "Dirt Bike 2025 shootout rated it 5/5 peak power but 3/5 power delivery (db25sh); Swapmoto testers called it the most powerful and most tunable, revving freely (swap25)."
+  },
+  {
+   "id": "yz45-036",
+   "domain": "power_feel",
+   "topic": "power character 2026",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Testers say the 2026 power starts earlier, is smoother and more linear low-mid, and is slightly softer on top than 2025; the peak is broader so it shifts less. Some say bottom end feels softer than 2025 and miss the quicker revving.",
+   "values": {
+    "bottom": "smoother; earlier per DB, softer per MotoOnline",
+    "top": "slightly softer than 2025"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine, 2026 Yamaha YZ450F full test",
+    "url": "https://dirtbikemagazine.com/?p=101518",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Why (tester and OEM explanations): new intake port for stronger tumble, flywheel inertia +8%, intake/exhaust resonators and quieter muffler, and shorter final gearing (13/51) which makes the engine feel stronger low but shortens 2nd. Keefer calls throttle connection the most direct of the 2026 450s with clean mapping (kif26w)."
+  },
+  {
+   "id": "yz45-037",
+   "domain": "power_feel",
+   "topic": "vibration",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Yamaha claims the lighter 2023 balancer reduces vibration; on the 2026 testers report little to no vibration, the least in Vital's 2026 shootout.",
+   "values": {
+    "vibration": "low"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc Testing, why the 2026 YZ450F is winning shootouts",
+    "url": "https://www.keeferinctesting.com/?p=29460",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Vital tester Tokarski: least vibration in test (vital26). MotoOnline: less than 2025 (mo26)."
+  },
+  {
+   "id": "yz45-038",
+   "domain": "power_feel",
+   "topic": "intake noise",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "The 2023-2025 have a loud intake roar from the front airbox; testers carried earplugs. 2026 is noticeably quieter.",
+   "values": {
+    "noise": "loud intake 2023-2025; quieter 2026"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News, 2025 Yamaha YZ450F review",
+    "url": "https://www.cyclenews.com/2024/09/article/2025-yamaha-yz450f-review/",
+    "date": "2024-09"
+   },
+   "confidence": "medium",
+   "notes": "DB 2024 testers partly taped the clutch-side airbox opening, cutting noise and taming midrange (db24)."
+  },
+  {
+   "id": "yz45-039",
+   "domain": "power_feel",
+   "topic": "shootout rankings",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Shootouts: won Dirt Rider's 2023 450 MX shootout; won Swapmoto Live's 2025 shootout unanimously; 2nd in Vital MX's 2026 shootout (KTM 1st, Honda 3rd); Keefer reports 2026 wins at Swapmoto Live, Dirt Bike Magazine and Whiskey Throttle Media.",
+   "values": {
+    "DR_2023": "1st",
+    "Swap_2025": "1st",
+    "Vital_2026": "2nd of 8"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX, 2026 450 shootout",
+    "url": "https://www.vitalmx.com/comment/8453606",
+    "date": "2025-11"
+   },
+   "confidence": "medium",
+   "notes": "Sources: dr23tech, swap25, vital26, kif26w. Dirt Rider 2026 had CRF450R 2nd; YZ placing not retrieved."
+  },
+  {
+   "id": "yz45-040",
+   "domain": "power_feel",
+   "topic": "measured weight 2023 (Dirt Bike)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Dirt Bike Magazine weighed the 2023 at 231.5 lb with the fuel tank drained (other fluids in), the lightest Japanese 450; CRF450R was 233 lb.",
+   "values": {
+    "weight": "231.5 lb, no fuel"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine, 2023 YZ450F weight correction",
+    "url": "https://dirtbikemagazine.com/2023-yamaha-yz450f-weight-correction/",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "First published as 235.7 lb, then corrected after reweigh."
+  },
+  {
+   "id": "yz45-041",
+   "domain": "power_feel",
+   "topic": "measured weight 2023-2024 (MXA)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "MXA lists the 2023 and 2024 at 233 lb, about 5 lb less than the 2022; GasGas lightest at 223 lb.",
+   "values": {
+    "weight": "233 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2024 YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz450f",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Fuel condition not stated (MXA normally weighs without fuel)."
+  },
+  {
+   "id": "yz45-042",
+   "domain": "power_feel",
+   "topic": "measured weight 2026 (Dirt Bike)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Dirt Bike Magazine weighed the 2026 at 231 lb without fuel.",
+   "values": {
+    "weight": "231 lb, no fuel"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine, 2026 Yamaha YZ450F full test",
+    "url": "https://dirtbikemagazine.com/?p=101518",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "yz45-043",
+   "domain": "power_feel",
+   "topic": "measured weight 2026 (Vital, full tank)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Vital MX weighed the 2026 at 244 lb with a full tank: 118 lb front, 126 lb rear (48/52), tied 5th heaviest of 8; the KX450 was heaviest at 251 lb.",
+   "values": {
+    "weight": "244 lb full tank",
+    "front": "118 lb",
+    "rear": "126 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX, 2026 450 shootout",
+    "url": "https://www.vitalmx.com/comment/8453606",
+    "date": "2025-11"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "yz45-044",
+   "domain": "power_feel",
+   "topic": "claimed wet weight",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Yamaha USA claims 240 lb wet (full tank) for 2023-2025 and 243 lb for 2026. Yamaha Australia lists 109 kg wet for 2023 and 2027.",
+   "values": {
+    "2023-2025": "240 lb",
+    "2026": "243 lb",
+    "AU_2023": "109 kg",
+    "AU_2027": "109 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA 2026 YZ450F specs page",
+    "url": "https://yamahamotorsports.com/models/26-yz450f/specs",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "See conflicts for 2026 AU 109 vs 110 kg."
+  },
+  {
+   "id": "yz45-045",
+   "domain": "power_feel",
+   "topic": "specific output",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Worked out from magazine dynos, the 2026 makes about 119-126 rear-wheel hp per litre depending on dyno.",
+   "values": {
+    "hp_per_litre": "119.3 (Vital) to 126.2 (Dirt Bike)"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK MX calculation",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "low",
+   "notes": "53.62/0.4493 = 119.3; 56.7/0.4493 = 126.2. Different dynos, do not treat as one value."
+  },
+  {
+   "id": "yz45-046",
+   "domain": "ecu_electronics",
+   "topic": "traction and launch control",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Since 2023: traction control HIGH/LOW/OFF and launch control with an rpm limit adjustable 6,000-11,000 rpm in 500 rpm steps, set in the Power Tuner app; launch control cancels at 3rd gear.",
+   "values": {
+    "TC_levels": "HIGH, LOW, OFF",
+    "launch_rpm": "6,000-11,000 rpm, 500 rpm steps"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA 2025 YZ450F features page",
+    "url": "https://www.yamahamotorsports.com/models/25-yz450f/features",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Cancels at 3rd gear per Yamaha Europe info (dh23). Ultimate Motorcycling printed 7,000-12,000 (see conflicts)."
+  },
+  {
+   "id": "yz45-047",
+   "domain": "ecu_electronics",
+   "topic": "maps and Power Tuner",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Two maps are selectable from a handlebar switch; the Power Tuner app sets fuel and ignition maps (including a Quick Setting slider from smooth to aggressive), lap timer, maintenance log. From 2026 the app adds a password ECU lock that prevents starting.",
+   "values": {
+    "bar_maps": "2",
+    "2026_feature": "ECU lock"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "GateDrop, 2026 YZ450F revealed (Yamaha USA release)",
+    "url": "https://gatedrop.com/?p=185735",
+    "date": "2025-06"
+   },
+   "confidence": "high",
+   "notes": "ADB Australian launch says the app offers seven power-delivery presets (br23)."
+  },
+  {
+   "id": "yz45-048",
+   "domain": "ecu_electronics",
+   "topic": "stock map character",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "ADB found the stock 2024 map slightly rich; leaner fuel plus more ignition advance gained only 0.6 hp, and maxed-out rich/retard settings cut 5 hp while still revving past 11,000 rpm.",
+   "values": {
+    "remap_gain": "+0.6 hp",
+    "soft_map_loss": "-5 hp"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Australasian Dirt Bike, 2024 YZ450F dyno test (Power Tuner maps)",
+    "url": "https://adbmag.com.au/editorial/2024-yamaha-yz450f-dyno-test/",
+    "date": "2024-03"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "yz45-049",
+   "domain": "ecu_electronics",
+   "topic": "MXA custom map 2023",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "MXA testers found the optional smooth map did not stop wheelies and built a richer custom map from 2,000 to 5,000 rpm in Power Tuner to calm the first hit.",
+   "values": {
+    "map_change": "richer 2,000-5,000 rpm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2023 YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz450f",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Exact cell values not published."
+  },
+  {
+   "id": "yz45-050",
+   "domain": "drivetrain",
+   "topic": "transmission and clutch layout",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Five-speed tri-shaft gearbox with vertically stacked shafts; one-piece steel primary gear and clutch basket; disc (Belleville) spring clutch. Cable-actuated 2023-2025, hydraulic from 2026.",
+   "values": {
+    "gears": "5",
+    "clutch_spring": "disc spring",
+    "actuation": "cable 2023-2025, hydraulic 2026+"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motorcycle.com (reprint of Yamaha USA 2023 press release)",
+    "url": "https://www.motorcycle.com/2022/08/10/manufacturers/yamaha/yamaha-announces-new-2023-yz450f-yz125x-and-yz250x/",
+    "date": "2022-08"
+   },
+   "confidence": "high",
+   "notes": "Yamaha Europe: clutch 0.75 kg lighter than the old two-piece; MXA: 1.6 lb lighter. MXP: clutch 12.7 mm narrower, clutch shaft to drive distance +7 mm."
+  },
+  {
+   "id": "yz45-051",
+   "domain": "drivetrain",
+   "topic": "2026 hydraulic clutch",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "2026 standard hydraulic clutch (Nissin master cylinder per Dirt Bike) with a new inner hub with larger lubrication area and about 10% more spring tension.",
+   "values": {
+    "master_cylinder": "Nissin",
+    "spring_tension": "+10%"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine, 2026 Yamaha YZ450F full test",
+    "url": "https://dirtbikemagazine.com/?p=101518",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Yamaha publishes the hydraulic clutch and hub; the +10% and Nissin detail are from Dirt Bike Magazine."
+  },
+  {
+   "id": "yz45-052",
+   "domain": "drivetrain",
+   "topic": "stock sprockets 2023-2025",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Stock gearing 2023-2025 is 13 front / 49 rear on a 520 chain (114 links per JT).",
+   "values": {
+    "front": "13T",
+    "rear": "49T",
+    "chain": "520 x 114"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "dealer",
+    "name": "JT Sprockets catalogue, 2025 YZ450F",
+    "url": "https://www.jtsprockets.com/catalogue/model/s3779",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "MXA calls the 49 a 'front sprocket' (clearly the rear). JT's ratio chart is internally inconsistent. Overall final-drive ratio 49/13 = 3.769."
+  },
+  {
+   "id": "yz45-053",
+   "domain": "drivetrain",
+   "topic": "stock sprockets 2026",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "For 2026 the stock rear sprocket went from 49 to 51 teeth (13/51), about 4% shorter overall gearing; testers say 2nd is now very short. Keefer recommends 13/50 for deep dirt.",
+   "values": {
+    "front": "13T",
+    "rear": "51T",
+    "final_ratio": "3.923"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc Testing, 2026 YZ450F gearing",
+    "url": "https://www.keeferinctesting.com/?p=29762",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Also reported by Dirt Bike Magazine (db26). 51/13 = 3.923 vs 49/13 = 3.769 (+4.1%)."
+  },
+  {
+   "id": "yz45-054",
+   "domain": "chassis",
+   "topic": "geometry 2023-2025 (US spec)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Yamaha USA lists 58.3 in wheelbase, 26.9 deg rake, 4.7 in trail, 38.0 in seat height, 13.8 in ground clearance, 1.6 gal fuel for 2023-2025.",
+   "values": {
+    "wheelbase": "58.3 in (1481 mm)",
+    "rake": "26.9 deg",
+    "trail": "4.7 in (119 mm)",
+    "seat_height": "38.0 in (965 mm)",
+    "ground_clearance": "13.8 in (351 mm)",
+    "fuel": "1.6 gal (6.2 L)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA 2023 YZ450F specs page",
+    "url": "https://yamahamotorsports.com/models/23-yz450f/specs",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "2025 page identical (ym25)."
+  },
+  {
+   "id": "yz45-055",
+   "domain": "chassis",
+   "topic": "geometry 2026 (US spec)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Yamaha USA lists 58.1 in wheelbase, 27.5 deg rake, 4.8 in trail, 38.0 in seat height, 13.6 in ground clearance for 2026.",
+   "values": {
+    "wheelbase": "58.1 in (1476 mm)",
+    "rake": "27.5 deg",
+    "trail": "4.8 in (122 mm)",
+    "seat_height": "38.0 in",
+    "ground_clearance": "13.6 in (345 mm)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA 2026 YZ450F specs page",
+    "url": "https://yamahamotorsports.com/models/26-yz450f/specs",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Dirt Bike says 2026 geometry is unchanged; Yamaha Australia figures differ (see conflicts). Some of the change may be the shorter 295 mm rear travel figure."
+  },
+  {
+   "id": "yz45-056",
+   "domain": "chassis",
+   "topic": "frame 2023",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "The 2023 aluminum bilateral beam frame (10+ welded pieces) lowered the tank rail-to-head pipe joint and tension pipe 15 mm, thinned subframe lower rails from 1.8 to 1.5 mm, and switched the front engine mount from 8 mm aluminum with one bolt to 4 mm steel with three bolts.",
+   "values": {
+    "head_joint": "-15 mm",
+    "subframe_rail": "1.8 -> 1.5 mm",
+    "front_mount": "4 mm steel x3 bolts"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Hub UK, 2023 YZ450F introduction (Yamaha Europe info)",
+    "url": "https://www.dirthub.co.uk/introducing-the-all-new-2023-yamaha-yz450f-and-full-2023-yamaha-off-road-range/",
+    "date": "2022-08"
+   },
+   "confidence": "medium",
+   "notes": "Subframe figure from MXP (mxp23)."
+  },
+  {
+   "id": "yz45-057",
+   "domain": "chassis",
+   "topic": "ergonomics 2023",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "2023 bodywork: radiator shrouds 50 mm narrower, tank 6 mm narrower, seat 15 mm flatter and 5 mm taller, footpegs 5 mm lower and 5 mm back (footpeg-to-seat +10 mm).",
+   "values": {
+    "shrouds": "-50 mm",
+    "tank": "-6 mm",
+    "seat": "+5 mm taller",
+    "pegs": "5 mm down, 5 mm back"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2023 YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz450f",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Matches MXP (mxp23)."
+  },
+  {
+   "id": "yz45-058",
+   "domain": "chassis",
+   "topic": "handling 2023-2024",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Testers called the 2023-2024 the sharpest-turning YZ450F yet but the least stable at speed: aggressive turn-in, some front-end oversteer, and head-shake.",
+   "values": {
+    "handling": "quick turning, nervous at speed"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2023 YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz450f",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Cycle News: 2024 agile but lacked high-speed and front-loaded stability (cn25)."
+  },
+  {
+   "id": "yz45-059",
+   "domain": "chassis",
+   "topic": "handling 2025",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "With the 2025 linkage, settings and mounts, testers found the bike more planted and less twitchy at speed, with less pitching on braking bumps and downhills.",
+   "values": {
+    "handling": "more stable than 2024"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News, 2025 Yamaha YZ450F review",
+    "url": "https://www.cyclenews.com/2024/09/article/2025-yamaha-yz450f-review/",
+    "date": "2024-09"
+   },
+   "confidence": "medium",
+   "notes": "Dirt Bike 2025 ratings: stability 4/5, cornering 4/5 (db25sh)."
+  },
+  {
+   "id": "yz45-060",
+   "domain": "chassis",
+   "topic": "handling 2026",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Testers describe the 2026 front as more planted and less nervous on entry, a middle ground between the precise 2023-2025 chassis and calmer 2022; it slides through flat turns more than it carves ruts.",
+   "values": {
+    "handling": "more planted, predictable"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine, 2026 Yamaha YZ450F full test",
+    "url": "https://dirtbikemagazine.com/?p=101518",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Vital testers: front traction in flat turns and ruts weaker than Honda/KTM (vital26). Keefer: one of the most stable, not as good as 2022 (kif26w)."
+  },
+  {
+   "id": "yz45-061",
+   "domain": "chassis",
+   "topic": "triple clamp offset",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Stock triple clamp offset is 22 mm; MXA testers preferred 23 mm aftermarket clamps for stability.",
+   "values": {
+    "stock_offset": "22 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2024 YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz450f",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "yz45-062",
+   "domain": "suspension",
+   "topic": "travel",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Front KYB SSS coil fork 310 mm (12.2 in) all years. Rear shock listed 315 mm (12.4 in) for 2023-2025 and 295 mm (11.6 in) for 2026.",
+   "values": {
+    "fork_travel": "310 mm",
+    "shock_travel_2023_2025": "315 mm",
+    "shock_travel_2026": "295 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA 2026 YZ450F specs page",
+    "url": "https://yamahamotorsports.com/models/26-yz450f/specs",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "See conflicts on rear travel."
+  },
+  {
+   "id": "yz45-063",
+   "domain": "suspension",
+   "topic": "2026 shock",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "2026 shock gets a new base valve and a hand-adjustable low-speed compression clicker for smoother low-to-high-speed transition; testers call the setup stiff but well balanced, best at high speed on rough tracks.",
+   "values": {
+    "low_speed_compression": "hand adjustable"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "GateDrop, 2026 YZ450F revealed (Yamaha USA release)",
+    "url": "https://gatedrop.com/?p=185735",
+    "date": "2025-06"
+   },
+   "confidence": "high",
+   "notes": "Valve detail in br26 (4->6 ports, 24->28 mm base valve)."
+  },
+  {
+   "id": "yz45-064",
+   "domain": "suspension",
+   "topic": "2025 linkage and settings",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "2025 revised linkage (MXA: stiffer linkage, softer spring) and fork shims; Yamaha suggests 106 mm sag per Swapmoto.",
+   "values": {
+    "recommended_sag": "106 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA 2025 YZ450F features page",
+    "url": "https://www.yamahamotorsports.com/models/25-yz450f/features",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Linkage ratio numbers not published."
+  },
+  {
+   "id": "yz45-065",
+   "domain": "setups",
+   "topic": "MXA 2023 suspension setup",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "MXA 2023 setup: fork 5.0 N/mm springs, 270 cc oil, compression 10 out, rebound 13 out, forks flush; shock 58 N/mm, 105 mm sag (stock 100), HSC 1-1/8 turns out, LSC 12 out, rebound 13 out.",
+   "values": {
+    "fork_spring": "5.0 N/mm",
+    "shock_spring": "58 N/mm",
+    "sag": "105 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2023 YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz450f",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Testers slid forks down in clamps to reduce head-shake."
+  },
+  {
+   "id": "yz45-066",
+   "domain": "setups",
+   "topic": "Dirt Bike 2024 setups",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Dirt Bike 2024: for quicker steering about 102 mm sag and forks up 7 mm; for stability 105-108 mm sag and forks flush.",
+   "values": {
+    "steering_setup": "102 mm sag, forks 7 mm",
+    "stability_setup": "105-108 mm sag, flush"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine, 2024 YZ450F full test",
+    "url": "https://dirtbikemagazine.com/2024-yamaha-yz450f-full-test/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "yz45-067",
+   "domain": "setups",
+   "topic": "2025-2026 sag and fork height",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "2025: Cycle News ran 102 mm sag and 2 clicks softer fork; Swapmoto raised forks 5 mm with 103 mm sag. 2026: Dirt Bike runs about 106 mm sag, forks flush for fast tracks, forks up about 2 mm for tight tracks.",
+   "values": {
+    "cn25_sag": "102 mm",
+    "swap25": "103 mm, forks +5 mm",
+    "db26_sag": "106 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine, 2026 Yamaha YZ450F full test",
+    "url": "https://dirtbikemagazine.com/?p=101518",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Sources: cn25, swap25, db26."
+  },
+  {
+   "id": "yz45-068",
+   "domain": "known_issues",
+   "topic": "airbox dirt and backfire screen",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Dirt can pass the thin filter-cage channel at the front, and because the backfire screen is part of the filter cage, pulling the filter lets dirt drop into the throttle body. Fix: heavy grease on the filter front edge, cover the intake when servicing.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2023 YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz450f",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Repeated in MXA 2024 test."
+  },
+  {
+   "id": "yz45-069",
+   "domain": "known_issues",
+   "topic": "clutch fade",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "The 2023-2024 disc-spring cable clutch faded early in motos and testers judged the spring too soft; fixes were a stiffer aftermarket disc spring or the GYTR hydraulic kit. Yamaha added more clutch oil holes for 2025 and a hydraulic clutch with 10% more spring tension for 2026.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2023 YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz450f",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "See mxa24, ym25f, db26."
+  },
+  {
+   "id": "yz45-070",
+   "domain": "known_issues",
+   "topic": "map/kill button and footpeg brackets",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "The kill button sits above the map button, so the map can change by accident, and the large aluminum shifter-side footpeg bracket gets stepped on. Yamaha fixed both for 2025 (raised-rib switchbox, slimmer brackets).",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2024 YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz450f",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "yz45-071",
+   "domain": "known_issues",
+   "topic": "throttle-hand blisters (Yama-thumb)",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Riders got thumb blisters from the throttle position; for 2025 the throttle tube moved out 10 mm.",
+   "values": {
+    "fix": "throttle tube +10 mm (2025)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News, 2025 Yamaha YZ450F review",
+    "url": "https://www.cyclenews.com/2024/09/article/2025-yamaha-yz450f-review/",
+    "date": "2024-09"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "yz45-072",
+   "domain": "known_issues",
+   "topic": "head-shake at speed",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "2023-2024 head-shake and oversteer at speed; fixes were forks lower in the clamps, steering stem nut tension, 23 mm offset clamps; Yamaha addressed it with 2025 linkage/mounts and the 2026 frame.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2024 YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz450f",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "yz45-073",
+   "domain": "known_issues",
+   "topic": "2026 short second gear",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "With the 51-tooth rear sprocket, 2nd gear runs out quickly and 3rd struggles in some corners; 13/50 is a common fix.",
+   "values": {
+    "fix": "13/50"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc Testing, 2026 YZ450F gearing",
+    "url": "https://www.keeferinctesting.com/?p=29762",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Vital testers also noted more shifting (vital26)."
+  },
+  {
+   "id": "yz45-074",
+   "domain": "known_issues",
+   "topic": "2026 fork balance",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Some Vital testers found the 2026 fork overpowered the shock and turned harsh deeper in the stroke; raising the forks and softening the front helped.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX, 2026 450 shootout",
+    "url": "https://www.vitalmx.com/comment/8453606",
+    "date": "2025-11"
+   },
+   "confidence": "low",
+   "notes": "Other tests praised the fork; treat as setup-dependent."
+  },
+  {
+   "id": "yz45-075",
+   "domain": "known_issues",
+   "topic": "seat and ergonomics",
+   "applies_to": {
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Common complaints: tall, narrow (about 5 in) and stiff seat, tiny crossbar pad, boot tops catching the right side panel.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2023 YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz450f",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "cn25 also notes stiff seat foam."
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "rake and trail",
+   "records": [
+    "yz45-054",
+    "yz45-055"
+   ],
+   "spread": "US 2023-2025: 26.9 deg / 4.7 in (119 mm); US 2026: 27.5 deg / 4.8 in; Yamaha Australia 2026 (ADB): 27.3 deg / 123 mm; 1000PS 2026: 27 deg / 121 mm. Dirt Bike says 2026 geometry unchanged.",
+   "note": "Possibly measured at different static conditions or changed with the 295 mm rear travel figure; unresolved."
+  },
+  {
+   "topic": "rear wheel travel",
+   "records": [
+    "yz45-062"
+   ],
+   "spread": "315 mm (12.4 in) US 2023-2025 and MCNews 2023; 12.5 in Ultimate Motorcycling 2023; 295 mm (11.6 in) for 2026 (US, AU) and 1000PS lists 295 mm for 2026.",
+   "note": "No source explains a 20 mm travel cut; may be a spec-sheet correction."
+  },
+  {
+   "topic": "launch control rpm range",
+   "records": [
+    "yz45-046"
+   ],
+   "spread": "6,000-11,000 rpm (Yamaha USA, Yamaha Europe info) vs 7,000-12,000 rpm (Ultimate Motorcycling 2023).",
+   "note": "OEM figure preferred."
+  },
+  {
+   "topic": "peak horsepower across dynos",
+   "records": [
+    "yz45-026",
+    "yz45-027",
+    "yz45-029",
+    "yz45-030",
+    "yz45-031",
+    "yz45-032",
+    "yz45-033"
+   ],
+   "spread": "53.62 hp (Vital/Race Tech 2026) to 58.95 hp (MXA 2023/2024); Dirt Rider Dynojet 250i 54.4 (2023) and 55.3 (2025); ADB Dyno Dynamics 56.4 (2024); Dirt Bike/Pro Circuit 56.7 (2026).",
+   "note": "Different dynos and correction; compare only within one source."
+  },
+  {
+   "topic": "2023-2024 measured weight",
+   "records": [
+    "yz45-040",
+    "yz45-041"
+   ],
+   "spread": "231.5 lb (Dirt Bike, no fuel, corrected from 235.7) vs 233 lb (MXA, fuel condition not stated).",
+   "note": ""
+  },
+  {
+   "topic": "2026 claimed wet weight",
+   "records": [
+    "yz45-044"
+   ],
+   "spread": "243 lb US; 110 kg AU (MCNews, ADB, 1000PS); BikeReview says 109 kg and 1 kg heavier than 2025; 2027 AU sheet 109 kg.",
+   "note": ""
+  },
+  {
+   "topic": "2026 low-end power",
+   "records": [
+    "yz45-036"
+   ],
+   "spread": "Dirt Bike: power starts earlier; MotoOnline: bottom slightly softer than 2025; Vital testers: less versatile and slower revving, but larger sprocket helps low end; ADB long-termer: mellower curve, dismisses lacking-bottom claims.",
+   "note": "Gearing change (49->51) confounds engine change."
+  },
+  {
+   "topic": "prior intake valve size",
+   "records": [
+    "yz45-015"
+   ],
+   "spread": "MXP says 37 -> 39 mm; no Yamaha source for the 2022 size found.",
+   "note": ""
+  },
+  {
+   "topic": "front engine mount thickness",
+   "records": [
+    "yz45-056",
+    "yz45-005",
+    "yz45-008"
+   ],
+   "spread": "2023: 4 mm steel x3 bolts (Yamaha Europe); 2025: back to one piece (Cycle News); 2026: 6 mm (BikeReview).",
+   "note": "Material/thickness evolution not fully published."
+  },
+  {
+   "topic": "MSRP 2025",
+   "records": [
+    "yz45-005"
+   ],
+   "spread": "$9,999 at launch (Cycle News, Dirt Bike) vs $10,299 on current Yamaha 2025 spec page.",
+   "note": "Likely mid-year price increase."
+  }
+ ],
+ "not_found": [
+  {
+   "item": "Internal gear ratios (1st-5th) and primary reduction ratio, 2023-2026",
+   "searched": "Yamaha USA spec pages, Yamaha AU spec sheets, 1000PS, Wikipedia, web searches for owner's/service manual ratio tables",
+   "note": "Not in public spec pages; service manual is paywalled. Speed per gear at rev limit therefore not derived."
+  },
+  {
+   "item": "Stock rear tire rolling circumference (Dunlop Geomax MX33 120/80-19)",
+   "searched": "not reached before search budget ran out",
+   "note": "Needed with gear ratios for speed per gear."
+  },
+  {
+   "item": "Exhaust valve diameter",
+   "searched": "Yamaha press info, Wiseco/Kibblewhite listings",
+   "note": "Only 39 mm intake published."
+  },
+  {
+   "item": "Cam lift, duration, timing",
+   "searched": "Yamaha press kits (via magazines), MXA, Dirt Bike",
+   "note": "Not published; 2026 'new cam' reported without specs."
+  },
+  {
+   "item": "Connecting rod length, injector spec (holes/flow/pressure)",
+   "searched": "press materials and tests",
+   "note": "Not published."
+  },
+  {
+   "item": "Absolute rev limit from Yamaha",
+   "searched": "Yamaha USA/Europe/AU releases",
+   "note": "Only '+500 rpm' published; 11,700 rpm is MXA's figure."
+  },
+  {
+   "item": "Rear linkage ratio numbers (2025 change)",
+   "searched": "Yamaha features, MXA, Cycle News",
+   "note": "Described qualitatively only."
+  },
+  {
+   "item": "Recalls / service bulletins 2023-2026",
+   "searched": "not completed: shared web-search budget was exhausted before recall databases (NHTSA does not cover off-road; CPSC) could be searched",
+   "note": "Needs follow-up."
+  },
+  {
+   "item": "MXA dyno numbers for 2025 and 2026; Dirt Rider 2024 and 2026 YZ dynos; Dirt Bike 2023-2025 shootout dynos",
+   "searched": "MXA site search, Dirt Rider pages fetched (2026 comparison page body not returned)",
+   "note": "Search budget exhausted before these were located."
+  },
+  {
+   "item": "yamahamotorsports.com 24-yz450f spec page",
+   "searched": "fetch blocked (provenance) before it appeared in search results",
+   "note": "2024 assumed identical to 2023/2025 per magazines."
+  }
+ ],
+ "sources": [
+  {
+   "type": "manufacturer",
+   "name": "Yamaha Motor USA 2023 YZ450F specs page",
+   "url": "https://yamahamotorsports.com/models/23-yz450f/specs",
+   "date": "2022"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Yamaha Motor USA 2025 YZ450F features page",
+   "url": "https://www.yamahamotorsports.com/models/25-yz450f/features",
+   "date": "2024"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Yamaha Motor USA 2025 YZ450F specs page",
+   "url": "https://yamahamotorsports.com/models/25-yz450f/specs",
+   "date": "2024"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Yamaha Motor USA 2026 YZ450F specs page",
+   "url": "https://yamahamotorsports.com/models/26-yz450f/specs",
+   "date": "2025"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Yamaha Motor Australia 2027 YZ450F spec sheet",
+   "url": "https://www.yamaha-motor.com.au/-/media/files/spec-sheets/motorcycle/2027/2027_yz450f.ashx",
+   "date": "2026"
+  },
+  {
+   "type": "magazine",
+   "name": "Motorcycle.com (reprint of Yamaha USA 2023 press release)",
+   "url": "https://www.motorcycle.com/2022/08/10/manufacturers/yamaha/yamaha-announces-new-2023-yz450f-yz125x-and-yz250x/",
+   "date": "2022-08"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action, 2023 YZ450F first look",
+   "url": "https://motocrossactionmag.com/2023-yamaha-yz450f",
+   "date": "2022-08"
+  },
+  {
+   "type": "magazine",
+   "name": "MCNews.com.au, 2023 YZ450F release",
+   "url": "https://mcnews.com.au/?p=394181",
+   "date": "2022-08"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Hub UK, 2023 YZ450F introduction (Yamaha Europe info)",
+   "url": "https://www.dirthub.co.uk/introducing-the-all-new-2023-yamaha-yz450f-and-full-2023-yamaha-off-road-range/",
+   "date": "2022-08"
+  },
+  {
+   "type": "magazine",
+   "name": "Australasian Dirt Bike, Yamaha reveals new 2023 YZ450F",
+   "url": "https://adbmag.com.au/editorial/yamaha-reveals-new-2023-yz450f/",
+   "date": "2022-08"
+  },
+  {
+   "type": "magazine",
+   "name": "MXP Magazine, Introducing the all-new 2023 YZ450F",
+   "url": "https://www.mxpmag.com/introducing-the-all-new-2023-yz450f-new-bike-with-countless-new-features/",
+   "date": "2022-08"
+  },
+  {
+   "type": "magazine",
+   "name": "Ultimate Motorcycling, 2023 YZ450F first look",
+   "url": "https://ultimatemotorcycling.com/2022/08/12/2023-yamaha-yz450f-first-look-18-fast-facts-45-photos/",
+   "date": "2022-08"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider, 2023 Yamaha YZ450F dyno test",
+   "url": "https://dirtrider.com/tests/yamaha-yz450f-dyno-test-2023",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider, 2023 Yamaha YZ450F technical information",
+   "url": "https://dirtrider.com/dirt-bikes/yamaha-yz450f-technical-information-2023",
+   "date": "2023-01"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action, race test of the 2023 YZ450F",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz450f",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Magazine, 2023 YZ450F weight correction",
+   "url": "https://dirtbikemagazine.com/2023-yamaha-yz450f-weight-correction/",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "BikeReview.com.au, 2023 YZ450F Australian launch",
+   "url": "https://bikereview.com.au/review-2023-yamaha-yz450f-aussie-launch/",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action, race test of the 2024 YZ450F",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz450f",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Magazine, 2024 YZ450F full test",
+   "url": "https://dirtbikemagazine.com/2024-yamaha-yz450f-full-test/",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Australasian Dirt Bike, 2024 YZ450F dyno test (Power Tuner maps)",
+   "url": "https://adbmag.com.au/editorial/2024-yamaha-yz450f-dyno-test/",
+   "date": "2024-03"
+  },
+  {
+   "type": "magazine",
+   "name": "DirtBikeTest.com, first look 2024 Yamaha models",
+   "url": "https://dirtbiketest.com/fresh-dirt/first-look-2024-yamaha-models",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News, 2025 Yamaha YZ450F review",
+   "url": "https://www.cyclenews.com/2024/09/article/2025-yamaha-yz450f-review/",
+   "date": "2024-09"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action, 2025 YZ450F first test (video page)",
+   "url": "https://motocrossactionmag.com/mxa-video-2025-yamaha-yz450f-tested",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider, 2025 Yamaha YZ450F dyno test",
+   "url": "https://www.dirtrider.com/tests/yamaha-yz450f-dyno-test-2025",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Magazine, 2025 450 shootout ratings",
+   "url": "https://dirtbikemagazine.com/2025-450-shootout-ratings-notes-the-wrap/",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Swapmoto Live, 2025 450 MX shootout",
+   "url": "https://swapmotolive.com/2025-450-mx-bike-shootout-in-depth/shootout/2025-450-shootout/7",
+   "date": "2024"
+  },
+  {
+   "type": "dealer",
+   "name": "JT Sprockets catalogue, 2025 YZ450F",
+   "url": "https://www.jtsprockets.com/catalogue/model/s3779",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News, new 2026 YZ450F and YZ250F specs and price",
+   "url": "https://www.cyclenews.com/2025/06/article/new-2026-yamaha-yz450f-and-yz250f-specs-and-price",
+   "date": "2025-06"
+  },
+  {
+   "type": "magazine",
+   "name": "GateDrop, 2026 YZ450F revealed (Yamaha USA release)",
+   "url": "https://gatedrop.com/?p=185735",
+   "date": "2025-06"
+  },
+  {
+   "type": "magazine",
+   "name": "MCNews.com.au, 2026 Yamaha off-road range",
+   "url": "https://www.mcnews.com.au/?p=532891",
+   "date": "2025-06"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Magazine, 2026 Yamaha YZ450F full test",
+   "url": "https://dirtbikemagazine.com/?p=101518",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Magazine, 2026 450 shootout dyno wrap (Pro Circuit dyno)",
+   "url": "https://dirtbikemagazine.com/?p=101733",
+   "date": "2025-11"
+  },
+  {
+   "type": "magazine",
+   "name": "Vital MX, 2026 450 shootout",
+   "url": "https://www.vitalmx.com/comment/8453606",
+   "date": "2025-11"
+  },
+  {
+   "type": "magazine",
+   "name": "Keefer Inc Testing, 2026 YZ450F gearing",
+   "url": "https://www.keeferinctesting.com/?p=29762",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Keefer Inc Testing, why the 2026 YZ450F is winning shootouts",
+   "url": "https://www.keeferinctesting.com/?p=29460",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Australasian Dirt Bike, 2026 YZ450F launch",
+   "url": "https://adbmag.com.au/editorial/motocross-launch-2026-yamaha-yz450f/",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Australasian Dirt Bike, 2026 YZ450F long-term test part 4",
+   "url": "https://adbmag.com.au/editorial/long-term-test-4-2026-yamaha-yz450f/",
+   "date": "2026-03"
+  },
+  {
+   "type": "magazine",
+   "name": "BikeReview.com.au, 2026 YZ450F launch test",
+   "url": "https://bikereview.com.au/bike-review-launch-2026-yamaha-yz450f-motocrosser-test/",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "MotoOnline, tested 2026 YZ450F (US)",
+   "url": "https://www.motoonline.com/us/tested-2026-yamaha-yz450f-2/",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "1000PS, Yamaha YZ450F 2026 model page and test",
+   "url": "https://www.1000ps.com/en-us/model/1263/yamaha-yz450f/2026",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Motorcycle & Powersports News, Yamaha 2027 off-road lineup",
+   "url": "https://www.motorcyclepowersportsnews.com/?p=208582",
+   "date": "2026-06"
+  },
+  {
+   "type": "dealer",
+   "name": "Autotrader dealer listing, 2027 YZ450F Monster Energy Edition (Yamaha copy)",
+   "url": "https://motorcycles.autotrader.com/motorcycles/2027/yamaha/yz450f/201988554",
+   "date": "2026"
+  }
+ ]
+}
