@@ -1,3 +1,4 @@
+import {catalogColors,plasticsColors} from '../shared/build-visual';
 import {useEffect,useMemo,useRef,useState,type ReactNode} from 'react';
 import {Check,ChevronLeft,ChevronRight,CircleDot,Cog,Cpu,Disc,Disc3,Flame,Frame,Hand,Layers,Link as LinkIcon,MoveVertical,Plus,Search,Shield,Trash2,Wind,X} from 'lucide-react';
 import type {Bike} from '../shared/types';
@@ -38,6 +39,7 @@ export function BikeParts({bike,onSaved,onAsk}:{bike:Bike;onSaved:(b:Bike)=>void
     <span className={'bp-state '+(parts.length?'changed':stock?'stock':'unknown')}>{parts.length?<>Changed · {parts.length}</>:stock?<><Check size={13}/>Stock</>:'Tap to set'}</span>
     <ChevronRight size={16} className="bp-chev"/>
    </button></li>})}</ul>
+  {resolveBikeVisual(bike)&&<label>Plastics kit color<select disabled={busy} value={value.plastics??''} onChange={e=>void save({...value,plastics:e.target.value||undefined})}><option value="">OEM / stock kit</option>{plasticsColors.map(c=><option key={c.id} value={c.id}>{c.name} · {c.status.toLowerCase()} swatch</option>)}</select></label>}
   {changed&&onAsk&&<button className="text-button" onClick={()=>onAsk(`I've recorded my aftermarket parts in the Garage. Anything I should check or set up differently because of what's fitted?`)}>Ask BAK about this build <ChevronRight size={14}/></button>}
   {open&&<SystemSheet key={open} system={open} bike={bike} value={value} catalog={catalog??null} busy={busy} close={()=>setOpen(null)} save={save}/>}
  </section>;
@@ -71,7 +73,7 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
   const parts=[...others,...(mode==='changed'?picked:[])];
   const stock=value.stock.filter(s=>s!==system).concat(mode==='stock'?[system]:[]);
   const notes={...value.notes};if(note.trim()&&mode!=='unknown')notes[system]=note.trim();else delete notes[system];
-  save({parts,stock,notes});
+  save({parts,stock,notes,plastics:value.plastics});
  }
  const title=screen.id==='home'?meta.label:screen.id==='type'?'What did you change?':screen.id==='work'?'Who did it?':screen.id==='detail'?screen.work.label:screen.id==='brand'?'Which brand?':screen.id==='product'?screen.brand:'Add it yourself';
  const sub=screen.id==='home'?meta.hint:screen.id==='brand'?(screen.type??'Any '+meta.label.toLowerCase()+' part'):screen.id==='product'?(screen.type??meta.label):screen.id==='type'?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:screen.id==='work'?screen.work.label:screen.id==='detail'?(screen.who||'Who did it not recorded'):'';
@@ -98,6 +100,7 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
       <ul className="nav-list">
        {picked.map(p=>{const r=notesFor(p),k=key(p),has=!!(r&&(r.what||r.caution||r.testers.length))||!!p.p;return <li key={k} className="fitted">
         <div className="fitted-top"><span className="nav-main"><small className="fitted-brand">{p.b||'Brand not set'}</small><b>{cleanName(p.b,p.n)}</b>{p.d&&<small>{p.d}</small>}</span><button className="fitted-remove" onClick={()=>setPicked(picked.filter(x=>key(x)!==k))} aria-label={`Remove ${partLabel(p)}`}>Remove</button></div>
+        {catalogColors(p.b,p.n).length>0&&<label>Which color is fitted?<select value={p.color??''} onChange={e=>setPicked(picked.map(x=>key(x)===k?{...x,color:e.target.value||undefined}:x))}><option value="">Unknown — show stock finish</option>{catalogColors(p.b,p.n).map(c=><option key={c.id} value={c.id}>{c.name} · {c.status.toLowerCase()} swatch</option>)}</select></label>}
         {has&&<details className="part-notes"><summary>{r&&(r.what||r.caution)?'What this part changes':'Details'}</summary>
          {r?.what&&<p><span>What it changes</span>{r.what}</p>}{r?.caution&&<p className="caution"><span>Heads up</span>{r.caution}</p>}{r?.testers.slice(0,1).map(x=><p key={x}><span>Testers found</span>{x}</p>)}{p.p&&<p><span>Part number</span>{p.p}</p>}
         </details>}
@@ -156,3 +159,4 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
  </div>;
 }
 function Labeled({label,children}:{label:string;children:ReactNode}){return <label className="field"><span>{label}</span>{children}</label>}
+import {resolveBikeVisual} from '../shared/bike-visual';

@@ -3,6 +3,8 @@ import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
 import {RoomEnvironment} from 'three/addons/environments/RoomEnvironment.js';
 import {GLTFExporter} from 'three/addons/exporters/GLTFExporter.js';
 import {createBikeModel,disposeBikeModel} from './model.ts';
+import {applyVisualBuild} from './apply-build.ts';
+import {resolveVisualBuild} from '../../shared/build-visual.ts';
 import {parseBikeDimensions,type BikeDimensions} from '../../shared/bike-visual.ts';
 export type CameraView='perspective'|'left'|'right'|'front'|'rear'|'top';
 export function fitCameraDistance(radius:number,fov:number,aspect:number){
@@ -34,7 +36,7 @@ export function mountBikeScene(host:HTMLElement,dimensions:BikeDimensions,onErro
  for(const [x,y,z,power] of [[2,4,3,5],[-2,3,-3,4],[0,3,0,2]]){const light=new T.DirectionalLight(0xffffff,power);light.position.set(x,y,z);scene.add(light);}
  const floor=new T.Mesh(new T.CircleGeometry(4,64),new T.MeshStandardMaterial({color:0x202c32,roughness:.95}));floor.rotation.x=-Math.PI/2;floor.position.y=-.015;scene.add(floor);
  const grid=new T.GridHelper(6,30,0x344149,0x26343b);grid.position.y=-.012;scene.add(grid);
- let bike=createBikeModel(dimensions);scene.add(bike);
+ let bike=createBikeModel(dimensions);scene.add(bike);let configuration:Record<string,unknown>={};
  let disposed=false,visible=true,paused=false,frame=0;
  function render(){frame=0;if(!disposed&&visible&&!paused&&!document.hidden){try{renderer.render(scene,camera);}catch{onError('The 3D preview could not render. Close and reopen the viewer.');}}}
  function invalidate(){if(!disposed&&!frame&&visible&&!paused&&!document.hidden)frame=requestAnimationFrame(render);}
@@ -49,12 +51,13 @@ export function mountBikeScene(host:HTMLElement,dimensions:BikeDimensions,onErro
  return {
   setView,
   setPaused(value:boolean){paused=value;if(paused&&frame){cancelAnimationFrame(frame);frame=0;}invalidate();},
-  updateDimensions(value:BikeDimensions){bike=replaceBikeModel(scene,bike,value);invalidate();},
+  updateDimensions(value:BikeDimensions){bike=replaceBikeModel(scene,bike,value);applyVisualBuild(bike,resolveVisualBuild(configuration));invalidate();},
+  updateBuild(value:Record<string,unknown>){configuration=value;applyVisualBuild(bike,resolveVisualBuild(value));invalidate();},
   setWireframe(value:boolean){bike.traverse(o=>{if(o instanceof T.Mesh)for(const m of Array.isArray(o.material)?o.material:[o.material])if(m instanceof T.MeshStandardMaterial)m.wireframe=value;});invalidate();},
   setComponent(id:string,value:boolean){const g=bike.getObjectByName(id);if(g)g.visible=value;invalidate();},
   async exportGLB(){// Export a clean clone: inspection visibility and wireframe never alter the OEM assembly export.
-   const clone=bike.clone(true);clone.traverse(o=>{o.visible=true;if(o instanceof T.Mesh){const make=(m:T.Material)=>{const c=m.clone();if(c instanceof T.MeshStandardMaterial)c.wireframe=false;return c;};o.material=Array.isArray(o.material)?o.material.map(make):make(o.material);}});
-   try{return await new GLTFExporter().parseAsync(clone,{binary:true,onlyVisible:false}) as ArrayBuffer;}finally{const materials=new Set<T.Material>();clone.traverse(o=>{if(o instanceof T.Mesh)for(const m of Array.isArray(o.material)?o.material:[o.material])materials.add(m);});materials.forEach(m=>m.dispose());}
+   const clone=bike.clone(true);clone.children.forEach(o=>{o.visible=true;});clone.traverse(o=>{if(o instanceof T.Mesh){const make=(m:T.Material)=>{const c=m.clone();if(c instanceof T.MeshStandardMaterial)c.wireframe=false;return c;};o.material=Array.isArray(o.material)?o.material.map(make):make(o.material);}});
+   try{return await new GLTFExporter().parseAsync(clone,{binary:true,onlyVisible:true}) as ArrayBuffer;}finally{const materials=new Set<T.Material>();clone.traverse(o=>{if(o instanceof T.Mesh)for(const m of Array.isArray(o.material)?o.material:[o.material])materials.add(m);});materials.forEach(m=>m.dispose());}
   },
   dispose(){if(disposed)return;for(const release of cleanup.reverse())release();}
  };

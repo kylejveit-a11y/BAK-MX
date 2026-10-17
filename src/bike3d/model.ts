@@ -11,6 +11,10 @@ export function createBikeModel(input:BikeDimensions=defaultBikeDimensions){
  root.userData={accuracy:'BLOCKOUT_NOT_OEM_VERIFIED',units:'meters',identity:'KTM|450 SX-F|2025|standard|US',dimensions:d};
  const mats={orange:new T.MeshStandardMaterial({color:0xff5808,roughness:.32}),black:new T.MeshStandardMaterial({color:0x181b1d,roughness:.42}),rubber:new T.MeshStandardMaterial({color:0x17191b,roughness:.95}),seat:new T.MeshStandardMaterial({color:0x252629,roughness:.9}),silver:new T.MeshStandardMaterial({color:0xb7bec6,metalness:.8,roughness:.33}),steel:new T.MeshStandardMaterial({color:0x626c74,metalness:.85,roughness:.28}),engine:new T.MeshStandardMaterial({color:0x777c81,metalness:.65,roughness:.47}),white:new T.MeshStandardMaterial({color:0xecebe8,roughness:.4})};
  const groups=Object.fromEntries(visualComponents.map(([id,label])=>{const g=new T.Group();g.name=id;g.userData={label,geometryStatus:'ESTIMATED',replacementBoundary:true};root.add(g);return[id,g];})) as Record<string,T.Group>;
+ const kit=Object.fromEntries(['front-fender','number-plate','shrouds','side-panels','rear-fender','airbox-cover','fork-guards'].map(id=>{const g=new T.Group();g.name=id;groups.plastics.add(g);return [id,g];})) as Record<string,T.Group>;
+ const target=(name:string,base:T.MeshStandardMaterial)=>{const mat=base.clone();mat.name=name;return mat;};
+ const bars=target('bars',mats.silver),frontRim=target('front-rim',mats.black),rearRim=target('rear-rim',mats.black),plastic=target('plastics',mats.orange),airbox=target('plastics',mats.black);
+ root.userData.hardpoints={'exhaust-port':[.18,.81,.12],'bar-clamp':[.38,1.14,0],'front-axle':[d.wheelbase/2,.347,0],'rear-axle':[-d.wheelbase/2,.333,0]};
  function mesh(g:T.Group,geo:T.BufferGeometry,mat:T.Material,p:V=[0,0,0]){const m=new T.Mesh(geo,mat);m.position.set(...p);m.castShadow=true;m.receiveShadow=true;g.add(m);return m;}
  function tube(g:T.Group,a:V,b:V,r:number,mat:T.Material,r2=r){const delta=v(b).sub(v(a));const m=mesh(g,new T.CylinderGeometry(r2,r,delta.length(),16),mat,v(a).add(v(b)).multiplyScalar(.5).toArray() as V);m.quaternion.setFromUnitVectors(new T.Vector3(0,1,0),delta.normalize());return m;}
  function box(g:T.Group,p:V,s:V,mat:T.Material){return mesh(g,new T.BoxGeometry(...s),mat,p);}
@@ -31,8 +35,8 @@ export function createBikeModel(input:BikeDimensions=defaultBikeDimensions){
 
  function wheel(id:string,x:number,r:number,width:number,front:boolean){const g=groups[id];g.position.set(x,r,0);g.userData.axle=[x,r,0];
   const tire=mesh(g,new T.TorusGeometry(r-.044,.044,12,64),mats.rubber);tire.scale.z=width/.088;
-  mesh(g,new T.TorusGeometry((front?anchors.frontRimBeadSeatDiameter:anchors.rearRimBeadSeatDiameter)/2,.012,8,64),mats.silver);
-  mesh(g,new T.TorusGeometry((front?anchors.frontRimBeadSeatDiameter:anchors.rearRimBeadSeatDiameter)/2,.009,8,64),mats.black,[0,0,width*.31]);
+  mesh(g,new T.TorusGeometry((front?anchors.frontRimBeadSeatDiameter:anchors.rearRimBeadSeatDiameter)/2,.012,8,64),front?frontRim:rearRim);
+  mesh(g,new T.TorusGeometry((front?anchors.frontRimBeadSeatDiameter:anchors.rearRimBeadSeatDiameter)/2,.009,8,64),front?frontRim:rearRim,[0,0,width*.31]);
   disk(g,[0,0,0],.043,width*.8,mats.silver);
   for(let i=0;i<36;i++){const a=i*Math.PI*2/36,b=a+.2;for(const side of [-1,1])tube(g,[Math.cos(a)*.04,Math.sin(a)*.04,side*width*.3],[Math.cos(b)*(r-.08),Math.sin(b)*(r-.08),side*.006],.0018,mats.silver);}
   const tread=new T.InstancedMesh(new T.BoxGeometry(.025,.016,.025),mats.rubber,56*3),dummy=new T.Object3D();
@@ -55,7 +59,7 @@ export function createBikeModel(input:BikeDimensions=defaultBikeDimensions){
   panel([[rear-.04,.36],[rear-.04,.31],[-.20,.40],[-.20,.51]],z-.025,mats.silver,groups.swingarm,.05);
   tube(groups.fork,[front,.347,z],[.54,.76,z],.019,mats.silver,.021);
   tube(groups.fork,[.54,.76,z],[.36,1.12,z],.026,mats.silver);
-  tube(groups.fork,[front-.025,.40,z],[.58,.66,z],.029,mats.orange);
+  tube(kit['fork-guards'],[front-.025,.40,z],[.58,.66,z],.029,plastic);
  }
  for(const y of [1.03,1.115])box(groups.fork,[.39,y,0],[.07,.035,.25],mats.black);
  tube(groups.shock,[-.19,.49,0],[-.3,.83,0],.026,mats.silver);
@@ -71,17 +75,17 @@ export function createBikeModel(input:BikeDimensions=defaultBikeDimensions){
  tube(groups.exhaust,[-.40,.79,.18],[-.78,.87,.18],.057,mats.silver,.045);
  tube(groups.exhaust,[-.78,.87,.18],[-.80,.874,.18],.032,mats.black);
  shell(groups.seat,[[-.78,.99+sy,.055,.035],[-.58,.98+sy,.09,.045],[-.22,.94+sy,.105,.05],[.08,.958+sy,.08,.045],[.19,1.01+sy,.05,.04]],mats.seat);
- shell(groups.plastics,[[-1.06,1.015+sy,.025,.012],[-.83,1.005+sy,.075,.018],[-.60,.97+sy,.10,.025],[-.40,.93+sy,.11,.025]],mats.orange);
- shell(groups.plastics,[[.34,.98,.08,.025],[.54,1.00,.09,.02],[.79,.98,.085,.015],[.99,.90,.025,.012]],mats.orange);
+ shell(kit['rear-fender'],[[-1.06,1.015+sy,.025,.012],[-.83,1.005+sy,.075,.018],[-.60,.97+sy,.10,.025],[-.40,.93+sy,.11,.025]],plastic);
+ shell(kit['front-fender'],[[.34,.98,.08,.025],[.54,1.00,.09,.02],[.79,.98,.085,.015],[.99,.90,.025,.012]],plastic);
  for(const side of [-.14,.14]){
-  panel([[-.77,.98+sy],[-.49,.91+sy],[-.12,.85],[-.27,.80],[-.24,.66],[-.30,.65],[-.48,.76]],side,mats.orange);
-  panel([[-.31,.88],[.10,1.00+sy],[.46,.96],[.28,.82],[.22,.73],[.12,.71],[.11,.84]],side,mats.orange);
-  panel([[-.31,.883],[.09,.954+sy],[.32,.943],[.16,.89]],side+(side>0?.019:-.019),mats.black);
+  panel([[-.77,.98+sy],[-.49,.91+sy],[-.12,.85],[-.27,.80],[-.24,.66],[-.30,.65],[-.48,.76]],side,plastic,kit['side-panels']);
+  panel([[-.31,.88],[.10,1.00+sy],[.46,.96],[.28,.82],[.22,.73],[.12,.71],[.11,.84]],side,plastic,kit.shrouds);
+  panel([[-.31,.883],[.09,.954+sy],[.32,.943],[.16,.89]],side+(side>0?.019:-.019),airbox,kit['airbox-cover']);
  }
  for(let i=0;i<9;i++){const x=-.55+i*.055;const y=.98-(x+.58)/.36*.04+sy;tube(groups.seat,[x,y+.004,-.08],[x,y+.004,.08],.003,mats.black);}
- const plate=box(groups.plastics,[.42,1.075,.0],[.025,.20,.19],mats.orange);plate.rotation.z=.33;
- path(groups.controls,[[.36,1.16,-.40],[.34,1.18,-.23],[.38,1.14,-.12],[.38,1.14,.12],[.34,1.18,.23],[.36,1.16,.40]],.011,mats.silver);
- tube(groups.controls,[.38,1.14,-.10],[.38,1.14,.10],anchors.handlebarClampDiameter/2,mats.silver);
+ const plate=box(kit['number-plate'],[.42,1.075,.0],[.025,.20,.19],plastic);plate.rotation.z=.33;
+ path(groups.controls,[[.36,1.16,-.40],[.34,1.18,-.23],[.38,1.14,-.12],[.38,1.14,.12],[.34,1.18,.23],[.36,1.16,.40]],.011,bars);
+ tube(groups.controls,[.38,1.14,-.10],[.38,1.14,.10],anchors.handlebarClampDiameter/2,bars);
  for(const z of [-1,1]){tube(groups.controls,[.36,1.16,z*.29],[.36,1.16,z*.41],.018,mats.rubber);tube(groups.controls,[.39,1.16,z*.27],[.44,1.16,z*.40],.006,mats.silver);box(frame,[-.20,.41,z*.19],[.10,.02,.08],mats.steel);}
  path(groups.controls,[[.37,1.17,-.22],[.47,1.03,-.15],[.59,.73,-.12],[front,.38,-.08]],.004,mats.rubber);
  const drive=groups.drivetrain;disk(drive,[rear,.333,.085],.13,.008,mats.steel);

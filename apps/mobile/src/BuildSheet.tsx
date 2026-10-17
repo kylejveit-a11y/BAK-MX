@@ -1,3 +1,4 @@
+import {catalogColors,plasticsColors} from '../../../shared/build-visual';
 import React,{useEffect,useMemo,useState} from 'react';
 import {Modal,View,Text,Pressable,ScrollView,TextInput,ActivityIndicator,KeyboardAvoidingView,Platform} from 'react-native';
 import type {Bike} from '../../../shared/types';
@@ -5,7 +6,7 @@ import {partSystems,readInstalled,writeInstalled,partLabel,MAX_PARTS,type Instal
 import {decodeFamily,familyOf,NOTE_HINT,WORK,providersFor,cleanName,pickerChoices,typesWithCounts,choicesOfType,brandsIn,productsOf,type CatalogPart,type FamilyFile,type Work,type Choice} from '../../../shared/parts-picker';
 import {fuelSystem,fuelSystemLabel} from '../../../shared/fuel-system';
 import {api,apiOrigin} from './api';
-import {Button,Card,Copy,Notice,colors} from './ui';
+import {Button,Card,Copy,Notice,colors,Select} from './ui';
 
 type Value=ReturnType<typeof readInstalled>;
 type Screen={id:'home'}|{id:'type'}|{id:'work';work:Work}|{id:'detail';work:Work;who:string;r?:string}|{id:'brand';type:string|null}|{id:'product';type:string|null;brand:string}|{id:'custom';brand:string;type:string|null};
@@ -49,6 +50,7 @@ export function BuildSheet({bike,onSaved,onAsk}:{bike:Bike;onSaved:(b:Bike)=>voi
     <Text style={[st.state,parts.length?{color:colors.text}:stock?{color:colors.accent}:{color:colors.muted}]}>{parts.length?`Changed · ${parts.length}`:stock?'✓ Stock':'Tap to set'}</Text>
     <Text style={st.chev}>›</Text>
    </Pressable>;})}</View>
+  {resolveBikeVisual(bike)&&<Select disabled={busy} label="Plastics kit color" value={value.plastics??''} options={[{value:'',label:'OEM / stock kit'},...plasticsColors.map(c=>({value:c.id,label:c.name+' · '+c.status.toLowerCase()+' swatch'}))]} onChange={v=>void save({...value,plastics:v||undefined})}/>}
   {value.parts.length>0&&onAsk&&<Button secondary title="Ask BAK about this build →" onPress={()=>onAsk('I\'ve recorded my aftermarket parts in the Garage. Anything I should check or set up differently because of what\'s fitted?')}/>}
   {open&&<SystemSheet key={open} system={open} bike={bike} value={value} catalog={catalog??null} busy={busy} close={()=>setOpen(null)} save={next=>void save(next)}/>}
  </Card>;
@@ -74,7 +76,7 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
   const parts=[...others,...(mode==='changed'?picked:[])];
   const stock=value.stock.filter(s=>s!==system).concat(mode==='stock'?[system]:[]);
   const notes={...value.notes};if(note.trim()&&mode!=='unknown')notes[system]=note.trim();else delete notes[system];
-  save({parts,stock,notes});
+  save({parts,stock,notes,plastics:value.plastics});
  }
  const title=screen.id==='home'?meta.label:screen.id==='type'?'What did you change?':screen.id==='work'?'Who did it?':screen.id==='detail'?screen.work.label:screen.id==='brand'?'Which brand?':screen.id==='product'?screen.brand:'Add it yourself';
  const sub=screen.id==='home'?meta.hint:screen.id==='brand'?(screen.type??`Any ${meta.label.toLowerCase()} part`):screen.id==='product'?(screen.type??meta.label):screen.id==='type'?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:screen.id==='work'?screen.work.label:screen.id==='detail'?(screen.who||'Who did it not recorded'):'';
@@ -102,6 +104,7 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
          <View style={{flex:1,gap:2}}><Text style={st.brand}>{p.b||'BRAND NOT SET'}</Text><Text style={st.rowTitle}>{cleanName(p.b,p.n)}</Text>{!!p.d&&<Text style={st.small}>{p.d}</Text>}</View>
          <Pressable accessibilityRole="button" accessibilityLabel={`Remove ${partLabel(p)}`} onPress={()=>setPicked(picked.filter(x=>key(x)!==k))} hitSlop={8}><Text style={{color:'#f0a8b0',fontSize:15}}>Remove</Text></Pressable>
         </View>
+        {catalogColors(p.b,p.n).length>0&&<Select label="Which color is fitted?" value={p.color??''} options={[{value:'',label:'Unknown — show stock finish'},...catalogColors(p.b,p.n).map(c=>({value:c.id,label:c.name+' · '+c.status.toLowerCase()+' swatch'}))]} onChange={v=>setPicked(picked.map(x=>key(x)===k?{...x,color:v||undefined}:x))}/>}
         {has&&<Pressable accessibilityRole="button" onPress={()=>setOpenNotes(openNotes===k?null:k)}><Text style={{color:colors.accent,fontSize:14,fontWeight:'600'}}>{r&&(r.what||r.caution)?'What this part changes':'Details'} {openNotes===k?'⌄':'›'}</Text></Pressable>}
         {openNotes===k&&<View style={{gap:8}}>
          {!!r?.what&&<Note label="WHAT IT CHANGES" text={r.what}/>}{!!r?.caution&&<Note label="HEADS UP" text={r.caution} warn/>}
@@ -196,3 +199,4 @@ const st={
  noteLabel:{color:'#8d95a3',fontSize:10,letterSpacing:1.2,fontWeight:'700' as const},
  search:{backgroundColor:colors.panel,borderColor:colors.line,borderWidth:1,borderRadius:12,padding:14,color:colors.text,fontSize:16},
 };
+import {resolveBikeVisual} from '../../../shared/bike-visual';

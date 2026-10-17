@@ -1,3 +1,4 @@
+import {catalogColors,type PartColor} from './build-visual.ts';
 /** The Garage parts picker, shared by the web app and the iPhone app: catalog decoding, one name per maker, part types,
  *  work done and who did it, and the fuel-system filter. Each app supplies only its own fetch and screens. */
 import type {PartSystem} from './installed-parts.ts';
@@ -6,7 +7,7 @@ import {partTypes,typeOf} from './part-types.ts';
 import type {FuelSystem} from './fuel-system.ts';
 export {partTypes,typeOf};
 /** One part a rider can pick for their bike. r marks a researched part (it carries what it changes and tester notes). */
-export type CatalogPart={brand:string;name:string;system:PartSystem;pn:string;r?:string;verified:boolean;what:string;caution:string;testers:string[];service:boolean;fuel?:'c'|'i';links:{seller:string;url:string;price:string}[]};
+export type CatalogPart={colors?:PartColor[];brand:string;name:string;system:PartSystem;pn:string;r?:string;verified:boolean;what:string;caution:string;testers:string[];service:boolean;fuel?:'c'|'i';links:{seller:string;url:string;price:string}[]};
 export type FamilyFile={v:number;systems:PartSystem[];sellers:Record<string,string>;brands:string[];items:{b:number;n:string;s:number;p?:string;u?:string[][];r?:string;conf?:string;w?:string;c?:string;t?:string[];sv?:number;k?:'c'|'i'}[];bikes:Record<string,number[]>};
 const SELLER:Record<string,string>={cg:'Cycle Gear',ms:'MotoSport',kt:'KTM Twins',lg:'Lings',tr:'Triumph dealer',ym:'Yamaha dealer',rs:'Source'};
 export const familyOf=(make:string)=>['KTM','Husqvarna','GasGas'].includes(make)?'ktm-family':make==='Triumph'?'triumph':make==='Yamaha'?'yamaha':make==='Honda'?'honda':make==='Kawasaki'?'kawasaki':null;
@@ -16,7 +17,7 @@ export function decodeFamily(f:FamilyFile|null,make:string,model:string,year:num
  if(!f||!list)return null;
  const out:CatalogPart[]=[];let idx=0;
  for(const d of list){idx+=d;const it=f.items[idx];if(!it)continue;
-  out.push({brand:f.brands[it.b]??'',name:it.n,system:f.systems[it.s],pn:it.p??'',r:it.r,verified:it.conf==='high',what:it.w??'',caution:it.c??'',testers:it.t??[],service:!!it.sv,...(it.k?{fuel:it.k}:{}),
+  out.push({colors:catalogColors(f.brands[it.b]??'',it.n),brand:f.brands[it.b]??'',name:it.n,system:f.systems[it.s],pn:it.p??'',r:it.r,verified:it.conf==='high',what:it.w??'',caution:it.c??'',testers:it.t??[],service:!!it.sv,...(it.k?{fuel:it.k}:{}),
    links:(it.u??[]).map(([code,path,price])=>({seller:SELLER[code]??'Source',url:(f.sellers[code]??'')+path,price:price??''})).filter(l=>/^https:\/\//.test(l.url))});
  }
  return out;
