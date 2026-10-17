@@ -17,7 +17,8 @@ const DOMAIN_HINTS:[RegExp,string][]=[
  [/\b(rake|trail|wheelbase|frame|chassis|handling|corner|turn|stable|stability|weight)\b/i,'chassis'],
  [/\b(problem|issue|fail|failure|recall|bulletin|known|common|break|broke|leak|foul|fouls|fouling|boil|boils|boiling|overheat\w*|stall\w*|bog\w*|ping\w*|detonat\w*|hard start\w*|won'?t start)\b/i,'known_issues'],
  [/\b(change|changed|new|differen|vs|versus|compare|generation|update)\b/i,'identity'],
- [/\b(setup|settings|baseline|arenacross|supercross|sand|mud|hardpack|vet|novice|pro)\b/i,'setups'],
+ [/\b(setup|setups|setting|settings|baseline|start(ing)? point|arenacross|supercross|outdoors?|sand|sandy|mud|muddy|rut\w*|loam\w*|hard ?pack|hard-pack|whoops|gncc|desert|enduro|vet|novice|intermediate|pro|lb|lbs|kg|weigh\w*|heavy|light)\b/i,'setups'],
+ [/\b(suspension|fork|forks|shock|spring|springs|clicker\w*|compression|rebound|sag|air pressure|psi|bar|preload|valving|revalve\w*|bottom(s|ing|ed)? out|bottoming|wallow\w*|div(e|es|ing)|harsh|pack(s|ing)?|kick(s|ing)?|clamp\w*|offset|linkage)\b/i,'suspension'],
 ];
 const words=(s:string)=>new Set(s.toLowerCase().match(/[a-z0-9]{3,}/g)??[]);
 /** Rank the bike's knowledge for this question: domain hints from the rider's words, then word overlap. */

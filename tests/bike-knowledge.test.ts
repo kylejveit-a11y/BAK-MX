@@ -15,6 +15,9 @@ test('rider symptom words reach known issues and jetting',()=>{
  assert.equal(rankKnowledge(r,'radiator keeps boiling over')[0]?.id,'K-5');
  const m=[k('K-7','engine_mods','US restrictions and uncorking','MEASURED','throttle stop and exhaust insert'),k('K-8','chassis','rake','OEM','27 degrees')];
  assert.equal(rankKnowledge(m,'my WR feels choked, what is holding it back?')[0]?.id,'K-7');
+ const u=[k('K-9','setups','soft rutty track baseline','TUNER','fork flush, compression 8'),k('K-10','suspension','spring rate by rider weight','TUNER','170-185 lb stock'),k('K-11','engine_mods','exhaust','MEASURED','slip-on')];
+ const top=rankKnowledge(u,'what springs and clickers for a sandy rutted track at 172 lb?').map(x=>x.id);
+ assert.ok(top.indexOf('K-9')<2&&top.indexOf('K-10')<2&&top.includes('K-9')&&top.includes('K-10'));
 });
 const base={kind:'answer',summary:'s',answer:'a',setup_changes:[],observations:[],systems:[],hypotheses:[],unknowns:[],next_step:null,specifications:[],evidence_ids:[],references:[],confidence:'LIMITED',garage_updates:[]};
 const v=(claims:object[])=>responseViolations({...base,claims} as never,[],[],rows);
