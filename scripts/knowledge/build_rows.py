@@ -7,6 +7,10 @@ bike are reported, not loaded. Ids are stable: <record id>|<model>|<year>."""
 import json,glob,os,re,sys,collections
 root=os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 roster={(a,b,c) for a,b,c in json.load(open(os.path.join(root,'docs/research/aftermarket/roster-2020-2027.json')))}
+# The Garage offers some bikes before 2020 (e.g. 2018-19 YZ450F); its confirmed years are part of the roster too.
+_gm=open(os.path.join(root,'shared/garage-models.ts')).read()
+for _k,_ys in json.loads(re.search(r'const confirmedYears[^=]*=(\{.*?\});\n',_gm).group(1)).items():
+    _mk,_md=_k.split('|',1);roster|={(_mk,_md,_y) for _y in _ys}
 DOMAINS={'identity','engine_architecture','power_feel','ecu_electronics','engine_mods','chassis','suspension','drivetrain','maintenance','known_issues','setups'}
 TIERS={'OEM','MEASURED','TUNER','DERIVED','COMMUNITY'};CONF={'high','medium','low'}
 # Rider-facing text never names testers, magazines or tuners (the source field keeps them for audit).
